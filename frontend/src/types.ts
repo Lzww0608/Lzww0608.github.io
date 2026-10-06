@@ -2,6 +2,7 @@ export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' 
 export type Dynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周' | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
 export type BookId = 'old' | 'new' | 'tongjian' | 'quewen';
+export type OriginalScript = 'traditional' | 'simplified';
 export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}` | `read-${BookId}/${string}`;
 
 export interface HistoryEvent {

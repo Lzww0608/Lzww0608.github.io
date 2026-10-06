@@ -1,6 +1,6 @@
 # 项目开发 skills
 
-已为中国古代史网站收录 8 个开源技能，覆盖当前 React + TypeScript 前端、Node.js API、PostgreSQL 和测试。它们是供 AI 编程助手按任务读取的开发指导，不会增加网站运行时依赖。
+已为中国古代史网站收录 8 个开源技能，并维护 1 个项目自有技能，覆盖当前 React + TypeScript 前端、Node.js API、PostgreSQL、测试与古文阅读。它们是供 AI 编程助手按任务读取的开发指导，不会增加网站运行时依赖。
 
 ## 技能目录
 
@@ -15,6 +15,10 @@
 | [supabase-postgres-best-practices](skills/supabase-postgres-best-practices/SKILL.md) | PostgreSQL 表结构、索引、查询、连接池与权限 | [Supabase](https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices) | MIT |
 | [javascript-testing-patterns](skills/javascript-testing-patterns/SKILL.md) | JS/TS 测试设计、异常场景与数据库隔离 | [wshobson/agents](https://github.com/wshobson/agents/tree/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/javascript-typescript/skills/javascript-testing-patterns) | MIT |
 
+## 项目自有技能
+
+[historical-text-reading](skills/historical-text-reading/SKILL.md) 维护古文繁简切换、阅读偏好、底本与译文完整性。新增史料、原文阅读入口及相关 API／导入功能时读取；这是本项目维护的约定，与第三方技能正文分开更新。
+
 ## 本项目如何使用
 
 Codex 可从项目 `.agents/skills/` 发现技能，新增技能在下一轮对话中可用。可以直接说“使用 frontend-design 改进史料阅读页”或“使用 nodejs-backend-patterns 设计章节 API”。同名技能若也已在用户目录安装，可明确指定本项目中的 `SKILL.md` 路径。
@@ -28,9 +32,9 @@ Codex 可从项目 `.agents/skills/` 发现技能，新增技能在下一轮对�
 
 ## 来源、许可证与更新
 
-收录日期为 2026-10-07。全部来源固定到完整 Git 提交，而非浮动的 `main`。上游正文保持原样，并保留其参考目录与模板。Anthropic 使用技能目录内的 `LICENSE.txt`；Supabase 与 wshobson 使用上游 `LICENSE`。Vercel 仓库在 README 的 License 节声明 MIT，但该版本没有独立许可证文件，因此保留原始 README 为 `UPSTREAM-README.md`，不编造上游版权声明。
+收录日期为 2026-10-07。上述 8 个第三方技能的来源固定到完整 Git 提交，而非浮动的 `main`。上游正文保持原样，并保留其参考目录与模板。Anthropic 使用技能目录内的 `LICENSE.txt`；Supabase 与 wshobson 使用上游 `LICENSE`。Vercel 仓库在 README 的 License 节声明 MIT，但该版本没有独立许可证文件，因此保留原始 README 为 `UPSTREAM-README.md`，不编造上游版权声明。
 
-`.agents/skills.lock.json` 记录每个技能的上游路径、提交、许可证证据和全部收录文件的 SHA-256。检查完整性：
+`.agents/skills.lock.json` 记录每个技能的上游路径、提交、许可证证据和全部收录文件的 SHA-256。`localSkills` 登记项目自有技能名称，其正文跟随项目版本管理，不伪造上游提交或固定校验值。检查完整性：
 
 ```sh
 python3 .agents/verify-skills.py

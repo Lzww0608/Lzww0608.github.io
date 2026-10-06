@@ -1,8 +1,10 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowRight, ArrowLeft, ArrowUpRight, List, X } from '@phosphor-icons/react';
 import { people, books } from './data';
 import { loadChapter } from './history-api';
 import { chaptersForBook, chaptersForPerson, chapterRoute } from './library';
+import { originalParagraphs } from './original-script';
+import { useOriginalScript } from './use-original-script';
 import type { Book, ChapterSummary, ChapterResponse, HistoryPerson, Route } from './types';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
@@ -20,6 +22,10 @@ export function Reader({ book, entry, go, openPerson }: {
   const [chapter, setChapter] = useState<ChapterResponse | null>(null);
   const [readState, setReadState] = useState<ReadState>('loading');
   const [retry, setRetry] = useState(0);
+  const originalScript = useOriginalScript();
+  const paragraphs = useMemo(() => originalParagraphs(
+    chapter?.paragraphs ?? [], originalScript.displayScript, originalScript.converter,
+  ), [chapter?.paragraphs, originalScript.displayScript, originalScript.converter]);
   useEffect(() => {
     const controller = new AbortController();
     setReadState('loading');
@@ -56,9 +62,10 @@ export function Reader({ book, entry, go, openPerson }: {
       <article className="reader-main">
         <span className="eyebrow">{book.author} · 完整卷原文</span><h1>{chapter?.title ?? entry.title}</h1>
         <p className="chapter-meta">{book.kind}{entry.years ? ` · ${entry.years} 年` : ''} · {chapter?.paragraphs.length ?? entry.paragraphCount} 段</p>
-        <div className="reader-toolbar"><span>原文</span><div><button className="font-button" aria-label="减小字号" disabled={size <= 18} onClick={() => setSize(value => value - 1)}>A−</button><button className="font-button" aria-label="增大字号" disabled={size >= 30} onClick={() => setSize(value => value + 1)}>A＋</button><button className="directory-toggle" aria-expanded={showDirectory} onClick={() => setShowDirectory(value => !value)}><List size={18} />目录</button></div></div>
+        <div className="reader-toolbar"><div className="reader-text-mode"><span>原文</span><div className="script-switch" role="group" aria-label="原文繁简切换">{(['traditional', 'simplified'] as const).map(script => <button key={script} aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}</div></div><div><button className="font-button" aria-label="减小字号" disabled={size <= 18} onClick={() => setSize(value => value - 1)}>A−</button><button className="font-button" aria-label="增大字号" disabled={size >= 30} onClick={() => setSize(value => value + 1)}>A＋</button><button className="directory-toggle" aria-expanded={showDirectory} onClick={() => setShowDirectory(value => !value)}><List size={18} />目录</button></div></div>
+        <div className="script-status" role="status">{originalScript.pending && '正在准备简体显示…'}{originalScript.error ? <><span>简体转换暂不可用，当前显示繁体原文。</span> <button className="text-link small" onClick={originalScript.retry}>重试转换</button></> : originalScript.displayScript === 'simplified' && '简体为自动转换的阅读显示，可随时切回繁体原文。'}</div>
         <div className="reader-status" role="status">{readState === 'loading' && '正在打开原文…'}{readState === 'archive-pending' && '原文已打开，正在检查已发布译文…'}{readState === 'archive' && '当前显示随站保存的完整原文。'}{readState === 'error' && <><span>这一卷暂时无法打开。</span> <button className="text-link small" onClick={() => setRetry(value => value + 1)}>重新读取</button></>}</div>
-        <div className="original-text" style={{ fontSize: size }}>{chapter?.paragraphs.map(paragraph => <div key={paragraph.id} id={paragraph.id}><p><span className="paragraph-number">{paragraph.position}</span>{paragraph.original}</p>{paragraph.translation && <div className="paragraph-translation"><span>译文 · {paragraph.translation.translator}</span><p>{paragraph.translation.text}</p></div>}</div>)}</div>
+        <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map(paragraph => <div key={paragraph.id} id={paragraph.id}><p><span className="paragraph-number">{paragraph.position}</span>{paragraph.original}</p>{paragraph.translation && <div className="paragraph-translation" lang={paragraph.translation.language}><span>译文 · {paragraph.translation.translator}</span><p>{paragraph.translation.text}</p></div>}</div>)}</div>
         {chapter && <div className="reading-source"><span>完整卷原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留；阅读提示由本站整理。译文仅在校核并发布后显示。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
         <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(chapterRoute(previous)) : go('sources')}><ArrowLeft size={18} />{previous ? '上一卷' : '返回史料库'}</button>{next ? <button className="text-link" onClick={() => go(chapterRoute(next))}>下一卷 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go('sources')}>返回史料库 <ArrowRight size={18} /></button>}</div>
       </article>

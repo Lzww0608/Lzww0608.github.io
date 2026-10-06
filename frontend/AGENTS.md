@@ -20,6 +20,10 @@ The user chose this Mac as the PostgreSQL/API host and Tailscale Funnel for a fi
 
 The user requested a frontend TypeScript migration on 2026-10-07. Keep application modules in `.ts`/`.tsx` with strict type checking. Model domain data and API responses in `src/types.ts`, and validate incoming JSON before rendering. Run `npm run build`, `npm test`, and `npm run test:sites` for relevant frontend changes; the build includes `npm run typecheck`. Preserve the existing Sites packaging scripts, worker and packaging tests.
 
+## Original text scripts
+
+The user requested Traditional/Simplified switching for current and future classical texts on 2026-10-07. All original-text readers must support both modes and remember the selection across chapters, books and reloads. Default to the canonical Traditional original. Use the shared `src/use-original-script.ts`, `src/original-script.ts` and lazily loaded OpenCC converter; keep conversion in the display layer. Restore Traditional by reading the canonical text directly, never by reverse-converting Simplified. Keep archive/API/database originals, paragraph IDs/revisions and published translations intact. New sources must check ambiguous historical names (including 乾祐/乾化) and add verified phrase exceptions when needed. Follow the project-authored `.agents/skills/historical-text-reading/SKILL.md` for content/reader changes.
+
 ## Local source library
 
 The user requested full local originals for the five founding emperors on 2026-10-07, with Zizhi Tongjian and supplemental historical notes. Reading and chapter navigation must work within the site. Keep optional provenance links separate from reading actions. `predev` and `prebuild` copy the verified public archive into `public/history/`; do not bundle all chapter texts into the initial JavaScript or commit generated copies. Each chapter route must resolve to its own book and person, including in modals and cross-book reading links.

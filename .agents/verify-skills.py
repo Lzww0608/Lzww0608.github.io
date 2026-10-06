@@ -51,9 +51,28 @@ def main():
             if not (folder / target.split('#')[0]).is_file():
                 raise ValueError('Missing skill reference: ' + name + ': ' + target)
         total_files += len(actual_files)
-    if {path.name for path in skills_root.iterdir()} != names:
+    local_names = set()
+    for name in lock.get('localSkills', []):
+        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', name) or name in names or name in local_names:
+            raise ValueError('Invalid or duplicate local skill name: ' + name)
+        local_names.add(name)
+        folder = skills_root / name
+        body = (folder / 'SKILL.md').read_text(encoding='utf-8')
+        frontmatter = body.split('---', 2)
+        if len(frontmatter) != 3 or frontmatter[0].strip():
+            raise ValueError('Missing local skill frontmatter: ' + name)
+        if not re.search(r'^name:\s*' + re.escape(name) + r'\s*$', frontmatter[1], re.M):
+            raise ValueError('Local skill name does not match folder: ' + name)
+        if not re.search(r'^description:\s*\S', frontmatter[1], re.M):
+            raise ValueError('Missing local skill description: ' + name)
+        for target in re.findall(r'\]\(([^\s)]+)\)', body):
+            if '://' in target or target.startswith(('#', 'mailto:')):
+                continue
+            if not (folder / target.split('#')[0]).is_file():
+                raise ValueError('Missing local skill reference: ' + name + ': ' + target)
+    if {path.name for path in skills_root.iterdir()} != names | local_names:
         raise ValueError('Skill directories differ from lock file')
-    print(f'Verified {len(names)} skills and {total_files} files against pinned source checksums.')
+    print(f'Verified {len(names)} upstream skills and {total_files} pinned files; validated {len(local_names)} project skills.')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,4 @@
+interface:
+  display_name: "古文史料阅读"
+  short_description: "维护中国古代史的古文阅读与繁简切换，保留底本和已发布译文"
+  default_prompt: "使用 $historical-text-reading 为中国古代史新增史料并保证繁简切换。"
