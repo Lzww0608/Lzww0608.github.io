@@ -32,7 +32,7 @@
 .library-book { padding-bottom:30px; border-bottom:1px solid var(--line); align-items:flex-start; }
 .catalog-copy { flex:1; min-width:0; }
 .text-book-cover { width:172px; height:244px; flex-shrink:0; background:#697661; padding:18px; border:1px solid #53604d; box-shadow:inset 5px 0 #ffffff12; display:flex; justify-content:space-between; color:#f9f1df; }
-.text-book-cover>span { writing-mode:vertical-rl; font-family:var(--serif); font-size:32px; letter-spacing:5px; border:1px solid #ede5d2aa; padding:10px 9px; }
+.text-book-cover>span { writing-mode:vertical-rl; font-family:var(--serif); font-size:32px; letter-spacing:3px; white-space:nowrap; border:1px solid #ede5d2aa; padding:10px 9px; }
 .text-book-cover>small { writing-mode:vertical-rl; align-self:flex-end; letter-spacing:4px; font-size:12px; }
 .cover-quewen { background:#897159; border-color:#6d5640; }
 .cover-compact { width:86px; height:113px; padding:7px; }
