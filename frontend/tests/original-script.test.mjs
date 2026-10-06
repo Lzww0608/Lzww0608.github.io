@@ -23,6 +23,7 @@ test('converts classical Chinese and notes while preserving punctuation and unkn
   const convert = await loadOriginalConverter();
   assert.equal(convert('諱晃，本名溫。聖神恭肅文武孝皇帝。'), '讳晃，本名温。圣神恭肃文武孝皇帝。');
   assert.equal(convert('發兵，頭髮；𠮷𨭉。\n〔夾注〕'), '发兵，头发；𠮷𨭉。\n〔夹注〕');
+  assert.equal(convert('侍衞、嵗、羣、旣。'), '侍卫、岁、群、既。');
   assert.equal(await loadOriginalConverter(), convert);
 });
 
