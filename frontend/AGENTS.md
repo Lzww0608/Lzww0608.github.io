@@ -15,3 +15,7 @@ The user renamed the site to “中国古代史” on 2026-10-06. Use this name 
 ## Content service
 
 The user chose this Mac as the PostgreSQL/API host and Tailscale Funnel for a fixed public HTTPS address on 2026-10-06. Reading pages fetch published originals and matching published translations from the API; retain bundled excerpts when the service is unavailable. Do not display drafts or invent translations. Keep database contents, credentials and tunnel identities out of Git and frontend bundles.
+
+## TypeScript
+
+The user requested a frontend TypeScript migration on 2026-10-07. Keep application modules in `.ts`/`.tsx` with strict type checking. Model domain data and API responses in `src/types.ts`, and validate incoming JSON before rendering. Run `npm run build`, `npm test`, and `npm run test:sites` for relevant frontend changes; the build includes `npm run typecheck`. Preserve the existing Sites packaging scripts, worker and packaging tests.

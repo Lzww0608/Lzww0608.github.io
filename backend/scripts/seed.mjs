@@ -1,7 +1,7 @@
 import pg from 'pg';
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
-import { books } from '../../frontend/src/data.js';
+import { books } from '../../frontend/src/data.ts';
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase } from './runtime.mjs';
 export async function seed(client) {
