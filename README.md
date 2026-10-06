@@ -1,40 +1,50 @@
-# 中国通史历史网站
+# 中国通史
 
-网站整体定位是中国通史，当前阶段先整理五代时期的内容，后续逐步扩展到其他历史时期。
+从史料出发，连接人物、事件与时代。网站以中国通史为整体框架，第一期聚焦五代时期（907—960）。
 
-第一阶段：发布一个最简静态页面，确认 GitHub 仓库 → GitHub Pages → 浏览器的部署链路正常。
-
-网站地址：<https://lzww0608.github.io/>
+在线访问：[中国通史](https://lzww0608.github.io/)
 
 ## 当前版本
 
-- 入口：根目录 `index.html`。
-- 内容：Hello World 和历史网站简介。
-- 部署：GitHub Pages 从 `main` 分支的根目录发布。
-- 无构建步骤、运行依赖或后端服务。
+- 山水书卷风格首页和历史时期导航。
+- 五代政权更迭年表：六个节点，支持关联人物和史料入口。
+- 六个人物条目，支持姓名、别名检索和政权筛选。
+- 《旧五代史》《新五代史》开篇节选阅读、字号调整、阅读提示和完整原文链接。
+- 洛阳、开封、太原的地点地图与说明。
+- 全站检索、移动端导航及阅读布局。
 
-## 本地预览
+其他时期尚未收录。当前年表仅展示中原政权主要更迭，尚未覆盖十国及全部五代人物、事件。史料阅读页明确标注节选范围。
 
-直接使用浏览器打开 `index.html`，或在当前目录执行：
+## 项目结构与开发
+
+网站源代码在 `frontend/`，使用 React、Vite、Leaflet 和 Phosphor 图标。根目录原始的静态页面保留为早期部署记录，正式发布入口为 `frontend/index.html`。
 
 ```sh
-python3 -m http.server 8000
+cd frontend
+npm ci
+npm run dev
 ```
 
-然后访问 <http://localhost:8000/>。按 Ctrl+C 关闭服务。
+生成并预览正式版本：
 
-## 部署设置
+```sh
+npm run build
+npm run preview
+```
 
-仓库 Settings → Pages → Build and deployment：
+静态发布目录是 `frontend/dist/client/`，不需要后端。使用 hash 路由，阅读页等链接可以直接打开和刷新。
 
-- Source：Deploy from a branch。
-- Branch：`main`。
-- Folder：`/ (root)`。
+## 部署
 
-保存设置后，提交并推送 `index.html` 的修改会触发发布。发布记录可在仓库 Actions 中查看。
+GitHub Pages 的发布来源设置为 **GitHub Actions**。`.github/workflows/pages.yml` 在 `main` 分支的前端或部署配置变化时自动安装依赖、构建和发布；也可以在 Actions 页面手动运行。
 
-## 后续方向
+部署记录：[网站发布流程](https://github.com/Lzww0608/Lzww0608.github.io/actions/workflows/pages.yml)
 
-以中国通史为整体框架，当前先围绕五代时期，逐步加入史料检索、人物与事件关联、原文对照阅读。
-后续按历史时期扩展内容，保持人物、事件和史料之间的关联。
-后续再升级为 Vue 3 + TypeScript + Vite，并配置构建部署；独立域名等内容和方向稳定后再绑定。
+## 内容、图像与参考
+
+- 原文来自维基文库：[《旧五代史》卷一](https://zh.wikisource.org/wiki/舊五代史/卷1)、[《新五代史》卷一](https://zh.wikisource.org/wiki/新五代史/卷01)。本站仅展示开篇节选，夹注和完整章节请查看原始页面。沿用原文来源页面所标明的适用授权，本站整理的阅读提示与原文分开呈现。
+- 地图使用 [OpenStreetMap](https://www.openstreetmap.org/copyright) 现代底图，页面保留署名。地点为现代城市的大致坐标，不代表五代疆域或古城精确位置。
+- 山水、书封和印章均为生成插图，并非历史文物照片、古地图或书籍影印。压缩素材位于 `frontend/public/images/`，绘图原文件保存在 `frontend/design-assets/`。
+- 设计参考：[故宫博物院](https://www.dpm.org.cn/)、[中国哲学书电子化计划](https://ctext.org/zhs)、[Chronas](https://chronas.org/)，借鉴历史内容的展示方式和信息组织，不复制其界面或素材。
+
+后续逐步补充史料章节、人物与事件，并扩展到其他历史时期。
