@@ -1,0 +1,18 @@
+# 中国古代史 · 项目约定
+
+网站当前聚焦五代时期。前端是 `frontend/` 中的 React + TypeScript + Vite 项目，后端是 `backend/` 中的 Node.js 只读 API 与本机 PostgreSQL。前端的其他约定见 `frontend/AGENTS.md`。
+
+## 项目 skills
+
+用户于 2026-10-07 要求将开源前后端开发 skills 放入项目。技能位于 `.agents/skills/`，目录与适用场景见 `.agents/README.md`，上游版本、许可证和文件校验值见 `.agents/skills.lock.json`。按实际任务选择技能并阅读相应 `SKILL.md`，无需一次加载全部内容。新增技能可在下一轮对话中发现。
+
+使用技能时以用户要求、当前工具权限和本项目约定为准。这里的技能是开发指导与示例，不是更换现有技术栈的要求：React/Vite 项目只采用适用的 React 规则；PostgreSQL 规则用于本机数据库；Node.js 技能中的 Express/Fastify 示例不要求迁移当前原生 HTTP 服务。测试优先沿用现有 `node:test`，数据库检查必须使用独立测试数据库，不能截断或覆盖正式史料。
+
+保留上游技能和附带的参考文件；项目适用说明写在 `.agents/README.md`，避免直接修改第三方正文。更新技能前核对来源提交、许可证和内容，更新锁文件后运行 `python3 .agents/verify-skills.py`。
+
+## 验证与发布
+
+- 前端修改：在 `frontend/` 中运行 `npm run build`、`npm test` 和 `npm run test:sites`；构建包含严格类型检查。
+- 后端修改：在 `backend/` 中运行 `npm test`。Node.js 至少为 22.18.0；初始化脚本读取前端 `src/data.ts` 中的静态节选。
+- GitHub Pages 发布目录是 `frontend/dist/client/`，推送 `main` 的前端变更会触发现有发布流程。
+- `backend/.local/` 包含数据库、凭据、隧道身份、日志和备份，必须保持 Git 忽略；不把这些内容复制到 skills 或网站中。

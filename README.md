@@ -17,7 +17,7 @@
 
 ## 项目结构与开发
 
-网站源代码在 `frontend/`，使用 React、Vite、Leaflet 和 Phosphor 图标。根目录原始的静态页面保留为早期部署记录，正式发布入口为 `frontend/index.html`。
+网站源代码在 `frontend/`，使用 React、TypeScript、Vite、Leaflet 和 Phosphor 图标。构建前自动执行严格类型检查，详见 [前端说明](frontend/README.md)。根目录原始的静态页面保留为早期部署记录，正式发布入口为 `frontend/index.html`。
 
 ```sh
 cd frontend
@@ -37,6 +37,10 @@ npm run preview
 ## 内容后端
 
 `backend/` 提供只读 API、PostgreSQL 数据库、原文和翻译的版本管理，以及 macOS 自动启动配置。公网使用 Tailscale Funnel 的固定 HTTPS 地址。设置、内容维护和备份说明见 [后端说明](backend/README.md)。数据库、连接密码、隧道身份及备份均不进入 Git。
+
+## 开发 skills
+
+项目在 `.agents/skills/` 收录了 8 个开源前后端开发技能，涵盖界面设计、React 性能、TypeScript、Node.js API、PostgreSQL 和测试。使用场景、固定来源版本与许可证说明见 [技能目录](.agents/README.md)。可运行 `python3 .agents/verify-skills.py` 检查本地文件完整性。
 
 ## 部署
 
