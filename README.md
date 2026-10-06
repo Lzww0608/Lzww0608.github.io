@@ -32,7 +32,11 @@ npm run build
 npm run preview
 ```
 
-静态发布目录是 `frontend/dist/client/`，不需要后端。使用 hash 路由，阅读页等链接可以直接打开和刷新。
+静态发布目录是 `frontend/dist/client/`。使用 hash 路由，阅读页等链接可以直接打开和刷新。原文与已发布译文从本机内容服务读取；服务离线时显示随站收录的节选。
+
+## 内容后端
+
+`backend/` 提供只读 API、PostgreSQL 数据库、原文和翻译的版本管理，以及 macOS 自动启动配置。公网使用 Tailscale Funnel 的固定 HTTPS 地址。设置、内容维护和备份说明见 [后端说明](backend/README.md)。数据库、连接密码、隧道身份及备份均不进入 Git。
 
 ## 部署
 

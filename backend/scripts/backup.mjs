@@ -1,0 +1,10 @@
+import { join } from 'node:path';
+import { loadConfig } from '../src/config.mjs';
+import { localDir, pgBin, privateDir, run } from './runtime.mjs';
+const config = loadConfig();
+process.umask(0o077);
+const folder = join(localDir, 'backups');
+privateDir(folder);
+const filename = join(folder, `ancient-history-${new Date().toISOString().replace(/[:.]/g, '-')}.dump`);
+run(join(pgBin, 'pg_dump'), ['-h', config.socketDir, '-p', String(config.database.port), '-d', config.database.database, '-Fc', '-f', filename]);
+console.log(`Database backup saved: ${filename}`);

@@ -2,3 +2,9 @@ node_modules/
 frontend/dist/
 .DS_Store
 *.log
+backend/.local/
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env*.local
+*.dump

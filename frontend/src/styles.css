@@ -15,3 +15,7 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
 @media(min-width:1200px){.main-nav{position:absolute;left:50%;transform:translateX(-50%);margin:0}.header-actions{margin-left:auto}}
+.reader-status { color: #787064; font-size: 13px; min-height: 1.5em; margin-top: 14px; }
+.paragraph-translation { padding: 14px 20px; margin-bottom: 30px; background: #f3efe5; border-left: 2px solid #ac9480; font-size: .78em; line-height: 1.9; }
+.paragraph-translation > span { color: #8d7864; font-size: 12px; }
+.original-text .paragraph-translation p { margin: 8px 0 0; }

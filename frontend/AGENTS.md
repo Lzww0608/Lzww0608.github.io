@@ -11,3 +11,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 ## Site identity
 
 The user renamed the site to “中国古代史” on 2026-10-06. Use this name consistently in visible branding, page titles and descriptions. The first content release still focuses on the Five Dynasties period.
+
+## Content service
+
+The user chose this Mac as the PostgreSQL/API host and Tailscale Funnel for a fixed public HTTPS address on 2026-10-06. Reading pages fetch published originals and matching published translations from the API; retain bundled excerpts when the service is unavailable. Do not display drafts or invent translations. Keep database contents, credentials and tunnel identities out of Git and frontend bundles.
