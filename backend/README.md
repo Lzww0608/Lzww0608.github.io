@@ -4,11 +4,16 @@ GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只�
 
 ## 本机运行
 
+- Node.js 需要 22.18.0 或更高版本。初始化和测试会读取前端 `src/data.ts` 中的原文节选，使用 Node 内置类型擦除；运行中的 API 仍使用 JavaScript。
 - API：`http://127.0.0.1:8787/api/health`
 - PostgreSQL：仅监听 `127.0.0.1:55432`，数据库 `ancient_history`。
 - 数据、密码、隧道身份、日志和备份：`backend/.local/`，已排除于 Git。配置文件仅当前用户可读写，API 使用只读数据库账户。
 - 服务：`~/Library/LaunchAgents/com.lzww.ancient-history.*.plist`。数据库、API、Tailscale 登录后自动启动，进程退出后自动重启。每日 03:15 生成本机备份，并在登录时补做一次。
-- 已开启接电时防止自动睡眠。请保持接电、联网、开盖；关机、主动睡眠、合盖或断网期间接口会离线。系统重启后需要登录当前 macOS 账户，服务才会启动；这不是登录前运行的系统服务。
+- 已配置 Amphetamine 5.3.2 与 Power Protect：应用启动时自动开始无期限防休眠，接电和电池供电时均允许合盖运行，屏幕可以熄灭或锁屏。保持联网和足够电量；关机、耗尽电量、断网或暂停防休眠后进入睡眠时，接口会离线。系统重启后需要登录当前 macOS 账户，服务才会启动；这不是登录前运行的系统服务。
+
+Amphetamine 通过 `~/Library/LaunchAgents/com.lzww.ancient-history.amphetamine.plist` 在登录后启动。Power Protect 使用开发者提供的脚本，系统规则只允许当前账户 `lzww` 免密码执行 `/usr/bin/pmset -a disablesleep 1` 和 `/usr/bin/pmset -a disablesleep 0`，没有授予其他管理员此权限。旧安装包的签名检查未通过，因此未运行该安装包；实际安装的是已检查的脚本与收紧后的规则。
+
+**放进包里或需要正常休眠前**，点击菜单栏 Amphetamine 图标，结束当前会话并退出应用。重新打开 Amphetamine 会再次开始防休眠。仅熄灭屏幕或锁屏时无需退出应用。防休眠不支持关机后继续运行，也不能避免电池耗尽。原始应用设置的恢复副本保存在 `.local/amphetamine/preferences-before-2026-10-07.plist`。
 
 此目录是正在使用的服务目录；移动或删除项目前，先停用 LaunchAgent。前端在读取失败时保留随站发布的节选。
 
