@@ -20,19 +20,20 @@ function isTranslation(value: unknown): value is PublishedTranslation {
 function isParagraph(value: unknown): value is ChapterParagraph {
   return isRecord(value)
     && typeof value.id === 'string'
-    && typeof value.original === 'string'
+    && typeof value.original === 'string' && value.original.trim().length > 0
     && isPositiveInteger(value.position)
     && isPositiveInteger(value.revision)
     && (value.translation === null || isTranslation(value.translation));
 }
 
-function isChapter(value: unknown, bookId: BookId): value is ChapterResponse {
+function isChapter(value: unknown, bookId: BookId, chapterId?: string): value is ChapterResponse {
   return isRecord(value)
     && value.bookId === bookId
     && typeof value.id === 'string'
+    && (chapterId === undefined || value.id === chapterId)
     && typeof value.title === 'string'
     && isPositiveInteger(value.position)
-    && typeof value.scope === 'string'
+    && (value.scope === 'full' || value.scope === 'excerpt')
     && typeof value.sourceUrl === 'string'
     && typeof value.bookTitle === 'string'
     && typeof value.author === 'string'
@@ -45,7 +46,7 @@ function isChapter(value: unknown, bookId: BookId): value is ChapterResponse {
     && value.paragraphs.every(isParagraph);
 }
 
-export function parseChapter(value: unknown, bookId: BookId): ChapterResponse {
-  if (!isChapter(value, bookId)) throw new Error('Invalid chapter');
+export function parseChapter(value: unknown, bookId: BookId, chapterId?: string): ChapterResponse {
+  if (!isChapter(value, bookId, chapterId)) throw new Error('Invalid chapter');
   return value;
 }

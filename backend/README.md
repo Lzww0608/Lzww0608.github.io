@@ -1,10 +1,10 @@
 # 中国古代史 · Mac 内容服务
 
-GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只读 API；Tailscale Funnel 提供固定 HTTPS 入口。当前内容为《旧五代史》《新五代史》各一章的开篇节选，共四段原文。尚未收录译文。
+GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只读 API；Tailscale Funnel 提供固定 HTTPS 入口。当前已导入 4 部史料、64 个完整卷（3,755 个文字块）：新旧《五代史》的五位开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》。另保留原有 2 个兼容节选章节、4 段原文。尚未导入真实译文。
 
 ## 本机运行
 
-- Node.js 需要 22.18.0 或更高版本。初始化和测试会读取前端 `src/data.ts` 中的原文节选，使用 Node 内置类型擦除；运行中的 API 仍使用 JavaScript。
+- Node.js 需要 22.18.0 或更高版本。初始化和测试读取 `content/five-dynasties/` 中的公开原文归档；运行中的 API 使用 JavaScript。
 - API：`http://127.0.0.1:8787/api/health`
 - PostgreSQL：仅监听 `127.0.0.1:55432`，数据库 `ancient_history`。
 - 数据、密码、隧道身份、日志和备份：`backend/.local/`，已排除于 Git。配置文件仅当前用户可读写，API 使用只读数据库账户。
@@ -15,7 +15,7 @@ Amphetamine 通过 `~/Library/LaunchAgents/com.lzww.ancient-history.amphetamine.
 
 **放进包里或需要正常休眠前**，点击菜单栏 Amphetamine 图标，结束当前会话并退出应用。重新打开 Amphetamine 会再次开始防休眠。仅熄灭屏幕或锁屏时无需退出应用。防休眠不支持关机后继续运行，也不能避免电池耗尽。原始应用设置的恢复副本保存在 `.local/amphetamine/preferences-before-2026-10-07.plist`。
 
-此目录是正在使用的服务目录；移动或删除项目前，先停用 LaunchAgent。前端在读取失败时保留随站发布的节选。
+此目录是正在使用的服务目录；移动或删除项目前，先停用 LaunchAgent。前端在 API 不可用时继续读取随站发布的完整原文副本。
 
 ```sh
 cd backend
@@ -43,7 +43,17 @@ node scripts/tunnel.mjs enable
 
 书籍 → 版本 → 章节 → 稳定段落 ID → 原文修订 → 译文版本。译文绑定原文修订号；只有 `published` 且对应当前原文修订的译文会出现在公开接口中。原文修改后，旧译文保留，但不会错误匹配到新原文。
 
-当前段落 ID：`old-1-p1`、`old-1-p2`、`new-1-p1`、`new-1-p2`。`seed` 只补缺失的示例记录，不覆盖已有内容。后续批量章节可按 `db/001-initial.sql` 的结构导入；当前未提供公网管理界面。
+章节 ID 例如 `old-v110`、`new-v11`、`tongjian-v290`、`quewen-v001`；段落 ID 例如 `old-v110-p1`。原有 `old-1-p1` 等兼容节选 ID 继续可用。`seed` 与 `content:import` 只补缺失记录，不覆盖已有原文修订、译文或发布状态。当前未提供公网管理界面。
+
+导入已校验的公开归档（先备份；不需要重启 API）：
+
+```sh
+npm run backup
+npm run backup:verify
+npm run content:import
+```
+
+来源与版本见 [归档说明](../content/five-dynasties/README.md)。归档是公开原文，`.local/` 是私有运行数据，不要混用。
 
 将译文写入 UTF-8 文本文件后，通过本机命令导入、检查并发布：
 
@@ -67,7 +77,7 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 | `GET /api/health` | API 与数据库状态 |
 | `GET /api/books` | 已发布书籍 |
 | `GET /api/books/old/chapters` | 已发布章节目录 |
-| `GET /api/chapters/old-1` | 原文、匹配修订的已发布译文、来源与阅读提示 |
+| `GET /api/chapters/old-v110` | 原文、匹配修订的已发布译文、来源与阅读提示 |
 | `GET /api/search?q=朱氏` | 当前原文的字面检索，最多 20 条 |
 
 支持 GET、HEAD、OPTIONS；不提供写入接口。CORS 允许 `https://lzww0608.github.io` 与本机开发/预览地址。CORS 只约束浏览器，接口中的已发布内容本身是公开的。

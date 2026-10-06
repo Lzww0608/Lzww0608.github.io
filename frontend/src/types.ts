@@ -1,8 +1,8 @@
 export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' | '宋元' | '明清';
 export type Dynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周' | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
-export type BookId = 'old' | 'new';
-export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}`;
+export type BookId = 'old' | 'new' | 'tongjian' | 'quewen';
+export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}` | `read-${BookId}/${string}`;
 
 export interface HistoryEvent {
   id: EventId;
@@ -31,12 +31,43 @@ export interface Book {
   title: string;
   author: string;
   image: string;
+  kind: string;
   description: string;
-  chapter: string;
   url: string;
-  chapterUrl: string;
-  paragraphs: string[];
-  notes: string[];
+  defaultChapter: string;
+}
+
+export interface ChapterSummary {
+  id: string;
+  bookId: BookId;
+  title: string;
+  volume: number;
+  position: number;
+  years?: string;
+  subjects: string[];
+  scope: 'full';
+  paragraphCount: number;
+  characterCount: number;
+  provenance: {
+    pageTitle: string;
+    sourceUrl: string;
+    revisionId: number;
+    fetchedAt: string;
+    license: string;
+    licenseUrl: string;
+    contributorsUrl: string;
+    sourceSha256: string;
+    chapterSha256: string;
+  };
+}
+
+export interface LibraryCatalog {
+  schemaVersion: number;
+  title: string;
+  license: string;
+  licenseUrl: string;
+  books: Book[];
+  chapters: ChapterSummary[];
 }
 
 export interface HistoricalPlace {
@@ -54,7 +85,8 @@ interface SearchDetails {
 export type SearchItem =
   | (HistoryEvent & SearchDetails & { type: 'event'; category: '事件' })
   | (HistoryPerson & SearchDetails & { type: 'person'; category: '人物' })
-  | (Book & SearchDetails & { type: 'book'; category: '史料' });
+  | (Book & SearchDetails & { type: 'book'; category: '史料' })
+  | (ChapterSummary & SearchDetails & { type: 'chapter'; category: '史料' });
 
 export type SearchFilter = 'all' | SearchItem['type'];
 

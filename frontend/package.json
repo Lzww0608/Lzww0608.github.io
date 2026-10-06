@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs"
+    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs tests/history-loader.test.mjs",
+    "predev": "node scripts/prepare-content.mjs",
+    "prebuild": "node scripts/prepare-content.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

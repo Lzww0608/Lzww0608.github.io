@@ -1,7 +1,8 @@
 import pg from 'pg';
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
-import { books } from '../../frontend/src/data.ts';
+import { importLibrary } from './import-library.mjs';
+const books = JSON.parse(readFileSync(new URL('../data/initial-excerpts.json', import.meta.url), 'utf8'));
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase } from './runtime.mjs';
 export async function seed(client) {
@@ -16,6 +17,7 @@ export async function seed(client) {
       await client.query('INSERT INTO paragraph_revisions (paragraph_id,revision,original) VALUES ($1,1,$2) ON CONFLICT DO NOTHING', [id, book.paragraphs[index]]);
     }
   }
+  await importLibrary(client);
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const client = new pg.Client(adminDatabase(loadConfig()));

@@ -1,0 +1,1595 @@
+{
+  "schemaVersion": 1,
+  "title": "五代史料本地文库",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "books": [
+    {
+      "id": "old",
+      "title": "旧五代史",
+      "sourceTitle": "舊五代史",
+      "author": "北宋 · 薛居正等撰",
+      "kind": "正史 · 纪传体",
+      "image": "/images/old-five-dynasties.webp",
+      "description": "五位开国皇帝的本纪，共 27 卷；保留原页所载辑佚说明与夹注。",
+      "defaultChapter": "old-v001",
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
+    },
+    {
+      "id": "new",
+      "title": "新五代史",
+      "sourceTitle": "新五代史",
+      "author": "北宋 · 欧阳修撰",
+      "kind": "正史 · 纪传体",
+      "image": "/images/new-five-dynasties.webp",
+      "description": "五位开国皇帝的本纪，共 7 卷。汉本纪兼载隐帝，以完整卷收录。",
+      "defaultChapter": "new-v01",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
+    },
+    {
+      "id": "tongjian",
+      "title": "资治通鉴",
+      "sourceTitle": "資治通鑑",
+      "author": "北宋 · 司马光等编",
+      "kind": "编年史",
+      "image": "",
+      "description": "卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。",
+      "defaultChapter": "tongjian-v266",
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91"
+    },
+    {
+      "id": "quewen",
+      "title": "五代史阙文",
+      "sourceTitle": "五代史闕文",
+      "author": "北宋 · 王禹偁撰",
+      "kind": "史料笔记",
+      "image": "",
+      "description": "一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。",
+      "defaultChapter": "quewen-v001",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E4%BB%A3%E5%8F%B2%E9%97%95%E6%96%87"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "old-v001",
+      "bookId": "old",
+      "volume": 1,
+      "title": "卷 1 · 梁太祖纪1",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 1,
+      "scope": "full",
+      "paragraphCount": 67,
+      "characterCount": 10121,
+      "provenance": {
+        "pageTitle": "舊五代史/卷1",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B71&oldid=2292899",
+        "revisionId": 2292899,
+        "fetchedAt": "2026-10-06T17:13:03.375479+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B71&action=history",
+        "sourceSha256": "7b4fe3f50e9c2ccb720f484932cdadd9c8fe035ed653bd3f1df700316404a6e3",
+        "chapterSha256": "a60d2a3079089e286fe3ff4fbda0889d5bd602e08784434f0b3aff205dbd742b"
+      }
+    },
+    {
+      "id": "old-v002",
+      "bookId": "old",
+      "volume": 2,
+      "title": "卷 2 · 梁太祖纪2",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 2,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 7637,
+      "provenance": {
+        "pageTitle": "舊五代史/卷2",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B72&oldid=2292901",
+        "revisionId": 2292901,
+        "fetchedAt": "2026-10-06T17:13:03.168358+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B72&action=history",
+        "sourceSha256": "bc824e477f116fea696990a2cc7692ed6aa836ca59a1e4985aae2f9707ab4b65",
+        "chapterSha256": "6399c7a591a1cb1bba7c5c08f3244b828ee81e8d86d0fb9958539711bf91ec23"
+      }
+    },
+    {
+      "id": "old-v003",
+      "bookId": "old",
+      "volume": 3,
+      "title": "卷 3 · 梁太祖纪3",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 3,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 5565,
+      "provenance": {
+        "pageTitle": "舊五代史/卷3",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B73&oldid=617453",
+        "revisionId": 617453,
+        "fetchedAt": "2026-10-06T17:13:04.629729+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B73&action=history",
+        "sourceSha256": "4ea12a93c54fe5e46c51330a459d720600606249ce6945e28dd36ef9588b0f30",
+        "chapterSha256": "acacf8d3033ba0f8cbc152a1892df36f78a70b29db6bb8aeaf1635c2db993873"
+      }
+    },
+    {
+      "id": "old-v004",
+      "bookId": "old",
+      "volume": 4,
+      "title": "卷 4 · 梁太祖纪4",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 4,
+      "scope": "full",
+      "paragraphCount": 21,
+      "characterCount": 6170,
+      "provenance": {
+        "pageTitle": "舊五代史/卷4",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B74&oldid=513028",
+        "revisionId": 513028,
+        "fetchedAt": "2026-10-06T17:13:05.011172+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B74&action=history",
+        "sourceSha256": "7136a9dd34a8425b7b5f6800ea99e420d295ce319f3ad57d2e4fddb838e84504",
+        "chapterSha256": "578f158ff3ad50977b67340a9577934a1188585b4f00a8616931b367661787d7"
+      }
+    },
+    {
+      "id": "old-v005",
+      "bookId": "old",
+      "volume": 5,
+      "title": "卷 5 · 梁太祖纪5",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 5,
+      "scope": "full",
+      "paragraphCount": 19,
+      "characterCount": 4284,
+      "provenance": {
+        "pageTitle": "舊五代史/卷5",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B75&oldid=8722298",
+        "revisionId": 8722298,
+        "fetchedAt": "2026-10-06T17:13:05.906507+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B75&action=history",
+        "sourceSha256": "d20468d0150791b80dbbe3b7ff1fabd2295a1517a54430250b5ab90d3d11ed16",
+        "chapterSha256": "e2442f1545a0e68e47f45b099cf7a7cd251cdddd8135d3440e71dd2c0903a385"
+      }
+    },
+    {
+      "id": "old-v006",
+      "bookId": "old",
+      "volume": 6,
+      "title": "卷 6 · 梁太祖纪6",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 6,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 4471,
+      "provenance": {
+        "pageTitle": "舊五代史/卷6",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B76&oldid=8722197",
+        "revisionId": 8722197,
+        "fetchedAt": "2026-10-06T17:13:06.465671+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B76&action=history",
+        "sourceSha256": "370cbbb0d551a104b914f3846e6b1c3d70352b47846695d10a1b10c74b1a30d1",
+        "chapterSha256": "0233533fb3654faeb038d39f2989d7c5afc291c3291b24e162c4099c4d29bd7d"
+      }
+    },
+    {
+      "id": "old-v007",
+      "bookId": "old",
+      "volume": 7,
+      "title": "卷 7 · 梁太祖纪7",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 7,
+      "scope": "full",
+      "paragraphCount": 7,
+      "characterCount": 3644,
+      "provenance": {
+        "pageTitle": "舊五代史/卷7",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B77&oldid=8720697",
+        "revisionId": 8720697,
+        "fetchedAt": "2026-10-06T17:13:07.097561+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B77&action=history",
+        "sourceSha256": "c624db7ffc43a35cf4e7bc135531ff76bef32c374cabe72ad44c556a95d6f3b6",
+        "chapterSha256": "c76bc80b40f20bc43d404672f66236334f537dfcb4f998c4ae6e948225572089"
+      }
+    },
+    {
+      "id": "old-v027",
+      "bookId": "old",
+      "volume": 27,
+      "title": "卷 27 · 唐庄宗纪1",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 27,
+      "scope": "full",
+      "paragraphCount": 24,
+      "characterCount": 5526,
+      "provenance": {
+        "pageTitle": "舊五代史/卷27",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B727&oldid=2561329",
+        "revisionId": 2561329,
+        "fetchedAt": "2026-10-06T17:13:08.282140+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B727&action=history",
+        "sourceSha256": "cef6952e2894c076e5fe3758acb1131f4cc0597c4081120d58f452b8eabb9b15",
+        "chapterSha256": "4f78214543467af91b876fc0b459f4b47f620b59e41ab7d74ec21ea8cc17e5d5"
+      }
+    },
+    {
+      "id": "old-v028",
+      "bookId": "old",
+      "volume": 28,
+      "title": "卷 28 · 唐庄宗纪2",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 28,
+      "scope": "full",
+      "paragraphCount": 32,
+      "characterCount": 6572,
+      "provenance": {
+        "pageTitle": "舊五代史/卷28",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B728&oldid=2303735",
+        "revisionId": 2303735,
+        "fetchedAt": "2026-10-06T17:13:09.697599+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B728&action=history",
+        "sourceSha256": "14180f64a560fbf9a91191ea028e195d8b2c4cbfbbed92744bbff1e9818deea8",
+        "chapterSha256": "8ba6bc93f9cf9071adcb94481d691e996d82b298c11142a82445d08268d611f5"
+      }
+    },
+    {
+      "id": "old-v029",
+      "bookId": "old",
+      "volume": 29,
+      "title": "卷 29 · 唐庄宗纪3",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 29,
+      "scope": "full",
+      "paragraphCount": 29,
+      "characterCount": 6310,
+      "provenance": {
+        "pageTitle": "舊五代史/卷29",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B729&oldid=2309568",
+        "revisionId": 2309568,
+        "fetchedAt": "2026-10-06T17:13:09.739471+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B729&action=history",
+        "sourceSha256": "fca629231aa2f4e47cae4c4eb6a571644a95fb413bd65c91bc3e06dd03562029",
+        "chapterSha256": "08d797da406c58e920a608cc67c0b98b95edb73376a96ea9ffae457deae08f08"
+      }
+    },
+    {
+      "id": "old-v030",
+      "bookId": "old",
+      "volume": 30,
+      "title": "卷 30 · 唐庄宗纪4",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 30,
+      "scope": "full",
+      "paragraphCount": 21,
+      "characterCount": 5802,
+      "provenance": {
+        "pageTitle": "舊五代史/卷30",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B730&oldid=512872",
+        "revisionId": 512872,
+        "fetchedAt": "2026-10-06T17:13:11.183844+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B730&action=history",
+        "sourceSha256": "563ca5c48d628b9f5d155a6acec3a0ec46509f99a39b057894eb9d6e72550596",
+        "chapterSha256": "1075af3a7aa2f4808dee2899ab401a8d21d64e336bcd6a8a5e38dd67d872042f"
+      }
+    },
+    {
+      "id": "old-v031",
+      "bookId": "old",
+      "volume": 31,
+      "title": "卷 31 · 唐庄宗纪5",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 31,
+      "scope": "full",
+      "paragraphCount": 14,
+      "characterCount": 4548,
+      "provenance": {
+        "pageTitle": "舊五代史/卷31",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B731&oldid=512862",
+        "revisionId": 512862,
+        "fetchedAt": "2026-10-06T17:13:11.136184+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B731&action=history",
+        "sourceSha256": "114a073d4ea913aed27d842f6789ce7eb36cdadb87776b449ae33d535afbaf39",
+        "chapterSha256": "1786b10b1e58bedb0e5b535c3646d734a4f67ff58cef9cbf9352f80e2d374c8c"
+      }
+    },
+    {
+      "id": "old-v032",
+      "bookId": "old",
+      "volume": 32,
+      "title": "卷 32 · 唐庄宗纪6",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 32,
+      "scope": "full",
+      "paragraphCount": 22,
+      "characterCount": 7702,
+      "provenance": {
+        "pageTitle": "舊五代史/卷32",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B732&oldid=2602052",
+        "revisionId": 2602052,
+        "fetchedAt": "2026-10-06T17:13:12.662856+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B732&action=history",
+        "sourceSha256": "26e20f27b49e07990ae3b74bc71e72f8e932b971fe79bd8276476f61cadf6607",
+        "chapterSha256": "19b580c290dbc5a20cff547eb252b65b546ceb216e215f29adba13a3f1e6efd2"
+      }
+    },
+    {
+      "id": "old-v033",
+      "bookId": "old",
+      "volume": 33,
+      "title": "卷 33 · 唐庄宗纪7",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 33,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 6025,
+      "provenance": {
+        "pageTitle": "舊五代史/卷33",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B733&oldid=512865",
+        "revisionId": 512865,
+        "fetchedAt": "2026-10-06T17:13:12.668563+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B733&action=history",
+        "sourceSha256": "fd85cadba6cac2e68cee6c62577fb7035d605cd9f0bb458789ac4147afb7052a",
+        "chapterSha256": "50c71f7c6c94646542a5551c39281b7efc3cd76a8d1e383970439c573ff8f1ea"
+      }
+    },
+    {
+      "id": "old-v034",
+      "bookId": "old",
+      "volume": 34,
+      "title": "卷 34 · 唐庄宗纪8",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 34,
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 6306,
+      "provenance": {
+        "pageTitle": "舊五代史/卷34",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B734&oldid=512866",
+        "revisionId": 512866,
+        "fetchedAt": "2026-10-06T17:13:14.228321+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B734&action=history",
+        "sourceSha256": "c1e54e1cdc3b0cdfa45a98d31ed79f5ecf9a0fcfd8727dcab28615bd5ac16be7",
+        "chapterSha256": "cc9d7a4e1c096235c50647099b1e11062bd95474d46175daf9b84f0e19029599"
+      }
+    },
+    {
+      "id": "old-v075",
+      "bookId": "old",
+      "volume": 75,
+      "title": "卷 75 · 晋高祖纪1",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 75,
+      "scope": "full",
+      "paragraphCount": 23,
+      "characterCount": 6310,
+      "provenance": {
+        "pageTitle": "舊五代史/卷75",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B775&oldid=512991",
+        "revisionId": 512991,
+        "fetchedAt": "2026-10-06T17:13:14.370810+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B775&action=history",
+        "sourceSha256": "dd0d2dd19161eb10cc68054a7559feb237c5c17b89ffdf8cea28540a090847fd",
+        "chapterSha256": "21f7316f219a8097ffad8188bc9e1d4bbca535505cd9061fa308a7bf60dc3519"
+      }
+    },
+    {
+      "id": "old-v076",
+      "bookId": "old",
+      "volume": 76,
+      "title": "卷 76 · 晋高祖纪2",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 76,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 9737,
+      "provenance": {
+        "pageTitle": "舊五代史/卷76",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B776&oldid=2604147",
+        "revisionId": 2604147,
+        "fetchedAt": "2026-10-06T17:13:16.740253+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B776&action=history",
+        "sourceSha256": "e81484ca055c060e87642d5ae1e67be92602ea889014975cec736b35e31f9a14",
+        "chapterSha256": "a1a803c6a4846a35048de21a18f508795bbee7bccebbab1655bb2950cb659b7d"
+      }
+    },
+    {
+      "id": "old-v077",
+      "bookId": "old",
+      "volume": 77,
+      "title": "卷 77 · 晋高祖纪3",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 77,
+      "scope": "full",
+      "paragraphCount": 12,
+      "characterCount": 5276,
+      "provenance": {
+        "pageTitle": "舊五代史/卷77",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B777&oldid=512993",
+        "revisionId": 512993,
+        "fetchedAt": "2026-10-06T17:13:15.704590+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B777&action=history",
+        "sourceSha256": "14814782658456d26c92db614417e78cc7c097109ceaaa0331ded8ea3415148e",
+        "chapterSha256": "f84ad1594c9d7084cedb8ab15195ab29bbe992bb35d15b8f82928e0398aa1c4c"
+      }
+    },
+    {
+      "id": "old-v078",
+      "bookId": "old",
+      "volume": 78,
+      "title": "卷 78 · 晋高祖纪4",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 78,
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 4490,
+      "provenance": {
+        "pageTitle": "舊五代史/卷78",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B778&oldid=512994",
+        "revisionId": 512994,
+        "fetchedAt": "2026-10-06T17:13:17.260450+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B778&action=history",
+        "sourceSha256": "7cb6b39bf7c50f1f9f9690a794bf10f35e53ba905c300fd76f2ad49c2f8e3daa",
+        "chapterSha256": "5511deaa1630b65cd6cdb82e70daa59db1ab170b9eb9898b1aa3132c4f71243c"
+      }
+    },
+    {
+      "id": "old-v079",
+      "bookId": "old",
+      "volume": 79,
+      "title": "卷 79 · 晋高祖纪5",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 79,
+      "scope": "full",
+      "paragraphCount": 16,
+      "characterCount": 5509,
+      "provenance": {
+        "pageTitle": "舊五代史/卷79",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B779&oldid=1375358",
+        "revisionId": 1375358,
+        "fetchedAt": "2026-10-06T17:13:18.799792+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B779&action=history",
+        "sourceSha256": "3db14804d3edf3700b6140f3b25d5daa4b0c86aa1efbe64f9ba3eb725a9195f7",
+        "chapterSha256": "03d0c302e74855764a0e02574edfe9ec251c2d71863989f8388ee4d3199e055e"
+      }
+    },
+    {
+      "id": "old-v080",
+      "bookId": "old",
+      "volume": 80,
+      "title": "卷 80 · 晋高祖纪6",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 80,
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 6252,
+      "provenance": {
+        "pageTitle": "舊五代史/卷80",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B780&oldid=512997",
+        "revisionId": 512997,
+        "fetchedAt": "2026-10-06T17:13:19.014828+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B780&action=history",
+        "sourceSha256": "1ea31665bc45c3f85e45c1a3c73ff2712c5bad6adaf108ca80c49574e0606543",
+        "chapterSha256": "7031c4512ebad251d3b32a8a666e3c1316a8f818d3aba4dada895778ee6149c4"
+      }
+    },
+    {
+      "id": "old-v099",
+      "bookId": "old",
+      "volume": 99,
+      "title": "卷 99 · 汉高祖纪1",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "position": 99,
+      "scope": "full",
+      "paragraphCount": 9,
+      "characterCount": 4675,
+      "provenance": {
+        "pageTitle": "舊五代史/卷99",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&oldid=729661",
+        "revisionId": 729661,
+        "fetchedAt": "2026-10-06T17:13:20.054652+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&action=history",
+        "sourceSha256": "b18bc07c0e40a02821cc196b9d0575f22d61bbb5e36da02a0b37bab168bbdc7a",
+        "chapterSha256": "0f7feeac9b2c57b843309de02b0dd4eecdad2aa0495ba3376d84d4213d6b2e1d"
+      }
+    },
+    {
+      "id": "old-v100",
+      "bookId": "old",
+      "volume": 100,
+      "title": "卷 100 · 汉高祖纪2",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "position": 100,
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 5165,
+      "provenance": {
+        "pageTitle": "舊五代史/卷100",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7100&oldid=8729942",
+        "revisionId": 8729942,
+        "fetchedAt": "2026-10-06T17:13:20.550517+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7100&action=history",
+        "sourceSha256": "d20600e58b4b1aae077d7691eb4139bf0448bd1d79de30c1ed705e0caef7cf8e",
+        "chapterSha256": "8afb1bc7536a65a96fe8916e5acdfa849c3b5af468737951430ee22c2347bc57"
+      }
+    },
+    {
+      "id": "old-v110",
+      "bookId": "old",
+      "volume": 110,
+      "title": "卷 110 · 周太祖纪1",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 110,
+      "scope": "full",
+      "paragraphCount": 23,
+      "characterCount": 9513,
+      "provenance": {
+        "pageTitle": "舊五代史/卷110",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7110&oldid=1502795",
+        "revisionId": 1502795,
+        "fetchedAt": "2026-10-06T17:13:21.669852+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7110&action=history",
+        "sourceSha256": "8670d2f3d018f00d98067e79ded29c8be46edefeaa6f3a9fa93848f60d8928b7",
+        "chapterSha256": "60187c7b8fc37595c3438516442ed885ed57d7eda2588f1eceaf88044edf64a5"
+      }
+    },
+    {
+      "id": "old-v111",
+      "bookId": "old",
+      "volume": 111,
+      "title": "卷 111 · 周太祖纪2",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 111,
+      "scope": "full",
+      "paragraphCount": 7,
+      "characterCount": 4346,
+      "provenance": {
+        "pageTitle": "舊五代史/卷111",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7111&oldid=512888",
+        "revisionId": 512888,
+        "fetchedAt": "2026-10-06T17:13:21.764377+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7111&action=history",
+        "sourceSha256": "3acc9f3887f099f1f5b15ffe98554a7f4e51c29cc41d2ffa7369147fc34d8f70",
+        "chapterSha256": "6e497b48eae5bdbb4df9748408d8e079ee2a2803ff247cdb52412d8ace1aa015"
+      }
+    },
+    {
+      "id": "old-v112",
+      "bookId": "old",
+      "volume": 112,
+      "title": "卷 112 · 周太祖纪3",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 112,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 7339,
+      "provenance": {
+        "pageTitle": "舊五代史/卷112",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7112&oldid=512889",
+        "revisionId": 512889,
+        "fetchedAt": "2026-10-06T17:13:23.485268+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7112&action=history",
+        "sourceSha256": "d9f2aff5fce4ec331d60a92bcec95cd3d5329a3a769732fe47b8ebb73da051b4",
+        "chapterSha256": "b8926589e4920da5e6dde82697adaeb4b36e8f244272b054c88da29f7259e415"
+      }
+    },
+    {
+      "id": "old-v113",
+      "bookId": "old",
+      "volume": 113,
+      "title": "卷 113 · 周太祖纪4",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 113,
+      "scope": "full",
+      "paragraphCount": 14,
+      "characterCount": 5955,
+      "provenance": {
+        "pageTitle": "舊五代史/卷113",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7113&oldid=515965",
+        "revisionId": 515965,
+        "fetchedAt": "2026-10-06T17:13:23.255378+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7113&action=history",
+        "sourceSha256": "719fc04507dcf21728d36106f8f1765e34e118b15ac2ee950421b4bfdd70ef0b",
+        "chapterSha256": "28c9130182fd2e4e54a61385ab36eb3234970331dc02035e48a7bdef2b7a010a"
+      }
+    },
+    {
+      "id": "new-v01",
+      "bookId": "new",
+      "volume": 1,
+      "title": "卷 1 · 梁本纪第一",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 1,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 5278,
+      "provenance": {
+        "pageTitle": "新五代史/卷01",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B701&oldid=1744233",
+        "revisionId": 1744233,
+        "fetchedAt": "2026-10-06T17:13:24.720033+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B701&action=history",
+        "sourceSha256": "72fc2b0b426fc850a9ea6046ccdeab04ebe018706af13e79ab9359e9e1b8a583",
+        "chapterSha256": "b8c028c1339bd230393f85faf3c860307a7f22e8287aa7b605b444618c354d68"
+      }
+    },
+    {
+      "id": "new-v02",
+      "bookId": "new",
+      "volume": 2,
+      "title": "卷 2 · 梁本纪第二",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 2,
+      "scope": "full",
+      "paragraphCount": 56,
+      "characterCount": 3653,
+      "provenance": {
+        "pageTitle": "新五代史/卷02",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B702&oldid=2312021",
+        "revisionId": 2312021,
+        "fetchedAt": "2026-10-06T17:13:25.289496+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B702&action=history",
+        "sourceSha256": "395904bfc8da28902f37209057b825e1a6c9b47e20c1c70968c3dd51aae41f85",
+        "chapterSha256": "fb76438e1ab8e18216cb615936acfaa213ee7146f2cdeb9197bcbaf1e776b990"
+      }
+    },
+    {
+      "id": "new-v04",
+      "bookId": "new",
+      "volume": 4,
+      "title": "卷 4 · 唐本纪第四",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 4,
+      "scope": "full",
+      "paragraphCount": 27,
+      "characterCount": 4656,
+      "provenance": {
+        "pageTitle": "新五代史/卷04",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B704&oldid=1744306",
+        "revisionId": 1744306,
+        "fetchedAt": "2026-10-06T17:13:26.053313+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B704&action=history",
+        "sourceSha256": "0362264bbdadbc700d6cecb7b18cf028ddd216bfc6dc4f5b72019ff5f5143850",
+        "chapterSha256": "a458b80694e1670388872c099ebbcb6c66eda49317d33de269d61d46369bc413"
+      }
+    },
+    {
+      "id": "new-v05",
+      "bookId": "new",
+      "volume": 5,
+      "title": "卷 5 · 唐本纪第五",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 5,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 4663,
+      "provenance": {
+        "pageTitle": "新五代史/卷05",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B705&oldid=1744349",
+        "revisionId": 1744349,
+        "fetchedAt": "2026-10-06T17:13:27.004301+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B705&action=history",
+        "sourceSha256": "f652639970f56b171a0089abbdc08d87232a684d9c79d411e480bb0e9f52e9b7",
+        "chapterSha256": "38ad0608d027f0802de3dada86fe81e9e0694afb8dbd5dce3a2f34550941c1a7"
+      }
+    },
+    {
+      "id": "new-v08",
+      "bookId": "new",
+      "volume": 8,
+      "title": "卷 8 · 晋本纪第八",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 8,
+      "scope": "full",
+      "paragraphCount": 19,
+      "characterCount": 4221,
+      "provenance": {
+        "pageTitle": "新五代史/卷08",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B708&oldid=1744641",
+        "revisionId": 1744641,
+        "fetchedAt": "2026-10-06T17:13:27.567311+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B708&action=history",
+        "sourceSha256": "f35acfa7e43a8befdca5273818c8643ac95f1c53e941c19fd5a45f4b7e46ac68",
+        "chapterSha256": "effb70099e85455b5648eab87b9ec3dae8a53f0d497680bf41927784f1459d1b"
+      }
+    },
+    {
+      "id": "new-v10",
+      "bookId": "new",
+      "volume": 10,
+      "title": "卷 10 · 汉本纪第十（兼载隐帝）",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "position": 10,
+      "scope": "full",
+      "paragraphCount": 14,
+      "characterCount": 3631,
+      "provenance": {
+        "pageTitle": "新五代史/卷10",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B710&oldid=1744688",
+        "revisionId": 1744688,
+        "fetchedAt": "2026-10-06T17:13:28.652123+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B710&action=history",
+        "sourceSha256": "15f06f27cfa8d82119c37d5ab4f6f7836848f4ea78e605def8ad2952b97de43f",
+        "chapterSha256": "df422c394412ca020ef5de759dda4527bf8ef4839e750f3af752ca58f187f9a7"
+      }
+    },
+    {
+      "id": "new-v11",
+      "bookId": "new",
+      "volume": 11,
+      "title": "卷 11 · 周本纪第十一",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 11,
+      "scope": "full",
+      "paragraphCount": 13,
+      "characterCount": 2660,
+      "provenance": {
+        "pageTitle": "新五代史/卷11",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=1745589",
+        "revisionId": 1745589,
+        "fetchedAt": "2026-10-06T17:13:28.963458+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&action=history",
+        "sourceSha256": "5832c565e4c8b4089d612c2b5337e9c0602c52145ad636e7c20ae6d3d3e3d198",
+        "chapterSha256": "08a32cc28e548a12a8a930cfbed08d720be98bc3579b72d53bc51af713cd000c"
+      }
+    },
+    {
+      "id": "tongjian-v266",
+      "bookId": "tongjian",
+      "volume": 266,
+      "title": "卷 266 · 后梁纪1",
+      "years": "907—908",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 266,
+      "scope": "full",
+      "paragraphCount": 105,
+      "characterCount": 11307,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷266",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7266&oldid=803277",
+        "revisionId": 803277,
+        "fetchedAt": "2026-10-06T17:13:30.188227+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7266&action=history",
+        "sourceSha256": "d021fd92b5fd3e023cc9ada1885889a86d2fe254ce8429f2a2441ca74048bfcb",
+        "chapterSha256": "8284216e950fdc4def6d8de1201831a2cf2826683f60617ec74be202265c5e71"
+      }
+    },
+    {
+      "id": "tongjian-v267",
+      "bookId": "tongjian",
+      "volume": 267,
+      "title": "卷 267 · 后梁纪2",
+      "years": "908—911",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 267,
+      "scope": "full",
+      "paragraphCount": 137,
+      "characterCount": 11573,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷267",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7267&oldid=1765571",
+        "revisionId": 1765571,
+        "fetchedAt": "2026-10-06T17:13:30.479976+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7267&action=history",
+        "sourceSha256": "eb3989dce8ed9a26128b226b9e7d3469eec6ec7528b8052d4b9f362f13b398b1",
+        "chapterSha256": "71f557abcb8692f0fafb2cb4d6eec5fd662405bb7789aa073b00363ba468ec42"
+      }
+    },
+    {
+      "id": "tongjian-v268",
+      "bookId": "tongjian",
+      "volume": 268,
+      "title": "卷 268 · 后梁纪3",
+      "years": "911—913",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 268,
+      "scope": "full",
+      "paragraphCount": 138,
+      "characterCount": 11732,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷268",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909",
+        "revisionId": 2307909,
+        "fetchedAt": "2026-10-06T17:13:32.542922+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&action=history",
+        "sourceSha256": "d82ee26b1444327d667ed18ecab5bc0b795badc73ddc9a5038a5719164504903",
+        "chapterSha256": "ba0732ceef1fc7d5590a15e2d0b70aaec6117613ed7018b49d41ab3d83721bac"
+      }
+    },
+    {
+      "id": "tongjian-v269",
+      "bookId": "tongjian",
+      "volume": 269,
+      "title": "卷 269 · 后梁纪4",
+      "years": "913—917",
+      "subjects": [],
+      "position": 269,
+      "scope": "full",
+      "paragraphCount": 107,
+      "characterCount": 11929,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷269",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7269&oldid=1765765",
+        "revisionId": 1765765,
+        "fetchedAt": "2026-10-06T17:13:32.046721+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7269&action=history",
+        "sourceSha256": "ba5f1de1a21fdbb82801409fa13edd235f36eaf0cb38f5600e16aa2df5a0f15d",
+        "chapterSha256": "18d5dccc4c1a19b7207ffa20e5c410f06f29082f7be53f9ecf756fdb556b1a1c"
+      }
+    },
+    {
+      "id": "tongjian-v270",
+      "bookId": "tongjian",
+      "volume": 270,
+      "title": "卷 270 · 后梁纪5",
+      "years": "917—919",
+      "subjects": [],
+      "position": 270,
+      "scope": "full",
+      "paragraphCount": 92,
+      "characterCount": 11883,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷270",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281",
+        "revisionId": 803281,
+        "fetchedAt": "2026-10-06T17:13:33.341218+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&action=history",
+        "sourceSha256": "a695dfbb72a0a28e15aecf8129df8b9ee7b0a8ea2e9f8d8078b9e8635495baab",
+        "chapterSha256": "e2ee1d7864578b0813db54257ade2b2bc3b091559efb4d5b03a296bf36c9e1b9"
+      }
+    },
+    {
+      "id": "tongjian-v271",
+      "bookId": "tongjian",
+      "volume": 271,
+      "title": "卷 271 · 后梁纪6",
+      "years": "919—922",
+      "subjects": [],
+      "position": 271,
+      "scope": "full",
+      "paragraphCount": 83,
+      "characterCount": 9398,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷271",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7271&oldid=1751976",
+        "revisionId": 1751976,
+        "fetchedAt": "2026-10-06T17:13:35.264305+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7271&action=history",
+        "sourceSha256": "47e1375a712e5c9786374fd76b48b0f76f11ce3b1d19cd2f716a3982701b7005",
+        "chapterSha256": "57e9b8c4a0782c21fa4353d7e05b5981c1b431010f9d5b14b89fd323c67ec521"
+      }
+    },
+    {
+      "id": "tongjian-v272",
+      "bookId": "tongjian",
+      "volume": 272,
+      "title": "卷 272 · 后唐纪1",
+      "years": "923",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 272,
+      "scope": "full",
+      "paragraphCount": 79,
+      "characterCount": 11278,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷272",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7272&oldid=1554183",
+        "revisionId": 1554183,
+        "fetchedAt": "2026-10-06T17:13:35.301468+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7272&action=history",
+        "sourceSha256": "a7c2a032731d1618c5684b25ca7904531562942a929f06d9deb74479efbda9ce",
+        "chapterSha256": "653cfd2d9e00387f3148facb5e5f001a55c419af687179cb0ec5a4b367cc6c19"
+      }
+    },
+    {
+      "id": "tongjian-v273",
+      "bookId": "tongjian",
+      "volume": 273,
+      "title": "卷 273 · 后唐纪2",
+      "years": "924—925",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 273,
+      "scope": "full",
+      "paragraphCount": 117,
+      "characterCount": 10741,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷273",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7273&oldid=1502848",
+        "revisionId": 1502848,
+        "fetchedAt": "2026-10-06T17:13:36.974488+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7273&action=history",
+        "sourceSha256": "fc0b86296c3c297d9e6fcc0500c546eafc65ad237f46f5fa2bf2ff0601171c8d",
+        "chapterSha256": "32aa0aff4dfaec96aed5eda00282f1a76bc284b62902fd1ee777275caf29817c"
+      }
+    },
+    {
+      "id": "tongjian-v274",
+      "bookId": "tongjian",
+      "volume": 274,
+      "title": "卷 274 · 后唐纪3",
+      "years": "925—926",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 274,
+      "scope": "full",
+      "paragraphCount": 77,
+      "characterCount": 11148,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷274",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7274&oldid=803285",
+        "revisionId": 803285,
+        "fetchedAt": "2026-10-06T17:13:37.052586+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7274&action=history",
+        "sourceSha256": "dd96c3090e191269574d0577699b00e4ff027d7ed21fa8ba4ce37b254056f03a",
+        "chapterSha256": "4a2194ee2490471badb4fae57355381822b67e089100a274ddef84d616c29439"
+      }
+    },
+    {
+      "id": "tongjian-v275",
+      "bookId": "tongjian",
+      "volume": 275,
+      "title": "卷 275 · 后唐纪4",
+      "years": "926—927",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "position": 275,
+      "scope": "full",
+      "paragraphCount": 103,
+      "characterCount": 9758,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷275",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7275&oldid=803286",
+        "revisionId": 803286,
+        "fetchedAt": "2026-10-06T17:14:58.252919+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7275&action=history",
+        "sourceSha256": "2f71435a3c5777da264d6616d86d21a40ca6ae631cb2ad39416ede82279550a9",
+        "chapterSha256": "60e9e457af79a0e393ee441ca268eb89cec518557cc36f04463a4a7726c519b1"
+      }
+    },
+    {
+      "id": "tongjian-v276",
+      "bookId": "tongjian",
+      "volume": 276,
+      "title": "卷 276 · 后唐纪5",
+      "years": "927—929",
+      "subjects": [],
+      "position": 276,
+      "scope": "full",
+      "paragraphCount": 118,
+      "characterCount": 9403,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷276",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667",
+        "revisionId": 1767667,
+        "fetchedAt": "2026-10-06T17:14:57.843651+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&action=history",
+        "sourceSha256": "d2d63d60b3c4c4d9fcadb1559a21e2d92ab17432f342b627f00590a46a608cce",
+        "chapterSha256": "4a55dd65a0e92f925f99cfecdede070113a1a7a4f6b909f01e410ea00e80c85b"
+      }
+    },
+    {
+      "id": "tongjian-v277",
+      "bookId": "tongjian",
+      "volume": 277,
+      "title": "卷 277 · 后唐纪6",
+      "years": "930—932",
+      "subjects": [],
+      "position": 277,
+      "scope": "full",
+      "paragraphCount": 131,
+      "characterCount": 11711,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷277",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7277&oldid=1768811",
+        "revisionId": 1768811,
+        "fetchedAt": "2026-10-06T17:14:59.941840+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7277&action=history",
+        "sourceSha256": "27a7e2ae23cb349c9257999e00eb93a377105d3020c2d8bc59f7d9b55359cad8",
+        "chapterSha256": "9908478453ef15f49e565ed344ed5d12159c6e6bfa4892189c443628ed54a9c4"
+      }
+    },
+    {
+      "id": "tongjian-v278",
+      "bookId": "tongjian",
+      "volume": 278,
+      "title": "卷 278 · 后唐纪7",
+      "years": "932—934",
+      "subjects": [],
+      "position": 278,
+      "scope": "full",
+      "paragraphCount": 102,
+      "characterCount": 9018,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷278",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7278&oldid=1768855",
+        "revisionId": 1768855,
+        "fetchedAt": "2026-10-06T17:14:59.825834+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7278&action=history",
+        "sourceSha256": "b1402c2260d9b49437e7daaab6c19fc90820116f7894a34bd05f7023d40781a0",
+        "chapterSha256": "0e6ba3025803643ab5c22b325660c32460f157a548348864e75dfb7b566baaba"
+      }
+    },
+    {
+      "id": "tongjian-v279",
+      "bookId": "tongjian",
+      "volume": 279,
+      "title": "卷 279 · 后唐纪8",
+      "years": "934—935",
+      "subjects": [],
+      "position": 279,
+      "scope": "full",
+      "paragraphCount": 118,
+      "characterCount": 11660,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷279",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7279&oldid=1769087",
+        "revisionId": 1769087,
+        "fetchedAt": "2026-10-06T17:15:01.363844+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7279&action=history",
+        "sourceSha256": "acf72ced846b9cf22781372115c217f6c0560d7fe2d59e53b0813d9acb260709",
+        "chapterSha256": "9cd7b30ec580a5d20cfe2344b9399d2dc3e78198447c3ec21db21d25e792454b"
+      }
+    },
+    {
+      "id": "tongjian-v280",
+      "bookId": "tongjian",
+      "volume": 280,
+      "title": "卷 280 · 后晋纪1",
+      "years": "936",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 280,
+      "scope": "full",
+      "paragraphCount": 73,
+      "characterCount": 10409,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷280",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7280&oldid=1769088",
+        "revisionId": 1769088,
+        "fetchedAt": "2026-10-06T17:15:02.138112+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7280&action=history",
+        "sourceSha256": "9d7df736fb7ff513d2093d80c46e4f0d29e458110e3a16b0fa1ef9293f0002da",
+        "chapterSha256": "ed91ff9de2dbe538cd829a03fc09421477efea435c15cefaf29358107a9845d2"
+      }
+    },
+    {
+      "id": "tongjian-v281",
+      "bookId": "tongjian",
+      "volume": 281,
+      "title": "卷 281 · 后晋纪2",
+      "years": "937—938",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 281,
+      "scope": "full",
+      "paragraphCount": 105,
+      "characterCount": 9441,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷281",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7281&oldid=1769092",
+        "revisionId": 1769092,
+        "fetchedAt": "2026-10-06T17:15:02.942481+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7281&action=history",
+        "sourceSha256": "cf816cf339de2b63ff114970c744c8728994b92b2e3a022e4fbeb022caf8c606",
+        "chapterSha256": "45837ee176f72484a6d333abd5749a227517497c7a4bd1d9e01762258b145690"
+      }
+    },
+    {
+      "id": "tongjian-v282",
+      "bookId": "tongjian",
+      "volume": 282,
+      "title": "卷 282 · 后晋纪3",
+      "years": "939—941",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 282,
+      "scope": "full",
+      "paragraphCount": 119,
+      "characterCount": 11798,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷282",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7282&oldid=2303983",
+        "revisionId": 2303983,
+        "fetchedAt": "2026-10-06T17:15:03.681500+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7282&action=history",
+        "sourceSha256": "64d774a5f28765e642c372f130d05d6a123b183fe071165f4236c1cdb4de2a5d",
+        "chapterSha256": "fb58e442a513057ece9e966e7480bca60d285fe6be3210a6aea1c57376d1935b"
+      }
+    },
+    {
+      "id": "tongjian-v283",
+      "bookId": "tongjian",
+      "volume": 283,
+      "title": "卷 283 · 后晋纪4",
+      "years": "942—944",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "position": 283,
+      "scope": "full",
+      "paragraphCount": 99,
+      "characterCount": 10424,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷283",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7283&oldid=810796",
+        "revisionId": 810796,
+        "fetchedAt": "2026-10-06T17:15:04.485344+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7283&action=history",
+        "sourceSha256": "77f1920209968f83c028890bcb2881b24b023229da5b207ccc2cf38ac65b8f0b",
+        "chapterSha256": "af9a0e011f21069e720013a145530ac6b5ceb237406948b95aae73ed06a68d2c"
+      }
+    },
+    {
+      "id": "tongjian-v284",
+      "bookId": "tongjian",
+      "volume": 284,
+      "title": "卷 284 · 后晋纪5",
+      "years": "944—945",
+      "subjects": [],
+      "position": 284,
+      "scope": "full",
+      "paragraphCount": 83,
+      "characterCount": 9885,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷284",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7284&oldid=803293",
+        "revisionId": 803293,
+        "fetchedAt": "2026-10-06T17:15:05.186776+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7284&action=history",
+        "sourceSha256": "4a4ddb7e7af7585d643a85ca0b1a4e2ec06ca7365e36f10cc094d60347b44e3a",
+        "chapterSha256": "f574628ed728aaac42578e241356defb9831222d8215f6619cd9aef934fe578b"
+      }
+    },
+    {
+      "id": "tongjian-v285",
+      "bookId": "tongjian",
+      "volume": 285,
+      "title": "卷 285 · 后晋纪6",
+      "years": "945—946",
+      "subjects": [],
+      "position": 285,
+      "scope": "full",
+      "paragraphCount": 83,
+      "characterCount": 9902,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷285",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7285&oldid=2554328",
+        "revisionId": 2554328,
+        "fetchedAt": "2026-10-06T17:15:06.093782+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7285&action=history",
+        "sourceSha256": "741b1eaafabc6947e855b8450932ac63cf7c82177839499339161134d897adbb",
+        "chapterSha256": "22229fc51734a2dae2a1f469d52469784fd3b7f2973096156d98f8a8979e643e"
+      }
+    },
+    {
+      "id": "tongjian-v286",
+      "bookId": "tongjian",
+      "volume": 286,
+      "title": "卷 286 · 后汉纪1",
+      "years": "947",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "position": 286,
+      "scope": "full",
+      "paragraphCount": 95,
+      "characterCount": 10071,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷286",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7286&oldid=2458278",
+        "revisionId": 2458278,
+        "fetchedAt": "2026-10-06T17:15:06.691286+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7286&action=history",
+        "sourceSha256": "a47cbf5c6727c159e43dae66a3a68f0f0d4e805fa9ecddf23f1432135ee5b8a7",
+        "chapterSha256": "b236a4e06240c3ba801dffd5def56c935a1a21320437b1ab83eac8290fe5c486"
+      }
+    },
+    {
+      "id": "tongjian-v287",
+      "bookId": "tongjian",
+      "volume": 287,
+      "title": "卷 287 · 后汉纪2",
+      "years": "947—948",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "position": 287,
+      "scope": "full",
+      "paragraphCount": 98,
+      "characterCount": 9809,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷287",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7287&oldid=1329024",
+        "revisionId": 1329024,
+        "fetchedAt": "2026-10-06T17:15:07.625757+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7287&action=history",
+        "sourceSha256": "45ec653b9f7bbe80d99da1073bba9f849479d92d56aa59006223041f83050981",
+        "chapterSha256": "868d50f74bb42fdf06c8f64deafc0b1cda56b6e1cfc784e2255d954c61548113"
+      }
+    },
+    {
+      "id": "tongjian-v288",
+      "bookId": "tongjian",
+      "volume": 288,
+      "title": "卷 288 · 后汉纪3",
+      "years": "948—949",
+      "subjects": [],
+      "position": 288,
+      "scope": "full",
+      "paragraphCount": 113,
+      "characterCount": 10458,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷288",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7288&oldid=1769130",
+        "revisionId": 1769130,
+        "fetchedAt": "2026-10-06T17:15:08.054001+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7288&action=history",
+        "sourceSha256": "0680776f244a3486e4e2a6e5aaf72ef7128536eafacf54e6d7f1ccec47173d48",
+        "chapterSha256": "a52f95920c75f0613143358b409c26f97a31dc362bbe27a1c3c6562ffb224bea"
+      }
+    },
+    {
+      "id": "tongjian-v289",
+      "bookId": "tongjian",
+      "volume": 289,
+      "title": "卷 289 · 后汉纪4",
+      "years": "950",
+      "subjects": [],
+      "position": 289,
+      "scope": "full",
+      "paragraphCount": 86,
+      "characterCount": 10595,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷289",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7289&oldid=1769444",
+        "revisionId": 1769444,
+        "fetchedAt": "2026-10-06T17:15:09.195739+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7289&action=history",
+        "sourceSha256": "728bbd5109317d6c74141a4d512b30ce82feb6d2a19938dbc4948154c9bd674d",
+        "chapterSha256": "c29d49f24f0bc7ee3f58b92c11abbec7cb5ed962f334cdc1be3c9b137653c62f"
+      }
+    },
+    {
+      "id": "tongjian-v290",
+      "bookId": "tongjian",
+      "volume": 290,
+      "title": "卷 290 · 后周纪1",
+      "years": "951—952",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 290,
+      "scope": "full",
+      "paragraphCount": 128,
+      "characterCount": 11548,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷290",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7290&oldid=1554171",
+        "revisionId": 1554171,
+        "fetchedAt": "2026-10-06T17:15:09.944713+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7290&action=history",
+        "sourceSha256": "345619c3f8ac5c755434e267b040f1362288af4a67d916f39a8625e3ad4cf977",
+        "chapterSha256": "b1260e5692d260f943418868c206715c926357ff5a123392388c103da2596331"
+      }
+    },
+    {
+      "id": "tongjian-v291",
+      "bookId": "tongjian",
+      "volume": 291,
+      "title": "卷 291 · 后周纪2",
+      "years": "952—954",
+      "subjects": [
+        "guo-wei"
+      ],
+      "position": 291,
+      "scope": "full",
+      "paragraphCount": 114,
+      "characterCount": 11113,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷291",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7291&oldid=1554151",
+        "revisionId": 1554151,
+        "fetchedAt": "2026-10-06T17:15:11.090661+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7291&action=history",
+        "sourceSha256": "1db992ebbba1c2ca23c2fb057c6c152fb4de2ed5d9b5c743370a83003829c62b",
+        "chapterSha256": "34e4b08514411fa8c58b25fd764975462331e564b1f72413a4ad4beacd14d4d1"
+      }
+    },
+    {
+      "id": "tongjian-v292",
+      "bookId": "tongjian",
+      "volume": 292,
+      "title": "卷 292 · 后周纪3",
+      "years": "954—956",
+      "subjects": [],
+      "position": 292,
+      "scope": "full",
+      "paragraphCount": 97,
+      "characterCount": 10006,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷292",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7292&oldid=1769707",
+        "revisionId": 1769707,
+        "fetchedAt": "2026-10-06T17:15:11.661759+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7292&action=history",
+        "sourceSha256": "11c2dbe7faee7f63359c2341f3615173f83b7b44a7334f640fe9b54e55ff7bc4",
+        "chapterSha256": "a4a2f779cba8b23e0f0cdb3c01e3381613afff707c3bdbef72a7cd5024ee08c7"
+      }
+    },
+    {
+      "id": "tongjian-v293",
+      "bookId": "tongjian",
+      "volume": 293,
+      "title": "卷 293 · 后周纪4",
+      "years": "956—957",
+      "subjects": [],
+      "position": 293,
+      "scope": "full",
+      "paragraphCount": 108,
+      "characterCount": 10589,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷293",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7293&oldid=1502955",
+        "revisionId": 1502955,
+        "fetchedAt": "2026-10-06T17:15:13.174489+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7293&action=history",
+        "sourceSha256": "7ddb9319f883c55a5297a82be399002ff596156aea599d97bf00bc606c65e315",
+        "chapterSha256": "7fc8dd167d0100b458a68b21990fd2b996b1cbc68c0cb96a819d8e703e27e0d3"
+      }
+    },
+    {
+      "id": "tongjian-v294",
+      "bookId": "tongjian",
+      "volume": 294,
+      "title": "卷 294 · 后周纪5",
+      "years": "958—959",
+      "subjects": [],
+      "position": 294,
+      "scope": "full",
+      "paragraphCount": 114,
+      "characterCount": 10696,
+      "provenance": {
+        "pageTitle": "資治通鑑/卷294",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7294&oldid=2594143",
+        "revisionId": 2594143,
+        "fetchedAt": "2026-10-06T17:15:13.380778+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7294&action=history",
+        "sourceSha256": "20a3df3dbba97a4ab80dca46b80cb6a2618ffa4b0ecff564713ddc10ab3c93e6",
+        "chapterSha256": "eaf0587f8343b673ccabe7659e98ba62c856e417cbe3db5ac8c002e9ad956be1"
+      }
+    },
+    {
+      "id": "quewen-v001",
+      "bookId": "quewen",
+      "volume": 1,
+      "title": "五代史阙文 · 全卷",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu",
+        "shi-jingtang",
+        "liu-zhiyuan",
+        "guo-wei"
+      ],
+      "position": 1,
+      "scope": "full",
+      "paragraphCount": 44,
+      "characterCount": 5716,
+      "provenance": {
+        "pageTitle": "五代史闕文",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E9%97%95%E6%96%87&oldid=5438767",
+        "revisionId": 5438767,
+        "fetchedAt": "2026-10-06T17:15:15.005525+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E9%97%95%E6%96%87&action=history",
+        "sourceSha256": "c546db81eecc83f1e9b916bd7f98373762379be14e9f0f34249929dced186ea5",
+        "chapterSha256": "ee9480f39f6f2eb7256e632840a952d9b5b1e3219cddc0b7695d28a3b2fe59b0"
+      }
+    }
+  ]
+}

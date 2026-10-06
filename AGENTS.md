@@ -13,6 +13,10 @@
 ## 验证与发布
 
 - 前端修改：在 `frontend/` 中运行 `npm run build`、`npm test` 和 `npm run test:sites`；构建包含严格类型检查。
-- 后端修改：在 `backend/` 中运行 `npm test`。Node.js 至少为 22.18.0；初始化脚本读取前端 `src/data.ts` 中的静态节选。
+- 后端修改：在 `backend/` 中运行 `npm test`。Node.js 至少为 22.18.0；初始化脚本保留旧节选记录并导入 `content/five-dynasties/` 的完整原文归档；批量导入前先备份正式数据库。
 - GitHub Pages 发布目录是 `frontend/dist/client/`，推送 `main` 的前端变更会触发现有发布流程。
 - `backend/.local/` 包含数据库、凭据、隧道身份、日志和备份，必须保持 Git 忽略；不把这些内容复制到 skills 或网站中。
+
+## 史料归档
+
+用户于 2026-10-07 要求五代开国皇帝原文在本地和站内阅读，并补充《资治通鉴》等正史之外的史料。公开归档位于 `content/five-dynasties/`，含新旧五代史开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》。正文保留繁体字、夹注、序文与来源版本；不要把《资治通鉴》称作野史，也不要生成缺失译文。前端按卷读取静态副本并优先使用 API 中已发布的修订、译文。新增归档需校验来源、许可证与校验值，运行 `python3 tests/archive_sources_test.py` 和后端测试；不要原地重抓已有版本改变稳定段落 ID。

@@ -8,3 +8,9 @@ backend/.env.*
 !backend/.env.example
 frontend/.env*.local
 *.dump
+
+# Generated public reading snapshots; canonical originals are under content/.
+frontend/public/history/
+
+__pycache__/
+*.pyc

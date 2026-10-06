@@ -10,6 +10,7 @@ import { createRepository } from '../src/repository.mjs';
 import { createApi } from '../src/http.mjs';
 import { adminDatabase, localDir, backendDir } from '../scripts/runtime.mjs';
 import { seed } from '../scripts/seed.mjs';
+import { importLibrary } from '../scripts/import-library.mjs';
 const config = loadConfig();
 const database = `history_test_${process.pid}_${randomBytes(4).toString('hex')}`;
 let admin, owner, pool, server, base, created = false;
@@ -52,7 +53,7 @@ test('chapter returns ordered originals and only the latest published translatio
   assert.equal(chapter.scope, 'excerpt');
 });
 test('unpublished books and chapters never appear in API or search', async () => {
-  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id), ['old']);
+  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['old', 'quewen', 'tongjian']);
   assert.equal((await fetch(`${base}/api/chapters/new-1`)).status, 404);
   assert.equal((await fetch(`${base}/api/books/new/chapters`)).status, 404);
   assert.equal((await (await fetch(`${base}/api/search?q=新修订`)).json()).results.length, 0);
@@ -114,4 +115,29 @@ test('local content commands keep drafts private, publish reviewed translations 
     assert.equal(paragraph.original, '修订后的测试原文'); assert.equal(paragraph.translation, null);
     assert.equal((await owner.query("SELECT count(*)::int AS n FROM paragraph_revisions WHERE paragraph_id='old-1-p2'")).rows[0].n, 2);
   } finally { rmSync(folder, { recursive: true }); }
+});
+
+test('full archived chapters are available through the read-only API', async () => {
+  const chapter = await (await fetch(`${base}/api/chapters/old-v110`)).json();
+  assert.equal(chapter.scope, 'full');
+  assert.ok(chapter.paragraphs.length > 20);
+  assert.ok(chapter.paragraphs.some(paragraph => paragraph.original.includes('郭氏')));
+  assert.ok(chapter.paragraphs.every(paragraph => paragraph.translation === null));
+  const directory = (await (await fetch(`${base}/api/books/tongjian/chapters`)).json()).chapters;
+  assert.equal(directory.length, 29);
+  assert.equal(directory[0].id, 'tongjian-v266');
+  assert.equal(directory.at(-1).id, 'tongjian-v294');
+});
+
+test('repeat imports preserve local original revisions, translations and publication choices', async () => {
+  await owner.query('BEGIN');
+  try {
+    await owner.query("INSERT INTO paragraph_revisions (paragraph_id,revision,original) VALUES ('old-v110-p1',2,'本机校订原文'); UPDATE paragraphs SET current_revision=2 WHERE id='old-v110-p1'; INSERT INTO translations (paragraph_id,original_revision,version,text,translator,status) VALUES ('old-v110-p1',2,1,'本机校订译文','校订者','published')");
+    await importLibrary(owner);
+    const { rows } = await owner.query("SELECT p.current_revision,r.original FROM paragraphs p JOIN paragraph_revisions r ON r.paragraph_id=p.id AND r.revision=p.current_revision WHERE p.id='old-v110-p1'");
+    assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
+    assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
+    assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 64);
+  } finally { await owner.query('ROLLBACK'); }
 });
