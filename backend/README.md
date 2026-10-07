@@ -1,6 +1,6 @@
 # 中国古代史 · Mac 内容服务
 
-GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只读 API；Tailscale Funnel 提供固定 HTTPS 入口。当前已导入 9 部史料、112 个完整篇章（6,292 个文字块）：新旧《五代史》的五位开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》，以及《五代史补》《五代春秋》《五代会要》《北梦琐言》卷 17—20、《资治通鉴考异》卷 28—30，含四篇卷外提要与序文。另保留原有 2 个兼容节选章节、4 段原文。尚未导入真实译文。
+GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只读 API；Tailscale Funnel 提供固定 HTTPS 入口。当前已导入 9 部史料、112 个完整篇章（6,292 个文字块）：新旧《五代史》的五位开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》，以及《五代史补》《五代春秋》《五代会要》《北梦琐言》卷 17—20、《资治通鉴考异》卷 28—30，含四篇卷外提要与序文。另保留原有 2 个兼容节选章节、4 段原文。2026-10-07 按用户要求保存《五代春秋》提要、上下卷的 76 条 AI 初译草稿，等待用户人工修订。
 
 ## 本机运行
 
@@ -43,6 +43,8 @@ node scripts/tunnel.mjs enable
 
 书籍 → 版本 → 章节 → 稳定段落 ID → 原文修订 → 译文版本。译文绑定原文修订号；只有 `published` 且对应当前原文修订的译文会出现在公开接口中。原文修改后，旧译文保留，但不会错误匹配到新原文。
 
+AI 批次按 `draft` 保存。`translations.metadata` 记录 AI 来源、生成时间、批次及内容校验值、翻译标准、底本校验值和 `reviewNotes` 校核提示；`humanReviewed: false` 记录初译时尚未人工校订的事实。原文表、已发布译文和原有版本不受导入影响。
+
 章节 ID 例如 `old-v110`、`new-v11`、`tongjian-v290`、`quewen-v001`；段落 ID 例如 `old-v110-p1`。原有 `old-1-p1` 等兼容节选 ID 继续可用。`seed` 与 `content:import` 只补缺失记录，不覆盖已有原文修订、译文或发布状态。当前未提供公网管理界面。
 
 导入已校验的公开归档（先备份；不需要重启 API）：
@@ -63,6 +65,24 @@ npm run content -- list
 npm run content -- review 译文ID
 npm run content -- publish 译文ID
 ```
+
+AI 初译批量导入（先备份并验证）：
+
+```sh
+npm run backup
+npm run backup:verify
+npm run translations:import -- .local/translations/2026-10-07-chunqiu/batch.json
+```
+
+`import-translations.mjs` 要求所选篇章逐段完整对应，核对原文修订号和 SHA-256，再以一个事务导入。数据库原文不匹配或中途写入失败时，整批撤销。同一批次重复执行不会复制译文；改变内容需另用批次 ID，产生新译文版本，保留已有稿件。批量工具始终只导入待修订草稿，不执行审核或发布。`002-translation-metadata.sql` 为已有译文表追加元数据列，不改写其正文。
+
+首批试译文件均在 Git 忽略的 `.local/translations/2026-10-07-chunqiu/`：
+
+- `batch.json`：76 条逐段初译，包含 50 条校核提示。
+- `review.md`：直接从数据库已保存稿件生成的文白对照稿，列出段落号、译文 ID、版本和疑点，供本地阅读及人工修订。
+- `before-import.json`、`database-verification.json`：原文完整性与实际入库核对记录。
+
+日期和专名以底本为准。疑似讹字、吴／晋等不同时期称谓、其他史书的记载差异，单列为校核提示，不在翻译时静默修正底本。编辑 `review.md` 不会自动修改数据库；人工修订可通过已有 `content translation` 命令作为新版本保存，再检查并发布。AI 草稿不会进入静态网站副本。
 
 保存原文新修订（保留原文旧版本）：
 

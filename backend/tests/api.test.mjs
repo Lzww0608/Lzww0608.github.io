@@ -11,6 +11,8 @@ import { createApi } from '../src/http.mjs';
 import { adminDatabase, localDir, backendDir } from '../scripts/runtime.mjs';
 import { seed } from '../scripts/seed.mjs';
 import { importLibrary } from '../scripts/import-library.mjs';
+import { importTranslationBatch } from '../scripts/import-translations.mjs';
+import { fixtureBatch } from './fixtures/translation-batch.mjs';
 const config = loadConfig();
 const database = `history_test_${process.pid}_${randomBytes(4).toString('hex')}`;
 let admin, owner, pool, server, base, created = false;
@@ -155,4 +157,52 @@ test('new sources expose ordered prefaces and selected volumes through the API',
     assert.ok(chapter.paragraphs.length > 3);
     assert.ok(chapter.paragraphs.every(p => p.translation === null));
   }
+});
+
+test('AI batch imports preserve published human versions, stay private and are idempotent', async () => {
+  await owner.query('BEGIN');
+  try {
+    const batch = fixtureBatch('test-ai-import');
+    const first = batch.entries[0];
+    await owner.query(`INSERT INTO translations (paragraph_id,original_revision,version,text,translator,status)
+      VALUES ($1,1,1,'已发布的人工译文','人工译者','published')`, [first.paragraphId]);
+    const originalsBefore = (await owner.query('SELECT * FROM paragraph_revisions ORDER BY paragraph_id,revision')).rows;
+    const result = await importTranslationBatch(owner, batch);
+    assert.equal(result.inserted, 76);
+    const drafts = (await owner.query("SELECT * FROM translations WHERE metadata->>'batchId'=$1", [batch.id])).rows;
+    assert.equal(drafts.length, 76);
+    assert.ok(drafts.every(row => row.status === 'draft' && row.metadata.origin === 'ai' && row.metadata.humanReviewed === false));
+    assert.equal(drafts.find(row => row.paragraph_id === first.paragraphId).version, 2);
+    assert.deepEqual(drafts[0].metadata.reviewNotes, ['测试疑点，尚未人工校订。']);
+    assert.deepEqual((await owner.query('SELECT * FROM paragraph_revisions ORDER BY paragraph_id,revision')).rows, originalsBefore);
+    // Read through the same transaction to see drafts, then enforce the public repository filter.
+    const chapter = await createRepository(owner).chapter('chunqiu-v000');
+    assert.equal(chapter.paragraphs[0].translation.text, '已发布的人工译文');
+    assert.equal(chapter.paragraphs[1].translation, null);
+    await owner.query("UPDATE translations SET status='reviewed' WHERE id=$1", [result.ids[1]]);
+    const again = await importTranslationBatch(owner, batch);
+    assert.equal(again.inserted, 0); assert.equal(again.unchanged, 76);
+    assert.equal((await owner.query('SELECT status FROM translations WHERE id=$1', [result.ids[1]])).rows[0].status, 'reviewed');
+    const changed = structuredClone(batch); changed.entries[0].text = '改过的内容';
+    await assert.rejects(importTranslationBatch(owner, changed), /different content/);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM translations WHERE metadata->>'batchId'=$1", [batch.id])).rows[0].n, 76);
+  } finally { await owner.query('ROLLBACK'); }
+});
+
+test('stale database originals and a late insert failure cannot leave a partial batch', async () => {
+  await owner.query('BEGIN');
+  try {
+    const batch = fixtureBatch('test-ai-atomic');
+    const id = batch.entries.at(-1).paragraphId;
+    await owner.query('INSERT INTO paragraph_revisions (paragraph_id,revision,original) VALUES ($1,2,$2)', [id, '测试修订原文']);
+    await owner.query('UPDATE paragraphs SET current_revision=2 WHERE id=$1', [id]);
+    await assert.rejects(importTranslationBatch(owner, batch), /Current database original differs/);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM translations WHERE metadata->>'batchId'=$1", [batch.id])).rows[0].n, 0);
+    await owner.query('UPDATE paragraphs SET current_revision=1 WHERE id=$1', [id]);
+    await owner.query(`CREATE FUNCTION test_reject_ai_translation() RETURNS trigger LANGUAGE plpgsql AS $$
+      BEGIN IF NEW.paragraph_id='chunqiu-v002-p39' THEN RAISE EXCEPTION 'test late insert failure'; END IF; RETURN NEW; END $$;
+      CREATE TRIGGER test_reject_ai_translation BEFORE INSERT ON translations FOR EACH ROW EXECUTE FUNCTION test_reject_ai_translation();`);
+    await assert.rejects(importTranslationBatch(owner, batch), /test late insert failure/);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM translations WHERE metadata->>'batchId'=$1", [batch.id])).rows[0].n, 0);
+  } finally { await owner.query('ROLLBACK'); }
 });
