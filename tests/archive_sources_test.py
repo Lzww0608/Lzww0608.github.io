@@ -13,6 +13,12 @@ class SourceIntegrityTests(unittest.TestCase):
         html = '<div><table class="ws-header"><tr><td>下一卷</td></tr></table><pre>莊宗同光元年</pre><p>正文〈<b>校勘按語</b>〉<br><br>第二段</p><div class="licensetpl"><p>license</p></div></div>'
         self.assertEqual(archive.extract(html), ['莊宗同光元年', '正文〈校勘按語〉', '第二段'])
 
+    def test_heading_tags_are_available_without_reclassifying_short_prose(self):
+        html = '<div class="ws-header"><h2>站点导航</h2></div><h2>開平元年</h2><p>開平元年</p><h3>序</h3><p>正文〈按語〉</p>'
+        tagged = archive.extract(html, with_tags=True)
+        self.assertEqual(tagged, [('開平元年', 'h2'), ('開平元年', 'p'), ('序', 'h3'), ('正文〈按語〉', 'p')])
+        self.assertEqual([text for text, _ in tagged], archive.extract(html))
+
     def test_no_visible_source_text_is_silently_dropped(self):
         blocks = {'p', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'}
         for source in (ROOT / 'content/five-dynasties/sources').glob('*.json'):

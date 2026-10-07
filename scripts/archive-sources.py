@@ -95,15 +95,17 @@ def clean_text(node):
     if node.tag == 'br': return '\n'
     return ''.join(clean_text(child) if isinstance(child, Node) else child for child in node.children)
 
-def extract(html):
+def extract(html, with_tags=False):
     blocks = []
+    def append(value, tag):
+        blocks.append((value, tag) if with_tags else value)
     def visit(node):
         if node.attrs.get('id') == 'headerContainer':
             # The older work header also contains a long bibliographic preface.
             def preface(child):
                 if child.tag == 'td':
                     value = clean_text(child).strip()
-                    if len(value) > 300: blocks.append(value)
+                    if len(value) > 300: append(value, 'td')
                     return
                 for item in child.children:
                     if isinstance(item, Node): preface(item)
@@ -114,7 +116,9 @@ def extract(html):
             value = clean_text(node)
             value = re.sub(r'[\t\r\f\v ]+', ' ', value)
             value = re.sub(r' *\n *', '\n', value).strip()
-            if value: blocks.extend(part.strip() for part in re.split(r'\n{2,}', value) if part.strip())
+            if value:
+                for part in re.split(r'\n{2,}', value):
+                    if part.strip(): append(part.strip(), node.tag)
             return
         for child in node.children:
             if isinstance(child, Node): visit(child)

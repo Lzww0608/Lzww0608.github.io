@@ -1,7 +1,10 @@
 import { mkdirSync, copyFileSync, rmSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { loadLibrary, libraryRoot } from '../../content/library.mjs';
 
 const { catalog } = loadLibrary();
+execFileSync('python3', [fileURLToPath(new URL('../../scripts/index-reading-headings.py', import.meta.url))], { stdio: 'inherit' });
 const target = new URL('../public/history/', import.meta.url);
 rmSync(target, { recursive: true, force: true });
 mkdirSync(new URL('chapters/', target), { recursive: true });

@@ -28,6 +28,8 @@ The user requested all left/right sidebars to be collapsible and a page-color sw
 
 ## Original text scripts
 
+The user requested larger, bold original-text headings on 2026-10-07. Use semantic heading levels for the page title and verified original sections, year headings, prefaces and marked subsections, with a larger size than prose and font-weight 700. `scripts/prepare-content.mjs` uses Python 3 to regenerate `src/reading-headings.json` from preserved source markup; `src/reading-headings.ts` classifies canonical paragraphs before script conversion. Keep titles scaling with the reader font controls and wrapping on phones. A different API revision or original must not inherit the archived heading role. See the project reading skill for future content requirements.
+
 The user requested Traditional/Simplified switching for current and future classical texts on 2026-10-07. All original-text readers must support both modes and remember the selection across chapters, books and reloads. Default to the canonical Traditional original. Use the shared `src/use-original-script.ts`, `src/original-script.ts` and lazily loaded OpenCC converter; keep conversion in the display layer. Restore Traditional by reading the canonical text directly, never by reverse-converting Simplified. Keep archive/API/database originals, paragraph IDs/revisions and published translations intact. New sources must check ambiguous historical names (including 乾祐/乾化) and add verified phrase exceptions when needed. Follow the project-authored `.agents/skills/historical-text-reading/SKILL.md` for content/reader changes.
 
 ## Local source library

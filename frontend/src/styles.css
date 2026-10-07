@@ -71,3 +71,15 @@
 @media(max-width:560px) { .text-book-cover { width:104px; height:154px; padding:8px; } .text-book-cover>span { font-size:19px; letter-spacing:3px; padding:5px; } .text-book-cover>small { font-size:9px; letter-spacing:2px; } .library-catalog { gap:25px; } .library-summary>span:last-child { width:100%; line-height:1.8; } .founder-filter { gap:8px; } .founder-filter button { font-size:14px; padding:9px 10px; } .founder-filter small { margin-left:5px; font-size:10px; } .person-source-links { grid-template-columns:1fr; } }
 
 .reader-toolbar{flex-wrap:wrap;gap:12px}.reader-toolbar>.reader-text-mode{gap:12px;color:var(--accent)}.script-switch{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:3px;overflow:hidden;font-family:var(--sans);font-size:13px;color:var(--muted)}.script-switch button{min-height:34px;padding:5px 12px}.script-switch button+button{border-left:1px solid var(--line)}.script-switch button[aria-pressed="true"]{background:var(--tint);color:var(--accent)}.script-switch button:hover{color:var(--accent)}.script-switch button:focus-visible{outline-offset:-3px}.script-status{font-size:12px;line-height:1.75;color:var(--muted);margin:-14px 0 18px}.script-status:empty{display:none}
+
+/* Original-text titles preserve source hierarchy and scale with reading size. */
+.reader-main h1 { font-size:46px; font-weight:700; line-height:1.45; }
+.original-text .original-heading { position:relative; font-family:var(--serif); font-size:1.4em; font-weight:700; line-height:1.6; margin:1.35em 0 .7em; white-space:pre-line; }
+.original-text h3.original-heading { font-size:1.3em; }
+.original-text h4.original-heading { font-size:1.2em; }
+.original-text h5.original-heading, .original-text h6.original-heading { font-size:1.1em; }
+.original-text > div:first-child > .original-heading { margin-top:0; }
+.original-heading .paragraph-number { font-weight:400; }
+@media(max-width:1190px) { .reader-main h1 { font-size:40px; } }
+@media(max-width:800px) { .reader-main h1 { font-size:36px; } }
+@media(max-width:560px) { .reader-main h1 { font-size:33px; } }

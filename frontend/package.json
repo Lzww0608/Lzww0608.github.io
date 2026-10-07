@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs tests/history-loader.test.mjs tests/original-script.test.mjs tests/appearance.test.mjs",
+    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs tests/history-loader.test.mjs tests/original-script.test.mjs tests/appearance.test.mjs tests/reading-headings.test.mjs",
     "predev": "node scripts/prepare-content.mjs",
     "prebuild": "node scripts/prepare-content.mjs"
   },
