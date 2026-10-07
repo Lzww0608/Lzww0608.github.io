@@ -2,12 +2,16 @@ import { mkdirSync, copyFileSync, rmSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { loadLibrary, libraryRoot } from '../../content/library.mjs';
+import { loadPublishedChapters } from '../../content/translations.mjs';
+import { writeFileSync } from 'node:fs';
 
-const { catalog } = loadLibrary();
+const library = loadLibrary();
+const { catalog } = library;
+const chapters = loadPublishedChapters(library);
 execFileSync('python3', [fileURLToPath(new URL('../../scripts/index-reading-headings.py', import.meta.url))], { stdio: 'inherit' });
 const target = new URL('../public/history/', import.meta.url);
 rmSync(target, { recursive: true, force: true });
 mkdirSync(new URL('chapters/', target), { recursive: true });
 copyFileSync(new URL('catalog.json', libraryRoot), new URL('catalog.json', target));
-for (const chapter of catalog.chapters) copyFileSync(new URL(`chapters/${chapter.id}.json`, libraryRoot), new URL(`chapters/${chapter.id}.json`, target));
+for (const chapter of chapters) writeFileSync(new URL(`chapters/${chapter.id}.json`, target), JSON.stringify(chapter, null, 2)+'\n');
 console.log(`Prepared ${catalog.chapters.length} full chapters for local website reading.`);

@@ -16,7 +16,10 @@ export function createRepository(pool) {
       // One statement provides one snapshot of originals and the translations tied to them.
       const { rows } = await pool.query(`SELECT c.id, c.title, c.position, c.scope, c.source_url AS "sourceUrl", c.notes, b.id AS "bookId", b.title AS "bookTitle", b.author, e.id AS "editionId", e.label AS edition,
         COALESCE((SELECT jsonb_agg(jsonb_build_object('id', p.id, 'position', p.position, 'revision', r.revision, 'original', r.original,
-          'translation', CASE WHEN t.id IS NULL THEN NULL ELSE jsonb_build_object('id', t.id::text, 'text', t.text, 'language', t.language, 'version', t.version, 'translator', t.translator) END) ORDER BY p.position)
+          'translation', CASE WHEN t.id IS NULL THEN NULL ELSE jsonb_build_object('id', t.id::text, 'text', t.text, 'language', t.language, 'version', t.version, 'translator', t.translator,
+            'origin',coalesce(t.metadata->>'origin','human'),
+            'reviewStatus',CASE WHEN t.metadata->>'origin'='ai' AND t.metadata->'humanReviewed' IS DISTINCT FROM 'true'::jsonb THEN 'pending' ELSE coalesce(t.metadata->>'reviewStatus','reviewed') END,
+            'reviewNotes',coalesce(t.metadata->'reviewNotes','[]'::jsonb)) END) ORDER BY p.position)
           FROM paragraphs p JOIN paragraph_revisions r ON r.paragraph_id=p.id AND r.revision=p.current_revision
           LEFT JOIN LATERAL (SELECT * FROM translations t WHERE t.paragraph_id=p.id AND t.original_revision=p.current_revision AND t.language='zh-Hans' AND t.status='published' ORDER BY t.version DESC LIMIT 1) t ON true
           WHERE p.chapter_id=c.id), '[]'::jsonb) AS paragraphs

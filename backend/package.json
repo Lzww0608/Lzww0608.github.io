@@ -16,7 +16,9 @@
     "status": "node scripts/status.mjs",
     "test": "node --test tests/*.test.mjs",
     "content:import": "node scripts/import-library.mjs",
-    "translations:import": "node scripts/import-translations.mjs"
+    "translations:import": "node scripts/import-translations.mjs",
+    "translations:publish-ai": "node scripts/publish-ai-batch.mjs",
+    "translations:export": "node scripts/export-published-translations.mjs"
   },
   "dependencies": {
     "pg": "^8.16.3"

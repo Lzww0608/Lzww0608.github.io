@@ -99,6 +99,9 @@ export interface PublishedTranslation {
   language: string;
   version: number;
   translator: string;
+  origin?: 'ai' | 'human';
+  reviewStatus?: 'pending' | 'owner-edited' | 'reviewed';
+  reviewNotes?: string[];
 }
 
 export interface ChapterParagraph {

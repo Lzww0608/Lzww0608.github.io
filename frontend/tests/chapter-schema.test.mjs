@@ -23,6 +23,15 @@ test('accepts a published translation including its attribution', () => {
   assert.deepEqual(parseChapter(value, 'old'), value);
 });
 
+test('accepts released AI initial translations with transparent review notes, rejects malformed labels', () => {
+  const translation = { id:'1', text:'AI 初译', language:'zh-Hans', version:1, translator:'Codex', origin:'ai', reviewStatus:'pending', reviewNotes:['待核对专名'] };
+  const value = { ...chapter, paragraphs:[{...chapter.paragraphs[0], translation}] };
+  assert.deepEqual(parseChapter(value,'old'),value);
+  for (const extra of [{origin:'unknown'}, {reviewStatus:['pending']}, {reviewNotes:[1]}, {reviewNotes:null}]) {
+    assert.throws(() => parseChapter({...value, paragraphs:[{...chapter.paragraphs[0], translation:{...translation,...extra}}]},'old'),/Invalid chapter/);
+  }
+});
+
 test('rejects a chapter belonging to the other book', () => {
   assert.throws(() => parseChapter(chapter, 'new'), /Invalid chapter/);
 });

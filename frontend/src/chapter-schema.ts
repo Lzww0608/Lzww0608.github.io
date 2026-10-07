@@ -14,6 +14,9 @@ function isTranslation(value: unknown): value is PublishedTranslation {
     && typeof value.text === 'string'
     && typeof value.language === 'string'
     && typeof value.translator === 'string'
+    && (value.origin === undefined || value.origin === 'ai' || value.origin === 'human')
+    && (value.reviewStatus === undefined || typeof value.reviewStatus === 'string' && ['pending', 'owner-edited', 'reviewed'].includes(value.reviewStatus))
+    && (value.reviewNotes === undefined || Array.isArray(value.reviewNotes) && value.reviewNotes.every(note => typeof note === 'string'))
     && isPositiveInteger(value.version);
 }
 

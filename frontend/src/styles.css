@@ -19,6 +19,14 @@
 .paragraph-translation { padding: 14px 20px; margin-bottom: 30px; background: var(--raised); border-left: 2px solid var(--link-line); font-size: .78em; line-height: 1.9; }
 .paragraph-translation > span { color: var(--muted); font-size: 12px; }
 .original-text .paragraph-translation p { margin: 8px 0 0; }
+.translation-heading { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-family:var(--sans); font-size:13px; color:var(--accent); }
+.translation-heading small, .translation-credit { color:var(--muted); font-family:var(--sans); font-size:12px; }
+.translation-credit { display:block; margin-top:12px; }
+.translation-notice { color:var(--soft-ink); font-size:14px; line-height:1.8; border-top:1px solid var(--line); padding-top:14px; margin-bottom:24px; }
+.translation-review-notes { margin-top:14px; padding-top:10px; border-top:1px solid var(--line); font-family:var(--sans); font-size:13px; }
+.translation-review-notes summary { cursor:pointer; color:var(--accent); }
+.translation-review-notes ul { padding-left:1.4em; margin-top:10px; }
+.translation-review-notes li { margin-bottom:8px; }
 
 /* Full local source library, using the existing paper and ink palette. */
 .library-summary { display:flex; align-items:center; flex-wrap:wrap; gap:18px 30px; padding:20px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:var(--muted); font-size:14px; }

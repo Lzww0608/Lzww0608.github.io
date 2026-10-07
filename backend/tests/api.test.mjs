@@ -12,6 +12,7 @@ import { adminDatabase, localDir, backendDir } from '../scripts/runtime.mjs';
 import { seed } from '../scripts/seed.mjs';
 import { importLibrary } from '../scripts/import-library.mjs';
 import { importTranslationBatch } from '../scripts/import-translations.mjs';
+import { publishAiBatch } from '../scripts/publish-ai-batch.mjs';
 import { fixtureBatch } from './fixtures/translation-batch.mjs';
 const config = loadConfig();
 const database = `history_test_${process.pid}_${randomBytes(4).toString('hex')}`;
@@ -204,5 +205,24 @@ test('stale database originals and a late insert failure cannot leave a partial 
       CREATE TRIGGER test_reject_ai_translation BEFORE INSERT ON translations FOR EACH ROW EXECUTE FUNCTION test_reject_ai_translation();`);
     await assert.rejects(importTranslationBatch(owner, batch), /test late insert failure/);
     assert.equal((await owner.query("SELECT count(*)::int AS n FROM translations WHERE metadata->>'batchId'=$1", [batch.id])).rows[0].n, 0);
+  } finally { await owner.query('ROLLBACK'); }
+});
+
+test('an explicit AI release is public without pretending human review and cannot replace a human translation', async () => {
+  await owner.query('BEGIN');
+  try {
+    const batch = fixtureBatch('test-ai-release');
+    await importTranslationBatch(owner,batch);
+    assert.equal((await publishAiBatch(owner,batch)).released,76);
+    const translated = (await createRepository(owner).chapter('chunqiu-v001')).paragraphs;
+    assert.ok(translated.every(p=>p.translation.origin==='ai' && p.translation.reviewStatus==='pending'));
+    assert.deepEqual(translated[0].translation.reviewNotes,['测试疑点，尚未人工校订。']);
+    const metadata=(await owner.query("SELECT metadata FROM translations WHERE metadata->>'batchId'=$1 LIMIT 1",[batch.id])).rows[0].metadata;
+    assert.equal(metadata.humanReviewed,false);assert.equal(metadata.publication.humanReviewed,false);
+    assert.equal((await publishAiBatch(owner,batch)).released,0);
+    await owner.query(`INSERT INTO translations (paragraph_id,original_revision,language,version,text,translator,status)
+      VALUES ($1,1,'zh-Hans',2,'人工修订','校订者','published')`,[batch.entries[0].paragraphId]);
+    await assert.rejects(publishAiBatch(owner,batch),/must not be replaced/);
+    assert.equal((await createRepository(owner).chapter('chunqiu-v000')).paragraphs[0].translation.text,'人工修订');
   } finally { await owner.query('ROLLBACK'); }
 });
