@@ -2,6 +2,8 @@
 
 网站当前聚焦五代时期。前端是 `frontend/` 中的 React + TypeScript + Vite 项目，后端是 `backend/` 中的 Node.js 只读 API 与本机 PostgreSQL。前端的其他约定见 `frontend/AGENTS.md`。
 
+用户于 2026-10-07 要求暂时隐藏五代之外其他朝代的展示。首页、年表、人物索引、筛选和搜索仅展示后梁、后唐、后晋、后汉、后周，统一使用 `frontend/src/data.ts` 的 `displayedDynasties` 范围。保留未来条目与原始史料；古籍中的其他时期记载、编纂年代及来源署名不受界面范围限制。未经用户要求，不恢复其他朝代的入口或预告。
+
 ## 项目 skills
 
 用户于 2026-10-07 要求将开源前后端开发 skills 放入项目。技能位于 `.agents/skills/`，目录与适用场景见 `.agents/README.md`，上游版本、许可证和文件校验值见 `.agents/skills.lock.json`。按实际任务选择技能并阅读相应 `SKILL.md`，无需一次加载全部内容。新增技能可在下一轮对话中发现。

@@ -1,18 +1,19 @@
 import { libraryBooks, libraryChapters } from './library';
-import type { Era, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
+import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
-export const eras: Era[] = ['先秦', '秦汉', '魏晋南北朝', '隋唐', '五代', '宋元', '明清'];
+// Temporary public scope; retain other entries below for a future release.
+export const displayedDynasties: readonly Dynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
 
-export const events: [HistoryEvent, ...HistoryEvent[]] = [
+const allEvents: [HistoryEvent, ...HistoryEvent[]] = [
   { id: 'liang', year: 907, end: 923, dynasty: '后梁', title: '后梁建立', person: '朱温', description: '朱温建立后梁，唐朝结束。五代时期由此展开。', context: '从唐末的地方军事势力到新王朝的建立，后梁为理解五代政治的开端提供了入口。', color: '#9b493d' },
   { id: 'tang', year: 923, end: 936, dynasty: '后唐', title: '后唐建立', person: '李存勖', description: '李存勖建立后唐，随后灭后梁。中原政权进入后唐时期。', context: '阅读后唐史，可以追索河东势力与中原政权的关系，以及洛阳在这一时期的地位。', color: '#767c61' },
   { id: 'jin', year: 936, end: 947, dynasty: '后晋', title: '后晋建立', person: '石敬瑭', description: '石敬瑭建立后晋，后唐结束。', context: '后晋的建立与北方政治关系密切，相关史料可与前后两个王朝的记述对读。', color: '#a88a62' },
   { id: 'han', year: 947, end: 951, dynasty: '后汉', title: '后汉建立', person: '刘知远', description: '刘知远建立后汉，成为五代中的第四个中原王朝。', context: '后汉国祚较短。沿人物与事件阅读，可以观察政权交接和地方军事力量之间的关系。', color: '#6d7c7b' },
-  { id: 'zhou', year: 951, end: 960, dynasty: '后周', title: '后周建立', person: '郭威', description: '郭威建立后周。后周是五代中的最后一个中原王朝。', context: '后周连接五代与宋初。郭威与柴荣的相关记述，是理解这一转折的重要线索。', color: '#876956' },
+  { id: 'zhou', year: 951, end: 960, dynasty: '后周', title: '后周建立', person: '郭威', description: '郭威建立后周。后周是五代中的最后一个中原王朝。', context: '郭威与柴荣的相关记述，是理解后周政治与社会的重要线索，可与前朝史料对读。', color: '#876956' },
   { id: 'song', year: 960, end: 960, dynasty: '宋', title: '宋朝建立', person: '赵匡胤', description: '赵匡胤建立宋朝，五代时期结束。', context: '960 年是五代与宋初的分界。十国的历史延续与统一过程，需要在后续专题中继续展开。', color: '#9b493d' },
 ];
 
-export const people: [HistoryPerson, ...HistoryPerson[]] = [
+const allPeople: [HistoryPerson, ...HistoryPerson[]] = [
   { id: 'zhu-wen', name: '朱温', dynasty: '后梁', role: '后梁建立者', event: 'liang', aliases: '朱全忠 朱晃 梁太祖', intro: '朱温是后梁的建立者。史料中也以朱全忠、朱晃等名字出现，阅读时应注意称谓的变化。' },
   { id: 'li-cunxu', name: '李存勖', dynasty: '后唐', role: '后唐建立者', event: 'tang', aliases: '唐庄宗', intro: '李存勖是后唐的建立者。其活动与河东军事势力、梁唐交替和洛阳的政治地位相关。' },
   { id: 'shi-jingtang', name: '石敬瑭', dynasty: '后晋', role: '后晋建立者', event: 'jin', aliases: '晋高祖', intro: '石敬瑭是后晋的建立者。其相关记述可从后唐与后晋两朝的史料中相互参照。' },
@@ -20,6 +21,16 @@ export const people: [HistoryPerson, ...HistoryPerson[]] = [
   { id: 'guo-wei', name: '郭威', dynasty: '后周', role: '后周建立者', event: 'zhou', aliases: '周太祖', intro: '郭威是后周的建立者。其相关事件为理解后汉到后周的转变提供了入口。' },
   { id: 'zhao-kuangyin', name: '赵匡胤', dynasty: '宋', role: '宋朝建立者', event: 'song', aliases: '宋太祖', intro: '赵匡胤是宋朝的建立者。当前收录其与五代结束相关的线索，宋代内容将逐步整理。' },
 ];
+
+function inDisplayedScope<T extends { dynasty: Dynasty }>(entries: readonly T[]): [T, ...T[]] {
+  const [first, ...rest] = entries.filter(entry => displayedDynasties.includes(entry.dynasty));
+  if (!first) throw new Error('当前展示范围需要至少一个历史条目');
+  return [first, ...rest];
+}
+
+// Every view and the search index consume the same scoped data.
+export const events = inDisplayedScope(allEvents);
+export const people = inDisplayedScope(allPeople);
 
 export const books = libraryBooks;
 

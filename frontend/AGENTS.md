@@ -12,6 +12,8 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 The user renamed the site to “中国古代史” on 2026-10-06. Use this name consistently in visible branding, page titles and descriptions. The first content release still focuses on the Five Dynasties period.
 
+On 2026-10-07 the user temporarily hid other dynasties. Use `src/data.ts`'s shared `displayedDynasties` scope for timeline entries, people, filters and search; show only Later Liang/Tang/Jin/Han/Zhou in the home ribbon. Preserve the broader site identity, future data entries, archival originals, compiler dates and provenance. Do not add other-era preview entrances until the user reopens that scope.
+
 ## Content service
 
 The user chose this Mac as the PostgreSQL/API host and Tailscale Funnel for a fixed public HTTPS address on 2026-10-06. Reading pages fetch published originals and matching published translations from the API; retain the complete per-chapter static archives when the service is unavailable. Do not display drafts or invent translations. Keep private database dumps, credentials and tunnel identities out of Git and frontend bundles. Public, attributed historical originals in `content/five-dynasties/` are intended for Git and static website publication.

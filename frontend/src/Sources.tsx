@@ -7,7 +7,7 @@ import type { Route } from './types';
 
 export function Sources({ go }: { go: (route: Route) => void }) {
   const [personId, setPersonId] = useState('all');
-  const founders = people.filter(person => person.dynasty !== '宋');
+  const founders = people;
   const selected = founders.find(person => person.id === personId);
   const count = libraryChapters.filter(chapter => personId === 'all' || chapter.subjects.includes(personId)).length;
   return <section className="page-shell library-page">
