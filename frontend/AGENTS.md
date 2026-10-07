@@ -42,7 +42,7 @@ On 2026-10-07 the user explicitly requested publication of initial translations 
 
 Use `src/translation-display.ts` for neutral review-note wording in both the reading page and correction form: show “初译” as “译文” and pending manual checks as “待校核”, retaining the substantive ambiguity. Merely reading or opening a form never writes back; only an explicit correction save appends a new version.
 
-The published collection contains 284 translations: 五代春秋 preface and both volumes (76 blocks), the seven archived 新五代史 volumes 1, 2, 4, 5, 8, 10 and 11 (164 blocks, including headings and notes), and the complete archived 五代史阙文 with its prefaces (44 blocks). Actual provenance and review status remain in metadata. Never describe the selected volumes as a translation of the complete 新五代史.
+The published collection contains 498 translations: 五代春秋 preface and both volumes (76 blocks), the seven archived 新五代史 volumes 1, 2, 4, 5, 8, 10 and 11 (164 blocks, including headings and notes), the complete archived 五代史阙文 with its prefaces (44 blocks), and all five 五代史补 volumes plus the archived prefaces and surviving fragment (214 blocks). Actual provenance and review status remain in metadata. Never describe the selected volumes as a translation of the complete 新五代史.
 
 ## Protected translation corrections
 
