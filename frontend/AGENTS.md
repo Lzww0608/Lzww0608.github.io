@@ -10,7 +10,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Site identity
 
-The user renamed the site to “中国古代史” on 2026-10-06. Use this name consistently in visible branding, page titles and descriptions. The first content release still focuses on the Five Dynasties period.
+The user renamed the site to “中国古代史” on 2026-10-06. Use this name consistently in visible branding, page titles and descriptions. The first content release still focuses on the Five Dynasties period. On 2026-10-07 the user removed the header tagline beside the site name; keep the header free of that slogan.
 
 On 2026-10-07 the user temporarily hid other dynasties. Use `src/data.ts`'s shared `displayedDynasties` scope for timeline entries, people, filters and search; show only Later Liang/Tang/Jin/Han/Zhou in the home ribbon. Preserve the broader site identity, future data entries, archival originals, compiler dates and provenance. Do not add other-era preview entrances until the user reopens that scope.
 
