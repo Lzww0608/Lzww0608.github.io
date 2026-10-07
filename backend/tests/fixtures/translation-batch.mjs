@@ -11,4 +11,3 @@ export function fixtureBatch(id = 'test-chunqiu-ai-v1') {
       text: `测试初译：${paragraph.id}`, reviewNotes: ['测试疑点，尚未人工校订。'],
     }))) };
 }
-
