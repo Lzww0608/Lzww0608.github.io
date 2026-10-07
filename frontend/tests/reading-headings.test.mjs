@@ -12,9 +12,14 @@ test('source section headings, year headings and marked subheadings keep their d
     ['old-v005-p1', 'h2'], ['new-v02-p1', 'h2'],
     ['tongjian-v266-p3', 'h3'], ['tongjian-v280-p3', 'h3'],
     ['quewen-v001-p2', 'h2'], ['quewen-v001-p6', 'h3'], ['quewen-v001-p7', 'h4'],
+    ['shibu-v001-p1', 'h2'], ['chunqiu-v001-p1', 'h2'], ['huiyao-v001-p1', 'h2'],
+    ['beimeng-v017-p2', 'h2'], ['beimeng-v017-p4', 'h3'], ['beimeng-v000-p6', 'h2'],
+    ['kaoyi-v028-p2', 'h2'], ['kaoyi-v028-p4', 'h3'],
   ]) assert.equal(originalTextTag(paragraphs.get(id)), tag, id);
   assert.equal(originalTextTag(paragraphs.get('old-v001-p2')), 'p');
   assert.equal(originalTextTag(paragraphs.get('new-v01-p1')), 'p');
+  assert.equal(originalTextTag(paragraphs.get('beimeng-v017-p5')), 'p');
+  assert.equal(originalTextTag(paragraphs.get('kaoyi-v028-p9')), 'p');
 });
 
 test('every heading is attached to the exact canonical paragraph and retains its identity', () => {

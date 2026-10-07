@@ -83,3 +83,10 @@
 @media(max-width:1190px) { .reader-main h1 { font-size:40px; } }
 @media(max-width:800px) { .reader-main h1 { font-size:36px; } }
 @media(max-width:560px) { .reader-main h1 { font-size:33px; } }
+
+/* Keep seven-character titles inside the existing vertical cover. */
+.cover-long-title>span { font-size:24px; letter-spacing:2px; }
+.cover-compact.cover-long-title>span { font-size:12px; letter-spacing:0; }
+@media(max-width:1190px) { .cover-long-title>span { font-size:18px; letter-spacing:1px; } }
+@media(max-width:800px) { .cover-long-title>span { font-size:22px; } }
+@media(max-width:560px) { .cover-long-title>span { font-size:14px; letter-spacing:1px; padding:4px; } }

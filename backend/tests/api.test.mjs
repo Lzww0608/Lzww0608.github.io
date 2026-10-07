@@ -53,7 +53,7 @@ test('chapter returns ordered originals and only the latest published translatio
   assert.equal(chapter.scope, 'excerpt');
 });
 test('unpublished books and chapters never appear in API or search', async () => {
-  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['old', 'quewen', 'tongjian']);
+  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'old', 'quewen', 'shibu', 'tongjian']);
   assert.equal((await fetch(`${base}/api/chapters/new-1`)).status, 404);
   assert.equal((await fetch(`${base}/api/books/new/chapters`)).status, 404);
   assert.equal((await (await fetch(`${base}/api/search?q=新修订`)).json()).results.length, 0);
@@ -138,6 +138,21 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 64);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 112);
   } finally { await owner.query('ROLLBACK'); }
+});
+
+
+test('new sources expose ordered prefaces and selected volumes through the API', async () => {
+  for (const [id, count, first, last] of [['shibu',6,'shibu-v000','shibu-v005'], ['chunqiu',3,'chunqiu-v000','chunqiu-v002'], ['huiyao',31,'huiyao-v000','huiyao-v030'], ['beimeng',5,'beimeng-v000','beimeng-v020'], ['kaoyi',3,'kaoyi-v028','kaoyi-v030']]) {
+    const directory = (await (await fetch(`${base}/api/books/${id}/chapters`)).json()).chapters;
+    assert.equal(directory.length, count);
+    assert.equal(directory[0].id, first);
+    assert.equal(directory.at(-1).id, last);
+    const chapter = await (await fetch(`${base}/api/chapters/${last}`)).json();
+    assert.equal(chapter.bookId, id);
+    assert.equal(chapter.scope, 'full');
+    assert.ok(chapter.paragraphs.length > 3);
+    assert.ok(chapter.paragraphs.every(p => p.translation === null));
+  }
 });

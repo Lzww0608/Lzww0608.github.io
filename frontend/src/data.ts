@@ -43,7 +43,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 export const searchItems: SearchItem[] = [
   ...events.map((item): SearchItem => ({ ...item, type: 'event', category: '事件', name: item.title, summary: `${item.year} 年 · ${item.description}`, keywords: `${item.dynasty} ${item.person} ${item.year}` })),
   ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${item.dynasty} · ${item.role}`, keywords: `${item.dynasty} ${item.aliases}` })),
-  ...books.map((item): SearchItem => ({ ...item, type: 'book', category: '史料', name: item.title, summary: `${item.author} · ${item.description}`, keywords: `${item.kind} 五代 正史 编年 笔记 ${item.title} ${item.author}` })),
+  ...books.map((item): SearchItem => ({ ...item, type: 'book', category: '史料', name: item.title, summary: `${item.author} · ${item.description}`, keywords: `${item.kind} 五代 ${item.title} ${item.author} ${item.description}` })),
   ...libraryChapters.map((item): SearchItem => ({ ...item, type: 'chapter', category: '史料', name: `${books.find(book => book.id === item.bookId)?.title} · ${item.title}`, summary: `${item.years ?? '完整原文'} · ${item.paragraphCount} 段`, keywords: people.filter(person => item.subjects.includes(person.id)).map(person => `${person.name} ${person.dynasty} ${person.aliases}`).join(' ') })),
 ];
 

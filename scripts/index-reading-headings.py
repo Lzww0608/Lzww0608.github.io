@@ -2,6 +2,7 @@
 import importlib.util
 import json
 import re
+from urllib.parse import unquote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +25,27 @@ def heading_level(tag, text, book_id):
     return None
 
 
+def marked_titles(html, book_id):
+    # These Four Treasuries pages mark titles as self-linked spans in a poem,
+    # rather than HTML headings. Only the explicit source anchors count.
+    if book_id not in {'beimeng', 'kaoyi'}:
+        return set()
+    titles = set()
+    def visit(node):
+        if archive.excluded(node):
+            return
+        anchor_id = node.attrs.get('id')
+        if node.tag == 'span' and anchor_id:
+            for child in node.children:
+                if isinstance(child, archive.Node) and child.tag == 'a' and unquote(child.attrs.get('href', '')) == '#' + anchor_id:
+                    titles.add(archive.clean_text(child).strip())
+        for child in node.children:
+            if isinstance(child, archive.Node):
+                visit(child)
+    visit(archive.Document(html).root)
+    return titles
+
+
 def build_index():
     root = ROOT / 'content/five-dynasties'
     catalog = json.loads((root / 'catalog.json').read_text(encoding='utf-8'))
@@ -32,11 +54,17 @@ def build_index():
         chapter_id = summary['id']
         chapter = json.loads((root / 'chapters' / f'{chapter_id}.json').read_text(encoding='utf-8'))
         source = json.loads((root / 'sources' / f'{chapter_id}.json').read_text(encoding='utf-8'))
-        blocks = archive.extract(source['response']['parse']['text']['*'], with_tags=True)
+        html = source['response']['parse']['text']['*']
+        blocks = archive.extract(html, with_tags=True, index_page=source.get('selection', {}).get('indexPage', False))
+        titles = marked_titles(html, summary['bookId'])
         if [text for text, _ in blocks] != [p['original'] for p in chapter['paragraphs']]:
             raise ValueError(f'Source blocks no longer match archived originals: {chapter_id}')
         for paragraph, (text, tag) in zip(chapter['paragraphs'], blocks):
             level = heading_level(tag, text, summary['bookId'])
+            if text in titles:
+                level = 2 if re.fullmatch(r'(?:北夢瑣言|資治通鑑考異)卷[一二三四五六七八九十]+', text) else 3
+            if summary['id'] == 'beimeng-v000' and (text == '北夢瑣言序' or text.startswith('北夢瑣言') and text.endswith('提要')):
+                level = 2
             if level:
                 headings[paragraph['id']] = dict(level=level, revision=paragraph['revision'], original=text)
     return headings

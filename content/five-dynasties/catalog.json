@@ -47,6 +47,61 @@
       "description": "一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。",
       "defaultChapter": "quewen-v001",
       "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E4%BB%A3%E5%8F%B2%E9%97%95%E6%96%87"
+    },
+    {
+      "id": "shibu",
+      "title": "五代史补",
+      "sourceTitle": "五代史補",
+      "author": "北宋 · 陶岳撰",
+      "kind": "史料笔记",
+      "image": "",
+      "description": "五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。",
+      "defaultChapter": "shibu-v001",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C"
+    },
+    {
+      "id": "chunqiu",
+      "title": "五代春秋",
+      "sourceTitle": "五代春秋",
+      "author": "北宋 · 尹洙撰",
+      "kind": "编年史",
+      "image": "",
+      "description": "上下两卷全文及提要，简明记述后梁至后周的政权与史事，可与年表和《资治通鉴》对读。",
+      "defaultChapter": "chunqiu-v001",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B"
+    },
+    {
+      "id": "huiyao",
+      "title": "五代会要",
+      "sourceTitle": "五代會要",
+      "author": "北宋 · 王溥撰",
+      "kind": "典章制度",
+      "image": "",
+      "description": "三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。",
+      "defaultChapter": "huiyao-v001",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81"
+    },
+    {
+      "id": "beimeng",
+      "title": "北梦琐言",
+      "sourceTitle": "北夢瑣言 (四庫全書本)",
+      "author": "孙光宪撰",
+      "kind": "史料笔记",
+      "image": "",
+      "description": "选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。",
+      "defaultChapter": "beimeng-v017",
+      "url": "https://zh.wikisource.org/wiki/%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+    },
+    {
+      "id": "kaoyi",
+      "title": "资治通鉴考异",
+      "sourceTitle": "資治通鑑考異 (四庫全書本)",
+      "author": "北宋 · 司马光撰",
+      "kind": "史料考证",
+      "image": "",
+      "description": "完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。",
+      "defaultChapter": "kaoyi-v028",
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
     }
   ],
   "chapters": [
@@ -1589,6 +1644,1135 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E9%97%95%E6%96%87&action=history",
         "sourceSha256": "c546db81eecc83f1e9b916bd7f98373762379be14e9f0f34249929dced186ea5",
         "chapterSha256": "ee9480f39f6f2eb7256e632840a952d9b5b1e3219cddc0b7695d28a3b2fe59b0"
+      }
+    },
+    {
+      "id": "shibu-v000",
+      "bookId": "shibu",
+      "volume": 0,
+      "position": 1,
+      "title": "提要、序与逸文",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 6,
+      "characterCount": 907,
+      "provenance": {
+        "pageTitle": "五代史補",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C&oldid=1754498",
+        "revisionId": 1754498,
+        "fetchedAt": "2026-10-07T06:12:11.931710+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C&action=history",
+        "sourceSha256": "ab6066a1724068a7e54b5f11ba123b7fcc175469c4fcc5464eac9e66a32575a9",
+        "chapterSha256": "fe51f7c4c3e5ac94f682b8effbabc37ea5ab6d5524a2d031610f50dd4ff7ab00"
+      }
+    },
+    {
+      "id": "chunqiu-v000",
+      "bookId": "chunqiu",
+      "volume": 0,
+      "position": 1,
+      "title": "提要",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 2,
+      "characterCount": 353,
+      "provenance": {
+        "pageTitle": "五代春秋",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B&oldid=347209",
+        "revisionId": 347209,
+        "fetchedAt": "2026-10-07T06:19:27.776352+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B&action=history",
+        "sourceSha256": "4e8a7dfabd6e8fe669f44bf4d7e92b58ede788f2414aed058db2dd81418a5871",
+        "chapterSha256": "95574b04fbe20ec267320d0726b1c9a36dd9b55518af7e23961f144bd576851c"
+      }
+    },
+    {
+      "id": "huiyao-v000",
+      "bookId": "huiyao",
+      "volume": 0,
+      "position": 1,
+      "title": "提要",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 1,
+      "characterCount": 368,
+      "provenance": {
+        "pageTitle": "五代會要",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81&oldid=2008652",
+        "revisionId": 2008652,
+        "fetchedAt": "2026-10-07T06:12:14.164253+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81&action=history",
+        "sourceSha256": "a77bce4831faf71a9bbd4885779f7f176e48094db096a09c5da1921883079af4",
+        "chapterSha256": "1de6a9006768d6e59b0df713020e4030b2e28841a29297935999824a4dafb14a"
+      }
+    },
+    {
+      "id": "beimeng-v000",
+      "bookId": "beimeng",
+      "volume": 0,
+      "position": 1,
+      "title": "提要与自序",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 7,
+      "characterCount": 791,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29&oldid=627755",
+        "revisionId": 627755,
+        "fetchedAt": "2026-10-07T06:12:16.229239+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29&action=history",
+        "sourceSha256": "ca5260bcf8d21a3b7a006424c5e15c07023112f26f3ef431aa00aadfe9b54f15",
+        "chapterSha256": "96f8375353a37059774b2a1d157f387b76fe25ec2412af800d9b8eb79bc30306"
+      }
+    },
+    {
+      "id": "shibu-v001",
+      "bookId": "shibu",
+      "volume": 1,
+      "position": 2,
+      "title": "卷 1 · 后梁史事",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "scope": "full",
+      "paragraphCount": 42,
+      "characterCount": 4850,
+      "provenance": {
+        "pageTitle": "五代史補/卷1",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B71&oldid=340610",
+        "revisionId": 340610,
+        "fetchedAt": "2026-10-07T06:12:11.753054+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B71&action=history",
+        "sourceSha256": "a7210153cde9077279a08e5bc495c4f80be2f0c1b59a2d65a4a9bf2321127f63",
+        "chapterSha256": "976297d2ec8175366ffaf178caeef79e2ce8e714eb862efe8cdb0092a1f3217d"
+      }
+    },
+    {
+      "id": "shibu-v002",
+      "bookId": "shibu",
+      "volume": 2,
+      "position": 3,
+      "title": "卷 2 · 后唐史事",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 40,
+      "characterCount": 5641,
+      "provenance": {
+        "pageTitle": "五代史補/卷2",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B72&oldid=1554414",
+        "revisionId": 1554414,
+        "fetchedAt": "2026-10-07T06:19:27.968723+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B72&action=history",
+        "sourceSha256": "7c323f0cbbb85b1540ae0ef34feef411f16283647d98ad29fc6c61542d463dc5",
+        "chapterSha256": "541bf91c13fbb0f09d9ecb37f0a92e55249aac53c74dd68a6eef6d9f2cb84b17"
+      }
+    },
+    {
+      "id": "shibu-v003",
+      "bookId": "shibu",
+      "volume": 3,
+      "position": 4,
+      "title": "卷 3 · 后晋史事",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 40,
+      "characterCount": 5908,
+      "provenance": {
+        "pageTitle": "五代史補/卷3",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B73&oldid=1462630",
+        "revisionId": 1462630,
+        "fetchedAt": "2026-10-07T06:19:29.241009+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B73&action=history",
+        "sourceSha256": "a97347fdcfe511ebaa844387dbeba71e42275f67d89efd049aa57d8996b1963a",
+        "chapterSha256": "4db32a00039afc4146217748cfc007b51184d464097e9d655828654a51efec31"
+      }
+    },
+    {
+      "id": "shibu-v004",
+      "bookId": "shibu",
+      "volume": 4,
+      "position": 5,
+      "title": "卷 4 · 后汉史事",
+      "subjects": [
+        "liu-zhiyuan"
+      ],
+      "scope": "full",
+      "paragraphCount": 40,
+      "characterCount": 5720,
+      "provenance": {
+        "pageTitle": "五代史補/卷4",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B74&oldid=1153202",
+        "revisionId": 1153202,
+        "fetchedAt": "2026-10-07T06:19:29.821745+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B74&action=history",
+        "sourceSha256": "b6766f5713e134a4ea7409126ac17f7dffc0b2b0988b4d674386f8eeb0561457",
+        "chapterSha256": "86850f154ecfe2cbb8f5d540cbcb084eed2088316cdb630cc2d5294d681183a1"
+      }
+    },
+    {
+      "id": "shibu-v005",
+      "bookId": "shibu",
+      "volume": 5,
+      "position": 6,
+      "title": "卷 5 · 后周史事",
+      "subjects": [
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 46,
+      "characterCount": 5945,
+      "provenance": {
+        "pageTitle": "五代史補/卷5",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B75&oldid=1754500",
+        "revisionId": 1754500,
+        "fetchedAt": "2026-10-07T06:19:30.619134+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B75&action=history",
+        "sourceSha256": "53d37decd257a7058d645efeb7cdd246c5fe5bbdeeb16a09726adda84fc14b08",
+        "chapterSha256": "1c39af12a8166d562796d79663acddff02ef334a9c5ec02e84eb7770c7576fb1"
+      }
+    },
+    {
+      "id": "chunqiu-v001",
+      "bookId": "chunqiu",
+      "volume": 1,
+      "position": 2,
+      "title": "卷上",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 35,
+      "characterCount": 2756,
+      "provenance": {
+        "pageTitle": "五代春秋/卷上",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B%2F%E5%8D%B7%E4%B8%8A&oldid=347214",
+        "revisionId": 347214,
+        "fetchedAt": "2026-10-07T06:12:12.973230+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B%2F%E5%8D%B7%E4%B8%8A&action=history",
+        "sourceSha256": "71f1e3d486e5cf472b01f5534bc2273bd5c832169143aa078f43d7f7feb071fb",
+        "chapterSha256": "d811203e9286f19d002e3200d6574c331badc7ea18ed4606b1c15ba14d1a5529"
+      }
+    },
+    {
+      "id": "chunqiu-v002",
+      "bookId": "chunqiu",
+      "volume": 2,
+      "position": 3,
+      "title": "卷下",
+      "subjects": [
+        "shi-jingtang",
+        "liu-zhiyuan",
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 39,
+      "characterCount": 2277,
+      "provenance": {
+        "pageTitle": "五代春秋/卷下",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B%2F%E5%8D%B7%E4%B8%8B&oldid=347213",
+        "revisionId": 347213,
+        "fetchedAt": "2026-10-07T06:12:13.140008+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%98%A5%E7%A7%8B%2F%E5%8D%B7%E4%B8%8B&action=history",
+        "sourceSha256": "8b64427b134b3f1491f0d8c5b21a399c782ade654aa56cef34759f85528a0565",
+        "chapterSha256": "6fa1a5af2778bba501230ac239b2ace67f959bd33e6acfe32719481567441158"
+      }
+    },
+    {
+      "id": "huiyao-v001",
+      "bookId": "huiyao",
+      "volume": 1,
+      "position": 2,
+      "title": "卷 1",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu",
+        "shi-jingtang",
+        "liu-zhiyuan",
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 56,
+      "characterCount": 9578,
+      "provenance": {
+        "pageTitle": "五代會要/卷一",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747",
+        "revisionId": 2265747,
+        "fetchedAt": "2026-10-07T06:12:15.001757+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&action=history",
+        "sourceSha256": "779d9bd87f86d8c08634e170a6f82823e0da850dca8f82211c263dafe0c4937f",
+        "chapterSha256": "9c8b224966f4b181a271db69791b3610349ee15e7b83bafbc9007ea4b0bc8ab4"
+      }
+    },
+    {
+      "id": "huiyao-v002",
+      "bookId": "huiyao",
+      "volume": 2,
+      "position": 3,
+      "title": "卷 2",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu",
+        "shi-jingtang",
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 67,
+      "characterCount": 8468,
+      "provenance": {
+        "pageTitle": "五代會要/卷二",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C&oldid=1969486",
+        "revisionId": 1969486,
+        "fetchedAt": "2026-10-07T06:19:31.273652+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C&action=history",
+        "sourceSha256": "11466dd4704f77d53e2a2fca4232d4d938108bdcc2a1b16854077bb9a83178db",
+        "chapterSha256": "82955299eaca3861b329608c6556b5147274116bf860762e5481407e8c4ede25"
+      }
+    },
+    {
+      "id": "huiyao-v003",
+      "bookId": "huiyao",
+      "volume": 3,
+      "position": 4,
+      "title": "卷 3",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 52,
+      "characterCount": 6813,
+      "provenance": {
+        "pageTitle": "五代會要/卷三",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89&oldid=1969548",
+        "revisionId": 1969548,
+        "fetchedAt": "2026-10-07T06:19:32.103764+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89&action=history",
+        "sourceSha256": "e6e3a569ec30b130f4a7ec113641e1fd8510fd644794c360ac7d28654552c395",
+        "chapterSha256": "7d339cfbbbf936f62d3455e1df8adced2ad15bdb87651e4f90a5bd3097fffbfa"
+      }
+    },
+    {
+      "id": "huiyao-v004",
+      "bookId": "huiyao",
+      "volume": 4,
+      "position": 5,
+      "title": "卷 4",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 65,
+      "characterCount": 6854,
+      "provenance": {
+        "pageTitle": "五代會要/卷四",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%9B%9B&oldid=1969673",
+        "revisionId": 1969673,
+        "fetchedAt": "2026-10-07T06:19:32.951354+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%9B%9B&action=history",
+        "sourceSha256": "60a6853a2a826d3e1ff0ebfa79ba4b9b74a1c4ca6d29dda2ab5b8f066fbec1ee",
+        "chapterSha256": "565c79f00289c4014f8440e3e8125eb19575025a53d35cb07d763f45fdd4016a"
+      }
+    },
+    {
+      "id": "huiyao-v005",
+      "bookId": "huiyao",
+      "volume": 5,
+      "position": 6,
+      "title": "卷 5",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 87,
+      "characterCount": 7048,
+      "provenance": {
+        "pageTitle": "五代會要/卷五",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%94&oldid=1969781",
+        "revisionId": 1969781,
+        "fetchedAt": "2026-10-07T06:19:33.579232+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%94&action=history",
+        "sourceSha256": "7eb8ff54d6615f7dbb75b349d6c92ba2d57382ccd4c9302f012fc200cbe62d01",
+        "chapterSha256": "1e84ac82458a64ad312739fa7e98aecd6c81ed63fdc25a96db5e54e0ab65685f"
+      }
+    },
+    {
+      "id": "huiyao-v006",
+      "bookId": "huiyao",
+      "volume": 6,
+      "position": 7,
+      "title": "卷 6",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 66,
+      "characterCount": 8888,
+      "provenance": {
+        "pageTitle": "五代會要/卷六",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%85%AD&oldid=1975377",
+        "revisionId": 1975377,
+        "fetchedAt": "2026-10-07T06:19:34.361875+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%85%AD&action=history",
+        "sourceSha256": "7d7ec6de77bc4f9c3ad6525775c8beccca787435d72ca28095378990a97bb2d2",
+        "chapterSha256": "49b21b9d6063e13982100033f967b112538c3d312c40916bf0eec9974fa4ab04"
+      }
+    },
+    {
+      "id": "huiyao-v007",
+      "bookId": "huiyao",
+      "volume": 7,
+      "position": 8,
+      "title": "卷 7",
+      "subjects": [
+        "li-cunxu",
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 48,
+      "characterCount": 6206,
+      "provenance": {
+        "pageTitle": "五代會要/卷七",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%83&oldid=1998077",
+        "revisionId": 1998077,
+        "fetchedAt": "2026-10-07T06:19:35.147691+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%83&action=history",
+        "sourceSha256": "5519a51c5522616b5669f9caa3ca2aaabdbdf4d080ef81a0d917798316371389",
+        "chapterSha256": "8c5defcbdc86cc5086b56a691ac4363fe69647c97b097baf853ffd3e5a1734da"
+      }
+    },
+    {
+      "id": "huiyao-v008",
+      "bookId": "huiyao",
+      "volume": 8,
+      "position": 9,
+      "title": "卷 8",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 35,
+      "characterCount": 6412,
+      "provenance": {
+        "pageTitle": "五代會要/卷八",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%85%AB&oldid=2265751",
+        "revisionId": 2265751,
+        "fetchedAt": "2026-10-07T06:19:35.558088+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%85%AB&action=history",
+        "sourceSha256": "3f62a748658443a26fc551f12738ebd48c15f9f347b66579cb24ef2ca278cc2e",
+        "chapterSha256": "b9da407b0e23f3fc789189ff3d751454eb779222c2d1dfe50ee79c8066b76519"
+      }
+    },
+    {
+      "id": "huiyao-v009",
+      "bookId": "huiyao",
+      "volume": 9,
+      "position": 10,
+      "title": "卷 9",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 59,
+      "characterCount": 7356,
+      "provenance": {
+        "pageTitle": "五代會要/卷九",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B9%9D&oldid=1998735",
+        "revisionId": 1998735,
+        "fetchedAt": "2026-10-07T06:19:36.561361+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B9%9D&action=history",
+        "sourceSha256": "b23c9994ac361566af5df17a2528928377991d64738f5acdf367e899645513d1",
+        "chapterSha256": "d715bbc158bbee677b182b16713cf610eaae4926d4951abe1cc21483e101e489"
+      }
+    },
+    {
+      "id": "huiyao-v010",
+      "bookId": "huiyao",
+      "volume": 10,
+      "position": 11,
+      "title": "卷 10",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu",
+        "shi-jingtang",
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 86,
+      "characterCount": 7233,
+      "provenance": {
+        "pageTitle": "五代會要/卷十",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81&oldid=1998916",
+        "revisionId": 1998916,
+        "fetchedAt": "2026-10-07T06:19:37.019059+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81&action=history",
+        "sourceSha256": "79075402a01db5246d072d7e48aa9c68cbe620ebcf719f290caefc854bfbf255",
+        "chapterSha256": "25c0ed0d12f8dde618647dd6e01c6e9516e254f43a4079c633643e0c0102b31d"
+      }
+    },
+    {
+      "id": "huiyao-v011",
+      "bookId": "huiyao",
+      "volume": 11,
+      "position": 12,
+      "title": "卷 11",
+      "subjects": [
+        "shi-jingtang",
+        "guo-wei"
+      ],
+      "scope": "full",
+      "paragraphCount": 114,
+      "characterCount": 6551,
+      "provenance": {
+        "pageTitle": "五代會要/卷十一",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%80&oldid=1999046",
+        "revisionId": 1999046,
+        "fetchedAt": "2026-10-07T06:19:38.005888+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%80&action=history",
+        "sourceSha256": "fb43a5b77e1c8d62e48896dc8d6655da8a2a7de5330455973358df542abaf2ac",
+        "chapterSha256": "b80044870d76f9ae088981942fdf03b57dd9c9d561e7c2838a014073cd808668"
+      }
+    },
+    {
+      "id": "huiyao-v012",
+      "bookId": "huiyao",
+      "volume": 12,
+      "position": 13,
+      "title": "卷 12",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 106,
+      "characterCount": 7361,
+      "provenance": {
+        "pageTitle": "五代會要/卷十二",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%BA%8C&oldid=1999119",
+        "revisionId": 1999119,
+        "fetchedAt": "2026-10-07T06:19:38.458983+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%BA%8C&action=history",
+        "sourceSha256": "22c594d9bb4d6f0803f36a51db989e43d61243e785ded0d2e40fb213df2e96a1",
+        "chapterSha256": "b1d89d6a0694b8d9dd85afa87a43ee633043cbcab58a46e2f067850b124bc3de"
+      }
+    },
+    {
+      "id": "huiyao-v013",
+      "bookId": "huiyao",
+      "volume": 13,
+      "position": 14,
+      "title": "卷 13",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 61,
+      "characterCount": 5688,
+      "provenance": {
+        "pageTitle": "五代會要/卷十三",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%89&oldid=1999320",
+        "revisionId": 1999320,
+        "fetchedAt": "2026-10-07T06:19:39.419427+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%89&action=history",
+        "sourceSha256": "075efef120d50556b35bca4bfd8fcef115493270756cfc6ff401a12d7d2473c1",
+        "chapterSha256": "f55b6afa371b238d28110d99af33a922238cda66999d53d09d94130ef21ea713"
+      }
+    },
+    {
+      "id": "huiyao-v014",
+      "bookId": "huiyao",
+      "volume": 14,
+      "position": 15,
+      "title": "卷 14",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 43,
+      "characterCount": 5921,
+      "provenance": {
+        "pageTitle": "五代會要/卷十四",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%9B%9B&oldid=1999396",
+        "revisionId": 1999396,
+        "fetchedAt": "2026-10-07T06:19:39.850556+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%9B%9B&action=history",
+        "sourceSha256": "fa7ebea6a81169101da27a33fe556e2165e6a1c4e989eda716c6699df6975133",
+        "chapterSha256": "18e9aadaea6d0dcc162c34177a40e873b3d98ccde5fa96de433bbade68f5066b"
+      }
+    },
+    {
+      "id": "huiyao-v015",
+      "bookId": "huiyao",
+      "volume": 15,
+      "position": 16,
+      "title": "卷 15",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 53,
+      "characterCount": 6221,
+      "provenance": {
+        "pageTitle": "五代會要/卷十五",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%BA%94&oldid=1999555",
+        "revisionId": 1999555,
+        "fetchedAt": "2026-10-07T06:19:41.045307+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%BA%94&action=history",
+        "sourceSha256": "141ee4ada3fab3eeffebbac0a0dad1d1331a87f5c50d95e749c72e2d09a2a228",
+        "chapterSha256": "bad38ba35579eb98283b40b38dc75ecf664ed949ba250a16acf3c4bea8703a69"
+      }
+    },
+    {
+      "id": "huiyao-v016",
+      "bookId": "huiyao",
+      "volume": 16,
+      "position": 17,
+      "title": "卷 16",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 65,
+      "characterCount": 6391,
+      "provenance": {
+        "pageTitle": "五代會要/卷十六",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%85%AD&oldid=1999617",
+        "revisionId": 1999617,
+        "fetchedAt": "2026-10-07T06:19:41.325713+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%85%AD&action=history",
+        "sourceSha256": "4f38676b771512f6a4f334bf309b2d7c77ec95a4102dc940a1e0a815c6845b21",
+        "chapterSha256": "599836e54a7d2e056a6cbe8c546132fdd6c4e7e773a52aeec6f42bc7f8a9acde"
+      }
+    },
+    {
+      "id": "huiyao-v017",
+      "bookId": "huiyao",
+      "volume": 17,
+      "position": 18,
+      "title": "卷 17",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 64,
+      "characterCount": 6185,
+      "provenance": {
+        "pageTitle": "五代會要/卷十七",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%83&oldid=1999755",
+        "revisionId": 1999755,
+        "fetchedAt": "2026-10-07T06:19:42.416210+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%83&action=history",
+        "sourceSha256": "93b3e629e0a978cf1931e7005da844c6ab16bf6a77ed57f0f824edc806f939c7",
+        "chapterSha256": "e6bad76bdec26b5fedaa72e06939aad773189fcba5d241607f3dee69ca0fe5bb"
+      }
+    },
+    {
+      "id": "huiyao-v018",
+      "bookId": "huiyao",
+      "volume": 18,
+      "position": 19,
+      "title": "卷 18",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 48,
+      "characterCount": 6412,
+      "provenance": {
+        "pageTitle": "五代會要/卷十八",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%85%AB&oldid=2265749",
+        "revisionId": 2265749,
+        "fetchedAt": "2026-10-07T06:19:42.741327+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%85%AB&action=history",
+        "sourceSha256": "e6deb8c5d2ea159bad49be45be24f3ff14ac7dd08a740c537260db13d9a75319",
+        "chapterSha256": "3746916b9112ecaa6ea8fc4db6f672519e4402c0562b0233caf769d36830890c"
+      }
+    },
+    {
+      "id": "huiyao-v019",
+      "bookId": "huiyao",
+      "volume": 19,
+      "position": 20,
+      "title": "卷 19",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 58,
+      "characterCount": 4462,
+      "provenance": {
+        "pageTitle": "五代會要/卷十九",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B9%9D&oldid=1999890",
+        "revisionId": 1999890,
+        "fetchedAt": "2026-10-07T06:19:43.617091+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B9%9D&action=history",
+        "sourceSha256": "0efcd4332ec2ff50e12da3951943bc7e1d01f94ab0b73f6b81c1ba7ea6bcd03b",
+        "chapterSha256": "5edeeb8a9eb44f78a6228a812cd6be0bd8b41fe604ec2582818c0bc1632eeeb3"
+      }
+    },
+    {
+      "id": "huiyao-v020",
+      "bookId": "huiyao",
+      "volume": 20,
+      "position": 21,
+      "title": "卷 20",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 105,
+      "characterCount": 7314,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81&oldid=2008654",
+        "revisionId": 2008654,
+        "fetchedAt": "2026-10-07T06:19:44.221910+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81&action=history",
+        "sourceSha256": "011a1f90e1e967d8e4ce6a0174a2005645a231d924af4cb2352ca83510f81a14",
+        "chapterSha256": "98c545c01f3266f05d5cc95be3323f389a6a34f9aa7d357e360aa0974152adcc"
+      }
+    },
+    {
+      "id": "huiyao-v021",
+      "bookId": "huiyao",
+      "volume": 21,
+      "position": 22,
+      "title": "卷 21",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 34,
+      "characterCount": 5790,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十一",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%80&oldid=2000905",
+        "revisionId": 2000905,
+        "fetchedAt": "2026-10-07T06:19:44.850847+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%80&action=history",
+        "sourceSha256": "ad0b113d5aedf1fd1c46b003dc9bb5049a4dd4772b54f21ea3eabe57c347b4b2",
+        "chapterSha256": "7f7cfc64c0fbf7950e10407b59922a55e4b02466f6c1b4f81245e60360c454cc"
+      }
+    },
+    {
+      "id": "huiyao-v022",
+      "bookId": "huiyao",
+      "volume": 22,
+      "position": 23,
+      "title": "卷 22",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 51,
+      "characterCount": 5314,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十二",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%BA%8C&oldid=2001978",
+        "revisionId": 2001978,
+        "fetchedAt": "2026-10-07T06:19:45.444165+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%BA%8C&action=history",
+        "sourceSha256": "9d4d5b7be6d016edb39fcc17b9b2d4f08d874e185a2f4f71ae75ac73b0e5ac37",
+        "chapterSha256": "1ff756f283dcad689d849171efaea293446439170e23d08ce940151be354d7f4"
+      }
+    },
+    {
+      "id": "huiyao-v023",
+      "bookId": "huiyao",
+      "volume": 23,
+      "position": 24,
+      "title": "卷 23",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 45,
+      "characterCount": 4246,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十三",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%89&oldid=2002105",
+        "revisionId": 2002105,
+        "fetchedAt": "2026-10-07T06:19:46.016639+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%89&action=history",
+        "sourceSha256": "e8de742923df4145e4769422cbbd8e0ffc598166dccce4f7dfb82d848b410e0f",
+        "chapterSha256": "dd27d28c80841fbda3c58ba306dbc61f3780807578fe4b3fcef7d98ac5325d51"
+      }
+    },
+    {
+      "id": "huiyao-v024",
+      "bookId": "huiyao",
+      "volume": 24,
+      "position": 25,
+      "title": "卷 24",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 102,
+      "characterCount": 7406,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十四",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%9B%9B&oldid=2006307",
+        "revisionId": 2006307,
+        "fetchedAt": "2026-10-07T06:19:47.154721+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%9B%9B&action=history",
+        "sourceSha256": "de46de3e5456cb8101dc8e7384f2fccb91670f326ce5e5e8d597b539b2031154",
+        "chapterSha256": "77a4df49ea406d6ccb6390cd8766c206ec0eec116d531e767d0366a78fcc02ed"
+      }
+    },
+    {
+      "id": "huiyao-v025",
+      "bookId": "huiyao",
+      "volume": 25,
+      "position": 26,
+      "title": "卷 25",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 59,
+      "characterCount": 6844,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十五",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%BA%94&oldid=2006712",
+        "revisionId": 2006712,
+        "fetchedAt": "2026-10-07T06:19:47.408250+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%BA%94&action=history",
+        "sourceSha256": "d7f51018129f98cb4275e47471e715e0545035d38deb8e61afc99d1f89c15118",
+        "chapterSha256": "7bf8fbd8c65828c6e36ac29d590ba762cc95cce4deeea928008fe3c91536639b"
+      }
+    },
+    {
+      "id": "huiyao-v026",
+      "bookId": "huiyao",
+      "volume": 26,
+      "position": 27,
+      "title": "卷 26",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 56,
+      "characterCount": 6589,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十六",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%85%AD&oldid=2006901",
+        "revisionId": 2006901,
+        "fetchedAt": "2026-10-07T06:19:48.638954+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%85%AD&action=history",
+        "sourceSha256": "1047e0552835d8a1b772c5b29513d698871c9a7f81073b67cfbb43c1164e9319",
+        "chapterSha256": "5f7123496c6df9658a9b08bc15d8ad63821413ff9b1af6ca6d19bac01377d599"
+      }
+    },
+    {
+      "id": "huiyao-v027",
+      "bookId": "huiyao",
+      "volume": 27,
+      "position": 28,
+      "title": "卷 27",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 61,
+      "characterCount": 5394,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十七",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%83&oldid=2007233",
+        "revisionId": 2007233,
+        "fetchedAt": "2026-10-07T06:19:48.644765+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%83&action=history",
+        "sourceSha256": "d17af8e535760cfcbd6b6b7568893bca91384af880866007468f95f4f9defb9d",
+        "chapterSha256": "e10d4736246c1b5a1360a33ccc619548bfb35c2e241a19906ae9401b787fff71"
+      }
+    },
+    {
+      "id": "huiyao-v028",
+      "bookId": "huiyao",
+      "volume": 28,
+      "position": 29,
+      "title": "卷 28",
+      "subjects": [
+        "li-cunxu",
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 68,
+      "characterCount": 5343,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十八",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%85%AB&oldid=2007382",
+        "revisionId": 2007382,
+        "fetchedAt": "2026-10-07T06:19:49.863692+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E5%85%AB&action=history",
+        "sourceSha256": "5c0592ec0c5f79133f2e83d8a4e3035314e1cc32ae159abd94ded30312086d99",
+        "chapterSha256": "b5490e66f2ba9ec71c5edc6a2f00056ba1a99b57ebe730c2c4f4020bc24bf317"
+      }
+    },
+    {
+      "id": "huiyao-v029",
+      "bookId": "huiyao",
+      "volume": 29,
+      "position": 30,
+      "title": "卷 29",
+      "subjects": [
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 31,
+      "characterCount": 5537,
+      "provenance": {
+        "pageTitle": "五代會要/卷二十九",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B9%9D&oldid=2265748",
+        "revisionId": 2265748,
+        "fetchedAt": "2026-10-07T06:19:49.912388+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B9%9D&action=history",
+        "sourceSha256": "6d58bc532219bdef8a6c3d5305e17600f49d59724b118cd6a6c5ea73f7629883",
+        "chapterSha256": "cdb110bd8c0a67282b5767603d96e7a1f310ccf0bff3c8ee58222b6731bf7d5a"
+      }
+    },
+    {
+      "id": "huiyao-v030",
+      "bookId": "huiyao",
+      "volume": 30,
+      "position": 31,
+      "title": "卷 30",
+      "subjects": [],
+      "scope": "full",
+      "paragraphCount": 76,
+      "characterCount": 6294,
+      "provenance": {
+        "pageTitle": "五代會要/卷三十",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89%E5%8D%81&oldid=2543106",
+        "revisionId": 2543106,
+        "fetchedAt": "2026-10-07T06:12:15.474104+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89%E5%8D%81&action=history",
+        "sourceSha256": "f3664d85f1e05dc1ff2b5eff776ce08a6e7b7b56f917eac38cf801d9a337c627",
+        "chapterSha256": "7c82b3446a7d7237c208cce39af17a48403d80f018c87bfc4d18429ae4ded6cd"
+      }
+    },
+    {
+      "id": "beimeng-v017",
+      "bookId": "beimeng",
+      "volume": 17,
+      "position": 2,
+      "title": "卷 17",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 32,
+      "characterCount": 3023,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)/卷17",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&oldid=769227",
+        "revisionId": 769227,
+        "fetchedAt": "2026-10-07T06:12:17.006794+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&action=history",
+        "sourceSha256": "48ffdca797e14afcba5d3a77d61d8ab2cef7e9f3ebe07e83f1c318d131298e43",
+        "chapterSha256": "1e65d6f757d5567a1441beabf2b1b2e64107af514c316a4f4f640fab7ea19f23"
+      }
+    },
+    {
+      "id": "beimeng-v018",
+      "bookId": "beimeng",
+      "volume": 18,
+      "position": 3,
+      "title": "卷 18",
+      "subjects": [
+        "li-cunxu",
+        "shi-jingtang"
+      ],
+      "scope": "full",
+      "paragraphCount": 32,
+      "characterCount": 2344,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)/卷18",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B718&oldid=627737",
+        "revisionId": 627737,
+        "fetchedAt": "2026-10-07T06:19:51.018607+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B718&action=history",
+        "sourceSha256": "666e23ee1743045e3b1710b90eafc27527fccf8d9d4d8cd022666686c72cadb9",
+        "chapterSha256": "515593d00449db5c540f95bf8dd9ee56a3afbf5feb6ecda52d037cd5a577aafd"
+      }
+    },
+    {
+      "id": "beimeng-v019",
+      "bookId": "beimeng",
+      "volume": 19,
+      "position": 4,
+      "title": "卷 19",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 40,
+      "characterCount": 2076,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)/卷19",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B719&oldid=769231",
+        "revisionId": 769231,
+        "fetchedAt": "2026-10-07T06:19:51.216511+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B719&action=history",
+        "sourceSha256": "26213f8caed66a2e2dfdd46af3047462180fa72849016575ad912031a65c1fe6",
+        "chapterSha256": "16aa0cd72dc0177a9e25f43ae837ed6b03cbd89043c1c5b0149fa8e5876315cf"
+      }
+    },
+    {
+      "id": "beimeng-v020",
+      "bookId": "beimeng",
+      "volume": 20,
+      "position": 5,
+      "title": "卷 20",
+      "subjects": [
+        "li-cunxu"
+      ],
+      "scope": "full",
+      "paragraphCount": 36,
+      "characterCount": 3205,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)/卷20",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235",
+        "revisionId": 769235,
+        "fetchedAt": "2026-10-07T06:19:52.296574+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&action=history",
+        "sourceSha256": "f6f8bded17a557cf3742e0e4fcea2fe11a5eb7fc002661767b5dc2ea5aaa2026",
+        "chapterSha256": "174f2b2777ac7e5cb02274317b91644b4759763d93703d013fa88fe741947eb3"
+      }
+    },
+    {
+      "id": "kaoyi-v028",
+      "bookId": "kaoyi",
+      "volume": 28,
+      "title": "卷 28 · 后梁纪上",
+      "subjects": [
+        "zhu-wen"
+      ],
+      "position": 28,
+      "scope": "full",
+      "paragraphCount": 45,
+      "characterCount": 7777,
+      "provenance": {
+        "pageTitle": "資治通鑑考異 (四庫全書本)/卷28",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B728&oldid=783906",
+        "revisionId": 783906,
+        "fetchedAt": "2026-10-07T06:12:18.225051+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B728&action=history",
+        "sourceSha256": "3466e441620754da3542ccd4c774dd120de1c04d816f91b50a05f52858ec937f",
+        "chapterSha256": "937abfab5fa28c2121bca17568fd6b29434c36313195f025b9bc6acbfb3a010a"
+      }
+    },
+    {
+      "id": "kaoyi-v029",
+      "bookId": "kaoyi",
+      "volume": 29,
+      "title": "卷 29 · 后梁纪下、后唐纪上",
+      "subjects": [
+        "zhu-wen",
+        "li-cunxu"
+      ],
+      "position": 29,
+      "scope": "full",
+      "paragraphCount": 59,
+      "characterCount": 9149,
+      "provenance": {
+        "pageTitle": "資治通鑑考異 (四庫全書本)/卷29",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B729&oldid=783909",
+        "revisionId": 783909,
+        "fetchedAt": "2026-10-07T06:12:18.810787+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B729&action=history",
+        "sourceSha256": "4d906c4ed252de6d32297b7b7ab0747e4204b79ca24861046a330d96590d7bf4",
+        "chapterSha256": "32437f870d51a6ac3bdb6657f9b0203029692a9068a40b6ba561842504833e09"
+      }
+    },
+    {
+      "id": "kaoyi-v030",
+      "bookId": "kaoyi",
+      "volume": 30,
+      "title": "卷 30 · 后唐纪下、后晋、后汉与后周纪",
+      "subjects": [
+        "shi-jingtang",
+        "liu-zhiyuan",
+        "guo-wei"
+      ],
+      "position": 30,
+      "scope": "full",
+      "paragraphCount": 74,
+      "characterCount": 8852,
+      "provenance": {
+        "pageTitle": "資治通鑑考異 (四庫全書本)/卷30",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B730&oldid=611184",
+        "revisionId": 611184,
+        "fetchedAt": "2026-10-07T06:12:20.154653+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B730&action=history",
+        "sourceSha256": "f52ec993fc515115cb40e4888a2366ba222a3c9b98f3b6b12a2787367edc84df",
+        "chapterSha256": "06bd82278c1391c8bfb3cdf0cbacbf7e1f26403d0417348f71ae6e19a864ab46"
       }
     }
   ]

@@ -25,15 +25,22 @@ class SourceIntegrityTests(unittest.TestCase):
             with self.subTest(source=source.stem):
                 payload = json.loads(source.read_text())
                 html = payload['response']['parse']['text']['*']
+                index_page = payload.get('selection', {}).get('indexPage', False)
+                extracted = archive.extract(html, index_page=index_page)
                 missing = []
                 def visit(node):
+                    if index_page and node.tag in {'ul', 'ol'}: return
+                    if index_page and 'seealso' in node.attrs.get('class', '').split(): return
+                    if index_page and node.tag == 'div' and 'float: right' in node.attrs.get('style', '') and not any(isinstance(child, archive.Node) and child.tag == 'div' for child in node.children):
+                        self.assertIn(archive.clean_text(node).strip(), extracted)
+                        return
                     if archive.excluded(node) or node.tag in blocks: return
                     if node.attrs.get('id') == 'headerContainer':
                         # Old-format headers contain only author metadata plus a preface.
                         def check_preface(item):
                             if item.tag == 'td':
                                 text = archive.clean_text(item).strip()
-                                if len(text) > 300: self.assertIn(text, archive.extract(html))
+                                if len(text) > 300: self.assertIn(text, extracted)
                                 return
                             for child in item.children:
                                 if isinstance(child, archive.Node): check_preface(child)
@@ -45,6 +52,10 @@ class SourceIntegrityTests(unittest.TestCase):
                 visit(archive.Document(html).root)
                 self.assertEqual(missing, [], 'Text outside recognized historical blocks')
                 chapter = json.loads((ROOT / 'content/five-dynasties/chapters' / source.name).read_text())
-                self.assertEqual([p['original'] for p in chapter['paragraphs']], archive.extract(html))
+                self.assertEqual([p['original'] for p in chapter['paragraphs']], extracted)
+
+    def test_index_pages_retain_prefaces_and_replace_only_navigation_lists(self):
+        html = '<h2>提要</h2><p>原書提要與歷史正文</p><div class="seealso">参见：另一底本</div><h2>目錄</h2><ul><li>卷一</li><li>卷二</li></ul><h2>序</h2><p>作者自序全文</p><div style="float: right;">時皇宋祀汾陰之後，歳在壬子序</div>'
+        self.assertEqual(archive.extract(html, index_page=True), ['提要', '原書提要與歷史正文', '序', '作者自序全文', '時皇宋祀汾陰之後，歳在壬子序'])
 
 if __name__ == '__main__': unittest.main()

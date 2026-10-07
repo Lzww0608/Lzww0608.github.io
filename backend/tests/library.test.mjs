@@ -4,8 +4,8 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete founder annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 64);
-  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen']);
+  assert.equal(chapters.length, 112);
+  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   for (const [person, oldCount, newCount] of [['zhu-wen', 7, 2], ['li-cunxu', 8, 2], ['shi-jingtang', 6, 1], ['liu-zhiyuan', 2, 1], ['guo-wei', 4, 1]]) {
     assert.equal(catalog.chapters.filter(c => c.bookId === 'old' && c.subjects.includes(person)).length, oldCount);
     assert.equal(catalog.chapters.filter(c => c.bookId === 'new' && c.subjects.includes(person)).length, newCount);
@@ -17,4 +17,24 @@ test('the archive has verified source hashes, complete founder annals and all Fi
   assert.ok(chapters.find(c => c.id === 'tongjian-v272').paragraphs.some(p => p.original.includes('莊宗光聖神閔孝皇帝')));
   const quewen = chapters.find(c => c.id === 'quewen-v001').paragraphs.map(p => p.original).join('');
   assert.ok(quewen.includes('宋王禹偁撰') && quewen.includes('皆聞於耆老者也') && quewen.includes('王樸'));
+});
+
+
+test('the five additions retain complete selected volumes, separate prefaces and correct genres', () => {
+  for (const [bookId, first, last, hasPreface] of [['shibu',1,5,true], ['chunqiu',1,2,true], ['huiyao',1,30,true], ['beimeng',17,20,true], ['kaoyi',28,30,false]]) {
+    const entries = catalog.chapters.filter(c => c.bookId === bookId).sort((a,b) => a.position-b.position);
+    assert.deepEqual(entries.map(c => c.volume), [...(hasPreface ? [0] : []), ...Array.from({length:last-first+1}, (_,i) => first+i)]);
+    const book = catalog.books.find(b => b.id === bookId);
+    assert.equal(entries.find(c => c.id === book.defaultChapter).volume, first);
+    assert.ok(entries.every(c => c.provenance.license === catalog.license));
+  }
+  assert.equal(catalog.books.find(b => b.id === 'huiyao').kind, '典章制度');
+  assert.equal(catalog.books.find(b => b.id === 'kaoyi').kind, '史料考证');
+  for (const id of ['shibu-v000','chunqiu-v000','huiyao-v000','beimeng-v000']) {
+    assert.ok(chapters.find(c => c.id === id).paragraphs.some(p => p.original.includes('撰')));
+    assert.deepEqual(catalog.chapters.find(c => c.id === id).subjects, []);
+  }
+  assert.ok(chapters.find(c => c.id === 'beimeng-v000').paragraphs.some(p => p.original.includes('北夢瑣言序')));
+  assert.ok(chapters.find(c => c.id === 'kaoyi-v028').paragraphs.some(p => p.original === '後梁紀上'));
+  assert.ok(chapters.find(c => c.id === 'kaoyi-v030').paragraphs.some(p => p.original.includes('後周紀')));
 });

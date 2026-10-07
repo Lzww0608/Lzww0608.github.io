@@ -1,7 +1,7 @@
 export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' | '宋元' | '明清';
 export type Dynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周' | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
-export type BookId = 'old' | 'new' | 'tongjian' | 'quewen';
+export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu' | 'huiyao' | 'beimeng' | 'kaoyi';
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';

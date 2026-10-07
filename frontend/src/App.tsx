@@ -91,7 +91,7 @@ function RelatedSources({ personId, go }: { personId: string | undefined; go: Na
   return matches.length ? <div className="detail-links person-source-links">{books.map(book => {
     const chapters = matches.filter(chapter => chapter.bookId === book.id);
     const first = chapters[0];
-    return first ? <button key={book.id} onClick={() => go(chapterRoute(first))}><span>{book.title}<small>{first.title} · 共 {chapters.length} 卷</small></span><ArrowRight size={18} /></button> : null;
+    return first ? <button key={book.id} onClick={() => go(chapterRoute(first))}><span>{book.title}<small>{first.title} · 共 {chapters.length} 篇</small></span><ArrowRight size={18} /></button> : null;
   })}</div> : <p className="small-note">当前文库聚焦五位开国皇帝，此人物的相关原文尚未收录。</p>;
 }
 

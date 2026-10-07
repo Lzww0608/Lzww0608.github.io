@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readChapter } from '../src/history-loader.ts';
 import { resolveRoute, resolveReadingRoute, chaptersForPerson, chapterRoute } from '../src/library.ts';
 import { loadLibrary } from '../../content/library.mjs';
-const { chapters } = loadLibrary();
+const { catalog, chapters } = loadLibrary();
 const archived = chapters.find(chapter => chapter.id === 'old-v110');
 const response = value => new Response(JSON.stringify(value), { status: 200 });
 const options = () => ({ bookId: 'old', chapterId: archived.id, apiBase: 'https://api.example', archiveBase: '/', signal: new AbortController().signal });
@@ -51,4 +51,15 @@ test('aborted navigation does not publish stale content', async () => {
   let updates = 0;
   await assert.rejects(readChapter({ ...options(), signal: controller.signal, onArchive: () => updates++, fetcher: async () => response(archived) }), error => error.name === 'AbortError');
   assert.equal(updates, 0);
+});
+
+
+test('every book opens its default volume and every archived chapter works with the API offline', async () => {
+  for (const book of catalog.books) assert.equal(resolveReadingRoute(`read-${book.id}`).chapter.id, book.defaultChapter);
+  for (const chapter of chapters) {
+    assert.equal(resolveReadingRoute(`read-${chapter.bookId}/${chapter.id}`).chapter.id, chapter.id);
+    const result = await readChapter({ ...options(), bookId:chapter.bookId, chapterId:chapter.id, fetcher:async url => { if (url.startsWith('https:')) throw new Error('offline'); return response(chapter); } });
+    assert.equal(result.source, 'archive');
+    assert.deepEqual(result.chapter, chapter);
+  }
 });

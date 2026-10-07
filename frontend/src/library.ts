@@ -4,7 +4,7 @@ import type { Book, BookId, ChapterSummary, LibraryCatalog, Route } from './type
 const library = catalog as LibraryCatalog;
 export const libraryBooks = library.books;
 export const libraryChapters = library.chapters;
-export const chaptersForBook = (bookId: BookId): ChapterSummary[] => libraryChapters.filter(chapter => chapter.bookId === bookId);
+export const chaptersForBook = (bookId: BookId): ChapterSummary[] => libraryChapters.filter(chapter => chapter.bookId === bookId).sort((a, b) => a.position - b.position);
 export const chaptersForPerson = (personId: string): ChapterSummary[] => libraryChapters.filter(chapter => chapter.subjects.includes(personId));
 export const chapterRoute = (chapter: ChapterSummary): Route => `read-${chapter.bookId}/${chapter.id}`;
 
