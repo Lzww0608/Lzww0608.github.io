@@ -43,7 +43,7 @@ node scripts/tunnel.mjs enable
 
 书籍 → 版本 → 章节 → 稳定段落 ID → 原文修订 → 译文版本。译文绑定原文修订号；只有 `published` 且对应当前原文修订的译文会出现在公开接口中。原文修改后，旧译文保留，但不会错误匹配到新原文。
 
-AI 批次首先按 `draft` 保存。`translations.metadata` 记录 AI 来源、生成时间、批次及内容校验值、翻译标准、底本校验值和 `reviewNotes` 校核提示；`humanReviewed: false` 记录初译时尚未人工校订的事实。用户明确授权的批次可通过 `translations:publish-ai` 公开，发布状态与审核状态分开，网站标明“AI 初译 · 待修订”。发布不能伪造人工审核；原文表和原有译文版本保持完整。
+AI 批次首先按 `draft` 保存。`translations.metadata` 记录 AI 来源、生成时间、批次及内容校验值、翻译标准、底本校验值和 `reviewNotes` 校核提示；`humanReviewed: false` 记录初译时尚未人工校订的事实。用户明确授权的批次可通过 `translations:publish-ai` 公开，发布状态与审核状态分开。按用户最新显示要求，网站统一使用“白话译文”，不展示 AI／待修订提示。发布不能伪造人工审核；原文表和原有译文版本保持完整。
 
 章节 ID 例如 `old-v110`、`new-v11`、`tongjian-v290`、`quewen-v001`；段落 ID 例如 `old-v110-p1`。原有 `old-1-p1` 等兼容节选 ID 继续可用。`seed` 与 `content:import` 只补缺失记录，不覆盖已有原文修订、译文或发布状态。阅读页提供受保护的逐段译文校订，不提供原文或数据库管理界面。
 
