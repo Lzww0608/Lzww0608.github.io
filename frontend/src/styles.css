@@ -21,6 +21,8 @@
 .original-text .paragraph-translation p { margin: 8px 0 0; }
 .translation-heading { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-family:var(--sans); font-size:13px; color:var(--accent); }
 .translation-heading small, .translation-credit { color:var(--muted); font-family:var(--sans); font-size:12px; }
+.translation-edit-button { margin-left:auto; padding:4px 8px; border:1px solid var(--line); font-size:12px; min-height:32px; }
+.translation-edit-button:hover { color:var(--accent); background:var(--tint); }
 .translation-credit { display:block; margin-top:12px; }
 .translation-notice { color:var(--soft-ink); font-size:14px; line-height:1.8; border-top:1px solid var(--line); padding-top:14px; margin-bottom:24px; }
 .translation-review-notes { margin-top:14px; padding-top:10px; border-top:1px solid var(--line); font-family:var(--sans); font-size:13px; }

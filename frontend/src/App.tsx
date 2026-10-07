@@ -97,9 +97,28 @@ function RelatedSources({ personId, go }: { personId: string | undefined; go: Na
 
 export function App() {
   const [route, setRoute] = useState(getRoute);
+  const currentRoute = useRef(route);
+  currentRoute.current = route;
   const [menuOpen, setMenuOpen] = useState(false);
   const [modal, setModal] = useState<ModalState | null>(null);
-  useEffect(() => { const listener = () => { setRoute(getRoute()); window.scrollTo({ top: 0 }); }; window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
+  useEffect(() => {
+    const listener = () => {
+      const next = getRoute();
+      if (next === currentRoute.current) return;
+      const continueNavigation = () => {
+        history.replaceState(null, '', `#${next}`);
+        setRoute(next);
+        window.scrollTo({ top: 0 });
+      };
+      const event = new CustomEvent('ancient-history:before-navigation', {
+        cancelable: true, detail: { continueNavigation },
+      });
+      if (window.dispatchEvent(event)) continueNavigation();
+      else history.replaceState(null, '', `#${currentRoute.current}`);
+    };
+    window.addEventListener('hashchange', listener);
+    return () => window.removeEventListener('hashchange', listener);
+  }, []);
   const reading = resolveReadingRoute(route);
   const pageTitles: Partial<Record<Route, string>> = { overview: '在时间深处，读懂中国', timeline: '五代年表', sources: '史料库', people: '人物索引', map: '历史地点' };
   const title = reading ? `${reading.book.title} · ${reading.chapter.title}` : pageTitles[route] ?? '中国古代史';

@@ -1,0 +1,47 @@
+.translation-editor { overflow-y: auto; overscroll-behavior: contain; }
+.translation-editor-top { position: sticky; top: 0; z-index: 1; background: var(--surface); gap: 18px; }
+.translation-editor-top h2 { margin: 0; font-size: 24px; font-weight: 700; }
+.translation-editor-close { padding: 8px 4px; min-height: 40px; color: var(--muted); font-size: 14px; flex-shrink: 0; }
+.translation-editor-close:hover { color: var(--accent); }
+.translation-editor-body { padding: 24px 28px 28px; }
+.translation-editor-description { color: var(--soft-ink); font-size: 14px; line-height: 1.8; margin-bottom: 20px; }
+.translation-editor-original { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 17px 0 20px; }
+.translation-editor-original h3 { margin: 0 0 10px; font-family: var(--serif); font-size: 20px; font-weight: 700; }
+.translation-editor-original p { font-family: var(--serif); color: var(--ink); font-size: 18px; line-height: 1.9; white-space: pre-wrap; overflow-wrap: anywhere; }
+.translation-editor-auth { margin-top: 24px; padding: 17px; background: var(--raised); border: 1px solid var(--line); }
+.translation-editor-auth > label, .translation-editor-field > label { display: block; margin-bottom: 9px; color: var(--ink); font-size: 15px; font-weight: 600; }
+.translation-editor-password-row { display: flex; gap: 10px; align-items: stretch; }
+.translation-editor-password-row input { min-width: 0; flex: 1; }
+.translation-editor-password-row .quiet-button { flex-shrink: 0; justify-content: center; }
+.translation-editor-session { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 18px 0 0; color: var(--accent); font-size: 14px; }
+.translation-editor-form { margin-top: 24px; }
+.translation-editor-field { margin-bottom: 23px; }
+.translation-editor-field > label { display: flex; flex-wrap: wrap; gap: 8px 15px; align-items: baseline; }
+.translation-editor-field > label > span { font-size: 12px; color: var(--muted); font-weight: 400; }
+.translation-editor input, .translation-editor textarea { width: 100%; box-sizing: border-box; background: var(--paper); color: var(--ink); border: 1px solid var(--border-strong); border-radius: 0; padding: 11px 12px; min-width: 0; font: inherit; font-size: 16px; }
+.translation-editor textarea { display: block; resize: vertical; min-height: 120px; line-height: 1.85; }
+.translation-editor textarea[lang="zh-Hans"] { font-family: var(--serif); min-height: 260px; }
+.translation-editor input:focus-visible, .translation-editor textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.translation-editor .translation-editor-help { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.7; overflow-wrap: anywhere; }
+.translation-editor-feedback { color: var(--soft-ink); font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.translation-editor-feedback p { margin: 0 0 18px; }
+.translation-editor-error { padding: 12px 14px; border-left: 3px solid var(--accent); background: var(--raised); color: var(--ink); }
+.translation-editor-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 12px; border-top: 1px solid var(--line); padding-top: 20px; }
+.translation-editor-discard { padding: 16px; border: 1px solid var(--border-strong); background: var(--raised); }
+.translation-editor-discard > p { font-size: 14px; line-height: 1.8; margin-bottom: 14px; }
+.translation-editor-discard > div { display: flex; flex-wrap: wrap; gap: 10px; }
+.translation-editor button:disabled { opacity: .6; cursor: not-allowed; }
+.translation-editor button { min-height: 42px; }
+
+@media (max-width: 560px) {
+  .translation-editor-body { padding: 18px 16px 22px; }
+  .translation-editor-top h2 { font-size: 21px; }
+  .translation-editor-original p { font-size: 17px; }
+  .translation-editor-auth { padding: 12px; }
+  .translation-editor-password-row { flex-wrap: wrap; }
+  .translation-editor-password-row input { flex-basis: 100%; }
+  .translation-editor-password-row .quiet-button { width: 100%; }
+  .translation-editor textarea[lang="zh-Hans"] { min-height: 230px; }
+  .translation-editor-actions > button { flex: 1; justify-content: center; }
+  .translation-editor-discard > div > button { width: 100%; justify-content: center; }
+}

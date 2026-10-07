@@ -53,3 +53,8 @@ export function parseChapter(value: unknown, bookId: BookId, chapterId?: string)
   if (!isChapter(value, bookId, chapterId)) throw new Error('Invalid chapter');
   return value;
 }
+
+export function parsePublishedTranslation(value: unknown): PublishedTranslation {
+  if (!isTranslation(value)) throw new Error('Invalid published translation');
+  return value;
+}

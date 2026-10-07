@@ -1,13 +1,13 @@
 # 中国古代史 · Mac 内容服务
 
-GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库和只读 API；Tailscale Funnel 提供固定 HTTPS 入口。当前已导入 9 部史料、112 个完整篇章（6,292 个文字块）：新旧《五代史》的五位开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》，以及《五代史补》《五代春秋》《五代会要》《北梦琐言》卷 17—20、《资治通鉴考异》卷 28—30，含四篇卷外提要与序文。另保留原有 2 个兼容节选章节、4 段原文。2026-10-07 按用户要求保存《五代春秋》提要、上下卷的 76 条 AI 初译草稿，等待用户人工修订。
+GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL 数据库、公开只读 API 和受密码保护的译文校订入口；Tailscale Funnel 提供固定 HTTPS 入口。当前已导入 9 部史料、112 个完整篇章（6,292 个文字块）：新旧《五代史》的五位开国皇帝本纪、《资治通鉴》卷 266—294、《五代史阙文》，以及《五代史补》《五代春秋》《五代会要》《北梦琐言》卷 17—20、《资治通鉴考异》卷 28—30，含四篇卷外提要与序文。另保留原有 2 个兼容节选章节、4 段原文。2026-10-07 按用户授权发布 240 条 AI 初译：《五代春秋》提要、上下卷 76 条，以及《新五代史》当前收录的卷 1、2、4、5、8、10、11 共 164 条（含标题和校勘注）。这些译文仍待人工校核；《新五代史》其余卷未翻译。
 
 ## 本机运行
 
 - Node.js 需要 22.18.0 或更高版本。初始化和测试读取 `content/five-dynasties/` 中的公开原文归档；运行中的 API 使用 JavaScript。
 - API：`http://127.0.0.1:8787/api/health`
 - PostgreSQL：仅监听 `127.0.0.1:55432`，数据库 `ancient_history`。
-- 数据、密码、隧道身份、日志和备份：`backend/.local/`，已排除于 Git。配置文件仅当前用户可读写，API 使用只读数据库账户。
+- 数据、密码、隧道身份、日志和备份：`backend/.local/`，已排除于 Git。配置文件仅当前用户可读写。公开阅读继续使用只读账户 `history_reader`；校订使用独立账户 `history_editor`，只获授专用修订函数的执行权限，没有原文或译文表的直接写入权限。
 - 服务：`~/Library/LaunchAgents/com.lzww.ancient-history.*.plist`。数据库、API、Tailscale 登录后自动启动，进程退出后自动重启。每日 03:15 生成本机备份，并在登录时补做一次。
 - 已配置 Amphetamine 5.3.2 与 Power Protect：应用启动时自动开始无期限防休眠，接电和电池供电时均允许合盖运行，屏幕可以熄灭或锁屏。保持联网和足够电量；关机、耗尽电量、断网或暂停防休眠后进入睡眠时，接口会离线。系统重启后需要登录当前 macOS 账户，服务才会启动；这不是登录前运行的系统服务。
 
@@ -15,7 +15,7 @@ Amphetamine 通过 `~/Library/LaunchAgents/com.lzww.ancient-history.amphetamine.
 
 **放进包里或需要正常休眠前**，点击菜单栏 Amphetamine 图标，结束当前会话并退出应用。重新打开 Amphetamine 会再次开始防休眠。仅熄灭屏幕或锁屏时无需退出应用。防休眠不支持关机后继续运行，也不能避免电池耗尽。原始应用设置的恢复副本保存在 `.local/amphetamine/preferences-before-2026-10-07.plist`。
 
-此目录是正在使用的服务目录；移动或删除项目前，先停用 LaunchAgent。前端在 API 不可用时继续读取随站发布的完整原文副本。
+此目录是正在使用的服务目录；移动或删除项目前，先停用 LaunchAgent。前端在 API 不可用时继续读取随站发布的完整原文和已发布译文副本；离线期间不能保存校订。
 
 ```sh
 cd backend
@@ -43,9 +43,9 @@ node scripts/tunnel.mjs enable
 
 书籍 → 版本 → 章节 → 稳定段落 ID → 原文修订 → 译文版本。译文绑定原文修订号；只有 `published` 且对应当前原文修订的译文会出现在公开接口中。原文修改后，旧译文保留，但不会错误匹配到新原文。
 
-AI 批次按 `draft` 保存。`translations.metadata` 记录 AI 来源、生成时间、批次及内容校验值、翻译标准、底本校验值和 `reviewNotes` 校核提示；`humanReviewed: false` 记录初译时尚未人工校订的事实。原文表、已发布译文和原有版本不受导入影响。
+AI 批次首先按 `draft` 保存。`translations.metadata` 记录 AI 来源、生成时间、批次及内容校验值、翻译标准、底本校验值和 `reviewNotes` 校核提示；`humanReviewed: false` 记录初译时尚未人工校订的事实。用户明确授权的批次可通过 `translations:publish-ai` 公开，发布状态与审核状态分开，网站标明“AI 初译 · 待修订”。发布不能伪造人工审核；原文表和原有译文版本保持完整。
 
-章节 ID 例如 `old-v110`、`new-v11`、`tongjian-v290`、`quewen-v001`；段落 ID 例如 `old-v110-p1`。原有 `old-1-p1` 等兼容节选 ID 继续可用。`seed` 与 `content:import` 只补缺失记录，不覆盖已有原文修订、译文或发布状态。当前未提供公网管理界面。
+章节 ID 例如 `old-v110`、`new-v11`、`tongjian-v290`、`quewen-v001`；段落 ID 例如 `old-v110-p1`。原有 `old-1-p1` 等兼容节选 ID 继续可用。`seed` 与 `content:import` 只补缺失记录，不覆盖已有原文修订、译文或发布状态。阅读页提供受保护的逐段译文校订，不提供原文或数据库管理界面。
 
 导入已校验的公开归档（先备份；不需要重启 API）：
 
@@ -76,13 +76,34 @@ npm run translations:import -- .local/translations/2026-10-07-chunqiu/batch.json
 
 `import-translations.mjs` 要求所选篇章逐段完整对应，核对原文修订号和 SHA-256，再以一个事务导入。数据库原文不匹配或中途写入失败时，整批撤销。同一批次重复执行不会复制译文；改变内容需另用批次 ID，产生新译文版本，保留已有稿件。批量工具始终只导入待修订草稿，不执行审核或发布。`002-translation-metadata.sql` 为已有译文表追加元数据列，不改写其正文。
 
+公开已获用户授权的 AI 批次并导出离线副本：
+
+```sh
+npm run translations:publish-ai -- .local/translations/2026-10-07-chunqiu/batch.json
+npm run translations:publish-ai -- .local/translations/2026-10-07-new/batch.json
+npm run translations:export -- chunqiu
+npm run translations:export -- new
+```
+
+当前公开副本位于 `content/published-translations/chunqiu.json`（76 条）和 `new.json`（164 条）；每条均保留来源、译文版本、原文修订绑定及校核提示。导出后仍需构建、部署前端，才能更新 API 离线时所用的副本。
+
 首批试译文件均在 Git 忽略的 `.local/translations/2026-10-07-chunqiu/`：
 
 - `batch.json`：76 条逐段初译，包含 50 条校核提示。
 - `review.md`：直接从数据库已保存稿件生成的文白对照稿，列出段落号、译文 ID、版本和疑点，供本地阅读及人工修订。
 - `before-import.json`、`database-verification.json`：原文完整性与实际入库核对记录。
 
-日期和专名以底本为准。疑似讹字、吴／晋等不同时期称谓、其他史书的记载差异，单列为校核提示，不在翻译时静默修正底本。编辑 `review.md` 不会自动修改数据库；人工修订可通过已有 `content translation` 命令作为新版本保存，再检查并发布。AI 草稿不会进入静态网站副本。
+日期和专名以底本为准。疑似讹字、吴／晋等不同时期称谓、其他史书的记载差异，单列为校核提示，不在翻译时静默修正底本。编辑 `review.md` 不会自动修改数据库；人工修订可通过本机 `content translation` 命令另存新版本，也可使用阅读页的在线校订入口。未发布草稿不会进入静态网站副本。
+
+### 在线校订
+
+本机运行 `npm run editor:setup` 初始化专用数据库函数与校订凭据。首次生成强随机密码，已有配置重跑不轮换密码；`backend/.local/editor-key.txt` 保存供所有者本机查看的校订密码，`backend/.local/editor-config.json` 保存密码的 SHA-256 校验值及独立数据库账户配置，文件权限均为 0600。不要把这些文件内容复制到 Git、网页、说明、截图或日志。API 启动时加载独立校订配置；未配置时写入口返回 503，公开阅读仍可用。
+
+在阅读页进入校订，输入所有者密码后，可逐段修改已发布译文、署名及校核提示。密码只保留当前页面内存，不写入浏览器持久存储或 Cookie；刷新或退出校订后重新输入。写请求必须来自允许的网站 Origin，并携带 Bearer 密钥。
+
+保存调用 `public.revise_published_translation`，锁定当前原文段落并检查原文修订、当前已发布译文 ID 及书籍／篇章发布状态。每次保存追加新的已发布译文版本，标记 `origin: human`、`reviewStatus: owner-edited`，通过 `basedOnTranslationId` 和 `aiSourceTranslationId` 保留修改链与 AI 来源。这表示所有者已修改，不表示经过专业审核。原文、历史译文及原文归档都不会覆盖；原文或译文已有新版本时返回 409，要求重新读取后再修改。
+
+`history_reader` 保持只读。独立 `history_editor` 仅获数据库连接、schema 使用和专用函数执行权限，不使用 owner 数据库账户处理公网写请求。函数固定搜索路径、显式引用 `public` 表，并撤销 PUBLIC 执行权。接口限制正文为 256 KiB、译文为 20,000 字符；无效鉴权按连接地址限流，正确密码不因失败次数被锁定。
 
 保存原文新修订（保留原文旧版本）：
 
@@ -99,8 +120,11 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 | `GET /api/books/old/chapters` | 已发布章节目录 |
 | `GET /api/chapters/old-v110` | 原文、匹配修订的已发布译文、来源与阅读提示 |
 | `GET /api/search?q=朱氏` | 当前原文的字面检索，最多 20 条 |
+| `GET /api/editor/status` | 在线校订是否启用，不返回凭据 |
+| `POST /api/editor/session` | 验证 Origin 与 Bearer 密钥 |
+| `POST /api/editor/translations/new-v04-p1` | 验证身份与预期版本后追加已发布译文版本 |
 
-支持 GET、HEAD、OPTIONS；不提供写入接口。CORS 允许 `https://lzww0608.github.io` 与本机开发/预览地址。CORS 只约束浏览器，接口中的已发布内容本身是公开的。
+公开阅读接口仅支持 GET、HEAD、OPTIONS。仅 `/api/editor/` 下的校订入口允许受保护的 POST，预检允许 `Content-Type` 与 `Authorization`。CORS 允许 `https://lzww0608.github.io` 与本机开发/预览地址；写入还必须通过 Bearer 鉴权。CORS 只约束浏览器，接口中的已发布内容本身是公开的。
 
 ## 备份与恢复
 

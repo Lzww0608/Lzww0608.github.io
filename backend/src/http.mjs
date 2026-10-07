@@ -1,6 +1,8 @@
 import { createServer } from 'node:http';
-export function createApi({ repository, allowedOrigins, log = console.error }) {
+import { createEditorHandler } from './editor-http.mjs';
+export function createApi({ repository, allowedOrigins, editor = null, log = console.error }) {
   const origins = new Set(allowedOrigins);
+  const handleEditor = createEditorHandler({editor, allowedOrigins, log});
   return createServer({ requestTimeout: 10_000, headersTimeout: 10_000, maxHeaderSize: 8192 }, async (req, res) => {
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -11,15 +13,16 @@ export function createApi({ repository, allowedOrigins, log = console.error }) {
     if (origin && !origins.has(origin)) return send(403, { error: 'origin_not_allowed' });
     if (origin) res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Allow', 'GET, HEAD, OPTIONS');
-    if (req.method === 'OPTIONS') {
-      res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
-      res.setHeader('Access-Control-Max-Age', '600');
-      res.statusCode = 204; return res.end();
-    }
-    if (!['GET', 'HEAD'].includes(req.method)) return send(405, { error: 'method_not_allowed' });
     try {
       const url = new URL(req.url, 'http://localhost');
       const path = decodeURIComponent(url.pathname);
+      if (await handleEditor(req,res,path)) return;
+      if (req.method === 'OPTIONS') {
+        res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
+        res.setHeader('Access-Control-Max-Age', '600');
+        res.statusCode = 204; return res.end();
+      }
+      if (!['GET', 'HEAD'].includes(req.method)) return send(405, { error: 'method_not_allowed' });
       if (path === '/api/health') return send(200, await repository.health());
       if (path === '/api/books') return send(200, { books: await repository.books() });
       const chapters = path.match(/^\/api\/books\/([a-z0-9-]+)\/chapters$/);

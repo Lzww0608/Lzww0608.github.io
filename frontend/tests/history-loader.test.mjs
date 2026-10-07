@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readChapter } from '../src/history-loader.ts';
 import { resolveRoute, resolveReadingRoute, chaptersForPerson, chapterRoute } from '../src/library.ts';
 import { loadLibrary } from '../../content/library.mjs';
+import { loadPublishedChapters } from '../../content/translations.mjs';
 const { catalog, chapters } = loadLibrary();
 const archived = chapters.find(chapter => chapter.id === 'old-v110');
 const response = value => new Response(JSON.stringify(value), { status: 200 });
@@ -62,4 +63,27 @@ test('every book opens its default volume and every archived chapter works with 
     assert.equal(result.source, 'archive');
     assert.deepEqual(result.chapter, chapter);
   }
+});
+
+test('all 240 published AI translations remain readable from static chapters when the API is offline', async () => {
+  const originalLibrary = loadLibrary();
+  const publishedChapters = loadPublishedChapters(originalLibrary);
+  let translated = 0;
+  for (const chapter of publishedChapters.filter(chapter => chapter.paragraphs.some(paragraph => paragraph.translation))) {
+    const original = originalLibrary.chapters.find(item => item.id === chapter.id);
+    const result = await readChapter({ ...options(), bookId: chapter.bookId, chapterId: chapter.id,
+      fetcher: async url => { if (url.startsWith('https:')) throw new Error('offline'); return response(chapter); } });
+    assert.equal(result.source, 'archive');
+    assert.deepEqual(result.chapter, chapter);
+    for (const [index, paragraph] of result.chapter.paragraphs.entries()) {
+      assert.equal(paragraph.original, original.paragraphs[index].original);
+      assert.equal(original.paragraphs[index].translation, null);
+      if (!paragraph.translation) continue;
+      translated++;
+      assert.equal(paragraph.translation.origin, 'ai');
+      assert.equal(paragraph.translation.reviewStatus, 'pending');
+      assert.equal(paragraph.translation.version, 1);
+    }
+  }
+  assert.equal(translated, 240);
 });

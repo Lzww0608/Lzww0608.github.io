@@ -18,7 +18,8 @@
     "content:import": "node scripts/import-library.mjs",
     "translations:import": "node scripts/import-translations.mjs",
     "translations:publish-ai": "node scripts/publish-ai-batch.mjs",
-    "translations:export": "node scripts/export-published-translations.mjs"
+    "translations:export": "node scripts/export-published-translations.mjs",
+    "editor:setup": "node scripts/setup-editor.mjs"
   },
   "dependencies": {
     "pg": "^8.16.3"
