@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import type { ChapterParagraph, PublishedTranslation } from './types';
+import { reviewNoteForDisplay } from './translation-display';
 import {
   authenticateEditorSession, clearEditorSession, hasEditorSession,
   saveEditedTranslation, TranslationEditorError, validateTranslationEdit,
@@ -30,7 +31,7 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
   const pendingNavigation = useRef<(() => void) | null>(null);
   const initial = useRef({
     text: editingParagraph.translation?.text ?? '',
-    notes: editingParagraph.translation?.reviewNotes?.join('\n') ?? '',
+    notes: editingParagraph.translation?.reviewNotes?.map(reviewNoteForDisplay).join('\n') ?? '',
   }).current;
   const [text, setText] = useState(initial.text);
   const [editorName, setEditorName] = useState('');
