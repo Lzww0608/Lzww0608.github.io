@@ -22,14 +22,14 @@ test('theme preference survives reloads and safely rejects unknown stored values
 test('each sidebar remembers its own state without overwriting theme or text preferences', () => {
   const values = new Map([['ancient-history:original-script:v1', 'simplified']]);
   const storage = memoryStorage(values);
-  const ids = ['home-sources', 'reader-directory', 'reader-context', 'map-places'];
+  const ids = ['home-sources', 'reader-directory', 'map-places'];
   saveTheme('night', storage);
   ids.forEach(id => assert.equal(readSidebarCollapsed(id, storage), false));
   saveSidebarCollapsed('reader-directory', true, storage);
   saveSidebarCollapsed('map-places', true, storage);
-  assert.deepEqual(ids.map(id => readSidebarCollapsed(id, memoryStorage(values))), [false, true, false, true]);
+  assert.deepEqual(ids.map(id => readSidebarCollapsed(id, memoryStorage(values))), [false, true, true]);
   saveSidebarCollapsed('reader-directory', false, storage);
-  assert.deepEqual(ids.map(id => readSidebarCollapsed(id, storage)), [false, false, false, true]);
+  assert.deepEqual(ids.map(id => readSidebarCollapsed(id, storage)), [false, false, true]);
   assert.equal(readTheme(storage), 'night');
   assert.equal(values.get('ancient-history:original-script:v1'), 'simplified');
   values.set('ancient-history:sidebar:v1:home-sources', 'invalid');

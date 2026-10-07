@@ -1,31 +1,23 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowRight, ArrowLeft, ArrowUpRight, List, BookOpen } from '@phosphor-icons/react';
-import { people, books } from './data';
+import { ArrowRight, ArrowLeft, ArrowUpRight, List } from '@phosphor-icons/react';
 import { loadChapter } from './history-api';
-import { chaptersForBook, chaptersForPerson, chapterRoute } from './library';
+import { chaptersForBook, chapterRoute } from './library';
 import { originalParagraphs } from './original-script';
 import { useOriginalScript } from './use-original-script';
 import { CollapsibleSidebar, useSidebarState } from './CollapsibleSidebar';
-import type { Book, ChapterSummary, ChapterResponse, HistoryPerson, Route } from './types';
+import type { Book, ChapterSummary, ChapterResponse, Route } from './types';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
-type ReaderTab = 'notes' | 'related';
-export function Reader({ book, entry, go, openPerson }: {
+export function Reader({ book, entry, go }: {
   book: Book;
   entry: ChapterSummary;
   go: (route: Route) => void;
-  openPerson: (person: HistoryPerson | undefined) => void;
 }) {
   const directoryRef = useRef<HTMLElement>(null);
-  const contextRef = useRef<HTMLElement>(null);
   const directoryTrigger = useRef<HTMLButtonElement>(null);
-  const contextTrigger = useRef<HTMLButtonElement>(null);
   const [size, setSize] = useState(23);
-  const [tab, setTab] = useState<ReaderTab>('notes');
   const [showDirectory, setShowDirectory] = useState(false);
-  const [showContext, setShowContext] = useState(false);
   const directorySidebar = useSidebarState('reader-directory');
-  const contextSidebar = useSidebarState('reader-context');
   const [chapter, setChapter] = useState<ChapterResponse | null>(null);
   const [readState, setReadState] = useState<ReadState>('loading');
   const [retry, setRetry] = useState(0);
@@ -50,46 +42,39 @@ export function Reader({ book, entry, go, openPerson }: {
   }, [entry.id, showDirectory]);
   function closeDrawer() {
     if (showDirectory) directoryTrigger.current?.focus();
-    else if (showContext) contextTrigger.current?.focus();
-    setShowDirectory(false); setShowContext(false);
+    setShowDirectory(false);
   }
   useEffect(() => {
-    if (!showDirectory && !showContext) return;
-    const panel = showDirectory ? directoryRef.current : contextRef.current;
+    if (!showDirectory) return;
+    const panel = directoryRef.current;
     panel?.querySelector<HTMLButtonElement>('.sidebar-toggle')?.focus();
     function escape(event: KeyboardEvent) {
       if (event.key === 'Escape') {
-        if (showDirectory) directoryTrigger.current?.focus();
-        else contextTrigger.current?.focus();
-        setShowDirectory(false); setShowContext(false);
+        directoryTrigger.current?.focus();
+        setShowDirectory(false);
       }
     }
     function leaveDrawer(event: FocusEvent) {
       const target = event.target;
       if (target instanceof HTMLElement && !panel?.contains(target)
-        && target !== directoryTrigger.current && target !== contextTrigger.current
+        && target !== directoryTrigger.current
         && !target.closest('.sidebar-backdrop')) {
-        setShowDirectory(false); setShowContext(false);
+        setShowDirectory(false);
       }
     }
     document.addEventListener('keydown', escape);
     document.addEventListener('focusin', leaveDrawer);
     return () => { document.removeEventListener('keydown', escape); document.removeEventListener('focusin', leaveDrawer); };
-  }, [showDirectory, showContext]);
+  }, [showDirectory]);
   const directory = chaptersForBook(book.id);
   const index = directory.findIndex(item => item.id === entry.id);
   const previous = directory[index - 1];
   const next = directory[index + 1];
-  const subjects = people.filter(person => entry.subjects.includes(person.id));
-  const parallel = books.filter(item => item.id !== book.id).flatMap(item => {
-    const match = entry.subjects.flatMap(chaptersForPerson).find(candidate => candidate.bookId === item.id);
-    return match ? [{ book: item, chapter: match }] : [];
-  });
   const provenance = entry.provenance;
   return <section className="reader" data-read-state={readState} data-chapter-id={entry.id}>
     <div className="breadcrumbs"><button onClick={() => go('sources')}>史料库</button><span>/</span><span>{book.title}</span><span>/</span><span>卷 {entry.volume}</span></div>
-    <div className={`reader-layout ${directorySidebar.collapsed ? 'left-collapsed' : ''} ${contextSidebar.collapsed ? 'right-collapsed' : ''}`}>
-      {(showDirectory || showContext) && <button className={`sidebar-backdrop ${showDirectory ? 'directory-backdrop' : 'context-backdrop'}`} aria-label="关闭侧栏" onClick={closeDrawer} />}
+    <div className={`reader-layout ${directorySidebar.collapsed ? 'left-collapsed' : ''}`}>
+      {showDirectory && <button className="sidebar-backdrop directory-backdrop" aria-label="关闭侧栏" onClick={closeDrawer} />}
       <CollapsibleSidebar id="reader-directory" title="章节目录" side="left" panelRef={directoryRef} className={`reader-directory full-directory ${showDirectory ? 'directory-visible' : ''}`} collapsed={directorySidebar.collapsed} onToggle={() => { directorySidebar.toggle(); if (showDirectory) closeDrawer(); }}>
         <h3 className="directory-book-title">{book.title}</h3>
         <p>本地收录 · {directory.length} 卷</p>
@@ -98,16 +83,13 @@ export function Reader({ book, entry, go, openPerson }: {
       <article className="reader-main">
         <span className="eyebrow">{book.author} · 完整卷原文</span><h1>{chapter?.title ?? entry.title}</h1>
         <p className="chapter-meta">{book.kind}{entry.years ? ` · ${entry.years} 年` : ''} · {chapter?.paragraphs.length ?? entry.paragraphCount} 段</p>
-        <div className="reader-toolbar"><div className="reader-text-mode"><span>原文</span><div className="script-switch" role="group" aria-label="原文繁简切换">{(['traditional', 'simplified'] as const).map(script => <button key={script} aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}</div></div><div><button className="font-button" aria-label="减小字号" disabled={size <= 18} onClick={() => setSize(value => value - 1)}>A−</button><button className="font-button" aria-label="增大字号" disabled={size >= 30} onClick={() => setSize(value => value + 1)}>A＋</button><button ref={directoryTrigger} className="directory-toggle" aria-expanded={showDirectory} aria-controls="reader-directory-content" onClick={() => { directorySidebar.setCollapsed(false); setShowContext(false); setShowDirectory(value => !value); }}><List size={18} />目录</button><button ref={contextTrigger} className="context-toggle" aria-expanded={showContext} aria-controls="reader-context-content" onClick={() => { contextSidebar.setCollapsed(false); setShowDirectory(false); setShowContext(value => !value); }}><BookOpen size={18} />辅助</button></div></div>
+        <div className="reader-toolbar"><div className="reader-text-mode"><span>原文</span><div className="script-switch" role="group" aria-label="原文繁简切换">{(['traditional', 'simplified'] as const).map(script => <button key={script} aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}</div></div><div><button className="font-button" aria-label="减小字号" disabled={size <= 18} onClick={() => setSize(value => value - 1)}>A−</button><button className="font-button" aria-label="增大字号" disabled={size >= 30} onClick={() => setSize(value => value + 1)}>A＋</button><button ref={directoryTrigger} className="directory-toggle" aria-expanded={showDirectory} aria-controls="reader-directory-content" onClick={() => { directorySidebar.setCollapsed(false); setShowDirectory(value => !value); }}><List size={18} />目录</button></div></div>
         <div className="script-status" role="status">{originalScript.pending && '正在准备简体显示…'}{originalScript.error ? <><span>简体转换暂不可用，当前显示繁体原文。</span> <button className="text-link small" onClick={originalScript.retry}>重试转换</button></> : originalScript.displayScript === 'simplified' && '简体为自动转换的阅读显示，可随时切回繁体原文。'}</div>
         <div className="reader-status" role="status">{readState === 'loading' && '正在打开原文…'}{readState === 'archive-pending' && '原文已打开，正在检查已发布译文…'}{readState === 'archive' && '当前显示随站保存的完整原文。'}{readState === 'error' && <><span>这一卷暂时无法打开。</span> <button className="text-link small" onClick={() => setRetry(value => value + 1)}>重新读取</button></>}</div>
         <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map(paragraph => <div key={paragraph.id} id={paragraph.id}><p><span className="paragraph-number">{paragraph.position}</span>{paragraph.original}</p>{paragraph.translation && <div className="paragraph-translation" lang={paragraph.translation.language}><span>译文 · {paragraph.translation.translator}</span><p>{paragraph.translation.text}</p></div>}</div>)}</div>
-        {chapter && <div className="reading-source"><span>完整卷原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留；阅读提示由本站整理。译文仅在校核并发布后显示。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
+        {chapter && <div className="reading-source"><span>完整卷原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留。译文仅在校核并发布后显示。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
         <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(chapterRoute(previous)) : go('sources')}><ArrowLeft size={18} />{previous ? '上一卷' : '返回史料库'}</button>{next ? <button className="text-link" onClick={() => go(chapterRoute(next))}>下一卷 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go('sources')}>返回史料库 <ArrowRight size={18} /></button>}</div>
       </article>
-      <CollapsibleSidebar id="reader-context" title="阅读辅助" side="right" panelRef={contextRef} className={`reader-context ${showContext ? 'context-visible' : ''}`} collapsed={contextSidebar.collapsed} onToggle={() => { contextSidebar.toggle(); if (showContext) closeDrawer(); }}><div className="filter-tabs" role="group" aria-label="阅读辅助">{(['notes', 'related'] as const).map(id => <button className={tab === id ? 'active' : ''} aria-pressed={tab === id} key={id} onClick={() => setTab(id)}>{id === 'notes' ? '阅读提示' : '关联'}</button>)}</div>
-        {tab === 'notes' ? <div><h3>阅读说明</h3>{chapter?.notes.map(note => <p key={note}>{note}</p>)}</div> : <div><h3>关联人物</h3>{subjects.length ? subjects.map(person => <button className="context-link" key={person.id} onClick={() => openPerson(person)}>{person.name}<ArrowRight size={18} /></button>) : <p>本卷位于开国皇帝在位时期之外，保留五代史事的连续记述。</p>}<h3>同一人物，参读史料</h3>{parallel.map(item => <button className="context-link parallel-link" key={item.book.id} onClick={() => go(chapterRoute(item.chapter))}><span>{item.book.title}<small>{item.chapter.title}</small></span><ArrowRight size={18} /></button>)}{!parallel.length && <button className="context-link" onClick={() => go('sources')}>浏览全部史料 <ArrowRight size={18} /></button>}</div>}
-      </CollapsibleSidebar>
     </div>
   </section>;
 }

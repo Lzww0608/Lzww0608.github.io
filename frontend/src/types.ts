@@ -4,7 +4,7 @@ export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
 export type BookId = 'old' | 'new' | 'tongjian' | 'quewen';
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
-export type SidebarId = 'home-sources' | 'reader-directory' | 'reader-context' | 'map-places';
+export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
 export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}` | `read-${BookId}/${string}`;
 
 export interface HistoryEvent {
