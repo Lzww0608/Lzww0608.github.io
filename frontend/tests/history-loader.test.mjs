@@ -65,7 +65,7 @@ test('every book opens its default volume and every archived chapter works with 
   }
 });
 
-test('all 240 published AI translations remain readable from static chapters when the API is offline', async () => {
+test('all 284 published translations remain readable from static chapters when the API is offline', async () => {
   const originalLibrary = loadLibrary();
   const publishedChapters = loadPublishedChapters(originalLibrary);
   let translated = 0;
@@ -85,5 +85,5 @@ test('all 240 published AI translations remain readable from static chapters whe
       assert.equal(paragraph.translation.version, 1);
     }
   }
-  assert.equal(translated, 240);
+  assert.equal(translated, 284);
 });

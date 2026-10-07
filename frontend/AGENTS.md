@@ -40,7 +40,7 @@ The user confirmed five supplemental sources on 2026-10-07: 五代史补 (all fi
 
 On 2026-10-07 the user explicitly requested publication of initial translations before their later corrections. The user subsequently removed all “AI 初译 · 待修订” displays. Use the neutral label “白话译文” for existing and future translations; omit AI/review-state badges, the introductory notice, review-state parentheticals in translator credits and the footer explanation. Keep translator names, versions, review notes and correction buttons. Preserve accurate origin/review metadata without inventing human review. Unreleased database drafts remain hidden. `content/published-translations/` contains approved published snapshots matched to immutable paragraph revisions and hashes; prebuild overlays them only into generated website copies. Keep original archives unchanged and prefer the API's latest published version over the static snapshot.
 
-The published initial release contains 240 AI translations: 五代春秋 preface and both volumes (76 blocks), and the seven archived 新五代史 volumes 1, 2, 4, 5, 8, 10 and 11 (164 blocks, including headings and notes). These remain pending human checking. Never describe the selected volumes as a translation of the complete 新五代史.
+The published collection contains 284 translations: 五代春秋 preface and both volumes (76 blocks), the seven archived 新五代史 volumes 1, 2, 4, 5, 8, 10 and 11 (164 blocks, including headings and notes), and the complete archived 五代史阙文 with its prefaces (44 blocks). Actual provenance and review status remain in metadata. Never describe the selected volumes as a translation of the complete 新五代史.
 
 ## Protected translation corrections
 
