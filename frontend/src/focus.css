@@ -1,0 +1,6 @@
+/* Native selects and text fields can match :focus-visible after a pointer click. */
+:root[data-focus-modality="pointer"] :focus,
+:root[data-focus-modality="pointer"] .hero-search:focus-within,
+:root[data-focus-modality="pointer"] .compact-search:focus-within {
+  outline: none;
+}

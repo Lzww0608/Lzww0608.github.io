@@ -38,6 +38,8 @@ The user requested a frontend TypeScript migration on 2026-10-07. Keep applicati
 
 ## Appearance and sidebars
 
+On 2026-10-09 the user removed the dark outer focus frames that remain after clicking controls. Keep this preference consistent for all current and future buttons, links, selects, fields and composite search controls. `src/focus-modality.ts` distinguishes pointer clicks from keyboard use; `src/focus.css` suppresses pointer-triggered outlines while keeping normal control borders and visible keyboard focus. Native selects and text inputs can match `:focus-visible` after a mouse click, so that selector alone does not distinguish the input method. Do not blur controls on click or remove keyboard operation to hide a frame.
+
 The user requested all left/right sidebars to be collapsible and a page-color switch on 2026-10-07. Use the shared `CollapsibleSidebar` for the home source entrance, reader chapter directory and map place index, as well as future sidebars. Each panel keeps its own preference, exposes accessible collapse/restore controls and gives space back to the main content on desktop. The user subsequently removed the reader assistance sidebar and its mobile entrance. Keep reading pages to the chapter directory and main text, with the text using the released space. The chapter directory opens as a drawer on phones; keep its toolbar control reachable. Layout changes must resize the existing map without losing the selected place. Provide paper/jade/night palettes through semantic colors in `src/appearance.css`, covering readers, dialogs and controls. Persist theme choice safely and restore it before rendering. Preserve the site's historical illustrations and typography; night mode must keep all text legible.
 
 ## Original text scripts
