@@ -1,5 +1,6 @@
 import catalog from '../../content/five-dynasties/catalog.json' with { type: 'json' };
-import type { Book, BookId, ChapterSummary, LibraryCatalog, Route } from './types.ts';
+import emperors from '../../content/five-dynasties/emperors.json' with { type: 'json' };
+import type { Book, BookId, ChapterSummary, EmperorCatalog, LibraryCatalog, Route } from './types.ts';
 
 const library = catalog as LibraryCatalog;
 export const libraryBooks = library.books;
@@ -7,6 +8,12 @@ export const libraryChapters = library.chapters;
 export const chaptersForBook = (bookId: BookId): ChapterSummary[] => libraryChapters.filter(chapter => chapter.bookId === bookId).sort((a, b) => a.position - b.position);
 export const chaptersForPerson = (personId: string): ChapterSummary[] => libraryChapters.filter(chapter => chapter.subjects.includes(personId));
 export const chapterRoute = (chapter: ChapterSummary): Route => `read-${chapter.bookId}/${chapter.id}`;
+
+export function preferredChapterForPerson(bookId: BookId, personId: string): ChapterSummary | undefined {
+  const preferred = (emperors as EmperorCatalog).people.find(person => person.id === personId)?.readingStarts[bookId];
+  const matches = chaptersForBook(bookId).filter(chapter => chapter.subjects.includes(personId));
+  return matches.find(chapter => chapter.id === preferred) ?? matches.find(chapter => chapter.volume > 0) ?? matches[0];
+}
 
 export function resolveReadingRoute(route: string): { book: Book; chapter: ChapterSummary } | null {
   for (const book of libraryBooks) {

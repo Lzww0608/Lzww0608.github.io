@@ -27,6 +27,32 @@ export interface HistoryPerson {
   event: EventId;
   aliases: string;
   intro: string;
+  reign?: string;
+  reignStart?: number;
+  reignEnd?: number;
+  sources?: HistoricalSourceReference[];
+  readingStarts?: Partial<Record<BookId, string>>;
+}
+
+export interface HistoricalSourceReference {
+  title: string;
+  url: string;
+}
+
+export interface ReigningEmperor extends HistoryPerson {
+  dynasty: Exclude<Dynasty, '宋'>;
+  event: Exclude<EventId, 'song'>;
+  reign: string;
+  reignStart: number;
+  reignEnd: number;
+  sources: HistoricalSourceReference[];
+  readingStarts: Partial<Record<BookId, string>>;
+}
+
+export interface EmperorCatalog {
+  schemaVersion: 1;
+  scope: 'five-dynasties-reigning-emperors';
+  people: ReigningEmperor[];
 }
 
 export interface Book {

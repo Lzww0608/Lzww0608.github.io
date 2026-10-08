@@ -1,16 +1,22 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
-test('the archive has verified source hashes, complete founder annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 112);
+test('the archive has verified source hashes, complete emperor annals and all Five Dynasties Tongjian volumes', () => {
+  assert.equal(chapters.length, 151);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
-  for (const [person, oldCount, newCount] of [['zhu-wen', 7, 2], ['li-cunxu', 8, 2], ['shi-jingtang', 6, 1], ['liu-zhiyuan', 2, 1], ['guo-wei', 4, 1]]) {
-    assert.equal(catalog.chapters.filter(c => c.bookId === 'old' && c.subjects.includes(person)).length, oldCount);
-    assert.equal(catalog.chapters.filter(c => c.bookId === 'new' && c.subjects.includes(person)).length, newCount);
-    assert.ok(catalog.chapters.some(c => c.bookId === 'tongjian' && c.subjects.includes(person)));
+  const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
+  assert.equal(emperors.length, 14);
+  for (const person of emperors) {
+    for (const [bookId, chapterId] of Object.entries(person.readingStarts)) {
+      assert.ok(catalog.chapters.some(c => c.id === chapterId && c.bookId === bookId && c.subjects.includes(person.id)), `${person.id}: ${bookId}`);
+    }
   }
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
+    [1,2,3,4,5,6,7,8,9,10,12, ...Array.from({length:22},(_,i)=>27+i), ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume), Array.from({length:13},(_,i)=>i+1));
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));

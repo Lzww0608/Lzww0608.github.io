@@ -20,8 +20,8 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五位开国皇帝的本纪，共 27 卷；保留原页所载辑佚说明与夹注。', defaultChapter='old-v001'),
-    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五位开国皇帝的本纪，共 7 卷。汉本纪兼载隐帝，以完整卷收录。', defaultChapter='new-v01'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收含朱友珪专传的梁宗室传；合计 60 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
+    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收含朱友珪专传的梁家人传；共 13 卷，汉、周本纪中的合传均整卷保留。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
@@ -36,19 +36,29 @@ for book in BOOKS:
 # Exact chapter ranges checked against each work's Wikisource contents page.
 SPECS = []
 for person, start, end, title in [
-    ('zhu-wen', 1, 7, '梁太祖纪'), ('li-cunxu', 27, 34, '唐庄宗纪'),
-    ('shi-jingtang', 75, 80, '晋高祖纪'), ('liu-zhiyuan', 99, 100, '汉高祖纪'),
-    ('guo-wei', 110, 113, '周太祖纪'),
+    ('zhu-wen', 1, 7, '梁太祖纪'), ('zhu-youzhen', 8, 10, '梁末帝纪'),
+    ('li-cunxu', 27, 34, '唐庄宗纪'), ('li-siyuan', 35, 44, '唐明宗纪'),
+    ('li-conghou', 45, 45, '唐闵帝纪'), ('li-congke', 46, 48, '唐末帝纪'),
+    ('shi-jingtang', 75, 80, '晋高祖纪'), ('shi-chonggui', 81, 85, '晋少帝纪'),
+    ('liu-zhiyuan', 99, 100, '汉高祖纪'), ('liu-chengyou', 101, 103, '汉隐帝纪'),
+    ('guo-wei', 110, 113, '周太祖纪'), ('chai-rong', 114, 119, '周世宗纪'),
+    ('chai-zongxun', 120, 120, '周恭帝纪'),
 ]:
     for volume in range(start, end + 1):
         SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume, title=f'卷 {volume} · {title}{volume-start+1}', page=f'舊五代史/卷{volume}', subjects=[person]))
+SPECS.append(dict(id='old-v012', bookId='old', volume=12, title='卷 12 · 梁宗室传（含朱友珪）', page='舊五代史/卷12', subjects=['zhu-wen', 'zhu-yougui', 'zhu-youzhen']))
 for person, volume, title in [
     ('zhu-wen', 1, '梁本纪第一'), ('zhu-wen', 2, '梁本纪第二'),
+    ('zhu-youzhen', 3, '梁本纪第三'),
     ('li-cunxu', 4, '唐本纪第四'), ('li-cunxu', 5, '唐本纪第五'),
-    ('shi-jingtang', 8, '晋本纪第八'), ('liu-zhiyuan', 10, '汉本纪第十（兼载隐帝）'),
+    ('li-siyuan', 6, '唐本纪第六'), ('li-conghou', 7, '唐本纪第七（兼载末帝）'),
+    ('shi-jingtang', 8, '晋本纪第八'), ('shi-chonggui', 9, '晋本纪第九'),
+    ('liu-zhiyuan', 10, '汉本纪第十（兼载隐帝）'),
     ('guo-wei', 11, '周本纪第十一'),
+    ('chai-rong', 12, '周本纪第十二（兼载恭帝）'),
 ]:
     SPECS.append(dict(id=f'new-v{volume:02}', bookId='new', volume=volume, title=f'卷 {volume} · {title}', page=f'新五代史/卷{volume:02}', subjects=[person]))
+SPECS.append(dict(id='new-v13', bookId='new', volume=13, title='卷 13 · 梁家人传（含朱友珪）', page='新五代史/卷13', subjects=['zhu-wen', 'zhu-yougui', 'zhu-youzhen']))
 YEARS = ['907—908', '908—911', '911—913', '913—917', '917—919', '919—922', '923', '924—925', '925—926', '926—927', '927—929', '930—932', '932—934', '934—935', '936', '937—938', '939—941', '942—944', '944—945', '945—946', '947', '947—948', '948—949', '950', '951—952', '952—954', '954—956', '956—957', '958—959']
 for volume in range(266, 295):
     if volume <= 271: name, number = '后梁纪', volume-265
@@ -90,20 +100,92 @@ for volume in range(17, 21):
 for volume, title, subjects in [(28, '后梁纪上', FOUNDERS[:1]), (29, '后梁纪下、后唐纪上', FOUNDERS[:2]), (30, '后唐纪下、后晋、后汉与后周纪', FOUNDERS[2:])]:
     SPECS.append(dict(id=f'kaoyi-v{volume:03}', bookId='kaoyi', volume=volume, title=f'卷 {volume} · {title}', page=f'資治通鑑考異 (四庫全書本)/卷{volume}', subjects=subjects))
 
+# Explicit reign and shared-annal links are metadata only. Original files and
+# captured revisions stay byte-identical when the roster grows.
+REIGN_SUBJECTS = {'tongjian-v266': ['zhu-wen'],
+ 'tongjian-v267': ['zhu-wen'],
+ 'tongjian-v268': ['zhu-wen', 'zhu-yougui', 'zhu-youzhen'],
+ 'tongjian-v269': ['zhu-youzhen'],
+ 'tongjian-v270': ['zhu-youzhen'],
+ 'tongjian-v271': ['zhu-youzhen'],
+ 'tongjian-v272': ['zhu-youzhen', 'li-cunxu'],
+ 'tongjian-v273': ['li-cunxu'],
+ 'tongjian-v274': ['li-cunxu'],
+ 'tongjian-v275': ['li-cunxu', 'li-siyuan'],
+ 'tongjian-v276': ['li-siyuan'],
+ 'tongjian-v277': ['li-siyuan'],
+ 'tongjian-v278': ['li-siyuan', 'li-conghou'],
+ 'tongjian-v279': ['li-conghou', 'li-congke'],
+ 'tongjian-v280': ['li-congke', 'shi-jingtang'],
+ 'tongjian-v281': ['shi-jingtang'],
+ 'tongjian-v282': ['shi-jingtang'],
+ 'tongjian-v283': ['shi-jingtang', 'shi-chonggui'],
+ 'tongjian-v284': ['shi-chonggui'],
+ 'tongjian-v285': ['shi-chonggui'],
+ 'tongjian-v286': ['liu-zhiyuan'],
+ 'tongjian-v287': ['liu-zhiyuan', 'liu-chengyou'],
+ 'tongjian-v288': ['liu-chengyou'],
+ 'tongjian-v289': ['liu-chengyou'],
+ 'tongjian-v290': ['guo-wei'],
+ 'tongjian-v291': ['guo-wei', 'chai-rong'],
+ 'tongjian-v292': ['chai-rong'],
+ 'tongjian-v293': ['chai-rong'],
+ 'tongjian-v294': ['chai-rong', 'chai-zongxun'],
+ 'old-v007': ['zhu-wen', 'zhu-yougui'],
+ 'old-v080': ['shi-jingtang', 'shi-chonggui'],
+ 'old-v100': ['liu-zhiyuan', 'liu-chengyou'],
+ 'old-v113': ['guo-wei', 'chai-rong'],
+ 'new-v02': ['zhu-wen', 'zhu-yougui'],
+ 'new-v07': ['li-conghou', 'li-congke'],
+ 'new-v10': ['liu-zhiyuan', 'liu-chengyou'],
+ 'new-v12': ['chai-rong', 'chai-zongxun']}
+for spec in SPECS:
+    if spec['id'] in REIGN_SUBJECTS:
+        spec['subjects'] = REIGN_SUBJECTS[spec['id']]
+    if spec['bookId'] == 'chunqiu' and spec['volume']:
+        spec['subjects'] = (['zhu-wen', 'zhu-yougui', 'zhu-youzhen', 'li-cunxu', 'li-siyuan', 'li-conghou', 'li-congke']
+                            if spec['volume'] == 1 else
+                            ['shi-jingtang', 'shi-chonggui', 'liu-zhiyuan', 'liu-chengyou', 'guo-wei', 'chai-rong', 'chai-zongxun'])
+    if spec['bookId'] in {'quewen', 'shibu', 'huiyao', 'beimeng', 'kaoyi'} and not spec.get('indexPage'):
+        spec['scanSubjects'] = True
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
-    'li-cunxu': ['李存勖', '李存勗'],
-    'shi-jingtang': ['石敬瑭'],
-    'liu-zhiyuan': ['劉知遠'],
+    'zhu-yougui': ['朱友珪', '友珪'],
+    'zhu-youzhen': ['朱友貞', '朱友贞', '友貞', '朱鍠', '朱瑱'],
+    'li-cunxu': ['李存勖', '李存勗', '存勖', '存勗'],
+    'li-siyuan': ['李嗣源', '嗣源', '李亶'],
+    'li-conghou': ['李從厚', '從厚'],
+    'li-congke': ['李從珂', '從珂'],
+    'shi-jingtang': ['石敬瑭', '敬瑭'],
+    'shi-chonggui': ['石重貴', '重貴'],
+    'liu-zhiyuan': ['劉知遠', '知遠', '劉暠'],
+    'liu-chengyou': ['劉承祐', '承祐'],
     'guo-wei': ['郭威'],
+    'chai-rong': ['柴榮', '郭榮'],
+    'chai-zongxun': ['柴宗訓', '郭宗訓', '宗訓'],
 }
-BEIMENG_TITLES = {'zhu-wen': ['梁祖', '梁太祖'], 'li-cunxu': ['莊宗'], 'shi-jingtang': ['晉高祖', '晉祖'], 'liu-zhiyuan': ['漢高祖', '漢祖'], 'guo-wei': ['周太祖', '周祖']}
-HUIYAO_TITLES = {'zhu-wen': ['梁太祖'], 'li-cunxu': ['後唐莊宗'], 'shi-jingtang': ['晉高祖'], 'liu-zhiyuan': ['後漢高祖'], 'guo-wei': ['周太祖']}
+SUBJECT_TITLES = {
+    'zhu-wen': ['梁太祖', '梁祖'], 'zhu-yougui': ['梁郢王'], 'zhu-youzhen': ['梁末帝'],
+    'li-cunxu': ['唐莊宗', '後唐莊宗'], 'li-siyuan': ['唐明宗', '後唐明宗'],
+    'li-conghou': ['唐閔帝', '唐愍帝'], 'li-congke': ['唐末帝', '唐廢帝'],
+    'shi-jingtang': ['晉高祖', '晉祖'], 'shi-chonggui': ['晉少帝', '晉出帝'],
+    'liu-zhiyuan': ['後漢高祖', '漢祖'], 'liu-chengyou': ['漢隱帝'],
+    'guo-wei': ['周太祖', '周祖'], 'chai-rong': ['周世宗'], 'chai-zongxun': ['周恭帝'],
+}
 
 def scanned_subjects(paragraphs, book_id):
     text = '\n'.join(paragraphs)
-    titles = BEIMENG_TITLES if book_id == 'beimeng' else HUIYAO_TITLES
-    return [person for person, names in SUBJECT_NAMES.items() if any(name in text for name in names + titles[person])]
+    return [person for person, names in SUBJECT_NAMES.items()
+            if any(name in text for name in names + SUBJECT_TITLES[person])]
+
+def chapter_subjects(spec, paragraphs, previous_subjects=()):
+    subjects = list(spec['subjects'])
+    if spec.get('scanSubjects'):
+        # Keep confirmed earlier links while adding only explicit proper names
+        # or polity-qualified titles. Bare 太祖/高祖/世宗 never identify a person.
+        subjects += list(previous_subjects) + scanned_subjects(paragraphs, spec['bookId'])
+    return list(dict.fromkeys(subjects))
 
 class Node:
     def __init__(self, tag='', attrs=None):
@@ -192,7 +274,8 @@ def capture(spec, previous=None):
         for file, expected in [(path, previous['provenance']['sourceSha256']), (chapter_path, previous['provenance']['chapterSha256'])]:
             if hashlib.sha256(file.read_bytes()).hexdigest() != expected:
                 raise ValueError(f"Existing archive checksum changed: {spec['id']}")
-        return previous
+        cached = json.loads(chapter_path.read_text())
+        return {**previous, 'subjects': chapter_subjects(spec, [p['original'] for p in cached['paragraphs']], previous['subjects'])}
     if path.exists():
         payload = json.loads(path.read_text())
     else:
@@ -216,7 +299,7 @@ def capture(spec, previous=None):
         '古籍原作已属公版；维基文库的整理、标点与页面文本按 CC BY-SA 4.0 署名并以相同方式共享。底本、校勘与叙事差异请参照版本信息。',
     ]
     if book['id'] == 'old': notes.append('《旧五代史》为辑佚本。本纪中保留《永乐大典》《册府元龟》等出处及整理者按语，不把夹注删作缺文。')
-    if book['id'] == 'tongjian': notes.append('《资治通鉴》是编年史，本站收录卷 266—294 的五代部分（907—959 年）。人物筛选按开国皇帝在位时期关联，并非卷内出现该人物的穷尽索引。')
+    if book['id'] == 'tongjian': notes.append('《资治通鉴》是编年史，本站收录卷 266—294 的五代部分（907—959 年）。人物筛选按各皇帝实际在位记事及政权交接关联，并非卷内出现该人物的穷尽索引。')
     if spec['id'] == 'new-v10': notes.append('此卷合记后汉高祖与隐帝，收录整卷，不将隐帝部分误标为刘知远生平。')
     if book['id'] == 'quewen': notes.append('《五代史阙文》保存史事异闻，含原页提要与序文。传闻记述应与正史、编年史相互参证，不能直接视为定论。')
     if book['id'] in {'shibu', 'beimeng'}: notes.append('本书含史事逸闻，不能将传闻直接视为定论；请与正史、编年史及《资治通鉴考异》相互参证。')
@@ -224,9 +307,7 @@ def capture(spec, previous=None):
     if book['id'] == 'beimeng': notes.append('本站选录四库全书本卷 17—20，另收提要与作者自序，不表示全书二十卷已全部收录。')
     if book['id'] == 'kaoyi': notes.append('本站收录卷 28—30 的五代部分。本书记录史料异同及取舍理由，须与《资治通鉴》正文对应阅读。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')
-    subjects = spec['subjects']
-    if spec.get('scanSubjects'):
-        subjects = scanned_subjects(paragraphs, book['id'])
+    subjects = chapter_subjects(spec, paragraphs)
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')

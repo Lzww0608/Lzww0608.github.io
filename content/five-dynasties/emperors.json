@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "scope": "five-dynasties-reigning-emperors",
+  "scopeNote": "收录后梁、后唐、后晋、后汉、后周实际登位的14位皇帝，包括朱友珪。刘赟虽曾被迎立为汉嗣，但在正式即位前被废，不计入此名单。年份按在位史事对应的西历年份标示，年号末年可能跨入翌年。",
+  "people": [
+    {
+      "id": "zhu-wen",
+      "name": "朱温",
+      "dynasty": "后梁",
+      "role": "后梁建立者",
+      "event": "liang",
+      "aliases": "朱全忠 朱晃 梁太祖",
+      "intro": "朱温是后梁的建立者。史料中也以朱全忠、朱晃等名字出现，阅读时应注意称谓的变化。",
+      "reign": "907—912 年",
+      "reignStart": 907,
+      "reignEnd": 912,
+      "readingStarts": {
+        "old": "old-v001",
+        "new": "new-v01",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·梁太祖本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷1"
+        },
+        {
+          "title": "新五代史·梁本纪第一",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷01"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui",
+      "name": "朱友珪",
+      "dynasty": "后梁",
+      "role": "后梁郢王",
+      "event": "liang",
+      "aliases": "郢王 梁郢王 庶人友珪",
+      "intro": "朱友珪是朱温之子。乾化二年弑父自立，翌年改元凤历，随后在宫廷政变中身亡，被追废为庶人；新旧五代史将其事迹收入家人传或宗室传。",
+      "reign": "912—913 年",
+      "reignStart": 912,
+      "reignEnd": 913,
+      "readingStarts": {
+        "old": "old-v012",
+        "new": "new-v13",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·梁宗室传·朱友珪",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷12"
+        },
+        {
+          "title": "新五代史·梁家人传·庶人友珪",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷13"
+        },
+        {
+          "title": "资治通鉴·后梁纪三",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷268"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen",
+      "name": "朱友贞",
+      "dynasty": "后梁",
+      "role": "后梁末帝",
+      "event": "liang",
+      "aliases": "朱友貞 朱锽 朱瑱 梁末帝 均王",
+      "intro": "朱友贞是朱温之子，起初封为均王。朱友珪被杀后，他在大梁即位，先后改名朱锽、朱瑱；后唐军攻入大梁时身亡，后梁结束。",
+      "reign": "913—923 年",
+      "reignStart": 913,
+      "reignEnd": 923,
+      "readingStarts": {
+        "old": "old-v008",
+        "new": "new-v03",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·梁末帝本纪上",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷8"
+        },
+        {
+          "title": "新五代史·梁本纪第三",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷03"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "dynasty": "后唐",
+      "role": "后唐建立者",
+      "event": "tang",
+      "aliases": "李存勗 唐庄宗",
+      "intro": "李存勖是后唐的建立者。其活动与河东军事势力、梁唐交替和洛阳的政治地位相关。",
+      "reign": "923—926 年",
+      "reignStart": 923,
+      "reignEnd": 926,
+      "readingStarts": {
+        "old": "old-v027",
+        "new": "new-v04",
+        "tongjian": "tongjian-v272"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·唐庄宗本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷27"
+        },
+        {
+          "title": "新五代史·唐本纪第四",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷04"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "dynasty": "后唐",
+      "role": "后唐明宗",
+      "event": "tang",
+      "aliases": "李亶 唐明宗 邈佶烈",
+      "intro": "李嗣源是李克用的养子，长期统兵作战。庄宗死后，他在洛阳即位，后来改名李亶，在位使用天成、长兴年号。",
+      "reign": "926—933 年",
+      "reignStart": 926,
+      "reignEnd": 933,
+      "readingStarts": {
+        "old": "old-v035",
+        "new": "new-v06",
+        "tongjian": "tongjian-v275"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·唐明宗本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷35"
+        },
+        {
+          "title": "新五代史·唐本纪第六",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷06"
+        }
+      ]
+    },
+    {
+      "id": "li-conghou",
+      "name": "李从厚",
+      "dynasty": "后唐",
+      "role": "后唐愍帝",
+      "event": "tang",
+      "aliases": "李從厚 唐愍帝 唐闵帝 鄂王 宋王",
+      "intro": "李从厚是后唐明宗之子。明宗死后继位，改元应顺；李从珂起兵后，他出奔卫州，被废为鄂王，随后遇害。旧五代史称闵帝，新五代史称愍帝。",
+      "reign": "933—934 年",
+      "reignStart": 933,
+      "reignEnd": 934,
+      "readingStarts": {
+        "old": "old-v045",
+        "new": "new-v07",
+        "tongjian": "tongjian-v278"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·唐闵帝本纪",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷45"
+        },
+        {
+          "title": "新五代史·唐本纪第七·愍帝",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷07"
+        }
+      ]
+    },
+    {
+      "id": "li-congke",
+      "name": "李从珂",
+      "dynasty": "后唐",
+      "role": "后唐废帝",
+      "event": "tang",
+      "aliases": "李從珂 阿三 唐废帝 唐末帝 潞王",
+      "intro": "李从珂是后唐明宗的养子，起兵取代李从厚，改元清泰。石敬瑭借契丹援兵南下后，他于清泰三年末自焚；这一终局折合西历已在937年初。",
+      "reign": "934—937 年",
+      "reignStart": 934,
+      "reignEnd": 937,
+      "readingStarts": {
+        "old": "old-v046",
+        "new": "new-v07",
+        "tongjian": "tongjian-v279"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·唐末帝本纪上",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷46"
+        },
+        {
+          "title": "旧五代史·唐末帝本纪下",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷48"
+        },
+        {
+          "title": "新五代史·唐本纪第七·废帝",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷07"
+        }
+      ]
+    },
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "dynasty": "后晋",
+      "role": "后晋建立者",
+      "event": "jin",
+      "aliases": "晋高祖",
+      "intro": "石敬瑭是后晋的建立者。其相关记述可从后唐与后晋两朝的史料中相互参照。",
+      "reign": "936—942 年",
+      "reignStart": 936,
+      "reignEnd": 942,
+      "readingStarts": {
+        "old": "old-v075",
+        "new": "new-v08",
+        "tongjian": "tongjian-v280"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·晋高祖本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷75"
+        },
+        {
+          "title": "新五代史·晋本纪第八",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷08"
+        }
+      ]
+    },
+    {
+      "id": "shi-chonggui",
+      "name": "石重贵",
+      "dynasty": "后晋",
+      "role": "后晋出帝",
+      "event": "jin",
+      "aliases": "石重貴 晋出帝 晋少帝 齐王",
+      "intro": "石重贵是石敬瑭兄长之子，后被石敬瑭收为养子并继位，使用天福、开运年号。晋军败降契丹后，他被迫降服并北迁；旧五代史称少帝，新五代史称出帝。",
+      "reign": "942—947 年",
+      "reignStart": 942,
+      "reignEnd": 947,
+      "readingStarts": {
+        "old": "old-v081",
+        "new": "new-v09",
+        "tongjian": "tongjian-v283"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·晋少帝本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷81"
+        },
+        {
+          "title": "新五代史·晋本纪第九",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷09"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "dynasty": "后汉",
+      "role": "后汉建立者",
+      "event": "han",
+      "aliases": "刘暠 漢高祖 汉高祖",
+      "intro": "刘知远是后汉的建立者。其经历与河东、中原以及五代政权更迭有关。",
+      "reign": "947—948 年",
+      "reignStart": 947,
+      "reignEnd": 948,
+      "readingStarts": {
+        "old": "old-v099",
+        "new": "new-v10",
+        "tongjian": "tongjian-v286"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·汉高祖本纪上",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷99"
+        },
+        {
+          "title": "新五代史·汉本纪第十",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷10"
+        }
+      ]
+    },
+    {
+      "id": "liu-chengyou",
+      "name": "刘承祐",
+      "dynasty": "后汉",
+      "role": "后汉隐帝",
+      "event": "han",
+      "aliases": "劉承祐 汉隐帝 周王",
+      "intro": "刘承祐是后汉高祖之子，继位后沿用乾祐年号。乾祐三年十一月，他在郭威进军京城的变乱中身亡；这一史事折合西历在951年初。",
+      "reign": "948—951 年",
+      "reignStart": 948,
+      "reignEnd": 951,
+      "readingStarts": {
+        "old": "old-v101",
+        "new": "new-v10",
+        "tongjian": "tongjian-v287"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·汉隐帝本纪上",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷101"
+        },
+        {
+          "title": "旧五代史·汉隐帝本纪下",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷103"
+        },
+        {
+          "title": "新五代史·汉本纪第十·隐帝",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷10"
+        }
+      ]
+    },
+    {
+      "id": "guo-wei",
+      "name": "郭威",
+      "dynasty": "后周",
+      "role": "后周建立者",
+      "event": "zhou",
+      "aliases": "周太祖",
+      "intro": "郭威是后周的建立者。其相关事件为理解后汉到后周的转变提供了入口。",
+      "reign": "951—954 年",
+      "reignStart": 951,
+      "reignEnd": 954,
+      "readingStarts": {
+        "old": "old-v110",
+        "new": "new-v11",
+        "tongjian": "tongjian-v290"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·周太祖本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷110"
+        },
+        {
+          "title": "新五代史·周本纪第十一",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷11"
+        }
+      ]
+    },
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "dynasty": "后周",
+      "role": "后周世宗",
+      "event": "zhou",
+      "aliases": "柴榮 郭荣 郭榮 周世宗 晋王",
+      "intro": "柴荣本姓柴，是郭威的养子。郭威死后继位，沿用显德年号；在位期间整顿军政，并先后用兵北汉、后蜀、南唐和契丹。",
+      "reign": "954—959 年",
+      "reignStart": 954,
+      "reignEnd": 959,
+      "readingStarts": {
+        "old": "old-v114",
+        "new": "new-v12",
+        "tongjian": "tongjian-v291"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·周世宗本纪一",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷114"
+        },
+        {
+          "title": "新五代史·周本纪第十二·世宗",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷12"
+        }
+      ]
+    },
+    {
+      "id": "chai-zongxun",
+      "name": "柴宗训",
+      "dynasty": "后周",
+      "role": "后周恭帝",
+      "event": "zhou",
+      "aliases": "柴宗訓 郭宗训 郭宗訓 周恭帝 梁王 郑王",
+      "intro": "柴宗训是后周世宗之子，幼年继位。显德七年，陈桥兵变后退位，降封郑王，后周结束。其登位和逊位分别见于新旧五代史的恭帝记事。",
+      "reign": "959—960 年",
+      "reignStart": 959,
+      "reignEnd": 960,
+      "readingStarts": {
+        "old": "old-v120",
+        "new": "new-v12",
+        "tongjian": "tongjian-v294"
+      },
+      "sources": [
+        {
+          "title": "旧五代史·周恭帝本纪",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷120"
+        },
+        {
+          "title": "新五代史·周本纪第十二·恭帝",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷12"
+        }
+      ]
+    }
+  ]
+}

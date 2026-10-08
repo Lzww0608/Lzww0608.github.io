@@ -2,6 +2,7 @@ import importlib.util
 import json
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('archive_sources', ROOT / 'scripts/archive-sources.py')
@@ -9,6 +10,36 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_reign_metadata_is_refreshed_without_rewriting_cached_sources(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        previous = next(chapter for chapter in catalog['chapters'] if chapter['id'] == 'new-v10').copy()
+        previous['subjects'] = ['liu-zhiyuan']
+        current_spec = next(item for item in archive.SPECS if item['id'] == 'new-v10')
+        files = [archive.ROOT / directory / 'new-v10.json' for directory in ['sources', 'chapters']]
+        before = [file.read_bytes() for file in files]
+        with patch.object(archive, 'request', side_effect=AssertionError('Cached sources must not be fetched again')):
+            result = archive.capture(current_spec, previous)
+        self.assertEqual(result['subjects'], ['liu-zhiyuan', 'liu-chengyou'])
+        self.assertEqual(result['provenance'], previous['provenance'])
+        self.assertEqual([file.read_bytes() for file in files], before)
+
+    def test_shared_annals_and_regnal_handoffs_include_the_correct_emperors(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        chapters = {chapter['id']: chapter for chapter in catalog['chapters']}
+        for chapter_id, expected in {
+            'new-v07': ['li-conghou', 'li-congke'],
+            'new-v12': ['chai-rong', 'chai-zongxun'],
+            'tongjian-v268': ['zhu-wen', 'zhu-yougui', 'zhu-youzhen'],
+            'tongjian-v274': ['li-cunxu'],
+            'tongjian-v275': ['li-cunxu', 'li-siyuan'],
+            'tongjian-v288': ['liu-chengyou'],
+            'tongjian-v292': ['chai-rong'],
+            'tongjian-v294': ['chai-rong', 'chai-zongxun'],
+        }.items():
+            self.assertEqual(chapters[chapter_id]['subjects'], expected, chapter_id)
+        self.assertEqual(archive.scanned_subjects(['太祖、高祖、世宗、少帝、隐帝'], 'huiyao'), [])
+        self.assertEqual(archive.scanned_subjects(['后汉高祖：劉知遠；周世宗：柴榮；漢隱帝：承祐'], 'huiyao'), ['liu-zhiyuan', 'liu-chengyou', 'chai-rong'])
+
     def test_headers_are_removed_but_historical_notes_and_year_headings_survive(self):
         html = '<div><table class="ws-header"><tr><td>下一卷</td></tr></table><pre>莊宗同光元年</pre><p>正文〈<b>校勘按語</b>〉<br><br>第二段</p><div class="licensetpl"><p>license</p></div></div>'
         self.assertEqual(archive.extract(html), ['莊宗同光元年', '正文〈校勘按語〉', '第二段'])

@@ -1,5 +1,6 @@
-import { libraryBooks, libraryChapters } from './library';
-import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
+import emperors from '../../content/five-dynasties/emperors.json' with { type: 'json' };
+import { libraryBooks, libraryChapters } from './library.ts';
+import type { Dynasty, EmperorCatalog, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
 // Temporary public scope; retain other entries below for a future release.
 export const displayedDynasties: readonly Dynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
@@ -13,12 +14,9 @@ const allEvents: [HistoryEvent, ...HistoryEvent[]] = [
   { id: 'song', year: 960, end: 960, dynasty: '宋', title: '宋朝建立', person: '赵匡胤', description: '赵匡胤建立宋朝，五代时期结束。', context: '960 年是五代与宋初的分界。十国的历史延续与统一过程，需要在后续专题中继续展开。', color: '#9b493d' },
 ];
 
-const allPeople: [HistoryPerson, ...HistoryPerson[]] = [
-  { id: 'zhu-wen', name: '朱温', dynasty: '后梁', role: '后梁建立者', event: 'liang', aliases: '朱全忠 朱晃 梁太祖', intro: '朱温是后梁的建立者。史料中也以朱全忠、朱晃等名字出现，阅读时应注意称谓的变化。' },
-  { id: 'li-cunxu', name: '李存勖', dynasty: '后唐', role: '后唐建立者', event: 'tang', aliases: '唐庄宗', intro: '李存勖是后唐的建立者。其活动与河东军事势力、梁唐交替和洛阳的政治地位相关。' },
-  { id: 'shi-jingtang', name: '石敬瑭', dynasty: '后晋', role: '后晋建立者', event: 'jin', aliases: '晋高祖', intro: '石敬瑭是后晋的建立者。其相关记述可从后唐与后晋两朝的史料中相互参照。' },
-  { id: 'liu-zhiyuan', name: '刘知远', dynasty: '后汉', role: '后汉建立者', event: 'han', aliases: '汉高祖', intro: '刘知远是后汉的建立者。其经历与河东、中原以及五代政权更迭有关。' },
-  { id: 'guo-wei', name: '郭威', dynasty: '后周', role: '后周建立者', event: 'zhou', aliases: '周太祖', intro: '郭威是后周的建立者。其相关事件为理解后汉到后周的转变提供了入口。' },
+const emperorCatalog = emperors as EmperorCatalog;
+const allPeople: HistoryPerson[] = [
+  ...emperorCatalog.people,
   { id: 'zhao-kuangyin', name: '赵匡胤', dynasty: '宋', role: '宋朝建立者', event: 'song', aliases: '宋太祖', intro: '赵匡胤是宋朝的建立者。当前收录其与五代结束相关的线索，宋代内容将逐步整理。' },
 ];
 
@@ -42,7 +40,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 
 export const searchItems: SearchItem[] = [
   ...events.map((item): SearchItem => ({ ...item, type: 'event', category: '事件', name: item.title, summary: `${item.year} 年 · ${item.description}`, keywords: `${item.dynasty} ${item.person} ${item.year}` })),
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${item.dynasty} · ${item.role}`, keywords: `${item.dynasty} ${item.aliases}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${item.dynasty} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases}` })),
   ...books.map((item): SearchItem => ({ ...item, type: 'book', category: '史料', name: item.title, summary: `${item.author} · ${item.description}`, keywords: `${item.kind} 五代 ${item.title} ${item.author} ${item.description}` })),
   ...libraryChapters.map((item): SearchItem => ({ ...item, type: 'chapter', category: '史料', name: `${books.find(book => book.id === item.bookId)?.title} · ${item.title}`, summary: `${item.years ?? '完整原文'} · ${item.paragraphCount} 段`, keywords: people.filter(person => item.subjects.includes(person.id)).map(person => `${person.name} ${person.dynasty} ${person.aliases}`).join(' ') })),
 ];
