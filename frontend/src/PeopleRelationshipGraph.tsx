@@ -3,9 +3,12 @@ import {
   personRelationships,
   relationshipKindLabels,
   relationshipNodes,
+  buildRelationshipNodes,
+  getRelationshipNeighborhood,
+  searchRelationshipNodes,
 } from './relationships.ts';
 import type { PersonRelationship, RelationshipKind, RelationshipNode } from './relationships.ts';
-import type { Dynasty, HistoryPerson } from './types.ts';
+import type { HistoryPerson } from './types.ts';
 import { useOriginalScript } from './use-original-script.ts';
 import './relationships.css';
 
@@ -23,78 +26,15 @@ interface PositionedNode {
   y: number;
 }
 
-interface GraphGroup {
-  id: Dynasty;
-  label: string;
-  x: number;
-  width: number;
-}
-
 interface GraphLayout {
   width: number;
   height: number;
   nodes: PositionedNode[];
-  groups: GraphGroup[];
 }
 
 const kinds: readonly RelationshipKind[] = ['kinship', 'adoption', 'service', 'conflict', 'succession'];
-const groupOrder: readonly Dynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
-const groupLabels: Record<string, string> = {
-  后梁: '后梁朱氏',
-  后唐: '河东与后唐',
-  后晋: '后晋石氏',
-  后汉: '后汉刘氏',
-  后周: '后周郭氏与柴氏',
-};
-const tangPositions: Record<string, readonly [number, number]> = {
-  'li-keyong': [1, 0],
-  'li-kerou': [3, 0],
-  'li-cunxu': [0, 1],
-  'li-siyuan': [1, 1],
-  'li-sizhao': [3, 1],
-  'li-conghou': [1, 2],
-  'li-congke': [2, 2],
-  'li-cunxin': [0, 3],
-  'li-cunjin': [1, 3],
-  'li-siben': [2, 3],
-  'li-sien': [3, 3],
-  'li-cunzhang': [0, 4],
-  'fu-cunshen': [1, 4],
-  'li-cunxian': [2, 4],
-  'li-cunxiao': [3, 4],
-  'kang-junli': [0, 5],
-  'shi-jingsi': [1, 5],
-};
 const nodeWidth = 116;
 const nodeHeight = 68;
-
-function nodeGroup(node: RelationshipNode, peopleById: ReadonlyMap<string, HistoryPerson>): Dynasty {
-  const person = peopleById.get(node.id);
-  if (person) return person.dynasty;
-  return groupOrder.includes(node.group as Dynasty) ? node.group as Dynasty : '后唐';
-}
-
-function overviewLayout(nodes: readonly RelationshipNode[], peopleById: ReadonlyMap<string, HistoryPerson>): GraphLayout {
-  const positions: PositionedNode[] = [];
-  const groups: GraphGroup[] = [];
-  let left = 24;
-  for (const dynasty of groupOrder) {
-    const members = nodes.filter(node => nodeGroup(node, peopleById) === dynasty);
-    if (!members.length) continue;
-    const width = dynasty === '后唐' ? 620 : 190;
-    groups.push({ id: dynasty, label: groupLabels[dynasty] ?? dynasty, x: left, width });
-    members.forEach((node, index) => {
-      if (dynasty === '后唐') {
-        const [column, row] = tangPositions[node.id] ?? [index % 4, Math.floor(index / 4) + 3];
-        positions.push({ node, x: left + 91 + column * 145, y: row < 3 ? 153 + row * 153 : 620 + (row - 3) * 135 });
-      } else {
-        positions.push({ node, x: left + width / 2, y: 153 + index * 153 });
-      }
-    });
-    left += width + 18;
-  }
-  return { width: Math.max(600, left + 6), height: 966, nodes: positions, groups };
-}
 
 function focusLayout(nodes: readonly RelationshipNode[], selectedId: string): GraphLayout {
   const selected = nodes.find(node => node.id === selectedId);
@@ -103,7 +43,6 @@ function focusLayout(nodes: readonly RelationshipNode[], selectedId: string): Gr
   return {
     width: 940,
     height,
-    groups: [],
     nodes: [
       ...(selected ? [{ node: selected, x: 195, y: height / 2 }] : []),
       ...neighbors.map((node, index) => ({ node, x: 750, y: 102 + index * 86 })),
@@ -111,21 +50,13 @@ function focusLayout(nodes: readonly RelationshipNode[], selectedId: string): Gr
   };
 }
 
-function curveForRelationship(from: PositionedNode, to: PositionedNode, lane: number, focused: boolean): string {
+function curveForRelationship(from: PositionedNode, to: PositionedNode, lane: number): string {
   const offset = lane * 7;
-  if (focused || Math.abs(to.x - from.x) > 70) {
-    const direction = to.x > from.x ? 1 : -1;
-    const startX = from.x + direction * nodeWidth / 2;
-    const endX = to.x - direction * nodeWidth / 2;
-    const bend = Math.max(40, Math.abs(endX - startX) * .52);
-    return `M ${startX} ${from.y + offset} C ${startX + direction * bend} ${from.y + offset}, ${endX - direction * bend} ${to.y + offset}, ${endX} ${to.y + offset}`;
-  }
-  const direction = to.y > from.y ? 1 : -1;
-  const startY = from.y + direction * nodeHeight / 2;
-  const endY = to.y - direction * nodeHeight / 2;
-  const bend = Math.abs(endY - startY) * .48;
-  const bow = Math.abs(to.y - from.y) > 230 ? 100 : 0;
-  return `M ${from.x + offset} ${startY} C ${from.x + offset + bow} ${startY + direction * bend}, ${to.x + offset + bow} ${endY - direction * bend}, ${to.x + offset} ${endY}`;
+  const direction = to.x > from.x ? 1 : -1;
+  const startX = from.x + direction * nodeWidth / 2;
+  const endX = to.x - direction * nodeWidth / 2;
+  const bend = Math.max(40, Math.abs(endX - startX) * .52);
+  return `M ${startX} ${from.y + offset} C ${startX + direction * bend} ${from.y + offset}, ${endX - direction * bend} ${to.y + offset}, ${endX} ${to.y + offset}`;
 }
 
 function activateWithKeyboard(event: React.KeyboardEvent<SVGElement>, action: () => void): void {
@@ -148,32 +79,23 @@ export function PeopleRelationshipGraph({
   const [selectedKinds, setSelectedKinds] = useState<readonly RelationshipKind[]>(kinds);
   const [activeRelationshipId, setActiveRelationshipId] = useState('');
   const [expandedEvidence, setExpandedEvidence] = useState<ReadonlySet<string>>(new Set());
-  const [showAllRelationships, setShowAllRelationships] = useState(false);
+  const [query, setQuery] = useState('');
   const originalScript = useOriginalScript();
   const peopleById = useMemo(() => new Map(people.map(person => [person.id, person])), [people]);
-  const nodes = useMemo(() => relationshipNodes.filter(node => peopleById.has(node.id) || (
-    node.external && personRelationships.some(relationship => (
-      relationship.from === node.id && peopleById.has(relationship.to)
-    ) || (relationship.to === node.id && peopleById.has(relationship.from)))
-  )), [peopleById]);
+  const nodes = useMemo(() => buildRelationshipNodes(people, relationshipNodes.filter(node => node.external)), [people]);
   const nodesById = useMemo(() => new Map(nodes.map(node => [node.id, node])), [nodes]);
   const requestedSelectedId = selectedPersonId ?? localSelectedPersonId;
   const focusedId = nodesById.has(requestedSelectedId) ? requestedSelectedId : '';
   const focusedNode = nodesById.get(focusedId);
-  const relationships = useMemo(() => personRelationships.filter(relationship => (
-    selectedKinds.includes(relationship.kind)
-    && nodesById.has(relationship.from)
-    && nodesById.has(relationship.to)
-    && (!focusedId || relationship.from === focusedId || relationship.to === focusedId)
-  )), [focusedId, nodesById, selectedKinds]);
-  const graphNodes = useMemo(() => {
-    if (!focusedId) return nodes;
-    const relatedIds = new Set([focusedId, ...relationships.flatMap(relationship => [relationship.from, relationship.to])]);
-    return nodes.filter(node => relatedIds.has(node.id));
-  }, [focusedId, nodes, relationships]);
-  const layout = useMemo(() => focusedId
-    ? focusLayout(graphNodes, focusedId)
-    : overviewLayout(graphNodes, peopleById), [focusedId, graphNodes, peopleById]);
+  const candidates = focusedId ? [] : searchRelationshipNodes(query, nodes, people);
+  const allRelationships = useMemo(() => getRelationshipNeighborhood(focusedId, nodes, personRelationships).relationships, [focusedId, nodes]);
+  const neighborhood = useMemo(() => getRelationshipNeighborhood(focusedId, nodes, personRelationships, selectedKinds), [focusedId, nodes, selectedKinds]);
+  const relationships = neighborhood.relationships;
+  const layout = useMemo(() => focusLayout(neighborhood.nodes, focusedId), [neighborhood.nodes, focusedId]);
+  useEffect(() => {
+    const selected = nodesById.get(selectedPersonId ?? '');
+    if (selected) setQuery(selected.name);
+  }, [selectedPersonId, nodesById]);
   useEffect(() => {
     const container = diagramRef.current;
     if (!container) return;
@@ -188,13 +110,21 @@ export function PeopleRelationshipGraph({
     existing.push(relationship);
     parallelRelationships.set(pair, existing);
   }
-  const displayedRelationships = focusedId || showAllRelationships ? relationships : relationships.slice(0, 8);
+  const displayedRelationships = relationships;
 
   function selectPerson(id: string): void {
     setLocalSelectedPersonId(id);
     onSelectPerson?.(id);
     setActiveRelationshipId('');
-    setShowAllRelationships(false);
+    setQuery(nodesById.get(id)?.name ?? '');
+    setExpandedEvidence(new Set());
+  }
+
+  function editQuery(value: string): void {
+    setQuery(value);
+    setLocalSelectedPersonId('');
+    onSelectPerson?.('');
+    setActiveRelationshipId('');
     setExpandedEvidence(new Set());
   }
 
@@ -205,7 +135,7 @@ export function PeopleRelationshipGraph({
 
   function activateRelationship(id: string): void {
     setActiveRelationshipId(id);
-    setShowAllRelationships(true);
+
     setExpandedEvidence(current => new Set([...current, id]));
     requestAnimationFrame(() => {
       document.getElementById(`${elementId}-relation-${id}`)?.scrollIntoView({ block: 'nearest' });
@@ -237,14 +167,12 @@ export function PeopleRelationshipGraph({
   return (
     <section className="people-relationships" aria-label="人物关系图">
       <div className="relationship-tools">
-        <label className="relationship-focus-picker" htmlFor={`${elementId}-focus`}>
-          <span>聚焦人物</span>
-          <select id={`${elementId}-focus`} value={focusedId} onChange={event => selectPerson(event.target.value)}>
-            <option value="">查看全图</option>
-            {nodes.map(node => <option key={node.id} value={node.id}>{node.name}{node.external ? '（关联人物）' : ''}</option>)}
-          </select>
-        </label>
-        <fieldset className="relationship-kind-filter">
+        <div className="relationship-person-search">
+          <label htmlFor={`${elementId}-search`}>搜索关系人物</label>
+          <div className="relationship-search-field"><input id={`${elementId}-search`} type="search" autoComplete="off" placeholder="输入姓名或别名，如李嗣源、安敬思" value={query} onChange={event => editQuery(event.target.value)} />{query && <button type="button" onClick={() => { selectPerson(''); document.getElementById(`${elementId}-search`)?.focus(); }}>清空</button>}</div>
+          {!focusedId && query.trim() && <div className="relationship-search-results" role="group" aria-label="搜索匹配人物"><p aria-live="polite">{candidates.length ? `找到 ${candidates.length} 位人物，请选择一位` : '没有匹配的人物，可以更换姓名或别名'}</p>{candidates.map(node => <button className="relationship-search-result" type="button" key={node.id} onClick={() => selectPerson(node.id)}><strong>{node.name}</strong><small>{node.external ? '关联人物' : peopleById.get(node.id)?.role}</small></button>)}</div>}
+        </div>
+        {focusedNode && <fieldset className="relationship-kind-filter">
           <legend>显示关系</legend>
           <div>
             {kinds.map(kind => <button key={kind} type="button" className={`relationship-kind-choice kind-${kind}`} aria-pressed={selectedKinds.includes(kind)} onClick={() => toggleKind(kind)}>
@@ -253,22 +181,22 @@ export function PeopleRelationshipGraph({
               <span className="relationship-check" aria-hidden="true">{selectedKinds.includes(kind) ? '✓' : '＋'}</span>
             </button>)}
           </div>
-        </fieldset>
+        </fieldset>}
       </div>
 
+      {focusedNode ? <>
       <div className="relationship-context">
         <div>
-          {focusedNode ? <><h2>{focusedNode.name}的相邻关系</h2><p>{relationships.length} 条联系。姓名可打开人物详情，关系线可查看原文依据。</p></> : <><h2>五代人物之间</h2><p>{people.length} 位已收录人物，{nodes.filter(node => node.external).length} 位关联人物。姓名可打开人物详情，关系线可查看原文依据。</p></>}
+          <h2>{focusedNode.name}的人物关系</h2><p>{relationships.length} 条直接联系。姓名可打开人物详情，关系线可查看原文依据。</p>
           {focusedNode?.external && <p className="relationship-external-note">{focusedNode.note ?? '此人为说明关系而列入，当前没有独立人物传记入口。'}</p>}
         </div>
-        {focusedId && <button type="button" className="relationship-reset" onClick={() => selectPerson('')}>返回全图</button>}
+        {focusedId && <button type="button" className="relationship-reset" onClick={() => selectPerson('')}>重新搜索</button>}
       </div>
 
       <figure className="relationship-figure">
         <div ref={diagramRef} className="relationship-diagram-scroll" tabIndex={0} role="region" aria-label="人物关系图，可滚动查看" aria-describedby={`${elementId}-diagram-help`}>
-          <svg className={`relationship-diagram${focusedId ? ' is-focused' : ''}`} width={layout.width} height={layout.height} viewBox={`0 0 ${layout.width} ${layout.height}`} role="group" aria-label={focusedNode ? `${focusedNode.name}及其相邻人物的关系` : '五代人物关系，按史系分组'}>
+          <svg className="relationship-diagram is-focused" width={layout.width} height={layout.height} viewBox={`0 0 ${layout.width} ${layout.height}`} role="group" aria-label={`${focusedNode.name}及其直接相关人物的关系`}>
             <defs>{kinds.map(kind => <marker key={kind} id={`${elementId}-arrow-${kind}`} viewBox="0 0 9 8" markerWidth="7" markerHeight="7" refX="8" refY="4" orient="auto" markerUnits="strokeWidth"><path className={`relationship-arrow kind-${kind}`} d="M 0 0 L 8 4 L 0 8 Z" /></marker>)}</defs>
-            {layout.groups.map(group => <g key={group.id} className="relationship-group" aria-hidden="true"><rect x={group.x} y="28" width={group.width} height={layout.height - 48} rx="3" /><text x={group.x + 16} y="66">{group.label}</text><path d={`M ${group.x + 16} 85 H ${group.x + group.width - 16}`} /></g>)}
             {focusedNode && <g className="relationship-focus-label" aria-hidden="true"><text x="195" y="42" textAnchor="middle">聚焦人物</text><text x="750" y="42" textAnchor="middle">直接相关人物</text></g>}
             {relationships.map(relationship => {
               const from = positionedNodes.get(relationship.from);
@@ -277,19 +205,16 @@ export function PeopleRelationshipGraph({
               const pair = [relationship.from, relationship.to].sort().join('/');
               const siblings = parallelRelationships.get(pair) ?? [];
               const lane = siblings.findIndex(item => item.id === relationship.id) - (siblings.length - 1) / 2;
-              const d = curveForRelationship(from, to, lane, Boolean(focusedId));
+              const d = curveForRelationship(from, to, lane);
               const neighbor = relationship.from === focusedId ? to : from;
-              const labelX = focusedId ? 586 : (from.x + to.x) / 2;
-              const labelY = focusedId ? neighbor.y + lane * 28 : (from.y + to.y) / 2 + lane * 28;
-              const showOverviewLabel = (Math.abs(from.x - to.x) < 1 && Math.abs(from.y - to.y) <= 230)
-                || (Math.abs(from.y - to.y) < 1 && Math.abs(from.x - to.x) - nodeWidth > relationship.label.length * 13 + 22);
-              const showLabel = Boolean(focusedId) || showOverviewLabel || activeRelationshipId === relationship.id;
+              const labelX = 586;
+              const labelY = neighbor.y + lane * 28;
               return <g key={relationship.id} className={`relationship-edge kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`} role="button" tabIndex={0} aria-label={`${from.node.name}与${to.node.name}：${relationship.label}，查看原文依据`} onClick={() => activateRelationship(relationship.id)} onKeyDown={event => activateWithKeyboard(event, () => activateRelationship(relationship.id))}>
                 <title>{from.node.name} → {to.node.name}：{relationship.label}</title>
                 <rect x={(from.x + to.x) / 2 - 6} y={(from.y + to.y) / 2 + lane * 7 - 6} width="12" height="12" fill="transparent" pointerEvents="none" aria-hidden="true" />
                 <path className="relationship-edge-line" d={d} markerEnd={relationship.kind === 'conflict' || relationship.label === '兄弟' ? undefined : `url(#${elementId}-arrow-${relationship.kind})`} aria-hidden="true" />
                 <path className="relationship-edge-target" d={d} aria-hidden="true" />
-                {showLabel && <g className="relationship-edge-label" aria-hidden="true"><rect x={labelX - Math.max(30, relationship.label.length * 6.5 + 8)} y={labelY - 11} width={Math.max(60, relationship.label.length * 13 + 16)} height="23" rx="2" /><text x={labelX} y={labelY + 5} textAnchor="middle">{relationship.label}</text></g>}
+                {<g className="relationship-edge-label" aria-hidden="true"><rect x={labelX - Math.max(30, relationship.label.length * 6.5 + 8)} y={labelY - 11} width={Math.max(60, relationship.label.length * 13 + 16)} height="23" rx="2" /><text x={labelX} y={labelY + 5} textAnchor="middle">{relationship.label}</text></g>}
               </g>;
             })}
             {layout.nodes.map(({ node, x, y }) => <g key={node.id} className={`relationship-node${node.external ? ' is-external' : ''}${node.id === focusedId ? ' is-selected' : ''}`} transform={`translate(${x},${y})`} role="button" tabIndex={0} aria-label={`${node.name}${node.external ? '，关联人物，查看相邻关系' : '，打开人物详情'}`} onClick={() => openNode(node)} onKeyDown={event => activateWithKeyboard(event, () => openNode(node))}>
@@ -300,7 +225,7 @@ export function PeopleRelationshipGraph({
             </g>)}
           </svg>
         </div>
-        <figcaption id={`${elementId}-diagram-help`}>可滚动查看全图；选择人物聚焦相邻关系。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突使用无箭头连线。虚线框为关联人物，当前没有独立传记。分组只表示史系，位置不表示排行。</figcaption>
+        <figcaption id={`${elementId}-diagram-help`}>只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突使用无箭头连线。虚线框为关联人物，当前没有独立传记。位置不表示排行。</figcaption>
       </figure>
 
       <section className="relationship-evidence" aria-labelledby={`${elementId}-evidence-title`}>
@@ -316,9 +241,10 @@ export function PeopleRelationshipGraph({
               {relationship.sources.map((source, sourceIndex) => <div className="relationship-source" key={`${source.chapterId}-${source.paragraphId}-${sourceIndex}`}><p className="relationship-source-title">{source.title}</p><blockquote lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending}>{originalScript.displayScript === 'simplified' && originalScript.converter ? originalScript.converter(source.excerpt) : source.excerpt}</blockquote>{onReadSource && <button type="button" onClick={() => onReadSource(source.chapterId, source.paragraphId)}>阅读此处原文与白话译文</button>}</div>)}
             </div>
           </li>)}
-        </ul> : <p className="relationship-empty">{selectedKinds.length ? '当前人物在所选类别中暂无已核对的关系。可查看全图或选择其他类别。' : '选择上方的关系类别，即可查看联系与原文依据。'}</p>}
-        {!focusedId && relationships.length > 8 && <button type="button" className="relationship-more" aria-expanded={showAllRelationships} onClick={() => setShowAllRelationships(current => !current)}>{showAllRelationships ? '收起关系列表' : `展开全部 ${relationships.length} 条关系`}</button>}
+        </ul> : <p className="relationship-empty">{!allRelationships.length ? '此人物暂无已核验关系。新收录的关系会自动更新到这里。' : selectedKinds.length ? '所选类别没有关系，可选择其他类别。' : '选择上方的关系类别，即可查看联系与原文依据。'}</p>}
+
       </section>
+      </> : <div className="relationship-search-empty"><h2>搜索一个人物，查看关系</h2><p>输入姓名或别名，再从匹配结果中选择人物。这里会显示他与其他人物的直接联系及原文依据。</p></div>}
     </section>
   );
 }

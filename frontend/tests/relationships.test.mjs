@@ -5,14 +5,14 @@ import { catalogPeople } from '../src/person-catalog.ts';
 import {
   relationshipNodes, personRelationships, relationshipKindLabels,
   relationshipsForPerson, relationshipNeighborhood,
+  buildRelationshipNodes, getRelationshipNeighborhood, searchRelationshipNodes,
 } from '../src/relationships.ts';
 
 const nodeIds = new Set(relationshipNodes.map(node => node.id));
 const originals = new Map(loadLibrary().chapters.map(chapter => [chapter.id, chapter]));
 
-test('the graph preserves all 25 canonical people and identifies its two contextual nodes', () => {
+test('the graph derives all canonical people and preserves contextual metadata', () => {
   assert.equal(nodeIds.size, relationshipNodes.length);
-  assert.equal(catalogPeople.length, 25);
   assert.deepEqual(
     relationshipNodes.filter(node => !node.external).map(node => node.id),
     catalogPeople.map(person => person.id),
@@ -21,16 +21,13 @@ test('the graph preserves all 25 canonical people and identifies its two context
     const node = relationshipNodes.find(item => item.id === person.id);
     assert.equal(node.name, person.name);
     assert.equal(node.group, person.dynasty);
-    assert.ok(relationshipsForPerson(person.id).length > 0, person.id);
   }
   const contextual = relationshipNodes.filter(node => node.external);
-  assert.deepEqual(contextual.map(node => node.id), ['li-keyong', 'li-kerou']);
-  assert.ok(contextual.every(node => node.note && node.group === '河东 / 晋国'));
+  assert.ok(contextual.every(node => node.note && node.group));
   assert.ok(contextual.every(node => !catalogPeople.some(person => person.id === node.id)));
 });
 
 test('every relationship cites a real archived paragraph with an unchanged, exact quotation', () => {
-  assert.ok(personRelationships.length >= 20 && personRelationships.length <= 40);
   assert.equal(new Set(personRelationships.map(edge => edge.id)).size, personRelationships.length);
   for (const edge of personRelationships) {
     assert.ok(nodeIds.has(edge.from) && nodeIds.has(edge.to), edge.id);
@@ -71,7 +68,6 @@ test('biological, adopted and military relationships retain the distinctions in 
 
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
-  assert.equal(successions.length, 9);
   for (const edge of successions) assert.equal(edge.label, '皇位交接');
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
@@ -95,4 +91,106 @@ test('person neighborhoods contain only the selected person and directly documen
   assert.deepEqual(relationshipsForPerson(selected, []), []);
   assert.deepEqual(relationshipsForPerson('missing-person'), []);
   assert.deepEqual(relationshipNeighborhood('missing-person'), { nodes: [], relationships: [] });
+});
+
+test('new catalog people automatically become graph nodes without duplicate person or context IDs', () => {
+  const people = Object.freeze([
+    Object.freeze({ id: 'fixture-a', name: '测试人物甲', dynasty: '后梁' }),
+    Object.freeze({ id: 'fixture-b', name: '测试人物乙', dynasty: '后唐' }),
+    Object.freeze({ id: 'fixture-a', name: '重复的甲', dynasty: '后周' }),
+  ]);
+  const contextNodes = Object.freeze([
+    Object.freeze({ id: 'fixture-a', name: '旧关联甲', external: true }),
+    Object.freeze({ id: 'fixture-context', name: '测试关联人物', external: true }),
+    Object.freeze({ id: 'fixture-context', name: '重复关联人物', external: true }),
+  ]);
+  assert.deepEqual(buildRelationshipNodes(people, contextNodes), [
+    { id: 'fixture-a', name: '测试人物甲', group: '后梁' },
+    { id: 'fixture-b', name: '测试人物乙', group: '后唐' },
+    { id: 'fixture-context', name: '测试关联人物', external: true },
+  ]);
+  const added = { ...catalogPeople[0], id: 'fixture-new-person', name: '新增测试人物' };
+  const nodes = buildRelationshipNodes([...catalogPeople, added]);
+  assert.deepEqual(nodes.find(node => node.id === added.id), {
+    id: 'fixture-new-person', name: '新增测试人物', group: added.dynasty,
+  });
+  assert.equal(catalogPeople.some(person => person.id === added.id), false);
+});
+
+const fixtureNodes = [
+  { id: 'fixture-a', name: '测试人物甲' },
+  { id: 'fixture-b', name: '测试人物乙' },
+  { id: 'fixture-c', name: '测试人物丙' },
+  { id: 'fixture-d', name: '测试人物丁' },
+  { id: 'fixture-isolated', name: '暂无关系人物' },
+];
+
+function fixtureEdge(id, from, to, kind = 'service') {
+  return { id, from, to, kind, label: '测试关系', sources: [] };
+}
+
+test('one newly added relationship immediately appears in both endpoint graphs and leaves unrelated graphs unchanged', () => {
+  const previous = [fixtureEdge('fixture-c-d', 'fixture-c', 'fixture-d')];
+  const newEdge = fixtureEdge('fixture-b-a', 'fixture-b', 'fixture-a');
+  const updated = [...previous, newEdge];
+  assert.deepEqual(getRelationshipNeighborhood('fixture-a', fixtureNodes, previous), {
+    nodes: [fixtureNodes[0]], relationships: [],
+  });
+  for (const id of ['fixture-a', 'fixture-b']) {
+    const neighborhood = getRelationshipNeighborhood(id, fixtureNodes, updated);
+    assert.deepEqual(neighborhood.nodes.map(node => node.id), ['fixture-a', 'fixture-b']);
+    assert.deepEqual(neighborhood.relationships.map(edge => edge.id), ['fixture-b-a']);
+  }
+  assert.deepEqual(getRelationshipNeighborhood('fixture-c', fixtureNodes, updated), {
+    nodes: [fixtureNodes[2], fixtureNodes[3]], relationships: [previous[0]],
+  });
+  assert.deepEqual(getRelationshipNeighborhood('fixture-isolated', fixtureNodes, updated), {
+    nodes: [fixtureNodes[4]], relationships: [],
+  });
+});
+
+test('neighborhoods reject missing or self endpoints, deduplicate IDs and preserve distinct relationship kinds', () => {
+  const service = fixtureEdge('fixture-service', 'fixture-b', 'fixture-a');
+  const adoption = fixtureEdge('fixture-adoption', 'fixture-a', 'fixture-b', 'adoption');
+  const conflict = fixtureEdge('fixture-conflict', 'fixture-a', 'fixture-c', 'conflict');
+  const edges = [
+    service, adoption, conflict,
+    fixtureEdge('fixture-indirect', 'fixture-b', 'fixture-d'),
+    fixtureEdge('fixture-self', 'fixture-a', 'fixture-a'),
+    fixtureEdge('fixture-missing', 'missing-person', 'fixture-a'),
+    service,
+  ];
+  const neighborhood = getRelationshipNeighborhood('fixture-a', [...fixtureNodes, fixtureNodes[0]], edges);
+  assert.deepEqual(neighborhood.nodes.map(node => node.id), ['fixture-a', 'fixture-b', 'fixture-c']);
+  assert.deepEqual(neighborhood.relationships.map(edge => edge.id), [
+    'fixture-service', 'fixture-adoption', 'fixture-conflict',
+  ]);
+  assert.deepEqual(getRelationshipNeighborhood('fixture-a', fixtureNodes, edges, ['adoption']), {
+    nodes: [fixtureNodes[0], fixtureNodes[1]], relationships: [adoption],
+  });
+  assert.deepEqual(getRelationshipNeighborhood('fixture-a', fixtureNodes, edges, []), {
+    nodes: [fixtureNodes[0]], relationships: [],
+  });
+  for (const id of ['', '   ', 'missing-person']) {
+    assert.deepEqual(getRelationshipNeighborhood(id, fixtureNodes, edges), { nodes: [], relationships: [] });
+  }
+});
+
+test('graph search requires input, matches names and aliases, and offers contextual people without automatically selecting one', () => {
+  for (const query of ['', '   ', '\n\t']) assert.deepEqual(searchRelationshipNodes(query), []);
+  assert.deepEqual(searchRelationshipNodes(' 朱全忠 ').map(node => node.id), ['zhu-wen']);
+  assert.deepEqual(searchRelationshipNodes('李克用').map(node => node.id), ['li-keyong']);
+  assert.deepEqual(searchRelationshipNodes('克柔').map(node => node.id), ['li-kerou']);
+  assert.equal(searchRelationshipNodes('李').length > 1, true);
+  assert.deepEqual(searchRelationshipNodes('不存在的人物'), []);
+  assert.deepEqual(searchRelationshipNodes('后唐'), []);
+  const people = [
+    { id: 'fixture-a', aliases: '曾用名甲' },
+    { id: 'fixture-b', aliases: '曾用名乙' },
+  ];
+  assert.deepEqual(searchRelationshipNodes('曾用名乙', fixtureNodes, people).map(node => node.id), ['fixture-b']);
+  assert.deepEqual(searchRelationshipNodes('曾用名', fixtureNodes, people).map(node => node.id), ['fixture-a', 'fixture-b']);
+  assert.deepEqual(searchRelationshipNodes('测试人物', fixtureNodes, people).map(node => node.id), [
+    'fixture-a', 'fixture-b', 'fixture-c', 'fixture-d',
+  ]);
 });

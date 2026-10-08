@@ -1,4 +1,5 @@
 import { catalogPeople } from './person-catalog.ts';
+import type { HistoryPerson } from './types.ts';
 
 export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' | 'succession';
 
@@ -35,17 +36,32 @@ export const relationshipKindLabels: Readonly<Record<RelationshipKind, string>> 
   succession: '皇位交接',
 };
 
-export const relationshipNodes: readonly RelationshipNode[] = [
-  ...catalogPeople.map(person => ({ id: person.id, name: person.name, group: person.dynasty })),
+export function buildRelationshipNodes(
+  people: readonly Pick<HistoryPerson, 'id' | 'name' | 'dynasty'>[],
+  contextNodes: readonly RelationshipNode[] = [],
+): RelationshipNode[] {
+  const byId = new Map<string, RelationshipNode>();
+  for (const person of people) {
+    if (!person.id.trim() || byId.has(person.id)) continue;
+    byId.set(person.id, { id: person.id, name: person.name, group: person.dynasty });
+  }
+  for (const node of contextNodes) {
+    if (!node.id.trim() || byId.has(node.id)) continue;
+    byId.set(node.id, node);
+  }
+  return [...byId.values()];
+}
+
+export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipNodes(catalogPeople, [
   {
     id: 'li-keyong', name: '李克用', external: true, group: '河东 / 晋国',
-    note: '晋王李克用；新旧《五代史》中又称唐太祖、武皇。此处仅为理解已有25位人物关系的关联节点。',
+    note: '晋王李克用；新旧《五代史》中又称唐太祖、武皇。此处仅为理解本站人物关系的关联节点。',
   },
   {
     id: 'li-kerou', name: '李克柔', external: true, group: '河东 / 晋国',
     note: '李克用之弟、李嗣昭的养育者。此处为史料中明确记载的关联节点，未新增人物传记。',
   },
-];
+]);
 
 function source(chapterId: string, paragraph: number, title: string, excerpt: string): RelationshipSource {
   return { chapterId, paragraphId: `${chapterId}-p${paragraph}`, title, excerpt };
@@ -258,20 +274,61 @@ export const personRelationships: readonly PersonRelationship[] = [
 ];
 
 export function relationshipsForPerson(personId: string, kinds?: readonly RelationshipKind[]): PersonRelationship[] {
-  return personRelationships.filter(edge =>
-    (edge.from === personId || edge.to === personId) && (!kinds || kinds.includes(edge.kind)));
+  return getRelationshipNeighborhood(personId, relationshipNodes, personRelationships, kinds).relationships;
+}
+
+export function getRelationshipNeighborhood(
+  personId: string,
+  nodes: readonly RelationshipNode[],
+  edges: readonly PersonRelationship[],
+  kinds?: readonly RelationshipKind[],
+): {
+  nodes: RelationshipNode[];
+  relationships: PersonRelationship[];
+} {
+  const byId = new Map<string, RelationshipNode>();
+  for (const node of nodes) {
+    if (!node.id.trim() || byId.has(node.id)) continue;
+    byId.set(node.id, node);
+  }
+  if (!personId.trim() || !byId.has(personId)) return { nodes: [], relationships: [] };
+  const seenEdges = new Set<string>();
+  const relationships = edges.filter(edge => {
+    if (edge.from === edge.to || !byId.has(edge.from) || !byId.has(edge.to)) return false;
+    if (edge.from !== personId && edge.to !== personId) return false;
+    if (!Object.hasOwn(relationshipKindLabels, edge.kind) || (kinds && !kinds.includes(edge.kind))) return false;
+    if (!edge.id.trim() || seenEdges.has(edge.id)) return false;
+    seenEdges.add(edge.id);
+    return true;
+  });
+  const ids = new Set([personId]);
+  for (const edge of relationships) {
+    ids.add(edge.from);
+    ids.add(edge.to);
+  }
+  return { nodes: [...byId.values()].filter(node => ids.has(node.id)), relationships };
 }
 
 export function relationshipNeighborhood(personId: string, kinds?: readonly RelationshipKind[]): {
   nodes: RelationshipNode[];
   relationships: PersonRelationship[];
 } {
-  if (!relationshipNodes.some(node => node.id === personId)) return { nodes: [], relationships: [] };
-  const relationships = relationshipsForPerson(personId, kinds);
-  const ids = new Set([personId]);
-  for (const edge of relationships) {
-    ids.add(edge.from);
-    ids.add(edge.to);
-  }
-  return { nodes: relationshipNodes.filter(node => ids.has(node.id)), relationships };
+  return getRelationshipNeighborhood(personId, relationshipNodes, personRelationships, kinds);
+}
+
+export function searchRelationshipNodes(
+  query: string,
+  nodes: readonly RelationshipNode[] = relationshipNodes,
+  people: readonly Pick<HistoryPerson, 'id' | 'aliases'>[] = catalogPeople,
+): RelationshipNode[] {
+  const normalizedQuery = query.trim().toLocaleLowerCase();
+  if (!normalizedQuery) return [];
+  const aliasesById = new Map(people.map(person => [person.id, person.aliases]));
+  const seenIds = new Set<string>();
+  return nodes.filter(node => {
+    if (!node.id.trim() || seenIds.has(node.id)) return false;
+    seenIds.add(node.id);
+    return [node.name, aliasesById.get(node.id) ?? '']
+      .some(text => text.toLocaleLowerCase().includes(normalizedQuery));
+  });
 }

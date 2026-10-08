@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史人物关系"
+  short_description: "维护史载人物关系与原文依据，搜索选人后自动派生双方的个人关系图"
+  default_prompt: "使用 $historical-person-relationships 添加有原文依据的人物关系，并保证双方个人关系图自动更新。"
