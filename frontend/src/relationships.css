@@ -12,6 +12,8 @@
 .relationship-person-search > label { display:block; font-size:13px; color:var(--soft-ink); margin-bottom:9px; }
 .relationship-search-field { display:flex; align-items:center; gap:12px; border:1px solid var(--border-strong); background:var(--surface); padding:0 13px; }
 .relationship-search-field input { min-width:0; flex:1; width:100%; min-height:48px; border:0; background:none; color:var(--ink); font-size:17px; }
+.relationship-search-field input:focus { outline:none; }
+.relationship-search-field:has(input:focus-visible) { border-color:var(--accent); }
 .relationship-search-field > button { flex-shrink:0; min-height:40px; padding:5px 3px; color:var(--accent); font-size:13px; }
 .relationship-search-results { margin-top:12px; max-height:320px; overflow:auto; border:1px solid var(--line); background:var(--surface); }
 .relationship-search-results > p { padding:9px 13px; color:var(--muted); font-size:12px; }
