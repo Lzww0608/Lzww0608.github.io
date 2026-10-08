@@ -72,7 +72,7 @@ async function passage(value: unknown, requestedBook?: BookId): Promise<PersonPa
   for (let index=0;index<value.spans.length;index++) {
     const location=span(value.spans[index],value.chapterId);
     const paragraph=parseChapterParagraph(value.paragraphs[index]);
-    // Published translations are bound to whole paragraphs. Partial source/translation alignment is not available yet.
+    // Passage readers retain complete paragraphs; sentence tooltips use a separate version-bound display index.
     if (paragraph.id !== location.paragraphId || paragraph.revision !== location.originalRevision || ids.has(paragraph.id)
       || location.start !== 0 || location.end !== Array.from(paragraph.original).length
       || location.originalSha256 !== await originalHash(paragraph.original)) fail();

@@ -9,14 +9,19 @@ import { writeFileSync } from 'node:fs';
 const library = loadLibrary();
 const { catalog } = library;
 const chapters = loadPublishedChapters(library);
+execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-sentence-alignments.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-person-passages.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 const passages = loadPersonPassageIndex(library);
 execFileSync('python3', [fileURLToPath(new URL('../../scripts/index-reading-headings.py', import.meta.url))], { stdio: 'inherit' });
 const target = new URL('../public/history/', import.meta.url);
 rmSync(target, { recursive: true, force: true });
 mkdirSync(new URL('chapters/', target), { recursive: true });
+mkdirSync(new URL('sentence-alignments/', target), { recursive: true });
 copyFileSync(new URL('catalog.json', libraryRoot), new URL('catalog.json', target));
-for (const chapter of chapters) writeFileSync(new URL(`chapters/${chapter.id}.json`, target), JSON.stringify(chapter, null, 2)+'\n');
+for (const chapter of chapters) {
+  writeFileSync(new URL(`chapters/${chapter.id}.json`, target), JSON.stringify(chapter, null, 2)+'\n');
+  copyFileSync(new URL(`../../content/sentence-alignments/chapters/${chapter.id}.json`, import.meta.url), new URL(`sentence-alignments/${chapter.id}.json`, target));
+}
 writeFileSync(new URL('person-passages.json', target), JSON.stringify(passages)+'\n');
 writeFileSync(new URL('../src/person-passage-summary.json', import.meta.url), JSON.stringify(buildPersonPassageSummary(passages,library),null,2)+'\n');
 console.log(`Prepared ${catalog.chapters.length} full chapters for local website reading.`);

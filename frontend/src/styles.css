@@ -26,6 +26,7 @@
 .translation-edit-button, .translation-toggle-button { display:inline-flex; align-items:center; justify-content:center; gap:4px; padding:4px 8px; border:1px solid var(--line); font-size:12px; min-height:32px; white-space:nowrap; }
 .translation-edit-button:hover, .translation-toggle-button:hover { color:var(--accent); background:var(--tint); }
 .translation-credit { display:block; margin-top:12px; }
+.sentence-reading-hint { font-family:var(--sans); font-size:13px; color:var(--muted); line-height:1.75; margin:12px 0 18px; }
 .translation-notice { color:var(--soft-ink); font-size:14px; line-height:1.8; border-top:1px solid var(--line); padding-top:14px; margin-bottom:24px; }
 .translation-review-notes { margin-top:14px; padding-top:10px; border-top:1px solid var(--line); font-family:var(--sans); font-size:13px; }
 .translation-review-notes summary { cursor:pointer; color:var(--accent); }

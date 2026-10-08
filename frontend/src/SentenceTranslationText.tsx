@@ -1,0 +1,176 @@
+import { Fragment, useCallback, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { X } from '@phosphor-icons/react';
+import type { ChapterParagraph } from './types';
+import { useSentenceTranslations } from './use-sentence-translations';
+import './sentence-translation.css';
+
+type SentencePart = ReturnType<typeof useSentenceTranslations>['parts'][number];
+type AvailablePart = SentencePart & { translation: string; kind: 'sentence' | 'group' | 'paragraph' };
+interface OpenTranslation {
+  partId: string;
+  sourceKey: symbol;
+  x: number;
+  y: number;
+  keyboard: boolean;
+}
+
+// Paragraphs share one reading popup, including across the two reading views.
+let closeActivePopup: (() => void) | null = null;
+
+function translationLabel(kind: AvailablePart['kind']): string {
+  if (kind === 'sentence') return '对应句译文';
+  if (kind === 'group') return '对应句组译文';
+  return '本段译文';
+}
+
+function availablePart(part: SentencePart | undefined): part is AvailablePart {
+  return !!part && part.kind !== 'unavailable' && typeof part.translation === 'string' && !!part.translation.trim();
+}
+
+function boundedPosition(anchor: OpenTranslation, width: number, height: number): { left: number; top: number } {
+  const margin = 12;
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
+  const preferredLeft = anchor.x + margin;
+  const preferredTop = anchor.y + margin;
+  return {
+    left: Math.max(margin, Math.min(preferredLeft, viewportWidth - width - margin)),
+    top: Math.max(margin, Math.min(
+      preferredTop + height <= viewportHeight - margin ? preferredTop : anchor.y - height - margin,
+      viewportHeight - height - margin,
+    )),
+  };
+}
+
+export function SentenceTranslationText({ paragraph, displayedOriginal }: {
+  paragraph: ChapterParagraph;
+  displayedOriginal: string;
+}) {
+  const { parts, pending } = useSentenceTranslations(paragraph, displayedOriginal);
+  const popupId = useId();
+  const headingId = `${popupId}-heading`;
+  const popupRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const triggerRef = useRef<HTMLSpanElement | null>(null);
+  const pointerStart = useRef<{ x: number; y: number; dragged: boolean } | null>(null);
+  const [open, setOpen] = useState<OpenTranslation | null>(null);
+  const [position, setPosition] = useState({ left: 12, top: 12 });
+  // A changed source, script or published translation cannot keep an old popup.
+  const sourceKey = useMemo(() => Symbol('sentence-translation-source'), [
+    paragraph.id, paragraph.revision, paragraph.original, paragraph.translation?.id, paragraph.translation?.version,
+    paragraph.translation?.text, displayedOriginal, pending, parts,
+  ]);
+  const activePart = open?.sourceKey === sourceKey ? parts.find(part => part.id === open.partId) : undefined;
+  const visible = !!open && availablePart(activePart);
+  const close = useCallback(() => {
+    setOpen(null);
+    if (closeActivePopup === close) closeActivePopup = null;
+  }, []);
+
+  useEffect(() => {
+    close();
+    return () => {
+      if (closeActivePopup === close) closeActivePopup = null;
+    };
+  }, [sourceKey, close]);
+
+  const closeAndRestoreFocus = () => {
+    const shouldRestore = open?.keyboard && triggerRef.current?.isConnected;
+    close();
+    if (shouldRestore) triggerRef.current?.focus({ preventScroll: true });
+  };
+
+  useLayoutEffect(() => {
+    if (!visible || !open || !popupRef.current) return;
+    const bounds = popupRef.current.getBoundingClientRect();
+    setPosition(boundedPosition(open, bounds.width, bounds.height));
+    if (open.keyboard) closeButtonRef.current?.focus({ preventScroll: true });
+  }, [visible, open]);
+
+  useEffect(() => {
+    if (!visible) return;
+    const outsideClick = (event: PointerEvent) => {
+      if (!(event.target instanceof Node)) return;
+      if (popupRef.current?.contains(event.target) || triggerRef.current?.contains(event.target)) return;
+      close();
+    };
+    const escape = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      const trigger = triggerRef.current;
+      close();
+      if (open?.keyboard && trigger?.isConnected) trigger.focus({ preventScroll: true });
+    };
+    const scroll = (event: Event) => {
+      // Long translations scroll inside the popup without dismissing it.
+      if (event.target instanceof Node && popupRef.current?.contains(event.target)) return;
+      close();
+    };
+    document.addEventListener('pointerdown', outsideClick, true);
+    document.addEventListener('keydown', escape);
+    document.addEventListener('scroll', scroll, true);
+    window.addEventListener('resize', close);
+    window.addEventListener('hashchange', close);
+    return () => {
+      document.removeEventListener('pointerdown', outsideClick, true);
+      document.removeEventListener('keydown', escape);
+      document.removeEventListener('scroll', scroll, true);
+      window.removeEventListener('resize', close);
+      window.removeEventListener('hashchange', close);
+    };
+  }, [visible, close, open?.keyboard]);
+
+  const show = (part: AvailablePart, target: HTMLSpanElement, point?: { x: number; y: number }) => {
+    if (visible && activePart?.id === part.id) {
+      close();
+      return;
+    }
+    closeActivePopup?.();
+    closeActivePopup = close;
+    triggerRef.current = target;
+    const rects = Array.from(target.getClientRects());
+    const bounds = rects.find(rect => rect.bottom >= 0 && rect.top < window.innerHeight) ?? target.getBoundingClientRect();
+    const anchor = point ?? { x: bounds.left, y: bounds.bottom };
+    setPosition(boundedPosition({ ...anchor, partId: part.id, sourceKey, keyboard: !point }, 360, 180));
+    setOpen({ partId: part.id, sourceKey, ...anchor, keyboard: !point });
+  };
+
+  return <>
+    {parts.map(part => {
+      if (!availablePart(part)) return <Fragment key={part.id}>{part.original}</Fragment>;
+      const selected = visible && activePart?.groupId === part.groupId;
+      const label = translationLabel(part.kind);
+      return <span key={part.id} className="sentence-translation-trigger" role="button" tabIndex={0}
+        aria-label={`查看${label}：${part.original}`} aria-haspopup="dialog" aria-expanded={selected}
+        aria-controls={selected ? popupId : undefined} data-selected={selected || undefined}
+        title={`点击查看${label}`} onPointerDown={event => {
+          pointerStart.current = { x: event.clientX, y: event.clientY, dragged: false };
+        }} onPointerMove={event => {
+          const start = pointerStart.current;
+          if (start && Math.hypot(event.clientX - start.x, event.clientY - start.y) > 6) start.dragged = true;
+        }} onPointerCancel={() => { pointerStart.current = null; }} onClick={event => {
+          const drag = pointerStart.current;
+          pointerStart.current = null;
+          if (drag?.dragged || window.getSelection()?.isCollapsed === false) return;
+          show(part, event.currentTarget, event.detail ? { x: event.clientX, y: event.clientY } : undefined);
+        }} onKeyDown={event => {
+          if (event.key !== 'Enter' && event.key !== ' ') return;
+          event.preventDefault();
+          show(part, event.currentTarget);
+        }}>{part.original}</span>;
+    })}
+    {visible && availablePart(activePart) && typeof document !== 'undefined' && createPortal(
+      <div id={popupId} ref={popupRef} className="sentence-translation-popover" role="dialog"
+        aria-labelledby={headingId} lang={paragraph.translation?.language ?? 'zh-Hans'}
+        style={{ left: position.left, top: position.top }}>
+        <div className="sentence-translation-popover-heading">
+          <span id={headingId}>{translationLabel(activePart.kind)}</span>
+          <button ref={closeButtonRef} type="button" className="sentence-translation-close" aria-label="关闭译文"
+            onClick={closeAndRestoreFocus}><X size={18} aria-hidden="true" /></button>
+        </div>
+        <div className="sentence-translation-popover-body"><p>{activePart.translation}</p></div>
+      </div>, document.body,
+    )}
+  </>;
+}

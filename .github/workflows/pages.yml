@@ -9,6 +9,7 @@ on:
       - 'scripts/archive-sources.py'
       - 'scripts/index-reading-headings.py'
       - 'scripts/index-person-passages.mjs'
+      - 'scripts/index-sentence-alignments.mjs'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 

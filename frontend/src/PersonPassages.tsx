@@ -179,6 +179,7 @@ export function PersonPassages({ person, book, go, onReadSource }: {
         <h2 ref={resultsHeading} tabIndex={-1}>{book?.title ?? '全部文献'}</h2>
         {page && <p>{page.total} 则相关记载{page.items.length > 0 && `，本页第 ${rangeStart}—${rangeEnd} 则`}</p>}
       </div>
+      <p className="sentence-reading-hint">点击原文句子，在附近查看译文。</p>
       <div className="reader-status passages-status" role="status" aria-live="polite">
         {current.state === 'loading' && '正在汇总相关原文与译文…'}
         {current.state === 'archive-pending' && '已打开随站保存的记载，正在检查最新已发布译文…'}

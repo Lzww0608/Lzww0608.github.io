@@ -4,7 +4,7 @@ import type { PublishedTranslation } from './types';
 import { reviewNoteForDisplay } from './translation-display';
 
 export function TranslationBlock({ translation, onEdit }: { translation: PublishedTranslation; onEdit?: () => void }) {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
   const contentId = useId();
   const ToggleIcon = collapsed ? CaretDown : CaretUp;
   const showCredit = translation.origin !== 'ai' && !/\b(?:Codex|ChatGPT|OpenAI)\b/iu.test(translation.translator);
