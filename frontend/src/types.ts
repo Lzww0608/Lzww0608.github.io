@@ -6,7 +6,7 @@ export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
 export type PersonGroupId = 'all' | 'emperors' | 'thirteen-taibao';
-export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}` | `read-${BookId}/${string}`;
+export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}`;
 
 export interface HistoryEvent {
   id: EventId;
@@ -126,11 +126,7 @@ interface SearchDetails {
   keywords: string;
 }
 
-export type SearchItem =
-  | (HistoryEvent & SearchDetails & { type: 'event'; category: '事件' })
-  | (HistoryPerson & SearchDetails & { type: 'person'; category: '人物' })
-  | (Book & SearchDetails & { type: 'book'; category: '史料' })
-  | (ChapterSummary & SearchDetails & { type: 'chapter'; category: '史料' });
+export type SearchItem = HistoryPerson & SearchDetails & { type: 'person'; category: '人物' };
 
 export type SearchFilter = 'all' | SearchItem['type'];
 

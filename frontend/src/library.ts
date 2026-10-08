@@ -27,6 +27,5 @@ export function resolveReadingRoute(route: string): { book: Book; chapter: Chapt
 
 export function resolveRoute(hash: string): Route {
   const route = hash.replace(/^#/, '');
-  const pages: Route[] = ['overview', 'timeline', 'sources', 'people', 'map'];
-  return pages.find(page => page === route) ?? (resolveReadingRoute(route) ? route as Route : 'overview');
+  return resolveReadingRoute(route) ? route as Route : 'people';
 }

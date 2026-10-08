@@ -13,13 +13,13 @@ const memberIds = [
 ];
 const newIds = memberIds.filter(id => !['li-siyuan', 'li-cunxu'].includes(id));
 
-test('searching the topic name finds all thirteen people and their associated originals', () => {
+test('searching the topic name finds all thirteen people while their originals stay linked', () => {
   assert.deepEqual(new Set(filterSearch('十三太保', 'person').map(person => person.id)), new Set(memberIds));
   assert.deepEqual(filterSearch('李克用亲子', 'person').map(person => person.id), ['li-cunxu']);
   assert.ok(filterSearch('李克用养子', 'person').some(person => person.id === 'li-siyuan'));
   assert.deepEqual(new Set(filterSearch('李克用', 'person').map(person => person.id)), new Set(memberIds));
   for (const id of ['old-v052', 'new-v36']) {
-    assert.ok(filterSearch('十三太保', 'book').some(result => result.type === 'chapter' && result.id === id), id);
+    assert.ok(libraryChapters.find(chapter => chapter.id === id).subjects.some(personId => memberIds.includes(personId)), id);
   }
 });
 
@@ -72,7 +72,7 @@ test('the topic keeps the historical relationship and actual period distinct fro
 test('aliases find one canonical person and related chapters, while period labels stay accurate', () => {
   for (const [query, id] of [['李存审', 'fu-cunshen'], ['符存審', 'fu-cunshen'], ['安敬思', 'li-cunxiao'], ['王贤', 'li-cunxian'], ['李进通', 'li-sizhao'], ['孙重进', 'li-cunjin']]) {
     assert.deepEqual(filterSearch(query, 'person').map(person => person.id), [id], query);
-    assert.ok(filterSearch(query, 'book').some(result => result.type === 'chapter' && result.subjects.includes(id)), query);
+    assert.ok(chaptersForPerson(id).length > 0, `${query}: originals remain available through the person`);
   }
   for (const id of newIds) {
     const person = people.find(person => person.id === id);

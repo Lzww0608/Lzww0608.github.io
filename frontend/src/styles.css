@@ -123,3 +123,18 @@
 .source-person-selection select { background:var(--paper); color:var(--ink); border:1px solid var(--line); padding:12px 14px; width:min(100%,420px); max-width:100%; font:inherit; }
 .person-references > p { margin-top:8px; }
 @media(max-width:560px) { .person-group-context { padding-left:13px; font-size:13px; } .person-group-context h2 { font-size:21px; } .source-person-selection { gap:8px; } .source-person-selection select { width:100%; } .person-row > span { overflow-wrap:anywhere; } }
+
+/* The public site currently starts from people, with the graph as a second view. */
+.people-view-switch { display:flex; gap:24px; border-bottom:1px solid var(--line); margin:24px 0 22px; }
+.people-view-switch button { min-height:44px; padding:8px 0 12px; font-family:var(--serif); font-size:20px; border-bottom:2px solid transparent; }
+.people-view-switch button[aria-pressed="true"] { color:var(--accent); border-bottom-color:var(--accent); }
+.person-relationship-link { margin:18px 0 4px; }
+.original-text > div { scroll-margin-top:24px; }
+@media(max-width:800px) {
+  .people-header { gap:12px; }
+  .people-header .main-nav { position:static; display:flex; width:auto; margin-left:auto; padding:0; border:0; transform:none; background:none; }
+  .people-header .main-nav a { padding:23px 0; font-size:18px; }
+  .people-header .header-actions { margin-left:0; gap:8px; }
+  .people-header .header-search { border-left:0; padding-left:0; }
+}
+@media(max-width:560px) { .people-header { gap:10px; } .people-view-switch { gap:22px; } .people-view-switch button { font-size:18px; } }

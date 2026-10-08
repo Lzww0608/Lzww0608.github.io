@@ -57,7 +57,7 @@ test('every emperor has an explicit reign and attributable source references', (
 test('historical aliases find the corresponding emperor and associated source chapters', () => {
   for (const [query, id] of [['朱全忠', 'zhu-wen'], ['朱锽', 'zhu-youzhen'], ['李嗣源', 'li-siyuan'], ['晋出帝', 'shi-chonggui'], ['周恭帝', 'chai-zongxun']]) {
     assert.ok(filterSearch(query, 'person').some(result => result.id === id), query);
-    assert.ok(filterSearch(query, 'book').some(result => result.type === 'chapter' && result.subjects.includes(id)), query);
+    assert.ok(chaptersForPerson(id).length > 0, `${query}: originals remain available through the person`);
   }
 });
 

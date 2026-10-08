@@ -13,8 +13,8 @@ test('internal links open the requested founder and book, and reject cross-book 
   assert.equal(resolveReadingRoute('read-old').chapter.id, 'old-v001');
   assert.equal(resolveReadingRoute('read-tongjian').chapter.id, 'tongjian-v266');
   for (const chapter of chaptersForPerson('guo-wei')) assert.equal(resolveReadingRoute(chapterRoute(chapter)).chapter.id, chapter.id);
-  assert.equal(resolveRoute('#read-new/old-v110'), 'overview');
-  assert.equal(resolveRoute('#read-old/not-real'), 'overview');
+  assert.equal(resolveRoute('#read-new/old-v110'), 'people');
+  assert.equal(resolveRoute('#read-old/not-real'), 'people');
   assert.equal(resolveReadingRoute('read-old/../../private'), null);
 });
 

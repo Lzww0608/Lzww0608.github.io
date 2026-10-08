@@ -1,4 +1,4 @@
-import { libraryBooks, libraryChapters } from './library.ts';
+import { libraryBooks } from './library.ts';
 import { catalogPeople, personDisplayPeriod, personMatchesGroup, personRelationship, taibaoGroup } from './person-catalog.ts';
 import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
@@ -38,13 +38,10 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 ];
 
 export const searchItems: SearchItem[] = [
-  ...events.map((item): SearchItem => ({ ...item, type: 'event', category: '事件', name: item.title, summary: `${item.year} 年 · ${item.description}`, keywords: `${item.dynasty} ${item.person} ${item.year}` })),
   ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases} ${personRelationship(item) ?? ''} ${personMatchesGroup(item, 'thirteen-taibao') ? taibaoGroup.title : ''}` })),
-  ...books.map((item): SearchItem => ({ ...item, type: 'book', category: '史料', name: item.title, summary: `${item.author} · ${item.description}`, keywords: `${item.kind} 五代 ${item.title} ${item.author} ${item.description}` })),
-  ...libraryChapters.map((item): SearchItem => ({ ...item, type: 'chapter', category: '史料', name: `${books.find(book => book.id === item.bookId)?.title} · ${item.title}`, summary: `${item.years ?? '完整原文'} · ${item.paragraphCount} 段`, keywords: people.filter(person => item.subjects.includes(person.id)).map(person => `${person.name} ${person.dynasty} ${person.aliases} ${personMatchesGroup(person, 'thirteen-taibao') ? taibaoGroup.title : ''}`).join(' ') })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {
   const needle = query.trim().toLowerCase();
-  return searchItems.filter(item => (type === 'all' || item.type === type || (type === 'book' && item.type === 'chapter')) && (!needle || `${item.name} ${item.summary} ${item.keywords}`.toLowerCase().includes(needle)));
+  return searchItems.filter(item => (type === 'all' || item.type === type) && (!needle || `${item.name} ${item.summary} ${item.keywords}`.toLowerCase().includes(needle)));
 }
