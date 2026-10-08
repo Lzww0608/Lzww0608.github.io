@@ -1,6 +1,6 @@
-import emperors from '../../content/five-dynasties/emperors.json' with { type: 'json' };
 import { libraryBooks, libraryChapters } from './library.ts';
-import type { Dynasty, EmperorCatalog, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
+import { catalogPeople, personDisplayPeriod, personMatchesGroup, personRelationship, taibaoGroup } from './person-catalog.ts';
+import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
 // Temporary public scope; retain other entries below for a future release.
 export const displayedDynasties: readonly Dynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
@@ -14,9 +14,8 @@ const allEvents: [HistoryEvent, ...HistoryEvent[]] = [
   { id: 'song', year: 960, end: 960, dynasty: '宋', title: '宋朝建立', person: '赵匡胤', description: '赵匡胤建立宋朝，五代时期结束。', context: '960 年是五代与宋初的分界。十国的历史延续与统一过程，需要在后续专题中继续展开。', color: '#9b493d' },
 ];
 
-const emperorCatalog = emperors as EmperorCatalog;
 const allPeople: HistoryPerson[] = [
-  ...emperorCatalog.people,
+  ...catalogPeople,
   { id: 'zhao-kuangyin', name: '赵匡胤', dynasty: '宋', role: '宋朝建立者', event: 'song', aliases: '宋太祖', intro: '赵匡胤是宋朝的建立者。当前收录其与五代结束相关的线索，宋代内容将逐步整理。' },
 ];
 
@@ -40,9 +39,9 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 
 export const searchItems: SearchItem[] = [
   ...events.map((item): SearchItem => ({ ...item, type: 'event', category: '事件', name: item.title, summary: `${item.year} 年 · ${item.description}`, keywords: `${item.dynasty} ${item.person} ${item.year}` })),
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${item.dynasty} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases} ${personRelationship(item) ?? ''} ${personMatchesGroup(item, 'thirteen-taibao') ? taibaoGroup.title : ''}` })),
   ...books.map((item): SearchItem => ({ ...item, type: 'book', category: '史料', name: item.title, summary: `${item.author} · ${item.description}`, keywords: `${item.kind} 五代 ${item.title} ${item.author} ${item.description}` })),
-  ...libraryChapters.map((item): SearchItem => ({ ...item, type: 'chapter', category: '史料', name: `${books.find(book => book.id === item.bookId)?.title} · ${item.title}`, summary: `${item.years ?? '完整原文'} · ${item.paragraphCount} 段`, keywords: people.filter(person => item.subjects.includes(person.id)).map(person => `${person.name} ${person.dynasty} ${person.aliases}`).join(' ') })),
+  ...libraryChapters.map((item): SearchItem => ({ ...item, type: 'chapter', category: '史料', name: `${books.find(book => book.id === item.bookId)?.title} · ${item.title}`, summary: `${item.years ?? '完整原文'} · ${item.paragraphCount} 段`, keywords: people.filter(person => item.subjects.includes(person.id)).map(person => `${person.name} ${person.dynasty} ${person.aliases} ${personMatchesGroup(person, 'thirteen-taibao') ? taibaoGroup.title : ''}`).join(' ') })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {

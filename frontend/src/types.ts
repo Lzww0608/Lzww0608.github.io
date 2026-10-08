@@ -5,6 +5,7 @@ export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu'
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
+export type PersonGroupId = 'all' | 'emperors' | 'thirteen-taibao';
 export type Route = 'overview' | 'timeline' | 'sources' | 'people' | 'map' | `read-${BookId}` | `read-${BookId}/${string}`;
 
 export interface HistoryEvent {
@@ -24,9 +25,11 @@ export interface HistoryPerson {
   name: string;
   dynasty: Dynasty;
   role: string;
-  event: EventId;
+  event?: EventId;
   aliases: string;
   intro: string;
+  periodLabel?: string;
+  relation?: string;
   reign?: string;
   reignStart?: number;
   reignEnd?: number;
@@ -53,6 +56,18 @@ export interface EmperorCatalog {
   schemaVersion: 1;
   scope: 'five-dynasties-reigning-emperors';
   people: ReigningEmperor[];
+}
+
+export interface HistoricalPersonGroup {
+  schemaVersion: 1;
+  id: 'thirteen-taibao';
+  title: string;
+  description: string;
+  sourceNote: string;
+  sources: HistoricalSourceReference[];
+  memberIds: string[];
+  memberRelations?: Record<string, string>;
+  people: HistoryPerson[];
 }
 
 export interface Book {

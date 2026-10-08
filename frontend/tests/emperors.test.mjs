@@ -16,17 +16,19 @@ const emperorIds = [
   'guo-wei', 'chai-rong', 'chai-zongxun',
 ];
 
+const emperorPeople = people.filter(person => emperorIds.includes(person.id));
+
 test('the people index includes all fourteen reigning Five Dynasties emperors and keeps later dynasties hidden', () => {
   assert.equal(emperorCatalog.schemaVersion, 1);
   assert.equal(emperorCatalog.scope, 'five-dynasties-reigning-emperors');
-  assert.equal(people.length, 14);
-  assert.deepEqual(new Set(people.map(person => person.id)), new Set(emperorIds));
-  assert.deepEqual(people, emperorCatalog.people);
+  assert.equal(emperorPeople.length, 14);
+  assert.deepEqual(new Set(emperorPeople.map(person => person.id)), new Set(emperorIds));
+  assert.deepEqual(emperorPeople, emperorCatalog.people);
   assert.deepEqual(displayedDynasties, ['后梁', '后唐', '后晋', '后汉', '后周']);
   for (const [dynasty, count] of [['后梁', 3], ['后唐', 4], ['后晋', 2], ['后汉', 2], ['后周', 3]]) {
-    assert.equal(people.filter(person => person.dynasty === dynasty).length, count);
+    assert.equal(emperorPeople.filter(person => person.dynasty === dynasty).length, count);
   }
-  assert.ok(people.every(person => events.some(event => event.id === person.event && event.dynasty === person.dynasty)));
+  assert.ok(emperorPeople.every(person => events.some(event => event.id === person.event && event.dynasty === person.dynasty)));
   assert.equal(people.some(person => person.name === '刘赟'), false, 'a nominated successor who never acceded is not a reigning emperor');
   assert.deepEqual(filterSearch('刘赟', 'person'), []);
   assert.deepEqual(filterSearch('赵匡胤', 'person'), []);
@@ -34,7 +36,7 @@ test('the people index includes all fourteen reigning Five Dynasties emperors an
 });
 
 test('every emperor has an explicit reign and attributable source references', () => {
-  for (const person of people) {
+  for (const person of emperorPeople) {
     assert.ok(person.name && person.role && person.aliases && person.intro, person.id);
     assert.ok(Number.isSafeInteger(person.reignStart) && Number.isSafeInteger(person.reignEnd), person.id);
     assert.ok(person.reignStart >= 907 && person.reignStart <= person.reignEnd && person.reignEnd <= 960, person.id);
@@ -74,11 +76,12 @@ test('every emperor has biographical originals in both official histories and ea
   assert.ok(chaptersForPerson('liu-chengyou').some(chapter => chapter.id === 'new-v10'), 'the shared Han annals include the second emperor');
   assert.ok(chaptersForPerson('zhu-yougui').some(chapter => chapter.id === 'new-v13'), 'the short reign stays reachable through the Liang family biography');
   assert.ok(chaptersForPerson('chai-zongxun').some(chapter => chapter.id === 'tongjian-v294'), 'the final archived chronology includes the 959 succession');
-  assert.ok(libraryChapters.every(chapter => chapter.subjects.every(id => emperorIds.includes(id))));
+  const knownPeople = new Set(people.map(person => person.id));
+  assert.ok(libraryChapters.every(chapter => chapter.subjects.every(id => knownPeople.has(id))));
 });
 
 test('preferred entries open the main biography rather than a passing mention in an earlier chapter', () => {
-  for (const person of people) {
+  for (const person of emperorPeople) {
     for (const bookId of ['old', 'new', 'tongjian']) {
       const start = person.readingStarts[bookId];
       if (!start) continue;

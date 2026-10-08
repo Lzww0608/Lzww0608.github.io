@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代皇帝本纪共 59 卷，另收含朱友珪专传的梁宗室传；合计 60 卷，保留辑佚说明与夹注。",
+      "description": "五代皇帝本纪共 59 卷，另收梁宗室传及卷 52、53、55、56 的唐列传；合计 64 卷，保留辑佚说明与夹注。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12，另收含朱友珪专传的梁家人传；共 13 卷，汉、周本纪中的合传均整卷保留。",
+      "description": "五代皇帝本纪卷 1—12，另收梁家人传、唐臣传与义儿传；共 15 卷，合传均整卷保留。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -135,7 +135,10 @@
       "volume": 2,
       "title": "卷 2 · 梁太祖纪2",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "li-sizhao",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 2,
       "scope": "full",
@@ -328,7 +331,9 @@
       "volume": 10,
       "title": "卷 10 · 梁末帝纪3",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "li-sizhao",
+        "fu-cunshen"
       ],
       "position": 10,
       "scope": "full",
@@ -352,7 +357,10 @@
       "volume": 27,
       "title": "卷 27 · 唐庄宗纪1",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 27,
       "scope": "full",
@@ -376,7 +384,10 @@
       "volume": 28,
       "title": "卷 28 · 唐庄宗纪2",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-siben",
+        "fu-cunshen"
       ],
       "position": 28,
       "scope": "full",
@@ -400,7 +411,11 @@
       "volume": 29,
       "title": "卷 29 · 唐庄宗纪3",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-cunjin",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 29,
       "scope": "full",
@@ -448,7 +463,9 @@
       "volume": 31,
       "title": "卷 31 · 唐庄宗纪5",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "fu-cunshen",
+        "li-cunxian"
       ],
       "position": 31,
       "scope": "full",
@@ -472,7 +489,11 @@
       "volume": 32,
       "title": "卷 32 · 唐庄宗纪6",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-cunzhang",
+        "fu-cunshen",
+        "li-cunxian"
       ],
       "position": 32,
       "scope": "full",
@@ -544,7 +565,10 @@
       "volume": 35,
       "title": "卷 35 · 唐明宗纪1",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "li-sizhao",
+        "li-cunxin",
+        "fu-cunshen"
       ],
       "position": 35,
       "scope": "full",
@@ -616,7 +640,9 @@
       "volume": 38,
       "title": "卷 38 · 唐明宗纪4",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "li-sien",
+        "fu-cunshen"
       ],
       "position": 38,
       "scope": "full",
@@ -688,7 +714,8 @@
       "volume": 41,
       "title": "卷 41 · 唐明宗纪7",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "li-sizhao"
       ],
       "position": 41,
       "scope": "full",
@@ -712,7 +739,9 @@
       "volume": 42,
       "title": "卷 42 · 唐明宗纪8",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "li-sizhao",
+        "fu-cunshen"
       ],
       "position": 42,
       "scope": "full",
@@ -760,7 +789,8 @@
       "volume": 44,
       "title": "卷 44 · 唐明宗纪10",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "kang-junli"
       ],
       "position": 44,
       "scope": "full",
@@ -808,7 +838,8 @@
       "volume": 46,
       "title": "卷 46 · 唐末帝纪1",
       "subjects": [
-        "li-congke"
+        "li-congke",
+        "fu-cunshen"
       ],
       "position": 46,
       "scope": "full",
@@ -904,7 +935,9 @@
       "volume": 76,
       "title": "卷 76 · 晋高祖纪2",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "li-sizhao",
+        "li-cunzhang"
       ],
       "position": 76,
       "scope": "full",
@@ -928,7 +961,8 @@
       "volume": 77,
       "title": "卷 77 · 晋高祖纪3",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "li-siben"
       ],
       "position": 77,
       "scope": "full",
@@ -1266,7 +1300,8 @@
       "volume": 110,
       "title": "卷 110 · 周太祖纪1",
       "subjects": [
-        "guo-wei"
+        "guo-wei",
+        "li-sizhao"
       ],
       "position": 110,
       "scope": "full",
@@ -1557,7 +1592,8 @@
       "volume": 1,
       "title": "卷 1 · 梁本纪第一",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "kang-junli"
       ],
       "position": 1,
       "scope": "full",
@@ -1630,7 +1666,11 @@
       "volume": 4,
       "title": "卷 4 · 唐本纪第四",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-cunxin",
+        "kang-junli",
+        "li-cunxiao"
       ],
       "position": 4,
       "scope": "full",
@@ -1654,7 +1694,12 @@
       "volume": 5,
       "title": "卷 5 · 唐本纪第五",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "li-siben",
+        "li-cunjin",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 5,
       "scope": "full",
@@ -1678,7 +1723,9 @@
       "volume": 6,
       "title": "卷 6 · 唐本纪第六",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "li-sizhao",
+        "li-cunxin"
       ],
       "position": 6,
       "scope": "full",
@@ -1870,13 +1917,193 @@
       }
     },
     {
+      "id": "old-v052",
+      "bookId": "old",
+      "volume": 52,
+      "title": "卷 52 · 唐列传（李嗣昭、李嗣本、李嗣恩等）",
+      "subjects": [
+        "li-sizhao",
+        "li-siben",
+        "li-sien",
+        "li-cunxin",
+        "li-cunzhang",
+        "fu-cunshen"
+      ],
+      "position": 52,
+      "scope": "full",
+      "paragraphCount": 26,
+      "characterCount": 5032,
+      "provenance": {
+        "pageTitle": "舊五代史/卷52",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B752&oldid=1517774",
+        "revisionId": 1517774,
+        "fetchedAt": "2026-10-08T13:17:26.164886+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B752&action=history",
+        "sourceSha256": "a03b9d1e249fd59e8a09691f35ac891197d95c0d6aeab4eb53ede92820331451",
+        "chapterSha256": "2df76e10b892ac78bf6b0da3c419d87dab451c4092b343f8b8bec246ea329091"
+      }
+    },
+    {
+      "id": "old-v053",
+      "bookId": "old",
+      "volume": 53,
+      "title": "卷 53 · 唐列传（李存信、李存孝等）",
+      "subjects": [
+        "li-cunxin",
+        "li-cunxiao",
+        "li-cunjin",
+        "li-cunzhang",
+        "li-cunxian",
+        "li-sizhao",
+        "fu-cunshen",
+        "kang-junli"
+      ],
+      "position": 53,
+      "scope": "full",
+      "paragraphCount": 22,
+      "characterCount": 4568,
+      "provenance": {
+        "pageTitle": "舊五代史/卷53",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B753&oldid=8729830",
+        "revisionId": 8729830,
+        "fetchedAt": "2026-10-08T13:17:26.013009+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B753&action=history",
+        "sourceSha256": "16f97b9f23f67c6c52229f8a9f27387badd47fc9bd75f0a63edacffaa249c293",
+        "chapterSha256": "d16a4eb42aa3846d7d831e2a313ce1c5c4d4ad22f15a62d661604698571067fa"
+      }
+    },
+    {
+      "id": "old-v055",
+      "bookId": "old",
+      "volume": 55,
+      "title": "卷 55 · 唐列传（康君立、史建瑭等，附史敬思）",
+      "subjects": [
+        "kang-junli",
+        "shi-jingsi",
+        "li-sizhao",
+        "li-cunxin",
+        "li-cunzhang",
+        "fu-cunshen",
+        "li-cunxiao"
+      ],
+      "position": 55,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 4808,
+      "provenance": {
+        "pageTitle": "舊五代史/卷55",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B755&oldid=2605891",
+        "revisionId": 2605891,
+        "fetchedAt": "2026-10-08T13:17:27.374247+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B755&action=history",
+        "sourceSha256": "11078132686d13b0dde5ef86f4042eb24424cee5d66bf5eb8188194b31e8e720",
+        "chapterSha256": "297634f851df8ee72f44f8dd5acd4ab86076cbb389789dce86bda95552b93268"
+      }
+    },
+    {
+      "id": "old-v056",
+      "bookId": "old",
+      "volume": 56,
+      "title": "卷 56 · 唐列传（周德威、李存审）",
+      "subjects": [
+        "fu-cunshen",
+        "li-sizhao",
+        "li-cunjin",
+        "li-cunzhang"
+      ],
+      "position": 56,
+      "scope": "full",
+      "paragraphCount": 27,
+      "characterCount": 5644,
+      "provenance": {
+        "pageTitle": "舊五代史/卷56",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B756&oldid=1517776",
+        "revisionId": 1517776,
+        "fetchedAt": "2026-10-08T13:17:27.671877+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B756&action=history",
+        "sourceSha256": "c382c68eed4b8b7391d25c3f5e30ca07d77304452b077157176e03c30160d973",
+        "chapterSha256": "87a2a9e4a672436ee311b17e60c994ab521ab30502941c4c898e9bee4b02c794"
+      }
+    },
+    {
+      "id": "new-v25",
+      "bookId": "new",
+      "volume": 25,
+      "title": "卷 25 · 唐臣传（符存审、史建瑭等，附史敬思）",
+      "subjects": [
+        "fu-cunshen",
+        "shi-jingsi",
+        "li-sizhao"
+      ],
+      "position": 25,
+      "scope": "full",
+      "paragraphCount": 57,
+      "characterCount": 8150,
+      "provenance": {
+        "pageTitle": "新五代史/卷25",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B725&oldid=1699382",
+        "revisionId": 1699382,
+        "fetchedAt": "2026-10-08T13:17:28.842162+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B725&action=history",
+        "sourceSha256": "afc7ce86d5b21885e2ca228349214c21f5d29932bf30acf3766981f5b60cb251",
+        "chapterSha256": "5f77ea330bcbc9dc7fca54c5248121f233e0fec68522190451056afd9020c1ce"
+      }
+    },
+    {
+      "id": "new-v36",
+      "bookId": "new",
+      "volume": 36,
+      "title": "卷 36 · 义儿传（李嗣昭等，附康君立）",
+      "subjects": [
+        "li-siyuan",
+        "li-sizhao",
+        "li-siben",
+        "li-sien",
+        "li-cunxin",
+        "li-cunxiao",
+        "li-cunjin",
+        "li-cunzhang",
+        "li-cunxian",
+        "kang-junli",
+        "fu-cunshen"
+      ],
+      "position": 36,
+      "scope": "full",
+      "paragraphCount": 35,
+      "characterCount": 5033,
+      "provenance": {
+        "pageTitle": "新五代史/卷36",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B736&oldid=2112542",
+        "revisionId": 2112542,
+        "fetchedAt": "2026-10-08T13:17:29.739549+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B736&action=history",
+        "sourceSha256": "18799123176ad35c1ddc5ca7c79272962edae62b3623580d2fb8e0241ba812f9",
+        "chapterSha256": "21c345188d44e352771b2ef8e7e7ae278f93d52cd98ab4378302350cd0319b24"
+      }
+    },
+    {
       "id": "tongjian-v266",
       "bookId": "tongjian",
       "volume": 266,
       "title": "卷 266 · 后梁纪1",
       "years": "907—908",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "li-sizhao",
+        "li-siben",
+        "li-cunzhang"
       ],
       "position": 266,
       "scope": "full",
@@ -1901,7 +2128,10 @@
       "title": "卷 267 · 后梁纪2",
       "years": "908—911",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "li-sizhao",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 267,
       "scope": "full",
@@ -1928,7 +2158,10 @@
       "subjects": [
         "zhu-wen",
         "zhu-yougui",
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "li-sizhao",
+        "li-sien",
+        "fu-cunshen"
       ],
       "position": 268,
       "scope": "full",
@@ -1953,7 +2186,13 @@
       "title": "卷 269 · 后梁纪4",
       "years": "913—917",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "li-sizhao",
+        "li-siben",
+        "li-sien",
+        "li-cunjin",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "position": 269,
       "scope": "full",
@@ -1978,7 +2217,10 @@
       "title": "卷 270 · 后梁纪5",
       "years": "917—919",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "li-sizhao",
+        "li-cunjin",
+        "fu-cunshen"
       ],
       "position": 270,
       "scope": "full",
@@ -2003,7 +2245,10 @@
       "title": "卷 271 · 后梁纪6",
       "years": "919—922",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "li-sizhao",
+        "li-cunjin",
+        "fu-cunshen"
       ],
       "position": 271,
       "scope": "full",
@@ -2029,7 +2274,9 @@
       "years": "923",
       "subjects": [
         "zhu-youzhen",
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "fu-cunshen"
       ],
       "position": 272,
       "scope": "full",
@@ -2054,7 +2301,9 @@
       "title": "卷 273 · 后唐纪2",
       "years": "924—925",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "fu-cunshen",
+        "li-cunxian"
       ],
       "position": 273,
       "scope": "full",
@@ -2105,7 +2354,8 @@
       "years": "926—927",
       "subjects": [
         "li-cunxu",
-        "li-siyuan"
+        "li-siyuan",
+        "fu-cunshen"
       ],
       "position": 275,
       "scope": "full",
@@ -2207,7 +2457,8 @@
       "years": "934—935",
       "subjects": [
         "li-conghou",
-        "li-congke"
+        "li-congke",
+        "li-cunjin"
       ],
       "position": 279,
       "scope": "full",
@@ -2859,7 +3110,9 @@
         "li-cunxu",
         "li-siyuan",
         "li-conghou",
-        "li-congke"
+        "li-congke",
+        "li-sizhao",
+        "fu-cunshen"
       ],
       "scope": "full",
       "paragraphCount": 35,
@@ -2924,7 +3177,9 @@
         "li-congke",
         "shi-chonggui",
         "liu-chengyou",
-        "chai-zongxun"
+        "chai-zongxun",
+        "li-cunzhang",
+        "fu-cunshen"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -2978,7 +3233,9 @@
       "position": 4,
       "title": "卷 3",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "li-sizhao",
+        "fu-cunshen"
       ],
       "scope": "full",
       "paragraphCount": 52,
@@ -3184,7 +3441,8 @@
       "subjects": [
         "shi-jingtang",
         "guo-wei",
-        "liu-zhiyuan"
+        "liu-zhiyuan",
+        "li-sizhao"
       ],
       "scope": "full",
       "paragraphCount": 114,
@@ -3673,7 +3931,8 @@
         "li-cunxu",
         "shi-jingtang",
         "zhu-youzhen",
-        "li-siyuan"
+        "li-siyuan",
+        "li-cunxin"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -3752,7 +4011,10 @@
         "li-conghou",
         "li-congke",
         "guo-wei",
-        "chai-rong"
+        "chai-rong",
+        "li-sizhao",
+        "li-siben",
+        "li-cunzhang"
       ],
       "position": 28,
       "scope": "full",
@@ -3783,7 +4045,11 @@
         "li-conghou",
         "li-congke",
         "guo-wei",
-        "chai-rong"
+        "chai-rong",
+        "li-sizhao",
+        "li-siben",
+        "li-cunjin",
+        "fu-cunshen"
       ],
       "position": 29,
       "scope": "full",

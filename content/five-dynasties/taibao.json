@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "thirteen-taibao",
+  "title": "十三太保相关人物",
+  "description": "从李克用的亲子、义儿与河东将领，认识后世“十三太保”故事所涉及的历史人物。",
+  "sourceNote": "本站按通行说法选取这十三位有史书记载的人物，名单与顺序用于专题浏览。新旧《五代史》未将他们列为固定十三人组合，也未给出共同排行；他们也不全是养子。《残唐五代史演义传》等作品的名单与用名另有差异，人物生平依史书记载。",
+  "sources": [
+    {
+      "title": "新五代史·义儿传（养子与义儿军记载）",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+    },
+    {
+      "title": "残唐五代史演义传·第十一回（十三太保称号）",
+      "url": "https://zh.wikisource.org/wiki/殘唐五代史演義傳/11"
+    },
+    {
+      "title": "残唐五代史演义传·第十四回（不同人物名单）",
+      "url": "https://zh.wikisource.org/wiki/殘唐五代史演義傳/14"
+    }
+  ],
+  "memberIds": [
+    "li-siyuan",
+    "li-sizhao",
+    "li-cunxu",
+    "li-cunxin",
+    "li-cunjin",
+    "li-siben",
+    "li-sien",
+    "li-cunzhang",
+    "fu-cunshen",
+    "li-cunxian",
+    "shi-jingsi",
+    "kang-junli",
+    "li-cunxiao"
+  ],
+  "people": [
+    {
+      "id": "li-sizhao",
+      "name": "李嗣昭",
+      "dynasty": "后唐",
+      "role": "昭义节度使",
+      "aliases": "李进通 进通",
+      "intro": "李嗣昭长期参与河东与后梁的战争，守潞州、救太原，后来在讨伐镇州时中箭身亡。《旧五代史》称他是李克柔的养子、族姓不详；《新五代史》记其本姓韩，由李克用收取后交弟弟克柔养育。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克柔养子；列于李克用义儿史传",
+      "sources": [
+        {
+          "title": "旧五代史·李嗣昭传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷52"
+        },
+        {
+          "title": "新五代史·义儿传·李嗣昭",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v052",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-cunxin",
+      "name": "李存信",
+      "dynasty": "后唐",
+      "role": "河东蕃汉都将",
+      "aliases": "",
+      "intro": "李存信本姓张，通晓多种语言，长期统领河东军队。他与李存孝争功、交恶，参与邢州之变前后的军事活动；后来屡次作战失利，逐渐失去兵权，病逝于晋阳。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李存信传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷53"
+        },
+        {
+          "title": "新五代史·义儿传·李存信",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v053",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-cunjin",
+      "name": "李存进",
+      "dynasty": "后唐",
+      "role": "振武节度使",
+      "aliases": "李存進 孙重进 孫重進",
+      "intro": "李存进本姓孙，名重进，受李克用赐姓名并收为养子。他以治军、营垒和守战见长，曾在德胜渡建浮桥，方便军队渡河。讨伐镇州时，他接替李嗣昭统兵，战死于东垣渡。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李存进传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷53"
+        },
+        {
+          "title": "新五代史·义儿传·李存进",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v053",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-siben",
+      "name": "李嗣本",
+      "dynasty": "后唐",
+      "role": "振武节度使",
+      "aliases": "威信可汗",
+      "intro": "李嗣本本姓张，出身雁门军户，受李克用赐姓名并收为养子。他长期统领代北军队，号威信可汗。其后事两史不同：《旧五代史》记振武失陷后举族入契丹，《新五代史》则记其在蔚州战死。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李嗣本传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷52"
+        },
+        {
+          "title": "新五代史·义儿传·李嗣本",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v052",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-sien",
+      "name": "李嗣恩",
+      "dynasty": "后唐",
+      "role": "振武节度使",
+      "aliases": "",
+      "intro": "李嗣恩本姓骆，吐谷浑部人，善骑射，受李克用赐姓名并收为养子。他参加梁晋之间多次作战，曾先入太原加强防守，后来担任代州刺史、振武节度使，卒于太原。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李嗣恩传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷52"
+        },
+        {
+          "title": "新五代史·义儿传·李嗣恩",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v052",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-cunzhang",
+      "name": "李存璋",
+      "dynasty": "后唐",
+      "role": "大同军节度使",
+      "aliases": "德璜",
+      "intro": "李存璋字德璜，早年追随李克用，后来统领义儿军。李克用临终时，他与张承业等受托辅佐李存勖；庄宗继任晋王后，他整顿军纪、守卫太原，官至大同军节度使。《新五代史》将他列入养子相关的义儿传。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用部将；新史列于养子义儿传",
+      "sources": [
+        {
+          "title": "旧五代史·李存璋传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷53"
+        },
+        {
+          "title": "新五代史·义儿传·李存璋",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v053",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "fu-cunshen",
+      "name": "符存审",
+      "dynasty": "后唐",
+      "role": "卢龙节度使",
+      "aliases": "符存審 李存审 李存審 符存 德详 德詳",
+      "intro": "符存审本名符存，字德详，归附李克用后统领义儿军，受赐李姓，名存审。他历事李克用、李存勖，在梁晋战争和抵御契丹时屡立战功，与周德威齐名，后来担任卢龙节度使。",
+      "periodLabel": "唐末—后唐",
+      "relation": "受李克用赐姓名的义儿军将领",
+      "sources": [
+        {
+          "title": "旧五代史·符存审传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷56"
+        },
+        {
+          "title": "新五代史·唐臣传·符存审",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        },
+        {
+          "title": "新五代史·义儿传序（符存审别传说明）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v056",
+        "new": "new-v25"
+      }
+    },
+    {
+      "id": "li-cunxian",
+      "name": "李存贤",
+      "dynasty": "后唐",
+      "role": "卢龙节度使",
+      "aliases": "李存賢 王贤 王賢 子良",
+      "intro": "李存贤字子良，本姓王，名贤，归附李克用后受赐姓名，收为养子。他善角抵，也以守城著称，曾恢复沁州旧城并抵御梁军。后唐建立后任右武卫上将军，后来接替符存审镇守幽州。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李存贤传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷53"
+        },
+        {
+          "title": "新五代史·义儿传·存贤",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v053",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "shi-jingsi",
+      "name": "史敬思",
+      "dynasty": "后唐",
+      "role": "河东骑将",
+      "aliases": "",
+      "intro": "史敬思是雁门将领、史建瑭之父，随李克用入关平定黄巢，又参与陈、许一带的作战。李克用在汴州上源驿遇袭时，他奋力抵抗，最终遇害。新旧《五代史》都在史建瑭传中记载他的事迹，未记载他是李克用的养子。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用部将；史建瑭之父",
+      "sources": [
+        {
+          "title": "旧五代史·史建瑭传（附父史敬思）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        },
+        {
+          "title": "新五代史·史建瑭传（附父史敬思）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055",
+        "new": "new-v25"
+      }
+    },
+    {
+      "id": "kang-junli",
+      "name": "康君立",
+      "dynasty": "后唐",
+      "role": "昭义节度使",
+      "aliases": "康君利",
+      "intro": "康君立出身蔚州兴唐，早年参与推戴李克用起兵，后来任昭义节度使，与李存信关系密切。李存孝被处死后，他在宴饮中触怒李克用，遭赐毒酒而死。正史将他记作部将，未记为养子；“康君利”是后世演义中的用名。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用部将；参与早年起兵",
+      "sources": [
+        {
+          "title": "旧五代史·康君立传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        },
+        {
+          "title": "新五代史·李存孝传（附康君立）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        },
+        {
+          "title": "残唐五代史演义传·第十一回（康君利用名）",
+          "url": "https://zh.wikisource.org/wiki/殘唐五代史演義傳/11"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055",
+        "new": "new-v36"
+      }
+    },
+    {
+      "id": "li-cunxiao",
+      "name": "李存孝",
+      "dynasty": "后唐",
+      "role": "邢州将领",
+      "aliases": "安敬思 安景思",
+      "intro": "李存孝本姓安，名敬思，受李克用赐姓名并收为养子，以骑射和临阵勇猛著称。他在泽、潞和邢州一带作战，后来因与李存信交恶、转而联络梁与赵，最终被李克用围降并处死。“十三太保”及安景思的用名见于后世演义。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用养子",
+      "sources": [
+        {
+          "title": "旧五代史·李存孝传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷53"
+        },
+        {
+          "title": "新五代史·义儿传·李存孝",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        },
+        {
+          "title": "残唐五代史演义传·第十一回（十三太保称号）",
+          "url": "https://zh.wikisource.org/wiki/殘唐五代史演義傳/11"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v053",
+        "new": "new-v36"
+      }
+    }
+  ],
+  "memberRelations": {
+    "li-cunxu": "李克用亲子",
+    "li-siyuan": "李克用养子"
+  }
+}

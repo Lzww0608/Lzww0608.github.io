@@ -26,6 +26,7 @@ class SourceIntegrityTests(unittest.TestCase):
     def test_shared_annals_and_regnal_handoffs_include_the_correct_emperors(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         chapters = {chapter['id']: chapter for chapter in catalog['chapters']}
+        emperors = {person['id'] for person in json.loads((archive.ROOT / 'emperors.json').read_text())['people']}
         for chapter_id, expected in {
             'new-v07': ['li-conghou', 'li-congke'],
             'new-v12': ['chai-rong', 'chai-zongxun'],
@@ -36,7 +37,7 @@ class SourceIntegrityTests(unittest.TestCase):
             'tongjian-v292': ['chai-rong'],
             'tongjian-v294': ['chai-rong', 'chai-zongxun'],
         }.items():
-            self.assertEqual(chapters[chapter_id]['subjects'], expected, chapter_id)
+            self.assertEqual([person for person in chapters[chapter_id]['subjects'] if person in emperors], expected, chapter_id)
         self.assertEqual(archive.scanned_subjects(['太祖、高祖、世宗、少帝、隐帝'], 'huiyao'), [])
         self.assertEqual(archive.scanned_subjects(['后汉高祖：劉知遠；周世宗：柴榮；漢隱帝：承祐'], 'huiyao'), ['liu-zhiyuan', 'liu-chengyou', 'chai-rong'])
 
