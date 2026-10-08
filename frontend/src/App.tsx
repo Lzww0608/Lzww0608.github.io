@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { MagnifyingGlass, ArrowRight, X, UsersThree } from '@phosphor-icons/react';
 import { displayedDynasties, people, books, filterSearch } from './data';
-import { chapterRoute, chaptersForPerson, preferredChapterForPerson, libraryChapters, resolveReadingRoute, resolveRoute } from './library';
+import { chapterRoute, libraryChapters, personPassageBooks, personSourcesRoute, resolvePersonSourcesRoute, resolveReadingRoute, resolveRoute } from './library';
 import { Reader } from './Reader';
 import { ThemeSwitcher } from './ThemeSwitcher';
 import { PeopleRelationshipGraph } from './PeopleRelationshipGraph';
@@ -13,6 +13,7 @@ type Navigate = (route: Route) => void;
 type OpenPerson = (person: HistoryPerson | undefined) => void;
 type ModalState = { type: 'search'; query: string } | { type: 'person'; item: HistoryPerson };
 const getRoute = (): Route => resolveRoute(location.hash);
+const PersonPassages = lazy(() => import('./PersonPassages').then(module => ({default:module.PersonPassages})));
 
 function Dialog({ title, children, onClose, wide = false }: { title: string; children: ReactNode; onClose: () => void; wide?: boolean }) {
   const ref = useRef<HTMLDialogElement | null>(null);
@@ -78,15 +79,15 @@ function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPer
     {person.sources && person.sources.length > 0 && <details className="person-references"><summary>条目来源</summary><ul>{person.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details>}
     <button className="text-link person-relationship-link" onClick={() => onViewRelationships(person.id)}>查看人物关系 <ArrowRight size={18} /></button>
     <h3>相关原文与译文</h3><RelatedSources personId={person.id} go={go} />
+    {!!personPassageBooks(person.id).length && <button className="text-link" onClick={() => go(personSourcesRoute(person.id))}>汇总全部文献记载 <ArrowRight size={18} /></button>}
   </div>;
 }
 
 function RelatedSources({ personId, go }: { personId: string | undefined; go: Navigate }) {
-  const matches = personId ? chaptersForPerson(personId) : [];
+  const matches = personId ? personPassageBooks(personId) : [];
   return matches.length ? <div className="detail-links person-source-links">{books.map(book => {
-    const chapters = matches.filter(chapter => chapter.bookId === book.id);
-    const first = personId ? preferredChapterForPerson(book.id, personId) : chapters[0];
-    return first ? <button key={book.id} onClick={() => go(chapterRoute(first))}><span>{book.title}<small>{first.title} · 共 {chapters.length} 篇</small></span><ArrowRight size={18} /></button> : null;
+    const summary = matches.find(item => item.bookId === book.id);
+    return summary && personId ? <button key={book.id} onClick={() => go(personSourcesRoute(personId,book.id))}><span>{book.title}<small>{summary.chapterCount} 篇中的 {summary.passageCount} 处相关记载</small></span><ArrowRight size={18} /></button> : null;
   })}</div> : <p className="small-note">此人物的相关原文尚未收录。</p>;
 }
 
@@ -97,6 +98,7 @@ export function App() {
   const [peopleView, setPeopleView] = useState<'list' | 'graph'>('list');
   const [focusPersonId, setFocusPersonId] = useState<string>();
   const [readingFocusId, setReadingFocusId] = useState<string>();
+  const [readingReturnRoute, setReadingReturnRoute] = useState<Route>();
   const [modal, setModal] = useState<ModalState | null>(null);
   useEffect(() => {
     const listener = () => {
@@ -119,7 +121,8 @@ export function App() {
     return () => window.removeEventListener('hashchange', listener);
   }, []);
   const reading = resolveReadingRoute(route);
-  const title = reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
+  const personSources = resolvePersonSourcesRoute(route);
+  const title = personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
   useEffect(() => { document.title = `${title} · 中国古代史`; }, [title]);
   function go(view: Route, paragraphId?: string) {
     setModal(null); setReadingFocusId(paragraphId);
@@ -132,11 +135,14 @@ export function App() {
   function viewRelationships(id: string) { setFocusPersonId(id); setPeopleView('graph'); go('people'); }
   function readRelationshipSource(chapterId: string, paragraphId?: string) {
     const chapter = libraryChapters.find(item => item.id === chapterId);
-    if (chapter) go(chapterRoute(chapter), paragraphId?.startsWith(`${chapterId}-p`) ? paragraphId : undefined);
+    if (chapter) {
+      setReadingReturnRoute(resolvePersonSourcesRoute(currentRoute.current) ? currentRoute.current : undefined);
+      go(chapterRoute(chapter), paragraphId?.startsWith(`${chapterId}-p`) ? paragraphId : undefined);
+    }
   }
   return <><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); const main = document.getElementById('main-content'); main?.focus(); main?.scrollIntoView(); }}>跳转到内容</a>
     <header className="site-header people-header"><a className="brand" href="#people"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="#people">人物</a></nav><div className="header-actions"><ThemeSwitcher /><button className="header-search" aria-label="搜索人物" onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button></div></header>
-    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{reading && <Reader key={reading.chapter.id} book={reading.book} entry={reading.chapter} go={go} focusParagraphId={readingFocusId} />}</main>
+    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={`${personSources.person.id}/${personSources.book?.id ?? 'all'}`} person={personSources.person} book={personSources.book} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} book={reading.book} entry={reading.chapter} go={go} focusParagraphId={readingFocusId} returnTo={readingReturnRoute} />}</main>
     {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} />}</Dialog>}
   </>;
 }

@@ -6,7 +6,7 @@ export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
 export type PersonGroupId = 'all' | 'emperors' | 'thirteen-taibao';
-export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}`;
+export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}`;
 
 export interface HistoryEvent {
   id: EventId;
@@ -162,4 +162,55 @@ export interface ChapterResponse {
   editionId: string;
   edition: string;
   paragraphs: ChapterParagraph[];
+}
+
+export type PersonPassageKind = 'biography' | 'record' | 'mention';
+
+export interface PassageSpan {
+  paragraphId: string;
+  originalRevision: number;
+  originalSha256: string;
+  start: number;
+  end: number;
+}
+
+export interface PersonPassage {
+  id: string;
+  title: string;
+  kind: PersonPassageKind;
+  bookId: BookId;
+  bookTitle: string;
+  chapterId: string;
+  chapterTitle: string;
+  chapterPosition: number;
+  edition: string;
+  sourceUrl: string;
+  spans: PassageSpan[];
+  paragraphs: ChapterParagraph[];
+}
+
+export interface PersonPassagesResponse {
+  schemaVersion: 1;
+  scope: 'current-archive';
+  personId: string;
+  bookId: BookId | null;
+  coverage: { bookCount: number; chapterCount: number; paragraphCount: number };
+  total: number;
+  unavailableCount: number;
+  resultSetRevision: string;
+  nextCursor: string | null;
+  items: PersonPassage[];
+}
+
+export interface PersonPassageIndex {
+  schemaVersion: 1;
+  scope: 'current-archive';
+  coverage: PersonPassagesResponse['coverage'];
+  people: { id: string; name: string }[];
+  passages: { id: string; chapterId: string; title: string; spans: PassageSpan[]; people: { personId: string; kind: PersonPassageKind }[] }[];
+}
+
+export interface PersonPassageSummary {
+  schemaVersion: 1;
+  people: { id: string; books: { bookId: BookId; passageCount: number; chapterCount: number }[] }[];
 }

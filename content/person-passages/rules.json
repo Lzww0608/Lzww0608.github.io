@@ -1,0 +1,3769 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "policy": {
+    "scopeNote": "扫描当前全部归档，关联不宣称覆盖未归档史书。完整段落为第一版最小片段，同段可关联多人。",
+    "identity": "精确繁体姓名、核验异名和有历史语境的双字短名；不匹配单字名，不使用康君利、安景思等演义用名，不按catalog.subjects扩散。",
+    "inheritance": "本纪按实际主体，本传按核验分节；后嗣段另为记载，下一传不继承；史敬思仅明确附父段。",
+    "titles": "莊宗、明宗等在当前已核验归档中解释；太祖、高祖、帝、上、晉王等必须在明确局部范围内，编年交接按实际记事位置。",
+    "limitations": "未能安全消歧的孤立帝号、单字名及跨段省略代称不自动补入；目录引用和校勘提及标为mention。"
+  },
+  "people": [
+    {
+      "personId": "zhu-wen",
+      "names": [
+        "朱溫",
+        "朱温",
+        "朱全忠",
+        "朱晃",
+        "硃全忠"
+      ],
+      "shortNames": [
+        "全忠"
+      ],
+      "titles": [
+        "梁太祖",
+        "梁祖"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "zhu-yougui",
+      "names": [
+        "朱友珪"
+      ],
+      "shortNames": [
+        "友珪"
+      ],
+      "titles": [
+        "梁郢王",
+        "庶人友珪"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "zhu-youzhen",
+      "names": [
+        "朱友貞",
+        "朱友真",
+        "朱鍠",
+        "朱瑱"
+      ],
+      "shortNames": [
+        "友貞",
+        "友真"
+      ],
+      "titles": [
+        "梁末帝",
+        "梁末主",
+        "梁少帝"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-cunxu",
+      "names": [
+        "李存勖",
+        "李存勗"
+      ],
+      "shortNames": [
+        "存勖",
+        "存勗"
+      ],
+      "titles": [
+        "莊宗"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-siyuan",
+      "names": [
+        "李嗣源",
+        "李亶",
+        "邈佶烈"
+      ],
+      "shortNames": [
+        "嗣源"
+      ],
+      "titles": [
+        "明宗"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-conghou",
+      "names": [
+        "李從厚"
+      ],
+      "shortNames": [
+        "從厚"
+      ],
+      "titles": [
+        "愍帝",
+        "閔帝",
+        "唐闵帝",
+        "應順帝",
+        "應順主"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-congke",
+      "names": [
+        "李從珂",
+        "王從珂"
+      ],
+      "shortNames": [
+        "從珂"
+      ],
+      "titles": [
+        "廢帝",
+        "清泰帝",
+        "清泰主",
+        "唐末帝",
+        "唐末主"
+      ],
+      "excludedPhrases": [
+        "前廢帝"
+      ]
+    },
+    {
+      "personId": "shi-jingtang",
+      "names": [
+        "石敬瑭",
+        "石敬塘"
+      ],
+      "shortNames": [
+        "敬瑭",
+        "敬塘"
+      ],
+      "titles": [
+        "晉高祖",
+        "晋高祖",
+        "晉髙祖",
+        "晉祖",
+        "晋祖"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "shi-chonggui",
+      "names": [
+        "石重貴"
+      ],
+      "shortNames": [
+        "重貴"
+      ],
+      "titles": [
+        "晉出帝",
+        "晋出帝",
+        "晉少帝",
+        "晋少帝",
+        "出帝"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "liu-zhiyuan",
+      "names": [
+        "劉知遠",
+        "劉暠",
+        "劉知逺"
+      ],
+      "shortNames": [
+        "知遠",
+        "知逺"
+      ],
+      "titles": [
+        "漢高祖",
+        "漢髙祖",
+        "漢祖"
+      ],
+      "excludedPhrases": [
+        "張知遠"
+      ]
+    },
+    {
+      "personId": "liu-chengyou",
+      "names": [
+        "劉承祐"
+      ],
+      "shortNames": [
+        "承祐"
+      ],
+      "titles": [
+        "隱帝"
+      ],
+      "excludedPhrases": [
+        "張承祐"
+      ]
+    },
+    {
+      "personId": "guo-wei",
+      "names": [
+        "郭威"
+      ],
+      "shortNames": [],
+      "titles": [
+        "周太祖",
+        "周祖",
+        "周高祖",
+        "周髙祖"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "chai-rong",
+      "names": [
+        "柴榮",
+        "郭榮"
+      ],
+      "shortNames": [],
+      "titles": [
+        "世宗"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "chai-zongxun",
+      "names": [
+        "柴宗訓",
+        "郭宗訓"
+      ],
+      "shortNames": [
+        "宗訓"
+      ],
+      "titles": [
+        "恭帝",
+        "梁王宗訓",
+        "鄭王宗訓"
+      ],
+      "excludedPhrases": [
+        "王宗訓"
+      ],
+      "protectedPhrases": [
+        "梁王宗訓",
+        "鄭王宗訓"
+      ]
+    },
+    {
+      "personId": "li-sizhao",
+      "names": [
+        "李嗣昭",
+        "李進通"
+      ],
+      "shortNames": [
+        "嗣昭"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-cunxin",
+      "names": [
+        "李存信"
+      ],
+      "shortNames": [
+        "存信"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-cunjin",
+      "names": [
+        "李存進",
+        "孫重進"
+      ],
+      "shortNames": [
+        "存進"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-siben",
+      "names": [
+        "李嗣本"
+      ],
+      "shortNames": [
+        "嗣本"
+      ],
+      "titles": [
+        "威信可汗"
+      ],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-sien",
+      "names": [
+        "李嗣恩"
+      ],
+      "shortNames": [
+        "嗣恩"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-cunzhang",
+      "names": [
+        "李存璋"
+      ],
+      "shortNames": [
+        "存璋"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "fu-cunshen",
+      "names": [
+        "符存審",
+        "李存審"
+      ],
+      "shortNames": [
+        "存審"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "li-cunxian",
+      "names": [
+        "李存賢",
+        "王賢"
+      ],
+      "shortNames": [
+        "存賢"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "shi-jingsi",
+      "names": [
+        "史敬思"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "kang-junli",
+      "names": [
+        "康君立"
+      ],
+      "shortNames": [
+        "君立"
+      ],
+      "titles": [],
+      "excludedPhrases": [
+        "米君立",
+        "石君立"
+      ]
+    },
+    {
+      "personId": "li-cunxiao",
+      "names": [
+        "李存孝",
+        "安敬思"
+      ],
+      "shortNames": [
+        "存孝"
+      ],
+      "titles": [],
+      "excludedPhrases": []
+    }
+  ],
+  "sections": [
+    {
+      "chapterId": "old-v001",
+      "start": 1,
+      "end": 67,
+      "personId": "zhu-wen",
+      "startText": "案薛史本紀，永樂大典所載俱全，獨梁太祖紀原帙已佚，其散見于各韻者，僅得六十八條，參以",
+      "endText": "九月，帝以兗、鄆旣平，將士雄勇，遂大舉南征。案舊唐書昭宗紀，師古渡淮在十月，而清口之",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v002",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-wen",
+      "startText": "光化元年正月，帝遣葛從周統諸將略地于山東，遂次於邢、洺。三月，昭宗以帝兼領天平軍節度",
+      "endText": "八月甲辰，以滄州未平，復命北征。九月丁卯，營于長蘆。一夕，帝夢白龍附於兩肩，左右瞻顧",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v003",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-wen",
+      "startText": "開平元年正月丁亥，帝回自長蘆，次於魏州。節度使羅紹威以帝回軍，慮有不測之患，由是供億",
+      "endText": "是年，諸道多奏軍人百姓割股，青、齊、河朔尤多。帝曰：「此若因心，亦足為孝。但苟免徭役",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v004",
+      "start": 1,
+      "end": 21,
+      "personId": "zhu-wen",
+      "startText": "開平二年正月癸酉，帝御金祥殿，受宰臣文武百官及諸籓屏陪臣稱賀，諸道貢舉一百五十七人，",
+      "endText": "閏八月，襄陽叛將李洪差小將進表，帝示以含宏，特賜敕書慰諭。又制：「左馮背叛，元惡遁逃",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v005",
+      "start": 1,
+      "end": 19,
+      "personId": "zhu-wen",
+      "startText": "開平三年",
+      "endText": "辛丑，以久雨，命宰臣薛貽矩抃定鼎門，趙光逢祠嵩嶽。敕：「魏博管內刺史，比來州務，並委",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v006",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-wen",
+      "startText": "開平四年",
+      "endText": "十二月，詔以時雪稍愆，命丞相及三省官各詣望祠祈禱。癸酉，臘假，詔諸王與河南尹、左右金",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v007",
+      "start": 1,
+      "end": 7,
+      "personId": "zhu-wen",
+      "startText": "乾化二年",
+      "endText": "六月丁丑朔，帝命敬翔出友珪為萊州刺史，即命之官。已宣旨，未行敕。時左遷者多追賜死，友",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v008",
+      "start": 1,
+      "end": 46,
+      "personId": "zhu-youzhen",
+      "startText": "末帝，諱瑱，初名友貞，及即位，改名鍠，貞明中又改今諱。太祖第四子也。母曰元貞皇后張氏",
+      "endText": "十月丁酉，以開府儀同三司、中書侍郎兼吏部尚書、同平章事、集賢殿大學士、判戶部敬翔為右",
+      "label": "梁末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v009",
+      "start": 1,
+      "end": 39,
+      "personId": "zhu-youzhen",
+      "startText": "貞明三年",
+      "endText": "十二月戊戌，晉王領軍迫河南寨，王瓚率師禦之，獲晉將石家才。既而瓚軍不利，瓚退保楊村寨",
+      "label": "梁末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v010",
+      "start": 1,
+      "end": 36,
+      "personId": "zhu-youzhen",
+      "startText": "貞明六年",
+      "endText": "史臣曰：末帝仁而無武，明不照奸，上無積德之基可乘，下有弄權之臣為輔，卒使勁敵奄至，大",
+      "label": "梁末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v027",
+      "start": 1,
+      "end": 24,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝，諱存勗，武皇帝之長子也。母曰貞簡皇后曹氏，以唐光啟元年歲在乙巳，",
+      "endText": "十一月辛丑，燕人侵易、定，王處直來告難。十二月甲子，帝遣周德威、劉光浚、李嗣源及諸將",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v028",
+      "start": 1,
+      "end": 32,
+      "personId": "li-cunxu",
+      "startText": "天祐九年春正月庚辰朔，周德威等自飛狐東下。丙戌，會鎮、定之師進營祁溝。庚子，次涿州，",
+      "endText": "十二月庚子朔，帝進軍，距梁軍柵十里而止。時梁將賀瑰殺騎將謝彥章於軍，帝聞之曰：「賊帥",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v029",
+      "start": 1,
+      "end": 29,
+      "personId": "li-cunxu",
+      "startText": "天祐十六年春正月，李存審城德勝，夾河為柵。帝還魏州，命昭義軍節度使李嗣昭權知幽州軍府",
+      "endText": "九月壬寅朔，帝在朝城，凝兵至臨河南，與帝之騎軍接戰。是時澤潞叛，衛州、黎陽為梁人所據",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v030",
+      "start": 1,
+      "end": 21,
+      "personId": "li-cunxu",
+      "startText": "同光元年冬十月辛未朔，日有食之。是日，皇后劉氏、皇子繼岌歸鄴宮，帝送於離亭，歔欷而別",
+      "endText": "辛卯，亳州太清宮道士上言，聖祖殿前古檜萎瘁已久再生一枝，圖畫以進。詔曰：「當聖祖舊殿",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v031",
+      "start": 1,
+      "end": 14,
+      "personId": "li-cunxu",
+      "startText": "同光二年春正月庚子朔，帝御明堂殿受朝賀，仗衛如式。壬寅，南郊禮儀使、太常卿李燕進太廟",
+      "endText": "丙申，潞州小校楊立據城叛，以李嗣源為招討使，陝州留後李紹真為副，率師以討之。",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v032",
+      "start": 1,
+      "end": 22,
+      "personId": "li-cunxu",
+      "startText": "同光二年夏五月己亥，帝御文明殿，冊齊王張全義為太尉。禮畢，全義赴尚書省領事，左諫議大",
+      "endText": "六月癸亥，雲州上言，去年契丹從磧北歸帳，達靼因相掩擊，其首領於越族帳自磧北以部族羊馬",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v033",
+      "start": 1,
+      "end": 18,
+      "personId": "li-cunxu",
+      "startText": "同光三年秋七月丁酉，以久雨，詔河南府依法祈晴。滑州上言，黃河決。壬寅，皇太后崩於長壽",
+      "endText": "庚子，彰武、保大等節度使高萬興卒。甲辰，淮南楊溥遣使朝貢。乙巳，以晉州節度使李存乂為",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v034",
+      "start": 1,
+      "end": 15,
+      "personId": "li-cunxu",
+      "startText": "同光四年春正月戊午朔，帝不受朝賀，契丹寇渤海。壬戌，詔以去歲災沴，物價騰踴，自今月三",
+      "endText": "史臣曰：莊宗以雄圖而起河、汾，以力戰而平汴、洛，家仇既雪，國祚中興，雖少康之嗣夏配天",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v035",
+      "start": 1,
+      "end": 22,
+      "personId": "li-siyuan",
+      "startText": "明宗聖德和武欽孝皇帝，諱亶，初名嗣源，及即位，改今諱，代北人也。世事武皇，及其錫姓也",
+      "endText": "中書門下上言：「請停廢諸道鹽運使、內勾司、租庸院大程官，出放豬羊柴炭戶。括田竿尺，一",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v036",
+      "start": 1,
+      "end": 12,
+      "personId": "li-siyuan",
+      "startText": "天成元年夏四月丙午，帝自興聖宮赴西宮，文武百僚縞素於位，帝服斬衰，親奉攢，塗設奠，哭",
+      "endText": "癸未，詔辰州刺史豆盧革可責授費州司戶參軍，漵州刺史韋說可責授夷州司戶參軍，皆員外置同",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v037",
+      "start": 1,
+      "end": 10,
+      "personId": "li-siyuan",
+      "startText": "天成元年秋八月乙酉朔，日有食之。有司上言：「莊宗廟室酌獻，請奏武成之舞。」從之。鄆州",
+      "endText": "庚戌，御史台奏：「京城坊市士庶工商之家，有婢仆自經投井，非理物故者。近者已來，凡是死",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v038",
+      "start": 1,
+      "end": 20,
+      "personId": "li-siyuan",
+      "startText": "天成二年春正月癸丑朔，帝御明堂殿受朝賀，仗衛如常儀。製曰：「王者祗敬宗祧，統臨寰宇，",
+      "endText": "十二月戊寅朔，以前鳳翔留後高允貞為右監門上將軍。詔以施州為夔州屬郡，以其便近故也。遣",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v039",
+      "start": 1,
+      "end": 14,
+      "personId": "li-siyuan",
+      "startText": "天成三年春正月戊申朔，帝御崇元殿受朝賀，仗衛如式。辛亥，前河陽節度使、檢校太傅、兼侍",
+      "endText": "十二月壬寅朔，詔真定府屬縣宜準河中、鳳翔例升為次畿，真定縣升為次赤。甲辰，邠州節度使",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v040",
+      "start": 1,
+      "end": 12,
+      "personId": "li-siyuan",
+      "startText": "天成四年春正月壬申朔，帝御崇元殿受朝賀，仗衛如儀。幽州節度使趙德鈞奏：「臣孫讚，年五",
+      "endText": "十二月丁酉，靈武康福奏：「破野利、大蟲兩族三百餘帳於方渠，獲牛羊三萬。」戊戌，詔：「",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v041",
+      "start": 1,
+      "end": 20,
+      "personId": "li-siyuan",
+      "startText": "長興元年春正月丙寅朔，帝御明堂殿受朝賀，仗衛如常儀。乙亥，國子監請以監學生束修及光學",
+      "endText": "十二月乙未，荊南奏，湖南節度使、楚國王馬殷薨，廢朝三日。庚子，以前襄州節度使安元信為",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v042",
+      "start": 1,
+      "end": 13,
+      "personId": "li-siyuan",
+      "startText": "長興二年春正月庚申朔，帝御明堂殿受朝賀，仗衛如儀。乙丑，詔曰：「故天策上將軍、守太師",
+      "endText": "十二月甲寅朔，詔開鐵禁，許百姓自鑄農器、什器之屬，於夏秋田畝上，每畝輸農器錢一錢五分",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v043",
+      "start": 1,
+      "end": 12,
+      "personId": "li-siyuan",
+      "startText": "長興三年春正月癸未朔，帝御明堂殿受朝賀，仗衛如式。丁亥，陝州節度使安從進移鎮延州。己",
+      "endText": "十二月戊申朔，供奉官丁延徽、倉官田繼勳並棄市，坐擅出倉粟數百斛故也。教坊伶官敬新磨受",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v044",
+      "start": 1,
+      "end": 14,
+      "personId": "li-siyuan",
+      "startText": "長興四年春正月戊寅朔，帝御明堂殿受朝賀，仗衛如式。是日雪盈尺。戊子，秦王從榮加守尚書",
+      "endText": "史臣曰：明宗戰伐之勳，雖高佐命，潛躍之事，本不經心。會王室之多艱，屬神器之自至，諒由",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v045",
+      "start": 1,
+      "end": 15,
+      "personId": "li-conghou",
+      "startText": "閔帝",
+      "endText": "史臣曰：閔帝爰自衝年，素有令問，及征從代邸，入踐堯階，屬軒皇之弓劍初遺，吳王之几杖未",
+      "label": "唐闵帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v046",
+      "start": 1,
+      "end": 28,
+      "personId": "li-congke",
+      "startText": "末帝，諱從珂，本姓王氏，鎮州人也。母宣憲皇后魏氏，以光啟元年歲在乙巳正月二十三日，生",
+      "endText": "十二月丁卯朔，詔修奉本朝諸帝陵寢。己巳，以北面馬軍都指揮使、易州刺史安叔千為安北都護",
+      "label": "唐末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v047",
+      "start": 1,
+      "end": 18,
+      "personId": "li-congke",
+      "startText": "清泰二年春正月丙申朔，帝御明堂殿受朝賀，仗衛如式。乙巳，中書門下奏：「遇千春節，凡刑",
+      "endText": "十二月戊辰，禁用鉛錢。壬申，以中書侍郎兼兵部尚書、充樞密使韓昭裔為檢校司空、同平章事",
+      "label": "唐末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v048",
+      "start": 1,
+      "end": 16,
+      "personId": "li-congke",
+      "startText": "清泰三年春正月辛卯朔，帝御文明殿受朝賀，仗衛如式。乙未，百濟遣使獻方物。戊戌，幸龍門",
+      "endText": "史臣曰：末帝負神武之才，有人君之量。由尋戈而踐阼，慚德應深；及當寧以居尊，政經未失。",
+      "label": "唐末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v075",
+      "start": 1,
+      "end": 23,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝，姓石氏，諱敬瑭，太原人也。本衛大夫碏、漢丞相奮之後，漢衰，關",
+      "endText": "是日，帝言於契丹主，願以雁門已北及幽州之地為戎王壽，仍約歲輸帛三十萬，戎王許之。",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v076",
+      "start": 1,
+      "end": 17,
+      "personId": "shi-jingtang",
+      "startText": "天福元年十一月己亥，帝御北京崇元殿，降制：「改長興七年為天福元年，大赦天下。十一月九",
+      "endText": "十二月，以監察御史徐臺符為尚書膳部員外郎、知制誥，以右補闕史官修撰吳承範為尚書屯田員",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v077",
+      "start": 1,
+      "end": 12,
+      "personId": "shi-jingtang",
+      "startText": "天福三年正月戊申朔，帝御崇元殿受朝賀，仗衛如式。己酉，百官守司，以太史先奏日蝕故也。",
+      "endText": "十二月甲戌朔，以前兵部尚書梁文矩為太子太師，以鎮州節度副使符蒙為右諫議大夫，以吏部郎",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v078",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-jingtang",
+      "startText": "天福四年春正月癸卯，帝御崇元殿受朝賀，仗衛如式。丙午，召太子太師致仕範延光宴於便殿。",
+      "endText": "十二月丁酉朔，百官不入閣，大雪故也。己亥，故皇子重英妻張氏落發為尼，賜名悟慎，並夏臘",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v079",
+      "start": 1,
+      "end": 16,
+      "personId": "shi-jingtang",
+      "startText": "天福五年春正月丁卯朔，帝御崇元殿受朝賀，仗衛如式。降德音：「應天福三年終，公私債欠，",
+      "endText": "六月丙申，以前衛尉卿趙延乂為司天監。丁酉，詔：「今後藩侯郡守，凡有善政，委倅貳官條件",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v080",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-jingtang",
+      "startText": "天福六年秋七月己未朔，帝御崇元殿視朝。庚申，升陳州為防禦使額。辛酉，以前鄧州節度使焦",
+      "endText": "史臣曰：晉祖潛躍之前沈毅而已。及其為君也，旰食宵衣，禮賢從諫，慕黃、老之教，樂清凈之",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v081",
+      "start": 1,
+      "end": 14,
+      "personId": "shi-chonggui",
+      "startText": "少帝，名重貴，高祖之從子也。考諱敬儒，母安氏，以唐天祐十一年六月二十七日生帝於太原汾",
+      "endText": "六月庚戌，以螟蝗為害，詔侍衛馬步軍都指揮使李守貞往臯門祭告，仍遣諸司使梁進超等七人分",
+      "label": "晋少帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v082",
+      "start": 1,
+      "end": 12,
+      "personId": "shi-chonggui",
+      "startText": "天福八年秋七月丁丑朔，京師雨水深三尺。辛巳，許州節度使李從溫來朝，進封楚國公。壬午，",
+      "endText": "六月辛丑朔，王師拔淄州，斬楊光遠偽署刺史劉翰。癸卯，以太尉、兼侍中馮道為檢校太師、兼",
+      "label": "晋少帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v083",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-chonggui",
+      "startText": "開運元年秋七月辛未朔，帝御崇元殿，大赦天下，改天福九年為開運元年。河北諸州，曾經契丹",
+      "endText": "夏四月丙子，以車駕將還京，差官往西京告天地宗廟社稷。辛巳，駕發澶州。甲申，至京師，曲",
+      "label": "晋少帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v084",
+      "start": 1,
+      "end": 18,
+      "personId": "shi-chonggui",
+      "startText": "開運二年夏五月丙申朔，帝御崇元殿受朝，大赦天下。丁酉，以右衛上將軍馬萬為左金吾上將軍",
+      "endText": "秋九月壬辰，鄆州節度使、侍衛親軍都指揮使李守貞加兼侍中，滑州節度使皇甫遇進封邠國公，",
+      "label": "晋少帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v085",
+      "start": 1,
+      "end": 13,
+      "personId": "shi-chonggui",
+      "startText": "開運三年冬十月甲子，正衙命使冊皇太妃安氏。己丑，以樞密直學士、禮部侍郎邊光範為翰林學",
+      "endText": "史臣曰：少帝以中人之才，嗣將墜之業，屬上天不祐，仍歲大饑，尚或絕強敵之歡盟，鄙輔臣之",
+      "label": "晋少帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v099",
+      "start": 1,
+      "end": 9,
+      "personId": "liu-zhiyuan",
+      "startText": "高祖睿文聖武昭肅孝皇帝，姓劉氏，諱暠，本名知遠，及即位改今諱。其先本沙陀部人也。四代",
+      "endText": "夏四月己未，以北京馬軍都指揮使、集州刺史劉信為滑州節度使，充侍衛馬軍都指揮使、檢校太",
+      "label": "汉高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v100",
+      "start": 1,
+      "end": 15,
+      "personId": "liu-zhiyuan",
+      "startText": "天福十二年",
+      "endText": "史臣曰：在昔皇天降禍，諸夏無君。漢高祖肇起幷、汾，遄臨汴、洛，乘虛而取神器，因亂而有",
+      "label": "汉高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v101",
+      "start": 1,
+      "end": 12,
+      "personId": "liu-chengyou",
+      "startText": "隱皇帝，諱承祐，高祖第二子也。母曰李太后，以唐長興二年，歲在辛卯，三月七日，生帝於鄴",
+      "endText": "十二月丁丑，荊南節度副使、檢校太傅、行峽州刺史高保融起復，授荊南節度使、檢校太尉、同",
+      "label": "汉隐帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v102",
+      "start": 1,
+      "end": 16,
+      "personId": "liu-chengyou",
+      "startText": "乾祐二年春正月乙巳朔，制曰：",
+      "endText": "十二月庚午朔，湖南奏，靜江軍節度使馬希贍以今年十月十八日卒。廢朝二日。辛未，日暈三重",
+      "label": "汉隐帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v103",
+      "start": 1,
+      "end": 22,
+      "personId": "liu-chengyou",
+      "startText": "乾祐三年春正月己亥朔，帝不受朝賀。鳳翔行營都部署趙暉奏，前月二十四日，收復鳳翔，逆賊",
+      "endText": "史臣曰：隱帝以尚幼之年，嗣新造之業。受命之主，德非禹、湯；輔政之臣，復非伊、呂。將欲",
+      "label": "汉隐帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v110",
+      "start": 1,
+      "end": 23,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文武孝皇帝，姓郭氏，諱威，字文仲，邢州堯山人也。或云本常氏之子，幼隨母適",
+      "endText": "又詔在朝文武臣僚，各上封事，凡有益國利民之事，速具以聞。〈（《通鑒》：詔曰：朕生長軍",
+      "label": "周太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v111",
+      "start": 1,
+      "end": 7,
+      "personId": "guo-wei",
+      "startText": "廣順元年春二月癸巳朔，以樞密副使、尚書戶部侍郎範質為兵部侍郎，依前充職；以陳州刺史、",
+      "endText": "九月庚申朔，帝詣太平宮起居漢太后。辛酉，故夫人楊氏追贈淑妃，仍令所司擇日備禮冊命。故",
+      "label": "周太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v112",
+      "start": 1,
+      "end": 18,
+      "personId": "guo-wei",
+      "startText": "廣順元年冬十月己丑朔，宰臣王峻獻唐張蘊古《大寶箴》、謝偃《惟皇誡德賦》二圖。詔報曰：",
+      "endText": "二月辛亥朔，以前西京留守白文珂為太子太師致仕，進封韓國公。癸丑，安州節度使李洪義、侍",
+      "label": "周太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v113",
+      "start": 1,
+      "end": 14,
+      "personId": "guo-wei",
+      "startText": "廣順三年春三月庚辰朔，以相州留後白重贊為滑州節度使，以鄭州防禦使王進為相州節度使，以",
+      "endText": "史臣曰：周太祖昔在初潛，未聞多譽，洎西平蒲阪，北鎮鄴臺，有統御之勞，顯英偉之量。旋屬",
+      "label": "周太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v114",
+      "start": 1,
+      "end": 16,
+      "personId": "chai-rong",
+      "startText": "世宗睿武孝文皇帝，諱榮，太祖之養子，蓋聖穆皇后之侄也。本姓柴氏，父守禮，太子少保致仕",
+      "endText": "十二月己酉，太子太師侯益以本官致仕。",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v115",
+      "start": 1,
+      "end": 24,
+      "personId": "chai-rong",
+      "startText": "顯德二年春正月辛未朔，帝不受朝賀。辛卯，詔：「在朝文班，各舉堪為令錄者一人，雖姻族近",
+      "endText": "十二月丙寅，以左金吾大將軍蓋萬為右監門上將軍。丁卯，淄州奏，前中書侍郎、同平章事景範",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v116",
+      "start": 1,
+      "end": 18,
+      "personId": "chai-rong",
+      "startText": "顯德三年春正月乙未朔，帝不受朝賀。前司空蘇禹珪卒。丁酉，李穀奏，破淮賊於上窯。戊戌，",
+      "endText": "十二月己未朔，以給事中張鑄為光祿卿，鑄訴以官名與祖諱同，尋改秘書監，判光祿寺事。辛酉",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v117",
+      "start": 1,
+      "end": 12,
+      "personId": "chai-rong",
+      "startText": "顯德四年春正月己丑朔，帝御崇元殿受朝賀，仗衛如儀。詔天下見禁罪人，除大辟外，一切釋放",
+      "endText": "十二月乙卯，泗州守將範再遇以其城降，授再遇宿州團練使。戊午，帝自泗州率眾東下，命今上",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v118",
+      "start": 1,
+      "end": 13,
+      "personId": "chai-rong",
+      "startText": "顯德五年春正月癸未朔，帝在楚州城下，從臣詣行宮稱賀。〈（《隆平集·馬仁瑀傳》：世宗征",
+      "endText": "十二月丁丑朔，郎州奏，醴陵縣玉仙觀山門中，舊有田二萬頃，久為山石閉塞，今年七月十七日",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v119",
+      "start": 1,
+      "end": 7,
+      "personId": "chai-rong",
+      "startText": "顯德六年春正月丁未朔，帝御崇元殿受朝賀，仗衛如式。壬子，高麗國王王昭遣使貢方物。己卯",
+      "endText": "史臣曰：世宗頃在仄微，尤務韜晦，及天命有屬，嗣守鴻業，不日破高平之陣，逾年復秦、鳳之",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v120",
+      "start": 1,
+      "end": 11,
+      "personId": "chai-zongxun",
+      "startText": "恭帝",
+      "endText": "史臣曰：夫四序之氣，寒往則暑來；五行之數，金銷則火盛。故堯、舜之揖讓，漢、魏之傳禪，",
+      "label": "周恭帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v01",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-wen",
+      "startText": "太祖神武元聖孝皇帝，姓朱氏，宋州碭山午溝里人也。其父誠，以五經教授鄉里，生三子，曰全",
+      "endText": "↑ 遣朱友謙殺胤於京師　曾三異謂「殺崔胤者朱友謀，非友謙」。按本史卷一三梁朗王存傳載",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v02",
+      "start": 1,
+      "end": 56,
+      "personId": "zhu-wen",
+      "startText": "開平元年",
+      "endText": "↑ 封鴻臚卿李崧萊國公為二王後「崧」，薛史卷四梁太祖紀及五代會要卷五作「嵸」。按本史",
+      "label": "梁太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v03",
+      "start": 1,
+      "end": 54,
+      "personId": "zhu-youzhen",
+      "startText": "末帝，太祖第三子友貞也。〈「末」非謚號，從其本語。〉為人美容貌，沈厚寡言，雅好儒士。",
+      "endText": "秋八月，段凝為北面行營招討使。先鋒將康延孝叛降于唐。冬十月甲戌，宣義軍節度使王彥章及",
+      "label": "梁末帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v04",
+      "start": 1,
+      "end": 27,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝，其先本號朱邪，蓋出於西突厥，至其後世，別自號曰沙陀，而以朱邪為姓",
+      "endText": "↑ 簡方行至嵐州　「嵐」，各本原作「鳳」。按舊唐書卷一九上懿宗紀、通鑑卷二五三並云以",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v05",
+      "start": 1,
+      "end": 17,
+      "personId": "li-cunxu",
+      "startText": "存勗，克用長子也。初，克用破孟方立于邢州，還軍上黨，置酒三垂崗，伶人奏百年歌，至于衰",
+      "endText": "↑ 魏王繼岌殺郭崇韜及其二子于蜀　「二子」，各本原作「三子」。按薛史卷五七郭崇韜傳、",
+      "label": "唐庄宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v06",
+      "start": 1,
+      "end": 23,
+      "personId": "li-siyuan",
+      "startText": "明宗聖德和武欽孝皇帝，世本夷狄，無姓氏。父霓，為鴈門部將，生子邈佶烈，以騎射事太祖，",
+      "endText": "↑ 吐渾都督李紹虜　本史卷七四四夷附錄載：吐渾有首領白承福，唐莊宗為置寧朔、奉化兩府",
+      "label": "唐明宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v08",
+      "start": 1,
+      "end": 19,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝，其父臬捩鷄，本出於西夷，自朱邪歸唐，從朱邪入居陰山。其後，晉",
+      "endText": "↑ 郭金海　各本原作「郭海金」。薛史卷八０晉高祖紀、卷九四郭金海傳、卷九八安從進傳、",
+      "label": "晋高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v09",
+      "start": 1,
+      "end": 11,
+      "personId": "shi-chonggui",
+      "startText": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。高祖六子，五皆早死，而",
+      "endText": "↑ 永清軍節度梁漢璋　「清」，各本原作「靜」。薛史卷九五梁漢璋傳及通鑑卷二八五俱稱梁",
+      "label": "晋出帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v11",
+      "start": 1,
+      "end": 13,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文武皇帝，姓郭氏，邢州堯山人也。父簡，事晉為順州刺史。劉仁恭攻破順州，簡",
+      "endText": "顯德元年春正月丙子朔，有事于南郊，大赦，改元，羣臣上尊號曰聖明文武仁德皇帝。戊寅，罷",
+      "label": "周太祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v07",
+      "start": 1,
+      "end": 3,
+      "personId": "li-conghou",
+      "startText": "愍皇帝，明宗第五子從厚也。為人形質豐厚，寡言好禮，明宗以其貌類己，特愛之。天成二年，",
+      "endText": "應順元年春正月壬申朔，視朝于廣壽殿。〈著非禮也。〉乙亥，契丹使都督沒辣于來。戊寅，大",
+      "label": "愍帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v07",
+      "start": 4,
+      "end": 10,
+      "personId": "li-congke",
+      "startText": "廢帝，鎮州平山人也，本姓王氏，其世微賤，母魏氏，少寡，明宗為騎將，過平山，掠得之。魏",
+      "endText": "三年春正月乙未，百濟遣使者來。丁未，封子重美為雍王。三月丙午，翰林學士、禮部侍郎馬胤",
+      "label": "废帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v10",
+      "start": 1,
+      "end": 7,
+      "personId": "liu-zhiyuan",
+      "startText": "高祖睿文聖武昭肅孝皇帝，姓劉氏，初名知遠，其先沙陀部人也，其後世居于太原。知遠弱不好",
+      "endText": "乾祐元年春正月乙卯，大赦，改元。己未，更名暠。丁丑，皇帝崩于萬歲殿。〈年五十四。〉",
+      "label": "汉高祖本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v10",
+      "start": 8,
+      "end": 11,
+      "personId": "liu-chengyou",
+      "startText": "隱帝，高祖第二子承祐也。高祖即位，拜右衞上將軍、大內都點檢。魏王承訓長而賢。高祖愛之",
+      "endText": "三年春正月，西面行營都部署趙暉克鳳翔。〈景崇自焚死，故不書伏誅。〉丙午，郭威進添都馬",
+      "label": "汉隐帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v12",
+      "start": 1,
+      "end": 8,
+      "personId": "chai-rong",
+      "startText": "世宗睿武孝文皇帝，本姓柴氏，邢州龍岡人也。柴氏女適太祖，是為聖穆皇后。后兄守禮子榮，",
+      "endText": "六年春正月，高麗王昭遣使者來。辛酉，女真使阿辨來。三月己酉，甘州回鶻來獻玉，却之。庚",
+      "label": "周世宗本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v12",
+      "start": 9,
+      "end": 11,
+      "personId": "chai-zongxun",
+      "startText": "恭皇帝，世宗第四子宗訓也。世宗即位，大臣請封皇子為王，世宗謙抑久之。及北取三關，遇疾",
+      "endText": "七年春正月甲辰，遜于位。宋興。〈五代之亡，所書不同，隨事為文爾。「梁亡」見唐之速，「",
+      "label": "周恭帝本纪",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v012",
+      "start": 11,
+      "end": 11,
+      "personId": "zhu-yougui",
+      "startText": "友珪，小字遙喜，母失其姓，本亳州營妓也。唐光啟中，帝徇地亳州，召而侍寢。月餘，將舍之",
+      "endText": "友珪，小字遙喜，母失其姓，本亳州營妓也。唐光啟中，帝徇地亳州，召而侍寢。月餘，將舍之",
+      "label": "朱友珪传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v13",
+      "start": 44,
+      "end": 47,
+      "personId": "zhu-yougui",
+      "startText": "庶人友珪",
+      "endText": "太祖外孫袁象先[5]與駙馬都尉趙巖等，謀與末帝討賊。二月，象先以禁兵入宮，友珪與妻張",
+      "label": "庶人友珪传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v052",
+      "start": 1,
+      "end": 12,
+      "personId": "li-sizhao",
+      "startText": "李嗣昭",
+      "endText": "嗣昭節制澤、潞，官自司徒、太保至侍中、中書令。莊宗即位，贈太師、隴西郡王。長興中，詔",
+      "label": "李嗣昭传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v052",
+      "start": 13,
+      "end": 17,
+      "personId": "li-sizhao",
+      "startText": "嗣昭有子七人，長曰繼儔，澤州刺史；次繼韜、繼忠、繼能、繼襲、繼遠，皆夫人楊氏所生。楊",
+      "endText": "天成初，繼能為相州刺史，母楊氏卒於太原，繼能、繼襲奔喪行服。繼能笞掠母主藏婢，責金銀",
+      "label": "李嗣昭传附后嗣",
+      "kind": "record"
+    },
+    {
+      "chapterId": "old-v052",
+      "start": 20,
+      "end": 21,
+      "personId": "li-siben",
+      "startText": "李嗣本",
+      "endText": "李嗣本，雁門人，本姓張。父準，銅冶鎮將。嗣本少事武皇，為帳中紀綱，漸立戰功，得補軍校",
+      "label": "李嗣本传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v052",
+      "start": 22,
+      "end": 23,
+      "personId": "li-sien",
+      "startText": "李嗣恩",
+      "endText": "李嗣恩，本姓駱。〈（《歐陽史》：嗣恩本吐谷渾部人。）〉年十五，能騎射，侍武皇於振武；",
+      "label": "李嗣恩传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v053",
+      "start": 1,
+      "end": 3,
+      "personId": "li-cunxin",
+      "startText": "李存信",
+      "endText": "乾寧三年，兗、鄆乞師於武皇，武皇遣存信營於莘縣，與硃瑄合勢以抗梁人。梁祖患之，遣使諜",
+      "label": "李存信传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v053",
+      "start": 4,
+      "end": 8,
+      "personId": "li-cunxiao",
+      "startText": "李存孝",
+      "endText": "大順二年三月，邢州節度使安知建叛入汴軍，武皇令存孝定邢、洺，因授之節鉞。時幽州李匡威",
+      "label": "李存孝传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v053",
+      "start": 9,
+      "end": 12,
+      "personId": "li-cunjin",
+      "startText": "李存進",
+      "endText": "十九年，汴將王瓚率眾逼北城，為地穴火車，百道進攻。存進隨機拒應，或經日不得食。汴軍退",
+      "label": "李存进传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v053",
+      "start": 15,
+      "end": 16,
+      "personId": "li-cunzhang",
+      "startText": "李存璋",
+      "endText": "李存璋，字德璜，雲中人。武皇初起雲中，存璋與康君立、薛志勤等為奔走交，從入關，以功授",
+      "label": "李存璋传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v053",
+      "start": 18,
+      "end": 20,
+      "personId": "li-cunxian",
+      "startText": "李存賢",
+      "endText": "存賢少有材力，善角牴。初，莊宗在籓邸，每宴，私與王郁角牴鬥勝，郁頻不勝。莊宗自矜其能",
+      "label": "李存贤传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v055",
+      "start": 1,
+      "end": 3,
+      "personId": "kang-junli",
+      "startText": "康君立，蔚州興唐人，世為邊豪。乾符中，為雲州牙校，事防禦使段文楚。時群盜起河南，天下",
+      "endText": "景福初，檢校司徒，食邑千戶。二年，李存孝據邢州叛，武皇命君立討之，以功加檢校太保。乾",
+      "label": "康君立传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v055",
+      "start": 5,
+      "end": 5,
+      "personId": "shi-jingsi",
+      "startText": "史建瑭，字國寶。父敬思，雁門人，仕郡至牙校。武皇節制雁門，敬思為九府都督，從入關，定",
+      "endText": "史建瑭，字國寶。父敬思，雁門人，仕郡至牙校。武皇節制雁門，敬思為九府都督，從入關，定",
+      "label": "史建瑭传附父史敬思",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "old-v056",
+      "start": 13,
+      "end": 24,
+      "personId": "fu-cunshen",
+      "startText": "符存審",
+      "endText": "存審微時，嘗為俘囚，將就戮於郊外，臨刑指危垣謂主者曰：「請就戮於此下，冀得壞垣覆屍，",
+      "label": "符存审传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v25",
+      "start": 9,
+      "end": 16,
+      "personId": "fu-cunshen",
+      "startText": "符存審〈子彥超　彥饒　彥卿〉",
+      "endText": "莊宗滅梁入洛，存審自以身為大將，不得與破梁之功，怏怏，疾益甚，因請朝京師。是時，郭崇",
+      "label": "符存审传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v25",
+      "start": 24,
+      "end": 24,
+      "personId": "shi-jingsi",
+      "startText": "史建瑭，鴈門人也。晉王為鴈門節度使，其父敬思為九府都督，從晉王入關破黃巢，復京師，擊",
+      "endText": "史建瑭，鴈門人也。晉王為鴈門節度使，其父敬思為九府都督，從晉王入關破黃巢，復京師，擊",
+      "label": "史建瑭传附父史敬思",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 3,
+      "end": 8,
+      "personId": "li-sizhao",
+      "startText": "李嗣昭",
+      "endText": "十九年，從莊宗擊契丹於望都，莊宗為契丹圍之數十重，嗣昭以三百騎決圍，取莊宗以出。是時",
+      "label": "李嗣昭传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 9,
+      "end": 11,
+      "personId": "li-sizhao",
+      "startText": "嗣昭諸子，繼儔長而懦，其弟繼韜囚之以自立，莊宗方與梁兵相持河上，不暇究其事，因即以為",
+      "endText": "嗣昭七子，至明宗時，子繼能坐笞殺其母主藏婢，婢家告變，言繼能反，與其弟繼襲皆見殺，惟",
+      "label": "李嗣昭传附后嗣",
+      "kind": "record"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 12,
+      "end": 13,
+      "personId": "li-siben",
+      "startText": "李嗣本",
+      "endText": "嗣本，本姓張氏，鴈門人也。世為銅冶鎮將。嗣本少事太祖，太祖愛之，賜以姓名，養為子。從",
+      "label": "李嗣本传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 14,
+      "end": 15,
+      "personId": "li-sien",
+      "startText": "李嗣恩",
+      "endText": "嗣恩，本姓駱，吐谷渾部人也。少事太祖，能騎射，為鐵林軍將，稍以戰功遷突陣指揮使，賜姓",
+      "label": "李嗣恩传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 16,
+      "end": 17,
+      "personId": "li-cunxin",
+      "startText": "李存信",
+      "endText": "存信，本姓張氏，其父君政，回鶻李思忠之部人也。存信少善騎射，能四夷語，通六蕃書。從太",
+      "label": "李存信传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 18,
+      "end": 22,
+      "personId": "li-cunxiao",
+      "startText": "李存孝",
+      "endText": "存孝猨臂善射，身被重鎧，櫜弓坐矟，手舞鐵檛，出入陣中，以兩騎自從，戰酣易騎，上下如飛",
+      "label": "李存孝传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 23,
+      "end": 23,
+      "personId": "kang-junli",
+      "startText": "康君立素與存信相善，方二人之交惡也，君立每左右存信以傾之。存孝已死，太祖與諸將博，語",
+      "endText": "康君立素與存信相善，方二人之交惡也，君立每左右存信以傾之。存孝已死，太祖與諸將博，語",
+      "label": "李存孝传附康君立",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 24,
+      "end": 27,
+      "personId": "li-cunjin",
+      "startText": "李存進",
+      "endText": "晉討張文禮於鎮州，久不克，而史建瑭、閻寶、李嗣昭相次戰歿，乃以存進代嗣昭為招討使，軍",
+      "label": "李存进传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 29,
+      "end": 30,
+      "personId": "li-cunzhang",
+      "startText": "李存璋",
+      "endText": "存璋字德璜，初與康君立、薛志勤等從太祖入關，破黃巢，累遷義兒軍使。太祖病革，璋與張承",
+      "label": "李存璋传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "new-v36",
+      "start": 31,
+      "end": 34,
+      "personId": "li-cunxian",
+      "startText": "存賢",
+      "endText": "莊宗即位，拜右武衛上將軍。莊宗亦好角觝，嘗與王較而屢勝，[1]頗以自矜，因顧存賢曰：",
+      "label": "存贤传",
+      "kind": "biography"
+    },
+    {
+      "chapterId": "chunqiu-v001",
+      "start": 1,
+      "end": 6,
+      "personId": "zhu-wen",
+      "startText": "梁太祖",
+      "endText": "辛未乾化元年正月丙戌朔，日有食之。王景仁及晉王、趙人、定人戰於柏鄉，景仁師敗績。晉師",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v001",
+      "start": 7,
+      "end": 18,
+      "personId": "zhu-youzhen",
+      "startText": "末帝",
+      "endText": "癸未三年三月，潞州李繼韜以地來附。四月，晉人來取鄆州。五月，王彥章帥師侵晉，攻德勝南",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v001",
+      "start": 19,
+      "end": 23,
+      "personId": "li-cunxu",
+      "startText": "後唐莊宗神閔皇帝",
+      "endText": "丙戌四年正月，皇子繼岌害郭崇韜於蜀。帝殺弟存又及李繼麟。二月，康延孝據漢州拒命。盜發",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v001",
+      "start": 24,
+      "end": 32,
+      "personId": "li-siyuan",
+      "startText": "明宗仁德皇帝",
+      "endText": "癸巳四年四月，夏州李彝超拒命，安從進帥師討之。夏州不克。八月，皇子從榮爲兵馬元帥。十",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v001",
+      "start": 33,
+      "end": 35,
+      "personId": "li-conghou",
+      "startText": "閔皇帝",
+      "endText": "甲午應順元年正月，改元。西川孟知祥拒命。盜殺安州符彥超。三月，鳳翔從珂拒命，王思同帥",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 1,
+      "end": 4,
+      "personId": "li-congke",
+      "startText": "後唐末帝",
+      "endText": "丙申三年五月，河東石敬瑭拒命，張敬達、楊光遠帥師討河東。鄴都軍亂，逐劉延皓，范延光帥",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 5,
+      "end": 11,
+      "personId": "shi-jingtang",
+      "startText": "晉高祖",
+      "endText": "壬寅七年正月，杜重威克鎮州，誅安重榮。五月，帝不豫。六月乙丑，帝崩於鄴都保昌殿。",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 12,
+      "end": 18,
+      "personId": "shi-chonggui",
+      "startText": "少帝",
+      "endText": "丁未四年正月，帝遜於北郊。契丹德光入京師，誅張彥澤。癸卯，帝遜於遼陽。",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 19,
+      "end": 21,
+      "personId": "liu-zhiyuan",
+      "startText": "漢高祖",
+      "endText": "戊申乾祐元年正月乙卯，改元。帝不豫。丁丑，帝崩於萬歲殿。",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 22,
+      "end": 25,
+      "personId": "liu-chengyou",
+      "startText": "隱帝",
+      "endText": "庚戌三年二月，初崇學。閏六月癸巳，大風拔木。十一月甲子朔，日有食之。丙子，誅楊邠、史",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 26,
+      "end": 30,
+      "personId": "guo-wei",
+      "startText": "周高祖",
+      "endText": "甲寅顯德元年正月丙子朔，帝祀上帝於圜丘，改元。帝不豫。壬辰，帝崩於滋德殿。",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 31,
+      "end": 37,
+      "personId": "chai-rong",
+      "startText": "世宗",
+      "endText": "己未六年三月甲戌，帝北征。五月，次瓦橋關。甯、瀛、漢三州來降。帝不豫，班師。六月甲戌",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "chunqiu-v002",
+      "start": 38,
+      "end": 39,
+      "personId": "chai-zongxun",
+      "startText": "恭帝",
+      "endText": "己未顯德六年六月甲午，帝卽位。十一月壬寅，葬世宗皇帝於慶陵。七年正月甲辰，帝遜位。",
+      "label": "春秋分君编年",
+      "kind": "record"
+    },
+    {
+      "chapterId": "old-v001",
+      "start": 1,
+      "end": 67,
+      "personId": "zhu-wen",
+      "startText": "案薛史本紀，永樂大典所載俱全，獨梁太祖紀原帙已佚，其散見于各韻者，僅得六十八條，參以",
+      "endText": "九月，帝以兗、鄆旣平，將士雄勇，遂大舉南征。案舊唐書昭宗紀，師古渡淮在十月，而清口之",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v001",
+      "start": 1,
+      "end": 67,
+      "personId": "zhu-youzhen",
+      "startText": "案薛史本紀，永樂大典所載俱全，獨梁太祖紀原帙已佚，其散見于各韻者，僅得六十八條，參以",
+      "endText": "九月，帝以兗、鄆旣平，將士雄勇，遂大舉南征。案舊唐書昭宗紀，師古渡淮在十月，而清口之",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v002",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-wen",
+      "startText": "光化元年正月，帝遣葛從周統諸將略地于山東，遂次於邢、洺。三月，昭宗以帝兼領天平軍節度",
+      "endText": "八月甲辰，以滄州未平，復命北征。九月丁卯，營于長蘆。一夕，帝夢白龍附於兩肩，左右瞻顧",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v002",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-youzhen",
+      "startText": "光化元年正月，帝遣葛從周統諸將略地于山東，遂次於邢、洺。三月，昭宗以帝兼領天平軍節度",
+      "endText": "八月甲辰，以滄州未平，復命北征。九月丁卯，營于長蘆。一夕，帝夢白龍附於兩肩，左右瞻顧",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v003",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-wen",
+      "startText": "開平元年正月丁亥，帝回自長蘆，次於魏州。節度使羅紹威以帝回軍，慮有不測之患，由是供億",
+      "endText": "是年，諸道多奏軍人百姓割股，青、齊、河朔尤多。帝曰：「此若因心，亦足為孝。但苟免徭役",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v003",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-youzhen",
+      "startText": "開平元年正月丁亥，帝回自長蘆，次於魏州。節度使羅紹威以帝回軍，慮有不測之患，由是供億",
+      "endText": "是年，諸道多奏軍人百姓割股，青、齊、河朔尤多。帝曰：「此若因心，亦足為孝。但苟免徭役",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v004",
+      "start": 1,
+      "end": 21,
+      "personId": "zhu-wen",
+      "startText": "開平二年正月癸酉，帝御金祥殿，受宰臣文武百官及諸籓屏陪臣稱賀，諸道貢舉一百五十七人，",
+      "endText": "閏八月，襄陽叛將李洪差小將進表，帝示以含宏，特賜敕書慰諭。又制：「左馮背叛，元惡遁逃",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v004",
+      "start": 1,
+      "end": 21,
+      "personId": "zhu-youzhen",
+      "startText": "開平二年正月癸酉，帝御金祥殿，受宰臣文武百官及諸籓屏陪臣稱賀，諸道貢舉一百五十七人，",
+      "endText": "閏八月，襄陽叛將李洪差小將進表，帝示以含宏，特賜敕書慰諭。又制：「左馮背叛，元惡遁逃",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v005",
+      "start": 1,
+      "end": 19,
+      "personId": "zhu-wen",
+      "startText": "開平三年",
+      "endText": "辛丑，以久雨，命宰臣薛貽矩抃定鼎門，趙光逢祠嵩嶽。敕：「魏博管內刺史，比來州務，並委",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v005",
+      "start": 1,
+      "end": 19,
+      "personId": "zhu-youzhen",
+      "startText": "開平三年",
+      "endText": "辛丑，以久雨，命宰臣薛貽矩抃定鼎門，趙光逢祠嵩嶽。敕：「魏博管內刺史，比來州務，並委",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v006",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-wen",
+      "startText": "開平四年",
+      "endText": "十二月，詔以時雪稍愆，命丞相及三省官各詣望祠祈禱。癸酉，臘假，詔諸王與河南尹、左右金",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v006",
+      "start": 1,
+      "end": 17,
+      "personId": "zhu-youzhen",
+      "startText": "開平四年",
+      "endText": "十二月，詔以時雪稍愆，命丞相及三省官各詣望祠祈禱。癸酉，臘假，詔諸王與河南尹、左右金",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v007",
+      "start": 1,
+      "end": 7,
+      "personId": "zhu-wen",
+      "startText": "乾化二年",
+      "endText": "六月丁丑朔，帝命敬翔出友珪為萊州刺史，即命之官。已宣旨，未行敕。時左遷者多追賜死，友",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v007",
+      "start": 1,
+      "end": 7,
+      "personId": "zhu-youzhen",
+      "startText": "乾化二年",
+      "endText": "六月丁丑朔，帝命敬翔出友珪為萊州刺史，即命之官。已宣旨，未行敕。時左遷者多追賜死，友",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v008",
+      "start": 1,
+      "end": 46,
+      "personId": "zhu-wen",
+      "startText": "末帝，諱瑱，初名友貞，及即位，改名鍠，貞明中又改今諱。太祖第四子也。母曰元貞皇后張氏",
+      "endText": "十月丁酉，以開府儀同三司、中書侍郎兼吏部尚書、同平章事、集賢殿大學士、判戶部敬翔為右",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v008",
+      "start": 1,
+      "end": 46,
+      "personId": "zhu-youzhen",
+      "startText": "末帝，諱瑱，初名友貞，及即位，改名鍠，貞明中又改今諱。太祖第四子也。母曰元貞皇后張氏",
+      "endText": "十月丁酉，以開府儀同三司、中書侍郎兼吏部尚書、同平章事、集賢殿大學士、判戶部敬翔為右",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v009",
+      "start": 1,
+      "end": 39,
+      "personId": "zhu-wen",
+      "startText": "貞明三年",
+      "endText": "十二月戊戌，晉王領軍迫河南寨，王瓚率師禦之，獲晉將石家才。既而瓚軍不利，瓚退保楊村寨",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v009",
+      "start": 1,
+      "end": 39,
+      "personId": "zhu-youzhen",
+      "startText": "貞明三年",
+      "endText": "十二月戊戌，晉王領軍迫河南寨，王瓚率師禦之，獲晉將石家才。既而瓚軍不利，瓚退保楊村寨",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v010",
+      "start": 1,
+      "end": 36,
+      "personId": "zhu-wen",
+      "startText": "貞明六年",
+      "endText": "史臣曰：末帝仁而無武，明不照奸，上無積德之基可乘，下有弄權之臣為輔，卒使勁敵奄至，大",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v010",
+      "start": 1,
+      "end": 36,
+      "personId": "zhu-youzhen",
+      "startText": "貞明六年",
+      "endText": "史臣曰：末帝仁而無武，明不照奸，上無積德之基可乘，下有弄權之臣為輔，卒使勁敵奄至，大",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v012",
+      "start": 1,
+      "end": 13,
+      "personId": "zhu-wen",
+      "startText": "◎宗室",
+      "endText": "康王友孜，太祖第八子，末帝即位後封，以反誅。",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖",
+        "梁祖"
+      ]
+    },
+    {
+      "chapterId": "old-v012",
+      "start": 1,
+      "end": 13,
+      "personId": "zhu-youzhen",
+      "startText": "◎宗室",
+      "endText": "康王友孜，太祖第八子，末帝即位後封，以反誅。",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "new-v01",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-wen",
+      "startText": "太祖神武元聖孝皇帝，姓朱氏，宋州碭山午溝里人也。其父誠，以五經教授鄉里，生三子，曰全",
+      "endText": "↑ 遣朱友謙殺胤於京師　曾三異謂「殺崔胤者朱友謀，非友謙」。按本史卷一三梁朗王存傳載",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v01",
+      "start": 1,
+      "end": 18,
+      "personId": "zhu-youzhen",
+      "startText": "太祖神武元聖孝皇帝，姓朱氏，宋州碭山午溝里人也。其父誠，以五經教授鄉里，生三子，曰全",
+      "endText": "↑ 遣朱友謙殺胤於京師　曾三異謂「殺崔胤者朱友謀，非友謙」。按本史卷一三梁朗王存傳載",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "new-v02",
+      "start": 1,
+      "end": 56,
+      "personId": "zhu-wen",
+      "startText": "開平元年",
+      "endText": "↑ 封鴻臚卿李崧萊國公為二王後「崧」，薛史卷四梁太祖紀及五代會要卷五作「嵸」。按本史",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v02",
+      "start": 1,
+      "end": 56,
+      "personId": "zhu-youzhen",
+      "startText": "開平元年",
+      "endText": "↑ 封鴻臚卿李崧萊國公為二王後「崧」，薛史卷四梁太祖紀及五代會要卷五作「嵸」。按本史",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "new-v03",
+      "start": 1,
+      "end": 54,
+      "personId": "zhu-wen",
+      "startText": "末帝，太祖第三子友貞也。〈「末」非謚號，從其本語。〉為人美容貌，沈厚寡言，雅好儒士。",
+      "endText": "秋八月，段凝為北面行營招討使。先鋒將康延孝叛降于唐。冬十月甲戌，宣義軍節度使王彥章及",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v03",
+      "start": 1,
+      "end": 54,
+      "personId": "zhu-youzhen",
+      "startText": "末帝，太祖第三子友貞也。〈「末」非謚號，從其本語。〉為人美容貌，沈厚寡言，雅好儒士。",
+      "endText": "秋八月，段凝為北面行營招討使。先鋒將康延孝叛降于唐。冬十月甲戌，宣義軍節度使王彥章及",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "new-v13",
+      "start": 1,
+      "end": 55,
+      "personId": "zhu-wen",
+      "startText": "嗚呼，梁之惡極矣！自其起盜賊，至於亡唐，其遺毒流于天下。天下豪傑，四面並起，孰不欲戡",
+      "endText": "↑ 太祖外孫袁象先　按薛史卷五九及本史卷四五袁象先傳，象先母為太祖妹萬安大長公主，象",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v13",
+      "start": 1,
+      "end": 55,
+      "personId": "zhu-youzhen",
+      "startText": "嗚呼，梁之惡極矣！自其起盜賊，至於亡唐，其遺毒流于天下。天下豪傑，四面並起，孰不欲戡",
+      "endText": "↑ 太祖外孫袁象先　按薛史卷五九及本史卷四五袁象先傳，象先母為太祖妹萬安大長公主，象",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v075",
+      "start": 1,
+      "end": 23,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝，姓石氏，諱敬瑭，太原人也。本衛大夫碏、漢丞相奮之後，漢衰，關",
+      "endText": "是日，帝言於契丹主，願以雁門已北及幽州之地為戎王壽，仍約歲輸帛三十萬，戎王許之。",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v076",
+      "start": 1,
+      "end": 17,
+      "personId": "shi-jingtang",
+      "startText": "天福元年十一月己亥，帝御北京崇元殿，降制：「改長興七年為天福元年，大赦天下。十一月九",
+      "endText": "十二月，以監察御史徐臺符為尚書膳部員外郎、知制誥，以右補闕史官修撰吳承範為尚書屯田員",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v077",
+      "start": 1,
+      "end": 12,
+      "personId": "shi-jingtang",
+      "startText": "天福三年正月戊申朔，帝御崇元殿受朝賀，仗衛如式。己酉，百官守司，以太史先奏日蝕故也。",
+      "endText": "十二月甲戌朔，以前兵部尚書梁文矩為太子太師，以鎮州節度副使符蒙為右諫議大夫，以吏部郎",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v078",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-jingtang",
+      "startText": "天福四年春正月癸卯，帝御崇元殿受朝賀，仗衛如式。丙午，召太子太師致仕範延光宴於便殿。",
+      "endText": "十二月丁酉朔，百官不入閣，大雪故也。己亥，故皇子重英妻張氏落發為尼，賜名悟慎，並夏臘",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v079",
+      "start": 1,
+      "end": 16,
+      "personId": "shi-jingtang",
+      "startText": "天福五年春正月丁卯朔，帝御崇元殿受朝賀，仗衛如式。降德音：「應天福三年終，公私債欠，",
+      "endText": "六月丙申，以前衛尉卿趙延乂為司天監。丁酉，詔：「今後藩侯郡守，凡有善政，委倅貳官條件",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v080",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-jingtang",
+      "startText": "天福六年秋七月己未朔，帝御崇元殿視朝。庚申，升陳州為防禦使額。辛酉，以前鄧州節度使焦",
+      "endText": "史臣曰：晉祖潛躍之前沈毅而已。及其為君也，旰食宵衣，禮賢從諫，慕黃、老之教，樂清凈之",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v081",
+      "start": 1,
+      "end": 14,
+      "personId": "shi-jingtang",
+      "startText": "少帝，名重貴，高祖之從子也。考諱敬儒，母安氏，以唐天祐十一年六月二十七日生帝於太原汾",
+      "endText": "六月庚戌，以螟蝗為害，詔侍衛馬步軍都指揮使李守貞往臯門祭告，仍遣諸司使梁進超等七人分",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v082",
+      "start": 1,
+      "end": 12,
+      "personId": "shi-jingtang",
+      "startText": "天福八年秋七月丁丑朔，京師雨水深三尺。辛巳，許州節度使李從溫來朝，進封楚國公。壬午，",
+      "endText": "六月辛丑朔，王師拔淄州，斬楊光遠偽署刺史劉翰。癸卯，以太尉、兼侍中馮道為檢校太師、兼",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v083",
+      "start": 1,
+      "end": 15,
+      "personId": "shi-jingtang",
+      "startText": "開運元年秋七月辛未朔，帝御崇元殿，大赦天下，改天福九年為開運元年。河北諸州，曾經契丹",
+      "endText": "夏四月丙子，以車駕將還京，差官往西京告天地宗廟社稷。辛巳，駕發澶州。甲申，至京師，曲",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v084",
+      "start": 1,
+      "end": 18,
+      "personId": "shi-jingtang",
+      "startText": "開運二年夏五月丙申朔，帝御崇元殿受朝，大赦天下。丁酉，以右衛上將軍馬萬為左金吾上將軍",
+      "endText": "秋九月壬辰，鄆州節度使、侍衛親軍都指揮使李守貞加兼侍中，滑州節度使皇甫遇進封邠國公，",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v085",
+      "start": 1,
+      "end": 13,
+      "personId": "shi-jingtang",
+      "startText": "開運三年冬十月甲子，正衙命使冊皇太妃安氏。己丑，以樞密直學士、禮部侍郎邊光範為翰林學",
+      "endText": "史臣曰：少帝以中人之才，嗣將墜之業，屬上天不祐，仍歲大饑，尚或絕強敵之歡盟，鄙輔臣之",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "new-v08",
+      "start": 1,
+      "end": 19,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝，其父臬捩鷄，本出於西夷，自朱邪歸唐，從朱邪入居陰山。其後，晉",
+      "endText": "↑ 郭金海　各本原作「郭海金」。薛史卷八０晉高祖紀、卷九四郭金海傳、卷九八安從進傳、",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "new-v09",
+      "start": 1,
+      "end": 11,
+      "personId": "shi-jingtang",
+      "startText": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。高祖六子，五皆早死，而",
+      "endText": "↑ 永清軍節度梁漢璋　「清」，各本原作「靜」。薛史卷九五梁漢璋傳及通鑑卷二八五俱稱梁",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "new-v10",
+      "start": 1,
+      "end": 6,
+      "personId": "shi-jingtang",
+      "startText": "高祖睿文聖武昭肅孝皇帝，姓劉氏，初名知遠，其先沙陀部人也，其後世居于太原。知遠弱不好",
+      "endText": "四年，契丹犯京師，出帝北遷，王遣牙將王峻奉表契丹，耶律德光呼之為兒，賜以木柺，虜法貴",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v099",
+      "start": 1,
+      "end": 9,
+      "personId": "liu-zhiyuan",
+      "startText": "高祖睿文聖武昭肅孝皇帝，姓劉氏，諱暠，本名知遠，及即位改今諱。其先本沙陀部人也。四代",
+      "endText": "夏四月己未，以北京馬軍都指揮使、集州刺史劉信為滑州節度使，充侍衛馬軍都指揮使、檢校太",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v100",
+      "start": 1,
+      "end": 15,
+      "personId": "liu-zhiyuan",
+      "startText": "天福十二年",
+      "endText": "史臣曰：在昔皇天降禍，諸夏無君。漢高祖肇起幷、汾，遄臨汴、洛，乘虛而取神器，因亂而有",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v101",
+      "start": 1,
+      "end": 12,
+      "personId": "liu-zhiyuan",
+      "startText": "隱皇帝，諱承祐，高祖第二子也。母曰李太后，以唐長興二年，歲在辛卯，三月七日，生帝於鄴",
+      "endText": "十二月丁丑，荊南節度副使、檢校太傅、行峽州刺史高保融起復，授荊南節度使、檢校太尉、同",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v102",
+      "start": 1,
+      "end": 16,
+      "personId": "liu-zhiyuan",
+      "startText": "乾祐二年春正月乙巳朔，制曰：",
+      "endText": "十二月庚午朔，湖南奏，靜江軍節度使馬希贍以今年十月十八日卒。廢朝二日。辛未，日暈三重",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v103",
+      "start": 1,
+      "end": 22,
+      "personId": "liu-zhiyuan",
+      "startText": "乾祐三年春正月己亥朔，帝不受朝賀。鳳翔行營都部署趙暉奏，前月二十四日，收復鳳翔，逆賊",
+      "endText": "史臣曰：隱帝以尚幼之年，嗣新造之業。受命之主，德非禹、湯；輔政之臣，復非伊、呂。將欲",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "new-v10",
+      "start": 8,
+      "end": 11,
+      "personId": "liu-zhiyuan",
+      "startText": "隱帝，高祖第二子承祐也。高祖即位，拜右衞上將軍、大內都點檢。魏王承訓長而賢。高祖愛之",
+      "endText": "三年春正月，西面行營都部署趙暉克鳳翔。〈景崇自焚死，故不書伏誅。〉丙午，郭威進添都馬",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "old-v110",
+      "start": 1,
+      "end": 23,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文武孝皇帝，姓郭氏，諱威，字文仲，邢州堯山人也。或云本常氏之子，幼隨母適",
+      "endText": "又詔在朝文武臣僚，各上封事，凡有益國利民之事，速具以聞。〈（《通鑒》：詔曰：朕生長軍",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v111",
+      "start": 1,
+      "end": 7,
+      "personId": "guo-wei",
+      "startText": "廣順元年春二月癸巳朔，以樞密副使、尚書戶部侍郎範質為兵部侍郎，依前充職；以陳州刺史、",
+      "endText": "九月庚申朔，帝詣太平宮起居漢太后。辛酉，故夫人楊氏追贈淑妃，仍令所司擇日備禮冊命。故",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v112",
+      "start": 1,
+      "end": 18,
+      "personId": "guo-wei",
+      "startText": "廣順元年冬十月己丑朔，宰臣王峻獻唐張蘊古《大寶箴》、謝偃《惟皇誡德賦》二圖。詔報曰：",
+      "endText": "二月辛亥朔，以前西京留守白文珂為太子太師致仕，進封韓國公。癸丑，安州節度使李洪義、侍",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v113",
+      "start": 1,
+      "end": 14,
+      "personId": "guo-wei",
+      "startText": "廣順三年春三月庚辰朔，以相州留後白重贊為滑州節度使，以鄭州防禦使王進為相州節度使，以",
+      "endText": "史臣曰：周太祖昔在初潛，未聞多譽，洎西平蒲阪，北鎮鄴臺，有統御之勞，顯英偉之量。旋屬",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v114",
+      "start": 1,
+      "end": 16,
+      "personId": "guo-wei",
+      "startText": "世宗睿武孝文皇帝，諱榮，太祖之養子，蓋聖穆皇后之侄也。本姓柴氏，父守禮，太子少保致仕",
+      "endText": "十二月己酉，太子太師侯益以本官致仕。",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v115",
+      "start": 1,
+      "end": 24,
+      "personId": "guo-wei",
+      "startText": "顯德二年春正月辛未朔，帝不受朝賀。辛卯，詔：「在朝文班，各舉堪為令錄者一人，雖姻族近",
+      "endText": "十二月丙寅，以左金吾大將軍蓋萬為右監門上將軍。丁卯，淄州奏，前中書侍郎、同平章事景範",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v116",
+      "start": 1,
+      "end": 18,
+      "personId": "guo-wei",
+      "startText": "顯德三年春正月乙未朔，帝不受朝賀。前司空蘇禹珪卒。丁酉，李穀奏，破淮賊於上窯。戊戌，",
+      "endText": "十二月己未朔，以給事中張鑄為光祿卿，鑄訴以官名與祖諱同，尋改秘書監，判光祿寺事。辛酉",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v117",
+      "start": 1,
+      "end": 12,
+      "personId": "guo-wei",
+      "startText": "顯德四年春正月己丑朔，帝御崇元殿受朝賀，仗衛如儀。詔天下見禁罪人，除大辟外，一切釋放",
+      "endText": "十二月乙卯，泗州守將範再遇以其城降，授再遇宿州團練使。戊午，帝自泗州率眾東下，命今上",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v118",
+      "start": 1,
+      "end": 13,
+      "personId": "guo-wei",
+      "startText": "顯德五年春正月癸未朔，帝在楚州城下，從臣詣行宮稱賀。〈（《隆平集·馬仁瑀傳》：世宗征",
+      "endText": "十二月丁丑朔，郎州奏，醴陵縣玉仙觀山門中，舊有田二萬頃，久為山石閉塞，今年七月十七日",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v119",
+      "start": 1,
+      "end": 7,
+      "personId": "guo-wei",
+      "startText": "顯德六年春正月丁未朔，帝御崇元殿受朝賀，仗衛如式。壬子，高麗國王王昭遣使貢方物。己卯",
+      "endText": "史臣曰：世宗頃在仄微，尤務韜晦，及天命有屬，嗣守鴻業，不日破高平之陣，逾年復秦、鳳之",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v11",
+      "start": 1,
+      "end": 13,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文武皇帝，姓郭氏，邢州堯山人也。父簡，事晉為順州刺史。劉仁恭攻破順州，簡",
+      "endText": "顯德元年春正月丙子朔，有事于南郊，大赦，改元，羣臣上尊號曰聖明文武仁德皇帝。戊寅，罷",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "new-v12",
+      "start": 1,
+      "end": 11,
+      "personId": "guo-wei",
+      "startText": "世宗睿武孝文皇帝，本姓柴氏，邢州龍岡人也。柴氏女適太祖，是為聖穆皇后。后兄守禮子榮，",
+      "endText": "七年春正月甲辰，遜于位。宋興。〈五代之亡，所書不同，隨事為文爾。「梁亡」見唐之速，「",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "old-v035",
+      "start": 1,
+      "end": 22,
+      "personId": "li-congke",
+      "startText": "明宗聖德和武欽孝皇帝，諱亶，初名嗣源，及即位，改今諱，代北人也。世事武皇，及其錫姓也",
+      "endText": "中書門下上言：「請停廢諸道鹽運使、內勾司、租庸院大程官，出放豬羊柴炭戶。括田竿尺，一",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v036",
+      "start": 1,
+      "end": 12,
+      "personId": "li-congke",
+      "startText": "天成元年夏四月丙午，帝自興聖宮赴西宮，文武百僚縞素於位，帝服斬衰，親奉攢，塗設奠，哭",
+      "endText": "癸未，詔辰州刺史豆盧革可責授費州司戶參軍，漵州刺史韋說可責授夷州司戶參軍，皆員外置同",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v037",
+      "start": 1,
+      "end": 10,
+      "personId": "li-congke",
+      "startText": "天成元年秋八月乙酉朔，日有食之。有司上言：「莊宗廟室酌獻，請奏武成之舞。」從之。鄆州",
+      "endText": "庚戌，御史台奏：「京城坊市士庶工商之家，有婢仆自經投井，非理物故者。近者已來，凡是死",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v038",
+      "start": 1,
+      "end": 20,
+      "personId": "li-congke",
+      "startText": "天成二年春正月癸丑朔，帝御明堂殿受朝賀，仗衛如常儀。製曰：「王者祗敬宗祧，統臨寰宇，",
+      "endText": "十二月戊寅朔，以前鳳翔留後高允貞為右監門上將軍。詔以施州為夔州屬郡，以其便近故也。遣",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v039",
+      "start": 1,
+      "end": 14,
+      "personId": "li-congke",
+      "startText": "天成三年春正月戊申朔，帝御崇元殿受朝賀，仗衛如式。辛亥，前河陽節度使、檢校太傅、兼侍",
+      "endText": "十二月壬寅朔，詔真定府屬縣宜準河中、鳳翔例升為次畿，真定縣升為次赤。甲辰，邠州節度使",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v040",
+      "start": 1,
+      "end": 12,
+      "personId": "li-congke",
+      "startText": "天成四年春正月壬申朔，帝御崇元殿受朝賀，仗衛如儀。幽州節度使趙德鈞奏：「臣孫讚，年五",
+      "endText": "十二月丁酉，靈武康福奏：「破野利、大蟲兩族三百餘帳於方渠，獲牛羊三萬。」戊戌，詔：「",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v041",
+      "start": 1,
+      "end": 20,
+      "personId": "li-congke",
+      "startText": "長興元年春正月丙寅朔，帝御明堂殿受朝賀，仗衛如常儀。乙亥，國子監請以監學生束修及光學",
+      "endText": "十二月乙未，荊南奏，湖南節度使、楚國王馬殷薨，廢朝三日。庚子，以前襄州節度使安元信為",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v042",
+      "start": 1,
+      "end": 13,
+      "personId": "li-congke",
+      "startText": "長興二年春正月庚申朔，帝御明堂殿受朝賀，仗衛如儀。乙丑，詔曰：「故天策上將軍、守太師",
+      "endText": "十二月甲寅朔，詔開鐵禁，許百姓自鑄農器、什器之屬，於夏秋田畝上，每畝輸農器錢一錢五分",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v043",
+      "start": 1,
+      "end": 12,
+      "personId": "li-congke",
+      "startText": "長興三年春正月癸未朔，帝御明堂殿受朝賀，仗衛如式。丁亥，陝州節度使安從進移鎮延州。己",
+      "endText": "十二月戊申朔，供奉官丁延徽、倉官田繼勳並棄市，坐擅出倉粟數百斛故也。教坊伶官敬新磨受",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v044",
+      "start": 1,
+      "end": 14,
+      "personId": "li-congke",
+      "startText": "長興四年春正月戊寅朔，帝御明堂殿受朝賀，仗衛如式。是日雪盈尺。戊子，秦王從榮加守尚書",
+      "endText": "史臣曰：明宗戰伐之勳，雖高佐命，潛躍之事，本不經心。會王室之多艱，屬神器之自至，諒由",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v045",
+      "start": 1,
+      "end": 15,
+      "personId": "li-congke",
+      "startText": "閔帝",
+      "endText": "史臣曰：閔帝爰自衝年，素有令問，及征從代邸，入踐堯階，屬軒皇之弓劍初遺，吳王之几杖未",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v046",
+      "start": 1,
+      "end": 28,
+      "personId": "li-congke",
+      "startText": "末帝，諱從珂，本姓王氏，鎮州人也。母宣憲皇后魏氏，以光啟元年歲在乙巳正月二十三日，生",
+      "endText": "十二月丁卯朔，詔修奉本朝諸帝陵寢。己巳，以北面馬軍都指揮使、易州刺史安叔千為安北都護",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v047",
+      "start": 1,
+      "end": 18,
+      "personId": "li-congke",
+      "startText": "清泰二年春正月丙申朔，帝御明堂殿受朝賀，仗衛如式。乙巳，中書門下奏：「遇千春節，凡刑",
+      "endText": "十二月戊辰，禁用鉛錢。壬申，以中書侍郎兼兵部尚書、充樞密使韓昭裔為檢校司空、同平章事",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "old-v048",
+      "start": 1,
+      "end": 16,
+      "personId": "li-congke",
+      "startText": "清泰三年春正月辛卯朔，帝御文明殿受朝賀，仗衛如式。乙未，百濟遣使獻方物。戊戌，幸龍門",
+      "endText": "史臣曰：末帝負神武之才，有人君之量。由尋戈而踐阼，慚德應深；及當寧以居尊，政經未失。",
+      "label": "局部称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "shibu-v001",
+      "start": 1,
+      "end": 6,
+      "personId": "zhu-wen",
+      "startText": "太祖應讖",
+      "endText": "敬翔應《三傳》，數舉不第，發憤投太祖，願備行陣。太祖問曰：「足下通《春秋》久矣，今吾",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v002",
+      "start": 14,
+      "end": 14,
+      "personId": "zhu-wen",
+      "startText": "高季興，本陜州硤石人。為太祖裨將，出為郢州防禦使。時荊南成汭征鄂州，不利而卒，太祖命",
+      "endText": "高季興，本陜州硤石人。為太祖裨將，出為郢州防禦使。時荊南成汭征鄂州，不利而卒，太祖命",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v003",
+      "start": 1,
+      "end": 2,
+      "personId": "shi-jingtang",
+      "startText": "高祖先兆",
+      "endText": "高祖尚明宗女，宮中謂之石郎。及將起兵於太原，京師夜間狼皆群走，往往入宮中。湣帝患之，",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v003",
+      "start": 3,
+      "end": 4,
+      "personId": "shi-chonggui",
+      "startText": "少主不召桑維翰",
+      "endText": "少主之嗣位也，契丹以不俟命而擅立，又景延廣辱其使，契丹怒，舉國南侵。以駙馬都尉杜重威",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "少主"
+      ]
+    },
+    {
+      "chapterId": "shibu-v003",
+      "start": 8,
+      "end": 8,
+      "personId": "shi-jingtang",
+      "startText": "李濤常忿張彥澤殺邠州幕吏張式而取其妻，濤率同列上疏，請誅彥澤以謝西土。高祖方姑息武夫",
+      "endText": "李濤常忿張彥澤殺邠州幕吏張式而取其妻，濤率同列上疏，請誅彥澤以謝西土。高祖方姑息武夫",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v004",
+      "start": 1,
+      "end": 4,
+      "personId": "liu-zhiyuan",
+      "startText": "上藍寺石榴讖",
+      "endText": "高祖在河東幕府，闕書記，朝廷除前進士丘廷敏為之。以高祖有異志，恐為所累，辭疾不赴，遂",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v004",
+      "start": 5,
+      "end": 6,
+      "personId": "guo-wei",
+      "startText": "樞密使擅替留守",
+      "endText": "周高祖為樞密。鳳翔、永興、河中三鎮反，高祖帶職出討之。回戈路由洛陽，時王守恩為留守，",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "shibu-v005",
+      "start": 1,
+      "end": 10,
+      "personId": "guo-wei",
+      "startText": "高祖徵異",
+      "endText": "慕容彥超之被圍也，乘城而望，見高祖親臨矢石，其勢不可當，退而憂之。因勉其麾下曰：「汝",
+      "label": "笔记核验称谓",
+      "kind": "record",
+      "terms": [
+        "高祖"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 2,
+      "end": 3,
+      "personId": "zhu-wen",
+      "startText": "梁太祖神武元聖孝皇帝姓朱氏，諱晃，〈追冊文穆皇帝第三子，母曰文惠皇后王氏。〉唐大中六",
+      "endText": "末帝諱瑱，〈太祖第四子，母曰元貞皇后張氏。〉唐文德元年九月十二日，生於汴州。〈以其日",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 4,
+      "end": 4,
+      "personId": "zhu-youzhen",
+      "startText": "後唐莊宗光聖神閔孝皇帝姓李氏，諱存勗，〈追冊武皇帝長子，母曰貞簡皇后曹氏。〉唐光啓元",
+      "endText": "後唐莊宗光聖神閔孝皇帝姓李氏，諱存勗，〈追冊武皇帝長子，母曰貞簡皇后曹氏。〉唐光啓元",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 9,
+      "end": 9,
+      "personId": "shi-chonggui",
+      "startText": "少帝諱重貴，〈高祖從子。父敬儒，母太妃安氏。〉唐天祐十一年六月二十七日，生於太原汾陽",
+      "endText": "少帝諱重貴，〈高祖從子。父敬儒，母太妃安氏。〉唐天祐十一年六月二十七日，生於太原汾陽",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 12,
+      "end": 12,
+      "personId": "guo-wei",
+      "startText": "周太祖聖神恭肅文武孝皇帝姓郭氏，諱威，〈追冊章肅皇帝長子，母追冊章德皇后王氏。〉唐天",
+      "endText": "周太祖聖神恭肅文武孝皇帝姓郭氏，諱威，〈追冊章肅皇帝長子，母追冊章德皇后王氏。〉唐天",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 33,
+      "end": 33,
+      "personId": "zhu-youzhen",
+      "startText": "少帝妃張氏。〈乾化五年九月二十四日冊為德妃，其夕薨。〉",
+      "endText": "少帝妃張氏。〈乾化五年九月二十四日冊為德妃，其夕薨。〉",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 37,
+      "end": 38,
+      "personId": "li-congke",
+      "startText": "閔帝皇后孔氏。〈初封魯國夫人。應順元年四月，為末帝所害。晋天福五年正月二十八日追諡為",
+      "endText": "末帝皇后劉氏。〈清泰元年八月二十八日冊為皇后，至三年閏十一月二十六日與帝遇難，同崩于",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 39,
+      "end": 40,
+      "personId": "shi-chonggui",
+      "startText": "晋高祖皇后李氏。〈唐明宗第五女，天成三年四月封永寜公主，長興四年九月進封魏國公主，清",
+      "endText": "少帝皇后張氏，〈天福八年十月追冊。〉皇后馮氏。〈開運三年十月冊。〉",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 52,
+      "end": 52,
+      "personId": "shi-chonggui",
+      "startText": "少帝寶省李氏，〈封隴西郡夫人。〉張氏，〈封春宮夫人，充皇后宫尚宫。並天福八年十一月二",
+      "endText": "少帝寶省李氏，〈封隴西郡夫人。〉張氏，〈封春宮夫人，充皇后宫尚宫。並天福八年十一月二",
+      "label": "会要序次称谓",
+      "kind": "record",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 3,
+      "end": 3,
+      "personId": "zhu-youzhen",
+      "kind": "record",
+      "label": "会要核验称谓",
+      "terms": [
+        "末帝"
+      ],
+      "startText": "末帝諱瑱，〈太祖第四子，母曰元貞皇后張氏。〉唐文德元年九月十二日，生於汴州。〈以其日",
+      "endText": "末帝諱瑱，〈太祖第四子，母曰元貞皇后張氏。〉唐文德元年九月十二日，生於汴州。〈以其日"
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 7,
+      "end": 7,
+      "personId": "li-congke",
+      "kind": "record",
+      "label": "会要核验称谓",
+      "terms": [
+        "末帝"
+      ],
+      "startText": "末帝諱從珂，〈本姓王氏，明宗養為子，母曰宣憲皇后魏氏。〉唐光啓元年正月二十三日，生於",
+      "endText": "末帝諱從珂，〈本姓王氏，明宗養為子，母曰宣憲皇后魏氏。〉唐光啓元年正月二十三日，生於"
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 13,
+      "end": 13,
+      "personId": "guo-wei",
+      "kind": "record",
+      "label": "会要核验称谓",
+      "terms": [
+        "太祖"
+      ],
+      "startText": "世宗睿武孝文皇帝諱榮，〈太祖養子，姓柴氏，追冊聖穆皇后之姪也。〉唐天祐十八年九月二十",
+      "endText": "世宗睿武孝文皇帝諱榮，〈太祖養子，姓柴氏，追冊聖穆皇后之姪也。〉唐天祐十八年九月二十"
+    },
+    {
+      "chapterId": "huiyao-v001",
+      "start": 17,
+      "end": 17,
+      "personId": "shi-jingtang",
+      "kind": "record",
+      "label": "会要核验称谓",
+      "terms": [
+        "高祖"
+      ],
+      "startText": "晉天福七年八月，中書門下奏：「山陵禮儀使狀，高祖尊號、諡及廟號，伏凖故事，將啟殯宫前",
+      "endText": "晉天福七年八月，中書門下奏：「山陵禮儀使狀，高祖尊號、諡及廟號，伏凖故事，將啟殯宫前"
+    },
+    {
+      "chapterId": "shibu-v001",
+      "start": 9,
+      "end": 10,
+      "personId": "zhu-wen",
+      "kind": "record",
+      "label": "杨凝式佯狂条所述梁太祖",
+      "startText": "楊凝式佯狂",
+      "endText": "楊凝式父涉，為唐宰相。太祖之篡唐祚也，涉當送傳國璽。時凝式方冠，諫曰：「大人為宰相，",
+      "terms": [
+        "太祖"
+      ]
+    },
+    {
+      "chapterId": "beimeng-v017",
+      "start": 28,
+      "end": 29,
+      "personId": "li-cunxu",
+      "kind": "record",
+      "label": "魏博衙军条所述晋王李存勖",
+      "startText": "魏博衙軍",
+      "endText": "魏博富雄列侯專地唐朝三百年唯姑息之羅紹威憤衙軍制已密聞梁祖表裏應接算殺之楊師厚後入魏",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "beimeng-v017",
+      "start": 30,
+      "end": 31,
+      "personId": "li-cunxu",
+      "kind": "record",
+      "label": "缚驴戴旗条所述晋王李存勖",
+      "startText": "縛驢戴旗",
+      "endText": "晉王之入魏博劉鄩先屯洹水寂若無人因令覘之云城上有旗幟來往晉王曰劉鄩一步一計未可輕進更",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "beimeng-v018",
+      "start": 12,
+      "end": 13,
+      "personId": "li-cunxu",
+      "kind": "record",
+      "label": "庄宗诸弟遇害条",
+      "startText": "莊宗諸弟遇害",
+      "endText": "趙在禮作亂諸將擁明宗入闕未到間從馬直郭從謙攻興教門帝母弟存渥從上戰及宫車晏駕存渥與劉"
+    },
+    {
+      "chapterId": "huiyao-v002",
+      "start": 2,
+      "end": 2,
+      "personId": "zhu-youzhen",
+      "kind": "record",
+      "label": "梁宗室条所述梁少帝",
+      "startText": "梁太祖長子友裕，郴王；〈開平三年十月追封。〉第二子友文，博王；〈開平元年五月九日册封",
+      "endText": "梁太祖長子友裕，郴王；〈開平三年十月追封。〉第二子友文，博王；〈開平元年五月九日册封",
+      "terms": [
+        "少帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v002",
+      "start": 6,
+      "end": 6,
+      "personId": "li-congke",
+      "kind": "record",
+      "label": "唐宗室条所述唐末帝",
+      "startText": "末帝長子重吉，〈為愍帝所害，未封王，清泰元年七月追册為太尉，立廟於萊州。〉第二子重美",
+      "endText": "末帝長子重吉，〈為愍帝所害，未封王，清泰元年七月追册為太尉，立廟於萊州。〉第二子重美",
+      "terms": [
+        "末帝"
+      ]
+    },
+    {
+      "chapterId": "huiyao-v002",
+      "start": 8,
+      "end": 8,
+      "personId": "shi-chonggui",
+      "kind": "record",
+      "label": "晋宗室条所述晋少帝",
+      "startText": "少帝長子延煦，〈遥領陜府節度使。〉第二子延寶。〈遥領曹州節度使，按實録皆帝之從子，養",
+      "endText": "少帝長子延煦，〈遥領陜府節度使。〉第二子延寶。〈遥領曹州節度使，按實録皆帝之從子，養",
+      "terms": [
+        "少帝"
+      ]
+    }
+  ],
+  "chronology": [
+    {
+      "chapterId": "tongjian-v266",
+      "start": 3,
+      "end": 105,
+      "personId": "zhu-wen",
+      "startText": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）",
+      "endText": "鍾泰章賞薄，泰章未嘗自言；後逾年，因醉與諸將爭言而及之。或告徐溫，以泰章怨望，請誅之",
+      "terms": [
+        "帝",
+        "上",
+        "梁主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v267",
+      "start": 3,
+      "end": 137,
+      "personId": "zhu-wen",
+      "startText": "太祖神武元聖孝皇帝中開平二年（戊辰，公元九零八年）",
+      "endText": "趙王鎔自來謁晉王於趙州，大犒將士，自是遣其養子德明將三十七都常從晉王征討。德明本姓張",
+      "terms": [
+        "帝",
+        "上",
+        "梁主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v268",
+      "start": 3,
+      "end": 65,
+      "personId": "zhu-wen",
+      "startText": "太祖神武元聖孝皇帝下乾化元年（辛未，公元九一一年）",
+      "endText": "初，元貞張皇后嚴整多智，帝敬憚之。後殂，帝縱意聲色，諸子雖在外，常征其婦入侍，帝往往",
+      "terms": [
+        "帝",
+        "上",
+        "梁主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v268",
+      "start": 66,
+      "end": 97,
+      "personId": "zhu-yougui",
+      "startText": "己卯，矯詔稱：「博王友文謀逆，遣兵突入殿中，賴郢王友珪忠孝，將兵誅之，保全朕躬。然疾",
+      "endText": "庚寅旦，袁象先等帥禁兵數千人突入宮中。友珪聞變，與妻張氏及馮廷諤趨北垣樓下，將逾城，",
+      "terms": [
+        "帝",
+        "上",
+        "梁主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v268",
+      "start": 98,
+      "end": 138,
+      "personId": "zhu-youzhen",
+      "startText": "像先、巖繼傳國寶詣大梁迎均王，王曰：「大梁國家創業之地，何必洛陽！」乃即帝位於大梁，",
+      "endText": "以寧國節度使王景仁為淮南西北行營招討應接使，將兵萬餘侵廬、壽。",
+      "terms": [
+        "帝",
+        "上",
+        "梁主",
+        "均王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v269",
+      "start": 3,
+      "end": 107,
+      "personId": "zhu-youzhen",
+      "startText": "均王上乾化三年（癸酉，公元九一三年）",
+      "endText": "高季昌與孔勍修好，復通貢獻。",
+      "terms": [
+        "帝",
+        "上",
+        "梁主",
+        "均王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v270",
+      "start": 3,
+      "end": 92,
+      "personId": "zhu-youzhen",
+      "startText": "均王中貞明三年（丁丑，公元九一七年）",
+      "endText": "吳廬江公濛有材氣，常歎曰：「我國家而為它人所有，可乎！」徐溫聞而惡之。",
+      "terms": [
+        "帝",
+        "上",
+        "梁主",
+        "均王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v271",
+      "start": 3,
+      "end": 83,
+      "personId": "zhu-youzhen",
+      "startText": "均王下貞明五年（己卯，公元九一九年）",
+      "endText": "大封王躬乂，性殘忍，海軍統帥王建殺之，自立，復稱高麗王，以開州為東京，平壤為西京。建",
+      "terms": [
+        "帝",
+        "上",
+        "梁主",
+        "均王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v272",
+      "start": 3,
+      "end": 79,
+      "personId": "zhu-youzhen",
+      "startText": "莊宗光聖神閔孝皇帝上同光元年（癸未，公元九二三年）",
+      "endText": "高季興在洛陽，帝左右伶宦求貨無厭，季興忿之。帝欲留季興，郭崇韜諫曰：「陛下新得天下，",
+      "terms": [
+        "梁主",
+        "均王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v266",
+      "start": 73,
+      "end": 105,
+      "personId": "li-cunxu",
+      "startText": "初，晉王克用多養軍中壯士為子，寵遇如真子。及晉王存勖立，諸假子皆年長握兵，心怏怏不服",
+      "endText": "鍾泰章賞薄，泰章未嘗自言；後逾年，因醉與諸將爭言而及之。或告徐溫，以泰章怨望，請誅之",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v267",
+      "start": 3,
+      "end": 137,
+      "personId": "li-cunxu",
+      "startText": "太祖神武元聖孝皇帝中開平二年（戊辰，公元九零八年）",
+      "endText": "趙王鎔自來謁晉王於趙州，大犒將士，自是遣其養子德明將三十七都常從晉王征討。德明本姓張",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v268",
+      "start": 3,
+      "end": 138,
+      "personId": "li-cunxu",
+      "startText": "太祖神武元聖孝皇帝下乾化元年（辛未，公元九一一年）",
+      "endText": "以寧國節度使王景仁為淮南西北行營招討應接使，將兵萬餘侵廬、壽。",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v269",
+      "start": 3,
+      "end": 107,
+      "personId": "li-cunxu",
+      "startText": "均王上乾化三年（癸酉，公元九一三年）",
+      "endText": "高季昌與孔勍修好，復通貢獻。",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v270",
+      "start": 3,
+      "end": 92,
+      "personId": "li-cunxu",
+      "startText": "均王中貞明三年（丁丑，公元九一七年）",
+      "endText": "吳廬江公濛有材氣，常歎曰：「我國家而為它人所有，可乎！」徐溫聞而惡之。",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v271",
+      "start": 3,
+      "end": 83,
+      "personId": "li-cunxu",
+      "startText": "均王下貞明五年（己卯，公元九一九年）",
+      "endText": "大封王躬乂，性殘忍，海軍統帥王建殺之，自立，復稱高麗王，以開州為東京，平壤為西京。建",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v272",
+      "start": 3,
+      "end": 79,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝上同光元年（癸未，公元九二三年）",
+      "endText": "高季興在洛陽，帝左右伶宦求貨無厭，季興忿之。帝欲留季興，郭崇韜諫曰：「陛下新得天下，",
+      "terms": [
+        "晉王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v272",
+      "start": 3,
+      "end": 79,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝上同光元年（癸未，公元九二三年）",
+      "endText": "高季興在洛陽，帝左右伶宦求貨無厭，季興忿之。帝欲留季興，郭崇韜諫曰：「陛下新得天下，",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v273",
+      "start": 3,
+      "end": 117,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝中同光二年（甲申，公元九二四年）",
+      "endText": "高季興常欲取三峽，畏蜀峽路招討使張武威名，不敢進。至是，乘唐兵勢，使其子行軍司馬從誨",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v274",
+      "start": 3,
+      "end": 77,
+      "personId": "li-cunxu",
+      "startText": "莊宗光聖神閔孝皇帝下同光三年（乙酉，公元九二五年）",
+      "endText": "吳以右僕射、同平章事徐知誥為侍中，右僕射嚴可求兼門下侍郎、同平章事。庚辰，帝發汜水。",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v275",
+      "start": 4,
+      "end": 4,
+      "personId": "li-cunxu",
+      "startText": "夏，四月，丁亥朔，嚴辦將發，騎兵陳於宣仁門外，步兵陳於五鳳門外。從馬直指揮使郭從謙不",
+      "endText": "夏，四月，丁亥朔，嚴辦將發，騎兵陳於宣仁門外，步兵陳於五鳳門外。從馬直指揮使郭從謙不",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v275",
+      "start": 9,
+      "end": 103,
+      "personId": "li-siyuan",
+      "startText": "百官三箋請嗣源監國，嗣源乃許之。甲午，入居興聖宮，始受百官班見。下令稱教，百官稱之曰",
+      "endText": "西方鄴敗荊南水於峽中，復取夔、忠、萬三州。",
+      "terms": [
+        "帝",
+        "上",
+        "唐主",
+        "監國"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v276",
+      "start": 3,
+      "end": 118,
+      "personId": "li-siyuan",
+      "startText": "明宗聖德和武欽孝皇帝中之上天成二年（丁亥，公元九二七年）",
+      "endText": "安重誨既以李仁矩鎮閬州，使與綿州刺史武虔裕皆將兵赴治。虔裕，帝之故吏，重誨之外兄也。",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v277",
+      "start": 3,
+      "end": 131,
+      "personId": "li-siyuan",
+      "startText": "明宗聖德和武欽孝皇帝中之下長興元年（庚寅，公元九三零年）",
+      "endText": "閩王廷鈞謂陳守元曰：「為我問寶皇：既為六十年天子，後當何如？」明日，守元入曰：「昨夕",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v278",
+      "start": 3,
+      "end": 77,
+      "personId": "li-siyuan",
+      "startText": "明宗聖德和武欽孝皇帝下長興三年（壬辰，公元九三二年）",
+      "endText": "戊戌，帝殂。帝性不猜忌，與物無競，登極之年已逾六十，每夕於宮中焚香祝天曰：「某胡人，",
+      "terms": [
+        "帝",
+        "上",
+        "唐主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v278",
+      "start": 78,
+      "end": 102,
+      "personId": "li-conghou",
+      "startText": "辛丑，宋王至洛陽。",
+      "endText": "蜀將吏勸蜀王知祥稱帝。己巳，知祥即皇帝位於成都。",
+      "terms": [
+        "帝",
+        "上",
+        "唐主",
+        "宋王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v279",
+      "start": 3,
+      "end": 118,
+      "personId": "li-congke",
+      "startText": "潞王下清泰元年（甲午，公元九三四年）",
+      "endText": "閩主賜洞真先生陳守元號天師，信重之，乃至更易將相、刑罰、選舉，皆與之議；守元受賂請托",
+      "terms": [
+        "帝",
+        "上",
+        "唐主",
+        "潞王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v280",
+      "start": 4,
+      "end": 39,
+      "personId": "li-congke",
+      "startText": "春，正月，吳徐知誥始建大元帥府，以幕職分判吏、戶、禮、兵、刑、工部及鹽鐵。",
+      "endText": "前坊州刺史劉景巖，延州人也，多財而喜俠，交結豪傑，家有丁夫兵仗，人報其強，勢傾州縣。",
+      "terms": [
+        "帝",
+        "上",
+        "唐主",
+        "潞王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v280",
+      "start": 40,
+      "end": 73,
+      "personId": "shi-jingtang",
+      "startText": "契丹主謂石敬瑭曰：「吾三千里赴難，必有成功。觀汝氣貌識量，真中原之主也。吾欲立汝為天",
+      "endText": "徐知誥以荊南節度使、太尉兼中書令李德誠、德勝節度使兼中書令周本位望隆重，欲使之帥眾推",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v280",
+      "start": 40,
+      "end": 73,
+      "personId": "li-congke",
+      "startText": "契丹主謂石敬瑭曰：「吾三千里赴難，必有成功。觀汝氣貌識量，真中原之主也。吾欲立汝為天",
+      "endText": "徐知誥以荊南節度使、太尉兼中書令李德誠、德勝節度使兼中書令周本位望隆重，欲使之帥眾推",
+      "terms": [
+        "唐主",
+        "潞王"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v281",
+      "start": 3,
+      "end": 105,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝上之下天福二年（丁酉，公元九三七年）",
+      "endText": "鳳翔節度使李從曮，厚文士而薄武人，愛農民而嚴士卒，由是將士怨之。會發兵戌西邊，既出郊",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v282",
+      "start": 3,
+      "end": 119,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝中天福四年（己亥，公元九三九年）",
+      "endText": "庚戌，制以錢弘佐為鎮海、鎮東軍節度使兼中書令、吳越國王。",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v283",
+      "start": 3,
+      "end": 20,
+      "personId": "shi-jingtang",
+      "startText": "高祖聖文章武明德孝皇帝下天福七年（壬寅，公元九四二年）",
+      "endText": "六月，乙丑，帝殂。",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v283",
+      "start": 21,
+      "end": 99,
+      "personId": "shi-chonggui",
+      "startText": "道與天平節度使、侍衛馬步都虞候景延廣議，以國家多難，宜立長君，乃奉廣晉尹齊王重貴為嗣",
+      "endText": "天平節度副使、知鄆州顏衎遣觀察判官竇儀奏：「博州刺史周儒以城降契丹，又與楊光遠通使往",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v284",
+      "start": 3,
+      "end": 83,
+      "personId": "shi-chonggui",
+      "startText": "齊王中開運元年（甲辰，公元九四四年）",
+      "endText": "楚王希範疑靜江節度使兼侍中、知朗州希杲得人心，遣人伺之。希杲懼，稱疾求歸，不許；遣醫",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v285",
+      "start": 3,
+      "end": 83,
+      "personId": "shi-chonggui",
+      "startText": "齊王下開運二年（乙巳，公元九四五年）",
+      "endText": "丙戌晦，百官宿於封禪寺。",
+      "terms": [
+        "帝",
+        "上",
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v286",
+      "start": 4,
+      "end": 95,
+      "personId": "shi-chonggui",
+      "startText": "春，正月，丁亥朔，百官遙辭晉主於城北，乃易素服紗帽，迎契丹主，伏路側請罪。契丹主貂帽",
+      "endText": "或說趙延壽曰：「契丹諸大人數日聚謀，此必有變。今漢兵不減萬人，不若先事圖之。」延壽猶",
+      "terms": [
+        "晉主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v286",
+      "start": 37,
+      "end": 95,
+      "personId": "liu-zhiyuan",
+      "startText": "辛未，劉知遠即皇帝位。自言未忍改晉國，又惡開運之名，乃更稱天福十二年。壬申，詔：「諸",
+      "endText": "或說趙延壽曰：「契丹諸大人數日聚謀，此必有變。今漢兵不減萬人，不若先事圖之。」延壽猶",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v287",
+      "start": 3,
+      "end": 89,
+      "personId": "liu-zhiyuan",
+      "startText": "高祖睿文聖武昭肅孝皇帝中天福十二年（丁未，公元九四七年）",
+      "endText": "帝召蘇逢吉、楊邠、史弘肇、郭威入受顧命，曰：「餘氣息微，不能多言。承祐幼弱，後事托在",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v287",
+      "start": 90,
+      "end": 98,
+      "personId": "liu-chengyou",
+      "startText": "二月，辛巳朔，立皇子左衛大將軍、大內都點檢承祐為周王，同平章事。有頃，發喪，宣遺制，",
+      "endText": "侍衛馬步都指揮使、同平章事史弘肇遭母喪，不數日，復出朝參。",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v288",
+      "start": 3,
+      "end": 113,
+      "personId": "liu-chengyou",
+      "startText": "高祖睿文聖武昭肅孝皇帝下",
+      "endText": "是歲，唐泉州刺史留從效兄南州副使從願，鴆刺史董思安而代之。唐主不能制，置清源軍於泉州",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v289",
+      "start": 3,
+      "end": 59,
+      "personId": "liu-chengyou",
+      "startText": "隱皇帝下乾祐三年（庚戌，公元九五零年）",
+      "endText": "甲申，帝欲再出，太后力止之，不可。既陳，郭威戒其眾曰：「吾來誅群小，非敢敵天子也，慎",
+      "terms": [
+        "帝",
+        "上"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v290",
+      "start": 3,
+      "end": 128,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文孝皇帝上廣順元年（辛亥年；公元九五一年；後周廣順元年）",
+      "endText": "↑ 後晉高祖石敬瑭",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v291",
+      "start": 3,
+      "end": 86,
+      "personId": "guo-wei",
+      "startText": "太祖聖神恭肅文武皇帝中廣順二年（壬子，公元九五二年）",
+      "endText": "帝命趣草制，以端明殿學士、戶部侍郎王溥為中書侍郎、同平章事。壬辰，宣制畢，左右以聞，",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v291",
+      "start": 87,
+      "end": 114,
+      "personId": "chai-rong",
+      "startText": "初，靜海節度使吳權卒，子昌岌立。昌岌卒，弟昌文立。是月，始請命於南漢，南漢以昌文為靜",
+      "endText": "王逵表請復徙使府治朗州。",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v292",
+      "start": 3,
+      "end": 97,
+      "personId": "chai-rong",
+      "startText": "太祖聖神恭肅文武孝皇帝下顯德元年（甲寅，公元九五四年）",
+      "endText": "潘叔嗣屬將士而告之曰：「吾事令公至矣，今乃信讒疑怒，軍還，必擊我。吾不能坐而待死，汝",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v293",
+      "start": 3,
+      "end": 108,
+      "personId": "chai-rong",
+      "startText": "世宗睿武孝文皇帝中顯德三年（丙辰，公元九五六年）",
+      "endText": "唐使者陳處堯在契丹，白契丹主請南遊太原，北漢主厚禮之。留數日，北還，竟卒於契丹。",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v294",
+      "start": 2,
+      "end": 94,
+      "personId": "chai-rong",
+      "startText": "世宗睿武孝文皇帝下",
+      "endText": "上在籓，多務韜晦，及即位，破高平之寇，人始服其英武。其御軍，號令嚴明，人莫敢犯，攻城",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    },
+    {
+      "chapterId": "tongjian-v294",
+      "start": 95,
+      "end": 110,
+      "personId": "chai-zongxun",
+      "startText": "甲午，宣遺詔，命梁王宗訓即皇帝位，生七年矣。",
+      "endText": "契丹主遣其舅使於唐，泰州團練使荊罕儒募刺客使殺之。唐人夜宴契丹使者於清風驛，酒酣，起",
+      "terms": [
+        "帝",
+        "上",
+        "周主"
+      ]
+    }
+  ],
+  "titleExclusions": [
+    {
+      "paragraphId": "tongjian-v283-p14",
+      "personId": "liu-zhiyuan",
+      "terms": [
+        "漢高祖"
+      ],
+      "reason": "此段漢高祖為南漢劉巖，子秦王弘度、晉王弘熙。"
+    },
+    {
+      "paragraphId": "huiyao-v010-p64",
+      "personId": "liu-zhiyuan",
+      "terms": [
+        "漢高祖"
+      ],
+      "reason": "前史所記漢高祖末年指劉邦。"
+    },
+    {
+      "paragraphId": "old-v110-p20",
+      "personId": "liu-zhiyuan",
+      "terms": [
+        "漢高祖"
+      ],
+      "reason": "漢高祖為義帝發喪的典故指劉邦。"
+    },
+    {
+      "paragraphId": "huiyao-v008-p20",
+      "personId": "liu-zhiyuan",
+      "terms": [
+        "漢高祖"
+      ],
+      "reason": "漢高祖為義帝舉喪的典故指劉邦。"
+    },
+    {
+      "paragraphId": "old-v079-p12",
+      "personId": "li-congke",
+      "terms": [
+        "廢帝"
+      ],
+      "reason": "武宗至濟陰廢帝凡六代所列唐朝帝系中的濟陰廢帝是唐哀帝李柷，不是後唐李從珂。"
+    },
+    {
+      "paragraphId": "huiyao-v018-p22",
+      "personId": "li-congke",
+      "terms": [
+        "廢帝"
+      ],
+      "reason": "武宗至濟陰廢帝凡六代所列唐朝帝系中的濟陰廢帝是唐哀帝李柷，不是後唐李從珂。"
+    },
+    {
+      "paragraphId": "tongjian-v266-p8",
+      "personId": "zhu-wen",
+      "terms": [
+        "帝"
+      ],
+      "reason": "段末帝乃下詔指唐昭宣帝李柷，不能按帝主語歸朱溫；該段梁王朱溫受禪交涉另以具體段落及SHA校驗的補充關聯保存。"
+    }
+  ],
+  "regnalEdicts": {
+    "bookIds": [
+      "huiyao"
+    ],
+    "actionMaxDistance": 48,
+    "periods": [
+      {
+        "era": "開平",
+        "personId": "zhu-wen",
+        "yearMin": 1,
+        "yearMax": 4
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-wen",
+        "yearMin": 1,
+        "yearMax": 1
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-wen",
+        "yearMin": 2,
+        "yearMax": 2,
+        "monthMin": 1,
+        "monthMax": 5
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-yougui",
+        "yearMin": 2,
+        "yearMax": 2,
+        "monthMin": 7,
+        "monthMax": 12
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-yougui",
+        "yearMin": 3,
+        "yearMax": 3,
+        "monthMin": 1,
+        "monthMax": 1
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-youzhen",
+        "yearMin": 3,
+        "yearMax": 3,
+        "monthMin": 3,
+        "monthMax": 12
+      },
+      {
+        "era": "乾化",
+        "personId": "zhu-youzhen",
+        "yearMin": 4,
+        "yearMax": 5
+      },
+      {
+        "era": "貞明",
+        "personId": "zhu-youzhen",
+        "yearMin": 1,
+        "yearMax": 6
+      },
+      {
+        "era": "龍德",
+        "personId": "zhu-youzhen",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "鳳曆",
+        "personId": "zhu-yougui",
+        "yearMin": 1,
+        "yearMax": 1,
+        "monthMin": 1,
+        "monthMax": 1
+      },
+      {
+        "era": "鳳歷",
+        "personId": "zhu-yougui",
+        "yearMin": 1,
+        "yearMax": 1,
+        "monthMin": 1,
+        "monthMax": 1
+      },
+      {
+        "era": "同光",
+        "personId": "li-cunxu",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "同光",
+        "personId": "li-cunxu",
+        "yearMin": 4,
+        "yearMax": 4,
+        "monthMin": 1,
+        "monthMax": 3
+      },
+      {
+        "era": "天成",
+        "personId": "li-siyuan",
+        "yearMin": 1,
+        "yearMax": 4
+      },
+      {
+        "era": "長興",
+        "personId": "li-siyuan",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "長興",
+        "personId": "li-siyuan",
+        "yearMin": 4,
+        "yearMax": 4,
+        "monthMin": 1,
+        "monthMax": 10
+      },
+      {
+        "era": "長興",
+        "personId": "li-conghou",
+        "yearMin": 4,
+        "yearMax": 4,
+        "monthMin": 12,
+        "monthMax": 12
+      },
+      {
+        "era": "應順",
+        "personId": "li-conghou",
+        "yearMin": 1,
+        "yearMax": 1,
+        "monthMin": 1,
+        "monthMax": 3
+      },
+      {
+        "era": "清泰",
+        "personId": "li-congke",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "天福",
+        "personId": "shi-jingtang",
+        "yearMin": 1,
+        "yearMax": 6
+      },
+      {
+        "era": "天福",
+        "personId": "shi-jingtang",
+        "yearMin": 7,
+        "yearMax": 7,
+        "monthMin": 1,
+        "monthMax": 5
+      },
+      {
+        "era": "天福",
+        "personId": "shi-chonggui",
+        "yearMin": 7,
+        "yearMax": 7,
+        "monthMin": 7,
+        "monthMax": 12
+      },
+      {
+        "era": "天福",
+        "personId": "shi-chonggui",
+        "yearMin": 8,
+        "yearMax": 9
+      },
+      {
+        "era": "天福",
+        "personId": "liu-zhiyuan",
+        "yearMin": 12,
+        "yearMax": 12,
+        "monthMin": 2,
+        "monthMax": 12
+      },
+      {
+        "era": "開運",
+        "personId": "shi-chonggui",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "乾祐",
+        "personId": "liu-chengyou",
+        "yearMin": 1,
+        "yearMax": 1,
+        "monthMin": 2,
+        "monthMax": 12
+      },
+      {
+        "era": "乾祐",
+        "personId": "liu-chengyou",
+        "yearMin": 2,
+        "yearMax": 2
+      },
+      {
+        "era": "乾祐",
+        "personId": "liu-chengyou",
+        "yearMin": 3,
+        "yearMax": 3,
+        "monthMin": 1,
+        "monthMax": 10
+      },
+      {
+        "era": "廣順",
+        "personId": "guo-wei",
+        "yearMin": 1,
+        "yearMax": 3
+      },
+      {
+        "era": "顯德",
+        "personId": "chai-rong",
+        "yearMin": 1,
+        "yearMax": 1,
+        "monthMin": 2,
+        "monthMax": 12
+      },
+      {
+        "era": "顯德",
+        "personId": "chai-rong",
+        "yearMin": 2,
+        "yearMax": 5
+      },
+      {
+        "era": "顯德",
+        "personId": "chai-rong",
+        "yearMin": 6,
+        "yearMax": 6,
+        "monthMin": 1,
+        "monthMax": 5
+      },
+      {
+        "era": "顯德",
+        "personId": "chai-zongxun",
+        "yearMin": 6,
+        "yearMax": 6,
+        "monthMin": 7,
+        "monthMax": 12
+      }
+    ],
+    "note": "仅关联同段明确年号/年份与敕、诏等实际发令或裁定文字；不按当年国事或地名关联。交接月六月（乾化二年、天福七年、显德六年）、十一月（长兴四年、乾祐三年）等保守排除；乾祐元年、显德元年正月及显德七年不自动归人。"
+  }
+}

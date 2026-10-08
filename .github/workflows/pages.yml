@@ -8,6 +8,7 @@ on:
       - 'content/**'
       - 'scripts/archive-sources.py'
       - 'scripts/index-reading-headings.py'
+      - 'scripts/index-person-passages.mjs'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 

@@ -1,0 +1,61 @@
+.person-passages-page { width: min(1080px, 91.8%); margin: 0 auto; padding: 40px 0 54px; overflow-wrap: anywhere; }
+.passages-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.passages-heading h1 { font-family: var(--serif); font-size: 42px; font-weight: 700; line-height: 1.45; }
+.passages-heading p { margin-top: 12px; font-size: 15px; color: var(--soft-ink); }
+.passages-heading > button { flex-shrink: 0; }
+.passages-selection { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.passages-selection label { font-family: var(--serif); font-size: 17px; }
+.passages-selection select { min-height: 42px; max-width: 100%; padding: 8px 35px 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 14px; }
+.passages-selection p { color: var(--muted); font-size: 12px; margin-left: auto; }
+.person-passages .passages-toolbar { margin-bottom: 24px; }
+.person-passages .passages-font-controls { gap: 14px; }
+.passages-font-controls > span { color: var(--muted); font-family: var(--sans); font-size: 12px; }
+.person-passages .font-button { min-width: 36px; min-height: 36px; }
+.passages-results-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; }
+.passages-results-heading h2 { font-family: var(--serif); font-size: 24px; line-height: 1.6; scroll-margin-top: 25px; }
+.passages-results-heading h2:focus { outline: none; }
+.passages-results-heading p { color: var(--muted); font-size: 13px; }
+.person-passages .passages-status { margin-top: 7px; }
+.passages-scope { max-width: 72em; margin: 14px 0 28px; color: var(--muted); font-size: 12px; line-height: 1.85; }
+.passages-unavailable { margin: 0 0 26px; padding: 13px 16px; border-left: 2px solid var(--accent); background: var(--raised); font-size: 14px; color: var(--soft-ink); }
+.passages-book { margin-top: 28px; }
+.passages-book-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; padding: 15px 0; border-top: 1px solid var(--border-strong); }
+.passages-book-heading h2 { font-family: var(--serif); font-size: 30px; line-height: 1.5; }
+.passages-book-heading p { color: var(--muted); font-size: 13px; }
+.passages-chapter { padding: 24px 32px 25px; background: var(--surface); border-top: 1px solid var(--line); }
+.passages-chapter + .passages-chapter { margin-top: 18px; }
+.passages-chapter-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 27px; }
+.passages-chapter-heading h3 { font-family: var(--serif); font-size: 24px; line-height: 1.55; font-weight: 700; }
+.person-passages .passage-text { min-height: 0; }
+.passage-entry + .passage-entry { margin-top: 22px; }
+.passage-context { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 15px; margin-bottom: 14px; color: var(--muted); font-family: var(--sans); font-size: 12px; }
+.passage-context button, .passage-gap button { min-height: 32px; color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.person-passages .passage-gap { display: flex; align-items: center; flex-wrap: wrap; gap: 0 14px; margin: 0 0 22px; padding: 12px 0; border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); color: var(--muted); font-family: var(--sans); font-size: 12px; line-height: 1.7; }
+.person-passages .paragraph-number { left: -23px; }
+.person-passages .passage-no-translation { margin: 0 0 24px; color: var(--muted); font-family: var(--sans); font-size: 13px; }
+.person-passages .passage-provenance { padding-top: 18px; margin-top: 22px; border-top: 1px solid var(--line); }
+.passages-pagination { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; padding-top: 24px; margin-top: 28px; border-top: 1px solid var(--line); }
+.passages-pagination > span { color: var(--muted); font-size: 13px; }
+.passages-pagination button { min-height: 40px; }
+.passages-empty { padding: 34px 0; border-top: 1px solid var(--line); }
+.passages-empty h3 { font-family: var(--serif); font-size: 23px; margin-bottom: 12px; }
+.passages-empty p { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+@media (max-width: 800px) {
+  .person-passages-page { width: 90%; padding-top: 30px; }
+  .passages-heading { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .passages-heading h1 { font-size: 35px; }
+  .passages-selection p { width: 100%; margin-left: 0; }
+  .passages-chapter { padding: 24px 27px; }
+}
+@media (max-width: 560px) {
+  .person-passages-page { width: 100%; padding: 27px 5% 42px; }
+  .person-passages .breadcrumbs { min-height: 56px; height: auto; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; gap: 8px 12px; }
+  .passages-heading h1 { font-size: 30px; }
+  .passages-heading p { font-size: 14px; }
+  .passages-book-heading h2 { font-size: 27px; }
+  .passages-results-heading h2 { font-size: 22px; }
+  .passages-chapter { margin-left: -5.56%; margin-right: -5.56%; padding: 23px 8%; }
+  .passages-chapter-heading h3 { font-size: 23px; }
+  .person-passages .paragraph-number { left: -20px; font-size: 10px; }
+  .person-passages .paragraph-translation { padding: 14px 14px; }
+}

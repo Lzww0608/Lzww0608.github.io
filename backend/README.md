@@ -57,6 +57,20 @@ AI 批次首先按 `draft` 保存。`translations.metadata` 记录 AI 来源、�
 
 `content/five-dynasties/taibao.json` 保存“十三太保相关人物”专题：十三名成员复用李嗣源、李存勖两个既有皇帝 ID，新增十一人，人物索引共 25 人。专题区分亲子、养子和部将，史载姓名与演义用名分别注明；不将史书未列的固定十三人或共同排行作为事实。河东、晋国人物归入后唐史系，以 `periodLabel` 说明实际活动时期，非皇帝不虚构在位年份或建国事件。关系、简介与主入口是展示资料，不能据此覆盖已有原文、译文或修订。
 
+人物片段索引独立保存在 `content/person-passages/index.json`，覆盖当前归档范围。数据库用 `passages` 保存共享片段、`passage_spans` 保存原文段落与 Unicode 字符范围、`person_passages` 保存人物关联和记载类别；`passage_people` 保存稳定人物 ID，`person_passage_index` 保存覆盖统计。一个片段可以关联多人，读取只返回该片段引用的段落，不将整章作为人物传记。
+
+每个范围绑定原文修订号和 SHA-256。SQL 仅公开书籍、章节已发布且所有范围仍匹配当前原文的片段；任一修订、校验值或范围失效后，该片段暂停展示并计入人物列表的 `unavailableCount`。译文沿用完整章节的规则，只读取对应当前原文的最新已发布版本，草稿不公开。人物关系与片段索引都不修改繁体底本、稳定段落 ID、原文修订或译文。
+
+首次新库初始化会导入索引；重跑 `seed` 时保留已有索引。已有原文修订与归档不一致而索引为空时，仅创建索引表并保留原文，跳过自动导入。正式更新索引使用严格校验的本机命令，先备份并验证：
+
+```sh
+npm run backup
+npm run backup:verify
+npm run passages:import
+```
+
+也可传入经共享校验器验证的索引文件：`npm run passages:import -- /absolute/path/index.json`。导入用一个事务核对整个归档与数据库的当前原文，锁定原文直到提交，然后同步独立索引表。来源不一致或中途失败时整批撤销；相同索引重复导入不重复写入。`004-person-passages.sql` 只建立索引表并给 `history_reader` 授予 SELECT，`history_editor` 仍只有原有校订函数权限。管理连接仅在本机导入命令使用，不进入公网 API 服务。
+
 导入已校验的公开归档（先备份；不需要重启 API）：
 
 ```sh
@@ -129,12 +143,16 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 | `GET /api/books` | 已发布书籍 |
 | `GET /api/books/old/chapters` | 已发布章节目录 |
 | `GET /api/chapters/old-v110` | 原文、匹配修订的已发布译文、来源与阅读提示 |
+| `GET /api/people/zhu-wen/passages?bookId=new&limit=50&cursor=0` | 当前归档内的人物片段、来源、已发布译文与分页统计 |
+| `GET /api/passages/passage-new-v01-p2` | 单个可见片段及关联人物 |
 | `GET /api/search?q=朱氏` | 当前原文的字面检索，最多 20 条 |
 | `GET /api/editor/status` | 在线校订是否启用，不返回凭据 |
 | `POST /api/editor/session` | 验证 Origin 与 Bearer 密钥 |
 | `POST /api/editor/translations/new-v04-p1` | 验证身份与预期版本后追加已发布译文版本 |
 
 公开阅读接口仅支持 GET、HEAD、OPTIONS。仅 `/api/editor/` 下的校订入口允许受保护的 POST，预检允许 `Content-Type` 与 `Authorization`。CORS 允许 `https://lzww0608.github.io` 与本机开发/预览地址；写入还必须通过 Bearer 鉴权。CORS 只约束浏览器，接口中的已发布内容本身是公开的。
+
+人物片段列表的 `bookId` 可省略，省略时汇总所有公开史料；`limit` 默认为 50、范围为 1—100，`cursor` 默认为 `0`、仅接受非负整数字符串。结果按书籍 ID、章节目录位置、段落位置及片段 ID 稳定排序，`total` 仅计可见片段，`nextCursor` 在末页为 `null`。`resultSetRevision` 是同一 SQL 快照中完整可见片段 ID 集合的 SHA-256，分页参数不影响它；客户端可在集合或读取来源变化时从第一页重新读取，避免偏移游标跳过片段。未知人物或书籍返回 404，无效分页参数返回 400；已停止公开或原文绑定失效的单片段返回 404。完整章节接口保持兼容。
 
 ## 备份与恢复
 

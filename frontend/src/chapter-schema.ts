@@ -58,3 +58,8 @@ export function parsePublishedTranslation(value: unknown): PublishedTranslation 
   if (!isTranslation(value)) throw new Error('Invalid published translation');
   return value;
 }
+
+export function parseChapterParagraph(value: unknown): ChapterParagraph {
+  if (!isParagraph(value)) throw new Error('Invalid paragraph');
+  return value;
+}

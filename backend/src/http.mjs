@@ -1,5 +1,6 @@
 import { createServer } from 'node:http';
 import { createEditorHandler } from './editor-http.mjs';
+import { parsePersonPassagePagination } from './person-passages.mjs';
 export function createApi({ repository, allowedOrigins, editor = null, log = console.error }) {
   const origins = new Set(allowedOrigins);
   const handleEditor = createEditorHandler({editor, allowedOrigins, log});
@@ -25,6 +26,17 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
       if (!['GET', 'HEAD'].includes(req.method)) return send(405, { error: 'method_not_allowed' });
       if (path === '/api/health') return send(200, await repository.health());
       if (path === '/api/books') return send(200, { books: await repository.books() });
+      const personPassages = path.match(/^\/api\/people\/([a-z0-9-]+)\/passages$/);
+      if (personPassages) {
+        const options = parsePersonPassagePagination(url.searchParams);
+        const result = await repository.personPassages(personPassages[1], options);
+        return result ? send(200, result) : send(404, { error: 'not_found' });
+      }
+      const passage = path.match(/^\/api\/passages\/([a-z0-9-]+)$/);
+      if (passage) {
+        const result = await repository.passage(passage[1]);
+        return result ? send(200, result) : send(404, { error: 'not_found' });
+      }
       const chapters = path.match(/^\/api\/books\/([a-z0-9-]+)\/chapters$/);
       if (chapters) {
         const result = await repository.chapters(chapters[1]);
