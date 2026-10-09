@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代皇帝本纪共 59 卷，另收梁宗室传及卷 52、53、55、56 的唐列传；合计 64 卷，保留辑佚说明与夹注。",
+      "description": "五代皇帝本纪共 59 卷，另收梁宗室传、梁将相关列传及河东、后唐列传；合计 74 卷，保留辑佚说明与夹注。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12，另收梁家人传、唐臣传与义儿传；共 15 卷，合传均整卷保留。",
+      "description": "五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -111,7 +111,25 @@
       "volume": 1,
       "title": "卷 1 · 梁太祖纪1",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "huo-cun",
+        "zhang-cunjing",
+        "kang-huaiying",
+        "niu-cunjie",
+        "zhang-guiba",
+        "zhang-guihou",
+        "yang-shihou",
+        "he-gui",
+        "zhu-yougong",
+        "hu-zhen",
+        "guo-yan",
+        "li-dang",
+        "li-chongyin",
+        "ding-hui",
+        "liu-zhijun"
       ],
       "position": 1,
       "scope": "full",
@@ -138,7 +156,26 @@
         "zhu-wen",
         "li-sizhao",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "ge-congzhou",
+        "zhang-cunjing",
+        "fu-daozhao",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guihou",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "ma-sixun",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "kong-qing",
+        "li-zhouyi"
       ],
       "position": 2,
       "scope": "full",
@@ -162,7 +199,13 @@
       "volume": 3,
       "title": "卷 3 · 梁太祖纪3",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "fu-daozhao",
+        "liu-han",
+        "yang-shihou",
+        "li-sian",
+        "zhu-youqian",
+        "yuan-xiangxian"
       ],
       "position": 3,
       "scope": "full",
@@ -186,7 +229,14 @@
       "volume": 4,
       "title": "卷 4 · 梁太祖纪4",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "kang-huaiying",
+        "niu-cunjie",
+        "zhang-guiba",
+        "yang-shihou",
+        "he-gui",
+        "huang-wenjing",
+        "liu-zhijun"
       ],
       "position": 4,
       "scope": "full",
@@ -210,7 +260,12 @@
       "volume": 5,
       "title": "卷 5 · 梁太祖纪5",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "kou-yanqing",
+        "kang-huaiying",
+        "yang-shihou",
+        "li-sian",
+        "liu-zhijun"
       ],
       "position": 5,
       "scope": "full",
@@ -234,7 +289,15 @@
       "volume": 6,
       "title": "卷 6 · 梁太祖纪6",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "yang-shihou",
+        "wang-jingren",
+        "li-sian",
+        "deng-jijun",
+        "huang-wenjing",
+        "yan-bao",
+        "he-delun",
+        "li-zhouyi"
       ],
       "position": 6,
       "scope": "full",
@@ -259,7 +322,12 @@
       "title": "卷 7 · 梁太祖纪7",
       "subjects": [
         "zhu-wen",
-        "zhu-yougui"
+        "zhu-yougui",
+        "yang-shihou",
+        "wang-tan",
+        "he-delun",
+        "duan-ning",
+        "li-zhouyi"
       ],
       "position": 7,
       "scope": "full",
@@ -283,7 +351,23 @@
       "volume": 8,
       "title": "卷 8 · 梁末帝纪1",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "ge-congzhou",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "he-gui",
+        "wang-tan",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "yuan-xiangxian"
       ],
       "position": 8,
       "scope": "full",
@@ -307,7 +391,14 @@
       "volume": 9,
       "title": "卷 9 · 梁末帝纪2",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "liu-xun",
+        "he-gui",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "huo-yanwei",
+        "liu-qi",
+        "li-zhouyi"
       ],
       "position": 9,
       "scope": "full",
@@ -333,7 +424,16 @@
       "subjects": [
         "zhu-youzhen",
         "li-sizhao",
-        "fu-cunshen"
+        "fu-cunshen",
+        "liu-xun",
+        "wang-yanzhang",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "zhu-hanbin",
+        "liu-qi",
+        "duan-ning"
       ],
       "position": 10,
       "scope": "full",
@@ -360,7 +460,18 @@
         "li-cunxu",
         "li-sizhao",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "fu-daozhao",
+        "kang-huaiying",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "wang-yanzhang",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "liu-zhijun",
+        "yan-bao"
       ],
       "position": 27,
       "scope": "full",
@@ -387,7 +498,21 @@
         "li-cunxu",
         "li-sizhao",
         "li-siben",
-        "fu-cunshen"
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "he-gui",
+        "wang-tan",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "dai-siyuan",
+        "yuan-xiangxian",
+        "li-zhouyi"
       ],
       "position": 28,
       "scope": "full",
@@ -415,7 +540,16 @@
         "li-sizhao",
         "li-cunjin",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "liu-xun",
+        "he-gui",
+        "wang-yanzhang",
+        "yan-bao",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "duan-ning"
       ],
       "position": 29,
       "scope": "full",
@@ -439,7 +573,17 @@
       "volume": 30,
       "title": "卷 30 · 唐庄宗纪4",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "liu-xun",
+        "wang-yanzhang",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "zhu-hanbin",
+        "liu-qi",
+        "yuan-xiangxian",
+        "duan-ning"
       ],
       "position": 30,
       "scope": "full",
@@ -465,7 +609,9 @@
       "subjects": [
         "li-cunxu",
         "fu-cunshen",
-        "li-cunxian"
+        "li-cunxian",
+        "zhu-youqian",
+        "huo-yanwei"
       ],
       "position": 31,
       "scope": "full",
@@ -493,7 +639,13 @@
         "li-sizhao",
         "li-cunzhang",
         "fu-cunshen",
-        "li-cunxian"
+        "li-cunxian",
+        "ding-hui",
+        "zhu-youqian",
+        "huo-yanwei",
+        "zhu-hanbin",
+        "yuan-xiangxian",
+        "duan-ning"
       ],
       "position": 32,
       "scope": "full",
@@ -541,7 +693,10 @@
       "volume": 34,
       "title": "卷 34 · 唐庄宗纪8",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "zhu-youqian",
+        "huo-yanwei",
+        "zhu-hanbin"
       ],
       "position": 34,
       "scope": "full",
@@ -568,7 +723,16 @@
         "li-siyuan",
         "li-sizhao",
         "li-cunxin",
-        "fu-cunshen"
+        "fu-cunshen",
+        "ge-congzhou",
+        "liu-xun",
+        "wang-yanzhang",
+        "shi-shucong",
+        "yan-bao",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan"
       ],
       "position": 35,
       "scope": "full",
@@ -592,7 +756,11 @@
       "volume": 36,
       "title": "卷 36 · 唐明宗纪2",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan"
       ],
       "position": 36,
       "scope": "full",
@@ -616,7 +784,8 @@
       "volume": 37,
       "title": "卷 37 · 唐明宗纪3",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "huo-yanwei"
       ],
       "position": 37,
       "scope": "full",
@@ -642,7 +811,13 @@
       "subjects": [
         "li-siyuan",
         "li-sien",
-        "fu-cunshen"
+        "fu-cunshen",
+        "yang-shihou",
+        "he-delun",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "liu-qi",
+        "duan-ning"
       ],
       "position": 38,
       "scope": "full",
@@ -666,7 +841,12 @@
       "volume": 39,
       "title": "卷 39 · 唐明宗纪5",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "duan-ning"
       ],
       "position": 39,
       "scope": "full",
@@ -690,7 +870,10 @@
       "volume": 40,
       "title": "卷 40 · 唐明宗纪6",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "zhu-hanbin"
       ],
       "position": 40,
       "scope": "full",
@@ -715,7 +898,9 @@
       "title": "卷 41 · 唐明宗纪7",
       "subjects": [
         "li-siyuan",
-        "li-sizhao"
+        "li-sizhao",
+        "wang-yanqiu",
+        "zhu-hanbin"
       ],
       "position": 41,
       "scope": "full",
@@ -741,7 +926,8 @@
       "subjects": [
         "li-siyuan",
         "li-sizhao",
-        "fu-cunshen"
+        "fu-cunshen",
+        "zhu-hanbin"
       ],
       "position": 42,
       "scope": "full",
@@ -765,7 +951,9 @@
       "volume": 43,
       "title": "卷 43 · 唐明宗纪9",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "wang-yanqiu",
+        "zhou-zhiyu"
       ],
       "position": 43,
       "scope": "full",
@@ -839,7 +1027,9 @@
       "title": "卷 46 · 唐末帝纪1",
       "subjects": [
         "li-congke",
-        "fu-cunshen"
+        "fu-cunshen",
+        "wang-yanzhang",
+        "zhou-zhiyu"
       ],
       "position": 46,
       "scope": "full",
@@ -863,7 +1053,9 @@
       "volume": 47,
       "title": "卷 47 · 唐末帝纪2",
       "subjects": [
-        "li-congke"
+        "li-congke",
+        "dai-siyuan",
+        "zhu-hanbin"
       ],
       "position": 47,
       "scope": "full",
@@ -911,7 +1103,12 @@
       "volume": 75,
       "title": "卷 75 · 晋高祖纪1",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "liu-xun",
+        "he-gui",
+        "li-sian",
+        "huo-yanwei",
+        "dai-siyuan"
       ],
       "position": 75,
       "scope": "full",
@@ -937,7 +1134,10 @@
       "subjects": [
         "shi-jingtang",
         "li-sizhao",
-        "li-cunzhang"
+        "li-cunzhang",
+        "wang-yanzhang",
+        "yan-bao",
+        "zhu-hanbin"
       ],
       "position": 76,
       "scope": "full",
@@ -1035,7 +1235,8 @@
       "title": "卷 80 · 晋高祖纪6",
       "subjects": [
         "shi-jingtang",
-        "shi-chonggui"
+        "shi-chonggui",
+        "li-sian"
       ],
       "position": 80,
       "scope": "full",
@@ -1204,7 +1405,8 @@
       "title": "卷 100 · 汉高祖纪2",
       "subjects": [
         "liu-zhiyuan",
-        "liu-chengyou"
+        "liu-chengyou",
+        "zhu-youqian"
       ],
       "position": 100,
       "scope": "full",
@@ -1568,7 +1770,14 @@
       "subjects": [
         "zhu-wen",
         "zhu-yougui",
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "pang-shigu",
+        "liu-han",
+        "wang-yanzhang",
+        "shi-shucong",
+        "zhu-yougong",
+        "huo-yanwei",
+        "yuan-xiangxian"
       ],
       "position": 12,
       "scope": "full",
@@ -1593,7 +1802,25 @@
       "title": "卷 1 · 梁本纪第一",
       "subjects": [
         "zhu-wen",
-        "kang-junli"
+        "kang-junli",
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "pang-shigu",
+        "zhang-cunjing",
+        "kou-yanqing",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guihou",
+        "yang-shihou",
+        "shi-shucong",
+        "zhu-yougong",
+        "hu-zhen",
+        "ding-hui",
+        "zhu-youqian",
+        "kong-qing",
+        "li-zhouyi"
       ],
       "position": 1,
       "scope": "full",
@@ -1618,7 +1845,16 @@
       "title": "卷 2 · 梁本纪第二",
       "subjects": [
         "zhu-wen",
-        "zhu-yougui"
+        "zhu-yougui",
+        "liu-han",
+        "kang-huaiying",
+        "wang-chongshi",
+        "yang-shihou",
+        "wang-jingren",
+        "wang-tan",
+        "li-sian",
+        "liu-zhijun",
+        "zhu-youqian"
       ],
       "position": 2,
       "scope": "full",
@@ -1642,7 +1878,20 @@
       "volume": 3,
       "title": "卷 3 · 梁本纪第三",
       "subjects": [
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "he-gui",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "dai-siyuan",
+        "yuan-xiangxian",
+        "duan-ning"
       ],
       "position": 3,
       "scope": "full",
@@ -1670,7 +1919,9 @@
         "li-sizhao",
         "li-cunxin",
         "kang-junli",
-        "li-cunxiao"
+        "li-cunxiao",
+        "ge-congzhou",
+        "shi-shucong"
       ],
       "position": 4,
       "scope": "full",
@@ -1699,7 +1950,19 @@
         "li-siben",
         "li-cunjin",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "wang-jingren",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "dai-siyuan",
+        "zhu-hanbin"
       ],
       "position": 5,
       "scope": "full",
@@ -1725,7 +1988,14 @@
       "subjects": [
         "li-siyuan",
         "li-sizhao",
-        "li-cunxin"
+        "li-cunxin",
+        "ge-congzhou",
+        "wang-yanzhang",
+        "yan-bao",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "duan-ning"
       ],
       "position": 6,
       "scope": "full",
@@ -1774,7 +2044,8 @@
       "volume": 8,
       "title": "卷 8 · 晋本纪第八",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "liu-xun"
       ],
       "position": 8,
       "scope": "full",
@@ -1898,7 +2169,11 @@
       "subjects": [
         "zhu-wen",
         "zhu-yougui",
-        "zhu-youzhen"
+        "zhu-youzhen",
+        "pang-shigu",
+        "zhu-yougong",
+        "zhu-youqian",
+        "yuan-xiangxian"
       ],
       "position": 13,
       "scope": "full",
@@ -1927,7 +2202,18 @@
         "li-sien",
         "li-cunxin",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "ge-congzhou",
+        "kang-huaiying",
+        "liu-xun",
+        "zhang-guihou",
+        "wang-jingren",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian"
       ],
       "position": 52,
       "scope": "full",
@@ -1958,7 +2244,14 @@
         "li-cunxian",
         "li-sizhao",
         "fu-cunshen",
-        "kang-junli"
+        "kang-junli",
+        "ge-congzhou",
+        "wang-tan",
+        "shi-shucong",
+        "deng-jijun",
+        "li-dang",
+        "yan-bao",
+        "duan-ning"
       ],
       "position": 53,
       "scope": "full",
@@ -1988,7 +2281,17 @@
         "li-cunxin",
         "li-cunzhang",
         "fu-cunshen",
-        "li-cunxiao"
+        "li-cunxiao",
+        "ge-congzhou",
+        "pang-shigu",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "li-sian",
+        "ding-hui",
+        "yan-bao",
+        "he-delun"
       ],
       "position": 55,
       "scope": "full",
@@ -2015,7 +2318,17 @@
         "fu-cunshen",
         "li-sizhao",
         "li-cunjin",
-        "li-cunzhang"
+        "li-cunzhang",
+        "liu-xun",
+        "wang-jingren",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "yan-bao",
+        "zhu-youqian",
+        "dai-siyuan"
       ],
       "position": 56,
       "scope": "full",
@@ -2041,7 +2354,14 @@
       "subjects": [
         "fu-cunshen",
         "shi-jingsi",
-        "li-sizhao"
+        "li-sizhao",
+        "liu-xun",
+        "wang-jingren",
+        "he-gui",
+        "wang-tan",
+        "ding-hui",
+        "yan-bao",
+        "zhu-youqian"
       ],
       "position": 25,
       "scope": "full",
@@ -2075,7 +2395,19 @@
         "li-cunzhang",
         "li-cunxian",
         "kang-junli",
-        "fu-cunshen"
+        "fu-cunshen",
+        "ge-congzhou",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "wang-tan",
+        "shi-shucong",
+        "li-sian",
+        "deng-jijun",
+        "li-dang",
+        "ding-hui",
+        "yan-bao",
+        "zhu-youqian"
       ],
       "position": 36,
       "scope": "full",
@@ -2094,6 +2426,707 @@
       }
     },
     {
+      "id": "old-v013",
+      "bookId": "old",
+      "volume": 13,
+      "title": "卷 13 · 梁列传",
+      "subjects": [
+        "pang-shigu",
+        "liu-han",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "wang-chongshi",
+        "yang-shihou",
+        "he-gui",
+        "wang-yanzhang",
+        "zhu-yougong",
+        "liu-zhijun",
+        "yan-bao",
+        "huo-yanwei"
+      ],
+      "position": 13,
+      "scope": "full",
+      "paragraphCount": 26,
+      "characterCount": 7224,
+      "provenance": {
+        "pageTitle": "舊五代史/卷13",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=8730587",
+        "revisionId": 8730587,
+        "fetchedAt": "2026-10-09T03:13:26.124941+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&action=history",
+        "sourceSha256": "8af36c028a5ccad75e2bd44500837556e5dc0232c1e1ca1c611f3026944bd76d",
+        "chapterSha256": "aef2225239273183ae751af57dd4d24e2527f726bbaac03bd88573487d1312f5"
+      }
+    },
+    {
+      "id": "old-v016",
+      "bookId": "old",
+      "volume": 16,
+      "title": "卷 16 · 梁列传",
+      "subjects": [
+        "li-sizhao",
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "pang-shigu",
+        "huo-cun",
+        "zhang-cunjing",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guiba",
+        "zhang-guihou",
+        "zhang-guibian",
+        "xu-huaiyu",
+        "yang-shihou",
+        "he-gui",
+        "xie-yanzhang",
+        "shi-shucong",
+        "hu-zhen",
+        "guo-yan",
+        "li-dang",
+        "ding-hui",
+        "liu-zhijun",
+        "he-delun",
+        "duan-ning"
+      ],
+      "position": 16,
+      "scope": "full",
+      "paragraphCount": 24,
+      "characterCount": 5158,
+      "provenance": {
+        "pageTitle": "舊五代史/卷16",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B716&oldid=8730592",
+        "revisionId": 8730592,
+        "fetchedAt": "2026-10-09T03:13:26.329169+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B716&action=history",
+        "sourceSha256": "192d82ec08a652e5aaa71f541c2f03b2ca9a25748a644c0ca0d12aed0f4e750f",
+        "chapterSha256": "298854629765948c70ac1f41d52af2ec9e5ee56655f223d21fb767a13ddcab33"
+      }
+    },
+    {
+      "id": "old-v019",
+      "bookId": "old",
+      "volume": 19,
+      "title": "卷 19 · 梁列传",
+      "subjects": [
+        "li-sizhao",
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "pang-shigu",
+        "huo-cun",
+        "zhang-cunjing",
+        "liu-han",
+        "kang-huaiying",
+        "liu-xun",
+        "wang-chongshi",
+        "yang-shihou",
+        "wang-qianyu",
+        "shi-shucong",
+        "zhu-yougong",
+        "li-sian",
+        "hu-zhen",
+        "guo-yan",
+        "deng-jijun",
+        "huang-wenjing",
+        "hu-gui",
+        "li-dang",
+        "li-chongyin",
+        "fan-jushi",
+        "ding-hui",
+        "li-zhouyi"
+      ],
+      "position": 19,
+      "scope": "full",
+      "paragraphCount": 28,
+      "characterCount": 5182,
+      "provenance": {
+        "pageTitle": "舊五代史/卷19",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B719&oldid=8730599",
+        "revisionId": 8730599,
+        "fetchedAt": "2026-10-09T03:13:27.577884+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B719&action=history",
+        "sourceSha256": "55552af9b071a5dc6e8a3718da0880aeedda4c9880ae40bad92814e2877823e9",
+        "chapterSha256": "a9727a123699afa3ebeb63398b586f58d5e0afcfcc4780b945e3d10216aff8e2"
+      }
+    },
+    {
+      "id": "old-v020",
+      "bookId": "old",
+      "volume": 20,
+      "title": "卷 20 · 梁列传",
+      "subjects": [
+        "ge-congzhou",
+        "zhu-zhen",
+        "pang-shigu",
+        "huo-cun",
+        "zhang-cunjing",
+        "liu-han",
+        "kou-yanqing",
+        "wang-chongshi",
+        "ma-sixun",
+        "zhu-yougong",
+        "wang-jingrao",
+        "ding-hui",
+        "liu-zhijun"
+      ],
+      "position": 20,
+      "scope": "full",
+      "paragraphCount": 23,
+      "characterCount": 4124,
+      "provenance": {
+        "pageTitle": "舊五代史/卷20",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&oldid=8730604",
+        "revisionId": 8730604,
+        "fetchedAt": "2026-10-09T03:13:27.610649+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&action=history",
+        "sourceSha256": "f9122e60ec4348740ba772e38442490bcd083fd13703358cc18379cbd484b519",
+        "chapterSha256": "d5849ff0a86cb1b482278d07ddc10c241e6151d8e62bcb752b4717b51a06274e"
+      }
+    },
+    {
+      "id": "old-v021",
+      "bookId": "old",
+      "volume": 21,
+      "title": "卷 21 · 梁列传",
+      "subjects": [
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "pang-shigu",
+        "huo-cun",
+        "fu-daozhao",
+        "kou-yanqing",
+        "kang-huaiying",
+        "liu-xun",
+        "zhang-guiba",
+        "xu-huaiyu",
+        "yang-shihou",
+        "he-gui",
+        "wang-tan",
+        "wang-qianyu",
+        "wang-yanzhang",
+        "guo-yan",
+        "li-dang",
+        "liu-kangyi",
+        "ding-hui",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "dai-siyuan",
+        "duan-ning",
+        "li-zhouyi"
+      ],
+      "position": 21,
+      "scope": "full",
+      "paragraphCount": 26,
+      "characterCount": 6310,
+      "provenance": {
+        "pageTitle": "舊五代史/卷21",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B721&oldid=2020965",
+        "revisionId": 2020965,
+        "fetchedAt": "2026-10-09T03:13:28.641964+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B721&action=history",
+        "sourceSha256": "5e146166990f7799b0638c966d112e6f0f7e9d963479bec62902eea762fb3403",
+        "chapterSha256": "80eaacfb412a4fb51573bd9010c12d627ed033a05897d25fa5bac92a7f6eb187"
+      }
+    },
+    {
+      "id": "old-v022",
+      "bookId": "old",
+      "volume": 22,
+      "title": "卷 22 · 梁列传",
+      "subjects": [
+        "fu-cunshen",
+        "ge-congzhou",
+        "zhu-zhen",
+        "pang-shigu",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "wang-tan",
+        "hu-zhen",
+        "li-dang",
+        "li-chongyin",
+        "ding-hui",
+        "liu-zhijun",
+        "zhu-hanbin",
+        "yuan-xiangxian"
+      ],
+      "position": 22,
+      "scope": "full",
+      "paragraphCount": 20,
+      "characterCount": 4832,
+      "provenance": {
+        "pageTitle": "舊五代史/卷22",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&oldid=1517772",
+        "revisionId": 1517772,
+        "fetchedAt": "2026-10-09T03:13:29.071222+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&action=history",
+        "sourceSha256": "6d5ab02f954ad6f8c061fcc64bcd1b7d9bf8fa30e6adecbbd3390c6f1d52c26c",
+        "chapterSha256": "ebc6fd91a821b79f18247eb63d4c85d8e6e3ed90b35ba7d140d221b8904af4f3"
+      }
+    },
+    {
+      "id": "old-v023",
+      "bookId": "old",
+      "volume": 23,
+      "title": "卷 23 · 梁列传",
+      "subjects": [
+        "li-sizhao",
+        "ge-congzhou",
+        "zhang-cunjing",
+        "fu-daozhao",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "liu-zhijun",
+        "he-delun",
+        "zhu-youqian",
+        "duan-ning",
+        "li-zhouyi"
+      ],
+      "position": 23,
+      "scope": "full",
+      "paragraphCount": 25,
+      "characterCount": 6077,
+      "provenance": {
+        "pageTitle": "舊五代史/卷23",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B723&oldid=1517773",
+        "revisionId": 1517773,
+        "fetchedAt": "2026-10-09T03:13:30.131975+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B723&action=history",
+        "sourceSha256": "e075058588da561cb4361a4d7f7a57a6a9885f7fd0cee1d000d92ff015c224b0",
+        "chapterSha256": "57697a9a205435ed55dda2d4b6516d9824ad4890653cd5d195ddc9343cdedf1c"
+      }
+    },
+    {
+      "id": "old-v059",
+      "bookId": "old",
+      "volume": 59,
+      "title": "卷 59 · 唐列传",
+      "subjects": [
+        "fu-cunshen",
+        "ge-congzhou",
+        "kang-huaiying",
+        "liu-xun",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "wang-yanzhang",
+        "li-sian",
+        "hu-gui",
+        "ding-hui",
+        "yan-bao",
+        "he-delun",
+        "huo-yanwei",
+        "dai-siyuan",
+        "yuan-xiangxian",
+        "duan-ning"
+      ],
+      "position": 59,
+      "scope": "full",
+      "paragraphCount": 19,
+      "characterCount": 5238,
+      "provenance": {
+        "pageTitle": "舊五代史/卷59",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B759&oldid=512973",
+        "revisionId": 512973,
+        "fetchedAt": "2026-10-09T03:13:30.501779+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B759&action=history",
+        "sourceSha256": "1497cd1f6ec2956e0a7f7dea6385db4ebcf76d0e432d8287265572ddee90c5fe",
+        "chapterSha256": "19e5c4a3eccf5ea69e232fc0dfa1318f3f224027db7b090bec3e706ef5fa1fab"
+      }
+    },
+    {
+      "id": "old-v063",
+      "bookId": "old",
+      "volume": 63,
+      "title": "卷 63 · 唐列传",
+      "subjects": [
+        "li-sizhao",
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "ding-hui",
+        "zhu-youqian",
+        "duan-ning"
+      ],
+      "position": 63,
+      "scope": "full",
+      "paragraphCount": 18,
+      "characterCount": 5802,
+      "provenance": {
+        "pageTitle": "舊五代史/卷63",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=2304481",
+        "revisionId": 2304481,
+        "fetchedAt": "2026-10-09T03:13:31.639973+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&action=history",
+        "sourceSha256": "46ee37fe8cd39a30f2f1658881a5cf545b560c7c3e9b2b9e6830cc86669a0104",
+        "chapterSha256": "0a3f3010defa57a55b3bf9e250472909d76634d5100ebc20c0f2def4a0ef8ab9"
+      }
+    },
+    {
+      "id": "old-v064",
+      "bookId": "old",
+      "volume": 64,
+      "title": "卷 64 · 唐列传",
+      "subjects": [
+        "fu-cunshen",
+        "pang-shigu",
+        "huo-cun",
+        "liu-zhijun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "zhu-hanbin",
+        "kong-qing",
+        "liu-qi",
+        "zhou-zhiyu",
+        "yuan-xiangxian",
+        "duan-ning"
+      ],
+      "position": 64,
+      "scope": "full",
+      "paragraphCount": 16,
+      "characterCount": 4323,
+      "provenance": {
+        "pageTitle": "舊五代史/卷64",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B764&oldid=1775503",
+        "revisionId": 1775503,
+        "fetchedAt": "2026-10-09T03:13:31.690691+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B764&action=history",
+        "sourceSha256": "ca7e641895811298f23ffde5640d1a16f337be29f072ff05c97897f092352961",
+        "chapterSha256": "e5935ef20c8101e25781ed95cc4fdf3b77da1c380501f6c52804187e48bb80fd"
+      }
+    },
+    {
+      "id": "new-v21",
+      "bookId": "new",
+      "volume": 21,
+      "title": "卷 21 · 梁臣传",
+      "subjects": [
+        "ge-congzhou",
+        "zhu-zhen",
+        "li-tangbin",
+        "pang-shigu",
+        "huo-cun",
+        "zhang-cunjing",
+        "fu-daozhao",
+        "liu-han",
+        "kou-yanqing",
+        "kang-huaiying",
+        "liu-xun",
+        "he-gui",
+        "ma-sixun",
+        "wang-yanzhang",
+        "shi-shucong",
+        "fan-jushi",
+        "ding-hui",
+        "liu-zhijun",
+        "duan-ning",
+        "li-zhouyi"
+      ],
+      "position": 21,
+      "scope": "full",
+      "paragraphCount": 58,
+      "characterCount": 6221,
+      "provenance": {
+        "pageTitle": "新五代史/卷21",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B721&oldid=1699252",
+        "revisionId": 1699252,
+        "fetchedAt": "2026-10-09T03:13:32.910029+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B721&action=history",
+        "sourceSha256": "b7ffed20334a077beefcbdca1ade4550916c313b383437c6619019cf69a3bbac",
+        "chapterSha256": "efa771f6e8a1f91b2508926a8470a0a18cf2129faf4a4ad164b065f4415dc8b0"
+      }
+    },
+    {
+      "id": "new-v22",
+      "bookId": "new",
+      "volume": 22,
+      "title": "卷 22 · 梁臣传",
+      "subjects": [
+        "fu-cunshen",
+        "ge-congzhou",
+        "pang-shigu",
+        "liu-han",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guiba",
+        "zhang-guihou",
+        "zhang-guibian",
+        "wang-chongshi",
+        "xu-huaiyu",
+        "yang-shihou",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "liu-zhijun",
+        "he-delun",
+        "zhu-youqian",
+        "duan-ning",
+        "li-zhouyi"
+      ],
+      "position": 22,
+      "scope": "full",
+      "paragraphCount": 43,
+      "characterCount": 5073,
+      "provenance": {
+        "pageTitle": "新五代史/卷22",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&oldid=1699277",
+        "revisionId": 1699277,
+        "fetchedAt": "2026-10-09T03:13:33.157444+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&action=history",
+        "sourceSha256": "b3e6ea48e226787c3a622dcb84792b9082c3ebaa30fa4e455c55be6b8bcc0067",
+        "chapterSha256": "11610be8bb62ae1cf8684fe544b43714b16a00ffd7612bd7cb1b5d9eedbbeb21"
+      }
+    },
+    {
+      "id": "new-v23",
+      "bookId": "new",
+      "volume": 23,
+      "title": "卷 23 · 梁臣传",
+      "subjects": [
+        "ge-congzhou",
+        "zhu-zhen",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "wang-tan",
+        "ma-sixun",
+        "wang-qianyu",
+        "xie-yanzhang",
+        "li-sian",
+        "li-chongyin",
+        "liu-zhijun",
+        "he-delun",
+        "zhu-hanbin",
+        "yuan-xiangxian"
+      ],
+      "position": 23,
+      "scope": "full",
+      "paragraphCount": 37,
+      "characterCount": 4112,
+      "provenance": {
+        "pageTitle": "新五代史/卷23",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B723&oldid=1699313",
+        "revisionId": 1699313,
+        "fetchedAt": "2026-10-09T03:13:34.158397+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B723&action=history",
+        "sourceSha256": "1d5b18600d31056b5cb995ff7c816fd64c35b1967b6498835293bdaf79bd5479",
+        "chapterSha256": "e9a014482dc4c480f0059876d3a7ac646c6b6fd2925d8f5fc9e6aed7064531a4"
+      }
+    },
+    {
+      "id": "new-v32",
+      "bookId": "new",
+      "volume": 32,
+      "title": "卷 32 · 死节传",
+      "subjects": [
+        "li-sizhao",
+        "fu-cunshen",
+        "wang-yanzhang",
+        "duan-ning"
+      ],
+      "position": 32,
+      "scope": "full",
+      "paragraphCount": 19,
+      "characterCount": 3110,
+      "provenance": {
+        "pageTitle": "新五代史/卷32",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B732&oldid=1699549",
+        "revisionId": 1699549,
+        "fetchedAt": "2026-10-09T03:13:34.401542+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B732&action=history",
+        "sourceSha256": "efbbf0d54747fa88b642b8aef24b65f493b57ab28c28e5f4f99bdaa6ef0c88a2",
+        "chapterSha256": "bcefb9eac5d954131ec917222e89ef36c02ed9f1109a8599eacf3e5facd820c8"
+      }
+    },
+    {
+      "id": "new-v43",
+      "bookId": "new",
+      "volume": 43,
+      "title": "卷 43 · 杂传",
+      "subjects": [
+        "pang-shigu",
+        "niu-cunjie",
+        "shi-shucong",
+        "zhu-yougong",
+        "wang-jingrao",
+        "he-delun"
+      ],
+      "position": 43,
+      "scope": "full",
+      "paragraphCount": 53,
+      "characterCount": 4813,
+      "provenance": {
+        "pageTitle": "新五代史/卷43",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B743&oldid=1721733",
+        "revisionId": 1721733,
+        "fetchedAt": "2026-10-09T03:13:35.719936+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B743&action=history",
+        "sourceSha256": "642c7faabd84a2863177cb830d007b70214228134edd2bbb8377b4e2be13a26b",
+        "chapterSha256": "9d690e394824cc3c4f2c3a255e2b5de1f9c267ea3903e8c27b4faa4f56e40827"
+      }
+    },
+    {
+      "id": "new-v44",
+      "bookId": "new",
+      "volume": 44,
+      "title": "卷 44 · 杂传",
+      "subjects": [
+        "ge-congzhou",
+        "liu-han",
+        "kou-yanqing",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "wang-chongshi",
+        "yang-shihou",
+        "wang-tan",
+        "wang-yanzhang",
+        "li-sian",
+        "ding-hui",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "duan-ning"
+      ],
+      "position": 44,
+      "scope": "full",
+      "paragraphCount": 35,
+      "characterCount": 3881,
+      "provenance": {
+        "pageTitle": "新五代史/卷44",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B744&oldid=1721755",
+        "revisionId": 1721755,
+        "fetchedAt": "2026-10-09T03:13:35.626032+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B744&action=history",
+        "sourceSha256": "f447afca08e238a8405874b5cd102bf7f66f44f8c12c1830f9d8c1b4857d0ace",
+        "chapterSha256": "24bca5238685114b398e534fa4fbf1210f1d675e12ded91ae9fea16c6471d0c6"
+      }
+    },
+    {
+      "id": "new-v45",
+      "bookId": "new",
+      "volume": 45,
+      "title": "卷 45 · 杂传",
+      "subjects": [
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-yanzhang",
+        "li-sian",
+        "ding-hui",
+        "zhu-youqian",
+        "huo-yanwei",
+        "zhu-hanbin",
+        "liu-qi",
+        "zhou-zhiyu",
+        "yuan-xiangxian",
+        "duan-ning"
+      ],
+      "position": 45,
+      "scope": "full",
+      "paragraphCount": 57,
+      "characterCount": 5318,
+      "provenance": {
+        "pageTitle": "新五代史/卷45",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B745&oldid=1727004",
+        "revisionId": 1727004,
+        "fetchedAt": "2026-10-09T03:13:37.135765+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B745&action=history",
+        "sourceSha256": "70678dd38d43fa33b5b3f3b924cf4512125ef603e330e0901c465a65f6f5f625",
+        "chapterSha256": "55e64629d82bb78c45db404b5ef5d5f680d8491ad4b3c4e9e3ed99b3e5d8d79d"
+      }
+    },
+    {
+      "id": "new-v46",
+      "bookId": "new",
+      "volume": 46,
+      "title": "卷 46 · 杂传",
+      "subjects": [
+        "huo-cun",
+        "yang-shihou",
+        "liu-zhijun",
+        "he-delun",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "yuan-xiangxian",
+        "duan-ning"
+      ],
+      "position": 46,
+      "scope": "full",
+      "paragraphCount": 55,
+      "characterCount": 6612,
+      "provenance": {
+        "pageTitle": "新五代史/卷46",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B746&oldid=1727046",
+        "revisionId": 1727046,
+        "fetchedAt": "2026-10-09T03:13:37.208987+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B746&action=history",
+        "sourceSha256": "c3822812ab1f899b04198a062a9a47c6088d7c732463c92116a396aeba4f8e8f",
+        "chapterSha256": "ce02623061bf059541a32655a05a347c99f83a3281fa73c3ca51812f1944569e"
+      }
+    },
+    {
       "id": "tongjian-v266",
       "bookId": "tongjian",
       "volume": 266,
@@ -2103,7 +3136,16 @@
         "zhu-wen",
         "li-sizhao",
         "li-siben",
-        "li-cunzhang"
+        "li-cunzhang",
+        "fu-daozhao",
+        "kang-huaiying",
+        "niu-cunjie",
+        "wang-chongshi",
+        "li-sian",
+        "fan-jushi",
+        "ding-hui",
+        "liu-zhijun",
+        "zhu-youqian"
       ],
       "position": 266,
       "scope": "full",
@@ -2131,7 +3173,22 @@
         "zhu-wen",
         "li-sizhao",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "liu-han",
+        "kou-yanqing",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "wang-chongshi",
+        "xu-huaiyu",
+        "yang-shihou",
+        "wang-jingren",
+        "wang-tan",
+        "wang-yanzhang",
+        "li-sian",
+        "liu-zhijun",
+        "liu-qi",
+        "zhou-zhiyu"
       ],
       "position": 267,
       "scope": "full",
@@ -2161,7 +3218,25 @@
         "zhu-youzhen",
         "li-sizhao",
         "li-sien",
-        "fu-cunshen"
+        "fu-cunshen",
+        "kang-huaiying",
+        "niu-cunjie",
+        "yang-shihou",
+        "wang-jingren",
+        "wang-tan",
+        "li-sian",
+        "liu-zhijun",
+        "he-delun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "zhu-hanbin",
+        "kong-qing",
+        "zhou-zhiyu",
+        "yuan-xiangxian",
+        "duan-ning",
+        "li-zhouyi"
       ],
       "position": 268,
       "scope": "full",
@@ -2192,7 +3267,24 @@
         "li-sien",
         "li-cunjin",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guiba",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "wang-tan",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "kong-qing",
+        "yuan-xiangxian"
       ],
       "position": 269,
       "scope": "full",
@@ -2220,7 +3312,13 @@
         "zhu-youzhen",
         "li-sizhao",
         "li-cunjin",
-        "fu-cunshen"
+        "fu-cunshen",
+        "liu-xun",
+        "he-gui",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yan-bao"
       ],
       "position": 270,
       "scope": "full",
@@ -2248,7 +3346,14 @@
         "zhu-youzhen",
         "li-sizhao",
         "li-cunjin",
-        "fu-cunshen"
+        "fu-cunshen",
+        "liu-xun",
+        "wang-yanzhang",
+        "yan-bao",
+        "zhu-youqian",
+        "huo-yanwei",
+        "dai-siyuan",
+        "duan-ning"
       ],
       "position": 271,
       "scope": "full",
@@ -2276,7 +3381,15 @@
         "zhu-youzhen",
         "li-cunxu",
         "li-sizhao",
-        "fu-cunshen"
+        "fu-cunshen",
+        "wang-yanzhang",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "kong-qing",
+        "yuan-xiangxian",
+        "duan-ning"
       ],
       "position": 272,
       "scope": "full",
@@ -2303,7 +3416,10 @@
       "subjects": [
         "li-cunxu",
         "fu-cunshen",
-        "li-cunxian"
+        "li-cunxian",
+        "zhu-youqian",
+        "huo-yanwei",
+        "duan-ning"
       ],
       "position": 273,
       "scope": "full",
@@ -2328,7 +3444,12 @@
       "title": "卷 274 · 后唐纪3",
       "years": "925—926",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "kong-qing",
+        "duan-ning"
       ],
       "position": 274,
       "scope": "full",
@@ -2355,7 +3476,11 @@
       "subjects": [
         "li-cunxu",
         "li-siyuan",
-        "fu-cunshen"
+        "fu-cunshen",
+        "zhu-youqian",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "duan-ning"
       ],
       "position": 275,
       "scope": "full",
@@ -2380,7 +3505,11 @@
       "title": "卷 276 · 后唐纪5",
       "years": "927—929",
       "subjects": [
-        "li-siyuan"
+        "li-siyuan",
+        "wang-yanzhang",
+        "huo-yanwei",
+        "wang-yanqiu",
+        "duan-ning"
       ],
       "position": 276,
       "scope": "full",
@@ -2585,7 +3714,8 @@
       "title": "卷 284 · 后晋纪5",
       "years": "944—945",
       "subjects": [
-        "shi-chonggui"
+        "shi-chonggui",
+        "yan-bao"
       ],
       "position": 284,
       "scope": "full",
@@ -2762,7 +3892,8 @@
       "years": "952—954",
       "subjects": [
         "guo-wei",
-        "chai-rong"
+        "chai-rong",
+        "guo-yan"
       ],
       "position": 291,
       "scope": "full",
@@ -2812,7 +3943,8 @@
       "title": "卷 293 · 后周纪4",
       "years": "956—957",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "wang-jingren"
       ],
       "position": 293,
       "scope": "full",
@@ -2868,7 +4000,8 @@
         "liu-zhiyuan",
         "guo-wei",
         "liu-chengyou",
-        "chai-rong"
+        "chai-rong",
+        "li-sian"
       ],
       "position": 1,
       "scope": "full",
@@ -2981,7 +4114,8 @@
       "position": 2,
       "title": "卷 1 · 后梁史事",
       "subjects": [
-        "zhu-wen"
+        "zhu-wen",
+        "wang-yanzhang"
       ],
       "scope": "full",
       "paragraphCount": 42,
@@ -3030,7 +4164,8 @@
       "position": 4,
       "title": "卷 3 · 后晋史事",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "wang-yanzhang"
       ],
       "scope": "full",
       "paragraphCount": 40,
@@ -3112,7 +4247,25 @@
         "li-conghou",
         "li-congke",
         "li-sizhao",
-        "fu-cunshen"
+        "fu-cunshen",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "wang-chongshi",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "wang-tan",
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "li-sian",
+        "liu-zhijun",
+        "yan-bao",
+        "he-delun",
+        "zhu-youqian",
+        "wang-yanqiu",
+        "dai-siyuan",
+        "duan-ning"
       ],
       "scope": "full",
       "paragraphCount": 35,
@@ -3179,7 +4332,25 @@
         "liu-chengyou",
         "chai-zongxun",
         "li-cunzhang",
-        "fu-cunshen"
+        "fu-cunshen",
+        "ge-congzhou",
+        "fu-daozhao",
+        "kang-huaiying",
+        "liu-xun",
+        "niu-cunjie",
+        "zhang-guiba",
+        "wang-chongshi",
+        "yang-shihou",
+        "wang-jingren",
+        "he-gui",
+        "wang-tan",
+        "ding-hui",
+        "liu-zhijun",
+        "he-delun",
+        "zhu-youqian",
+        "huo-yanwei",
+        "kong-qing",
+        "yuan-xiangxian"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -3209,7 +4380,8 @@
         "guo-wei",
         "zhu-yougui",
         "shi-chonggui",
-        "liu-zhiyuan"
+        "liu-zhiyuan",
+        "yuan-xiangxian"
       ],
       "scope": "full",
       "paragraphCount": 67,
@@ -3286,7 +4458,8 @@
       "position": 6,
       "title": "卷 5",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "wang-yanqiu"
       ],
       "scope": "full",
       "paragraphCount": 87,
@@ -3415,7 +4588,8 @@
         "guo-wei",
         "liu-zhiyuan",
         "liu-chengyou",
-        "chai-rong"
+        "chai-rong",
+        "wang-jingren"
       ],
       "scope": "full",
       "paragraphCount": 86,
@@ -3442,7 +4616,10 @@
         "shi-jingtang",
         "guo-wei",
         "liu-zhiyuan",
-        "li-sizhao"
+        "li-sizhao",
+        "yang-shihou",
+        "liu-zhijun",
+        "huo-yanwei"
       ],
       "scope": "full",
       "paragraphCount": 114,
@@ -3465,7 +4642,10 @@
       "volume": 12,
       "position": 13,
       "title": "卷 12",
-      "subjects": [],
+      "subjects": [
+        "huo-yanwei",
+        "zhu-hanbin"
+      ],
       "scope": "full",
       "paragraphCount": 106,
       "characterCount": 7361,
@@ -3740,7 +4920,9 @@
       "title": "卷 24",
       "subjects": [
         "li-cunxu",
-        "liu-chengyou"
+        "liu-chengyou",
+        "yang-shihou",
+        "duan-ning"
       ],
       "scope": "full",
       "paragraphCount": 102,
@@ -3856,7 +5038,8 @@
       "position": 30,
       "title": "卷 29",
       "subjects": [
-        "shi-jingtang"
+        "shi-jingtang",
+        "wang-yanqiu"
       ],
       "scope": "full",
       "paragraphCount": 31,
@@ -3904,7 +5087,10 @@
       "subjects": [
         "zhu-wen",
         "li-cunxu",
-        "zhu-yougui"
+        "zhu-yougui",
+        "ge-congzhou",
+        "liu-xun",
+        "yang-shihou"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -3932,7 +5118,9 @@
         "shi-jingtang",
         "zhu-youzhen",
         "li-siyuan",
-        "li-cunxin"
+        "li-cunxin",
+        "huo-yanwei",
+        "duan-ning"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -3980,7 +5168,8 @@
       "position": 5,
       "title": "卷 20",
       "subjects": [
-        "li-cunxu"
+        "li-cunxu",
+        "wang-yanzhang"
       ],
       "scope": "full",
       "paragraphCount": 36,
@@ -4014,7 +5203,14 @@
         "chai-rong",
         "li-sizhao",
         "li-siben",
-        "li-cunzhang"
+        "li-cunzhang",
+        "kang-huaiying",
+        "niu-cunjie",
+        "yang-shihou",
+        "liu-zhijun",
+        "zhu-youqian",
+        "wang-yanqiu",
+        "liu-qi"
       ],
       "position": 28,
       "scope": "full",
@@ -4049,7 +5245,16 @@
         "li-sizhao",
         "li-siben",
         "li-cunjin",
-        "fu-cunshen"
+        "fu-cunshen",
+        "zhang-cunjing",
+        "liu-xun",
+        "niu-cunjie",
+        "he-gui",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yan-bao",
+        "zhu-youqian",
+        "duan-ning"
       ],
       "position": 29,
       "scope": "full",

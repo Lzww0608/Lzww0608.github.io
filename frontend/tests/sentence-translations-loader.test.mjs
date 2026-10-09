@@ -5,6 +5,8 @@ import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { paragraphTranslationParts, readSentenceTranslationParts } from '../src/sentence-translations-loader.ts';
+import { sliceCodePoints, splitPeriodSpans } from '../src/sentence-alignment.ts';
+import { originalTextTag } from '../src/reading-headings.ts';
 
 const hash = text => createHash('sha256').update(text).digest('hex');
 const size = text => Array.from(text).length;
@@ -128,21 +130,38 @@ test('the reported summer appointment sentence excludes the following Gengwu eve
 
 test('all explicitly checked full-stop ranges expose separate originals and only their own translation slices', async () => {
   const chapters = loadPublishedChapters(loadLibrary());
-  let count = 0;
+  let count = 0, expectedCount = 0;
   for (const chapter of chapters) {
     const document = JSON.parse(readFileSync(new URL(`../../content/sentence-alignments/chapters/${chapter.id}.json`, import.meta.url), 'utf8'));
     const fetcher = async () => Response.json(document);
     for (const paragraph of chapter.paragraphs) {
-      if (!document.paragraphs.find(entry => entry.paragraphId === paragraph.id)?.periodSentences) continue;
+      const alignment = document.paragraphs.find(entry => entry.paragraphId === paragraph.id);
+      if (!alignment?.periodSentences) continue;
+      const units = splitPeriodSpans(paragraph.original);
+      expectedCount += units.length;
       const parts = await readSentenceTranslationParts(options(paragraph, fetcher));
       assert.equal(parts.map(part => part.original).join(''), paragraph.original);
-      assert.equal(parts.map(part => part.translation).join(''), paragraph.translation.text);
+      assert.equal(parts.length, units.length, paragraph.id);
+      for (const [index, part] of parts.entries()) {
+        const range = alignment.periodSentences[index], unit = units[index];
+        assert.equal(range.originalStart, unit.start, `${paragraph.id}: unit start`);
+        assert.equal(range.originalEnd, unit.end, `${paragraph.id}: unit end`);
+        if (unit.text.includes('。') || originalTextTag(paragraph) !== 'p') {
+          assert.equal(part.kind, 'sentence', `${paragraph.id}: clickable unit ${index}`);
+          assert.equal(part.translation, sliceCodePoints(paragraph.translation.text, range.translationStart, range.translationEnd),
+            `${paragraph.id}: exact translation slice ${index}`);
+        } else {
+          assert.equal(part.kind, 'unavailable', `${paragraph.id}: unpunctuated trailing prose`);
+          assert.equal(part.translation, null);
+        }
+      }
       assert.equal(new Set(parts.map(part => part.groupId)).size, parts.length);
-      assert.ok(parts.every(part => part.kind === 'sentence' && (part.original.match(/。/gu) ?? []).length <= 1), paragraph.id);
+      assert.ok(parts.every(part => (part.original.match(/。/gu) ?? []).length <= 1), paragraph.id);
       count += parts.length;
     }
   }
-  assert.equal(count, 208);
+  assert.equal(count, expectedCount);
+  assert.ok(count > 208, 'checked new source units supplement the existing 208 mappings');
 });
 
 test('an oversized period range is rejected instead of restoring a broad paragraph popup', async () => {

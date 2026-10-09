@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { people, displayedDynasties, filterSearch } from '../src/data.ts';
 import { peopleForGroup, personDisplayPeriod, reigningEmperors, taibaoGroup } from '../src/person-catalog.ts';
 import { chapterRoute, chaptersForPerson, libraryChapters, preferredChapterForPerson, resolveReadingRoute } from '../src/library.ts';
@@ -12,12 +13,15 @@ const memberIds = [
   'shi-jingsi', 'kang-junli', 'li-cunxiao',
 ];
 const newIds = memberIds.filter(id => !['li-siyuan', 'li-cunxu'].includes(id));
+const catalogFiles = ['emperors.json', 'taibao.json', 'zhu-wen-generals.json'];
+const expectedCatalogIds = new Set(catalogFiles.flatMap(file => JSON.parse(readFileSync(new URL(`../../content/five-dynasties/${file}`, import.meta.url), 'utf8')).people.map(person => person.id)));
 
 test('searching the topic name finds all thirteen people while their originals stay linked', () => {
   assert.deepEqual(new Set(filterSearch('十三太保', 'person').map(person => person.id)), new Set(memberIds));
   assert.deepEqual(filterSearch('李克用亲子', 'person').map(person => person.id), ['li-cunxu']);
   assert.ok(filterSearch('李克用养子', 'person').some(person => person.id === 'li-siyuan'));
-  assert.deepEqual(new Set(filterSearch('李克用', 'person').map(person => person.id)), new Set(memberIds));
+  const keyongMatches = new Set(filterSearch('李克用', 'person').map(person => person.id));
+  assert.ok(memberIds.every(id => keyongMatches.has(id)));
   for (const id of ['old-v052', 'new-v36']) {
     assert.ok(libraryChapters.find(chapter => chapter.id === id).subjects.some(personId => memberIds.includes(personId)), id);
   }
@@ -29,9 +33,9 @@ test('thirteen historical people share a topic without duplicating the two exist
   assert.deepEqual(taibaoGroup.memberIds, memberIds);
   assert.equal(new Set(taibaoGroup.memberIds).size, 13);
   assert.deepEqual(new Set(taibaoGroup.people.map(person => person.id)), new Set(newIds));
-  assert.equal(people.length, 25);
-  assert.equal(new Set(people.map(person => person.id)).size, 25);
-  assert.equal(peopleForGroup(people, 'all').length, 25);
+  assert.equal(people.length, expectedCatalogIds.size);
+  assert.deepEqual(new Set(people.map(person => person.id)), expectedCatalogIds);
+  assert.equal(peopleForGroup(people, 'all').length, expectedCatalogIds.size);
   assert.deepEqual(peopleForGroup(people, 'thirteen-taibao').map(person => person.id), memberIds);
   assert.deepEqual(peopleForGroup(people, 'emperors'), reigningEmperors);
   assert.equal(taibaoGroup.memberRelations['li-cunxu'], '李克用亲子');

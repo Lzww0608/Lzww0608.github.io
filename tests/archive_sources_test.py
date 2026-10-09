@@ -1,4 +1,5 @@
 import importlib.util
+import hashlib
 import json
 import unittest
 from pathlib import Path
@@ -10,6 +11,41 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_general_biographies_are_complete_fixed_revision_archives(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        chapters = {chapter['id']: chapter for chapter in catalog['chapters']}
+        expected = [f'old-v{volume:03}' for volume in [13, 16, 19, 20, 21, 22, 23, 59, 63, 64]]
+        expected += [f'new-v{volume:02}' for volume in [21, 22, 23, 32, 43, 44, 45, 46]]
+        for chapter_id in expected:
+            with self.subTest(chapter=chapter_id):
+                summary = chapters[chapter_id]
+                self.assertEqual(summary['scope'], 'full')
+                provenance = summary['provenance']
+                self.assertGreater(provenance['revisionId'], 0)
+                self.assertIn(f"oldid={provenance['revisionId']}", provenance['sourceUrl'])
+                self.assertEqual(provenance['license'], 'CC BY-SA 4.0')
+                for directory, checksum in [('sources', 'sourceSha256'), ('chapters', 'chapterSha256')]:
+                    content = (archive.ROOT / directory / f'{chapter_id}.json').read_bytes()
+                    self.assertEqual(hashlib.sha256(content).hexdigest(), provenance[checksum])
+                chapter = json.loads((archive.ROOT / 'chapters' / f'{chapter_id}.json').read_text())
+                self.assertEqual(summary['paragraphCount'], len(chapter['paragraphs']))
+                self.assertEqual(summary['characterCount'], sum(len(p['original']) for p in chapter['paragraphs']))
+                self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in chapter['paragraphs']))
+        self.assertTrue(any('後事梁太祖' in p['original'] for p in json.loads((archive.ROOT / 'chapters/new-v46.json').read_text())['paragraphs']))
+        self.assertTrue(any('朱漢賓' in p['original'] for p in json.loads((archive.ROOT / 'chapters/old-v064.json').read_text())['paragraphs']))
+
+    def test_reruns_reuse_every_captured_revision_without_rewriting_originals(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        specs = {item['id']: item for item in archive.SPECS}
+        paths = [archive.ROOT / directory / f"{chapter['id']}.json"
+                 for chapter in catalog['chapters'] for directory in ['sources', 'chapters']]
+        before = {path: path.read_bytes() for path in paths}
+        with patch.object(archive, 'request', side_effect=AssertionError('Cached sources must not be fetched again')):
+            for chapter in catalog['chapters']:
+                result = archive.capture(specs[chapter['id']], chapter)
+                self.assertEqual(result['provenance'], chapter['provenance'])
+        self.assertEqual({path: path.read_bytes() for path in paths}, before)
+
     def test_reign_metadata_is_refreshed_without_rewriting_cached_sources(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         previous = next(chapter for chapter in catalog['chapters'] if chapter['id'] == 'new-v10').copy()

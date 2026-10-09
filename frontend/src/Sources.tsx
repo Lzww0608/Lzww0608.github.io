@@ -3,12 +3,13 @@ import { ArrowRight, BookOpen } from '@phosphor-icons/react';
 import { books, people } from './data';
 import { chaptersForBook, chapterRoute, libraryChapters, preferredChapterForPerson } from './library';
 import { BookCover } from './BookCover';
-import { peopleForGroup, personDisplayPeriod, personGroups, taibaoGroup } from './person-catalog';
+import { peopleForGroup, personDisplayPeriod, personGroups, personTopic } from './person-catalog';
 import type { ChapterSummary, PersonGroupId, Route } from './types';
 
 export function Sources({ go }: { go: (route: Route) => void }) {
   const [personId, setPersonId] = useState('all');
   const [groupId, setGroupId] = useState<PersonGroupId>('all');
+  const topic = personTopic(groupId);
   const groupPeople = peopleForGroup(people, groupId);
   const groupPersonIds = new Set(groupPeople.map(person => person.id));
   const selected = people.find(person => person.id === personId);
@@ -19,11 +20,11 @@ export function Sources({ go }: { go: (route: Route) => void }) {
     <div className="library-summary"><span><strong>{books.length}</strong> 部史料</span><span><strong>{libraryChapters.length}</strong> 篇章原文</span><span><strong>{people.length}</strong> 位人物</span></div>
     <div className="person-group-filter" role="group" aria-label="按人物专题筛选史料">{personGroups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setPersonId('all'); }}>{group.label}</button>)}</div>
     <div className="source-person-selection"><label htmlFor="source-person">选择人物</label><select id="source-person" value={personId} onChange={event => setPersonId(event.target.value)}><option value="all">{groupId === 'all' ? '全部史料' : '专题全部史料'}</option>{groupPeople.map(person => <option key={person.id} value={person.id}>{person.name} · {personDisplayPeriod(person)}</option>)}</select></div>
-    {groupId === 'thirteen-taibao' && <div className="person-group-context"><h2>{taibaoGroup.title}</h2><p>{taibaoGroup.description}</p><details><summary>称谓与史料依据</summary><p>{taibaoGroup.sourceNote}</p><ul>{taibaoGroup.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details></div>}
+    {topic && <div className="person-group-context"><h2>{topic.title}</h2><p>{topic.description}</p><details><summary>称谓与史料依据</summary><p>{topic.sourceNote}</p><ul>{topic.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details></div>}
     <p className="small-note filter-explanation" aria-live="polite">{selected ? `${selected.name} · ${count} 篇相关史料。本纪、列传、编年与考异按记载范围关联；笔记、会要按正文专名关联，供整篇参读。` : groupId === 'all' ? '本纪、列传、编年与补充史料一并收录，提要和序文列于各书目录。' : `${count} 篇专题相关史料，按人物关联整篇参读。`} 原文保留繁体字与夹注。</p>
     <div className="source-catalog library-catalog">{books.map(book => {
       const chapters = chaptersForBook(book.id).filter(inSelection);
-      const topicStart = groupId === 'thirteen-taibao' ? groupPeople.filter(person => !person.reign).map(person => preferredChapterForPerson(book.id, person.id)).find(Boolean) : undefined;
+      const topicStart = topic ? groupPeople.filter(person => !person.reign).map(person => preferredChapterForPerson(book.id, person.id)).find(Boolean) : undefined;
       const first = selected ? preferredChapterForPerson(book.id, selected.id) : topicStart ?? chapters.find(chapter => chapter.id === book.defaultChapter) ?? chapters.find(chapter => chapter.volume > 0) ?? chapters[0];
       if (!first) return null;
       return <article className="catalog-book library-book" key={book.id}>

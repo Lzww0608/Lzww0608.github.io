@@ -1,5 +1,5 @@
 import { libraryBooks } from './library.ts';
-import { catalogPeople, personDisplayPeriod, personMatchesGroup, personRelationship, taibaoGroup } from './person-catalog.ts';
+import { catalogPeople, personDisplayPeriod, personTopicKeywords } from './person-catalog.ts';
 import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
 // Temporary public scope; retain other entries below for a future release.
@@ -38,7 +38,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 ];
 
 export const searchItems: SearchItem[] = [
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases} ${personRelationship(item) ?? ''} ${personMatchesGroup(item, 'thirteen-taibao') ? taibaoGroup.title : ''}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases} ${personTopicKeywords(item)}` })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {

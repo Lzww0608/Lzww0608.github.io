@@ -5,7 +5,8 @@ export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu'
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
-export type PersonGroupId = 'all' | 'emperors' | 'thirteen-taibao';
+export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals';
+export type PersonGroupId = 'all' | 'emperors' | PersonTopicId;
 export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}`;
 
 export interface HistoryEvent {
@@ -60,8 +61,10 @@ export interface EmperorCatalog {
 
 export interface HistoricalPersonGroup {
   schemaVersion: 1;
-  id: 'thirteen-taibao';
+  id: PersonTopicId;
   title: string;
+  filterLabel?: string;
+  relationshipSubject?: string;
   description: string;
   sourceNote: string;
   sources: HistoricalSourceReference[];

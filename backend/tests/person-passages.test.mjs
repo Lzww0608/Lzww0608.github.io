@@ -6,6 +6,7 @@ import { readFileSync } from 'node:fs';
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase } from '../scripts/runtime.mjs';
 import { loadLibrary } from '../../content/library.mjs';
+import { loadPassagePeople } from '../../content/person-passages.mjs';
 import { importLibrary } from '../scripts/import-library.mjs';
 import { seed } from '../scripts/seed.mjs';
 import { importPersonPassages, ensurePersonPassageSchema, PersonPassageSourceMismatchError } from '../scripts/import-person-passages.mjs';
@@ -18,8 +19,7 @@ const database = `history_passages_test_${suffix}`;
 const readerRole = `history_passages_reader_${suffix}`, editorRole = `history_passages_editor_${suffix}`;
 const password = randomBytes(32).toString('hex');
 const library = loadLibrary();
-const people = ['emperors', 'taibao'].flatMap(file => JSON.parse(readFileSync(new URL(`../../content/five-dynasties/${file}.json`, import.meta.url), 'utf8')).people)
-  .map(({ id, name }) => ({ id, name }));
+const people = loadPassagePeople();
 const canonical = new Map(library.chapters.flatMap(chapter => chapter.paragraphs.map(paragraph => [paragraph.id, { ...paragraph, chapterId: chapter.id }])));
 const resultSetRevision = ids => createHash('sha256').update(ids.join('\n'), 'utf8').digest('hex');
 const span = id => ({ paragraphId: id, originalRevision: 1,

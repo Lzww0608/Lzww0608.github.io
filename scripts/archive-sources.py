@@ -20,8 +20,8 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传及卷 52、53、55、56 的唐列传；合计 64 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
-    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收梁家人传、唐臣传与义儿传；共 15 卷，合传均整卷保留。', defaultChapter='new-v01'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将相关列传及河东、后唐列传；合计 74 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
+    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
@@ -71,6 +71,18 @@ for volume, title, subjects in [
     (36, '义儿传（李嗣昭等，附康君立）', ['li-siyuan', 'li-sizhao', 'li-siben', 'li-sien', 'li-cunxin', 'li-cunxiao', 'li-cunjin', 'li-cunzhang', 'li-cunxian', 'kang-junli']),
 ]:
     SPECS.append(dict(id=f'new-v{volume:02}', bookId='new', volume=volume, title=f'卷 {volume} · {title}', page=f'新五代史/卷{volume:02}', subjects=subjects))
+
+# Whole biographies support Zhu Wen's generals, including men who later served
+# another polity. A later dynasty's chapter classification does not change the
+# date or identity of their earlier service. Preserve each complete shared volume.
+for volume in [13, 16, 19, 20, 21, 22, 23, 59, 63, 64]:
+    title = '梁列传' if volume < 27 else '唐列传'
+    SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
+for volume in [21, 22, 23, 32, 43, 44, 45, 46]:
+    title = '梁臣传' if volume <= 23 else '死节传' if volume == 32 else '杂传'
+    SPECS.append(dict(id=f'new-v{volume:02}', bookId='new', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'新五代史/卷{volume:02}', subjects=[]))
 YEARS = ['907—908', '908—911', '911—913', '913—917', '917—919', '919—922', '923', '924—925', '925—926', '926—927', '927—929', '930—932', '932—934', '934—935', '936', '937—938', '939—941', '942—944', '944—945', '945—946', '947', '947—948', '948—949', '950', '951—952', '952—954', '954—956', '956—957', '958—959']
 for volume in range(266, 295):
     if volume <= 271: name, number = '后梁纪', volume-265
@@ -197,6 +209,12 @@ SUBJECT_TITLES = {
     'guo-wei': ['周太祖', '周祖'], 'chai-rong': ['周世宗'], 'chai-zongxun': ['周恭帝'],
 }
 
+# Display topics can grow without changing captured source files. The topic's
+# variants are verified complete personal names; short forms and bare titles
+# belong only in the separately reviewed person-passage rules.
+generals_path = ROOT / 'zhu-wen-generals.json'
+GENERAL_PEOPLE = json.loads(generals_path.read_text())['people'] if generals_path.exists() else []
+
 def scanned_subjects(paragraphs, book_id):
     text = '\n'.join(paragraphs)
     return [person for person, names in SUBJECT_NAMES.items()
@@ -213,6 +231,10 @@ def chapter_subjects(spec, paragraphs, previous_subjects=()):
     text = '\n'.join(paragraphs)
     subjects += [person for person in ['li-sizhao', 'li-siben', 'li-sien', 'li-cunxin', 'li-cunjin', 'li-cunzhang', 'fu-cunshen', 'li-cunxian', 'shi-jingsi', 'kang-junli', 'li-cunxiao']
                  if any(name in text for name in SUBJECT_NAMES[person])]
+    for person in GENERAL_PEOPLE:
+        if (person.get('readingStarts', {}).get(spec['bookId']) == spec['id']
+                or any(name in text for name in person['nameVariants'])):
+            subjects.append(person['id'])
     return list(dict.fromkeys(subjects))
 
 class Node:

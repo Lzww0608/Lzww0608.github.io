@@ -65,11 +65,15 @@ test('every book opens its default volume and every archived chapter works with 
   }
 });
 
-test('all 7229 published translations remain readable from static chapters when the API is offline', async () => {
+test('every archived paragraph and its current published translation remain readable when the API is offline', async () => {
   const originalLibrary = loadLibrary();
   const publishedChapters = loadPublishedChapters(originalLibrary);
+  const expectedParagraphIds = new Set(originalLibrary.chapters.flatMap(chapter => chapter.paragraphs.map(paragraph => paragraph.id)));
+  assert.equal(publishedChapters.length, originalLibrary.chapters.length);
+  assert.deepEqual(new Set(publishedChapters.map(chapter => chapter.id)), new Set(originalLibrary.chapters.map(chapter => chapter.id)));
+  const translatedIds = new Set();
   let translated = 0;
-  for (const chapter of publishedChapters.filter(chapter => chapter.paragraphs.some(paragraph => paragraph.translation))) {
+  for (const chapter of publishedChapters) {
     const original = originalLibrary.chapters.find(item => item.id === chapter.id);
     const result = await readChapter({ ...options(), bookId: chapter.bookId, chapterId: chapter.id,
       fetcher: async url => { if (url.startsWith('https:')) throw new Error('offline'); return response(chapter); } });
@@ -77,13 +81,17 @@ test('all 7229 published translations remain readable from static chapters when 
     assert.deepEqual(result.chapter, chapter);
     for (const [index, paragraph] of result.chapter.paragraphs.entries()) {
       assert.equal(paragraph.original, original.paragraphs[index].original);
+      assert.equal(paragraph.id, original.paragraphs[index].id);
+      assert.equal(paragraph.revision, original.paragraphs[index].revision);
       assert.equal(original.paragraphs[index].translation, null);
-      if (!paragraph.translation) continue;
+      assert.ok(paragraph.translation?.text.trim(), `${paragraph.id}: published translation`);
       translated++;
-      assert.equal(paragraph.translation.origin, 'ai');
-      assert.equal(paragraph.translation.reviewStatus, 'pending');
-      assert.equal(paragraph.translation.version, 1);
+      translatedIds.add(paragraph.id);
+      assert.ok(['ai', 'human'].includes(paragraph.translation.origin), paragraph.id);
+      assert.ok(['pending', 'owner-edited', 'reviewed'].includes(paragraph.translation.reviewStatus), paragraph.id);
+      assert.ok(Number.isSafeInteger(paragraph.translation.version) && paragraph.translation.version > 0, paragraph.id);
     }
   }
-  assert.equal(translated, 7229);
+  assert.equal(translated, expectedParagraphIds.size);
+  assert.deepEqual(translatedIds, expectedParagraphIds);
 });

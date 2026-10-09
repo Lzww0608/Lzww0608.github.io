@@ -114,10 +114,18 @@ test('short unique phrases veto misleading long-anchor boundaries in short and l
   assert.equal(missingSourceTail[0].kind, 'paragraph');
 });
 
-test('all 7,229 original/translation records have reproducible bound ranges with no copied text', () => {
-  assert.equal(documents.length, 157);
-  assert.equal(alignments.size, 7229);
+test('every archived original and published translation has reproducible bound ranges with no copied text', () => {
+  assert.equal(documents.length, library.chapters.length);
+  assert.deepEqual(new Set(documents.map(document => document.chapterId)), new Set(library.chapters.map(chapter => chapter.id)));
+  assert.equal(alignments.size, originals.size);
+  assert.deepEqual(new Set(alignments.keys()), new Set(originals.keys()));
+  assert.deepEqual(new Set(translations.keys()), new Set(originals.keys()));
   for (const document of documents) {
+    const chapter = library.chapters.find(chapter => chapter.id === document.chapterId);
+    assert.ok(chapter, `registered chapter: ${document.chapterId}`);
+    assert.equal(document.chapterId.split('-v')[0], chapter.bookId);
+    assert.equal(document.paragraphs.length, chapter.paragraphs.length);
+    assert.deepEqual(new Set(document.paragraphs.map(alignment => alignment.paragraphId)), new Set(chapter.paragraphs.map(paragraph => paragraph.id)));
     assert.equal(readFileSync(new URL(`chapters/${document.chapterId}.json`, sentenceAlignmentsRoot), 'utf8'), `${JSON.stringify(document)}\n`);
     assert.deepEqual(validateSentenceAlignmentDocument(document), document);
     for (const alignment of document.paragraphs) {

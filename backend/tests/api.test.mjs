@@ -141,7 +141,7 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 157);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 175);
   } finally { await owner.query('ROLLBACK'); }
 });
 

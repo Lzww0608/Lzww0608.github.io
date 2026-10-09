@@ -11,6 +11,8 @@ const byParagraph = new Map(index.passages.map(passage => [passage.spans[0].para
 const association = (paragraphId, personId) => byParagraph.get(paragraphId)?.people.find(person => person.personId === personId);
 const paragraphs = new Map(library.chapters.flatMap(chapter => chapter.paragraphs.map(paragraph => [paragraph.id, paragraph])));
 const rules = JSON.parse(readFileSync(new URL('../content/person-passages/rules.json', import.meta.url), 'utf8'));
+const generals = JSON.parse(readFileSync(new URL('../content/five-dynasties/zhu-wen-generals.json', import.meta.url), 'utf8'));
+const generalIds = new Set(generals.memberIds);
 
 test('generation scans the whole canonical archive and reproduces the saved shared index', () => {
   assert.deepEqual(buildPersonPassageIndex(library), index);
@@ -21,11 +23,35 @@ test('generation scans the whole canonical archive and reproduces the saved shar
   const bookByChapter = new Map(library.chapters.map(chapter => [chapter.id, chapter.bookId]));
   assert.equal(new Set(index.passages.map(passage => bookByChapter.get(passage.chapterId))).size, library.catalog.books.length);
   for (const person of index.people) {
-    assert.ok(index.passages.some(passage => passage.chapterId.startsWith('old-')
-      && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `old biography: ${person.id}`);
-    assert.ok(index.passages.some(passage => passage.chapterId.startsWith('new-')
-      && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `new biography: ${person.id}`);
+    if (!generalIds.has(person.id)) {
+      for (const bookId of ['old', 'new']) assert.ok(index.passages.some(passage => passage.chapterId.startsWith(`${bookId}-`)
+        && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `${bookId} biography: ${person.id}`);
+    }
   }
+});
+
+test('every declared general reading entrance and checked biography range is indexed', () => {
+  assert.equal(generals.people.length, 53);
+  assert.equal(generals.memberIds.length, 53);
+  assert.deepEqual(new Set(generals.people.map(person => person.id)), generalIds);
+  for (const person of generals.people) {
+    assert.ok(index.people.some(item => item.id === person.id && item.name === person.name), person.id);
+    for (const [bookId, chapterId] of Object.entries(person.readingStarts)) {
+      assert.ok(library.chapters.some(chapter => chapter.id === chapterId && chapter.bookId === bookId), person.id);
+      assert.ok(index.passages.some(passage => passage.chapterId === chapterId
+        && passage.people.some(item => item.personId === person.id && item.kind !== 'mention')), `${person.id}: ${chapterId}`);
+    }
+    const sections = rules.sections.filter(range => range.personId === person.id);
+    assert.ok(sections.length > 0, `checked source ranges: ${person.id}`);
+    for (const section of sections) {
+      const chapter = library.chapters.find(item => item.id === section.chapterId);
+      for (const paragraph of chapter.paragraphs.slice(section.start - 1, section.end)) {
+        assert.equal(association(paragraph.id, person.id)?.kind, section.kind, `${paragraph.id}: ${person.id}`);
+      }
+    }
+  }
+  assert.ok(rules.sections.filter(range => range.personId === 'li-zhouyi').every(range => range.kind === 'record'),
+    'Li Zhouyi has related records rather than a fabricated standalone biography');
 });
 
 test('cross-biography records are found even outside catalog chapter subjects', () => {

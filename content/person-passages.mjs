@@ -7,9 +7,9 @@ const requireValue = (condition, message) => { if (!condition) throw new Error(`
 export const originalSha256 = text => createHash('sha256').update(text, 'utf8').digest('hex');
 
 export function loadPassagePeople() {
-  const emperors = JSON.parse(readFileSync(new URL('./five-dynasties/emperors.json', import.meta.url), 'utf8'));
-  const taibao = JSON.parse(readFileSync(new URL('./five-dynasties/taibao.json', import.meta.url), 'utf8'));
-  const people = [...emperors.people, ...taibao.people].map(({ id, name }) => ({ id, name }));
+  const catalogs = ['emperors', 'taibao', 'zhu-wen-generals'].map(file =>
+    JSON.parse(readFileSync(new URL(`./five-dynasties/${file}.json`, import.meta.url), 'utf8')));
+  const people = catalogs.flatMap(catalog => catalog.people).map(({ id, name }) => ({ id, name }));
   requireValue(new Set(people.map(person => person.id)).size === people.length, 'canonical people IDs');
   return people;
 }

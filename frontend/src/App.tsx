@@ -5,7 +5,7 @@ import { chapterRoute, libraryChapters, personPassageBooks, personSourcesRoute, 
 import { Reader } from './Reader';
 import { ThemeSwitcher } from './ThemeSwitcher';
 import { PeopleRelationshipGraph } from './PeopleRelationshipGraph';
-import { peopleForGroup, personDisplayPeriod, personGroups, personMatchesGroup, personRelationship, reigningEmperors, taibaoGroup } from './person-catalog';
+import { peopleForGroup, personDisplayPeriod, personGroups, personTopic, personTopicRelationships, personTopics, reigningEmperors, topicsForPerson } from './person-catalog';
 import type { ReactNode } from 'react';
 import type { HistoryPerson, PersonGroupId, Route, SearchItem } from './types';
 
@@ -53,29 +53,32 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   const [query, setQuery] = useState('');
   const [dynasty, setDynasty] = useState('全部');
   const [groupId, setGroupId] = useState<PersonGroupId>('all');
+  const topic = personTopic(groupId);
+  const sharedEmperors = topic ? reigningEmperors.filter(person => topic.memberIds.includes(person.id)) : [];
   const visible = peopleForGroup(people, groupId).filter(person => (dynasty === '全部' || person.dynasty === dynasty) && `${person.name} ${person.aliases}`.includes(query.trim()));
   return <section className="page-shell">
-    <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝与十三太保相关人物，沿本纪、列传与编年史追索历史线索。</p></div>
+    <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝及{personTopics.map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</p></div>
     <div className="people-view-switch" role="group" aria-label="人物浏览方式"><button aria-pressed={view === 'list'} onClick={() => onViewChange('list')}>人物名单</button><button aria-pressed={view === 'graph'} onClick={() => onViewChange('graph')}>关系图</button></div>
     {view === 'graph' ? <PeopleRelationshipGraph people={people} selectedPersonId={focusPersonId} onSelectPerson={onSelectPerson} onOpenPerson={person => openPerson(person)} onReadSource={onReadSource} /> : <>
     <div className="person-group-filter" role="group" aria-label="按人物专题筛选">{personGroups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setDynasty('全部'); }}>{group.label}</button>)}</div>
-    {groupId === 'thirteen-taibao' && <div className="person-group-context"><h2>{taibaoGroup.title}</h2><p>{taibaoGroup.description}</p><details><summary>称谓与史料依据</summary><p>{taibaoGroup.sourceNote}</p><ul>{taibaoGroup.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details></div>}
+    {topic && <div className="person-group-context"><h2>{topic.title}</h2><p>{topic.description}</p><details><summary>称谓与史料依据</summary><p>{topic.sourceNote}</p><ul>{topic.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details></div>}
     <div className="people-tools"><div className="compact-search"><MagnifyingGlass size={20} weight="thin" /><input aria-label="查找人物" placeholder="姓名或别名，如李存孝、符存审" value={query} onChange={event => setQuery(event.target.value)} /></div><select aria-label="按政权筛选人物" value={dynasty} onChange={event => setDynasty(event.target.value)}>{['全部', ...displayedDynasties].map(value => <option key={value} value={value}>{value === '全部' ? '全部政权' : value}</option>)}</select></div>
-    <p className="small-note people-count" aria-live="polite">{visible.length} 位人物{groupId === 'thirteen-taibao' ? ' · 李嗣源、李存勖同时属于五代皇帝条目；唐末河东人物按后唐史系归类。' : ' · 唐末河东人物按后唐史系归类。'}</p>
+    <p className="small-note people-count" aria-live="polite">{visible.length} 位人物{sharedEmperors.length > 0 ? ` · ${sharedEmperors.map(person => person.name).join('、')}同时属于五代皇帝条目。` : ''} · 活动时期见人物条目。</p>
     <div className="people-list">{visible.map((person, index) => <button className="person-row" key={person.id} onClick={() => openPerson(person)}><span className="index-number">{String(index + 1).padStart(2, '0')}</span><span className="person-name"><strong>{person.name}</strong>{person.reign && <small>在位 {person.reign}</small>}</span><span>{personDisplayPeriod(person)}</span><p>{person.role}</p><ArrowRight size={24} weight="thin" /></button>)}{visible.length === 0 && <div className="empty-state"><h3>没有匹配的人物</h3><p>可以更换姓名、专题或政权筛选条件。</p><button className="text-link" onClick={() => { setQuery(''); setDynasty('全部'); setGroupId('all'); }}>重置筛选 <ArrowRight size={18} /></button></div>}</div>
     </>}
   </section>;
 }
 
 function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPerson; onViewRelationships: (id: string) => void; go: Navigate }) {
-  const relation = personRelationship(person);
+  const relations = personTopicRelationships(person);
+  const topics = topicsForPerson(person);
   return <div className="detail-panel">
     <span className="eyebrow">{personDisplayPeriod(person)} · {person.role}</span><h2>{person.name}</h2>
     {person.reign && <p className="person-reign">在位 {person.reign}</p>}
     <p>{person.intro}</p>
-    {relation && <p className="small-note">与李克用的关系：{relation}</p>}
+    {relations.map(relation => <p className="small-note" key={relation.groupId}>{relation.subject ? `与${relation.subject}的关系` : '史载关系'}：{relation.relation}</p>)}
     {person.aliases && <p className="small-note">相关称谓：{person.aliases}</p>}
-    {personMatchesGroup(person, 'thirteen-taibao') && <details className="person-references"><summary>{taibaoGroup.title} · 称谓说明</summary><p>{taibaoGroup.sourceNote}</p><ul>{taibaoGroup.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details>}
+    {topics.map(topic => <details className="person-references" key={topic.id}><summary>{topic.title} · 称谓说明</summary><p>{topic.sourceNote}</p><ul>{topic.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details>)}
     {person.sources && person.sources.length > 0 && <details className="person-references"><summary>条目来源</summary><ul>{person.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details>}
     <button className="text-link person-relationship-link" onClick={() => onViewRelationships(person.id)}>查看人物关系 <ArrowRight size={18} /></button>
     <h3>相关原文与译文</h3><RelatedSources personId={person.id} go={go} />

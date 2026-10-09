@@ -61,6 +61,10 @@ export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipN
     id: 'li-kerou', name: '李克柔', external: true, group: '河东 / 晋国',
     note: '李克用之弟、李嗣昭的养育者。此处为史料中明确记载的关联节点，未新增人物传记。',
   },
+  {
+    id: 'li-maozhen', name: '李茂贞', external: true, group: '凤翔 / 岐',
+    note: '凤翔节度使、岐王李茂贞；《新五代史》符道昭传记其收道昭为养子、名继远。此处为说明已核验关系的关联节点，未新增朝代入口或人物传记。',
+  },
 ]);
 
 function source(chapterId: string, paragraph: number, title: string, excerpt: string): RelationshipSource {
@@ -71,6 +75,1243 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 // Direction means parent → child, commander → subordinate or predecessor → successor;
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
+  {
+    id: 'li-maozhen-fu-daozhao-adoption', from: 'li-maozhen', to: 'fu-daozhao', kind: 'adoption', label: '养子',
+    note: '符道昭是在投朱温以前被李茂贞收为养子、名继远；不把后来的朱温军事任职当成收养。',
+    sources: [source('new-v21', 45, '《新五代史》卷21 · 符道昭传', '後依鳳翔李茂貞，茂貞愛之，養以為子，名繼遠。')],
+  },
+  // Zhu Wen military appointments and independently verified family/conflict facts.
+  {
+    "id": "zhu-wen-ge-congzhou-service",
+    "from": "zhu-wen",
+    "to": "ge-congzhou",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p30",
+        "title": "新五代史·葛从周传",
+        "excerpt": "太祖盡黜諸將，獨用從周、延壽為大將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhu-zhen-service",
+    "from": "zhu-wen",
+    "to": "zhu-zhen",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p16",
+        "title": "新五代史·朱珍传",
+        "excerpt": "珍為將，善治軍選士，太祖初鎮宣武，珍為太祖創立軍制，選將練兵甚有法。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-tangbin-service",
+    "from": "zhu-wen",
+    "to": "li-tangbin",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p14",
+        "title": "旧五代史·李唐宾传",
+        "excerpt": "三月，太祖破瓦子寨，唐賓與王虔裕來降。時黃巢壁於陳郊，乃命唐賓摩其西焚焉。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-pang-shigu-service",
+    "from": "zhu-wen",
+    "to": "pang-shigu",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p25",
+        "title": "新五代史·庞师古传",
+        "excerpt": "梁太祖鎮宣武，初得馬五百匹為騎兵，乃以師古將之，從破黃巢、秦宗權，皆有功。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-huo-cun-service",
+    "from": "zhu-wen",
+    "to": "huo-cun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p38",
+        "title": "新五代史·霍存传",
+        "excerpt": "梁得曹州，太祖以存為刺史，兼諸軍都指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhang-cunjing-service",
+    "from": "zhu-wen",
+    "to": "zhang-cunjing",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p41",
+        "title": "新五代史·张存敬传",
+        "excerpt": "張存敬，譙郡人也。為人剛直有膽勇，少事梁太祖為將，善因危窘出奇計。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-fu-daozhao-service",
+    "from": "zhu-wen",
+    "to": "fu-daozhao",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p8",
+        "title": "旧五代史·符道昭传",
+        "excerpt": "太祖素聞其名，待之甚厚。昭宗反正，奏授秦州節度使、同平章事，遣兵援送，不克而還。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-liu-han-service",
+    "from": "zhu-wen",
+    "to": "liu-han",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p49",
+        "title": "新五代史·刘捍传",
+        "excerpt": "太祖初鎮宣武，以為客將，使從朱珍募兵淄青。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-kou-yanqing-service",
+    "from": "zhu-wen",
+    "to": "kou-yanqing",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p53",
+        "title": "新五代史·寇彦卿传",
+        "excerpt": "太祖初就鎮，以為通引官，累遷右長直都指揮使，領洺州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-kang-huaiying-service",
+    "from": "zhu-wen",
+    "to": "kang-huaiying",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v023",
+        "paragraphId": "old-v023-p18",
+        "title": "旧五代史·康怀英传",
+        "excerpt": "太祖素聞其名，得之甚喜，尋署為軍校。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-liu-xun-service",
+    "from": "zhu-wen",
+    "to": "liu-xun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p11",
+        "title": "新五代史·刘鄩传",
+        "excerpt": "太祖賜之冠帶，飲之以酒，鄩辭以量小，太祖曰：「取兗州，量何大乎？」以為元從都押衙。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-niu-cunjie-service",
+    "from": "zhu-wen",
+    "to": "niu-cunjie",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p21",
+        "title": "新五代史·牛存节传",
+        "excerpt": "乃率其徒十餘人歸梁太祖。存節為人木彊忠謹，太祖愛之，賜之名字，以為小校。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhang-guiba-service",
+    "from": "zhu-wen",
+    "to": "zhang-guiba",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p14",
+        "title": "旧五代史·张归霸传",
+        "excerpt": "中和中，巢領徒走宛丘。時太祖在汴，奉詔南討，巢黨日窘，歸霸昆仲與葛從周、李讜等相率來降，尋補宣武軍劇職。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhang-guihou-service",
+    "from": "zhu-wen",
+    "to": "zhang-guihou",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p18",
+        "title": "旧五代史·张归厚传",
+        "excerpt": "中和末，與兄歸霸自巢軍相率來降，太祖署為軍校。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhang-guibian-service",
+    "from": "zhu-wen",
+    "to": "zhang-guibian",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p22",
+        "title": "旧五代史·张归弁传",
+        "excerpt": "張歸弁，字從冕。始與兄歸霸、歸厚同歸於太祖，得署為牙校。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-chongshi-service",
+    "from": "zhu-wen",
+    "to": "wang-chongshi",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p36",
+        "title": "新五代史·王重师传",
+        "excerpt": "秦宗權陷許州，重師脫身歸梁，從太祖平蔡，攻兗、鄆，為拔山軍指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-xu-huaiyu-service",
+    "from": "zhu-wen",
+    "to": "xu-huaiyu",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p40",
+        "title": "新五代史·徐怀玉传",
+        "excerpt": "少事梁太祖，與太祖俱起微賤。懷玉為將，以雄豪自任，而勇於戰陣。從太祖鎮宣武，為永城鎮將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yang-shihou-service",
+    "from": "zhu-wen",
+    "to": "yang-shihou",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p2",
+        "title": "新五代史·杨师厚传",
+        "excerpt": "師厚在晉，無所知名，後以罪奔于梁，太祖以為宣武軍押衙、曹州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-jingren-service",
+    "from": "zhu-wen",
+    "to": "wang-jingren",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p14",
+        "title": "新五代史·王景仁传",
+        "excerpt": "開平四年，以景仁為北面招討使，將韓勍、李思安等兵伐趙，行至魏州，司天監言：「太陰虧，不利行師。」太祖亟召景仁等還，已而復遣之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-he-gui-service",
+    "from": "zhu-wen",
+    "to": "he-gui",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p17",
+        "title": "新五代史·贺瑰传",
+        "excerpt": "瓌感太祖不殺，誓以身自効。從太祖平青州，以為曹州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-tan-service",
+    "from": "zhu-wen",
+    "to": "wang-tan",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p20",
+        "title": "新五代史·王檀传",
+        "excerpt": "少事梁太祖為小校，尚讓攻梁，戰尉氏門，檀勇出諸將，太祖奇之，遷踏白副指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-ma-sixun-service",
+    "from": "zhu-wen",
+    "to": "ma-sixun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p25",
+        "title": "新五代史·马嗣勋传",
+        "excerpt": "梁兵未至，濠州已沒，嗣勳無所歸，乃留事梁，太祖以為宣武軍元從押衙。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-qianyu-service",
+    "from": "zhu-wen",
+    "to": "wang-qianyu",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p16",
+        "title": "旧五代史·王虔裕传",
+        "excerpt": "太祖鎮汴，四郊多事，始議選將征討，首以虔裕綰騎兵，恒為前鋒。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-xie-yanzhang-service",
+    "from": "zhu-wen",
+    "to": "xie-yanzhang",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p32",
+        "title": "新五代史·谢彦章传",
+        "excerpt": "及壯，事梁太祖為騎將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-yanzhang-service",
+    "from": "zhu-wen",
+    "to": "wang-yanzhang",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p20",
+        "title": "旧五代史·王彦章传",
+        "excerpt": "彥章少從軍，隸太祖帳下，以驍勇聞。稍遷軍職，累典禁兵。從太祖征討，所至有功，常持鐵槍衝堅陷陣。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-shi-shucong-service",
+    "from": "zhu-wen",
+    "to": "shi-shucong",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v43",
+        "paragraphId": "new-v43-p2",
+        "title": "新五代史·氏叔琮传",
+        "excerpt": "梁兵擊黃巢陳、許間，叔琮戰數有功，太祖壯之，使將後院馬軍，從攻徐、兗，表宿州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhu-yougong-service",
+    "from": "zhu-wen",
+    "to": "zhu-yougong",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p4",
+        "title": "旧五代史·朱友恭传",
+        "excerpt": "時初建左長劍都，以友恭董之。從太祖四征，稍立軍功，累遷諸軍都指揮使、檢校左僕射。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-sian-service",
+    "from": "zhu-wen",
+    "to": "li-sian",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p13",
+        "title": "旧五代史·李思安传",
+        "excerpt": "太祖甚惜之，命副王虔裕為踏白將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-hu-zhen-service",
+    "from": "zhu-wen",
+    "to": "hu-zhen",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p12",
+        "title": "旧五代史·胡真传",
+        "excerpt": "從至梁苑，表授檢校刑部尚書，頻從破巢、蔡於陳、鄭間。尋以奇兵襲取滑州，乃署為滑州節度留後，復表為鄭滑節度使、檢校右僕射。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-guo-yan-service",
+    "from": "zhu-wen",
+    "to": "guo-yan",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p12",
+        "title": "旧五代史·郭言传",
+        "excerpt": "後從太祖赴汴，初為騎軍，繼有戰功，後擢為裨校。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-deng-jijun-service",
+    "from": "zhu-wen",
+    "to": "deng-jijun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p16",
+        "title": "旧五代史·邓季筠传",
+        "excerpt": "少入黃巢軍，隸於太祖麾下。及太祖鎮汴，首署為牙將，主騎軍。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-huang-wenjing-service",
+    "from": "zhu-wen",
+    "to": "huang-wenjing",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p18",
+        "title": "旧五代史·黄文靖传",
+        "excerpt": "少附於黃巢黨中，巢敗，歸於太祖，累署牙職，繼遷諸軍指揮使。從太祖南平巢、蔡，北定兗、鄆，皆有功。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-hu-gui-service",
+    "from": "zhu-wen",
+    "to": "hu-gui",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p20",
+        "title": "旧五代史·胡规传",
+        "excerpt": "天復中，太祖迎駕至岐下，以規權知洽州。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-dang-service",
+    "from": "zhu-wen",
+    "to": "li-dang",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p22",
+        "title": "旧五代史·李谠传",
+        "excerpt": "其後巢軍既敗，讜乃束身歸於太祖，署為左德勝騎軍都將。從太祖討蔡賊，頗立軍功。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-chongyin-service",
+    "from": "zhu-wen",
+    "to": "li-chongyin",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p24",
+        "title": "旧五代史·李重胤传",
+        "excerpt": "及巢寇漸衰，乃率眾來降。太祖素識之，拔用不次，署為先鋒步軍都頭。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-fan-jushi-service",
+    "from": "zhu-wen",
+    "to": "fan-jushi",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p26",
+        "title": "旧五代史·范居实传",
+        "excerpt": "事太祖，初為隊將，從討巢、蔡有功。又從朱珍收滑州，改左廂都虞候。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-liu-kangyi-service",
+    "from": "zhu-wen",
+    "to": "liu-kangyi",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p18",
+        "title": "旧五代史·刘康乂传",
+        "excerpt": "中和三年，從太祖赴鎮，委以心腹，康乂枕戈擐甲，夷險無憚。其後累典親軍，襲巢破蔡，斬獲尤多，累以戰功遷元從都將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-jingrao-service",
+    "from": "zhu-wen",
+    "to": "wang-jingrao",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v43",
+        "paragraphId": "new-v43-p44",
+        "title": "新五代史·王敬荛传",
+        "excerpt": "梁太祖攻淮南，道過潁州，敬蕘供饋梁兵甚厚，太祖大喜，表敬蕘沿淮指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-ding-hui-service",
+    "from": "zhu-wen",
+    "to": "ding-hui",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p10",
+        "title": "新五代史·丁会传",
+        "excerpt": "後去為盜，與梁太祖俱從黃巢。梁太祖鎮宣武，以為宣武都押衙。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-liu-zhijun-service",
+    "from": "zhu-wen",
+    "to": "liu-zhijun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p2",
+        "title": "新五代史·刘知俊传",
+        "excerpt": "少事時溥，溥與梁相攻，知俊與其麾下二千人降梁，太祖以為左開道指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yan-bao-service",
+    "from": "zhu-wen",
+    "to": "yan-bao",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p23",
+        "title": "新五代史·阎宝传",
+        "excerpt": "梁太祖時，為諸軍都虞候，常從諸將征伐，未嘗獨立戰功。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-he-delun-service",
+    "from": "zhu-wen",
+    "to": "he-delun",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p17",
+        "title": "新五代史·贺德伦传",
+        "excerpt": "梁太祖兼領宣義，德倫從太祖征伐，以功累遷平盧軍節度使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhu-youqian-service",
+    "from": "zhu-wen",
+    "to": "zhu-youqian",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p19",
+        "title": "新五代史·朱友谦传",
+        "excerpt": "太祖即位，徙鎮河中，累遷中書令，封冀王。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-huo-yanwei-service",
+    "from": "zhu-wen",
+    "to": "huo-yanwei",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p8",
+        "title": "新五代史·霍彦威传",
+        "excerpt": "後事梁太祖，太祖亦愛之，稍遷左龍驤軍使、右監門衞上將軍。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wang-yanqiu-service",
+    "from": "zhu-wen",
+    "to": "wang-yanqiu",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v064",
+        "paragraphId": "old-v064-p3",
+        "title": "旧五代史·王晏球传",
+        "excerpt": "晏球預選，從梁祖征伐，所至立功，累遷廳子都指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-dai-siyuan-service",
+    "from": "zhu-wen",
+    "to": "dai-siyuan",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v064",
+        "paragraphId": "old-v064-p8",
+        "title": "旧五代史·戴思远传",
+        "excerpt": "戴思遠，本梁之故將也。初事梁祖，以武幹知名。開平元年，自右羽林統軍加檢校司徒，出為晉州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhu-hanbin-service",
+    "from": "zhu-wen",
+    "to": "zhu-hanbin",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p33",
+        "title": "新五代史·朱汉宾传",
+        "excerpt": "太祖聞之，乃更選勇士數百人，號「落鴈都」，以漢賓為指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-kong-qing-service",
+    "from": "zhu-wen",
+    "to": "kong-qing",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "old-v064",
+        "paragraphId": "old-v064-p12",
+        "title": "旧五代史·孔勍传",
+        "excerpt": "少便騎射，為軍中小校，事梁祖漸至郡守，累遷齊州防禦使、唐鄧節度使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-liu-qi-service",
+    "from": "zhu-wen",
+    "to": "liu-qi",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p45",
+        "title": "新五代史·刘玘传",
+        "excerpt": "梁太祖鎮宣武，玘以軍卒補隊長，稍以戰功遷牙將，為襄州都指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhou-zhiyu-service",
+    "from": "zhu-wen",
+    "to": "zhou-zhiyu",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p50",
+        "title": "新五代史·周知裕传",
+        "excerpt": "梁太祖得知裕喜甚，為置歸化軍，以知裕為指揮使，凡與晉戰所得，及兵背晉而歸梁者，皆以隸知裕。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yuan-xiangxian-service",
+    "from": "zhu-wen",
+    "to": "yuan-xiangxian",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p26",
+        "title": "新五代史·袁象先传",
+        "excerpt": "象先以梁甥為宣武軍內外馬步軍都指揮使，歷宿、洺、陳三州刺史。太祖即位，累遷左龍武統軍、在京馬步軍都指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-duan-ning-service",
+    "from": "zhu-wen",
+    "to": "duan-ning",
+    "kind": "service",
+    "label": "部将",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p40",
+        "title": "新五代史·段凝传",
+        "excerpt": "太祖漸親信之，常使監諸軍。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-zhouyi-service",
+    "from": "zhu-wen",
+    "to": "li-zhouyi",
+    "kind": "service",
+    "label": "左司马",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p45",
+        "title": "新五代史·符道昭传中的李周彝记载",
+        "excerpt": "太祖為元帥，初開府，而李周彝以鄜州降，以為左司馬，擇右司馬難其人，及得道昭，乃授之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yougong-adoption",
+    "from": "zhu-wen",
+    "to": "zhu-yougong",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p4",
+        "title": "《旧五代史》卷19",
+        "excerpt": "太祖憐之，因畜為己子，賜姓，初名克讓，後改之。"
+      }
+    ],
+    "note": "朱友恭本姓李名彦威；史载为养子，不是亲生子。"
+  },
+  {
+    "id": "zhu-wen-youqian-adoption",
+    "from": "zhu-wen",
+    "to": "zhu-youqian",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p19",
+        "title": "《新五代史》卷45",
+        "excerpt": "太祖益憐之，乃更其名友謙，錄以為子。"
+      }
+    ],
+    "note": "朱友谦原名简，请列朱温诸子，获改名并记入属籍。"
+  },
+  {
+    "id": "zhu-wen-hanbin-adoption",
+    "from": "zhu-wen",
+    "to": "zhu-hanbin",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p32",
+        "title": "《新五代史》卷45",
+        "excerpt": "梁太祖以其父死戰，憐之，以為養子。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-xie-yanzhang-adoption",
+    "from": "ge-congzhou",
+    "to": "xie-yanzhang",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p32",
+        "title": "《新五代史》卷23",
+        "excerpt": "幼事葛從周，從周憐其敏惠，養以為子，授之兵法，"
+      }
+    ],
+    "note": "葛从周是谢彦章的养父，并授其兵法。"
+  },
+  {
+    "id": "huo-cun-yanwei-adoption",
+    "from": "huo-cun",
+    "to": "huo-yanwei",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p8",
+        "title": "《新五代史》卷46",
+        "excerpt": "少遭兵亂，梁將霍存掠得之，愛其儁爽，養以為子。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-guiba-guihou-siblings",
+    "from": "zhang-guiba",
+    "to": "zhang-guihou",
+    "kind": "kinship",
+    "label": "兄弟",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p18",
+        "title": "《旧五代史》卷16",
+        "excerpt": "中和末，與兄歸霸自巢軍相率來降，太祖署為軍校。"
+      }
+    ],
+    "note": "归霸为兄，归厚为弟。"
+  },
+  {
+    "id": "zhang-guiba-guibian-siblings",
+    "from": "zhang-guiba",
+    "to": "zhang-guibian",
+    "kind": "kinship",
+    "label": "兄弟",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p22",
+        "title": "《旧五代史》卷16",
+        "excerpt": "張歸弁，字從冕。始與兄歸霸、歸厚同歸於太祖，得署為牙校。"
+      }
+    ],
+    "note": "归霸为兄，归弁为弟。"
+  },
+  {
+    "id": "zhang-guihou-guibian-siblings",
+    "from": "zhang-guihou",
+    "to": "zhang-guibian",
+    "kind": "kinship",
+    "label": "兄弟",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p22",
+        "title": "《旧五代史》卷16",
+        "excerpt": "張歸弁，字從冕。始與兄歸霸、歸厚同歸於太祖，得署為牙校。"
+      }
+    ],
+    "note": "归厚为兄，归弁为弟。"
+  },
+  {
+    "id": "zhu-wen-yuan-xiangxian-uncle",
+    "from": "zhu-wen",
+    "to": "yuan-xiangxian",
+    "kind": "kinship",
+    "label": "舅甥",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p26",
+        "title": "《新五代史》卷45",
+        "excerpt": "父敬初，梁太府卿、駙馬都尉，尚太祖妹，是為萬安大長公主。象先以梁甥為宣武軍內外馬步軍都指揮使，"
+      }
+    ],
+    "note": "袁象先之母是朱温之妹；此关系区别于军事任职。"
+  },
+  {
+    "id": "zhang-guiba-zhu-youzhen-marriage",
+    "from": "zhang-guiba",
+    "to": "zhu-youzhen",
+    "kind": "kinship",
+    "label": "岳父女婿",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p28",
+        "title": "《新五代史》卷22",
+        "excerpt": "張歸霸，清河人也。末帝娶其女，是為德妃。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-li-tangbin-conflict",
+    "from": "zhu-zhen",
+    "to": "li-tangbin",
+    "kind": "conflict",
+    "label": "交恶、擅杀",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p11",
+        "title": "《旧五代史》卷19",
+        "excerpt": "唐賓素與珍不協，果怒，乃見以訴其事。珍亦怒曰：「唐賓無禮！」遂拔劍斬之，"
+      }
+    ],
+    "note": "朱珍与李唐宾不和，后于萧县擅杀李唐宾；不是临阵共同战死。"
+  },
+  {
+    "id": "he-gui-xie-yanzhang-conflict",
+    "from": "he-gui",
+    "to": "xie-yanzhang",
+    "kind": "conflict",
+    "label": "交恶、杀害",
+    "sources": [
+      {
+        "chapterId": "old-v023",
+        "paragraphId": "old-v023-p15",
+        "title": "《旧五代史》卷23",
+        "excerpt": "先是，瑰與彥章不協，是歲冬十二月，復為諸軍都虞候朱珪所構，瑰乃伏甲士，殺彥章及濮州刺史孟審澄、別將侯溫裕等於軍，以謀叛聞。"
+      },
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p33",
+        "title": "《新五代史》卷23 · 谢彦章传",
+        "excerpt": "珪乃誣彥章以為將反。瓌旦享士，使珪伏甲殺之，審澄、溫裕皆見害。"
+      }
+    ],
+    "note": "贺瑰与谢彦章不和，后与朱珪合谋伏兵杀害谢彦章等，并以谋反上报；记录史书叙述，不把谋反指控认定为史实。"
+  },
+  {
+    "id": "liu-han-wang-chongshi-conflict",
+    "from": "liu-han",
+    "to": "wang-chongshi",
+    "kind": "conflict",
+    "label": "交恶、构陷",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p38",
+        "title": "《新五代史》卷22",
+        "excerpt": "重師與劉捍故有隙，捍嘗構之太祖，太祖疑之。"
+      }
+    ],
+    "note": "史书记刘捍与王重师有隙并向朱温构陷；不将构陷内容当作已发生的谋叛。"
+  },
+  {
+    "id": "liu-zhijun-kang-huaiying-conflict",
+    "from": "liu-zhijun",
+    "to": "kang-huaiying",
+    "kind": "conflict",
+    "label": "升平交战",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p7",
+        "title": "《新五代史》卷44",
+        "excerpt": "知俊大敗懷英於昇平，殺梁將許從實。"
+      }
+    ],
+    "note": "发生在刘知俊叛梁、投李茂贞之后；此前二人也曾共同征战。"
+  },
+  {
+    "id": "zhu-wen-liu-zhijun-conflict",
+    "from": "zhu-wen",
+    "to": "liu-zhijun",
+    "kind": "conflict",
+    "label": "反梁",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p6",
+        "title": "《新五代史》卷44",
+        "excerpt": "知俊遂叛，臣於李茂貞，以兵攻雍、華，執劉捍送于鳳翔。"
+      }
+    ],
+    "note": "刘知俊原任朱温部将，后因诛杀旧将而恐惧，叛梁归李茂贞；任职与反梁分列。"
+  },
+  {
+    "id": "ding-hui-li-keyong-service",
+    "from": "li-keyong",
+    "to": "ding-hui",
+    "kind": "service",
+    "label": "归晋、任将",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p14",
+        "title": "《新五代史》卷44",
+        "excerpt": "會乃降晉。晉王以會歸于太原，賜以甲第，位在諸將上。"
+      }
+    ],
+    "note": "丁会以潞州归晋，李克用给予高位；先前任朱温部将的关系另列。"
+  },
+  {
+    "id": "li-cunxu-yan-bao-service",
+    "from": "li-cunxu",
+    "to": "yan-bao",
+    "kind": "service",
+    "label": "归晋、招讨使",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p24",
+        "title": "《新五代史》卷44",
+        "excerpt": "晉王拜寶檢校太尉、同中書門下平章事，領天平軍節度使、東南面招討使，位在諸將上。"
+      }
+    ],
+    "note": "阎宝以邢州归李存勖时李存勖尚为晋王。"
+  },
+  {
+    "id": "li-cunxu-royal-zhu-youqian-service",
+    "from": "li-cunxu",
+    "to": "zhu-youqian",
+    "kind": "service",
+    "label": "归唐、任将",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p22",
+        "title": "《新五代史》卷45",
+        "excerpt": "莊宗滅梁入洛，友謙來朝，賜姓名曰李繼麟，賜予鉅萬。明年，加守太師、尚書令，賜鐵券恕死罪。"
+      }
+    ],
+    "note": "朱友谦归后唐后受李存勖赐姓名李继麟，仍为同一人物。"
+  },
+  {
+    "id": "li-cunxu-huo-yanwei-service",
+    "from": "li-cunxu",
+    "to": "huo-yanwei",
+    "kind": "service",
+    "label": "归唐、赐姓名",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p10",
+        "title": "《新五代史》卷46",
+        "excerpt": "賜姓名曰李紹真。明年，徙鎮武寧，從明宗擊契丹，明宗愛其為人，甚親厚之。"
+      }
+    ],
+    "note": "霍彦威降后唐后受李存勖赐姓名李绍真；军事转仕与养父霍存关系分开。"
+  },
+  {
+    "id": "li-cunxu-wang-yanqiu-service",
+    "from": "li-cunxu",
+    "to": "wang-yanqiu",
+    "kind": "service",
+    "label": "归唐、任将",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p24",
+        "title": "《新五代史》卷46",
+        "excerpt": "即解甲降唐，莊宗賜姓名曰李紹虔，拜齊州防禦使，戍瓦橋關。"
+      }
+    ]
+  },
+  {
+    "id": "li-siyuan-huo-yanwei-service",
+    "from": "li-siyuan",
+    "to": "huo-yanwei",
+    "kind": "service",
+    "label": "辅佐即位",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p12",
+        "title": "《新五代史》卷46",
+        "excerpt": "莊宗崩，彥威從明宗入洛陽，首率羣臣勸進，內外機事，皆決彥威。"
+      }
+    ]
+  },
+  {
+    "id": "li-siyuan-wang-yanqiu-service",
+    "from": "li-siyuan",
+    "to": "wang-yanqiu",
+    "kind": "service",
+    "label": "归德节度、讨定州",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p25",
+        "title": "《新五代史》卷46",
+        "excerpt": "明宗兵變，自鄴而南，遣人招晏球，晏球從至洛陽，拜歸德軍節度使。定州王都反，以晏球為招討使，"
+      }
+    ]
+  },
+  {
+    "id": "duan-ning-wang-yanzhang-conflict",
+    "from": "duan-ning",
+    "to": "wang-yanzhang",
+    "kind": "conflict",
+    "label": "争功、倾轧",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p22",
+        "title": "《旧五代史》卷21",
+        "excerpt": "時段凝以賄賂交結，自求兵柄，素與彥章不協，潛害其功，陰行逗撓，遂至王師不利，竟退彥章而用段凝。"
+      }
+    ]
+  },
+  {
+    "id": "duan-ning-huo-yanwei-conflict",
+    "from": "huo-yanwei",
+    "to": "duan-ning",
+    "kind": "conflict",
+    "label": "交恶",
+    "sources": [
+      {
+        "chapterId": "new-v46",
+        "paragraphId": "new-v46-p12",
+        "title": "《新五代史》卷46",
+        "excerpt": "彥威素與段凝、溫韜有隙，因擅捕凝、韜下獄，將殺之，"
+      }
+    ],
+    "note": "发生在李嗣源入洛时；段凝等经劝止暂得赦免，之后的处分另见原文。"
+  },
   {
     id: 'zhu-wen-yougui-parent', from: 'zhu-wen', to: 'zhu-yougui', kind: 'kinship', label: '父子',
     sources: [source('new-v13', 45, '《新五代史》卷13 · 梁家人传', '庶人友珪者，太祖初鎮宣武，略地宋，亳間，與逆旅婦人野合而生也。')],
