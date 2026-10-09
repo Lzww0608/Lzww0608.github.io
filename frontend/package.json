@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs tests/history-loader.test.mjs tests/original-script.test.mjs tests/appearance.test.mjs tests/reading-headings.test.mjs tests/translation-editor-api.test.mjs tests/emperors.test.mjs tests/taibao.test.mjs tests/people-scope.test.mjs tests/relationships.test.mjs tests/person-passages.test.mjs tests/sentence-alignment.test.mjs tests/sentence-translations-loader.test.mjs tests/published-sentence-translations.test.mjs",
+    "test": "node --experimental-strip-types --test tests/chapter-schema.test.mjs tests/history-loader.test.mjs tests/original-script.test.mjs tests/appearance.test.mjs tests/reading-headings.test.mjs tests/translation-editor-api.test.mjs tests/emperors.test.mjs tests/taibao.test.mjs tests/people-scope.test.mjs tests/relationships.test.mjs tests/person-passages.test.mjs tests/sentence-alignment.test.mjs tests/sentence-translations-loader.test.mjs tests/published-sentence-translations.test.mjs tests/passage-search.test.mjs tests/person-passage-search-ui.test.mjs tests/person-passage-search-loader.test.mjs",
     "predev": "node scripts/prepare-content.mjs",
     "prebuild": "node scripts/prepare-content.mjs && npm run test:sentence-coverage",
     "test:sentence-coverage": "node ../scripts/check-sentence-coverage.mjs"

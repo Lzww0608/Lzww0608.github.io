@@ -25,6 +25,7 @@
     "sentences:export": "node scripts/export-sentence-translations.mjs"
   },
   "dependencies": {
+    "opencc-js": "1.4.2",
     "pg": "^8.16.3"
   }
 }

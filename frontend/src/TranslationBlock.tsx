@@ -1,13 +1,15 @@
 import { useId, useState } from 'react';
 import { CaretDown, CaretUp } from '@phosphor-icons/react';
-import type { PublishedTranslation } from './types';
+import type { PublishedTranslation, TextRange } from './types';
 import { reviewNoteForDisplay } from './translation-display';
+import { HighlightedText } from './HighlightedText';
 
-export function TranslationBlock({ translation, onEdit, expanded, onExpandedChange }: {
+export function TranslationBlock({ translation, onEdit, expanded, onExpandedChange, searchRanges = [] }: {
   translation: PublishedTranslation;
   onEdit?: () => void;
   expanded?: boolean;
   onExpandedChange?: (expanded: boolean) => void;
+  searchRanges?: readonly TextRange[];
 }) {
   const [localExpanded, setLocalExpanded] = useState(false);
   const collapsed = !(expanded ?? localExpanded);
@@ -30,7 +32,7 @@ export function TranslationBlock({ translation, onEdit, expanded, onExpandedChan
       </div>
     </div>
     <div id={contentId} className="translation-content" hidden={collapsed}>
-      <p>{translation.text}</p>{showCredit && <span className="translation-credit">{translation.translator}</span>}
+      <p><HighlightedText text={translation.text} ranges={searchRanges} /></p>{showCredit && <span className="translation-credit">{translation.translator}</span>}
       {!!translation.reviewNotes?.length && <details className="translation-review-notes"><summary>校核提示 · {translation.reviewNotes.length}</summary><ul>{translation.reviewNotes.map((note, index) => <li key={index}>{reviewNoteForDisplay(note)}</li>)}</ul></details>}
     </div>
   </div>;

@@ -1,7 +1,8 @@
 import { Fragment, useCallback, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { X } from '@phosphor-icons/react';
-import type { ChapterParagraph } from './types';
+import type { ChapterParagraph, TextRange } from './types';
+import { HighlightedText } from './HighlightedText';
 import { useSentenceTranslations } from './use-sentence-translations';
 import { reviewNoteForDisplay } from './translation-display';
 import './sentence-translation.css';
@@ -43,10 +44,11 @@ function boundedPosition(anchor: OpenTranslation, width: number, height: number)
   };
 }
 
-export function SentenceTranslationText({ paragraph, displayedOriginal, onExpandTranslation }: {
+export function SentenceTranslationText({ paragraph, displayedOriginal, onExpandTranslation, searchRanges = [] }: {
   paragraph: ChapterParagraph;
   displayedOriginal: string;
   onExpandTranslation?: () => void;
+  searchRanges?: readonly TextRange[];
 }) {
   const { parts, pending } = useSentenceTranslations(paragraph, displayedOriginal);
   const popupId = useId();
@@ -137,9 +139,13 @@ export function SentenceTranslationText({ paragraph, displayedOriginal, onExpand
     setOpen({ partId: part.id, sourceKey, ...anchor, keyboard: !point });
   };
 
+  let displayOffset = 0;
   return <>
     {parts.map(part => {
-      if (!clickablePart(part)) return <Fragment key={part.id}>{part.original}</Fragment>;
+      const offset = displayOffset;
+      displayOffset += [...part.original].length;
+      const text = <HighlightedText text={part.original} ranges={searchRanges} offset={offset} />;
+      if (!clickablePart(part)) return <Fragment key={part.id}>{text}</Fragment>;
       const selected = visible && activePart?.id === part.id;
       const label = translationLabel(part.kind);
       return <span key={part.id} className="sentence-translation-trigger" role="button" tabIndex={0}
@@ -159,7 +165,7 @@ export function SentenceTranslationText({ paragraph, displayedOriginal, onExpand
           if (event.key !== 'Enter' && event.key !== ' ') return;
           event.preventDefault();
           show(part, event.currentTarget);
-        }}>{part.original}</span>;
+        }}>{text}</span>;
     })}
     {visible && clickablePart(activePart) && typeof document !== 'undefined' && createPortal(
       <div id={popupId} ref={popupRef} className="sentence-translation-popover" role="dialog"

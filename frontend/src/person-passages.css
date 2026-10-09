@@ -9,6 +9,21 @@
 .passages-book-select select { appearance: none; -webkit-appearance: none; display: block; min-height: 42px; min-width: 0; max-width: 100%; padding: 8px 40px 8px 12px; border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--ink); font-size: 14px; text-align: left; }
 .passages-book-select > svg { position: absolute; top: 50%; right: 12px; transform: translateY(-50%); color: var(--ink); pointer-events: none; }
 .passages-selection p { color: var(--muted); font-size: 12px; margin-left: auto; }
+.passages-search { margin: 0 0 24px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.passages-search > label { display: block; margin-bottom: 12px; color: var(--soft-ink); font-family: var(--serif); font-size: 18px; }
+.passages-search-row { display: flex; gap: 10px; align-items: stretch; }
+.passages-search-input { display: flex; flex: 1; align-items: center; min-width: 0; gap: 10px; padding-left: 12px; border: 1px solid var(--line); background: var(--surface); }
+.passages-search-input svg { flex-shrink: 0; color: var(--muted); }
+.passages-search-input input { display: block; width: 100%; min-width: 0; min-height: 44px; padding: 10px 12px 10px 0; border: 0; border-radius: 0; background: transparent; color: var(--ink); font-family: var(--sans); font-size: 15px; }
+.passages-search-submit, .passages-search-clear { min-width: 62px; min-height: 44px; padding: 9px 15px; border: 1px solid var(--line); color: var(--ink); font-family: var(--sans); font-size: 14px; }
+.passages-search-submit { border-color: var(--accent); background: var(--accent); color: var(--on-accent); }
+.passages-search-submit:hover { background: var(--accent-hover); }
+.passages-search-clear:hover { background: var(--tint); }
+.passages-search-fields { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 18px; border: 0; margin: 10px 0 0; padding: 0; }
+.passages-search-fields legend { float: left; margin-right: 18px; padding: 9px 0; color: var(--muted); font-size: 13px; }
+.passages-search-fields label { display: inline-flex; align-items: center; gap: 7px; min-height: 36px; color: var(--soft-ink); font-size: 13px; cursor: pointer; }
+.passages-search-fields input { margin: 0; accent-color: var(--accent); width: 15px; height: 15px; }
+.passages-search > p { margin-top: 7px; color: var(--muted); font-size: 12px; line-height: 1.8; }
 .person-passages .passages-toolbar { margin-bottom: 24px; }
 .person-passages .passages-font-controls { gap: 14px; }
 .passages-font-controls > span { color: var(--muted); font-family: var(--sans); font-size: 12px; }
@@ -60,4 +75,9 @@
   .passages-chapter-heading h3 { font-size: 23px; }
   .person-passages .paragraph-number { left: -20px; font-size: 10px; }
   .person-passages .paragraph-translation { padding: 14px 14px; }
+  .passages-search-row { flex-wrap: wrap; }
+  .passages-search-input { flex-basis: calc(100% - 83px); }
+  .passages-search-clear { flex-basis: auto; }
+  .passages-search-fields { gap: 4px 12px; }
+  .passages-search-fields legend { float: none; width: 100%; margin-right: 0; padding-bottom: 2px; }
 }

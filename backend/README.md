@@ -143,6 +143,7 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 | `GET /api/chapters/new-v46/sentence-translations` | 仍匹配当前原文与最新已发布全文的独立句译；空结果表示暂停 |
 | `GET /api/chapters/old-v110` | 原文、匹配修订的已发布译文、来源与阅读提示 |
 | `GET /api/people/zhu-wen/passages?bookId=new&limit=50&cursor=0` | 当前归档内的人物片段、来源、已发布译文与分页统计 |
+| `GET /api/people/li-cunxu/passages?q=潞州&field=both&bookId=old` | 在人物的全部当前可见记载中检索原文和白话正文，返回 Unicode 命中范围及过滤后的分页 |
 | `GET /api/passages/passage-new-v01-p2` | 单个可见片段及关联人物 |
 | `GET /api/search?q=朱氏` | 当前原文的字面检索，最多 20 条 |
 | `GET /api/editor/status` | 在线校订是否启用，不返回凭据 |
@@ -152,6 +153,10 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 公开阅读接口仅支持 GET、HEAD、OPTIONS。仅 `/api/editor/` 下的校订入口允许受保护的 POST，预检允许 `Content-Type` 与 `Authorization`。CORS 允许 `https://lzww0608.github.io` 与本机开发/预览地址；写入还必须通过 Bearer 鉴权。CORS 只约束浏览器，接口中的已发布内容本身是公开的。
 
 人物片段列表的 `bookId` 可省略，省略时汇总所有公开史料；`limit` 默认为 50、范围为 1—100，`cursor` 默认为 `0`、仅接受非负整数字符串。结果按书籍 ID、章节目录位置、段落位置及片段 ID 稳定排序，`total` 仅计可见片段，`nextCursor` 在末页为 `null`。`resultSetRevision` 是同一 SQL 快照中完整可见片段 ID 集合的 SHA-256，分页参数不影响它；客户端可在集合或读取来源变化时从第一页重新读取，避免偏移游标跳过片段。未知人物或书籍返回 404，无效分页参数返回 400；已停止公开或原文绑定失效的单片段返回 404。完整章节接口保持兼容。
+
+人物内检索仍使用该列表接口；省略 `q` 时保持上述响应和旧分页规则。提供 `q` 时，去除首尾空格后须为 1—100 个 Unicode 字符，拒绝控制字符和重复参数；`field` 默认为 `both`，也可选 `original` 或 `translation`。繁简文字及已核对的常见字形按本地 OpenCC 字典等价检索，SQL／HTML／通配符符号均按字面文字处理。检索整个相关段落的原文和对应最新已发布完整白话正文，不搜索草稿、署名或校核提示。
+
+检索在一次只读 SQL 快照内取齐人物全部当前可见候选与译文，匹配后再计算 `total` 与分页，不局限当前页。返回 `search: {query, field, normalizedQuery}`，各命中片段追加 `searchMatches: [{paragraphId, original: [{start,end}], translation: [{start,end}]}]`；范围以原始文本 Unicode 字符计数、左闭右开，不能当作 JavaScript UTF-16 偏移，也不能互相套用原文与译文范围。检索的 `resultSetRevision` 还绑定查询、字段、命中集合以及实际原文和公开译文版本／正文；分页参数不改变它，校订或暂停后可触发重新定位。成功空结果表示当前公开集合中没有命中，客户端不能用旧静态结果覆盖；接口不新增数据库表，也不给公开 reader 写入权限。
 
 ## 备份与恢复
 

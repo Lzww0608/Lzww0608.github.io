@@ -1,3 +1,6 @@
+import { validateSearchQuery, searchFields } from '../../content/passage-search.mts';
+import { loadPassageSearch } from './passage-search.ts';
+import type { SearchField } from './types.ts';
 import { libraryBooks, libraryChapters } from './library.ts';
 import { catalogPeople } from './person-catalog.ts';
 import { parseChapterParagraph } from './chapter-schema.ts';
@@ -81,7 +84,7 @@ async function passage(value: unknown, requestedBook?: BookId): Promise<PersonPa
   return value as unknown as PersonPassage;
 }
 
-export async function parsePersonPassagesPage(value: unknown, personId: string, bookId?: BookId, cursor = '0', limit = 50): Promise<PersonPassagesResponse> {
+export async function parsePersonPassagesPage(value: unknown, personId: string, bookId?: BookId, cursor = '0', limit = 50, searchOptions: { query?: string; field?: SearchField } = {}): Promise<PersonPassagesResponse> {
   if (!record(value) || value.schemaVersion !== 1 || value.scope !== 'current-archive' || value.personId !== personId || !people.has(personId)
     || value.bookId !== (bookId ?? null) || !integer(value.total) || !integer(value.unavailableCount)
     || typeof value.resultSetRevision !== 'string' || !/^[a-f0-9]{64}$/.test(value.resultSetRevision)
@@ -92,8 +95,26 @@ export async function parsePersonPassagesPage(value: unknown, personId: string, 
       || !Number.isSafeInteger(Number(value.nextCursor)) || Number(value.nextCursor) !== Number(cursor)+value.items.length
       || Number(value.nextCursor) >= value.total || value.items.length === 0))
     || value.items.length > Math.max(0,value.total-Number(cursor))) fail();
+  const query=validateSearchQuery(searchOptions.query ?? ''), field=searchOptions.field ?? 'both';
+  if (!searchFields.includes(field)) fail();
   const items=await Promise.all(value.items.map(item=>passage(item,bookId)));
+  let search: PersonPassagesResponse['search'];
+  if (query) {
+    const engine=await loadPassageSearch();
+    if (!record(value.search) || value.search.query!==query || value.search.field!==field || value.search.normalizedQuery!==engine.normalize(query)) fail();
+    for (const item of items) {
+      const expected=item.paragraphs.map(p=>engine.matchParagraph(p,query,field)).filter(Boolean);
+      if (!expected.length || !Array.isArray(item.searchMatches)) fail();
+      const actual=item.searchMatches.map(match=>{
+        if(!record(match)||typeof match.paragraphId!=='string'||!Array.isArray(match.original)||!Array.isArray(match.translation))fail();
+        const ranges=(value:unknown[])=>value.map(range=>{if(!record(range)||!integer(range.start)||!integer(range.end,1)||range.end<=range.start)fail();return {start:range.start,end:range.end};});
+        return {paragraphId:match.paragraphId,original:ranges(match.original),translation:ranges(match.translation)};
+      });
+      if(JSON.stringify(actual)!==JSON.stringify(expected))fail();
+    }
+    search={query,field,normalizedQuery:engine.normalize(query)};
+  } else if (value.search!==undefined || items.some(item=>item.searchMatches!==undefined)) fail();
   const paragraphIds=items.flatMap(item=>item.paragraphs.map(paragraph=>paragraph.id));
   if (new Set(items.map(item=>item.id)).size !== items.length || new Set(paragraphIds).size!==paragraphIds.length) fail();
-  return {schemaVersion:1,scope:'current-archive',personId,bookId:bookId??null,coverage:coverage(value.coverage),total:value.total,unavailableCount:value.unavailableCount,resultSetRevision:value.resultSetRevision,nextCursor:value.nextCursor as string|null,items};
+  return {schemaVersion:1,scope:'current-archive',personId,bookId:bookId??null,coverage:coverage(value.coverage),total:value.total,unavailableCount:value.unavailableCount,resultSetRevision:value.resultSetRevision,nextCursor:value.nextCursor as string|null,items,...(search ? {search} : {})};
 }

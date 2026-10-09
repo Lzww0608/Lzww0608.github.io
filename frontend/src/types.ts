@@ -1,3 +1,5 @@
+import type { TextRange, SearchField, ParagraphSearchMatch } from '../../content/passage-search.mts';
+export type { TextRange, SearchField, ParagraphSearchMatch };
 export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' | '宋元' | '明清';
 export type Dynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周' | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
@@ -191,6 +193,7 @@ export interface PersonPassage {
   sourceUrl: string;
   spans: PassageSpan[];
   paragraphs: ChapterParagraph[];
+  searchMatches?: ParagraphSearchMatch[];
 }
 
 export interface PersonPassagesResponse {
@@ -204,6 +207,7 @@ export interface PersonPassagesResponse {
   resultSetRevision: string;
   nextCursor: string | null;
   items: PersonPassage[];
+  search?: { query: string; field: SearchField; normalizedQuery: string };
 }
 
 export interface PersonPassageIndex {

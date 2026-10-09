@@ -1,17 +1,26 @@
 import { publicParagraphJson, latestPublishedTranslationJoin } from './public-paragraph-sql.mjs';
+import { createHash } from 'node:crypto';
+import { passageTextSearch } from './passage-search-normalizer.mjs';
+import { validateSearchQuery } from '../../content/passage-search.mts';
 
 // Offset cursors are decimal strings. Reject coercible numbers, signs, spaces and unsafe integers.
 export function parsePersonPassagePagination(searchParams) {
   const limitText = searchParams.get('limit') ?? '50';
   const cursorText = searchParams.get('cursor') ?? '0';
   if (searchParams.getAll('limit').length > 1 || searchParams.getAll('cursor').length > 1
-    || searchParams.getAll('bookId').length > 1 || !/^(?:0|[1-9][0-9]*)$/.test(cursorText)
+    || searchParams.getAll('bookId').length > 1 || searchParams.getAll('q').length > 1
+    || searchParams.getAll('field').length > 1 || !/^(?:0|[1-9][0-9]*)$/.test(cursorText)
     || !/^[1-9][0-9]*$/.test(limitText)) throw new TypeError('Invalid passage pagination.');
   const limit = Number(limitText), cursor = Number(cursorText);
   const bookId = searchParams.get('bookId');
+  const q = searchParams.has('q') ? validateSearchQuery(searchParams.get('q')) : null;
+  const field = searchParams.get('field') ?? 'both';
   if (!Number.isSafeInteger(cursor) || !Number.isSafeInteger(limit) || limit < 1 || limit > 100
-    || (bookId !== null && !/^[a-z0-9][a-z0-9-]*$/.test(bookId))) throw new TypeError('Invalid passage pagination.');
-  return { bookId, limit, cursor };
+    || (bookId !== null && !/^[a-z0-9][a-z0-9-]*$/.test(bookId))
+    || (q !== null && (!q || [...q].length > 100)) || !['both', 'original', 'translation'].includes(field)) {
+    throw new TypeError('Invalid passage pagination or search.');
+  }
+  return q === null ? { bookId, limit, cursor } : { bookId, limit, cursor, q, field };
 }
 
 const passageJoins = `FROM public.passages x JOIN public.chapters c ON c.id=x.chapter_id
@@ -40,8 +49,48 @@ const passageJson = `jsonb_build_object('id',v.id,'title',v.title,'bookId',v.boo
   'edition',v.edition,'sourceUrl',v.source_url,'spans',${spanJson},'paragraphs',${paragraphsJson})`;
 
 export function createPersonPassagesRepository(pool) {
+  async function searchPersonPassages(personId, { bookId, limit, cursor, q, field }) {
+    // Fetch every current candidate and its latest published translation in one snapshot.
+    // Normalized literal matching happens before counts and pagination, never just within a page.
+    const { rows } = await pool.query(`WITH candidates AS (
+      SELECT ${passageColumns}, pp.kind, (${currentSpans}) AS available ${passageJoins}
+      JOIN public.person_passages pp ON pp.passage_id=x.id
+      WHERE pp.person_id=$1 AND c.published AND b.published AND ($2::text IS NULL OR b.id=$2)
+    ), visible AS (SELECT * FROM candidates WHERE available)
+    SELECT EXISTS(SELECT 1 FROM public.passage_people WHERE id=$1) AS person_exists,
+      ($2::text IS NULL OR EXISTS(SELECT 1 FROM public.books WHERE id=$2 AND published)) AS book_exists,
+      (SELECT jsonb_build_object('bookCount',book_count,'chapterCount',chapter_count,'paragraphCount',paragraph_count)
+        FROM public.person_passage_index WHERE id) AS coverage,
+      (SELECT count(*)::int FROM candidates WHERE NOT available) AS unavailable_count,
+      (SELECT coalesce(jsonb_agg(${passageJson} || jsonb_build_object('kind',v.kind)
+        ORDER BY v.${sortColumns.replaceAll(', ', ', v.')}),'[]'::jsonb) FROM visible v) AS items`, [personId, bookId]);
+    const row = rows[0];
+    if (!row.person_exists || !row.book_exists) return null;
+    const search = { query: q, field, normalizedQuery: passageTextSearch.normalize(q) };
+    const matching = passageTextSearch.filterPassages(row.items, q, field);
+    // Bind the complete matched set to the actual source and published translation versions/texts.
+    // Different queries/fields retain distinct revisions, including equally empty result sets.
+    const resultSetRevision = createHash('sha256').update(JSON.stringify({ personId, bookId, search,
+      matches: matching.map(item => ({ id: item.id, chapterId: item.chapterId, spans: item.spans, searchMatches: item.searchMatches,
+        paragraphs: item.paragraphs.map(paragraph => ({ id: paragraph.id, revision: paragraph.revision,
+          original: paragraph.original, translation: paragraph.translation ? {
+            id: paragraph.translation.id, version: paragraph.translation.version,
+            text: paragraph.translation.text,
+          } : null })) })),
+    }), 'utf8').digest('hex');
+    const items = matching.slice(cursor, cursor + limit);
+    return { schemaVersion: 1, scope: 'current-archive', personId, bookId,
+      coverage: row.coverage ?? { bookCount: 0, chapterCount: 0, paragraphCount: 0 },
+      search, total: matching.length, resultSetRevision, unavailableCount: row.unavailable_count,
+      nextCursor: cursor + items.length < matching.length ? String(cursor + items.length) : null, items };
+  }
   return {
-    async personPassages(personId, { bookId = null, limit = 50, cursor = 0 } = {}) {
+    async personPassages(personId, { bookId = null, limit = 50, cursor = 0, q = null, field = 'both' } = {}) {
+      if (q !== null) {
+        q = validateSearchQuery(q);
+        if (!q || !['both', 'original', 'translation'].includes(field)) throw new TypeError('Invalid passage search.');
+        return searchPersonPassages(personId, { bookId, limit, cursor, q, field });
+      }
       // Filtering, pagination counts, originals and current translations share one statement snapshot.
       const { rows } = await pool.query(`WITH candidates AS (
         SELECT ${passageColumns}, pp.kind, (${currentSpans}) AS available ${passageJoins}

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, CaretDown } from '@phosphor-icons/react';
-import { libraryBooks, libraryChapters } from './library';
+import { ArrowLeft, ArrowRight, ArrowUpRight, CaretDown, MagnifyingGlass } from '@phosphor-icons/react';
+import { libraryBooks, libraryChapters, personSourcesRoute } from './library';
+import type { PassageSearchOptions, ReadingSearchContext } from './library';
+import { validateSearchQuery } from '../../content/passage-search.mts';
 import { loadPersonPassages } from './person-passages-api';
 import { OriginalParagraph } from './OriginalParagraph';
 import { useOriginalScript } from './use-original-script';
@@ -67,13 +69,17 @@ function PassageProvenance({ passage }: { passage: PersonPassage }) {
   </details>;
 }
 
-export function PersonPassages({ person, book, go, onReadSource }: {
+export function PersonPassages({ person, book, go, onReadSource, search }: {
   person: HistoryPerson;
   book?: Book;
   go: (route: Route) => void;
-  onReadSource: (chapterId: string, paragraphId?: string) => void;
+  onReadSource: (chapterId: string, paragraphId?: string, context?: ReadingSearchContext) => void;
+  search: PassageSearchOptions;
 }) {
-  const target = `${person.id}/${book?.id ?? ''}`;
+  const target = JSON.stringify([person.id, book?.id ?? '', search.query, search.field]);
+  const [draftQuery, setDraftQuery] = useState(search.query);
+  const [draftField, setDraftField] = useState(search.field);
+  const [searchError, setSearchError] = useState('');
   const [pagination, setPagination] = useState<Pagination>({ target, cursors: ['0'], index: 0 });
   const currentPagination = pagination.target === target ? pagination : { target, cursors: ['0'], index: 0 };
   const cursor = currentPagination.cursors[currentPagination.index] ?? '0';
@@ -94,6 +100,9 @@ export function PersonPassages({ person, book, go, onReadSource }: {
     setPagination(value => value.target === target ? value : { target, cursors: ['0'], index: 0 });
     firstPageBaseline.current = null;
     setPaginationNotice(null);
+    setDraftQuery(search.query);
+    setDraftField(search.field);
+    setSearchError('');
   }, [target]);
 
   useEffect(() => {
@@ -103,7 +112,7 @@ export function PersonPassages({ person, book, go, onReadSource }: {
       if (!controller.signal.aborted && (cursor === '0' || matchesPassagePageBaseline(firstPageBaseline.current, target, 'archive', archive.resultSetRevision))) {
         setLoaded({ key: requestKey, state: 'archive-pending', page: archive });
       }
-    }, cursor).then(result => {
+    }, cursor, search).then(result => {
       if (controller.signal.aborted) return;
       if (cursor !== '0' && !matchesPassagePageBaseline(firstPageBaseline.current, target, result.source, result.page.resultSetRevision)) {
         firstPageBaseline.current = null;
@@ -119,7 +128,7 @@ export function PersonPassages({ person, book, go, onReadSource }: {
       if (!controller.signal.aborted) setLoaded({ key: requestKey, state: 'error', page: null });
     });
     return () => controller.abort();
-  }, [person.id, book?.id, cursor, requestKey, retry]);
+  }, [person.id, book?.id, search.query, search.field, cursor, requestKey, retry]);
 
   useEffect(() => {
     if (focusResults.current && current.state !== 'loading') {
@@ -131,7 +140,26 @@ export function PersonPassages({ person, book, go, onReadSource }: {
 
   function switchBook(bookId: string) {
     const selected = libraryBooks.find(item => item.id === bookId);
-    go(selected ? `person-sources/${person.id}/${selected.id}` : `person-sources/${person.id}`);
+    go(personSourcesRoute(person.id, selected?.id, search));
+  }
+  function submitSearch() {
+    let query: string;
+    try { query = validateSearchQuery(draftQuery); }
+    catch { setSearchError('请使用不超过 100 字、不含换行或控制字符的关键词。'); return; }
+    setSearchError('');
+    focusResults.current = true;
+    setPagination({ target, cursors: ['0'], index: 0 });
+    go(personSourcesRoute(person.id, book?.id, { query, field: draftField }));
+  }
+  function clearSearch() {
+    setDraftQuery('');
+    setDraftField('both');
+    setSearchError('');
+    focusResults.current = true;
+    go(personSourcesRoute(person.id, book?.id));
+  }
+  function readContext(chapterId: string, paragraphId?: string) {
+    onReadSource(chapterId, paragraphId, { ...search, returnTo: personSourcesRoute(person.id, book?.id, search) });
   }
   function turnPage(direction: 'previous' | 'next') {
     if (current.state === 'loading' || !page) return;
@@ -168,6 +196,19 @@ export function PersonPassages({ person, book, go, onReadSource }: {
         </div>
         <p>仅汇总当前文库收录范围内已核对的记载。</p>
       </div>
+      <form className="passages-search" role="search" aria-label={`${person.name}记载内检索`} onSubmit={event => { event.preventDefault(); submitSearch(); }}>
+        <label htmlFor="person-passage-query">在{person.name}的记载中检索</label>
+        <div className="passages-search-row">
+          <div className="passages-search-input"><MagnifyingGlass size={20} aria-hidden="true" /><input id="person-passage-query" type="search" value={draftQuery} placeholder="输入地名、事件或原句，如潞州" onChange={event => setDraftQuery([...event.target.value].slice(0, 100).join(''))} aria-invalid={!!searchError} aria-describedby={`person-passage-search-help${searchError ? ' person-passage-search-error' : ''}`} /></div>
+          <button className="passages-search-submit" type="submit">检索</button>
+          {(search.query || draftQuery) && <button className="passages-search-clear" type="button" onClick={clearSearch}>清除</button>}
+        </div>
+        <fieldset className="passages-search-fields"><legend>搜索范围</legend>{([
+          ['both', '原文和译文'], ['original', '仅原文'], ['translation', '仅译文'],
+        ] as const).map(([value, label]) => <label key={value}><input type="radio" name="person-passage-field" value={value} checked={draftField === value} onChange={() => setDraftField(value)} /><span>{label}</span></label>)}</fieldset>
+        <p id="person-passage-search-help">支持繁体或简体输入，检索原文及已发布白话译文；匹配处会突出显示。</p>
+        {searchError && <p id="person-passage-search-error" role="alert">{searchError}</p>}
+      </form>
       <div className="reader-toolbar passages-toolbar">
         <div className="reader-text-mode"><span>原文</span><div className="script-switch" role="group" aria-label="原文繁简切换">
           {(['traditional', 'simplified'] as const).map(script => <button key={script} aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}
@@ -180,7 +221,7 @@ export function PersonPassages({ person, book, go, onReadSource }: {
       </div>
       <div className="passages-results-heading">
         <h2 ref={resultsHeading} tabIndex={-1}>{book?.title ?? '全部文献'}</h2>
-        {page && <p>{page.total} 则相关记载{page.items.length > 0 && `，本页第 ${rangeStart}—${rangeEnd} 则`}</p>}
+        {page && <p>{search.query ? `“${search.query}” · ${page.total} 则匹配记载` : `${page.total} 则相关记载`}{page.items.length > 0 && `，本页第 ${rangeStart}—${rangeEnd} 则`}</p>}
       </div>
       <p className="sentence-reading-hint">点击原文句子，在附近查看译文。</p>
       <div className="reader-status passages-status" role="status" aria-live="polite">
@@ -192,7 +233,7 @@ export function PersonPassages({ person, book, go, onReadSource }: {
       {paginationNotice?.target === target && <p className="passages-unavailable" role="status">{paginationNotice.text}</p>}
       {page && <p className="passages-scope">当前归档收录 {page.coverage.bookCount} 部文献、{page.coverage.chapterCount} 篇原文、{page.coverage.paragraphCount.toLocaleString('zh-CN')} 段。已收录的选卷不等于史书全本，未列入汇总也不代表其他史料没有记载。</p>}
       {!!page?.unavailableCount && <p className="passages-unavailable" role="status">{page.unavailableCount} 则关联的原文版本已变化，暂未列入。可进入完整篇章阅读，待重新核对后恢复汇总。</p>}
-      {page?.total === 0 && <div className="passages-empty"><h3>当前文献暂无已核对的相关片段</h3><p>可以查看其他文献中的记载，或返回人物选择其他条目。</p>{book && <button className="text-link" onClick={() => switchBook('')}>查看全部文献 <ArrowRight size={17} /></button>}</div>}
+      {page?.total === 0 && <div className="passages-empty"><h3>{search.query ? '没有找到匹配的记载' : '当前文献暂无已核对的相关片段'}</h3><p>{search.query ? '可以缩短关键词、改换搜索范围，或查看其他文献。' : '可以查看其他文献中的记载，或返回人物选择其他条目。'}</p>{search.query && <button className="text-link" onClick={clearSearch}>清除检索 <ArrowRight size={17} /></button>}{book && <button className="text-link" onClick={() => switchBook('')}>查看全部文献 <ArrowRight size={17} /></button>}</div>}
       {page && page.total > 0 && !page.items.length && <div className="passages-empty"><h3>本页的记载已变化</h3><p>请回到第一页查看当前可用的相关记载。</p><button className="text-link" onClick={() => setPagination({target,cursors:['0'],index:0})}>返回第一页 <ArrowRight size={17} /></button></div>}
       <div className="passages-results" aria-busy={isPending}>
         {groups.map(bookGroup => {
@@ -200,16 +241,17 @@ export function PersonPassages({ person, book, go, onReadSource }: {
           return <section className="passages-book" key={bookGroup.bookId}>
             <header className="passages-book-heading"><h2>{bookGroup.bookTitle}</h2>{sourceBook && <p>{sourceBook.author} · {sourceBook.kind}</p>}</header>
             {bookGroup.chapters.map(group => <section className="passages-chapter" key={group.first.chapterId}>
-              <header className="passages-chapter-heading"><h3>{group.first.chapterTitle}</h3><button className="text-link small" onClick={() => onReadSource(group.first.chapterId, group.entries[0]?.paragraph.id)}>阅读完整篇章 <ArrowRight size={16} /></button></header>
+              <header className="passages-chapter-heading"><h3>{group.first.chapterTitle}</h3><button className="text-link small" onClick={() => readContext(group.first.chapterId, group.entries[0]?.paragraph.id)}>阅读完整篇章 <ArrowRight size={16} /></button></header>
               <div className="original-text passage-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>
                 {group.entries.map(({ passage, paragraph }, index) => {
                   const previous = group.entries[index - 1]?.paragraph;
                   const gap = previous && paragraph.position - previous.position - 1;
                   const displayedOriginal = originalScript.displayScript === 'simplified' && originalScript.converter ? originalScript.converter(paragraph.original) : paragraph.original;
+                  const matches = passage.searchMatches?.find(match => match.paragraphId === paragraph.id);
                   return <div className="passage-entry" key={paragraph.id}>
-                    {previous && gap !== undefined && gap > 0 && <p className="passage-gap">中间另有 {gap} 段，未列入本人物汇总。<button onClick={() => onReadSource(passage.chapterId, previous.id)}>查看上下文</button></p>}
-                    <div className="passage-context"><span>{kindLabels[passage.kind]} · 原篇第 {paragraph.position} 段</span><button onClick={() => onReadSource(passage.chapterId, paragraph.id)}>在全文中定位</button></div>
-                    <OriginalParagraph paragraph={paragraph} displayedOriginal={displayedOriginal} anchorId={`person-passage-${paragraph.id}`} onEdit={current.state === 'ready' ? () => onReadSource(passage.chapterId, paragraph.id) : undefined} />
+                    {previous && gap !== undefined && gap > 0 && <p className="passage-gap">中间另有 {gap} 段，未列入本人物汇总。<button onClick={() => readContext(passage.chapterId, previous.id)}>查看上下文</button></p>}
+                    <div className="passage-context"><span>{kindLabels[passage.kind]} · 原篇第 {paragraph.position} 段{search.query && matches && ` · ${matches.original.length && matches.translation.length ? '原文与译文命中' : matches.original.length ? '原文命中' : '译文命中'}`}</span><button onClick={() => readContext(passage.chapterId, paragraph.id)}>{search.query ? '查看上下文并定位' : '在全文中定位'}</button></div>
+                    <OriginalParagraph paragraph={paragraph} displayedOriginal={displayedOriginal} anchorId={`person-passage-${paragraph.id}`} searchQuery={search.query} searchField={search.field} translationMatch={!!matches?.translation.length} onEdit={current.state === 'ready' ? () => readContext(passage.chapterId, paragraph.id) : undefined} />
                     {!paragraph.translation && <p className="passage-no-translation">这段暂未提供对应的已发布白话译文。</p>}
                   </div>;
                 })}
