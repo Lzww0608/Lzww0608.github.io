@@ -8,6 +8,13 @@ export interface SentenceAlignmentGroup {
   kind: 'sentence' | 'group' | 'paragraph';
 }
 
+export interface PeriodSentenceAlignment {
+  originalStart: number;
+  originalEnd: number;
+  translationStart: number;
+  translationEnd: number;
+}
+
 export interface SentenceAlignmentParagraph {
   paragraphId: string;
   originalRevision: number;
@@ -16,6 +23,7 @@ export interface SentenceAlignmentParagraph {
   translationVersion: number;
   translationSha256: string;
   groups: SentenceAlignmentGroup[];
+  periodSentences?: PeriodSentenceAlignment[];
 }
 
 export interface SentenceAlignmentDocument {
@@ -26,6 +34,37 @@ export interface SentenceAlignmentDocument {
 
 const terminals = new Set(['。', '！', '？']);
 const closingMarks = new Set(['”', '’', '」', '』', '】', '〉', '》', '〕', '）', ')', '"', "'"]);
+
+// Click targets follow the user's literal full-stop rule, including quoted notes.
+// Question/exclamation marks do not join targets across the next Chinese full stop.
+export function splitPeriodSpans(text: string): SentenceSpan[] {
+  const characters = [...text];
+  const spans: SentenceSpan[] = [];
+  let start = 0;
+  let cursor = 0;
+  while (cursor < characters.length) {
+    if (characters[cursor] !== '。') { cursor += 1; continue; }
+    cursor += 1;
+    while (cursor < characters.length && (closingMarks.has(characters[cursor]!) || /^\s$/u.test(characters[cursor]!))) cursor += 1;
+    spans.push({ start, end: cursor, text: characters.slice(start, cursor).join('') });
+    start = cursor;
+  }
+  if (start < characters.length) spans.push({ start, end: characters.length, text: characters.slice(start).join('') });
+  return spans;
+}
+
+export function matchesPeriodSentenceRanges(ranges: PeriodSentenceAlignment[], original: string, translation: string): boolean {
+  const spans = splitPeriodSpans(original);
+  if (ranges.length !== spans.length) return false;
+  let translatedEnd = 0;
+  for (const [index, range] of ranges.entries()) {
+    const span = spans[index];
+    if (!span || range.originalStart !== span.start || range.originalEnd !== span.end
+      || range.translationStart !== translatedEnd || range.translationEnd <= range.translationStart) return false;
+    translatedEnd = range.translationEnd;
+  }
+  return translatedEnd === [...translation].length;
+}
 const notePairs: Record<string, string> = { '〈': '〉', '【': '】', '〔': '〕', '（': '）', '(': ')' };
 
 export function hasOuterSentencePunctuation(text: string): boolean {
@@ -111,6 +150,18 @@ export function validateSentenceAlignmentDocument(input: unknown): SentenceAlign
       originalEnd = group.originalEnd;
       translationEnd = group.translationEnd;
     }
+    if (paragraph.periodSentences !== undefined) {
+      requireValue(Array.isArray(paragraph.periodSentences) && paragraph.periodSentences.length > 0 && paragraph.periodSentences.length <= 4096, `period ranges ${paragraph.paragraphId}`);
+      let sourceEnd = 0;
+      let targetEnd = 0;
+      for (const sentence of paragraph.periodSentences) {
+        requireValue(record(sentence) && offset(sentence.originalStart) && positiveInteger(sentence.originalEnd) && offset(sentence.translationStart) && positiveInteger(sentence.translationEnd), `period offsets ${paragraph.paragraphId}`);
+        requireValue(sentence.originalStart === sourceEnd && sentence.translationStart === targetEnd && sentence.originalEnd > sentence.originalStart && sentence.translationEnd > sentence.translationStart, `period coverage ${paragraph.paragraphId}`);
+        sourceEnd = sentence.originalEnd;
+        targetEnd = sentence.translationEnd;
+      }
+      requireValue(sourceEnd === originalEnd && targetEnd === translationEnd, `period extent ${paragraph.paragraphId}`);
+    }
   }
   return input as unknown as SentenceAlignmentDocument;
 }
@@ -139,6 +190,7 @@ export async function matchesSentenceAlignment(alignment: SentenceAlignmentParag
   if (alignment.paragraphId !== paragraph.id || alignment.originalRevision !== paragraph.revision || !paragraph.translation || alignment.translationId !== paragraph.translation.id || alignment.translationVersion !== paragraph.translation.version) return false;
   const [originalHash, translationHash] = await Promise.all([textSha256(paragraph.original), textSha256(paragraph.translation.text)]);
   if (alignment.originalSha256 !== originalHash || alignment.translationSha256 !== translationHash) return false;
+  if (alignment.periodSentences && !matchesPeriodSentenceRanges(alignment.periodSentences, paragraph.original, paragraph.translation.text)) return false;
   const originalSpans = splitSentenceSpans(paragraph.original);
   const translationSpans = splitSentenceSpans(paragraph.translation.text);
   const originalBoundaries = new Set(originalSpans.map(span => span.end));

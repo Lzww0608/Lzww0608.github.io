@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { loadLibrary } from '../content/library.mjs';
 import { simplifyOriginal } from '../frontend/src/script-converter.ts';
-import { hasOuterSentencePunctuation, splitSentenceSpans, validateSentenceAlignmentDocument } from '../frontend/src/sentence-alignment.ts';
+import { hasOuterSentencePunctuation, matchesPeriodSentenceRanges, splitSentenceSpans, validateSentenceAlignmentDocument } from '../frontend/src/sentence-alignment.ts';
 
 export const sentenceAlignmentsRoot = new URL('../content/sentence-alignments/', import.meta.url);
 const translationsRoot = new URL('../content/published-translations/', import.meta.url);
@@ -153,6 +153,18 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
     overrides.set(override.paragraphId, override);
   }
   const usedOverrides = new Set();
+  const periodOverrides = new Map();
+  const periodRoot = new URL('period-overrides/', sentenceAlignmentsRoot);
+  for (const file of readdirSync(periodRoot).filter(name => name.endsWith('.json')).sort()) {
+    const input = JSON.parse(readFileSync(new URL(file, periodRoot), 'utf8'));
+    requireValue(input.schemaVersion === 1 && Array.isArray(input.paragraphs), `period file ${file}`);
+    for (const entry of input.paragraphs) {
+      requireValue(typeof entry.paragraphId === 'string' && !periodOverrides.has(entry.paragraphId)
+        && typeof entry.reason === 'string' && entry.reason.trim() && Array.isArray(entry.sentences) && entry.sentences.length > 0, `period identity ${file}`);
+      periodOverrides.set(entry.paragraphId, entry);
+    }
+  }
+  const usedPeriodOverrides = new Set();
   const documents = library.chapters.map(chapter => ({
     schemaVersion: 1,
     chapterId: chapter.id,
@@ -162,6 +174,14 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
       requireValue(entry && entry.originalRevision === paragraph.revision && entry.originalSha256 === originalSha256 && typeof entry.translation?.text === 'string' && entry.translation.text.trim(), `binding ${paragraph.id}`);
       const translation = entry.translation;
       const translationSha256 = sha256(translation.text);
+      const periodOverride = periodOverrides.get(paragraph.id);
+      if (periodOverride) {
+        requireValue(periodOverride.originalRevision === paragraph.revision && periodOverride.originalSha256 === originalSha256
+          && periodOverride.translationId === translation.id && periodOverride.translationVersion === translation.version
+          && periodOverride.translationSha256 === translationSha256, `stale period override ${paragraph.id}`);
+        requireValue(matchesPeriodSentenceRanges(periodOverride.sentences, paragraph.original, translation.text), `period boundaries ${paragraph.id}`);
+        usedPeriodOverrides.add(paragraph.id);
+      }
       const override = overrides.get(paragraph.id);
       if (override) {
         requireValue(override.originalSha256 === originalSha256 && override.translationId === translation.id && override.translationVersion === translation.version && override.translationSha256 === translationSha256, `stale override ${paragraph.id}`);
@@ -175,10 +195,12 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
         translationVersion: translation.version,
         translationSha256,
         groups: alignSentenceGroups(paragraph.original, translation.text, override?.sentenceCounts, override?.mode === 'paragraph'),
+        ...(periodOverride ? { periodSentences: periodOverride.sentences } : {}),
       };
     }),
   }));
   requireValue(usedOverrides.size === overrides.size, 'unused override');
+  requireValue(usedPeriodOverrides.size === periodOverrides.size, 'unused period override');
   for (const document of documents) validateSentenceAlignmentDocument(document);
   return documents;
 }

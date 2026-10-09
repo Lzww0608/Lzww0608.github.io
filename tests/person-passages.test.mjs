@@ -87,6 +87,19 @@ test('ancient and foreign Gaozu / Song Taizu titles remain unassigned to the wro
   assert.ok(association('kaoyi-v030-p5', 'liu-zhiyuan'), 'attested 逺 variant');
 });
 
+test('Liao and Wuyue Shizong references do not become Chai Rong records', () => {
+  for (const paragraphId of ['old-v103-p4', 'old-v103-p19', 'kaoyi-v029-p52']) {
+    assert.equal(association(paragraphId, 'chai-rong'), undefined, paragraphId);
+    assert.ok(rules.titleExclusions.some(item => item.paragraphId === paragraphId
+      && item.personId === 'chai-rong' && item.terms.includes('世宗')));
+  }
+  assert.equal(association('old-v103-p4', 'liu-chengyou')?.kind, 'biography');
+  assert.equal(association('old-v103-p4', 'guo-wei')?.kind, 'record');
+  assert.equal(association('old-v113-p12', 'chai-rong')?.kind, 'record', 'Guo Wei succession advice names the real Later Zhou Shizong');
+  assert.equal(association('new-v12-p9', 'chai-rong')?.kind, 'record', 'Chai Zongxun biography names his father Shizong');
+  assert.equal(association('kaoyi-v030-p22', 'chai-rong')?.kind, 'mention', 'Later Zhou Shizong shilu title remains a real citation');
+});
+
 test('summary is derived from shared associations and real book/chapter identifiers', () => {
   const summary = buildPersonPassageSummary(index, library);
   assert.equal(summary.schemaVersion, 1);

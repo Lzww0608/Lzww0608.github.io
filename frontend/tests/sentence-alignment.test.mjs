@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import test from 'node:test';
 import { loadLibrary } from '../../content/library.mjs';
 import { alignSentenceGroups, buildSentenceAlignmentDocuments, sentenceAlignmentsRoot } from '../../scripts/index-sentence-alignments.mjs';
-import { findAlignmentGroup, findSentenceAlignment, hasOuterSentencePunctuation, matchesSentenceAlignment, sliceCodePoints, splitSentenceSpans, validateSentenceAlignmentDocument } from '../src/sentence-alignment.ts';
+import { findAlignmentGroup, findSentenceAlignment, hasOuterSentencePunctuation, matchesPeriodSentenceRanges, matchesSentenceAlignment, sliceCodePoints, splitPeriodSpans, splitSentenceSpans, validateSentenceAlignmentDocument } from '../src/sentence-alignment.ts';
 
 const library = loadLibrary();
 const originals = new Map(library.chapters.flatMap(chapter => chapter.paragraphs.map(paragraph => [paragraph.id, paragraph])));
@@ -12,6 +12,27 @@ const translations = new Map(library.catalog.books.flatMap(book => JSON.parse(re
 const documents = buildSentenceAlignmentDocuments(library);
 const alignments = new Map(documents.flatMap(document => document.paragraphs.map(paragraph => [paragraph.paragraphId, paragraph])));
 const sha256 = text => createHash('sha256').update(text).digest('hex');
+
+test('click units stop at every Chinese full stop, including quotes and editorial notes', () => {
+  const text = '𠮷王曰：「可否？試之。」\n〈注：前事。後事。〉復還。';
+  const spans = splitPeriodSpans(text);
+  assert.deepEqual(spans.map(span => span.text), ['𠮷王曰：「可否？試之。」\n', '〈注：前事。', '後事。〉', '復還。']);
+  assert.equal(spans.map(span => span.text).join(''), text);
+  assert.ok(spans.every(span => (span.text.match(/。/gu) ?? []).length === 1));
+  assert.deepEqual(splitPeriodSpans(''), []);
+});
+
+test('checked click ranges can split merged modern sentences at a clause without merging original full stops', () => {
+  const alignment = alignments.get('old-v053-p8');
+  const original = originals.get(alignment.paragraphId).original;
+  const translation = translations.get(alignment.paragraphId).text;
+  assert.ok(matchesPeriodSentenceRanges(alignment.periodSentences, original, translation));
+  const groups = alignment.periodSentences;
+  const luan = groups.find(group => sliceCodePoints(original, group.originalStart, group.originalEnd) === '武皇蒐於欒城。');
+  const liuli = groups.find(group => sliceCodePoints(original, group.originalStart, group.originalEnd) === '李存信屯琉璃陂。');
+  assert.equal(sliceCodePoints(translation, luan.translationStart, luan.translationEnd), '李克用在栾城集结检阅军队，');
+  assert.equal(sliceCodePoints(translation, liuli.translationStart, liuli.translationEnd), '李存信驻在琉璃陂。');
+});
 
 test('splits on sentence punctuation and preserves every Unicode character, quotes, notes and whitespace', () => {
   const text = '𠮷王曰：「發兵！？」\n〈注：已見前卷。〉後還。無句讀尾';

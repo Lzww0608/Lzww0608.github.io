@@ -66,6 +66,24 @@
   overflow-wrap: anywhere;
 }
 .sentence-translation-popover-body p { margin: 0; line-height: inherit; }
+.sentence-translation-notice {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 14px;
+}
+.sentence-translation-expand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin-top: 10px;
+  padding: 4px 9px;
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 13px;
+}
+.sentence-translation-expand:hover { background: var(--tint); }
 @media (max-width: 560px) {
   .sentence-translation-popover { width: min(360px, calc(100vw - 24px)); }
   .sentence-translation-popover-body { font-size: 15px; }

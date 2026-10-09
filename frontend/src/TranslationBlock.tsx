@@ -3,8 +3,19 @@ import { CaretDown, CaretUp } from '@phosphor-icons/react';
 import type { PublishedTranslation } from './types';
 import { reviewNoteForDisplay } from './translation-display';
 
-export function TranslationBlock({ translation, onEdit }: { translation: PublishedTranslation; onEdit?: () => void }) {
-  const [collapsed, setCollapsed] = useState(true);
+export function TranslationBlock({ translation, onEdit, expanded, onExpandedChange }: {
+  translation: PublishedTranslation;
+  onEdit?: () => void;
+  expanded?: boolean;
+  onExpandedChange?: (expanded: boolean) => void;
+}) {
+  const [localExpanded, setLocalExpanded] = useState(false);
+  const collapsed = !(expanded ?? localExpanded);
+  const toggle = () => {
+    const nextExpanded = collapsed;
+    if (expanded === undefined) setLocalExpanded(nextExpanded);
+    onExpandedChange?.(nextExpanded);
+  };
   const contentId = useId();
   const ToggleIcon = collapsed ? CaretDown : CaretUp;
   const showCredit = translation.origin !== 'ai' && !/\b(?:Codex|ChatGPT|OpenAI)\b/iu.test(translation.translator);
@@ -13,7 +24,7 @@ export function TranslationBlock({ translation, onEdit }: { translation: Publish
       <span>白话译文</span><small>第 {translation.version} 版</small>
       <div className="translation-heading-actions">
         {onEdit && <button type="button" className="translation-edit-button" onClick={onEdit}>修订这段</button>}
-        <button type="button" className="translation-toggle-button" aria-label={`${collapsed ? '展开' : '收起'}白话译文`} aria-expanded={!collapsed} aria-controls={contentId} onClick={() => setCollapsed(value => !value)}>
+        <button type="button" className="translation-toggle-button" aria-label={`${collapsed ? '展开' : '收起'}白话译文`} aria-expanded={!collapsed} aria-controls={contentId} onClick={toggle}>
           <ToggleIcon size={14} aria-hidden="true" />{collapsed ? '展开' : '收起'}
         </button>
       </div>

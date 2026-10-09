@@ -6,7 +6,7 @@ import { useSentenceTranslations } from './use-sentence-translations';
 import './sentence-translation.css';
 
 type SentencePart = ReturnType<typeof useSentenceTranslations>['parts'][number];
-type AvailablePart = SentencePart & { translation: string; kind: 'sentence' | 'group' | 'paragraph' };
+type ClickablePart = SentencePart & { kind: 'sentence' | 'unaligned' };
 interface OpenTranslation {
   partId: string;
   sourceKey: symbol;
@@ -18,14 +18,13 @@ interface OpenTranslation {
 // Paragraphs share one reading popup, including across the two reading views.
 let closeActivePopup: (() => void) | null = null;
 
-function translationLabel(kind: AvailablePart['kind']): string {
-  if (kind === 'sentence') return '对应句译文';
-  if (kind === 'group') return '对应句组译文';
-  return '本段译文';
+function translationLabel(kind: ClickablePart['kind']): string {
+  return kind === 'sentence' ? '对应句译文' : '这句的译文';
 }
 
-function availablePart(part: SentencePart | undefined): part is AvailablePart {
-  return !!part && part.kind !== 'unavailable' && typeof part.translation === 'string' && !!part.translation.trim();
+function clickablePart(part: SentencePart | undefined): part is ClickablePart {
+  return !!part && (part.kind === 'unaligned'
+    || part.kind === 'sentence' && typeof part.translation === 'string' && !!part.translation.trim());
 }
 
 function boundedPosition(anchor: OpenTranslation, width: number, height: number): { left: number; top: number } {
@@ -43,9 +42,10 @@ function boundedPosition(anchor: OpenTranslation, width: number, height: number)
   };
 }
 
-export function SentenceTranslationText({ paragraph, displayedOriginal }: {
+export function SentenceTranslationText({ paragraph, displayedOriginal, onExpandTranslation }: {
   paragraph: ChapterParagraph;
   displayedOriginal: string;
+  onExpandTranslation?: () => void;
 }) {
   const { parts, pending } = useSentenceTranslations(paragraph, displayedOriginal);
   const popupId = useId();
@@ -62,7 +62,7 @@ export function SentenceTranslationText({ paragraph, displayedOriginal }: {
     paragraph.translation?.text, displayedOriginal, pending, parts,
   ]);
   const activePart = open?.sourceKey === sourceKey ? parts.find(part => part.id === open.partId) : undefined;
-  const visible = !!open && availablePart(activePart);
+  const visible = !!open && clickablePart(activePart);
   const close = useCallback(() => {
     setOpen(null);
     if (closeActivePopup === close) closeActivePopup = null;
@@ -121,7 +121,7 @@ export function SentenceTranslationText({ paragraph, displayedOriginal }: {
     };
   }, [visible, close, open?.keyboard]);
 
-  const show = (part: AvailablePart, target: HTMLSpanElement, point?: { x: number; y: number }) => {
+  const show = (part: ClickablePart, target: HTMLSpanElement, point?: { x: number; y: number }) => {
     if (visible && activePart?.id === part.id) {
       close();
       return;
@@ -138,8 +138,8 @@ export function SentenceTranslationText({ paragraph, displayedOriginal }: {
 
   return <>
     {parts.map(part => {
-      if (!availablePart(part)) return <Fragment key={part.id}>{part.original}</Fragment>;
-      const selected = visible && activePart?.groupId === part.groupId;
+      if (!clickablePart(part)) return <Fragment key={part.id}>{part.original}</Fragment>;
+      const selected = visible && activePart?.id === part.id;
       const label = translationLabel(part.kind);
       return <span key={part.id} className="sentence-translation-trigger" role="button" tabIndex={0}
         aria-label={`查看${label}：${part.original}`} aria-haspopup="dialog" aria-expanded={selected}
@@ -160,7 +160,7 @@ export function SentenceTranslationText({ paragraph, displayedOriginal }: {
           show(part, event.currentTarget);
         }}>{part.original}</span>;
     })}
-    {visible && availablePart(activePart) && typeof document !== 'undefined' && createPortal(
+    {visible && clickablePart(activePart) && typeof document !== 'undefined' && createPortal(
       <div id={popupId} ref={popupRef} className="sentence-translation-popover" role="dialog"
         aria-labelledby={headingId} lang={paragraph.translation?.language ?? 'zh-Hans'}
         style={{ left: position.left, top: position.top }}>
@@ -169,7 +169,17 @@ export function SentenceTranslationText({ paragraph, displayedOriginal }: {
           <button ref={closeButtonRef} type="button" className="sentence-translation-close" aria-label="关闭译文"
             onClick={closeAndRestoreFocus}><X size={18} aria-hidden="true" /></button>
         </div>
-        <div className="sentence-translation-popover-body"><p>{activePart.translation}</p></div>
+        <div className="sentence-translation-popover-body">
+          {activePart.kind === 'sentence' ? <p>{activePart.translation}</p> : <>
+            <p className="sentence-translation-notice">{pending
+              ? '正在查找这句的译文…'
+              : '这句尚未完成独立对应，请展开下方白话译文查看。'}</p>
+            {onExpandTranslation && <button type="button" className="sentence-translation-expand" onClick={() => {
+              closeAndRestoreFocus();
+              onExpandTranslation();
+            }}>查看整段译文</button>}
+          </>}
+        </div>
       </div>, document.body,
     )}
   </>;

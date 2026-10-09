@@ -1,12 +1,13 @@
-import { findSentenceAlignment, matchesSentenceAlignment, sliceCodePoints, splitSentenceSpans, validateSentenceAlignmentDocument } from './sentence-alignment.ts';
+import { findSentenceAlignment, matchesSentenceAlignment, sliceCodePoints, splitPeriodSpans, splitSentenceSpans, validateSentenceAlignmentDocument } from './sentence-alignment.ts';
 import type { SentenceAlignmentDocument, SentenceAlignmentParagraph } from './sentence-alignment.ts';
+import { originalTextTag } from './reading-headings.ts';
 import type { ChapterParagraph } from './types.ts';
 
 export interface SentenceTranslationPart {
   id: string;
   original: string;
   translation: string | null;
-  kind: 'sentence' | 'group' | 'paragraph' | 'unavailable';
+  kind: 'sentence' | 'unaligned' | 'unavailable';
   groupId: string;
 }
 
@@ -18,22 +19,28 @@ function chapterIdForParagraph(id: string): string | null {
 }
 
 function displayedSpans(paragraph: ChapterParagraph, displayedOriginal: string) {
-  const canonical = splitSentenceSpans(paragraph.original);
-  const displayed = splitSentenceSpans(displayedOriginal);
+  const canonical = splitPeriodSpans(paragraph.original);
+  const displayed = splitPeriodSpans(displayedOriginal);
   if (canonical.length !== displayed.length) {
-    return [{ start: 0, end: Array.from(paragraph.original).length, text: displayedOriginal }];
+    return [{ start: 0, end: Array.from(paragraph.original).length, text: displayedOriginal, clickable: false }];
   }
-  return canonical.map((span, index) => ({ ...span, text: displayed[index]?.text ?? span.text }));
+  const heading = originalTextTag(paragraph) !== 'p';
+  return canonical.map((span, index) => ({ ...span, text: displayed[index]?.text ?? span.text, clickable: span.text.includes('。') || heading }));
 }
 
 export function paragraphTranslationParts(paragraph: ChapterParagraph, displayedOriginal: string): SentenceTranslationPart[] {
-  return displayedSpans(paragraph, displayedOriginal).map((span, index) => ({
-    id: `${paragraph.id}-sentence-${index}`,
-    original: span.text,
-    translation: paragraph.translation?.text ?? null,
-    kind: paragraph.translation ? 'paragraph' : 'unavailable',
-    groupId: `${paragraph.id}-paragraph`,
-  }));
+  const spans = displayedSpans(paragraph, displayedOriginal);
+  return spans.map((span, index) => {
+    const id = `${paragraph.id}-sentence-${index}`;
+    const available = span.clickable && !!paragraph.translation;
+    const singleSentence = available && spans.length === 1;
+    return {
+      id, original: span.text,
+      translation: singleSentence ? paragraph.translation!.text : null,
+      kind: singleSentence ? 'sentence' : available ? 'unaligned' : 'unavailable',
+      groupId: id,
+    };
+  });
 }
 
 function validRanges(alignment: SentenceAlignmentParagraph, paragraph: ChapterParagraph): boolean {
@@ -95,15 +102,22 @@ export async function readSentenceTranslationParts({ paragraph, displayedOrigina
   catch { return fallback; }
   signal?.throwIfAborted();
   return displayedSpans(paragraph, displayedOriginal).map((span, index) => {
-    const groupIndex = alignment.groups.findIndex(group => group.originalStart <= span.start && group.originalEnd >= span.end);
-    const group = alignment.groups[groupIndex];
-    if (!group || !paragraph.translation) return fallback[index] ?? fallback[0]!;
+    if (!span.clickable) return fallback[index] ?? fallback[0]!;
+    const explicit = alignment.periodSentences?.find(sentence => sentence.originalStart === span.start && sentence.originalEnd === span.end);
+    const groups = alignment.groups.filter(group => group.originalStart < span.end && group.originalEnd > span.start);
+    const first = groups[0];
+    const last = groups.at(-1);
+    const exact = first?.originalStart === span.start && last?.originalEnd === span.end;
+    if ((!explicit && !exact) || !paragraph.translation) return fallback[index] ?? fallback[0]!;
+    const translationStart = explicit?.translationStart ?? first!.translationStart;
+    const translationEnd = explicit?.translationEnd ?? last!.translationEnd;
+    const id = `${paragraph.id}-sentence-${index}`;
     return {
-      id: `${paragraph.id}-sentence-${index}`,
+      id,
       original: span.text,
-      translation: sliceCodePoints(paragraph.translation.text, group.translationStart, group.translationEnd),
-      kind: group.kind,
-      groupId: `${paragraph.id}-group-${groupIndex}`,
+      translation: sliceCodePoints(paragraph.translation.text, translationStart, translationEnd),
+      kind: 'sentence',
+      groupId: id,
     };
   });
 }
