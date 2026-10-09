@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight } from '@phosphor-icons/react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, CaretDown } from '@phosphor-icons/react';
 import { libraryBooks, libraryChapters } from './library';
 import { loadPersonPassages } from './person-passages-api';
 import { OriginalParagraph } from './OriginalParagraph';
@@ -159,10 +159,13 @@ export function PersonPassages({ person, book, go, onReadSource }: {
       </header>
       <div className="passages-selection">
         <label htmlFor="person-passage-book">文献</label>
-        <select id="person-passage-book" value={book?.id ?? ''} onChange={event => switchBook(event.target.value)}>
-          <option value="">全部文献</option>
-          {libraryBooks.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}
-        </select>
+        <div className="passages-book-select">
+          <select id="person-passage-book" value={book?.id ?? ''} onChange={event => switchBook(event.target.value)}>
+            <option value="">全部文献</option>
+            {libraryBooks.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}
+          </select>
+          <CaretDown size={16} aria-hidden="true" focusable="false" />
+        </div>
         <p>仅汇总当前文库收录范围内已核对的记载。</p>
       </div>
       <div className="reader-toolbar passages-toolbar">

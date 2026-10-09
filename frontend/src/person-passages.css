@@ -5,7 +5,9 @@
 .passages-heading > button { flex-shrink: 0; }
 .passages-selection { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
 .passages-selection label { font-family: var(--serif); font-size: 17px; }
-.passages-selection select { min-height: 42px; max-width: 100%; padding: 8px 35px 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 14px; }
+.passages-book-select { position: relative; display: inline-flex; flex: 0 1 auto; min-width: 0; max-width: 100%; }
+.passages-book-select select { appearance: none; -webkit-appearance: none; display: block; min-height: 42px; min-width: 0; max-width: 100%; padding: 8px 40px 8px 12px; border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--ink); font-size: 14px; text-align: left; }
+.passages-book-select > svg { position: absolute; top: 50%; right: 12px; transform: translateY(-50%); color: var(--ink); pointer-events: none; }
 .passages-selection p { color: var(--muted); font-size: 12px; margin-left: auto; }
 .person-passages .passages-toolbar { margin-bottom: 24px; }
 .person-passages .passages-font-controls { gap: 14px; }
