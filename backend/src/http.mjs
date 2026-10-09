@@ -26,6 +26,11 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
       if (!['GET', 'HEAD'].includes(req.method)) return send(405, { error: 'method_not_allowed' });
       if (path === '/api/health') return send(200, await repository.health());
       if (path === '/api/books') return send(200, { books: await repository.books() });
+      const sentences = path.match(/^\/api\/chapters\/([a-z0-9-]+)\/sentence-translations$/);
+      if (sentences) {
+        const result = await repository.sentenceTranslations(sentences[1]);
+        return result ? send(200, result) : send(404, { error: 'not_found' });
+      }
       const personPassages = path.match(/^\/api\/people\/([a-z0-9-]+)\/passages$/);
       if (personPassages) {
         const options = parsePersonPassagePagination(url.searchParams);

@@ -1,6 +1,8 @@
 import { findSentenceAlignment, matchesSentenceAlignment, sliceCodePoints, splitPeriodSpans, splitSentenceSpans, validateSentenceAlignmentDocument } from './sentence-alignment.ts';
 import type { SentenceAlignmentDocument, SentenceAlignmentParagraph } from './sentence-alignment.ts';
 import { originalTextTag } from './reading-headings.ts';
+import { parsePublishedSentenceTranslations, currentPublishedSentenceTranslations } from './published-sentence-translations.ts';
+import type { PublishedSentenceTranslationDocument } from './published-sentence-translations.ts';
 import type { ChapterParagraph } from './types.ts';
 
 export interface SentenceTranslationPart {
@@ -9,10 +11,12 @@ export interface SentenceTranslationPart {
   translation: string | null;
   kind: 'sentence' | 'unaligned' | 'unavailable';
   groupId: string;
+  reviewNotes?: string[];
 }
 
 type Fetcher = typeof fetch;
 const caches = new WeakMap<Fetcher, Map<string, Promise<SentenceAlignmentDocument | null>>>();
+const supplementCaches = new WeakMap<Fetcher, Map<string, Promise<PublishedSentenceTranslationDocument | null>>>();
 
 function chapterIdForParagraph(id: string): string | null {
   return /^(\w+-v\d+)-p\d+$/.exec(id)?.[1] ?? null;
@@ -82,10 +86,43 @@ async function readIndex(url: string, fetcher: Fetcher): Promise<SentenceAlignme
   return pending;
 }
 
-export async function readSentenceTranslationParts({ paragraph, displayedOriginal, archiveBase = '/', fetcher = fetch, signal }: {
+async function readSupplements(chapterId: string, archiveBase: string, apiBase: string, fetcher: Fetcher) {
+  let cache = supplementCaches.get(fetcher);
+  if (!cache) { cache = new Map(); supplementCaches.set(fetcher, cache); }
+  const key = `${apiBase}|${archiveBase}|${chapterId}`;
+  let pending = cache.get(key);
+  if (!pending) {
+    pending = (async () => {
+      const archive = fetcher(`${archiveBase.replace(/\/$/, '')}/history/sentence-translations/${chapterId}.json`,
+        { credentials: 'omit', signal: AbortSignal.timeout(10000) })
+        .then(async response => response.ok ? parsePublishedSentenceTranslations(await response.json()) : null).catch(() => null);
+      if (apiBase) {
+        try {
+          const response = await fetcher(`${apiBase.replace(/\/$/, '')}/api/chapters/${chapterId}/sentence-translations`,
+            { credentials: 'omit', signal: AbortSignal.timeout(6000) });
+          // Successful publication suspension or malformed public data is authoritative.
+          // An archived old supplement must never replace that response.
+          if (response.ok) {
+            const current = parsePublishedSentenceTranslations(await response.json().catch(() => null));
+            return current?.chapterId === chapterId ? current : null;
+          }
+        } catch { /* Offline reading retains the version-bound published archive. */ }
+      }
+      const saved = await archive;
+      return saved?.chapterId === chapterId ? saved : null;
+    })();
+    cache.set(key, pending);
+    const currentCache = cache, request = pending;
+    void pending.then(document => { if (!document && currentCache.get(key) === request) currentCache.delete(key); });
+  }
+  return pending;
+}
+
+export async function readSentenceTranslationParts({ paragraph, displayedOriginal, archiveBase = '/', apiBase = '', fetcher = fetch, signal }: {
   paragraph: ChapterParagraph;
   displayedOriginal: string;
   archiveBase?: string;
+  apiBase?: string;
   fetcher?: Fetcher;
   signal?: AbortSignal;
 }): Promise<SentenceTranslationPart[]> {
@@ -100,9 +137,17 @@ export async function readSentenceTranslationParts({ paragraph, displayedOrigina
   if (!alignment || !validRanges(alignment, paragraph)) return fallback;
   try { if (!await matchesSentenceAlignment(alignment, paragraph)) return fallback; }
   catch { return fallback; }
+  const published = alignment.supplementalTranslations
+    ? await readSupplements(chapterId, archiveBase, apiBase, fetcher) : null;
+  const supplements = published ? await currentPublishedSentenceTranslations(published, paragraph, alignment.supplementalTranslations ?? []) : [];
   signal?.throwIfAborted();
   return displayedSpans(paragraph, displayedOriginal).map((span, index) => {
     if (!span.clickable) return fallback[index] ?? fallback[0]!;
+    const supplement = supplements.find(entry => entry.originalStart === span.start && entry.originalEnd === span.end);
+    if (supplement) {
+      const id = `${paragraph.id}-sentence-${index}`;
+      return { id, original: span.text, translation: supplement.text, kind: 'sentence', groupId: id, reviewNotes: supplement.reviewNotes };
+    }
     const explicit = alignment.periodSentences?.find(sentence => sentence.originalStart === span.start && sentence.originalEnd === span.end);
     const groups = alignment.groups.filter(group => group.originalStart < span.end && group.originalEnd > span.start);
     const first = groups[0];

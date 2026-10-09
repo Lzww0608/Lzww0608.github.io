@@ -1,6 +1,6 @@
 # 中国古代史 · Mac 内容服务
 
-GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL、公开只读 API 和受密码保护的译文校订入口；Tailscale Funnel 提供固定 HTTPS 入口。当前公开原文归档共9部史料、178篇、7,870段：旧史77篇、1,485段，新史23篇、782段，其余为《资治通鉴》五代选卷及笔记、典章和考异。选卷不等于旧史150卷或新史74卷全本，完整卷保留其他人物、后嗣及校勘。
+GitHub Pages 提供网站页面，这台 Mac 提供 PostgreSQL、公开只读 API 和受密码保护的译文校订入口；Tailscale Funnel 提供固定 HTTPS 入口。当前公开原文归档共9部史料、183篇、7,934段：旧史82篇、1,549段，新史23篇、782段，其余为《资治通鉴》五代选卷及笔记、典章和考异。选卷不等于旧史150卷或新史74卷全本，完整卷保留其他人物、后嗣及校勘。
 
 本轮李克用将领专题38人、24新增及14复用身份，统一目录102人。追加旧史卷15、61、65共59段文白内容，按582个原文单位核对后拼成完整段落，已在独立恢复库验证同批次原子导入后授权正式发布与导出。正式库共9部史料、180个章节、7,874段原文、7,870条已发布译文，包含原有两个兼容节选章节和四段原文。此前350份来源／正文文件和六个既有原文／译文身份表的校验均不变；校订历史和兼容记录保留。静态副本更新仍需构建、部署与线上验证。
 
@@ -107,7 +107,7 @@ npm run translations:export -- chunqiu
 npm run translations:export -- new
 ```
 
-当前公开副本位于 `content/published-translations/`：`chunqiu.json`（76 条）、`new.json`（782 条）、`quewen.json`（44 条）、`shibu.json`（214 条）、`beimeng.json`（147 条）、`kaoyi.json`（178 条）、`old.json`（1,485 条）、`huiyao.json`（1,922 条）及 `tongjian.json`（3,022 条）；合计 7,870 条，每条均保留来源、译文版本、原文修订绑定及校核提示。导出后仍需构建、部署前端，才能更新 API 离线时所用的副本。
+当前公开副本位于 `content/published-translations/`：`chunqiu.json`（76 条）、`new.json`（782 条）、`quewen.json`（44 条）、`shibu.json`（214 条）、`beimeng.json`（147 条）、`kaoyi.json`（178 条）、`old.json`（1,549 条）、`huiyao.json`（1,922 条）及 `tongjian.json`（3,022 条）；合计 7,934 条，每条均保留来源、译文版本、原文修订绑定及校核提示。导出后仍需构建、部署前端，才能更新 API 离线时所用的副本。
 
 首批试译文件均在 Git 忽略的 `.local/translations/2026-10-07-chunqiu/`：
 
@@ -140,6 +140,7 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 | `GET /api/health` | API 与数据库状态 |
 | `GET /api/books` | 已发布书籍 |
 | `GET /api/books/old/chapters` | 已发布章节目录 |
+| `GET /api/chapters/new-v46/sentence-translations` | 仍匹配当前原文与最新已发布全文的独立句译；空结果表示暂停 |
 | `GET /api/chapters/old-v110` | 原文、匹配修订的已发布译文、来源与阅读提示 |
 | `GET /api/people/zhu-wen/passages?bookId=new&limit=50&cursor=0` | 当前归档内的人物片段、来源、已发布译文与分页统计 |
 | `GET /api/passages/passage-new-v01-p2` | 单个可见片段及关联人物 |
@@ -169,3 +170,11 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 固定地址保存在 `frontend/.env.production`，开发使用 `frontend/.env.development`。这些值是公开地址，不是凭据。切换设备或重命名 Tailscale 主机、网络后，需要更新生产地址并重新部署前端。
 
 Tailscale Funnel 当前是测试功能且存在带宽限制，适用于 demo 和少量访问；实际运行情况见 `SETUP-RESULT.md`。官方说明：[Funnel](https://tailscale.com/docs/features/tailscale-funnel)、[后台运行与重启恢复](https://tailscale.com/docs/reference/tailscale-cli/funnel#effects-of-rebooting-and-restarting)。
+
+## 独立句译维护
+
+全文译文保持现有版本记录。逐句范围仅在语义核对后写入 `content/sentence-alignments/period-overrides/`；无法连续截取的诗文解释、断开的夹注等，通过独立 `sentence_translations` 表保存补译，绑定原文修订／SHA-256、原句范围及全文译文 ID／版本／SHA-256。公开接口由只读账户查询，校订账户不获该表权限；完整译文变化后旧句译自动暂停。真实来源及审核状态保留，公开页面沿用“白话译文”标签。
+
+先备份，并在独立恢复库验证批次与旧行完整性，再用 `npm run sentences:import -- /absolute/path/private-batch.json` 导入草稿；经用户授权的发布批次追加 `--publish`。相同批次重跑幂等，版本不符整批回滚，正文变化须新版本。`npm run sentences:export` 仅导出当前已发布且版本匹配的副本，清理失效的旧导出；不改全文副本或原文。新建表或接口后重启 API 服务，普通内容发布无需重启。
+
+导出后重新生成句译索引，并在前端运行 `npm run build`（含全站 `test:sentence-coverage`）、`npm test` 和 `npm run test:sites`，然后部署并在线核对。全覆盖仅指当前归档内可点击句号单位；无句号普通尾文不伪造点击译文。

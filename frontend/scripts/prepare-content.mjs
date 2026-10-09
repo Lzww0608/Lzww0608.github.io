@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { loadLibrary, libraryRoot } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { loadPersonPassageIndex, buildPersonPassageSummary } from '../../content/person-passages.mjs';
+import { loadPublishedSentenceTranslations } from '../../content/sentence-translations.mjs';
 import { writeFileSync } from 'node:fs';
 
 const library = loadLibrary();
@@ -17,12 +18,16 @@ const target = new URL('../public/history/', import.meta.url);
 rmSync(target, { recursive: true, force: true });
 mkdirSync(new URL('chapters/', target), { recursive: true });
 mkdirSync(new URL('sentence-alignments/', target), { recursive: true });
+mkdirSync(new URL('sentence-translations/', target), { recursive: true });
 copyFileSync(new URL('catalog.json', libraryRoot), new URL('catalog.json', target));
 for (const chapter of chapters) {
   writeFileSync(new URL(`chapters/${chapter.id}.json`, target), JSON.stringify(chapter, null, 2)+'\n');
   copyFileSync(new URL(`../../content/sentence-alignments/chapters/${chapter.id}.json`, import.meta.url), new URL(`sentence-alignments/${chapter.id}.json`, target));
 }
 writeFileSync(new URL('person-passages.json', target), JSON.stringify(passages)+'\n');
+for (const document of loadPublishedSentenceTranslations(chapters)) {
+  writeFileSync(new URL(`sentence-translations/${document.chapterId}.json`, target), JSON.stringify(document, null, 2)+'\n');
+}
 writeFileSync(new URL('../src/person-passage-summary.json', import.meta.url), JSON.stringify(buildPersonPassageSummary(passages,library),null,2)+'\n');
 console.log(`Prepared ${catalog.chapters.length} full chapters for local website reading.`);
 console.log(`Prepared ${passages.passages.length} shared person passages.`);

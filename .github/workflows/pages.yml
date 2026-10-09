@@ -10,6 +10,7 @@ on:
       - 'scripts/index-reading-headings.py'
       - 'scripts/index-person-passages.mjs'
       - 'scripts/index-sentence-alignments.mjs'
+      - 'scripts/check-sentence-coverage.mjs'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 

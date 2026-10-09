@@ -88,3 +88,12 @@
   .sentence-translation-popover { width: min(360px, calc(100vw - 24px)); }
   .sentence-translation-popover-body { font-size: 15px; }
 }
+
+.sentence-translation-review-notes {
+  margin-top: 1rem;
+  padding-top: .8rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .85em;
+}
+.sentence-translation-review-notes ul { padding-left: 1.2em; margin: .45em 0 0; }

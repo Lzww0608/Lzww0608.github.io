@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { loadLibrary } from '../content/library.mjs';
+import { loadPublishedSentenceTranslations } from '../content/sentence-translations.mjs';
 import { simplifyOriginal } from '../frontend/src/script-converter.ts';
 import { hasOuterSentencePunctuation, matchesPeriodSentenceRanges, splitSentenceSpans, validateSentenceAlignmentDocument } from '../frontend/src/sentence-alignment.ts';
 
@@ -136,6 +137,11 @@ export function alignSentenceGroups(original, translation, overrideCounts, force
 }
 
 export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
+  const supplements = new Map();
+  for (const document of loadPublishedSentenceTranslations()) for (const entry of document.entries) {
+    const ids = supplements.get(entry.paragraphId) ?? [];
+    ids.push({id:entry.id, version:entry.version, textSha256:entry.textSha256}); supplements.set(entry.paragraphId, ids);
+  }
   const published = new Map();
   for (const book of library.catalog.books) {
     const snapshot = JSON.parse(readFileSync(new URL(`${book.id}.json`, translationsRoot), 'utf8'));
@@ -196,6 +202,7 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
         translationSha256,
         groups: alignSentenceGroups(paragraph.original, translation.text, override?.sentenceCounts, override?.mode === 'paragraph'),
         ...(periodOverride ? { periodSentences: periodOverride.sentences } : {}),
+        ...(supplements.has(paragraph.id) ? { supplementalTranslations: supplements.get(paragraph.id) } : {}),
       };
     }),
   }));

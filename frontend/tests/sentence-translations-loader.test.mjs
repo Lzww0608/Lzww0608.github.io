@@ -170,3 +170,18 @@ test('an oversized period range is rejected instead of restoring a broad paragra
   const parts = await readSentenceTranslationParts(options(paragraph, async () => Response.json(document)));
   assert.ok(parts.every(part => part.kind === 'unaligned' && part.translation === null));
 });
+
+test('the reported New History foreign-envoy sentence has its own translation', async () => {
+  const chapter=loadPublishedChapters(loadLibrary()).find(c=>c.id==='new-v06');
+  const p=chapter.paragraphs.find(p=>p.id==='new-v06-p16');
+  const document=JSON.parse(readFileSync(new URL('../../content/sentence-alignments/chapters/new-v06.json',import.meta.url)));
+  const parts=await readSentenceTranslationParts(options(p,async()=>Response.json(document)));
+  const part=parts.find(part=>part.original.includes('列六'));
+  assert.equal(part.kind,'sentence');assert.equal(part.translation,'庚辰，达靼派列六薛娘居前来。');
+});
+test('cross-review regressions keep a complete predicate and the next sentence’s question in their own units', async()=>{
+  const chapters=loadPublishedChapters(loadLibrary());
+  const load=async(chapterId,paragraphId)=>{const p=chapters.find(c=>c.id===chapterId).paragraphs.find(p=>p.id===paragraphId);const d=JSON.parse(readFileSync(new URL(`../../content/sentence-alignments/chapters/${chapterId}.json`,import.meta.url)));return readSentenceTranslationParts(options(p,async()=>Response.json(d)));};
+  const old=await load('old-v078','old-v078-p2');assert.equal(old[9].translation,'若剪裁其中的文字，就会使记载不完备；');assert.match(old[10].translation,/^记载不完备便会引发争论/);
+  const shibu=await load('shibu-v002','shibu-v002-p14');assert.doesNotMatch(shibu[5].translation,/疑惑|老妇答/);assert.match(shibu[6].translation,/^高季兴疑惑，问她原因。老妇答/);
+});

@@ -20,7 +20,9 @@
     "translations:publish-ai": "node scripts/publish-ai-batch.mjs",
     "translations:export": "node scripts/export-published-translations.mjs",
     "editor:setup": "node scripts/setup-editor.mjs",
-    "passages:import": "node scripts/import-person-passages.mjs"
+    "passages:import": "node scripts/import-person-passages.mjs",
+    "sentences:import": "node scripts/import-sentence-translations.mjs",
+    "sentences:export": "node scripts/export-sentence-translations.mjs"
   },
   "dependencies": {
     "pg": "^8.16.3"

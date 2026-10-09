@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { X } from '@phosphor-icons/react';
 import type { ChapterParagraph } from './types';
 import { useSentenceTranslations } from './use-sentence-translations';
+import { reviewNoteForDisplay } from './translation-display';
 import './sentence-translation.css';
 
 type SentencePart = ReturnType<typeof useSentenceTranslations>['parts'][number];
@@ -170,7 +171,12 @@ export function SentenceTranslationText({ paragraph, displayedOriginal, onExpand
             onClick={closeAndRestoreFocus}><X size={18} aria-hidden="true" /></button>
         </div>
         <div className="sentence-translation-popover-body">
-          {activePart.kind === 'sentence' ? <p>{activePart.translation}</p> : <>
+          {activePart.kind === 'sentence' ? <>
+            <p>{activePart.translation}</p>
+            {!!activePart.reviewNotes?.length && <div className="sentence-translation-review-notes">
+              <span>校核提示</span><ul>{activePart.reviewNotes.map((note, index) => <li key={index}>{reviewNoteForDisplay(note)}</li>)}</ul>
+            </div>}
+          </> : <>
             <p className="sentence-translation-notice">{pending
               ? '正在查找这句的译文…'
               : '这句尚未完成独立对应，请展开下方白话译文查看。'}</p>

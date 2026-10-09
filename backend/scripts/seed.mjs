@@ -9,6 +9,7 @@ import { adminDatabase } from './runtime.mjs';
 export async function seed(client) {
   await client.query(readFileSync(new URL('../db/001-initial.sql', import.meta.url), 'utf8'));
   await client.query(readFileSync(new URL('../db/002-translation-metadata.sql', import.meta.url), 'utf8'));
+  await client.query(readFileSync(new URL('../db/005-sentence-translations.sql', import.meta.url), 'utf8'));
   await ensurePersonPassageSchema(client);
   for (const book of books) {
     await client.query('INSERT INTO books (id,title,author,description,source_url,published) VALUES ($1,$2,$3,$4,$5,true) ON CONFLICT DO NOTHING', [book.id, book.title, book.author, book.description, book.url]);

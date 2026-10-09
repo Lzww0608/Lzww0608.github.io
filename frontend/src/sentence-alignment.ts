@@ -15,6 +15,8 @@ export interface PeriodSentenceAlignment {
   translationEnd: number;
 }
 
+export interface PublishedSentenceReference { id: string; version: number; textSha256: string }
+
 export interface SentenceAlignmentParagraph {
   paragraphId: string;
   originalRevision: number;
@@ -24,6 +26,7 @@ export interface SentenceAlignmentParagraph {
   translationSha256: string;
   groups: SentenceAlignmentGroup[];
   periodSentences?: PeriodSentenceAlignment[];
+  supplementalTranslations?: PublishedSentenceReference[];
 }
 
 export interface SentenceAlignmentDocument {
@@ -161,6 +164,13 @@ export function validateSentenceAlignmentDocument(input: unknown): SentenceAlign
         targetEnd = sentence.translationEnd;
       }
       requireValue(sourceEnd === originalEnd && targetEnd === translationEnd, `period extent ${paragraph.paragraphId}`);
+    }
+    if (paragraph.supplementalTranslations !== undefined) {
+      requireValue(Array.isArray(paragraph.supplementalTranslations) && paragraph.supplementalTranslations.length > 0
+        && paragraph.supplementalTranslations.length <= 4096
+        && paragraph.supplementalTranslations.every(ref => record(ref) && typeof ref.id === 'string' && /^sentence-[a-z0-9-]+$/.test(ref.id) && positiveInteger(ref.version) && checksum(ref.textSha256))
+        && new Set(paragraph.supplementalTranslations.map(ref => (ref as Record<string, unknown>).id)).size === paragraph.supplementalTranslations.length,
+      `published sentence references ${paragraph.paragraphId}`);
     }
   }
   return input as unknown as SentenceAlignmentDocument;

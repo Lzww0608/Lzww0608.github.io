@@ -1,9 +1,11 @@
 import { createPersonPassagesRepository } from './person-passages.mjs';
+import { createSentenceTranslationsRepository } from './sentence-translations.mjs';
 import { publicParagraphJson, latestPublishedTranslationJoin } from './public-paragraph-sql.mjs';
 export function createRepository(pool) {
   const publicChapter = `FROM chapters c JOIN editions e ON e.id=c.edition_id JOIN books b ON b.id=e.book_id WHERE c.published AND b.published`;
   return {
     ...createPersonPassagesRepository(pool),
+    ...createSentenceTranslationsRepository(pool),
     async health() { await pool.query('SELECT 1'); return { status: 'ok', database: 'ok' }; },
     async books() {
       const { rows } = await pool.query(`SELECT b.id, b.title, b.author, b.description, b.source_url AS "sourceUrl", count(c.id)::int AS "chapterCount" FROM books b LEFT JOIN editions e ON e.book_id=b.id LEFT JOIN chapters c ON c.edition_id=e.id AND c.published WHERE b.published GROUP BY b.id ORDER BY b.id`);

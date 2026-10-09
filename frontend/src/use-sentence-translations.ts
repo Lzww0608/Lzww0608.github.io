@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { paragraphTranslationParts, readSentenceTranslationParts } from './sentence-translations-loader';
 import type { SentenceTranslationPart } from './sentence-translations-loader';
 import type { ChapterParagraph } from './types';
+import { historyApiBase } from './history-api';
 
 interface LoadedParts {
   paragraphId: string;
@@ -28,7 +29,7 @@ export function useSentenceTranslations(paragraph: ChapterParagraph, displayedOr
       paragraphId: paragraph.id, revision: paragraph.revision, original: paragraph.original,
       translationId, translationVersion, translationText, displayedOriginal,
     };
-    readSentenceTranslationParts({ paragraph, displayedOriginal, archiveBase: import.meta.env.BASE_URL, signal: controller.signal })
+    readSentenceTranslationParts({ paragraph, displayedOriginal, archiveBase: import.meta.env.BASE_URL, apiBase: historyApiBase, signal: controller.signal })
       .then(parts => { if (!controller.signal.aborted) setLoaded({ ...binding, parts }); })
       .catch(() => { if (!controller.signal.aborted) setLoaded({ ...binding, parts: fallback }); });
     return () => controller.abort();
