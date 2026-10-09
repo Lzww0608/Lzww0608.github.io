@@ -76,6 +76,707 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
   {
+    "id": "li-hanzhi-wang-jianji-adoption",
+    "from": "li-hanzhi",
+    "to": "wang-jianji",
+    "kind": "adoption",
+    "label": "养子",
+    "note": "《资治通鉴》记王建及为李罕之假子；赐李姓、典义儿军不能据此改称李克用养子。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p128",
+        "title": "《资治通鉴》卷267",
+        "excerpt": "建及，許州人，姓王，李罕之之假子也。"
+      }
+    ]
+  },
+  // Li Keyong military service and separately evidenced family / transfer facts.
+  {
+    "id": "li-keyong-li-siyuan-service",
+    "from": "li-keyong",
+    "to": "li-siyuan",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，统领亲骑与横冲都",
+    "sources": [
+      {
+        "chapterId": "old-v035",
+        "paragraphId": "old-v035-p2",
+        "title": "《旧五代史》卷 35 · 唐明宗纪1",
+        "excerpt": "武皇鎮河東，以帝掌親騎。時李存信為蕃漢大將，每總兵征討，師多不利，武皇遂選帝副之，所向克捷。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-cunxin-service",
+    "from": "li-keyong",
+    "to": "li-cunxin",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，河东蕃汉都将",
+    "sources": [
+      {
+        "chapterId": "old-v053",
+        "paragraphId": "old-v053-p2",
+        "title": "《旧五代史》卷 53 · 唐列传（李存信、李存孝等）",
+        "excerpt": "大順二年，武皇大舉略地山東，以存信為蕃漢馬步都校，"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-cunjin-service",
+    "from": "li-keyong",
+    "to": "li-cunjin",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，义儿军将领",
+    "sources": [
+      {
+        "chapterId": "old-v053",
+        "paragraphId": "old-v053-p10",
+        "title": "《旧五代史》卷 53 · 唐列传（李存信、李存孝等）",
+        "excerpt": "重進初仕嵐州刺史湯群為部校，獻祖誅群，乃事武皇。從入關，還鎮太原，署牙職。景福中，為義兒軍使，賜姓名。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-siben-service",
+    "from": "li-keyong",
+    "to": "li-siben",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，义儿军、威远军将领",
+    "sources": [
+      {
+        "chapterId": "old-v052",
+        "paragraphId": "old-v052-p21",
+        "title": "《旧五代史》卷 52 · 唐列传（李嗣昭、李嗣本、李嗣恩等）",
+        "excerpt": "嗣本少事武皇，為帳中紀綱，漸立戰功，得補軍校。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-sien-service",
+    "from": "li-keyong",
+    "to": "li-sien",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，铁林军、突阵军将领",
+    "sources": [
+      {
+        "chapterId": "old-v052",
+        "paragraphId": "old-v052-p23",
+        "title": "《旧五代史》卷 52 · 唐列传（李嗣昭、李嗣本、李嗣恩等）",
+        "excerpt": "年十五，能騎射，侍武皇於振武；及鎮太原，補鐵林軍小校。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-cunzhang-service",
+    "from": "li-keyong",
+    "to": "li-cunzhang",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，统领义儿军",
+    "sources": [
+      {
+        "chapterId": "old-v053",
+        "paragraphId": "old-v053-p16",
+        "title": "《旧五代史》卷 53 · 唐列传（李存信、李存孝等）",
+        "excerpt": "武皇初起雲中，存璋與康君立、薛志勤等為奔走交，從入關，以功授國子祭酒，累管萬勝、雄威等軍。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-cunxian-service",
+    "from": "li-keyong",
+    "to": "li-cunxian",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，义儿军将领",
+    "sources": [
+      {
+        "chapterId": "old-v053",
+        "paragraphId": "old-v053-p19",
+        "title": "《旧五代史》卷 53 · 唐列传（李存信、李存孝等）",
+        "excerpt": "武皇破賊陳、許，存賢來歸。景福中，典義兒軍，為副兵馬使，因賜姓名。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-cunxiao-service",
+    "from": "li-keyong",
+    "to": "li-cunxiao",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用养子，前锋骑将",
+    "sources": [
+      {
+        "chapterId": "new-v36",
+        "paragraphId": "new-v36-p19",
+        "title": "《新五代史》卷 36 · 义儿传（李嗣昭等，附康君立）",
+        "excerpt": "太祖掠地代北得之，給事帳中，賜姓名，以為子，常從為騎將。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-yang-shihou-service",
+    "from": "li-keyong",
+    "to": "yang-shihou",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "早年随李罕之入李克用军，后转仕朱温；未以梁时战功回填晋时经历",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p2",
+        "title": "《新五代史》卷 23 · 梁臣传",
+        "excerpt": "少事河陽李罕之，罕之降晉，選其麾下勁卒百人獻于晉王，師厚在籍中。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-zhou-dewei-service",
+    "from": "li-keyong",
+    "to": "zhou-dewei",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用骑将，后辅佐李存勖",
+    "sources": [
+      {
+        "chapterId": "old-v056",
+        "paragraphId": "old-v056-p2",
+        "title": "旧五代史·周德威相关记载",
+        "excerpt": "初事武皇為帳中騎督，驍勇，便騎射，膽氣智數皆過人。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-xue-zhiqin-service",
+    "from": "li-keyong",
+    "to": "xue-zhiqin",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用亲将，参与早年起兵",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p4",
+        "title": "旧五代史·薛志勤相关记载",
+        "excerpt": "武皇授節雁門，誌勤領代北軍使；從入關，收京城，以功授檢校工部尚書、河東右都押牙、先鋒右軍使。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-shi-jiantang-service",
+    "from": "li-keyong",
+    "to": "shi-jiantang",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，后辅佐李存勖",
+    "sources": [
+      {
+        "chapterId": "new-v25",
+        "paragraphId": "new-v25-p25",
+        "title": "新五代史·史建瑭相关记载",
+        "excerpt": "建瑭少事軍中為裨校，自晉降丁會，與梁相距於潞州，建瑭已為晉兵先鋒。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-chengsi-service",
+    "from": "li-keyong",
+    "to": "li-chengsi",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用骑将，后留仕淮南",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p9",
+        "title": "旧五代史·李承嗣相关记载",
+        "excerpt": "中和二年，從武皇討賊關輔，為前鋒。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-shi-yan-service",
+    "from": "li-keyong",
+    "to": "shi-yan",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用亲将，后留仕淮南",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p12",
+        "title": "旧五代史·史俨相关记载",
+        "excerpt": "以便騎射給事於武皇。為帳中親將，驍果絕眾，善擒生設伏，望塵揣敵，所向皆捷。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-gai-yu-service",
+    "from": "li-keyong",
+    "to": "gai-yu",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用亲信军将，兼参军府谋议",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p13",
+        "title": "旧五代史·盖寓相关记载",
+        "excerpt": "武皇節制雁門，署職為都押牙，領嵐州刺史。洎移鎮太原，改左都押牙、檢校左僕射。武皇與之決事，言無不從，凡出征伐，靡不衛從。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-yi-guang-service",
+    "from": "li-keyong",
+    "to": "yi-guang",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用牙将，兼任使节",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p15",
+        "title": "旧五代史·伊广相关记载",
+        "excerpt": "乾寧四年，從征劉仁恭，武皇之師不利於成安寨，廣歿於賊。"
+      },
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p17",
+        "title": "旧五代史·伊广相关记载",
+        "excerpt": "李承勳者，與廣同為牙將，善於奉使，名聞軍中。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-an-jinquan-service",
+    "from": "li-keyong",
+    "to": "an-jinquan",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用骑将，后历事庄宗、明宗",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p1",
+        "title": "旧五代史·安金全相关记载",
+        "excerpt": "武皇時為騎將，屢從征討。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-an-yuanxin-service",
+    "from": "li-keyong",
+    "to": "an-yuanxin",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，曾投定州后归河东",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p4",
+        "title": "旧五代史·安元信相关记载",
+        "excerpt": "元信以將族子，便騎射，幼事武皇，從平巢、蔡。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-an-zhongba-service",
+    "from": "li-keyong",
+    "to": "an-zhongba",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用旧部，后转仕梁、蜀、后唐",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p6",
+        "title": "旧五代史·安重霸相关记载",
+        "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-liu-xun-yonghe-service",
+    "from": "li-keyong",
+    "to": "liu-xun-yonghe",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用骑将，后历仕后唐",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p10",
+        "title": "旧五代史·刘训相关记载",
+        "excerpt": "初事武皇為馬軍隊長，漸至散將。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-liu-yancong-service",
+    "from": "li-keyong",
+    "to": "liu-yancong",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，后历仕后唐",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p12",
+        "title": "旧五代史·刘彦琮相关记载",
+        "excerpt": "劉彥琮，字比德，雲中人也。事武皇，累從征役。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-yuan-jianfeng-service",
+    "from": "li-keyong",
+    "to": "yuan-jianfeng",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用收养的军将，后辅佐庄宗、明宗",
+    "sources": [
+      {
+        "chapterId": "new-v25",
+        "paragraphId": "new-v25-p49",
+        "title": "新五代史·袁建丰相关记载",
+        "excerpt": "長習騎射，為鐵林都虞候，從擊王行瑜、李匡威，以功遷突陣指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-zhang-jingxun-service",
+    "from": "li-keyong",
+    "to": "zhang-jingxun",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用军械职官，后历任军州",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p11",
+        "title": "旧五代史·张敬询相关记载",
+        "excerpt": "敬詢當武皇時，專掌甲坊十五年，以稱職聞。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-zhang-zunhui-service",
+    "from": "li-keyong",
+    "to": "zhang-zunhui",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用牙门将，后历仕后唐",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p16",
+        "title": "旧五代史·张遵诲相关记载",
+        "excerpt": "遵誨奔太原，武皇以為牙門將。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-wang-jianji-service",
+    "from": "li-keyong",
+    "to": "wang-jianji",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用义儿军将领，后辅佐李存勖",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p1",
+        "title": "旧五代史·王建及相关记载",
+        "excerpt": "光啟中，罕之謁武皇於晉陽，因選部下驍勇者百人以獻，建及在籍中。後以功署牙職，典義兒軍，及賜姓名。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-shi-junli-service",
+    "from": "li-keyong",
+    "to": "shi-junli",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "河东军将；先属李克柔，后属李嗣昭",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p5",
+        "title": "旧五代史·石君立相关记载",
+        "excerpt": "初事代州刺史李克柔，後隸李嗣昭為牙校，曆典諸軍。夾城之役，君立每出挑戰，壞汴軍柵壘，俘擒而還。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-zhang-tingyu-service",
+    "from": "li-keyong",
+    "to": "zhang-tingyu",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，后历仕后唐",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p7",
+        "title": "旧五代史·张廷裕相关记载",
+        "excerpt": "幼事武皇於雲中，從平黃巢，討王行瑜，自行間漸升為小將。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-wang-sitong-service",
+    "from": "li-keyong",
+    "to": "wang-sitong",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "由幽州率部归附李克用",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p8",
+        "title": "旧五代史·王思同相关记载",
+        "excerpt": "思同以部下兵歸太原，時年十六，武皇命為飛騰指揮使。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-hanzhi-service",
+    "from": "li-keyong",
+    "to": "li-hanzhi",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "归附李克用的藩将，后转附朱温",
+    "sources": [
+      {
+        "chapterId": "old-v015",
+        "paragraphId": "old-v015-p10",
+        "title": "旧五代史·李罕之相关记载",
+        "excerpt": "乾寧二年，李克用出師以拒邠、鳳，營於渭北，天子以克用為邠州行營四面都統，克用乃表罕之為副。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-an-jinjun-service",
+    "from": "li-keyong",
+    "to": "an-jinjun",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，受命率骑援河阳",
+    "sources": [
+      {
+        "chapterId": "old-v015",
+        "paragraphId": "old-v015-p9",
+        "title": "旧五代史·安金俊相关记载",
+        "excerpt": "李克用遣澤州刺史安金俊率騎助之，遂收河陽。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-li-junqing-service",
+    "from": "li-keyong",
+    "to": "li-junqing",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用军将，受命攻潞州",
+    "sources": [
+      {
+        "chapterId": "new-v36",
+        "paragraphId": "new-v36-p5",
+        "title": "新五代史·李君庆相关记载",
+        "excerpt": "二年，晉遣李君慶攻梁潞州，君慶為梁所敗，太祖酖殺君慶，嗣昭攻克之。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-xue-atan-service",
+    "from": "li-keyong",
+    "to": "xue-atan",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用部将，参战河阳、阴地关",
+    "sources": [
+      {
+        "chapterId": "new-v36",
+        "paragraphId": "new-v36-p21",
+        "title": "新五代史·薛阿檀相关记载",
+        "excerpt": "晉以李存信、薛阿檀等當濬，別遣存孝軍于趙城。"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-an-xiuxiu-service",
+    "from": "li-keyong",
+    "to": "an-xiuxiu",
+    "kind": "service",
+    "label": "部将与军职",
+    "note": "李克用骑将；河阳战役后事在旧史两传与新史中有分歧",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p2",
+        "title": "旧五代史·安休休相关记载",
+        "excerpt": "臨陣之次，騎將安休休叛入汴軍，君立引退。"
+      },
+      {
+        "chapterId": "new-v36",
+        "paragraphId": "new-v36-p20",
+        "title": "新五代史·安休休相关记载",
+        "excerpt": "遣存孝與薛阿檀、安休休等以兵七千助罕之還擊河陽。"
+      }
+    ]
+  },
+  {
+    "id": "shi-jingsi-shi-jiantang-kinship",
+    "from": "shi-jingsi",
+    "to": "shi-jiantang",
+    "kind": "kinship",
+    "label": "父子",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p5",
+        "excerpt": "史建瑭，字國寶。父敬思，雁門人，仕郡至牙校。",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-yuan-jianfeng-adoption",
+    "from": "li-keyong",
+    "to": "yuan-jianfeng",
+    "kind": "adoption",
+    "label": "收养",
+    "sources": [
+      {
+        "chapterId": "new-v25",
+        "paragraphId": "new-v25-p49",
+        "title": "《新五代史》袁建丰传",
+        "excerpt": "袁建豐，不知其世家也。晉王討黃巢至華陰，闌得之，時方九歲，愛其俊爽，收養之。"
+      },
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p13",
+        "excerpt": "袁建豐，武皇破巢時得於華陰，年方九歲，愛其精神爽俊，俾收養之。",
+        "title": "《旧五代史》相关记载"
+      }
+    ],
+    "note": "新史记李克用收养袁建丰，旧史记李克用命人收养；不将旧史使令表述改写为亲自收养。"
+  },
+  {
+    "id": "li-kerou-shi-junli-service",
+    "from": "li-kerou",
+    "to": "shi-junli",
+    "kind": "service",
+    "label": "早年部属",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p5",
+        "excerpt": "初事代州刺史李克柔，後隸李嗣昭為牙校，曆典諸軍。",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "li-sizhao-shi-junli-service",
+    "from": "li-sizhao",
+    "to": "shi-junli",
+    "kind": "service",
+    "label": "牙校与前锋",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p5",
+        "excerpt": "嗣昭每出征，俾君立為前鋒，敵人畏之。",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "li-hanzhi-wang-jianji-service",
+    "from": "li-hanzhi",
+    "to": "wang-jianji",
+    "kind": "service",
+    "label": "早年部属",
+    "sources": [
+      {
+        "chapterId": "old-v065",
+        "paragraphId": "old-v065-p1",
+        "excerpt": "建及少事李罕之為紀綱，",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "li-hanzhi-yang-shihou-service",
+    "from": "li-hanzhi",
+    "to": "yang-shihou",
+    "kind": "service",
+    "label": "早年部属",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p2",
+        "excerpt": "少事河陽李罕之，罕之降晉，選其麾下勁卒百人獻于晉王，師厚在籍中。",
+        "title": "《新五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "li-hanzhi-fu-cunshen-service",
+    "from": "li-hanzhi",
+    "to": "fu-cunshen",
+    "kind": "service",
+    "label": "早年部属",
+    "sources": [
+      {
+        "chapterId": "old-v056",
+        "paragraphId": "old-v056-p14",
+        "excerpt": "會郡人李罕之起自群盜，授光州刺史，因往依之。",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "shi-yan-liu-xun-yonghe-service",
+    "from": "shi-yan",
+    "to": "liu-xun-yonghe",
+    "kind": "service",
+    "label": "随军攻陕州",
+    "sources": [
+      {
+        "chapterId": "old-v061",
+        "paragraphId": "old-v061-p10",
+        "excerpt": "屬河中王氏昆仲有尋戈之役，訓從史儼攻陝州。",
+        "title": "《旧五代史》相关记载"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-hanzhi-service",
+    "from": "zhu-wen",
+    "to": "li-hanzhi",
+    "kind": "service",
+    "label": "后期转附",
+    "note": "李罕之在夺潞州后转向朱温求援，受表为昭义军节度使；与其早年的河东军职分别记录。",
+    "sources": [
+      {
+        "chapterId": "old-v015",
+        "paragraphId": "old-v015-p11",
+        "title": "《旧五代史》李罕之传",
+        "excerpt": "《新唐書》：全忠表罕之昭義軍節度使。"
+      }
+    ]
+  },
+
+  {
     id: 'li-maozhen-fu-daozhao-adoption', from: 'li-maozhen', to: 'fu-daozhao', kind: 'adoption', label: '养子',
     note: '符道昭是在投朱温以前被李茂贞收为养子、名继远；不把后来的朱温军事任职当成收养。',
     sources: [source('new-v21', 45, '《新五代史》卷21 · 符道昭传', '後依鳳翔李茂貞，茂貞愛之，養以為子，名繼遠。')],

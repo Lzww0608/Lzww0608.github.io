@@ -13,6 +13,8 @@ const paragraphs = new Map(library.chapters.flatMap(chapter => chapter.paragraph
 const rules = JSON.parse(readFileSync(new URL('../content/person-passages/rules.json', import.meta.url), 'utf8'));
 const generals = JSON.parse(readFileSync(new URL('../content/five-dynasties/zhu-wen-generals.json', import.meta.url), 'utf8'));
 const generalIds = new Set(generals.memberIds);
+const keyongGenerals = JSON.parse(readFileSync(new URL('../content/five-dynasties/li-keyong-generals.json', import.meta.url), 'utf8'));
+const keyongNewIds = new Set(keyongGenerals.people.map(person => person.id));
 
 test('generation scans the whole canonical archive and reproduces the saved shared index', () => {
   assert.deepEqual(buildPersonPassageIndex(library), index);
@@ -23,11 +25,37 @@ test('generation scans the whole canonical archive and reproduces the saved shar
   const bookByChapter = new Map(library.chapters.map(chapter => [chapter.id, chapter.bookId]));
   assert.equal(new Set(index.passages.map(passage => bookByChapter.get(passage.chapterId))).size, library.catalog.books.length);
   for (const person of index.people) {
-    if (!generalIds.has(person.id)) {
+    if (!generalIds.has(person.id) && !keyongNewIds.has(person.id)) {
       for (const bookId of ['old', 'new']) assert.ok(index.passages.some(passage => passage.chapterId.startsWith(`${bookId}-`)
         && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `${bookId} biography: ${person.id}`);
     }
   }
+});
+
+test('Li Keyong generals share identities and aggregate biographies with independently recorded military passages', () => {
+  assert.equal(keyongGenerals.memberIds.length, 38);
+  assert.equal(keyongGenerals.people.length, 24);
+  assert.ok(!keyongGenerals.memberIds.includes('li-cunxu'), 'a childhood expedition is not a military appointment');
+  assert.ok(!keyongGenerals.memberIds.includes('yan-bao'), 'joining Li Cunxu later does not imply Li Keyong service');
+  for (const person of keyongGenerals.people) {
+    assert.equal(index.people.filter(item => item.id === person.id).length, 1);
+    for (const chapterId of Object.values(person.readingStarts)) {
+      assert.ok(index.passages.some(passage => passage.chapterId === chapterId
+        && passage.people.some(link => link.personId === person.id && link.kind !== 'mention')), `${person.id}: ${chapterId}`);
+    }
+  }
+  assert.equal(association('old-v065-p1', 'wang-jianji')?.kind, 'biography');
+  assert.equal(association('new-v25-p32', 'wang-jianji')?.kind, 'biography');
+  assert.equal(association('old-v061-p10', 'liu-xun-yonghe')?.kind, 'biography');
+  assert.equal(association('old-v061-p10', 'liu-xun'), undefined, 'Liu Xun is distinct from Liu Xin');
+  assert.equal(association('old-v055-p2', 'an-xiuxiu')?.kind, 'record');
+  assert.equal(association('old-v015-p9', 'an-xiuxiu')?.kind, 'record');
+  assert.equal(association('new-v36-p20', 'an-xiuxiu')?.kind, 'record');
+  assert.equal(association('new-v25-p28', 'shi-jiantang')?.kind, 'record');
+  assert.equal(association('new-v25-p29', 'shi-jiantang'), undefined, 'an independent descendant does not inherit the father');
+  assert.equal(association('new-v25-p30', 'shi-jiantang'), undefined);
+  assert.equal(association('old-v015-p11', 'li-sizhao')?.kind, 'record', 'the transposed name is locally identified by the actual military event');
+  assert.equal(association('old-v015-p11', 'zhu-wen')?.kind, 'record');
 });
 
 test('every declared general reading entrance and checked biography range is indexed', () => {
@@ -224,4 +252,78 @@ test('validator supports ordered multi-paragraph spans while rejecting whole-par
   assert.equal(validatePersonPassageIndex(copy, library), copy);
   first.spans.reverse();
   assert.throws(() => validatePersonPassageIndex(copy, library), /stable passage ID|span chapter\/order/);
+});
+
+test('Li Keyong general short names exclude other historical people and word-boundary collisions', () => {
+  const excluded = {
+  "an-jinquan": [
+    "beimeng-v019-p33",
+    "huiyao-v024-p38",
+    "new-v08-p7",
+    "new-v08-p10",
+    "old-v040-p7",
+    "old-v044-p6",
+    "old-v048-p4",
+    "old-v076-p12",
+    "old-v076-p14",
+    "old-v076-p16",
+    "old-v079-p5",
+    "old-v101-p12",
+    "old-v115-p21",
+    "tongjian-v278-p21",
+    "tongjian-v281-p44",
+    "tongjian-v281-p47",
+    "tongjian-v281-p52",
+    "tongjian-v281-p59",
+    "tongjian-v282-p58",
+    "tongjian-v282-p60",
+    "tongjian-v282-p64",
+    "tongjian-v287-p32",
+    "tongjian-v288-p67",
+    "tongjian-v289-p8"
+  ],
+  "an-zhongba": [
+    "new-v13-p46",
+    "old-v002-p10",
+    "old-v004-p9",
+    "old-v006-p13",
+    "old-v009-p7",
+    "old-v027-p8",
+    "kaoyi-v028-p36",
+    "old-v112-p9",
+    "tongjian-v290-p116",
+    "tongjian-v274-p58"
+  ],
+  "zhou-dewei": [
+    "huiyao-v006-p50",
+    "huiyao-v017-p36",
+    "tongjian-v280-p12"
+  ],
+  "liu-yancong": [
+    "old-v044-p3"
+  ],
+  "yuan-jianfeng": [
+    "beimeng-v018-p15",
+    "tongjian-v276-p46"
+  ],
+  "wang-jianji": [
+    "tongjian-v289-p70"
+  ],
+  "zhang-tingyu": [
+    "tongjian-v283-p49"
+  ],
+  "li-hanzhi": [
+    "tongjian-v277-p130"
+  ],
+  "an-xiuxiu": [
+    "quewen-v001-p12"
+  ]
+};
+  for (const [personId, ids] of Object.entries(excluded)) for (const paragraphId of ids) {
+    assert.equal(association(paragraphId, personId), undefined, paragraphId + ': ' + personId);
+  }
+  for (const paragraphId of ['old-v061-p18','tongjian-v274-p72','tongjian-v279-p92','tongjian-v280-p17']) assert.ok(association(paragraphId, 'an-jinquan'));
+  for (const paragraphId of ['old-v061-p18','new-v46-p30','new-v46-p31']) assert.ok(association(paragraphId, 'an-zhongba'));
+  assert.ok(association('old-v036-p6', 'liu-xun-yonghe'));
+  assert.ok(association('old-v036-p6', 'zhang-tingyu'));
 });

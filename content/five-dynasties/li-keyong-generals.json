@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "id": "li-keyong-generals",
+  "title": "李克用麾下将领",
+  "filterLabel": "李克用将领",
+  "relationshipSubject": "李克用",
+  "description": "查阅李克用时期的河东军将、早年部属及转仕人物的史料、白话译文与个人关系。",
+  "sourceNote": "依据正史中李克用在世时的军事任职、统兵与征战记载选取人物，包含义儿军、河东牙将、军械职官及归附者；并非全部下属、固定组合或排行。李存勖仍保留皇帝与十三太保专题身份，不将幼年随征与入觐作为独立将领任职；仅在李存勖时期归附的人物也不因此归入李克用麾下。十三太保共用人物沿用同一身份并保留亲子、养子、赐姓名和部将的史载差别。专题在五代索引中归入后唐史系，实际活动时期另列；所汇总的记载限于本站当前已归档范围。",
+  "sources": [
+    {
+      "title": "旧五代史·河东将领相关传记（卷15、52、53、55、56、59、61、65）",
+      "url": "https://zh.wikisource.org/wiki/舊五代史"
+    },
+    {
+      "title": "新五代史·唐臣传（卷25）",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+    },
+    {
+      "title": "新五代史·义儿传（卷36）",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+    }
+  ],
+  "memberIds": [
+    "li-siyuan",
+    "li-sizhao",
+    "li-cunxin",
+    "li-cunjin",
+    "li-siben",
+    "li-sien",
+    "li-cunzhang",
+    "fu-cunshen",
+    "li-cunxian",
+    "shi-jingsi",
+    "kang-junli",
+    "li-cunxiao",
+    "ding-hui",
+    "yang-shihou",
+    "zhou-dewei",
+    "xue-zhiqin",
+    "shi-jiantang",
+    "li-chengsi",
+    "shi-yan",
+    "gai-yu",
+    "yi-guang",
+    "an-jinquan",
+    "an-yuanxin",
+    "an-zhongba",
+    "liu-xun-yonghe",
+    "liu-yancong",
+    "yuan-jianfeng",
+    "zhang-jingxun",
+    "zhang-zunhui",
+    "wang-jianji",
+    "shi-junli",
+    "zhang-tingyu",
+    "wang-sitong",
+    "li-hanzhi",
+    "an-jinjun",
+    "li-junqing",
+    "xue-atan",
+    "an-xiuxiu"
+  ],
+  "people": [
+    {
+      "id": "zhou-dewei",
+      "name": "周德威",
+      "nameVariants": [
+        "周德威"
+      ],
+      "dynasty": "后唐",
+      "role": "卢龙军节度使",
+      "aliases": "周阳五 周陽五 阳五 陽五 镇远 鎮遠",
+      "intro": "周德威字镇远，小字阳五，早年任李克用帐中骑督，善骑射、熟悉边事，后来任铁林军使、蕃汉都将。他救援潞州、抵御梁军，辅佐李存勖取得柏乡、幽州等战役的胜利，最终在胡柳陂之战中阵亡。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用骑将，后辅佐李存勖",
+      "sources": [
+        {
+          "title": "旧五代史·周德威传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷56"
+        },
+        {
+          "title": "新五代史·周德威传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v056",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p2",
+          "title": "旧五代史·周德威相关记载",
+          "excerpt": "初事武皇為帳中騎督，驍勇，便騎射，膽氣智數皆過人。"
+        }
+      ]
+    },
+    {
+      "id": "xue-zhiqin",
+      "name": "薛志勤",
+      "nameVariants": [
+        "薛誌勤",
+        "薛志勤",
+        "薛鐵山",
+        "薛铁山"
+      ],
+      "dynasty": "后唐",
+      "role": "昭义节度使",
+      "aliases": "薛誌勤 薛铁山 薛鐵山 铁山 鐵山",
+      "intro": "薛志勤小字铁山，参与推戴李克用起兵，历任代北军使、河东右都押牙、先锋右军使。他随军平定黄巢，并在上源驿遇袭时护送李克用脱险，后来镇守潞州，卒于昭义节度使任上。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用亲将，参与早年起兵",
+      "sources": [
+        {
+          "title": "旧五代史·薛志勤传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p4",
+          "title": "旧五代史·薛志勤相关记载",
+          "excerpt": "武皇授節雁門，誌勤領代北軍使；從入關，收京城，以功授檢校工部尚書、河東右都押牙、先鋒右軍使。"
+        }
+      ]
+    },
+    {
+      "id": "shi-jiantang",
+      "name": "史建瑭",
+      "nameVariants": [
+        "史建瑭"
+      ],
+      "dynasty": "后唐",
+      "role": "河东前锋骑将",
+      "aliases": "国宝 國寶 史先锋 史先鋒",
+      "intro": "史建瑭字国宝，是史敬思之子。早年统领昭德军，与李嗣昭攻汾州，随后担任救援潞州的前锋。他辅佐李存勖参加柏乡等战役，曾以少量骑兵袭扰梁营，后来在围攻镇州时中箭身亡。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用部将，后辅佐李存勖",
+      "sources": [
+        {
+          "title": "旧五代史·史建瑭传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        },
+        {
+          "title": "新五代史·史建瑭传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p25",
+          "title": "新五代史·史建瑭相关记载",
+          "excerpt": "建瑭少事軍中為裨校，自晉降丁會，與梁相距於潞州，建瑭已為晉兵先鋒。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi",
+      "name": "李承嗣",
+      "nameVariants": [
+        "李承嗣"
+      ],
+      "dynasty": "后唐",
+      "role": "河东骑将，后任楚州节度使",
+      "aliases": "",
+      "intro": "李承嗣出自代州雁门，随李克用入关讨黄巢，曾率军驻防三辅，又率骑兵援助兖郓。他与史俨在兖郓失守后进入淮南，参与清口之战，后来留在杨行密一方，卒于楚州。",
+      "periodLabel": "唐末—五代·河东转淮南",
+      "relation": "李克用骑将，后留仕淮南",
+      "sources": [
+        {
+          "title": "旧五代史·李承嗣传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p9",
+          "title": "旧五代史·李承嗣相关记载",
+          "excerpt": "中和二年，從武皇討賊關輔，為前鋒。"
+        }
+      ]
+    },
+    {
+      "id": "shi-yan",
+      "name": "史俨",
+      "nameVariants": [
+        "史儼",
+        "史俨"
+      ],
+      "dynasty": "后唐",
+      "role": "河东亲将，后任滁州刺史",
+      "aliases": "史儼",
+      "intro": "史俨善骑射、擒生与设伏，早年任李克用帐中亲将，随军讨黄巢、护卫唐昭宗，并援助兖郓。朱瑾失守后，他与李承嗣进入淮南，参与清口等战事，后来任滁州刺史。",
+      "periodLabel": "唐末—五代·河东转淮南",
+      "relation": "李克用亲将，后留仕淮南",
+      "sources": [
+        {
+          "title": "旧五代史·史俨传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "title": "旧五代史·史俨相关记载",
+          "excerpt": "以便騎射給事於武皇。為帳中親將，驍果絕眾，善擒生設伏，望塵揣敵，所向皆捷。"
+        }
+      ]
+    },
+    {
+      "id": "gai-yu",
+      "name": "盖寓",
+      "nameVariants": [
+        "蓋寓",
+        "盖寓"
+      ],
+      "dynasty": "后唐",
+      "role": "河东左都押牙",
+      "aliases": "蓋寓",
+      "intro": "盖寓出身蔚州将门，参与推戴李克用，历任都押牙、河东左都押牙，常随军出征，并参与军府决策。他善于规劝与调解，深受李克用信任，卒于唐天祐二年。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用亲信军将，兼参军府谋议",
+      "sources": [
+        {
+          "title": "旧五代史·盖寓传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p13",
+          "title": "旧五代史·盖寓相关记载",
+          "excerpt": "武皇節制雁門，署職為都押牙，領嵐州刺史。洎移鎮太原，改左都押牙、檢校左僕射。武皇與之決事，言無不從，凡出征伐，靡不衛從。"
+        }
+      ]
+    },
+    {
+      "id": "yi-guang",
+      "name": "伊广",
+      "nameVariants": [
+        "伊廣",
+        "伊广"
+      ],
+      "dynasty": "后唐",
+      "role": "河东牙将，汾州刺史",
+      "aliases": "伊廣",
+      "intro": "伊广归附李克用后历任军职、汾州刺史，也负责藩镇间的使节往来。《旧五代史》将他记为牙将，并记其在乾宁四年随李克用征刘仁恭、成安寨战败时遇害；本传的字有缺文，本站不补造。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用牙将，兼任使节",
+      "sources": [
+        {
+          "title": "旧五代史·伊广传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p15",
+          "title": "旧五代史·伊广相关记载",
+          "excerpt": "乾寧四年，從征劉仁恭，武皇之師不利於成安寨，廣歿於賊。"
+        },
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p17",
+          "title": "旧五代史·伊广相关记载",
+          "excerpt": "李承勳者，與廣同為牙將，善於奉使，名聞軍中。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan",
+      "name": "安金全",
+      "nameVariants": [
+        "安金全"
+      ],
+      "dynasty": "后唐",
+      "role": "振武军节度使",
+      "aliases": "安五道",
+      "intro": "安金全是代北骑将，李克用时期多次随军征讨，后来以老病居于太原。梁将王檀袭击太原时，他披甲率子弟和退居将吏夜战，协助守住城池。李嗣源即位后，授其振武军节度使。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用骑将，后历事庄宗、明宗",
+      "sources": [
+        {
+          "title": "旧五代史·安金全传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        },
+        {
+          "title": "新五代史·安金全传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "title": "旧五代史·安金全相关记载",
+          "excerpt": "武皇時為騎將，屢從征討。"
+        }
+      ]
+    },
+    {
+      "id": "an-yuanxin",
+      "name": "安元信",
+      "nameVariants": [
+        "安元信"
+      ],
+      "dynasty": "后唐",
+      "role": "河东突阵都将，后任昭义节度使",
+      "aliases": "子言",
+      "intro": "安元信字子言，早年随李克用平黄巢、秦宗权，败于居庸关后曾投定州，后来返回河东，任铁林军使、突阵都将。他参加救援潞州、柏乡等战役，后唐时期历任大同、徐州、昭义等镇节度使。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用部将，曾投定州后归河东",
+      "sources": [
+        {
+          "title": "旧五代史·安元信传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p4",
+          "title": "旧五代史·安元信相关记载",
+          "excerpt": "元信以將族子，便騎射，幼事武皇，從平巢、蔡。"
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba",
+      "name": "安重霸",
+      "nameVariants": [
+        "安重霸"
+      ],
+      "dynasty": "后唐",
+      "role": "河东旧将，后任同州节度使",
+      "aliases": "捣蒜老 搗蒜老",
+      "intro": "安重霸出身云州，早年与李嗣源同事李克用，后来因罪先后投梁、入蜀，担任龙武军副将。他又以秦州等地归附后唐，历任同州节度使、西京留守等职；史书对他的奸巧与施政多有批评。",
+      "periodLabel": "唐末—后唐·历仕多方",
+      "relation": "李克用旧部，后转仕梁、蜀、后唐",
+      "sources": [
+        {
+          "title": "旧五代史·安重霸传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        },
+        {
+          "title": "新五代史·安重霸传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷46"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061",
+        "new": "new-v46"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p6",
+          "title": "旧五代史·安重霸相关记载",
+          "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-yonghe",
+      "name": "刘训",
+      "nameVariants": [
+        "劉訓",
+        "刘训",
+        "李紹珙",
+        "李绍珙"
+      ],
+      "dynasty": "后唐",
+      "role": "河东马军队长，后任襄州节度使",
+      "aliases": "劉訓 遵范 遵範 李绍珙 李紹珙",
+      "intro": "刘训字遵范，出身隰州永和，早年任李克用马军队长，随史俨攻陕州、随李克用讨王行瑜。后唐时期任襄州节度使，奉命讨伐荆南无功后被贬，后来又任建雄等镇节度使。他与梁将刘鄩是不同人物。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用骑将，后历仕后唐",
+      "sources": [
+        {
+          "title": "旧五代史·刘训传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        },
+        {
+          "title": "旧五代史·唐明宗纪二（复本姓名刘训）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "title": "旧五代史·刘训相关记载",
+          "excerpt": "初事武皇為馬軍隊長，漸至散將。"
+        }
+      ]
+    },
+    {
+      "id": "liu-yancong",
+      "name": "刘彦琮",
+      "nameVariants": [
+        "劉彥琮",
+        "刘彦琮"
+      ],
+      "dynasty": "后唐",
+      "role": "河东军将，后任邠州节度使",
+      "aliases": "劉彥琮 比德",
+      "intro": "刘彦琮字比德，出自云中，随李克用多次征战。《旧五代史》记他佯投叛将王瓘，趁其出猎杀王瓘献首，后来又随李存勖解潞州之围。后唐时期历任华、陕、邠等镇节度使。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用部将，后历仕后唐",
+      "sources": [
+        {
+          "title": "旧五代史·刘彦琮传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "title": "旧五代史·刘彦琮相关记载",
+          "excerpt": "劉彥琮，字比德，雲中人也。事武皇，累從征役。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng",
+      "name": "袁建丰",
+      "nameVariants": [
+        "袁建豐",
+        "袁建丰"
+      ],
+      "dynasty": "后唐",
+      "role": "铁林都虞候、突骑指挥使",
+      "aliases": "袁建豐",
+      "intro": "袁建丰幼年在华阴为李克用所得：《旧五代史》记克用命人收养他，《新五代史》记克用收养。长大后他习骑射，任铁林都虞候、突骑指挥使，参加救潞州、柏乡及梁晋战争，曾为李嗣源副将；后来因病退出军务，李嗣源即位后厚加抚恤。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用收养的军将，后辅佐庄宗、明宗",
+      "sources": [
+        {
+          "title": "旧五代史·袁建丰传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        },
+        {
+          "title": "新五代史·袁建丰传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p49",
+          "title": "新五代史·袁建丰相关记载",
+          "excerpt": "長習騎射，為鐵林都虞候，從擊王行瑜、李匡威，以功遷突陣指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingxun",
+      "name": "张敬询",
+      "nameVariants": [
+        "張敬詢",
+        "张敬询"
+      ],
+      "dynasty": "后唐",
+      "role": "河东甲坊使，后任滑州节度使",
+      "aliases": "張敬詢",
+      "intro": "张敬询出身振武军牙校之家，李克用时期专管甲坊十五年，以管理军械称职而闻名。李存勖时期他随军、历任刺史，后唐又镇利州、大同、滑州等地，曾扩筑河堤。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用军械职官，后历任军州",
+      "sources": [
+        {
+          "title": "旧五代史·张敬询传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p11",
+          "title": "旧五代史·张敬询相关记载",
+          "excerpt": "敬詢當武皇時，專掌甲坊十五年，以稱職聞。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-zunhui",
+      "name": "张遵诲",
+      "nameVariants": [
+        "張遵誨",
+        "张遵诲"
+      ],
+      "dynasty": "后唐",
+      "role": "河东牙门将，后任京兆尹",
+      "aliases": "張遵誨",
+      "intro": "张遵诲出自魏州，父亲在罗绍威诛牙军时被梁军杀害，他逃往太原，被李克用任为牙门将。后来随李存勖征战，并任幽、镇军职，后唐时期任西都副留守、京兆尹及絳州刺史。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用牙门将，后历仕后唐",
+      "sources": [
+        {
+          "title": "旧五代史·张遵诲传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p16",
+          "title": "旧五代史·张遵诲相关记载",
+          "excerpt": "遵誨奔太原，武皇以為牙門將。"
+        }
+      ]
+    },
+    {
+      "id": "wang-jianji",
+      "name": "王建及",
+      "nameVariants": [
+        "王建及",
+        "李建及"
+      ],
+      "dynasty": "后唐",
+      "role": "银枪效节军将领",
+      "aliases": "李建及",
+      "intro": "王建及少事李罕之，《资治通鉴》记为李罕之的假子（养子），后来进入李克用军中，统领义儿军。《旧五代史》以赐姓名后的李建及立传，《新五代史》作王建及，本站作为同一人物汇总。他在柏乡、胡柳陂、德胜等战役中以冲阵和救援著称，后来因谗言被外放代州，郁愤而卒。",
+      "periodLabel": "唐末—晋国",
+      "relation": "李克用义儿军将领，后辅佐李存勖",
+      "sources": [
+        {
+          "title": "旧五代史·王建及传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        },
+        {
+          "title": "新五代史·王建及传",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        },
+        {
+          "title": "资治通鉴卷267（李罕之假子王建及）",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷267"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p1",
+          "title": "旧五代史·王建及相关记载",
+          "excerpt": "光啟中，罕之謁武皇於晉陽，因選部下驍勇者百人以獻，建及在籍中。後以功署牙職，典義兒軍，及賜姓名。"
+        }
+      ]
+    },
+    {
+      "id": "shi-junli",
+      "name": "石君立",
+      "nameVariants": [
+        "石君立",
+        "石家財",
+        "石家财"
+      ],
+      "dynasty": "后唐",
+      "role": "昭义前锋军将",
+      "aliases": "石家财 石家財",
+      "intro": "石君立又称石家财，早年事李克柔，后为李嗣昭牙校，参与潞州夹城时期的战斗，常任前锋。他曾率骑兵援救被王檀围攻的太原，后来在河上战事中被梁军俘获，不肯改事梁，后梁将亡时被杀。",
+      "periodLabel": "唐末—晋国",
+      "relation": "河东军将；先属李克柔，后属李嗣昭",
+      "sources": [
+        {
+          "title": "旧五代史·石君立传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "title": "旧五代史·石君立相关记载",
+          "excerpt": "初事代州刺史李克柔，後隸李嗣昭為牙校，曆典諸軍。夾城之役，君立每出挑戰，壞汴軍柵壘，俘擒而還。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-tingyu",
+      "name": "张廷裕",
+      "nameVariants": [
+        "張廷裕",
+        "张廷裕",
+        "張庭裕",
+        "张庭裕"
+      ],
+      "dynasty": "后唐",
+      "role": "河东军将，后任新州节度使",
+      "aliases": "張廷裕 张庭裕 張庭裕",
+      "intro": "张廷裕出自代北，早年随李克用平黄巢、讨王行瑜，逐渐升任小将。他后来辅佐李存勖，历任蔚、慈、隰州刺史与新州节度使。《旧五代史》也记其镇守边地时缺乏应对之术。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用部将，后历仕后唐",
+      "sources": [
+        {
+          "title": "旧五代史·张廷裕传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        },
+        {
+          "title": "旧五代史·唐明宗纪二（新州留后张庭裕）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p7",
+          "title": "旧五代史·张廷裕相关记载",
+          "excerpt": "幼事武皇於雲中，從平黃巢，討王行瑜，自行間漸升為小將。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong",
+      "name": "王思同",
+      "nameVariants": [
+        "王思同"
+      ],
+      "dynasty": "后唐",
+      "role": "飞腾指挥使，后任山南西道节度使",
+      "aliases": "蓟门战客 薊門戰客",
+      "intro": "王思同是幽州将门之子，母为刘仁恭之女。刘守光攻刘仁恭时，他率部归附李克用，任飞腾指挥使，后随李存勖征战。后唐时期历镇秦州、山南西道等地；李从珂起兵时，他奉命讨伐，兵败被俘而遇害。",
+      "periodLabel": "唐末—后唐",
+      "relation": "由幽州率部归附李克用",
+      "sources": [
+        {
+          "title": "旧五代史·王思同传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p8",
+          "title": "旧五代史·王思同相关记载",
+          "excerpt": "思同以部下兵歸太原，時年十六，武皇命為飛騰指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi",
+      "name": "李罕之",
+      "nameVariants": [
+        "李罕之"
+      ],
+      "dynasty": "后唐",
+      "role": "泽州刺史，邠州行营副都统",
+      "aliases": "李摩云 李摩雲",
+      "intro": "李罕之原为黄巢军及河阳将领，河阳失守后归附李克用，镇守泽州，并随军征讨邠凤，任行营副都统。他屡求节镇未果，趁薛志勤去世夺取潞州，后来转附朱温，病逝于怀州；史书记载其勇猛，也批评其反复。",
+      "periodLabel": "唐末·河东转宣武军",
+      "relation": "归附李克用的藩将，后转附朱温",
+      "sources": [
+        {
+          "title": "旧五代史·李罕之传",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷15"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v015"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p10",
+          "title": "旧五代史·李罕之相关记载",
+          "excerpt": "乾寧二年，李克用出師以拒邠、鳳，營於渭北，天子以克用為邠州行營四面都統，克用乃表罕之為副。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinjun",
+      "name": "安金俊",
+      "nameVariants": [
+        "安金俊"
+      ],
+      "dynasty": "后唐",
+      "role": "泽州刺史，河东骑将",
+      "aliases": "",
+      "intro": "安金俊在李克用麾下任泽州刺史。李罕之、张全义传记载，李克用命他率骑兵援助二人，参与收复河阳。其主要记载分见他人传记，他与安金全分别收录。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用部将，受命率骑援河阳",
+      "sources": [
+        {
+          "title": "旧五代史·李罕之传（安金俊率骑记载）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷15"
+        },
+        {
+          "title": "旧五代史·张全义传（安金俊援河阳）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷63"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v015"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p9",
+          "title": "旧五代史·安金俊相关记载",
+          "excerpt": "李克用遣澤州刺史安金俊率騎助之，遂收河陽。"
+        }
+      ]
+    },
+    {
+      "id": "li-junqing",
+      "name": "李君庆",
+      "nameVariants": [
+        "李君慶",
+        "李君庆"
+      ],
+      "dynasty": "后唐",
+      "role": "河东行营军将",
+      "aliases": "李君慶",
+      "intro": "李君庆是李克用时期的河东军将。《新五代史》在李嗣昭传中记其奉命攻梁军所据潞州，战败后被李克用鸩杀；旧史也提到李嗣昭接替他任行营都将。其记载分见李嗣昭等人的传记。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用军将，受命攻潞州",
+      "sources": [
+        {
+          "title": "新五代史·李嗣昭传（李君庆军职及潞州之役）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        },
+        {
+          "title": "旧五代史·李嗣昭传（接替行营都将）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷52"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v36",
+        "old": "old-v052"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p5",
+          "title": "新五代史·李君庆相关记载",
+          "excerpt": "二年，晉遣李君慶攻梁潞州，君慶為梁所敗，太祖酖殺君慶，嗣昭攻克之。"
+        }
+      ]
+    },
+    {
+      "id": "xue-atan",
+      "name": "薛阿檀",
+      "nameVariants": [
+        "薛阿檀"
+      ],
+      "dynasty": "后唐",
+      "role": "河东军将",
+      "aliases": "",
+      "intro": "薛阿檀是李克用时期的河东军将。《新五代史》在李存孝传中记其参与援助李罕之反攻河阳，又与李存信抵御张浚、韩建的军队。其目前收录的记载集中在这些战事中。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用部将，参战河阳、阴地关",
+      "sources": [
+        {
+          "title": "新五代史·李存孝传（薛阿檀参战记载）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v36"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p21",
+          "title": "新五代史·薛阿檀相关记载",
+          "excerpt": "晉以李存信、薛阿檀等當濬，別遣存孝軍于趙城。"
+        }
+      ]
+    },
+    {
+      "id": "an-xiuxiu",
+      "name": "安休休",
+      "nameVariants": [
+        "安休休"
+      ],
+      "dynasty": "后唐",
+      "role": "河东骑将",
+      "aliases": "",
+      "intro": "安休休是李克用军中的骑将，参与援助李罕之反攻河阳。其战役后事记载有别：《旧五代史》康君立传记其临阵转入汴军，李罕之传又记其率一军奔蔡；《新五代史》则记其被执。本站分别保留三处叙述，不拼接为确定经过。",
+      "periodLabel": "唐末·河东",
+      "relation": "李克用骑将；河阳战役后事在旧史两传与新史中有分歧",
+      "sources": [
+        {
+          "title": "旧五代史·康君立传（安休休骑将记载）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷55"
+        },
+        {
+          "title": "新五代史·李存孝传（河阳之役）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v055",
+        "new": "new-v36"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p2",
+          "title": "旧五代史·安休休相关记载",
+          "excerpt": "臨陣之次，騎將安休休叛入汴軍，君立引退。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p20",
+          "title": "新五代史·安休休相关记载",
+          "excerpt": "遣存孝與薛阿檀、安休休等以兵七千助罕之還擊河陽。"
+        }
+      ]
+    }
+  ],
+  "memberRelations": {
+    "li-siyuan": "李克用养子，统领亲骑与横冲都",
+    "li-sizhao": "李克柔养子，李克用麾下主将；新史记克用收取后交克柔养育",
+    "li-cunxin": "李克用养子，河东蕃汉都将",
+    "li-cunjin": "李克用养子，义儿军将领",
+    "li-siben": "李克用养子，义儿军、威远军将领",
+    "li-sien": "李克用养子，铁林军、突阵军将领",
+    "li-cunzhang": "李克用部将，统领义儿军",
+    "fu-cunshen": "受李克用赐姓名的义儿军将领",
+    "li-cunxian": "李克用养子，义儿军将领",
+    "shi-jingsi": "李克用骑将、九府都督",
+    "kang-junli": "李克用部将，曾任南面招讨使",
+    "li-cunxiao": "李克用养子，前锋骑将",
+    "ding-hui": "由朱温军归附李克用，李存勖时任都招讨使",
+    "yang-shihou": "早年随李罕之入李克用军，后转仕朱温；未以梁时战功回填晋时经历"
+  }
+}

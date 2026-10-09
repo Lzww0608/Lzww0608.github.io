@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import { people, displayedDynasties, filterSearch } from '../src/data.ts';
 import { peopleForGroup, personDisplayPeriod, reigningEmperors, taibaoGroup } from '../src/person-catalog.ts';
 import { chapterRoute, chaptersForPerson, libraryChapters, preferredChapterForPerson, resolveReadingRoute } from '../src/library.ts';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
+import { loadPassagePeople } from '../../content/person-passages.mjs';
 
 const memberIds = [
   'li-siyuan', 'li-sizhao', 'li-cunxu', 'li-cunxin', 'li-cunjin',
@@ -13,8 +13,7 @@ const memberIds = [
   'shi-jingsi', 'kang-junli', 'li-cunxiao',
 ];
 const newIds = memberIds.filter(id => !['li-siyuan', 'li-cunxu'].includes(id));
-const catalogFiles = ['emperors.json', 'taibao.json', 'zhu-wen-generals.json'];
-const expectedCatalogIds = new Set(catalogFiles.flatMap(file => JSON.parse(readFileSync(new URL(`../../content/five-dynasties/${file}`, import.meta.url), 'utf8')).people.map(person => person.id)));
+const expectedCatalogIds = new Set(loadPassagePeople().map(person => person.id));
 
 test('searching the topic name finds all thirteen people while their originals stay linked', () => {
   assert.deepEqual(new Set(filterSearch('十三太保', 'person').map(person => person.id)), new Set(memberIds));

@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将相关列传及河东、后唐列传；合计 74 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将及李克用麾下将领相关列传；合计 77 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -83,6 +83,14 @@ for volume in [21, 22, 23, 32, 43, 44, 45, 46]:
     title = '梁臣传' if volume <= 23 else '死节传' if volume == 32 else '杂传'
     SPECS.append(dict(id=f'new-v{volume:02}', bookId='new', volume=volume,
                       title=f'卷 {volume} · {title}', page=f'新五代史/卷{volume:02}', subjects=[]))
+
+# Li Keyong's military officers: retain complete shared biographies, including
+# later service and the lives of other people contained in the same volumes.
+for volume, title in [(15, '梁列传（李罕之等）'),
+                       (61, '唐列传（安金全、袁建丰等）'),
+                       (65, '唐列传（李建及、石君立等）')]:
+    SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
 YEARS = ['907—908', '908—911', '911—913', '913—917', '917—919', '919—922', '923', '924—925', '925—926', '926—927', '927—929', '930—932', '932—934', '934—935', '936', '937—938', '939—941', '942—944', '944—945', '945—946', '947', '947—948', '948—949', '950', '951—952', '952—954', '954—956', '956—957', '958—959']
 for volume in range(266, 295):
     if volume <= 271: name, number = '后梁纪', volume-265
@@ -212,8 +220,11 @@ SUBJECT_TITLES = {
 # Display topics can grow without changing captured source files. The topic's
 # variants are verified complete personal names; short forms and bare titles
 # belong only in the separately reviewed person-passage rules.
-generals_path = ROOT / 'zhu-wen-generals.json'
-GENERAL_PEOPLE = json.loads(generals_path.read_text())['people'] if generals_path.exists() else []
+GENERAL_PEOPLE = []
+for topic_file in ['zhu-wen-generals.json', 'li-keyong-generals.json']:
+    generals_path = ROOT / topic_file
+    if generals_path.exists():
+        GENERAL_PEOPLE.extend(json.loads(generals_path.read_text())['people'])
 
 def scanned_subjects(paragraphs, book_id):
     text = '\n'.join(paragraphs)

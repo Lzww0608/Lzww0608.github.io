@@ -5,7 +5,7 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 175);
+  assert.equal(chapters.length, 178);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -15,7 +15,7 @@ test('the archive has verified source hashes, complete emperor annals and all Fi
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,12,13,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,59,63,64, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
+    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,59,61,63,64,65, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
@@ -66,6 +66,32 @@ test('Zhu Wen generals have traceable service evidence and real selected-biograp
   assert.ok(byChapter.get('old-v064').paragraphs.some(p => p.original.includes('孔勍')));
 });
 
+test('Li Keyong topic reuses existing officers and binds new military evidence to complete selected sources', () => {
+  const topic = JSON.parse(readFileSync(new URL('../../content/five-dynasties/li-keyong-generals.json', import.meta.url), 'utf8'));
+  const previousPeople = ['emperors', 'taibao', 'zhu-wen-generals'].flatMap(file =>
+    JSON.parse(readFileSync(new URL(`../../content/five-dynasties/${file}.json`, import.meta.url), 'utf8')).people);
+  const previousIds = new Set(previousPeople.map(person => person.id));
+  assert.equal(topic.memberIds.length, 38);
+  assert.equal(topic.people.length, 24);
+  assert.ok(topic.people.every(person => !previousIds.has(person.id)), 'topic membership reuses an identity, not a duplicate biography');
+  assert.equal(topic.memberIds.filter(id => previousIds.has(id)).length, 14);
+  assert.equal(topic.relationshipSubject, '李克用');
+  assert.ok(!topic.memberIds.includes('li-cunxu') && !topic.memberIds.includes('yan-bao'));
+  const byChapter = new Map(chapters.map(chapter => [chapter.id, chapter]));
+  for (const person of topic.people) {
+    assert.equal(person.dynasty, '后唐');
+    assert.equal(person.reign, undefined);
+    for (const evidence of person.serviceEvidence) {
+      assert.ok(byChapter.get(evidence.chapterId)?.paragraphs.find(p => p.id === evidence.paragraphId)?.original.includes(evidence.excerpt), person.id);
+    }
+    for (const [bookId, chapterId] of Object.entries(person.readingStarts)) {
+      assert.ok(catalog.chapters.some(c => c.id === chapterId && c.bookId === bookId && c.subjects.includes(person.id)), person.id);
+    }
+  }
+  assert.deepEqual(topic.people.find(person => person.id === 'wang-jianji').nameVariants, ['王建及', '李建及']);
+  assert.equal(topic.people.find(person => person.name === '刘训').id, 'liu-xun-yonghe');
+});
+
 
 test('the five additions retain complete selected volumes, separate prefaces and correct genres', () => {
   for (const [bookId, first, last, hasPreface] of [['shibu',1,5,true], ['chunqiu',1,2,true], ['huiyao',1,30,true], ['beimeng',17,20,true], ['kaoyi',28,30,false]]) {
@@ -79,7 +105,7 @@ test('the five additions retain complete selected volumes, separate prefaces and
   assert.equal(catalog.books.find(b => b.id === 'kaoyi').kind, '史料考证');
   for (const id of ['shibu-v000','chunqiu-v000','huiyao-v000','beimeng-v000']) {
     assert.ok(chapters.find(c => c.id === id).paragraphs.some(p => p.original.includes('撰')));
-    assert.deepEqual(catalog.chapters.find(c => c.id === id).subjects, []);
+    assert.deepEqual(catalog.chapters.find(c => c.id === id).subjects, id === 'shibu-v000' ? ['liu-xun-yonghe'] : []);
   }
   assert.ok(chapters.find(c => c.id === 'beimeng-v000').paragraphs.some(p => p.original.includes('北夢瑣言序')));
   assert.ok(chapters.find(c => c.id === 'kaoyi-v028').paragraphs.some(p => p.original === '後梁紀上'));
