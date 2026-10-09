@@ -66,6 +66,41 @@ test('biological, adopted and military relationships retain the distinctions in 
   assert.ok(chonggui.some(edge => edge.kind === 'adoption'));
 });
 
+test('Zhuangzong-era additions preserve actual commanders and adopted identities in both endpoint graphs', () => {
+  const documented = [
+    ['li-keyong', 'guo-chongtao', 'service'],
+    ['li-cunxu', 'guo-chongtao', 'service'],
+    ['li-siyuan', 'yuan-xingqin', 'adoption'],
+    ['li-cunxu', 'yuan-xingqin', 'service'],
+    ['li-jiji', 'ren-huan', 'service'],
+    ['fu-xi', 'wu-zhen', 'service'],
+    ['li-siyuan', 'gao-xingzhou', 'service'],
+    ['li-siyuan', 'wang-jianli', 'service'],
+    ['li-siyuan', 'shi-jingtang', 'service'],
+    ['li-siyuan', 'liu-zhiyuan', 'service'],
+    ['li-sizhao', 'shi-junli', 'service'],
+  ];
+  for (const [from, to, kind] of documented) {
+    const matches = personRelationships.filter(edge => edge.from === from && edge.to === to && edge.kind === kind);
+    assert.equal(matches.length, 1, `${from} -> ${to}: one documented ${kind} fact`);
+    const [fact] = matches;
+    for (const endpoint of [from, to]) {
+      const neighborhood = relationshipNeighborhood(endpoint);
+      assert.equal(neighborhood.relationships.filter(edge => edge.id === fact.id).length, 1, `${endpoint}: shared fact appears once`);
+      assert.equal(neighborhood.relationships.find(edge => edge.id === fact.id), fact, `${endpoint}: preserves the canonical fact and direction`);
+      assert.equal(neighborhood.nodes.filter(node => node.id === (endpoint === from ? to : from)).length, 1, `${endpoint}: commander or officer is a direct neighbor`);
+    }
+  }
+  for (const commander of ['li-siyuan', 'li-cunxu']) {
+    const links = personRelationships.filter(edge => edge.from === commander && edge.to === 'yuan-xingqin');
+    assert.equal(links.some(edge => edge.kind === 'kinship' || edge.label === '父子'), false, `${commander}: Yuan Xingqin is not a biological son`);
+  }
+  assert.equal(personRelationships.some(edge => edge.from === 'li-cunxu' && edge.to === 'yuan-xingqin' && edge.kind === 'adoption'), false, 'Li Siyuan’s adopted son is not assigned a second, unsupported adoptive father');
+  for (const officer of ['ren-huan', 'wu-zhen', 'gao-xingzhou', 'wang-jianli', 'shi-jingtang', 'liu-zhiyuan', 'shi-junli']) {
+    assert.equal(personRelationships.some(edge => edge.from === 'li-cunxu' && edge.to === officer && edge.kind === 'service'), false, `${officer}: serving in this reign does not imply direct service under Li Cunxu`);
+  }
+});
+
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
   for (const edge of successions) assert.equal(edge.label, '皇位交接');

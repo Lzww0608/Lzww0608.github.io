@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { people, searchItems, filterSearch } from '../src/data.ts';
-import { personGroups, personTopics, peopleForGroup, personMatchesGroup, personTopic, personTopicRelationships, topicsForPerson } from '../src/person-catalog.ts';
+import { personGroups, personTopics, peopleForGroup, personMatchesGroup, personTopic, personTopicRelationships, personTopicKeywords, topicsForPerson } from '../src/person-catalog.ts';
 import { chapterRoute, preferredChapterForPerson, resolveRoute, resolveReadingRoute } from '../src/library.ts';
 import { loadPassagePeople } from '../../content/person-passages.mjs';
 
@@ -84,7 +84,7 @@ test('topic and commander searches keep Zhu Wen generals under the correct topic
     const relation = relations.find(entry => entry.groupId === generals.id);
     assert.equal(relation?.subject, '朱温', id);
     assert.ok(relation?.relation.trim(), id);
-    assert.equal(relations.some(entry => entry.subject === '李克用'), topics.some(topic => personTopic(topic.id)?.relationshipSubject === '李克用'
+    assert.equal(relations.some(entry => entry.subject === '李克用'), topics.some(topic => (topic.memberRelationshipSubjects?.[id] ?? personTopic(topic.id)?.relationshipSubject) === '李克用'
       && topic.memberIds.includes(id)), id);
     assert.ok(filterSearch(person.name).some(entry => entry.id === id), id);
     for (const field of ['reign', 'reignStart', 'reignEnd']) assert.equal(person[field], undefined, `${id}: no fictional imperial reign`);
@@ -112,7 +112,7 @@ test('Li Keyong generals reuse established identities and display their own comm
     assert.ok(commanderMatches.has(id), id);
     assert.ok(filterSearch(person.name).some(entry => entry.id === id), id);
     const relation = personTopicRelationships(person).find(entry => entry.groupId === keyongGenerals.id);
-    assert.equal(relation?.subject, '李克用', id);
+    assert.equal(relation?.subject, keyongGenerals.memberRelationshipSubjects?.[id] ?? keyongGenerals.relationshipSubject, id);
     assert.equal(relation?.relation, keyongGenerals.memberRelations?.[id] ?? keyongGenerals.people.find(entry => entry.id === id)?.relation, id);
     assert.ok(relation?.relation.trim(), id);
   }
@@ -126,6 +126,43 @@ test('Li Keyong generals reuse established identities and display their own comm
     assert.equal(person.event, undefined, `${person.id}: no unrelated foundation event`);
     for (const field of ['reign', 'reignStart', 'reignEnd']) assert.equal(person[field], undefined, `${person.id}: no fictional imperial reign`);
   }
+});
+
+test('a combined topic uses each member’s verified commander for relationship display and search while preserving shared identity', () => {
+  const early = { id: 'fixture-early', name: '早期将领', dynasty: '后唐', role: '军将', aliases: '', intro: '', relation: '河东骑将' };
+  const later = { id: 'fixture-later', name: '后期将领', dynasty: '后唐', role: '军将', aliases: '', intro: '' };
+  const absent = { ...later, id: 'fixture-absent' };
+  const combined = {
+    schemaVersion: 1, id: 'li-keyong-generals', title: '河东军将', filterLabel: '河东',
+    relationshipSubject: '李克用', memberRelationshipSubjects: { [later.id]: '李存勖' },
+    description: '', sourceNote: '', sources: [], memberIds: [early.id, later.id],
+    memberRelations: { [later.id]: '庄宗亲军将领' }, people: [early],
+  };
+  const other = {
+    ...combined, id: 'zhu-wen-generals', title: '梁朝军将', filterLabel: '梁朝',
+    relationshipSubject: '朱温', memberRelationshipSubjects: undefined,
+    memberIds: [later.id], memberRelations: { [later.id]: '后来转仕' }, people: [],
+  };
+  const fixtureTopics = [combined, other];
+  assert.deepEqual(topicsForPerson(later, fixtureTopics), fixtureTopics);
+  assert.deepEqual(personTopicRelationships(early, fixtureTopics), [
+    { groupId: combined.id, subject: '李克用', relation: '河东骑将' },
+  ]);
+  assert.deepEqual(personTopicRelationships(later, fixtureTopics), [
+    { groupId: combined.id, subject: '李存勖', relation: '庄宗亲军将领' },
+    { groupId: other.id, subject: '朱温', relation: '后来转仕' },
+  ]);
+  assert.deepEqual(personTopicRelationships(absent, fixtureTopics), []);
+  const earlyKeywords = personTopicKeywords(early, fixtureTopics);
+  const laterKeywords = personTopicKeywords(later, fixtureTopics);
+  assert.ok(earlyKeywords.includes('李克用'));
+  assert.equal(earlyKeywords.includes('李存勖'), false);
+  assert.ok(laterKeywords.includes('李存勖'));
+  assert.ok(laterKeywords.includes('庄宗亲军将领'));
+  assert.ok(laterKeywords.includes('朱温'));
+  assert.equal(laterKeywords.includes('李克用'), false);
+  assert.equal(personTopicKeywords(absent, fixtureTopics), '');
+  assert.equal(combined.people.length, 1, 'a shared member needs no duplicate profile in the topic');
 });
 
 test('every newly collected general has attributed main reading entrances that stay in the correct book and person', () => {

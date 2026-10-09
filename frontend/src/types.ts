@@ -65,6 +65,7 @@ export interface HistoricalPersonGroup {
   title: string;
   filterLabel?: string;
   relationshipSubject?: string;
+  memberRelationshipSubjects?: Record<string, string>;
   description: string;
   sourceNote: string;
   sources: HistoricalSourceReference[];

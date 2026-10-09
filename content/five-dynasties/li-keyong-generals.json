@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "li-keyong-generals",
-  "title": "李克用麾下将领",
+  "title": "李克用、李存勖麾下将领",
   "filterLabel": "李克用将领",
   "relationshipSubject": "李克用",
-  "description": "查阅李克用时期的河东军将、早年部属及转仕人物的史料、白话译文与个人关系。",
-  "sourceNote": "依据正史中李克用在世时的军事任职、统兵与征战记载选取人物，包含义儿军、河东牙将、军械职官及归附者；并非全部下属、固定组合或排行。李存勖仍保留皇帝与十三太保专题身份，不将幼年随征与入觐作为独立将领任职；仅在李存勖时期归附的人物也不因此归入李克用麾下。十三太保共用人物沿用同一身份并保留亲子、养子、赐姓名和部将的史载差别。专题在五代索引中归入后唐史系，实际活动时期另列；所汇总的记载限于本站当前已归档范围。",
+  "description": "查阅李克用与李存勖时期的河东、晋国及后唐将领的史料、白话译文与个人关系。",
+  "sourceNote": "依据正史明确的军事任职、统兵与征战记载，合并整理李克用和李存勖两个时期的将领。包含早年部属、归附者、转仕将领及李继岌伐蜀行营中的受委任者；人物逐条标明实际任职时期与主将，不把只事李存勖的人物称作李克用部将，也不宣称全部下属、固定组合或排行。李存勖沿用皇帝与十三太保身份，不作为将领成员重复列入；亲子、养子、赐姓名与部将各依史载区分。专题归入后唐史系，真实活动时期另列，文献汇总限于当前已归档范围。",
   "sources": [
     {
       "title": "旧五代史·河东将领相关传记（卷15、52、53、55、56、59、61、65）",
@@ -18,6 +18,14 @@
     {
       "title": "新五代史·义儿传（卷36）",
       "url": "https://zh.wikisource.org/wiki/新五代史/卷36"
+    },
+    {
+      "title": "旧五代史·庄宗时期将领传记（卷57、62、70、73、74）",
+      "url": "https://zh.wikisource.org/wiki/舊五代史"
+    },
+    {
+      "title": "新五代史·唐臣及杂传（卷25、44—46）",
+      "url": "https://zh.wikisource.org/wiki/新五代史"
     }
   ],
   "memberIds": [
@@ -58,7 +66,56 @@
     "an-jinjun",
     "li-junqing",
     "xue-atan",
-    "an-xiuxiu"
+    "an-xiuxiu",
+    "guo-chongtao",
+    "yuan-xingqin",
+    "xia-luqi",
+    "fu-xi",
+    "wu-zhen",
+    "guo-congqian",
+    "zhu-shouyin",
+    "kang-yanxiao",
+    "li-yan-youzhou",
+    "kang-sili",
+    "zhang-jingda",
+    "zhang-qianzhao",
+    "xifang-ye",
+    "sun-zhang",
+    "gao-xinggui",
+    "gao-xingzhou",
+    "suo-zitong",
+    "zhang-wen",
+    "li-shaowen",
+    "an-shentong",
+    "cao-ru",
+    "mao-zhang",
+    "dong-zhang",
+    "li-jiji",
+    "li-ye",
+    "dou-tingwan",
+    "yang-yanwen",
+    "zhao-zaili",
+    "fang-zhiwen",
+    "wang-jianli",
+    "kang-fu",
+    "lu-siduo",
+    "li-congjing",
+    "ren-huan",
+    "li-congke",
+    "shi-jingtang",
+    "liu-zhiyuan",
+    "yan-bao",
+    "zhu-youqian",
+    "he-delun",
+    "yuan-xiangxian",
+    "zhu-hanbin",
+    "dai-siyuan",
+    "kong-qing",
+    "huo-yanwei",
+    "wang-yanqiu",
+    "duan-ning",
+    "liu-qi",
+    "zhou-zhiyu"
   ],
   "people": [
     {
@@ -868,22 +925,1276 @@
           "excerpt": "遣存孝與薛阿檀、安休休等以兵七千助罕之還擊河陽。"
         }
       ]
+    },
+    {
+      "id": "guo-chongtao",
+      "name": "郭崇韬",
+      "nameVariants": [
+        "郭崇韜",
+        "郭崇韬"
+      ],
+      "dynasty": "后唐",
+      "role": "枢密使、伐蜀招讨使",
+      "aliases": "郭崇韜 安时 安時",
+      "intro": "郭崇韬字安时，早年在李克修、李克用府中任职，李存勖时掌中门机务、任枢密使。他参与筹划灭梁，亲率军队在博州筑垒，并辅佐魏王李继岌出征前蜀。蜀平后，刘皇后听信谗言下令杀他，李继岌在成都执行，郭氏子嗣亦遭诛戮。",
+      "periodLabel": "唐末—后唐",
+      "relation": "早事李克用，李存勖时期任枢密与伐蜀招讨使",
+      "sources": [
+        {
+          "title": "旧五代史·郭崇韬相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷57"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v057"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p4",
+          "title": "《旧五代史》 · 卷 57 · 唐列传（郭崇韬）",
+          "excerpt": "莊宗即位於魏州，崇韜加檢校太保、守兵部尚書，充樞密使。"
+        },
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p10",
+          "title": "《旧五代史》 · 卷 57 · 唐列传（郭崇韬）",
+          "excerpt": "乃以繼岌為都統，崇韜為招討使。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin",
+      "name": "元行钦",
+      "nameVariants": [
+        "元行欽",
+        "元行钦",
+        "李紹榮",
+        "李绍荣"
+      ],
+      "dynasty": "后唐",
+      "role": "散员都部署、武宁军节度使",
+      "aliases": "元行欽 李绍荣 李紹榮",
+      "intro": "元行钦原为刘守光部将，降晋后被李嗣源收为养子。李存勖选取亲卫骁将时将他调入麾下，赐名李绍荣；他多次在阵中救援李存勖。后任武宁军节度使，奉命讨赵在礼无功，李存勖死后被擒，李嗣源即位后将其处死。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李嗣源养子，后调入李存勖亲军",
+      "sources": [
+        {
+          "title": "旧五代史·元行钦相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        },
+        {
+          "title": "新五代史·元行钦相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v070",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p36",
+          "title": "《新五代史》 · 卷 25 · 唐臣传（符存审、史建瑭等，附史敬思）",
+          "excerpt": "莊宗已下魏，益選驍將自衞，聞行欽驍勇，取之為散員都部署，賜姓名曰李紹榮。"
+        }
+      ]
+    },
+    {
+      "id": "xia-luqi",
+      "name": "夏鲁奇",
+      "nameVariants": [
+        "夏魯奇",
+        "夏鲁奇",
+        "李紹奇",
+        "李绍奇"
+      ],
+      "dynasty": "后唐",
+      "role": "护卫指挥使、河阳节度使",
+      "aliases": "夏魯奇 邦杰 邦傑 李绍奇 李紹奇",
+      "intro": "夏鲁奇字邦杰，由宣武军归附李存勖，任护卫指挥使，参与攻燕及梁晋战事。他曾在魏县附近力战护卫李存勖，又在中都之战擒获王彦章，后任河阳节度使。李嗣源时期历镇许州、遂州，遂州被董璋、孟知祥军围攻，粮尽兵竭，自刎而死。",
+      "periodLabel": "晋国—后唐",
+      "relation": "归附李存勖的亲卫将领",
+      "sources": [
+        {
+          "title": "旧五代史·夏鲁奇相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        },
+        {
+          "title": "旧五代史·明宗纪（夏鲁奇复姓名）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷36"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v070"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p3",
+          "title": "《旧五代史》 · 卷 70 · 唐列传（元行钦、夏鲁奇等）",
+          "excerpt": "初事宣武軍為軍校，與主將不協，遂歸於莊宗，以為護衛指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "fu-xi",
+      "name": "符习",
+      "nameVariants": [
+        "符習",
+        "符习"
+      ],
+      "dynasty": "后唐",
+      "role": "成德军兵马留后、天平军节度使",
+      "aliases": "符習",
+      "intro": "符习原属赵王王镕，率赵军从李存勖征战。王镕被张文礼杀害后，他请求报仇，李存勖命阎宝、史建瑭协助，任他为成德军兵马留后。镇州平定后，他辞让镇州节钺，后来历镇邢州、青州、天平等地，晚年归昭庆故里。",
+      "periodLabel": "晋国—后唐",
+      "relation": "赵军主将，后归李存勖并讨张文礼",
+      "sources": [
+        {
+          "title": "旧五代史·符习相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷59"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v059"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p5",
+          "title": "《旧五代史》 · 卷 59 · 唐列传",
+          "excerpt": "莊宗即令閻寶、史建瑭助習討文禮，乃以習為成德軍兵馬留後。"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhen",
+      "name": "乌震",
+      "nameVariants": [
+        "烏震",
+        "乌震"
+      ],
+      "dynasty": "后唐",
+      "role": "晋军部将、赵州刺史",
+      "aliases": "烏震",
+      "intro": "乌震出自冀州信都，原为镇州队长，逐渐升为部将，随符习在河上从征。张文礼弑王镕后，他力主报仇，虽家人被残害仍坚持攻城。镇州平后历任深、赵、易州刺史，领转运与招抚职务；李嗣源时期任河北道副招讨，接替军务时被叛兵杀害。",
+      "periodLabel": "晋国—后唐",
+      "relation": "赵军将领，随符习为晋军作战并讨张文礼",
+      "sources": [
+        {
+          "title": "旧五代史·乌震相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷59"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v059"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p8",
+          "title": "《旧五代史》 · 卷 59 · 唐列传",
+          "excerpt": "初為鎮州隊長，以功漸升部將，與符習從征於河上，頗得士心。"
+        }
+      ]
+    },
+    {
+      "id": "guo-congqian",
+      "name": "郭从谦",
+      "nameVariants": [
+        "郭從謙",
+        "郭从谦",
+        "郭門高",
+        "郭门高"
+      ],
+      "dynasty": "后唐",
+      "role": "从马直指挥使",
+      "aliases": "郭從謙 郭门高 郭門高",
+      "intro": "郭从谦以伶人身份入仕，优名郭门高，后来统领亲军从马直。李存勖同光末年，他从本营率军攻击兴教门，宫城内外交战，李存勖中流矢而死。李嗣源入洛后先任他为景州刺史，随后将其杀死；现收录的记载分见庄宗本纪及他传。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖亲军指挥使，后发动兴教门兵变",
+      "sources": [
+        {
+          "title": "旧五代史·郭从谦相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷34"
+        },
+        {
+          "title": "资治通鉴·从马直将郭从谦（优名郭门高）",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷274"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v034"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p13",
+          "title": "《旧五代史》 · 卷 34 · 唐庄宗纪8",
+          "excerpt": "從馬直指揮使郭從謙自本營率所部抽戈露刃，至興教門大呼，與黃甲兩軍引弓射興教門。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-shouyin",
+      "name": "朱守殷",
+      "nameVariants": [
+        "朱守殷"
+      ],
+      "dynasty": "后唐",
+      "role": "蕃汉马步都虞候、振武军节度使",
+      "aliases": "会儿 會兒",
+      "intro": "朱守殷小字会儿，少年时侍奉李存勖，后统领军队，任蕃汉马步都虞候、振武军节度使。他守德胜寨时因疏于防备，被王彦章攻陷南寨；同光末宫变时未及时出兵救援。李嗣源时期任河南尹、汴州节度使，在汴州据城叛乱，兵败后令部下杀死自己。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖早年侍从，后掌蕃汉马步军",
+      "sources": [
+        {
+          "title": "旧五代史·朱守殷相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p6",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "同光二年，為振武節度使，不之任，仍兼領蕃漢馬步軍。"
+        }
+      ]
+    },
+    {
+      "id": "kang-yanxiao",
+      "name": "康延孝",
+      "nameVariants": [
+        "康延孝",
+        "李紹琛",
+        "李绍琛",
+        "李繼琛",
+        "李继琛"
+      ],
+      "dynasty": "后唐",
+      "role": "捧日军使、伐蜀前锋",
+      "aliases": "李绍琛 李紹琛 李继琛 李繼琛",
+      "intro": "康延孝原在太原军中，后奔梁，同光元年率百骑归附李存勖，陈述梁军虚实，任捧日军使等职。灭梁后受赐姓名，史书有李绍琛及李继琛的记载；他又任伐蜀先锋，连下城邑。郭崇韬、朱友谦被诛后，他忧惧归朝受祸而起兵，败于任圜军，最终奉诏被杀。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由梁归附李存勖，参与灭梁与伐蜀",
+      "sources": [
+        {
+          "title": "旧五代史·康延孝相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        },
+        {
+          "title": "新五代史·康延孝相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷44"
+        },
+        {
+          "title": "旧五代史·庄宗纪（赐名继琛）",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷30"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074",
+        "new": "new-v44"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p1",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "翌日，賜田宅於鄴，以為捧日軍使兼南面招討指揮使、檢校司空，守博州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "li-yan-youzhou",
+      "name": "李严",
+      "nameVariants": [
+        "李嚴",
+        "李严",
+        "李讓坤",
+        "李让坤"
+      ],
+      "dynasty": "后唐",
+      "role": "客省使、三川招抚使",
+      "aliases": "李嚴 让坤 讓坤 李让坤 李讓坤",
+      "intro": "李严出自幽州，本名让坤，早仕燕，兼具弓马、文辩才能。同光时期任客省使，奉使前蜀后建议进讨；伐蜀时任三川招抚使，与康延孝率军先行，兼用军威和劝谕招降。李嗣源时期入蜀为兵马都监，被孟知祥所杀。他与原名李从曮、曾任凤翔节度使的同名李严分别辨认。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖客省使，兼伐蜀招抚军职",
+      "sources": [
+        {
+          "title": "旧五代史·李严相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v070"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p7",
+          "title": "《旧五代史》 · 卷 70 · 唐列传（元行钦、夏鲁奇等）",
+          "excerpt": "郭崇韜起軍之日，以嚴為三川招撫使，嚴與先鋒使康延孝將兵五千，先驅閣道，或馳以詞說，或威以兵鋒，大軍未及，所在降下。"
+        }
+      ]
+    },
+    {
+      "id": "kang-sili",
+      "name": "康思立",
+      "nameVariants": [
+        "康思立"
+      ],
+      "dynasty": "后唐",
+      "role": "河东亲骑军使、右突骑指挥使",
+      "aliases": "",
+      "intro": "康思立善骑射，李克用时任河东亲骑军使，李存勖继位后参与解潞州之围、柏乡之战、平燕及河上战事，任右突骑指挥使。后唐时期历任军州，李从珂时又率骑兵支援晋安军，唐军投降后，因愤激病发而死。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用亲骑军使，后从李存勖屡次征战",
+      "sources": [
+        {
+          "title": "旧五代史·康思立相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v070"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p10",
+          "title": "《旧五代史》 · 卷 70 · 唐列传（元行钦、夏鲁奇等）",
+          "excerpt": "莊宗嗣位，從解圍於上黨，敗梁人於柏鄉，及平薊兵，後戰於河上，皆有功，累承製加檢校戶部尚書，右突騎指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda",
+      "name": "张敬达",
+      "nameVariants": [
+        "張敬達",
+        "张敬达"
+      ],
+      "dynasty": "后唐",
+      "role": "厅直军使、后任北面行营招讨使",
+      "aliases": "張敬達 志通 生铁 生鐵",
+      "intro": "张敬达字志通，小字生铁，父亲张审为河东军将。李存勖赏识他的骑射，命他接任父职，并参与平定河南；其后历任禁军及边镇军职。李从珂时期，他统兵围攻太原的石敬瑭，被契丹援军反围于晋安寨，不愿投降，最终被杨光远杀害。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖任命的厅直军将，后历仕后唐",
+      "sources": [
+        {
+          "title": "旧五代史·张敬达相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v070"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "title": "《旧五代史》 · 卷 70 · 唐列传（元行钦、夏鲁奇等）",
+          "excerpt": "敬達少以騎射著名，莊宗知之，召令繼父職；平河南有功，繼加檢校工部尚書。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qianzhao",
+      "name": "张虔钊",
+      "nameVariants": [
+        "張虔釗",
+        "张虔钊"
+      ],
+      "dynasty": "后唐",
+      "role": "左右突骑军使、后任山南西道节度使",
+      "aliases": "張虔釗",
+      "intro": "张虔钊出自辽州，早为太原牙校，在李克用、李存勖时期任左右突骑军使，曾奉李存勖之命率骑为前锋。后来历任护驾亲军、沧州、徐州及山南西道军职。李从珂起兵后，他所统军队发生变乱，退回兴元后归附蜀，后来出兵秦雍无功而返，愤激而卒。",
+      "periodLabel": "唐末—后唐",
+      "relation": "李克用、李存勖时期的突骑军将",
+      "sources": [
+        {
+          "title": "旧五代史·张虔钊相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "初為太原牙校，以武勇聞於流輩，武皇、莊宗之世，累補左右突騎軍使。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye",
+      "name": "西方邺",
+      "nameVariants": [
+        "西方鄴",
+        "西方邺"
+      ],
+      "dynasty": "后唐",
+      "role": "孝义军指挥使、曹州刺史",
+      "aliases": "西方鄴",
+      "intro": "西方邺出自定州满城，以勇力闻名，曾游梁而未被任用。李存勖任他为孝义军指挥使，屡随征伐，后任曹州刺史。李嗣源与李存勖争夺汴州时，他率五百骑西迎李存勖；李嗣源即位后仍任用他，后因攻取荆南属州而任宁江军节度使。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖孝义军将领",
+      "sources": [
+        {
+          "title": "旧五代史·西方邺相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        },
+        {
+          "title": "新五代史·西方邺相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061",
+        "new": "new-v25"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p15",
+          "title": "《旧五代史》 · 卷 61 · 唐列传（安金全、袁建丰等）",
+          "excerpt": "莊宗以為孝義軍指揮使，累從征伐皆有功。"
+        }
+      ]
+    },
+    {
+      "id": "sun-zhang",
+      "name": "孙璋",
+      "nameVariants": [
+        "孫璋",
+        "孙璋"
+      ],
+      "dynasty": "后唐",
+      "role": "澶州都指挥使，后任鄜州节度使",
+      "aliases": "孫璋",
+      "intro": "孙璋出自齐州历城，早隶梁将杨师厚麾下，任奉化军使。李存勖入魏州后，升任澶州都指挥使；后来又为李嗣源裨校，随其入洛。其后历任赵、登、齐州及鄜州军职，曾参与讨伐定州王都，退镇后卒于洛阳。",
+      "periodLabel": "晋国—后唐",
+      "relation": "魏博归晋后的李存勖军将",
+      "sources": [
+        {
+          "title": "旧五代史·孙璋相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p17",
+          "title": "《旧五代史》 · 卷 61 · 唐列传（安金全、袁建丰等）",
+          "excerpt": "莊宗入鄴，累遷澶州都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "gao-xinggui",
+      "name": "高行珪",
+      "nameVariants": [
+        "高行珪"
+      ],
+      "dynasty": "后唐",
+      "role": "朔州刺史、云州留后",
+      "aliases": "",
+      "intro": "高行珪原为燕军骑将，刘守光任他为武州刺史。李存勖遣军攻燕时，李嗣源劝其归降；他随后遭元行钦攻打，遣高行周求援，晋军前来解围。归晋后历任朔、忻、岚州及云州军职，李嗣源时期又历镇邓、安州。",
+      "periodLabel": "晋国—后唐",
+      "relation": "攻燕期间归晋的军将",
+      "sources": [
+        {
+          "title": "旧五代史·高行珪相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p6",
+          "title": "《旧五代史》 · 卷 65 · 唐列传（李建及、石君立等）",
+          "excerpt": "明宗諭以逆順之理，行珪乃降。"
+        },
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p6",
+          "title": "《旧五代史》 · 卷 65 · 唐列传（李建及、石君立等）",
+          "excerpt": "尋以行珪為朔州刺史，曆忻、嵐二郡，遷雲州留後。"
+        }
+      ]
+    },
+    {
+      "id": "gao-xingzhou",
+      "name": "高行周",
+      "nameVariants": [
+        "高行周"
+      ],
+      "dynasty": "后唐",
+      "role": "晋军骑将，隶李嗣源部",
+      "aliases": "",
+      "intro": "高行周原在燕军，随高行珪归晋后隶李嗣源部。他曾率骑救援元行钦，李存勖想将他调入亲军，他以李嗣源救护高氏的旧恩辞谢，并表示事李嗣源也是事晋王。现收录的战事记载分见军将传记与编年史。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李嗣源部将，在李存勖晋军中征战，未因晋王索取而改换直属主将",
+      "sources": [
+        {
+          "title": "旧五代史·高行周相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        },
+        {
+          "title": "资治通鉴卷269（高行周在晋军中的记载）",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷269"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p43",
+          "title": "《资治通鉴》 · 卷 269 · 后梁纪4",
+          "excerpt": "行周辭曰：「代州養壯士，亦為大王耳，行周事代州，亦猶事大王也。代州脫行周兄弟於死，行周不忍負之。」"
+        }
+      ]
+    },
+    {
+      "id": "suo-zitong",
+      "name": "索自通",
+      "nameVariants": [
+        "索自通"
+      ],
+      "dynasty": "后唐",
+      "role": "突骑指挥使",
+      "aliases": "得之",
+      "intro": "索自通字得之，出自太原清源，少善骑射。李存勖在野外遇见他后任为右番厅直军使，后来参与攻燕、平魏博，升突骑指挥使。李嗣源时期他统禁军、任多个节镇，并讨平杨彦温；与李从珂在河中任事时有隙，李从珂即位后，他因恐惧而投洛水自尽。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖亲骑与突骑将领",
+      "sources": [
+        {
+          "title": "旧五代史·索自通相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷65"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v065"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p13",
+          "title": "《旧五代史》 · 卷 65 · 唐列传（李建及、石君立等）",
+          "excerpt": "從莊宗定魏博，改突騎指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-wen",
+      "name": "张温",
+      "nameVariants": [
+        "張溫",
+        "张温"
+      ],
+      "dynasty": "后唐",
+      "role": "永清都校、银枪效义都指挥使",
+      "aliases": "張溫 德润 德潤",
+      "intro": "张温字德润，早为梁军将领。李存勖攻邢州时得张温，任他为永清都校，后任武州刺史、山后八军都将，参与对契丹作战，升银枪效义都指挥使。后唐时期历镇多地，李从珂时期在晋州任上患病而卒。他与从马直军士王温分别辨认。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由梁军归入李存勖麾下的军将",
+      "sources": [
+        {
+          "title": "旧五代史·张温相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷59"
+        },
+        {
+          "title": "新五代史·张温相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷44"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v059",
+        "new": "new-v44"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p17",
+          "title": "《旧五代史》 · 卷 59 · 唐列传",
+          "excerpt": "莊宗伐邢台，獲之，用為永清都校，曆武州刺史、山後八軍都將。"
+        }
+      ]
+    },
+    {
+      "id": "li-shaowen",
+      "name": "李绍文",
+      "nameVariants": [
+        "李紹文",
+        "李绍文",
+        "張從楚",
+        "张从楚"
+      ],
+      "dynasty": "后唐",
+      "role": "匡霸军将、天雄军马步副都将",
+      "aliases": "李紹文 张从楚 張從楚",
+      "intro": "李绍文本姓张、名从楚，早事朱瑄及梁军，后率所部归附李存勖，受赐姓名，与曹儒分统左右匡霸军。他参与攻燕、破刘鄩及讨张文礼，又随李嗣源取郓州，后参与伐蜀，历任军州，卒于武信军节度使任上。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由梁归附李存勖的军将",
+      "sources": [
+        {
+          "title": "旧五代史·李绍文相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷59"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v059"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p18",
+          "title": "《旧五代史》 · 卷 59 · 唐列传",
+          "excerpt": "莊宗嘉納之，賜姓名，分其兩將三千人為左右匡霸軍旅，仍令紹文、曹儒分將之。"
+        }
+      ]
+    },
+    {
+      "id": "an-shentong",
+      "name": "安审通",
+      "nameVariants": [
+        "安審通",
+        "安审通"
+      ],
+      "dynasty": "后唐",
+      "role": "先锋指挥使、北京右厢马军都指挥使",
+      "aliases": "安審通",
+      "intro": "安审通是安金全的侄辈，少年事李存勖，屡有战功，任先锋指挥使。同光初任北京右厢马军都指挥使，屯奉化军；后来随李嗣源入洛，历任单、齐、沧州军职。围定州王都时，他亲冒矢石，被飞石击中而死，记载附见安金全传。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖先锋及北京马军将领",
+      "sources": [
+        {
+          "title": "旧五代史·安审通相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷61"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v061"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p3",
+          "title": "《旧五代史》 · 卷 61 · 唐列传（安金全、袁建丰等）",
+          "excerpt": "審通，金全之猶子也。幼事莊宗，累有戰功，轉先鋒指揮使。同光初，為北京右廂馬軍都指揮使，屯奉化軍。"
+        }
+      ]
+    },
+    {
+      "id": "cao-ru",
+      "name": "曹儒",
+      "nameVariants": [
+        "曹儒"
+      ],
+      "dynasty": "后唐",
+      "role": "匡霸军将领",
+      "aliases": "",
+      "intro": "曹儒原为梁军别将，与张从楚（后赐名李绍文）在柏乡败后收拢残军。后来两人率部归附李存勖，所部三千人被分为左右匡霸军，由二人分别统领。其本次主要记载附见李绍文传，不补造籍贯、生卒或独立传记。",
+      "periodLabel": "晋国—后唐",
+      "relation": "与李绍文共同归附李存勖的军将",
+      "sources": [
+        {
+          "title": "旧五代史·曹儒相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷59"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v059"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p18",
+          "title": "《旧五代史》 · 卷 59 · 唐列传",
+          "excerpt": "莊宗嘉納之，賜姓名，分其兩將三千人為左右匡霸軍旅，仍令紹文、曹儒分將之。"
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang",
+      "name": "毛璋",
+      "nameVariants": [
+        "毛璋"
+      ],
+      "dynasty": "后唐",
+      "role": "沧州节度使、伐蜀军将",
+      "aliases": "",
+      "intro": "毛璋原为沧州小校，戴思远弃城后，他以沧州归附李存勖，随后历任贝、辽州军职，参与河上战事，灭梁后任沧州节度使。他又参与伐蜀，后镇邠、潞州；李嗣源时期因骄僭不法等事被流放，途中赐死。伐蜀军职在本纪与本传表述不同，分别保留。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由沧州归附李存勖，参与河上战事及伐蜀",
+      "sources": [
+        {
+          "title": "旧五代史·毛璋相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷73"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v073"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p1",
+          "title": "《旧五代史》 · 卷 73 · 唐列传（毛璋、段凝等）",
+          "excerpt": "璋性凶悖，有膽略，從征河上，屢有戰功。梁平，授滄州節度使。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang",
+      "name": "董璋",
+      "nameVariants": [
+        "董璋"
+      ],
+      "dynasty": "后唐",
+      "role": "邠州节度使、伐蜀右厢军将",
+      "aliases": "",
+      "intro": "董璋原为梁军骁将，曾攻下泽州。梁亡后归附李存勖，历任泽州、邠州军职，伐蜀时任行营右厢马步都虞候，并受郭崇韬倚重，蜀平后镇东川。李嗣源时期，他与孟知祥联合反抗朝廷，后来二人交恶，董璋出兵西川失败，回东川后被部众杀死。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由梁归附李存勖，参与伐蜀并镇东川",
+      "sources": [
+        {
+          "title": "旧五代史·董璋相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷62"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v062"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "title": "《旧五代史》 · 卷 62 · 唐列传（董璋等）",
+          "excerpt": "九月，大舉伐蜀，以璋為行營右廂馬步都虞候。"
+        }
+      ]
+    },
+    {
+      "id": "li-jiji",
+      "name": "李继岌",
+      "nameVariants": [
+        "李繼岌",
+        "李继岌"
+      ],
+      "dynasty": "后唐",
+      "role": "魏王、西川四面行营都统",
+      "aliases": "李繼岌 魏王 魏王继岌 魏王繼岌 和哥",
+      "intro": "李继岌是李存勖的皇子，封魏王。同光三年受命为伐蜀行营都统，由郭崇韬辅佐军政，攻取前蜀；随后执行刘皇后杀郭崇韬的教令。还军途中听闻父亲去世、部众散离，死于归途。现收录的记载分见庄宗本纪与伐蜀将领传。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖皇子，伐蜀行营都统",
+      "sources": [
+        {
+          "title": "旧五代史·李继岌相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷33"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v033"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p5",
+          "title": "《旧五代史》 · 卷 33 · 唐庄宗纪7",
+          "excerpt": "今命興聖宮使、魏王繼岌充西川四面行營都統，命侍中、樞密使郭崇韜充西川東北面行營都招討製置等使，"
+        }
+      ]
+    },
+    {
+      "id": "li-ye",
+      "name": "李邺",
+      "nameVariants": [
+        "李鄴",
+        "李邺"
+      ],
+      "dynasty": "后唐",
+      "role": "庄宗军中裨将，后任亳州刺史",
+      "aliases": "李鄴",
+      "intro": "李邺出自魏州，少年事杨师厚。李存勖进入魏州后，他逐渐升为裨将，后历任郡守，迁亳州刺史。因贪污、杀人等事受告，被贬为郴州司户，又流放崖州，最终被赐死。其短传记载有限，不补造更具体的统军职位或生卒。",
+      "periodLabel": "晋国—后唐",
+      "relation": "魏博归晋后的李存勖裨将",
+      "sources": [
+        {
+          "title": "旧五代史·李邺相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷73"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v073"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p9",
+          "title": "《旧五代史》 · 卷 73 · 唐列传（毛璋、段凝等）",
+          "excerpt": "及莊宗入魏，漸轉裨將，曆數郡刺史，後遷亳州。"
+        }
+      ]
+    },
+    {
+      "id": "dou-tingwan",
+      "name": "窦廷琬",
+      "nameVariants": [
+        "竇廷琬",
+        "窦廷琬"
+      ],
+      "dynasty": "后唐",
+      "role": "复州游奕使、庆州防御使",
+      "aliases": "竇廷琬",
+      "intro": "窦廷琬世为青州牙将，早被朱温选入麾下。同光初任复州游奕使，又任贝州刺史；提出经营庆州盐池后，被任为庆州防御使。他施以严刑、扰及边人，课利不达后奉诏移金州，却据庆州反叛，被李敬周讨平，家族亦遭诛戮。",
+      "periodLabel": "晋国—后唐",
+      "relation": "朱温旧部，李存勖时任游奕与边州军职",
+      "sources": [
+        {
+          "title": "旧五代史·窦廷琬相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p8",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "同光初，為復州遊奕使，奸盜屏跡，曆貝州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "yang-yanwen",
+      "name": "杨彦温",
+      "nameVariants": [
+        "楊彥溫",
+        "杨彦温"
+      ],
+      "dynasty": "后唐",
+      "role": "庄宗军中裨将，后任河中衙内指挥使",
+      "aliases": "楊彥溫",
+      "intro": "杨彦温出自汴州，本为梁军小校，李存勖时逐渐升为裨将。李嗣源时期在李从珂的河中军中任副指挥使、衙内指挥使。后来趁李从珂外出据城反叛，索自通、药彦稠奉命讨平并将其杀死；史书保留其自称奉枢密院命令和当时人的议论，不将此说断为确实主谋。",
+      "periodLabel": "晋国—后唐",
+      "relation": "梁军旧校，李存勖时期升为裨将",
+      "sources": [
+        {
+          "title": "旧五代史·杨彦温相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p10",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "楊彥溫，汴州人，本梁朝之小校也。莊宗朝，累遷裨將。"
+        }
+      ]
+    },
+    {
+      "id": "zhao-zaili",
+      "name": "赵在礼",
+      "nameVariants": [
+        "趙在禮",
+        "赵在礼"
+      ],
+      "dynasty": "后唐",
+      "role": "效节指挥使，后任多镇节度使",
+      "aliases": "趙在禮 干臣 幹臣",
+      "intro": "赵在礼字干臣，出自涿州，早事刘仁恭、刘守文，后来归晋。李存勖时任效节指挥使，率魏兵戍瓦桥关；返军至贝州，被皇甫晖等乱兵胁迫为首，攻入魏州。李嗣源随后奉命讨魏，因军变入魏继而南下。赵在礼后来历镇多地，契丹灭晋后遭逼辱，自缢而死。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖效节军将，后被魏兵胁迫起事",
+      "sources": [
+        {
+          "title": "新五代史·赵在礼相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷46"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v46"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p2",
+          "title": "《新五代史》 · 卷 46 · 杂传",
+          "excerpt": "莊宗時，為効節指揮使，將魏兵戍瓦橋關。"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen",
+      "name": "房知温",
+      "nameVariants": [
+        "房知溫",
+        "房知温",
+        "李紹英",
+        "李绍英"
+      ],
+      "dynasty": "后唐",
+      "role": "澶州刺史、瓦桥关军将",
+      "aliases": "房知溫 伯玉 李绍英 李紹英",
+      "intro": "房知温字伯玉，早在赤甲都、魏州马斗军中任职。李存勖取得魏博后，任他为澶州刺史，赐名李绍英，又历任曹、贝二州刺史，戍守瓦桥关。后来率军拥护李嗣源，任泰宁军节度使、北面招讨使，历经卢台军乱；晚年以聚敛及不恤政事受史书批评。",
+      "periodLabel": "晋国—后唐",
+      "relation": "魏博归晋后受李存勖任命的军将",
+      "sources": [
+        {
+          "title": "新五代史·房知温相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷46"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v46"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p16",
+          "title": "《新五代史》 · 卷 46 · 杂传",
+          "excerpt": "莊宗取魏博，得知溫，賜姓李氏，名曰紹英，以為澶州刺史，歷曹、貝二州刺史，戍瓦橋關。"
+        }
+      ]
+    },
+    {
+      "id": "wang-jianli",
+      "name": "王建立",
+      "nameVariants": [
+        "王建立"
+      ],
+      "dynasty": "后唐",
+      "role": "代州虞候将，后任成德节度使",
+      "aliases": "",
+      "intro": "王建立出自辽州榆社，在李存勖时期任李嗣源的代州虞候将。曾因惩治侵扰代州百姓的宫中女奴触怒李存勖，受李嗣源庇护而免死。李嗣源南下时，他在常山保护其家属，后来任成德等镇节度使，与安重诲多有矛盾。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李嗣源任代州刺史时的虞候将，活动于李存勖时期晋军",
+      "sources": [
+        {
+          "title": "新五代史·王建立相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷46"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v46"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p33",
+          "title": "《新五代史》 · 卷 46 · 杂传",
+          "excerpt": "唐明宗為代州刺史，以建立為虞候將。莊宗嘗遣女奴之代州祭祭墓，女奴侵擾代人，建立捕而笞之。"
+        }
+      ]
+    },
+    {
+      "id": "kang-fu",
+      "name": "康福",
+      "nameVariants": [
+        "康福"
+      ],
+      "dynasty": "后唐",
+      "role": "晋军偏将、相州小马坊使",
+      "aliases": "",
+      "intro": "康福出自蔚州军校之家，以骑射在晋军任偏将。李存勖令他在相州管理马坊，马匹一年多后大为繁衍。李嗣源自魏州南下时，他献马归附，随后历任飞龙使、襄州兵马都监，曾随刘训讨荆南；后来镇灵武，因招抚戎部、民间丰稔而得名，后晋时移河中，卒于京师。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖军中部属，负责相州军马",
+      "sources": [
+        {
+          "title": "新五代史·康福相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷46"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v46"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p43",
+          "title": "《新五代史》 · 卷 46 · 杂传",
+          "excerpt": "莊宗嘗曰：「吾家以羊馬為生，福狀貌類胡人而豐厚，胡宜羊馬。」乃令福牧馬于相州，為小馬坊使，逾年馬大蕃滋。"
+        }
+      ]
+    },
+    {
+      "id": "lu-siduo",
+      "name": "陆思铎",
+      "nameVariants": [
+        "陸思鐸",
+        "陆思铎"
+      ],
+      "dynasty": "后唐",
+      "role": "龙武右厢都指挥使",
+      "aliases": "陸思鐸",
+      "intro": "陆思铎出自澶州临黄，早为宣武军士，以善射闻名，升拱辰左厢都指挥使。梁晋对垒时，他将姓名刻在箭尾，曾射中李存勖马鞍。梁亡后，他向李存勖请罪，受任龙武右厢都指挥使，后来在后晋任陈、蔡州刺史，卒年五十四。",
+      "periodLabel": "晋国—后唐",
+      "relation": "由梁归李存勖，任龙武军指挥使",
+      "sources": [
+        {
+          "title": "新五代史·陆思铎相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷45"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v45"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p54",
+          "title": "《新五代史》 · 卷 45 · 杂传",
+          "excerpt": "思鐸伏地請死，莊宗慰而起之，拜龍武右廂都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "li-congjing",
+      "name": "李从璟",
+      "nameVariants": [
+        "李從璟",
+        "李从璟",
+        "李繼璟",
+        "李继璟",
+        "李從審",
+        "李从审"
+      ],
+      "dynasty": "后唐",
+      "role": "金枪指挥使",
+      "aliases": "李從璟 李继璟 李繼璟 李从审 李從審",
+      "intro": "李从璟是李嗣源之子，初名从审，随李存勖征战，任金枪指挥使，后来受赐名李继璟。同光末，父亲在魏州发生军变后，他奉李存勖命传诏，却被元行钦拘留；获释后仍跟随李存勖。李存勖再次遣他与父亲通问时，元行钦将他杀死。现收录的记载主要见元行钦传与本纪。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖金枪军将，李嗣源之子",
+      "sources": [
+        {
+          "title": "新五代史·李从璟相关记载",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷25"
+        },
+        {
+          "title": "旧五代史·李从璟相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷70"
+        },
+        {
+          "title": "新五代史·明宗家人传（从审、从璟、继璟异名依据）",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷15"
+        }
+      ],
+      "readingStarts": {
+        "new": "new-v25",
+        "old": "old-v070"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p40",
+          "title": "《新五代史》 · 卷 25 · 唐臣传（符存审、史建瑭等，附史敬思）",
+          "excerpt": "莊宗遣金槍指揮使李從璟馳詔明宗計事。從璟，明宗子也。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan",
+      "name": "任圜",
+      "nameVariants": [
+        "任圜"
+      ],
+      "dynasty": "后唐",
+      "role": "伐蜀军招讨副使、后任宰相",
+      "aliases": "",
+      "intro": "任圜原任昭义军节度判官，曾到镇州城下劝张处瑾投降。后来在李存勖派出的伐蜀军中任事，郭崇韬死后，李继岌委任他为副招讨使，率军平定康延孝之乱。李嗣源即位后任他为宰相、判三司。相关军职及战事记载分见伐蜀将领传记和本纪。",
+      "periodLabel": "晋国—后唐",
+      "relation": "李存勖伐蜀军将，由李继岌委为副招讨使",
+      "sources": [
+        {
+          "title": "旧五代史·任圜相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷74"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v074"
+      },
+      "serviceEvidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p4",
+          "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
+          "excerpt": "夜半，令監軍使李廷安召任圜，因署為副招討使。令圜率兵七千騎，與都指揮使梁漢顒、監軍李廷安討之。"
+        }
+      ]
     }
   ],
   "memberRelations": {
-    "li-siyuan": "李克用养子，统领亲骑与横冲都",
-    "li-sizhao": "李克柔养子，李克用麾下主将；新史记克用收取后交克柔养育",
+    "li-siyuan": "李克用养子及军将，后任李存勖蕃汉副总管、总管",
+    "li-sizhao": "李克用时期主将，后从李存勖征战，代阎宝攻镇州",
     "li-cunxin": "李克用养子，河东蕃汉都将",
-    "li-cunjin": "李克用养子，义儿军将领",
-    "li-siben": "李克用养子，义儿军、威远军将领",
-    "li-sien": "李克用养子，铁林军、突阵军将领",
-    "li-cunzhang": "李克用部将，统领义儿军",
-    "fu-cunshen": "受李克用赐姓名的义儿军将领",
-    "li-cunxian": "李克用养子，义儿军将领",
+    "li-cunjin": "李克用养子与军将，后任李存勖行营马步都虞候",
+    "li-siben": "李克用养子与军将，后随李存勖攻魏博、刘鄩",
+    "li-sien": "李克用养子与军将，后任李存勖天雄军都指挥使",
+    "li-cunzhang": "李克用时期军将，后任李存勖河东马步军使",
+    "fu-cunshen": "李克用赐姓名的军将，后为李存勖统领前锋、任节度使",
+    "li-cunxian": "李克用养子与军将，后奉李存勖命救援河中",
     "shi-jingsi": "李克用骑将、九府都督",
     "kang-junli": "李克用部将，曾任南面招讨使",
     "li-cunxiao": "李克用养子，前锋骑将",
-    "ding-hui": "由朱温军归附李克用，李存勖时任都招讨使",
-    "yang-shihou": "早年随李罕之入李克用军，后转仕朱温；未以梁时战功回填晋时经历"
+    "ding-hui": "由梁归李克用，后任李存勖都招讨使",
+    "yang-shihou": "早年随李罕之入李克用军，后转仕朱温；未以梁时战功回填晋时经历",
+    "guo-chongtao": "早事李克用，李存勖时期任枢密与伐蜀招讨使",
+    "yuan-xingqin": "李嗣源养子，后调入李存勖亲军",
+    "xia-luqi": "归附李存勖的亲卫将领",
+    "fu-xi": "赵军主将，后归李存勖并讨张文礼",
+    "wu-zhen": "赵军将领，随符习为晋军作战并讨张文礼",
+    "guo-congqian": "李存勖亲军指挥使，后发动兴教门兵变",
+    "zhu-shouyin": "李存勖早年侍从，后掌蕃汉马步军",
+    "kang-yanxiao": "由梁归附李存勖，参与灭梁与伐蜀",
+    "li-yan-youzhou": "李存勖客省使，兼伐蜀招抚军职",
+    "kang-sili": "李克用亲骑军使，后从李存勖屡次征战",
+    "zhang-jingda": "李存勖任命的厅直军将，后历仕后唐",
+    "zhang-qianzhao": "李克用、李存勖时期的突骑军将",
+    "xifang-ye": "李存勖孝义军将领",
+    "sun-zhang": "魏博归晋后的李存勖军将",
+    "gao-xinggui": "攻燕期间归晋的军将",
+    "gao-xingzhou": "李嗣源部将，在李存勖晋军中征战，未因晋王索取而改换直属主将",
+    "suo-zitong": "李存勖亲骑与突骑将领",
+    "zhang-wen": "由梁军归入李存勖麾下的军将",
+    "li-shaowen": "由梁归附李存勖的军将",
+    "an-shentong": "李存勖先锋及北京马军将领",
+    "cao-ru": "与李绍文共同归附李存勖的军将",
+    "mao-zhang": "由沧州归附李存勖，参与河上战事及伐蜀",
+    "dong-zhang": "由梁归附李存勖，参与伐蜀并镇东川",
+    "li-jiji": "李存勖皇子，伐蜀行营都统",
+    "li-ye": "魏博归晋后的李存勖裨将",
+    "dou-tingwan": "朱温旧部，李存勖时任游奕与边州军职",
+    "yang-yanwen": "梁军旧校，李存勖时期升为裨将",
+    "zhao-zaili": "李存勖效节军将，后被魏兵胁迫起事",
+    "fang-zhiwen": "魏博归晋后受李存勖任命的军将",
+    "wang-jianli": "李嗣源任代州刺史时的虞候将，活动于李存勖时期晋军",
+    "kang-fu": "李存勖军中部属，负责相州军马",
+    "lu-siduo": "由梁归李存勖，任龙武军指挥使",
+    "li-congjing": "李存勖金枪军将，李嗣源之子",
+    "ren-huan": "李存勖伐蜀军将，由李继岌委为副招讨使",
+    "li-congke": "李存勖时期晋军将领，隶李嗣源；后来即位为后唐末帝",
+    "shi-jingtang": "李嗣源麾下骑将，参与李存勖部署的河上征战",
+    "liu-zhiyuan": "李嗣源麾下军将，在李存勖时期随军征战",
+    "yan-bao": "由梁归附李存勖，任东南面招讨使",
+    "zhu-youqian": "转附李存勖的河中藩将，赐名李继麟",
+    "he-delun": "魏博军变后归附李存勖，授云州节度但未赴任；后遭张承业杀害",
+    "yuan-xiangxian": "梁亡后受李存勖任命，继续镇宋州等地，赐名李绍安",
+    "zhu-hanbin": "梁亡后归李存勖，任左龙武统军",
+    "dai-siyuan": "梁亡后归附李存勖，继续镇宣化；不将梁时战功计作庄宗功劳",
+    "kong-qing": "梁亡后受李存勖任命，由襄州移镇昭义",
+    "huo-yanwei": "梁亡后归李存勖，任北面招讨副使",
+    "wang-yanqiu": "梁亡后归李存勖，任北面行营马军都指挥使",
+    "duan-ning": "梁亡后归李存勖，赐名李绍钦，任泰宁军节度使",
+    "liu-qi": "梁亡后受李存勖任命，正授晋州节度、后移安州",
+    "zhou-zhiyu": "梁亡后归李存勖，任伐蜀前锋骑将",
+    "zhou-dewei": "李克用骑将，后从李存勖救潞州并统军征战",
+    "shi-jiantang": "李克用时期军将，后为李存勖晋军先锋、参与柏乡及镇州之战",
+    "an-jinquan": "李克用骑将，后随李存勖作战及救守太原",
+    "an-yuanxin": "李克用军将，后任李存勖内衙副都指挥使等",
+    "liu-xun-yonghe": "李克用马军旧将，后归李存勖并任襄州节度使",
+    "liu-yancong": "李克用军将，后随李存勖救潞州、任铁林指挥使",
+    "yuan-jianfeng": "李克用所收养的軍将，后为李存勖左厢马军指挥使",
+    "zhang-jingxun": "李克用甲坊职官，后随李存勖从军并任利州留后",
+    "zhang-zunhui": "李克用牙门将，后随李存勖征战并任马步都虞候",
+    "wang-jianji": "李克用义儿军将，后统李存勖银枪效节亲军",
+    "shi-junli": "李嗣昭昭义军将，在李存勖时期奉李嗣昭命救援太原",
+    "zhang-tingyu": "李克用军将，后任李存勖天雄军左厢马步都虞候",
+    "wang-sitong": "由幽州归李克用，后随李存勖平定山东并掌诸军"
+  },
+  "memberRelationshipSubjects": {
+    "guo-chongtao": "李克用、李存勖",
+    "yuan-xingqin": "李存勖",
+    "xia-luqi": "李存勖",
+    "fu-xi": "李存勖",
+    "wu-zhen": "符习",
+    "guo-congqian": "李存勖",
+    "zhu-shouyin": "李存勖",
+    "kang-yanxiao": "李存勖",
+    "li-yan-youzhou": "李存勖",
+    "kang-sili": "李克用、李存勖",
+    "zhang-jingda": "李存勖",
+    "zhang-qianzhao": "李克用、李存勖",
+    "xifang-ye": "李存勖",
+    "sun-zhang": "李存勖",
+    "gao-xinggui": "李存勖",
+    "gao-xingzhou": "李嗣源",
+    "suo-zitong": "李存勖",
+    "zhang-wen": "李存勖",
+    "li-shaowen": "李存勖",
+    "an-shentong": "李存勖",
+    "cao-ru": "李存勖",
+    "mao-zhang": "李存勖",
+    "dong-zhang": "李存勖",
+    "li-jiji": "李存勖",
+    "li-ye": "李存勖",
+    "dou-tingwan": "李存勖",
+    "yang-yanwen": "李存勖",
+    "zhao-zaili": "李存勖",
+    "fang-zhiwen": "李存勖",
+    "wang-jianli": "李嗣源",
+    "kang-fu": "李存勖",
+    "lu-siduo": "李存勖",
+    "li-congjing": "李存勖",
+    "ren-huan": "李继岌",
+    "li-congke": "李存勖",
+    "shi-jingtang": "李嗣源",
+    "liu-zhiyuan": "李嗣源",
+    "yan-bao": "李存勖",
+    "zhu-youqian": "李存勖",
+    "he-delun": "李存勖",
+    "yuan-xiangxian": "李存勖",
+    "zhu-hanbin": "李存勖",
+    "dai-siyuan": "李存勖",
+    "kong-qing": "李存勖",
+    "huo-yanwei": "李存勖",
+    "wang-yanqiu": "李存勖",
+    "duan-ning": "李存勖",
+    "liu-qi": "李存勖",
+    "zhou-zhiyu": "李存勖",
+    "li-siyuan": "李克用、李存勖",
+    "li-sizhao": "李克用、李存勖",
+    "li-cunjin": "李克用、李存勖",
+    "li-siben": "李克用、李存勖",
+    "li-sien": "李克用、李存勖",
+    "li-cunzhang": "李克用、李存勖",
+    "fu-cunshen": "李克用、李存勖",
+    "li-cunxian": "李克用、李存勖",
+    "ding-hui": "李克用、李存勖",
+    "zhou-dewei": "李克用、李存勖",
+    "shi-jiantang": "李克用、李存勖",
+    "an-jinquan": "李克用、李存勖",
+    "an-yuanxin": "李克用、李存勖",
+    "liu-xun-yonghe": "李克用、李存勖",
+    "liu-yancong": "李克用、李存勖",
+    "yuan-jianfeng": "李克用、李存勖",
+    "zhang-jingxun": "李克用、李存勖",
+    "zhang-zunhui": "李克用、李存勖",
+    "wang-jianji": "李克用、李存勖",
+    "shi-junli": "李嗣昭",
+    "zhang-tingyu": "李克用、李存勖",
+    "wang-sitong": "李克用、李存勖"
   }
 }

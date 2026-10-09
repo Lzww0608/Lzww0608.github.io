@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将及李克用麾下将领相关列传；合计 77 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将及李克用、李存勖麾下将领相关列传；合计 82 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -89,6 +89,16 @@ for volume in [21, 22, 23, 32, 43, 44, 45, 46]:
 for volume, title in [(15, '梁列传（李罕之等）'),
                        (61, '唐列传（安金全、袁建丰等）'),
                        (65, '唐列传（李建及、石君立等）')]:
+    SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
+
+# The shared Hedong / Later Tang topic also includes Li Cunxu's commanders.
+# Keep their complete selected biographies and every attached source note.
+for volume, title in [(57, '唐列传（郭崇韬）'),
+                       (62, '唐列传（董璋等）'),
+                       (70, '唐列传（元行钦、夏鲁奇等）'),
+                       (73, '唐列传（毛璋、段凝等）'),
+                       (74, '唐列传（康延孝、朱守殷等）')]:
     SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
                       title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
 YEARS = ['907—908', '908—911', '911—913', '913—917', '917—919', '919—922', '923', '924—925', '925—926', '926—927', '927—929', '930—932', '932—934', '934—935', '936', '937—938', '939—941', '942—944', '944—945', '945—946', '947', '947—948', '948—949', '950', '951—952', '952—954', '954—956', '956—957', '958—959']
@@ -303,7 +313,7 @@ def extract(html, with_tags=False, index_page=False):
             preface(node)
             return
         if excluded(node): return
-        if node.tag in {'p', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'} or (index_page and node.tag == 'div' and re.search(r'float\s*:\s*right', node.attrs.get('style', '')) and not any(isinstance(child, Node) and child.tag == 'div' for child in node.children)):
+        if node.tag in {'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'} or (index_page and node.tag == 'div' and re.search(r'float\s*:\s*right', node.attrs.get('style', '')) and not any(isinstance(child, Node) and child.tag == 'div' for child in node.children)):
             value = clean_text(node)
             value = re.sub(r'[\t\r\f\v ]+', ' ', value)
             value = re.sub(r' *\n *', '\n', value).strip()

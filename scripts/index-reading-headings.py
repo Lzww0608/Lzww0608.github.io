@@ -12,6 +12,10 @@ spec.loader.exec_module(archive)
 
 
 def heading_level(tag, text, book_id):
+    if tag == 'h1':
+        # The reading page already has its own h1; a source-level title starts
+        # the internal hierarchy below it without being dropped.
+        return 2
     if tag in {'h2', 'h3', 'h4', 'h5', 'h6'}:
         return int(tag[1])
     # These two archived books also use explicit textual title markers.

@@ -10,6 +10,7 @@ const paragraphs = new Map(chapters.flatMap(chapter => chapter.paragraphs.map(pa
 test('source section headings, year headings and marked subheadings keep their distinct levels', () => {
   for (const [id, tag] of [
     ['old-v005-p1', 'h2'], ['new-v02-p1', 'h2'],
+    ['old-v057-p1', 'h2'], ['old-v057-p15', 'h2'],
     ['tongjian-v266-p3', 'h3'], ['tongjian-v280-p3', 'h3'],
     ['quewen-v001-p2', 'h2'], ['quewen-v001-p6', 'h3'], ['quewen-v001-p7', 'h4'],
     ['shibu-v001-p1', 'h2'], ['chunqiu-v001-p1', 'h2'], ['huiyao-v001-p1', 'h2'],

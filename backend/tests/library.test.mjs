@@ -5,7 +5,7 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 178);
+  assert.equal(chapters.length, 183);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -15,7 +15,7 @@ test('the archive has verified source hashes, complete emperor annals and all Fi
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,59,61,63,64,65, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
+    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
@@ -71,12 +71,15 @@ test('Li Keyong topic reuses existing officers and binds new military evidence t
   const previousPeople = ['emperors', 'taibao', 'zhu-wen-generals'].flatMap(file =>
     JSON.parse(readFileSync(new URL(`../../content/five-dynasties/${file}.json`, import.meta.url), 'utf8')).people);
   const previousIds = new Set(previousPeople.map(person => person.id));
-  assert.equal(topic.memberIds.length, 38);
-  assert.equal(topic.people.length, 24);
+  assert.equal(topic.memberIds.length, 87);
+  assert.equal(topic.people.length, 58);
   assert.ok(topic.people.every(person => !previousIds.has(person.id)), 'topic membership reuses an identity, not a duplicate biography');
-  assert.equal(topic.memberIds.filter(id => previousIds.has(id)).length, 14);
+  assert.equal(topic.memberIds.filter(id => previousIds.has(id)).length, 29);
   assert.equal(topic.relationshipSubject, '李克用');
-  assert.ok(!topic.memberIds.includes('li-cunxu') && !topic.memberIds.includes('yan-bao'));
+  assert.equal(topic.memberRelationshipSubjects['yuan-xingqin'], '李存勖');
+  assert.equal(topic.memberRelationshipSubjects['guo-chongtao'], '李克用、李存勖');
+  assert.equal(topic.memberRelationshipSubjects['ren-huan'], '李继岌');
+  assert.ok(!topic.memberIds.includes('li-cunxu') && topic.memberIds.includes('yan-bao'));
   const byChapter = new Map(chapters.map(chapter => [chapter.id, chapter]));
   for (const person of topic.people) {
     assert.equal(person.dynasty, '后唐');

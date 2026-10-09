@@ -180,13 +180,14 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
     };
     for (const rule of rules.people) {
       const { masked, hasOtherName } = maskOtherNames(paragraph.original, rule);
-      const fullNames = rule.names.filter(term => masked.includes(term));
+      // A checked paragraph may refer to a different person with the same name.
+      const excludedTerms = exclusions.get(`${paragraph.id}/${rule.personId}`) ?? [];
+      const fullNames = rule.names.filter(term => !excludedTerms.includes(term) && masked.includes(term));
       // A separately named contemporary can then be referred to by the same short
       // name throughout this paragraph (張知遠、張承祐、王宗訓、石/米君立).
       const shortNames = !hasOtherName && narrativeContext.test(masked)
-        ? rule.shortNames.filter(term => masked.includes(term)) : [];
-      const excludedTitles = exclusions.get(`${paragraph.id}/${rule.personId}`) ?? [];
-      const titles = rule.titles.filter(term => !excludedTitles.includes(term) && masked.includes(term));
+        ? rule.shortNames.filter(term => !excludedTerms.includes(term) && masked.includes(term)) : [];
+      const titles = rule.titles.filter(term => !excludedTerms.includes(term) && masked.includes(term));
       const matched = [...fullNames, ...shortNames, ...titles];
       if (matched.length) add(rule.personId, matchedKind(masked, matched, directKind));
     }

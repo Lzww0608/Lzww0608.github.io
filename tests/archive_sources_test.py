@@ -14,7 +14,7 @@ class SourceIntegrityTests(unittest.TestCase):
     def test_general_biographies_are_complete_fixed_revision_archives(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         chapters = {chapter['id']: chapter for chapter in catalog['chapters']}
-        expected = [f'old-v{volume:03}' for volume in [13, 16, 19, 20, 21, 22, 23, 59, 63, 64]]
+        expected = [f'old-v{volume:03}' for volume in [13, 16, 19, 20, 21, 22, 23, 57, 59, 62, 63, 64, 70, 73, 74]]
         expected += [f'new-v{volume:02}' for volume in [21, 22, 23, 32, 43, 44, 45, 46]]
         for chapter_id in expected:
             with self.subTest(chapter=chapter_id):
@@ -55,7 +55,8 @@ class SourceIntegrityTests(unittest.TestCase):
         before = [file.read_bytes() for file in files]
         with patch.object(archive, 'request', side_effect=AssertionError('Cached sources must not be fetched again')):
             result = archive.capture(current_spec, previous)
-        self.assertEqual(result['subjects'], ['liu-zhiyuan', 'liu-chengyou'])
+        self.assertEqual(result['subjects'][:2], ['liu-zhiyuan', 'liu-chengyou'])
+        self.assertIn('gao-xingzhou', result['subjects'])
         self.assertEqual(result['provenance'], previous['provenance'])
         self.assertEqual([file.read_bytes() for file in files], before)
 
@@ -82,13 +83,13 @@ class SourceIntegrityTests(unittest.TestCase):
         self.assertEqual(archive.extract(html), ['莊宗同光元年', '正文〈校勘按語〉', '第二段'])
 
     def test_heading_tags_are_available_without_reclassifying_short_prose(self):
-        html = '<div class="ws-header"><h2>站点导航</h2></div><h2>開平元年</h2><p>開平元年</p><h3>序</h3><p>正文〈按語〉</p>'
+        html = '<div class="ws-header"><h2>站点导航</h2></div><h1>人物传</h1><h2>開平元年</h2><p>開平元年</p><h3>序</h3><p>正文〈按語〉</p>'
         tagged = archive.extract(html, with_tags=True)
-        self.assertEqual(tagged, [('開平元年', 'h2'), ('開平元年', 'p'), ('序', 'h3'), ('正文〈按語〉', 'p')])
+        self.assertEqual(tagged, [('人物传', 'h1'), ('開平元年', 'h2'), ('開平元年', 'p'), ('序', 'h3'), ('正文〈按語〉', 'p')])
         self.assertEqual([text for text, _ in tagged], archive.extract(html))
 
     def test_no_visible_source_text_is_silently_dropped(self):
-        blocks = {'p', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'}
+        blocks = {'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'}
         for source in (ROOT / 'content/five-dynasties/sources').glob('*.json'):
             with self.subTest(source=source.stem):
                 payload = json.loads(source.read_text())

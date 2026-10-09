@@ -32,11 +32,16 @@ test('generation scans the whole canonical archive and reproduces the saved shar
   }
 });
 
-test('Li Keyong generals share identities and aggregate biographies with independently recorded military passages', () => {
-  assert.equal(keyongGenerals.memberIds.length, 38);
-  assert.equal(keyongGenerals.people.length, 24);
-  assert.ok(!keyongGenerals.memberIds.includes('li-cunxu'), 'a childhood expedition is not a military appointment');
-  assert.ok(!keyongGenerals.memberIds.includes('yan-bao'), 'joining Li Cunxu later does not imply Li Keyong service');
+test('the combined Li Keyong and Li Cunxu topic shares identities without conflating service periods', () => {
+  assert.equal(keyongGenerals.memberIds.length, 87);
+  assert.equal(keyongGenerals.people.length, 58);
+  assert.ok(!keyongGenerals.memberIds.includes('li-cunxu'), 'the commander is not counted as his own general');
+  assert.ok(keyongGenerals.memberIds.includes('yan-bao'));
+  assert.equal(keyongGenerals.memberRelationshipSubjects['yan-bao'], '李存勖', 'joining the son does not imply service under the father');
+  for (const id of ['guo-chongtao', 'kang-sili', 'zhang-qianzhao']) {
+    assert.equal(keyongGenerals.memberRelationshipSubjects[id], '李克用、李存勖', `${id}: verified service in both generations`);
+  }
+  assert.equal(keyongGenerals.memberRelationshipSubjects['ren-huan'], '李继岌', 'the campaign commander actually issued Ren Huan’s army appointment');
   for (const person of keyongGenerals.people) {
     assert.equal(index.people.filter(item => item.id === person.id).length, 1);
     for (const chapterId of Object.values(person.readingStarts)) {
@@ -44,6 +49,17 @@ test('Li Keyong generals share identities and aggregate biographies with indepen
         && passage.people.some(link => link.personId === person.id && link.kind !== 'mention')), `${person.id}: ${chapterId}`);
     }
   }
+  for (const id of ['guo-chongtao', 'yuan-xingqin', 'xia-luqi', 'fu-xi', 'wu-zhen', 'zhu-shouyin', 'kang-yanxiao', 'li-jiji', 'li-congjing', 'ren-huan']) {
+    assert.equal(index.people.filter(person => person.id === id).length, 1, id);
+  }
+  assert.equal(association('new-v25-p55', 'xifang-ye')?.kind, 'biography', 'the complete verified biography continues through its final paragraph');
+  assert.ok(association('new-v46-p38', 'wang-jianli'), 'the son’s first paragraph explicitly mentions his father');
+  for (const paragraphId of ['new-v46-p39', 'new-v46-p40']) {
+    assert.equal(association(paragraphId, 'wang-jianli'), undefined, 'independent records of Wang Shouen are not assigned to Wang Jianli');
+  }
+  assert.equal(association('old-v070-p6', 'li-yan-youzhou')?.kind, 'biography');
+  assert.equal(association('old-v037-p4', 'li-yan-youzhou'), undefined, 'the Fengxiang governor Li Yan is Li Congyan, not the Youzhou envoy');
+  assert.ok(association('old-v037-p5', 'li-yan-youzhou'), 'the guest envoy in this paragraph is the Youzhou Li Yan');
   assert.equal(association('old-v065-p1', 'wang-jianji')?.kind, 'biography');
   assert.equal(association('new-v25-p32', 'wang-jianji')?.kind, 'biography');
   assert.equal(association('old-v061-p10', 'liu-xun-yonghe')?.kind, 'biography');
@@ -326,4 +342,54 @@ test('Li Keyong general short names exclude other historical people and word-bou
   for (const paragraphId of ['old-v061-p18','new-v46-p30','new-v46-p31']) assert.ok(association(paragraphId, 'an-zhongba'));
   assert.ok(association('old-v036-p6', 'liu-xun-yonghe'));
   assert.ok(association('old-v036-p6', 'zhang-tingyu'));
+});
+
+test('Li Cunxu generals exclude namesakes, ordinary words and cross-word names while retaining verified records', () => {
+  // These are fixed source examples, independent of the current exclusion rule list.
+  const excluded = {
+    'guo-chongtao': ['tongjian-v292-p47', 'tongjian-v293-p86', 'tongjian-v294-p60'], // Zhao Chongtao
+    'suo-zitong': ['tongjian-v280-p33', 'huiyao-v025-p21'], // the verb 自通
+    'li-shaowen': ['tongjian-v268-p34'], // 從楚王殷 is not Zhang Congchu
+    'yang-yanwen': [
+      'old-v034-p11', 'old-v035-p18', 'old-v041-p15', 'new-v05-p14',
+      'old-v022-p18', 'old-v023-p3', 'new-v22-p10', 'tongjian-v274-p77',
+      'tongjian-v277-p28', 'tongjian-v277-p51', 'tongjian-v282-p64',
+      'tongjian-v289-p68', 'tongjian-v289-p76', 'kaoyi-v029-p57',
+    ], // Yao, Bian, Wang, Qi/Ji, Cheng and Li Yanwen are separate people
+    'zhao-zaili': ['old-v005-p2', 'huiyao-v002-p26', 'huiyao-v030-p74'], // ordinary 在禮 and 禮賓使
+    'fang-zhiwen': ['old-v028-p1', 'old-v056-p8', 'tongjian-v268-p38'], // Liu Zhiwen
+    'li-congjing': ['old-v103-p12'], // Xin Congshen
+    'li-yan-youzhou': ['old-v010-p17', 'old-v032-p3', 'old-v037-p4'], // Liang official / Fengxiang governor
+    'li-jiji': ['tongjian-v269-p86'], // the Baosheng general who resumed his name Sang Hongzhi
+  };
+  const sourceTerms = {
+    'guo-chongtao': /崇韜/, 'suo-zitong': /自通/, 'li-shaowen': /從楚/,
+    'yang-yanwen': /彥溫|彦温/, 'zhao-zaili': /在禮/, 'fang-zhiwen': /知溫/,
+    'li-congjing': /從審/, 'li-yan-youzhou': /李嚴/, 'li-jiji': /繼岌/,
+  };
+  assert.equal(Object.values(excluded).flat().length, 31);
+  for (const [personId, paragraphIds] of Object.entries(excluded)) for (const paragraphId of paragraphIds) {
+    assert.match(paragraphs.get(paragraphId).original, sourceTerms[personId], `${paragraphId}: the ambiguous source term exists`);
+    assert.equal(association(paragraphId, personId), undefined, `${paragraphId}: ${personId}`);
+  }
+  for (const paragraphId of ['huiyao-v005-p75', 'huiyao-v013-p22']) {
+    assert.ok(paragraphs.get(paragraphId).original.includes('建立'));
+    assert.equal(association(paragraphId, 'wang-jianli'), undefined, 'building shrines or a pavilion is not Wang Jianli');
+  }
+  for (const paragraphId of ['new-v46-p25', 'new-v46-p55']) {
+    assert.equal(association(paragraphId, 'gao-xinggui')?.kind, 'mention', 'a textual name dispute cannot become an established military achievement');
+  }
+  const included = {
+    'guo-chongtao': ['old-v057-p2'], 'suo-zitong': ['old-v065-p13'],
+    'li-shaowen': ['old-v059-p18'], 'yang-yanwen': ['old-v074-p10'],
+    'zhao-zaili': ['new-v46-p2'], 'fang-zhiwen': ['new-v46-p16'],
+    'li-congjing': ['new-v25-p40', 'old-v070-p2'], 'li-yan-youzhou': ['old-v070-p6', 'old-v037-p5'],
+    'li-jiji': ['old-v033-p5'], 'wang-jianli': ['new-v46-p33'],
+    'gao-xinggui': ['old-v065-p6'], 'gao-xingzhou': ['tongjian-v269-p43'],
+  };
+  for (const [personId, paragraphIds] of Object.entries(included)) for (const paragraphId of paragraphIds) {
+    const link = association(paragraphId, personId);
+    assert.ok(link, `${paragraphId}: ${personId} retains its verified record`);
+    assert.notEqual(link.kind, 'mention', `${paragraphId}: this is an actual person record`);
+  }
 });

@@ -31,8 +31,8 @@ export function personTopic(groupId: PersonGroupId): HistoricalPersonGroup | und
   return personTopics.find(topic => topic.id === groupId);
 }
 
-export function topicsForPerson(person: HistoryPerson): HistoricalPersonGroup[] {
-  return personTopics.filter(topic => topicMembers.get(topic.id)?.has(person.id));
+export function topicsForPerson(person: HistoryPerson, topics: readonly HistoricalPersonGroup[] = personTopics): HistoricalPersonGroup[] {
+  return topics.filter(topic => topic.memberIds.includes(person.id));
 }
 
 export function personMatchesGroup(person: HistoryPerson, groupId: PersonGroupId): boolean {
@@ -59,13 +59,13 @@ export function personRelationship(person: HistoryPerson): string | undefined {
   return personTopicRelationships(person)[0]?.relation ?? person.relation;
 }
 
-export function personTopicRelationships(person: HistoryPerson): { groupId: HistoricalPersonGroup['id']; subject: string | undefined; relation: string }[] {
-  return topicsForPerson(person).flatMap(topic => {
+export function personTopicRelationships(person: HistoryPerson, topics: readonly HistoricalPersonGroup[] = personTopics): { groupId: HistoricalPersonGroup['id']; subject: string | undefined; relation: string }[] {
+  return topicsForPerson(person, topics).flatMap(topic => {
     const relation = topic.memberRelations?.[person.id] ?? topic.people.find(member => member.id === person.id)?.relation;
-    return relation ? [{ groupId: topic.id, subject: topic.relationshipSubject, relation }] : [];
+    return relation ? [{ groupId: topic.id, subject: topic.memberRelationshipSubjects?.[person.id] ?? topic.relationshipSubject, relation }] : [];
   });
 }
 
-export function personTopicKeywords(person: HistoryPerson): string {
-  return topicsForPerson(person).flatMap(topic => [topic.title, topic.filterLabel ?? '', topic.relationshipSubject ?? '', topic.memberRelations?.[person.id] ?? topic.people.find(member => member.id === person.id)?.relation ?? '']).join(' ');
+export function personTopicKeywords(person: HistoryPerson, topics: readonly HistoricalPersonGroup[] = personTopics): string {
+  return topicsForPerson(person, topics).flatMap(topic => [topic.title, topic.filterLabel ?? '', topic.memberRelationshipSubjects?.[person.id] ?? topic.relationshipSubject ?? '', topic.memberRelations?.[person.id] ?? topic.people.find(member => member.id === person.id)?.relation ?? '']).join(' ');
 }
