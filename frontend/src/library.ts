@@ -2,6 +2,7 @@ import catalog from '../../content/five-dynasties/catalog.json' with { type: 'js
 import { catalogPeople } from './person-catalog.ts';
 import summaries from './person-passage-summary.json' with { type: 'json' };
 import { validateSearchQuery } from '../../content/passage-search.mts';
+import { ownerReviewRoute, resolveOwnerReviewRoute } from './owner-review-route.ts';
 import type { Book, BookId, ChapterSummary, HistoryPerson, LibraryCatalog, PersonPassageSummary, Route, SearchField } from './types.ts';
 
 export interface PassageSearchOptions { query: string; field: SearchField }
@@ -30,7 +31,7 @@ export const chaptersForPerson = (personId: string): ChapterSummary[] => library
 export function chapterRoute(chapter: ChapterSummary, context?: ReadingSearchContext & { paragraphId?: string }): Route {
   const parameters = searchParameters(context);
   if (context?.paragraphId?.startsWith(`${chapter.id}-p`)) parameters.set('paragraph', context.paragraphId);
-  if (context?.returnTo && resolvePersonSourcesRoute(context.returnTo)) parameters.set('return', context.returnTo);
+  if (context?.returnTo && (resolvePersonSourcesRoute(context.returnTo) || resolveOwnerReviewRoute(context.returnTo))) parameters.set('return', context.returnTo);
   return `read-${chapter.bookId}/${chapter.id}${parameters.size ? `?${parameters}` : ''}`;
 }
 
@@ -71,9 +72,10 @@ export function resolveReadingRoute(route: string): { book: Book; chapter: Chapt
       const paragraph = parameters.get('paragraph');
       const returnRoute = parameters.get('return');
       const resolvedReturn = returnRoute ? resolvePersonSourcesRoute(returnRoute) : null;
+      const ownerReturn = returnRoute ? resolveOwnerReviewRoute(returnRoute) : null;
       try {
         return { book, chapter, search: searchOptions(parameters), focusParagraphId: paragraph && new RegExp(`^${chapter.id}-p[1-9][0-9]*$`).test(paragraph) ? paragraph : undefined,
-          returnTo: resolvedReturn ? personSourcesRoute(resolvedReturn.person.id, resolvedReturn.book?.id, resolvedReturn.search) : undefined };
+          returnTo: resolvedReturn ? personSourcesRoute(resolvedReturn.person.id, resolvedReturn.book?.id, resolvedReturn.search) : ownerReturn ? ownerReviewRoute(ownerReturn) : undefined };
       } catch { return null; }
     }
   }
@@ -82,5 +84,5 @@ export function resolveReadingRoute(route: string): { book: Book; chapter: Chapt
 
 export function resolveRoute(hash: string): Route {
   const route = hash.replace(/^#/, '');
-  return resolveReadingRoute(route) || resolvePersonSourcesRoute(route) ? route as Route : 'people';
+  return resolveReadingRoute(route) || resolvePersonSourcesRoute(route) || resolveOwnerReviewRoute(route) ? route as Route : 'people';
 }

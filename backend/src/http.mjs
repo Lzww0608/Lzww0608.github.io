@@ -1,15 +1,19 @@
 import { createServer } from 'node:http';
 import { createEditorHandler } from './editor-http.mjs';
 import { parsePersonPassagePagination } from './person-passages.mjs';
-export function createApi({ repository, allowedOrigins, editor = null, log = console.error }) {
+import { resolveLocalDevelopment, localDevelopmentRequestFailure } from './local-development.mjs';
+export function createApi({ repository, allowedOrigins, editor = null, log = console.error, localDevelopment = null }) {
   const origins = new Set(allowedOrigins);
-  const handleEditor = createEditorHandler({editor, allowedOrigins, log});
+  const development = resolveLocalDevelopment(localDevelopment);
+  const handleEditor = createEditorHandler({editor, allowedOrigins, log, localDevelopment: development});
   return createServer({ requestTimeout: 10_000, headersTimeout: 10_000, maxHeaderSize: 8192 }, async (req, res) => {
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Cache-Control', 'no-store');
     res.setHeader('Vary', 'Origin');
     const send = (status, data) => { res.statusCode = status; res.end(req.method === 'HEAD' ? undefined : JSON.stringify(data)); };
+    const localFailure = localDevelopmentRequestFailure(req, development, origins);
+    if (localFailure) return send(403, { error: localFailure });
     const origin = req.headers.origin;
     if (origin && !origins.has(origin)) return send(403, { error: 'origin_not_allowed' });
     if (origin) res.setHeader('Access-Control-Allow-Origin', origin);

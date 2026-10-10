@@ -217,9 +217,9 @@
       "paragraphId": "old-v053-p2",
       "originalRevision": 1,
       "originalSha256": "d1e25b2219474a564560e303d4b4f6b00489f7dfff982c054cdc9c8bbde45fea",
-      "translationId": "7072",
-      "translationVersion": 1,
-      "translationSha256": "f8d1aaee905a139def800f3dbeca82cc499ddaf638e3b4f48cfc58898669962c",
+      "translationId": "8469",
+      "translationVersion": 2,
+      "translationSha256": "b54f27e8922bef0a4182ba7a051da5e3739518e5f3067ed6b9cc3e87ba57d596",
       "sentences": [
         {
           "originalStart": 0,
@@ -279,22 +279,22 @@
           "originalStart": 251,
           "originalEnd": 296,
           "translationStart": 348,
-          "translationEnd": 407
+          "translationEnd": 408
         },
         {
           "originalStart": 296,
           "originalEnd": 308,
-          "translationStart": 407,
-          "translationEnd": 423
+          "translationStart": 408,
+          "translationEnd": 424
         },
         {
           "originalStart": 308,
           "originalEnd": 351,
-          "translationStart": 423,
-          "translationEnd": 475
+          "translationStart": 424,
+          "translationEnd": 476
         }
       ],
-      "reason": "按繁体底本每个中文句号逐一核对当前已发布译文；原句、译文的拆合与引语均按实际语义保留，范围使用 Unicode 码点，连续完整覆盖既有文本。此为显示范围校核，不改变译文来源或实际审核状态。"
+      "reason": "按原底本逐句复核，局部译文修订后重新核验已有语义范围，并绑定实际新版本；未按句数或字符比例猜配。"
     },
     {
       "paragraphId": "old-v053-p3",

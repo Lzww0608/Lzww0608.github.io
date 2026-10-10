@@ -2,6 +2,7 @@ import test, { beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   authenticateEditorSession, clearEditorSession, hasEditorSession,
+  authenticateLocalEditorSession, hasLocalEditorSession, isLocalEditorDevelopment, readEditorStatus, requestEditorJson,
   saveEditedTranslation, TranslationEditorError, validateTranslationEdit,
 } from '../src/translation-editor-api.ts';
 
@@ -156,4 +157,80 @@ test('aborted authentication cannot leave a remembered session', async () => {
     return response({ authenticated: true });
   } }), error => error.name === 'AbortError');
   assert.equal(hasEditorSession(apiBase), false);
+});
+
+const localContext = { development: true, pageUrl: 'http://127.0.0.1:5173/#owner-review', apiBase: 'http://127.0.0.1:8791' };
+
+test('local development confirms both status and session without sending a password', async () => {
+  const requests = [];
+  assert.equal(await authenticateLocalEditorSession({ ...localContext, fetcher: async (url, init) => {
+    requests.push({ url, init });
+    return response(url.endsWith('/status') ? { enabled: true, developmentBypass: true } : { authenticated: true, developmentBypass: true });
+  } }), true);
+  assert.equal(requests.length, 2);
+  assert.deepEqual(requests.map(request => [request.url, request.init.method]), [
+    [`${localContext.apiBase}/api/editor/status`, 'GET'], [`${localContext.apiBase}/api/editor/session`, 'POST'],
+  ]);
+  for (const { init } of requests) {
+    assert.equal(init.headers.Authorization, undefined);
+    assert.equal(init.body, undefined);
+    assert.equal(init.credentials, 'omit');
+    assert.equal(init.cache, 'no-store');
+  }
+  assert.equal(hasLocalEditorSession(localContext.apiBase), true);
+  let read;
+  await requestEditorJson({ apiBase: localContext.apiBase, path: '/api/editor/reviews', fetcher: async (url, init) => { read = { url, init }; return response({}); } });
+  assert.equal(read.init.headers.Authorization, 'Bearer local-development-session');
+  assert.equal(read.url.includes('local-development-session'), false);
+  assert.equal(hasEditorSession(apiBase), false);
+  clearEditorSession();
+  assert.equal(hasLocalEditorSession(localContext.apiBase), false);
+});
+
+test('production and remote pages or APIs cannot use a server development flag', async () => {
+  let calls = 0;
+  const fetcher = async () => { calls++; return response({ enabled: true, authenticated: true, developmentBypass: true }); };
+  for (const extra of [
+    { development: false }, { pageUrl: 'https://lzww0608.github.io/#owner-review' },
+    { apiBase: 'https://ancient-history.example' }, { pageUrl: 'http://127.0.0.1.evil.example:5173' },
+    { apiBase: 'http://localhost.evil.example:8791' }, { pageUrl: 'file:///local.html' },
+    { pageUrl: 'http://user:pass@localhost:5173' }, { apiBase: 'not-a-url' },
+  ]) {
+    assert.equal(isLocalEditorDevelopment({ ...localContext, ...extra }), false);
+    assert.equal(await authenticateLocalEditorSession({ ...localContext, ...extra, fetcher }), false);
+    assert.equal(hasEditorSession(localContext.apiBase), false);
+  }
+  assert.equal(calls, 0);
+  assert.equal(isLocalEditorDevelopment({ ...localContext, pageUrl: 'http://localhost:5173', apiBase: 'http://[::1]:8791' }), true);
+});
+
+test('local development requires literal enabled and bypass flags at both request steps', async () => {
+  for (const status of [{ enabled: false, developmentBypass: true }, { enabled: true }, { enabled: true, developmentBypass: 'true' }]) {
+    let calls = 0;
+    assert.equal(await authenticateLocalEditorSession({ ...localContext, fetcher: async () => { calls++; return response(status); } }), false);
+    assert.equal(calls, 1);
+    assert.equal(hasEditorSession(localContext.apiBase), false);
+  }
+  for (const sessionResponse of [{ authenticated: true }, { authenticated: false, developmentBypass: true }, { authenticated: true, developmentBypass: 'true' }]) {
+    assert.equal(await authenticateLocalEditorSession({ ...localContext, fetcher: async url => response(url.endsWith('/status') ? { enabled: true, developmentBypass: true } : sessionResponse) }), false);
+    assert.equal(hasEditorSession(localContext.apiBase), false);
+  }
+  assert.deepEqual(await readEditorStatus({ apiBase, fetcher: async () => response({ enabled: true }) }), { enabled: true, developmentBypass: false });
+});
+
+test('aborted or logged-out local probes cannot restore an in-memory session', async () => {
+  for (const phase of ['status', 'session']) {
+    const controller = new AbortController();
+    const run = authenticateLocalEditorSession({ ...localContext, signal: controller.signal, fetcher: async url => {
+      if (url.endsWith(`/${phase}`)) controller.abort();
+      return response(url.endsWith('/status') ? { enabled: true, developmentBypass: true } : { authenticated: true, developmentBypass: true });
+    } });
+    await assert.rejects(run, error => error.name === 'AbortError');
+    assert.equal(hasEditorSession(localContext.apiBase), false);
+    assert.equal(await authenticateLocalEditorSession({ ...localContext, fetcher: async url => {
+      if (url.endsWith(`/${phase}`)) clearEditorSession();
+      return response(url.endsWith('/status') ? { enabled: true, developmentBypass: true } : { authenticated: true, developmentBypass: true });
+    } }), false);
+    assert.equal(hasEditorSession(localContext.apiBase), false);
+  }
 });

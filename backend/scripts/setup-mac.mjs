@@ -46,7 +46,15 @@ const client = new pg.Client(adminDatabase(config));
 await client.connect();
 try {
   await client.query('BEGIN'); await seed(client);
-  await client.query('REVOKE CREATE ON SCHEMA public FROM PUBLIC; GRANT CONNECT ON DATABASE ancient_history TO history_reader; GRANT USAGE ON SCHEMA public TO history_reader; GRANT SELECT ON ALL TABLES IN SCHEMA public TO history_reader; ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO history_reader; ALTER ROLE history_reader SET default_transaction_read_only = on; ALTER ROLE history_reader SET statement_timeout = \'5s\'');
+  await client.query(`REVOKE CREATE ON SCHEMA public FROM PUBLIC;
+    GRANT CONNECT ON DATABASE ancient_history TO history_reader;
+    GRANT USAGE ON SCHEMA public TO history_reader;
+    GRANT SELECT ON public.books,public.editions,public.chapters,public.paragraphs,public.paragraph_revisions,
+      public.translations,public.person_passage_index,public.passage_people,public.passages,
+      public.passage_spans,public.person_passages,public.sentence_translations TO history_reader;
+    ALTER DEFAULT PRIVILEGES IN SCHEMA public REVOKE SELECT ON TABLES FROM history_reader;
+    ALTER ROLE history_reader SET default_transaction_read_only = on;
+    ALTER ROLE history_reader SET statement_timeout = '5s'`);
   await client.query('COMMIT');
 } catch (error) { await client.query('ROLLBACK'); throw error; }
 finally { await client.end(); }

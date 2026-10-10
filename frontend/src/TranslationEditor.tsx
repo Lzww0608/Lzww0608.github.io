@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import type { ChapterParagraph, PublishedTranslation } from './types';
 import { reviewNoteForDisplay } from './translation-display';
 import {
-  authenticateEditorSession, clearEditorSession, hasEditorSession,
+  authenticateEditorSession, authenticateLocalEditorSession, clearEditorSession, hasEditorSession, hasLocalEditorSession, isLocalEditorDevelopment,
   saveEditedTranslation, TranslationEditorError, validateTranslationEdit,
 } from './translation-editor-api';
 import './translation-editor.css';
@@ -37,6 +37,7 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
   const [editorName, setEditorName] = useState('');
   const [notes, setNotes] = useState(initial.notes);
   const [authenticated, setAuthenticated] = useState(() => hasEditorSession(apiBase));
+  const [localEntry, setLocalEntry] = useState(() => import.meta.env.DEV && hasLocalEditorSession(apiBase));
   const [busy, setBusy] = useState<'auth' | 'save' | null>(null);
   const [status, setStatus] = useState('');
   const [error, setError] = useState('');
@@ -58,6 +59,19 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
   useEffect(() => {
     if (!authenticated && busy === null) passwordField.current?.focus();
   }, [authenticated, busy]);
+
+  useEffect(() => {
+    if (!import.meta.env.DEV || hasEditorSession(apiBase)) return;
+    const context = { development: true, pageUrl: window.location.href, apiBase };
+    if (!isLocalEditorDevelopment(context)) return;
+    const controller = begin('auth');
+    authenticateLocalEditorSession({ ...context, signal: controller.signal }).then(entered => {
+      if (controller.signal.aborted) return;
+      setLocalEntry(entered); setAuthenticated(entered);
+      setStatus(entered ? '已进入校订，可以保存新版本。' : '');
+    }).catch(cause => { if (!controller.signal.aborted) failed(cause); }).finally(() => finish(controller));
+    return () => controller.abort();
+  }, [apiBase]);
 
   useEffect(() => {
     if (!dirty && busy === null) return;
@@ -115,7 +129,10 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
     const password = passwordField.current?.value ?? '';
     const controller = begin('auth');
     try {
-      await authenticateEditorSession({ apiBase, token: password, signal: controller.signal });
+      if (import.meta.env.DEV && localEntry) {
+        const entered = await authenticateLocalEditorSession({ apiBase, development: true, pageUrl: window.location.href, signal: controller.signal });
+        if (!entered) throw new TranslationEditorError('本地校订入口暂不可用，请重新读取。');
+      } else await authenticateEditorSession({ apiBase, token: password, signal: controller.signal });
       if (controller.signal.aborted) return;
       if (passwordField.current) passwordField.current.value = '';
       setAuthenticated(true);
@@ -152,7 +169,7 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
     clearEditorSession();
     if (passwordField.current) passwordField.current.value = '';
     setAuthenticated(false);
-    setStatus('已退出校订。本次输入仍保留，再次保存需要输入密码。');
+    setStatus(localEntry ? '已退出校订。本次输入仍保留，可重新进入本地校订。' : '已退出校订。本次输入仍保留，再次保存需要输入密码。');
     setError('');
   }
 
@@ -177,16 +194,17 @@ export function TranslationEditor({ paragraph, apiBase, onSaved, onClose }: Prop
         <p lang="zh-Hant">{editingParagraph.original}</p>
       </section>
       {!authenticated ? <form className="translation-editor-auth" onSubmit={event => { void authenticate(event); }}>
-        <label htmlFor={passwordId}>校订密码</label>
+        {!localEntry && <label htmlFor={passwordId}>校订密码</label>}
         <div className="translation-editor-password-row">
-          <input ref={passwordField} id={passwordId} type="password"
+          {!localEntry && <input ref={passwordField} id={passwordId} type="password"
             autoComplete="off" autoCapitalize="none" spellCheck={false}
-            disabled={busy !== null} required aria-describedby={`${passwordId}-help`} />
+            disabled={busy !== null} required aria-describedby={`${passwordId}-help`} />}
           <button type="submit" className="quiet-button" disabled={busy !== null}>{busy === 'auth' ? '正在确认…' : '进入校订'}</button>
         </div>
-        <p id={`${passwordId}-help`} className="translation-editor-help">密码仅在本次页面内使用。退出校订或刷新页面后需要重新输入。</p>
+        <p id={`${passwordId}-help`} className="translation-editor-help">{localEntry ? '可重新进入本地校订会话。' : '密码仅在本次页面内使用。退出校订或刷新页面后需要重新输入。'}</p>
       </form> : <div className="translation-editor-session">
         <span>已进入校订</span>
+        <a className="quiet-button" href="#owner-review">校核清单</a>
         <button type="button" className="quiet-button" onClick={exitEditing} disabled={busy !== null}>退出校订</button>
       </div>}
       <form className="translation-editor-form" onSubmit={event => { void save(event); }}>

@@ -10,6 +10,22 @@ const payload = { paragraphId: 'new-v04-p1', expectedOriginalRevision: 1, expect
 const calls = [], logs = [], servers = [];
 const mockEditor = {
   authenticate(header) { return header === `Bearer ${token}`; },
+  async reviews(params) {
+    calls.push({ reviews: [...params] });
+    return { schemaVersion: 1, subjects: [{ id: 'li-keyong', name: '李克用' }], total: 1,
+      summary: { open: 1, resolved: 0, retained: 0, checked: 0, stale: 0 }, items: [{ id: 'review-private', detail: '受保护校核说明' }],
+      nextOffset: null, resultSetRevision: 'a'.repeat(64) };
+  },
+  async review(id) {
+    calls.push({ review: id });
+    if (id === 'missing') throw Object.assign(new Error('Do not disclose private details'), { status: 404 });
+    return { item: { id, detail: '受保护校核说明' }, paragraph: { id: 'new-v04-p1', original: '原文' } };
+  },
+  async reviewStatus(id, input) {
+    calls.push({ reviewStatus: id, input });
+    if (input.expectedVersion === 0) throw Object.assign(new Error('Private stale binding'), { status: 409 });
+    return { item: { id, version: input.expectedVersion + 1, status: input.status } };
+  },
   async revise(input) {
     calls.push(structuredClone(input));
     if (input.expectedTranslationId === 'stale') throw Object.assign(new Error('Do not expose stale details'), { statusCode: 409 });
@@ -201,6 +217,44 @@ test('ordinary routes fall through and retain their read-only methods', async ()
   assert.equal((await write('/api/editor/status')).status, 405);
   assert.equal((await fetch(`${base}/api/editor/session`)).status, 405);
   assert.equal((await write('/api/editor/unknown')).status, 404);
+});
+
+test('private review reads require Bearer and allowed Origin and never use cookies or public caches', async () => {
+  const previousCalls = calls.length;
+  for (const path of ['/api/editor/reviews', '/api/editor/reviews/review-private']) {
+    for (const headers of [{}, { Origin: origin }, { Authorization: `Bearer ${token}` },
+      { Origin: 'https://other.test', Authorization: `Bearer ${token}` }, { Origin: origin, Cookie: `editor=${token}` }]) {
+      const response = await fetch(base + path, { headers });
+      assert.ok([401, 403].includes(response.status));
+      assert.equal(response.headers.get('cache-control'), 'no-store');
+      assert.ok(!(await response.text()).includes('受保护校核说明'));
+    }
+  }
+  assert.equal(calls.length, previousCalls);
+  const response = await fetch(base + '/api/editor/reviews?personId=li-keyong&limit=50', { headers: { Origin: origin, Authorization: `Bearer ${token}` } });
+  assert.equal(response.status, 200); assert.equal(response.headers.get('cache-control'), 'no-store');
+  assert.equal((await response.json()).items[0].detail, '受保护校核说明');
+  assert.deepEqual(calls.at(-1), { reviews: [['personId', 'li-keyong'], ['limit', '50']] });
+  const detail = await fetch(base + '/api/editor/reviews/review-private', { headers: { Origin: origin, Authorization: `Bearer ${token}` } });
+  assert.equal(detail.status, 200); assert.equal((await detail.json()).item.id, 'review-private');
+  const missing = await fetch(base + '/api/editor/reviews/missing', { headers: { Origin: origin, Authorization: `Bearer ${token}` } });
+  assert.equal(missing.status, 404); assert.deepEqual(await missing.json(), { error: 'not_found' });
+});
+
+test('review status updates use the protected POST body path and GET preflights are allowed', async () => {
+  const payload = { expectedVersion: 2, status: 'checked', resolution: '已核对并保留。' };
+  const response = await write('/api/editor/reviews/review-private/status', { body: JSON.stringify(payload) });
+  assert.equal(response.status, 200); assert.deepEqual((await response.json()).item, { id: 'review-private', version: 3, status: 'checked' });
+  assert.deepEqual(calls.at(-1), { reviewStatus: 'review-private', input: payload });
+  assert.equal((await write('/api/editor/reviews/review-private/status', { body: JSON.stringify({ ...payload, expectedVersion: 0 }) })).status, 409);
+  assert.equal((await write('/api/editor/reviews/review-private/status', { headers: { Authorization: undefined } })).status, 401);
+  assert.equal((await write('/api/editor/reviews')).status, 405);
+  assert.equal((await fetch(base + '/api/editor/reviews/review-private/status', { headers: { Origin: origin, Authorization: `Bearer ${token}` } })).status, 405);
+  for (const path of ['/api/editor/reviews', '/api/editor/reviews/review-private']) {
+    const preflight = await fetch(base + path, { method: 'OPTIONS', headers: { Origin: origin,
+      'Access-Control-Request-Method': 'GET', 'Access-Control-Request-Headers': 'authorization' } });
+    assert.equal(preflight.status, 204);
+  }
 });
 
 test('unfinished request bodies stop at the handler deadline', { timeout: 14_000 }, async () => {

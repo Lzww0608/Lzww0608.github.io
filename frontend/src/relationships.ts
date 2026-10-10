@@ -1793,22 +1793,6 @@ export const personRelationships: readonly PersonRelationship[] = [
     ]
   },
   {
-    "id": "li-keyong-shi-junli-service",
-    "from": "li-keyong",
-    "to": "shi-junli",
-    "kind": "service",
-    "label": "部将与军职",
-    "note": "河东军将；先属李克柔，后属李嗣昭",
-    "sources": [
-      {
-        "chapterId": "old-v065",
-        "paragraphId": "old-v065-p5",
-        "title": "旧五代史·石君立相关记载",
-        "excerpt": "初事代州刺史李克柔，後隸李嗣昭為牙校，曆典諸軍。夾城之役，君立每出挑戰，壞汴軍柵壘，俘擒而還。"
-      }
-    ]
-  },
-  {
     "id": "li-keyong-zhang-tingyu-service",
     "from": "li-keyong",
     "to": "zhang-tingyu",

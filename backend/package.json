@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node src/server.mjs",
+    "dev:local": "node src/dev-server.mjs",
     "setup:mac": "node scripts/setup-mac.mjs",
     "seed": "node scripts/seed.mjs",
     "backup": "node scripts/backup.mjs",
@@ -23,6 +24,8 @@
     "editor:setup": "node scripts/setup-editor.mjs",
     "passages:import": "node scripts/import-person-passages.mjs",
     "sentences:import": "node scripts/import-sentence-translations.mjs",
+    "reviews:import": "node scripts/import-review-items.mjs",
+    "reviews:correct": "node scripts/apply-review-corrections.mjs",
     "sentences:export": "node scripts/export-sentence-translations.mjs"
   },
   "dependencies": {

@@ -217,7 +217,32 @@ test('Liao and Wuyue Shizong references do not become Chai Rong records', () => 
   assert.equal(association('old-v103-p4', 'guo-wei')?.kind, 'record');
   assert.equal(association('old-v113-p12', 'chai-rong')?.kind, 'record', 'Guo Wei succession advice names the real Later Zhou Shizong');
   assert.equal(association('new-v12-p9', 'chai-rong')?.kind, 'record', 'Chai Zongxun biography names his father Shizong');
-  assert.equal(association('kaoyi-v030-p22', 'chai-rong')?.kind, 'mention', 'Later Zhou Shizong shilu title remains a real citation');
+  assert.equal(association('kaoyi-v030-p70', 'chai-rong')?.kind, 'record', 'the source citation also contains actual Shizong actions');
+});
+
+test('a Shizong source-book title alone does not create a Chai Rong record', () => {
+  const titleOnlyParagraphs = ['kaoyi-v028-p7', 'kaoyi-v029-p53', 'kaoyi-v030-p22',
+    'kaoyi-v030-p24', 'kaoyi-v030-p26', 'kaoyi-v030-p35'];
+  const sourceTitles = ['周世宗實錄', '周世宗實録'];
+  for (const paragraphId of titleOnlyParagraphs) {
+    assert.match(paragraphs.get(paragraphId).original, /周世宗實[錄録]/u, paragraphId);
+    assert.equal(association(paragraphId, 'chai-rong'), undefined, paragraphId);
+  }
+  for (const paragraphId of ['new-v32-p16', 'kaoyi-v030-p70']) {
+    assert.match(paragraphs.get(paragraphId).original, /周世宗實[錄録]/u, paragraphId);
+    assert.equal(association(paragraphId, 'chai-rong')?.kind, 'record', 'personal actions beside a source title remain indexed');
+  }
+  const previousRules = structuredClone(rules);
+  const chaiRule = previousRules.people.find(person => person.personId === 'chai-rong');
+  chaiRule.excludedPhrases = chaiRule.excludedPhrases.filter(phrase => !sourceTitles.includes(phrase));
+  const previousIndex = buildPersonPassageIndex(library, previousRules);
+  const links = value => new Map(value.passages.flatMap(passage => passage.people.map(person =>
+    [`${passage.spans[0].paragraphId}/${person.personId}`, person.kind])));
+  const before = links(previousIndex), after = links(index);
+  const changed = [...before].filter(([key, kind]) => after.get(key) !== kind).map(([key]) => key).sort();
+  assert.deepEqual(changed, titleOnlyParagraphs.map(id => `${id}/chai-rong`).sort(), 'only six source-title associations change');
+  assert.deepEqual([...after].filter(([key]) => !before.has(key)), [], 'no other person associations are introduced');
+  assert.equal(index.passages.length, previousIndex.passages.length, 'the shared original paragraphs and their other subjects remain available');
 });
 
 test('summary is derived from shared associations and real book/chapter identifiers', () => {

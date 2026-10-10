@@ -11,7 +11,44 @@ export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
 export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals';
 export type PersonGroupId = 'all' | 'emperors' | 'ten-kingdoms-rulers' | PersonTopicId;
-export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}`;
+export type Route = 'people' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}`;
+
+export type ReviewStatus = 'open' | 'resolved' | 'retained' | 'checked';
+export type ReviewCategory = 'translation' | 'association' | 'relationship' | 'source-note';
+export interface OwnerReviewItem {
+  id: string;
+  personId: string;
+  personName: string;
+  bookId: BookId;
+  chapterId: string;
+  paragraphId: string;
+  category: ReviewCategory;
+  status: ReviewStatus;
+  severity: 'info' | 'warning' | 'error';
+  title: string;
+  detail: string;
+  evidence: { chapterId: string; paragraphId: string; excerpt: string }[];
+  originalRevision: number;
+  originalSha256: string;
+  translationId: string | null;
+  translationVersion: number | null;
+  translationSha256: string | null;
+  checkedAt: string | null;
+  resolution: string;
+  batchId: string;
+  version: number;
+  currentBinding: boolean;
+}
+export interface OwnerReviewResponse {
+  schemaVersion: 1;
+  subjects: { id: string; name: string }[];
+  total: number;
+  summary: Record<ReviewStatus | 'stale', number>;
+  items: OwnerReviewItem[];
+  nextOffset: number | null;
+  resultSetRevision: string;
+}
+export interface OwnerReviewDetail { item: OwnerReviewItem; paragraph: ChapterParagraph | null }
 
 export interface HistoryEvent {
   id: EventId;

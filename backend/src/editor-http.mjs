@@ -1,3 +1,5 @@
+import { resolveLocalDevelopment, localDevelopmentRequestFailure } from './local-development.mjs';
+
 // Allow a 20,000-character translation and twenty 2,000-character review notes
 // in one UTF-8 JSON request, including supplementary Chinese characters.
 const maximumBodyBytes = 256 * 1024;
@@ -51,8 +53,9 @@ function readJson(req) {
   });
 }
 
-export function createEditorHandler({ editor, allowedOrigins, log = console.error }) {
+export function createEditorHandler({ editor, allowedOrigins, log = console.error, localDevelopment = null }) {
   const origins = new Set(allowedOrigins ?? []);
+  const development = resolveLocalDevelopment(localDevelopment);
   const failedAuthentication = new Map();
   const limitedFailure = address => {
     const now = Date.now();
@@ -90,17 +93,25 @@ export function createEditorHandler({ editor, allowedOrigins, log = console.erro
       res.statusCode = status;
       res.end(req.method === 'HEAD' || status === 204 ? undefined : JSON.stringify(value));
     };
+    const localFailure = localDevelopmentRequestFailure(req, development, origins);
+    if (localFailure) { send(403, { error: localFailure }); return true; }
     const origin = req.headers.origin;
     if (origin && !origins.has(origin)) { send(403, { error: 'origin_not_allowed' }); return true; }
     if (origin) res.setHeader('Access-Control-Allow-Origin', origin);
     const statusRoute = path === '/api/editor/status';
     const sessionRoute = path === '/api/editor/session';
     const translationRoute = path.match(/^\/api\/editor\/translations\/([a-z0-9][a-z0-9_-]{0,159})$/);
-    if (!statusRoute && !sessionRoute && !translationRoute) { send(404, { error: 'not_found' }); return true; }
+    const reviewsRoute = path === '/api/editor/reviews';
+    const reviewRoute = path.match(/^\/api\/editor\/reviews\/([a-z0-9][a-z0-9-]{0,159})$/);
+    const reviewStatusRoute = path.match(/^\/api\/editor\/reviews\/([a-z0-9][a-z0-9-]{0,159})\/status$/);
+    if (!statusRoute && !sessionRoute && !translationRoute && !reviewsRoute && !reviewRoute && !reviewStatusRoute) {
+      send(404, { error: 'not_found' }); return true;
+    }
+    const expectedMethod = statusRoute || reviewsRoute || reviewRoute ? 'GET' : 'POST';
     if (req.method === 'OPTIONS') {
       if (!origin || !origins.has(origin)) { send(403, { error: 'origin_not_allowed' }); return true; }
       const requestedMethod = req.headers['access-control-request-method'];
-      if (requestedMethod && requestedMethod !== (statusRoute ? 'GET' : 'POST')) {
+      if (requestedMethod && requestedMethod !== expectedMethod) {
         send(405, { error: 'method_not_allowed' }); return true;
       }
       const requestedHeaders = req.headers['access-control-request-headers'];
@@ -112,12 +123,14 @@ export function createEditorHandler({ editor, allowedOrigins, log = console.erro
       res.setHeader('Access-Control-Max-Age', '600');
       send(204); return true;
     }
-    if (statusRoute && req.method === 'GET') { send(200, { enabled: Boolean(editor) }); return true; }
-    if (statusRoute || req.method !== 'POST') { send(405, { error: 'method_not_allowed' }); return true; }
+    if (statusRoute && req.method === 'GET') {
+      send(200, { enabled: Boolean(editor), ...(development ? { developmentBypass: true } : {}) }); return true;
+    }
+    if (statusRoute || req.method !== expectedMethod) { send(405, { error: 'method_not_allowed' }); return true; }
     if (!origin || !origins.has(origin)) { send(403, { error: 'origin_not_allowed' }); return true; }
     if (!editor) { send(503, { error: 'editor_not_enabled' }); return true; }
     try {
-      if (!editor.authenticate(req.headers.authorization)) {
+      if (!development && !editor.authenticate(req.headers.authorization)) {
         const limit = limitedFailure(req.socket.remoteAddress ?? 'unknown');
         if (limit.limited) {
           res.setHeader('Retry-After', String(limit.retryAfter));
@@ -126,8 +139,18 @@ export function createEditorHandler({ editor, allowedOrigins, log = console.erro
         return true;
       }
       // Successful credentials bypass the failure counter, including a flooded IP.
-      if (sessionRoute) { req.resume(); send(200, { authenticated: true }); return true; }
+      if (sessionRoute) {
+        req.resume(); send(200, { authenticated: true, ...(development ? { developmentBypass: true } : {}) }); return true;
+      }
+      if (reviewsRoute) {
+        const params = new URL(req.url, 'http://localhost').searchParams;
+        send(200, await editor.reviews(params)); return true;
+      }
+      if (reviewRoute) { send(200, await editor.review(reviewRoute[1])); return true; }
       const payload = await readJson(req);
+      if (reviewStatusRoute) {
+        send(200, await editor.reviewStatus(reviewStatusRoute[1], payload)); return true;
+      }
       if (payload.paragraphId !== translationRoute[1]) { send(400, { error: 'paragraph_id_mismatch' }); return true; }
       send(200, await editor.revise(payload));
     } catch (error) {

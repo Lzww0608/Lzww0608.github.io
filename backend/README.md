@@ -188,6 +188,20 @@ npm run backup:github --prefix backend -- --verify SNAPSHOT_ID
 
 固定地址保存在 `frontend/.env.production`，开发使用 `frontend/.env.development`。这些值是公开地址，不是凭据。切换设备或重命名 Tailscale 主机、网络后，需要更新生产地址并重新部署前端。
 
+### 本机开发免密码校订
+
+用户已授权本机开发跳过管理员密码。先完成已有的 `editor:setup`，再在独立终端运行：
+
+```sh
+npm run dev:local --prefix backend
+```
+
+该进程固定只监听 `127.0.0.1:8791`，读取本机私有配置中的 `history_reader`／`history_editor` 受限账户。开发前端将 API 地址设为 `http://127.0.0.1:8791`；只接受 `http://localhost:5173`、`http://127.0.0.1:5173` 及对应 `4173` 预览地址。开发状态接口额外返回 `developmentBypass: true`，前端可在开发模式下自动调用 `/api/editor/session`，会话、私有校核读写与译文校订均不需输入密码。译文保存仍沿原有版本冲突校验和追加流程，实际保存会更新数据库。
+
+请求必须来自实际本机 socket，且 `Host` 与独立开发端口一致；缺少／非本机 Origin 或带 `Forwarded`、任意 `X-Forwarded-*`、`Via` 的代理请求都会被拒绝。开发端口不能与正式 `apiPort` 相同，不向 Funnel 配置此服务。关闭该终端或按 Ctrl+C 停止开发服务即可。
+
+`npm start` 和正式 `8787` 服务保持原有密码与 Bearer 验证。没有启用免密码的环境变量，也不以开发前端 Origin 作为正式服务跳过密码的依据。
+
 Tailscale Funnel 当前是测试功能且存在带宽限制，适用于 demo 和少量访问；实际运行情况见 `SETUP-RESULT.md`。官方说明：[Funnel](https://tailscale.com/docs/features/tailscale-funnel)、[后台运行与重启恢复](https://tailscale.com/docs/reference/tailscale-cli/funnel#effects-of-rebooting-and-restarting)。
 
 ## 独立句译维护
@@ -197,3 +211,9 @@ Tailscale Funnel 当前是测试功能且存在带宽限制，适用于 demo 和
 先备份，并在独立恢复库验证批次与旧行完整性，再用 `npm run sentences:import -- /absolute/path/private-batch.json` 导入草稿；经用户授权的发布批次追加 `--publish`。相同批次重跑幂等，版本不符整批回滚，正文变化须新版本。`npm run sentences:export` 仅导出当前已发布且版本匹配的副本，清理失效的旧导出；不改全文副本或原文。新建表或接口后重启 API 服务，普通内容发布无需重启。
 
 导出后重新生成句译索引，并在前端运行 `npm run build`（含全站 `test:sentence-coverage`）、`npm test` 和 `npm run test:sites`，然后部署并在线核对。全覆盖仅指当前归档内可点击句号单位；无句号普通尾文不伪造点击译文。
+
+## 所有者校核清单
+
+`#owner-review` 用于四人人物原译对读、史料异说、片段归属与关系证据的私有记录。线上须先输入原有校订密码；校订对话框验证成功后也提供清单入口。可按人物、文献、处理状态和类别筛选，并跳到原始完整章节的具体段落。该清单不进入公开查询或离线网站副本。校订状态记录采用版本冲突检查，原文或译文更新后旧绑定会标为失效。
+
+本机批次工具 `reviews:import` 导入版本绑定的校核记录，`reviews:correct` 仅为有明确原文依据的既有AI译文追加公开修订，不覆盖人工作品或历史版本。两者都需私有批次文件；正式写入前先备份，并在独立恢复库核对整批回滚、幂等和旧行完整性。新增版本之后导出全文译文、重新核验句译范围及人物索引，完成网站检查和私有GitHub备份。数据库私有表与函数权限由 `editor:setup` 安装和验证，原有密码保留。

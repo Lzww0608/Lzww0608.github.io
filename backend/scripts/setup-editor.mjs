@@ -5,6 +5,7 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase, localDir, privateDir, privateFile } from './runtime.mjs';
+import { verifyOwnerReviewPermissions } from '../src/owner-reviews.mjs';
 
 const quoteIdentifier = value => `"${String(value).replace(/"/g, '""')}"`;
 const quoteLiteral = value => `'${String(value).replace(/'/g, "''")}'`;
@@ -67,6 +68,7 @@ export async function setupTranslationEditor() {
       await client.query(`ALTER ROLE ${quoteIdentifier(role)} LOGIN NOSUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT NOREPLICATION NOBYPASSRLS`);
     }
     await client.query(readFileSync(new URL('../db/003-translation-editor.sql', import.meta.url), 'utf8'));
+    await client.query(readFileSync(new URL('../db/006-owner-reviews.sql', import.meta.url), 'utf8'));
     await client.query(`REVOKE ALL ON ALL TABLES IN SCHEMA public FROM ${quoteIdentifier(role)};
       REVOKE ALL ON ALL SEQUENCES IN SCHEMA public FROM ${quoteIdentifier(role)};
       REVOKE ALL ON ALL FUNCTIONS IN SCHEMA public FROM ${quoteIdentifier(role)};
@@ -74,12 +76,15 @@ export async function setupTranslationEditor() {
       GRANT CONNECT ON DATABASE ${quoteIdentifier(config.database.database)} TO ${quoteIdentifier(role)};
       GRANT USAGE ON SCHEMA public TO ${quoteIdentifier(role)};
       GRANT EXECUTE ON FUNCTION public.revise_published_translation(text,integer,bigint,text,text,jsonb) TO ${quoteIdentifier(role)};
+      GRANT EXECUTE ON FUNCTION public.owner_review_list(text,text,text,text,integer,integer),
+        public.owner_review_detail(text),public.owner_review_set_status(text,integer,text,text) TO ${quoteIdentifier(role)};
       ALTER DEFAULT PRIVILEGES IN SCHEMA public REVOKE ALL ON TABLES FROM ${quoteIdentifier(role)};
       ALTER DEFAULT PRIVILEGES IN SCHEMA public REVOKE ALL ON SEQUENCES FROM ${quoteIdentifier(role)};
       ALTER ROLE ${quoteIdentifier(role)} SET default_transaction_read_only = off;
       ALTER ROLE ${quoteIdentifier(role)} SET statement_timeout = '5s';
       ALTER ROLE ${quoteIdentifier(role)} SET lock_timeout = '3s';
       ALTER ROLE ${quoteIdentifier(role)} SET idle_in_transaction_session_timeout = '10s';`);
+    await verifyOwnerReviewPermissions(client);
     // Files precede COMMIT so an interrupted commit can be retried with the same
     // passwords. They contain only local secrets and are never included in logs.
     if (!existsSync(keyFile)) privateFile(keyFile, `${token}\n`);

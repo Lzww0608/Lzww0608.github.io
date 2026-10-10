@@ -9,12 +9,14 @@ import { peopleForGroup, personDisplayPeriod, personGroups, personTopic, personT
 import type { ReactNode } from 'react';
 import type { HistoryPerson, PersonGroupId, Route, SearchItem } from './types';
 import type { ReadingSearchContext } from './library';
+import { resolveOwnerReviewRoute } from './owner-review-route';
 
 type Navigate = (route: Route) => void;
 type OpenPerson = (person: HistoryPerson | undefined) => void;
 type ModalState = { type: 'search'; query: string } | { type: 'person'; item: HistoryPerson };
 const getRoute = (): Route => resolveRoute(location.hash);
 const PersonPassages = lazy(() => import('./PersonPassages').then(module => ({default:module.PersonPassages})));
+const OwnerReview = lazy(() => import('./OwnerReview').then(module => ({ default: module.OwnerReview })));
 
 function Dialog({ title, children, onClose, wide = false }: { title: string; children: ReactNode; onClose: () => void; wide?: boolean }) {
   const ref = useRef<HTMLDialogElement | null>(null);
@@ -132,7 +134,8 @@ export function App() {
   }, []);
   const reading = resolveReadingRoute(route);
   const personSources = resolvePersonSourcesRoute(route);
-  const title = personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
+  const ownerReview = resolveOwnerReviewRoute(route);
+  const title = ownerReview ? '校核清单' : personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
   useEffect(() => { document.title = `${title} · 中国古代史`; }, [title]);
   function go(view: Route, paragraphId?: string) {
     setModal(null); setReadingFocusId(paragraphId);
@@ -152,7 +155,7 @@ export function App() {
   }
   return <><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); const main = document.getElementById('main-content'); main?.focus(); main?.scrollIntoView(); }}>跳转到内容</a>
     <header className="site-header people-header"><a className="brand" href="#people"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="#people">人物</a></nav><div className="header-actions"><ThemeSwitcher /><button className="header-search" aria-label="搜索人物" onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button></div></header>
-    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
+    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
     {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} />}</Dialog>}
   </>;
 }

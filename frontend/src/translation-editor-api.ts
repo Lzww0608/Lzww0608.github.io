@@ -2,11 +2,27 @@ import { parsePublishedTranslation } from './chapter-schema.ts';
 import type { ChapterParagraph, PublishedTranslation } from './types';
 
 type Fetcher = typeof fetch;
-type RequestOptions = { apiBase: string; signal?: AbortSignal; fetcher?: Fetcher };
+export type EditorRequestOptions = { apiBase: string; signal?: AbortSignal; fetcher?: Fetcher };
+type RequestOptions = EditorRequestOptions;
 export type TranslationEdit = { text: string; editorName: string; reviewNotes: string[] };
+export type EditorDevelopmentContext = { development: boolean; pageUrl: string };
 
 // The credential expires with the page and is never written to browser storage.
 let session: { token: string; apiBase: string } | null = null;
+let sessionGeneration = 0;
+
+const loopbackHosts = ['localhost', '127.0.0.1', '[::1]'];
+// A public endpoint's flag never makes a remote page a local development session.
+export function isLocalEditorDevelopment(context: EditorDevelopmentContext & { apiBase: string }): boolean {
+  if (!context.development) return false;
+  try {
+    return [context.pageUrl, context.apiBase].every(value => {
+      const url = new URL(value);
+      return ['http:', 'https:'].includes(url.protocol) && loopbackHosts.includes(url.hostname)
+        && !url.username && !url.password;
+    });
+  } catch { return false; }
+}
 
 export class TranslationEditorError extends Error {
   readonly status: number;
@@ -30,7 +46,7 @@ const statusMessages: Record<number, string> = {
 function normalizedApiBase(value: string): string {
   try {
     const url = new URL(value);
-    const local = ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname);
+    const local = loopbackHosts.includes(url.hostname);
     if ((url.protocol !== 'https:' && !(local && url.protocol === 'http:'))
       || url.username || url.password || url.search || url.hash) throw new Error();
     return `${url.origin}${url.pathname.replace(/\/+$/, '')}`;
@@ -44,8 +60,13 @@ export function hasEditorSession(apiBase: string): boolean {
   try { return session.apiBase === normalizedApiBase(apiBase); } catch { return false; }
 }
 
+export function hasLocalEditorSession(apiBase: string): boolean {
+  return hasEditorSession(apiBase) && session?.token === 'local-development-session';
+}
+
 export function clearEditorSession(): void {
   session = null;
+  sessionGeneration++;
 }
 
 export function validateTranslationEdit(edit: TranslationEdit): string | null {
@@ -58,17 +79,18 @@ export function validateTranslationEdit(edit: TranslationEdit): string | null {
   return null;
 }
 
-async function postJson(url: string, token: string, body: unknown, options: RequestOptions): Promise<unknown> {
+async function editorJson(url: string, token: string, method: 'GET' | 'POST', body: unknown, options: RequestOptions): Promise<unknown> {
   const signal = options.signal
     ? AbortSignal.any([options.signal, AbortSignal.timeout(15000)])
     : AbortSignal.timeout(15000);
   let response: Response;
   try {
     response = await (options.fetcher ?? fetch)(url, {
-      method: 'POST',
+      method,
       credentials: 'omit',
       redirect: 'error',
-      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+      cache: 'no-store',
+      headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
       body: body === undefined ? undefined : JSON.stringify(body),
       signal,
     });
@@ -88,8 +110,52 @@ async function postJson(url: string, token: string, body: unknown, options: Requ
   }
 }
 
+const postJson = (url: string, token: string, body: unknown, options: RequestOptions) => editorJson(url, token, 'POST', body, options);
+
+export async function readEditorStatus(options: RequestOptions): Promise<{ enabled: boolean; developmentBypass: boolean }> {
+  const result = await editorJson(`${normalizedApiBase(options.apiBase)}/api/editor/status`, '', 'GET', undefined, options);
+  if (typeof result !== 'object' || result === null || !('enabled' in result) || typeof result.enabled !== 'boolean') {
+    throw new TranslationEditorError('无法确认校订服务状态，请重新读取。');
+  }
+  return { enabled: result.enabled, developmentBypass: 'developmentBypass' in result && result.developmentBypass === true };
+}
+
+export async function authenticateLocalEditorSession(options: RequestOptions & EditorDevelopmentContext): Promise<boolean> {
+  if (!isLocalEditorDevelopment(options)) return false;
+  const apiBase = normalizedApiBase(options.apiBase);
+  if (hasEditorSession(apiBase)) return true;
+  const generation = sessionGeneration;
+  const status = await readEditorStatus(options);
+  if (options.signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+  if (generation !== sessionGeneration || !status.enabled || !status.developmentBypass) return false;
+  const result = await postJson(`${apiBase}/api/editor/session`, '', undefined, options);
+  if (options.signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+  if (generation !== sessionGeneration) return false;
+  if (typeof result !== 'object' || result === null || !('authenticated' in result) || result.authenticated !== true
+    || !('developmentBypass' in result) || result.developmentBypass !== true) return false;
+  // This marker is not a credential. Only the separate loopback service accepts it.
+  session = { token: 'local-development-session', apiBase };
+  sessionGeneration++;
+  return true;
+}
+
+// Keep the credential behind this request boundary; consumers receive only authenticated data.
+export async function requestEditorJson(options: EditorRequestOptions & { path: string; method?: 'GET' | 'POST'; body?: unknown }): Promise<unknown> {
+  const apiBase = normalizedApiBase(options.apiBase);
+  if (!/^\/api\/editor\/reviews(?:\/[a-zA-Z0-9-]+(?:\/status)?)?(?:\?[^#]*)?$/.test(options.path)) {
+    throw new TranslationEditorError('校核请求地址无效。');
+  }
+  const current = session;
+  if (!current || current.apiBase !== apiBase) throw new TranslationEditorError('请先输入校订密码，进入校核清单。', 401);
+  const result = await editorJson(`${apiBase}${options.path}`, current.token, options.method ?? 'GET', options.body, options);
+  if (options.signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+  if (session !== current) throw new TranslationEditorError('校订已退出，请重新输入密码。', 401);
+  return result;
+}
+
 export async function authenticateEditorSession(options: RequestOptions & { token: string }): Promise<void> {
   clearEditorSession();
+  const generation = sessionGeneration;
   const apiBase = normalizedApiBase(options.apiBase);
   const token = options.token.trim();
   if (!token) throw new TranslationEditorError('请输入校订密码。');
@@ -98,7 +164,9 @@ export async function authenticateEditorSession(options: RequestOptions & { toke
     throw new TranslationEditorError('无法确认校订权限，请重新输入密码。');
   }
   if (options.signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+  if (generation !== sessionGeneration) throw new TranslationEditorError('校订已退出，请重新输入密码。', 401);
   session = { token, apiBase };
+  sessionGeneration++;
 }
 
 export async function saveEditedTranslation(options: RequestOptions & TranslationEdit & { paragraph: ChapterParagraph }): Promise<PublishedTranslation> {

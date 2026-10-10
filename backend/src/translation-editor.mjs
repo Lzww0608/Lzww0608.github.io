@@ -1,4 +1,5 @@
 import { createHash, timingSafeEqual } from 'node:crypto';
+import { createOwnerReviews } from './owner-reviews.mjs';
 
 export class TranslationEditorError extends Error {
   constructor(status, code, message) {
@@ -25,6 +26,7 @@ export function createTranslationEditor({ pool, tokenSha256 }) {
   }
   const expectedToken = Buffer.from(tokenSha256, 'hex');
   return {
+    ...createOwnerReviews({ pool }),
     authenticate(header) {
       if (typeof header !== 'string' || header.length > 520) return false;
       const matched = /^Bearer ([A-Za-z0-9_-]{32,256})$/i.exec(header);

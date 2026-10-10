@@ -137,6 +137,20 @@ test('Zhuangzong-era additions preserve actual commanders and adopted identities
   }
 });
 
+test('Shi Junli keeps his documented commanders without an inferred direct Li Keyong edge', () => {
+  assert.equal(personRelationships.some(edge => edge.id === 'li-keyong-shi-junli-service'), false);
+  const topic = JSON.parse(readFileSync(new URL('../../content/five-dynasties/li-keyong-generals.json', import.meta.url), 'utf8'));
+  assert.ok(topic.memberIds.includes('shi-junli'), 'a topic member remains in the people collection');
+  for (const [commander, id] of [['li-kerou', 'li-kerou-shi-junli-service'], ['li-sizhao', 'li-sizhao-shi-junli-service']]) {
+    const fact = personRelationships.find(edge => edge.id === id);
+    assert.equal(fact?.from, commander);
+    assert.equal(fact?.to, 'shi-junli');
+    for (const endpoint of [commander, 'shi-junli']) {
+      assert.ok(relationshipsForPerson(endpoint).includes(fact), `${endpoint}: the sourced fact reaches both graphs`);
+    }
+  }
+});
+
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
   for (const edge of successions) assert.ok(['皇位交接', '君位交接'].includes(edge.label), edge.id);
