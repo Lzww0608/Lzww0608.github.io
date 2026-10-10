@@ -3,7 +3,7 @@ import { pathToFileURL } from 'node:url';
 import { loadLibrary } from '../content/library.mjs';
 import { loadPublishedChapters } from '../content/translations.mjs';
 import { readSentenceTranslationParts } from '../frontend/src/sentence-translations-loader.ts';
-import { splitPeriodSpans, matchesSentenceAlignment } from '../frontend/src/sentence-alignment.ts';
+import { splitReadingSpans, matchesSentenceAlignment } from '../frontend/src/sentence-alignment.ts';
 import { originalTextTag } from '../frontend/src/reading-headings.ts';
 
 // Exercise the same loader as both readers against only published static assets.
@@ -22,12 +22,24 @@ export async function checkSentenceCoverage() {
     const index=JSON.parse(readFileSync(new URL(`../content/sentence-alignments/chapters/${chapter.id}.json`,import.meta.url),'utf8'));
     const alignment=index.paragraphs.find(item=>item.paragraphId===paragraph.id);
     if(!alignment||!await matchesSentenceAlignment(alignment,paragraph))problems.push(`${paragraph.id}: missing/stale published index`);
-    const spans=splitPeriodSpans(paragraph.original),heading=originalTextTag(paragraph)!=='p';
+    const spans=splitReadingSpans(paragraph.original),heading=originalTextTag(paragraph)!=='p';
     const parts=await readSentenceTranslationParts({paragraph,displayedOriginal:paragraph.original,fetcher});
+    if(parts.map(part=>part.original).join('')!==paragraph.original)problems.push(`${paragraph.id}: original text not fully preserved`);
+    if(!heading){
+      // Independently count punctuation in the source. This catches a splitter
+      // which still merges several trailing questions into one broad popup.
+      const tail=paragraph.original.slice(paragraph.original.lastIndexOf('。')+1);
+      const tailEnds=[...tail.matchAll(/[？！][？！”’」』】〉》〕）)"'\s]*/gu)].length;
+      const expected=(paragraph.original.match(/。/gu)??[]).length+tailEnds;
+      if(parts.filter(part=>part.kind==='sentence'||part.kind==='unaligned').length!==expected)
+        problems.push(`${paragraph.id}: punctuation targets missing or merged`);
+    }
     const book=books.get(chapter.bookId);totals.paragraphs++;book.paragraphs++;
     if(parts.length!==spans.length)problems.push(`${paragraph.id}: unit count differs`);
     for(const [i,span]of spans.entries()){
-      const clickable=span.text.includes('。')||heading;
+      // Expect punctuation from the canonical text independently of the loader's
+      // click classification, so a missing question/exclamation button is a failure.
+      const clickable=/[。？！]/u.test(span.text)||heading;
       for(const count of[totals,book])count[clickable?'clickableUnits':'nonclickableUnits']++;
       if(!clickable)continue;
       const part=parts[i];

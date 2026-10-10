@@ -1,4 +1,4 @@
-import { findSentenceAlignment, matchesSentenceAlignment, sliceCodePoints, splitPeriodSpans, splitSentenceSpans, validateSentenceAlignmentDocument } from './sentence-alignment.ts';
+import { findSentenceAlignment, isClickableReadingSpan, matchesSentenceAlignment, sliceCodePoints, splitReadingSpans, splitSentenceSpans, validateSentenceAlignmentDocument } from './sentence-alignment.ts';
 import type { SentenceAlignmentDocument, SentenceAlignmentParagraph } from './sentence-alignment.ts';
 import { originalTextTag } from './reading-headings.ts';
 import { parsePublishedSentenceTranslations, currentPublishedSentenceTranslations } from './published-sentence-translations.ts';
@@ -23,13 +23,13 @@ function chapterIdForParagraph(id: string): string | null {
 }
 
 function displayedSpans(paragraph: ChapterParagraph, displayedOriginal: string) {
-  const canonical = splitPeriodSpans(paragraph.original);
-  const displayed = splitPeriodSpans(displayedOriginal);
+  const canonical = splitReadingSpans(paragraph.original);
+  const displayed = splitReadingSpans(displayedOriginal);
   if (canonical.length !== displayed.length) {
     return [{ start: 0, end: Array.from(paragraph.original).length, text: displayedOriginal, clickable: false }];
   }
   const heading = originalTextTag(paragraph) !== 'p';
-  return canonical.map((span, index) => ({ ...span, text: displayed[index]?.text ?? span.text, clickable: span.text.includes('。') || heading }));
+  return canonical.map((span, index) => ({ ...span, text: displayed[index]?.text ?? span.text, clickable: isClickableReadingSpan(span.text) || heading }));
 }
 
 export function paragraphTranslationParts(paragraph: ChapterParagraph, displayedOriginal: string): SentenceTranslationPart[] {
@@ -148,7 +148,8 @@ export async function readSentenceTranslationParts({ paragraph, displayedOrigina
       const id = `${paragraph.id}-sentence-${index}`;
       return { id, original: span.text, translation: supplement.text, kind: 'sentence', groupId: id, reviewNotes: supplement.reviewNotes };
     }
-    const explicit = alignment.periodSentences?.find(sentence => sentence.originalStart === span.start && sentence.originalEnd === span.end);
+    const explicit = [...(alignment.tailSentences ?? []), ...(alignment.periodSentences ?? [])]
+      .find(sentence => sentence.originalStart === span.start && sentence.originalEnd === span.end);
     const groups = alignment.groups.filter(group => group.originalStart < span.end && group.originalEnd > span.start);
     const first = groups[0];
     const last = groups.at(-1);

@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { paragraphTranslationParts, readSentenceTranslationParts } from '../src/sentence-translations-loader.ts';
-import { sliceCodePoints, splitPeriodSpans } from '../src/sentence-alignment.ts';
+import { sliceCodePoints, splitPeriodSpans, splitReadingSpans } from '../src/sentence-alignment.ts';
 import { originalTextTag } from '../src/reading-headings.ts';
 
 const hash = text => createHash('sha256').update(text).digest('hex');
@@ -137,16 +137,23 @@ test('all explicitly checked full-stop ranges expose separate originals and only
     for (const paragraph of chapter.paragraphs) {
       const alignment = document.paragraphs.find(entry => entry.paragraphId === paragraph.id);
       if (!alignment?.periodSentences) continue;
-      const units = splitPeriodSpans(paragraph.original);
+      const legacyUnits = splitPeriodSpans(paragraph.original);
+      assert.equal(alignment.periodSentences.length, legacyUnits.length);
+      for (const [index, unit] of legacyUnits.entries()) {
+        assert.equal(alignment.periodSentences[index].originalStart, unit.start);
+        assert.equal(alignment.periodSentences[index].originalEnd, unit.end);
+      }
+      const units = splitReadingSpans(paragraph.original);
       expectedCount += units.length;
       const parts = await readSentenceTranslationParts(options(paragraph, fetcher));
       assert.equal(parts.map(part => part.original).join(''), paragraph.original);
       assert.equal(parts.length, units.length, paragraph.id);
       for (const [index, part] of parts.entries()) {
-        const range = alignment.periodSentences[index], unit = units[index];
-        assert.equal(range.originalStart, unit.start, `${paragraph.id}: unit start`);
-        assert.equal(range.originalEnd, unit.end, `${paragraph.id}: unit end`);
-        if (unit.text.includes('。') || originalTextTag(paragraph) !== 'p') {
+        const unit = units[index];
+        const range = [...(alignment.tailSentences ?? []), ...alignment.periodSentences]
+          .find(range => range.originalStart === unit.start && range.originalEnd === unit.end);
+        if (/[。？！]/u.test(unit.text) || originalTextTag(paragraph) !== 'p') {
+          assert.ok(range, `${paragraph.id}: exact checked reading range`);
           assert.equal(part.kind, 'sentence', `${paragraph.id}: clickable unit ${index}`);
           assert.equal(part.translation, sliceCodePoints(paragraph.translation.text, range.translationStart, range.translationEnd),
             `${paragraph.id}: exact translation slice ${index}`);

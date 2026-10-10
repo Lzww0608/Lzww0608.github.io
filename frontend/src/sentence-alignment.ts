@@ -26,6 +26,7 @@ export interface SentenceAlignmentParagraph {
   translationSha256: string;
   groups: SentenceAlignmentGroup[];
   periodSentences?: PeriodSentenceAlignment[];
+  tailSentences?: PeriodSentenceAlignment[];
   supplementalTranslations?: PublishedSentenceReference[];
 }
 
@@ -54,6 +55,58 @@ export function splitPeriodSpans(text: string): SentenceSpan[] {
   }
   if (start < characters.length) spans.push({ start, end: characters.length, text: characters.slice(start).join('') });
   return spans;
+}
+
+// Preserve the checked full-stop units. A trailing question/exclamation sentence
+// also needs its own click target, even when the paragraph has no final 。.
+export function splitReadingSpans(text: string): SentenceSpan[] {
+  const periods = splitPeriodSpans(text);
+  const tail = periods.at(-1);
+  if (!tail || tail.text.includes('。') || !/[？！]/u.test(tail.text)) return periods;
+  const characters = [...tail.text];
+  const spans = periods.slice(0, -1);
+  let start = 0;
+  let cursor = 0;
+  while (cursor < characters.length) {
+    if (!/[？！]/u.test(characters[cursor]!)) { cursor += 1; continue; }
+    cursor += 1;
+    while (cursor < characters.length && (/[？！]/u.test(characters[cursor]!)
+      || closingMarks.has(characters[cursor]!) || /^\s$/u.test(characters[cursor]!))) cursor += 1;
+    spans.push({ start: tail.start + start, end: tail.start + cursor, text: characters.slice(start, cursor).join('') });
+    start = cursor;
+  }
+  if (start < characters.length) spans.push({ start: tail.start + start, end: tail.end, text: characters.slice(start).join('') });
+  return spans;
+}
+
+export function isClickableReadingSpan(text: string): boolean {
+  return /[。？！]/u.test(text);
+}
+
+export function matchesTailSentenceRanges(ranges: PeriodSentenceAlignment[], original: string, translation: string): boolean {
+  const tail = splitPeriodSpans(original).at(-1);
+  if (!tail || tail.text.includes('。') || !/[？！]/u.test(tail.text)) return false;
+  const spans = splitReadingSpans(original).filter(span => span.start >= tail.start);
+  if (ranges.length !== spans.length) return false;
+  let translationEnd = ranges[0]?.translationStart;
+  if (translationEnd === undefined || !Number.isSafeInteger(translationEnd) || translationEnd < 0) return false;
+  for (const [i, range] of ranges.entries()) {
+    if (range.originalStart !== spans[i]?.start || range.originalEnd !== spans[i]?.end
+      || range.translationStart !== translationEnd || !Number.isSafeInteger(range.translationEnd)
+      || range.translationEnd <= range.translationStart) return false;
+    translationEnd = range.translationEnd;
+  }
+  return translationEnd === [...translation].length;
+}
+
+export function tailTranslationStart(alignment: SentenceAlignmentParagraph, original: string): number | undefined {
+  const tail = splitPeriodSpans(original).at(-1);
+  if (!tail || tail.text.includes('。')) return undefined;
+  const explicit = alignment.periodSentences?.find(range => range.originalStart === tail.start && range.originalEnd === tail.end);
+  if (explicit) return explicit.translationStart;
+  const groups = alignment.groups.filter(group => group.originalStart < tail.end && group.originalEnd > tail.start);
+  if (groups[0]?.originalStart === tail.start && groups.at(-1)?.originalEnd === tail.end) return groups[0].translationStart;
+  return undefined;
 }
 
 export function matchesPeriodSentenceRanges(ranges: PeriodSentenceAlignment[], original: string, translation: string): boolean {
@@ -172,6 +225,25 @@ export function validateSentenceAlignmentDocument(input: unknown): SentenceAlign
         && new Set(paragraph.supplementalTranslations.map(ref => (ref as Record<string, unknown>).id)).size === paragraph.supplementalTranslations.length,
       `published sentence references ${paragraph.paragraphId}`);
     }
+    if (paragraph.tailSentences !== undefined) {
+      requireValue(Array.isArray(paragraph.tailSentences) && paragraph.tailSentences.length > 0
+        && paragraph.tailSentences.length <= 4096, `tail ranges ${paragraph.paragraphId}`);
+      const parent = Array.isArray(paragraph.periodSentences) ? paragraph.periodSentences.at(-1) : undefined;
+      if (parent) requireValue(paragraph.tailSentences[0].originalStart === parent.originalStart
+        && paragraph.tailSentences[0].translationStart === parent.translationStart, `tail parent ${paragraph.paragraphId}`);
+      let sourceEnd: number | undefined;
+      let targetEnd: number | undefined;
+      for (const sentence of paragraph.tailSentences) {
+        requireValue(record(sentence) && offset(sentence.originalStart) && positiveInteger(sentence.originalEnd)
+          && offset(sentence.translationStart) && positiveInteger(sentence.translationEnd), `tail offsets ${paragraph.paragraphId}`);
+        requireValue(sentence.originalEnd > sentence.originalStart && sentence.translationEnd > sentence.translationStart
+          && (sourceEnd === undefined || sentence.originalStart === sourceEnd)
+          && (targetEnd === undefined || sentence.translationStart === targetEnd), `tail coverage ${paragraph.paragraphId}`);
+        sourceEnd = sentence.originalEnd;
+        targetEnd = sentence.translationEnd;
+      }
+      requireValue(sourceEnd === originalEnd && targetEnd === translationEnd, `tail extent ${paragraph.paragraphId}`);
+    }
   }
   return input as unknown as SentenceAlignmentDocument;
 }
@@ -201,6 +273,8 @@ export async function matchesSentenceAlignment(alignment: SentenceAlignmentParag
   const [originalHash, translationHash] = await Promise.all([textSha256(paragraph.original), textSha256(paragraph.translation.text)]);
   if (alignment.originalSha256 !== originalHash || alignment.translationSha256 !== translationHash) return false;
   if (alignment.periodSentences && !matchesPeriodSentenceRanges(alignment.periodSentences, paragraph.original, paragraph.translation.text)) return false;
+  if (alignment.tailSentences && (!matchesTailSentenceRanges(alignment.tailSentences, paragraph.original, paragraph.translation.text)
+    || alignment.tailSentences[0]?.translationStart !== tailTranslationStart(alignment, paragraph.original))) return false;
   const originalSpans = splitSentenceSpans(paragraph.original);
   const translationSpans = splitSentenceSpans(paragraph.translation.text);
   const originalBoundaries = new Set(originalSpans.map(span => span.end));

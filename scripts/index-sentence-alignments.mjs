@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { loadLibrary } from '../content/library.mjs';
 import { loadPublishedSentenceTranslations } from '../content/sentence-translations.mjs';
 import { simplifyOriginal } from '../frontend/src/script-converter.ts';
-import { hasOuterSentencePunctuation, matchesPeriodSentenceRanges, splitSentenceSpans, validateSentenceAlignmentDocument } from '../frontend/src/sentence-alignment.ts';
+import { hasOuterSentencePunctuation, matchesPeriodSentenceRanges, matchesTailSentenceRanges, splitSentenceSpans, tailTranslationStart, validateSentenceAlignmentDocument } from '../frontend/src/sentence-alignment.ts';
 
 export const sentenceAlignmentsRoot = new URL('../content/sentence-alignments/', import.meta.url);
 const translationsRoot = new URL('../content/published-translations/', import.meta.url);
@@ -171,6 +171,19 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
     }
   }
   const usedPeriodOverrides = new Set();
+  const tailOverrides = new Map();
+  const tailRoot = new URL('tail-overrides/', sentenceAlignmentsRoot);
+  for (const file of readdirSync(tailRoot).filter(name => name.endsWith('.json')).sort()) {
+    const input = JSON.parse(readFileSync(new URL(file, tailRoot), 'utf8'));
+    requireValue(input.schemaVersion === 1 && Array.isArray(input.paragraphs), `tail file ${file}`);
+    for (const entry of input.paragraphs) {
+      requireValue(typeof entry.paragraphId === 'string' && !tailOverrides.has(entry.paragraphId)
+        && typeof entry.reason === 'string' && entry.reason.trim() && Array.isArray(entry.sentences)
+        && entry.sentences.length > 0, `tail identity ${file}`);
+      tailOverrides.set(entry.paragraphId, entry);
+    }
+  }
+  const usedTailOverrides = new Set();
   const documents = library.chapters.map(chapter => ({
     schemaVersion: 1,
     chapterId: chapter.id,
@@ -193,7 +206,7 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
         requireValue(override.originalSha256 === originalSha256 && override.translationId === translation.id && override.translationVersion === translation.version && override.translationSha256 === translationSha256, `stale override ${paragraph.id}`);
         usedOverrides.add(paragraph.id);
       }
-      return {
+      const result = {
         paragraphId: paragraph.id,
         originalRevision: paragraph.revision,
         originalSha256,
@@ -204,10 +217,22 @@ export function buildSentenceAlignmentDocuments(library = loadLibrary()) {
         ...(periodOverride ? { periodSentences: periodOverride.sentences } : {}),
         ...(supplements.has(paragraph.id) ? { supplementalTranslations: supplements.get(paragraph.id) } : {}),
       };
+      const tailOverride = tailOverrides.get(paragraph.id);
+      if (tailOverride) {
+        requireValue(tailOverride.originalRevision === paragraph.revision && tailOverride.originalSha256 === originalSha256
+          && tailOverride.translationId === translation.id && tailOverride.translationVersion === translation.version
+          && tailOverride.translationSha256 === translationSha256, `stale tail override ${paragraph.id}`);
+        requireValue(matchesTailSentenceRanges(tailOverride.sentences, paragraph.original, translation.text)
+          && tailOverride.sentences[0]?.translationStart === tailTranslationStart(result, paragraph.original), `tail boundaries ${paragraph.id}`);
+        result.tailSentences = tailOverride.sentences;
+        usedTailOverrides.add(paragraph.id);
+      }
+      return result;
     }),
   }));
   requireValue(usedOverrides.size === overrides.size, 'unused override');
   requireValue(usedPeriodOverrides.size === periodOverrides.size, 'unused period override');
+  requireValue(usedTailOverrides.size === tailOverrides.size, 'unused tail override');
   for (const document of documents) validateSentenceAlignmentDocument(document);
   return documents;
 }
