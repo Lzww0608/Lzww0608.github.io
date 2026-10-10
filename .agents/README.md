@@ -1,6 +1,6 @@
 # 项目开发 skills
 
-已为中国古代史网站收录 8 个开源技能，并维护 2 个项目自有技能，覆盖当前 React + TypeScript 前端、Node.js API、PostgreSQL、测试、古文阅读与人物关系。它们是供 AI 编程助手按任务读取的开发指导，不会增加网站运行时依赖。
+已为中国古代史网站收录 8 个开源技能，并维护 3 个项目自有技能，覆盖当前 React + TypeScript 前端、Node.js API、PostgreSQL、测试、古文阅读、人物关系与内容备份。它们是供 AI 编程助手按任务读取的开发指导，不会增加网站运行时依赖。
 
 ## 技能目录
 
@@ -20,6 +20,8 @@
 [historical-text-reading](skills/historical-text-reading/SKILL.md) 维护古文繁简切换、阅读偏好、底本与译文完整性。新增史料、原文阅读入口及相关 API／导入功能时读取；这是本项目维护的约定，与第三方技能正文分开更新。
 
 [historical-person-relationships](skills/historical-person-relationships/SKILL.md) 维护人物稳定 ID、统一关系注册表及原文章节／段落／逐字引文证据。新增或修改人物、关系资料、人物搜索及关系图时读取；默认先搜索并选择一个人物，只显示其直接关系。新增人物自动获得个人图，新增已核验关系自动更新双方图，缺少史料依据时保留无关系说明；不复制每人的图，不自动猜测历史关系。本技能不授权数据库写入或发布。
+
+[history-content-backup](skills/history-content-backup/SKILL.md) 将新增或修订的人物、史料、译文、关系、人物片段与句译索引，以及所有者校订导出后的正式状态，纳入 `/Users/lzww/history_backup` 的备份和 GitHub push 工作流。复用 `npm run backup:github --prefix backend`，备份已提交资料，并将数据库加密包读回解密、隔离恢复验证后再提交推送；不上传本机密钥、凭据或明文私有内容，不为纯 UI 修改生成整库备份，也不新增定时任务。用户已对该指定仓库的后续内容备份及 push 作出持续授权。
 
 ## 本项目如何使用
 

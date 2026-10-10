@@ -160,7 +160,22 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 
 ## 备份与恢复
 
-备份文件在 `.local/backups/`，采用 PostgreSQL custom 格式。**本机备份不能应对整机丢失或磁盘损坏**，还需把备份复制到另一台设备或选定的云存储。目前未连接外部存储。
+本机备份文件在 `.local/backups/`，采用 PostgreSQL custom 格式。GitHub 内容备份使用用户指定的 `/Users/lzww/history_backup`，固定远端为 [Lzww0608/history_backup](https://github.com/Lzww0608/history_backup)。它保存已提交 `HEAD` 的源码、原文、公开译文与索引，以及正式数据库的 AES-256-GCM 加密包；仓库公开，明文数据库、凭据、校订密码、隧道身份及日志不上 GitHub。
+
+以下命令在主项目根目录执行，`SNAPSHOT_ID` 使用备份仓库 `latest.json` 中的 `snapshotId`：
+
+```sh
+npm run backup:github --prefix backend -- --baseline
+npm run backup:github --prefix backend
+npm run backup:github --prefix backend -- --verify SNAPSHOT_ID
+npm run backup:github --prefix backend -- --decrypt SNAPSHOT_ID --output /Users/lzww/Lzww0608/backend/.local/backups/restored.dump
+```
+
+`--baseline` 用于正式内容写入前，备份当时数据库与已提交源码，允许工作区已有开发改动但不包含它们。默认命令用于内容发布、公开副本导出、索引检查及主项目提交之后，要求源码变更已提交。两种模式都将数据库加密包读回、验证解密结果，再在独立数据库完整恢复，比对全部表行哈希、结构和身份序列；通过后才在指定备份仓库 commit、push 并核对远端提交。内容与源提交一致时复用既有快照，推送失败可重试，不强制推送或重建密钥。后续新增内容沿此开发工作流执行，不新增定时任务或后台监控。
+
+`--verify` 校验已有快照并在独立数据库恢复；`--decrypt` 只解密到主项目 `backend/.local/backups/` 内尚不存在的私有文件，不覆盖正式库。恢复步骤见 [备份仓库 RESTORE.md](https://github.com/Lzww0608/history_backup/blob/main/RESTORE.md)。
+
+密钥在本机 `backend/.local/backup-key.bin`，权限 `0600`，不进入 GitHub、清单或日志。**请另存一份密钥到你掌握的离线位置**；Mac 与密钥一起丢失时，GitHub 上的加密包无法解密。已有离线密钥可用 `HISTORY_BACKUP_KEY_FILE` 指定，不打印其内容。`HISTORY_BACKUP_REPO` 仅允许选择同一固定远端的另一 checkout。
 
 检查备份：
 

@@ -12,6 +12,7 @@
     "seed": "node scripts/seed.mjs",
     "backup": "node scripts/backup.mjs",
     "backup:verify": "node scripts/verify-backup.mjs",
+    "backup:github": "node scripts/backup-to-github.mjs",
     "content": "node scripts/content.mjs",
     "status": "node scripts/status.mjs",
     "test": "node --test tests/*.test.mjs",
