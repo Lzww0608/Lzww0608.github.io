@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { people, events, displayedDynasties, filterSearch } from '../src/data.ts';
+import { people, events, fiveDynasties, displayedDynasties, filterSearch } from '../src/data.ts';
 import { libraryChapters, chaptersForPerson, chapterRoute, preferredChapterForPerson, resolveReadingRoute } from '../src/library.ts';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
@@ -24,7 +24,8 @@ test('the people index includes all fourteen reigning Five Dynasties emperors an
   assert.equal(emperorPeople.length, 14);
   assert.deepEqual(new Set(emperorPeople.map(person => person.id)), new Set(emperorIds));
   assert.deepEqual(emperorPeople, emperorCatalog.people);
-  assert.deepEqual(displayedDynasties, ['后梁', '后唐', '后晋', '后汉', '后周']);
+  assert.deepEqual(fiveDynasties, ['后梁', '后唐', '后晋', '后汉', '后周']);
+  assert.equal(displayedDynasties.includes('宋'), false);
   for (const [dynasty, count] of [['后梁', 3], ['后唐', 4], ['后晋', 2], ['后汉', 2], ['后周', 3]]) {
     assert.equal(emperorPeople.filter(person => person.dynasty === dynasty).length, count);
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "五代史料本地文库",
+  "title": "五代十国史料本地文库",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "books": [
@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代皇帝本纪共 59 卷，另收梁宗室传、梁将及李克用、李存勖麾下将领相关列传；合计 82 卷，保留辑佚说明与夹注。",
+      "description": "五代皇帝本纪共 59 卷，另收宗室、相关将领列传及十国记载所在卷 133—136；合计 86 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。",
+      "description": "五代皇帝本纪卷 1—12、相关人物列传及十国世家卷 61—70；共 33 卷，合传均整卷保留，不表示 74 卷全本已收录。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -132,7 +132,8 @@
         "liu-zhijun",
         "li-chengsi",
         "shi-yan",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi"
       ],
       "position": 1,
       "scope": "full",
@@ -179,7 +180,9 @@
         "he-delun",
         "kong-qing",
         "li-zhouyi",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi",
+        "gao-jixing"
       ],
       "position": 2,
       "scope": "full",
@@ -209,7 +212,10 @@
         "yang-shihou",
         "li-sian",
         "zhu-youqian",
-        "yuan-xiangxian"
+        "yuan-xiangxian",
+        "qian-liu",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 3,
       "scope": "full",
@@ -241,7 +247,10 @@
         "he-gui",
         "huang-wenjing",
         "liu-zhijun",
-        "zhang-wen"
+        "zhang-wen",
+        "wang-shenzhi",
+        "qian-liu",
+        "ma-yin"
       ],
       "position": 4,
       "scope": "full",
@@ -271,7 +280,9 @@
         "yang-shihou",
         "li-sian",
         "liu-zhijun",
-        "zhou-dewei"
+        "zhou-dewei",
+        "wang-shenzhi",
+        "qian-liu"
       ],
       "position": 5,
       "scope": "full",
@@ -303,7 +314,12 @@
         "huang-wenjing",
         "yan-bao",
         "he-delun",
-        "li-zhouyi"
+        "li-zhouyi",
+        "yang-longyan",
+        "wang-shenzhi",
+        "qian-liu",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 6,
       "scope": "full",
@@ -375,7 +391,10 @@
         "dai-siyuan",
         "yuan-xiangxian",
         "shi-jiantang",
-        "zhang-wen"
+        "zhang-wen",
+        "yang-pu",
+        "wang-shenzhi",
+        "qian-liu"
       ],
       "position": 8,
       "scope": "full",
@@ -409,7 +428,10 @@
         "li-zhouyi",
         "zhou-dewei",
         "dong-zhang",
-        "dou-tingwan"
+        "dou-tingwan",
+        "qian-liu",
+        "qian-yuanguan",
+        "gao-conghui"
       ],
       "position": 9,
       "scope": "full",
@@ -448,7 +470,8 @@
         "wang-jianji",
         "kang-yanxiao",
         "li-yan-youzhou",
-        "dong-zhang"
+        "dong-zhang",
+        "gao-jixing"
       ],
       "position": 10,
       "scope": "full",
@@ -492,7 +515,8 @@
         "an-jinquan",
         "zhu-shouyin",
         "li-shaowen",
-        "cao-ru"
+        "cao-ru",
+        "wang-jian-former-shu"
       ],
       "position": 27,
       "scope": "full",
@@ -542,7 +566,8 @@
         "yuan-xingqin",
         "gao-xinggui",
         "zhang-wen",
-        "mao-zhang"
+        "mao-zhang",
+        "yang-pu"
       ],
       "position": 28,
       "scope": "full",
@@ -588,7 +613,10 @@
         "zhu-shouyin",
         "kang-yanxiao",
         "mao-zhang",
-        "dong-zhang"
+        "dong-zhang",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "meng-zhixiang"
       ],
       "position": 29,
       "scope": "full",
@@ -628,7 +656,9 @@
         "kang-yanxiao",
         "dong-zhang",
         "li-jiji",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "gao-jixing"
       ],
       "position": 30,
       "scope": "full",
@@ -663,7 +693,12 @@
         "zhu-shouyin",
         "kang-yanxiao",
         "mao-zhang",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "ma-yin",
+        "ma-xifan",
+        "gao-jixing"
       ],
       "position": 31,
       "scope": "full",
@@ -707,7 +742,14 @@
         "zhu-shouyin",
         "li-yan-youzhou",
         "dong-zhang",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "qian-liu",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 32,
       "scope": "full",
@@ -741,7 +783,12 @@
         "mao-zhang",
         "dong-zhang",
         "li-jiji",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "ma-xichong",
+        "gao-jixing"
       ],
       "position": 33,
       "scope": "full",
@@ -779,7 +826,13 @@
         "li-shaowen",
         "dong-zhang",
         "zhao-zaili",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 34,
       "scope": "full",
@@ -826,7 +879,8 @@
         "zhu-shouyin",
         "mao-zhang",
         "zhao-zaili",
-        "fang-zhiwen"
+        "fang-zhiwen",
+        "yang-pu"
       ],
       "position": 35,
       "scope": "full",
@@ -876,7 +930,12 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-yanhan",
+        "qian-liu",
+        "gao-jixing"
       ],
       "position": 36,
       "scope": "full",
@@ -911,7 +970,13 @@
         "an-shentong",
         "mao-zhang",
         "zhao-zaili",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "qian-yuanguan",
+        "ma-yin",
+        "ma-xifan",
+        "gao-jixing"
       ],
       "position": 37,
       "scope": "full",
@@ -966,7 +1031,12 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "yang-pu",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 38,
       "scope": "full",
@@ -1013,7 +1083,14 @@
         "mao-zhang",
         "dou-tingwan",
         "fang-zhiwen",
-        "wang-jianli"
+        "wang-jianli",
+        "yang-pu",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "qian-yuanguan",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 39,
       "scope": "full",
@@ -1052,7 +1129,13 @@
         "zhang-wen",
         "mao-zhang",
         "wang-jianli",
-        "kang-fu"
+        "kang-fu",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "qian-liu",
+        "ma-yin",
+        "gao-jixing",
+        "gao-conghui"
       ],
       "position": 40,
       "scope": "full",
@@ -1098,7 +1181,11 @@
         "yang-yanwen",
         "zhao-zaili",
         "fang-zhiwen",
-        "wang-jianli"
+        "wang-jianli",
+        "meng-zhixiang",
+        "ma-yin",
+        "ma-xisheng",
+        "gao-jixing"
       ],
       "position": 41,
       "scope": "full",
@@ -1135,7 +1222,13 @@
         "zhang-qianzhao",
         "zhang-wen",
         "dong-zhang",
-        "wang-jianli"
+        "wang-jianli",
+        "wang-yanjun",
+        "qian-liu",
+        "qian-yuanguan",
+        "ma-yin",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "position": 42,
       "scope": "full",
@@ -1167,7 +1260,14 @@
         "suo-zitong",
         "dong-zhang",
         "fang-zhiwen",
-        "kang-fu"
+        "kang-fu",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "qian-liu",
+        "ma-yin",
+        "ma-xisheng",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "position": 43,
       "scope": "full",
@@ -1200,7 +1300,12 @@
         "zhang-jingda",
         "zhang-qianzhao",
         "zhang-wen",
-        "zhao-zaili"
+        "zhao-zaili",
+        "meng-zhixiang",
+        "qian-yuanguan",
+        "ma-xifan",
+        "ma-xiguang",
+        "liu-yan-southern-han"
       ],
       "position": 44,
       "scope": "full",
@@ -1230,7 +1335,11 @@
         "gao-xingzhou",
         "zhao-zaili",
         "fang-zhiwen",
-        "kang-fu"
+        "kang-fu",
+        "meng-zhixiang",
+        "qian-yuanguan",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "position": 45,
       "scope": "full",
@@ -1267,7 +1376,8 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "kang-fu"
+        "kang-fu",
+        "meng-zhixiang"
       ],
       "position": 46,
       "scope": "full",
@@ -1327,7 +1437,9 @@
         "an-yuanxin",
         "zhang-jingda",
         "gao-xingzhou",
-        "kang-fu"
+        "kang-fu",
+        "wang-yanjun",
+        "wang-jipeng"
       ],
       "position": 48,
       "scope": "full",
@@ -1404,7 +1516,10 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "kang-fu"
+        "kang-fu",
+        "qian-yuanguan",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "position": 76,
       "scope": "full",
@@ -1432,7 +1547,11 @@
         "li-siben",
         "gao-xingzhou",
         "zhao-zaili",
-        "wang-jianli"
+        "wang-jianli",
+        "wang-jipeng",
+        "qian-yuanguan",
+        "ma-xie",
+        "gao-conghui"
       ],
       "position": 77,
       "scope": "full",
@@ -1457,7 +1576,10 @@
       "title": "卷 78 · 晋高祖纪4",
       "subjects": [
         "shi-jingtang",
-        "zhao-zaili"
+        "zhao-zaili",
+        "wang-jipeng",
+        "qian-yuanguan",
+        "ma-xifan"
       ],
       "position": 78,
       "scope": "full",
@@ -1484,7 +1606,11 @@
         "shi-jingtang",
         "wang-jianli",
         "kang-fu",
-        "lu-siduo"
+        "lu-siduo",
+        "wang-jipeng",
+        "wang-yanxi",
+        "wang-yanzheng",
+        "qian-yuanguan"
       ],
       "position": 79,
       "scope": "full",
@@ -1513,7 +1639,10 @@
         "li-sian",
         "gao-xingzhou",
         "zhao-zaili",
-        "kang-fu"
+        "kang-fu",
+        "wang-yanxi",
+        "qian-yuanguan",
+        "ma-xifan"
       ],
       "position": 80,
       "scope": "full",
@@ -1540,7 +1669,12 @@
         "shi-chonggui",
         "gao-xingzhou",
         "zhao-zaili",
-        "kang-fu"
+        "kang-fu",
+        "wang-yanxi",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "gao-conghui"
       ],
       "position": 81,
       "scope": "full",
@@ -1565,7 +1699,8 @@
       "title": "卷 82 · 晋少帝纪2",
       "subjects": [
         "shi-chonggui",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "qian-yuanguan"
       ],
       "position": 82,
       "scope": "full",
@@ -1591,7 +1726,9 @@
       "subjects": [
         "shi-chonggui",
         "gao-xingzhou",
-        "zhao-zaili"
+        "zhao-zaili",
+        "wang-yanxi",
+        "zhu-wenjin"
       ],
       "position": 83,
       "scope": "full",
@@ -1618,7 +1755,8 @@
         "shi-chonggui",
         "wang-sitong",
         "gao-xingzhou",
-        "zhao-zaili"
+        "zhao-zaili",
+        "ma-xifan"
       ],
       "position": 84,
       "scope": "full",
@@ -1669,7 +1807,8 @@
       "title": "卷 99 · 汉高祖纪1",
       "subjects": [
         "liu-zhiyuan",
-        "zhang-jingda"
+        "zhang-jingda",
+        "liu-min-northern-han"
       ],
       "position": 99,
       "scope": "full",
@@ -1701,7 +1840,11 @@
         "zhu-shouyin",
         "gao-xingzhou",
         "mao-zhang",
-        "zhao-zaili"
+        "zhao-zaili",
+        "ma-xifan",
+        "ma-xiguang",
+        "gao-conghui",
+        "liu-min-northern-han"
       ],
       "position": 100,
       "scope": "full",
@@ -1726,7 +1869,13 @@
       "title": "卷 101 · 汉隐帝纪1",
       "subjects": [
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "li-jing-southern-tang",
+        "qian-yuanguan",
+        "ma-xiguang",
+        "gao-conghui",
+        "gao-baorong",
+        "liu-min-northern-han"
       ],
       "position": 101,
       "scope": "full",
@@ -1751,7 +1900,13 @@
       "title": "卷 102 · 汉隐帝纪2",
       "subjects": [
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "ma-xisheng",
+        "ma-xiguang",
+        "ma-xie",
+        "gao-baorong",
+        "liu-min-northern-han",
+        "liu-chengjun"
       ],
       "position": 102,
       "scope": "full",
@@ -1776,7 +1931,9 @@
       "title": "卷 103 · 汉隐帝纪3",
       "subjects": [
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "ma-xiguang",
+        "ma-xie"
       ],
       "position": 103,
       "scope": "full",
@@ -1803,7 +1960,11 @@
         "guo-wei",
         "li-sizhao",
         "zhu-shouyin",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "ma-xiguang",
+        "ma-xie",
+        "gao-baorong",
+        "liu-min-northern-han"
       ],
       "position": 110,
       "scope": "full",
@@ -1827,7 +1988,10 @@
       "volume": 111,
       "title": "卷 111 · 周太祖纪2",
       "subjects": [
-        "guo-wei"
+        "guo-wei",
+        "qian-hongchu",
+        "liu-min-northern-han",
+        "liu-chengjun"
       ],
       "position": 111,
       "scope": "full",
@@ -1852,7 +2016,11 @@
       "title": "卷 112 · 周太祖纪3",
       "subjects": [
         "guo-wei",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "li-jing-southern-tang",
+        "ma-xie",
+        "ma-xichong",
+        "liu-min-northern-han"
       ],
       "position": 112,
       "scope": "full",
@@ -1877,7 +2045,8 @@
       "title": "卷 113 · 周太祖纪4",
       "subjects": [
         "guo-wei",
-        "chai-rong"
+        "chai-rong",
+        "gao-baorong"
       ],
       "position": 113,
       "scope": "full",
@@ -1901,7 +2070,11 @@
       "volume": 114,
       "title": "卷 114 · 周世宗纪1",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "qian-hongchu",
+        "gao-baorong",
+        "gao-baoxu",
+        "liu-min-northern-han"
       ],
       "position": 114,
       "scope": "full",
@@ -1925,7 +2098,8 @@
       "volume": 115,
       "title": "卷 115 · 周世宗纪2",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "liu-min-northern-han"
       ],
       "position": 115,
       "scope": "full",
@@ -1949,7 +2123,10 @@
       "volume": 116,
       "title": "卷 116 · 周世宗纪3",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "li-jing-southern-tang",
+        "qian-hongchu",
+        "ma-xichong"
       ],
       "position": 116,
       "scope": "full",
@@ -1973,7 +2150,9 @@
       "volume": 117,
       "title": "卷 117 · 周世宗纪4",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "li-jing-southern-tang",
+        "meng-chang"
       ],
       "position": 117,
       "scope": "full",
@@ -1997,7 +2176,12 @@
       "volume": 118,
       "title": "卷 118 · 周世宗纪5",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "yang-xingmi",
+        "li-jing-southern-tang",
+        "qian-hongchu",
+        "gao-baorong",
+        "liu-chengjun"
       ],
       "position": 118,
       "scope": "full",
@@ -2021,7 +2205,10 @@
       "volume": 119,
       "title": "卷 119 · 周世宗纪6",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "li-jing-southern-tang",
+        "qian-hongchu",
+        "liu-min-northern-han"
       ],
       "position": 119,
       "scope": "full",
@@ -2045,7 +2232,11 @@
       "volume": 120,
       "title": "卷 120 · 周恭帝纪1",
       "subjects": [
-        "chai-zongxun"
+        "chai-zongxun",
+        "li-jing-southern-tang",
+        "qian-hongchu",
+        "ma-xichong",
+        "gao-baorong"
       ],
       "position": 120,
       "scope": "full",
@@ -2123,7 +2314,9 @@
         "zhu-youqian",
         "kong-qing",
         "li-zhouyi",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi",
+        "wang-jian-former-shu"
       ],
       "position": 1,
       "scope": "full",
@@ -2279,7 +2472,9 @@
         "yuan-xingqin",
         "fu-xi",
         "guo-congqian",
-        "zhao-zaili"
+        "zhao-zaili",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu"
       ],
       "position": 5,
       "scope": "full",
@@ -2331,7 +2526,8 @@
         "yang-yanwen",
         "zhao-zaili",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "meng-zhixiang"
       ],
       "position": 6,
       "scope": "full",
@@ -2394,7 +2590,8 @@
         "dong-zhang",
         "li-ye",
         "zhao-zaili",
-        "wang-jianli"
+        "wang-jianli",
+        "li-bian"
       ],
       "position": 8,
       "scope": "full",
@@ -2446,7 +2643,8 @@
       "subjects": [
         "liu-zhiyuan",
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "liu-min-northern-han"
       ],
       "position": 10,
       "scope": "full",
@@ -2470,7 +2668,8 @@
       "volume": 11,
       "title": "卷 11 · 周本纪第十一",
       "subjects": [
-        "guo-wei"
+        "guo-wei",
+        "liu-min-northern-han"
       ],
       "position": 11,
       "scope": "full",
@@ -2496,7 +2695,9 @@
       "subjects": [
         "chai-rong",
         "chai-zongxun",
-        "ren-huan"
+        "ren-huan",
+        "li-jing-southern-tang",
+        "liu-min-northern-han"
       ],
       "position": 12,
       "scope": "full",
@@ -2616,7 +2817,9 @@
         "zhou-dewei",
         "xue-zhiqin",
         "li-hanzhi",
-        "zhang-qianzhao"
+        "zhang-qianzhao",
+        "meng-zhixiang",
+        "meng-chang"
       ],
       "position": 53,
       "scope": "full",
@@ -2665,7 +2868,9 @@
         "gai-yu",
         "yi-guang",
         "li-hanzhi",
-        "an-xiuxiu"
+        "an-xiuxiu",
+        "yang-xingmi",
+        "qian-liu"
       ],
       "position": 55,
       "scope": "full",
@@ -2758,7 +2963,8 @@
         "mao-zhang",
         "dong-zhang",
         "zhao-zaili",
-        "li-congjing"
+        "li-congjing",
+        "gao-jixing"
       ],
       "position": 25,
       "scope": "full",
@@ -2851,7 +3057,12 @@
         "yan-bao",
         "huo-yanwei",
         "li-chengsi",
-        "shi-yan"
+        "shi-yan",
+        "yang-xingmi",
+        "yang-longyan",
+        "yang-pu",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu"
       ],
       "position": 13,
       "scope": "full",
@@ -2900,7 +3111,8 @@
         "liu-zhijun",
         "he-delun",
         "duan-ning",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi"
       ],
       "position": 16,
       "scope": "full",
@@ -2988,7 +3200,9 @@
         "wang-jingrao",
         "ding-hui",
         "liu-zhijun",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi",
+        "qian-liu"
       ],
       "position": 20,
       "scope": "full",
@@ -3039,7 +3253,8 @@
         "duan-ning",
         "li-zhouyi",
         "shi-yan",
-        "xia-luqi"
+        "xia-luqi",
+        "yang-xingmi"
       ],
       "position": 21,
       "scope": "full",
@@ -3124,7 +3339,10 @@
         "zhu-youqian",
         "duan-ning",
         "li-zhouyi",
-        "zhou-dewei"
+        "zhou-dewei",
+        "yang-xingmi",
+        "yang-pu",
+        "qian-liu"
       ],
       "position": 23,
       "scope": "full",
@@ -3297,7 +3515,8 @@
         "liu-zhijun",
         "duan-ning",
         "li-zhouyi",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi"
       ],
       "position": 21,
       "scope": "full",
@@ -3344,7 +3563,8 @@
         "li-zhouyi",
         "zhou-dewei",
         "wang-sitong",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi"
       ],
       "position": 22,
       "scope": "full",
@@ -3387,7 +3607,9 @@
         "yuan-xiangxian",
         "zhou-dewei",
         "shi-jiantang",
-        "li-hanzhi"
+        "li-hanzhi",
+        "yang-xingmi",
+        "qian-liu"
       ],
       "position": 23,
       "scope": "full",
@@ -3417,7 +3639,9 @@
         "duan-ning",
         "xia-luqi",
         "zhu-shouyin",
-        "dong-zhang"
+        "dong-zhang",
+        "yang-xingmi",
+        "li-jing-southern-tang"
       ],
       "position": 32,
       "scope": "full",
@@ -3447,7 +3671,9 @@
         "zhu-yougong",
         "wang-jingrao",
         "he-delun",
-        "guo-chongtao"
+        "guo-chongtao",
+        "wang-jian-former-shu",
+        "qian-liu"
       ],
       "position": 43,
       "scope": "full",
@@ -3495,7 +3721,10 @@
         "li-yan-youzhou",
         "zhang-wen",
         "dong-zhang",
-        "ren-huan"
+        "ren-huan",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu",
+        "meng-zhixiang"
       ],
       "position": 44,
       "scope": "full",
@@ -3584,7 +3813,9 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "kang-fu"
+        "kang-fu",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu"
       ],
       "position": 46,
       "scope": "full",
@@ -3616,7 +3847,8 @@
         "gai-yu",
         "li-hanzhi",
         "an-jinjun",
-        "an-xiuxiu"
+        "an-xiuxiu",
+        "wang-jian-former-shu"
       ],
       "position": 15,
       "scope": "full",
@@ -3664,7 +3896,10 @@
         "an-shentong",
         "dong-zhang",
         "fang-zhiwen",
-        "ren-huan"
+        "ren-huan",
+        "wang-yan-former-shu",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 61,
       "scope": "full",
@@ -3740,7 +3975,9 @@
         "kang-yanxiao",
         "li-yan-youzhou",
         "mao-zhang",
-        "ren-huan"
+        "ren-huan",
+        "wang-yan-former-shu",
+        "meng-zhixiang"
       ],
       "position": 57,
       "scope": "full",
@@ -3779,7 +4016,9 @@
         "fu-xi",
         "li-yan-youzhou",
         "dong-zhang",
-        "ren-huan"
+        "ren-huan",
+        "meng-zhixiang",
+        "gao-jixing"
       ],
       "position": 62,
       "scope": "full",
@@ -3818,7 +4057,9 @@
         "gao-xingzhou",
         "dong-zhang",
         "zhao-zaili",
-        "li-congjing"
+        "li-congjing",
+        "wang-yan-former-shu",
+        "meng-zhixiang"
       ],
       "position": 70,
       "scope": "full",
@@ -3854,7 +4095,8 @@
         "mao-zhang",
         "dong-zhang",
         "li-ye",
-        "zhao-zaili"
+        "zhao-zaili",
+        "wang-yan-former-shu"
       ],
       "position": 73,
       "scope": "full",
@@ -3894,7 +4136,10 @@
         "dong-zhang",
         "dou-tingwan",
         "yang-yanwen",
-        "ren-huan"
+        "ren-huan",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "meng-chang"
       ],
       "position": 74,
       "scope": "full",
@@ -3910,6 +4155,516 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B774&action=history",
         "sourceSha256": "df053d9c9d59e0f560c806adc3f8528b779e5c465260b89f98ac89f713a514c7",
         "chapterSha256": "df1f5a2f9e2498384773e27c94f554493f9edc3d1a9239ffe8b92ef59a69af63"
+      }
+    },
+    {
+      "id": "old-v133",
+      "bookId": "old",
+      "volume": 133,
+      "title": "卷 133 · 世袭列传（荆南、楚、吴越）",
+      "subjects": [
+        "xie-yanzhang",
+        "wang-yanzhang",
+        "zhou-dewei",
+        "liu-xun-yonghe",
+        "guo-chongtao",
+        "xia-luqi",
+        "xifang-ye",
+        "fang-zhiwen",
+        "yang-xingmi",
+        "li-jing-southern-tang",
+        "qian-liu",
+        "qian-yuanguan",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "qian-hongchu",
+        "ma-yin",
+        "ma-xisheng",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "gao-jixing",
+        "gao-conghui",
+        "gao-baorong",
+        "gao-baoxu"
+      ],
+      "position": 133,
+      "scope": "full",
+      "paragraphCount": 60,
+      "characterCount": 15052,
+      "provenance": {
+        "pageTitle": "舊五代史/卷133",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7133&oldid=1554279",
+        "revisionId": 1554279,
+        "fetchedAt": "2026-10-10T02:13:59.499178+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7133&action=history",
+        "sourceSha256": "09c7af0a06cc523a405ccbc975e60cf24877c5d3bc6ab7ea0260e02994e83abc",
+        "chapterSha256": "d715c9e734c54dc9f9bcf51b8b48873a796390d07fbb04f55ab77e7873d7a9b5"
+      }
+    },
+    {
+      "id": "old-v134",
+      "bookId": "old",
+      "volume": 134,
+      "title": "卷 134 · 僭伪列传（吴、南唐、闽）",
+      "subjects": [
+        "ge-congzhou",
+        "pang-shigu",
+        "zhang-guihou",
+        "wang-jingren",
+        "zhu-yougong",
+        "guo-yan",
+        "li-chengsi",
+        "shi-yan",
+        "guo-chongtao",
+        "yang-xingmi",
+        "yang-wo",
+        "yang-longyan",
+        "yang-pu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "li-yu",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "wang-yanjun",
+        "wang-jipeng",
+        "wang-yanxi",
+        "wang-yanzheng",
+        "qian-liu"
+      ],
+      "position": 134,
+      "scope": "full",
+      "paragraphCount": 31,
+      "characterCount": 8663,
+      "provenance": {
+        "pageTitle": "舊五代史/卷134",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7134&oldid=1490240",
+        "revisionId": 1490240,
+        "fetchedAt": "2026-10-10T02:13:59.268664+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7134&action=history",
+        "sourceSha256": "369b00ab0a097a620e109cd3e7f42e546f4e7011e33fc17b64c859c0162b1da9",
+        "chapterSha256": "7cb91b3ac36a19da4cd31613bfdecd6c53b685c5e1ae5b99c36280fd7a0b5fef"
+      }
+    },
+    {
+      "id": "old-v135",
+      "bookId": "old",
+      "volume": 135,
+      "title": "卷 135 · 僭伪列传（燕、南汉、北汉）",
+      "subjects": [
+        "li-sizhao",
+        "li-cunxin",
+        "fu-cunshen",
+        "ge-congzhou",
+        "shi-shucong",
+        "li-sian",
+        "ding-hui",
+        "he-delun",
+        "yuan-xiangxian",
+        "zhou-dewei",
+        "gai-yu",
+        "yuan-xingqin",
+        "yang-longyan",
+        "wang-jian-former-shu",
+        "qian-liu",
+        "liu-yan-southern-han",
+        "liu-bin-southern-han",
+        "liu-sheng",
+        "liu-chang-southern-han",
+        "liu-min-northern-han",
+        "liu-chengjun"
+      ],
+      "position": 135,
+      "scope": "full",
+      "paragraphCount": 23,
+      "characterCount": 6792,
+      "provenance": {
+        "pageTitle": "舊五代史/卷135",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7135&oldid=2692156",
+        "revisionId": 2692156,
+        "fetchedAt": "2026-10-10T02:14:00.853199+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7135&action=history",
+        "sourceSha256": "1fb6a601139aaea6bcde15dc815cc82315505b0b79db7b104b4066e4031eed0a",
+        "chapterSha256": "806c6b36cb046b5c37deca93bfc5373f8bcd60fe00c6eb4a7584307eef3958e5"
+      }
+    },
+    {
+      "id": "old-v136",
+      "bookId": "old",
+      "volume": 136,
+      "title": "卷 136 · 僭伪列传（前蜀、后蜀）",
+      "subjects": [
+        "wang-chongshi",
+        "guo-chongtao",
+        "xia-luqi",
+        "li-yan-youzhou",
+        "dong-zhang",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "meng-chang"
+      ],
+      "position": 136,
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 5532,
+      "provenance": {
+        "pageTitle": "舊五代史/卷136",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7136&oldid=2692157",
+        "revisionId": 2692157,
+        "fetchedAt": "2026-10-10T02:14:00.843512+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7136&action=history",
+        "sourceSha256": "628161081d4ebe0b17edbf64f44fdcc478e8fe9f445451ef2e0ca3b1531323b5",
+        "chapterSha256": "c499abfc745aa7a7afcb7e20c64df0fbaaab977121a75314716f2a6b3c779d6f"
+      }
+    },
+    {
+      "id": "new-v61",
+      "bookId": "new",
+      "volume": 61,
+      "title": "卷 61 · 吴世家第一",
+      "subjects": [
+        "ge-congzhou",
+        "pang-shigu",
+        "wang-jingren",
+        "li-chengsi",
+        "yang-xingmi",
+        "yang-wo",
+        "yang-longyan",
+        "yang-pu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "wang-yan-former-shu",
+        "qian-liu",
+        "ma-yin",
+        "gao-jixing"
+      ],
+      "position": 61,
+      "scope": "full",
+      "paragraphCount": 50,
+      "characterCount": 8307,
+      "provenance": {
+        "pageTitle": "新五代史/卷61",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B761&oldid=1674687",
+        "revisionId": 1674687,
+        "fetchedAt": "2026-10-10T02:14:02.390373+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B761&action=history",
+        "sourceSha256": "67094fa2eb07eb84fd77796395892da03fe780a9774cd43d470f9a016a23e9af",
+        "chapterSha256": "050bf22c245bbbfceae8a46814a0cb75b1c37a4536d16402d064fa7e1d7f25f5"
+      }
+    },
+    {
+      "id": "new-v62",
+      "bookId": "new",
+      "volume": 62,
+      "title": "卷 62 · 南唐世家第二",
+      "subjects": [
+        "yang-xingmi",
+        "yang-pu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "li-yu",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "wang-yanzheng",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "liu-yan-southern-han",
+        "liu-sheng"
+      ],
+      "position": 62,
+      "scope": "full",
+      "paragraphCount": 51,
+      "characterCount": 8516,
+      "provenance": {
+        "pageTitle": "新五代史/卷62",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B762&oldid=1674689",
+        "revisionId": 1674689,
+        "fetchedAt": "2026-10-10T02:14:02.388752+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B762&action=history",
+        "sourceSha256": "b105ab72441ef0ace891a60546e7a4d410258bbf2e3b095e2eb16f19dc288639",
+        "chapterSha256": "487fb65ee56928caadb9feff8f43c7a5a0a85a17d47de3b167863b9ef9b93d3e"
+      }
+    },
+    {
+      "id": "new-v63",
+      "bookId": "new",
+      "volume": 63,
+      "title": "卷 63 · 前蜀世家第三",
+      "subjects": [
+        "liu-zhijun",
+        "guo-chongtao",
+        "li-yan-youzhou",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu",
+        "gao-jixing"
+      ],
+      "position": 63,
+      "scope": "full",
+      "paragraphCount": 42,
+      "characterCount": 6974,
+      "provenance": {
+        "pageTitle": "新五代史/卷63",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690",
+        "revisionId": 1674690,
+        "fetchedAt": "2026-10-10T02:14:03.852574+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&action=history",
+        "sourceSha256": "01807dca593b338893baf9ce31932fd3221bee7b1e77e69b534d0477c3cc32be",
+        "chapterSha256": "6d2cb9a1b2ff719ec47974d0d56b44f91f80aa875fefdaf736c5f9f60c7c2ab4"
+      }
+    },
+    {
+      "id": "new-v64",
+      "bookId": "new",
+      "volume": 64,
+      "title": "卷 64 · 后蜀世家第四",
+      "subjects": [
+        "wang-sitong",
+        "guo-chongtao",
+        "xia-luqi",
+        "kang-yanxiao",
+        "li-yan-youzhou",
+        "zhang-qianzhao",
+        "dong-zhang",
+        "ren-huan",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "meng-chang",
+        "gao-jixing",
+        "gao-conghui",
+        "gao-baorong",
+        "liu-chengjun"
+      ],
+      "position": 64,
+      "scope": "full",
+      "paragraphCount": 35,
+      "characterCount": 5840,
+      "provenance": {
+        "pageTitle": "新五代史/卷64",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B764&oldid=1674692",
+        "revisionId": 1674692,
+        "fetchedAt": "2026-10-10T02:14:03.836961+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B764&action=history",
+        "sourceSha256": "82190881a9be590488d005d0807dbb2239d2183916526507369081bc37881323",
+        "chapterSha256": "a40e31a550fda4081e3c1f40adbf359b4398bc38bbff230c064a837f54f738a9"
+      }
+    },
+    {
+      "id": "new-v65",
+      "bookId": "new",
+      "volume": 65,
+      "title": "卷 65 · 南汉世家第五",
+      "subjects": [
+        "li-jing-southern-tang",
+        "li-yu",
+        "ma-yin",
+        "ma-xiguang",
+        "ma-xie",
+        "liu-yan-southern-han",
+        "liu-bin-southern-han",
+        "liu-sheng",
+        "liu-chang-southern-han"
+      ],
+      "position": 65,
+      "scope": "full",
+      "paragraphCount": 48,
+      "characterCount": 5584,
+      "provenance": {
+        "pageTitle": "新五代史/卷65",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B765&oldid=1674693",
+        "revisionId": 1674693,
+        "fetchedAt": "2026-10-10T02:14:05.305725+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B765&action=history",
+        "sourceSha256": "6752486bf7a561b4a3ed513196ffce1ac31be55865b7fe0c4dd500a779deacb9",
+        "chapterSha256": "d58d81a1343a0fa7fffb58df128da46496f363b07004b683c5990779a989c660"
+      }
+    },
+    {
+      "id": "new-v66",
+      "bookId": "new",
+      "volume": 66,
+      "title": "卷 66 · 楚世家第六",
+      "subjects": [
+        "yang-xingmi",
+        "li-jing-southern-tang",
+        "ma-yin",
+        "ma-xisheng",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "liu-yan-southern-han",
+        "liu-sheng",
+        "gao-jixing"
+      ],
+      "position": 66,
+      "scope": "full",
+      "paragraphCount": 44,
+      "characterCount": 6125,
+      "provenance": {
+        "pageTitle": "新五代史/卷66",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B766&oldid=2031673",
+        "revisionId": 2031673,
+        "fetchedAt": "2026-10-10T02:14:05.304184+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B766&action=history",
+        "sourceSha256": "83b00b63088d2ac8243aad5064e4db8b3fd4f44cda69b2cb8c655aaf352af49d",
+        "chapterSha256": "ae74a3c3e59b544c87a14e0c0133014fe86d2f85922feb3a2f032a2744e26173"
+      }
+    },
+    {
+      "id": "new-v67",
+      "bookId": "new",
+      "volume": 67,
+      "title": "卷 67 · 吴越世家第七",
+      "subjects": [
+        "guo-chongtao",
+        "yang-xingmi",
+        "yang-wo",
+        "yang-longyan",
+        "li-bian",
+        "li-jing-southern-tang",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "wang-yanzheng",
+        "qian-liu",
+        "qian-yuanguan",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "qian-hongchu",
+        "zhuo-yanming"
+      ],
+      "position": 67,
+      "scope": "full",
+      "paragraphCount": 30,
+      "characterCount": 4879,
+      "provenance": {
+        "pageTitle": "新五代史/卷67",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B767&oldid=1674695",
+        "revisionId": 1674695,
+        "fetchedAt": "2026-10-10T02:14:06.534608+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B767&action=history",
+        "sourceSha256": "b3c88a8d8f4b4396bb8d916fa990b28426336bb4fdbeff05ea901987d15de44d",
+        "chapterSha256": "7f50b060ef09a62ff266ddb782da259006921dad911f164149608b59ab5c25c7"
+      }
+    },
+    {
+      "id": "new-v68",
+      "bookId": "new",
+      "volume": 68,
+      "title": "卷 68 · 闽世家第八",
+      "subjects": [
+        "yang-xingmi",
+        "li-jing-southern-tang",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "wang-yanjun",
+        "wang-jipeng",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "wang-yanzheng",
+        "qian-liu",
+        "ma-yin",
+        "zhuo-yanming"
+      ],
+      "position": 68,
+      "scope": "full",
+      "paragraphCount": 36,
+      "characterCount": 5050,
+      "provenance": {
+        "pageTitle": "新五代史/卷68",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B768&oldid=1674696",
+        "revisionId": 1674696,
+        "fetchedAt": "2026-10-10T02:14:06.783387+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B768&action=history",
+        "sourceSha256": "3b965868982d871a903540b861a0eaa6d3d73a861b8e0bf5cd0cd670e24ceba3",
+        "chapterSha256": "9b3b44411e9af08057379e5d1f3ab86f3fcb2a187704e10d2465104b032d308d"
+      }
+    },
+    {
+      "id": "new-v69",
+      "bookId": "new",
+      "volume": 69,
+      "title": "卷 69 · 南平世家第九",
+      "subjects": [
+        "kong-qing",
+        "liu-xun-yonghe",
+        "guo-chongtao",
+        "xifang-ye",
+        "li-jing-southern-tang",
+        "ma-yin",
+        "gao-jixing",
+        "gao-conghui",
+        "gao-baorong",
+        "gao-baoxu",
+        "gao-jichong"
+      ],
+      "position": 69,
+      "scope": "full",
+      "paragraphCount": 20,
+      "characterCount": 3032,
+      "provenance": {
+        "pageTitle": "新五代史/卷69",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B769&oldid=1674698",
+        "revisionId": 1674698,
+        "fetchedAt": "2026-10-10T02:14:07.785355+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B769&action=history",
+        "sourceSha256": "65d952c2a40cf8e35806f8d275b46da13e1f11f47530b972f238b90802c19be1",
+        "chapterSha256": "d2283fa0774b81013932077ea8781df0a3d9e7f1ed441a23feffb0ef50e6d08c"
+      }
+    },
+    {
+      "id": "new-v70",
+      "bookId": "new",
+      "volume": 70,
+      "title": "卷 70 · 东汉世家第十（北汉）",
+      "subjects": [
+        "liu-min-northern-han",
+        "liu-chengjun",
+        "liu-jien",
+        "liu-jiyuan"
+      ],
+      "position": 70,
+      "scope": "full",
+      "paragraphCount": 29,
+      "characterCount": 4066,
+      "provenance": {
+        "pageTitle": "新五代史/卷70",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B770&oldid=1674699",
+        "revisionId": 1674699,
+        "fetchedAt": "2026-10-10T02:14:08.084760+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B770&action=history",
+        "sourceSha256": "3dfd8798a730d7cbcbcb8cc8c259a48363eb25435b65ce033de25c598bc44e3a",
+        "chapterSha256": "e7192e3594e33c60196e73a8d9199ea6a9f8fa04832cbdc11c1bddaca93340bf"
       }
     },
     {
@@ -3939,7 +4694,16 @@
         "an-yuanxin",
         "wang-sitong",
         "yuan-xingqin",
-        "zhu-shouyin"
+        "zhu-shouyin",
+        "yang-xingmi",
+        "yang-wo",
+        "yang-longyan",
+        "wang-jian-former-shu",
+        "wang-shenzhi",
+        "qian-liu",
+        "qian-yuanguan",
+        "ma-yin",
+        "gao-jixing"
       ],
       "position": 266,
       "scope": "full",
@@ -3988,7 +4752,13 @@
         "shi-yan",
         "wang-jianji",
         "li-hanzhi",
-        "yuan-xingqin"
+        "yuan-xingqin",
+        "li-bian",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu",
+        "wang-shenzhi",
+        "ma-xifan",
+        "gao-jixing"
       ],
       "position": 267,
       "scope": "full",
@@ -4044,7 +4814,15 @@
         "yuan-xingqin",
         "fu-xi",
         "li-yan-youzhou",
-        "gao-xinggui"
+        "gao-xinggui",
+        "yang-longyan",
+        "li-bian",
+        "wang-jian-former-shu",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "qian-yuanguan",
+        "liu-yan-southern-han",
+        "gao-jixing"
       ],
       "position": 268,
       "scope": "full",
@@ -4104,7 +4882,11 @@
         "gao-xingzhou",
         "zhang-wen",
         "mao-zhang",
-        "li-jiji"
+        "li-jiji",
+        "li-bian",
+        "wang-jian-former-shu",
+        "liu-yan-southern-han",
+        "gao-jixing"
       ],
       "position": 269,
       "scope": "full",
@@ -4143,7 +4925,14 @@
         "yuan-jianfeng",
         "wang-jianji",
         "guo-chongtao",
-        "yuan-xingqin"
+        "yuan-xingqin",
+        "li-bian",
+        "wang-jian-former-shu",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "qian-yuanguan",
+        "liu-yan-southern-han",
+        "gao-jixing"
       ],
       "position": 270,
       "scope": "full",
@@ -4187,7 +4976,10 @@
         "yuan-xingqin",
         "fu-xi",
         "wu-zhen",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "wang-shenzhi",
+        "gao-jixing"
       ],
       "position": 271,
       "scope": "full",
@@ -4232,7 +5024,12 @@
         "gao-xingzhou",
         "dong-zhang",
         "lu-siduo",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "li-jing-southern-tang",
+        "meng-zhixiang",
+        "qian-yuanguan",
+        "gao-jixing"
       ],
       "position": 272,
       "scope": "full",
@@ -4271,7 +5068,14 @@
         "li-yan-youzhou",
         "mao-zhang",
         "dong-zhang",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "gao-jixing",
+        "gao-conghui"
       ],
       "position": 273,
       "scope": "full",
@@ -4321,7 +5125,14 @@
         "wang-jianli",
         "kang-fu",
         "li-congjing",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "qian-yuanguan",
+        "gao-jixing"
       ],
       "position": 274,
       "scope": "full",
@@ -4372,7 +5183,16 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "meng-chang",
+        "wang-shenzhi",
+        "wang-yanhan",
+        "wang-yanjun",
+        "zhu-wenjin",
+        "gao-jixing"
       ],
       "position": 275,
       "scope": "full",
@@ -4415,7 +5235,16 @@
         "fang-zhiwen",
         "wang-jianli",
         "kang-fu",
-        "ren-huan"
+        "ren-huan",
+        "li-bian",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "qian-yuanguan",
+        "ma-xisheng",
+        "ma-xifan",
+        "gao-jixing",
+        "gao-conghui"
       ],
       "position": 276,
       "scope": "full",
@@ -4449,7 +5278,18 @@
         "yang-yanwen",
         "zhao-zaili",
         "wang-jianli",
-        "kang-fu"
+        "kang-fu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "wang-jipeng",
+        "wang-yanzheng",
+        "qian-liu",
+        "qian-yuanguan",
+        "ma-yin",
+        "ma-xisheng",
+        "gao-conghui"
       ],
       "position": 277,
       "scope": "full",
@@ -4478,7 +5318,20 @@
         "li-conghou",
         "xia-luqi",
         "li-yan-youzhou",
-        "zhang-jingda"
+        "zhang-jingda",
+        "li-bian",
+        "meng-zhixiang",
+        "meng-chang",
+        "wang-shenzhi",
+        "wang-yanjun",
+        "wang-jipeng",
+        "qian-yuanguan",
+        "ma-xisheng",
+        "ma-xifan",
+        "liu-yan-southern-han",
+        "liu-bin-southern-han",
+        "liu-sheng",
+        "gao-conghui"
       ],
       "position": 278,
       "scope": "full",
@@ -4513,7 +5366,15 @@
         "zhang-qianzhao",
         "suo-zitong",
         "fang-zhiwen",
-        "kang-fu"
+        "kang-fu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "meng-chang",
+        "wang-jipeng",
+        "qian-yuanguan",
+        "ma-xifan",
+        "liu-bin-southern-han",
+        "gao-conghui"
       ],
       "position": 279,
       "scope": "full",
@@ -4545,7 +5406,12 @@
         "zhang-jingda",
         "gao-xingzhou",
         "fang-zhiwen",
-        "wang-jianli"
+        "wang-jianli",
+        "li-bian",
+        "li-jing-southern-tang",
+        "ma-xifan",
+        "ma-xiguang",
+        "gao-conghui"
       ],
       "position": 280,
       "scope": "full",
@@ -4572,7 +5438,11 @@
       "subjects": [
         "shi-jingtang",
         "guo-chongtao",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "li-bian",
+        "li-jing-southern-tang",
+        "qian-yuanguan",
+        "ma-xifan"
       ],
       "position": 281,
       "scope": "full",
@@ -4599,7 +5469,17 @@
       "subjects": [
         "shi-jingtang",
         "gao-xingzhou",
-        "wang-jianli"
+        "wang-jianli",
+        "wang-jipeng",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "wang-yanzheng",
+        "qian-yuanguan",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "qian-hongchu",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "position": 282,
       "scope": "full",
@@ -4626,7 +5506,12 @@
       "subjects": [
         "shi-jingtang",
         "shi-chonggui",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "wang-yanzheng",
+        "qian-hongzuo",
+        "ma-xifan",
+        "liu-bin-southern-han",
+        "liu-sheng"
       ],
       "position": 283,
       "scope": "full",
@@ -4654,7 +5539,11 @@
         "shi-chonggui",
         "yan-bao",
         "gao-xingzhou",
-        "zhao-zaili"
+        "zhao-zaili",
+        "zhu-wenjin",
+        "wang-yanzheng",
+        "ma-xifan",
+        "zhuo-yanming"
       ],
       "position": 284,
       "scope": "full",
@@ -4681,7 +5570,10 @@
       "subjects": [
         "shi-chonggui",
         "gao-xingzhou",
-        "zhao-zaili"
+        "zhao-zaili",
+        "wang-yanzheng",
+        "qian-hongzuo",
+        "ma-xifan"
       ],
       "position": 285,
       "scope": "full",
@@ -4708,7 +5600,10 @@
       "subjects": [
         "liu-zhiyuan",
         "fu-xi",
-        "zhao-zaili"
+        "zhao-zaili",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "gao-conghui"
       ],
       "position": 286,
       "scope": "full",
@@ -4736,7 +5631,17 @@
         "liu-zhiyuan",
         "liu-chengyou",
         "zhang-qianzhao",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "wang-yanzheng",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "qian-hongchu",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "gao-jixing",
+        "gao-conghui"
       ],
       "position": 287,
       "scope": "full",
@@ -4762,7 +5667,13 @@
       "years": "948—949",
       "subjects": [
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "qian-hongchu",
+        "ma-xiguang",
+        "ma-xie",
+        "gao-conghui",
+        "gao-baorong",
+        "liu-min-northern-han"
       ],
       "position": 288,
       "scope": "full",
@@ -4788,7 +5699,13 @@
       "years": "950",
       "subjects": [
         "liu-chengyou",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "zhu-wenjin",
+        "qian-hongchu",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "gao-baorong"
       ],
       "position": 289,
       "scope": "full",
@@ -4814,7 +5731,14 @@
       "years": "951—952",
       "subjects": [
         "guo-wei",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "wang-yanzheng",
+        "qian-hongchu",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "liu-min-northern-han",
+        "liu-chengjun"
       ],
       "position": 290,
       "scope": "full",
@@ -4841,7 +5765,10 @@
       "subjects": [
         "guo-wei",
         "chai-rong",
-        "guo-yan"
+        "guo-yan",
+        "ma-xie",
+        "liu-chang-southern-han",
+        "liu-min-northern-han"
       ],
       "position": 291,
       "scope": "full",
@@ -4866,7 +5793,10 @@
       "title": "卷 292 · 后周纪3",
       "years": "954—956",
       "subjects": [
-        "chai-rong"
+        "chai-rong",
+        "qian-hongchu",
+        "ma-xie",
+        "liu-chengjun"
       ],
       "position": 292,
       "scope": "full",
@@ -4892,7 +5822,13 @@
       "years": "956—957",
       "subjects": [
         "chai-rong",
-        "wang-jingren"
+        "wang-jingren",
+        "li-jing-southern-tang",
+        "wang-yanzheng",
+        "qian-hongchu",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong"
       ],
       "position": 293,
       "scope": "full",
@@ -4918,7 +5854,13 @@
       "years": "958—959",
       "subjects": [
         "chai-rong",
-        "chai-zongxun"
+        "chai-zongxun",
+        "yang-xingmi",
+        "li-yu",
+        "qian-hongchu",
+        "ma-xisheng",
+        "liu-chang-southern-han",
+        "gao-baorong"
       ],
       "position": 294,
       "scope": "full",
@@ -4950,7 +5892,8 @@
         "liu-chengyou",
         "chai-rong",
         "li-sian",
-        "li-hanzhi"
+        "li-hanzhi",
+        "liu-min-northern-han"
       ],
       "position": 1,
       "scope": "full",
@@ -4975,7 +5918,11 @@
       "position": 1,
       "title": "提要、序与逸文",
       "subjects": [
-        "liu-xun-yonghe"
+        "liu-xun-yonghe",
+        "yang-xingmi",
+        "wang-shenzhi",
+        "wang-yanjun",
+        "gao-jixing"
       ],
       "scope": "full",
       "paragraphCount": 6,
@@ -5042,7 +5989,10 @@
       "volume": 0,
       "position": 1,
       "title": "提要与自序",
-      "subjects": [],
+      "subjects": [
+        "gao-jixing",
+        "gao-jichong"
+      ],
       "scope": "full",
       "paragraphCount": 7,
       "characterCount": 791,
@@ -5066,7 +6016,10 @@
       "title": "卷 1 · 后梁史事",
       "subjects": [
         "zhu-wen",
-        "wang-yanzhang"
+        "wang-yanzhang",
+        "yang-xingmi",
+        "wang-jian-former-shu",
+        "qian-liu"
       ],
       "scope": "full",
       "paragraphCount": 42,
@@ -5093,7 +6046,14 @@
         "li-cunxu",
         "zhu-wen",
         "dong-zhang",
-        "fang-zhiwen"
+        "fang-zhiwen",
+        "yang-xingmi",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "wang-yanjun",
+        "wang-yanxi",
+        "qian-liu",
+        "gao-jixing"
       ],
       "scope": "full",
       "paragraphCount": 40,
@@ -5119,7 +6079,11 @@
       "subjects": [
         "shi-jingtang",
         "wang-yanzhang",
-        "zhao-zaili"
+        "zhao-zaili",
+        "li-bian",
+        "qian-liu",
+        "ma-xifan",
+        "gao-conghui"
       ],
       "scope": "full",
       "paragraphCount": 40,
@@ -5148,7 +6112,13 @@
         "liu-xun-yonghe",
         "guo-chongtao",
         "xia-luqi",
-        "fang-zhiwen"
+        "fang-zhiwen",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "ma-xichong",
+        "gao-jixing",
+        "gao-conghui"
       ],
       "scope": "full",
       "paragraphCount": 40,
@@ -5173,7 +6143,8 @@
       "title": "卷 5 · 后周史事",
       "subjects": [
         "guo-wei",
-        "shi-jingtang"
+        "shi-jingtang",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 46,
@@ -5233,7 +6204,11 @@
         "mao-zhang",
         "dong-zhang",
         "fang-zhiwen",
-        "ren-huan"
+        "ren-huan",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "ma-xisheng",
+        "gao-jixing"
       ],
       "scope": "full",
       "paragraphCount": 35,
@@ -5265,7 +6240,15 @@
         "chai-rong",
         "chai-zongxun",
         "zhang-jingda",
-        "gao-xingzhou"
+        "gao-xingzhou",
+        "meng-zhixiang",
+        "wang-yanjun",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "qian-yuanguan",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie"
       ],
       "scope": "full",
       "paragraphCount": 39,
@@ -5335,7 +6318,24 @@
         "zhao-zaili",
         "fang-zhiwen",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "wang-yanxi",
+        "zhu-wenjin",
+        "qian-liu",
+        "qian-yuanguan",
+        "qian-hongzuo",
+        "qian-hongcong",
+        "qian-hongchu",
+        "ma-yin",
+        "ma-xifan",
+        "ma-xiguang",
+        "liu-yan-southern-han",
+        "gao-jixing",
+        "gao-conghui",
+        "gao-baorong",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -5367,7 +6367,8 @@
         "shi-chonggui",
         "liu-zhiyuan",
         "yuan-xiangxian",
-        "yuan-xingqin"
+        "yuan-xingqin",
+        "meng-zhixiang"
       ],
       "scope": "full",
       "paragraphCount": 67,
@@ -5423,7 +6424,8 @@
         "li-congke",
         "chai-rong",
         "guo-chongtao",
-        "fang-zhiwen"
+        "fang-zhiwen",
+        "qian-liu"
       ],
       "scope": "full",
       "paragraphCount": 65,
@@ -5616,7 +6618,23 @@
         "zhu-shouyin",
         "gao-xingzhou",
         "fang-zhiwen",
-        "wang-jianli"
+        "wang-jianli",
+        "wang-yan-former-shu",
+        "meng-zhixiang",
+        "wang-shenzhi",
+        "wang-yanjun",
+        "wang-yanxi",
+        "qian-liu",
+        "qian-yuanguan",
+        "qian-hongzuo",
+        "qian-hongchu",
+        "ma-yin",
+        "ma-xifan",
+        "ma-xiguang",
+        "gao-jixing",
+        "gao-conghui",
+        "gao-baorong",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 114,
@@ -5644,7 +6662,13 @@
         "zhu-hanbin",
         "an-yuanxin",
         "gao-xingzhou",
-        "kang-fu"
+        "kang-fu",
+        "wang-shenzhi",
+        "qian-yuanguan",
+        "ma-yin",
+        "ma-xifan",
+        "gao-conghui",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 106,
@@ -5672,7 +6696,9 @@
         "li-conghou",
         "li-congke",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "qian-liu",
+        "ma-yin"
       ],
       "scope": "full",
       "paragraphCount": 61,
@@ -5790,7 +6816,8 @@
         "zhu-yougui",
         "li-siyuan",
         "liu-chengyou",
-        "guo-chongtao"
+        "guo-chongtao",
+        "gao-conghui"
       ],
       "scope": "full",
       "paragraphCount": 48,
@@ -5835,7 +6862,10 @@
       "volume": 20,
       "position": 21,
       "title": "卷 20",
-      "subjects": [],
+      "subjects": [
+        "qian-yuanguan",
+        "ma-xifan"
+      ],
       "scope": "full",
       "paragraphCount": 105,
       "characterCount": 7314,
@@ -5929,7 +6959,9 @@
         "yang-shihou",
         "duan-ning",
         "guo-chongtao",
-        "zhu-shouyin"
+        "zhu-shouyin",
+        "qian-yuanguan",
+        "qian-hongchu"
       ],
       "scope": "full",
       "paragraphCount": 102,
@@ -6052,7 +7084,8 @@
         "shi-jingtang",
         "wang-yanqiu",
         "gao-xingzhou",
-        "kang-fu"
+        "kang-fu",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 31,
@@ -6076,7 +7109,8 @@
       "position": 31,
       "title": "卷 30",
       "subjects": [
-        "guo-chongtao"
+        "guo-chongtao",
+        "wang-yan-former-shu"
       ],
       "scope": "full",
       "paragraphCount": 76,
@@ -6106,7 +7140,9 @@
         "ge-congzhou",
         "liu-xun",
         "yang-shihou",
-        "zhao-zaili"
+        "zhao-zaili",
+        "qian-liu",
+        "liu-min-northern-han"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -6144,7 +7180,8 @@
         "li-ye",
         "zhao-zaili",
         "wang-jianli",
-        "ren-huan"
+        "ren-huan",
+        "ma-yin"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -6240,7 +7277,10 @@
         "zhou-dewei",
         "an-jinquan",
         "yuan-xingqin",
-        "wang-jianli"
+        "wang-jianli",
+        "yang-wo",
+        "ma-yin",
+        "liu-yan-southern-han"
       ],
       "position": 28,
       "scope": "full",
@@ -6296,7 +7336,15 @@
         "mao-zhang",
         "dong-zhang",
         "fang-zhiwen",
-        "ren-huan"
+        "ren-huan",
+        "yang-longyan",
+        "li-bian",
+        "wang-jian-former-shu",
+        "meng-zhixiang",
+        "qian-liu",
+        "qian-yuanguan",
+        "qian-hongchu",
+        "gao-jixing"
       ],
       "position": 29,
       "scope": "full",
@@ -6326,7 +7374,20 @@
         "shi-chonggui",
         "liu-chengyou",
         "chai-rong",
-        "chai-zongxun"
+        "chai-zongxun",
+        "li-bian",
+        "li-jing-southern-tang",
+        "wang-shenzhi",
+        "wang-yanxi",
+        "qian-yuanguan",
+        "ma-xifan",
+        "ma-xiguang",
+        "ma-xie",
+        "gao-baorong",
+        "liu-min-northern-han",
+        "liu-chengjun",
+        "liu-jiyuan",
+        "zhuo-yanming"
       ],
       "position": 30,
       "scope": "full",

@@ -1,0 +1,1509 @@
+{
+  "schemaVersion": 1,
+  "scope": "ten-kingdoms-rulers",
+  "scopeNote": "十国实际君主专题，收录吴、南唐、前蜀、后蜀、闽、吴越、楚、南汉、南平（荆南）、北汉的42位主序统治者，另补945年仅在福州被拥立的争位者卓俨明，共43人。十国并非全部称帝，吴王、吴越国王、楚王、节度使与实际承主者按史载分别标明；杨行密按吴政权奠基者收录，不把追尊帝号当作生前称帝。闽末朱文进的短暂自立另注明，卓俨明单标局部争位者，王延政943年起称殷帝而945年复闽号，不当作全闽始终统一。年份使用实际西历跨年，不以960年截断十国后期在位。",
+  "people": [
+    {
+      "id": "yang-xingmi",
+      "name": "杨行密",
+      "dynasty": "吴",
+      "role": "吴政权奠基者",
+      "sovereignTitle": "吴王",
+      "aliases": "吴太祖 武皇帝 武忠王",
+      "nameVariants": [
+        "楊行密"
+      ],
+      "intro": "杨行密在晚唐兼并淮南，902年由唐廷封为吴王，905年去世。他生前没有称帝，吴太祖、武皇帝是杨溥称帝后的追尊称号。",
+      "reign": "902—905 年",
+      "reignStart": 902,
+      "reignEnd": 905,
+      "readingStarts": {
+        "new": "new-v61",
+        "old": "old-v134",
+        "tongjian": "tongjian-v294"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷61·吴相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷61"
+        },
+        {
+          "title": "旧五代史·卷134·吴相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷294及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷294"
+        }
+      ],
+      "periodLabel": "吴 · 902年封吴王，生前未称帝"
+    },
+    {
+      "id": "yang-wo",
+      "name": "杨渥",
+      "dynasty": "吴",
+      "role": "吴第二位统治者",
+      "sovereignTitle": "弘农郡王",
+      "aliases": "杨景王 吴烈祖 景皇帝",
+      "nameVariants": [
+        "楊渥"
+      ],
+      "intro": "杨渥为杨行密长子，905年承继淮南军府，保留唐天祐年号。徐温、张颢夺取军权后将其杀害；景皇帝是后来的追尊称号，不能据此认为他生前已经称帝。",
+      "reign": "905—908 年",
+      "reignStart": 905,
+      "reignEnd": 908,
+      "readingStarts": {
+        "new": "new-v61",
+        "old": "old-v134",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷61·吴相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷61"
+        },
+        {
+          "title": "旧五代史·卷134·吴相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ],
+      "sourceNotes": [
+        "新旧五代史对杨渥字、身后庙号和袭位称号的记述不同，原书各自保留。"
+      ]
+    },
+    {
+      "id": "yang-longyan",
+      "name": "杨隆演",
+      "dynasty": "吴",
+      "role": "吴宣王",
+      "sovereignTitle": "吴王、吴国王",
+      "aliases": "杨瀛 杨渭 宣王 吴高祖 宣皇帝",
+      "nameVariants": [
+        "楊隆演",
+        "楊瀛",
+        "楊渭"
+      ],
+      "intro": "杨隆演为杨行密之子，杨渥死后于908年承主。919年正式建吴国、改元武义，设宗庙百官，仍称王而未称帝；实权长期在徐氏手中。",
+      "reign": "908—920 年",
+      "reignStart": 908,
+      "reignEnd": 920,
+      "readingStarts": {
+        "new": "new-v61",
+        "old": "old-v134",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷61·吴相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷61"
+        },
+        {
+          "title": "旧五代史·卷134·吴相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ]
+    },
+    {
+      "id": "yang-pu",
+      "name": "杨溥",
+      "dynasty": "吴",
+      "role": "吴睿帝",
+      "sovereignTitle": "吴国王、皇帝",
+      "aliases": "吴睿帝 丹阳郡公",
+      "nameVariants": [
+        "楊溥"
+      ],
+      "intro": "杨溥为杨行密之子，920年继位，927年称帝。937年被迫将政权交给徐知诰，吴国结束；逊位后的迁居与去世记载也纳入相关文献。",
+      "reign": "920—937 年",
+      "reignStart": 920,
+      "reignEnd": 937,
+      "readingStarts": {
+        "new": "new-v61",
+        "old": "old-v134"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷61·吴相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷61"
+        },
+        {
+          "title": "旧五代史·卷134·吴相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        }
+      ],
+      "sourceNotes": [
+        "《新五代史》吴世家和南唐世家对杨溥去世的纪年不一致，人物在位止于937年逊位，不以去世年替代。"
+      ]
+    },
+    {
+      "id": "li-bian",
+      "name": "李昪",
+      "dynasty": "南唐",
+      "role": "南唐建立者",
+      "sovereignTitle": "皇帝",
+      "aliases": "徐知诰 南唐烈祖 李掞（旧史引文版本用名）",
+      "nameVariants": [
+        "李昪",
+        "徐知誥",
+        "李掞"
+      ],
+      "intro": "李昪原名徐知诰，是徐温养子，937年代吴称帝，起初国号齐。939年恢复李姓、改名昪并改国号唐，史称南唐。",
+      "reign": "937—943 年",
+      "reignStart": 937,
+      "reignEnd": 943,
+      "readingStarts": {
+        "new": "new-v62",
+        "old": "old-v134",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷62·南唐相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷62"
+        },
+        {
+          "title": "旧五代史·卷134·南唐相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷268及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷268"
+        }
+      ],
+      "sourceNotes": [
+        "旧史卷134第20段五代史补引文写李掞，正文交替用李昪，只记该来源用字，不另造人物或认作正式改名。"
+      ]
+    },
+    {
+      "id": "li-jing-southern-tang",
+      "name": "李璟",
+      "dynasty": "南唐",
+      "role": "南唐中主",
+      "sovereignTitle": "皇帝、江南国主",
+      "aliases": "李景 李景通 南唐元宗 中主",
+      "nameVariants": [
+        "李璟",
+        "李景",
+        "李景通",
+        "徐景通"
+      ],
+      "intro": "李璟为李昪长子，943年即位，其姓名在新旧史中也写作李景。南唐先后攻取闽、楚部分地区，后败于后周；958年去帝号、称江南国主，961年去世。",
+      "reign": "943—961 年",
+      "reignStart": 943,
+      "reignEnd": 961,
+      "readingStarts": {
+        "new": "new-v62",
+        "old": "old-v134",
+        "tongjian": "tongjian-v293"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷62·南唐相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷62"
+        },
+        {
+          "title": "旧五代史·卷134·南唐相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷293及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷293"
+        }
+      ]
+    },
+    {
+      "id": "li-yu",
+      "name": "李煜",
+      "dynasty": "南唐",
+      "role": "南唐后主",
+      "sovereignTitle": "江南国主",
+      "aliases": "李从嘉 南唐后主 重光",
+      "nameVariants": [
+        "李煜",
+        "李從嘉"
+      ],
+      "intro": "李煜原名从嘉，是李璟之子，961年承位，沿用国主身份。开宝八年十一月金陵陷落，南唐结束；该月乙未折合西历已跨入976年，其被俘与身后事按来源分别阅读。",
+      "reign": "961—976 年",
+      "reignStart": 961,
+      "reignEnd": 976,
+      "sourceNotes": [
+        "《宋史》卷3与《续资治通鉴长编》卷16记金陵陷落在开宝八年十一月乙未，长编并记该月己巳朔及城陷为二十七日。换算西历已入976年，因此在位终年按实际跨年保存；原书开宝八年的纪年保持原样。国立天文台历日数据库所列己巳日的西历锚点为975年12月6日，再顺推26日为976年1月1日（儒略历）；只用绝对干支日换算，不把日本月序代入中国原史。"
+      ],
+      "readingStarts": {
+        "new": "new-v62",
+        "old": "old-v134"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷62·南唐相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷62"
+        },
+        {
+          "title": "旧五代史·卷134·南唐相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "宋史·卷3·开宝八年金陵陷落纪日",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷003"
+        },
+        {
+          "title": "续资治通鉴长编·卷16·十一月己巳朔与乙未城陷",
+          "url": "https://zh.wikisource.org/wiki/續資治通鑑長編/卷016"
+        },
+        {
+          "title": "国立天文台历计算室·975年干支日西历锚点",
+          "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb_s.cgi?year=975"
+        }
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu",
+      "name": "王建",
+      "dynasty": "前蜀",
+      "role": "前蜀建立者",
+      "sovereignTitle": "皇帝",
+      "aliases": "前蜀高祖 蜀高祖 王八",
+      "nameVariants": [
+        "王建"
+      ],
+      "intro": "王建由唐末军将发展为两川之主，907年在成都称帝，建立前蜀。此人不同于后唐军将王建及，人物身份和文献归属分别维护。",
+      "reign": "907—918 年",
+      "reignStart": 907,
+      "reignEnd": 918,
+      "readingStarts": {
+        "new": "new-v63",
+        "old": "old-v136",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷63·前蜀相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷63"
+        },
+        {
+          "title": "旧五代史·卷136·前蜀相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷136"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ]
+    },
+    {
+      "id": "wang-yan-former-shu",
+      "name": "王衍",
+      "dynasty": "前蜀",
+      "role": "前蜀后主",
+      "sovereignTitle": "皇帝",
+      "aliases": "王宗衍 前蜀后主",
+      "nameVariants": [
+        "王衍",
+        "王宗衍"
+      ],
+      "intro": "王衍为王建之子，918年即位，使用乾德、咸康年号。925年后唐出兵伐蜀，王衍投降，前蜀结束；之后的被杀与附臣记载继续保留在完整来源中。",
+      "reign": "918—925 年",
+      "reignStart": 918,
+      "reignEnd": 925,
+      "readingStarts": {
+        "new": "new-v63",
+        "old": "old-v136",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷63·前蜀相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷63"
+        },
+        {
+          "title": "旧五代史·卷136·前蜀相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷136"
+        },
+        {
+          "title": "资治通鉴·卷268及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷268"
+        }
+      ]
+    },
+    {
+      "id": "meng-zhixiang",
+      "name": "孟知祥",
+      "dynasty": "后蜀",
+      "role": "后蜀建立者",
+      "sovereignTitle": "皇帝",
+      "aliases": "后蜀高祖 蜀明孝帝",
+      "nameVariants": [
+        "孟知祥"
+      ],
+      "intro": "孟知祥原为后唐任命的西川节度使，逐渐兼并东川，934年在成都称帝，建立后蜀，同年去世。其称帝前的军职与称帝后的在位时间分开说明。",
+      "reign": "934 年",
+      "reignStart": 934,
+      "reignEnd": 934,
+      "readingStarts": {
+        "new": "new-v64",
+        "old": "old-v136",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷64·后蜀相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷64"
+        },
+        {
+          "title": "旧五代史·卷136·后蜀相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷136"
+        },
+        {
+          "title": "资治通鉴·卷268及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷268"
+        }
+      ]
+    },
+    {
+      "id": "meng-chang",
+      "name": "孟昶",
+      "dynasty": "后蜀",
+      "role": "后蜀后主",
+      "sovereignTitle": "皇帝",
+      "aliases": "孟仁赞 后蜀后主",
+      "nameVariants": [
+        "孟昶",
+        "孟仁贊"
+      ],
+      "intro": "孟昶原名仁赞，为孟知祥之子，934年继位，后改元广政。965年宋军入蜀，他投降，后蜀结束；不可与闽王王继鹏改名的王昶混为一人。",
+      "reign": "934—965 年",
+      "reignStart": 934,
+      "reignEnd": 965,
+      "readingStarts": {
+        "new": "new-v64",
+        "old": "old-v136"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷64·后蜀相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷64"
+        },
+        {
+          "title": "旧五代史·卷136·后蜀相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷136"
+        }
+      ]
+    },
+    {
+      "id": "wang-shenzhi",
+      "name": "王审知",
+      "dynasty": "闽",
+      "role": "闽政权奠基者",
+      "sovereignTitle": "闽王",
+      "aliases": "闽太祖 忠懿王",
+      "nameVariants": [
+        "王審知"
+      ],
+      "intro": "王审知承继兄长王潮经营的福建军府，909年受封闽王，925年去世。昭武孝皇帝、太祖为后代追尊，生前称王。",
+      "reign": "909—925 年",
+      "reignStart": 909,
+      "reignEnd": 925,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ]
+    },
+    {
+      "id": "wang-yanhan",
+      "name": "王延翰",
+      "dynasty": "闽",
+      "role": "闽嗣王",
+      "sovereignTitle": "大闽国王",
+      "aliases": "闽嗣王 子逸",
+      "nameVariants": [
+        "王延翰"
+      ],
+      "intro": "王延翰为王审知长子，925年承继军府，926年自称大闽国王。其弟与王延禀起兵后，他于天成元年十二月被杀；该月已跨入西历927年。",
+      "reign": "925—927 年",
+      "reignStart": 925,
+      "reignEnd": 927,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v275"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷275及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷275"
+        },
+        {
+          "title": "王延翰·天成元年十二月跨西历927年核对",
+          "url": "https://zh.wikipedia.org/wiki/王延翰"
+        }
+      ],
+      "sourceNotes": [
+        "在位按西历925—927年；天成元年十二月不应直接截作西历926年。"
+      ]
+    },
+    {
+      "id": "wang-yanjun",
+      "name": "王延钧",
+      "dynasty": "闽",
+      "role": "闽惠宗",
+      "sovereignTitle": "闽王、皇帝",
+      "aliases": "王鏻 闽惠宗",
+      "nameVariants": [
+        "王延鈞",
+        "王鏻"
+      ],
+      "intro": "王延钧为王审知之子，927年在王延翰被杀后承主，后来受封闽王。933年称帝、改名王鏻，935年被杀；帝号阶段与此前治闽阶段分别说明。",
+      "reign": "927—935 年",
+      "reignStart": 927,
+      "reignEnd": 935,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v275"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷275及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷275"
+        }
+      ]
+    },
+    {
+      "id": "wang-jipeng",
+      "name": "王继鹏",
+      "dynasty": "闽",
+      "role": "闽康宗",
+      "sovereignTitle": "皇帝",
+      "aliases": "王昶 闽康宗",
+      "nameVariants": [
+        "王繼鵬",
+        "王昶"
+      ],
+      "intro": "王继鹏为王延钧之子，935年即位，改名王昶、改元通文。939年军变中失位并被杀；王昶与后蜀孟昶是不同人物。",
+      "reign": "935—939 年",
+      "reignStart": 935,
+      "reignEnd": 939,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v278"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷278及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷278"
+        }
+      ]
+    },
+    {
+      "id": "wang-yanxi",
+      "name": "王延羲",
+      "dynasty": "闽",
+      "role": "闽景宗",
+      "sovereignTitle": "皇帝",
+      "aliases": "王曦 闽景宗",
+      "nameVariants": [
+        "王延羲",
+        "王曦"
+      ],
+      "intro": "王延羲为王审知之子，939年被拥立，改名王曦，改元永隆。其与弟王延政长期交战，944年被朱文进、连重遇所杀。",
+      "reign": "939—944 年",
+      "reignStart": 939,
+      "reignEnd": 944,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v282"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷282及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷282"
+        }
+      ]
+    },
+    {
+      "id": "zhu-wenjin",
+      "name": "朱文进",
+      "dynasty": "闽",
+      "role": "闽末福州统治者",
+      "sovereignTitle": "自立者、后称闽王",
+      "aliases": "朱文進 福州自立者",
+      "nameVariants": [
+        "朱文進"
+      ],
+      "intro": "朱文进与连重遇在944年杀王延羲后控制福州，被百官奉为君主；后来向后晋称臣、受闽王封号。945年遇害，地位不同于王氏正常承位者，相关文献保留篡立与争战过程。",
+      "reign": "944—945 年",
+      "reignStart": 944,
+      "reignEnd": 945,
+      "readingStarts": {
+        "new": "new-v68",
+        "tongjian": "tongjian-v282"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "资治通鉴·卷282及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷282"
+        }
+      ]
+    },
+    {
+      "id": "wang-yanzheng",
+      "name": "王延政",
+      "dynasty": "闽",
+      "role": "殷帝、闽末帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "富沙王 天德帝 福恭懿王",
+      "nameVariants": [
+        "王延政"
+      ],
+      "intro": "王延政为王审知之子，943年在建州称帝、国号殷，945年复闽国号，与福州争位局面并存。同年南唐攻克建州，他投降；不是943年就统一全闽。",
+      "reign": "943—945 年",
+      "reignStart": 943,
+      "reignEnd": 945,
+      "readingStarts": {
+        "new": "new-v68",
+        "old": "old-v134",
+        "tongjian": "tongjian-v277"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷68·闽相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "旧五代史·卷134·闽相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷134"
+        },
+        {
+          "title": "资治通鉴·卷277及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷277"
+        }
+      ],
+      "sourceNotes": [
+        "《新五代史》末段称保大四年，与《资治通鉴》开运二年即945年建州失守的纪年有差异，底本不改写。"
+      ]
+    },
+    {
+      "id": "qian-liu",
+      "name": "钱镠",
+      "dynasty": "吴越",
+      "role": "吴越建立者",
+      "sovereignTitle": "吴越王、吴越国王",
+      "aliases": "钱鏐 吴越武肃王 钱珝（旧史引文版本用名）",
+      "nameVariants": [
+        "錢鏐",
+        "錢镠",
+        "錢珝"
+      ],
+      "intro": "钱镠在唐末经营两浙，907年由后梁封吴越王，后进吴越国王，932年去世。始终以中原朝廷正朔为基础，不能将国王称号写作称帝。",
+      "reign": "907—932 年",
+      "reignStart": 907,
+      "reignEnd": 932,
+      "readingStarts": {
+        "new": "new-v67",
+        "old": "old-v133",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷67·吴越相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷67"
+        },
+        {
+          "title": "旧五代史·卷133·吴越相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ],
+      "sourceNotes": [
+        "旧史卷133引五代会要、五代史补及卷134引文在钱镠叙事中写钱珝，作为限定来源的版本记载用名，不认作真实改名，也不与唐诗人钱珝合并。"
+      ]
+    },
+    {
+      "id": "qian-yuanguan",
+      "name": "钱元瓘",
+      "dynasty": "吴越",
+      "role": "吴越文穆王",
+      "sovereignTitle": "吴越国王",
+      "aliases": "钱传瓘 吴越文穆王",
+      "nameVariants": [
+        "錢元瓘",
+        "錢傳瓘"
+      ],
+      "intro": "钱元瓘原名传瓘，是钱镠之子，932年承位。早年曾为质于田頵，后来主管军政；941年去世，诸子相继统治吴越。",
+      "reign": "932—941 年",
+      "reignStart": 932,
+      "reignEnd": 941,
+      "readingStarts": {
+        "new": "new-v67",
+        "old": "old-v133",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷67·吴越相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷67"
+        },
+        {
+          "title": "旧五代史·卷133·吴越相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ]
+    },
+    {
+      "id": "qian-hongzuo",
+      "name": "钱弘佐",
+      "dynasty": "吴越",
+      "role": "吴越忠献王",
+      "sovereignTitle": "吴越国王",
+      "aliases": "钱佐 吴越忠献王",
+      "nameVariants": [
+        "錢弘佐",
+        "錢佐"
+      ],
+      "intro": "钱弘佐为钱元瓘之子，941年继位，任内吴越出兵闽地并控制福州，947年去世。宋人史书因避讳也称钱佐。",
+      "reign": "941—947 年",
+      "reignStart": 941,
+      "reignEnd": 947,
+      "readingStarts": {
+        "new": "new-v67",
+        "old": "old-v133",
+        "tongjian": "tongjian-v282"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷67·吴越相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷67"
+        },
+        {
+          "title": "旧五代史·卷133·吴越相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷282及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷282"
+        }
+      ]
+    },
+    {
+      "id": "qian-hongcong",
+      "name": "钱弘倧",
+      "dynasty": "吴越",
+      "role": "吴越忠逊王",
+      "sovereignTitle": "吴越国王",
+      "aliases": "钱倧 吴越忠逊王",
+      "nameVariants": [
+        "錢弘倧",
+        "錢倧"
+      ],
+      "intro": "钱弘倧为钱元瓘之子，947年承位，因压制胡进思等将领而被发动政变废黜。后汉天福十二年十二月末的政变发生于西历948年，不能将整个在位期标作947年。",
+      "reign": "947—948 年",
+      "reignStart": 947,
+      "reignEnd": 948,
+      "readingStarts": {
+        "new": "new-v67",
+        "old": "old-v133",
+        "tongjian": "tongjian-v286"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷67·吴越相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷67"
+        },
+        {
+          "title": "旧五代史·卷133·吴越相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷286及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷286"
+        },
+        {
+          "title": "钱弘倧·天福十二年十二月跨西历948年核对",
+          "url": "https://zh.wikipedia.org/wiki/錢弘倧"
+        }
+      ],
+      "sourceNotes": [
+        "在位947—948年；天福十二年十二月跨至西历948年，旧史、新史保留各自时序。"
+      ]
+    },
+    {
+      "id": "qian-hongchu",
+      "name": "钱弘俶",
+      "dynasty": "吴越",
+      "role": "吴越忠懿王",
+      "sovereignTitle": "吴越国王",
+      "aliases": "钱俶 吴越忠懿王",
+      "nameVariants": [
+        "錢弘俶",
+        "錢俶"
+      ],
+      "intro": "钱弘俶为钱元瓘之子，948年在兄钱弘倧被废后承位，后来避宋讳改名钱俶。978年纳土归宋，吴越结束；在位时间不按五代中原年表的960年截断。",
+      "reign": "948—978 年",
+      "reignStart": 948,
+      "reignEnd": 978,
+      "readingStarts": {
+        "new": "new-v67",
+        "old": "old-v133",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷67·吴越相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷67"
+        },
+        {
+          "title": "旧五代史·卷133·吴越相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷288及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷288"
+        }
+      ]
+    },
+    {
+      "id": "ma-yin",
+      "name": "马殷",
+      "dynasty": "楚",
+      "role": "楚政权建立者",
+      "sovereignTitle": "楚王、楚国王",
+      "aliases": "楚武穆王 天策上将军",
+      "nameVariants": [
+        "馬殷"
+      ],
+      "intro": "马殷经营湖南，907年受后梁封楚王，后唐时进楚国王。930年去世，遗命诸子兄弟相继；史书个别卷的纪年差异不改写为一致底本。",
+      "reign": "907—930 年",
+      "reignStart": 907,
+      "reignEnd": 930,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        }
+      ],
+      "sourceNotes": [
+        "《旧五代史》本传写长兴二年卒，《新五代史》《资治通鉴》记长兴元年，即930年，人物年份按后者。"
+      ]
+    },
+    {
+      "id": "ma-xisheng",
+      "name": "马希声",
+      "dynasty": "楚",
+      "role": "楚衡阳王",
+      "sovereignTitle": "湖南节度使、楚统治者",
+      "aliases": "衡阳王",
+      "nameVariants": [
+        "馬希聲"
+      ],
+      "intro": "马希声为马殷之子，930年承继军府，未正式承封楚王，932年去世。衡阳王是身后称号；收录实际统治者不等于把每一位都标作皇帝或生前国王。",
+      "reign": "930—932 年",
+      "reignStart": 930,
+      "reignEnd": 932,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v277"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷277及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷277"
+        }
+      ]
+    },
+    {
+      "id": "ma-xifan",
+      "name": "马希范",
+      "dynasty": "楚",
+      "role": "楚文昭王",
+      "sovereignTitle": "楚王",
+      "aliases": "楚文昭王 天策上将军",
+      "nameVariants": [
+        "馬希範"
+      ],
+      "intro": "马希范为马殷之子，932年继马希声掌湖南，后受封楚王，947年去世。其天策府、溪州盟誓和与中原往来的记载一并关联。",
+      "reign": "932—947 年",
+      "reignStart": 932,
+      "reignEnd": 947,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v278"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷278及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷278"
+        }
+      ]
+    },
+    {
+      "id": "ma-xiguang",
+      "name": "马希广",
+      "dynasty": "楚",
+      "role": "楚废王",
+      "sovereignTitle": "楚王",
+      "aliases": "楚废王",
+      "nameVariants": [
+        "馬希廣"
+      ],
+      "intro": "马希广为马殷之子，947年承位，引起兄马希萼争位。乾祐三年十二月潭州陷落后被杀，时已进入西历951年，马楚内乱继而扩大；兄弟长幼按具体文献说明。",
+      "reign": "947—951 年",
+      "reignStart": 947,
+      "reignEnd": 951,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v287"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷287及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷287"
+        },
+        {
+          "title": "马希广·通鉴纪日对应西历951年一月核对",
+          "url": "https://en.wikipedia.org/wiki/Ma_Xiguang"
+        }
+      ],
+      "sourceNotes": [
+        "《新五代史》南唐世家曾误称希萼为希广之弟，楚世家及校勘、通鉴作兄，阅读保留异文提示。",
+        "乾祐三年十二月潭州失守和希广被杀已跨入西历951年一月，不以年号名义的950年截断在位。"
+      ]
+    },
+    {
+      "id": "ma-xie",
+      "name": "马希萼",
+      "dynasty": "楚",
+      "role": "楚恭孝王",
+      "sovereignTitle": "楚王",
+      "aliases": "楚恭孝王 衡山王",
+      "nameVariants": [
+        "馬希萼"
+      ],
+      "intro": "马希萼为马殷之子，原镇武陵，950年自称顺天王。乾祐三年十二月攻取潭州、夺取弟马希广之位，承楚王位时已为西历951年；同年又被军变囚置衡山，随后降南唐。",
+      "reign": "951 年",
+      "reignStart": 951,
+      "reignEnd": 951,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷288及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷288"
+        },
+        {
+          "title": "通鉴·卷289·潭州失守与希萼称楚王纪日",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷289"
+        }
+      ],
+      "sourceNotes": [
+        "乾祐三年十二月夺潭州、称楚王已跨西历951年一月；950年先自称顺天王的争位阶段与楚王在位分别说明。"
+      ]
+    },
+    {
+      "id": "ma-xichong",
+      "name": "马希崇",
+      "dynasty": "楚",
+      "role": "楚末任统治者",
+      "sovereignTitle": "武安留后",
+      "aliases": "马楚末任统治者",
+      "nameVariants": [
+        "馬希崇"
+      ],
+      "intro": "马希崇为马殷之子，951年在马希萼被废后控制潭州、自称武安留后，向南唐称臣。同年南唐军进入湖南，马氏统治结束；他没有正式称帝或称楚王。",
+      "reign": "951 年",
+      "reignStart": 951,
+      "reignEnd": 951,
+      "readingStarts": {
+        "new": "new-v66",
+        "old": "old-v133",
+        "tongjian": "tongjian-v287"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷66·楚相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷66"
+        },
+        {
+          "title": "旧五代史·卷133·楚相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷287及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷287"
+        }
+      ]
+    },
+    {
+      "id": "liu-yan-southern-han",
+      "name": "刘龑",
+      "dynasty": "南汉",
+      "role": "南汉建立者",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘岩 刘巖 刘陟 刘龚 南汉高祖",
+      "nameVariants": [
+        "劉龑",
+        "劉巖",
+        "劉陟",
+        "劉龔"
+      ],
+      "intro": "刘龑原名岩，亦先后使用陟、龚等名，承继兄刘隐经营的岭南势力。917年称帝，初国号大越，次年改汉，942年去世；刘隐的追尊帝号不计为实际称帝。",
+      "reign": "917—942 年",
+      "reignStart": 917,
+      "reignEnd": 942,
+      "readingStarts": {
+        "new": "new-v65",
+        "old": "old-v135",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷65·南汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷65"
+        },
+        {
+          "title": "旧五代史·卷135·南汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        },
+        {
+          "title": "资治通鉴·卷268及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷268"
+        }
+      ]
+    },
+    {
+      "id": "liu-bin-southern-han",
+      "name": "刘玢",
+      "dynasty": "南汉",
+      "role": "南汉殇帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘洪度 南汉殇帝",
+      "nameVariants": [
+        "劉玢",
+        "劉洪度"
+      ],
+      "intro": "刘玢原名洪度，为刘龑之子，942年继位、改元光天。943年被弟刘洪熙一方谋杀，刘洪熙继位后改名晟。",
+      "reign": "942—943 年",
+      "reignStart": 942,
+      "reignEnd": 943,
+      "readingStarts": {
+        "new": "new-v65",
+        "old": "old-v135"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷65·南汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷65"
+        },
+        {
+          "title": "旧五代史·卷135·南汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        }
+      ]
+    },
+    {
+      "id": "liu-sheng",
+      "name": "刘晟",
+      "dynasty": "南汉",
+      "role": "南汉中宗",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘洪熙 南汉中宗",
+      "nameVariants": [
+        "劉晟",
+        "劉洪熙"
+      ],
+      "intro": "刘晟原名洪熙，为刘龑之子，在杀兄刘玢后于943年即位。其诛杀宗室、攻取岭南及湖南边地的叙事分别保留，958年去世。",
+      "reign": "943—958 年",
+      "reignStart": 943,
+      "reignEnd": 958,
+      "readingStarts": {
+        "new": "new-v65",
+        "old": "old-v135"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷65·南汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷65"
+        },
+        {
+          "title": "旧五代史·卷135·南汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        }
+      ]
+    },
+    {
+      "id": "liu-chang-southern-han",
+      "name": "刘鋹",
+      "dynasty": "南汉",
+      "role": "南汉后主",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘继兴 南汉后主",
+      "nameVariants": [
+        "劉鋹",
+        "劉繼興"
+      ],
+      "intro": "刘鋹原名继兴，为刘晟之子，958年即位，改元大宝。971年宋军攻克岭南，刘鋹投降，南汉结束；后来的受封不再计作南汉在位。",
+      "reign": "958—971 年",
+      "reignStart": 958,
+      "reignEnd": 971,
+      "readingStarts": {
+        "new": "new-v65",
+        "old": "old-v135"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷65·南汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷65"
+        },
+        {
+          "title": "旧五代史·卷135·南汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        }
+      ]
+    },
+    {
+      "id": "gao-jixing",
+      "name": "高季兴",
+      "dynasty": "南平",
+      "role": "南平政权建立者",
+      "sovereignTitle": "南平王、秦王",
+      "aliases": "高季昌 南平武信王 楚武信王",
+      "nameVariants": [
+        "高季興",
+        "高季昌"
+      ],
+      "intro": "高季兴原名季昌，曾为朱温部将，907年镇荆南，924年封南平王，后又向吴称臣受封秦王。天成三年十二月去世已跨入西历929年；南平也称荆南。",
+      "reign": "924—929 年",
+      "reignStart": 924,
+      "reignEnd": 929,
+      "readingStarts": {
+        "new": "new-v69",
+        "old": "old-v133",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷69·南平相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷69"
+        },
+        {
+          "title": "旧五代史·卷133·南平相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷266及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266"
+        },
+        {
+          "title": "旧五代史·唐庄宗纪四·同光二年南平王封号",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷31"
+        },
+        {
+          "title": "高季兴·天成三年十二月跨西历929年核对",
+          "url": "https://zh.wikipedia.org/wiki/高季興"
+        }
+      ],
+      "sourceNotes": [
+        "《新五代史》受封纪年与本纪、通鉴不同；在位从924年南平王封号算至929年，907年起的荆南任职另述。"
+      ],
+      "periodLabel": "南平（荆南） · 907年镇荆南，924年封南平王"
+    },
+    {
+      "id": "gao-conghui",
+      "name": "高从诲",
+      "dynasty": "南平",
+      "role": "南平文献王",
+      "sovereignTitle": "南平王",
+      "aliases": "南平文献王",
+      "nameVariants": [
+        "高從誨"
+      ],
+      "intro": "高从诲为高季兴之子，929年承继荆南军府，先受封渤海王，后封南平王。其往来于中原与邻国之间的经历和948年去世记载保留在新旧史中。",
+      "reign": "929—948 年",
+      "reignStart": 929,
+      "reignEnd": 948,
+      "readingStarts": {
+        "new": "new-v69",
+        "old": "old-v133",
+        "tongjian": "tongjian-v276"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷69·南平相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷69"
+        },
+        {
+          "title": "旧五代史·卷133·南平相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷276及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷276"
+        }
+      ]
+    },
+    {
+      "id": "gao-baorong",
+      "name": "高保融",
+      "dynasty": "南平",
+      "role": "南平贞懿王",
+      "sovereignTitle": "南平王",
+      "aliases": "南平贞懿王",
+      "nameVariants": [
+        "高保融"
+      ],
+      "intro": "高保融为高从诲之子，948年承位，后受封南平王。任内奉中原朝廷、参与后周淮南用兵，960年去世，军府交给弟高保勖。",
+      "reign": "948—960 年",
+      "reignStart": 948,
+      "reignEnd": 960,
+      "readingStarts": {
+        "new": "new-v69",
+        "old": "old-v133",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷69·南平相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷69"
+        },
+        {
+          "title": "旧五代史·卷133·南平相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        },
+        {
+          "title": "资治通鉴·卷288及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷288"
+        }
+      ]
+    },
+    {
+      "id": "gao-baoxu",
+      "name": "高保勖",
+      "dynasty": "南平",
+      "role": "南平第四位统治者",
+      "sovereignTitle": "荆南节度使",
+      "aliases": "高保勗 万事休",
+      "nameVariants": [
+        "高保勖",
+        "高保勗"
+      ],
+      "intro": "高保勖在960年高保融去世后继掌荆南，962年去世，将军府交给高保融之子高继冲。新旧史对其父系和卒年记述有差异，不把旧史误记直接混入确定世系。",
+      "reign": "960—962 年",
+      "reignStart": 960,
+      "reignEnd": 962,
+      "readingStarts": {
+        "new": "new-v69",
+        "old": "old-v133"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷69·南平相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷69"
+        },
+        {
+          "title": "旧五代史·卷133·南平相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷133"
+        }
+      ],
+      "sourceNotes": [
+        "《旧五代史》称季兴幼子、建隆四年卒；《新五代史》称从诲第十子、建隆三年卒。这里按新史及宋代相关纪年采用960—962年，同时保留旧史异说。"
+      ]
+    },
+    {
+      "id": "gao-jichong",
+      "name": "高继冲",
+      "dynasty": "南平",
+      "role": "南平末任统治者",
+      "sovereignTitle": "荆南节度使",
+      "aliases": "高继沖",
+      "nameVariants": [
+        "高繼冲",
+        "高繼沖"
+      ],
+      "intro": "高继冲为高保融之子，962年承高保勖军府。963年宋军借道进入江陵，他交出辖地，南平结束；后受武宁军节度使是降宋后的任职。",
+      "reign": "962—963 年",
+      "reignStart": 962,
+      "reignEnd": 963,
+      "readingStarts": {
+        "new": "new-v69"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷69·南平相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷69"
+        }
+      ]
+    },
+    {
+      "id": "liu-min-northern-han",
+      "name": "刘旻",
+      "dynasty": "北汉",
+      "role": "北汉建立者",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘崇 北汉世祖",
+      "nameVariants": [
+        "劉旻",
+        "劉崇"
+      ],
+      "intro": "刘旻原名崇，新史称后汉刘知远之弟，旧史称从弟。后周代汉后，他于951年在太原称帝，沿用乾祐年号，954年去世；其子刘赟未实际即位，不混入君主序列。",
+      "reign": "951—954 年",
+      "reignStart": 951,
+      "reignEnd": 954,
+      "readingStarts": {
+        "new": "new-v70",
+        "old": "old-v135",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷70·北汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷70"
+        },
+        {
+          "title": "旧五代史·卷135·北汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        },
+        {
+          "title": "资治通鉴·卷288及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷288"
+        }
+      ],
+      "sourceNotes": [
+        "《新五代史》写高平战后“明年十一月”卒，与旧史、通鉴所记显德元年十一月即954年不同，底本分别保留。",
+        "刘旻与刘知远的亲疏关系：新史作母弟，旧史作从弟，保留各书异说。"
+      ]
+    },
+    {
+      "id": "liu-chengjun",
+      "name": "刘承钧",
+      "dynasty": "北汉",
+      "role": "北汉睿宗",
+      "sovereignTitle": "皇帝",
+      "aliases": "刘钧 北汉睿宗",
+      "nameVariants": [
+        "劉承鈞",
+        "劉鈞"
+      ],
+      "intro": "刘承钧为刘旻之子，954年继位，后改名钧、改元天会。其与辽及中原的往来、任用儒臣和968年去世的记载一并关联。",
+      "reign": "954—968 年",
+      "reignStart": 954,
+      "reignEnd": 968,
+      "readingStarts": {
+        "new": "new-v70",
+        "old": "old-v135",
+        "tongjian": "tongjian-v290"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷70·北汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷70"
+        },
+        {
+          "title": "旧五代史·卷135·北汉相关记载",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷135"
+        },
+        {
+          "title": "资治通鉴·卷290及当前归档相关卷",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷290"
+        }
+      ]
+    },
+    {
+      "id": "liu-jien",
+      "name": "刘继恩",
+      "dynasty": "北汉",
+      "role": "北汉少主",
+      "sovereignTitle": "皇帝",
+      "aliases": "北汉少主 原姓薛",
+      "nameVariants": [
+        "劉繼恩"
+      ],
+      "intro": "刘继恩本姓薛，为刘旻外孙、刘承钧养子，968年承位，不久被侯霸荣杀害。其养父子关系与生父系分开维护，不将收养当作亲生。",
+      "reign": "968 年",
+      "reignStart": 968,
+      "reignEnd": 968,
+      "readingStarts": {
+        "new": "new-v70"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷70·北汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷70"
+        }
+      ]
+    },
+    {
+      "id": "liu-jiyuan",
+      "name": "刘继元",
+      "dynasty": "北汉",
+      "role": "北汉末主",
+      "sovereignTitle": "皇帝",
+      "aliases": "北汉末主 原姓何",
+      "nameVariants": [
+        "劉繼元"
+      ],
+      "intro": "刘继元本姓何，为刘旻外孙、刘承钧养子，与刘继恩同母异父。968年继位，979年在宋军围太原后投降，北汉结束；在位不按960年截断。",
+      "reign": "968—979 年",
+      "reignStart": 968,
+      "reignEnd": 979,
+      "readingStarts": {
+        "new": "new-v70"
+      },
+      "sources": [
+        {
+          "title": "新五代史·卷70·北汉相关世家",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷70"
+        }
+      ]
+    },
+    {
+      "id": "zhuo-yanming",
+      "name": "卓俨明",
+      "dynasty": "闽",
+      "role": "闽末福州争位者",
+      "sovereignTitle": "局部拥立的皇帝",
+      "rulerCategory": "contested",
+      "statusNote": "945年仅在福州被拥立，与建州王延政政权并存，不是统治全闽的正常继位君主。",
+      "aliases": "卓岩明 体明 僧俨明",
+      "nameVariants": [
+        "卓儼明",
+        "卓巖明"
+      ],
+      "intro": "卓俨明原为僧人，945年李仁达在福州杀王继昌后拥其称帝。不久李仁达又杀卓俨明，改以留后掌权；这里只按史载补充局部争位者，不把他算作王氏正常继承者或全闽统治者。",
+      "reign": "945 年",
+      "reignStart": 945,
+      "reignEnd": 945,
+      "readingStarts": {
+        "new": "new-v68",
+        "tongjian": "tongjian-v284"
+      },
+      "sources": [
+        {
+          "title": "新五代史·闽世家·福州拥立与争位",
+          "url": "https://zh.wikisource.org/wiki/新五代史/卷68"
+        },
+        {
+          "title": "资治通鉴·后晋纪五·福州拥立与争位",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷284"
+        }
+      ]
+    }
+  ]
+}

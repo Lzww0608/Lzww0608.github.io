@@ -20,8 +20,8 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收梁宗室传、梁将及李克用、李存勖麾下将领相关列传；合计 82 卷，保留辑佚说明与夹注。', defaultChapter='old-v001'),
-    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12，另收梁家人传、梁臣传、唐臣传、死节传、义儿传及相关杂传；共 23 卷，合传均整卷保留。', defaultChapter='new-v01'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收宗室、相关将领列传及十国记载所在卷 133—136；合计 86 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、相关人物列传及十国世家卷 61—70；共 33 卷，合传均整卷保留，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
@@ -101,6 +101,22 @@ for volume, title in [(57, '唐列传（郭崇韬）'),
                        (74, '唐列传（康延孝、朱守殷等）')]:
     SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
                       title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
+
+# Ten Kingdoms' actual rulers: preserve the whole shared 世袭/僭伪/世家
+# volumes, including other people, succession narratives, and source notes.
+for volume, title in [(133, '世袭列传（荆南、楚、吴越）'),
+                       (134, '僭伪列传（吴、南唐、闽）'),
+                       (135, '僭伪列传（燕、南汉、北汉）'),
+                       (136, '僭伪列传（前蜀、后蜀）')]:
+    SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'舊五代史/卷{volume}', subjects=[]))
+for volume, title in [(61, '吴世家第一'), (62, '南唐世家第二'),
+                       (63, '前蜀世家第三'), (64, '后蜀世家第四'),
+                       (65, '南汉世家第五'), (66, '楚世家第六'),
+                       (67, '吴越世家第七'), (68, '闽世家第八'),
+                       (69, '南平世家第九'), (70, '东汉世家第十（北汉）')]:
+    SPECS.append(dict(id=f'new-v{volume:02}', bookId='new', volume=volume,
+                      title=f'卷 {volume} · {title}', page=f'新五代史/卷{volume:02}', subjects=[]))
 YEARS = ['907—908', '908—911', '911—913', '913—917', '917—919', '919—922', '923', '924—925', '925—926', '926—927', '927—929', '930—932', '932—934', '934—935', '936', '937—938', '939—941', '942—944', '944—945', '945—946', '947', '947—948', '948—949', '950', '951—952', '952—954', '954—956', '956—957', '958—959']
 for volume in range(266, 295):
     if volume <= 271: name, number = '后梁纪', volume-265
@@ -236,6 +252,23 @@ for topic_file in ['zhu-wen-generals.json', 'li-keyong-generals.json']:
     if generals_path.exists():
         GENERAL_PEOPLE.extend(json.loads(generals_path.read_text())['people'])
 
+# Names shared with unrelated officers (王建), and substrings within longer
+# names (王建及, 劉崇景), cannot establish a ruler's source association.
+# Use the reviewed person index for cross-volume links; main biographies are
+# explicitly retained through the checked readingStarts before indexing.
+TEN_KINGDOM_RULERS = []
+TEN_KINGDOM_CHAPTER_PEOPLE = {}
+ten_kingdom_path = ROOT / 'ten-kingdoms-rulers.json'
+if ten_kingdom_path.exists():
+    TEN_KINGDOM_RULERS = json.loads(ten_kingdom_path.read_text())['people']
+    ten_kingdom_ids = {person['id'] for person in TEN_KINGDOM_RULERS}
+    passage_path = ROOT.parent / 'person-passages' / 'index.json'
+    if passage_path.exists():
+        for passage in json.loads(passage_path.read_text())['passages']:
+            for association in passage['people']:
+                if association['personId'] in ten_kingdom_ids:
+                    TEN_KINGDOM_CHAPTER_PEOPLE.setdefault(passage['chapterId'], set()).add(association['personId'])
+
 def scanned_subjects(paragraphs, book_id):
     text = '\n'.join(paragraphs)
     return [person for person, names in SUBJECT_NAMES.items()
@@ -246,7 +279,8 @@ def chapter_subjects(spec, paragraphs, previous_subjects=()):
     if spec.get('scanSubjects'):
         # Keep confirmed earlier links while adding only explicit proper names
         # or polity-qualified titles. Bare 太祖/高祖/世宗 never identify a person.
-        subjects += list(previous_subjects) + scanned_subjects(paragraphs, spec['bookId'])
+        ruler_ids = {person['id'] for person in TEN_KINGDOM_RULERS}
+        subjects += [person for person in previous_subjects if person not in ruler_ids] + scanned_subjects(paragraphs, spec['bookId'])
     # New people's passing mentions supplement, rather than replace, existing
     # reign/biography links. Existing originals and captures are never rewritten.
     text = '\n'.join(paragraphs)
@@ -255,6 +289,10 @@ def chapter_subjects(spec, paragraphs, previous_subjects=()):
     for person in GENERAL_PEOPLE:
         if (person.get('readingStarts', {}).get(spec['bookId']) == spec['id']
                 or any(name in text for name in person['nameVariants'])):
+            subjects.append(person['id'])
+    for person in TEN_KINGDOM_RULERS:
+        if (person.get('readingStarts', {}).get(spec['bookId']) == spec['id']
+                or person['id'] in TEN_KINGDOM_CHAPTER_PEOPLE.get(spec['id'], set())):
             subjects.append(person['id'])
     return list(dict.fromkeys(subjects))
 
@@ -396,7 +434,7 @@ def main():
     previous_chapters = {chapter['id']: chapter for chapter in previous['chapters']}
     def capture_current(spec): return capture(spec, previous_chapters.get(spec['id']))
     with ThreadPoolExecutor(max_workers=2) as executor: chapters = list(executor.map(capture_current, SPECS))
-    catalog = dict(schemaVersion=1, title='五代史料本地文库', license=LICENSE, licenseUrl=LICENSE_URL, books=BOOKS, chapters=chapters)
+    catalog = dict(schemaVersion=1, title='五代十国史料本地文库', license=LICENSE, licenseUrl=LICENSE_URL, books=BOOKS, chapters=chapters)
     ROOT.joinpath('catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2)+'\n')
     print(f"Archived {len(BOOKS)} works, {len(chapters)} chapters, {sum(c['characterCount'] for c in chapters)} characters.", flush=True)
 

@@ -1,14 +1,16 @@
 import type { TextRange, SearchField, ParagraphSearchMatch } from '../../content/passage-search.mts';
 export type { TextRange, SearchField, ParagraphSearchMatch };
 export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' | '宋元' | '明清';
-export type Dynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周' | '宋';
+export type FiveDynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周';
+export type TenKingdomDynasty = '吴' | '南唐' | '吴越' | '前蜀' | '后蜀' | '南汉' | '楚' | '闽' | '南平' | '北汉';
+export type Dynasty = FiveDynasty | TenKingdomDynasty | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
 export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu' | 'huiyao' | 'beimeng' | 'kaoyi';
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places';
 export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals';
-export type PersonGroupId = 'all' | 'emperors' | PersonTopicId;
+export type PersonGroupId = 'all' | 'emperors' | 'ten-kingdoms-rulers' | PersonTopicId;
 export type Route = 'people' | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}`;
 
 export interface HistoryEvent {
@@ -28,6 +30,10 @@ export interface HistoryPerson {
   name: string;
   dynasty: Dynasty;
   role: string;
+  sovereignTitle?: string;
+  rulerCategory?: 'contested';
+  statusNote?: string;
+  sourceNotes?: string[];
   event?: EventId;
   aliases: string;
   intro: string;
@@ -46,7 +52,7 @@ export interface HistoricalSourceReference {
 }
 
 export interface ReigningEmperor extends HistoryPerson {
-  dynasty: Exclude<Dynasty, '宋'>;
+  dynasty: FiveDynasty;
   event: Exclude<EventId, 'song'>;
   reign: string;
   reignStart: number;
@@ -59,6 +65,21 @@ export interface EmperorCatalog {
   schemaVersion: 1;
   scope: 'five-dynasties-reigning-emperors';
   people: ReigningEmperor[];
+}
+
+export interface TenKingdomRuler extends HistoryPerson {
+  dynasty: TenKingdomDynasty;
+  reign: string;
+  reignStart: number;
+  reignEnd: number;
+  sources: HistoricalSourceReference[];
+  readingStarts: Partial<Record<BookId, string>>;
+}
+
+export interface TenKingdomRulerCatalog {
+  schemaVersion: 1;
+  scope: 'ten-kingdoms-rulers';
+  people: TenKingdomRuler[];
 }
 
 export interface HistoricalPersonGroup {

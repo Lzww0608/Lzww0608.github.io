@@ -15,6 +15,8 @@ const generals = JSON.parse(readFileSync(new URL('../content/five-dynasties/zhu-
 const generalIds = new Set(generals.memberIds);
 const keyongGenerals = JSON.parse(readFileSync(new URL('../content/five-dynasties/li-keyong-generals.json', import.meta.url), 'utf8'));
 const keyongNewIds = new Set(keyongGenerals.people.map(person => person.id));
+const tenKingdoms = JSON.parse(readFileSync(new URL('../content/five-dynasties/ten-kingdoms-rulers.json', import.meta.url), 'utf8'));
+const tenKingdomIds = new Set(tenKingdoms.people.map(person => person.id));
 
 test('generation scans the whole canonical archive and reproduces the saved shared index', () => {
   assert.deepEqual(buildPersonPassageIndex(library), index);
@@ -25,11 +27,59 @@ test('generation scans the whole canonical archive and reproduces the saved shar
   const bookByChapter = new Map(library.chapters.map(chapter => [chapter.id, chapter.bookId]));
   assert.equal(new Set(index.passages.map(passage => bookByChapter.get(passage.chapterId))).size, library.catalog.books.length);
   for (const person of index.people) {
-    if (!generalIds.has(person.id) && !keyongNewIds.has(person.id)) {
+    if (!generalIds.has(person.id) && !keyongNewIds.has(person.id) && !tenKingdomIds.has(person.id)) {
       for (const bookId of ['old', 'new']) assert.ok(index.passages.some(passage => passage.chapterId.startsWith(`${bookId}-`)
         && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `${bookId} biography: ${person.id}`);
     }
   }
+});
+
+test('all Ten Kingdom rulers share the canonical registry and their checked actual source sections', () => {
+  assert.equal(tenKingdoms.people.length, 43);
+  for (const person of tenKingdoms.people) {
+    assert.equal(index.people.filter(p => p.id === person.id).length, 1, person.id);
+    const biographies = rules.sections.filter(r => r.personId === person.id && r.kind === 'biography');
+    assert.ok(biographies.length, `${person.id}: a verified principal record`);
+    for (const section of biographies) {
+      const chapter = library.chapters.find(c => c.id === section.chapterId);
+      for (const paragraph of chapter.paragraphs.slice(section.start - 1, section.end)) {
+        assert.equal(association(paragraph.id, person.id)?.kind, 'biography', `${person.id}: ${paragraph.id}`);
+      }
+    }
+    for (const [bookId, chapterId] of Object.entries(person.readingStarts)) {
+      assert.ok(library.chapters.some(c => c.id === chapterId && c.bookId === bookId), `${person.id}: real ${bookId} source`);
+      assert.ok(index.passages.some(p => p.chapterId === chapterId && p.people.some(a => a.personId === person.id && a.kind !== 'mention')),
+        `${person.id}: a related record in ${chapterId}`);
+    }
+  }
+  assert.equal(association('new-v70-p29', 'liu-jiyuan')?.kind, 'biography', 'the 979 surrender remains in his biography');
+  assert.equal(association('new-v67-p25', 'qian-hongcong')?.kind, 'biography', 'the short reign embedded in Qian Chu’s section is retained');
+  assert.equal(association('new-v68-p32', 'zhuo-yanming')?.kind, 'biography', 'the local contested rule has its actual shared paragraph');
+  assert.equal(association('old-v135-p21', 'liu-chengjun')?.kind, 'record', 'old history’s brief accession is a record, not an invented independent biography');
+});
+
+test('Ten Kingdom identities do not absorb other rulers, officers, ordinary words or single names', () => {
+  for (const [personId, paragraphIds] of Object.entries({
+    'wang-jian-former-shu': ['old-v010-p8', 'old-v036-p8', 'old-v043-p6', 'tongjian-v271-p83', 'tongjian-v279-p13',
+      'new-v62-p22', 'new-v66-p4', 'huiyao-v026-p24', 'old-v022-p4', 'old-v023-p23', 'tongjian-v286-p29'],
+    'liu-min-northern-han': ['old-v001-p2', 'old-v001-p22', 'new-v13-p4', 'new-v65-p3', 'tongjian-v269-p15'],
+    'meng-zhixiang': ['new-v61-p46', 'tongjian-v267-p39'],
+    'wang-yanhan': ['old-v043-p6', 'new-v62-p10', 'tongjian-v285-p35'],
+    'wang-yanjun': ['tongjian-v290-p120'],
+    'zhu-wenjin': ['old-v004-p1', 'old-v103-p12', 'old-v103-p14'],
+    'ma-xichong': ['old-v076-p3'],
+    'gao-jichong': ['new-v70-p15'],
+  })) for (const paragraphId of paragraphIds) {
+    assert.equal(association(paragraphId, personId), undefined, `${paragraphId}: ${personId}`);
+  }
+  for (const [id, personId] of [
+    ['old-v015-p2', 'wang-jian-former-shu'], ['old-v033-p10', 'wang-yan-former-shu'],
+    ['tongjian-v275-p91', 'meng-chang'], ['tongjian-v291-p64', 'liu-chang-southern-han'],
+    ['old-v083-p2', 'zhu-wenjin'], ['new-v61-p25', 'li-bian'], ['new-v69-p17', 'gao-jichong'],
+  ]) assert.ok(association(id, personId), `${id}: preserve the correctly identified shared record`);
+  assert.ok(!association('new-v68-p19', 'meng-chang'), 'Min’s Wang Chang is not Meng Chang');
+  assert.ok(!association('new-v64-p18', 'wang-jipeng'), 'Later Shu’s Meng Chang is not Wang Jipeng');
+  assert.ok(association('tongjian-v270-p37', 'wang-jian-former-shu'), 'the dated Shu-ruler death and accession record belongs to Wang Jian');
 });
 
 test('the combined Li Keyong and Li Cunxu topic shares identities without conflating service periods', () => {

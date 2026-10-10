@@ -11,6 +11,27 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_ten_kingdoms_shared_biographies_include_late_reigns_and_short_rulers(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        summaries = {chapter['id']: chapter for chapter in catalog['chapters']}
+        expected = [f'old-v{volume:03}' for volume in range(133, 137)]
+        expected += [f'new-v{volume:02}' for volume in range(61, 71)]
+        for chapter_id in expected:
+            with self.subTest(chapter=chapter_id):
+                summary = summaries[chapter_id]
+                self.assertEqual(summary['scope'], 'full')
+                self.assertEqual(summary['provenance']['license'], 'CC BY-SA 4.0')
+                for directory, key in [('sources', 'sourceSha256'), ('chapters', 'chapterSha256')]:
+                    self.assertEqual(hashlib.sha256((archive.ROOT / directory / f'{chapter_id}.json').read_bytes()).hexdigest(), summary['provenance'][key])
+        def text(chapter_id):
+            chapter = json.loads((archive.ROOT / 'chapters' / f'{chapter_id}.json').read_text())
+            return '\n'.join(paragraph['original'] for paragraph in chapter['paragraphs'])
+        self.assertIn('弟倧以次立', text('new-v67'))
+        self.assertIn('卓儼明', text('new-v68'))
+        self.assertIn('太平興國四年', text('new-v70'))
+        self.assertIn('劉守光', text('old-v135'))
+        self.assertIn('燕', summaries['old-v135']['title'])
+
     def test_general_biographies_are_complete_fixed_revision_archives(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         chapters = {chapter['id']: chapter for chapter in catalog['chapters']}

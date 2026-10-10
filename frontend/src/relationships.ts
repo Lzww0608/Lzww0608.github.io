@@ -1,4 +1,5 @@
 import { catalogPeople } from './person-catalog.ts';
+import tenKingdomsRelationships from '../../content/person-relationships/ten-kingdoms.json' with { type: 'json' };
 import type { HistoryPerson } from './types.ts';
 
 export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' | 'succession';
@@ -33,7 +34,7 @@ export const relationshipKindLabels: Readonly<Record<RelationshipKind, string>> 
   adoption: '收养与养育',
   service: '任职与部将',
   conflict: '冲突与交恶',
-  succession: '皇位交接',
+  succession: '君位交接',
 };
 
 export function buildRelationshipNodes(
@@ -65,6 +66,10 @@ export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipN
     id: 'li-maozhen', name: '李茂贞', external: true, group: '凤翔 / 岐',
     note: '凤翔节度使、岐王李茂贞；《新五代史》符道昭传记其收道昭为养子、名继远。此处为说明已核验关系的关联节点，未新增朝代入口或人物传记。',
   },
+  {
+    id: 'li-renda-fuzhou', name: '李仁达', external: true, group: '福州',
+    note: '福州将领李仁达，曾拥立并杀害卓俨明；此处用于解释945年的局部政权与已核验关系，未新增独立人物传记。',
+  },
 ]);
 
 function source(chapterId: string, paragraph: number, title: string, excerpt: string): RelationshipSource {
@@ -75,6 +80,7 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 // Direction means parent → child, commander → subordinate or predecessor → successor;
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
+  ...tenKingdomsRelationships as readonly PersonRelationship[],
   // Li Cunxu era service; shared facts also update the other endpoint.
   {
     "id": "li-cunxu-guo-chongtao-service",

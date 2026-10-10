@@ -5,7 +5,7 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 183);
+  assert.equal(chapters.length, 197);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -15,8 +15,8 @@ test('the archive has verified source hashes, complete emperor annals and all Fi
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i)]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46]);
+    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));
@@ -108,7 +108,9 @@ test('the five additions retain complete selected volumes, separate prefaces and
   assert.equal(catalog.books.find(b => b.id === 'kaoyi').kind, '史料考证');
   for (const id of ['shibu-v000','chunqiu-v000','huiyao-v000','beimeng-v000']) {
     assert.ok(chapters.find(c => c.id === id).paragraphs.some(p => p.original.includes('撰')));
-    assert.deepEqual(catalog.chapters.find(c => c.id === id).subjects, id === 'shibu-v000' ? ['liu-xun-yonghe'] : []);
+    const subjects = catalog.chapters.find(c => c.id === id).subjects;
+    assert.equal(new Set(subjects).size, subjects.length, `${id}: unique explicitly associated subjects`);
+    if (id === 'shibu-v000') assert.ok(subjects.includes('liu-xun-yonghe'), 'the existing author attribution remains');
   }
   assert.ok(chapters.find(c => c.id === 'beimeng-v000').paragraphs.some(p => p.original.includes('北夢瑣言序')));
   assert.ok(chapters.find(c => c.id === 'kaoyi-v028').paragraphs.some(p => p.original === '後梁紀上'));

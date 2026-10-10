@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 import { catalogPeople } from '../src/person-catalog.ts';
 import {
@@ -10,6 +11,7 @@ import {
 
 const nodeIds = new Set(relationshipNodes.map(node => node.id));
 const originals = new Map(loadLibrary().chapters.map(chapter => [chapter.id, chapter]));
+const tenKingdomRulers = JSON.parse(readFileSync(new URL('../../content/five-dynasties/ten-kingdoms-rulers.json', import.meta.url), 'utf8')).people;
 
 test('the graph derives all canonical people and preserves contextual metadata', () => {
   assert.equal(nodeIds.size, relationshipNodes.length);
@@ -44,6 +46,40 @@ test('every relationship cites a real archived paragraph with an unchanged, exac
       assert.ok(paragraph.original.includes(source.excerpt), `${edge.id}: exact archived quotation`);
     }
   }
+});
+
+test('every added Ten Kingdom ruler has a sourced direct graph and each shared fact reaches both endpoints', () => {
+  assert.equal(tenKingdomRulers.length, 43);
+  for (const person of tenKingdomRulers) {
+    const neighborhood = relationshipNeighborhood(person.id);
+    assert.ok(neighborhood.nodes.some(n => n.id === person.id && !n.external), person.id);
+    assert.ok(neighborhood.relationships.length, `${person.id}: a verified direct fact`);
+    for (const fact of neighborhood.relationships) {
+      assert.ok(fact.from === person.id || fact.to === person.id, `${person.id}: direct only`);
+      for (const endpoint of [fact.from, fact.to]) {
+        assert.equal(relationshipsForPerson(endpoint).filter(edge => edge.id === fact.id).length, 1, `${endpoint}: ${fact.id}`);
+      }
+    }
+  }
+  assert.equal(relationshipKindLabels.succession, '君位交接');
+  assert.ok(personRelationships.some(e => e.from === 'qian-hongzuo' && e.to === 'qian-hongcong' && e.kind === 'succession'));
+  assert.ok(personRelationships.some(e => e.from === 'qian-hongcong' && e.to === 'qian-hongchu' && e.kind === 'succession'));
+  assert.ok(!personRelationships.some(e => e.from === 'qian-hongzuo' && e.to === 'qian-hongchu' && e.kind === 'succession'));
+  assert.ok(!personRelationships.some(e => e.from === 'wang-yanzheng' && e.to === 'zhuo-yanming' && e.kind === 'succession'),
+    'a local usurpation does not imply a normal whole-state succession');
+});
+
+test('Ten Kingdom bloodlines retain adopted children and conflicting source genealogies', () => {
+  for (const id of ['liu-jien', 'liu-jiyuan']) {
+    assert.ok(personRelationships.some(e => e.from === 'liu-chengjun' && e.to === id && e.kind === 'adoption'), id);
+    assert.ok(!personRelationships.some(e => e.from === 'liu-chengjun' && e.to === id && e.label === '父子'), id);
+  }
+  assert.ok(personRelationships.some(e => e.from === 'liu-jien' && e.to === 'liu-jiyuan' && e.label === '同母异父兄弟'));
+  const discrepantFatherFacts = personRelationships.filter(e => e.to === 'gao-baoxu' && e.label.startsWith('父子'));
+  assert.deepEqual(new Set(discrepantFatherFacts.map(e => e.label)), new Set(['父子（新史记载）', '父子（旧史记载）']));
+  assert.ok(discrepantFatherFacts.every(e => e.note.includes('旧史') && e.note.includes('新史')));
+  const minKinship = personRelationships.find(e => e.from === 'liu-zhiyuan' && e.to === 'liu-min-northern-han' && e.kind === 'kinship');
+  assert.ok(minKinship.note.includes('同母弟') && minKinship.note.includes('从弟'));
 });
 
 test('biological, adopted and military relationships retain the distinctions in the histories', () => {
@@ -103,7 +139,7 @@ test('Zhuangzong-era additions preserve actual commanders and adopted identities
 
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
-  for (const edge of successions) assert.equal(edge.label, '皇位交接');
+  for (const edge of successions) assert.ok(['皇位交接', '君位交接'].includes(edge.label), edge.id);
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
     ['li-cunxu', 'li-siyuan'], ['li-siyuan', 'li-conghou'], ['li-conghou', 'li-congke'],

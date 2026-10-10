@@ -37,7 +37,7 @@ test('public search returns existing people without exposing retired events or s
 test('each registered topic filters only its members in source order without changing canonical identity', () => {
   assert.equal(new Set(personTopics.map(topic => topic.id)).size, topics.length);
   assert.deepEqual(new Set(personTopics.map(topic => topic.id)), new Set(topics.map(topic => topic.id)));
-  assert.deepEqual(personGroups.map(group => group.id), ['all', 'emperors', ...personTopics.map(topic => topic.id)]);
+  assert.deepEqual(personGroups.map(group => group.id), ['all', 'emperors', 'ten-kingdoms-rulers', ...personTopics.map(topic => topic.id)]);
   for (const topic of topics) {
     const members = peopleForGroup(people, topic.id);
     assert.deepEqual(members.map(person => person.id), topic.memberIds, topic.id);
@@ -54,6 +54,7 @@ test('each registered topic filters only its members in source order without cha
   }
   assert.equal(personTopic('all'), undefined);
   assert.equal(personTopic('emperors'), undefined);
+  assert.equal(personTopic('ten-kingdoms-rulers'), undefined);
   assert.equal(personTopic('unknown-topic'), undefined);
   assert.deepEqual(peopleForGroup(people, 'unknown-topic'), []);
 });

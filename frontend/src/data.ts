@@ -1,9 +1,11 @@
 import { libraryBooks } from './library.ts';
-import { catalogPeople, personDisplayPeriod, personTopicKeywords } from './person-catalog.ts';
-import type { Dynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
+import { catalogPeople, personDisplayPeriod, personMatchesGroup, personTopicKeywords } from './person-catalog.ts';
+import type { Dynasty, FiveDynasty, TenKingdomDynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
-// Temporary public scope; retain other entries below for a future release.
-export const displayedDynasties: readonly Dynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
+// The person index includes the authorized Ten Kingdoms expansion; other eras remain hidden.
+export const fiveDynasties: readonly FiveDynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
+export const tenKingdomDynasties: readonly TenKingdomDynasty[] = ['吴', '南唐', '吴越', '前蜀', '后蜀', '南汉', '楚', '闽', '南平', '北汉'];
+export const displayedDynasties: readonly Dynasty[] = [...fiveDynasties, ...tenKingdomDynasties];
 
 const allEvents: [HistoryEvent, ...HistoryEvent[]] = [
   { id: 'liang', year: 907, end: 923, dynasty: '后梁', title: '后梁建立', person: '朱温', description: '朱温建立后梁，唐朝结束。五代时期由此展开。', context: '从唐末的地方军事势力到新王朝的建立，后梁为理解五代政治的开端提供了入口。', color: '#9b493d' },
@@ -38,7 +40,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 ];
 
 export const searchItems: SearchItem[] = [
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.aliases} ${personTopicKeywords(item)}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {
