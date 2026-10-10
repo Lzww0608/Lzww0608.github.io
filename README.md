@@ -38,7 +38,7 @@ npm run preview
 
 ## 内容后端
 
-`backend/` 提供只读 API、PostgreSQL 数据库、原文和翻译的版本管理，以及 macOS 自动启动配置。公网使用 Tailscale Funnel 的固定 HTTPS 地址。设置、内容维护和备份说明见 [后端说明](backend/README.md)。数据库、连接密码、隧道身份及备份均不进入 Git。
+`backend/` 提供只读 API、PostgreSQL 数据库、原文和翻译的版本管理，以及 macOS 自动启动配置。公网使用 Tailscale Funnel 的固定 HTTPS 地址。设置、内容维护和备份说明见 [后端说明](backend/README.md)。数据库备份保存到指定私有仓库 `history_backup`；连接密码、校订凭据、隧道身份和本机运行文件不进入 Git，数据库备份不进入本公开主项目。
 
 ## 开发 skills
 

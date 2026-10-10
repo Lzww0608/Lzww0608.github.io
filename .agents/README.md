@@ -21,7 +21,7 @@
 
 [historical-person-relationships](skills/historical-person-relationships/SKILL.md) 维护人物稳定 ID、统一关系注册表及原文章节／段落／逐字引文证据。新增或修改人物、关系资料、人物搜索及关系图时读取；默认先搜索并选择一个人物，只显示其直接关系。新增人物自动获得个人图，新增已核验关系自动更新双方图，缺少史料依据时保留无关系说明；不复制每人的图，不自动猜测历史关系。本技能不授权数据库写入或发布。
 
-[history-content-backup](skills/history-content-backup/SKILL.md) 将新增或修订的人物、史料、译文、关系、人物片段与句译索引，以及所有者校订导出后的正式状态，纳入 `/Users/lzww/history_backup` 的备份和 GitHub push 工作流。复用 `npm run backup:github --prefix backend`，备份已提交资料，并将数据库加密包读回解密、隔离恢复验证后再提交推送；不上传本机密钥、凭据或明文私有内容，不为纯 UI 修改生成整库备份，也不新增定时任务。用户已对该指定仓库的后续内容备份及 push 作出持续授权。
+[history-content-backup](skills/history-content-backup/SKILL.md) 将新增或修订的人物、史料、译文、关系、人物片段与句译索引，以及所有者校订导出后的正式状态，纳入 `/Users/lzww/history_backup` 的备份和 GitHub push 工作流。用户已指定该仓库为 private，并要求直接保存未加密数据库。复用 `npm run backup:github --prefix backend`，完整隔离恢复核验后再提交推送；写入数据库文件及 push 前检查固定仓库仍为 private，公开或无法确认时停止。后续流程不需要密钥，不为纯 UI 修改生成整库备份，也不新增定时任务。用户对该指定仓库的内容备份及 push 授权持续有效。
 
 ## 本项目如何使用
 

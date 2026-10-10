@@ -27,11 +27,11 @@
 
 ## GitHub 内容备份
 
-用户于 2026-10-10 指定 `/Users/lzww/history_backup`（远端 `https://github.com/Lzww0608/history_backup.git`）负责备份，并明确要求以后新增内容自动备份到此仓库、commit 及 push。此授权持续适用于该指定仓库的内容备份，不需每轮重新确认；重大数据库写入前仍须先做本机备份和隔离恢复验证，再运行 `npm run backup:github --prefix backend -- --baseline`，将当前已提交 HEAD 与正式库备份、push 并核对成功。该模式不包含工作区未提交开发内容，不为预备份强行提交用户工作；变更完成后再按默认模式备份新状态。相关任务读取项目自有 `.agents/skills/history-content-backup/SKILL.md`。
+用户于 2026-10-10 指定 `/Users/lzww/history_backup`（固定远端 `https://github.com/Lzww0608/history_backup.git`）负责备份，明确要求以后新增内容自动 commit 及 push，随后已将仓库改为 private 并要求直接保存未加密数据库，不使用加密或密钥。此授权持续适用于该指定私有仓库，不需每轮重新确认。重大数据库写入前仍先做本机备份和隔离批次验证，再运行 `npm run backup:github --prefix backend -- --baseline`，将当时正式库与已提交 HEAD 备份并 push；该模式不包含工作区未提交开发内容，不为预备份强行提交用户工作。变更完成后再按默认模式备份新状态。相关任务读取 `.agents/skills/history-content-backup/SKILL.md`。
 
-新增或修订人物、史料原文、全文／独立句译、人物关系、记载片段与句译索引，或导出所有者校订后的公开副本时，完成发布导出、索引复核、项目检查及主项目提交后，运行 `npm run backup:github --prefix backend`。备份已提交 HEAD 的源码与公开史料，以及正式库加密 dump；清单记录源提交、内容计数和 SHA-256。脚本读回已写出的加密包，验证解密结果并在独立数据库完整恢复核验，通过后才在指定备份仓库提交、推送并验证远端对应提交；未完成推送或验证失败不得报告异地备份已完成。纯 UI 布局／配色修改不要求频繁追加完整备份，不据此新增定时任务或后台监控。
+新增或修订人物、原文、全文／独立句译、关系、记载片段与句译索引，或导出所有者校订副本时，完成发布导出、索引复核、项目检查及主项目提交后，运行 `npm run backup:github --prefix backend`。新快照 `schemaVersion: 2` 包含 `project.tar.gz`、未加密的 `database.dump`、`manifest.json` 和 `verification.json`，记录源提交、状态及 SHA-256。读取实际快照文件在独立数据库完整恢复，核对所有表行哈希、结构及身份序列，通过后才提交、推送并验证远端对应提交；验证失败或未确认远端提交不得报告异地备份完成。纯 UI 修改不要求频繁追加完整备份，不新增定时任务或后台监控。
 
-备份仓库目前公开，数据库必须 AES-256-GCM 加密后上传，明文 dump、凭据、校订密码、隧道身份、日志及 `backend/.local/` 的其他内容不得入库。密钥仅在本机 `backend/.local/backup-key.bin`，权限 `0600`，不加入任何 Git 仓库、清单或日志；报告路径并提醒用户另存离线密钥，不能把公开清单当作解密密钥。恢复先核验清单／包哈希，按备份仓库说明解密到本机私有目录并在独立数据库验证，不直接覆盖正式库。保留备份仓库原有文件和提交，不强制推送。网站构建、发布与线上验证仍须独立完成。
+向备份仓库写入数据库文件前、每次 push 前，必须检查固定 GitHub 仓库仍为 `private`；公开、未知或无法确认时停止，不传数据库、不换目标。未加密数据库仅允许进入该指定私有仓库；凭据配置、校订密码文件、隧道身份、日志及整个 `backend/.local/` 不进入源码包、公开主项目或网站。默认备份、`--baseline`、`--verify` 均不需密钥，不再使用解密命令或密钥环境变量，不要求用户保存密钥。旧加密快照转换后逐个核验，保留既有 Git 提交、不改写历史或强推。恢复按备份仓库 `RESTORE.md`，先核验清单／文件哈希并在独立数据库恢复，不直接覆盖正式库。网站构建、发布与线上验证仍须独立完成。
 
 ## 页面配色与侧栏
 
@@ -132,7 +132,7 @@
 
 公开阅读数据库账户 `history_reader` 保持只读。独立 `history_editor` 仅获连接、schema 使用及 `public.revise_published_translation` 函数 EXECUTE 权限，不授予原文／译文表的直接写入权，不在公网服务中使用 owner 数据库账户。函数以固定搜索路径、显式 `public` 表引用运行，撤销 PUBLIC 执行权；权限和回滚检查仍使用独立测试数据库及随机测试角色。
 
-所有者密码在 Git 忽略的 `backend/.local/editor-key.txt`，配置在 `backend/.local/editor-config.json`（保存校订密码 SHA-256 校验值及独立数据库凭据），均限本机用户读取。不得将密码、配置、数据库备份或隧道身份复制到网站、仓库、浏览器持久存储、Cookie 或日志。前端仅在当前页面内存保留校订会话，刷新／退出后清除；鉴权请求使用允许的 Origin 与 Authorization Bearer，正文和密码不进入日志。API 离线时可阅读静态副本，但不能保存校订；更新离线译文副本需要再次导出、构建及发布。
+所有者密码在 Git 忽略的 `backend/.local/editor-key.txt`，配置在 `backend/.local/editor-config.json`（保存校订密码 SHA-256 校验值及独立数据库凭据），均限本机用户读取。不得将密码、配置或隧道身份复制到网站、仓库、浏览器持久存储、Cookie 或日志；数据库备份仅允许按上述约定保存到已确认私有的 `history_backup`，不进入公开主项目或网站。前端仅在当前页面内存保留校订会话，刷新／退出后清除；鉴权请求使用允许的 Origin 与 Authorization Bearer，正文和密码不进入日志。API 离线时可阅读静态副本，但不能保存校订；更新离线译文副本需要再次导出、构建及发布。
 
 ## 人物记载检索
 

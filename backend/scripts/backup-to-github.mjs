@@ -1,24 +1,24 @@
 import pg from 'pg';
 import { execFileSync } from 'node:child_process';
 import { existsSync, lstatSync, readFileSync, writeFileSync, mkdirSync, mkdtempSync, rmSync, renameSync, realpathSync, statSync } from 'node:fs';
-import { join, resolve, dirname, relative } from 'node:path';
+import { join, resolve } from 'node:path';
 import { randomBytes } from 'node:crypto';
 import { userInfo } from 'node:os';
+import { gunzipSync } from 'node:zlib';
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase, localDir, pgBin, backendDir, privateDir } from './runtime.mjs';
-import { encryptBackup, sha256, digest, verifyBackupContents, validateBackupRemotes, validateSourcePaths } from '../src/backup-archive.mjs';
+import { sha256, digest, verifyBackupContents, validateBackupRemotes, validateSourcePaths } from '../src/backup-archive.mjs';
+import { requirePrivateBackupRepository } from './backup-private-repository.mjs';
 
 process.umask(0o077);
 const project=resolve(backendDir,'..');
 const repository=resolve(process.env.HISTORY_BACKUP_REPO||'/Users/lzww/history_backup');
-const keyPath=resolve(process.env.HISTORY_BACKUP_KEY_FILE||join(localDir,'backup-key.bin'));
 const args=process.argv.slice(2),baseline=args.includes('--baseline');
-const mode=args.includes('--verify')?'verify':args.includes('--decrypt')?'decrypt':'backup';
+const mode=args.includes('--verify')?'verify':'backup';
 const valueAfter=flag=>args[args.indexOf(flag)+1];
 if(!(args.length===0||args.length===1&&baseline
-  ||args.length===2&&args[0]==='--verify'&&!args[1].startsWith('--')
-  ||args.length===4&&args[0]==='--decrypt'&&!args[1].startsWith('--')&&args[2]==='--output'&&args[3].startsWith('/')))
-  throw new Error('Use no options, --baseline, --verify <snapshot-id>, or --decrypt <snapshot-id> --output <absolute-private-path>.');
+  ||args.length===2&&args[0]==='--verify'&&!args[1].startsWith('--')))
+  throw new Error('Use no options, --baseline, or --verify <snapshot-id>. Plain backups do not require a key or decryption.');
 const git=(cwd,...params)=>execFileSync('git',['-C',cwd,...params],{encoding:'utf8',maxBuffer:64*1024*1024}).trim();
 const run=(binary,params)=>execFileSync(binary,params,{encoding:'utf8',maxBuffer:64*1024*1024});
 const identifier=value=>'"'+value.replaceAll('"','""')+'"';
@@ -26,23 +26,12 @@ const put=(path,value)=>writeFileSync(path,JSON.stringify(value,null,2)+'\n',{mo
 function regularFile(path){
   const st=lstatSync(path);if(!st.isFile()||st.isSymbolicLink())throw new Error('Backup files must be regular files.');return st;
 }
-function getKey(create=false){
-  if(!existsSync(keyPath)){
-    if(!create)throw new Error('The backup decryption key is missing; restore your privately saved key.');
-    if(existsSync(join(repository,'latest.json')))throw new Error('Existing backups require the original key; it was not replaced.');
-    if(keyPath!==join(localDir,'backup-key.bin'))throw new Error('Provide the existing key at HISTORY_BACKUP_KEY_FILE.');
-    privateDir(localDir);writeFileSync(keyPath,randomBytes(32),{mode:0o600,flag:'wx'});
-  }
-  const st=regularFile(keyPath);
-  if((st.mode&0o077)!==0||st.uid!==process.getuid())throw new Error('The backup key must belong to this user and have mode 600.');
-  const key=readFileSync(keyPath);if(key.length!==32)throw new Error('Invalid backup key length.');return key;
-}
-function checkRepository(){
+function checkRepository(requireClean=true){
   if(!existsSync(repository)||lstatSync(repository).isSymbolicLink()
     ||realpathSync(git(repository,'rev-parse','--show-toplevel'))!==realpathSync(repository))throw new Error('Use the existing backup repository root.');
   validateBackupRemotes(git(repository,'remote','get-url','--all','origin').split('\n'),git(repository,'remote','get-url','--push','--all','origin').split('\n'));
   if(git(repository,'branch','--show-current')!=='main')throw new Error('The backup repository must be on main.');
-  if(git(repository,'status','--porcelain'))throw new Error('The backup repository has local changes. Preserve or commit them before backing up.');
+  if(requireClean&&git(repository,'status','--porcelain'))throw new Error('The backup repository has local changes. Preserve or commit them before backing up.');
   const snapshots=join(repository,'snapshots');
   if(existsSync(snapshots)&&(!lstatSync(snapshots).isDirectory()||lstatSync(snapshots).isSymbolicLink()))throw new Error('Snapshots must use a regular repository directory.');
 }
@@ -101,40 +90,42 @@ async function verifyDatabase(file,expected,config){
     if(check)await check.end();if(created)await admin.query(`DROP DATABASE ${name}`);await admin.end();
   }
 }
-function readSnapshot(id,key){
+function readSnapshot(id){
   if(!/^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}-[0-9]{2}-[0-9]{2}Z-[a-f0-9]{8}$/u.test(id))throw new Error('Invalid snapshot ID.');
   const folder=join(repository,'snapshots',id);if(lstatSync(folder).isSymbolicLink())throw new Error('Invalid snapshot folder.');
   const manifestPath=join(folder,'manifest.json');regularFile(manifestPath);const manifest=JSON.parse(readFileSync(manifestPath,'utf8'));
-  const files=Object.fromEntries(['project.tar.gz','database.dump.enc'].map(filename=>{
+  if(manifest.schemaVersion!==2)throw new Error('Convert this legacy snapshot to the plain format before using the new backup command.');
+  const files=Object.fromEntries(['project.tar.gz','database.dump'].map(filename=>{
     const path=join(folder,filename);regularFile(path);return [filename,readFileSync(path)];
   }));
-  const decrypted=verifyBackupContents({manifest,snapshotId:id,projectArchive:files['project.tar.gz'],encryptedDatabase:files['database.dump.enc'],key});
-  return {manifest,plaintext:decrypted.plaintext};
+  verifyBackupContents({manifest,snapshotId:id,projectArchive:files['project.tar.gz'],databaseDump:files['database.dump']});
+  let archiveCommit;
+  // Git consumes only the first two tar blocks; avoid writing the remaining
+  // archive to a subprocess that has already closed its input pipe.
+  try{archiveCommit=execFileSync('git',['get-tar-commit-id'],{input:gunzipSync(files['project.tar.gz']).subarray(0,1024),encoding:'utf8',maxBuffer:1024}).trim();}
+  catch{throw new Error('The source archive does not contain valid Git commit metadata.');}
+  if(archiveCommit!==manifest.sourceCommit)throw new Error('The source archive commit does not match its manifest.');
+  return {manifest,dumpFile:join(folder,'database.dump')};
 }
-async function verifySnapshot(id,key,config){
-  const {manifest,plaintext}=readSnapshot(id,key);const temp=mkdtempSync(join(localDir,'backups','github-verify-'));
-  try{const file=join(temp,'restore.dump');writeFileSync(file,plaintext,{mode:0o600});return await verifyDatabase(file,manifest.database,config);}
-  finally{rmSync(temp,{recursive:true,force:true});}
+async function verifySnapshot(id,config){
+  const {manifest,dumpFile}=readSnapshot(id);
+  return await verifyDatabase(dumpFile,manifest.database,config);
 }
-function pushAndVerify(){
+async function pushAndVerify(){
+  await requirePrivateBackupRepository(repository);
   git(repository,'push','origin','main');const commit=git(repository,'rev-parse','HEAD');
   const remote=git(repository,'ls-remote','origin','refs/heads/main').split(/\s+/u)[0];
   if(remote!==commit)throw new Error('The backup commit is not confirmed on GitHub.');return commit;
 }
 async function main(){
-  checkRepository();privateDir(join(localDir,'backups'));
-  if(mode!=='backup'){
-    const id=valueAfter(`--${mode}`),key=getKey();
-    if(mode==='verify'){console.log(JSON.stringify({snapshotId:id,...await verifySnapshot(id,key,loadConfig())}));return;}
-    const output=resolve(valueAfter('--output')||'');
-    const privateRoot=realpathSync(join(localDir,'backups'));
-    if(!args.includes('--output')||!output.startsWith(privateRoot+'/')||existsSync(output)
-      ||realpathSync(dirname(output))!==dirname(output))throw new Error('Decrypt only to a new file inside backend/.local/backups.');
-    const {plaintext}=readSnapshot(id,key);writeFileSync(output,plaintext,{mode:0o600,flag:'wx'});
-    console.log(JSON.stringify({snapshotId:id,decryptedTo:output}));return;
+  checkRepository(mode!=='verify');privateDir(join(localDir,'backups'));
+  if(mode==='verify'){
+    const id=valueAfter('--verify');
+    console.log(JSON.stringify({snapshotId:id,...await verifySnapshot(id,loadConfig())}));return;
   }
   syncRepository();
-  const source=sourceState(),key=getKey(true),config=loadConfig(),client=new pg.Client(adminDatabase(config));
+  const visibility=await requirePrivateBackupRepository(repository);
+  const source=sourceState(),config=loadConfig(),client=new pg.Client(adminDatabase(config));
   const latestFile=join(repository,'latest.json');let temp;
   try{
     await client.connect();await client.query('BEGIN ISOLATION LEVEL REPEATABLE READ READ ONLY');
@@ -142,10 +133,10 @@ async function main(){
     if(existsSync(latestFile)){
       regularFile(latestFile);
       const latest=JSON.parse(readFileSync(latestFile,'utf8'));
-      const {manifest}=readSnapshot(latest.snapshotId,key);
+      const {manifest}=readSnapshot(latest.snapshotId);
       if(manifest.sourceCommit===source.commit&&manifest.database.sha256===state.sha256){
-        await client.query('COMMIT');const verification=await verifySnapshot(latest.snapshotId,key,config);
-        const commit=pushAndVerify();console.log(JSON.stringify({snapshotId:latest.snapshotId,reused:true,verification,commit,github:'https://github.com/Lzww0608/history_backup'}));return;
+        await client.query('COMMIT');const verification=await verifySnapshot(latest.snapshotId,config);
+        const commit=await pushAndVerify();console.log(JSON.stringify({snapshotId:latest.snapshotId,reused:true,verification,commit,github:'https://github.com/Lzww0608/history_backup'}));return;
       }
     }
     const snapshot=(await client.query('SELECT pg_export_snapshot() AS snapshot')).rows[0].snapshot;
@@ -157,25 +148,24 @@ async function main(){
     const folder=join(repository,'snapshots',id);mkdirSync(folder,{recursive:true,mode:0o700});
     const archive=join(folder,'project.tar.gz');
     run('git',['-C',project,'archive','--format=tar.gz','--output',archive,source.commit]);
-    const plaintext=readFileSync(dump),metadata={snapshotId:id,sourceCommit:source.commit,sourceState:source.state,projectArchiveSha256:sha256(readFileSync(archive)),databaseSha256:state.sha256,databaseDumpSha256:sha256(plaintext),keyId:sha256(key).slice(0,16)};
-    const encrypted=encryptBackup(plaintext,key,metadata);writeFileSync(join(folder,'database.dump.enc'),encrypted,{mode:0o600,flag:'wx'});
-    for(const file of ['project.tar.gz','database.dump.enc'])if(statSync(join(folder,file)).size>=95*1024*1024)throw new Error('A snapshot file exceeds the safe GitHub file-size limit.');
-    const manifest={schemaVersion:1,snapshotId:id,createdAt:now.toISOString(),localTime:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'medium'}).format(now),
+    const plaintext=readFileSync(dump);writeFileSync(join(folder,'database.dump'),plaintext,{mode:0o600,flag:'wx'});
+    for(const file of ['project.tar.gz','database.dump'])if(statSync(join(folder,file)).size>=95*1024*1024)throw new Error('A snapshot file exceeds the safe GitHub file-size limit.');
+    const manifest={schemaVersion:2,snapshotId:id,createdAt:now.toISOString(),localTime:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'medium'}).format(now),
       sourceCommit:source.commit,sourceState:source.state,sourceRepository:'https://github.com/Lzww0608/Lzww0608.github.io',
-      database:state,databaseDumpSha256:metadata.databaseDumpSha256,
+      database:state,databaseDumpSha256:sha256(plaintext),
       postgresVersion:(await client.query('SHOW server_version')).rows[0].server_version,
-      encryption:{algorithm:'AES-256-GCM',format:'HISTORY-BACKUP-1',metadata},
-      files:Object.fromEntries(['project.tar.gz','database.dump.enc'].map(file=>[file,{bytes:statSync(join(folder,file)).size,sha256:sha256(readFileSync(join(folder,file)))}]))};
+      storage:{visibility:'private',databaseFormat:'postgresql-custom',encrypted:false,visibilityCheckedAt:visibility.checkedAt},
+      files:Object.fromEntries(['project.tar.gz','database.dump'].map(file=>[file,{bytes:statSync(join(folder,file)).size,sha256:sha256(readFileSync(join(folder,file)))}]))};
     put(join(folder,'manifest.json'),manifest);
-    const verification=await verifySnapshot(id,key,config);put(join(folder,'verification.json'),verification);
-    const pending=join(repository,'latest.json.tmp');writeFileSync(pending,JSON.stringify({schemaVersion:1,snapshotId:id,sourceCommit:source.commit,databaseSha256:state.sha256},null,2)+'\n',{mode:0o600,flag:'wx'});renameSync(pending,latestFile);
+    const verification=await verifySnapshot(id,config);put(join(folder,'verification.json'),verification);
+    const pending=join(repository,'latest.json.tmp');writeFileSync(pending,JSON.stringify({schemaVersion:2,snapshotId:id,sourceCommit:source.commit,databaseSha256:state.sha256},null,2)+'\n',{mode:0o600,flag:'wx'});renameSync(pending,latestFile);
     git(repository,'add','--',`snapshots/${id}`,'latest.json');
     git(repository,'commit','-m',`Back up history content ${id}`);
-    const commit=pushAndVerify();console.log(JSON.stringify({snapshotId:id,reused:false,verification,commit,keyFile:keyPath,github:'https://github.com/Lzww0608/history_backup'}));
+    const commit=await pushAndVerify();console.log(JSON.stringify({snapshotId:id,reused:false,verification,commit,github:'https://github.com/Lzww0608/history_backup'}));
   }catch(error){
     await client.query('ROLLBACK').catch(()=>{});
     // A committed but unpushed snapshot is kept for an ordinary retry. Never reset
-    // the backup repository, replace its key, or force-push to conceal a failure.
+    // the backup repository or force-push to conceal a failure.
     throw error;
   }finally{await client.end();if(temp)rmSync(temp,{recursive:true,force:true});}
 }
