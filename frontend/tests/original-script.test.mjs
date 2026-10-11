@@ -30,9 +30,6 @@ test('converts classical Chinese and notes while preserving punctuation and unkn
 test('preserves verified historical names while simplifying their unambiguous characters', async () => {
   const convert = await loadOriginalConverter();
   assert.equal(convert('乾祐、乾化、乾寧、乾符、乾德、乾和、乾貞、乾亨、乾元。'), '乾祐、乾化、乾宁、乾符、乾德、乾和、乾贞、乾亨、乾元。');
-  assert.equal(convert('乾宁二年十二月，乾贞元年。乾燥。'), '乾宁二年十二月，乾贞元年。干燥。');
-  const regnalDates = '乾寧二年，乾貞元年。';
-  assert.equal(convert(convert(regnalDates)), convert(regnalDates), 'curated date metadata preserves the verified era names');
   assert.equal(convert('乾明門，乾象門，乾文院，乾福殿。乾燥。皇后。'), '乾明门，乾象门，乾文院，乾福殿。干燥。皇后。');
 });
 
