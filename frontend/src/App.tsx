@@ -13,6 +13,10 @@ import { resolveOwnerReviewRoute } from './owner-review-route';
 import { hasPersonTimeline, personTimelineRoute, resolvePersonTimelineRoute } from './person-timeline-route';
 import { eventComparisons, comparisonsForPerson } from './event-comparison-data';
 import { eventComparisonRoute, resolveEventComparisonRoute } from './event-comparison-route';
+import { readingNavigation, readingPageKey } from './reading-navigation-state';
+import { captureReadingPosition } from './use-reading-position';
+import { createNavigationDecision, createReadingTraversalGuard } from './reading-navigation-guard';
+import type { TraversalAction } from './reading-navigation-guard';
 
 type Navigate = (route: Route) => void;
 type OpenPerson = (person: HistoryPerson | undefined) => void;
@@ -113,33 +117,98 @@ function RelatedSources({ personId, go }: { personId: string | undefined; go: Na
 }
 
 export function App() {
-  const [route, setRoute] = useState(getRoute);
+  const [route, setRoute] = useState(() => {
+    const initial = getRoute();
+    const existing = readingNavigation.current();
+    const entry = existing?.route === initial && history.state?.ancientHistoryReadingEntry === existing.id ? existing : readingNavigation.activate(initial);
+    history.replaceState({ ...history.state, ancientHistoryReadingEntry: entry.id }, '', location.href);
+    return initial;
+  });
+  const [, setNavigationActivation] = useState(0);
   const currentRoute = useRef(route);
   currentRoute.current = route;
+  const approvedNavigation = useRef<{ fromEntryId: string; fromActivation: number; page: string; targetEntryId?: string } | null>(null);
+  const traversalGuard = useRef(createReadingTraversalGuard()).current;
   const [peopleView, setPeopleView] = useState<'list' | 'graph'>('list');
   const [focusPersonId, setFocusPersonId] = useState<string>();
   const [readingFocusId, setReadingFocusId] = useState<string>();
   const [readingReturnRoute, setReadingReturnRoute] = useState<Route>();
   const [modal, setModal] = useState<ModalState | null>(null);
+  function resumeTraversal(action: TraversalAction) {
+    if (action.kind === 'none') return;
+    const current = readingNavigation.current();
+    if (!current) return;
+    if (action.kind === 'bounce') { history.go(action.distance); return; }
+    if (action.kind === 'fallback') {
+      readingNavigation.retainCurrentOnly();
+      history.pushState({ ancientHistoryReadingEntry: current.id }, '', `#${currentRoute.current}`);
+      if (action.resumeRoute) resumeTraversal({ kind: 'push', route: action.resumeRoute });
+      return;
+    }
+    const destination = resolveRoute(`#${action.route}`);
+    if (action.kind === 'push' && getRoute() === destination) return;
+    approvedNavigation.current = { fromEntryId: current.id, fromActivation: current.activation, page: readingPageKey(destination),
+      ...(action.kind === 'traverse' && action.entryId ? { targetEntryId: action.entryId } : {}) };
+    if (action.kind === 'traverse') history.go(action.distance);
+    else location.hash = destination;
+  }
   useEffect(() => {
-    const listener = () => {
+    const previousScrollRestoration = history.scrollRestoration;
+    history.scrollRestoration = 'manual';
+    const listener = (nativeTraversal = false) => {
       const next = getRoute();
-      if (next === currentRoute.current) {
-        if (location.hash !== `#${next}`) history.replaceState(null, '', `#${next}`);
+      const stateEntry = history.state?.ancientHistoryReadingEntry;
+      const nextEntryId = typeof stateEntry === 'string' ? stateEntry : undefined;
+      const arrived = traversalGuard.arrive(next, nextEntryId, readingNavigation.current(), readingNavigation.distanceToEntry(nextEntryId));
+      if (arrived.handled) { resumeTraversal(arrived.action); return; }
+      if (next === currentRoute.current && nextEntryId === readingNavigation.current()?.id) {
+        if (location.hash !== `#${next}`) history.replaceState(history.state, '', `#${next}`);
         return;
       }
-      const continueNavigation = () => {
-        history.replaceState(null, '', `#${next}`);
+      const completeNavigation = (programmaticPush = false) => {
+        captureReadingPosition();
+        const entry = readingNavigation.activate(next, nextEntryId ?? (nativeTraversal && !programmaticPush ? 'untracked-history-entry' : undefined));
+        history.replaceState({ ...history.state, ancientHistoryReadingEntry: entry.id }, '', `#${next}`);
+        currentRoute.current = next;
         setRoute(next);
+        setNavigationActivation(entry.activation);
         window.scrollTo({ top: 0 });
       };
-      const event = new CustomEvent('ancient-history:before-navigation', { cancelable: true, detail: { continueNavigation } });
-      if (window.dispatchEvent(event)) continueNavigation();
-      else history.replaceState(null, '', `#${currentRoute.current}`);
+      const approved = approvedNavigation.current;
+      approvedNavigation.current = null;
+      const current = readingNavigation.current();
+      if (approved && approved.fromEntryId === current?.id && approved.fromActivation === current.activation && approved.page === readingPageKey(next)
+        && (!approved.targetEntryId || approved.targetEntryId === nextEntryId)) { completeNavigation(true); return; }
+      traversalGuard.invalidate();
+      let blocked: ReturnType<typeof traversalGuard.block> | undefined;
+      const fromId = current?.id, fromActivation = current?.activation;
+      const decision = createNavigationDecision({
+        isCurrent: () => readingNavigation.current()?.id === fromId && readingNavigation.current()?.activation === fromActivation,
+        onAllowed: () => completeNavigation(),
+        onBlocked: () => { if (blocked) resumeTraversal(traversalGuard.requestContinuation(blocked, readingNavigation.current())); },
+      });
+      const event = new CustomEvent('ancient-history:before-navigation', { cancelable: true, detail: { continueNavigation: decision.request } });
+      const allowed = window.dispatchEvent(event);
+      if (!allowed && current) {
+        captureReadingPosition();
+        blocked = traversalGuard.block(current, next, nextEntryId, readingNavigation.distanceToEntry(nextEntryId));
+        if (blocked.distance !== null) history.go(-blocked.distance);
+        else {
+          // Unknown/expired entries have no trustworthy traversal distance.
+          // Preserve their URL, create a safe current-page entry, and revoke old
+          // ancestor distances rather than overwrite the popped entry.
+          readingNavigation.retainCurrentOnly();
+          history.pushState({ ancientHistoryReadingEntry: current.id }, '', `#${currentRoute.current}`);
+        }
+      }
+      decision.settle(allowed);
     };
     listener();
-    window.addEventListener('hashchange', listener);
-    return () => window.removeEventListener('hashchange', listener);
+    const hashListener = () => listener();
+    const popListener = () => listener(true);
+    window.addEventListener('hashchange', hashListener);
+    window.addEventListener('popstate', popListener);
+    return () => { window.removeEventListener('hashchange', hashListener); window.removeEventListener('popstate', popListener); history.scrollRestoration = previousScrollRestoration; };
   }, []);
   const reading = resolveReadingRoute(route);
   const personSources = resolvePersonSourcesRoute(route);
@@ -150,10 +219,29 @@ export function App() {
   useEffect(() => { document.title = `${title} · 中国古代史`; }, [title]);
   function go(view: Route, paragraphId?: string) {
     setModal(null); setReadingFocusId(paragraphId);
+    if (traversalGuard.isBouncing()) { traversalGuard.invalidate(); return; }
+    traversalGuard.invalidate();
+    const current = currentRoute.current;
+    const expectedReturn = resolveReadingRoute(current)?.returnTo ?? resolvePersonTimelineRoute(current)?.returnTo ?? resolveEventComparisonRoute(current)?.returnTo;
+    const distance = readingNavigation.returnDistance(view, expectedReturn);
+    const fromEntryId = readingNavigation.current()?.id;
+    const fromActivation = readingNavigation.current()?.activation;
+    let performed = false;
+    const perform = (action: () => void) => {
+      const continueNavigation = () => {
+        if (performed || readingNavigation.current()?.id !== fromEntryId || readingNavigation.current()?.activation !== fromActivation) return;
+        performed = true;
+        approvedNavigation.current = fromEntryId && fromActivation !== undefined ? { fromEntryId, fromActivation, page: readingPageKey(view) } : null;
+        action();
+      };
+      const event = new CustomEvent('ancient-history:before-navigation', { cancelable: true, detail: { continueNavigation } });
+      if (window.dispatchEvent(event)) continueNavigation();
+    };
+    if (distance !== null) { perform(() => { captureReadingPosition(); history.go(distance); }); return; }
     if (getRoute() === view) {
-      if (location.hash !== `#${view}`) history.replaceState(null, '', `#${view}`);
+      if (location.hash !== `#${view}`) history.replaceState(history.state, '', `#${view}`);
       window.scrollTo({ top: 0 });
-    } else location.hash = view;
+    } else perform(() => { location.hash = view; });
   }
   const openPerson: OpenPerson = person => { if (person) setModal({ type: 'person', item: person }); };
   function viewRelationships(id: string) { setFocusPersonId(id); setPeopleView('graph'); go('people'); }
@@ -166,7 +254,7 @@ export function App() {
   }
   return <><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); const main = document.getElementById('main-content'); main?.focus(); main?.scrollIntoView(); }}>跳转到内容</a>
     <header className="site-header people-header"><a className="brand" href="#people"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="#people">人物</a></nav><div className="header-actions"><ThemeSwitcher /><button className="header-search" aria-label="搜索人物" onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button></div></header>
-    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
+    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} route={route} returnTo={timeline.returnTo} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} route={route} returnTo={comparison.returnTo} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} route={route} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
     {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} />}</Dialog>}
   </>;
 }

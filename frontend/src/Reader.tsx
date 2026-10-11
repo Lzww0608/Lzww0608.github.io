@@ -9,10 +9,15 @@ import { OriginalParagraph } from './OriginalParagraph';
 import { TranslationEditor } from './TranslationEditor';
 import { CollapsibleSidebar, useSidebarState } from './CollapsibleSidebar';
 import { readingFocusKey } from './reading-focus';
+import { useReadingPosition, useReadingView } from './use-reading-position';
+import { readingNavigation } from './reading-navigation-state';
+import { resolvePersonTimelineRoute } from './person-timeline-route';
+import { resolveEventComparisonRoute } from './event-comparison-route';
 import type { Book, ChapterSummary, ChapterResponse, ChapterParagraph, Route } from './types';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
-export function Reader({ book, entry, go, focusParagraphId, returnTo, search = { query: '', field: 'both' } }: {
+export function Reader({ route, book, entry, go, focusParagraphId, returnTo, search = { query: '', field: 'both' } }: {
+  route: Route;
   book: Book;
   entry: ChapterSummary;
   go: (route: Route) => void;
@@ -23,7 +28,9 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
   const directoryRef = useRef<HTMLElement>(null);
   const directoryTrigger = useRef<HTMLButtonElement>(null);
   const focusedParagraph = useRef<string | undefined>(undefined);
-  const [size, setSize] = useState(23);
+  const [view, setView] = useReadingView<{ size: number; expandedTranslations: Record<string, boolean> }>(route, { size: 23, expandedTranslations: {} });
+  const size = view.size;
+  const setSize = (update: (value: number) => number) => setView(current => ({ ...current, size: update(current.size) }));
   const [showDirectory, setShowDirectory] = useState(false);
   const directorySidebar = useSidebarState('reader-directory');
   const [chapter, setChapter] = useState<ChapterResponse | null>(null);
@@ -35,6 +42,9 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
   const paragraphs = useMemo(() => originalParagraphs(
     chapter?.paragraphs ?? [], originalScript.displayScript, originalScript.converter,
   ), [chapter?.paragraphs, originalScript.displayScript, originalScript.converter]);
+  const restoredEntry = readingNavigation.current()?.intent === 'restore' && !!readingNavigation.current()?.position;
+  const position = useReadingPosition({ route, ready: ['ready', 'archive', 'error'].includes(readState) && (!search.query || restoredEntry),
+    targetId: search.query ? undefined : focusParagraphId, layoutKey: `${size}/${originalScript.displayScript}/${readState}` });
   useEffect(() => {
     const controller = new AbortController();
     setEditing(null); setSaveNotice('');
@@ -48,7 +58,7 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
   }, [book.id, entry.id, retry]);
   useEffect(() => {
     const paragraph = chapter?.paragraphs.find(item => item.id === focusParagraphId);
-    if (!focusParagraphId || !paragraph) return;
+    if (!search.query || restoredEntry || position.cancelled() || !focusParagraphId || !paragraph) return;
     const key = readingFocusKey(entry.id, paragraph, search.query, search.field, originalScript.displayScript);
     if (focusedParagraph.current === key) return;
     const target = document.getElementById(focusParagraphId);
@@ -58,6 +68,7 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
     // A match can sit halfway through a long paragraph or in a translation that
     // has just expanded. Wait for the shared lazy text component before locating it.
     function locateMatch() {
+      if (position.cancelled()) return true;
       const hit = Array.from(target!.querySelectorAll<HTMLElement>('[data-search-hit]')).find(mark => !mark.closest('[hidden]'));
       if (!hit) return false;
       focusedParagraph.current = key;
@@ -68,7 +79,7 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
     const observer = new MutationObserver(() => { if (locateMatch()) observer.disconnect(); });
     observer.observe(target, { subtree: true, childList: true, attributes: true, attributeFilter: ['hidden'] });
     return () => observer.disconnect();
-  }, [chapter, entry.id, focusParagraphId, search.query, search.field, originalScript.displayScript]);
+  }, [chapter, entry.id, focusParagraphId, search.query, search.field, originalScript.displayScript, route, restoredEntry]);
   useEffect(() => {
     const container = directoryRef.current;
     const selected = container?.querySelector<HTMLElement>('[aria-current="page"]');
@@ -106,7 +117,9 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
   const next = directory[index + 1];
   const provenance = entry.provenance;
   const contextRoute = (chapterEntry: ChapterSummary) => chapterRoute(chapterEntry, { ...search, returnTo });
-  const returnLabel = returnTo?.startsWith('owner-review') ? '返回校核清单' : returnTo?.startsWith('person-timeline/') ? '返回人物年表' : returnTo?.startsWith('event-comparison/') ? '返回史料对读' : '返回相关记载';
+  const timelineReturn = returnTo ? resolvePersonTimelineRoute(returnTo) : null;
+  const comparisonReturn = returnTo ? resolveEventComparisonRoute(returnTo) : null;
+  const returnLabel = returnTo?.startsWith('owner-review') ? '返回校核清单' : timelineReturn ? `返回${timelineReturn.person.name}年表` : comparisonReturn ? `返回${comparisonReturn.document.title}史料对读` : '返回相关记载';
   return <section className="reader" data-read-state={readState} data-chapter-id={entry.id}>
     <div className="breadcrumbs"><button onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '人物'}</button><span>/</span><span>{book.title}</span><span>/</span><span>{entry.volume > 0 ? `卷 ${entry.volume}` : entry.title}</span></div>
     <div className={`reader-layout ${directorySidebar.collapsed ? 'left-collapsed' : ''}`}>
@@ -125,7 +138,7 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
         <p className="sentence-reading-hint">点击原文句子，在附近查看译文。</p>
         <div className="reader-status" role="status">{readState === 'loading' && '正在打开原文…'}{readState === 'archive-pending' && '原文已打开，正在检查已发布译文…'}{readState === 'archive' && '当前显示随站保存的完整原文。'}{readState === 'error' && <><span>这一篇暂时无法打开。</span> <button className="text-link small" onClick={() => setRetry(value => value + 1)}>重新读取</button></>}</div>
         {saveNotice && <p className="translation-notice" role="status">{saveNotice}</p>}
-        <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map((paragraph, index) => <OriginalParagraph key={paragraph.id} paragraph={chapter?.paragraphs[index] ?? paragraph} displayedOriginal={paragraph.original} searchQuery={search.query} searchField={search.field} onEdit={historyApiBase && readState === 'ready' ? () => setEditing(chapter?.paragraphs[index] ?? null) : undefined} />)}</div>
+        <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map((paragraph, index) => <OriginalParagraph key={paragraph.id} paragraph={chapter?.paragraphs[index] ?? paragraph} displayedOriginal={paragraph.original} searchQuery={search.query} searchField={search.field} translationExpanded={view.expandedTranslations[paragraph.id]} onTranslationExpandedChange={expanded => setView(current => ({ ...current, expandedTranslations: { ...current.expandedTranslations, [paragraph.id]: expanded } }))} onEdit={historyApiBase && readState === 'ready' ? () => setEditing(chapter?.paragraphs[index] ?? null) : undefined} />)}</div>
         {chapter && <div className="reading-source"><span>完整篇章原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留。译文支持逐段修订，旧版本保留。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
         <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(contextRoute(previous)) : go(returnTo ?? 'people')}><ArrowLeft size={18} />{previous ? '上一篇' : returnTo ? returnLabel : '返回人物'}</button>{next ? <button className="text-link" onClick={() => go(contextRoute(next))}>下一篇 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '返回人物'} <ArrowRight size={18} /></button>}</div>
       </article>

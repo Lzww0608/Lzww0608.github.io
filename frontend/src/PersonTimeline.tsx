@@ -1,8 +1,12 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight } from '@phosphor-icons/react';
 import { historyApiBase } from './history-api';
 import { readPersonTimeline } from './person-timeline-loader';
 import { personTimelineRoute } from './person-timeline-route';
+import { eventComparisonRoute, resolveEventComparisonRoute } from './event-comparison-route';
+import { useReadingPosition } from './use-reading-position';
+import { readTimelineComparisonLinks } from './event-timeline-links-loader';
+import type { ResolvedEventTimelineLink } from './event-timeline-links';
 import { personSourcesRoute } from './library';
 import { CollapsibleSidebar, useSidebarState } from './CollapsibleSidebar';
 import { useOriginalScript } from './use-original-script';
@@ -36,8 +40,9 @@ function groupEvents(events: TimelineEvent[]) {
   return phases;
 }
 
-function EvidenceList({ evidence, displayOriginal, onRead }: {
+function EvidenceList({ evidence, detailKey, displayOriginal, onRead }: {
   evidence: ResolvedTimelineEvidence[];
+  detailKey: string;
   displayOriginal: (original: string) => string;
   onRead: (evidence: ResolvedTimelineEvidence) => void;
 }) {
@@ -49,22 +54,25 @@ function EvidenceList({ evidence, displayOriginal, onRead }: {
   }
   return <ul className="timeline-evidence-list">{[...sources.values()].map(({ source, excerpts }) => <li key={source.paragraphId}>
     <div className="timeline-evidence-caption"><strong>{source.bookTitle} · {source.chapterTitle}</strong><span>原篇第 {source.paragraph.position} 段</span><button type="button" onClick={() => onRead(source)}>阅读原文与译文</button></div>
-    <details><summary>查看原文依据{excerpts.length > 1 && `（${excerpts.length} 处）`}</summary>{excerpts.map((excerpt, index) => <blockquote key={index}>{displayOriginal(excerpt)}</blockquote>)}</details>
+    <details data-reading-details-id={`${detailKey}/${source.paragraphId}`}><summary>查看原文依据{excerpts.length > 1 && `（${excerpts.length} 处）`}</summary>{excerpts.map((excerpt, index) => <blockquote key={index}>{displayOriginal(excerpt)}</blockquote>)}</details>
   </li>)}</ul>;
 }
 
-export function PersonTimeline({ person, eventId, go, onReadSource }: {
+export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSource }: {
   person: HistoryPerson;
+  route: Route;
   eventId?: string;
+  returnTo?: Route;
   go: (route: Route) => void;
   onReadSource: (chapterId: string, paragraphId?: string, context?: ReadingSearchContext) => void;
 }) {
   const [page, setPage] = useState<PersonTimelineResponse | null>(null);
   const [readState, setReadState] = useState<ReadState>('loading');
   const [retry, setRetry] = useState(0);
+  const [comparisonLinks, setComparisonLinks] = useState<ResolvedEventTimelineLink[]>([]);
+  const [linksReady, setLinksReady] = useState(false);
   const yearSidebar = useSidebarState('timeline-years');
   const script = useOriginalScript();
-  const focused = useRef('');
   const groups = useMemo(() => groupEvents(page?.events ?? []), [page?.events]);
   const years = useMemo(() => {
     const list: { year: number | null; firstEventId: string; count: number }[] = [];
@@ -77,10 +85,24 @@ export function PersonTimeline({ person, eventId, go, onReadSource }: {
   }, [page?.events]);
   const selectedYear = page?.events.find(event => event.id === eventId)?.year;
   const displayOriginal = (original: string) => script.displayScript === 'simplified' && script.converter ? script.converter(original) : original;
+  const returnComparison = returnTo ? resolveEventComparisonRoute(returnTo) : null;
+
+  useReadingPosition({ route, ready: readState === 'error' || ['ready', 'archive'].includes(readState) && linksReady, targetId: eventId ? `timeline-event-${eventId}` : undefined,
+    focusSelector: 'h4', layoutKey: `${page?.resultSetRevision ?? readState}/${yearSidebar.collapsed}/${script.displayScript}` });
 
   useEffect(() => {
     const controller = new AbortController();
-    setPage(null); setReadState('loading'); focused.current = '';
+    setComparisonLinks([]); setLinksReady(false);
+    if (!page || !['ready', 'archive'].includes(readState)) return () => controller.abort();
+    readTimelineComparisonLinks({ personId: person.id, timeline: page, apiBase: historyApiBase, archiveBase: import.meta.env.BASE_URL, signal: controller.signal }).then(result => {
+      if (!controller.signal.aborted) { setComparisonLinks(result.links); setLinksReady(true); }
+    }).catch(() => { if (!controller.signal.aborted) setLinksReady(true); });
+    return () => controller.abort();
+  }, [page, person.id, readState]);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    setPage(null); setReadState('loading');
     readPersonTimeline({ personId: person.id, apiBase: historyApiBase, archiveBase: import.meta.env.BASE_URL, signal: controller.signal,
       onArchive: value => { if (!controller.signal.aborted) { setPage(value); setReadState('archive-pending'); } },
     }).then(result => {
@@ -91,30 +113,20 @@ export function PersonTimeline({ person, eventId, go, onReadSource }: {
     return () => controller.abort();
   }, [person.id, retry]);
 
-  useEffect(() => {
-    if (!page || !eventId || !page.events.some(event => event.id === eventId)) return;
-    const key = `${person.id}/${eventId}/${page.resultSetRevision}`;
-    if (focused.current === key) return;
-    const element = document.getElementById(`timeline-event-${eventId}`);
-    if (!element) return;
-    focused.current = key;
-    element.scrollIntoView({ block: 'start' });
-    element.querySelector<HTMLHeadingElement>('h4')?.focus({ preventScroll: true });
-  }, [page, eventId, person.id]);
-
   function readEvidence(event: TimelineEvent, evidence: ResolvedTimelineEvidence) {
-    onReadSource(evidence.chapterId, evidence.paragraphId, { query: '', field: 'both', returnTo: personTimelineRoute(person.id, event.id) });
+    onReadSource(evidence.chapterId, evidence.paragraphId, { query: '', field: 'both', returnTo: personTimelineRoute(person.id, event.id, returnTo) });
   }
 
   function selectEvent(id: string) {
-    if (id !== eventId) { go(personTimelineRoute(person.id, id)); return; }
+    if (id !== eventId) { go(personTimelineRoute(person.id, id, returnTo)); return; }
     const element = document.getElementById(`timeline-event-${id}`);
     element?.scrollIntoView({ block: 'start' });
     element?.querySelector<HTMLHeadingElement>('h4')?.focus({ preventScroll: true });
   }
 
-  return <section className="person-timeline" data-person-id={person.id} data-read-state={readState}>
+  return <section className="person-timeline" data-person-id={person.id} data-read-state={readState} data-links-ready={linksReady}>
     <div className="timeline-breadcrumbs"><button type="button" onClick={() => go('people')}><ArrowLeft size={14} /> 人物</button><span>/</span><span>{person.name}年表</span></div>
+    {returnTo && <button type="button" className="timeline-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnComparison ? `${returnComparison.document.title}史料对读` : '来源页面'}</button>}
     <header className="person-timeline-heading"><div><h1>{person.name}<span>人物年表</span></h1><p className="timeline-person-period">{personDisplayPeriod(person)} · {person.role}{person.lifespan && ` · 生卒 ${person.lifespan}`}</p></div><p>按年份串联当前归档中的重要记载。史载年号与日期保留在事件下方，不同史书的异说分别列出；每条出处均可定位到原文与白话译文。</p></header>
     <div className="timeline-actions"><button className="text-link" type="button" onClick={() => go(personSourcesRoute(person.id))}>汇总全部文献记载 <ArrowRight size={17} /></button><div className="timeline-script-switch"><span>原文依据</span><div className="script-switch" role="group" aria-label="年表原文繁简切换">{(['traditional', 'simplified'] as const).map(value => <button key={value} type="button" aria-pressed={script.script === value} onClick={() => script.selectScript(value)}>{value === 'traditional' ? '繁体' : '简体'}</button>)}</div></div></div>
     <div className="timeline-read-status" role="status">
@@ -131,12 +143,22 @@ export function PersonTimeline({ person, eventId, go, onReadSource }: {
       <CollapsibleSidebar id="timeline-years" title="年度定位" side="left" className="timeline-year-directory" collapsed={yearSidebar.collapsed} onToggle={yearSidebar.toggle}>
         <p>{page.events.length} 条事件，{years.every(year => year.year === null) ? '年代未定' : years.some(year => year.year === null) ? `含 ${years.filter(year => year.year !== null).length} 个确定年份与年代未定记载` : `分布于 ${years.length} 个年份`}</p><nav aria-label="人物年表年份">{years.map(year => <button type="button" key={year.year ?? 'undated'} aria-current={selectedYear === year.year ? 'location' : undefined} onClick={() => selectEvent(year.firstEventId)}><span>{year.year === null ? '年代未定' : `${year.year} 年`}</span><small>{year.count} 条记载</small></button>)}</nav>
       </CollapsibleSidebar>
-      <div className="timeline-main">{groups.map(phase => <section className="timeline-phase" key={phase.id} aria-labelledby={`phase-${phase.id}`}><h2 id={`phase-${phase.id}`}>{phaseLabels[phase.phase]}</h2>{phase.years.map(year => <div className="timeline-year-group" key={year.year ?? 'undated'}><h3 aria-label={year.year === null ? '年代未定' : `公元 ${year.year} 年`}>{year.year ?? '未定'}<small aria-hidden="true">{year.year === null ? '年代' : '公元'}</small></h3><div className="timeline-year-events">{year.events.map(event => <article className="person-timeline-event" id={`timeline-event-${event.id}`} key={event.id} data-focused={eventId === event.id}>
-        <h4 tabIndex={-1}>{event.title}</h4><p className="timeline-source-date">{precisionLabels[event.precision]}：{event.sourceDate}</p><p className="timeline-event-summary">{event.summary}</p>
+      <div className="timeline-main">{groups.map(phase => <section className="timeline-phase" key={phase.id} aria-labelledby={`phase-${phase.id}`}><h2 id={`phase-${phase.id}`}>{phaseLabels[phase.phase]}</h2>{phase.years.map(year => <div className="timeline-year-group" key={year.year ?? 'undated'}><h3 aria-label={year.year === null ? '年代未定' : `公元 ${year.year} 年`}>{year.year ?? '未定'}<small aria-hidden="true">{year.year === null ? '年代' : '公元'}</small></h3><div className="timeline-year-events">{year.events.map(event => <article className="person-timeline-event" id={`timeline-event-${event.id}`} data-reading-anchor={`timeline-event-${event.id}`} key={event.id} data-focused={eventId === event.id}>
+        <h4 tabIndex={-1}>{event.title}</h4>{eventId === event.id && returnTo && <button type="button" className="timeline-inline-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnComparison ? `${returnComparison.document.title}史料对读` : '来源页面'}</button>}<p className="timeline-source-date">{precisionLabels[event.precision]}：{event.sourceDate}</p><p className="timeline-event-summary">{event.summary}</p>
         {event.yearRange && <p className="timeline-date-note">记载时间范围：公元 {event.yearRange.start}—{event.yearRange.end} 年，具体年份未定。</p>}
         {event.notes?.map((note, index) => <p className="timeline-date-note" key={index}>{note}</p>)}
-        <EvidenceList evidence={event.evidence} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} />
-        {!!event.variants?.length && <details className="timeline-source-variants"><summary>史书差异 · {event.variants.length} 处</summary>{event.variants.map((variant, index) => <div className="timeline-variant" key={index}><h5>{variant.label}</h5><p>{variant.year !== undefined && `另记公元 ${variant.year} 年；`}原书日期：{variant.sourceDate}</p>{variant.summary && <p>{variant.summary}</p>}{variant.notes?.map((note, noteIndex) => <p key={noteIndex}>{note}</p>)}<EvidenceList evidence={variant.evidence} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} /></div>)}</details>}
+        <EvidenceList evidence={event.evidence} detailKey={`${event.id}/main`} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} />
+        {!!event.variants?.length && <details className="timeline-source-variants" data-reading-details-id={`${event.id}/variants`}><summary>史书差异 · {event.variants.length} 处</summary>{event.variants.map((variant, index) => <div className="timeline-variant" key={index}><h5>{variant.label}</h5><p>{variant.year !== undefined && `另记公元 ${variant.year} 年；`}原书日期：{variant.sourceDate}</p>{variant.summary && <p>{variant.summary}</p>}{variant.notes?.map((note, noteIndex) => <p key={noteIndex}>{note}</p>)}<EvidenceList evidence={variant.evidence} detailKey={`${event.id}/variant-${index}`} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} /></div>)}</details>}
+        {comparisonLinks.filter(link => link.event.id === event.id).map(link => {
+          const comparison = resolveEventComparisonRoute(eventComparisonRoute(link.comparisonId))?.document;
+          if (!comparison) return null;
+          return <div className="timeline-event-comparisons" key={link.comparisonId} data-comparison-link={link.comparisonId}>
+          <span>{comparison.title} · 史料对读</span>{link.stageIds.map(id => {
+            const target = eventComparisonRoute(link.comparisonId, id, route);
+            const stage = comparison.stages.find(stage => stage.id === id);
+            return stage ? <button type="button" key={id} onClick={() => go(target)} aria-label={`${comparison.title}史料对读：${stage.title}`}>{stage.title}<ArrowRight size={15} aria-hidden="true" /></button> : null;
+          })}
+        </div>; })}
       </article>)}</div></div>)}</section>)}</div>
     </div>}
     {page?.events.length === 0 && <div className="timeline-empty"><h2>当前暂无可展示的事件</h2><p>可以继续查阅人物的原文与译文记载。</p><button className="text-link" type="button" onClick={() => go(personSourcesRoute(person.id))}>查看文献记载 <ArrowRight size={17} /></button></div>}

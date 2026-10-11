@@ -42,7 +42,7 @@ export async function readEventComparison({ document, apiBase, archiveBase, sign
       let response: Response | undefined;
       try {
         response = await fetcher(`${apiBase.trim().replace(/\/$/, '')}/api/chapters/${encodeURIComponent(chapterId)}`, {
-          signal: AbortSignal.any([signal, AbortSignal.timeout(6000)]), credentials: 'omit',
+          signal: AbortSignal.any([signal, AbortSignal.timeout(20000)]), credentials: 'omit',
         });
       } catch {
         signal.throwIfAborted();

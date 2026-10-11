@@ -64,8 +64,11 @@ export function preferredChapterForPerson(bookId: BookId, personId: string): Cha
 }
 
 export function resolveReadingRoute(route: string): { book: Book; chapter: ChapterSummary; search: PassageSearchOptions; focusParagraphId?: string; returnTo?: Route } | null {
+  if (route.length > 8192 || route.split('?').length > 2) return null;
   const [path = '', query] = route.split('?', 2);
   const parameters = new URLSearchParams(query);
+  if ([...parameters.keys()].some(key => !['q', 'field', 'paragraph', 'return'].includes(key))
+    || ['q', 'field', 'paragraph', 'return'].some(key => parameters.getAll(key).length > 1)) return null;
   for (const book of libraryBooks) {
     const prefix = `read-${book.id}`;
     const chapterId = path === prefix ? book.defaultChapter : path.startsWith(`${prefix}/`) ? path.slice(prefix.length + 1) : null;
@@ -79,7 +82,7 @@ export function resolveReadingRoute(route: string): { book: Book; chapter: Chapt
       const comparisonReturn = returnRoute ? resolveEventComparisonRoute(returnRoute) : null;
       try {
         return { book, chapter, search: searchOptions(parameters), focusParagraphId: paragraph && new RegExp(`^${chapter.id}-p[1-9][0-9]*$`).test(paragraph) ? paragraph : undefined,
-          returnTo: resolvedReturn ? personSourcesRoute(resolvedReturn.person.id, resolvedReturn.book?.id, resolvedReturn.search) : ownerReturn ? ownerReviewRoute(ownerReturn) : timelineReturn ? personTimelineRoute(timelineReturn.person.id, timelineReturn.eventId) : comparisonReturn ? eventComparisonRoute(comparisonReturn.document.id, comparisonReturn.stageId) : undefined };
+          returnTo: resolvedReturn ? personSourcesRoute(resolvedReturn.person.id, resolvedReturn.book?.id, resolvedReturn.search) : ownerReturn ? ownerReviewRoute(ownerReturn) : timelineReturn ? personTimelineRoute(timelineReturn.person.id, timelineReturn.eventId, timelineReturn.returnTo) : comparisonReturn ? eventComparisonRoute(comparisonReturn.document.id, comparisonReturn.stageId, comparisonReturn.returnTo) : undefined };
       } catch { return null; }
     }
   }

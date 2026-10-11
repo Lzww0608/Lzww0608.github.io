@@ -4,12 +4,13 @@ import { parsePersonTimelineDocument, parsePersonTimelineResponse, resolveTimeli
 import type { PersonTimelineEvent, PersonTimelineResponse, ResolvedTimelineEvidence, TimelineEvidence } from './person-timeline-schema.ts';
 import type { ChapterResponse } from './types.ts';
 
-export async function readPersonTimeline({ personId, apiBase, archiveBase, signal, onArchive, fetcher = fetch }: {
+export async function readPersonTimeline({ personId, apiBase, archiveBase, signal, onArchive, eventIds, fetcher = fetch }: {
   personId: string;
   apiBase: string;
   archiveBase: string;
   signal: AbortSignal;
   onArchive?: (page: PersonTimelineResponse) => void;
+  eventIds?: readonly string[];
   fetcher?: typeof fetch;
 }): Promise<{ page: PersonTimelineResponse; source: 'api' | 'archive' }> {
   if (!/^[a-z0-9-]+$/.test(personId)) throw new Error('Unknown timeline person');
@@ -23,7 +24,8 @@ export async function readPersonTimeline({ personId, apiBase, archiveBase, signa
       return await response.json() as unknown;
     }
     const document = parsePersonTimelineDocument(await request(`${archiveBase}history/person-timelines/${encodeURIComponent(personId)}.json`), personId);
-    const chapterIds = [...new Set(document.events.flatMap(event => [...event.evidence, ...(event.variants?.flatMap(variant => variant.evidence) ?? [])]).map(item => item.chapterId))];
+    const selectedEvents = eventIds ? document.events.filter(event => eventIds.includes(event.id)) : document.events;
+    const chapterIds = [...new Set(selectedEvents.flatMap(event => [...event.evidence, ...(event.variants?.flatMap(variant => variant.evidence) ?? [])]).map(item => item.chapterId))];
     const chapters = new Map<string, ChapterResponse>();
     let cursor = 0;
     await Promise.all(Array.from({ length: Math.min(6, chapterIds.length) }, async () => {
@@ -43,7 +45,7 @@ export async function readPersonTimeline({ personId, apiBase, archiveBase, signa
     }
     let unavailableCount = 0;
     const events: PersonTimelineEvent<ResolvedTimelineEvidence>[] = [];
-    for (const event of document.events) {
+    for (const event of selectedEvents) {
       signal.throwIfAborted();
       try {
         const evidence = await resolveList(event.evidence);
@@ -63,14 +65,15 @@ export async function readPersonTimeline({ personId, apiBase, archiveBase, signa
   })();
   const liveRead = apiBase ? (async () => {
     const response = await fetcher(`${apiBase.replace(/\/$/, '')}/api/people/${encodeURIComponent(personId)}/timeline`, {
-      signal: AbortSignal.any([signal, AbortSignal.timeout(6000)]), credentials: 'omit',
+      signal: AbortSignal.any([signal, AbortSignal.timeout(20000)]), credentials: 'omit',
     });
     // A responding API is authoritative. Error/unknown responses and invalid
     // successful JSON must never revive a previously deployed event.
     apiResponded = true;
     authoritativeFailure = true;
     if (!response.ok) throw new Error('Current timeline unavailable');
-    const page = await parsePersonTimelineResponse(await response.json(), personId);
+    const completePage = await parsePersonTimelineResponse(await response.json(), personId);
+    const page = eventIds ? { ...completePage, events: completePage.events.filter(event => eventIds.includes(event.id)) } : completePage;
     authoritativeFailure = false;
     return page;
   })() : Promise.reject(new Error('API not configured'));
