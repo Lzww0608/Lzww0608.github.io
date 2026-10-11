@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yang-yanwen",
+  "events": [
+    {
+      "id": "yang-yanwen-hezhong-revolt",
+      "title": "趁李从珂阅马，据河中叛",
+      "summary": "李从珂出黄龙庄阅马，杨彦温据城拒之，自称奉枢密院宣头而行；原书记为其答辞，不直接证明安重诲授权。",
+      "year": 930,
+      "sortOrder": 0,
+      "precision": "month",
+      "sourceDate": "长兴元年四月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p10",
+          "originalRevision": 1,
+          "originalSha256": "cec013b86b459e0387511e3fd47f1c2361e76ed110751d0250c1cfd4b4193de5",
+          "excerpt": "長興元年四月，乘末帝閱馬於黃龍莊，據城謀叛。"
+        }
+      ]
+    },
+    {
+      "id": "yang-yanwen-jiangzhou-appointment",
+      "title": "明宗欲息事，拟授绛州刺史",
+      "summary": "李从珂受诏回朝，明宗疑叛事有诈、不愿出兵，授杨彦温绛州刺史；安重诲仍坚持讨伐。",
+      "year": 930,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "长兴元年四月军乱后",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p10",
+          "originalRevision": 1,
+          "originalSha256": "cec013b86b459e0387511e3fd47f1c2361e76ed110751d0250c1cfd4b4193de5",
+          "excerpt": "明宗疑其詐，不欲興兵，授彥溫絳州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "yang-yanwen-death",
+      "title": "河中失陷遭杀，未按帝命生擒",
+      "summary": "索自通、药彦稠五日攻破城；从闭门至败共十三日。明宗本令生擒审问，将领却送其首级，皇帝震怒。",
+      "year": 930,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "长兴元年四月军乱后十三日间",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p10",
+          "originalRevision": 1,
+          "originalSha256": "cec013b86b459e0387511e3fd47f1c2361e76ed110751d0250c1cfd4b4193de5",
+          "excerpt": "及收城，斬首傳送，明宗深怒彥稠等。"
+        }
+      ]
+    },
+    {
+      "id": "yang-yanwen-early-service",
+      "title": "由梁小校入唐，受河中主将优待",
+      "summary": "原梁小校，庄宗朝升副将，天成中为河中副指挥；李从珂镇河中后奏任衙内都指挥。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "庄宗朝、天成中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p10",
+          "originalRevision": 1,
+          "originalSha256": "cec013b86b459e0387511e3fd47f1c2361e76ed110751d0250c1cfd4b4193de5",
+          "excerpt": "天成中，為河中副指揮使，及末帝鎮河中，尤善待之，因奏為衙內都指揮使。"
+        }
+      ]
+    }
+  ]
+}

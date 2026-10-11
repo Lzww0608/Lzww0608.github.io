@@ -5,7 +5,7 @@ import { loadLibrary, libraryRoot } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { loadPersonPassageIndex, buildPersonPassageSummary } from '../../content/person-passages.mjs';
 import { loadPublishedSentenceTranslations } from '../../content/sentence-translations.mjs';
-import { loadPersonTimelines, buildTimelineSummary } from '../../content/person-timelines.mjs';
+import { loadPersonTimelines, buildTimelineSummary, validateTimelineCoverage } from '../../content/person-timelines.mjs';
 import { writeFileSync } from 'node:fs';
 
 const library = loadLibrary();
@@ -15,6 +15,7 @@ execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-senten
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-person-passages.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 const passages = loadPersonPassageIndex(library);
 const timelines = loadPersonTimelines(library);
+validateTimelineCoverage(timelines);
 execFileSync('python3', [fileURLToPath(new URL('../../scripts/index-reading-headings.py', import.meta.url))], { stdio: 'inherit' });
 const target = new URL('../public/history/', import.meta.url);
 rmSync(target, { recursive: true, force: true });

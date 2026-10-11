@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yuan-xingqin",
+  "events": [
+    {
+      "id": "yuan-xingqin-wuning",
+      "title": "平梁后授武宁军节度",
+      "summary": "李存勖平梁后授元行钦武宁军节度使，受宠居众将之上。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "庄宗平梁后；本纪同光元年十一月李绍荣任徐州（武宁军）",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p1",
+          "originalRevision": 1,
+          "originalSha256": "872212478bb2b9efb82e1652e4303cdb4186fc019c837052ab2fae8860952199",
+          "excerpt": "及莊宗平梁，授武寧軍節度使。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p14",
+          "originalRevision": 1,
+          "originalSha256": "e6303b6b5acdc01ba3e15da0ea0c2b27f7a982b064e2275a2b8133661416f8ce",
+          "excerpt": "十一月辛丑朔，有司奏：「河南州縣見使偽印，望追毀改鑄。」從之。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p14",
+          "originalRevision": 1,
+          "originalSha256": "e6303b6b5acdc01ba3e15da0ea0c2b27f7a982b064e2275a2b8133661416f8ce",
+          "excerpt": "以雜指揮散員都部署、特進、檢校太傅、忻州刺史李紹榮為徐州節度使；"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-attack-ye",
+      "title": "任邺都招抚，攻魏州不克",
+      "summary": "赵在礼入魏州后受命率二千人讨伐，招抚未成，增兵攻城仍未克。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "同光四年，魏州军乱后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p38",
+          "originalRevision": 1,
+          "originalSha256": "91007f664b0980770efc23b8bf05602330fe48ad3be6b7e0f2ed8117da29d786",
+          "excerpt": "乃以為鄴都行營招撫使，將二千人討之。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-retreat-wei",
+      "title": "拒绝会剿乱军，退卫州并诬报",
+      "summary": "李嗣源被魏州兵变挟持后，遣张虔钊约同讨乱军，元行钦不从，退卫州并报李嗣源反；阻双方奏报交通。",
+      "year": 926,
+      "sortOrder": 3,
+      "precision": "day",
+      "sourceDate": "同光四年三月八日夜兵变及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p2",
+          "originalRevision": 1,
+          "originalSha256": "276127dcdc135593407d87b3d6f9b224dc1b2fc671e9814a18f15b23b71df575",
+          "excerpt": "自知失策，且保衛州，因誣奏明宗曰：「鎮師已入賊軍，終不為國使。」"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-kill-congjing",
+      "title": "阻李从璟通父，并将其杀害",
+      "summary": "庄宗遣李从璟与父李嗣源通问，元行钦先扣押，后再阻使时将其杀死。",
+      "year": 926,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "同光四年，庄宗出兵成皋、荥泽期间",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p40",
+          "originalRevision": 1,
+          "originalSha256": "c824b8771209eefae224e5694fc17611f6f48d8abb9eed9379f91bb18951ecd1",
+          "excerpt": "莊宗復遣從璟通問于明宗，行欽以為不可，因擊殺從璟。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-death-luoyang",
+      "title": "逃至平陆被执，洛阳斩首",
+      "summary": "庄宗死后逃出洛阳，在平陆被执；明宗剥夺官爵后将其斩于洛阳。折足施事两书不同，旧史记县令裴进，新史记虢州刺史石潭。",
+      "year": 926,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "同光四年四月四日至明宗即位后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p2",
+          "originalRevision": 1,
+          "originalSha256": "276127dcdc135593407d87b3d6f9b224dc1b2fc671e9814a18f15b23b71df575",
+          "excerpt": "四日，至平陸縣界，為百姓所擒，縣令裴進折其足，檻車以獻。明宗即位，詔削奪行欽在位官爵，斬於洛陽。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史所记拘执经过",
+          "sourceDate": "庄宗崩后",
+          "year": 926,
+          "summary": "记平陆野人擒后送虢州，由石潭折两足，送洛阳。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p42",
+              "originalRevision": 1,
+              "originalSha256": "9186bf3b3aa657323b6ba1e9020fd02768297c0d0d04c7b2c5856faf3ac48052",
+              "excerpt": "行至平陸，為野人所執，送虢州，刺史石潭折其兩足，載以檻車，送京師。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-surrender-adoption",
+      "title": "山北战败归降，为李嗣源养子",
+      "summary": "在山北募兵接应契丹时，被李嗣源击败而归降，因勇武被收为养子。旧史记箭及明宗马鞍；新史另记八战、七射与股伤，分别保留，不合成统一伤数。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "晋沿用天祐九年山北战降、收为假子，未记日月；未记可核的具体月日，西历范围912—913年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p1",
+          "originalRevision": 1,
+          "originalSha256": "872212478bb2b9efb82e1652e4303cdb4186fc019c837052ab2fae8860952199",
+          "excerpt": "天祐九年，周德威攻圍山州，守光困蹙，令行欽於山北募兵，以應契丹。時明宗為將，攻行欽於山北，與之接戰，矢及明宗馬鞍，既而以勢迫來降。明宗憐其有勇，奏隸為假子，後因從征討，恩禮特隆。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "《新史》的八战七射与股伤",
+          "sourceDate": "晋攻幽州、李嗣源掠山北时",
+          "summary": "新史记两人八战，李嗣源七次射中元行钦，元又射中嗣源大腿；旧史此处只记箭及嗣源马鞍。归降与收养两书均有记述。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p36",
+              "originalRevision": 1,
+              "originalSha256": "3365cff7be0b8d1eed4ec50810af562e4b56c309a83db4493ab3dd8ef6c5e174",
+              "excerpt": "其後晉攻幽州，守光使行欽募兵雲、朔間。是時明宗掠地山北，與行欽相拒廣邊軍，凡八戰，明宗七射中行欽，行欽拔矢而戰，亦射明宗中股。行欽屢敗，乃降。明宗撫其背而飲以酒曰：「壯士也！」因養以為子。常從明宗戰，數立功。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      }
+    },
+    {
+      "id": "yuan-xingqin-marriage",
+      "title": "刘后将宫人嫁给元行钦",
+      "summary": "妻亡后刘皇后将庄宗曾宠爱的宫人赐他为妻，庄宗不快但无可挽回。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "同光三年；未记可核的具体月日，西历范围925—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p2",
+          "originalRevision": 1,
+          "originalSha256": "276127dcdc135593407d87b3d6f9b224dc1b2fc671e9814a18f15b23b71df575",
+          "excerpt": "三年，行欽喪婦。莊宗有所愛宮人生皇子者，劉皇后心忌之，會行欽入侍，莊宗勞之曰：「紹榮喪婦復娶耶！吾給爾婚財。」皇后指所忌宮人謂莊宗曰：「皇帝憐紹榮，可使為婦。」莊宗難違所請，微許之。皇后即命紹榮謝之，未退，肩輿已出。莊宗心不懌，佯不豫者累日，業已遣去，無如之何。"
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
+    },
+    {
+      "id": "yuan-xingqin-early-yan",
+      "title": "原为刘守光将，参与其夺父位",
+      "summary": "在幽州事刘守光，奉命攻刘仁恭及杀刘守光诸兄弟，后才归晋。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "刘守光夺父位时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p36",
+          "originalRevision": 1,
+          "originalSha256": "3365cff7be0b8d1eed4ec50810af562e4b56c309a83db4493ab3dd8ef6c5e174",
+          "excerpt": "守光篡其父仁恭，使行欽以兵攻仁恭於大安山而因之，又使行欽害諸兄弟。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-name-shaorong",
+      "title": "庄宗选入亲卫，赐名李绍荣",
+      "summary": "李存勖取得魏地后选为散员都部署，赐姓名李绍荣；与李嗣源的养子关系及此次赐名为不同事实。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "庄宗已下魏后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p36",
+          "originalRevision": 1,
+          "originalSha256": "3365cff7be0b8d1eed4ec50810af562e4b56c309a83db4493ab3dd8ef6c5e174",
+          "excerpt": "莊宗已下魏，益選驍將自衞，聞行欽驍勇，取之為散員都部署，賜姓名曰李紹榮。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-save-panzhang",
+      "title": "潘张败战中独骑救庄宗",
+      "summary": "庄宗被梁骑围攻，元行钦辨旗独骑赴救，斩断敌矛并杀敌，使其脱围，获格外宠信。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "潘张之战，原传未单记年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p37",
+          "originalRevision": 1,
+          "originalSha256": "ff2647496f2de4c927fb90b5a9956e53fc369ed089b6cd59036e3a85ae1e7449",
+          "excerpt": "行欽望其旗而識之，馳一騎，奮劍斷其二矛，斬首一級，梁兵解去。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xingqin-pingzhang",
+      "title": "内殿宴后获加同平章事",
+      "summary": "因无使相衔未能入内殿宴，庄宗为此停宴，次日授同中书门下平章事。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "平梁后内殿宴，确年未记",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p37",
+          "originalRevision": 1,
+          "originalSha256": "ff2647496f2de4c927fb90b5a9956e53fc369ed089b6cd59036e3a85ae1e7449",
+          "excerpt": "明日，即拜行欽同中書門下平章事。"
+        }
+      ]
+    }
+  ]
+}

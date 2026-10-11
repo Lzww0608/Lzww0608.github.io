@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "guo-congqian",
+  "events": [
+    {
+      "id": "guo-congqian-after-guos-death",
+      "title": "郭崇韬存乂被杀后，宴校煽动不安",
+      "summary": "以私财宴从马直军校，哭说郭崇韬冤，受庄宗戏言后向诸校谎称将被坑杀，亲军因而不安。",
+      "year": 926,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "同光四年王温军乱之后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p56",
+          "originalRevision": 1,
+          "originalSha256": "62c8e400bd6e9963198d53cbea9cc40410da1505a00f587334555f140b209d28",
+          "excerpt": "由是親軍皆不自安。"
+        }
+      ]
+    },
+    {
+      "id": "guo-congqian-xingjiao-mutiny",
+      "title": "率从马直攻兴教门，庄宗中箭卒",
+      "summary": "率本部与黄甲军攻击兴教门，被帝反击后焚门攀城，庄宗力战中流矢而死。旧史记四月丁丑朔，《通鉴》与新史记丁亥朔，干支差别不改。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "旧五代史同光四年四月丁丑朔",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p13",
+          "originalRevision": 1,
+          "originalSha256": "5d1f329fdc4a977b29145bebb6256f9eaf80d98ae61422c08c79918f1f865ec2",
+          "excerpt": "從馬直指揮使郭從謙自本營率所部抽戈露刃，至興教門大呼，與黃甲兩軍引弓射興教門。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "资治通鉴记日",
+          "sourceDate": "同光四年四月丁亥朔",
+          "year": 926,
+          "summary": "同述兴教门军变，但朔日干支为丁亥。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v275",
+              "paragraphId": "tongjian-v275-p4",
+              "originalRevision": 1,
+              "originalSha256": "dba672b1640a11d37bbcce5bb221202fec0c452d889fe7b07303775baeb9a72c",
+              "excerpt": "夏，四月，丁亥朔，嚴辦將發，騎兵陳於宣仁門外，步兵陳於五鳳門外。"
+            }
+          ]
+        },
+        {
+          "label": "新史庄宗崩日",
+          "year": 926,
+          "sourceDate": "同光四年四月丁亥朔",
+          "summary": "新史记丁亥朔，与旧史丁丑朔不同，与通鉴丁亥相合。",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p15",
+              "originalRevision": 1,
+              "originalSha256": "5c76439648e8a29d3d2c17098ff4c292dfe03be4aaad9aa66adc89dbb6d8256c",
+              "excerpt": "夏四月丁亥朔，皇帝崩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guo-congqian-jingzhou",
+      "title": "明宗授景州刺史",
+      "summary": "天成二年二月任景州刺史；任命与其后处死分别列出。",
+      "year": 927,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "天成二年二月丙申",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p5",
+          "originalRevision": 1,
+          "originalSha256": "4e727ecaf103df9d04a15b548fbe781ce88b35de09f1e0cf02789bab3edaa765",
+          "excerpt": "丙申，以從馬直指揮使郭從謙為景州刺史，"
+        }
+      ]
+    },
+    {
+      "id": "guo-congqian-death",
+      "title": "到景州后遭族诛",
+      "summary": "到任后明宗遣使诛杀并夷族，以其首谋杀庄宗。",
+      "year": 927,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天成二年二月任官后，杀日月未独记",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p84",
+          "originalRevision": 1,
+          "originalSha256": "3207ed4b628660197d201b5da7560e5d885070c99aab58721de64b5ee3b5d6c2",
+          "excerpt": "丙申，以從馬直指揮使郭從謙為景州刺史，既至，遣使族誅之。"
+        }
+      ],
+      "notes": [
+        "本纪丙申指任官日期，不将随后诛杀强定当日。"
+      ]
+    },
+    {
+      "id": "guo-congqian-actor-soldier",
+      "title": "从优人应募挑战，升从马直",
+      "summary": "原为演员，优名郭门高，河上募勇时应募杀获归，因此受宠；逐升从马直指挥使。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "梁晋得胜对垒期间",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p56",
+          "originalRevision": 1,
+          "originalSha256": "62c8e400bd6e9963198d53cbea9cc40410da1505a00f587334555f140b209d28",
+          "excerpt": "從馬直指揮使郭從謙，本優人也，優名郭門高。"
+        }
+      ]
+    },
+    {
+      "id": "guo-congqian-adoption-patron",
+      "title": "以叔礼事郭崇韬，被存乂收为假子",
+      "summary": "郭崇韬用事时认其为叔父，以叔礼相事；睦王存乂又收他为养子，不混成郭崇韬之子。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "郭崇韬用事时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p56",
+          "originalRevision": 1,
+          "originalSha256": "62c8e400bd6e9963198d53cbea9cc40410da1505a00f587334555f140b209d28",
+          "excerpt": "郭崇韜方用事，從謙以叔父事之，睦王存乂以從謙為假子。"
+        }
+      ]
+    }
+  ]
+}

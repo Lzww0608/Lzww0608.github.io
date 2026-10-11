@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-xun",
+  "events": [
+    {
+      "id": "liu-xun-yanzhou",
+      "title": "由水窦袭取兖州",
+      "summary": "王师范乘朱温西攻凤翔派兵袭州，刘鄩侦知兖州排水洞，以五百步兵夜入取城，并厚待葛从周家属。",
+      "year": 903,
+      "sortOrder": 0,
+      "precision": "month",
+      "sourceDate": "天复三年正月本纪记刘鄩袭兖；旧本传从元年凤翔起因叙",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p3",
+          "originalRevision": 1,
+          "originalSha256": "53fad48ad7630846331566c25a7051c224fe600a42c4c4cb3b42713a4bfd6665",
+          "excerpt": "初，鄩遣細人詐為鬻油者，覘兗城內虛實及出入之所，視羅城下一水竇可以引眾而入，遂誌之。鄩乃告師範，請步兵五百，宵自水竇銜枚而入，一夕而定，軍城晏然，市民無擾。〈（《金華子》云：鄩入據子城，甲兵精銳，城內人皆束手，莫敢旅拒。加以州將悍，人情不附，鄩因而撫治，民皆安堵。）〉太祖命大將葛從周攻之。時從周為節度使，領兵在外，州城為鄩所據，家屬悉在城中。鄩善撫其家，移就外第，供給有禮，升堂拜從周之母。及從周攻城，鄩以板輿請母登城，母告從周曰：「劉將軍待我甚至，不異於兒，新婦已下，並不失所。劉將軍與爾各為其主，爾其察之。」從周歔欷而退。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p9",
+          "originalRevision": 1,
+          "originalSha256": "b9093de058fa3b74bbcc4a9150c20b071ac628735332d2fc26b5cec95dd2a06c",
+          "excerpt": "梁太祖西攻鳳翔，師範乘梁虛，陰遣人分襲梁諸州縣，它遣者謀多漏洩，事不成。獨鄩素好兵書，有機略。是時，梁已破朱瑾等，悉有兗、鄆，以葛從周為兗州節度使，從周將兵在外，鄩乃使人負油鬻城中，悉視城中虛實出入之所。油者得羅城下水竇可入，鄩乃以步兵五百從水竇襲破之，徙從周家屬外第，親拜其母，撫之甚有恩禮。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "三年正月甲寅，岐人啟壁，唐昭宗降使宣問慰勞，兼傳密旨。尋又命翰林學士韓渥、趙國夫人寵顏齎詔押賜帝紫金酒器、禦衣玉帶。丙辰，華州留後李存審遣飛騎來告，青州節度使王師範遣牙將張厚輦甲胄弓槊，詐言來獻，欲盜據州城，事覺，已擒之矣。是日，師範又遣其將劉鄩盜據兗州。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-yanzhou-defence",
+      "title": "厚待葛家、困守时用疑兵稳城",
+      "summary": "刘鄩占兖后厚待葛母家属，守城与少壮共苦；王彦温逃走后，借称已派其出城、擅逃族诛使逃军停止，梁军怀疑而杀彦温。",
+      "year": 903,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天复三年占兖至降梁期间，未独日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "三年正月甲寅，岐人啟壁，唐昭宗降使宣問慰勞，兼傳密旨。尋又命翰林學士韓渥、趙國夫人寵顏齎詔押賜帝紫金酒器、禦衣玉帶。丙辰，華州留後李存審遣飛騎來告，青州節度使王師範遣牙將張厚輦甲胄弓槊，詐言來獻，欲盜據州城，事覺，已擒之矣。是日，師範又遣其將劉鄩盜據兗州。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p10",
+          "originalRevision": 1,
+          "originalSha256": "fac27dea4aca0c4933e2467fc11ff1ebc8a7d3762257aed9457ad1968a71fb04",
+          "excerpt": "太祖已出昭宗于鳳翔，引兵東還，遣朱友寧攻師範、從周攻鄩。鄩以版輿置從周母城上，母呼從周曰：「劉將軍待我甚厚，無異於汝。人臣各為其主，汝可察之！」從周為之緩攻。鄩乃悉簡婦人及民之老疾不足當敵者出之，獨與少壯者同辛苦，分衣食，堅守以待。外援不至，人心頗離，副使王彥溫踰城而奔，守陴者多逸。鄩乃遣人陽語彥溫曰：「副使勿多以人出，非吾素遣者，皆勿以行。」又下令城中曰：「吾遣從副使者得出，否者皆族。」城中皆惑，奔者乃止。已而梁兵聞之，果疑彥溫非實降者，斬之城下，由是城守益堅。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-join",
+      "title": "随王师范归降，朱温任都押牙",
+      "summary": "葛从周围兖，刘鄩坚持待王师范归降才交城；其主降后素服骑驴赴朱温，获元从都押牙，后鄜州留后另列。",
+      "year": 903,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天复三年十一月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p3",
+          "originalRevision": 1,
+          "originalSha256": "53fad48ad7630846331566c25a7051c224fe600a42c4c4cb3b42713a4bfd6665",
+          "excerpt": "俟青州本使歸降，即以城池還納。」天復三年十一月，師範告降，且言先差行軍司馬劉鄩領兵入兗州，請釋其罪，亦以告鄩，鄩即出城聽命。太祖嘉其節概，以為有李英公之風。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "鄩既降，從周具行裝服馬，請鄩歸大梁。鄩曰：「未受梁王舍釋之旨，乘肥衣裘，非敢聞命。」即素服跨驢而發。及將謁見，太祖令賜冠帶，鄩曰：「累囚負罪，請就縶而入。 」太祖不許。及見，慰撫移時，且飲之酒，鄩以量小告太祖。太祖曰：「取兗州，量何大耶！」旋授元從都押牙。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-guards",
+      "title": "领金吾军职、元帅府都押牙",
+      "summary": "刘鄩天祐二年二月授右金吾卫大将军、街使；次年元帅府职另列。",
+      "year": 905,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天祐二年二月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "天祐二年二月，授右金吾衛大將軍，充街使。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-marshal-office",
+      "title": "任元帅府都押牙，仍执金吾",
+      "summary": "天祐三年正月朱温领元帅职，刘鄩任府都押牙，同时保留金吾军职；不并为905一次任命。",
+      "year": 906,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "天祐三年正月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "三年正月，太祖授元帥之任，以鄩為元帥府都押牙，執金吾如故。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-lu-command",
+      "title": "受金吾上将，征潞升司徒",
+      "summary": "梁建国后刘鄩授右金吾上将军、诸军马步都指挥；秋与诸将征潞，升检校司徒。",
+      "year": 907,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "开平元年及其年秋",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "開平元年，授右金吾上將軍，充諸軍馬步都指揮使。其年秋，與諸將征潞州，遷檢校司徒。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-changan",
+      "title": "收复长安，任永平节度使",
+      "summary": "刘知俊反梁占长安，刘鄩夺潼关、擒刘知浣，收复长安，继任两使留后、永平军节度使。",
+      "year": 909,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "开平三年夏",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p5",
+          "originalRevision": 1,
+          "originalSha256": "09f817561590e428d20dfd3fc7ca4f649da18825208eb5d841148849344d7523",
+          "excerpt": "其年夏，同州劉知俊反，引岐人襲據長安，分兵扼河、潼。太祖幸陝，命鄩西討，即奮取潼關，擒知俊弟知浣以獻。遂引兵收復長安，知俊棄郡奔鳳翔。太祖以鄩為佑國、同州軍兩使留後。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "三年二月，轉右威衛上將軍，依前諸軍馬步都虞候。五月，改左龍武統軍，充侍衛親軍馬步軍都指揮使。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p5",
+          "originalRevision": 1,
+          "originalSha256": "09f817561590e428d20dfd3fc7ca4f649da18825208eb5d841148849344d7523",
+          "excerpt": "尋改佑國軍為永平軍，以鄩為節度使、檢校司徒，行大安尹、金州管內觀察使。是時，西鄙未寧，密邇寇境，鄩練兵撫眾，獨當一面。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-bodyguards",
+      "title": "转右威卫，再任左龙武亲军指挥",
+      "summary": "开平三年刘鄩先转右威卫上将军与马步都虞候，五月任左龙武统军、侍卫亲军马步指挥；与当夏西讨不同任务。",
+      "year": 909,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "开平三年二月、五月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "三年二月，轉右威衛上將軍，依前諸軍馬步都虞候。五月，改左龍武統軍，充侍衛親軍馬步軍都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-mourning-recall",
+      "title": "母丧起复，续任军职",
+      "summary": "刘鄩乾化三年正月母丧，朱友珪命起复处理军务；此前四年加太保平章、友珪篡位加太傅按原书背景述明。",
+      "year": 913,
+      "sortOrder": 8,
+      "precision": "year",
+      "sourceDate": "乾化三年正月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p5",
+          "originalRevision": 1,
+          "originalSha256": "09f817561590e428d20dfd3fc7ca4f649da18825208eb5d841148849344d7523",
+          "excerpt": "四年，加檢校太保、同平章事。庶人友珪篡位，加檢校太傅。乾化三年正月，丁內艱，友珪命起復視事。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-capital",
+      "title": "梁末帝召归，领开封尹",
+      "summary": "朱友贞即位后重用刘鄩，次年夏召回为开封尹、遥领镇南，随后与杨师厚抵御河朔晋军。",
+      "year": 914,
+      "sortOrder": 9,
+      "precision": "year",
+      "sourceDate": "末帝即位明年夏",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p5",
+          "originalRevision": 1,
+          "originalSha256": "09f817561590e428d20dfd3fc7ca4f649da18825208eb5d841148849344d7523",
+          "excerpt": "未帝即位，尤深倚重。明年夏，詔鄩歸闕，授開封尹，遙領鎮南軍節度使。旋屬晉人寇河朔，鄩奉詔與魏節度使楊師厚禦之而退。"
+        }
+      ],
+      "notes": [
+        "原文“未帝”底本照录，摘要按所指梁末帝解释。"
+      ],
+      "variants": [
+        {
+          "label": "新史开封任职时间",
+          "sourceDate": "梁末帝即位后",
+          "summary": "旧史明年夏914召归开封，新史从末帝即位913起叙，不把两书任官时序合为一个确日。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p12",
+              "originalRevision": 1,
+              "originalSha256": "7ac1eeb9986180505c15aa93a08d9f5745a1480c52700c041bc189e624ca2c7b",
+              "excerpt": "末帝即位，領鎮南軍節度使，為開封尹。"
+            }
+          ],
+          "year": 913
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-xu-start",
+      "title": "与牛存节出征徐州，败吴援",
+      "summary": "蒋殷拒绝被朱友璋替代而叛，刘鄩与牛存节领军进讨，击破朱瑾的吴援；次春破城另列。",
+      "year": 914,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "梁末帝即位明年夏后，九月出征",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p5",
+          "originalRevision": 1,
+          "originalSha256": "09f817561590e428d20dfd3fc7ca4f649da18825208eb5d841148849344d7523",
+          "excerpt": "未帝即位，尤深倚重。明年夏，詔鄩歸闕，授開封尹，遙領鎮南軍節度使。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p6",
+          "originalRevision": 1,
+          "originalSha256": "f954e6038f505f3be13c68dc0b43a6ed450ccd55e2380d65b6aa8f23305ade89",
+          "excerpt": "九月，徐州節度使蔣殷據城叛。時朝廷以福王友璋鎮徐方，殷不受代，末帝遣鄩與鄆帥牛存節率兵攻之。殷求援於淮夷，偽吳楊溥遣大將朱瑾領眾赴援，鄩逆擊破之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-xuzhou",
+      "title": "徐州城破，蒋殷举族自焚",
+      "summary": "前一年征徐后，贞明元年春城破，蒋殷全家自焚，刘鄩所部取尸献首并获加太尉；出征与破城分开。",
+      "year": 915,
+      "sortOrder": 11,
+      "precision": "year",
+      "sourceDate": "贞明元年春；出师为前一九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p6",
+          "originalRevision": 1,
+          "originalSha256": "f954e6038f505f3be13c68dc0b43a6ed450ccd55e2380d65b6aa8f23305ade89",
+          "excerpt": "貞明元年春，城陷，殷舉族自燔，於火中得其屍，梟首以獻，詔加檢校太尉。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-weibo",
+      "title": "魏博变乱后设伏，谋袭太原",
+      "summary": "魏博兵变归晋，刘鄩屯魏县设伏困李存勖；又用草人驴驮旗隐瞒出军，西袭太原，但乐平连雨而回，转军莘县。",
+      "year": 915,
+      "sortOrder": 12,
+      "precision": "year",
+      "sourceDate": "贞明元年六月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p7",
+          "originalRevision": 1,
+          "originalSha256": "569b87774a2e04e561da480201ae454e85ccb20be9477d8827835669b89e9fc3",
+          "excerpt": "三月，魏楊師厚卒，朝廷分相、魏為兩鎮，遣鄩率大軍屯南樂，以討王鎔為名。既而魏軍果亂，囚節度使賀德倫，送款於太原。六月，晉王入魏州，鄩以精兵萬人自洹水移軍魏縣，晉王來覘，鄩設伏於河曲叢木間，俟晉王至，大噪而進，圍之數匝，殺獲甚眾，晉王僅以身免。是月，鄩潛師由黃澤西趨太原，將行，慮為晉軍所追，乃結芻為人，縛旗於上，以驢負之，循堞而行，數日，晉人方覺。軍至樂平，會霖雨積旬，師不克進，鄩即整眾而旋。魏之臨清，積粟之所，鄩引軍將據之，遇晉將周陽五自幽州率兵至，鄩乃取貝州，與晉軍遇於堂邑，鄩邀擊卻之，追北五十餘里，遂軍於莘縣。增城壘，浚池隍，自莘及河，築甬道以通餉路。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p6",
+          "originalRevision": 1,
+          "originalSha256": "f954e6038f505f3be13c68dc0b43a6ed450ccd55e2380d65b6aa8f23305ade89",
+          "excerpt": "貞明元年春，城陷，殷舉族自燔，於火中得其屍，梟首以獻，詔加檢校太尉。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-strategy",
+      "title": "拒速战，修甬道与晋军相持",
+      "summary": "刘鄩在莘县营垒运粮，认为晋骑兵锐利，不宜轻动；梁末帝责问并遣监军督战，他以粮米、黄河水设喻劝诸将持重。",
+      "year": 915,
+      "sortOrder": 13,
+      "precision": "year",
+      "sourceDate": "贞明元年八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p6",
+          "originalRevision": 1,
+          "originalSha256": "f954e6038f505f3be13c68dc0b43a6ed450ccd55e2380d65b6aa8f23305ade89",
+          "excerpt": "貞明元年春，城陷，殷舉族自燔，於火中得其屍，梟首以獻，詔加檢校太尉。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p8",
+          "originalRevision": 1,
+          "originalSha256": "190fddb180500dfb4676ba70d58a4fae59edb8e8fd6675a85967b3dd670f230f",
+          "excerpt": "八月，末帝賜鄩詔曰：「閫外之事，全付將軍。河朔諸州，一旦淪沒，勞師弊旅，患難日滋，退保河壖，久無鬥志。昨東面諸侯，奏章來上，皆言倉儲已竭，飛挽不充，於役之人，每遭擒擄，夙宵軫念，惕懼盈懷。將軍與國同休，當思良畫，如聞寇敵兵數不多，宜設機權，以時翦撲，則予之負荷，無累先人。」鄩奏曰：「臣受國深恩，忝茲閫政，敢不枕戈假寐，罄節輸忠。昨者，比欲西取太原，斷其歸路，然後東收鎮、冀，解彼連雞，止於旬時，再清河朔。豈期天方稔亂，國難未平，才出師徒，積旬霖潦，資糧殫竭，軍士劄瘥，切慮蒼黃，乖於統攝，乃詢部伍，皆欲旋歸。凡次舍經行，每張犄角，又欲絕其餉道，且據臨清。才及宗城，周陽五奄至，騎軍馳突，變化如神。臣遂領大軍，保於莘縣。深溝高壘，享士訓兵，日夜戒嚴，伺其進取。偵視營壘，兵數極多。樓煩之人，皆能騎射，最為敵，未可輕謀。臣若苟得機宜，焉敢坐滋患難。臣心體國，天鑒具明。」末帝又遣使問鄩決勝之策，鄩曰：「臣無奇術，但人給糧十斛，盡則破敵。」末帝大怒，讓鄩曰：「將軍蓄米，將療饑耶？將破賊耶？」乃遣中使督戰。鄩集諸校而謀曰：「主上深居宮禁，未曉兵機，與白麵兒共謀，終敗人事。大將出征，君命有所不受，臨機製變，安可預謀。今揣敵人，未可輕動，諸君更籌之。」時諸將皆欲戰，鄩默然。他日，復召諸將列坐軍門，人具河水一器，因命飲之，眾未測其旨，或飲或辭。鄩曰：「一器而難若是，滔滔河流，可勝既乎！」眾皆失色。居數日，鄩率萬餘人薄鎮、定之營。時鄩軍奄至，上下騰亂，殺獲甚眾。少頃，晉軍繼至，乃退。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-guyuancheng",
+      "title": "攻魏州失算，败走滑州",
+      "summary": "刘鄩由莘县袭魏，在故元城遭李存勖、符存审夹击大败，南渡黄河保滑州，随后领义成军。",
+      "year": 916,
+      "sortOrder": 14,
+      "precision": "year",
+      "sourceDate": "贞明二年三月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p9",
+          "originalRevision": 1,
+          "originalSha256": "ae46aea88ff355314ab0901cd0890a075f472b48662c4896d2057c546c22d55b",
+          "excerpt": "二年三月，鄩自莘引軍襲魏州，與晉王戰於故元城，王師敗績，鄩脫身南奔，自黎陽濟河至滑州。尋授滑州節度使，詔屯黎陽。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p15",
+          "originalRevision": 1,
+          "originalSha256": "2d88572b4aac0dd85d8f9defbb5ac5ce800e3822d2e25fa4ec55bae65735c1b6",
+          "excerpt": "是時，莊宗在魏，數以勁兵壓鄩營，鄩不肯出，而末帝又數促鄩，使出戰。莊宗與諸將謀曰：「劉鄩學六韜，喜以機變用兵，本欲示弱以襲我，今其見迫，必求速戰。」乃聲言歸太原，命符存審守魏，陽為西歸，潛兵貝州。鄩果報末帝曰：「晉王西歸，魏無備，可擊。」乃以兵萬人攻魏城東，莊宗自貝州返趨擊之。鄩忽見晉軍，驚曰：「晉王在此邪！」兵稍却，追至故元城，莊宗與符存審為兩方陣夾之，鄩為圓陣以禦晉人。兵再合，鄩大敗，南奔，自黎陽濟河，保滑州。末帝以為義成軍節度使。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p37",
+          "originalRevision": 1,
+          "originalSha256": "7a710c0209e4343aca604d5b2de2134e45febd050b88fd2a7027fe62b68eeef7",
+          "excerpt": "貞明二年春正月庚申，以皇伯父宋州節度使、開府儀同三司、檢校太師、兼中書令、廣王全昱為守中書令，餘如故。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p39",
+          "originalRevision": 1,
+          "originalSha256": "32ec04ae7ff65bb319f3694a0d5c548513c87780e9ef4a952e0251139db14b6f",
+          "excerpt": "三月，劉鄩率師與晉王大戰於故元城，鄩軍敗績。先是，鄩駐於莘，帝以河朔危急，師老於外，餉饋不充，遣使賜鄩詔，微有責讓。鄩奏以寇勢方盛，未可輕動。帝又問鄩決勝之策，鄩奏曰：「但人給糧十斛，盡則破敵。」帝不悅，復遣促戰。鄩召諸將會議，諸將欲戰，鄩默然。一日，引軍攻鎮定之營，彼眾大駭，上下騰亂，俘斬甚眾。時帝遣偏將楊延直領軍萬餘人屯澶州以應鄩，既而晉王詐言歸太原，劉鄩以為信。是月，召楊延直會於魏城下。鄩自莘率軍亦至，與延直會。既而晉王自貝州至，鄩引軍漸退，至故元城西，與晉人決戰，大為其所敗。追襲至河上，軍士赴水死者甚眾，鄩自黎陽濟河奔滑州。己巳，製以鄩為滑州宣義軍節度副大使，知節度事。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-demotion",
+      "title": "守黎阳后失相位，攻淮南",
+      "summary": "刘鄩在黎阳抵退晋军，回朝再授开封尹及镇南节度；因河朔失守上表避位，九月去平章事、授亳州团练；渡淮后役另列。",
+      "year": 917,
+      "sortOrder": 15,
+      "precision": "year",
+      "sourceDate": "贞明三年二月、九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p9",
+          "originalRevision": 1,
+          "originalSha256": "ae46aea88ff355314ab0901cd0890a075f472b48662c4896d2057c546c22d55b",
+          "excerpt": "三年二月，晉王悉眾來攻黎陽，鄩拒之而退。及鄩歸闕，再授開封尹，領鎮南軍節度使。其年，河朔失守，朝廷歸咎於鄩，鄩亦不自安，上表避位。九月，落平章事，授亳州團練使。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p1",
+          "originalRevision": 1,
+          "originalSha256": "f1654b3bcb8a0dc455799d7e97722b46233de862fd7b4a4edbfc5d8844210dc6",
+          "excerpt": "貞明三年"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-wanjin",
+      "title": "讨张万进，复领泰宁军",
+      "summary": "张万进反梁，刘鄩攻兖州，邢师遇内应后城破、张万进被杀，刘鄩获泰宁军节度使。",
+      "year": 919,
+      "sortOrder": 16,
+      "precision": "month",
+      "sourceDate": "贞明五年，旧本纪十月克兖、十一月授官；旧本传记冬",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p9",
+          "originalRevision": 1,
+          "originalSha256": "ae46aea88ff355314ab0901cd0890a075f472b48662c4896d2057c546c22d55b",
+          "excerpt": "五年，兗州節度使張萬進反，北結晉人為援，末帝遣鄩攻之，鄩為兗州安撫製置使。是冬，萬進危蹙，小將邢師遇潛應王師，遂拔其城，梟萬進首以獻。十一月，製授泰寧軍節度使、檢校太尉、同平章事。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p27",
+          "originalRevision": 1,
+          "originalSha256": "712c64e1eb83139a279bc6a86c6e597c8cc64c6561745239596c44ab3471b405",
+          "excerpt": "貞明五年"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p37",
+          "originalRevision": 1,
+          "originalSha256": "2b3ef356f759e233c9ba561dbaa7be012cd44f97de59a88c6feafea28ff1c49a",
+          "excerpt": "冬十月，晉王復至魏州。是月，劉鄩攻下兗州，擒張守進，夷其族。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p38",
+          "originalRevision": 1,
+          "originalSha256": "65a8a7ed884babbc1e3706c9c85a7c10ba5364d6ecdcceedb3dedea3cc1447f2",
+          "excerpt": "十一月丁丑，以兗州安撫製置使、特進、檢校太傅、大彭郡開國公劉鄩為兗州節度使、開府儀同三司、檢校太尉、同平章事，賞平兗之功也。"
+        }
+      ],
+      "notes": [
+        "旧本传张万进，本纪作张守进，按同役身份并列原文名，不改底本。"
+      ]
+    },
+    {
+      "id": "liu-xun-tongzhou",
+      "title": "攻朱友谦，败于晋援军",
+      "summary": "刘鄩与尹皓攻同州，先写信招朱友谦、停军等待，被尹皓段凝诬为养寇；九月遭李嗣昭等晋援军击败，退保华州。",
+      "year": 920,
+      "sortOrder": 17,
+      "precision": "year",
+      "sourceDate": "贞明六年六月至九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p10",
+          "originalRevision": 1,
+          "originalSha256": "07f3fe948fb6971f937d6480fb9f1893e4b26c902345ca577412ecc0a05ecc5b",
+          "excerpt": "六年六月，授河東道招討使，與華州尹皓攻取同州。先是，河中朱友謙襲取同州，以其子令德為留後，表請旄鉞，末帝怒，命鄩討之。其年九月，晉將李嗣昭率師來援，戰於城下，王師不利，敗兵走河南；橋梁陷，溺死者甚眾，鄩以餘眾退保華州羅文寨。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p10",
+          "originalRevision": 1,
+          "originalSha256": "07f3fe948fb6971f937d6480fb9f1893e4b26c902345ca577412ecc0a05ecc5b",
+          "excerpt": "先是，鄩與河中朱友謙為婚家，及王師西討，行次陝州，鄩遣使齎檄與友謙，諭以禍福大計，誘令歸國，友謙不從，如是停留月餘。尹皓、段凝輩素忌鄩，遂構其罪，言鄩逗留養寇，俾俟援兵，末帝以為然。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-death",
+      "title": "被密令毒杀于洛阳",
+      "summary": "兵败解兵后，刘鄩获准在西都就医，梁末帝密令张宗奭毒杀。通鉴记丁亥卒，旧史记终年六十四。",
+      "year": 921,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "龙德元年五月丁亥",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p49",
+          "originalRevision": 1,
+          "originalSha256": "95bcc3e4ef0ce6dacd4ede309bed55399551c4abfaefdc255c93c1356733ac6d",
+          "excerpt": "五月，丙戌朔，改元。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p50",
+          "originalRevision": 1,
+          "originalSha256": "d2e74e5a353b72bf4b861286abc4534f7a5c7c9d009fe36e40784ec07d799485",
+          "excerpt": "初，劉鄩與朱友謙為婚。鄩之受詔討友謙也，至陝州，先遣使移書，諭以禍福；待之月餘，友謙不從，然後進兵。尹皓、段凝素忌鄩，因譖之於帝曰：「鄩逗遛養寇，俾俟援兵。」帝信之。鄩既敗歸，以疾請解兵柄，詔聽於西都就醫，密令留守張宗奭鴆之，丁亥，卒。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p10",
+          "originalRevision": 1,
+          "originalSha256": "07f3fe948fb6971f937d6480fb9f1893e4b26c902345ca577412ecc0a05ecc5b",
+          "excerpt": "及兵敗，詔歸洛，河南尹張宗奭承朝廷密旨，逼令飲鴆而卒。時年六十四，詔贈中書令。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p38",
+          "originalRevision": 1,
+          "originalSha256": "32204dfb261d2f6c47ee156c99f4b3dc7b39f2bd8c91aac7ccd18a6af159ac25",
+          "excerpt": "均王下龍德元年（辛巳，公元九二一年）"
+        }
+      ],
+      "notes": [
+        "合法历表龙德元年五月丁亥为921年6月10日；旧本传把死接在六年败退之后，未独死年月，保留本传叙次不强920。"
+      ]
+    },
+    {
+      "id": "liu-xun-early",
+      "title": "事王敬武、王师范，平青州内乱",
+      "summary": "刘鄩早事王敬武，王师范继立后奉命斩卢宏（新史作卢洪）、攻张蟾，任马步军副都指挥，后领登淄州职及行军司马。",
+      "year": null,
+      "sortOrder": 19,
+      "precision": "undated",
+      "sourceDate": "中和中至光化初，未标各事确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p2",
+          "originalRevision": 1,
+          "originalSha256": "8de51883c52e9a5a1ca69a9d89513c8977c7d487d3b2c1e0365dbec6b301570c",
+          "excerpt": "唐中和中，事青州節度使王敬武為小校。敬武卒，三軍推其子師範為留後，朝廷命崔安潛鎮青州，州人拒命。棣州刺史張蟾將襲師範，師範遣都指揮使盧宏攻棣州，宏反與蟾通，偽旋軍以襲師範。師範知之，設伏兵以迎宏，既而享之，先誡鄩曰：「宏至即斬之。」鄩如約，斬弧於座上，同亂者皆誅之。師範以鄩為馬步軍副都指揮使，攻下棣州，殺張蟾，朝廷因授師範平盧軍節度使。光化初，師範表鄩為登州刺史。歲餘，移刺淄州，署行軍司馬。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p8",
+          "originalRevision": 1,
+          "originalSha256": "33256c64525c3b098902f7309e8a77a5ac22ee770ef1e41cb076b72692b6e3a6",
+          "excerpt": "劉鄩，密州安丘人也。少事青州王敬武，敬武卒，子師範立，棣州刺史張蟾叛，師範遣指揮使盧洪討蟾，洪亦叛，師範偽為好辭召洪，洪至，迎於郊外，命鄩斬之坐上，因使鄩攻張蟾，破之。師範表鄩登州刺史，以為行軍司馬。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-fuzhou-transfer",
+      "title": "任鄜州留后，后奉命弃郡屯同",
+      "summary": "刘鄩归梁后获鄜州留后，抵御邠岐侵扰；朱温担心地远失将，令他弃郡率军屯同州，不能把退同写作刘鄩叛走。",
+      "year": null,
+      "sortOrder": 20,
+      "precision": "undated",
+      "sourceDate": "903降后至天祐二年金吾前，未独记授职/弃郡年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "未幾，表為鄜州留後。是時，邠、岐之眾，屢寇其境，鄩禦捍備至，太祖以其地遠，慮失鄩，即令棄郡引軍屯於同州。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-huoqiu",
+      "title": "被降亳后奉命渡淮攻霍丘",
+      "summary": "淮军进犯蔡颍亳，刘鄩奉命渡淮，到霍丘大败其军；旧传接在贞明三年降亳之后，未独记此役日期。",
+      "year": null,
+      "sortOrder": 21,
+      "precision": "undated",
+      "sourceDate": "贞明三年九月降官后的接续，未独纪年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p9",
+          "originalRevision": 1,
+          "originalSha256": "ae46aea88ff355314ab0901cd0890a075f472b48662c4896d2057c546c22d55b",
+          "excerpt": "屬淮人寇蔡、潁、亳三郡，鄩奉命渡淮，至霍丘，大殲賊黨。"
+        }
+      ]
+    }
+  ]
+}

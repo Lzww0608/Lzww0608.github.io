@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "guo-chongtao",
+  "events": [
+    {
+      "id": "guo-chongtao-shumi",
+      "title": "庄宗称帝后任枢密使",
+      "summary": "李存勖在魏州即皇位后，郭崇韬加检校太保、守兵部尚书，充枢密使。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "庄宗即位于魏州；本纪同光元年四月同事任枢密",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p4",
+          "originalRevision": 1,
+          "originalSha256": "d17cc63be0ec7bc965fde95dccaf7f459f6dd84b70a3c281274b8da0d286f191",
+          "excerpt": "莊宗即位於魏州，崇韜加檢校太保、守兵部尚書，充樞密使。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p23",
+          "originalRevision": 1,
+          "originalSha256": "a78dd6e6bc4c8e2c8790fe6f9533895cfc7edf5c4f8ec41720e550c78436ac21",
+          "excerpt": "以中門使郭崇韜、昭義監軍使張居翰並為樞密使；"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p22",
+          "originalRevision": 1,
+          "originalSha256": "262ad75985f58f3ef03dbd7f0e6dda48c4d52e6b4122486c4a59359785968ad6",
+          "excerpt": "夏四月己巳，帝升壇，祭告昊天上帝，遂即皇帝位，文武臣僚稱賀。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-bozhou-fort",
+      "title": "博州筑寨保渡口，拒梁攻",
+      "summary": "主动请在博州东岸立寨保护通津，率毛璋等夜往，督众昼夜筑城，梁军来攻时坚拒，使杨刘围解。",
+      "year": 923,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "同光元年；本纪六月己亥议筑、后接戊子拒梁，日序承接有疑，按923年显示",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p4",
+          "originalRevision": 1,
+          "originalSha256": "d17cc63be0ec7bc965fde95dccaf7f459f6dd84b70a3c281274b8da0d286f191",
+          "excerpt": "崇韜率毛璋等萬人夜趨博州，"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p26",
+          "originalRevision": 1,
+          "originalSha256": "9068e68609d026ff6a144557ac064c5566b558c287c35bc87817db2ced56eb61",
+          "excerpt": "六月己亥，帝親禦軍至楊劉，登城望見梁軍，重壕復壘，以絕其路，帝乃選勇士持短兵出戰。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p26",
+          "originalRevision": 1,
+          "originalSha256": "9068e68609d026ff6a144557ac064c5566b558c287c35bc87817db2ced56eb61",
+          "excerpt": "帝善之，即令崇韜與毛璋率數千人中夜往博州濟河東，晝夜督役，居六日，營壘將成。"
+        }
+      ],
+      "notes": [
+        "兵刃光、蛇入裤等为原书叙事附属，不作为年表独立神异事件。",
+        "本纪将六月己亥议筑与后叙戊子拒敌相接，日序有疑；保留底本日期，不强拼成无疑的同月先后。"
+      ],
+      "variants": [
+        {
+          "label": "筑成后敌至的间隔两记不同",
+          "sourceDate": "本传居三日，本纪居六日后接戊子",
+          "summary": "本传记筑寨三日梁军到来，本纪记六日营垒将成后梁攻；分别保留两书所记间隔。",
+          "evidence": [
+            {
+              "chapterId": "old-v057",
+              "paragraphId": "old-v057-p4",
+              "originalRevision": 1,
+              "originalSha256": "d17cc63be0ec7bc965fde95dccaf7f459f6dd84b70a3c281274b8da0d286f191",
+              "excerpt": "居三日，梁軍果至，城壘低庳，沙土散惡，戰具不完，汴將王彥章、杜晏球率眾攻擊，軍不得休息。"
+            },
+            {
+              "chapterId": "old-v029",
+              "paragraphId": "old-v029-p26",
+              "originalRevision": 1,
+              "originalSha256": "9068e68609d026ff6a144557ac064c5566b558c287c35bc87817db2ced56eb61",
+              "excerpt": "居六日，營壘將成。戊子，梁將王彥章、杜晏球領徒數萬，晨壓帝之新壘。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-strike-daliang",
+      "title": "依据康延孝军情，主张直趋大梁",
+      "summary": "反对割河求和，认为应留兵固魏、杨刘，帝亲率军倍道直击无重兵的大梁；当年灭梁谋划由其赞成。",
+      "year": 923,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "同光元年；本纪同事九月直趋汴州策",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p5",
+          "originalRevision": 1,
+          "originalSha256": "ff3515c6edfa876203d4bd661a5fc54b14790eab46111afac9f8e31e23d48616",
+          "excerpt": "是歲，擒王彥章，誅梁氏，降段凝，皆崇韜讚成其謀也。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p29",
+          "originalRevision": 1,
+          "originalSha256": "d9be4ad3a8519a8737a80c21ac4a82c72e158d6cd27f18e7eea0bf04e7539cc8",
+          "excerpt": "九月壬寅朔，帝在朝城，凝兵至臨河南，與帝之騎軍接戰。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p29",
+          "originalRevision": 1,
+          "originalSha256": "d9be4ad3a8519a8737a80c21ac4a82c72e158d6cd27f18e7eea0bf04e7539cc8",
+          "excerpt": "時郭崇韜勸帝親禦六軍，直趨汴州，半月之間，天下可定。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-gongsi-reward",
+      "title": "权中书事，授侍中兼枢密",
+      "summary": "庄宗至汴时豆卢革仍在魏，令郭暂理中书，旋拜侍中兼枢密使；郊礼后兼镇封爵另列，不归入923年。",
+      "year": 923,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "同光元年庄宗至汴州；本纪十月权行中书、甲午任侍中",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p6",
+          "originalRevision": 1,
+          "originalSha256": "4130276d63c84fd481d8bd72dec583a0cfad39795fe38e10ce08e8e2e4a273eb",
+          "excerpt": "莊宗至汴州，宰相豆盧革在魏州，令崇韜權行中書事。俄拜侍中兼樞密使"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "同光元年冬十月辛未朔，日有食之。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p7",
+          "originalRevision": 1,
+          "originalSha256": "11d5e709dbc9209338eb0b8ce102e740e1631ffa3eef2957ff7a14d444a4feb4",
+          "excerpt": "以樞密使、檢校太保、守兵部尚書郭崇韜權行中書事。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p11",
+          "originalRevision": 1,
+          "originalSha256": "42ea89ca6baa7891551e4706ad5e245518918b4af0669d9385f6c8c17f66c0b0",
+          "excerpt": "甲午，以樞密使、檢校太保、守兵部尚書、太原縣男郭崇韜為開府儀同三司、守侍中、監修國史、兼真定尹、成德軍節度使，依前樞密使、太原郡侯，仍賜鐵券。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-stop-building",
+      "title": "灾荒中谏止宫中营建",
+      "summary": "同光三年夏酷热、河灾，劝庄宗忆创业艰难，又请停内廷营造，未获听从。",
+      "year": 925,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "同光三年夏",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p7",
+          "originalRevision": 1,
+          "originalSha256": "1cc27005a7dcbb4fa1f8d55e0ff6659ce5b40a4be55b4b553ae932d0cb7c40c3",
+          "excerpt": "崇韜復奏曰：「內中營造，日有縻費，屬當災饉，且乞權停。」不聽。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-relinquish-town",
+      "title": "获准辞兼领节度",
+      "summary": "同光三年坚持请求去掉兼领节度使职，庄宗准许。",
+      "year": 925,
+      "sortOrder": 6,
+      "precision": "month",
+      "sourceDate": "同光三年；本纪同事二月辞兼镇并除镇职",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p9",
+          "originalRevision": 1,
+          "originalSha256": "f31e880757c756e12855be553d91976c35bdad010acafaf7eed03b76bb9d04b5",
+          "excerpt": "三年，堅乞罷兼領節鉞，許之。"
+        },
+        {
+          "chapterId": "old-v032",
+          "paragraphId": "old-v032-p17",
+          "originalRevision": 1,
+          "originalSha256": "3d842b2460820938b2baae1ca86d898e541b68941eb2d5046f3a531e8735fb52",
+          "excerpt": "二月甲子朔，詔："
+        },
+        {
+          "chapterId": "old-v032",
+          "paragraphId": "old-v032-p17",
+          "originalRevision": 1,
+          "originalSha256": "3d842b2460820938b2baae1ca86d898e541b68941eb2d5046f3a531e8735fb52",
+          "excerpt": "樞密使郭崇韜上表辭兼鎮。"
+        },
+        {
+          "chapterId": "old-v032",
+          "paragraphId": "old-v032-p17",
+          "originalRevision": 1,
+          "originalSha256": "3d842b2460820938b2baae1ca86d898e541b68941eb2d5046f3a531e8735fb52",
+          "excerpt": "甲申，以樞密使郭崇韜為依前守侍中、監修國史、兼樞密使，加食邑實封。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-march-shu",
+      "title": "与魏王奉命征蜀，任招讨",
+      "summary": "建议李继岌为都统，自己奉庄宗命为招讨使，九月十八日出兵；推荐孟知祥为将来蜀帅等人事。",
+      "year": 925,
+      "sortOrder": 7,
+      "precision": "day",
+      "sourceDate": "同光三年九月十八日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p10",
+          "originalRevision": 1,
+          "originalSha256": "ec31a3dc2fdd070c05b8b6c6e8c64bf2663110cb3d9a54925a6e6df9eb3bb286",
+          "excerpt": "乃以繼岌為都統，崇韜為招討使。是歲九月十八日，率親軍六萬，進討蜀川。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-pacify-shu",
+      "title": "招降凤州等地，主持平蜀军政",
+      "summary": "与魏王入大散关后以先取粮储保障行军，派李严、康延孝劝降凤州，之后军政筹划由郭崇韬主持，王衍最终献成都。",
+      "year": 925,
+      "sortOrder": 8,
+      "precision": "year",
+      "sourceDate": "同光三年十月及平蜀期间",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p11",
+          "originalRevision": 1,
+          "originalSha256": "666355629e806007f8b51e783d1bfa2c3221b67ed8740ac9867e21e052879dcf",
+          "excerpt": "其招懷製置，官吏補置，師行籌畫，軍書告諭，皆出於崇韜，繼岌承命而已。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-death-chengdu",
+      "title": "遭皇后教令，成都被棍杀",
+      "summary": "班师前刘皇后另下教令令杀郭崇韬；李继岌起初拒绝，后受宦者催逼，以召议事为名由左右棍杀。儿子分地遇害，家产被籍。",
+      "year": 926,
+      "sortOrder": 9,
+      "precision": "day",
+      "sourceDate": "同光四年正月六日议返，诘旦被杀",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p13",
+          "originalRevision": 1,
+          "originalSha256": "f251efcf4a4779de6b899f9e558d3ed66c38e55112471596954f51e904e4129e",
+          "excerpt": "詰旦，從襲以繼岌之命召崇韜計事，繼岌登樓避之，崇韜入，左右楇殺之。"
+        }
+      ],
+      "notes": [
+        "庄宗未发直接杀人诏书，皇后教令与皇帝诏命严格区分。"
+      ]
+    },
+    {
+      "id": "guo-chongtao-restore-burial",
+      "title": "明宗诏归葬、赐旧宅",
+      "summary": "李嗣源即位后令郭崇韬归葬，赐太原旧宅；幸存幼孙由妻周氏携养。",
+      "year": 926,
+      "sortOrder": 10,
+      "precision": "month",
+      "sourceDate": "明宗即位后；本纪天成元年五月丙子准归葬、还世业",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p13",
+          "originalRevision": 1,
+          "originalSha256": "f251efcf4a4779de6b899f9e558d3ed66c38e55112471596954f51e904e4129e",
+          "excerpt": "明宗即位，詔令歸葬，仍賜太原舊宅。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "五月丙辰朔，帝不視朝，臨於西宮。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p4",
+          "originalRevision": 1,
+          "originalSha256": "44812c31b51aaac0d640a3391dbeec18af04683b5a05a667a2128d5a4757196e",
+          "excerpt": "丙子，詔：「故西道行營都招討製置等使、守侍中、監修國史、兼樞密使郭崇韜宜許歸葬，其世業田宅並還與骨肉。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-early-service",
+      "title": "从李克修亲信到河东机务",
+      "summary": "早为李克修帐下亲信，在昭义理事廉干；克修卒后被李克用用为典谒，奉使凤翔后署教练使。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p2",
+          "originalRevision": 1,
+          "originalSha256": "9ee12d8e403d1a71e9a784fc49bb6143ccd6add381703f9f99dba0daaae165ed",
+          "excerpt": "崇韜初為李克修帳下親信。克修鎮昭義，崇韜累典事務，以廉幹稱。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-zhongmen",
+      "title": "任中门副使，继而专典机务",
+      "summary": "与孟知祥、李绍宏共参机要，二人离中枢后，经孟知祥推荐，郭崇韬独掌机务。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "天祐十四年任中门副使，俄而专典机务；后事未独立纪年，在下文十八年从征以前，西历917—922年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p2",
+          "originalRevision": 1,
+          "originalSha256": "9ee12d8e403d1a71e9a784fc49bb6143ccd6add381703f9f99dba0daaae165ed",
+          "excerpt": "天祐十四年，用為中門副使，與孟知祥、李紹宏俱參機要。"
+        }
+      ],
+      "yearRange": {
+        "start": 917,
+        "end": 922
+      },
+      "variants": [
+        {
+          "label": "通鉴中门任职叙年",
+          "year": 919,
+          "sourceDate": "梁贞明五年三月叙孟知祥荐任中门副使及专典机密",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v270",
+              "paragraphId": "tongjian-v270-p69",
+              "originalRevision": 1,
+              "originalSha256": "652c79c587ff849dbb50264bd666219a04ec8276403f6635b09e3471183f6793",
+              "excerpt": "均王中貞明五年（己卯，公元九一九年）"
+            },
+            {
+              "chapterId": "tongjian-v270",
+              "paragraphId": "tongjian-v270-p73",
+              "originalRevision": 1,
+              "originalSha256": "812f56a878594026a53e182c170f5c443cf1df0cdad6da0dbc5fbd43883348e3",
+              "excerpt": "三月，丙戌，蜀北路行營都招討、武德節度使王宗播等自散關擊岐，渡渭水，破岐將孟鐵山。"
+            },
+            {
+              "chapterId": "tongjian-v270",
+              "paragraphId": "tongjian-v270-p74",
+              "originalRevision": 1,
+              "originalSha256": "ea2a454c48db66caae6dd5069844df84282c10ce7abce61a874886011348b20f",
+              "excerpt": "孟知祥又薦教練使雁門郭崇韜能治劇，王以為中門副使。"
+            },
+            {
+              "chapterId": "tongjian-v270",
+              "paragraphId": "tongjian-v270-p74",
+              "originalRevision": 1,
+              "originalSha256": "ea2a454c48db66caae6dd5069844df84282c10ce7abce61a874886011348b20f",
+              "excerpt": "及紹宏出幽州，知祥懼禍，稱疾辭位，王乃以知祥為河東馬步都虞候，自是崇韜專典機密。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-zhenzhou-campaign",
+      "title": "随征张文礼，主张不退",
+      "summary": "随李存勖征讨镇州张文礼；本条仅按天祐十八年记录从征起点，后来契丹进至新乐的劝战另列。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "range",
+      "sourceDate": "天祐十八年始从征镇州，契丹至新乐之战本纪记十九年正月；两阶段西历921—922年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p3",
+          "originalRevision": 1,
+          "originalSha256": "cfabfb3989b085f3eec5617a5b741a4af071547becf9d3db71c6303f3e9f8a8f",
+          "excerpt": "十八年，從征張文禮於鎮州。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p15",
+          "originalRevision": 1,
+          "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+          "excerpt": "天祐十九年春正月甲午，帝至新城，契丹前鋒三千騎至新樂。"
+        }
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 922
+      }
+    },
+    {
+      "id": "guo-chongtao-xinle-advice",
+      "title": "新乐劝战",
+      "summary": "契丹进新乐、诸将欲退魏时劝李存勖继续作战，晋军最终获胜；原段只明叙从征开始于十八年，未另记契丹战的独年。",
+      "year": null,
+      "sortOrder": 14,
+      "precision": "undated",
+      "sourceDate": "天祐十八年从征后，契丹战未记独年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p3",
+          "originalRevision": 1,
+          "originalSha256": "cfabfb3989b085f3eec5617a5b741a4af071547becf9d3db71c6303f3e9f8a8f",
+          "excerpt": "契丹引眾至新樂，王師大恐，諸將鹹請退還魏州，莊宗猶豫未決。崇韜曰：「阿保機隻為王都所誘，本利貨財，非敦鄰好，苟前鋒小衄，遁走必矣。況我新破汴寇，威振北地，乘此驅攘，焉往不捷！且事之濟否，亦有天命。」莊宗從之，王師果捷。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-inspect-zhen",
+      "title": "检镇州府库，拒财货馈赠",
+      "summary": "李存审收镇州后，奉命检阅府库；对赠送珍货一概不取，只买书籍。",
+      "year": null,
+      "sortOrder": 15,
+      "precision": "range",
+      "sourceDate": "本传天祐十八年之明年，镇州收复后检阅府库；未记检阅月日，西历922—923年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p3",
+          "originalRevision": 1,
+          "originalSha256": "cfabfb3989b085f3eec5617a5b741a4af071547becf9d3db71c6303f3e9f8a8f",
+          "excerpt": "明年，李存審收鎮州，遣崇韜閱其府庫，或以珍貨賂遺，一無所取，但市書籍而已。"
+        }
+      ],
+      "yearRange": {
+        "start": 922,
+        "end": 923
+      }
+    },
+    {
+      "id": "guo-chongtao-altar-reward",
+      "title": "郊礼后兼镇封爵",
+      "summary": "郊礼毕兼领镇冀节度、封赵郡公、赐恕十死铁券，并把家财献助赏给；原段未单记郊礼年月。",
+      "year": null,
+      "sortOrder": 16,
+      "precision": "undated",
+      "sourceDate": "至汴后郊礼毕，原段无独年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p6",
+          "originalRevision": 1,
+          "originalSha256": "4130276d63c84fd481d8bd72dec583a0cfad39795fe38e10ce08e8e2e4a273eb",
+          "excerpt": "及郊禮畢，以崇韜兼領鎮、冀州節度使，進封趙郡公，邑二千戶，賜鐵券，恕十死。"
+        },
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p6",
+          "originalRevision": 1,
+          "originalSha256": "4130276d63c84fd481d8bd72dec583a0cfad39795fe38e10ce08e8e2e4a273eb",
+          "excerpt": "及郊禋，崇韜悉獻家財，以助賞給。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-court-reorganisation",
+      "title": "请立刘后并分还枢密事务",
+      "summary": "功高受谗后欲避权，未能辞枢密；改请立刘氏为皇后，提出二十五条时务及将枢密事务归本司的建议。",
+      "year": null,
+      "sortOrder": 17,
+      "precision": "undated",
+      "sourceDate": "河洛平定后，原段未单列年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p8",
+          "originalRevision": 1,
+          "originalSha256": "627fbac624fbe040b590506f25190ea0f28a5159e2e6dd694fbf663f7d42241d",
+          "excerpt": "崇韜乃密奏請立魏國夫人為皇后，復奏時務利害二十五條，皆便於時，取悅人心；又請罷樞密院事，各歸本司，以輕其權，然宦官造謗不已。"
+        }
+      ]
+    },
+    {
+      "id": "guo-chongtao-shu-command-request",
+      "title": "求留蜀与魏王猜疑",
+      "summary": "王宗弼馈妓妾珍玩求任蜀帅，郭崇韬答应；王宗弼又与郭子廷诲谋使蜀人请郭留蜀，李继岌拒议，宦官以收蜀人心进言，从而互猜。向延嗣回朝称大额馈财属于使者奏说，不当作已查定数额。",
+      "year": null,
+      "sortOrder": 18,
+      "precision": "undated",
+      "sourceDate": "成都降后、班师前，未记独年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p11",
+          "originalRevision": 1,
+          "originalSha256": "666355629e806007f8b51e783d1bfa2c3221b67ed8740ac9867e21e052879dcf",
+          "excerpt": "及六軍使王宗弼歸款，行賂先招討府。王衍以成都降，崇韜居王宗弼之第。宗弼選王衍之妓妾珍玩以奉崇韜，求為蜀帥，崇韜許之。又與崇韜子廷誨謀，令蜀人列狀見魏王，請奏崇韜為蜀帥。繼岌覽狀謂崇韜曰：「主上倚侍中如衡、華，安肯棄元老於蠻夷之地，況餘不敢議此。」〈（《九國誌·王宗弼傳》：宗弼送款於魏王，乃還成都，盡輦內藏之寶貨，歸於其家。魏王遣使征犒軍錢數千萬，宗弼輒靳之，魏王甚怒。及王師至，令其子承班齎衍玩用直百萬，獻於魏王，並賂郭崇韜，請以己為西川節度使。魏王曰：「此吾家之物，焉用獻為！」魏王入城，翌日，數其不忠之罪，並其子斬之於市。）〉李從襲等謂繼岌曰：「郭公收蜀部人情，意在難測，王宜自備。」由是兩相猜察。"
+        },
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p12",
+          "originalRevision": 1,
+          "originalSha256": "1129ac9c3d8f84032d23ab68bad749695938d0bbdb6d1efa9856e752204782a8",
+          "excerpt": "延嗣奏曰：「臣問蜀人，知蜀中寶貨皆入崇韜之門，言崇韜得金萬兩，銀四十萬，名馬千匹，王衍愛妓六十，樂工百，犀玉帶百。廷誨自有金銀十萬兩，犀玉帶五十，藝色絕妓七十，樂工七十，他財稱是。魏王府，蜀人賂遺不過遣匹馬而已。」"
+        }
+      ]
+    }
+  ]
+}

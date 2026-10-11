@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "ding-hui",
+  "events": [
+    {
+      "id": "ding-hui-heyang",
+      "title": "九鼎渡河，解河阳围",
+      "summary": "丁会与葛从周等万兵急行，九鼎渡河、沇水败李罕之及晋援兵，解张全义河阳之围。",
+      "year": 888,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "新史光启四年；康君立传记同役文德初三月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p11",
+          "originalRevision": 1,
+          "originalSha256": "cde90178121978745021b6144f6dd6c60eaf189caa4e2a68d1b62130cb7e9091",
+          "excerpt": "光啟四年，東都張全義襲破河陽，逐李罕之，罕之召晉兵圍河陽，全義告急。是時，梁軍在魏，乃遣會及葛從周等將萬人救之。會等行至河陰，謀曰：「罕之料吾不敢渡九鼎，以吾兵少而來遠，且不虞吾之速至也。出其不意，掩其不備者，兵家之勝策也。」乃渡九鼎，直趨河陽，戰于沇水，罕之大敗，河陽圍解。"
+        },
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p2",
+          "originalRevision": 1,
+          "originalSha256": "14283d678548b78007ca8aa97adcc11f4e1a330717da925223cad55a5180db44",
+          "excerpt": "文德初，李罕之既失河陽，來歸於武皇，且求援焉，乃以君立充南面招討使，李存孝副之，帥師二萬，助罕之攻取河陽。三月，與汴將丁會、牛存節戰於沇河。臨陣之次，騎將安休休叛入汴軍，君立引退。"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-weisu",
+      "title": "取黎阳临河，并在内黄败魏",
+      "summary": "丁会与葛从周渡河取黎阳、临河，梁军继在内黄至永定桥击败魏军，罗弘信求和。本纪把渡河记大顺元年十二月辛丑（西历891），内黄胜记二年正月；新本传以大顺元年领起这些魏役及后来的宿州金乡役，逐役分读。",
+      "year": 891,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "大顺元年十二月辛丑取黎阳临河（891年2月2日）、二年正月内黄",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p12",
+          "originalRevision": 1,
+          "originalSha256": "02b2c5f86356e8a72c609fa7de11dd1e2452b966779be07093ffa2c79ef4fcbc",
+          "excerpt": "大順元年，梁軍擊魏，會及葛從周破黎陽、臨河，遂敗羅弘信于內黃。梁軍攻時溥於徐州，遣會別攻宿州，刺史張筠閉城距守，會堰汴水浸其東，城壞，筠降。兗州朱瑾以兵萬餘擊單父，會及瑾戰于金鄉，大敗之。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p33",
+          "originalRevision": 1,
+          "originalSha256": "5009fcc883aeafe3f72088598d08fff8f4383e2fbc8b6a7ddee1d8ec51502a95",
+          "excerpt": "大順元年四月丙辰，宿州小將張筠逐刺史張紹光，擁眾以附時溥。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p38",
+          "originalRevision": 1,
+          "originalSha256": "6949154afa91ede91fac7debe9fe644377b81276b886eecde9ff96042ba1f5c4",
+          "excerpt": "十二月辛丑，帝遣丁會、葛從周率眾渡河取黎陽、臨河，又令龎師古、霍存下淇門、衞縣，帝徐以大軍繼其後。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p39",
+          "originalRevision": 1,
+          "originalSha256": "04d7c303a1c6572d6885b58ecd14fb7b25ed0cab2818774e257d8d0e847cb543",
+          "excerpt": "二年春正月，魏軍屯于內黃。丙辰，帝與之接戰，自內黃至永定橋，魏軍五敗，斬首萬餘級。羅弘信懼，遣使持厚幣請和。帝命止其焚掠而歸其俘，弘信繇是感悅而聽命焉。乃收軍屯于河上。"
+        }
+      ],
+      "notes": [
+        "接叙包含多役，不把全段作为某一日行动。"
+      ],
+      "variants": [
+        {
+          "label": "新本传以大顺元年领起诸役",
+          "sourceDate": "大顺元年起接魏、宿州、金乡三役，未分别标后役年",
+          "summary": "新本传把三役连续接在大顺元年标题后；宿州及金乡据本纪独立纪月分列，不把三次战事全部强定大顺元年同一西历年。",
+          "evidence": [
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p12",
+              "originalRevision": 1,
+              "originalSha256": "02b2c5f86356e8a72c609fa7de11dd1e2452b966779be07093ffa2c79ef4fcbc",
+              "excerpt": "大順元年，梁軍擊魏，會及葛從周破黎陽、臨河，遂敗羅弘信于內黃。梁軍攻時溥於徐州，遣會別攻宿州，刺史張筠閉城距守，會堰汴水浸其東，城壞，筠降。兗州朱瑾以兵萬餘擊單父，會及瑾戰于金鄉，大敗之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-suzhou",
+      "title": "壅汴水灌宿州，受张筠降",
+      "summary": "大顺二年八月奉命攻宿州，在城东筑堰壅汴水灌城，十月壬午张筠降。本纪夹注另记旧唐书十一月，两月分别保留。",
+      "year": 891,
+      "sortOrder": 3,
+      "precision": "month",
+      "phase": "service",
+      "sourceDate": "大顺二年八月攻、十月壬午降",
+      "evidence": [
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p39",
+          "originalRevision": 1,
+          "originalSha256": "04d7c303a1c6572d6885b58ecd14fb7b25ed0cab2818774e257d8d0e847cb543",
+          "excerpt": "二年春正月，魏軍屯于內黃。丙辰，帝與之接戰，自內黃至永定橋，魏軍五敗，斬首萬餘級。羅弘信懼，遣使持厚幣請和。帝命止其焚掠而歸其俘，弘信繇是感悅而聽命焉。乃收軍屯于河上。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p40",
+          "originalRevision": 1,
+          "originalSha256": "1f2c1f48480a91ad27bdde337e212e7453c03884b9664d3dcc2954f74f297b0e",
+          "excerpt": "八月己丑，帝遣丁會急攻宿州，刺史張筠堅守其壁，會乃率眾于州東築堰，壅汴水以浸其城。十月壬午，筠遂降，宿州平。案：舊唐書作十一月，汴軍陷宿州，與薛史異。歐陽史及新唐書、通鑑俱從薛史作十月。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p12",
+          "originalRevision": 1,
+          "originalSha256": "02b2c5f86356e8a72c609fa7de11dd1e2452b966779be07093ffa2c79ef4fcbc",
+          "excerpt": "大順元年，梁軍擊魏，會及葛從周破黎陽、臨河，遂敗羅弘信于內黃。梁軍攻時溥於徐州，遣會別攻宿州，刺史張筠閉城距守，會堰汴水浸其東，城壞，筠降。兗州朱瑾以兵萬餘擊單父，會及瑾戰于金鄉，大敗之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧唐书记十一月",
+          "sourceDate": "大顺二年十一月",
+          "summary": "本纪夹注说旧唐书十一月宿州陷，新唐书、通鉴与薛史作十月；保持夹注归属，不暗改本纪。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p40",
+              "originalRevision": 1,
+              "originalSha256": "1f2c1f48480a91ad27bdde337e212e7453c03884b9664d3dcc2954f74f297b0e",
+              "excerpt": "案：舊唐書作十一月，汴軍陷宿州，與薛史異。歐陽史及新唐書、通鑑俱從薛史作十月。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-jinxiang",
+      "title": "在金乡击败朱瑾",
+      "summary": "朱瑾率军寇单父，丁会受命袭击，在金乡界击败朱瑾；本纪记大顺二年十二月，合法月起已在西历892年，不当作891年十二月。",
+      "year": 892,
+      "sortOrder": 4,
+      "precision": "month",
+      "phase": "service",
+      "sourceDate": "大顺二年十二月，合法同历月892年1月",
+      "evidence": [
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p39",
+          "originalRevision": 1,
+          "originalSha256": "04d7c303a1c6572d6885b58ecd14fb7b25ed0cab2818774e257d8d0e847cb543",
+          "excerpt": "二年春正月，魏軍屯于內黃。丙辰，帝與之接戰，自內黃至永定橋，魏軍五敗，斬首萬餘級。羅弘信懼，遣使持厚幣請和。帝命止其焚掠而歸其俘，弘信繇是感悅而聽命焉。乃收軍屯于河上。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p42",
+          "originalRevision": 1,
+          "originalSha256": "6fc420dca881389dbdb93961d618cb894199e0046fb8aa05b0851e44c80f7e7a",
+          "excerpt": "十二月，兗州朱瑾領軍三萬寇單父，帝遣丁會領大軍襲之，敗于金鄉界，殺二萬餘眾，瑾單馬遁去。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p12",
+          "originalRevision": 1,
+          "originalSha256": "02b2c5f86356e8a72c609fa7de11dd1e2452b966779be07093ffa2c79ef4fcbc",
+          "excerpt": "大順元年，梁軍擊魏，會及葛從周破黎陽、臨河，遂敗羅弘信于內黃。梁軍攻時溥於徐州，遣會別攻宿州，刺史張筠閉城距守，會堰汴水浸其東，城壞，筠降。兗州朱瑾以兵萬餘擊單父，會及瑾戰于金鄉，大敗之。"
+        }
+      ],
+      "notes": [
+        "大顺二年十二月起892年1月4日；该年号period_end回退3/1/1拒绝，次景福元年正月合法起892年2月2日作相邻月界。"
+      ]
+    },
+    {
+      "id": "ding-hui-zhaoyi-first",
+      "title": "取泽州，初领昭义",
+      "summary": "新本传记光化二年自河阳攻下泽州、授昭义军留后；旧太祖本纪同年六月记授丁会潞州节度使。官职称谓各依来源，不把899初任和901再起合年。",
+      "year": 899,
+      "sortOrder": 5,
+      "precision": "year",
+      "phase": "service",
+      "sourceDate": "新本传光化二年；旧本纪同年六月",
+      "evidence": [
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p13",
+          "originalRevision": 1,
+          "originalSha256": "98b2767c872be526410501375fc67b65d16b473eff22d7e56618c77bd53e014e",
+          "excerpt": "光化二年，李罕之叛晉，以潞州降梁。會自河陽攻晉澤州，下之。乃以會為昭義軍留後，會畏梁太祖雄猜，常稱疾者累年。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p1",
+          "originalRevision": 1,
+          "originalSha256": "3ef9b4f63e4478b48cbd8e24b752b5d28897dbbbb1f0a5c792608b551eb15d22",
+          "excerpt": "光化元年正月，帝遣葛從周統諸將略地于山東，遂次於邢、洺。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+          "excerpt": "二年正月，淮南楊行密舉全吳之眾，精甲五萬，以伐徐州，帝領大軍禦之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本纪六月任潞州节度",
+          "sourceDate": "光化二年六月",
+          "year": 899,
+          "summary": "新本传取泽后授昭义留后；旧本纪六月直接记丁会为潞州节度使，留后与正式节度称谓和叙次分列。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p2",
+              "originalRevision": 1,
+              "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+              "excerpt": "六月，帝表丁會為潞州節度使，以李罕之疾亟故也。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-mourning",
+      "title": "昭宗遇害，率军举哀",
+      "summary": "昭宗迁洛后给丁会加平章事，昭宗被害消息传来，丁会与全军白衣流泪举哀。",
+      "year": 904,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "昭宗迁洛及当年遇弑",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "昭宗幸洛陽，加同平章事。其年，昭宗遇弑，哀問至，會三軍縞素，流涕久之。"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-succession",
+      "title": "辅李存勖决策夹城战",
+      "summary": "李存勖继晋王，与丁会商定作战谋划，攻破梁军夹城；丁会为都招讨使。",
+      "year": 908,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "天祐五年李存勖嗣晋王位",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "五年，汴將李思安圍潞州，以會為都招討使、檢校太尉。"
+        },
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p2",
+          "originalRevision": 1,
+          "originalSha256": "9bf7ff3da16c3df586f31bfd95fdbd21a18dbda095158ed4ff85c7843e525110",
+          "excerpt": "莊宗嗣王位，與會決謀，破汴軍於夾城。"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-posthumous",
+      "title": "后唐建立后追赠太师",
+      "summary": "李存勖即皇帝位后追赠丁会太师，新史也记唐兴追赠。赠官为身后事，不系在病卒的910–911范围。",
+      "year": 923,
+      "sortOrder": 8,
+      "precision": "year",
+      "phase": "posthumous",
+      "sourceDate": "庄宗即皇帝位、后唐建立后",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p2",
+          "originalRevision": 1,
+          "originalSha256": "9bf7ff3da16c3df586f31bfd95fdbd21a18dbda095158ed4ff85c7843e525110",
+          "excerpt": "莊宗即位，追贈太師。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p15",
+          "originalRevision": 1,
+          "originalSha256": "a4d5ffc09949a21db80889e53176f6a4d2e8f0bec0ce52138f1eaa73d7f5b849",
+          "excerpt": "唐興，追贈太師。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p22",
+          "originalRevision": 1,
+          "originalSha256": "262ad75985f58f3ef03dbd7f0e6dda48c4d52e6b4122486c4a59359785968ad6",
+          "excerpt": "夏四月己巳，帝升壇，祭告昊天上帝，遂即皇帝位，文武臣僚稱賀。禮畢，禦應天門宣製：改天佑二十年為同光元年，大赦天下，"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-early",
+      "title": "与朱温从黄巢，任宣武都押衙",
+      "summary": "丁会幼好挽歌、后聚众，随朱温在黄巢军中；朱温镇汴后历都押衙，参与平蔡、徐、兖、郓。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "黄巢渡淮至太祖镇汴后，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "黃巢渡淮，會從梁祖為部曲，梁祖鎮門，會曆都押衙。自梁祖誅宗權，並時溥，屠朱瑄，走朱瑾，會恒以兵從，多立奇功。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p10",
+          "originalRevision": 1,
+          "originalSha256": "802a8c09c493ebac3fa5e5a438c2d53db6a995ec6faa444fd54c1460511975b7",
+          "excerpt": "丁會字道隱，壽州壽春人也。少工挽喪之歌，尤能悽愴其聲以自喜。後去為盜，與梁太祖俱從黃巢。梁太祖鎮宣武，以為宣武都押衙。"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-avoid",
+      "title": "由河阳退居洛阳，称病避祸",
+      "summary": "丁会历怀州、滑州、河阳，因朱温猜忌旧将而连续称病，辞职居洛阳。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "文德以后、天复元年前，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "文德中，表授懷州刺史，曆滑州留後、河陽節度使、檢校司徒。自河陽以疾致政於洛陽。梁祖季年猜忌，故將功大者多遭族滅，會陰有避禍之志，稱疾者累年。"
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-zhaoyi",
+      "title": "再起为昭义节度使",
+      "summary": "朱温取得河中、晋绛后，天复元年重新起用丁会为昭义节度使。新史此前光化二年取泽州、领昭义留后另记。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "天复元年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "天復元年，梁祖奄有河中、晉、絳，乃起會為昭義節度使。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p13",
+          "originalRevision": 1,
+          "originalSha256": "98b2767c872be526410501375fc67b65d16b473eff22d7e56618c77bd53e014e",
+          "excerpt": "光化二年，李罕之叛晉，以潞州降梁。會自河陽攻晉澤州，下之。乃以會為昭義軍留後，會畏梁太祖雄猜，常稱疾者累年。"
+        }
+      ],
+      "yearRange": {
+        "start": 901,
+        "end": 902
+      },
+      "notes": [
+        "原书记年未载本事月日，传统年份可能跨至下一西历年，按有据范围保留。"
+      ]
+    },
+    {
+      "id": "ding-hui-join-jin",
+      "title": "以潞州归李克用，受太原甲第",
+      "summary": "丁会遭河东围攻后以潞州归晋，诉说不愿随朱温弱唐祚、猜旧将，获太原甲第、地位居诸将上。原书归附月份不同。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "旧史天祐三年十二月，跨906—907年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "三年十二月，王師攻會，居旬日，會以潞州歸於武皇。"
+        },
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p1",
+          "originalRevision": 1,
+          "originalSha256": "edb6071a984c883f18eaf099e7f1c620cd3bfcfeaf52cc57a6c6f69aee9bd695",
+          "excerpt": "）〉引見，會泣曰：「臣非不能守潞，但以汴王篡弱唐祚，猜嫌舊將，臣雖蒙保薦之恩，而不忍相從，今所謂吐盜父之食以見王也。」武皇納之，賜甲第於太原，位在諸將上。"
+        }
+      ],
+      "yearRange": {
+        "start": 906,
+        "end": 907
+      },
+      "variants": [
+        {
+          "label": "李嗣昭传十一月",
+          "sourceDate": "天祐三年十一月",
+          "year": 906,
+          "summary": "李嗣昭旧传把同一降会、授嗣昭昭义职置于十一月，与丁会本传十二月有别。",
+          "evidence": [
+            {
+              "chapterId": "old-v052",
+              "paragraphId": "old-v052-p7",
+              "originalRevision": 1,
+              "originalSha256": "da56b3218f2e51635deb149fe2621131039ba984610ff8bf0a570fa734473f8d",
+              "excerpt": "天祐三年，汴人攻滄、景，劉仁恭遣使求援。十一月，嗣昭合燕軍三萬進攻潞州，降丁會，武皇乃以嗣昭為昭義節度使。始嗣昭未到之前，上黨有占者，見一人家舍上常有氣如車蓋，視之，但一貧媼而已。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ding-hui-death",
+      "title": "病卒太原",
+      "summary": "丁会在太原病卒；旧本传记天祐七年十一月，新史仅记七年，该月同历跨西历910–911，后唐身后赠官另列。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "range",
+      "sourceDate": "天祐七年十一月；同期后梁开平四年十一月跨西历910–911年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p2",
+          "originalRevision": 1,
+          "originalSha256": "9bf7ff3da16c3df586f31bfd95fdbd21a18dbda095158ed4ff85c7843e525110",
+          "excerpt": "七年十一月，卒於大原。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p15",
+          "originalRevision": 1,
+          "originalSha256": "a4d5ffc09949a21db80889e53176f6a4d2e8f0bec0ce52138f1eaa73d7f5b849",
+          "excerpt": "天祐七年，以疾卒于太原。"
+        }
+      ],
+      "yearRange": {
+        "start": 910,
+        "end": 911
+      },
+      "notes": [
+        "同期历月自西历910年12月5日至911年1月4日，原文未记日，不强定一个西历年份。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-yancong",
+  "events": [
+    {
+      "id": "liu-yancong-rescue-shangdang",
+      "title": "随晋王解除上党之围",
+      "summary": "随李存勖解除上党之围，属晋王时期作战。",
+      "year": 908,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "庄宗解上党之围；周德威传同役天祐五年五月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "從莊宗解上黨之圍。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p5",
+          "originalRevision": 1,
+          "originalSha256": "84bfa83bfa91b78f8d5bac9efff989e42607721d7b394dbb284a80e27d44b2ad",
+          "excerpt": "五月朔，晨霧晦暝，王師伏於三垂崗下。翌日，直趨夾城，斬關破壘，梁人大敗，解潞州之圍。"
+        }
+      ]
+    },
+    {
+      "id": "liu-yancong-leftwuwei",
+      "title": "改左武卫上将军",
+      "summary": "天成三年改任左武卫上将军，随后又出镇。",
+      "year": 928,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "天成三年；明宗纪同事六月己卯改左武卫上将军",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "天成三年，改左武衛上將軍。"
+        },
+        {
+          "chapterId": "old-v039",
+          "paragraphId": "old-v039-p7",
+          "originalRevision": 1,
+          "originalSha256": "ce614b42bb9f919c2c0410ada5ad559938065845a7cf1374433abd1516926b0f",
+          "excerpt": "六月己卯，以右金吾上將軍毛璋為左金吾上將軍，以前安州節度使史敬鎔為右金吾上將軍，以前華州節度使劉彥琮為左武衛上將軍。"
+        }
+      ]
+    },
+    {
+      "id": "liu-yancong-kill-wangguan",
+      "title": "假投王瓘，乘猎斩首归献",
+      "summary": "绛州刺史王瓘反叛，刘彦琮佯投其军，取得骑将身份，在其出猎时斩首献李克用。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "會瓘出獵，於馳驅之際，彥琮刃瓘之首來獻，武皇甚奇之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-yancong-iron-forest",
+      "title": "升铁林指挥、磁州刺史",
+      "summary": "同光初年，逐渐升任铁林指挥使、磁州刺史。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "同光初",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "同光初，稍遷至鐵林指揮使、磁州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "liu-yancong-huazhou",
+      "title": "明宗赴京平乱后任华州留后",
+      "summary": "李嗣源赴难京师后任华州留后，不久正授节度使。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "range",
+      "sourceDate": "明宗初授华州留后，本传天成三年后任左武卫；本纪明确六月己卯（928年），此前授任不晚于此",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "後明宗赴難京師，授華州留後，尋正授節旄。"
+        },
+        {
+          "chapterId": "old-v039",
+          "paragraphId": "old-v039-p7",
+          "originalRevision": 1,
+          "originalSha256": "ce614b42bb9f919c2c0410ada5ad559938065845a7cf1374433abd1516926b0f",
+          "excerpt": "六月己卯，以右金吾上將軍毛璋為左金吾上將軍，以前安州節度使史敬鎔為右金吾上將軍，以前華州節度使劉彥琮為左武衛上將軍。"
+        }
+      ],
+      "yearRange": {
+        "start": 926,
+        "end": 928
+      }
+    },
+    {
+      "id": "liu-yancong-death-bin",
+      "title": "历陕州、邠州，卒于任",
+      "summary": "从禁卫转陕州节度使，再移镇邠州，在任去世，旧史记六十四岁，赠太傅。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "天成三年之后，未记卒年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p12",
+          "originalRevision": 1,
+          "originalSha256": "f178ddfcd6c88df366a2423bd3a5df3a32fa5a2d3c93b45527694149833a88a2",
+          "excerpt": "未幾，改陝州節度使，尋移鎮邠州，卒於鎮，時年六十四。贈太傅。"
+        }
+      ]
+    }
+  ]
+}

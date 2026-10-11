@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "xue-atan",
+  "events": [
+    {
+      "id": "xue-atan-heyang-campaign",
+      "title": "随李存孝助李罕之攻河阳",
+      "summary": "与李存孝、安休休等受晋命帮助李罕之还攻河阳，在温县战梁军，晋军败。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "文德元年；未记可核的具体月日，西历范围888—889年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p20",
+          "originalRevision": 1,
+          "originalSha256": "0762a33c7079ca57be7c47878a8373ca4d2fe3b450a79d8da17d084bb3976d37",
+          "excerpt": "文德元年，河南張言襲破河陽，李罕之來歸晉，晉處罕之于澤州，遣存孝與薛阿檀、安休休等以兵七千助罕之還擊河陽。"
+        }
+      ],
+      "yearRange": {
+        "start": 888,
+        "end": 889
+      }
+    },
+    {
+      "id": "xue-atan-yindi-defence",
+      "title": "与李存信抵御阴地关唐军",
+      "summary": "张濬、韩建伐晋时，薛阿檀与李存信迎击张濬；本段叙阴地关唐军败退。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "新史本段“明年”后接张濬韩建伐晋；叙时不强定",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p21",
+          "originalRevision": 1,
+          "originalSha256": "de20d2190a98768d91e790f363ce74b111718fd8f7d152bdcf127dda17a1042a",
+          "excerpt": "是時，張濬、韓建伐晉，擊陰地關，晉以李存信、薛阿檀等當濬，別遣存孝軍于趙城。"
+        }
+      ],
+      "notes": [
+        "本传从文德元年接“明年”叙数事，与其他本纪的战年须分别核验；暂不按字面直接定889。"
+      ]
+    }
+  ]
+}

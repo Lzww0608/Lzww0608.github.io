@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhu-youqian",
+  "events": [
+    {
+      "id": "zhu-youqian-shanzhou",
+      "title": "李璠杀王珙后，朱简逐李璠",
+      "summary": "李璠杀王珙归梁后仍苛酷，朱简起军逐李璠，翌年朱温请其陕州留后，九月正式授節度。新史记共谋杀珙，与旧史不同。",
+      "year": 900,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "光化三年九月授正职；前述逐璠在二年后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p11",
+          "originalRevision": 1,
+          "originalSha256": "a9f49b3171179b51c56230ada890dd5ac3515cf8b5b973dac10fcf2b959cb203",
+          "excerpt": "二年六月，璠殺珙，歸附汴人，梁祖表璠為陝州節度使。璠亦苛慘，軍情不葉，簡復攻璠，璠冒刃獲免，逃歸於汴。三年，梁祖表簡為陝州留後。九月，天子授以旄鉞。車駕在鳳翔，梁祖往來，簡事之益謹，奏授平章事。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史共谋杀珙",
+          "sourceDate": "王珙与王珂争河中时，未独标年",
+          "summary": "新史称李璠与友谦共谋杀珙；旧史本段只说李璠杀珙、朱简后来攻璠。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p18",
+              "originalRevision": 1,
+              "originalSha256": "a8efdc1ca2be313c4941ad34013ec6dcda93a2c535f6ee9273b6e0f20461a129",
+              "excerpt": "陝州節度使王珙，為人嚴酷，與其弟珂爭河中，戰敗，其牙將李璠與友謙謀，共殺珙，附于梁，太祖表璠代珙。璠立，友謙復以兵攻之，璠得逃去，梁太祖又表友謙代璠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-jin-alliance",
+      "title": "拒朱友珪，求晋援救结盟",
+      "summary": "朱友谦拒绝朱友珪召见，遭梁军攻击后向晋求援，李存勖亲自来救；败梁后在猗氏与晋结盟。梁末帝时称臣另列。",
+      "year": 912,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "朱友珪在位，同年八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p12",
+          "originalRevision": 1,
+          "originalSha256": "30889961cc32b19da1dc2a36a21ec2defb3ed957081ccee64a65558e040edc6b",
+          "excerpt": "梁祖建號，移授河中節度使、檢校太尉，累拜中書令，封冀王。及朱友珪弑逆，友謙意不懌，雖勉奉偽命，中懷怏怏。友珪征之，友謙辭以北面侵軼，謂賓友曰：「友珪是先帝假子，敢行大逆，餘位列維城，恩逾父子，論功校德，何讓伊人，詎以平生附托之恩，屈身於逆豎之手！」遂不奉命。其年八月，友珪遣大將牛存節、康懷英、韓勍攻之，友謙乞師於莊宗。莊宗親總軍赴援，與汴軍遇於平陽，大破之。〈（《歐陽史》：晉王出澤潞以救之，追懷英於解縣，大敗之。追至白逕嶺，夜秉炬擊之，懷英又敗。）〉因與友謙會於猗氏，友謙盛陳感慨，願敦盟約，莊宗歡甚。友謙乘醉鼾寢於帳中，莊宗熟視之，謂左右曰：「冀王真貴人也，但恨其臂短耳。」及梁末帝嗣位，以恩禮結其心；友謙亦遜辭稱藩，行其正朔。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p20",
+          "originalRevision": 1,
+          "originalSha256": "67a46f8b511ff2c3ef94e3a7d1788e7da3d428959c6d5aa445d6bfcc82a28c01",
+          "excerpt": "太祖遇弒，友珪立，加友謙侍中，友謙雖受命，而心常不平。已而友珪使召友謙入覲，友謙不行，乃附于晉。友珪遣招討使韓勍將康懷英等兵五萬擊友謙。晉王出澤、潞以救之，遇懷英于解縣，大敗之，追至白逕嶺，夜秉炬擊之，懷英又敗，梁兵乃解去。友謙醉寢晉王帳中，晉王視之，顧左右曰：「冀王雖甚貴，然恨其臂短耳！」"
+        }
+      ],
+      "notes": [
+        "旧史朱友谦口中称友珪“假子”属于人物发言，不据此改写朱友珪实际亲生身份。"
+      ]
+    },
+    {
+      "id": "zhu-youqian-shu",
+      "title": "派朱令德从伐蜀，遭抗命诬告",
+      "summary": "李继麟未能满足伶宦索贿，派朱令德领军参加伐蜀，景进等却把阅军说成准备抵抗朝廷。郭崇韬死后的谋反诬告另见下一阶段。",
+      "year": 925,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "同光三年九月伐蜀同役任命与进发为锚；本传子令德率师赴征",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p15",
+          "originalRevision": 1,
+          "originalSha256": "c612b42bbaacd97fd5408137bc7a8775322dd52756fa518b7a26493679d6486f",
+          "excerpt": "莊宗季年，稍怠庶政，巷伯伶官，干預國事。時方面諸侯皆行賂遺，或求賂於繼麟，雖僶俛應奉，不滿其請。且曰：「河中土薄民貧，厚貺難辦。」由是群小鹹怨，遂加誣構。郭崇韜討巴、蜀，征師於河中，繼麟令其子令德率師赴之。伶官景進與其黨構曰：「昨王師初起，繼麟以為討己，頗有拒命之意，若不除移，如國家有急，必為後患。」"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p1",
+          "originalRevision": 1,
+          "originalSha256": "8137e0797da61169d952aea9b6b9793b8988a061170556b9ffde890b10637b82",
+          "excerpt": "同光三年秋七月丁酉，以久雨，詔河南府依法祈晴。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p3",
+          "originalRevision": 1,
+          "originalSha256": "f3e5376b7792a1bcb0d0f40c8316a4411e1a334f167bbb54c98b98a762b5df94",
+          "excerpt": "九月辛卯朔，河陽奏，黃河漲一丈五尺。癸巳，中書上言：「大行皇太后諡議合讀於太廟太祖室，其日，集兩省御史台五品巳上、尚書省四品已上、諸司三品已上官，於太廟序立。」從之。鎮州、衛州奏，水入城，壞廬舍。乙未，製封第三子鄴都留守、興聖宮使、檢校太尉、同平章事、判六軍諸衛事繼岌為魏王。幸壽安陵。庚子，襄州奏，漢江漲溢，漂溺廬舍。是日，命大舉伐蜀，詔曰："
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p5",
+          "originalRevision": 1,
+          "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
+          "excerpt": "昨客省使李嚴奉使銅梁，近歸金闕，凡於奏對，備述端由。其宋光嗣相見之時，於坐上便有言說，先問契丹強弱，次數秦王是非，度此包藏，可見情狀。加以疏遠忠直，朋比奸雄。內則縱恣輕華，競貪寵位；外則滋彰法令，蠹耗生靈。既德力以不量，在神祇之共憤。今命興聖宮使、魏王繼岌充西川四面行營都統，命侍中、樞密使郭崇韜充西川東北面行營都招討製置等使，荊南節度使高季興充西川東南面行營都招討使，鳳翔節度使李嚴充供軍轉運應接等使，同州節度使李令德充行營招討副使，陝府節度使李紹琛充行營蕃漢馬步軍都排陣斬斫使，西京留守張筠充西川管內安撫應接使，華州節度使毛璋充行營左廂馬步都虞候，邠州節度使董璋充行營右廂馬步都虞候，客省使李嚴充西川管內招撫使，總領闕下諸軍，兼西面諸道馬步兵事，取九月十八日進發。凡爾中外，宜體朕懷。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-death",
+      "title": "入朝申辩仍遭杀害，族被诛",
+      "summary": "郭崇韬被杀后，伶宦又诬告李继麟与郭氏、李存乂谋反。李继麟不听部将劝阻，入朝申辩；正月二十三日转滑州，当夜朱守殷围第并在徽安门外杀害，诸子及河中家族随后遭诛。",
+      "year": 926,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "同光四年正月二十三日夜",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p15",
+          "originalRevision": 1,
+          "originalSha256": "c612b42bbaacd97fd5408137bc7a8775322dd52756fa518b7a26493679d6486f",
+          "excerpt": "莊宗季年，稍怠庶政，巷伯伶官，干預國事。時方面諸侯皆行賂遺，或求賂於繼麟，雖僶俛應奉，不滿其請。且曰：「河中土薄民貧，厚貺難辦。」由是群小鹹怨，遂加誣構。郭崇韜討巴、蜀，征師於河中，繼麟令其子令德率師赴之。伶官景進與其黨構曰：「昨王師初起，繼麟以為討己，頗有拒命之意，若不除移，如國家有急，必為後患。」郭崇韜既誅，宦官愈盛，遂構成其罪，謂莊宗曰：「崇韜強項於蜀，蓋與河中響應。」繼麟聞之懼，將赴京師，麵訴其事。其部將曰：「王有大功於國，密邇京城，群小流言，何足介意。端居奉職，讒邪自銷，不可輕行。」繼麟曰：「郭公功倍於我，尚為人構陷，吾若得麵天顏，自陳肝膈，則流言者獲罪矣。」四年正月，繼麟入覲。景進謂莊宗曰：「河中人有告變者，言繼麟與崇韜謀叛，聞崇韜死，又與李存乂構鬆逆，當斷不斷，禍不旋踵。」群閹異口同辭，莊宗駭惑不能決。是月二十三日，授繼麟滑州節度使。是夜，令朱守殷以兵圍其第，擒之，誅於徽安門外；詔繼岌誅令德於遂州，王思同誅令錫於許州，〈（吳縝《篡誤》云：《史彥瓊傳》，友謙有子建徽被殺。傳中未載。）〉命夏魯奇誅其族於河中。初，魯奇至，友謙妻張氏率其家屬二百餘口見魯奇曰：「請疏骨肉名字，無致他人橫死。」將刑，張氏持先賜鐵券授魯奇曰：「皇帝所賜也。」是時，百口塗地，冤酷之聲，行路流涕。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p23",
+          "originalRevision": 1,
+          "originalSha256": "f6871a509e6f2442ea64d31c3f7aeac1231664445e1f03923008bc3e7487b0c6",
+          "excerpt": "是時，宦官、伶人用事，多求賂于友謙，友謙不能給而辭焉，宦官、伶人皆怒。唐兵伐蜀，友謙閱其精兵，命其子令德將以從軍。及郭崇韜見殺，伶人景進言：「唐兵初出時，友謙以為討己，閱兵自備。」又言：「與崇韜謀反。」且曰：「崇韜所以反于蜀者，以友謙為內應。友謙見崇韜死，諆與存乂為郭氏報冤。」莊宗初疑其事，羣伶、宦官日夜以為言。友謙聞之大恐，將入朝以自明，將吏皆勸其毋行。友謙曰：「郭公有大功於國，而以讒死，我不自明，誰為我言者！」乃單車入朝。景進使人詐為變書，告友謙反。莊宗惑之，乃徙友謙義成軍節度使，遣朱守殷夜以兵圍其館，驅友謙出徽安門外，殺之，復其姓名。詔魏王繼岌殺令德於遂州，王思同殺令錫於許州，夏魯奇族其家屬于河中。魯奇至其家，友謙妻張氏率其宗族二百餘口見魯奇曰：「朱氏宗族當死，願無濫及平人。」乃別其婢僕百人，以其族百口就刑。張氏入室取其鐵券示魯奇曰：「此皇帝所賜也，不知為何語！」魯奇亦為之慚。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-rehabilitated",
+      "title": "明宗即位后昭雪",
+      "summary": "李嗣源即位后下诏为朱友谦昭雪。原段妖鬼哭声等征兆不作确定事迹。",
+      "year": 926,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "明宗即位后",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p16",
+          "originalRevision": 1,
+          "originalSha256": "d1ff175a0fb0eb7520812e8d218d88c0e8a36389955eb2e6dc9a7025ae63ef9b",
+          "excerpt": "及明宗即位，始下詔昭雪焉。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p1",
+          "originalRevision": 1,
+          "originalSha256": "0f158c63988d8afb39ac34efe0c792ab71a463ec01e23a74ac9a6c8e0a8a3752",
+          "excerpt": "天成元年夏四月丙午，帝自興聖宮赴西宮，文武百僚縞素於位，帝服斬衰，親奉攢，塗設奠，哭盡哀，乃於柩前即皇帝位。百官易吉服班於位，帝御袞冕受冊訖，百僚稱賀。丁未，群官縞素赴西宮臨。以樞密使安重誨為檢校司空，守左領軍大將軍，依前充樞密使。宰臣豆盧革等三上表請聽政，從之。遣使往諸道及淮南告哀。辛亥，帝始聽政於中興殿。壬子，西南面副招討使、工部尚書任圜率步騎二萬六千人入見。甲寅，帝御文明殿受朝。製改同光四年為天成元年，大赦天下。後宮內職量留一百人，內官三十人，教坊一百人，鷹坊二十人，禦廚五十人，其餘任從所適。諸司使務有名無實者並停。分遣諸軍就食近畿，以減饋送之勞。秋夏稅子，每鬥先有省耗一升，今後隻納正數，其省耗宜停。天下節度、防禦使，除正、至、端午、降誕四節量事進奉，達情而已，自於州府圓融，不得科斂百姓。其刺史雖遇四節，不在貢奉。諸州雜稅，宜定合稅物色名目，不得邀難商旅。租庸司先將係省錢物，與人回圖，宜令盡底收納，以塞幸門雲。乙卯，渤海國王大諲譔遣使朝貢。是月，北京副留守、知留守事張憲賜死，以其失守故也。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-early",
+      "title": "原名朱简，早事渑池及陕州",
+      "summary": "朱友谦原名朱简，广明乱离乡，先事渑池柏夔，曾在石壕三乡抢掠，后在陕州王珙军任校。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "广明乱及随后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p11",
+          "originalRevision": 1,
+          "originalSha256": "a9f49b3171179b51c56230ada890dd5ac3515cf8b5b973dac10fcf2b959cb203",
+          "excerpt": "廣明之亂，簡去鄉里，事澠池鎮將柏夔為部隸。嘗為盜於石壕、三鄉之間，剽劫行旅。後事陝州節度使王珙，積勞至軍校。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-adopt",
+      "title": "奉迎昭宗后，改名入朱温属籍",
+      "summary": "朱简在昭宗迁洛时献官服，受检校侍中；因朱温栽培而请求入属籍，赐名友谦，待遇如子。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "天复末迁洛奉迎后，改名入籍日期未独标",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p11",
+          "originalRevision": 1,
+          "originalSha256": "a9f49b3171179b51c56230ada890dd5ac3515cf8b5b973dac10fcf2b959cb203",
+          "excerpt": "天復末，昭宗遷都洛陽，駐蹕於陝。時朝士經亂，簪裳不備，簡獻上百副，請給百官，朝容稍備。以迎奉功，遷檢校侍中。簡與梁祖同宗，乃陳情於梁祖曰：「仆位崇將相，比無勳勞，皆元帥令公生成之造也。願以微生灰粉為效，乞以姓名，肩隨宗室。」梁祖深賞其心，乃名之為友謙，編入屬籍，待遇同於己子。友謙亦盡心葉讚，功烈居多。"
+        }
+      ],
+      "notes": [
+        "改名入籍为此段后续，不能据奉迎年推造具体收养日。"
+      ]
+    },
+    {
+      "id": "zhu-youqian-hezhong",
+      "title": "梁建国后，移任河中",
+      "summary": "梁建立后，朱友谦调任河中节度使、检校太尉；累官与封冀王另列。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "梁祖建号后移授，未记本次任命月日；开平元年跨907—908年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p12",
+          "originalRevision": 1,
+          "originalSha256": "30889961cc32b19da1dc2a36a21ec2defb3ed957081ccee64a65558e040edc6b",
+          "excerpt": "梁祖建號，移授河中節度使、檢校太尉，累拜中書令，封冀王。"
+        }
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    },
+    {
+      "id": "zhu-youqian-ji-king",
+      "title": "累至中书令，封冀王",
+      "summary": "朱友谦移河中后累拜中书令、封冀王，本传不另标各次授任年月。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "河中任内，未独标累官封王年月",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p12",
+          "originalRevision": 1,
+          "originalSha256": "30889961cc32b19da1dc2a36a21ec2defb3ed957081ccee64a65558e040edc6b",
+          "excerpt": "梁祖建號，移授河中節度使、檢校太尉，累拜中書令，封冀王。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p19",
+          "originalRevision": 1,
+          "originalSha256": "3c2cc1f507663e5d2567df886b81964a1845ca895b49b77ffe1153adde873f44",
+          "excerpt": "太祖即位，徙鎮河中，累遷中書令，封冀王。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-liang-allegiance",
+      "title": "末帝即位后，复称梁藩而不断晋",
+      "summary": "梁末帝即位后以恩礼结纳，朱友谦向梁称臣、奉梁正朔，同时仍与晋往来；不把这一阶段并入朱友珪在位时的结盟。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "梁末帝即位后，未记恢复称臣的具体月日",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p12",
+          "originalRevision": 1,
+          "originalSha256": "30889961cc32b19da1dc2a36a21ec2defb3ed957081ccee64a65558e040edc6b",
+          "excerpt": "及梁末帝嗣位，以恩禮結其心；友謙亦遜辭稱藩，行其正朔。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p21",
+          "originalRevision": 1,
+          "originalSha256": "79d8319b6fe672611af75b156844de584c701cfeb6c03adc420a72a8c7187084",
+          "excerpt": "末帝即位，友謙復臣于梁而不絕晉也。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youqian-tongzhou",
+      "title": "取同州，请晋节旄并获救",
+      "summary": "朱友谦袭取同州，用子朱令德为帅，向梁请节旄不获，改请晋授任；梁来讨，晋遣李嗣昭、李存审援救，胜后加守太尉、封西平王。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "旧史天祐十七年、新史贞明六年；未独月日，传统年跨920—921年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p13",
+          "originalRevision": 1,
+          "originalSha256": "9da4d5028705235dee322acdddeb8bbe2706c17812898515e605f4bf1c0a90f4",
+          "excerpt": "天祐十七年，友謙襲取同州，以其子令德為帥，請節鉞於梁，不獲。友謙即請之於莊宗，令幕客王正言以節旄賜之，梁將劉鄩、尹皓攻同州，友謙來告急，莊宗遣李嗣昭、李存審將兵赴之，敗汴軍於滑北，解圍而還。初，劉鄩兵至蒲中，倉儲匱乏，人心離貳，軍民將校，鹹欲歸梁。友謙諸子令錫等亦說其父曰：「晉王雖推心於我，然懸兵赴援，急維相應，寧我負人，擇福宜重。請納款於梁，候劉鄩兵退後，與晉王修好。」友謙曰：「晉王親赴予急，夜半秉燭戰賊，麵為盟誓，不負初心。昨聞吾告難，命將星行，助我資糧，分我衣屨，而欲翻覆背惠，所謂鄧祁侯云『人將不食吾餘』也。」及破梁軍，加守太尉、西平王。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p21",
+          "originalRevision": 1,
+          "originalSha256": "79d8319b6fe672611af75b156844de584c701cfeb6c03adc420a72a8c7187084",
+          "excerpt": "末帝即位，友謙復臣于梁而不絕晉也。貞明六年，友謙遣其子令德襲同州，逐節度使程全暉，因求兼鎮。末帝初不許，已而許之，制命未至，友謙復叛，始絕梁而附晉矣。末帝遣劉鄩等討之，鄩為李存審所敗。晉封友謙西平王，加守太尉，以其子令德為同州節度使。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记梁先拒后允",
+          "sourceDate": "贞明六年，未标本役月日",
+          "summary": "新史称令德袭取同州后，友谦求兼镇；末帝先拒绝，随后允准，但制命未到，友谦已绝梁附晋。旧史只记请节钺不获，两书过程分别保存。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p21",
+              "originalRevision": 1,
+              "originalSha256": "79d8319b6fe672611af75b156844de584c701cfeb6c03adc420a72a8c7187084",
+              "excerpt": "末帝即位，友謙復臣于梁而不絕晉也。貞明六年，友謙遣其子令德襲同州，逐節度使程全暉，因求兼鎮。末帝初不許，已而許之，制命未至，友謙復叛，始絕梁而附晉矣。末帝遣劉鄩等討之，鄩為李存審所敗。晉封友謙西平王，加守太尉，以其子令德為同州節度使。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 920,
+        "end": 921
+      }
+    },
+    {
+      "id": "zhu-youqian-changan-honors",
+      "title": "后唐灭梁后入朝，获恩宠与盐务",
+      "summary": "朱友谦赴洛觐见受李存勖慰劳，回藩后请慈隰未允、改得绛州，又获准解县盐池专卖。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "同光元年灭梁后入洛，原段未记月，跨923—924年范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p14",
+          "originalRevision": 1,
+          "originalSha256": "c342209ee2e130306fc1ab2a118ce49d5034ffc785e35b27c80ae72266cdb031",
+          "excerpt": "同光元年，莊宗滅梁，友謙覲於洛陽。莊宗置宴饗勞，寵錫無算，親酌觴屬友謙曰：「成吾大業者，公之力也。」既歸藩，請割慈、隰二郡，依舊隸河中，不許，詔以絳州隸之。又請解縣兩池榷鹽，每額輸省課，許之。及郊禮畢，以友謙為守太師、尚書令，進食邑至萬八千戶。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      }
+    },
+    {
+      "id": "zhu-youqian-rename",
+      "title": "赐李姓继麟，获免死铁券",
+      "summary": "旧史记同光三年朱友谦赐李姓、名继麟，获免死铁券，诸子领军镇。新史将赐名放在灭梁入洛来朝的接叙中。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "range",
+      "sourceDate": "旧本传同光三年，未独月日，传统年跨925—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v063",
+          "paragraphId": "old-v063-p14",
+          "originalRevision": 1,
+          "originalSha256": "c342209ee2e130306fc1ab2a118ce49d5034ffc785e35b27c80ae72266cdb031",
+          "excerpt": "三年，賜姓，名繼麟，編入屬籍，賜之鐵券，恕死罪。以其子令德為遂州節度使，令錫為許州節度使。一門三鎮，諸子為刺史者六七人，將校剖竹者又五六人，恩寵之盛，時無與比。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史赐名的叙次",
+          "sourceDate": "庄宗灭梁入洛，友谦来朝时接叙，未独记年",
+          "summary": "新史来朝即接赐名继麟，明年加太师赐铁券，旧史明记三年赐名，分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p22",
+              "originalRevision": 1,
+              "originalSha256": "9449e8ddc31a14b83229a3366151d7575fefa04434248839e4ab8a5db271f0f6",
+              "excerpt": "莊宗滅梁入洛，友謙來朝，賜姓名曰李繼麟，賜予鉅萬。明年，加守太師、尚書令，賜鐵券恕死罪。以其子令德為遂州節度使，令錫忠武軍節度使，諸子及其將校為刺史者十餘人，恩寵之盛，時無與比。"
+            }
+          ]
+        },
+        {
+          "label": "旧史本纪同光元年赐名",
+          "sourceDate": "同光元年十一月乙巳",
+          "year": 923,
+          "summary": "旧史庄宗本纪记同光元年十一月来朝后赐姓李、名继麟，与本传同光三年不同；新史亦在灭梁入洛后接记赐名。",
+          "evidence": [
+            {
+              "chapterId": "old-v030",
+              "paragraphId": "old-v030-p1",
+              "originalRevision": 1,
+              "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+              "excerpt": "同光元年冬十月辛未朔，日有食之。"
+            },
+            {
+              "chapterId": "old-v030",
+              "paragraphId": "old-v030-p14",
+              "originalRevision": 1,
+              "originalSha256": "e6303b6b5acdc01ba3e15da0ea0c2b27f7a982b064e2275a2b8133661416f8ce",
+              "excerpt": "十一月辛丑朔，有司奏：「河南州縣見使偽印，望追毀改鑄。"
+            },
+            {
+              "chapterId": "old-v030",
+              "paragraphId": "old-v030-p14",
+              "originalRevision": 1,
+              "originalSha256": "e6303b6b5acdc01ba3e15da0ea0c2b27f7a982b064e2275a2b8133661416f8ce",
+              "excerpt": "癸卯，河中節度使、西平王朱友謙來朝。乙巳，賜友謙姓，改名繼麟，帝令皇子繼岌兄事之。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
+    }
+  ]
+}

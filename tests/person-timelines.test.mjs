@@ -1,15 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { loadLibrary } from '../content/library.mjs';
-import { loadPersonTimelines, validatePersonTimeline, timelineEvidence, buildTimelineSummary } from '../content/person-timelines.mjs';
+import { loadPersonTimelines, validatePersonTimeline, validateTimelineCoverage, timelineEvidence, buildTimelineSummary } from '../content/person-timelines.mjs';
 
 const library = loadLibrary();
 const documents = loadPersonTimelines(library);
 const byPerson = new Map(documents.map(document => [document.personId, document]));
+const baseline = byPerson.get('li-cunxu');
 
-test('both individual timelines resolve all primary and alternative citations in the current archive', () => {
-  assert.deepEqual([...byPerson.keys()].sort(), ['li-cunxu', 'li-keyong']);
-  assert.equal(documents.reduce((n, document) => n + document.events.length, 0), 52);
+test('all saved timelines resolve their primary and alternative citations without changing the original two', () => {
+  assert.equal(byPerson.get('li-cunxu').events.length, 26);
+  assert.equal(byPerson.get('li-keyong').events.length, 26);
   for (const document of documents) {
     assert.equal(validatePersonTimeline(document, library), document);
     for (const event of document.events) assert.ok(timelineEvidence(event).length > 0);
@@ -24,12 +25,12 @@ test('future entries and safe event identities derive from actual validated pers
     assert.deepEqual(person.eventIds, source.events.map(event => event.id));
     assert.equal(person.eventCount, source.events.length);
   }
-  assert.equal(summary.people.some(person => person.personId === 'zhu-wen'), false);
+  assert.equal(summary.people.some(person => person.personId === 'unregistered-person'), false);
 });
 
 test('stale references, invented sources and duplicate citations are rejected before database writes', () => {
   const invalid = change => {
-    const document = structuredClone(documents[0]); change(document);
+    const document = structuredClone(baseline); change(document);
     assert.throws(() => validatePersonTimeline(document, library), /Invalid person timeline/);
   };
   invalid(document => document.events[0].evidence[0].originalRevision++);
@@ -42,18 +43,40 @@ test('stale references, invented sources and duplicate citations are rejected be
 
 test('unregistered identities, unsorted events and private audit metadata cannot enter public documents', () => {
   const invalid = change => {
-    const document = structuredClone(documents[0]); change(document);
+    const document = structuredClone(baseline); change(document);
     assert.throws(() => validatePersonTimeline(document, library), /Invalid person timeline/);
   };
   invalid(document => document.personId = 'unknown');
   invalid(document => document.events = []);
-  invalid(document => document.events[0].id = documents[1].events[0].id);
+  invalid(document => document.events[0].id = byPerson.get('li-keyong').events[0].id);
   invalid(document => document.events[1].id = document.events[0].id);
   invalid(document => document.events.reverse());
   invalid(document => document.events[0].year = 885.5);
   invalid(document => document.events[0].precision = 'guessed');
   invalid(document => document.audit = { humanReviewed: true });
   invalid(document => document.events[0].evidence[0].translation = '截译');
+});
+
+test('unknown dates and sourced year ranges remain explicit, sort after dated events and never become fake years', () => {
+  const input = structuredClone(baseline), source = input.events[0];
+  input.events = [source, { ...structuredClone(source), id: 'li-cunxu-range-fixture', year: null, yearRange: { start: 913, end: 914 },
+    precision: 'range', phase: 'uncertain', sortOrder: 90 }, { ...structuredClone(source), id: 'li-cunxu-undated-fixture',
+    year: null, precision: 'undated', phase: 'uncertain', sortOrder: 91 }];
+  assert.equal(validatePersonTimeline(input, library), input);
+  for (const change of [doc => doc.events[1].yearRange.end = 912, doc => doc.events[1].year = 913,
+    doc => doc.events[1].yearRange.start = 913.5, doc => doc.events[1].precision = 'month',
+    doc => doc.events[2].phase = 'service', doc => doc.events[2].sortOrder = 90, doc => doc.events.reverse()]) {
+    const changed = structuredClone(input); change(changed);
+    assert.throws(() => validatePersonTimeline(changed, library), /Invalid person timeline/);
+  }
+});
+
+test('adding a person to the registry requires its timeline instead of accepting a silent missing entry', () => {
+  const existing = ['li-cunxu', 'li-keyong'].map(id => byPerson.get(id));
+  const registry = existing.map(document => ({ id: document.personId }));
+  assert.equal(validateTimelineCoverage(existing, registry).people, 2);
+  assert.throws(() => validateTimelineCoverage(existing, [...registry, { id: 'new-person-fixture' }]), /missing person timelines: new-person-fixture/);
+  assert.throws(() => validateTimelineCoverage([...existing, existing[0]], registry), /unique person coverage/);
 });
 
 test('cross-year evidence preserves source dates and different chronologies without merging them', () => {

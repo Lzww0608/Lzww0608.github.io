@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "personId": "gao-baoxu",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "gao-baoxu-accession",
+      "year": 960,
+      "sourceDate": "建隆元年高保融卒后",
+      "title": "继任荆南节度使",
+      "summary": "高保融去世后接掌军府，获节度使职。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p16",
+          "originalRevision": 1,
+          "originalSha256": "09b19b2a514d8268049eab05b7057d3d17f0fbac2031182edbf2553d8b3e5c91",
+          "excerpt": "保融性迂緩，無材能，而事無大小，皆委其弟保勗。其從叔從義謀為亂，為其徒高知訓所告，徙之松滋而殺之。宋興，保融懼，一歲之間三入貢。建隆元年，以疾卒，年四十一，贈太尉，謚曰貞懿。弟保勗立。"
+        },
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p17",
+          "originalRevision": 1,
+          "originalSha256": "788dc6be27019cbeb4114a02dcff0fdebbe539c6eb746a48572adf58df973b04",
+          "excerpt": "保勗字省躬，從誨第十子也。保融卒，拜節度使。三年，保勗疾，謂其將梁延嗣曰：「我疾遂不起，兄弟孰可付之後事者？」延嗣曰：「公不念貞懿王乎？先王寢疾，以軍府付公，今先王子繼冲長矣。」保勗曰：「子言是也。」即以繼冲判內外兵馬。十一月，保勗卒，年三十九，贈侍中。保融之子繼冲立。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 2
+    },
+    {
+      "id": "gao-baoxu-select-successor",
+      "year": 962,
+      "sourceDate": "建隆三年病重时",
+      "title": "听梁延嗣之议，以高继冲主兵",
+      "summary": "病重询问后事，梁延嗣提醒归政给先王之子高继冲，于是让继冲判内外兵马。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p17",
+          "originalRevision": 1,
+          "originalSha256": "788dc6be27019cbeb4114a02dcff0fdebbe539c6eb746a48572adf58df973b04",
+          "excerpt": "保勗字省躬，從誨第十子也。保融卒，拜節度使。三年，保勗疾，謂其將梁延嗣曰：「我疾遂不起，兄弟孰可付之後事者？」延嗣曰：「公不念貞懿王乎？先王寢疾，以軍府付公，今先王子繼冲長矣。」保勗曰：「子言是也。」即以繼冲判內外兵馬。十一月，保勗卒，年三十九，贈侍中。保融之子繼冲立。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 3
+    },
+    {
+      "id": "gao-baoxu-death",
+      "year": 962,
+      "sourceDate": "建隆三年十一月（新史）",
+      "title": "病逝，高继冲继承",
+      "summary": "去世，赠侍中，保融之子继冲承主。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p17",
+          "originalRevision": 1,
+          "originalSha256": "788dc6be27019cbeb4114a02dcff0fdebbe539c6eb746a48572adf58df973b04",
+          "excerpt": "保勗字省躬，從誨第十子也。保融卒，拜節度使。三年，保勗疾，謂其將梁延嗣曰：「我疾遂不起，兄弟孰可付之後事者？」延嗣曰：「公不念貞懿王乎？先王寢疾，以軍府付公，今先王子繼冲長矣。」保勗曰：「子言是也。」即以繼冲判內外兵馬。十一月，保勗卒，年三十九，贈侍中。保融之子繼冲立。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "month",
+      "variants": [
+        {
+          "label": "旧史卒年异说",
+          "sourceDate": "建隆四年春",
+          "evidence": [
+            {
+              "chapterId": "old-v133",
+              "paragraphId": "old-v133-p10",
+              "originalRevision": 1,
+              "originalSha256": "d87c900c6e2efe99d6b10d3ea86f3fa2ceec314925e171dac26808c900781bbd",
+              "excerpt": "皇朝建隆四年春卒。是歲，荊門之地不為高氏所有，則「萬事休」之言，蓋先兆也。"
+            }
+          ],
+          "year": 963,
+          "summary": "旧史记963年春，新史记962年十一月；主序依新史，保留差别。"
+        }
+      ],
+      "sortOrder": 4
+    },
+    {
+      "id": "gao-baoxu-administration",
+      "year": null,
+      "sourceDate": "高保融在位期间，年月未详",
+      "title": "受兄委任处理荆南政事",
+      "summary": "保融把大小政务委给保勖。新史称保勖为高从诲第十子；旧史称高季兴幼子，父系不同分别保留。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p16",
+          "originalRevision": 1,
+          "originalSha256": "09b19b2a514d8268049eab05b7057d3d17f0fbac2031182edbf2553d8b3e5c91",
+          "excerpt": "保融性迂緩，無材能，而事無大小，皆委其弟保勗。其從叔從義謀為亂，為其徒高知訓所告，徙之松滋而殺之。宋興，保融懼，一歲之間三入貢。建隆元年，以疾卒，年四十一，贈太尉，謚曰貞懿。弟保勗立。"
+        },
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p17",
+          "originalRevision": 1,
+          "originalSha256": "788dc6be27019cbeb4114a02dcff0fdebbe539c6eb746a48572adf58df973b04",
+          "excerpt": "保勗字省躬，從誨第十子也。保融卒，拜節度使。三年，保勗疾，謂其將梁延嗣曰：「我疾遂不起，兄弟孰可付之後事者？」延嗣曰：「公不念貞懿王乎？先王寢疾，以軍府付公，今先王子繼冲長矣。」保勗曰：「子言是也。」即以繼冲判內外兵馬。十一月，保勗卒，年三十九，贈侍中。保融之子繼冲立。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 948,
+        "end": 960
+      },
+      "variants": [
+        {
+          "label": "旧史所述父系",
+          "sourceDate": "高季兴在世时",
+          "evidence": [
+            {
+              "chapterId": "old-v133",
+              "paragraphId": "old-v133-p10",
+              "originalRevision": 1,
+              "originalSha256": "d87c900c6e2efe99d6b10d3ea86f3fa2ceec314925e171dac26808c900781bbd",
+              "excerpt": "保勖，季興之幼子也。鐘愛尤甚，季興在世時，或因事盛怒，左右不敢竊視，惟保勖一見，季興則怒自解，故荊人目之為「萬事休」。皇朝建隆四年春卒。"
+            }
+          ],
+          "summary": "旧史称季兴幼子且受钟爱，新史称从诲第十子，不合并为同一确定父系。"
+        }
+      ],
+      "sortOrder": 1
+    }
+  ]
+}

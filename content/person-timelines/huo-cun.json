@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "huo-cun",
+  "events": [
+    {
+      "id": "huo-cun-join",
+      "title": "王满渡战后归朱温",
+      "summary": "霍存原在黄巢军为将，王满渡战败后，与葛从周、张归霸归朱温，被赦免接纳。",
+      "year": 884,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "中和四年，葛本传同役三月明确霍存同来降，锁884",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "唐中和四年，太祖大破巢軍於王滿渡，時存與葛從周、張歸霸皆自巢軍來降，太祖宥而納之。"
+        },
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p2",
+          "originalRevision": 1,
+          "originalSha256": "023329fe734da158fa695151d8934f4f9f71257fca3164ed9c59a9e53765b275",
+          "excerpt": "唐中和四年三月，太祖大破巢軍於王滿渡，從周與霍存、張歸霸昆弟相率來降。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-death",
+      "title": "石佛山败徐兖军，中箭身亡",
+      "summary": "朱瑾率兵援徐，霍存从曹州领骑驰赴，在石佛山大败徐、兖军，自己中流箭而死。",
+      "year": 893,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "景福二年春",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "景福二年春，太祖親至曹州，留騎軍數千，令存將之，且曰：「有急則倍道兼行以赴之。」俄聞朱瑾領兵二萬入援彭門，存乃領騎軍馳赴之，與徐、兗之眾合戰於石佛山下，大敗之，存亦中流矢而卒，時人稱其忠勇。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史石佛山布兵",
+          "sourceDate": "石佛山役，未独记年号",
+          "summary": "新史从攻郓、朱瑾来救起叙，记霍存伏萧县后败朱瑾时溥；旧传从援彭门驰军起叙，两书角色与战地原说保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p39",
+              "originalRevision": 1,
+              "originalSha256": "e2bf21881785a7b82899012e1d0d7992465bc6205274187b74e1b81408a5c2c7",
+              "excerpt": "梁攻鄆州，朱瑾來救，梁諸將或勸太祖縱瑾入鄆，耗其食，堅圍勿戰，以此可俱弊。太祖曰：「瑾來必與時溥俱，不若遣存邀之。」存伏兵蕭縣，已而瑾果與溥俱出迷離，存發伏擊之，遂敗瑾等於石佛山，存中流矢卒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-early-campaigns",
+      "title": "战王夏铁林，参与滑淄博昌攻取",
+      "summary": "霍存归朱温后参与王夏寨及铁林战事，又协朱珍取滑台、攻淄州、取博昌，都预战立功；原未逐役独标年份。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "中和四年归附后的早期战事，未独逐役纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "其後破王夏寨，擊殷鐵林，並在戰中。尋佐朱珍取滑台，攻淄州，取博昌，皆預戰立功。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-caizhou",
+      "title": "夜攻张至营，击败秦贤",
+      "summary": "霍存率三千人夜破张至营，又以本部骑兵击秦贤、连破营寨，随军平蔡立功。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "平蔡诸役，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "時蔡賊張至在汴北，存以三千人夕犯其營，破之。用本部騎兵敗秦賢軍，殺五千人，連破四寨，盡得其輜重。從討盧瑭、張至，殪萬餘人，存功居多。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史蔡役人数",
+          "sourceDate": "秦宗权攻汴时，未独纪年",
+          "summary": "新史杀秦贤军三千，旧史五千；张至/张晊文字分别照原，不拼为同数。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p37",
+              "originalRevision": 1,
+              "originalSha256": "2d242ba5c0b21de9cba5851df4aba3e7ee1a9ed7ab44f333a11f4d1501e35680",
+              "excerpt": "秦宗權攻汴，存以三千人夜破張晊柵，又以騎兵破秦賢，殺三千人，敗晊於赤岡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-follow-campaigns",
+      "title": "擒石璠、战吕梁，渡淮缺粮时获胜",
+      "summary": "霍存协朱珍擒石璠、破魏败徐，又协庞师古吕梁败时溥；渡淮军粮不足时，只有霍存部队战胜，使淮军退去。此组接续叙事未逐役给年。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "朱珍与庞师古征战及渡淮各役的概叙，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "復佐朱珍擒石璠，破魏師，敗徐戎。又佐龐師古至呂梁，敗時溥二千餘眾，以是累遷官。初，王師渡淮乏食，不甚利，惟存軍戰有功，淮賊乃引退。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-suzhou",
+      "title": "城外作战，协同攻宿州",
+      "summary": "攻宿州时葛从周引水坏城，丁会登城，霍存在城外击败守军，宿州遂降。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "太祖讨宿州，未在本传标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "太祖之討宿州也，葛從周以水壞其垣，丁會以師乘其墉，存戰壘外，敗其軍，宿人乃降。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-dangshan",
+      "title": "砀山擒石君和，两书叙次有差",
+      "summary": "霍存协朱友裕在砀山击败时溥、擒石君和等；旧传记宿州战后明年，新史记代李唐宾后、宿州战前，分别保存，未给唯一确年。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "旧宿州后的明年；新代李唐宾后、宿州之前",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "明年，佐郴王友裕擊時溥於碭山，破之，獲蕃將石君和等五十人。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史砀山位置",
+          "sourceDate": "朱珍与李唐宾死后接军",
+          "summary": "新史砀山接在代唐宾之后，后面才叙宿州，不统一新旧叙事顺序。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p38",
+              "originalRevision": 1,
+              "originalSha256": "ec1f1cc76afde71e3ad7136f2b61aa43f5a06ca6c4e4d13c1786f7a327a47f47",
+              "excerpt": "朱珍與李唐賓俱死，乃以龐師古代珍、存代唐賓以攻溥，破碭山，存獲其將石君和等五十人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-zezhou",
+      "title": "马牢川前锋与后拒，袭淇门",
+      "summary": "霍存与晋军战马牢川，进为先锋、退为后卫；随后渡河袭淇门，又援曹州降将郭绍宾并代任刺史。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "砀山之战接叙年度，未明记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "）〉是歲，復與晉軍戰於馬牢川，始入為前鋒，出則後拒，晉不敢逼，乃渡河襲淇門，殺三千餘人。曹州刺史郭紹賓之來歸也，存以師援之，遂代其任。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史马牢与淇门叙次",
+          "sourceDate": "取砀山、宿州之后接叙，未独纪年",
+          "summary": "新史记马牢后退却东攻魏取淇门，再任曹州与军职；旧传也有宿州—明年砀山—是岁马牢的叙次，不能靠是岁替诸战倒造唯一年份。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p38",
+              "originalRevision": 1,
+              "originalSha256": "ec1f1cc76afde71e3ad7136f2b61aa43f5a06ca6c4e4d13c1786f7a327a47f47",
+              "excerpt": "朱珍與李唐賓俱死，乃以龐師古代珍、存代唐賓以攻溥，破碭山，存獲其將石君和等五十人。梁攻宿州，葛從周引水浸之，丁會與存戰城下，遂下之。從攻潞州，與晉人遇，戰馬牢川，存入則當其前，出則為其殿，晉人却，遂東攻魏，取淇門，殺三千人。梁得曹州，太祖以存為刺史，兼諸軍都指揮使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-save-youyu",
+      "title": "率二百骑救出朱友裕",
+      "summary": "朱友裕攻郓陷围，霍存领二百骑急赴击退敌军，朱温升为诸军都指挥使。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "攻郓州时，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "始，朱友裕以大軍伐鄆，臨其壁，既而師陷圍中，以急來告，存領二百騎馳赴擊退之。太祖喜，拔為諸軍都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-xuzhou",
+      "title": "李唐宾被杀后接管其军",
+      "summary": "朱珍和李唐宾被诛后，庞师古接朱珍军，霍存接李唐宾军，多次与庞师古共同作战；不把后来砀山役写在889接军条内。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "龙纪初李唐宾死后接軍；新本纪七月记杀李，不据他人死月限定随后未独月任官；合法十二月日890年1月4日、次大顺元朔890年1月25日作年度末界",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p5",
+          "originalRevision": 1,
+          "originalSha256": "c7e7f432f24e922f406d19cdbd03f86b185298c39e6d2868fbf072966e5bff37",
+          "excerpt": "初，朱珍、李唐賓之歿，龐師古代珍，存代唐賓，戰伐功績，多與師古同。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p7",
+          "originalRevision": 1,
+          "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+          "excerpt": "龍紀元年正月，師古敗溥于呂梁。淮西牙將申叢執秦宗權，折其足，將檻送京師；別將郭璠殺叢，篡宗權以來獻。王遣行軍司馬李璠獻俘于京師，表郭璠淮西留後。三月，天子封王為東平王。七月，朱珍殺李唐賓，王如蕭縣，執珍殺之"
+        }
+      ],
+      "notes": [
+        "889年只作接军起点，后续砀山等战事不全部系于同年。"
+      ],
+      "yearRange": {
+        "start": 889,
+        "end": 890
+      }
+    },
+    {
+      "id": "huo-cun-provincial-posts",
+      "title": "遥领韶贺，后权知曹州",
+      "summary": "霍存先遥领韶州牧、改贺州，后权知曹州刺史，升检校右仆射；遥领不记为已经到韶贺治理。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "累次军职迁升，本传未独授官日期",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p5",
+          "originalRevision": 1,
+          "originalSha256": "c7e7f432f24e922f406d19cdbd03f86b185298c39e6d2868fbf072966e5bff37",
+          "excerpt": "始遙領韶州牧，又改賀州，後用為權知曹州刺史，官至檢校右僕射。"
+        }
+      ]
+    },
+    {
+      "id": "huo-cun-honor",
+      "title": "梁太祖念旧，屡赠至太保",
+      "summary": "朱温称帝后阅兵时多次忆及霍存，追赠其官至太保。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "太祖登极后，未记各次追赠确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p5",
+          "originalRevision": 1,
+          "originalSha256": "c7e7f432f24e922f406d19cdbd03f86b185298c39e6d2868fbf072966e5bff37",
+          "excerpt": "及太祖登極，屢有征討，因起猛士之歎。一日，幸講武台閱兵，謂諸將曰：「霍存在，朕安有此勞苦耶！諸君其思之。」他日語又如是，累贈官至太保。"
+        }
+      ]
+    }
+  ]
+}

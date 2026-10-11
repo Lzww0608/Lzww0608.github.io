@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "ma-sixun",
+  "events": [
+    {
+      "id": "ma-sixun-hao",
+      "title": "携州印户籍，奉濠州归款",
+      "summary": "马嗣勋世为军吏、任客将，张遂命其携濠州州印、户籍归款朱温。",
+      "year": 892,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "景福元年三月",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "馬嗣勳，濠州鍾離縣人，世為軍吏。嗣勳有口辯，習武藝，初為州客將。唐景福元年三月，太祖以壽州刺史江儒反下蔡鎮使，李立率兵攻濠梁，刺史張遂俾嗣勳持州印籍戶口以歸於太祖。"
+        }
+      ]
+    },
+    {
+      "id": "ma-sixun-join",
+      "title": "求援未成，濠陷留事朱温",
+      "summary": "杨行密攻濠州，张遂遣马嗣勋求援，濠州先陷，他无所归而留朱温幕，任元从押牙、副典客。",
+      "year": 895,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "乾宁二年三月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "乾寧二年三月，楊行密復攻濠州，張遂遣嗣勳求援於太祖。俄而郡陷，嗣勳無所歸，即署為元從押牙、副典客，頗稱任使。"
+        }
+      ]
+    },
+    {
+      "id": "ma-sixun-guangzhou",
+      "title": "劝刘存归附，参加黄武及光州战事",
+      "summary": "马嗣勋到光州说刘存归国，并从李彦威复黄州、武昌，擒瞿章；再使光州时与刘存共同拒淮军。",
+      "year": 898,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "光化元年三月起",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "光化元年三月，太祖令往光州說刺史劉存背淮賊以向國，又從李彥威復黃州及武昌縣，獲刺史瞿章。俄復使光州，持幣馬以賜劉存。會淮賊急攻光州，存與嗣勳率兵大戰，敗而走之。又遣使於蜀，及歸，得其助軍貲實甚多。"
+        }
+      ]
+    },
+    {
+      "id": "ma-sixun-death",
+      "title": "助诛魏博牙军，重伤后卒",
+      "summary": "马嗣勋以助葬掩护带千兵和器械入魏，与罗绍威亲军夜攻牙军，重伤后十日去世。身后赠官另列，不把开平的赠官压在906年。",
+      "year": 906,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "旧史天祐三年正月十六日夜及旬日后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "時安陽公主初卒於魏，太祖乃遺嗣勳率長直官千人，實兵仗於橐中，肩舁以入於魏，聲言來致祭會葬，牙軍不之覺。天祐三年正月十六日夜，嗣勳與紹威親軍同攻牙軍，至曙，盡殪之。嗣勳重傷，旬日而卒。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史从二年策划起叙",
+          "sourceDate": "天祐二年起叙杀牙军谋，未另标行动日",
+          "summary": "新史从天祐二年罗绍威请援记起，继叙入魏杀军及嗣勋重伤卒；旧史明记三年正月十六日行动，不将两个记法拼成同一确日。",
+          "evidence": [
+            {
+              "chapterId": "new-v23",
+              "paragraphId": "new-v23-p26",
+              "originalRevision": 1,
+              "originalSha256": "0dcb9a3ddb6809a420a35355dd69190db4f1dce9dc0a32c6bbbd9dbb7a15cc8f",
+              "excerpt": "天祐二年，羅紹威將誅牙軍，乞兵於梁，梁女嫁魏，適死，太祖乃遣嗣勳以長直千人為綵輿入魏，致兵器於輿中，聲言助葬。嗣勳館銅臺，夜與魏新鄉鎮兵攻石柱門，入迎紹威家屬，衞之。乃益取魏甲兵攻牙軍，牙軍不知兵所從來，莫能為備，殺其八千餘人，遲明皆盡。嗣勳中重瘡卒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ma-sixun-shu-hua",
+      "title": "出使蜀地，后说韩建出见",
+      "summary": "马嗣勋出使蜀地获取助军物资；凤翔围战期间出使华州，说韩建出迎朱温。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "出蜀及天复中迎帝时，未标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "又遣使於蜀，及歸，得其助軍貲實甚多。天復中，太祖迎昭宗於岐下，軍至華之西，使嗣勳入見，韓建即時同出迎謁。"
+        }
+      ]
+    },
+    {
+      "id": "ma-sixun-posthumous",
+      "title": "梁建国后追赠太保",
+      "summary": "新史记朱温即位后赠太保；旧史记开平年间累次追赠，未独记每次赠官年月，分别保留两书时序。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "新史太祖即位后；旧史开平中，未独赠官年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "開平中，累贈太保。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p26",
+          "originalRevision": 1,
+          "originalSha256": "0dcb9a3ddb6809a420a35355dd69190db4f1dce9dc0a32c6bbbd9dbb7a15cc8f",
+          "excerpt": "太祖即位，贈太保。"
+        }
+      ]
+    }
+  ]
+}

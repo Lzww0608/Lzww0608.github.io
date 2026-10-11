@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-congjing",
+  "events": [
+    {
+      "id": "li-congjing-first-mission",
+      "title": "任金枪指挥，奉诏至父军",
+      "summary": "作为明宗李嗣源之子、金枪指挥使，奉庄宗诏驰往李嗣源军计事。",
+      "year": 926,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "同光四年三月，魏州兵变后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p40",
+          "originalRevision": 1,
+          "originalSha256": "c824b8771209eefae224e5694fc17611f6f48d8abb9eed9379f91bb18951ecd1",
+          "excerpt": "莊宗遣金槍指揮使李從璟馳詔明宗計事。從璟，明宗子也。"
+        }
+      ]
+    },
+    {
+      "id": "li-congjing-detention",
+      "title": "卫州遭元行钦拘，获准回京",
+      "summary": "到卫州时被元行钦拘押且欲杀，请求回京后获准；旧史亦记道上被扣。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "同光四年，首次奉使途中",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p40",
+          "originalRevision": 1,
+          "originalSha256": "c824b8771209eefae224e5694fc17611f6f48d8abb9eed9379f91bb18951ecd1",
+          "excerpt": "行欽乃縶從璟，將殺之，從璟請還京師，乃許之。"
+        },
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p2",
+          "originalRevision": 1,
+          "originalSha256": "276127dcdc135593407d87b3d6f9b224dc1b2fc671e9814a18f15b23b71df575",
+          "excerpt": "因令白從訓與明宗子繼璟至軍前，欲令見明宗，行欽縶繼璟於路。明宗凡奏軍機，拘留不達，故旬日之間，音驛斷絕。"
+        }
+      ]
+    },
+    {
+      "id": "li-congjing-death-second-mission",
+      "title": "再受命通问李嗣源，被元行钦杀",
+      "summary": "庄宗行至荥泽、闻李嗣源渡黎阳，再遣李从璟通问，元行钦阻止并杀之。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "同光四年三月，庄宗幸汴途中",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p40",
+          "originalRevision": 1,
+          "originalSha256": "c824b8771209eefae224e5694fc17611f6f48d8abb9eed9379f91bb18951ecd1",
+          "excerpt": "莊宗復遣從璟通問于明宗，行欽以為不可，因擊殺從璟。"
+        }
+      ]
+    }
+  ]
+}

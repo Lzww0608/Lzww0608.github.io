@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "an-zhongba",
+  "events": [
+    {
+      "id": "an-zhongba-offer-qinzhou",
+      "title": "闻明宗起兵，献秦成等州归唐",
+      "summary": "旧史记王承休离秦州后，安重霸留守，听李嗣源起河北即遣使献秦、成等州；新史记为唐军破蜀后归唐。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "明宗起河北时；新史叙唐军破蜀后",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p7",
+          "originalRevision": 1,
+          "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+          "excerpt": "承休既去，重霸在秦州，聞明宗起河北，即時遣使以秦、成等州來降。"
+        }
+      ],
+      "notes": [
+        "归唐时序依两书分别保留：旧史联系明宗起兵，新史联系破蜀，不将两者拼成同一确定日。"
+      ],
+      "variants": [
+        {
+          "label": "新史记唐军破蜀后献三州",
+          "sourceDate": "唐军已破蜀后，未纪明确月日",
+          "summary": "新史把献秦、成、阶三州放在唐军破蜀之后；旧史联系明宗起河北，保留两书归附叙次。",
+          "evidence": [
+            {
+              "chapterId": "new-v46",
+              "paragraphId": "new-v46-p31",
+              "originalRevision": 1,
+              "originalSha256": "0ddd020f666b0d4ddd12dc94a7ca60b5a09ab66d446b5cc729b98c463ab12feb",
+              "excerpt": "唐軍已破蜀，重霸亦以秦、成、階三州降唐，明宗以為閬州團練使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-early-defections",
+      "title": "从河东奔梁，再奔蜀",
+      "summary": "先与李嗣源事奉李克用，获罪后逃梁，再因罪奔蜀，被前蜀用为亲将。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p6",
+          "originalRevision": 1,
+          "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+          "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-longwu-deputy",
+      "title": "结王承休，任秦州龙武副帅",
+      "summary": "前蜀夺取秦成阶等州后，劝王承休求镇秦州，选精兵组成龙武军，自己任副帅。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "梁末及其后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p6",
+          "originalRevision": 1,
+          "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+          "excerpt": "梁末，岐下削弱，蜀人奪取秦、成、階等州，重霸說承休求鎮秦州。仍於軍中選山東驍果，得數千人，號龍武都，以承休為軍帥，重霸副焉，俱在天水。"
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-remain-qinzhou",
+      "title": "伐蜀时劝承休救援，自己留秦",
+      "summary": "唐军征蜀后，先承诺陪王承休返蜀，待其出发又以守秦陇为辞留下。旧史把王衍出游与魏王来军接叙于同光二年十月，纪年疑点不暗改。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "旧史同光二年十月接叙；新史唐魏王兵伐蜀时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p30",
+          "originalRevision": 1,
+          "originalSha256": "f24f0258dd11a1b2486f1bd4f473a7c4f80e8b5ab4738d003054a370dc5bcb76",
+          "excerpt": "酒罷，承休上道，重霸立承休馬前，辭曰：「秦、隴不可失，願留為公守。」承休業已上道，無如之何。"
+        }
+      ],
+      "notes": [
+        "旧史同光二年与已归档同光三年伐蜀本纪存在叙时问题，事件暂不推定唯一西历年。"
+      ],
+      "variants": [
+        {
+          "label": "旧史同光二年十月叙出游与伐蜀",
+          "sourceDate": "同光二年十月",
+          "summary": "旧史把王衍东游、魏王来军接叙于二年十月，与所收伐蜀本纪三年纪事不同；本事件仍不指定唯一西历年。",
+          "evidence": [
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p7",
+              "originalRevision": 1,
+              "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+              "excerpt": "同光二年十月，蜀主率眾數萬，由劍閣將出興、鳳，以遊秦州；至興州，遇魏王繼岌軍至，狼狽而旋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-langzhou-court",
+      "title": "明宗用为阆州团练，后入禁卫",
+      "summary": "归唐后任阆州团练使，随后召为左卫大将军；明宗念其旧交，后来授同州节度。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "天成初至长兴末",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p7",
+          "originalRevision": 1,
+          "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+          "excerpt": "天成初，用為閬州團練使。未幾，召還為左衛大將軍。"
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-transfer-xijing",
+      "title": "清泰初任西京留守",
+      "summary": "清泰初调西京留守、京兆尹，治长安时私向部民索求财物，被称为“捣蒜老”。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "清泰初",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p7",
+          "originalRevision": 1,
+          "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+          "excerpt": "清泰初，移授西京留守、京兆尹。"
+        }
+      ]
+    },
+    {
+      "id": "an-zhongba-death-return",
+      "title": "移大同后病归潞州而卒",
+      "summary": "从西京转任云州（大同）节度使，病请代任，返回寄居上党的家中后去世。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "清泰初后；具体卒年未记",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p31",
+          "originalRevision": 1,
+          "originalSha256": "0ddd020f666b0d4ddd12dc94a7ca60b5a09ab66d446b5cc729b98c463ab12feb",
+          "excerpt": "徙鎮大同，以病罷還，卒于潞州。"
+        }
+      ]
+    }
+  ]
+}

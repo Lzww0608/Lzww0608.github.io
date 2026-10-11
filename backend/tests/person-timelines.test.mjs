@@ -121,7 +121,8 @@ after(async () => {
 });
 
 test('every actual event resolves all primary and alternative sources using the complete chapter paragraph model', async () => {
-  assert.equal(documents.length, 2);
+  assert.ok(documents.some(document => document.personId === 'li-keyong'));
+  assert.ok(documents.some(document => document.personId === 'li-cunxu'));
   for (const document of documents) {
     const response = await fetch(`${base}/api/people/${document.personId}/timeline`);
     assert.equal(response.status, 200);
@@ -155,7 +156,11 @@ test('every actual event resolves all primary and alternative sources using the 
 test('timeline HTTP is read-only, rejects all query parameters and keeps unknown people unavailable', async () => {
   const route = `${base}/api/people/${documents[0].personId}/timeline`;
   assert.equal((await fetch(`${base}/api/people/unknown/timeline`)).status, 404);
-  assert.equal((await fetch(`${base}/api/people/zhu-wen/timeline`)).status, 404, 'known person without a registered timeline stays unavailable');
+  assert.equal((await fetch(`${base}/api/people/zhu-wen/timeline`)).status, 200, 'canonical people now have registered timelines');
+  await rollbackTest(async repository => {
+    await owner.query('DELETE FROM public.person_timelines WHERE person_id=$1', ['zhu-wen']);
+    assert.equal(await repository.personTimeline('zhu-wen'), null, 'a missing index stays unavailable instead of inventing events');
+  });
   for (const query of ['event=anything', 'personId=li-cunxu', 'limit=1', 'x=', 'x=1&x=2', 'q=%27%3BDROP+TABLE+person_timelines']) {
     assert.equal((await fetch(`${route}?${query}`)).status, 400, query);
   }

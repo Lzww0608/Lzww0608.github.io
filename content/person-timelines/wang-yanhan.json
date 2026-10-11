@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "personId": "wang-yanhan",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wang-yanhan-accession",
+      "year": 925,
+      "sourceDate": "同光三年王审知卒后",
+      "title": "承继威武军府",
+      "summary": "父亲去世后自称威武留后，面对汀州陈本围城，遣柳邕等率兵平乱。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p7",
+          "originalRevision": 1,
+          "originalSha256": "a47bfbe71475d99738cdf9aac20d0bc9925d581b79ff6ab6c6f86dd73c64ef39",
+          "excerpt": "審知同光三年卒，年六十四，謚日忠懿。子延翰立。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p17",
+          "originalRevision": 1,
+          "originalSha256": "d5d36d8e488413f120f007a29357b3f6ba952ba2576c10458fb7000f14eb3b02",
+          "excerpt": "辛未，閩忠懿王審知卒，子延翰自稱威武留後。汀州民陳本聚眾三萬圍汀州，延翰遣右軍都監柳邕等將兵二萬討之。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 1
+    },
+    {
+      "id": "wang-yanhan-king-title",
+      "year": 926,
+      "sourceDate": "同光四年十月（新史）",
+      "title": "自称闽国王，仍奉唐正朔",
+      "summary": "后唐授其节度使，庄宗遇害后，引闽越古国故事劝将吏拥其称王；仍沿后唐历法年号。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p8",
+          "originalRevision": 1,
+          "originalSha256": "27ce1193367c7995f972e77f4fbf5488645fc8b3dc604e3bc3233c184d352ddc",
+          "excerpt": "延翰字子逸，審知長子也。同光四年，唐拜延翰節度使。是歲，莊宗遇弒，中國多故，延翰乃取司馬遷史記閩越王無諸傳示其將吏曰：「閩，自古王國也，吾今不王，何待之有？」於是軍府將吏上書勸進。十月，延翰建國稱王，而猶稟唐正朔。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 2
+    },
+    {
+      "id": "wang-yanhan-death",
+      "year": 927,
+      "sourceDate": "天成元年十二月辛卯（通鉴）",
+      "title": "王延禀入城诛杀，延钧承主",
+      "summary": "王延禀先到福州、杀王延翰，王延钧随后到而被推为威武留后。十二月辛卯核历已入西历927，不截为926。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p10",
+          "originalRevision": 1,
+          "originalSha256": "0d804220c3a4733cead9af625ef546d3b3dc9091759cc074befaff02773c9abe",
+          "excerpt": "審知養子建州刺史延稟，本姓周氏，自審知時與延翰不叶。延翰立，以其弟延鈞為泉州刺史，延鈞怒。二人因謀作亂。十二月，延稟、延鈞皆以兵入，執延翰殺之。而延鈞立，更名鏻。"
+        },
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p66",
+          "originalRevision": 1,
+          "originalSha256": "8d384332e14fa409384949456e420170a67e2e3ef5654b59bad70a7b4c7ca7be",
+          "excerpt": "閩王延翰蔑棄兄弟，襲位才逾月，出其弟延鈞為泉州刺史。延翰多取民女以充後庭，采擇不已。延鈞上書極諫，延翰怒，由是有隙。父審知養子延稟為建州刺史，延翰與書使之采擇，延稟覆書不遜，亦有隙。十二月，延稟、延鈞合兵襲福州。延稟順流先至，福州指揮使陳陶帥眾拒之，兵敗，陶自殺。是夜，延稟帥壯士百餘人趣西門，梯城而入，執守門者，發庫取兵仗。及寢門，延翰驚匿別室；辛卯旦，延稟執之，暴其罪惡，且稱延翰與妻崔氏共弒先王，告諭吏民，斬於紫宸門外。是日，延鈞至成南，延稟開門納之，推延鈞為威武留後。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "day",
+      "notes": [
+        "通鉴所述延翰夫妇弑先王为兵变者公开指控，不能据此作为已证实的王审知死因。"
+      ],
+      "sortOrder": 4
+    },
+    {
+      "id": "wang-yanhan-family-disputes",
+      "year": null,
+      "sourceDate": "承位后至被杀，年月未逐项明记",
+      "title": "取民女、与兄弟失和",
+      "summary": "将王延钧外放泉州，大量采选女子，又令王延禀采选，引起两人不满，成为随后兵变背景。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p9",
+          "originalRevision": 1,
+          "originalSha256": "2b5486ae5e31620e718167899305ab6b4fa6a81ea403e79b0046a2c7a6a6ecef",
+          "excerpt": "延翰為人長大，美晳如玉，其妻崔氏陋而淫，延翰不能制。審知喪未期，徹其几筵，又多選良家子為妾。崔氏性妬，良家子之美者，輒幽之別室，繫以大械，刻木為人手以擊頰，又以鐵錐刺之，一歲中死者八十四人。崔氏後病，見以為祟而卒。"
+        },
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p10",
+          "originalRevision": 1,
+          "originalSha256": "0d804220c3a4733cead9af625ef546d3b3dc9091759cc074befaff02773c9abe",
+          "excerpt": "審知養子建州刺史延稟，本姓周氏，自審知時與延翰不叶。延翰立，以其弟延鈞為泉州刺史，延鈞怒。二人因謀作亂。十二月，延稟、延鈞皆以兵入，執延翰殺之。而延鈞立，更名鏻。"
+        },
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p66",
+          "originalRevision": 1,
+          "originalSha256": "8d384332e14fa409384949456e420170a67e2e3ef5654b59bad70a7b4c7ca7be",
+          "excerpt": "閩王延翰蔑棄兄弟，襲位才逾月，出其弟延鈞為泉州刺史。延翰多取民女以充後庭，采擇不已。延鈞上書極諫，延翰怒，由是有隙。父審知養子延稟為建州刺史，延翰與書使之采擇，延稟覆書不遜，亦有隙。十二月，延稟、延鈞合兵襲福州。延稟順流先至，福州指揮使陳陶帥眾拒之，兵敗，陶自殺。是夜，延稟帥壯士百餘人趣西門，梯城而入，執守門者，發庫取兵仗。及寢門，延翰驚匿別室；辛卯旦，延稟執之，暴其罪惡，且稱延翰與妻崔氏共弒先王，告諭吏民，斬於紫宸門外。是日，延鈞至成南，延稟開門納之，推延鈞為威武留後。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 925,
+        "end": 927
+      },
+      "sortOrder": 3
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "personId": "yang-wo",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "yang-wo-take-jiangxi",
+      "year": 906,
+      "sourceDate": "天祐三年二月至九月",
+      "title": "遣军取岳州、洪州",
+      "summary": "刘存攻取岳州；钟传去世、江西争位，杨渥派秦裴进攻，攻克洪州，擒钟匡时，随后赦免，任秦裴为江西制置使。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p16",
+          "originalRevision": 1,
+          "originalSha256": "634a17bd0066b8d2ea14ce840215aba568b39b29ff5be6b7848641ca0b6aa7dc",
+          "excerpt": "天祐三年二月，劉存取岳州。四月，江西鍾傳卒，其子匡時代立，傳養子延規怨不得立，以兵攻匡時。渥遣秦裴率兵攻之。九月，克洪州，執匡時及司馬陳象以歸，斬象於市，赦匡時。以秦裴為江西制置使。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 1
+    },
+    {
+      "id": "yang-wo-loss-of-power",
+      "year": 907,
+      "sourceDate": "天祐四年正月",
+      "title": "徐温、张颢诛亲兵将领，夺取政权",
+      "summary": "徐温、张颢带牙兵入内，斩陈璠等。杨渥不能阻止，从此失去实际政权。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p18",
+          "originalRevision": 1,
+          "originalSha256": "08ec85421bbe58057546c851f0b563e090ce81f8a5b7e84afcb665dd53e032eb",
+          "excerpt": "初，渥之入廣陵也，留帳下兵三千於宣州，以其腹心陳璠、范遇將之。既入立，惡徐溫典牙兵，召璠等為東院馬軍以自衞。而溫與左衙都指揮使張顥皆行密時舊將，又有立渥之功，共惡璠等侵其權。四年正月，渥視事，璠等侍側，溫、顥擁牙兵入，拽璠等下，斬之，渥不能止，由是失政，而心憤未能發，溫等益不自安。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 2
+    },
+    {
+      "id": "yang-wo-assassination",
+      "year": 908,
+      "sourceDate": "天祐五年五月（新史）",
+      "title": "寝中遇害，杨隆演继承",
+      "summary": "新史记徐温、张颢共遣刺客，纪祥把杨渥勒死；杨隆演继承。景皇帝为杨溥称帝后的追尊。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p19",
+          "originalRevision": 1,
+          "originalSha256": "1cc1bc980b745d43fb38709fda89e5aa6fc188e5db9d093e9dedf66ad3259404",
+          "excerpt": "五年五月，溫、顥共遣盜入寢中殺渥，渥說羣盜能反殺溫等者皆為刺史。羣盜皆諾，惟紀祥不從，執渥縊殺之，時年二十三，謚曰景。弟隆演立。溥僭號，追尊渥為烈宗景皇帝，陵曰紹陵。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "month",
+      "variants": [
+        {
+          "label": "旧史所记月份与施事",
+          "sourceDate": "天祐五年六月",
+          "evidence": [
+            {
+              "chapterId": "old-v134",
+              "paragraphId": "old-v134-p8",
+              "originalRevision": 1,
+              "originalSha256": "4bf93169f6478b454e790780e90866e718db2091e481d2098bccf2cea2c17b7d",
+              "excerpt": "渥，字奉天，行密長子也。行密卒，渥遂襲偽位，自稱吳王，委軍政於大將張顥。渥性猜忌，不能禦下。天祐五年六月，渥為顥所殺，顥將納款於梁，遂自稱留後，委別將徐溫握兵柄。居無何，溫復殺顥，立行密次子渭為主。及渭僭號，偽追尊為景帝。"
+            }
+          ],
+          "year": 908,
+          "summary": "旧史记六月被张颢所杀，新史记五月徐温、张颢共谋，分别保留。"
+        }
+      ],
+      "sortOrder": 3
+    },
+    {
+      "id": "yang-wo-posthumous",
+      "year": 927,
+      "sourceDate": "杨溥即皇帝位时",
+      "title": "被追尊为景皇帝",
+      "summary": "杨溥称帝，追尊杨渥为景皇帝，不把追尊称号作为杨渥生前帝位。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p35",
+          "originalRevision": 1,
+          "originalSha256": "442214de4cc56465ef636a16b70d6a6e7ff89e0eccd097bd3d06441635e427e2",
+          "excerpt": "七年，大丞相徐溫率吳文、武上表勸溥即皇帝位，溥未許而溫病卒。十一月庚戌，溥御文明殿即皇帝位，改元曰乾貞，大赦境內，追尊行密武皇帝，渥景皇帝，隆演宣皇帝。以徐知誥為太尉兼侍中，拜溫子知詢輔國大將軍、金陵尹，治溫舊鎮。諸子皆封王。"
+        }
+      ],
+      "phase": "posthumous",
+      "precision": "month",
+      "sortOrder": 4
+    },
+    {
+      "id": "yang-wo-xuanzhou-recalled",
+      "year": null,
+      "sourceDate": "杨行密天祐二年病重与十一月卒前后，宣州出任/召回及承继后处置未逐事独月日；保905—906年范围",
+      "title": "从宣州被召回承继军府",
+      "summary": "父亲病中让他出任宣州观察使，徐温催发召符，杨渥回广陵承继。随后杀判官周隐。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p14",
+          "originalRevision": 1,
+          "originalSha256": "348ab1bea2119c073171d37bf6f372e0b15a622436898bedd1e8dee5654a7e7e",
+          "excerpt": "渥字承天，行密長子也。行密病，出渥為宣州觀察使。右衙指揮使徐溫私謂渥曰：「今王有疾而出嫡嗣，必有姦臣之謀，若它日召子，非溫使者慎無應命。」渥涕泣謝溫而去。行密病甚，命判官周隱作符召渥，隱慮渥幼弱不任事，勸行密用舊將有威望者代主軍政，乃薦大將劉威，行密未許。溫與嚴可求入問疾，行密以隱議告之，溫等大驚，遽詣隱所計事。隱未出，而溫見隱作召符猶在案上，急取遣之。渥見溫使，乃行。行密卒，渥嗣立，召周隱罵曰：「汝，欲賣吾國者，復何面目見楊氏乎？」遂殺之。以王茂章為宣州觀察使。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p13",
+          "originalRevision": 1,
+          "originalSha256": "6037abe9da26919b1a95601c901ad7c06ced9cf8a0d0dec0a00282382e21238e",
+          "excerpt": "十一月，行密卒，年五十四，謚曰武忠。子渥立。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 5,
+      "yearRange": {
+        "start": 905,
+        "end": 906
+      }
+    },
+    {
+      "id": "yang-wo-wang-maozhang",
+      "year": null,
+      "sourceDate": "905年承位后，确切年月未另标",
+      "title": "夺取宣州库物，与王茂章决裂",
+      "summary": "要求运走宣州库存物资，王茂章不肯，杨渥派李简率兵围攻，王茂章逃往钱塘。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p15",
+          "originalRevision": 1,
+          "originalSha256": "898bc395ee19d3fd3625fc6e83ba8e4e9b5279554eafd08bb97f8e91c39ce740",
+          "excerpt": "渥之入也，多輦宣州庫物以歸廣陵，茂章惜而不與，渥怒，命李簡以兵五千圍之，茂章奔于錢塘。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 905,
+        "end": 908
+      },
+      "notes": [
+        "本传接叙于承位后，具体行动年月未明；只在其实际执政年限内显示，不定为承位当年。"
+      ],
+      "sortOrder": 6
+    },
+    {
+      "id": "yang-wo-chu-defeat",
+      "year": null,
+      "sourceDate": "梁代唐改元开平后同历年叙事，伐楚未独月日；保907—908年范围",
+      "title": "征楚失利，岳州复归楚",
+      "summary": "杨渥沿用唐天祐年号；刘存、陈知新率水军征楚，在浏阳战败被杀，岳州重新归楚。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p17",
+          "originalRevision": 1,
+          "originalSha256": "011ace157e0877b650e4685fb667636d1c82c54aef922c445c94ef739bf5c58a",
+          "excerpt": "梁太祖代唐，改元開平，渥仍稱天祐。鄂州劉存、岳州陳知新以舟師伐楚，敗于瀏陽，楚人執存及知新以歸。楚王馬殷素聞其名，皆欲活之，存等大罵殷曰：「昔歲宣城脫吾刃下，今日之敗，乃天亡我，我肯事汝以求活耶？我豈負楊氏者。」殷知不可屈，乃殺之，岳州復入于楚。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 7,
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    }
+  ]
+}

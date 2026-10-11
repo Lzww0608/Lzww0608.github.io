@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "ren-huan",
+  "events": [
+    {
+      "id": "ren-huan-zhenzhou-surrender",
+      "title": "以昭义判官招谕张处瑾",
+      "summary": "天祐十九年镇州守军危迫，任圜到城下陈说祸福，促张处瑾送款，晋軍随后入城。",
+      "year": 922,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐十九年镇州末期，任圜招谕后俄而符存审军至；本纪同城九月丙午夜入城，限定922年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p9",
+          "originalRevision": 1,
+          "originalSha256": "f6423332acdd15566b4745e7fa67910b4502d9611658f4247e4e3a1213560dfc",
+          "excerpt": "昭義軍節度判官任圜馳至城下，諭以禍福，處瑾登陴以誠告，乃遣牙將張彭送款於行台。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p18",
+          "originalRevision": 1,
+          "originalSha256": "20e0751f6000f3ad32a69c8a0ad674f773ac7402e854c4a48bd6d7d1077ac060",
+          "excerpt": "九月戊寅朔，張處球悉城中兵奄至東垣渡，急攻我之壘門。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p18",
+          "originalRevision": 1,
+          "originalSha256": "20e0751f6000f3ad32a69c8a0ad674f773ac7402e854c4a48bd6d7d1077ac060",
+          "excerpt": "是役也，李存進戰歿於師，以蕃漢馬步總管李存審為北面招討使，以攻鎮州。丙午夜，趙將李再豐之子衝投縋以接王師，諸軍登城，遲明畢入，鎮州平。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-shu-stay",
+      "title": "蜀军将返时权知成都留事",
+      "summary": "征蜀军班师部署中，让任圜暂管留事，等待孟知祥到来；原段未明示此句命令者，不补作郭崇韬亲授。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "同光四年正月六日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p13",
+          "originalRevision": 1,
+          "originalSha256": "f251efcf4a4779de6b899f9e558d3ed66c38e55112471596954f51e904e4129e",
+          "excerpt": "令任圜權知留事，以俟知祥。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-appointed-subcommander",
+      "title": "魏王行营委任副招讨讨康延孝",
+      "summary": "康延孝反后，李继岌派李廷安召任圜，行营任副招讨使，率七千骑追击。",
+      "year": 926,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "同光四年二月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p4",
+          "originalRevision": 1,
+          "originalSha256": "fdb611a9c2f691938a3a6939b36a58f3ec938e060b59e930af1644861d476b11",
+          "excerpt": "夜半，令監軍使李廷安召任圜，因署為副招討使。"
+        }
+      ],
+      "notes": [
+        "这是行营委任，不虚改为庄宗直接下诏授官。"
+      ]
+    },
+    {
+      "id": "ren-huan-hanzhou-victory",
+      "title": "汉州设伏、金雁桥败康军",
+      "summary": "先令董璋兵迎敌、精兵伏后，诱康军追击而破之；三月金雁桥再攻，最终俘康延孝。",
+      "year": 926,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "同光四年二月至三月乙丑",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p5",
+          "originalRevision": 1,
+          "originalSha256": "4e73a11b8bbea6d72a4bdabf781ef0ea300b92c5e6a6924899c8b386618ad2b2",
+          "excerpt": "三月乙丑，圜陣於金雁橋，即率諸軍鼓噪而進，四面縱火，風焰亙空。"
+        },
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p4",
+          "originalRevision": 1,
+          "originalSha256": "fdb611a9c2f691938a3a6939b36a58f3ec938e060b59e930af1644861d476b11",
+          "excerpt": "甲寅，圜以大軍至漢州，延孝來逆戰，圜令董璋以東川懦卒當其鋒，伏精兵於其後，延孝擊退東川之兵，急追之，遇伏兵起，延孝敗，馳入漢州，閉壁不出。西川孟知祥以兵二萬，與圜合勢攻之。〈（《九國誌·李延厚傳》：康延孝入漢州，知祥遣延厚率兵二千會李仁罕討之，將行，誓士卒曰：「今出師不三旬必破賊，乃立功圖賞之日也。士卒忠奮者立東廂，衰疾者立西廂，無自苦也。」得請行者七百人，逐延孝西寨，斬首百餘級，竟拔其城。）〉漢州四面樹竹木為柵。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-return-army",
+      "title": "魏王死后接西师，入洛安抚",
+      "summary": "李继岌在渭南死后代领西师东行，率二万六千人到洛阳，明宗慰抚归营。",
+      "year": 926,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "同光四年四月及明宗即位时",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p20",
+          "originalRevision": 1,
+          "originalSha256": "ba0c815725a6709e07bdc39c347d86c3ee5b916d308acda813bf74ebf4d3485d",
+          "excerpt": "任圜將征蜀兵二萬六千人至洛陽，明宗慰撫之，各令還營。"
+        },
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p15",
+          "originalRevision": 1,
+          "originalSha256": "7e53103f0c5d1f0ff298975f0de6da76a06a9194cb84f5f342dff11ce1c9491f",
+          "excerpt": "繼岌徘徊流涕，乃自伏於床，命僕夫李環縊殺之。任圜代將其眾而東。監國命石敬瑭慰撫之，軍士皆無異言。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-chancellor-finance",
+      "title": "拜宰相判三司，整顿财计",
+      "summary": "天成元年五月任中书侍郎、同平章事并判三司，选拔人才、减少钻营，原书称一年间府库与军民供给改善。",
+      "year": 926,
+      "sortOrder": 6,
+      "precision": "day",
+      "sourceDate": "天成元年五月丙辰朔",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p22",
+          "originalRevision": 1,
+          "originalSha256": "4da1ed63ea2c329c01f66981f045470d1333166ef5616a113d26bd4a03446887",
+          "excerpt": "五月，丙辰朔，以太子賓客鄭玨、工部尚書任圜並為中書侍郎、同平章事；圜仍判三司。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-resign-finance",
+      "title": "与安重诲争馆券，求罢三司",
+      "summary": "因驿馆凭券是否应由内廷发出与安重诲争论，明宗从重诲议，任圜请求罢三司，孟鹄代判。",
+      "year": 927,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "天成二年五月前后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p97",
+          "originalRevision": 1,
+          "originalSha256": "541ddb2f9a20b7b763d1fe5ea7b4a749f1bf77ddf0aebd70a26fa5d511a97fc2",
+          "excerpt": "圜因求罷三司，詔以樞密承旨孟鵠充三司副使權判。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-removed-chancellor",
+      "title": "免相，改太子少保",
+      "summary": "天成二年六月丙戌罢宰相，改守太子少保。",
+      "year": 927,
+      "sortOrder": 8,
+      "precision": "day",
+      "sourceDate": "天成二年六月丙戌",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p99",
+          "originalRevision": 1,
+          "originalSha256": "7c4e9fa837dae971f230e4e1ef0f39b87b04775e6aeca0928a7a46d41587f2f5",
+          "excerpt": "丙戌，門下侍郎、同平章事任圜罷守太子少保。"
+        }
+      ]
+    },
+    {
+      "id": "ren-huan-death-false-order",
+      "title": "安重诲矫诏杀害任圜",
+      "summary": "天成二年十月，已致仕的任圜被杀。新史夹注明确实际安重诲假传诏令，明宗知而未责，不能简单称主动反叛被诛。",
+      "year": 927,
+      "sortOrder": 9,
+      "precision": "day",
+      "sourceDate": "天成二年十月乙未",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p12",
+          "originalRevision": 1,
+          "originalSha256": "6b17ea6ee7ce937f8b1e9cc79727e6065e7dad31fbdf0241c09b803552acf880",
+          "excerpt": "乙未，殺太子少保致仕任圜。〈實安重誨矯詔殺之，不書重誨殺者，明宗知而不責，又下詔書誣圜以罪，故以明宗自殺書之。〉"
+        }
+      ]
+    }
+  ]
+}

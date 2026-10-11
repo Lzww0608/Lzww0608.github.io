@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "fu-cunshen",
+  "events": [
+    {
+      "id": "fu-cunshen-yaoshan-reinforcement",
+      "year": 892,
+      "title": "与李嗣勋增援尧山，破燕赵军",
+      "summary": "旧史武皇本纪记王镕倚燕攻邢州尧山，李存信、李存孝不协停兵后，李克用再遣嗣勋、存审增援，击败燕赵军、夺军资。保持嗣勋、存审两个名字与存信、存孝分开。",
+      "sourceDate": "景福元年正月",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p1",
+          "originalRevision": 1,
+          "originalSha256": "6516323227a0eb39bef60cd04ba8d356faa33c814c09f523811d8a1627f679c9",
+          "excerpt": "景福元年正月，鎮州王鎔恃燕人之援，率兵十餘萬攻邢州之堯山。武皇遣李存信將兵應援，李存孝素與存信不協，遞相猜貳，留兵不進。武皇又遣李嗣勳、李存審將兵援之，大破燕、趙之眾，斬首三萬，收其軍實。"
+        }
+      ],
+      "sortOrder": 1,
+      "phase": "service",
+      "precision": "month"
+    },
+    {
+      "id": "fu-cunshen-fenzhou-litang",
+      "year": 901,
+      "title": "副李嗣昭讨李瑭，改步军指挥使",
+      "summary": "存审作为李嗣昭副将在汾州讨李瑭，将其擒获，因功改左右厢步军都指挥使；嗣昭传记天复元年四月平汾州叛乱、斩李瑭，保留不同环节用词。",
+      "sourceDate": "天复元年四月，同役日期旁证",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "副李嗣昭討李瑭於汾州，擒之，以功改左右廂步軍都指揮使。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p5",
+          "originalRevision": 1,
+          "originalSha256": "64fc344f71076e371d2d659b5ac9f356b416f325d89aa1444c6babbd51affb27",
+          "excerpt": "天復元年，河中王珂為汴人所擄，河中晉、絳諸郡皆陷。四月，汾州刺史李瑭謀叛，納款於汴；嗣昭討之，三日而拔，斬瑭。"
+        }
+      ],
+      "sortOrder": 2,
+      "phase": "service",
+      "precision": "month"
+    },
+    {
+      "id": "fu-cunshen-dinghui",
+      "title": "参与上党降丁会",
+      "summary": "天祐三年任蕃汉马步副指挥使，与李嗣昭在上党降丁会。随后908年夹城之役及晋升另列，不移入906年。",
+      "year": 906,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "天祐三年十一月（据李嗣昭本传同役）",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "天祐三年，授蕃漢馬步副指揮使，與李嗣昭降丁會於上黨，從周德威破賊於夾城，加檢校司徒，授忻州刺史，領蕃漢馬步都指揮使。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p7",
+          "originalRevision": 1,
+          "originalSha256": "da56b3218f2e51635deb149fe2621131039ba984610ff8bf0a570fa734473f8d",
+          "excerpt": "天祐三年，汴人攻滄、景，劉仁恭遣使求援。十一月，嗣昭合燕軍三萬進攻潞州，降丁會，武皇乃以嗣昭為昭義節度使。"
+        }
+      ],
+      "notes": [
+        "906年是降丁会起点，不把908年夹城解围并入同年。"
+      ]
+    },
+    {
+      "id": "fu-cunshen-lu-relief",
+      "year": 908,
+      "title": "随周德威破夹城，升忻州及军职",
+      "summary": "两史记存审随周德威破梁夹城，升忻州刺史、蕃汉马步军指挥使；旧史同时记加检校司徒。嗣昭传记天祐五年五月破夹城，为战年旁证，官职不虚作另一次节度任命。",
+      "sourceDate": "天祐五年五月夹城战役；授职未另记日",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "從周德威破賊於夾城，加檢校司徒，授忻州刺史，領蕃漢馬步都指揮使。"
+        },
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p11",
+          "originalRevision": 1,
+          "originalSha256": "d6bdb55ca1f80144a60994dd247d80bfa4ea8ba2c8f61f7f9d261ea9a46f63f7",
+          "excerpt": "從周德威破梁夾城，遷忻州刺史、蕃漢馬步軍指揮使。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p8",
+          "originalRevision": 1,
+          "originalSha256": "b86236770c52e57f7c81ea102d47f154a4ebfc63a13dbacb58c0362b64194d73",
+          "excerpt": "五年五月，莊宗敗汴軍，破夾城。"
+        }
+      ],
+      "sortOrder": 4,
+      "phase": "service",
+      "precision": "month"
+    },
+    {
+      "id": "fu-cunshen-defend-taiyuan",
+      "title": "柏乡期间留守太原",
+      "summary": "李存勖与梁军战柏乡时，符存审奉命守太原；随后代李存璋戍赵州。",
+      "year": 911,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "柏乡之役；三月戍赵州",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "莊宗擊汴人於柏鄉，留存審守太原。三月，代李存璋戍趙州。"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p18",
+          "originalRevision": 1,
+          "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6",
+          "excerpt": "天祐八年正月丁亥，周德威、史建瑭帥三千騎致師於柏鄉，設伏於村塢間，遣三百騎直壓其營。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-weibo",
+      "title": "率先锋据临清，与刘鄩相拒",
+      "summary": "魏博降晋后，符存审率先锋到临清，李存勖入魏后屯魏县抵抗刘鄩；六月与镇定军屯莘西，八月攻贝州。",
+      "year": 915,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "天祐十二年六月、八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p16",
+          "originalRevision": 1,
+          "originalSha256": "7b623f658b47a4d453820a2ac6e62004f872d5736b13bf48bae0bb082a59fae8",
+          "excerpt": "十二年，魏博歸款於莊宗，遣存審率前鋒據臨清，以俟進取。莊宗入魏，存審屯魏縣以抗劉鄩。六月，鄩營莘縣，存審與鎮、定之師營莘西三十里，一日數戰。八月，率師攻張源德於貝州。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-guyuancheng",
+      "title": "大败刘鄩，历镇安国横海",
+      "summary": "刘鄩袭魏州，符存审率大军追随，在故元城大败梁军。阎宝、毛璋先后献城后，他先授安国、再转横海军节度使。",
+      "year": 916,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "天祐十三年二月、秋、十月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p16",
+          "originalRevision": 1,
+          "originalSha256": "7b623f658b47a4d453820a2ac6e62004f872d5736b13bf48bae0bb082a59fae8",
+          "excerpt": "十三年二月，劉鄩自莘悉眾來襲我魏州，存審以大軍踵其後，戰於故元城，大敗汴人，從收澶、衛、磁、洺等州。秋，邢州閻寶降，授存審安國軍節度、邢洺磁等州觀察使。十月，戴思遠棄滄州，毛璋以城降，授存審檢校太傅、橫海軍節度使，兼領魏博馬步軍都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-youzhou-rescue",
+      "title": "救周德威，击退契丹",
+      "summary": "晋梁相持而兵力紧张，符存审主张发兵救幽州，请五千骑足够，奉派援周德威并击退契丹。",
+      "year": 917,
+      "sortOrder": 8,
+      "precision": "year",
+      "sourceDate": "天祐十四年八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p17",
+          "originalRevision": 1,
+          "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+          "excerpt": "十四年八月，將兵援周德威於幽州，敗契丹之眾。"
+        },
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p12",
+          "originalRevision": 1,
+          "originalSha256": "b3ad1bbf30f1e846ae20d38fde6680699246efc5b4e66c781843a6380e8b26b9",
+          "excerpt": "契丹圍幽州，是時晉與梁相持河上，欲發兵，兵少，欲勿救，懼失之。莊宗疑，以問諸將，而存審獨以為當救，曰：「願假臣騎兵五千足矣！」乃遣存審分兵救之，卒擊走契丹。從戰胡柳陂，晉軍晨敗，亡周德威，存審與其子彥圖力戰，暮復敗梁軍於土山，遂取德勝，築河南北為兩城，晉人謂之「夾寨」。遷內外蕃漢馬步軍總管。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-huliu",
+      "title": "与子彦图血战胡柳",
+      "summary": "胡柳战事中周德威阵亡，符存审与儿子彦图冒刃血战，率银枪效节军在土山下击败梁军。",
+      "year": 919,
+      "sortOrder": 9,
+      "precision": "year",
+      "sourceDate": "贞明四年十二月跨919年；旧史本传接在十四年段内",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p17",
+          "originalRevision": 1,
+          "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+          "excerpt": "十二月，戰於胡柳。晡晚之後，存審引所部銀槍效節軍，敗梁軍於土山下。是日辰巳間，周德威戰歿，一軍逗撓，梁軍四集，存審與其子彥圖冒刃血戰，出沒賊陣，與莊宗軍合。午後，師復集，擊敗汴人。"
+        },
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p12",
+          "originalRevision": 1,
+          "originalSha256": "b3ad1bbf30f1e846ae20d38fde6680699246efc5b4e66c781843a6380e8b26b9",
+          "excerpt": "從戰胡柳陂，晉軍晨敗，亡周德威，存審與其子彥圖力戰，暮復敗梁軍於土山，遂取德勝，築河南北為兩城，晉人謂之「夾寨」。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p24",
+          "originalRevision": 1,
+          "originalSha256": "ee68389392dd1234dda5e5093d49b82215eeda299163aeec4d4ea53c08b44d54",
+          "excerpt": "均王中貞明四年（戊寅，公元九一八年）"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p59",
+          "originalRevision": 1,
+          "originalSha256": "72cef2b12b96533789bb5f7a929e62b4f9fddb2da363d0c553711eb7be1b4e5e",
+          "excerpt": "十二月，庚子朔，晉王進兵，距梁軍十里而捨。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p63",
+          "originalRevision": 1,
+          "originalSha256": "acc070ac1933b5db8ba2c2a28ff7de08cb14149e4873242fd924d865d846be0c",
+          "excerpt": "壬戌，至胡柳陂。癸亥旦，候者言梁兵自後至矣。"
+        }
+      ],
+      "notes": [
+        "本传将胡柳接叙在天祐十四年的段中，与当前已核编年战期不同；按同一胡柳战事西历919年排序，保留旧史叙次。"
+      ],
+      "variants": [
+        {
+          "label": "《旧史》本传接在十四年段内",
+          "sourceDate": "旧史本传十四年八月、冬之后接十二月战胡柳",
+          "summary": "本传在十四年段内接记十二月胡柳；通鉴的同役年/月/日为贞明四年十二月癸亥，已跨919年。原书记法保留，不把十四年直接改字。",
+          "evidence": [
+            {
+              "chapterId": "old-v056",
+              "paragraphId": "old-v056-p17",
+              "originalRevision": 1,
+              "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+              "excerpt": "十四年八月，將兵援周德威於幽州，敗契丹之眾。冬，破汴將安彥之於楊劉，諸軍進營麻口。時梁將謝彥章營行台村，莊宗勇於接戰，每以輕騎當之，遇窘者數四。存審每俟其出，必叩馬諫曰：「王將復唐宗社，宜為天下自愛，搴旗挑戰，一劍之任，無益聖德，請責效於臣。古人不以賊遺君父，臣雖不武，敢不代君之憂。」莊宗及時回駕。十二月，戰於胡柳。晡晚之後，存審引所部銀槍效節軍，敗梁軍於土山下。是日辰巳間，周德威戰歿，一軍逗撓，梁軍四集，存審與其子彥圖冒刃血戰，出沒賊陣，與莊宗軍合。午後，師復集，擊敗汴人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-desheng",
+      "title": "任总管，筑德胜南北城",
+      "summary": "符存审接周德威任内外蕃汉马步总管，在德胜口建南北城；七月拒王瓒，随后长期对垒交战。",
+      "year": 919,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "天祐十六年春、七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p18",
+          "originalRevision": 1,
+          "originalSha256": "cb20125c88d993f83a231ceb24aa2e0a8817bea45aaf5599c25317823da5926f",
+          "excerpt": "十六年春，代周德威為內外蕃漢馬步總管，於德勝口築南北城以據之。七月，汴將王瓚自黎陽渡河寇澶州，存審拒戰，瓚退，營於楊村渡，控我上遊。自是日與交鋒，對壘經年，大小凡百餘戰。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-tongzhou",
+      "title": "救同州，设计迫梁军撤围",
+      "summary": "符存审与李嗣昭援朱友谦，屯朝邑败刘鄩，并让王建及在沙苑牧马、示有归路，解除同州之围。",
+      "year": 920,
+      "sortOrder": 11,
+      "precision": "year",
+      "sourceDate": "天祐十七年九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p19",
+          "originalRevision": 1,
+          "originalSha256": "cb75d3acc334ccff6ea371876df99ab66f28934449c688ddeed1d9ea4beeb935",
+          "excerpt": "十七年，汴將劉鄩攻同州，朱友謙求援於我，遣存審與李嗣昭將兵赴之。九月，次河中，進營朝邑。時河中久臣於梁，眾持兩端，及諸軍大集，芻粟暴貴，嗣昭懼其翻覆，將急戰以定勝負。居旬日，梁軍逼我營。會望氣者言，西南黑氣如鬥雞之狀，當有戰陣，存審曰：「我方欲決戰，而形於氣象，得非天讚歟！」是夜，閱其眾，詰旦進軍。梁軍來逆戰，大敗之，追斬二千餘級。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p19",
+          "originalRevision": 1,
+          "originalSha256": "cb75d3acc334ccff6ea371876df99ab66f28934449c688ddeed1d9ea4beeb935",
+          "excerpt": "」乃令王建及牧馬於沙苑，劉鄩、尹皓知之，保眾退去，遂解同州之圍。"
+        }
+      ],
+      "notes": [
+        "占气等征兆保留叙述归属，不写作决胜原因。新史记追击渭河再败梁军，与旧史原段分别展示。"
+      ],
+      "variants": [
+        {
+          "label": "《新史》记在渭河追击再败梁军",
+          "sourceDate": "刘鄩夜退同州后，未单标年月日",
+          "summary": "新史记令王建及牧马于沙苑，使刘鄩以为晋军松懈而夜退，存审随后在渭河追击，再败梁军。旧史记法保留，明确区别未单标日期的后续追击。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p13",
+              "originalRevision": 1,
+              "originalSha256": "5b995b17e584bc7901218dca38c16ed3464fc55ab41b60452bd1ace9fdd074b7",
+              "excerpt": "存審曰：「鄩兵已敗，不如逸之。」乃休士卒，遣裨將王建及牧馬于沙苑，鄩以謂晉軍且懈，乃夜遯去，存審追擊于渭河，又大敗之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-lulong",
+      "title": "病中受命镇幽州",
+      "summary": "军队回魏州后，契丹侵犯燕蓟，符存审虽然卧病衰弱，仍受命从镇州赴幽州领卢龙节度使，同光初加功臣号。",
+      "year": 923,
+      "sortOrder": 12,
+      "precision": "year",
+      "sourceDate": "天祐二十年正月起；同光初",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p21",
+          "originalRevision": 1,
+          "originalSha256": "fa1f8dcf3ad82bd7fd21ca4fb44db73ca6e1072940176675527c869fcf23e7bd",
+          "excerpt": "二十年正月，師還於魏州，莊宗出城迎勞，就第宴樂。無何，契丹犯燕薊，郭崇韜奏曰：「汴寇未平，繼韜背叛，北邊捍禦，非存審不可。」上遣中使諭之，存審臥病羸瘠，附奏曰：「臣效忠稟命，靡敢為辭，但痾恙纏綿，未堪祗役。」既而詔存審以本官充幽州盧龍節度使，自鎮州之任。同光初，加開府儀同三司、檢校太師、中書令、食邑千戶，賜號忠烈扶天啟運功臣。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-death",
+      "title": "求朝受阻，未及受新诏而卒",
+      "summary": "灭梁后符存审求朝寻医，屡受郭崇韬阻碍；病危获允并授宣武节度使，但诏书未到，已在幽州官舍去世，年六十三。",
+      "year": 924,
+      "sortOrder": 13,
+      "precision": "year",
+      "sourceDate": "同光二年四月授新职，五月十五日卒",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p22",
+          "originalRevision": 1,
+          "originalSha256": "b1fb0a2789493113c5050c3bc9b5003c32682d60ff5e9ca122bd47c608a6ba2e",
+          "excerpt": "十月，平梁，遷都洛陽。存審以身為大將，不得預收復中原之功，舊疾愈作，堅求入覲尋醫，以情告郭崇韜。時崇韜自負一時，佐命之功，無出己右，功名事望，素在存審之下，權勢既隆，人士輻湊，不欲存審加於己上，每有章奏求覲，即陰沮之。存審妻郭氏泣訴於崇韜曰：「吾夫於國，粗效驅馳，與公鄉里親舊，公忍令死棄北荒，何無情之如是！」崇韜益慚戁。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p22",
+          "originalRevision": 1,
+          "originalSha256": "b1fb0a2789493113c5050c3bc9b5003c32682d60ff5e9ca122bd47c608a6ba2e",
+          "excerpt": "明年春，疾甚，上章懇切，乞生覲天顏，不許。存審伏枕而歎曰：「老夫曆事二主，垂四十年，幸而遇今日天下一家，遠夷極塞，皆得麵覲彤墀，射鉤斬祛之人，孰不奉觴丹陛，獨予壅隔，豈非命哉！」漸增危篤，崇韜奏請許存審入覲。四月，製授存審宣武軍節度使、諸道蕃漢馬步總管。詔未至，五月十五日卒於幽州官舍，時年六十三，遺命葬太原。存審遺奏陳敘不得麵覲，詞旨淒惋。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p22",
+          "originalRevision": 1,
+          "originalSha256": "b1fb0a2789493113c5050c3bc9b5003c32682d60ff5e9ca122bd47c608a6ba2e",
+          "excerpt": "詔未至，五月十五日卒於幽州官舍，時年六十三，遺命葬太原。存審遺奏陳敘不得麵覲，詞旨淒惋。莊宗震悼久之，廢朝三日，贈尚書令。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-vice-commander",
+      "year": null,
+      "title": "加检校太保，充蕃汉副总管",
+      "summary": "旧史明记天祐七年加检校太保、充蕃汉副总管，与后来919年接任总管分开。",
+      "sourceDate": "天祐七年",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "天祐三年，授蕃漢馬步副指揮使，與李嗣昭降丁會於上黨，從周德威破賊於夾城，加檢校司徒，授忻州刺史，領蕃漢馬步都指揮使。七年，加檢校太保，充蕃漢副總管。"
+        }
+      ],
+      "sortOrder": 14,
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 910,
+        "end": 911
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "fu-cunshen-xiabo",
+      "title": "与史建瑭等救蓨县",
+      "summary": "梁军攻蓨县，符存审与史建瑭、李嗣肱从下博桥援救，梁军惊乱烧营撤退，他因功遥领邢洺磁团练使。",
+      "year": null,
+      "sortOrder": 15,
+      "precision": "range",
+      "sourceDate": "天祐九年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "九年，梁祖攻蓚縣，存審與史建瑭、李嗣肱赴援，屯下博橋，汴人驚亂，燒營而遁，以功遙領邢、洺、磁團練使。"
+        }
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "fu-cunshen-henghai-chancellor",
+      "year": null,
+      "title": "在横海任上加平章事",
+      "summary": "旧史在天祐十三年十月授横海节度使后，接明年就加平章事。新史把徙横海、加平章连写；这不是新的皇帝即位或另立政权。",
+      "sourceDate": "旧史天祐十三年十月后的明年",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p16",
+          "originalRevision": 1,
+          "originalSha256": "7b623f658b47a4d453820a2ac6e62004f872d5736b13bf48bae0bb082a59fae8",
+          "excerpt": "十三年二月，劉鄩自莘悉眾來襲我魏州，存審以大軍踵其後，戰於故元城，大敗汴人，從收澶、衛、磁、洺等州。秋，邢州閻寶降，授存審安國軍節度、邢洺磁等州觀察使。十月，戴思遠棄滄州，毛璋以城降，授存審檢校太傅、橫海軍節度使，兼領魏博馬步軍都指揮使。明年，就加平章事。"
+        },
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p11",
+          "originalRevision": 1,
+          "originalSha256": "d6bdb55ca1f80144a60994dd247d80bfa4ea8ba2c8f61f7f9d261ea9a46f63f7",
+          "excerpt": "毛璋以滄州降，徙存審橫海，加同中書門下平章事。"
+        }
+      ],
+      "sortOrder": 16,
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 917,
+        "end": 918
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "fu-cunshen-zhenzhou",
+      "title": "攻破镇州，擒张文礼之子",
+      "summary": "符存审领兵攻镇州，李再丰暗中归款，晋军半夜登城，俘获张文礼之子处球等，获兼侍中等官。",
+      "year": null,
+      "sortOrder": 17,
+      "precision": "range",
+      "sourceDate": "天祐十九年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p20",
+          "originalRevision": 1,
+          "originalSha256": "5348df3919aac0c77f65b960992e143b48e5bac785f4ee2cd49799125f447688",
+          "excerpt": "十八年，王師討張文禮於鎮州，李嗣昭、李存進相次戰歿。十九年，遣存審率師進攻叛帥於城下，文禮之將李再豐陰送款於存審，我師中夜登城，擒文禮之子處球等，露布以獻。鎮州平，以功加檢校太傅、兼侍中。"
+        }
+      ],
+      "yearRange": {
+        "start": 922,
+        "end": 923
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "fu-cunshen-early",
+      "title": "聚众护乡，后事李罕之",
+      "summary": "符存审原名符存，乾符末河南盗乱，聚集乡里豪强保护州里，随后依李罕之到河阳，从军击蔡。",
+      "year": null,
+      "sortOrder": 18,
+      "precision": "undated",
+      "sourceDate": "乾符末至中和末，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p14",
+          "originalRevision": 1,
+          "originalSha256": "678022fcbeb58c46a9e9124d079fc9724224a42afe25b23906c2043ad9889393",
+          "excerpt": "乾符末，河南盜起，存審鳩率豪右，庇捍州裏。會郡人李罕之起自群盜，授光州刺史，因往依之。中和末，罕之為蔡寇所逼，棄郡投諸葛爽；存審從至河陽，為小校，屢戰蔡賊有功。諸葛爽卒，罕之為其部將所逼，出保懷州，部下分散，存審乃歸於武皇。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-join",
+      "title": "归李克用，获赐姓李",
+      "summary": "李罕之部众离散后符存审归李克用，任义儿军职，获赐李姓及存审之名。",
+      "year": null,
+      "sortOrder": 19,
+      "precision": "undated",
+      "sourceDate": "诸葛爽卒、李罕之被逼出怀州后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p14",
+          "originalRevision": 1,
+          "originalSha256": "678022fcbeb58c46a9e9124d079fc9724224a42afe25b23906c2043ad9889393",
+          "excerpt": "諸葛爽卒，罕之為其部將所逼，出保懷州，部下分散，存審乃歸於武皇。武皇署右職，令典義兒軍，賜姓名。"
+        },
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p10",
+          "originalRevision": 1,
+          "originalSha256": "9316fdb11e7a216b55fa837d0d69b3605696991450defe6cdb5bad9a1b6878a5",
+          "excerpt": "其後事李罕之，從罕之歸晉，晉王以為義兒軍使，賜姓李氏，名存審。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-juyong",
+      "title": "攻居庸关，次年破龙泉寨",
+      "summary": "符存审随讨李匡俦，先锋攻取居庸关；次年随讨邠州，奋力攻破险固龙泉寨，授检校左仆射。",
+      "year": null,
+      "sortOrder": 20,
+      "precision": "undated",
+      "sourceDate": "乾宁初及明年，本传未记各役确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "乾寧初，討李匡儔，存審前軍拔居庸關。明年，從討邠州，時邠之勁兵屯龍泉寨，四面懸崖，石壁險固，存審奮力拔之。師旋，授檢校左僕射。副李嗣昭討李瑭於汾州，擒之，以功改左右廂步軍都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "fu-cunshen-helianduo-wound",
+      "year": null,
+      "title": "讨赫连铎负伤，李克用亲手封疮",
+      "summary": "旧史记随讨赫连铎，冒刃苦战，血流满袖，李克用亲手包扎伤口，早晚慰问。原段未给单年，不用常见战役年份填补。",
+      "sourceDate": "讨赫连铎时，未单记年月",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p15",
+          "originalRevision": 1,
+          "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+          "excerpt": "從討赫連鐸，冒刃死戰，血流盈袖，武皇手自封瘡，日夕臨問。"
+        }
+      ],
+      "sortOrder": 21,
+      "phase": "uncertain",
+      "precision": "undated"
+    },
+    {
+      "id": "fu-cunshen-yangliu-victory",
+      "year": null,
+      "title": "冬破安彦之于杨刘，进驻麻口",
+      "summary": "旧史记天祐十四年八月救幽州后，冬在杨刘击破梁将安彦之，诸军进驻麻口。原段未给冬季月份，不强选单一西历年。",
+      "sourceDate": "天祐十四年冬，原书未单记月日",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p17",
+          "originalRevision": 1,
+          "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+          "excerpt": "十四年八月，將兵援周德威於幽州，敗契丹之眾。冬，破汴將安彥之於楊劉，諸軍進營麻口。"
+        }
+      ],
+      "sortOrder": 22,
+      "phase": "uncertain",
+      "precision": "undated"
+    },
+    {
+      "id": "fu-cunshen-advice-not-risk-life",
+      "year": null,
+      "title": "屡谏李存勖勿以轻骑自危",
+      "summary": "谢彦章军驻行台村时，李存勖常以轻骑迎战、多次遇窘；存审拦马劝其为天下自爱，将迎敌责交臣下，李存勖往往及时返驾。这是多次军中劝谏，原书未各记年日。",
+      "sourceDate": "杨刘、麻口叙事后接述，未独记每次年月",
+      "evidence": [
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p17",
+          "originalRevision": 1,
+          "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+          "excerpt": "時梁將謝彥章營行台村，莊宗勇於接戰，每以輕騎當之，遇窘者數四。存審每俟其出，必叩馬諫曰：「王將復唐宗社，宜為天下自愛，搴旗挑戰，一劍之任，無益聖德，請責效於臣。古人不以賊遺君父，臣雖不武，敢不代君之憂。」莊宗及時回駕。"
+        }
+      ],
+      "sortOrder": 23,
+      "phase": "uncertain",
+      "precision": "undated"
+    }
+  ]
+}

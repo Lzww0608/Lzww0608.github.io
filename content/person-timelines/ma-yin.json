@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "personId": "ma-yin",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "ma-yin-chu-prince",
+      "year": 907,
+      "sourceDate": "梁开平元年四月（会要同次封楚王）",
+      "title": "受封楚王",
+      "summary": "奉贡后梁，受侍中兼中书令、楚王封号，尚不是后来927楚国王的建国礼。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p7",
+          "originalRevision": 1,
+          "originalSha256": "259e693eea91cede07c156cd18c831be57999186a3502171b4f1e929b3566183",
+          "excerpt": "梁太祖即位，殷遣使脩貢，太祖拜殷侍中兼中書令，封楚王。"
+        },
+        {
+          "chapterId": "huiyao-v011",
+          "paragraphId": "huiyao-v011-p78",
+          "originalRevision": 1,
+          "originalSha256": "13ea1afc24df110f77139a2fc06ca7d4349f07beec543523071b0f6633604050",
+          "excerpt": "梁開平元年四月，封湖南節度使馬殷爲楚王。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 1
+    },
+    {
+      "id": "ma-yin-defeat-wu",
+      "year": 907,
+      "sourceDate": "开平元年六月（通鉴同役；新史两世家结局异说分别保留）",
+      "title": "遣军败刘存等，取得岳州",
+      "summary": "秦彦晖、许德勋水军与黄璠伏兵夹击，击败刘存、陈知新，取得岳州。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p6",
+          "originalRevision": 1,
+          "originalSha256": "2ad1d263c5a7547b89564a3accce406f1171e3d34924b954325bef9aa61ed33b",
+          "excerpt": "行密遣將劉存等攻杜洪，圍鄂州，殷遣秦彥暉、許德勳以舟兵救之，已而杜洪敗死，存等遂攻殷。殷遣彥暉拒於上流，偏將黃璠以舟三百伏瀏陽口。存等屢戰不勝，乃致書於殷以求和，殷欲許之，彥暉曰：「淮人多詐，將怠我師，不可信。」急擊之，存等退走，黃璠以瀏陽舟截江合擊，大敗之，劉存及陳知新戰死，彥暉取岳州。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p17",
+          "originalRevision": 1,
+          "originalSha256": "011ace157e0877b650e4685fb667636d1c82c54aef922c445c94ef739bf5c58a",
+          "excerpt": "梁太祖代唐，改元開平，渥仍稱天祐。鄂州劉存、岳州陳知新以舟師伐楚，敗于瀏陽，楚人執存及知新以歸。楚王馬殷素聞其名，皆欲活之，存等大罵殷曰：「昔歲宣城脫吾刃下，今日之敗，乃天亡我，我肯事汝以求活耶？我豈負楊氏者。」殷知不可屈，乃殺之，岳州復入于楚。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p40",
+          "originalRevision": 1,
+          "originalSha256": "ac27bb8da7bf05abbd5eae0897b9702fd251c687cf5271f1b84883c60d6f55e2",
+          "excerpt": "六月，存等遇大雨，引兵還至越堤北，彥暉追之。"
+        }
+      ],
+      "phase": "service",
+      "precision": "month",
+      "variants": [
+        {
+          "label": "吴世家记刘存陈知新被俘处死",
+          "sourceDate": "杨渥时期，梁代唐后",
+          "evidence": [
+            {
+              "chapterId": "new-v61",
+              "paragraphId": "new-v61-p17",
+              "originalRevision": 1,
+              "originalSha256": "011ace157e0877b650e4685fb667636d1c82c54aef922c445c94ef739bf5c58a",
+              "excerpt": "梁太祖代唐，改元開平，渥仍稱天祐。鄂州劉存、岳州陳知新以舟師伐楚，敗于瀏陽，楚人執存及知新以歸。楚王馬殷素聞其名，皆欲活之，存等大罵殷曰：「昔歲宣城脫吾刃下，今日之敗，乃天亡我，我肯事汝以求活耶？我豈負楊氏者。」殷知不可屈，乃殺之，岳州復入于楚。"
+            }
+          ],
+          "year": 907,
+          "summary": "楚世家记二将战死；吴世家记被俘后马殷欲留活命，二将不屈，马殷乃杀，结局不合并。"
+        }
+      ],
+      "notes": [
+        "本传把杨行密遣刘存救杜洪与其后攻楚相接，吴世家明确征楚在杨渥时；不据这种合叙把所有行动归到杨行密在世。"
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "ma-yin-kingdom-establishment",
+      "year": 927,
+      "sourceDate": "天成二年六月封楚国王，七月议竹册礼；建国置官接叙",
+      "title": "受封楚国王，建国置官",
+      "summary": "请行台，后唐以竹册封楚国王；潭州为长沙府，承制自置属官，立父祖庙。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p12",
+          "originalRevision": 1,
+          "originalSha256": "601dec153910b5fa84c5522ec75956e91577f9c94969102343e3419d0d2522e8",
+          "excerpt": "天成二年，請建行臺。明宗封殷楚國王，有司言無封國王禮，請如三公用竹冊，乃遣尚書右丞李序持節以竹冊封之。殷以潭州為長沙府，建國承制，自置官屬，以其弟賨為靜江軍節度使，子希振武順軍節度使，次子希聲判內外諸軍事，姚彥章為左相，許德勳為右相，李鐸為司徒，崔穎為司空，拓拔常為僕射，馬珙為尚書，文武皆進位。謚其曾祖筠曰文肅、祖正曰莊穆、父元豐曰景莊，立三廟于長沙。長興元年，殷卒，年七十九，詔曰「馬殷官爵俱高，無以為贈，謚曰武穆」而已。子希聲立。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p1",
+          "originalRevision": 1,
+          "originalSha256": "9d87b1c57668e7956817a8e6cda6a379c9ef48f4de24ec5889ed550184fa1fe7",
+          "excerpt": "天成二年春正月癸丑朔，"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "0e6ab2adfacd344df56e471a4584db3f26d2a7b80a41e28acf42f488b5d74b7e",
+          "excerpt": "六月壬午，華州、邢州進兩歧麥，兗州進三足烏。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "0e6ab2adfacd344df56e471a4584db3f26d2a7b80a41e28acf42f488b5d74b7e",
+          "excerpt": "丙申，以天策上將軍、湖南節度使、開府儀同三司、檢校太師、守尚書令、楚王馬殷為守太師、尚書令，封楚國王。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p13",
+          "originalRevision": 1,
+          "originalSha256": "07cb46c15854dcb3eb6cb5b41dd68672257220f23bda0fe3100c402f864871aa",
+          "excerpt": "秋七月庚戌朔，"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p13",
+          "originalRevision": 1,
+          "originalSha256": "07cb46c15854dcb3eb6cb5b41dd68672257220f23bda0fe3100c402f864871aa",
+          "excerpt": "中書奏：「馬殷封楚國王，禮文不載國王之制，請約三公之儀，用竹冊。」從之。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 3
+    },
+    {
+      "id": "ma-yin-jingnan-war",
+      "year": 928,
+      "sourceDate": "天成三年三月（通鉴卷276连续年月及同役）",
+      "title": "荆南扣贡使后遣水军讨伐",
+      "summary": "高季兴扣史光宪，派袁诠、王环、马希瞻水军攻江陵，季兴败而求和，归使者。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p10",
+          "originalRevision": 1,
+          "originalSha256": "88d70a8a4c511b688f6f1045623e681837c34adf0fdd7623abb61d0159b6c348",
+          "excerpt": "唐莊宗滅梁，殷遣其子希範脩貢京師，上梁所授都統印，莊宗問洞庭廣狹，希範對曰：「車駕南巡，才堪飲馬爾。」莊宗嘉之。莊宗平蜀，殷大懼，表求致仕，莊宗下璽書慰勞之。明宗即位，遣使脩貢，并賀明年正月，荊南高季昌執其貢使史光憲。殷遣袁詮、王環等攻之，至其城下，季昌求和，乃止。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p40",
+          "originalRevision": 1,
+          "originalSha256": "6e72c08bf20ffa0cbb58fe4d4d528684003fc27c886eed919b4e307614ac477e",
+          "excerpt": "楚王殷如岳州，遣六軍使袁詮、副使王環、監軍馬希瞻將水軍擊荊南，高季興以水軍逆戰。至劉郎洑，希瞻夜匿戰艦數十艘於港中；詰旦，兩軍合戰，希瞻出戰艦橫擊之，季興大敗，俘斬以千數，進逼江陵。季興請和，歸史光憲於楚。軍還，楚王殷讓環不遂取荊南，環曰：「江陵在中朝及吳、蜀之間，四戰之地也，宜存之以為吾扞蔽。」殷說。環每戰，身先士卒，與從同甘苦；常置針藥於座右，戰罷，索傷者於帳前，自傅治之。士卒隸環麾下者相賀曰：「吾屬得死所矣。」故所向有功。楚大舉水軍擊漢，圍封州。漢主以《周易》筮之，遇《大有》，於是大赦，改元大有；命左右街使蘇章將神弩三千、戰艦百艘救封州。章至賀江，沉鐵絲亙於水，兩岸作巨輪挽絲亙，築長堤以隱之，伏壯士於堤中。章以輕舟逆戰，陽不利，楚人逐之，入堤中；挽輪舉緪，楚艦不能進退，以強弩夾水射之，楚兵大敗，解圍遁去。漢主以章為封州團練使。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p29",
+          "originalRevision": 1,
+          "originalSha256": "598831e7c5aa188af13b9c7c9a9b43cfd6d5bd29033d82e1c6226ffd5078582f",
+          "excerpt": "明宗聖德和武欽孝皇帝中之上天成三年（戊子，公元九二八年）"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p38",
+          "originalRevision": 1,
+          "originalSha256": "9a7ae43dd630296f106811a0284bd5d0e0cebbe620a755e0545f9f5e70c6a5f4",
+          "excerpt": "三月，辛亥，帝見重誨，氣色甚怒，"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 4
+    },
+    {
+      "id": "ma-yin-gao-yu-killed",
+      "year": 929,
+      "sourceDate": "天成四年八月（通鉴编年本事）；新史仅系马殷卒前一年",
+      "title": "高郁被希声矫命杀害",
+      "summary": "希声听挑拨，以马殷名义杀高郁；马殷得知后大哭，不能把矫命算作他亲自批准。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p14",
+          "originalRevision": 1,
+          "originalSha256": "fcf7530adffb02caab777d3f4b2b7eb11ad61361d9931fe45d652975afaadd23",
+          "excerpt": "希聲字若訥，殷次子也。殷建國，以希聲判內外諸軍事。荊南高季昌聞殷將高郁素教殷以計策而楚以彊，患之，嘗使諜者行間於殷，殷不聽。希聲用事，諜者語希聲曰：「季昌聞楚用高郁，大喜，以為亡馬氏者必郁也。」希聲素愚，以為然，遽奪郁兵職，郁怒曰：「吾事君王久矣，亟營西山，將老焉，犬子漸大，能咋人矣！」希聲聞之，矯殷令殺郁。殷老不復省事，莫知郁死，是日大霧四塞，殷怪之，語左右曰：「吾嘗從孫儒，儒每殺不辜，天必大霧，豈馬步獄有冤死乎？」明日，吏以狀白，殷拊膺大哭曰：「吾荒耄如此，而殺吾勳舊！」顧左右曰：「吾亦不久於此矣！」明年殷薨。"
+        },
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p12",
+          "originalRevision": 1,
+          "originalSha256": "601dec153910b5fa84c5522ec75956e91577f9c94969102343e3419d0d2522e8",
+          "excerpt": "天成二年，請建行臺。明宗封殷楚國王，有司言無封國王禮，請如三公用竹冊，乃遣尚書右丞李序持節以竹冊封之。殷以潭州為長沙府，建國承制，自置官屬，以其弟賨為靜江軍節度使，子希振武順軍節度使，次子希聲判內外諸軍事，姚彥章為左相，許德勳為右相，李鐸為司徒，崔穎為司空，拓拔常為僕射，馬珙為尚書，文武皆進位。謚其曾祖筠曰文肅、祖正曰莊穆、父元豐曰景莊，立三廟于長沙。長興元年，殷卒，年七十九，詔曰「馬殷官爵俱高，無以為贈，謚曰武穆」而已。子希聲立。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p82",
+          "originalRevision": 1,
+          "originalSha256": "9e20379d9f9c72c306add67700105f80f5bb222cb6c9cfe254e8f2b07f66e97b",
+          "excerpt": "明宗聖德和武欽孝皇帝中之上天成四年（己丑，公元九二九年）"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p104",
+          "originalRevision": 1,
+          "originalSha256": "c6027f25d9eee0dc9e6d7c029f5712a1fde451c18928f2543c9561c38bf3ddcf",
+          "excerpt": "八月，吳武昌節度使兼侍中李簡以疾求還江都，"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p105",
+          "originalRevision": 1,
+          "originalSha256": "1c8cc5f998525c0f23fb09366074e198ff3af3ded124fc666b0a45dfa7de12e7",
+          "excerpt": "希聲聞之，益怒，明日，矯以殷命殺鬱於府捨，"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 5
+    },
+    {
+      "id": "ma-yin-death",
+      "year": 930,
+      "sourceDate": "长兴元年十一月己巳（通鉴同事；新史系长兴元年）",
+      "title": "去世，希声继位",
+      "summary": "新史记本年卒、七十九岁，朝廷以官爵已高只予谥武穆，希声承掌楚军府。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p12",
+          "originalRevision": 1,
+          "originalSha256": "601dec153910b5fa84c5522ec75956e91577f9c94969102343e3419d0d2522e8",
+          "excerpt": "天成二年，請建行臺。明宗封殷楚國王，有司言無封國王禮，請如三公用竹冊，乃遣尚書右丞李序持節以竹冊封之。殷以潭州為長沙府，建國承制，自置官屬，以其弟賨為靜江軍節度使，子希振武順軍節度使，次子希聲判內外諸軍事，姚彥章為左相，許德勳為右相，李鐸為司徒，崔穎為司空，拓拔常為僕射，馬珙為尚書，文武皆進位。謚其曾祖筠曰文肅、祖正曰莊穆、父元豐曰景莊，立三廟于長沙。長興元年，殷卒，年七十九，詔曰「馬殷官爵俱高，無以為贈，謚曰武穆」而已。子希聲立。"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p3",
+          "originalRevision": 1,
+          "originalSha256": "8709486d3034a19b82c73e1fa48043499cc6c8a01be3b44793d787b2c3b2641f",
+          "excerpt": "明宗聖德和武欽孝皇帝中之下長興元年（庚寅，公元九三零年）"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p49",
+          "originalRevision": 1,
+          "originalSha256": "640ec5fca1c89637140c58e9653bc85e783db1ce6055bdcd779ffd4f2527b8ae",
+          "excerpt": "十一月，戊辰，"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p50",
+          "originalRevision": 1,
+          "originalSha256": "73513eee6b1550a24d0ad24c6e1a9e488b40795a0b7592d3c652e11f33d162a3",
+          "excerpt": "己巳，楚王殷卒，遺命諸子，兄弟相繼；"
+        }
+      ],
+      "phase": "fall",
+      "precision": "day",
+      "variants": [
+        {
+          "label": "旧史记晚一年并有记日",
+          "sourceDate": "长兴二年十一月十日",
+          "evidence": [
+            {
+              "chapterId": "old-v133",
+              "paragraphId": "old-v133-p13",
+              "originalRevision": 1,
+              "originalSha256": "bd9d3653ee1df91e720b9b3bba1a77b0d578a871af7f0cad77bc7e5908c59a60",
+              "excerpt": "殷於梁貞明中，為時姑息，所求皆允，累官至守太師、兼中書令，封楚王。又上章請依唐秦王故事，乃加天策上將軍之號。又請官位內添制置靜江、武平、寧遠等軍事，皆從之。既封楚王，仍請依唐諸王行臺故事，置諸天官幕府，有文苑學士之號，知詔令之名，總制二十餘州，自署官吏，征賦不供，民間采茶，並抑而買之。又自鑄鉛鐵錢，凡天下商賈所賫寶貨入其境者，只以土產鉛鐵博易之無餘，遂致一方富盛，窮極奢侈，貢奉朝廷不過茶數萬斤而已。於中原賣茶之利，歲百萬計。唐同光初，首修職貢，復授太師、兼尚書令、楚王。天成初，加守尚書令。長興二年十一月十日，薨於位，時年七十有八。明宗聞之，廢朝三日，謚曰武穆。子希聲嗣。"
+            }
+          ],
+          "year": 931,
+          "summary": "旧史记931年十一月十日卒、七十八岁；与新史930年及年寿有别，原文和现译分别保存。"
+        }
+      ],
+      "sortOrder": 6
+    },
+    {
+      "id": "ma-yin-early-military",
+      "year": null,
+      "sourceDate": "中和三年，未载初从月日",
+      "title": "从孙儒军中起家",
+      "summary": "初为孙儒裨将，秦宗权派孙儒、刘建峰隶秦宗衡军略淮南；不把后来的孙儒败死、江西行军定为同年。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p2",
+          "originalRevision": 1,
+          "originalSha256": "819703300a4a963d206aa9a1b02a62c1c7995228e9b291573dfaa445edc180d1",
+          "excerpt": "馬殷字霸圖，許州鄢陵人也。唐中和三年，蔡州秦宗權遣孫儒、劉建峯將兵萬人屬其弟宗衡，略地淮南，殷初為儒裨將。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 7,
+      "notes": [
+        "原文未独载本事月日；无法核准一个西历年，保留有据范围。"
+      ],
+      "yearRange": {
+        "start": 883,
+        "end": 884
+      }
+    },
+    {
+      "id": "ma-yin-liujianfeng-vanguard",
+      "year": null,
+      "sourceDate": "孙儒败死后至乾宁元年入湖南前",
+      "title": "推刘建峰为帅，任先锋转战江西",
+      "summary": "孙儒围宣州时派殷与建峰掠粮；孙儒败死后二人率众推建峰为帅，殷任先锋，攻豫章、虔、吉。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p2",
+          "originalRevision": 1,
+          "originalSha256": "819703300a4a963d206aa9a1b02a62c1c7995228e9b291573dfaa445edc180d1",
+          "excerpt": "行密據宣州，儒以兵圍之，久不克，遣殷與建峯掠食旁縣。儒戰敗死，殷等無所歸，乃推建峯為帥，殷為先鋒，轉攻豫章，略虔、吉，有眾數萬。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 8
+    },
+    {
+      "id": "ma-yin-hunan",
+      "year": null,
+      "sourceDate": "乾宁元年，未独记入湖南月日",
+      "title": "随刘建峰入湖南",
+      "summary": "军至醴陵，取得龙回关后袭潭州，刘建峰为留后，马殷任马步军都指挥使。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p2",
+          "originalRevision": 1,
+          "originalSha256": "819703300a4a963d206aa9a1b02a62c1c7995228e9b291573dfaa445edc180d1",
+          "excerpt": "乾寧元年，入湖南，次醴陵。潭州刺史鄧處訥發邵州兵戍龍回關，建峯等至關，降其戍將蔣勛。建峯取勛鎧甲被先鋒兵，張其旗幟，直趨潭州，至東門，東門守者以為關兵戍還，開門內之，遂殺處訥，建峯自稱留後。僖宗授建峯湖南節度使、[1]殷為馬步軍都指揮使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 9,
+      "notes": [
+        "原文未独载本事月日；无法核准一个西历年，保留有据范围。"
+      ],
+      "yearRange": {
+        "start": 894,
+        "end": 895
+      }
+    },
+    {
+      "id": "ma-yin-accession",
+      "year": null,
+      "sourceDate": "乾宁三年，未独记被推主帅月日",
+      "title": "刘建峰死后被推为主帅",
+      "summary": "刘建峰被部下杀，张佶原被推主帅却受伤，推荐马殷；姚彦章到邵州迎回，张佶让位。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p3",
+          "originalRevision": 1,
+          "originalSha256": "765970b79267d7da8a98ad2dae148e744213163a08646420d13bde2cf59dcf78",
+          "excerpt": "建峯庸人，不能帥其下，常與部曲飲酒讙呼。軍卒陳贍妻有色，建峯私之，贍怒，以鐵檛擊殺建峯。軍中推行軍司馬張佶為帥，佶將入府，乘馬輒踶囓，傷佶髀。佶臥病，語諸將曰：「吾非汝主也，馬公英勇，可共立之。」諸將乃共殺贍，磔其尸，遣姚彥章迎殷於邵州。殷至，佶乘肩輿入府，殷拜謁於廷中，佶召殷上，乃率將吏下，北面再拜，以位與之，時乾寧三年也。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 10,
+      "notes": [
+        "原文未独载本事月日；无法核准一个西历年，保留有据范围。"
+      ],
+      "yearRange": {
+        "start": 896,
+        "end": 897
+      }
+    },
+    {
+      "id": "ma-yin-wuan-command",
+      "year": null,
+      "sourceDate": "乾宁四年授武安军，未载任命月日",
+      "title": "任武安军节度使",
+      "summary": "此前授潭州刺史，派军攻六州及桂管，唐廷任武安军节度使。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p4",
+          "originalRevision": 1,
+          "originalSha256": "aa78069e6d6dea27ceef6439d980d730526dffb3f25289d6c4975e913f895ab4",
+          "excerpt": "唐拜殷潭州刺史。殷遣其將秦彥暉、李瓊等攻連、邵、郴、衡、道、永六州，皆下之。桂管劉士政懼，遣其將陳可璠、王建武等率兵守全義嶺。殷遣使聘于士政，使者至境上，可璠等不納。殷怒，遣瓊等以兵七千攻之，擒可璠等及其兵二千餘人，悉坑之，遂圍桂管，虜士政，盡取其屬州。殷表瓊桂管觀察使。四年，拜殷武安軍節度使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "notes": [
+        "攻六州与桂管为本传合叙的开拓阶段，授节度有乾宁四年锚，不把全部征服压成同一确日。",
+        "原文未独载本事月日；无法核准一个西历年，保留有据范围。"
+      ],
+      "sortOrder": 11,
+      "yearRange": {
+        "start": 897,
+        "end": 898
+      }
+    },
+    {
+      "id": "ma-yin-ma-cong",
+      "year": null,
+      "sourceDate": "杨行密在世、马殷掌湖南期间",
+      "title": "接回弟马賨，促成通商",
+      "summary": "杨行密为促两地相好送还马賨，马殷上表任其副使。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p5",
+          "originalRevision": 1,
+          "originalSha256": "e68512df0e5dba04011314706c7b983882a1015ba3a3e4b58c7a37bfe48093c2",
+          "excerpt": "初，孫儒敗於宣州，殷弟賨為楊行密所執，行密收儒餘兵為「黑雲都」，以賨為指揮使。賨從行密攻戰，數有功，為人質重，未嘗自矜，行密愛之，問賨誰家子，賨曰：「馬殷弟也。」行密大驚曰：「汝兄貴矣，吾今歸汝可乎？」賨不對。他日又問之，賨謝曰：「臣，孫儒敗卒也，幸公待以不死，非殺身不足報。湖南隣境，朝夕聞殷動靜足矣，不願去也。」行密歎曰：「昔吾愛子之貌，今吾得子之心矣。然勉為吾合二國之懽，通商賈、易有無以相資，亦所以報我也！」乃厚禮遣賨歸。殷大喜，表賨節度副使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 896,
+        "end": 905
+      },
+      "sortOrder": 12
+    },
+    {
+      "id": "ma-yin-langzhou",
+      "year": null,
+      "sourceDate": "梁初，雷彦恭在朗州时",
+      "title": "取朗州，招纳溪洞诸部",
+      "summary": "雷彦恭引吴兵来攻，遣将退敌并取朗州，澧辰溆等地归附；请升朗州军。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p9",
+          "originalRevision": 1,
+          "originalSha256": "25bea2c91502ff42c1bb314162e164edfeea37250bf1ba588b10599a9f545030",
+          "excerpt": "朗州雷彥恭召吳人攻平江，許德勳擊敗之。殷遣秦彥暉攻朗州，彥恭奔於吳，執其弟彥雄等七人送于梁。於是澧州向瓌、辰州宋鄴、漵州昌師益等率溪洞諸蠻皆附于殷。殷請升朗州為永順軍，表張佶節度使。殷乃請依唐太宗故事，開天冊府，置官屬。太祖拜殷天冊上將軍，殷以其弟賨為左相，存為右相，廖光圖等十八人為學士。末帝時，加殷武昌、靜江、寧遠等軍節度使，[2]洪、鄂四面行營都統。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      },
+      "sortOrder": 13
+    },
+    {
+      "id": "ma-yin-tang-envoy",
+      "year": null,
+      "sourceDate": "庄宗灭梁之后，派希范及交还梁印未独载年月",
+      "title": "遣希范贡后唐，交还梁都统印",
+      "summary": "派子希范贡唐，希范以洞庭足供饮马答庄宗；交还梁旧授印。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p10",
+          "originalRevision": 1,
+          "originalSha256": "88d70a8a4c511b688f6f1045623e681837c34adf0fdd7623abb61d0159b6c348",
+          "excerpt": "唐莊宗滅梁，殷遣其子希範脩貢京師，上梁所授都統印，莊宗問洞庭廣狹，希範對曰：「車駕南巡，才堪飲馬爾。」莊宗嘉之。莊宗平蜀，殷大懼，表求致仕，莊宗下璽書慰勞之。明宗即位，遣使脩貢，并賀明年正月，荊南高季昌執其貢使史光憲。殷遣袁詮、王環等攻之，至其城下，季昌求和，乃止。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 14,
+      "notes": [
+        "原文未独载本事月日；无法核准一个西历年，保留有据范围。"
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 926
+      }
+    },
+    {
+      "id": "ma-yin-tea-and-money",
+      "year": null,
+      "sourceDate": "经营湖南期间，原卷未明年月",
+      "title": "建茶邸、铸钱以充国用",
+      "summary": "用高郁建议奉朝廷而修兵农，沿北上线路设茶邸，收商税、铸铅铁钱，增强财政。",
+      "evidence": [
+        {
+          "chapterId": "new-v66",
+          "paragraphId": "new-v66-p11",
+          "originalRevision": 1,
+          "originalSha256": "621635cf4f1b8b82db25d958c18ae32861b03006670bee9a7f891fcf35030bec",
+          "excerpt": "殷初兵力尚寡，與楊行密、成汭、劉龑等為敵國，殷患之，問策於其將高郁，郁曰：「成汭地狹兵寡，不足為吾患，而劉龑志在五管而已，楊行密，孫儒之仇，雖以萬金交之，不能得其懽心。然尊王仗順，霸者之業也，今宜內奉朝廷以求封爵而外誇隣敵，然後退脩兵農，畜力而有待爾。」於是殷始脩貢京師，然歲貢不過所產茶茗而已。乃自京師至襄、唐、郢、復等州置邸務以賣茶，其利十倍。郁又諷殷鑄鉛鐵錢，以十當銅錢一。又令民自造茶以通商旅，而收其算，歲入萬計。由是地大力完，數邀封爵。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 15
+    }
+  ]
+}

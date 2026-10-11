@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wang-sitong",
+  "events": [
+    {
+      "id": "wang-sitong-southwest",
+      "title": "任西南行营军职，升京兆",
+      "summary": "两川叛乱时被留朝，八月任西南面行营马步都虞候，九月任京兆尹、西京留守。",
+      "year": 930,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "长兴元年八月、九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p9",
+          "originalRevision": 1,
+          "originalSha256": "8843e1c69d92b903b5191faa48280c22513de7db71f6a779fcb70fb35a5b50e8",
+          "excerpt": "八月，授西南面行營馬步都虞候。九月，遷京兆尹、西京留守。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-return-xijing",
+      "title": "董璋败后复任西京留守",
+      "summary": "长兴三年两川交兵，密诏伺机出兵，但未行董璋已败；八月复为京兆尹、西京留守。",
+      "year": 932,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "长兴三年八月",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p10",
+          "originalRevision": 1,
+          "originalSha256": "b6630149a276caaae83d85ee7c494a55f139f0ff76cef30d8bbdd905e0e952b2",
+          "excerpt": "三年，兩川交兵，明宗慮並在一人，則朝廷難製，密詔思同相度形勢，即乘間用軍，事未行而董璋敗。八月，復為京兆尹兼西京留守。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-fengxiang-command",
+      "title": "拒李从珂起兵信，任讨凤翔都部署",
+      "summary": "拒李从珂招诱，拘其使者并遣子入朝报告，受命凤翔行营都部署，军屯扶风。",
+      "year": 934,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "潞王凤翔起兵时（应顺元年）",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p10",
+          "originalRevision": 1,
+          "originalSha256": "b6630149a276caaae83d85ee7c494a55f139f0ff76cef30d8bbdd905e0e952b2",
+          "excerpt": "朝廷嘉之，乃以思同為鳳翔行營都部署，起軍營於扶風。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-army-collapse",
+      "title": "攻凤翔时军队倒戈，奔潼关",
+      "summary": "与张虔钊会兵攻凤翔，部军转入城受赏；兵众弃仗，他退长安被拒，转奔潼关。",
+      "year": 934,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "三月十四日至十七日，潞王起兵时",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p11",
+          "originalRevision": 1,
+          "originalSha256": "1da3685dd1a04adf8bab2e628b291cb128a5f47ef7a6297a4a08dfd2876441e8",
+          "excerpt": "十七日，思同與藥彥稠、萇從簡俱至長安，劉遂雍閉關不內，乃奔潼關。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-death-capture",
+      "title": "被俘后拒弃先朝，未经报准遭杀",
+      "summary": "三月二十二日被李从珂军捕获，表示尽忠先朝。李从珂本拟任用，刘延朗等趁醉未待答复杀王思同及其子。",
+      "year": 934,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "三月二十二日被俘及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p12",
+          "originalRevision": 1,
+          "originalSha256": "31035eed31747d67f2091712e174b0b474f5eca784601a2ee017224c5d472b9d",
+          "excerpt": "屬王醉，不待報，殺思同並其子德勝。潞王醒，召思同，左右報已誅之矣。"
+        }
+      ],
+      "notes": [
+        "二十二日是被俘日，不直接当作本传未记的处死日。"
+      ]
+    },
+    {
+      "id": "wang-sitong-early-join",
+      "title": "从刘仁恭帐下投河东",
+      "summary": "母为刘仁恭女，初为刘仁恭军校；刘守光攻父时带部兵归太原，年十六，任飞腾指挥使。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "刘守光攻大安山时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p8",
+          "originalRevision": 1,
+          "originalSha256": "3888a4ea089a4ecc93f6ede826c743987eef0ea74067468431f70a376d4263ee",
+          "excerpt": "會劉守光攻仁恭於大安山，思同以部下兵歸太原，時年十六，武皇命為飛騰指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-mingzong-towns",
+      "title": "明宗即位后任同州、转陇右",
+      "summary": "李嗣源知其才能，即位后任同州节度，随后移陇右；在秦州多年以招抚边民、建寨控险治理边防。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "明宗即位后授同州，未几转陇右；下文长兴元年入朝之前，未记各任月年，926—931年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p9",
+          "originalRevision": 1,
+          "originalSha256": "8843e1c69d92b903b5191faa48280c22513de7db71f6a779fcb70fb35a5b50e8",
+          "excerpt": "明宗在軍時，素知之，即位後，用為同州節度使，未幾，移鎮隴右。"
+        }
+      ],
+      "yearRange": {
+        "start": 926,
+        "end": 931
+      }
+    },
+    {
+      "id": "wang-sitong-audience-border",
+      "title": "入朝陈秦州边防，获明宗赞许",
+      "summary": "在中兴殿陈述秦州招抚吐蕃、修四十余寨及互市缴械措施，明宗认可其并非不理事。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "长兴元年；未记可核的具体月日，西历范围930—931年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p9",
+          "originalRevision": 1,
+          "originalSha256": "8843e1c69d92b903b5191faa48280c22513de7db71f6a779fcb70fb35a5b50e8",
+          "excerpt": "長興元年，入朝，見於中興殿。"
+        }
+      ],
+      "yearRange": {
+        "start": 930,
+        "end": 931
+      }
+    },
+    {
+      "id": "wang-sitong-jiange",
+      "title": "先入剑门而被董璋逐出",
+      "summary": "奉命伐两川时为先锋，勇进剑门，大军未跟上而被董璋逐出；撤军后以先取剑门之功移山南西道。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "长兴元年伐两川行动中，传中未单记日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p9",
+          "originalRevision": 1,
+          "originalSha256": "8843e1c69d92b903b5191faa48280c22513de7db71f6a779fcb70fb35a5b50e8",
+          "excerpt": "思同恃勇先入劍門，大軍未相繼，復被董璋兵逐出之。"
+        }
+      ]
+    },
+    {
+      "id": "wang-sitong-han-posthumous",
+      "title": "汉朝追赠侍中",
+      "summary": "汉高祖即位后诏追赠侍中，原传未记具体月日。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "汉高祖即位后，原传未另列年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p12",
+          "originalRevision": 1,
+          "originalSha256": "31035eed31747d67f2091712e174b0b474f5eca784601a2ee017224c5d472b9d",
+          "excerpt": "及漢高祖即位，詔贈侍中。"
+        }
+      ]
+    }
+  ]
+}

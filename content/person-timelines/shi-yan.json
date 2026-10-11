@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "shi-yan",
+  "events": [
+    {
+      "id": "shi-yan-early-cavalry",
+      "title": "以骑射为李克用亲将",
+      "summary": "因擅骑射侍奉李克用，为帐中亲将；随入关讨黄巢，此后屡随出征。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "以便騎射給事於武皇。為帳中親將，驍果絕眾，善擒生設伏，望塵揣敵，所向皆捷。"
+        }
+      ]
+    },
+    {
+      "id": "shi-yan-protect-shimen",
+      "title": "石门护驾，警卫京畿",
+      "summary": "随讨王行瑜时率五百骑在石门护驾，分骑警卫，皇帝回京后因功获官，屯三桥数月。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "乾宁中讨王行瑜时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "乾寧中，從討王行瑜，師次渭北，遣儼率五百騎護駕石門。"
+        }
+      ]
+    },
+    {
+      "id": "shi-yan-aid-yanyun",
+      "title": "渡河援兖郓，攻梁营",
+      "summary": "在护驾次年与李承嗣援兖郓，与安福顺等用数千骑直犯汴军营垒。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "护驾次年；本传未记确切年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "明年，與李承嗣率騎渡河援兗、鄆。"
+        }
+      ]
+    },
+    {
+      "id": "shi-yan-huainan",
+      "title": "兖郓失守后奔淮南",
+      "summary": "朱瑾失守后与李承嗣奔淮南，增强当地骑兵战力，参与清口败汴军及后来的淮南扩张。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "朱瑾失守后，传中未列各战确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "及朱瑾失守，與李承嗣等奔淮南。淮人比善水軍，不閑騎射，既得儼等，軍聲大振，尋挫汴軍於清口。"
+        }
+      ]
+    },
+    {
+      "id": "shi-yan-death-guangling",
+      "title": "卒于广陵",
+      "summary": "转仕淮南后在广陵去世。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "range",
+      "sourceDate": "天祐十三年；未记可核的具体月日，西历范围916—917年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "天祐十三年，卒於廣陵。"
+        }
+      ],
+      "yearRange": {
+        "start": 916,
+        "end": 917
+      }
+    }
+  ]
+}

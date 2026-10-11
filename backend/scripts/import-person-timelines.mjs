@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase } from './runtime.mjs';
 import { loadLibrary } from '../../content/library.mjs';
-import { loadPersonTimelines, validatePersonTimeline, timelineEvidence, timelineHash } from '../../content/person-timelines.mjs';
+import { loadPersonTimelines, validatePersonTimeline, validateTimelineCoverage, timelineEvidence, timelineHash } from '../../content/person-timelines.mjs';
 
 export async function ensurePersonTimelineSchema(client) {
   await client.query(readFileSync(new URL('../db/007-person-timelines.sql', import.meta.url), 'utf8'));
@@ -50,7 +50,7 @@ export async function importPersonTimelines(client, input = loadPersonTimelines(
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const client = new pg.Client(adminDatabase(loadConfig()));
-  try { await client.connect(); await client.query('BEGIN'); const result=await importPersonTimelines(client); await client.query('COMMIT'); console.log(JSON.stringify(result)); }
+  try { const documents=loadPersonTimelines(); validateTimelineCoverage(documents); await client.connect(); await client.query('BEGIN'); const result=await importPersonTimelines(client, documents); await client.query('COMMIT'); console.log(JSON.stringify(result)); }
   catch (error) { await client.query('ROLLBACK').catch(()=>{}); console.error(error.code ? `Timeline import failed (${error.code})` : error.message); process.exitCode=1; }
   finally { await client.end(); }
 }

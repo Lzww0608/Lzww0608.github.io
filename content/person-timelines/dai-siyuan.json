@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "dai-siyuan",
+  "events": [
+    {
+      "id": "dai-siyuan-cangzhou",
+      "title": "弃沧州，渡河归汴",
+      "summary": "李存勖平定魏博，晋兵逼近沧州、德州后，戴思远弃镇渡河南归；前受镇沧、后任天平另列。两处旧史所记月份不同。",
+      "year": 916,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "符存审传天祐十三年十月；梁本纪贞明二年九月另说",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "莊宗平定魏博，以兵臨滄、德，思遠棄鎮渡河歸汴，累遷天平軍節度使兼北面招討使，將兵與莊宗對壘。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p16",
+          "originalRevision": 1,
+          "originalSha256": "7b623f658b47a4d453820a2ac6e62004f872d5736b13bf48bae0bb082a59fae8",
+          "excerpt": "十二年，魏博歸款於莊宗，遣存審率前鋒據臨清，以俟進取。莊宗入魏，存審屯魏縣以抗劉鄩。六月，鄩營莘縣，存審與鎮、定之師營莘西三十里，一日數戰。八月，率師攻張源德於貝州。十三年二月，劉鄩自莘悉眾來襲我魏州，存審以大軍踵其後，戰於故元城，大敗汴人，從收澶、衛、磁、洺等州。秋，邢州閻寶降，授存審安國軍節度、邢洺磁等州觀察使。十月，戴思遠棄滄州，毛璋以城降，授存審檢校太傅、橫海軍節度使，兼領魏博馬步軍都指揮使。明年，就加平章事。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "梁本纪记九月弃沧",
+          "sourceDate": "贞明二年九月",
+          "year": 916,
+          "summary": "梁末帝本纪记九月戴思远弃沧州来奔，符存审传记十月；不替两处文本统一月份。",
+          "evidence": [
+            {
+              "chapterId": "old-v008",
+              "paragraphId": "old-v008-p37",
+              "originalRevision": 1,
+              "originalSha256": "7a710c0209e4343aca604d5b2de2134e45febd050b88fd2a7027fe62b68eeef7",
+              "excerpt": "貞明二年春正月庚申，以皇伯父宋州節度使、開府儀同三司、檢校太師、兼中書令、廣王全昱為守中書令，餘如故。〈（《通鑒》：二年春正月，宣武節度使、守中書令、廣德靖王全昱卒。）〉以浙江東道營田副使、檢校太傅、前常州刺史杜建徽遙領涇州節度使。"
+            },
+            {
+              "chapterId": "old-v008",
+              "paragraphId": "old-v008-p45",
+              "originalRevision": 1,
+              "originalSha256": "1d1eed9ad431e54bdc5f4a494be5d1d631007ea8568d0fde6ef944a14091de00",
+              "excerpt": "九月，晉王還太原。滄州節度使戴思遠棄城來奔，晉人陷貝州。〈（《歐陽史》本紀：二年九月，晉人克貝州，守將張源德死之。又，《死事傳》略云：太祖時，源德自金吾衛將軍為蔡州刺史。貞明元年，魏博節度使楊師厚卒，末帝分魏、相等六州為兩鎮，遣劉鄩將兵萬人屯於魏。魏軍叛降晉，源德為鄩守貝州。晉王入魏，諸將欲先擊貝州，晉王曰：「貝城小而堅，攻之難卒下。」乃先襲破德州，然後以兵五千攻源德，源德堅守不下，晉軍塹而圍之。已而劉鄩大敗於故元城，南走黎陽，六鎮數十州之地皆歸晉，獨貝一州，圍之逾年不可下。源德守既堅，而貝人聞晉已盡有河北，城中食且盡，乃勸源德出降，源德不從，遂見殺。）〉己卯，天平軍節度副大使、知節度事、檢校太師、兼中書令、琅琊郡王王檀薨。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-desheng-defeat",
+      "title": "袭德胜遭伏击，退回杨村",
+      "summary": "晋王分兵讨镇州时，戴思远谋袭德胜北城；晋方预先获知，李嗣源伏戚城、李存审屯德胜，梁军中诱，戴思远败退杨村。",
+      "year": 921,
+      "sortOrder": 2,
+      "precision": "month",
+      "phase": "service",
+      "sourceDate": "《通鉴》龙德元年冬十月己未",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p38",
+          "originalRevision": 1,
+          "originalSha256": "32204dfb261d2f6c47ee156c99f4b3dc7b39f2bd8c91aac7ccd18a6af159ac25",
+          "excerpt": "均王下龍德元年（辛巳，公元九二一年）"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p55",
+          "originalRevision": 1,
+          "originalSha256": "6d12bbdaabf4d9d32a1324fd0cc974d173fbe06b608323730ed39fd0406744dc",
+          "excerpt": "八月，庚申，晉王以習為成德留後，又命天平節度使閻寶、相州刺史史建瑭將兵助之，自邢洺而北。文禮先病腹疽；甲子，晉兵拔趙州，刺史王鋌降，晉王復以為刺史，文禮聞之，驚懼而卒。其子處瑾秘不發喪，與其黨韓正時謀悉力拒晉。九月，晉兵渡滹沱，圍鎮州，決漕渠以灌之，獲其深州刺史張友順。壬辰，史建瑭中流矢卒。晉王欲自分兵攻鎮州，北面招討使戴思遠聞之，謀悉楊村之眾襲德勝北城，晉王得梁降者，知之，冬，十月，己未，晉王命李嗣源伏兵於戚城，李存審屯德勝，先以騎兵誘之，偽示羸怯。梁兵競進，晉王嚴中軍以待之；梁兵至，晉王以鐵騎三千奮擊，梁兵大敗，思遠走趣楊村，士卒為晉兵所殺傷及自相蹈藉、墜河陷冰，失亡二萬餘人。晉王以李嗣源為蕃漢內外馬步副總管、同平章事。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-desheng",
+      "title": "乘晋王北征袭魏，进攻德胜",
+      "summary": "戴思远趁晋王北征，袭魏遇李嗣源设防，改取成安，又率军急攻德胜北城。李存审守拒，晋王二月从幽州五日驰至魏州，戴思远烧营退回杨村。",
+      "year": 922,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "《通鉴》龙德二年二月晋王驰援同役；旧本传未独标月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "久之，莊宗討張文禮於鎮州，契丹來援，莊宗追襲契丹至幽州。思遠聞之，總兵以襲魏州，至魏店，遇明宗騎軍適至，思遠乃涉洹水，陷成安，復歸楊村寨，盡率其眾，攻德勝北城。城中危急，符存審晝夜乘城以拒之。莊宗自薊五日馳至魏州，思遠聞之解去。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p63",
+          "originalRevision": 1,
+          "originalSha256": "4478108250ed0d5c99309fde21065d0349effbf9f71023d5a8bbaa3a8701b4e8",
+          "excerpt": "均王下龍德二年（壬午，公元九二二年）"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p68",
+          "originalRevision": 1,
+          "originalSha256": "b5d05414f00d4a5bbe134edd830c301e4fe5fe38cb45a2bd877d9d72709f917d",
+          "excerpt": "晉王之北攻鎮州也，李存審謂李嗣源曰：「梁人聞我在南兵少，不攻德勝，必襲魏州。吾二人聚於此何為！不若分軍備之。」遂分軍屯澶州。戴思遠果悉楊村之眾趣魏州，嗣源引兵先之，軍於狄公祠下，遣人告魏州，使為之備。思遠至魏店，嗣源遣其將石萬全將騎兵挑戰。思遠知有備，乃西渡洹水，拔成安，大掠而還。又將兵五萬攻德勝北城，重塹復壘，斷其出入，晝夜急攻之，李存審悉力拒守。晉王聞德勝勢危，二月，自幽州赴之，五日至魏州。思遠聞之，燒營遁還楊村。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-qimen",
+      "title": "与段凝取淇门、共城、新乡",
+      "summary": "段凝、张朗先袭卫州后，戴思远又与段凝攻陷淇门、共城、新乡，使梁在澶州西、相州南重新占有地盘，晋失去三分之一军储。",
+      "year": 922,
+      "sortOrder": 4,
+      "precision": "month",
+      "phase": "service",
+      "sourceDate": "《通鉴》龙德二年八月卫州役后接叙",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p63",
+          "originalRevision": 1,
+          "originalSha256": "4478108250ed0d5c99309fde21065d0349effbf9f71023d5a8bbaa3a8701b4e8",
+          "excerpt": "均王下龍德二年（壬午，公元九二二年）"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p76",
+          "originalRevision": 1,
+          "originalSha256": "9aae7b615d4bda46f72c3fe72fd71b3b2438a0fe566152bfda5abb582ab8ee22",
+          "excerpt": "晉衛州刺史李存儒，本姓楊，名婆兒，以俳優得幸於晉王。頗有膂力，晉王賜姓名，以為刺史；志事掊斂，防城卒皆征月課縱歸。八月，莊宅使段凝與步軍都指揮使張朗引兵夜渡河襲之，詰旦登城，執存儒，遂克衛州。戴思遠又與凝攻陷淇門、共城、新鄉，於是澶州之西，相州之南，皆為梁有；晉人失軍儲三之一，梁軍復振。帝以張朗為衛州刺史。朗，徐州人也。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-demotion",
+      "title": "郓州失守，罢兵为宣化留后",
+      "summary": "李嗣源袭郓州后戴思远被罢兵权、降宣化留后；后唐灭梁时他从邓州入朝，仍放回镇。",
+      "year": 923,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "龙德三年四月末郓州陷、同光元年十月灭梁，同役本纪作锚",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "及明宗襲下鄆州，思遠罷軍權，降授宣化軍留後。其年，莊宗入汴，思遠自鄧州入朝，復令歸鎮。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p21",
+          "originalRevision": 1,
+          "originalSha256": "97f7fef11e68870445e9641f84c443e94e254ccf6ae3ab92aa8b80903b21188e",
+          "excerpt": "龍德三年四月晦，晉師陷鄆州，中外大恐。五月，以彥章代戴思遠為北面招討使。拜命之日，促裝以赴滑台，遂自楊村寨浮河而下，水陸俱進，斷晉人德勝之浮梁，攻南城，拔之。晉人遂棄北城，並軍保楊劉。彥章以舟師沿流而下，晉人盡徹北城，拆屋木編筏，置步軍於其上，與彥章各行一岸。每遇轉灘水彙，即中流交鬥，流矢雨集，或舟筏覆沒，比及楊劉，凡百餘戰。彥章急攻楊劉，晝夜不息，晉人極力固守，垂陷者數四。六月，晉王親援其城，彥章之軍，重壕復壘，晉人不能入。晉王乃於博州東岸築壘，以應鄆州。彥章聞之，馳軍而至，急攻其柵，自旦及午，其城將拔，會晉王以大軍來援，彥章及退。七月，晉王至楊劉，彥章軍不利，遂罷彥章兵權，詔令歸闕，以段凝為招討使。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "同光元年冬十月辛未朔，日有食之。是日，皇后劉氏、皇子繼岌歸鄴宮，帝送於離亭，歔欷而別。詔宣徽使李紹宏、宰相豆盧革、租庸使張憲、興唐尹王正言同守鄴城。壬申，帝御大軍自楊劉濟河。癸酉，至鄆州。是夜三鼓，渡汶。時王彥章守中都。甲戌，帝攻之，中都素無城守，師既雲合，梁眾自潰。是日，擒梁將王彥章及都監張漢傑、趙廷隱、劉嗣彬、李知節、康文通、王山興等將吏二百餘人，斬馘二萬，奪馬千匹。時既獲中都之捷，帝召諸將謀其所向，或言且徇兗州，徐圖進取，唯李嗣源曰：「宜急趨汴州。段凝方領大軍駐於河上，假如便來赴援，直路又阻決河，須自滑州濟渡，十萬之眾，舟楫焉能卒辦？此去汴城咫尺，若晝夜兼程，信宿即至，段凝未起河堧，夷門已為我有矣。臣請以千騎前驅，陛下禦軍徐進，鮮不克矣。」帝嘉之。是夜，嗣源率前軍先進。翌日，車駕即路。丁丑，次曹州，郡將出降。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p13",
+          "originalRevision": 1,
+          "originalSha256": "18161c1784f85a48817938a636eb9d863161f699cd28d9109b0c2d4e1ac427f6",
+          "excerpt": "己亥，宴勳臣於崇元殿，梁室故將鹹預焉。帝酒酣，謂李嗣源曰：「今日宴客，皆吾前日之敵，一旦同會，皆卿前鋒之力也。」梁將霍彥威、戴思遠等皆伏陛叩頭，帝因賜禦衣、酒器，盡歡而罷。齊州刺史孟璆上章請死，詔原之。璆初事帝為騎將，天祐十三年，帝與劉鄩莘縣對壘，璆領七百騎奔梁，至是來請罪。帝報之曰：「爾當吾急，引七百騎投賊，何面目相見！」璆惶恐請死，帝恕之。未幾，移貝州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-yangzhou",
+      "title": "明宗即位，移授洋州",
+      "summary": "明宗即位后，戴思远移授洋州节度使；西川叛乱时的请代、告老是后续阶段。",
+      "year": 926,
+      "sortOrder": 6,
+      "precision": "year",
+      "phase": "service",
+      "sourceDate": "旧本纪天成元年五月甲子同次洋州授任，作确年依据",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "明宗即位，移授洋州節度使。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p1",
+          "originalRevision": 1,
+          "originalSha256": "0f158c63988d8afb39ac34efe0c792ab71a463ec01e23a74ac9a6c8e0a8a3752",
+          "excerpt": "天成元年夏四月丙午，帝自興聖宮赴西宮，文武百僚縞素於位，帝服斬衰，親奉攢，塗設奠，哭盡哀，乃於柩前即皇帝位。百官易吉服班於位，帝御袞冕受冊訖，百僚稱賀。丁未，群官縞素赴西宮臨。以樞密使安重誨為檢校司空，守左領軍大將軍，依前充樞密使。宰臣豆盧革等三上表請聽政，從之。遣使往諸道及淮南告哀。辛亥，帝始聽政於中興殿。壬子，西南面副招討使、工部尚書任圜率步騎二萬六千人入見。甲寅，帝御文明殿受朝。製改同光四年為天成元年，大赦天下。後宮內職量留一百人，內官三十人，教坊一百人，鷹坊二十人，禦廚五十人，其餘任從所適。諸司使務有名無實者並停。分遣諸軍就食近畿，以減饋送之勞。秋夏稅子，每鬥先有省耗一升，今後隻納正數，其省耗宜停。天下節度、防禦使，除正、至、端午、降誕四節量事進奉，達情而已，自於州府圓融，不得科斂百姓。其刺史雖遇四節，不在貢奉。諸州雜稅，宜定合稅物色名目，不得邀難商旅。租庸司先將係省錢物，與人回圖，宜令盡底收納，以塞幸門雲。乙卯，渤海國王大諲譔遣使朝貢。是月，北京副留守、知留守事張憲賜死，以其失守故也。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "五月丙辰朔，帝不視朝，臨於西宮。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p3",
+          "originalRevision": 1,
+          "originalSha256": "465386c52a2bd3b1e3453fba8ce770ab84d2444e6a1c507692a771659b2b2bcd",
+          "excerpt": "戊午，河陽節度使夏魯奇加檢校太傅，以貝州刺史房知溫為兗州節度使，以齊州防禦使王晏球為宋州節度使，以洺州刺史米君立為邢州節度使。己未，賜文武百官各一馬一驢。西都知府張篯進魏王繼岌打球馬七十二匹。北京馬步都指揮使李從溫奏，準詔誅宦官。初，莊宗遇內難，宦者數百人竄匿山谷，落發為僧，奔至太原七十餘人，至是盡誅於都亭驛。辛酉，詔華州放散西川宮人各歸骨肉。壬戌，以前相州刺史、北京左右廂都指揮使安金全為安北都護、振武節度使、同平章事。甲子，前西都留守、京兆尹張筠加檢校太傅，充山南西道節度使；以夔州節度使李紹文為遂州節度使；以前鄧州留後戴思遠為洋州節度使。丁卯，以金吾將軍張實為金州防禦使。戊辰，以金紫光祿大夫、檢校司空趙在禮為滑州節度使，加檢校太保。製下，在禮以軍情不順為辭，不之任。以許州留後陶玘為鄧州留後，以諸道馬步副都指揮使安審通為齊州防禦使。庚午，以權知北京軍府事、汾州刺史符彥超為晉州留後，以前陳州刺史劉伸殷為陝州留後。癸酉，以前磁州刺史劉彥琮為同州留後。甲戌，福州節度使、檢校太傅王延翰加檢校太尉、同平章事。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-death",
+      "title": "卒于家",
+      "summary": "戴思远致仕后在家中去世。",
+      "year": 935,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "清泰二年八月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "清泰二年八月，卒於家。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-jinzhou",
+      "title": "由羽林统军出晋州刺史",
+      "summary": "戴思远早事朱温，以武干知名；开平元年由右羽林统军加检校司徒，出任晋州刺史。后两年的任职另列。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "开平元年，未记授任月日，传统年跨907—908年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "戴思遠，本梁之故將也。初事梁祖，以武幹知名。開平元年，自右羽林統軍加檢校司徒，出為晉州刺史。"
+        }
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    },
+    {
+      "id": "dai-siyuan-huazhou",
+      "title": "任右监门上将军，改华州防御",
+      "summary": "开平二年，戴思远授右监门上将军，不久改华州防御使，未独标各次任命月日。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "开平二年，传统年跨908—909年",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "二年，授右監門上將軍，尋改華州防禦使。"
+        }
+      ],
+      "yearRange": {
+        "start": 908,
+        "end": 909
+      }
+    },
+    {
+      "id": "dai-siyuan-yulin",
+      "title": "复任右羽林统军",
+      "summary": "开平三年，戴思远从左天武使再授右羽林统军，不与前两年任职并作一时。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "开平三年，未记任命月日，传统年跨909—910年",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "三年，自左天武使復授右羽林統軍。"
+        }
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      }
+    },
+    {
+      "id": "dai-siyuan-liang-commands",
+      "title": "历洺邢，受命镇沧",
+      "summary": "朱友珪在位时，戴思远任洺州团练使；本传又记贞明中任邢州留后、本州节度，张万进献沧州后受梁末帝命镇守。各职叙次保留，不倒填弃沧州的916年。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "朱友珪在位至梁末帝前期，诸次授任未独年月",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "郢王友珪篡位，授洺州團練使。貞明中，為邢州留後，遷本州節度使。屬燕將張萬進殺滄州留後劉繼威，以城歸梁，末帝命思遠鎮之。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-tianping",
+      "title": "归汴后，迁天平兼北面招讨",
+      "summary": "戴思远弃沧归汴以后，累迁天平节度使、兼北面招讨，与李存勖在河上对垒；本传未逐任标年月。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "弃沧归汴后，未记各次迁任年月",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "莊宗平定魏博，以兵臨滄、德，思遠棄鎮渡河歸汴，累遷天平軍節度使兼北面招討使，將兵與莊宗對壘。"
+        }
+      ]
+    },
+    {
+      "id": "dai-siyuan-retire",
+      "title": "明宗时移洋州，避董璋关系告老",
+      "summary": "西川叛乱时，戴思远因与董璋是旧交，请代以避嫌，入朝宿卫，以年老请求告退，获太子少保致仕。洋州授任另列。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "undated",
+      "sourceDate": "明宗即位后，西川叛时及其后，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p8",
+          "originalRevision": 1,
+          "originalSha256": "6a2062e4baa89634ffafe3b4a3f5df5ec172964f626c07171ab00c56d1f407f5",
+          "excerpt": "及西川俱叛，思遠以董璋故人，避嫌請代，征入朝宿衛，以年告老，授太子少保致仕。"
+        }
+      ]
+    }
+  ]
+}

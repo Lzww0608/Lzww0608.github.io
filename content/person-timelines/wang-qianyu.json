@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wang-qianyu",
+  "events": [
+    {
+      "id": "wang-qianyu-join",
+      "title": "来归宣武，诸书时序不同",
+      "summary": "李唐宾传明记中和四年三月与李唐宾来降；旧本传记诸葛爽归顺后隶宣武，新史记中和三年随爽奔梁，分别列出归附时序。后续军职和义州刺史不系884年。",
+      "year": 884,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "旧史李唐宾传中和四年三月来降",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "三月，太祖破瓦子寨，唐賓與王虔裕來降。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "唐乾符中，諸葛爽聚徒於青、棣間，攻剽郡縣，虔裕依其眾。及爽歸順，乃以虔裕及其眾隸於宣武軍。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史中和三年奔梁",
+          "sourceDate": "中和三年",
+          "year": 883,
+          "summary": "新史记孙儒陷河阳后随诸葛爽奔梁，旧史本传记诸葛爽归顺后隶宣武，他传又记四年三月来降，各源原说并列。",
+          "evidence": [
+            {
+              "chapterId": "new-v23",
+              "paragraphId": "new-v23-p28",
+              "originalRevision": 1,
+              "originalSha256": "4886ac696aeb3df82efed2086824c6f9c53030199d554cf4522842dd660146dd",
+              "excerpt": "中和三年，孫儒陷河陽，虔裕隨爽奔于梁。[3]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wang-qianyu-vanguard-yizhou",
+      "title": "统骑先锋，陈蔡战功授义州",
+      "summary": "朱温镇汴后任王虔裕统骑先锋，陈蔡间连拔黄巢营寨，追至万胜戍破敌，因功表义州刺史。旧新本传均未独记这组军职与授官年份。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "朱温镇汴以后，军职与授义州未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "太祖鎮汴，四郊多事，始議選將征討，首以虔裕綰騎兵，恒為前鋒。及太祖擊巢、蔡於陳州，虔裕連拔數寨，擒獲萬計。巢孽既遁，虔裕躡其跡，追至萬勝戍，賊眾饑乏，短兵才接而潰。太祖以其勞，表授義州刺史。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p28",
+          "originalRevision": 1,
+          "originalSha256": "4886ac696aeb3df82efed2086824c6f9c53030199d554cf4522842dd660146dd",
+          "excerpt": "是時，太祖新就鎮，黃巢、秦宗權等兵方盛，太祖數為所窘，而梁未有佗將，乃以虔裕將騎兵，常為先鋒擊巢陳、蔡間，拔其數柵，巢走，梁兵躡之，戰于萬勝戍，賊敗而東，虔裕功為多，乃表虔裕義州刺史。"
+        }
+      ],
+      "notes": [
+        "新史把军职续在中和三年奔梁后叙述，没有将随后巢走与授官另标为同一年。"
+      ]
+    },
+    {
+      "id": "wang-qianyu-caizhou",
+      "title": "与蔡军百余战",
+      "summary": "黄巢败走后，王虔裕在陈郑许亳边境长期掩袭攻拒蔡军，历大小百余战。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "黄巢离去以后，未逐役标年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "蔡人日縱侵掠，陳、鄭、許、亳之郊頻年大戰，虔裕掩襲攻拒，凡百餘陣，剿戮生擒，不知紀極。"
+        }
+      ]
+    },
+    {
+      "id": "wang-qianyu-weishi",
+      "title": "尉氏败后被削职拘管",
+      "summary": "王虔裕奉命在尉氏拒秦宗贤，战败返回，朱温怒而削职、拘于别部。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "秦宗贤侵犯汴南时，未标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "秦宗賢寇汴南鄙，太祖令虔裕逆擊於尉氏，不利而還。太祖怒，命削職，拘於別部。"
+        }
+      ]
+    },
+    {
+      "id": "wang-qianyu-xingzhou",
+      "title": "百勇士夜入邢州解围",
+      "summary": "孟迁降梁被围，王虔裕奉命率百余勇士夜突入邢州，次日竖梁旗，使晋军误以为援军到而退。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "受拘逾年、孟迁请降后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "逾年，邢州孟遷請降。未幾，晉人伐邢，孟遷遣使來乞師，太祖先遣虔裕選勇士百餘人徑往赴之，伺夜突入邢州。明日，循堞樹立旗幟，晉人不測，乃退。數月，復來圍邢，時太祖大軍方討兗、鄆，未及救援。"
+        }
+      ]
+    },
+    {
+      "id": "wang-qianyu-death",
+      "title": "孟迁降晋时被执送太原遇害",
+      "summary": "晋军再围邢州而梁无援，孟迁将王虔裕拘送太原，他随后被害。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "邢州再次被围时，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5ef120e7e72b41f21add604d65a54802a04bf9ec0f055398ca68a7624b99ad7",
+          "excerpt": "數月，復來圍邢，時太祖大軍方討兗、鄆，未及救援。邢人困而攜貳，遷乃縶虔裕送於太原，尋為所害。"
+        }
+      ]
+    }
+  ]
+}

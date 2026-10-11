@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-cunxian",
+  "events": [
+    {
+      "id": "li-cunxian-cizhou",
+      "title": "调慈州，拒尹皓围攻",
+      "summary": "转任慈州后，李存贤督兵抵抗尹皓进攻，梁军攻打一月有余而退。",
+      "year": 915,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐十二年七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "十二年，移刺慈州。七月，汴將尹皓攻州城，存賢督軍拒戰，汴軍攻擊百端，月餘遁去。十八年，河中硃友謙來求援，命存賢率師赴之。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxian-lulong",
+      "title": "接替病重符存审镇幽州",
+      "summary": "符存审病重，朝廷择帅，李存贤三月获任卢龙节度使，五月到幽州，昼夜防备契丹。",
+      "year": 924,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "同光二年三月任命，五月到镇",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "二年三月，幽州李存審疾篤，求入覲，議擇帥代之。方內宴，莊宗曰：「吾披榛故人，零落殆盡，所殘者存審耳。今復衰疾，北門之事，知付何人！」因目存賢曰：「無易於卿。」即日授特進、檢校太保，充幽州盧龍節度使。五月，到鎮。時契丹強盛，城門之外，烽塵交警，一日數戰。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史角抵承诺的记法",
+          "sourceDate": "同光二年春",
+          "year": 924,
+          "summary": "新史把此次授卢龙节度使与庄宗早先角抵许镇联系；旧史角抵附记则说得蔚州刺史。",
+          "evidence": [
+            {
+              "chapterId": "new-v36",
+              "paragraphId": "new-v36-p34",
+              "originalRevision": 1,
+              "originalSha256": "dbbe7ed400f8d773393a4ede8dd1db52be1c2e9d653adafc8260da86ab673095",
+              "excerpt": "同光二年春，幽州符存審病，莊宗置酒宮中，歎曰：「吾創業故人，零落殆盡，其所存者惟存審耳！今又病篤，北方之事誰可代之？」因顧存賢曰：「無以易卿。角觝之勝，吾不食言。」即日以為盧龍軍節度使。是歲，卒于幽州，年六十五。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxian-lu-relief",
+      "title": "随周德威赴援上党",
+      "summary": "李存贤随周德威援救上党，驻军交口。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "天祐三年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "天祐三年，從周德威赴援上黨，營於交口。"
+        }
+      ],
+      "yearRange": {
+        "start": 906,
+        "end": 907
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-weizhou",
+      "title": "权蔚州刺史",
+      "summary": "李存贤暂任蔚州刺史以抵御吐浑。旧史另记他角抵胜李存勖后得到蔚州刺史，保留任职缘由的记法。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "天祐五年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "五年，權知蔚州刺史，以御吐渾。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史附记角抵授职",
+          "sourceDate": "庄宗在藩邸，未记确月日",
+          "summary": "旧史附记角抵胜李存勖后得到蔚州刺史，未单标年份。",
+          "evidence": [
+            {
+              "chapterId": "old-v053",
+              "paragraphId": "old-v053-p20",
+              "originalRevision": 1,
+              "originalSha256": "b73c69c5d96bd58f4fb0c31657cfa0693636480d334c227b956699a5a92a13d7",
+              "excerpt": "存賢少有材力，善角牴。初，莊宗在籓邸，每宴，私與王郁角牴鬥勝，郁頻不勝。莊宗自矜其能，謂存賢曰：「與爾一博，如勝，賞爾一郡。」即時角牴，存賢勝，得蔚州刺史。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 908,
+        "end": 909
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-qinzhou",
+      "title": "恢复沁州旧城",
+      "summary": "权沁州刺史后，李存贤将避敌南迁多年的治所迁回旧城，修建官署，安集百姓，获正式刺史任命。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "range",
+      "sourceDate": "天祐六年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "六年，權沁州刺史。先是，州當賊境，不能保守，乃於州南五十里據險立柵為治所，已歷十餘年矣。存賢至郡，乃移復舊郡，劃辟荊棘，特立廨捨，州民完集。莊宗嘉之，轉檢校司空，真拜刺史。"
+        }
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-qin-defense",
+      "title": "击退梁军攻城",
+      "summary": "梁军乘不备来攻沁州，李存贤将其击退。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "天祐九年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "九年，汴人乘其無備，來攻其城，存賢擊退之。"
+        }
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-wuzhou-command",
+      "year": null,
+      "title": "授武州刺史，领山北团练",
+      "summary": "旧史明确天祐十一年授武州刺史、山北团练使；新史亦记在沁州之后、慈州之前转任这两职，保持山北军职，不写成中原皇帝在位。",
+      "sourceDate": "天祐十一年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "十一年，授武州刺史、山北團練使。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p32",
+          "originalRevision": 1,
+          "originalSha256": "d348c5fa045de3cd3ce2c3e8aef76eb3791ab9861b384f692b147b5949fbdd81",
+          "excerpt": "遷武州刺史、山北團練使，"
+        }
+      ],
+      "sortOrder": 7,
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 914,
+        "end": 915
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-hezhong",
+      "title": "奉命率军援河中朱友谦",
+      "summary": "旧史明确天祐十八年朱友谦求援，李存贤奉命率军赴河中。接叙十九年临晋拒兵另列后续，不与出师混为同一年。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "天祐十八年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "十八年，河中硃友謙來求援，命存賢率師赴之。十九年，汴將段凝軍五萬營臨晉，蒲人大恐，鹹欲歸汴。或問於存賢曰：「河中將士欲拘公降於汴。」厚賢曰：「吾奉命河中，死王事固其所也。」汴軍退，以功加檢校司徒。"
+        }
+      ],
+      "notes": [
+        "两部史书对救援与拒敌的整体记年不同，后续事件分别列证。",
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 922
+      }
+    },
+    {
+      "id": "li-cunxian-hezhong-resistance",
+      "year": null,
+      "title": "段凝屯临晋时，坚持为晋王守战",
+      "summary": "旧史记天祐十九年段凝五万兵屯临晋，河中将士动摇，有人称将拘存贤归梁。存贤表示奉命而来，死于王事本所应当；梁兵退后加检校司徒。新史把救援、遇威胁和击退军队整体置于十八年，分别保留。",
+      "sourceDate": "《旧史》天祐十九年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "十九年，汴將段凝軍五萬營臨晉，蒲人大恐，鹹欲歸汴。或問於存賢曰：「河中將士欲拘公降於汴。」厚賢曰：「吾奉命河中，死王事固其所也。」汴軍退，以功加檢校司徒。"
+        }
+      ],
+      "sortOrder": 9,
+      "phase": "uncertain",
+      "precision": "range",
+      "variants": [
+        {
+          "label": "《新史》整体记十八年救援与拒敌",
+          "sourceDate": "天祐十八年，未独记月日",
+          "summary": "新史在十八年下记李存贤援朱友谦，有人称河中人要杀他归梁；存贤愿死王事，最终击走梁军。旧史分十八年赴援、十九年段凝临晋，并作拘押威胁，纪年和过程措辞不强合。",
+          "evidence": [
+            {
+              "chapterId": "new-v36",
+              "paragraphId": "new-v36-p33",
+              "originalRevision": 1,
+              "originalSha256": "a2d555253c28cbb97ea1466d8d44125b57ef533f8caec8222646d43dfa04fc38",
+              "excerpt": "天祐十八年，梁兵攻朱友謙于河中，莊宗遣存賢援友謙。是時，友謙新叛梁歸晉，而河中食少，人心多貳，諜者因謂存賢曰：「河中人欲殺子以歸梁，宜亟去。」存賢曰：「死王事，吾志也。復何恨哉！」卒擊走梁兵。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 922,
+        "end": 923
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-death",
+      "title": "忧劳成疾，卒于幽州",
+      "summary": "李存贤镇幽州时一日多次接战，昼夜戒严，忧劳成疾而卒，终年六十五，追赠太傅。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "sourceDate": "同光二年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "存賢性忠謹周慎，晝夜戒嚴，不遑寢食，以至憂勞成疾，卒於幽州，時年六十五。詔贈太傅。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p34",
+          "originalRevision": 1,
+          "originalSha256": "dbbe7ed400f8d773393a4ede8dd1db52be1c2e9d653adafc8260da86ab673095",
+          "excerpt": "是歲，卒于幽州，年六十五。贈太傅。"
+        }
+      ],
+      "yearRange": {
+        "start": 924,
+        "end": 925
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunxian-early",
+      "title": "由黄巢军归附，获赐姓名",
+      "summary": "李存贤本姓王、名贤，年轻时入黄巢军，在陈许战事中归附李克用；景福年间任义儿军副兵马使并获赐姓名，新史记为养子。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "陈许战事与景福中任职，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "賢少遇亂，入黃巢軍；武皇破賊陳、許，存賢來歸。景福中，典義兒軍，為副兵馬使，因賜姓名。天祐三年，從周德威赴援上黨，營於交口。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p32",
+          "originalRevision": 1,
+          "originalSha256": "d348c5fa045de3cd3ce2c3e8aef76eb3791ab9861b384f692b147b5949fbdd81",
+          "excerpt": "少為軍卒，善角觝，太祖擊黃巢于陳州，得之，賜以姓名，養為子。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxian-general",
+      "title": "后唐建立后任上将军",
+      "summary": "李存勖即皇帝位后，李存贤授右武卫上将军，同光初十一月入觐洛阳。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "同光初授官；元年十一月入觐跨923—924年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p19",
+          "originalRevision": 1,
+          "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+          "excerpt": "同光初，授右武衛上將軍。十一月，入覲洛陽。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      }
+    }
+  ]
+}

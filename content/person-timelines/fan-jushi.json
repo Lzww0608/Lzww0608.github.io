@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "fan-jushi",
+  "events": [
+    {
+      "id": "fan-jushi-weibo",
+      "title": "与葛从周张存敬救魏",
+      "summary": "刘仁恭南攻魏博，范居实与葛从周、张存敬救援，在内黄败幽滄军。",
+      "year": 899,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "光化二年同一燕攻魏役；本传未独标年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "幽州劉仁恭舉眾南下，寇魏郡北，居實與葛從周、張存敬率兵救魏，大破幽、滄之眾於內黃。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p1",
+          "originalRevision": 1,
+          "originalSha256": "3ef9b4f63e4478b48cbd8e24b752b5d28897dbbbb1f0a5c792608b551eb15d22",
+          "excerpt": "光化元年正月，帝遣葛從周統諸將略地于山東，遂次於邢、洺。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+          "excerpt": "二年正月，淮南楊行密舉全吳之眾，精甲五萬，以伐徐州，帝領大軍禦之。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+          "excerpt": "三月，與燕軍戰于內黃北，燕軍大敗，殺二萬餘眾，奪馬二千餘匹，擒都將單無敵已下七十餘人。"
+        }
+      ]
+    },
+    {
+      "id": "fan-jushi-fengxiang",
+      "title": "迎帝领河中骑军，归京获功臣号",
+      "summary": "朱温岐下迎帝期间任范居实河中马军都指挥，昭宗还长安后赐迎銮毅勇功臣号、遥领锦州刺史；其后龙骧、登州和神勇任职另记。",
+      "year": 903,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "昭宗还京后授号；出军在此前",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "太祖迎昭宗於岐下，以居實為河中馬軍都指揮使。及昭宗還京，賜迎鑾毅勇功臣，遙領錦州刺史，又遷左龍驤馬軍都指揮使。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "三年正月甲寅，岐人啟壁，唐昭宗降使宣問慰勞，兼傳密旨。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "己巳，昭宗至長安，謁太廟，禦長樂樓。"
+        }
+      ]
+    },
+    {
+      "id": "fan-jushi-early",
+      "title": "从队将起，随朱珍收滑州",
+      "summary": "范居实早从朱温讨巢蔡，又随朱珍取滑州，升左厢都虞候；参与兖郓战事后领军职。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "早年平巢蔡至伐兖郓，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "事太祖，初為隊將，從討巢、蔡有功。又從朱珍收滑州，改左廂都虞候。預破兗、鄆功。遷感義都頭、鄭州馬軍指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "fan-jushi-longxiang-dengzhou",
+      "title": "任龙骧、登州与神勇军职",
+      "summary": "迎銮获功臣号后又迁左龙骧马军都指挥；从征淮南回来改登州刺史、转左神勇军使。这些后任未独记年。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "昭宗还京获号之后、开平元年潞役之前；后者传统年跨907—908年",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "及昭宗還京，賜迎鑾毅勇功臣，遙領錦州刺史，又遷左龍驤馬軍都指揮使。從征淮南回，改登州刺史，轉左神勇軍使。開平元年，用軍於潞州，命居實統軍以解澤州之圍。"
+        }
+      ],
+      "yearRange": {
+        "start": 903,
+        "end": 908
+      }
+    },
+    {
+      "id": "fan-jushi-zezhou",
+      "title": "奉命解泽州围，历耀泽州",
+      "summary": "范居实在潞州战事中统兵解泽州围，领耀州并戍固镇，后任泽州刺史。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "range",
+      "sourceDate": "旧史开平元年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "開平元年，用軍於潞州，命居實統軍以解澤州之圍。授耀州刺史，令以郡兵屯固鎮，尋除澤州刺史。"
+        }
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      },
+      "notes": [
+        "原书记年未载本事月日，传统年份可能跨至下一西历年，按有据范围保留。"
+      ]
+    },
+    {
+      "id": "fan-jushi-death",
+      "title": "因郡中戎备不修被斩",
+      "summary": "范居实任郡时军事准备不整，被诏召京，公布轻敌之罪后斩杀。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "任泽州等郡后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "c082a16ea30ab90e5916776279d45bb1a868fef7ca74d874cd194bf82e8f5004",
+          "excerpt": "居實拳勇善戰，頗立軍功，在郡以戎備不理，詔追赴闕，暴其玩寇之罪而斬之。"
+        }
+      ]
+    }
+  ]
+}

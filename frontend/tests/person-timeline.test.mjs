@@ -15,7 +15,7 @@ const source = allChapters.find(chapter => chapter.id === 'old-v025');
 const paragraph = source.paragraphs.find(paragraph => paragraph.id === 'old-v025-p2');
 const reference = { chapterId: source.id, paragraphId: paragraph.id, originalRevision: paragraph.revision,
   originalSha256: hash(paragraph.original), excerpt: [...paragraph.original].slice(0, 70).join('') };
-const event = { id: 'fixture-keyong-birth', year: 856, sortOrder: 1, title: '出生记载', summary: '底本记述李克用的出生与家世。',
+const event = { id: 'li-keyong-fixture-birth', year: 856, sortOrder: 1, title: '出生记载', summary: '底本记述李克用的出生与家世。',
   sourceDate: '大中十年', precision: 'year', phase: 'early', evidence: [reference] };
 const document = { schemaVersion: 1, scope: 'current-archive', personId: 'li-keyong', events: [event] };
 const resolvedReference = { ...reference, bookId: source.bookId, bookTitle: source.bookTitle, chapterTitle: source.title, paragraph };
@@ -30,7 +30,8 @@ const archive = async (url, inputDocument = document, inputSource = source) => {
 test('every real timeline document remains readable with exact canonical sources and complete published translations when the API is offline', async () => {
   const root = new URL('../../content/person-timelines/', import.meta.url);
   const documents = readdirSync(root).filter(file => file.endsWith('.json')).map(file => JSON.parse(readFileSync(new URL(file, root), 'utf8')));
-  assert.deepEqual(new Set(documents.map(document => document.personId)), new Set(['li-keyong', 'li-cunxu']));
+  assert.ok(documents.some(document => document.personId === 'li-keyong'));
+  assert.ok(documents.some(document => document.personId === 'li-cunxu'));
   const chapters = new Map(allChapters.map(chapter => [chapter.id, chapter]));
   for (const document of documents) {
     const result = await readPersonTimeline({ ...options, personId: document.personId, fetcher: async url => {
@@ -150,8 +151,9 @@ test('timeline schema rejects duplicate events, unknown phases, guessed dates, o
     value => value.events[0].phase = 'unknown', value => value.events[0].year = -1,
     value => value.events[0].evidence[0].chapterId = 'old-not-existing',
     value => value.events[0].evidence[0].paragraphId = 'new-v04-p1',
-    value => value.events.push({ ...value.events[0], id: 'earlier-fixture', year: 855 }),
-    value => value.events.push({ ...value.events[0], id: 'same-order-fixture' })]) {
+    value => value.events[0].id = 'li-cunxu-foreign-event',
+    value => value.events.push({ ...value.events[0], id: 'li-keyong-earlier-fixture', year: 855 }),
+    value => value.events.push({ ...value.events[0], id: 'li-keyong-same-order-fixture' })]) {
     const invalid = structuredClone(document); mutate(invalid);
     assert.throws(() => parsePersonTimelineDocument(invalid, document.personId));
   }
@@ -169,17 +171,36 @@ test('person timeline routes expose only real registered timelines and retain a 
   const route = personTimelineRoute(entry.personId, entry.eventIds[0]);
   assert.equal(hasPersonTimeline('li-keyong'), true);
   assert.equal(hasPersonTimeline('li-cunxu'), true);
-  assert.equal(hasPersonTimeline('zhu-wen'), false);
+  assert.equal(hasPersonTimeline('unregistered-person'), false);
   assert.equal(resolveRoute(`#${route}`), route);
   assert.equal(resolvePersonTimelineRoute(route).person.id, 'li-keyong');
   const chapter = libraryChapters.find(chapter => chapter.id === 'old-v025');
   const read = chapterRoute(chapter, { query: '', field: 'both', paragraphId: paragraph.id, returnTo: route });
   assert.equal(resolveReadingRoute(read).returnTo, route);
   assert.equal(resolveReadingRoute(read).focusParagraphId, paragraph.id);
-  for (const invalid of ['https://evil.example', 'person-timeline/zhu-wen', 'person-timeline/li-keyong/extra',
+  for (const invalid of ['https://evil.example', 'person-timeline/unregistered-person', 'person-timeline/li-keyong/extra',
     'person-timeline/li-keyong?event=https://evil.example', 'person-timeline/li-keyong?event=not-registered',
     `person-timeline/li-keyong?event=${entry.eventIds[0]}&event=${entry.eventIds[0]}`, 'person-timeline/li-keyong?token=secret']) {
     assert.equal(resolvePersonTimelineRoute(invalid), null);
     assert.equal(resolveReadingRoute(`read-old/${chapter.id}?return=${encodeURIComponent(invalid)}`).returnTo, undefined);
+  }
+});
+
+test('unknown dates and bounded periods survive the real reader as uncertainty without a substituted year', async () => {
+  const input = structuredClone(document);
+  input.events.push({ ...structuredClone(input.events[0]), id: 'li-keyong-undated-fixture', year: null,
+    precision: 'undated', phase: 'uncertain', sourceDate: '本传未记明确纪年', sortOrder: 90 });
+  input.events.push({ ...structuredClone(input.events[0]), id: 'li-keyong-range-fixture', year: null,
+    precision: 'range', phase: 'uncertain', sourceDate: '原书记月跨两个西历年', yearRange: { start: 913, end: 914 }, sortOrder: 91 });
+  const result = await readPersonTimeline({ ...options, fetcher: url => archive(url, input) });
+  assert.equal(result.page.events[1].year, null);
+  assert.equal(result.page.events[1].precision, 'undated');
+  assert.deepEqual(result.page.events[2].yearRange, { start: 913, end: 914 });
+  assert.equal(result.page.events[2].year, null);
+  for (const change of [value => value.events[2].yearRange.end = 912, value => value.events[2].year = 913,
+    value => value.events[1].precision = 'year', value => value.events[2].yearRange = undefined,
+    value => value.events[1].phase = 'service', value => value.events.reverse()]) {
+    const invalid = structuredClone(input); change(invalid);
+    assert.throws(() => parsePersonTimelineDocument(invalid, input.personId));
   }
 });

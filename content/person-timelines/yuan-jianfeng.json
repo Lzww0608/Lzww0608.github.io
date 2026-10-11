@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yuan-jianfeng",
+  "events": [
+    {
+      "id": "yuan-jianfeng-huliu",
+      "title": "参加胡柳陂战斗",
+      "summary": "任相州刺史后被征赴河上，参加胡柳陂之战。",
+      "year": 919,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐十五年十二月胡柳之战",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "征赴河上，豫戰於胡柳陂。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p10",
+          "originalRevision": 1,
+          "originalSha256": "94127ab33233f87c5b54975c6c852cbd696734d37b62c59740fcb3a7bfd1a4ac",
+          "excerpt": "十二月二十三日，軍次胡柳陂。"
+        }
+      ],
+      "notes": [
+        "战年按该原书记年的农历十二月实际已跨919年。"
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-mingzong-care",
+      "title": "明宗召洛阳慰问，遥领镇南",
+      "summary": "患风痹后李嗣源念旧，召到洛阳并亲幸其家，遥授镇南节度使供俸；旧史记加太傅，新史记加太尉。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "明宗嗣位后；明宗纪天成元年九月幸其第、十月遥领洪州",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "明宗嗣位，念及平昔副貳之舊，詔赴洛下，親幸其第，撫問隆厚，加檢校太傅，遙授鎮南節度使，俾請俸自給。"
+        },
+        {
+          "chapterId": "old-v037",
+          "paragraphId": "old-v037-p4",
+          "originalRevision": 1,
+          "originalSha256": "14ba1905c3025704470bc08718ca2f7f97b31ff612bc75936f7d4b2854111a74",
+          "excerpt": "九月乙卯朔，詔汴州扶溝縣復隸許州。"
+        },
+        {
+          "chapterId": "old-v037",
+          "paragraphId": "old-v037-p4",
+          "originalRevision": 1,
+          "originalSha256": "14ba1905c3025704470bc08718ca2f7f97b31ff612bc75936f7d4b2854111a74",
+          "excerpt": "己未，幸至德宮，遂幸前隰州刺史袁建豐之第。"
+        },
+        {
+          "chapterId": "old-v037",
+          "paragraphId": "old-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "49269f3148867ac628081f119de200ad29472a00b027da0bcd46b41fe335ab49",
+          "excerpt": "冬十月甲申朔，詔賜文武百僚冬服綿帛有差。"
+        },
+        {
+          "chapterId": "old-v037",
+          "paragraphId": "old-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "49269f3148867ac628081f119de200ad29472a00b027da0bcd46b41fe335ab49",
+          "excerpt": "甲午，以前隰州刺史袁建豐遙領洪州節度使。"
+        }
+      ],
+      "notes": [
+        "两书加衔差异保留：旧史检校太傅，新史检校太尉。"
+      ],
+      "variants": [
+        {
+          "label": "新史加检校太尉",
+          "year": 926,
+          "sourceDate": "明宗即位后",
+          "summary": "新史为检校太尉，旧史为检校太傅，二书均记召还慰问和遥领镇南。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p50",
+              "originalRevision": 1,
+              "originalSha256": "2093a3068f38919a0533cd9e0a17639dad034d07453b8766145d8b5fe4181620",
+              "excerpt": "明宗即位，以舊恩召還京師，親幸其第，撫慰甚厚，加檢校太尉，遙領鎮南軍節度使，俾食其俸以卒，贈太尉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-adoption",
+      "title": "华阴得见李克用并被收养",
+      "summary": "李克用讨黄巢至华阴时得到九岁的袁建丰。旧史说命人收养，新史直说晋王收养，具体养育主体按来源分别表述。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "讨黄巢至华阴时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "袁建豐，武皇破巢時得於華陰，年方九歲，愛其精神爽俊，俾收養之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史收养表述",
+          "sourceDate": "晋王讨黄巢至华阴时",
+          "summary": "新史直接写晋王爱其俊爽而收养之。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p49",
+              "originalRevision": 1,
+              "originalSha256": "da6ef855b7de0bc93697155dfe77ad1994fb3cbec9a538f3f9298f82784827ca",
+              "excerpt": "晉王討黃巢至華陰，闌得之，時方九歲，愛其俊爽，收養之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-early-riding",
+      "title": "由铁林都虞候累升突骑指挥",
+      "summary": "长大后习骑射，补铁林都虞候；随破王行瑜因功升左亲骑军使、突骑指挥使。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "漸長，列於左右，復習騎射，補鐵林都虞候。從破邠州王行瑜，以功遷左親騎軍使，轉突騎指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-cunxu-luzhou-baixiang",
+      "title": "随救上党、战柏乡，任左厢军职",
+      "summary": "随李存勖解上党、破柏乡，累功为左厢马军指挥使；在李嗣源任内衙指挥使时为其副。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "上党、柏乡两战后累功，任命年未记",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "從莊宗解圍上黨，破柏鄉陣，累功遷右僕射、左廂馬軍指揮使。明宗為內衙指揮使，建豐為副。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-yan-command",
+      "title": "北讨刘守光，任都教练使",
+      "summary": "北上讨刘守光时常身先士卒，进都教练使、权蕃汉副总管；原段未给该任命唯一年。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "北讨刘守光时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "北討劉守光，常身先士伍，轉都教練使，權蕃漢副總管。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-wei-patrol",
+      "title": "庄宗入邺选为魏府都巡检",
+      "summary": "李存勖入邺时因其是心腹且干练，选任魏府都巡检使；任命年在本传未明确，暂不独定。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "庄宗入邺时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "莊宗入鄴，以心腹幹能，選為魏府都巡檢使。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-wei-ming",
+      "title": "从入魏、取卫磁洺，任洺州刺史",
+      "summary": "随李存勖入邺后讨刘鄩、取卫磁洺有功，授洺州刺史，后败梁将而升相州；旧新史所记梁将分别为王迁、王千。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "庄宗入邺、征刘鄩期间",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "從征劉鄩，下衛、磁、洺有功，加檢校司空，授州洺州刺史。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史梁将王千",
+          "sourceDate": "任洺州刺史后",
+          "summary": "新史记王千，旧史王迁，均记擒将校七十余。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p49",
+              "originalRevision": 1,
+              "originalSha256": "da6ef855b7de0bc93697155dfe77ad1994fb3cbec9a538f3f9298f82784827ca",
+              "excerpt": "擊梁將王千，斬首千餘級，獲其將校七十餘人。遷相州刺史。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-quell-xiangzhou",
+      "title": "回军平定相州叛乱",
+      "summary": "出征期间因委州事于人、失于抚驭，孟守谦据城叛，袁建丰带兵平定，后改隰州。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "胡柳战后，本传未记平叛确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "指揮使孟守謙據城以叛，建豐引兵討平之。改隰州刺史，染風痹於任。"
+        }
+      ],
+      "notes": [
+        "新史反叛者名孟谦，旧史孟守谦，不改底本。"
+      ],
+      "variants": [
+        {
+          "label": "新史孟谦",
+          "sourceDate": "胡柳之战时相州乱后",
+          "summary": "新史记叛将孟谦，旧史孟守谦；均说建丰回军平乱后转隰州。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p49",
+              "originalRevision": 1,
+              "originalSha256": "da6ef855b7de0bc93697155dfe77ad1994fb3cbec9a538f3f9298f82784827ca",
+              "excerpt": "從戰胡柳，指揮使孟謙據相州叛，建豐還討平之。徙隰州刺史，病風廢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-jianfeng-death-luoyang",
+      "title": "卒于洛阳，赠太尉",
+      "summary": "明宗召还优待之后卒于洛阳，旧史记五十六岁，赠太尉。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p13",
+          "originalRevision": 1,
+          "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c",
+          "excerpt": "後卒於洛陽，年五十六。廢朝一日，贈太尉。"
+        }
+      ]
+    }
+  ]
+}

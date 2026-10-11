@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "gai-yu",
+  "events": [
+    {
+      "id": "gai-yu-campaign-xingyu",
+      "title": "从讨王行瑜，获侯爵",
+      "summary": "随李克用入关讨王行瑜，授检校太保、开国侯，领容管观察经略使。",
+      "year": 895,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "乾宁二年；武皇纪同役十一月平定，保留征讨年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p13",
+          "originalRevision": 1,
+          "originalSha256": "d1aa7088507c22bcecd50548014d1beaa865a1098ec828e40d07b8454194a370",
+          "excerpt": "乾寧二年，從入關討王行瑜，特授檢校太保、開國侯，令邑一千戶，領容管觀察經略使。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p8",
+          "originalRevision": 1,
+          "originalSha256": "723cb3fa0580ee269c1e1b5a6d9d010c775b432a25d916d51cae0b72b8a5a955",
+          "excerpt": "乾寧二年正月，武皇在幽州，命李存審、劉仁恭徇諸屬郡。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p13",
+          "originalRevision": 1,
+          "originalSha256": "a87b98936cd688a76360d8143f35e9931416e34addeeab0052f67fb6b51b6760",
+          "excerpt": "十一月丁巳，收龍泉寨。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p13",
+          "originalRevision": 1,
+          "originalSha256": "a87b98936cd688a76360d8143f35e9931416e34addeeab0052f67fb6b51b6760",
+          "excerpt": "行瑜懼，棄城而遁。武皇收其城，封府庫，遽以捷聞。既而慶州奏，王行瑜將家屬五百人到州界，為部下所殺，傳首闕下。武皇既平行瑜，還軍渭北。"
+        }
+      ]
+    },
+    {
+      "id": "gai-yu-death",
+      "title": "病逝，李克用哀恸",
+      "summary": "天祐二年三月病重，李克用每日到其家亲赐药物；盖寓去世后李克用悲痛。",
+      "year": 905,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "天祐二年三月病笃及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p14",
+          "originalRevision": 1,
+          "originalSha256": "00765a73513609eb0d29c06ee59010991afbba6f7ac68a6ecb3fb392e86a64a3",
+          "excerpt": "天祐二年三月，寓病篤，武皇日幸其第，手賜藥餌。"
+        }
+      ],
+      "notes": [
+        "三月是病笃所记月份，不推定本传未写出的具体卒日。"
+      ]
+    },
+    {
+      "id": "gai-yu-trusted-adviser",
+      "title": "推戴李克用，成为军中腹心",
+      "summary": "与康君立等推举辅佐李克用，李克用领雁门后为都押牙、岚州刺史，移太原后任左都押牙；参与军政决策。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p13",
+          "originalRevision": 1,
+          "originalSha256": "d1aa7088507c22bcecd50548014d1beaa865a1098ec828e40d07b8454194a370",
+          "excerpt": "武皇起雲中，寓與康君立等推轂佐佑之，因為腹心。武皇節制雁門，署職為都押牙，領嵐州刺史。洎移鎮太原，改左都押牙、檢校左僕射。"
+        }
+      ]
+    },
+    {
+      "id": "gai-yu-reject-zhumei",
+      "title": "劝李克用讨朱玫、拒伪主",
+      "summary": "唐僖宗幸兴元后，盖寓指出天下归咎河东，劝李克用讨朱玫、废李煴以洗清责任；本传注引《通鉴》记此。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "光启二年；未记可核的具体月日，西历范围886—887年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p13",
+          "originalRevision": 1,
+          "originalSha256": "d1aa7088507c22bcecd50548014d1beaa865a1098ec828e40d07b8454194a370",
+          "excerpt": "光啟二年，駕幸興元，大將蓋寓說克用曰：「 鑾輿播遷，天下皆歸咎於我，今不誅朱玫，黜李煴，無以自湔洗。」克用從之。"
+        }
+      ],
+      "yearRange": {
+        "start": 886,
+        "end": 887
+      }
+    },
+    {
+      "id": "gai-yu-mediation",
+      "title": "婉谏救止将吏，受离间而不疑",
+      "summary": "常以顺势言语缓和李克用怒气，援近事劝谏；朱温散布盖寓取代李氏的谣言，李克用未疑他。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p14",
+          "originalRevision": 1,
+          "originalSha256": "00765a73513609eb0d29c06ee59010991afbba6f7ac68a6ecb3fb392e86a64a3",
+          "excerpt": "梁祖亦使奸人離間，暴揚於天下，言蓋寓已代李，聞者寒心，武皇略無疑間。"
+        }
+      ]
+    },
+    {
+      "id": "gai-yu-avoid-audience",
+      "title": "劝李克用班师，避免再惊朝廷",
+      "summary": "平王行瑜后，诸将劝李克用入觐，盖寓以京师未定、渡渭可能再惊皇帝为由劝还镇，李克用听从。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "讨平王行瑜后；武皇纪同役十二月拒赴朝觐并班师；未记可核的具体月日，西历范围895—896年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p14",
+          "originalRevision": 1,
+          "originalSha256": "00765a73513609eb0d29c06ee59010991afbba6f7ac68a6ecb3fb392e86a64a3",
+          "excerpt": "武皇笑曰：「蓋寓尚阻吾入覲，況天下人哉！」即日班師。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p8",
+          "originalRevision": 1,
+          "originalSha256": "723cb3fa0580ee269c1e1b5a6d9d010c775b432a25d916d51cae0b72b8a5a955",
+          "excerpt": "乾寧二年正月，武皇在幽州，命李存審、劉仁恭徇諸屬郡。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p14",
+          "originalRevision": 1,
+          "originalSha256": "53777657ed342db85e2284a1d3c3bd802f752e087e6562bbacfe7f8ff553861b",
+          "excerpt": "十二月，武皇營於雲陽，候討鳳翔進止。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p14",
+          "originalRevision": 1,
+          "originalSha256": "53777657ed342db85e2284a1d3c3bd802f752e087e6562bbacfe7f8ff553861b",
+          "excerpt": "又奏：「臣統領大軍，不敢徑赴朝覲。」遂班師。"
+        }
+      ],
+      "yearRange": {
+        "start": 895,
+        "end": 896
+      }
+    },
+    {
+      "id": "gai-yu-posthumous",
+      "title": "庄宗即皇位后追赠太师",
+      "summary": "本传记李存勖即位后追赠盖寓太师，属于盖寓身后荣典。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "庄宗即位后追赠太师；未记月年，按庄宗在位界限保存923—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p14",
+          "originalRevision": 1,
+          "originalSha256": "00765a73513609eb0d29c06ee59010991afbba6f7ac68a6ecb3fb392e86a64a3",
+          "excerpt": "莊宗即位，追贈太師。"
+        }
+      ],
+      "notes": [
+        "此处即位依后唐皇帝荣典语境，不混作908年承晋王。"
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 926
+      }
+    }
+  ]
+}

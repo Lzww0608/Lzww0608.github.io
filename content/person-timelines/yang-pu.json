@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "personId": "yang-pu",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "yang-pu-accession",
+      "year": 920,
+      "sourceDate": "杨隆演卒后（武义二年）",
+      "title": "被徐氏拥立为主",
+      "summary": "原应按次序立杨濛，徐氏却越过他，拥立杨行密第四子杨溥。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p30",
+          "originalRevision": 1,
+          "originalSha256": "a5454cd0c2aa7ad919ed0129f1b2e7e5e3a0f507f15fa1143cf4ab8c289cb0b4",
+          "excerpt": "溥，行密第四子也，隆演建國，封丹陽郡公。隆演卒，弟廬江公濛次當立，而徐氏秉政，不欲長君，乃立溥。七月，改昇州大都督府為金陵府，拜徐溫金陵尹。明年二月，改元順義，赦境內。冬十一月，祀天於南郊。御天興樓，大赦。拜徐溫太師，嚴可求右僕射。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p29",
+          "originalRevision": 1,
+          "originalSha256": "d51b30195f821da782769b676afdbac2f8d6bb5c4203f9abab631fa7582960db",
+          "excerpt": "二年五月，隆演卒。隆演少年嗣位，權在徐氏，及建國稱制，非其意，常怏怏，酣飲，稀復進食，遂至疾卒，年二十四，謚曰宣。弟溥立，僭號，追尊為高祖宣皇帝，陵曰肅陵。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "variants": [
+        {
+          "label": "旧史将继立记作天祐十八年",
+          "sourceDate": "天祐十八年六月十八日",
+          "evidence": [
+            {
+              "chapterId": "old-v134",
+              "paragraphId": "old-v134-p15",
+              "originalRevision": 1,
+              "originalSha256": "406642c49797f0f2ffbd439e74207224b246396c6cfd7a9095a8430cb01edee2",
+              "excerpt": "十八年，渭死，溫聞之，自金陵馳歸揚州，夜入廣陵，議有所立。或有希溫旨，言及蜀先主遺命諸葛亮之事，溫厲聲曰：「若楊氏無男，有女當立矣，無得異議。」由是群心乃定，遂迎丹陽王溥於潤州，以其年六月十八日即偽位，改元為順義。"
+            }
+          ],
+          "year": 921,
+          "summary": "旧史所记继立及改元年月与新史叙次不同，不合并为同一确日。"
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "yang-pu-shunyi",
+      "year": 921,
+      "sourceDate": "顺义元年二月及十一月",
+      "title": "改元顺义，南郊祭天",
+      "summary": "继立次年改元顺义，大赦，南郊祀天，并进徐温为太师。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p30",
+          "originalRevision": 1,
+          "originalSha256": "a5454cd0c2aa7ad919ed0129f1b2e7e5e3a0f507f15fa1143cf4ab8c289cb0b4",
+          "excerpt": "溥，行密第四子也，隆演建國，封丹陽郡公。隆演卒，弟廬江公濛次當立，而徐氏秉政，不欲長君，乃立溥。七月，改昇州大都督府為金陵府，拜徐溫金陵尹。明年二月，改元順義，赦境內。冬十一月，祀天於南郊。御天興樓，大赦。拜徐溫太師，嚴可求右僕射。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 2
+    },
+    {
+      "id": "yang-pu-become-emperor",
+      "year": 927,
+      "sourceDate": "顺义七年十一月庚戌",
+      "title": "实际即皇帝位，改元乾贞",
+      "summary": "徐温病死后，杨溥在文明殿即皇帝位，改元乾贞，追尊父兄为皇帝。此前继承吴国，与此时实际称帝分开。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p35",
+          "originalRevision": 1,
+          "originalSha256": "442214de4cc56465ef636a16b70d6a6e7ff89e0eccd097bd3d06441635e427e2",
+          "excerpt": "七年，大丞相徐溫率吳文、武上表勸溥即皇帝位，溥未許而溫病卒。十一月庚戌，溥御文明殿即皇帝位，改元曰乾貞，大赦境內，追尊行密武皇帝，渥景皇帝，隆演宣皇帝。以徐知誥為太尉兼侍中，拜溫子知詢輔國大將軍、金陵尹，治溫舊鎮。諸子皆封王。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "day",
+      "sortOrder": 3
+    },
+    {
+      "id": "yang-pu-gao-jixing",
+      "year": 928,
+      "sourceDate": "乾贞二年六月至九月",
+      "title": "纳荆南高季兴为秦王",
+      "summary": "高季兴归附，杨溥封其秦王；高季兴在白田败楚，把俘获将吏送来。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p36",
+          "originalRevision": 1,
+          "originalSha256": "bce4b2959b2268b42e48f0e53f61614c08629fcefe0e4209d5d3c2e8798d0565",
+          "excerpt": "六月，荊南高季興來附，封季興秦王。九月，季興敗楚師於白田，獲其將吏三十四人來獻。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 4
+    },
+    {
+      "id": "yang-pu-qi-prince",
+      "year": 935,
+      "sourceDate": "大和七年九月，改天祚元年",
+      "title": "封徐知诰为齐王",
+      "summary": "杨溥加尊号并改元天祚；徐知诰进为太师、天下兵马大元帅和齐王，替代吴的准备逐步展开。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p39",
+          "originalRevision": 1,
+          "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
+          "excerpt": "七年九月，溥加尊號曰睿聖文明光孝應天弘道廣德皇帝，大赦，改元天祚。知誥進位太師、天下兵馬大元帥，封齊王。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 5
+    },
+    {
+      "id": "yang-pu-abdication",
+      "year": 937,
+      "sourceDate": "天祚三年冬十月",
+      "title": "让位徐知诰，吴政权终结",
+      "summary": "徐知诰建齐国，杨溥遣杨璘持册让位，之后被迁至丹阳宫。此时南唐前身国号仍为齐。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p39",
+          "originalRevision": 1,
+          "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
+          "excerpt": "三年，知誥建齊國，立宗廟、社稷，置左、右丞相已下，以金陵為西都，廣陵為東都。冬十月，溥遣江夏王璘奉冊禪位於齊王。"
+        },
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p8",
+          "originalRevision": 1,
+          "originalSha256": "9914e82922e2faaac654b865f522a9e53da72869bb0a730d1f9ae0cf9a04010a",
+          "excerpt": "五年，昪封齊王。已而閩、越諸國皆遣使勸進，昪謂人望已歸。天祚三年，建齊國，置宗廟社稷，以宋齊丘、徐玠為左、右丞相。十月，溥遣攝太尉楊璘傳位於昪，國號齊，改元昇元。昪以冊尊溥曰：「受禪老臣知誥，謹上冊皇帝為高尚思玄弘古讓皇帝。」追尊徐溫為忠武皇帝，封子景為吳王，封徐氏子知證江王，知諤饒王。周本與諸將至金陵勸進，歸而嘆曰：「吾不誅篡國者以報楊氏，今老矣，豈能事二姓乎！」憤惋而死。"
+        },
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p9",
+          "originalRevision": 1,
+          "originalSha256": "545ef6ba0a9d977b86f901a835be40aebf3e734cbbc9ddf37fa45e23e04757cb",
+          "excerpt": "二年四月，遷楊溥於潤州丹陽宮。以王輿為浙西節度使、馬思讓為丹陽宮使，以嚴兵守之。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "month",
+      "sortOrder": 6
+    },
+    {
+      "id": "yang-pu-confined",
+      "year": 938,
+      "sourceDate": "升元二年四月",
+      "title": "迁至丹阳宫，被严兵看守",
+      "summary": "李昪将杨溥迁至润州丹阳宫，任宫使，以严兵守卫；不是以正常在位君主身份移驻。",
+      "evidence": [
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p9",
+          "originalRevision": 1,
+          "originalSha256": "545ef6ba0a9d977b86f901a835be40aebf3e734cbbc9ddf37fa45e23e04757cb",
+          "excerpt": "二年四月，遷楊溥於潤州丹陽宮。以王輿為浙西節度使、馬思讓為丹陽宮使，以嚴兵守之。"
+        }
+      ],
+      "phase": "later",
+      "precision": "month",
+      "sortOrder": 7
+    },
+    {
+      "id": "yang-pu-death",
+      "year": 938,
+      "sourceDate": "天福三年十一月辛丑（通鉴）；升元二年（南唐世家叙次）",
+      "title": "幽居丹阳宫去世",
+      "summary": "杨溥去世，南唐停朝二十七日，追谥睿皇帝。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p104",
+          "originalRevision": 1,
+          "originalSha256": "e5f949f1a743386fe17cd92874286e2631b6da28bb757b8631fd8a0ea4796cc0",
+          "excerpt": "辛丑，吳讓皇卒。唐王廢朝二十七日，追謚曰睿皇帝。是歲，唐主徙吳王璟為齊王。"
+        },
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p63",
+          "originalRevision": 1,
+          "originalSha256": "e4e4b5926ba067c41aef6e0dd3d0f31147e3876f729d60cb12d1bbd2ab8316c7",
+          "excerpt": "高祖聖文章武明德孝皇帝上之下天福三年（戊戌，公元九三八年）"
+        },
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p11",
+          "originalRevision": 1,
+          "originalSha256": "5cc849496b8826eda1ae016e279d80ed29880809da9bf38c464996d90b5bff23",
+          "excerpt": "楊溥卒於丹陽宮。溥子璉為吳太子時，昪以女妻之，及昪篡國，封其女永興公主。女聞人呼公主，則嗚咽流涕而辭，宮中皆憐之。溥卒，以璉為康化軍節度使，已而以疾卒。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "day",
+      "variants": [
+        {
+          "label": "吴世家正文的年月冲突",
+          "sourceDate": "接天祚三年而记十二月",
+          "evidence": [
+            {
+              "chapterId": "new-v61",
+              "paragraphId": "new-v61-p39",
+              "originalRevision": 1,
+              "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
+              "excerpt": "十二月，溥卒於丹陽，[3]年三十八，謚曰睿。"
+            },
+            {
+              "chapterId": "new-v61",
+              "paragraphId": "new-v61-p50",
+              "originalRevision": 1,
+              "originalSha256": "54540475770bec0c3828de513401ebd5d5c4e9c2681fbb205582504050042bea",
+              "excerpt": "↑ 十二月溥卒於丹陽　按本史卷六二南唐世家及通鑑卷二八一，楊溥禪位於天福二年(即天祚三年)冬十月，徐知誥改元昇元。次年十一月，溥卒。此承天祚三年云「十二月溥卒」，當有脫誤。"
+            }
+          ],
+          "summary": "新史吴世家正文把卒年接在天祚三年十二月，校注指出应为次年十一月。保留正文与校注，不把冲突记录强转为确日。"
+        }
+      ],
+      "sortOrder": 8
+    },
+    {
+      "id": "yang-pu-embassy-tang",
+      "year": null,
+      "sourceDate": "新史顺义三年灭梁后遣卢苹，未独遣使月日；传统年跨923—924年",
+      "title": "向后唐派遣使节",
+      "summary": "后唐庄宗灭梁，吴派司农卿卢苹出使。严可求预先拟定问答，由使者依次应对。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p31",
+          "originalRevision": 1,
+          "originalSha256": "c2afa11c8d2e7967eb80e70200846844e934f4a71d6258fc6b69c701136d10de",
+          "excerpt": "三年，唐莊宗滅梁。遣司農卿盧蘋使于唐，嚴可求密條數事授蘋以行。蘋見洛陽，莊宗問之，蘋次第以對，皆如所授。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "variants": [
+        {
+          "label": "旧史记章景先使、卢苹次年再贡",
+          "sourceDate": "同光元年十二月、明年八月",
+          "evidence": [
+            {
+              "chapterId": "old-v134",
+              "paragraphId": "old-v134-p12",
+              "originalRevision": 1,
+              "originalSha256": "ef3b9fe737ba9040c626254178bd72aaeb3a573899fabb3077b3b9ff52be31be",
+              "excerpt": "唐同光元年，莊宗平梁，遷都於洛陽。十二月，溥遣使章景來朝，稱「大吳國主致書上大唐皇帝」，其辭旨卑遜，有同箋表。明年八月，又遣其司農卿盧蘋貢方物，及獻貞簡太后珍玩，莊宗命左藏庫使王居敏、通事舍人張朗等以名馬報之。"
+            }
+          ],
+          "summary": "旧史将使者章景与卢苹的来朝分列在同光元年十二月和次年八月，与新史使节安排记法不同。"
+        }
+      ],
+      "sortOrder": 9,
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      }
+    },
+    {
+      "id": "yang-pu-fleet-review",
+      "year": null,
+      "sourceDate": "顺义四年，白沙阅舟师未独月日；传统年跨924—925年",
+      "title": "在白沙检阅水军",
+      "summary": "杨溥到白沙阅舟师，徐温前来会见，白沙因改名迎銮镇。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p32",
+          "originalRevision": 1,
+          "originalSha256": "386cc3c2295bae3883a90a8f41b9fb5d11eb6936d0925573a96329ddcfa5d352",
+          "excerpt": "四年，溥至白沙閱舟師，徐溫來見，以白沙為迎鑾鎮。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 10,
+      "yearRange": {
+        "start": 924,
+        "end": 925
+      }
+    },
+    {
+      "id": "yang-pu-dahe",
+      "year": null,
+      "sourceDate": "乾贞三年十一月",
+      "title": "改元大和，徐知诰扩权",
+      "summary": "徐知诰扣留并取代徐知询在金陵的势力；杨溥加尊号、改元大和，任徐知诰为中书令。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p37",
+          "originalRevision": 1,
+          "originalSha256": "9f48d25c89f5ac0dd34f8e057eef566dd8e5e5c177e10fef300410b9f17840b0",
+          "excerpt": "三年十一月，金陵尹徐知詢來朝，知誥誣其有反狀，留之不遣，以為左統軍，斬其客將周廷望。以徐知諤為金陵尹。溥加尊號睿聖文明孝皇帝，大赦境內，改元大和，以徐知誥為中書令。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 929,
+        "end": 930
+      },
+      "notes": [
+        "历表核准该十一月跨西历929—930，当前本段无单日，不強取929。"
+      ],
+      "sortOrder": 11
+    },
+    {
+      "id": "yang-pu-heir",
+      "year": null,
+      "sourceDate": "大和二年，册太子未独月日；传统年跨930—931年",
+      "title": "立杨琏为太子",
+      "summary": "册立儿子江都王杨琏为太子。",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p38",
+          "originalRevision": 1,
+          "originalSha256": "47cb09f1a5b1e641d5091a9fc50922c15f839ae8dcb91272da4cd0170e429d2e",
+          "excerpt": "二年，冊其子江都王璉為太子。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 12,
+      "yearRange": {
+        "start": 930,
+        "end": 931
+      }
+    }
+  ]
+}

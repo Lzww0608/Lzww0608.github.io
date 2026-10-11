@@ -3,7 +3,7 @@ import { catalogPeople } from './person-catalog.ts';
 import { parseChapterParagraph } from './chapter-schema.ts';
 import type { BookId, ChapterParagraph } from './types.ts';
 
-export type TimelinePhase = 'early' | 'campaigns' | 'rivalry' | 'late' | 'posthumous' | 'jin' | 'conquest' | 'imperial' | 'fall';
+export type TimelinePhase = 'early' | 'campaigns' | 'rivalry' | 'late' | 'posthumous' | 'jin' | 'conquest' | 'imperial' | 'fall' | 'rule' | 'service' | 'later' | 'uncertain';
 export interface TimelineEvidence {
   chapterId: string;
   paragraphId: string;
@@ -27,12 +27,13 @@ export interface TimelineVariant<Evidence = TimelineEvidence> {
 }
 export interface PersonTimelineEvent<Evidence = TimelineEvidence> {
   id: string;
-  year: number;
+  year: number | null;
+  yearRange?: { start: number; end: number };
   sortOrder: number;
   title: string;
   summary: string;
   sourceDate: string;
-  precision: 'year' | 'month' | 'day';
+  precision: 'year' | 'month' | 'day' | 'range' | 'undated';
   phase: TimelinePhase;
   evidence: Evidence[];
   variants?: TimelineVariant<Evidence>[];
@@ -53,7 +54,7 @@ export interface PersonTimelineResponse {
   resultSetRevision: string;
 }
 
-const phases: readonly TimelinePhase[] = ['early', 'campaigns', 'rivalry', 'late', 'posthumous', 'jin', 'conquest', 'imperial', 'fall'];
+const phases: readonly TimelinePhase[] = ['early', 'campaigns', 'rivalry', 'late', 'posthumous', 'jin', 'conquest', 'imperial', 'fall', 'rule', 'service', 'later', 'uncertain'];
 const chapters = new Map(libraryChapters.map(chapter => [chapter.id, chapter]));
 const books = new Map(libraryBooks.map(book => [book.id, book]));
 const record = (value: unknown): value is Record<string, unknown> => typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -83,16 +84,26 @@ function evidenceList(value: unknown): TimelineEvidence[] {
 
 function event(value: unknown): PersonTimelineEvent {
   if (!record(value) || !text(value.id, 150) || !/^[a-z0-9-]+$/.test(value.id)
-    || !integer(value.year, 1) || value.year > 3000 || !integer(value.sortOrder)
+    || !integer(value.sortOrder)
     || !text(value.title, 200) || !text(value.summary) || !text(value.sourceDate, 600)
-    || !['year', 'month', 'day'].includes(value.precision as string) || !phases.includes(value.phase as TimelinePhase)) fail();
+    || !phases.includes(value.phase as TimelinePhase)) fail();
+  let yearRange: { start: number; end: number } | undefined;
+  if (value.year === null) {
+    if (value.phase !== 'uncertain') fail();
+    if (value.precision === 'range') {
+      if (!record(value.yearRange) || !integer(value.yearRange.start, 1) || !integer(value.yearRange.end, 1)
+        || value.yearRange.start > value.yearRange.end || value.yearRange.end > 2000) fail();
+      yearRange = { start: value.yearRange.start, end: value.yearRange.end };
+    } else if (value.precision !== 'undated' || value.yearRange !== undefined) fail();
+  } else if (!integer(value.year, 1) || value.year > 2000 || value.yearRange !== undefined
+    || !['year', 'month', 'day'].includes(value.precision as string)) fail();
   const entries = evidenceList(value.evidence);
   let variants: TimelineVariant[] | undefined;
   if (value.variants !== undefined) {
     if (!Array.isArray(value.variants) || value.variants.length > 20) fail();
     variants = value.variants.map(item => {
       if (!record(item) || !text(item.label, 1000) || !text(item.sourceDate, 600)
-        || (item.year !== undefined && (!integer(item.year, 1) || item.year > 3000))
+        || (item.year !== undefined && (!integer(item.year, 1) || item.year > 2000))
         || (item.summary !== undefined && !text(item.summary))
         || (item.notes !== undefined && (!Array.isArray(item.notes) || item.notes.length > 24 || !item.notes.every(note => text(note, 2000))))) fail();
       return { label: item.label, sourceDate: item.sourceDate, ...(item.year !== undefined ? { year: item.year } : {}),
@@ -104,7 +115,7 @@ function event(value: unknown): PersonTimelineEvent {
     if (!Array.isArray(value.notes) || value.notes.length > 24 || !value.notes.every(note => text(note, 2000))) fail();
     notes = value.notes as string[];
   }
-  return { id: value.id, year: value.year, sortOrder: value.sortOrder, title: value.title, summary: value.summary,
+  return { id: value.id, year: value.year, ...(yearRange ? { yearRange } : {}), sortOrder: value.sortOrder, title: value.title, summary: value.summary,
     sourceDate: value.sourceDate, precision: value.precision as PersonTimelineEvent['precision'], phase: value.phase as TimelinePhase,
     evidence: entries, ...(variants !== undefined ? { variants } : {}), ...(notes !== undefined ? { notes } : {}) };
 }
@@ -115,7 +126,7 @@ function events(value: unknown): PersonTimelineEvent[] {
   if (new Set(entries.map(item => item.id)).size !== entries.length) fail();
   for (let index = 1; index < entries.length; index++) {
     const previous = entries[index - 1]!, current = entries[index]!;
-    if (current.year < previous.year || current.year === previous.year && current.sortOrder <= previous.sortOrder) fail();
+    if ((current.year ?? Infinity) < (previous.year ?? Infinity) || current.year === previous.year && current.sortOrder <= previous.sortOrder) fail();
   }
   return entries;
 }
@@ -123,7 +134,9 @@ function events(value: unknown): PersonTimelineEvent[] {
 export function parsePersonTimelineDocument(value: unknown, personId: string): PersonTimelineDocument {
   if (!record(value) || value.schemaVersion !== 1 || value.scope !== 'current-archive' || value.personId !== personId
     || !catalogPeople.some(person => person.id === personId)) fail();
-  return { schemaVersion: 1, scope: 'current-archive', personId, events: events(value.events) };
+  const entries = events(value.events);
+  if (entries.some(entry => !entry.id.startsWith(`${personId}-`))) fail();
+  return { schemaVersion: 1, scope: 'current-archive', personId, events: entries };
 }
 
 export async function resolveTimelineEvidence(reference: TimelineEvidence, value: unknown): Promise<ResolvedTimelineEvidence> {

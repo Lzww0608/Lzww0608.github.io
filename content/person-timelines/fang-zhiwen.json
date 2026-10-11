@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "fang-zhiwen",
+  "events": [
+    {
+      "id": "fang-zhiwen-follow-mingzong",
+      "title": "驰赴明宗，任泰宁节度",
+      "summary": "李嗣源自魏南向时，房知温率先驰附；天成元年授泰宁节度。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "明宗自魏南下时来归，同光四年；泰宁任命本纪天成元年五月兖州，两阶段同在926年",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p17",
+          "originalRevision": 1,
+          "originalSha256": "75b873132628f6619c1f8f118a6045aa7b125dafa4b0d5e74f201a547e50d78b",
+          "excerpt": "天成元年，拜泰寧軍節度使。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "五月丙辰朔，帝不視朝，臨於西宮。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p3",
+          "originalRevision": 1,
+          "originalSha256": "465386c52a2bd3b1e3453fba8ce770ab84d2444e6a1c507692a771659b2b2bcd",
+          "excerpt": "以貝州刺史房知溫為兗州節度使，"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-north-lutai",
+      "title": "任北面招讨，驻卢台",
+      "summary": "天成元年次年为北面招讨使，驻卢台；随后发生乌震换帅、戍军变乱。",
+      "year": 927,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天成元年之明年；本纪二年正月已称北面副招讨，三月卢台被代前，限定927年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p17",
+          "originalRevision": 1,
+          "originalSha256": "75b873132628f6619c1f8f118a6045aa7b125dafa4b0d5e74f201a547e50d78b",
+          "excerpt": "明年，為北面招討使，屯于盧臺。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p1",
+          "originalRevision": 1,
+          "originalSha256": "9d87b1c57668e7956817a8e6cda6a379c9ef48f4de24ec5889ed550184fa1fe7",
+          "excerpt": "天成二年春正月癸丑朔，帝御明堂殿受朝賀，仗衛如常儀。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "71c86644a4e6716fcbfef962cb1e2fdbf5d6ac2f529c4cb4ab23bdf44b415ef2",
+          "excerpt": "北面副招討房知溫奏，營州界奚陀羅支內附。"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-lutai-reversal",
+      "title": "乌震遇杀，脱身后率骑杀乱兵",
+      "summary": "乌震代其戍守引其不满，乱兵杀乌震，房知温借口取西寨骑兵，渡河后与安审通合谋围杀乱军；明宗知变起因在他却不追究。",
+      "year": 927,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天成二年卢台军乱",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p17",
+          "originalRevision": 1,
+          "originalSha256": "75b873132628f6619c1f8f118a6045aa7b125dafa4b0d5e74f201a547e50d78b",
+          "excerpt": "明宗知變自知溫起，釋而不問，徙鎮武寧，加兼侍中，歷鎮天平、平盧。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p12",
+          "originalRevision": 1,
+          "originalSha256": "6b17ea6ee7ce937f8b1e9cc79727e6065e7dad31fbdf0241c09b803552acf880",
+          "excerpt": "二年春正月癸丑朔，更名亶。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p12",
+          "originalRevision": 1,
+          "originalSha256": "6b17ea6ee7ce937f8b1e9cc79727e6065e7dad31fbdf0241c09b803552acf880",
+          "excerpt": "三月壬子朔，幸會節園，羣臣買宴。〈遊幸若不過度，則小事也，皆不書。惟莊宗及晉出帝之世則書者，著其過度耳。明宗於五代為勤儉之君，遊幸無過度，此書以著買宴，見君臣之失矣。〉盧臺亂，殺其將烏震。"
+        },
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p87",
+          "originalRevision": 1,
+          "originalSha256": "026182a0b376074fcfd72edcedd6dfde9883a2afe13ebee0c28090756a7fd02c",
+          "excerpt": "壬申，震召知溫及諸道先鋒馬軍都指揮使、齊州防禦使安神博於東寨，知溫誘龍晊所部兵殺震於席上，其眾噪於營外，安審通脫身走，奪舟濟河，將騎兵按甲不動。知溫恐事不濟，亦上馬出門，軍士攬其轡曰：「公當為士卒主，去欲何之？」知溫給之曰：「騎兵皆在河西，不收取之，獨有步兵，何能集事！」遂躍馬登舟濟河，與審通合謀擊亂兵，亂兵遂南行。"
+        }
+      ],
+      "notes": [
+        "本段两次“明年”夹回叙魏军历史，战年取本纪天成二年，不递加至928。"
+      ]
+    },
+    {
+      "id": "fang-zhiwen-fengxiang-ambition",
+      "title": "凤翔起兵时欲乘势，旋朝末帝",
+      "summary": "李从珂起兵、李从厚出奔时想凭钱兵举事，遣李冲窥形势；李冲见末帝已立即献贺表，劝他入朝。",
+      "year": 934,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "末帝起凤翔、闵帝出奔时",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p18",
+          "originalRevision": 1,
+          "originalSha256": "56d645034868063eb19d688aa6e84e06087c9900edecd770fe125c7980d59778",
+          "excerpt": "及廢帝起兵鳳翔，愍帝出奔，知溫乘間有窺覦之意，"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-dongping-king",
+      "title": "入朝受优待，归镇封东平王",
+      "summary": "李从珂慰劳厚待其来朝，归镇后封东平王；属于臣僚王爵，不是实际即位。",
+      "year": 934,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "末帝入立后朝见、还镇封王；本纪清泰元年六月同事封东平王，可核934年",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p18",
+          "originalRevision": 1,
+          "originalSha256": "56d645034868063eb19d688aa6e84e06087c9900edecd770fe125c7980d59778",
+          "excerpt": "知溫還鎮，封東平王。"
+        },
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p21",
+          "originalRevision": 1,
+          "originalSha256": "2e31601ae238c4e42712ffbcbb56027a730c2608dcf4b45802d01adfefec862b",
+          "excerpt": "六月庚午朔，改侍衛捧聖軍為彰聖，改嚴衛軍為寧衛。"
+        },
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p21",
+          "originalRevision": 1,
+          "originalSha256": "2e31601ae238c4e42712ffbcbb56027a730c2608dcf4b45802d01adfefec862b",
+          "excerpt": "幽州節度使趙德鈞進封北平王，青州節度使房知溫進封東平王。"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-early-wei",
+      "title": "赤甲军士转魏军亲随指挥",
+      "summary": "出身兖州瑕丘，以勇力入赤甲都，后隶魏州马斗军，渐任亲随指挥。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p16",
+          "originalRevision": 1,
+          "originalSha256": "e3c99cb6dafa8a1e17f2edfe5610630d37ccacd3b41854cec159607898153657",
+          "excerpt": "少以勇力為赤甲都官健，後隸魏州馬鬬軍，稍遷親隨軍指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-given-name",
+      "title": "魏博归晋后赐名李绍英",
+      "summary": "庄宗得魏博军后赐姓名李绍英，授澶州刺史，继历曹贝、戍瓦桥；赐姓不是收养证据。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "庄宗取魏博后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p16",
+          "originalRevision": 1,
+          "originalSha256": "e3c99cb6dafa8a1e17f2edfe5610630d37ccacd3b41854cec159607898153657",
+          "excerpt": "莊宗取魏博，得知溫，賜姓李氏，名曰紹英，以為澶州刺史，"
+        }
+      ]
+    },
+    {
+      "id": "fang-zhiwen-death",
+      "title": "天福元年卒官，赠太尉",
+      "summary": "任藩镇时厚敛并积巨财，修第青州而耽游乐；新史记天福元年卒于官。该年号首年末月可能跨西历936、937，无卒日不强定单年。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "后晋天福元年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v46",
+          "paragraphId": "new-v46-p19",
+          "originalRevision": 1,
+          "originalSha256": "7d030bcf0f5d98ae93bef663c273ae95308b8c078c901aae758aa1530222b8d3",
+          "excerpt": "天福元年卒于官，贈太尉。"
+        }
+      ],
+      "yearRange": {
+        "start": 936,
+        "end": 937
+      }
+    }
+  ]
+}

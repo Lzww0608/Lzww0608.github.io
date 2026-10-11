@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "dong-zhang",
+  "events": [
+    {
+      "id": "dong-zhang-take-ze",
+      "title": "梁末攻泽州，任刺史",
+      "summary": "李继韬附梁而裴约不从，梁末帝派董璋攻陷泽州，授刺史。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "梁龙德末，庄宗入汴之岁",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "梁末帝遣璋攻陷澤州，遂授澤州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-join-tang",
+      "title": "庄宗入汴后朝见，保留旧任",
+      "summary": "李存勖进入汴州，董璋来朝受优待，仍返泽州旧任，一年多后代归。",
+      "year": 923,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "庄宗入汴之岁",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "是歲，莊宗入汴，璋來朝，莊宗素聞其名，優以待之。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-binzhou-shu",
+      "title": "授邠州节度，从征蜀参与军机",
+      "summary": "同光三年夏任邠州留后，秋正授；九月随征蜀为行营右厢马步都虞候，得郭崇韬召议军机。",
+      "year": 925,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "同光三年夏、秋、九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "九月，大舉伐蜀，以璋為行營右廂馬步都虞候。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-renju-conflict",
+      "title": "减贡额，武装威胁李仁矩",
+      "summary": "朝廷征贡五十万，董璋只许十万；使者李仁矩误其宴，他带兵闯驿威胁杀人，使者回朝更报其不法。",
+      "year": 929,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "天成四年夏",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ac413c776dab3ec880810514fedfd8e6ce1e786cd7a65daad866965cb3be48d",
+          "excerpt": "四年夏，時明宗將議郊天，遣客省使李仁矩齎詔示諭兩川，"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-rebellion-langzhou",
+      "title": "与孟知祥结援，陷阆州杀使",
+      "summary": "朝廷割属郡置李仁矩节镇引其猜忌，联孟知祥起兵，攻陷阆州杀李仁矩、姚洪。",
+      "year": 930,
+      "sortOrder": 5,
+      "precision": "month",
+      "sourceDate": "长兴元年五月及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p13",
+          "originalRevision": 1,
+          "originalSha256": "6b7afe720d115bb2b4408e028a2b973eaa3f790f60c6860d04754dd81032b13d",
+          "excerpt": "五月，璋傳檄於利、閬、遂等州，責以間諜朝廷。尋率其兵陷閬州，擒節度使李仁矩、軍校姚洪等害之。"
+        }
+      ],
+      "notes": [
+        "五月为本传传檄月，后续攻城月未记，不等同同日。"
+      ]
+    },
+    {
+      "id": "dong-zhang-family-killed",
+      "title": "朝廷削爵讨伐，洛阳家族被杀",
+      "summary": "秋被削官爵，石敬瑭奉命讨；儿董光业及族在洛阳被杀，后来导致董璋拒与朝廷和解。",
+      "year": 930,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "长兴元年秋",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p14",
+          "originalRevision": 1,
+          "originalSha256": "17b021d833e88c842a7ff30ae1e35013da70c4afa207bf0013403890f5d13758",
+          "excerpt": "璋之子宮苑使光業並其族，並斬於洛陽。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-war-with-meng",
+      "title": "与孟知祥失和，出兵弥牟败",
+      "summary": "因孟知祥有意通朝而猜其背己，长兴三年四月袭西川，在汉州弥牟败，奔回东川。",
+      "year": 932,
+      "sortOrder": 7,
+      "precision": "month",
+      "sourceDate": "长兴三年四月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p14",
+          "originalRevision": 1,
+          "originalSha256": "17b021d833e88c842a7ff30ae1e35013da70c4afa207bf0013403890f5d13758",
+          "excerpt": "三年四月，璋率所部兵萬餘人以襲知祥。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-death",
+      "title": "败返东川遭王晖杀，首送西川",
+      "summary": "在东川寄居的王晖乘董璋败军率人杀之，将首送孟知祥。",
+      "year": 932,
+      "sortOrder": 8,
+      "precision": "year",
+      "sourceDate": "长兴三年四月出兵、弥牟败返被杀；本纪六月已报同事，限定西历932年",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p14",
+          "originalRevision": 1,
+          "originalSha256": "17b021d833e88c842a7ff30ae1e35013da70c4afa207bf0013403890f5d13758",
+          "excerpt": "至是因璋之敗，率眾以害之，傳其首於西川。"
+        },
+        {
+          "chapterId": "old-v043",
+          "paragraphId": "old-v043-p6",
+          "originalRevision": 1,
+          "originalSha256": "0482ad5f9b9e0fa053ace49d5205cc19df259a4a76fa307a640a9218ff27e5b0",
+          "excerpt": "六月壬子朔，幽州趙德鈞奏："
+        },
+        {
+          "chapterId": "old-v043",
+          "paragraphId": "old-v043-p6",
+          "originalRevision": 1,
+          "originalSha256": "0482ad5f9b9e0fa053ace49d5205cc19df259a4a76fa307a640a9218ff27e5b0",
+          "excerpt": "戊午，荊南奏：「東川董璋領兵至漢州，西川孟知祥出兵逆戰，璋大敗，得部下人二十餘，走入東川城，尋為前陵州刺史王暉所殺，孟知祥已入梓州。」"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-early-liang",
+      "title": "从李让童仆进入朱温军",
+      "summary": "幼与高季兴、孔循同为豪士李让童仆，成年隶朱温帐下，后凭军功升军校。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "璋既壯，得隸於梁祖帳下，後以軍功遷為列校。"
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-dongchuan",
+      "title": "蜀平后掌东川节度",
+      "summary": "同光三年冬前蜀平，任剑南东川节度副大使、知节度事。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "sourceDate": "旧史同光三年冬；康延孝传闰十二月叙授东川",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "是冬，蜀平，以璋為劍南東川節度副大使，知節度事。"
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      },
+      "notes": [
+        "同光三年冬跨西历925、926；另传闰十二月记郭崇韬解除董璋军职、授東川，该闰月在926。不将冬季概述强定唯一任命年。"
+      ],
+      "variants": [
+        {
+          "label": "康延孝传叙任东川",
+          "sourceDate": "同光三年闰十二月",
+          "year": 926,
+          "summary": "郭崇韬因董璋受辱，署其为东川节度并去军职。",
+          "evidence": [
+            {
+              "chapterId": "old-v074",
+              "paragraphId": "old-v074-p3",
+              "originalRevision": 1,
+              "originalSha256": "09e880d0a88899926508a4d9d3998940065f4ac3b5348b67a41e51d8b139be77",
+              "excerpt": "乃署董璋為東川節度使，落軍職。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dong-zhang-pingzhang",
+      "title": "加同平章事",
+      "summary": "天成二年加同平章事。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "天成二年；未记可核的具体月日，西历范围927—928年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p11",
+          "originalRevision": 1,
+          "originalSha256": "03dff9db8140dfe156a25669908c55e057b57848938cdcd5db47cc32b13cce99",
+          "excerpt": "二年，加同平章事。"
+        }
+      ],
+      "yearRange": {
+        "start": 927,
+        "end": 928
+      }
+    }
+  ]
+}

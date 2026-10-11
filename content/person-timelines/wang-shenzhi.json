@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "personId": "wang-shenzhi",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wang-shenzhi-succession",
+      "year": 898,
+      "sourceDate": "乾宁四年十二月丁未，王潮卒（旧史）",
+      "title": "承继福建军府",
+      "summary": "王潮病中让其知军府事，去世后他让位王审邽不获接受，遂自称留后。原书十二月丁未核历已在西历898年。",
+      "evidence": [
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p22",
+          "originalRevision": 1,
+          "originalSha256": "8dc3274017b646fb37350bb9f1521f907fb6ed63f2c03e9ded433639a55b3959",
+          "excerpt": "潮寢疾，舍其子延興、延虹、延豐、延休，命審知知軍府事。十二月丁未，潮薨，審知以讓其兄審邽，審邽以審知有功，辭不受。審知自稱福建留後，表於朝廷。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "day",
+      "variants": [
+        {
+          "label": "新史只系乾宁四年",
+          "sourceDate": "乾宁四年",
+          "evidence": [
+            {
+              "chapterId": "new-v68",
+              "paragraphId": "new-v68-p5",
+              "originalRevision": 1,
+              "originalSha256": "60b76ca41d60dc32342661ae8b851ccdc770a03aa74c0df24bb4270e03cecd8d",
+              "excerpt": "審知為人狀皃雄偉，隆準方口，常乘白馬，軍中號「白馬三郎」。乾寧四年，潮卒，審知代立。唐以福州為威武軍，拜審知節度使，累遷同中書門下平章事，封琅琊王。唐亡，梁太祖加拜審知中書令，封閩王，升福州為大都督府。是時，楊行密據有江淮，審知歲遣使泛海，自登、萊朝貢于梁，使者入海，覆溺常十三四。"
+            }
+          ],
+          "year": 897,
+          "summary": "新史未标月日，将王潮卒与王审知承主系于乾宁四年；旧史补出十二月丁未，实际西历已跨898。"
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "wang-shenzhi-king-of-min",
+      "year": 909,
+      "sourceDate": "开平三年（通鉴）",
+      "title": "受后梁封为闽王",
+      "summary": "唐末受琅琊王封号，后梁封为闽王；本项据通鉴开平三年系于909。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p5",
+          "originalRevision": 1,
+          "originalSha256": "60b76ca41d60dc32342661ae8b851ccdc770a03aa74c0df24bb4270e03cecd8d",
+          "excerpt": "審知為人狀皃雄偉，隆準方口，常乘白馬，軍中號「白馬三郎」。乾寧四年，潮卒，審知代立。唐以福州為威武軍，拜審知節度使，累遷同中書門下平章事，封琅琊王。唐亡，梁太祖加拜審知中書令，封閩王，升福州為大都督府。是時，楊行密據有江淮，審知歲遣使泛海，自登、萊朝貢于梁，使者入海，覆溺常十三四。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p21",
+          "originalRevision": 1,
+          "originalSha256": "2aa0b67db2e099ac29d17e3892d335aebfaeb27676573b70adde2e88bbf18cb2",
+          "excerpt": "太祖神武元聖孝皇帝中開平三年（己巳，公元九零九年）"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p32",
+          "originalRevision": 1,
+          "originalSha256": "f8b6fa9e13a7ddcdb687a396e1f5966eced35fccceac8059675052f2dccc6f7f",
+          "excerpt": "庚子，以王審知為閩王，劉隱為南平王。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 2
+    },
+    {
+      "id": "wang-shenzhi-death",
+      "year": 925,
+      "sourceDate": "同光三年十二月辛未（通鉴）",
+      "title": "去世，王延翰承继",
+      "summary": "王审知卒，谥忠懿，王延翰自称威武留后。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p7",
+          "originalRevision": 1,
+          "originalSha256": "a47bfbe71475d99738cdf9aac20d0bc9925d581b79ff6ab6c6f86dd73c64ef39",
+          "excerpt": "審知同光三年卒，年六十四，謚日忠懿。子延翰立。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p3",
+          "originalRevision": 1,
+          "originalSha256": "3c0fc95eb4cd1a755cd3d91b7b6dbdbaa76c4ecd9d0ac84bab8cfe1c2002d35a",
+          "excerpt": "莊宗光聖神閔孝皇帝下同光三年（乙酉，公元九二五年）"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p17",
+          "originalRevision": 1,
+          "originalSha256": "d5d36d8e488413f120f007a29357b3f6ba952ba2576c10458fb7000f14eb3b02",
+          "excerpt": "辛未，閩忠懿王審知卒，子延翰自稱威武留後。汀州民陳本聚眾三萬圍汀州，延翰遣右軍都監柳邕等將兵二萬討之。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "day",
+      "variants": [
+        {
+          "label": "旧史卒年异说",
+          "sourceDate": "同光元年",
+          "evidence": [
+            {
+              "chapterId": "old-v134",
+              "paragraphId": "old-v134-p23",
+              "originalRevision": 1,
+              "originalSha256": "07fd52e01bc941ec6ca7bc3ed6d3a22aa8ada2972ae46124c8a28b2496d8ebce",
+              "excerpt": "審知起自隴畝，以至富貴。每以節儉自處，選任良吏，省刑惜費，輕徭薄斂，與民休息。三十年間，一境晏然。同光元年，審知卒，子延翰嗣，為弟延鈞所殺。"
+            }
+          ],
+          "year": 923,
+          "summary": "旧史记同光元年卒，新史与通鉴记同光三年，保留差异。"
+        }
+      ],
+      "sortOrder": 3
+    },
+    {
+      "id": "wang-shenzhi-posthumous-emperor",
+      "year": 933,
+      "sourceDate": "王延钧称帝改元龙启时",
+      "title": "身后追尊昭武孝皇帝",
+      "summary": "王延钧称帝后追尊父亲，并立宗庙。王审知生前为闽王，不把追尊作为其实际帝位。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p14",
+          "originalRevision": 1,
+          "originalSha256": "25dd189208961f995fabe0a4057c1af702e1ea44ec9068fbe37d3161beca13a6",
+          "excerpt": "鏻好鬼神、道家之說，道士陳守元以左道見信，建寶皇宮以居之。守元謂鏻曰：「寶皇命王少避其位，後當為六十年天子。」鏻欣然遜位，命其子繼鵬權主府事。既而復位，遣守元問寶皇：「六十年後將安歸？」守元傳寶皇語曰：「六十年後，當為大羅仙人。」鏻乃即皇帝位，受冊於寶皇，以黃龍見真封宅，改元為龍啟，國號閩。追謚審知為昭武孝皇帝，廟號太祖，立五廟，置百官，以福州為長樂府。而閩地狹，國用不足，以中軍使薛文傑為國計使。文傑多察民間陰事，致富人以罪，而籍沒其貲以佐用，閩人皆怨。又薦妖巫徐彥，曰：「陛下左右多姦臣，不質諸鬼神，將為亂。」鏻使彥視鬼於宮中。"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p32",
+          "originalRevision": 1,
+          "originalSha256": "937abb0f7329106613c191608c987530372e5b459d9bb403020e46d6b87b0359",
+          "excerpt": "明宗聖德和武欽孝皇帝下長興四年（癸巳，公元九三三年）"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p34",
+          "originalRevision": 1,
+          "originalSha256": "859cac153417440702e18506b6518b64abe321acc3b49d804d4c7c4f11350a85",
+          "excerpt": "閩人有言真封宅龍見者，閩王延鈞更命其宅曰龍躍宮。遂詣寶皇宮受冊，備儀衛，入府，即皇帝位，國號大閩，大赦，改元龍啟；更名璘。追尊父祖，立五廟。以其僚屬李敏為左僕射、門下侍郎，其子節度副使繼鵬為右僕射、中書侍郎，並同平章事；以親吏吳勖為樞密使。唐冊禮使裴傑、程侃適至海門，閩主以傑為如京使；侃固求北還，不許。閩主自以國小地僻，常謹事四鄰，由是境內差安。"
+        }
+      ],
+      "phase": "posthumous",
+      "precision": "year",
+      "sortOrder": 4
+    },
+    {
+      "id": "wang-shenzhi-southward",
+      "year": null,
+      "sourceDate": "唐末，王绪率军南下期间",
+      "title": "随兄王潮进入福建",
+      "summary": "王绪率军南奔，王潮谋废王绪后被推为主；王审知随其经营福建，不能将王潮的所有直接行动改写为王审知独立率领。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p2",
+          "originalRevision": 1,
+          "originalSha256": "1e07a1947a2eb33390171298705753fb6103a2876b9d72cfcb51136cb049abe9",
+          "excerpt": "王審知字信通，光州固始人也。父恁，世為農。兄潮，為縣史。"
+        },
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p3",
+          "originalRevision": 1,
+          "originalSha256": "dc34aef26b48b140cfd76d3aa90f7e5120f5b6ec6e5996420053def447d14343",
+          "excerpt": "唐末羣盜起，壽州人王緒攻陷固始，緒聞潮兄弟材勇，召置軍中，以潮為軍校。是時，蔡州秦宗權方募士以益兵，乃以緒為光州刺史，召其兵會擊黃巢。緒遲留不行，宗權發兵攻緒。緒率眾南奔，所至剽掠，自南康入臨汀，陷漳浦，有眾數萬。緒性猜忌，部將有材能者，多因事殺之，潮頗自懼。軍次南安，潮說其前鋒將曰：「吾屬棄墳墓、妻子而為盜者，為緒所脅爾，豈其本心哉！今緒雄猜，將吏之材能者必死，吾屬不自保朝夕，況欲圖成事哉！」前鋒將大悟，與潮相持而泣。乃選壯士數十人，伏篁竹間，伺緒至，躍出擒之，囚之軍中，緒所自殺。"
+        },
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p4",
+          "originalRevision": 1,
+          "originalSha256": "72fee020e107efa0fb97dccb35c6b1ceb292c973627d3861468ded4ff2c4f44d",
+          "excerpt": "緒已見廢，前鋒將曰：「生我者潮也。」乃推潮為主。是時，泉州刺史廖彥若為政貪暴，泉人苦之，聞潮略地至其境，而軍行整肅，其耆老相率遮道留之，潮即引兵圍彥若，逾年克之。光啟二年，福建觀察使陳巖表潮泉州刺史。景福元年巖卒，其壻范暉自稱留後。潮遣審知攻暉，久不克，士卒傷死甚眾，審知請班師，潮不許。又請潮自臨軍，且益兵，潮報曰：「兵與將俱盡，吾當自往。」審知乃親督士卒攻破之，暉見殺。唐即以潮為福建觀察使，潮以審知為副使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 5
+    },
+    {
+      "id": "wang-shenzhi-attack-fuzhou",
+      "year": null,
+      "sourceDate": "景福元年陈岩卒后，围攻逾年",
+      "title": "奉兄命攻福州",
+      "summary": "王潮命攻范晖，久攻伤亡后请撤兵不准，继续督军破城，成为福建观察副使。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p4",
+          "originalRevision": 1,
+          "originalSha256": "72fee020e107efa0fb97dccb35c6b1ceb292c973627d3861468ded4ff2c4f44d",
+          "excerpt": "緒已見廢，前鋒將曰：「生我者潮也。」乃推潮為主。是時，泉州刺史廖彥若為政貪暴，泉人苦之，聞潮略地至其境，而軍行整肅，其耆老相率遮道留之，潮即引兵圍彥若，逾年克之。光啟二年，福建觀察使陳巖表潮泉州刺史。景福元年巖卒，其壻范暉自稱留後。潮遣審知攻暉，久不克，士卒傷死甚眾，審知請班師，潮不許。又請潮自臨軍，且益兵，潮報曰：「兵與將俱盡，吾當自往。」審知乃親督士卒攻破之，暉見殺。唐即以潮為福建觀察使，潮以審知為副使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 892,
+        "end": 893
+      },
+      "notes": [
+        "只按陈岩卒年及“逾年”记述显示攻城阶段，不推算没有来源的城破确日。"
+      ],
+      "sortOrder": 6
+    },
+    {
+      "id": "wang-shenzhi-governance",
+      "year": null,
+      "sourceDate": "治理闽地期间，本传未独标年月",
+      "title": "兴学招商，节用省刑",
+      "summary": "礼待王淡、杨沂、徐寅等士人，建四门学校，招海外商人；旧史记轻徭薄敛、与民休息。海港神异成因只保留为原书所述，不作确定因果。",
+      "evidence": [
+        {
+          "chapterId": "new-v68",
+          "paragraphId": "new-v68-p6",
+          "originalRevision": 1,
+          "originalSha256": "ac730ac0b5cceb8afec3ac3ac4f29ba3980fdd8901f987bac8bd0a06770f7623",
+          "excerpt": "審知雖起盜賊，而為人儉約，好禮下士。王淡，唐相溥之子；楊沂，唐相涉從弟；徐寅，唐時知名進士，皆依審知仕宦。又建學四門，以教閩士之秀者。招來海中蠻夷商賈。海上黃崎，波濤為阻，一夕風雨雷電震擊，開以為港，閩人以為審知德政所致，號為甘棠港。"
+        },
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p23",
+          "originalRevision": 1,
+          "originalSha256": "07fd52e01bc941ec6ca7bc3ed6d3a22aa8ada2972ae46124c8a28b2496d8ebce",
+          "excerpt": "審知起自隴畝，以至富貴。每以節儉自處，選任良吏，省刑惜費，輕徭薄斂，與民休息。三十年間，一境晏然。同光元年，審知卒，子延翰嗣，為弟延鈞所殺。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 898,
+        "end": 925
+      },
+      "sortOrder": 7
+    },
+    {
+      "id": "wang-shenzhi-post-tang-embassy",
+      "year": null,
+      "sourceDate": "庄宗灭梁后王审知生前遣使，未独使节月日；据灭梁至王审知卒前界限保923—925年",
+      "title": "向后唐遣使朝贡",
+      "summary": "后唐建立后派使贡奉，庄宗制加功臣称号、增爵邑；旧史辑引所记徐寅被拒任用作为来源叙述保留。",
+      "evidence": [
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p22",
+          "originalRevision": 1,
+          "originalSha256": "8dc3274017b646fb37350bb9f1521f907fb6ed63f2c03e9ded433639a55b3959",
+          "excerpt": "後唐莊宗即位，遣使奉貢，制加功臣，進爵邑。"
+        },
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p29",
+          "originalRevision": 1,
+          "originalSha256": "2f3c5cd57ebebbe3c5ab8cdfe41503bbc7f5b514f7c0ddf7f7f1c10e8f2a3aa6",
+          "excerpt": "及莊宗之滅梁也，四方諸侯以為唐室復興，奉琛為慶者相繼。王審知在閩中，亦遣使至，遽召其使問曰：「徐寅在否？」使不敢隱，以無恙對，莊宗因慘然曰：「汝歸語王審知，父母之讎，不可同天，徐寅指斥先帝，今聞在彼中，何以容之？」使回，具以告，審知曰：「如此則主上欲殺徐寅爾，今殺則未敢奉詔，但不可以用矣。」即日戒閽者不得引接，徐寅坐是終身止於秘書正字。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 8,
+      "yearRange": {
+        "start": 923,
+        "end": 925
+      }
+    }
+  ]
+}

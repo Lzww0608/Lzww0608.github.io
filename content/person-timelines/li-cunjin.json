@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-cunjin",
+  "events": [
+    {
+      "id": "li-cunjin-jin-prince-service",
+      "year": 908,
+      "title": "李存勖初嗣晋王位，入步军右都",
+      "summary": "旧史记庄宗初嗣位时入步军右都、加检校司空，此时是李存勖继晋王位，尚未称帝；庄宗本纪记李克用卒于天祐五年后李存勖承嗣。",
+      "sourceDate": "庄宗初嗣晋王位；天祐五年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "莊宗初嗣位，入為步軍右都檢校司空，"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p4",
+          "originalRevision": 1,
+          "originalSha256": "0582df9aca55fcd39edab1ce65f298c96160b0835d5aa065207420d381991525",
+          "excerpt": "天祐五年春正月，武皇疾篤，召監軍張承業、大將吳珙謂曰：「吾常愛此子志氣遠大，可付後事，惟卿等所教。」及武皇厭代，帝乃嗣王位於晉陽，時年二十有四。"
+        }
+      ],
+      "sortOrder": 1,
+      "phase": "service",
+      "precision": "year"
+    },
+    {
+      "id": "li-cunjin-baixiang",
+      "title": "柏乡之战后升行营军职",
+      "summary": "李存进随李存勖出井陉，在柏乡一带击败梁军，论功升行营军职并领州职，后来又收复慈州。",
+      "year": 911,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "柏乡战役；旧史写相乡，新史写柏乡",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "莊宗初嗣位，入為步軍右都檢校司空，師出井陘，授行營馬軍都虞候，破汴軍於相鄉，論功授邠州刺史，轉檢校司徒。俄兼西南面行營招討使，出師收慈州，授慈、沁二州刺史。十二年，定魏博，授天雄軍都巡按使。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p26",
+          "originalRevision": 1,
+          "originalSha256": "741d04416f3506270eab878c102fdef253ac12d8880c556dce9cda01a47dc63d",
+          "excerpt": "從莊宗戰柏鄉，遷行營馬步軍都虞候，歷慈、沁二州刺史。"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p18",
+          "originalRevision": 1,
+          "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6",
+          "excerpt": "天祐八年正月丁亥，周德威、史建瑭帥三千騎致師於柏鄉，設伏於村塢間，遣三百騎直壓其營。"
+        }
+      ],
+      "notes": [
+        "相乡／柏乡按底本分别展示；不暗改旧史用字。"
+      ]
+    },
+    {
+      "id": "li-cunjin-huliu-battle",
+      "year": 919,
+      "title": "参加胡柳之战",
+      "summary": "旧史在天祐十四年升职、攻杨刘之后接记战胡柳；通鉴给出战役的贞明四年十二月癸亥纪日，已跨西历919年，保持本传叙次而另列实际战年。",
+      "sourceDate": "后梁贞明四年十二月癸亥",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "十四年，擢蕃漢馬步副總管，從攻楊劉，戰胡柳。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p24",
+          "originalRevision": 1,
+          "originalSha256": "ee68389392dd1234dda5e5093d49b82215eeda299163aeec4d4ea53c08b44d54",
+          "excerpt": "均王中貞明四年（戊寅，公元九一八年）"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p59",
+          "originalRevision": 1,
+          "originalSha256": "72cef2b12b96533789bb5f7a929e62b4f9fddb2da363d0c553711eb7be1b4e5e",
+          "excerpt": "十二月，庚子朔，晉王進兵，距梁軍十里而捨。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p63",
+          "originalRevision": 1,
+          "originalSha256": "acc070ac1933b5db8ba2c2a28ff7de08cb14149e4873242fd924d865d846be0c",
+          "excerpt": "壬戌，至胡柳陂。癸亥旦，候者言梁兵自後至矣。"
+        }
+      ],
+      "sortOrder": 3,
+      "phase": "service",
+      "precision": "day"
+    },
+    {
+      "id": "li-cunjin-zhenzhou",
+      "title": "接替李嗣昭攻镇州",
+      "summary": "李存进接替李嗣昭为招讨使，在东垣渡营军，以木材夹板夯筑营垒以应对松散沙土。",
+      "year": 922,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "天祐十九年七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p12",
+          "originalRevision": 1,
+          "originalSha256": "0de0c192196e47180d1243b4a89d8186b106674867b8d3396cc685d8f4436203",
+          "excerpt": "七月，存進代嗣昭為招討，進營東垣渡，夾滹□為壘，沙土散惡，垣壁難成。存進斬伐林樹，版築旬日而就，賊不能寇。九月，王處球盡率其眾，乘其無備，奄至壘門。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunjin-death",
+      "title": "东垣渡出战，血战阵亡",
+      "summary": "镇州军突至营门，李存进带少数部下出战，后援没有跟上，血战阵亡，旧史记六十六岁；新史同记阵亡于桥上。",
+      "year": 922,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "天祐十九年九月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p12",
+          "originalRevision": 1,
+          "originalSha256": "0de0c192196e47180d1243b4a89d8186b106674867b8d3396cc685d8f4436203",
+          "excerpt": "九月，王處球盡率其眾，乘其無備，奄至壘門。存進聞之，得部下數人出鬥，驅賊於橋下。俄而賊大至，後軍不繼，血戰而歿，時年六十六。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p27",
+          "originalRevision": 1,
+          "originalSha256": "987bae809f669471e41bc1b527824ebd2d32b4746d9acba1ff8767b8aa2ee911",
+          "excerpt": "晉軍晨出芻牧，文禮子處球以兵千餘逼存進柵，存進出戰橋上，殺處球兵殆盡，而存進亦歿于陣。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunjin-yanmen",
+      "title": "任雁门以北军职",
+      "summary": "契丹侵扰云中时，李存进改任永安军使、雁门以北都知兵马使，承担北方军务。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "光化三年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "光化三年，契丹犯塞，寇雲中，改永安軍使、雁門以北都知兵馬使。"
+        }
+      ],
+      "yearRange": {
+        "start": 900,
+        "end": 901
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunjin-shizhou-appointment",
+      "year": null,
+      "title": "授石州刺史",
+      "summary": "旧史明确天复三年授石州刺史，较此前天复初洞涡战事的纪年更具体，单独排列。",
+      "sourceDate": "天复三年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "三年，授石州刺史。"
+        }
+      ],
+      "sortOrder": 7,
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 903,
+        "end": 904
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunjin-weibo",
+      "title": "以严法整治魏博军队",
+      "summary": "李存勖取得魏博后，李存进领天雄军职，用严厉军法约束银枪效节都等新附部队。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "天祐十二年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "十二年，定魏博，授天雄軍都巡按使。時魏人初附，有銀槍效節都，強傑難制，專謀騷動。存進沈厚果斷，犯令者梟首屍於市，諸軍無不惕息，靡然向風。十四年，擢蕃漢馬步副總管，從攻楊劉，戰胡柳。"
+        }
+      ],
+      "yearRange": {
+        "start": 915,
+        "end": 916
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunjin-huliu",
+      "title": "升蕃汉马步副总管，随攻杨刘",
+      "summary": "旧史明确天祐十四年擢蕃汉马步副总管，并接记随攻杨刘。后续胡柳战事另列。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "天祐十四年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "十四年，擢蕃漢馬步副總管，從攻楊劉，戰胡柳。"
+        }
+      ],
+      "notes": [
+        "天祐十四年是升职的原书记年；本段接叙的胡柳之战另按其本役日期展示。",
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ],
+      "yearRange": {
+        "start": 917,
+        "end": 918
+      }
+    },
+    {
+      "id": "li-cunjin-bridge",
+      "title": "在德胜建浮桥",
+      "summary": "李存进兼领振武节度使，在德胜用苇索、大船、岸上巨木建成浮桥，让晋军渡河更便捷；与符存审共同固守德胜。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "sourceDate": "天祐十六年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p11",
+          "originalRevision": 1,
+          "originalSha256": "44aa268c70f4f8fe6cba2b805153ad22a237e27659fc70db58a412316c03d230",
+          "excerpt": "十六年，以本職兼領振武節度使。時王師據德勝渡，汴軍據楊村渡在上流。汴人運洛陽竹木，造浮橋以濟軍。王師以船渡，緩急難濟，存進率意欲造浮橋。軍吏曰：「河橋須竹笮大□，兩岸石倉鐵牛以為固，今無竹石，竊慮難成。」存進曰：「吾成算在心，必有所立。」乃課軍造葦笮，維大艦數十艘，作土山，植巨木於岸以纜之。初，軍中以為戲，月餘橋成，制度條直，人皆服其勤智。莊宗舉酒曰：「存進，吾之杜預也。」賜寶馬御衣，進檢校太保，兼魏博馬步都將。與李存審固守德勝。"
+        }
+      ],
+      "yearRange": {
+        "start": 919,
+        "end": 920
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-cunjin-defend",
+      "title": "本传记拒王瓒攻德胜，纪年与编年叙事待辨",
+      "summary": "旧史李存进传记王瓒攻北城，用地穴、火车等进攻，存进抵御而获加检校太傅，标十九年；庄宗本纪和通鉴的将领任职时序及十九年攻守人物有别。保留本传所记功绩，不据此定成唯一战年。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "旧史本传天祐十九年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p12",
+          "originalRevision": 1,
+          "originalSha256": "0de0c192196e47180d1243b4a89d8186b106674867b8d3396cc685d8f4436203",
+          "excerpt": "十九年，汴將王瓚率眾逼北城，為地穴火車，百道進攻。存進隨機拒應，或經日不得食。汴軍退，加檢校太傅。"
+        }
+      ],
+      "notes": [
+        "十九年只是本传记法；不把不同章节的攻德胜都认成同一战役，也不将李存审的拒守功绩转给李存进。"
+      ],
+      "variants": [
+        {
+          "label": "编年史所记王瓒任将时序与十九年攻守者",
+          "sourceDate": "天祐十六年八月及后梁贞明五年十二月；天祐十九年正月",
+          "summary": "庄宗本纪十六年八月记王瓒渡河营杨村，通鉴贞明五年十二月记召王瓒还、戴思远代北面招讨使；庄宗本纪十九年正月攻德胜北城的是戴思远，拒守的是李存审。未据这组不同记载强改本传年份或认定为同一场战事。",
+          "evidence": [
+            {
+              "chapterId": "old-v029",
+              "paragraphId": "old-v029-p1",
+              "originalRevision": 1,
+              "originalSha256": "18efae6f2e9da57ba516dbb82e96bebc56141b6140cac60954df8ab01afed837",
+              "excerpt": "天祐十六年春正月，李存審城德勝，夾河為柵。帝還魏州，"
+            },
+            {
+              "chapterId": "old-v029",
+              "paragraphId": "old-v029-p3",
+              "originalRevision": 1,
+              "originalSha256": "e40670b76108b365625f9662e639bea432cb30a7703f78bd34f1cceb154339c6",
+              "excerpt": "秋七月，帝歸晉陽。八月，梁將王瓚帥眾數萬自黎陽渡河，營於楊村，造舟為梁，以通津路。冬十月，帝自晉陽至魏州，發徒數萬以廣德勝北城，自是，日與梁軍接戰。"
+            },
+            {
+              "chapterId": "tongjian-v271",
+              "paragraphId": "tongjian-v271-p3",
+              "originalRevision": 1,
+              "originalSha256": "dd935415512e536004d8f0519258dbdb2a63e8b700981cbf2614dda5a49d909b",
+              "excerpt": "均王下貞明五年（己卯，公元九一九年）"
+            },
+            {
+              "chapterId": "tongjian-v271",
+              "paragraphId": "tongjian-v271-p9",
+              "originalRevision": 1,
+              "originalSha256": "e7e0878722351be97a7e5116ed1b93b064803a64d3eb15c7553f7e66f6dd2a35",
+              "excerpt": "帝召王瓚還，以天平節度使戴思遠代為北面招討使，屯河上以拒晉人。"
+            },
+            {
+              "chapterId": "old-v029",
+              "paragraphId": "old-v029-p15",
+              "originalRevision": 1,
+              "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+              "excerpt": "是月，梁將戴思遠寇德勝北城，築壘穿塹，地道雲梯，晝夜攻擊；李存審極力拒守，城中危急。帝自幽州聞之，倍道兼行以赴，梁人聞帝至，燒營而遁。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunjin-early",
+      "title": "从李克用入关，任义儿军使",
+      "summary": "李存进本姓孙、名重进，早年从李克用入关，景福年间任义儿军使、获赐姓名；新史记为李克用攻朔州所得并收养。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "undated",
+      "sourceDate": "早年入关；景福中赐名，具体年不详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "父牷，世吏單于府。重進初仕嵐州刺史湯群為部校，獻祖誅群，乃事武皇。從入關，還鎮太原，署牙職。景福中，為義兒軍使，賜姓名。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p25",
+          "originalRevision": 1,
+          "originalSha256": "9f3fef19404cf0ab6a7119837bffee111c4d1921c69cb44128fcce2d6fa3dad1",
+          "excerpt": "存進，振武人也，本姓孫，名重進。太祖攻破朔州得之，賜以姓名，養為子。從太祖入關破黃巢，以為義兒軍使。"
+        }
+      ],
+      "notes": [
+        "两书对最初归附的叙述不同，保留李国昌诛汤群后归事李克用与攻朔州所得两说。"
+      ]
+    },
+    {
+      "id": "li-cunjin-dongwo",
+      "title": "在洞涡破氏叔琮前军",
+      "summary": "天复初年在洞涡击破氏叔琮前军。天复三年石州任官另列确年，不把它混作洞涡战事的同一时点。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "undated",
+      "sourceDate": "天复初，未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "天復初，破氏叔琮前軍於洞渦。三年，授石州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunjin-honor",
+      "title": "同光年间追赠太尉",
+      "summary": "李存进身后在同光年间获追赠太尉，本传没有记具体诏授年份。",
+      "year": null,
+      "sortOrder": 14,
+      "precision": "undated",
+      "sourceDate": "同光时，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p12",
+          "originalRevision": 1,
+          "originalSha256": "0de0c192196e47180d1243b4a89d8186b106674867b8d3396cc685d8f4436203",
+          "excerpt": "同光時，贈太尉。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunjin-wangxingyu-service",
+      "year": null,
+      "title": "随讨王行瑜，获检校常侍",
+      "summary": "旧史记随军讨王行瑜，因功授检校常侍。本传此句未记单年，不用前后官衔倒推出任官年份。",
+      "sourceDate": "从讨王行瑜，授职未独记年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "從討王行瑜，以功授檢校常侍，"
+        }
+      ],
+      "sortOrder": 15,
+      "phase": "uncertain",
+      "precision": "undated"
+    },
+    {
+      "id": "li-cunjin-assist-wangke",
+      "year": null,
+      "title": "与李嗣昭共同在河中击破王珙",
+      "summary": "旧史记与李嗣昭同破王珙于河中，这条是援救争镇一方的军事经历，不把主将合写为李存勖或单人之功。",
+      "sourceDate": "河中争镇时，本传未单记年",
+      "evidence": [
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p10",
+          "originalRevision": 1,
+          "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e",
+          "excerpt": "與李嗣昭同破王珙於河中。"
+        }
+      ],
+      "sortOrder": 16,
+      "phase": "uncertain",
+      "precision": "undated"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-xun-yonghe",
+  "events": [
+    {
+      "id": "liu-xun-yonghe-kill-huzhuang",
+      "title": "洛阳变乱时杀副使全家",
+      "summary": "同光四年四月因私怨杀节度副使胡装，并族其家；本传记闻者以为冤。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "同光四年四月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "四年四月，洛陽有變，訓以私忿害節度副使胡裝，族其家，聞者冤之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-yonghe-early-frontline",
+      "title": "从马军队长到讨王行瑜先锋",
+      "summary": "出身军旅，在李克用帐下任马军队长，后从史俨攻陕州、为讨王行瑜先锋，继而隶河中。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "武皇討王行瑜，以訓為前鋒，後隸河中，為隰州防禦都將。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-yonghe-offer-shanzhou",
+      "title": "杀陕州刺史后归晋",
+      "summary": "隶河中后杀陕州刺史，以陕州归李存勖，后历瀛州刺史。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "居無何，殺陝州刺史，以郡歸莊宗，曆瀛州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "liu-xun-yonghe-xiangzhou",
+      "title": "同光三年授襄州节度",
+      "summary": "在同光初任左监卫大将军后，于三年授襄州节度使。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "同光三年；未记可核的具体月日，西历范围925—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "同光初，拜左監衛大將軍。三年，授襄州節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
+    },
+    {
+      "id": "liu-xun-yonghe-jingnan-failed",
+      "title": "奉命讨荆南，粮疫困军而撤",
+      "summary": "明宗时任南面招讨使讨高季兴，因粮运不继、疾疫及攻城无功而撤兵，令将士劫掠居民，随后受贬。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "天成中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "天成中，荊南高季興叛，詔訓為南面行營招討使，知荊南行府事。"
+        }
+      ],
+      "notes": [
+        "本条是永和刘训（字遵范），与后梁刘鄩及其他同名人分开。"
+      ]
+    },
+    {
+      "id": "liu-xun-yonghe-reinstatement-death",
+      "title": "贬后起用，历藩镇而卒",
+      "summary": "被贬檀州刺史、濮州安置后，起为龙武大将军，授建雄节度、移镇延平；死后赠太尉。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p10",
+          "originalRevision": 1,
+          "originalSha256": "0ddebc63070dfa2dff50268ad28afc649eb05f65eb90319fe48bf8b5fbc61780",
+          "excerpt": "詔訓赴闕，尋責授檀州刺史，續敕濮州安置，未幾，起為龍武大將軍，尋授建雄軍節度使，移鎮延平。卒贈太尉。"
+        }
+      ]
+    }
+  ]
+}

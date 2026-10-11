@@ -5,12 +5,21 @@ import { loadPassagePeople } from './person-passages.mjs';
 
 export const timelinesRoot = new URL('./person-timelines/', import.meta.url);
 export const timelineHash = text => createHash('sha256').update(text, 'utf8').digest('hex');
-export const timelinePhases = ['early', 'campaigns', 'rivalry', 'late', 'posthumous', 'jin', 'conquest', 'imperial', 'fall'];
+export const timelinePhases = ['early', 'campaigns', 'rivalry', 'late', 'posthumous', 'jin', 'conquest', 'imperial', 'fall', 'rule', 'service', 'later', 'uncertain'];
 const requireValue = (condition, message) => { if (!condition) throw new Error(`Invalid person timeline: ${message}`); };
 const text = (value, max) => typeof value === 'string' && value.trim() && [...value].length <= max;
 const only = (value, keys) => value && typeof value === 'object' && !Array.isArray(value) && Object.keys(value).every(k => keys.includes(k));
 const notes = value => value === undefined || (Array.isArray(value) && value.length <= 20 && value.every(s => text(s, 2000)));
 const year = value => Number.isSafeInteger(value) && value >= 1 && value <= 2000;
+const yearRange = value => only(value, ['start', 'end']) && year(value.start) && year(value.end) && value.start <= value.end;
+
+export function validateTimelineCoverage(documents, people = loadPassagePeople()) {
+  const ids = new Set(documents.map(document => document.personId));
+  const missing = people.filter(person => !ids.has(person.id)).map(person => person.id);
+  requireValue(!missing.length, `missing person timelines: ${missing.join(', ')}`);
+  requireValue(ids.size === documents.length && ids.size === people.length, 'complete unique person coverage');
+  return { people: people.length, timelines: documents.length, events: documents.reduce((sum, doc) => sum + doc.events.length, 0) };
+}
 
 export function timelineEvidence(event) {
   return [...event.evidence, ...(event.variants ?? []).flatMap(variant => variant.evidence)];
@@ -35,15 +44,19 @@ export function validatePersonTimeline(input, library = loadLibrary(), people = 
     }
   };
   for (const event of input.events) {
-    requireValue(only(event, ['id', 'title', 'summary', 'year', 'sortOrder', 'precision', 'sourceDate', 'phase', 'evidence', 'variants', 'notes']), 'event fields');
+    requireValue(only(event, ['id', 'title', 'summary', 'year', 'yearRange', 'sortOrder', 'precision', 'sourceDate', 'phase', 'evidence', 'variants', 'notes']), 'event fields');
     requireValue(typeof event.id === 'string' && event.id.startsWith(`${input.personId}-`)
       && /^[a-z0-9][a-z0-9-]{0,119}$/.test(event.id) && !ids.has(event.id), 'stable event identity');
     ids.add(event.id);
+    const dated = year(event.year) && event.yearRange === undefined && ['year', 'month', 'day'].includes(event.precision);
+    const uncertain = event.year === null && event.phase === 'uncertain' && (event.precision === 'undated' && event.yearRange === undefined
+      || event.precision === 'range' && yearRange(event.yearRange));
     requireValue(text(event.title, 100) && text(event.summary, 2000) && text(event.sourceDate, 300)
-      && year(event.year) && Number.isSafeInteger(event.sortOrder) && event.sortOrder >= 0
-      && ['year', 'month', 'day'].includes(event.precision) && timelinePhases.includes(event.phase) && notes(event.notes), `event metadata ${event.id}`);
-    requireValue(event.year > previousYear || (event.year === previousYear && event.sortOrder > previousOrder), `chronological order ${event.id}`);
-    previousYear = event.year; previousOrder = event.sortOrder;
+      && (dated || uncertain) && Number.isSafeInteger(event.sortOrder) && event.sortOrder >= 0
+      && timelinePhases.includes(event.phase) && notes(event.notes), `event metadata ${event.id}`);
+    const orderYear = event.year ?? Infinity;
+    requireValue(orderYear > previousYear || (orderYear === previousYear && event.sortOrder > previousOrder), `chronological order ${event.id}`);
+    previousYear = orderYear; previousOrder = event.sortOrder;
     evidenceList(event.evidence, event.id);
     if (event.variants !== undefined) {
       requireValue(Array.isArray(event.variants) && event.variants.length > 0 && event.variants.length <= 10, `variants ${event.id}`);

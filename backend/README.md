@@ -137,9 +137,9 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 
 ### 人物年表维护
 
-`content/person-timelines/<personId>.json` 保存已核对事件、原书记日及异说，只引用现有章节、稳定段落、修订、SHA-256和连续原文，不复制或裁切全文译文。李克用与李存勖当前各26条，共52条，覆盖当前归档中所选重要事件。`year` 为排序用西历年，`precision` 是原书记年／月／日的粒度；跨年另核历表，不从年号直接推断西历，不把不存在日期的工具回退用于改底本。
+`content/person-timelines/<personId>.json` 保存已核对事件、原书记日及异说，只引用现有章节、稳定段落、修订、SHA-256和连续原文，不复制或裁切全文译文。统一人物目录的现有及未来新增人物均同步维护年表，李克用与李存勖既有各26条保持。`year` 为排序用西历年；不能核准单年时为null，`precision:undated`显示年代未定，`precision:range`及`yearRange:{start,end}`显示有据范围，均置后按原叙次排列。跨年另核历表，不从年号或在位年数直接推断西历，不把不存在日期的工具回退用于改底本。
 
-`007-person-timelines.sql` 只增加独立 `person_timelines` 索引表，reader仅SELECT，editor无直接权限。新库 `seed` 创建表，已有库更新须先做本机与私有baseline备份，在实际dump的独立恢复库验证同一份最终稿后执行 `npm run timelines:import`。整批在事务内核对当前公开原文，失败全部回滚，重复导入幂等，原文、全文与句译、校订历史及人物片段不因年表导入改写。
+`007-person-timelines.sql` 只增加独立 `person_timelines` 索引表，reader仅SELECT，editor无直接权限。`npm run timelines:check`核验完整目录覆盖及匹配的已发布全文，正式导入缺任何人物文档时在连接数据库前停止。新库 `seed` 创建表，已有库更新须先做本机与私有baseline备份，在实际dump的独立恢复库验证同一份最终稿及独立语义复核后执行 `npm run timelines:import`。整批在事务内核对当前公开原文，失败全部回滚，重复导入幂等，原文、全文与句译、校订历史、人物片段及未改动的旧年表行不因年表导入改写。
 
 `GET /api/people/:personId/timeline` 以一条SQL解析主证及异说，返回当前匹配原文和最新已发布全文译文，草稿不公开。任一证据失效、章节撤回或缺配套译文时暂停整条并计入 `unavailableCount`；未建年表人物返回404。接口仅GET／HEAD／OPTIONS，不接受查询参数。空或无效API结果不被旧静态副本恢复，只有API离线才读取经过相同检查的随站年表及章节副本。
 

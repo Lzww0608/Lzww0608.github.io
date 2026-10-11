@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-qi",
+  "events": [
+    {
+      "id": "liu-qi-join-tang",
+      "title": "梁亡归唐，晋州授正节度",
+      "summary": "庄宗入汴后，刘玘来朝叩首谢罪，获令还镇并正式授节度使；后来移安州是另一阶段。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "庄宗至汴，梁亡时",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "莊宗至汴，玘來朝。玘在晉州八年，日與上黨、太原之師交鬥於境上。莊宗見而勞之曰：「劉侯無恙，控我晉陽之南鄙，歲時久矣，不早相見。」玘頓首謝罪。復命歸鎮，正授節旄，移鎮安州。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "同光元年冬十月辛未朔，日有食之。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p2",
+          "originalRevision": 1,
+          "originalSha256": "dcef94511b089ab7e0960e5521b9991109141c35a6f604de4551b9b2ad9d8a8a",
+          "excerpt": "己卯遲明，前軍至汴城，嗣源令左右捉生攻封丘門，梁開封尹王瓚請以城降。俄而帝與大軍繼至，王瓚迎帝自大梁門入。梁朝文武官屬於馬前謁見，陳敘世代唐臣陷在偽廷，今日再睹中興，雖死無恨。帝諭之曰：「朕二十年血戰，蓋為卿等家門無足憂矣，各復乃位。」時梁末帝朱鍠已為其將皇甫麟所殺，獲其首，函之以獻。是日，賜樂工周匝幣帛。周匝者，帝之寵伶也，胡柳之役陷於梁，帝每思之，至是謁見，欣然慰接。周匝因言梁教坊使陳俊保庇之恩，垂泣推薦，請除郡守，帝亦許之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-qi-early",
+      "title": "从宣武队长至州都指挥使",
+      "summary": "刘玘世为宣武牙将之家，自求试用由队长、牙将，历滑徐襄三州都指挥使。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "梁祖镇汴至诸州任职，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "劉玘，汴州雍邱人也。世為宣武軍牙將。玘少負壯節，梁祖鎮汴州，玘求自試，補隊長。從梁祖征伐，所至有功，遷為牙將，曆滑、徐、襄三州都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "liu-qi-xiangzhou",
+      "title": "新旧史称伏甲诛乱，考异记脱身来归",
+      "summary": "新旧五代史记王班被乱军杀后，刘玘假受留后、次日伏甲诛乱将；《考异》据梁祖实录及编遗录记他脱身来归，质疑次日诛将说。两种过程分别保留，后历復、亳等州官。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "开平中，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "開平中，襄帥王班為帳下所害，亂軍推玘為留後，玘詭從之，翌日受賀，衙庭享士，伏甲幕下，盡斬其亂將。以功曆復、亳二州刺史，征為侍衛都將，出為安州刺史。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p46",
+          "originalRevision": 1,
+          "originalSha256": "dd6dcb560c28aac8dc8b5de9cd12e9bc930be8fb218c4c2afda0550d62042328",
+          "excerpt": "山南節度使王班為亂軍所殺，亂軍推玘為留後，玘偽許之，明日饗士于庭，伏甲幕中，酒半，擒為亂者殺之。會梁遣陳暉兵亦至，襄州平，以功拜復州刺史，徙亳、安二州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "考异不取次日诛乱将说",
+          "sourceDate": "开平三年八月赐物、九月收复的引书对照",
+          "year": 909,
+          "summary": "《考异》据梁祖实录八月赐刘玘及王延顺物、编遗录称刘玘奔归，认为翌日诛将与九月才收复襄州不合；其自夸、史官未考之说保留为考异作者判断。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p24",
+              "originalRevision": 1,
+              "originalSha256": "a97345a24f1f9d763be8f254361b12b9c7b0d9bc9322572252aae90f661c7bde",
+              "excerpt": "劉玘為亂兵所立逃來〈姚顗明宗實錄薛史玘傳皆云翌日受賀衙庭享士伏甲幕下中筵盡斬其亂將以聞以功為復州刺史按梁祖實錄八月丁酉賜玘王延順物以其違逆將之難來歸編遺錄斬李洪等敕云始扶劉玘既奔竄以歸明若使玘翌日便斬亂將襄州何由至九月始収復蓋玘脫身歸朝及梁亡入唐妄云斬亂將自誇大史官不能考察從而書之耳〉"
+            },
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p21",
+              "originalRevision": 1,
+              "originalSha256": "78f0b49458ae2b8f9ccab1d2d24e7af0f485e12ccac5bb190c7d44bdaa6f8f62",
+              "excerpt": "三年四月保大節度使李彦博"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "主证按新旧五代史本传叙述；不能将考异作者的否定暗改到底本，也不能把两种经过拼为一件确定事实。",
+        "考异所述八月赐物与九月复襄，沿该篇前文开平三年年题；补存相邻年题以核日期，年题本身不作为刘玘事迹。"
+      ]
+    },
+    {
+      "id": "liu-qi-jinzhou",
+      "title": "长守晋州，与晋军交境战",
+      "summary": "刘玘贞明间领晋州留后，守八年，与上党、太原军在边境持续交战。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "梁末帝时晋州八年，起年不详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "貞明中，為晉州留後。莊宗至汴，玘來朝。玘在晉州八年，日與上黨、太原之師交鬥於境上。"
+        }
+      ]
+    },
+    {
+      "id": "liu-qi-anyuan",
+      "title": "归唐后，移镇安州",
+      "summary": "刘玘获令还晋州并正式受节度职后，又调镇安州；新史称移镇安远，本传未独标迁镇年月。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "归唐受正职之后，移安州／安远未独年月",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "復命歸鎮，正授節旄，移鎮安州。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p47",
+          "originalRevision": 1,
+          "originalSha256": "d874738c01eddf2e5ff73920eb3ae5d63cabbcb1f1dd0fdd0477f54ceee3a9d3",
+          "excerpt": "玘頓首謝罪，遣還鎮，遂以為節度使，徙鎮安遠。"
+        }
+      ]
+    },
+    {
+      "id": "liu-qi-dengzhou",
+      "title": "明宗即位，迁邓州",
+      "summary": "旧史记明宗即位时迁刘玘为邓州节度使；新史把天成元年还京途中授武胜放在临卒前，后事仍保两史异说。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "明宗即位后的邓州授任未独月日；天成元年跨926—927年",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "明宗即位，遷鄧州節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 926,
+        "end": 927
+      }
+    },
+    {
+      "id": "liu-qi-death",
+      "title": "回京病卒，两史在天成初末有异",
+      "summary": "旧史记天成末被史敬镕替代、还京后卒，赠侍中；新史记天成元年被代，还京未至获武胜任命而途中病卒，两书年份和过程分别保留。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "旧史天成末；新史天成元年，不能合为确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v064",
+          "paragraphId": "old-v064-p13",
+          "originalRevision": 1,
+          "originalSha256": "5ab41bc9d046cf3d420487afc8ccf78758d42aece2305ac5abf43c16b39b1a98",
+          "excerpt": "天成末，以史敬鎔代之。玘還京師，卒。贈侍中。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史天成元年途中病卒",
+          "sourceDate": "新史天成元年，未记月日；传统年为926—927年范围",
+          "summary": "新史在天成元年记被史敬镕替代、还京未至获武胜节度任命、途中病卒；旧史记天成末还京卒。不把纯元年起算年当作唯一卒年。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p47",
+              "originalRevision": 1,
+              "originalSha256": "d874738c01eddf2e5ff73920eb3ae5d63cabbcb1f1dd0fdd0477f54ceee3a9d3",
+              "excerpt": "天成元年，以史敬鎔代之，玘還京師，未至，拜武勝軍節度使，以疾卒于道中，贈侍中。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

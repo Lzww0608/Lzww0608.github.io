@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-chengsi",
+  "events": [
+    {
+      "id": "li-chengsi-death-chu",
+      "title": "卒于楚州",
+      "summary": "在楚州去世，旧史记时年五十五；保留原书年龄，不倒推生年。",
+      "year": 920,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天祐十七年七月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p11",
+          "originalRevision": 1,
+          "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
+          "excerpt": "十七年七月，卒於楚州，時年五十五。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-guanzhong-vanguard",
+      "title": "入关讨黄巢，为前锋",
+      "summary": "中和二年随李克用进入关辅讨黄巢，担任先锋。擒王汀和平贼后授官的后续经历另列年代未定记载，不全部挂在882年。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "range",
+      "sourceDate": "中和二年；未记可核的具体月日，西历范围882—883年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p9",
+          "originalRevision": 1,
+          "originalSha256": "e084b6592529cded8299ba1d06f90b2cb531bf62e5399756f93f5ff3dbd71a1e",
+          "excerpt": "中和二年，從武皇討賊關輔，為前鋒。"
+        }
+      ],
+      "yearRange": {
+        "start": 882,
+        "end": 883
+      }
+    },
+    {
+      "id": "li-chengsi-huangchao-prisoner-office",
+      "title": "华阴擒王汀，平贼后授官",
+      "summary": "华阴进攻中擒黄巢方客省使王汀，平贼后授汾州司马、改榆次镇将。原段接叙先锋经历，却未另记这些动作的年次。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "中和二年从征之后，动作未各记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p9",
+          "originalRevision": 1,
+          "originalSha256": "e084b6592529cded8299ba1d06f90b2cb531bf62e5399756f93f5ff3dbd71a1e",
+          "excerpt": "王師之攻華陰，黃巢令偽客省使王汀會軍機於黃揆，承嗣擒之以獻。賊平，以功授汾州司馬，改榆次鎮將。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-petition-shangyuan",
+      "title": "奉表陈诉上源驿之难",
+      "summary": "李克用在上源驿遇袭后，李承嗣奉表到行在陈诉；田令孜劝暂求和解，授他左散骑常侍。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "上源之难后奉表；前后叙次光启初／朱玫之乱与此难纪年交错，未记可核奉表年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p9",
+          "originalRevision": 1,
+          "originalSha256": "e084b6592529cded8299ba1d06f90b2cb531bf62e5399756f93f5ff3dbd71a1e",
+          "excerpt": "上源之難，遣承嗣奉表行在，陳訴其事。觀軍容田令孜館而慰諭，令達情於武皇，姑務葉和，仍授以左散騎常侍。"
+        },
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p5",
+          "originalRevision": 1,
+          "originalSha256": "2a4c699148de32ef9e2b6a865212889b93c3de14292da189b2c83802f8a3398f",
+          "excerpt": "中和四年，從援陳、許，為前鋒，"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-escort-emperor",
+      "title": "朱玫之乱中援鄜护驾",
+      "summary": "率万人援鄜州，到渭桥护驾，随后会鄜、夏军入京，擒叛方宰相；获迎銮功臣号及岚州刺史。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "朱玫之乱及其后，传中未单记年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p9",
+          "originalRevision": 1,
+          "originalSha256": "e084b6592529cded8299ba1d06f90b2cb531bf62e5399756f93f5ff3dbd71a1e",
+          "excerpt": "朱玫之亂，遣承嗣率軍萬人援鄜州，至渭橋迎扈車駕。王行瑜既殺朱玫，承嗣會鄜、夏之師入定京城，獲偽相裴徹、鄭昌圖，函送朱玫、襄王首獻於行在。駕還宮，賜號迎鑾功臣、檢校工部尚書、守嵐州刺史，賜犒軍錢二萬貫。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-yushe-ambush",
+      "title": "榆社伏击，擒奚忠信",
+      "summary": "孟方立袭辽州时，在榆社设伏，击败邢州归兵、擒奚忠信，因功授洺州刺史。张浚加兵太原时的另一次战事分别列出。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b65dca0cdbb01622b4e1b19ee23143d754a75664a047dd6f02b0f52d2a1d439",
+          "excerpt": "孟方立之襲遼州也，武皇遣承嗣設伏於榆社以待之。邢人既至，承嗣發伏，擊其歸兵，大敗之，獲其將奚忠信，以功授洺州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-fight-zhangjun",
+      "title": "攻霍邑追岐军，合兵取平阳",
+      "summary": "张浚加兵太原时，进攻驻霍邑的凤翔军，追至赵城，合大军攻平阳，十三日攻下；回师后改教练使、检校司徒。此传未独记年。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "张浚加兵太原时，原传未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b65dca0cdbb01622b4e1b19ee23143d754a75664a047dd6f02b0f52d2a1d439",
+          "excerpt": "及張浚之加兵於太原也，時鳳翔軍營霍邑，承嗣率一軍攻之，岐人夜遁，追擊至趙城，合大軍攻平陽，旬有三日而拔。師還，改教練使、檢校司徒。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-aid-yanyun",
+      "title": "率骑借道魏州，援救兖郓",
+      "summary": "兖郓遭汴军进攻，向李克用求援；李承嗣奉命率三千骑借道魏州，渡河援救。罗弘信背盟后与河东隔绝是后续记载，不强系于出援年。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "乾宁二年；未记可核的具体月日，西历范围895—896年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p11",
+          "originalRevision": 1,
+          "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
+          "excerpt": "乾寧二年，兗、鄆為汴人所攻，勢漸危蹙，遣使乞師於武皇；武皇遣承嗣率三千騎假道於魏，渡河援之。"
+        }
+      ],
+      "yearRange": {
+        "start": 895,
+        "end": 896
+      }
+    },
+    {
+      "id": "li-chengsi-isolated-from-hedong",
+      "title": "罗弘信背盟，军路与河东隔绝",
+      "summary": "李存信屯莘县后，罗弘信背盟袭击晋军，李承嗣所部由此与河东隔绝。后续兖郓失守、入淮南另列，不把全部过程定在乾宁二年。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "乾宁二年出援之后；本段后事未独标年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p11",
+          "originalRevision": 1,
+          "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
+          "excerpt": "時李存信屯於莘縣，既而羅宏信背盟，掩擊王師，因茲隔絕。"
+        }
+      ]
+    },
+    {
+      "id": "li-chengsi-huainan-qingkou",
+      "title": "转入淮南，参加清口之战",
+      "summary": "兖郓失守后与朱瑾、史俨入淮南，与朱瑾设伏清口，击败汴军；杨行密留下他，领镇海军节度使。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "兖郓失守后；本段“其年九月”年次需与编年分别核定",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p11",
+          "originalRevision": 1,
+          "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
+          "excerpt": "及瑄、瑾失守，承嗣與朱瑾、史儼同入淮南。承嗣、史儼皆驍將也，淮人得之，軍聲大振。〈（十國春秋·吳列傳》：太祖署為淮南行軍副使。）〉武皇深惜之，如失左右手，乃遣趙嶽間道使於淮南，請歸承嗣等；楊行密許之，遣使陳令存請修好於武皇。其年九月，汴將龐師古、葛從周出師，將收淮南，朱瑾率淮南軍三萬，與承嗣設伏於清口，大敗汴人，生獲龐師古。行密嘉其雄才，留而不遣，仍奏授檢校太尉，領鎮海軍節度使。"
+        }
+      ],
+      "notes": [
+        "本传九月、擒庞师古的记述沿原书保留，未据回溯叙事冒定援军出发895年为清口战年。"
+      ]
+    },
+    {
+      "id": "li-chengsi-chuzhou",
+      "title": "转任楚州节度使",
+      "summary": "淮南得知晋军柏乡之捷，任李承嗣为楚州节度使，以与晋互为策应。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "天祐九年；未记可核的具体月日，西历范围912—913年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p11",
+          "originalRevision": 1,
+          "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
+          "excerpt": "天祐九年，淮人聞莊宗有柏鄉之捷，乃以承嗣為楚州節度使，以張犄角。"
+        }
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      }
+    }
+  ]
+}

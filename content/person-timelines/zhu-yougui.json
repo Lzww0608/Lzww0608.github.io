@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhu-yougui",
+  "events": [
+    {
+      "id": "zhu-yougui-ying-king",
+      "title": "受禅后封郢王",
+      "summary": "朱温受唐禅后封朱友珪郢王，旧史注引会要记开平元年五月九日。",
+      "year": 907,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "开平元年五月九日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "郢王友珪，開平元年五月九日封，"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-control-guards",
+      "title": "任左右控鹤都指挥，管四蕃",
+      "summary": "开平四年十月加检校司徒，任左右控鹤都指挥使，兼管四蕃将军。",
+      "year": 910,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "开平四年十月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "開平四年十月，檢校司徒，充左右控鶴都指揮使，兼管四蕃將軍。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-laizhou-fear",
+      "title": "被令出任莱州，恐遭后命",
+      "summary": "朱温重病欲召朱友文，命朱友珪出莱州；他惧贬后可能赐死，和韩勍谋先发。",
+      "year": 912,
+      "sortOrder": 3,
+      "precision": "day",
+      "sourceDate": "乾化二年六月丁丑朔",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p65",
+          "originalRevision": 1,
+          "originalSha256": "87ff8c957e5fda21ce939d9aea5ad677c998713c90fb86496ba8333d1c63c71b",
+          "excerpt": "六月，丁丑朔，帝使敬翔出友珪為萊州刺史，即令之官。已宣旨，未行敕。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-kill-father",
+      "title": "与韩勍入禁中，弑杀朱温",
+      "summary": "韩勍以五百牙兵随朱友珪入宫，半夜破关，冯廷谔刺杀朱温，尸体被隐匿；随后遣使命朱友贞杀朱友文。",
+      "year": 912,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "乾化二年六月戊寅夜",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p65",
+          "originalRevision": 1,
+          "originalSha256": "87ff8c957e5fda21ce939d9aea5ad677c998713c90fb86496ba8333d1c63c71b",
+          "excerpt": "友珪僕夫馮廷諤刺帝腹，刃出於背。友珪自以敗氈裹之，瘞於寢殿，秘不發喪。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-forged-edict",
+      "title": "伪造友文谋逆诏，厚赏收众",
+      "summary": "假称朱友文入宫谋逆而友珪救父，取得权主军国名义；取府库金帛赏官军收买人心。",
+      "year": 912,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "乾化二年六月己卯",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p66",
+          "originalRevision": 1,
+          "originalSha256": "84cc1b406c18f98022898a67ceedaff2f9e5173e491fb2ee00428047ba62a104",
+          "excerpt": "韓勍為友珪謀，多出府庫金帛賜諸軍及百官以取悅。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-usurp",
+      "title": "弑父后发丧，即皇帝位",
+      "summary": "取得朱友文已死的消息后，公布朱温之丧，以伪造的遗制在柩前即皇位。新史记六月既望，《通鉴》记辛巳，旧史注引《会要》记六月三日，分别保留。",
+      "year": 912,
+      "sortOrder": 6,
+      "precision": "day",
+      "sourceDate": "新五代史乾化二年六月既望",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p46",
+          "originalRevision": 1,
+          "originalSha256": "993386872589ff9497abd203050bc0253d7647df03dff721bdce8476077efbd6",
+          "excerpt": "乾化二年六月既望，友珪於柩前即皇帝位，"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴所记即位日",
+          "sourceDate": "乾化二年六月辛巳",
+          "year": 912,
+          "summary": "在丁昭溥回报友文已死后才发丧即位。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v268",
+              "paragraphId": "tongjian-v268-p67",
+              "originalRevision": 1,
+              "originalSha256": "d0f409af802a52e61b456d4c90bab789136b0f04d175ae1a5ed2048d6b325451",
+              "excerpt": "辛巳，丁昭溥還，聞友文已死，乃發喪，宣遺制，友珪即皇帝位。"
+            }
+          ]
+        },
+        {
+          "label": "旧史注引五代会要",
+          "sourceDate": "乾化二年六月三日",
+          "year": 912,
+          "summary": "注引会要记六月三日篡位，并将凤历改元连在该叙事中，与新史翌年正月不同。",
+          "evidence": [
+            {
+              "chapterId": "old-v012",
+              "paragraphId": "old-v012-p11",
+              "originalRevision": 1,
+              "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+              "excerpt": "至乾化二年六月三日篡位，偽改鳳曆元年。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-attack-youqian",
+      "title": "老将拒服，出兵讨朱友谦",
+      "summary": "朱友谦拒召并附晋，友珪先用韩勍讨河中，九月改康怀贞为主帅；宿将即使受恩仍多不悦。",
+      "year": 912,
+      "sortOrder": 7,
+      "precision": "month",
+      "sourceDate": "乾化二年九月及其前",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p75",
+          "originalRevision": 1,
+          "originalSha256": "dfe0c5e32d59d5660f1c4ea87fd8daf5064724fc39b6cbf37ce8d7d74dfa29a4",
+          "excerpt": "九月，丁未，以感化節度使康懷貞為河中都招討使，更以韓勍副之。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-rearrange-jingxiang",
+      "title": "移敬翔为相，用李振掌崇政",
+      "summary": "惧敬翔为朱温腹心不利自己，将其调中书侍郎、同平章事，李振改掌崇政院，敬翔多病不预事。",
+      "year": 912,
+      "sortOrder": 8,
+      "precision": "day",
+      "sourceDate": "乾化二年九月庚午、壬申",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p75",
+          "originalRevision": 1,
+          "originalSha256": "dfe0c5e32d59d5660f1c4ea87fd8daf5064724fc39b6cbf37ce8d7d74dfa29a4",
+          "excerpt": "庚午，以翔為中書侍郎、同平章事，壬申，以戶部尚書李振充崇政院使。翔多稱疾不預事。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-fengli",
+      "title": "洛阳郊祀，改元凤历",
+      "summary": "次年正月在洛阳南郊祭天，改元凤历；不将旧史注的串叙据为912年已改元。",
+      "year": 913,
+      "sortOrder": 9,
+      "precision": "month",
+      "sourceDate": "乾化三年正月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p46",
+          "originalRevision": 1,
+          "originalSha256": "993386872589ff9497abd203050bc0253d7647df03dff721bdce8476077efbd6",
+          "excerpt": "三年正月，友珪祀天於洛陽南郊，改元曰鳳歷。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-death",
+      "title": "宫兵攻入，命冯廷谔杀妻与己",
+      "summary": "袁象先禁军攻入宫中，朱友珪与妻逃北垣不能逾城，命冯廷谔先杀妻再杀己，冯亦自刎。新史与通鉴列二月，旧史注记三月十七日。",
+      "year": 913,
+      "sortOrder": 10,
+      "precision": "day",
+      "sourceDate": "新史凤历元年二月；通鉴二月庚寅",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "友珪聞變，與妻張氏及馮廷諤趨北垣樓下，將逾城，自度不免，令廷諤先殺妻，次殺己，廷諤亦自剄。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p47",
+          "originalRevision": 1,
+          "originalSha256": "7591ce2c29ba20ee0968604e348f26049bdc0b491113598b99d43b1770dfcc29",
+          "excerpt": "二月，象先以禁兵入宮，友珪與妻張氏趨北垣樓下，將踰城以走，不果，使馮廷諤進刃其妻及己，廷諤亦自殺。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史注所记军乱日期",
+          "sourceDate": "三月十七日",
+          "year": 913,
+          "summary": "旧史注引会要记京城军乱三月十七日，追废为庶人。",
+          "evidence": [
+            {
+              "chapterId": "old-v012",
+              "paragraphId": "old-v012-p11",
+              "originalRevision": 1,
+              "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+              "excerpt": "三月十七日，京城軍亂，侍衛袁象先率兵入宮，友珪自殺。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-deposed-commoner",
+      "title": "末帝即位后追废庶人",
+      "summary": "朱友贞即位，恢复朱友文爵官，追废朱友珪为庶人；废号不抹去其曾实际在位。",
+      "year": 913,
+      "sortOrder": 11,
+      "precision": "year",
+      "sourceDate": "末帝即位后",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p47",
+          "originalRevision": 1,
+          "originalSha256": "7591ce2c29ba20ee0968604e348f26049bdc0b491113598b99d43b1770dfcc29",
+          "excerpt": "末帝即位，復友文官爵，廢友珪為庶人。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougui-army-inspector",
+      "title": "充诸军都虞候",
+      "summary": "乾化元年任诸军都虞候。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "乾化元年，未独任命月日；传统年跨911—912年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "乾化元年，充諸軍都虞候。"
+        }
+      ],
+      "yearRange": {
+        "start": 911,
+        "end": 912
+      }
+    },
+    {
+      "id": "zhu-yougui-birth",
+      "title": "生于亳州，幼名遥喜",
+      "summary": "父朱温与亳州女子生下他，幼名遥喜，后来迎至汴。两书分别称母为营妓、逆旅妇，不虚造母姓或确切生年。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "undated",
+      "sourceDate": "唐光启中及其后，出生确年未记",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "及期，妓以生男來告，帝喜，故字之曰遙喜。後迎歸汴。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p45",
+          "originalRevision": 1,
+          "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+          "excerpt": "庶人友珪者，太祖初鎮宣武，略地宋，亳間，與逆旅婦人野合而生也。"
+        }
+      ]
+    }
+  ]
+}

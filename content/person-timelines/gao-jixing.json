@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "personId": "gao-jixing",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "gao-jixing-nanping-prince",
+      "year": 924,
+      "sourceDate": "同光元年入朝之明年（旧史）",
+      "title": "受封南平王",
+      "summary": "后唐封南平王，受封时间采用旧史“明年”及人物纪年，不把在荆南任节度使的907年当王号起年。",
+      "evidence": [
+        {
+          "chapterId": "old-v133",
+          "paragraphId": "old-v133-p3",
+          "originalRevision": 1,
+          "originalSha256": "b35616b3cab0e829feed38b2ad29fe1704b07e3dd050e8842b21b2679e203b4c",
+          "excerpt": "明年，冊拜南平王。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "variants": [
+        {
+          "label": "新史册封纪年",
+          "sourceDate": "新史同光三年，册封未独月日；传统年跨925—926年",
+          "evidence": [
+            {
+              "chapterId": "new-v69",
+              "paragraphId": "new-v69-p6",
+              "originalRevision": 1,
+              "originalSha256": "0bd9a3f158000543d1c8d9c76e3f8d97568b830737d4c820385524ece14b95e1",
+              "excerpt": "同光三年，封南平王。"
+            }
+          ],
+          "summary": "新史晚一年记封南平王，保留这条册封纪年异说。"
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "gao-jixing-seize-shu-treasure",
+      "year": 926,
+      "sourceDate": "庄宗遇难、蜀贡物运抵峡口时",
+      "title": "截取蜀财货，杀运使",
+      "summary": "李继岌平蜀所得金帛自峡下运，京师变乱时，高季兴截留并杀韩珙等十余运使。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p6",
+          "originalRevision": 1,
+          "originalSha256": "0bd9a3f158000543d1c8d9c76e3f8d97568b830737d4c820385524ece14b95e1",
+          "excerpt": "魏王繼岌已破蜀，得蜀金帛四十餘萬，自峽而下，而莊宗之難作。季興聞京師有變，乃悉邀留蜀物，而殺其使者韓珙等十餘人。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 2
+    },
+    {
+      "id": "gao-jixing-submit-wu",
+      "year": 928,
+      "sourceDate": "乾贞二年六月（吴世家）",
+      "title": "转向吴称臣，受封秦王",
+      "summary": "以荆、归、峡三州向吴称臣，杨溥册为秦王；不是新建立在位帝号。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p7",
+          "originalRevision": 1,
+          "originalSha256": "de619a04cd070f0e32a59ab1bf9f09cdafd353bf7e98d93af8e325019239999d",
+          "excerpt": "初，唐兵伐蜀，季興請以本道兵自取夔、忠、萬、歸、峽等州，乃以季興為峽路東南面招討使，而季興未嘗出兵。魏王已破蜀，而明宗入立，季興因請夔、忠等州為屬郡，唐大臣以為季興請自取之，而兵出無功，不與。季興屢請，雖不得已而與之，而唐猶自除刺史，季興拒而不納。明宗乃以襄州劉訓為招討使，攻之，不克，而唐別將西方鄴克其夔、忠、萬三州，季興遂以荊、歸、峽三州臣于吳，吳冊季興秦王。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p36",
+          "originalRevision": 1,
+          "originalSha256": "bce4b2959b2268b42e48f0e53f61614c08629fcefe0e4209d5d3c2e8798d0565",
+          "excerpt": "二年正月，封東海為廣德王，江瀆廣源王，淮瀆長源王，馬當上水府寧江王，采石中水府定江王，金山下水府鎮江王。六月，荊南高季興來附，封季興秦王。九月，季興敗楚師於白田，獲其將吏三十四人來獻。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "month",
+      "sortOrder": 3
+    },
+    {
+      "id": "gao-jixing-chu-war",
+      "year": 928,
+      "sourceDate": "天成三年（通鉴）",
+      "title": "水军败于楚，求和",
+      "summary": "楚遣王环等攻荆南，高季兴水军在刘郎洑败，江陵受威胁，求和归还史光宪。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p40",
+          "originalRevision": 1,
+          "originalSha256": "6e72c08bf20ffa0cbb58fe4d4d528684003fc27c886eed919b4e307614ac477e",
+          "excerpt": "楚王殷如岳州，遣六軍使袁詮、副使王環、監軍馬希瞻將水軍擊荊南，高季興以水軍逆戰。至劉郎洑，希瞻夜匿戰艦數十艘於港中；詰旦，兩軍合戰，希瞻出戰艦橫擊之，季興大敗，俘斬以千數，進逼江陵。季興請和，歸史光憲於楚。軍還，楚王殷讓環不遂取荊南，環曰：「江陵在中朝及吳、蜀之間，四戰之地也，宜存之以為吾扞蔽。」殷說。環每戰，身先士卒，與從同甘苦；常置針藥於座右，戰罷，索傷者於帳前，自傅治之。士卒隸環麾下者相賀曰：「吾屬得死所矣。」故所向有功。楚大舉水軍擊漢，圍封州。漢主以《周易》筮之，遇《大有》，於是大赦，改元大有；命左右街使蘇章將神弩三千、戰艦百艘救封州。章至賀江，沉鐵絲亙於水，兩岸作巨輪挽絲亙，築長堤以隱之，伏壯士於堤中。章以輕舟逆戰，陽不利，楚人逐之，入堤中；挽輪舉緪，楚艦不能進退，以強弩夾水射之，楚兵大敗，解圍遁去。漢主以章為封州團練使。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 4
+    },
+    {
+      "id": "gao-jixing-death",
+      "year": 929,
+      "sourceDate": "天成三年十二月丙辰（通鉴）",
+      "title": "病逝，高从诲接掌军府",
+      "summary": "病重命子从诲暂主军府，十二月丙辰去世已跨西历929。吴授从诲节度使。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p8",
+          "originalRevision": 1,
+          "originalSha256": "3adcbe05f36512b966fb1bf15fcfc751e304a88c5d62393851704610692b5a7b",
+          "excerpt": "天成三年冬卒，年七十一，謚曰武信。季興子九人，長子從誨立。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p77",
+          "originalRevision": 1,
+          "originalSha256": "d74756615d5447a9cfc6821163cc8b4bac4ad9f32d159352eb99945d221a7245",
+          "excerpt": "十二月，甲辰，李敬周奏拔慶州，族竇廷琬。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p78",
+          "originalRevision": 1,
+          "originalSha256": "1020e0674d8e0c98c7c71a4d566cd79fdf82b32754c0bb8d9c34dc105fbc8bac",
+          "excerpt": "荊南節度使高季興寢疾，命其子行軍司馬、忠義節度使、同平章事從誨權知軍府事；丙辰，季興卒。吳主以從誨為荊南節度使兼侍中。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "day",
+      "sortOrder": 5
+    },
+    {
+      "id": "gao-jixing-early-service",
+      "year": null,
+      "sourceDate": "早年仕梁，主传未单记年月",
+      "title": "由家僮入朱温军中",
+      "summary": "原名季昌，曾为李让家僮，被李让收为养子、冒朱姓后任军使，逐渐升迁。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p2",
+          "originalRevision": 1,
+          "originalSha256": "5fd004c8931184edb566125e69166f3cbd56244dbd7e9ae2234f4c628539a801",
+          "excerpt": "高季興字貽孫，陝州硤石人也。本名季昌，避後唐獻袓廟諱，更名季興。季興少為汴州富人李讓家僮。梁太袓初鎮宣武，讓以入貲得幸，養為子，易其姓名曰朱友讓。季興以友讓故得進見，太袓奇其材，命友讓以子畜之，因冒姓朱氏，補制勝軍使，遷毅勇指揮使。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 6
+    },
+    {
+      "id": "gao-jixing-fengxiang",
+      "year": null,
+      "sourceDate": "天复二年，献诱敌之策与本役未独月日；传统年跨902—903年",
+      "title": "献诱敌之策攻凤翔",
+      "summary": "建议以诈报梁军退走诱李茂贞出战，选马景实施，梁军伏击岐军；马景因此牺牲。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p3",
+          "originalRevision": 1,
+          "originalSha256": "4ccdc7d42d9d008570ce0908f05c5bacda5b3c8a406541419bce5dd0962d35da",
+          "excerpt": "天復二年，梁兵攻鳳翔，李茂貞堅壁不出，太袓議欲收軍還河中，季興獨進曰：「天下豪傑窺此舉者一歲矣，今岐人已憊，破在旦夕，而大王之所慮者，閉壁以老我師，此可以誘致之也。」太袓壯其言，命季興募勇敢士，得騎士馬景，季興授以計，引見太袓。景曰：「此行無還理，願錄其後嗣。」太袓惻然止之，景固請，乃行。景以數騎馳叩城門告曰：「梁兵將東，前鋒去矣。」岐人以為然，開門出追梁軍，梁兵隨景後以進，殺其九千餘人，景死之。茂貞後與梁和，昭宗出，贈景官，謚曰忠壯。季興由是知名。明年，拜宋州刺史。從破青州，徙潁州防禦使，復姓高氏。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 7,
+      "yearRange": {
+        "start": 902,
+        "end": 903
+      }
+    },
+    {
+      "id": "gao-jixing-jingnan-command",
+      "year": null,
+      "sourceDate": "开平元年，荆南节度使正式授任未独月日；传统年跨907—908年",
+      "title": "受荆南节度使职，安抚江陵",
+      "summary": "此前任荆南留后，梁建立后正式授节度使；荆南原辖十州已被瓜分，初至只剩江陵，招集安抚士人。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p4",
+          "originalRevision": 1,
+          "originalSha256": "0f74bc10cd5cd1efd1cf6cb5f7489924905d609769e1952b00b903d855755b95",
+          "excerpt": "當唐之末，襄州趙匡凝襲破雷彥恭于荊南，以其弟匡明為留後。梁兵攻破襄州，匡凝奔于吳，匡明奔于蜀，乃以季興為荊南節度觀察留後。開平元年，拜季興節度使。二年。加同中書門下平章事。荊南節度十州，當唐之末，為諸道所侵，季興始至，江陵一城而已，兵火之後，井邑凋零。季興招緝綏撫，人士歸之，乃以倪可福、鮑唐為將帥，梁震、司空薰、王保義等為賓客。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 8,
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    },
+    {
+      "id": "gao-jixing-independence",
+      "year": null,
+      "sourceDate": "朱温卒后至贞明三年前",
+      "title": "修城自固，攻归峡与襄州失败",
+      "summary": "见梁衰弱，修城备兵；攻归峡败于蜀将，又声言援梁讨晋而侵襄州败，停止贡赋。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p5",
+          "originalRevision": 1,
+          "originalSha256": "ac76ec5eff6a3e5cf7559286643bfca5c1eb2c1e6664f0b8b3abd9b4ccc1e98e",
+          "excerpt": "太袓崩，季興見梁日以衰弱，乃謀阻兵自固，治城隍，設樓櫓。以兵攻歸、峽，為蜀將王宗壽所敗。又發兵聲言助梁擊晉，以侵襄州，為孔勍所敗，乃絕貢賦累年。梁末帝優容之，封季興渤海王，賜以衮冕劍佩。貞明三年，始復脩貢。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 912,
+        "end": 917
+      },
+      "sortOrder": 9
+    },
+    {
+      "id": "gao-jixing-resume-tribute",
+      "year": null,
+      "sourceDate": "贞明三年，恢复贡奉未独月日；传统年跨917—918年",
+      "title": "恢复向梁进贡",
+      "summary": "梁末帝容忍此前断贡，封渤海王后，开始恢复朝贡。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p5",
+          "originalRevision": 1,
+          "originalSha256": "ac76ec5eff6a3e5cf7559286643bfca5c1eb2c1e6664f0b8b3abd9b4ccc1e98e",
+          "excerpt": "太袓崩，季興見梁日以衰弱，乃謀阻兵自固，治城隍，設樓櫓。以兵攻歸、峽，為蜀將王宗壽所敗。又發兵聲言助梁擊晉，以侵襄州，為孔勍所敗，乃絕貢賦累年。梁末帝優容之，封季興渤海王，賜以衮冕劍佩。貞明三年，始復脩貢。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 10,
+      "yearRange": {
+        "start": 917,
+        "end": 918
+      }
+    },
+    {
+      "id": "gao-jixing-luoyang-audience",
+      "year": null,
+      "sourceDate": "《通鉴》同光元年十一月己未朝见、十二月丁酉归江陵；同一行程跨923—924年",
+      "title": "亲赴洛阳朝见后唐",
+      "summary": "不听梁震劝阻亲自朝见，庄宗欲留，郭崇韬劝遣还。归途夜出襄州关，免遭后来下令拘留。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p6",
+          "originalRevision": 1,
+          "originalSha256": "0bd9a3f158000543d1c8d9c76e3f8d97568b830737d4c820385524ece14b95e1",
+          "excerpt": "梁亡，唐莊宗入洛，下詔慰諭季興，司空薰等皆勸季興入朝京師，梁震以為不可，曰：「梁、唐世為仇敵，夾河血戰垂二十年，今主上新滅梁，而大王梁室故臣，握彊兵，居重鎮，以身入朝，行為虜爾。」季興不聽，留其二子，以騎士三百為衞，朝于洛陽。莊宗果欲留之，郭崇韜諫曰：「唐新滅梁得天下，方以大信示人，今四方諸侯相繼入貢，不過遣子弟將吏，而季興以身述職，為諸侯率，宜加恩禮，以諷動來者。而反縻之，示天下以不廣，且絕四方內向之意，不可。」莊宗乃止，厚禮而遣之。莊宗嘗問季興曰：「吾已滅梁，欲征吳、蜀，何者為先？」季興曰：「宜先蜀，臣請以本道兵先進。」莊宗大悅，以手拊其背，季興因命工繡其手迹於衣，歸以為榮耀。季興已去，莊宗心悔遣之，密詔襄州劉訓圖之。季興行至襄州，心動，夜斬關而出。已去，而詔書夜至。季興歸而謂梁震曰：「不聽子言，幾不免。」因曰：「吾行有二失：來朝一失，放還一失。且主上百戰以取河南，對功臣誇手抄春秋；又曰：『我於手指上得天下。』其自矜伐如此。而荒于遊畋，政事多廢，吾可無慮矣。」同光三年，封南平王。魏王繼岌已破蜀，得蜀金帛四十餘萬，自峽而下，而莊宗之難作。季興聞京師有變，乃悉邀留蜀物，而殺其使者韓珙等十餘人。"
+        },
+        {
+          "chapterId": "old-v133",
+          "paragraphId": "old-v133-p3",
+          "originalRevision": 1,
+          "originalSha256": "b35616b3cab0e829feed38b2ad29fe1704b07e3dd050e8842b21b2679e203b4c",
+          "excerpt": "及莊宗定天下，季興來朝於洛陽，加兼中書令，時論多請留之，郭崇韜以方推信義於華夏，請放歸藩，季興促程而去。至襄州，酒酣，謂孔曰：「是行有二錯：來朝一錯，放回二錯。」洎至荊南，謂賓佐曰：「新主百戰方得河南，對勛臣誇手抄《春秋》；又豎手指云：『我於指頭上得天下。』如此則功在一人，臣佐何有！且遊獵旬日不回，中外之情，其何以堪，吾高枕無憂矣。」乃增築西面羅城，備禦敵之具。時梁朝舊軍多為季興所誘，由是兵眾漸多，跋扈之志堅矣。明年，冊拜南平王。魏王繼岌平蜀，盡選其寶貨浮江而下，船至峽口，會莊宗遇禍，季興盡邀取之。明宗即位，復請夔、峽為屬郡，初俞其請，後朝廷除刺史，季興上言，稱已令子弟權知郡事，請不除刺史。不臣之狀既形，詔削奪其官爵。天成初，命西方鄴興師收復三州，又遣襄州節度使劉訓總兵圍荊南，以問其罪，屬霖潦，班師。三年冬，季興病腳氣而卒。其子從誨嗣立，累表謝罪，請修職貢。由是復季興官爵，謚曰武信。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 11,
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      }
+    },
+    {
+      "id": "gao-jixing-conflict-tang",
+      "year": null,
+      "sourceDate": "明宗即位后请求属州、拒刺史至天成二年征讨，各步骤未同标月日；保926—927年过程",
+      "title": "拒朝廷刺史，与后唐交战",
+      "summary": "索要夔忠等州获允仍不接受朝廷任命的刺史，朝廷讨伐。刘训未下江陵，西方邺收三州。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p7",
+          "originalRevision": 1,
+          "originalSha256": "de619a04cd070f0e32a59ab1bf9f09cdafd353bf7e98d93af8e325019239999d",
+          "excerpt": "初，唐兵伐蜀，季興請以本道兵自取夔、忠、萬、歸、峽等州，乃以季興為峽路東南面招討使，而季興未嘗出兵。魏王已破蜀，而明宗入立，季興因請夔、忠等州為屬郡，唐大臣以為季興請自取之，而兵出無功，不與。季興屢請，雖不得已而與之，而唐猶自除刺史，季興拒而不納。明宗乃以襄州劉訓為招討使，攻之，不克，而唐別將西方鄴克其夔、忠、萬三州，季興遂以荊、歸、峽三州臣于吳，吳冊季興秦王。"
+        },
+        {
+          "chapterId": "old-v133",
+          "paragraphId": "old-v133-p3",
+          "originalRevision": 1,
+          "originalSha256": "b35616b3cab0e829feed38b2ad29fe1704b07e3dd050e8842b21b2679e203b4c",
+          "excerpt": "及莊宗定天下，季興來朝於洛陽，加兼中書令，時論多請留之，郭崇韜以方推信義於華夏，請放歸藩，季興促程而去。至襄州，酒酣，謂孔曰：「是行有二錯：來朝一錯，放回二錯。」洎至荊南，謂賓佐曰：「新主百戰方得河南，對勛臣誇手抄《春秋》；又豎手指云：『我於指頭上得天下。』如此則功在一人，臣佐何有！且遊獵旬日不回，中外之情，其何以堪，吾高枕無憂矣。」乃增築西面羅城，備禦敵之具。時梁朝舊軍多為季興所誘，由是兵眾漸多，跋扈之志堅矣。明年，冊拜南平王。魏王繼岌平蜀，盡選其寶貨浮江而下，船至峽口，會莊宗遇禍，季興盡邀取之。明宗即位，復請夔、峽為屬郡，初俞其請，後朝廷除刺史，季興上言，稱已令子弟權知郡事，請不除刺史。不臣之狀既形，詔削奪其官爵。天成初，命西方鄴興師收復三州，又遣襄州節度使劉訓總兵圍荊南，以問其罪，屬霖潦，班師。三年冬，季興病腳氣而卒。其子從誨嗣立，累表謝罪，請修職貢。由是復季興官爵，謚曰武信。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 12,
+      "yearRange": {
+        "start": 926,
+        "end": 927
+      }
+    }
+  ]
+}

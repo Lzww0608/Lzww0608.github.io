@@ -1,0 +1,1197 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhu-youzhen",
+  "events": [
+    {
+      "id": "zhu-youzhen-birth",
+      "title": "生于东京",
+      "summary": "母张氏生下朱友贞；两史对他是朱温第三子还是第四子不同。",
+      "year": 888,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "唐文德元年九月十二日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p1",
+          "originalRevision": 1,
+          "originalSha256": "fb211b10a76a3d1bcf9fa3566ff3f1462eeab3181804a8920a6dd372f175a3f9",
+          "excerpt": "太祖第四子也。母曰元貞皇后張氏。以唐文德元年戊申歲九月十二日生於東京。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史第三子",
+          "year": 888,
+          "sourceDate": "本纪开篇未另记生年月",
+          "summary": "新史称太祖第三子，旧史第四子；不改写两书。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p1",
+              "originalRevision": 1,
+              "originalSha256": "9ef65d3255c9f11f871943d877388817906e5d7a6a978aa10312121b6e94c7ca",
+              "excerpt": "末帝，太祖第三子友貞也。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-jun-prince",
+      "title": "封均王掌天兴亲军",
+      "summary": "朱温建立后梁后，封均王，授左天兴军使，掌最亲近的卫军。",
+      "year": 907,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "太祖受禅时",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p1",
+          "originalRevision": 1,
+          "originalSha256": "fb211b10a76a3d1bcf9fa3566ff3f1462eeab3181804a8920a6dd372f175a3f9",
+          "excerpt": "太祖受禪，封均王。時太祖初置天興軍，最為親衛，以帝為左天興軍使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-tokyo-command",
+      "title": "统东京马步军",
+      "summary": "进检校司空，保留天兴军使，并任东京马步军都指挥使。",
+      "year": 910,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "开平四年夏",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p1",
+          "originalRevision": 1,
+          "originalSha256": "fb211b10a76a3d1bcf9fa3566ff3f1462eeab3181804a8920a6dd372f175a3f9",
+          "excerpt": "開平四年夏，進位檢校司空，依前天興軍使，充東京馬步軍都指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-friend-death",
+      "title": "父遇弑后任东京留守",
+      "summary": "朱友珪弑父后假传诏书命其害朱友文，继而授其东京留守、开封府尹；本条记所受命令，不额外推定杀害的执行细节。",
+      "year": 912,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "乾化二年六月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p3",
+          "originalRevision": 1,
+          "originalSha256": "15ddf9d9b521c86d7a0f383d4a90bbe38c3c1e907639d09536abbafedb396c30",
+          "excerpt": "乾化二年六月二日，庶人友珪弑逆，矯太祖詔，遣供奉官丁昭溥馳至東京，密令帝害博王友文。友珪即位，以帝為東京留守，行開封府尹，檢校司徒。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-overthrow-yougui",
+      "title": "联赵岩杨师厚策动禁军",
+      "summary": "与赵岩密谋，遣马慎交说服杨师厚，再由袁象先发动洛阳禁军；通过展示朱温画像及坑杀传言激怒东京龙骧军。",
+      "year": 913,
+      "sortOrder": 5,
+      "precision": "month",
+      "sourceDate": "凤历元年二月十五日至十七日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p3",
+          "originalRevision": 1,
+          "originalSha256": "15ddf9d9b521c86d7a0f383d4a90bbe38c3c1e907639d09536abbafedb396c30",
+          "excerpt": "帝令腹心馬慎交之魏州見師厚，且言成事之日，賜勞軍錢五十萬緡，仍許兼鎮。"
+        }
+      ],
+      "notes": [
+        "旧史正文与考异夹注对是否伪作征军诏有分歧，正式异说另列。"
+      ],
+      "variants": [
+        {
+          "label": "考异认为征军诏是真的",
+          "year": 913,
+          "sourceDate": "凤历元年二月政变前",
+          "summary": "旧史正文、新史称朱友贞伪作诏，考异引实录认为征军诏确为友珪发出，友贞只是用坑杀传言激怒兵众。",
+          "evidence": [
+            {
+              "chapterId": "old-v008",
+              "paragraphId": "old-v008-p3",
+              "originalRevision": 1,
+              "originalSha256": "15ddf9d9b521c86d7a0f383d4a90bbe38c3c1e907639d09536abbafedb396c30",
+              "excerpt": "實友珪征之，非友貞偽作，但激怒言坑之耳。"
+            },
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p6",
+              "originalRevision": 1,
+              "originalSha256": "284da97e4e53dc6846016de362b330d38e7dca8cd77db4850725c54833d58134",
+              "excerpt": "王乃偽為友珪詔書，發左右龍驤在東都者皆還洛陽"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-accession",
+      "title": "即位东京复乾化年号",
+      "summary": "袁象先杀朱友珪后奉传国宝请至洛阳即位，朱友贞坚持在东京受册，复称乾化三年并恢复朱友文官爵。",
+      "year": 913,
+      "sortOrder": 6,
+      "precision": "month",
+      "sourceDate": "乾化三年二月；两史均未记唯一即位日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p5",
+          "originalRevision": 1,
+          "originalSha256": "b28554c659a7781b48ed4be89e59c3f91405d652c23e0b0633541d6d00faf922",
+          "excerpt": "是月，帝即位於東京，乃去珪曆之號，稱乾化三年。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p6",
+          "originalRevision": 1,
+          "originalSha256": "284da97e4e53dc6846016de362b330d38e7dca8cd77db4850725c54833d58134",
+          "excerpt": "象先遣趙巖持傳國寶至東都，請王入洛陽，王報曰：「夷門，太祖所以興王業也，北拒并汾，東至淮海，國家藩鎮，多在東方，命將出師，利於便近。」是月，皇帝即位於東都，〈即位大事，失其日而書「是月」，見亂之甚。「於東都」，終上文也。〉復稱乾化三年，復博王友文官爵。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-rename-huang",
+      "title": "更名鍠",
+      "summary": "颁制将姓名由朱友贞改为朱鍠，解释为祭祀文辞、易于避讳等考虑。",
+      "year": 913,
+      "sortOrder": 7,
+      "precision": "day",
+      "sourceDate": "乾化三年三月丁未",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p7",
+          "originalRevision": 1,
+          "originalSha256": "8a729f5349950622e45069785a3660d16460571f4fe0ab32cae879fd9f0fecbb",
+          "excerpt": "宜改名鍠。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-reward-founders",
+      "title": "重赏杨师厚袁象先",
+      "summary": "即位后封杨师厚为邺王，任袁象先兼开封尹、掌京城马步诸军，以奖拥立。",
+      "year": 913,
+      "sortOrder": 8,
+      "precision": "month",
+      "sourceDate": "乾化三年三月庚戌、四月癸未",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p7",
+          "originalRevision": 1,
+          "originalSha256": "8a729f5349950622e45069785a3660d16460571f4fe0ab32cae879fd9f0fecbb",
+          "excerpt": "楊師厚為檢校太師，兼中書令，進封鄴王。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p8",
+          "originalRevision": 1,
+          "originalSha256": "0440061f13bce3276a4693636c33140b27e4b84e3668e0e2c10e7cc6536c3d30",
+          "excerpt": "開封尹、判在京馬步諸軍事，進封開國公，增食邑一千戶。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-xu-rebellion",
+      "title": "命讨不受代的蒋殷",
+      "summary": "蒋殷不肯由朱友璋接镇徐州，削其官爵、复其本姓，命牛存节、刘鄩等讨伐，击退吴国援军；新史起乱纪月不同。",
+      "year": 914,
+      "sortOrder": 9,
+      "precision": "month",
+      "sourceDate": "旧史乾化四年九月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p19",
+          "originalRevision": 1,
+          "originalSha256": "bc824792bf15e6b4ef3ab71f7d608e0ede711b1cfb76f7aa6f5300ae0dbb7979",
+          "excerpt": "九月，徐州節度使王殷反。時朝廷以福王友璋鎮徐方，殷不受代，乃下詔削奪殷在身官爵，仍令卻還本姓蔣，便委友璋及天平軍節度使牛存節、開封尹劉鄩等進軍攻討。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史四月起乱",
+          "year": 914,
+          "sourceDate": "乾化四年夏四月",
+          "summary": "新史在四月记蒋殷反叛，旧史九月记不受代。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p11",
+              "originalRevision": 1,
+              "originalSha256": "2a3cf57e9d6ba7c0d5342cc2d2cb6e2a005abdba36313c0a487b0ff3e6cc2ada",
+              "excerpt": "四年夏四月丁丑，貶于兢為萊州司馬。武寧軍節度使蔣殷反，天平軍節度使牛存節討之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-xu-conquest",
+      "title": "收复徐州",
+      "summary": "牛存节、刘鄩攻下徐州，蒋殷全家自焚，命朱友璋赴镇。",
+      "year": 915,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "乾化五年即贞明元年春",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p21",
+          "originalRevision": 1,
+          "originalSha256": "785320c26771d994649ad1d45cd1c39365354d6ba861df2f166f2bff48124037",
+          "excerpt": "貞明元年春，牛存節、劉鄩拔徐州，逆賊將殷舉族自燔而死，於火中得其屍，梟首以獻。詔福王友璋赴鎮。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-divide-weibo",
+      "title": "杨师厚卒后拆分魏博",
+      "summary": "采纳赵岩、邵赞削弱强藩的建议，把魏博六州分为魏州天雄与相州昭德两镇，任贺德伦和张筠，调刘鄩军驻河朔。",
+      "year": 915,
+      "sortOrder": 11,
+      "precision": "month",
+      "sourceDate": "乾化五年三月；旧史沿贞明元年编年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p24",
+          "originalRevision": 1,
+          "originalSha256": "cbefb9225e95a91bc12a3971f702fb7597bcf88812090a3518a9c7fbf6e68bdc",
+          "excerpt": "帝曰：「善。」即以平盧軍節度使賀德倫為天雄軍節度使，遣劉鄩率兵六萬屯河朔。"
+        }
+      ],
+      "notes": [
+        "相、澶、卫另建昭德军的具体分割诏见同一完整段。"
+      ]
+    },
+    {
+      "id": "zhu-youzhen-weibo-lost",
+      "title": "拒恢复魏博引其投晋",
+      "summary": "魏博军因军人与家属分迁而作乱，朱友贞遣诏安抚但三拒改回分镇决定；张彦迫贺德伦向晋王求援，魏州转入晋国。",
+      "year": 915,
+      "sortOrder": 12,
+      "precision": "month",
+      "sourceDate": "乾化五年三月至六月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p26",
+          "originalRevision": 1,
+          "originalSha256": "f4284cb8df93fb44ceb86dff959523be218ef2c844b081a1b92dbb083a4aaa1f",
+          "excerpt": "帝復遣諭曰：「製置已定，不可改易。」如是者三。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p25",
+          "originalRevision": 1,
+          "originalSha256": "9d58cd1743d897630da977d72d623cd69b08bc1090113589a4e82a2451ba71ae",
+          "excerpt": "詔以魏州軍兵之半隸於相州，並徙其家焉。"
+        }
+      ],
+      "notes": [
+        "本段末“天祐十三年”与本纪当年对应不合，不以该孤句换算年份。"
+      ]
+    },
+    {
+      "id": "zhu-youzhen-youzi-coup",
+      "title": "平康王朱友孜宫变",
+      "summary": "朱友孜党人入寝宫，朱友贞挥剑脱险，朱友孜被诛；夹注关于剑的传说保留其引述归属。",
+      "year": 915,
+      "sortOrder": 13,
+      "precision": "day",
+      "sourceDate": "乾化五年十月辛亥",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p33",
+          "originalRevision": 1,
+          "originalSha256": "20f3a6dc2b37b2cbcfb0700d9e8bbdd75738d695a7b6d8de7846268af7b5b20e",
+          "excerpt": "冬十月辛亥，康王友孜謀反，伏誅。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-zhenming",
+      "title": "改元贞明",
+      "summary": "将乾化五年改为贞明元年；新史同时说该年又更名瑱，但失记月日。",
+      "year": 915,
+      "sortOrder": 14,
+      "precision": "day",
+      "sourceDate": "乾化五年十一月乙丑",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p34",
+          "originalRevision": 1,
+          "originalSha256": "0dcea9c822852d0d442c461710b45482c3c6ae0acc37759b91dbfd09087518cd",
+          "excerpt": "十一月乙丑，改乾化五年為貞明元年。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p17",
+          "originalRevision": 1,
+          "originalSha256": "5579e8567564fbeb5ff49caf0380f72186fd918115ada95db9a065d60a126015",
+          "excerpt": "是歲，更名瑱。〈舊史失其月日。〉"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-attack-taiyuan",
+      "title": "命王檀等袭晋阳未克",
+      "summary": "命王檀、谢彦章、王彦章从阴地关至晋阳攻击，未能攻克，军队返回。",
+      "year": 916,
+      "sortOrder": 15,
+      "precision": "month",
+      "sourceDate": "贞明二年二月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p38",
+          "originalRevision": 1,
+          "originalSha256": "0ace5b8b03963bc154b21edca1ec268c80febee2d3748210b3b583f30c53f870",
+          "excerpt": "是月，命許州節度使王檀、河陽節度使謝彥章、汝州防禦使王彥章率師自陰地關抵晉陽，急攻其壘，不克而還。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-yuancheng-defeat",
+      "title": "促刘鄩决战而元城惨败",
+      "summary": "因军粮不足与河朔危急反复催刘鄩出战，刘鄩误信晋王回太原，至旧元城决战大败，逃滑州；晋军继续取卫、惠等州。",
+      "year": 916,
+      "sortOrder": 16,
+      "precision": "month",
+      "sourceDate": "贞明二年三月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p39",
+          "originalRevision": 1,
+          "originalSha256": "32ec04ae7ff65bb319f3694a0d5c548513c87780e9ef4a952e0251139db14b6f",
+          "excerpt": "帝不悅，復遣促戰。"
+        }
+      ],
+      "notes": [
+        "战败和催战因果的详细叙事见本段完整原译；不是朱友贞本人领兵到元城。"
+      ]
+    },
+    {
+      "id": "zhu-youzhen-li-ba-revolt",
+      "title": "杜晏球平宫城附近军乱",
+      "summary": "派捉生军戍杨刘，李霸军夜间折返京城烧建国门，杜晏球率骑击败并诛其党，保住宫城。",
+      "year": 916,
+      "sortOrder": 17,
+      "precision": "day",
+      "sourceDate": "旧史贞明二年四月癸卯夜",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p40",
+          "originalRevision": 1,
+          "originalSha256": "4055841adf7a1566123297fab9f7592a00715de0fccb89b676fbba4c03914a6e",
+          "excerpt": "癸卯夜，捉生都將李霸作亂，龍驤都將杜晏球討平之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史叙三月",
+          "year": 916,
+          "sourceDate": "贞明二年三月",
+          "summary": "新史将李霸之反与伏诛附在三月军情后，旧史明确四月癸卯夜。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p20",
+              "originalRevision": 1,
+              "originalSha256": "53c7699b975694251ca85cf9e2290ed3b4425188f57b992947f0d03ae879d9b0",
+              "excerpt": "捉生都將李霸反，伏誅。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-hebei-loss",
+      "title": "河朔诸镇接连失守",
+      "summary": "援邢州的张温投晋，张筠弃相州、阎宝献邢州，戴思远弃沧州，贝州陷落；梁在河北的防线大幅收缩。",
+      "year": 916,
+      "sortOrder": 18,
+      "precision": "month",
+      "sourceDate": "贞明二年六月至九月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p42",
+          "originalRevision": 1,
+          "originalSha256": "55fadf53ada82f49cb4536f0a5a11adc3c7da8665585429d45ccd8c5f35bcbf8",
+          "excerpt": "溫率眾降於晉人。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p43",
+          "originalRevision": 1,
+          "originalSha256": "fdbe6119de088cba55f2d126da1e40f0679196941cdcfe7fe89c1e31ddbe0c52",
+          "excerpt": "邢州節度使閻寶以城降於晉王。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p45",
+          "originalRevision": 1,
+          "originalSha256": "1d1eed9ad431e54bdc5f4a494be5d1d631007ea8568d0fde6ef944a14091de00",
+          "excerpt": "滄州節度使戴思遠棄城來奔，晉人陷貝州。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-liao-envoy",
+      "title": "遣刘璩出使契丹",
+      "summary": "任刘璩为契丹宣谕使，寻求北方外交接触；未将遣使直接写成已经缔结同盟。",
+      "year": 917,
+      "sortOrder": 19,
+      "precision": "day",
+      "sourceDate": "贞明三年四月辛卯",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p5",
+          "originalRevision": 1,
+          "originalSha256": "c5f44566cf67699ab21b431b7ecd370d664471844a05715f0903c793739cac00",
+          "excerpt": "辛卯，以右千牛衛大將軍劉璩充契丹宣諭使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-failed-sacrifice",
+      "title": "赴洛阳谋郊祭而因军情停止",
+      "summary": "不采敬翔以财政空竭、敌军逼境为由的劝阻，赴洛阳准备郊祭；闻晋取杨刘及道路讹言后取消，回东京。",
+      "year": 918,
+      "sortOrder": 20,
+      "precision": "month",
+      "sourceDate": "贞明三年十二月己巳至四年正月；均西历918年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p13",
+          "originalRevision": 1,
+          "originalSha256": "5e158f1d7dbf3530f54e297b77d5f0b19cea62302bd684514f73fc13797a4003",
+          "excerpt": "己巳，帝幸洛陽，為來年有事於南郊也。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p30",
+          "originalRevision": 1,
+          "originalSha256": "2334dfe18cefe79c5352c8a495b1653cf04b31b0ab2da5caa32cca6fd44d19b5",
+          "excerpt": "四年正月，不克郊，己卯，至自西都。"
+        }
+      ],
+      "notes": [
+        "旧史同段记停止后急归，新史将回东京独立记于正月；两书原月序保留。"
+      ]
+    },
+    {
+      "id": "zhu-youzhen-yangliu",
+      "title": "命谢彦章攻杨刘失败",
+      "summary": "派谢彦章数万军逼杨刘，晋王来援，梁军不利而退。",
+      "year": 918,
+      "sortOrder": 21,
+      "precision": "month",
+      "sourceDate": "贞明四年二月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p16",
+          "originalRevision": 1,
+          "originalSha256": "c01fdb9e9873a131996cda7a3647bd12dab47207ae551762a5f292b11303cafd",
+          "excerpt": "二月，遣將謝彥章帥眾數萬迫楊劉城。甲子，晉王來援楊劉城，彥章之軍不利而退。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-reward-zhu-gui",
+      "title": "贺瑰杀谢彦章后奖励朱珪",
+      "summary": "谢彦章等被贺瑰以谋叛名义杀死，旧史指出朱珪构陷；朱友贞诏中仍表彰朱珪、授平卢军等职。",
+      "year": 919,
+      "sortOrder": 22,
+      "precision": "month",
+      "sourceDate": "贞明四年十二月庚子至癸丑；实际西历919年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p26",
+          "originalRevision": 1,
+          "originalSha256": "e62ae402c0e7a6b48b3ba3c64a47ace0b828f8b49a0017ec2180e2f243ca08fb",
+          "excerpt": "北面招討使賀瑰殺許州節度使謝彥章、濮州刺史孟審澄、別將侯溫裕等於軍，以謀叛聞，為行營馬步都虞候朱珪構之也。"
+        }
+      ],
+      "notes": [
+        "构陷是史书正文判断；朝廷褒奖用语不是证实三将谋叛。"
+      ]
+    },
+    {
+      "id": "zhu-youzhen-huliu",
+      "title": "胡柳先胜后败京城戒严",
+      "summary": "贺瑰在胡柳陂先使晋军溃乱、周德威战死，但再战梁军败，次日晋取濮阳，东京戒严。",
+      "year": 919,
+      "sortOrder": 23,
+      "precision": "day",
+      "sourceDate": "贞明四年十二月癸亥；实际西历919年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p26",
+          "originalRevision": 1,
+          "originalSha256": "e62ae402c0e7a6b48b3ba3c64a47ace0b828f8b49a0017ec2180e2f243ca08fb",
+          "excerpt": "癸亥，北面招討使賀瑰率大軍與晉人戰於胡柳陂，晉人敗績。是日既晡，復為晉人所敗。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-desheng",
+      "title": "德胜攻战失败并更换主帅",
+      "summary": "贺瑰四月攻德胜南城失败，八月卒后命王瓒为北面招讨使，继续黄河争夺。",
+      "year": 919,
+      "sortOrder": 24,
+      "precision": "month",
+      "sourceDate": "贞明五年四月、八月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p31",
+          "originalRevision": 1,
+          "originalSha256": "e02acd4c148101ce3a682d9bfd322bba6b4206c0479f4a993be35783b8638acb",
+          "excerpt": "晉人斷其艨艟，濟軍以援南城，瑰等退軍。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p35",
+          "originalRevision": 1,
+          "originalSha256": "51cd88aad9952fd4ae710ad6efc2999fa8bd618cd159b4434ca8688bc6e6cb36",
+          "excerpt": "是月，命開封尹王瓚為北面行營招討使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-recover-yanzhou",
+      "title": "刘鄩克兖州后得赏",
+      "summary": "命刘鄩讨张守进，十月攻克兖州，张被灭族，十一月授刘鄩兖州节度使等职。",
+      "year": 919,
+      "sortOrder": 25,
+      "precision": "month",
+      "sourceDate": "贞明五年三月、十月至十一月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p30",
+          "originalRevision": 1,
+          "originalSha256": "10c22a9ce3f93f07ece6cf6f2753f7969a24f0519919bcc01e0d9f6454baec86",
+          "excerpt": "仍命劉鄩為兗州管內安撫製置使，領兵以攻之。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p37",
+          "originalRevision": 1,
+          "originalSha256": "2b3ef356f759e233c9ba561dbaa7be012cd44f97de59a88c6feafea28ff1c49a",
+          "excerpt": "是月，劉鄩攻下兗州，擒張守進，夷其族。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p38",
+          "originalRevision": 1,
+          "originalSha256": "65a8a7ed884babbc1e3706c9c85a7c10ba5364d6ecdcceedb3dedea3cc1447f2",
+          "excerpt": "十一月丁丑，以兗州安撫製置使、特進、檢校太傅、大彭郡開國公劉鄩為兗州節度使、開府儀同三司、檢校太尉、同平章事，賞平兗之功也。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史任讨兖叙次",
+          "sourceDate": "贞明四年是岁，附年末；原书未记任命月日",
+          "summary": "新史将任刘鄩兖州安抚制置使列于贞明四年年末，称旧史失其月日；当前旧史辑本却明载贞明五年三月，保留任命叙次分歧，不以跨西历年的年号年强定另一单年。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p32",
+              "originalRevision": 1,
+              "originalSha256": "d8e028700cf355cc2b4780d9e6efdbc4000f214e0aba2e66514209bb402bc70d",
+              "excerpt": "是歲，泰寧軍節度使張守進叛附于晉，亳州團練使劉鄩為兗州安撫制置使以討之。〈舊史不書，亡其月日，故書于歲末，為明年克兗州張本。〉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-relief-tax",
+      "title": "减刑并免战区欠税",
+      "summary": "因战事与民困，颁减死罪、徒流降等诏，并免三十二州欠夏秋税及七州营田欠额，禁止官吏拖延恩泽。",
+      "year": 920,
+      "sortOrder": 26,
+      "precision": "day",
+      "sourceDate": "贞明六年四月己亥",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p3",
+          "originalRevision": 1,
+          "originalSha256": "50aeeeab7a15cf85d8cfa3bf91df7700a9fa09703a96022686db9d284293c1d2",
+          "excerpt": "夏四月己亥，制曰："
+        },
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p4",
+          "originalRevision": 1,
+          "originalSha256": "861425eda42884db764310b371f5fe50a9379fd0477e098917d4a593dfc92ed9",
+          "excerpt": "所在官吏，不得淹停制命，征督下民，致恩澤不及於鄉閭，租稅虛捐於帳籍。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-petition-boxes",
+      "title": "置匦院收进言",
+      "summary": "同意朱守素建议，依前朝设置匦院，由谏议大夫专判，任郑韬光为知匦使。",
+      "year": 920,
+      "sortOrder": 27,
+      "precision": "day",
+      "sourceDate": "贞明六年四月庚子",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p5",
+          "originalRevision": 1,
+          "originalSha256": "bf51a261a98655f2fe8e3eb27a0fa5437c36a28cd2d3d52467dbfb8cc5a5e8dd",
+          "excerpt": "庚子，宗正卿朱守素上言：「請依前朝置匭院，令諫議大夫專判。」從之，乃以右諫議大夫鄭韜光充知匭使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-tongzhou-rebellion",
+      "title": "朱友谦据同州转附晋",
+      "summary": "朱友谦攻占同州后求为其子授节度使，先被拒；朱友贞改许其兼镇时已来不及，遂命刘鄩等进讨，九月为晋援军所败。",
+      "year": 920,
+      "sortOrder": 28,
+      "precision": "month",
+      "sourceDate": "贞明六年四月至九月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p7",
+          "originalRevision": 1,
+          "originalSha256": "62d3c1de382196ecce6f41438f91379622ca587675b1403cc082550e39d1c61b",
+          "excerpt": "既而帝慮友謙怨望，遂命兼鎮同州，制命將下而友謙已叛，遣使求援於晉，故命將討之。"
+        },
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p8",
+          "originalRevision": 1,
+          "originalSha256": "7b2d9b393078b4773dd4539e958ce0bc27f3980030752556caefba40eea2eb2a",
+          "excerpt": "我師敗績，諸將以餘眾退保華州羅文寨。"
+        }
+      ],
+      "notes": [
+        "程全晖结局旧史逃京、新史被杀，正式异说另列。"
+      ],
+      "variants": [
+        {
+          "label": "新史程全晖被杀",
+          "year": 920,
+          "sourceDate": "贞明六年夏四月",
+          "summary": "旧史记程全晖单骑逃京，新史记朱友谦杀程全晖。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p39",
+              "originalRevision": 1,
+              "originalSha256": "0c3704ad0c1ac30780f4d055addb71631c85379ff1d7b10783216909e57c92a7",
+              "excerpt": "河中節度使朱友謙襲同州，殺其節度使程全暉，叛附于晉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-wu-yi",
+      "title": "镇压陈颍蔡上乘起事",
+      "summary": "毋乙被拥为天子，州军讨捕不利，朝廷发禁军及郡兵联合追击，俘获八十余首领斩于都市。",
+      "year": 920,
+      "sortOrder": 29,
+      "precision": "month",
+      "sourceDate": "贞明六年秋至十月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p9",
+          "originalRevision": 1,
+          "originalSha256": "1788660d5d0e2c3185c9e9be398417b8d28234f3c9c55f00989624fb43e7ab49",
+          "excerpt": "至是，發禁軍及數郡兵合勢追擊，賊潰，生擒毋乙等首領八十餘人，械送闕下，並斬於都市。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-historical-records",
+      "title": "征集家传与公务资料修史",
+      "summary": "同意史馆征内外百官、皇亲功臣家传及旧公事章疏，要求实录少文饰，核对中书文案后入史。",
+      "year": 921,
+      "sortOrder": 30,
+      "precision": "day",
+      "sourceDate": "龙德元年二月壬申",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p12",
+          "originalRevision": 1,
+          "originalSha256": "7a2d0b8d8ee4d3671c60ad0d02aa5ccc25b5397effddd41a2130b96e4ab0c6f4",
+          "excerpt": "如記得前朝會昌已後公私，亦任抄錄送官，皆須直書，不用文藻。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-zhang-wenli",
+      "title": "拒张文礼请求援军",
+      "summary": "张文礼弑王镕后派使求援，敬翔主张应允，赵岩等反对，朝廷最终没有派援军。",
+      "year": 921,
+      "sortOrder": 31,
+      "precision": "month",
+      "sourceDate": "龙德元年二月；新史记春",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p12",
+          "originalRevision": 1,
+          "originalSha256": "7a2d0b8d8ee4d3671c60ad0d02aa5ccc25b5397effddd41a2130b96e4ab0c6f4",
+          "excerpt": "是月，鎮州大將王德明殺其帥王熔，自稱留後，遣使來求援。宰臣敬翔請許之，租庸使趙岩等以為不可，乃止。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-ordination",
+      "title": "限制私度僧尼",
+      "summary": "禁私自度僧尼和妄求师号紫衣，要求赴京比试、领度牒；允许自愿还俗者自行决定。",
+      "year": 921,
+      "sortOrder": 32,
+      "precision": "day",
+      "sourceDate": "龙德元年三月丁亥朔",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p13",
+          "originalRevision": 1,
+          "originalSha256": "2f42292d610bd31efd4388b12c8c720732f5b383b898387b3ee85a35d566bad3",
+          "excerpt": "請禁天下私度僧尼，及不許妄求師號紫衣。如願出家受戒者，皆須赴闕比試藝業施行，願歸俗者一聽自便。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-youneng-rebellion",
+      "title": "命讨惠王朱友能",
+      "summary": "朱友能由陈州出兵向京师，朝廷击败后命张汉杰进讨；受兵损的京畿三县仅按实存庄稼收夏税。",
+      "year": 921,
+      "sortOrder": 33,
+      "precision": "month",
+      "sourceDate": "旧史龙德元年四月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p14",
+          "originalRevision": 1,
+          "originalSha256": "7167be188604081373d3c04ecfe39e2c72881b2b6ce71c1b4f35a9ea92efbe99",
+          "excerpt": "夏四月，陳州刺史惠王友能反，舉兵向闕。帝命將出師逆擊，敗之。友能走保陳州，詔張漢傑率兵進討。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史三月起乱",
+          "year": 921,
+          "sourceDate": "龙德元年三月",
+          "summary": "新史将朱友能反记在三月，旧史记四月起兵向阙。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p44",
+              "originalRevision": 1,
+              "originalSha256": "b074428be2d195bf970baa3caac19fc243a245f7980f4719f02a3dada15198d3",
+              "excerpt": "三月丁亥朔，禁私度僧尼。陳州刺史惠王友能反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-longde",
+      "title": "罪己改元龙德并宽赋息债",
+      "summary": "诏中因战事灾荒罪己，改贞明七年为龙德元年，减刑免欠税、约束利上生利，并赏军和追赠阵亡者。",
+      "year": 921,
+      "sortOrder": 34,
+      "precision": "day",
+      "sourceDate": "贞明七年五月丙戌朔",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p16",
+          "originalRevision": 1,
+          "originalSha256": "9496e4c8b80ac10834cee621a3051808a289eac86754323b7fb20ad87fcbcde4",
+          "excerpt": "其貞明七年，宜改為龍德元年，應天下見禁罪人，除大辟罪外，遞減一等。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-youneng-amnesty",
+      "title": "赦友能降房陵侯",
+      "summary": "朱友能投降后援引议亲律予以宽免，只降为房陵侯，未处死。",
+      "year": 921,
+      "sortOrder": 35,
+      "precision": "day",
+      "sourceDate": "龙德元年七月庚子",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p19",
+          "originalRevision": 1,
+          "originalSha256": "0abe34dd890a30e1f3dd34f014633184c62a1f48b41ff9a8ea7bf8d6062f03b1",
+          "excerpt": "特施貸法之恩，蓋舉議親之律。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-qicheng",
+      "title": "戴思远戚城战败",
+      "summary": "命北面招讨使戴思远攻德胜北城，晋军来援，梁军败于戚城。",
+      "year": 921,
+      "sortOrder": 36,
+      "precision": "month",
+      "sourceDate": "龙德元年十月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p20",
+          "originalRevision": 1,
+          "originalSha256": "bdd8d3bebc670bf184c33a201a8e96f679702f9e47ac96fd5b3cd985fdb658c0",
+          "excerpt": "冬十月，北面招討使戴思遠攻德勝寨之北城，晉人來援，思遠敗於戚城。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-weicheng",
+      "title": "袭魏州再攻德胜",
+      "summary": "趁晋王攻镇州，戴思远袭魏州取成安，攻德胜北城；晋王二月救援后梁军退回杨村。",
+      "year": 922,
+      "sortOrder": 37,
+      "precision": "month",
+      "sourceDate": "龙德二年正月至二月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p22",
+          "originalRevision": 1,
+          "originalSha256": "0c5e2f0399b348eec035d2974663b8f91eb5c482a7688fa0057398e6154eb609",
+          "excerpt": "龍德二年春正月，戴思遠率師襲魏州。"
+        },
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p23",
+          "originalRevision": 1,
+          "originalSha256": "991145d26df846b770cf05c96579c7a9fd6b3c9b720a7386b37fbd87666a8e85",
+          "excerpt": "二月，晉王以兵至，思遠收軍而退，復保楊村。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-weisupply",
+      "title": "收卫州并夺晋军储",
+      "summary": "段凝、张朗攻下卫州，戴思远连取淇门、共城、新乡，旧史称晋军失三分之一军储。",
+      "year": 922,
+      "sortOrder": 38,
+      "precision": "month",
+      "sourceDate": "龙德二年八月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p24",
+          "originalRevision": 1,
+          "originalSha256": "bb7bbfcc557d1c83a5796d41f31646d9872bdcf73c686ec554b2d7d493e52064",
+          "excerpt": "八月，段凝、張朗攻衛州，下之，獲刺史李存儒以獻。戴思遠又下淇門、共城、新鄉等三縣。自是澶州之西、相州之南，皆為梁有，晉人失軍儲三分之一焉。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-jitao",
+      "title": "接受李继韬潞州归附",
+      "summary": "李继韬囚兄后献潞州并送幼子为质，裴约不从，朱友贞任董璋攻泽州。",
+      "year": 923,
+      "sortOrder": 39,
+      "precision": "month",
+      "sourceDate": "龙德三年三月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p26",
+          "originalRevision": 1,
+          "originalSha256": "56bf41ff08e952cf2ed43597a76ec670e65b370d60364694b9ce106e108732e9",
+          "excerpt": "澤州刺史裴約不從繼韜之謀，帝命董璋為澤州刺史，令將兵攻之。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-yuncheng-loss",
+      "title": "郓州失守诛逃将",
+      "summary": "唐军袭下郓州，逃回京师的刘遂严、燕颙被处死。",
+      "year": 923,
+      "sortOrder": 40,
+      "precision": "day",
+      "sourceDate": "龙德三年闰四月壬寅",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p28",
+          "originalRevision": 1,
+          "originalSha256": "c4ed5043715ca831b50d710fd8e37576a254c3371f4c9da68e3603de0dc7c813",
+          "excerpt": "閏月壬寅，唐軍襲鄆州，陷之。巡檢使前陳州刺史劉遂嚴，本州都指揮使燕顒奔歸京師，皆斬於都市。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-wang-yanzhang",
+      "title": "任王彦章招讨取德胜南城",
+      "summary": "任王彦章为北面行营招讨使，水军断浮桥、取德胜南城，促使唐军合兵杨刘，但后续攻新垒失败。",
+      "year": 923,
+      "sortOrder": 41,
+      "precision": "month",
+      "sourceDate": "龙德三年五月至六月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p29",
+          "originalRevision": 1,
+          "originalSha256": "78655d0581486d41c184a4399caf9b3bd1932fb960403bad0423d601f74df31e",
+          "excerpt": "五月，以滑州節度使王彥章為北面行營招討使。"
+        },
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p29",
+          "originalRevision": 1,
+          "originalSha256": "78655d0581486d41c184a4399caf9b3bd1932fb960403bad0423d601f74df31e",
+          "excerpt": "辛酉，王彥章率舟師自楊村寨浮河而下，斷德勝之浮梁。攻南城，下之，殺數十人。"
+        },
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p30",
+          "originalRevision": 1,
+          "originalSha256": "8c23b1020198658139c025e5130181933fbc7bf798203aa1a967c410d15084ec",
+          "excerpt": "戊子，王彥章、杜晏球率兵急攻博州之新壘，不克，遂退保於鄒口。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-duan-command",
+      "title": "段凝代主帅康延孝泄军机",
+      "summary": "八月以段凝代王彦章；康延孝率百骑投唐并泄军机，梁另命王彦章屯郓州东境。",
+      "year": 923,
+      "sortOrder": 42,
+      "precision": "month",
+      "sourceDate": "龙德三年八月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p32",
+          "originalRevision": 1,
+          "originalSha256": "2fb93379f0173f0e09574318efb47976dc09ae9814b822d78c8746cf3989b034",
+          "excerpt": "八月，以段凝代王彥章為北面行營招討使。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-zhongdu",
+      "title": "中都大败危及东京",
+      "summary": "王彦章军于中都被唐军击溃，将领、监军多人被俘，王彦章次日死于任城；唐军遂长驱东京。",
+      "year": 923,
+      "sortOrder": 43,
+      "precision": "day",
+      "sourceDate": "龙德三年十月甲戌",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p34",
+          "originalRevision": 1,
+          "originalSha256": "9e06e55cddb7de8b321e82f078a54990f4b1216c6a2146776e6de5dcd9daa3cc",
+          "excerpt": "甲戌，唐帝引師襲中都，王彥章兵潰，於是彥章與監軍張漢傑及趙廷隱、劉嗣彬、李知節、唐文通、王山興等皆為唐人所獲。翌日，彥章死於任城。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-last-defense",
+      "title": "急召段凝并令王瓒守城",
+      "summary": "召段凝的张汉伦坠马又阻于水潦，禁军仍有四千人却未采朱圭出战建议；命王瓒驱军民守城，西逃建议也遭赵岩阻止。",
+      "year": 923,
+      "sortOrder": 44,
+      "precision": "year",
+      "sourceDate": "龙德三年十月中都败后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p34",
+          "originalRevision": 1,
+          "originalSha256": "9e06e55cddb7de8b321e82f078a54990f4b1216c6a2146776e6de5dcd9daa3cc",
+          "excerpt": "時禁軍尚有四千人，朱圭請以拒唐軍，帝不從，登建國門召開封尹王瓚，謂之曰：「段凝未至，社稷係卿方略。」瓚即驅軍民登城為備。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-death",
+      "title": "命皇甫麟结束生命",
+      "summary": "唐军迫近、传国宝被左右窃走，朱友贞不愿落入敌手，命皇甫麟杀死自己；皇甫麟随后自杀，次晨东京降唐。",
+      "year": 923,
+      "sortOrder": 45,
+      "precision": "day",
+      "sourceDate": "龙德三年十月戊寅夕",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p34",
+          "originalRevision": 1,
+          "originalSha256": "9e06e55cddb7de8b321e82f078a54990f4b1216c6a2146776e6de5dcd9daa3cc",
+          "excerpt": "戊寅夕，麟進刃於建國樓之廊下，帝崩。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-first-burial",
+      "title": "唐收葬梁末帝",
+      "summary": "李存勖入东京后，命张全义收葬朱友贞，首级被藏太社。",
+      "year": 923,
+      "sortOrder": 46,
+      "precision": "year",
+      "sourceDate": "唐庄宗入东京后",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p35",
+          "originalRevision": 1,
+          "originalSha256": "c0007bfabb5805d686c30de90d59a6aa593d68adc02acd10c4e3c170de1003f0",
+          "excerpt": "尋詔河南尹張全義收葬之，其首藏於太社。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-head-reburial",
+      "title": "晋朝归葬首级",
+      "summary": "后晋准亲属旧僚收葬太社所藏首级，娄继英请领而获罪，最后命安崇阮收葬。",
+      "year": 937,
+      "sortOrder": 47,
+      "precision": "month",
+      "sourceDate": "后晋天福二年五月",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p35",
+          "originalRevision": 1,
+          "originalSha256": "c0007bfabb5805d686c30de90d59a6aa593d68adc02acd10c4e3c170de1003f0",
+          "excerpt": "晉天福二年五月，詔太社先藏唐朝罪人首級，許親屬及舊僚收葬。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-youzhen-first-office",
+      "title": "授河南府参军",
+      "summary": "称帝以前最早的本纪官职为河南府参军。",
+      "year": null,
+      "sortOrder": 48,
+      "precision": "range",
+      "sourceDate": "唐光化三年，河南府参军授任未独月日；传统年跨900—901年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p1",
+          "originalRevision": 1,
+          "originalSha256": "fb211b10a76a3d1bcf9fa3566ff3f1462eeab3181804a8920a6dd372f175a3f9",
+          "excerpt": "唐光化三年，授河南府參軍。"
+        }
+      ],
+      "yearRange": {
+        "start": 900,
+        "end": 901
+      }
+    },
+    {
+      "id": "zhu-youzhen-rename-zhen",
+      "title": "再次更名为瑱",
+      "summary": "新史记贞明改元所在年又更名瑱，明确说旧史失其月日；不将无日的年底记事强定为西历915年。",
+      "year": null,
+      "sortOrder": 49,
+      "precision": "range",
+      "sourceDate": "贞明元年，是岁更名；该原书年跨西历915–916年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p17",
+          "originalRevision": 1,
+          "originalSha256": "5579e8567564fbeb5ff49caf0380f72186fd918115ada95db9a065d60a126015",
+          "excerpt": "是歲，更名瑱。〈舊史失其月日。〉"
+        }
+      ],
+      "yearRange": {
+        "start": 915,
+        "end": 916
+      }
+    }
+  ]
+}

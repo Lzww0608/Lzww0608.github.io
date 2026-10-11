@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-guibian",
+  "events": [
+    {
+      "id": "zhang-guibian-gaotang",
+      "title": "讨魏博乱军，高唐受箭伤",
+      "summary": "魏博牙军诛后郡邑反叛，张归弁分军进讨，在高唐奋攻中箭，获朱温赏赐。",
+      "year": 906,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "天祐三年春",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "天祐三年春，太祖入魏誅牙軍，魏之郡邑多叛，歸弁與諸將等分布攻討，封境悉平。而歸弁於高唐攻賊太猛，飛矢中於臆，太祖嘉之，命賜鞍勒馬一匹、金帶一條。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-jinzhou",
+      "title": "暂知晋州，十一月正式任命",
+      "summary": "张归弁五月权知晋州，十一月正式任刺史、加检校司空。",
+      "year": 906,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐三年五月、十一月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "夏五月，命權知晉州。冬十一月，真授晉州刺史，加檢校司空。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-long-sword",
+      "title": "梁建国改滑州长剑军职",
+      "summary": "朱温受禅后张归弁改滑州长剑指挥使；新史作开平初，次年救平阳另列。",
+      "year": 907,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "太祖受禅后；新史开平初",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "太祖受禪，改滑州長劍指揮使。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p34",
+          "originalRevision": 1,
+          "originalSha256": "0ce779b39d8fa13c77d29406f6107df89a915537fdffb2be0bafd852ba773bfa",
+          "excerpt": "歸弁，為將亦善戰，開平初為滑州長劍指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-pingyang",
+      "title": "统兵救平阳，解晋军围",
+      "summary": "张归弁开平二年九月统军救平阳，军至解围，加检校司徒；此前滑州长剑任职另列。",
+      "year": 908,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "开平二年九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "開平二年秋九月，并軍圍平陽，詔歸弁統兵救之。軍至，解其圍，加檢校司徒。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-death",
+      "title": "滑州病卒，梁亡后事另说",
+      "summary": "旧史记张归弁在滑州私第病卒；新史则记梁亡后归弁、儿子汉融都被族诛，两种记法保留。",
+      "year": 909,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "旧史开平三年三月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "三年春三月，寢疾，卒於滑州之私第。子漢融。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史梁亡后族诛记法",
+          "sourceDate": "梁亡",
+          "year": 923,
+          "summary": "新史把归弁及汉融写为梁亡后皆族诛，与旧史早年病卒之说不同。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p34",
+              "originalRevision": 1,
+              "originalSha256": "0ce779b39d8fa13c77d29406f6107df89a915537fdffb2be0bafd852ba773bfa",
+              "excerpt": "歸弁，為將亦善戰，開平初為滑州長劍指揮使。子漢融。梁亡，皆族誅。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-join",
+      "title": "随兄归朱温，担任牙校及使者",
+      "summary": "张归弁与两兄归朱温任牙校，奉命与邻境联络，后辅军征战。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "初镇宣武及其后，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "始與兄歸霸、歸厚同歸於太祖，得署為牙校。時太祖初鎮宣武，屢命歸弁結好於近境，頗得行人之儀。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-early-war",
+      "title": "佐葛洹水与张存敬内黄，屯单父",
+      "summary": "张归弁旧传记乾宁中佐葛洹水、光启中佐张存敬内黄，后在大顺初随朱友谅屯单父、任齐州军职；年号叙次照录，不由别传同战名替换。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "乾宁中、光启中、大顺初为本传不同叙次，未独役年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "乾寧中，以偏師佐葛從周禦并軍於洹水。光啟中，又佐張存敬與燕人戰於內黃，積前後功，表授檢校工部尚書。大順初，攻討兗、鄆，命歸弁佐衡王友諒屯單父，軍聲大振，尋為齊州指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-qizhou",
+      "title": "识破藏械商车，守齐州",
+      "summary": "王师范叛乱时，张归弁察觉伪商车藏兵器并捕获，保全齐州；原未独记行动年，翌春内应处置另列。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "王师范叛时至次年春，未在本段标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "屬青帥王師範叛，遣將詐為賈人，挽車數十乘，匿兵器於其中，將謀竊發，歸弁察而擒之，州城以寧。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-qing-defence",
+      "title": "诛齐州内应，私财赏军",
+      "summary": "王师范袭齐后的明年春，张归弁兵少人心摇，捕杀欲外应的康文爽等三人，倾私财赏军；青平后加右仆射、遥领爱州。原叙次与青平时间分别保留。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "伪商袭齐后的明年春；本纪青平903，叙次有待比勘",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "明年春，青寇大舉來伐，州兵既寡，民意頗搖，有本郡都將。康文爽等三人欲謀外應，即時擒獲誅之，人心遂定。歸弁又罄發私帑，賞給士伍，青州平，超加檢校右僕射，遙領愛州刺史。"
+        }
+      ],
+      "notes": [
+        "本纪王师范/刘鄩903正月袭诸州、九月青平，而本传用明年春又青平，不能单从明年猜本条904。"
+      ],
+      "variants": [
+        {
+          "label": "朱温旧本纪青州叛降背景",
+          "sourceDate": "天复三年正月诸州袭谋、九月师范降",
+          "summary": "本纪903年正月记王师范派将谋袭华与刘袭兖、九月青州归降；张传用袭齐后明年春又青州平的叙次，两者不强合为齐内应904。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p5",
+              "originalRevision": 1,
+              "originalSha256": "41a52940f8000e80ae7659667497d9e24f380dc5ae9cf5c7e6bdf290f9225214",
+              "excerpt": "天復元年正月乙酉朔，唐宰相崔允潛使人以帝密旨告于侍衛軍將孫德昭已下，令誅左右中尉劉季述、王仲先等，即時迎昭宗於東內，禦樓反正。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p9",
+              "originalRevision": 1,
+              "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+              "excerpt": "三年正月甲寅，岐人啟壁，唐昭宗降使宣問慰勞，兼傳密旨。尋又命翰林學士韓渥、趙國夫人寵顏齎詔押賜帝紫金酒器、禦衣玉帶。丙辰，華州留後李存審遣飛騎來告，青州節度使王師範遣牙將張厚輦甲胄弓槊，詐言來獻，欲盜據州城，事覺，已擒之矣。是日，師範又遣其將劉鄩盜據兗州。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p10",
+              "originalRevision": 1,
+              "originalSha256": "90193b1e87e35bc667b06a51ace0c5500570ca5605fed14add6476b98c110c92",
+              "excerpt": "九月癸卯，師厚率大軍與王師範戰於臨朐，青軍大敗，殺萬餘人，並擒師範弟師克，即時徙寨以逼其城。辛亥，偏將劉重霸擒棣州刺史邵播來獻。播，師範之謀主也，帝命斃之。戊午，師範舉城請降。青州平。"
+            }
+          ],
+          "year": 903
+        }
+      ]
+    },
+    {
+      "id": "zhang-guibian-jingxiang",
+      "title": "随征荆襄，返军转左仆射",
+      "summary": "张归弁从征荆、襄返军，加检校左仆射；原传未独日期，不给他虚设节镇。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "青州平后接叙，未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+          "excerpt": "從征荊、襄回，轉檢校左僕射。"
+        }
+      ]
+    }
+  ]
+}

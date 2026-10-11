@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhu-zhen",
+  "events": [
+    {
+      "id": "zhu-zhen-shangyuan",
+      "title": "奉命夜袭上源驿",
+      "summary": "新史记朱温命朱珍夜攻宿于上源驿的李克用，李克用逃出，朱珍杀其留馆部众。",
+      "year": 884,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "中和四年五月上源驿事，朱珍的施事见新史",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p17",
+          "originalRevision": 1,
+          "originalSha256": "5da3cf3e5c40922f3610be8d148502f150333b1f2a2c9552a1b0caa4a0e18d88",
+          "excerpt": "太祖與晉王東逐黃巢，還過汴，館之上源驛，太祖使珍夜以兵攻之，晉王亡去，珍悉殺其麾下兵。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p8",
+          "originalRevision": 1,
+          "originalSha256": "b97110e2a8f0ca84b15a0da1b318d4b96d0d9c814b4a809ede57a4b556df7ac5",
+          "excerpt": "四年春，帝與許州田從異諸軍同收瓦子寨，案：瓦子寨，原本作「瓦于寨」，攷通鑑注，黃巢撤民居以為寨屋，謂之瓦子寨，則「于」字形近刊訛耳，今改正。殺賊數萬眾。是時，陳州四面賊寨相望，驅擄編氓，殺以充食，號為「舂磨寨」。帝分兵翦撲，大小凡四十戰。四月丁巳，收西華寨，賊將黃鄴單騎奔陳。帝乘勝追之，鼓噪而進。會黃巢遁去，遂入陳州，刺史趙犨迎于馬前。俄聞巢黨尚在陳北故陽壘，帝遂逕歸大梁。是時，河東節度使李克用奉僖宗詔，統騎軍數千同謀破賊，與帝合勢于中牟北邀擊之，賊眾大敗于王滿渡，多束手來降。時賊將霍存、葛從周、張歸厚、張歸霸皆匍匐于馬前，悉宥而納之，遂逐殘冦，東至于冤句。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "d3679feedea3a57676c2a10c8005128e3cef953efd7a38adad8d5e16382ce21e",
+          "excerpt": "五月甲戌，帝與晉軍振旅歸汴，館克用于上源驛。旣而備犒宴之禮，克用乘醉任氣，帝不平之。是夜，命甲士圍而攻之。"
+        }
+      ],
+      "notes": [
+        "记载归于新史，不把袭击写成对黄巢的共同作战。"
+      ]
+    },
+    {
+      "id": "zhu-zhen-huazhou",
+      "title": "雪夜攻取滑州",
+      "summary": "朱珍与李唐宾率步骑取滑州，冒大雪连夜到城下登城，使守军措手不及。",
+      "year": 886,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "光启二年，本纪十一月；引书十月异说",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "ddcf9e0f24ed95259584d7b106f5e7629bb02e27673125337e3f0b8669d2750b",
+          "excerpt": "會滑州節度使安師儒戎政不治，太祖命珍與李唐賓率步騎以經略之。始入境，遇大雪，令軍士無得休息，一夕馳至壁下，百梯並升，遂乘其墉，滑州平。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p3",
+          "originalRevision": 1,
+          "originalSha256": "e7e57b710d2b4e7a37ca873e22dbd90eadc3eb89417724d035dc789a205a0421",
+          "excerpt": "光啟二年三月，進爵王。義成軍亂，逐其節度使安師儒，推牙將張驍為留後，師儒來奔，殺之。遣朱珍、李唐賓陷滑州，以胡真為留後。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "安师儒与攻滑纪月分歧",
+          "sourceDate": "梁本纪十一月；引新旧唐书十月",
+          "summary": "旧本纪说安师儒被部下杀，引书有奔汴被杀或被俘之说；朱珍李唐宾袭城见正文，新本纪归光启二年。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p16",
+              "originalRevision": 1,
+              "originalSha256": "b90cfe96d537634a34ad71c2d0d2e2752cef6d9539e7aa0b56572740b1da2d6a",
+              "excerpt": "十一月，滑州節度使安師儒以怠于軍政，為部下所殺。案舊唐書云：十月壬子朔，滑州軍亂，逐其帥安師儒，推衙將張驍主留後軍務，師儒奔汴，朱全忠殺之。新唐書云：十月，朱全忠陷滑州，執義成軍節度使安師儒。歐陽史從舊唐書作奔汴，通鑑從新唐書作被擄，據薛史則師儒自為部下所殺，與新、舊唐書異。又新、舊唐書俱作十月，而薛史作十一月，通鑑仍從薛史。帝聞之，乃遣朱珍、李唐賓襲而取之，由是遂有滑臺之地。"
+            }
+          ],
+          "year": 886
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-zhangzhi",
+      "title": "按朱温部署诱击张晊",
+      "summary": "朱珍奉命尾随張晊，见其停军即返，再领军蔽大林；张晊追击朱珍时，朱温横出伏兵截击获胜。",
+      "year": 887,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "光启三年蔡军攻汴，本纪同役五月，锁887",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p3",
+          "originalRevision": 1,
+          "originalSha256": "e7e57b710d2b4e7a37ca873e22dbd90eadc3eb89417724d035dc789a205a0421",
+          "excerpt": "光啟二年三月，進爵王。義成軍亂，逐其節度使安師儒，推牙將張驍為留後，師儒來奔，殺之。遣朱珍、李唐賓陷滑州，以胡真為留後。十二月，徙封吳興郡王。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p4",
+          "originalRevision": 1,
+          "originalSha256": "71a2ae500a86df2468ab35e8a6769ee9596305ea0bddfe1cd9aa00b0e300f161",
+          "excerpt": "三年春，珍得萬人、馬數百匹以歸。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p4",
+          "originalRevision": 1,
+          "originalSha256": "71a2ae500a86df2468ab35e8a6769ee9596305ea0bddfe1cd9aa00b0e300f161",
+          "excerpt": "宗權至蔡，復遣張晊攻汴。王聞晊復來，登封禪寺後岡，望晊兵過，遣朱珍躡之，戒曰：「晊見吾兵，必止。望其止，當速返，毋與之鬬也。」已而晊見珍在後，果止。珍即馳還。王令珍引兵蔽大林，而自率精騎出其東，伏大冢間。晊止而食，食畢，拔旗幟，馳擊珍。珍兵小却，王引伏兵橫出，斷晊軍為三而擊之。晊大敗，脫身走。宗權怒，斬晊。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p18",
+          "originalRevision": 1,
+          "originalSha256": "5a9f90326cf6fd6b36b63c8b580950db7e23c81da10aa30fcd07b07dc0e6debf",
+          "excerpt": "三年春二月乙巳"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p19",
+          "originalRevision": 1,
+          "originalSha256": "6b0569a2a396644fdca14e015d896ace8e80e7a1284e8e690743f2592f6bafc4",
+          "excerpt": "五月丙子，出酸棗門，自卯至未，短兵相接，賊眾大敗，追斬二十餘里，僵仆就枕。宗權恥敗，益縱其虐，乃自鄭州親領突將數人，逕入張晊寨。冊府元龜卷一百八十七。其日晚，大星隕于賊壘，有聲如雷。永樂大典卷三千二百七十一。辛巳，兗、鄆、滑軍士皆來赴援，乃陳兵于汴水之上，旌旗器甲甚盛。蔡人望之，不敢出寨。翌日，分布諸軍，齊攻賊寨，自寅至申，斬首二萬餘級。會夜收軍，獲牛馬、輜重、生口、器甲不可勝計。是夜宗權、晊遁去，遲明追之，至陽武橋而還。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-recruit",
+      "title": "到淄青募兵，败金岭军",
+      "summary": "朱珍出淄青募兵，击破沿途阻军；军中张仁遇请求专断先斩，他斩张仁遇示众，后败金岭三寨、取博昌，带新兵回汴。",
+      "year": 887,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "光启三年二月派募、四月返汴；募兵诸战未逐日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "ddcf9e0f24ed95259584d7b106f5e7629bb02e27673125337e3f0b8669d2750b",
+          "excerpt": "時太祖方謀齊師，乃遣珍往淄州募兵，行次任縣，東面都統齊克讓伏兵於孫師陂以邀珍，珍大破之。進軍至牙山，都虞候張仁遇白珍曰：「軍有不齊者，當先斬本都將，後以狀聞，願許之。」珍怒其專，乃斬仁遇以徇軍，由是諸將咸懼。兵至乾封，與淄人戰於白草口，敗之。青人以步騎二萬，列三寨於金嶺驛，珍與戰，連破之，殲其師，盡獲軍器戎馬。是夕，攻博昌，大獲兵眾。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p18",
+          "originalRevision": 1,
+          "originalSha256": "5a9f90326cf6fd6b36b63c8b580950db7e23c81da10aa30fcd07b07dc0e6debf",
+          "excerpt": "三年春二月乙巳，承制以朱珍為淄州刺史，俾募兵于東道，且慮蔡人暴其麥苗，期以夏首回歸。案：自「募兵于東道」至此，亦見通鑑注，與冊府元龜同。珍旣至淄、棣，旬日之內，應募者萬餘人。又潛襲青州，獲馬千匹，鎧甲稱是，乃鼓行而歸。四月辛亥，達于夷門，帝喜曰：「吾事濟矣。」"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p3",
+          "originalRevision": 1,
+          "originalSha256": "e7e57b710d2b4e7a37ca873e22dbd90eadc3eb89417724d035dc789a205a0421",
+          "excerpt": "光啟二年三月，進爵王。義成軍亂，逐其節度使安師儒，推牙將張驍為留後，師儒來奔，殺之。遣朱珍、李唐賓陷滑州，以胡真為留後。十二月，徙封吳興郡王。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p4",
+          "originalRevision": 1,
+          "originalSha256": "71a2ae500a86df2468ab35e8a6769ee9596305ea0bddfe1cd9aa00b0e300f161",
+          "excerpt": "乃遣朱珍募兵於東方，而求救于兗、鄆。三年春，珍得萬人、馬數百匹以歸。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史斩张仁遇与军中反应",
+          "sourceDate": "淄青募兵时",
+          "summary": "新史张仁遇请先斩再报，军中感悦；旧史请先斩都将后报，诸将畏惧，两书原叙各留。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p19",
+              "originalRevision": 1,
+              "originalSha256": "6655600b90466f0c07f1ec38b776d177d2b95160c64f5576dc5fa0b46eef0c9b",
+              "excerpt": "太祖乃拜珍淄州刺史，募兵於淄青。珍偏將張仁遇白珍曰：「軍中有犯令者，請先斬而後白。」珍曰：「偏將欲專殺邪？」立斬仁遇以徇軍，軍中皆感悅。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-yunzhou",
+      "title": "误信诈降，陷郓州瓮城",
+      "summary": "攻曹濮后，朱珍留攻郓州，信朱裕诈降书，军队入瓮城被杀，他仅身免，朱温没有追责。",
+      "year": 887,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "光启三年，十月东攻兖郓之后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p20",
+          "originalRevision": 1,
+          "originalSha256": "2fe20edc21b3023891bf9584d13d3957df638fe15e7bf1f5470fbc662bd8c763",
+          "excerpt": "珍從太祖攻朱宣，取曹州，執其刺史丘弘禮。又取濮州，刺史朱裕奔于鄆州。太祖乃還汴，留珍攻鄆州。珍去鄆二十里，遣精兵挑之，鄆人不出。朱裕詐為降書，陰使人召珍，約開門為內應。珍信之，夜率其兵叩鄆城門，朱裕登陴，開門內珍軍，珍軍已入甕城而垂門發，鄆人從城上磔石以投之，珍軍皆死甕城中，珍僅以身免，太祖不之責也。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p3",
+          "originalRevision": 1,
+          "originalSha256": "e7e57b710d2b4e7a37ca873e22dbd90eadc3eb89417724d035dc789a205a0421",
+          "excerpt": "光啟二年三月，進爵王。義成軍亂，逐其節度使安師儒，推牙將張驍為留後，師儒來奔，殺之。遣朱珍、李唐賓陷滑州，以胡真為留後。十二月，徙封吳興郡王。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p4",
+          "originalRevision": 1,
+          "originalSha256": "71a2ae500a86df2468ab35e8a6769ee9596305ea0bddfe1cd9aa00b0e300f161",
+          "excerpt": "三年春，珍得萬人、馬數百匹以歸。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p4",
+          "originalRevision": 1,
+          "originalSha256": "71a2ae500a86df2468ab35e8a6769ee9596305ea0bddfe1cd9aa00b0e300f161",
+          "excerpt": "十月，天子使來，賜王紀功碑。朱宣、朱瑾兵助汴，已破宗權東歸，王移檄兗、鄆。誣其誘汴亡卒以東，乃發兵攻之，取其曹州、濮州。遂遣朱珍攻鄆州，大敗而還。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-shifan",
+      "title": "斤沟擒淮西石璠",
+      "summary": "朱珍率精骑在陈亳一带截击蔡军，擒获石璠献给朱温；本纪记文德元年三月，旧本传更详斤沟战。",
+      "year": 888,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "文德元年三月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p24",
+          "originalRevision": 1,
+          "originalSha256": "f95c898c4e1f606730fef54ca3db04b1d61e4c84ea7a373d6ff2cc5193b894b1",
+          "excerpt": "文德元年正月，帝率師東赴淮海，行次宋州，聞楊行密已拔揚州，遂還。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p26",
+          "originalRevision": 1,
+          "originalSha256": "b7fc8e61d5d9368a974665889127405f2f909b1250e936d88722e186c9ce438b",
+          "excerpt": "三月庚子，昭宗卽位。是月，蔡人石璠領萬眾以剽陳、亳，帝遣朱珍率精騎數千擒璠以獻。"
+        },
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+          "excerpt": "復以踏白騎士入陳、亳間，以邀蔡人，遂南至斤溝，破淮西石璠之師二萬，擄璠以獻。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧朱珍传石璠军数",
+          "sourceDate": "同役，未独标年",
+          "summary": "朱珍传称破石璠师二万，朱温本纪该年三月记石璠万众；两书人数并列不选一替另一。",
+          "evidence": [
+            {
+              "chapterId": "old-v019",
+              "paragraphId": "old-v019-p10",
+              "originalRevision": 1,
+              "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+              "excerpt": "復以踏白騎士入陳、亳間，以邀蔡人，遂南至斤溝，破淮西石璠之師二萬，擄璠以獻。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-weibo",
+      "title": "渡河救魏博，取黎阳等镇",
+      "summary": "魏博乱、乐彦贞被囚，朱珍奉命救魏，攻黎阳、临河、李固，分军攻澶州，并杀临黄豹子军。",
+      "year": 888,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "文德元年魏博军乱，本纪同役四月锁888",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p21",
+          "originalRevision": 1,
+          "originalSha256": "f4ecfa4470b37c859e9c393be30b719464925c732b85f8198c8618a9e830532c",
+          "excerpt": "魏博軍亂，囚樂彥貞。太祖遣珍救魏，珍破黎陽、臨河、李固，分遣聶金、范居實等略澶州，殺魏豹子軍二千於臨黃。珍威振河朔。魏人殺彥貞，珍乃還。"
+        },
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+          "excerpt": "珍旋師自亳北趣靜戎，濟舟於滑，破黎陽、臨河、李固三鎮。軍於內黃，敗樂從訓萬餘人，分命聶金、范居實略澶州，與魏師遇於臨黃；魏軍有豹子軍二千人，戮之無噍類，威振河朔。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p24",
+          "originalRevision": 1,
+          "originalSha256": "f95c898c4e1f606730fef54ca3db04b1d61e4c84ea7a373d6ff2cc5193b894b1",
+          "excerpt": "文德元年正月，帝率師東赴淮海，行次宋州，聞楊行密已拔揚州，遂還。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p27",
+          "originalRevision": 1,
+          "originalSha256": "745048082d31f2163299df8bc3011cb9f27fc17443c6248dcca4c54d3157bb24",
+          "excerpt": "四月戊辰，魏博樂彥禎失律，其子從訓出奔相州，使來乞師。帝遣朱珍領大軍濟河，連收黎陽、臨河二邑。旣而魏軍推小校羅弘信為帥。弘信旣立，遣使送款于汴，帝優而納之，遂命班師。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-death",
+      "title": "擅杀李唐宾后被朱温处死",
+      "summary": "朱珍与李唐宾长期不和，萧县修马厩纠纷中杀李唐宾。朱温到军抓朱珍，责其专杀，令处死；新史记缢死。",
+      "year": 889,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "旧龙纪初，正式新本纪同一朱珍杀李唐宾、朱温诛珍记七月，锁889",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p11",
+          "originalRevision": 1,
+          "originalSha256": "c9038041e5ce0a2f8e587517242d95759e8006f835d483db42521b98b3090e6f",
+          "excerpt": "龍紀初，與諸將屯於蕭縣，以禦時溥，珍慮太祖自至，令諸軍葺馬廄以候巡撫，李唐賓之裨將嚴郊獨慢焉，軍候范權恃珍以督之。唐賓素與珍不協，果怒，乃見以訴其事。珍亦怒曰：「唐賓無禮！」遂拔劍斬之，珍命騎列狀陳其事。太祖初聞唐賓之死，驚駭，與敬翔謀，詐令有司收捕唐賓妻子下獄，以安珍心。太祖遂徑往蕭縣，距蕭一舍，珍率將校迎謁，梁祖令武士執之，責其專殺，命丁會行戮。都將霍存等數十人叩頭以救，太祖怒，以坐床擲之，乃退。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记处刑经过",
+          "sourceDate": "萧县杀唐宾后，未独立记月日",
+          "year": 889,
+          "summary": "新史载霍存等求救未果，朱珍最终缢死；旧史记命丁会行戮。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p23",
+              "originalRevision": 1,
+              "originalSha256": "e8f3a8629663f60d95e95fc34d67c24fa7b2dd476a88b82a4aa219e1563f9d69",
+              "excerpt": "諸將霍存等十餘人叩頭救珍，太祖大怒，舉胡牀擲之曰：「方珍殺唐賓時，獨不救之邪！」存等退，珍遂縊死。"
+            }
+          ]
+        },
+        {
+          "label": "新史朱温本纪七月",
+          "sourceDate": "龙纪元年七月",
+          "summary": "新本纪把杀唐宾、执朱珍处死系七月；旧朱珍传只作龙纪初，不从初字确定月份。",
+          "evidence": [
+            {
+              "chapterId": "new-v01",
+              "paragraphId": "new-v01-p7",
+              "originalRevision": 1,
+              "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+              "excerpt": "龍紀元年正月，師古敗溥于呂梁。淮西牙將申叢執秦宗權，折其足，將檻送京師；別將郭璠殺叢，篡宗權以來獻。王遣行軍司馬李璠獻俘于京師，表郭璠淮西留後。三月，天子封王為東平王。七月，朱珍殺李唐賓，王如蕭縣，執珍殺之"
+            }
+          ],
+          "year": 889
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-army",
+      "title": "早从朱温，创立军制",
+      "summary": "朱珍早年随朱温起兵，宣武建军时负责选练士卒、制定军纪，统领各来源部队。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "朱温初起、初镇宣武",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p8",
+          "originalRevision": 1,
+          "originalSha256": "34ae6ae3630ed60bc4ded67e157d1d7670a4697a151b981b80f607e8dfb2be38",
+          "excerpt": "朱珍，徐州豐縣雍鳳里人也。太祖初起兵，珍與龐師古、許唐、李暉、丁會、氏叔琮、鄧季筠、王武等八十餘人，以中涓從，摧堅陷陣，所向蕩決。及太祖鎮汴，兼領招討使，署珍為宣武右職，以總腹心。於是簡練軍伍，裁制綱紀，平巢破蔡，多珍之力也。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p16",
+          "originalRevision": 1,
+          "originalSha256": "207055dfbfc9ea24a5c9dfeba66a41180841bb04b54188ac1bc325b821c34e31",
+          "excerpt": "珍為將，善治軍選士，太祖初鎮宣武，珍為太祖創立軍制，選將練兵甚有法。太祖得諸將所募兵及佗降兵，皆以屬珍，珍選將五十餘人，皆可用。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-promotion",
+      "title": "升诸军都指挥使",
+      "summary": "朱珍平巢、破蔡并在王夏寨作战后，于光启元年任诸军都指挥使，从此成为上将。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "光启元年，合法纪年885年3月20日至886年2月7日，授军职未独月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "ddcf9e0f24ed95259584d7b106f5e7629bb02e27673125337e3f0b8669d2750b",
+          "excerpt": "始尚讓以驍騎五千人至繁臺，珍與龐師古、齊奉國等擊退之。及黃巢敗，珍與並帥李克用追至冤句而還。尋從太祖以汴、宋、亳之師入西華，破王夏寨，勇冠軍鋒，以功加秩。光啟元年，署諸軍都指揮使，始為上將。"
+        }
+      ],
+      "yearRange": {
+        "start": 885,
+        "end": 886
+      }
+    },
+    {
+      "id": "zhu-zhen-cai-campaigns",
+      "title": "焦夷败铁林，攻蔡遇雨退军",
+      "summary": "朱珍在焦夷败蔡铁林军、转战汝郑陈颍等地；后进淮西，在蔡城与萧皓军作战迫入河，破西南羊马垣后因雨班师。原未独标每役年，不全系885。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "诸军都指挥之后的蔡军战记、魏役后进淮西，本传未逐役纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "ddcf9e0f24ed95259584d7b106f5e7629bb02e27673125337e3f0b8669d2750b",
+          "excerpt": "於是軍焦夷，敗蔡師鐵林三千人，盡俘其將。復西至汝、鄭，南過陳、潁，繚宋、亳、滑、濮間，與蔡賊交戰，鏖伏襲殺，不知其數。"
+        },
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+          "excerpt": "復攻淮西，至蔡，夾河而寨，敗賊將蕭皓之眾，皆擁於河溺死之。進軍蔡州，營其西南，既破羊馬垣，遇雨班師。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-conflict",
+      "title": "与李唐宾交争，离军赴汴申诉",
+      "summary": "朱珍私迎家眷引朱温疑虑，李唐宾奉命察看后与朱珍争执，两人离军赴汴申诉；朱温惜才和解，之后仍同军。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "梁山之役后的争执，本传未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+          "excerpt": "梁山之役，始與李唐賓不協。珍在軍嘗私迎其室於汴，而不先請，太祖疑之，密令唐賓察之，二將不相下，因而交諍。唐賓夜斬關還汴以訴，珍亦棄軍單騎而至，太祖兩惜之，故不罪，俾還於師。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p22",
+          "originalRevision": 1,
+          "originalSha256": "9aac6244c20c6f09bbe44fb98aa8dee16d3368ce1efd27ba21b3ba2635b22c41",
+          "excerpt": "珍嘗私迎其家置軍中，太祖疑珍有異志，遣唐賓伺察之。珍與唐賓不協，唐賓不能忍，夜走還宣武，珍單騎追之，交訴太祖前。太祖兩惜其材，為和解之。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-zhen-fengxian",
+      "title": "攻丰县，吴康败时溥",
+      "summary": "朱珍援刘赞赴楚州，徐州军挡路，转攻丰县，随后与李唐宾击时溥大军。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "undated",
+      "sourceDate": "伐徐取丰之役，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "2a45a5738c80f82fc65978814f7e3209ede53688b82a32db6e52d80c78f6b553",
+          "excerpt": "珍以兵援劉讚，赴楚州，至襄山南，遇徐戎扼其路，珍乃攻豐，下之。時溥乃以全師會戰於豐南吳康里，珍乃收豐，破其三萬餘眾。及蔡賊平，珍比諸將功居多。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "及伐徐取豐，時溥軍於吳康，珍亟遇之，未能卻，唐賓引本軍擊敗之，珍遂大勝。"
+        }
+      ]
+    }
+  ]
+}

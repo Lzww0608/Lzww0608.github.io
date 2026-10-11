@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "shi-junli",
+  "events": [
+    {
+      "id": "shi-junli-death-before-entry",
+      "title": "庄宗入汴前被杀",
+      "summary": "被俘后拒绝反为敌方效力，梁方长期未杀；李存勖入汴前一日才奉梁主令遇害。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "同光元年，庄宗至汴前一日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "同光元年，莊宗至汴前一日，梁主始令殺之。"
+        }
+      ]
+    },
+    {
+      "id": "shi-junli-early-service",
+      "title": "先事李克柔，后为李嗣昭牙校",
+      "summary": "先事代州刺史李克柔，后隶李嗣昭，担任牙校并历掌诸军；主将关系依实际来源保留。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "初事代州刺史李克柔，後隸李嗣昭為牙校，曆典諸軍。"
+        }
+      ]
+    },
+    {
+      "id": "shi-junli-jiacheng-sorties",
+      "title": "潞州夹城屡出击梁营",
+      "summary": "夹城之役每次出战破坏梁军栅垒，俘人返回；李嗣昭出征常以他为先锋。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "夹城之役",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "夾城之役，君立每出挑戰，壞汴軍柵壘，俘擒而還。"
+        }
+      ]
+    },
+    {
+      "id": "shi-junli-longhua",
+      "title": "龙化园击梁，生获卜渥",
+      "summary": "在龙化园与汴军交战获胜，擒大将卜渥。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "晋沿用天祐八年龙化园战，未记月日，同期有效历年对照；未记可核的具体月日，西历范围911—912年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "八年，與汴軍戰於龍化園，敗之，獲其大將卜渥以獻。"
+        }
+      ],
+      "yearRange": {
+        "start": 911,
+        "end": 912
+      }
+    },
+    {
+      "id": "shi-junli-relieve-taiyuan",
+      "title": "从上党驰援晋阳，夜击王檀",
+      "summary": "奉李嗣昭命率五百骑救太原，击败汾桥阻兵，入城后与安金全分门出击，梁军翌晨败走。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "王檀逼晋阳时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "是夜入城，與安金全等分出諸門擊殺於外，遲明，梁軍敗走。"
+        }
+      ]
+    },
+    {
+      "id": "shi-junli-capture-panzhang",
+      "title": "德胜出击潘张，陷伏被俘",
+      "summary": "屯德胜，随攻梁军潘张粮营，梁军诈败设伏，石君立与王钊陷敌营，被送汴州。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "本传天祐十七年潘张被俘，未记月日；同年同州事与梁贞明六年对照，西历920—921年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p5",
+          "originalRevision": 1,
+          "originalSha256": "e9d247138a74daf985d6ec759ea34c4b9bc829dd4d462a68ddf32ae4480f6182",
+          "excerpt": "君立被執，送於汴。"
+        }
+      ],
+      "notes": [
+        "本传在天祐十七年叙事称“梁祖”欲用，帝号与时序不合；摘要称梁方，不暗改原文。"
+      ],
+      "yearRange": {
+        "start": 920,
+        "end": 921
+      },
+      "variants": [
+        {
+          "label": "通鉴潘张被俘纪年",
+          "sourceDate": "梁贞明五年十二月戊戌，通鉴河南岸战记获石君立，核历919年；与本传天祐十七年分别保存",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v271",
+              "paragraphId": "tongjian-v271-p3",
+              "originalRevision": 1,
+              "originalSha256": "dd935415512e536004d8f0519258dbdb2a63e8b700981cbf2614dda5a49d909b",
+              "excerpt": "均王下貞明五年（己卯，公元九一九年）"
+            },
+            {
+              "chapterId": "tongjian-v271",
+              "paragraphId": "tongjian-v271-p9",
+              "originalRevision": 1,
+              "originalSha256": "e7e0878722351be97a7e5116ed1b93b064803a64d3eb15c7553f7e66f6dd2a35",
+              "excerpt": "梁築壘貯糧於潘張，距楊村五十里，十二月，晉王自將騎兵自河南岸西上，邀其餉者，俘獲而還；梁人伏兵於要路，晉兵大敗。"
+            },
+            {
+              "chapterId": "tongjian-v271",
+              "paragraphId": "tongjian-v271-p9",
+              "originalRevision": 1,
+              "originalSha256": "e7e0878722351be97a7e5116ed1b93b064803a64d3eb15c7553f7e66f6dd2a35",
+              "excerpt": "戊戌，晉王復與王瓚戰於河南，瓚先勝，獲晉將石君立等；既而大敗，乘小舟渡河，走保北城，失亡萬計。"
+            }
+          ],
+          "year": 919
+        }
+      ]
+    }
+  ]
+}

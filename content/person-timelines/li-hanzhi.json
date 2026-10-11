@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-hanzhi",
+  "events": [
+    {
+      "id": "li-hanzhi-lose-heyang",
+      "title": "张言袭河阳，李罕之归河东",
+      "summary": "兵出平阳时张言夜袭河阳，全族被俘，李罕之逃太原，李克用表为泽州刺史、仍领河阳节度。",
+      "year": 888,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "文德元年春",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+          "excerpt": "文德元年春，會罕之盡出其眾攻平陽，言夜出師掩擊河陽，罕之無備，單步僅免，舉族為言所俘。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-heyang-aid-failed",
+      "title": "河东援怀孟，因军变撤退",
+      "summary": "李克用派李存孝助攻怀孟，梁军来救，安休休离军后晋军退，李罕之守泽州。",
+      "year": 888,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "文德元年三月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+          "excerpt": "三月，克用遣其將李存孝率師三萬助之，來攻懷、孟。"
+        }
+      ],
+      "notes": [
+        "安休休去向旧史本段说奔蔡，旧55说叛入汴，新史说被执，异说另留。"
+      ],
+      "variants": [
+        {
+          "label": "旧史康君立传援河阳",
+          "year": 888,
+          "sourceDate": "文德初、三月",
+          "summary": "康君立为南面招讨使、李存孝副之，率二万；安休休临阵叛入汴，君立退，与罕之传存孝三万及安奔蔡有别。",
+          "evidence": [
+            {
+              "chapterId": "old-v055",
+              "paragraphId": "old-v055-p2",
+              "originalRevision": 1,
+              "originalSha256": "14283d678548b78007ca8aa97adcc11f4e1a330717da925223cad55a5180db44",
+              "excerpt": "文德初，李罕之既失河陽，來歸於武皇，且求援焉，乃以君立充南面招討使，李存孝副之，帥師二萬，助罕之攻取河陽。三月，與汴將丁會、牛存節戰於沇河。臨陣之次，騎將安休休叛入汴軍，君立引退。"
+            }
+          ]
+        },
+        {
+          "label": "新史存孝传兵数与安休休结局",
+          "year": 888,
+          "sourceDate": "文德元年",
+          "summary": "新史记存孝、薛阿檀、安休休七千援军，在温县受梁军断太行，存孝大败、安休休被执，不并成一个确定兵数或去向。",
+          "evidence": [
+            {
+              "chapterId": "new-v36",
+              "paragraphId": "new-v36-p20",
+              "originalRevision": 1,
+              "originalSha256": "0762a33c7079ca57be7c47878a8373ca4d2fe3b450a79d8da17d084bb3976d37",
+              "excerpt": "文德元年，河南張言襲破河陽，李罕之來歸晉，晉處罕之于澤州，遣存孝與薛阿檀、安休休等以兵七千助罕之還擊河陽。梁亦遣丁會、牛存節等助言。戰于溫縣，梁軍先扼太行，存孝大敗，安休休被執。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-take-luzhou",
+      "title": "乘薛志勤丧入潞，转求梁援",
+      "summary": "薛志勤死后，李罕之未经命入潞自称留后，李克用发怒出兵；李罕之将被拘晋将送朱温求援。",
+      "year": 899,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "光化元年十二月",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p11",
+          "originalRevision": 1,
+          "originalSha256": "35f707eb9844d93d466341c18cd49ba7fa00fd2682f52ab939649174fadd54c8",
+          "excerpt": "光化元年十二月，晉之潞帥薛志勤卒，罕之乘其喪，自澤州率眾徑入潞州，自稱留後，"
+        }
+      ],
+      "notes": [
+        "该农历月整月已跨西历899年，不按光化元年通常对应898强定。"
+      ]
+    },
+    {
+      "id": "li-hanzhi-death-huaizhou",
+      "title": "改河阳节度，途中病卒",
+      "summary": "光化二年六月病重，朱温以丁会替代，使其转任河阳；途中到怀州卒于驿舍，年五十八。",
+      "year": 899,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "光化二年六月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p11",
+          "originalRevision": 1,
+          "originalSha256": "35f707eb9844d93d466341c18cd49ba7fa00fd2682f52ab939649174fadd54c8",
+          "excerpt": "明年六月，病篤，太祖令丁會代之，移罕之為河陽節度使；行至懷州，卒於傳舍，時年五十八。"
+        }
+      ],
+      "notes": [
+        "“明年”承原书记年光化元年，不能从已跨西历899的前条再加一年。"
+      ]
+    },
+    {
+      "id": "li-hanzhi-posthumous",
+      "title": "开平二年追赠中书令",
+      "summary": "后梁朝廷于开平二年春追赠李罕之中书令。",
+      "year": 908,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "开平二年春",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p11",
+          "originalRevision": 1,
+          "originalSha256": "35f707eb9844d93d466341c18cd49ba7fa00fd2682f52ab939649174fadd54c8",
+          "excerpt": "開平二年春，詔贈中書令。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-early-reversals",
+      "title": "由僧、盗至黄巢军，再归唐",
+      "summary": "早年儒业不成、出家后复亡命为盗，入黄巢军后背巢归唐，任光州刺史；受秦宗权逼后依诸葛爽。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "e2114d6743d5f5d00d35c21a71d98a0605a70fdf34a33458c4ada566954dbde1",
+          "excerpt": "及賊巢渡江，罕之因以兵將背賊歸於唐，高駢錄其功，表為光州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-luoyang-keyong",
+      "title": "任河南尹，与李克用结交",
+      "summary": "中和四年为河南尹、东都留守，李克用上源驿脱险后经过洛阳，李罕之迎接厚待，建立关系。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "中和四年；未记可核的具体月日，西历范围884—885年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "e2114d6743d5f5d00d35c21a71d98a0605a70fdf34a33458c4ada566954dbde1",
+          "excerpt": "中和四年，爽表罕之為河南尹、東都留守。"
+        }
+      ],
+      "yearRange": {
+        "start": 884,
+        "end": 885
+      }
+    },
+    {
+      "id": "li-hanzhi-sunru-invasion",
+      "title": "受孙儒攻，弃洛阳保渑池",
+      "summary": "秦宗权派孙儒攻来，李罕之与其对垒数月，兵少备竭后弃城保渑池；敌退后重返洛阳筑垒。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "光启元年；未记可核的具体月日，西历范围885—886年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "e2114d6743d5f5d00d35c21a71d98a0605a70fdf34a33458c4ada566954dbde1",
+          "excerpt": "光啟元年，蔡賊秦宗權遣將孫儒來攻，罕之對壘數月，以兵少備竭，委城而遁，西保於澠池。"
+        }
+      ],
+      "yearRange": {
+        "start": 885,
+        "end": 886
+      }
+    },
+    {
+      "id": "li-hanzhi-heyang-recovery",
+      "title": "与张言结盟，获河东援收河阳",
+      "summary": "与张言（张全义）共同抗刘经、孙儒，求李克用援，安金俊骑军帮助收河阳，两人刻臂为盟。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "光启年间河阳争战，传中叙年互有差别",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+          "excerpt": "罕之與言收合其眾，求援於太原，李克用遣澤州刺史安金俊率騎助之，遂收河陽。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-raiding",
+      "title": "河内晋绛长期受其部军侵掠",
+      "summary": "失河阳后不断派兵劫掠怀孟晋绛，攻取民寨，原书严斥其暴虐，并叙“李摩云”绰号来由。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "文德元年之后多年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+          "excerpt": "自是罕之日以兵寇鈔懷、孟、晉、絳，數百里內，郡邑無長吏，閭里無居民。"
+        }
+      ]
+    },
+    {
+      "id": "li-hanzhi-xingyu-deputy",
+      "title": "随讨王行瑜，为行营副职",
+      "summary": "李克用讨邠凤时表李罕之为四面都统副职，诛王行瑜后因功加检校太尉。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "乾宁二年；未记可核的具体月日，西历范围895—896年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p10",
+          "originalRevision": 1,
+          "originalSha256": "e7e696dd1dc4c451b9d0a98d04d5a36d17ca21dc8287963e4ce5bd88c3371ee7",
+          "excerpt": "乾寧二年，李克用出師以拒邠、鳳，營於渭北，天子以克用為邠州行營四面都統，克用乃表罕之為副。"
+        }
+      ],
+      "yearRange": {
+        "start": 895,
+        "end": 896
+      }
+    }
+  ]
+}

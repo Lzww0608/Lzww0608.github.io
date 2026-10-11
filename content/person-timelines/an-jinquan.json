@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "an-jinquan",
+  "events": [
+    {
+      "id": "an-jinquan-mingzong-appointment",
+      "title": "明宗即位后任振武节度使",
+      "summary": "与李嗣源有旧交，明宗即位后授同平章事、振武军节度使。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "明宗即位；明宗纪天成元年五月壬戌任振武",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p47",
+          "originalRevision": 1,
+          "originalSha256": "de857bdb7ab1d63f5952945f94455baa65357e8b7345d2e22d3789b197a791b1",
+          "excerpt": "金全與明宗有舊，明宗即位，拜金全振武軍節度使、同中書門下平章事。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "五月丙辰朔，帝不視朝，臨於西宮。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p3",
+          "originalRevision": 1,
+          "originalSha256": "465386c52a2bd3b1e3453fba8ce770ab84d2444e6a1c507692a771659b2b2bcd",
+          "excerpt": "壬戌，以前相州刺史、北京左右廂都指揮使安金全為安北都護、振武節度使、同平章事。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan-keyong-cavalry",
+      "title": "早年为李克用骑将",
+      "summary": "出身代北边将之家，擅骑射，在李克用时为骑将，多次从征。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "originalRevision": 1,
+          "originalSha256": "30645ba954c11d8cd64daaf9c39ed73ad42b686905014e09c889e936497cc8bd",
+          "excerpt": "武皇時為騎將，屢從征討。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan-cunxu-service",
+      "title": "辅佐晋王，后病退太原",
+      "summary": "在李存勖救潞州、平河朔时立功，累任刺史，因老病退居太原。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "救潞州及平河朔期间，传中未逐项纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "originalRevision": 1,
+          "originalSha256": "30645ba954c11d8cd64daaf9c39ed73ad42b686905014e09c889e936497cc8bd",
+          "excerpt": "莊宗之救潞州及平河朔，皆有戰功，累為刺史，以老病退居太原。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan-night-sortie",
+      "title": "带病夜出，击退王檀",
+      "summary": "王檀乘晋军主力在外袭太原，安金全向张承业请求库甲，率子弟及退休将校夜出北门，在羊马城袭敌，后援兵到来梁军退走。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "天祐中；王檀袭太原",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "originalRevision": 1,
+          "originalSha256": "30645ba954c11d8cd64daaf9c39ed73ad42b686905014e09c889e936497cc8bd",
+          "excerpt": "金全被甲跨馬，召率子弟及退閑諸將，得數百人。夜出北門，擊賊於羊馬城內，梁人驚潰，由是退卻。俄而石君立自潞州至，汴軍退走。"
+        }
+      ],
+      "notes": [
+        "旧史记所集数百人，新史记百余人；两书数量差异保留，不合成一个数。"
+      ],
+      "variants": [
+        {
+          "label": "《新史》记所集百余人",
+          "sourceDate": "李存勖已下魏博，与梁相距河上时",
+          "summary": "新史记召子弟及故将吏百余人夜出；旧史记子弟及退闲诸将数百人，且明确提石君立来援。两书人数和援兵叙述分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p46",
+              "originalRevision": 1,
+              "originalSha256": "c9b9c9340b0282481f8cfc990d3accd3c8cac2819c00119e4aef55a4f100ae05",
+              "excerpt": "莊宗已下魏博，與梁相距河上。梁將王檀襲太原，晉兵皆從莊宗于河上，太原無備，監軍張承業大恐，率諸司工匠登城扞禦，而外攻甚急。金全彊起謂承業曰：「太原，晉之根本也。一旦不守，則大事去矣！老夫誠憊矣，然尚能為公破賊。」承業喜，授以甲兵。金全被甲跨馬，召率子弟及故將吏得百餘人，夜出北門，擊檀於羊馬城中，檀軍驚潰，而晉救兵稍至。然莊宗不以金全為能，終其世不錄其功。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan-death",
+      "title": "召还后病逝",
+      "summary": "在振武任两年后被召回京，不久病卒。旧史说明治民为政非所长；不以“在任二年”机械倒算精确卒年。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "明宗即位授镇后在任二年；本传无具体卒年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "originalRevision": 1,
+          "originalSha256": "30645ba954c11d8cd64daaf9c39ed73ad42b686905014e09c889e936497cc8bd",
+          "excerpt": "在任二年，治民為政非所長，詔赴闕，俄而病卒。廢視朝二日。"
+        }
+      ]
+    },
+    {
+      "id": "an-jinquan-capture-scouts",
+      "title": "屡擒梁游骑，被称“安五道”",
+      "summary": "旧史记南北对垒时，梁军游骑每出常被他擒获，侦察者因而畏惧，称他安五道；这个称号沿史书的比拟说明，不解释为神异实事。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "南北对垒时，原传末补叙，未记年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p1",
+          "originalRevision": 1,
+          "originalSha256": "30645ba954c11d8cd64daaf9c39ed73ad42b686905014e09c889e936497cc8bd",
+          "excerpt": "初，南北對壘，汴之遊騎每出，必為金全所獲，故梁之偵邏者鹹懼，目之為「安五道」，蓋比鬼將有五道之名也。"
+        }
+      ]
+    }
+  ]
+}

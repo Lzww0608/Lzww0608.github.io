@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-jiji",
+  "events": [
+    {
+      "id": "li-jiji-return-ye",
+      "title": "庄宗出军前随母返邺宫",
+      "summary": "父亲南渡攻梁前，与刘皇后回邺宫，庄宗亲自送别。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "同光元年十月辛未朔",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "是日，皇后劉氏、皇子繼岌歸鄴宮，帝送於離亭，歔欷而別。"
+        }
+      ]
+    },
+    {
+      "id": "li-jiji-shu-commander",
+      "title": "受命西川行营都统，征蜀",
+      "summary": "以魏王、兴圣宫使身份任征蜀都统，郭崇韬为招讨使，九月十八日出发；与实际主持军政者职责分开。",
+      "year": 925,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "同光三年九月十八日出发",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p5",
+          "originalRevision": 1,
+          "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
+          "excerpt": "今命興聖宮使、魏王繼岌充西川四面行營都統，"
+        }
+      ]
+    },
+    {
+      "id": "li-jiji-shu-surrender",
+      "title": "统军受前蜀归降",
+      "summary": "李严带王衍使臣迎魏王，前蜀归降后，郭崇韬主持军政，李继岌作为都统受降和行营指挥。",
+      "year": 925,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "同光三年前蜀归降；本纪十一月魏王至成都、丙辰王衍出降",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p7",
+          "originalRevision": 1,
+          "originalSha256": "1e10392e6ae2250e91092c0900668cfc0ddf1d05f118916a95e7e8c84576afab",
+          "excerpt": "即日，引蜀使歐陽彬迎謁魏王繼岌。"
+        },
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p11",
+          "originalRevision": 1,
+          "originalSha256": "666355629e806007f8b51e783d1bfa2c3221b67ed8740ac9867e21e052879dcf",
+          "excerpt": "其招懷製置，官吏補置，師行籌畫，軍書告諭，皆出於崇韜，繼岌承命而已。"
+        },
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p11",
+          "originalRevision": 1,
+          "originalSha256": "666355629e806007f8b51e783d1bfa2c3221b67ed8740ac9867e21e052879dcf",
+          "excerpt": "王衍以成都降，崇韜居王宗弼之第。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p9",
+          "originalRevision": 1,
+          "originalSha256": "a359ba9403f75ff958178a7fd2dcf6e8ccdd11ba445ad91bde5541549028e33d",
+          "excerpt": "十一月庚寅朔，帝幸壽安，號慟於坤陵。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p10",
+          "originalRevision": 1,
+          "originalSha256": "4f5e74ad181e6078116e91b6897408c0e7cb774f2de8a2835d1b9e925a57c8fb",
+          "excerpt": "乙卯，魏王至西川城北。丙辰，蜀主王衍出降，語在衍傳。"
+        }
+      ]
+    },
+    {
+      "id": "li-jiji-kill-chongtao",
+      "title": "受刘后教令，郭崇韬遭杀",
+      "summary": "起初认为无皇帝诏书，不肯凭皇后教令杀招讨使；后被李从袭等离间催逼，以自己的命召议事，郭崇韬被左右棍杀。",
+      "year": 926,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "同光四年正月六日后诘旦",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v057",
+          "paragraphId": "old-v057-p13",
+          "originalRevision": 1,
+          "originalSha256": "f251efcf4a4779de6b899f9e558d3ed66c38e55112471596954f51e904e4129e",
+          "excerpt": "詰旦，從襲以繼岌之命召崇韜計事，繼岌登樓避之，崇韜入，左右楇殺之。"
+        }
+      ],
+      "notes": [
+        "皇后教令并非天子诏命，不能说奉父皇杀郭。"
+      ]
+    },
+    {
+      "id": "li-jiji-march-home",
+      "title": "正月由成都返，命康延孝殿后",
+      "summary": "率军从成都回朝，康延孝受命领一万二千兵殿后。",
+      "year": 926,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "同光四年正月甲申",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p4",
+          "originalRevision": 1,
+          "originalSha256": "fdb611a9c2f691938a3a6939b36a58f3ec938e060b59e930af1644861d476b11",
+          "excerpt": "四年正月甲申，大軍發成都，繼岌令延孝以一萬二千人為後軍。"
+        }
+      ]
+    },
+    {
+      "id": "li-jiji-appoint-ren",
+      "title": "康延孝回兵时委任任圜讨伐",
+      "summary": "康延孝剑州返兵，李继岌控制吉柏津，行营委任任圜为副招讨，率七千骑追讨。",
+      "year": 926,
+      "sortOrder": 6,
+      "precision": "month",
+      "sourceDate": "同光四年二月康延孝反后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p4",
+          "originalRevision": 1,
+          "originalSha256": "fdb611a9c2f691938a3a6939b36a58f3ec938e060b59e930af1644861d476b11",
+          "excerpt": "夜半，令監軍使李廷安召任圜，因署為副招討使。令圜率兵七千騎，"
+        }
+      ],
+      "notes": [
+        "任圜是魏王行营委任，未写皇帝直接诏任。"
+      ]
+    },
+    {
+      "id": "li-jiji-death-weinan",
+      "title": "渭桥断后军散，命仆勒死自己",
+      "summary": "返程到渭水浮桥已拆，至渭南心腹逃匿；李从袭称时事已去，李继岌哭徘徊后伏床，命李环缢杀。任圜接军东归。",
+      "year": 926,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "同光四年四月，庄宗内难后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v275",
+          "paragraphId": "tongjian-v275-p15",
+          "originalRevision": 1,
+          "originalSha256": "7e53103f0c5d1f0ff298975f0de6da76a06a9194cb84f5f342dff11ce1c9491f",
+          "excerpt": "繼岌徘徊流涕，乃自伏於床，命僕夫李環縊殺之。任圜代將其眾而東。"
+        }
+      ]
+    }
+  ]
+}

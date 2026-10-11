@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wang-chongshi",
+  "events": [
+    {
+      "id": "wang-chongshi-death",
+      "title": "受刘捍谗毁，遭贬赐死",
+      "summary": "王重师擅遣张君练西攻失利，又与接任的刘捍礼遇不和，遭诬通邠岐，被贬而赐死、夷族。旧史正文另记召斩。",
+      "year": 909,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "开平三年五月甲申",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p40",
+          "originalRevision": 1,
+          "originalSha256": "e77dbd3a476c3f0f7c266a1b2940904ae3c7ce1ba066b60247af5de00d24478b",
+          "excerpt": "五月，丁卯，帝命劉知俊乘勝取邠州，知俊難之，辭以闕食，乃召還。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p42",
+          "originalRevision": 1,
+          "originalSha256": "b7721b2e6791f41c44b6b19b5b2d5b1d939624be3fe5ae94bac9d405eed54826",
+          "excerpt": "劉捍至長安，王重師不為禮，捍譖之於帝，雲重師潛與邠、岐通。甲申，貶重師溪州刺史，尋賜自盡，夷其族。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p38",
+          "originalRevision": 1,
+          "originalSha256": "2ecb0c1b439cf05d08a2cb52aab655d38ae6ad2b2ae95916652e083c6295f539",
+          "excerpt": "重師與劉捍故有隙，捍嘗構之太祖，太祖疑之。重師遣其將張君練西攻邠、鳳而不先請，君練兵小敗，太祖以其擅發兵，挫失國威，將召而罪之，遣劉捍代重師。重師不知太祖怒己，捍至，重師不出迎，見之青門，禮又倨，捍因馳白太祖，言重師有二志。太祖益怒，貶重師溪州刺史，再貶崖州司戶參軍，未行，賜死。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p21",
+          "originalRevision": 1,
+          "originalSha256": "2aa0b67db2e099ac29d17e3892d335aebfaeb27676573b70adde2e88bbf18cb2",
+          "excerpt": "太祖神武元聖孝皇帝中開平三年（己巳，公元九零九年）"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史正文记追而斩之",
+          "sourceDate": "开平中",
+          "summary": "旧史正文说追而斩之，夹注通鉴则记赐自尽夷族，分别保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v019",
+              "paragraphId": "old-v019-p6",
+              "originalRevision": 1,
+              "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+              "excerpt": "太祖聞之，怒其專擅，因追而斬之。"
+            }
+          ]
+        },
+        {
+          "label": "新史朱温本纪杀王日",
+          "sourceDate": "开平三年五月己卯",
+          "summary": "新本纪记五月己卯杀王重师；通鉴甲申贬官随后赐自尽，原书记日分别保存不拼成同一日。",
+          "evidence": [
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p22",
+              "originalRevision": 1,
+              "originalSha256": "c0699c3df704e5d1b88c2fb3e73a14295583c65d0ae6adf15f2f8d0d0e336f1c",
+              "excerpt": "開平三年"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p26",
+              "originalRevision": 1,
+              "originalSha256": "e88e7ced22ec6e9a10fe330f0f15073ece24cceae9d80d8b86ff528ebf56bd71",
+              "excerpt": "五月己卯，至自河中，殺佑國軍節度使王重師。"
+            }
+          ],
+          "year": 909
+        }
+      ]
+    },
+    {
+      "id": "wang-chongshi-join",
+      "title": "许昌陷后归朱温，任拔山军",
+      "summary": "王重师许昌陷后归朱温，隶拔山都；文德中掌左右长剑军，征蔡及兖郓、升指挥使，苦战齐鲁五六年，后任颍州的迁官另列。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "中和末至文德、攻兖郓时期，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+          "excerpt": "唐中和末，蔡寇陷許昌，重師脫身而來，太祖異其狀貌，乃隸於拔山都。每於軍前效用，頗出儕類。文德中，令董左右長劍軍。太祖伐上蔡，重師力戰有功。及討兗、鄆，擢為指揮使，奏授檢校右僕射。重師枕戈擐甲五六年，於齊、魯間凡經百餘戰，由是威震敵人。"
+        }
+      ]
+    },
+    {
+      "id": "wang-chongshi-yingzhou",
+      "title": "齐鲁苦战后任颍州",
+      "summary": "王重师连年征战齐鲁后，授检校司空、任颍州刺史；本传未独记授职年，不以中和归附年替代。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "齐鲁五六年战功后寻授，未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+          "excerpt": "重師枕戈擐甲五六年，於齊、魯間凡經百餘戰，由是威震敵人。尋授檢校司空，為潁州刺史。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p36",
+          "originalRevision": 1,
+          "originalSha256": "1ed29ac0c33573b348e993f0dbe2a7bb7c922d72daa84b7d2962050746da2c5d",
+          "excerpt": "重師苦戰齊、魯間，威震鄰敵。遷潁州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "wang-chongshi-puzhou",
+      "title": "负伤仍冒火突入濮州",
+      "summary": "濮州缺口被火堵住，王重师带伤起身，浸湿毡毯覆火，率短兵突入，身再受伤，朱温急令医治。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "乾宁中，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+          "excerpt": "乾寧中，太祖攻濮州，縱兵壞其墉，濮人因屯火塞其壞壘，煙焰亙空，人莫敢越。重師方苦金瘡，臥於軍次，諸將或勉之，乃躍起，命壯士悉取軍中氈罽投水中，擲於火上，重師然後率精銳，持短兵突入，諸軍踵之，濮州乃陷。重師為劍槊所傷，身被八九創，丁壯荷之還營，且將斃矣。太祖驚惜尤甚，曰：「雖得濮壘，而失重師，奈何！」亟命以奇藥療之，彌月始愈。"
+        }
+      ]
+    },
+    {
+      "id": "wang-chongshi-pinglu",
+      "title": "获平卢留后，继征幽沧镇定",
+      "summary": "王重师受伤康复后，旧传记主持平卢留后、授司徒，随后北伐幽沧镇定、与晋交战；新传在王师范降后记青州留后，分别保任官背景。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "旧乾宁濮役后寻知平卢；新王师范降后，未独同一授官日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+          "excerpt": "尋知平盧軍留後，加檢校司徒。其後北伐幽、滄、鎮、定，屢與晉軍接戰，頗得士心，故多勝捷。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新传平卢任职叙次",
+          "sourceDate": "王师范归降之后",
+          "summary": "新史在师范降后表青州留后；旧传在乾宁濮州伤愈后即叙留后，本纪903九月师范降作新传背景，不能据此改旧传叙次。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p37",
+              "originalRevision": 1,
+              "originalSha256": "84fe614c1b2daa9094d88d8231a6fc0d4b3450157492067624397a79880dae81",
+              "excerpt": "王師範降，表重師青州留後，累遷佑國軍節度使、同中書門下平章事。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p9",
+              "originalRevision": 1,
+              "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+              "excerpt": "三年正月甲寅，岐人啟壁"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p10",
+              "originalRevision": 1,
+              "originalSha256": "90193b1e87e35bc667b06a51ace0c5500570ca5605fed14add6476b98c110c92",
+              "excerpt": "九月癸卯，師厚率大軍與王師範戰於臨朐，青軍大敗，殺萬餘人，並擒師範弟師克，即時徙寨以逼其城。辛亥，偏將劉重霸擒棣州刺史邵播來獻。播，師範之謀主也，帝命斃之。戊午，師範舉城請降。青州平。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wang-chongshi-changan",
+      "title": "领雍州节度，威惠安民",
+      "summary": "王重师历经平卢与幽沧镇定战事后，天祐中领雍州节度使、同平章事，治军恤民有威惠。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "天祐中，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "a142576a7c3eec22cae295f359542dcb678c7c9a0bf02ef6111804b875372ff9",
+          "excerpt": "尋知平盧軍留後，加檢校司徒。其後北伐幽、滄、鎮、定，屢與晉軍接戰，頗得士心，故多勝捷。天祐中，授雍州節度使，加同平章事。數年治戎恤民，頗有威惠。"
+        }
+      ]
+    }
+  ]
+}

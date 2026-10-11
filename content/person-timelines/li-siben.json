@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-siben",
+  "events": [
+    {
+      "id": "li-siben-weizhou",
+      "title": "任讨罗弘信先锋",
+      "summary": "李嗣本在魏州战事中任先锋，回师改马军都将。新史记其先锋攻破汤阴。",
+      "year": 898,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "旧史乾宁五年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "五年，討羅宏信於魏州，嗣本為前鋒，師還，改馬軍都將。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p13",
+          "originalRevision": 1,
+          "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+          "excerpt": "從攻羅弘信，以先鋒兵破湯陰。"
+        }
+      ],
+      "notes": [
+        "原传仅记乾宁五年；核对该年号最后一年的实际起讫，都在西历898年，具体月日未定。"
+      ]
+    },
+    {
+      "id": "li-siben-cloud-rebellion",
+      "year": 902,
+      "title": "随李嗣昭平云州叛乱",
+      "summary": "本传记从李嗣昭讨云州王晖，论功加检校司空；嗣昭传把平云州、振武之乱列于天复二年五月，云州都将写作王敬晖，两处姓名按底本分别保留。",
+      "sourceDate": "天复二年五月，李嗣昭传的同役记时",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "從李嗣昭討王暉於雲州，論功加檢校司空。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p5",
+          "originalRevision": 1,
+          "originalSha256": "64fc344f71076e371d2d659b5ac9f356b416f325d89aa1444c6babbd51affb27",
+          "excerpt": "天復元年，河中王珂為汴人所擄，河中晉、絳諸郡皆陷。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p6",
+          "originalRevision": 1,
+          "originalSha256": "661d482239d973291a2091e4ef0215b134fdbc3146a177348e493019a5e7a99a",
+          "excerpt": "明年正月，嗣昭進兵蒲縣。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p6",
+          "originalRevision": 1,
+          "originalSha256": "661d482239d973291a2091e4ef0215b134fdbc3146a177348e493019a5e7a99a",
+          "excerpt": "五月，雲州都將王敬暉據城叛，振武石善友亦為部將契讓所逐，嗣昭皆討平之。"
+        }
+      ],
+      "sortOrder": 2,
+      "phase": "service",
+      "precision": "month",
+      "notes": [
+        "五月是嗣昭传平乱记时；嗣本本传加检校司空未单记授官日。"
+      ]
+    },
+    {
+      "id": "li-siben-lu-siege",
+      "title": "余吾转战，升代州刺史",
+      "summary": "李思安围潞州时，李嗣本从周德威驻余吾，率骑军转战梁兵，多次献俘，升代州刺史；次年解围另列，不把两个年份合成一个时间点。",
+      "year": 907,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天祐四年六月围潞时起；任官未另标日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "汴將李思安之圍潞州也，從周德威軍於餘吾，嗣本率騎軍日與汴人轉鬥，前後獻俘千計，遷代州刺史。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p13",
+          "originalRevision": 1,
+          "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+          "excerpt": "從莊宗破潞州夾城。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p7",
+          "originalRevision": 1,
+          "originalSha256": "da56b3218f2e51635deb149fe2621131039ba984610ff8bf0a570fa734473f8d",
+          "excerpt": "天祐三年，汴人攻滄、景，劉仁恭遣使求援。十一月，嗣昭合燕軍三萬進攻潞州，降丁會，武皇乃以嗣昭為昭義節度使。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p8",
+          "originalRevision": 1,
+          "originalSha256": "b86236770c52e57f7c81ea102d47f154a4ebfc63a13dbacb58c0362b64194d73",
+          "excerpt": "四年六月，汴將李思安將兵十萬攻潞州，乃築夾城，深溝高壘，內外重復，飛走路絕。嗣昭撫循士眾，登城拒守，梁祖馳書說誘百端，嗣昭焚其偽詔，斬其使者，"
+        }
+      ],
+      "notes": [
+        "907年对应围潞阶段，升代州的具体授官日期未单记。"
+      ]
+    },
+    {
+      "id": "li-siben-lu-relief",
+      "year": 908,
+      "title": "随李存勖攻破潞州夹城",
+      "summary": "新史记嗣本跟随李存勖破潞州夹城；嗣昭传记天祐五年五月李存勖败汴军、破夹城，作为该战役日期旁证。",
+      "sourceDate": "天祐五年五月",
+      "evidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p13",
+          "originalRevision": 1,
+          "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+          "excerpt": "從莊宗破潞州夾城。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p8",
+          "originalRevision": 1,
+          "originalSha256": "b86236770c52e57f7c81ea102d47f154a4ebfc63a13dbacb58c0362b64194d73",
+          "excerpt": "五年五月，莊宗敗汴軍，破夾城。"
+        }
+      ],
+      "sortOrder": 4,
+      "phase": "service",
+      "precision": "month"
+    },
+    {
+      "id": "li-siben-guyuancheng",
+      "title": "击刘鄩后还镇振武",
+      "summary": "随李存勖在故元城击败刘鄩，收洺、磁、卫三郡，六月回振武本镇。",
+      "year": 916,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "天祐十三年；六月还镇",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "十二年，莊宗定魏博，劉鄩據莘縣，命嗣本入太原巡守都城，十三年，從破劉鄩於故元城，收洺、磁、衛三郡。六月，還鎮振武。"
+        }
+      ]
+    },
+    {
+      "id": "li-siben-end",
+      "title": "振武陷落，后事两史不同",
+      "summary": "旧史记李嗣本守振武，城破后举族入契丹；新史则把其结局记为契丹攻蔚州时战死。两说分别保存。",
+      "year": 916,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "旧史天祐十三年八月；新史同年归镇后接叙",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "八月，契丹阿保機傾塞犯邊，其眾三十萬攻振武，嗣本嬰城拒戰者累日。契丹為火車地道，晝夜急攻，城中兵少，禦備罄竭，城陷，嗣本舉族入契丹。有子八人，四人陷於幕庭。嗣本性剛烈，有節義，善戰多謀，然治郡民，頗傷苛急，人以此少之也。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记战死蔚州",
+          "sourceDate": "天祐十三年六月还军后，未另记月日",
+          "year": 916,
+          "summary": "新史称契丹入代北、攻蔚州，李嗣本战没，与旧史振武城陷入契丹不同。",
+          "evidence": [
+            {
+              "chapterId": "new-v36",
+              "paragraphId": "new-v36-p13",
+              "originalRevision": 1,
+              "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+              "excerpt": "契丹入代北，攻蔚州，嗣本戰歿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-siben-jin-jiang",
+      "title": "参与晋绛战役，任蕃汉副使都校",
+      "summary": "旧史明确天祐六年随军进攻晋、绛，任蕃汉副使都校；监护李克用丧事与转云中等职另列未定年，不随此条排在909年。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "天祐六年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "六年，從攻晉、絳，為蕃漢副使都校。及武皇喪事有日，嗣本監護其事，改雲中防禦使、雲蔚應朔等州都知兵馬使，加特進、檢校太保。"
+        }
+      ],
+      "notes": [
+        "丧事日期不能直接用李克用的死亡年或本段前句六年替代。",
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      }
+    },
+    {
+      "id": "li-siben-yanzhou",
+      "title": "率代北诸军讨燕，收山后八军",
+      "summary": "周德威讨刘守光，李嗣本率代北诸军及生熟吐浑部众，收山后八军，得到卢文进、高行珪。幽州平后的节镇任职另列后事，不提早到出师年。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "天祐九年出师",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "九年，周德威討劉守光，嗣本率代北諸軍、生熟吐渾，收山後八軍，得納降軍使盧文進、武州刺史高行珪以獻。幽州平，論功授振武節度使，號「威信可汗」。"
+        }
+      ],
+      "notes": [
+        "本传与幽州平后授职接叙，不能将授职也视为912年。",
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      }
+    },
+    {
+      "id": "li-siben-taiyuan",
+      "title": "魏博战事中回太原巡守",
+      "summary": "晋王平魏博，刘鄩据莘县时，命李嗣本入太原巡守都城。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "天祐十二年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "十二年，莊宗定魏博，劉鄩據莘縣，命嗣本入太原巡守都城，十三年，從破劉鄩於故元城，收洺、磁、衛三郡。"
+        }
+      ],
+      "yearRange": {
+        "start": 915,
+        "end": 916
+      },
+      "notes": [
+        "原书记年未记本事月日；该传统年份跨两个西历年份，以范围显示，不把年号起算年当作唯一发生年。"
+      ]
+    },
+    {
+      "id": "li-siben-early",
+      "title": "早年事李克用，获赐姓名",
+      "summary": "李嗣本本姓张，雁门人，早年任李克用帐中亲随，渐补军校；新史明确记收为养子。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "少事太祖，未记具体年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "李嗣本，雁門人，本姓張。父準，銅冶鎮將。嗣本少事武皇，為帳中紀綱，漸立戰功，得補軍校。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p13",
+          "originalRevision": 1,
+          "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+          "excerpt": "嗣本少事太祖，太祖愛之，賜以姓名，養為子。"
+        }
+      ]
+    },
+    {
+      "id": "li-siben-juyong",
+      "title": "攻居庸关后任义儿军使",
+      "summary": "随军讨李匡俦为先锋，取得居庸关，因功任义儿军使，获赐姓名；后来又随征王行瑜。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "sourceDate": "乾宁中；旧史未在本传标各役确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "乾寧中，從征李匡儔為前鋒，與燕人戰，得居庸關，以功為義兒軍使，因賜姓名。從討王行瑜，授檢校刑部尚書，改威遠、寧塞等軍使。"
+        }
+      ]
+    },
+    {
+      "id": "li-siben-funeral-and-cloud-post",
+      "year": null,
+      "title": "监护李克用丧事，后转云中军职",
+      "summary": "本传接天祐六年之后记李克用丧葬日期确定，嗣本监督护持，改云中防御使及云、蔚、应、朔等州都知兵马使，加特进、检校太保。李克用本纪记五年正月死亡，但死亡日不能当作这项葬事及授官日。",
+      "sourceDate": "武皇丧事有日，本传接六年后叙，未单列葬期/授官年月",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "及武皇喪事有日，嗣本監護其事，改雲中防禦使、雲蔚應朔等州都知兵馬使，加特進、檢校太保。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p41",
+          "originalRevision": 1,
+          "originalSha256": "96d941a29b89fa8b41c8811d4dbdf76e9d423309dddfbcc8859fa6266df179ce",
+          "excerpt": "天祐五年正月戊子朔，武皇疾革。辛卯，崩於晉陽，年五十三。遣令薄葬，發喪後二十七日除服。"
+        }
+      ],
+      "sortOrder": 12,
+      "phase": "uncertain",
+      "precision": "undated"
+    },
+    {
+      "id": "li-siben-zhenwu-appointment",
+      "year": null,
+      "title": "幽州平后，授振武节度使、威信可汗",
+      "summary": "旧史记幽州平后论功授振武节度使，号威信可汗；新史记累战功历任代州、云州、振武等职。授职未独记年，不将其自动放在912年出师或913年平城当日。",
+      "sourceDate": "幽州平后，未单记授职年",
+      "evidence": [
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p21",
+          "originalRevision": 1,
+          "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+          "excerpt": "幽州平，論功授振武節度使，號「威信可汗」。"
+        },
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p13",
+          "originalRevision": 1,
+          "originalSha256": "434d0ecc73b124f94613d9904385ed2256799d3a297df7a86e548fa36e61c28d",
+          "excerpt": "累以戰功遷代州刺史、雲州防禦使、振武節度使，號威信可汗。"
+        }
+      ],
+      "sortOrder": 13,
+      "phase": "uncertain",
+      "precision": "undated"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "pang-shigu",
+  "events": [
+    {
+      "id": "pang-shigu-luliang",
+      "title": "攻宿迁，吕梁败时溥",
+      "summary": "庞师古攻宿迁并驻吕梁，击败时溥两万军；新史朱温本纪明记龙纪元年正月吕梁战。",
+      "year": 889,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "龙纪元年正月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p26",
+          "originalRevision": 1,
+          "originalSha256": "2535a8f07ecbff53b1a14172d24bc4cb31e2a9e0405767b4e34cdf1ee7018561",
+          "excerpt": "太祖攻時溥未下，留兵屬師古守之，師古取其宿遷，進屯呂梁。溥以兵二萬出戰，師古敗之，斬首二千級。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p7",
+          "originalRevision": 1,
+          "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+          "excerpt": "龍紀元年正月，師古敗溥于呂梁。"
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-general",
+      "title": "朱珍被诛后接任都指挥使",
+      "summary": "朱珍因罪被诛后，庞师古接任都指挥使；新史记他与霍存分别接管朱珍和李唐宾的军队。",
+      "year": 889,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "龙纪元年朱珍被诛后，新本纪七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "及朱珍以罪誅，遂用師古為都指揮使。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p7",
+          "originalRevision": 1,
+          "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+          "excerpt": "龍紀元年正月，師古敗溥于呂梁。淮西牙將申叢執秦宗權，折其足，將檻送京師；別將郭璠殺叢，篡宗權以來獻。王遣行軍司馬李璠獻俘于京師，表郭璠淮西留後。三月，天子封王為東平王。七月，朱珍殺李唐賓，王如蕭縣，執珍殺之"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p26",
+          "originalRevision": 1,
+          "originalSha256": "2535a8f07ecbff53b1a14172d24bc4cb31e2a9e0405767b4e34cdf1ee7018561",
+          "excerpt": "是時，朱珍、李唐賓已死，師古與霍存分將其兵。"
+        }
+      ],
+      "notes": [
+        "淮南后续征战另列未定年，不全部系889。"
+      ]
+    },
+    {
+      "id": "pang-shigu-xuzhou",
+      "title": "代朱友裕，攻破徐州",
+      "summary": "庞师古接朱友裕军权，攻徐州、杀时溥，受徐州留后之任。",
+      "year": 893,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "景福二年徐州城破；本传接叙未另标月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "尋代朱友裕領軍，攻下徐州，斬時溥首以獻。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p26",
+          "originalRevision": 1,
+          "originalSha256": "2535a8f07ecbff53b1a14172d24bc4cb31e2a9e0405767b4e34cdf1ee7018561",
+          "excerpt": "師古攻破徐州，斬溥，太祖表師古徐州留後。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p43",
+          "originalRevision": 1,
+          "originalSha256": "0b01979c9c22e4033a81046644bdc318f309a65e8158b9abb70d7dc5ebc87273",
+          "excerpt": "景福元年正月，遣丁會于兗州界徙其民數千戶于許州。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p47",
+          "originalRevision": 1,
+          "originalSha256": "36f43a5787fe5a426ad5fc4d79dc4dd0f79081fdde26c8c7214ab6cb71494826",
+          "excerpt": "二年四月丁丑，師古下彭門，梟溥首以獻。"
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-yunzhou",
+      "title": "攻取郓州，擒朱瑄",
+      "summary": "庞师古统军攻郓，擒朱瑄、受天平留后；新史详夜架桥渡济。之后转徐州节度的任命未独年，另列。",
+      "year": 897,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "乾宁四年正月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "乾寧四年正月，復統諸軍伐鄆，拔之，擒其帥朱瑄以獻，始表為天平軍節度留後"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p26",
+          "originalRevision": 1,
+          "originalSha256": "2535a8f07ecbff53b1a14172d24bc4cb31e2a9e0405767b4e34cdf1ee7018561",
+          "excerpt": "梁兵攻鄆州，臨濟水，師古徹木為橋，夜以中軍先濟。朱宣走中都，見殺。"
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-death",
+      "title": "清口不迁低营，败死",
+      "summary": "庞师古与葛从周分路攻淮南，清口低地扎营、不听迁营意见；斩报水者后，营陷泥水、受淮军袭击而败死。",
+      "year": 897,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "乾宁四年八月出师、十一月清口败",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "乾寧四年八月，與葛從周分統大軍，渡淮以伐楊行密。十一月，師古寨於清口，寨地卑下，〈（《玉堂閑話》云：龐從會軍五萬於清口，所屯之地，蓋兵書謂之絕地，人不駕肩，行一舍方至夷坦之處。）〉或請遷移，弗聽。俄有告淮人決上流者，曰：「水至矣。」師古怒其惑眾，斬之。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "）〉須臾，我軍在淖中，莫能戰，而吳人襲焉，故及於敗，師古沒於陣。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p27",
+          "originalRevision": 1,
+          "originalSha256": "875d863c72c153712e74e760fb26e5062c591c10315531b97b6b5ff625399edf",
+          "excerpt": "師古營清口，地勢卑，或請就高為柵，師古以非太祖命不聽。淮人決水浸之，請者告曰：「淮人決河，上流水至矣！」師古以為搖動士卒，立斬之。已而水至，兵不能戰，遂見殺。"
+        }
+      ],
+      "notes": [
+        "新旧史正文均记斩报水者。旧史夹引九国志又有侯瓒与朱瑾袭杀的记法，正式另列，不拼成已核共同过程。"
+      ],
+      "variants": [
+        {
+          "label": "旧史夹引九国志侯瓒传",
+          "sourceDate": "清口败役，引用未独日",
+          "summary": "引书称朱瑾与侯瓒五十骑从壘北突入，斩庞从；与正文泥水袭营分别保留叙述归属。",
+          "evidence": [
+            {
+              "chapterId": "old-v021",
+              "paragraphId": "old-v021-p2",
+              "originalRevision": 1,
+              "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+              "excerpt": "〈（《九國誌·侯讚傳》：時兵起倉卒，加以陰寒，士皆飲冰餐雪而行。甫及梁營，則豎戈植足，鬥志未決。朱瑾與瓚率五十騎潛濟淮，入自壘北，舞槊而馳，囂聲雷沸，梁兵皆殞眩不能舉，遂斬龐從，大將繼之，死者大半。）〉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-early",
+      "title": "统领宣武早期骑军",
+      "summary": "庞师古原名庞从，早随朱温为亲随。宣武刚建立五百匹马的骑兵时，他被任为部将，参加援陈破蔡。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "太祖镇汴之初，未記本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "龐師古，曹州南華人，初名從。以中涓從太祖，性端願，未嘗離左右。及太祖鎮汴，樹置戎伍，始得馬五百匹，即以師古為偏將，援陳破蔡，累有戰功。及朱珍以罪誅，遂用師古為都指揮使。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p25",
+          "originalRevision": 1,
+          "originalSha256": "564a3e41f3b2e65d36f17ef687909ea6ee677f122f0812bab2f5df0c74932a3c",
+          "excerpt": "龐師古，曹州南華人也，初名從。梁太祖鎮宣武，初得馬五百匹為騎兵，乃以師古將之，從破黃巢、秦宗權，皆有功。"
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-sunru",
+      "title": "渡淮攻孙儒，两史战果有别",
+      "summary": "庞师古渡淮赴庐寿，攻滁、天长、高邮；旧史强调沿淮克捷，新史记攻孙儒被击败，两书分别呈现。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "朱珍死后接续淮南战事，未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "乃渡淮，餉軍於廬壽，攻滁州，破天長，下高郵，沿淮轉戰，所至克捷。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史攻孙儒败",
+          "sourceDate": "孙儒取扬州、淮南大乱时",
+          "summary": "新史明确梁军被孙儒击败，不把旧史概称克捷改成两书一致全胜。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p26",
+              "originalRevision": 1,
+              "originalSha256": "2535a8f07ecbff53b1a14172d24bc4cb31e2a9e0405767b4e34cdf1ee7018561",
+              "excerpt": "孫儒逐楊行密，取揚州，淮南大亂，太祖遣師古渡淮攻儒，為儒所敗。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-yanzhou",
+      "title": "转攻兖郓，击朱瑄朱瑾",
+      "summary": "庞师古由徐州转军攻兖，屯梁山败朱瑄，又在清河及故乐亭与朱瑄、朱瑾等交战。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "徐州破后至取郓州前，未逐役记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "遂移軍伐兗州，入中都，寨於梁山，敗朱瑄之眾，襲至壘下；又破朱瑾於清河。從討汶陽，與朱瑄、朱瑾及晉將史儼兒戰於故樂亭，大捷而回。"
+        }
+      ]
+    },
+    {
+      "id": "pang-shigu-xu-governor",
+      "title": "继天平留后后授徐州节度",
+      "summary": "庞师古取郓州受天平留后之后，又获徐州节度、检校司徒；本传未独记这次正式授职日期，不把随后强系正月取郓日。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "乾宁四年正月取郓后“寻授”，未独授职年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p2",
+          "originalRevision": 1,
+          "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+          "excerpt": "始表為天平軍節度留後，尋授徐州節度使，官至檢校司徒。"
+        }
+      ]
+    }
+  ]
+}

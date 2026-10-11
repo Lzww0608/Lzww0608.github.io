@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "xie-yanzhang",
+  "events": [
+    {
+      "id": "xie-yanzhang-xingtai",
+      "title": "在行台任排阵使，与贺瑰对晋",
+      "summary": "贺瑰传明确贞明四年八月与谢彦章领军驻行台，谢为排阵使、擅长统骑。旧谢传记冬，新史只记四年，驻营月份与后来的将帅不协分读。",
+      "year": 918,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "贞明四年八月；旧谢传作冬，新史仅作四年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p15",
+          "originalRevision": 1,
+          "originalSha256": "2c4ff0bc26237f5eac5196724fb5c46500d1deac9eec4cfedf5f2ce38f5d76e0",
+          "excerpt": "四年春，晉人取楊劉城據之。八月，瑰與許州節度使謝彥章領大軍營於濮州之行台村，對壘數月。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p33",
+          "originalRevision": 1,
+          "originalSha256": "426bcd3f4cdbf6f6c6981d3e8bfb815bab24287c814edc8efe7f2e933e7a6529",
+          "excerpt": "貞明四年，晉攻河北，賀瓌為北面招討使，彥章為排陣使，屯于行臺。彥章為將，好禮儒士，雖居軍中，嘗儒服，或臨敵御眾，肅然有將帥之威，左右馳驟，疾若風雨。晉人望其行陣齊整，相謂曰：「謝彥章必在此也！」其名重敵中如此。"
+        }
+      ],
+      "notes": [
+        "驻军日期粒度原书各异，不将这一时段与随后十二月被杀混为同日。"
+      ],
+      "variants": [
+        {
+          "label": "旧谢传记冬",
+          "sourceDate": "贞明四年冬，未独月",
+          "summary": "旧谢传在冬叙两将军职与行台对垒，不把整个冬季压为西历918；主读入口以贺瑰传明确八月918驻营为年锚。",
+          "evidence": [
+            {
+              "chapterId": "old-v016",
+              "paragraphId": "old-v016-p9",
+              "originalRevision": 1,
+              "originalSha256": "5cf5779b87127c078a82f313d8f31a6088730e235f3a5bbf3ba8f1671710d470",
+              "excerpt": "貞明四年冬，滑州節度使賀瑰為北面招討使，彥章為排陣使，同領大軍，駐於行台寨，與晉人對壘。彥章時領騎軍與之挑戰，晉人或望我軍行陣整肅，則相謂曰：「必兩京太傅在此也。」不敢以名呼，其為敵人所憚如此。是時咸謂賀瑰能將步軍，彥章能領騎士，既名聲相軋，故瑰心忌之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xie-yanzhang-death",
+      "title": "被贺瑰、朱珪伏甲杀害",
+      "summary": "朱珪诬谢彦章将反，贺瑰与其合谋，在犒军时伏甲杀谢彦章、孟审澄、侯温裕，报作谋反。",
+      "year": 919,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "贞明四年十二月，已跨919年",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p15",
+          "originalRevision": 1,
+          "originalSha256": "2c4ff0bc26237f5eac5196724fb5c46500d1deac9eec4cfedf5f2ce38f5d76e0",
+          "excerpt": "先是，瑰與彥章不協，是歲冬十二月，復為諸軍都虞候朱珪所構，瑰乃伏甲士，殺彥章及濮州刺史孟審澄、別將侯溫裕等於軍，以謀叛聞。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p33",
+          "originalRevision": 1,
+          "originalSha256": "426bcd3f4cdbf6f6c6981d3e8bfb815bab24287c814edc8efe7f2e933e7a6529",
+          "excerpt": "彥章故與馬步都虞候朱珪有隙，瓌欲速戰，彥章請持重以老敵，珪乃誣彥章以為將反。瓌旦享士，使珪伏甲殺之，審澄、溫裕皆見害。"
+        }
+      ]
+    },
+    {
+      "id": "xie-yanzhang-early",
+      "title": "葛从周收养，授兵法",
+      "summary": "谢彦章幼由葛从周收养，学习排阵进退，成年事朱温为骑将，长于统骑。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "幼年至成年，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "5cf5779b87127c078a82f313d8f31a6088730e235f3a5bbf3ba8f1671710d470",
+          "excerpt": "幼事從周為養父，從周憐其敏慧，教以兵法，常以千錢於大盤中，布其行陣偏伍之狀，示以出沒進退之節，彥章盡得其訣。及壯，事太祖為騎將。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p32",
+          "originalRevision": 1,
+          "originalSha256": "4875a1979e216920a0072919494df64c42861cebeb6de8fd902646e75a5fb13f",
+          "excerpt": "謝彥章，許州人也。幼事葛從周，從周憐其敏惠，養以為子，授之兵法，從周以千錢置大盤中，為行陣偏伍之狀，示以出入進退之節，彥章盡得之。及壯，事梁太祖為騎將。是時，賀瓌善用步卒，而彥章與孟審澄、侯溫裕皆善將騎兵，審澄、溫裕所將不過三千，彥章多而益辦。"
+        }
+      ]
+    },
+    {
+      "id": "xie-yanzhang-commands",
+      "title": "末帝授骑军帅与养父丧葬",
+      "summary": "梁末帝用谢彦章为两京马军都军使，交晋有功、领河阳；葛从周去世，谢临丧服丧并亲自参与葬事，后来任许州节度、检校太傅。各职与丧葬未独记年。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "梁末帝嗣位后军职及葛从周去世后，未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "5cf5779b87127c078a82f313d8f31a6088730e235f3a5bbf3ba8f1671710d470",
+          "excerpt": "末帝嗣位，用為兩京馬軍都軍使，累與晉軍接戰有功，尋領河陽節度使。及從周卒，臨喪行服，躬預葬事，時人義之。彥章後為許州節度使、檢校太傅。"
+        }
+      ]
+    },
+    {
+      "id": "xie-yanzhang-hold-conflict",
+      "title": "主张持重，遭贺瑰疑忌",
+      "summary": "谢彦章善统骑，贺瑰善步军，贺忌其声望；见晋军占据两人先察的营地后，又疑谢暗通敌。谢主张持重疲敌，与贺求速战相争，成为后来诬杀的前因，未独记发生日。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "行台对垒期间、被诬杀之前，未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "5cf5779b87127c078a82f313d8f31a6088730e235f3a5bbf3ba8f1671710d470",
+          "excerpt": "是時咸謂賀瑰能將步軍，彥章能領騎士，既名聲相軋，故瑰心忌之。一日，與瑰同設伏於郊外，瑰指一方地謂彥章曰：「此地岡阜隆起，中央坦夷，好列柵之所。」尋而晉人舍之，故瑰疑彥章與晉人通；又瑰欲速戰，彥章欲持重以老敵人，瑰益疑之。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p33",
+          "originalRevision": 1,
+          "originalSha256": "426bcd3f4cdbf6f6c6981d3e8bfb815bab24287c814edc8efe7f2e933e7a6529",
+          "excerpt": "瓌心忌之。彥章與瓌行視郊外，瓌指一地語彥章曰：「此地岡阜隆起，其中坦然，營柵之地也。」已而晉兵柵之，瓌疑彥章陰以告晉，益惡之。彥章故與馬步都虞候朱珪有隙，瓌欲速戰，彥章請持重以老敵，珪乃誣彥章以為將反。"
+        }
+      ]
+    }
+  ]
+}

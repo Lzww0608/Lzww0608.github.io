@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-zhiyuan",
+  "events": [
+    {
+      "id": "liu-zhiyuan-birth",
+      "title": "生于太原",
+      "summary": "母安氏于太原生下刘知远；原书说其先世本为沙陀部人。",
+      "year": 895,
+      "sortOrder": 0,
+      "precision": "day",
+      "sourceDate": "唐乾宁二年二月四日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p1",
+          "originalRevision": 1,
+          "originalSha256": "c0d85935b9d915427a90e314f51e3ae86d5fe40447ba039ceec9c5bb5668eda8",
+          "excerpt": "皇妣吳國太夫人安氏，追謚章懿皇后。後以唐乾寧二年，歲在乙卯，二月四日生帝於太原。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-weizhou",
+      "title": "卫州护石敬瑭并杀闵帝随从",
+      "summary": "石敬瑭与出奔的李从厚在卫州相遇，刘知远部署石敢防变，事发后率兵杀死闵帝随从；不是一般护卫任职。",
+      "year": 934,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "后唐应顺初；闵帝出奔时",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p2",
+          "originalRevision": 1,
+          "originalSha256": "d0a7bca880dca54b968f0f28a2b6ad5f91eb8159f1e3b128d3e90ea52134386d",
+          "excerpt": "知遠遣勇士石敢袖鐵槌侍高祖以虞變。高祖與愍帝議事未決，左右欲兵之，知遠擁高祖入室，敢與左右格鬬而死，知遠即率兵盡殺愍帝左右，留帝傳舍而去。"
+        }
+      ],
+      "notes": [
+        "旧史本纪此处写“唐明宗召赴阙”，与当时明宗已卒的上下文不合，未据此改变人物或时序。"
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-taiyuan-coup",
+      "title": "参与石敬瑭太原起兵",
+      "summary": "刘知远与桑维翰秘密协助石敬瑭谋划，在石敬瑭奉命调镇后支持起兵。",
+      "year": 936,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "后唐清泰三年夏",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p3",
+          "originalRevision": 1,
+          "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258",
+          "excerpt": "三年夏，移鎮汶陽。帝勸晉高祖舉義，贊成密計，經綸之始，中外賴之。晉高祖以帝為北京馬步軍都指揮使。"
+        },
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p3",
+          "originalRevision": 1,
+          "originalSha256": "c6a9d2faad7a7a6f2cedb8bbb0176e4cba86e2a396dc160c53b12e7aec605cf8",
+          "excerpt": "高祖將舉兵，知遠與桑維翰密為高祖謀畫，贊成之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-kill-prisoners",
+      "title": "杀晋阳降军",
+      "summary": "契丹援军击败张敬达军后，石敬瑭打算将降军编入亲卫，刘知远杀死这一千余人。",
+      "year": 936,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "清泰三年；晋阳援战后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p3",
+          "originalRevision": 1,
+          "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258",
+          "excerpt": "及契丹以全軍赴難，大破張敬達之眾於晉陽城下，有降軍千餘人，晉高祖將置之於親衛，帝盡殺之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-jin-military",
+      "title": "晋初统禁军并领保义",
+      "summary": "后晋建立后任侍卫亲军都虞候，领保义军节度使；入洛阳后奉命巡警都城。",
+      "year": 936,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "晋国初建",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p3",
+          "originalRevision": 1,
+          "originalSha256": "c6a9d2faad7a7a6f2cedb8bbb0176e4cba86e2a396dc160c53b12e7aec605cf8",
+          "excerpt": "高祖即位於太原，以知遠為侍衞親軍都虞候，領保義軍節度使。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p3",
+          "originalRevision": 1,
+          "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258",
+          "excerpt": "晉高祖入洛，委帝巡警，都邑肅然，無敢犯令。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-xuzhou",
+      "title": "移任许州而继续典军",
+      "summary": "加检校太保后改许州节度使，仍统领禁军。",
+      "year": 937,
+      "sortOrder": 5,
+      "precision": "month",
+      "sourceDate": "后晋天福二年四月、八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "天福二年夏四月，加檢校太保。八月，改許州節度使，典軍如故。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-du-reward",
+      "title": "升禁军统帅并领宋州",
+      "summary": "旧史记十月授侍卫亲军马步军都指挥使，十一月领宋州并加检校太尉。",
+      "year": 938,
+      "sortOrder": 6,
+      "precision": "month",
+      "sourceDate": "后晋天福三年十月、十一月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "冬十月，授侍衛親軍馬步軍都指揮使。十一月，移授宋州，加檢校太尉。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史禁军统帅任期",
+          "year": 937,
+          "sourceDate": "天福二年",
+          "summary": "新史将迁侍卫马步军都指挥使记在天福二年，旧史记三年十月；不将两书合为同一确定任命日。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p4",
+              "originalRevision": 1,
+              "originalSha256": "df519e68f7fecf14d57b43009203e6827ae6e5da03a64a0bde65dc95305f2a0d",
+              "excerpt": "天福二年，遷侍衞馬步軍都指揮使，領忠武軍節度使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-yedu",
+      "title": "任邺都留守",
+      "summary": "转任邺都留守，兼侍卫亲军马步军都指挥使；九月赴朝，石敬瑭亲临其宅。",
+      "year": 940,
+      "sortOrder": 7,
+      "precision": "month",
+      "sourceDate": "后晋天福五年三月、九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "五年三月，改鄴都留守兼侍衛親軍馬步軍都指揮使。九月，奉詔赴闕，晉高祖幸其第。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-hedong",
+      "title": "镇河东留守北京",
+      "summary": "授河东节度使、北京留守，自此在太原积累地方军政力量。",
+      "year": 941,
+      "sortOrder": 8,
+      "precision": "month",
+      "sourceDate": "后晋天福六年七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "六年七月，授北京留守、河東節度使。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-chudi-rank",
+      "title": "出帝朝进中书令",
+      "summary": "晋高祖去世后受出帝加检校太师，次年三月进中书令；新史指出出帝优待中也怀疑其异志。",
+      "year": 943,
+      "sortOrder": 9,
+      "precision": "month",
+      "sourceDate": "后晋天福八年三月；前接七年六月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "六月，晉高祖崩於鄴宮，少帝即位，加帝檢校太師。八年三月，進位中書令。"
+        },
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p5",
+          "originalRevision": 1,
+          "originalSha256": "d4d0193d1a2a9aecf637f4adbc1f1dfb840d610ef67c0bd83b0cf0ae03bd743f",
+          "excerpt": "常疑知遠勳位已高，幸晉多故而有異志，每優尊之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-xinkou",
+      "title": "击败攻雁门的契丹军",
+      "summary": "受幽州道行营招讨使任命，在忻口击败契丹伟王；奉诏至乐平，遇契丹退兵而返。",
+      "year": 944,
+      "sortOrder": 10,
+      "precision": "month",
+      "sourceDate": "后晋开运元年正月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+          "excerpt": "開運元年正月，契丹南下，契丹主以大軍直抵澶州，遣蕃將偉王率兵入雁門。朝廷以帝為幽州道行營招討使，帝大破偉王於忻口。尋奉詔起兵至土門，軍至樂平，會契丹退，乃還。"
+        }
+      ],
+      "notes": [
+        "新史称击败于秀容，与旧史忻口地名分别保留。"
+      ],
+      "variants": [
+        {
+          "label": "新史秀容地名",
+          "year": 944,
+          "sourceDate": "契丹寇澶州、分兵雁门时",
+          "summary": "新史记败伟王于秀容，旧史记忻口。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p5",
+              "originalRevision": 1,
+              "originalSha256": "d4d0193d1a2a9aecf637f4adbc1f1dfb840d610ef67c0bd83b0cf0ae03bd743f",
+              "excerpt": "契丹寇澶州，別遣偉王攻鴈門，敗之于秀容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-taiyuan-prince",
+      "title": "封太原王兼北面都统",
+      "summary": "三月封太原王，七月兼北面行营都统。",
+      "year": 944,
+      "sortOrder": 11,
+      "precision": "month",
+      "sourceDate": "后晋开运元年三月、七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+          "excerpt": "三月，封太原王。七月，兼北面行營都統。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-beiping-prince",
+      "title": "封北平王",
+      "summary": "在出帝朝进封北平王；这是藩臣封爵，不是后汉皇帝即位。",
+      "year": 945,
+      "sortOrder": 12,
+      "precision": "month",
+      "sourceDate": "后晋开运二年四月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+          "excerpt": "二年四月，封北平王。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-bai-chengfu",
+      "title": "杀白承福五族",
+      "summary": "诛杀吐浑白承福等五族共四百人，以王义宗统领余众；新史另记夺取大量财物和良马。",
+      "year": 946,
+      "sortOrder": 13,
+      "precision": "month",
+      "sourceDate": "旧史开运三年五月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+          "excerpt": "是月，帝誅吐渾白承福等五族凡四百人，以別部王義宗統其餘眾。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史纪月及所得",
+          "year": 946,
+          "sourceDate": "开运三年八月",
+          "summary": "新史记八月杀白承福等族，取财物和良马，与旧史五月不同。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p5",
+              "originalRevision": 1,
+              "originalSha256": "d4d0193d1a2a9aecf637f4adbc1f1dfb840d610ef67c0bd83b0cf0ae03bd743f",
+              "excerpt": "八月，殺吐渾白承福等族，取其貲鉅萬，良馬數千。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-yangwu",
+      "title": "阳武谷破契丹",
+      "summary": "契丹犯塞，亲率牙兵至朔州南面的阳武谷，大败来敌。",
+      "year": 946,
+      "sortOrder": 14,
+      "precision": "month",
+      "sourceDate": "后晋开运三年九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+          "excerpt": "九月，契丹犯塞，帝親率牙兵至朔州南陽武谷，大破之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-liao-mission",
+      "title": "遣王峻向契丹奉表",
+      "summary": "晋亡后派王峻向契丹奉表，受耶律德光称儿和赐木拐；王峻回来报告契丹政乱，刘知远开始谋建帝号。",
+      "year": 947,
+      "sortOrder": 15,
+      "precision": "month",
+      "sourceDate": "天福十二年二月；此前晋亡",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p6",
+          "originalRevision": 1,
+          "originalSha256": "6559ed4bc68d171b1a6cf5a90fd827fac2b8797563e4ccdc77fcb7abd56e5b9b",
+          "excerpt": "是月，帝遣牙將王峻奉表於契丹，契丹主賜詔褒美，呼帝為兒，又賜木拐一。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p6",
+          "originalRevision": 1,
+          "originalSha256": "6559ed4bc68d171b1a6cf5a90fd827fac2b8797563e4ccdc77fcb7abd56e5b9b",
+          "excerpt": "及峻至太原，帝知契丹政亂，乃議建號焉。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-accession",
+      "title": "太原即皇帝位",
+      "summary": "文武将吏反复劝进后，在太原宫接受册书即皇帝位，把开运四年追改为天福十二年；国号汉在六月另行宣布。",
+      "year": 947,
+      "sortOrder": 16,
+      "precision": "day",
+      "sourceDate": "天福十二年二月辛未",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p7",
+          "originalRevision": 1,
+          "originalSha256": "8d695d12f7bd63023106589101ed452649cac2280044515cf1366254e59f3b54",
+          "excerpt": "辛未，帝於太原宮受冊，即皇帝位，制改晉開運四年為天福十二年。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-rescue-jin",
+      "title": "拟迎被迁的晋帝未及",
+      "summary": "率亲兵向土门路前去迎接被契丹北迁的晋帝，到寿阳得知对方已过，遂返回。",
+      "year": 947,
+      "sortOrder": 17,
+      "precision": "day",
+      "sourceDate": "天福十二年二月甲戌",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p7",
+          "originalRevision": 1,
+          "originalSha256": "8d695d12f7bd63023106589101ed452649cac2280044515cf1366254e59f3b54",
+          "excerpt": "甲戌，帝以晉帝舉族北遷，憤惋久之。是日，率親兵趨土門路，邀迎晉帝至壽陽，聞其已過，乃還。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-hedong-taxes",
+      "title": "免河东额外征配",
+      "summary": "下诏免除河东辖境原有税额外的各项征收摊派。",
+      "year": 947,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "天福十二年三月丙戌朔",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p8",
+          "originalRevision": 1,
+          "originalSha256": "b189706f0da4794978256bd1c348dc12d9b48c99b4a75337354130b5741d4b1f",
+          "excerpt": "三月丙戌朔，詔河東管內，自前稅外，雜色征配一切除放。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-government",
+      "title": "任开国中枢并册皇后",
+      "summary": "四月任杨邠、郭威等掌枢密，册李氏为皇后，以苏逢吉、苏禹珪为宰相；同时派史宏肇南下潞州。",
+      "year": 947,
+      "sortOrder": 19,
+      "precision": "month",
+      "sourceDate": "天福十二年四月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
+          "excerpt": "以北京隨使、右都押衙楊邠為權樞密使、檢校太保；"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
+          "excerpt": "以蕃漢兵馬都孔目官郭威為權樞密使、檢校司徒；"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
+          "excerpt": "癸亥，冊魏國夫人李氏為皇后。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
+          "excerpt": "以河東節度判官蘇逢吉為中書侍郎、同平章事、集賢殿大學士，以河東觀察判官蘇禹珪為中書侍郎、同平章事。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
+          "excerpt": "乙丑，遣史宏肇率兵一萬人趨潞州。"
+        }
+      ],
+      "notes": [
+        "新史称郭威权枢密副使，旧史此条称权枢密使，职名按各书原文保存。"
+      ],
+      "variants": [
+        {
+          "label": "新史郭威权枢密副使",
+          "year": 947,
+          "sourceDate": "天福十二年四月己未",
+          "summary": "新史权枢密副使，旧史该条权枢密使，职名各自保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p6",
+              "originalRevision": 1,
+              "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
+              "excerpt": "夏四月己未，右都押衙楊邠為樞密使，蕃漢兵馬都孔目官郭威權樞密副使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-south-march",
+      "title": "离河东南下",
+      "summary": "留刘崇守北京，五月经阴地关离开河东南下；到绛州示兵而不攻击，接受李从朗投降。",
+      "year": 947,
+      "sortOrder": 20,
+      "precision": "month",
+      "sourceDate": "天福十二年五月甲午、丙申、戊申",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p2",
+          "originalRevision": 1,
+          "originalSha256": "de33d7bc3c930184c2a1c9c705442837588419b6606161a7cc1f216e8bdbe995",
+          "excerpt": "甲午，以判太原府事劉崇為北京留守，命皇子承訓。武德使李暉大內巡檢。丙申，帝發河東，取陰地關路幸東京。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p2",
+          "originalRevision": 1,
+          "originalSha256": "de33d7bc3c930184c2a1c9c705442837588419b6606161a7cc1f216e8bdbe995",
+          "excerpt": "帝耀兵於城下，不令攻擊，從朗等遂降。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-kill-congyi",
+      "title": "杀李从益和王淑妃",
+      "summary": "进入中原时，李从益及其母王淑妃在东京被赐死；年表不把被契丹扶立的李从益说成刘知远所立。",
+      "year": 947,
+      "sortOrder": 21,
+      "precision": "day",
+      "sourceDate": "天福十二年六月丙辰",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p6",
+          "originalRevision": 1,
+          "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
+          "excerpt": "六月丙辰，次河陽，[1]殺李從益及其母于京師。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-kaifeng",
+      "title": "至东京并宣布汉国号",
+      "summary": "六月到东京，宣布国号大汉，仍用天福年号；大赦并免欠税、减京畿夏税和屋税，暂不更改契丹所授职任。",
+      "year": 947,
+      "sortOrder": 22,
+      "precision": "month",
+      "sourceDate": "天福十二年六月甲子、戊辰",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p3",
+          "originalRevision": 1,
+          "originalSha256": "db5a3c4a433a0e39a8239c701c806f61e232ac988263c776a41ee61f842aca3a",
+          "excerpt": "甲子，車駕至東京。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p3",
+          "originalRevision": 1,
+          "originalSha256": "db5a3c4a433a0e39a8239c701c806f61e232ac988263c776a41ee61f842aca3a",
+          "excerpt": "諸州去年殘稅並放。東、西京一百里內，放今年夏稅；一百里外及京城，今年屋稅並放一半。契丹所授職任，不議改更。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p3",
+          "originalRevision": 1,
+          "originalSha256": "db5a3c4a433a0e39a8239c701c806f61e232ac988263c776a41ee61f842aca3a",
+          "excerpt": "宜以國號為大漢，年號依舊稱『天福』"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-fantai-killing",
+      "title": "入汴后杀幽州驻兵",
+      "summary": "入大梁后有人告幽州驻兵将变，刘知远杀一千五百人于繁台；张璉后来据此拒绝相信免死招降，使邺城难下。",
+      "year": 947,
+      "sortOrder": 23,
+      "precision": "year",
+      "sourceDate": "天福十二年入大梁后、围邺前，通鉴未独日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v287",
+          "paragraphId": "tongjian-v287-p61",
+          "originalRevision": 1,
+          "originalSha256": "9fcdb5a2106cc2da1e286b28552b02a5729c95687044947a405fa1d7c21fb56e",
+          "excerpt": "初，契丹留幽州兵千五百人戍大梁。帝入大梁，或告幽州兵將為變，帝盡殺之於繁台之下。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-du-rebellion",
+      "title": "调杜重威离邺引发叛乱",
+      "summary": "命杜重威移镇宋州，高行周接任邺都；杜重威不奉命而据邺反叛，朝廷削其官爵并命高行周讨伐。",
+      "year": 947,
+      "sortOrder": 24,
+      "precision": "month",
+      "sourceDate": "天福十二年七月丙申、闰七月庚午",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p4",
+          "originalRevision": 1,
+          "originalSha256": "85734265d89e9dcf02e70dd43d7b6963470ebf01ad5f285dacd4deaeeb7e62ce",
+          "excerpt": "丙申，以鄴都留守、天雄軍節度使、檢校太師、守太傅、兼中書令、衛國公杜重威為宋州節度使，加守太尉；"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p5",
+          "originalRevision": 1,
+          "originalSha256": "9acf506e35ec1080d75349f0496d6503ad36c63f5bc0d771c606aa2c944be8b5",
+          "excerpt": "新授宋州節度使杜重威據鄴都叛，詔削奪重威官爵，貶為庶人。以高行周為行營都部署，率兵進討。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-ancestor-temples",
+      "title": "追尊祖先并定六庙",
+      "summary": "追尊四代祖先，以汉高皇帝、光武帝为不祧之庙，安排六庙乐舞。",
+      "year": 947,
+      "sortOrder": 25,
+      "precision": "day",
+      "sourceDate": "天福十二年闰七月庚辰",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p5",
+          "originalRevision": 1,
+          "originalSha256": "9acf506e35ec1080d75349f0496d6503ad36c63f5bc0d771c606aa2c944be8b5",
+          "excerpt": "庚辰，追尊六廟，以太祖高皇帝、世祖光武皇帝為不祧之廟，高曾已下四朝，追尊謚號，已載於前矣。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-robbery-decree",
+      "title": "下严厉盗贼死刑诏",
+      "summary": "规定涉及盗贼案件，不论赃物数量，查实后一律处死，反映新朝严刑的具体措施。",
+      "year": 947,
+      "sortOrder": 26,
+      "precision": "day",
+      "sourceDate": "天福十二年八月丙申",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p6",
+          "originalRevision": 1,
+          "originalSha256": "2aeda07bf551e3869ffaffd73fc6ab0bfb075becf0c024d41c2336ae01d46c7e",
+          "excerpt": "丙申，詔天下凡關賊盜，不計贓物多少，案驗不虛，並處死。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-personal-campaign",
+      "title": "亲征杜重威",
+      "summary": "两名讨伐主帅不和，李涛密疏建议亲征；刘知远九月离京，十月抵邺城下，河北在押罪人获赦。",
+      "year": 947,
+      "sortOrder": 27,
+      "precision": "month",
+      "sourceDate": "天福十二年九月庚辰、十月甲申及丙申",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p7",
+          "originalRevision": 1,
+          "originalSha256": "934e3295687321053905b49d9cbd85c3de4e258fa7cf4c83ef740cb0e477a68d",
+          "excerpt": "杜重威據鄴叛，高祖命高行周、慕容彥超討之，二帥不協，濤密疏親征。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p7",
+          "originalRevision": 1,
+          "originalSha256": "934e3295687321053905b49d9cbd85c3de4e258fa7cf4c83ef740cb0e477a68d",
+          "excerpt": "庚辰，車駕發京師。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p8",
+          "originalRevision": 1,
+          "originalSha256": "ffc58c5fea33c1355280a4ddb3cc7a4410ed5386423261baa1efff1ba3bcd51d",
+          "excerpt": "甲申，車駕次韋城。詔：「河北諸州見禁罪人，自十月五日昧爽以前，常赦所不原者，咸赦除之。」"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-yedu-failed-assault",
+      "title": "攻邺失败伤亡万余",
+      "summary": "在慕容彦超坚持下命高行周攻城，亲登高地观战；官军伤亡万余，未能攻克。",
+      "year": 947,
+      "sortOrder": 28,
+      "precision": "day",
+      "sourceDate": "天福十二年十月丙午",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p8",
+          "originalRevision": 1,
+          "originalSha256": "ffc58c5fea33c1355280a4ddb3cc7a4410ed5386423261baa1efff1ba3bcd51d",
+          "excerpt": "丙午，詔都部署高行周督眾攻城，帝登高阜以觀之，時眾議未欲攻擊，副部署慕容彥超堅請攻之。是日，王師傷夷者萬餘人，不克而退。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-du-surrender",
+      "title": "受杜重威降并赦罪",
+      "summary": "杜重威上表请命后素服出降，刘知远赦其罪，保留太傅等高位；降表和实际出城日期各书不同。",
+      "year": 948,
+      "sortOrder": 29,
+      "precision": "day",
+      "sourceDate": "天福十二年十一月丁丑；历表属西历948年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p9",
+          "originalRevision": 1,
+          "originalSha256": "decc1e8a96fe3a464c795e24c36b3fc7d65d8f6b4a878d3e25df563a6a157e1a",
+          "excerpt": "壬申，杜重威上表請命。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p9",
+          "originalRevision": 1,
+          "originalSha256": "decc1e8a96fe3a464c795e24c36b3fc7d65d8f6b4a878d3e25df563a6a157e1a",
+          "excerpt": "丁丑，杜重威素服出降，待罪於宮門，詔釋其罪。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记降表日为投降",
+          "year": 948,
+          "sourceDate": "天福十二年十一月壬申；西历948年",
+          "summary": "新史在壬申日直接记“降”，旧史同日记请命、丁丑记素服出降。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p6",
+              "originalRevision": 1,
+              "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
+              "excerpt": "十一月壬申，杜重威降。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-zhang-lian-killing",
+      "title": "受降后杀张璉将校及杜氏牙将",
+      "summary": "张璉先得免死归乡信誓，出降后仍与数十名将校被杀；刘知远又允郭威杀杜重威百余牙将、没其家产赏军。士卒放北归，杜重威本人却获高官。",
+      "year": 948,
+      "sortOrder": 30,
+      "precision": "month",
+      "sourceDate": "天福十二年十一月丁丑受杜降阶段；实际西历948年",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v287",
+          "paragraphId": "tongjian-v287-p62",
+          "originalRevision": 1,
+          "originalSha256": "1c66768c8852376459ae027a6ea66506158cb99a0a97e3739154340e42a35e50",
+          "excerpt": "丁丑，重威開門出降"
+        },
+        {
+          "chapterId": "tongjian-v287",
+          "paragraphId": "tongjian-v287-p62",
+          "originalRevision": 1,
+          "originalSha256": "1c66768c8852376459ae027a6ea66506158cb99a0a97e3739154340e42a35e50",
+          "excerpt": "張璉先邀朝廷信誓，詔許以歸鄉里。及出降，殺璉等將校數十人，縱其士卒北歸。"
+        },
+        {
+          "chapterId": "tongjian-v287",
+          "paragraphId": "tongjian-v287-p62",
+          "originalRevision": 1,
+          "originalSha256": "1c66768c8852376459ae027a6ea66506158cb99a0a97e3739154340e42a35e50",
+          "excerpt": "郭威請殺重威牙將百餘人，並重威家貲籍之以賞戰士，從之。"
+        }
+      ],
+      "notes": [
+        "丁丑是杜氏受降的明确日锚，之后各项处置未另列日，不将全部杀事等同为丁丑同日。"
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-return-bereavement",
+      "title": "回东京后承训去世",
+      "summary": "从邺都返回东京，次日皇子开封尹刘承训去世，追封魏王；数日后举行哀礼。",
+      "year": 948,
+      "sortOrder": 31,
+      "precision": "month",
+      "sourceDate": "天福十二年十二月癸巳、甲午、丁酉；历表属西历948年",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p10",
+          "originalRevision": 1,
+          "originalSha256": "883b2ba01ada4c859c63dacc29c9cfd33576a0188aaacbf2915bdcc50af888fd",
+          "excerpt": "丙戌，車駕發鄴都歸京。癸巳，至自鄴都。甲午，以皇子開封尹承訓薨。廢朝三日，追封魏王。丁酉，帝舉哀於太平宮。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-qianyou",
+      "title": "改乾祐并更名暠",
+      "summary": "下大赦改天福十三年为乾祐元年，随后将御名由知远改为暠；并非太原初即位时已有此改名记录。",
+      "year": 948,
+      "sortOrder": 32,
+      "precision": "month",
+      "sourceDate": "乾祐元年正月乙卯、己未",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p12",
+          "originalRevision": 1,
+          "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
+          "excerpt": "乾祐元年正月辛亥朔，帝不受朝賀。乙卯，制：「大赦天下，改天福十三年為乾祐元年。自正月五日昧爽已前，犯罪人除十惡五逆外，罪無輕重，咸赦除之。」己未，改御名為暠。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要记947年到东京时更名",
+          "year": 947,
+          "sourceDate": "开运四年六月十一日",
+          "summary": "会要记六月十一日至东京受朝时改名暠，旧新史记乾祐元年正月己未，不拼为同一日期。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p10",
+              "originalRevision": 1,
+              "originalSha256": "0495e62ae95b1328a3934b1624daf0ebf0c69b6a7132d64cf0d5d283ce34ea23",
+              "excerpt": "其年六月十一日至東京，受朝於崇元殿，改名暠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-patronage-limits",
+      "title": "限制藩镇荐官",
+      "summary": "限制藩镇奏荐行军副使等职，并按节度使是否带使相衔分别规定荐官种类和人数。",
+      "year": 948,
+      "sortOrder": 33,
+      "precision": "day",
+      "sourceDate": "乾祐元年正月辛酉",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p12",
+          "originalRevision": 1,
+          "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
+          "excerpt": "辛酉，詔：「諸道行軍副使、兩使判官並不得奏薦。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-death",
+      "title": "万岁殿去世",
+      "summary": "正月二十七日去世，年五十四；遗命将幼弱的刘承祐交付大臣，并告诫防范杜重威。苏逢吉等先秘不发丧，杜重威被杀不是刘知远亲自执行。",
+      "year": 948,
+      "sortOrder": 34,
+      "precision": "day",
+      "sourceDate": "乾祐元年正月二十七日丁丑",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p12",
+          "originalRevision": 1,
+          "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
+          "excerpt": "二十七日丁丑，帝崩於萬歲殿，時年五十四。秘不發喪。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p12",
+          "originalRevision": 1,
+          "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
+          "excerpt": "漢祖召蘇逢吉、楊邠、史宏肇入受顧命，曰：「承祐幼弱，後事托在卿輩。」又曰：「善防杜重威。」"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-burial",
+      "title": "谥高祖并葬睿陵",
+      "summary": "二月发丧并奉遗制立刘承祐，同月上谥号及庙号高祖；十一月葬睿陵。",
+      "year": 948,
+      "sortOrder": 35,
+      "precision": "year",
+      "sourceDate": "乾祐元年二月、十一月壬申",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p13",
+          "originalRevision": 1,
+          "originalSha256": "1919ffd9d4fcda2a4af6ead5acd7fd802bba98bc7444d1d539cc5d6251d53cb4",
+          "excerpt": "二月辛巳朔，內降遺制，皇子周王承祐可於柩前即皇帝位。是日發哀。其年二月，太常卿張昭上謚曰睿文聖武昭肅孝皇帝，廟號高祖。十一月壬申，葬於睿陵，宰臣蘇禹珪撰謚冊、哀冊文云。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-desheng-rescue",
+      "title": "德胜换马救石敬瑭",
+      "summary": "同在李嗣源军中任偏将时，于德胜交战中把自己的坐骑让给遇险的石敬瑭，骑坏甲之马断后；本传未记该次战斗的年月。",
+      "year": null,
+      "sortOrder": 36,
+      "precision": "undated",
+      "sourceDate": "李嗣源称帝前；德胜对垒",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p1",
+          "originalRevision": 1,
+          "originalSha256": "bc8e0851f773aa0f4111a21d1fd36d6fde653046611d49326db1856b149a6e15",
+          "excerpt": "明宗及梁人戰德勝，晉高祖馬甲斷，梁兵幾及，知遠以所乘馬授之，復取高祖馬殿而還，高祖德之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-transfer-shi",
+      "title": "转入石敬瑭麾下",
+      "summary": "李嗣源即位、石敬瑭任北京留守后，因护救功奏请刘知远转入其麾下，任牙门都校；原段没有唯一任命日期。",
+      "year": null,
+      "sortOrder": 37,
+      "precision": "undated",
+      "sourceDate": "明宗践祚后，石敬瑭为北京留守时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p2",
+          "originalRevision": 1,
+          "originalSha256": "ee5560cdc65720ef9593c92522e9d6f7f45f13d16347e604b3582dee0eadf90f",
+          "excerpt": "明宗踐阼，晉高祖為北京留守，以帝前有護援之力，奏移麾下，署為牙門都校。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-same-edict-dispute",
+      "title": "与杜重威同制辞命",
+      "summary": "十二月与杜重威同受加恩，刘知远闭门辞命，经和凝宣谕才接受。该月跨西历938至939年，无具体日不指定单年。",
+      "year": null,
+      "sortOrder": 38,
+      "precision": "range",
+      "sourceDate": "天福三年十二月；西历938–939年范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "十二月，加同平章事。時帝與杜重威同制加恩，帝憤然不樂，懇讓不受，杜門不出者數日。"
+        }
+      ],
+      "yearRange": {
+        "start": 938,
+        "end": 939
+      }
+    }
+  ]
+}

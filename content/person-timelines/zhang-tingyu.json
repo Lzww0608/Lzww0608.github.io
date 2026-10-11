@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-tingyu",
+  "events": [
+    {
+      "id": "zhang-tingyu-early-service",
+      "title": "云中事李克用，从征巢与行瑜",
+      "summary": "幼在云中事李克用，随军平黄巢、讨王行瑜，自军中渐升为小将。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p7",
+          "originalRevision": 1,
+          "originalSha256": "b63065e0180f92422c61f265a36aa1906b7160bfefb40892b176e6e350d789ee",
+          "excerpt": "幼事武皇於雲中，從平黃巢，討王行瑜，自行間漸升為小將。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-tingyu-wei-offices",
+      "title": "定魏后任军虞候，历三州",
+      "summary": "李存勖定魏后，补天雄军左厢马步都虞候，后历蔚慈隰三州刺史。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "庄宗定魏后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p7",
+          "originalRevision": 1,
+          "originalSha256": "b63065e0180f92422c61f265a36aa1906b7160bfefb40892b176e6e350d789ee",
+          "excerpt": "莊宗定魏，補天雄軍左廂馬步都虞候，曆蔚、慈、隰三州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-tingyu-xinzhou",
+      "title": "授新州节度使",
+      "summary": "同光三年出任新州节度使。边务繁杂，本传评其缺乏控制办法，边地屡受扰。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "同光三年；未记可核的具体月日，西历范围925—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p7",
+          "originalRevision": 1,
+          "originalSha256": "b63065e0180f92422c61f265a36aa1906b7160bfefb40892b176e6e350d789ee",
+          "excerpt": "同光三年，除新州節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
+    },
+    {
+      "id": "zhang-tingyu-death",
+      "title": "卒于新州任所",
+      "summary": "天成三年卒于治所，追赠太保。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "天成三年；未记可核的具体月日，西历范围928—929年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v065",
+          "paragraphId": "old-v065-p7",
+          "originalRevision": 1,
+          "originalSha256": "b63065e0180f92422c61f265a36aa1906b7160bfefb40892b176e6e350d789ee",
+          "excerpt": "天成三年，卒於治所。詔贈太保。"
+        }
+      ],
+      "yearRange": {
+        "start": 928,
+        "end": 929
+      }
+    }
+  ]
+}

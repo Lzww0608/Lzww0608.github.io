@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "lu-siduo",
+  "events": [
+    {
+      "id": "lu-siduo-early-liang",
+      "title": "宣武军卒以善射升官",
+      "summary": "早为梁宣武军卒，善射闻名，累升拱辰左厢都指挥、领恩州刺史。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p53",
+          "originalRevision": 1,
+          "originalSha256": "c217cbea150665bd9e99bca0ec2a4ff204555da2f36f3c36636294888ee62abb",
+          "excerpt": "少事梁為宣武軍卒，以善射知名。"
+        }
+      ]
+    },
+    {
+      "id": "lu-siduo-named-arrow",
+      "title": "河上以刻名箭射晋，箭中晋王鞍",
+      "summary": "梁晋对垒时刻姓名在箭尾射晋军，一箭中李存勖马鞍，被晋王收藏。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "梁晋河上对峙时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p54",
+          "originalRevision": 1,
+          "originalSha256": "b3e1f41b54dc075487c97315cba0af4570a7bf1ce31405f01b08c1b206378dc2",
+          "excerpt": "而矢中莊宗馬鞍，莊宗拔矢，見思鐸姓名，奇之。"
+        }
+      ]
+    },
+    {
+      "id": "lu-siduo-after-liang",
+      "title": "灭梁后拜见庄宗，获龙武军职",
+      "summary": "庄宗出示当年中马鞍的刻名箭，陆思铎伏地请死，获慰免，授龙武右厢都指挥。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "庄宗灭梁后，陆思铎谒见获龙武右厢军职，未记任命月年；在庄宗同光在位期间，西历923—926年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p54",
+          "originalRevision": 1,
+          "originalSha256": "b3e1f41b54dc075487c97315cba0af4570a7bf1ce31405f01b08c1b206378dc2",
+          "excerpt": "莊宗慰而起之，拜龍武右廂都指揮使。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 926
+      }
+    },
+    {
+      "id": "lu-siduo-chen-cai",
+      "title": "晋高祖时历陈蔡刺史",
+      "summary": "在后晋石敬瑭时先后任陈州、蔡州刺史，陈州治理获当地人爱戴。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "晋高祖时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p55",
+          "originalRevision": 1,
+          "originalSha256": "064096cee57c5923b6f731051eb2caf490347848c93c13027b5e5617927b3e96",
+          "excerpt": "晉高祖時，為陳、蔡二州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "lu-siduo-death-burial",
+      "title": "五十四岁卒，遗愿葬陈州",
+      "summary": "临终说陈人爱我，命子葬于陈州，后依其愿安葬；本传只记卒年年龄，不倒推生卒年。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p55",
+          "originalRevision": 1,
+          "originalSha256": "064096cee57c5923b6f731051eb2caf490347848c93c13027b5e5617927b3e96",
+          "excerpt": "卒年五十四。思鐸在陳州，有善政，臨終戒其子曰：「陳人愛我，我死則葬焉。」遂葬于陳州。"
+        }
+      ]
+    }
+  ]
+}

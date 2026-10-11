@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-qianzhao",
+  "events": [
+    {
+      "id": "zhang-qianzhao-fengxiang",
+      "title": "奉闵帝命会攻凤翔",
+      "summary": "李从珂在凤翔起兵，李从厚命张虔钊率部会王师于岐下；西军兵变后退兴元。",
+      "year": 934,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "应顺元年末帝起于凤翔时",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "及末帝起於鳳翔，閔帝詔令虔釗帥部兵會王師於岐下。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-early-service",
+      "title": "太原牙校，累任突骑军使",
+      "summary": "早为太原牙校，以武勇知名，李克用、李存勖时历左右突骑军使。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "初為太原牙校，以武勇聞於流輩，武皇、莊宗之世，累補左右突騎軍使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-guard-general",
+      "title": "明宗擢护驾亲军指挥",
+      "summary": "李嗣源即位后因知其将才，擢护驾亲军都指挥使，领春州刺史。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "明宗即位后擢护驾亲军、领春州，未记任命月；天成三年本纪由春州转郑州前，西历926—928年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "及即位，擢為護駕親軍都指揮使，領春州刺史。"
+        },
+        {
+          "chapterId": "old-v039",
+          "paragraphId": "old-v039-p2",
+          "originalRevision": 1,
+          "originalSha256": "6ee7285deb6a2bffae497ae68cbd3d6894c26072d4675d7d6044c9c070789cc9",
+          "excerpt": "辛酉，以前潞州節度使毛璋為右金吾上將軍，以左驍衛上將軍華溫琪為右金吾大將軍，以春州刺史張虔釗為鄭州防禦使。"
+        }
+      ],
+      "yearRange": {
+        "start": 926,
+        "end": 928
+      }
+    },
+    {
+      "id": "zhang-qianzhao-zhongshan",
+      "title": "围王都、败契丹，授沧州",
+      "summary": "天成中随围王都中山，在嘉山下败契丹，平定州后因功授沧州节度。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "天成中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "天成中，與諸將圍王都於中山，大敗契丹於嘉山之下，及定州平，以功授滄州節度使。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-shannan",
+      "title": "移徐州，再任山南兼西面部署",
+      "summary": "先移徐州，长兴中任山南西道节度兼西面马步军都部署。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "长兴中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "移鎮徐州。長興中，為山南西道節度使兼西面馬步軍都部署。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-join-shu",
+      "title": "西军变后献山南归蜀",
+      "summary": "与孙汉韶向孟知祥归款，保留本镇节度使，使后蜀取得山南地区；后孟昶承位加太师、中书令。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "应顺元年凤翔军变后归降孟知祥，孟昶嗣位后加官；两阶段未各独载月日，保934—935年范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "洎西師俱變，虔釗憤惋，退歸興元，因與洋州節度使孫漢韶俱送款於蜀。"
+        },
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "孟知祥待之尤厚，偽授本鎮節度使，俾知祥坐獲山南之地，由虔釗之故也。〈（《北夢瑣言》：入蜀，取人產業，黷貨無厭，蜀民怨之。）〉孟昶嗣偽位，加檢校太師、兼中書令。"
+        }
+      ],
+      "yearRange": {
+        "start": 934,
+        "end": 935
+      },
+      "notes": [
+        "归降及保留本镇由孟知祥处置；加太师、中书令记于孟昶嗣位后，不把后一步也系在孟昶即位之前。"
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-north-campaign",
+      "title": "出兵秦雍，受中原变化而撤",
+      "summary": "开运末闻契丹入洛，蜀令率军欲取秦雍；闻后汉兴起、招降对象变意，孤军不能深入而退，注引《九国志》细叙各路退军。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "旧史开运末接叙汉高祖定中原后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "俄聞漢高祖已定中原，虔釗無功而退。"
+        }
+      ],
+      "notes": [
+        "开运末跨西历，且注中汉高祖即位后的后续行动另具时序，未把全段定一单年。"
+      ]
+    },
+    {
+      "id": "zhang-qianzhao-death-xingzhou",
+      "title": "北征回程至兴州而卒",
+      "summary": "退军行到兴州，感愤而卒；本传无确切卒年日，不据开运年号标题机械指定。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "秦雍北征班师途中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p9",
+          "originalRevision": 1,
+          "originalSha256": "fd98455f7ce8660e47f6def088d1568f0e1d135691e1e7c56546809bb9bd2c00",
+          "excerpt": "行至興州，感憤而卒。"
+        }
+      ]
+    }
+  ]
+}

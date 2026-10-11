@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yi-guang",
+  "events": [
+    {
+      "id": "yi-guang-death-chenganzhai",
+      "title": "成安寨败战中遇害",
+      "summary": "随李克用征刘仁恭，河东军在成安寨失利，伊广为敌军所杀。",
+      "year": 897,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "乾宁四年从征刘仁恭败役；武皇纪八月出征、九月败后撤至代州",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p15",
+          "originalRevision": 1,
+          "originalSha256": "f6aba3d8483f412a9e0c120519030e034158265d6a7e3b5d55001e38ce443dfa",
+          "excerpt": "乾寧四年，從征劉仁恭，武皇之師不利於成安寨，廣歿於賊。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p18",
+          "originalRevision": 1,
+          "originalSha256": "65a54b7157d9df59a6928bbe2aef497e1f5d88b3f814e479801bed2abfd45615",
+          "excerpt": "乾寧四年正月，汴軍陷兗、鄆，騎將李承嗣、史儼與朱瑾同奔於淮南。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p19",
+          "originalRevision": 1,
+          "originalSha256": "136139837329b47d458441c32a2543d66d5b7cdfe91509103a35f6b06587a8eb",
+          "excerpt": "八月，大舉以伐仁恭。九月，師次蔚州。戊寅，晨霧晦暝，占者雲不利深入。辛巳，攻安塞，俄報「燕將單可及領騎軍至矣。」武皇方置酒高會，前鋒又報「賊至矣」！武皇曰：「仁恭何在？」曰：「但見可及輩。」武皇張目怒曰：「可及輩何足為敵！」仍促令出師。燕軍已擊武皇軍寨，武皇乘醉擊賊，燕軍披靡。時步兵望賊而退，為燕軍所乘，大敗於木瓜澗。俄而大風雨震電，燕軍解去，武皇方醒。甲午，師次代州，"
+        },
+        {
+          "chapterId": "old-v135",
+          "paragraphId": "old-v135-p3",
+          "originalRevision": 1,
+          "originalSha256": "6f8c1a8ffd5b44c3c495f1d765eafd667aa85a4aceea87b722febb2e812bf0ce",
+          "excerpt": "八月，武皇討仁恭。九月五日，次安塞軍。九日，渡木瓜澗，大為燕軍所敗，死傷大半。"
+        }
+      ],
+      "notes": [
+        "伊广传作成安寨，本纪及刘仁恭传作安塞、木瓜涧，各依底本保留。只据同年征刘仁恭败役定年，不借他传的日数确定伊广具体死日。"
+      ]
+    },
+    {
+      "id": "yi-guang-xinzhou-join",
+      "title": "任忻州刺史后归附河东",
+      "summary": "中和末授忻州刺史，遭天下大乱后归附李克用；历右职，后为汾州刺史。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "中和末及其后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p15",
+          "originalRevision": 1,
+          "originalSha256": "f6aba3d8483f412a9e0c120519030e034158265d6a7e3b5d55001e38ce443dfa",
+          "excerpt": "廣，中和末除授忻州刺史。遇天下大亂，乃委質於武皇。"
+        }
+      ]
+    },
+    {
+      "id": "yi-guang-diplomatic-service",
+      "title": "为河东出使，升检校司徒",
+      "summary": "李克用与诸侯结盟时，伊广善于应对，奉使合意，多次升迁至检校司徒。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p15",
+          "originalRevision": 1,
+          "originalSha256": "f6aba3d8483f412a9e0c120519030e034158265d6a7e3b5d55001e38ce443dfa",
+          "excerpt": "時武皇主盟，諸侯景附，軍機締結，聘遺旁午，廣奉使稱旨，累遷至檢校司徒。"
+        }
+      ]
+    }
+  ]
+}

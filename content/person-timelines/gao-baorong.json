@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "personId": "gao-baorong",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "gao-baorong-accession",
+      "year": 948,
+      "sourceDate": "乾祐元年，高从诲卒后",
+      "title": "由节度副使继承军府",
+      "summary": "父亲在世时任节度副使、峡州刺史，去世后承位；本传明言不知第三子得立原因，不虚设特定遗命。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p13",
+          "originalRevision": 1,
+          "originalSha256": "ef5b7db19a445c69156839429fb2ec6f49cfb08e130f4c863b055bb29fa29035",
+          "excerpt": "從誨自求郢州不得，遂自絕於漢。逾年，復通朝貢。乾祐元年十月卒，年五十八，贈尚書令，謚曰文獻。子保融立。從誨十五子，長曰保勳，次保正，保融第三子也，不知其得立之因。"
+        },
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p14",
+          "originalRevision": 1,
+          "originalSha256": "bfc8c77ac3dcb58133d580971aba1022aece7ff004482e75817852ee20bb2f43",
+          "excerpt": "保融字德長。從誨時，為節度副使，兼峽州刺史。從誨卒，拜節度使。廣順元年，封渤海郡王。顯德元年，進封南平王。世宗征淮，保融遣指揮使魏璘率兵三千，出夏口以為應。又遣客將劉扶奉牋南唐，勸其內附。李景稱臣，世宗得保融所與牋，大喜，賜以絹百匹。荊南自後唐以來，常數歲一貢京師，而中間兩絕。及世宗時，無歲不貢矣。保融以謂器械金帛，皆土地常產，不足以効誠節，乃遣其弟保紳來朝，世宗益嘉之。"
+        }
+      ],
+      "phase": "rule",
+      "precision": "year",
+      "sortOrder": 1
+    },
+    {
+      "id": "gao-baorong-song-and-death",
+      "year": 960,
+      "sourceDate": "建隆元年",
+      "title": "一年三次贡宋，病逝",
+      "summary": "宋建立后一岁三贡，随后病卒，追赠太尉，谥贞懿，弟高保勖继承。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p16",
+          "originalRevision": 1,
+          "originalSha256": "09b19b2a514d8268049eab05b7057d3d17f0fbac2031182edbf2553d8b3e5c91",
+          "excerpt": "保融性迂緩，無材能，而事無大小，皆委其弟保勗。其從叔從義謀為亂，為其徒高知訓所告，徙之松滋而殺之。宋興，保融懼，一歲之間三入貢。建隆元年，以疾卒，年四十一，贈太尉，謚曰貞懿。弟保勗立。"
+        },
+        {
+          "chapterId": "old-v133",
+          "paragraphId": "old-v133-p7",
+          "originalRevision": 1,
+          "originalSha256": "b400cba195a706ca1eb77542a2928d62cbdc987f14907327efc39618e3c0def4",
+          "excerpt": "子保融嗣，位至荊南節度使、守太傅、中書令，封南平王。皇朝建隆元年秋卒。謚曰貞懿。"
+        }
+      ],
+      "phase": "fall",
+      "precision": "year",
+      "sortOrder": 2
+    },
+    {
+      "id": "gao-baorong-bohai-prince",
+      "year": null,
+      "sourceDate": "广顺元年，渤海郡王册封未独月日；传统年跨951—952年",
+      "title": "获封渤海郡王",
+      "summary": "后周封其为渤海郡王。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p14",
+          "originalRevision": 1,
+          "originalSha256": "bfc8c77ac3dcb58133d580971aba1022aece7ff004482e75817852ee20bb2f43",
+          "excerpt": "保融字德長。從誨時，為節度副使，兼峽州刺史。從誨卒，拜節度使。廣順元年，封渤海郡王。顯德元年，進封南平王。世宗征淮，保融遣指揮使魏璘率兵三千，出夏口以為應。又遣客將劉扶奉牋南唐，勸其內附。李景稱臣，世宗得保融所與牋，大喜，賜以絹百匹。荊南自後唐以來，常數歲一貢京師，而中間兩絕。及世宗時，無歲不貢矣。保融以謂器械金帛，皆土地常產，不足以効誠節，乃遣其弟保紳來朝，世宗益嘉之。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 3,
+      "yearRange": {
+        "start": 951,
+        "end": 952
+      }
+    },
+    {
+      "id": "gao-baorong-nanping-prince",
+      "year": null,
+      "sourceDate": "后周显德元年，南平王册封未独月日或授命君主；传统年跨954—955年",
+      "title": "进封南平王",
+      "summary": "后周进封南平王。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p14",
+          "originalRevision": 1,
+          "originalSha256": "bfc8c77ac3dcb58133d580971aba1022aece7ff004482e75817852ee20bb2f43",
+          "excerpt": "保融字德長。從誨時，為節度副使，兼峽州刺史。從誨卒，拜節度使。廣順元年，封渤海郡王。顯德元年，進封南平王。世宗征淮，保融遣指揮使魏璘率兵三千，出夏口以為應。又遣客將劉扶奉牋南唐，勸其內附。李景稱臣，世宗得保融所與牋，大喜，賜以絹百匹。荊南自後唐以來，常數歲一貢京師，而中間兩絕。及世宗時，無歲不貢矣。保融以謂器械金帛，皆土地常產，不足以効誠節，乃遣其弟保紳來朝，世宗益嘉之。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 4,
+      "yearRange": {
+        "start": 954,
+        "end": 955
+      }
+    },
+    {
+      "id": "gao-baorong-huainan-war",
+      "year": null,
+      "sourceDate": "周世宗征淮至李景称臣时",
+      "title": "遣兵策应周，劝南唐内附",
+      "summary": "派魏璘率三千兵出夏口策应后周；遣刘扶劝南唐称臣。李景称臣后周世宗见书，给予赏赐。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p14",
+          "originalRevision": 1,
+          "originalSha256": "bfc8c77ac3dcb58133d580971aba1022aece7ff004482e75817852ee20bb2f43",
+          "excerpt": "保融字德長。從誨時，為節度副使，兼峽州刺史。從誨卒，拜節度使。廣順元年，封渤海郡王。顯德元年，進封南平王。世宗征淮，保融遣指揮使魏璘率兵三千，出夏口以為應。又遣客將劉扶奉牋南唐，勸其內附。李景稱臣，世宗得保融所與牋，大喜，賜以絹百匹。荊南自後唐以來，常數歲一貢京師，而中間兩絕。及世宗時，無歲不貢矣。保融以謂器械金帛，皆土地常產，不足以効誠節，乃遣其弟保紳來朝，世宗益嘉之。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 955,
+        "end": 958
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "gao-baorong-diplomacy",
+      "year": null,
+      "sourceDate": "后周世宗时期，具体年月未逐项记",
+      "title": "年年朝贡，遣弟保绅入朝",
+      "summary": "认为寻常金帛不足见诚，派弟入朝，受周世宗嘉奖；政事大小多委另一弟保勖。",
+      "evidence": [
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p14",
+          "originalRevision": 1,
+          "originalSha256": "bfc8c77ac3dcb58133d580971aba1022aece7ff004482e75817852ee20bb2f43",
+          "excerpt": "保融字德長。從誨時，為節度副使，兼峽州刺史。從誨卒，拜節度使。廣順元年，封渤海郡王。顯德元年，進封南平王。世宗征淮，保融遣指揮使魏璘率兵三千，出夏口以為應。又遣客將劉扶奉牋南唐，勸其內附。李景稱臣，世宗得保融所與牋，大喜，賜以絹百匹。荊南自後唐以來，常數歲一貢京師，而中間兩絕。及世宗時，無歲不貢矣。保融以謂器械金帛，皆土地常產，不足以効誠節，乃遣其弟保紳來朝，世宗益嘉之。"
+        },
+        {
+          "chapterId": "new-v69",
+          "paragraphId": "new-v69-p16",
+          "originalRevision": 1,
+          "originalSha256": "09b19b2a514d8268049eab05b7057d3d17f0fbac2031182edbf2553d8b3e5c91",
+          "excerpt": "保融性迂緩，無材能，而事無大小，皆委其弟保勗。其從叔從義謀為亂，為其徒高知訓所告，徙之松滋而殺之。宋興，保融懼，一歲之間三入貢。建隆元年，以疾卒，年四十一，贈太尉，謚曰貞懿。弟保勗立。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "yearRange": {
+        "start": 954,
+        "end": 960
+      },
+      "sortOrder": 6
+    }
+  ]
+}

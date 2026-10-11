@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "an-xiuxiu",
+  "events": [
+    {
+      "id": "an-xiuxiu-heyang-aftermath",
+      "title": "河阳援军作战后的去向有三说",
+      "summary": "作为晋军骑将参与援李罕之攻河阳，战后离军。旧史康君立传说叛入汴军，李罕之传说率一军奔蔡，新史说被俘；分别列原证，不统一为主动投降。",
+      "year": 888,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "文德元年三月；新史仅记文德元年",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p2",
+          "originalRevision": 1,
+          "originalSha256": "14283d678548b78007ca8aa97adcc11f4e1a330717da925223cad55a5180db44",
+          "excerpt": "三月，與汴將丁會、牛存節戰於沇河。臨陣之次，騎將安休休叛入汴軍，君立引退。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史李罕之传",
+          "sourceDate": "文德元年三月叙事",
+          "year": 888,
+          "summary": "记率一军奔蔡，而非入汴。",
+          "evidence": [
+            {
+              "chapterId": "old-v015",
+              "paragraphId": "old-v015-p9",
+              "originalRevision": 1,
+              "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+              "excerpt": "會晉將安休休以一軍奔於蔡，存孝引軍而退，罕之保於澤州。"
+            }
+          ]
+        },
+        {
+          "label": "新史李存孝传",
+          "sourceDate": "文德元年",
+          "year": 888,
+          "summary": "记温县战晋军大败，安休休被执。",
+          "evidence": [
+            {
+              "chapterId": "new-v36",
+              "paragraphId": "new-v36-p20",
+              "originalRevision": 1,
+              "originalSha256": "0762a33c7079ca57be7c47878a8373ca4d2fe3b450a79d8da17d084bb3976d37",
+              "excerpt": "戰于溫縣，梁軍先扼太行，存孝大敗，安休休被執。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

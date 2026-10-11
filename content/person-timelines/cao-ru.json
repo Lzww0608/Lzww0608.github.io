@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "cao-ru",
+  "events": [
+    {
+      "id": "cao-ru-baixiang-retreat",
+      "title": "柏乡败后，与张从楚收兵退相州",
+      "summary": "作为梁方别将，在柏乡败后与后称李绍文的张从楚收拢残兵、退相州。",
+      "year": 911,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐八年柏乡敗后收残兵；周德威传同役正月二日，可核911年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p18",
+          "originalRevision": 1,
+          "originalSha256": "ff0518d36247e9d7d23629e90d296affaf9ef55f9b95575bc4c69f0365a3ce6b",
+          "excerpt": "紹文與別將曹儒收殘眾，退保相州。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p7",
+          "originalRevision": 1,
+          "originalSha256": "7a6428b761cf83c37ec022e0f5f700e2a952b79061f6b8e2664b1d0a1912cabf",
+          "excerpt": "八年正月二日，德威率騎軍致師於柏鄉，設伏於村塢間，令三百騎以壓汴營。"
+        }
+      ]
+    },
+    {
+      "id": "cao-ru-kuangba-command",
+      "title": "归晋后分掌匡霸军",
+      "summary": "张从楚归庄宗后，两将三千兵被分为左右匡霸军，曹儒与李绍文分别统率；不把李绍文后事自动归曹儒。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "柏乡败后归晋阶段",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p18",
+          "originalRevision": 1,
+          "originalSha256": "ff0518d36247e9d7d23629e90d296affaf9ef55f9b95575bc4c69f0365a3ce6b",
+          "excerpt": "分其兩將三千人為左右匡霸軍旅，仍令紹文、曹儒分將之。"
+        }
+      ]
+    }
+  ]
+}

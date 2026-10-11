@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yuan-xiangxian",
+  "events": [
+    {
+      "id": "yuan-xiangxian-xiu",
+      "title": "北征为应接副使，攻蓨不克",
+      "summary": "袁象先为东南行营应接副使，攻蓨县未下回军；原传年份与实际同一北征编年有别。",
+      "year": 912,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "《通鉴》乾化二年二月北征；旧本传开平五年另说",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p37",
+          "originalRevision": 1,
+          "originalSha256": "0287feead5ef1b7aea7e33f5aef683c14d7c77c8d9726efc54fdc7445b18cb98",
+          "excerpt": "太祖神武元聖孝皇帝下乾化二年（壬申，公元九一二年）"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p38",
+          "originalRevision": 1,
+          "originalSha256": "8f89d47986f1d7e361911af1c1abde3bd5299556514074555effc3555a96ff0d",
+          "excerpt": "春，正月，德威東出飛狐，與趙王將王德明、義武將程巖會於易水。丙戌，三鎮兵進攻燕祁溝關，下之；戊子，圍涿州。刺史劉知溫城守，劉守奇之客劉去非大呼於城下，謂知溫曰：「河東小劉郎來為父討賊，何豫汝事而堅守邪？」守奇免冑勞之，知溫拜於城上，遂降。周德威疾守奇之功，譖諸晉王，王召之，守奇恐獲罪，與去非及進士趙鳳來奔，上以守奇為博州刺史。去非、鳳，皆幽州人也。先是，燕主守光籍境內丁壯，悉文面為兵，雖士人不免，鳳詐為僧奔晉，守奇客之。丁酉，德威至幽州城下，守光來求救。二月，帝疾小愈，議自將擊鎮、定以救之。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p40",
+          "originalRevision": 1,
+          "originalSha256": "cac0e7b4d6dd965a7cd9ff98d167a416955042f5793b1454ba79f8b1abd7ea63",
+          "excerpt": "甲子，帝發洛陽。從官以帝誅戮無常，多憚行，帝聞之，益怒。是日，至白馬頓，賜從官食，多未至，遣騎趣之於路。左散騎常侍孫騭、右諫議大夫張衍、後部郎中張俊最後至，帝命撲殺之。衍，宗奭之侄也。丙寅，帝至武陟，段明遠供饋有加於前。丁卯，至獲嘉，帝追思李思安去歲供饋有闕，貶柳州司戶，告辭稱明遠之能曰：「觀明遠之忠勤如此，見思安之悖慢何如？」尋長流思安於崖州，賜死。明遠後更名凝。乙亥，帝至魏州，命都招討使宣義節度使楊師厚，副使、前河陽節度使李周彝圍棗強，招討應接使、平盧節度使賀德倫，副使、天平留後袁象先圍蓨脩縣。德倫，河西胡人；象先，下邑人也。戊寅，帝至貝州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史本传开平五年",
+          "sourceDate": "旧本传开平五年，未独月日",
+          "summary": "旧史本传写开平五年北征为副使、攻蓨不克；通鉴同一枣强、蓨县兵事在次年。",
+          "evidence": [
+            {
+              "chapterId": "old-v059",
+              "paragraphId": "old-v059-p13",
+              "originalRevision": 1,
+              "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+              "excerpt": "五年，梁祖北征，以象先為鎮定東南行營都招討應接副使，進封開國伯。領兵攻蓚縣，不克而還。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-xiangxian-succession",
+      "title": "与杨师厚谋诛朱友珪",
+      "summary": "袁象先在洛阳率禁军入宫攻朱友珪，配合朱友贞、杨师厚等夺位，末帝即位后授平章事、开封尹等。",
+      "year": 913,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "乾化三年；《通鉴》同役二月庚寅入宫作年/月锚",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p27",
+          "originalRevision": 1,
+          "originalSha256": "f45ac295ff781148068acbb1c7a932fc5f8567b5aa929f81f1cc652fc071f8b9",
+          "excerpt": "太祖遇弒，友珪立。末帝留守東都，以大事謀於趙巖，巖曰：「此事如反掌耳，但得招討楊令公一言諭禁軍，則事可成。」末帝即遣人之魏州，以謀告楊師厚，師厚遣裨將王舜賢至洛陽與象先謀，象先許諾。是時，龍驤軍將劉重遇戍于懷州，以其軍作亂，友珪遣霍彥威擊敗于鄢陵，其餘兵奔散，捕之甚急。末帝即召龍驤軍在東京者告之曰：「上以重遇故，欲盡召龍驤軍至洛而誅之。」乃偽為友珪詔書示之，龍驤軍恐懼，不知所為，因告之曰：「友珪弒父與君，天下之賊也！爾能趨洛陽擒之，以其首祭先帝，則所謂轉禍而為福也。」軍士踴躍曰：「王言是也。」末帝即馳奏，言：「龍驤軍反。」象先聞之，即引禁軍千人入宮攻友珪，友珪死。末帝即位，拜象先鎮南軍節度使、同中書門下平章事、開封尹、判在京馬步軍諸軍事。貞明四年，為平盧軍節度使，徙鎮宣武。"
+        },
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "乾化三年，與魏博節度使楊師厚合謀，誅朱友珪於洛陽。梁末帝即位，以功授檢校太保、同平章事，遙領洪州節度使、行開封尹、判在京馬步諸軍，進封開國公。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p89",
+          "originalRevision": 1,
+          "originalSha256": "7699b55dd3825075074cb4b6c7cb251762d1b58e2f40c9680cf3f0adfa5d0808",
+          "excerpt": "太祖神武元聖孝皇帝下乾化三年（癸酉，公元九一三年）"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p94",
+          "originalRevision": 1,
+          "originalSha256": "72aeddd36bb6ef588932108e4d649c96fdd9b22d69674b3bc78c2c640947f36f",
+          "excerpt": "二月，壬午，蜀大赦。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p95",
+          "originalRevision": 1,
+          "originalSha256": "1b99c06404ff140406ed7b7d19ad24acbeea329ac3aebc500adace281cb03149",
+          "excerpt": "郢王友珪既得志，遽為荒淫，內外憤怒，友珪雖啖以金繒，終莫之附。駙馬都尉趙巖，犨之子，太祖之婿也；左龍虎統軍、侍衛親軍都指揮使袁象先，太祖之甥也。巖奉使至大梁，均王友貞密與之謀誅友珪，巖曰：「此事成敗，在招討楊令公耳，得其一言諭禁軍，吾事立辦。」均王乃遣腹心馬慎交之魏州說楊師厚曰：「郢王篡弒，人望屬在大梁，公若因而成之，此不世之功也。」且許事成之日賜犒軍錢五十萬緡。師厚與將佐謀之，曰：「方郢王弒逆，吾不能即討；今君臣之分已定，無故改圖，可乎？」或曰：「郢王親弒君父，賊也，均王舉兵復仇，義也。奉義討賊，何君臣之有！彼若一朝破賊，公將何以自處乎？」師厚驚曰：「吾幾誤計。」乃遣其將王舜賢至洛陽，陰與袁象先謀，遣招討馬步都虞候譙人朱漢賓將兵屯滑州為外應。趙巖歸洛陽，亦與象先密定計。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "庚寅旦，袁象先等帥禁兵數千人突入宮中。友珪聞變，與妻張氏及馮廷諤趨北垣樓下，將逾城，自度不免，令廷諤先殺妻，次殺己，廷諤亦自剄。諸軍十餘萬大掠都市，百司逃散，中書侍郎、同平章事杜曉、侍講學士李珽皆為亂兵所殺，門下侍郎、同平章事於兢、宣政使李振被傷。至晡乃定。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xiangxian-join-tang",
+      "title": "梁亡献财行贿，归唐获复官赐名",
+      "summary": "袁象先以在宋州搜括积财送权贵、皇后与伶宦，归唐后获复官，并赐姓李名绍安。",
+      "year": 923,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "同光元年灭梁后；同役本纪十一月乙巳赐李绍安作锚",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p14",
+          "originalRevision": 1,
+          "originalSha256": "04d582a6f3acbda3abbf5da7999d97afd40da3d12087c9d12762783a69f323c6",
+          "excerpt": "象先恃甥舅之勢，所至藩府，侵刻誅求尤甚，以此家財巨萬。莊宗初定河南，象先率先入覲，輦珍幣數十萬，遍賂權貴及劉皇后、伶官巷伯，居旬日，內外翕然稱之。"
+        },
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p15",
+          "originalRevision": 1,
+          "originalSha256": "38c4dc6cb900830e95f80739003b75d2872162a6c041a3371697b70b566dd13a",
+          "excerpt": "」即日，復以象先為宋、亳、耀、輝、潁節度使，依前檢校太尉、平章事，仍賜姓，名紹安，尋令歸鎮。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "同光元年冬十月辛未朔，日有食之。是日，皇后劉氏、皇子繼岌歸鄴宮，帝送於離亭，歔欷而別。詔宣徽使李紹宏、宰相豆盧革、租庸使張憲、興唐尹王正言同守鄴城。壬申，帝御大軍自楊劉濟河。癸酉，至鄆州。是夜三鼓，渡汶。時王彥章守中都。甲戌，帝攻之，中都素無城守，師既雲合，梁眾自潰。是日，擒梁將王彥章及都監張漢傑、趙廷隱、劉嗣彬、李知節、康文通、王山興等將吏二百餘人，斬馘二萬，奪馬千匹。時既獲中都之捷，帝召諸將謀其所向，或言且徇兗州，徐圖進取，唯李嗣源曰：「宜急趨汴州。段凝方領大軍駐於河上，假如便來赴援，直路又阻決河，須自滑州濟渡，十萬之眾，舟楫焉能卒辦？此去汴城咫尺，若晝夜兼程，信宿即至，段凝未起河堧，夷門已為我有矣。臣請以千騎前驅，陛下禦軍徐進，鮮不克矣。」帝嘉之。是夜，嗣源率前軍先進。翌日，車駕即路。丁丑，次曹州，郡將出降。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p14",
+          "originalRevision": 1,
+          "originalSha256": "e6303b6b5acdc01ba3e15da0ea0c2b27f7a982b064e2275a2b8133661416f8ce",
+          "excerpt": "庚子，帝畋於汴水之陽。十一月辛丑朔，有司奏：「河南州縣見使偽印，望追毀改鑄。」從之。以光祿大夫、檢校太傅、左金吾上將軍兼領左龍武軍事、汾州刺史李存渥為滑州節度使，加特進、同平章事；以雜指揮散員都部署、特進、檢校太傅、忻州刺史李紹榮為徐州節度使；以滑州兵馬留後、檢校太保李紹欽為兗州節度使。壬寅，鳳翔節度使、秦王李茂貞遣使賀收復天下。癸卯，河中節度使、西平王朱友謙來朝。乙巳，賜友謙姓，改名繼麟，帝令皇子繼岌兄事之。以捧日都指揮使、博州刺史康延孝為鄭州防禦使、檢校太保，賜姓，名繼琛。以宋州節度使、檢校太尉、平章事袁象先依前為宋州節度使，仍賜姓，名紹安。以許州匡國軍節度使、檢校太尉、同平章事溫韜依前許州節度使，仍賜姓，名紹衝。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p28",
+          "originalRevision": 1,
+          "originalSha256": "b20682b2dae154e7bbe9f7819c3e53d2e1a93b378e7553d273db5fad48908b58",
+          "excerpt": "在宋州十餘年，誅斂其民，積貨千萬。莊宗滅梁，象先來朝洛陽，輦其資數十萬，賂唐將相、伶官、宦者及劉皇后等，由是內外翕然稱其為人。莊宗待之甚厚，賜姓名為李紹安，改宣武軍為歸德軍，曰：「歸德之名，為卿設也。」遣之還鎮。"
+        }
+      ]
+    },
+    {
+      "id": "yuan-xiangxian-death",
+      "title": "次年郊礼后病卒，记法两史不同",
+      "summary": "旧史记袁象先次年郊礼来朝、回镇后夏病卒，年六十一；新史接灭梁归朝后同年卒，年六十，两说不合并。",
+      "year": 924,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "旧传归唐明年之夏，即同光二年夏，季节月界均在924年",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p15",
+          "originalRevision": 1,
+          "originalSha256": "38c4dc6cb900830e95f80739003b75d2872162a6c041a3371697b70b566dd13a",
+          "excerpt": "明年，以郊禮，象先復來朝。是時，製改宋州宣武軍為歸德軍，因侍宴，莊宗謂象先曰：「歸德之名，無乃著題否？」象先拜謝而退，即命歸鎮。其年夏，以疾卒於理所，年六十一。冊贈太師，周廣順中，贈中書令，追封楚國公。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史同年卒、年六十",
+          "sourceDate": "灭梁后归朝接叙“是岁卒”",
+          "summary": "新史写是岁卒、六十岁，与旧史次年夏、六十一岁不同。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p28",
+              "originalRevision": 1,
+              "originalSha256": "b20682b2dae154e7bbe9f7819c3e53d2e1a93b378e7553d273db5fad48908b58",
+              "excerpt": "象先為梁將，未嘗有戰功，徒以甥故掌親軍。及誅友珪，有功於末帝。在宋州十餘年，誅斂其民，積貨千萬。莊宗滅梁，象先來朝洛陽，輦其資數十萬，賂唐將相、伶官、宦者及劉皇后等，由是內外翕然稱其為人。莊宗待之甚厚，賜姓名為李紹安，改宣武軍為歸德軍，曰：「歸德之名，為卿設也。」遣之還鎮。是歲卒，年六十，贈太師。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuan-xiangxian-guards",
+      "title": "朱温外甥，掌元从及宣武军",
+      "summary": "袁象先是朱温妹妹之子。景福元年任元从马军指挥使兼左静边都指挥使；乾宁五年宣武职另列。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "range",
+      "sourceDate": "景福元年，未独授任月日，传统年跨892—893年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p12",
+          "originalRevision": 1,
+          "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+          "excerpt": "敬初娶梁祖之妹，初封沛郡太君。"
+        },
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "景福元年，自檢校左省常侍，遷檢校工部尚書，充元從馬軍指揮使兼左靜邊都指揮使。"
+        }
+      ],
+      "yearRange": {
+        "start": 892,
+        "end": 893
+      }
+    },
+    {
+      "id": "yuan-xiangxian-xuanwu",
+      "title": "掌宣武内外马步军",
+      "summary": "乾宁五年，袁象先再迁检校右仆射、左领军卫将军同正，任宣武军内外马步军都指挥使；不并入景福元年任职。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "乾宁五年，未记任命月日；年号此年的有效时段在898年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "乾寧五年，再遷檢校右僕射、左領軍衛將軍同正，充宣武軍內外馬步軍都指揮使。"
+        }
+      ],
+      "yearRange": {
+        "start": 898,
+        "end": 898
+      }
+    },
+    {
+      "id": "yuan-xiangxian-suzhou-acting",
+      "title": "权知宿州军州事",
+      "summary": "光化二年，袁象先暂管宿州军州事务，正任刺史是后来的天复元年。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "光化二年，未独月日，传统年跨899—900年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "光化二年，權知宿州軍州事。"
+        }
+      ],
+      "yearRange": {
+        "start": 899,
+        "end": 900
+      }
+    },
+    {
+      "id": "yuan-xiangxian-suzhou",
+      "title": "宿州正式授任刺史",
+      "summary": "袁象先在此前权知宿州之后，天复元年正式表授刺史，兼本州团练、埇桥镇遏都知兵马使；权知与后来围城另列。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "range",
+      "sourceDate": "天复元年表授，未独任命月日，传统年跨901—902年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "天復元年，表授刺史，充本州團練、埇橋鎮遏都知兵馬使。"
+        }
+      ],
+      "yearRange": {
+        "start": 901,
+        "end": 902
+      }
+    },
+    {
+      "id": "yuan-xiangxian-suzhou-defense",
+      "title": "宿州围急，竭力防御",
+      "summary": "袁象先守宿州时，淮军大举来围，援军尚未到，竭力防御。旧史又记风雨退敌及立陈璠祠；阴兵说作为原书传说保留，不当作确定军事实况。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "宿州授任后所叙围战，未独标围城年月",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "會淮寇大至，圍迫州城，象先雘力禦備，時援兵未至，頗懷憂沮。一日，登北城，憩其樓堞之上，怳然若寢，夢人告曰：「我陳璠也，嘗板築是城，舊第猶在，今為軍舍，可為我立廟，即助公陰兵。 」象先納之。翌日，淮寇急攻其壘，梯衝角進，是日州城幾陷。頃之，有大風雨，居民望見城上兵甲無算，寇不能進，即時退去。象先方信鬼神之助，乃為之立祠，至今里人禱祝不輟。"
+        }
+      ],
+      "notes": [
+        "旧史原段陈璠梦告、阴兵及神助为书中传说，不据此增造确定战况。"
+      ]
+    },
+    {
+      "id": "yuan-xiangxian-mingzhou",
+      "title": "权知洺州",
+      "summary": "旧史天复三年，袁象先暂管洺州军州事；未独月日。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "天复三年，传统年跨903—904年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "三年，權知洺州軍州事。"
+        }
+      ],
+      "yearRange": {
+        "start": 903,
+        "end": 904
+      }
+    },
+    {
+      "id": "yuan-xiangxian-chenzhou",
+      "title": "任陈州刺史",
+      "summary": "天祐三年，袁象先任陈州刺史、检校司空；该年陈州大水饥荒，本传记贫民赖野生可食植物活命，未说这植物是其政令所致。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "天祐三年，未独任命月日；传统年跨906—907年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "天祐三年，授陳州刺史、檢校司空。是歲，陳州大水，民饑，有物生於野，形類蒲萄，其實可食，貧民賴焉。"
+        }
+      ],
+      "yearRange": {
+        "start": 906,
+        "end": 907
+      }
+    },
+    {
+      "id": "yuan-xiangxian-liang-guards",
+      "title": "历左英武、左神武及右羽林",
+      "summary": "开平二年，袁象先授左英武军使，继迁左神武、右羽林统军；未逐次标任命月日。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "梁开平二年，传统年跨908—909年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "梁開平二年，授左英武軍使，再遷左神武、右羽林統軍。"
+        }
+      ],
+      "yearRange": {
+        "start": 908,
+        "end": 909
+      }
+    },
+    {
+      "id": "yuan-xiangxian-right-guard",
+      "title": "转右卫上将军，封县男",
+      "summary": "开平三年，袁象先转右卫上将军，封汝南县男。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "开平三年，未独月日，传统年跨909—910年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "三年，轉右衛上將軍，封汝南縣男。"
+        }
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      }
+    },
+    {
+      "id": "yuan-xiangxian-songyun",
+      "title": "任宋郓留后，开仓赈饥",
+      "summary": "袁象先权宋州，五个月后转天平留后，郓州饥荒流民，他开仓赈济。",
+      "year": null,
+      "sortOrder": 14,
+      "precision": "range",
+      "sourceDate": "开平四年权宋州、到任五个月改天平及赈济，未记本项月日，传统年跨910—911年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "四年，權知宋州留後，到任五月，改天平軍兩使留後。時鄆境再饑，戶民流散，象先即開倉賑恤，蒙賴者甚眾。"
+        }
+      ],
+      "yearRange": {
+        "start": 910,
+        "end": 911
+      }
+    },
+    {
+      "id": "yuan-xiangxian-qing-song",
+      "title": "领青州后移宋州，所受年份有异",
+      "summary": "旧史记乾化四年授青州、未久移宋州；新史记贞明四年为平卢后徙宣武，两书分别展示。",
+      "year": null,
+      "sortOrder": 15,
+      "precision": "range",
+      "sourceDate": "旧史乾化四年，未独授任月日，传统年跨914—915年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p13",
+          "originalRevision": 1,
+          "originalSha256": "86f33cdee427e3191056df556b4a25d0f5f4608fcd809073b9a780c0a56c0ebd",
+          "excerpt": "四年，授青州節度使，加檢校太傅。未幾，移鎮宋州，加檢校太尉。象先在宋凡十年。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史贞明四年",
+          "sourceDate": "新史贞明四年，未独授任月日，传统年跨918—919年",
+          "summary": "新史把平卢及随后宣武任职写在贞明四年，旧史青州任职在乾化四年。",
+          "evidence": [
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p27",
+              "originalRevision": 1,
+              "originalSha256": "f45ac295ff781148068acbb1c7a932fc5f8567b5aa929f81f1cc652fc071f8b9",
+              "excerpt": "貞明四年，為平盧軍節度使，徙鎮宣武。"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 914,
+        "end": 915
+      }
+    },
+    {
+      "id": "yuan-xiangxian-honor",
+      "title": "后周再赠中书令、楚国公",
+      "summary": "袁象先先赠太师，后周广顺年间再赠中书令、追封楚国公。",
+      "year": null,
+      "sortOrder": 16,
+      "precision": "undated",
+      "sourceDate": "后周广顺中，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p15",
+          "originalRevision": 1,
+          "originalSha256": "38c4dc6cb900830e95f80739003b75d2872162a6c041a3371697b70b566dd13a",
+          "excerpt": "冊贈太師，周廣順中，贈中書令，追封楚國公。"
+        }
+      ]
+    }
+  ]
+}

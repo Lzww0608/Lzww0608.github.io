@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "hu-zhen",
+  "events": [
+    {
+      "id": "hu-zhen-early",
+      "title": "由县吏入黄巢军，转随朱温归唐",
+      "summary": "胡真善骑射，早为县吏，后随黄巢入关。朱温归唐时他是元从都将，夹引通鉴还记胡真、谢瞳劝朱温归国。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "黄巢攻长安至朱温归唐，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "3b85a8b5f9579056fcc52ebcb37fe7983fcded3a61efd3dfd23901099871cfca",
+          "excerpt": "胡真，江陵人也。體貌洪壯，長七尺，善騎射，少為縣吏。及在巢寇中，寇推為名將，隨巢涉淮、浙，陷許、洛，入長安。及太祖以眾歸唐，真時為元從都將，〈（《通鑒》云：溫見巢兵勢日蹙，知其將亡，親將胡真、謝瞳勸溫歸國。"
+        }
+      ]
+    },
+    {
+      "id": "hu-zhen-campaigns",
+      "title": "随朱温平巢蔡",
+      "summary": "胡真随朱温到汴，授检校刑部尚书，多次在陈郑间击巢、蔡军。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "从赴汴后，未逐役记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "3b85a8b5f9579056fcc52ebcb37fe7983fcded3a61efd3dfd23901099871cfca",
+          "excerpt": "）〉從至梁苑，表授檢校刑部尚書，頻從破巢、蔡於陳、鄭間。"
+        }
+      ]
+    },
+    {
+      "id": "hu-zhen-huazhou",
+      "title": "奇兵取滑州，领郑滑军镇",
+      "summary": "胡真以奇兵袭滑州，任留后，后授郑滑节度使、检校右仆射。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "平巢蔡后接叙，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "3b85a8b5f9579056fcc52ebcb37fe7983fcded3a61efd3dfd23901099871cfca",
+          "excerpt": "尋以奇兵襲取滑州，乃署為滑州節度留後，復表為鄭滑節度使、檢校右僕射。"
+        }
+      ]
+    },
+    {
+      "id": "hu-zhen-end",
+      "title": "入金吾再镇容州，卒后赠太傅",
+      "summary": "胡真数年后征金吾大将军，再任宁远军节度、容州刺史，身后赠太傅。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "数年后任职与卒后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "3b85a8b5f9579056fcc52ebcb37fe7983fcded3a61efd3dfd23901099871cfca",
+          "excerpt": "數年，徵為右金吾衛大將軍，俄拜寧遠軍節度使、容州刺史、檢校太保。卒贈太傅。"
+        }
+      ]
+    }
+  ]
+}

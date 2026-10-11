@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "yan-bao",
+  "events": [
+    {
+      "id": "yan-bao-join",
+      "title": "由朱瑾军归朱温",
+      "summary": "阎宝原为朱瑾牙将，兖州失守时与胡规、康怀英归朱温；康怀英传明确乾宁四年春平兖州为同役年锚。后任州职另列。",
+      "year": 897,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "乾宁四年春葛从周平兖州同役",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "寶少事朱瑾為牙將，瑾之失守於兗也，寶與瑾將胡規、康懷英歸汴梁，皆擢任之。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd6dcce3efac8421570e3a0947f308f42bf0b74d56f82a00296d187b0c96facf",
+          "excerpt": "唐乾寧四年春，太祖既平鄆，命葛從周乘勝急攻兗州。"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-join-jin",
+      "title": "邢州孤立，献城归晋",
+      "summary": "晋军得魏博及属州后，邢州孤城无援，阎宝八月献城，晋王礼待、授天平军及东南招讨。两史所置年份不同。",
+      "year": 916,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "旧史天祐十三年八月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "莊宗定魏博，十三年，攻相、衛、洺、磁，下之，寶獨保邢州，城孤援絕。八月，寶以邢州降，莊宗嘉之，進位檢校太尉、同平章事，遙領天平軍節度使、東南面招討等使，待以賓禮，位在諸將上，每有謀畫，與之參決。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史从贞明元年起叙",
+          "sourceDate": "贞明元年魏博降晋起叙，未独标邢降日期",
+          "summary": "新史从贞明元年魏博降起，连叙各州下、围邢、张温招降；旧史明记十三年八月，分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p24",
+              "originalRevision": 1,
+              "originalSha256": "81ea99f297b4ed82a554832380c88791a7ef758062179bef5e38cf7ac3a4fd7e",
+              "excerpt": "貞明元年，[2]賀德倫以魏博降晉，晉軍攻下洺、磁、相、衞，移兵圍邢州。末帝遣捉生都指揮使張溫將五百騎救寶，溫至內黃，遇晉軍，乃降晉。晉遣溫將所降梁軍至城下招寶，寶遂降晉。晉王拜寶檢校太尉、同中書門下平章事，領天平軍節度使、東南面招討使，位在諸將上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-youzhou",
+      "title": "随李嗣源、符存审救幽州",
+      "summary": "周德威被契丹围急，阎宝与符存审随李嗣源在幽州西北击敌，解围返还。",
+      "year": 917,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天祐十四年八月同一幽州救援",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "契丹之寇幽州也，周德威危急，寶與李存審從明宗擊契丹於幽州西北，解圍而還。"
+        },
+        {
+          "chapterId": "old-v056",
+          "paragraphId": "old-v056-p17",
+          "originalRevision": 1,
+          "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13",
+          "excerpt": "十四年八月，將兵援周德威於幽州，敗契丹之眾。"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-huliu",
+      "title": "胡柳战场劝晋王继续决战",
+      "summary": "胡柳晋军失利，阎宝判断梁步军晚归心切，劝李存勖勿收营，以精锐决战，晋王采纳后败梁。",
+      "year": 919,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "贞明四年十二月，已跨919年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "胡柳之役，諸軍逗撓，汴軍登無石山，其勢甚盛。莊宗望之，畏其不敵，且欲保營。寶進曰：「王深入敵境，偏師不利，王彥章騎軍已入濮州，山下唯列步兵，向晚皆有歸誌。我盡銳擊之，敗走必矣。今若引退，必為所乘，我軍未集，更聞賊勝，即不戰而自潰也。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p25",
+          "originalRevision": 1,
+          "originalSha256": "3811283225f1707e90e80df0abdd19cdac7e9dfaeb77d26692e9333196bf18a9",
+          "excerpt": "梁、晉戰胡柳，晉軍敗。莊宗欲引兵退保臨濮，寶曰：「夫決勝料勢，決戰料情，情勢既得，斷在不疑。今梁兵窘蹙，其勢可破；勝而驕怠，其情可知。此不可失之時也。」莊宗謝曰：「微公，幾敗吾事。」乃整軍復戰，遂敗梁兵。"
+        },
+        {
+          "chapterId": "kaoyi-v029",
+          "paragraphId": "kaoyi-v029-p14",
+          "originalRevision": 1,
+          "originalSha256": "a7b825ac28359947d5dea839d67482456d2dcff1991c8e91cc7cc02a90fe5b49",
+          "excerpt": "按明宗實錄建豐傳云戰胡桞陂時建豐猶為相州乃是天祐十五年十二月"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-zhenzhou",
+      "title": "讨张文礼，围真定引水",
+      "summary": "阎宝率军討张文礼，八月收赵州，九月逼真定，挖围壕、决大悲寺漕渠浸外城。",
+      "year": 921,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "天祐十八年八月至九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "十八年，張文禮殺王鎔叛，寶帥師進討。八月，收趙州，進渡滹水，擒賊黨張友順以獻。九月，進逼真定，結營西南隅。掘塹柵以環之，決大悲寺漕渠以浸其郛。"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-xinle",
+      "title": "契丹援镇前，陈方略安军",
+      "summary": "天祐十九年正月，契丹援镇前锋到新乐，阎宝见李存勖指陈方略，使军情安定；敌退加检校侍中。",
+      "year": 922,
+      "sortOrder": 6,
+      "precision": "month",
+      "phase": "service",
+      "sourceDate": "天祐十九年正月",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "十九年正月，契丹三十萬來援鎮州，前鋒至新樂，眾心憂之。寶見莊宗，指陳方略，軍情乃安。敵退，加檢校侍中。"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-death",
+      "title": "被出城镇兵击败，退赵病卒",
+      "summary": "镇州饥兵大批出城，阎宝伏击未成，各军未集而被敌乘，退赵州，羞愤发疽而死；旧史记六十。后赠封另列。",
+      "year": 922,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "天祐十九年三月败后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "三月，城中饑，王處瑾之眾出城求食，寶縱其出，伏兵截擊之。饑賊大至，諸軍未集，為賊年乘；寶乃收軍退保趙州，因慚憤成疾，疽發背而卒，時年六十。"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p26",
+          "originalRevision": 1,
+          "originalSha256": "2198282d8a3c254578ecf9c079df2e4d903c06b54b2027a3f3e2f80f07139686",
+          "excerpt": "十八年，晉軍討張文禮於鎮州，以寶為招討使。明年三月，寶戰敗，退保趙州。慚憤發疽卒，追贈太師。"
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-liang-offices",
+      "title": "随梁诸将出征，历州职",
+      "summary": "朱温用兵河朔关西，阎宝随葛从周等统军，历洺随宿郑刺史。旧史称所至立功，新史说常随诸将而未独立战功；新史还记梁末帝时拜保义节度，未独年，不倒填909邢洺授任。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "归梁后诸役州职；新末帝保义未独年月",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "自梁祖陳師河朔，爭霸關西，寶與葛從周、丁會、賀德倫、李思安各為大將，統兵四出，所至立功，曆洺、隨、宿、鄭四州刺史。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史军功范围与保义任官",
+          "sourceDate": "太祖时诸军都虞候；末帝时保义，未独年月",
+          "summary": "旧史说随诸将统兵所至立功，新史说常随诸将而未独立战功，另记末帝时保义军节度；不把新任官倒定为旧909邢洺同一授命。",
+          "evidence": [
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p23",
+              "originalRevision": 1,
+              "originalSha256": "ea6102fdf5f1acd865eb49d94e7599bf944960bfc0eb7b50730840001581785c",
+              "excerpt": "閻寶字瓊美，鄆州人也。少為朱瑾牙將，瑾走淮南，寶降於梁。梁太祖時，為諸軍都虞候，常從諸將征伐，未嘗獨立戰功。至末帝時，以寶為保義軍節度使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yan-bao-xingming",
+      "title": "任邢洺节度使",
+      "summary": "朱温授阎宝邢洺节度使、检校太傅。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "旧史天祐六年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "天祐六年，梁祖以寶為邢洺節度使、檢校太傅。"
+        }
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      },
+      "notes": [
+        "原书记年未载本事月日，传统年份可能跨至下一西历年，按有据范围保留。"
+      ]
+    },
+    {
+      "id": "yan-bao-taishi",
+      "title": "身后追赠太师",
+      "summary": "旧史记同光初追赠太师，新史在病卒后接记追赠而不独赠年；按旧书保同光初阶段，不把赠官全压922。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "旧史同光初；新史病卒后接记未独年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "同光初，追贈太師；"
+        },
+        {
+          "chapterId": "new-v44",
+          "paragraphId": "new-v44-p26",
+          "originalRevision": 1,
+          "originalSha256": "2198282d8a3c254578ecf9c079df2e4d903c06b54b2027a3f3e2f80f07139686",
+          "excerpt": "慚憤發疽卒，追贈太師。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 926
+      }
+    },
+    {
+      "id": "yan-bao-taiyuan-king",
+      "title": "后晋追封太原郡王",
+      "summary": "后晋天福年间追封太原郡王；新史写太原王，官称分别保存，未记具体赠诏年。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "晋天福中，未独诏年",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p3",
+          "originalRevision": 1,
+          "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5",
+          "excerpt": "晉天福中，追封太原郡王。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史写太原王",
+          "sourceDate": "晋天福中，未独诏年",
+          "summary": "旧书写太原郡王，新书写太原王，分别保存原称。",
+          "evidence": [
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p26",
+              "originalRevision": 1,
+              "originalSha256": "2198282d8a3c254578ecf9c079df2e4d903c06b54b2027a3f3e2f80f07139686",
+              "excerpt": "晉天福中，追封太原王。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

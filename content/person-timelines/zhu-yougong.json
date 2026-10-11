@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhu-yougong",
+  "events": [
+    {
+      "id": "zhu-yougong-guards",
+      "title": "昭宗迁洛，任宫卫统军",
+      "summary": "天祐初昭宗迁洛阳，朱友恭被征掌宫廷军职；旧史作左龙虎统军，新史作右龙武统军，各依来源。",
+      "year": 904,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐初昭宗迁洛",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "天祐初，昭宗東遷洛邑，征拜左龍虎統軍，以衛宮闕。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p11",
+          "originalRevision": 1,
+          "originalSha256": "32fa7c031cb031759dde8e809fb32de857557ff9d3e39204388c1d6a85467a86",
+          "excerpt": "天祐元年正月己酉，帝發自大梁，西赴河中，京師聞之，為之震懼。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史右龙武统军",
+          "sourceDate": "昭宗下洛",
+          "year": 904,
+          "summary": "旧史左龙虎、新史右龙武，两史统军官名和左右不同。",
+          "evidence": [
+            {
+              "chapterId": "new-v43",
+              "paragraphId": "new-v43-p7",
+              "originalRevision": 1,
+              "originalSha256": "99ff4406d09b79009c8d7e54bd4630e58b4403f9331926e32c3ec9fa9e971dd3",
+              "excerpt": "昭宗下洛，拜右龍武統軍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougong-death",
+      "title": "受密令参与弑昭宗，复姓名赐死",
+      "summary": "朱友恭与氏叔琮受朱温密令参与弑昭宗，随后被责贬；旧史记先复李彦威姓名再同日赐死，新史记张廷范杀后还姓名，分别留证。",
+      "year": 904,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天祐元年八月弑昭宗及其后；新本传壬辰、旧本纪壬寅",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "尋與氏叔琮同受太祖密旨，弑昭宗於洛陽宮。既而太祖自河中至，責以慢於軍政，貶崖州司戶，復其本姓名，與氏叔琮同日賜死。"
+        }
+      ],
+      "notes": [
+        "新史用李彦威为传名，两者为同一人物；弑君责任和奉朱温密令不能互换。"
+      ],
+      "variants": [
+        {
+          "label": "新史弑君日次与杀后还姓名",
+          "sourceDate": "天祐元年八月壬辰",
+          "year": 904,
+          "summary": "新史记壬辰宫禁杀昭宗，事后流岭南由张廷范杀害，杀后才还原姓名；旧传复名在死前。弑君为奉朱温密令，不把后罪改成二人自发。",
+          "evidence": [
+            {
+              "chapterId": "new-v43",
+              "paragraphId": "new-v43-p9",
+              "originalRevision": 1,
+              "originalSha256": "d962f49251780855902e97d6924b4fe24f4c31fcd34f0a41be206c6d5f909472",
+              "excerpt": "是時，昭宗改元天祐，遷于東都，為梁所迫，而晉人、蜀人以為天祐之號非唐所建，不復稱之，但稱天復。王建亦傳檄天下，舉兵誅梁。太祖大懼，恐昭宗奔佗鎮，以兵七萬如河中，陰遣敬翔至洛，[1]告彥威與氏叔琮等，使行弒逆。八月壬辰，彥威、叔琮以龍武兵宿禁中，夜二鼓，以兵百人叩宮門奏事，夫人裴正一開門問曰：「奏事安得以兵入？」龍武牙官史太殺之，趨椒蘭殿，問昭宗所在，昭宗方醉，起走，太持劍逐之，昭宗單衣旋柱而走，太劍及之，昭宗崩。訃至河中，太祖陽為驚駭，投地號哭，罵曰：「奴輩負我，俾我被惡名於後世邪！」太祖至洛，流彥威、叔琮嶺南，使張廷範殺之。彥威臨刑大呼曰：「賣我以滅口，其如神理何？」顧廷範曰：「勉之，公行自及。」遂見殺。已而還其姓名。"
+            }
+          ]
+        },
+        {
+          "label": "旧本纪弑昭宗记壬寅",
+          "sourceDate": "天祐元年八月壬寅",
+          "year": 904,
+          "summary": "旧太祖本纪记八月壬寅，新友恭本传记壬辰，日次差异保留而不强合。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p11",
+              "originalRevision": 1,
+              "originalSha256": "32fa7c031cb031759dde8e809fb32de857557ff9d3e39204388c1d6a85467a86",
+              "excerpt": "天祐元年正月己酉，帝發自大梁，西赴河中，京師聞之，為之震懼。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p12",
+              "originalRevision": 1,
+              "originalSha256": "839f8d0698377db49e9f6705d1b320482f107004adaea91bd7545ca7592c0f75",
+              "excerpt": "八月壬寅，昭宗遇弑於大內，遺制以輝王柷為嗣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougong-adopt",
+      "title": "朱温收养，赐朱姓改名",
+      "summary": "李彦威幼事朱温，受收养赐姓，先名克让后名友恭，掌左长剑都并随四征。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "早年，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "朱友恭，壽春人，本姓李，名彥威。瑽角事太祖，性穎利，善體太祖意，太祖憐之，因畜為己子，賜姓，初名克讓，後改之。時初建左長劍都，以友恭董之。從太祖四征，稍立軍功，累遷諸軍都指揮使、檢校左僕射。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougong-ruzhou",
+      "title": "任汝州刺史",
+      "summary": "朱友恭在乾宁年间授汝州刺史、检校司空。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "乾宁中，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "乾寧中，授汝州刺史，加檢校司空。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougong-jianghan",
+      "title": "援杜洪，取黄州并袭安陆",
+      "summary": "杜洪求援，朱友恭率军渡江至龙沙九江，攻黄州擒瞿章；途经安陆袭杀武瑜、收其兵，后领颍州。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "光化初，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "光化初，淮夷侵鄂渚，武昌帥杜洪來乞師，太祖遣友恭將兵萬餘，濟江應援，引兵至龍沙、九江而還，軍聲大振。時淮寇據黃州，友恭攻陷其壁，獲賊將瞿章，俘斬萬計。途經安陸，因襲殺刺史武瑜，盡收其眾，以功為潁州刺史，加檢校司徒。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yougong-wuning",
+      "title": "任武宁军留后",
+      "summary": "旧史记天复年间任武宁军留后，未独纪年，不系在904年迁洛任军职当日。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "天复中，未独年",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "220927bb79ccfaf68e31f5669667100bed0fd21a8f5245344a26349bdcf48103",
+          "excerpt": "天復中，為武寧軍留後。"
+        }
+      ],
+      "yearRange": {
+        "start": 901,
+        "end": 904
+      }
+    }
+  ]
+}

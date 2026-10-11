@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "xifang-ye",
+  "events": [
+    {
+      "id": "xifang-ye-welcome-cunxu",
+      "title": "反对孔循迎两主，西迎庄宗",
+      "summary": "孔循两门迎李嗣源、李存勖，西方邺责其负恩；计阻无效后带五百骑至汜水迎庄宗，为先锋。",
+      "year": 926,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "同光四年明宗南渡时",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p15",
+          "originalRevision": 1,
+          "originalSha256": "d272b52132b853a6112bf165923a7a2ba4f9d776300c3c9360f3a223754bf4f3",
+          "excerpt": "乃將麾下兵五百騎西迎莊宗，見於汜水，嗚咽泣下，莊宗亦為之噓唏，使以兵為先鋒。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-confess-mingzong",
+      "title": "明宗入洛后马前请死",
+      "summary": "庄宗被杀、李嗣源入洛后，西方邺自陈立场在马前请死，获明宗嘉叹，未被处死。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "明宗入洛时",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p15",
+          "originalRevision": 1,
+          "originalSha256": "d272b52132b853a6112bf165923a7a2ba4f9d776300c3c9360f3a223754bf4f3",
+          "excerpt": "明宗入洛，鄴請死於馬前，明宗嘉歎久之。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-jingnan",
+      "title": "任夔州刺史，副董璋讨荆南",
+      "summary": "明宗命讨高季兴，西方邺被任夔州刺史、董璋副将，出兵三峡。",
+      "year": 927,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "明宗入洛之明年；本纪天成二年二月同事新授夔州、副董璋",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p15",
+          "originalRevision": 1,
+          "originalSha256": "d272b52132b853a6112bf165923a7a2ba4f9d776300c3c9360f3a223754bf4f3",
+          "excerpt": "乃拜鄴夔州刺史，副璋，以兵出三峽。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p5",
+          "originalRevision": 1,
+          "originalSha256": "4e727ecaf103df9d04a15b548fbe781ce88b35de09f1e0cf02789bab3edaa765",
+          "excerpt": "二月壬午朔，新羅遣使朝貢。"
+        },
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p5",
+          "originalRevision": 1,
+          "originalSha256": "4e727ecaf103df9d04a15b548fbe781ce88b35de09f1e0cf02789bab3edaa765",
+          "excerpt": "以東川節度使董璋充東南面招討使，新授夔州刺史西方鄴為副招討使，共領川軍下峽州，三面齊進。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-three-prefectures",
+      "title": "独取夔忠万，授宁江节度",
+      "summary": "他路讨荆南失利罢兵，西方邺取得夔忠万三州，夔州升宁江军，授节度使。",
+      "year": 927,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "天成二年七月甲子取三州",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p15",
+          "originalRevision": 1,
+          "originalSha256": "d272b52132b853a6112bf165923a7a2ba4f9d776300c3c9360f3a223754bf4f3",
+          "excerpt": "惟鄴獨取夔、忠、萬三州，乃以夔州為寧江軍，拜鄴節度使。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p12",
+          "originalRevision": 1,
+          "originalSha256": "6b17ea6ee7ce937f8b1e9cc79727e6065e7dad31fbdf0241c09b803552acf880",
+          "excerpt": "秋七月甲子，隨州刺史西方鄴取夔、忠、萬州。"
+        }
+      ],
+      "notes": [
+        "旧史说董璋未出兵，新史本传说亦尝出兵；董璋行动不由本条统一。"
+      ],
+      "variants": [
+        {
+          "label": "新史董璋也曾出兵",
+          "year": 927,
+          "sourceDate": "明宗即位之明年",
+          "summary": "新史称董璋亦尝出兵、仅西方邺得三州；与旧史董璋未尝出兵相异，不统一董璋行动。",
+          "evidence": [
+            {
+              "chapterId": "new-v25",
+              "paragraphId": "new-v25-p54",
+              "originalRevision": 1,
+              "originalSha256": "45af6ac37e8a17aafcb7eaa02cf4a2ac55ce993195035f22f5793003977dbfdd",
+              "excerpt": "明年，荊南高季興叛，明宗遣襄州節度使劉訓等招討，而以東川董璋為西南面招討使，乃拜鄴夔州刺史，副璋以兵出三峽。已而訓等無功見黜，諸將皆罷，璋亦嘗出兵，惟鄴獨取三州，乃以夔州為寧江軍，拜鄴節度使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-early-join",
+      "title": "游梁不获用，归晋为孝义指挥",
+      "summary": "二十岁南渡河游梁未被任用，回到晋，任孝义军指挥，多次征战有功。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p52",
+          "originalRevision": 1,
+          "originalSha256": "4ca1ef28bc9dacd18d1a39769c6d55f2bf65cb46ccf0c1c9b9bad3076e8d6e57",
+          "excerpt": "年二十，南渡河遊梁，不見用，復歸莊宗于河上，莊宗以為孝義指揮使，數從征伐有功，"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-cao-garrison",
+      "title": "曹州刺史率兵屯汴",
+      "summary": "同光中任曹州刺史，带州兵驻汴州。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "同光中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p52",
+          "originalRevision": 1,
+          "originalSha256": "4ca1ef28bc9dacd18d1a39769c6d55f2bf65cb46ccf0c1c9b9bad3076e8d6e57",
+          "excerpt": "同光中為曹州刺史，以州兵屯汴州。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-take-guizhou",
+      "title": "继取归州，多败高季兴兵",
+      "summary": "取得三州后又攻取归州，屡败荆南军。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "取夔忠万后，具体年未记",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p54",
+          "originalRevision": 1,
+          "originalSha256": "45af6ac37e8a17aafcb7eaa02cf4a2ac55ce993195035f22f5793003977dbfdd",
+          "excerpt": "已而又取歸州，數敗季興之兵。"
+        }
+      ]
+    },
+    {
+      "id": "xifang-ye-death-town",
+      "title": "谭善达下狱死后，西方邺病卒",
+      "summary": "因判官屡谏，遣人告其受贿、下狱，谭死狱中；西方邺随后病卒。原书记鬼祟，不把鬼祟当确证死因。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v25",
+          "paragraphId": "new-v25-p55",
+          "originalRevision": 1,
+          "originalSha256": "2385557c24d78c23ffb93635212f59a2821538b116d5e31170a11bd186750609",
+          "excerpt": "鄴病，見善達為祟，卒于鎮。"
+        }
+      ]
+    }
+  ]
+}

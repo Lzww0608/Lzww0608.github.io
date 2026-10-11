@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-junqing",
+  "events": [
+    {
+      "id": "li-junqing-luzhou-failure",
+      "title": "奉晋命攻潞州而败",
+      "summary": "晋国派李君庆进攻梁方控制的潞州，作战失利；其蕃汉马步行营都将职随后由李嗣昭接替。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "光化二年；未记可核的具体月日，西历范围899—900年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p5",
+          "originalRevision": 1,
+          "originalSha256": "732539f65f311bccea9f39cbcefb8b41ab7783ff6f5c712903889203a156c5c6",
+          "excerpt": "二年，晉遣李君慶攻梁潞州，君慶為梁所敗，"
+        }
+      ],
+      "yearRange": {
+        "start": 899,
+        "end": 900
+      }
+    },
+    {
+      "id": "li-junqing-poisoned",
+      "title": "败战后被李克用以毒酒处死",
+      "summary": "新史记李君庆败于梁军后被李克用酖杀；此处太祖是后唐追尊李克用，不能指朱温。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "range",
+      "sourceDate": "光化二年攻潞州败后被酖，未记日月；未记可核的具体月日，西历范围899—900年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v36",
+          "paragraphId": "new-v36-p5",
+          "originalRevision": 1,
+          "originalSha256": "732539f65f311bccea9f39cbcefb8b41ab7783ff6f5c712903889203a156c5c6",
+          "excerpt": "君慶為梁所敗，太祖酖殺君慶，嗣昭攻克之。"
+        }
+      ],
+      "yearRange": {
+        "start": 899,
+        "end": 900
+      }
+    }
+  ]
+}

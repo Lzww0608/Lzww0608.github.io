@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "fu-daozhao",
+  "events": [
+    {
+      "id": "fu-daozhao-join",
+      "title": "昭宗返京后授秦州，赴任未成",
+      "summary": "唐昭宗返回长安后，朱温奏授符道昭秦州节度使、同平章事，并遣兵护送，未能到镇；此前凤翔归附另列。",
+      "year": 903,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "昭宗反正后；本传未记确月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "昭宗反正，奏授秦州節度使、同平章事，遣兵援送，不克而還。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p5",
+          "originalRevision": 1,
+          "originalSha256": "41a52940f8000e80ae7659667497d9e24f380dc5ae9cf5c7e6bdf290f9225214",
+          "excerpt": "天復元年正月乙酉朔，唐宰相崔允潛使人以帝密旨告于侍衛軍將孫德昭已下，令誅左右中尉劉季述、王仲先等，即時迎昭宗於東內，禦樓反正。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "三年正月甲寅，岐人啟壁"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "02e93c9c73878385510e35b646505e0165e8d0e37d0c092e09524b42625d1866",
+          "excerpt": "己巳，昭宗至長安，謁太廟，禦長樂樓。"
+        }
+      ],
+      "notes": [
+        "旧本纪天复元年正月只作天复纪年起点；此处本传昭宗反正按凤翔回京的903年语境，与901年废复位不是同一事件。"
+      ]
+    },
+    {
+      "id": "fu-daozhao-weibo",
+      "title": "参与平魏博牙军后诸乱",
+      "summary": "魏博牙军被诛后，符道昭协李周彝、寇彦卿等攻历亭、高唐，擒左行迁、史仁遇，继取澶博。旧传记诸军杀四万余，继取澶博又杀万余，作为联军动作呈现。",
+      "year": 906,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天祐三年魏博牙军事件，原传接叙未独记年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "及太祖幸魏州，討牙軍，中軍前有魏博將山河營指揮使左行遷，聞府中有變，引軍還屯曆亭，自稱留後，從亂者數萬人。道昭佐周彝與彥卿已下大破之，殺四萬餘人，擒左行遷，斬之。有史仁遇亦聚徒數萬據高唐，又破之，擒仁遇以獻。乘勝取澶、博二州，平之，復殺萬餘人。道昭性勇果，多率先犯陣，屢有摧失，而周彝、彥卿犄角繼進，連以捷告；護兵者上功不實，皆以道昭為首。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p46",
+          "originalRevision": 1,
+          "originalSha256": "d6b93e70b9ebf93fa0a842b0d7ffcacf21d554a9ff8b4ea4644f5beb6764940a",
+          "excerpt": "羅紹威將誅其牙兵，惡魏兵彊，未敢發，求梁為助。太祖乃悉發魏兵使攻燕，而遣馬嗣勳助紹威誅牙兵。牙兵已誅，魏兵在外者聞之皆亂，魏將左行遷據歷亭、史仁遇據高唐以叛，道昭等從太祖悉破之。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5f2552be4f80a240d09db7d014e7a1838688f00a2d2dfb662c588f98cffa3a1",
+          "excerpt": "三年正月，幽、滄稱兵，將寇于魏。魏人來乞師，且以牙軍驕悍，謀欲誅之，遣親吏臧延范密告於帝，帝陰許之。乙丑，北征。先是，帝之愛女適羅氏，是月卒於鄴城，因以兵仗數千事實於橐中，遣客將馬嗣勳領長直軍千人，雜以工匠、丁夫，肩其橐而入于魏，聲言為帝女設祭，魏人信而不疑。庚午夜，嗣勳率其眾與羅紹威親軍數百人同攻牙軍，遲明盡殺之，死者七千餘人，泊於嬰孺，亦無留者。是日，帝次於內黃，聞之，馳騎至魏。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p11",
+          "originalRevision": 1,
+          "originalSha256": "32fa7c031cb031759dde8e809fb32de857557ff9d3e39204388c1d6a85467a86",
+          "excerpt": "天祐元年正月己酉，帝發自大梁，西赴河中，京師聞之，為之震懼。"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-xing-relief",
+      "title": "奉命救邢州，晋军撤围",
+      "summary": "魏境讨伐期间晋军围邢州，牛存节坚守；朱温派符道昭领军救援，晋军退去。",
+      "year": 906,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天祐三年四月后、五月前的本纪接续，未独日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5f2552be4f80a240d09db7d014e7a1838688f00a2d2dfb662c588f98cffa3a1",
+          "excerpt": "三年正月，幽、滄稱兵，將寇于魏。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "dc9cb1567e5a0c4558dc925f423c664aefd278556129aeb66992e33d60c026e8",
+          "excerpt": "是時晉人圍邢州，刺史牛存節堅壁固守，帝遣符道昭帥師救之，晉人乃遁去。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p11",
+          "originalRevision": 1,
+          "originalSha256": "32fa7c031cb031759dde8e809fb32de857557ff9d3e39204388c1d6a85467a86",
+          "excerpt": "天祐元年正月己酉，帝發自大梁，西赴河中，京師聞之，為之震懼。"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-death",
+      "title": "夹城被破，阵亡",
+      "summary": "晋军来援攻破夹城，符道昭阵亡。通鉴记他的坐骑倒地后遭晋军杀害。",
+      "year": 908,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "开平二年五月辛未朔",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "既逾歲，晉人援至，王師大敗，道昭為晉軍所殺。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p86",
+          "originalRevision": 1,
+          "originalSha256": "ab6c51d215bcff9bbe013b02a5c2e288e2e9e8ec3b05eee0312b0480d8152f36",
+          "excerpt": "五月，辛未朔，晉王伏兵三垂岡下，詰旦大霧，進兵直抵夾寨。梁軍無斥候，不意晉兵之至，將士尚未起，軍中驚擾。晉王命周德威、李嗣源分兵為二道，德威攻西北隅，嗣源攻東北隅，填塹燒寨，鼓噪而入。梁兵大潰，南走，招討使符道昭馬倒，為晉人所殺。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p65",
+          "originalRevision": 1,
+          "originalSha256": "2b936ed15f05130350ae856237c3659b8fde47870d7eea130e6926fcb957f75e",
+          "excerpt": "太祖神武元聖孝皇帝上開平二年（戊辰，公元九零八年）"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-early",
+      "title": "历事秦宗权、薛潜、葛佐",
+      "summary": "符道昭早为秦宗权心腹及骑将，秦势衰后先投薛潜，再依洋州葛佐，葛佐攻兴元失利后转岐。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "秦宗权将败后的接续，未标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "符道昭，淮西人。性強敏，有武略，秦宗權用為心膂，使監督諸軍，後為騎將。尤能布陣，勇聞於時。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "秦宗權之將敗也，有薛潛者，支擘隊伍，道昭謂所私曰：「蔡弱矣。」乃歸潛。潛欲敗，復奔洋州依葛佐。佐攻興元軍不利，復奔於岐。"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-qi",
+      "title": "李茂贞收养，改名继远",
+      "summary": "符道昭受李茂贞（宋文通）收养、名继远，后任巴州刺史、陇州防御使及中军都指挥使。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "归岐之后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "宋文通愛之，養為己子，名繼遠，遂易其宗。及得軍職，悉超儕伍。後為巴州刺史，又奏為隴州防禦使兼中軍都指揮使。"
+        }
+      ],
+      "notes": [
+        "此处收养和改名属于李茂贞时期，不称为朱温养子。"
+      ]
+    },
+    {
+      "id": "fu-daozhao-fengxiang-surrender",
+      "title": "凤翔屡败后归朱温",
+      "summary": "符道昭在凤翔率骑与汴军多次作战失败，转归朱温，因勇名受厚待；本传未独记归附确日年。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "朱温围凤翔期间，昭宗返京之前，未独归附年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "太祖迎奉昭宗，駐軍於岐下，道昭頻領騎士敢鬥戰，屢為王師所敗，遂來降。太祖素聞其名，待之甚厚。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p45",
+          "originalRevision": 1,
+          "originalSha256": "b18b658926d47b7d6a72c68482a82171320a8791b11a32eb7a62a5976e58df80",
+          "excerpt": "梁攻茂貞，道昭與梁兵戰，屢敗，乃歸梁"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-marshal",
+      "title": "任元帅府右司马，与李周彝统军",
+      "summary": "符道昭任元帅府右司马，与左司马李周彝统领寇彦卿等军，参与讨沧州。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "归朱温后，未记任命确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "先是，李周彝棄鄜州自投歸國，署為元帥府行軍左司馬，寵冠霸府。及道昭至，以為右司馬，使與周彝同領寇彥卿、南大豐、閻寶已下大軍伐滄州。"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-tangyang",
+      "title": "军功未获议赏，围沧时牧马唐阳",
+      "summary": "旧传称军功上报偏重符道昭，朱温知道后未议赏；围沧不用骑兵，令符道昭到唐阳牧马，区别领军与军马任务。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "魏战后至围沧期间，未独标年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p8",
+          "originalRevision": 1,
+          "originalSha256": "a77c1b728398c04345a43ff9b05348f3dee467c05d0b9699cb8a4c775cc94c1a",
+          "excerpt": "道昭性勇果，多率先犯陣，屢有摧失，而周彝、彥卿犄角繼進，連以捷告；護兵者上功不實，皆以道昭為首。太祖陰知之，俱不議賞。及滄州之圍也，不用騎士，令道昭牧馬於唐陽。"
+        }
+      ]
+    },
+    {
+      "id": "fu-daozhao-lu-siege",
+      "title": "围潞州筑夹城",
+      "summary": "符道昭与康怀英等在开平元年围潞州，修夹城与蚰蜒壕；次年破围、阵亡另列。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "sourceDate": "开平元年梁军围潞，本段任骑军未独月；合法纪年907年5月15日至908年2月4日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p47",
+          "originalRevision": 1,
+          "originalSha256": "66434c7bca166146445c8b3a97b4993a965c6edbea711fafe76dd8622adce8c2",
+          "excerpt": "開平元年與康懷英等攻潞州，築夾城為蚰蜒塹以圍之"
+        }
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    }
+  ]
+}

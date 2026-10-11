@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-jingda",
+  "events": [
+    {
+      "id": "zhang-jingda-siege-taiyuan",
+      "title": "受命讨石敬瑭，围太原",
+      "summary": "石敬瑭起兵后奉末帝命任北面都招讨使，以杨光远为副，统军围太原，营晋安乡。",
+      "year": 936,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "清泰三年石敬瑭起兵后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "末帝詔以敬達為北面行營都招討使，仍使悉引部下兵圍太原，以定州節度使楊光遠副焉。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda-jinan-defeat",
+      "title": "契丹来援，晋安败后反被围",
+      "summary": "九月契丹到来，张敬达大败，晋安军反被围；逃亡受狗与铃索警戒阻断，军马粮食耗尽。",
+      "year": 936,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "清泰三年九月及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "九月，契丹至，敬達大敗，尋為所圍。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda-death-no-surrender",
+      "title": "坚持拒降，遭部将斩杀",
+      "summary": "杨光远、安审琦劝降，张敬达以受国恩、待援军为由拒绝，宁请杀己携首降；终被斩后全军降。",
+      "year": 936,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "晋安被围后被杀，主传末帝闻其死；清泰三年有效界在936年，原书未记日月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "光遠、審琦知敬達意未決，恐坐成魚肉，遂斬敬達以降。"
+        },
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p13",
+          "originalRevision": 1,
+          "originalSha256": "a2cd85571e47034087bfe30b94ff8b9bd9f992d972ee60b0ff8f2d4d2e175c47",
+          "excerpt": "末帝聞其歿也，愴慟久之。"
+        }
+      ],
+      "notes": [
+        "本条按石敬瑭起兵及晋安军叙事列936，原段未记具体卒日。"
+      ]
+    },
+    {
+      "id": "zhang-jingda-early-office",
+      "title": "继父军职，平河南立功",
+      "summary": "父张审为李克用列校、厅直军使，同光初卒；庄宗因张敬达骑射才能召继父职，平河南有功。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "同光初及平河南期间",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "敬達少以騎射著名，莊宗知之，召令繼父職；平河南有功，繼加檢校工部尚書。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda-mingzong-offices",
+      "title": "明宗朝禁军与河东军职",
+      "summary": "明宗即位后历捧圣指挥使、检校左仆射；长兴中改河东马步都指挥、检校司徒并领钦州刺史。没有独年，分开于明确长兴三年的应州任命。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "明宗即位后、长兴中，无单年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "明宗即位，曆捧聖指揮使、檢校尚書左僕射。長興中，改河東馬步軍都指揮使，超授檢校司徒，領欽州刺史。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda-yingzhou",
+      "title": "加太保，授应州节度",
+      "summary": "长兴三年加检校太保，出任应州节度使。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "长兴三年；未记可核的具体月日，西历范围932—933年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "三年，加檢校太保、應州節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 932,
+        "end": 933
+      }
+    },
+    {
+      "id": "zhang-jingda-yunzhou-defence",
+      "title": "移云州，聚兵阻契丹南牧",
+      "summary": "长兴四年迁云州，契丹欲借汉界水草时，张敬达聚兵塞下阻其进入，使边人得安。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "主传长兴四年移云州，常聚兵阻契丹；防塞未独立月年，在下文清泰中移镇平阳、石敬瑭起兵之前，西历933—936年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "四年，遷雲州。"
+        },
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "時以契丹率族帳自黑榆林挎剌泊至沒越泊，雲借漢界水草，敬達每聚兵塞下，以遏其衝。契丹竟不敢南牧，邊人賴之。"
+        }
+      ],
+      "notes": [
+        "主传长兴四年移镇未独载月日，传统年跨933—934年；其后多次聚兵防塞也未各自独年，按来源保留933—936年范围。"
+      ],
+      "variants": [
+        {
+          "label": "明宗本纪云州移镇",
+          "year": 930,
+          "sourceDate": "长兴元年十一月庚午",
+          "summary": "本纪在长兴元年已记应州节度张敬达移云州，与主传长兴三年应州、四年云州纪年不合，保留两种记法。",
+          "evidence": [
+            {
+              "chapterId": "old-v041",
+              "paragraphId": "old-v041-p1",
+              "originalRevision": 1,
+              "originalSha256": "63c129cb857fa5922d53df56bd1590b38ce2e363173cdf0c1e1de39d9a30865c",
+              "excerpt": "長興元年春正月丙寅朔，帝御明堂殿受朝賀，仗衛如常儀。"
+            },
+            {
+              "chapterId": "old-v041",
+              "paragraphId": "old-v041-p19",
+              "originalRevision": 1,
+              "originalSha256": "853334cbae19709081c5b7272fe27c34d9dbfe988c642489c7beff9f7b4f9b37",
+              "excerpt": "庚午，應州節度使張敬達移雲州，以捧聖都指揮使、守恩州刺史沙彥詢為應州節度使；"
+            }
+          ]
+        }
+      ],
+      "yearRange": {
+        "start": 933,
+        "end": 936
+      }
+    },
+    {
+      "id": "zhang-jingda-northern-deputy",
+      "title": "从彭门移平阳，副石敬瑭北军",
+      "summary": "清泰中由彭门移镇平阳，作为北面兵马副总管随石敬瑭，驻雁门；后双方立场改变。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "清泰中，石敬瑭起兵之前",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p12",
+          "originalRevision": 1,
+          "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9",
+          "excerpt": "從石敬瑭為北面兵馬副總管，仍屯兵雁門。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-jingda-burial-family",
+      "title": "契丹收葬，晋高祖还其田宅",
+      "summary": "死后契丹主赞其守节并令收葬；石敬瑭即位后将田宅赐妻子儿女，本传史论批未追增官封。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "死后及晋高祖即位后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v070",
+          "paragraphId": "old-v070-p13",
+          "originalRevision": 1,
+          "originalSha256": "a2cd85571e47034087bfe30b94ff8b9bd9f992d972ee60b0ff8f2d4d2e175c47",
+          "excerpt": "晉高祖即位後，所有田宅，鹹賜其妻子焉。"
+        }
+      ]
+    }
+  ]
+}

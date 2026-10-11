@@ -17,11 +17,12 @@ type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
 const phaseLabels: Record<TimelinePhase, string> = {
   early: '早年与家世', campaigns: '平乱与河东', rivalry: '与诸镇角逐', late: '晋王晚年',
   posthumous: '身后记载', jin: '晋王时期', conquest: '争衡与灭梁', imperial: '后唐时期', fall: '变乱与身故',
+  rule: '执政时期', service: '任职与征战', later: '后期记载', uncertain: '年代未定的记载',
 };
-const precisionLabels = { year: '原书记年', month: '原书记月', day: '原书记日' };
+const precisionLabels = { year: '原书记年', month: '原书记月', day: '原书记日', range: '原书时段', undated: '原书叙次' };
 
 function groupEvents(events: TimelineEvent[]) {
-  const phases: { id: string; phase: TimelinePhase; years: { year: number; events: TimelineEvent[] }[] }[] = [];
+  const phases: { id: string; phase: TimelinePhase; years: { year: number | null; events: TimelineEvent[] }[] }[] = [];
   for (const event of events) {
     let phase = phases.at(-1);
     if (!phase || phase.phase !== event.phase) {
@@ -66,7 +67,7 @@ export function PersonTimeline({ person, eventId, go, onReadSource }: {
   const focused = useRef('');
   const groups = useMemo(() => groupEvents(page?.events ?? []), [page?.events]);
   const years = useMemo(() => {
-    const list: { year: number; firstEventId: string; count: number }[] = [];
+    const list: { year: number | null; firstEventId: string; count: number }[] = [];
     for (const event of page?.events ?? []) {
       const previous = list.at(-1);
       if (previous?.year === event.year) previous.count++;
@@ -128,10 +129,11 @@ export function PersonTimeline({ person, eventId, go, onReadSource }: {
     </div>
     {!!page?.events.length && <div className={`timeline-layout ${yearSidebar.collapsed ? 'left-collapsed' : ''}`}>
       <CollapsibleSidebar id="timeline-years" title="年度定位" side="left" className="timeline-year-directory" collapsed={yearSidebar.collapsed} onToggle={yearSidebar.toggle}>
-        <p>{page.events.length} 条事件，分布于 {years.length} 个年份</p><nav aria-label="人物年表年份">{years.map(year => <button type="button" key={year.year} aria-current={selectedYear === year.year ? 'location' : undefined} onClick={() => selectEvent(year.firstEventId)}><span>{year.year} 年</span><small>{year.count} 条记载</small></button>)}</nav>
+        <p>{page.events.length} 条事件，{years.every(year => year.year === null) ? '年代未定' : years.some(year => year.year === null) ? `含 ${years.filter(year => year.year !== null).length} 个确定年份与年代未定记载` : `分布于 ${years.length} 个年份`}</p><nav aria-label="人物年表年份">{years.map(year => <button type="button" key={year.year ?? 'undated'} aria-current={selectedYear === year.year ? 'location' : undefined} onClick={() => selectEvent(year.firstEventId)}><span>{year.year === null ? '年代未定' : `${year.year} 年`}</span><small>{year.count} 条记载</small></button>)}</nav>
       </CollapsibleSidebar>
-      <div className="timeline-main">{groups.map(phase => <section className="timeline-phase" key={phase.id} aria-labelledby={`phase-${phase.id}`}><h2 id={`phase-${phase.id}`}>{phaseLabels[phase.phase]}</h2>{phase.years.map(year => <div className="timeline-year-group" key={year.year}><h3 aria-label={`公元 ${year.year} 年`}>{year.year}<small aria-hidden="true">公元</small></h3><div className="timeline-year-events">{year.events.map(event => <article className="person-timeline-event" id={`timeline-event-${event.id}`} key={event.id} data-focused={eventId === event.id}>
+      <div className="timeline-main">{groups.map(phase => <section className="timeline-phase" key={phase.id} aria-labelledby={`phase-${phase.id}`}><h2 id={`phase-${phase.id}`}>{phaseLabels[phase.phase]}</h2>{phase.years.map(year => <div className="timeline-year-group" key={year.year ?? 'undated'}><h3 aria-label={year.year === null ? '年代未定' : `公元 ${year.year} 年`}>{year.year ?? '未定'}<small aria-hidden="true">{year.year === null ? '年代' : '公元'}</small></h3><div className="timeline-year-events">{year.events.map(event => <article className="person-timeline-event" id={`timeline-event-${event.id}`} key={event.id} data-focused={eventId === event.id}>
         <h4 tabIndex={-1}>{event.title}</h4><p className="timeline-source-date">{precisionLabels[event.precision]}：{event.sourceDate}</p><p className="timeline-event-summary">{event.summary}</p>
+        {event.yearRange && <p className="timeline-date-note">记载时间范围：公元 {event.yearRange.start}—{event.yearRange.end} 年，具体年份未定。</p>}
         {event.notes?.map((note, index) => <p className="timeline-date-note" key={index}>{note}</p>)}
         <EvidenceList evidence={event.evidence} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} />
         {!!event.variants?.length && <details className="timeline-source-variants"><summary>史书差异 · {event.variants.length} 处</summary>{event.variants.map((variant, index) => <div className="timeline-variant" key={index}><h5>{variant.label}</h5><p>{variant.year !== undefined && `另记公元 ${variant.year} 年；`}原书日期：{variant.sourceDate}</p>{variant.summary && <p>{variant.summary}</p>}{variant.notes?.map((note, noteIndex) => <p key={noteIndex}>{note}</p>)}<EvidenceList evidence={variant.evidence} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} /></div>)}</details>}

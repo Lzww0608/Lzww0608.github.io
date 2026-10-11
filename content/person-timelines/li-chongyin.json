@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-chongyin",
+  "events": [
+    {
+      "id": "li-chongyin-join",
+      "title": "繁台由巢军归朱温，任先锋",
+      "summary": "李重胤曾随尚让、李谠在繁台拒朱温，巢势衰后归降，破格任先锋步军都头。",
+      "year": 884,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "中和四年五月及后归降",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p24",
+          "originalRevision": 1,
+          "originalSha256": "0d68bcce70a33a8ab10681d87d14e4270377210cbc0e1398b15bac6ad81ee8ec",
+          "excerpt": "唐中和四年五月，同尚讓、李讜等率眾至繁臺，與太祖之軍相拒。及巢寇漸衰，乃率眾來降。太祖素識之，拔用不次，署為先鋒步軍都頭。"
+        }
+      ]
+    },
+    {
+      "id": "li-chongyin-death",
+      "title": "马牢川败退，获罪与李谠同死",
+      "summary": "李重胤随朱友裕攻泽，在马牢川战败，退守河阳；朱温责其与李谠违指挥、无功，同戮河桥。",
+      "year": 890,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "大顺元年秋",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p24",
+          "originalRevision": 1,
+          "originalSha256": "0d68bcce70a33a8ab10681d87d14e4270377210cbc0e1398b15bac6ad81ee8ec",
+          "excerpt": "大順元年秋，從郴王友裕收澤州，與晉軍戰於馬牢川，王師敗績，回守河陽。太祖謂諸將曰：「李讜、重胤違我節度，不能立功，頗辜任使。」於是與李讜並戮於河橋。"
+        }
+      ]
+    },
+    {
+      "id": "li-chongyin-heyang",
+      "title": "随胡真援河阳，射安休休",
+      "summary": "李重胤率部随胡真救河阳、逼怀州，突击射中安休休；后来至陕接郭言，渑池败黄花子军。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "援河阳及接郭言诸役，未记本传确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p24",
+          "originalRevision": 1,
+          "originalSha256": "0d68bcce70a33a8ab10681d87d14e4270377210cbc0e1398b15bac6ad81ee8ec",
+          "excerpt": "與胡真援河陽，逼懷州。重胤以部下兵突之，射中蕃將安休休。又令與李讜率騎軍至陝，應接郭言，回次澠池，破賊帥黃花子之眾，改滑州夾馬指揮使。"
+        }
+      ]
+    },
+    {
+      "id": "li-chongyin-caixu",
+      "title": "率滑兵平蔡、攻丰萧",
+      "summary": "李重胤率步军破蔡军围汴三寨，朱温大征蔡时作为前锋，东征徐州取丰萧，任右厢马步指挥。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "平蔡及伐徐，未逐役记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p24",
+          "originalRevision": 1,
+          "originalSha256": "0d68bcce70a33a8ab10681d87d14e4270377210cbc0e1398b15bac6ad81ee8ec",
+          "excerpt": "蔡賊圍汴，重胤以步兵攻下三寨，擄獲甚多。太祖大舉伐宗權，俾重胤以滑兵為先鋒。及東討徐州，下豐、蕭二邑，轉右廂馬步軍指揮使。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-tangbin",
+  "events": [
+    {
+      "id": "li-tangbin-join",
+      "title": "从黄巢军降朱温",
+      "summary": "李唐宾原为尚让偏将，在尉氏门外与朱温交战；朱温破瓦子寨后，他与王虔裕归降，随后参加攻黄巢营。",
+      "year": 884,
+      "sortOrder": 0,
+      "precision": "year",
+      "sourceDate": "中和四年二月至三月",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "中和四年二月，尚讓之寇繁台也，唐賓與李讜、霍存並為巢將，與太祖之軍戰於尉氏門外。三月，太祖破瓦子寨，唐賓與王虔裕來降。時黃巢壁於陳郊，乃命唐賓摩其西焚焉。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p22",
+          "originalRevision": 1,
+          "originalSha256": "9aac6244c20c6f09bbe44fb98aa8dee16d3368ce1efd27ba21b3ba2635b22c41",
+          "excerpt": "唐賓者，陝人也。初為尚讓偏將，與太祖戰尉氏門，為太祖所敗，唐賓乃降梁。"
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-huazhou",
+      "title": "与朱珍雪夜攻滑州",
+      "summary": "李唐宾与朱珍奉命率步骑袭滑州，遇大雪一夜急行，百梯登城而下之；新本纪明系光启二年。",
+      "year": 886,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "光启二年；梁本纪十一月，引唐书十月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "ddcf9e0f24ed95259584d7b106f5e7629bb02e27673125337e3f0b8669d2750b",
+          "excerpt": "會滑州節度使安師儒戎政不治，太祖命珍與李唐賓率步騎以經略之。始入境，遇大雪，令軍士無得休息，一夕馳至壁下，百梯並升，遂乘其墉，滑州平。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p3",
+          "originalRevision": 1,
+          "originalSha256": "e7e57b710d2b4e7a37ca873e22dbd90eadc3eb89417724d035dc789a205a0421",
+          "excerpt": "光啟二年三月，進爵王。義成軍亂，逐其節度使安師儒，推牙將張驍為留後，師儒來奔，殺之。遣朱珍、李唐賓陷滑州，以胡真為留後。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "滑州纪月及安师儒结局",
+          "sourceDate": "本纪十一月，引唐书十月",
+          "summary": "本纪及所引新旧唐书的月份、主帅结局不同，正文均记朱珍李唐宾袭取滑州。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p16",
+              "originalRevision": 1,
+              "originalSha256": "b90cfe96d537634a34ad71c2d0d2e2752cef6d9539e7aa0b56572740b1da2d6a",
+              "excerpt": "十一月，滑州節度使安師儒以怠于軍政，為部下所殺。案舊唐書云：十月壬子朔，滑州軍亂，逐其帥安師儒，推衙將張驍主留後軍務，師儒奔汴，朱全忠殺之。新唐書云：十月，朱全忠陷滑州，執義成軍節度使安師儒。歐陽史從舊唐書作奔汴，通鑑從新唐書作被擄，據薛史則師儒自為部下所殺，與新、舊唐書異。又新、舊唐書俱作十月，而薛史作十一月，通鑑仍從薛史。帝聞之，乃遣朱珍、李唐賓襲而取之，由是遂有滑臺之地。"
+            }
+          ],
+          "year": 886
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-death",
+      "title": "在萧县被朱珍所杀",
+      "summary": "修马厩纠纷中，李唐宾责问朱珍，被朱珍拔剑杀害并报作谋叛。朱温随后处死朱珍，让李唐宾家属收葬并吊祭。",
+      "year": 889,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "旧龙纪初萧县杀害；新朱温本纪同役龙纪元年七月锁889",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v019",
+          "paragraphId": "old-v019-p11",
+          "originalRevision": 1,
+          "originalSha256": "c9038041e5ce0a2f8e587517242d95759e8006f835d483db42521b98b3090e6f",
+          "excerpt": "龍紀初，與諸將屯於蕭縣，以禦時溥，珍慮太祖自至，令諸軍葺馬廄以候巡撫，李唐賓之裨將嚴郊獨慢焉，軍候范權恃珍以督之。唐賓素與珍不協，果怒，乃見以訴其事。珍亦怒曰：「唐賓無禮！」遂拔劍斬之，珍命騎列狀陳其事。太祖初聞唐賓之死，驚駭，與敬翔謀，詐令有司收捕唐賓妻子下獄，以安珍心。太祖遂徑往蕭縣，距蕭一舍，珍率將校迎謁，梁祖令武士執之，責其專殺，命丁會行戮。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "每興師必與珍偕用，故往無不利，然而剛中用壯，遂為珍所害，以謀叛聞。太祖聞之，痛惜累日。及誅朱珍後，令其妻孥至軍收葬，而加吊祭焉。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p7",
+          "originalRevision": 1,
+          "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+          "excerpt": "龍紀元年正月，師古敗溥于呂梁。淮西牙將申叢執秦宗權，折其足，將檻送京師；別將郭璠殺叢，篡宗權以來獻。王遣行軍司馬李璠獻俘于京師，表郭璠淮西留後。三月，天子封王為東平王。七月，朱珍殺李唐賓，王如蕭縣，執珍殺之，遂攻徐州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史朱温本纪纪月",
+          "sourceDate": "龙纪元年七月",
+          "summary": "新本纪把朱珍杀李唐宾及被诛系七月；旧朱珍传只作龙纪初。",
+          "evidence": [
+            {
+              "chapterId": "new-v01",
+              "paragraphId": "new-v01-p7",
+              "originalRevision": 1,
+              "originalSha256": "875d632a4260ed3c824d7431e9050fba67042d4b9656a230f4d7f0e6805fc54b",
+              "excerpt": "龍紀元年正月，師古敗溥于呂梁。淮西牙將申叢執秦宗權，折其足，將檻送京師；別將郭璠殺叢，篡宗權以來獻。王遣行軍司馬李璠獻俘于京師，表郭璠淮西留後。三月，天子封王為東平王。七月，朱珍殺李唐賓，王如蕭縣，執珍殺之"
+            }
+          ],
+          "year": 889
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-campaigns",
+      "title": "与朱珍共同平蔡、攻徐淮郓",
+      "summary": "李唐宾在王满渡、王夏军阵参战，后来与朱珍共同统军，攻滑、淄青、蔡及徐淮郓各军；善长矛、治军，常先陷阵。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "归附后多次征战，本段未逐役标年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "王滿之師，王夏之陣，唐賓悉在戰中。後與朱珍趣淄州，所向摧敵。及取滑平蔡，前後破鄆、淮、徐之眾，功與朱珍略等，而驍勇絕倫，善用矛，未嘗不率先陷陣。其善於治軍行師之道，亦與珍齊名。珍之擒石璠也，唐賓亦沿淮與郭言犄角下盱眙，其後渡河破黎陽、李固等鎮，攻澶州，下內黃，敗魏師，未嘗不與珍同。"
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-huai",
+      "title": "沿淮取盱眙，北击魏博",
+      "summary": "李唐宾与郭言沿淮相应取盱眙；又同朱珍渡河破黎阳、李固、攻澶州、内黄，击魏军。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "擒石璠前后的接续战事，未逐役标年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "珍之擒石璠也，唐賓亦沿淮與郭言犄角下盱眙，其後渡河破黎陽、李固等鎮，攻澶州，下內黃，敗魏師，未嘗不與珍同。"
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-caizhou",
+      "title": "填壕攻蔡州东北角",
+      "summary": "攻蔡州时，朱珍从西南破外垣，李唐宾填壕毁城攻东北角，两军相应。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "攻蔡之役，未在本段标确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "暨攻蔡之役，珍自西南破其外垣，唐賓亦堙壕坎墉，摧其東北隅。"
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-wukang",
+      "title": "援朱珍击败吴康时溥军",
+      "summary": "伐徐取丰时朱珍遇时溥军未能击退，李唐宾率本军助战，朱珍因此大胜。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "伐徐取丰、吴康之战",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p14",
+          "originalRevision": 1,
+          "originalSha256": "c9dcd5bca96760a6774870728ac154e0c4e64321c7337752abf2e852c5acf4ce",
+          "excerpt": "及伐徐取豐，時溥軍於吳康，珍亟遇之，未能卻，唐賓引本軍擊敗之，珍遂大勝。"
+        }
+      ]
+    },
+    {
+      "id": "li-tangbin-conflict",
+      "title": "与朱珍交争，朱温调解",
+      "summary": "朱温因朱珍私接家眷而令李唐宾察看，二人发生冲突，各赴汴州申诉，朱温爱其才替他们和解。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "梁山之役以后，未记确年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p22",
+          "originalRevision": 1,
+          "originalSha256": "9aac6244c20c6f09bbe44fb98aa8dee16d3368ce1efd27ba21b3ba2635b22c41",
+          "excerpt": "珍嘗私迎其家置軍中，太祖疑珍有異志，遣唐賓伺察之。珍與唐賓不協，唐賓不能忍，夜走還宣武，珍單騎追之，交訴太祖前。太祖兩惜其材，為和解之。"
+        }
+      ]
+    }
+  ]
+}

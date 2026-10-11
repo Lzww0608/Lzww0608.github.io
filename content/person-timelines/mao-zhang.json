@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "mao-zhang",
+  "events": [
+    {
+      "id": "mao-zhang-shu-command",
+      "title": "随征蜀，任马军行营指挥",
+      "summary": "征蜀时任行营马军都指挥，平蜀有功；具体左右军称谓按各出处保留。",
+      "year": 925,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "同光三年征蜀；本纪同事九月起军，主传与本纪行营职称保留各自",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p1",
+          "originalRevision": 1,
+          "originalSha256": "0efde12612c731a5407281b6fa55cd65363215cf0750d82fc83047d3dcc80a13",
+          "excerpt": "王師討蜀，以璋為行營右廂馬軍都指揮使；蜀平，璋功居多。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p5",
+          "originalRevision": 1,
+          "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
+          "excerpt": "取九月十八日進發。"
+        }
+      ],
+      "notes": [
+        "旧73记右厢，旧庄宗本纪33征蜀诏记左厢马步都虞候，不合成相同官名。"
+      ],
+      "variants": [
+        {
+          "label": "庄宗征蜀诏记左厢都虞候",
+          "year": 925,
+          "sourceDate": "同光三年，取九月十八日进发",
+          "summary": "征蜀诏记毛璋为行营左厢马步都虞候，与旧史卷73本传右厢称谓有别，不合并成同一军职。",
+          "evidence": [
+            {
+              "chapterId": "old-v033",
+              "paragraphId": "old-v033-p5",
+              "originalRevision": 1,
+              "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
+              "excerpt": "華州節度使毛璋充行營左廂馬步都虞候，邠州節度使董璋充行營右廂馬步都虞候，客省使李嚴充西川管內招撫使，總領闕下諸軍，兼西面諸道馬步兵事，取九月十八日進發。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang-seize-jiji-goods",
+      "title": "渭南掠魏王财物，明宗录功任邠",
+      "summary": "宫中变乱次年，李继岌返渭南时部下散，毛璋掠其蜀中财货歌妓；明宗录征蜀功授邠州。",
+      "year": 926,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "本传蜀平之明年渭南掠魏王财物，明宗嗣位后授邠州；本纪天成元年五月已称邠州，主叙926年",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p1",
+          "originalRevision": 1,
+          "originalSha256": "0efde12612c731a5407281b6fa55cd65363215cf0750d82fc83047d3dcc80a13",
+          "excerpt": "其川貨妓樂，為璋所掠。明宗嗣位，錄平蜀功，授邠州節度使。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "五月丙辰朔，帝不視朝，臨於西宮。"
+        },
+        {
+          "chapterId": "old-v036",
+          "paragraphId": "old-v036-p2",
+          "originalRevision": 1,
+          "originalSha256": "c657cbf1a74e96c14c58230cf4836ce20ba5e74b94126c8ccef01a645c7ff6a9",
+          "excerpt": "邠州節度使、檢校太保毛璋加同平章事。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本纪邠州任命日期",
+          "year": 925,
+          "sourceDate": "同光三年十二月壬戌，核历925年12月；与本传明宗嗣位后授任分别保存",
+          "evidence": [
+            {
+              "chapterId": "old-v033",
+              "paragraphId": "old-v033-p11",
+              "originalRevision": 1,
+              "originalSha256": "16ab791317ebea6e8d9a5a0d1ea16f6f0807a6d61d29e9ac3feede165bb7fbeb",
+              "excerpt": "十二月壬戌，以前雲州節度使李存敬為同州節度使；"
+            },
+            {
+              "chapterId": "old-v033",
+              "paragraphId": "old-v033-p11",
+              "originalRevision": 1,
+              "originalSha256": "16ab791317ebea6e8d9a5a0d1ea16f6f0807a6d61d29e9ac3feede165bb7fbeb",
+              "excerpt": "以華州節度使毛璋為邠州節度使；"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang-early-cang",
+      "title": "戴思远弃沧后据城归晋",
+      "summary": "原沧州小校，戴思远在晋定魏博后弃州，毛璋据城归李存勖，历贝辽刺史。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "庄宗已定魏博之后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p1",
+          "originalRevision": 1,
+          "originalSha256": "0efde12612c731a5407281b6fa55cd65363215cf0750d82fc83047d3dcc80a13",
+          "excerpt": "思遠勢蹙，棄州遁去，璋據城歸莊宗，"
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang-cangzhou",
+      "title": "梁平后授沧州节度",
+      "summary": "参与河上征战多功，灭梁后任沧州节度。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "本传梁平后授沧州，未另记月；在下文同光三年征蜀前，西历923—925年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p1",
+          "originalRevision": 1,
+          "originalSha256": "0efde12612c731a5407281b6fa55cd65363215cf0750d82fc83047d3dcc80a13",
+          "excerpt": "梁平，授滄州節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 925
+      }
+    },
+    {
+      "id": "mao-zhang-zhaoyi",
+      "title": "欲拒改昭义，受规劝后赴任",
+      "summary": "富于蜀财而骄纵，招部修兵，调昭义时欲拒诏，经边蔚规劝才赴；在潞穿赭黄作蜀主之戏又被征入朝。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "明宗朝移昭义及其后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p2",
+          "originalRevision": 1,
+          "originalSha256": "375d91684a1f6d385d2cbe91316bd2140c3daf5fe904620e75f55f04ab388091",
+          "excerpt": "朝廷移授昭義節度使，璋謀欲不奉詔，判官邊蔚密言規責，乃僶勉承命。"
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang-imprisonment",
+      "title": "被报私通西川，先入狱后昭雪",
+      "summary": "董璋报其所谓儿子廷赟带父书往西川，查知是认作侄子且无书，毛璋免官归第。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p2",
+          "originalRevision": 1,
+          "originalSha256": "375d91684a1f6d385d2cbe91316bd2140c3daf5fe904620e75f55f04ab388091",
+          "excerpt": "廷贇乃璋之假侄，稱有叔在蜀，欲往省之，亦無私書，詔停任，令歸私第。"
+        }
+      ]
+    },
+    {
+      "id": "mao-zhang-death-exile",
+      "title": "赖贿旧案再起，流儒州途中赐死",
+      "summary": "赵延祚因索未给财物再告，吕梦奇也被牵连，朝廷最终惩其宿恶，远流儒州并令途中赐死。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "本传未记具体年次",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p2",
+          "originalRevision": 1,
+          "originalSha256": "375d91684a1f6d385d2cbe91316bd2140c3daf5fe904620e75f55f04ab388091",
+          "excerpt": "朝廷懲其宿惡，長流儒州，賜死於路。"
+        }
+      ]
+    }
+  ]
+}
