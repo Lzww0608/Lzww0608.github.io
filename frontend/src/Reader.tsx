@@ -106,7 +106,7 @@ export function Reader({ book, entry, go, focusParagraphId, returnTo, search = {
   const next = directory[index + 1];
   const provenance = entry.provenance;
   const contextRoute = (chapterEntry: ChapterSummary) => chapterRoute(chapterEntry, { ...search, returnTo });
-  const returnLabel = returnTo?.startsWith('owner-review') ? '返回校核清单' : '返回相关记载';
+  const returnLabel = returnTo?.startsWith('owner-review') ? '返回校核清单' : returnTo?.startsWith('person-timeline/') ? '返回人物年表' : '返回相关记载';
   return <section className="reader" data-read-state={readState} data-chapter-id={entry.id}>
     <div className="breadcrumbs"><button onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '人物'}</button><span>/</span><span>{book.title}</span><span>/</span><span>{entry.volume > 0 ? `卷 ${entry.volume}` : entry.title}</span></div>
     <div className={`reader-layout ${directorySidebar.collapsed ? 'left-collapsed' : ''}`}>

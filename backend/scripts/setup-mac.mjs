@@ -51,7 +51,7 @@ try {
     GRANT USAGE ON SCHEMA public TO history_reader;
     GRANT SELECT ON public.books,public.editions,public.chapters,public.paragraphs,public.paragraph_revisions,
       public.translations,public.person_passage_index,public.passage_people,public.passages,
-      public.passage_spans,public.person_passages,public.sentence_translations TO history_reader;
+      public.passage_spans,public.person_passages,public.sentence_translations,public.person_timelines TO history_reader;
     ALTER DEFAULT PRIVILEGES IN SCHEMA public REVOKE SELECT ON TABLES FROM history_reader;
     ALTER ROLE history_reader SET default_transaction_read_only = on;
     ALTER ROLE history_reader SET statement_timeout = '5s'`);

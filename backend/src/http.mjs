@@ -41,6 +41,12 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
         const result = await repository.personPassages(personPassages[1], options);
         return result ? send(200, result) : send(404, { error: 'not_found' });
       }
+      const personTimeline = path.match(/^\/api\/people\/([a-z0-9-]+)\/timeline$/);
+      if (personTimeline) {
+        if ([...url.searchParams].length) return send(400, { error: 'invalid_request' });
+        const result = await repository.personTimeline(personTimeline[1]);
+        return result ? send(200, result) : send(404, { error: 'not_found' });
+      }
       const passage = path.match(/^\/api\/passages\/([a-z0-9-]+)$/);
       if (passage) {
         const result = await repository.passage(passage[1]);

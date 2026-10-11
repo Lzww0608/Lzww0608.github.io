@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "personId": "li-cunxu",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "li-cunxu-birth",
+      "title": "生于晋阳",
+      "summary": "李存勖出生于晋阳宫，父亲是李克用，母亲是曹氏。年表以《旧五代史》的十月记载列在885年，《五代会要》的十二月记载另列为异说。",
+      "year": 885,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "唐光启元年冬十月二十二日癸亥",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p1",
+          "originalRevision": 1,
+          "originalSha256": "e7a65c3a93f3b33fc73f1e54bd4b49e07e4a32c69b9a7412a9f71689809b0c55",
+          "excerpt": "莊宗光聖神閔孝皇帝，諱存勗，武皇帝之長子也。母曰貞簡皇后曹氏，以唐光啟元年歲在乙巳，冬十月二十二日癸亥，生帝於晉陽宮。"
+        }
+      ],
+      "notes": [
+        "按光启元年的历表，两种记日都落在885年，但十月二十二日与癸亥不对应；保留底本，不猜改具体日期。",
+        "旧史卷27称存勖为李克用长子，卷26另称落落为长子，不能合并为确定排行。",
+        "旧、新五代史死亡条均记年四十三，史书年龄与出生年记载之间的差别保留，不据年龄倒改出生年。",
+        "《五代会要》卷1记光启元年十二月二十二日，历表对应已跨886年；与旧史十月记载不同，两者分别保留，不裁定正确生月。"
+      ],
+      "variants": [
+        {
+          "label": "旧史卷26另称落落为长子",
+          "sourceDate": "未注明生年",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p16",
+              "originalRevision": 1,
+              "originalSha256": "a6eddb66504e306151f60d80006b16714b69b474ab8f86d1c61b54ab271527db",
+              "excerpt": "落落，武皇之長子也。"
+            }
+          ]
+        },
+        {
+          "label": "五代会要记十二月（历表跨西历886年）",
+          "sourceDate": "唐光启元年十二月二十二日",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p4",
+              "originalRevision": 1,
+              "originalSha256": "70eefed2a5f2020a5c57e73eaa6411c86dee8781e89d388116bef948a52dab71",
+              "excerpt": "唐光啓元年十二月二十二日，生於晉陽宮。"
+            }
+          ],
+          "year": 886
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-follow-father",
+      "title": "随父讨王行瑜、入朝献捷",
+      "summary": "李存勖随李克用讨伐王行瑜，被派到京城献捷，受到唐昭宗接见。史书记十一岁；这是少年的随征与朝见，不能据此称他已独立统军。",
+      "year": 895,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "唐乾宁二年；旧史记十一岁随征",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p1",
+          "originalRevision": 1,
+          "originalSha256": "e7a65c3a93f3b33fc73f1e54bd4b49e07e4a32c69b9a7412a9f71689809b0c55",
+          "excerpt": "及武皇之討王行瑜，帝時年十一，從行。初令入覲獻捷，迎駕還宮，昭宗一見駭之，曰：「此兒有奇表。」"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p8",
+          "originalRevision": 1,
+          "originalSha256": "723cb3fa0580ee269c1e1b5a6d9d010c775b432a25d916d51cae0b72b8a5a955",
+          "excerpt": "乾寧二年正月，武皇在幽州"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p9",
+          "originalRevision": 1,
+          "originalSha256": "049c3f09e119b39b1441397891d7327467264bb49bfd2327c8561f091974f5c6",
+          "excerpt": "六月，武皇率蕃漢之師自晉陽趨三輔，討鳳翔李茂貞、邠州王行瑜、華州韓建之亂。"
+        }
+      ],
+      "notes": [
+        "乾宁二年的年次由武皇纪同卷上下文核对；少年本传未另给朝见月日。"
+      ]
+    },
+    {
+      "id": "li-cunxu-succeed-jin",
+      "title": "继承晋王位，平定内部争位",
+      "summary": "李克用去世后，李存勖在晋阳继承晋王位。张承业等辅佐他处理军府政事；随后李克宁、李存颢的谋乱被平定，新的统治得以稳固。",
+      "year": 908,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "天祐五年春正月；二月壬戌平定克宁之乱",
+      "phase": "jin",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p4",
+          "originalRevision": 1,
+          "originalSha256": "0582df9aca55fcd39edab1ce65f298c96160b0835d5aa065207420d381991525",
+          "excerpt": "天祐五年春正月，武皇疾篤，召監軍張承業、大將吳珙謂曰：「吾常愛此子志氣遠大，可付後事，惟卿等所教。」及武皇厭代，帝乃嗣王位於晉陽，時年二十有四。"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p7",
+          "originalRevision": 1,
+          "originalSha256": "c7b57e410b6d6578d95f7cf553aee980e722452e05a2ee3d559cd980644da958",
+          "excerpt": "二月壬戌，命存璋伏甲以誅克寧，遂靖其難。"
+        }
+      ],
+      "notes": [
+        "908年承继的是晋王及河东军府，不是923年的皇帝即位；条目包含正月承位、二月平乱两个阶段。"
+      ]
+    },
+    {
+      "id": "li-cunxu-lu-encampment",
+      "title": "击破潞州夹寨",
+      "summary": "李存勖乘梁军松懈，率军驰援潞州。李嗣源、周德威、李存审等分路进攻，破坏梁军夹城，解除围困；这是他承继晋王后的关键胜利。",
+      "year": 908,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "天祐五年五月辛未朔起（旧史记伏兵、诘旦进军）",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p10",
+          "originalRevision": 1,
+          "originalSha256": "569b2337c8cd0b7a30dd153b8571b36ac5f16f4bccd90b7b1cdb8b4f02d0547b",
+          "excerpt": "五月辛未朔，晨霧晦暝，帝率親軍伏三垂崗下。詰旦，天復昏霧，進軍直抵夾城。"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p10",
+          "originalRevision": 1,
+          "originalSha256": "569b2337c8cd0b7a30dd153b8571b36ac5f16f4bccd90b7b1cdb8b4f02d0547b",
+          "excerpt": "李嗣源壞夾城東北隅，率先掩擊，梁軍大恐，南向而奔，投戈委甲，噎塞行路"
+        }
+      ],
+      "notes": [
+        "旧史先记五月辛未朔伏三垂冈，继记“诘旦”進军；保留行军、交战的叙次，不替来源补写未明列的日号。"
+      ]
+    },
+    {
+      "id": "li-cunxu-baixiang",
+      "title": "柏乡击败梁军，援救镇、定",
+      "summary": "王镕向晋求援后，李存勖与周德威等迎击王景仁的梁军，在柏乡获胜。梁军随后撤出深、冀二州，晋对河北局势的影响扩大。",
+      "year": 911,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "天祐八年正月丁亥",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p18",
+          "originalRevision": 1,
+          "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6",
+          "excerpt": "天祐八年正月丁亥，周德威、史建瑭帥三千騎致師於柏鄉"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p18",
+          "originalRevision": 1,
+          "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6",
+          "excerpt": "李嗣源率親軍與史建瑭、安金全兼北部吐渾諸軍衝陣夾攻，梁軍大敗"
+        },
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p18",
+          "originalRevision": 1,
+          "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6",
+          "excerpt": "帝號令收軍於趙州。既而梁人棄深、冀二州而遁。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-youzhou",
+      "title": "攻取幽州，结束刘氏燕政权",
+      "summary": "周德威等长期围攻幽州后，李存勖亲自前往督战。晋军攻城，李存勖进入燕城；刘守光出逃，次年被捕，后续处理另列下一条。",
+      "year": 913,
+      "sortOrder": 6,
+      "precision": "day",
+      "sourceDate": "天祐十年十一月壬戌、癸亥（旧史）",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p13",
+          "originalRevision": 1,
+          "originalSha256": "00b14b017159dc7ada7c78e513f779e2afa14c7ffbd2aa61d34be8173062b48a",
+          "excerpt": "壬戌，梯童並進，軍士畢登，帝登燕丹塚以觀之。有頃，擒劉仁恭以獻。癸亥，帝入燕城，諸將畢賀。"
+        }
+      ],
+      "notes": [
+        "“梯童”为所保存底本文字，不把疑字悄改后用于引文。",
+        "此条按旧史主叙事排列；新史的月份另列，不将两书压成一个确定月日。"
+      ],
+      "variants": [
+        {
+          "label": "新史把攻破幽州系于十月",
+          "sourceDate": "天祐十年十月",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p4",
+              "originalRevision": 1,
+              "originalSha256": "bd5f7c1badd018e46f84349d9556cb01061627ec0c696bd05265547f2f5de521",
+              "excerpt": "十年十月，劉守光請降，王如幽州，守光背約不降，攻破之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-yan-captives",
+      "title": "擒处刘氏父子，建立行台",
+      "summary": "刘守光出逃后被燕乐县人捕获，晋军押刘氏父子西归。李存勖回晋阳后处死刘守光，并遣人将刘仁恭送到父亲陵前杀害；镇、定随后推他为尚书令，晋开始设立行台。",
+      "year": 914,
+      "sortOrder": 7,
+      "precision": "month",
+      "sourceDate": "天祐十年十二月癸酉、天祐十一年正月（旧史）",
+      "phase": "jin",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p14",
+          "originalRevision": 1,
+          "originalSha256": "1ca691e086ec121528a43b2653fe1fab79163ba5990b0f1ce1de17322d388033",
+          "excerpt": "癸酉，檀州燕樂縣人執劉守光並妻李氏祝氏、子繼祚以獻。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p15",
+          "originalRevision": 1,
+          "originalSha256": "da708bc0bcca9448607cadf28d2ad8bf89fb3b22a1bf0e511fac0daeef8c8736",
+          "excerpt": "壬子，至晉陽，以組練繫仁恭、守光，號令而入。是日，誅守光。遣大將李存霸拘送仁恭於代州，刺其心血奠告於武皇陵，然後斬之。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p15",
+          "originalRevision": 1,
+          "originalSha256": "da708bc0bcca9448607cadf28d2ad8bf89fb3b22a1bf0e511fac0daeef8c8736",
+          "excerpt": "遂選日受冊，開霸府，建行台，如武德故事。"
+        }
+      ],
+      "notes": [
+        "天祐十年十二月癸酉已经跨西历914年；捕获刘守光与913年攻入幽州分开列年。",
+        "旧史写刺心取血祭陵后斩杀，新史夹注概括为剖心祭墓；两者原文分别保留，不拼接为同一确定施刑过程。"
+      ],
+      "variants": [
+        {
+          "label": "新史概括刘仁恭祭墓为剖心",
+          "sourceDate": "天祐十一年",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p4",
+              "originalRevision": 1,
+              "originalSha256": "bd5f7c1badd018e46f84349d9556cb01061627ec0c696bd05265547f2f5de521",
+              "excerpt": "十一年，殺燕王劉守光于太原，用其父仁恭于鴈門。〈剖心以祭墓也。〉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-weibo",
+      "title": "入魏州，兼领魏博",
+      "summary": "梁朝分割魏博引起兵变，贺德伦被迫向晋求援。李存勖诛杀兵变首领张彦后进入魏州，接受符印、兼领魏博，魏博成为他征战与建国的重要基地。",
+      "year": 915,
+      "sortOrder": 8,
+      "precision": "day",
+      "sourceDate": "天祐十二年六月庚寅朔",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p17",
+          "originalRevision": 1,
+          "originalSha256": "517c52273a74a7c4a68a1dec87ffe0b04d8c2edc1604a69e69273c8bf1e42e2b",
+          "excerpt": "梁主乃割相、衛、澶三州別為一鎮，以德倫為魏博節度使，以張筠為相州節度使，魏人不從。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p17",
+          "originalRevision": 1,
+          "originalSha256": "517c52273a74a7c4a68a1dec87ffe0b04d8c2edc1604a69e69273c8bf1e42e2b",
+          "excerpt": "遽令斬彥及同惡者七人"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p18",
+          "originalRevision": 1,
+          "originalSha256": "23e0ecec0708a7db550ddf5f69196ec48a86088a599f3c1b06df4a535a7f2617",
+          "excerpt": "六月庚寅朔，帝入魏州，賀德倫上符印，請帝兼領魏州，帝從之。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-yuancheng",
+      "title": "元城一带大破刘鄩",
+      "summary": "李存勖以声称西归诱刘鄩出兵，实际留在贝州。刘鄩进攻魏州时，李存勖回军，与李存审、李嗣源等夹击，梁军败退；两书对月份的记载不一致。",
+      "year": 916,
+      "sortOrder": 9,
+      "precision": "month",
+      "sourceDate": "天祐十三年三月（旧史）",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p22",
+          "originalRevision": 1,
+          "originalSha256": "60e97b29104c563810870655ca9fd862ff39fba8d8185e069a0fd41f2d3de026",
+          "excerpt": "三月，鄩遣其將楊延直自澶州率兵萬人，會於城下。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p22",
+          "originalRevision": 1,
+          "originalSha256": "60e97b29104c563810870655ca9fd862ff39fba8d8185e069a0fd41f2d3de026",
+          "excerpt": "俄而帝自貝州至，鄩卒見帝，驚曰：「晉王耶！」因引軍漸卻，至故元城西，李存審大軍已成列矣。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p22",
+          "originalRevision": 1,
+          "originalSha256": "60e97b29104c563810870655ca9fd862ff39fba8d8185e069a0fd41f2d3de026",
+          "excerpt": "劉鄩自黎陽濟，奔滑州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史把诱敌、返击记在正月",
+          "sourceDate": "天祐十三年正月",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p5",
+              "originalRevision": 1,
+              "originalSha256": "454a87ce9b1d3c0855b381c3c4dee0f9e21f1770f7729bfe5a3e1a657babe88a",
+              "excerpt": "十三年正月，王留李存審于莘，聲言西歸。鄩聞晉王且去，即引兵擊魏，攻城東。王行至貝州，返擊鄩，大敗之，追至于故元城，又敗之，鄩走黎陽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-rescue-youzhou",
+      "title": "遣将击退契丹，救援幽州",
+      "summary": "契丹攻围幽州，李存勖先后派李嗣源、阎宝、李存审援救。援军沿山谷北进，击退契丹骑兵后入城，与周德威会合；这次救援由诸将执行，不写成李存勖亲自到城下破敌。",
+      "year": 917,
+      "sortOrder": 10,
+      "precision": "day",
+      "sourceDate": "天祐十四年八月庚子、辛丑",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p28",
+          "originalRevision": 1,
+          "originalSha256": "378237700a2e491cef60d66390ab452a0459b7af72dc0ce7da80ab428c1aad51",
+          "excerpt": "秋七月辛未，帝遣李存審領軍與嗣源會於易州，步騎凡七萬。"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p28",
+          "originalRevision": 1,
+          "originalSha256": "378237700a2e491cef60d66390ab452a0459b7af72dc0ce7da80ab428c1aad51",
+          "excerpt": "庚子，循大房嶺而東，距幽州六十里。契丹萬騎遽至，存審、嗣源極力以拒之，契丹大敗"
+        },
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p28",
+          "originalRevision": 1,
+          "originalSha256": "378237700a2e491cef60d66390ab452a0459b7af72dc0ce7da80ab428c1aad51",
+          "excerpt": "辛丑，大軍入幽州，德威見諸將，握手流涕。"
+        }
+      ],
+      "notes": [
+        "旧史夹注引《辽史》称契丹主已在六月退师；这与八月击退留在当地的契丹部众不应混成同一撤军日期。"
+      ],
+      "variants": [
+        {
+          "label": "旧史夹注引辽史，契丹主六月退师",
+          "sourceDate": "天祐十四年六月乙巳",
+          "evidence": [
+            {
+              "chapterId": "old-v028",
+              "paragraphId": "old-v028-p27",
+              "originalRevision": 1,
+              "originalSha256": "2618c9333819730748042657e28f7556f06e9c88b0f919c9e7a07f72d39e05f6",
+              "excerpt": "以大暑霖潦，班師，留盧國用守之。是契丹主已於六月退師矣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-huliu",
+      "title": "胡柳陂先败后胜，周德威战死",
+      "summary": "李存勖深入梁境，在胡柳陂与梁军交战。晋军辎重溃乱冲击幽州军，周德威父子战死；李存勖收集散兵、夺取土山后再次进攻，击败梁军。《通鉴》同时记双方损失都很重。",
+      "year": 919,
+      "sortOrder": 11,
+      "precision": "day",
+      "sourceDate": "天祐十五年十二月癸亥旦（通鉴）",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p63",
+          "originalRevision": 1,
+          "originalSha256": "acc070ac1933b5db8ba2c2a28ff7de08cb14149e4873242fd924d865d846be0c",
+          "excerpt": "壬戌，至胡柳陂。癸亥旦，候者言梁兵自後至矣。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p63",
+          "originalRevision": 1,
+          "originalSha256": "acc070ac1933b5db8ba2c2a28ff7de08cb14149e4873242fd924d865d846be0c",
+          "excerpt": "周德威不能制，父子皆戰死。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p64",
+          "originalRevision": 1,
+          "originalSha256": "728de2aba34526aaf9f2422a1d6faffb9d709063d87cd5c52f02932ecdc8b5f8",
+          "excerpt": "晉王據高丘收散兵，至日中，軍復振。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p65",
+          "originalRevision": 1,
+          "originalSha256": "70d8345055fab06290ceb492952f5cd1268383c8e407f7d0f319f37ebc0090af",
+          "excerpt": "是日，兩軍所喪士卒各三之二，皆不能振。"
+        }
+      ],
+      "notes": [
+        "年表按西历年显示919；原书记作天祐十五年十二月，不能用918的年号概算截去跨年的史事。",
+        "《通鉴》明确记癸亥旦交战；旧史叙至胡柳后的“迟明”未另书日次，不擅自推定两书一定相差一天。"
+      ],
+      "variants": [
+        {
+          "label": "旧史叙至胡柳、迟明交战及甲子巡场",
+          "sourceDate": "天祐十五年十二月癸亥、甲子",
+          "evidence": [
+            {
+              "chapterId": "old-v028",
+              "paragraphId": "old-v028-p32",
+              "originalRevision": 1,
+              "originalSha256": "ee190d1fa8b14875fe4fd2d3718195b8df537990cafe41ed02c69c40ef850387",
+              "excerpt": "癸亥，次胡柳坡。遲明，梁軍亦至，帝率親軍出視，諸軍從之。"
+            },
+            {
+              "chapterId": "old-v028",
+              "paragraphId": "old-v028-p32",
+              "originalRevision": 1,
+              "originalSha256": "ee190d1fa8b14875fe4fd2d3718195b8df537990cafe41ed02c69c40ef850387",
+              "excerpt": "甲子，命行戰場，收獲鎧仗不知其數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-desheng",
+      "title": "经营德胜夹寨，持续争夺黄河",
+      "summary": "胡柳战后，李存审在德胜夹河筑寨，李存勖回到魏州。两岸据点成为晋、梁继续争战的要地；这里是新一阶段的经营，不把胡柳的胜负简化成已经灭梁。",
+      "year": 919,
+      "sortOrder": 12,
+      "precision": "month",
+      "sourceDate": "天祐十六年春正月",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p1",
+          "originalRevision": 1,
+          "originalSha256": "18efae6f2e9da57ba516dbb82e96bebc56141b6140cac60954df8ab01afed837",
+          "excerpt": "天祐十六年春正月，李存審城德勝，夾河為柵。帝還魏州"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p7",
+          "originalRevision": 1,
+          "originalSha256": "cf1127fda1f615476cbad1ec320ec24f34918d92be061a22f34658df30c15a84",
+          "excerpt": "梁王瓚攻德勝南城，不克。十月，廣德勝北城。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-zhenzhou-siege",
+      "title": "发兵讨张文礼，围攻镇州",
+      "summary": "王镕被张文礼杀害后，李存勖起初接受后者请求，授予留后；随后支持符习等王镕旧将报仇，派阎宝、史建瑭进攻。张文礼病死，儿子张处瑾继续守城，战争延续到次年。",
+      "year": 921,
+      "sortOrder": 13,
+      "precision": "day",
+      "sourceDate": "天祐十八年八月庚申",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p9",
+          "originalRevision": 1,
+          "originalSha256": "2399884987abb529082eb98d5df6c3e2e1d627fbd27aaa6f4282a0c31b2fcdd0",
+          "excerpt": "是月，鎮州大將張文禮殺其帥王鎔。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p9",
+          "originalRevision": 1,
+          "originalSha256": "2399884987abb529082eb98d5df6c3e2e1d627fbd27aaa6f4282a0c31b2fcdd0",
+          "excerpt": "帝不得已而從之，乃承製授文禮鎮州兵馬留後。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p11",
+          "originalRevision": 1,
+          "originalSha256": "8a542424362fc391d40c0d049fe5146206e3f17314d6da836409e7a4400ea930",
+          "excerpt": "八月庚申，令天平節度使閻寶、成德兵馬留後符習率兵討張文禮於鎮州。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p11",
+          "originalRevision": 1,
+          "originalSha256": "8a542424362fc391d40c0d049fe5146206e3f17314d6da836409e7a4400ea930",
+          "excerpt": "是月，張文禮病疽而卒，其子處瑾代掌軍事。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-wangdu",
+      "title": "新城、望都击退契丹",
+      "summary": "契丹南下威胁定州，李存勖率军北援，在新城、望都接战，晋军与李嗣昭等击退敌军并向北追击。旧史正文与夹注所引《契丹国志》对庄宗在望都的受围情形各有表述。",
+      "year": 922,
+      "sortOrder": 14,
+      "precision": "day",
+      "sourceDate": "天祐十九年春正月甲午及其后",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p15",
+          "originalRevision": 1,
+          "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+          "excerpt": "天祐十九年春正月甲午，帝至新城"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p15",
+          "originalRevision": 1,
+          "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+          "excerpt": "翌日，引軍至望都，契丹逆戰。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p15",
+          "originalRevision": 1,
+          "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+          "excerpt": "李嗣昭躍馬奮擊，敵眾大潰，俘斬數千，追擊至易水"
+        }
+      ],
+      "notes": [
+        "甲午系抵新城的记日，不把其后多地交战都断为同日。"
+      ],
+      "variants": [
+        {
+          "label": "旧史夹注引契丹国志，强调庄宗受围与嗣昭解救",
+          "sourceDate": "天祐十九年正月",
+          "evidence": [
+            {
+              "chapterId": "old-v029",
+              "paragraphId": "old-v029-p15",
+              "originalRevision": 1,
+              "originalSha256": "19b8bc619cba278d0c4265d0c6bf914f88d3dee8a490af5da117a157686b55fc",
+              "excerpt": "晉王趨望都，為契丹所圍，力戰，出入數四，不解。李嗣昭引三百騎橫擊之，晉王始得出，因縱兵奮擊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-zhenzhou-taken",
+      "title": "攻下镇州，兼领成德",
+      "summary": "围攻中史建瑭、李嗣昭、李存进先后战死，李存审继续领军。镇州内应接引晋军入城后，李存勖兼领成德；新、旧史把城破月份分别记作十月、九月。",
+      "year": 922,
+      "sortOrder": 15,
+      "precision": "day",
+      "sourceDate": "天祐十九年九月丙午夜（旧史）",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p18",
+          "originalRevision": 1,
+          "originalSha256": "20e0751f6000f3ad32a69c8a0ad674f773ac7402e854c4a48bd6d7d1077ac060",
+          "excerpt": "以蕃漢馬步總管李存審為北面招討使，以攻鎮州。丙午夜，趙將李再豐之子衝投縋以接王師，諸軍登城，遲明畢入，鎮州平。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p18",
+          "originalRevision": 1,
+          "originalSha256": "20e0751f6000f3ad32a69c8a0ad674f773ac7402e854c4a48bd6d7d1077ac060",
+          "excerpt": "鎮人請帝兼領本鎮，從之，乃以符習遙領天平軍節度使。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p8",
+          "originalRevision": 1,
+          "originalSha256": "9ae7707314bcb420d1210126706330fbd92c844e4829ff14155de84a03e7f39f",
+          "excerpt": "九月，建瑭戰死。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p9",
+          "originalRevision": 1,
+          "originalSha256": "dcc88078a3712b6457e4e67a651301633df18de7e3abd66a041abb5e6f14a655",
+          "excerpt": "四月，嗣昭戰死，以李存進代之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记十月克镇州",
+          "sourceDate": "天祐十九年十月",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p9",
+              "originalRevision": 1,
+              "originalSha256": "dcc88078a3712b6457e4e67a651301633df18de7e3abd66a041abb5e6f14a655",
+              "excerpt": "九月，存進敗鎮人于東垣，存進戰死。十月，李存審克鎮州。王兼領成德軍節度使。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-imperial-accession",
+      "title": "在魏州称帝，建立后唐",
+      "summary": "李存勖登坛称帝，把沿用的天祐二十年改为同光元年，国号唐。朝廷设置宰相、枢密使并追尊先祖；与908年承继晋王位的性质和时间分开记述。",
+      "year": 923,
+      "sortOrder": 16,
+      "precision": "day",
+      "sourceDate": "同光元年夏四月己巳",
+      "phase": "imperial",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p22",
+          "originalRevision": 1,
+          "originalSha256": "262ad75985f58f3ef03dbd7f0e6dda48c4d52e6b4122486c4a59359785968ad6",
+          "excerpt": "夏四月己巳，帝升壇，祭告昊天上帝，遂即皇帝位，文武臣僚稱賀。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p22",
+          "originalRevision": 1,
+          "originalSha256": "262ad75985f58f3ef03dbd7f0e6dda48c4d52e6b4122486c4a59359785968ad6",
+          "excerpt": "改天佑二十年為同光元年，大赦天下"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p11",
+          "originalRevision": 1,
+          "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
+          "excerpt": "夏四月己巳，皇帝即位，大赦，改元，國號唐。"
+        }
+      ],
+      "notes": [
+        "此时开始实际在位，至926年止；先祖的帝号属于追尊，不据此增加实际即位皇帝人数。"
+      ]
+    },
+    {
+      "id": "li-cunxu-liang-falls",
+      "title": "入汴灭梁",
+      "summary": "李存勖经郓州、中都一线突进，李嗣源前军抵汴，王瓒献城；李存勖随后进入大梁。梁末帝已死，后梁政权覆亡。关于梁末帝的死亡，旧史记具体杀害者，新史本纪只书其崩；分别保留原书措辞。",
+      "year": 923,
+      "sortOrder": 17,
+      "precision": "day",
+      "sourceDate": "同光元年冬十月己卯",
+      "phase": "imperial",
+      "evidence": [
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p2",
+          "originalRevision": 1,
+          "originalSha256": "dcef94511b089ab7e0960e5521b9991109141c35a6f604de4551b9b2ad9d8a8a",
+          "excerpt": "己卯遲明，前軍至汴城，嗣源令左右捉生攻封丘門，梁開封尹王瓚請以城降。俄而帝與大軍繼至，王瓚迎帝自大梁門入。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p11",
+          "originalRevision": 1,
+          "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
+          "excerpt": "己卯，滅梁。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史记皇甫麟杀梁末帝",
+          "sourceDate": "同光元年十月己卯以前",
+          "evidence": [
+            {
+              "chapterId": "old-v030",
+              "paragraphId": "old-v030-p2",
+              "originalRevision": 1,
+              "originalSha256": "dcef94511b089ab7e0960e5521b9991109141c35a6f604de4551b9b2ad9d8a8a",
+              "excerpt": "時梁末帝朱鍠已為其將皇甫麟所殺，獲其首，函之以獻。"
+            }
+          ]
+        },
+        {
+          "label": "新史梁本纪只记皇帝崩、梁亡",
+          "sourceDate": "龙德三年冬十月戊寅",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p54",
+              "originalRevision": 1,
+              "originalSha256": "130dc303d0da6188a9e3e804bed248c6fb16b187f466e6fd2db540a21f254489",
+              "excerpt": "戊寅，皇帝崩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-arrive-luoyang",
+      "title": "朝廷移入洛阳",
+      "summary": "李存勖从汴州出发，到达旧史所称西京的洛阳，由官署迎入宫中。原书记同光元年十二月，历表对应已跨西历924年；不能仅按同光元年概括为923年。",
+      "year": 924,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "同光元年十二月庚午朔",
+      "phase": "imperial",
+      "evidence": [
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p18",
+          "originalRevision": 1,
+          "originalSha256": "27d35c1eec30c39f6f856cc6592cbc5263a34ba46ec594de9e8748b91a4b4e87",
+          "excerpt": "甲子，車駕發汴州。十二月庚午朔，車駕至西京。是日，有司自石橋具儀仗法物，迎引入於大內。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p11",
+          "originalRevision": 1,
+          "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
+          "excerpt": "甲子，如洛京。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p11",
+          "originalRevision": 1,
+          "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
+          "excerpt": "十二月庚午朔，至自汴州。"
+        }
+      ],
+      "notes": [
+        "旧史称西京、新史称洛京；同光三年另有改洛京为东都的记载，不把改名提前到此时。"
+      ]
+    },
+    {
+      "id": "li-cunxu-performers-patronage",
+      "title": "兑现伶人荐举，授陈俊等刺史",
+      "summary": "李存勖兑现对宠伶周匝的许诺，任教坊使陈俊为景州刺史、内园栽接使储德源为宪州刺史。《通鉴》记郭崇韬曾反对优先封赏伶人，军中未得刺史的旧部对此愤慨。",
+      "year": 924,
+      "sortOrder": 19,
+      "precision": "day",
+      "sourceDate": "同光二年五月壬寅",
+      "phase": "imperial",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v273",
+          "paragraphId": "tongjian-v273-p37",
+          "originalRevision": 1,
+          "originalSha256": "939f44c500c037e6e88d844843c9b77866b60f23c119420b74632f06d497c7c4",
+          "excerpt": "五月，壬寅，以俊為景州刺史，德源為憲州刺史。時親軍有從帝百戰未得刺史者，莫不憤歎。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p12",
+          "originalRevision": 1,
+          "originalSha256": "df3b627cd8f784fdd5cd7dd6e0a985a03ccc422b4f48013e6cb6dab3f59a32b9",
+          "excerpt": "夏五月壬寅，教坊使陳俊為景州刺史，內園栽接使儲德源為憲州刺史。"
+        }
+      ],
+      "notes": [
+        "此事是周匝荐举陈俊、储德源，不写成周匝本人受任刺史；各书的评论仍按各自来源阅读。"
+      ]
+    },
+    {
+      "id": "li-cunxu-conquer-shu",
+      "title": "遣军伐蜀，王衍出降",
+      "summary": "李存勖任魏王李继岌为伐蜀都统、郭崇韬统筹招讨。唐军进至成都，王衍率官员出降，前蜀覆亡；李存勖并未亲自率军进入成都。新史把王衍投降记在不同日次。",
+      "year": 925,
+      "sortOrder": 20,
+      "precision": "month",
+      "sourceDate": "同光三年九月庚子至十一月丙辰（旧史、通鉴）",
+      "phase": "imperial",
+      "evidence": [
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p3",
+          "originalRevision": 1,
+          "originalSha256": "f3e5376b7792a1bcb0d0f40c8316a4411e1a334f167bbb54c98b98a762b5df94",
+          "excerpt": "是日，命大舉伐蜀"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p5",
+          "originalRevision": 1,
+          "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
+          "excerpt": "今命興聖宮使、魏王繼岌充西川四面行營都統，命侍中、樞密使郭崇韜充西川東北面行營都招討製置等使"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p12",
+          "originalRevision": 1,
+          "originalSha256": "52a6ca3b476cea29f64323ca94f303428b712bff805d9e307ba9a202cf0d2d7b",
+          "excerpt": "丙辰，李嚴引蜀主及百官儀衛出降於陞遷橋"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p12",
+          "originalRevision": 1,
+          "originalSha256": "52a6ca3b476cea29f64323ca94f303428b712bff805d9e307ba9a202cf0d2d7b",
+          "excerpt": "自出師至克蜀，凡七十日。"
+        }
+      ],
+      "notes": [
+        "这是一项跨九月至十一月的战役，显示来源月份范围，不虚造一日内完成。"
+      ],
+      "variants": [
+        {
+          "label": "新史记王衍降于己酉",
+          "sourceDate": "同光三年十一月己酉",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p13",
+              "originalRevision": 1,
+              "originalSha256": "aaae6274e02ff6b83c904caf5c532a11b8798d3ac869ba82ae0b0d994a9d8e62",
+              "excerpt": "十一月丁未，高麗遣使者來。己酉，王衍降。"
+            }
+          ]
+        },
+        {
+          "label": "旧史记蜀主出降于丙辰",
+          "sourceDate": "同光三年十一月丙辰",
+          "evidence": [
+            {
+              "chapterId": "old-v033",
+              "paragraphId": "old-v033-p10",
+              "originalRevision": 1,
+              "originalSha256": "4f5e74ad181e6078116e91b6897408c0e7cb774f2de8a2835d1b9e925a57c8fb",
+              "excerpt": "乙卯，魏王至西川城北。丙辰，蜀主王衍出降"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-guo-chongtao-killed",
+      "title": "郭崇韬在蜀被杀",
+      "summary": "魏王李继岌在蜀杀死郭崇韬及其子。新史夹注明确说皇后刘氏向继岌发出教令，并指出这不是天子诏命；因此不能把事件直接写成李存勖正式下诏处死郭崇韬。",
+      "year": 926,
+      "sortOrder": 21,
+      "precision": "day",
+      "sourceDate": "同光四年正月甲子",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "40da8aa3e2c9cbc4df61e22551f7a4c6f2b2e45a615b1a55e754322a0908178e",
+          "excerpt": "甲子，魏王繼岌殺樞密使郭崇韜於西川，夷其族。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p14",
+          "originalRevision": 1,
+          "originalSha256": "44d7db0ad284f43e76ae3b1a0fe9b6602c202d0e9198e1d53bb652fbb1fc306a",
+          "excerpt": "甲子，魏王繼岌殺郭崇韜及其二子于蜀。"
+        }
+      ],
+      "notes": [
+        "新史本纪此处“二子”保留校勘条，不沿用其他旧本的“三子”混算。"
+      ],
+      "variants": [
+        {
+          "label": "新史夹注说明皇后教令与天子命的区别",
+          "sourceDate": "同光四年正月甲子",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p14",
+              "originalRevision": 1,
+              "originalSha256": "44d7db0ad284f43e76ae3b1a0fe9b6602c202d0e9198e1d53bb652fbb1fc306a",
+              "excerpt": "實皇后劉氏作教與繼岌使殺崇韜，而書「繼岌殺」者，繼岌將兵在外，后教非天子命，可止而不止。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-purge-and-hunger",
+      "title": "诛朱友谦、存乂，军民冻饿加深",
+      "summary": "郭崇韬的女婿李存乂遭诛；庄宗又命围杀河中节度使李继麟，即朱友谦，并追杀其旧将。同期镇州奏报百姓冻死、饿死，军事与财政危机没有随着灭梁、平蜀而消失。",
+      "year": 926,
+      "sortOrder": 22,
+      "precision": "month",
+      "sourceDate": "同光四年正月庚辰及其后",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "40da8aa3e2c9cbc4df61e22551f7a4c6f2b2e45a615b1a55e754322a0908178e",
+          "excerpt": "庚辰，帝異母弟鄜州節度使存乂伏誅。存乂，郭崇韜之子婿也，故亦及於禍。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "40da8aa3e2c9cbc4df61e22551f7a4c6f2b2e45a615b1a55e754322a0908178e",
+          "excerpt": "尋令朱守殷以兵圍其第，誅之，夷其族。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "40da8aa3e2c9cbc4df61e22551f7a4c6f2b2e45a615b1a55e754322a0908178e",
+          "excerpt": "鎮州上言，部民凍死者七千二百六十人。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "40da8aa3e2c9cbc4df61e22551f7a4c6f2b2e45a615b1a55e754322a0908178e",
+          "excerpt": "鎮州上言，平棘等四縣部民，餓死者二千五十人。"
+        }
+      ],
+      "notes": [
+        "李继麟是朱友谦获赐的姓名，同一人物而非两位将领；冻饿与诛杀分别有原文记载，不把两者的因果简单推定。"
+      ]
+    },
+    {
+      "id": "li-cunxu-weibo-revolt",
+      "title": "魏博戍卒起兵，赵在礼据邺",
+      "summary": "魏博戍卒被留驻贝州，长期不能归家，流言与怨愤推动兵变。军士杀杨仁晸，逼赵在礼领兵，继而进入邺都；李存勖派元行钦讨伐，但攻城未克。",
+      "year": 926,
+      "sortOrder": 23,
+      "precision": "day",
+      "sourceDate": "同光四年二月癸巳起兵、初六入邺",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p14",
+          "originalRevision": 1,
+          "originalSha256": "44d7db0ad284f43e76ae3b1a0fe9b6602c202d0e9198e1d53bb652fbb1fc306a",
+          "excerpt": "癸巳，鄴都軍將趙在禮反于貝州。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p4",
+          "originalRevision": 1,
+          "originalSha256": "8a951ecc59be6bebc60342dc0f9aab301382e1e4ead81946d2e9e1919c8648c8",
+          "excerpt": "今月六日，貝州屯駐兵士突入都城，剽劫坊市。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p5",
+          "originalRevision": 1,
+          "originalSha256": "7b2f7097e637228dd5b034571f7a57da1677e6b54ccbc13d9c4212a3b8c89c8a",
+          "excerpt": "軍人即斬仁晸。裨將趙在禮聞軍亂，衣不及帶，將逾垣而遁，亂兵追及，白刃環之曰：「公能為帥否？否則頭隨刃落！」"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p7",
+          "originalRevision": 1,
+          "originalSha256": "8eaec1dfbbc81ef8e94d2807fb66640c55aa88e9dc4a46c183b5a66530199a17",
+          "excerpt": "諸軍大集於鄴都，進攻其城，不克。"
+        }
+      ],
+      "notes": [
+        "起兵与入邺不是同一天；旧史本段的“十二月”是回叙任命背景，不把整段兵变系到十二月。"
+      ]
+    },
+    {
+      "id": "li-cunxu-failed-march",
+      "title": "李嗣源军变，庄宗东征折返",
+      "summary": "李嗣源奉命讨邺，营中军士作乱，把他拥入邺城；他随后南下入汴。李存勖东征途中前军离散，到万胜镇后折返洛阳，失去继续控制局势的力量。",
+      "year": 926,
+      "sortOrder": 24,
+      "precision": "month",
+      "sourceDate": "同光四年三月甲寅至甲戌",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p9",
+          "originalRevision": 1,
+          "originalSha256": "4dade5c117e1523afa6660caf34dcc5a09c6a5211abcd0de72e25a3d0dc00350",
+          "excerpt": "甲寅，進營於觀音門外，下令諸軍，詰旦攻城。是夜，城下軍亂，迫嗣源為帝。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p11",
+          "originalRevision": 1,
+          "originalSha256": "c83f42d9f670e0c747566110b5218c544fee84737e41c5ea4ef35bab4cc7bbe8",
+          "excerpt": "時潘瑰守王村寨，有積粟數萬，亦奔汴州。是時，李嗣源已入於汴。帝聞諸軍離散，精神沮喪，至萬勝鎮即命旋師。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p14",
+          "originalRevision": 1,
+          "originalSha256": "44d7db0ad284f43e76ae3b1a0fe9b6602c202d0e9198e1d53bb652fbb1fc306a",
+          "excerpt": "甲戌，至自萬勝。"
+        }
+      ],
+      "notes": [
+        "“迫为帝”记军中拥戴，不等同李嗣源此日已举行正式皇帝即位礼；旧史也保留他起初拒绝、申理的经过。"
+      ]
+    },
+    {
+      "id": "li-cunxu-xingjiao-death",
+      "title": "兴教门兵变，中箭而死",
+      "summary": "郭从谦率部攻兴教门，李存勖带近卫抵抗，随后被流矢射中，死于绛霄殿廊下。遗体被焚，李嗣源进入洛阳后得到余骸；底本关于初一干支的差别分别列出。",
+      "year": 926,
+      "sortOrder": 25,
+      "precision": "day",
+      "sourceDate": "同光四年四月初一（两书干支不同）",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p13",
+          "originalRevision": 1,
+          "originalSha256": "5d1f329fdc4a977b29145bebb6256f9eaf80d98ae61422c08c79918f1f865ec2",
+          "excerpt": "郭從謙自本營率所部抽戈露刃，至興教門大呼"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p13",
+          "originalRevision": 1,
+          "originalSha256": "5d1f329fdc4a977b29145bebb6256f9eaf80d98ae61422c08c79918f1f865ec2",
+          "excerpt": "俄而帝為流矢所中，亭午，崩於絳霄殿之廡下，時年四十三。"
+        },
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p13",
+          "originalRevision": 1,
+          "originalSha256": "5d1f329fdc4a977b29145bebb6256f9eaf80d98ae61422c08c79918f1f865ec2",
+          "excerpt": "及明宗入洛，止得其燼骨而已。"
+        }
+      ],
+      "notes": [
+        "两书均记四月朔；旧史的“丁丑”与新史的“丁亥”不一致，年表只显示共同的初一并列原书干支，不改写底本。"
+      ],
+      "variants": [
+        {
+          "label": "旧史庄宗纪：丁丑朔",
+          "sourceDate": "同光四年四月丁丑朔",
+          "evidence": [
+            {
+              "chapterId": "old-v034",
+              "paragraphId": "old-v034-p13",
+              "originalRevision": 1,
+              "originalSha256": "5d1f329fdc4a977b29145bebb6256f9eaf80d98ae61422c08c79918f1f865ec2",
+              "excerpt": "四月丁丑朔"
+            }
+          ]
+        },
+        {
+          "label": "新史庄宗纪：丁亥朔",
+          "sourceDate": "同光四年四月丁亥朔",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p15",
+              "originalRevision": 1,
+              "originalSha256": "5c76439648e8a29d3d2c17098ff4c292dfe03be4aaad9aa66adc89dbb6d8256c",
+              "excerpt": "夏四月丁亥朔，皇帝崩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-burial",
+      "title": "谥庄宗，葬雍陵",
+      "summary": "李存勖死后获谥光圣神闵孝皇帝，庙号庄宗，并葬于雍陵。旧史庄宗纪与明宗纪对葬日分别记丙子、乙亥；新史只记七月，不强行统一日次。",
+      "year": 926,
+      "sortOrder": 26,
+      "precision": "month",
+      "sourceDate": "天成元年七月；旧史两处日次不同",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v034",
+          "paragraphId": "old-v034-p14",
+          "originalRevision": 1,
+          "originalSha256": "90feb6bd8710a6dd2e7b428bf3b59301146a85e16fdfc25e8221c23f8a003954",
+          "excerpt": "天成元年七月丁卯，有司上諡曰光聖神閔孝皇帝，廟號莊宗。是月丙子，葬於雍陵。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p15",
+          "originalRevision": 1,
+          "originalSha256": "5c76439648e8a29d3d2c17098ff4c292dfe03be4aaad9aa66adc89dbb6d8256c",
+          "excerpt": "天成元年七月，葬之河南新安縣，號雍陵"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史庄宗纪记丙子葬",
+          "sourceDate": "天成元年七月丙子",
+          "evidence": [
+            {
+              "chapterId": "old-v034",
+              "paragraphId": "old-v034-p14",
+              "originalRevision": 1,
+              "originalSha256": "90feb6bd8710a6dd2e7b428bf3b59301146a85e16fdfc25e8221c23f8a003954",
+              "excerpt": "是月丙子，葬於雍陵。"
+            }
+          ]
+        },
+        {
+          "label": "旧史明宗纪记乙亥葬",
+          "sourceDate": "天成元年七月乙亥",
+          "evidence": [
+            {
+              "chapterId": "old-v036",
+              "paragraphId": "old-v036-p10",
+              "originalRevision": 1,
+              "originalSha256": "e6dc9f6e6bd345ec9d8a690b6b70c75428dc66562dd954f9d9ba3cfb109ba95c",
+              "excerpt": "乙亥，莊宗皇帝梓宮發引，帝縗服臨送於樓前。是日，葬莊宗於雍陵。"
+            }
+          ]
+        },
+        {
+          "label": "五代会要记七月二十二日",
+          "sourceDate": "天成元年七月二十二日",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p4",
+              "originalRevision": 1,
+              "originalSha256": "70eefed2a5f2020a5c57e73eaa6411c86dee8781e89d388116bef948a52dab71",
+              "excerpt": "天成元年七月二十二日，葬雍陵，"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《五代会要》记年四十二，新、旧五代史记四十三；史书年龄依各书保存，不换算成确定周岁。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "schemaVersion": 1,
+  "personId": "li-keyong",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "li-keyong-birth",
+      "title": "生于神武川新城",
+      "summary": "李克用生于神武川新城，父亲李国昌原名赤心，母亲秦氏。",
+      "year": 856,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "大中十年丙子岁九月二十二日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p1",
+          "originalRevision": 1,
+          "originalSha256": "10063cba232dd63a7aba2f5810be61ae0d3b023cac185aa0ae3ae2897000906f",
+          "excerpt": "烈考國昌，本名赤心，唐朔州刺史。咸通中，討龐勳有功，入為金吾上將軍，賜姓李氏，名國昌，〈（代州有《唐故龍武軍統軍檢校司徒贈太保隴四李公神道碑》云：公諱國昌，字德興。）〉仍係鄭王房。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p2",
+          "originalRevision": 1,
+          "originalSha256": "f37bfb036185679b6e29088e489196d59d5e29aa050599d73db1d38205f23886",
+          "excerpt": "武皇即獻祖之第三子也。母秦氏，以大中十年丙子歲九月二十二日，生於神武川之新城。"
+        }
+      ],
+      "notes": [
+        "这里只记出生及父母身份，原段中的虹光、神人等叙述不作为确定史实。"
+      ]
+    },
+    {
+      "id": "li-keyong-youth-campaign",
+      "title": "少年随父讨庞勋",
+      "summary": "少年时随父出征讨伐庞勋，旧史称他作战勇锐，军中号为“飞虎子”；战后担任云中牙将。",
+      "year": 869,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "咸通十年（父亲讨庞勋的纪年）；旧史本段称“年十五”",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p3",
+          "originalRevision": 1,
+          "originalSha256": "d1686b3f2187a689d74dcfe53d79389c7b5481681ff320c1a4fd2950d5b05e71",
+          "excerpt": "獻祖之討龐勳也，武皇年十五，從征，摧鋒陷陣，出諸將之右，軍中目為「飛虎子」。賊平，獻祖授振武節度使，武皇為雲中牙將。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p3",
+          "originalRevision": 1,
+          "originalSha256": "155b14e18beb00a4a2534b693931be74ab34fc99fb3c5be0883b58d836370c8a",
+          "excerpt": "懿宗咸通十年，神策大將軍康承訓統十八將討龐勛於徐州，以朱邪赤心為太原行營招討沙陀三部落軍使。以從破勛功，拜單于大都護、振武軍節度使，賜姓名曰李國昌，以之屬籍。"
+        }
+      ],
+      "notes": [
+        "869年取新史所记父亲讨庞勋的纪年。旧史本段只记克用“年十五”，与出生纪年推算的年龄不完全一致，保留原说，不改成精确周岁。"
+      ]
+    },
+    {
+      "id": "li-keyong-yunzhou-mutiny",
+      "title": "云州军变，被推为主将",
+      "summary": "边军因饥荒和削减军粮而怨愤，康君立、盖寓等拥李克用进入云州，拘执段文楚，请求朝廷授予李克用节度使职权。朝廷拒绝，征兵讨伐。",
+      "year": 876,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "乾符三年（旧史本纪纪年）",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p4",
+          "originalRevision": 1,
+          "originalSha256": "1e668c1f3a0d3596fcfe655811ed1cf161baa6c07a22c0fecaf424f191c96b07",
+          "excerpt": "乾符三年，朝廷以段文楚為代北水陸發運、雲州防禦使。時歲薦饑，文楚稍削軍食，諸軍鹹怨。武皇為雲中防邊督將，部下爭訴以軍食不充，邊校程懷素、王行審、蓋寓、李存璋、薛鐵山、康君立等，即擁武皇入雲州，眾且萬人，營於鬥雞台，城中械文楚出，以應於外。諸將列狀以聞，請授武皇旄鉞，朝廷不允，征諸道兵以討之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史的时序与事件记法",
+          "sourceDate": "咸通十三年国昌拒命之后的接续叙事，未另标兵变年月",
+          "evidence": [
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p3",
+              "originalRevision": 1,
+              "originalSha256": "155b14e18beb00a4a2534b693931be74ab34fc99fb3c5be0883b58d836370c8a",
+              "excerpt": "十三年，徙國昌雲州刺史、大同軍防禦使，國昌稱疾拒命。國昌子克用，尤善騎射，能仰中雙鳧，為雲州守捉使。國昌已拒命，克用乃殺大同軍防禦使段文楚，據雲州，自稱留後。唐以太僕卿盧簡方為振武節度使，會幽、并兵討之。簡方行至嵐州，[1]軍潰，由是沙陀侵掠代北為邊患矣。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "这一事件按当前旧史底本所记乾符三年排列；新史把段文楚之死接叙在咸通十三年国昌拒命之后，时序不同。此处展示底本纪年，不将异说合并为确定发生年。"
+      ]
+    },
+    {
+      "id": "li-keyong-dada-exile",
+      "title": "败走达靼部落",
+      "summary": "唐朝调集幽州、云州等军讨伐沙陀，李克用父子败退，带着部众寄居达靼。李克用设法维持与当地首领的关系，等待南返机会。",
+      "year": 880,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "广明元年六月（旧史）；新史同记广明元年",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p7",
+          "originalRevision": 1,
+          "originalSha256": "6a96c5c9299b85f052f9406041c4afbcd170db5788e47e8482d2483d99436adb",
+          "excerpt": "廣明元年春，天子復命元帥李涿率兵數萬屯代州。武皇令軍使傅文達起兵於蔚州，朔州刺史高文集與薛葛、安慶等部將縛文達送於李涿。六月，李涿引大軍攻蔚州，獻祖戰不利，乃率其族奔於達靼部。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p5",
+          "originalRevision": 1,
+          "originalSha256": "5b1bb0219e2417b418a45143f01f81e7325dd281c6580ea2e1f270f2cdd11e97",
+          "excerpt": "廣明元年，招討使李琢會幽州李可舉、雲州赫連鐸擊沙陀，克用與可舉相拒雄武軍。其叔父友金以蔚、朔州降于琢，克用聞之，遽還。可舉追至藥兒嶺，大敗之，琢軍夾擊，又敗之于蔚州，沙陀大潰，克用父子亡入達靼。"
+        }
+      ]
+    },
+    {
+      "id": "li-keyong-recalled-to-fight-huangchao",
+      "title": "奉召返回代北",
+      "summary": "黄巢攻陷长安后，陈景思采纳李友金建议，奏请召回李克用统领沙陀军。李克用自达靼返回雁门，首次南下经过太原后又退回。",
+      "year": 881,
+      "sortOrder": 5,
+      "precision": "month",
+      "sourceDate": "中和元年四月至五月（旧史）",
+      "phase": "campaigns",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p9",
+          "originalRevision": 1,
+          "originalSha256": "5ae7eaa7a786c4cc5408b23f1eb8eed17c711bf9ac963ee4f9525a03050a387d",
+          "excerpt": "友金謂景思曰：「興大眾，成大事，當威名素著，則可以伏人。今軍雖數萬，苟無善帥，進亦無功。吾兄李司徒父子，去歲獲罪於國家，今寄北部，雄武之略，為眾所推。若驃騎急奏召還，代北之人，一麾響應，則妖賊不足平也。」景思然之，促奏行在。天子乃以武皇為雁門節度使，仍令以本軍討賊。〈（《新唐書·王重榮傳》：重榮懼黃巢復振，憂之，與復光計，復光曰：「我世與李克用共憂患，其人忠不顧難，死義如己，若乞師焉，事蔑不濟。」乃遣使者約連和。）〉李友金發五百騎齎詔召武皇於達靼，武皇即率達靼諸部萬人趨雁門。五月，整兵二萬，南向京師。太原鄭從讜以兵守石嶺關，武皇乃引軍出他道；至太原城下，會大雨，班師於雁門。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p6",
+          "originalRevision": 1,
+          "originalSha256": "b0bc99d7abdf4482897e9f992d56ce4a914fe7886b38aed9254823c9e2b0b01a",
+          "excerpt": "景思念沙陀非克用不可將，乃以詔書召克用於達靼，承制以為代州刺史、鴈門以北行營節度使。"
+        }
+      ],
+      "notes": [
+        "旧史称雁门节度使，新史写代州刺史、雁门以北行营节度使，官号沿各书原文保留。"
+      ]
+    },
+    {
+      "id": "li-keyong-southward-army",
+      "title": "再度率军南下救唐",
+      "summary": "李克用再次带领代北及达靼军队南下，经过太原后向晋州、绛州、河中进军，准备参加讨伐黄巢的战事。",
+      "year": 882,
+      "sortOrder": 6,
+      "precision": "month",
+      "sourceDate": "中和二年十月（旧史）",
+      "phase": "campaigns",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p10",
+          "originalRevision": 1,
+          "originalSha256": "5e6ce50f5e700f465ff0e29f8cda6f1aff0df086d8bef0235e8688ab0307c688",
+          "excerpt": "十月，武皇率忻、代、蔚、朔、達靼之軍三萬五千騎赴難於京師。先移檄太原，鄭從讜拒關不納，武皇以兵擊之，進軍至城下，遣人齎幣馬遺從讜；從讜亦遣人饋武皇貨幣、饔餼、軍器。武皇南去，自陰地趨晉、絳。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记十一月出兵",
+          "sourceDate": "中和二年十一月",
+          "year": 882,
+          "evidence": [
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p7",
+              "originalRevision": 1,
+              "originalSha256": "02d9ca38e1e3e9d1c2d6da235aef80a05aaa48802a104d9cc12284255ae8d9f3",
+              "excerpt": "二年十一月，景思、克用復以步騎萬七千赴京師。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "出兵月份及兵数各书不同，不把旧史三万五千骑与新史一万七千步骑合成同一数字。"
+      ]
+    },
+    {
+      "id": "li-keyong-recover-changan",
+      "title": "讨黄巢，收复长安",
+      "summary": "李克用率军在关中击败黄巢部将，进军渭桥。黄巢离开长安后，唐军收复京城；新史称李克用功劳居首。",
+      "year": 883,
+      "sortOrder": 7,
+      "precision": "month",
+      "sourceDate": "中和三年二月至四月（旧史）",
+      "phase": "campaigns",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p11",
+          "originalRevision": 1,
+          "originalSha256": "7425579b04bc36c4c4e606a4ae08ed109d0ad6911a1a5ae8edd0622a503885f2",
+          "excerpt": "三月，尚讓引大軍赴援，武皇率兵萬餘逆戰於零口，巢軍大敗，武皇進軍渭橋。翌日，黃揆棄華州而遁。王鐸承製授武皇雁門節度使、檢校尚書左僕射。四月，黃巢燔長安，收其餘眾，東走藍關。武皇時收京師。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p7",
+          "originalRevision": 1,
+          "originalSha256": "02d9ca38e1e3e9d1c2d6da235aef80a05aaa48802a104d9cc12284255ae8d9f3",
+          "excerpt": "是時，諸鎮兵皆會長安，大戰渭橋，賊敗走入城，克用乘勝追之，自光泰門先入，戰望春宮昇陽殿，巢敗，南走出藍田關，京師平，克用功第一。"
+        }
+      ],
+      "notes": [
+        "两书对战斗地点、先后及攻城过程的叙述有差异，分别保留，不拼成唯一战斗过程。"
+      ]
+    },
+    {
+      "id": "li-keyong-hedong-governorship",
+      "title": "赴任河东节度使",
+      "summary": "因讨黄巢之功获授河东节度使，李克用先赴雁门探望父亲，八月再赴太原任所。此后河东成为其长期经营的根据地。",
+      "year": 883,
+      "sortOrder": 8,
+      "precision": "month",
+      "sourceDate": "中和三年八月（赴镇）",
+      "phase": "campaigns",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p11",
+          "originalRevision": 1,
+          "originalSha256": "7425579b04bc36c4c4e606a4ae08ed109d0ad6911a1a5ae8edd0622a503885f2",
+          "excerpt": "七月，天子授武皇金紫光祿大夫、檢校左僕射、河東節度使。〈（《舊唐書·僖宗紀》：五月，製以雁門以北行營節度、忻代蔚朔等州觀察處置等使、檢校尚書左僕射、代州刺史、上柱國、食邑七百戶李克用檢校司空、同平章事兼太原尹、北京留守，充河東節度、管內觀察處置等使。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p12",
+          "originalRevision": 1,
+          "originalSha256": "5b81e2e0fb51f6b42a3149713b9679a78a0396be07ff938f9342819435d58661",
+          "excerpt": "武皇次於郊外，因往赴雁門寧覲獻祖。八月，自雁門赴鎮河東，時年二十有八。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本纪所记授官",
+          "sourceDate": "中和三年七月",
+          "year": 883,
+          "evidence": [
+            {
+              "chapterId": "old-v025",
+              "paragraphId": "old-v025-p11",
+              "originalRevision": 1,
+              "originalSha256": "7425579b04bc36c4c4e606a4ae08ed109d0ad6911a1a5ae8edd0622a503885f2",
+              "excerpt": "七月，天子授武皇金紫光祿大夫、檢校左僕射、河東節度使。"
+            }
+          ]
+        },
+        {
+          "label": "本纪夹注引旧唐书所记授官",
+          "sourceDate": "中和三年五月",
+          "year": 883,
+          "evidence": [
+            {
+              "chapterId": "old-v025",
+              "paragraphId": "old-v025-p11",
+              "originalRevision": 1,
+              "originalSha256": "7425579b04bc36c4c4e606a4ae08ed109d0ad6911a1a5ae8edd0622a503885f2",
+              "excerpt": "《舊唐書·僖宗紀》：五月，製以雁門以北行營節度、忻代蔚朔等州觀察處置等使、檢校尚書左僕射、代州刺史、上柱國、食邑七百戶李克用檢校司空、同平章事兼太原尹、北京留守，充河東節度、管內觀察處置等使。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "八月是本纪所记赴镇时间；授官时间正文记七月，夹注引《旧唐书》记五月。授官与到任分开，不混成同一日。"
+      ]
+    },
+    {
+      "id": "li-keyong-shangyuan-attack",
+      "title": "上源驿遇袭，与朱温结怨",
+      "summary": "追击黄巢后途经汴州，李克用赴朱温所设宴席，当夜住宿的上源驿遭伏兵袭击。他逃回军营，陈景思、史敬思等遇害。随后听从刘夫人劝阻，收兵离开并向朝廷申诉。",
+      "year": 884,
+      "sortOrder": 9,
+      "precision": "month",
+      "sourceDate": "中和四年五月（前段五月记事，接“是月”）",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p14",
+          "originalRevision": 1,
+          "originalSha256": "9ee5aa494e94bacbf7be823c6943f8048a0a0d6c4f7739d9b0791cae0ffe3351",
+          "excerpt": "五月癸亥，大雨震電，平地水深數尺，賊營為水所漂而潰。戊辰，武皇引軍營於中牟，大破賊於王滿渡。庚午，巢賊大至，濟汴而北。是夜，復大雨，賊黨驚潰。武皇營於鄭州，賊眾分寇汴境。武皇渡汴，遇賊將渡而南，半濟擊之，大敗之，臨陣斬賊將李周、王濟安、陽景彪等。是夜，賊大敗，殘眾保於胙縣、冤句。大軍躡之，黃巢乃攜妻子兄弟千餘人東走，武皇追賊至於曹州。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p15",
+          "originalRevision": 1,
+          "originalSha256": "09beb6c7e233d075e9de291a0d0e3c0b21412bf732bc1b5bafe8247d981d4d58",
+          "excerpt": "是月，班師過汴，汴帥迎勞於封禪寺，請武皇休於府第，乃以從官三百人及監軍使陳景思館於上源驛。是夜，張樂陳宴席，汴帥自佐饗，出珍幣侑勸。武皇酒酣，戲諸侍妓，與汴帥握手，敘破賊事以為樂。汴帥素忌武皇，乃與其將楊彥洪密謀竊發，彥洪於巷陌連車樹柵，以扼奔竄之路。時武皇之從官皆醉，俄而伏兵竄發，來攻傳舍。武皇方大醉，噪聲動地，從官十餘人捍賊。侍人郭景銖滅燭扶武皇，以茵幕裹之，匿於床下，以水灑麵，徐曰：「汴帥謀害司空！」武皇方張目而起，引弓抗賊。有頃，煙火四合，復大雨震電，武皇得從者薛鐵山、賀回鶻等數人而去。雨水如澍，不辨人物，隨電光登尉氏門，縋城而出，得還本營。監軍陳景思、大將史敬思並遇害。武皇既還營，與劉夫人相向慟哭。詰旦，欲勒軍攻汴，夫人曰：「司空比為國家討賊，赴東諸侯之急，雖汴人謀害，自有朝廷論列。若反戈攻城，則曲在我也，人得以為辭。」乃收軍而去，馳檄於汴帥。"
+        }
+      ],
+      "notes": [
+        "宴后遇袭和损失按本纪记述；朱温在回信中否认出于本意，也是该段中的当事人说法，不当作已证实的解释。"
+      ]
+    },
+    {
+      "id": "li-keyong-shayuan-battle",
+      "title": "援王重荣，击败朱玫",
+      "summary": "王重荣与田令孜及邠、凤军冲突，向李克用求援。李克用渡河，在沙苑击败朱玫，随后退军河中；僖宗离开京城。",
+      "year": 886,
+      "sortOrder": 10,
+      "precision": "month",
+      "sourceDate": "光启元年十二月（跨西历886年）",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p17",
+          "originalRevision": 1,
+          "originalSha256": "1f3022243390c05054d6e6fad01a2addc7d28ad0d94d53de9daedd75b7a8e361",
+          "excerpt": "既而朱玫引邠、鳳之師攻河中，王重榮出師拒戰。朱玫軍於沙苑，對壘月餘。十二月，武皇引軍渡河，與朱玫決戰，玫大敗，收軍夜遁，入於京師。時京城大駭。天子幸鳳翔，武皇退軍於河中。"
+        }
+      ],
+      "notes": [
+        "光启元年十二月已进入西历886年，年表按886年排列，原书纪年不替换。新史把出奔兴元及进犯京城接叙在同一段，叙事范围较本纪宽。"
+      ]
+    },
+    {
+      "id": "li-keyong-imperial-campaign-against-hedong",
+      "title": "朝廷削爵讨伐，河东军反击",
+      "summary": "在朱温、李匡威、赫连铎等推动下，朝廷削夺李克用官爵，命张浚等讨伐河东。李克用调遣李存孝等反击，夺回潞州，并击败张浚部队。",
+      "year": 890,
+      "sortOrder": 11,
+      "precision": "year",
+      "sourceDate": "大顺元年六月至年末",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p23",
+          "originalRevision": 1,
+          "originalSha256": "48f0e88125b39dabf8ae23058fd1277f5ef3533bae9e6b799760b5d01a697f16",
+          "excerpt": "是時，幽州李匡威、雲州赫連鐸與汴帥協謀，連上表請加兵於太原，宰相張浚、孔緯讚成其事。六月，天子削奪武皇官爵，以張浚為招討使，以京兆尹孫揆為副，華州韓建為行營都虞候，以汴帥為河東南面招討使，幽州李匡威為河東北面招討使，雲州赫連鐸為副。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p25",
+          "originalRevision": 1,
+          "originalSha256": "68028190c4287dd2fcd25998e55cc284b97ccda43e5ec48e9063fe892103c9cb",
+          "excerpt": "九月，汴將葛從周棄潞州而遁，武皇以康君立為潞州節度使，以李存孝為汾州刺史。十月，張浚之師入晉州，遊軍至汾、隰。武皇遣薛鐵山、李承嗣將騎三千出陰地關，營於洪洞，遣李存孝將兵五千，營於趙城。華州韓建以壯士三百人冒犯存孝之營，存孝追擊，直壓晉州西門，張浚之師出戰，為存孝所敗，自是閉壁不出。存孝引軍攻絳州。"
+        }
+      ],
+      "notes": [
+        "战役跨数月，以890年战争发动及主要反击排列，不把段末“十二月”直接换成西历890年末。派部将作战不改写为李克用每场亲自出战。"
+      ]
+    },
+    {
+      "id": "li-keyong-restored-and-yunzhou",
+      "title": "恢复职爵，攻取云州",
+      "summary": "朝廷恢复李克用河东节度使、陇西郡王等职爵。随后他出兵围攻云州，赫连铎兵尽粮竭而逃，李克用平定云州，并上表推荐石善友主持当地军务。",
+      "year": 891,
+      "sortOrder": 12,
+      "precision": "year",
+      "sourceDate": "大顺二年二月恢复职爵、四月至七月攻云州",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p12",
+          "originalRevision": 1,
+          "originalSha256": "23dd8c8139d5f151cab26b00463cfc727f35e282c5dba5b8c17747cd254d9678",
+          "excerpt": "二年二月，復拜克用河東節度使、隴西郡王，加檢校太師兼中書令。四月，攻赫連鐸于雲州，圍之百餘日，鐸走吐渾。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p27",
+          "originalRevision": 1,
+          "originalSha256": "6a38fa5e2794eecc6276f995dc358f8e5f8054c0eb7475c2ad1089d7b4b149d6",
+          "excerpt": "四月，武皇大舉兵討赫連鐸於雲州，遣騎將薛阿檀率前軍以進攻，武皇設伏兵於御河之上，大破之，因塹守其城。七月，武皇進軍柳會，赫連鐸力屈食盡，奔於吐渾部，遂歸幽州，雲州平。武皇表石善友為大同軍防禦使。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史正文及夹注",
+          "sourceDate": "大顺二年正月奏诉后；夹注称二月复拜",
+          "year": 891,
+          "evidence": [
+            {
+              "chapterId": "old-v025",
+              "paragraphId": "old-v025-p26",
+              "originalRevision": 1,
+              "originalSha256": "203f5dc62a0db50d1539a2fb839ee713a787d9c9e28aa99bf43ee4ba98676143",
+              "excerpt": "大順二年春正月，武皇上章申理，其略曰：「臣今身無官爵，名是罪人，不敢歸陛下藩方，且欲於河中寄寓，進退行止，伏候聖裁。」天子尋就加守中書令。〈（《歐陽史》：二月，復拜克用河東節度使、隴西郡王，加檢校太師、兼中書令。）〉"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "旧史正文在正月奏诉后记“寻就加守中书令”，夹注及新史明确二月复拜，官爵恢复的月份沿各书保留。"
+      ]
+    },
+    {
+      "id": "li-keyong-li-cunxiao-executed",
+      "title": "攻下邢州，处死李存孝",
+      "summary": "李存孝在邢州叛离后，李克用持续围攻。李存孝出城认罪，被押回太原处死，邢、洺、磁三州归于李克用一方。",
+      "year": 894,
+      "sortOrder": 13,
+      "precision": "month",
+      "sourceDate": "乾宁元年三月",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p4",
+          "originalRevision": 1,
+          "originalSha256": "1f1007e2c1f1706c8cda4a62c8dd896fb210dab217391869d4bc1793b14d920b",
+          "excerpt": "乾寧元年三月，邢州李存孝出城首罪，縶歸太原，轘於市。邢、洺、磁三州平。武皇表馬師素為邢州節度使。"
+        }
+      ]
+    },
+    {
+      "id": "li-keyong-enter-youzhou",
+      "title": "攻取幽州",
+      "summary": "自乾宁元年冬进攻幽州，李克用军先后击破燕军。李匡俦弃城逃走后，守城大将请降，李存审、刘仁恭奉命入城安抚；乾宁二年二月刘仁恭被任为权幽州留后。",
+      "year": 895,
+      "sortOrder": 14,
+      "precision": "day",
+      "sourceDate": "乾宁元年十二月丙辰（进军幽州，跨西历895年）",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p7",
+          "originalRevision": 1,
+          "originalSha256": "9fc004a56511946e232e9293d5c399a5b74a85d9f3fb0878bcdd942e078d6a67",
+          "excerpt": "丙辰，進軍幽州，其守城大將請降，武皇令李存審與劉仁恭入城撫勞，居人如故，市不改肆，封府庫以迎武皇。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p8",
+          "originalRevision": 1,
+          "originalSha256": "723cb3fa0580ee269c1e1b5a6d9d010c775b432a25d916d51cae0b72b8a5a955",
+          "excerpt": "乾寧二年正月，武皇在幽州，命李存審、劉仁恭徇諸屬郡。二月，以仁恭為權幽州留後，從燕人之請也。"
+        }
+      ],
+      "notes": [
+        "十二月丙辰对应西历895年，因此按895年排列。此条记进入幽州的节点，不把战役始于乾宁元年的十月／十一月改写成西历895年才开战。"
+      ]
+    },
+    {
+      "id": "li-keyong-relieve-zhaozong",
+      "title": "进军关中，平王行瑜之乱",
+      "summary": "凤翔、邠州、华州三镇入京杀害宰辅，李克用从晋阳发兵关中。昭宗出居石门时，他派兵护卫，进攻王行瑜的营寨；王行瑜弃邠州逃走，后被部下杀死。",
+      "year": 895,
+      "sortOrder": 15,
+      "precision": "year",
+      "sourceDate": "乾宁二年六月至十一月",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p9",
+          "originalRevision": 1,
+          "originalSha256": "049c3f09e119b39b1441397891d7327467264bb49bfd2327c8561f091974f5c6",
+          "excerpt": "六月，武皇率蕃漢之師自晉陽趨三輔，討鳳翔李茂貞、邠州王行瑜、華州韓建之亂。先是，三帥稱兵向闕，同弱王室，殺害宰輔。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p11",
+          "originalRevision": 1,
+          "originalSha256": "a633cbd0b30cbed4b260b17207db67fbfa39dc1cacbdc96bfbf7512ebdc85744",
+          "excerpt": "武皇進營渭北，遣史儼將三千騎往石門扈駕，遣李存信、李存審會鄜延之兵攻行瑜之梨園寨。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p13",
+          "originalRevision": 1,
+          "originalSha256": "a87b98936cd688a76360d8143f35e9931416e34addeeab0052f67fb6b51b6760",
+          "excerpt": "武皇收其城，封府庫，遽以捷聞。既而慶州奏，王行瑜將家屬五百人到州界，為部下所殺，傳首闕下。武皇既平行瑜，還軍渭北。"
+        }
+      ],
+      "notes": [
+        "平乱并未消灭李茂贞、韩建；昭宗后来拒绝李克用继续讨伐凤翔的请求。"
+      ]
+    },
+    {
+      "id": "li-keyong-prince-of-jin",
+      "title": "进封晋王",
+      "summary": "平定王行瑜后，昭宗授予李克用“忠贞平难功臣”称号，进封晋王。李克用再次请讨李茂贞未获准，随后班师。",
+      "year": 896,
+      "sortOrder": 16,
+      "precision": "day",
+      "sourceDate": "乾宁二年十二月乙未（旧史，跨西历896年）",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p14",
+          "originalRevision": 1,
+          "originalSha256": "53777657ed342db85e2284a1d3c3bd802f752e087e6562bbacfe7f8ff553861b",
+          "excerpt": "十二月，武皇營於雲陽，候討鳳翔進止。乙未，天子賜武皇為忠貞平難功臣，進封晉王，加實封二百戶。武皇復上表請討李茂貞，天子不允。武皇私謂詔使曰：「觀主上意，疑仆別有他腸，復何言哉！但禍不去胎，憂患未已。」又奏：「臣統領大軍，不敢徑赴朝覲。」遂班師。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史记在十一月平邠州后",
+          "sourceDate": "乾宁二年十一月平邠州之后的接续叙事",
+          "year": 895,
+          "evidence": [
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p13",
+              "originalRevision": 1,
+              "originalSha256": "bc22ccc0103877d717ee3311da9d0320fceccebf79f98374aef72a652f21d084",
+              "excerpt": "十一月，克用擊破邠州，王行瑜走至慶州，見殺。克用還軍雲陽，請擊茂貞，昭宗慰勞克用，使與茂貞解仇以紓難，拜克用「忠正平難功臣」，封晉王。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "旧史十二月乙未对应西历896年。新史把封爵接在十一月平邠州之后，且功臣称号作“忠正平难功臣”，两说并列。晋王是生前王爵，不能写成登皇帝位。"
+      ]
+    },
+    {
+      "id": "li-keyong-huanshui-defeat",
+      "title": "洹水交战，儿子落落被俘",
+      "summary": "救援兖、郓的河东军与魏博发生冲突，李克用随后攻魏。他与汴军在洹水交战，落落被俘，李克用试图救援，也陷于险境，最终退走。",
+      "year": 896,
+      "sortOrder": 17,
+      "precision": "month",
+      "sourceDate": "乾宁三年七月（旧史本纪）",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p15",
+          "originalRevision": 1,
+          "originalSha256": "6ac8a1a05e5ed9f7142bbf7140c8e3ae7739c6c0aad06be5f29018a89c9ae056",
+          "excerpt": "乾寧三年正月，汴人大舉以攻兗、鄆，朱瑄、朱瑾再乞師於武皇，假道於魏州，羅宏信許之。乃令都指揮使李存信將步騎三萬與李承嗣、史儼會軍，以拒汴人。存信軍於莘，與朱瑾合勢，頻挫汴軍，汴帥患之，乃間魏人。存信禦兵無法，稍侵魏之芻牧者，宏信乃與汴帥通，出師三萬攻存信軍。存信揭營而退，保於洺州。三月，武皇大掠相、魏諸邑，攻李固、洹水，殺魏兵萬餘人，進攻魏州。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p16",
+          "originalRevision": 1,
+          "originalSha256": "a6eddb66504e306151f60d80006b16714b69b474ab8f86d1c61b54ab271527db",
+          "excerpt": "七月，車駕幸華州。是月，武皇與汴軍戰於洹水之上，鐵林指揮使落落被擒。落落，武皇之長子也。既戰，馬踣於坎，武皇馳騎以救之，其馬亦踣，汴之追兵將及，武皇背射一發而斃，乃退。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "李存信传记为五月",
+          "sourceDate": "乾宁三年五月",
+          "year": 896,
+          "evidence": [
+            {
+              "chapterId": "old-v053",
+              "paragraphId": "old-v053-p3",
+              "originalRevision": 1,
+              "originalSha256": "fb649e66c6529b55bd7b2d275bef8fde86904ee93d652bdf2e1002b7510862d7",
+              "excerpt": "五月，存信軍於洹水，汴將葛從周、氏叔琮來援魏人，存信與鐵林都將落落遇汴人於洹水南，汴人為陷馬坎以待之，存信戰敗，落落被擒。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "落落在旧史本段被称为长子；其他篇章又称李存勖为长子，保留世系称谓差别，不据年表统一排行。落落被俘月份也有异说。"
+      ]
+    },
+    {
+      "id": "li-keyong-ansai-defeat",
+      "title": "讨刘仁恭，在安塞败退",
+      "summary": "刘仁恭拒绝征调、拘留使者，李克用举兵讨伐。在安塞一带交战后，河东步兵退却，遭燕军乘势进击，于木瓜涧大败。刘仁恭随后遣使谢罪，双方仍有文书往来。",
+      "year": 897,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "乾宁四年八月出兵、九月辛巳交战",
+      "phase": "rivalry",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p19",
+          "originalRevision": 1,
+          "originalSha256": "136139837329b47d458441c32a2543d66d5b7cdfe91509103a35f6b06587a8eb",
+          "excerpt": "七月，武皇復征兵於幽州，劉仁恭辭旨不遜，武皇以書讓之；仁恭捧書謾罵，抵之於地，仍囚武皇之行人。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p19",
+          "originalRevision": 1,
+          "originalSha256": "136139837329b47d458441c32a2543d66d5b7cdfe91509103a35f6b06587a8eb",
+          "excerpt": "辛巳，攻安塞，俄報「燕將單可及領騎軍至矣。」武皇方置酒高會，前鋒又報「賊至矣」！武皇曰：「仁恭何在？」曰：「但見可及輩。」武皇張目怒曰：「可及輩何足為敵！」仍促令出師。燕軍已擊武皇軍寨，武皇乘醉擊賊，燕軍披靡。時步兵望賊而退，為燕軍所乘，大敗於木瓜澗。俄而大風雨震電，燕軍解去，武皇方醒。甲午，師次代州，劉仁恭遣使謝罪於武皇，武皇亦以書報之，自此有檄十餘返。"
+        }
+      ]
+    },
+    {
+      "id": "li-keyong-hezhong-lost",
+      "title": "河中失守，援唐通路受阻",
+      "summary": "朱温部将先攻取晋州、绛州，再逼河中。王珂及李克用的女儿请求救援，李克用因道路受阻、兵力悬殊而未能赴援；王珂降朱温，河东此后难以再直接援助京师。",
+      "year": 901,
+      "sortOrder": 19,
+      "precision": "month",
+      "sourceDate": "天复元年正月至三月",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p26",
+          "originalRevision": 1,
+          "originalSha256": "09e38d2cbe03a82d1f804a532c8c0812cd06f150420e61d73e183fc78e682909",
+          "excerpt": "天復元年正月，汴將張存敬攻陷晉、絳二州，以兵二萬屯絳州，以扼援路。二月，張存敬迫河中，王珂告急於武皇，使者相望於路。邠國夫人，武皇愛女也，亦以書至，懇切求援。武皇報曰：「賊阻道路，眾寡不敵，救爾即與爾兩亡，可與王郎棄城歸朝。」珂遂送款於張存敬。三月，汴帥自大梁至河中，王珂遂出迎，尋徙於汴。天子以汴帥兼鎮河中，武皇自是不復能援京師，霸業由是中否。"
+        }
+      ],
+      "notes": [
+        "此处的“未能援京师”沿本纪对局势的概括，不推成李克用从此再无对外军事行动。"
+      ]
+    },
+    {
+      "id": "li-keyong-defend-jinyang",
+      "title": "蒲县战败，坚守晋阳",
+      "summary": "周德威、李嗣昭在蒲县战败后，汴军乘胜围攻晋阳。李克用一度考虑弃城北走，在李嗣昭等及刘氏劝阻下留下守城；李嗣昭、李嗣源夜袭汴军，汴军最终撤退。",
+      "year": 902,
+      "sortOrder": 20,
+      "precision": "day",
+      "sourceDate": "天复二年三月戊午至丁卯（旧史）",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p30",
+          "originalRevision": 1,
+          "originalSha256": "7da8c44adfe6776dbff83b22f67677700d53724a3d63f739ecc283916d343b80",
+          "excerpt": "戊午，氏叔琮率軍來戰，德威逆擊，為汴人所敗，兵仗、輜車委棄殆盡。朱友寧長驅至汾州，慈、隰二州復為汴人所據。辛酉，汴軍營於晉陽之西北，攻城西門，周德威、李嗣昭緣山保其餘眾而旋。武皇驅丁壯登陴拒守，汴軍攻城日急；武皇召李嗣昭、周德威等謀將出奔雲州，嗣昭以為不可。李存信堅請且入北蕃，續圖進取，嗣昭等固爭之，太妃劉氏亦極言於內，乃止。居數日，亡散之士復集，軍城稍安。李嗣昭與李嗣源夜入汴軍，斬將搴旗，敵人扞禦不暇，自相驚擾。丁卯，朱友寧燒營而遁，周德威追至白壁關，俘斬萬計，因收復慈、隰、汾等三州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史对解围原因的叙述",
+          "sourceDate": "天复二年",
+          "year": 902,
+          "evidence": [
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p18",
+              "originalRevision": 1,
+              "originalSha256": "d3c51ecc119effb97e8253484132a07af9f4c71f108dd62f850e115b416dc120",
+              "excerpt": "二年，進攻晉、絳，大敗于蒲縣，梁軍乘勝破汾、慈、隰三州，遂圍太原。克用大懼，謀出奔雲州，又欲奔匈奴，未決，梁軍大疫，解去，周德威復取汾、慈、隰三州。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "新史也记蒲县败及太原被围，强调梁军疫病后解围；旧史同时叙述夜袭、坚守及追击，不删去各自解释。"
+      ]
+    },
+    {
+      "id": "li-keyong-khitan-alliance",
+      "title": "与契丹阿保机结盟",
+      "summary": "李克用与契丹阿保机在云州会面，相约结为兄弟，并约定合兵南下。会盟年份各书记载不同，这里以现存新旧五代史本纪的905年排列。",
+      "year": 905,
+      "sortOrder": 21,
+      "precision": "year",
+      "sourceDate": "天祐二年春（旧史）；新史作天复五年",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p33",
+          "originalRevision": 1,
+          "originalSha256": "df44a3e34cf137e9cf3ded140d21d4f80708a602c6d394a4374e229976e11f36",
+          "excerpt": "天祐二年春，契丹安巴堅始盛，武皇召之，安巴堅領部族三十萬至雲州，與武皇會於雲州之東，握手甚歡，結為兄弟，旬日而去，留馬千匹，牛羊萬計，期以冬初大舉渡河。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p20",
+          "originalRevision": 1,
+          "originalSha256": "c7680f3aaf4737748c5815a1f7cd116e8f19f7aa60373181f5afe346ff205924",
+          "excerpt": "五年，會契丹阿保機於雲中，約為兄弟。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴及考异采用907年",
+          "sourceDate": "天祐四年（考异）；通鉴开平元年记“是岁”",
+          "year": 907,
+          "evidence": [
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p31",
+              "originalRevision": 1,
+              "originalSha256": "f6bbafc11f0579e6362491d16927f825b24d75376082744b521925807d7672ab",
+              "excerpt": "是歲，阿保機帥眾三十萬寇雲州，晉王與之連和，面會東城，約為兄弟，延之帳中，縱酒，握手盡歡，約以今冬共擊梁。"
+            },
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p11",
+              "originalRevision": 1,
+              "originalSha256": "b117a1205751d6ef83fc9a0e7965709d730a1af19d7bb0825388af880d7f3af7",
+              "excerpt": "按雲州之㑹莊宗列傳薛史皆在天祐四年而紀年錄獨在天祐二年又云約今年冬同收汴洛㑹昭宗遇盜而止如此則應在天祐元年昭宗崩已前不應在二年也且昭宗遇盜則尤宜興兵討之何故止也按武皇云唐室為賊臣所篡此乃四年語也其冬武皇寢疾蓋以此不果出兵耳今從之〉"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《通鉴》将会盟放在907年，《考异》明确采用天祐四年的说法；它所引薛史的年代与当前归档本纪又不相同。保留版本和取舍差别，不能据此制作唯一确定的会盟年。"
+      ]
+    },
+    {
+      "id": "li-keyong-yan-lu-campaign",
+      "title": "联燕救沧，进攻泽潞",
+      "summary": "面对朱温围攻沧州，李克用接受刘仁恭的求援，征调燕军，并派周德威、李嗣昭会合燕军进攻泽州、潞州。丁会后来迎降，李嗣昭接掌潞州；归降月份各篇有差异。",
+      "year": 906,
+      "sortOrder": 22,
+      "precision": "month",
+      "sourceDate": "天祐三年九月起（联合出兵）；潞州归降月份有异说",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p34",
+          "originalRevision": 1,
+          "originalSha256": "f09735945726db440ea778856b6eb40eb5ac018e28ce3da17dfbd1d4fd0d3a07",
+          "excerpt": "九月，汴帥親率兵攻滄州，幽州劉仁恭遣使來乞師，武皇乃征兵於仁恭，將攻潞州，以解滄州之圍。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p34",
+          "originalRevision": 1,
+          "originalSha256": "f09735945726db440ea778856b6eb40eb5ac018e28ce3da17dfbd1d4fd0d3a07",
+          "excerpt": "仁恭遣掌書記馬鬱、都指揮使李溥等將兵三萬，會於晉陽，武皇遣周德威、李嗣昭合燕軍以攻澤、潞。十二月，潞州節度使丁會開門迎降，命李嗣昭為潞州節度使，以丁會歸於晉陽。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "李嗣昭传记十一月降丁会",
+          "sourceDate": "天祐三年十一月",
+          "year": 906,
+          "evidence": [
+            {
+              "chapterId": "old-v052",
+              "paragraphId": "old-v052-p7",
+              "originalRevision": 1,
+              "originalSha256": "da56b3218f2e51635deb149fe2621131039ba984610ff8bf0a570fa734473f8d",
+              "excerpt": "天祐三年，汴人攻滄、景，劉仁恭遣使求援。十一月，嗣昭合燕軍三萬進攻潞州，降丁會，武皇乃以嗣昭為昭義節度使。"
+            }
+          ]
+        },
+        {
+          "label": "武皇纪记十二月归降",
+          "sourceDate": "天祐三年十二月",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p34",
+              "originalRevision": 1,
+              "originalSha256": "f09735945726db440ea778856b6eb40eb5ac018e28ce3da17dfbd1d4fd0d3a07",
+              "excerpt": "十二月，潞州節度使丁會開門迎降，命李嗣昭為潞州節度使，以丁會歸於晉陽。"
+            }
+          ]
+        },
+        {
+          "label": "梁太祖纪夹注引旧唐书记十二月戊辰",
+          "sourceDate": "天祐三年十二月戊辰（归档夹注原文未书闰）",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p18",
+              "originalRevision": 1,
+              "originalSha256": "d053ebd1ec22f1c800bb520b37eae8988eb1e314a5306787f84f4c7697b783be",
+              "excerpt": "據《舊唐書·哀帝紀》：戊辰，李克用與幽州之眾同攻潞州，全忠守將丁會以澤、潞降太原，克用以其子嗣昭為留後。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "906年标示联合出兵的年份，不将整个战役及归降强压成同一日。旧史本纪记十二月，其传记记十一月；十二月本身跨至907年，现存夹注还有十二月戊辰的纪日，保留疑点不擅补闰字。"
+      ]
+    },
+    {
+      "id": "li-keyong-refuse-liang",
+      "title": "唐亡后仍奉唐朝纪年",
+      "summary": "朱温代唐建立梁，李克用继续使用天祐纪年。王建劝他各自称帝，待击败朱温后再寻唐宗室复位，他在回信中拒绝，表示不愿失节。",
+      "year": 907,
+      "sortOrder": 23,
+      "precision": "year",
+      "sourceDate": "天祐四年四月及是岁（旧史）；通鉴开平元年",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p25",
+          "originalRevision": 1,
+          "originalSha256": "396110d627b7eb7056bcc7283837c7321a9b1e4eded92622b0fc924dcb1895e5",
+          "excerpt": "是時，惟河東、鳳翔、淮南稱「天祐」，西川稱「天復」年號。餘皆稟梁正朔，稱臣奉貢。蜀王與弘農王移檄諸道，云欲與岐王、晉王會兵興復唐室，卒無應者。蜀王乃謀稱帝，下教諭統內吏民；又遺晉王書云：「請各帝一方，俟朱溫既平，乃訪唐宗室立之，退歸籓服。」晉王復書不許，曰：「誓於此生靡敢失節。」"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p22",
+          "originalRevision": 1,
+          "originalSha256": "69a1c49fefa880b66e9b4a9c75c81c7597c9fa807abaf2dcde60b36fa3ca82cd",
+          "excerpt": "是歲，梁滅唐，克用復稱天祐四年。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史对王建来书的概述",
+          "sourceDate": "天祐四年，是岁",
+          "year": 907,
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p35",
+              "originalRevision": 1,
+              "originalSha256": "cd81e6536bdfc58de00587a9a232e0329ccf5f5e1c1df8e102b5396afe68b52f",
+              "excerpt": "是歲，四川王建遣使至，勸武皇各王一方，俟破賊之後，訪唐朝宗室以嗣帝位，然後各歸藩守。武皇不從，以書報之曰："
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "旧史概述王建来书作“各王一方”，《通鉴》作“请各帝一方”，保留文字差别；李克用拒绝称帝的结论与其生前晋王身份一致。"
+      ]
+    },
+    {
+      "id": "li-keyong-rescue-luzhou",
+      "title": "遣军救潞州，夹寨相持",
+      "summary": "后梁大军围潞州并筑夹寨。李克用派周德威等赴援，袭击梁军及运输通道，双方长期相持；他未及见到解围，冬季便已患病。",
+      "year": 907,
+      "sortOrder": 24,
+      "precision": "month",
+      "sourceDate": "天祐四年五月围潞、冬十月患病（旧史）",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p39",
+          "originalRevision": 1,
+          "originalSha256": "91553374d1f284fdbd39d3aa9890d93b86e6be6f4e0066ae244c80cbb5982933",
+          "excerpt": "五月，梁祖遣其將康懷英率兵十萬圍潞州，懷英驅率士眾，築壘環城，城中音信斷絕。武皇遣周德威將兵赴援，德威軍於餘吾，率先鋒挑戰，日有俘獲，懷英不敢即戰。梁祖以懷英無功，乃以李思安代之。思安引軍將營於潞城，周德威以五千騎搏之，梁軍大敗，斬首千餘級。思安退保堅壁，別築外壘，謂之「夾塞」，以抗我之援軍。梁祖調發山東之民以供饋運，德威日以輕騎掩之，運路艱阻，眾心益恐。李思安乃自東南山口築夾道，連接夾寨，以通饋運，自是梁軍堅保夾塞。"
+        },
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p40",
+          "originalRevision": 1,
+          "originalSha256": "c4db449f3f586b888ebb64d70aa376f144ad858b2156ae256fd736591e9f3f8d",
+          "excerpt": "冬十月，武皇有疾，"
+        }
+      ],
+      "notes": [
+        "此条只记李克用生前的派兵与围城阶段。908年破夹寨由继任晋王李存勖完成，不归给李克用。城墙自坏的占候叙述不作为患病原因。"
+      ]
+    },
+    {
+      "id": "li-keyong-death-and-succession",
+      "title": "卒于晋阳，李存勖继晋王位",
+      "summary": "李克用在晋阳病逝，史书记年五十三。他临终托付将领拥立李存勖，并嘱咐继任者尽快救援潞州；李存勖随后承袭河东节度使、晋王。",
+      "year": 908,
+      "sortOrder": 25,
+      "precision": "day",
+      "sourceDate": "天祐五年正月辛卯",
+      "phase": "late",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p41",
+          "originalRevision": 1,
+          "originalSha256": "96d941a29b89fa8b41c8811d4dbdf76e9d423309dddfbcc8859fa6266df179ce",
+          "excerpt": "天祐五年正月戊子朔，武皇疾革。辛卯，崩於晉陽，年五十三。遣令薄葬，發喪後二十七日除服。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p69",
+          "originalRevision": 1,
+          "originalSha256": "a34fa161113b42ea402c034a52121255ca0dc06d8a7e4821ed74d95ac2bc1659",
+          "excerpt": "晉王命其弟內外蕃漢都知兵馬使、振武節度使克寧、監軍張承業、大將李存璋、吳珙、掌書記盧質立其子晉州刺史存勖為嗣，曰：「此子志氣遠大，必能成吾事，爾曹善教導之！」辛卯，晉王謂存勖曰：「嗣昭厄於重圍，吾不及見矣。俟葬畢，汝與德威輩速竭力救之！」又謂克寧等曰：「以亞子累汝！」亞子，存勖小名也。言終而卒。克寧綱紀軍府，中外無敢喧嘩。克寧久總兵柄，有次立之勢，時上黨圍未解，軍中以存勖年少，多竊議者，人情忷忷。存勖懼，以位讓克寧。克寧曰：「汝冢嗣也，且有先王之命，誰敢違之！」將吏欲謁見存勖，存勖方哀哭未出。張承業入謂存勖曰：「大孝在不墜基業，多哭何為！」因扶存勖出，襲位為河東節度使、晉王。"
+        }
+      ],
+      "notes": [
+        "这里的承袭是河东军镇及晋王位，李存勖直到923年才登皇帝位。三矢故事在《五代史阙文》明称“世传”，《考异》亦质疑，未写入此条的确定遗命。五十三为史书年龄记法，不替换成现代周岁。"
+      ]
+    },
+    {
+      "id": "li-keyong-posthumous-emperor",
+      "title": "身后追尊为后唐太祖",
+      "summary": "李存勖建立后唐后，在同光元年闰四月追尊父亲李克用为武皇帝，庙号太祖，并建立宗庙。李克用生前终为晋王，未实际登皇帝位。",
+      "year": 923,
+      "sortOrder": 26,
+      "precision": "month",
+      "sourceDate": "同光元年闰四月",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p24",
+          "originalRevision": 1,
+          "originalSha256": "d0431ecfad88732b3925fc872e84a266ee400cfcf944aa13c2d503bac8b6347c",
+          "excerpt": "是月，追尊曾祖蔚州太保為昭烈皇帝，廟號懿祖；夫人崔氏曰昭列皇后。追尊皇祖代州太保為文景皇帝，廟號獻祖；夫人秦氏曰文景皇后。追尊皇考河東節度使、太師、中書令、晉王為武皇帝，廟號太祖。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p21",
+          "originalRevision": 1,
+          "originalSha256": "29a8bc8f0aebe21c70fb6b7941762541e5d4010bde7056ab03b29bcdd1617288",
+          "excerpt": "太祖武皇帝諱克用，〈文皇帝第一子，母曰文景皇后秦氏。〉同光元年閏四月追尊武皇帝，廟號太祖，葬建極陵。"
+        }
+      ],
+      "notes": [
+        "明确标为身后追尊，不把923年当作李克用生前在位年份。世系排行在《会要》与武皇纪不同，本事件只据其追尊年月、帝号、庙号，不据此统一排行。"
+      ]
+    }
+  ]
+}

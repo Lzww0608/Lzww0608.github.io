@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { importLibrary } from './import-library.mjs';
 import { importPersonPassages, ensurePersonPassageSchema, PersonPassageSourceMismatchError } from './import-person-passages.mjs';
+import { ensurePersonTimelineSchema } from './import-person-timelines.mjs';
 const books = JSON.parse(readFileSync(new URL('../data/initial-excerpts.json', import.meta.url), 'utf8'));
 import { loadConfig } from '../src/config.mjs';
 import { adminDatabase } from './runtime.mjs';
@@ -12,6 +13,7 @@ export async function seed(client) {
   await client.query(readFileSync(new URL('../db/005-sentence-translations.sql', import.meta.url), 'utf8'));
   await client.query(readFileSync(new URL('../db/006-owner-reviews.sql', import.meta.url), 'utf8'));
   await ensurePersonPassageSchema(client);
+  await ensurePersonTimelineSchema(client);
   for (const book of books) {
     await client.query('INSERT INTO books (id,title,author,description,source_url,published) VALUES ($1,$2,$3,$4,$5,true) ON CONFLICT DO NOTHING', [book.id, book.title, book.author, book.description, book.url]);
     await client.query('INSERT INTO editions (id,book_id,label,source_note) VALUES ($1,$2,$3,$4) ON CONFLICT DO NOTHING', [`${book.id}-wikisource`, book.id, '维基文库整理文本', '公版古籍节选；现代整理、夹注及页面内容的授权以来源页面说明为准。保留来源链接。']);

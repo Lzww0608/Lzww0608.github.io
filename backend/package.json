@@ -23,6 +23,7 @@
     "translations:export": "node scripts/export-published-translations.mjs",
     "editor:setup": "node scripts/setup-editor.mjs",
     "passages:import": "node scripts/import-person-passages.mjs",
+    "timelines:import": "node scripts/import-person-timelines.mjs",
     "sentences:import": "node scripts/import-sentence-translations.mjs",
     "reviews:import": "node scripts/import-review-items.mjs",
     "reviews:correct": "node scripts/apply-review-corrections.mjs",

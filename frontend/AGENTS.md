@@ -1,5 +1,7 @@
 # Prototype Instructions
 
+人物年表只给实际保存且验证通过的个人文档派生入口，当前李克用、李存勖共52条，全球导航继续只有人物。复用PersonTimeline、安全内部路由、共用Loader及可收起年度目录；出处定位真实原段并返回原事件。西历年和原书记日精度分开，异说分别显示。所有主证及异说须绑定当前原文且有匹配的已发布完整译文，任一失效暂停整事件；空或无效API响应不被旧静态副本恢复。prebuild生成入口摘要及最小公开副本，维护繁简、三种配色、窄屏、默认收起全文和精确句译，无年表人物不造入口。数据更新执行根目录同批隔离导入、部署及备份要求。
+
 Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
 
 Before making substantial visual changes, use the Product Design plugin's `get-context` skill when the visual source is unclear or no longer matches the current goal. When the user gives durable prototype-specific design feedback, preferences, or decisions, record them in `AGENTS.md`.

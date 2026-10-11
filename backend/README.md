@@ -135,6 +135,16 @@ npm run content -- original old-1-p1 /absolute/path/original.txt
 
 ## API
 
+### 人物年表维护
+
+`content/person-timelines/<personId>.json` 保存已核对事件、原书记日及异说，只引用现有章节、稳定段落、修订、SHA-256和连续原文，不复制或裁切全文译文。李克用与李存勖当前各26条，共52条，覆盖当前归档中所选重要事件。`year` 为排序用西历年，`precision` 是原书记年／月／日的粒度；跨年另核历表，不从年号直接推断西历，不把不存在日期的工具回退用于改底本。
+
+`007-person-timelines.sql` 只增加独立 `person_timelines` 索引表，reader仅SELECT，editor无直接权限。新库 `seed` 创建表，已有库更新须先做本机与私有baseline备份，在实际dump的独立恢复库验证同一份最终稿后执行 `npm run timelines:import`。整批在事务内核对当前公开原文，失败全部回滚，重复导入幂等，原文、全文与句译、校订历史及人物片段不因年表导入改写。
+
+`GET /api/people/:personId/timeline` 以一条SQL解析主证及异说，返回当前匹配原文和最新已发布全文译文，草稿不公开。任一证据失效、章节撤回或缺配套译文时暂停整条并计入 `unavailableCount`；未建年表人物返回404。接口仅GET／HEAD／OPTIONS，不接受查询参数。空或无效API结果不被旧静态副本恢复，只有API离线才读取经过相同检查的随站年表及章节副本。
+
+前端prebuild生成入口摘要和最小公开副本，`#person-timeline/:personId?event=<stableId>` 可直达已登记事件。来源复用Reader按原段定位并携带合法内部返回，完整译文仍默认收起，点击句译继续使用共用组件。完成主项目检查和提交后，按既有私有仓库备份流程保存索引表与已提交资料，并独立构建、发布及在线核对。新机器恢复 `--no-acl` 后重施007只读权限，同时保留006私有校核表最小权限。
+
 | 请求 | 返回 |
 | --- | --- |
 | `GET /api/health` | API 与数据库状态 |
