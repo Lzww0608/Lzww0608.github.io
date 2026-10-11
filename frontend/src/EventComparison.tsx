@@ -143,7 +143,7 @@ export function EventComparison({ document, route, stageId, returnTo, go, onRead
     <div className="comparison-breadcrumbs"><button type="button" onClick={() => go('people')}><ArrowLeft size={14} aria-hidden="true" />人物</button><span aria-hidden="true">/</span><span>{document.title}</span></div>
     {returnTo && <button type="button" className="comparison-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnTimeline ? `${returnTimeline.person.name}年表` : '来源页面'}</button>}
     <header className="comparison-heading"><div><h1>{document.title}</h1><p className="comparison-date">{document.dateLabel}</p></div><p>{document.summary}</p></header>
-    <p className="comparison-scope">按战事阶段并列当前归档中的相关段落。各书保留完整原文与白话译文；阶段分组用于对读，不表示各书叙事逐句对应。完整原段可能包含前后其他史事，请依阶段说明区分，不把整段都视为柏乡当日。</p>
+    <p className="comparison-scope">按战事阶段并列当前归档中的相关段落。各书保留完整原文与白话译文；阶段分组用于对读，不表示各书叙事逐句对应。完整原段可能包含前后其他史事，请依阶段说明区分，不把整段都视为本次战事当日。</p>
     <div className="comparison-load-status" role="status">
       {readState === 'loading' && '正在核对各书原文与译文…'}
       {readState === 'error' && <><span>当前对读资料无法打开。</span><button type="button" onClick={() => setRetry(value => value + 1)}>重试</button></>}

@@ -142,3 +142,5 @@
   .people-header .header-search { border-left:0; padding-left:0; }
 }
 @media(max-width:560px) { .people-header { gap:10px; } .people-view-switch { gap:22px; } .people-view-switch button { font-size:18px; } }
+
+.people-comparison-links, .person-comparison-links { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px 24px; }

@@ -73,7 +73,7 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   return <section className="page-shell">
     <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝、十国 {tenKingdomRulers.length} 位君主{historicalLeaders.length > 0 && `、${historicalLeaders.map(person => person.name).join('、')}等历史主将`}及{personTopics.map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</p></div>
     <div className="people-view-switch" role="group" aria-label="人物浏览方式"><button aria-pressed={view === 'list'} onClick={() => onViewChange('list')}>人物名单</button><button aria-pressed={view === 'graph'} onClick={() => onViewChange('graph')}>关系图</button></div>
-    {view === 'list' && <p className="small-note">史料对读：{eventComparisons.map(document => <a className="text-link" key={document.id} href={`#${eventComparisonRoute(document.id)}`}>{document.title} <ArrowRight size={17} /></a>)}</p>}
+    {view === 'list' && <p className="small-note people-comparison-links"><span>史料对读：</span>{eventComparisons.map(document => <a className="text-link" key={document.id} href={`#${eventComparisonRoute(document.id)}`}>{document.title} <ArrowRight size={17} /></a>)}</p>}
     {view === 'graph' ? <PeopleRelationshipGraph people={people} selectedPersonId={focusPersonId} onSelectPerson={onSelectPerson} onOpenPerson={person => openPerson(person)} onReadSource={onReadSource} /> : <>
     <div className="person-group-filter" role="group" aria-label="按人物专题筛选">{personGroups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setDynasty('全部'); }}>{group.label}</button>)}</div>
     {groupId === 'ten-kingdoms-rulers' && <div className="person-group-context"><h2>十国君主</h2><p>包含称帝、称王的实际统治者及闽末局部被拥立的争位者，具体身份见各条目；按所属政权分别整理，南平亦称荆南。在位年份表示统治时期，不是生卒年。</p></div>}
@@ -88,6 +88,7 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
 function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPerson; onViewRelationships: (id: string) => void; go: Navigate }) {
   const relations = personTopicRelationships(person);
   const topics = topicsForPerson(person);
+  const comparisons = comparisonsForPerson(person.id);
   return <div className="detail-panel">
     <span className="eyebrow">{personDisplayPeriod(person)} · {person.role}</span><h2>{person.name}</h2>
     {person.reign && <p className="person-reign">在位 {person.reign}</p>}
@@ -102,7 +103,7 @@ function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPer
     {person.sources && person.sources.length > 0 && <details className="person-references"><summary>条目来源</summary><ul>{person.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details>}
     <button className="text-link person-relationship-link" onClick={() => onViewRelationships(person.id)}>查看人物关系 <ArrowRight size={18} /></button>
     {hasPersonTimeline(person.id) && <button className="text-link person-timeline-link" onClick={() => go(personTimelineRoute(person.id))}>查看人物年表 <ArrowRight size={18} /></button>}
-    {comparisonsForPerson(person.id).map(document => <button className="text-link" key={document.id} onClick={() => go(eventComparisonRoute(document.id))}>{document.title} · 多史料对读 <ArrowRight size={18} /></button>)}
+    {!!comparisons.length && <div className="person-comparison-links">{comparisons.map(document => <button className="text-link" key={document.id} onClick={() => go(eventComparisonRoute(document.id))}>{document.title} · 多史料对读 <ArrowRight size={18} /></button>)}</div>}
     <h3>相关原文与译文</h3><RelatedSources personId={person.id} go={go} />
     {!!personPassageBooks(person.id).length && <button className="text-link" onClick={() => go(personSourcesRoute(person.id))}>汇总全部文献记载 <ArrowRight size={18} /></button>}
   </div>;

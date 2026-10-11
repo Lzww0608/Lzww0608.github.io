@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "id": "huliu",
+  "title": "胡柳陂之战",
+  "summary": "围绕行台对峙与杀将、初战辎重溃乱、夺山再战和战后影响，并列六部已归档史料的相关完整原段与已发布译文。分辨纪日、阵位、人物行动与战果口径；《资治通鉴考异》仅补任职年代考证。仅承诺当前归档选取范围。",
+  "dateLabel": "战前相持始于918年；胡柳决战在919年初，原书记贞明四年／天祐十五年十二月；战后延续另列",
+  "personIds": [
+    "li-cunxu",
+    "zhou-dewei",
+    "fu-cunshen",
+    "li-siyuan",
+    "li-congke",
+    "li-sizhao",
+    "shi-jingtang",
+    "wang-jianji",
+    "yan-bao",
+    "yuan-jianfeng",
+    "li-cunjin",
+    "he-gui",
+    "zhu-youzhen"
+  ],
+  "sources": [
+    {
+      "id": "old-v028-p31",
+      "label": "庄宗纪 · 阅兵、麻家渡对峙与轻骑遇险",
+      "bookId": "old",
+      "chapterId": "old-v028",
+      "paragraphId": "old-v028-p31",
+      "originalRevision": 1,
+      "originalSha256": "1beeadcda8cfd2ea74427be47b573db1652d4b5b7d4b829d71370181d8ac0131"
+    },
+    {
+      "id": "old-v009-p26",
+      "label": "梁末帝纪 · 杀将诏书、两次胜负及京城戒严",
+      "bookId": "old",
+      "chapterId": "old-v009",
+      "paragraphId": "old-v009-p26",
+      "originalRevision": 1,
+      "originalSha256": "e62ae402c0e7a6b48b3ba3c64a47ace0b828f8b49a0017ec2180e2f243ca08fb"
+    },
+    {
+      "id": "old-v028-p32",
+      "label": "庄宗纪 · 进军胡柳、夺山再战及巡场",
+      "bookId": "old",
+      "chapterId": "old-v028",
+      "paragraphId": "old-v028-p32",
+      "originalRevision": 1,
+      "originalSha256": "ee190d1fa8b14875fe4fd2d3718195b8df537990cafe41ed02c69c40ef850387"
+    },
+    {
+      "id": "old-v023-p15",
+      "label": "贺瑰传 · 行台至胡柳（兼录前后诸年）",
+      "bookId": "old",
+      "chapterId": "old-v023",
+      "paragraphId": "old-v023-p15",
+      "originalRevision": 1,
+      "originalSha256": "2c4ff0bc26237f5eac5196724fb5c46500d1deac9eec4cfedf5f2ce38f5d76e0"
+    },
+    {
+      "id": "new-v03-p32",
+      "label": "梁本纪 · 十二月杀将与癸亥败绩",
+      "bookId": "new",
+      "chapterId": "new-v03",
+      "paragraphId": "new-v03-p32",
+      "originalRevision": 1,
+      "originalSha256": "d8e028700cf355cc2b4780d9e6efdbc4000f214e0aba2e66514209bb402bc70d"
+    },
+    {
+      "id": "new-v05-p7",
+      "label": "庄宗纪 · 胡柳及德胜（兼录十四至十七年）",
+      "bookId": "new",
+      "chapterId": "new-v05",
+      "paragraphId": "new-v05-p7",
+      "originalRevision": 1,
+      "originalSha256": "cf1127fda1f615476cbad1ec320ec24f34918d92be061a22f34658df30c15a84"
+    },
+    {
+      "id": "new-v23-p18",
+      "label": "贺瑰传 · 辎重溃乱、无石山再战与德胜后事",
+      "bookId": "new",
+      "chapterId": "new-v23",
+      "paragraphId": "new-v23-p18",
+      "originalRevision": 1,
+      "originalSha256": "a4a7a55d3e86e50347c3caf3e9be96207ed1e5b44be13b8036b8d9c9234fbc19"
+    },
+    {
+      "id": "tongjian-v270-p59",
+      "label": "编年 · 十二月进军（段首另述吴国政事）",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p59",
+      "originalRevision": 1,
+      "originalSha256": "72cef2b12b96533789bb5f7a929e62b4f9fddb2da363d0c553711eb7be1b4e5e"
+    },
+    {
+      "id": "tongjian-v270-p60",
+      "label": "编年 · 贺瑰与谢彦章之争及朱珪受赏",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p60",
+      "originalRevision": 1,
+      "originalSha256": "c1be56f41983134638dbdbba050fa70ddf385fc0f4d3a7ca936b2a16f3eadbf6"
+    },
+    {
+      "id": "tongjian-v270-p61",
+      "label": "编年 · 谋袭大梁、德威劝止与毁营进军",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p61",
+      "originalRevision": 1,
+      "originalSha256": "15cf3bd151f9a848680e557610c17324b25fa35ba10f67a009d24ea971b01d2a"
+    },
+    {
+      "id": "old-v053-p10",
+      "label": "李存进传 · 军职与胡柳参战总记",
+      "bookId": "old",
+      "chapterId": "old-v053",
+      "paragraphId": "old-v053-p10",
+      "originalRevision": 1,
+      "originalSha256": "884aa2ef1ce3c43b19e819a3d8ce7dd2167ccbadd9cca1efd2aae2f63ee2d26e"
+    },
+    {
+      "id": "old-v061-p13",
+      "label": "袁建丰传 · 相州军参战及返军平乱",
+      "bookId": "old",
+      "chapterId": "old-v061",
+      "paragraphId": "old-v061-p13",
+      "originalRevision": 1,
+      "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c"
+    },
+    {
+      "id": "new-v25-p49",
+      "label": "袁建丰传 · 胡柳出征期间的相州叛乱",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p49",
+      "originalRevision": 1,
+      "originalSha256": "da6ef855b7de0bc93697155dfe77ad1994fb3cbec9a538f3f9298f82784827ca"
+    },
+    {
+      "id": "kaoyi-v029-p14",
+      "label": "相州任职考证 · 胡柳仅作年代旁证",
+      "bookId": "kaoyi",
+      "chapterId": "kaoyi-v029",
+      "paragraphId": "kaoyi-v029-p14",
+      "originalRevision": 1,
+      "originalSha256": "a7b825ac28359947d5dea839d67482456d2dcff1991c8e91cc7cc02a90fe5b49"
+    },
+    {
+      "id": "old-v056-p10",
+      "label": "周德威传 · 宿营、劝止出战、军乱与战死",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p10",
+      "originalRevision": 1,
+      "originalSha256": "94127ab33233f87c5b54975c6c852cbd696734d37b62c59740fcb3a7bfd1a4ac"
+    },
+    {
+      "id": "new-v25-p8",
+      "label": "周德威传 · 持重之策、战死与身后追赠",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p8",
+      "originalRevision": 1,
+      "originalSha256": "c38613e9a1bc5e5c6bcb9c599941b8a133bc2dfbaf5937b4f74d31ad6c7bc89c"
+    },
+    {
+      "id": "tongjian-v270-p63",
+      "label": "编年 · 壬戌宿营、癸亥初战与幽州军乱",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p63",
+      "originalRevision": 1,
+      "originalSha256": "acc070ac1933b5db8ba2c2a28ff7de08cb14149e4873242fd924d865d846be0c"
+    },
+    {
+      "id": "old-v046-p1",
+      "label": "唐末帝纪 · 李从珂护王夺山与嗣源渡河",
+      "bookId": "old",
+      "chapterId": "old-v046",
+      "paragraphId": "old-v046-p1",
+      "originalRevision": 1,
+      "originalSha256": "8c5f29a059360098c3aaa74a187499ebd6d78b4849a286e1d9a70cd374d91585"
+    },
+    {
+      "id": "old-v075-p4",
+      "label": "晋高祖纪 · 石敬瑭从李嗣源反击的另一叙法",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p4",
+      "originalRevision": 1,
+      "originalSha256": "d49ae5e963851e428426262be8027b9d407f2727b168c997bf6dd48228dd65b1"
+    },
+    {
+      "id": "new-v08-p2",
+      "label": "晋本纪 · 石敬瑭率左射军从明宗复击",
+      "bookId": "new",
+      "chapterId": "new-v08",
+      "paragraphId": "new-v08-p2",
+      "originalRevision": 1,
+      "originalSha256": "7554d1f7a6f65edea8158ea20ee1c713553e2c371251e59090b4672eceb3630a"
+    },
+    {
+      "id": "old-v056-p17",
+      "label": "符存审传 · 胡柳父子血战（保留十四年续叙）",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p17",
+      "originalRevision": 1,
+      "originalSha256": "d33c13cc0e26072903e1b90dcf7c820ce942e626a91348757f5585ffdaa42a13"
+    },
+    {
+      "id": "new-v25-p12",
+      "label": "符存审传 · 晨败、暮胜与德胜筑城",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p12",
+      "originalRevision": 1,
+      "originalSha256": "b3ad1bbf30f1e846ae20d38fde6680699246efc5b4e66c781843a6380e8b26b9"
+    },
+    {
+      "id": "old-v052-p9",
+      "label": "李嗣昭传 · 劝再战、南北策应与俘斩",
+      "bookId": "old",
+      "chapterId": "old-v052",
+      "paragraphId": "old-v052-p9",
+      "originalRevision": 1,
+      "originalSha256": "97b0e35846a322ac46b5c07b7c881d69c220e87ba8577d0350892815497d0735"
+    },
+    {
+      "id": "new-v36-p7",
+      "label": "李嗣昭传 · 劝战、夺山及幽州后事",
+      "bookId": "new",
+      "chapterId": "new-v36",
+      "paragraphId": "new-v36-p7",
+      "originalRevision": 1,
+      "originalSha256": "1b829d08aee0414a6282f344234c14d37e93390cd945217c4b2034ec864a471e"
+    },
+    {
+      "id": "old-v059-p3",
+      "label": "阎宝传 · 劝晋王决战（兼录早年及镇州后事）",
+      "bookId": "old",
+      "chapterId": "old-v059",
+      "paragraphId": "old-v059-p3",
+      "originalRevision": 1,
+      "originalSha256": "fcaedbb11ce9ab7633dc463a97eb086c6beb5fa7c3a46f7e33645c3a1f482bf5"
+    },
+    {
+      "id": "new-v44-p25",
+      "label": "阎宝传 · 情势判断与整军复战",
+      "bookId": "new",
+      "chapterId": "new-v44",
+      "paragraphId": "new-v44-p25",
+      "originalRevision": 1,
+      "originalSha256": "3811283225f1707e90e80df0abdd19cdac7e9dfaeb77d26692e9333196bf18a9"
+    },
+    {
+      "id": "old-v065-p1",
+      "label": "李建及传 · 胡柳夺山、银枪军与战后授职",
+      "bookId": "old",
+      "chapterId": "old-v065",
+      "paragraphId": "old-v065-p1",
+      "originalRevision": 1,
+      "originalSha256": "e7f58d32a875f128dea732dae26f7f36aa455440e31ed49720fe2249dd4ab9fa"
+    },
+    {
+      "id": "new-v25-p33",
+      "label": "王建及传 · 夺山反击（后接德胜南城水战）",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p33",
+      "originalRevision": 1,
+      "originalSha256": "b1a42ef43e086d05930b9cf58ba1d39e781b61bb8ff980ffc40510e9d6ef3410"
+    },
+    {
+      "id": "tongjian-v270-p64",
+      "label": "编年 · 收散兵与李从珂、王建及夺山",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p64",
+      "originalRevision": 1,
+      "originalSha256": "728de2aba34526aaf9f2422a1d6faffb9d709063d87cd5c52f02932ecdc8b5f8"
+    },
+    {
+      "id": "tongjian-v270-p65",
+      "label": "编年 · 三将劝战、役夫助势与双方损失",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p65",
+      "originalRevision": 1,
+      "originalSha256": "70d8345055fab06290ceb492952f5cd1268383c8e407f7d0f319f37ebc0090af"
+    },
+    {
+      "id": "chunqiu-v001-p13",
+      "label": "梁纪 · 胡柳初败、当夕再战与濮阳",
+      "bookId": "chunqiu",
+      "chapterId": "chunqiu-v001",
+      "paragraphId": "chunqiu-v001-p13",
+      "originalRevision": 1,
+      "originalSha256": "04a9eef9e0067acbb0fbc994c5e51d0e48711157a6ff53a8b90523c14907c6a7"
+    },
+    {
+      "id": "huiyao-v011-p3",
+      "label": "天象条 · 癸亥战日与周德威阵亡",
+      "bookId": "huiyao",
+      "chapterId": "huiyao-v011",
+      "paragraphId": "huiyao-v011-p3",
+      "originalRevision": 1,
+      "originalSha256": "6223c30bf7445acf551a2d8f52159e81c55726005b8c7a5354ccdd826ec432fe"
+    },
+    {
+      "id": "tongjian-v270-p66",
+      "label": "编年 · 嗣源渡河、濮阳会面与待罪",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p66",
+      "originalRevision": 1,
+      "originalSha256": "5429acaf806b6a6ba70fd7ddbf045e7f5a7f82d6bc24df54fe7d3ca78b8f9bbb"
+    },
+    {
+      "id": "tongjian-v270-p68",
+      "label": "编年 · 德胜渡、汴京惊恐与收集败军",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v270",
+      "paragraphId": "tongjian-v270-p68",
+      "originalRevision": 1,
+      "originalSha256": "b42757a5a1692deebaaac3bc7ecba5d80fdd2c06a6467b366ea892e693ac22f4"
+    },
+    {
+      "id": "old-v029-p1",
+      "label": "庄宗纪 · 正月德胜筑寨与幽州继任",
+      "bookId": "old",
+      "chapterId": "old-v029",
+      "paragraphId": "old-v029-p1",
+      "originalRevision": 1,
+      "originalSha256": "18efae6f2e9da57ba516dbb82e96bebc56141b6140cac60954df8ab01afed837"
+    },
+    {
+      "id": "old-v056-p18",
+      "label": "符存审传 · 春筑德胜与七月后长期对垒",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p18",
+      "originalRevision": 1,
+      "originalSha256": "cb20125c88d993f83a231ceb24aa2e0a8817bea45aaf5599c25317823da5926f"
+    },
+    {
+      "id": "old-v052-p10",
+      "label": "李嗣昭传 · 幽州交代（后接十七年同州战事）",
+      "bookId": "old",
+      "chapterId": "old-v052",
+      "paragraphId": "old-v052-p10",
+      "originalRevision": 1,
+      "originalSha256": "c02093edbccd48d45a770d251413c1a852c3c95ef74f98c3322660155af61d19"
+    }
+  ],
+  "stages": [
+    {
+      "id": "preparation",
+      "title": "战前部署与参战身份",
+      "summary": "并列行台相持、晋军集结、贺瑰杀谢彦章及晋王进军的记载。李存进、袁建丰的本传只补记军职或参战身份，不由此推定他们在初战或夺山中的具体位置。《考异》关于相州刺史的考证只用作名位背景；同段早年事不并入本役。",
+      "sourceIds": [
+        "old-v028-p31",
+        "old-v009-p26",
+        "old-v028-p32",
+        "old-v023-p15",
+        "new-v03-p32",
+        "new-v05-p7",
+        "new-v23-p18",
+        "tongjian-v270-p59",
+        "tongjian-v270-p60",
+        "tongjian-v270-p61",
+        "old-v056-p17",
+        "old-v053-p10",
+        "old-v061-p13",
+        "new-v25-p49",
+        "kaoyi-v029-p14",
+        "old-v056-p10",
+        "new-v25-p8",
+        "tongjian-v270-p63"
+      ]
+    },
+    {
+      "id": "setback",
+      "title": "初战溃乱与周德威战死",
+      "summary": "比较出营前的持重之谏、银枪军局部进攻、辎重惊走与幽州军失序。宿营和战日、阵位各自保存，不把各书简记或不同位置称法拼成唯一战图；天象附记保留叙述归属。",
+      "sourceIds": [
+        "old-v009-p26",
+        "old-v028-p32",
+        "old-v056-p10",
+        "new-v03-p32",
+        "new-v05-p7",
+        "new-v25-p8",
+        "new-v23-p18",
+        "tongjian-v270-p63",
+        "chunqiu-v001-p13",
+        "huiyao-v011-p3",
+        "tongjian-v270-p66"
+      ]
+    },
+    {
+      "id": "counterattack",
+      "title": "收散兵、夺山与再战",
+      "summary": "并列晋王、阎宝、李嗣昭、王建及、符存审和李从珂的记载，另列石敬瑭从李嗣源反击的叙法。劝战、登山及晚战先后不强行合并，李嗣源渡河与从其复击各归各书；兵数与损失分别依原口径。",
+      "sourceIds": [
+        "old-v028-p32",
+        "old-v052-p9",
+        "old-v056-p17",
+        "old-v059-p3",
+        "old-v065-p1",
+        "old-v046-p1",
+        "old-v075-p4",
+        "old-v023-p15",
+        "new-v05-p7",
+        "new-v08-p2",
+        "new-v25-p12",
+        "new-v25-p33",
+        "new-v36-p7",
+        "new-v44-p25",
+        "new-v23-p18",
+        "tongjian-v270-p64",
+        "tongjian-v270-p65",
+        "tongjian-v270-p66",
+        "chunqiu-v001-p13",
+        "tongjian-v270-p68"
+      ]
+    },
+    {
+      "id": "aftermath",
+      "title": "濮阳、德胜与战后影响",
+      "summary": "保留濮阳攻取、汴京惊恐、李嗣源待罪以及德胜筑寨、幽州继任、相州平乱的后续记载。后事各按来源所载月份或年代未定说明；完整长段仍含更早或更晚的战役、授官、追赠和身世，不把它们视作胡柳当日。",
+      "sourceIds": [
+        "old-v009-p26",
+        "old-v028-p32",
+        "old-v029-p1",
+        "old-v056-p18",
+        "old-v052-p10",
+        "old-v046-p1",
+        "old-v061-p13",
+        "old-v065-p1",
+        "new-v05-p7",
+        "new-v25-p8",
+        "new-v25-p12",
+        "new-v25-p33",
+        "new-v25-p49",
+        "new-v36-p7",
+        "new-v23-p18",
+        "tongjian-v270-p66",
+        "tongjian-v270-p68",
+        "chunqiu-v001-p13",
+        "kaoyi-v029-p14"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "id": "huliu-camp-and-battle-days",
+      "stageId": "setback",
+      "kind": "dating",
+      "title": "宿营日与交战日，各书并未完全对齐",
+      "summary": "《通鉴》记壬戌到胡柳陂、癸亥清晨交战；《会要》与新史梁纪也记癸亥。旧史庄宗纪写癸亥到胡柳坡，接“迟明”而没有另书战日，再记甲子巡场；周德威传则写十二月二十三日宿营、次晨交战。旧史梁末帝纪同一段既记癸亥交战，又叙二十四日至胡柳。保留这些原书记法，不强定全部同日，也不擅改底本。贞明四年／天祐十五年的这个十二月已跨西历919年，不能只用传统年份起算为918年。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v270-p63",
+          "excerpt": "壬戌，至胡柳陂。癸亥旦，候者言梁兵自後至矣。"
+        },
+        {
+          "sourceId": "huiyao-v011-p3",
+          "excerpt": "貞明四年十二月癸亥，鎮星犯文昌上將。〈唐天祐十五年也。是日與唐兵大戰於胡柳坡，唐幽州節度使周德威歿於陣。〉"
+        },
+        {
+          "sourceId": "new-v03-p32",
+          "excerpt": "癸亥，瓌及晉人戰于胡柳，敗績。"
+        },
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "癸亥，次胡柳坡。遲明，梁軍亦至"
+        },
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "甲子，命行戰場"
+        },
+        {
+          "sourceId": "old-v056-p10",
+          "excerpt": "十二月二十三日，軍次胡柳陂。詰旦，騎報曰"
+        },
+        {
+          "sourceId": "old-v009-p26",
+          "excerpt": "癸亥，北面招討使賀瑰率大軍與晉人戰於胡柳陂"
+        },
+        {
+          "sourceId": "old-v009-p26",
+          "excerpt": "二十四日，至胡柳陂"
+        }
+      ]
+    },
+    {
+      "id": "huliu-fourteenth-year-continuations",
+      "stageId": "preparation",
+      "kind": "dating",
+      "title": "本传接叙“十四年”，不直接改成胡柳战年",
+      "summary": "旧史符存审传从十四年八月援幽、冬破杨刘接到十二月胡柳；李存进传也把“战胡柳”接在十四年军职、攻杨刘之后。编年战期和周德威传另列十五年。这里保存本传叙次与年表已有的纪年提示，不将胡柳倒排到917年，也不把较早的升职或援幽强定在胡柳当月。",
+      "evidence": [
+        {
+          "sourceId": "old-v056-p17",
+          "excerpt": "十四年八月，將兵援周德威於幽州，敗契丹之眾。冬，破汴將安彥之於楊劉"
+        },
+        {
+          "sourceId": "old-v056-p17",
+          "excerpt": "十二月，戰於胡柳。"
+        },
+        {
+          "sourceId": "old-v053-p10",
+          "excerpt": "十四年，擢蕃漢馬步副總管，從攻楊劉，戰胡柳。"
+        },
+        {
+          "sourceId": "old-v056-p10",
+          "excerpt": "十五年，我師營麻口渡，將大舉以定汴州。德威自幽州率本軍至。十二月二十三日，軍次胡柳陂。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-killing-and-reward",
+      "stageId": "preparation",
+      "kind": "perspective",
+      "title": "杀谢彦章：史家判断与朝廷褒奖分开读",
+      "summary": "旧史梁末帝纪、贺瑰传记将帅不协及朱珪构陷；《通鉴》补写步骑分工、争论速战及疑通晋的过程。梁朝诏书却以平定逆谋褒奖朱珪。诏中“忠孝”“逆节”是朝廷当时的定性，不能拿褒奖反证谢彦章等确有谋反。李存勖闻杀将而喜，是晋方预期，也不是战役必胜的证明。",
+      "evidence": [
+        {
+          "sourceId": "old-v009-p26",
+          "excerpt": "以謀叛聞，為行營馬步都虞候朱珪構之也。"
+        },
+        {
+          "sourceId": "old-v009-p26",
+          "excerpt": "而謝彥章、孟審澄、侯溫裕忽構異圖，將萌逆節，賴朱珪挺施貞節"
+        },
+        {
+          "sourceId": "old-v023-p15",
+          "excerpt": "先是，瑰與彥章不協，是歲冬十二月，復為諸軍都虞候朱珪所構"
+        },
+        {
+          "sourceId": "tongjian-v270-p60",
+          "excerpt": "賀瑰善將步兵，排陳使謝彥章善將騎兵，瑰惡其與己齊名。"
+        },
+        {
+          "sourceId": "tongjian-v270-p60",
+          "excerpt": "與行營馬步都虞候曹州刺史朱珪謀，因享士，伏甲，殺彥章及濮州刺史孟審澄、別將侯溫裕，以謀叛聞。"
+        },
+        {
+          "sourceId": "tongjian-v270-p61",
+          "excerpt": "彼將帥自相魚肉，亡無日矣。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-army-and-labour-counts",
+      "stageId": "preparation",
+      "kind": "detail",
+      "title": "十万军、三万燕兵与三万役夫属于不同口径",
+      "summary": "旧史庄宗纪记八月十余万诸镇与族部之众；新史庄宗纪记合军十万、马万匹，《通鉴》又记毁营进军时“众号十万”。新史周德威传的三万是燕兵，《通鉴》的三万“白丁”是营柵劳役。它们分别是合军、部军、号称与劳役人数，不能彼此相加成确定战场总兵力。",
+      "evidence": [
+        {
+          "sourceId": "old-v028-p31",
+          "excerpt": "及奚、契丹、室韋、吐渾之眾十餘萬"
+        },
+        {
+          "sourceId": "new-v05-p7",
+          "excerpt": "合盧龍、橫海、昭義、安國及鎮、定之兵十萬、馬萬匹"
+        },
+        {
+          "sourceId": "tongjian-v270-p61",
+          "excerpt": "庚申，毀營而進，眾號十萬。"
+        },
+        {
+          "sourceId": "new-v25-p8",
+          "excerpt": "十五年，德威將燕兵三萬人"
+        },
+        {
+          "sourceId": "tongjian-v270-p63",
+          "excerpt": "晉王發魏博白丁三萬從軍，以供營柵之役"
+        }
+      ]
+    },
+    {
+      "id": "huliu-dewei-wing",
+      "stageId": "setback",
+      "kind": "conflict",
+      "title": "周德威军的位置：西、东与左右称法",
+      "summary": "旧史庄宗纪把周德威幽蓟军置于西面、镇定军置于东面；旧史周德威传却记德威军在东偏。新史周德威传用德威居右、镇定居左，另写辎重在右军西侧。各书记法不完全一致；没有统一面向与阵势证据，不能把左右机械换算成东西，或凭一处改正另一处。",
+      "evidence": [
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "周德威以幽、薊之師當其西，鎮、定之師當其東。"
+        },
+        {
+          "sourceId": "old-v056-p10",
+          "excerpt": "德威之軍在東偏"
+        },
+        {
+          "sourceId": "new-v25-p8",
+          "excerpt": "王居中，鎮、定之軍居左，德威之軍居右，而輜重次右之西。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-first-fighting-and-baggage",
+      "stageId": "setback",
+      "kind": "detail",
+      "title": "“晋军先败”之前，还有银枪军的局部突击",
+      "summary": "新史庄宗纪与《春秋》用短记概括晋军初败；旧史庄宗纪及《通鉴》先写晋王率银枪军突阵、梁骑先退，再写辎重惊走冲乱幽州军。新史周德威传称梁军“小败”，贺瑰传则突出其逼辎重、取辎重之胜。这些叙事颗粒与人物视角不同，不能将短记的初败理解为晋军所有部队从开战便一起失败。旧史庄宗纪写贺瑰与王彦章单骑走，《通鉴》这一处仅指名王彦章军先败，也不补成贺瑰必在同刻同行。",
+      "evidence": [
+        {
+          "sourceId": "new-v05-p7",
+          "excerpt": "戰于胡柳，晉軍大敗，周德威死之。"
+        },
+        {
+          "sourceId": "chunqiu-v001-p13",
+          "excerpt": "賀瓌及晉王戰於胡柳陂，晉師敗績。"
+        },
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "賀瑰、王彥章單騎走濮陽。帝軍輜重在陣西，望見梁軍旗幟，皆驚走"
+        },
+        {
+          "sourceId": "tongjian-v270-p63",
+          "excerpt": "王彥章軍先敗，西走趣濮陽。晉輜重在陳西，望見梁旗幟，驚潰，入幽州陳"
+        },
+        {
+          "sourceId": "new-v25-p8",
+          "excerpt": "梁軍小敗，犯晉輜重"
+        },
+        {
+          "sourceId": "new-v23-p18",
+          "excerpt": "瓌軍將薄之，晉軍亂，斬其將周德威，盡取其輜重。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-siyuan-and-jingtang",
+      "stageId": "counterattack",
+      "kind": "conflict",
+      "title": "李嗣源渡河与石敬瑭从其反击，两组记法并列",
+      "summary": "旧史唐末帝纪与《通鉴》记李嗣源先渡河、后来待罪，《通鉴》还说他误闻晋王已北渡，战后才在濮阳复见。旧史晋高祖纪却记李嗣源保全右军，在土山下同石敬瑭谋议，左射军压阵至夜取胜；新史晋本纪亦记石敬瑭从明宗复击败梁兵。分别保留这两组叙事，不补造他渡河再返战、或石敬瑭独自指挥的路线来调和；其他传未提石敬瑭，不等于否认其参战。",
+      "evidence": [
+        {
+          "sourceId": "old-v046-p1",
+          "excerpt": "時明宗先渡河，莊宗不悅"
+        },
+        {
+          "sourceId": "tongjian-v270-p66",
+          "excerpt": "嗣源遂乘冰北渡，將之相州。"
+        },
+        {
+          "sourceId": "tongjian-v270-p66",
+          "excerpt": "李嗣源知晉軍之捷，復來見王於濮陽"
+        },
+        {
+          "sourceId": "old-v075-p4",
+          "excerpt": "明宗獨完右廣，伏於土山之下"
+        },
+        {
+          "sourceId": "old-v075-p4",
+          "excerpt": "命左射軍三百人鳴矢馳轉，漸束其勢，以數千騎合之。迨夜"
+        },
+        {
+          "sourceId": "new-v08-p2",
+          "excerpt": "敬瑭以左射軍從明宗復擊敗梁兵。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-counsel-before-or-after-hill",
+      "stageId": "counterattack",
+      "kind": "detail",
+      "title": "劝再战与夺山的先后，各传着重点不同",
+      "summary": "旧史庄宗纪、新史王建及传与《通鉴》先记夺山，再记阎宝、王建及等反对还营；旧史阎宝传和新史李嗣昭传把劝战置于随后登山之前。嗣昭传另记与建及分兵土山南北，符存审传突出父子血战与土山下复击，唐末帝纪及《通鉴》补记从珂护王、继进夺山。它们有共同的再战转折，却不能把诸传每条建议与每支部队自动排成唯一、无冲突的行动次序。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v270-p64",
+          "excerpt": "即引騎兵先登，李從珂與銀槍大將王建及以步卒繼之"
+        },
+        {
+          "sourceId": "tongjian-v270-p65",
+          "excerpt": "諸將以為諸軍未盡集，不若斂兵還營，詰朝復戰。"
+        },
+        {
+          "sourceId": "new-v25-p33",
+          "excerpt": "晉兵遂得土山。諸將皆言"
+        },
+        {
+          "sourceId": "old-v059-p3",
+          "excerpt": "莊宗聞之聳聽，曰：「微公幾失計。」即引騎大噪，奮槊登山"
+        },
+        {
+          "sourceId": "new-v36-p7",
+          "excerpt": "莊宗然之。是時，梁軍已登無石山，莊宗遣嗣昭轉擊山北"
+        },
+        {
+          "sourceId": "old-v052-p9",
+          "excerpt": "嗣昭與建及分兵於土山南北為掎角"
+        },
+        {
+          "sourceId": "old-v056-p17",
+          "excerpt": "存審與其子彥圖冒刃血戰，出沒賊陣，與莊宗軍合。"
+        },
+        {
+          "sourceId": "old-v046-p1",
+          "excerpt": "帝衛莊宗奪土山，摧驍陣，其軍復振。"
+        }
+      ]
+    },
+    {
+      "id": "huliu-losses-and-survivors",
+      "stageId": "counterattack",
+      "kind": "conflict",
+      "title": "俘斩三万、死近三万与各损三之二不能合成总账",
+      "summary": "旧史李嗣昭传记“俘斩三万级”，《通鉴》记梁兵死亡近三万人，又说双方所丧各为三分之二。旧史庄宗纪与《通鉴》还记逃归汴京的败众不到千人，后者同时说明多人负伤逃散、各归乡里。俘斩、死亡、军队损失比例与回到特定地点的人数不是同一统计；不到千人不能当作梁军仅有千人存活。王建及劝战时所谓“骑军一无所损”也只是该段说辞，不代表晋全军无伤亡。",
+      "evidence": [
+        {
+          "sourceId": "old-v052-p9",
+          "excerpt": "俘斬三萬級"
+        },
+        {
+          "sourceId": "tongjian-v270-p65",
+          "excerpt": "死亡者幾三萬人。"
+        },
+        {
+          "sourceId": "tongjian-v270-p65",
+          "excerpt": "是日，兩軍所喪士卒各三之二，皆不能振。"
+        },
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "其殘眾奔歸汴者不滿千人"
+        },
+        {
+          "sourceId": "tongjian-v270-p68",
+          "excerpt": "敗卒至者不滿千人，傷夷逃散，各歸鄉里，月餘僅能成軍。"
+        },
+        {
+          "sourceId": "old-v028-p32",
+          "excerpt": "王之騎軍一無所損"
+        }
+      ]
+    },
+    {
+      "id": "huliu-grief-and-omens",
+      "stageId": "setback",
+      "kind": "perspective",
+      "title": "持重之谏、主帅自责与天象附记",
+      "summary": "新旧周德威传与《通鉴》均把德威之死接在未采持重之策、辎重扰阵之后；旧史和《通鉴》记李存勖将丧将归咎自己。旧史周传还附镇星犯上将的占语，《会要》在天象条将癸亥与德威阵亡相连。军事过程、人物感叹与星占叙事分别阅读，不据天象断言死亡因果，也不把史书引语当作现代调查结论。",
+      "evidence": [
+        {
+          "sourceId": "new-v25-p8",
+          "excerpt": "吾不聽老將之言，而使其父子至此！"
+        },
+        {
+          "sourceId": "old-v056-p10",
+          "excerpt": "先是，鎮星犯上將，星占者雲，不利大將。"
+        },
+        {
+          "sourceId": "old-v056-p10",
+          "excerpt": "喪我良將，吾之咎也！"
+        },
+        {
+          "sourceId": "huiyao-v011-p3",
+          "excerpt": "鎮星犯文昌上將"
+        },
+        {
+          "sourceId": "tongjian-v270-p66",
+          "excerpt": "喪吾良將，是吾罪也！"
+        }
+      ]
+    },
+    {
+      "id": "huliu-xiangzhou-identities",
+      "stageId": "aftermath",
+      "kind": "detail",
+      "title": "袁建丰出征与相州平乱，保留姓名与年代限度",
+      "summary": "旧史袁建丰传记他率相州军在外，孟守谦据城叛乱，袁返军平定；新史作孟谦。《考异》引用《明宗实录》说胡柳时袁仍为相州刺史，用以纠察任职被错接在张筠逃走条下的时间。这是名位与任职年代考证，不是另一份独立战程记录，也不能由胡柳确年推出返军平乱和调隰州都有同一确切日期。",
+      "evidence": [
+        {
+          "sourceId": "old-v061-p13",
+          "excerpt": "建豐領相州軍士，行營在外，委州事於小人，失於撫馭，指揮使孟守謙據城以叛，建豐引兵討平之。"
+        },
+        {
+          "sourceId": "new-v25-p49",
+          "excerpt": "從戰胡柳，指揮使孟謙據相州叛，建豐還討平之。"
+        },
+        {
+          "sourceId": "kaoyi-v029-p14",
+          "excerpt": "按明宗實錄建豐傳云戰胡桞陂時建豐猶為相州乃是天祐十五年十二月"
+        },
+        {
+          "sourceId": "kaoyi-v029-p14",
+          "excerpt": "蓋明宗初為相州移邢州後方除建豐莊宗錄誤書在張筠走下耳"
+        }
+      ]
+    },
+    {
+      "id": "huliu-victory-and-following-months",
+      "stageId": "aftermath",
+      "kind": "detail",
+      "title": "濮阳、德胜与幽州交代是战后延续，并非同日完成",
+      "summary": "《春秋》概记当夕再战及取濮阳，《通鉴》另明记甲子攻克濮阳与汴京惊恐。旧史庄宗纪把符存审筑德胜、晋王还魏及幽州人事放在十六年正月、三月；李嗣昭传把幽州交代写在九月，而本纪三月已记李绍宏提举府事，两种任职与交代记法分别保留。符存审传另叙七月后长期对垒，长段中的德胜南城水战、同州诸事属于后来战事。胡柳获胜不等于梁国当时已灭，不把这些后事压缩成决战当日。",
+      "evidence": [
+        {
+          "sourceId": "chunqiu-v001-p13",
+          "excerpt": "是夕，再戰，瓌師敗績，晉人遂取濮陽。"
+        },
+        {
+          "sourceId": "tongjian-v270-p66",
+          "excerpt": "甲子，晉王進攻濮陽，拔之。"
+        },
+        {
+          "sourceId": "tongjian-v270-p68",
+          "excerpt": "晉軍至德勝渡"
+        },
+        {
+          "sourceId": "old-v029-p1",
+          "excerpt": "天祐十六年春正月，李存審城德勝，夾河為柵。帝還魏州"
+        },
+        {
+          "sourceId": "old-v029-p1",
+          "excerpt": "三月，帝兼領幽州，遣近臣李紹宏提舉府事。"
+        },
+        {
+          "sourceId": "old-v052-p10",
+          "excerpt": "九月，以李紹宏代"
+        },
+        {
+          "sourceId": "old-v056-p18",
+          "excerpt": "七月，汴將王瓚自黎陽渡河寇澶州"
+        },
+        {
+          "sourceId": "new-v25-p33",
+          "excerpt": "梁將賀瓌攻其南城，以竹笮維戰艦于河"
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,8 @@ import {loadEventTimelineLinks,validateEventTimelineLinks} from '../content/even
 import {timelineEventIdentity} from '../frontend/src/event-timeline-links-schema.ts';
 
 const library=loadLibrary(),comparisons=loadEventComparisons(library),timelines=loadPersonTimelines(library);
-const [document]=loadEventTimelineLinks(library);
+const registrations=loadEventTimelineLinks(library);
+const document=registrations.find(item=>item.comparisonId==='baixiang');
 const check=(value,otherTimelines=timelines,otherLibrary=library)=>validateEventTimelineLinks(value,otherLibrary,comparisons,otherTimelines);
 const mutate=callback=>{const value=structuredClone(document);callback(value);return value;};
 
@@ -62,6 +63,33 @@ test('a refreshed event hash cannot authorise stale original bindings or invente
     assert.throws(()=>check(value,changed),/current published event evidence/);
   }
   const changed=structuredClone(comparisons);
-  changed[0].sources.find(source=>source.id==='old-v027-p18').originalSha256='0'.repeat(64);
+  changed.find(item=>item.id==='baixiang').sources.find(source=>source.id==='old-v027-p18').originalSha256='0'.repeat(64);
   assert.throws(()=>validateEventTimelineLinks(document,library,changed,timelines),/comparison evidence/);
+});
+
+test('every published comparison has one independently validated two-way registration',()=>{
+  assert.deepEqual(registrations.map(item=>item.comparisonId).sort(),comparisons.map(item=>item.id).sort());
+  for(const registration of registrations) {
+    assert.deepEqual(validateEventTimelineLinks(registration,library,comparisons,timelines),registration);
+    const comparison=comparisons.find(item=>item.id===registration.comparisonId);
+    assert.ok(registration.links.every(link=>comparison.personIds.includes(link.personId)));
+  }
+});
+
+test('Huliu keeps its real events and uncertain aftermath separate from Baixiang',()=>{
+  const huliu=registrations.find(item=>item.comparisonId==='huliu');
+  assert.ok(huliu);
+  const battle=timelines.find(item=>item.personId==='li-cunxu').events.find(event=>event.id==='li-cunxu-huliu');
+  assert.equal(battle.year,919);
+  assert.ok(huliu.links.some(link=>link.eventId===battle.id));
+  assert.ok(!huliu.links.some(link=>link.eventId==='li-cunxu-baixiang'));
+  assert.ok(!document.links.some(link=>link.eventId===battle.id));
+  const aftermath=huliu.links.find(link=>link.eventId==='yuan-jianfeng-quell-xiangzhou');
+  assert.ok(aftermath);
+  assert.deepEqual(aftermath.stageIds,['aftermath']);
+  const event=timelines.find(item=>item.personId==='yuan-jianfeng').events.find(event=>event.id===aftermath.eventId);
+  assert.equal(event.year,null);assert.equal(event.precision,'undated');
+  const wrong=structuredClone(huliu);
+  wrong.links.find(link=>link.eventId===battle.id).eventId='li-cunxu-baixiang';
+  assert.throws(()=>validateEventTimelineLinks(wrong,library,comparisons,timelines),/current event/);
 });
