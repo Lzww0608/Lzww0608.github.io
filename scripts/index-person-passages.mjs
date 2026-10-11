@@ -114,6 +114,25 @@ export function validateChronologySubjects(input, library = loadLibrary()) {
   return input;
 }
 
+export function validateVerifiedAttributions(input, library = loadLibrary()) {
+  requireValue(input?.schemaVersion === 1 && input.scope === 'current-archive' && Array.isArray(input.entries), 'verified attribution schema');
+  const personIds = new Set(loadPassagePeople().map(person => person.id));
+  const paragraphs = new Map(library.chapters.flatMap(chapter => chapter.paragraphs.map(paragraph => [paragraph.id, { paragraph, chapter }])));
+  const seen = new Set();
+  const fields = new Set(['personId', 'chapterId', 'paragraphId', 'originalRevision', 'originalSha256', 'kind', 'reason']);
+  for (const entry of input.entries) {
+    const match = paragraphs.get(entry?.paragraphId), key = `${entry?.paragraphId}/${entry?.personId}`;
+    requireValue(entry && Object.keys(entry).every(field => fields.has(field)) && match && personIds.has(entry.personId)
+      && entry.chapterId === match.chapter.id && ['biography', 'record', 'mention'].includes(entry.kind)
+      && typeof entry.reason === 'string' && entry.reason.trim() && !seen.has(key), `verified attribution reference ${key}`);
+    requireValue(Number.isSafeInteger(entry.originalRevision) && entry.originalRevision === match.paragraph.revision
+      && typeof entry.originalSha256 === 'string' && /^[a-f0-9]{64}$/u.test(entry.originalSha256)
+      && entry.originalSha256 === originalSha256(match.paragraph.original), `verified attribution original ${entry.paragraphId}`);
+    seen.add(key);
+  }
+  return input;
+}
+
 export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) {
   const rules = suppliedRules ?? JSON.parse(readFileSync(new URL('rules.json', personPassagesRoot), 'utf8'));
   requireValue(rules?.schemaVersion === 1 && rules.scope === 'current-archive', 'schema/scope');
@@ -163,8 +182,9 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
     && (period.monthMin === undefined || Number.isSafeInteger(period.monthMin) && Number.isSafeInteger(period.monthMax)
       && period.monthMin >= 1 && period.monthMax <= 12 && period.monthMax >= period.monthMin), 'regnal edict period');
   const supplements = validateChronologySubjects(JSON.parse(readFileSync(new URL('chronology-subjects.json', personPassagesRoot), 'utf8')), library);
+  const verified = validateVerifiedAttributions(JSON.parse(readFileSync(new URL('verified-attributions.json', personPassagesRoot), 'utf8')), library);
   const supplementedParagraphs = new Map();
-  for (const entry of supplements.entries) {
+  for (const entry of [...supplements.entries, ...verified.entries]) {
     const list = supplementedParagraphs.get(entry.paragraphId) ?? []; list.push(entry);
     supplementedParagraphs.set(entry.paragraphId, list);
   }

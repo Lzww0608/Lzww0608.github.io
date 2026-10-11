@@ -4,8 +4,8 @@ import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
-test('the archive has verified source hashes, complete emperor annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 197);
+test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
+  assert.equal(chapters.length, 199);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -15,12 +15,15 @@ test('the archive has verified source hashes, complete emperor annals and all Fi
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
+    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));
   assert.ok(chapters.find(c => c.id === 'tongjian-v272').paragraphs.some(p => p.original.includes('莊宗光聖神閔孝皇帝')));
+  assert.equal(chapters.find(c => c.id === 'old-v025').paragraphs.length, 27);
+  assert.equal(chapters.find(c => c.id === 'old-v026').paragraphs.length, 42);
+  assert.ok(chapters.find(c => c.id === 'old-v026').paragraphs.some(p => p.original.includes('追諡武皇帝，廟號太祖')));
   const quewen = chapters.find(c => c.id === 'quewen-v001').paragraphs.map(p => p.original).join('');
   assert.ok(quewen.includes('宋王禹偁撰') && quewen.includes('皆聞於耆老者也') && quewen.includes('王樸'));
 });

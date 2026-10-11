@@ -71,6 +71,9 @@ export interface HistoryPerson {
   rulerCategory?: 'contested';
   statusNote?: string;
   sourceNotes?: string[];
+  lifespan?: string;
+  birthYear?: number;
+  deathYear?: number;
   event?: EventId;
   aliases: string;
   intro: string;
@@ -117,6 +120,12 @@ export interface TenKingdomRulerCatalog {
   schemaVersion: 1;
   scope: 'ten-kingdoms-rulers';
   people: TenKingdomRuler[];
+}
+
+export interface HistoricalLeaderCatalog {
+  schemaVersion: 1;
+  scope: 'historical-leaders';
+  people: HistoryPerson[];
 }
 
 export interface HistoricalPersonGroup {

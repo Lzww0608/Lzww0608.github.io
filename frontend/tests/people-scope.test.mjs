@@ -101,8 +101,8 @@ test('topic and commander searches keep Zhu Wen generals under the correct topic
 test('Li Keyong generals reuse established identities and display their own commander relationship', () => {
   assert.ok(keyongGenerals?.people.length > 0);
   assert.equal(keyongGenerals.relationshipSubject, '李克用');
-  assert.equal(keyongGenerals.memberIds.includes('li-keyong'), false, 'the commander remains a context node');
-  assert.equal(people.some(person => person.id === 'li-keyong'), false);
+  assert.equal(keyongGenerals.memberIds.includes('li-keyong'), false, 'the commander has a separate canonical entry and is not one of his own generals');
+  assert.equal(people.filter(person => person.id === 'li-keyong').length, 1);
   assert.deepEqual(new Set(filterSearch(keyongGenerals.title).map(person => person.id)), new Set(keyongGenerals.memberIds));
   const commanderMatches = new Set(filterSearch('李克用').map(person => person.id));
   const newIds = new Set(keyongGenerals.people.map(person => person.id));

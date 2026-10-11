@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../content/library.mjs';
 import { buildPersonPassageSummary, loadPassagePeople, loadPersonPassageIndex, validatePersonPassageIndex } from '../content/person-passages.mjs';
-import { buildPersonPassageIndex, inferRegnalEdictPeople, validateChronologySubjects } from '../scripts/index-person-passages.mjs';
+import { buildPersonPassageIndex, inferRegnalEdictPeople, validateChronologySubjects, validateVerifiedAttributions } from '../scripts/index-person-passages.mjs';
 
 const library = loadLibrary();
 const index = loadPersonPassageIndex(library);
@@ -17,6 +17,56 @@ const keyongGenerals = JSON.parse(readFileSync(new URL('../content/five-dynastie
 const keyongNewIds = new Set(keyongGenerals.people.map(person => person.id));
 const tenKingdoms = JSON.parse(readFileSync(new URL('../content/five-dynasties/ten-kingdoms-rulers.json', import.meta.url), 'utf8'));
 const tenKingdomIds = new Set(tenKingdoms.people.map(person => person.id));
+const verifiedAttributions = JSON.parse(readFileSync(new URL('../content/person-passages/verified-attributions.json', import.meta.url), 'utf8'));
+
+test('Li Keyong joins the canonical index with complete main annals and precise cross-source references', () => {
+  assert.equal(index.people.filter(person => person.id === 'li-keyong').length, 1);
+  const actual = index.passages.filter(passage => passage.people.some(person => person.personId === 'li-keyong'));
+  assert.equal(actual.length, 303);
+  const references = verifiedAttributions.entries.filter(entry => entry.personId === 'li-keyong');
+  assert.equal(references.length, 227);
+  for (const reference of references) assert.ok(association(reference.paragraphId, reference.personId), reference.paragraphId);
+  for (const chapterId of ['old-v025', 'old-v026']) {
+    const chapter = library.chapters.find(chapter => chapter.id === chapterId);
+    for (const paragraph of chapter.paragraphs) assert.equal(association(paragraph.id, 'li-keyong')?.kind, 'biography', paragraph.id);
+  }
+  for (const position of [1, 2, 24, 25, 26]) assert.equal(association(`new-v04-p${position}`, 'li-keyong')?.kind, 'record');
+  for (let position = 3; position <= 23; position++) assert.equal(association(`new-v04-p${position}`, 'li-keyong')?.kind, 'biography');
+  assert.equal(association('new-v04-p27', 'li-keyong'), undefined, 'the independent Lu Jianfang collation is not Li Keyong’s own record');
+  const rule = rules.people.find(person => person.personId === 'li-keyong');
+  assert.deepEqual(rule.names, ['李克用']);
+  assert.deepEqual(rule.shortNames, []);
+  assert.deepEqual(rule.titles, []);
+  for (const paragraphId of ['new-v11-p12', 'new-v12-p2', 'new-v65-p9', 'tongjian-v267-p24', 'kaoyi-v029-p29']) {
+    assert.equal(association(paragraphId, 'li-keyong'), undefined, `${paragraphId}: ambiguous titles do not propagate`);
+  }
+});
+
+test('precise attribution references reject stale bindings, wrong chapters and duplicate or conflicting entries', () => {
+  assert.equal(validateVerifiedAttributions(verifiedAttributions, library), verifiedAttributions);
+  const entry = verifiedAttributions.entries[0];
+  const input = changed => ({ schemaVersion: 1, scope: 'current-archive', entries: [{ ...entry, ...changed }] });
+  for (const changed of [
+    { personId: 'unregistered-person' }, { chapterId: 'old-v025' },
+    { originalRevision: entry.originalRevision + 1 }, { originalSha256: '0'.repeat(64) },
+    { kind: 'guessed' }, { reason: '' }, { reviewer: 'private-metadata' },
+  ]) assert.throws(() => validateVerifiedAttributions(input(changed), library), /verified attribution/);
+  for (const duplicate of [entry, { ...entry, kind: entry.kind === 'record' ? 'mention' : 'record' }]) {
+    assert.throws(() => validateVerifiedAttributions({ schemaVersion: 1, scope: 'current-archive', entries: [entry, duplicate] }, library), /verified attribution reference/);
+  }
+});
+
+test('new annals preserve actual surname identities and contextual correspondents', () => {
+  for (const [paragraphId, personId] of [
+    ['old-v026-p1', 'ma-sixun'], ['old-v026-p11', 'niu-cunjie'],
+    ['old-v026-p10', 'wang-jipeng'], ['old-v026-p12', 'wang-jipeng'],
+  ]) assert.equal(association(paragraphId, personId), undefined, `${paragraphId}: ${personId}`);
+  assert.ok(association('old-v025-p15', 'zhu-wen'), 'the explicitly identified Bian commander’s Shangyuan attack is collected');
+  assert.ok(association('old-v026-p32', 'zhu-wen'), 'the Bian commander’s order to assassinate Zhaozong remains a record');
+  assert.equal(association('old-v026-p42', 'zhu-wen'), undefined, 'a vermilion flag is not a Zhu surname match');
+  for (let position = 35; position <= 38; position++) assert.ok(association(`old-v026-p${position}`, 'wang-jian-former-shu'));
+  for (const paragraphId of ['old-v025-p13', 'old-v026-p39']) assert.ok(association(paragraphId, 'zhu-wen'));
+});
 
 test('generation scans the whole canonical archive and reproduces the saved shared index', () => {
   assert.deepEqual(buildPersonPassageIndex(library), index);

@@ -40,7 +40,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 ];
 
 export const searchItems: SearchItem[] = [
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}${item.lifespan ? ` · 生卒 ${item.lifespan}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {

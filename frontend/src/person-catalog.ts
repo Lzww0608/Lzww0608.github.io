@@ -3,10 +3,12 @@ import tenKingdoms from '../../content/five-dynasties/ten-kingdoms-rulers.json' 
 import taibao from '../../content/five-dynasties/taibao.json' with { type: 'json' };
 import zhuWenGenerals from '../../content/five-dynasties/zhu-wen-generals.json' with { type: 'json' };
 import liKeyongGenerals from '../../content/five-dynasties/li-keyong-generals.json' with { type: 'json' };
-import type { EmperorCatalog, TenKingdomRulerCatalog, HistoricalPersonGroup, HistoryPerson, PersonGroupId } from './types.ts';
+import leaders from '../../content/five-dynasties/historical-leaders.json' with { type: 'json' };
+import type { EmperorCatalog, TenKingdomRulerCatalog, HistoricalLeaderCatalog, HistoricalPersonGroup, HistoryPerson, PersonGroupId } from './types.ts';
 
 export const reigningEmperors = (emperors as EmperorCatalog).people;
 export const tenKingdomRulers = (tenKingdoms as TenKingdomRulerCatalog).people;
+export const historicalLeaders = (leaders as HistoricalLeaderCatalog).people;
 export const taibaoGroup: HistoricalPersonGroup = { ...taibao as HistoricalPersonGroup, filterLabel: '十三太保', relationshipSubject: '李克用' };
 export const zhuWenGeneralsGroup = zhuWenGenerals as HistoricalPersonGroup;
 export const liKeyongGeneralsGroup = liKeyongGenerals as HistoricalPersonGroup;
@@ -15,7 +17,7 @@ export const personTopics: readonly HistoricalPersonGroup[] = [taibaoGroup, zhuW
 // Shared members retain their existing canonical object and stable ID across topics.
 export const catalogPeople: HistoryPerson[] = [];
 const knownPeople = new Set<string>();
-for (const person of [...reigningEmperors, ...personTopics.flatMap(topic => topic.people), ...tenKingdomRulers]) {
+for (const person of [...reigningEmperors, ...personTopics.flatMap(topic => topic.people), ...tenKingdomRulers, ...historicalLeaders]) {
   if (knownPeople.has(person.id)) continue;
   knownPeople.add(person.id);
   catalogPeople.push(person);

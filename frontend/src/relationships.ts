@@ -55,8 +55,8 @@ export function buildRelationshipNodes(
 
 export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipNodes(catalogPeople, [
   {
-    id: 'li-keyong', name: '李克用', external: true, group: '河东 / 晋国',
-    note: '晋王李克用；新旧《五代史》中又称唐太祖、武皇。此处仅为理解本站人物关系的关联节点。',
+    id: 'li-guochang', name: '李国昌', external: true, group: '晚唐 / 沙陀',
+    note: '李克用之父，本名赤心，唐廷赐姓名；后唐追尊献祖。此处依据武皇纪登记亲属关联，不把追尊称号写为生前在位，也未新增独立传记或唐代入口。',
   },
   {
     id: 'li-kerou', name: '李克柔', external: true, group: '河东 / 晋国',
@@ -3300,9 +3300,29 @@ export const personRelationships: readonly PersonRelationship[] = [
     sources: [source('new-v03', 1, '《新五代史》卷3 · 梁本纪第三', '末帝，太祖第三子友貞也。')],
   },
   {
+    id: 'li-guochang-keyong-parent', from: 'li-guochang', to: 'li-keyong', kind: 'kinship', label: '父子',
+    note: '李国昌本名赤心，为李克用之父；献祖与武皇是后唐追尊称号。',
+    sources: [
+      source('old-v025', 1, '《旧五代史》卷25 · 唐武皇纪上', '烈考國昌，本名赤心，唐朔州刺史。'),
+      source('old-v025', 2, '《旧五代史》卷25 · 唐武皇纪上', '武皇即獻祖之第三子也。'),
+    ],
+  },
+  {
+    id: 'li-keyong-zhu-wen-shangyuan-conflict', from: 'zhu-wen', to: 'li-keyong', kind: 'conflict', label: '上源驿谋害与交恶',
+    note: '旧史记朱温在汴州宴后与杨彦洪谋害李克用，李克用脱险，陈景思、史敬思遇害；此为该史叙事，朱温随后回书另称朝廷使者与杨彦洪同谋，保留其辩解，不据此抹去来源差异。',
+    sources: [
+      source('old-v025', 15, '《旧五代史》卷25 · 唐武皇纪上', '汴帥素忌武皇，乃與其將楊彥洪密謀竊發，'),
+      source('old-v025', 15, '《旧五代史》卷25 · 唐武皇纪上', '監軍陳景思、大將史敬思並遇害。'),
+      source('old-v025', 15, '《旧五代史》卷25 · 唐武皇纪上', '汴帥報曰：「竊發之夜，非仆本心，是朝廷遣天使與牙將楊彥洪同謀也。」'),
+    ],
+  },
+  {
     id: 'li-keyong-cunxu-parent', from: 'li-keyong', to: 'li-cunxu', kind: 'kinship', label: '父子',
-    note: '李存勖是李克用的亲子；不将十三太保专题中的所有成员一概视为养子。',
-    sources: [source('old-v027', 1, '《旧五代史》卷27 · 唐庄宗本纪一', '莊宗光聖神閔孝皇帝，諱存勗，武皇帝之長子也。')],
+    note: '李存勖是李克用的亲子；不将十三太保专题中的所有成员一概视为养子。旧史卷27称存勖为长子，卷26另称落落为长子；图仅表示父子关系，排行异说分别保留。',
+    sources: [
+      source('old-v027', 1, '《旧五代史》卷27 · 唐庄宗本纪一', '莊宗光聖神閔孝皇帝，諱存勗，武皇帝之長子也。'),
+      source('old-v026', 16, '《旧五代史》卷26 · 唐武皇纪下', '落落，武皇之長子也。'),
+    ],
   },
   {
     id: 'li-keyong-kerou-siblings', from: 'li-keyong', to: 'li-kerou', kind: 'kinship', label: '兄弟',

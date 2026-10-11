@@ -11,6 +11,46 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_li_keyong_annals_are_complete_archives_without_adding_a_reigning_emperor(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        summaries = {chapter['id']: chapter for chapter in catalog['chapters']}
+        emperors = json.loads((archive.ROOT / 'emperors.json').read_text())['people']
+        self.assertEqual(len(emperors), 14)
+        self.assertNotIn('li-keyong', {person['id'] for person in emperors})
+        for chapter_id, count, characters in [('old-v025', 27, 6383), ('old-v026', 42, 7678)]:
+            with self.subTest(chapter=chapter_id):
+                summary = summaries[chapter_id]
+                chapter = json.loads((archive.ROOT / 'chapters' / f'{chapter_id}.json').read_text())
+                self.assertEqual(summary['scope'], 'full')
+                self.assertEqual(summary['paragraphCount'], count)
+                self.assertEqual(summary['characterCount'], characters)
+                self.assertEqual([p['id'] for p in chapter['paragraphs']],
+                                 [f'{chapter_id}-p{position}' for position in range(1, count + 1)])
+                self.assertIn('li-keyong', summary['subjects'])
+                self.assertTrue(any('武皇帝为后唐追尊' in note for note in chapter['notes']))
+                provenance = summary['provenance']
+                self.assertEqual(provenance['license'], 'CC BY-SA 4.0')
+                self.assertIn(f"oldid={provenance['revisionId']}", provenance['sourceUrl'])
+                for directory, checksum in [('sources', 'sourceSha256'), ('chapters', 'chapterSha256')]:
+                    self.assertEqual(hashlib.sha256((archive.ROOT / directory / f'{chapter_id}.json').read_bytes()).hexdigest(), provenance[checksum])
+        chapter25 = json.loads((archive.ROOT / 'chapters/old-v025.json').read_text())
+        chapter26 = json.loads((archive.ROOT / 'chapters/old-v026.json').read_text())
+        self.assertTrue(chapter25['paragraphs'][0]['original'].startswith('太祖武皇帝，諱克用'))
+        self.assertTrue(chapter26['paragraphs'][-1]['original'].startswith('史臣曰：武皇肇跡陰山'))
+        self.assertIn('li-cunxu', summaries['old-v026']['subjects'])
+
+    def test_li_keyong_shared_new_history_annal_keeps_cunxu_link_and_original(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        previous = next(chapter for chapter in catalog['chapters'] if chapter['id'] == 'new-v04')
+        current_spec = next(item for item in archive.SPECS if item['id'] == 'new-v04')
+        files = [archive.ROOT / directory / 'new-v04.json' for directory in ['sources', 'chapters']]
+        before = [file.read_bytes() for file in files]
+        with patch.object(archive, 'request', side_effect=AssertionError('Cached source must not be fetched again')):
+            result = archive.capture(current_spec, previous)
+        self.assertEqual(result['subjects'][:2], ['li-keyong', 'li-cunxu'])
+        self.assertEqual(result['provenance'], previous['provenance'])
+        self.assertEqual([file.read_bytes() for file in files], before)
+
     def test_ten_kingdoms_shared_biographies_include_late_reigns_and_short_rulers(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         summaries = {chapter['id']: chapter for chapter in catalog['chapters']}

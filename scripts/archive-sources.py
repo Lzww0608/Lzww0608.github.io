@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代皇帝本纪共 59 卷，另收宗室、相关将领列传及十国记载所在卷 133—136；合计 86 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 88 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、相关人物列传及十国世家卷 61—70；共 33 卷，合传均整卷保留，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -47,6 +47,12 @@ for person, start, end, title in [
     for volume in range(start, end + 1):
         SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume, title=f'卷 {volume} · {title}{volume-start+1}', page=f'舊五代史/卷{volume}', subjects=[person]))
 SPECS.append(dict(id='old-v012', bookId='old', volume=12, title='卷 12 · 梁宗室传（含朱友珪）', page='舊五代史/卷12', subjects=['zhu-wen', 'zhu-yougui', 'zhu-youzhen']))
+# Li Keyong was prince of Jin during his lifetime and posthumously honoured
+# as 武皇帝 by Later Tang. These annals do not add an actually reigning emperor.
+for volume, label, subjects in [(25, '上', ['li-keyong']), (26, '下', ['li-keyong', 'li-cunxu'])]:
+    SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume,
+                      title=f'卷 {volume} · 唐武皇纪{label}（李克用）',
+                      page=f'舊五代史/卷{volume}', subjects=subjects))
 for person, volume, title in [
     ('zhu-wen', 1, '梁本纪第一'), ('zhu-wen', 2, '梁本纪第二'),
     ('zhu-youzhen', 3, '梁本纪第三'),
@@ -194,6 +200,7 @@ REIGN_SUBJECTS = {'tongjian-v266': ['zhu-wen'],
  'old-v100': ['liu-zhiyuan', 'liu-chengyou'],
  'old-v113': ['guo-wei', 'chai-rong'],
  'new-v02': ['zhu-wen', 'zhu-yougui'],
+ 'new-v04': ['li-keyong', 'li-cunxu'],
  'new-v07': ['li-conghou', 'li-congke'],
  'new-v10': ['liu-zhiyuan', 'liu-chengyou'],
  'new-v12': ['chai-rong', 'chai-zongxun']}
@@ -408,6 +415,7 @@ def capture(spec, previous=None):
         '古籍原作已属公版；维基文库的整理、标点与页面文本按 CC BY-SA 4.0 署名并以相同方式共享。底本、校勘与叙事差异请参照版本信息。',
     ]
     if book['id'] == 'old': notes.append('《旧五代史》为辑佚本。正文保留《永乐大典》《册府元龟》等出处及整理者按语，不把夹注删作缺文。')
+    if spec['id'] in {'old-v025', 'old-v026'}: notes.append('本卷记李克用及其先世、麾下人物与继承前后史事。李克用生前为晋王，武皇帝为后唐追尊，不表示其生前称帝。')
     if book['id'] == 'tongjian': notes.append('《资治通鉴》是编年史，本站收录卷 266—294 的五代部分（907—959 年）。人物筛选按各皇帝实际在位记事及政权交接关联，并非卷内出现该人物的穷尽索引。')
     if spec['id'] == 'new-v10': notes.append('此卷合记后汉高祖与隐帝，收录整卷，不将隐帝部分误标为刘知远生平。')
     if book['id'] == 'quewen': notes.append('《五代史阙文》保存史事异闻，含原页提要与序文。传闻记述应与正史、编年史相互参证，不能直接视为定论。')
