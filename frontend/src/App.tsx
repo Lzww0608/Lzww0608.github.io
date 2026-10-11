@@ -17,15 +17,38 @@ import { readingNavigation, readingPageKey } from './reading-navigation-state';
 import { captureReadingPosition } from './use-reading-position';
 import { createNavigationDecision, createReadingTraversalGuard } from './reading-navigation-guard';
 import type { TraversalAction } from './reading-navigation-guard';
+import { ReadingShelfPanel } from './ReadingShelfPanel';
+import { bookmarkRoute, inferReadingPerson, progressResumeRoute, normalizeReadingShelfRoute } from './reading-shelf';
+import type { ReadingBookmark, ReadingProgress } from './reading-shelf';
+import { clearReadingResume, hydrateReadingProgress, prepareReadingResume, prepareReadingBookmark } from './use-reading-progress';
+import { rememberReadingContext, savedReadingContext } from './reading-shelf-context';
 
 type Navigate = (route: Route) => void;
 type OpenPerson = (person: HistoryPerson | undefined) => void;
 type ModalState = { type: 'search'; query: string } | { type: 'person'; item: HistoryPerson };
-const getRoute = (): Route => resolveRoute(location.hash);
+const getRoute = (): Route => {
+  const route = resolveRoute(location.hash);
+  const reading = resolveReadingRoute(route);
+  if (reading && route.split('?', 1)[0] === `read-${reading.book.id}`) {
+    const query = route.includes('?') ? route.slice(route.indexOf('?')) : '';
+    return `read-${reading.book.id}/${reading.chapter.id}${query}` as Route;
+  }
+  return route;
+};
 const PersonPassages = lazy(() => import('./PersonPassages').then(module => ({default:module.PersonPassages})));
 const OwnerReview = lazy(() => import('./OwnerReview').then(module => ({ default: module.OwnerReview })));
 const PersonTimeline = lazy(() => import('./PersonTimeline').then(module => ({ default: module.PersonTimeline })));
 const EventComparison = lazy(() => import('./EventComparison').then(module => ({ default: module.EventComparison })));
+
+function personInReadingRoute(route: Route): string | undefined {
+  let current: Route | undefined = route;
+  for (let depth = 0; current && depth < 8; depth++) {
+    const person = resolvePersonSourcesRoute(current)?.person.id ?? resolvePersonTimelineRoute(current)?.person.id;
+    if (person) return inferReadingPerson(route, person);
+    current = resolveReadingRoute(current)?.returnTo ?? resolveEventComparisonRoute(current)?.returnTo;
+  }
+  return undefined;
+}
 
 function Dialog({ title, children, onClose, wide = false }: { title: string; children: ReactNode; onClose: () => void; wide?: boolean }) {
   const ref = useRef<HTMLDialogElement | null>(null);
@@ -54,13 +77,15 @@ function SearchPanel({ initialQuery, openItem }: { initialQuery: string; openIte
   </div>;
 }
 
-function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson, onReadSource }: {
+function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson, onReadSource, onResume, onOpenBookmark }: {
   openPerson: OpenPerson;
   view: 'list' | 'graph';
   onViewChange: (view: 'list' | 'graph') => void;
   focusPersonId: string | undefined;
   onSelectPerson: (id: string) => void;
   onReadSource: (chapterId: string, paragraphId?: string) => void;
+  onResume: (progress: ReadingProgress) => void;
+  onOpenBookmark: (bookmark: ReadingBookmark) => void;
 }) {
   const [query, setQuery] = useState('');
   const [dynasty, setDynasty] = useState('全部');
@@ -73,6 +98,7 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   return <section className="page-shell">
     <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝、十国 {tenKingdomRulers.length} 位君主{historicalLeaders.length > 0 && `、${historicalLeaders.map(person => person.name).join('、')}等历史主将`}及{personTopics.map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</p></div>
     <div className="people-view-switch" role="group" aria-label="人物浏览方式"><button aria-pressed={view === 'list'} onClick={() => onViewChange('list')}>人物名单</button><button aria-pressed={view === 'graph'} onClick={() => onViewChange('graph')}>关系图</button></div>
+    <ReadingShelfPanel onResume={onResume} onOpenBookmark={onOpenBookmark} />
     {view === 'list' && <p className="small-note people-comparison-links"><span>史料对读：</span>{eventComparisons.map(document => <a className="text-link" key={document.id} href={`#${eventComparisonRoute(document.id)}`}>{document.title} <ArrowRight size={17} /></a>)}</p>}
     {view === 'graph' ? <PeopleRelationshipGraph people={people} selectedPersonId={focusPersonId} onSelectPerson={onSelectPerson} onOpenPerson={person => openPerson(person)} onReadSource={onReadSource} /> : <>
     <div className="person-group-filter" role="group" aria-label="按人物专题筛选">{personGroups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setDynasty('全部'); }}>{group.label}</button>)}</div>
@@ -85,7 +111,7 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   </section>;
 }
 
-function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPerson; onViewRelationships: (id: string) => void; go: Navigate }) {
+function PersonDetails({ person, onViewRelationships, go, onResume, onOpenBookmark }: { person: HistoryPerson; onViewRelationships: (id: string) => void; go: Navigate; onResume: (progress: ReadingProgress) => void; onOpenBookmark: (bookmark: ReadingBookmark) => void }) {
   const relations = personTopicRelationships(person);
   const topics = topicsForPerson(person);
   const comparisons = comparisonsForPerson(person.id);
@@ -94,6 +120,7 @@ function PersonDetails({ person, onViewRelationships, go }: { person: HistoryPer
     {person.reign && <p className="person-reign">在位 {person.reign}</p>}
     {person.lifespan && <p className="person-lifespan">生卒 {person.lifespan}</p>}
     <p>{person.intro}</p>
+    <ReadingShelfPanel compact personId={person.id} onResume={onResume} onOpenBookmark={onOpenBookmark} />
     {person.sovereignTitle && <p className="small-note">史载身份：{person.sovereignTitle}</p>}
     {person.statusNote && <p className="small-note">{person.statusNote}</p>}
     {!!person.sourceNotes?.length && <details className="person-references"><summary>称谓与史料差异</summary><ul>{person.sourceNotes.map((note, index) => <li key={index}>{note}</li>)}</ul></details>}
@@ -118,10 +145,24 @@ function RelatedSources({ personId, go }: { personId: string | undefined; go: Na
 }
 
 export function App() {
+  const readingPersonContext = useRef<string | undefined>(undefined);
+  const personByEntry = useRef(new Map<string, string | undefined>());
   const [route, setRoute] = useState(() => {
     const initial = getRoute();
     const existing = readingNavigation.current();
-    const entry = existing?.route === initial && history.state?.ancientHistoryReadingEntry === existing.id ? existing : readingNavigation.activate(initial);
+    const previousEntry = history.state?.ancientHistoryReadingEntry;
+    const entry = existing?.route === initial && previousEntry === existing.id ? existing : readingNavigation.activate(initial);
+    const currentContext = savedReadingContext(entry.id, initial);
+    readingPersonContext.current = currentContext ? currentContext.personId : personInReadingRoute(initial);
+    // A fresh explicit link keeps its requested target. Only an existing browser
+    // history entry can recover a matching persisted snapshot after a reload.
+    if (!existing && typeof previousEntry === 'string' && normalizeReadingShelfRoute(initial)) {
+      const context = savedReadingContext(previousEntry, initial);
+      if (context) { readingPersonContext.current = context.personId; hydrateReadingProgress(initial, context.personId); }
+      else if (readingPersonContext.current) hydrateReadingProgress(initial, readingPersonContext.current);
+    }
+    personByEntry.current.set(entry.id, readingPersonContext.current);
+    rememberReadingContext(entry.id, initial, readingPersonContext.current);
     history.replaceState({ ...history.state, ancientHistoryReadingEntry: entry.id }, '', location.href);
     return initial;
   });
@@ -168,7 +209,12 @@ export function App() {
       }
       const completeNavigation = (programmaticPush = false) => {
         captureReadingPosition();
+        if (!programmaticPush) clearReadingResume();
         const entry = readingNavigation.activate(next, nextEntryId ?? (nativeTraversal && !programmaticPush ? 'untracked-history-entry' : undefined));
+        readingPersonContext.current = personInReadingRoute(next) ?? (personByEntry.current.has(entry.id) ? personByEntry.current.get(entry.id) : programmaticPush ? inferReadingPerson(next, readingPersonContext.current) : undefined);
+        personByEntry.current.set(entry.id, readingPersonContext.current);
+        rememberReadingContext(entry.id, next, readingPersonContext.current);
+        if (personByEntry.current.size > 64) personByEntry.current.delete(personByEntry.current.keys().next().value!);
         history.replaceState({ ...history.state, ancientHistoryReadingEntry: entry.id }, '', `#${next}`);
         currentRoute.current = next;
         setRoute(next);
@@ -218,13 +264,13 @@ export function App() {
   const comparison = resolveEventComparisonRoute(route);
   const title = ownerReview ? '校核清单' : comparison ? `${comparison.document.title} · 史料对读` : timeline ? `${timeline.person.name} · 人物年表` : personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
   useEffect(() => { document.title = `${title} · 中国古代史`; }, [title]);
-  function go(view: Route, paragraphId?: string) {
-    setModal(null); setReadingFocusId(paragraphId);
+  function go(view: Route, paragraphId?: string, resume?: { progress?: ReadingProgress; bookmark?: ReadingBookmark; personId?: string }) {
+    const restoring = !!(resume?.progress || resume?.bookmark);
     if (traversalGuard.isBouncing()) { traversalGuard.invalidate(); return; }
     traversalGuard.invalidate();
     const current = currentRoute.current;
     const expectedReturn = resolveReadingRoute(current)?.returnTo ?? resolvePersonTimelineRoute(current)?.returnTo ?? resolveEventComparisonRoute(current)?.returnTo;
-    const distance = readingNavigation.returnDistance(view, expectedReturn);
+    const distance = restoring ? null : readingNavigation.returnDistance(view, expectedReturn);
     const fromEntryId = readingNavigation.current()?.id;
     const fromActivation = readingNavigation.current()?.activation;
     let performed = false;
@@ -232,6 +278,13 @@ export function App() {
       const continueNavigation = () => {
         if (performed || readingNavigation.current()?.id !== fromEntryId || readingNavigation.current()?.activation !== fromActivation) return;
         performed = true;
+        setModal(null); setReadingFocusId(paragraphId);
+        const context = resume ? resume.personId : modal?.type === 'person' ? modal.item.id : readingPersonContext.current;
+        readingPersonContext.current = personInReadingRoute(view) ?? inferReadingPerson(view, context);
+        if (restoring) setReadingReturnRoute(undefined);
+        if (resume?.progress) prepareReadingResume(resume.progress);
+        else if (resume?.bookmark) prepareReadingBookmark(resume.bookmark);
+        else clearReadingResume();
         approvedNavigation.current = fromEntryId && fromActivation !== undefined ? { fromEntryId, fromActivation, page: readingPageKey(view) } : null;
         action();
       };
@@ -240,22 +293,34 @@ export function App() {
     };
     if (distance !== null) { perform(() => { captureReadingPosition(); history.go(distance); }); return; }
     if (getRoute() === view) {
-      if (location.hash !== `#${view}`) history.replaceState(history.state, '', `#${view}`);
-      window.scrollTo({ top: 0 });
+      perform(() => {
+        captureReadingPosition();
+        const entry = readingNavigation.activate(view, readingNavigation.current()?.id);
+        if (!restoring) readingNavigation.hydrateCurrent(view, { view: entry.view });
+        personByEntry.current.set(entry.id, readingPersonContext.current);
+        rememberReadingContext(entry.id, view, readingPersonContext.current);
+        history.replaceState({ ...history.state, ancientHistoryReadingEntry: entry.id }, '', `#${view}`);
+        approvedNavigation.current = null;
+        setNavigationActivation(entry.activation);
+        if (!restoring) window.scrollTo({ top: 0 });
+      });
     } else perform(() => { location.hash = view; });
   }
+  function resumeReading(progress: ReadingProgress) { go(progressResumeRoute(progress), undefined, { progress, personId: progress.personId }); }
+  function openSavedBookmark(bookmark: ReadingBookmark) { go(bookmarkRoute(bookmark), undefined, { bookmark, personId: bookmark.personId }); }
   const openPerson: OpenPerson = person => { if (person) setModal({ type: 'person', item: person }); };
   function viewRelationships(id: string) { setFocusPersonId(id); setPeopleView('graph'); go('people'); }
   function readRelationshipSource(chapterId: string, paragraphId?: string, context?: ReadingSearchContext) {
     const chapter = libraryChapters.find(item => item.id === chapterId);
     if (chapter) {
+      const personId = personInReadingRoute(context?.returnTo ?? currentRoute.current) ?? (modal?.type === 'person' ? modal.item.id : currentRoute.current === 'people' && peopleView === 'graph' ? focusPersonId : readingPersonContext.current);
       setReadingReturnRoute(resolvePersonSourcesRoute(currentRoute.current) || resolvePersonTimelineRoute(currentRoute.current) || resolveEventComparisonRoute(currentRoute.current) ? currentRoute.current : undefined);
-      go(chapterRoute(chapter, context ? { ...context, paragraphId } : undefined), paragraphId?.startsWith(`${chapterId}-p`) ? paragraphId : undefined);
+      go(chapterRoute(chapter, context ? { ...context, paragraphId } : undefined), paragraphId?.startsWith(`${chapterId}-p`) ? paragraphId : undefined, { personId });
     }
   }
   return <><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); const main = document.getElementById('main-content'); main?.focus(); main?.scrollIntoView(); }}>跳转到内容</a>
     <header className="site-header people-header"><a className="brand" href="#people"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="#people">人物</a></nav><div className="header-actions"><ThemeSwitcher /><button className="header-search" aria-label="搜索人物" onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button></div></header>
-    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} route={route} returnTo={timeline.returnTo} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} route={route} returnTo={comparison.returnTo} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} route={route} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
-    {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} />}</Dialog>}
+    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} onResume={resumeReading} onOpenBookmark={openSavedBookmark} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} route={route} returnTo={timeline.returnTo} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} personId={readingPersonContext.current} route={route} returnTo={comparison.returnTo} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} route={route} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} personId={readingPersonContext.current} route={route} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
+    {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} onResume={resumeReading} onOpenBookmark={openSavedBookmark} />}</Dialog>}
   </>;
 }

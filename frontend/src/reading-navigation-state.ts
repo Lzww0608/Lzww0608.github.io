@@ -17,10 +17,20 @@ export interface ReadingEntry {
   activation: number;
   cancelled: boolean;
   positioningStarted: boolean;
+  persistentRestore?: boolean;
 }
 
 export function readingPageKey(route: string): string {
   return route.split('?', 1)[0] ?? route;
+}
+
+function publicReadingSearch(route: Route): string | undefined {
+  const [path = '', query] = route.split('?', 2);
+  if (!/^read-[a-z]+(?:\/[a-z0-9-]+)?$/.test(path) && !/^person-sources\/[a-z0-9-]+(?:\/[a-z]+)?$/.test(path)) return;
+  const parameters = new URLSearchParams(query);
+  const text = (parameters.get('q') ?? '').trim();
+  const field = text && ['original', 'translation'].includes(parameters.get('field') ?? '') ? parameters.get('field')! : 'both';
+  return JSON.stringify([text, field]);
 }
 
 const clone = <T>(value: T): T => structuredClone(value);
@@ -45,10 +55,17 @@ export function createReadingNavigationSession(limit = 64) {
     // invalidates our history distances. Never append it as a fictitious push.
     if (existingId) { entries.clear(); trail = []; currentIndex = -1; }
     const previous = current();
+    const inheritedView = previous?.view && readingPageKey(previous.route) === readingPageKey(route) ? clone(previous.view) : undefined;
+    // A new search gets the shared paragraph component's normal hit expansion.
+    // Known history entries above retain their exact manually opened/closed map.
+    const search = publicReadingSearch(route);
+    if (inheritedView && search !== undefined && search !== publicReadingSearch(previous!.route) && 'expandedTranslations' in inheritedView) {
+      inheritedView.expandedTranslations = {};
+    }
     const id = `reading-${sessionId}-${++sequence}`;
     const entry: ReadingEntry = { id, route, intent: 'target', activation: ++activation,
       cancelled: false, positioningStarted: false,
-      ...(previous?.view && readingPageKey(previous.route) === readingPageKey(route) ? { view: clone(previous.view) } : {}) };
+      ...(inheritedView ? { view: inheritedView } : {}) };
     for (const discarded of trail.slice(currentIndex + 1)) entries.delete(discarded);
     trail = [...trail.slice(0, currentIndex + 1), id];
     entries.set(id, entry);
@@ -67,6 +84,20 @@ export function createReadingNavigationSession(limit = 64) {
   function readView<T extends object>(route: Route, fallback: T): T {
     const entry = current();
     return clone(entry?.route === route && entry.view ? entry.view as T : fallback);
+  }
+  // The caller has already checked the saved reference against the final public
+  // response. Keep its opaque history identity and never synthesize ancestors.
+  function hydrateCurrent(route: Route, snapshot: { view?: object; position?: ReadingPosition }): boolean {
+    const entry = current();
+    if (!entry || entry.route !== route || entry.cancelled) return false;
+    if (snapshot.view) entry.view = clone(snapshot.view);
+    if (snapshot.position) entry.position = clone(snapshot.position);
+    else delete entry.position;
+    entry.intent = snapshot.position ? 'restore' : 'target';
+    entry.persistentRestore = true;
+    entry.activation = ++activation;
+    entry.positioningStarted = false;
+    return true;
   }
   function returnDistance(target: Route, expectedReturn?: Route): number | null {
     if (!expectedReturn) return null;
@@ -90,13 +121,18 @@ export function createReadingNavigationSession(limit = 64) {
     currentIndex = entry ? 0 : -1;
     if (entry) entries.set(entry.id, entry);
   }
-  return { activate, current, savePosition, rememberView, readView, returnDistance,
+  return { activate, current, savePosition, rememberView, readView, hydrateCurrent, returnDistance,
     distanceToEntry, retainCurrentOnly,
     cancel: () => { const entry = current(); if (entry) entry.cancelled = true; },
     size: () => entries.size };
 }
 
 export const readingNavigation = createReadingNavigationSession();
+
+export function readingSnapshotCurrent(entry: ReadingEntry | undefined, expected: { route: Route; entryId?: string; activation?: number; resumeId?: number }, currentResumeId?: number): boolean {
+  return !!entry && entry.route === expected.route && entry.id === expected.entryId && entry.activation === expected.activation
+    && (expected.resumeId === undefined || expected.resumeId === currentResumeId);
+}
 
 export function readReadingView<T extends object>(route: Route, fallback: T): T {
   return readingNavigation.readView(route, fallback);

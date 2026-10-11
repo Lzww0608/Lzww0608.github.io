@@ -4,40 +4,44 @@ import type { Dispatch, SetStateAction } from 'react';
 import type { Route } from './types.ts';
 
 function readingRoot() {
-  return document.querySelector<HTMLElement>('#main-content > .person-timeline, #main-content > .event-comparison, #main-content > .reader');
+  return document.querySelector<HTMLElement>('#main-content > .person-timeline, #main-content > .event-comparison, #main-content > .reader, #main-content > .person-passages');
 }
 
 function detailKey(detail: HTMLDetailsElement, root: HTMLElement): string {
   if (detail.dataset.readingDetailsId) return detail.dataset.readingDetailsId;
   const owner = detail.closest<HTMLElement>('[data-reading-anchor], [id^="timeline-event-"], [id^="comparison-paragraph-"], .original-text > div[id]') ?? root;
-  return `${owner.dataset.readingAnchor ?? owner.id ?? 'root'}/details/${[...owner.querySelectorAll('details')].indexOf(detail)}`;
+  return `${owner.dataset.readingAnchor || owner.id || 'root'}/details/${[...owner.querySelectorAll('details')].indexOf(detail)}`;
 }
 
 export function captureReadingPosition() {
   const root = readingRoot();
   if (!root) return;
-  const anchors = [...root.querySelectorAll<HTMLElement>('[data-reading-anchor], [id^="timeline-event-"], [id^="comparison-paragraph-"], .original-text > div[id]')]
+  const anchors = [...root.querySelectorAll<HTMLElement>('[data-reading-anchor], [id^="timeline-event-"], [id^="comparison-paragraph-"], div[id^="person-passage-"], .original-text > div[id]')]
     .filter(element => element.getClientRects().length && element.id)
     .map(element => { const box = element.getBoundingClientRect(); return { id: element.id, top: box.top, bottom: box.bottom }; });
   const anchor = chooseReadingAnchor(anchors);
   const details: Record<string, boolean> = {};
   for (const detail of root.querySelectorAll('details')) details[detailKey(detail, root)] = detail.open;
-  readingNavigation.savePosition({ scrollY: Math.max(0, window.scrollY), ...(anchor ? { anchorId: anchor.id, offset: anchor.top } : {}), details });
+  const position = { scrollY: Math.max(0, window.scrollY), ...(anchor ? { anchorId: anchor.id, offset: anchor.top } : {}), details };
+  readingNavigation.savePosition(position);
+  return position;
 }
 
 // Change an entire view atomically when visiting an existing history entry. A
 // conditional render-time reset avoids committing old controls into the new
 // entry and does not remount/refetch an already loaded comparison page.
 export function useReadingView<T extends object>(route: Route, fallback: T): [T, Dispatch<SetStateAction<T>>] {
-  const entryId = readingNavigation.current()?.id ?? route;
-  const [state, setState] = useState(() => ({ entryId, value: readReadingView(route, fallback) }));
+  const entry = readingNavigation.current();
+  const entryId = entry?.id ?? route;
+  const entryKey = `${entryId}/${entry?.activation ?? 0}`;
+  const [state, setState] = useState(() => ({ entryId, entryKey, value: readReadingView(route, fallback) }));
   let value = state.value;
-  if (state.entryId !== entryId) {
+  if (state.entryKey !== entryKey) {
     value = readReadingView(route, fallback);
-    setState({ entryId, value });
+    setState({ entryId, entryKey, value });
   }
   useEffect(() => { rememberReadingView(route, state.value, state.entryId); }, [route, state]);
-  const setValue: Dispatch<SetStateAction<T>> = next => setState(current => ({ entryId,
+  const setValue: Dispatch<SetStateAction<T>> = next => setState(current => ({ entryId, entryKey,
     value: typeof next === 'function' ? (next as (value: T) => T)(current.value) : next }));
   return [value, setValue];
 }
@@ -81,7 +85,7 @@ export function useReadingPosition({ route, ready, targetId, focusSelector, layo
       if (decision.kind === 'restore') {
         const anchor = decision.position.anchorId ? document.getElementById(decision.position.anchorId) : null;
         const top = anchor && root!.contains(anchor) && decision.position.offset !== undefined
-          ? window.scrollY + anchor.getBoundingClientRect().top - decision.position.offset : decision.position.scrollY;
+          ? window.scrollY + anchor.getBoundingClientRect().top - decision.position.offset : current!.persistentRestore ? 0 : decision.position.scrollY;
         window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
       } else if (decision.kind === 'target') {
         const anchor = document.getElementById(decision.anchorId);

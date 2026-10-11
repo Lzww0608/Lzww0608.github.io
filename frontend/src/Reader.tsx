@@ -11,12 +11,13 @@ import { CollapsibleSidebar, useSidebarState } from './CollapsibleSidebar';
 import { readingFocusKey } from './reading-focus';
 import { useReadingPosition, useReadingView } from './use-reading-position';
 import { readingNavigation } from './reading-navigation-state';
+import { useReadingProgress } from './use-reading-progress';
 import { resolvePersonTimelineRoute } from './person-timeline-route';
 import { resolveEventComparisonRoute } from './event-comparison-route';
 import type { Book, ChapterSummary, ChapterResponse, ChapterParagraph, Route } from './types';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
-export function Reader({ route, book, entry, go, focusParagraphId, returnTo, search = { query: '', field: 'both' } }: {
+export function Reader({ route, book, entry, go, focusParagraphId, returnTo, personId, search = { query: '', field: 'both' } }: {
   route: Route;
   book: Book;
   entry: ChapterSummary;
@@ -24,6 +25,7 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, sea
   focusParagraphId?: string;
   returnTo?: Route;
   search?: PassageSearchOptions;
+  personId?: string;
 }) {
   const directoryRef = useRef<HTMLElement>(null);
   const directoryTrigger = useRef<HTMLButtonElement>(null);
@@ -42,9 +44,15 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, sea
   const paragraphs = useMemo(() => originalParagraphs(
     chapter?.paragraphs ?? [], originalScript.displayScript, originalScript.converter,
   ), [chapter?.paragraphs, originalScript.displayScript, originalScript.converter]);
+  const anchors = useMemo(() => (chapter?.paragraphs ?? []).map(paragraph => ({ anchorId: paragraph.id, chapterId: entry.id, paragraph })), [chapter, entry.id]);
+  const progress = useReadingProgress({ route, personId, ready: ['ready', 'archive', 'error'].includes(readState), anchors,
+    view: { fontSize: size, expandedTranslations: view.expandedTranslations },
+    navigationView: saved => ({ size: saved.fontSize ?? 23, expandedTranslations: saved.expandedTranslations ?? {} }),
+    progressRoute: anchorId => chapterRoute(entry, { ...search, paragraphId: anchorId }),
+    blockedNotice: readState === 'error' ? '当前原文暂时无法核验，保存位置暂不恢复。' : undefined });
   const restoredEntry = readingNavigation.current()?.intent === 'restore' && !!readingNavigation.current()?.position;
-  const position = useReadingPosition({ route, ready: ['ready', 'archive', 'error'].includes(readState) && (!search.query || restoredEntry),
-    targetId: search.query ? undefined : focusParagraphId, layoutKey: `${size}/${originalScript.displayScript}/${readState}` });
+  const position = useReadingPosition({ route, ready: progress.ready && readState !== 'error' && (!search.query || restoredEntry),
+    targetId: search.query || progress.stale ? undefined : focusParagraphId, layoutKey: `${size}/${originalScript.displayScript}/${readState}` });
   useEffect(() => {
     const controller = new AbortController();
     setEditing(null); setSaveNotice('');
@@ -53,12 +61,12 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, sea
       setChapter(value); setReadState('archive-pending');
     }).then(result => {
       if (!controller.signal.aborted) { setChapter(result.chapter); setReadState(result.source === 'api' ? 'ready' : 'archive'); }
-    }).catch(() => { if (!controller.signal.aborted) setReadState('error'); });
+    }).catch(() => { if (!controller.signal.aborted) { setChapter(null); setReadState('error'); } });
     return () => controller.abort();
   }, [book.id, entry.id, retry]);
   useEffect(() => {
     const paragraph = chapter?.paragraphs.find(item => item.id === focusParagraphId);
-    if (!search.query || restoredEntry || position.cancelled() || !focusParagraphId || !paragraph) return;
+    if (!progress.ready || !['ready', 'archive'].includes(readState) || !search.query || restoredEntry || progress.stale || position.cancelled() || !focusParagraphId || !paragraph) return;
     const key = readingFocusKey(entry.id, paragraph, search.query, search.field, originalScript.displayScript);
     if (focusedParagraph.current === key) return;
     const target = document.getElementById(focusParagraphId);
@@ -79,7 +87,7 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, sea
     const observer = new MutationObserver(() => { if (locateMatch()) observer.disconnect(); });
     observer.observe(target, { subtree: true, childList: true, attributes: true, attributeFilter: ['hidden'] });
     return () => observer.disconnect();
-  }, [chapter, entry.id, focusParagraphId, search.query, search.field, originalScript.displayScript, route, restoredEntry]);
+  }, [chapter, entry.id, focusParagraphId, search.query, search.field, originalScript.displayScript, route, restoredEntry, progress.ready, progress.stale, readState]);
   useEffect(() => {
     const container = directoryRef.current;
     const selected = container?.querySelector<HTMLElement>('[aria-current="page"]');
@@ -138,7 +146,8 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, sea
         <p className="sentence-reading-hint">点击原文句子，在附近查看译文。</p>
         <div className="reader-status" role="status">{readState === 'loading' && '正在打开原文…'}{readState === 'archive-pending' && '原文已打开，正在检查已发布译文…'}{readState === 'archive' && '当前显示随站保存的完整原文。'}{readState === 'error' && <><span>这一篇暂时无法打开。</span> <button className="text-link small" onClick={() => setRetry(value => value + 1)}>重新读取</button></>}</div>
         {saveNotice && <p className="translation-notice" role="status">{saveNotice}</p>}
-        <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map((paragraph, index) => <OriginalParagraph key={paragraph.id} paragraph={chapter?.paragraphs[index] ?? paragraph} displayedOriginal={paragraph.original} searchQuery={search.query} searchField={search.field} translationExpanded={view.expandedTranslations[paragraph.id]} onTranslationExpandedChange={expanded => setView(current => ({ ...current, expandedTranslations: { ...current.expandedTranslations, [paragraph.id]: expanded } }))} onEdit={historyApiBase && readState === 'ready' ? () => setEditing(chapter?.paragraphs[index] ?? null) : undefined} />)}</div>
+        {progress.notice && <p className="reading-progress-notice" role="status">{progress.notice}</p>}
+        <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map((paragraph, index) => <OriginalParagraph key={paragraph.id} paragraph={chapter?.paragraphs[index] ?? paragraph} displayedOriginal={paragraph.original} searchQuery={search.query} searchField={search.field} bookmark={['ready', 'archive'].includes(readState) ? { chapterId: entry.id, personId } : undefined} translationExpanded={view.expandedTranslations[paragraph.id]} onTranslationExpandedChange={expanded => setView(current => ({ ...current, expandedTranslations: { ...current.expandedTranslations, [paragraph.id]: expanded } }))} onEdit={historyApiBase && readState === 'ready' ? () => setEditing(chapter?.paragraphs[index] ?? null) : undefined} />)}</div>
         {chapter && <div className="reading-source"><span>完整篇章原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留。译文支持逐段修订，旧版本保留。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
         <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(contextRoute(previous)) : go(returnTo ?? 'people')}><ArrowLeft size={18} />{previous ? '上一篇' : returnTo ? returnLabel : '返回人物'}</button>{next ? <button className="text-link" onClick={() => go(contextRoute(next))}>下一篇 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '返回人物'} <ArrowRight size={18} /></button>}</div>
       </article>

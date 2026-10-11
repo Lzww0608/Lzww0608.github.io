@@ -69,14 +69,22 @@ test('latest valid API translations replace the matching archived page without w
     return String(url).startsWith('https://history.example')?json(live):staticFetch(url);
   }});
   assert.equal(result.source,'api');assert.equal(result.page.items[0].paragraphs[0].translation.text,'测试用最新公开译文');
-  assert.equal(callback.length,1);assert.notEqual(callback[0].items[0].paragraphs[0].translation.text,'测试用最新公开译文');
+  assert.equal(callback.length,0,'an already responding API must not be overwritten by a late archive preview');
 });
 
-test('wrong-person, wrong-book and stale-source API responses cannot replace a valid static summary',async()=>{
+test('ordinary malformed or failed HTTP responses do not restore older person passages',async()=>{
+  for(const response of [new Response(null,{status:204}),new Response('bad json',{status:200}),new Response('',{status:503}),
+    new Response(new ReadableStream({start(controller){controller.error(new Error('truncated'));}}),{status:200})]){
+    let previews=0;const staticFetch=archiveFetcher();
+    await assert.rejects(readPersonPassages({...options,apiBase:'https://history.example',onArchive:()=>previews++,fetcher:url=>String(url).startsWith('https://history.example')?response:staticFetch(url)}),/Current person passages/);
+    assert.equal(previews,0);
+  }
+});
+
+test('wrong-person, wrong-book and stale-source responding API pages cannot revive a static summary',async()=>{
   for(const mutate of [value=>value.personId='li-siyuan',value=>value.bookId='old',value=>value.items[0].paragraphs[0].original+='改字',value=>value.items[0].spans[0].originalRevision++]){
     const invalid=structuredClone(page);mutate(invalid);const staticFetch=archiveFetcher();
-    const result=await readPersonPassages({...options,apiBase:'https://history.example',fetcher:url=>String(url).startsWith('https://history.example')?json(invalid):staticFetch(url)});
-    assert.equal(result.source,'archive');assert.equal(result.page.items[0].paragraphs[0].original,chapters.get('new-v06').paragraphs[1].original);
+    await assert.rejects(readPersonPassages({...options,apiBase:'https://history.example',fetcher:url=>String(url).startsWith('https://history.example')?json(invalid):staticFetch(url)}),/Current person passages/);
   }
 });
 

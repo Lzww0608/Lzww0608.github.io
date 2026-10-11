@@ -13,7 +13,7 @@ export async function readPersonPassages({personId,bookId,cursor='0',limit=50,qu
   query=validateSearchQuery(query);
   if (!searchFields.includes(field)) throw new Error('Invalid passage search field');
   signal.throwIfAborted();
-  let authoritativeFailure=false;
+  let apiResponded=false;
   async function request(url:string,timeout:number):Promise<unknown> {
     const response=await fetcher(url,{signal:AbortSignal.any([signal,AbortSignal.timeout(timeout)]),credentials:'omit'});
     if(!response.ok) throw new Error('Person passages unavailable');
@@ -65,22 +65,22 @@ export async function readPersonPassages({personId,bookId,cursor='0',limit=50,qu
     const page=await parsePersonPassagesPage({schemaVersion:1,scope:'current-archive',personId,bookId:bookId??null,coverage:index.coverage,total,
       unavailableCount:0,resultSetRevision:await originalHash(snapshot),nextCursor:Number(cursor)+items.length<total?String(Number(cursor)+items.length):null,items,
       ...(query ? {search:{query,field,normalizedQuery:engine!.normalize(query)}} : {})},personId,bookId,cursor,limit,{query,field});
-    if(!signal.aborted) onArchive?.(page);
+    if(!signal.aborted && !apiResponded) onArchive?.(page);
     return page;
   }
   const archiveRead=archive();
   const params=new URLSearchParams({cursor,limit:String(limit)});if(bookId)params.set('bookId',bookId);if(query){params.set('q',query);params.set('field',field);}
   const liveRead=apiBase ? (async()=>{
-    const response=await fetcher(`${apiBase.replace(/\/$/,'')}/api/people/${encodeURIComponent(personId)}/passages?${params}`,{signal:AbortSignal.any([signal,AbortSignal.timeout(6000)]),credentials:'omit'});
+    const response=await fetcher(`${apiBase.replace(/\/$/,'')}/api/people/${encodeURIComponent(personId)}/passages?${params}`,{signal:AbortSignal.any([signal,AbortSignal.timeout(20000)]),credentials:'omit'});
+    apiResponded=true;
     if(!response.ok)throw new Error('Person passages unavailable');
-    try{return await parsePersonPassagesPage(await response.json(),personId,bookId,cursor,limit,{query,field});}
-    catch(error){if(query)authoritativeFailure=true;throw error;}
+    return await parsePersonPassagesPage(await response.json(),personId,bookId,cursor,limit,{query,field});
   })() : Promise.reject(new Error('API not configured'));
   const [live,local]=await Promise.allSettled([liveRead,archiveRead]);
   if(signal.aborted)throw new DOMException('Aborted','AbortError');
   if(live.status==='fulfilled')return {page:live.value,source:'api'};
-  // A successful query response that cannot be verified must not revive an old static result.
-  if(authoritativeFailure)throw new Error('Current search result could not be verified');
+  // Responding APIs remain authoritative for ordinary and searched pages alike.
+  if(apiResponded)throw new Error('Current person passages could not be verified');
   if(local.status==='fulfilled')return {page:local.value,source:'archive'};
   throw new Error('No available person passages');
 }

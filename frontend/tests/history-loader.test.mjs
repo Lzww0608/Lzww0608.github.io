@@ -41,10 +41,18 @@ test('the archive is rendered while the API is pending, then published translati
   assert.equal(result.chapter.paragraphs[0].translation.text, '已发布译文');
 });
 
-test('wrong-chapter API responses cannot replace the requested local chapter', async () => {
+test('a responding wrong-chapter API cannot revive the requested archived chapter', async () => {
   const other = chapters.find(chapter => chapter.id === 'old-v001');
-  const result = await readChapter({ ...options(), fetcher: async url => response(url.startsWith('https:') ? other : archived) });
-  assert.equal(result.source, 'archive'); assert.equal(result.chapter.id, 'old-v110');
+  await assert.rejects(readChapter({ ...options(), fetcher: async url => response(url.startsWith('https:') ? other : archived) }), /Current chapter/);
+});
+
+test('empty, malformed, failed and truncated responding chapters pause instead of falling back', async () => {
+  for (const live of [new Response(null, {status:204}), response({}), new Response('bad json', {status:200}), new Response('', {status:503}),
+    new Response(new ReadableStream({start(controller){controller.error(new Error('truncated'));}}), {status:200})]) {
+    let previews=0;
+    await assert.rejects(readChapter({...options(), onArchive:()=>previews++, fetcher:async url=>url.startsWith('https:')?live:response(archived)}), /Current chapter/);
+    assert.equal(previews,0);
+  }
 });
 
 test('aborted navigation does not publish stale content', async () => {

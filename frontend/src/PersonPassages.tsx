@@ -7,13 +7,15 @@ import { loadPersonPassages } from './person-passages-api';
 import { OriginalParagraph } from './OriginalParagraph';
 import { useOriginalScript } from './use-original-script';
 import { matchesPassagePageBaseline } from './person-passages-pagination';
+import { useReadingPosition, useReadingView } from './use-reading-position';
+import { pendingReadingResume, readingResumeNonce, useReadingProgress } from './use-reading-progress';
 import type { PassagePageBaseline } from './person-passages-pagination';
 import type { Book, ChapterParagraph, HistoryPerson, PersonPassage, PersonPassagesResponse, Route } from './types';
 import './person-passages.css';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
 type LoadedPage = { key: string; state: ReadState; page: PersonPassagesResponse | null };
-type Pagination = { target: string; cursors: string[]; index: number };
+type Pagination = { target: string; cursors: string[]; index: number; baseline?: PassagePageBaseline };
 type ChapterGroup = {
   first: PersonPassage;
   entries: { passage: PersonPassage; paragraph: ChapterParagraph }[];
@@ -53,7 +55,7 @@ function groupPassages(items: PersonPassage[]): BookGroup[] {
 function PassageProvenance({ passage }: { passage: PersonPassage }) {
   const chapter = chapterMetadata.get(passage.chapterId);
   const provenance = chapter?.bookId === passage.bookId ? chapter.provenance : undefined;
-  return <details className="provenance passage-provenance">
+  return <details className="provenance passage-provenance" data-reading-details-id={`person-passage-${passage.paragraphs[0]?.id}/provenance`}>
     <summary>出处与版本信息</summary>
     <p>底本：{passage.edition}<br />篇章：{passage.bookTitle} · {passage.chapterTitle}</p>
     {provenance && <p>归档来源：{provenance.pageTitle} · 原页修订 {provenance.revisionId}<br />
@@ -69,8 +71,9 @@ function PassageProvenance({ passage }: { passage: PersonPassage }) {
   </details>;
 }
 
-export function PersonPassages({ person, book, go, onReadSource, search }: {
+export function PersonPassages({ person, book, route, go, onReadSource, search }: {
   person: HistoryPerson;
+  route: Route;
   book?: Book;
   go: (route: Route) => void;
   onReadSource: (chapterId: string, paragraphId?: string, context?: ReadingSearchContext) => void;
@@ -80,13 +83,16 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
   const [draftQuery, setDraftQuery] = useState(search.query);
   const [draftField, setDraftField] = useState(search.field);
   const [searchError, setSearchError] = useState('');
-  const [pagination, setPagination] = useState<Pagination>({ target, cursors: ['0'], index: 0 });
+  const [view, setView] = useReadingView<{ size: number; expandedTranslations: Record<string, boolean>; pagination: Pagination }>(route, { size: 23, expandedTranslations: {}, pagination: { target, cursors: ['0'], index: 0 } });
+  const pagination = view.pagination;
+  const setPagination = (next: Pagination | ((current: Pagination) => Pagination)) => setView(current => ({ ...current, pagination: typeof next === 'function' ? next(current.pagination) : next }));
   const currentPagination = pagination.target === target ? pagination : { target, cursors: ['0'], index: 0 };
   const cursor = currentPagination.cursors[currentPagination.index] ?? '0';
   const requestKey = `${target}/${cursor}`;
   const [loaded, setLoaded] = useState<LoadedPage>({ key: requestKey, state: 'loading', page: null });
   const [retry, setRetry] = useState(0);
-  const [size, setSize] = useState(23);
+  const size = view.size;
+  const setSize = (next: (size: number) => number) => setView(current => ({ ...current, size: next(current.size) }));
   const [paginationNotice, setPaginationNotice] = useState<{ target: string; text: string } | null>(null);
   const firstPageBaseline = useRef<PassagePageBaseline | null>(null);
   const resultsHeading = useRef<HTMLHeadingElement>(null);
@@ -95,11 +101,30 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
   const current = loaded.key === requestKey ? loaded : { key: requestKey, state: 'loading' as const, page: null };
   const page = current.page;
   const groups = useMemo(() => groupPassages(page?.items ?? []), [page?.items]);
+  const resumeHandled = useRef<number | undefined>(undefined);
+  const resumeCandidate = pendingReadingResume(route);
+  const resumeKey = resumeCandidate ? readingResumeNonce(route) : undefined;
+  const [resumeBlocked, setResumeBlocked] = useState('');
+  const anchors = useMemo(() => (page?.items ?? []).flatMap(passage => passage.paragraphs.map(paragraph => ({ anchorId: `person-passage-${paragraph.id}`, chapterId: passage.chapterId, paragraph }))), [page]);
+  const progress = useReadingProgress({ route, personId: person.id, ready: current.state === 'error' || ['ready', 'archive'].includes(current.state) && (!resumeCandidate || resumeHandled.current === resumeKey), anchors,
+    view: { fontSize: size, expandedTranslations: view.expandedTranslations, ...(page && firstPageBaseline.current ? { passages: { cursor, cursors: currentPagination.cursors, index: currentPagination.index, source: firstPageBaseline.current.source, resultSetRevision: firstPageBaseline.current.resultSetRevision } } : {}) },
+    navigationView: saved => ({ size: saved.fontSize ?? 23, expandedTranslations: saved.expandedTranslations ?? {}, pagination: currentPagination }),
+    blockedNotice: current.state === 'error' ? '当前人物记载暂时无法核验，保存位置暂不恢复。' : resumeBlocked || undefined });
+  useReadingPosition({ route, ready: progress.ready && current.state !== 'error', layoutKey: `${requestKey}/${size}/${originalScript.displayScript}` });
+
+  useEffect(() => {
+    if (!resumeKey || resumeHandled.current === resumeKey) return;
+    firstPageBaseline.current = null;
+    setResumeBlocked('');
+    setPagination({ target, cursors: ['0'], index: 0 });
+    setRetry(value => value + 1);
+  }, [resumeKey]);
 
   useEffect(() => {
     setPagination(value => value.target === target ? value : { target, cursors: ['0'], index: 0 });
-    firstPageBaseline.current = null;
+    firstPageBaseline.current = currentPagination.baseline ?? null;
     setPaginationNotice(null);
+    setResumeBlocked('');
     setDraftQuery(search.query);
     setDraftField(search.field);
     setSearchError('');
@@ -114,7 +139,22 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
       }
     }, cursor, search).then(result => {
       if (controller.signal.aborted) return;
+      const savedProgress = pendingReadingResume(route);
+      const savedKey = savedProgress ? readingResumeNonce(route) : undefined;
+      if (cursor === '0' && savedProgress && savedKey && resumeHandled.current !== savedKey) {
+        resumeHandled.current = savedKey;
+        const savedPage = savedProgress.view.passages;
+        if (savedPage && savedPage.source === result.source && savedPage.resultSetRevision === result.page.resultSetRevision) {
+          if (savedPage.index > 0) {
+            firstPageBaseline.current = { target, source: result.source, resultSetRevision: result.page.resultSetRevision };
+            setPagination({ target, cursors: savedPage.cursors, index: savedPage.index, baseline: firstPageBaseline.current });
+            setLoaded({ key: `${target}/${savedPage.cursor}`, state: 'loading', page: null });
+            return;
+          }
+        } else if (savedPage) setResumeBlocked('记载范围或读取来源已变化，已打开当前第一页；保存位置暂不恢复。');
+      }
       if (cursor !== '0' && !matchesPassagePageBaseline(firstPageBaseline.current, target, result.source, result.page.resultSetRevision)) {
+        if (savedProgress) setResumeBlocked('记载范围或读取来源在打开时变化，已返回当前第一页；保存位置暂不恢复。');
         firstPageBaseline.current = null;
         setLoaded({ key: `${target}/0`, state: 'loading', page: null });
         setPagination({ target, cursors: ['0'], index: 0 });
@@ -123,12 +163,18 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
         return;
       }
       if (cursor === '0') firstPageBaseline.current = { target, source: result.source, resultSetRevision: result.page.resultSetRevision };
+      if (savedProgress?.position.anchorId && cursor !== '0' && !result.page.items.some(passage => passage.paragraphs.some(paragraph => `person-passage-${paragraph.id}` === savedProgress.position.anchorId))) {
+        setResumeBlocked('保存段落不在当前记载页，已返回当前第一页。');
+        setPagination({ target, cursors: ['0'], index: 0 });
+        setLoaded({ key: `${target}/0`, state: 'loading', page: null });
+        return;
+      }
       setLoaded({ key: requestKey, state: result.source === 'api' ? 'ready' : 'archive', page: result.page });
     }).catch(() => {
       if (!controller.signal.aborted) setLoaded({ key: requestKey, state: 'error', page: null });
     });
     return () => controller.abort();
-  }, [person.id, book?.id, search.query, search.field, cursor, requestKey, retry]);
+  }, [person.id, book?.id, search.query, search.field, cursor, requestKey, retry, route]);
 
   useEffect(() => {
     if (focusResults.current && current.state !== 'loading') {
@@ -166,11 +212,11 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
     if (direction === 'previous' && currentPagination.index > 0) {
       setPaginationNotice(null);
       focusResults.current = true;
-      setPagination({ ...currentPagination, index: currentPagination.index - 1 });
+      setPagination({ ...currentPagination, index: currentPagination.index - 1, baseline: firstPageBaseline.current ?? undefined });
     } else if (direction === 'next' && page.nextCursor) {
       setPaginationNotice(null);
       focusResults.current = true;
-      setPagination({ target, cursors: [...currentPagination.cursors.slice(0, currentPagination.index + 1), page.nextCursor], index: currentPagination.index + 1 });
+      setPagination({ target, cursors: [...currentPagination.cursors.slice(0, currentPagination.index + 1), page.nextCursor], index: currentPagination.index + 1, baseline: firstPageBaseline.current ?? undefined });
     }
   }
 
@@ -231,6 +277,7 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
         {current.state === 'error' && <><span>相关记载暂时无法打开。</span> <button className="text-link small" onClick={() => setRetry(value => value + 1)}>重新读取</button></>}
       </div>
       {paginationNotice?.target === target && <p className="passages-unavailable" role="status">{paginationNotice.text}</p>}
+      {progress.notice && <p className="reading-progress-notice" role="status">{progress.notice}</p>}
       {page && <p className="passages-scope">当前归档收录 {page.coverage.bookCount} 部文献、{page.coverage.chapterCount} 篇原文、{page.coverage.paragraphCount.toLocaleString('zh-CN')} 段。已收录的选卷不等于史书全本，未列入汇总也不代表其他史料没有记载。</p>}
       {!!page?.unavailableCount && <p className="passages-unavailable" role="status">{page.unavailableCount} 则关联的原文版本已变化，暂未列入。可进入完整篇章阅读，待重新核对后恢复汇总。</p>}
       {page?.total === 0 && <div className="passages-empty"><h3>{search.query ? '没有找到匹配的记载' : '当前文献暂无已核对的相关片段'}</h3><p>{search.query ? '可以缩短关键词、改换搜索范围，或查看其他文献。' : '可以查看其他文献中的记载，或返回人物选择其他条目。'}</p>{search.query && <button className="text-link" onClick={clearSearch}>清除检索 <ArrowRight size={17} /></button>}{book && <button className="text-link" onClick={() => switchBook('')}>查看全部文献 <ArrowRight size={17} /></button>}</div>}
@@ -251,7 +298,7 @@ export function PersonPassages({ person, book, go, onReadSource, search }: {
                   return <div className="passage-entry" key={paragraph.id}>
                     {previous && gap !== undefined && gap > 0 && <p className="passage-gap">中间另有 {gap} 段，未列入本人物汇总。<button onClick={() => readContext(passage.chapterId, previous.id)}>查看上下文</button></p>}
                     <div className="passage-context"><span>{kindLabels[passage.kind]} · 原篇第 {paragraph.position} 段{search.query && matches && ` · ${matches.original.length && matches.translation.length ? '原文与译文命中' : matches.original.length ? '原文命中' : '译文命中'}`}</span><button onClick={() => readContext(passage.chapterId, paragraph.id)}>{search.query ? '查看上下文并定位' : '在全文中定位'}</button></div>
-                    <OriginalParagraph paragraph={paragraph} displayedOriginal={displayedOriginal} anchorId={`person-passage-${paragraph.id}`} searchQuery={search.query} searchField={search.field} translationMatch={!!matches?.translation.length} onEdit={current.state === 'ready' ? () => readContext(passage.chapterId, paragraph.id) : undefined} />
+                    <OriginalParagraph paragraph={paragraph} displayedOriginal={displayedOriginal} anchorId={`person-passage-${paragraph.id}`} searchQuery={search.query} searchField={search.field} translationMatch={!!matches?.translation.length} bookmark={['ready', 'archive'].includes(current.state) ? { chapterId: passage.chapterId, personId: person.id } : undefined} translationExpanded={view.expandedTranslations[paragraph.id]} onTranslationExpandedChange={expanded => setView(current => ({ ...current, expandedTranslations: { ...current.expandedTranslations, [paragraph.id]: expanded } }))} onEdit={current.state === 'ready' ? () => readContext(passage.chapterId, paragraph.id) : undefined} />
                     {!paragraph.translation && <p className="passage-no-translation">这段暂未提供对应的已发布白话译文。</p>}
                   </div>;
                 })}

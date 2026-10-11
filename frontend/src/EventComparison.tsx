@@ -7,6 +7,8 @@ import { readEventComparison } from './event-comparison-loader';
 import { eventComparisonRoute } from './event-comparison-route';
 import { personTimelineRoute, resolvePersonTimelineRoute } from './person-timeline-route';
 import { useReadingPosition, useReadingView } from './use-reading-position';
+import { useReadingProgress } from './use-reading-progress';
+import type { PublicReadingAnchor } from './use-reading-progress';
 import { readComparisonTimelineLinks } from './event-timeline-links-loader';
 import type { ResolvedEventTimelineLink } from './event-timeline-links';
 import { useOriginalScript } from './use-original-script';
@@ -54,11 +56,12 @@ function Difference({ difference, sources, displayOriginal, onRead }: {
   </article>;
 }
 
-export function EventComparison({ document, route, stageId, returnTo, go, onReadSource }: {
+export function EventComparison({ document, route, stageId, returnTo, personId, go, onReadSource }: {
   document: EventComparisonDocument;
   route: Route;
   stageId?: string;
   returnTo?: Route;
+  personId?: string;
   go: (route: Route) => void;
   onReadSource: (chapterId: string, paragraphId?: string, context?: ReadingSearchContext) => void;
 }) {
@@ -95,8 +98,18 @@ export function EventComparison({ document, route, stageId, returnTo, go, onRead
   const unavailableCount = page?.sources.filter(source => source.status !== 'available').length ?? 0;
   const archiveCount = page?.sources.filter(source => source.status === 'available' && source.source === 'archive').length ?? 0;
   const returnTimeline = returnTo ? resolvePersonTimelineRoute(returnTo) : null;
-
-  useReadingPosition({ route, ready: readState === 'error' || readState === 'ready' && linksState !== 'loading', targetId: stageId ? `comparison-stage-${stageId}` : undefined,
+  const readingPersonId = personId ?? returnTimeline?.person.id;
+  const anchors = useMemo<PublicReadingAnchor[]>(() => (page?.stages ?? []).flatMap(stage => {
+    const available = stage.sourceIds.map(id => sources.get(id)).filter((source): source is Extract<ComparisonSource, { status: 'available' }> => source?.status === 'available');
+    return [...(available.length ? [{ anchorId: `comparison-stage-${stage.id}`, comparisonId: document.id, stageId: stage.id, sources: available.map(source => ({ anchorId: source.id, sourceId: source.id, chapterId: source.chapterId, paragraph: source.paragraph })) }] : []),
+      ...available.map(source => ({ anchorId: `comparison-paragraph-${document.id}-${stage.id}-${source.id}`, chapterId: source.chapterId, paragraph: source.paragraph }))];
+  }), [page, sources, document.id]);
+  const progress = useReadingProgress({ route, personId: readingPersonId, ready: readState === 'error' || readState === 'ready' && linksState !== 'loading', anchors,
+    view: { selectedBooks, expandedTranslations, fontSize },
+    navigationView: saved => ({ selectedBooks: saved.selectedBooks ?? initialBooks(document), expandedTranslations: saved.expandedTranslations ?? {}, fontSize: Math.min(28, saved.fontSize ?? 20) }),
+    progressRoute: anchorId => eventComparisonRoute(document.id, page?.stages.find(stage => anchorId === `comparison-stage-${stage.id}` || stage.sourceIds.some(sourceId => anchorId === `comparison-paragraph-${document.id}-${stage.id}-${sourceId}`))?.id ?? stageId),
+    blockedNotice: readState === 'error' ? '当前对读资料暂时无法核验，保存位置暂不恢复。' : undefined });
+  useReadingPosition({ route, ready: progress.ready && readState !== 'error', targetId: !progress.stale && stageId ? `comparison-stage-${stageId}` : undefined,
     focusSelector: 'h2', layoutKey: `${page?.resultSetRevision ?? readState}/${selectedBooks.join(',')}/${fontSize}/${directory.collapsed}/${script.displayScript}` });
 
   useEffect(() => {
@@ -153,6 +166,7 @@ export function EventComparison({ document, route, stageId, returnTo, go, onRead
       {readState === 'ready' && linksState === 'error' && <p className="comparison-links-status">相关人物的年表事件当前无法核验，暂不显示跳转入口。</p>}
       {unavailableLinks > 0 && <p className="comparison-links-status">部分人物事件的依据已变化，其对应阶段的跳转暂不可用。</p>}
       {script.pending && <p>正在准备简体原文…</p>}
+      {progress.notice && <p className="reading-progress-notice">{progress.notice}</p>}
       {script.error && <p>简体转换暂不可用，当前显示繁体底本。<button type="button" onClick={script.retry}>重试转换</button></p>}
     </div>
     {page && <>
@@ -177,7 +191,7 @@ export function EventComparison({ document, route, stageId, returnTo, go, onRead
               const bookSources = stageSources.filter(source => source.bookId === book.id);
               return <section className="comparison-book" key={book.id} data-book-id={book.id} aria-label={`${stage.title}的${book.title}记载`}><h3>{book.title}</h3>{bookSources.length === 0 ? <p className="comparison-no-record">本阶段未选取该书相关段落，可在其他阶段查看已选材料。</p> : bookSources.map(source => <article className="comparison-source" key={source.id} data-source-id={source.id} data-status={source.status}>
                 <div className="comparison-source-caption"><strong>{source.chapterTitle}</strong><span>{source.label}</span>{source.status === 'available' && <span>原篇第 {source.paragraph.position} 段</span>}<button type="button" onClick={() => readSource(source, stage)}>{source.status === 'available' ? '查看原篇与前后文' : '查看当前原篇'}</button></div>
-                {source.status === 'available' ? <div className="comparison-original original-text" data-reading-anchor={`comparison-paragraph-${document.id}-${stage.id}-${source.id}`} lang={script.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} style={{ fontSize }}><OriginalParagraph paragraph={source.paragraph} displayedOriginal={displayOriginal(source.paragraph.original)} anchorId={`comparison-paragraph-${document.id}-${stage.id}-${source.id}`} translationExpanded={expandedTranslations[`${stage.id}/${source.id}`] ?? false} onTranslationExpandedChange={expanded => setExpandedTranslations(current => ({ ...current, [`${stage.id}/${source.id}`]: expanded }))} /></div> : <p className="comparison-paused">此处原文或译文目前无法核验，暂不展示旧内容。</p>}
+                {source.status === 'available' ? <div className="comparison-original original-text" data-reading-anchor={`comparison-paragraph-${document.id}-${stage.id}-${source.id}`} lang={script.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} style={{ fontSize }}><OriginalParagraph paragraph={source.paragraph} displayedOriginal={displayOriginal(source.paragraph.original)} anchorId={`comparison-paragraph-${document.id}-${stage.id}-${source.id}`} bookmark={{ chapterId: source.chapterId, personId: readingPersonId }} translationExpanded={expandedTranslations[`${stage.id}/${source.id}`] ?? false} onTranslationExpandedChange={expanded => setExpandedTranslations(current => ({ ...current, [`${stage.id}/${source.id}`]: expanded }))} /></div> : <p className="comparison-paused">此处原文或译文目前无法核验，暂不展示旧内容。</p>}
               </article>)}</section>;
             })}</div>
           </section>;

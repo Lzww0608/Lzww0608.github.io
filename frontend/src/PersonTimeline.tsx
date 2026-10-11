@@ -5,6 +5,8 @@ import { readPersonTimeline } from './person-timeline-loader';
 import { personTimelineRoute } from './person-timeline-route';
 import { eventComparisonRoute, resolveEventComparisonRoute } from './event-comparison-route';
 import { useReadingPosition } from './use-reading-position';
+import { useReadingProgress } from './use-reading-progress';
+import { BookmarkButton } from './BookmarkButton';
 import { readTimelineComparisonLinks } from './event-timeline-links-loader';
 import type { ResolvedEventTimelineLink } from './event-timeline-links';
 import { personSourcesRoute } from './library';
@@ -86,8 +88,11 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
   const selectedYear = page?.events.find(event => event.id === eventId)?.year;
   const displayOriginal = (original: string) => script.displayScript === 'simplified' && script.converter ? script.converter(original) : original;
   const returnComparison = returnTo ? resolveEventComparisonRoute(returnTo) : null;
-
-  useReadingPosition({ route, ready: readState === 'error' || ['ready', 'archive'].includes(readState) && linksReady, targetId: eventId ? `timeline-event-${eventId}` : undefined,
+  const anchors = useMemo(() => (page?.events ?? []).map(event => ({ anchorId: `timeline-event-${event.id}`, personId: person.id, event })), [page, person.id]);
+  const progress = useReadingProgress({ route, personId: person.id, ready: readState === 'error' || ['ready', 'archive'].includes(readState) && linksReady, anchors,
+    progressRoute: anchorId => personTimelineRoute(person.id, anchorId?.replace(/^timeline-event-/, '')),
+    blockedNotice: readState === 'error' ? '当前年表暂时无法核验，保存位置暂不恢复。' : undefined });
+  useReadingPosition({ route, ready: progress.ready && readState !== 'error', targetId: !progress.stale && eventId ? `timeline-event-${eventId}` : undefined,
     focusSelector: 'h4', layoutKey: `${page?.resultSetRevision ?? readState}/${yearSidebar.collapsed}/${script.displayScript}` });
 
   useEffect(() => {
@@ -130,6 +135,7 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
     <header className="person-timeline-heading"><div><h1>{person.name}<span>人物年表</span></h1><p className="timeline-person-period">{personDisplayPeriod(person)} · {person.role}{person.lifespan && ` · 生卒 ${person.lifespan}`}</p></div><p>按年份串联当前归档中的重要记载。史载年号与日期保留在事件下方，不同史书的异说分别列出；每条出处均可定位到原文与白话译文。</p></header>
     <div className="timeline-actions"><button className="text-link" type="button" onClick={() => go(personSourcesRoute(person.id))}>汇总全部文献记载 <ArrowRight size={17} /></button><div className="timeline-script-switch"><span>原文依据</span><div className="script-switch" role="group" aria-label="年表原文繁简切换">{(['traditional', 'simplified'] as const).map(value => <button key={value} type="button" aria-pressed={script.script === value} onClick={() => script.selectScript(value)}>{value === 'traditional' ? '繁体' : '简体'}</button>)}</div></div></div>
     <div className="timeline-read-status" role="status">
+      {progress.notice && <p className="reading-progress-notice">{progress.notice}</p>}
       {readState === 'loading' && '正在打开人物年表…'}
       {readState === 'archive-pending' && '已打开随站年表，正在核对当前记载…'}
       {readState === 'archive' && '当前显示随站保存的年表与出处。'}
@@ -144,7 +150,7 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
         <p>{page.events.length} 条事件，{years.every(year => year.year === null) ? '年代未定' : years.some(year => year.year === null) ? `含 ${years.filter(year => year.year !== null).length} 个确定年份与年代未定记载` : `分布于 ${years.length} 个年份`}</p><nav aria-label="人物年表年份">{years.map(year => <button type="button" key={year.year ?? 'undated'} aria-current={selectedYear === year.year ? 'location' : undefined} onClick={() => selectEvent(year.firstEventId)}><span>{year.year === null ? '年代未定' : `${year.year} 年`}</span><small>{year.count} 条记载</small></button>)}</nav>
       </CollapsibleSidebar>
       <div className="timeline-main">{groups.map(phase => <section className="timeline-phase" key={phase.id} aria-labelledby={`phase-${phase.id}`}><h2 id={`phase-${phase.id}`}>{phaseLabels[phase.phase]}</h2>{phase.years.map(year => <div className="timeline-year-group" key={year.year ?? 'undated'}><h3 aria-label={year.year === null ? '年代未定' : `公元 ${year.year} 年`}>{year.year ?? '未定'}<small aria-hidden="true">{year.year === null ? '年代' : '公元'}</small></h3><div className="timeline-year-events">{year.events.map(event => <article className="person-timeline-event" id={`timeline-event-${event.id}`} data-reading-anchor={`timeline-event-${event.id}`} key={event.id} data-focused={eventId === event.id}>
-        <h4 tabIndex={-1}>{event.title}</h4>{eventId === event.id && returnTo && <button type="button" className="timeline-inline-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnComparison ? `${returnComparison.document.title}史料对读` : '来源页面'}</button>}<p className="timeline-source-date">{precisionLabels[event.precision]}：{event.sourceDate}</p><p className="timeline-event-summary">{event.summary}</p>
+        <h4 tabIndex={-1}>{event.title}</h4>{['ready', 'archive'].includes(readState) && <div className="timeline-bookmark-action"><BookmarkButton personId={person.id} event={event} /></div>}{eventId === event.id && returnTo && <button type="button" className="timeline-inline-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnComparison ? `${returnComparison.document.title}史料对读` : '来源页面'}</button>}<p className="timeline-source-date">{precisionLabels[event.precision]}：{event.sourceDate}</p><p className="timeline-event-summary">{event.summary}</p>
         {event.yearRange && <p className="timeline-date-note">记载时间范围：公元 {event.yearRange.start}—{event.yearRange.end} 年，具体年份未定。</p>}
         {event.notes?.map((note, index) => <p className="timeline-date-note" key={index}>{note}</p>)}
         <EvidenceList evidence={event.evidence} detailKey={`${event.id}/main`} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} />

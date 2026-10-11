@@ -2,12 +2,13 @@ import { lazy, Suspense, useEffect, useState } from 'react';
 import { originalTextTag } from './reading-headings';
 import { TranslationBlock } from './TranslationBlock';
 import { HighlightedText, useSearchRanges } from './HighlightedText';
+import { BookmarkButton } from './BookmarkButton';
 import type { ChapterParagraph, SearchField } from './types';
 
 const SentenceTranslationText = lazy(() => import('./SentenceTranslationText').then(module => ({ default: module.SentenceTranslationText })));
 
 // The canonical paragraph determines formatting; only its displayed text changes.
-export function OriginalParagraph({ paragraph, displayedOriginal, onEdit, anchorId = paragraph.id, searchQuery = '', searchField = 'both', translationMatch = false, translationExpanded: controlledExpanded, onTranslationExpandedChange }: {
+export function OriginalParagraph({ paragraph, displayedOriginal, onEdit, anchorId = paragraph.id, searchQuery = '', searchField = 'both', translationMatch = false, translationExpanded: controlledExpanded, onTranslationExpandedChange, bookmark }: {
   paragraph: ChapterParagraph;
   displayedOriginal: string;
   onEdit?: () => void;
@@ -17,6 +18,7 @@ export function OriginalParagraph({ paragraph, displayedOriginal, onEdit, anchor
   translationMatch?: boolean;
   translationExpanded?: boolean;
   onTranslationExpandedChange?: (expanded: boolean) => void;
+  bookmark?: { chapterId: string; personId?: string };
 }) {
   const [localExpanded, setLocalExpanded] = useState(false);
   const translationExpanded = controlledExpanded ?? localExpanded;
@@ -30,6 +32,7 @@ export function OriginalParagraph({ paragraph, displayedOriginal, onEdit, anchor
   useEffect(() => { setLocalExpanded(expandForSearch); }, [searchQuery, searchField, expandForSearch]);
   const TextTag = originalTextTag(paragraph);
   return <div id={anchorId}>
+    {bookmark && <div className="original-paragraph-actions"><BookmarkButton {...bookmark} paragraph={paragraph} /></div>}
     <TextTag className={TextTag === 'p' ? undefined : 'original-heading'}>
       <span className="paragraph-number">{paragraph.position}</span><Suspense fallback={<HighlightedText text={displayedOriginal} ranges={originalHits} />}><SentenceTranslationText paragraph={paragraph} displayedOriginal={displayedOriginal} searchRanges={originalHits} onExpandTranslation={() => setTranslationExpanded(true)} /></Suspense>
     </TextTag>

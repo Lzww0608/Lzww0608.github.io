@@ -3,13 +3,72 @@ import assert from 'node:assert/strict';
 import { eventComparisonRoute, resolveEventComparisonRoute } from '../src/event-comparison-route.ts';
 import { personTimelineRoute, resolvePersonTimelineRoute } from '../src/person-timeline-route.ts';
 import { chapterRoute, libraryChapters, resolveReadingRoute, resolveRoute } from '../src/library.ts';
-import { chooseReadingAnchor, createReadingNavigationSession, readingPositionDecision } from '../src/reading-navigation-state.ts';
+import { chooseReadingAnchor, createReadingNavigationSession, readingPositionDecision, readingSnapshotCurrent } from '../src/reading-navigation-state.ts';
 import { createNavigationDecision, createReadingTraversalGuard } from '../src/reading-navigation-guard.ts';
 
 const a = personTimelineRoute('li-cunxu', 'li-cunxu-baixiang');
 const c = eventComparisonRoute('baixiang', 'battle');
 const b = personTimelineRoute('zhou-dewei', 'zhou-dewei-baixiang');
 const position = (anchorId, offset, scrollY = 4200, details = {}) => ({ anchorId, offset, scrollY, details });
+
+test('verified persistent hydration retains the current opaque entry and cannot invent return ancestors', () => {
+  const session = createReadingNavigationSession();
+  const entry = session.activate(c);
+  const previousActivation = entry.activation;
+  const saved = position('comparison-stage-battle', -200, 0, { 'root/details/0': true });
+  assert.equal(session.hydrateCurrent(c, { position: saved, view: { selectedBooks: ['new'], fontSize: 24 } }), true);
+  assert.equal(session.current().id, entry.id);
+  assert.ok(session.current().activation > previousActivation);
+  assert.equal(session.current().persistentRestore, true);
+  assert.equal(session.size(), 1);
+  assert.equal(session.returnDistance(a, a), null);
+  assert.deepEqual(readingPositionDecision(session.current()), { kind: 'restore', position: saved });
+  saved.offset = -999;
+  assert.equal(session.current().position.offset, -200);
+});
+
+test('persistent hydration rejects another route and never overrides user positioning cancellation', () => {
+  const session = createReadingNavigationSession();
+  session.activate(c);
+  assert.equal(session.hydrateCurrent(a, { position: position('timeline-event-li-cunxu-baixiang', 24) }), false);
+  assert.equal(session.current().intent, 'target');
+  session.cancel();
+  assert.equal(session.hydrateCurrent(c, { position: position('comparison-stage-battle', 24) }), false);
+  assert.deepEqual(readingPositionDecision(session.current(), 'comparison-stage-battle'), { kind: 'cancel' });
+});
+
+test('top-only persistent metadata restores controls without treating an old scroll number as a target', () => {
+  const session = createReadingNavigationSession();
+  session.activate(c);
+  session.savePosition(position('old', -200, 9000));
+  assert.equal(session.hydrateCurrent(c, { view: { fontSize: 25 } }), true);
+  assert.equal(session.current().position, undefined);
+  assert.deepEqual(readingPositionDecision(session.current()), { kind: 'top' });
+  assert.equal(session.readView(c, {}).fontSize, 25);
+});
+
+test('a delayed binding check cannot hydrate a fresh target in the same route, another history visit, or a cleared resume intent', async () => {
+  const session = createReadingNavigationSession();
+  const first = session.activate(c);
+  const expected = { route: c, entryId: first.id, activation: first.activation, resumeId: 11 };
+  let activeResumeId = 11;
+  let finish;
+  const delayed = new Promise(resolve => { finish = resolve; }).then(() => {
+    if (readingSnapshotCurrent(session.current(), expected, activeResumeId)) session.hydrateCurrent(c, { position: position('comparison-stage-battle', -700) });
+  });
+  assert.equal(readingSnapshotCurrent(session.current(), expected, activeResumeId), true);
+  activeResumeId = undefined;
+  assert.equal(readingSnapshotCurrent(session.current(), expected, activeResumeId), false);
+  activeResumeId = 11;
+  session.activate(c, first.id); // Explicit same-route activation after a new target.
+  assert.equal(readingSnapshotCurrent(session.current(), expected, activeResumeId), false);
+  finish(); await delayed;
+  assert.equal(session.current().position, undefined);
+  session.activate(a);
+  const second = session.activate(c);
+  assert.notEqual(second.id, first.id);
+  assert.equal(readingSnapshotCurrent(second, expected, activeResumeId), false);
+});
 
 test('real same-battle timeline and comparison links keep a checked single return and Reader preserves that context', () => {
   const comparison = eventComparisonRoute('baixiang', 'battle', a);
@@ -107,6 +166,39 @@ test('two history visits to the same route keep distinct book selections, opened
   assert.deepEqual(session.readView(c, {}), secondView);
   const copy = session.readView(c, {}); copy.selectedBooks.push('old');
   assert.deepEqual(session.readView(c, {}), secondView);
+});
+
+test('fresh paragraph searches reset only inherited translation toggles while Back restores each search snapshot', () => {
+  const session = createReadingNavigationSession();
+  const firstRoute = 'person-sources/li-cunxu/old?q=柏乡&field=translation';
+  const secondRoute = 'person-sources/li-cunxu/old?q=胡柳&field=translation';
+  const first = session.activate(firstRoute);
+  const page = { target: 'first-search', cursors: ['0', '50'], index: 1 };
+  session.rememberView(firstRoute, { size: 27, pagination: page, expandedTranslations: { 'old-v027-p18': false, 'old-v027-p19': true } });
+  const second = session.activate(secondRoute);
+  assert.deepEqual(session.readView(secondRoute, {}), { size: 27, pagination: page, expandedTranslations: {} });
+  session.rememberView(secondRoute, { size: 27, pagination: page, expandedTranslations: { 'old-v027-p18': true } });
+  const clearRoute = 'person-sources/li-cunxu/old';
+  session.activate(clearRoute);
+  assert.deepEqual(session.readView(clearRoute, {}).expandedTranslations, {});
+  session.activate(secondRoute, second.id);
+  assert.deepEqual(session.readView(secondRoute, {}).expandedTranslations, { 'old-v027-p18': true });
+  session.activate(firstRoute, first.id);
+  assert.deepEqual(session.readView(firstRoute, {}).expandedTranslations, { 'old-v027-p18': false, 'old-v027-p19': true });
+});
+
+test('Reader preserves translation controls across paragraph targets and clears them for a changed search field', () => {
+  const session = createReadingNavigationSession();
+  const first = 'read-old/old-v027?q=柏乡&field=original&paragraph=old-v027-p18';
+  session.activate(first);
+  const view = { size: 24, expandedTranslations: { 'old-v027-p18': false, 'old-v027-p19': true } };
+  session.rememberView(first, view);
+  const paragraph = 'read-old/old-v027?q=柏乡&field=original&paragraph=old-v027-p19';
+  session.activate(paragraph);
+  assert.deepEqual(session.readView(paragraph, {}), view);
+  const field = 'read-old/old-v027?q=柏乡&field=translation&paragraph=old-v027-p19';
+  session.activate(field);
+  assert.deepEqual(session.readView(field, {}), { size: 24, expandedTranslations: {} });
 });
 
 test('stage navigation inherits controls but deliberately targets the new stage, while back restores the prior paragraph', () => {
