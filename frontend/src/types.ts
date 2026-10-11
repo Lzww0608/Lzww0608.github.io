@@ -8,10 +8,10 @@ export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
 export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu' | 'huiyao' | 'beimeng' | 'kaoyi';
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
-export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places' | 'timeline-years';
+export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places' | 'timeline-years' | 'comparison-stages';
 export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals';
 export type PersonGroupId = 'all' | 'emperors' | 'ten-kingdoms-rulers' | PersonTopicId;
-export type Route = 'people' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}` | `person-timeline/${string}`;
+export type Route = 'people' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}` | `person-timeline/${string}` | `event-comparison/${string}`;
 
 export type ReviewStatus = 'open' | 'resolved' | 'retained' | 'checked';
 export type ReviewCategory = 'translation' | 'association' | 'relationship' | 'source-note';

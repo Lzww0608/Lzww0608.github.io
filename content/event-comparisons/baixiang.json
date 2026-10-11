@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "id": "baixiang",
+  "title": "柏乡之战",
+  "summary": "围绕镇、定求援、梁晋进军、柏乡决战及邢魏攻守，按阶段并列五部已归档史料的相关完整原段与已发布译文，分辨记载冲突、人物补记与叙述立场。仅限当前归档范围。",
+  "dateLabel": "910年末—911年初；各书原书记日分别保留",
+  "personIds": [
+    "li-cunxu",
+    "zhou-dewei",
+    "li-siyuan",
+    "wang-jingren",
+    "shi-jiantang",
+    "wang-jianji",
+    "li-cunzhang",
+    "yang-shihou",
+    "wang-tan",
+    "zhu-wen"
+  ],
+  "sources": [
+    {
+      "id": "old-v027-p16",
+      "label": "庄宗纪 · 王镕告急",
+      "bookId": "old",
+      "chapterId": "old-v027",
+      "paragraphId": "old-v027-p16",
+      "originalRevision": 1,
+      "originalSha256": "39af1f91919cc714d93fe2a62c529341e2d656ace0aa7c2cfcb2118a9e755e67"
+    },
+    {
+      "id": "old-v006-p3",
+      "label": "梁太祖纪 · 遣将讨镇定与会要引文",
+      "bookId": "old",
+      "chapterId": "old-v006",
+      "paragraphId": "old-v006-p3",
+      "originalRevision": 1,
+      "originalSha256": "5bbdd26f9834e996fdb8debf1db602f2d03ba9b2fb4b898bba4c8676f82fb6af"
+    },
+    {
+      "id": "new-v02-p39",
+      "label": "梁本纪 · 伐赵与镇定附晋",
+      "bookId": "new",
+      "chapterId": "new-v02",
+      "paragraphId": "new-v02-p39",
+      "originalRevision": 1,
+      "originalSha256": "6018e28df7307901e904d5cd15aad2406014a1b649b12c76c46d645e1716b493"
+    },
+    {
+      "id": "tongjian-v267-p111",
+      "label": "司马光编年 · 任将屯魏",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p111",
+      "originalRevision": 1,
+      "originalSha256": "a2577056a1ad52a08a2463d7ba7328978634f4519d2b33cea8d72bb272b0d2c8"
+    },
+    {
+      "id": "tongjian-v267-p114",
+      "label": "司马光编年 · 分屯深冀",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p114",
+      "originalRevision": 1,
+      "originalSha256": "eda9e8b9a8afb968ff8477fb6a50b593e5e5dc6cd2bf52157a52c1a1236f948a"
+    },
+    {
+      "id": "tongjian-v267-p115",
+      "label": "司马光编年 · 晋燕求援",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p115",
+      "originalRevision": 1,
+      "originalSha256": "b865333ea5120e461e8ea10292c4cfaa2a9f6460153cbfb971d80989e51ea999"
+    },
+    {
+      "id": "tongjian-v267-p116",
+      "label": "司马光编年 · 撤回再发与梁军人数",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p116",
+      "originalRevision": 1,
+      "originalSha256": "f98c9c05ad8040b08b4178f0a67562ef2247dd054702d567f6d3c9dbfab6ba06"
+    },
+    {
+      "id": "chunqiu-v001-p5",
+      "label": "梁纪 · 镇定附晋与驻柏乡",
+      "bookId": "chunqiu",
+      "chapterId": "chunqiu-v001",
+      "paragraphId": "chunqiu-v001-p5",
+      "originalRevision": 1,
+      "originalSha256": "0eaeb252a3909e1f9e61ef6bf37ffff1deb6664e8fdefb301164179aaa1b565d"
+    },
+    {
+      "id": "huiyao-v010-p73",
+      "label": "月食条 · 召军未及与战日",
+      "bookId": "huiyao",
+      "chapterId": "huiyao-v010",
+      "paragraphId": "huiyao-v010-p73",
+      "originalRevision": 1,
+      "originalSha256": "ab64d2eee2cc82fa3addffdcd817cd3d87e41c357f5b7cf0f990a7df1d3f93ab"
+    },
+    {
+      "id": "old-v027-p17",
+      "label": "庄宗纪 · 会师与退守高邑",
+      "bookId": "old",
+      "chapterId": "old-v027",
+      "paragraphId": "old-v027-p17",
+      "originalRevision": 1,
+      "originalSha256": "e4349ca9453f85541eac9d631958117f0c1d94be13714ceca48c92ba971900fc"
+    },
+    {
+      "id": "old-v056-p6",
+      "label": "周德威传 · 避锐与浮桥",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p6",
+      "originalRevision": 1,
+      "originalSha256": "8f90bf52ee77c434c5e4e913712b58d9e9ef10d5bcc8fa3ab6642e50d427f8b2"
+    },
+    {
+      "id": "old-v056-p15",
+      "label": "符存审传 · 留守太原",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p15",
+      "originalRevision": 1,
+      "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307"
+    },
+    {
+      "id": "new-v25-p5",
+      "label": "周德威传 · 会师至败梁全过程",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p5",
+      "originalRevision": 1,
+      "originalSha256": "cb3a8a98fcfe4390f43c9ad814fc36be055772dfd19e0d5dbe8219318ba57de5"
+    },
+    {
+      "id": "tongjian-v267-p120",
+      "label": "司马光编年 · 梁军进柏乡",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p120",
+      "originalRevision": 1,
+      "originalSha256": "c0f4218ce2d8f83b300ee435c86a48cdaf96249aff54ef3eca1febee611ac9b7"
+    },
+    {
+      "id": "tongjian-v267-p122",
+      "label": "司马光编年 · 会师与营野河北",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p122",
+      "originalRevision": 1,
+      "originalSha256": "aa4a8a548ccd5c0761cb967da9cadd4b99965d34d9b84249602441dcdb6c5508"
+    },
+    {
+      "id": "tongjian-v267-p123",
+      "label": "司马光编年 · 浮桥与退守高邑",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p123",
+      "originalRevision": 1,
+      "originalSha256": "c0bc2e8055bbca7b2c1e8aa8fffb111eb084d63ba483c87a13097003b925c512"
+    },
+    {
+      "id": "old-v027-p18",
+      "label": "庄宗纪 · 柏乡决战与战果",
+      "bookId": "old",
+      "chapterId": "old-v027",
+      "paragraphId": "old-v027-p18",
+      "originalRevision": 1,
+      "originalSha256": "de49e1ff063f825d97e656961116066c92a3fbf2f0457ff9963d5b2d56204ec6"
+    },
+    {
+      "id": "old-v056-p7",
+      "label": "周德威传 · 正月二日决战",
+      "bookId": "old",
+      "chapterId": "old-v056",
+      "paragraphId": "old-v056-p7",
+      "originalRevision": 1,
+      "originalSha256": "7a6428b761cf83c37ec022e0f5f700e2a952b79061f6b8e2664b1d0a1912cabf"
+    },
+    {
+      "id": "old-v035-p7",
+      "label": "明宗纪 · 白马都与增气",
+      "bookId": "old",
+      "chapterId": "old-v035",
+      "paragraphId": "old-v035-p7",
+      "originalRevision": 1,
+      "originalSha256": "cdd3a036aad2da29f9c52d7b9403dafc19dbadfdb19721c847419ed71c0a700e"
+    },
+    {
+      "id": "old-v055-p6",
+      "label": "史建瑭传 · 高邑冲阵与追击",
+      "bookId": "old",
+      "chapterId": "old-v055",
+      "paragraphId": "old-v055-p6",
+      "originalRevision": 1,
+      "originalSha256": "eb1d14dacab6ee0e3819ac2bc531cfba6314481d582448bcf777239ba98392d9"
+    },
+    {
+      "id": "old-v065-p1",
+      "label": "李建及传 · 二百人守桥",
+      "bookId": "old",
+      "chapterId": "old-v065",
+      "paragraphId": "old-v065-p1",
+      "originalRevision": 1,
+      "originalSha256": "e7f58d32a875f128dea732dae26f7f36aa455440e31ed49720fe2249dd4ab9fa"
+    },
+    {
+      "id": "old-v053-p16",
+      "label": "李存璋传 · 三镇排阵使",
+      "bookId": "old",
+      "chapterId": "old-v053",
+      "paragraphId": "old-v053-p16",
+      "originalRevision": 1,
+      "originalSha256": "1d81d0834b136dc1ccfe7b8eb039de158060e8d7fa9bf7022d9608530dda2c0d"
+    },
+    {
+      "id": "old-v061-p4",
+      "label": "安元信传 · 战中重伤",
+      "bookId": "old",
+      "chapterId": "old-v061",
+      "paragraphId": "old-v061-p4",
+      "originalRevision": 1,
+      "originalSha256": "9482fd631e8804d4e4f37bc304184c76c7b188f8e74a683efa76891a8af11639"
+    },
+    {
+      "id": "old-v061-p13",
+      "label": "袁建丰传 · 柏乡参战补记",
+      "bookId": "old",
+      "chapterId": "old-v061",
+      "paragraphId": "old-v061-p13",
+      "originalRevision": 1,
+      "originalSha256": "89ded1ce175a7aa8d9129716b8aefbf5a5f5d631444fac599cbc780e4c32a18c"
+    },
+    {
+      "id": "old-v070-p10",
+      "label": "康思立传 · 柏乡参战补记",
+      "bookId": "old",
+      "chapterId": "old-v070",
+      "paragraphId": "old-v070-p10",
+      "originalRevision": 1,
+      "originalSha256": "cd0def8a6802b6c901281b21d20fe22b201a1a32fa91c017272004fe134d1154"
+    },
+    {
+      "id": "new-v06-p4",
+      "label": "明宗纪 · 赤白马阵与俘校",
+      "bookId": "new",
+      "chapterId": "new-v06",
+      "paragraphId": "new-v06-p4",
+      "originalRevision": 1,
+      "originalSha256": "2af674b7adf6ade81d3a72cad23041cd957e0ac202a5a3081d1234e2856761eb"
+    },
+    {
+      "id": "new-v25-p25",
+      "label": "史建瑭传 · 分击梁军两翼",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p25",
+      "originalRevision": 1,
+      "originalSha256": "43d75ccedafba455d1218a7f48d1dfc0f684ac4d3ed34deaed43114b4b22b2ec"
+    },
+    {
+      "id": "new-v25-p32",
+      "label": "王建及传 · 二百人救桥",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p32",
+      "originalRevision": 1,
+      "originalSha256": "30815abf73e2b92655c00f7f6306e443def85348d53b871063df7f5fd6c28e53"
+    },
+    {
+      "id": "new-v25-p49",
+      "label": "袁建丰传 · 柏乡参战补记",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p49",
+      "originalRevision": 1,
+      "originalSha256": "da6ef855b7de0bc93697155dfe77ad1994fb3cbec9a538f3f9298f82784827ca"
+    },
+    {
+      "id": "new-v36-p26",
+      "label": "李存进传 · 柏乡参战补记",
+      "bookId": "new",
+      "chapterId": "new-v36",
+      "paragraphId": "new-v36-p26",
+      "originalRevision": 1,
+      "originalSha256": "741d04416f3506270eab878c102fdef253ac12d8880c556dce9cda01a47dc63d"
+    },
+    {
+      "id": "new-v36-p30",
+      "label": "李存璋传 · 柏乡参战補记",
+      "bookId": "new",
+      "chapterId": "new-v36",
+      "paragraphId": "new-v36-p30",
+      "originalRevision": 1,
+      "originalSha256": "67c2f448e8d6ffa8e987dd379bd457ffbee962022f6857a26f2b2b3a8cf108d7"
+    },
+    {
+      "id": "tongjian-v267-p127",
+      "label": "司马光编年 · 正月朔日食",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p127",
+      "originalRevision": 1,
+      "originalSha256": "839275879d0dfd0fef40f51f2d6ae257291b0a5e10ab6f4a849985aac5426673"
+    },
+    {
+      "id": "tongjian-v267-p128",
+      "label": "司马光编年 · 诱敌、争桥与等待",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p128",
+      "originalRevision": 1,
+      "originalSha256": "a189498e0edec07c67c61704929cbfcdf43672a0cf0f66644ca446558f040277"
+    },
+    {
+      "id": "tongjian-v267-p129",
+      "label": "司马光编年 · 溃败、追击与深冀",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p129",
+      "originalRevision": 1,
+      "originalSha256": "d3574eb8f8c2e2e7359a1817566d19fa59419ed0267ef18760150c6b71017205"
+    },
+    {
+      "id": "old-v027-p19",
+      "label": "庄宗纪 · 深冀及晋方招谕檄",
+      "bookId": "old",
+      "chapterId": "old-v027",
+      "paragraphId": "old-v027-p19",
+      "originalRevision": 1,
+      "originalSha256": "2e246b92c9778f7a618e2b6ac70c43a3d5a038dfa270f6ab0133f3b94aa34235"
+    },
+    {
+      "id": "old-v027-p20",
+      "label": "庄宗纪 · 攻魏、归降与回军",
+      "bookId": "old",
+      "chapterId": "old-v027",
+      "paragraphId": "old-v027-p20",
+      "originalRevision": 1,
+      "originalSha256": "87c4893b8c4a3f24e4af82737bd4588e5b81da5a7c6ad5eab40951530de18430"
+    },
+    {
+      "id": "old-v006-p6",
+      "label": "梁太祖纪 · 二日战败与重任杨师厚",
+      "bookId": "old",
+      "chapterId": "old-v006",
+      "paragraphId": "old-v006-p6",
+      "originalRevision": 1,
+      "originalSha256": "7d824b9b4c29b3239b98a82b6efd09769f708aa851fe7fdb502bc306737e582e"
+    },
+    {
+      "id": "old-v022-p4",
+      "label": "杨师厚传 · 援邢追击",
+      "bookId": "old",
+      "chapterId": "old-v022",
+      "paragraphId": "old-v022-p4",
+      "originalRevision": 1,
+      "originalSha256": "3cf168659edd2963c6b7d278e84cc2fde1f08e0679e9ba2709525c140c95a54c"
+    },
+    {
+      "id": "old-v022-p17",
+      "label": "王檀传 · 接应败卒与守邢",
+      "bookId": "old",
+      "chapterId": "old-v022",
+      "paragraphId": "old-v022-p17",
+      "originalRevision": 1,
+      "originalSha256": "0b00fb70a16759f8c4cb239601ccb6c607cd9d5766e7b63bed74b4609a01ceb7"
+    },
+    {
+      "id": "old-v023-p23",
+      "label": "王景仁传 · 兵额、异年与处分",
+      "bookId": "old",
+      "chapterId": "old-v023",
+      "paragraphId": "old-v023-p23",
+      "originalRevision": 1,
+      "originalSha256": "f001b748328cc84142610ca6dcee68e8af4eeff8519eab5c5f4577793d235b6d"
+    },
+    {
+      "id": "old-v019-p16",
+      "label": "邓季筠传 · 临阵退却未被治罪",
+      "bookId": "old",
+      "chapterId": "old-v019",
+      "paragraphId": "old-v019-p16",
+      "originalRevision": 1,
+      "originalSha256": "17f473ddf7f649bb309f0f202ee1c715549964c472f9b8e6a03da4232307c8aa"
+    },
+    {
+      "id": "old-v059-p18",
+      "label": "李绍文传 · 收残军与转投晋",
+      "bookId": "old",
+      "chapterId": "old-v059",
+      "paragraphId": "old-v059-p18",
+      "originalRevision": 1,
+      "originalSha256": "ff0518d36247e9d7d23629e90d296affaf9ef55f9b95575bc4c69f0365a3ce6b"
+    },
+    {
+      "id": "old-v135-p7",
+      "label": "刘守光传 · 拒援与欲主河朔",
+      "bookId": "old",
+      "chapterId": "old-v135",
+      "paragraphId": "old-v135-p7",
+      "originalRevision": 1,
+      "originalSha256": "2b6b28c11e1c5bddd66c779d0bbe18265173d215a1964d0194e977cc25f96d93"
+    },
+    {
+      "id": "new-v02-p42",
+      "label": "梁本纪 · 丁亥败绩与改任",
+      "bookId": "new",
+      "chapterId": "new-v02",
+      "paragraphId": "new-v02-p42",
+      "originalRevision": 1,
+      "originalSha256": "2ed09077e1e9a6a105d15765660f4a051068478518e06cdffad2b03e387879de"
+    },
+    {
+      "id": "new-v05-p3",
+      "label": "庄宗纪 · 战果与围邢攻魏",
+      "bookId": "new",
+      "chapterId": "new-v05",
+      "paragraphId": "new-v05-p3",
+      "originalRevision": 1,
+      "originalSha256": "080df16d2715c970acc8446e401980385be0d0d847b7f1efe033c5b67353d4fb"
+    },
+    {
+      "id": "new-v23-p14",
+      "label": "王景仁传 · 庚寅日食、战败与申诉",
+      "bookId": "new",
+      "chapterId": "new-v23",
+      "paragraphId": "new-v23-p14",
+      "originalRevision": 1,
+      "originalSha256": "64c754867ee7723ac50b3c5718f8eadcd10a79f7d428ed6d9db49e96c3f93f4a"
+    },
+    {
+      "id": "new-v23-p22",
+      "label": "王檀传 · 保全邢州",
+      "bookId": "new",
+      "chapterId": "new-v23",
+      "paragraphId": "new-v23-p22",
+      "originalRevision": 1,
+      "originalSha256": "4085394cb66fcf702f20fb84ed5f3c80ec911f478453199a3c6d09198a22661c"
+    },
+    {
+      "id": "tongjian-v267-p130",
+      "label": "司马光编年 · 撤王景仁与邢州援军",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p130",
+      "originalRevision": 1,
+      "originalSha256": "bc90d635267496cba4f64edb1a0c0d0d53a155e02a75e7c4a344b92bea2d209b"
+    },
+    {
+      "id": "tongjian-v267-p133",
+      "label": "司马光编年 · 攻魏不克",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p133",
+      "originalRevision": 1,
+      "originalSha256": "a9b9bdda7f12ebb5762ae37a4dcc51d1ef00aae819ccc21a777e8232bd7f3a0f"
+    },
+    {
+      "id": "tongjian-v267-p135",
+      "label": "司马光编年 · 周德威南略",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p135",
+      "originalRevision": 1,
+      "originalSha256": "5e9b881acaf88e63db540df5dadd316f221eb927cbaec1346b9e197084871963"
+    },
+    {
+      "id": "tongjian-v267-p136",
+      "label": "司马光编年 · 燕求盟主与晋退围",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v267",
+      "paragraphId": "tongjian-v267-p136",
+      "originalRevision": 1,
+      "originalSha256": "0cd191e325c43ecd3958f544e34b873d28bf534b3161b9ac1595b45d73485012"
+    },
+    {
+      "id": "chunqiu-v001-p6",
+      "label": "梁纪 · 败柏乡、围邢与回师",
+      "bookId": "chunqiu",
+      "chapterId": "chunqiu-v001",
+      "paragraphId": "chunqiu-v001-p6",
+      "originalRevision": 1,
+      "originalSha256": "d8b6e6ad706c24571ea101c91e075e431f8fc74a66d7faf6481814e32c48b3ea"
+    }
+  ],
+  "stages": [
+    {
+      "id": "background",
+      "title": "深、冀被占与镇、定求援",
+      "summary": "对读梁军占据深、冀，镇、定向晋求援及梁方出兵的记载。各书的“叛附”“救难”属于叙述立场，天象预兆按原书归属保留。",
+      "sourceIds": [
+        "old-v027-p16",
+        "old-v006-p3",
+        "new-v02-p39",
+        "tongjian-v267-p111",
+        "tongjian-v267-p114",
+        "tongjian-v267-p115",
+        "tongjian-v267-p116",
+        "chunqiu-v001-p5",
+        "huiyao-v010-p73"
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "进军野河，退守高邑",
+      "summary": "晋王与周德威会师后逼近梁营，又依地形与敌军浮桥动向退守高邑。对照先退避锐与速战主张，不把“按兵”说成未曾交战。",
+      "sourceIds": [
+        "old-v027-p17",
+        "old-v056-p6",
+        "old-v056-p15",
+        "new-v25-p5",
+        "tongjian-v267-p120",
+        "tongjian-v267-p122",
+        "tongjian-v267-p123"
+      ]
+    },
+    {
+      "id": "battle",
+      "title": "诱敌出营、争桥与决战",
+      "summary": "各书记周德威诱敌离营、野河争桥和下午乘疲追击；人物本传分别补写李嗣源、史建瑭、李建及、李存璋等人的行动。保留完整原段，段内其他役次不属于柏乡战程。",
+      "sourceIds": [
+        "old-v027-p18",
+        "old-v056-p7",
+        "old-v035-p7",
+        "old-v055-p6",
+        "old-v065-p1",
+        "old-v053-p16",
+        "old-v061-p4",
+        "old-v061-p13",
+        "old-v070-p10",
+        "new-v06-p4",
+        "new-v25-p25",
+        "new-v25-p32",
+        "new-v25-p49",
+        "new-v36-p26",
+        "new-v36-p30",
+        "tongjian-v267-p127",
+        "tongjian-v267-p128",
+        "tongjian-v267-p129"
+      ]
+    },
+    {
+      "id": "aftermath",
+      "title": "追击、战果与邢魏攻守",
+      "summary": "对读战果数字、梁军处分、深冀撤军，以及随后晋军围邢攻魏和梁方守援。柏乡胜利与未能攻下邢、魏分开，不据此写成河北已全部易手。",
+      "sourceIds": [
+        "old-v027-p19",
+        "old-v027-p20",
+        "old-v006-p6",
+        "old-v022-p4",
+        "old-v022-p17",
+        "old-v023-p23",
+        "old-v019-p16",
+        "old-v059-p18",
+        "old-v135-p7",
+        "new-v02-p42",
+        "new-v05-p3",
+        "new-v23-p14",
+        "new-v23-p22",
+        "tongjian-v267-p130",
+        "tongjian-v267-p133",
+        "tongjian-v267-p135",
+        "tongjian-v267-p136",
+        "chunqiu-v001-p6"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "id": "baixiang-invading-force",
+      "stageId": "preparation",
+      "kind": "conflict",
+      "title": "梁军人数：四万、七万、八万与十万",
+      "summary": "《通鉴》记渡河会合罗周翰兵后“合四万”；旧史庄宗纪记审问俘虏所得“精兵七万”，周德威传作“八万”，王景仁传作获付“步骑十万”；新史周德威传作七万。另有晋方檄文自称敌十万。所计时点、对象与叙述载体不一，现有文本不足以合成唯一总兵力。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v267-p116",
+          "excerpt": "景仁等自河陽渡河，會羅周翰兵，合四萬"
+        },
+        {
+          "sourceId": "old-v027-p17",
+          "excerpt": "獲芻牧者二百人，問其兵數，精兵七萬"
+        },
+        {
+          "sourceId": "old-v056-p6",
+          "excerpt": "汴將王景仁軍八萬次柏鄉"
+        },
+        {
+          "sourceId": "old-v023-p23",
+          "excerpt": "付步騎十萬，為北面行營都招討使"
+        },
+        {
+          "sourceId": "new-v25-p5",
+          "excerpt": "梁遣王景仁將魏、滑、汴、宋等兵七萬人擊趙"
+        },
+        {
+          "sourceId": "old-v027-p19",
+          "excerpt": "賊將王景仁將兵十萬，屯據柏鄉"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-battle-day",
+      "stageId": "battle",
+      "kind": "dating",
+      "title": "战日与日食：二日、丁亥、庚寅并存",
+      "summary": "旧史庄宗纪和新史梁本纪记丁亥，旧史周德威传、梁太祖纪及《会要》记正月二日。《通鉴》把日食记在丙戌朔，战事记丁亥。新史王景仁传却记庚寅日食并称“是日”败于柏乡。旧史王景仁传还写“开平二年正月二日”，与其他篇纪年不同。原书及译文各自保留，不把相邻日食条自动当战日，也不暗改二年为五年。",
+      "evidence": [
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "天祐八年正月丁亥"
+        },
+        {
+          "sourceId": "new-v02-p42",
+          "excerpt": "乾化元年春正月丁亥，王景仁及晉人戰于柏鄉，敗績"
+        },
+        {
+          "sourceId": "old-v056-p7",
+          "excerpt": "八年正月二日，德威率騎軍致師於柏鄉"
+        },
+        {
+          "sourceId": "old-v006-p6",
+          "excerpt": "二日，日旁有祲氣，向背若環耳。崇政使敬翔望之曰：「兵可憂矣！」帝為之旰食。是日，果為晉軍及鎮、定之師所敗"
+        },
+        {
+          "sourceId": "huiyao-v010-p73",
+          "excerpt": "至五年正月二日，果為後唐莊宗大敗于柏鄉"
+        },
+        {
+          "sourceId": "tongjian-v267-p127",
+          "excerpt": "春，正月，丙戌朔，日有食之"
+        },
+        {
+          "sourceId": "tongjian-v267-p128",
+          "excerpt": "丁亥，周德威與別將史建瑭、李嗣源將精騎三千壓梁壘門而詬之"
+        },
+        {
+          "sourceId": "new-v23-p14",
+          "excerpt": "乾化元年正月庚寅，日有食之"
+        },
+        {
+          "sourceId": "new-v23-p14",
+          "excerpt": "是日，景仁及晉人戰，大敗於柏鄉"
+        },
+        {
+          "sourceId": "old-v023-p23",
+          "excerpt": "開平二年正月二日，與晉軍戰於柏鄉，王師敗績"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-invasion-perspective",
+      "stageId": "background",
+      "kind": "perspective",
+      "title": "同一出兵：梁纪称叛附，晋纪记救援",
+      "summary": "旧史梁太祖纪和新史梁本纪把镇、定归晋写作“叛”，从梁方称臣关系解释出兵；旧史庄宗纪和《通鉴》展开梁军先占深、冀、王镕求援的背景。此处对照叙述立场与详略，不把一书没有展开的细节当作否认，也不把旧史夹注引《会要》当成另一份独立证据。",
+      "evidence": [
+        {
+          "sourceId": "old-v006-p3",
+          "excerpt": "時鎮州王镕、定州王處直叛，結連晉人，故遣將討之"
+        },
+        {
+          "sourceId": "new-v02-p39",
+          "excerpt": "趙王王鎔、北平王王處直叛附于晉，晉人救趙"
+        },
+        {
+          "sourceId": "old-v027-p16",
+          "excerpt": "因欲兼並鎮、定，遣供奉官杜廷隱、丁延徽督魏軍三千人入於深、冀，鎮人懼，故來告難"
+        },
+        {
+          "sourceId": "tongjian-v267-p114",
+          "excerpt": "聲言恐燕兵南寇，助趙守禦。又雲分兵就食"
+        },
+        {
+          "sourceId": "tongjian-v267-p115",
+          "excerpt": "廷隱等閉門盡殺趙戍兵，乘城拒守。鎔始命石公立攻之，不克，乃遣使求援於燕、晉"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-bridge-detail",
+      "stageId": "battle",
+      "kind": "detail",
+      "title": "争桥细节在李建及本传与《通鉴》中补足",
+      "summary": "旧史庄宗纪记梁军五百人争桥、镇定军反复血战；旧史李建及传、新史王建及传及《通鉴》补写晋王见守桥将败，命建及以二百人抵挡。王建及与李建及为同一人，在各书中保留原用名；这些补记并非本纪已明言否认的事。",
+      "evidence": [
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "梁以五百人爭橋，鎮、定之師與血戰，梁軍敗而復整者數四"
+        },
+        {
+          "sourceId": "old-v065-p1",
+          "excerpt": "建及於部選士二百，挺槍大噪，禦汴軍，卻之於橋下"
+        },
+        {
+          "sourceId": "new-v25-p32",
+          "excerpt": "建及選二百人馳擊梁兵，梁兵敗，解去"
+        },
+        {
+          "sourceId": "tongjian-v267-p128",
+          "excerpt": "建及選卒二百，援槍大噪，力戰卻之"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-afternoon-voices",
+      "stageId": "battle",
+      "kind": "detail",
+      "title": "溃退信号：周德威与李嗣源的呼喊详略不同",
+      "summary": "旧史庄宗纪写周德威呼“汴人走矣”、李嗣源等夹攻；新史周德威传把向梁阵东西两部的呼喊都归德威；《通鉴》先记德威呼梁兵走，继写李嗣源向西阵喊东阵已走。史建瑭传又用左右两翼说明分击。各书的具体说话人、阵位称法与人物着重点分别展示，不合写成每人都说过全部这些话。",
+      "evidence": [
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "德威周麾而呼曰：「汴人走矣！」"
+        },
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "李嗣源率親軍與史建瑭、安金全兼北部吐渾諸軍衝陣夾攻"
+        },
+        {
+          "sourceId": "new-v25-p5",
+          "excerpt": "德威鼓譟而進，麾其西偏曰：「魏、滑軍走矣！」又麾其東偏曰：「梁軍走矣！」"
+        },
+        {
+          "sourceId": "tongjian-v267-p129",
+          "excerpt": "周德威疾呼曰：「梁兵走矣！」"
+        },
+        {
+          "sourceId": "tongjian-v267-p129",
+          "excerpt": "李嗣源帥眾噪於西陳之前曰：「東陳已走，爾何久留！」"
+        },
+        {
+          "sourceId": "new-v25-p25",
+          "excerpt": "周德威擊其左，建瑭擊其右"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-prisoner-tallies",
+      "stageId": "aftermath",
+      "kind": "conflict",
+      "title": "被俘将校：二百八十、二百八十五与三百",
+      "summary": "旧史周德威传记俘将校二百八十人，庄宗纪记陈思权以下二百八十五人；新史庄宗纪作三百人。旧史梁太祖纪另记十多名“都将”被擒，该称谓与前列“将校”的口径不完全相同。斩首二万见旧史庄宗纪、新史庄宗纪与《通鉴》，但不能据此强行统一所有数字。",
+      "evidence": [
+        {
+          "sourceId": "old-v056-p7",
+          "excerpt": "獲將校二百八十人"
+        },
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "擒梁將陳思權以下二百八十五人"
+        },
+        {
+          "sourceId": "new-v05-p3",
+          "excerpt": "獲其將校三百人"
+        },
+        {
+          "sourceId": "old-v006-p6",
+          "excerpt": "都將十餘人被擒"
+        },
+        {
+          "sourceId": "old-v027-p18",
+          "excerpt": "是役也，斬首二萬級"
+        },
+        {
+          "sourceId": "new-v05-p3",
+          "excerpt": "斬首二萬級"
+        },
+        {
+          "sourceId": "tongjian-v267-p129",
+          "excerpt": "凡斬首二萬級"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-omens-and-responsibility",
+      "stageId": "aftermath",
+      "kind": "perspective",
+      "title": "军事过程之外：天象与败将申诉",
+      "summary": "《会要》在月食条中记预警、追召不及；新史王景仁传记先召还又遣、止军不从和朱温以客将遭轻视解释败因；旧史王景仁传记皇帝怒而拘禁，且说明因钱镠推荐及希望后效只罢官兵权，夹注另引欧阳史的申诉。这些是各书的预兆叙事、政治处置与人物说辞，不能据此断言天象导致战败，或认定朱温的归责已获独立证明。",
+      "evidence": [
+        {
+          "sourceId": "huiyao-v010-p73",
+          "excerpt": "司天奏：「是日月蝕，不宜用兵。」時王景仁方總大軍北伐，追之不及"
+        },
+        {
+          "sourceId": "new-v23-p14",
+          "excerpt": "景仁不奉詔，進營於柏鄉"
+        },
+        {
+          "sourceId": "new-v23-p14",
+          "excerpt": "蓋韓勍、李思安輕汝為客，不從節度爾"
+        },
+        {
+          "sourceId": "old-v023-p23",
+          "excerpt": "太祖怒甚，拘之私第。然以兩浙元勳所薦，且欲收其後效，止落平章事、罷兵柄而已"
+        },
+        {
+          "sourceId": "tongjian-v267-p130",
+          "excerpt": "己酉，罷王景仁招討使，落平章事"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-victory-not-city-conquest",
+      "stageId": "aftermath",
+      "kind": "detail",
+      "title": "柏乡获胜后，邢、魏仍未被攻下",
+      "summary": "新史庄宗纪明确写攻邢不下后攻魏；《通鉴》记魏州不克，王檀严备纳败卒，杨师厚来援后晋解围。旧史王檀传突出其守城，杨师厚传突出追击援解。战后攻守是各传关注的不同角色，不能把柏乡胜利直接写成邢、魏已归晋。",
+      "evidence": [
+        {
+          "sourceId": "new-v05-p3",
+          "excerpt": "進攻邢州，不下，留兵圍之，去，攻魏"
+        },
+        {
+          "sourceId": "tongjian-v267-p133",
+          "excerpt": "晉王至魏州，攻之，不克"
+        },
+        {
+          "sourceId": "tongjian-v267-p129",
+          "excerpt": "保義節度使王檀嚴備，然後開城納敗卒"
+        },
+        {
+          "sourceId": "tongjian-v267-p136",
+          "excerpt": "會楊師厚自磁、相引兵救邢、魏，壬申，晉解圍去"
+        },
+        {
+          "sourceId": "old-v022-p17",
+          "excerpt": "而悉力枝梧，竟全城壘"
+        },
+        {
+          "sourceId": "old-v022-p4",
+          "excerpt": "師厚追襲，過漳河，解邢州之圍"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-diary-summary",
+      "stageId": "aftermath",
+      "kind": "detail",
+      "title": "《五代春秋》以编年短记连缀战后",
+      "summary": "《五代春秋》先记正月朔日食，随后写柏乡败绩、晋围邢州，再记二月援邢回师；它没有在这句话给战役单独记日。其所存段落还接叙乾化二年诸事，整段原译保留，不能把后面的枣强、蓨县或白径岭之战读成柏乡当日。",
+      "evidence": [
+        {
+          "sourceId": "chunqiu-v001-p6",
+          "excerpt": "辛未乾化元年正月丙戌朔，日有食之。王景仁及晉王、趙人、定人戰於柏鄉，景仁師敗績。晉師圍邢州。二月，晉人帥師侵魏州，楊師厚帥師援邢州，晉人還師"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+.event-comparison { width: min(1400px, 91.8%); margin: 0 auto; padding: 30px 0 72px; overflow-wrap: anywhere; }
+.comparison-breadcrumbs { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+.comparison-breadcrumbs button { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; }
+.comparison-breadcrumbs button:hover { color: var(--accent); }
+.comparison-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 500px); align-items: end; gap: 24px 48px; padding-bottom: 25px; border-bottom: 1px solid var(--border-strong); }
+.comparison-heading h1 { font-size: clamp(36px, 4.3vw, 56px); line-height: 1.4; font-weight: 700; }
+.comparison-date { margin-top: 12px; font-family: var(--serif); color: var(--soft-ink); font-size: 17px; }
+.comparison-heading > p { color: var(--soft-ink); font-size: 15px; line-height: 1.85; }
+.comparison-scope { color: var(--muted); font-size: 13px; margin: 17px 0 8px; max-width: 76em; }
+.comparison-load-status { color: var(--muted); font-size: 13px; min-height: 1.85em; margin-bottom: 12px; }
+.comparison-load-status button { color: var(--accent); min-height: 34px; margin-left: 9px; text-decoration: underline; text-underline-offset: 4px; }
+.comparison-tools { padding: 15px 0 20px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+.comparison-book-selection { min-width: 0; border: 0; margin: 0; padding: 0; }
+.comparison-book-selection legend { float: left; padding: 10px 0; margin-right: 21px; font-family: var(--serif); font-size: 17px; }
+.comparison-book-selection > div { display: flex; flex-wrap: wrap; gap: 9px; }
+.comparison-book-selection button { display: inline-flex; align-items: center; gap: 10px; min-height: 43px; padding: 8px 13px; border: 1px solid var(--line); font-family: var(--serif); font-size: 16px; color: var(--soft-ink); }
+.comparison-book-selection button small { font-family: var(--sans); font-size: 11px; color: var(--muted); white-space: nowrap; }
+.comparison-book-selection button[aria-pressed="true"] { color: var(--accent); border-color: var(--border-strong); background: var(--tint); }
+.comparison-book-selection button:hover:not(:disabled) { border-color: var(--accent); }
+.comparison-book-selection button:disabled { opacity: .7; }
+.comparison-book-selection > p { clear: both; padding-top: 8px; color: var(--muted); font-size: 12px; }
+.comparison-reading-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 23px; margin-top: 19px; }
+.comparison-script-switch { display: flex; align-items: center; gap: 12px; color: var(--soft-ink); font-size: 13px; }
+.comparison-font-controls { display: flex; align-items: center; gap: 9px; }
+.comparison-font-controls .font-button { min-height: 36px; min-width: 36px; font-size: 18px; color: var(--soft-ink); }
+.comparison-translations-toggle { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; font-size: 14px; color: var(--accent); margin-left: auto; padding: 5px 0; }
+.comparison-translations-toggle:hover { text-decoration: underline; text-underline-offset: 4px; }
+.comparison-layout { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 32px; }
+.comparison-layout.left-collapsed { grid-template-columns: 56px minmax(0, 1fr); gap: 23px; }
+.comparison-stage-directory { align-self: start; position: sticky; top: 18px; max-height: calc(100dvh - 36px); overflow: auto; padding-right: 18px; border-right: 1px solid var(--line); }
+.comparison-stage-directory .sidebar-heading .sidebar-title { font-size: 21px; }
+.comparison-stage-directory nav { display: flex; flex-direction: column; }
+.comparison-stage-directory nav button { padding: 10px 0; min-height: 42px; text-align: left; font-size: 14px; line-height: 1.75; border-bottom: 1px solid var(--line); }
+.comparison-stage-directory nav button:hover, .comparison-stage-directory nav button[aria-current="location"] { color: var(--accent); }
+.comparison-main { min-width: 0; }
+.comparison-stage { margin-bottom: 46px; scroll-margin-top: 24px; }
+.comparison-stage-heading { padding: 0 0 18px; }
+.comparison-stage-heading h2 { font-size: 29px; line-height: 1.5; font-weight: 700; }
+.comparison-stage[data-focused="true"] .comparison-stage-heading h2 { color: var(--accent); }
+.comparison-stage-heading > p { color: var(--soft-ink); font-size: 14px; margin-top: 9px; max-width: 64em; }
+.comparison-book-columns { display: grid; grid-template-columns: repeat(var(--comparison-columns, 3), minmax(0, 1fr)); gap: 22px; }
+.comparison-book { min-width: 0; background: var(--surface); border-top: 2px solid var(--border-strong); padding: 17px 24px 5px; }
+.comparison-book > h3 { font-size: 24px; font-weight: 700; line-height: 1.6; margin-bottom: 20px; }
+.comparison-source + .comparison-source { border-top: 1px solid var(--line); padding-top: 20px; }
+.comparison-source-caption { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 11px; color: var(--muted); font-family: var(--sans); font-size: 12px; line-height: 1.8; margin-bottom: 14px; }
+.comparison-source-caption strong { width: 100%; color: var(--soft-ink); font-weight: 500; font-size: 13px; }
+.comparison-source-caption button { color: var(--accent); min-height: 30px; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--link-line); text-align: left; }
+.comparison-original.original-text { min-height: 0; line-height: 2.05; }
+.comparison-original.original-text p { line-height: 2.05; margin-bottom: 23px; white-space: pre-line; }
+.comparison-original .paragraph-number { left: -17px; font-size: 10px; }
+.comparison-original .paragraph-translation { font-family: var(--sans); font-size: 15px; padding: 12px 14px; margin: 0 0 23px; }
+.comparison-original.original-text .paragraph-translation p { margin: 8px 0 0; line-height: 1.9; }
+.comparison-original .translation-heading { flex-wrap: wrap; gap: 7px; }
+.comparison-original .translation-heading-actions { margin-left: auto; }
+.comparison-paused, .comparison-no-record { font-family: var(--sans); color: var(--muted); font-size: 13px; line-height: 1.85; margin: 0 0 20px; }
+.comparison-differences { border-top: 1px solid var(--line); padding: 18px 0 0; margin: 0 0 26px; }
+.comparison-cross-stage { margin-top: 22px; margin-bottom: 0; }
+.comparison-differences > h3, .comparison-cross-stage > h2 { font-size: 21px; line-height: 1.5; font-weight: 700; margin-bottom: 18px; }
+.comparison-difference { border-left: 2px solid var(--link-line); padding: 0 0 0 17px; margin: 0 0 22px; }
+.comparison-difference:last-child { margin-bottom: 0; }
+.comparison-difference-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 7px 13px; margin-bottom: 6px; }
+.comparison-difference-heading > span { color: var(--accent); font-family: var(--sans); font-size: 12px; }
+.comparison-difference-heading > h4 { font-family: var(--serif); font-size: 19px; font-weight: 700; line-height: 1.6; margin: 0; }
+.comparison-difference > p { font-size: 14px; color: var(--soft-ink); max-width: 72em; }
+.comparison-difference-evidence { margin-top: 8px; color: var(--muted); font-size: 12px; }
+.comparison-difference-evidence > summary { cursor: pointer; min-height: 33px; line-height: 2.5; color: var(--accent); }
+.comparison-difference-evidence ul { list-style: none; margin: 9px 0 0; padding: 0; }
+.comparison-difference-evidence li + li { margin-top: 14px; }
+.comparison-difference-evidence li > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 13px; }
+.comparison-difference-evidence li strong { font-weight: 500; color: var(--soft-ink); }
+.comparison-difference-evidence li button { min-height: 30px; color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.comparison-difference-evidence blockquote { font-family: var(--serif); font-size: 17px; color: var(--soft-ink); line-height: 1.95; white-space: pre-line; margin: 6px 0 0; max-width: 70em; }
+@media (max-width: 1150px) {
+  .comparison-layout { grid-template-columns: 138px minmax(0, 1fr); gap: 23px; }
+  .comparison-book-columns { gap: 14px; }
+  .comparison-book { padding: 15px 21px 3px; }
+  .comparison-book > h3 { font-size: 22px; }
+}
+@media (max-width: 980px) {
+  .comparison-heading { gap: 24px; }
+  .comparison-book-columns { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .comparison-book { padding: 19px 29px 4px; }
+  .comparison-book > h3 { font-size: 25px; }
+  .comparison-original .paragraph-number { left: -21px; }
+}
+@media (max-width: 800px) {
+  .event-comparison { width: 90%; padding-top: 22px; }
+  .comparison-heading { display: block; padding-bottom: 22px; }
+  .comparison-heading > p { margin-top: 16px; font-size: 14px; }
+  .comparison-heading h1 { font-size: 37px; }
+  .comparison-layout, .comparison-layout.left-collapsed { display: block; }
+  .comparison-stage-directory { position: static; max-height: none; border-right: 0; border-bottom: 1px solid var(--line); margin-bottom: 25px; padding: 0 0 17px; }
+  .comparison-stage-directory .sidebar-heading { margin-bottom: 9px; }
+  .comparison-stage-directory nav { flex-direction: row; flex-wrap: wrap; gap: 3px 22px; max-height: 230px; overflow-y: auto; }
+  .comparison-stage-directory nav button { border-bottom: 0; padding: 5px 0; }
+  .comparison-stage-directory.collapsible-sidebar[data-collapsed="true"] { padding: 0 0 17px; }
+  .comparison-stage-directory.collapsible-sidebar[data-collapsed="true"] .sidebar-heading { justify-content: flex-start; }
+  .comparison-stage-directory.collapsible-sidebar[data-collapsed="true"] .sidebar-toggle { flex-direction: row; width: auto; min-height: 38px; padding: 6px 10px; }
+  .comparison-stage-directory.collapsible-sidebar[data-collapsed="true"] .sidebar-restore-label { writing-mode: horizontal-tb; letter-spacing: 0; }
+  .comparison-translations-toggle { margin-left: 0; }
+}
+@media (max-width: 560px) {
+  .event-comparison { width: 100%; padding: 22px 5% 50px; }
+  .comparison-heading h1 { font-size: 35px; }
+  .comparison-date { font-size: 15px; }
+  .comparison-scope { font-size: 12px; }
+  .comparison-tools { margin-bottom: 22px; }
+  .comparison-book-selection legend { float: none; width: 100%; padding: 0 0 11px; }
+  .comparison-book-selection button { font-size: 15px; padding: 8px 10px; gap: 8px; }
+  .comparison-reading-tools { gap: 10px 14px; margin-top: 15px; }
+  .comparison-translations-toggle { width: 100%; }
+  .comparison-stage-heading h2 { font-size: 25px; }
+  .comparison-stage-heading > p { font-size: 13px; }
+  .comparison-book { padding: 18px 23px 4px; }
+  .comparison-book > h3 { font-size: 24px; margin-bottom: 17px; }
+  .comparison-original .paragraph-number { left: -18px; }
+  .comparison-original .paragraph-translation { padding: 12px 11px; }
+  .comparison-differences > h3, .comparison-cross-stage > h2 { font-size: 21px; }
+  .comparison-difference { padding-left: 12px; }
+  .comparison-difference-heading > h4 { font-size: 18px; }
+  .comparison-difference > p { font-size: 13px; }
+  .comparison-difference-evidence blockquote { font-size: 16px; }
+}
