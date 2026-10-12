@@ -5,6 +5,7 @@ import type { ChapterParagraph, TextRange } from './types';
 import { HighlightedText } from './HighlightedText';
 import { useSentenceTranslations } from './use-sentence-translations';
 import { reviewNoteForDisplay } from './translation-display';
+import { ReadingAnnotations } from './ReadingAnnotations';
 import './sentence-translation.css';
 
 type SentencePart = ReturnType<typeof useSentenceTranslations>['parts'][number];
@@ -86,9 +87,17 @@ export function SentenceTranslationText({ paragraph, displayedOriginal, onExpand
 
   useLayoutEffect(() => {
     if (!visible || !open || !popupRef.current) return;
-    const bounds = popupRef.current.getBoundingClientRect();
-    setPosition(boundedPosition(open, bounds.width, bounds.height));
+    const popup = popupRef.current;
+    const measure = () => {
+      const bounds = popup.getBoundingClientRect();
+      const next = boundedPosition(open, bounds.width, bounds.height);
+      setPosition(previous => previous.left === next.left && previous.top === next.top ? previous : next);
+    };
+    measure();
     if (open.keyboard) closeButtonRef.current?.focus({ preventScroll: true });
+    const observer = new ResizeObserver(measure);
+    observer.observe(popup);
+    return () => observer.disconnect();
   }, [visible, open]);
 
   useEffect(() => {
@@ -191,6 +200,7 @@ export function SentenceTranslationText({ paragraph, displayedOriginal, onExpand
               onExpandTranslation();
             }}>查看整段译文</button>}
           </>}
+          <ReadingAnnotations key={activePart.id} paragraph={paragraph} displayedOriginal={displayedOriginal} sentenceIndex={parts.findIndex(part => part.id === activePart.id)} />
         </div>
       </div>, document.body,
     )}

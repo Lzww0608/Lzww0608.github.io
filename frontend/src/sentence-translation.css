@@ -97,3 +97,31 @@
   font-size: .85em;
 }
 .sentence-translation-review-notes ul { padding-left: 1.2em; margin: .45em 0 0; }
+
+.reading-annotations {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  white-space: normal;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.reading-annotations h3 {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+}
+.reading-annotations-list,
+.reading-annotations-references { list-style: none; margin: 0; padding: 0; }
+.reading-annotations-list > li + li { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.reading-annotations-term { display: flex; align-items: baseline; gap: 8px; margin-bottom: 3px; }
+.reading-annotations-term strong { font-size: 16px; font-weight: 700; }
+.reading-annotations-term > span { color: var(--muted); font-family: var(--sans); font-size: 11px; }
+.reading-annotations .reading-annotations-uncertainty { margin-top: 5px; color: var(--muted); font-size: 13px; }
+.reading-annotations-uncertainty > span { color: var(--accent); }
+.reading-annotations-references { margin-top: 6px; font-family: var(--sans); font-size: 12px; line-height: 1.7; }
+.reading-annotations-references a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.reading-annotations-references a:hover { color: var(--ink); }
+.reading-annotations-notice { color: var(--muted); font-family: var(--sans); font-size: 13px; }
