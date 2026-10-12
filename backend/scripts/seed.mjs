@@ -12,6 +12,7 @@ export async function seed(client) {
   await client.query(readFileSync(new URL('../db/002-translation-metadata.sql', import.meta.url), 'utf8'));
   await client.query(readFileSync(new URL('../db/005-sentence-translations.sql', import.meta.url), 'utf8'));
   await client.query(readFileSync(new URL('../db/006-owner-reviews.sql', import.meta.url), 'utf8'));
+  await client.query(readFileSync(new URL('../db/008-owner-review-subjects.sql', import.meta.url), 'utf8'));
   await ensurePersonPassageSchema(client);
   await ensurePersonTimelineSchema(client);
   for (const book of books) {

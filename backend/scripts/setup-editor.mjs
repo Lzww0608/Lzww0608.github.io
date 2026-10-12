@@ -69,6 +69,7 @@ export async function setupTranslationEditor() {
     }
     await client.query(readFileSync(new URL('../db/003-translation-editor.sql', import.meta.url), 'utf8'));
     await client.query(readFileSync(new URL('../db/006-owner-reviews.sql', import.meta.url), 'utf8'));
+    await client.query(readFileSync(new URL('../db/008-owner-review-subjects.sql', import.meta.url), 'utf8'));
     await client.query(`REVOKE ALL ON ALL TABLES IN SCHEMA public FROM ${quoteIdentifier(role)};
       REVOKE ALL ON ALL SEQUENCES IN SCHEMA public FROM ${quoteIdentifier(role)};
       REVOKE ALL ON ALL FUNCTIONS IN SCHEMA public FROM ${quoteIdentifier(role)};

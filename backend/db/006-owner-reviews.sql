@@ -114,7 +114,8 @@ CREATE OR REPLACE FUNCTION public.owner_review_list(
 ) RETURNS jsonb LANGUAGE plpgsql SECURITY DEFINER SET search_path=pg_catalog AS $fn$
 DECLARE result jsonb;
 BEGIN
-  IF requested_person IS NOT NULL AND requested_person NOT IN ('li-keyong','li-cunxu','zhu-wen','chai-rong')
+  IF requested_person IS NOT NULL AND NOT EXISTS (
+      SELECT 1 FROM public.owner_review_subjects s WHERE s.id=requested_person)
     OR requested_book IS NOT NULL AND (char_length(requested_book)>160 OR requested_book !~ '^[a-z0-9][a-z0-9_-]*$')
     OR requested_status IS NOT NULL AND requested_status NOT IN ('open','resolved','retained','checked','stale')
     OR requested_category IS NOT NULL AND requested_category NOT IN ('translation','association','relationship','source-note')

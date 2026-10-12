@@ -20,6 +20,14 @@ const signIn = () => authenticateEditorSession({ apiBase, token, fetcher: async 
 beforeEach(clearEditorSession);
 afterEach(clearEditorSession);
 
+test('new authorized review subjects retain private route filters through a round trip', () => {
+  for (const personId of ['li-siyuan', 'guo-wei', 'shi-jingtang']) {
+    const expected = { ...filters, personId, category: 'translation', status: 'retained', offset: 50 };
+    assert.deepEqual(resolveOwnerReviewRoute(ownerReviewRoute(expected)), expected);
+  }
+  assert.equal(resolveOwnerReviewRoute('owner-review?personId=unknown'), null);
+});
+
 test('private review data cannot be requested before authentication or from another API host', async () => {
   let calls = 0;
   const fetcher = async () => { calls++; return respond(page); };

@@ -668,6 +668,36 @@
           "originalSha256": "32edac92816ad7ffe7e41fa806fe21b13776c91f29646c7fa6582e473d143ef3",
           "excerpt": "十一月丁酉，皇帝即位，〈於廢帝本紀書「契丹立晉」，據所見也，於此書「皇帝即位」，以自立為文，原其心也。晉高祖之反，無契丹之助，亦必自立，蓋其志在於為帝，故使自任其惡也。〉國號晉。"
         }
+      ],
+      "variants": [
+        {
+          "label": "会要即位月日",
+          "sourceDate": "清泰三年闰十一月十二日",
+          "summary": "会要记闰十一月十二日筑坛即位；两史石氏本纪及通鉴记正十一月丁酉。保留底本异说，未据矛盾日期转换并替换主事件年份。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p8",
+              "originalRevision": 1,
+              "originalSha256": "771b0ae19b664ab4dfa87fece1cb8e3c71b559fd6b06ff1777f9dbcbb4a907be",
+              "excerpt": "清泰三年閏十一月十二日，築壇即位於太原府城之南，〈年四十五。〉"
+            }
+          ]
+        },
+        {
+          "label": "末帝本纪册立叙次",
+          "sourceDate": "清泰三年闰十一月丁卯",
+          "summary": "旧史末帝本纪在晋安降后记闰十一月丁卯册立；石氏本纪及新史记正十一月丁酉。保留来源叙次与干支差异，不从此推改即位日期。",
+          "evidence": [
+            {
+              "chapterId": "old-v048",
+              "paragraphId": "old-v048-p14",
+              "originalRevision": 1,
+              "originalSha256": "16c5a8db15db170733720b9fa5ad1a05095c64b16555b21389856b213f3fdf9a",
+              "excerpt": "丁卯，戎王立石敬瑭為大晉皇帝，約為父子之國，改元為天福。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -700,6 +730,23 @@
           "originalRevision": 1,
           "originalSha256": "ee5794154aea1ff464d3b71e76b49815adcefae7f03f1cdef76322f24e86eca2",
           "excerpt": "是日，即皇帝位。割幽、薊、瀛、莫、涿、檀、順、新、媯、儒、武、雲、應、寰、朔、蔚十六州以與契丹，仍許歲輸帛三十萬匹。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要岁输绢额",
+          "sourceDate": "晋天福元年十一月",
+          "summary": "会要此处记岁输绢十三万匹，旧史与通鉴所引记三十万；保留数量及“绢／帛”表述，不擅校合。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v029",
+              "paragraphId": "huiyao-v029-p8",
+              "originalRevision": 1,
+              "originalSha256": "77c7f482f8643f123bf8b043bece0d0e2fc839f6f67fcbcd53f184ac59294ccc",
+              "excerpt": "晉天福元年十一月，高祖踐位，以德光有援助之力，歃血為盟，結爲父子，仍約歲輸絹十三萬匹，割雁門以北及幽州所屬縣並隸番界。"
+            }
+          ],
+          "year": 936
         }
       ]
     },
@@ -1064,6 +1111,23 @@
           "originalSha256": "31ffc52f4b0f02e0efdfcdd672dc2930c0219a1835a66781e4cec235163c94f9",
           "excerpt": "辛丑，歸伶官于契丹。〈高祖以父事契丹，其有所求不曰與而曰「歸」者，若輸之也。〉"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴太后册礼使",
+          "sourceDate": "天福三年八月戊寅",
+          "summary": "通鉴记冯道为太后册礼使，刘昫为契丹主册礼使；旧史本纪列卢重为太后册礼使。使者与对象按各书分记，不拼成同一名单。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p80",
+              "originalRevision": 1,
+              "originalSha256": "ad763236e9b2291a02eb2e6330d121d6b26430df1144783f1fc1a44da0a63513",
+              "excerpt": "八月，帝上尊號於契丹主及太后，戊寅，以馮道為太后冊禮使，左僕射劉昫為契丹主冊禮使，備鹵薄、儀仗、車輅，詣契丹行禮；契丹主大悅。"
+            }
+          ],
+          "year": 938
+        }
       ]
     },
     {
@@ -1125,6 +1189,23 @@
           "originalRevision": 1,
           "originalSha256": "d4821c6bdc95631e366ef94b7ce0d308d6d5ba1614cf9ead2fd2883610bf5299",
           "excerpt": "庚辰，御劄曰：「為國之規，在於敏政；建都之法，務要利民。歷考前經，朗然通論，顧惟涼德，獲啟丕基。當數朝戰伐之餘，是兆庶傷殘之後，車徒既廣，帑廩鹹虛。經年之免粟飛芻，繼日而勞民動眾，常煩漕運，不給供須。今汴州水陸要沖，山河形勝，乃萬庾千箱之地，是四通八達之郊。爰自按巡，益觀宜便，俾升都邑，以利兵民。汴州宜升為東京，置開封府。仍升開封、浚儀兩縣為赤縣，其餘升為畿縣。應舊置開封府時所管屬縣，並可仍舊割屬收管，亦升為畿縣。其洛京改為西京；其雍京改為晉昌軍，留守改為節度觀察使，依舊為京兆府，列在七府之上；其曹州改為防禦州。其餘制置，並委中書門下商量施行。」"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴建东京干支",
+          "sourceDate": "天福三年十月丙辰",
+          "summary": "通鉴书丙辰建东京，旧史本纪书庚辰；分别保留，不将一书干支改为另一书。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p90",
+              "originalRevision": 1,
+              "originalSha256": "0f7e7427e9b6df666901e754c3b51e3f63519021bd524b37195edaef39b014c8",
+              "excerpt": "帝以大梁舟車所會，便於漕運，丙辰，建東京於汴州，復以汴州為開封府，以東都為西京，以西都為晉昌軍節度。"
+            }
+          ],
+          "year": 938
         }
       ]
     },
@@ -1339,6 +1420,13 @@
           "originalRevision": 1,
           "originalSha256": "4dab7a66561df7f8b73b57cb8af34f211da04966c26f7afda62e7dae3ecd59e9",
           "excerpt": "乙亥，詔立唐高祖、太宗及莊宗、明宗、閔帝五廟於洛陽。"
+        },
+        {
+          "chapterId": "huiyao-v003",
+          "paragraphId": "huiyao-v003-p4",
+          "originalRevision": 1,
+          "originalSha256": "3677d6b7c82095bd7c5e6f5d704770371e0548bb95b07882c223a98cabf23f21",
+          "excerpt": "晉天福四年十一月，太常禮院奏：「議立唐廟，引武德年故事，祀隋三帝。今請立近朝莊宗、明宗、閔帝三廟，庶合前規。」"
         }
       ]
     },
@@ -1796,6 +1884,23 @@
           "originalSha256": "5816edd874f17d2cb9eb18b23c7422a5c2ce06dec174b1752a2d6cd15ec0369a",
           "excerpt": "契丹以晉招納吐谷渾，遣使來讓。帝憂悒不知為計；五月，己亥，始有疾。"
         }
+      ],
+      "variants": [
+        {
+          "label": "会要四月不豫",
+          "sourceDate": "天福七年四月",
+          "summary": "会要记四月已不豫，通鉴称五月己亥始有疾；五月简仪有明确施行日，各书对病始月份分别保留。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v029",
+              "paragraphId": "huiyao-v029-p8",
+              "originalRevision": 1,
+              "originalSha256": "77c7f482f8643f123bf8b043bece0d0e2fc839f6f67fcbcd53f184ac59294ccc",
+              "excerpt": "至其年四月，高祖不豫。六月崩，少帝嗣立。"
+            }
+          ],
+          "year": 942
+        }
       ]
     },
     {
@@ -1916,61 +2021,22 @@
           "originalRevision": 1,
           "originalSha256": "453e3e4ed86d99cf403c5784a814997077b613ed20f69901de06e897fa5b44de",
           "excerpt": "八月，太常卿崔棁上謚曰聖文章武明德孝皇帝，廟號高祖。以其年十一月十日庚寅葬於顯陵，宰臣和凝撰謚冊哀冊文。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p39",
+          "originalRevision": 1,
+          "originalSha256": "968ce51dd5e297550b48b7870d87785b311eb3bd3f4e5b87eb3e1d65c631317a",
+          "excerpt": "十一月，庚寅，葬聖文章武明德孝皇帝於顯陵，廟號高祖。"
         }
       ]
-    },
-    {
-      "id": "shi-jingtang-wushishan",
-      "title": "无石山殿后",
-      "summary": "杨刘得手后李嗣源受贺瑰伏击所迫，石敬瑭殿后击退五百余梁骑。",
-      "year": null,
-      "sortOrder": 75,
-      "precision": "range",
-      "sourceDate": "晋天祐十五年，杨刘战后无石山役未独月日；同历年包络918—919年",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "old-v075",
-          "paragraphId": "old-v075-p4",
-          "originalRevision": 1,
-          "originalSha256": "d49ae5e963851e428426262be8027b9d407f2727b168c997bf6dd48228dd65b1",
-          "excerpt": "十五年，唐軍拔楊劉鎮，梁將賀瑰設伏於無石山，明宗為瑰所迫，帝為後殿，破梁軍五百餘騎，按轡而還。"
-        }
-      ],
-      "yearRange": {
-        "start": 918,
-        "end": 919
-      }
-    },
-    {
-      "id": "shi-jingtang-hulutao",
-      "title": "胡卢套护军退却",
-      "summary": "晋军稍退时拔剑开路，掩护李嗣源撤退，敌军未敢追袭。",
-      "year": null,
-      "sortOrder": 76,
-      "precision": "range",
-      "sourceDate": "晋天祐十九年，胡卢套护军役未独月日；同历年包络922—923年",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "old-v075",
-          "paragraphId": "old-v075-p5",
-          "originalRevision": 1,
-          "originalSha256": "922e351085948bf0059f835e1774d7158da727fb38807bf7826e25a9fbad7c8e",
-          "excerpt": "十九年，戰胡盧套，唐軍稍卻，帝睹其敵銳，拔劍辟道，肩護明宗而退，敵人望之，無敢襲者。"
-        }
-      ],
-      "yearRange": {
-        "start": 922,
-        "end": 923
-      }
     },
     {
       "id": "shi-jingtang-ancestry",
       "title": "父系来源的不同说法",
       "summary": "旧史自述石碏、石奋后裔及甘州迁徙，父石绍雍番名臬捩鸡；新史只说父出西夷随朱邪入阴山、得石姓之始不知，保留谱系叙述分歧。",
       "year": null,
-      "sortOrder": 77,
+      "sortOrder": 75,
       "precision": "undated",
       "sourceDate": "两史本纪开篇，家世无独立纪年",
       "phase": "uncertain",
@@ -2012,7 +2078,7 @@
       "title": "娶李嗣源女并领亲骑",
       "summary": "李嗣源以女妻之，后让他统亲骑作心腹；旧史三讨军、新史左射军的部号分别保留，婚期未明，不以928驸马授官倒推。",
       "year": null,
-      "sortOrder": 78,
+      "sortOrder": 76,
       "precision": "undated",
       "sourceDate": "称帝前，婚期及初领亲骑未明确年月",
       "phase": "uncertain",
@@ -2039,8 +2105,96 @@
               "excerpt": "敬瑭為人沈厚寡言，明宗愛之，妻以女，是為永寧公主，由是常隸明宗帳下，號左射軍。"
             }
           ]
+        },
+        {
+          "label": "永宁公主排行异记之一",
+          "sourceDate": "旧史天成三年四月，授封记录",
+          "summary": "旧史明宗纪记皇第三女石氏封永宁公主，授封月不是婚期；不据女序确定婚日。",
+          "evidence": [
+            {
+              "chapterId": "old-v039",
+              "paragraphId": "old-v039-p5",
+              "originalRevision": 1,
+              "originalSha256": "96f8b17ebd42ae6338ce6abdaefeb18eec997da32ccc590c8621285d97be2ed1",
+              "excerpt": "皇第三女石氏封永寧公主"
+            }
+          ]
+        },
+        {
+          "label": "会要后妃篇女序",
+          "sourceDate": "婚期未独年，封授天成三年四月",
+          "summary": "会要后妃条称明宗第五女，与其公主条长女及旧史第三女并存。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p39",
+              "originalRevision": 1,
+              "originalSha256": "74d46cc15412b04b1ce9a11264790edc81d3122b0ef96060a430f92dcf07aee5",
+              "excerpt": "晋高祖皇后李氏。〈唐明宗第五女，天成三年四月封永寜公主，長興四年九月進封魏國公主，清泰二年三月改封晋國長公主，至天福元年十一月尊為皇后，七年六月尊為皇太后。"
+            }
+          ]
+        },
+        {
+          "label": "会要公主篇女序",
+          "sourceDate": "婚期未独年，封授天成三年四月",
+          "summary": "会要公主条称明宗长女永宁公主嫁晋高祖；不强将同书第五女、旧史第三女校成统一排行。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v002",
+              "paragraphId": "huiyao-v002-p19",
+              "originalRevision": 1,
+              "originalSha256": "8ac722652aafb425e1abc4bebafef2cf94346f713964651b406856e789b7b116",
+              "excerpt": "明宗長女永寧公主，〈降晋高祖，天成三年四月封，至長興四年九月，改封魏國公主，清泰二年三月進封晉國長公主。〉"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "shi-jingtang-wushishan",
+      "title": "无石山殿后",
+      "summary": "杨刘得手后李嗣源受贺瑰伏击所迫，石敬瑭殿后击退五百余梁骑。",
+      "year": null,
+      "sortOrder": 77,
+      "precision": "range",
+      "sourceDate": "晋天祐十五年，杨刘战后无石山役未独月日；同历年包络918—919年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v075",
+          "paragraphId": "old-v075-p4",
+          "originalRevision": 1,
+          "originalSha256": "d49ae5e963851e428426262be8027b9d407f2727b168c997bf6dd48228dd65b1",
+          "excerpt": "十五年，唐軍拔楊劉鎮，梁將賀瑰設伏於無石山，明宗為瑰所迫，帝為後殿，破梁軍五百餘騎，按轡而還。"
+        }
+      ],
+      "yearRange": {
+        "start": 918,
+        "end": 919
+      }
+    },
+    {
+      "id": "shi-jingtang-hulutao",
+      "title": "胡卢套护军退却",
+      "summary": "晋军稍退时拔剑开路，掩护李嗣源撤退，敌军未敢追袭。",
+      "year": null,
+      "sortOrder": 78,
+      "precision": "range",
+      "sourceDate": "晋天祐十九年，胡卢套护军役未独月日；同历年包络922—923年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v075",
+          "paragraphId": "old-v075-p5",
+          "originalRevision": 1,
+          "originalSha256": "922e351085948bf0059f835e1774d7158da727fb38807bf7826e25a9fbad7c8e",
+          "excerpt": "十九年，戰胡盧套，唐軍稍卻，帝睹其敵銳，拔劍辟道，肩護明宗而退，敵人望之，無敢襲者。"
+        }
+      ],
+      "yearRange": {
+        "start": 922,
+        "end": 923
+      }
     },
     {
       "id": "shi-jingtang-tianxiong-litigation",

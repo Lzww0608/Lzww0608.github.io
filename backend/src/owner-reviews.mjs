@@ -1,9 +1,7 @@
 import { createHash } from 'node:crypto';
+import subjectCatalog from '../../content/owner-review-subjects.json' with { type: 'json' };
 
-export const reviewSubjects = Object.freeze([
-  Object.freeze({ id: 'li-keyong', name: '李克用' }), Object.freeze({ id: 'li-cunxu', name: '李存勖' }),
-  Object.freeze({ id: 'zhu-wen', name: '朱温' }), Object.freeze({ id: 'chai-rong', name: '柴荣' }),
-]);
+export const reviewSubjects = Object.freeze(subjectCatalog.map(subject => Object.freeze({ ...subject })));
 const subjects = new Map(reviewSubjects.map(subject => [subject.id, subject.name]));
 export const reviewCategories = Object.freeze(['translation', 'association', 'relationship', 'source-note']);
 export const reviewStatuses = Object.freeze(['open', 'resolved', 'retained', 'checked']);
@@ -126,7 +124,7 @@ export async function verifyOwnerReviewPermissions(client, { readerRole = 'histo
 export function validateReviewBatch(batch) {
   allowedFields(batch, ['schemaVersion', 'batchId', 'subjects', 'items']);
   if (batch.schemaVersion !== 1 || !/^[a-z0-9][a-z0-9-]{0,119}$/.test(batch.batchId ?? '')
-    || !Array.isArray(batch.subjects) || !batch.subjects.length || batch.subjects.length > 4
+    || !Array.isArray(batch.subjects) || !batch.subjects.length || batch.subjects.length > reviewSubjects.length
     || !Array.isArray(batch.items) || batch.items.length > 20000) invalid();
   const scope = new Set();
   for (const subject of batch.subjects) {

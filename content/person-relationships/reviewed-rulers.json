@@ -1,0 +1,148 @@
+[
+  {
+    "id": "li-cunxin-li-siyuan-service",
+    "from": "li-cunxin",
+    "to": "li-siyuan",
+    "kind": "service",
+    "label": "副将",
+    "note": "明文选择李嗣源副李存信，非因同军最高领主推直接任命。",
+    "sources": [
+      {
+        "chapterId": "old-v035",
+        "paragraphId": "old-v035-p2",
+        "excerpt": "時李存信為蕃漢大將，每總兵征討，師多不利，武皇遂選帝副之，所向克捷。",
+        "title": "《旧五代史》 · 卷 35 · 唐明宗纪1"
+      }
+    ]
+  },
+  {
+    "id": "li-siyuan-an-chonghui-service",
+    "from": "li-siyuan",
+    "to": "an-chonghui",
+    "kind": "service",
+    "label": "任命枢密使",
+    "note": "监国后明确任命旧藩中门使为枢密使；不同于后来的矫诏与处死，不猜亲属。",
+    "sources": [
+      {
+        "chapterId": "old-v035",
+        "paragraphId": "old-v035-p20",
+        "excerpt": "以中門使安重誨為樞密使，",
+        "title": "《旧五代史》 · 卷 35 · 唐明宗纪1"
+      }
+    ]
+  },
+  {
+    "id": "li-siyuan-yuan-jianfeng-service",
+    "from": "li-siyuan",
+    "to": "yuan-jianfeng",
+    "kind": "service",
+    "label": "内牙亲将副手",
+    "note": "本纪直接明文副将，对应袁建丰稳定已有身份，并非最高主将统属推断。",
+    "sources": [
+      {
+        "chapterId": "old-v037",
+        "paragraphId": "old-v037-p4",
+        "excerpt": "帝嘗為太原內牙親將，建豐為副，",
+        "title": "《旧五代史》 · 卷 37 · 唐明宗纪3"
+      }
+    ]
+  },
+  {
+    "id": "shi-jingtang-guo-wei-service",
+    "from": "shi-jingtang",
+    "to": "guo-wei",
+    "kind": "service",
+    "label": "麾下掌军籍",
+    "note": "郭威从石敬瑭军参与平朱守殷后，因长于书计被石敬瑭召置麾下掌军籍；是石敬瑭未称帝时的任职，不写为庄宗时期大将或在位晋帝任命。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p3",
+        "title": "《旧五代史》卷110 · 周太祖纪一",
+        "excerpt": "晉祖領副侍衛，以帝長於書計，召置麾下，令掌軍籍，前後將臣，無不倚愛。",
+        "originalRevision": 1,
+        "originalSha256": "b60e95b71200f2086c85604dcbc527910e77930c5e237f5a6786b1b16c2c961a"
+      }
+    ]
+  },
+  {
+    "id": "guo-wei-liu-min-conflict",
+    "from": "guo-wei",
+    "to": "liu-min-northern-han",
+    "kind": "conflict",
+    "label": "争权交恶",
+    "note": "刘知远镇河东时，郭威与刘崇争权有隙；其后郭威执政，刘崇不安。刘崇后改名刘旻，此处保留发生于北汉建国前的背景，不据同时任职推造关系。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v288",
+        "paragraphId": "tongjian-v288-p40",
+        "title": "《资治通鉴》 · 卷 288 · 后汉纪3",
+        "excerpt": "初，高祖鎮河東，皇弟崇為馬步都指揮使，與蕃漢都孔目官郭威爭權，有隙。及威執政，崇憂之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-chengyou-guo-wei-succession",
+    "from": "liu-chengyou",
+    "to": "guo-wei",
+    "kind": "succession",
+    "label": "兵变代汉",
+    "note": "郭威受隐帝密诏谋害后起兵，隐帝兵败被杀，郭威在澶州受推戴，继监国、建立后周；这是兵变与政权取代，不是刘承祐正常传位，也不据此断定郭威亲手弑帝。",
+    "sources": [
+      {
+        "chapterId": "new-v11",
+        "paragraphId": "new-v11-p8",
+        "title": "《新五代史》 · 卷 11 · 周本纪第十一",
+        "excerpt": "郭允明反，弒隱帝于趙村。丙戌，威入京師，縱火大掠。"
+      },
+      {
+        "chapterId": "new-v11",
+        "paragraphId": "new-v11-p9",
+        "title": "《新五代史》 · 卷 11 · 周本纪第十一",
+        "excerpt": "庚申，太后制以威監國。"
+      },
+      {
+        "chapterId": "new-v11",
+        "paragraphId": "new-v11-p10",
+        "title": "《新五代史》 · 卷 11 · 周本纪第十一",
+        "excerpt": "廣順元年春正月丁卯，皇帝即位，大赦，改元，國號周。"
+      }
+    ]
+  },
+  {
+    "id": "shi-jingtang-zhang-jingda-service",
+    "from": "shi-jingtang",
+    "to": "zhang-jingda",
+    "kind": "service",
+    "label": "北面兵马副总管",
+    "note": "清泰时期张敬达从石敬瑭为北面兵马副总管，驻雁门；后奉末帝命围太原，两段关系分别保留，不视其始终事晋。",
+    "sources": [
+      {
+        "chapterId": "old-v070",
+        "paragraphId": "old-v070-p12",
+        "title": "《旧五代史》卷70 · 张敬达传",
+        "excerpt": "清泰中，自彭門移鎮平陽，加檢校太傅，從石敬瑭為北面兵馬副總管，仍屯兵雁門。",
+        "originalRevision": 1,
+        "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9"
+      }
+    ]
+  },
+  {
+    "id": "shi-jingtang-zhang-jingda-conflict",
+    "from": "shi-jingtang",
+    "to": "zhang-jingda",
+    "kind": "conflict",
+    "label": "晋阳攻守相敌",
+    "note": "石敬瑭起兵后，张敬达奉李从珂命统兵围太原，后反被契丹援军所围；直接攻守冲突，不将奉命者当独立发兵皇帝。",
+    "sources": [
+      {
+        "chapterId": "old-v070",
+        "paragraphId": "old-v070-p12",
+        "title": "《旧五代史》卷70 · 张敬达传",
+        "excerpt": "未幾，晉高祖建義，末帝詔以敬達為北面行營都招討使，仍使悉引部下兵圍太原，以定州節度使楊光遠副焉。",
+        "originalRevision": 1,
+        "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9"
+      }
+    ]
+  }
+]

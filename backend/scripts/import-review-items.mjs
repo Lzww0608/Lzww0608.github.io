@@ -10,6 +10,7 @@ const canonical = value => JSON.stringify(value, (_, item) => item && typeof ite
   ? Object.fromEntries(Object.keys(item).sort().map(key => [key, item[key]])) : item);
 export async function ensureOwnerReviewSchema(client) {
   await client.query(readFileSync(new URL('../db/006-owner-reviews.sql', import.meta.url), 'utf8'));
+  await client.query(readFileSync(new URL('../db/008-owner-review-subjects.sql', import.meta.url), 'utf8'));
 }
 
 // Caller owns BEGIN/COMMIT. A savepoint keeps a rejected batch from leaving any

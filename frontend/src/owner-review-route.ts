@@ -1,9 +1,10 @@
 import type { BookId, ReviewCategory, ReviewStatus, Route } from './types.ts';
+import reviewSubjects from '../../content/owner-review-subjects.json' with { type: 'json' };
 
 export type OwnerReviewFilters = { personId: string; bookId: string; status: string; category: string; offset: number };
 export const reviewStatuses: ReviewStatus[] = ['open', 'resolved', 'retained', 'checked'];
 export const reviewCategories: ReviewCategory[] = ['translation', 'association', 'relationship', 'source-note'];
-const subjectIds = ['li-keyong', 'li-cunxu', 'zhu-wen', 'chai-rong'];
+const subjectIds = reviewSubjects.map(subject => subject.id);
 const bookIds: BookId[] = ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi'];
 
 export function resolveOwnerReviewRoute(route: string): OwnerReviewFilters | null {

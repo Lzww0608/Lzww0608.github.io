@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
+import { loadPersonPassageIndex } from '../../content/person-passages.mjs';
 import { catalogPeople } from '../src/person-catalog.ts';
 import { personSourcesRoute, resolvePersonSourcesRoute, resolveRoute } from '../src/library.ts';
 import { readPersonPassages } from '../src/person-passages-loader.ts';
@@ -14,6 +15,30 @@ const chapters=new Map(loadPublishedChapters(library).map(chapter=>[chapter.id,c
 const personId='li-cunxin';
 const coverage={bookCount:library.catalog.books.length,chapterCount:library.chapters.length,paragraphCount:library.chapters.reduce((sum,chapter)=>sum+chapter.paragraphs.length,0)};
 const hash=text=>createHash('sha256').update(text).digest('hex');
+
+test('reviewed rulers keep actual deeds and continuous edicts while excluding book names and other rulers', () => {
+  const current = loadPersonPassageIndex();
+  const associated = (personId, paragraphId) => current.passages.some(passage =>
+    passage.spans.some(span => span.paragraphId === paragraphId)
+    && passage.people.some(person => person.personId === personId));
+  for (const [personId, paragraphId] of [
+    ['li-siyuan', 'huiyao-v018-p27'], ['li-siyuan', 'kaoyi-v029-p46'],
+    ['guo-wei', 'old-v116-p2'], ['guo-wei', 'kaoyi-v030-p40'],
+    ['shi-jingtang', 'tongjian-v282-p8'], ['shi-jingtang', 'new-v66-p43'],
+  ]) assert.equal(associated(personId, paragraphId), false, `${personId}/${paragraphId}`);
+  for (const [personId, paragraphId] of [
+    ['li-siyuan', 'beimeng-v019-p33'], ['li-siyuan', 'beimeng-v019-p37'],
+    ['guo-wei', 'tongjian-v291-p88'], ['guo-wei', 'huiyao-v015-p48'],
+    ['guo-wei', 'huiyao-v027-p14'], ['guo-wei', 'huiyao-v020-p11'],
+    ['guo-wei', 'huiyao-v026-p20'], ['guo-wei', 'huiyao-v003-p29'],
+    ['shi-jingtang', 'huiyao-v002-p5'],
+    ['shi-jingtang', 'new-v25-p21'],
+  ]) assert.equal(associated(personId, paragraphId), true, `${personId}/${paragraphId}`);
+  assert.equal(associated('guo-wei', 'huiyao-v027-p15'), false);
+  assert.equal(associated('guo-wei', 'huiyao-v020-p12'), false);
+  assert.equal(associated('guo-wei', 'huiyao-v007-p37'), false);
+  assert.equal(associated('guo-wei', 'huiyao-v026-p21'), false);
+});
 function entry(chapterId,position,id=personId,kind='record') {
   const chapter=chapters.get(chapterId);const paragraph=chapter.paragraphs.find(value=>value.position===position);
   return {id:`passage-${paragraph.id}`,chapterId,title:`${chapter.title} · 第${position}段`,spans:[{paragraphId:paragraph.id,originalRevision:paragraph.revision,originalSha256:hash(paragraph.original),start:0,end:Array.from(paragraph.original).length}],people:[{personId:id,kind}]};

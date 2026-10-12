@@ -1,5 +1,6 @@
 import { catalogPeople } from './person-catalog.ts';
 import tenKingdomsRelationships from '../../content/person-relationships/ten-kingdoms.json' with { type: 'json' };
+import reviewedRulerRelationships from '../../content/person-relationships/reviewed-rulers.json' with { type: 'json' };
 import type { HistoryPerson } from './types.ts';
 
 export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' | 'succession';
@@ -70,6 +71,10 @@ export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipN
     id: 'li-renda-fuzhou', name: '李仁达', external: true, group: '福州',
     note: '福州将领李仁达，曾拥立并杀害卓俨明；此处用于解释945年的局部政权与已核验关系，未新增独立人物传记。',
   },
+  {
+    id: 'an-chonghui', name: '安重诲', external: true, group: '后唐',
+    note: '李嗣源监国时任命的枢密使，原任藩邸中门使。关系出处见《旧五代史》卷35；此处为说明已核验任职关系的关联节点。',
+  },
 ]);
 
 function source(chapterId: string, paragraph: number, title: string, excerpt: string): RelationshipSource {
@@ -81,6 +86,7 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
   ...tenKingdomsRelationships as readonly PersonRelationship[],
+  ...reviewedRulerRelationships as readonly PersonRelationship[],
   // Li Cunxu era service; shared facts also update the other endpoint.
   {
     "id": "li-cunxu-guo-chongtao-service",
