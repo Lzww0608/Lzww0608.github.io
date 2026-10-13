@@ -6,7 +6,7 @@ import { historyApiBase } from './history-api';
 import { readEventComparison } from './event-comparison-loader';
 import { eventComparisonRoute } from './event-comparison-route';
 import { personTimelineRoute, resolvePersonTimelineRoute } from './person-timeline-route';
-import { useReadingPosition, useReadingView } from './use-reading-position';
+import { captureReadingPosition, useReadingPosition, useReadingView } from './use-reading-position';
 import { pendingReadingResume, useReadingProgress } from './use-reading-progress';
 import { readingNavigation } from './reading-navigation-state';
 import type { PublicReadingAnchor } from './use-reading-progress';
@@ -42,19 +42,20 @@ function initialBooks(document: EventComparisonDocument, route?: Route): BookId[
   return [...preferred, ...available.filter(bookId => !preferred.includes(bookId))].slice(0, 3);
 }
 
-function Difference({ difference, sources, displayOriginal, onRead, onVerify, verifying }: {
+function Difference({ difference, sources, displayOriginal, onRead, onVerify, verifying, initiallyOpen }: {
   difference: ComparisonDifference;
   sources: ReadonlyMap<string, ComparisonSource>;
   displayOriginal: (original: string) => string;
   onRead: (source: ComparisonSource) => void;
   onVerify: (differenceId: string) => void;
   verifying: boolean;
+  initiallyOpen: boolean;
 }) {
   return <article className="comparison-difference" data-difference-id={difference.id} data-status={difference.status}>
     <div className="comparison-difference-heading"><span>{differenceLabels[difference.kind]}</span><h4>{difference.title}</h4></div>
     {difference.status === 'available' ? <>
       <p>{difference.summary}</p>
-      <details className="comparison-difference-evidence" data-reading-details-id={`difference/${difference.id}`}><summary>核对各书原文依据</summary><ul>{difference.evidence.map((evidence, index) => {
+      <details className="comparison-difference-evidence" open={initiallyOpen || undefined} data-reading-details-id={`difference/${difference.id}`}><summary>核对各书原文依据</summary><ul>{difference.evidence.map((evidence, index) => {
         const source = sources.get(evidence.sourceId);
         if (!source || source.status !== 'available') return null;
         return <li key={`${evidence.sourceId}-${index}`}><div><strong>{source.bookTitle}</strong><span>{source.chapterTitle}，原篇第 {source.paragraph.position} 段</span><button type="button" onClick={() => onRead(source)}>定位原篇</button></div><blockquote>{displayOriginal(evidence.excerpt)}</blockquote></li>;
@@ -85,22 +86,27 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
   const restoredStage = document.stages.find(stage => savedAnchor === `comparison-stage-${stage.id}`
     || stage.sourceIds.some(sourceId => savedAnchor === `comparison-paragraph-${document.id}-${stage.id}-${sourceId}`));
   const activeStageId = stageId ?? restoredStage?.id ?? document.stages[0]!.id;
-  const verificationKey = `${document.id}/${activeStageId}`;
+  const resumeEntryId = readingNavigation.current()?.id ?? route;
+  const verificationKey = `${document.id}/${activeStageId}/${resumeEntryId}`;
   const [verification, setVerification] = useState<{ key: string; ids: string[]; loading: boolean }>({ key: verificationKey, ids: [], loading: false });
   const proofController = useRef<AbortController | null>(null);
-  const differenceIds = verification.key === verificationKey ? verification.ids : [];
   // Keep the initial resume proof for this history entry after the hook consumes
   // it; removing it would cause a second identical chapter read after restore.
-  const resumeEntryId = readingNavigation.current()?.id ?? route;
   const resumeSourceIds = useMemo(() => resume?.binding?.kind === 'stage'
     ? resume.binding.sourceBindings.map(source => source.sourceId).filter(id => document.sources.some(source => source.id === id)) : [],
   [document.id, route, resumeEntryId]);
   const [view, setView] = useReadingView<ComparisonView>(route, { selectedBooks: initialBooks(document, route), expandedTranslations: {}, fontSize: 20 });
   const { selectedBooks, expandedTranslations, fontSize } = view;
+  const restoredDetails = useMemo(() => {
+    const entry = readingNavigation.current();
+    return { ...(resume?.position.details ?? (entry?.route === route ? entry.position?.details : undefined) ?? {}) };
+  }, [document.id, route, resumeEntryId, selectedBooks.join(',')]);
+  const restoredDifferenceIds = document.differences.filter(difference => restoredDetails[`difference/${difference.id}`] === true).map(difference => difference.id);
+  const differenceIds = [...new Set([...restoredDifferenceIds, ...(verification.key === verificationKey ? verification.ids : [])])];
   // A new request owns no prior body's readiness, even on the render before
   // effects abort/restart. This keeps a new saved binding pending until its own
   // requested sources have finished validation.
-  const requestKey = JSON.stringify([document, activeStageId, selectedBooks, resumeSourceIds, retry, route, resumeEntryId]);
+  const requestKey = JSON.stringify([document, activeStageId, selectedBooks, resumeSourceIds, restoredDifferenceIds, retry, route, resumeEntryId]);
   const page = storedPage.key === requestKey ? storedPage.page : null;
   const readState = readRecord.key === requestKey ? readRecord.state : 'loading';
   function setPage(page: EventComparisonResponse | null) { setStoredPage({ key: requestKey, page }); }
@@ -165,10 +171,10 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
 
   useEffect(() => {
     const controller = new AbortController();
-    setVerification({ key: verificationKey, ids: [], loading: false });
+    setVerification({ key: verificationKey, ids: restoredDifferenceIds, loading: false });
     setPage(null); setReadState('loading');
     readEventComparison({ document, apiBase: historyApiBase, archiveBase: import.meta.env.BASE_URL, signal: controller.signal,
-      request: { stageIds: [activeStageId], bookIds: selectedBooks, sourceIds: resumeSourceIds },
+      request: { stageIds: [activeStageId], bookIds: selectedBooks, sourceIds: resumeSourceIds, differenceIds: restoredDifferenceIds },
       onProgress: result => { if (!controller.signal.aborted) setPage(result.page); },
     }).then(result => {
       if (!controller.signal.aborted) { setPage(result.page); setReadState('ready'); }
@@ -188,6 +194,9 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
   }
 
   function toggleBook(bookId: BookId) {
+    // The native details toggle may precede the debounced progress save. Keep
+    // this entry's actual open evidence before the selection starts a new read.
+    captureReadingPosition();
     const next = selectedBooks.includes(bookId) ? selectedBooks.length > 1 ? selectedBooks.filter(id => id !== bookId) : selectedBooks : selectedBooks.length < 3 ? [...selectedBooks, bookId] : selectedBooks;
     bookSelections.set(document.id, [...next]);
     setSelectedBooks(next);
@@ -250,7 +259,7 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
               const comparisonPending = reference.evidence.filter(evidence => evidence.stageId === stage.id).some(evidence => sources.get(evidence.sourceId)?.status === 'pending');
               return <li key={`${reference.personId}/${reference.eventId}`}><button type="button" data-timeline-person={reference.personId} data-timeline-event={reference.eventId} disabled={!link} aria-label={link ? `${name}：${link.event.title}` : `${name}的对应年表事件，依据尚未核验`} onClick={() => { if (link) go(personTimelineRoute(link.person.id, link.event.id, eventComparisonRoute(document.id, stage.id, returnTo))); }}><strong>{name}</strong><span>对应年表事件</span><small>{link ? '查看年表' : comparisonPending ? '尚待核验' : linksState === 'loading' ? '正在核验' : '暂不可用'}</small></button></li>;
             })}</ul></section>}
-            {differences.length > 0 && <section className="comparison-differences" aria-labelledby={`comparison-differences-${stage.id}`}><h3 id={`comparison-differences-${stage.id}`}>本阶段的记载对照</h3>{differences.map(difference => <Difference key={difference.id} difference={difference} sources={sources} displayOriginal={displayOriginal} onRead={source => readSource(source, stage)} onVerify={verifyDifference} verifying={readState === 'loading' || differenceIds.includes(difference.id) && verification.loading} />)}</section>}
+            {differences.length > 0 && <section className="comparison-differences" aria-labelledby={`comparison-differences-${stage.id}`}><h3 id={`comparison-differences-${stage.id}`}>本阶段的记载对照</h3>{differences.map(difference => <Difference key={difference.id} difference={difference} sources={sources} displayOriginal={displayOriginal} onRead={source => readSource(source, stage)} onVerify={verifyDifference} initiallyOpen={restoredDetails[`difference/${difference.id}`] === true} verifying={readState === 'loading' || differenceIds.includes(difference.id) && verification.loading} />)}</section>}
             <div className="comparison-book-columns" style={{ '--comparison-columns': selected.length } as CSSProperties}>{selected.map(book => {
               const bookSources = stageSources.filter(source => source.bookId === book.id);
               return <section className="comparison-book" key={book.id} data-book-id={book.id} aria-label={`${stage.title}的${book.title}记载`}><h3>{book.title}</h3>{bookSources.length === 0 ? <p className="comparison-no-record">本阶段未选取该书相关段落，可在其他阶段查看已选材料。</p> : bookSources.map(source => <article className="comparison-source" key={source.id} data-source-id={source.id} data-status={source.status}>
@@ -260,7 +269,7 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
             })}</div>
           </section>;
         })}
-          {page.differences.some(difference => difference.stageId === null) && <section className="comparison-differences comparison-cross-stage"><h2>跨阶段的记载对照</h2>{page.differences.filter(difference => difference.stageId === null).map(difference => <Difference key={difference.id} difference={difference} sources={sources} displayOriginal={displayOriginal} onRead={source => readSource(source, null)} onVerify={verifyDifference} verifying={readState === 'loading' || differenceIds.includes(difference.id) && verification.loading} />)}</section>}
+          {page.differences.some(difference => difference.stageId === null) && <section className="comparison-differences comparison-cross-stage"><h2>跨阶段的记载对照</h2>{page.differences.filter(difference => difference.stageId === null).map(difference => <Difference key={difference.id} difference={difference} sources={sources} displayOriginal={displayOriginal} onRead={source => readSource(source, null)} onVerify={verifyDifference} initiallyOpen={restoredDetails[`difference/${difference.id}`] === true} verifying={readState === 'loading' || differenceIds.includes(difference.id) && verification.loading} />)}</section>}
         </div>
       </div>
     </>}

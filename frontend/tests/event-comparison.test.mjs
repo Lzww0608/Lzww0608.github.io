@@ -384,11 +384,12 @@ const comparisonComponent = await transform(readFileSync(new URL('../src/EventCo
 const componentDocument = eventComparisons.find(document => document.id === 'huliu');
 const componentPage = (await readEventComparison({ ...options(), document: componentDocument, fetcher: async url => responseFor(url) })).page;
 function renderComparisonState(previous = {}, destination = {}) {
-  const captured = {}, previousDocument = previous.document ?? componentDocument;
+  const captured = { readRequests: [] }, effects = [], previousDocument = previous.document ?? componentDocument;
   const previousStageId = previous.stageId ?? previousDocument.stages[0].id;
   const previousBooks = previous.books ?? ['old', 'new', 'tongjian'];
   const previousRoute = previous.route ?? eventComparisonRoute(previousDocument.id, previousStageId);
-  const previousKey = JSON.stringify([previousDocument, previousStageId, previousBooks, [], previous.retry ?? 0, previousRoute, previous.entryId ?? 'entry-one']);
+  const previousDifferenceIds = previousDocument.differences.filter(difference => previous.details?.[`difference/${difference.id}`] === true).map(difference => difference.id);
+  const previousKey = JSON.stringify([previousDocument, previousStageId, previousBooks, [], previousDifferenceIds, previous.retry ?? 0, previousRoute, previous.entryId ?? 'entry-one']);
   const nextDocument = destination.document ?? previousDocument, nextStageId = destination.stageId ?? previousStageId;
   const nextRoute = destination.route ?? eventComparisonRoute(nextDocument.id, nextStageId);
   const nextBooks = destination.books ?? previousBooks;
@@ -404,26 +405,28 @@ function renderComparisonState(previous = {}, destination = {}) {
       if (index === 4) return ['loading', () => {}];
       if (index === 5) return [0, () => {}];
       return [typeof initial === 'function' ? initial() : initial, () => {}];
-    }, useMemo: callback => callback(), useRef: value => ({ current: value }), useEffect: () => {} },
+    }, useMemo: callback => callback(), useRef: value => ({ current: value }), useEffect: effect => effects.push(effect) },
     '@phosphor-icons/react': { ArrowLeft: () => null, CaretDown: () => null, CaretUp: () => null },
     './CollapsibleSidebar': { useSidebarState: () => ({ collapsed: false, toggle: () => {} }), CollapsibleSidebar: ({ children }) => React.createElement('aside', null, children) },
     './OriginalParagraph': { OriginalParagraph: ({ paragraph }) => React.createElement('p', { 'data-current-paragraph': paragraph.id }, paragraph.original) },
     './history-api': { historyApiBase: 'https://api.example' },
-    './event-comparison-loader': { readEventComparison },
+    './event-comparison-loader': { readEventComparison: request => { captured.readRequests.push(request); return new Promise(() => {}); } },
     './event-comparison-route': { eventComparisonRoute },
     './person-timeline-route': { personTimelineRoute, resolvePersonTimelineRoute },
-    './use-reading-position': { useReadingPosition: value => { captured.position = value; }, useReadingView: () => [{ selectedBooks: nextBooks, expandedTranslations: {}, fontSize: 20 }, () => {}] },
-    './use-reading-progress': { pendingReadingResume: () => null, useReadingProgress: value => { captured.progress = value; return { ready: value.ready, stale: false }; } },
-    './reading-navigation-state': { readingNavigation: { current: () => ({ id: destination.entryId ?? 'entry-one', route: nextRoute }) } },
-    './event-timeline-links-loader': { readComparisonTimelineLinks: () => { throw new Error('SSR never starts effects'); } },
+    './use-reading-position': { captureReadingPosition: () => {}, useReadingPosition: value => { captured.position = value; }, useReadingView: () => [{ selectedBooks: nextBooks, expandedTranslations: {}, fontSize: 20 }, () => {}] },
+    './use-reading-progress': { pendingReadingResume: () => destination.resume ?? null, useReadingProgress: value => { captured.progress = value; return { ready: value.ready, stale: false }; } },
+    './reading-navigation-state': { readingNavigation: { current: () => ({ id: destination.entryId ?? 'entry-one', route: destination.ownerRoute ?? nextRoute,
+      intent: 'restore', position: destination.details ? { details: destination.details } : undefined }) } },
+    './event-timeline-links-loader': { readComparisonTimelineLinks: () => new Promise(() => {}) },
     './event-timeline-links': { eventTimelineLinks }, './person-catalog': { catalogPeople },
     './use-original-script': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
     './event-comparison.css': {},
   };
   const module = { exports: {} }, nativeRequire = createRequire(import.meta.url);
-  vm.runInNewContext(comparisonComponent.code, { module, exports: module.exports, require: name => modules[name] ?? nativeRequire(name) });
+  vm.runInNewContext(comparisonComponent.code, { module, exports: module.exports, AbortController, AbortSignal, require: name => modules[name] ?? nativeRequire(name) });
   const element = module.exports.EventComparison({ document: nextDocument, stageId: nextStageId, route: nextRoute, go: () => {}, onReadSource: () => {} });
-  return { ...captured, html: renderToStaticMarkup(element) };
+  const html = renderToStaticMarkup(element);
+  return { ...captured, html, runEffects: () => effects.forEach(effect => effect()) };
 }
 
 test('a new phase, document, book selection, retry or history entry cannot restore from the previous completed comparison on its first render', () => {
@@ -448,4 +451,29 @@ test('the final current phase can restore before timeline proof finishes and ren
   const stageButtons = [...rendered.html.matchAll(/data-timeline-person="[^"]+"[^>]*>/g)];
   assert.ok(stageButtons.length > 0);
   assert.ok(stageButtons.every(match => match[0].includes('disabled=""')));
+});
+
+test('returning to an open difference requests all of its proof before checking the restored reading position', () => {
+  const differenceId = 'huliu-siyuan-and-jingtang';
+  const details = { [`difference/${differenceId}`]: true, 'difference/huliu-losses-and-survivors': false, 'difference/not-registered': true };
+  for (const restoration of [{ details }, { resume: { position: { details }, view: {} } }]) {
+    const rendered = renderComparisonState({}, { stageId: 'counterattack', books: ['old', 'tongjian'], ...restoration });
+    rendered.runEffects();
+    assert.equal(rendered.progress.ready, false);
+    assert.deepEqual(Array.from(rendered.readRequests[0].request.differenceIds ?? []), [differenceId]);
+    assert.deepEqual([...rendered.readRequests[0].request.bookIds], ['old', 'tongjian']);
+  }
+  const otherEntry = renderComparisonState({}, { stageId: 'counterattack', books: ['old', 'tongjian'], details, ownerRoute: 'people' });
+  otherEntry.runEffects();
+  assert.deepEqual(Array.from(otherEntry.readRequests[0].request.differenceIds ?? []), []);
+});
+
+test('revalidated difference details restore their open state without depending on automatic scroll positioning', () => {
+  const details = { 'difference/huliu-siyuan-and-jingtang': true, 'difference/huliu-losses-and-survivors': false };
+  const rendered = renderComparisonState({ stageId: 'counterattack', books: ['old', 'tongjian'], details }, { details });
+  assert.equal(rendered.progress.ready, true);
+  const open = /<details[^>]*data-reading-details-id="difference\/huliu-siyuan-and-jingtang"[^>]*>/.exec(rendered.html)?.[0];
+  const closed = /<details[^>]*data-reading-details-id="difference\/huliu-losses-and-survivors"[^>]*>/.exec(rendered.html)?.[0];
+  assert.ok(open?.includes('open=""'));
+  assert.ok(closed && !closed.includes('open=""'));
 });
