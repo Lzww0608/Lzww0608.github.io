@@ -8,6 +8,7 @@ import { useReadingPosition } from './use-reading-position';
 import { useReadingProgress } from './use-reading-progress';
 import { BookmarkButton } from './BookmarkButton';
 import { readTimelineComparisonLinks } from './event-timeline-links-loader';
+import { eventTimelineLinks } from './event-timeline-links';
 import type { ResolvedEventTimelineLink } from './event-timeline-links';
 import { personSourcesRoute } from './library';
 import { CollapsibleSidebar, useSidebarState } from './CollapsibleSidebar';
@@ -19,7 +20,7 @@ import type { PersonTimelineEvent, PersonTimelineResponse, ResolvedTimelineEvide
 import './person-timeline.css';
 
 type TimelineEvent = PersonTimelineEvent<ResolvedTimelineEvidence>;
-type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
+type ReadState = 'loading' | 'archive' | 'ready' | 'error';
 const phaseLabels: Record<TimelinePhase, string> = {
   early: '早年与家世', campaigns: '平乱与河东', rivalry: '与诸镇角逐', late: '晋王晚年',
   posthumous: '身后记载', jin: '晋王时期', conquest: '争衡与灭梁', imperial: '后唐时期', fall: '变乱与身故',
@@ -68,11 +69,17 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
   go: (route: Route) => void;
   onReadSource: (chapterId: string, paragraphId?: string, context?: ReadingSearchContext) => void;
 }) {
-  const [page, setPage] = useState<PersonTimelineResponse | null>(null);
-  const [readState, setReadState] = useState<ReadState>('loading');
+  const [storedPage, setPage] = useState<PersonTimelineResponse | null>(null);
+  const [readRecord, setReadRecord] = useState<{ personId: string; state: ReadState }>({ personId: person.id, state: 'loading' });
   const [retry, setRetry] = useState(0);
   const [comparisonLinks, setComparisonLinks] = useState<ResolvedEventTimelineLink[]>([]);
   const [linksReady, setLinksReady] = useState(false);
+  const page = storedPage?.personId === person.id ? storedPage : null;
+  const readState = readRecord.personId === person.id ? readRecord.state : 'loading';
+  const timelineReady = !!page && ['ready', 'archive'].includes(readState);
+  const comparisonSlots = useMemo(() => eventTimelineLinks.flatMap(document => document.links
+    .filter(link => link.personId === person.id)
+    .map(link => ({ comparisonId: document.comparisonId, eventId: link.eventId, stageIds: link.stageIds }))), [person.id]);
   const yearSidebar = useSidebarState('timeline-years');
   const script = useOriginalScript();
   const groups = useMemo(() => groupEvents(page?.events ?? []), [page?.events]);
@@ -89,7 +96,7 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
   const displayOriginal = (original: string) => script.displayScript === 'simplified' && script.converter ? script.converter(original) : original;
   const returnComparison = returnTo ? resolveEventComparisonRoute(returnTo) : null;
   const anchors = useMemo(() => (page?.events ?? []).map(event => ({ anchorId: `timeline-event-${event.id}`, personId: person.id, event })), [page, person.id]);
-  const progress = useReadingProgress({ route, personId: person.id, ready: readState === 'error' || ['ready', 'archive'].includes(readState) && linksReady, anchors,
+  const progress = useReadingProgress({ route, personId: person.id, ready: readState === 'error' || timelineReady, anchors,
     progressRoute: anchorId => personTimelineRoute(person.id, anchorId?.replace(/^timeline-event-/, '')),
     blockedNotice: readState === 'error' ? '当前年表暂时无法核验，保存位置暂不恢复。' : undefined });
   useReadingPosition({ route, ready: progress.ready && readState !== 'error', targetId: !progress.stale && eventId ? `timeline-event-${eventId}` : undefined,
@@ -107,13 +114,11 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
 
   useEffect(() => {
     const controller = new AbortController();
-    setPage(null); setReadState('loading');
-    readPersonTimeline({ personId: person.id, apiBase: historyApiBase, archiveBase: import.meta.env.BASE_URL, signal: controller.signal,
-      onArchive: value => { if (!controller.signal.aborted) { setPage(value); setReadState('archive-pending'); } },
-    }).then(result => {
-      if (!controller.signal.aborted) { setPage(result.page); setReadState(result.source === 'api' ? 'ready' : 'archive'); }
+    setPage(null); setReadRecord({ personId: person.id, state: 'loading' });
+    readPersonTimeline({ personId: person.id, apiBase: historyApiBase, archiveBase: import.meta.env.BASE_URL, signal: controller.signal }).then(result => {
+      if (!controller.signal.aborted) { setPage(result.page); setReadRecord({ personId: person.id, state: result.source === 'api' ? 'ready' : 'archive' }); }
     }).catch(() => {
-      if (!controller.signal.aborted) { setPage(null); setReadState('error'); }
+      if (!controller.signal.aborted) { setPage(null); setReadRecord({ personId: person.id, state: 'error' }); }
     });
     return () => controller.abort();
   }, [person.id, retry]);
@@ -137,7 +142,6 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
     <div className="timeline-read-status" role="status">
       {progress.notice && <p className="reading-progress-notice">{progress.notice}</p>}
       {readState === 'loading' && '正在打开人物年表…'}
-      {readState === 'archive-pending' && '已打开随站年表，正在核对当前记载…'}
       {readState === 'archive' && '当前显示随站保存的年表与出处。'}
       {readState === 'error' && <><span>当前年表暂时无法核验。</span><button type="button" onClick={() => setRetry(value => value + 1)}>重试</button></>}
       {!!page?.unavailableCount && <p>{page.unavailableCount} 条事件的来源已变化，暂不展示。</p>}
@@ -155,15 +159,17 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
         {event.notes?.map((note, index) => <p className="timeline-date-note" key={index}>{note}</p>)}
         <EvidenceList evidence={event.evidence} detailKey={`${event.id}/main`} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} />
         {!!event.variants?.length && <details className="timeline-source-variants" data-reading-details-id={`${event.id}/variants`}><summary>史书差异 · {event.variants.length} 处</summary>{event.variants.map((variant, index) => <div className="timeline-variant" key={index}><h5>{variant.label}</h5><p>{variant.year !== undefined && `另记公元 ${variant.year} 年；`}原书日期：{variant.sourceDate}</p>{variant.summary && <p>{variant.summary}</p>}{variant.notes?.map((note, noteIndex) => <p key={noteIndex}>{note}</p>)}<EvidenceList evidence={variant.evidence} detailKey={`${event.id}/variant-${index}`} displayOriginal={displayOriginal} onRead={source => readEvidence(event, source)} /></div>)}</details>}
-        {comparisonLinks.filter(link => link.event.id === event.id).map(link => {
-          const comparison = resolveEventComparisonRoute(eventComparisonRoute(link.comparisonId))?.document;
+        {comparisonSlots.filter(slot => slot.eventId === event.id).map(slot => {
+          const comparison = resolveEventComparisonRoute(eventComparisonRoute(slot.comparisonId))?.document;
           if (!comparison) return null;
-          return <div className="timeline-event-comparisons" key={link.comparisonId} data-comparison-link={link.comparisonId}>
-          <span>{comparison.title} · 史料对读</span>{link.stageIds.map(id => {
-            const target = eventComparisonRoute(link.comparisonId, id, route);
+          const link = linksReady ? comparisonLinks.find(link => link.comparisonId === slot.comparisonId && link.event.id === event.id) : undefined;
+          return <div className="timeline-event-comparisons" key={slot.comparisonId} data-comparison-slot={slot.comparisonId} data-comparison-link={link ? slot.comparisonId : undefined} aria-busy={!linksReady}>
+          <span>{comparison.title} · 史料对读</span>{slot.stageIds.map(id => {
+            const verified = !!link?.stageIds.includes(id);
             const stage = comparison.stages.find(stage => stage.id === id);
-            return stage ? <button type="button" key={id} onClick={() => go(target)} aria-label={`${comparison.title}史料对读：${stage.title}`}>{stage.title}<ArrowRight size={15} aria-hidden="true" /></button> : null;
+            return stage ? <button type="button" key={id} disabled={!verified} onClick={verified ? () => go(eventComparisonRoute(slot.comparisonId, id, route)) : undefined} aria-label={`${comparison.title}史料对读：${stage.title}`}>{stage.title}<ArrowRight size={15} aria-hidden="true" /></button> : null;
           })}
+          <small role="status" style={{ flexBasis: '100%', minHeight: '1.8em', lineHeight: 1.8, color: 'var(--muted)' }}>{!linksReady ? '正在核验史料对读…' : link?.stageIds.length === slot.stageIds.length ? '对读出处已核验。' : link ? '部分对读出处暂时无法核验。' : '对读出处暂时无法核验。'}</small>
         </div>; })}
       </article>)}</div></div>)}</section>)}</div>
     </div>}

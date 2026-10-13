@@ -3,10 +3,13 @@ import { publicParagraphJson, latestPublishedTranslationJoin } from './public-pa
 const sha = text => createHash('sha256').update(text, 'utf8').digest('hex');
 
 export function createPersonTimelinesRepository(pool) {
-  return { async personTimeline(personId) {
+  return { async personTimeline(personId, { eventIds } = {}) {
     // One statement supplies a consistent original/publication snapshot, including all alternative evidence.
     const { rows } = await pool.query(`WITH registered AS (
-        SELECT document FROM public.person_timelines WHERE person_id=$1
+        SELECT ${eventIds ? `jsonb_set(document, '{events}', COALESCE((SELECT jsonb_agg(event ORDER BY position)
+          FROM jsonb_array_elements(document->'events') WITH ORDINALITY AS selected(event,position)
+          WHERE event->>'id'=ANY($2::text[])), '[]'::jsonb))` : 'document'} AS document
+        FROM public.person_timelines WHERE person_id=$1
       ), refs AS (
         SELECT DISTINCT ref #>> '{}' AS paragraph_id FROM registered
           CROSS JOIN LATERAL jsonb_path_query(document,'$.events[*].evidence[*].paragraphId') AS ref
@@ -19,7 +22,7 @@ export function createPersonTimelinesRepository(pool) {
           JOIN public.paragraph_revisions r ON r.paragraph_id=p.id AND r.revision=p.current_revision
           JOIN public.chapters c ON c.id=p.chapter_id JOIN public.editions e ON e.id=c.edition_id JOIN public.books b ON b.id=e.book_id
           ${latestPublishedTranslationJoin}
-      ) SELECT document,COALESCE((SELECT jsonb_object_agg(id,to_jsonb(sources)) FROM sources),'{}'::jsonb) AS sources FROM registered`, [personId]);
+      ) SELECT document,COALESCE((SELECT jsonb_object_agg(id,to_jsonb(sources)) FROM sources),'{}'::jsonb) AS sources FROM registered`, eventIds ? [personId,eventIds] : [personId]);
     if (!rows.length) return null;
     const { document, sources } = rows[0]; let unavailableCount = 0;
     const resolve = ref => {

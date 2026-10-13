@@ -25,6 +25,9 @@ function archive(url) {
   const chapterId = /\/chapters\/([a-z0-9-]+)(?:\.json)?$/.exec(url)?.[1];
   return chapterId && chapters.has(chapterId) ? Response.json(chapters.get(chapterId)) : new Response('', { status: 404 });
 }
+function apiTimelinePerson(url) {
+  return /^\/api\/people\/([a-z0-9-]+)\/timeline$/.exec(new URL(url, 'https://archive.example').pathname)?.[1];
+}
 const comparison = (await readEventComparison({ ...options(), document: comparisonDocument, fetcher: async url => archive(url) })).page;
 const timelines = new Map(await Promise.all(people.map(async personId => [personId,
   (await readPersonTimeline({ ...options(), personId, eventIds: registry.links.filter(link => link.personId === personId).map(link => link.eventId), fetcher: async url => archive(url) })).page])));
@@ -85,8 +88,8 @@ test('responding empty, invalid and failed API timelines cannot revive a static 
     new Response('', { status: 500 }), new Response('{bad'), new Response(null, { status: 204 }), Response.error(),
     Response.json({ ...current, personId: 'li-keyong' })]) {
     const result = await readComparisonTimelineLinks({ ...options(), comparison, apiBase: 'https://api.example', fetcher: async url => {
-      if (url === `https://api.example/api/people/${personId}/timeline`) return apiResponse;
-      const id = /\/api\/people\/([a-z0-9-]+)\/timeline$/.exec(url)?.[1];
+      const id = apiTimelinePerson(url);
+      if (id === personId) return apiResponse;
       return id ? Response.json(timelines.get(id)) : archive(url);
     } });
     assert.ok(!result.links.some(link => link.person.id === personId));
@@ -97,7 +100,7 @@ test('responding empty, invalid and failed API timelines cannot revive a static 
 test('concurrency slots cover complete streamed bodies and responding truncated bodies cannot restore static links', async () => {
   let active = 0, peak = 0;
   const result = await readComparisonTimelineLinks({ ...options(), comparison, apiBase: 'https://api.example', fetcher: async (url, init) => {
-    const id = /\/api\/people\/([a-z0-9-]+)\/timeline$/.exec(url)?.[1];
+    const id = apiTimelinePerson(url);
     const value = id ? timelines.get(id) : await archive(url).json();
     assert.equal(init.signal.aborted, false); active++; peak = Math.max(peak, active);
     return new Response(new ReadableStream({ async start(controller) {
@@ -123,13 +126,70 @@ test('offline selected-event reads are deduplicated and globally bounded and nev
   assert.deepEqual(new Set(calls.filter(url => url.includes('/chapters/'))), expected);
 });
 
+test('a person timeline verifies only comparison references for that person’s available registered events', async () => {
+  const personId = people[0], calls = [];
+  const timeline = (await readPersonTimeline({ ...options(), personId, fetcher: async url => archive(url) })).page;
+  const result = await readTimelineComparisonLinks({ ...options(), personId, timeline,
+    fetcher: async url => { calls.push(url); return archive(url); } });
+  const selectedLinks = eventTimelineLinks.flatMap(document => document.links.filter(link => link.personId === personId && timeline.events.some(event => event.id === link.eventId)));
+  const expected = new Set(eventTimelineLinks.flatMap(document => document.links.filter(link => selectedLinks.includes(link)).flatMap(link => link.evidence.map(evidence => {
+    const source = eventComparisons.find(comparison => comparison.id === document.comparisonId).sources.find(source => source.id === evidence.sourceId);
+    return `/history/chapters/${source.chapterId}.json`;
+  }))));
+  assert.deepEqual(new Set(calls), expected);
+  assert.equal(result.links.length, selectedLinks.length);
+  assert.equal(result.unavailableCount, 0);
+});
+
+test('a comparison stage reads only its linked timeline events and all of their primary and variant evidence', async () => {
+  const stageId = 'battle', calls = [];
+  const result = await readComparisonTimelineLinks({ ...options(), comparison, stageIds: [stageId],
+    fetcher: async url => { calls.push(url); return archive(url); } });
+  const selectedLinks = registry.links.filter(link => link.stageIds.includes(stageId));
+  assert.equal(result.links.length, selectedLinks.length);
+  assert.ok(result.links.every(link => JSON.stringify(link.stageIds) === JSON.stringify([stageId])));
+  const selectedEvents = selectedLinks.map(link => documents.get(link.personId).events.find(event => event.id === link.eventId));
+  const expectedChapters = new Set(selectedEvents.flatMap(event => [...event.evidence,
+    ...(event.variants?.flatMap(variant => variant.evidence) ?? [])].map(source => `/history/chapters/${source.chapterId}.json`)));
+  assert.deepEqual(new Set(calls.filter(url => url.includes('/chapters/'))), expectedChapters);
+  assert.deepEqual(new Set(calls.filter(url => url.includes('/person-timelines/'))),
+    new Set(selectedLinks.map(link => `/history/person-timelines/${link.personId}.json`)));
+  assert.equal(result.unavailableCount, 0);
+});
+
+test('stage API requests select only registered linked event IDs while retaining complete checked events', async () => {
+  const stageId = 'battle', calls = [];
+  const selectedLinks = registry.links.filter(link => link.stageIds.includes(stageId));
+  const result = await readComparisonTimelineLinks({ ...options(), comparison, stageIds: [stageId], apiBase: 'https://api.example',
+    fetcher: async url => {
+      const personId = apiTimelinePerson(url);
+      if (!personId) return archive(url);
+      const ids = new URL(url).searchParams.getAll('eventId');
+      calls.push({ personId, ids });
+      const events = timelines.get(personId).events.filter(event => ids.includes(event.id));
+      return Response.json({ ...timelines.get(personId), events });
+    } });
+  assert.equal(result.links.length, selectedLinks.length);
+  assert.equal(calls.length, new Set(selectedLinks.map(link => link.personId)).size);
+  for (const call of calls) assert.deepEqual(new Set(call.ids),
+    new Set(selectedLinks.filter(link => link.personId === call.personId).map(link => link.eventId)));
+});
+
+test('comparison proof that is still pending cannot report a changed timeline or trigger unrelated timeline reads', async () => {
+  const pending = { ...comparison, sources: comparison.sources.map(source => ({ ...source, status: 'pending', source: 'none', reason: 'not-requested' })) };
+  let calls = 0;
+  const result = await readComparisonTimelineLinks({ ...options(), comparison: pending, stageIds: ['battle'], fetcher: async () => { calls++; throw new Error('No valid comparison proof'); } });
+  assert.equal(calls, 0);
+  assert.deepEqual(result, { links: [], unavailableCount: 0 });
+});
+
 test('latest API translation versions are retained in the mapped event while canonical fact identity remains valid', async () => {
   const current = structuredClone(timelines.get(people[0]));
   const source = current.events[0].evidence[0];
   source.paragraph.translation = { ...source.paragraph.translation, id: 'latest-owner-version', version: source.paragraph.translation.version + 1,
     text: `${source.paragraph.translation.text}校订。`, origin: 'human', reviewStatus: 'owner-edited' };
   const result = await readComparisonTimelineLinks({ ...options(), comparison, apiBase: 'https://api.example', fetcher: async url => {
-    const id = /\/api\/people\/([a-z0-9-]+)\/timeline$/.exec(url)?.[1];
+    const id = apiTimelinePerson(url);
     return id ? Response.json(id === people[0] ? current : timelines.get(id)) : archive(url);
   } });
   const link = result.links.find(link => link.person.id === people[0] && link.event.id === current.events[0].id);

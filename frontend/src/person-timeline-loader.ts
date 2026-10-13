@@ -1,10 +1,11 @@
 import { parseChapter } from './chapter-schema.ts';
 import { libraryChapters } from './library.ts';
+import { hasPublicReadingResponse, publicReadingFetch } from './public-reading-fetch.ts';
 import { parsePersonTimelineDocument, parsePersonTimelineResponse, resolveTimelineEvidence, timelineHash } from './person-timeline-schema.ts';
 import type { PersonTimelineEvent, PersonTimelineResponse, ResolvedTimelineEvidence, TimelineEvidence } from './person-timeline-schema.ts';
 import type { ChapterResponse } from './types.ts';
 
-export async function readPersonTimeline({ personId, apiBase, archiveBase, signal, onArchive, eventIds, fetcher = fetch }: {
+export async function readPersonTimeline({ personId, apiBase, archiveBase, signal, onArchive, eventIds, fetcher = publicReadingFetch }: {
   personId: string;
   apiBase: string;
   archiveBase: string;
@@ -15,9 +16,38 @@ export async function readPersonTimeline({ personId, apiBase, archiveBase, signa
 }): Promise<{ page: PersonTimelineResponse; source: 'api' | 'archive' }> {
   if (!/^[a-z0-9-]+$/.test(personId)) throw new Error('Unknown timeline person');
   signal.throwIfAborted();
-  let authoritativeFailure = false;
-  let apiResponded = false;
-  const archiveRead = (async () => {
+  if (apiBase) {
+    const parameters = new URLSearchParams();
+    for (const id of new Set(eventIds ?? [])) parameters.append('eventId', id);
+    const url = `${apiBase.replace(/\/$/, '')}/api/people/${encodeURIComponent(personId)}/timeline${parameters.size ? `?${parameters}` : ''}`;
+    let response: Response | undefined;
+    try {
+      response = await fetcher(url, {
+        signal: AbortSignal.any([signal, AbortSignal.timeout(20000)]), credentials: 'omit',
+      });
+    } catch (error) {
+      // Only failure to reach the API permits the independent archive read.
+      signal.throwIfAborted();
+      if (hasPublicReadingResponse(error)) throw new Error('Current timeline could not be verified');
+    }
+    if (response) {
+      try {
+        signal.throwIfAborted();
+        if (!response.ok) throw new Error('Current timeline unavailable');
+        const completePage = await parsePersonTimelineResponse(await response.json(), personId);
+        signal.throwIfAborted();
+        const page = eventIds ? { ...completePage, events: completePage.events.filter(event => eventIds.includes(event.id)) } : completePage;
+        return { page, source: 'api' };
+      } catch {
+        signal.throwIfAborted();
+        // HTTP headers establish authority even if its body is empty, invalid
+        // or interrupted. None of those cases may revive an older archive.
+        throw new Error('Current timeline could not be verified');
+      }
+    }
+  }
+  signal.throwIfAborted();
+  try {
     async function request(url: string): Promise<unknown> {
       const response = await fetcher(url, { signal: AbortSignal.any([signal, AbortSignal.timeout(10000)]), credentials: 'omit' });
       if (!response.ok) throw new Error('Archived timeline unavailable');
@@ -60,27 +90,11 @@ export async function readPersonTimeline({ personId, apiBase, archiveBase, signa
     const resultSetRevision = await timelineHash(JSON.stringify({ personId, events, unavailableCount }));
     const page = await parsePersonTimelineResponse({ schemaVersion: 1, scope: 'current-archive', personId, events, unavailableCount, resultSetRevision }, personId);
     signal.throwIfAborted();
-    if (!apiResponded) onArchive?.(page);
-    return page;
-  })();
-  const liveRead = apiBase ? (async () => {
-    const response = await fetcher(`${apiBase.replace(/\/$/, '')}/api/people/${encodeURIComponent(personId)}/timeline`, {
-      signal: AbortSignal.any([signal, AbortSignal.timeout(20000)]), credentials: 'omit',
-    });
-    // A responding API is authoritative. Error/unknown responses and invalid
-    // successful JSON must never revive a previously deployed event.
-    apiResponded = true;
-    authoritativeFailure = true;
-    if (!response.ok) throw new Error('Current timeline unavailable');
-    const completePage = await parsePersonTimelineResponse(await response.json(), personId);
-    const page = eventIds ? { ...completePage, events: completePage.events.filter(event => eventIds.includes(event.id)) } : completePage;
-    authoritativeFailure = false;
-    return page;
-  })() : Promise.reject(new Error('API not configured'));
-  const [live, local] = await Promise.allSettled([liveRead, archiveRead]);
-  signal.throwIfAborted();
-  if (live.status === 'fulfilled') return { page: live.value, source: 'api' };
-  if (authoritativeFailure) throw new Error('Current timeline could not be verified');
-  if (local.status === 'fulfilled') return { page: local.value, source: 'archive' };
-  throw new Error('No available person timeline');
+    onArchive?.(page);
+    signal.throwIfAborted();
+    return { page, source: 'archive' };
+  } catch {
+    signal.throwIfAborted();
+    throw new Error('No available person timeline');
+  }
 }

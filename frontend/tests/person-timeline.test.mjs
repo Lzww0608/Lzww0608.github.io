@@ -2,12 +2,20 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync } from 'node:fs';
+import { createRequire } from 'node:module';
+import vm from 'node:vm';
+import { transform } from 'esbuild';
+import * as React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { readPersonTimeline } from '../src/person-timeline-loader.ts';
 import { parsePersonTimelineDocument, parsePersonTimelineResponse } from '../src/person-timeline-schema.ts';
 import { hasPersonTimeline, personTimelineRoute, resolvePersonTimelineRoute } from '../src/person-timeline-route.ts';
-import { chapterRoute, libraryChapters, resolveReadingRoute, resolveRoute } from '../src/library.ts';
+import { chapterRoute, libraryChapters, personSourcesRoute, resolveReadingRoute, resolveRoute } from '../src/library.ts';
+import { eventComparisonRoute, resolveEventComparisonRoute } from '../src/event-comparison-route.ts';
+import { eventTimelineLinks } from '../src/event-timeline-links.ts';
+import { createPublicReadingFetcher } from '../src/public-reading-fetch.ts';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 const library = loadLibrary(), allChapters = loadPublishedChapters(library);
@@ -73,6 +81,120 @@ test('latest valid API translations win over static copies and change the result
   assert.equal(result.source, 'api');
   assert.equal(result.page.events[0].evidence[0].paragraph.translation.id, 'fixture-new-version');
   assert.notEqual(result.page.resultSetRevision, response.resultSetRevision);
+});
+
+test('a valid API timeline completes before a slow static chapter and does not request archive copies', async () => {
+  const requests = [];
+  let releaseArchive;
+  const delayedArchive = new Promise(resolve => { releaseArchive = resolve; });
+  const reading = readPersonTimeline({ ...options, apiBase: 'https://api.example', fetcher: async url => {
+    requests.push(url);
+    if (url.startsWith('https://api.example')) return Response.json(response);
+    await delayedArchive;
+    return archive(url);
+  } });
+  const outcome = await Promise.race([
+    reading.then(result => ({ result })),
+    new Promise(resolve => setTimeout(() => resolve({ waitingForArchive: true }), 80)),
+  ]);
+  releaseArchive();
+  await reading;
+  assert.equal(outcome.waitingForArchive, undefined, 'valid API data must be usable while static chapters are delayed');
+  assert.equal(outcome.result.source, 'api');
+  assert.deepEqual(requests, ['https://api.example/api/people/li-keyong/timeline']);
+});
+
+test('a pending API cannot display or request archived events before network failure is confirmed', async () => {
+  const requests = [], previews = [];
+  let rejectApi;
+  const api = new Promise((resolve, reject) => { rejectApi = reject; });
+  const reading = readPersonTimeline({ ...options, apiBase: 'https://api.example', onArchive: page => previews.push(page), fetcher: async url => {
+    requests.push(url);
+    if (url.startsWith('https://api.example')) return api;
+    return archive(url);
+  } });
+  await new Promise(resolve => setTimeout(resolve, 30));
+  const beforeFailure = { requests: [...requests], previews: [...previews] };
+  rejectApi(new TypeError('Network unavailable'));
+  const result = await reading;
+  assert.deepEqual(beforeFailure.requests, ['https://api.example/api/people/li-keyong/timeline']);
+  assert.deepEqual(beforeFailure.previews, []);
+  assert.equal(result.source, 'archive');
+  assert.equal(previews.length, 1);
+  assert.deepEqual(requests.slice(1), ['/history/person-timelines/li-keyong.json', '/history/chapters/old-v025.json']);
+});
+
+test('HTTP authority includes empty, invalid and truncated bodies without requesting an older archive', async () => {
+  for (const makeResponse of [
+    () => Response.json({ ...response, events: [], unavailableCount: 1 }),
+    () => new Response('', { status: 404 }),
+    () => new Response('', { status: 500 }),
+    () => new Response('{bad'),
+    () => Response.json({ ...response, personId: 'li-cunxu' }),
+    () => new Response(new ReadableStream({ start(controller) { controller.error(new TypeError('Body was truncated')); } })),
+  ]) {
+    const requests = [], previews = [];
+    try {
+      await readPersonTimeline({ ...options, apiBase: 'https://api.example', onArchive: page => previews.push(page), fetcher: async url => {
+        requests.push(url);
+        return url.startsWith('https://api.example') ? makeResponse() : archive(url);
+      } });
+    } catch (error) { assert.match(error.message, /could not be verified/); }
+    assert.deepEqual(requests, ['https://api.example/api/people/li-keyong/timeline']);
+    assert.deepEqual(previews, []);
+  }
+});
+
+test('a shared public read with received HTTP headers and a timed out body cannot become an offline archive', async () => {
+  const requests = [], previews = [];
+  const shared = createPublicReadingFetcher(async (url, init) => {
+    requests.push(url);
+    if (!url.startsWith('https://api.example')) return archive(url);
+    return new Response(new ReadableStream({ start(controller) {
+      // Real headers arrive, then the body remains pending until cancellation.
+      init.signal.addEventListener('abort', () => controller.error(init.signal.reason), { once: true });
+    } }));
+  });
+  await assert.rejects(readPersonTimeline({ ...options, apiBase: 'https://api.example', onArchive: page => previews.push(page),
+    fetcher: (url, init) => shared(url, { ...init, signal: AbortSignal.any([init.signal, AbortSignal.timeout(25)]) }),
+  }), /could not be verified/);
+  assert.deepEqual(requests, ['https://api.example/api/people/li-keyong/timeline']);
+  assert.deepEqual(previews, []);
+});
+
+test('navigation abort while the API is pending never starts an archive request or callback', async () => {
+  const controller = new AbortController(), requests = [], previews = [];
+  const reading = readPersonTimeline({ ...options, apiBase: 'https://api.example', signal: controller.signal, onArchive: page => previews.push(page),
+    fetcher: async (url, init) => {
+      requests.push(url);
+      if (!url.startsWith('https://api.example')) return archive(url);
+      return new Promise((resolve, reject) => { init.signal.addEventListener('abort', () => reject(init.signal.reason), { once: true }); });
+    } });
+  controller.abort();
+  await assert.rejects(reading, error => error.name === 'AbortError');
+  assert.deepEqual(requests, ['https://api.example/api/people/li-keyong/timeline']);
+  assert.deepEqual(previews, []);
+});
+
+test('comparison event selections request only their unique stable event IDs while keeping API authority', async () => {
+  const requests = [], selected = [event.id, event.id];
+  const result = await readPersonTimeline({ ...options, apiBase: 'https://api.example/', eventIds: selected, fetcher: async url => {
+    requests.push(url);
+    return Response.json(response);
+  } });
+  assert.deepEqual(requests, ['https://api.example/api/people/li-keyong/timeline?eventId=li-keyong-fixture-birth']);
+  assert.equal(result.source, 'api');
+  assert.deepEqual(result.page.events.map(event => event.id), ['li-keyong-fixture-birth']);
+  assert.deepEqual(selected, [event.id, event.id]);
+  const empty = await readPersonTimeline({ ...options, apiBase: 'https://api.example', eventIds: [], fetcher: async url => {
+    assert.equal(url, 'https://api.example/api/people/li-keyong/timeline');
+    return Response.json(response);
+  } });
+  assert.deepEqual(empty.page.events, []);
+  await assert.rejects(readPersonTimeline({ ...options, apiBase: 'https://api.example', eventIds: [], fetcher: async url => {
+    assert.equal(url, 'https://api.example/api/people/li-keyong/timeline');
+    return new Response('', { status: 500 });
+  } }), /could not be verified/);
 });
 
 test('successful empty or suspended API timelines are authoritative and cannot preview an older archive after responding', async () => {
@@ -202,5 +324,96 @@ test('unknown dates and bounded periods survive the real reader as uncertainty w
     value => value.events[1].phase = 'service', value => value.events.reverse()]) {
     const invalid = structuredClone(input); change(invalid);
     assert.throws(() => parsePersonTimelineDocument(invalid, input.personId));
+  }
+});
+
+// Render the real component in controlled completed/pending read states. Only
+// browser hooks and their asynchronous inputs are replaced; real route data,
+// event grouping, evidence rendering and comparison controls stay in use.
+const componentSource = await transform(readFileSync(new URL('../src/PersonTimeline.tsx', import.meta.url), 'utf8'), {
+  loader: 'tsx', format: 'cjs', jsx: 'automatic', define: { 'import.meta.env.BASE_URL': '"/"' },
+});
+function renderTimelineState(page, comparisonLinks = [], linksReady = false, destination = {}) {
+  const captured = {};
+  const states = [destination.readState === 'error' ? null : page, { personId: page.personId, state: destination.readState ?? 'ready' }, 0, comparisonLinks, linksReady];
+  let stateIndex = 0;
+  const modules = {
+    react: { ...React, useState: initial => {
+      const index = stateIndex++;
+      return [index === 1 && typeof initial === 'string' ? states[index].state : states[index], () => {}];
+    }, useMemo: callback => callback(), useEffect: () => {} },
+    '@phosphor-icons/react': { ArrowLeft: () => null, ArrowRight: () => null },
+    './history-api': { historyApiBase: 'https://api.example' },
+    './person-timeline-loader': { readPersonTimeline },
+    './person-timeline-route': { personTimelineRoute },
+    './event-comparison-route': { eventComparisonRoute, resolveEventComparisonRoute },
+    './use-reading-position': { useReadingPosition: value => { captured.position = value; } },
+    './use-reading-progress': { useReadingProgress: value => { captured.progress = value; return { ready: value.ready, stale: false }; } },
+    './BookmarkButton': { BookmarkButton: () => null },
+    './event-timeline-links-loader': { readTimelineComparisonLinks: () => { throw new Error('Effects are not started by static rendering'); } },
+    './event-timeline-links': { eventTimelineLinks },
+    './library': { personSourcesRoute },
+    './CollapsibleSidebar': { useSidebarState: () => ({ collapsed: false, toggle: () => {} }), CollapsibleSidebar: ({ children }) => React.createElement('aside', null, children) },
+    './use-original-script': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
+    './person-catalog': { personDisplayPeriod: () => '后唐' },
+    './person-timeline.css': {},
+  };
+  const module = { exports: {} }, nativeRequire = createRequire(import.meta.url);
+  vm.runInNewContext(componentSource.code, { module, exports: module.exports, require: name => modules[name] ?? nativeRequire(name) });
+  const eventId = destination.eventId ?? page.events[0].id, route = personTimelineRoute(destination.personId ?? page.personId, eventId);
+  const person = resolvePersonTimelineRoute(route).person;
+  const element = module.exports.PersonTimeline({ person, route, eventId, go: () => {}, onReadSource: () => {} });
+  return { ...captured, html: renderToStaticMarkup(element), eventId };
+}
+
+const componentDocument = JSON.parse(readFileSync(new URL('../../content/person-timelines/li-cunxu.json', import.meta.url), 'utf8'));
+const componentPage = (await readPersonTimeline({ ...options, personId: 'li-cunxu', eventIds: ['li-cunxu-huliu'], fetcher: async url => {
+  if (url.endsWith('/person-timelines/li-cunxu.json')) return Response.json(componentDocument);
+  const chapterId = /\/chapters\/([a-z0-9-]+)\.json$/.exec(url)?.[1];
+  const chapter = allChapters.find(source => source.id === chapterId);
+  return chapter ? Response.json(chapter) : new Response('', { status: 404 });
+} })).page;
+
+test('a final public timeline can restore its exact event before unrelated comparison proof completes', () => {
+  const rendered = renderTimelineState(componentPage);
+  assert.equal(rendered.progress.ready, true, 'a verified timeline must not wait for comparisons to verify its saved event binding');
+  assert.equal(rendered.position.ready, true);
+  assert.equal(rendered.position.targetId, 'timeline-event-li-cunxu-huliu');
+});
+
+test('comparison slots keep the same stage controls while proof is pending, valid or unavailable', () => {
+  const page = componentPage, huliu = page.events[0];
+  const registered = eventTimelineLinks.find(document => document.comparisonId === 'huliu').links.find(link => link.personId === 'li-cunxu' && link.eventId === huliu.id);
+  const readyLink = { event: page.events[0], comparisonId: 'huliu', stageIds: registered.stageIds };
+  const pending = renderTimelineState(page), verified = renderTimelineState(page, [readyLink], true), unavailable = renderTimelineState(page, [], true);
+  const controls = html => [...html.matchAll(/<button[^>]*aria-label="胡柳陂之战史料对读：([^"]+)"[^>]*>/g)].map(match => ({ label: match[1], disabled: match[0].includes('disabled=""') }));
+  const initialControls = controls(pending.html);
+  assert.equal(initialControls.length, registered.stageIds.length, 'registered stage slots are present before late proof responses change the layout');
+  assert.ok(initialControls.every(control => control.disabled));
+  assert.deepEqual(controls(verified.html).map(control => control.label), initialControls.map(control => control.label));
+  assert.ok(controls(verified.html).every(control => !control.disabled));
+  assert.deepEqual(controls(unavailable.html), initialControls);
+  assert.match(pending.html, /正在核验史料对读/);
+  assert.match(unavailable.html, /对读出处暂时无法核验/);
+});
+
+test('partial comparison proof enables only the stages whose current sources were verified', () => {
+  const registered = eventTimelineLinks.find(document => document.comparisonId === 'huliu').links.find(link => link.personId === 'li-cunxu' && link.eventId === 'li-cunxu-huliu');
+  const link = { event: componentPage.events[0], comparisonId: 'huliu', stageIds: [registered.stageIds[0]] };
+  const rendered = renderTimelineState(componentPage, [link], true);
+  const controls = [...rendered.html.matchAll(/<button[^>]*aria-label="胡柳陂之战史料对读：[^"]+"[^>]*>/g)];
+  assert.equal(controls.filter(match => !match[0].includes('disabled=""')).length, 1);
+  assert.equal(controls.filter(match => match[0].includes('disabled=""')).length, registered.stageIds.length - 1);
+  assert.match(rendered.html, /部分对读出处暂时无法核验/);
+});
+
+test('changing people cannot position a new destination from the previous persons completed timeline', () => {
+  const nextDocument = JSON.parse(readFileSync(new URL('../../content/person-timelines/li-keyong.json', import.meta.url), 'utf8'));
+  for (const readState of ['ready', 'error']) {
+    const rendered = renderTimelineState(componentPage, [], false, { personId: 'li-keyong', eventId: nextDocument.events[0].id, readState });
+    assert.equal(rendered.progress.ready, false);
+    assert.equal(rendered.position.ready, false);
+    assert.match(rendered.html, /data-read-state="loading"/);
+    assert.doesNotMatch(rendered.html, /data-reading-anchor="timeline-event-li-cunxu-huliu"/);
   }
 });

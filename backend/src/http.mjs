@@ -1,6 +1,7 @@
 import { createServer } from 'node:http';
 import { gzip } from 'node:zlib';
 import { promisify } from 'node:util';
+import { createHash } from 'node:crypto';
 import { createEditorHandler } from './editor-http.mjs';
 import { parsePersonPassagePagination } from './person-passages.mjs';
 import { resolveLocalDevelopment, localDevelopmentRequestFailure } from './local-development.mjs';
@@ -37,15 +38,27 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Cache-Control', 'no-store');
     res.setHeader('Vary', 'Origin');
-    const send = (status, data) => { res.statusCode = status; res.end(req.method === 'HEAD' ? undefined : JSON.stringify(data)); };
-    const sendPublic = async data => {
+    const send = (status, data) => { res.setHeader('Cache-Control', 'no-store'); res.removeHeader('ETag'); res.statusCode = status; res.end(req.method === 'HEAD' ? undefined : JSON.stringify(data)); };
+    const sendPublic = async (data, revalidate = false) => {
       res.setHeader('Vary', 'Origin, Accept-Encoding');
+      const body = JSON.stringify(data);
+      // A validator is calculated only after a fresh repository snapshot. Weak
+      // tags identify the same JSON across identity/gzip representations.
+      if (revalidate) {
+        const digest = createHash('sha256').update(body).digest('hex');
+        const etag = `W/"${digest}"`;
+        res.setHeader('ETag', etag);
+        res.setHeader('Cache-Control', 'private, no-cache, must-revalidate');
+        const candidates = req.headers['if-none-match'];
+        if (typeof candidates === 'string' && candidates.split(',').some(value => {
+          const tag = value.trim(); return tag === '*' || tag.replace(/^W\//, '') === `"${digest}"`;
+        })) { res.statusCode = 304; return res.end(); }
+      }
       // HEAD stays bodyless, and this function is never used by the independent
       // editor handler or by errors/preflights. No credentials enter compression.
-      if (req.method !== 'GET') return send(200, data);
+      if (req.method !== 'GET') { res.statusCode = 200; return res.end(); }
       const encoding = responseEncoding(req.headers['accept-encoding']);
       if (!encoding.gzip && !encoding.identity) return send(406, { error: 'encoding_not_acceptable' });
-      const body = JSON.stringify(data);
       const bytes = Buffer.byteLength(body);
       if (encoding.gzip && (bytes >= compressionThreshold || !encoding.identity)) {
         const compressed = await compressJson(body, { level: 1 });
@@ -90,9 +103,11 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
       }
       const personTimeline = path.match(/^\/api\/people\/([a-z0-9-]+)\/timeline$/);
       if (personTimeline) {
-        if ([...url.searchParams].length) return send(400, { error: 'invalid_request' });
-        const result = await repository.personTimeline(personTimeline[1]);
-        return result ? await sendPublic(result) : send(404, { error: 'not_found' });
+        const eventIds = url.searchParams.getAll('eventId');
+        if ([...url.searchParams.keys()].some(key => key !== 'eventId') || eventIds.length > 200
+          || new Set(eventIds).size !== eventIds.length || eventIds.some(id => !/^[a-z0-9-]{1,120}$/.test(id))) return send(400, { error: 'invalid_request' });
+        const result = await repository.personTimeline(personTimeline[1], eventIds.length ? { eventIds } : undefined);
+        return result ? await sendPublic(result, true) : send(404, { error: 'not_found' });
       }
       const passage = path.match(/^\/api\/passages\/([a-z0-9-]+)$/);
       if (passage) {
@@ -107,7 +122,7 @@ export function createApi({ repository, allowedOrigins, editor = null, log = con
       const chapter = path.match(/^\/api\/chapters\/([a-z0-9-]+)$/);
       if (chapter) {
         const result = await repository.chapter(chapter[1]);
-        return result ? await sendPublic(result) : send(404, { error: 'not_found' });
+        return result ? await sendPublic(result, true) : send(404, { error: 'not_found' });
       }
       if (path === '/api/search') {
         const q = (url.searchParams.get('q') || '').trim();

@@ -7,7 +7,7 @@ import { parsePersonPassagePagination } from '../src/person-passages.mjs';
 function request(repository, url, method = 'GET') {
   const server = createApi({ repository, allowedOrigins: [], log: () => {} });
   return new Promise(resolve => {
-    const response = { statusCode: 200, setHeader() {}, end(body) {
+    const response = { statusCode: 200, setHeader() {}, removeHeader() {}, end(body) {
       resolve({ status: this.statusCode, body: body ? JSON.parse(body) : null });
     } };
     server.emit('request', { url, method, headers: {} }, response);

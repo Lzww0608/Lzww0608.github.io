@@ -153,7 +153,7 @@ test('every actual event resolves all primary and alternative sources using the 
   }
 });
 
-test('timeline HTTP is read-only, rejects all query parameters and keeps unknown people unavailable', async () => {
+test('timeline HTTP is read-only, rejects unrelated query parameters and keeps unknown people unavailable', async () => {
   const route = `${base}/api/people/${documents[0].personId}/timeline`;
   assert.equal((await fetch(`${base}/api/people/unknown/timeline`)).status, 404);
   assert.equal((await fetch(`${base}/api/people/zhu-wen/timeline`)).status, 200, 'canonical people now have registered timelines');
@@ -169,6 +169,19 @@ test('timeline HTTP is read-only, rejects all query parameters and keeps unknown
   assert.equal((await fetch(route, { method: 'OPTIONS' })).status, 204);
   assert.equal((await fetch(route, { headers: { Origin: 'https://untrusted.example' } })).status, 403);
   assert.equal((await owner.query('SELECT count(*)::int AS n FROM public.person_timelines')).rows[0].n, documents.length);
+});
+
+test('selected events retain canonical order and complete current main/variant evidence from one database snapshot', async () => {
+  const document=documents.find(document=>document.events.length>=3 && document.events.some(event=>event.variants?.length)), selectedIds=[document.events[2].id,document.events[0].id];
+  const full=await (await fetch(`${base}/api/people/${document.personId}/timeline`)).json();
+  const params=new URLSearchParams(); selectedIds.forEach(id=>params.append('eventId',id));
+  const selected=await (await fetch(`${base}/api/people/${document.personId}/timeline?${params}`)).json();
+  assert.deepEqual(selected.events,full.events.filter(event=>selectedIds.includes(event.id)));
+  assert.equal(selected.unavailableCount,0); assert.match(selected.resultSetRevision,/^[a-f0-9]{64}$/);
+  const calls=[]; const repository=createPersonTimelinesRepository({ query(sql,params){calls.push({sql,params});return readerPool.query(sql,params);} });
+  assert.deepEqual((await repository.personTimeline(document.personId,{eventIds:selectedIds})).events,selected.events);
+  assert.equal(calls.length,1); assert.deepEqual(calls[0].params,[document.personId,selectedIds]);
+  assert.deepEqual((await repository.personTimeline(document.personId,{eventIds:['unknown-event']})).events,[]);
 });
 
 test('a single database statement supplies all event originals and latest published translations', async () => {

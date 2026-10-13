@@ -40,7 +40,7 @@ test('actual HTTP gzip bytes decompress to the complete unchanged public JSON wi
   assert.equal(result.headers['content-type'], 'application/json; charset=utf-8');
   assert.equal(result.headers['access-control-allow-origin'], origin);
   assert.equal(result.headers.vary, 'Origin, Accept-Encoding');
-  assert.equal(result.headers['cache-control'], 'no-store');
+  assert.equal(result.headers['cache-control'], 'private, no-cache, must-revalidate');
   assert.deepEqual(gunzipSync(result.body), plainBytes);
   assert.ok(result.body.length < plainBytes.length / 5);
   assert.deepEqual(JSON.parse(gunzipSync(result.body)), payload);

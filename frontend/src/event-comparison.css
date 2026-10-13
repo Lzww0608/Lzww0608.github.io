@@ -47,6 +47,9 @@
 .comparison-related-events button { display: flex; align-items: baseline; gap: 12px; min-height: 38px; padding: 5px 0; text-align: left; line-height: 1.7; }
 .comparison-related-events button strong { color: var(--accent); font-family: var(--serif); font-size: 17px; font-weight: 600; flex-shrink: 0; }
 .comparison-related-events button span { color: var(--soft-ink); font-size: 13px; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--link-line); }
+.comparison-related-events button small { width: 5em; flex-shrink: 0; color: var(--muted); font-size: 11px; }
+.comparison-related-events button:disabled { cursor: default; }
+.comparison-related-events button:disabled span { text-decoration: none; color: var(--muted); }
 .comparison-links-status { color: var(--muted); font-size: 12px; }
 .comparison-book-columns { display: grid; grid-template-columns: repeat(var(--comparison-columns, 3), minmax(0, 1fr)); gap: 22px; }
 .comparison-book { min-width: 0; background: var(--surface); border-top: 2px solid var(--border-strong); padding: 17px 24px 5px; }
@@ -62,7 +65,11 @@
 .comparison-original.original-text .paragraph-translation p { margin: 8px 0 0; line-height: 1.9; }
 .comparison-original .translation-heading { flex-wrap: wrap; gap: 7px; }
 .comparison-original .translation-heading-actions { margin-left: auto; }
-.comparison-paused, .comparison-no-record { font-family: var(--sans); color: var(--muted); font-size: 13px; line-height: 1.85; margin: 0 0 20px; }
+.comparison-paused, .comparison-no-record, .comparison-source-pending { font-family: var(--sans); color: var(--muted); font-size: 13px; line-height: 1.85; margin: 0 0 20px; }
+.comparison-source-pending { min-height: 5.55em; }
+.comparison-proof-pending { min-height: 5.55em; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.comparison-proof-pending button { color: var(--accent); min-height: 36px; text-align: left; text-decoration: underline; text-underline-offset: 4px; }
+.comparison-proof-pending button:disabled { color: var(--muted); cursor: default; }
 .comparison-differences { border-top: 1px solid var(--line); padding: 18px 0 0; margin: 0 0 26px; }
 .comparison-cross-stage { margin-top: 22px; margin-bottom: 0; }
 .comparison-differences > h3, .comparison-cross-stage > h2 { font-size: 21px; line-height: 1.5; font-weight: 700; margin-bottom: 18px; }

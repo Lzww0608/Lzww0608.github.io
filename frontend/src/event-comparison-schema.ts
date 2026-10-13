@@ -54,12 +54,18 @@ export interface UnavailableComparisonSource extends SourceCaption {
   source: ComparisonSourceOrigin;
   reason: ComparisonSourceUnavailableReason;
 }
-export type ResolvedComparisonSource = AvailableComparisonSource | UnavailableComparisonSource;
+export interface PendingComparisonSource extends SourceCaption {
+  status: 'pending';
+  source: 'none';
+  reason: 'not-requested' | 'loading';
+}
+export type ResolvedComparisonSource = AvailableComparisonSource | UnavailableComparisonSource | PendingComparisonSource;
 export interface ResolvedComparisonStage extends Omit<ComparisonStage, 'summary'> {
-  status: 'available' | 'partial' | 'unavailable';
+  status: 'available' | 'partial' | 'unavailable' | 'pending';
   summary?: string;
   availableSourceIds: string[];
   unavailableCount: number;
+  pendingCount: number;
 }
 export interface ResolvedComparisonEvidence extends ComparisonEvidence { originalRanges: TextRange[] }
 export interface AvailableComparisonDifference extends Omit<ComparisonDifference, 'evidence'> {
@@ -71,7 +77,11 @@ export interface UnavailableComparisonDifference extends Omit<ComparisonDifferen
   unavailableSourceIds: string[];
   reason: 'source-unavailable' | 'stale-evidence';
 }
-export type ResolvedComparisonDifference = AvailableComparisonDifference | UnavailableComparisonDifference;
+export interface PendingComparisonDifference extends Omit<ComparisonDifference, 'summary'> {
+  status: 'pending';
+  pendingSourceIds: string[];
+}
+export type ResolvedComparisonDifference = AvailableComparisonDifference | UnavailableComparisonDifference | PendingComparisonDifference;
 export interface EventComparisonResponse {
   document: EventComparisonDocument;
   sources: ResolvedComparisonSource[];
@@ -200,17 +210,23 @@ export async function resolveEventComparison(document: EventComparisonDocument, 
     })) fail();
   const stages = checked.stages.map(stage => {
     const availableSourceIds = stage.sourceIds.filter(sourceId => sourceMap.get(sourceId)?.status === 'available');
-    const unavailableCount = stage.sourceIds.length - availableSourceIds.length;
+    const unavailableCount = stage.sourceIds.filter(sourceId => sourceMap.get(sourceId)?.status === 'unavailable').length;
+    const pendingCount = stage.sourceIds.filter(sourceId => sourceMap.get(sourceId)?.status === 'pending').length;
     const { summary, ...data } = stage;
-    return { ...data, status: unavailableCount === 0 ? 'available' as const : availableSourceIds.length ? 'partial' as const : 'unavailable' as const,
-      ...(!unavailableCount && summary !== undefined ? { summary } : {}), availableSourceIds, unavailableCount };
+    const status = !unavailableCount && !pendingCount ? 'available' as const
+      : pendingCount === stage.sourceIds.length ? 'pending' as const
+      : availableSourceIds.length || pendingCount ? 'partial' as const : 'unavailable' as const;
+    return { ...data, status,
+      ...(!unavailableCount && !pendingCount && summary !== undefined ? { summary } : {}), availableSourceIds, unavailableCount, pendingCount };
   });
   const differences: ResolvedComparisonDifference[] = checked.differences.map(difference => {
     const unavailable = new Set<string>();
+    const pending = new Set<string>();
     let invalidExcerpt = false;
     const evidence = difference.evidence.map(entry => {
       const source = sourceMap.get(entry.sourceId)!;
       const originalRanges = source.status === 'available' ? excerptRanges(source.paragraph.original, entry.excerpt) : [];
+      if (source.status === 'pending') { pending.add(entry.sourceId); return { ...entry, originalRanges }; }
       if (!originalRanges.length) {
         unavailable.add(entry.sourceId);
         if (source.status === 'available') invalidExcerpt = true;
@@ -220,6 +236,10 @@ export async function resolveEventComparison(document: EventComparisonDocument, 
     if (unavailable.size) {
       const { summary: _summary, ...data } = difference;
       return { ...data, status: 'unavailable', unavailableSourceIds: [...unavailable], reason: invalidExcerpt ? 'stale-evidence' : 'source-unavailable' };
+    }
+    if (pending.size) {
+      const { summary: _summary, ...data } = difference;
+      return { ...data, status: 'pending', pendingSourceIds: [...pending] };
     }
     return { ...difference, status: 'available', evidence };
   });
