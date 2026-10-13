@@ -44,7 +44,7 @@ export interface ReadingAnnotationDocument {
 export interface ReadingAnnotationChapterDocument extends ReadingAnnotationDocument { chapterId: string }
 
 const chapterIds = new Set((catalog as LibraryCatalog).chapters.map(chapter => chapter.id));
-export const readingAnnotationEventIds: readonly string[] = ['baixiang', 'huliu'];
+export const readingAnnotationEventIds: readonly string[] = ['baixiang', 'huliu', 'jinyang'];
 const allowedEvents = new Set(readingAnnotationEventIds);
 const record = (value: unknown): value is Record<string, unknown> => typeof value === 'object' && value !== null && !Array.isArray(value);
 const text = (value: unknown, maximum: number): value is string => typeof value === 'string' && value.trim().length > 0 && value.length <= maximum;

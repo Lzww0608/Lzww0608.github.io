@@ -227,6 +227,81 @@ test('the selected unpunctuated Kaoyi paragraph remains audited, readable prose 
   assert.equal(hasReadingAnnotations(current.id, 0), false);
 });
 
+test('Jinyang extends the exact selected corpus while preserving all 86 prior paragraph notes and their established meanings', () => {
+  const checked = loadReadingAnnotations(library, comparisons);
+  assert.deepEqual(checked.eventIds, ['baixiang', 'huliu', 'jinyang']);
+  assert.equal(checked.paragraphs.length, 157);
+  const current = comparisons.find(comparison => comparison.id === 'jinyang');
+  const notes = checked.paragraphs.filter(paragraph => paragraph.eventIds.includes('jinyang'));
+  assert.equal(notes.length, 71);
+  assert.deepEqual(new Set(notes.map(paragraph => paragraph.paragraphId)), new Set(current.sources.map(source => source.paragraphId)));
+  const previous = checked.paragraphs.filter(paragraph => paragraph.eventIds.some(id => ['baixiang', 'huliu'].includes(id)));
+  // These hashes freeze only the already public, source-bound annotations from
+  // the previous release; new Jinyang wording can evolve independently.
+  assert.equal(previous.length, 86);
+  assert.equal(sha(JSON.stringify(previous.toSorted((left, right) => left.paragraphId.localeCompare(right.paragraphId)))),
+    '3527df39e39fde2855c13d31fbf7b01e111bdb9349f4787958d45af0b528b1fb');
+  const previousEntryIds = new Set(previous.flatMap(paragraph => paragraph.occurrences.map(occurrence => occurrence.entryId)));
+  const previousEntries = checked.entries.filter(entry => previousEntryIds.has(entry.id)).toSorted((left, right) => left.id.localeCompare(right.id));
+  assert.equal(previousEntries.length, 485);
+  assert.equal(sha(JSON.stringify(previousEntries)), '9090d882b0edb91e212a8e3175fbad9ba554997916a526f596583a311c0dcc4f');
+  const previousReferenceIds = new Set(previousEntries.flatMap(entry => entry.referenceIds));
+  const previousReferences = checked.references.filter(reference => previousReferenceIds.has(reference.id)).toSorted((left, right) => left.id.localeCompare(right.id));
+  assert.equal(previousReferences.length, 758);
+  assert.equal(sha(JSON.stringify(previousReferences)), 'c0bdc27de5bbf449df44b2ecf4bc4561f9f94ddb966121d003ff3906a89be775');
+  const entries = new Map(checked.entries.map(entry => [entry.id, entry]));
+  for (const binding of notes) {
+    const paragraph = byParagraph.get(binding.paragraphId);
+    assert.equal(binding.originalSha256, sha(paragraph.original));
+    assert.ok(matchesReadingAnnotationOccurrences(binding, paragraph, checked.entries));
+    if (!binding.occurrences.length) assert.ok(binding.noneReason?.trim());
+    for (const occurrence of binding.occurrences) {
+      assert.ok(entries.has(occurrence.entryId));
+      assert.ok(/[。？！]/u.test(splitReadingSpans(paragraph.original)[occurrence.sentenceIndex].text));
+    }
+  }
+});
+
+test('actual Jinyang notes use canonical positions across both scripts and never restore stale API text or guessed glyphs', async () => {
+  const checked = loadReadingAnnotations(library, comparisons);
+  const documents = new Map(buildReadingAnnotationChapters(checked).map(document => [document.chapterId, document]));
+  const candidates = [['old-v048-p6', '壕寨使'], ['old-v048-p11', '晉安寨'], ['old-v076-p1', '北京']];
+  const fetcher = async url => {
+    const chapterId = /\/reading-annotations\/([a-z]+-v\d+)\.json$/.exec(url)?.[1];
+    assert.ok(documents.has(chapterId));
+    return Response.json(documents.get(chapterId));
+  };
+  for (const [paragraphId, term] of candidates) {
+    const current = byParagraph.get(paragraphId);
+    const binding = checked.paragraphs.find(binding => binding.paragraphId === paragraphId);
+    const occurrence = binding.occurrences.find(occurrence => checked.entries.find(entry => entry.id === occurrence.entryId).term === term);
+    assert.ok(occurrence, `${paragraphId}: ${term} must have a checked real word position`);
+    const span = splitReadingSpans(current.original)[occurrence.sentenceIndex];
+    const traditional = await readReadingAnnotations({ paragraph: current, sentenceIndex: occurrence.sentenceIndex, archiveBase: '/',
+      knownChapters: [...documents.keys()], fetcher });
+    const displayedSimplified = simplifyOriginal(current.original);
+    assert.ok(simplifyOriginal(span.text).includes(simplifyOriginal(term)));
+    assert.notEqual(displayedSimplified, current.original);
+    const simplified = await readReadingAnnotations({ paragraph: current, sentenceIndex: occurrence.sentenceIndex, archiveBase: '/',
+      knownChapters: [...documents.keys()], fetcher });
+    assert.equal(traditional.status, 'available');
+    assert.deepEqual(simplified, traditional, 'display conversion cannot move the canonical term or change its explanation');
+    const note = traditional.annotations.find(note => note.term === term);
+    assert.ok(note.references.every(reference => safeReadingAnnotationUrl(reference.url) && reference.locator.trim()));
+    if (term === '北京') assert.match(note.explanation, /太原/);
+    for (const changed of [{ ...current, original: current.original + '本次当前底本有变化。' }, { ...current, revision: current.revision + 1 }]) {
+      assert.deepEqual(await readReadingAnnotations({ paragraph: changed, sentenceIndex: occurrence.sentenceIndex, archiveBase: '/',
+        knownChapters: [...documents.keys()], fetcher }), { status: 'stale', annotations: [] });
+    }
+  }
+  const entries = new Map(checked.entries.map(entry => [entry.id, entry]));
+  const verb = checked.paragraphs.find(binding => binding.paragraphId === 'tongjian-v280-p56');
+  assert.ok(!verb.occurrences.some(occurrence => entries.get(occurrence.entryId).term === '軍使'), '分汉军使还营 has a verb, not a 军使 officer');
+  const obscure = checked.paragraphs.find(binding => binding.paragraphId === 'tongjian-v280-p45');
+  assert.ok(byParagraph.get(obscure.paragraphId).original.includes('A081'));
+  assert.ok(!obscure.occurrences.some(occurrence => entries.get(occurrence.entryId).term.includes('A081')), 'an unverified placeholder does not acquire a guessed meaning');
+});
+
 test('real battle annotations resolve every registered occurrence under both scripts with the actual independent sentence translations', async () => {
   const checked = loadReadingAnnotations(library, comparisons);
   const documents = buildReadingAnnotationChapters(checked);

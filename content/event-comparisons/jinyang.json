@@ -1,0 +1,1203 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "id": "jinyang",
+  "title": "晋阳之战与后晋建立",
+  "summary": "对照当前归档《旧五代史》《新五代史》《资治通鉴》中调镇起兵、契丹援兵、册立、晋安降军及南下入洛的记载。完整原段与既有译文原样保留；本纪、跨传、册文、夹注和史评各辨范围，不把同段的其他年月合成同一战日。仅承诺本次已归档选源，不据未选入断言其他文献无记载。",
+  "dateLabel": "936—937年 · 原书清泰三年／天福元年；闰十一月末及十二月部分记事已跨西历937年",
+  "personIds": [
+    "shi-jingtang",
+    "li-congke",
+    "zhang-jingda",
+    "liu-zhiyuan"
+  ],
+  "stages": [
+    {
+      "id": "preparation",
+      "title": "调镇起兵与契丹求援",
+      "summary": "从调离河东、拒命起兵到向契丹求援，各书分别记下朝廷与河东将佐的不同选择。934年的返镇猜忌为前情，求援时许地与后来的册立、割约分开阅读。",
+      "sourceIds": [
+        "old-v048-p5",
+        "old-v048-p6",
+        "old-v048-p7",
+        "old-v048-p8",
+        "old-v048-p9",
+        "old-v048-p10",
+        "old-v075-p14",
+        "old-v070-p12",
+        "old-v099-p3",
+        "new-v07-p10",
+        "new-v08-p5",
+        "new-v08-p6",
+        "new-v10-p3",
+        "new-v36-p11",
+        "tongjian-v280-p6",
+        "tongjian-v280-p8",
+        "tongjian-v280-p9",
+        "tongjian-v280-p14",
+        "tongjian-v280-p15",
+        "tongjian-v280-p16",
+        "tongjian-v280-p17",
+        "tongjian-v280-p21",
+        "tongjian-v280-p25",
+        "tongjian-v280-p26",
+        "tongjian-v280-p28",
+        "tongjian-v280-p30"
+      ]
+    },
+    {
+      "id": "relief",
+      "title": "晋阳解围与晋安反围",
+      "summary": "并读围城、契丹来援、唐军退保晋安，以及后唐各路救援。交战日、奏报日、兵数口径与尚未施行的建议分别呈现，不把完整长段的所有行动并到同一天。",
+      "sourceIds": [
+        "old-v048-p11",
+        "old-v048-p12",
+        "old-v048-p13",
+        "old-v075-p15",
+        "old-v070-p12",
+        "old-v099-p3",
+        "new-v07-p10",
+        "new-v08-p6",
+        "tongjian-v280-p31",
+        "tongjian-v280-p32",
+        "tongjian-v280-p33",
+        "tongjian-v280-p34",
+        "tongjian-v280-p35",
+        "tongjian-v280-p37"
+      ]
+    },
+    {
+      "id": "foundation",
+      "title": "册立、割地与晋安结局",
+      "summary": "册立、割地约定、赵德钧求立、晋安杀将与军降并读，各书的纪日和先后叙次分别保留。册文、同源夹注、符瑞与史家评论保留其说话者和来源，不据它们拼成唯一战程。",
+      "sourceIds": [
+        "old-v048-p14",
+        "old-v075-p16",
+        "old-v075-p17",
+        "old-v075-p18",
+        "old-v075-p19",
+        "old-v075-p20",
+        "old-v075-p21",
+        "old-v075-p22",
+        "old-v075-p23",
+        "old-v076-p1",
+        "old-v076-p2",
+        "old-v070-p12",
+        "old-v070-p13",
+        "old-v099-p3",
+        "new-v07-p10",
+        "new-v08-p6",
+        "new-v08-p13",
+        "new-v10-p3",
+        "tongjian-v280-p40",
+        "tongjian-v280-p41",
+        "tongjian-v280-p42",
+        "tongjian-v280-p43",
+        "tongjian-v280-p45"
+      ]
+    },
+    {
+      "id": "collapse",
+      "title": "南下入洛与后唐覆亡",
+      "summary": "团柏溃退、潞州受降、护送南下、后唐自焚与后晋入洛分段呈现。闰十一月末及十二月记事已跨入937年，原书记年仍保留；完整原段的后续安置、后来任职与史家追论另辨范围。",
+      "sourceIds": [
+        "old-v048-p14",
+        "old-v048-p15",
+        "old-v048-p16",
+        "old-v076-p2",
+        "old-v076-p3",
+        "old-v099-p3",
+        "new-v07-p10",
+        "new-v08-p6",
+        "new-v10-p3",
+        "new-v25-p20",
+        "tongjian-v280-p46",
+        "tongjian-v280-p47",
+        "tongjian-v280-p48",
+        "tongjian-v280-p49",
+        "tongjian-v280-p50",
+        "tongjian-v280-p51",
+        "tongjian-v280-p52",
+        "tongjian-v280-p54",
+        "tongjian-v280-p55",
+        "tongjian-v280-p56",
+        "tongjian-v280-p57",
+        "tongjian-v280-p59",
+        "tongjian-v280-p60"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "old-v048-p5",
+      "label": "末帝纪 · 调石敬瑭离河东的诏令",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p5",
+      "originalRevision": 1,
+      "originalSha256": "2b79f2c59009e53e8c838d5466e0740ec684f90900d0658656e204e13600589e"
+    },
+    {
+      "id": "old-v048-p6",
+      "label": "末帝纪 · 移镇争议、拒命与发兵",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p6",
+      "originalRevision": 1,
+      "originalSha256": "8e4de8e685c3611915a5bdeab77db36b7cd7b6c91a793676fd7b760bc07ffc3a"
+    },
+    {
+      "id": "old-v048-p7",
+      "label": "末帝纪 · 安氏军将归河东（兼邺都另役）",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p7",
+      "originalRevision": 1,
+      "originalSha256": "f49053131da431e41a4621abaa150e46bd344f1e561432a4631bcbdbbfe73135"
+    },
+    {
+      "id": "old-v048-p8",
+      "label": "末帝纪 · 兵兴后的礼制与河东财产处置",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p8",
+      "originalRevision": 1,
+      "originalSha256": "9ced20f5354f8bc525874105bcdb4bf9c067238c0604e91e00a15ea5c1baefb8"
+    },
+    {
+      "id": "old-v048-p9",
+      "label": "末帝纪 · 石氏子弟、张万迪及军人家属处置（兼邺都另役）",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p9",
+      "originalRevision": 1,
+      "originalSha256": "fe72a13dacaa38f22d68ecf439f395f24eb8bcd973435d59ae4311fb3181a8a9"
+    },
+    {
+      "id": "old-v048-p10",
+      "label": "末帝纪 · 八月长围初构与出城战",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p10",
+      "originalRevision": 1,
+      "originalSha256": "c4406143a135f6e9283a43294e6f844589e8d36251cd3a53b267314c0779b24e"
+    },
+    {
+      "id": "old-v048-p11",
+      "label": "末帝纪 · 九月战况奏报与朝廷救援",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p11",
+      "originalRevision": 1,
+      "originalSha256": "4a037e62403e97369561226574725a8b8f4d66c0d0d1d9571b440041512bdfe7"
+    },
+    {
+      "id": "old-v048-p12",
+      "label": "末帝纪 · 搜马征夫与援军调度（含同源引书）",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p12",
+      "originalRevision": 1,
+      "originalSha256": "60b7495d23eb7ef7128ce9a9965646531f95103c46829128b4769e20bfefbe03"
+    },
+    {
+      "id": "old-v048-p13",
+      "label": "末帝纪 · 援军合并、军镇要求与朝廷回应",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p13",
+      "originalRevision": 1,
+      "originalSha256": "ed402236872a9c6fd5222dddf0abae916262f050a1c4c0012872d2df533f0250"
+    },
+    {
+      "id": "old-v048-p14",
+      "label": "末帝纪 · 晋安杀降、册立与团柏溃退的叙次",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p14",
+      "originalRevision": 1,
+      "originalSha256": "16c5a8db15db170733720b9fa5ad1a05095c64b16555b21389856b213f3fdf9a"
+    },
+    {
+      "id": "old-v048-p15",
+      "label": "末帝纪 · 南下、归洛、自焚与后来葬事",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p15",
+      "originalRevision": 1,
+      "originalSha256": "22f3eb593d957ec447ce9bc228ef5b6b5b257515ed4a8e45093cff9cba6027ec"
+    },
+    {
+      "id": "old-v048-p16",
+      "label": "末帝纪 · 史臣追论（非新的战日记录）",
+      "bookId": "old",
+      "chapterId": "old-v048",
+      "paragraphId": "old-v048-p16",
+      "originalRevision": 1,
+      "originalSha256": "5e7ef4f9367ecfe3ec460f0b9ba1bf42b6613c03e72ee613a9226d73c38efbe1"
+    },
+    {
+      "id": "old-v075-p14",
+      "label": "晋高祖纪 · 起兵与求援（含前情、诸将归附及引书）",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p14",
+      "originalRevision": 1,
+      "originalSha256": "932ab94c99229a44f9ec26e8e08682587e7b0800274cf3990cd8903e03cb89df"
+    },
+    {
+      "id": "old-v075-p15",
+      "label": "晋高祖纪 · 契丹来援、初战与反围晋安",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p15",
+      "originalRevision": 1,
+      "originalSha256": "d101e39ef8aedd2f832ff823f25b83ce0710a2ade70df60f6d9b9f91ccedb7a7"
+    },
+    {
+      "id": "old-v075-p16",
+      "label": "晋高祖纪 · 筑坛册立及册文引入",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p16",
+      "originalRevision": 1,
+      "originalSha256": "2edf4c728bdc394b5db3ba6f731327515cdfcfa503414da4f48a019c290408a3"
+    },
+    {
+      "id": "old-v075-p17",
+      "label": "册文 · 原署年号、干支与日期",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p17",
+      "originalRevision": 1,
+      "originalSha256": "75a9138075c11b11153e511db2eae6146e23caed0b8f999ca06b025001876632"
+    },
+    {
+      "id": "old-v075-p18",
+      "label": "册文 · 盟约与父子名分的政治论说",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p18",
+      "originalRevision": 1,
+      "originalSha256": "1583a16f8a3096b2670c1050d5f39f905a46f0bf9a06818f6a56b2c80b68a9a3"
+    },
+    {
+      "id": "old-v075-p19",
+      "label": "册文 · 对后唐末帝的征讨论说",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p19",
+      "originalRevision": 1,
+      "originalSha256": "9c773001e970f5a909e90c1068312688a6756299b7afa65a98fde919b4fdb2ff"
+    },
+    {
+      "id": "old-v075-p20",
+      "label": "册文 · 国号晋与父子之邦的宣告",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p20",
+      "originalRevision": 1,
+      "originalSha256": "8406b94c4fdc04c93ccb86d029ed8379f2d7cce96855b9c90c0d8475b3747e12"
+    },
+    {
+      "id": "old-v075-p21",
+      "label": "晋高祖纪 · 册礼结束及仪仗返回",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p21",
+      "originalRevision": 1,
+      "originalSha256": "739cbcb0bb8c4d44ad2dcd4380959cc55197363c6ed9d7a0dbaae31ef3eda901"
+    },
+    {
+      "id": "old-v075-p22",
+      "label": "晋高祖纪 · 开国符瑞、求援与夹注（跨年回溯）",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p22",
+      "originalRevision": 1,
+      "originalSha256": "129eea15e27920b741e75e5b449f9f572770a4b29b6c8946d731f3379bf42213"
+    },
+    {
+      "id": "old-v075-p23",
+      "label": "晋高祖纪 · 册立叙次中的献地与岁帛",
+      "bookId": "old",
+      "chapterId": "old-v075",
+      "paragraphId": "old-v075-p23",
+      "originalRevision": 1,
+      "originalSha256": "69f0e4c7ff41ba9134889d1da2f373b57640edccbdeb028e19844fd677ffeccd"
+    },
+    {
+      "id": "old-v076-p1",
+      "label": "晋高祖纪 · 改元诏及开国官员任命",
+      "bookId": "old",
+      "chapterId": "old-v076",
+      "paragraphId": "old-v076-p1",
+      "originalRevision": 1,
+      "originalSha256": "54af26bdc32853b5d51ee79de0fce247d4f81ad08a0d63a12588ab8f8b996dd9"
+    },
+    {
+      "id": "old-v076-p2",
+      "label": "晋高祖纪 · 晋安受降至入洛（完整跨阶段长段）",
+      "bookId": "old",
+      "chapterId": "old-v076",
+      "paragraphId": "old-v076-p2",
+      "originalRevision": 1,
+      "originalSha256": "6f99c6a0c545ae9287c0508dbacf8af1c11e1c492a0f7870b0937f6aaec5cb32"
+    },
+    {
+      "id": "old-v076-p3",
+      "label": "晋高祖纪 · 十二月送还契丹、追废与后续安置",
+      "bookId": "old",
+      "chapterId": "old-v076",
+      "paragraphId": "old-v076-p3",
+      "originalRevision": 1,
+      "originalSha256": "7105d90d37c55d0dfa7cd5bf40877f056514e486ab42a64872126e12afc61ac1"
+    },
+    {
+      "id": "old-v070-p12",
+      "label": "张敬达传 · 围城、反围与拒降遇杀（兼早年任职）",
+      "bookId": "old",
+      "chapterId": "old-v070",
+      "paragraphId": "old-v070-p12",
+      "originalRevision": 1,
+      "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9"
+    },
+    {
+      "id": "old-v070-p13",
+      "label": "张敬达传 · 身后处置与时议",
+      "bookId": "old",
+      "chapterId": "old-v070",
+      "paragraphId": "old-v070-p13",
+      "originalRevision": 1,
+      "originalSha256": "a2cd85571e47034087bfe30b94ff8b9bd9f992d972ee60b0ff8f2d4d2e175c47"
+    },
+    {
+      "id": "old-v099-p3",
+      "label": "汉高祖纪 · 刘知远助谋、杀降、军职与入洛（跨阶段）",
+      "bookId": "old",
+      "chapterId": "old-v099",
+      "paragraphId": "old-v099-p3",
+      "originalRevision": 1,
+      "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258"
+    },
+    {
+      "id": "new-v07-p10",
+      "label": "末帝纪 · 清泰三年起兵、解围、晋安受降与覆亡（完整年记）",
+      "bookId": "new",
+      "chapterId": "new-v07",
+      "paragraphId": "new-v07-p10",
+      "originalRevision": 1,
+      "originalSha256": "8989a16623a80e68ccae968c001bd08f35366f00983605f7a080628b5a61e47c"
+    },
+    {
+      "id": "new-v08-p5",
+      "label": "高祖纪 · 934年返镇与末帝猜忌（起兵背景，非936年同日）",
+      "bookId": "new",
+      "chapterId": "new-v08",
+      "paragraphId": "new-v08-p5",
+      "originalRevision": 1,
+      "originalSha256": "a4cdd042544eae0373dcd868ecf04979192ccc5789ef184484622adbed189f03"
+    },
+    {
+      "id": "new-v08-p6",
+      "label": "高祖纪 · 起兵求援至入洛（含翌年初的闰月与十二月记事）",
+      "bookId": "new",
+      "chapterId": "new-v08",
+      "paragraphId": "new-v08-p6",
+      "originalRevision": 1,
+      "originalSha256": "32edac92816ad7ffe7e41fa806fe21b13776c91f29646c7fa6582e473d143ef3"
+    },
+    {
+      "id": "new-v08-p13",
+      "label": "高祖纪校勘 · 赵莹与桑维翰宰相及枢密职名",
+      "bookId": "new",
+      "chapterId": "new-v08",
+      "paragraphId": "new-v08-p13",
+      "originalRevision": 1,
+      "originalSha256": "81435eefe029c73173a85b1046be6b6cc13d96b28dc5cf2fd2f8baf1f34539b4"
+    },
+    {
+      "id": "new-v10-p3",
+      "label": "汉高祖纪 · 起兵谋画、即位任职与潞州送别",
+      "bookId": "new",
+      "chapterId": "new-v10",
+      "paragraphId": "new-v10-p3",
+      "originalRevision": 1,
+      "originalSha256": "c6a9d2faad7a7a6f2cedb8bbb0176e4cba86e2a396dc160c53b12e7aec605cf8"
+    },
+    {
+      "id": "new-v36-p11",
+      "label": "李嗣昭传附李继忠 · 求援所需财物（兼早年家事及后任）",
+      "bookId": "new",
+      "chapterId": "new-v36",
+      "paragraphId": "new-v36-p11",
+      "originalRevision": 1,
+      "originalSha256": "030c311f5e5a22132cfd312f6ea05ba4bf91e71088fd76cc19fa35ba1ea6751d"
+    },
+    {
+      "id": "new-v25-p20",
+      "label": "符彦饶传 · 河阳侍卫军及唐亡后的改任",
+      "bookId": "new",
+      "chapterId": "new-v25",
+      "paragraphId": "new-v25-p20",
+      "originalRevision": 1,
+      "originalSha256": "9897a7ec0e6ef5cf002784da7ca39647930f5cdf87178fb2cc8d3a6d68e2634c"
+    },
+    {
+      "id": "tongjian-v280-p6",
+      "label": "千春节与晋国长公主归晋阳",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p6",
+      "originalRevision": 1,
+      "originalSha256": "5408ca9e2d5473f66a9505b37e22e8bec8520f005015f05cc7d3a90179511989"
+    },
+    {
+      "id": "tongjian-v280-p8",
+      "label": "李崧、吕琦拟先与契丹修好",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p8",
+      "originalRevision": 1,
+      "originalSha256": "362a40b03c616d4329db30278f8753d6afa997b195f4095e47ab8ceaa3abcf07"
+    },
+    {
+      "id": "tongjian-v280-p9",
+      "label": "薛文遇反和亲、李从珂疏吕琦",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p9",
+      "originalRevision": 1,
+      "originalSha256": "0b98d52f873b1878369a7e82d811a908b7d231b44c2e15925a237a3cadc745e2"
+    },
+    {
+      "id": "tongjian-v280-p14",
+      "label": "石敬瑭自请移镇以试唐主",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p14",
+      "originalRevision": 1,
+      "originalSha256": "d23b839a165a1783116304330616feca2f8214391a446d354ae757e1de4aa032"
+    },
+    {
+      "id": "tongjian-v280-p15",
+      "label": "调郓制令与河东将佐起兵议论",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p15",
+      "originalRevision": 1,
+      "originalSha256": "2fc84b516bb62493478ffc9e38ec4039d91c573388db906c3c4d381be21d0a79"
+    },
+    {
+      "id": "tongjian-v280-p16",
+      "label": "李从珂削爵与张敬达行营委任",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p16",
+      "originalRevision": 1,
+      "originalSha256": "3733570d6e7edb5b9e34127d0a9d95b6fc7cd3c164eb2cf1d075b552d08047cf"
+    },
+    {
+      "id": "tongjian-v280-p17",
+      "label": "晋安初营与安氏军将归附",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p17",
+      "originalRevision": 1,
+      "originalSha256": "33aa693341d7f4f450ade9e5746d8175e315754dfaf5558574b5e5faef400323"
+    },
+    {
+      "id": "tongjian-v280-p21",
+      "label": "石氏在外子弟被诛",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p21",
+      "originalRevision": 1,
+      "originalSha256": "61ed2ea7f1ff50b164d5f900b64023bc83a2a0d695e16a5ce0ce5f8836519f4a"
+    },
+    {
+      "id": "tongjian-v280-p25",
+      "label": "张万迪五百骑归河东",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p25",
+      "originalRevision": 1,
+      "originalSha256": "328bce46b77db2717048bfe4fe44e84591e0a889c08d5f89d948cdd0180308dc"
+    },
+    {
+      "id": "tongjian-v280-p26",
+      "label": "求援时称臣、父礼与许地",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p26",
+      "originalRevision": 1,
+      "originalSha256": "532c99945c4cb23099902c8f9b37675206c9181b7564e1e2a61acf1d69e4a5fc"
+    },
+    {
+      "id": "tongjian-v280-p28",
+      "label": "长围晋阳与刘知远守城",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p28",
+      "originalRevision": 1,
+      "originalSha256": "90e8a2d26b860f27baa7f1381ad487a423fbb979127286d0d34189c8bcf92ffe"
+    },
+    {
+      "id": "tongjian-v280-p30",
+      "label": "急攻不下、营围与粮困",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p30",
+      "originalRevision": 1,
+      "originalSha256": "5ccda98df20da222d769eeec97bcf0e0b668ff76b24ddfd9e94a43ecae5a6e3b"
+    },
+    {
+      "id": "tongjian-v280-p31",
+      "label": "九月初战、刘知远助战与反围晋安",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p31",
+      "originalRevision": 1,
+      "originalSha256": "0c889c503281363dd5852e245efb42cbd02adc011465a98e27a9603daeadb6a5"
+    },
+    {
+      "id": "tongjian-v280-p32",
+      "label": "李从珂亲征出洛、后援赴潞州",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p32",
+      "originalRevision": 1,
+      "originalSha256": "3eb75066138d6a2a14c9e571916c4e3f091c8a99a5a20e9bf3277fabc41ff0e3"
+    },
+    {
+      "id": "tongjian-v280-p33",
+      "label": "河阳怀州滞留与未行离间方案",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p33",
+      "originalRevision": 1,
+      "originalSha256": "ab610c96a09c3ca5a7697958ff3adde2c0596f033c3e83556652b9160711a053"
+    },
+    {
+      "id": "tongjian-v280-p34",
+      "label": "七户征夫与括马",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p34",
+      "originalRevision": 1,
+      "originalSha256": "9e97e10cdbcb4e0d8c7adb8f12dcd80183b88dc337e2e98767bf691c295ab7dd"
+    },
+    {
+      "id": "tongjian-v280-p35",
+      "label": "赵德钧援军合并企图",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p35",
+      "originalRevision": 1,
+      "originalSha256": "04125a080c14044308c682a1125aa93f1615a73265df42011cf06f2aeb3b6a83"
+    },
+    {
+      "id": "tongjian-v280-p37",
+      "label": "十一月赵氏救援调度与团柏按兵",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p37",
+      "originalRevision": 1,
+      "originalSha256": "f77f56c38834e7cf1e0f6bb16dfb67aec34f554db647da184e2e6e8fd744ec84"
+    },
+    {
+      "id": "tongjian-v280-p40",
+      "label": "柳林册立、十六州与岁帛",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p40",
+      "originalRevision": 1,
+      "originalSha256": "ee5794154aea1ff464d3b71e76b49815adcefae7f03f1cdef76322f24e86eca2"
+    },
+    {
+      "id": "tongjian-v280-p41",
+      "label": "赵德钧闰月密求天子位",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p41",
+      "originalRevision": 1,
+      "originalSha256": "96ef10702b7a916dfb5cd3b3ed527845779523b45503774c805e005baa0efd00"
+    },
+    {
+      "id": "tongjian-v280-p42",
+      "label": "桑维翰保前约争立石氏",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p42",
+      "originalRevision": 1,
+      "originalSha256": "c21865cf06291d8d077b7d2400b439f129268b60247030993bd5b53ee06e7795"
+    },
+    {
+      "id": "tongjian-v280-p43",
+      "label": "龙敏建议夜入晋安未被实行",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p43",
+      "originalRevision": 1,
+      "originalSha256": "2eb2bfa49f2bf9bbb66af3070c5498a4097761bc0531519914cb4e81d79f4e38"
+    },
+    {
+      "id": "tongjian-v280-p45",
+      "label": "晋安饥困、杨光远杀张与军降",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p45",
+      "originalRevision": 1,
+      "originalSha256": "414f9da40069d082e9ab40adef5dd6c4a70219e1513c4fb1e5266fff5f358408"
+    },
+    {
+      "id": "tongjian-v280-p46",
+      "label": "任宰辅、留重贵与团柏军溃",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p46",
+      "originalRevision": 1,
+      "originalSha256": "2c4226fd1327e7ad99790a867b18f7413d51de4f8298152de0eff3aef4f1c152"
+    },
+    {
+      "id": "tongjian-v280-p47",
+      "label": "李从珂始知册立与晋安降",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p47",
+      "originalRevision": 1,
+      "originalSha256": "cc58b6b2df311f06807bf4b3d13026a369d9f41dce2b5676adf3ce5078580ade"
+    },
+    {
+      "id": "tongjian-v280-p48",
+      "label": "洛阳百姓逃乱、重美不禁",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p48",
+      "originalRevision": 1,
+      "originalSha256": "c55408422bb5ecce4a745c60295e5ce898f700ce5b5d8b57bd6a040728ee4502"
+    },
+    {
+      "id": "tongjian-v280-p49",
+      "label": "后唐退河阳、滑州方案未决",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p49",
+      "originalRevision": 1,
+      "originalSha256": "7f3fa993dee0e12255f0eaa8c872289e5d4276eb86135e3294c62be95d29399e"
+    },
+    {
+      "id": "tongjian-v280-p50",
+      "label": "赵氏潞州受降、银鞍直三千被杀",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p50",
+      "originalRevision": 1,
+      "originalSha256": "2460c8b30e52ab1c0bac02d5182ba891802d98e2ade3c06271e837b9b2c49ddc"
+    },
+    {
+      "id": "tongjian-v280-p51",
+      "label": "述律责赵德钧与后事",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p51",
+      "originalRevision": 1,
+      "originalSha256": "13d2f5d1479cdefe531dcb48353fe6d44f141bc8ef15df9850f6b7b74d6b9286"
+    },
+    {
+      "id": "tongjian-v280-p52",
+      "label": "契丹主留上党、派护送石南下",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p52",
+      "originalRevision": 1,
+      "originalSha256": "f3b1fbdfc39c8339202759e2e57532ff0b484a5ef55d65e1f62154250bdd6143"
+    },
+    {
+      "id": "tongjian-v280-p54",
+      "label": "断河阳桥返洛与杀李赞华",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p54",
+      "originalRevision": 1,
+      "originalSha256": "78911b92c115956d230ffd838220f760e13379afafc86d8341e5eae04468354e"
+    },
+    {
+      "id": "tongjian-v280-p55",
+      "label": "石至河阳受降",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p55",
+      "originalRevision": 1,
+      "originalSha256": "1cb94ffc80d90d417e2ff734e7b6a33ff6c67403d3d8246b85aeb900a6b93489"
+    },
+    {
+      "id": "tongjian-v280-p56",
+      "label": "李从珂玄武楼自焚、石入洛和刘维城",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p56",
+      "originalRevision": 1,
+      "originalSha256": "78b2d7bc4f6cfab9efa1c224908bfae98e3b788d5647fbdea4c87cd9a2ff32e9"
+    },
+    {
+      "id": "tongjian-v280-p57",
+      "label": "入洛赦臣及杀三延",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p57",
+      "originalRevision": 1,
+      "originalSha256": "ebe10b4003b1f91adfc60b2890e840b70100822f36204088d330799e681c4456"
+    },
+    {
+      "id": "tongjian-v280-p59",
+      "label": "河阳饯契丹归国",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p59",
+      "originalRevision": 1,
+      "originalSha256": "77b72fef6c59a65817ae7522511959b04ffefcc43217945e4b0a167293de020c"
+    },
+    {
+      "id": "tongjian-v280-p60",
+      "label": "追废李从珂庶人",
+      "bookId": "tongjian",
+      "chapterId": "tongjian-v280",
+      "paragraphId": "tongjian-v280-p60",
+      "originalRevision": 1,
+      "originalSha256": "ad869a8d148e079e337252780091b2948917b42b59b4cdaf241634b627797220"
+    }
+  ],
+  "differences": [
+    {
+      "id": "jinyang-battle-and-report",
+      "title": "辛丑交战与甲辰奏报，不能混为一日",
+      "stageId": "relief",
+      "kind": "dating",
+      "summary": "旧史唐纪明确“九月甲辰”是奏报，所报交战在本月十五日；旧史晋纪与《通鉴》把交战记在辛丑，《通鉴》又另记甲辰告败。新史唐纪则直接在甲辰下书交战败绩，保存这项纪日差别，不把新史的甲辰自动解释成奏报日。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p11",
+          "excerpt": "九月甲辰，張敬達奏，此月十五日，與契丹戰於太原城下，王師敗績。"
+        },
+        {
+          "sourceId": "old-v075-p15",
+          "excerpt": "九月辛丑，契丹主率眾自雁門而南"
+        },
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "辛丑，契丹主至晉陽，陳於汾北之虎北口。"
+        },
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "甲辰，敬達遣使告敗於唐，自是聲問不復通。"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "九月甲辰，張敬達及契丹戰于太原，敗績，契丹圍敬達于晉安。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-accession-order",
+      "title": "册立与晋安受降，各纪叙次有别",
+      "stageId": "foundation",
+      "kind": "dating",
+      "summary": "旧史唐纪在闰十一月甲子杀张敬达、降军之后，接写丁卯册立。旧史晋纪册文却署正十一月十二日丁酉，新史两纪也记十一月丁酉，而晋安杀降另在闰月甲子。保留册立日期及先后次序的不同，不把闰月丁卯与正十一月丁酉视作同一天。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "甲子，太原行營副招討使楊光遠殺招討使張敬達於晉安寨，以兵降契丹。"
+        },
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "丁卯，戎王立石敬瑭為大晉皇帝，約為父子之國，改元為天福。"
+        },
+        {
+          "sourceId": "old-v075-p17",
+          "excerpt": "十一月丙戌朔，十二日丁酉"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "丁酉，契丹立晉。閏月甲子，楊光遠殺張敬達，以其軍叛降于契丹。"
+        },
+        {
+          "sourceId": "new-v08-p6",
+          "excerpt": "十一月丁酉，皇帝即位"
+        },
+        {
+          "sourceId": "old-v076-p2",
+          "excerpt": "閏十一月甲子，晉安寨副招討使楊光遠等殺上將張敬達，以諸軍來降。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-charter-era",
+      "title": "册文的“天显九年”与夹注“十一年”并存",
+      "stageId": "foundation",
+      "kind": "dating",
+      "summary": "旧史保存的册文原署“天显九年，岁次丙申”，同书前段所引《辽史太宗纪》却记“十一年”十一月丁酉。两处属于册文与后附引书的不同层次；不暗改底本年号数字，也不把这一夹注当成第四部独立完整战程。",
+      "evidence": [
+        {
+          "sourceId": "old-v075-p17",
+          "excerpt": "維天顯九年，歲次丙申，十一月丙戌朔，十二日丁酉"
+        },
+        {
+          "sourceId": "old-v075-p16",
+          "excerpt": "《遼史太宗紀》：十一年冬十月甲子，封敬瑭為晉王。十一月丁酉，冊敬瑭為大晉皇帝。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-an-reinforcements",
+      "title": "安重荣的归附月份与兵数分别保存",
+      "stageId": "preparation",
+      "kind": "conflict",
+      "summary": "旧史唐纪把安重荣率五百骑归太原记在五月叙次，新史唐纪同样接于五月；旧史晋纪却写六月率部曲数千人入城。《通鉴》也记步骑五百。骑兵、步骑、部曲的口径及月份分别保留，安元信与安审信的另一组归附不混入安重荣的数字。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p7",
+          "excerpt": "己酉，振武節度使安叔千奏，西北界巡檢使安重榮驅掠戍兵五百騎叛入太原。"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "夏五月乙卯，建雄軍節度使張敬達為太原四面都招討使"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "己酉，振武戍將安重榮叛降于石敬瑭。"
+        },
+        {
+          "sourceId": "old-v075-p14",
+          "excerpt": "六月，北面招收指揮使安重榮以部曲數千人入城。"
+        },
+        {
+          "sourceId": "tongjian-v280-p17",
+          "excerpt": "振武西北巡檢使安重榮戍代北，帥步騎五百奔晉陽。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-zhang-reinforcements",
+      "title": "张万迪的五百骑与“等各千余骑”不是同一口径",
+      "stageId": "preparation",
+      "kind": "conflict",
+      "summary": "旧史唐纪在七月写张万迪率五百骑归太原，新史唐纪也在七月记其叛降；旧史晋纪写八月张万迪等各率千余骑。《通鉴》另写张万迪率五百骑，并记诛其家。保留月份、是否合记多人及兵数的差别，不拿“等各”的数目直接作单人增减。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p9",
+          "excerpt": "彰聖指揮使張萬迪以部下五百騎叛入太原，詔誅家屬於懷州本營。"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "秋七月戊申，克魏州。壬子，張令昭伏誅。癸丑，彰聖指揮使張萬迪叛降于石敬瑭。"
+        },
+        {
+          "sourceId": "old-v075-p14",
+          "excerpt": "八月，懷州彰聖軍使張萬迪等各率千餘騎來降。"
+        },
+        {
+          "sourceId": "tongjian-v280-p25",
+          "excerpt": "張敬達發懷州彰聖軍戍虎北口，其指揮使張萬迪將五百騎奔河東，丙辰，詔盡誅其家。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-army-counts",
+      "title": "号称兵力、战死者与反围存兵各有口径",
+      "stageId": "relief",
+      "kind": "detail",
+      "summary": "《通鉴》区分契丹实率五万骑与号称三十万、唐步兵战死近万，以及晋安反围后仍有唐卒五万、马万匹。旧史张敬达传与《通鉴》战前又记出军三万。不同阶段、兵种和统计对象不合成同一支军队的精确账目，也不按三万减近万推算反围兵数。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "九月，契丹主將五萬騎，號三十萬"
+        },
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "唐兵大敗，步兵死者近萬人，騎兵獨全。"
+        },
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "敬達等士卒猶五萬人，馬萬匹"
+        },
+        {
+          "sourceId": "tongjian-v280-p17",
+          "excerpt": "張敬達將後三萬營於晉安鄉"
+        },
+        {
+          "sourceId": "old-v070-p12",
+          "excerpt": "尋統兵三萬，營於晉安鄉。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-household-levy",
+      "title": "征夫十户一人与七户一人并列",
+      "stageId": "relief",
+      "kind": "conflict",
+      "summary": "旧史唐纪正文写每十户出兵一人，同段夹引《契丹国志》写每七户出征夫一人；《通鉴》正文也写七户，称为义军并记自备铠仗。正文与夹注分别标出，不用夹注替换旧史正文，也不把被引书当成本次新增的一部独立战程。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p12",
+          "excerpt": "壬戌，詔天下括馬，又詔民十戶出兵一人，器甲自備。"
+        },
+        {
+          "sourceId": "old-v048-p12",
+          "excerpt": "《契丹國志》：唐發民為兵，每七戶出征夫一人，自備鎧仗，謂之「義軍」"
+        },
+        {
+          "sourceId": "tongjian-v280-p34",
+          "excerpt": "冬，十月，壬戌，詔大括天下將吏及民間馬，又發民為兵，每七戶出征夫一人，自備鎧仗，謂之「義軍」，期以十一月俱集，命陳州刺史郎萬金教以戰陳，用張延朗之謀也。凡得馬二千餘匹，征夫五千人，實無益於用，而民間大擾。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-liu-advice",
+      "title": "赞成求援，不等于赞成父礼与割地",
+      "stageId": "preparation",
+      "kind": "detail",
+      "summary": "新史所记刘知远“共以为然”，回应的是内檄诸镇、外求契丹援助；并未逐项说明他赞成后来的父子名分与土地条件。《通鉴》进一步记他接受称臣，却反对父礼与许地。两处议论的对象分别保留，不把概括性的赞成扩展到全部求援条款。",
+      "evidence": [
+        {
+          "sourceId": "new-v08-p6",
+          "excerpt": "吾當內檄諸鎮，外求援於契丹，可乎？」桑維翰、劉知遠等共以為然。"
+        },
+        {
+          "sourceId": "tongjian-v280-p26",
+          "excerpt": "劉知遠諫曰：「稱臣可矣，以父事之太過。厚以金帛賂之，自足致其兵，不必許以土田，恐異日大為中國之患，悔之無及。」敬瑭不從。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-prisoner-killings",
+      "title": "劝杀、尽杀与潞州三千人分开辨明",
+      "stageId": null,
+      "kind": "detail",
+      "summary": "《通鉴》晋阳初战记刘知远劝石敬瑭尽杀千余降兵，本句只明载建议；旧史汉高祖纪则明确把尽杀写为刘知远的已实行行为。后来潞州的三千银鞍契丹直，另由契丹主下令杀害。行动状态、受害对象、地点与下令者都不同，不能把三处合成一次杀降。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v280-p31",
+          "excerpt": "敬瑭得唐降兵千餘人，劉知遠勸敬瑭盡殺之。"
+        },
+        {
+          "sourceId": "old-v099-p3",
+          "excerpt": "有降軍千餘人，晉高祖將置之於親衛，帝盡殺之。"
+        },
+        {
+          "sourceId": "tongjian-v280-p50",
+          "excerpt": "契丹主命盡殺之於西郊，凡三千人。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-jingda-death",
+      "title": "杨光远、安审琦的参与和所劝行动各书不同",
+      "stageId": "foundation",
+      "kind": "conflict",
+      "summary": "旧史唐纪写杨光远先劝突围血战，继而伺张敬达无备杀之；张敬达传则写杨光远与安审琦共同劝降，并接“遂斩”。《通鉴》明写杨示意杀张、安未忍，最终杨乘高行周等未到时杀张。保留劝突围、劝降、参与杀害的不同叙法，不把安的“未忍”改成亲自下手。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "少時人馬俱盡，不如奮命血戰，十得三四，猶勝坐受其弊。"
+        },
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "一日，光遠伺敬達無備，遂殺之"
+        },
+        {
+          "sourceId": "old-v070-p12",
+          "excerpt": "光遠、審琦知敬達意未決，恐坐成魚肉，遂斬敬達以降。"
+        },
+        {
+          "sourceId": "tongjian-v280-p45",
+          "excerpt": "光遠目審琦欲殺敬達，審琦未忍。"
+        },
+        {
+          "sourceId": "tongjian-v280-p45",
+          "excerpt": "甲子，高行周、符彥卿未至，光遠乘其無備，斬敬達首"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-horses-and-jest",
+      "title": "粮草告竭、所余马匹和席间戏语不能相减",
+      "stageId": "foundation",
+      "kind": "detail",
+      "summary": "《通鉴》既写围中草粮俱竭、死马被分食，又写受降时尚有近五千马；契丹主“啖战马万匹”明标为戏语。旧史唐纪同样记饥困并记余马五千，张敬达传则写“马尽食殚”。保留各书叙法与前后语境，不拿戏语当精确盘点，也不据“马尾鬣相食”断言全部战马早已吃尽。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v280-p45",
+          "excerpt": "死則將士分食之，援兵竟不至。"
+        },
+        {
+          "sourceId": "tongjian-v280-p45",
+          "excerpt": "因戲之曰：「汝輩亦大惡漢，不用鹽酪啖戰馬萬匹！」"
+        },
+        {
+          "sourceId": "tongjian-v280-p45",
+          "excerpt": "時晉安寨馬猶近五千，鎧仗五萬"
+        },
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "馬尾鬛相食俱盡。"
+        },
+        {
+          "sourceId": "old-v048-p14",
+          "excerpt": "時馬猶有五千匹"
+        },
+        {
+          "sourceId": "old-v070-p12",
+          "excerpt": "馬盡食殫。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-land-promise",
+      "title": "求援许地与册立献地分属两个节点",
+      "stageId": null,
+      "kind": "detail",
+      "summary": "《通鉴》求援时约定“事捷之日”给卢龙一道及雁门北诸州；册立叙次另列十六州与年输帛三十万匹。旧史晋纪则在册礼后的“是日”写献雁门北及幽州之地、岁帛三十万。这里并读许诺与册立约定，不据一个“割”字断言每州都在同一刻完成实际接管。",
+      "evidence": [
+        {
+          "sourceId": "tongjian-v280-p26",
+          "excerpt": "約事捷之日，割盧龍一道及雁門關以北諸州與之。"
+        },
+        {
+          "sourceId": "tongjian-v280-p40",
+          "excerpt": "是日，即皇帝位。割幽、薊、瀛、莫、涿、檀、順、新、媯、儒、武、雲、應、寰、朔、蔚十六州以與契丹，仍許歲輸帛三十萬匹。"
+        },
+        {
+          "sourceId": "old-v075-p23",
+          "excerpt": "是日，帝言於契丹主，願以雁門已北及幽州之地為戎王壽，仍約歲輸帛三十萬，戎王許之。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-portents-and-payments",
+      "title": "符瑞叙事与求赂记载保留各自层次",
+      "stageId": null,
+      "kind": "perspective",
+      "summary": "旧史开国符瑞长段写“不以缯帛，不以珠金”，同段所引《纪异录》却记持表重赂、许割燕云。新史李嗣昭家人传另记契丹求赂，石敬瑭向李继忠借资；《通鉴》桑维翰说辞又许尽中原之财。分别显示符瑞、夹注、家产与游说的说话者，不把它们改写为一套无差别的军费账。",
+      "evidence": [
+        {
+          "sourceId": "old-v075-p22",
+          "excerpt": "不以繒帛，不以珠金，若響應聲。"
+        },
+        {
+          "sourceId": "old-v075-p22",
+          "excerpt": "亟遣趙瑩持表重賂，許割燕雲，求兵為援"
+        },
+        {
+          "sourceId": "new-v36-p11",
+          "excerpt": "晉高祖自太原起兵，召契丹為援，契丹求賂，高祖貸于繼忠以取足。"
+        },
+        {
+          "sourceId": "tongjian-v280-p42",
+          "excerpt": "且使晉得天下，將竭中國之財以奉大國"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-imperial-language",
+      "title": "“契丹立晋”与“皇帝即位”是书法视角",
+      "stageId": "foundation",
+      "kind": "perspective",
+      "summary": "新史唐纪写“契丹立晋”，晋纪写“皇帝即位”，同书夹评解释两种写法分别据所见与原其心，意在分辨责任。它们指向同一册立事件的叙述视角，不因此生成两个即位事件，也不把史家的归责议论当成新的亲历战况。",
+      "evidence": [
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "丁酉，契丹立晉。"
+        },
+        {
+          "sourceId": "new-v08-p6",
+          "excerpt": "十一月丁酉，皇帝即位"
+        },
+        {
+          "sourceId": "new-v08-p6",
+          "excerpt": "於廢帝本紀書「契丹立晉」，據所見也，於此書「皇帝即位」，以自立為文，原其心也。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-jingda-evaluation",
+      "title": "张敬达的忠节评价与新史书法议论并列",
+      "stageId": "foundation",
+      "kind": "perspective",
+      "summary": "旧史张敬达传的时议以遇害而忠节俱全评价他；新史唐纪夹评却以未先诛杨光远、反让其杀己出降解释“杀”的书法。两处都是史书的褒贬议论，分别保留，不把新史夹评直接升级为独立证明张敬达主动促成叛降的战场事实。",
+      "evidence": [
+        {
+          "sourceId": "old-v070-p13",
+          "excerpt": "末帝聞其歿也，愴慟久之。契丹主告其部曲及漢之降者曰：「為臣當如此人！」令部人收葬之。晉高祖即位後，所有田宅，鹹賜其妻子焉。時議者以敬達嘗事數帝，亟立軍功，及領藩郡，不聞其濫，繼屯守塞垣，復能撫下，而臨難固執，不求苟免，乃近代之忠臣也。晉有天下，不能追懋官封，賞其事跡，非激忠之道也。"
+        },
+        {
+          "sourceId": "new-v07-p10",
+          "excerpt": "敬達不書死之而書「殺」者，敬達大將，宜以義責光遠而誅之，雖不果而見殺，猶為得死，乃諷光遠殺己以叛，故書之如其志。"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-appointment-scope",
+      "title": "赵莹、桑维翰同为相，兼枢密只属桑维翰",
+      "stageId": "foundation",
+      "kind": "detail",
+      "summary": "新史晋纪任官连缀后附校勘明确：赵莹与桑维翰并同平章事，兼枢密使者仅桑。旧史晋纪与《通鉴》也分别列出桑的枢密职。校勘作为同书说明随正文展示，不能把末尾兼职同时套给两人，也不算作第四部独立史料。",
+      "evidence": [
+        {
+          "sourceId": "new-v08-p13",
+          "excerpt": "↑ 翰林學士承旨尚書戶部侍郎趙瑩為門下侍郎桑維翰為中書侍郎同中書門下平章事兼樞密使　據薛史卷七六晉高祖紀、卷八九桑維翰趙瑩傳及通鑑卷二八０，趙瑩、桑維翰並同平章事，兼樞密使者僅桑維翰。"
+        },
+        {
+          "sourceId": "tongjian-v280-p46",
+          "excerpt": "丙寅，以趙瑩為門下侍郎，桑維翰為中書侍郎，並同平章事；維翰仍權知樞密使事。"
+        },
+        {
+          "sourceId": "old-v076-p2",
+          "excerpt": "依前知樞密院事"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-stone-family",
+      "title": "石氏子弟的姓名与纪日不暗中归一",
+      "stageId": "preparation",
+      "kind": "conflict",
+      "summary": "旧史唐纪写石重英、重裔，于七月己丑诛杀并追叙获于井中；《通鉴》写重殷、重裔，于戊子获而诛。原书姓名及纪日分别保留，捕获、处死的叙述也不省略；这不是用现代索引名直接改写另一书底本的理由。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p9",
+          "excerpt": "己丑，誅右衛上將軍石重英、皇城副使石重裔，皆敬瑭之子也。時重英等匿於民家井中，獲而誅之"
+        },
+        {
+          "sourceId": "tongjian-v280-p21",
+          "excerpt": "石敬瑭之子右衛上將軍重殷、皇城副使重裔聞敬瑭舉兵，匿於民間井中。"
+        },
+        {
+          "sourceId": "tongjian-v280-p21",
+          "excerpt": "秋，七月，戊子，獲重殷、重裔，誅之"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-cross-year-collapse",
+      "title": "辛巳自焚、当晚入洛与十二月送还已跨937年",
+      "stageId": "collapse",
+      "kind": "dating",
+      "summary": "原书仍沿天福元年或后唐清泰三年叙述，但这个闰十一月辛巳与十二月乙酉朔已经跨入西历937年。旧史唐纪写辛巳辰时自焚，晋纪与《通鉴》写当日晚入洛，是同日不同动作。保留原书记年、时刻和后续送还，不把这些事件都显示成936年。",
+      "evidence": [
+        {
+          "sourceId": "old-v048-p15",
+          "excerpt": "辛巳辰時，帝舉族與皇太后曹氏自燔於元武樓。"
+        },
+        {
+          "sourceId": "tongjian-v280-p56",
+          "excerpt": "是日晚，帝入洛陽，止於舊第。"
+        },
+        {
+          "sourceId": "tongjian-v280-p59",
+          "excerpt": "十二月，乙酉朔，帝如河陽，餞太相溫及契丹兵歸國。"
+        }
+      ]
+    }
+  ]
+}

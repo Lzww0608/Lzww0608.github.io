@@ -1,9 +1,10 @@
 import baixiangLinks from '../../content/event-timeline-links/baixiang.json' with { type: 'json' };
 import huliuLinks from '../../content/event-timeline-links/huliu.json' with { type: 'json' };
+import jinyangLinks from '../../content/event-timeline-links/jinyang.json' with { type: 'json' };
 import { eventComparisons } from './event-comparison-data.ts';
 import { parseEventTimelineLinksDocument } from './event-timeline-links-schema.ts';
 
-export const eventTimelineLinks = [baixiangLinks, huliuLinks].map(registry => {
+export const eventTimelineLinks = [baixiangLinks, huliuLinks, jinyangLinks].map(registry => {
   const comparison = eventComparisons.find(document => document.id === registry.comparisonId);
   if (!comparison) throw new Error('Unregistered event comparison links');
   return parseEventTimelineLinksDocument(registry, comparison);

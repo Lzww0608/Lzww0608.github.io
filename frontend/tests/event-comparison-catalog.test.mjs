@@ -13,6 +13,8 @@ import { readPersonTimeline } from '../src/person-timeline-loader.ts';
 import { eventComparisonRoute, resolveEventComparisonRoute } from '../src/event-comparison-route.ts';
 import { chapterRoute, libraryChapters, resolveReadingRoute, resolveRoute } from '../src/library.ts';
 import { createReadingNavigationSession, readingPositionDecision } from '../src/reading-navigation-state.ts';
+import { createReadingShelfStore, parseReadingShelfRoute, normalizeReadingShelfRoute, inferReadingPerson,
+  progressResumeRoute, bookmarkRoute, verifyParagraphBookmark, verifyEventBookmark } from '../src/reading-shelf.ts';
 
 const library = loadLibrary();
 const chapters = new Map(loadPublishedChapters(library).map(chapter => [chapter.id, chapter]));
@@ -34,16 +36,167 @@ const timelines = new Map(await Promise.all(people.map(async personId => [person
     fetcher: async url => archive(url) })).page])));
 const baixiang = eventTimelineLinks.find(document => document.comparisonId === 'baixiang');
 const huliu = eventTimelineLinks.find(document => document.comparisonId === 'huliu');
+const jinyang = eventTimelineLinks.find(document => document.comparisonId === 'jinyang');
 const sharedPerson = people.find(personId => [baixiang, huliu].every(document => document.links.some(link => link.personId === personId)));
 
-test('both public topics are explicitly registered, match every prebuild document and share real person entrances', () => {
-  assert.deepEqual(eventComparisons.map(document => document.id), ['baixiang', 'huliu']);
+test('all three public topics are explicitly registered, match prebuild documents and retain the prior person entrances', () => {
+  assert.deepEqual(eventComparisons.map(document => document.id), ['baixiang', 'huliu', 'jinyang']);
   assert.deepEqual(eventComparisons, loadEventComparisons(library));
   assert.deepEqual(eventTimelineLinks, loadEventTimelineLinks(library));
   assert.deepEqual(comparisonsForPerson('li-cunxu').map(document => document.id), ['baixiang', 'huliu']);
   assert.deepEqual(comparisonsForPerson('unknown'), []);
   assert.deepEqual(comparisons.get('huliu').stages.map(stage => stage.id), ['preparation', 'setback', 'counterattack', 'aftermath']);
   assert.ok(sharedPerson, 'a historical participant must actually have events registered for both battles');
+  assert.deepEqual(comparisonsForPerson('shi-jingtang').map(document => document.id), ['huliu', 'jinyang']);
+});
+
+test('Jinyang resolves all three books, four people and four phases with complete current paragraphs and bidirectional timeline proofs', async () => {
+  const page = comparisons.get('jinyang');
+  assert.deepEqual(new Set(page.document.personIds), new Set(['shi-jingtang', 'li-congke', 'zhang-jingda', 'liu-zhiyuan']));
+  assert.deepEqual(new Set(page.sources.map(source => source.bookId)), new Set(['old', 'new', 'tongjian']));
+  assert.deepEqual(page.stages.map(stage => stage.id), ['preparation', 'relief', 'foundation', 'collapse']);
+  assert.equal(page.sources.length, 71);
+  assert.equal(new Set(page.sources.map(source => source.paragraphId)).size, 71);
+  for (const source of page.sources) {
+    assert.equal(source.status, 'available', source.paragraphId);
+    assert.deepEqual(source.paragraph, chapters.get(source.chapterId).paragraphs.find(paragraph => paragraph.id === source.paragraphId));
+    assert.ok(source.paragraph.translation?.text.trim(), `current full translation: ${source.paragraphId}`);
+  }
+  for (const stage of page.stages) assert.equal(stage.status, 'available');
+  for (const difference of page.differences) {
+    assert.equal(difference.status, 'available', difference.id);
+    for (const evidence of difference.evidence) {
+      const source = page.sources.find(source => source.id === evidence.sourceId);
+      assert.ok(source.paragraph.original.includes(evidence.excerpt));
+    }
+  }
+  const before = JSON.stringify([...documents, ...chapters]);
+  const forward = await readComparisonTimelineLinks({ ...options(), comparison: page, fetcher: async url => archive(url) });
+  assert.equal(forward.unavailableCount, 0);
+  assert.equal(forward.links.length, jinyang.links.length);
+  assert.deepEqual(new Set(forward.links.map(link => link.person.id)), new Set(page.document.personIds));
+  for (const personId of page.document.personIds) {
+    const backwards = await readTimelineComparisonLinks({ ...options(), personId, timeline: timelines.get(personId), fetcher: async url => archive(url) });
+    const expected = jinyang.links.filter(link => link.personId === personId);
+    const actual = backwards.links.filter(link => link.comparisonId === 'jinyang');
+    assert.equal(actual.length, expected.length);
+    for (const reference of expected) {
+      assert.deepEqual(actual.find(link => link.event.id === reference.eventId).stageIds, reference.stageIds);
+      assert.deepEqual(forward.links.find(link => link.person.id === personId && link.event.id === reference.eventId).stageIds, reference.stageIds);
+    }
+  }
+  assert.equal(JSON.stringify([...documents, ...chapters]), before);
+});
+
+test('responding empty, malformed, revised or HTTP-error Jinyang sources pause only their proofs and never revive deployed text', async () => {
+  const previousChapters = new Set(eventComparisons.filter(document => document.id !== 'jinyang').flatMap(document => document.sources.map(source => source.chapterId)));
+  const uniqueChapters = new Set(comparisons.get('jinyang').sources.map(source => source.chapterId).filter(id => !previousChapters.has(id)));
+  assert.ok(uniqueChapters.size);
+  const personId = 'shi-jingtang';
+  const expectedHuliu = huliu.links.filter(link => link.personId === personId).length;
+  assert.ok(expectedHuliu);
+  for (const kind of ['empty', 'invalid', 'revised', 'http-error']) {
+    const requested = [];
+    const fetcher = async url => {
+      requested.push(url);
+      const chapterId = /\/api\/chapters\/([a-z0-9-]+)$/.exec(url)?.[1];
+      if (!uniqueChapters.has(chapterId)) return archive(url);
+      if (kind === 'http-error') return new Response('', { status: 503 });
+      if (kind === 'invalid') return Response.json({ id: chapterId, private: 'invalid source fixture' });
+      const chapter = structuredClone(chapters.get(chapterId));
+      if (kind === 'empty') chapter.paragraphs = [];
+      else for (const paragraph of chapter.paragraphs) paragraph.original += '仅测试当前底本改变。';
+      return Response.json(chapter);
+    };
+    const paused = (await readEventComparison({ ...options(), document: comparisons.get('jinyang').document, apiBase: 'https://api.example', fetcher })).page;
+    assert.ok(paused.sources.some(source => source.status === 'available'));
+    assert.ok(paused.sources.filter(source => uniqueChapters.has(source.chapterId)).every(source => source.status === 'unavailable' && source.source === 'api'));
+    assert.ok(paused.differences.some(difference => difference.status === 'unavailable'));
+    const links = await readTimelineComparisonLinks({ ...options(), personId, timeline: timelines.get(personId), apiBase: 'https://api.example', fetcher });
+    assert.equal(links.links.filter(link => link.comparisonId === 'huliu').length, expectedHuliu);
+    assert.ok(links.unavailableCount > 0);
+    assert.ok(requested.every(url => url.startsWith('https://api.example/api/chapters/')), 'a responding API does not request archive recovery');
+  }
+  const offlineRequests = [];
+  const offline = (await readEventComparison({ ...options(), document: comparisons.get('jinyang').document, apiBase: 'https://api.example',
+    fetcher: async url => { offlineRequests.push(url); if (url.startsWith('https://api.example')) throw new TypeError('offline'); return archive(url); } })).page;
+  assert.ok(offline.sources.every(source => source.status === 'available' && source.source === 'archive'));
+  assert.ok(offlineRequests.some(url => url.startsWith('/history/chapters/')));
+});
+
+test('Jinyang timeline to comparison to Reader returns are bounded and preserve independent topic reading state', () => {
+  const reference = jinyang.links.find(link => link.personId === 'shi-jingtang');
+  const timelineRoute = `person-timeline/${reference.personId}?event=${reference.eventId}`;
+  const destination = eventComparisonRoute('jinyang', reference.stageIds[0], timelineRoute);
+  assert.equal(resolveEventComparisonRoute(destination).returnTo, timelineRoute);
+  const source = comparisons.get('jinyang').sources.find(source => source.status === 'available');
+  const chapter = libraryChapters.find(chapter => chapter.id === source.chapterId);
+  const reader = chapterRoute(chapter, { paragraphId: source.paragraphId, query: '', field: 'both', returnTo: destination });
+  assert.equal(resolveReadingRoute(reader).returnTo, destination);
+  assert.equal(resolveRoute('#' + reader), reader);
+  for (const invalid of ['event-comparison/jinyang?stage=battle', 'event-comparison/jinyang?stage=aftermath',
+    'event-comparison/jinyang?stage=relief&stage=collapse', 'event-comparison/jinyang?stage=collapse&return=owner-review',
+    'event-comparison/jinyang?stage=collapse&return=https%3A%2F%2Fexample.com',
+    `event-comparison/jinyang?stage=collapse&return=${encodeURIComponent(destination)}`]) assert.equal(resolveEventComparisonRoute(invalid), null);
+  const session = createReadingNavigationSession();
+  const origin = eventComparisonRoute('huliu', 'aftermath');
+  const original = session.activate(origin);
+  const oldView = { selectedBooks: ['old', 'chunqiu'], fontSize: 21, expandedTranslations: {} };
+  session.rememberView(origin, oldView);
+  session.savePosition({ anchorId: 'comparison-stage-aftermath', offset: -200, scrollY: 5100, details: {} });
+  const target = session.activate(destination);
+  assert.deepEqual(session.readView(destination, {}), {});
+  const newView = { selectedBooks: ['new', 'tongjian'], fontSize: 25, expandedTranslations: {} };
+  const newPosition = { anchorId: `comparison-stage-${reference.stageIds[0]}`, offset: -500, scrollY: 19000, details: {} };
+  session.rememberView(destination, newView); session.savePosition(newPosition);
+  session.activate(origin, original.id); assert.deepEqual(session.readView(origin, {}), oldView);
+  const restored = session.activate(destination, target.id);
+  assert.deepEqual(session.readView(destination, {}), newView);
+  assert.deepEqual(readingPositionDecision(restored, 'comparison-stage-collapse'), { kind: 'restore', position: newPosition });
+});
+
+test('Jinyang saved progress and real paragraph/event bookmarks round-trip without old-topic state, return chains or text', async () => {
+  let backing = null;
+  const storage = { getItem: () => backing, setItem: (_key, value) => { backing = value; } };
+  const store = createReadingShelfStore({ storage, events: null, clock: () => '2026-01-01T00:00:00.000Z' });
+  const page = comparisons.get('jinyang'), stage = page.document.stages.find(stage => stage.id === 'relief');
+  const source = page.sources.find(source => stage.sourceIds.includes(source.id) && source.status === 'available');
+  const paragraph = source.paragraph;
+  const live = eventComparisonRoute('jinyang', stage.id, 'person-timeline/shi-jingtang');
+  const leaf = eventComparisonRoute('jinyang', stage.id);
+  assert.equal(normalizeReadingShelfRoute(live), leaf);
+  assert.equal(parseReadingShelfRoute(leaf).comparisonId, 'jinyang');
+  assert.equal(parseReadingShelfRoute(live), null);
+  assert.equal(inferReadingPerson(leaf, 'shi-jingtang'), 'shi-jingtang');
+  assert.equal(inferReadingPerson(leaf, 'li-cunxu'), undefined);
+  store.saveProgress({ route: live, personId: 'shi-jingtang', position: { scrollY: 12000,
+    anchorId: `comparison-paragraph-jinyang-${stage.id}-${source.id}`, offset: -345, details: {} },
+    view: { selectedBooks: ['old', 'new'], fontSize: 24, expandedTranslations: { [`${stage.id}/${source.id}`]: true } },
+    binding: { kind: 'paragraph', chapterId: source.chapterId, paragraphId: source.paragraphId,
+      originalRevision: source.originalRevision, originalSha256: source.originalSha256 } });
+  await store.toggleParagraphBookmark({ chapterId: source.chapterId, paragraph, personId: 'shi-jingtang' });
+  const reference = jinyang.links.find(link => link.personId === 'shi-jingtang');
+  const event = timelines.get(reference.personId).events.find(event => event.id === reference.eventId);
+  await store.toggleEventBookmark({ personId: reference.personId, event });
+  const text = store.exportJson();
+  assert.ok(!text.includes(paragraph.original) && !text.includes(paragraph.translation.text));
+  assert.ok(!text.includes('return=') && !text.includes('owner-review'));
+  const restored = createReadingShelfStore({ storage: null, events: null });
+  restored.mergeImport(restored.previewImport(text));
+  const progress = restored.getProgress(leaf, 'shi-jingtang');
+  assert.equal(progressResumeRoute(progress), leaf);
+  assert.equal(progress.position.offset, -345);
+  assert.deepEqual(progress.view.selectedBooks, ['old', 'new']);
+  assert.equal(restored.getProgress('event-comparison/huliu', 'shi-jingtang'), undefined);
+  const bookmarks = restored.getSnapshot().bookmarks;
+  const savedParagraph = bookmarks.find(bookmark => bookmark.kind === 'paragraph');
+  const savedEvent = bookmarks.find(bookmark => bookmark.kind === 'event');
+  assert.equal(resolveReadingRoute(bookmarkRoute(savedParagraph)).focusParagraphId, source.paragraphId);
+  assert.equal(await verifyParagraphBookmark(savedParagraph, paragraph), true);
+  assert.equal(await verifyParagraphBookmark(savedParagraph, { ...paragraph, original: paragraph.original + '改变。' }), false);
+  assert.equal(await verifyEventBookmark(savedEvent, event), true);
+  assert.equal(await verifyEventBookmark(savedEvent, { ...event, summary: event.summary + '改变。' }), false);
+  store.destroy(); restored.destroy();
 });
 
 test('every second-topic source retains its full existing original and translation and every actual link resolves both ways', async () => {
