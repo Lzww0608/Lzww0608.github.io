@@ -57,7 +57,24 @@
           "originalRevision": 1,
           "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
           "excerpt": "遂以帝為北京留守，授金紫光祿大夫、檢校司徒，行太原尹，知河東管內節度觀察事。"
+        },
+        {
+          "chapterId": "tongjian-v280",
+          "paragraphId": "tongjian-v280-p46",
+          "originalRevision": 1,
+          "originalSha256": "2c4226fd1327e7ad99790a867b18f7413d51de4f8298152de0eff3aef4f1c152",
+          "excerpt": "乃以重貴為北京留守、太原尹、河東節度使。"
+        },
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p2",
+          "originalRevision": 1,
+          "originalSha256": "6f99c6a0c545ae9287c0508dbacf8af1c11e1c492a0f7870b0937f6aaec5cb32",
+          "excerpt": "閏十一月甲子，晉安寨副招討使楊光遠等殺上將張敬達，以諸軍來降。丙寅，"
         }
+      ],
+      "notes": [
+        "通鉴将选重贵留守列于丙寅记事，旧高祖纪该段为天福元年闰十一月；核历后仍为西历936年。旧少帝纪写知河东节度观察事，通鉴写河东节度使，官衔按各书保留。"
       ]
     },
     {
@@ -76,6 +93,13 @@
           "originalRevision": 1,
           "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
           "excerpt": "天福二年九月，征赴闕，授光祿大夫、檢校太保、右金吾衛上將軍。"
+        },
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p14",
+          "originalRevision": 1,
+          "originalSha256": "fad1adaabda5ffcbb5dc5d3789f60e0912ced0a3c8c566f9ca0f3e442aa561c4",
+          "excerpt": "甲寅，皇子北京留守、知河東軍府事、太原尹重貴加檢校太保，為右金吾衛上將軍。"
         }
       ],
       "variants": [
@@ -97,11 +121,131 @@
       ]
     },
     {
+      "id": "shi-chonggui-zheng-prince",
+      "title": "任开封尹封郑王",
+      "summary": "授开封尹、加检校太傅、封郑王；旧高祖纪及新高祖纪都有十二月丙子记日，可核为西历938年。后来加平章事、检校太尉，分别保留各篇叙次。",
+      "year": 938,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "天福三年十二月丙子",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p1",
+          "originalRevision": 1,
+          "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
+          "excerpt": "三年十二月，授開封尹，加檢校太傅，封鄭王，增食邑三千戶。俄加檢校太尉、同中書門下平章事。"
+        },
+        {
+          "chapterId": "old-v077",
+          "paragraphId": "old-v077-p12",
+          "originalRevision": 1,
+          "originalSha256": "19137c0809398fe6fbb51c589350977a48f30e903f1409fbe9a4867d4bdcf203",
+          "excerpt": "丙子，以前涇州彰義軍節度使李德充為晉州建雄軍節度使，加同平章事。以皇太子右金吾衛上將軍重貴為檢校太傅、開封尹，封鄭王，加食邑三千戶。"
+        },
+        {
+          "chapterId": "new-v08",
+          "paragraphId": "new-v08-p8",
+          "originalRevision": 1,
+          "originalSha256": "31ffc52f4b0f02e0efdfcdd672dc2930c0219a1835a66781e4cec235163c94f9",
+          "excerpt": "十二月丙子，封子重貴為鄭王。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "逐年本纪的后续加衔",
+          "sourceDate": "天福四年三月己未；五年正月辛巳",
+          "summary": "旧少帝传概括为不久加太尉、同平章事；旧高祖逐年纪则四年三月记加同平章事，五年正月记加检校太尉。保留概述与逐年记事，不把所有加衔都挪到封郑王当天。",
+          "evidence": [
+            {
+              "chapterId": "old-v078",
+              "paragraphId": "old-v078-p5",
+              "originalRevision": 1,
+              "originalSha256": "c96d8752f3ebaf89b4fd0e7aaae12e4d11b79aa2d9e34ed662c9de3f04deec7b",
+              "excerpt": "己未，皇子開封尹鄭王重貴、歸德軍節度使兼侍衛親軍馬步軍都指揮使劉知遠、忠武軍節度使杜重威，並加同中書門下平章事。"
+            },
+            {
+              "chapterId": "old-v079",
+              "paragraphId": "old-v079-p1",
+              "originalRevision": 1,
+              "originalSha256": "7fc145c2f4d2eb8ad3bbd4417860d39c8a487bd23f89ec16ac3a53f57809ee2c",
+              "excerpt": "辛巳，皇子開封尹、鄭王重貴加檢校太尉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shi-chonggui-guangjin",
+      "title": "改广晋尹封齐王",
+      "summary": "先在高祖赴邺时留守东京，十二月丙戌朔改广晋尹、进封齐王；通鉴称充邺都留守。会要的授广晋尹、封齐王月份另列。",
+      "year": 941,
+      "sortOrder": 6,
+      "precision": "day",
+      "sourceDate": "天福六年十二月丙戌朔",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p1",
+          "originalRevision": 1,
+          "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
+          "excerpt": "六年，高祖幸鄴，改廣晉尹，進封齊王。"
+        },
+        {
+          "chapterId": "new-v09",
+          "paragraphId": "new-v09-p3",
+          "originalRevision": 1,
+          "originalSha256": "785a62ab3b00e9f5f653e11da44776ac8c117a81ce70c06ae4d30bfa753f93ef",
+          "excerpt": "六年，高祖幸鄴，留守東京，已而為廣晉尹，徙封齊王。"
+        },
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p6",
+          "originalRevision": 1,
+          "originalSha256": "cce83ed2424f5132ea348f276815a54e164ea561da606b23458488ee22825a42",
+          "excerpt": "十二月丙戌朔，以東京留守、開封尹、鄭王重貴為廣晉尹，進封齊王；"
+        },
+        {
+          "chapterId": "tongjian-v282",
+          "paragraphId": "tongjian-v282-p112",
+          "originalRevision": 1,
+          "originalSha256": "575480cdc0a5410e26292b26573a28bbf77830ab3fe92dc46df0a609f09e2c75",
+          "excerpt": "十二月，丙戌朔，徙鄭王重貴為齊王，充鄴都留守；"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要记十一月",
+          "year": 941,
+          "sourceDate": "天福六年十一月",
+          "summary": "会要记六年十一月授广晋尹、封齐王，旧高祖纪、新高祖纪和通鉴均记十二月丙戌朔；月份差别保持，不能把两次记法拼成两次封齐王。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p9",
+              "originalRevision": 1,
+              "originalSha256": "eb50cc609213e15691ed945eecb1c5ac21589d2373bc1b9a9191bafceecbc2a7",
+              "excerpt": "六年十一月，授廣晉尹，封齊王。"
+            },
+            {
+              "chapterId": "new-v08",
+              "paragraphId": "new-v08-p11",
+              "originalRevision": 1,
+              "originalSha256": "84f5a47b5dfb2d5afc2de14036e38d88f5c4e722791fcbaef5f3477cfe0fde35",
+              "excerpt": "十二月丙戌朔，鄭王重貴為廣晉尹，徙封齊王。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "shi-chonggui-accession",
       "title": "邺都柩前即皇位",
       "summary": "高祖崩后石重贵在灵柩前即位；新史认为群臣违高祖欲立重睿的托孤安排，另列史家论断。",
       "year": 942,
-      "sortOrder": 5,
+      "sortOrder": 7,
       "precision": "day",
       "sourceDate": "天福七年六月十三日乙丑",
       "phase": "rule",
@@ -137,7 +281,7 @@
       "title": "采用称孙不称臣的对契丹文书",
       "summary": "不采李崧屈身称臣的意见，听景延广改用书信称孙不称臣；契丹以未经禀请即位等事责让，关系转坏。",
       "year": 942,
-      "sortOrder": 6,
+      "sortOrder": 8,
       "precision": "year",
       "sourceDate": "初即位时",
       "phase": "rule",
@@ -159,7 +303,7 @@
       "title": "拒冯道复设枢密使请求",
       "summary": "冯道等因中书事务繁多，三次请求恢复枢密使，石重贵没有同意；此与两年后重新设院分开。",
       "year": 942,
-      "sortOrder": 7,
+      "sortOrder": 9,
       "precision": "month",
       "sourceDate": "天福七年七月",
       "phase": "rule",
@@ -176,9 +320,9 @@
     {
       "id": "shi-chonggui-xiangzhou-relief",
       "title": "襄州收复后给粮免税",
-      "summary": "高行周收复襄州，安从进自焚；给围城困苦居民粟、免城内当年税和城外驻营处两年税，对被胁从者不问。",
+      "summary": "高行周奏收复襄州，安从进自焚；诏给城内困民粮食，大户二斛、小户一斛，免当年夏秋“来屋税”，城外驻营地免两年租税，胁从者不问。",
       "year": 942,
-      "sortOrder": 8,
+      "sortOrder": 10,
       "precision": "month",
       "sourceDate": "天福七年八月",
       "phase": "rule",
@@ -190,6 +334,37 @@
           "originalSha256": "46a3bce0d137f9f60e85ba9a6a9e3d8ae373d99fdfe00dc177f46be2e118223e",
           "excerpt": "詔免襄州城內人戶今年夏秋來屋稅，其城外下營處與放二年租稅。應被安從進脅從者，一切不問。"
         }
+      ],
+      "variants": [
+        {
+          "label": "新史克城日期与春秋诛字",
+          "year": 942,
+          "sourceDate": "旧史八月甲子奏克；新史八月戊午克；春秋仅记八月",
+          "summary": "旧史在甲子条记高行周奏收复，新史在戊午条记克襄州。旧、新史均记安从进自焚，春秋概括作“诛安从进”，保留各自的动作与日期，不据概括认定少帝亲手处死。",
+          "evidence": [
+            {
+              "chapterId": "old-v081",
+              "paragraphId": "old-v081-p4",
+              "originalRevision": 1,
+              "originalSha256": "46a3bce0d137f9f60e85ba9a6a9e3d8ae373d99fdfe00dc177f46be2e118223e",
+              "excerpt": "甲子，宰臣馮道加守太尉，趙瑩加中書令，李崧加左僕射兼門下侍郎，和凝加右僕射。契丹遣使致慰禮馬二十匹及羅絹等物。是日，襄州行營都部署高行周奏，收復襄州，安從進自焚而死，"
+            },
+            {
+              "chapterId": "new-v09",
+              "paragraphId": "new-v09-p4",
+              "originalRevision": 1,
+              "originalSha256": "a0e7260f2ee7dd312cc2eb1c8ab7a40923b7f0deea6d9ac29cffd9e6aa2d342a",
+              "excerpt": "八月戊午，高行周克襄州。〈安從進自焚死，故不書伏誅。〉"
+            },
+            {
+              "chapterId": "chunqiu-v002",
+              "paragraphId": "chunqiu-v002-p13",
+              "originalRevision": 1,
+              "originalSha256": "e97e9cea362b50ad85d8d04809ed7102f5e6f8427fd40c2e8ffceddca15c3d4b",
+              "excerpt": "八月，高行周克襄州，誅安從進。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -197,7 +372,7 @@
       "title": "葬高祖显陵",
       "summary": "十一月葬高祖于显陵，并把神主祔入太庙。",
       "year": 942,
-      "sortOrder": 9,
+      "sortOrder": 11,
       "precision": "month",
       "sourceDate": "天福七年十一月庚寅、庚子",
       "phase": "rule",
@@ -208,6 +383,13 @@
           "originalRevision": 1,
           "originalSha256": "d9d452ad85eb330796b48598a3990d6bcbed3ad511c09751a6e2def457b7e0dc",
           "excerpt": "十一月庚寅，葬高祖皇帝於顯陵。"
+        },
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p7",
+          "originalRevision": 1,
+          "originalSha256": "d9d452ad85eb330796b48598a3990d6bcbed3ad511c09751a6e2def457b7e0dc",
+          "excerpt": "庚子，祔高祖神主於太廟。"
         }
       ]
     },
@@ -216,7 +398,7 @@
       "title": "旱蝗饥荒中诏赈借粮",
       "summary": "河南府逃户、饿死相继，命各道以仓粮赈饥，民有积粮者均分借济贫民。",
       "year": 943,
-      "sortOrder": 10,
+      "sortOrder": 12,
       "precision": "month",
       "sourceDate": "天福八年正月",
       "phase": "rule",
@@ -235,7 +417,7 @@
       "title": "从邺都移回东京",
       "summary": "手谕沿路不修行宫、由官物供食宿，二月自邺都返回东京，以张从恩权邺都留守。",
       "year": 943,
-      "sortOrder": 11,
+      "sortOrder": 13,
       "precision": "month",
       "sourceDate": "天福八年二月己未、乙丑",
       "phase": "rule",
@@ -254,7 +436,7 @@
       "title": "征借粟麦使臣施严刑",
       "summary": "派二十八名内外臣僚到各道征借军粮；旧史记使臣严刑、杀隐粮者，使民众怨恨。",
       "year": 943,
-      "sortOrder": 12,
+      "sortOrder": 14,
       "precision": "day",
       "sourceDate": "天福八年六月辛未",
       "phase": "rule",
@@ -273,7 +455,7 @@
       "title": "尊生母安氏为皇太妃",
       "summary": "将生母安氏尊为皇太妃，同时追册原配张氏为皇后。",
       "year": 943,
-      "sortOrder": 13,
+      "sortOrder": 15,
       "precision": "month",
       "sourceDate": "天福八年九月戊寅、丁亥",
       "phase": "rule",
@@ -288,11 +470,47 @@
       ]
     },
     {
+      "id": "shi-chonggui-qiao-rong",
+      "title": "听景延广囚乔荣而后释放",
+      "summary": "景延广劝少帝囚乔荣、收邸中财货，通鉴还记晋境贸易契丹人被杀、财货被夺。大臣反对后，九月戊子释放乔荣并慰赐；此前拘押没有另给开始日，强硬外交言辞为景延广所说。",
+      "year": 943,
+      "sortOrder": 16,
+      "precision": "day",
+      "sourceDate": "天福八年九月戊子释放；拘押开始未另给日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p73",
+          "originalRevision": 1,
+          "originalSha256": "bb60c0d76c9cf9a8bb9be41595e1c82858860578e3c8d97728b259fef94c393c",
+          "excerpt": "及契丹與晉有隙，景延廣說帝囚榮於獄，悉取邸中之貨。凡契丹之人販易在晉境者，皆殺之，奪其貨。大臣皆言契丹有大功於晉，不可負。戊子，釋榮，慰賜而歸之。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p72",
+          "originalRevision": 1,
+          "originalSha256": "9dc9dda7f7feebf3a208890d9c91882bac3b2e0c0e89e08e4ae299738c9fae60",
+          "excerpt": "九月，尊帝母秦國夫人安氏為皇太妃。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p45",
+          "originalRevision": 1,
+          "originalSha256": "fa52591d3b78bd5924c4d5da0e99d43eb164d2beb09897f8cd1a434e694c221a",
+          "excerpt": "高祖聖文章武明德孝皇帝下天福八年（癸卯，公元九四三年）"
+        }
+      ],
+      "notes": [
+        "通鉴本卷天福八年年标、前段九月标与戊子连续承接，可确定释放所在年份；不把拘押、杀商人或景延广送别言辞都强定为同一天。"
+      ]
+    },
+    {
       "id": "shi-chonggui-feng-empress",
       "title": "立冯氏为后",
       "summary": "立吴国夫人冯氏为皇后；新史注明她原为其叔母，与普通初婚叙述不同。",
       "year": 943,
-      "sortOrder": 14,
+      "sortOrder": 17,
       "precision": "day",
       "sourceDate": "天福八年十月戊申",
       "phase": "rule",
@@ -303,6 +521,20 @@
           "originalRevision": 1,
           "originalSha256": "9941dc021fc1a464800fc53b71597649f043e695a1d17f9366dbb64a73287f49",
           "excerpt": "冬十月戊申，制以吳國夫人馮氏為皇后，仍令所司擇日備禮冊命。"
+        },
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p1",
+          "originalRevision": 1,
+          "originalSha256": "f1fa0c9a85e43251361679f2aa63fdf37b2cc9399c13d645381c960e1d3b6238",
+          "excerpt": "癸酉，冊吳國夫人馮氏為皇后。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p40",
+          "originalRevision": 1,
+          "originalSha256": "94fb315ae3f20dfe304d96234943efddcd006305cb678f2335bb1ebf9788f1e2",
+          "excerpt": "皇后馮氏。〈開運三年十月冊。〉"
         }
       ],
       "variants": [
@@ -321,6 +553,52 @@
             }
           ]
         }
+      ],
+      "notes": [
+        "天福八年十月是制立冯氏并令择日礼册；旧史卷85及会要另记开运三年十月册礼，不把后来行礼写成首次立后。"
+      ]
+    },
+    {
+      "id": "shi-chonggui-yang-revolt",
+      "title": "防杨光远叛乱加驻郓州",
+      "summary": "十二月初一派蔡行遇屯郓州，并派供奉官、殿直沿河分区巡检，以防杨光远谋叛；随后淄州奏其已反叛、占淄州，不能将后续报告都当作派兵当日。",
+      "year": 943,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "天福八年十二月乙巳朔",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p6",
+          "originalRevision": 1,
+          "originalSha256": "62fe199894d079aa2472319fa292ba6162509ff415ac31b57ea5ad83edad90ef",
+          "excerpt": "十二月乙巳朔，遣左領軍衛將軍蔡行遇押兵士屯於鄆州"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p82",
+          "originalRevision": 1,
+          "originalSha256": "fafe0b9bd424f95dbf1c7cc358d6199dae41f6217fb42b21b6ecdd001af46aaf",
+          "excerpt": "十二月，乙巳朔，遣左領軍衛將軍蔡行遇將兵戍鄆州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "春秋将叛附契丹记在十一月",
+          "year": 943,
+          "sourceDate": "天福八年十一月",
+          "summary": "春秋在十一月记杨光远反叛、附契丹，旧史十二月初一派兵防备、月底记淄州来报；分别保留反叛概记、朝廷预防与奏报，不推同一确定发生日。",
+          "evidence": [
+            {
+              "chapterId": "chunqiu-v002",
+              "paragraphId": "chunqiu-v002-p14",
+              "originalRevision": 1,
+              "originalSha256": "1ab68a54aa65a547b2384129f56c7364749a804007d1529d0f1fdab037b08732",
+              "excerpt": "十一月，青州楊光遠叛，附於契丹。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -328,7 +606,7 @@
       "title": "契丹陷贝后亲征澶州",
       "summary": "契丹大举南下攻陷贝州，石重贵任高行周等掌行营，命刘知远招讨幽州，并亲率军出东京至澶州，求和遭拒。",
       "year": 944,
-      "sortOrder": 15,
+      "sortOrder": 19,
       "precision": "month",
       "sourceDate": "开运元年正月乙酉、戊子",
       "phase": "rule",
@@ -350,7 +628,7 @@
       "title": "亲率禁军解戚城之围",
       "summary": "高行周、符彦卿等被围，景延广延误救援，石重贵亲率亲兵救解，并在古台劳慰三将。",
       "year": 944,
-      "sortOrder": 16,
+      "sortOrder": 20,
       "precision": "day",
       "sourceDate": "开运元年二月丙午",
       "phase": "rule",
@@ -369,7 +647,7 @@
       "title": "戚城双方重损契丹退去",
       "summary": "三月契丹主大军来战，石重贵亲军列后阵，交战至夜契丹撤退，晋军不敢追；春秋写王师败绩，作为另一叙述保存。",
       "year": 944,
-      "sortOrder": 17,
+      "sortOrder": 21,
       "precision": "day",
       "sourceDate": "开运元年三月癸酉朔",
       "phase": "rule",
@@ -410,9 +688,9 @@
     {
       "id": "shi-chonggui-wuding",
       "title": "征乡兵建武定军",
-      "summary": "战后诏天下每七户出一士，其他六户供养并自备器甲，军号武定。",
+      "summary": "诏天下抽点乡兵，七户出一名士卒、六户供资，并自备兵仗，以武定为军号。",
       "year": 944,
-      "sortOrder": 18,
+      "sortOrder": 22,
       "precision": "day",
       "sourceDate": "开运元年三月癸巳",
       "phase": "rule",
@@ -424,6 +702,44 @@
           "originalSha256": "e3df96ae8d962152d6895006348d889b709b07fc85d179f29e42fbc3dc175f5a",
           "excerpt": "是日，詔天下抽點鄉兵，凡七戶出一士，六戶資之，仍自具兵仗，以「武定」為軍號。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴与会要的供械、军号叙次",
+          "year": 944,
+          "sourceDate": "通鉴三月籍兵、四月丙戌号武定；会要三月点兵、五月命名",
+          "summary": "通鉴说七户共出兵械资一卒，四月丙戌号武定；会要说七户共出一卒、兵器共力制作，五月命名。旧史将抽兵与武定名同时记在三月癸巳，分别保留。改天威的时间，旧史续记开运二年正月，会要作三年正月，不合成同一次确定改名日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p17",
+              "originalRevision": 1,
+              "originalSha256": "d93d51d973ae5039e8de6cfd70b1648729ff9403c7d3abb0ff570ad0dd48566e",
+              "excerpt": "敕天下籍鄉兵，每七戶共出兵械資一卒。"
+            },
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p22",
+              "originalRevision": 1,
+              "originalSha256": "0577e053093feca5f908b6aadba065170ab6696a927fc6530ec07e6320bafa06",
+              "excerpt": "丙戌，詔諸州所籍鄉兵，號武定軍，凡得七萬餘人。"
+            },
+            {
+              "chapterId": "huiyao-v012",
+              "paragraphId": "huiyao-v012-p67",
+              "originalRevision": 1,
+              "originalSha256": "c3c0bb8f2d28a633af85ce5c31b470094de19c0103b0d64f9d990e98de7037ea",
+              "excerpt": "開運元年三月，命諸道州府縣點集鄉兵，率以税戶七家共出一卒，兵仗器械共力營之。至五月，敕諸道新點鄉兵，宜以武定為名。至三年正月，改武定為天威軍。"
+            },
+            {
+              "chapterId": "old-v083",
+              "paragraphId": "old-v083-p12",
+              "originalRevision": 1,
+              "originalSha256": "939fc31632cc646897f2bc2c183923be189fe7dc3a54dde6db66b21b81fa7686",
+              "excerpt": "改諸道武定軍為天威軍。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -431,7 +747,7 @@
       "title": "回京后外调景延广",
       "summary": "返回东京后以景延广为西京留守，以高行周接禁军统帅，仍赏景延广御衣宝带；旧史没有将外调直接写作处罚。",
       "year": 944,
-      "sortOrder": 19,
+      "sortOrder": 23,
       "precision": "month",
       "sourceDate": "开运元年四月甲寅、辛酉",
       "phase": "rule",
@@ -443,6 +759,23 @@
           "originalSha256": "88650d0e571b2df905edbc858e9bee932e6b1a8c972439721f5b02d3edbe5546",
           "excerpt": "辛酉，以鄆州節度使、侍衛親軍都指揮使景延廣為西京留守；以宋州節度使高行周為侍衛親軍都指揮使；"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记不救戚城之责",
+          "year": 944,
+          "sourceDate": "开运元年四月辛酉",
+          "summary": "通鉴记桑维翰指出景延广未及时救戚城之罪，少帝也忌惮其难制，因而加兼侍中、出为西京留守；旧史本条仍有少帝酬功和赐御衣宝带的话，两书叙述立场分别保留。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p20",
+              "originalRevision": 1,
+              "originalSha256": "6b276efabace0906eadb2a457592eaa994c40ca2c2f03daf808abf7c607321dd",
+              "excerpt": "桑維翰引其不救戚城之罪，辛酉，加延廣兼侍中，出為西京留守。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -450,7 +783,7 @@
       "title": "命李守贞符彦卿讨杨光远",
       "summary": "遣李守贞率步骑二万进讨青州，后任青州都部署，符彦卿为副。",
       "year": 944,
-      "sortOrder": 20,
+      "sortOrder": 24,
       "precision": "month",
       "sourceDate": "开运元年五月戊寅及辛卯",
       "phase": "rule",
@@ -469,7 +802,7 @@
       "title": "恢复枢密院由桑维翰掌",
       "summary": "改先前拒设的政策，恢复枢密院，任桑维翰中书令、枢密使，后又恢复翰林学士。",
       "year": 944,
-      "sortOrder": 21,
+      "sortOrder": 25,
       "precision": "month",
       "sourceDate": "开运元年六月丙午、丁未、甲子",
       "phase": "rule",
@@ -481,6 +814,23 @@
           "originalSha256": "4e480bc95ad2e9731f32e6b479468ce24b3adf186ac65bd62d349e9baa371810",
           "excerpt": "丙午，詔復置樞密院。丁未，以侍中桑維翰為中書令，充樞密使。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴将复院与任桑同列丙午",
+          "year": 944,
+          "sourceDate": "开运元年六月丙午；旧史丁未任桑",
+          "summary": "旧史丙午复院、丁未授桑维翰中书令兼枢密使，通鉴把复院与任桑同列丙午；按各书叙次保留，不把两项动作自动当作同日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p28",
+              "originalRevision": 1,
+              "originalSha256": "b0d07c4b9493a043c626837986c638408c1189085f794c13c56adec92e3a97ea",
+              "excerpt": "丙午，復置樞密院，以維翰為中書令兼樞密使，事無大小，悉以委之。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -488,7 +838,7 @@
       "title": "改元开运并免征借",
       "summary": "大赦，将天福九年改为开运元年，免河北被契丹践踏地区秋税，停止征借钱帛，对多出钱者减徭或授官。",
       "year": 944,
-      "sortOrder": 22,
+      "sortOrder": 26,
       "precision": "day",
       "sourceDate": "天福九年七月辛未朔",
       "phase": "rule",
@@ -507,7 +857,7 @@
       "title": "命十五将分统北军",
       "summary": "以刘知远为北面都统、杜威为招讨，另部署景延广、符彦卿等十五将的军职抵契丹。",
       "year": 944,
-      "sortOrder": 23,
+      "sortOrder": 27,
       "precision": "day",
       "sourceDate": "开运元年八月辛丑",
       "phase": "rule",
@@ -519,6 +869,37 @@
           "originalSha256": "132df38a4ce844fa8e7035d6fa3ee480f0bb59bae6bfe4587a1ff3b3fc092b4f",
           "excerpt": "八月辛丑，命十五將以禦契丹，"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧史汉高祖纪记七月都统",
+          "year": 944,
+          "sourceDate": "旧晋纪八月辛丑；旧汉纪七月",
+          "summary": "旧晋纪和新晋纪、通鉴记八月任刘知远为北面都统，旧汉高祖纪在刘知远生平中记七月为都统；只保留任官月份差别，不把刘知远的实际出兵或临制权随虚名一并认定。",
+          "evidence": [
+            {
+              "chapterId": "old-v099",
+              "paragraphId": "old-v099-p5",
+              "originalRevision": 1,
+              "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
+              "excerpt": "七月，兼北面行營都統。"
+            },
+            {
+              "chapterId": "new-v09",
+              "paragraphId": "new-v09-p6",
+              "originalRevision": 1,
+              "originalSha256": "971b8721fbbe021648c6c6949e87a71e643b56fc54333ada708fd50dc6120ede",
+              "excerpt": "八月辛丑朔，劉知遠為北面行營都統，順德軍節度使杜威為都招討使。"
+            },
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p34",
+              "originalRevision": 1,
+              "originalSha256": "ab1b68dec256a1c51086e2a3a2704a046e1c6a49c9e1d4f74f8da6f92c7087f6",
+              "excerpt": "八月，辛丑朔，以河東節度使劉知遠為北面行營都統，順國節度使杜威為都招討使，督十三節度以備契丹。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -526,7 +907,7 @@
       "title": "罪己诏减宫廷与军器装饰",
       "summary": "针对粮、钱、兵、马征发的民困颁罪己诏，禁军器金银装饰、珍玩鹰犬贡奉，减御膳和宫中非理支出。",
       "year": 944,
-      "sortOrder": 24,
+      "sortOrder": 28,
       "precision": "day",
       "sourceDate": "开运元年十月戊午",
       "phase": "rule",
@@ -559,7 +940,7 @@
       "title": "受杨光远降而先赦之",
       "summary": "杨承勋囚父献青州，杨光远奉表请死，石重贵先下诏赦免；实际月份已跨西历945年。",
       "year": 945,
-      "sortOrder": 25,
+      "sortOrder": 29,
       "precision": "day",
       "sourceDate": "开运元年十二月丁巳；实际西历945年",
       "phase": "rule",
@@ -578,7 +959,7 @@
       "title": "改命便宜处置致光远被杀",
       "summary": "议者反对赦光远后，转命李守贞便宜处置，李守贞派人杀之并报病死；新史将杀记在十二月丁巳，旧史闰月癸酉奏卒。",
       "year": 945,
-      "sortOrder": 26,
+      "sortOrder": 30,
       "precision": "day",
       "sourceDate": "开运元年闰十二月癸酉奏报；实际西历945年",
       "phase": "rule",
@@ -606,6 +987,21 @@
               "excerpt": "丁巳，楊承勳囚其父光遠以降，殺之。"
             }
           ]
+        },
+        {
+          "label": "通鉴记闰月癸酉执行",
+          "year": 945,
+          "sourceDate": "开运元年闰十二月癸酉",
+          "summary": "通鉴明确记朝廷命李守贞便宜从事，闰月癸酉入青州后派人在别第杀杨光远并报病死；旧史癸酉为奏卒条、其内追叙杀事，新史附十二月丁巳杀，各书的执行与奏报叙次不合并。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p45",
+              "originalRevision": 1,
+              "originalSha256": "772b580dc81a66ef42fc18cdcfddb185ec82ccdd2a69d08a560a0b51b0ab080d",
+              "excerpt": "朝廷以楊光遠罪大，而諸子歸命，難於顯誅，命李守貞以便宜從事。閏月，癸酉，守貞入青州，遣人拉殺光遠於別第，以病死聞。"
+            }
+          ]
         }
       ]
     },
@@ -614,7 +1010,7 @@
       "title": "病后再亲征到澶州阅军",
       "summary": "开运二年初病愈，因河北告急下诏再亲征，二月至澶州、戚城阅军；不能把部将后来阳城之战写作其亲身参战。",
       "year": 945,
-      "sortOrder": 27,
+      "sortOrder": 31,
       "precision": "month",
       "sourceDate": "开运二年正月乙丑、二月甲戌及丙子",
       "phase": "rule",
@@ -633,6 +1029,23 @@
           "originalSha256": "aec46bfffa434aee41f175b0e192f4fec7f4de779faca2875a7e5a343eee06d3",
           "excerpt": "甲戌，幸澶州，以景延廣為隨駕馬步軍都鈐轄。丙子，大閱諸軍於戚城，帝親臨之。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴的发滑州与到澶州",
+          "year": 945,
+          "sourceDate": "开运二年二月甲戌、乙亥",
+          "summary": "旧史甲戌记幸澶州，通鉴甲戌记从滑州启程、乙亥到澶州；启程和抵达分别说明，丙子在戚城阅军不等于参加后来阳城战斗。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p59",
+              "originalRevision": 1,
+              "originalSha256": "89de7ebb3bc75d8b2716632b3063cefb8b17233088a758e39b7c0bf3aa1d3974",
+              "excerpt": "甲戌，帝發滑州；乙亥，至澶州。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -640,9 +1053,9 @@
       "title": "阳城军胜后回京赏功",
       "summary": "杜威等深入后回撤，缺粮缺水被围，李守贞和诸骑将奋战击败契丹；石重贵在四月回京并奖军功。两史记决定性交战日不同。",
       "year": 945,
-      "sortOrder": 28,
+      "sortOrder": 32,
       "precision": "month",
-      "sourceDate": "开运二年三月癸亥及四月庚寅",
+      "sourceDate": "开运二年三月癸亥战胜；四月甲申回京、庚寅奖功",
       "phase": "rule",
       "evidence": [
         {
@@ -658,6 +1071,13 @@
           "originalRevision": 1,
           "originalSha256": "34b48689f1cb735829200802658456d62e964dd92c6ccd3132ed2251851f1320",
           "excerpt": "庚寅，大賞軍功。"
+        },
+        {
+          "chapterId": "old-v083",
+          "paragraphId": "old-v083-p15",
+          "originalRevision": 1,
+          "originalSha256": "a1fde18dfbb65647ab4ecd982316fa45978e2c67615ef0bd9d1f4df1d0de9165",
+          "excerpt": "辛巳，駕發澶州。甲申，至京師，曲赦在京禁囚。"
         }
       ],
       "variants": [
@@ -683,7 +1103,7 @@
       "title": "接受新修唐书",
       "summary": "刘昫等呈新修《唐书》本纪、志、列传和目录共二百三卷，颁赐编修者。",
       "year": 945,
-      "sortOrder": 29,
+      "sortOrder": 33,
       "precision": "day",
       "sourceDate": "开运二年六月乙丑朔",
       "phase": "rule",
@@ -695,6 +1115,23 @@
           "originalSha256": "72b4c8dc75038e1be0bf4aa88d4ee2d16f19d679169ff714e784eaab16ea8975",
           "excerpt": "監修國史劉句、史官張昭遠等以新修《唐書》紀、誌、列傳並目錄凡二百三卷上之。賜器帛有差。"
         }
+      ],
+      "variants": [
+        {
+          "label": "会要的卷数记载",
+          "year": 945,
+          "sourceDate": "开运二年六月",
+          "summary": "旧史把本纪、志、列传与目录合计为二百三卷；会要记纪志列传二百二十卷、目录一卷、共二十帙。按底本分别展示卷数，不以现代通行本规模改写任一原记。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v018",
+              "paragraphId": "huiyao-v018-p22",
+              "originalRevision": 1,
+              "originalSha256": "45d18aba3ce76ea9d5df5cb776c2ca351e957c68f393284c97ada34f9b860489",
+              "excerpt": "至開運二年六月，史館上新修前朝李氏書，紀、志、列傳共二百二十卷，並目録一卷，都計二十帙。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -702,7 +1139,7 @@
       "title": "冯玉兼相与枢密",
       "summary": "罢和凝相位，让冯玉任中书侍郎、平章事，仍掌枢密；随后冯玉与桑维翰因任官产生嫌隙。",
       "year": 945,
-      "sortOrder": 30,
+      "sortOrder": 34,
       "precision": "day",
       "sourceDate": "开运二年八月丙寅任相，九月丁酉后记任官嫌隙",
       "phase": "rule",
@@ -728,7 +1165,7 @@
       "title": "外调桑维翰开封尹",
       "summary": "将桑维翰由中书令、枢密使改为开封尹，以李崧掌枢密；原书十二月丁亥实际已属946年。",
       "year": 946,
-      "sortOrder": 31,
+      "sortOrder": 35,
       "precision": "day",
       "sourceDate": "开运二年十二月丁亥；实际西历946年",
       "phase": "rule",
@@ -747,7 +1184,7 @@
       "title": "复清泰被夺官者爵官",
       "summary": "下诏恢复朱宏昭、冯赟、康义诚、王思同、药彦稠等在清泰朝被削夺的官爵，是追复，不是在世重新任职。",
       "year": 946,
-      "sortOrder": 32,
+      "sortOrder": 36,
       "precision": "day",
       "sourceDate": "开运三年七月戊午",
       "phase": "rule",
@@ -766,7 +1203,7 @@
       "title": "信赵延寿等诈降而议北征",
       "summary": "朝廷与赵延寿秘密通书，又信瀛州刘延祚献城之书，决定派大军接应；旧史明确这些是契丹诱军之计。",
       "year": 946,
-      "sortOrder": 33,
+      "sortOrder": 37,
       "precision": "month",
       "sourceDate": "开运三年三月、七月至九月",
       "phase": "rule",
@@ -778,6 +1215,23 @@
           "originalSha256": "0149dd477a3b482192294a64c1ce3c6d847198c395664c3df779be514396bcb0",
           "excerpt": "至是，瀛州守將劉延祚受契丹之命，詐輸誠款，以誘我軍，國家深以為信，遂有出師之議。"
         }
+      ],
+      "variants": [
+        {
+          "label": "会要提前至八月记迎降命",
+          "year": 946,
+          "sourceDate": "旧史九月信书、十月出师；会要八月",
+          "summary": "旧史记三月通书、七月得信、九月受瀛州诈款后议出师，十月任杜威等北征；会要在八月记瀛州刺史诈降和少帝命大军迎降。保留具体阶段及月份，不将诈降者的承诺当真实降城。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v029",
+              "paragraphId": "huiyao-v029-p9",
+              "originalRevision": 1,
+              "originalSha256": "4c2aafc4b2524eba636268d7b3a7a6fe0114616f98f05f6b9e11fd553c4ff98f",
+              "excerpt": "至三年八月，契丹所部瀛州刺史偽言納款，少帝復命杜重威等率大軍迎降。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -785,7 +1239,7 @@
       "title": "以杜威李守贞大举北征",
       "summary": "任杜威为北面招讨、李守贞为兵马都监，部署安审琦等出师；目标先取瀛鄚再复幽燕。",
       "year": 946,
-      "sortOrder": 34,
+      "sortOrder": 38,
       "precision": "day",
       "sourceDate": "开运三年十月辛未",
       "phase": "rule",
@@ -804,7 +1258,7 @@
       "title": "中渡桥主力全军降契丹",
       "summary": "北征军退至中渡被隔绝，王清战死后杜威、李守贞率诸军降契丹；石重贵数日后才闻讯，东京卫兵尽在北方。",
       "year": 947,
-      "sortOrder": 35,
+      "sortOrder": 39,
       "precision": "day",
       "sourceDate": "开运三年十二月十日；十六日闻降，实际西历947年",
       "phase": "fall",
@@ -816,6 +1270,23 @@
           "originalSha256": "608e79ea847e80132bb8eda3b753e001dbb232bc58584099e5240d283732819d",
           "excerpt": "壬申，始聞杜威、李守貞等以此月十日率諸軍降於契丹。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记丙寅降军",
+          "year": 947,
+          "sourceDate": "旧史十二月十日降、壬申闻报；通鉴十二月丙寅",
+          "summary": "旧史以十日记全军投降、十六日壬申闻报，通鉴将杜威出示降表、降军写在丙寅。丙寅为本月十日，两书这组纪日相合；不把少帝闻报日写为投降日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v285",
+              "paragraphId": "tongjian-v285-p69",
+              "originalRevision": 1,
+              "originalSha256": "c0b81933ff00b9cd812abdfc97fb24fccb2bac00ad62d25492d41ea427a43cc0",
+              "excerpt": "丙寅，伏甲召諸將，出降表示之，使署名。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -823,7 +1294,7 @@
       "title": "张彦泽入东京欲赴火被止",
       "summary": "张彦泽奉契丹命入东京，石重贵携剑与后妃欲投火，被薛超拦住；接契丹给太后信后灭火。",
       "year": 947,
-      "sortOrder": 36,
+      "sortOrder": 40,
       "precision": "day",
       "sourceDate": "开运三年十二月十七日癸酉；实际西历947年",
       "phase": "fall",
@@ -842,7 +1313,7 @@
       "title": "具降表献国宝金印",
       "summary": "召范质草降表，称孙男臣重贵，遣延煦、延宝奉国宝及金印，脱黄袍服素衫接受契丹命令。",
       "year": 947,
-      "sortOrder": 37,
+      "sortOrder": 41,
       "precision": "day",
       "sourceDate": "开运三年十二月癸酉；实际西历947年",
       "phase": "fall",
@@ -861,7 +1332,7 @@
       "title": "迁开封府受监守",
       "summary": "张彦泽将其与太后宫属迁开封府，派李荣监守；桑维翰当夜遇害，想迎契丹主也未获准。",
       "year": 947,
-      "sortOrder": 38,
+      "sortOrder": 42,
       "precision": "day",
       "sourceDate": "开运三年十二月甲戌；实际西历947年",
       "phase": "fall",
@@ -889,6 +1360,36 @@
               "excerpt": "壬申，張彥澤犯京師，殺開封尹桑維翰。契丹滅晉。"
             }
           ]
+        },
+        {
+          "label": "通鉴称李筠监守",
+          "year": 947,
+          "sourceDate": "开运三年十二月甲戌",
+          "summary": "旧史记控鹤指挥使李荣率兵监守，通鉴记控鹤指挥使李筠守帝。保留原书姓名，不因同一监守职位而自动合为一个人。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v285",
+              "paragraphId": "tongjian-v285-p75",
+              "originalRevision": 1,
+              "originalSha256": "4735f08557b29f72a72816c8aed0c467499969d6f1d5ef7e546f22f6be13370e",
+              "excerpt": "彥澤遣控鶴指揮使李筠以兵守帝，內外不通。"
+            }
+          ]
+        },
+        {
+          "label": "考异保留并质疑少帝命杀桑之说",
+          "year": 947,
+          "sourceDate": "开运三年十二月",
+          "summary": "考异引薛史说少帝担心桑维翰揭出拒和之过，命张彦泽杀桑；司马光认为张当时不会再听少帝命，故不采信。保留被质疑的说法和质疑本身，不据此坐实少帝指使。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v030",
+              "paragraphId": "kaoyi-v030-p37",
+              "originalRevision": 1,
+              "originalSha256": "3da111acab1f4193cb7280e0e55a9db5e185468cb0342a455b0d825d822a1b84",
+              "excerpt": "十二月彦澤殺桑維翰〈薛史帝思維翰在相時累貢謀畫請與虜和慮戎主到京則顯彰已過欲殺維翰以滅口因令張彦澤殺之按是時彦澤豈肯復從少帝之命今不取〉"
+            }
+          ]
         }
       ]
     },
@@ -897,7 +1398,7 @@
       "title": "降负义侯拟安置黄龙",
       "summary": "契丹主入东京后封负义侯，降为光禄大夫、检校太尉，令黄龙府安置。",
       "year": 947,
-      "sortOrder": 39,
+      "sortOrder": 43,
       "precision": "day",
       "sourceDate": "开运四年正月辛卯",
       "phase": "later",
@@ -914,9 +1415,9 @@
     {
       "id": "shi-chonggui-north-deportation",
       "title": "举族北迁黄龙府",
-      "summary": "与太后、生母、冯后及子弟北行，赵莹、冯玉等随行；沿途供给受阻，过中渡悲叹，至锦州被迫拜阿保机遗像，终于黄龙府。",
+      "summary": "与太后、生母、冯后及子弟北行，赵莹、冯玉等随行；沿途供给受阻，过中渡悲叹，至锦州被迫拜阿保机遗像，最终抵达黄龙府。",
       "year": 947,
-      "sortOrder": 40,
+      "sortOrder": 44,
       "precision": "day",
       "sourceDate": "开运四年正月癸卯起",
       "phase": "later",
@@ -935,7 +1436,7 @@
       "title": "迁往辽阳渐获供给",
       "summary": "被召赴怀密州途中，冯后欲求毒共死未果；因述律太后被永康王拘执，改驻辽阳，奉表贺永康王后渐获供给。",
       "year": 947,
-      "sortOrder": 41,
+      "sortOrder": 45,
       "precision": "month",
       "sourceDate": "开运四年六月",
       "phase": "later",
@@ -954,7 +1455,7 @@
       "title": "辽阳受接见而幼女被取",
       "summary": "与李太后到永康王帐中受慰问，但随从与皇子被带上陉，幼女亦被强取赐他人；不把慰劳写成恢复自由。",
       "year": 948,
-      "sortOrder": 42,
+      "sortOrder": 46,
       "precision": "month",
       "sourceDate": "汉乾祐元年四月及其后",
       "phase": "later",
@@ -966,6 +1467,23 @@
           "originalSha256": "0231f20dc649d58822e9df90412c9758b89380e034c9e7e566a39076fc9de505",
           "excerpt": "後數日，永康王馳取帝幼女而去，以賜綽諾錫裏。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴称赐女于禅奴",
+          "year": 948,
+          "sourceDate": "乾祐元年辽阳谒见之后，夺女未另给日",
+          "summary": "旧史先记禅奴舍利求女被拒，后记契丹主夺女赐绰诺锡里；通鉴称禅奴利求女被拒，随后夺女赐禅奴。保留原书人名与受赐者的不同，不把两个人自动合一。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p23",
+              "originalRevision": 1,
+              "originalSha256": "abbb58708ac910606af3211dc3249e46fd7b7d2b478ff14252d1ec75f248319a",
+              "excerpt": "有禪奴利者，契丹主之妻兄也，聞晉主有女未嫁，詣晉主求之，晉主辭以幼。後數日，契丹主使人馳取其女而去，以賜禪奴。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -973,7 +1491,7 @@
       "title": "赴建州分耕供食",
       "summary": "从辽阳赴建州，生母安氏途中病卒，携燼骨前行；建州割地后随行人员筑室分耕供养，宠姬又被取走。",
       "year": 949,
-      "sortOrder": 43,
+      "sortOrder": 47,
       "precision": "month",
       "sourceDate": "汉乾祐二年二月及其后",
       "phase": "later",
@@ -985,6 +1503,23 @@
           "originalSha256": "ce4ad8ce048153042f4fbca71ae5976fa86f2897bf7e974244c65d2fa2438834",
           "excerpt": "帝乃令一行人員於寨地內築室分耕，給食於帝。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴的田数与安太妃遗令",
+          "year": 949,
+          "sourceDate": "乾祐二年赴建州期间",
+          "summary": "旧史记割寨地五千余顷，通鉴记得田五十余顷，所记数量和范围各自保留，不推为统一实测田数。旧史记安太妃途中卒、焚骨后载行，通鉴另载其希望焚骨向南扬撒的遗令；遗愿不当作已全部实行的经过。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p83",
+              "originalRevision": 1,
+              "originalSha256": "6d9ccf297e417ef39f334149e7cf6e1f0e77bbbf276cd3cbac006a56762e668e",
+              "excerpt": "晉李太后詣契丹主，請依漢人城寨之側，給田以耕桑自贍。契丹主許之，並晉主遷於建州。未至，安太妃卒於路。遺令：「必焚我骨，南向揚之，庶幾魂魄歸達於漢。」既至建州，得田五十餘頃，晉主令從者耕其中以給食。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -992,7 +1527,7 @@
       "title": "李太后卒于北地",
       "summary": "北迁期间李太后去世，石重贵继续留建州。",
       "year": 950,
-      "sortOrder": 44,
+      "sortOrder": 48,
       "precision": "month",
       "sourceDate": "汉乾祐三年八月",
       "phase": "later",
@@ -1004,44 +1539,50 @@
           "originalSha256": "5f2737bb55905d346893abd6274a849b2230236c6fdad40964a69a89ada910da",
           "excerpt": "漢乾祐三年八月，太后薨。"
         }
+      ],
+      "variants": [
+        {
+          "label": "会要具体日",
+          "year": 950,
+          "sourceDate": "汉乾祐三年八月二十五日",
+          "summary": "旧史只记八月太后薨，会要补记八月二十五日卒于建州；这是随少帝北迁的李太后，不是生母安太妃。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p39",
+              "originalRevision": 1,
+              "originalSha256": "74d46cc15412b04b1ce9a11264790edc81d3122b0ef96060a430f92dcf07aee5",
+              "excerpt": "漢乾祐三年八月二十五日，崩于番中之建州。"
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "shi-chonggui-guangjin",
-      "title": "改广晋尹封齐王",
-      "summary": "高祖幸邺后改任广晋尹，进封齐王；新史还记前一阶段留守东京。",
+      "id": "shi-chonggui-adoption",
+      "title": "亲父早卒后被高祖收养",
+      "summary": "石敬儒早卒，石敬瑭以侄为子；本纪没有给收养年月，也不据此把其生父改成石敬瑭。",
       "year": null,
-      "sortOrder": 45,
-      "precision": "range",
-      "sourceDate": "天福六年，广晋改任、封齐王未独本次月日；传统年跨941—942年",
+      "sortOrder": 49,
+      "precision": "undated",
+      "sourceDate": "敬儒早卒后，未纪年",
       "phase": "uncertain",
       "evidence": [
         {
-          "chapterId": "old-v081",
-          "paragraphId": "old-v081-p1",
-          "originalRevision": 1,
-          "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
-          "excerpt": "六年，高祖幸鄴，改廣晉尹，進封齊王。"
-        },
-        {
           "chapterId": "new-v09",
-          "paragraphId": "new-v09-p3",
+          "paragraphId": "new-v09-p1",
           "originalRevision": 1,
-          "originalSha256": "785a62ab3b00e9f5f653e11da44776ac8c117a81ce70c06ae4d30bfa753f93ef",
-          "excerpt": "六年，高祖幸鄴，留守東京，已而為廣晉尹，徙封齊王。"
+          "originalSha256": "04b4b066339f63de58d416cf965c037f4dbb01ec7424812c467dc7fd4aefe4db",
+          "excerpt": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。"
         }
-      ],
-      "yearRange": {
-        "start": 941,
-        "end": 942
-      }
+      ]
     },
     {
       "id": "shi-chonggui-alive-xiande",
       "title": "显德初仍在建州",
       "summary": "来自塞北的汉人报告，他与冯后、诸子仍无恙、住建州，原从官和役使中逃归或死去者已过半。显德初未给唯一报告年。",
       "year": null,
-      "sortOrder": 46,
+      "sortOrder": 50,
       "precision": "undated",
       "sourceDate": "周显德初，未详单年",
       "phase": "uncertain",
@@ -1053,6 +1594,22 @@
           "originalSha256": "5f2737bb55905d346893abd6274a849b2230236c6fdad40964a69a89ada910da",
           "excerpt": "周顯德初，有漢人自塞北而至者，言帝與後及諸子俱無恙，猶在建州，其隨從職官役使人輩，自蕃中亡歸，物故者大半矣。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记显德中来人报告",
+          "sourceDate": "周显德中，未给具体报告年",
+          "summary": "旧史写显德初，有来者说帝、后及诸子无恙；通鉴写显德中，来者说晋主及冯后尚无恙。两书均为从北地来者的报告，不据初、中字样猜定一个报告年，亦不将此报道当作卒年。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v289",
+              "paragraphId": "tongjian-v289-p36",
+              "originalRevision": 1,
+              "originalSha256": "8718079d8eea37e1ec50e03e9d968505ffc1a4d76a948f9bdb52a3f28b513c94",
+              "excerpt": "周顯德中，有自契丹來者云：「晉主及馮後尚無恙，其從者亡歸及物故則過半矣。」"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1060,7 +1617,7 @@
       "title": "卒于北地，归档卒年记载待辨",
       "summary": "旧史夹注引范质书说先居黄龙、后居建州，凡十八年而卒；注者又以干支推至乾德二年，其中入汴年写丙午与本纪正月次年叙事不合，不据此强定单年。",
       "year": null,
-      "sortOrder": 47,
+      "sortOrder": 51,
       "precision": "undated",
       "sourceDate": "所引晋朝陷蕃记十八年；夹注推乾德二年",
       "phase": "uncertain",
@@ -1091,90 +1648,6 @@
               "excerpt": "契丹丙午歲入汴，順數至甲子歲為十八年，實太祖乾德二年也。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "shi-chonggui-adoption",
-      "title": "亲父早卒后被高祖收养",
-      "summary": "石敬儒早卒，石敬瑭以侄为子；本纪没有给收养年月，也不据此把其生父改成石敬瑭。",
-      "year": null,
-      "sortOrder": 48,
-      "precision": "undated",
-      "sourceDate": "敬儒早卒后，未纪年",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "new-v09",
-          "paragraphId": "new-v09-p1",
-          "originalRevision": 1,
-          "originalSha256": "04b4b066339f63de58d416cf965c037f4dbb01ec7424812c467dc7fd4aefe4db",
-          "excerpt": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。"
-        }
-      ]
-    },
-    {
-      "id": "shi-chonggui-zheng-prince",
-      "title": "任开封尹封郑王",
-      "summary": "天福三年十二月任开封尹、加检校太傅、封郑王，随后加太尉、同平章事；该月跨938至939年，无具体日不指定单年。",
-      "year": null,
-      "sortOrder": 49,
-      "precision": "range",
-      "sourceDate": "天福三年十二月；西历938–939年范围",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "old-v081",
-          "paragraphId": "old-v081-p1",
-          "originalRevision": 1,
-          "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
-          "excerpt": "三年十二月，授開封尹，加檢校太傅，封鄭王，增食邑三千戶。俄加檢校太尉、同中書門下平章事。"
-        }
-      ],
-      "yearRange": {
-        "start": 938,
-        "end": 939
-      }
-    },
-    {
-      "id": "shi-chonggui-yang-revolt",
-      "title": "防杨光远叛乱加驻郓州",
-      "summary": "杨光远谋叛时派蔡行遇屯郓，并沿河分区巡检；其后淄州奏光远取淄州，天福八年十二月跨943至944，具体报日未明。",
-      "year": null,
-      "sortOrder": 50,
-      "precision": "range",
-      "sourceDate": "天福八年十二月；西历943–944年范围",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "old-v082",
-          "paragraphId": "old-v082-p6",
-          "originalRevision": 1,
-          "originalSha256": "62fe199894d079aa2472319fa292ba6162509ff415ac31b57ea5ad83edad90ef",
-          "excerpt": "十二月乙巳朔，遣左領軍衛將軍蔡行遇押兵士屯於鄆州"
-        }
-      ],
-      "yearRange": {
-        "start": 943,
-        "end": 944
-      }
-    },
-    {
-      "id": "shi-chonggui-qiao-rong",
-      "title": "听景延广囚乔荣而后释放",
-      "summary": "景延广劝其囚契丹回图使乔荣、收邸中财货，通鉴并记晋境贸易契丹人被杀、财物被夺。大臣反对后乔荣获释并受慰赐；景延广对他的强硬言辞进一步加深契丹敌意，原段未另列唯一年。",
-      "year": null,
-      "sortOrder": 51,
-      "precision": "undated",
-      "sourceDate": "与契丹有隙后，戊子释放；段内未详年",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "tongjian-v283",
-          "paragraphId": "tongjian-v283-p73",
-          "originalRevision": 1,
-          "originalSha256": "bb60c0d76c9cf9a8bb9be41595e1c82858860578e3c8d97728b259fef94c393c",
-          "excerpt": "及契丹與晉有隙，景延廣說帝囚榮於獄，悉取邸中之貨。凡契丹之人販易在晉境者，皆殺之，奪其貨。大臣皆言契丹有大功於晉，不可負。戊子，釋榮，慰賜而歸之。"
         }
       ]
     }

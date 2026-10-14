@@ -144,5 +144,83 @@
         "originalSha256": "5709a16dd9d1eb391565efe6d07b71357470eb1664e83a2258a795818b85f0b9"
       }
     ]
+  },
+  {
+    "id": "shi-chonggui-gao-xingzhou-service",
+    "from": "shi-chonggui",
+    "to": "gao-xingzhou",
+    "kind": "service",
+    "label": "行营与禁军统领",
+    "note": "944年晋廷授高行周北面行营都部署，命留镇澶渊并便宜制置近地兵马，后任侍卫亲军都指挥使；据具体御辽军职与禁军任命登记。",
+    "sources": [
+      {
+        "chapterId": "old-v082",
+        "paragraphId": "old-v082-p7",
+        "title": "《旧五代史》卷 82 · 晋少帝纪2",
+        "excerpt": "庚辰，以宋州節度使高行周為北面行營都部署，"
+      },
+      {
+        "chapterId": "old-v082",
+        "paragraphId": "old-v082-p10",
+        "title": "《旧五代史》卷 82 · 晋少帝纪2",
+        "excerpt": "己酉，詔取今月八日車駕還京，令高行周、王周留鎮澶淵，近地兵馬委便宜制置。甲寅，至自澶州，曲赦京城大辟以下罪人。丁巳，升冀州為防禦使額。同、華奏，人民相食。己未，以右武衛上將軍張彥澤為右神武統軍。辛酉，以鄆州節度使、侍衛親軍都指揮使景延廣為西京留守；以宋州節度使高行周為侍衛親軍都指揮使；"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-zhao-zaili-service",
+    "from": "shi-chonggui",
+    "to": "zhao-zaili",
+    "kind": "service",
+    "label": "御辽军职",
+    "note": "944年晋廷授赵在礼马步军都虞候，945年正月诏其还屯澶州；依据具体行营军职和军令登记，不把之前事奉后唐的经历倒归石重贵。",
+    "sources": [
+      {
+        "chapterId": "old-v083",
+        "paragraphId": "old-v083-p2",
+        "title": "《旧五代史》卷 83 · 晋少帝纪3",
+        "excerpt": "徐州節度使趙在禮充馬步軍都虞候，"
+      },
+      {
+        "chapterId": "tongjian-v284",
+        "paragraphId": "tongjian-v284-p49",
+        "title": "《资治通鉴》卷 284 · 后晋纪5",
+        "excerpt": "春，正月，詔趙在禮還屯澶州，馬全節還鄴都；"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-liu-zhiyuan-service",
+    "from": "shi-chonggui",
+    "to": "liu-zhiyuan",
+    "kind": "service",
+    "label": "招讨与名义都统",
+    "note": "944年晋廷授刘知远幽州道行营招讨使、北面行营都统。旧汉纪记七月任都统，旧晋纪及通鉴记八月；通鉴记两次会兵逾期不至，并称都统实无临制权，分别保留官名、任月与实际指挥权限。",
+    "sources": [
+      {
+        "chapterId": "old-v082",
+        "paragraphId": "old-v082-p7",
+        "title": "《旧五代史》卷 82 · 晋少帝纪2",
+        "excerpt": "甲午，以北京留守劉知遠為幽州道行營招討使，以恒州節度使杜威副之，定州節度使馬全節為都虞候，其職員將校委招討使便宜署置。"
+      },
+      {
+        "chapterId": "old-v083",
+        "paragraphId": "old-v083-p2",
+        "title": "《旧五代史》卷 83 · 晋少帝纪3",
+        "excerpt": "北京留守劉知遠充北面行營都統，"
+      },
+      {
+        "chapterId": "old-v099",
+        "paragraphId": "old-v099-p5",
+        "title": "《旧五代史》卷 99 · 汉高祖纪1",
+        "excerpt": "七月，兼北面行營都統。"
+      },
+      {
+        "chapterId": "tongjian-v284",
+        "paragraphId": "tongjian-v284-p34",
+        "title": "《资治通鉴》卷 284 · 后晋纪5",
+        "excerpt": "契丹之入寇也，帝再命劉知遠會兵山東，皆後期不至。帝疑之，謂所親曰：「太原殊不助朕，必有異圖。果有分，何不速為之！」至是雖為都統，而實無臨制之權，密謀大計，皆不得預。"
+      }
+    ]
   }
 ]

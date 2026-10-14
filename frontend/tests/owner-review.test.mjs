@@ -21,7 +21,8 @@ beforeEach(clearEditorSession);
 afterEach(clearEditorSession);
 
 test('new authorized review subjects retain private route filters through a round trip', () => {
-  for (const personId of ['li-siyuan', 'guo-wei', 'shi-jingtang', 'liu-zhiyuan', 'liu-chengyou']) {
+  for (const personId of ['li-siyuan', 'guo-wei', 'shi-jingtang', 'liu-zhiyuan', 'liu-chengyou',
+    'shi-chonggui', 'li-conghou', 'li-congke', 'zhu-yougui', 'zhu-youzhen', 'chai-zongxun']) {
     const expected = { ...filters, personId, category: 'translation', status: 'retained', offset: 50 };
     assert.deepEqual(resolveOwnerReviewRoute(ownerReviewRoute(expected)), expected);
   }

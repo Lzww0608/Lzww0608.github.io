@@ -16,6 +16,24 @@ const personId='li-cunxin';
 const coverage={bookCount:library.catalog.books.length,chapterCount:library.chapters.length,paragraphCount:library.chapters.reduce((sum,chapter)=>sum+chapter.paragraphs.length,0)};
 const hash=text=>createHash('sha256').update(text).digest('hex');
 
+test('Shi Chonggui records separate source citations and chapter footnotes from his acts and later accounts', () => {
+  const current = loadPersonPassageIndex();
+  const associated = (person, id) => current.passages.some(p => p.spans.some(s => s.paragraphId === id)
+    && p.people.some(a => a.personId === person));
+  for (const id of ['kaoyi-v030-p23', 'kaoyi-v030-p30', 'kaoyi-v030-p34', 'new-v09-p10', 'new-v09-p11'])
+    assert.equal(associated('shi-chonggui', id), false, id);
+  for (const id of ['kaoyi-v030-p41', 'tongjian-v282-p108', 'tongjian-v282-p109', 'tongjian-v283-p22',
+    'tongjian-v288-p23', 'tongjian-v288-p83', 'tongjian-v289-p36', 'old-v112-p18',
+    'huiyao-v020-p3', 'huiyao-v020-p4', 'huiyao-v020-p5', 'huiyao-v020-p11', 'huiyao-v018-p29'])
+    assert.equal(associated('shi-chonggui', id), true, id);
+  const fatherNote = current.passages.find(p => p.spans.some(s => s.paragraphId === 'new-v09-p10'));
+  assert.ok(fatherNote);
+  assert.equal(associated('shi-jingtang', 'new-v09-p10'), true);
+  assert.equal(fatherNote.title.includes('晋出帝本纪'), false);
+  assert.ok(chapters.get('new-v09').paragraphs.find(p => p.id === 'new-v09-p11')?.translation?.text,
+    'excluding an irrelevant association preserves the full chapter and translation');
+});
+
 test('Liu Zhiyuan records distinguish cited book titles and Xiao Zhiyuan from source-bound deeds', () => {
   const index = loadPersonPassageIndex();
   const associated = id => index.passages.some(p => p.spans.some(s => s.paragraphId === id)

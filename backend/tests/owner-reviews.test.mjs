@@ -203,7 +203,8 @@ test('strict JS and SQL validation reject ambiguous filters, unsafe fields and i
 });
 
 test('the extended review scope supports authorized ruler subjects through narrow editor functions', async () => {
-  const requested = ['li-siyuan', 'guo-wei', 'shi-jingtang', 'liu-zhiyuan', 'liu-chengyou'];
+  const requested = ['li-siyuan', 'guo-wei', 'shi-jingtang', 'liu-zhiyuan', 'liu-chengyou',
+    'shi-chonggui', 'li-conghou', 'li-congke', 'zhu-yougui', 'zhu-youzhen', 'chai-zongxun'];
   const subjects = reviewSubjects.filter(subject => requested.includes(subject.id));
   assert.equal(subjects.length, requested.length);
   const input = {schemaVersion: 1, batchId: 'three-rulers-review-test', subjects,
