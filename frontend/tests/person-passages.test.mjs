@@ -16,6 +16,30 @@ const personId='li-cunxin';
 const coverage={bookCount:library.catalog.books.length,chapterCount:library.chapters.length,paragraphCount:library.chapters.reduce((sum,chapter)=>sum+chapter.paragraphs.length,0)};
 const hash=text=>createHash('sha256').update(text).digest('hex');
 
+test('Liu Zhiyuan records distinguish cited book titles and Xiao Zhiyuan from source-bound deeds', () => {
+  const index = loadPersonPassageIndex();
+  const associated = id => index.passages.some(p => p.spans.some(s => s.paragraphId === id)
+    && p.people.some(a => a.personId === 'liu-zhiyuan'));
+  for (const id of ['tongjian-v293-p80', 'old-v080-p13', 'kaoyi-v028-p10', 'kaoyi-v030-p39'])
+    assert.equal(associated(id), false, id);
+  for (const id of ['new-v10-p9', 'tongjian-v288-p68', 'tongjian-v286-p76', 'tongjian-v287-p47',
+    'tongjian-v287-p90', 'tongjian-v287-p96', 'tongjian-v288-p40', 'kaoyi-v030-p5', 'old-v102-p7', 'old-v102-p14'])
+    assert.equal(associated(id), true, id);
+});
+
+test('Liu Chengyou records exclude Pan Chengyou and cited titles while retaining specific court acts', () => {
+  const index = loadPersonPassageIndex();
+  const associated = id => index.passages.some(p => p.spans.some(s => s.paragraphId === id)
+    && p.people.some(a => a.personId === 'liu-chengyou'));
+  for (const id of ['tongjian-v282-p98', 'tongjian-v283-p53', 'tongjian-v283-p63', 'tongjian-v293-p23',
+    'kaoyi-v030-p30', 'kaoyi-v030-p48', 'kaoyi-v030-p50', 'kaoyi-v030-p57'])
+    assert.equal(associated(id), false, id);
+  for (const id of ['tongjian-v288-p40', 'tongjian-v288-p68', 'tongjian-v288-p92', 'tongjian-v289-p26',
+    'tongjian-v289-p45', 'tongjian-v289-p46', 'tongjian-v289-p50', 'tongjian-v289-p51',
+    'tongjian-v289-p61', 'kaoyi-v030-p58'])
+    assert.equal(associated(id), true, id);
+});
+
 test('reviewed rulers keep actual deeds and continuous edicts while excluding book names and other rulers', () => {
   const current = loadPersonPassageIndex();
   const associated = (personId, paragraphId) => current.passages.some(passage =>

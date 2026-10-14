@@ -202,10 +202,10 @@ test('strict JS and SQL validation reject ambiguous filters, unsafe fields and i
   await assert.rejects(pool.query('SELECT public.owner_review_list(NULL,NULL,NULL,NULL,0,0)'), error => error.code === 'PT400');
 });
 
-test('the extended review scope supports the three new subjects through narrow editor functions', async () => {
-  const requested = ['li-siyuan', 'guo-wei', 'shi-jingtang'];
+test('the extended review scope supports authorized ruler subjects through narrow editor functions', async () => {
+  const requested = ['li-siyuan', 'guo-wei', 'shi-jingtang', 'liu-zhiyuan', 'liu-chengyou'];
   const subjects = reviewSubjects.filter(subject => requested.includes(subject.id));
-  assert.equal(subjects.length, 3);
+  assert.equal(subjects.length, requested.length);
   const input = {schemaVersion: 1, batchId: 'three-rulers-review-test', subjects,
     items: subjects.map(subject => item('review-scope-'+subject.id, subject.id, {
       paragraphId: 'review-p2', translationId: null, translationVersion: null, translationSha256: null,
@@ -213,7 +213,7 @@ test('the extended review scope supports the three new subjects through narrow e
       category: 'source-note', status: 'checked', resolution: '原文与版本已在隔离测试中核对。'
     }))};
   const imported = await importing(input);
-  assert.equal(imported.inserted, 3);
+  assert.equal(imported.inserted, requested.length);
   for (const personId of requested) {
     const result = await editor.reviews(new URLSearchParams({personId}));
     assert.equal(result.total, 1);
@@ -221,7 +221,7 @@ test('the extended review scope supports the three new subjects through narrow e
     assert.ok(result.subjects.some(subject => subject.id === personId));
   }
   const repeated = await importing(input);
-  assert.equal(repeated.unchanged, 3);
+  assert.equal(repeated.unchanged, requested.length);
   assert.equal(repeated.inserted, 0);
   await verifyOwnerReviewPermissions(owner, {readerRole: reader, editorRole: role});
 });

@@ -23,6 +23,35 @@
       ]
     },
     {
+      "id": "liu-zhiyuan-desheng-rescue",
+      "title": "德胜换马救石敬瑭",
+      "summary": "同在李嗣源军中任职时，于德胜交战中把自己的坐骑让给遇险的石敬瑭，骑坏甲之马断后；通鉴编年将这次记载系于919年冬十月。",
+      "year": 919,
+      "sortOrder": 36,
+      "precision": "month",
+      "sourceDate": "通鉴系于梁贞明五年冬十月；新史本传本段未记年月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p5",
+          "originalRevision": 1,
+          "originalSha256": "3e00fcb88c691629a69eef1933e710bf01c0c58183e3184c1fadece01a0455f4",
+          "excerpt": "左射軍使石敬瑭與梁人戰於河壖，梁人擊敬瑭，斷其馬甲，橫衝兵馬使劉知遠以所乘馬授之，自乘斷甲者徐行為殿；"
+        },
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p1",
+          "originalRevision": 1,
+          "originalSha256": "bc8e0851f773aa0f4111a21d1fd36d6fde653046611d49326db1856b149a6e15",
+          "excerpt": "明宗及梁人戰德勝，晉高祖馬甲斷，梁兵幾及，知遠以所乘馬授之，復取高祖馬殿而還，高祖德之。"
+        }
+      ],
+      "notes": [
+        "新史本传未记具体年月；通鉴卷271第3段明列贞明五年己卯919，第4段进入冬十月，第5段载救马。不把德胜多年战事一概定于该月。"
+      ]
+    },
+    {
       "id": "liu-zhiyuan-weizhou",
       "title": "卫州护石敬瑭并杀闵帝随从",
       "summary": "石敬瑭与出奔的李从厚在卫州相遇，刘知远部署石敢防变，事发后率兵杀死闵帝随从；不是一般护卫任职。",
@@ -68,6 +97,30 @@
           "originalSha256": "c6a9d2faad7a7a6f2cedb8bbb0176e4cba86e2a396dc160c53b12e7aec605cf8",
           "excerpt": "高祖將舉兵，知遠與桑維翰密為高祖謀畫，贊成之。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记求援条件的劝谏",
+          "year": 936,
+          "sourceDate": "后唐清泰三年；求援契丹时",
+          "summary": "通鉴记刘知远赞成起兵，但反对向契丹行父礼及预先许地；石敬瑭不听。赞成起兵不等于同意全部求援条件。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v280",
+              "paragraphId": "tongjian-v280-p15",
+              "originalRevision": 1,
+              "originalSha256": "2fc84b516bb62493478ffc9e38ec4039d91c573388db906c3c4d381be21d0a79",
+              "excerpt": "都押牙劉知遠曰：「明公久將兵，得士卒心；今據形勝之地，士馬精強，若稱兵傳檄，帝業可成，奈何以一紙制書自投虎口乎！」"
+            },
+            {
+              "chapterId": "tongjian-v280",
+              "paragraphId": "tongjian-v280-p26",
+              "originalRevision": 1,
+              "originalSha256": "532c99945c4cb23099902c8f9b37675206c9181b7564e1e2a61acf1d69e4a5fc",
+              "excerpt": "劉知遠諫曰：「稱臣可矣，以父事之太過。厚以金帛賂之，自足致其兵，不必許以土田，恐異日大為中國之患，悔之無及。」敬瑭不從。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -86,6 +139,23 @@
           "originalRevision": 1,
           "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258",
           "excerpt": "及契丹以全軍赴難，大破張敬達之眾於晉陽城下，有降軍千餘人，晉高祖將置之於親衛，帝盡殺之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记劝石敬瑭杀降兵",
+          "year": 936,
+          "sourceDate": "后唐清泰三年九月辛丑之战后",
+          "summary": "旧史记刘知远将降军尽杀；通鉴则记石敬瑭得到唐降兵后，刘知远劝石敬瑭尽杀。劝杀与实际执行的叙法分别保留。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v280",
+              "paragraphId": "tongjian-v280-p31",
+              "originalRevision": 1,
+              "originalSha256": "0c889c503281363dd5852e245efb42cbd02adc011465a98e27a9603daeadb6a5",
+              "excerpt": "敬瑭得唐降兵千餘人，劉知遠勸敬瑭盡殺之。"
+            }
+          ]
         }
       ]
     },
@@ -113,6 +183,9 @@
           "originalSha256": "626daded44b8e92d9269d15b966b77784138dba30150938331aafadd7a68c258",
           "excerpt": "晉高祖入洛，委帝巡警，都邑肅然，無敢犯令。"
         }
+      ],
+      "notes": [
+        "936年适用于太原即位后授侍卫亲军都虞候、领保义军节度使；入洛后的巡警是随后阶段。通鉴将入洛系于天福元年闰十一月辛巳，实际已跨西历937年，不能把巡警也定为936年。"
       ]
     },
     {
@@ -290,6 +363,44 @@
           "originalSha256": "90f7bdbe62ef472eef21a9e8dc5a537b4571c5d8b1d88ae24c6a5a88db2e0f62",
           "excerpt": "三月，封太原王。七月，兼北面行營都統。"
         }
+      ],
+      "variants": [
+        {
+          "label": "北面都统任命记月不同",
+          "year": 944,
+          "sourceDate": "旧史晋出帝纪及通鉴记开运元年八月辛丑",
+          "summary": "旧史汉高祖纪记七月兼北面行营都统；同书晋出帝纪及通鉴均记八月辛丑任都统，新史晋出帝纪亦记八月辛丑，不合为同一确定月份。",
+          "evidence": [
+            {
+              "chapterId": "old-v083",
+              "paragraphId": "old-v083-p2",
+              "originalRevision": 1,
+              "originalSha256": "132df38a4ce844fa8e7035d6fa3ee480f0bb59bae6bfe4587a1ff3b3fc092b4f",
+              "excerpt": "八月辛丑，命十五將以禦契丹，"
+            },
+            {
+              "chapterId": "old-v083",
+              "paragraphId": "old-v083-p2",
+              "originalRevision": 1,
+              "originalSha256": "132df38a4ce844fa8e7035d6fa3ee480f0bb59bae6bfe4587a1ff3b3fc092b4f",
+              "excerpt": "北京留守劉知遠充北面行營都統，"
+            },
+            {
+              "chapterId": "tongjian-v284",
+              "paragraphId": "tongjian-v284-p34",
+              "originalRevision": 1,
+              "originalSha256": "ab1b68dec256a1c51086e2a3a2704a046e1c6a49c9e1d4f74f8da6f92c7087f6",
+              "excerpt": "八月，辛丑朔，以河東節度使劉知遠為北面行營都統，"
+            },
+            {
+              "chapterId": "new-v09",
+              "paragraphId": "new-v09-p6",
+              "originalRevision": 1,
+              "originalSha256": "971b8721fbbe021648c6c6949e87a71e643b56fc54333ada708fd50dc6120ede",
+              "excerpt": "八月辛丑朔，劉知遠為北面行營都統，"
+            }
+          ]
+        }
       ]
     },
     {
@@ -331,10 +442,10 @@
       ],
       "variants": [
         {
-          "label": "新史纪月及所得",
+          "label": "新史及旧史晋出帝纪记八月",
           "year": 946,
-          "sourceDate": "开运三年八月",
-          "summary": "新史记八月杀白承福等族，取财物和良马，与旧史五月不同。",
+          "sourceDate": "新史记八月；旧史晋出帝纪记开运三年八月癸酉",
+          "summary": "旧史汉高祖纪记开运三年五月；新史和旧史晋出帝纪则记八月。后两处还分别叙述财物、良马所得及史家所言贪利动机，各来源记月和措辞独立保留。",
           "evidence": [
             {
               "chapterId": "new-v10",
@@ -342,6 +453,35 @@
               "originalRevision": 1,
               "originalSha256": "d4d0193d1a2a9aecf637f4adbc1f1dfb840d610ef67c0bd83b0cf0ae03bd743f",
               "excerpt": "八月，殺吐渾白承福等族，取其貲鉅萬，良馬數千。"
+            },
+            {
+              "chapterId": "old-v084",
+              "paragraphId": "old-v084-p17",
+              "originalRevision": 1,
+              "originalSha256": "ee580606b20941fb9b4628981ed06a27d139b0a3fc793f9c663285ab009269d7",
+              "excerpt": "癸酉，河東節度使劉知遠奏，誅吐渾大首領白承福、白鐵匱、赫連海龍等，並夷其族凡四百口，蓋利其孳畜財寶也，人皆冤之。"
+            }
+          ]
+        },
+        {
+          "label": "通鉴记郭威劝杀及诬叛过程",
+          "year": 946,
+          "sourceDate": "通鉴系于开运三年八月",
+          "summary": "通鉴记郭威劝杀白承福取财供军，刘知远随后遣郭威诱其入太原，诬称五族谋叛而围杀。原书的诬叛、杀害与夺财记述保留，不把各书全部归并为同一动机说明。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v285",
+              "paragraphId": "tongjian-v285-p43",
+              "originalRevision": 1,
+              "originalSha256": "0303eaa7c8ff1e7d157c4f96ad2af658f55f4e29be9383c4015c7399f9735083",
+              "excerpt": "威勸知遠誅之，收其貨以贍軍。"
+            },
+            {
+              "chapterId": "tongjian-v285",
+              "paragraphId": "tongjian-v285-p43",
+              "originalRevision": 1,
+              "originalSha256": "0303eaa7c8ff1e7d157c4f96ad2af658f55f4e29be9383c4015c7399f9735083",
+              "excerpt": "知遠遣威誘承福等入居太原城中，因誣承福等五族謀叛，以兵圍而殺之，合四百口，籍沒其家貲。"
             }
           ]
         }
@@ -545,7 +685,7 @@
     {
       "id": "liu-zhiyuan-kill-congyi",
       "title": "杀李从益和王淑妃",
-      "summary": "进入中原时，李从益及其母王淑妃在东京被赐死；年表不把被契丹扶立的李从益说成刘知远所立。",
+      "summary": "刘知远进入中原时，下令在东京杀李从益及其母王淑妃；旧史记赐死，通鉴及阙文还记郭从义奉密旨执行。年表不把契丹所立的李从益说成刘知远所立，也不写成刘知远亲自执行。",
       "year": 947,
       "sortOrder": 21,
       "precision": "day",
@@ -558,6 +698,44 @@
           "originalRevision": 1,
           "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
           "excerpt": "六月丙辰，次河陽，[1]殺李從益及其母于京師。"
+        },
+        {
+          "chapterId": "old-v100",
+          "paragraphId": "old-v100-p3",
+          "originalRevision": 1,
+          "originalSha256": "db5a3c4a433a0e39a8239c701c806f61e232ac988263c776a41ee61f842aca3a",
+          "excerpt": "丙辰，車駕至洛，兩京文武百僚自新安相次奉迎。郇國公李從益、唐明宗淑妃王氏皆賜死於東京。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "驻地与执行者的叙法",
+          "year": 947,
+          "sourceDate": "天福十二年六月丙辰；阙文未独记日",
+          "summary": "新史记刘知远次河阳时在京师杀李从益母子；旧史及通鉴记当日到洛阳。通鉴、阙文明确郭从义先入京师奉密旨执行，驻地与执行过程分别按各书保留。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p25",
+              "originalRevision": 1,
+              "originalSha256": "50158238a2e04c62bce70017b463555d758f2ca07d41303ecd68527c1b079579",
+              "excerpt": "丙辰，帝至洛陽，入居宮中，汴州百官奉表來迎。"
+            },
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p25",
+              "originalRevision": 1,
+              "originalSha256": "50158238a2e04c62bce70017b463555d758f2ca07d41303ecd68527c1b079579",
+              "excerpt": "命鄭州防禦使郭從義先入大梁清宮，密令殺李從益及王淑妃。"
+            },
+            {
+              "chapterId": "quewen-v001",
+              "paragraphId": "quewen-v001-p33",
+              "originalRevision": 1,
+              "originalSha256": "e3006a1f0876da3b22d4a966f80748f8acf9c628b03aff54d7879f721269a768",
+              "excerpt": "漢高祖自太原起軍建號，至洛陽，命郭從義先入京師，受密旨，殺王淑妃與許王從益。"
+            }
+          ]
         }
       ]
     },
@@ -727,6 +905,23 @@
           "originalSha256": "ffc58c5fea33c1355280a4ddb3cc7a4410ed5386423261baa1efff1ba3bcd51d",
           "excerpt": "丙午，詔都部署高行周督眾攻城，帝登高阜以觀之，時眾議未欲攻擊，副部署慕容彥超堅請攻之。是日，王師傷夷者萬餘人，不克而退。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴分别记受伤和死亡人数",
+          "year": 947,
+          "sourceDate": "天福十二年十月丙午",
+          "summary": "旧史以“伤夷者万余人”总记；通鉴分记受伤万余、死亡千余，不能将两种人数口径视为相同的伤亡总数。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p60",
+              "originalRevision": 1,
+              "originalSha256": "6649e489dec37191fbae1c17e1668149eaf477c447e34fef02b3b2043a3bc474",
+              "excerpt": "丙午，親督諸將攻城，自寅至辰，士卒傷者萬餘人，死者千餘人，不克而止。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -767,6 +962,28 @@
               "originalRevision": 1,
               "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
               "excerpt": "十一月壬申，杜重威降。"
+            }
+          ]
+        },
+        {
+          "label": "通鉴请降表与出城日",
+          "year": 948,
+          "sourceDate": "天福十二年十一月甲戌请降、丁丑出降，实际西历948年",
+          "summary": "旧史记壬申上表请命，新史在壬申直记投降；通鉴则记甲戌奉表请降、丁丑开门出降。丁丑出城与主证一致，请降表日仍分别保留。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p62",
+              "originalRevision": 1,
+              "originalSha256": "1c66768c8852376459ae027a6ea66506158cb99a0a97e3739154340e42a35e50",
+              "excerpt": "及食竭力盡，甲戌，遣敏奉表出降。"
+            },
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p62",
+              "originalRevision": 1,
+              "originalSha256": "1c66768c8852376459ae027a6ea66506158cb99a0a97e3739154340e42a35e50",
+              "excerpt": "丁丑，重威開門出降，"
             }
           ]
         }
@@ -824,6 +1041,23 @@
           "originalRevision": 1,
           "originalSha256": "883b2ba01ada4c859c63dacc29c9cfd33576a0188aaacbf2915bdcc50af888fd",
           "excerpt": "丙戌，車駕發鄴都歸京。癸巳，至自鄴都。甲午，以皇子開封尹承訓薨。廢朝三日，追封魏王。丁酉，帝舉哀於太平宮。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要记承训追封在二月",
+          "year": 947,
+          "sourceDate": "会要记天福十二年二月追封",
+          "summary": "旧史在十二月甲午记刘承训去世、追封魏王；会要宗室条作天福十二年二月追封，记月不同，保留两书原记而不暗改为十二月。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v002",
+              "paragraphId": "huiyao-v002-p9",
+              "originalRevision": 1,
+              "originalSha256": "a1fc2b841fe61e6410d49d1b0b2dbed911bbfe37e49631fd2303dce5fb1ad221",
+              "excerpt": "漢高祖長子承訓，魏王；〈天福十二年二月追封。〉"
+            }
+          ]
         }
       ]
     },
@@ -906,11 +1140,35 @@
           "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
           "excerpt": "漢祖召蘇逢吉、楊邠、史宏肇入受顧命，曰：「承祐幼弱，後事托在卿輩。」又曰：「善防杜重威。」"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴顾命所列大臣",
+          "year": 948,
+          "sourceDate": "乾祐元年正月丁丑",
+          "summary": "旧史此段夹引契丹国志列苏逢吉、杨邠、史宏肇受顾命；通鉴另列郭威，与旧史周太祖纪所记郭威同受顾命相参。各书列人不同仍分别展示。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v287",
+              "paragraphId": "tongjian-v287-p89",
+              "originalRevision": 1,
+              "originalSha256": "6c4ecaa6b50244ebcdf978532a0653b3492bc33b562d6703cd9923ddef6ee598",
+              "excerpt": "帝召蘇逢吉、楊邠、史弘肇、郭威入受顧命，曰：「餘氣息微，不能多言。承祐幼弱，後事托在卿輩。」"
+            },
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p4",
+              "originalRevision": 1,
+              "originalSha256": "4525c55faa252c78f546ab52a6ea5aaeab65a300859ea67f4483c4eafcc66d37",
+              "excerpt": "乾祐元年春，漢高祖不豫，及大漸，與蘇逢吉等同受顧命。"
+            }
+          ]
+        }
       ]
     },
     {
       "id": "liu-zhiyuan-burial",
-      "title": "谥高祖并葬睿陵",
+      "title": "上谥定庙号并葬睿陵",
       "summary": "二月发丧并奉遗制立刘承祐，同月上谥号及庙号高祖；十一月葬睿陵。",
       "year": 948,
       "sortOrder": 35,
@@ -924,25 +1182,20 @@
           "originalRevision": 1,
           "originalSha256": "1919ffd9d4fcda2a4af6ead5acd7fd802bba98bc7444d1d539cc5d6251d53cb4",
           "excerpt": "二月辛巳朔，內降遺制，皇子周王承祐可於柩前即皇帝位。是日發哀。其年二月，太常卿張昭上謚曰睿文聖武昭肅孝皇帝，廟號高祖。十一月壬申，葬於睿陵，宰臣蘇禹珪撰謚冊、哀冊文云。"
-        }
-      ]
-    },
-    {
-      "id": "liu-zhiyuan-desheng-rescue",
-      "title": "德胜换马救石敬瑭",
-      "summary": "同在李嗣源军中任偏将时，于德胜交战中把自己的坐骑让给遇险的石敬瑭，骑坏甲之马断后；本传未记该次战斗的年月。",
-      "year": null,
-      "sortOrder": 36,
-      "precision": "undated",
-      "sourceDate": "李嗣源称帝前；德胜对垒",
-      "phase": "uncertain",
-      "evidence": [
+        },
         {
           "chapterId": "new-v10",
-          "paragraphId": "new-v10-p1",
+          "paragraphId": "new-v10-p9",
           "originalRevision": 1,
-          "originalSha256": "bc8e0851f773aa0f4111a21d1fd36d6fde653046611d49326db1856b149a6e15",
-          "excerpt": "明宗及梁人戰德勝，晉高祖馬甲斷，梁兵幾及，知遠以所乘馬授之，復取高祖馬殿而還，高祖德之。"
+          "originalSha256": "4b023d1afbdf0b50970741f4fbfbfff882d90a26ea947abab542d0efa1c71392",
+          "excerpt": "壬申，葬睿文聖武昭肅孝皇帝于睿陵。"
+        },
+        {
+          "chapterId": "tongjian-v288",
+          "paragraphId": "tongjian-v288-p68",
+          "originalRevision": 1,
+          "originalSha256": "52c10150bcc7f8a916650763e4db879b67e1c6e8fa0968010f958b8ff40d4801",
+          "excerpt": "壬申，葬睿文聖武昭肅孝皇帝於睿陵，廟號高祖。"
         }
       ]
     },
@@ -986,7 +1239,31 @@
       "yearRange": {
         "start": 938,
         "end": 939
-      }
+      },
+      "variants": [
+        {
+          "label": "旧史晋高祖纪及通鉴记四年三月",
+          "year": 939,
+          "sourceDate": "后晋天福四年三月己未",
+          "summary": "旧史汉高祖纪在天福三年十二月记同制加恩及辞命；同书晋高祖纪及通鉴则在四年三月己未记刘知远与杜重威同加同平章事，通鉴并叙其闭门辞命。异年记月各自保留，不将调宋州与同制加相衔合为同一日。",
+          "evidence": [
+            {
+              "chapterId": "old-v078",
+              "paragraphId": "old-v078-p5",
+              "originalRevision": 1,
+              "originalSha256": "c96d8752f3ebaf89b4fd0e7aaae12e4d11b79aa2d9e34ed662c9de3f04deec7b",
+              "excerpt": "己未，皇子開封尹鄭王重貴、歸德軍節度使兼侍衛親軍馬步軍都指揮使劉知遠、忠武軍節度使杜重威，並加同中書門下平章事。"
+            },
+            {
+              "chapterId": "tongjian-v282",
+              "paragraphId": "tongjian-v282-p11",
+              "originalRevision": 1,
+              "originalSha256": "816fae6f8fa9daa887cf2d0086f01765da3c7fafe8b161efda5ac35a391623fb",
+              "excerpt": "己未，詔歸德節度使劉知遠、忠武節度使杜重威並加同平章事。知遠自以有佐命功，重威起於外戚，無大功，恥與之同制。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

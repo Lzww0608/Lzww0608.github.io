@@ -36,6 +36,21 @@
               "excerpt": "辛卯，群臣上表，請以三月九日誕聖日為嘉慶節。從之。"
             }
           ]
+        },
+        {
+          "label": "会要出生日期及地点",
+          "year": 931,
+          "sourceDate": "后唐长兴二年三月九日",
+          "summary": "旧史开篇记三月七日生于邺都，会要记三月九日生于太原；旧史后文的嘉庆节又用三月九日。日期、出生地各依原书保留，不拿节日纪日替换主证。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p11",
+              "originalRevision": 1,
+              "originalSha256": "bba6bc0fe6d513c89616db057c1a42d75be5f07c0647c2cc01fe48ea42eca704",
+              "excerpt": "長興二年三月九日。生於太原。〈以其日為嘉慶節。〉"
+            }
+          ]
         }
       ]
     },
@@ -55,6 +70,37 @@
           "originalRevision": 1,
           "originalSha256": "ff5ec46e78c794f1a2657280c137b7132701b2701d6f7f89b72231174fa33d71",
           "excerpt": "二月辛巳，授特進、檢校太尉、同平章事，封周王。宣制畢，有頃，召文武百僚赴萬歲殿內，降大行皇帝遺制，云：「周王承祐，可於柩前即皇帝位。服紀日月，一依舊制。」是日，內外發哀成服。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "春秋将诛杜威连记即位条",
+          "year": 948,
+          "sourceDate": "乾祐元年二月辛巳",
+          "summary": "春秋在二月辛巳即位条连记诛杜威；旧史高祖纪则在正月庚辰秘丧阶段记其被杀，新史亦先记高祖死、秘丧杀杜再封承祐即位。不据春秋概括认定承祐即位当天亲自诛杜。",
+          "evidence": [
+            {
+              "chapterId": "chunqiu-v002",
+              "paragraphId": "chunqiu-v002-p23",
+              "originalRevision": 1,
+              "originalSha256": "3efa2cdac9b25db89a667b4e6d7bbf80a6d2f8a3839dc2abdc61dba019ee5179",
+              "excerpt": "戊申元年二月辛巳，帝卽位，誅杜威。"
+            },
+            {
+              "chapterId": "old-v100",
+              "paragraphId": "old-v100-p12",
+              "originalRevision": 1,
+              "originalSha256": "8f20593e8ef9c4d1bfdcf81b2bf6a03dcb65d4d301675a9eea20a0ffbf4a8818",
+              "excerpt": "二十七日丁丑，帝崩於萬歲殿，時年五十四。秘不發喪。庚辰，太傅杜重威伏誅。"
+            },
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p8",
+              "originalRevision": 1,
+              "originalSha256": "ec0aba75c4f7db7a3747214f0006b491f3cdd84deff4feab999e0beb5670fc5c",
+              "excerpt": "未及封而高祖崩，祕不發喪，殺杜重威。"
+            }
+          ]
         }
       ]
     },
@@ -201,6 +247,37 @@
           "originalSha256": "1ab19726cbafa0a574e583546f41a89ba6feb4037fb8ba84c05560a6dac9c021",
           "excerpt": "壬午，命樞密使郭威赴河中府軍前，詔河府、永興、鳳翔行營諸軍，一稟威節制。時李守貞、王景崇、趙思綰連衡作叛"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧史周纪与考异的西征任命叙次",
+          "year": 948,
+          "sourceDate": "旧周纪七月十三日授职即遣西征、八月六日离京；考异取八月壬午受命",
+          "summary": "旧史周太祖纪把加同平章事与遣西征连记于七月，另记八月六日离京。考异据汉、周实录认为七月加官制词无西征之言，至八月壬午才受命出征；与汉本纪主证相参，授职、受命和离京不合成同一日。",
+          "evidence": [
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p4",
+              "originalRevision": 1,
+              "originalSha256": "4525c55faa252c78f546ab52a6ea5aaeab65a300859ea67f4483c4eafcc66d37",
+              "excerpt": "其月十三日，制授帝同平章事，即遣西征，以安慰招撫為名，詔西面諸軍，並取帝節度。"
+            },
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p4",
+              "originalRevision": 1,
+              "originalSha256": "4525c55faa252c78f546ab52a6ea5aaeab65a300859ea67f4483c4eafcc66d37",
+              "excerpt": "八月六日，帝發離京師。"
+            },
+            {
+              "chapterId": "kaoyi-v030",
+              "paragraphId": "kaoyi-v030-p47",
+              "originalRevision": 1,
+              "originalSha256": "3889b9302ef8fe6f4ec76fd7b7bc64c04cf20164a92460acfd55cd57b70eedfb",
+              "excerpt": "按漢隱帝周太祖實録七月加平章事制詞無西征之言至八月壬午方受命出征蓋薛史之誤"
+            }
+          ]
+        }
       ]
     },
     {
@@ -225,7 +302,7 @@
     {
       "id": "liu-chengyou-bury-father",
       "title": "葬父睿陵",
-      "summary": "为高祖奉葬睿陵，继续父亲宗庙礼制。",
+      "summary": "在高祖刘知远灵驾启行后奉葬睿陵；本条日期只指十一月壬申的葬事，不把随后宗庙奉神主之礼也定在当天。",
       "year": 948,
       "sortOrder": 10,
       "precision": "day",
@@ -238,6 +315,13 @@
           "originalRevision": 1,
           "originalSha256": "18946012ff489024a51e7d6fd318d3ea8202eea3501c36874bc68d1e5194cbd3",
           "excerpt": "壬申，葬高祖皇帝於睿陵。"
+        },
+        {
+          "chapterId": "tongjian-v288",
+          "paragraphId": "tongjian-v288-p68",
+          "originalRevision": 1,
+          "originalSha256": "52c10150bcc7f8a916650763e4db879b67e1c6e8fa0968010f958b8ff40d4801",
+          "excerpt": "壬申，葬睿文聖武昭肅孝皇帝於睿陵，廟號高祖。"
         }
       ]
     },
@@ -309,7 +393,24 @@
           "originalRevision": 1,
           "originalSha256": "79bfe9d3cc695e66211b9a11e321eb3652643ef0b0b05e6f741ab37bc4438c12",
           "excerpt": "乙丑，永興趙思綰遣牙將劉成詣闕乞降，制授趙思綰華州節度留後、檢校太保，以永興城內都指揮使常彥卿為虢州刺史。"
+        },
+        {
+          "chapterId": "old-v102",
+          "paragraphId": "old-v102-p12",
+          "originalRevision": 1,
+          "originalSha256": "6949a4caa6729b9a6baf84895b93f6ac562ab5a6dd648ff5ebb0c188980c4f3b",
+          "excerpt": "思綰欲於十一日夜與同惡五百人奔南山入蜀。"
+        },
+        {
+          "chapterId": "old-v102",
+          "paragraphId": "old-v102-p12",
+          "originalRevision": 1,
+          "originalSha256": "6949a4caa6729b9a6baf84895b93f6ac562ab5a6dd648ff5ebb0c188980c4f3b",
+          "excerpt": "臣尋與王峻入城，分兵守四門，其趙思綰部下軍，各已執帶，遂至牙署，令趙思綰至則執之，與一行徒黨，並處置訖。"
         }
+      ],
+      "notes": [
+        "五月乙丑是请降与制授记录的日期；摘要中的拖延及被杀为后续七月处置，不是五月同日。七月奏报又称当月三日授华州留后，照原书各处记载保留，不合为唯一授诏日。"
       ]
     },
     {
@@ -353,7 +454,7 @@
         {
           "label": "新史归于郭威",
           "year": 949,
-          "sourceDate": "乾祐二年七月丁巳",
+          "sourceDate": "新史记乾祐二年七月丁巳",
           "summary": "新史称郭威杀赵思绾，旧史以郭从义与王峻入城拘捕的奏报记载；不改写为皇帝亲杀。",
           "evidence": [
             {
@@ -362,6 +463,28 @@
               "originalRevision": 1,
               "originalSha256": "25ab70d89c92889dcbdc706934843d97e4db69c90bf5e904d73360424559e3ef",
               "excerpt": "秋七月丁巳，郭威殺華州留後趙思綰于京兆。"
+            }
+          ]
+        },
+        {
+          "label": "通鉴实际执行日与准许者",
+          "year": 949,
+          "sourceDate": "乾祐二年七月壬子",
+          "summary": "旧史以丁巳郭从义奏报记此案，新史同日归杀事于郭威；通鉴记壬子郭从义与王峻入城拘杀，并明记此前密白郭威获准。奏报日与执行日以及主将、执行者分别展示，不改写成帝亲自下令或亲杀。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p91",
+              "originalRevision": 1,
+              "originalSha256": "4ad4b4378e0d4ce9f59a78db1881557ec77fcf5f3a58dd8042c73373f4977139",
+              "excerpt": "從義等疑之，密白郭威，請圖之，威許之。"
+            },
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p91",
+              "originalRevision": 1,
+              "originalSha256": "4ad4b4378e0d4ce9f59a78db1881557ec77fcf5f3a58dd8042c73373f4977139",
+              "excerpt": "壬子，從義與都監、南院宣徽使王峻按轡入城，處於府捨，召思綰酌別，因執之，並常彥卿及其父兄部曲三百人，皆斬於市。"
             }
           ]
         }
@@ -384,6 +507,30 @@
           "originalSha256": "6949a4caa6729b9a6baf84895b93f6ac562ab5a6dd648ff5ebb0c188980c4f3b",
           "excerpt": "甲子，樞密使郭威奏，收復河中府，逆賊李守貞自燔而死。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴执行日与春秋月份用字",
+          "year": 949,
+          "sourceDate": "通鉴七月壬戌；春秋系于六月",
+          "summary": "旧史甲子为郭威奏报日；通鉴记壬戌李守贞一家自焚、郭威入城。春秋则在六月概括为郭威克河中、诛李守正，保留该书月份、名字写法及诛字，不据其概括改成隐帝亲攻或确定李守贞被斩。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p92",
+              "originalRevision": 1,
+              "originalSha256": "ecf7902b5876bd0bc17392723c2f13d4f3b98427c85956923ad025c9e4d9f995",
+              "excerpt": "壬戌，李守貞與妻及子崇勳等自焚，威入城，"
+            },
+            {
+              "chapterId": "chunqiu-v002",
+              "paragraphId": "chunqiu-v002-p24",
+              "originalRevision": 1,
+              "originalSha256": "fb59490bdb52db92324efc38b9fc2b75517becde5e5bb4c820df54af58ec182f",
+              "excerpt": "六月癸酉朔，日有食之。郭威克河中，誅李守正。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -402,6 +549,23 @@
           "originalRevision": 1,
           "originalSha256": "6949a4caa6729b9a6baf84895b93f6ac562ab5a6dd648ff5ebb0c188980c4f3b",
           "excerpt": "辛卯，右拾遺高守瓊上言：「仕官年未三十，請不除授縣令。」詔：「起今後諸色選人，年及七十者，宜註優散官；年少未歷資考者，不得註擬縣令。」"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要纪敕为八月",
+          "year": 949,
+          "sourceDate": "乾祐二年八月",
+          "summary": "旧史在七月辛卯记该诏，会要记二年八月；两书诏文同样只说年及七十予优散、年少未历资考不得拟县令，不把奏者未三十建议写成皇帝统一硬门槛。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v022",
+              "paragraphId": "huiyao-v022-p26",
+              "originalRevision": 1,
+              "originalSha256": "3cdb0b08179eedbb3ab3f45736b55e3f663a14e33d2bbfdb74db7f8f7f319f56",
+              "excerpt": "漢乾祐二年八月敕：「今後諸色選人，年及七十者，宜注優散官；年少未歷資考者，不得任注縣令。」"
+            }
+          ]
         }
       ]
     },
@@ -425,6 +589,30 @@
       ],
       "notes": [
         "郭威上奏、朝议扩大到诸藩的缘由见同一完整原段。"
+      ],
+      "variants": [
+        {
+          "label": "新旧史加相官名次序",
+          "year": 949,
+          "sourceDate": "平关西后；新史未在本段独记日",
+          "summary": "旧史记窦贞固加守司徒、苏逢吉加守司空；新史周纪记窦贞固司空、苏逢吉司徒。两书都记由郭威推功而普赏内外，但具体官名分别保留，不互换底本文字。",
+          "evidence": [
+            {
+              "chapterId": "old-v102",
+              "paragraphId": "old-v102-p13",
+              "originalRevision": 1,
+              "originalSha256": "7e4edddb29d2f864acd8324ca8c071416bccd730ca376441c024f3862ff859b3",
+              "excerpt": "辛亥，宰臣竇貞固加守司徒，蘇逢吉加守司空，"
+            },
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p5",
+              "originalRevision": 1,
+              "originalSha256": "ba896f8a1dc9da0cffcc960948bda55f264e16f4fe83511be6cd98a78d1dba81",
+              "excerpt": "於是加貞固司空，逢吉司徒，禹珪、邠左右僕射。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -469,6 +657,30 @@
           "originalRevision": 1,
           "originalSha256": "47c10dbc72b7751670025918760d4cf3f0f2b149f6c66ac540dc5ed2c60bb219",
           "excerpt": "三年春正月，西面行營都部署趙暉克鳳翔。〈景崇自焚死，故不書伏誅。〉"
+        }
+      ],
+      "variants": [
+        {
+          "label": "春秋克城记月与诛字",
+          "year": 950,
+          "sourceDate": "乾祐二年十二月",
+          "summary": "春秋记十二月赵晖克凤翔、诛王景崇；旧史次年奏报记前月二十四日克城且王景崇举族自焚，新史汉纪亦称景崇自焚。战果概括的诛字不据以改成皇帝亲杀或将领实际斩杀。",
+          "evidence": [
+            {
+              "chapterId": "chunqiu-v002",
+              "paragraphId": "chunqiu-v002-p24",
+              "originalRevision": 1,
+              "originalSha256": "fb59490bdb52db92324efc38b9fc2b75517becde5e5bb4c820df54af58ec182f",
+              "excerpt": "十二月，趙暉克鳳翔，誅王景崇。"
+            },
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p11",
+              "originalRevision": 1,
+              "originalSha256": "47c10dbc72b7751670025918760d4cf3f0f2b149f6c66ac540dc5ed2c60bb219",
+              "excerpt": "三年春正月，西面行營都部署趙暉克鳳翔。〈景崇自焚死，故不書伏誅。〉"
+            }
+          ]
         }
       ]
     },
@@ -545,6 +757,30 @@
           "originalRevision": 1,
           "originalSha256": "cec533148f1271bb6107d70ee1766f01576eae7afc13d71fb3255e475e629ea6",
           "excerpt": "每戶月出錢五百，並以管內中等戶充。錄事參軍、判司俸錢，視州界令佐，取其多者給之，其俸戶與免縣司差役。」從之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要同日俸额不同",
+          "year": 950,
+          "sourceDate": "乾祐三年七月十六日（旧史七月辛巳）",
+          "summary": "会要同日规定三千户以上县令十二千、主簿六千，二千以上至三千以下县令九千、主簿五千；旧史本纪对应档为十千/八千、八千/五千。二千以下六千/四千一致，各书俸额和对录事、判司的完整规定分列，不拼成统一数表。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v028",
+              "paragraphId": "huiyao-v028-p28",
+              "originalRevision": 1,
+              "originalSha256": "78c78527a9fdfdaefb0ab2db22a55cb733d6cf413d4cc0ab61d76fe259f3d513",
+              "excerpt": "三千戶以上縣，令逐月一十二千，主簿六千；二千戶以上至三千戶以下縣，令九千，主簿五千；二千戶以下縣，令六千，主簿四千。"
+            },
+            {
+              "chapterId": "old-v103",
+              "paragraphId": "old-v103-p8",
+              "originalRevision": 1,
+              "originalSha256": "cec533148f1271bb6107d70ee1766f01576eae7afc13d71fb3255e475e629ea6",
+              "excerpt": "縣三千戶已上，令月十千，主簿八千；二千戶已上，令月八千，主簿五千；二千戶已下，令月六千，主簿四千。"
+            }
+          ]
         }
       ]
     },
@@ -654,6 +890,21 @@
               "excerpt": "已殺害其忠良，方奏聞於少主，無辜受戮，有口稱冤。而又潛差使臣，矯賫宣命，謀害樞密使郭威、宣徽使王峻、侍衛步軍都指揮使王殷等。"
             }
           ]
+        },
+        {
+          "label": "旧周纪记李业等前夜发密诏",
+          "year": 950,
+          "sourceDate": "乾祐三年十一月十三日杀臣的前一夕；十三日收到",
+          "summary": "旧史周太祖纪明确李业等在杀三臣前一夕遣密诏，李洪义十三日收到；旧汉纪称帝在丙子杀三臣同日遣诏、丁丑收到，太后事后诰又称矫命。发遣者与发收日各按出处保存，不把众将称非圣意当事实定论。",
+          "evidence": [
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p8",
+              "originalRevision": 1,
+              "originalSha256": "d9f4a6f9eb48964a4b51973fb80abd4485175291df1f5e0c354bbed25bcfb298",
+              "excerpt": "是月十三日旦，群小等害史宏肇等。前一夕，李業等遣腹心賫密詔至澶州，令李洪義殺王殷，又令護聖左廂都指揮使郭崇等害帝於鄴城。十三日，洪義受得密詔，恐事不濟，乃以密詔示王殷，"
+            }
+          ]
         }
       ]
     },
@@ -674,6 +925,26 @@
           "originalSha256": "b852aa90ebf5322e5a0d4ae9bf1364efafc3271805f75b476c85cfcd09e73b16",
           "excerpt": "業等命劉銖誅郭威、王峻之家，銖極其慘毒，嬰孺無免者。命李洪建誅王殷之家，洪建但使人守視，仍飲食之。"
         }
+      ],
+      "variants": [
+        {
+          "label": "新史周纪将郭家被诛放在示奏之后",
+          "year": 950,
+          "sourceDate": "乾祐三年十一月；该段未独记族诛日",
+          "summary": "新史周紀在隐帝将郭威奏章给李业等看、李业等声称郭反之后叙诛郭家，未在此单独说明刘铢执行。通鉴另明确李业等命刘铢屠郭威、王峻家，并记李洪建未杀王殷家，时序和责任叙法分别保存。",
+          "evidence": [
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "隱帝得威奏，以示業等，業等皆言威反狀已白，乃悉誅威家屬于京師。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "这是任内近臣的具体动作。郭威、王峻家被杀与王殷家受护是不同家属，不把家属处置和帝密诏诛将合为一事。"
       ]
     },
     {
@@ -699,6 +970,52 @@
           "originalRevision": 1,
           "originalSha256": "73b93bec5f587908edd3f15e5611d65e22ab75630767340f4f7cb1fc3791e571",
           "excerpt": "翌日，郭威以眾南行。戊寅，鄴兵至澶州。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史起兵渡河与旧史首途叙次",
+          "year": 950,
+          "sourceDate": "新史十一月丁丑；旧史丁丑泄诏、翌日南行",
+          "summary": "新史周纪称丁丑郭威举兵渡河；旧汉纪丁丑记收到并示密诏，随后写翌日郭威南行、戊寅邺兵至澶。出发、渡河及到澶记事层级分别保留，不将不同动作合成同一日期。",
+          "evidence": [
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "十一月丁丑，威遂舉兵渡河，"
+            },
+            {
+              "chapterId": "old-v103",
+              "paragraphId": "old-v103-p13",
+              "originalRevision": 1,
+              "originalSha256": "73b93bec5f587908edd3f15e5611d65e22ab75630767340f4f7cb1fc3791e571",
+              "excerpt": "翌日，郭威以眾南行。戊寅，鄴兵至澶州。"
+            }
+          ]
+        },
+        {
+          "label": "旧史周纪十四日首途、十六日到澶",
+          "year": 950,
+          "sourceDate": "乾祐三年十一月十四日首途、十六日到澶",
+          "summary": "旧周纪十四日郭威收到京师变乱与密诏，随即首途，十六日到澶；旧汉纪丁丑十四日泄诏、翌日南行、戊寅十五日到澶。新周纪又记丁丑举兵渡河，发遣、首途、渡河、抵达各按实际篇章保持，不拼成唯一行军日程。",
+          "evidence": [
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p8",
+              "originalRevision": 1,
+              "originalSha256": "d9f4a6f9eb48964a4b51973fb80abd4485175291df1f5e0c354bbed25bcfb298",
+              "excerpt": "十四日，帝方與宣徽使王峻坐議邊事，忽得洪義文字，遽歸牙署，峻亦未知其事。"
+            },
+            {
+              "chapterId": "old-v110",
+              "paragraphId": "old-v110-p8",
+              "originalRevision": 1,
+              "originalSha256": "d9f4a6f9eb48964a4b51973fb80abd4485175291df1f5e0c354bbed25bcfb298",
+              "excerpt": "眾然之，遂請帝南行，帝即嚴駕首途。十六日，至澶州，王殷迎謁慟哭。"
+            }
+          ]
         }
       ]
     },
@@ -771,6 +1088,44 @@
           "originalSha256": "afc9500b146af8b5b72c02c7aba5582f4eb3fd4d3f963fcd65a948ef1d376bb5",
           "excerpt": "是夜，帝與宰臣從官宿於野次，侯益、焦繼勛潛奔鄴軍。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴骑兵指挥人名",
+          "year": 951,
+          "sourceDate": "乾祐三年十一月甲申",
+          "summary": "旧汉纪写郭威命何福进、王彦超、李筠合骑；通鉴写郭崇威与李荣率骑拒慕容彦超。记载各自保留，不凭同一战役拼出唯一军阵或把这些将领当隐帝部将。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v289",
+              "paragraphId": "tongjian-v289-p59",
+              "originalRevision": 1,
+              "originalSha256": "fe023e5e30e7d78e2a8ef623b5bad8c444021d061f859014a19b63f58a23b2c2",
+              "excerpt": "慕容彥超引輕騎直前奮擊，郭崇威與前博州刺史李榮帥騎兵拒之。"
+            }
+          ]
+        },
+        {
+          "label": "新史周纪原记甲辰",
+          "sourceDate": "乾祐三年十一月，原书作甲辰；未将该干支换为可信西历日",
+          "summary": "新史周纪原作甲辰，汉纪作甲申。该年十一月甲子朔，甲辰无法对应原记十一月内的有效日期，因此保留原书字样，不据以确定西历日。旧周纪的二十一日与甲申是同一天。",
+          "evidence": [
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "甲辰，及泰寧軍節度使慕容彥超戰于劉子陂，彥超敗，奔于兗州。"
+            },
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p11",
+              "originalRevision": 1,
+              "originalSha256": "47c10dbc72b7751670025918760d4cf3f0f2b149f6c66ac540dc5ed2c60bb219",
+              "excerpt": "甲申，勞軍于劉子陂。慕容彥超及郭威戰，敗績，"
+            }
+          ]
+        }
       ]
     },
     {
@@ -796,7 +1151,7 @@
           "label": "通鉴称赵村为乱兵所弑",
           "year": 951,
           "sourceDate": "乾祐三年十一月乙酉；实际西历951年",
-          "summary": "旧史明确郭允明持刃弑帝，通鉴说追兵至赵村民家后被乱兵所弑，郭允明与苏逢吉等自杀。",
+          "summary": "旧汉纪明确郭允明持刃弑帝；通鉴记到赵村民家后被乱兵弑，并在考异说明未必郭允明，具体行凶者不明。郭允明自杀不等于据此坐实他就是杀帝者，各来源分别保留。",
           "evidence": [
             {
               "chapterId": "tongjian-v289",
@@ -804,6 +1159,50 @@
               "originalRevision": 1,
               "originalSha256": "fe023e5e30e7d78e2a8ef623b5bad8c444021d061f859014a19b63f58a23b2c2",
               "excerpt": "帝回轡，西北至趙村，追兵已至，帝下馬入民家，為亂兵所弒。蘇逢吉、閻晉卿、郭允明皆自殺。"
+            },
+            {
+              "chapterId": "kaoyi-v030",
+              "paragraphId": "kaoyi-v030-p54",
+              "originalRevision": 1,
+              "originalSha256": "957346e927015ccb184e83119c2cc522924b9b79f4e2cf5da616d04c997f432a",
+              "excerpt": "按弑帝者未必是允明但莫知為誰故止云亂兵"
+            }
+          ]
+        },
+        {
+          "label": "新史及会要记郭允明于赵村弑帝",
+          "year": 951,
+          "sourceDate": "会要乾祐三年十一月二十二日；新史此句未独列日",
+          "summary": "新史周纪及会要具体记郭允明在赵村弑帝，与旧汉纪的西北村舍叙法相参；通鉴在同地不落实行凶者。元化门、玄化门及各处叙法沿各书保留，不据同处文字推出郭威亲手杀帝。",
+          "evidence": [
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "郭允明反，弒隱帝于趙村。"
+            },
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p11",
+              "originalRevision": 1,
+              "originalSha256": "bba6bc0fe6d513c89616db057c1a42d75be5f07c0647c2cc01fe48ea42eca704",
+              "excerpt": "三年十一月二十二日，為左右郭允明弑於京北之趙村。"
+            }
+          ]
+        },
+        {
+          "label": "阙文概括于刘子陂遇害",
+          "year": 951,
+          "sourceDate": "郭威自邺起兵后；阙文未独记死亡日",
+          "summary": "阙文概括汉隐帝兵败遇害于刘子陂，其他本纪分述先在刘子陂交战、再退至村舍遇弑。保留阙文概括地点，不用战地代替其他书中最后遇害地点。",
+          "evidence": [
+            {
+              "chapterId": "quewen-v001",
+              "paragraphId": "quewen-v001-p38",
+              "originalRevision": 1,
+              "originalSha256": "8bf0a64bc1ec5f5fa25f6365dffc5060dc278ee0e2ca72a3cfdea44cf344ed47",
+              "excerpt": "又周祖自鄴起兵赴闕，漢隱帝兵敗，遇害於劉子陂。"
             }
           ]
         }
@@ -826,6 +1225,93 @@
           "originalSha256": "25074431e219ee9033d8cf7a05128528b7f67c31369b833eeeff1e4e66fead2b",
           "excerpt": "是月十五日，周太祖與百僚詣帝殯宮，成服親奠，不視朝七日。又詔太常定謚曰「隱」。以其年八月二日，復遣前宗正卿劉皞護靈盾，備儀仗，葬於許州陽翟縣之潁陵，祔神主於高祖之寢宮。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧周纪六月上谥与八月发引",
+          "year": 951,
+          "sourceDate": "广顺元年六月己亥上谥、八月辛卯发引",
+          "summary": "旧汉纪在正月郭威即位后记定谥隐，旧周纪另在六月己亥记上谥及陵号。八月辛卯实际是八月二日，与主证同日，但周纪具体记灵柩发引、郭威临奠，不冒充另一个葬日。",
+          "evidence": [
+            {
+              "chapterId": "old-v111",
+              "paragraphId": "old-v111-p5",
+              "originalRevision": 1,
+              "originalSha256": "3c7379351187d4e8351f2d69ce607111ced7d4488b125dd3c1d2aa27ec6d761c",
+              "excerpt": "己亥，太常少卿劉悅上漢少帝謚曰隱皇帝，陵曰穎陵，從之。"
+            },
+            {
+              "chapterId": "old-v111",
+              "paragraphId": "old-v111-p6",
+              "originalRevision": 1,
+              "originalSha256": "f3822fbefb6534c54887ff3d225ac5fc990a0b82b03bbfdca612eb9eb3b15e20",
+              "excerpt": "八月辛卯，漢隱帝梓宮發引，帝詣太平宮臨奠，詔群臣出祖於西郊。"
+            }
+          ]
+        },
+        {
+          "label": "会要五月追谥、八月十二日葬",
+          "year": 951,
+          "sourceDate": "广顺元年五月及八月十二日",
+          "summary": "会要追谥记在五月，葬日为八月十二日，与旧汉纪正月定谥、八月二日葬以及旧周纪六月上谥不同；按原书分别列述，不暗改底本日数。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p11",
+              "originalRevision": 1,
+              "originalSha256": "bba6bc0fe6d513c89616db057c1a42d75be5f07c0647c2cc01fe48ea42eca704",
+              "excerpt": "周廣順元年五月，追諡曰隱帝，其年八月十二日，葬穎陵"
+            }
+          ]
+        },
+        {
+          "label": "通鉴原记八月壬戌葬",
+          "year": 951,
+          "sourceDate": "广顺元年秋八月壬戌，保留原书干支",
+          "summary": "通鉴原记秋八月壬戌葬隐帝，与旧汉纪八月二日、会要十二日各自保留。壬戌无法对应原记八月内的有效日期，因此保留原书字样，不据以确定西历日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v290",
+              "paragraphId": "tongjian-v290-p56",
+              "originalRevision": 1,
+              "originalSha256": "bb145be16e018274ad48b27398cdfb55a427e2345883fbdf3673d032dea0732a",
+              "excerpt": "葬漢隱帝於穎陵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-chengyou-taiyuan-office",
+      "title": "父镇太原时任节院使",
+      "summary": "刘知远镇太原期间署其为节院使，累至检校尚书右仆射；本传未记任命的具体年。",
+      "year": null,
+      "sortOrder": 35,
+      "precision": "range",
+      "sourceDate": "高祖镇太原后、汉国建立前；按父河东任职及建汉时序限定941–947",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v101",
+          "paragraphId": "old-v101-p1",
+          "originalRevision": 1,
+          "originalSha256": "9ac3c6a052c9c292fe2d4609e2a91b8095bb9f2204ea4365ea95001ae064f70b",
+          "excerpt": "高祖鎮太原，署節院使，累官至檢校尚書右僕射。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "dc4a84c4bd4d6843cb5afd16eebe5a9126171eb87fc9054cf5074b3669ca5060",
+          "excerpt": "六年七月，授北京留守、河東節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 941,
+        "end": 947
+      },
+      "notes": [
+        "941–947为依据父亲天福六年七月正式任河东、以及本传随后国初授职所限定的上下文范围，不是承祐授节院使的独立任命年，仍不指定某年某月。"
       ]
     },
     {
@@ -867,25 +1353,6 @@
         "start": 947,
         "end": 948
       }
-    },
-    {
-      "id": "liu-chengyou-taiyuan-office",
-      "title": "父镇太原时任节院使",
-      "summary": "刘知远镇太原期间署其为节院使，累至检校尚书右仆射；本传未记任命的具体年。",
-      "year": null,
-      "sortOrder": 37,
-      "precision": "undated",
-      "sourceDate": "高祖镇太原时，汉国建立前",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "old-v101",
-          "paragraphId": "old-v101-p1",
-          "originalRevision": 1,
-          "originalSha256": "9ac3c6a052c9c292fe2d4609e2a91b8095bb9f2204ea4365ea95001ae064f70b",
-          "excerpt": "高祖鎮太原，署節院使，累官至檢校尚書右僕射。"
-        }
-      ]
     }
   ]
 }
