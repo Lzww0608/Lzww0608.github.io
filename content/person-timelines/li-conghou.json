@@ -65,7 +65,45 @@
       ],
       "phase": "service",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "明宗逐年本纪记正月任河南尹",
+          "year": 927,
+          "sourceDate": "天成二年正月癸酉；十一月庚申加太傅",
+          "summary": "闵帝概传记四月任河南尹，明宗逐年本纪在正月癸酉记同一任命，十一月庚申又记加太傅。保留正月与四月的不同，不把后来的加官与首次任河南尹合成一日。",
+          "evidence": [
+            {
+              "chapterId": "old-v038",
+              "paragraphId": "old-v038-p3",
+              "originalRevision": 1,
+              "originalSha256": "71c86644a4e6716fcbfef962cb1e2fdbf5d6ac2f529c4cb4ab23bdf44b415ef2",
+              "excerpt": "癸酉，第三子金紫光祿大夫、檢校司徒從厚加檢校太保、同平章事、河南尹，判六軍諸衛事。"
+            },
+            {
+              "chapterId": "old-v038",
+              "paragraphId": "old-v038-p1",
+              "originalRevision": 1,
+              "originalSha256": "9d87b1c57668e7956817a8e6cda6a379c9ef48f4de24ec5889ed550184fa1fe7",
+              "excerpt": "天成二年春正月癸丑朔，"
+            },
+            {
+              "chapterId": "old-v038",
+              "paragraphId": "old-v038-p2",
+              "originalRevision": 1,
+              "originalSha256": "d2d007adea21b78236ab12c70573a9f2f6b1661d1d6617e8fff8956568ffdbb5",
+              "excerpt": "丙辰，詔：「端明殿學士班位宜在翰林學士之上，今後如有轉改，隻於翰林學士內選任。」先是，端明殿學士班在翰林學士之下，又如三館例，官在職上，趙鳳轉侍郎日，諷宰相府移之。既而禁林序列有不可之言，安重誨奏行此敕，時論便之。癸亥，宰臣鄭玨加特進、門下侍郎兼太微宮使；崇文館大學士任圜加光祿大夫、門下侍郎、監修國史；以端明殿學士、尚書兵部侍郎馮道為中書侍郎、平章事、集賢殿大學士；以太常卿崔協為中書侍郎、平章事。戊辰，以前鄧州節度使劉玘卒，廢朝。左拾遺李同上言：「天下係囚，請委長吏逐旬親自引問，質其罪狀真虛，然後論之以法，庶無枉濫。」從之。"
+            },
+            {
+              "chapterId": "old-v038",
+              "paragraphId": "old-v038-p19",
+              "originalRevision": 1,
+              "originalSha256": "9546ad66fffaa7b548ddabdd8be2cf59502930af1e13d4df40716dafc05a05af",
+              "excerpt": "庚申，皇子河中節度使、檢校太保、同平章事從珂，鄴都留守、檢校太保、同平章事從榮，河南尹、判六軍諸衛事、檢校太保、同平章事從厚，並加檢校太傅，進爵邑。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-conghou-bianzhou",
@@ -91,15 +129,167 @@
       ],
       "phase": "service",
       "precision": "month",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "variants": [
+        {
+          "label": "逐年明宗纪与通鉴记四月",
+          "year": 928,
+          "sourceDate": "天成三年四月丙戌",
+          "summary": "旧闵帝纪记三月授汴州，旧明宗纪及通鉴在四月丙戌记任宣武（汴州）且仍判六军诸卫。保留概传月份与逐年记事，不改底本为同月。",
+          "evidence": [
+            {
+              "chapterId": "old-v039",
+              "paragraphId": "old-v039-p5",
+              "originalRevision": 1,
+              "originalSha256": "96f8b17ebd42ae6338ce6abdaefeb18eec997da32ccc590c8621285d97be2ed1",
+              "excerpt": "丙戌，樞密使安重誨兼河南尹；以皇子河南尹、判六軍諸衛事從厚為汴州節度使，判六軍如故。"
+            },
+            {
+              "chapterId": "tongjian-v276",
+              "paragraphId": "tongjian-v276-p41",
+              "originalRevision": 1,
+              "originalSha256": "1b1721f69ff3c846051b5864716a5c5a9f531d7424116c9d7cf2c141d533ce12",
+              "excerpt": "丙戌，以樞密使安重誨兼河南尹，以河南尹從厚為宣武節度使，仍判六軍諸衛事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-conghou-marriage",
+      "year": 929,
+      "title": "娶孔循之女为妃",
+      "summary": "通鉴在天成三年十一月庚寅记纳孔循女为妃，按该书已在出镇宣武之后，日期已跨西历929年。孔循借此赴大梁，婚礼后被催归镇。新史将孔循嫁女、安重诲发怒、罢孔与从厚出镇概叙，未单列婚日，不强解两书叙次一致。",
+      "sourceDate": "天成三年十一月庚寅（通鉴记纳妃）",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p74",
+          "originalRevision": 1,
+          "originalSha256": "04bf5d12b6fec37245094b00a52ae293a77f5c321d50c6c0e890cc5716ddfbed",
+          "excerpt": "庚寅，皇子從厚納孔循女為妃，循因之得之大梁，厚結王德妃之黨，乞留。安重誨具奏其事，力排之，禮畢，促令歸鎮。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p71",
+          "originalRevision": 1,
+          "originalSha256": "8c86eb0ecf72e1f6d9a88bfcc99ccc910e06ab2215520d09f6ce75f4d4da89f3",
+          "excerpt": "十一月，有司請為哀帝位廟，詔立廟於曹州。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p29",
+          "originalRevision": 1,
+          "originalSha256": "598831e7c5aa188af13b9c7c9a9b43cfd6d5bd29033d82e1c6226ffd5078582f",
+          "excerpt": "明宗聖德和武欽孝皇帝中之上天成三年（戊子，公元九二八年）"
+        },
+        {
+          "chapterId": "new-v07",
+          "paragraphId": "new-v07-p1",
+          "originalRevision": 1,
+          "originalSha256": "108f72768406e878360b6b7f61c815a449a8dbca874f09735fea00424174cee4",
+          "excerpt": "從厚妃，孔循女也，安重誨怒循以女妻從厚，三年，罷循樞密使，出從厚為宣武軍節度使。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p37",
+          "originalRevision": 1,
+          "originalSha256": "7626cb76fc4b3bcb8754670cac47e912c83bbc93bb2df5442adcfd4e0ca6fed5",
+          "excerpt": "閔帝皇后孔氏。〈初封魯國夫人。"
+        }
+      ],
+      "phase": "service",
+      "precision": "day",
+      "sortOrder": 4,
+      "notes": [
+        "确日按通鉴本卷年标、十一月标及庚寅承接校历，仅用于其记载的纳妃；孔循被罢、从厚出镇不挪到该婚日，也不凭新史连叙把通鉴婚礼提前。"
+      ]
+    },
+    {
+      "id": "li-conghou-hedong",
+      "year": 929,
+      "title": "移镇河东",
+      "summary": "从汴州移领河东，北京（北都）留守；旧明宗纪及通鉴明确四月壬子任命，原未分月的概传记法保留。",
+      "sourceDate": "天成四年四月壬子",
+      "evidence": [
+        {
+          "chapterId": "old-v040",
+          "paragraphId": "old-v040-p4",
+          "originalRevision": 1,
+          "originalSha256": "de23e23f73f5fb528839eb982a155dfb45f268bf6b0216e5316f71d67a1e0437",
+          "excerpt": "壬子，以皇子北京留守、河東節度使從榮為河南尹，判六軍諸衛事；以皇子河南尹、判六軍諸衛事從厚為北京留守；"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p95",
+          "originalRevision": 1,
+          "originalSha256": "484dde45972a6c530bf5d3a52afa70a66f87ad10f7f15d4a0f8c8e7982f09514",
+          "excerpt": "壬子，以皇子從榮為河南尹、判六軍諸衛事，從厚為河東節度使、北都留守。"
+        },
+        {
+          "chapterId": "old-v045",
+          "paragraphId": "old-v045-p3",
+          "originalRevision": 1,
+          "originalSha256": "34a7904a223560e673599a14b7be0bf5461b4a10d241213ea10d832266ab5452",
+          "excerpt": "四年，移鎮河東。"
+        },
+        {
+          "chapterId": "new-v07",
+          "paragraphId": "new-v07-p1",
+          "originalRevision": 1,
+          "originalSha256": "108f72768406e878360b6b7f61c815a449a8dbca874f09735fea00424174cee4",
+          "excerpt": "明年，徙鎮河東。"
+        }
+      ],
+      "phase": "service",
+      "precision": "day",
+      "sortOrder": 5,
+      "notes": [
+        "本传只记天成四年，逐年明宗纪和通鉴另记四月壬子。"
+      ]
     },
     {
       "id": "li-conghou-song-prince",
       "year": 930,
       "title": "移镇成德，封宋王",
-      "summary": "改任镇州节度使，获封宋王；会要明确记封王在八月。",
-      "sourceDate": "长兴元年；《会要》八月",
+      "summary": "六月丁巳移领镇州（成德），八月丙辰封宋王，十一月甲子命使到镇州册命。移镇、封王与后来册命分步骤；不把三项都定为八月。",
+      "sourceDate": "长兴元年六月丁巳移镇；八月丙辰封王；十一月甲子遣使册命",
       "evidence": [
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p13",
+          "originalRevision": 1,
+          "originalSha256": "424801a9b93e0b9b0be0240eee34cf54b4c7ae6c93e1ecf6458f7474947afd7d",
+          "excerpt": "丁巳，皇子北京留守、河東節度使從厚移領鎮州，以左武衛上將軍李從溫為許州節度使。"
+        },
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p16",
+          "originalRevision": 1,
+          "originalSha256": "0bc1d2af30ecc6c804391823eb033110aacd23f850ec00084645e98bfb6a811f",
+          "excerpt": "丙辰，皇子鎮州節度使從厚封宋王，仍令擇日冊命。"
+        },
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p19",
+          "originalRevision": 1,
+          "originalSha256": "853334cbae19709081c5b7272fe27c34d9dbfe988c642489c7beff9f7b4f9b37",
+          "excerpt": "甲子，正衙命使冊皇子宋王於鎮州。"
+        },
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p1",
+          "originalRevision": 1,
+          "originalSha256": "63c129cb857fa5922d53df56bd1590b38ce2e363173cdf0c1e1de39d9a30865c",
+          "excerpt": "長興元年春正月丙寅朔，"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p32",
+          "originalRevision": 1,
+          "originalSha256": "008c537d8f0e392097cdb11afdd8fae23be5ad70441adf27b2fb2766eed55331",
+          "excerpt": "立皇子從榮為秦王；丙辰，立從厚為宋王。"
+        },
         {
           "chapterId": "old-v045",
           "paragraphId": "old-v045-p3",
@@ -124,7 +314,43 @@
       ],
       "phase": "service",
       "precision": "month",
-      "sortOrder": 4
+      "sortOrder": 6
+    },
+    {
+      "id": "li-conghou-chancellor-title",
+      "year": 932,
+      "title": "加中书令，谨慎应对兄长猜忌",
+      "summary": "在邺都加中书令。旧史称同母兄李从荣因其德望而猜忌，从厚谨慎顺从，避免发生嫌隙；不为这段兄弟交往另推起始日期。",
+      "sourceDate": "长兴三年四月乙丑；兄弟交往未独记始日",
+      "evidence": [
+        {
+          "chapterId": "old-v043",
+          "paragraphId": "old-v043-p4",
+          "originalRevision": 1,
+          "originalSha256": "b64bd1053a59e0a6918e14197a5a3561a892813edb42b51293f53d077fe34c57",
+          "excerpt": "乙丑，以天雄軍節度使、宋王從厚兼中書令。"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p124",
+          "originalRevision": 1,
+          "originalSha256": "4a7f05f5428e3acd31fb7014378814034aa3899cd3ccf3a56ed0ad43a3f866fe",
+          "excerpt": "乙丑，加宋王從厚兼中書令。"
+        },
+        {
+          "chapterId": "old-v045",
+          "paragraphId": "old-v045-p3",
+          "originalRevision": 1,
+          "originalSha256": "34a7904a223560e673599a14b7be0bf5461b4a10d241213ea10d832266ab5452",
+          "excerpt": "三年，加中書令。秦王從榮，帝同母兄也，以帝有德望，深所猜忌。帝在鄴宮，憂其禍，然善於承順，竟免閑隙。"
+        }
+      ],
+      "phase": "service",
+      "precision": "day",
+      "sortOrder": 7,
+      "notes": [
+        "本传只记长兴三年，逐年明宗纪和通鉴另记四月乙丑；确日只用于加中书令，不把兄弟猜忌与承顺都定为同日。"
+      ]
     },
     {
       "id": "li-conghou-summoned",
@@ -150,7 +376,45 @@
       ],
       "phase": "early",
       "precision": "day",
-      "sortOrder": 5
+      "sortOrder": 8,
+      "variants": [
+        {
+          "label": "明宗纪与通鉴的召回、抵京叙日",
+          "year": 933,
+          "sourceDate": "长兴四年十一月甲午召；十一月辛丑或十二月癸卯记到",
+          "summary": "旧闵帝纪记秦王二十日被诛、翌日召从厚、二十九日至京。旧明宗纪与通鉴记甲午召；通鉴辛丑至洛，旧明宗纪把自邺至与十二月初一发丧即位连记。各书召回和抵达叙次分别保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v044",
+              "paragraphId": "old-v044-p12",
+              "originalRevision": 1,
+              "originalSha256": "94cca78b9944223bb579389c13cd41d00678f8de47da4d598c90a43a28c1b9ce",
+              "excerpt": "甲午，賜宰臣、樞密使禦衣玉帶，康義誠已下錦帛鞍馬有差。遣宣徽使孟漢瓊召宋王於鄴都。"
+            },
+            {
+              "chapterId": "old-v044",
+              "paragraphId": "old-v044-p13",
+              "originalRevision": 1,
+              "originalSha256": "e28493a6578220b3ffb0f60d74503aa1f46cd52d414c6dbfead00eb41037656e",
+              "excerpt": "十二月癸卯朔，遷梓宮於二儀殿，宋王從厚自鄴都至。是日發哀，百僚縞素於位，中書侍郎、平章事劉煦宣遺製，宋王從厚於柩前即皇帝位，"
+            },
+            {
+              "chapterId": "tongjian-v278",
+              "paragraphId": "tongjian-v278-p74",
+              "originalRevision": 1,
+              "originalSha256": "7368b19cca72466bddba2a558df16439cc2de21fec770231743c2e087414583f",
+              "excerpt": "宋王從厚為天雄節度使；甲午，遣孟漢瓊征從厚，且權知天雄軍府事。"
+            },
+            {
+              "chapterId": "tongjian-v278",
+              "paragraphId": "tongjian-v278-p78",
+              "originalRevision": 1,
+              "originalSha256": "e7d9802cd5258fca299b7e86932a1510a9a3a1441b7a1986b5dcc7aaee0423b2",
+              "excerpt": "辛丑，宋王至洛陽。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-conghou-accession",
@@ -183,7 +447,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 6,
+      "sortOrder": 9,
       "variants": [
         {
           "label": "《五代春秋》作癸亥朔",
@@ -218,7 +482,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 7,
+      "sortOrder": 10,
       "variants": [
         {
           "label": "《新史》始听政在癸丑",
@@ -260,7 +524,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 8,
+      "sortOrder": 11,
       "notes": [
         "该日已跨西历934年，原书长兴四年记法保留。"
       ]
@@ -289,7 +553,7 @@
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 9,
+      "sortOrder": 12,
       "notes": [
         "十二月末辛未及易月期满已在西历934年，不按长兴四年的起算年直接排入933年。"
       ]
@@ -325,7 +589,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 10
+      "sortOrder": 13
     },
     {
       "id": "li-conghou-royal-grants",
@@ -344,7 +608,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 11
+      "sortOrder": 14
     },
     {
       "id": "li-conghou-empress-dowagers",
@@ -377,7 +641,31 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 12
+      "sortOrder": 15,
+      "variants": [
+        {
+          "label": "会要曹氏册太后记正月",
+          "year": 934,
+          "sourceDate": "会要应顺元年正月；本纪闰正月丙午",
+          "summary": "会要曹氏条写应顺元年正月册皇太后，旧新本纪记闰正月丙午，两种月份分别保留。王氏会要条的闰正月十三日与本纪甲寅为同日，不另制造日期异说。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p36",
+              "originalRevision": 1,
+              "originalSha256": "e397d022f6d2d7df97ac311d94db4170076723771096bf29264327e0902df78a",
+              "excerpt": "應順元年正月冊為皇太后。"
+            },
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p50",
+              "originalRevision": 1,
+              "originalSha256": "6468c2470328f8eddc302880fbdc2c60dfc9e4d29902f69e0cad632daf1298de",
+              "excerpt": "應順元年閏正月十三日冊為太妃"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-conghou-lingyan",
@@ -386,6 +674,13 @@
       "summary": "依集贤院建议筹建凌烟阁，命预定开国功臣人数及画像底本，恢复写真官、画真官各一员。这里是修建安排，不说工程已经完成。",
       "sourceDate": "应顺元年闰正月",
       "evidence": [
+        {
+          "chapterId": "huiyao-v018",
+          "paragraphId": "huiyao-v018-p48",
+          "originalRevision": 1,
+          "originalSha256": "b7c4df778be94ec00ac2d9fef8dcf4aa82bf2903c661179cdfc39fb70f2768fc",
+          "excerpt": "唐應順元年閏正月，集賢院奏：「准敕書創修凌烟閣，又奉正月二十二日詔，問閣高下等級。謹按凌烟閣，都長安時，元在西内三清殿側，畫像皆北向，閣有中隔，隔内面北寫『功高宰輔』，南面寫『功高諸侯王』，隔外面次第圖畫功臣題贊。自西京傾陷，四十餘年，舊日主掌官吏及畫像工人淪喪，集賢院元管寫真官、畫真官人數不少，自遷都洛京，並皆省廢。今將起閣，特請先定佐命功臣人數，下翰林院，預令寫真本，及下將作八作，與畫工相度間架修盖。緣院内有寫真官沈居隱、畫真官王武瓊二人身死，即日無人應用。伏候敕旨。」敕：「集賢御書院復置寫真官、畫真官各一員，餘依所奏。」"
+        },
         {
           "chapterId": "old-v045",
           "paragraphId": "old-v045-p7",
@@ -396,7 +691,7 @@
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 13
+      "sortOrder": 16
     },
     {
       "id": "li-conghou-fengxiang-transfer",
@@ -422,7 +717,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 14
+      "sortOrder": 17
     },
     {
       "id": "li-conghou-western-army-collapse",
@@ -448,7 +743,31 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 15
+      "sortOrder": 18,
+      "variants": [
+        {
+          "label": "讨伐主将任命日期",
+          "year": 934,
+          "sourceDate": "旧史二月丁酉；新史二月辛卯",
+          "summary": "旧闵帝纪在丁酉任王思同为西面行营都部署，新史作辛卯；这属于此前发起讨伐的主将任命，三月丙辰（十六日）军溃为后事，不合为同日。",
+          "evidence": [
+            {
+              "chapterId": "old-v045",
+              "paragraphId": "old-v045-p8",
+              "originalRevision": 1,
+              "originalSha256": "77ba0c8525a022f391866f92742a22392865679f26b6cea1369bbcbb42d1d5ee",
+              "excerpt": "丁酉，王思同加同平章事，充西面行營都部署；以前邠州節度使藥彥稠為副部署。"
+            },
+            {
+              "chapterId": "new-v07",
+              "paragraphId": "new-v07-p3",
+              "originalRevision": 1,
+              "originalSha256": "e8010cb5b2e79a20633c9db0ebf4accdb898763ce84b31a36fd5fab3811675d4",
+              "excerpt": "辛卯，西京留守王思同為西面行營都部署，靜難軍節度使藥彥稠為副。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-conghou-kill-chongji",
@@ -474,7 +793,7 @@
       ],
       "phase": "rule",
       "precision": "year",
-      "sortOrder": 16
+      "sortOrder": 19
     },
     {
       "id": "li-conghou-treasury-reward",
@@ -500,13 +819,13 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 17
+      "sortOrder": 20
     },
     {
       "id": "li-conghou-flight-luoyang",
       "year": 934,
       "title": "亲信不从，离开洛阳奔卫州",
-      "summary": "西征军倒戈、朱宏昭与冯赟死后，李从厚率少量骑兵出宫，准备往魏州谋复兴。慕容迁口称跟随，待他出门即闭门不行。各篇对随骑数及出逃夜的记法有别。",
+      "summary": "西征军倒戈、朱宏昭与冯赟死后，李从厚率少量骑兵出宫，准备往魏州谋复兴。慕容迁口称跟随，待他出门即闭门不行。各篇随骑数有别；三月戊辰与二十八日为同日的不同记法。",
       "sourceDate": "应顺元年三月戊辰夜",
       "evidence": [
         {
@@ -526,7 +845,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 18,
+      "sortOrder": 21,
       "variants": [
         {
           "label": "《旧史》末帝纪记二十八日夜",
@@ -561,7 +880,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 19,
+      "sortOrder": 22,
       "variants": [
         {
           "label": "《通鉴》记四月朔及刘知远引兵",
@@ -574,6 +893,73 @@
               "originalRevision": 1,
               "originalSha256": "1781e5c6d2a4604a6660c1adb66842c049c7d62371a803267030cc3cc06edaf5",
               "excerpt": "夏，四月，庚午朔，未明，閔帝至衛州東數里，遇石敬瑭；帝大喜，問以社稷大計，敬瑭曰：「聞康義誠西討，何如？陛下何為至此？」帝曰：「義誠亦叛去矣。」敬瑭俯首長歎數四，曰：「衛州刺史王弘贄，宿將習事，請與圖之。」乃往見弘贄問之，弘贄曰：「前代天子播遷多矣，然皆有將相、侍衛、府庫、法物，使群下有所瞻仰；今皆無之，獨以五十騎自隨，雖有忠義之心，將若之何？」敬瑭還，見帝於衛州驛，以弘贄之言告。弓箭庫使沙守榮、奔洪進前責敬瑭曰：「公明宗愛婿，富貴相與共之，憂患亦宜相恤。今天子播越，委計於公，冀圖興復，乃以此四者為辭，是直欲附賊賣天子耳！」守榮抽佩刀欲刺之，敬瑭親將陳暉救之，守榮與暉斗死，洪進亦自刎。敬瑭牙內指揮使劉知遠引兵入，盡殺帝左右及從騎，獨置帝而去。敬瑭遂趣洛陽。"
+            }
+          ]
+        },
+        {
+          "label": "晋高祖纪记擒从骑及安置",
+          "year": 934,
+          "sourceDate": "应顺中岐阳兵变后，未独标相遇日",
+          "summary": "旧晋高祖纪记闵帝左右将对石敬瑭不利、石擒从骑百余，二帝恸哭告别并令王宏贽安置，不直接写该段石杀随骑；与旧闵纪石尽诛五十余、通鉴刘引兵尽杀各自叙法、人数保持。",
+          "evidence": [
+            {
+              "chapterId": "old-v075",
+              "paragraphId": "old-v075-p12",
+              "originalRevision": 1,
+              "originalSha256": "e037af04e9366204a805bf53c3804eb02300de318cc262a9428f1f9ac6fc082a",
+              "excerpt": "及岐陽兵亂，推潞王為天子，閔帝急詔帝赴闕，欲以社稷為托。閔帝自洛陽出奔於衛，相遇於途，遂與閔帝回入衛州。時閔帝左右將不利於帝，帝覺之，因擒其從騎百餘人。閔帝知事不濟，與帝長慟而別，帝遣刺史王宏贄安置閔帝於公舍而去，尋為潞王所害，帝後長以此愧心焉。"
+            }
+          ]
+        },
+        {
+          "label": "汉高祖纪记石敢护卫与刘知远杀左右",
+          "year": 934,
+          "sourceDate": "潞王反、闵帝出奔后，未独标相遇日",
+          "summary": "新汉高祖纪记刘知远先派石敢藏铁锤侍石敬瑭，石敢与闵帝左右格斗死，刘引兵杀左右。旧汉纪也叙石敢护卫，夹注又存另一细节。石敢、陈晖按各书保存，不擅合为同一姓名或唯一过程。",
+          "evidence": [
+            {
+              "chapterId": "new-v10",
+              "paragraphId": "new-v10-p2",
+              "originalRevision": 1,
+              "originalSha256": "d0a7bca880dca54b968f0f28a2b6ad5f91eb8159f1e3b128d3e90ea52134386d",
+              "excerpt": "潞王從珂反，愍帝出奔，高祖自鎮州朝京師，遇愍帝于衞州，止傳舍，知遠遣勇士石敢袖鐵槌侍高祖以虞變。高祖與愍帝議事未決，左右欲兵之，知遠擁高祖入室，敢與左右格鬬而死，知遠即率兵盡殺愍帝左右，留帝傳舍而去。"
+            },
+            {
+              "chapterId": "old-v099",
+              "paragraphId": "old-v099-p2",
+              "originalRevision": 1,
+              "originalSha256": "ee5560cdc65720ef9593c92522e9d6f7f45f13d16347e604b3582dee0eadf90f",
+              "excerpt": "帝弱不好弄，嚴重寡言，及長，面紫色，目睛多白。初事唐明宗，列於麾下。明宗與梁人對柵於德勝，時晉高祖為梁人所襲，馬甲連革斷，帝輟騎以授之，取斷革者自跨之，徐殿其後，晉高祖感而壯之。明宗踐阼，晉高祖為北京留守，以帝前有護援之力，奏移麾下，署為牙門都校。應順初，晉高祖鎮常山，唐明宗召赴闕，會閔帝出奔，與晉高祖相遇於途，遂俱入衛州，泊於郵舍。閔帝左右謀害晉高祖，帝密遣禦士石敢袖鎚立於晉高祖後，及有變，敢擁晉高祖入一室，以巨木塞門，敢尋死焉。帝率眾盡殺閔帝左右，遂免晉高祖於難。〈（《通鑒考異》引《漢高祖實錄》云：是夜，偵知少帝伏甲，欲與從臣謀害晉高祖，詐屏人對語，方坐庭廡。帝密遣禦士石敢袖鎚立於後，俄頃伏甲者起，敢有勇力，擁晉高祖入一室，以巨木塞門，敢力當其鋒，死之。帝解佩刀，遇夜晦，以在地葦炬未然者奮擊之，眾謂短兵也，遂散走。帝乃匿身長垣下，聞帝親將李洪信謂人曰：「石太尉死矣。」帝隔垣呼洪信曰：「太尉無恙。」乃逾垣出就洪信兵，共護晉高祖，殺建謀者，以少主授王宏贄。）〉"
+            }
+          ]
+        },
+        {
+          "label": "新晋纪记石敬瑭杀从者百余、幽帝",
+          "year": 934,
+          "sourceDate": "潞王反、愍帝出奔后，未独标相遇日",
+          "summary": "新晋本纪归杀从者百余人于石敬瑭，并记幽帝卫州而去；旧晋纪作擒从骑百余、旧闵纪作杀五十余、通鉴归杀随从于刘知远。擒、杀、安置及人数沿各书分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v08",
+              "paragraphId": "new-v08-p5",
+              "originalRevision": 1,
+              "originalSha256": "a4cdd042544eae0373dcd868ecf04979192ccc5789ef184484622adbed189f03",
+              "excerpt": "潞王從珂反於鳳翔，愍帝出奔，遇敬瑭于道，敬瑭殺帝從者百餘人，幽帝于衞州而去。"
+            }
+          ]
+        },
+        {
+          "label": "考异说明各实录取舍",
+          "year": 934,
+          "sourceDate": "四月庚午",
+          "summary": "考异引闵、晋、汉及南唐实录的不同过程，并说明采用闵帝实录、认为晋汉实录有为二祖饰非之嫌。这是编者的史源判断，不据其评语把埋伏、护救或擒杀过程裁为唯一事实。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v030",
+              "paragraphId": "kaoyi-v030-p5",
+              "originalRevision": 1,
+              "originalSha256": "3b960ae08f23cecbf46480791e2370910b15222035f14dc8124f54d0ac42b137",
+              "excerpt": "潞王清泰元年三月朱𢎞昭赴井死安從進殺馮贇〈張昭閔帝實錄帝召𢎞昭不至俄聞自殺乃令從進殺贇按從進傳贇首於陜則贇死非閔帝之命明矣今不取〉四月庚午劉知逺盡殺閔帝左右及從騎〈閔帝實錄庚午朔四鼔帝至衛州東七八里遇敬瑭竇貞固晉髙祖實録始帝欲與少主俱西斷孟津北據壷關南向徴諸侯兵乃啓問康義誠西討作何制置云云蘇逢吉漢髙祖實錄是夜偵知少帝伏甲欲與從臣謀害晉髙祖詐屏人對語方坐庭廡帝宻遣御士石敢䄂鎚立於後俄頃伏甲者起敢有勇力擁晉祖入一室以巨木塞門敢力當其鋒死之帝解佩刀遇夜晦以在地葦炬未然者奮擊之衆謂短兵也遂散走帝乃匿身長垣下聞帝親將李洪信謂人曰石太尉死矣帝隔垣呼洪信曰太尉無恙乃踰垣出就洪信兵共䕶晉祖殺建謀者以少主授王𢎞贄南唐列祖實録𢎞贄曰今京國阽危百官無主必相率攜神器西向公何不囚少帝西迎潞王此萬全之計敬塘然其語按為晉漢實録者必為二祖飾非今從閔帝實録〉"
             }
           ]
         }
@@ -610,7 +996,7 @@
       ],
       "phase": "rule",
       "precision": "day",
-      "sortOrder": 20,
+      "sortOrder": 23,
       "variants": [
         {
           "label": "《旧史》闵帝纪、《会要》记七日",
@@ -666,7 +1052,7 @@
       ],
       "phase": "fall",
       "precision": "day",
-      "sortOrder": 21,
+      "sortOrder": 24,
       "variants": [
         {
           "label": "《通鉴》记拒毒酒后被缢杀",
@@ -688,7 +1074,7 @@
       "id": "li-conghou-family-killed",
       "year": 934,
       "title": "孔氏与四子在宫中被杀",
-      "summary": "李从厚死后，孔妃与四个儿子仍在宫中，王峦返回后也遭杀害。会要明确记孔氏为末帝所害；不说李从厚之死与杀妻儿发生在同一地点。",
+      "summary": "李从厚遇害后，孔妃与四子仍在宫中；王峦返京后，孔妃与四子亦被杀。通鉴明确李从珂遣人传问重吉之事，会要记孔氏为末帝所害；卫州杀帝与宫中杀妻儿分地点、分步骤。",
       "sourceDate": "应顺元年四月，王峦回京后",
       "evidence": [
         {
@@ -715,7 +1101,7 @@
       ],
       "phase": "fall",
       "precision": "month",
-      "sortOrder": 22
+      "sortOrder": 25
     },
     {
       "id": "li-conghou-burial",
@@ -755,7 +1141,7 @@
       ],
       "phase": "posthumous",
       "precision": "day",
-      "sortOrder": 23,
+      "sortOrder": 26,
       "variants": [
         {
           "label": "《旧史》在晋高祖即位后连记谥葬",
@@ -795,7 +1181,7 @@
       "id": "li-conghou-posthumous-title",
       "year": 937,
       "title": "晋初获追谥“闵”",
-      "summary": "会要明确记晋天福元年十二月追谥闵帝；旧史只说晋高祖即位后。两书闵／愍的称号写法沿各自底本保留。",
+      "summary": "会要记晋天福元年十二月追谥闵帝，旧史只说晋高祖即位后。旧史、会要作“闵”，新史开篇称“愍皇帝”，沿各底本保留称号写法；新史开篇不另确定追谥月份。",
       "sourceDate": "晋天福元年十二月",
       "evidence": [
         {
@@ -811,14 +1197,193 @@
           "originalRevision": 1,
           "originalSha256": "6b42df8630ff1df4f9c5518f6ab60b9dd57fd303cae9dd8cb31a29fe543ca26c",
           "excerpt": "晉高祖即位，諡曰閔，"
+        },
+        {
+          "chapterId": "new-v07",
+          "paragraphId": "new-v07-p1",
+          "originalRevision": 1,
+          "originalSha256": "108f72768406e878360b6b7f61c815a449a8dbca874f09735fea00424174cee4",
+          "excerpt": "愍皇帝，明宗第五子從厚也。"
         }
       ],
       "phase": "posthumous",
       "precision": "month",
-      "sortOrder": 24,
+      "sortOrder": 27,
       "notes": [
         "此条是追谥记载。会要与通鉴的葬期分歧见前条，不认定另有一次再葬。"
+      ],
+      "variants": [
+        {
+          "label": "新史称奏谥上册月日无从独记",
+          "sourceDate": "晋高祖即位后；新史因天福四年盗墓事附论",
+          "summary": "新史夹评称旧史、实录无奏谥上册月日，因此借盗墓记事显示“愍皇帝”称号。保留其史家说明与会要天福元年十二月的另记，不以这段评论否定会要的日期。",
+          "evidence": [
+            {
+              "chapterId": "new-v08",
+              "paragraphId": "new-v08-p9",
+              "originalRevision": 1,
+              "originalSha256": "9c4d1ff522adff101e74487a7ad45cef12f0e129dad15fdcca82babcf3ee226e",
+              "excerpt": "而國亡禮闕，舊史、實錄皆無奏謚上冊月日，故雖當書而不得，因事而見於此爾。"
+            }
+          ]
+        },
+        {
+          "label": "晋纪闰十一月先诏追尊定谥礼葬",
+          "year": 937,
+          "sourceDate": "晋天福元年闰十一月甲申",
+          "summary": "晋纪在入洛后闰十一月甲申赦文令中书追尊少帝、定谥、择日礼葬，并追册孔妃祔葬。少帝与孔妃指从厚及其妃；这是筹办诏令，与会要后来十二月记追谥分步骤，不说赦日已完成谥葬。",
+          "evidence": [
+            {
+              "chapterId": "old-v076",
+              "paragraphId": "old-v076-p2",
+              "originalRevision": 1,
+              "originalSha256": "6f99c6a0c545ae9287c0508dbacf8af1c11e1c492a0f7870b0937f6aaec5cb32",
+              "excerpt": "少帝宜令中書門下追尊定謚，擇日禮葬；妃孔氏，宜行追冊祔葬。"
+            },
+            {
+              "chapterId": "old-v076",
+              "paragraphId": "old-v076-p2",
+              "originalRevision": 1,
+              "originalSha256": "6f99c6a0c545ae9287c0508dbacf8af1c11e1c492a0f7870b0937f6aaec5cb32",
+              "excerpt": "甲申，車駕入內，禦文明殿受朝賀，用唐禮樂。"
+            },
+            {
+              "chapterId": "old-v076",
+              "paragraphId": "old-v076-p2",
+              "originalRevision": 1,
+              "originalSha256": "6f99c6a0c545ae9287c0508dbacf8af1c11e1c492a0f7870b0937f6aaec5cb32",
+              "excerpt": "閏十一月甲子，"
+            },
+            {
+              "chapterId": "old-v076",
+              "paragraphId": "old-v076-p1",
+              "originalRevision": 1,
+              "originalSha256": "54af26bdc32853b5d51ee79de0fce247d4f81ad08a0d63a12588ab8f8b996dd9",
+              "excerpt": "天福元年十一月己亥，"
+            },
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p37",
+              "originalRevision": 1,
+              "originalSha256": "7626cb76fc4b3bcb8754670cac47e912c83bbc93bb2df5442adcfd4e0ca6fed5",
+              "excerpt": "閔帝皇后孔氏。〈初封魯國夫人。應順元年四月，為末帝所害。"
+            }
+          ]
+        }
       ]
+    },
+    {
+      "id": "li-conghou-tomb-robbed",
+      "year": 939,
+      "title": "墓遭盗发",
+      "summary": "晋天福四年正月，李从厚的墓遭盗掘。旧史记戊申并称陵，新史称墓，解释附葬于徽陵域中而无独立陵名；两种底本文字保留。",
+      "sourceDate": "晋天福四年正月戊申",
+      "evidence": [
+        {
+          "chapterId": "old-v078",
+          "paragraphId": "old-v078-p1",
+          "originalRevision": 1,
+          "originalSha256": "2bd184158a5dc46f8805d8959402b72faf2b9397d249b2fe2a75c7968b10cdac",
+          "excerpt": "戊申，盜發唐閔帝陵。"
+        },
+        {
+          "chapterId": "old-v078",
+          "paragraphId": "old-v078-p1",
+          "originalRevision": 1,
+          "originalSha256": "2bd184158a5dc46f8805d8959402b72faf2b9397d249b2fe2a75c7968b10cdac",
+          "excerpt": "天福四年春正月癸卯，"
+        },
+        {
+          "chapterId": "new-v08",
+          "paragraphId": "new-v08-p9",
+          "originalRevision": 1,
+          "originalSha256": "9c4d1ff522adff101e74487a7ad45cef12f0e129dad15fdcca82babcf3ee226e",
+          "excerpt": "四年春正月，盜發唐愍皇帝墓。〈愍帝附于明宗徽陵域中，無陵名，故曰「墓」，晉高祖即位，追謚為愍皇帝。"
+        }
+      ],
+      "phase": "posthumous",
+      "precision": "day",
+      "sortOrder": 28
+    },
+    {
+      "id": "li-conghou-temple-order",
+      "year": 939,
+      "title": "晋诏立唐五庙，列闵帝祭祀",
+      "summary": "晋廷诏在洛阳为唐高祖、太宗及庄宗、明宗、闵帝立五庙。会要保存将至德宫正殿隔为五室、制作闵帝及诸后神主的获准安排；这里记诏令与筹办，不断言该日建成。",
+      "sourceDate": "晋天福四年十一月乙亥",
+      "evidence": [
+        {
+          "chapterId": "old-v078",
+          "paragraphId": "old-v078-p14",
+          "originalRevision": 1,
+          "originalSha256": "4dab7a66561df7f8b73b57cb8af34f211da04966c26f7afda62e7dae3ecd59e9",
+          "excerpt": "十一月甲戌，以太子賓客李延範為司農卿。乙亥，詔立唐高祖、太宗及莊宗、明宗、閔帝五廟於洛陽。"
+        },
+        {
+          "chapterId": "old-v078",
+          "paragraphId": "old-v078-p1",
+          "originalRevision": 1,
+          "originalSha256": "2bd184158a5dc46f8805d8959402b72faf2b9397d249b2fe2a75c7968b10cdac",
+          "excerpt": "天福四年春正月癸卯，"
+        },
+        {
+          "chapterId": "huiyao-v003",
+          "paragraphId": "huiyao-v003-p4",
+          "originalRevision": 1,
+          "originalSha256": "3677d6b7c82095bd7c5e6f5d704770371e0548bb95b07882c223a98cabf23f21",
+          "excerpt": "晉天福四年十一月，太常禮院奏：「議立唐廟，引武德年故事，祀隋三帝。今請立近朝莊宗、明宗、閔帝三廟，庶合前規。」詔曰：「德莫盛於繼絶，禮莫重於敬先。莊宗立興復之功，明宗垂光大之業，逮于閔帝，實繼本枝。然則丕緒洪源，皆遵唐室。繼周者須崇后稷，嗣漢者必奉高皇。將啟嚴祠，當崇茂典，宜立唐高祖，太宗及莊宗、明宗、閔帝五廟。」其月，太常禮院又奏：「唐廟制度，請以至德宫正殿隔為五室，三分之。南去地四尺，以石為埳，中容二主。廟之南一屋三門，門戟二十有四，東西一屋一門，門無棨戟。廟中牀鑪盤帳，燭亭香寶，粢盛酒爵，罍洗罇坫，位席祭服，率如常制。四仲之祭，一羊一豚，具如中祠。幣帛牲牢之類，光禄主之。祠祝之文，不進不署。神厨之具，鴻臚督之。五帝五后，凡十主，未遷者六，未立者四，未諡者三。高祖、太宗與其后暨莊宗、明宗凡六主，在清化里之寢宫。祭前二日，以殿中繖扇二十，迎置新廟，以行享禮。閔皇帝、莊宗明宗二后及魯國孔夫人神主四座，請修製祔廟及三后請定諡法。」從之。"
+        },
+        {
+          "chapterId": "new-v08",
+          "paragraphId": "new-v08-p9",
+          "originalRevision": 1,
+          "originalSha256": "9c4d1ff522adff101e74487a7ad45cef12f0e129dad15fdcca82babcf3ee226e",
+          "excerpt": "冬十一月乙亥，立唐高祖、太宗、莊宗、明宗、愍帝廟于西京。"
+        }
+      ],
+      "phase": "posthumous",
+      "precision": "day",
+      "sortOrder": 29
+    },
+    {
+      "id": "li-conghou-records-commission",
+      "year": 957,
+      "title": "获准编修闵帝实录",
+      "summary": "后周显德四年正月，张昭建议补修闵帝实录，朝廷从之。旧史正文称闵帝，所附会要文字及会要本段称应顺帝、拟题前废帝，与清泰后废帝区别；这里只记请求与获准，不说当月成书。",
+      "sourceDate": "周显德四年正月壬寅",
+      "evidence": [
+        {
+          "chapterId": "old-v117",
+          "paragraphId": "old-v117-p1",
+          "originalRevision": 1,
+          "originalSha256": "6f21d9bd765a87b8f72fbf3e5dfac19e54a76287099fd80a9950213fad2cd7bc",
+          "excerpt": "又以唐末主之前有閔帝，在位四月，出奔於衛，亦未編紀，請修閔帝實錄。其清泰帝實錄，請書為廢帝實錄。」從之。"
+        },
+        {
+          "chapterId": "old-v117",
+          "paragraphId": "old-v117-p1",
+          "originalRevision": 1,
+          "originalSha256": "6f21d9bd765a87b8f72fbf3e5dfac19e54a76287099fd80a9950213fad2cd7bc",
+          "excerpt": "顯德四年春正月己丑朔，"
+        },
+        {
+          "chapterId": "old-v117",
+          "paragraphId": "old-v117-p1",
+          "originalRevision": 1,
+          "originalSha256": "6f21d9bd765a87b8f72fbf3e5dfac19e54a76287099fd80a9950213fad2cd7bc",
+          "excerpt": "壬寅，兵部尚書張昭上言："
+        },
+        {
+          "chapterId": "huiyao-v018",
+          "paragraphId": "huiyao-v018-p30",
+          "originalRevision": 1,
+          "originalSha256": "b5871a90e1fe28a594f2ea87b39a8f47df9a802e972d6ea333161977628c970b",
+          "excerpt": "顯德三年十二月敕：「太祖實録並梁均帝、唐清泰二主實録，宜差兵部尚書張昭脩，其同修修撰官，委張昭定名奏請。」至四年正月，兵部尚書張昭奏：「奉敕編修太祖實録及梁、唐二末主實録，今請國子祭酒尹拙、太子詹事劉温叟同編修。伏緣漢隱帝君臨太祖之前，其歷試之績，並在漢隱帝朝内，請先修隱帝實録。又梁末主之上有郢王友珪，篡弑居位，未有紀録，請依宋書劉劭例，書為『元兇友珪』，其末帝請依古義，書曰後梁實録。又唐末主之前，有應順帝，在位四月出奔，亦未編紀，請書為前廢帝，清泰主為後廢帝，其書並為實録。」從之。"
+        }
+      ],
+      "phase": "posthumous",
+      "precision": "day",
+      "sortOrder": 30
     },
     {
       "id": "li-conghou-first-office",
@@ -837,43 +1402,10 @@
       ],
       "phase": "uncertain",
       "precision": "range",
-      "sortOrder": 25,
+      "sortOrder": 31,
       "yearRange": {
         "start": 926,
         "end": 927
-      },
-      "notes": [
-        "本项任职只有原书记年，未载本事月日；传统年份跨两个西历年，按范围保留。"
-      ]
-    },
-    {
-      "id": "li-conghou-hedong",
-      "year": null,
-      "title": "移镇河东",
-      "summary": "从汴州移任河东节度使。",
-      "sourceDate": "天成四年",
-      "evidence": [
-        {
-          "chapterId": "old-v045",
-          "paragraphId": "old-v045-p3",
-          "originalRevision": 1,
-          "originalSha256": "34a7904a223560e673599a14b7be0bf5461b4a10d241213ea10d832266ab5452",
-          "excerpt": "四年，移鎮河東。"
-        },
-        {
-          "chapterId": "new-v07",
-          "paragraphId": "new-v07-p1",
-          "originalRevision": 1,
-          "originalSha256": "108f72768406e878360b6b7f61c815a449a8dbca874f09735fea00424174cee4",
-          "excerpt": "明年，徙鎮河東。"
-        }
-      ],
-      "phase": "uncertain",
-      "precision": "range",
-      "sortOrder": 26,
-      "yearRange": {
-        "start": 929,
-        "end": 930
       },
       "notes": [
         "本项任职只有原书记年，未载本事月日；传统年份跨两个西历年，按范围保留。"
@@ -903,66 +1435,45 @@
       ],
       "phase": "uncertain",
       "precision": "range",
-      "sortOrder": 27,
+      "sortOrder": 32,
       "yearRange": {
         "start": 931,
         "end": 932
       },
       "notes": [
-        "本项任职只有原书记年，未载本事月日；传统年份跨两个西历年，按范围保留。"
-      ]
-    },
-    {
-      "id": "li-conghou-chancellor-title",
-      "year": null,
-      "title": "加中书令，谨慎应对兄长猜忌",
-      "summary": "在邺都加中书令。旧史称同母兄李从荣因其德望而猜忌，从厚谨慎顺从，避免发生嫌隙；不为这段兄弟交往另推起始日期。",
-      "sourceDate": "长兴三年；兄弟嫌隙原卷并叙",
-      "evidence": [
-        {
-          "chapterId": "old-v045",
-          "paragraphId": "old-v045-p3",
-          "originalRevision": 1,
-          "originalSha256": "34a7904a223560e673599a14b7be0bf5461b4a10d241213ea10d832266ab5452",
-          "excerpt": "三年，加中書令。秦王從榮，帝同母兄也，以帝有德望，深所猜忌。帝在鄴宮，憂其禍，然善於承順，竟免閑隙。"
-        }
+        "本传只记长兴二年移邺都及加官，整组任命无独标月日，范围保留；逐年本纪另记六月乙亥任兴唐尹，仅该府尹职有确日。"
       ],
-      "phase": "uncertain",
-      "precision": "range",
-      "sortOrder": 28,
-      "yearRange": {
-        "start": 932,
-        "end": 933
-      },
-      "notes": [
-        "本项任职只有原书记年，未载本事月日；传统年份跨两个西历年，按范围保留。"
-      ]
-    },
-    {
-      "id": "li-conghou-marriage",
-      "year": null,
-      "title": "娶孔循之女为妃",
-      "summary": "李从厚的妻子是孔循之女，起初封鲁国夫人。新史记安重诲因这桩婚事而怒，随后孔循罢枢密使、从厚出镇；不以这些后续任命日期冒充结婚日。",
-      "sourceDate": "出镇宣武前；原卷未明婚日",
-      "evidence": [
+      "variants": [
         {
-          "chapterId": "new-v07",
-          "paragraphId": "new-v07-p1",
-          "originalRevision": 1,
-          "originalSha256": "108f72768406e878360b6b7f61c815a449a8dbca874f09735fea00424174cee4",
-          "excerpt": "從厚妃，孔循女也，安重誨怒循以女妻從厚，三年，罷循樞密使，出從厚為宣武軍節度使。"
-        },
-        {
-          "chapterId": "huiyao-v001",
-          "paragraphId": "huiyao-v001-p37",
-          "originalRevision": 1,
-          "originalSha256": "7626cb76fc4b3bcb8754670cac47e912c83bbc93bb2df5442adcfd4e0ca6fed5",
-          "excerpt": "閔帝皇后孔氏。〈初封魯國夫人。"
+          "label": "明宗逐年纪记六月任兴唐尹",
+          "year": 931,
+          "sourceDate": "长兴二年六月乙亥",
+          "summary": "逐年明宗纪明确六月乙亥从镇州任兴唐尹，补其在邺都的府尹任职。该句没有逐项记检校太尉、侍中及天雄节度等整组任命，不把主传所叙全组加官都挪到同日。",
+          "evidence": [
+            {
+              "chapterId": "old-v042",
+              "paragraphId": "old-v042-p7",
+              "originalRevision": 1,
+              "originalSha256": "9b9e673e83e81bae23db7ada9652818f511631f7418fbe8201539a93e64786d8",
+              "excerpt": "乙亥，以鎮州節度使、宋王從厚為興唐尹，"
+            },
+            {
+              "chapterId": "old-v042",
+              "paragraphId": "old-v042-p7",
+              "originalRevision": 1,
+              "originalSha256": "9b9e673e83e81bae23db7ada9652818f511631f7418fbe8201539a93e64786d8",
+              "excerpt": "六月丁巳朔，"
+            },
+            {
+              "chapterId": "old-v042",
+              "paragraphId": "old-v042-p1",
+              "originalRevision": 1,
+              "originalSha256": "7107cc2340f185b46a3fcec30953fe6f8f7db7f45f2086cc996911fdac93e6c6",
+              "excerpt": "長興二年春正月庚申朔，"
+            }
+          ]
         }
-      ],
-      "phase": "uncertain",
-      "precision": "undated",
-      "sortOrder": 29
+      ]
     }
   ]
 }

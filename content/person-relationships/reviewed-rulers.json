@@ -222,5 +222,127 @@
         "excerpt": "契丹之入寇也，帝再命劉知遠會兵山東，皆後期不至。帝疑之，謂所親曰：「太原殊不助朕，必有異圖。果有分，何不速為之！」至是雖為都統，而實無臨制之權，密謀大計，皆不得預。"
       }
     ]
+  },
+  {
+    "id": "li-conghou-wang-sitong-service",
+    "from": "li-conghou",
+    "to": "wang-sitong",
+    "kind": "service",
+    "label": "奉诏讨凤翔",
+    "note": "934年，闵帝遣王思同会各镇军讨凤翔，旧史任西面行营都部署后改副招讨；旧史二月丁酉与新史辛卯的任命日期分别保留。此边是具体行营委任，不将王思同此前明宗军职倒归从厚。",
+    "sources": [
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p8",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "丁酉，王思同加同平章事，充西面行營都部署；以前邠州節度使藥彥稠為副部署。"
+      },
+      {
+        "chapterId": "new-v07",
+        "paragraphId": "new-v07-p3",
+        "title": "《新五代史》卷 7 · 唐本纪第七（兼载末帝）",
+        "excerpt": "辛卯，西京留守王思同為西面行營都部署，靜難軍節度使藥彥稠為副。"
+      },
+      {
+        "chapterId": "new-v07",
+        "paragraphId": "new-v07-p6",
+        "title": "《新五代史》卷 7 · 唐本纪第七（兼载末帝）",
+        "excerpt": "愍帝遣王思同會諸鎮兵討之，思同戰敗走，諸鎮兵皆潰。"
+      },
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p11",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "癸亥，以康義誠為鳳翔行營都招討使，餘如故。以王思同為副招討使；"
+      }
+    ]
+  },
+  {
+    "id": "li-conghou-zhang-qianzhao-service",
+    "from": "li-conghou",
+    "to": "zhang-qianzhao",
+    "kind": "service",
+    "label": "奉诏会讨凤翔",
+    "note": "934年，闵帝明确诏令张虔钊率本部军到岐下会合朝廷军，旧纪又记其会讨奏报与进军收大散关。其后退兴元归蜀是另一阶段，不把此前李克用、庄宗或明宗时期任职归从厚。",
+    "sources": [
+      {
+        "chapterId": "old-v074",
+        "paragraphId": "old-v074-p9",
+        "title": "《旧五代史》卷 74 · 唐列传（康延孝、朱守殷等）",
+        "excerpt": "及末帝起於鳳翔，閔帝詔令虔釗帥部兵會王師於岐下。"
+      },
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p9",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "興元節度使張虔釗奏，會合討鳳翔。"
+      },
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p9",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "乙卯，興元張虔釗奏，自鎮將兵赴鳳翔，收大散關。"
+      }
+    ]
+  },
+  {
+    "id": "li-conghou-shi-jingtang-service",
+    "from": "li-conghou",
+    "to": "shi-jingtang",
+    "kind": "service",
+    "label": "镇州军职调任",
+    "note": "934年闵帝朝二月宣授石敬瑭权知镇州军州事，三月本纪具载真定尹、镇州节度使及蕃汉总管等职如故；新晋纪亦记三月徙成德。宣授权职与三月任职记载分列，不将卫州相遇说成皇帝命其护驾或将后来的晋帝位倒归此军职。",
+    "sources": [
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p8",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "以北京留守石敬瑭權知鎮州軍州事；"
+      },
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p9",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "以北京留守、河東節度使石敬瑭依前檢校太尉、兼中書令，其真定尹、充鎮州節度使、大同彰國振武威塞等軍蕃漢馬步總管如故。"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p5",
+        "title": "《新五代史》卷 8 · 晋本纪第八",
+        "excerpt": "明年，明宗崩，愍帝即位，加中書令。三月，徙鎮成德。"
+      }
+    ]
+  },
+  {
+    "id": "li-conghou-kang-fu-service",
+    "from": "li-conghou",
+    "to": "kang-fu",
+    "kind": "service",
+    "label": "邠州节度使任命",
+    "note": "934年闵帝朝，前彰义军节度使康福加检校太傅并充邠州节度使；据具体节镇委任登记，不仅因其加检校官，也不据此称为亲军统帅或从厚亲征将领。",
+    "sources": [
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p6",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "前彰義軍節度使康福加檢校太傅，充邠州節度使；"
+      }
+    ]
+  },
+  {
+    "id": "li-conghou-gao-xingzhou-service",
+    "from": "li-conghou",
+    "to": "gao-xingzhou",
+    "kind": "service",
+    "label": "彰武节度使任命",
+    "note": "934年闵帝朝，闰正月任前振武节度使、安北都护高行周为彰武节度使；据具体节镇调任登记，不将其前朝军职或后来的统兵经历倒归从厚。",
+    "sources": [
+      {
+        "chapterId": "old-v045",
+        "paragraphId": "old-v045-p7",
+        "title": "《旧五代史》卷 45 · 唐闵帝纪1",
+        "excerpt": "戊午，以前振武軍節度使、安北都護高行周為彰武節度使。"
+      }
+    ]
   }
 ]
