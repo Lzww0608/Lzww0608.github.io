@@ -126,8 +126,8 @@
       "id": "yang-pu-abdication",
       "year": 937,
       "sourceDate": "天祚三年冬十月",
-      "title": "让位徐知诰，吴政权终结",
-      "summary": "徐知诰建齐国，杨溥遣杨璘持册让位，之后被迁至丹阳宫。此时南唐前身国号仍为齐。",
+      "title": "让位徐诰，吴政权终结",
+      "summary": "杨溥遣杨璘持册让位，徐诰在金陵称帝。新旧五代史记初国号齐，通鉴当时直接记唐，分别保留；次年迁丹阳宫另列，不能把迁居也系在937十月。",
       "evidence": [
         {
           "chapterId": "new-v61",
@@ -142,25 +142,35 @@
           "originalRevision": 1,
           "originalSha256": "9914e82922e2faaac654b865f522a9e53da72869bb0a730d1f9ae0cf9a04010a",
           "excerpt": "五年，昪封齊王。已而閩、越諸國皆遣使勸進，昪謂人望已歸。天祚三年，建齊國，置宗廟社稷，以宋齊丘、徐玠為左、右丞相。十月，溥遣攝太尉楊璘傳位於昪，國號齊，改元昇元。昪以冊尊溥曰：「受禪老臣知誥，謹上冊皇帝為高尚思玄弘古讓皇帝。」追尊徐溫為忠武皇帝，封子景為吳王，封徐氏子知證江王，知諤饒王。周本與諸將至金陵勸進，歸而嘆曰：「吾不誅篡國者以報楊氏，今老矣，豈能事二姓乎！」憤惋而死。"
-        },
-        {
-          "chapterId": "new-v62",
-          "paragraphId": "new-v62-p9",
-          "originalRevision": 1,
-          "originalSha256": "545ef6ba0a9d977b86f901a835be40aebf3e734cbbc9ddf37fa45e23e04757cb",
-          "excerpt": "二年四月，遷楊溥於潤州丹陽宮。以王輿為浙西節度使、馬思讓為丹陽宮使，以嚴兵守之。"
         }
       ],
       "phase": "fall",
       "precision": "month",
-      "sortOrder": 6
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "通鉴记937年国号唐",
+          "sourceDate": "天福二年十月甲申",
+          "summary": "通鉴当时明书唐，与新旧史齐号不合；不改原书唐字、不推迟到939。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p54",
+              "originalRevision": 1,
+              "originalSha256": "bacff4953ad43f3759bd6c8b13638d1c525664c243b22afc2154dc80c9fddfd7",
+              "excerpt": "丙寅，吳主命江夏王璘奉璽綬於齊。冬，十月，甲申，齊王誥即皇帝位於金陵，大赦，改元升元，國號唐。追尊太祖武王曰武皇帝。乙酉，遣右丞相玠奉冊詣吳主，稱受禪老臣誥謹拜稽首上皇帝尊號曰高尚思玄弘古讓皇，宮室、乘輿、服御皆如故，宗廟、正朔、徽章、服色悉從吳制。丁亥，立徐知證為江王，徐知諤為饒王。以吳太子璉領平盧節度使、兼中書令，封弘農公。"
+            }
+          ],
+          "year": 937
+        }
+      ]
     },
     {
       "id": "yang-pu-confined",
       "year": 938,
       "sourceDate": "升元二年四月",
       "title": "迁至丹阳宫，被严兵看守",
-      "summary": "李昪将杨溥迁至润州丹阳宫，任宫使，以严兵守卫；不是以正常在位君主身份移驻。",
+      "summary": "新史记李昪将让皇迁润州丹阳宫，以王舆、马思让严兵守卫；通鉴先记杨溥屡请徙居，再系五月迎奉与迁宫。两书月次和丹阳／丹杨字形保留。",
       "evidence": [
         {
           "chapterId": "new-v62",
@@ -172,14 +182,38 @@
       ],
       "phase": "later",
       "precision": "month",
-      "sortOrder": 7
+      "sortOrder": 7,
+      "variants": [
+        {
+          "label": "通鉴系五月迎奉、迁宫",
+          "sourceDate": "天福三年五月戊午改宫，壬戌迁入",
+          "summary": "通鉴记改润州牙城为丹杨宫、命李建勋迎奉，王舆镇海留后、公孙圭监军及马思让宫使；不把五月改写为新史四月。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p72",
+              "originalRevision": 1,
+              "originalSha256": "915c9eff04b6d419f002e963312d19f0a232bbfade494876aab39c2b716ca20c",
+              "excerpt": "吳讓皇固辭舊宮，屢請徙居；李德誠等亦亟以為言。五月，戊午，唐主改潤州牙城為丹楊宮，以李建勳為迎奉讓皇使。"
+            },
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p74",
+              "originalRevision": 1,
+              "originalSha256": "cf77f6297e2794ca7a0bde1bd6c81d2553765b3d6e55d39f24c6ee8109bba49d",
+              "excerpt": "壬戌，唐主以左宣威副統軍王輿為鎮海留後，客省使公孫圭為監軍使，親吏馬思讓為丹楊宮使，徙讓皇居丹楊宮。宋齊丘復自陳為左右所間，唐主大怒；齊丘歸第，白衣待罪。或曰：「齊丘舊臣，不宜以小過棄之。」唐主曰：「齊丘有才，不識大體。」乃命吳王璟持手詔召之。"
+            }
+          ],
+          "year": 938
+        }
+      ]
     },
     {
       "id": "yang-pu-death",
       "year": 938,
-      "sourceDate": "天福三年十一月辛丑（通鉴）；升元二年（南唐世家叙次）",
+      "sourceDate": "通鉴天福三年十一月，原文辛丑；南唐世家卒宫本句未独纪年",
       "title": "幽居丹阳宫去世",
-      "summary": "杨溥去世，南唐停朝二十七日，追谥睿皇帝。",
+      "summary": "通鉴记让皇杨溥去世，南唐停朝二十七日，追谥睿皇帝；其十一月与吴世家所接天祚三年十二月有原年次差别，不抹平为同一确日。",
       "evidence": [
         {
           "chapterId": "tongjian-v281",
@@ -187,13 +221,6 @@
           "originalRevision": 1,
           "originalSha256": "e5f949f1a743386fe17cd92874286e2631b6da28bb757b8631fd8a0ea4796cc0",
           "excerpt": "辛丑，吳讓皇卒。唐王廢朝二十七日，追謚曰睿皇帝。是歲，唐主徙吳王璟為齊王。"
-        },
-        {
-          "chapterId": "tongjian-v281",
-          "paragraphId": "tongjian-v281-p63",
-          "originalRevision": 1,
-          "originalSha256": "e4e4b5926ba067c41aef6e0dd3d0f31147e3876f729d60cb12d1bbd2ab8316c7",
-          "excerpt": "高祖聖文章武明德孝皇帝上之下天福三年（戊戌，公元九三八年）"
         },
         {
           "chapterId": "new-v62",
@@ -204,7 +231,7 @@
         }
       ],
       "phase": "fall",
-      "precision": "day",
+      "precision": "month",
       "variants": [
         {
           "label": "吴世家正文的年月冲突",
@@ -225,10 +252,15 @@
               "excerpt": "↑ 十二月溥卒於丹陽　按本史卷六二南唐世家及通鑑卷二八一，楊溥禪位於天福二年(即天祚三年)冬十月，徐知誥改元昇元。次年十一月，溥卒。此承天祚三年云「十二月溥卒」，當有脫誤。"
             }
           ],
-          "summary": "新史吴世家正文把卒年接在天祚三年十二月，校注指出应为次年十一月。保留正文与校注，不把冲突记录强转为确日。"
+          "summary": "吴世家正文接天祚三年写十二月（实际传统月已跨938年初），校注据通鉴称次年十一月；保留原文年次与校注，不把未核准干支转为确定日。"
         }
       ],
-      "sortOrder": 8
+      "sortOrder": 8,
+      "notes": [
+        "通鉴原书十一月与辛丑干支未能相合核准，故不强配确日，保存原书十一月叙次。",
+        "通鉴十一月全月仍在西历938年；吴世家天祚三年十二月已跨西历938年1月，不能说它主张西历937年去世。",
+        "南唐世家“杨溥卒丹阳宫”本句未单列年份，不能凭其相邻段落强称升元二年或三年。"
+      ]
     },
     {
       "id": "yang-pu-embassy-tang",

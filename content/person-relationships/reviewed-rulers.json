@@ -1572,5 +1572,99 @@
         "excerpt": "末帝即位，友謙復臣于梁而不絕晉也。貞明六年，友謙遣其子令德襲同州，逐節度使程全暉，因求兼鎮。末帝初不許，已而許之，制命未至，友謙復叛，始絕梁而附晉矣。末帝遣劉鄩等討之，鄩為李存審所敗。晉封友謙西平王，加守太尉，以其子令德為同州節度使。"
       }
     ]
+  },
+  {
+    "id": "yang-longyan-li-bian-service-reviewed",
+    "from": "yang-longyan",
+    "to": "li-bian",
+    "kind": "service",
+    "label": "辅吴执政",
+    "note": "919年杨隆演即吴国王位后，徐知诰任左仆射、参政事兼知内外诸军事。职位关系不表示吴王掌握徐氏实际权力。",
+    "sources": [
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p27",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "excerpt": "以徐知誥為左僕射、參知政事"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p76",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "excerpt": "以徐知誥為左僕射、參政事兼知內外諸軍事，仍領江州團練使"
+      }
+    ]
+  },
+  {
+    "id": "yang-pu-li-bian-service-reviewed",
+    "from": "yang-pu",
+    "to": "li-bian",
+    "kind": "service",
+    "label": "辅政与掌权",
+    "note": "杨溥称帝后徐知诰获加太尉、侍中等职；徐氏实际掌权，与937年帝位交接和后来迁居各为不同事实。",
+    "sources": [
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p35",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "excerpt": "以徐知誥為太尉兼侍中"
+      },
+      {
+        "chapterId": "tongjian-v276",
+        "paragraphId": "tongjian-v276-p22",
+        "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+        "excerpt": "加徐知誥都督中外諸軍事。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-yang-pu-confinement-reviewed",
+    "from": "li-bian",
+    "to": "yang-pu",
+    "kind": "conflict",
+    "label": "迁居与严兵守卫",
+    "note": "新史记升元二年四月迁杨溥润州丹阳宫、严兵守卫；通鉴记五月，先述让皇屡请迁居。保两书月次与叙事差别，不添谋杀定论。",
+    "sources": [
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p9",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "二年四月，遷楊溥於潤州丹陽宮。以王輿為浙西節度使、馬思讓為丹陽宮使，以嚴兵守之。"
+      },
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p72",
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "excerpt": "吳讓皇固辭舊宮，屢請徙居；李德誠等亦亟以為言。五月，戊午，唐主改潤州牙城為丹楊宮，以李建勳為迎奉讓皇使。"
+      },
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p74",
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "excerpt": "壬戌，唐主以左宣威副統軍王輿為鎮海留後，客省使公孫圭為監軍使，親吏馬思讓為丹楊宮使，徙讓皇居丹楊宮。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-shi-jingtang-anlu-reviewed",
+    "from": "li-bian",
+    "to": "shi-jingtang",
+    "kind": "conflict",
+    "label": "安陆交兵与归俘争议",
+    "note": "940年李昪派李承裕等接应李金全，与石敬瑭所遣晋军交战；其后双方致书、遣返和拒收归俘。均为遣将与君主交涉，不称两人亲自阵战。",
+    "sources": [
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p10",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八",
+        "excerpt": "六月癸卯，李昪遣其將李承裕入于安州，金全奔于唐，安遠軍節度使馬全節及承裕戰，敗之。"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p13",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "昪致書高祖，復送光鄴等，請以敗軍行法，高祖又遣之，昪以甲士臨淮拒之，乃止。"
+      }
+    ]
   }
 ]
