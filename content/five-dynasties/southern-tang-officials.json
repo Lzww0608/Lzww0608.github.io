@@ -25,10 +25,19 @@
     {
       "title": "《资治通鉴考异》卷 30 · 后唐纪下、后晋、后汉与后周纪",
       "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B730&oldid=611184"
+    },
+    {
+      "title": "《资治通鉴》卷 275 · 后唐纪4",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7275&oldid=803286"
+    },
+    {
+      "title": "《五代史补》卷 5 · 后周史事",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B75&oldid=1754500"
     }
   ],
   "memberIds": [
-    "song-qiqiu"
+    "song-qiqiu",
+    "han-xizai"
   ],
   "people": [
     {
@@ -75,6 +84,47 @@
         "tongjian": "tongjian-v268",
         "shibu": "shibu-v002",
         "kaoyi": "kaoyi-v030"
+      }
+    },
+    {
+      "id": "han-xizai",
+      "name": "韩熙载",
+      "dynasty": "南唐",
+      "periodLabel": "吴 · 南唐",
+      "role": "南唐文臣",
+      "aliases": "韓熙載",
+      "intro": "韩熙载，北海将门子弟，父亲遭诛后南奔吴。现存记载中，他在南唐曾任秘书郎、虞部员外郎、史馆修撰、中书舍人等职，向李璟进谏改元、用兵及军法；批评宋齐丘党羽后遭奏劾，被贬和州。李煜时任中书侍郎、勤政殿学士，曾被考虑用为宰相，生前并未因此正式拜相；新史记其死后赠平章事。",
+      "sourceNotes": [
+        "当前归档未明载生年、享年、字叔言或谥文靖，不据外部通行表补入。《通鉴》称父为韩叔嗣，新史只称北海将家子，分别保留。",
+        "《新五代史》南唐世家在乾德五年段内接称是岁熙载卒，按该书叙次保967—968年范围；这反映当前底本的纪年叙次，归档内尚无其他明确卒年可资参照，故未另填唯一卒年或卒日。",
+        "生前拟用为相、左授右庶子、分司南都命令、被留复位与死后赠平章事分别说明；未据单车上道补写已抵洪州的行程，也不把追赠当生前宰相。",
+        "《通鉴》记所贬为和州司士参军，新史作和州司马。宋齐丘奏劾与韩熙载被贬分开，不增写未明的具体颁令者。",
+        "《史补》记晚年家事与伪主命待诏赐图，未写君主、画家姓名或具体画卷；旧史夹引同一史补不视为独立第二份佐证，不凭通行画题补作既定事实。",
+        "记载散见君主世家、编年史与史补，当前未归档韩熙载独立专传。"
+      ],
+      "sources": [
+        {
+          "title": "《旧五代史》卷 134 · 僭伪列传（吴、南唐、闽）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7134&oldid=1490240"
+        },
+        {
+          "title": "《新五代史》卷 62 · 南唐世家第二",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B762&oldid=1674689"
+        },
+        {
+          "title": "《资治通鉴》卷 275 · 后唐纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7275&oldid=803286"
+        },
+        {
+          "title": "《五代史补》卷 5 · 后周史事",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A3%9C%2F%E5%8D%B75&oldid=1754500"
+        }
+      ],
+      "readingStarts": {
+        "old": "old-v134",
+        "new": "new-v62",
+        "tongjian": "tongjian-v275",
+        "shibu": "shibu-v005"
       }
     }
   ]

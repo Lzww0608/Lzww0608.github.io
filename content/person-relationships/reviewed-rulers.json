@@ -2018,5 +2018,109 @@
         "excerpt": "六年正月唐宋齊丘縊死〈江表志齊丘至青陽絶食數日家人亦菜色中使云令公捐舘方始供食家人以絮塞口而卒今從江南録紀年〉"
       }
     ]
+  },
+  {
+    "id": "han-shusi-han-xizai-kinship",
+    "from": "han-shusi",
+    "to": "han-xizai",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "通鉴明确韩叔嗣为熙载之父，并记父因青州王公俨事被诛、熙载将奔吴。新史另泛称北海将家子；当前底本所写韩叔嗣原样保留，不由外部通行人名替换。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v275",
+        "paragraphId": "tongjian-v275-p53",
+        "title": "《资治通鉴》 · 卷 275 · 后唐纪4",
+        "excerpt": "支使北海韓叔嗣預焉。其子熙載將奔吳"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-han-xizai-service",
+    "from": "li-jing-southern-tang",
+    "to": "han-xizai",
+    "kind": "service",
+    "label": "在朝任官、上疏谏政",
+    "note": "韩熙载在李璟朝以秘书郎、虞部员外郎、史馆修撰、中书舍人等职进谏改元、用兵与军法。原段记其具体身份，不据官名推定每次任命均由国主亲自提出，也不把谏议等同实际统兵。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p55",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4",
+        "excerpt": "秘書郎韓熙載請俟逾年改元，不從。"
+      },
+      {
+        "chapterId": "tongjian-v286",
+        "paragraphId": "tongjian-v286-p30",
+        "title": "《资治通鉴》 · 卷 286 · 后汉纪1",
+        "excerpt": "唐虞部員外郎史館修撰韓熙載上疏"
+      },
+      {
+        "chapterId": "tongjian-v290",
+        "paragraphId": "tongjian-v290-p97",
+        "title": "《资治通鉴》 · 卷 290 · 后周纪1",
+        "excerpt": "中書舍人韓熙載曰：「郭氏有國雖淺，為治已固，我兵輕動，必有害無益。」"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-han-xizai-service",
+    "from": "li-yu",
+    "to": "han-xizai",
+    "kind": "service",
+    "label": "任侍郎、学士，死后赠平章事",
+    "note": "新史记李煜拜韩熙载中书侍郎、勤政殿学士；曾欲用为相而未成，死后才赠平章事。任职、拟相与追赠分别说明，不将韩列为生前已经正式拜相。书内是岁卒按乾德五年叙次保存，不以外部未归档卒年覆盖。",
+    "sources": [
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p41",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "拜韓熙載中書侍郎、勤政殿學士。"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p42",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "是歲，熙載卒，煜嘆曰：「吾終不得熙載為相也。」欲以平章事贈之，問前世有此比否？羣臣對曰：「昔劉穆之贈開府儀同三司。」遂贈熙載平章事。"
+      }
+    ]
+  },
+  {
+    "id": "song-qiqiu-han-xizai-accusation-conflict",
+    "from": "song-qiqiu",
+    "to": "han-xizai",
+    "kind": "conflict",
+    "label": "批评宋党后遭奏劾、被贬",
+    "note": "韩熙载屡言宋齐丘党羽必乱，宋齐丘奏其嗜酒猖狂，韩随后被贬。通鉴记和州司士参军，新史记和州司马；各书官名保留。这里区分宋奏劾与韩被贬，不增写省略的具体颁令者，尤其不称宋本人直接颁贬令。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v286",
+        "paragraphId": "tongjian-v286-p87",
+        "title": "《资治通鉴》 · 卷 286 · 后汉纪1",
+        "excerpt": "韓熙載屢言宋齊丘黨與必為禍亂。齊丘奏熙載嗜酒猖狂，貶和州司士參軍。"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p22",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "韓熙載上書切諫，請誅覺等，齊丘惡之，貶熙載和州司馬。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-han-xizai-demotion-conflict",
+    "from": "li-yu",
+    "to": "han-xizai",
+    "kind": "conflict",
+    "label": "因家事左授，后被留复位",
+    "note": "李煜因韩家中妓妾与宾客往来而难于用相，左授右庶子、分司南都；韩斥诸妓单车上道后，李煜留其复位。原段只明确一次左授及复位，不说屡贬屡复，也不据命令补成已经抵洪州。",
+    "sources": [
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p42",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "煜以此難之，左授熙載右庶子，分司南都。熙載盡斥諸妓，單車上道，煜喜留之，復其位。"
+      }
+    ]
   }
 ]

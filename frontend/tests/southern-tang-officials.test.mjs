@@ -69,3 +69,22 @@ test('Song Qiqiu attribution excludes a title-only paragraph and an unresolved s
   assert.ok(index.passages.some(passage => passage.spans.some(span => span.paragraphId === 'shibu-v002-p28') && passage.people.some(person => person.personId === 'song-qiqiu')));
   assert.ok(library.chapters.find(chapter => chapter.id === 'shibu-v002').paragraphs.find(paragraph => paragraph.id === 'shibu-v002-p27'));
 });
+
+test('Han Xizai keeps source-backed context aliases outside canonical identities and excludes a bare heading', () => {
+  for (const query of ['韩熙载', '韓熙載', '熙载', '熙載', '韓熙']) {
+    assert.ok(filterSearch(query).some(person => person.id === 'han-xizai'), query);
+    assert.ok(searchRelationshipNodes(query).some(person => person.id === 'han-xizai'), query);
+  }
+  for (const query of ['韩叔嗣', '韓叔嗣']) {
+    assert.deepEqual(searchRelationshipNodes(query).map(node => node.id), ['han-shusi']);
+    assert.ok(!filterSearch(query).some(person => person.id === 'han-shusi'));
+  }
+  const father = relationshipNodes.find(node => node.id === 'han-shusi');
+  assert.ok(father?.external);
+  for (const collection of [catalogPeople, loadPassagePeople(), catalog.people]) assert.ok(!collection.some(person => person.id === father.id));
+  const paternal = relationshipsForPerson('han-xizai').filter(edge => edge.from === father.id && edge.kind === 'kinship');
+  assert.equal(paternal.length, 1);
+  assert.equal(relationshipsForPerson(father.id).filter(edge => edge.id === paternal[0].id).length, 1);
+  assert.ok(!index.passages.some(passage => passage.spans.some(span => span.paragraphId === 'shibu-v005-p39') && passage.people.some(person => person.personId === 'han-xizai')));
+  assert.ok(index.passages.some(passage => passage.spans.some(span => span.paragraphId === 'shibu-v005-p40') && passage.people.some(person => person.personId === 'han-xizai')));
+});

@@ -9,6 +9,7 @@ export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' |
 export interface RelationshipNode {
   id: string;
   name: string;
+  aliases?: readonly string[];
   external?: boolean;
   group?: string;
   note?: string;
@@ -56,6 +57,7 @@ export function buildRelationshipNodes(
 }
 
 export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipNodes(catalogPeople, [
+  {"id":"han-shusi","name":"韩叔嗣","aliases":["韓叔嗣"],"external":true,"group":"后唐 / 青州","note":"《资治通鉴》卷275记支使、北海人韩叔嗣因王公俨事被诛，继称其子熙载将奔吴。此处仅为解释史载父子关系的关联节点，未新增独立人物条目。"},
   {
     id: 'li-guochang', name: '李国昌', external: true, group: '晚唐 / 沙陀',
     note: '李克用之父，本名赤心，唐廷赐姓名；后唐追尊献祖。此处依据武皇纪登记亲属关联，不把追尊称号写为生前在位，也未新增独立传记或唐代入口。',
@@ -3575,7 +3577,7 @@ export function searchRelationshipNodes(
   return nodes.filter(node => {
     if (!node.id.trim() || seenIds.has(node.id)) return false;
     seenIds.add(node.id);
-    return [node.name, aliasesById.get(node.id) ?? '', ...personSearchNames(node.id)]
+    return [node.name, ...(node.aliases ?? []), aliasesById.get(node.id) ?? '', ...personSearchNames(node.id)]
       .some(text => text.toLocaleLowerCase().includes(normalizedQuery));
   });
 }
