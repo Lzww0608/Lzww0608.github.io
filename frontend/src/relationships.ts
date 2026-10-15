@@ -1,4 +1,5 @@
 import { catalogPeople } from './person-catalog.ts';
+import { personSearchNames } from './person-search-names.ts';
 import tenKingdomsRelationships from '../../content/person-relationships/ten-kingdoms.json' with { type: 'json' };
 import reviewedRulerRelationships from '../../content/person-relationships/reviewed-rulers.json' with { type: 'json' };
 import type { HistoryPerson } from './types.ts';
@@ -3574,7 +3575,7 @@ export function searchRelationshipNodes(
   return nodes.filter(node => {
     if (!node.id.trim() || seenIds.has(node.id)) return false;
     seenIds.add(node.id);
-    return [node.name, aliasesById.get(node.id) ?? '']
+    return [node.name, aliasesById.get(node.id) ?? '', ...personSearchNames(node.id)]
       .some(text => text.toLocaleLowerCase().includes(normalizedQuery));
   });
 }

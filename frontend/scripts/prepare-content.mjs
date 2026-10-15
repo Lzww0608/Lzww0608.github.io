@@ -10,6 +10,7 @@ import { loadEventComparisons } from '../../content/event-comparisons.mjs';
 import { loadEventTimelineLinks } from '../../content/event-timeline-links.mjs';
 import { loadReadingAnnotations, buildReadingAnnotationChapters } from '../../content/reading-annotations.mjs';
 import { writeFileSync } from 'node:fs';
+import { writePersonSearchNames } from './person-search-names.mjs';
 
 const library = loadLibrary();
 const { catalog } = library;
@@ -17,6 +18,7 @@ const chapters = loadPublishedChapters(library);
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-sentence-alignments.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-person-passages.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 const passages = loadPersonPassageIndex(library);
+writePersonSearchNames(passages.people);
 const timelines = loadPersonTimelines(library);
 validateTimelineCoverage(timelines);
 const comparisons = loadEventComparisons(library);

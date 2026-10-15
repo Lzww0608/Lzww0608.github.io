@@ -1,5 +1,6 @@
 import { libraryBooks } from './library.ts';
 import { catalogPeople, personDisplayPeriod, personMatchesGroup, personTopicKeywords } from './person-catalog.ts';
+import { personSearchNames } from './person-search-names.ts';
 import type { Dynasty, FiveDynasty, TenKingdomDynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
 // The person index includes the authorized Ten Kingdoms expansion; other eras remain hidden.
@@ -40,7 +41,7 @@ export const places: [HistoricalPlace, ...HistoricalPlace[]] = [
 ];
 
 export const searchItems: SearchItem[] = [
-  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}${item.lifespan ? ` · 生卒 ${item.lifespan}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
+  ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}${item.lifespan ? ` · 生卒 ${item.lifespan}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personSearchNames(item.id).join(' ')} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {

@@ -1900,5 +1900,123 @@
         "excerpt": "是時，太祖皇帝詔李煜諭鋹使稱臣，鋹怒，囚煜使者龔慎儀。"
       }
     ]
+  },
+  {
+    "id": "yang-pu-song-qiqiu-wu-service",
+    "from": "yang-pu",
+    "to": "song-qiqiu",
+    "kind": "service",
+    "label": "吴朝执政、辅政",
+    "note": "宋齐丘在吴任右仆射、同平章事等职，与景通、王令谋在广陵辅杨溥。徐知诰安排其留辅的实权背景与吴君名义下的臣职分开，不把所有任命都说成杨溥亲自提出。",
+    "sources": [
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p17",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "與宋齊丘、王令謀居廣陵，輔楊溥。"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p38",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "excerpt": "以其子景通為司徒，及左僕射王令謀、右僕射宋齊丘皆平章事。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-song-qiqiu-counsel-service",
+    "from": "li-bian",
+    "to": "song-qiqiu",
+    "kind": "service",
+    "label": "延入幕府、用为谋臣",
+    "note": "徐知诰在升州延宋齐丘为推官、参与谋议，后来又列谋客，建齐国时任左丞相。关系从初入幕至后期反复任用分时期看，不把私人旧交等同亲属，或把后来未预政事时的宰相头衔当作始终掌权。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p60",
+        "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+        "excerpt": "洪州進士宋齊丘，好縱橫之術，謁知誥，知誥奇之，闢為推官，與判官王令謀、參軍王翃專主謀議"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p4",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "引宋齊丘、駱知祥、王令謀等為謀客"
+      },
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p10",
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "excerpt": "以左、右司馬宋齊丘、徐玠為左、右丞相"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-song-qiqiu-office-service",
+    "from": "li-jing-southern-tang",
+    "to": "song-qiqiu",
+    "kind": "service",
+    "label": "召相、太傅与节镇任职",
+    "note": "李璟即位召宋齐丘为太保兼中书令，之后又有太傅、镇南等任职。召为相或奉朝请不都等于实际总揽政事；通鉴对太傅时但奉朝请不预政事有明文。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p55",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4",
+        "excerpt": "唐主以鎮南節度使宋齊丘為太保兼中書令，奉化節度使周宗為侍中。"
+      },
+      {
+        "chapterId": "tongjian-v285",
+        "paragraphId": "tongjian-v285-p28",
+        "title": "《资治通鉴》 · 卷 285 · 后晋纪6",
+        "excerpt": "春，正月，以齊丘為太傅兼中書令，但奉朝請，不預政事。"
+      },
+      {
+        "chapterId": "tongjian-v287",
+        "paragraphId": "tongjian-v287-p54",
+        "title": "《资治通鉴》 · 卷 287 · 后汉纪2",
+        "excerpt": "唐主以太傅兼中書令宋齊丘為鎮南節度使。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-song-qiqiu-punishment-conflict",
+    "from": "li-jing-southern-tang",
+    "to": "song-qiqiu",
+    "kind": "conflict",
+    "label": "获罪归山，锁第后死",
+    "note": "淮南战后李璟将宋齐丘放归九华，初保官爵，后来锁其宅。通鉴记自缢，新史记放还青阳赐死，旧史记杀其臣并追叙放归后寻害之；考异另引家人以絮塞口而死之说而未取。钟谟谋篡指控仍保其发言来源，不将所有指控细节都作独立确证，也不说李璟亲手绞杀。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v294",
+        "paragraphId": "tongjian-v294-p62",
+        "title": "《资治通鉴》 · 卷 294 · 后周纪5",
+        "excerpt": "聽齊丘歸九華山舊隱，官爵悉如故"
+      },
+      {
+        "chapterId": "tongjian-v294",
+        "paragraphId": "tongjian-v294-p69",
+        "title": "《资治通鉴》 · 卷 294 · 后周纪5",
+        "excerpt": "唐宋齊丘至九華山，唐主命鎖其第，穴牆給飲食。"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p36",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "宋齊丘坐覺黨與，放還青陽，賜死。"
+      },
+      {
+        "chapterId": "old-v118",
+        "paragraphId": "old-v118-p13",
+        "title": "《旧五代史》 · 卷 118 · 周世宗纪5",
+        "excerpt": "放齊丘歸九華山，覺等貶官，尋並害之。"
+      },
+      {
+        "chapterId": "kaoyi-v030",
+        "paragraphId": "kaoyi-v030-p73",
+        "title": "《资治通鉴考异》 · 卷 30 · 后唐纪下、后晋、后汉与后周纪",
+        "excerpt": "六年正月唐宋齊丘縊死〈江表志齊丘至青陽絶食數日家人亦菜色中使云令公捐舘方始供食家人以絮塞口而卒今從江南録紀年〉"
+      }
+    ]
   }
 ]

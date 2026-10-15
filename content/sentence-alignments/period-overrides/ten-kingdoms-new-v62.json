@@ -878,9 +878,10 @@
       "paragraphId": "new-v62-p22",
       "originalRevision": 1,
       "originalSha256": "f095cee94e2d2da671199b6201266c2113d34e54ddb50cea0f857acdaedfb749",
-      "translationId": "8135",
-      "translationVersion": 1,
-      "translationSha256": "6b252fef1a8dfcceffbe3d5592c25c9e36a3cc0ba6cc6a129a28cc870765f7d7",
+      "translationId": "8609",
+      "translationVersion": 2,
+      "translationSha256": "7f256895382e49bbcf1af1f961f59a57aa84223faf48d2668e387391dc73f63f",
+      "reason": "Avoid modern subject carry-over that may be read as Song personally issuing the demotion. Make Han the explicit passive recipient, without asserting that the original explicitly names a royal issuer or using assumed chancellor authority to rewrite the source. Canonical New Sima and Tongjian Sishi Canjun remain separate.；全部对应单位经最终稿实际语义复核后绑定本次正式版本。",
       "sentences": [
         {
           "originalStart": 0,
@@ -964,28 +965,27 @@
           "originalStart": 352,
           "originalEnd": 378,
           "translationStart": 417,
-          "translationEnd": 448
+          "translationEnd": 451
         },
         {
           "originalStart": 378,
           "originalEnd": 408,
-          "translationStart": 448,
-          "translationEnd": 487
+          "translationStart": 451,
+          "translationEnd": 490
         },
         {
           "originalStart": 408,
           "originalEnd": 448,
-          "translationStart": 487,
-          "translationEnd": 534
+          "translationStart": 490,
+          "translationEnd": 537
         },
         {
           "originalStart": 448,
           "originalEnd": 482,
-          "translationStart": 534,
-          "translationEnd": 573
+          "translationStart": 537,
+          "translationEnd": 576
         }
-      ],
-      "reason": "按保存底本的每个句号单位逐句制作译文片段，整段发布后绑定实际译文ID与版本；未按句数或字符比例猜配。"
+      ]
     },
     {
       "paragraphId": "new-v62-p23",

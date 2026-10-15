@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { MagnifyingGlass, ArrowRight, X, UsersThree } from '@phosphor-icons/react';
 import { displayedDynasties, people, books, filterSearch } from './data';
+import { personSearchNames } from './person-search-names';
 import { chapterRoute, libraryChapters, personPassageBooks, personSourcesRoute, resolvePersonSourcesRoute, resolveReadingRoute, resolveRoute } from './library';
 import { Reader } from './Reader';
 import { ThemeSwitcher } from './ThemeSwitcher';
@@ -94,7 +95,7 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   const sharedEmperors = topic ? reigningEmperors.filter(person => topic.memberIds.includes(person.id)) : [];
   const groupedPeople = peopleForGroup(people, groupId);
   const availableDynasties = displayedDynasties.filter(value => groupedPeople.some(person => person.dynasty === value));
-  const visible = groupedPeople.filter(person => (dynasty === '全部' || person.dynasty === dynasty) && `${person.name} ${person.aliases}`.includes(query.trim()));
+  const visible = groupedPeople.filter(person => (dynasty === '全部' || person.dynasty === dynasty) && `${person.name} ${person.aliases} ${personSearchNames(person.id).join(' ')}`.includes(query.trim()));
   return <section className="page-shell">
     <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝、十国 {tenKingdomRulers.length} 位君主{historicalLeaders.length > 0 && `、${historicalLeaders.map(person => person.name).join('、')}等历史主将`}及{personTopics.map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</p></div>
     <div className="people-view-switch" role="group" aria-label="人物浏览方式"><button aria-pressed={view === 'list'} onClick={() => onViewChange('list')}>人物名单</button><button aria-pressed={view === 'graph'} onClick={() => onViewChange('graph')}>关系图</button></div>
