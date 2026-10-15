@@ -3340,11 +3340,11 @@
     },
     {
       "chapterId": "chunqiu-v002",
-      "start": 1,
+      "start": 2,
       "end": 4,
       "personId": "li-congke",
-      "startText": "後唐末帝",
-      "endText": "丙申三年五月，河東石敬瑭拒命，張敬達、楊光遠帥師討河東。鄴都軍亂，逐劉延皓，范延光帥",
+      "startText": "甲午清泰元年四月庚午，帝卽位。乙酉，改元。誅康義誠、朱洪昭、馮斌。丙申，葬明宗皇帝於徽陵。八月，",
+      "endText": "丙申三年五月，河東石敬瑭拒命，張敬達、楊光遠帥師討河東。鄴都軍亂，逐劉延皓，范延光帥師討平之。九",
       "label": "春秋分君编年",
       "kind": "record"
     },
@@ -9208,6 +9208,88 @@
       "reason": "只引《唐愍帝实录》校李存沼与李存霸身份，未叙从厚本人事项；书名误关联移除，其他李嗣源、李存勖、李克用关联保持。",
       "terms": [
         "愍帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "new-v07-p13",
+      "reason": "独立校注只辨宋令询慈州/磁州及引旧史唐末帝纪卷名；本人死亡主叙new7p7/TJ279p26保留，校注原文/译文不删，不将卷名当本人独立史事。",
+      "terms": [
+        "唐末帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "tongjian-v279-p3",
+      "reason": "纯分君篇题与年头，无独立史事；原文标题和阅读样式保留，只移人物片段关联。",
+      "terms": [
+        "潞王"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "tongjian-v279-p81",
+      "reason": "纯清泰二年分君篇题，无独立史事；与卷278未纳的潞王上标题同标准。",
+      "terms": [
+        "潞王"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "quewen-v001-p26",
+      "reason": "仅清泰帝小节标题，无独立史事；后27完整叙事及标题显示保持。",
+      "terms": [
+        "清泰帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "chunqiu-v002-p1",
+      "reason": "仅后唐末帝篇题，无独立史事；分君编年正文2至4完整保留，不将标题当一条人物记载。",
+      "terms": [
+        "唐末帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "kaoyi-v030-p11",
+      "reason": "仅辨刘皇后之侄/弟及刘延朗籍贯，废帝实录为引书名；确属从珂后族相关校勘，但未叙本人直接事项或命令，不把后族全部经历继承给皇帝。",
+      "terms": [
+        "廢帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "kaoyi-v030-p16",
+      "reason": "仅校石敬瑭即位日、地点和契丹册立来源，废帝实录只是引书；从珂并非该段立帝主语。",
+      "terms": [
+        "廢帝"
+      ]
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "kaoyi-v030-p17",
+      "reason": "仅校契丹命护送晋帝的太相温汉蕃异名，废帝实录仅引书，帝为石敬瑭。",
+      "terms": [
+        "廢帝"
+      ]
+    },
+    {
+      "personId": "an-yuanxin",
+      "paragraphId": "old-v048-p7",
+      "reason": "同名军使/屯将的记载与大将本传清泰三二月卒存在身份疑点，不能凭同名归已卒大将；暂停此具体段归属，不改底本或新增人物。",
+      "terms": [
+        "安元信",
+        "元信"
+      ]
+    },
+    {
+      "personId": "an-yuanxin",
+      "paragraphId": "old-v075-p14",
+      "reason": "同名军使/屯将的记载与大将本传清泰三二月卒存在身份疑点，不能凭同名归已卒大将；暂停此具体段归属，不改底本或新增人物。",
+      "terms": [
+        "安元信",
+        "元信"
       ]
     }
   ],
