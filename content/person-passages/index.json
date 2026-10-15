@@ -734,6 +734,10 @@
     {
       "id": "han-xizai",
       "name": "韩熙载"
+    },
+    {
+      "id": "xu-xuan",
+      "name": "徐铉"
     }
   ],
   "passages": [
@@ -39238,6 +39242,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
         }
       ]
     },
@@ -40406,6 +40414,10 @@
         {
           "personId": "li-yu",
           "kind": "biography"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
         }
       ]
     },
@@ -40441,6 +40453,10 @@
         },
         {
           "personId": "wang-yanxi",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
           "kind": "record"
         }
       ]
@@ -126854,6 +126870,10 @@
         {
           "personId": "han-xizai",
           "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
         }
       ]
     },
@@ -131958,6 +131978,10 @@
         {
           "personId": "han-xizai",
           "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
         }
       ]
     },
@@ -132858,6 +132882,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v291-p71",
+      "chapterId": "tongjian-v291",
+      "title": "卷 291 · 后周纪2 · 第 71 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v291-p71",
+          "originalRevision": 1,
+          "originalSha256": "037658866737951d7780a00220e3928f504ed25c42f7a89acc122795e291f2a9",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "people": [
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v291-p72",
       "chapterId": "tongjian-v291",
       "title": "卷 291 · 后周纪2 · 第 72 段",
@@ -132873,6 +132917,10 @@
       "people": [
         {
           "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
           "kind": "record"
         }
       ]
@@ -132894,6 +132942,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
         }
       ]
     },

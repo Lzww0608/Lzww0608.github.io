@@ -88,3 +88,25 @@ test('Han Xizai keeps source-backed context aliases outside canonical identities
   assert.ok(!index.passages.some(passage => passage.spans.some(span => span.paragraphId === 'shibu-v005-p39') && passage.people.some(person => person.personId === 'han-xizai')));
   assert.ok(index.passages.some(passage => passage.spans.some(span => span.paragraphId === 'shibu-v005-p40') && passage.people.some(person => person.personId === 'han-xizai')));
 });
+
+test('Xu Xuan retains name distinctions, bibliographic mentions and a contextual brother', () => {
+  for (const query of ['徐铉', '徐鉉', '铉', '鉉', ' 徐鉉 ']) {
+    assert.ok(filterSearch(query).some(person => person.id === 'xu-xuan'), query);
+    assert.ok(searchRelationshipNodes(query).some(person => person.id === 'xu-xuan'), query);
+  }
+  for (const query of ['徐锴', '徐鍇']) assert.deepEqual(searchRelationshipNodes(query).map(node => node.id), ['xu-kai']);
+  const brother = relationshipNodes.find(node => node.id === 'xu-kai');
+  assert.ok(brother?.external);
+  for (const collection of [catalogPeople, loadPassagePeople(), catalog.people]) assert.ok(!collection.some(person => person.id === brother.id));
+  const fraternal = relationshipsForPerson('xu-xuan').filter(edge => edge.from === 'xu-xuan' && edge.to === brother.id && edge.kind === 'kinship');
+  assert.equal(fraternal.length, 1);
+  assert.equal(relationshipsForPerson(brother.id).filter(edge => edge.id === fraternal[0].id).length, 1);
+  for (const paragraphId of ['old-v030-p3', 'old-v118-p1', 'tongjian-v287-p77']) {
+    assert.ok(!index.passages.some(passage => passage.spans.some(span => span.paragraphId === paragraphId) && passage.people.some(person => person.personId === 'xu-xuan')), paragraphId);
+    assert.ok(library.chapters.some(chapter => chapter.paragraphs.some(paragraph => paragraph.id === paragraphId)), paragraphId);
+  }
+  for (const paragraphId of ['new-v61-p47', 'tongjian-v291-p73']) {
+    const passage = index.passages.find(passage => passage.spans.some(span => span.paragraphId === paragraphId));
+    assert.equal(passage?.people.find(person => person.personId === 'xu-xuan')?.kind, 'mention', paragraphId);
+  }
+});

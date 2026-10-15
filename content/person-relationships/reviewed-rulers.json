@@ -2122,5 +2122,87 @@
         "excerpt": "煜以此難之，左授熙載右庶子，分司南都。熙載盡斥諸妓，單車上道，煜喜留之，復其位。"
       }
     ]
+  },
+  {
+    "id": "li-jing-xu-xuan-service",
+    "from": "li-jing-southern-tang",
+    "to": "xu-xuan",
+    "kind": "service",
+    "label": "任知制诰，奉命按视民田",
+    "note": "徐铉在李璟朝以知制诰身份与韩熙载共同上疏，后见祠部朗中、知制诰官称，并曾奉国主命查核屯田侵夺民田。这里只据原文说明任职和明确委任，不把同朝所有任命都说成国主亲自提议。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v286",
+        "paragraphId": "tongjian-v286-p85",
+        "title": "《资治通鉴》 · 卷 286 · 后汉纪1",
+        "excerpt": "知制誥會稽徐鉉、史館修撰韓熙載上疏"
+      },
+      {
+        "chapterId": "tongjian-v291",
+        "paragraphId": "tongjian-v291-p71",
+        "title": "《资治通鉴》 · 卷 291 · 后周纪2",
+        "excerpt": "唐祠部朗中、知制誥徐鉉言貢舉初設，不宜遽罷，乃復行之。"
+      },
+      {
+        "chapterId": "tongjian-v291",
+        "paragraphId": "tongjian-v291-p72",
+        "title": "《资治通鉴》 · 卷 291 · 后周纪2",
+        "excerpt": "徐鉉以白唐主，唐主命鉉按視之，鉉籍民田悉歸其主。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-xu-xuan-exile-conflict",
+    "from": "li-jing-southern-tang",
+    "to": "xu-xuan",
+    "kind": "conflict",
+    "label": "遭谗后被流舒州",
+    "note": "徐铉奉命按视后归还民田，有人谗其擅作威福，李璟发怒，流徐铉舒州。原文没有指明谗者，不把此前提议屯田的李德明、冯延己自动认作进谗者，也不把其弟徐锴另一件贬官合并。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v291",
+        "paragraphId": "tongjian-v291-p72",
+        "title": "《资治通鉴》 · 卷 291 · 后周纪2",
+        "excerpt": "或譖鉉擅作威福，唐主怒，流鉉舒州。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-xu-xuan-service",
+    "from": "li-yu",
+    "to": "xu-xuan",
+    "kind": "service",
+    "label": "奉命使宋请求缓师",
+    "note": "新史记李煜遣徐铉、周惟简等奉表请求缓师；又引江南故老补述徐铉在宋廷辩说。两段为同书正文与转述层次，不冒充两次有确日的独立使行；未据此补归宋后官职。",
+    "sources": [
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p46",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "煜遣徐鉉、周惟簡等奉表朝廷求緩師，不答。"
+      },
+      {
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p47",
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "excerpt": "煜遣其臣徐鉉朝于京師。"
+      }
+    ]
+  },
+  {
+    "id": "xu-xuan-xu-kai-kinship",
+    "from": "xu-xuan",
+    "to": "xu-kai",
+    "kind": "kinship",
+    "label": "兄弟，徐锴为弟",
+    "note": "通鉴明确徐锴为徐铉弟弟。该段上表反对冯延鲁奉使、被贬校书郎及分司东都的主体是徐锴，不是徐铉；只据兄弟句登记关系，不推父母姓名或其他谱系。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v291",
+        "paragraphId": "tongjian-v291-p73",
+        "title": "《资治通鉴》 · 卷 291 · 后周纪2",
+        "excerpt": "鍇，鉉之弟也。"
+      }
+    ]
   }
 ]
