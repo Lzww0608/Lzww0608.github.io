@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 200,
-    "paragraphCount": 8523
+    "chapterCount": 204,
+    "paragraphCount": 8659
   },
   "people": [
     {
@@ -850,6 +850,38 @@
     {
       "id": "liang-zhang-quanyi-daughter-li-su-wife",
       "name": "张氏（李肃妻、张全义女）"
+    },
+    {
+      "id": "tang-li-keyong-wife-liu",
+      "name": "秦国夫人刘氏（李克用正室）"
+    },
+    {
+      "id": "tang-li-keyong-consort-cao",
+      "name": "贞简皇后曹氏"
+    },
+    {
+      "id": "tang-li-keyong-consort-chen",
+      "name": "魏国夫人陈氏（李克用妃）"
+    },
+    {
+      "id": "tang-li-keyong-consort-zhang",
+      "name": "张氏（李匡俦妻、李克用内宠）"
+    },
+    {
+      "id": "tang-li-keyong-mother-qin",
+      "name": "文景皇后秦氏"
+    },
+    {
+      "id": "tang-li-keyong-daughter-binguo",
+      "name": "邠国夫人（王珂妻）"
+    },
+    {
+      "id": "tang-princess-yaoying",
+      "name": "瑶英长公主"
+    },
+    {
+      "id": "tang-princess-qionghua",
+      "name": "琼华长公主（福庆长公主）"
     }
   ],
   "passages": [
@@ -997,6 +1029,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-mother-qin",
           "kind": "record"
         }
       ]
@@ -1149,6 +1185,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
           "kind": "record"
         }
       ]
@@ -1537,6 +1577,10 @@
         },
         {
           "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -2801,6 +2845,10 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -4282,6 +4330,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -4830,6 +4882,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
         }
       ]
     },
@@ -4941,6 +4997,10 @@
       "people": [
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -5197,6 +5257,14 @@
       "people": [
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-chen",
           "kind": "record"
         }
       ]
@@ -5681,6 +5749,14 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-yaoying",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
           "kind": "record"
         }
       ]
@@ -6590,6 +6666,26 @@
       ]
     },
     {
+      "id": "passage-huiyao-v004-p4",
+      "chapterId": "huiyao-v004",
+      "title": "卷 4 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v004-p4",
+          "originalRevision": 1,
+          "originalSha256": "b5c653961dfea25accc0420c51cdbde75cf3efeee96ca15513fcce662e73a93f",
+          "start": 0,
+          "end": 145
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-huiyao-v004-p8",
       "chapterId": "huiyao-v004",
       "title": "卷 4 · 第 8 段",
@@ -6749,6 +6845,26 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v004-p20",
+      "chapterId": "huiyao-v004",
+      "title": "卷 4 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v004-p20",
+          "originalRevision": 1,
+          "originalSha256": "de6110e4ddddf24a2518581429961a2f4705cc4eb8ed2aef1956e26145b9e5bf",
+          "start": 0,
+          "end": 157
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -7986,6 +8102,26 @@
       ]
     },
     {
+      "id": "passage-huiyao-v008-p12",
+      "chapterId": "huiyao-v008",
+      "title": "卷 8 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v008-p12",
+          "originalRevision": 1,
+          "originalSha256": "ef44ffed7d9c0a44f806a1044797c7b2f4f543077ae7fa78dfee1ed5084b0bbf",
+          "start": 0,
+          "end": 475
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-huiyao-v008-p14",
       "chapterId": "huiyao-v008",
       "title": "卷 8 · 第 14 段",
@@ -9042,6 +9178,26 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v011-p17",
+      "chapterId": "huiyao-v011",
+      "title": "卷 11 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v011-p17",
+          "originalRevision": 1,
+          "originalSha256": "d21b0d42c9c018f4725473b95921e29f2322c66c9d11922d12927baab2583e01",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "mention"
         }
       ]
     },
@@ -24382,6 +24538,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
         }
       ]
     },
@@ -24409,6 +24569,10 @@
         },
         {
           "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -24445,6 +24609,14 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -24814,6 +24986,10 @@
         {
           "personId": "li-siyuan",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -28381,6 +28557,1970 @@
         },
         {
           "personId": "liang-zhu-wen-sister-wanan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p2",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p2",
+          "originalRevision": 1,
+          "originalSha256": "4d954b8620fec9a0bcaf98019de64be0663b73bd463ae6f49448c91ee5b24856",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p3",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p3",
+          "originalRevision": 1,
+          "originalSha256": "44b431478cda1aa6b1f5a9c05703ee1b8b240565c9cfc4ec5cbb36943e6eda6a",
+          "start": 0,
+          "end": 207
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p4",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p4",
+          "originalRevision": 1,
+          "originalSha256": "d719168cfb23591a93f75373230d51d069623fd888406b474200c5b08adbd62d",
+          "start": 0,
+          "end": 213
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxin",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p5",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p5",
+          "originalRevision": 1,
+          "originalSha256": "bed6a776074080c07ce5093e21792444609432aed7ca34beebb0c8548169c84b",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p6",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p6",
+          "originalRevision": 1,
+          "originalSha256": "1bdb56fa6e5f84db2466d9c39979216c6467aeee839a9a89793b7fc535559eb0",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p7",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p7",
+          "originalRevision": 1,
+          "originalSha256": "6dd4bcd3cf3738cae303f6530bc2c10a505ca8ca0c1b7173e5f5f4e8038d5ef8",
+          "start": 0,
+          "end": 158
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p9",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p9",
+          "originalRevision": 1,
+          "originalSha256": "fedb08972904fcf4a70f1e22136aab11c9a02f4ca004d3608dd26fca734ff968",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p10",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p10",
+          "originalRevision": 1,
+          "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+          "start": 0,
+          "end": 235
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-daozhao",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-jianfeng",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p11",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p11",
+          "originalRevision": 1,
+          "originalSha256": "ca5e70bfa04eef89a6fd486334a8ffb458b2c1e0b53d452398fa263368ea24bb",
+          "start": 0,
+          "end": 136
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-jianfeng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p12",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p12",
+          "originalRevision": 1,
+          "originalSha256": "dc4b718d5cbc43dd38df0033b3b51fd6903002893494383846dcd5a22fd2245e",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p13",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p13",
+          "originalRevision": 1,
+          "originalSha256": "6417e9ad2897e666786f36b94891e46b889aa949b7e6dcda092106f1fb02659c",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p14",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p14",
+          "originalRevision": 1,
+          "originalSha256": "f749a329d074618b26c0f0e589321b96974cdec794f0be5374bec3049fc1c96f",
+          "start": 0,
+          "end": 154
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p15",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p15",
+          "originalRevision": 1,
+          "originalSha256": "e0d671fd4b2574531ccdb9c4b4fa1a20636a9336a997811e31957a11e247ce45",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-xingqin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p16",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p16",
+          "originalRevision": 1,
+          "originalSha256": "c6ae420295878469addbf1c9261249806b83709e8c916ff6a61fad9657dc9c7d",
+          "start": 0,
+          "end": 119
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-xingqin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p17",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p17",
+          "originalRevision": 1,
+          "originalSha256": "4db402cd205817a988c851c950e4898bfa6f860d8cc48b00ced177e6bbe571ac",
+          "start": 0,
+          "end": 146
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p18",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p18",
+          "originalRevision": 1,
+          "originalSha256": "44f9f1db572e96e27d97cdf043972baca12aaf0853887e339d934d0206fb28c1",
+          "start": 0,
+          "end": 194
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "zhao-zaili",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p19",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p19",
+          "originalRevision": 1,
+          "originalSha256": "a8640299522d2ee38ce812c6f52caa57bacf6835b64c5c55bd1ea032b3b2fdd5",
+          "start": 0,
+          "end": 208
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p20",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p20",
+          "originalRevision": 1,
+          "originalSha256": "e5b8d43e5b3b0eeaea918c6956bfa104fc9b3a15f92c686b491647c721f00051",
+          "start": 0,
+          "end": 127
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-congqian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p21",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p21",
+          "originalRevision": 1,
+          "originalSha256": "50b081ece08f235847984eeb2876ee33195e1832d23e1d9ccef85fc7b34cca7a",
+          "start": 0,
+          "end": 224
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "xia-luqi",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-shouyin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p22",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p22",
+          "originalRevision": 1,
+          "originalSha256": "1ae61c8ba3bbf4ba5f02c08f31b8ff3d24605a3c0cfc71940bbed0474aebe61f",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p24",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p24",
+          "originalRevision": 1,
+          "originalSha256": "e50ef4496d30798824edc345a3e93b89850f2d1b051c3d59f9ec588f7513073b",
+          "start": 0,
+          "end": 217
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p26",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p26",
+          "originalRevision": 1,
+          "originalSha256": "514a5e347ff72ad988697fe13dcb6c86e2c6d2e8c7e3a0513382124f450f985f",
+          "start": 0,
+          "end": 152
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-hanzhi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p28",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p28",
+          "originalRevision": 1,
+          "originalSha256": "b886064b7c555e24cf6cd73ba2e76f300ac795d128d7d5ad6b42c9d62582f341",
+          "start": 0,
+          "end": 149
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p30",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 30 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p30",
+          "originalRevision": 1,
+          "originalSha256": "ef22bec576512a440f12c8f5e2ed83467643a4fb82d3756a28f9a51bdc16897a",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p32",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 32 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p32",
+          "originalRevision": 1,
+          "originalSha256": "3a0d3a5f523c2b387255f8781125bcf8b49a9964da2888345ca4899c66d0e3f4",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p33",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p33",
+          "originalRevision": 1,
+          "originalSha256": "1be8457cff94dfc00bc5d584247ca5d95c248b07a04ba794ec1bc122cbc75c09",
+          "start": 0,
+          "end": 136
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p34",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 34 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p34",
+          "originalRevision": 1,
+          "originalSha256": "b32a370c92ba3bcc2999db66e3f6aa9ef833673e47a1d8b3859f74ed72031e4b",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p35",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 35 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p35",
+          "originalRevision": 1,
+          "originalSha256": "e11d9f206dca6b912a335edc03b1b7fb1be47fa15dceba9399f05cd0103d6c27",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunzhang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p37",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 37 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p37",
+          "originalRevision": 1,
+          "originalSha256": "ce1690d733bfc9316a89e7a74603a0d127bcf0d09319f217805d7ec4024069fe",
+          "start": 0,
+          "end": 127
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p38",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 38 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p38",
+          "originalRevision": 1,
+          "originalSha256": "a5997cc116b19464251c35ce94acc0ef7cca57696d64b6bca000fd782b31b5bb",
+          "start": 0,
+          "end": 192
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p39",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 39 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p39",
+          "originalRevision": 1,
+          "originalSha256": "31ec3bccecdcc1bdbd9bd6af4607f56f058b77c88456d8ff330805d7a4bffe6e",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-congqian",
+          "kind": "record"
+        },
+        {
+          "personId": "zhao-zaili",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p40",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 40 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p40",
+          "originalRevision": 1,
+          "originalSha256": "19c908cd304f525b8eef638029171cda20266a03c84b7f4d9ff927e39ce76cb5",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "huo-yanwei",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-congqian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p43",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 43 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p43",
+          "originalRevision": 1,
+          "originalSha256": "01e62fc30e95be36630bcede006f76540d86285311599340c47e8ae8e6cafde6",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p44",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 44 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p44",
+          "originalRevision": 1,
+          "originalSha256": "a9db439eba107fe0038676893f90f031f05551c537ef4d46b992e4c0e0b4917b",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p45",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 45 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p45",
+          "originalRevision": 1,
+          "originalSha256": "7ae9c682096713ae87dd11af6c3d94c116370d039e101672d8f2c08ebf919fcc",
+          "start": 0,
+          "end": 298
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-yanxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p46",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 46 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p46",
+          "originalRevision": 1,
+          "originalSha256": "2591d4584aea0a0cbf325ef7b55209ef1628d3a7b98c4781697ec0dab4560358",
+          "start": 0,
+          "end": 236
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p47",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 47 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p47",
+          "originalRevision": 1,
+          "originalSha256": "c161180edaa0af1d07f2a27ece2843bd08456ab0289cc5590dd1590eb27f65e3",
+          "start": 0,
+          "end": 417
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
+          "personId": "meng-zhixiang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p48",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 48 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p48",
+          "originalRevision": 1,
+          "originalSha256": "19dc8ae943e7900389a441ca8e33896380877ccdd6aa490c64fba9354d6b4ab9",
+          "start": 0,
+          "end": 276
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-yanxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p49",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 49 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p49",
+          "originalRevision": 1,
+          "originalSha256": "61edb18889e8521029268c6ec762886f828d3dccf368175bfd3be04d9986240d",
+          "start": 0,
+          "end": 159
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v14-p50",
+      "chapterId": "new-v14",
+      "title": "卷 14 · 唐家人传第二 · 第 50 段",
+      "spans": [
+        {
+          "paragraphId": "new-v14-p50",
+          "originalRevision": 1,
+          "originalSha256": "bcb79bec8df4d5362684edd3d5f6604d4c5ba94b7ac7cdf218c3c12eb5a6f657",
+          "start": 0,
+          "end": 231
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p2",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p2",
+          "originalRevision": 1,
+          "originalSha256": "88346478d8c15cea56cc5e49fe59123fb80ee1401c3848c243697b6f3720c723",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p3",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p3",
+          "originalRevision": 1,
+          "originalSha256": "2deeebd4c51f42f84574dad3dd1307515e7a14fd5c536053e54eecf53746d543",
+          "start": 0,
+          "end": 88
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p5",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p5",
+          "originalRevision": 1,
+          "originalSha256": "d02dcfbb71408e25d81a5293fbd7ac98311ea75fc147c324a0fe3daf598e1647",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p7",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p7",
+          "originalRevision": 1,
+          "originalSha256": "3632a0473eb8888b4719061d7aa17a6217a956bb42e7882d0582a81572301f66",
+          "start": 0,
+          "end": 136
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-xun",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p8",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p8",
+          "originalRevision": 1,
+          "originalSha256": "c9e5425984bd4beeeabee62cef09565812d1c8cc023143731a903d7ec3f0d24b",
+          "start": 0,
+          "end": 412
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-xun",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p9",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p9",
+          "originalRevision": 1,
+          "originalSha256": "2fecc597f833d462cedf83531bf9edc3944d3e1aac4d621f01e94637ccdabfbf",
+          "start": 0,
+          "end": 164
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p10",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p10",
+          "originalRevision": 1,
+          "originalSha256": "ac18a837ee1462bfc0f64379a9b4956d9683fa01619e99dbeac7825d53fe6759",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p11",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p11",
+          "originalRevision": 1,
+          "originalSha256": "2915aa9855a39cb5aa1355a41a7ef4256a34ba3e764106aace8bae7d5d9dbebb",
+          "start": 0,
+          "end": 149
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-chonggui",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p12",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p12",
+          "originalRevision": 1,
+          "originalSha256": "f078b9b729a6d0f28624a60e0dae5b3f584abab2755bc589f67c2b969e9d500d",
+          "start": 0,
+          "end": 180
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p13",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p13",
+          "originalRevision": 1,
+          "originalSha256": "0a962681e04916c56634489e2d1efd74cfe679b7189115cf7bb6ff77168b17e5",
+          "start": 0,
+          "end": 148
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-xingzhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p15",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p15",
+          "originalRevision": 1,
+          "originalSha256": "a956b8ee122609261953b68cf6be7dbee706c1ce9ba16bf7234ebd1a07976361",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p18",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p18",
+          "originalRevision": 1,
+          "originalSha256": "d7f3c1aeba70b817b3394514ac6433862a0f74b1b835c11c088c6c6e885e9fe4",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p19",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p19",
+          "originalRevision": 1,
+          "originalSha256": "a337245e2b43b5af3f464259185a377bf438c857d444d729fc18338204673fae",
+          "start": 0,
+          "end": 164
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-xingqin",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p20",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p20",
+          "originalRevision": 1,
+          "originalSha256": "d6c21bec3026bde415dfc07131876bb2c67b315e47a2d07a2dcea4e53220838e",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-xingqin",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p21",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p21",
+          "originalRevision": 1,
+          "originalSha256": "5a4c83bd06901504326adf6cba8c6504c3400a444746ed542f43512bb54f9f5c",
+          "start": 0,
+          "end": 323
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-congjing",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p24",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p24",
+          "originalRevision": 1,
+          "originalSha256": "4ce1c266bea4d7711a07e95691c640353f5c326a0453fc1cc8fc04cd10dbfd17",
+          "start": 0,
+          "end": 224
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p26",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p26",
+          "originalRevision": 1,
+          "originalSha256": "19c029f24e529eb473dff34c7b1ad2f5b8f2a2a4b92dbbb7fc7c53857f0a5a88",
+          "start": 0,
+          "end": 419
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p27",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p27",
+          "originalRevision": 1,
+          "originalSha256": "ebb20b43e1ba997db6f1de208e7913ad0e88cdb2e0c374e3a01ce7ada72049fb",
+          "start": 0,
+          "end": 159
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p28",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p28",
+          "originalRevision": 1,
+          "originalSha256": "a71a1dbbf4d69eb457fb75f01db8bbe5a115e76b7f7ad675e25da9c8ce5d1a04",
+          "start": 0,
+          "end": 220
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p29",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p29",
+          "originalRevision": 1,
+          "originalSha256": "ad1e3190ee4059592b3ecf06788647500c6ec4c91ec7b3b42fd75b4560a61bec",
+          "start": 0,
+          "end": 279
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p30",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 30 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p30",
+          "originalRevision": 1,
+          "originalSha256": "d06623e545475027f30750a9331ddcb935f8081fd085e36224e155d59e44ff27",
+          "start": 0,
+          "end": 283
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p32",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 32 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p32",
+          "originalRevision": 1,
+          "originalSha256": "d680fbb5b43010cdf2903418828eaaf9c79323a09f6cf7f3748fb698ba56eac7",
+          "start": 0,
+          "end": 75
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p35",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 35 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p35",
+          "originalRevision": 1,
+          "originalSha256": "0468a6b87ec7918ab3d09287773bd402feae033bbac33c349b2826bfa93f3018",
+          "start": 0,
+          "end": 31
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p36",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 36 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p36",
+          "originalRevision": 1,
+          "originalSha256": "1b64d2b6fed8b6735997970c40438af2dab99da7bd2d0ca4b3e2652ad2661c6e",
+          "start": 0,
+          "end": 114
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p38",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 38 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p38",
+          "originalRevision": 1,
+          "originalSha256": "a966c336bc5eb98cf893e209ad51e4002646fc8f69a7ee214e5175b2938352b2",
+          "start": 0,
+          "end": 198
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p40",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 40 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p40",
+          "originalRevision": 1,
+          "originalSha256": "cf735f108d5560b32f195060d7436579840639a875c97d675109987382a3f024",
+          "start": 0,
+          "end": 115
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p41",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 41 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p41",
+          "originalRevision": 1,
+          "originalSha256": "0514ff1c96417ee4447ffd2fb9e8324399e02080a846bbba4d67531b0238f932",
+          "start": 0,
+          "end": 119
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-chonggui",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p44",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 44 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p44",
+          "originalRevision": 1,
+          "originalSha256": "fa9a6ddae14ffbcb5030d852f0e3efe9ed4d57b947659ce36d814f43886fdc1f",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p45",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 45 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p45",
+          "originalRevision": 1,
+          "originalSha256": "73858a26293cbc44b97e1ae2f9af12e8b027aff5ac074c74a66137186c368560",
+          "start": 0,
+          "end": 118
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p2",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p2",
+          "originalRevision": 1,
+          "originalSha256": "e6e8f97c797b684c2d49afbd42f0cf0864ff571f389c23fd0dcaaa165a4f3977",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p3",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p3",
+          "originalRevision": 1,
+          "originalSha256": "d4e80850cfa2092aff16e4db8622b393ef4cbcea6bf215d6968469699950254e",
+          "start": 0,
+          "end": 231
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p5",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p5",
+          "originalRevision": 1,
+          "originalSha256": "ffb4a04ee7410309e06122dcc04485c64dd8270cd70a266dd7ed2e4c133f819d",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p6",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p6",
+          "originalRevision": 1,
+          "originalSha256": "4c9519840ff1910487e55a1fc026facc1534442d2ee32527adbed48f901ec4c8",
+          "start": 0,
+          "end": 91
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p8",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p8",
+          "originalRevision": 1,
+          "originalSha256": "e0d7f33cbc5fd4b3b77eea738ccab8d40de9de432519dc810dee9dee75ac9522",
+          "start": 0,
+          "end": 64
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p9",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p9",
+          "originalRevision": 1,
+          "originalSha256": "f12a3cb20f1a4dc69ea729b4ecc79e185f30e228d542e03f3b71dd50f758c674",
+          "start": 0,
+          "end": 193
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v16-p10",
+      "chapterId": "new-v16",
+      "title": "卷 16 · 唐废帝家人传第四 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "new-v16-p10",
+          "originalRevision": 1,
+          "originalSha256": "a979ee170efe0482d6589714c76d9db5f2f0a06c419c3a06c1102cda9e7ce855",
+          "start": 0,
+          "end": 232
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "chai-rong",
           "kind": "mention"
         }
       ]
@@ -33590,6 +35730,10 @@
         {
           "personId": "shi-shucong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
         }
       ]
     },
@@ -34073,6 +36217,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
           "kind": "record"
         }
       ]
@@ -41838,6 +43986,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -42002,6 +44154,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -42154,6 +44310,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -58914,6 +61074,10 @@
         {
           "personId": "li-keyong",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
         }
       ]
     },
@@ -59206,6 +61370,10 @@
         {
           "personId": "li-keyong",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
         }
       ]
     },
@@ -59930,6 +62098,10 @@
         {
           "personId": "li-keyong",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-consort-chen",
+          "kind": "record"
         }
       ]
     },
@@ -60330,6 +62502,10 @@
         {
           "personId": "li-keyong",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-daughter-binguo",
+          "kind": "record"
         }
       ]
     },
@@ -60502,6 +62678,10 @@
         {
           "personId": "li-keyong",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
         }
       ]
     },
@@ -60850,6 +63030,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -60993,6 +63177,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -63390,6 +65578,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
         }
       ]
     },
@@ -65206,6 +67398,14 @@
         {
           "personId": "yang-pu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -65269,6 +67469,10 @@
         },
         {
           "personId": "ma-xichong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -65466,6 +67670,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -65502,6 +67710,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -65537,6 +67749,10 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -65606,6 +67822,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -65626,6 +67846,14 @@
         {
           "personId": "li-cunxu",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-princess-yaoying",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -68898,6 +71126,10 @@
         {
           "personId": "dou-tingwan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -69225,6 +71457,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-chen",
           "kind": "record"
         }
       ]
@@ -73002,6 +75238,434 @@
       ]
     },
     {
+      "id": "passage-old-v049-p3",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p3",
+          "originalRevision": 1,
+          "originalSha256": "dbb7a2cbade7081d7d8eb4faa04d87fe821825a7e657a004ce2eba436e8eff34",
+          "start": 0,
+          "end": 205
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p4",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p4",
+          "originalRevision": 1,
+          "originalSha256": "bbc45101970626d81478c9dd8e53f1bd2c7626c6da90551074ed18cefc7ffdc9",
+          "start": 0,
+          "end": 248
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p5",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p5",
+          "originalRevision": 1,
+          "originalSha256": "c730419d94a664605189bbf27fd7e16c23369a4a3860f7454b90fb0fc2004de3",
+          "start": 0,
+          "end": 234
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p7",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p7",
+          "originalRevision": 1,
+          "originalSha256": "40cf86f519037bea41729e3fea22fe9d8453655bb395b29fbd2a7df429769271",
+          "start": 0,
+          "end": 428
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxin",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p9",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p9",
+          "originalRevision": 1,
+          "originalSha256": "7394bf5bd76d6ed69a44b1324e9ddf796440ace88b96d2aac169d5aa153f7709",
+          "start": 0,
+          "end": 289
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-chen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p12",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p12",
+          "originalRevision": 1,
+          "originalSha256": "71a399d92ce58501a68edf1be406bad1dfd24870dca84686973f6a306b0dfaad",
+          "start": 0,
+          "end": 623
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-jianfeng",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p14",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p14",
+          "originalRevision": 1,
+          "originalSha256": "f6aa37d5b3c3576989943f020fe5bebbde3abdcb2f0d1ef36c8271728eee7c2a",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p16",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p16",
+          "originalRevision": 1,
+          "originalSha256": "dc272c853cdb44406029491e82dcdb06239b386340afdd1bc769656b234325d9",
+          "start": 0,
+          "end": 349
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "xia-luqi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p19",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p19",
+          "originalRevision": 1,
+          "originalSha256": "3f15a952cc168e8167eb640c347c18453295739844eee01dcb96907c165b3163",
+          "start": 0,
+          "end": 183
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p21",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p21",
+          "originalRevision": 1,
+          "originalSha256": "50d2dbe1b0367248a3032789e5a1bf612481f1e4ca178533763bd70a74676387",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p23",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p23",
+          "originalRevision": 1,
+          "originalSha256": "b519d9303fb0c9423f0ab9d12368fd77623dcd676343bdcc10830f5fee9e5d26",
+          "start": 0,
+          "end": 868
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "mention"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p26",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p26",
+          "originalRevision": 1,
+          "originalSha256": "016902caac9052e9384dc0d6b534e7f885c3cf48d347e2a87cccfa67023851b7",
+          "start": 0,
+          "end": 123
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p29",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p29",
+          "originalRevision": 1,
+          "originalSha256": "cf02eac76e9df074dd04e4cf1f3b02ea7b4b23f3d3220147b2f58d095aa0bbad",
+          "start": 0,
+          "end": 134
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v049-p31",
+      "chapterId": "old-v049",
+      "title": "卷 49 · 唐书列传一 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "old-v049-p31",
+          "originalRevision": 1,
+          "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+          "start": 0,
+          "end": 687
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-princess-yaoying",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-old-v052-p1",
       "chapterId": "old-v052",
       "title": "卷 52 · 唐列传（李嗣昭、李嗣本、李嗣恩等） · 李嗣昭传 · 第 1 段",
@@ -73041,6 +75705,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-daughter-binguo",
           "kind": "record"
         }
       ]
@@ -73205,6 +75873,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
           "kind": "record"
         }
       ]
@@ -73929,6 +76601,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
           "kind": "record"
         }
       ]
@@ -74838,6 +77514,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -75661,6 +78341,14 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
           "kind": "record"
         }
       ]
@@ -83026,6 +85714,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -91790,6 +94482,10 @@
         {
           "personId": "qian-liu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -93106,6 +95802,10 @@
         {
           "personId": "meng-chang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-princess-qionghua",
+          "kind": "record"
         }
       ]
     },
@@ -96993,6 +99693,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -103338,6 +106042,10 @@
         {
           "personId": "li-cunxu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -106462,6 +109170,14 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -108026,6 +110742,14 @@
         {
           "personId": "li-jiji",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -108109,6 +110833,30 @@
       "people": [
         {
           "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v273-p20",
+      "chapterId": "tongjian-v273",
+      "title": "卷 273 · 后唐纪2 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v273-p20",
+          "originalRevision": 1,
+          "originalSha256": "6e060cc6dde73e91407ec046e6011e2103041635898fc7ec932c681c4496b19e",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -108465,6 +111213,10 @@
         },
         {
           "personId": "yuan-xingqin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -108962,6 +111714,14 @@
         {
           "personId": "li-cunxu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-wife-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -109074,6 +111834,10 @@
         {
           "personId": "li-siyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -109097,6 +111861,10 @@
         },
         {
           "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -109253,6 +112021,26 @@
         },
         {
           "personId": "li-yan-youzhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v273-p114",
+      "chapterId": "tongjian-v273",
+      "title": "卷 273 · 后唐纪2 · 第 114 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v273-p114",
+          "originalRevision": 1,
+          "originalSha256": "16a577cc3200a02a875c1b22f445d0a66ce5e6572bd58557ef301b0610deac7f",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
         }
       ]
@@ -112385,6 +115173,10 @@
         },
         {
           "personId": "meng-chang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
           "kind": "record"
         }
       ]
@@ -115905,6 +118697,10 @@
       "people": [
         {
           "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-princess-qionghua",
           "kind": "record"
         }
       ]

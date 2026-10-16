@@ -611,9 +611,7 @@
       "paragraphId": "old-v026-p13",
       "originalRevision": 1,
       "originalSha256": "a87b98936cd688a76360d8143f35e9931416e34addeeab0052f67fb6b51b6760",
-      "translationId": "8520",
-      "translationVersion": 1,
-      "translationSha256": "5bb0bc6c28485b3d1a216e983ffc79a88f79e2054fb4660a52975e1e12d787d4",
+      "translationSha256": "45b2145081f7fb776b80d7a311198d578d754bf744f751419533841a7215d375",
       "sentences": [
         {
           "originalStart": 0,
@@ -625,94 +623,96 @@
           "originalStart": 31,
           "originalEnd": 60,
           "translationStart": 40,
-          "translationEnd": 78
+          "translationEnd": 82
         },
         {
           "originalStart": 60,
           "originalEnd": 98,
-          "translationStart": 78,
-          "translationEnd": 123
+          "translationStart": 82,
+          "translationEnd": 127
         },
         {
           "originalStart": 98,
           "originalEnd": 128,
-          "translationStart": 123,
-          "translationEnd": 162
+          "translationStart": 127,
+          "translationEnd": 166
         },
         {
           "originalStart": 128,
           "originalEnd": 167,
-          "translationStart": 162,
-          "translationEnd": 208
+          "translationStart": 166,
+          "translationEnd": 212
         },
         {
           "originalStart": 167,
           "originalEnd": 193,
-          "translationStart": 208,
-          "translationEnd": 240
+          "translationStart": 212,
+          "translationEnd": 244
         },
         {
           "originalStart": 193,
           "originalEnd": 214,
-          "translationStart": 240,
-          "translationEnd": 269
+          "translationStart": 244,
+          "translationEnd": 273
         },
         {
           "originalStart": 214,
           "originalEnd": 225,
-          "translationStart": 269,
-          "translationEnd": 282
+          "translationStart": 273,
+          "translationEnd": 286
         },
         {
           "originalStart": 225,
           "originalEnd": 261,
-          "translationStart": 282,
-          "translationEnd": 327
+          "translationStart": 286,
+          "translationEnd": 331
         },
         {
           "originalStart": 261,
           "originalEnd": 321,
-          "translationStart": 327,
-          "translationEnd": 400
+          "translationStart": 331,
+          "translationEnd": 404
         },
         {
           "originalStart": 321,
           "originalEnd": 349,
-          "translationStart": 400,
-          "translationEnd": 439
+          "translationStart": 404,
+          "translationEnd": 443
         },
         {
           "originalStart": 349,
           "originalEnd": 371,
-          "translationStart": 439,
-          "translationEnd": 475
+          "translationStart": 443,
+          "translationEnd": 479
         },
         {
           "originalStart": 371,
           "originalEnd": 380,
-          "translationStart": 475,
-          "translationEnd": 486
+          "translationStart": 479,
+          "translationEnd": 490
         },
         {
           "originalStart": 380,
           "originalEnd": 395,
-          "translationStart": 486,
-          "translationEnd": 506
+          "translationStart": 490,
+          "translationEnd": 510
         },
         {
           "originalStart": 395,
           "originalEnd": 425,
-          "translationStart": 506,
-          "translationEnd": 543
+          "translationStart": 510,
+          "translationEnd": 547
         },
         {
           "originalStart": 425,
           "originalEnd": 437,
-          "translationStart": 543,
-          "translationEnd": 564
+          "translationStart": 547,
+          "translationEnd": 568
         }
       ],
-      "reason": "逐原句制作独立现代译文并真实交叉对读，全文按已核片段顺序拼成；绑定正式已发布译文ID、版本及原译双SHA-256，未按句数或字符比例猜配。"
+      "reason": "逐完整原段及全部实际阅读单位交叉对读，按已核范围最小修订；按实际追加发布返回版本绑定。",
+      "translationId": "8761",
+      "translationVersion": 2
     },
     {
       "paragraphId": "old-v026-p14",

@@ -264,7 +264,11 @@ test('neighborhoods reject missing or self endpoints, deduplicate IDs and preser
 test('graph search requires input, matches names and aliases, and offers contextual people without automatically selecting one', () => {
   for (const query of ['', '   ', '\n\t']) assert.deepEqual(searchRelationshipNodes(query), []);
   assert.deepEqual(searchRelationshipNodes(' 朱全忠 ').map(node => node.id), ['zhu-wen']);
-  assert.deepEqual(searchRelationshipNodes('李克用').map(node => node.id), ['li-keyong']);
+  const keyongMatches = searchRelationshipNodes('李克用').map(node => node.id);
+  assert.ok(keyongMatches.includes('li-keyong'));
+  assert.ok(keyongMatches.includes('tang-li-keyong-wife-liu'));
+  assert.equal(new Set(keyongMatches).size, keyongMatches.length);
+  assert.deepEqual(searchRelationshipNodes('秦国夫人刘氏').map(node => node.id), ['tang-li-keyong-wife-liu']);
   assert.deepEqual(searchRelationshipNodes('克柔').map(node => node.id), ['li-kerou']);
   assert.equal(searchRelationshipNodes('李').length > 1, true);
   assert.deepEqual(searchRelationshipNodes('不存在的人物'), []);

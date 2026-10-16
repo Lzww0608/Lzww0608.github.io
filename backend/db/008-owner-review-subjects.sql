@@ -4,7 +4,7 @@ ALTER TABLE public.owner_review_subjects
   DROP CONSTRAINT IF EXISTS owner_review_subjects_id_check;
 ALTER TABLE public.owner_review_subjects
   ADD CONSTRAINT owner_review_subjects_id_check
-  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang','liang-zhu-yougui-mother-unknown','liang-zhu-wen-princess-anyang','liang-zhu-wen-princess-changle','liang-zhu-wen-princess-puning','liang-zhu-wen-princess-jinhua','liang-zhu-wen-princess-zhenning','liang-zhu-wen-sister-wanan','liang-zhu-wen-ancestor-fan','liang-zhu-wen-ancestor-yang','liang-zhu-wen-ancestor-liu','liang-duan-ning-sister-meiren','liang-princes-nurse-kong-xun-mother','liang-zhang-quanyi-wife-chu','liang-zhang-quanyi-daughter-fuwang-wife','liang-zhang-quanyi-daughter-li-su-wife'));
+  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang','liang-zhu-yougui-mother-unknown','liang-zhu-wen-princess-anyang','liang-zhu-wen-princess-changle','liang-zhu-wen-princess-puning','liang-zhu-wen-princess-jinhua','liang-zhu-wen-princess-zhenning','liang-zhu-wen-sister-wanan','liang-zhu-wen-ancestor-fan','liang-zhu-wen-ancestor-yang','liang-zhu-wen-ancestor-liu','liang-duan-ning-sister-meiren','liang-princes-nurse-kong-xun-mother','liang-zhang-quanyi-wife-chu','liang-zhang-quanyi-daughter-fuwang-wife','liang-zhang-quanyi-daughter-li-su-wife','tang-li-keyong-wife-liu','tang-li-keyong-consort-cao','tang-li-keyong-consort-chen','tang-li-keyong-consort-zhang','tang-li-keyong-mother-qin','tang-li-keyong-daughter-binguo','tang-princess-yaoying','tang-princess-qionghua'));
 INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('li-siyuan','李嗣源'),('guo-wei','郭威'),('shi-jingtang','石敬瑭'),
   ('liu-zhiyuan','刘知远'),('liu-chengyou','刘承祐'),
@@ -43,5 +43,13 @@ INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('liang-princes-nurse-kong-xun-mother','孔循养母（朱温诸子乳母）'),
   ('liang-zhang-quanyi-wife-chu','储氏（张全义妻）'),
   ('liang-zhang-quanyi-daughter-fuwang-wife','张全义女（梁福王妻）'),
-  ('liang-zhang-quanyi-daughter-li-su-wife','张氏（李肃妻、张全义女）')
+  ('liang-zhang-quanyi-daughter-li-su-wife','张氏（李肃妻、张全义女）'),
+  ('tang-li-keyong-wife-liu','秦国夫人刘氏（李克用正室）'),
+  ('tang-li-keyong-consort-cao','贞简皇后曹氏'),
+  ('tang-li-keyong-consort-chen','魏国夫人陈氏（李克用妃）'),
+  ('tang-li-keyong-consort-zhang','张氏（李匡俦妻、李克用内宠）'),
+  ('tang-li-keyong-mother-qin','文景皇后秦氏'),
+  ('tang-li-keyong-daughter-binguo','邠国夫人（王珂妻）'),
+  ('tang-princess-yaoying','瑶英长公主'),
+  ('tang-princess-qionghua','琼华长公主（福庆长公主）')
   ON CONFLICT (id) DO NOTHING;

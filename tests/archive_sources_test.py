@@ -1,6 +1,8 @@
 import importlib.util
 import hashlib
 import json
+import shutil
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -10,7 +12,84 @@ spec = importlib.util.spec_from_file_location('archive_sources', ROOT / 'scripts
 archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
+TANG_HOUSEHOLD_FIXTURES = {
+    'old-v049': (2186155, 31, 4667, '11a5d1ccba2d368c7d7696b62ef7b642a410d21942d70ad1dab79d8b8152d413', '623d2cf874ccc02cb9011fb96e86b642c8f96327d13a312775c807dfcb1b8f39'),
+    'new-v14': (2292410, 50, 6722, '96d9d26e7382c018cde017933d3ee7fdc8e382c1e4a90d165d4f767dd8bc01a0', 'd7b4822a8deb6fea4e80733fea7690069aa6c07cb0625cafff57138da363ee77'),
+    'new-v15': (1699112, 45, 5348, '113ed5705c03a6300bffdc73bccf6eab63041fa8eea291e91e53ad13cf95a9b4', '74d97cf6c579a77adcfc3da431b1bccc264b1198587252b7a2f0f7b8e6e37139'),
+    'new-v16': (2292660, 10, 894, 'd491003129eff1cc9745bae27c9415f5e2ff6d2b6d9e606f6b927172d1514454', '3dff5236e6fb6fec0456c60cdfddceb9139a9e1893e9c979d5286b2e2af86574'),
+}
+
 class SourceIntegrityTests(unittest.TestCase):
+    def test_tang_household_volumes_are_complete_fixed_revision_archives(self):
+        summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
+        specs = {s['id']: s for s in archive.SPECS}
+        self.assertEqual(len(specs), len(archive.SPECS))
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 90)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 36)
+        for chapter_id, (revision, count, characters, source_hash, chapter_hash) in TANG_HOUSEHOLD_FIXTURES.items():
+            with self.subTest(chapter=chapter_id):
+                summary = summaries[chapter_id]
+                source = archive.ROOT / 'sources' / f'{chapter_id}.json'
+                chapter = archive.ROOT / 'chapters' / f'{chapter_id}.json'
+                payload = json.loads(source.read_text())
+                contents = json.loads(chapter.read_text())
+                self.assertEqual(payload['response']['parse']['title'], specs[chapter_id]['page'])
+                self.assertEqual(payload['response']['parse']['revid'], revision)
+                self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), source_hash)
+                self.assertEqual(hashlib.sha256(chapter.read_bytes()).hexdigest(), chapter_hash)
+                self.assertEqual(summary['provenance']['revisionId'], revision)
+                self.assertEqual(summary['provenance']['sourceSha256'], source_hash)
+                self.assertEqual(summary['provenance']['chapterSha256'], chapter_hash)
+                self.assertEqual(summary['provenance']['license'], 'CC BY-SA 4.0')
+                self.assertEqual(summary['paragraphCount'], count)
+                self.assertEqual(summary['characterCount'], characters)
+                self.assertEqual(contents['title'], specs[chapter_id]['title'])
+                self.assertEqual([p['id'] for p in contents['paragraphs']], [f'{chapter_id}-p{i + 1}' for i in range(count)])
+                self.assertEqual([p['original'] for p in contents['paragraphs']], archive.extract(payload['response']['parse']['text']['*']))
+                self.assertEqual(sum(len(p['original']) for p in contents['paragraphs']), characters)
+                self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in contents['paragraphs']))
+
+    def test_tang_household_cached_captures_do_not_refetch_or_rewrite(self):
+        specs = {s['id']: s for s in archive.SPECS}
+        archive_root = archive.ROOT
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                for chapter_id in TANG_HOUSEHOLD_FIXTURES:
+                    shutil.copyfile(archive_root / kind / f'{chapter_id}.json', root / kind / f'{chapter_id}.json')
+            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in TANG_HOUSEHOLD_FIXTURES]
+            before = {p: p.read_bytes() for p in paths}
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Fixed household captures must not be fetched again')):
+                for chapter_id in TANG_HOUSEHOLD_FIXTURES:
+                    summary = archive.capture(specs[chapter_id])
+                    self.assertEqual(archive.capture(specs[chapter_id], summary)['provenance'], summary['provenance'])
+            self.assertEqual({p: p.read_bytes() for p in paths}, before)
+
+    def test_tang_household_volume16_keeps_the_genuine_short_source(self):
+        short_spec = next(s for s in archive.SPECS if s['id'] == 'new-v16')
+        self.assertEqual(short_spec['minimumCharacters'], 800)
+        self.assertNotIn('minimumCharacters', next(s for s in archive.SPECS if s['id'] == 'new-v14'))
+        self.assertNotIn('minimumCharacters', next(s for s in archive.SPECS if s['id'] == 'new-v15'))
+        source = archive.ROOT / 'sources' / 'new-v16.json'
+        original = archive.extract(json.loads(source.read_text())['response']['parse']['text']['*'])
+        self.assertEqual(len(original), 10)
+        self.assertEqual(sum(map(len, original)), 894)
+        self.assertLess(sum(map(len, original)), 1000)
+        self.assertTrue(original[-1].endswith('存之所以戒也。'))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'sources').mkdir()
+            (root / 'chapters').mkdir()
+            shutil.copyfile(source, root / 'sources' / source.name)
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Use the fixed short source')):
+                with self.assertRaisesRegex(ValueError, 'Incomplete source: new-v16 894 characters / 10 blocks'):
+                    archive.capture({**short_spec, 'minimumCharacters': 1000})
+                result = archive.capture(short_spec)
+            self.assertEqual(result['paragraphCount'], 10)
+            self.assertEqual(result['characterCount'], 894)
+            self.assertEqual(json.loads((root / 'chapters' / 'new-v16.json').read_text())['paragraphs'][-1]['original'], original[-1])
+
     def test_li_keyong_annals_are_complete_archives_without_adding_a_reigning_emperor(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         summaries = {chapter['id']: chapter for chapter in catalog['chapters']}

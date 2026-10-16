@@ -138,6 +138,30 @@ test('full archived chapters are available through the read-only API', async () 
   assert.equal(directory.at(-1).id, 'tongjian-v294');
 });
 
+test('all four Later Tang household volumes are exposed as complete ordered originals', async () => {
+  await owner.query("UPDATE books SET published=true WHERE id='new'");
+  try {
+    for (const [id, count, opening, closing] of [
+      ['old-v049', 31, '武皇帝', '《會要》不載莊宗女'],
+      ['new-v14', 50, '正室劉氏　次妃曹氏', '冊封則在四月己卯'],
+      ['new-v15', 45, '皇后曹氏　皇后夏氏', '待考。'],
+      ['new-v16', 10, '皇后劉氏', '存之所以戒也。'],
+    ]) {
+      const response = await fetch(`${base}/api/chapters/${id}`);
+      assert.equal(response.status, 200, id);
+      const chapter = await response.json();
+      assert.equal(chapter.scope, 'full', id);
+      assert.equal(chapter.paragraphs.length, count, id);
+      assert.equal(chapter.paragraphs[0].original, opening, id);
+      assert.ok(chapter.paragraphs.at(-1).original.includes(closing), id);
+      assert.deepEqual(chapter.paragraphs.map(p => p.id), Array.from({ length: count }, (_, i) => `${id}-p${i + 1}`));
+      assert.ok(chapter.paragraphs.every(p => p.translation === null), id);
+    }
+  } finally {
+    await owner.query("UPDATE books SET published=false WHERE id='new'");
+  }
+});
+
 test('repeat imports preserve local original revisions, translations and publication choices', async () => {
   await owner.query('BEGIN');
   try {
@@ -147,7 +171,7 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 200);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 204);
   } finally { await owner.query('ROLLBACK'); }
 });
 
