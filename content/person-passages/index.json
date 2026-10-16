@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 199,
-    "paragraphCount": 8517
+    "chapterCount": 200,
+    "paragraphCount": 8523
   },
   "people": [
     {
@@ -738,6 +738,38 @@
     {
       "id": "xu-xuan",
       "name": "徐铉"
+    },
+    {
+      "id": "liang-zhu-wen-mother-wang",
+      "name": "文惠皇后王氏"
+    },
+    {
+      "id": "liang-zhu-wen-consort-zhang",
+      "name": "元贞皇后张氏"
+    },
+    {
+      "id": "liang-zhu-wen-zhaoyi-chen",
+      "name": "昭仪陈氏（后梁）"
+    },
+    {
+      "id": "liang-zhu-wen-zhaorong-li",
+      "name": "昭容李氏（后梁）"
+    },
+    {
+      "id": "liang-liu-chong-mother",
+      "name": "刘崇母（萧县）"
+    },
+    {
+      "id": "liang-zhu-jin-wife",
+      "name": "朱瑾妻（被纳后为尼）"
+    },
+    {
+      "id": "liang-zhu-youwen-wife-wang",
+      "name": "王氏（朱友文妻）"
+    },
+    {
+      "id": "liang-zhu-yougui-wife-zhang",
+      "name": "张氏（朱友珪妻）"
     }
   ],
   "passages": [
@@ -804,7 +836,11 @@
           "kind": "record"
         },
         {
-          "personId": "liu-min-northern-han",
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-liu-chong-mother",
           "kind": "record"
         }
       ]
@@ -849,6 +885,14 @@
         },
         {
           "personId": "zhu-yougui",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-jin-wife",
           "kind": "record"
         }
       ]
@@ -3958,6 +4002,10 @@
         {
           "personId": "gao-jixing",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "mention"
         }
       ]
     },
@@ -4058,6 +4106,10 @@
         {
           "personId": "gao-jixing",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -4734,6 +4786,10 @@
         {
           "personId": "zhu-yougui",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -5002,6 +5058,14 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaoyi-chen",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaorong-li",
+          "kind": "mention"
         }
       ]
     },
@@ -20042,6 +20106,10 @@
         {
           "personId": "zhu-wen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -20714,6 +20782,10 @@
         {
           "personId": "zhu-wen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -27122,6 +27194,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -27141,6 +27217,14 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-liu-chong-mother",
           "kind": "record"
         }
       ]
@@ -27162,6 +27246,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -27181,6 +27269,10 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
           "kind": "record"
         }
       ]
@@ -27206,6 +27298,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27225,6 +27321,10 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
           "kind": "record"
         }
       ]
@@ -27246,6 +27346,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27265,6 +27369,14 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-jin-wife",
           "kind": "record"
         }
       ]
@@ -27290,6 +27402,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27310,6 +27426,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaoyi-chen",
+          "kind": "record"
         }
       ]
     },
@@ -27329,6 +27449,14 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaoyi-chen",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaorong-li",
           "kind": "record"
         }
       ]
@@ -27501,6 +27629,10 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
           "kind": "record"
         }
       ]
@@ -27746,6 +27878,10 @@
         {
           "personId": "zhu-yougong",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27830,6 +27966,18 @@
         {
           "personId": "zhu-yougui",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-youwen-wife-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-wife-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27862,6 +28010,14 @@
         {
           "personId": "zhu-youqian",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youwen-wife-wang",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-yougui-wife-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27893,6 +28049,10 @@
         },
         {
           "personId": "yuan-xiangxian",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-wife-zhang",
           "kind": "record"
         }
       ]
@@ -27961,6 +28121,10 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
           "kind": "mention"
         }
       ]
@@ -46662,6 +46826,14 @@
         {
           "personId": "zhu-wen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-liu-chong-mother",
+          "kind": "record"
         }
       ]
     },
@@ -48918,6 +49090,10 @@
         {
           "personId": "ma-yin",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -49046,6 +49222,10 @@
         {
           "personId": "zhu-wen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -50734,6 +50914,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -53658,6 +53842,98 @@
       ]
     },
     {
+      "id": "passage-old-v011-p2",
+      "chapterId": "old-v011",
+      "title": "卷 11 · 梁后妃传 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "old-v011-p2",
+          "originalRevision": 1,
+          "originalSha256": "063e2223cd4ef780e544377bc4a21051c635174651178d3e30fd227080d329d8",
+          "start": 0,
+          "end": 527
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-liu-chong-mother",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v011-p4",
+      "chapterId": "old-v011",
+      "title": "卷 11 · 梁后妃传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "old-v011-p4",
+          "originalRevision": 1,
+          "originalSha256": "6cca243843a8838bd11f72e7ad072a68bc47297cdd37993b3561dfd9cbdf3d1d",
+          "start": 0,
+          "end": 429
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougui",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaoyi-chen",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-zhaorong-li",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-jin-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v011-p6",
+      "chapterId": "old-v011",
+      "title": "卷 11 · 梁后妃传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "start": 0,
+          "end": 341
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhu-youzhen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-old-v012-p2",
       "chapterId": "old-v012",
       "title": "卷 12 · 梁宗室传（含朱友珪） · 第 2 段",
@@ -53790,6 +54066,10 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -53850,6 +54130,10 @@
         {
           "personId": "yuan-xiangxian",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -95670,6 +95954,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v266-p23",
+      "chapterId": "tongjian-v266",
+      "title": "卷 266 · 后梁纪1 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v266-p23",
+          "originalRevision": 1,
+          "originalSha256": "ac4f7d900de48beefee4b0118562ead4c6fae16054e47ea308aa0e73382221fa",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "people": [
+        {
+          "personId": "liang-zhu-wen-mother-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v266-p24",
       "chapterId": "tongjian-v266",
       "title": "卷 266 · 后梁纪1 · 第 24 段",
@@ -99830,6 +100134,18 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youwen-wife-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-wife-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -100413,6 +100729,10 @@
         },
         {
           "personId": "yuan-xiangxian",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-wife-zhang",
           "kind": "record"
         }
       ]

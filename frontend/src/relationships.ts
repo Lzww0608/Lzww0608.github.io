@@ -2,6 +2,8 @@ import { catalogPeople } from './person-catalog.ts';
 import { personSearchNames } from './person-search-names.ts';
 import tenKingdomsRelationships from '../../content/person-relationships/ten-kingdoms.json' with { type: 'json' };
 import reviewedRulerRelationships from '../../content/person-relationships/reviewed-rulers.json' with { type: 'json' };
+import palaceRelationships from '../../content/person-relationships/palace.json' with { type: 'json' };
+import palaceContext from '../../content/person-relationships/palace-context.json' with { type: 'json' };
 import type { HistoryPerson } from './types.ts';
 
 export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' | 'succession';
@@ -57,6 +59,7 @@ export function buildRelationshipNodes(
 }
 
 export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipNodes(catalogPeople, [
+  ...palaceContext as readonly RelationshipNode[],
   {"id":"xu-kai","name":"徐锴","aliases":["徐鍇"],"external":true,"group":"南唐","note":"《资治通鉴》卷291记右拾遗徐锴上表反对冯延鲁奉使，被贬后明称鍇为鉉之弟。此处仅为解释有明确出处的兄弟关系的关联节点，未新增独立人物条目。"},
   {"id":"han-shusi","name":"韩叔嗣","aliases":["韓叔嗣"],"external":true,"group":"后唐 / 青州","note":"《资治通鉴》卷275记支使、北海人韩叔嗣因王公俨事被诛，继称其子熙载将奔吴。此处仅为解释史载父子关系的关联节点，未新增独立人物条目。"},
   {
@@ -89,6 +92,7 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 // Direction means parent → child, commander → subordinate or predecessor → successor;
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
+  ...palaceRelationships as readonly PersonRelationship[],
   ...tenKingdomsRelationships as readonly PersonRelationship[],
   ...reviewedRulerRelationships as readonly PersonRelationship[],
   // Li Cunxu era service; shared facts also update the other endpoint.

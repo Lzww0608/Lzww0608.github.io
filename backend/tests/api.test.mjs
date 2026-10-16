@@ -126,6 +126,12 @@ test('full archived chapters are available through the read-only API', async () 
   assert.ok(chapter.paragraphs.length > 20);
   assert.ok(chapter.paragraphs.some(paragraph => paragraph.original.includes('郭氏')));
   assert.ok(chapter.paragraphs.every(paragraph => paragraph.translation === null));
+  const palace = await (await fetch(`${base}/api/chapters/old-v011`)).json();
+  assert.equal(palace.scope, 'full');
+  assert.equal(palace.paragraphs.length, 6);
+  assert.equal(palace.paragraphs[0].original, '文惠皇太后');
+  assert.ok(palace.paragraphs[5].original.includes('《歐陽史次妃郭氏傳》'));
+  assert.ok(palace.paragraphs.every(paragraph => paragraph.translation === null));
   const directory = (await (await fetch(`${base}/api/books/tongjian/chapters`)).json()).chapters;
   assert.equal(directory.length, 29);
   assert.equal(directory[0].id, 'tongjian-v266');
@@ -141,7 +147,7 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 199);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 200);
   } finally { await owner.query('ROLLBACK'); }
 });
 

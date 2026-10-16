@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代在位皇帝本纪共 59 卷，另收李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 88 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
+      "description": "五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 89 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -133,7 +133,9 @@
         "li-chengsi",
         "shi-yan",
         "li-hanzhi",
-        "yang-xingmi"
+        "yang-xingmi",
+        "liang-zhu-wen-mother-wang",
+        "liang-liu-chong-mother"
       ],
       "position": 1,
       "scope": "full",
@@ -215,7 +217,8 @@
         "yuan-xiangxian",
         "qian-liu",
         "ma-yin",
-        "gao-jixing"
+        "gao-jixing",
+        "liang-zhu-wen-mother-wang"
       ],
       "position": 3,
       "scope": "full",
@@ -394,7 +397,8 @@
         "zhang-wen",
         "yang-pu",
         "wang-shenzhi",
-        "qian-liu"
+        "qian-liu",
+        "liang-zhu-wen-consort-zhang"
       ],
       "position": 8,
       "scope": "full",
@@ -2257,6 +2261,37 @@
       }
     },
     {
+      "id": "old-v011",
+      "bookId": "old",
+      "volume": 11,
+      "title": "卷 11 · 梁后妃传",
+      "subjects": [
+        "zhu-wen",
+        "zhu-youzhen",
+        "liang-zhu-wen-mother-wang",
+        "liang-liu-chong-mother",
+        "liang-zhu-wen-consort-zhang",
+        "liang-zhu-jin-wife",
+        "liang-zhu-wen-zhaoyi-chen",
+        "liang-zhu-wen-zhaorong-li"
+      ],
+      "position": 11,
+      "scope": "full",
+      "paragraphCount": 6,
+      "characterCount": 1311,
+      "provenance": {
+        "pageTitle": "舊五代史/卷11",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156",
+        "revisionId": 2186156,
+        "fetchedAt": "2026-10-16T01:59:59.254042+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&action=history",
+        "sourceSha256": "945d93c9200c7828b4bfd735641180a21647b5f48fee409d500c7752babc3f14",
+        "chapterSha256": "f6c64baa6cf70f22a7b1ed7557ab4f2d0a465a92cb9e2f3fe85a51d5166f26c9"
+      }
+    },
+    {
       "id": "old-v012",
       "bookId": "old",
       "volume": 12,
@@ -2272,7 +2307,8 @@
         "zhu-yougong",
         "huo-yanwei",
         "yuan-xiangxian",
-        "li-hanzhi"
+        "li-hanzhi",
+        "liang-zhu-wen-consort-zhang"
       ],
       "position": 12,
       "scope": "full",
@@ -2411,7 +2447,8 @@
         "li-zhouyi",
         "li-hanzhi",
         "yang-xingmi",
-        "wang-jian-former-shu"
+        "wang-jian-former-shu",
+        "liang-zhu-wen-mother-wang"
       ],
       "position": 1,
       "scope": "full",
@@ -2445,7 +2482,8 @@
         "wang-tan",
         "li-sian",
         "liu-zhijun",
-        "zhu-youqian"
+        "zhu-youqian",
+        "liang-zhu-wen-mother-wang"
       ],
       "position": 2,
       "scope": "full",
@@ -2824,7 +2862,15 @@
         "zhu-yougong",
         "zhu-youqian",
         "yuan-xiangxian",
-        "li-hanzhi"
+        "li-hanzhi",
+        "liang-zhu-wen-mother-wang",
+        "liang-zhu-wen-consort-zhang",
+        "liang-zhu-wen-zhaoyi-chen",
+        "liang-zhu-wen-zhaorong-li",
+        "liang-liu-chong-mother",
+        "liang-zhu-jin-wife",
+        "liang-zhu-youwen-wife-wang",
+        "liang-zhu-yougui-wife-zhang"
       ],
       "position": 13,
       "scope": "full",
@@ -4806,7 +4852,8 @@
         "qian-liu",
         "qian-yuanguan",
         "ma-yin",
-        "gao-jixing"
+        "gao-jixing",
+        "liang-zhu-wen-mother-wang"
       ],
       "position": 266,
       "scope": "full",
@@ -4926,7 +4973,10 @@
         "qian-yuanguan",
         "liu-yan-southern-han",
         "gao-jixing",
-        "song-qiqiu"
+        "song-qiqiu",
+        "liang-zhu-wen-consort-zhang",
+        "liang-zhu-youwen-wife-wang",
+        "liang-zhu-yougui-wife-zhang"
       ],
       "position": 268,
       "scope": "full",
@@ -6467,7 +6517,11 @@
         "gao-jixing",
         "gao-conghui",
         "gao-baorong",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "liang-zhu-wen-mother-wang",
+        "liang-zhu-wen-consort-zhang",
+        "liang-zhu-wen-zhaoyi-chen",
+        "liang-zhu-wen-zhaorong-li"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -7274,7 +7328,11 @@
         "yang-shihou",
         "zhao-zaili",
         "qian-liu",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "liang-zhu-wen-mother-wang",
+        "liang-zhu-wen-consort-zhang",
+        "liang-liu-chong-mother",
+        "liang-zhu-jin-wife"
       ],
       "scope": "full",
       "paragraphCount": 32,

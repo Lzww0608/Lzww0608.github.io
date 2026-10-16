@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-yougui-wife-zhang",
+  "events": [
+    {
+      "id": "liang-zhu-yougui-wife-zhang-warn-yougui",
+      "year": 912,
+      "sourceDate": "乾化二年六月事前，未独给张氏传告之日",
+      "title": "侍疾时传告召友文之事",
+      "summary": "张氏早晚侍朱温病，知道王氏奉命召朱友文后，将传国宝与召命告诉丈夫朱友珪，夫妻相泣。",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p45",
+          "originalRevision": 1,
+          "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+          "excerpt": "太祖病久，王氏與友珪妻張氏，常專房侍疾。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p46",
+          "originalRevision": 1,
+          "originalSha256": "993386872589ff9497abd203050bc0253d7647df03dff721bdce8476077efbd6",
+          "excerpt": "其妻張氏曰：「大家以傳國寶與王氏，使如東都召友文，君今受禍矣！」夫婦相對而泣。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p65",
+          "originalRevision": 1,
+          "originalSha256": "87ff8c957e5fda21ce939d9aea5ad677c998713c90fb86496ba8333d1c63c71b",
+          "excerpt": "友珪婦張氏亦朝夕侍帝側，知之，密告友珪曰：「大家以傳國寶付王氏，懷往東都，吾屬死無日矣！」夫婦相泣。"
+        }
+      ],
+      "precision": "year",
+      "phase": "later",
+      "notes": [
+        "传告、哭泣与朱友珪随后弑父分开，不说张氏亲手杀朱温。"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "liang-zhu-yougui-wife-zhang-killed-at-north-wall",
+      "year": 913,
+      "sourceDate": "乾化三年／凤历元年二月，通鉴记庚寅旦",
+      "title": "随朱友珪逃至北垣后被杀",
+      "summary": "二月袁象先率禁兵入宫，张氏随朱友珪逃至北垣楼下，越城未成；朱友珪命冯廷谔先杀她，再杀自己。",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p47",
+          "originalRevision": 1,
+          "originalSha256": "7591ce2c29ba20ee0968604e348f26049bdc0b491113598b99d43b1770dfcc29",
+          "excerpt": "太祖外孫袁象先[5]與駙馬都尉趙巖等，謀與末帝討賊。二月，象先以禁兵入宮，友珪與妻張氏趨北垣樓下，將踰城以走，不果，使馮廷諤進刃其妻及己，廷諤亦自殺。末帝即位，復友文官爵，廢友珪為庶人。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "庚寅旦，袁象先等帥禁兵數千人突入宮中。友珪聞變，與妻張氏及馮廷諤趨北垣樓下，將逾城，自度不免，令廷諤先殺妻，次殺己，廷諤亦自剄。諸軍十餘萬大掠都市，百司逃散，中書侍郎、同平章事杜曉、侍講學士李珽皆為亂兵所殺，門下侍郎、同平章事於兢、宣政使李振被傷。至晡乃定。"
+        }
+      ],
+      "precision": "year",
+      "phase": "fall",
+      "sortOrder": 2
+    }
+  ]
+}

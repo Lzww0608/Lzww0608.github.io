@@ -6,8 +6,8 @@ import { adminDatabase } from './runtime.mjs';
 import { validateTranslationBatch, textHash } from '../src/translation-batch.mjs';
 
 // Caller owns the transaction. Source versions are checked before any drafts are inserted.
-export async function importTranslationBatch(client, input) {
-  const batch = validateTranslationBatch(input);
+export async function importTranslationBatch(client, input, { library } = {}) {
+  const batch = validateTranslationBatch(input, library);
   await client.query('SAVEPOINT translation_batch_import');
   try {
     await client.query(readFileSync(new URL('../db/002-translation-metadata.sql', import.meta.url), 'utf8'));

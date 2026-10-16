@@ -6,8 +6,8 @@ import { adminDatabase } from './runtime.mjs';
 import { validateTranslationBatch, textHash } from '../src/translation-batch.mjs';
 
 // Explicit release of an AI initial translation is separate from human review.
-export async function publishAiBatch(client, input) {
-  const batch = validateTranslationBatch(input);
+export async function publishAiBatch(client, input, { library } = {}) {
+  const batch = validateTranslationBatch(input, library);
   await client.query('SAVEPOINT publish_ai_batch');
   try {
     const { rows } = await client.query(`SELECT t.*,p.current_revision,r.original FROM translations t

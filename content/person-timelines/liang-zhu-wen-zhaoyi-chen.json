@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-zhaoyi-chen",
+  "events": [
+    {
+      "id": "liang-zhu-wen-zhaoyi-chen-become-nun",
+      "year": null,
+      "sourceDate": "《新史》开平三年，无月日",
+      "title": "出家居宋州佛寺",
+      "summary": "新史记陈氏开平三年被度为尼，居宋州佛寺，未给月日。",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p14",
+          "originalRevision": 1,
+          "originalSha256": "6ecd06c5cba6ae3a3d074731e41d38112d65f97c4c3c5694363347ca8e5912f6",
+          "excerpt": "開平三年，度為尼，居宋州佛寺。"
+        }
+      ],
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      },
+      "sortOrder": 1,
+      "notes": [
+        "开平三年全年从西历909年1月25日至910年2月13日之前；原文无出家月日，保909—910年范围。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-zhaoyi-chen-buddhist-prayers",
+      "year": null,
+      "sourceDate": "原书未独记年月",
+      "title": "朱温病中与尼姑作佛事",
+      "summary": "陈氏已为昭仪，朱温患病时与数十名尼姑昼夜作佛事，因此更受朱温宠爱。",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p14",
+          "originalRevision": 1,
+          "originalSha256": "6ecd06c5cba6ae3a3d074731e41d38112d65f97c4c3c5694363347ca8e5912f6",
+          "excerpt": "太祖嘗疾，昭儀與尼數十人晝夜為佛法，未嘗少懈，太祖以為愛己，尤寵之。"
+        }
+      ],
+      "precision": "undated",
+      "phase": "uncertain",
+      "notes": [
+        "这时她与尼姑共同作法，不先写成已出家；具体疾病无确年。"
+      ],
+      "sortOrder": 2
+    }
+  ]
+}

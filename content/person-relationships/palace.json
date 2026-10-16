@@ -1,0 +1,268 @@
+[
+  {
+    "id": "wang-wenhui-zhu-wen-mother",
+    "from": "liang-zhu-wen-mother-wang",
+    "to": "zhu-wen",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "文惠皇后为身后追号，不写生前临朝。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p3",
+        "originalRevision": 1,
+        "originalSha256": "ab6c40070521bd6bb0a9baef33f9b09d60f466a41a67487e009e485508f77a23",
+        "excerpt": "梁太祖母曰文惠皇后王氏，單州單父人也。其生三子：長曰廣王全昱，次曰朗王存，其次太祖。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yuanzhen-marriage",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-consort-zhang",
+    "kind": "kinship",
+    "label": "配偶，生前魏国夫人",
+    "note": "太祖年轻时以妇聘；贤妃、元贞皇后/皇太后为身后称号，日期异说另列。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p8",
+        "originalRevision": 1,
+        "originalSha256": "eaada06bcb8664085bada4268e647e6e45bdeed493a1b3e236861c2a461435ab",
+        "excerpt": "太祖元貞皇后張氏，單州碭山縣渠亭里富家子也。太祖少以婦聘之，生末帝。太祖貴，封魏國夫人。"
+      }
+    ]
+  },
+  {
+    "id": "yuanzhen-zhu-youzhen-mother",
+    "from": "liang-zhu-wen-consort-zhang",
+    "to": "zhu-youzhen",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "只登记明确母子，不把朱友裕救护推出亲生。",
+    "sources": [
+      {
+        "title": "《旧五代史》 · 卷 8 · 梁末帝纪1",
+        "chapterId": "old-v008",
+        "paragraphId": "old-v008-p1",
+        "originalRevision": 1,
+        "originalSha256": "fb211b10a76a3d1bcf9fa3566ff3f1462eeab3181804a8920a6dd372f175a3f9",
+        "excerpt": "太祖第四子也。母曰元貞皇后張氏。"
+      },
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p8",
+        "originalRevision": 1,
+        "originalSha256": "eaada06bcb8664085bada4268e647e6e45bdeed493a1b3e236861c2a461435ab",
+        "excerpt": "太祖少以婦聘之，生末帝。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-chen-zhaoyi",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-zhaoyi-chen",
+    "kind": "kinship",
+    "label": "妾侍，内职昭仪",
+    "note": "已见昭仪称号，未见册后、姓名或结局；出家事实另入年表。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p14",
+        "originalRevision": 1,
+        "originalSha256": "6ecd06c5cba6ae3a3d074731e41d38112d65f97c4c3c5694363347ca8e5912f6",
+        "excerpt": "昭儀陳氏，宋州人也，少以色進。太祖已貴，嬪妾數百，而昭儀專寵。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-li-zhaorong",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-zhaorong-li",
+    "kind": "kinship",
+    "label": "妾侍，内职昭容",
+    "note": "救护后拜昭容，不猜出生或结局。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p16",
+        "originalRevision": 1,
+        "originalSha256": "e1b423f2f4eeab2454621695682c1b17678aeec81853439e4f30a465b0bc8462",
+        "excerpt": "昭容李氏，亦以色進。尤謹愿，未嘗去左右。太祖病，晝寢方寐，棟折，獨李氏侍側，遽牽太祖衣，太祖驚走，棟折寢上，太祖德之，拜昭容。皆不知其所終。"
+      }
+    ]
+  },
+  {
+    "id": "liu-chong-mother-zhu-wen-care",
+    "from": "liang-liu-chong-mother",
+    "to": "zhu-wen",
+    "kind": "adoption",
+    "label": "早年抚养、怜护（非正式收养）",
+    "note": "沿既有养育类型保存实际抚养保护，原书未称养母、义母，不认亲子或正式收养。",
+    "sources": [
+      {
+        "title": "《北梦琐言》 · 卷 17",
+        "chapterId": "beimeng-v017",
+        "paragraphId": "beimeng-v017-p5",
+        "originalRevision": 1,
+        "originalSha256": "07ddddeaa725787a0ce4b1d0b77af5dc44bf6a69b6e91c15dc7e74b96c5a9630",
+        "excerpt": "崇母撫養之崇弟兄甞加譴杖一日偷崇家釜而竄為崇追回崇母遮䕶以免朴責"
+      },
+      {
+        "title": "《旧五代史》 · 卷 1 · 梁太祖纪1",
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p2",
+        "originalRevision": 1,
+        "originalSha256": "eb3d69906b5886899293f00e58840a774ae421de4c2d7e43e99ece02437d0353",
+        "excerpt": "唯崇母自幼憐之，親為櫛髮，嘗誡家人曰：「朱三非常人也，汝輩當善待之。」"
+      }
+    ]
+  },
+  {
+    "id": "liu-chong-xiaoxian-mother",
+    "from": "liang-liu-chong-mother",
+    "to": "liu-chong-xiaoxian",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "姓名与母姓未知，刘崇为萧县恩主，非北汉刘旻之别名刘崇。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p4",
+        "originalRevision": 1,
+        "originalSha256": "f265454cc3683971cfc9f0898621c4ce66a5e59063c085260749c5489b3617a9",
+        "excerpt": "后少寡，携其三子傭食蕭縣人劉崇家。太祖壯而無賴，縣中皆厭苦之。崇患太祖慵墮不作業，數加笞責，獨崇母憐之，時時自為櫛沐，戒家人曰：「朱三非常人也，宜善遇之！」"
+      }
+    ]
+  },
+  {
+    "id": "zhu-jin-yanzhou-wife",
+    "from": "zhu-jin-yanzhou",
+    "to": "liang-zhu-jin-wife",
+    "kind": "kinship",
+    "label": "夫妻（被纳为尼的该次记载）",
+    "note": "妻姓未明，不据后来陶氏填姓，也不把朱温同姓称兄弟当作实际血缘。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p11",
+        "originalRevision": 1,
+        "originalSha256": "14750c913c8740bc5a934eaed27da96f1dc1c36bf5020bad393c81d23667060f",
+        "excerpt": "太祖已破朱瑾，納其妻以歸，后迎太祖於封丘，太祖告之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-jin-wife-taken",
+    "from": "zhu-wen",
+    "to": "liang-zhu-jin-wife",
+    "kind": "conflict",
+    "label": "朱瑾败后被纳归",
+    "note": "记被带归及后为尼，不虚设后妃封号，也不把原文同姓国话语写成亲属。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p11",
+        "originalRevision": 1,
+        "originalSha256": "14750c913c8740bc5a934eaed27da96f1dc1c36bf5020bad393c81d23667060f",
+        "excerpt": "太祖已破朱瑾，納其妻以歸，后迎太祖於封丘，太祖告之。后遽見瑾妻，瑾妻再拜，后亦拜，悽然泣下曰：「兗鄆與司空同姓之國，昆仲之間，以小故興干戈，而使吾姒至此；若不幸汴州失守，妾亦如此矣！」言已又泣。太祖為之感動，乃送瑾妻為尼，后嘗給其衣食。司空，太祖時檢校官也。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-youwen-wife-wang",
+    "from": "zhu-youwen",
+    "to": "liang-zhu-youwen-wife-wang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "友文养子身份据同批完整旧本纪，妻仍以明确家庭身份，不认妃号。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p45",
+        "originalRevision": 1,
+        "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+        "excerpt": "友文妻王氏有色，尤寵之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-youwen-wife-affinity",
+    "from": "zhu-wen",
+    "to": "liang-zhu-youwen-wife-wang",
+    "kind": "kinship",
+    "label": "养子之妻，史载入侍",
+    "note": "姻亲身份与宫廷侍疾分开，不虚构册立，不猜她的最终结局。",
+    "sources": [
+      {
+        "title": "《旧五代史》 · 卷 7 · 梁太祖纪7",
+        "chapterId": "old-v007",
+        "paragraphId": "old-v007-p6",
+        "originalRevision": 1,
+        "originalSha256": "4c7a792c12ca63584f8665a3e272fa05068da7302a647ed02da38e3d6efa463a",
+        "excerpt": "次假子友文，帝特愛之，常留守東都，兼建昌宮使。"
+      },
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p45",
+        "originalRevision": 1,
+        "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+        "excerpt": "友文妻王氏有色，尤寵之。太祖病久，王氏與友珪妻張氏，常專房侍疾。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yougui-wife-zhang",
+    "from": "zhu-yougui",
+    "to": "liang-zhu-yougui-wife-zhang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "不因友珪称帝即补张氏皇后册立；被杀与自杀施事分别保存。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p45",
+        "originalRevision": 1,
+        "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+        "excerpt": "太祖病久，王氏與友珪妻張氏，常專房侍疾。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p97",
+        "originalRevision": 1,
+        "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+        "excerpt": "友珪聞變，與妻張氏及馮廷諤趨北垣樓下，將逾城，自度不免，令廷諤先殺妻，次殺己，廷諤亦自剄。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yougui-wife-affinity",
+    "from": "zhu-wen",
+    "to": "liang-zhu-yougui-wife-zhang",
+    "kind": "kinship",
+    "label": "儿媳，史载入侍",
+    "note": "本人是儿媳与侍疾者，不将传告记为亲手弑君或获册皇后。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p45",
+        "originalRevision": 1,
+        "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+        "excerpt": "太祖病久，王氏與友珪妻張氏，常專房侍疾。"
+      }
+    ]
+  }
+]

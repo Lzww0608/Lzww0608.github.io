@@ -234,8 +234,8 @@
     },
     {
       "id": "zhu-youzhen-honor-mother",
-      "title": "即位后追谥母亲并祔宣陵",
-      "summary": "新家人传记即位后追谥母张氏为元贞皇太后、祔宣陵；其独立校注指出旧本纪和会要称号没有太字。保留称号字样，不把张氏天祐元年去世或太祖追册贤妃的时间移到本朝。",
+      "title": "新史记即位后追谥母亲并祔宣陵",
+      "summary": "新家人传记即位后追谥母张氏为元贞皇太后、祔宣陵；其独立校注指出旧本纪和会要称号没有太字。保留称号字样，不把张氏天祐元年去世或太祖追册贤妃的时间移到本朝。另会要及旧史夹引记乾化二年十一月二十三追册元贞皇后，实际西历已为913年初，但原书时序仍在末帝即位之前，不能因同一西历年而合并叙述。",
       "year": 913,
       "sortOrder": 7,
       "precision": "year",
@@ -255,6 +255,30 @@
           "originalRevision": 1,
           "originalSha256": "c14b2be25b3cbc585234c6acde1766bda87d52a9fbb85e88a8a66c1fbf34d857",
           "excerpt": "↑ 追謚曰元貞皇太后　薛史卷八梁末帝紀及五代會要卷一均無「太」字。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "会要与旧史夹引：即位前追册元贞皇后",
+          "sourceDate": "乾化二年十一月二十三，已跨西历913年初",
+          "year": 913,
+          "summary": "会要及旧史夹引记在末帝即位前追册元贞皇后，无太字；保留与新史即位后追谥元贞皇太后的原时序及称号差别，不改旧主证的913年。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p32",
+              "originalRevision": 1,
+              "originalSha256": "aeac078d60aef1deee60e64211d3e04113a55b4aa0fcc86be76bc533ebd87112",
+              "excerpt": "梁太祖皇后張氏。〈早崩，開平二年追封賢妃，至乾化二年十一月二十三日追冊曰元貞皇后。〉"
+            },
+            {
+              "chapterId": "old-v011",
+              "paragraphId": "old-v011-p4",
+              "originalRevision": 1,
+              "originalSha256": "6cca243843a8838bd11f72e7ad072a68bc47297cdd37993b3561dfd9cbdf3d1d",
+              "excerpt": "元貞皇后張氏，乾化中追諡。〈（《五代會要》云：太祖皇后張氏早崩，開平二年，追封賢妃，至乾化二年十一月二十三日，追冊曰元貞皇后。"
+            }
+          ]
         }
       ]
     },

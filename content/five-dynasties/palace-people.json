@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "id": "palace-people",
+  "title": "后宫相关人物",
+  "filterLabel": "后宫相关人物",
+  "description": "从原始史料阅读五代十国后妃、太后、宗室女性及宫廷相关人物的经历。",
+  "sourceNote": "按政权和君主家庭逐批整理有据人物；生母、养育者、配偶、册立与追尊分别说明。只承诺已列来源及已核记载，史书分歧分别保留。",
+  "sources": [
+    {
+      "title": "《旧五代史》卷11 · 后妃列传",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B711&oldid=2186156"
+    },
+    {
+      "title": "《新五代史》卷13 · 梁家人传",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B713"
+    }
+  ],
+  "memberIds": [
+    "liang-zhu-wen-mother-wang",
+    "liang-zhu-wen-consort-zhang",
+    "liang-zhu-wen-zhaoyi-chen",
+    "liang-zhu-wen-zhaorong-li",
+    "liang-liu-chong-mother",
+    "liang-zhu-jin-wife",
+    "liang-zhu-youwen-wife-wang",
+    "liang-zhu-yougui-wife-zhang"
+  ],
+  "people": [
+    {
+      "id": "liang-zhu-wen-mother-wang",
+      "name": "文惠皇后王氏",
+      "dynasty": "后梁",
+      "role": "朱温母；身后追尊",
+      "intro": "王氏，单州单父人，朱温生母。寡居后携三子寄食萧县刘崇家，朱温显贵后迎至宣武，封晋国太夫人。史载她劝朱温照顾朱存遗孤并戒杀。新史记大顺二年秋病归午沟而卒；梁建立后获身后追尊，旧史后妃传称文惠皇太后。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "文惠皇后及皇太后均为身后追尊，现存记载不涉及她生前临朝。",
+        "新史只记大顺二年秋病归午沟而卒，没有具体月份、生年或个人名。",
+        "旧史卷3即位段追文惠皇后与七月追皇太后，新史卷2七月文惠皇后分别保留，不拼成唯一仪式日期。",
+        "旧史所记赤蛇、北梦所谓龙蛇之异作为本书传闻保留，不作事实性人物能力。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。"
+      ],
+      "aliases": "文惠皇太后 文惠皇太后王氏 文惠皇后 文惠王皇后 晋国太夫人 晉國太夫人 王氏（朱溫母） 王氏（朱温母） 文惠皇后王氏",
+      "readingStarts": {
+        "beimeng": "beimeng-v017",
+        "huiyao": "huiyao-v001",
+        "new": "new-v13",
+        "old": "old-v011",
+        "tongjian": "tongjian-v266"
+      },
+      "sources": [
+        {
+          "title": "《北梦琐言》 · 卷 17",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&oldid=769227"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《新五代史》 · 卷 1 · 梁本纪第一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B701&oldid=1744233"
+        },
+        {
+          "title": "《新五代史》 · 卷 2 · 梁本纪第二",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B702&oldid=2312021"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 1 · 梁太祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B71&oldid=2292899"
+        },
+        {
+          "title": "《旧五代史》 · 卷 3 · 梁太祖纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B73&oldid=617453"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 266 · 后梁纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7266&oldid=803277"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-consort-zhang",
+      "name": "元贞皇后张氏",
+      "dynasty": "后梁",
+      "role": "朱温妻；生前魏国夫人，身后追封",
+      "intro": "张氏，砀山渠亭里人，朱温妻，生朱友贞，生前封魏国夫人。史载朱温征询其意见，她曾营救朱友裕、慰问朱瑾失国后被带归的妻子并供给其出家衣食。病卒及身后贤妃、元贞称号的日期与皇后／皇太后字样，各书记载有别。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "当前归档只载张氏，不见个人名；张惠等通行称名未由这些来源证实。",
+        "新史记太祖少聘，北梦补同州兵间以妇礼纳之；只保各书叙述，不推唯一结婚年。",
+        "新史天祐元年卒、太祖即位追贤妃、末帝立后追谥元贞皇太后；会要记开平二追贤妃、乾化二十一月二十三追册元贞皇后，附校勘明确有无太字差异。旧史卷11正文与夹引分别保留，不能当作新增独立证人。",
+        "与朱友珪妻张氏、朱友贞德妃张氏不同人。",
+        "姒、同姓昆仲为张氏劝慰中的称呼，不据此虚造与朱瑾妻的血缘或婚姻。史家的女祸评论不作本网站已判定的因果结论。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。",
+        "会要及旧史夹引的乾化二年十一月二十三，实际已跨西历913年初，仍先于末帝即位；不能把乾化二年一律写成西历912年，也不能因同属913年便抹平先后与称号差异。"
+      ],
+      "aliases": "元贞皇后 元貞皇后 元贞皇太后 元貞皇太后 魏国夫人 魏國夫人 魏國夫人張氏 元貞皇后張氏 梁祖張夫人 魏国夫人张氏 元贞皇后张氏 梁祖张夫人",
+      "readingStarts": {
+        "beimeng": "beimeng-v017",
+        "huiyao": "huiyao-v001",
+        "new": "new-v13",
+        "old": "old-v011",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "《北梦琐言》 · 卷 17",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&oldid=769227"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 8 · 梁末帝纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B78&oldid=8721551"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "《旧五代史》 · 卷 12 · 梁宗室传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B712&oldid=1567687"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-zhaoyi-chen",
+      "name": "昭仪陈氏（后梁）",
+      "dynasty": "后梁",
+      "role": "朱温内职昭仪，后出家为尼",
+      "intro": "陈氏，宋州人，入侍朱温，内职昭仪。朱温病中，她与数十名尼姑日夜作佛事，因而更受宠。新史记开平三年出家，居宋州佛寺；其后结局未详。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "现有来源无出生、卒年或确切出家月日。开平三年全年跨西历909—910年，原文没有出家的独立月日。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。"
+      ],
+      "aliases": "昭儀陳氏 梁太祖昭儀陳氏 昭仪陈氏 梁太祖昭仪陈氏 昭仪陈氏（后梁） 昭儀陳氏（後梁）",
+      "readingStarts": {
+        "huiyao": "huiyao-v001",
+        "new": "new-v13",
+        "old": "old-v011"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-zhaorong-li",
+      "name": "昭容李氏（后梁）",
+      "dynasty": "后梁",
+      "role": "朱温内职昭容",
+      "intro": "李氏，朱温内职昭容。新史记她在朱温病中独侍，房梁折断时拉其衣使之惊避，朱温感其救护而拜为昭容；其后结局未详。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "拜昭容与救护叙事未独记年月，不猜授官年或死亡。",
+        "新史皆不知其所终承陈氏、李氏二人，不只指李氏。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。"
+      ],
+      "aliases": "昭容李氏 梁太祖昭容李氏 昭容李氏（后梁） 昭容李氏（後梁）",
+      "readingStarts": {
+        "huiyao": "huiyao-v001",
+        "new": "new-v13",
+        "old": "old-v011"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        }
+      ]
+    },
+    {
+      "id": "liang-liu-chong-mother",
+      "name": "刘崇母（萧县）",
+      "dynasty": "后梁",
+      "role": "朱温早年受其抚养与保护",
+      "intro": "萧县人刘崇之母，姓名、姓氏未见这些来源。旧史、新史和北梦记她怜惜、抚养并保护早年寄居刘家的朱温，后与朱温母王氏一同被迎往汴州。养育记载不等同正式收养关系。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "不以儿子姓刘反推母亲姓刘。萧县恩主刘崇与北汉刘崇（刘旻）不是同一身份。",
+        "明确养育不推出正式收养、义母册封或亲生母子。",
+        "龙蛇异象按来源叙述层次保留。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。"
+      ],
+      "aliases": "劉崇母（蕭縣） 刘崇母（萧县）",
+      "readingStarts": {
+        "beimeng": "beimeng-v017",
+        "new": "new-v13",
+        "old": "old-v001"
+      },
+      "sources": [
+        {
+          "title": "《北梦琐言》 · 卷 17",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&oldid=769227"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 1 · 梁太祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B71&oldid=2292899"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-jin-wife",
+      "name": "朱瑾妻（被纳后为尼）",
+      "dynasty": "后梁",
+      "role": "朱瑾妻；兵败被纳，后为尼",
+      "intro": "朱瑾在兖郓失守前的妻子，姓名、姓氏未见这些来源。新史及北梦记她被朱温纳归，张氏见后悲泣相待，随后被度为尼，张氏常供给她衣食。不据朱瑾后来淮南妻陶氏的记载回填其姓氏。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "仅按被纳后为尼的具体个体限定，姓氏和结局未载。",
+        "当前无连续证据将此人并为《资治通鉴》卷270所记的淮南朱瑾妻陶氏；不从后说填姓。",
+        "新史纳其妻译为纳妾是现译解释，本段只说明纳归，未载正式封号或她本人的选择。",
+        "旧史卷11夹引北梦、会要，与这些书的现存记载有同源关系，不能计成彼此独立的证实。"
+      ],
+      "aliases": "朱瑾妻 被度為尼的朱瑾妻 被度为尼的朱瑾妻 朱瑾妻（被纳后为尼） 朱瑾妻（被納後為尼）",
+      "readingStarts": {
+        "beimeng": "beimeng-v017",
+        "new": "new-v13",
+        "old": "old-v011"
+      },
+      "sources": [
+        {
+          "title": "《北梦琐言》 · 卷 17",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B717&oldid=769227"
+        },
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《旧五代史》 · 卷 11 · 梁后妃传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-youwen-wife-wang",
+      "name": "王氏（朱友文妻）",
+      "dynasty": "后梁",
+      "role": "朱温养子朱友文之妻，史载入侍",
+      "intro": "王氏，朱温养子博王朱友文之妻。新史和通鉴记她入朱温宫中侍疾并受宠，朱温病重时命她往东都召朱友文。史载身份是儿媳，不据入侍虚设妃后册号，亦不把朱友文被杀写成她本人遇害。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "朱友文是朱温养子，不称她为亲子之妻；与朱温母王氏不同。",
+        "不凭受宠及侍疾认定获册后妃，不补她执行召夫后的结局。",
+        "张氏口中持传国宝是直接引语，不能据此认王氏获命自行择嗣。"
+      ],
+      "aliases": "朱友文妻王氏 友文婦王氏 友文妇王氏 王氏（朱友文妻）",
+      "readingStarts": {
+        "new": "new-v13",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-yougui-wife-zhang",
+      "name": "张氏（朱友珪妻）",
+      "dynasty": "后梁",
+      "role": "朱友珪之妻，参与宫廷交接记载",
+      "intro": "张氏，朱友珪之妻。新史和通鉴记她在朱温病中入侍，将传国宝及召朱友文之事告知朱友珪。后来宫中兵变，她随夫逃至北垣，朱友珪命冯廷谔先杀她、再杀自己。当前来源未载她获册皇后。",
+      "periodLabel": "晚唐／后梁宫廷及家庭",
+      "sourceNotes": [
+        "不与元贞张氏及末帝德妃合并，不因夫即帝位自动补皇后册号。",
+        "传告后夫妇相泣不等于她亲手弑君；持刀杀她者为冯廷谔，由朱友珪命令。",
+        "二月兵变与先前侍疾分成不同事件，不把全部经历染成弑君当日。"
+      ],
+      "aliases": "朱友珪妻張氏 友珪婦張氏 朱友珪妻张氏 友珪妇张氏 张氏（朱友珪妻） 張氏（朱友珪妻）",
+      "readingStarts": {
+        "new": "new-v13",
+        "tongjian": "tongjian-v268"
+      },
+      "sources": [
+        {
+          "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=2244561"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909"
+        }
+      ]
+    }
+  ]
+}

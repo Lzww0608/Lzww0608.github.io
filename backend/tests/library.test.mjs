@@ -5,7 +5,7 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 199);
+  assert.equal(chapters.length, 200);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -15,7 +15,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
+    [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i), 52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:13},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
@@ -24,6 +24,16 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   assert.equal(chapters.find(c => c.id === 'old-v025').paragraphs.length, 27);
   assert.equal(chapters.find(c => c.id === 'old-v026').paragraphs.length, 42);
   assert.ok(chapters.find(c => c.id === 'old-v026').paragraphs.some(p => p.original.includes('追諡武皇帝，廟號太祖')));
+  const palace = chapters.find(c => c.id === 'old-v011');
+  const palaceSummary = catalog.chapters.find(c => c.id === palace.id);
+  assert.equal(palace.paragraphs.length, 6);
+  assert.equal(palaceSummary.characterCount, 1311);
+  assert.equal(palaceSummary.provenance.revisionId, 2186156);
+  assert.deepEqual(palace.paragraphs.map(p => p.id), Array.from({ length: 6 }, (_, i) => `old-v011-p${i + 1}`));
+  assert.deepEqual([palace.paragraphs[0].original, palace.paragraphs[2].original, palace.paragraphs[4].original], ['文惠皇太后', '元貞皇后', '德妃 張氏']);
+  assert.ok(palace.paragraphs[3].original.includes('乾化二年十一月二十三日'));
+  assert.ok(palace.paragraphs[5].original.includes('《歐陽史次妃郭氏傳》'));
+  assert.ok(palace.paragraphs[5].original.includes('是金華公主實歸羅氏'));
   const quewen = chapters.find(c => c.id === 'quewen-v001').paragraphs.map(p => p.original).join('');
   assert.ok(quewen.includes('宋王禹偁撰') && quewen.includes('皆聞於耆老者也') && quewen.includes('王樸'));
 });

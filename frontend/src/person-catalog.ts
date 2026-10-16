@@ -5,6 +5,7 @@ import zhuWenGenerals from '../../content/five-dynasties/zhu-wen-generals.json' 
 import liKeyongGenerals from '../../content/five-dynasties/li-keyong-generals.json' with { type: 'json' };
 import leaders from '../../content/five-dynasties/historical-leaders.json' with { type: 'json' };
 import southernTangOfficials from '../../content/five-dynasties/southern-tang-officials.json' with { type: 'json' };
+import palacePeople from '../../content/five-dynasties/palace-people.json' with { type: 'json' };
 import type { EmperorCatalog, TenKingdomRulerCatalog, HistoricalLeaderCatalog, HistoricalPersonGroup, HistoryPerson, PersonGroupId } from './types.ts';
 
 export const reigningEmperors = (emperors as EmperorCatalog).people;
@@ -14,7 +15,8 @@ export const taibaoGroup: HistoricalPersonGroup = { ...taibao as HistoricalPerso
 export const zhuWenGeneralsGroup = zhuWenGenerals as HistoricalPersonGroup;
 export const liKeyongGeneralsGroup = liKeyongGenerals as HistoricalPersonGroup;
 export const southernTangOfficialsGroup = southernTangOfficials as HistoricalPersonGroup;
-export const personTopics: readonly HistoricalPersonGroup[] = [taibaoGroup, zhuWenGeneralsGroup, liKeyongGeneralsGroup, southernTangOfficialsGroup];
+export const palacePeopleGroup = palacePeople as HistoricalPersonGroup;
+export const personTopics: readonly HistoricalPersonGroup[] = [taibaoGroup, zhuWenGeneralsGroup, liKeyongGeneralsGroup, southernTangOfficialsGroup, palacePeopleGroup];
 
 // Shared members retain their existing canonical object and stable ID across topics.
 export const catalogPeople: HistoryPerson[] = [];
