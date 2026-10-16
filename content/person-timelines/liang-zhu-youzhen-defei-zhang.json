@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-youzhen-defei-zhang",
+  "events": [
+    {
+      "id": "liang-zhu-youzhen-defei-zhang-investiture-and-death",
+      "title": "病中册德妃，当夕去世",
+      "summary": "九月壬午，病重急册德妃，当夕薨；新家人传记年二十四。",
+      "year": 915,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "旧本纪九月壬午；会要乾化五年九月二十四日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p32",
+          "originalRevision": 1,
+          "originalSha256": "d4640ed31ac45bf1f29f3be9210613043ab7ea87793646893c6962ae795c0987",
+          "excerpt": "壬午，正衙命使冊德妃張氏。是夕，妃薨。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p33",
+          "originalRevision": 1,
+          "originalSha256": "b447067495af899bf36c528ffe049524f5f7a7c17b9b22677d56b8e1b19a8a39",
+          "excerpt": "少帝妃張氏。〈乾化五年九月二十四日冊為德妃，其夕薨。〉"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p18",
+          "originalRevision": 1,
+          "originalSha256": "f9119cd7e4d5efffe72edd71100d5ab2ef51488c34013ceb66c4aa1ee30ad57d",
+          "excerpt": "貞明元年，[2]妃病甚，帝遽冊為德妃，其夕薨，年二十四。"
+        }
+      ],
+      "notes": [
+        "两种日名历核相符；纪年保原书用语，不以贞明回溯系年认年号已在九月生效。不据年龄推唯一生年。"
+      ],
+      "variants": [
+        {
+          "label": "新史纪年及版本校注",
+          "sourceDate": "新家人传贞明元年；部分旧本贞明五年",
+          "summary": "归档底本作元年，校注列汲本、百衲本等异文及他书校证，保留原文而不改成另一底本。",
+          "evidence": [
+            {
+              "chapterId": "new-v13",
+              "paragraphId": "new-v13-p52",
+              "originalRevision": 1,
+              "originalSha256": "f676baec32aa10e92c612792501a329e632d3ddce6091e274a08e4ee3f678b01",
+              "excerpt": "↑ 貞明元年　汲本作「貞明年」，百衲本及其他各本均作「貞明五年」。薛史卷八梁末帝紀、通鑑卷二六九及本卷康王友孜傳均繫于貞明元年。五代會要卷一作「乾化五年」，亦即貞明元年。考異卷六二、纂誤補卷二皆謂「貞明五年」誤。今改。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-defei-zhang-burial",
+      "title": "十月安葬",
+      "summary": "旧本纪记冬十月壬子葬德妃张氏；通鉴于辛亥夜记德妃将出葬的变乱背景。",
+      "year": 915,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "旧本纪同年冬十月壬子",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p33",
+          "originalRevision": 1,
+          "originalSha256": "20f3a6dc2b37b2cbcfb0700d9e8bbdd75738d695a7b6d8de7846268af7b5b20e",
+          "excerpt": "壬子，葬德妃張氏。"
+        }
+      ],
+      "notes": [
+        "将葬背景不是她参与谋乱；通鉴辛亥将出葬与旧本纪壬子葬的动作层级分别保存。"
+      ],
+      "variants": [
+        {
+          "label": "通鉴将出葬背景",
+          "sourceDate": "同年冬十月辛亥夜",
+          "summary": "通鉴称德妃将出葬，继叙康王友敬谋乱；不将其变乱行动归给亡妃。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v269",
+              "paragraphId": "tongjian-v269-p51",
+              "originalRevision": 1,
+              "originalSha256": "81359a79f890414347cc9cc1cab9a994e08997c9af017f5524dcddcf438c3512",
+              "excerpt": "冬，十月，辛亥夜，德妃將出葬，友敬使腹心數人匿於寢殿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-defei-zhang-marriage",
+      "title": "朱友贞为均王时聘为妻",
+      "summary": "张归霸之女在朱友贞为均王时聘为妻。来源未载婚配月日。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "为均王时；封均王至即位之间",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p18",
+          "originalRevision": 1,
+          "originalSha256": "f9119cd7e4d5efffe72edd71100d5ab2ef51488c34013ceb66c4aa1ee30ad57d",
+          "excerpt": "帝為王時，以婦聘之。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p23",
+          "originalRevision": 1,
+          "originalSha256": "fc806d9e33b1321a5cd477e1a1726518037605c9e85177ee37165e81d142c7f4",
+          "excerpt": "開平元年五月乙酉，封友文為博王、友珪郢王、友璋福王、友貞均王、友雍賀王、友徽建王。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "e774778a244fe576107d87f839874e056ade7304f25b9b68d4c490ee7789e6a7",
+          "excerpt": "乾化三年二月十七日，侍衛都將袁象先率禁兵殺郢王於洛京，帝即位於汴州，改名瑱。"
+        }
+      ],
+      "notes": [
+        "范围只取907年封均王与913年即位两端，不认某日就是婚日。会要即位日有来源差别，本事件不依该日推婚日。"
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 913
+      }
+    },
+    {
+      "id": "liang-zhu-youzhen-defei-zhang-defer-empress",
+      "title": "请待郊天后再行册后",
+      "summary": "末帝即位后打算册张氏为后，她请求等到郊天之后；帝终未能郊，册后之议未实行。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "末帝即位后至德妃去世前，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p18",
+          "originalRevision": 1,
+          "originalSha256": "f9119cd7e4d5efffe72edd71100d5ab2ef51488c34013ceb66c4aa1ee30ad57d",
+          "excerpt": "帝即位，將冊妃為后，妃請待帝郊天，而帝卒不得郊。"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p50",
+          "originalRevision": 1,
+          "originalSha256": "ab41bd95a342b209f49772cc04645ae748e5f5a2e3940828821b47e9192d4cbb",
+          "excerpt": "初，帝為均王，娶河陽節度使張歸霸女為妃，即位，欲立為後。後以帝未南郊，固辭。"
+        }
+      ],
+      "notes": [
+        "913—915年仅为即位与去世所限定的时段，不补一次已完成的册后仪式。"
+      ],
+      "yearRange": {
+        "start": 913,
+        "end": 915
+      }
+    }
+  ]
+}

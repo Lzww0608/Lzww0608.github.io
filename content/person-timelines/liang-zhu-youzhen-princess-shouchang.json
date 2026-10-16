@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-youzhen-princess-shouchang",
+  "events": [
+    {
+      "id": "liang-zhu-youzhen-princess-shouchang-investiture",
+      "title": "封寿昌公主",
+      "summary": "会要记少帝第二女在贞明元年九月二十三日封寿昌公主；旧史夹引同条。",
+      "year": 915,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "原书贞明元年九月二十三日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "3b2825fddd0a90bbd60e4a3f9e07fbc380d540feafd1f2bded0dd80732963d7e",
+          "excerpt": "第二女壽昌公主。〈貞明元年九月二十三日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "第二女壽昌公主，貞明元年九月二十三日封。"
+        }
+      ],
+      "notes": [
+        "本年十一月才改元贞明。保留来源回溯系年；西历年按当时有效的乾化五年同历核对，不把贞明已于九月生效当成事实。",
+        "只记确切封授，不由排行推母亲或生卒。"
+      ]
+    }
+  ]
+}

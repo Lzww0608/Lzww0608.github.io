@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-youzhen-princess-shouchun",
+  "events": [
+    {
+      "id": "liang-zhu-youzhen-princess-shouchun-investiture",
+      "title": "封寿春公主",
+      "summary": "会要记少帝长女在乾化三年四月五日封寿春公主；旧史夹引同条。",
+      "year": 913,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "乾化三年四月五日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "3b2825fddd0a90bbd60e4a3f9e07fbc380d540feafd1f2bded0dd80732963d7e",
+          "excerpt": "少帝長女夀春公主，〈乾化三年四月五日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "少帝長女壽春公主，乾化三年四月五日封。"
+        }
+      ],
+      "notes": [
+        "只记录封授，不补个人名、母系、婚配与生卒。"
+      ]
+    }
+  ]
+}

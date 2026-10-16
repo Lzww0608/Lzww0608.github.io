@@ -770,6 +770,26 @@
     {
       "id": "liang-zhu-yougui-wife-zhang",
       "name": "张氏（朱友珪妻）"
+    },
+    {
+      "id": "liang-zhu-youzhen-defei-zhang",
+      "name": "德妃张氏（朱友贞妻）"
+    },
+    {
+      "id": "liang-zhu-youzhen-consort-guo",
+      "name": "郭氏（朱友贞次妃）"
+    },
+    {
+      "id": "liang-zhu-youyong-wife-shi",
+      "name": "石氏（朱友雍妻）"
+    },
+    {
+      "id": "liang-zhu-youzhen-princess-shouchun",
+      "name": "寿春公主（后梁）"
+    },
+    {
+      "id": "liang-zhu-youzhen-princess-shouchang",
+      "name": "寿昌公主（后梁）"
     }
   ],
   "passages": [
@@ -4810,6 +4830,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -5517,6 +5541,14 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-princess-shouchun",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-princess-shouchang",
           "kind": "record"
         }
       ]
@@ -27486,6 +27518,10 @@
         {
           "personId": "zhang-guiba",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -27508,7 +27544,11 @@
           "kind": "record"
         },
         {
-          "personId": "zhang-guihou",
+          "personId": "liang-zhu-youzhen-consort-guo",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youyong-wife-shi",
           "kind": "record"
         }
       ]
@@ -27533,6 +27573,10 @@
         },
         {
           "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-consort-guo",
           "kind": "record"
         }
       ]
@@ -28074,6 +28118,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -28145,6 +28193,10 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
           "kind": "mention"
         }
       ]
@@ -30042,6 +30094,10 @@
         {
           "personId": "zhang-guibian",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -30118,6 +30174,10 @@
         {
           "personId": "li-cunxu",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -51722,6 +51782,10 @@
         {
           "personId": "wang-yanzhang",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -51742,6 +51806,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -53798,6 +53866,10 @@
         {
           "personId": "duan-ning",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-consort-guo",
+          "kind": "record"
         }
       ]
     },
@@ -53929,6 +54001,22 @@
         },
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-consort-guo",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-princess-shouchun",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-princess-shouchang",
           "kind": "record"
         }
       ]
@@ -55490,6 +55578,10 @@
         {
           "personId": "duan-ning",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -102390,6 +102482,10 @@
         {
           "personId": "zhang-guiba",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -102418,6 +102514,10 @@
         {
           "personId": "liu-xun",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-defei-zhang",
+          "kind": "mention"
         }
       ]
     },
@@ -120593,6 +120693,10 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-consort-guo",
           "kind": "record"
         }
       ]

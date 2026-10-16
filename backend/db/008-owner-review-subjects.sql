@@ -4,7 +4,7 @@ ALTER TABLE public.owner_review_subjects
   DROP CONSTRAINT IF EXISTS owner_review_subjects_id_check;
 ALTER TABLE public.owner_review_subjects
   ADD CONSTRAINT owner_review_subjects_id_check
-  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang'));
+  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang'));
 INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('li-siyuan','李嗣源'),('guo-wei','郭威'),('shi-jingtang','石敬瑭'),
   ('liu-zhiyuan','刘知远'),('liu-chengyou','刘承祐'),
@@ -23,4 +23,10 @@ INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('liang-zhu-jin-wife','朱瑾妻（被纳后为尼）'),
   ('liang-zhu-youwen-wife-wang','王氏（朱友文妻）'),
   ('liang-zhu-yougui-wife-zhang','张氏（朱友珪妻）')
+,
+  ('liang-zhu-youzhen-defei-zhang','德妃张氏（朱友贞妻）'),
+  ('liang-zhu-youzhen-consort-guo','郭氏（朱友贞次妃）'),
+  ('liang-zhu-youyong-wife-shi','石氏（朱友雍妻）'),
+  ('liang-zhu-youzhen-princess-shouchun','寿春公主（后梁）'),
+  ('liang-zhu-youzhen-princess-shouchang','寿昌公主（后梁）')
   ON CONFLICT (id) DO NOTHING;

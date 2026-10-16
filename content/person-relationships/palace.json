@@ -264,5 +264,167 @@
         "excerpt": "太祖病久，王氏與友珪妻張氏，常專房侍疾。"
       }
     ]
+  },
+  {
+    "id": "youzhen-defei-zhang-marriage",
+    "from": "zhu-youzhen",
+    "to": "liang-zhu-youzhen-defei-zhang",
+    "kind": "kinship",
+    "label": "王时婚配",
+    "note": "朱友贞为均王时聘张氏为妻，后实际册德妃；不把拟册皇后写成册立完成。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p18",
+        "originalRevision": 1,
+        "originalSha256": "f9119cd7e4d5efffe72edd71100d5ab2ef51488c34013ceb66c4aa1ee30ad57d",
+        "excerpt": "帝為王時，以婦聘之。帝即位，將冊妃為后，妃請待帝郊天，而帝卒不得郊。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "zhang-guiba-defei-daughter",
+    "from": "zhang-guiba",
+    "to": "liang-zhu-youzhen-defei-zhang",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "父女关系取明确原文，不以同姓推定。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p28",
+        "originalRevision": 1,
+        "originalSha256": "6d76e0e6c85f6405ceded66b5d9f79234b6355ff2a4c4efdf92afeb6cf95b228",
+        "excerpt": "張歸霸，清河人也。末帝娶其女，是為德妃。",
+        "title": "《新五代史》 · 卷 22 · 梁臣传"
+      }
+    ]
+  },
+  {
+    "id": "youzhen-guo-marriage",
+    "from": "zhu-youzhen",
+    "to": "liang-zhu-youzhen-consort-guo",
+    "kind": "kinship",
+    "label": "末帝次妃",
+    "note": "次妃郭氏，未补已册皇后或婚配年月。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p20",
+        "originalRevision": 1,
+        "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+        "excerpt": "次妃郭氏，父歸厚，事梁為登州刺史。妃少以色進。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "guo-guihou-guo-daughter",
+    "from": "guo-guihou",
+    "to": "liang-zhu-youzhen-consort-guo",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "郭归厚为登州刺史；不并既有张归厚身份。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p20",
+        "originalRevision": 1,
+        "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+        "excerpt": "次妃郭氏，父歸厚，事梁為登州刺史。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "cunxu-guo-summons",
+    "from": "li-cunxu",
+    "to": "liang-zhu-youzhen-consort-guo",
+    "kind": "conflict",
+    "label": "入汴后召见",
+    "note": "郭氏因惧听命；不增写未载具体行为或自行请求出家。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p20",
+        "originalRevision": 1,
+        "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+        "excerpt": "賀王友雍妃石氏有色，莊宗召之，石氏慢罵，莊宗殺之。次以召妃，妃懼而聽命。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "youyong-shi-marriage",
+    "from": "zhu-youyong",
+    "to": "liang-zhu-youyong-wife-shi",
+    "kind": "kinship",
+    "label": "贺王与妃",
+    "note": "石氏是朱友雍之妃，与末帝两妃身份分开。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p20",
+        "originalRevision": 1,
+        "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+        "excerpt": "賀王友雍妃石氏有色，莊宗召之，石氏慢罵，莊宗殺之。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "cunxu-shi-killing",
+    "from": "li-cunxu",
+    "to": "liang-zhu-youyong-wife-shi",
+    "kind": "conflict",
+    "label": "召见后杀害",
+    "note": "石氏慢骂被庄宗杀害；没有与郭氏合并结局。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p20",
+        "originalRevision": 1,
+        "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+        "excerpt": "賀王友雍妃石氏有色，莊宗召之，石氏慢罵，莊宗殺之。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "youzhen-shouchun-daughter",
+    "from": "zhu-youzhen",
+    "to": "liang-zhu-youzhen-princess-shouchun",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "史称少帝长女；母系未载。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p17",
+        "originalRevision": 1,
+        "originalSha256": "3b2825fddd0a90bbd60e4a3f9e07fbc380d540feafd1f2bded0dd80732963d7e",
+        "excerpt": "少帝長女夀春公主，〈乾化三年四月五日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "youzhen-shouchang-daughter",
+    "from": "zhu-youzhen",
+    "to": "liang-zhu-youzhen-princess-shouchang",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "承同段少帝第二女；母系未载。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p17",
+        "originalRevision": 1,
+        "originalSha256": "3b2825fddd0a90bbd60e4a3f9e07fbc380d540feafd1f2bded0dd80732963d7e",
+        "excerpt": "少帝長女夀春公主，〈乾化三年四月五日封。〉第二女壽昌公主。〈貞明元年九月二十三日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      }
+    ]
   }
 ]

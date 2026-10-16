@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-youzhen-consort-guo",
+  "events": [
+    {
+      "id": "liang-zhu-youzhen-consort-guo-fall-summons",
+      "title": "迎拜庄宗并受召",
+      "summary": "梁亡，唐庄宗入汴，郭氏哭号迎拜；庄宗在杀石氏之后召她，她害怕而听命。",
+      "year": 923,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "梁亡、唐庄宗入汴后；未独记召见日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v010",
+          "paragraphId": "old-v010-p34",
+          "originalRevision": 1,
+          "originalSha256": "9e06e55cddb7de8b321e82f078a54990f4b1216c6a2146776e6de5dcd9daa3cc",
+          "excerpt": "唐帝入宮，妃郭氏號泣迎拜。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p20",
+          "originalRevision": 1,
+          "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+          "excerpt": "次以召妃，妃懼而聽命。"
+        }
+      ],
+      "notes": [
+        "迎拜、受召与出家分开，不把未独年月的后续全部压到入汴之日。"
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-consort-guo-head-burial-order",
+      "title": "受诏与安崇阮收葬末帝",
+      "summary": "通鉴记娄继英未及葬而获罪被诛，朝廷命梁旧臣安崇阮与郭氏安葬梁均王。",
+      "year": 937,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "通鉴天福二年九月记事；无独立日干支",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p53",
+          "originalRevision": 1,
+          "originalSha256": "62d34cc6a0bd856a64ffc03604ac67063863337d0c74b27ee3e21f33bd7dd733",
+          "excerpt": "婁繼英未及葬梁均王而誅死，詔梁故臣右衛上將軍安崇阮與王故妃郭氏葬之。"
+        }
+      ],
+      "notes": [
+        "五月先准亲旧收葬、娄继英请领，九月另记安崇阮与郭氏处置；不将全程系五月。九月见前段月锚，未把前段甲寅当成本条日期。",
+        "原书为诏命收葬，不推郭氏亲手完成全部葬仪。"
+      ],
+      "variants": [
+        {
+          "label": "新史、旧史夹引的天福三年",
+          "sourceDate": "新史天福三年，未记月日",
+          "summary": "新史及旧史引文作三年，写安崇阮与妃同葬；保异年与句法歧义，不据此断郭妃已死合葬或另有一次葬礼。",
+          "evidence": [
+            {
+              "chapterId": "new-v13",
+              "paragraphId": "new-v13-p21",
+              "originalRevision": 1,
+              "originalSha256": "e76d5d1907c612b4dcfb76c6fe1921522db721b15d0976ff30fd427e9b67a1a3",
+              "excerpt": "晉天福三年，詔太社先藏罪人首級，許親\n屬收葬，乃出末帝首，遣右衞將軍安崇阮與妃同葬之。"
+            },
+            {
+              "chapterId": "old-v011",
+              "paragraphId": "old-v011-p6",
+              "originalRevision": 1,
+              "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+              "excerpt": "案《歐陽史次妃郭氏傳》云：晉天福三年，詔太社先藏罪人首級，許親屬收葬，乃出末帝首，遣右衛將軍安崇阮與妃同葬。"
+            }
+          ]
+        },
+        {
+          "label": "旧本纪、会要记天福二年",
+          "sourceDate": "旧本纪天福二年五月；会要二年",
+          "summary": "两书有安崇阮收葬，未提郭氏，不把未提及当作否认，也不把五月准收葬等同全部实际葬期。",
+          "evidence": [
+            {
+              "chapterId": "old-v010",
+              "paragraphId": "old-v010-p35",
+              "originalRevision": 1,
+              "originalSha256": "c0007bfabb5805d686c30de90d59a6aa593d68adc02acd10c4e3c170de1003f0",
+              "excerpt": "晉天福二年五月，詔太社先藏唐朝罪人首級，許親屬及舊僚收葬。時右衛上將軍婁繼英請之，會繼英得罪，乃詔左衛上將軍安崇阮收葬焉。"
+            },
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p3",
+              "originalRevision": 1,
+              "originalSha256": "e774778a244fe576107d87f839874e056ade7304f25b9b68d4c490ee7789e6a7",
+              "excerpt": "〈莊宗入汴州，詔張全義收罪人首骨，藏於大社，至晉天福二年，安崇阮收葬之。〉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-consort-guo-enter-court",
+      "title": "少时入侍",
+      "summary": "郭氏年轻时以色进，为末帝次妃；未载入宫或婚配年月。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "妃少以色进，无独立年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p20",
+          "originalRevision": 1,
+          "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+          "excerpt": "次妃郭氏，父歸厚，事梁為登州刺史。妃少以色進。"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-consort-guo-nun-shizheng",
+      "title": "被度为尼，赐名誓正",
+      "summary": "受召听命之后，郭氏被度为尼，赐名誓正，居于洛阳。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "已而，未独记度尼、赐名或移居年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p20",
+          "originalRevision": 1,
+          "originalSha256": "2b96ffabc368ac3a5761313bd2bc88d41df2efaf1692a3f4d727a21dc2f764f0",
+          "excerpt": "已而度為尼，賜名誓正，居于洛陽。"
+        }
+      ],
+      "notes": [
+        "不补郭氏主动请求、获准或具名发令者；不因同段梁亡便定在923年。"
+      ]
+    },
+    {
+      "id": "liang-zhu-youzhen-consort-guo-death-luoyang",
+      "title": "死于洛阳",
+      "summary": "新史记郭氏死于洛阳，没有独立卒年。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "妃卒洛阳，无独立年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p21",
+          "originalRevision": 1,
+          "originalSha256": "e76d5d1907c612b4dcfb76c6fe1921522db721b15d0976ff30fd427e9b67a1a3",
+          "excerpt": "妃卒洛陽。"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "妃卒洛陽。"
+        }
+      ],
+      "notes": [
+        "段落排列不等于死在天福三年之后；与妃同葬的另一解释不作为确定卒年。"
+      ]
+    }
+  ]
+}
