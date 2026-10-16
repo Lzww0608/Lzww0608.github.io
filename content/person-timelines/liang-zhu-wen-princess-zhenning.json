@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-princess-zhenning",
+  "events": [
+    {
+      "id": "liang-zhu-wen-princess-zhenning-investiture",
+      "title": "封真宁公主",
+      "summary": "会要记乾化三年十月五日封真宁公主，旧史夹引同条，均列为太祖之女。",
+      "year": 913,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "乾化三年十月五日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "真寧公主。〈乾化三年十月五日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "真寧公主，乾化三年十月五日封。"
+        }
+      ],
+      "notes": [
+        "册封时为末帝在位，不能按当朝帝号改成末帝之女。"
+      ]
+    }
+  ]
+}

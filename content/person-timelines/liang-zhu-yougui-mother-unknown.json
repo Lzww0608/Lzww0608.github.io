@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-yougui-mother-unknown",
+  "events": [
+    {
+      "id": "liang-zhu-yougui-mother-unknown-summoned",
+      "title": "亳州受召侍寝",
+      "summary": "旧史记唐光启年间朱温徇地亳州，召她侍寝。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "唐光启中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "唐光啟中，帝徇地亳州，召而侍寢。"
+        }
+      ],
+      "notes": [
+        "仅以有效光启年号取885—888年范围，不把后来报孕、生子的日期自动锁在同一确年。"
+      ],
+      "yearRange": {
+        "start": 885,
+        "end": 888
+      }
+    },
+    {
+      "id": "liang-zhu-yougui-mother-unknown-pregnancy-bozhou",
+      "title": "告娠后留亳州别宅",
+      "summary": "月余朱温拟离开，她告知怀孕；旧史记因朱温忌惮受宠的张氏，未将她带回大梁，留在亳州别宅。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "月余；未独立记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "月餘，將舍之而去，以娠告。是時，元貞皇后賢而有寵，帝素憚之，由是不果攜歸大梁，因留亳州，以別宅貯之。"
+        }
+      ],
+      "notes": [
+        "不按妊娠时长倒推出唯一日年；此处张氏后称元贞皇后，不指失姓生母有后妃名位。"
+      ]
+    },
+    {
+      "id": "liang-zhu-yougui-mother-unknown-birth-yougui",
+      "title": "生朱友珪",
+      "summary": "旧史记及期报生男，朱温喜而给孩子取小名遥喜；新史记朱温与逆旅妇人生友珪。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "及期；未独立记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v012",
+          "paragraphId": "old-v012-p11",
+          "originalRevision": 1,
+          "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+          "excerpt": "及期，妓以生男來告，帝喜，故字之曰遙喜。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p45",
+          "originalRevision": 1,
+          "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+          "excerpt": "庶人友珪者，太祖初鎮宣武，略地宋，亳間，與逆旅婦人野合而生也。"
+        }
+      ],
+      "notes": [
+        "后迎归汴省略对象，不另造母子同行返汴事件；没有确切生年。"
+      ]
+    }
+  ]
+}

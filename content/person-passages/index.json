@@ -790,6 +790,34 @@
     {
       "id": "liang-zhu-youzhen-princess-shouchang",
       "name": "寿昌公主（后梁）"
+    },
+    {
+      "id": "liang-zhu-yougui-mother-unknown",
+      "name": "朱友珪生母（失姓）"
+    },
+    {
+      "id": "liang-zhu-wen-princess-anyang",
+      "name": "安阳公主（朱温女）"
+    },
+    {
+      "id": "liang-zhu-wen-princess-changle",
+      "name": "长乐公主（朱温女）"
+    },
+    {
+      "id": "liang-zhu-wen-princess-puning",
+      "name": "普宁公主（朱温女）"
+    },
+    {
+      "id": "liang-zhu-wen-princess-jinhua",
+      "name": "金华公主（朱温女）"
+    },
+    {
+      "id": "liang-zhu-wen-princess-zhenning",
+      "name": "真宁公主（朱温女）"
+    },
+    {
+      "id": "liang-zhu-wen-sister-wanan",
+      "name": "万安大长公主（朱温妹）"
     }
   ],
   "passages": [
@@ -5521,6 +5549,26 @@
         },
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-changle",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-jinhua",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-zhenning",
           "kind": "record"
         }
       ]
@@ -17418,6 +17466,14 @@
         {
           "personId": "li-cunxu",
           "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-jinhua",
+          "kind": "record"
         }
       ]
     },
@@ -28022,6 +28078,10 @@
         {
           "personId": "liang-zhu-yougui-wife-zhang",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-mother-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -28241,6 +28301,10 @@
         },
         {
           "personId": "yuan-xiangxian",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-sister-wanan",
           "kind": "mention"
         }
       ]
@@ -31130,6 +31194,10 @@
         {
           "personId": "ma-sixun",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
         }
       ]
     },
@@ -36390,6 +36458,10 @@
         {
           "personId": "yuan-xiangxian",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-sister-wanan",
+          "kind": "record"
         }
       ]
     },
@@ -48954,6 +49026,10 @@
         {
           "personId": "ma-sixun",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
         }
       ]
     },
@@ -50922,6 +50998,10 @@
         {
           "personId": "duan-ning",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-mother-unknown",
+          "kind": "mention"
         }
       ]
     },
@@ -54018,6 +54098,26 @@
         {
           "personId": "liang-zhu-youzhen-princess-shouchang",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-changle",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-jinhua",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-zhenning",
+          "kind": "record"
         }
       ]
     },
@@ -54222,6 +54322,10 @@
         {
           "personId": "liang-zhu-wen-consort-zhang",
           "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-yougui-mother-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -56653,6 +56757,10 @@
         },
         {
           "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
           "kind": "record"
         }
       ]
@@ -76202,6 +76310,10 @@
         {
           "personId": "yuan-xiangxian",
           "kind": "biography"
+        },
+        {
+          "personId": "liang-zhu-wen-sister-wanan",
+          "kind": "record"
         }
       ]
     },
@@ -77185,6 +77297,10 @@
       "people": [
         {
           "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
           "kind": "record"
         }
       ]
@@ -98686,6 +98802,10 @@
         {
           "personId": "zhou-dewei",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "mention"
         }
       ]
     },
@@ -100198,6 +100318,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-yougui-mother-unknown",
+          "kind": "mention"
         }
       ]
     },
@@ -105302,6 +105426,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v271-p45",
+      "chapterId": "tongjian-v271",
+      "title": "卷 271 · 后梁纪6 · 第 45 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v271-p45",
+          "originalRevision": 1,
+          "originalSha256": "e42c70c56ee7ff5a181c6fc110d82120030a930c87ed9ce9d6d4f33c1a26eaa1",
+          "start": 0,
+          "end": 271
+        }
+      ],
+      "people": [
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v271-p47",
       "chapterId": "tongjian-v271",
       "title": "卷 271 · 后梁纪6 · 第 47 段",
@@ -105426,6 +105570,10 @@
         {
           "personId": "zhu-youqian",
           "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "mention"
         }
       ]
     },

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-princess-puning",
+  "events": [
+    {
+      "id": "liang-zhu-wen-princess-puning-investiture",
+      "title": "封普宁公主",
+      "summary": "会要记开平元年五月十一日封普宁公主；旧史夹引同条。",
+      "year": 907,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "开平元年五月十一日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "普寧公主，〈降王昭祚，開平元年五月十一日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "普寧公主，降昭祚王氏，開平元年五月十一日封。"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-puning-survived-zhenzhou",
+      "title": "镇州政变中被留下",
+      "summary": "通鉴记张文礼杀王镕及其家族，独留王昭祚之妻普宁以联络后梁；旧史王镕传同记留昭祚妻朱氏，并报普宁无恙。",
+      "year": 921,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "通鉴本年二月（原年题为龙德元年）",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p45",
+          "originalRevision": 1,
+          "originalSha256": "e42c70c56ee7ff5a181c6fc110d82120030a930c87ed9ce9d6d4f33c1a26eaa1",
+          "excerpt": "盡滅王氏之族，獨置昭祚之妻普寧公主以自托於梁。"
+        },
+        {
+          "chapterId": "old-v062",
+          "paragraphId": "old-v062-p7",
+          "originalRevision": 1,
+          "originalSha256": "d90f0ec69756e6a4d37386bc70c6823d3bf8ced3dfd52e2c25c15b244a1e06b3",
+          "excerpt": "惟留王昭祚妻朱氏通梁人"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p38",
+          "originalRevision": 1,
+          "originalSha256": "32204dfb261d2f6c47ee156c99f4b3dc7b39f2bd8c91aac7ccd18a6af159ac25",
+          "excerpt": "均王下龍德元年（辛巳，公元九二一年）"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p44",
+          "originalRevision": 1,
+          "originalSha256": "eb1753b50d6c5f265f440c9cabbeac9a9bc490c95835a9447d3b754455c94ebd",
+          "excerpt": "二月，吳改元順義。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p46",
+          "originalRevision": 1,
+          "originalSha256": "bbcf2bb4e9b8bb299369a4a01a07fde3052c8b59304acfa9de2014129f75035d",
+          "excerpt": "三月，吳人歸吳越王鏐從弟龍武統軍鎰於錢唐"
+        }
+      ],
+      "notes": [
+        "二月由同卷前后月份界定，不补叛乱或死亡的确日。",
+        "原书以年末通用年题标龙德元年，但二月尚在贞明七年；保题名，西历年份按当时有效历控制。",
+        "后续通鉴记张文礼遣使报公主无恙；报信和求援不写成她的行动，也不据此推已返梁。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-puning-marriage",
+      "title": "嫁王昭祚",
+      "summary": "普宁公主嫁赵王王镕之子王昭祚；婚盟又见晋王议论中的朱温之女。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "婚配未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "普寧公主，〈降王昭祚，開平元年五月十一日封。〉"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p45",
+          "originalRevision": 1,
+          "originalSha256": "e42c70c56ee7ff5a181c6fc110d82120030a930c87ed9ce9d6d4f33c1a26eaa1",
+          "excerpt": "趙王既殺李弘規、李靄，委政於其子昭祚。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p115",
+          "originalRevision": 1,
+          "originalSha256": "b865333ea5120e461e8ea10292c4cfaa2a9f6460153cbfb971d80989e51ea999",
+          "excerpt": "彼朱溫之女何如壽安公主"
+        }
+      ],
+      "notes": [
+        "寿安公主是比较对象，不是普宁的另一个封号；不将后续求援报信推作公主使者。"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ ALTER TABLE public.owner_review_subjects
   DROP CONSTRAINT IF EXISTS owner_review_subjects_id_check;
 ALTER TABLE public.owner_review_subjects
   ADD CONSTRAINT owner_review_subjects_id_check
-  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang'));
+  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang','liang-zhu-yougui-mother-unknown','liang-zhu-wen-princess-anyang','liang-zhu-wen-princess-changle','liang-zhu-wen-princess-puning','liang-zhu-wen-princess-jinhua','liang-zhu-wen-princess-zhenning','liang-zhu-wen-sister-wanan'));
 INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('li-siyuan','李嗣源'),('guo-wei','郭威'),('shi-jingtang','石敬瑭'),
   ('liu-zhiyuan','刘知远'),('liu-chengyou','刘承祐'),
@@ -28,5 +28,12 @@ INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('liang-zhu-youzhen-consort-guo','郭氏（朱友贞次妃）'),
   ('liang-zhu-youyong-wife-shi','石氏（朱友雍妻）'),
   ('liang-zhu-youzhen-princess-shouchun','寿春公主（后梁）'),
-  ('liang-zhu-youzhen-princess-shouchang','寿昌公主（后梁）')
+  ('liang-zhu-youzhen-princess-shouchang','寿昌公主（后梁）'),
+  ('liang-zhu-yougui-mother-unknown','朱友珪生母（失姓）'),
+  ('liang-zhu-wen-princess-anyang','安阳公主（朱温女）'),
+  ('liang-zhu-wen-princess-changle','长乐公主（朱温女）'),
+  ('liang-zhu-wen-princess-puning','普宁公主（朱温女）'),
+  ('liang-zhu-wen-princess-jinhua','金华公主（朱温女）'),
+  ('liang-zhu-wen-princess-zhenning','真宁公主（朱温女）'),
+  ('liang-zhu-wen-sister-wanan','万安大长公主（朱温妹）')
   ON CONFLICT (id) DO NOTHING;

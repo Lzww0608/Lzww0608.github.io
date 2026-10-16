@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-princess-changle",
+  "events": [
+    {
+      "id": "liang-zhu-wen-princess-changle-investiture",
+      "title": "封长乐公主",
+      "summary": "会要记开平元年五月十一日封长乐公主；旧史夹引同条。",
+      "year": 907,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "开平元年五月十一日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "長樂公主，〈降趙巗，開平元年五月十一日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "長樂公主，降趙岩，開平元年五月十一日封。"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-changle-marriage",
+      "title": "嫁赵岩",
+      "summary": "太祖之女长乐公主嫁赵岩，会要本用赵巗字形。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "婚配未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "長樂公主，〈降趙巗，開平元年五月十一日封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "長樂公主，降趙岩"
+        }
+      ],
+      "notes": [
+        "册封日期不自动作为婚日；不据丈夫在末帝朝用事改成末帝女婿。"
+      ]
+    }
+  ]
+}

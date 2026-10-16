@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-sister-wanan",
+  "events": [
+    {
+      "id": "liang-zhu-wen-sister-wanan-marriage",
+      "title": "嫁袁敬初",
+      "summary": "旧史记袁敬初娶梁祖之妹，新史袁传明确为万安大长公主；她是袁象先之母。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "婚配未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p12",
+          "originalRevision": 1,
+          "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+          "excerpt": "敬初娶梁祖之妹，初封沛郡太君。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p26",
+          "originalRevision": 1,
+          "originalSha256": "bda9a999586d16c40e6a1f699307bd8ea5d3df1e39cb5547770763dfa2c0adf1",
+          "excerpt": "父敬初，梁太府卿、駙馬都尉，尚太祖妹，是為萬安大長公主。"
+        },
+        {
+          "chapterId": "new-v13",
+          "paragraphId": "new-v13-p55",
+          "originalRevision": 1,
+          "originalSha256": "278de10462e860ee2815e5a5aed442aa0870470e289457547ece80e6dcbe784a",
+          "excerpt": "象先母為太祖妹萬安大長公主，象先乃太祖甥。"
+        }
+      ],
+      "notes": [
+        "不据丈夫官名或象先生年倒算婚日，也不把她视为朱温的女儿。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-sister-wanan-peijun-title",
+      "title": "初封沛郡太君",
+      "summary": "旧史记梁祖之妹初封沛郡太君。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "初封；未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p12",
+          "originalRevision": 1,
+          "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+          "excerpt": "敬初娶梁祖之妹，初封沛郡太君。"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-sister-wanan-posthumous-princess",
+      "title": "追封长公主",
+      "summary": "旧史记开平年间追封长公主。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "开平中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p12",
+          "originalRevision": 1,
+          "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+          "excerpt": "開平中，追封長公主。"
+        }
+      ],
+      "notes": [
+        "有效开平年号范围跨907—911年；追封不改写为生前封授。"
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 911
+      }
+    },
+    {
+      "id": "liang-zhu-wen-sister-wanan-posthumous-wanan",
+      "title": "追封万安大长公主",
+      "summary": "旧史记贞明年间追封万安大长公主；新史袁传使用此最终称号。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "贞明中",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v059",
+          "paragraphId": "old-v059-p12",
+          "originalRevision": 1,
+          "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+          "excerpt": "貞明中，追封萬安大長公主。"
+        },
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p26",
+          "originalRevision": 1,
+          "originalSha256": "bda9a999586d16c40e6a1f699307bd8ea5d3df1e39cb5547770763dfa2c0adf1",
+          "excerpt": "父敬初，梁太府卿、駙馬都尉，尚太祖妹，是為萬安大長公主。"
+        }
+      ],
+      "notes": [
+        "有效贞明年号范围跨915—921年；未据追封猜唯一卒年或日。"
+      ],
+      "yearRange": {
+        "start": 915,
+        "end": 921
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-princess-anyang",
+  "events": [
+    {
+      "id": "liang-zhu-wen-princess-anyang-death-wei",
+      "title": "卒于魏；助葬成为出兵背景",
+      "summary": "旧史本纪记朱温嫁罗氏的爱女在天祐三年正月卒于邺城，马嗣勋传明确称安阳公主初卒于魏，朱温借助葬派兵入魏。",
+      "year": 906,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天祐三年正月",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "b5f2552be4f80a240d09db7d014e7a1838688f00a2d2dfb662c588f98cffa3a1",
+          "excerpt": "先是，帝之愛女適羅氏，是月卒於鄴城"
+        },
+        {
+          "chapterId": "old-v020",
+          "paragraphId": "old-v020-p14",
+          "originalRevision": 1,
+          "originalSha256": "b27df104324b07aee5cc199488a3a6a87735811bd06efa061ca16bcbc68e61a6",
+          "excerpt": "時安陽公主初卒於魏"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史异年",
+          "sourceDate": "天祐二年",
+          "summary": "新史马嗣勋传把梁女嫁魏、适死及声言助葬系于天祐二年；不合并为同一确定卒年。",
+          "evidence": [
+            {
+              "chapterId": "new-v23",
+              "paragraphId": "new-v23-p26",
+              "originalRevision": 1,
+              "originalSha256": "0dcb9a3ddb6809a420a35355dd69190db4f1dce9dc0a32c6bbbd9dbb7a15cc8f",
+              "excerpt": "天祐二年，羅紹威將誅牙軍，乞兵於梁，梁女嫁魏，適死"
+            }
+          ],
+          "notes": [
+            "天祐二年历年跨西历905—906，不据原书年号直接排成唯一905年。"
+          ]
+        }
+      ],
+      "notes": [
+        "死亡只到原月，牙军战日不是她的卒日；新史未直接写封号，本人归属依据同役旧史连续证据。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-anyang-posthumous-investiture",
+      "title": "追封安阳公主",
+      "summary": "会要记开平三年八月追封安阳公主；旧史夹引会要作开平二年八月，保留异年。",
+      "year": 909,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "会要：开平三年八月",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "梁太祖長女安陽公主，〈降羅延規，早卒。開平三年八月追封。〉"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史夹引异年",
+          "sourceDate": "开平二年八月",
+          "year": 908,
+          "summary": "旧史后妃传夹引同类会要条作开平二年八月。",
+          "evidence": [
+            {
+              "chapterId": "old-v011",
+              "paragraphId": "old-v011-p6",
+              "originalRevision": 1,
+              "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+              "excerpt": "梁太祖長女安陽公主，降羅廷規，開平二年八月追封。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "追封不倒写为生前已受封；两书同月不意味着同年。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-anyang-marriage",
+      "title": "嫁罗氏",
+      "summary": "太祖长女嫁罗氏，旧史作罗廷规，会要作罗延规。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "婚配未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "梁太祖長女安陽公主，降羅廷規"
+        },
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "梁太祖長女安陽公主，〈降羅延規，早卒。開平三年八月追封。〉"
+        },
+        {
+          "chapterId": "kaoyi-v028",
+          "paragraphId": "kaoyi-v028-p26",
+          "originalRevision": 1,
+          "originalSha256": "caa3d8126692bb2692240439e89c3b8f150449db2834d2fc2aa2753b889b3db5",
+          "excerpt": "長廷規司農卿尚安陽公主又尚金華公主早卒"
+        }
+      ],
+      "notes": [
+        "廷规改名周翰为考异所疑，婚配节点不与周翰合并。"
+      ]
+    }
+  ]
+}

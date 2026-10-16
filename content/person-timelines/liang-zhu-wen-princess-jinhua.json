@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-princess-jinhua",
+  "events": [
+    {
+      "id": "liang-zhu-wen-princess-jinhua-investiture",
+      "title": "封金华公主",
+      "summary": "会要记开平二年十月封金华公主；旧史夹引同条。",
+      "year": 908,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "开平二年十月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+          "excerpt": "金華公主，〈開平二年十月封。〉"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "金華公主，開平二年十月封。"
+        }
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-jinhua-ordination",
+      "title": "诏出家为尼",
+      "summary": "考异引薛史记开平四年夏诏金华公主出家为尼，居宋州玄静寺；旧史后妃传夹引同事。",
+      "year": 910,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "开平四年夏",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "kaoyi-v028",
+          "paragraphId": "kaoyi-v028-p26",
+          "originalRevision": 1,
+          "originalSha256": "caa3d8126692bb2692240439e89c3b8f150449db2834d2fc2aa2753b889b3db5",
+          "excerpt": "薛史又云開平四年夏詔金華公主出家為尼居於宋州𤣥靜寺"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "《薛史羅紹威傳》亦載開平四年，詔金華公主出家為尼。"
+        }
+      ],
+      "notes": [
+        "原书到夏季，夏季上下界均属910年，不补诏令确月确日；引书不冒作另一份完整独立原卷。"
+      ]
+    },
+    {
+      "id": "liang-zhu-wen-princess-jinhua-marriage",
+      "title": "嫁罗廷规",
+      "summary": "考异引梁功臣列传称罗廷规尚安阳公主，又尚金华公主，旧史后妃传据此补记金华归罗氏。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "婚配未记年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "kaoyi-v028",
+          "paragraphId": "kaoyi-v028-p26",
+          "originalRevision": 1,
+          "originalSha256": "caa3d8126692bb2692240439e89c3b8f150449db2834d2fc2aa2753b889b3db5",
+          "excerpt": "長廷規司農卿尚安陽公主又尚金華公主早卒"
+        },
+        {
+          "chapterId": "old-v011",
+          "paragraphId": "old-v011-p6",
+          "originalRevision": 1,
+          "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+          "excerpt": "羅廷規尚安陽公主，又尚金華公主。"
+        }
+      ],
+      "notes": [
+        "不把来源未载的具体婚年或母系补成确定事实；廷规与周翰改名说保疑。"
+      ]
+    }
+  ]
+}

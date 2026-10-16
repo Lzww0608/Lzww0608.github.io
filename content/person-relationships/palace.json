@@ -426,5 +426,353 @@
         "title": "《五代会要》 · 卷 2"
       }
     ]
+  },
+  {
+    "id": "yougui-unknown-mother-son",
+    "from": "liang-zhu-yougui-mother-unknown",
+    "to": "zhu-yougui",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "失姓生母有明确传文；不从职业称谓推正式妃嫔名位。",
+    "sources": [
+      {
+        "chapterId": "old-v012",
+        "paragraphId": "old-v012-p11",
+        "originalRevision": 1,
+        "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+        "excerpt": "友珪，小字遙喜，母失其姓，本亳州營妓也。",
+        "title": "《旧五代史》 · 卷 12 · 梁宗室传（含朱友珪）"
+      },
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p45",
+        "originalRevision": 1,
+        "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
+        "excerpt": "庶人友珪者，太祖初鎮宣武，略地宋，亳間，與逆旅婦人野合而生也。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-yougui-mother-summons",
+    "from": "zhu-wen",
+    "to": "liang-zhu-yougui-mother-unknown",
+    "kind": "kinship",
+    "label": "召侍与生子",
+    "note": "旧史载朱温召侍、她告娠并报生男孩；此边不表示已正式婚配、册妃或返汴同行。",
+    "sources": [
+      {
+        "chapterId": "old-v012",
+        "paragraphId": "old-v012-p11",
+        "originalRevision": 1,
+        "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+        "excerpt": "唐光啟中，帝徇地亳州，召而侍寢。月餘，將舍之而去，以娠告。",
+        "title": "《旧五代史》 · 卷 12 · 梁宗室传（含朱友珪）"
+      },
+      {
+        "chapterId": "old-v012",
+        "paragraphId": "old-v012-p11",
+        "originalRevision": 1,
+        "originalSha256": "02471d1f936f4e6f34494af69e0910043cf7f1fd96b20665a1ae8f2a7a373f19",
+        "excerpt": "及期，妓以生男來告，帝喜，故字之曰遙喜。",
+        "title": "《旧五代史》 · 卷 12 · 梁宗室传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-anyang-daughter",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-princess-anyang",
+    "kind": "kinship",
+    "label": "父女；长女",
+    "note": "五位条目承梁太祖之女；除安阳明言长女外不推排行，均未补母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "梁太祖長女安陽公主，〈降羅延規，早卒。開平三年八月追封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "梁太祖長女安陽公主，降羅廷規，開平二年八月追封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-changle-daughter",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-princess-changle",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "五位条目承梁太祖之女；除安阳明言长女外不推排行，均未补母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "長樂公主，〈降趙巗，開平元年五月十一日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "長樂公主，降趙岩，開平元年五月十一日封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-puning-daughter",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-princess-puning",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "五位条目承梁太祖之女；除安阳明言长女外不推排行，均未补母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "普寧公主，〈降王昭祚，開平元年五月十一日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "普寧公主，降昭祚王氏，開平元年五月十一日封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-jinhua-daughter",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-princess-jinhua",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "五位条目承梁太祖之女；除安阳明言长女外不推排行，均未补母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "金華公主，〈開平二年十月封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "金華公主，開平二年十月封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhenning-daughter",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-princess-zhenning",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "五位条目承梁太祖之女；除安阳明言长女外不推排行，均未补母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "真寧公主。〈乾化三年十月五日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "真寧公主，乾化三年十月五日封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "anyang-luo-tinggui-marriage",
+    "from": "liang-zhu-wen-princess-anyang",
+    "to": "luo-tinggui",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "旧史作罗廷规、会要作罗延规；不以周翰作为确定同人。",
+    "sources": [
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "梁太祖長女安陽公主，降羅廷規，開平二年八月追封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      },
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "梁太祖長女安陽公主，〈降羅延規，早卒。開平三年八月追封。〉",
+        "title": "《五代会要》 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "changle-zhao-yan-marriage",
+    "from": "liang-zhu-wen-princess-changle",
+    "to": "zhao-yan-liang",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "赵岩是朱温的女婿，不是朱友贞的女婿；不补婚日。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "長樂公主，〈降趙巗，開平元年五月十一日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v011",
+        "paragraphId": "old-v011-p6",
+        "originalRevision": 1,
+        "originalSha256": "e5bfea512309e68088822a3566731c229027fb6e15d8180d9a1686b6df6f8012",
+        "excerpt": "長樂公主，降趙岩，開平元年五月十一日封。",
+        "title": "《旧五代史》 · 卷 11 · 梁后妃传"
+      }
+    ]
+  },
+  {
+    "id": "puning-wang-zhaozuo-marriage",
+    "from": "liang-zhu-wen-princess-puning",
+    "to": "wang-zhaozuo",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "明确王昭祚妻普宁；不与晋王议论中的唐寿安公主混同。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p16",
+        "originalRevision": 1,
+        "originalSha256": "c714eff544cbe4837b05fd4d48a8f498296738b80c8827fc1bb4432b83c60708",
+        "excerpt": "普寧公主，〈降王昭祚，開平元年五月十一日封。〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p45",
+        "originalRevision": 1,
+        "originalSha256": "e42c70c56ee7ff5a181c6fc110d82120030a930c87ed9ce9d6d4f33c1a26eaa1",
+        "excerpt": "獨置昭祚之妻普寧公主以自托於梁。",
+        "title": "《资治通鉴》 · 卷 271 · 后梁纪6"
+      }
+    ]
+  },
+  {
+    "id": "jinhua-luo-tinggui-marriage",
+    "from": "liang-zhu-wen-princess-jinhua",
+    "to": "luo-tinggui",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "考异引书称廷规尚安阳又尚金华；不据不取传闻写成改名周翰或推婚次年月。",
+    "sources": [
+      {
+        "chapterId": "kaoyi-v028",
+        "paragraphId": "kaoyi-v028-p26",
+        "originalRevision": 1,
+        "originalSha256": "caa3d8126692bb2692240439e89c3b8f150449db2834d2fc2aa2753b889b3db5",
+        "excerpt": "長廷規司農卿尚安陽公主又尚金華公主早卒",
+        "title": "《资治通鉴考异》 · 卷 28 · 后梁纪上"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-wanan-siblings",
+    "from": "zhu-wen",
+    "to": "liang-zhu-wen-sister-wanan",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "原文明太祖妹；不增加同母同父等未明细项。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p26",
+        "originalRevision": 1,
+        "originalSha256": "bda9a999586d16c40e6a1f699307bd8ea5d3df1e39cb5547770763dfa2c0adf1",
+        "excerpt": "父敬初，梁太府卿、駙馬都尉，尚太祖妹，是為萬安大長公主。",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      },
+      {
+        "chapterId": "old-v059",
+        "paragraphId": "old-v059-p12",
+        "originalRevision": 1,
+        "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+        "excerpt": "敬初娶梁祖之妹，初封沛郡太君。",
+        "title": "《旧五代史》 · 卷 59 · 唐列传"
+      }
+    ]
+  },
+  {
+    "id": "wanan-yuan-jingchu-marriage",
+    "from": "liang-zhu-wen-sister-wanan",
+    "to": "yuan-jingchu",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "袁敬初娶梁祖妹；其生前太府卿与累赠项目依旧史区分，不倒灌为女方封号。",
+    "sources": [
+      {
+        "chapterId": "old-v059",
+        "paragraphId": "old-v059-p12",
+        "originalRevision": 1,
+        "originalSha256": "fb8bb0cf88b6cebffa79635ee6daf23a36a1ab29b2a217535d387953ea7371ed",
+        "excerpt": "父敬初，太府卿，累贈司徒、駙馬都尉。敬初娶梁祖之妹，初封沛郡太君。",
+        "title": "《旧五代史》 · 卷 59 · 唐列传"
+      }
+    ]
+  },
+  {
+    "id": "wanan-yuan-xiangxian-mother-son",
+    "from": "liang-zhu-wen-sister-wanan",
+    "to": "yuan-xiangxian",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "校注明言象先母为太祖妹万安；保新史正文外孙与校甥层次，不改已有舅甥边。",
+    "sources": [
+      {
+        "chapterId": "new-v13",
+        "paragraphId": "new-v13-p55",
+        "originalRevision": 1,
+        "originalSha256": "278de10462e860ee2815e5a5aed442aa0870470e289457547ece80e6dcbe784a",
+        "excerpt": "象先母為太祖妹萬安大長公主，象先乃太祖甥。",
+        "title": "《新五代史》 · 卷 13 · 梁家人传（含朱友珪）"
+      },
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p26",
+        "originalRevision": 1,
+        "originalSha256": "bda9a999586d16c40e6a1f699307bd8ea5d3df1e39cb5547770763dfa2c0adf1",
+        "excerpt": "父敬初，梁太府卿、駙馬都尉，尚太祖妹，是為萬安大長公主。",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      }
+    ]
   }
 ]
