@@ -51,7 +51,9 @@
     "tang-li-keyong-mother-qin",
     "tang-li-keyong-daughter-binguo",
     "tang-princess-yaoying",
-    "tang-princess-qionghua"
+    "tang-princess-qionghua",
+    "tang-li-keyong-grandmother-cui",
+    "tang-li-keyong-daughter-wang-yu-wife"
   ],
   "people": [
     {
@@ -479,18 +481,20 @@
       "id": "liang-zhu-youzhen-princess-shouchun",
       "name": "寿春公主（后梁）",
       "dynasty": "后梁",
-      "role": "朱友贞长女",
-      "intro": "后梁少帝朱友贞的长女。《五代会要》记乾化三年四月五日封寿春公主，旧史后妃传夹引同条。",
+      "role": "朱友贞长女；罗周翰妻",
+      "intro": "后梁少帝朱友贞的长女。《五代会要》记乾化三年四月五日封寿春公主，旧史后妃传夹引同条。新史罗绍威传另记其嫁罗周翰，婚年月未独记。",
       "periodLabel": "后梁宫廷及家庭",
       "sourceNotes": [
         "会要底本写夀春，旧史夹引写壽春，显示为寿春；不与寿春地名混淆。",
-        "来源明确封授经历，可单独列年表；未载个人名、母亲、婚配与生卒，不因长女身份补齐这些内容。",
-        "旧史此条夹引会要，与会要本身有同源关系，不计两套独立证实。"
+        "来源明确封授经历，新史另有婚配记载；未载个人名、母亲与生卒，不因长女身份补齐这些内容。",
+        "旧史此条夹引会要，与会要本身有同源关系，不计两套独立证实。",
+        "新史把罗周翰、罗廷规、罗周敬分列；不因罗氏婚家合并寿春、安阳、金华或晋安（普安）公主。"
       ],
       "aliases": "壽春公主（後梁） 寿春公主 壽春公主 夀春公主 寿春公主（后梁）",
       "readingStarts": {
         "huiyao": "huiyao-v002",
-        "old": "old-v011"
+        "old": "old-v011",
+        "new": "new-v39"
       },
       "sources": [
         {
@@ -500,6 +504,10 @@
         {
           "title": "《旧五代史》 · 卷 11 · 梁后妃传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "新五代史 · 卷 39 · 杂传第二十七",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B739&oldid=1721611"
         }
       ]
     },
@@ -578,7 +586,8 @@
       "sourceNotes": [
         "母系、个人名与婚配日期未载；不把马嗣勋平牙军的战日当她的卒日。",
         "罗廷规、罗延规保来源异文。考异区分廷规与周翰，并疑实录改名说，不以周翰作确定别名。",
-        "旧史夹引会要与现存会要不是独立两套完整见证，追封异年照录。"
+        "旧史夹引会要与现存会要不是独立两套完整见证，追封异年照录。",
+        "新史罗绍威传明列罗廷规娶安阳、金华二公主，所载罗周翰妻为梁末帝寿春公主，三位身份分别保留。"
       ],
       "aliases": "安陽公主（朱溫女） 安阳公主 安陽公主 安阳公主（朱温女）",
       "readingStarts": {
@@ -611,6 +620,10 @@
         {
           "title": "《旧五代史》 · 卷 20 · 梁列传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&oldid=8730604"
+        },
+        {
+          "title": "新五代史 · 卷 39 · 杂传第二十七",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B739&oldid=1721611"
         }
       ]
     },
@@ -651,13 +664,15 @@
       "sourceNotes": [
         "母系、个人名、婚日及后来的下落未载；被留下不等于已经逃回梁境。",
         "晋王议论中的朱温之女与寿安公主是被比较的两人，寿安不作她的另一个封号。",
-        "史书称尽灭王氏之族时另明留普宁，不把概括语改成她亦遇害；张文礼求援不当她主动派使。"
+        "史书称尽灭王氏之族时另明留普宁，不把概括语改成她亦遇害；张文礼求援不当她主动派使。",
+        "新史王镕传记梁太祖以女妻王昭祚，未在该段直接称普宁；按已核婚家身份关联，不另造一位无名女。"
       ],
       "aliases": "普寧公主（朱溫女） 普宁公主 普寧公主 普宁公主（朱温女）",
       "readingStarts": {
         "huiyao": "huiyao-v002",
         "old": "old-v062",
-        "tongjian": "tongjian-v271"
+        "tongjian": "tongjian-v271",
+        "new": "new-v39"
       },
       "sources": [
         {
@@ -679,6 +694,10 @@
         {
           "title": "《资治通鉴》 · 卷 271 · 后梁纪6",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7271&oldid=1751976"
+        },
+        {
+          "title": "新五代史 · 卷 39 · 杂传第二十七",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B739&oldid=1721611"
         }
       ]
     },
@@ -690,7 +709,7 @@
       "intro": "朱温之女，开平二年十月封金华公主。《通鉴考异》引《梁功臣列传》记罗廷规先后尚安阳、金华两公主，又引薛史记开平四年夏诏她出家为尼，居宋州玄静寺。",
       "periodLabel": "后梁宫廷及家庭",
       "sourceNotes": [
-        "婚配据考异所引原书，未补婚年、母系或个人名；她与安阳是不同人物。",
+        "婚配除考异所引原书外，新史罗绍威传亦明记；未补婚年、母系或个人名，她与安阳是不同人物。",
         "考异对廷规改名周翰之说提出疑问，不能据此将罗廷规与罗周翰合并。",
         "考异并列后唐实录中妾侍探事的传闻而不取，不据传闻把公主写成密探或妓妾。"
       ],
@@ -698,7 +717,8 @@
       "readingStarts": {
         "huiyao": "huiyao-v002",
         "old": "old-v011",
-        "kaoyi": "kaoyi-v028"
+        "kaoyi": "kaoyi-v028",
+        "new": "new-v39"
       },
       "sources": [
         {
@@ -712,6 +732,10 @@
         {
           "title": "《旧五代史》 · 卷 11 · 梁后妃传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "新五代史 · 卷 39 · 杂传第二十七",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B739&oldid=1721611"
         }
       ]
     },
@@ -1439,6 +1463,67 @@
         {
           "title": "《旧五代史》 · 卷 49 · 唐书列传一",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B749&oldid=2186155"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-keyong-grandmother-cui",
+      "name": "昭烈皇后崔氏（李克用祖母）",
+      "dynasty": "后唐",
+      "role": "执宜夫人；李国昌母、李克用祖母；后唐追尊皇后",
+      "intro": "崔氏，执宜的夫人、李国昌的母亲、李克用的祖母。庄宗称帝后，于同光元年闰四月追尊其为皇后；旧史写作昭列皇后，新史和会要写作昭烈皇后。",
+      "periodLabel": "河东先世与后唐追尊记载",
+      "sourceNotes": [
+        "昭列、昭烈是各书谥号异字，分源保留。",
+        "这是身后追尊，不作为生前在位皇后，也不由此推定生卒年。",
+        "崔氏与李克用母秦氏，以及后唐明宗先世的孝恭昭皇后崔氏，均不合并身份。"
+      ],
+      "aliases": "昭烈皇后崔氏 昭列皇后崔氏 昭烈皇后崔氏（李克用祖母）",
+      "readingStarts": {
+        "old": "old-v029",
+        "new": "new-v05",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 29 · 唐庄宗纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B729&oldid=2309568"
+        },
+        {
+          "title": "《新五代史》 · 卷 5 · 唐本纪第五",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B705&oldid=1744349"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-keyong-daughter-wang-yu-wife",
+      "name": "李克用女（王郁妻）",
+      "dynasty": "后唐",
+      "role": "李克用之女；王郁妻",
+      "intro": "李克用的女儿，名及母氏在所选记载中未见。通鉴回叙王处直庶子王郁奔晋，李克用把女儿嫁给他；新史王处直传也记这项婚配，未给出婚年月。",
+      "periodLabel": "晚唐河东、晋国的婚配记载",
+      "sourceNotes": [
+        "通鉴以“初”回叙，不把主叙王都劫父的921年当作婚年；新史随王郜出奔叙王郁奔晋，也不能据此确定婚日。",
+        "王郁在通鉴称新州团练使，在新史称新州防御使，分别保留；这些是丈夫的军职，不是她的任职。",
+        "她与邠国夫人王珂妻、瑶英长公主及琼华长公主的自然人同异未有充分证据，不据不同婚家推定另人或改嫁，也不补生母。"
+      ],
+      "aliases": "王郁妻（李克用女） 李克用女（王郁妻）",
+      "readingStarts": {
+        "tongjian": "tongjian-v271",
+        "new": "new-v39"
+      },
+      "sources": [
+        {
+          "title": "《资治通鉴》 · 卷 271 · 后梁纪6",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7271&oldid=1751976"
+        },
+        {
+          "title": "《新五代史》 · 卷 39 · 杂传第二十七",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B739&oldid=1721611"
         }
       ]
     }

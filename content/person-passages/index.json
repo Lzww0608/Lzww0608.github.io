@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 204,
-    "paragraphCount": 8659
+    "chapterCount": 205,
+    "paragraphCount": 8713
   },
   "people": [
     {
@@ -882,6 +882,14 @@
     {
       "id": "tang-princess-qionghua",
       "name": "琼华长公主（福庆长公主）"
+    },
+    {
+      "id": "tang-li-keyong-grandmother-cui",
+      "name": "昭烈皇后崔氏（李克用祖母）"
+    },
+    {
+      "id": "tang-li-keyong-daughter-wang-yu-wife",
+      "name": "李克用女（王郁妻）"
     }
   ],
   "passages": [
@@ -4885,6 +4893,10 @@
         },
         {
           "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-grandmother-cui",
           "kind": "record"
         }
       ]
@@ -24542,6 +24554,10 @@
         {
           "personId": "tang-li-keyong-mother-qin",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-grandmother-cui",
+          "kind": "record"
         }
       ]
     },
@@ -36561,6 +36577,814 @@
       "people": [
         {
           "personId": "li-cunxian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p4",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p4",
+          "originalRevision": 1,
+          "originalSha256": "7549969e0a9a0287b94c7a4466cfce00f6288ea076adff10a7f4572709529684",
+          "start": 0,
+          "end": 167
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p7",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p7",
+          "originalRevision": 1,
+          "originalSha256": "d746d21bcd7f042f71dee98f4cd78bd6c353b2169a9898d499e41958673fe302",
+          "start": 0,
+          "end": 468
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p8",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p8",
+          "originalRevision": 1,
+          "originalSha256": "eaf9420f55a726a2d8625c32407bc39e3e8c808807a5c80f15305c8726dae8f3",
+          "start": 0,
+          "end": 194
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p9",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p9",
+          "originalRevision": 1,
+          "originalSha256": "0f9bc29b86629d4bd51a345fd48cbbafa72cadb94302411ddf11b5672e0f8184",
+          "start": 0,
+          "end": 416
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p10",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p10",
+          "originalRevision": 1,
+          "originalSha256": "35d48104728e447657815d6bd47191c186d8bf66878e24bb2f62e8db8353e399",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "fu-xi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p11",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p11",
+          "originalRevision": 1,
+          "originalSha256": "f49ce6698766e3ee83a5e9fb7b2424ce3aba9f6acf25e38a0357fd068f6cc16d",
+          "start": 0,
+          "end": 179
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunjin",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "record"
+        },
+        {
+          "personId": "yan-bao",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-xi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p15",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p15",
+          "originalRevision": 1,
+          "originalSha256": "a3f882f0c537bed42d4034175ca2397b69e0e09777d20160ae3f307786ee864e",
+          "start": 0,
+          "end": 274
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxin",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p16",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p16",
+          "originalRevision": 1,
+          "originalSha256": "7fbef539637aea6be6cbf5c31d12222166c0159ff48d123cc23c91dcc811c60c",
+          "start": 0,
+          "end": 130
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p17",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p17",
+          "originalRevision": 1,
+          "originalSha256": "f29da0fca29dfb692732aad93cc7d0e00b3018847fdb734f2ccbb49ccb75bd4a",
+          "start": 0,
+          "end": 191
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p18",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p18",
+          "originalRevision": 1,
+          "originalSha256": "bda0633860d889bc6b4ba45c9a4dea3febae8802c0cea25500ad0d1b98c12d35",
+          "start": 0,
+          "end": 157
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-sixun",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p19",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p19",
+          "originalRevision": 1,
+          "originalSha256": "0b9929414d2645734b11959d8f080c6bc47c7d35796e8e82433277dc49122da6",
+          "start": 0,
+          "end": 57
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p21",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p21",
+          "originalRevision": 1,
+          "originalSha256": "db8beafa543af0daad9e5f03a4ec82a0cabc038ebf4bf2db10a5fa2631d1b03c",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p22",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p22",
+          "originalRevision": 1,
+          "originalSha256": "4f04de25283ec190573c5900ac84c0d399895d82375f6d0eff43aafd10acae9e",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p23",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p23",
+          "originalRevision": 1,
+          "originalSha256": "097913fe4c112ad25740f0dd79203f68edb410d8b52329a25a9a10c7daff2924",
+          "start": 0,
+          "end": 187
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p24",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p24",
+          "originalRevision": 1,
+          "originalSha256": "176ad86167d11f1b1cf0ee23fdf5567e26ce896be1015647bae073476d61c809",
+          "start": 0,
+          "end": 180
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-youzhen-princess-shouchun",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-anyang",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-jinhua",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p27",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p27",
+          "originalRevision": 1,
+          "originalSha256": "42b98b8ab0e225997156b249547909284b5a08cbe404124e9dc08382540b97ec",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p28",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p28",
+          "originalRevision": 1,
+          "originalSha256": "aee54614708c80d699648239d2285f88e38cfce47725b2402807cbeda24872d0",
+          "start": 0,
+          "end": 115
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p31",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p31",
+          "originalRevision": 1,
+          "originalSha256": "1a09079c1ce66ee70fe2365a1a5821d2dd1551f56e26f0af50490ed826f124db",
+          "start": 0,
+          "end": 359
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-daughter-wang-yu-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p33",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p33",
+          "originalRevision": 1,
+          "originalSha256": "db594b904fde57fbcdb82df7829d62e5f6a747a71990296b3a68225e83f012cd",
+          "start": 0,
+          "end": 367
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-shouyin",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p34",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 34 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p34",
+          "originalRevision": 1,
+          "originalSha256": "2f8a8e93e9a852b5d02976bfac27d6b788cca05a43af33d11502e97d961821c0",
+          "start": 0,
+          "end": 287
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p35",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 35 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p35",
+          "originalRevision": 1,
+          "originalSha256": "ee95bc64bc91154c03507f603737ec8bb8fe9884fea60862ba45ef23ce2a4861",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p38",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 38 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p38",
+          "originalRevision": 1,
+          "originalSha256": "3fa435272f64c38b4a553ee1b4bd8c51c6c94565af19525dd9852849b6fe3bff",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "people": [
+        {
+          "personId": "gai-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p39",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 39 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p39",
+          "originalRevision": 1,
+          "originalSha256": "61a63496b7ccc086d8842103a09b6de9585f229e0700bedd426d63afbf87accc",
+          "start": 0,
+          "end": 166
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p40",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 40 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p40",
+          "originalRevision": 1,
+          "originalSha256": "3c036362a34a72a0b8a97a94b1d3b84f1edc1c7463ec89370a509ac9de8d5839",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-sian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p41",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 41 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p41",
+          "originalRevision": 1,
+          "originalSha256": "73484f63cc779d11a436dbd75a1b02c46e8bfe7d28b771bb3eac55f0ee497c33",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p43",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 43 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p43",
+          "originalRevision": 1,
+          "originalSha256": "4cf9ca1e44032eb5b6b19de17c0a53721cd71caab3c7831b73bc697110bb0c9d",
+          "start": 0,
+          "end": 209
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sian",
+          "kind": "record"
+        },
+        {
+          "personId": "yuan-xingqin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p45",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 45 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p45",
+          "originalRevision": 1,
+          "originalSha256": "c84eb0ecbd32834dc9647b4cc5c32efa8f507b7e99c9687e7d0eeb757bd1671a",
+          "start": 0,
+          "end": 342
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p46",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 46 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p46",
+          "originalRevision": 1,
+          "originalSha256": "93c183c04a5722e708af319c6430c94df7e47c8631c46f62c3a542a82087e9be",
+          "start": 0,
+          "end": 411
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p47",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 47 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p47",
+          "originalRevision": 1,
+          "originalSha256": "3e0029c7198148f4b3c4b1d6eeaa6d3594ff531ae3d36629747bdc88e9920466",
+          "start": 0,
+          "end": 374
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p48",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 48 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p48",
+          "originalRevision": 1,
+          "originalSha256": "39a89cd8ed1399f07fb985b4a7794f8845c8243951f39537afde86a8f415760e",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p49",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 49 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p49",
+          "originalRevision": 1,
+          "originalSha256": "b22b3ebde75a07ffbfad2488535bcec03561bce66eb5c2f0c91dd044ffeaa95e",
+          "start": 0,
+          "end": 186
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v39-p54",
+      "chapterId": "new-v39",
+      "title": "卷 39 · 杂传第二十七 · 第 54 段",
+      "spans": [
+        {
+          "paragraphId": "new-v39-p54",
+          "originalRevision": 1,
+          "originalSha256": "c6438f098223cf9beb97a4253f2df1c5a44b299ae6a02b596b4dedd486339729",
+          "start": 0,
+          "end": 113
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-chonggui",
           "kind": "mention"
         }
       ]
@@ -65581,6 +66405,10 @@
         },
         {
           "personId": "tang-li-keyong-mother-qin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-grandmother-cui",
           "kind": "record"
         }
       ]
@@ -108529,6 +109357,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-daughter-wang-yu-wife",
           "kind": "record"
         }
       ]

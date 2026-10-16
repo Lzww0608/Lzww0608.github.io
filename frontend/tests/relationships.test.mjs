@@ -272,7 +272,8 @@ test('graph search requires input, matches names and aliases, and offers context
   assert.deepEqual(searchRelationshipNodes('克柔').map(node => node.id), ['li-kerou']);
   assert.equal(searchRelationshipNodes('李').length > 1, true);
   assert.deepEqual(searchRelationshipNodes('不存在的人物'), []);
-  assert.deepEqual(searchRelationshipNodes('后唐'), []);
+  assert.deepEqual(searchRelationshipNodes('后唐', fixtureNodes.map(node => ({ ...node, group: '后唐' })), []), []);
+  assert.ok(searchRelationshipNodes('后唐').some(node => node.id === 'tang-ancestor-zhiyi'));
   const people = [
     { id: 'fixture-a', aliases: '曾用名甲' },
     { id: 'fixture-b', aliases: '曾用名乙' },

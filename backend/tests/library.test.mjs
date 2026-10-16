@@ -5,8 +5,8 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 204);
-  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 8659);
+  assert.equal(chapters.length, 205);
+  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 8713);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -17,7 +17,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
     [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:11},(_,i)=>75+i), ...Array.from({length:5},(_,i)=>99+i), ...Array.from({length:11},(_,i)=>110+i),133,134,135,136]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:16},(_,i)=>i+1),21,22,23,25,32,36,43,44,45,46,...Array.from({length:10},(_,i)=>61+i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:16},(_,i)=>i+1),21,22,23,25,32,36,39,43,44,45,46,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));
@@ -39,12 +39,13 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   assert.ok(quewen.includes('宋王禹偁撰') && quewen.includes('皆聞於耆老者也') && quewen.includes('王樸'));
 });
 
-test('Later Tang household volumes retain fixed complete originals, including the short final volume and textual notes', () => {
+test('Later Tang household and supporting biography volumes retain fixed complete originals, including the short final volume and textual notes', () => {
   for (const [id, count, characters, revision, opening, ending] of [
     ['old-v049', 31, 4667, 2186155, '武皇帝', '《會要》不載莊宗女'],
     ['new-v14', 50, 6722, 2292410, '正室劉氏　次妃曹氏', '冊封則在四月己卯'],
     ['new-v15', 45, 5348, 1699112, '皇后曹氏　皇后夏氏', '待考。'],
     ['new-v16', 10, 894, 2292660, '皇后劉氏', '存之所以戒也。'],
+    ['new-v39', 54, 8718, 1721611, '王鎔', '此鎮海當是橫海之誤'],
   ]) {
     const chapter = chapters.find(chapter => chapter.id === id);
     const summary = catalog.chapters.find(chapter => chapter.id === id);

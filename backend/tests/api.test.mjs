@@ -138,7 +138,7 @@ test('full archived chapters are available through the read-only API', async () 
   assert.equal(directory.at(-1).id, 'tongjian-v294');
 });
 
-test('all four Later Tang household volumes are exposed as complete ordered originals', async () => {
+test('Later Tang household and supporting biography volumes are exposed as complete ordered originals', async () => {
   await owner.query("UPDATE books SET published=true WHERE id='new'");
   try {
     for (const [id, count, opening, closing] of [
@@ -146,6 +146,7 @@ test('all four Later Tang household volumes are exposed as complete ordered orig
       ['new-v14', 50, '正室劉氏　次妃曹氏', '冊封則在四月己卯'],
       ['new-v15', 45, '皇后曹氏　皇后夏氏', '待考。'],
       ['new-v16', 10, '皇后劉氏', '存之所以戒也。'],
+      ['new-v39', 54, '王鎔', '此鎮海當是橫海之誤'],
     ]) {
       const response = await fetch(`${base}/api/chapters/${id}`);
       assert.equal(response.status, 200, id);
@@ -171,7 +172,7 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 204);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 205);
   } finally { await owner.query('ROLLBACK'); }
 });
 
