@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "tang-li-jiji-wife-wang-du-daughter",
+  "events": [
+    {
+      "id": "tang-li-jiji-wife-wang-du-daughter-wei-title",
+      "title": "受封魏国夫人",
+      "summary": "旧史本纪直接记皇子李继岌妻王氏受封魏国夫人。此为受封日，不等于婚日，也不与韩氏卫国或刘氏魏国封号混为一人。",
+      "year": 924,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "同光二年秋七月壬戌",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v032",
+          "paragraphId": "old-v032-p7",
+          "originalRevision": 1,
+          "originalSha256": "2fa7f19c303e126349bba6fc407ffa8acfe2a2486d432ac779c34c83129f5083",
+          "excerpt": "壬戌，皇子繼岌妻王氏封魏國夫人。"
+        },
+        {
+          "chapterId": "old-v032",
+          "paragraphId": "old-v032-p7",
+          "originalRevision": 1,
+          "originalSha256": "2fa7f19c303e126349bba6fc407ffa8acfe2a2486d432ac779c34c83129f5083",
+          "excerpt": "秋七月戊戌朔"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-jiji-wife-wang-du-daughter-marriage",
+      "title": "庄宗命继岌娶王都女",
+      "summary": "新史王都传记庄宗追击契丹路过定州，令其子继岌娶王都女，婚家关系明确。此处未独给婚日，不把后来魏国封日充作婚礼日。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "原书未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v39",
+          "paragraphId": "new-v39-p33",
+          "originalRevision": 1,
+          "originalSha256": "db594b904fde57fbcdb82df7829d62e5f6a747a71990296b3a68225e83f012cd",
+          "excerpt": "以其子繼岌娶都女"
+        }
+      ]
+    }
+  ]
+}

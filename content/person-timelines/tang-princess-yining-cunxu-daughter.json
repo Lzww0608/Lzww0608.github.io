@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "tang-princess-yining-cunxu-daughter",
+  "events": [
+    {
+      "id": "tang-princess-yining-cunxu-daughter-marriage",
+      "title": "附注记下嫁宋廷浩",
+      "summary": "旧史附注引书称庄宗女义宁公主下嫁宋廷浩。此处来源角色与本纪第三姑义宁大长公主的亲属记述不同，婚事未独给年月。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "原书未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v049",
+          "paragraphId": "old-v049-p31",
+          "originalRevision": 1,
+          "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+          "excerpt": "莊宗女義寧公主，降宋廷浩。"
+        }
+      ],
+      "notes": [
+        "不把同光三年第三姑册日移给庄宗女，也不把丈夫战死作为公主卒年。"
+      ]
+    },
+    {
+      "id": "tang-princess-yining-cunxu-daughter-jin-treatment",
+      "title": "晋天福中获礼遇并随子就养",
+      "summary": "旧史附引宋渥碑称天福中石敬瑭以旧君之女礼待公主，许入见不拜，赐予丰厚；又使宋渥分司西京，令留使具奉养所需。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "range",
+      "sourceDate": "晋高祖天福中，未独年月；有效在位范围936—942年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v049",
+          "paragraphId": "old-v049-p31",
+          "originalRevision": 1,
+          "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+          "excerpt": "母義寧公主，天福中，晉祖以嘗事莊宗，有舊君之禮，每貴主入見，聽其不拜。"
+        },
+        {
+          "chapterId": "old-v049",
+          "paragraphId": "old-v049-p31",
+          "originalRevision": 1,
+          "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+          "excerpt": "可命渥分司西京，以豐就養。"
+        }
+      ],
+      "notes": [
+        "本段晋祖语境限定高祖在位，不把出帝沿用天福八年延长到本事；没有断某一确年。"
+      ],
+      "yearRange": {
+        "start": 936,
+        "end": 942
+      }
+    }
+  ]
+}

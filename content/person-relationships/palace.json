@@ -1800,5 +1800,419 @@
         "title": "旧五代史 · 卷 91 · 晋书列传六"
       }
     ]
+  },
+  {
+    "id": "tang-cunxu-liu-marriage",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-empress-liu",
+    "kind": "kinship",
+    "label": "夫妻（庄宗刘后）",
+    "note": "新史记太后将刘氏赐给已承晋王位的庄宗，后生继岌、受册为皇后；晋王与皇帝阶段分开。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p10",
+        "originalRevision": 1,
+        "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+        "excerpt": "后父劉叟，黃鬚，善醫卜，自號劉山人。后生五六歲，晉王攻魏，掠成安，裨將袁建豐得后，納之晉宮，貞簡太后教以吹笙歌舞。既筓，甚有色，莊宗見而悅之。莊宗已為晉王，太后幸其宮，置酒為壽，自起歌舞，太后歡甚，命劉氏吹笙佐酒，酒罷去，留劉氏以賜莊宗。先時，莊宗攻梁軍於夾城，得符道昭妻侯氏，寵專諸宮，宮中謂之「夾寨夫人」。莊宗出兵四方，常以侯氏從軍。其後，劉氏生子繼岌，莊宗以為類己，愛之，由是劉氏寵益專，自下魏博、戰河上十餘年，獨以劉氏從。劉氏多智，善迎意承旨，其佗嬪御莫得進見。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      },
+      {
+        "chapterId": "old-v031",
+        "paragraphId": "old-v031-p13",
+        "originalRevision": 1,
+        "originalSha256": "7fbe5562687011bf80c005a3e820bd6a24a5549b22ec7ad1bc9e64e3b252369e",
+        "excerpt": "己卯，帝御文明殿，冊魏國夫人劉氏為皇后。",
+        "title": "旧五代史 · 卷 31 · 唐庄宗纪5"
+      }
+    ]
+  },
+  {
+    "id": "tang-liu-jiji-mother",
+    "from": "tang-li-cunxu-empress-liu",
+    "to": "li-jiji",
+    "kind": "kinship",
+    "label": "母子（继岌）",
+    "note": "新史明确刘氏生继岌，不把其他皇子或人数异说一并当作刘氏亲生。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p10",
+        "originalRevision": 1,
+        "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+        "excerpt": "其後，劉氏生子繼岌，莊宗以為類己，愛之，由是劉氏寵益專",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-han-marriage",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-shufei-han",
+    "kind": "kinship",
+    "label": "夫妻（正室、淑妃）",
+    "note": "旧史明记庄宗正室；淑妃受号与皇后册立是不同身份。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p14",
+        "originalRevision": 1,
+        "originalSha256": "f6aa37d5b3c3576989943f020fe5bebbde3abdcb2f0d1ef36c8271728eee7c2a",
+        "excerpt": "淑妃韓氏，莊宗正室。",
+        "title": "旧五代史 · 卷 49 · 唐书列传一"
+      },
+      {
+        "chapterId": "old-v032",
+        "paragraphId": "old-v032-p5",
+        "originalRevision": 1,
+        "originalSha256": "425c2ec175b8277fdde1cee5eb68bb9ed1026832758b7868612de5f35267b51d",
+        "excerpt": "甲申，以衛國夫人韓氏為淑妃，燕國夫人伊氏為德妃，仍令所司擇日冊命。",
+        "title": "旧五代史 · 卷 32 · 唐庄宗纪6"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-yi-marriage",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-defei-yi",
+    "kind": "kinship",
+    "label": "夫妻（次室、德妃）",
+    "note": "旧史明记庄宗次室，未据此指定其所生子女。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p16",
+        "originalRevision": 1,
+        "originalSha256": "dc272c853cdb44406029491e82dcdb06239b386340afdd1bc769656b234325d9",
+        "excerpt": "德妃伊氏，莊宗次室。",
+        "title": "旧五代史 · 卷 49 · 唐书列传一"
+      },
+      {
+        "chapterId": "old-v032",
+        "paragraphId": "old-v032-p5",
+        "originalRevision": 1,
+        "originalSha256": "425c2ec175b8277fdde1cee5eb68bb9ed1026832758b7868612de5f35267b51d",
+        "excerpt": "甲申，以衛國夫人韓氏為淑妃，燕國夫人伊氏為德妃，仍令所司擇日冊命。",
+        "title": "旧五代史 · 卷 32 · 唐庄宗纪6"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-xia-palace",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-guoguo-xia",
+    "kind": "kinship",
+    "label": "宫人（昭容、虢国夫人）",
+    "note": "新史称夏氏尝幸于庄宗，旧史本纪与会要记昭容封虢国夫人，不称已受册皇后。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p21",
+        "originalRevision": 1,
+        "originalSha256": "50b081ece08f235847984eeb2876ee33195e1832d23e1d9ccef85fc7b34cca7a",
+        "excerpt": "虢國夫人夏氏以嘗幸於莊宗，守殷不敢留。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      },
+      {
+        "chapterId": "old-v032",
+        "paragraphId": "old-v032-p14",
+        "originalRevision": 1,
+        "originalSha256": "ddd781d8f81038d8887fbbbe37128d831bd99a57b038a251278ebbbeee68e806",
+        "excerpt": "昭容夏氏為虢國夫人",
+        "title": "旧五代史 · 卷 32 · 唐庄宗纪6"
+      }
+    ]
+  },
+  {
+    "id": "tang-xia-zanhua-marriage",
+    "from": "tang-li-cunxu-guoguo-xia",
+    "to": "li-zanhua",
+    "kind": "kinship",
+    "label": "夫妻（后嫁李赞华）",
+    "note": "新史、北梦均记夏氏嫁李赞华；交归夏家和婚离先后分别保留，不造夏鲁奇亲父关系。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p21",
+        "originalRevision": 1,
+        "originalSha256": "50b081ece08f235847984eeb2876ee33195e1832d23e1d9ccef85fc7b34cca7a",
+        "excerpt": "後嫁契丹突欲李贊華。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      },
+      {
+        "chapterId": "beimeng-v018",
+        "paragraphId": "beimeng-v018-p19",
+        "originalRevision": 1,
+        "originalSha256": "3ce06f3ecbe50289b5c3b1ff3143ad3352a2205d11c9febaafdc5dd744df5dbe",
+        "excerpt": "莊宗皇帝嫡夫人韓氏後為淑妃伊氏為徳妃契丹入中原石氏乞降宰相馮道尊册契丹主大張宴席其國母后妃列坐同宴王嬙蔡姬之比也夫人夏氏最承恩寵後嫁契丹托雲名李賛華所謂東丹王即安巴堅長子先歸朝後除滑州節度使性酷毒侍婢微過即以刀刲火灼夏氏少長宫掖不忍其兇求離婚歸河陽節度夏魯竒家今為尼也",
+        "title": "北梦琐言 · 卷 18"
+      }
+    ]
+  },
+  {
+    "id": "tang-hou-fu-daozhao-marriage",
+    "from": "fu-daozhao",
+    "to": "tang-li-cunxu-jiazhai-hou",
+    "kind": "kinship",
+    "label": "夫妻（符道昭妻侯氏）",
+    "note": "新史明确侯氏原为符道昭妻，后在夹城之役进入庄宗宫中。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p10",
+        "originalRevision": 1,
+        "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+        "excerpt": "莊宗攻梁軍於夾城，得符道昭妻侯氏，寵專諸宮，宮中謂之「夾寨夫人」。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-jiazhai-hou",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-jiazhai-hou",
+    "kind": "kinship",
+    "label": "宫人（夹寨夫人）",
+    "note": "新史记庄宗宠侯氏，常令从军；同姓昭仪侯氏与她是否同一人未定。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p10",
+        "originalRevision": 1,
+        "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+        "excerpt": "莊宗攻梁軍於夾城，得符道昭妻侯氏，寵專諸宮，宮中謂之「夾寨夫人」。莊宗出兵四方，常以侯氏從軍。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-favorite-mother",
+    "from": "li-cunxu",
+    "to": "tang-li-cunxu-favorite-yuan-xingqin-wife",
+    "kind": "kinship",
+    "label": "宫人（已生子、失名）",
+    "note": "新史记爱姬貌美而生子；姬与其子都未名，不推到满喜等特定皇子。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p16",
+        "originalRevision": 1,
+        "originalSha256": "c6ae420295878469addbf1c9261249806b83709e8c916ff6a61fad9657dc9c7d",
+        "excerpt": "莊宗有愛姬，甚有色而生子，后心患之。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      }
+    ]
+  },
+  {
+    "id": "tang-favorite-yuan-marriage",
+    "from": "yuan-xingqin",
+    "to": "tang-li-cunxu-favorite-yuan-xingqin-wife",
+    "kind": "kinship",
+    "label": "夫妻（获赐宫人）",
+    "note": "旧史与通鉴记刘后建议将所忌宫人赐元行钦为妻；其先前已死之妻另为角色，婚年月未独记。",
+    "sources": [
+      {
+        "chapterId": "old-v070",
+        "paragraphId": "old-v070-p2",
+        "originalRevision": 1,
+        "originalSha256": "276127dcdc135593407d87b3d6f9b224dc1b2fc671e9814a18f15b23b71df575",
+        "excerpt": "皇后指所忌宮人謂莊宗曰：「皇帝憐紹榮，可使為婦。」",
+        "title": "旧五代史 · 卷 70 · 唐列传（元行钦、夏鲁奇等）"
+      },
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p46",
+        "originalRevision": 1,
+        "originalSha256": "b49b96457fe4e1f72f80058abb143603774a798e97e8b47dea5032a64760dc1b",
+        "excerpt": "丙戌，以武寧節度使李紹榮為歸德節度使、同平章事，留宿衛，寵遇甚厚。帝或時與太后，皇后同至其家。帝有幸姬，色美，嘗生子矣，劉後妒之。會紹榮喪妻，一日，侍禁中，帝問紹榮：「汝復娶乎？為汝求婚。」後因指幸姬曰：「大家憐紹榮，何不以此賜之！」帝難言不可，微許之。後趣紹榮拜謝，比起，顧幸姬，已肩輿出宮矣。帝為之托疾不食者累日。",
+        "title": "资治通鉴 · 卷 273 · 后唐纪2"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-yining-daughter",
+    "from": "li-cunxu",
+    "to": "tang-princess-yining-cunxu-daughter",
+    "kind": "kinship",
+    "label": "父女（附注称庄宗女）",
+    "note": "依旧史附注所引书碑登记庄宗女义宁；本纪另记第三姑同封号，来源角色不强合，亦不据此判定已证两自然人。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p31",
+        "originalRevision": 1,
+        "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+        "excerpt": "莊宗女義寧公主，降宋廷浩。",
+        "title": "旧五代史 · 卷 49 · 唐书列传一"
+      }
+    ]
+  },
+  {
+    "id": "tang-yining-song-marriage",
+    "from": "tang-princess-yining-cunxu-daughter",
+    "to": "song-tinghao",
+    "kind": "kinship",
+    "label": "夫妻（义宁、宋廷浩）",
+    "note": "旧史附注记下嫁宋廷浩；封号同异与亲属指向之疑仍保留。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p31",
+        "originalRevision": 1,
+        "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+        "excerpt": "莊宗女義寧公主，降宋廷浩。",
+        "title": "旧五代史 · 卷 49 · 唐书列传一"
+      }
+    ]
+  },
+  {
+    "id": "tang-yining-songwo-mother",
+    "from": "tang-princess-yining-cunxu-daughter",
+    "to": "song-wo-yining-son",
+    "kind": "kinship",
+    "label": "母子（宋渥）",
+    "note": "旧史附引宋渥碑称母义宁公主，奉养事亦按该引文登记，不擅改渥字。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p31",
+        "originalRevision": 1,
+        "originalSha256": "74c19657608b35ae8f7cdef532dca1edcf2f3ecb4088cfcf794969e0abd768ce",
+        "excerpt": "又，王禹偁《小畜集》有《宋渥神道碑》云：母義寧公主，天福中，晉祖以嘗事莊宗，有舊君之禮，每貴主入見，聽其不拜。",
+        "title": "旧五代史 · 卷 49 · 唐书列传一"
+      }
+    ]
+  },
+  {
+    "id": "tang-wang-du-daughter",
+    "from": "wang-du",
+    "to": "tang-li-jiji-wife-wang-du-daughter",
+    "kind": "kinship",
+    "label": "父女（王都女）",
+    "note": "新史明确王都之女嫁继岌，母系及个人名未明。",
+    "sources": [
+      {
+        "chapterId": "new-v39",
+        "paragraphId": "new-v39-p33",
+        "originalRevision": 1,
+        "originalSha256": "db594b904fde57fbcdb82df7829d62e5f6a747a71990296b3a68225e83f012cd",
+        "excerpt": "以其子繼岌娶都女",
+        "title": "新五代史 · 卷 39 · 杂传第二十七"
+      }
+    ]
+  },
+  {
+    "id": "tang-jiji-wang-marriage",
+    "from": "li-jiji",
+    "to": "tang-li-jiji-wife-wang-du-daughter",
+    "kind": "kinship",
+    "label": "夫妻（王都女、魏国夫人）",
+    "note": "新史记继岌娶王都女，本纪记继岌妻王氏受封魏国夫人；受封日不充作婚日。",
+    "sources": [
+      {
+        "chapterId": "new-v39",
+        "paragraphId": "new-v39-p33",
+        "originalRevision": 1,
+        "originalSha256": "db594b904fde57fbcdb82df7829d62e5f6a747a71990296b3a68225e83f012cd",
+        "excerpt": "以其子繼岌娶都女",
+        "title": "新五代史 · 卷 39 · 杂传第二十七"
+      },
+      {
+        "chapterId": "old-v032",
+        "paragraphId": "old-v032-p7",
+        "originalRevision": 1,
+        "originalSha256": "2fa7f19c303e126349bba6fc407ffa8acfe2a2486d432ac779c34c83129f5083",
+        "excerpt": "壬戌，皇子繼岌妻王氏封魏國夫人。",
+        "title": "旧五代史 · 卷 32 · 唐庄宗纪6"
+      }
+    ]
+  },
+  {
+    "id": "tang-liu-father-unknown",
+    "from": "tang-liu-empress-father-unknown",
+    "to": "tang-li-cunxu-empress-liu",
+    "kind": "kinship",
+    "label": "父女（刘叟、刘后）",
+    "note": "新史明记后父刘叟，医卜为业，自号刘山人；叟不作确定个人名。",
+    "sources": [
+      {
+        "chapterId": "new-v14",
+        "paragraphId": "new-v14-p10",
+        "originalRevision": 1,
+        "originalSha256": "108636145bed35db3a2b690a6523dd2b2c265c6b29c83d05233b2cf168c24d6a",
+        "excerpt": "后父劉叟，黃鬚，善醫卜，自號劉山人。",
+        "title": "新五代史 · 卷 14 · 唐家人传第二"
+      }
+    ]
+  },
+  {
+    "id": "tang-liu-quanyi-adoptive",
+    "from": "zhang-quanyi",
+    "to": "tang-li-cunxu-empress-liu",
+    "kind": "adoption",
+    "label": "义父女（拜全义为父）",
+    "note": "旧本纪记帝命皇后拜全义为养父；通鉴记皇后先请父事全义、帝许，发起者按书分列，不是亲生关系。",
+    "sources": [
+      {
+        "chapterId": "old-v032",
+        "paragraphId": "old-v032-p15",
+        "originalRevision": 1,
+        "originalSha256": "b1a8ab98c3da0a2fcb4250d50a387ea8afda9ff068be9170f0a65396723aabca",
+        "excerpt": "庚午，帝與皇后劉氏幸張全義第，酒酣，帝命皇后拜全義為養父，全義惶恐致謝，復出珍貨貢獻。",
+        "title": "旧五代史 · 卷 32 · 唐庄宗纪6"
+      },
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p74",
+        "originalRevision": 1,
+        "originalSha256": "1ac8dc736478431096a36eca9b2b52b93d6e0bce196716263f318adf76174bdd",
+        "excerpt": "庚午，帝及皇后如張全義第，全義大陳貢獻；酒酣，皇后奏稱：「妾幼失父母，見老者輒思之，請父事全義。」帝許之。全義惶恐固辭，再三強之，竟受皇后拜，復貢獻謝恩。明日，後命翰林學士趙鳳草書謝全義，鳳密奏：「自古無天下之母拜人臣為父者。」帝嘉其直，然卒行之。自是後與全義日遣使往來問遺不絕。",
+        "title": "资治通鉴 · 卷 273 · 后唐纪2"
+      }
+    ]
+  },
+  {
+    "id": "tang-liu-jixuan-adoptive",
+    "from": "tang-li-cunxu-empress-liu",
+    "to": "li-jixuan-liu-adopted-son",
+    "kind": "adoption",
+    "label": "蓄子（李继宣）",
+    "note": "北梦称孟审澄子继宣亡命归庄宗、刘后蓄为子；不改作刘氏亲生。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v018",
+        "paragraphId": "beimeng-v018-p17",
+        "originalRevision": 1,
+        "originalSha256": "cd9ef046f1df2fe3ddcd30eec6060a0bc6232323e2cd1351115f2c2d255b51d8",
+        "excerpt": "明宗即位之初誅租庸使孔謙歸徳軍節度使元行欽鄧州節度温韜太子少保段凝汴州麴務辛庭蔚李繼宣等孔謙者魏州孔目吏莊宗圖霸以供饋兵食謙有力焉既為租庸使曲事嬖倖奪宰相權專以聚斂為意剥削為端以犯衆怒伏誅元行欽為莊宗愛將出入宫禁曽無間隔害明宗之子從璟以是伏誅段凝事梁以姦佞進身至節將末年綰軍權束手歸朝温韜兇惡發掘西京陵寢莊宗中興不寘其罪厚賂伶官閹人與段凝皆賜國姓或擁旄龯明宗采衆議而誅之辛庭蔚開封尹王瓚之牙將也朱友貞時廷蔚依瓚勢曲法亂政汴人惡之李繼宣汴將孟審澄之子亡命歸莊宗劉皇后蓄為子時宫掖之間聲流聞此四兇帝在藩邸時惡其為人故廢罷之莊宗皇帝為唐雪恥號為中興而温韜毁發諸帝寢陵宜加大辟而賜國姓付節旄由是知中興之説謬矣",
+        "title": "北梦琐言 · 卷 18"
+      }
+    ]
+  },
+  {
+    "id": "tang-liu-guo-chongtao-conflict",
+    "from": "tang-li-cunxu-empress-liu",
+    "to": "guo-chongtao",
+    "kind": "conflict",
+    "label": "私教杀郭崇韬",
+    "note": "刘后在庄宗未允后私发教给继岌，后由行营执行。发教、受教、亲自动手分开，不把她写为在场亲手杀害。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v274",
+        "paragraphId": "tongjian-v274-p30",
+        "originalRevision": 1,
+        "originalSha256": "e78d4416f0940e30bde1772cb64724cf96a4ea2f8a8887b4460badc28900e2ba",
+        "excerpt": "皇后不得請，退，自為教與繼岌，令殺崇韜。",
+        "title": "资治通鉴 · 卷 274 · 后唐纪3"
+      },
+      {
+        "chapterId": "tongjian-v274",
+        "paragraphId": "tongjian-v274-p37",
+        "originalRevision": 1,
+        "originalSha256": "32af8cc564b74731c767ab8883e655e489393f39e6f64d6026a977a83dcd5a3b",
+        "excerpt": "崇韜方升階，繼岌從者李環撾碎其首，並殺其子廷誨、廷信。",
+        "title": "资治通鉴 · 卷 274 · 后唐纪3"
+      }
+    ]
   }
 ]

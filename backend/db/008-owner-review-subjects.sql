@@ -4,7 +4,7 @@ ALTER TABLE public.owner_review_subjects
   DROP CONSTRAINT IF EXISTS owner_review_subjects_id_check;
 ALTER TABLE public.owner_review_subjects
   ADD CONSTRAINT owner_review_subjects_id_check
-  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang','liang-zhu-yougui-mother-unknown','liang-zhu-wen-princess-anyang','liang-zhu-wen-princess-changle','liang-zhu-wen-princess-puning','liang-zhu-wen-princess-jinhua','liang-zhu-wen-princess-zhenning','liang-zhu-wen-sister-wanan','liang-zhu-wen-ancestor-fan','liang-zhu-wen-ancestor-yang','liang-zhu-wen-ancestor-liu','liang-duan-ning-sister-meiren','liang-princes-nurse-kong-xun-mother','liang-zhang-quanyi-wife-chu','liang-zhang-quanyi-daughter-fuwang-wife','liang-zhang-quanyi-daughter-li-su-wife','tang-li-keyong-wife-liu','tang-li-keyong-consort-cao','tang-li-keyong-consort-chen','tang-li-keyong-consort-zhang','tang-li-keyong-mother-qin','tang-li-keyong-daughter-binguo','tang-princess-yaoying','tang-princess-qionghua','tang-li-keyong-grandmother-cui','tang-li-keyong-daughter-wang-yu-wife','liang-zhu-youzhen-princess-jinan-puan'));
+  CHECK (id IN ('li-keyong','li-cunxu','zhu-wen','chai-rong','li-siyuan','guo-wei','shi-jingtang','liu-zhiyuan','liu-chengyou','shi-chonggui','li-conghou','li-congke','zhu-yougui','zhu-youzhen','chai-zongxun','li-bian','li-jing-southern-tang','li-yu','yang-pu','song-qiqiu','han-xizai','xu-xuan','liang-zhu-wen-mother-wang','liang-zhu-wen-consort-zhang','liang-zhu-wen-zhaoyi-chen','liang-zhu-wen-zhaorong-li','liang-liu-chong-mother','liang-zhu-jin-wife','liang-zhu-youwen-wife-wang','liang-zhu-yougui-wife-zhang','liang-zhu-youzhen-defei-zhang','liang-zhu-youzhen-consort-guo','liang-zhu-youyong-wife-shi','liang-zhu-youzhen-princess-shouchun','liang-zhu-youzhen-princess-shouchang','liang-zhu-yougui-mother-unknown','liang-zhu-wen-princess-anyang','liang-zhu-wen-princess-changle','liang-zhu-wen-princess-puning','liang-zhu-wen-princess-jinhua','liang-zhu-wen-princess-zhenning','liang-zhu-wen-sister-wanan','liang-zhu-wen-ancestor-fan','liang-zhu-wen-ancestor-yang','liang-zhu-wen-ancestor-liu','liang-duan-ning-sister-meiren','liang-princes-nurse-kong-xun-mother','liang-zhang-quanyi-wife-chu','liang-zhang-quanyi-daughter-fuwang-wife','liang-zhang-quanyi-daughter-li-su-wife','tang-li-keyong-wife-liu','tang-li-keyong-consort-cao','tang-li-keyong-consort-chen','tang-li-keyong-consort-zhang','tang-li-keyong-mother-qin','tang-li-keyong-daughter-binguo','tang-princess-yaoying','tang-princess-qionghua','tang-li-keyong-grandmother-cui','tang-li-keyong-daughter-wang-yu-wife','liang-zhu-youzhen-princess-jinan-puan','tang-li-cunxu-empress-liu','tang-li-cunxu-shufei-han','tang-li-cunxu-defei-yi','tang-li-cunxu-guoguo-xia','tang-li-cunxu-jiazhai-hou','tang-li-cunxu-favorite-yuan-xingqin-wife','tang-princess-yining-cunxu-daughter','tang-li-jiji-wife-wang-du-daughter'));
 INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('li-siyuan','李嗣源'),('guo-wei','郭威'),('shi-jingtang','石敬瑭'),
   ('liu-zhiyuan','刘知远'),('liu-chengyou','刘承祐'),
@@ -54,5 +54,13 @@ INSERT INTO public.owner_review_subjects(id,name) VALUES
   ('tang-princess-qionghua','琼华长公主（福庆长公主）'),
   ('tang-li-keyong-grandmother-cui','昭烈皇后崔氏（李克用祖母）'),
   ('tang-li-keyong-daughter-wang-yu-wife','李克用女（王郁妻）'),
-  ('liang-zhu-youzhen-princess-jinan-puan','晋安公主（普安异字，后梁）')
+  ('liang-zhu-youzhen-princess-jinan-puan','晋安公主（普安异字，后梁）'),
+  ('tang-li-cunxu-empress-liu','神闵敬皇后刘氏（李存勖妻）'),
+  ('tang-li-cunxu-shufei-han','淑妃韩氏（李存勖正室）'),
+  ('tang-li-cunxu-defei-yi','德妃伊氏（李存勖次室）'),
+  ('tang-li-cunxu-guoguo-xia','虢国夫人夏氏（李存勖宫人）'),
+  ('tang-li-cunxu-jiazhai-hou','夹寨夫人侯氏（符道昭妻）'),
+  ('tang-li-cunxu-favorite-yuan-xingqin-wife','失名爱姬（庄宗宫人、后赐元行钦）'),
+  ('tang-princess-yining-cunxu-daughter','义宁公主（附注所称庄宗女）'),
+  ('tang-li-jiji-wife-wang-du-daughter','王氏（李继岌妻、王都女）')
   ON CONFLICT (id) DO NOTHING;
