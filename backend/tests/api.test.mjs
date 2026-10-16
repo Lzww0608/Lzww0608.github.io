@@ -147,6 +147,7 @@ test('Later Tang household and supporting biography volumes are exposed as compl
       ['new-v15', 45, '皇后曹氏　皇后夏氏', '待考。'],
       ['new-v16', 10, '皇后劉氏', '存之所以戒也。'],
       ['new-v39', 54, '王鎔', '此鎮海當是橫海之誤'],
+      ['old-v091', 32, '房知溫', '贈司徒。'],
     ]) {
       const response = await fetch(`${base}/api/chapters/${id}`);
       assert.equal(response.status, 200, id);
@@ -157,6 +158,10 @@ test('Later Tang household and supporting biography volumes are exposed as compl
       assert.ok(chapter.paragraphs.at(-1).original.includes(closing), id);
       assert.deepEqual(chapter.paragraphs.map(p => p.id), Array.from({ length: count }, (_, i) => `${id}-p${i + 1}`));
       assert.ok(chapter.paragraphs.every(p => p.translation === null), id);
+      if (id === 'old-v091') {
+        assert.ok(chapter.paragraphs[29].original.includes('尚梁普安公主'));
+        assert.ok(chapter.paragraphs[15].original.includes('為少帝娶從訓長女為妃'));
+      }
     }
   } finally {
     await owner.query("UPDATE books SET published=false WHERE id='new'");
@@ -172,7 +177,7 @@ test('repeat imports preserve local original revisions, translations and publica
     assert.deepEqual(rows[0], { current_revision: 2, original: '本机校订原文' });
     assert.equal((await owner.query("SELECT text FROM translations WHERE paragraph_id='old-v110-p1'")).rows[0].text, '本机校订译文');
     assert.equal((await owner.query("SELECT published FROM books WHERE id='new'")).rows[0].published, false);
-    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 205);
+    assert.equal((await owner.query("SELECT count(*)::int AS n FROM chapters WHERE scope='full'")).rows[0].n, 206);
   } finally { await owner.query('ROLLBACK'); }
 });
 

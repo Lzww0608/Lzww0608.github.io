@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 90 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 91 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、梁唐家人传卷 13—16、相关人物列传及十国世家卷 61—70；共 37 卷，合传均整卷保留，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -82,6 +82,9 @@ for volume, title, subjects in [
 # Complete shared biography supplies source-qualified family references and all notes.
 SPECS.append(dict(id='new-v39', bookId='new', volume=39, title='卷 39 · 杂传第二十七',
                   page='新五代史/卷39', subjects=[], scanSubjects=True))
+# Preserve this complete Jin shared biography, including source-qualified family evidence.
+SPECS.append(dict(id='old-v091', bookId='old', volume=91, title='卷 91 · 晋书列传六',
+                  page='舊五代史/卷91', subjects=[], scanSubjects=True))
 for volume, title, subjects in [
     (52, '唐列传（李嗣昭、李嗣本、李嗣恩等）', ['li-sizhao', 'li-siben', 'li-sien']),
     (53, '唐列传（李存信、李存孝等）', ['li-cunxin', 'li-cunxiao', 'li-cunjin', 'li-cunzhang', 'li-cunxian']),

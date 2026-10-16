@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-youzhen-princess-jinan-puan",
+  "events": [
+    {
+      "id": "liang-zhu-youzhen-princess-jinan-puan-marriage-luo-zhoujing",
+      "title": "嫁罗周敬，名号诸本有异",
+      "summary": "旧史罗周敬传记其尚梁普安公主；新史记罗周敬娶末帝女晋安公主，并在校注列普安异文。婚配明确，原书未独给婚年月。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "婚年月未独记；新旧史任官叙次分别保留",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v091",
+          "paragraphId": "old-v091-p30",
+          "originalRevision": 1,
+          "originalSha256": "185adaad3e82512f588da68156fd368dfc0015c54012f322d7547a82dfe785e4",
+          "excerpt": "逾三年，征授秘書監、檢校司空、駙馬都尉，尚梁普安公主，旋移光祿卿。"
+        },
+        {
+          "chapterId": "new-v39",
+          "paragraphId": "new-v39-p24",
+          "originalRevision": 1,
+          "originalSha256": "176ad86167d11f1b1cf0ee23fdf5567e26ce896be1015647bae073476d61c809",
+          "excerpt": "周翰娶末帝女，曰壽春公主，周敬亦娶末帝女，曰晉安公主。"
+        },
+        {
+          "chapterId": "new-v39",
+          "paragraphId": "new-v39-p53",
+          "originalRevision": 1,
+          "originalSha256": "6d6e6c04b00f1a39c68233b4be9f95a249c9c3b575d698fd322dede3bf3a1fe9",
+          "excerpt": "↑ 周敬亦娶末帝女曰晉安公主　南監、汪、南昌、鄂本及薛史卷九一羅周敬傳「晉安」作「普安」。"
+        }
+      ],
+      "notes": [
+        "新史明年与旧史逾三年是不同任官叙次，均不充作已经核定的婚年。",
+        "罗周敬十岁继节镇，是任职年龄，不据此给公主补婚龄；丈夫天福二年卒也不等于她同年去世。",
+        "晋安、普安与寿昌不据同父或相似封号擅合；个人名和母系未明。"
+      ]
+    }
+  ]
+}

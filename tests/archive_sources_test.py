@@ -13,6 +13,7 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 TANG_HOUSEHOLD_FIXTURES = {
+    'old-v091': (2100871, 32, 6696, 'b35b6cb2497fd16f633b15d58d12cee57a9a8a240f6a1fe67edcb481b5c160b7', 'dae9b04f3a3d8facbb45e4cb6e0e847ea5e330ccd5d5cced9404d1aece278032'),
     'new-v39': (1721611, 54, 8718, '6629ae11baeb05043ff31a160b8aeb6db440a99581acb9f81394a78ffe3fdc3f', '9699023d15e83f7ccbf0bd85cc5593202276b3ffba77f6f9576fa098cb3a2a20'),
     'old-v049': (2186155, 31, 4667, '11a5d1ccba2d368c7d7696b62ef7b642a410d21942d70ad1dab79d8b8152d413', '623d2cf874ccc02cb9011fb96e86b642c8f96327d13a312775c807dfcb1b8f39'),
     'new-v14': (2292410, 50, 6722, '96d9d26e7382c018cde017933d3ee7fdc8e382c1e4a90d165d4f767dd8bc01a0', 'd7b4822a8deb6fea4e80733fea7690069aa6c07cb0625cafff57138da363ee77'),
@@ -25,7 +26,7 @@ class SourceIntegrityTests(unittest.TestCase):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 90)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 91)
         self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 37)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in TANG_HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
@@ -66,6 +67,19 @@ class SourceIntegrityTests(unittest.TestCase):
                     summary = archive.capture(specs[chapter_id])
                     self.assertEqual(archive.capture(specs[chapter_id], summary)['provenance'], summary['provenance'])
             self.assertEqual({p: p.read_bytes() for p in paths}, before)
+
+    def test_jin_shared_biography_keeps_complete_family_evidence_and_source_anomalies(self):
+        source = json.loads((archive.ROOT / 'sources/old-v091.json').read_text())
+        chapter = json.loads((archive.ROOT / 'chapters/old-v091.json').read_text())
+        blocks = archive.extract(source['response']['parse']['text']['*'], with_tags=True)
+        self.assertEqual(sum(tag.startswith('h') for _, tag in blocks), 12)
+        self.assertEqual([value for value, _ in blocks], [p['original'] for p in chapter['paragraphs']])
+        self.assertEqual(chapter['paragraphs'][0]['original'], '房知溫')
+        self.assertIn('存審之第二字也', chapter['paragraphs'][27]['original'])
+        self.assertIn('紹威之弟三子也', chapter['paragraphs'][29]['original'])
+        self.assertIn('逾三年', chapter['paragraphs'][29]['original'])
+        self.assertIn('尚梁普安公主', chapter['paragraphs'][29]['original'])
+        self.assertTrue(chapter['paragraphs'][-1]['original'].endswith('贈司徒。'))
 
     def test_tang_household_volume16_keeps_the_genuine_short_source(self):
         short_spec = next(s for s in archive.SPECS if s['id'] == 'new-v16')
