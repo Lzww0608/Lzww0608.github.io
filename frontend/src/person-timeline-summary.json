@@ -954,7 +954,7 @@
     },
     {
       "personId": "li-conghou",
-      "eventCount": 32,
+      "eventCount": 33,
       "eventIds": [
         "li-conghou-birth",
         "li-conghou-henan-yin",
@@ -966,6 +966,7 @@
         "li-conghou-summoned",
         "li-conghou-accession",
         "li-conghou-government-request",
+        "li-conghou-kill-siyi-kang",
         "li-conghou-old-confidant-sent-away",
         "li-conghou-reading-and-mourning",
         "li-conghou-era-amnesty",
@@ -2968,6 +2969,27 @@
       ]
     },
     {
+      "personId": "tang-li-siyuan-ancestress-gaozu",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-ancestress-gaozu-posthumous-title"
+      ]
+    },
+    {
+      "personId": "tang-li-siyuan-ancestress-zengzu",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-ancestress-zengzu-posthumous-title"
+      ]
+    },
+    {
+      "personId": "tang-li-siyuan-ancestress-zu",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-ancestress-zu-posthumous-title"
+      ]
+    },
+    {
       "personId": "tang-li-siyuan-consort-cao",
       "eventCount": 13,
       "eventIds": [
@@ -3010,6 +3032,21 @@
       ]
     },
     {
+      "personId": "tang-li-siyuan-mother-liu",
+      "eventCount": 2,
+      "eventIds": [
+        "tang-li-siyuan-mother-liu-birth-siyuan",
+        "tang-li-siyuan-mother-liu-posthumous-title"
+      ]
+    },
+    {
+      "personId": "tang-li-siyuan-princess-shouan",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-princess-shouan-title"
+      ]
+    },
+    {
       "personId": "tang-li-siyuan-princess-xingping",
       "eventCount": 8,
       "eventIds": [
@@ -3029,6 +3066,13 @@
       "eventIds": [
         "tang-li-siyuan-princess-yongan-marriage",
         "tang-li-siyuan-princess-yongan-nurture"
+      ]
+    },
+    {
+      "personId": "tang-li-siyuan-princess-yongle",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-princess-yongle-title"
       ]
     },
     {
@@ -3081,12 +3125,26 @@
       ]
     },
     {
+      "personId": "tang-li-siyuan-siyi-kang",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-siyi-kang-death"
+      ]
+    },
+    {
       "personId": "tang-li-siyuan-siyi-wang",
       "eventCount": 3,
       "eventIds": [
         "tang-li-siyuan-siyi-wang-death",
         "tang-li-siyuan-siyi-wang-wetnurse",
         "tang-li-siyuan-siyi-wang-congrong"
+      ]
+    },
+    {
+      "personId": "tang-li-siyuan-zhaoyi-wang",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-siyuan-zhaoyi-wang-qi-furen"
       ]
     },
     {

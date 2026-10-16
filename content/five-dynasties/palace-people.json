@@ -81,7 +81,15 @@
     "tang-li-siyuan-siyi-wang",
     "tang-li-siyuan-princess-yongning",
     "tang-li-siyuan-princess-xingping",
-    "tang-li-siyuan-princess-yongan"
+    "tang-li-siyuan-princess-yongan",
+    "tang-li-siyuan-siyi-kang",
+    "tang-li-siyuan-princess-shouan",
+    "tang-li-siyuan-princess-yongle",
+    "tang-li-siyuan-ancestress-gaozu",
+    "tang-li-siyuan-ancestress-zengzu",
+    "tang-li-siyuan-ancestress-zu",
+    "tang-li-siyuan-mother-liu",
+    "tang-li-siyuan-zhaoyi-wang"
   ],
   "people": [
     {
@@ -2642,6 +2650,271 @@
         {
           "title": "《资治通鉴》 · 卷 286 · 后汉纪1",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7286&oldid=2458278"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-siyi-kang",
+      "name": "司仪康氏（后唐）",
+      "dynasty": "后唐",
+      "role": "后唐宫中司仪；愍帝初被赐死",
+      "intro": "后唐宫中女职司仪。长兴四年十二月乙卯，愍帝李从厚赐她死；旧史说明事情牵连司衣王氏，未详其具体行为。",
+      "periodLabel": "后唐愍帝初史载",
+      "sourceNotes": [
+        "赐死在明宗去世、从厚即位之后，沿用长兴纪年；乙卯已经进入西历934年。",
+        "“事连王氏”不等于明确记载她私通秦王、参与同谋或与王氏有亲属关系。",
+        "司仪康氏与辛亥被杀的司衣王氏职名、姓氏、日期均不同；任职起始和谁授职未载。"
+      ],
+      "aliases": "司仪康氏 司儀康氏 司儀康氏（後唐） 司仪康氏（后唐）",
+      "readingStarts": {
+        "old": "old-v045",
+        "new": "new-v07"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 45 · 唐闵帝纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B745&oldid=1567689"
+        },
+        {
+          "title": "《新五代史》 · 卷 7 · 唐本纪第七（兼载末帝）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B707&oldid=1744386"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-princess-shouan",
+      "name": "寿安公主（明宗第十四女）",
+      "dynasty": "后唐",
+      "role": "李嗣源第十四女，长兴四年受封寿安公主",
+      "intro": "后唐明宗李嗣源的第十四女。长兴四年六月甲子受封寿安公主，母亲、婚配和生卒年月未见确载。",
+      "periodLabel": "后唐明宗时",
+      "sourceNotes": [
+        "旧史本纪具六月甲子，会要与旧史后妃传引会要记长兴四年六月；同源转引不作另一次封授。",
+        "与后周太祖第四女、张永德妻寿安公主不同，也不把通鉴前唐婚盟中的同号公主归到她。",
+        "第十四女是原书排行，不据此推具体年龄；与永乐同日受封不证明二人同母。"
+      ],
+      "aliases": "寿安公主 壽安公主 夀安公主 壽安公主（明宗第十四女） 寿安公主（明宗第十四女）",
+      "readingStarts": {
+        "old": "old-v044",
+        "huiyao": "huiyao-v002"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 44 · 唐明宗纪10",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B744&oldid=513034"
+        },
+        {
+          "title": "《五代会要》 · 卷 2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C&oldid=1969486"
+        },
+        {
+          "title": "《旧五代史》 · 卷 49 · 唐书列传一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B749&oldid=2186155"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-princess-yongle",
+      "name": "永乐公主（明宗第十五女）",
+      "dynasty": "后唐",
+      "role": "李嗣源第十五女，长兴四年受封永乐公主",
+      "intro": "后唐明宗李嗣源的第十五女。长兴四年六月甲子，与第十四女寿安分别受封，封号为永乐公主。",
+      "periodLabel": "后唐明宗时",
+      "sourceNotes": [
+        "旧史本纪与会要均分列寿安、永乐两位公主；不把永乐改作永安或与其他公主合并。",
+        "母亲、婚配和生卒年月未载；排行、同日受封均不能补成同母或确切年龄。",
+        "旧史后妃传夹注引会要，不将同源引文当作另一次封授。"
+      ],
+      "aliases": "永乐公主 永樂公主 永樂公主（明宗第十五女） 永乐公主（明宗第十五女）",
+      "readingStarts": {
+        "old": "old-v044",
+        "huiyao": "huiyao-v002"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 44 · 唐明宗纪10",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B744&oldid=513034"
+        },
+        {
+          "title": "《五代会要》 · 卷 2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C&oldid=1969486"
+        },
+        {
+          "title": "《旧五代史》 · 卷 49 · 唐书列传一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B749&oldid=2186155"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-gaozu",
+      "name": "孝恭昭皇后（明宗高祖妣）",
+      "dynasty": "后唐",
+      "role": "明宗高祖妣，身后追尊；崔氏、刘氏异说并列",
+      "intro": "后唐明宗高祖妣。旧史称卫国夫人崔氏，追谥孝恭昭皇后；会要称昭皇后崔氏，新史在同一祖位、同一谥号下记作刘氏。",
+      "periodLabel": "后唐追尊记载",
+      "sourceNotes": [
+        "以明确祖位保存崔、刘姓氏异说，不凭异姓拆成两位自然人，也不改写新史底本。",
+        "旧史概称天成初，新史在天成二年十二月丙午记追尊；该日已属西历928年。会要分别列男祖追尊及母系，不据男祖之日另造她的一次册礼。",
+        "旧史、会要称曾祖名教，新史作敖，均依同一祖位保留；她不是李克用祖母昭烈崔氏，也不是明宗生母刘氏。"
+      ],
+      "aliases": "孝恭昭皇后 卫国夫人崔氏 衛國夫人崔氏 昭皇后崔氏 孝恭昭皇后（明宗高祖妣）",
+      "readingStarts": {
+        "old": "old-v035",
+        "new": "new-v06"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 35 · 唐明宗纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&oldid=2602014"
+        },
+        {
+          "title": "《新五代史》 · 卷 6 · 唐本纪第六",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B706&oldid=1744385"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-zengzu",
+      "name": "孝质顺皇后张氏（明宗曾祖妣）",
+      "dynasty": "后唐",
+      "role": "明宗曾祖妣，身后追谥孝质顺皇后",
+      "intro": "后唐明宗曾祖妣。旧史称赵国夫人张氏，追谥孝质顺皇后；会要在烈祖琰的母系中称顺皇后张氏，新史亦记同一祖位与谥号。",
+      "periodLabel": "后唐追尊记载",
+      "sourceNotes": [
+        "追尊是后唐建立后的身后尊号，不表示她生前曾在皇后位。",
+        "新史天成二年十二月丙午追尊的记载已跨西历928年；旧史天成初的概叙另存。",
+        "与其他张姓后妃、宫职或公主不合并；生年、卒年与生前事迹未见确载。"
+      ],
+      "aliases": "孝质顺皇后张氏 孝質順皇后張氏 赵国夫人张氏 趙國夫人張氏 顺皇后张氏 順皇后張氏 孝質順皇后張氏（明宗曾祖妣） 孝质顺皇后张氏（明宗曾祖妣）",
+      "readingStarts": {
+        "old": "old-v035",
+        "new": "new-v06"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 35 · 唐明宗纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&oldid=2602014"
+        },
+        {
+          "title": "《新五代史》 · 卷 6 · 唐本纪第六",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B706&oldid=1744385"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-zu",
+      "name": "孝靖穆皇后何氏（明宗祖妣）",
+      "dynasty": "后唐",
+      "role": "明宗祖母，身后追谥孝靖穆皇后",
+      "intro": "后唐明宗祖母。旧史称秦国夫人何氏，追谥孝靖穆皇后；会要明确她为霓之母，新史记同一祖位、姓氏和谥号。",
+      "periodLabel": "后唐追尊记载",
+      "sourceNotes": [
+        "新史天成二年十二月丙午追尊，已属西历928年；不把该日当生前册后或卒日。",
+        "秦国夫人为旧史称号，不因此与其他获秦国夫人封号者或晋高祖先世何氏合人。",
+        "旧史明确她是霓之母；新史在明宗父亲一项省名，不据此省略否定另一书记名。"
+      ],
+      "aliases": "孝靖穆皇后何氏 孝靖穆皇后 秦国夫人何氏 秦國夫人何氏 穆皇后何氏 孝靖穆皇后何氏（明宗祖妣）",
+      "readingStarts": {
+        "old": "old-v035",
+        "new": "new-v06"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 35 · 唐明宗纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&oldid=2602014"
+        },
+        {
+          "title": "《新五代史》 · 卷 6 · 唐本纪第六",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B706&oldid=1744385"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-mother-liu",
+      "name": "孝成懿皇后刘氏（明宗生母）",
+      "dynasty": "后唐",
+      "role": "李嗣源生母，身后追谥孝成懿皇后",
+      "intro": "后唐明宗李嗣源的生母。旧史称宋国夫人刘氏，记她于唐咸通丁亥九月九日生明宗，身后追谥孝成懿皇后。",
+      "periodLabel": "唐咸通年间事迹、后唐追尊",
+      "sourceNotes": [
+        "咸通丁亥即咸通八年，是她生明宗的日期，不是她本人的生年。旧史记应州金城县，会要记代北金凤殿，两种地点表述分别保存。",
+        "新史在天成二年十二月丙午记追尊孝成懿，已跨西历928年；旧史概叙天成初，生前封后及确切卒日未载。",
+        "新史高祖妣也写刘氏，但祖位不同，不与明宗生母合并。"
+      ],
+      "aliases": "孝成懿皇后刘氏 孝成懿皇后劉氏 宋国夫人刘氏 宋國夫人劉氏 懿皇后刘氏 懿皇后劉氏 孝成懿皇后劉氏（明宗生母） 孝成懿皇后刘氏（明宗生母）",
+      "readingStarts": {
+        "old": "old-v035",
+        "new": "new-v06",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 35 · 唐明宗纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&oldid=2602014"
+        },
+        {
+          "title": "《新五代史》 · 卷 6 · 唐本纪第六",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B706&oldid=1744385"
+        },
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-siyuan-zhaoyi-wang",
+      "name": "昭仪王氏（明宗内职）",
+      "dynasty": "后唐",
+      "role": "明宗宫中昭仪，封齐国夫人",
+      "intro": "后唐明宗宫中女职昭仪，姓王。会要记长兴三年九月敕封齐国夫人；旧史后妃传夹注转引这一内职名单。",
+      "periodLabel": "后唐明宗宫中内职",
+      "sourceNotes": [
+        "名单中德妃王氏、昭仪王氏、尚服王氏及衣服王氏分别列职；旧史衣服一职作司服。没有来源证明这些王氏都是同一人，亦不强断为不同自然人。",
+        "不将齐国夫人这一封号全局套给其他宫人、公主或夫人；不补本名、生卒和生育。",
+        "旧史此处明确引会要，不将两份同源文字当作独立册命或另一次封授。"
+      ],
+      "aliases": "昭仪王氏 昭儀王氏 齐国夫人王氏 齊國夫人王氏 昭儀王氏（明宗內職） 昭仪王氏（明宗内职）",
+      "readingStarts": {
+        "huiyao": "huiyao-v001",
+        "old": "old-v049"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》 · 卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《旧五代史》 · 卷 49 · 唐书列传一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B749&oldid=2186155"
         }
       ]
     }

@@ -1002,6 +1002,38 @@
     {
       "id": "tang-li-siyuan-princess-yongan",
       "name": "永安公主（赵延寿后妻）"
+    },
+    {
+      "id": "tang-li-siyuan-siyi-kang",
+      "name": "司仪康氏（后唐）"
+    },
+    {
+      "id": "tang-li-siyuan-princess-shouan",
+      "name": "寿安公主（明宗第十四女）"
+    },
+    {
+      "id": "tang-li-siyuan-princess-yongle",
+      "name": "永乐公主（明宗第十五女）"
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-gaozu",
+      "name": "孝恭昭皇后（明宗高祖妣）"
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-zengzu",
+      "name": "孝质顺皇后张氏（明宗曾祖妣）"
+    },
+    {
+      "id": "tang-li-siyuan-ancestress-zu",
+      "name": "孝靖穆皇后何氏（明宗祖妣）"
+    },
+    {
+      "id": "tang-li-siyuan-mother-liu",
+      "name": "孝成懿皇后刘氏（明宗生母）"
+    },
+    {
+      "id": "tang-li-siyuan-zhaoyi-wang",
+      "name": "昭仪王氏（明宗内职）"
     }
   ],
   "passages": [
@@ -4574,6 +4606,10 @@
         {
           "personId": "gao-conghui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-mother-liu",
+          "kind": "mention"
         }
       ]
     },
@@ -5074,6 +5110,34 @@
       ]
     },
     {
+      "id": "passage-huiyao-v001-p23",
+      "chapterId": "huiyao-v001",
+      "title": "卷 1 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v001-p23",
+          "originalRevision": 1,
+          "originalSha256": "2ada734e6ac8a8cf7773a7eae53cdd44584b2bfbb86504b2a77fbdcd7a0c5fc5",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-ancestress-gaozu",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zengzu",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-huiyao-v001-p24",
       "chapterId": "huiyao-v001",
       "title": "卷 1 · 第 24 段",
@@ -5553,6 +5617,10 @@
         },
         {
           "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-zhaoyi-wang",
           "kind": "record"
         }
       ]
@@ -6037,6 +6105,14 @@
         },
         {
           "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-shouan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongle",
           "kind": "record"
         }
       ]
@@ -25426,6 +25502,22 @@
         {
           "personId": "meng-zhixiang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-gaozu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zengzu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-mother-liu",
+          "kind": "record"
         }
       ]
     },
@@ -25801,6 +25893,10 @@
         },
         {
           "personId": "tang-li-siyuan-siyi-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-kang",
           "kind": "record"
         }
       ]
@@ -70022,6 +70118,22 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-gaozu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zengzu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-mother-liu",
+          "kind": "record"
         }
       ]
     },
@@ -74578,6 +74690,14 @@
         {
           "personId": "li-conghou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-shouan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongle",
+          "kind": "record"
         }
       ]
     },
@@ -74885,6 +75005,10 @@
         },
         {
           "personId": "tang-li-siyuan-siyi-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-kang",
           "kind": "record"
         }
       ]
@@ -77270,6 +77394,10 @@
         {
           "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-zhaoyi-wang",
+          "kind": "record"
         }
       ]
     },
@@ -77389,6 +77517,14 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-shouan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongle",
           "kind": "record"
         }
       ]
@@ -118297,6 +118433,22 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-gaozu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zengzu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-ancestress-zu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-mother-liu",
           "kind": "record"
         }
       ]
