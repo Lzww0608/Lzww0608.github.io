@@ -3416,9 +3416,29 @@ export const personRelationships: readonly PersonRelationship[] = [
     sources: [source('new-v36', 19, '《新五代史》卷36 · 李存孝传', '太祖掠地代北得之，給事帳中，賜姓名，以為子，常從為騎將。')],
   },
   {
-    id: 'li-siyuan-congke-adoption', from: 'li-siyuan', to: 'li-congke', kind: 'adoption', label: '养子',
-    sources: [source('new-v07', 4, '《新五代史》卷7 · 唐废帝本纪', '魏氏有子阿三，已十餘歲，明宗養以為子，名曰從珂。')],
-  },
+    "id": "li-siyuan-congke-adoption",
+    "from": "li-siyuan",
+    "to": "li-congke",
+    "kind": "adoption",
+    "label": "养子",
+    "sources": [
+      {
+        "chapterId": "new-v07",
+        "paragraphId": "new-v07-p4",
+        "title": "《新五代史》卷7 · 唐废帝本纪",
+        "excerpt": "魏氏有子阿三，已十餘歲，明宗養以為子，名曰從珂。"
+      },
+      {
+        "chapterId": "kaoyi-v028",
+        "paragraphId": "kaoyi-v028-p43",
+        "originalRevision": 1,
+        "originalSha256": "e5f83d00a7dea8df608561ab886aeffa08f36dd99cb8736e9db0fe813d0dfe92",
+        "excerpt": "王從珂為李嗣源子〈張昭於國初修唐廢帝實錄云廢帝諱從珂明宗皇帝之元子也母曰宣憲皇后魏氏鎮州平山人中和末明宗徇地山東留戍平山得魏后帝以光啓元年正月二十三日生於外舍屬趙人負盟用兵不息音問阻絶帝甫十嵗方得歸宗時明宗為禆將性闊達不能治生曹后亦疏於畫略生計所資惟宣憲而已曹后未有息𦙍幹家宣室帝與部曲王建立皇甫立代北徃來供饋曹后憐之不異所生薛史末帝諱從珂本姓王氏鎮州人也母宣憲皇后魏氏以光啓元年生帝於平山景福中明宗為武皇騎將略地至平山遇魏氏虜之帝時年十餘歲明宗養為己子劉恕取廢帝錄以為明宗即位後不立從珂而欲立從榮從榮死傳位從厚故人皆謂從珂為養子按張昭仕明宗為史官異代修廢帝錄無所諱避而不言養子事似可信然李克用光啟元年以前未嘗徇地山東又從珂若果是明宗子明宗必不捨之而立從榮從珂亦當不服今從薛史〉",
+        "title": "《资治通鉴考异》 · 卷 28 · 后梁纪上"
+      }
+    ],
+    "note": "新史明确明宗养从珂为子；《考异》另引《唐废帝实录》称明宗元子，保存刘恕采亲子说及司马光最终采薛史养子说的取舍。此边依正史收养记录，保留亲养异说，不据赐名另造无争议亲父边。"
+  } as PersonRelationship,
   {
     id: 'shi-jingtang-chonggui-adoption', from: 'shi-jingtang', to: 'shi-chonggui', kind: 'adoption', label: '养子',
     note: '石敬瑭收兄长之子石重贵为子；生父仍为石敬儒。',

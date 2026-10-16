@@ -970,6 +970,38 @@
     {
       "id": "tang-li-cunxu-xuanyi-ma",
       "name": "宣一马氏（庄宗内职）"
+    },
+    {
+      "id": "tang-li-siyuan-consort-xia",
+      "name": "昭懿皇后夏氏（明宗）"
+    },
+    {
+      "id": "tang-li-siyuan-consort-cao",
+      "name": "和武显皇后曹氏（明宗）"
+    },
+    {
+      "id": "tang-li-siyuan-consort-wei",
+      "name": "宣宪皇后魏氏（李从珂生母）"
+    },
+    {
+      "id": "tang-li-siyuan-shufei-wang",
+      "name": "淑妃王氏（花见羞）"
+    },
+    {
+      "id": "tang-li-siyuan-siyi-wang",
+      "name": "司衣王氏（李从益乳母）"
+    },
+    {
+      "id": "tang-li-siyuan-princess-yongning",
+      "name": "永宁公主／后晋皇后李氏"
+    },
+    {
+      "id": "tang-li-siyuan-princess-xingping",
+      "name": "兴平公主（赵延寿前妻）"
+    },
+    {
+      "id": "tang-li-siyuan-princess-yongan",
+      "name": "永安公主（赵延寿后妻）"
     }
   ],
   "passages": [
@@ -2021,6 +2053,10 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
           "kind": "record"
         }
       ]
@@ -4586,6 +4622,10 @@
         {
           "personId": "gao-conghui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
         }
       ]
     },
@@ -4629,6 +4669,10 @@
         },
         {
           "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
           "kind": "record"
         }
       ]
@@ -5178,6 +5222,18 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -5253,6 +5309,10 @@
         },
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -5489,6 +5549,10 @@
         },
         {
           "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -5966,6 +6030,14 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
         }
       ]
     },
@@ -6425,6 +6497,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -18278,6 +18354,14 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "mention"
         }
       ]
     },
@@ -25458,6 +25542,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -25549,6 +25637,10 @@
         },
         {
           "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
           "kind": "record"
         }
       ]
@@ -25706,6 +25798,10 @@
         {
           "personId": "li-conghou",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-wang",
+          "kind": "record"
         }
       ]
     },
@@ -25738,6 +25834,14 @@
         {
           "personId": "wang-sitong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -25766,6 +25870,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -25858,6 +25966,10 @@
         {
           "personId": "kang-sili",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -25902,6 +26014,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -26013,6 +26129,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -26925,6 +27045,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -29954,6 +30078,26 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -29973,6 +30117,14 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -30002,6 +30154,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -30025,6 +30181,10 @@
         },
         {
           "personId": "liu-xun",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -30054,6 +30214,18 @@
         {
           "personId": "liu-xun",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-wang",
+          "kind": "record"
         }
       ]
     },
@@ -30082,6 +30254,18 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongan",
+          "kind": "mention"
         }
       ]
     },
@@ -30114,6 +30298,14 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -30142,6 +30334,18 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongan",
+          "kind": "record"
         }
       ]
     },
@@ -30161,6 +30365,10 @@
       "people": [
         {
           "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -30189,6 +30397,10 @@
         },
         {
           "personId": "gao-xingzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -32421,6 +32633,10 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -35306,6 +35522,10 @@
         {
           "personId": "xifang-ye",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -41478,6 +41698,14 @@
         {
           "personId": "wang-jianli",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -72026,6 +72254,14 @@
         {
           "personId": "mao-zhang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -72145,6 +72381,14 @@
         },
         {
           "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
           "kind": "record"
         }
       ]
@@ -72906,6 +73150,10 @@
         {
           "personId": "fang-zhiwen",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -73150,6 +73398,10 @@
         {
           "personId": "wang-jianli",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -73254,6 +73506,10 @@
         {
           "personId": "wang-sitong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -73333,6 +73589,10 @@
         },
         {
           "personId": "ma-xisheng",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
           "kind": "record"
         }
       ]
@@ -73553,6 +73813,10 @@
         },
         {
           "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -73842,6 +74106,10 @@
         {
           "personId": "kang-fu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
         }
       ]
     },
@@ -73894,6 +74162,14 @@
         {
           "personId": "li-conghou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "mention"
         }
       ]
     },
@@ -74230,6 +74506,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
         }
       ]
     },
@@ -74373,6 +74653,18 @@
         },
         {
           "personId": "zhang-qianzhao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
           "kind": "record"
         }
       ]
@@ -74542,6 +74834,10 @@
         {
           "personId": "li-conghou",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
         }
       ]
     },
@@ -74586,6 +74882,10 @@
         {
           "personId": "li-conghou",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-wang",
+          "kind": "record"
         }
       ]
     },
@@ -74689,6 +74989,14 @@
         },
         {
           "personId": "gao-xingzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -74830,6 +75138,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -74933,6 +75245,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
           "kind": "record"
         }
       ]
@@ -75178,6 +75494,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -75226,6 +75546,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "mention"
         }
       ]
     },
@@ -75274,6 +75598,14 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -75694,6 +76026,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -75718,6 +76054,18 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
         }
       ]
     },
@@ -75869,6 +76217,10 @@
         },
         {
           "personId": "zhu-hanbin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
           "kind": "record"
         }
       ]
@@ -76254,6 +76606,10 @@
         {
           "personId": "zhang-jingda",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
         }
       ]
     },
@@ -76277,6 +76633,10 @@
         },
         {
           "personId": "kang-fu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
           "kind": "record"
         }
       ]
@@ -76465,6 +76825,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -76834,6 +77198,10 @@
         {
           "personId": "li-conghou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-xia",
+          "kind": "record"
         }
       ]
     },
@@ -76857,6 +77225,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -76886,6 +77258,18 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "mention"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -76913,6 +77297,10 @@
         },
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -76989,6 +77377,18 @@
         },
         {
           "personId": "tang-princess-yining-cunxu-daughter",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongan",
           "kind": "record"
         }
       ]
@@ -81254,6 +81654,10 @@
         {
           "personId": "gao-jixing",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -84250,6 +84654,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -84934,6 +85342,10 @@
         {
           "personId": "wang-jianli",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -85033,6 +85445,10 @@
         },
         {
           "personId": "qian-yuanguan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -85574,6 +85990,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
         }
       ]
     },
@@ -86066,6 +86486,10 @@
         {
           "personId": "tang-li-cunxu-empress-liu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -86550,6 +86974,10 @@
         {
           "personId": "qian-yuanguan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -86654,6 +87082,14 @@
         {
           "personId": "shi-jingtang",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
         }
       ]
     },
@@ -86794,6 +87230,10 @@
         {
           "personId": "li-sian",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -87210,6 +87650,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -87230,6 +87674,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88354,6 +88802,10 @@
         {
           "personId": "kang-fu",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88374,6 +88826,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88414,6 +88870,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88438,6 +88898,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88458,6 +88922,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88498,6 +88966,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88538,6 +89010,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -88689,6 +89165,14 @@
         },
         {
           "personId": "wang-jianli",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -89437,6 +89921,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -91650,6 +92138,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -91841,6 +92333,10 @@
         },
         {
           "personId": "ma-xichong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -98250,6 +98746,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -99506,6 +100006,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -105937,6 +106441,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-wei",
           "kind": "record"
         }
       ]
@@ -116658,6 +117166,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v275-p56",
+      "chapterId": "tongjian-v275",
+      "title": "卷 275 · 后唐纪4 · 第 56 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v275-p56",
+          "originalRevision": 1,
+          "originalSha256": "0da8cb4d9a106d73ba691e6f17c60af7e2966b58d7ff8640c89c14274f047a56",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v275-p61",
       "chapterId": "tongjian-v275",
       "title": "卷 275 · 后唐纪4 · 第 61 段",
@@ -119270,6 +119798,14 @@
         {
           "personId": "li-siyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -120314,6 +120850,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v277-p80",
+      "chapterId": "tongjian-v277",
+      "title": "卷 277 · 后唐纪6 · 第 80 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v277-p80",
+          "originalRevision": 1,
+          "originalSha256": "e615ffd189cc128b6afa5dd8964959b050f4751a787c63bc5a6884863ceee2ac",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v277-p81",
       "chapterId": "tongjian-v277",
       "title": "卷 277 · 后唐纪6 · 第 81 段",
@@ -120373,6 +120929,26 @@
         },
         {
           "personId": "wang-yanzheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v277-p87",
+      "chapterId": "tongjian-v277",
+      "title": "卷 277 · 后唐纪6 · 第 87 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v277-p87",
+          "originalRevision": 1,
+          "originalSha256": "db3f862ccc1783fdba74b2d226e1329103ce597eaf698876d0e56c29f1ce426f",
+          "start": 0,
+          "end": 147
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -121486,6 +122062,14 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -121962,6 +122546,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v278-p61",
+      "chapterId": "tongjian-v278",
+      "title": "卷 278 · 后唐纪7 · 第 61 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v278-p61",
+          "originalRevision": 1,
+          "originalSha256": "ccaad2f9abc9454c2ac31737f9714cadb04393edb7be108c916aabd24fb7fe89",
+          "start": 0,
+          "end": 292
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v278-p65",
       "chapterId": "tongjian-v278",
       "title": "卷 278 · 后唐纪7 · 第 65 段",
@@ -121997,6 +122601,10 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -122041,6 +122649,10 @@
         },
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -122189,6 +122801,14 @@
       "people": [
         {
           "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-siyi-wang",
           "kind": "record"
         }
       ]
@@ -122518,6 +123138,10 @@
         {
           "personId": "li-conghou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -122537,6 +123161,10 @@
       "people": [
         {
           "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -122906,6 +123534,14 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -122929,6 +123565,10 @@
         },
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -122966,6 +123606,10 @@
         {
           "personId": "liu-zhiyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
         }
       ]
     },
@@ -122985,6 +123629,10 @@
       "people": [
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -123030,6 +123678,14 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -123053,6 +123709,10 @@
         },
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -123162,6 +123822,14 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -123213,6 +123881,14 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -123405,6 +124081,10 @@
       "people": [
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
       ]
@@ -123658,6 +124338,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v279-p87",
+      "chapterId": "tongjian-v279",
+      "title": "卷 279 · 后唐纪8 · 第 87 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v279-p87",
+          "originalRevision": 1,
+          "originalSha256": "d6c213c6f16ad72e4ebc0ac3dd303054fa4a9b51c9b792642da8bdbf4f79179e",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-consort-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v279-p91",
       "chapterId": "tongjian-v279",
       "title": "卷 279 · 后唐纪8 · 第 91 段",
@@ -123766,6 +124466,14 @@
         {
           "personId": "liu-zhiyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -124078,6 +124786,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -124258,6 +124970,10 @@
         {
           "personId": "zhang-jingda",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -124738,6 +125454,10 @@
         {
           "personId": "liu-zhiyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -125077,6 +125797,14 @@
         },
         {
           "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-consort-cao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -126286,6 +127014,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v281-p84",
+      "chapterId": "tongjian-v281",
+      "title": "卷 281 · 后晋纪2 · 第 84 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v281-p84",
+          "originalRevision": 1,
+          "originalSha256": "72498c6f0ecf0bfafbc05c10974f3820ef30ae961e2aa68cd6bddae4eb95a051",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-princess-xingping",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v281-p85",
       "chapterId": "tongjian-v281",
       "title": "卷 281 · 后晋纪2 · 第 85 段",
@@ -126889,6 +127637,30 @@
       "people": [
         {
           "personId": "ma-xifan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v282-p36",
+      "chapterId": "tongjian-v282",
+      "title": "卷 282 · 后晋纪3 · 第 36 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v282-p36",
+          "originalRevision": 1,
+          "originalSha256": "445c571ac34b7f9b5bb34c5dc4a5ff5276cdef8152b397a0b0350135deab3ca3",
+          "start": 0,
+          "end": 40
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -130866,6 +131638,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
         }
       ]
     },
@@ -131518,6 +132294,10 @@
         {
           "personId": "liu-zhiyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -131561,6 +132341,30 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v285-p77",
+      "chapterId": "tongjian-v285",
+      "title": "卷 285 · 后晋纪6 · 第 77 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v285-p77",
+          "originalRevision": 1,
+          "originalSha256": "ac48cc4f24576e3e2b3c8cf0b5c6cb235b356e4d5d1a66b505006c12437fb74f",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -131654,6 +132458,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -131694,6 +132502,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -131713,6 +132525,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -131773,6 +132589,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -132054,6 +132874,10 @@
         {
           "personId": "liu-zhiyuan",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -132233,6 +133057,14 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongan",
           "kind": "record"
         }
       ]
@@ -132702,6 +133534,10 @@
         {
           "personId": "gao-xingzhou",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
         }
       ]
     },
@@ -132829,6 +133665,10 @@
         },
         {
           "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
         }
       ]
@@ -134698,6 +135538,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -135549,6 +136393,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
         }
       ]
