@@ -948,5 +948,163 @@
         "title": "《新五代史》 · 卷 43 · 杂传"
       }
     ]
+  },
+  {
+    "id": "zhang-quanyi-chu-marriage",
+    "from": "zhang-quanyi",
+    "to": "liang-zhang-quanyi-wife-chu",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "明确储氏为张全义妻；不据此自动推她为所有女儿的生母。",
+    "sources": [
+      {
+        "chapterId": "old-v063",
+        "paragraphId": "old-v063-p6",
+        "originalRevision": 1,
+        "originalSha256": "a1894641c56b6efd24c182ad562f2fb33cb7c340d62db348bdbb583f11cb4aaa",
+        "excerpt": "全義妻儲氏，明敏有才略。",
+        "title": "《旧五代史》 · 卷 63 · 唐列传"
+      },
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p8",
+        "originalRevision": 1,
+        "originalSha256": "68a47bc774b71c7ca14547b5d4b20c8666a3b7b6c3415bc0b67d002cff8abdf5",
+        "excerpt": "全義妻儲氏明敏有口辯，遽入見",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      }
+    ]
+  },
+  {
+    "id": "chu-zhu-wen-intercession",
+    "from": "liang-zhang-quanyi-wife-chu",
+    "to": "zhu-wen",
+    "kind": "conflict",
+    "label": "为丈夫当面申辩",
+    "note": "朱温猜忌或急召张全义时，储氏入见、厉声申辩；登记具体交涉，不把两人写成婚配或一般君臣从属。",
+    "sources": [
+      {
+        "chapterId": "old-v063",
+        "paragraphId": "old-v063-p6",
+        "originalRevision": 1,
+        "originalSha256": "a1894641c56b6efd24c182ad562f2fb33cb7c340d62db348bdbb583f11cb4aaa",
+        "excerpt": "梁祖自柏鄉失律後，連年親征河朔，心疑全義，或左右讒間，儲氏每入宮，委曲伸理。",
+        "title": "《旧五代史》 · 卷 63 · 唐列传"
+      },
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p8",
+        "originalRevision": 1,
+        "originalSha256": "68a47bc774b71c7ca14547b5d4b20c8666a3b7b6c3415bc0b67d002cff8abdf5",
+        "excerpt": "全義妻儲氏明敏有口辯，遽入見，厲聲曰：「宗奭，種田叟爾！守河南三十年，開荒斸土，捃拾財賦，助陛下創業，今年齒衰朽，已無能為，而陛下疑之，何也？」",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      }
+    ]
+  },
+  {
+    "id": "zhang-quanyi-fuwang-wife-father",
+    "from": "zhang-quanyi",
+    "to": "liang-zhang-quanyi-daughter-fuwang-wife",
+    "kind": "kinship",
+    "label": "父女（福王妻记载）",
+    "note": "仅据《齐王外传》夹引的婚配身份；与通鉴李肃妻是否同一自然人未定，不另推姐妹或母系。",
+    "sources": [
+      {
+        "chapterId": "old-v063",
+        "paragraphId": "old-v063-p6",
+        "originalRevision": 1,
+        "originalSha256": "a1894641c56b6efd24c182ad562f2fb33cb7c340d62db348bdbb583f11cb4aaa",
+        "excerpt": "梁祖遂以其子福王納齊王之女。",
+        "title": "《旧五代史》 · 卷 63 · 唐列传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-youzhang-zhang-wife",
+    "from": "zhu-youzhang",
+    "to": "liang-zhang-quanyi-daughter-fuwang-wife",
+    "kind": "kinship",
+    "label": "夫妻（福王妻记载）",
+    "note": "婚配出自《齐王外传》夹引，梁福王朱友璋的身份另有本纪、宗室传；没有婚期依据。",
+    "sources": [
+      {
+        "chapterId": "old-v063",
+        "paragraphId": "old-v063-p6",
+        "originalRevision": 1,
+        "originalSha256": "a1894641c56b6efd24c182ad562f2fb33cb7c340d62db348bdbb583f11cb4aaa",
+        "excerpt": "梁祖遂以其子福王納齊王之女。",
+        "title": "《旧五代史》 · 卷 63 · 唐列传"
+      },
+      {
+        "chapterId": "old-v012",
+        "paragraphId": "old-v012-p12",
+        "originalRevision": 1,
+        "originalSha256": "8fc7e6473d823206bcd529cb620a444e67a9ff4a518a5c47f324b26797229eb8",
+        "excerpt": "福王友璋，太祖第五子，受禪後封。",
+        "title": "《旧五代史》 · 卷 12 · 梁宗室传（含朱友珪）"
+      }
+    ]
+  },
+  {
+    "id": "zhang-quanyi-li-su-wife-father",
+    "from": "zhang-quanyi",
+    "to": "liang-zhang-quanyi-daughter-li-su-wife",
+    "kind": "kinship",
+    "label": "父女（李肃妻记载）",
+    "note": "通鉴明确张全义女、李肃妻；与福王妻是否同一自然人未定，不断为另一位女儿或有改嫁。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v288",
+        "paragraphId": "tongjian-v288-p88",
+        "originalRevision": 1,
+        "originalSha256": "77be047746f11092a43d6868daf652008e0ba1b04be4f1f1cf13765f916b7e45",
+        "excerpt": "肅妻張氏，全義之女也",
+        "title": "《资治通鉴》 · 卷 288 · 后汉纪3"
+      }
+    ]
+  },
+  {
+    "id": "li-su-changan-zhang-wife",
+    "from": "li-su-changan",
+    "to": "liang-zhang-quanyi-daughter-li-su-wife",
+    "kind": "kinship",
+    "label": "夫妻（李肃妻记载）",
+    "note": "李肃身份限本段长安致仕左骁卫上将军，不把全档同名官职继承到此节点；婚期未载。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v288",
+        "paragraphId": "tongjian-v288-p88",
+        "originalRevision": 1,
+        "originalSha256": "77be047746f11092a43d6868daf652008e0ba1b04be4f1f1cf13765f916b7e45",
+        "excerpt": "初，思綰少時，求為左驍衛上將軍致仕李肅僕，肅不納",
+        "title": "《资治通鉴》 · 卷 288 · 后汉纪3"
+      },
+      {
+        "chapterId": "tongjian-v288",
+        "paragraphId": "tongjian-v288-p88",
+        "originalRevision": 1,
+        "originalSha256": "77be047746f11092a43d6868daf652008e0ba1b04be4f1f1cf13765f916b7e45",
+        "excerpt": "肅妻張氏，全義之女也",
+        "title": "《资治通鉴》 · 卷 288 · 后汉纪3"
+      }
+    ]
+  },
+  {
+    "id": "zhang-quanyi-maid-petition",
+    "from": "zhang-quanyi",
+    "to": "zhang-quanyi-maid-accuser",
+    "kind": "service",
+    "label": "遣婢向皇后申诉",
+    "note": "张全义因厌恶罗贯而遣婢向皇后申诉。婢姓名失载；后续诋毁、下狱和杀害各有主语，不由这项差遣推出她的决策或杀人行为。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p103",
+        "originalRevision": 1,
+        "originalSha256": "055514ef73c24af072f7544574c9d61d1ea6df0faa2b9b9fac7cdd6a68e24cd9",
+        "excerpt": "河南尹張全義亦以貫高伉，惡之，遣婢訴於皇后",
+        "title": "《资治通鉴》 · 卷 273 · 后唐纪2"
+      }
+    ]
   }
 ]
