@@ -901,9 +901,7 @@
       "paragraphId": "new-v43-p29",
       "originalRevision": 1,
       "originalSha256": "4ee47b49df32779007e72e05d7de076bfa626bab5af7f2ad5927bdf31a19eddb",
-      "translationId": "7640",
-      "translationVersion": 1,
-      "translationSha256": "201245bb1c5052c1a277e062c5386045bbd3f700a2b11ef7d3310c9fdc22aed5",
+      "translationSha256": "de803e71186115239492c96dcdb1bcdf55a06e5e72f08a309ab36a5ce566036a",
       "sentences": [
         {
           "originalStart": 0,
@@ -936,7 +934,9 @@
           "translationEnd": 161
         }
       ],
-      "reason": "按保存底本的每个句号单位逐句制作译文片段，整段发布后绑定实际译文ID与版本；未按句数或字符比例猜配。"
+      "reason": "逐完整原段及全部实际阅读单位交叉对读，仅一处措辞收窄；按实际追加发布返回版本绑定。",
+      "translationId": "8624",
+      "translationVersion": 2
     },
     {
       "paragraphId": "new-v43-p30",

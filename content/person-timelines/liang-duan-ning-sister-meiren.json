@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-duan-ning-sister-meiren",
+  "events": [
+    {
+      "id": "liang-duan-ning-sister-meiren-entry",
+      "title": "由段凝送入太祖宫廷",
+      "summary": "新史记段凝将妹妹纳于太祖，随后她为美人。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "未独立记入侍年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p39",
+          "originalRevision": 1,
+          "originalSha256": "ef6c6c53c100150e366eb2f7ed6c9cdc5dca95bc30d4b98f610c0ffc8e66b7f5",
+          "excerpt": "又以其妹內太祖，妹有色，後為美人。"
+        }
+      ],
+      "notes": [
+        "不以段凝弃官、任军巡使的时间自动锁定妹妹入侍日。"
+      ]
+    },
+    {
+      "id": "liang-duan-ning-sister-meiren-meiren",
+      "title": "史载为太祖美人",
+      "summary": "新史记她后为美人，旧史及通鉴均以段凝、段明远妹的身份补记。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "后为美人；未独立记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v45",
+          "paragraphId": "new-v45-p39",
+          "originalRevision": 1,
+          "originalSha256": "ef6c6c53c100150e366eb2f7ed6c9cdc5dca95bc30d4b98f610c0ffc8e66b7f5",
+          "excerpt": "又以其妹內太祖，妹有色，後為美人。"
+        },
+        {
+          "chapterId": "old-v073",
+          "paragraphId": "old-v073-p6",
+          "originalRevision": 1,
+          "originalSha256": "8c20aa4e05f7360e029a7ce984992d4786fa1713ffd7851c2aadd5963c776d68",
+          "excerpt": "凝妹為梁祖美人，故稍委心腹。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p24",
+          "originalRevision": 1,
+          "originalSha256": "d1f49cb0098fb1198b5ce16a94a2603393aff4cb69751b8c76f3f7a0e1f1d6a4",
+          "excerpt": "懷州刺史開封段明遠妹為美人。"
+        }
+      ],
+      "notes": [
+        "通鉴后句戊子记帝至获嘉及段明远馈献，不是本人的册封日；不补正式册礼。",
+        "新史又以妹故指哥哥得亲信，未记她亲自授官或参与监军。"
+      ]
+    }
+  ]
+}

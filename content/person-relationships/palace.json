@@ -774,5 +774,179 @@
         "title": "《新五代史》 · 卷 45 · 杂传"
       }
     ]
+  },
+  {
+    "id": "liang-zhu-wen-ancestor-fan-zhu-wen-kinship",
+    "from": "liang-zhu-wen-ancestor-fan",
+    "to": "zhu-wen",
+    "kind": "kinship",
+    "label": "高祖母与后裔",
+    "note": "世代关系取祖考世系及祖妣明确原文；皇后为身后追谥，未把她们写成在位后妃。",
+    "sources": [
+      {
+        "chapterId": "new-v02",
+        "paragraphId": "new-v02-p6",
+        "originalRevision": 1,
+        "originalSha256": "a7ab1829b1cd278b5f092f4403f540ab2219a081281855e8ed123938e11d2a03",
+        "excerpt": "皇高祖黯謚曰宣元，廟號肅祖，祖妣范氏謚曰宣僖",
+        "title": "《新五代史》 · 卷 2 · 梁本纪第二"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p2",
+        "originalRevision": 1,
+        "originalSha256": "eb3d69906b5886899293f00e58840a774ae421de4c2d7e43e99ece02437d0353",
+        "excerpt": "其先舜司徒虎之後，高祖黯，曾祖茂琳，祖信，父誠。",
+        "title": "《旧五代史》 · 卷 1 · 梁太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "liang-zhu-wen-ancestor-yang-zhu-wen-kinship",
+    "from": "liang-zhu-wen-ancestor-yang",
+    "to": "zhu-wen",
+    "kind": "kinship",
+    "label": "曾祖母与后裔",
+    "note": "世代关系取祖考世系及祖妣明确原文；皇后为身后追谥，未把她们写成在位后妃。",
+    "sources": [
+      {
+        "chapterId": "new-v02",
+        "paragraphId": "new-v02-p6",
+        "originalRevision": 1,
+        "originalSha256": "a7ab1829b1cd278b5f092f4403f540ab2219a081281855e8ed123938e11d2a03",
+        "excerpt": "曾祖茂琳謚曰光獻，廟號敬祖，祖妣楊氏謚曰光孝",
+        "title": "《新五代史》 · 卷 2 · 梁本纪第二"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p2",
+        "originalRevision": 1,
+        "originalSha256": "eb3d69906b5886899293f00e58840a774ae421de4c2d7e43e99ece02437d0353",
+        "excerpt": "其先舜司徒虎之後，高祖黯，曾祖茂琳，祖信，父誠。",
+        "title": "《旧五代史》 · 卷 1 · 梁太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "liang-zhu-wen-ancestor-liu-zhu-wen-kinship",
+    "from": "liang-zhu-wen-ancestor-liu",
+    "to": "zhu-wen",
+    "kind": "kinship",
+    "label": "祖母与孙",
+    "note": "世代关系取祖考世系及祖妣明确原文；皇后为身后追谥，未把她们写成在位后妃。",
+    "sources": [
+      {
+        "chapterId": "new-v02",
+        "paragraphId": "new-v02-p6",
+        "originalRevision": 1,
+        "originalSha256": "a7ab1829b1cd278b5f092f4403f540ab2219a081281855e8ed123938e11d2a03",
+        "excerpt": "祖信謚曰昭武，廟號憲祖，祖妣劉氏謚曰昭懿",
+        "title": "《新五代史》 · 卷 2 · 梁本纪第二"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p2",
+        "originalRevision": 1,
+        "originalSha256": "eb3d69906b5886899293f00e58840a774ae421de4c2d7e43e99ece02437d0353",
+        "excerpt": "其先舜司徒虎之後，高祖黯，曾祖茂琳，祖信，父誠。",
+        "title": "《旧五代史》 · 卷 1 · 梁太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "duan-ning-meiren-siblings",
+    "from": "duan-ning",
+    "to": "liang-duan-ning-sister-meiren",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "段凝原名段明远；只登记明确兄妹，不补妹妹个人名。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p39",
+        "originalRevision": 1,
+        "originalSha256": "ef6c6c53c100150e366eb2f7ed6c9cdc5dca95bc30d4b98f610c0ffc8e66b7f5",
+        "excerpt": "段凝，開封人也。初名明遠，後更名凝。",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      },
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p39",
+        "originalRevision": 1,
+        "originalSha256": "ef6c6c53c100150e366eb2f7ed6c9cdc5dca95bc30d4b98f610c0ffc8e66b7f5",
+        "excerpt": "又以其妹內太祖，妹有色，後為美人。",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      },
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p24",
+        "originalRevision": 1,
+        "originalSha256": "d1f49cb0098fb1198b5ce16a94a2603393aff4cb69751b8c76f3f7a0e1f1d6a4",
+        "excerpt": "懷州刺史開封段明遠妹為美人。",
+        "title": "《资治通鉴》 · 卷 268 · 后梁纪3"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-duan-meiren",
+    "from": "zhu-wen",
+    "to": "liang-duan-ning-sister-meiren",
+    "kind": "kinship",
+    "label": "宫廷美人",
+    "note": "新史明确入侍后为美人，不补婚仪、册礼日或更高妃号。",
+    "sources": [
+      {
+        "chapterId": "new-v45",
+        "paragraphId": "new-v45-p39",
+        "originalRevision": 1,
+        "originalSha256": "ef6c6c53c100150e366eb2f7ed6c9cdc5dca95bc30d4b98f610c0ffc8e66b7f5",
+        "excerpt": "又以其妹內太祖，妹有色，後為美人。",
+        "title": "《新五代史》 · 卷 45 · 杂传"
+      },
+      {
+        "chapterId": "old-v073",
+        "paragraphId": "old-v073-p6",
+        "originalRevision": 1,
+        "originalSha256": "8c20aa4e05f7360e029a7ce984992d4786fa1713ffd7851c2aadd5963c776d68",
+        "excerpt": "凝妹為梁祖美人，故稍委心腹。",
+        "title": "《旧五代史》 · 卷 73 · 唐列传（毛璋、段凝等）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-princes-nurse",
+    "from": "zhu-wen",
+    "to": "liang-princes-nurse-kong-xun-mother",
+    "kind": "service",
+    "label": "诸子乳母",
+    "note": "史载太祖诸儿乳母之一，不是朱温本人乳母，未指定其乳育哪一位皇子。",
+    "sources": [
+      {
+        "chapterId": "new-v43",
+        "paragraphId": "new-v43-p29",
+        "originalRevision": 1,
+        "originalSha256": "4ee47b49df32779007e72e05d7de076bfa626bab5af7f2ad5927bdf31a19eddb",
+        "excerpt": "太祖諸兒乳母有愛之者，養循為子，乳母之夫姓趙",
+        "title": "《新五代史》 · 卷 43 · 杂传"
+      }
+    ]
+  },
+  {
+    "id": "nurse-kong-xun-adoption",
+    "from": "liang-princes-nurse-kong-xun-mother",
+    "to": "kong-xun",
+    "kind": "adoption",
+    "label": "养母与养子",
+    "note": "养循为子有明确原文；不与李让先前养育阶段或孔循生母合并。",
+    "sources": [
+      {
+        "chapterId": "new-v43",
+        "paragraphId": "new-v43-p29",
+        "originalRevision": 1,
+        "originalSha256": "4ee47b49df32779007e72e05d7de076bfa626bab5af7f2ad5927bdf31a19eddb",
+        "excerpt": "稍長，給事太祖帳中，太祖諸兒乳母有愛之者，養循為子，乳母之夫姓趙，循又冒姓為趙氏，名殷衡。",
+        "title": "《新五代史》 · 卷 43 · 杂传"
+      }
+    ]
   }
 ]

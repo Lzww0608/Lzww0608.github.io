@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liang-zhu-wen-ancestor-yang",
+  "events": [
+    {
+      "id": "liang-zhu-wen-ancestor-yang-posthumous-title",
+      "title": "追谥光孝皇后",
+      "summary": "新史记朱温于开平元年秋七月己亥追尊女性祖先为皇后，杨氏谥光孝；旧史另记此前称秦国夫人。",
+      "year": 907,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "新史：开平元年秋七月己亥",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p6",
+          "originalRevision": 1,
+          "originalSha256": "a7ab1829b1cd278b5f092f4403f540ab2219a081281855e8ed123938e11d2a03",
+          "excerpt": "秋七月己亥，追尊祖考為皇帝，妣為皇后；皇高祖黯謚曰宣元，廟號肅祖，祖妣范氏謚曰宣僖；曾祖茂琳謚曰光獻，廟號敬祖，祖妣楊氏謚曰光孝；祖信謚曰昭武，廟號憲祖，祖妣劉氏謚曰昭懿；考誠謚曰文穆，廟號烈祖，妣王氏謚曰文惠。"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p1",
+          "originalRevision": 1,
+          "originalSha256": "a4c6f6e22fc5fbdee1b659a233f3143842e7c06e61de7854ee0b5a9f9a480476",
+          "excerpt": "開平元年"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p2",
+          "originalRevision": 1,
+          "originalSha256": "7178ebcf33f8fb200cdc5fdce2444299599f7c44d6eb0bb33498c432c6a5c255",
+          "excerpt": "開平元年春正月壬寅，天子使御史大夫薛貽矩來勞軍。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史四月叙次",
+          "sourceDate": "旧史附四月受禅后叙，追谥本句未独记月日",
+          "year": 907,
+          "summary": "旧史在四月受禅叙事中列四代祖考与祖妣追谥；保其位置，不拿同段残乙字补追谥日。",
+          "evidence": [
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "7725b6e0f98ff1bcd8adfec036f14320a4c77ca9fd5c92602886a3ddbdf5fb6d",
+              "excerpt": "祖妣秦國夫人楊氏追諡光孝皇后"
+            },
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p3",
+              "originalRevision": 1,
+              "originalSha256": "ec7c1f88c23b37f084f464252a5862a7a4cf19376a1dfa6ce2e4ed83cff24acd",
+              "excerpt": "四月，唐帝御劄敕宰臣張文蔚等備法駕奉迎梁朝。"
+            },
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p7",
+              "originalRevision": 1,
+              "originalSha256": "b1feca7c14859497fd84afaa8711679fd9a83ab87144c2c880613e0730b14e59",
+              "excerpt": "是月，制宮殿門及都門名額：正殿為崇元殿，東殿為元德殿，內殿為金祥殿，萬歲堂為萬歲殿，門如殿名。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "追谥为身后事件，不补本人确切卒日或生前册后。",
+        "会要及旧史卷1所记男祖七月追尊仅为世系旁证，不另造女性册日。"
+      ]
+    }
+  ]
+}
