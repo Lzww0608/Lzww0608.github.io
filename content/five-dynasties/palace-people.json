@@ -120,7 +120,10 @@
     "tang-li-congrong-consort-liu",
     "tang-li-congke-empress-liu",
     "tang-li-congke-daughter-nun-youcheng",
-    "tang-li-congwen-wife-guan"
+    "tang-li-congwen-wife-guan",
+    "tang-li-chongjun-sister",
+    "tang-sun-hanrong-wife",
+    "tang-li-chongjun-maid-killed"
   ],
   "people": [
     {
@@ -3927,6 +3930,90 @@
         {
           "title": "《五代会要》 · 卷 11",
           "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E4%B8%80&oldid=1999046"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-chongjun-sister",
+      "name": "重俊之妹（旧史称李俊亲妹）",
+      "dynasty": "后唐",
+      "role": "重俊／旧史李俊案中所记亲妹；姓名未载",
+      "intro": "《新五代史》在从璋子重俊的记载中列其与妹乱伦；旧晋纪记前商州刺史李俊与亲妹乱伦，并将此列为男方被赐死的事由。女方姓名、父母、意愿和后续遭遇未明，不据男方受刑推定她同受刑或死亡。",
+      "periodLabel": "后唐家人传及后晋开运年间回叙；本人遭遇年代未定",
+      "sourceNotes": [
+        "新史作妹，旧史作亲妹，保留各书措辞；不写姊或姐姐。",
+        "女方本名和姓氏未直载，不从兄长姓李就补成李氏，也不因新史说重俊为从璋子就补她的确定父母或同母关系。",
+        "两书把这项记载列入男方罪状；不补女方自愿、共谋、年龄、婚配或被处罚。",
+        "男方开运三年九月乙未受刑为回叙条目，不是女方此事的独立日期；前次受财枉法除名亦不合为同一处分。",
+        "与孙汉荣妻和女使分别按来源角色登记，不据缺证强证三角色自然人一定相同或不同。"
+      ],
+      "aliases": "重俊之妹 重俊妹（失名） 李俊亲妹（旧史） 李俊親妹（舊史） 重俊之妹（旧史称李俊亲妹） 重俊之妹（舊史稱李俊親妹）",
+      "readingStarts": {
+        "new": "new-v15",
+        "old": "old-v084"
+      },
+      "sources": [
+        {
+          "title": "《新五代史》 · 卷 15 · 唐明宗家人传第三",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B715&oldid=1699112"
+        },
+        {
+          "title": "《旧五代史》 · 卷 84 · 晋少帝纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B784&oldid=513001"
+        }
+      ]
+    },
+    {
+      "id": "tang-sun-hanrong-wife",
+      "name": "孙汉荣妻（失名）",
+      "dynasty": "后唐",
+      "role": "孙汉荣之妻；重俊／旧史李俊案所记受害者",
+      "intro": "史书记重俊／旧史李俊杀害孙汉荣，又侵害其妻。新史作掠其妻，旧史明确作强奸其妻；女方姓名、年龄与此后经历未明，不把该案写成两人自愿结婚。",
+      "periodLabel": "后唐家人传及后晋开运年间回叙；本人遭遇年代未定",
+      "sourceNotes": [
+        "其妻承前文孙汉荣，不指男方的合法妻或亲妹；孙是丈夫姓，不能给女方补孙姓。",
+        "新史称孙汉荣为仆，旧史称部曲，保原称；不转为女方官职、身份或与女使合并。",
+        "掠妻与强奸分书表述，不把强迫侵害写成合法再嫁、自愿或婚礼。",
+        "男方被杀、杀孙汉荣和侵害女方的叙事不提供女方受害的独立年月，也未记她被处死。",
+        "与亲妹、女使按来源角色分别登记，自然人同异不据无记载强定。"
+      ],
+      "aliases": "孙汉荣妻 孫漢榮妻 孙汉荣失名妻 孫漢榮失名妻 孙汉荣妻（失名） 孫漢榮妻（失名）",
+      "readingStarts": {
+        "new": "new-v15",
+        "old": "old-v084"
+      },
+      "sources": [
+        {
+          "title": "《新五代史》 · 卷 15 · 唐明宗家人传第三",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B715&oldid=1699112"
+        },
+        {
+          "title": "《旧五代史》 · 卷 84 · 晋少帝纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B784&oldid=513001"
+        }
+      ]
+    },
+    {
+      "id": "tang-li-chongjun-maid-killed",
+      "name": "女使（旧史李俊案遇害者）",
+      "dynasty": "后唐",
+      "role": "旧晋纪李俊案所记被斫杀女使；姓名未载",
+      "intro": "旧晋纪记前商州刺史李俊行剑斫杀女使，并列为其被赐死的罪状之一。女使姓名、母家和被害日期未明；原文明言斫杀，不能缩成只受伤或仅被斫而未死。",
+      "periodLabel": "后晋开运年间回叙；本人遇害年代未定",
+      "sourceNotes": [
+        "女使为旧史明确记遭斫杀的来源角色，不补个人姓名、姓氏或亲属。",
+        "新史同案本段未列这一项，不补进新史原文或译文，也不据此说新史全书没有类似记载。",
+        "李俊受刑条回叙女使被杀，乙未为男方受刑日，不移作女使死亡日或年龄。",
+        "不把女使斫杀死法移给亲妹或孙汉荣妻，也不补其主人或与另两角色的确定自然人同异。"
+      ],
+      "aliases": "李俊案女使 被斫杀女使（旧史） 被斫殺女使（舊史） 女使（旧史李俊案遇害者） 女使（舊史李俊案遇害者）",
+      "readingStarts": {
+        "old": "old-v084"
+      },
+      "sources": [
+        {
+          "title": "《旧五代史》 · 卷 84 · 晋少帝纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B784&oldid=513001"
         }
       ]
     }

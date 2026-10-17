@@ -1158,6 +1158,18 @@
     {
       "id": "tang-li-congwen-wife-guan",
       "name": "关氏（李从温妻）"
+    },
+    {
+      "id": "tang-li-chongjun-sister",
+      "name": "重俊之妹（旧史称李俊亲妹）"
+    },
+    {
+      "id": "tang-sun-hanrong-wife",
+      "name": "孙汉荣妻（失名）"
+    },
+    {
+      "id": "tang-li-chongjun-maid-killed",
+      "name": "女使（旧史李俊案遇害者）"
     }
   ],
   "passages": [
@@ -31197,6 +31209,38 @@
         },
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p42",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 42 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p42",
+          "originalRevision": 1,
+          "originalSha256": "dbcd84b8700244ca6ef485a470be8b6292b8d97c8865a8c8aa25795596683434",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-chongjun-sister",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-sun-hanrong-wife",
           "kind": "record"
         }
       ]
@@ -89325,6 +89369,18 @@
         },
         {
           "personId": "ma-xifan",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-chongjun-sister",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-sun-hanrong-wife",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-chongjun-maid-killed",
           "kind": "record"
         }
       ]
