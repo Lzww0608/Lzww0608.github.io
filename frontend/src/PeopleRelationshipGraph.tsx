@@ -36,6 +36,12 @@ const kinds: readonly RelationshipKind[] = ['kinship', 'adoption', 'service', 'c
 const nodeWidth = 116;
 const nodeHeight = 68;
 
+export function isRelationshipDirected(relationship: Pick<PersonRelationship, 'kind' | 'label'>): boolean {
+  return relationship.kind !== 'conflict'
+    && relationship.label !== '兄弟'
+    && !(relationship.kind === 'kinship' && relationship.label.includes('亲属'));
+}
+
 function focusLayout(nodes: readonly RelationshipNode[], selectedId: string): GraphLayout {
   const selected = nodes.find(node => node.id === selectedId);
   const neighbors = nodes.filter(node => node.id !== selectedId);
@@ -209,10 +215,11 @@ export function PeopleRelationshipGraph({
               const neighbor = relationship.from === focusedId ? to : from;
               const labelX = 586;
               const labelY = neighbor.y + lane * 28;
-              return <g key={relationship.id} className={`relationship-edge kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`} role="button" tabIndex={0} aria-label={`${from.node.name}与${to.node.name}：${relationship.label}，查看原文依据`} onClick={() => activateRelationship(relationship.id)} onKeyDown={event => activateWithKeyboard(event, () => activateRelationship(relationship.id))}>
-                <title>{from.node.name} → {to.node.name}：{relationship.label}</title>
+              const directed = isRelationshipDirected(relationship);
+              return <g key={relationship.id} className={`relationship-edge kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`} role="button" tabIndex={0} aria-label={`${from.node.name}${directed ? '指向' : '与'}${to.node.name}：${relationship.label}，查看原文依据`} onClick={() => activateRelationship(relationship.id)} onKeyDown={event => activateWithKeyboard(event, () => activateRelationship(relationship.id))}>
+                <title>{`${from.node.name} ${directed ? '→' : '↔'} ${to.node.name}：${relationship.label}`}</title>
                 <rect x={(from.x + to.x) / 2 - 6} y={(from.y + to.y) / 2 + lane * 7 - 6} width="12" height="12" fill="transparent" pointerEvents="none" aria-hidden="true" />
-                <path className="relationship-edge-line" d={d} markerEnd={relationship.kind === 'conflict' || relationship.label === '兄弟' ? undefined : `url(#${elementId}-arrow-${relationship.kind})`} aria-hidden="true" />
+                <path className="relationship-edge-line" d={d} markerEnd={directed ? `url(#${elementId}-arrow-${relationship.kind})` : undefined} aria-hidden="true" />
                 <path className="relationship-edge-target" d={d} aria-hidden="true" />
                 {<g className="relationship-edge-label" aria-hidden="true"><rect x={labelX - Math.max(30, relationship.label.length * 6.5 + 8)} y={labelY - 11} width={Math.max(60, relationship.label.length * 13 + 16)} height="23" rx="2" /><text x={labelX} y={labelY + 5} textAnchor="middle">{relationship.label}</text></g>}
               </g>;
@@ -225,7 +232,7 @@ export function PeopleRelationshipGraph({
             </g>)}
           </svg>
         </div>
-        <figcaption id={`${elementId}-diagram-help`}>只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突使用无箭头连线。虚线框为关联人物，当前没有独立传记。位置不表示排行。</figcaption>
+        <figcaption id={`${elementId}-diagram-help`}>只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。</figcaption>
       </figure>
 
       <section className="relationship-evidence" aria-labelledby={`${elementId}-evidence-title`}>
@@ -233,7 +240,7 @@ export function PeopleRelationshipGraph({
         <div className="relationship-script-status" role="status">{originalScript.pending && '正在准备简体引文…'}{originalScript.error && <><span>简体转换暂不可用，当前显示繁体原文。</span> <button type="button" onClick={originalScript.retry}>重试转换</button></>}</div>
         {relationships.length ? <ul className="relationship-list">
           {displayedRelationships.map(relationship => <li key={relationship.id} id={`${elementId}-relation-${relationship.id}`} className={`relationship-list-item kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`}>
-            <div className="relationship-list-heading"><span className="relationship-kind-label">{relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{relationship.kind === 'conflict' || relationship.label === '兄弟' ? '↔' : '→'}</span>{personLink(relationship.to)}</div></div>
+            <div className="relationship-list-heading"><span className="relationship-kind-label">{relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{isRelationshipDirected(relationship) ? '→' : '↔'}</span>{personLink(relationship.to)}</div></div>
             <p className="relationship-label">{relationship.label}</p>
             {relationship.note && <p className="relationship-note">{relationship.note}</p>}
             <button type="button" id={`${elementId}-evidence-toggle-${relationship.id}`} className="relationship-evidence-toggle" aria-expanded={expandedEvidence.has(relationship.id)} aria-controls={`${elementId}-sources-${relationship.id}`} onClick={() => toggleEvidence(relationship.id)}>{expandedEvidence.has(relationship.id) ? '收起原文依据' : `原文依据（${relationship.sources.length}）`}<span aria-hidden="true">{expandedEvidence.has(relationship.id) ? '−' : '＋'}</span></button>
