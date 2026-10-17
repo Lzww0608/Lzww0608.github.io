@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {catalogPeople} from '../src/person-catalog.ts';
+import {loadPersonPassageIndex} from '../../content/person-passages.mjs';
+import {loadPersonTimelines} from '../../content/person-timelines.mjs';
+import {relationshipsForPerson} from '../src/relationships.ts';
+
+const id='tang-cunxu-third-aunt-song-yining';
+const daughterId='tang-princess-yining-cunxu-daughter';
+test('third-aunt source role retains one explicit record and does not inherit the Yining daughter household',()=>{
+ const person=catalogPeople.find(p=>p.id===id),daughter=catalogPeople.find(p=>p.id===daughterId);
+ assert.ok(person&&daughter);assert.notEqual(person.id,daughter.id);
+ assert.equal(person.name,'庄宗第三姑宋氏（义宁大长公主）');
+ assert.equal(person.birthYear,undefined);assert.equal(person.deathYear,undefined);
+ assert.ok(person.intro.includes('本名')&&person.intro.includes('生姓')&&person.intro.includes('未明'));
+ assert.ok(person.sourceNotes.some(n=>n.includes('生姓宋')&&/不|未/u.test(n)));
+ assert.ok(person.sourceNotes.some(n=>n.includes('宋廷浩')&&n.includes('宋渥')&&n.includes('不转')));
+ assert.ok(person.sourceNotes.some(n=>n.includes('不能径并')&&n.includes('已证必为两人')));
+ assert.ok(!person.aliases.split(/\s+/u).some(n=>['宋氏','义宁公主','宋廷浩','宋渥'].includes(n)));
+ const rows=loadPersonPassageIndex().passages.filter(p=>p.people.some(q=>q.personId===id));
+ assert.deepEqual(rows.flatMap(p=>p.spans.map(s=>s.paragraphId)),['old-v033-p12']);
+ assert.ok(rows.every(p=>p.people.find(q=>q.personId===id).kind==='record'));
+ assert.deepEqual(person.readingStarts,{old:'old-v033'});
+ const daughterTimeline=loadPersonTimelines().find(d=>d.personId===daughterId);assert.equal(daughterTimeline?.events.length,2);
+ assert.ok(!relationshipsForPerson(id).some(e=>[e.from,e.to].some(p=>['song-tinghao','song-wo-yining-son',daughterId].includes(p))));
+});
+test('normal twelfth-month bingxu investiture keeps926 and the aunt-to-nephew reciprocal edge',()=>{
+ const doc=loadPersonTimelines().find(d=>d.personId===id);assert.ok(doc);assert.equal(doc.events.length,1);
+ const event=doc.events[0];assert.equal(event.year,926);assert.equal(event.precision,'day');assert.equal(event.phase,'later');
+ assert.equal(event.sourceDate,'同光三年十二月丙戌');
+ assert.deepEqual(event.evidence.map(s=>s.paragraphId),['old-v033-p12','old-v033-p1','old-v033-p11']);
+ assert.ok(event.evidence.every(s=>s.chapterId==='old-v033'));
+ assert.ok(event.notes.some(n=>n.includes('926')&&n.includes('闰十二月')));
+ assert.ok(event.notes.some(n=>n.includes('甲申')&&n.includes('不作')));
+ assert.ok(event.notes.some(n=>n.includes('年题')&&n.includes('月题')&&n.includes('同一条')));
+ const edges=relationshipsForPerson(id);assert.equal(edges.length,1);
+ const edge=edges[0];assert.equal(edge.from,id);assert.equal(edge.to,'li-cunxu');assert.equal(edge.kind,'kinship');assert.equal(edge.label,'姑侄（本纪第三姑）');
+ assert.deepEqual(edge.sources.map(s=>s.paragraphId),['old-v033-p12']);
+ assert.ok(relationshipsForPerson('li-cunxu').some(e=>e.id===edge.id&&e.from===id&&e.to==='li-cunxu'));
+});
