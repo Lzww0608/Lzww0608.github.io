@@ -4964,5 +4964,57 @@
         "title": "《旧五代史》 · 庄宗本纪第三姑称谓与册封"
       }
     ]
+  },
+  {
+    "id": "tang-cunxu-daughter-betrothed-wang-zhaohui-cunxu-parentage",
+    "from": "li-cunxu",
+    "to": "tang-cunxu-daughter-betrothed-wang-zhaohui",
+    "kind": "kinship",
+    "label": "父女（许配记载）",
+    "note": "新史与通鉴明言晋王以女许配王昭诲，依这处父女称谓登记；不据此补女方名字、生母或与其他庄宗女的同一性。",
+    "sources": [
+      {
+        "chapterId": "new-v39",
+        "paragraphId": "new-v39-p8",
+        "originalRevision": 1,
+        "originalSha256": "eaf9420f55a726a2d8625c32407bc39e3e8c808807a5c80f15305c8726dae8f3",
+        "excerpt": "鎔祖母喪，諸鎮皆吊，梁使者見晉使在館，還言趙王有二志。是時，魏博羅紹威卒，梁因欲盡取河北，開平四年冬，遣供奉官杜廷隱監魏博將夏諲，以兵三千襲深、冀二州，以王景仁為北面行營招討使。鎔懼，乞兵于晉。晉人擊敗景仁於柏鄉，梁遂失鎮、定，而莊宗由此益彊，北破幽、燕，南并魏博，鎔常以兵從。鎔德晉甚。明年，會莊宗於承天軍，奉觴為壽，莊宗以鎔父友，尊禮之，酒酣為鎔歌，拔佩刀斷衣而盟，許以女妻鎔子昭誨。",
+        "title": "《新五代史》 · 晋王以女许婚王昭诲"
+      },
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p15",
+        "originalRevision": 1,
+        "originalSha256": "f7b9d687a3823c07cbc48935941ad3553b9d5a156feb62309b6eb5c9a94ef8a1",
+        "excerpt": "趙王鎔以楊師厚在邢州，甚懼，會晉王於承天軍。晉王謂鎔父友也，事之甚恭。鎔以梁寇為憂，晉王曰：「朱溫之惡極矣，天將誅之，雖有師厚輩不能救也。脫有侵軼，僕自帥眾當之，叔父勿以為憂。」鎔捧卮為壽，謂晉王為四十六舅。鎔幼子昭誨從行，晉王斷衿為盟，許妻以女。由是晉、趙之交遂固。",
+        "title": "《资治通鉴》 · 晋王以女许婚王昭诲"
+      }
+    ]
+  },
+  {
+    "id": "tang-cunxu-daughter-betrothed-wang-zhaohui-zhaohui-betrothal",
+    "from": "wang-zhaohui",
+    "to": "tang-cunxu-daughter-betrothed-wang-zhaohui",
+    "kind": "kinship",
+    "label": "亲属：许配（未证成婚）",
+    "note": "只按两书许婚明文连接约婚的两来源角色，不表示已婚夫妻，不推定婚礼、婚后子女或解除婚约。",
+    "sources": [
+      {
+        "chapterId": "new-v39",
+        "paragraphId": "new-v39-p8",
+        "originalRevision": 1,
+        "originalSha256": "eaf9420f55a726a2d8625c32407bc39e3e8c808807a5c80f15305c8726dae8f3",
+        "excerpt": "鎔祖母喪，諸鎮皆吊，梁使者見晉使在館，還言趙王有二志。是時，魏博羅紹威卒，梁因欲盡取河北，開平四年冬，遣供奉官杜廷隱監魏博將夏諲，以兵三千襲深、冀二州，以王景仁為北面行營招討使。鎔懼，乞兵于晉。晉人擊敗景仁於柏鄉，梁遂失鎮、定，而莊宗由此益彊，北破幽、燕，南并魏博，鎔常以兵從。鎔德晉甚。明年，會莊宗於承天軍，奉觴為壽，莊宗以鎔父友，尊禮之，酒酣為鎔歌，拔佩刀斷衣而盟，許以女妻鎔子昭誨。",
+        "title": "《新五代史》 · 许婚记载，未记婚礼完成"
+      },
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p15",
+        "originalRevision": 1,
+        "originalSha256": "f7b9d687a3823c07cbc48935941ad3553b9d5a156feb62309b6eb5c9a94ef8a1",
+        "excerpt": "趙王鎔以楊師厚在邢州，甚懼，會晉王於承天軍。晉王謂鎔父友也，事之甚恭。鎔以梁寇為憂，晉王曰：「朱溫之惡極矣，天將誅之，雖有師厚輩不能救也。脫有侵軼，僕自帥眾當之，叔父勿以為憂。」鎔捧卮為壽，謂晉王為四十六舅。鎔幼子昭誨從行，晉王斷衿為盟，許妻以女。由是晉、趙之交遂固。",
+        "title": "《资治通鉴》 · 许婚记载，未记婚礼完成"
+      }
+    ]
   }
 ]
