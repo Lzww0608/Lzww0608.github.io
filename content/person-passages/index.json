@@ -1142,6 +1142,10 @@
     {
       "id": "tang-li-conghou-empress-kong",
       "name": "孔氏（李从厚皇后）"
+    },
+    {
+      "id": "tang-li-congrong-consort-liu",
+      "name": "刘氏（秦王从荣妃）"
     }
   ],
   "passages": [
@@ -30997,6 +31001,26 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v15-p31",
+      "chapterId": "new-v15",
+      "title": "卷 15 · 唐明宗家人传第三 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "new-v15-p31",
+          "originalRevision": 1,
+          "originalSha256": "a2c42510f27db605d70c40f07716141f56c1a070a6ed1005a22a155599491b0c",
+          "start": 0,
+          "end": 265
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-congrong-consort-liu",
           "kind": "record"
         }
       ]
@@ -72325,6 +72349,10 @@
         },
         {
           "personId": "zhu-shouyin",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congrong-consort-liu",
           "kind": "record"
         }
       ]
@@ -123165,6 +123193,10 @@
         },
         {
           "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congrong-consort-liu",
           "kind": "record"
         }
       ]
