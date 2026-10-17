@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { catalogPeople } from '../src/person-catalog.ts';
+import { loadPersonPassageIndex } from '../../content/person-passages.mjs';
+import { loadPersonTimelines } from '../../content/person-timelines.mjs';
+import { relationshipsForPerson, relationshipNodes } from '../src/relationships.ts';
+
+const id = 'tang-kening-wife-meng';
+test('Kening wife Meng retains four bounded records and source-specific return and visit chronology', () => {
+  const person = catalogPeople.find(p => p.id === id); assert.ok(person);
+  assert.ok(catalogPeople.some(p => p.id === 'tang-li-siyuan-siyao-meng'));
+  assert.equal(person.birthYear, undefined); assert.equal(person.deathYear, undefined);
+  const rows = loadPersonPassageIndex().passages.filter(p => p.people.some(q => q.personId === id));
+  assert.deepEqual(rows.flatMap(p => p.spans.map(s => s.paragraphId)).sort(), ['old-v027-p6','new-v14-p35','tongjian-v266-p73','new-v64-p15'].sort());
+  assert.ok(rows.every(p => p.people.find(q => q.personId === id).kind === 'record'));
+  assert.ok(!rows.some(p => p.spans.some(s => s.paragraphId === 'tongjian-v277-p130')));
+  const events = loadPersonTimelines().find(d => d.personId === id).events;
+  assert.equal(events.length, 3);
+  const urge = events.find(e => e.id === id + '-urge-kening'); assert.equal(urge.year, 908);
+  assert.ok(urge.notes.some(n => n.includes('不') && n.includes('亲自杀将')));
+  const visit = events.find(e => e.id === id + '-son-visits'); assert.equal(visit.year, 932); assert.equal(visit.precision, 'year');
+  assert.deepEqual(visit.evidence.map(s => s.paragraphId), ['tongjian-v277-p110','new-v64-p15']);
+  assert.ok(visit.notes.some(n => n.includes('六月') && n.includes('未独载')));
+  const join = events.find(e => e.id === id + '-join-meng-zhixiang'); assert.equal(join.year, null); assert.equal(join.precision, 'undated');
+  assert.ok(join.summary.includes('不从夫死之年')); assert.ok(join.notes.some(n => n.includes('不是再嫁')));
+  assert.ok(person.sourceNotes.some(n => n.includes('丈夫被杀') && n.includes('不证明她同死')));
+});
+test('three reciprocal family edges keep source spellings and Meng Zhixiang receives one separate 932 petition event', () => {
+  const edges = relationshipsForPerson(id); assert.equal(edges.length, 3); assert.ok(edges.every(e => e.kind === 'kinship'));
+  assert.deepEqual(edges.map(e => [e.from,e.to]).sort(), [['li-kening',id],['meng-zhixiang',id],[id,'li-kening-son-gui']].sort());
+  for (const edge of edges) for (const who of [edge.from,edge.to]) assert.ok(relationshipsForPerson(who).some(e => e.id === edge.id));
+  const son = relationshipNodes.find(n => n.id === 'li-kening-son-gui'); assert.ok(son);
+  assert.ok(son.aliases.includes('李存瑰')); assert.ok(son.note.includes('不造李存瓌'));
+  const brother = loadPersonTimelines().find(d => d.personId === 'meng-zhixiang'); assert.equal(brother.events.length, 16);
+  const at = brother.events.findIndex(e => e.id === 'meng-zhixiang-tang-reassurance-and-petition'); assert.ok(at > 0);
+  const event = brother.events[at]; assert.equal(event.year, 932); assert.equal(event.precision, 'year');
+  assert.equal(brother.events[at-1].id, 'meng-zhixiang-unite-shu'); assert.equal(brother.events[at+1].id, 'meng-zhixiang-shu-prince');
+  assert.deepEqual(event.evidence.map(s => s.paragraphId), ['tongjian-v277-p110','new-v64-p15','tongjian-v277-p130']);
+  assert.ok(event.summary.includes('不把请封当933年正式受封'));
+});
