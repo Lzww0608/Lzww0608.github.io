@@ -4378,5 +4378,179 @@
         "title": "《新五代史》 · 卷 15 · 唐明宗家人传第三"
       }
     ]
+  },
+  {
+    "id": "tang-li-congke-empress-liu-congke-spouse",
+    "from": "li-congke",
+    "to": "tang-li-congke-empress-liu",
+    "kind": "kinship",
+    "label": "配偶、皇后",
+    "note": "原书从珂刘后及初封沛国夫人明文，封后不等于初婚日。",
+    "sources": [
+      {
+        "chapterId": "old-v049",
+        "paragraphId": "old-v049-p29",
+        "originalRevision": 1,
+        "originalSha256": "cf02eac76e9df074dd04e4cf1f3b02ea7b4b23f3d3220147b2f58d095aa0bbad",
+        "excerpt": "末帝劉皇后，應州人也。天成中，封為沛國夫人。清泰初，百官三上表，請立中宮，遂立為皇后。後性強戾，末帝甚憚之，故其弟延皓，自鳳翔牙校環歲之間曆樞密使，出為鄴都留守，皆由後內政之力也。及延皓為張令昭所逐，執政請行朝典，後力製之，止從罷免而已。晉高祖入洛。後與末帝俱就燔焉。",
+        "title": "《旧五代史》 · 卷 49 · 唐书列传一"
+      },
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p2",
+        "originalRevision": 1,
+        "originalSha256": "e6e8f97c797b684c2d49afbd42f0cf0864ff571f389c23fd0dcaaa165a4f3977",
+        "excerpt": "廢帝皇后劉氏，父茂威，應州渾元人也。后為人彊悍，廢帝素憚之。初封沛國夫人，廢帝即位，立為皇后。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-empress-liu-maowei-daughter",
+    "from": "liu-maowei-yingzhou",
+    "to": "tang-li-congke-empress-liu",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "新史明确刘后父茂威；不由姓氏推其他母系。",
+    "sources": [
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p2",
+        "originalRevision": 1,
+        "originalSha256": "e6e8f97c797b684c2d49afbd42f0cf0864ff571f389c23fd0dcaaa165a4f3977",
+        "excerpt": "廢帝皇后劉氏，父茂威，應州渾元人也。后為人彊悍，廢帝素憚之。初封沛國夫人，廢帝即位，立為皇后。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-empress-liu-yanhao-source-kinship",
+    "from": "liu-yanhao-yingzhou",
+    "to": "tang-li-congke-empress-liu",
+    "kind": "kinship",
+    "label": "弟／侄（分书记载）",
+    "note": "诸书以延皓为后之弟；考异引废帝实录作后之侄，并说明司马光不取侄说。不同来源亲等并列，不造两人。",
+    "sources": [
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p3",
+        "originalRevision": 1,
+        "originalSha256": "d4e80850cfa2092aff16e4db8622b393ef4cbcea6bf215d6968469699950254e",
+        "excerpt": "其弟延皓，少事廢帝為牙將，廢帝即位，拜宮苑使、宣徽南院使。清泰二年，為樞密使、天雄軍節度使。延皓為人素謹厚，及貴而改節，以后故用事，受賕，掠人園宅，在鄴下不恤軍士，軍士皆怨。捧聖都虞候張令昭以其屯駐兵逐延皓，延皓走相州。是時，石敬瑭已反，方用兵，而令昭之亂作。令昭乃閉城，遣其副使邊仁嗣請己為節度使。廢帝以令昭為右千牛衞將軍，權知天雄軍府事。已而遣范延光討之，令昭敗走邢州，追至沙河，斬之，屯駐諸軍亂者三千餘人皆死。有司請以延皓行軍法，廢帝以后故，削其官爵而已。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      },
+      {
+        "chapterId": "kaoyi-v030",
+        "paragraphId": "kaoyi-v030-p11",
+        "originalRevision": 1,
+        "originalSha256": "71b03ebf9ec397c31495cb501e5cb54946b1cb1b4c39265e647aec03829f5b9c",
+        "excerpt": "髙祖天福元年五月魏愽逐劉延皓〈廢帝實録延皓皇后之姪按薛史唐餘録歐陽史皆云延皓后之弟應州人也延朗宋州虞城人也獨廢帝實録云后姪今不取〉",
+        "title": "《资治通鉴考异》 · 卷 30 · 后唐纪下、后晋、后汉与后周纪"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-daughter-nun-youcheng-congke-daughter",
+    "from": "li-congke",
+    "to": "tang-li-congke-daughter-nun-youcheng",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "旧史明称皇长女，新史说一女为尼号幼澄；生母未明。",
+    "sources": [
+      {
+        "chapterId": "old-v046",
+        "paragraphId": "old-v046-p22",
+        "originalRevision": 1,
+        "originalSha256": "14a373a1e6475a0c51a6e3c3a968d7efcbf43950b97880e938250fc3a43f8fd2",
+        "excerpt": "癸未，三司使劉煦奏：「天下戶民，自天成二年括定秋夏田稅，迨今八年。近者相次有百姓詣闕訴田不均，累行蠲放，漸失稅額，望差朝臣一概檢視。」不報。甲申，帝為故皇子亳州刺史重吉、皇長女尼惠明大師幼澄舉哀行服，群臣詣閣門奉慰。帝起兵之始，重吉、幼澄俱為閔帝所害。乙酉，以戶部侍郎韓彥惲為絳州刺史，以左武衛上將軍李肅為單州刺史。丙戌，襄州節度使趙在禮加同平章事。甲午，以武勝軍留後張承祐為華州節度使；以皇城使宋審虔為壽州節度使，充侍衛步軍都指揮使；以右衛上將軍劉仲殷為宋州節度使；以侍衛步軍都指揮使、壽州節度使皇甫遇為鄧州節度使；以前華州節度使華溫琪為太子太傅致仕。丁酉，左神武統軍周知裕卒，贈太傅。是月，京師大旱，熱甚，暍死者百餘人。",
+        "title": "《旧五代史》 · 卷 46 · 唐末帝纪1"
+      },
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p5",
+        "originalRevision": 1,
+        "originalSha256": "ffb4a04ee7410309e06122dcc04485c64dd8270cd70a266dd7ed2e4c133f819d",
+        "excerpt": "廢帝二子，曰重吉、重美，一女為尼，號幼澄，皆不知其所生。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-daughter-nun-youcheng-conghou-killed",
+    "from": "li-conghou",
+    "to": "tang-li-congke-daughter-nun-youcheng",
+    "kind": "conflict",
+    "label": "愍帝时遇害",
+    "note": "旧史明记重吉、幼澄俱为愍帝所害；新史、通鉴分叙重吉与女尼之死，不把宋州、楚匡祚亲手或拷责自动移给女尼。",
+    "sources": [
+      {
+        "chapterId": "old-v046",
+        "paragraphId": "old-v046-p22",
+        "originalRevision": 1,
+        "originalSha256": "14a373a1e6475a0c51a6e3c3a968d7efcbf43950b97880e938250fc3a43f8fd2",
+        "excerpt": "癸未，三司使劉煦奏：「天下戶民，自天成二年括定秋夏田稅，迨今八年。近者相次有百姓詣闕訴田不均，累行蠲放，漸失稅額，望差朝臣一概檢視。」不報。甲申，帝為故皇子亳州刺史重吉、皇長女尼惠明大師幼澄舉哀行服，群臣詣閣門奉慰。帝起兵之始，重吉、幼澄俱為閔帝所害。乙酉，以戶部侍郎韓彥惲為絳州刺史，以左武衛上將軍李肅為單州刺史。丙戌，襄州節度使趙在禮加同平章事。甲午，以武勝軍留後張承祐為華州節度使；以皇城使宋審虔為壽州節度使，充侍衛步軍都指揮使；以右衛上將軍劉仲殷為宋州節度使；以侍衛步軍都指揮使、壽州節度使皇甫遇為鄧州節度使；以前華州節度使華溫琪為太子太傅致仕。丁酉，左神武統軍周知裕卒，贈太傅。是月，京師大旱，熱甚，暍死者百餘人。",
+        "title": "《旧五代史》 · 卷 46 · 唐末帝纪1"
+      },
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p6",
+        "originalRevision": 1,
+        "originalSha256": "4c9519840ff1910487e55a1fc026facc1534442d2ee32527adbed48f901ec4c8",
+        "excerpt": "廢帝鎮鳳翔，重吉為控鶴指揮使，與尼俱留京師。控鶴，親兵也。愍帝即位，不欲重吉掌親兵，乃出重吉為亳州團練使，居幼澄於禁中，又徙廢帝北京。廢帝自疑，乃反。愍帝遣人殺重吉于宋州，幼澄亦死。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      },
+      {
+        "chapterId": "tongjian-v279",
+        "paragraphId": "tongjian-v279-p14",
+        "originalRevision": 1,
+        "originalSha256": "692255cb842d12b84619de0d7f2f44d5f85550e476103f51b3df619f6fc7ee85",
+        "excerpt": "是日，西面步軍都監王景從等自軍前奔還，中外大駭。帝不知所為，謂康義誠等曰：「先帝棄萬國，朕外守籓方，當是之時，為嗣者在諸公所取耳，朕實無心與人爭國。既承大業，年在幼沖，國事皆委諸公。朕于兄弟間不至榛梗，諸公以社稷大計見告，朕何敢違！軍興之初，皆自誇大，以為寇不足平；今事至於此，何方可以轉禍？朕欲自迎潞王，以大位讓之，若不免於罪，亦所甘心。」朱弘昭、馮贇大懼，不敢對。義誠欲悉以宿衛兵迎降為己功，乃曰：「西師驚潰，蓋主將失策耳。今侍衛諸軍尚多，臣請自往扼其衝要，招集離散以圖後效，幸陛下勿為過憂！」帝遣使召石敬瑭，欲令將兵拒之。義誠固請自行，帝乃召將士慰諭，空府庫以勞之，許以平鳳翔，人更賞二百緡，府庫不足，當以宮中服玩繼之。軍士益驕，無所畏忌，負賜物，揚言於路曰：「至鳳翔更請一分。」遣楚匡祚殺李重吉於宋州；匡祚榜棰重吉，責其家財。又殺尼惠明。",
+        "title": "《资治通鉴》 · 卷 279 · 后唐纪8"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-daughter-nun-youcheng-chongji-same-father",
+    "from": "li-chongji-congke-son",
+    "to": "tang-li-congke-daughter-nun-youcheng",
+    "kind": "kinship",
+    "label": "同父手足",
+    "note": "新史列从珂二子与女尼并说皆不知其所生；不称同母或由兄弟排行推女方排行。",
+    "sources": [
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p5",
+        "originalRevision": 1,
+        "originalSha256": "ffb4a04ee7410309e06122dcc04485c64dd8270cd70a266dd7ed2e4c133f819d",
+        "excerpt": "廢帝二子，曰重吉、重美，一女為尼，號幼澄，皆不知其所生。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      }
+    ]
+  },
+  {
+    "id": "tang-li-congke-daughter-nun-youcheng-chongmei-same-father",
+    "from": "li-chongmei-congke-son",
+    "to": "tang-li-congke-daughter-nun-youcheng",
+    "kind": "kinship",
+    "label": "同父手足",
+    "note": "新史列从珂二子与女尼并说皆不知其所生；旧史皇长女排行仅依该书。",
+    "sources": [
+      {
+        "chapterId": "new-v16",
+        "paragraphId": "new-v16-p5",
+        "originalRevision": 1,
+        "originalSha256": "ffb4a04ee7410309e06122dcc04485c64dd8270cd70a266dd7ed2e4c133f819d",
+        "excerpt": "廢帝二子，曰重吉、重美，一女為尼，號幼澄，皆不知其所生。",
+        "title": "《新五代史》 · 卷 16 · 唐废帝家人传第四"
+      },
+      {
+        "chapterId": "old-v046",
+        "paragraphId": "old-v046-p22",
+        "originalRevision": 1,
+        "originalSha256": "14a373a1e6475a0c51a6e3c3a968d7efcbf43950b97880e938250fc3a43f8fd2",
+        "excerpt": "癸未，三司使劉煦奏：「天下戶民，自天成二年括定秋夏田稅，迨今八年。近者相次有百姓詣闕訴田不均，累行蠲放，漸失稅額，望差朝臣一概檢視。」不報。甲申，帝為故皇子亳州刺史重吉、皇長女尼惠明大師幼澄舉哀行服，群臣詣閣門奉慰。帝起兵之始，重吉、幼澄俱為閔帝所害。乙酉，以戶部侍郎韓彥惲為絳州刺史，以左武衛上將軍李肅為單州刺史。丙戌，襄州節度使趙在禮加同平章事。甲午，以武勝軍留後張承祐為華州節度使；以皇城使宋審虔為壽州節度使，充侍衛步軍都指揮使；以右衛上將軍劉仲殷為宋州節度使；以侍衛步軍都指揮使、壽州節度使皇甫遇為鄧州節度使；以前華州節度使華溫琪為太子太傅致仕。丁酉，左神武統軍周知裕卒，贈太傅。是月，京師大旱，熱甚，暍死者百餘人。",
+        "title": "《旧五代史》 · 卷 46 · 唐末帝纪1"
+      }
+    ]
   }
 ]

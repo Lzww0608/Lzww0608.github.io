@@ -1146,6 +1146,14 @@
     {
       "id": "tang-li-congrong-consort-liu",
       "name": "刘氏（秦王从荣妃）"
+    },
+    {
+      "id": "tang-li-congke-empress-liu",
+      "name": "刘氏（李从珂皇后）"
+    },
+    {
+      "id": "tang-li-congke-daughter-nun-youcheng",
+      "name": "女尼幼澄（惠明大师）"
     }
   ],
   "passages": [
@@ -5457,6 +5465,10 @@
       "people": [
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]
@@ -20014,6 +20026,26 @@
       ]
     },
     {
+      "id": "passage-kaoyi-v030-p11",
+      "chapterId": "kaoyi-v030",
+      "title": "卷 30 · 后唐纪下、后晋、后汉与后周纪 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "kaoyi-v030-p11",
+          "originalRevision": 1,
+          "originalSha256": "71b03ebf9ec397c31495cb501e5cb54946b1cb1b4c39265e647aec03829f5b9c",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-kaoyi-v030-p12",
       "chapterId": "kaoyi-v030",
       "title": "卷 30 · 后唐纪下、后晋、后汉与后周纪 · 第 12 段",
@@ -26318,6 +26350,10 @@
         {
           "personId": "suo-zitong",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -31222,6 +31258,10 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -31246,6 +31286,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -31265,6 +31309,10 @@
       "people": [
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
           "kind": "record"
         }
       ]
@@ -31289,6 +31337,10 @@
         },
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
           "kind": "record"
         }
       ]
@@ -31333,6 +31385,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]
@@ -75858,6 +75914,10 @@
         {
           "personId": "kang-sili",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
+          "kind": "record"
         }
       ]
     },
@@ -76218,6 +76278,10 @@
         {
           "personId": "zhao-zaili",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
+          "kind": "record"
         }
       ]
     },
@@ -76246,6 +76310,10 @@
         {
           "personId": "meng-zhixiang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -76273,6 +76341,10 @@
         },
         {
           "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]
@@ -77825,6 +77897,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]
@@ -85994,6 +86070,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "mention"
         }
       ]
     },
@@ -123638,6 +123718,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
+          "kind": "record"
         }
       ]
     },
@@ -123969,6 +124053,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-daughter-nun-youcheng",
           "kind": "record"
         }
       ]
@@ -124570,6 +124658,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v279-p55",
+      "chapterId": "tongjian-v279",
+      "title": "卷 279 · 后唐纪8 · 第 55 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v279-p55",
+          "originalRevision": 1,
+          "originalSha256": "a154944d07bf3339bd40103f4e3288051adb823f22b3c478add88393e6ef6ab4",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v279-p56",
       "chapterId": "tongjian-v279",
       "title": "卷 279 · 后唐纪8 · 第 56 段",
@@ -124986,6 +125094,26 @@
         {
           "personId": "song-qiqiu",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v279-p95",
+      "chapterId": "tongjian-v279",
+      "title": "卷 279 · 后唐纪8 · 第 95 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v279-p95",
+          "originalRevision": 1,
+          "originalSha256": "1a1921ea52eb7c5a3f6dca8919bab7073e9205ef292cc17d4e667ebcc00a0d38",
+          "start": 0,
+          "end": 121
+        }
+      ],
+      "people": [
+        {
+          "personId": "tang-li-congke-empress-liu",
+          "kind": "mention"
         }
       ]
     },
@@ -125609,6 +125737,10 @@
       "people": [
         {
           "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]
@@ -126353,6 +126485,10 @@
         },
         {
           "personId": "tang-li-siyuan-shufei-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
       ]

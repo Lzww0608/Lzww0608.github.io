@@ -53,7 +53,7 @@ export function buildRelationshipNodes(
   }
   for (const node of contextNodes) {
     if (!node.id.trim() || byId.has(node.id)) continue;
-    byId.set(node.id, node);
+    byId.set(node.id, { ...node, group: node.group ?? '关联人物' });
   }
   return [...byId.values()];
 }

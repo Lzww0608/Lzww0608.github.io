@@ -192,7 +192,7 @@ test('new catalog people automatically become graph nodes without duplicate pers
   assert.deepEqual(buildRelationshipNodes(people, contextNodes), [
     { id: 'fixture-a', name: '测试人物甲', group: '后梁' },
     { id: 'fixture-b', name: '测试人物乙', group: '后唐' },
-    { id: 'fixture-context', name: '测试关联人物', external: true },
+    { id: 'fixture-context', name: '测试关联人物', external: true, group: '关联人物' },
   ]);
   const added = { ...catalogPeople[0], id: 'fixture-new-person', name: '新增测试人物' };
   const nodes = buildRelationshipNodes([...catalogPeople, added]);
@@ -200,6 +200,33 @@ test('new catalog people automatically become graph nodes without duplicate pers
     id: 'fixture-new-person', name: '新增测试人物', group: added.dynasty,
   });
   assert.equal(catalogPeople.some(person => person.id === added.id), false);
+});
+
+test('actual ungrouped contexts get a display fallback without mutating frozen source nodes or overriding canonical groups', () => {
+  const sourceUrl = new URL('../../content/person-relationships/palace-context.json', import.meta.url);
+  const sourceBytes = readFileSync(sourceUrl);
+  const ids = ['liu-maowei-yingzhou', 'liu-yanhao-yingzhou', 'li-chongji-congke-son', 'li-chongmei-congke-son'];
+  const actual = JSON.parse(sourceBytes).filter(node => ids.includes(node.id));
+  assert.equal(actual.length, 4);
+  assert.ok(actual.every(node => !Object.hasOwn(node, 'group')));
+  const frozen = Object.freeze(actual.map(node => Object.freeze({
+    ...node, aliases: Object.freeze([...(node.aliases ?? [])]),
+  })));
+  const before = JSON.stringify(frozen);
+  const nodes = buildRelationshipNodes([], frozen);
+  for (const input of frozen) {
+    assert.deepEqual(nodes.find(node => node.id === input.id), { ...input, group: '关联人物' });
+    assert.ok(!Object.hasOwn(input, 'group'));
+  }
+  const explicit = Object.freeze({ ...frozen[0], id: 'fixture-explicit-group', group: '明确来源分组' });
+  assert.deepEqual(buildRelationshipNodes([], [explicit]), [explicit]);
+  assert.deepEqual(buildRelationshipNodes([
+    { id: frozen[0].id, name: '统一目录人物', dynasty: '后唐' },
+  ], [frozen[0], explicit]), [
+    { id: frozen[0].id, name: '统一目录人物', group: '后唐' }, explicit,
+  ]);
+  assert.equal(JSON.stringify(frozen), before);
+  assert.deepEqual(readFileSync(sourceUrl), sourceBytes);
 });
 
 const fixtureNodes = [
