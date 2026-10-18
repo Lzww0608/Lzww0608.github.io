@@ -22,14 +22,21 @@ TANG_HOUSEHOLD_FIXTURES = {
     'new-v16': (2292660, 10, 894, 'd491003129eff1cc9745bae27c9415f5e2ff6d2b6d9e606f6b927172d1514454', '3dff5236e6fb6fec0456c60cdfddceb9139a9e1893e9c979d5286b2e2af86574'),
 }
 
+
+HAN_HOUSEHOLD_FIXTURES = {
+    'old-v104': (1567204, 3, 807, '717712a0b573cc75fa97497007f08064caceaacf835b6ac3a94aaf1a926e3508', 'd7164cec8fafef528a0278c140eeb554373c3c6767cdea4b2d86e055cbed9e14'),
+    'new-v18': (1699189, 19, 2167, 'dbbe45b8180426d2a19dbc7a1ff79b27c3733fb2dd29344061d40261dbd14aa5', '313f4feb2b3061cb08939cc30fcbd7689953ae4faa2738bda3fba030c12b82ff'),
+}
+HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES}
+
 class SourceIntegrityTests(unittest.TestCase):
-    def test_tang_household_volumes_are_complete_fixed_revision_archives(self):
+    def test_household_volumes_are_complete_fixed_revision_archives(self):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 92)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 39)
-        for chapter_id, (revision, count, characters, source_hash, chapter_hash) in TANG_HOUSEHOLD_FIXTURES.items():
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 93)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 40)
+        for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]
                 source = archive.ROOT / 'sources' / f'{chapter_id}.json'
@@ -52,19 +59,19 @@ class SourceIntegrityTests(unittest.TestCase):
                 self.assertEqual(sum(len(p['original']) for p in contents['paragraphs']), characters)
                 self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in contents['paragraphs']))
 
-    def test_tang_household_cached_captures_do_not_refetch_or_rewrite(self):
+    def test_household_cached_captures_do_not_refetch_or_rewrite(self):
         specs = {s['id']: s for s in archive.SPECS}
         archive_root = archive.ROOT
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             for kind in ['sources', 'chapters']:
                 (root / kind).mkdir()
-                for chapter_id in TANG_HOUSEHOLD_FIXTURES:
+                for chapter_id in HOUSEHOLD_FIXTURES:
                     shutil.copyfile(archive_root / kind / f'{chapter_id}.json', root / kind / f'{chapter_id}.json')
-            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in TANG_HOUSEHOLD_FIXTURES]
+            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in HOUSEHOLD_FIXTURES]
             before = {p: p.read_bytes() for p in paths}
             with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Fixed household captures must not be fetched again')):
-                for chapter_id in TANG_HOUSEHOLD_FIXTURES:
+                for chapter_id in HOUSEHOLD_FIXTURES:
                     summary = archive.capture(specs[chapter_id])
                     self.assertEqual(archive.capture(specs[chapter_id], summary)['provenance'], summary['provenance'])
             self.assertEqual({p: p.read_bytes() for p in paths}, before)

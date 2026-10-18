@@ -6354,5 +6354,199 @@
         "title": "旧五代史 · 卷 86 · 晋书列传一（后妃）"
       }
     ]
+  },
+  {
+    "id": "han-liu-zhiyuan-empress-li-spouse",
+    "from": "liu-zhiyuan",
+    "to": "han-liu-zhiyuan-empress-li",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "两史记刘知远微时劫取李氏，后立后；不补婚日。",
+    "sources": [
+      {
+        "chapterId": "new-v18",
+        "paragraphId": "new-v18-p2",
+        "excerpt": "高祖少為軍卒，牧馬晉陽，夜入其家劫取之。",
+        "title": "新五代史 · 卷 18 · 汉家人传第六"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-empress-li-mother-chengyou",
+    "from": "han-liu-zhiyuan-empress-li",
+    "to": "liu-chengyou",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "新史明言生隐帝；子生日地点分源，不推她为高祖其余诸子生母。",
+    "sources": [
+      {
+        "chapterId": "new-v18",
+        "paragraphId": "new-v18-p2",
+        "excerpt": "高祖皇后李氏，晉陽人也，其父為農。高祖少為軍卒，牧馬晉陽，夜入其家劫取之。高祖已貴，封魏國夫人，生隱帝。",
+        "title": "新五代史 · 卷 18 · 汉家人传第六"
+      },
+      {
+        "chapterId": "old-v101",
+        "paragraphId": "old-v101-p1",
+        "excerpt": "隱皇帝，諱承祐，高祖第二子也。母曰李太后，以唐長興二年，歲在辛卯，三月七日，生帝於鄴都之舊第。高祖鎮太原，署節院使，累官至檢校尚書右僕射。國初，授左衛大將軍、檢校司空，遷大內都點檢、檢校太保。",
+        "title": "旧五代史 · 卷 101 · 汉隐帝纪1"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-princess-yongning-father",
+    "from": "liu-zhiyuan",
+    "to": "han-liu-zhiyuan-princess-yongning",
+    "kind": "kinship",
+    "label": "父女（汉源所记）",
+    "note": "会要明确汉高祖长女。通鉴同夫同封条称晋高祖女，保歧称、不据此强合同异。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p21",
+        "excerpt": "漢高祖長女永寧公主〈降宋延渥，天福十二年四月封，至乾祐二年十二月進封秦國長公主〉",
+        "title": "五代会要 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-princess-yongning-spouse",
+    "from": "song-yanwo",
+    "to": "han-liu-zhiyuan-princess-yongning",
+    "kind": "kinship",
+    "label": "夫妻（汉源所记）",
+    "note": "汉源公主条明降宋延渥；未记婚日，其他宋延渥行动不自动转公主。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p21",
+        "excerpt": "漢高祖長女永寧公主〈降宋延渥，天福十二年四月封，至乾祐二年十二月進封秦國長公主〉",
+        "title": "五代会要 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-mother-an-mother",
+    "from": "han-liu-zhiyuan-mother-an",
+    "to": "liu-zhiyuan",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "皇妣安氏条后记生帝，明确刘知远生母；不与其他朝安氏合并。",
+    "sources": [
+      {
+        "chapterId": "old-v099",
+        "paragraphId": "old-v099-p1",
+        "excerpt": "高祖睿文聖武昭肅孝皇帝，姓劉氏，諱暠，本名知遠，及即位改今諱。其先本沙陀部人也。四代祖諱湍，帝有天下，追尊為明元皇帝，廟號文祖，陵曰懿陵；〈（《五代會要》：湍為東漢顯宗第八子淮陽王丙之後。）〉高祖母隴西李氏，追謚明貞皇后。曾祖諱昂，晉贈太保，追尊為恭僖皇帝，朝號德祖，陵曰沛陵；〈（《五代會要》：懿陵、沛陵皆無陵所，遙申朝拜。）〉曾祖母虢國太夫人楊氏，追謚恭惠皇后。祖諱僎，晉贈太傅，追尊為昭獻皇帝，廟號翼祖，陵曰威陵；祖母魯國太夫人李氏，追謚為昭穆皇后。皇考諱琠，事後唐武皇帝為列校，晉贈太師，追尊為章聖皇帝，廟號顯祖，陵曰肅陵；皇妣吳國太夫人安氏，追謚章懿皇后。後以唐乾寧二年，歲在乙卯，二月四日生帝於太原。",
+        "title": "旧五代史 · 卷 99 · 汉高祖纪1"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p10",
+        "excerpt": "漢高祖睿文聖武昭肅孝皇帝姓劉氏，諱暠，〈追冊章聖皇帝長子，母追冊章懿皇后安氏〉唐乾寜二年二月四日，生於太原。〈以其日為聖夀節。〉晉天福六年七月，授北京留守。開運二年四月，封北平王。四年二月十五日，受冊於太原府第，其年六月十一日至東京，受朝於崇元殿，改名暠。〈年五十三，初名知遠。〉乾祐元年正月二十七日，崩於大内萬歲殿。〈年五十四。〉其年十一月二十七日，葬睿陵，〈在洛京告成縣。〉諡曰睿文聖武昭肅孝皇帝，廟號高祖。哀冊文，〈右僕射、平章事蘇禹珪撰。〉諡冊文，〈右僕射、平章事蘇禹珪傳。〉諡議、〈太常卿張昭撰。〉年號一，〈乾祐盡元年。〉宰相四人，〈竇貞固、蘇逢吉、蘇禹珪、李濤。〉使相二十人。〈高從誨、馬希廣、錢弘倧、杜重威、高行周、劉信、李守貞、符彦卿、安審琦、侯益、劉崇、　李從敏、劉銖、白文珂、史宏肇、慕容彦超、安叔千　李彝殷、馮暉〉",
+        "title": "五代会要 · 卷 1"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-ancestress-li-mingzhen-kinship",
+    "from": "han-liu-zhiyuan-ancestress-li-mingzhen",
+    "to": "liu-zhiyuan",
+    "kind": "kinship",
+    "label": "高祖母与玄孙",
+    "note": "按汉高祖本纪直接亲属层级保存；追号不是生前在位或册立。",
+    "sources": [
+      {
+        "chapterId": "old-v099",
+        "paragraphId": "old-v099-p1",
+        "excerpt": "高祖母隴西李氏，追謚明貞皇后。",
+        "title": "旧五代史 · 卷 99 · 汉高祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-ancestress-yang-gonghui-kinship",
+    "from": "han-liu-zhiyuan-ancestress-yang-gonghui",
+    "to": "liu-zhiyuan",
+    "kind": "kinship",
+    "label": "曾祖母与曾孙",
+    "note": "按汉高祖本纪直接亲属层级保存；追号不是生前在位或册立。",
+    "sources": [
+      {
+        "chapterId": "old-v099",
+        "paragraphId": "old-v099-p1",
+        "excerpt": "曾祖母虢國太夫人楊氏，追謚恭惠皇后。",
+        "title": "旧五代史 · 卷 99 · 汉高祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-ancestress-li-zhaomu-kinship",
+    "from": "han-liu-zhiyuan-ancestress-li-zhaomu",
+    "to": "liu-zhiyuan",
+    "kind": "kinship",
+    "label": "祖母与孙",
+    "note": "按汉高祖本纪直接亲属层级保存；追号不是生前在位或册立。",
+    "sources": [
+      {
+        "chapterId": "old-v099",
+        "paragraphId": "old-v099-p1",
+        "excerpt": "祖母魯國太夫人李氏，追謚為昭穆皇后。",
+        "title": "旧五代史 · 卷 99 · 汉高祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-empress-li-li-ye-siblings",
+    "from": "han-liu-zhiyuan-empress-li",
+    "to": "li-ye-han",
+    "kind": "kinship",
+    "label": "姐弟亲属",
+    "note": "通鉴明称太后之弟，只记直接有据亲属。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v289",
+        "paragraphId": "tongjian-v289-p47",
+        "excerpt": "武德使李業，太后之弟也",
+        "title": "资治通鉴 · 卷 289 · 后汉纪4"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-empress-li-li-hongyi-siblings",
+    "from": "han-liu-zhiyuan-empress-li",
+    "to": "li-hongyi-han",
+    "kind": "kinship",
+    "label": "姐弟亲属",
+    "note": "通鉴明称洪义太后之弟，不把洪建业兄外推为后弟。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v289",
+        "paragraphId": "tongjian-v289-p49",
+        "excerpt": "洪義，太后之弟也。",
+        "title": "资治通鉴 · 卷 289 · 后汉纪4"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-zhiyuan-empress-li-guowei-political-mother",
+    "from": "guo-wei",
+    "to": "han-liu-zhiyuan-empress-li",
+    "kind": "service",
+    "label": "政治尊奉为母",
+    "note": "郭威愿事太后为慈母，太后以诰答并赐戎衣玉带；不作生母或收养关系。",
+    "sources": [
+      {
+        "chapterId": "old-v104",
+        "paragraphId": "old-v104-p3",
+        "excerpt": "周太祖入京，凡軍國大事，皆請後發教令以行之。是歲，議立徐州節度使赟為帝，以迎奉未至，周太祖乃率群臣拜章，請後權臨朝聽政，後於是稱誥焉。及周太祖為六軍推戴，上章具述其事，且言願事後為慈母。後下誥答曰：「侍中功烈崇高，德聲昭著，翦除禍亂，安定乾坤，謳歌有歸，歷數攸屬，所以軍民推戴，億兆同歡。老身未終殘年，屬茲多難，惟以衰朽，托於始終。載省來箋，如母見待，感念深意，涕泗橫流」云。仍出戎衣、玉帶以賜周太祖。周太祖即位，上尊號曰德聖皇太后，居於太平宮。周顯德元年春薨。〈（案：隱帝未立皇后，據薛史《張彥成傳》云：隱帝娶彥成女。《楊邠傳》云：隱帝所愛耿夫人，欲立為後，邠以為太速，夫人卒，隱帝欲以後禮葬，邠又止之。蓋隱帝在位三年，崩時年二十，故未及冊立皇后也。又，《五代會要》載：漢高祖長女永寧公主，降宋延渥，天福十二年四月封，至乾祐二年十二月，追封秦國長公主。）〉",
+        "title": "旧五代史 · 卷 104 · 汉书列传一（后妃）"
+      },
+      {
+        "chapterId": "new-v18",
+        "paragraphId": "new-v18-p6",
+        "excerpt": "周太祖入京師，舉事皆稱太后誥。已而議立湘陰公贇為天子，贇未至，太祖乃請太后臨朝。已而太祖出征契丹，軍士擁之以還。太祖請事太后為母，太后誥曰：「侍中功烈崇高，德聲昭著，剪除禍亂，安定邦家，謳歌有歸，歷數攸屬，所以軍民推戴，億兆同歡。老身未終殘年，屬此多難，唯以衰朽，託於始終。載省來牋，如母見待，感認深意，涕泗橫流。」於是遷后於太平宮，上尊號曰昭聖皇太后。顯德元年春崩。〈隱帝，舊史、實錄皆無皇后。帝立三年崩，時年二十，蓋未嘗立后也。〉",
+        "title": "新五代史 · 卷 18 · 汉家人传第六"
+      }
+    ]
   }
 ]

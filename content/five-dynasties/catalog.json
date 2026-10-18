@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 92 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
+      "description": "五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 93 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12、梁唐晋家人传卷 13—17、相关人物列传及十国世家卷 61—70；共 39 卷，合传均整卷保留，不表示 74 卷全本已收录。",
+      "description": "五代皇帝本纪卷 1—12、梁唐晋汉家人传卷 13—18、相关人物列传及十国世家卷 61—70；共 40 卷，合传均整卷保留，不表示 74 卷全本已收录。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -1939,7 +1939,12 @@
       "subjects": [
         "liu-zhiyuan",
         "zhang-jingda",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "han-liu-zhiyuan-empress-li",
+        "han-liu-zhiyuan-mother-an",
+        "han-liu-zhiyuan-ancestress-li-mingzhen",
+        "han-liu-zhiyuan-ancestress-yang-gonghui",
+        "han-liu-zhiyuan-ancestress-li-zhaomu"
       ],
       "position": 99,
       "scope": "full",
@@ -2007,7 +2012,8 @@
         "ma-xiguang",
         "gao-conghui",
         "gao-baorong",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 101,
       "scope": "full",
@@ -2039,7 +2045,8 @@
         "gao-baorong",
         "liu-min-northern-han",
         "liu-chengjun",
-        "liang-zhang-quanyi-wife-chu"
+        "liang-zhang-quanyi-wife-chu",
+        "han-liu-zhiyuan-princess-yongning"
       ],
       "position": 102,
       "scope": "full",
@@ -2066,7 +2073,8 @@
         "liu-chengyou",
         "gao-xingzhou",
         "ma-xiguang",
-        "ma-xie"
+        "ma-xie",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 103,
       "scope": "full",
@@ -2097,7 +2105,8 @@
         "ma-xiguang",
         "ma-xie",
         "gao-baorong",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 110,
       "scope": "full",
@@ -2125,7 +2134,8 @@
         "qian-hongchu",
         "liu-min-northern-han",
         "liu-chengjun",
-        "tang-li-siyuan-shufei-wang"
+        "tang-li-siyuan-shufei-wang",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 111,
       "scope": "full",
@@ -2160,7 +2170,8 @@
         "tang-nun-huiying",
         "tang-nun-huideng",
         "tang-nun-huineng",
-        "tang-nun-huiyan"
+        "tang-nun-huiyan",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 112,
       "scope": "full",
@@ -2959,7 +2970,12 @@
         "liu-chengyou",
         "gao-xingzhou",
         "liu-min-northern-han",
-        "tang-li-siyuan-shufei-wang"
+        "tang-li-siyuan-shufei-wang",
+        "han-liu-zhiyuan-empress-li",
+        "han-liu-zhiyuan-ancestress-li-mingzhen",
+        "han-liu-zhiyuan-ancestress-yang-gonghui",
+        "han-liu-zhiyuan-ancestress-li-zhaomu",
+        "han-liu-zhiyuan-mother-an"
       ],
       "position": 10,
       "scope": "full",
@@ -2984,7 +3000,8 @@
       "title": "卷 11 · 周本纪第十一",
       "subjects": [
         "guo-wei",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 11,
       "scope": "full",
@@ -5026,7 +5043,8 @@
         "liu-min-northern-han",
         "liu-chengjun",
         "liu-jien",
-        "liu-jiyuan"
+        "liu-jiyuan",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 70,
       "scope": "full",
@@ -6077,7 +6095,8 @@
         "tang-li-siyuan-princess-yongning",
         "tang-li-siyuan-princess-yongan",
         "jin-shi-chonggui-mother-an",
-        "jin-shi-chonggui-empress-feng"
+        "jin-shi-chonggui-empress-feng",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 286,
       "scope": "full",
@@ -6117,7 +6136,8 @@
         "gao-jixing",
         "gao-conghui",
         "song-qiqiu",
-        "tang-li-siyuan-shufei-wang"
+        "tang-li-siyuan-shufei-wang",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 287,
       "scope": "full",
@@ -6156,7 +6176,8 @@
         "jin-shi-chonggui-empress-feng",
         "jin-shi-chonggui-young-daughter",
         "jin-shi-chonggui-favorite-zhao",
-        "jin-shi-chonggui-favorite-nie"
+        "jin-shi-chonggui-favorite-nie",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 288,
       "scope": "full",
@@ -6190,7 +6211,8 @@
         "ma-xichong",
         "gao-baorong",
         "tang-li-siyuan-princess-yongning",
-        "jin-shi-chonggui-empress-feng"
+        "jin-shi-chonggui-empress-feng",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 289,
       "scope": "full",
@@ -6226,7 +6248,8 @@
         "liu-chengjun",
         "song-qiqiu",
         "han-xizai",
-        "xu-xuan"
+        "xu-xuan",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 290,
       "scope": "full",
@@ -6257,7 +6280,8 @@
         "ma-xie",
         "liu-chang-southern-han",
         "liu-min-northern-han",
-        "xu-xuan"
+        "xu-xuan",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 291,
       "scope": "full",
@@ -6389,7 +6413,8 @@
         "li-hanzhi",
         "liu-min-northern-han",
         "tang-li-cunxu-empress-liu",
-        "tang-li-siyuan-shufei-wang"
+        "tang-li-siyuan-shufei-wang",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 1,
       "scope": "full",
@@ -6931,7 +6956,12 @@
         "jin-shi-chonggui-chungong-wang",
         "jin-shi-chonggui-chungong-tao",
         "jin-shi-chonggui-chungong-wei",
-        "jin-shi-chonggui-chungong-wu"
+        "jin-shi-chonggui-chungong-wu",
+        "han-liu-zhiyuan-empress-li",
+        "han-liu-zhiyuan-mother-an",
+        "han-liu-zhiyuan-ancestress-li-mingzhen",
+        "han-liu-zhiyuan-ancestress-yang-gonghui",
+        "han-liu-zhiyuan-ancestress-li-zhaomu"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -6982,7 +7012,8 @@
         "jin-xianzhu-gaoping",
         "jin-xianzhu-xinping",
         "jin-xianzhu-qiancheng",
-        "jin-xianzhu-yongqing"
+        "jin-xianzhu-yongqing",
+        "han-liu-zhiyuan-princess-yongning"
       ],
       "scope": "full",
       "paragraphCount": 67,
@@ -8027,7 +8058,8 @@
         "liu-jiyuan",
         "zhuo-yanming",
         "song-qiqiu",
-        "tang-li-congke-empress-liu"
+        "tang-li-congke-empress-liu",
+        "han-liu-zhiyuan-empress-li"
       ],
       "position": 30,
       "scope": "full",
@@ -8525,6 +8557,63 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B717&action=history",
         "sourceSha256": "7d72b40e051eaf65d48a8c380e71837eb35663ff4d3dd7d557a5fb4b23663e02",
         "chapterSha256": "68fed61908e6b2852ef8c266742947fe9428e47955f0b6c6ce428194397fbe60"
+      }
+    },
+    {
+      "id": "old-v104",
+      "bookId": "old",
+      "volume": 104,
+      "title": "卷 104 · 汉书列传一（后妃）",
+      "subjects": [
+        "shi-jingtang",
+        "liu-zhiyuan",
+        "liu-chengyou",
+        "guo-wei",
+        "han-liu-zhiyuan-empress-li",
+        "han-liu-zhiyuan-princess-yongning"
+      ],
+      "position": 104,
+      "scope": "full",
+      "paragraphCount": 3,
+      "characterCount": 807,
+      "provenance": {
+        "pageTitle": "舊五代史/卷104",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&oldid=1567204",
+        "revisionId": 1567204,
+        "fetchedAt": "2026-10-18T14:07:26.400229+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&action=history",
+        "sourceSha256": "717712a0b573cc75fa97497007f08064caceaacf835b6ac3a94aaf1a926e3508",
+        "chapterSha256": "d7164cec8fafef528a0278c140eeb554373c3c6767cdea4b2d86e055cbed9e14"
+      }
+    },
+    {
+      "id": "new-v18",
+      "bookId": "new",
+      "volume": 18,
+      "title": "卷 18 · 汉家人传第六",
+      "subjects": [
+        "liu-zhiyuan",
+        "liu-chengyou",
+        "han-liu-zhiyuan-empress-li",
+        "guo-wei",
+        "liu-min-northern-han"
+      ],
+      "position": 18,
+      "scope": "full",
+      "paragraphCount": 19,
+      "characterCount": 2167,
+      "provenance": {
+        "pageTitle": "新五代史/卷18",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B718&oldid=1699189",
+        "revisionId": 1699189,
+        "fetchedAt": "2026-10-18T14:07:27.618597+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B718&action=history",
+        "sourceSha256": "dbbe45b8180426d2a19dbc7a1ff79b27c3733fb2dd29344061d40261dbd14aa5",
+        "chapterSha256": "313f4feb2b3061cb08939cc30fcbd7689953ae4faa2738bda3fba030c12b82ff"
       }
     }
   ]

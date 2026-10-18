@@ -19,6 +19,13 @@
           "originalRevision": 1,
           "originalSha256": "c0d85935b9d915427a90e314f51e3ae86d5fe40447ba039ceec9c5bb5668eda8",
           "excerpt": "皇妣吳國太夫人安氏，追謚章懿皇后。後以唐乾寧二年，歲在乙卯，二月四日生帝於太原。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p10",
+          "originalRevision": 1,
+          "originalSha256": "0495e62ae95b1328a3934b1624daf0ebf0c69b6a7132d64cf0d5d283ce34ea23",
+          "excerpt": "漢高祖睿文聖武昭肅孝皇帝姓劉氏，諱暠，〈追冊章聖皇帝長子，母追冊章懿皇后安氏〉唐乾寜二年二月四日，生於太原。〈以其日為聖夀節。〉晉天福六年七月，授北京留守。開運二年四月，封北平王。四年二月十五日，受冊於太原府第，其年六月十一日至東京，受朝於崇元殿，改名暠。〈年五十三，初名知遠。〉乾祐元年正月二十七日，崩於大内萬歲殿。〈年五十四。〉其年十一月二十七日，葬睿陵，〈在洛京告成縣。〉諡曰睿文聖武昭肅孝皇帝，廟號高祖。哀冊文，〈右僕射、平章事蘇禹珪撰。〉諡冊文，〈右僕射、平章事蘇禹珪傳。〉諡議、〈太常卿張昭撰。〉年號一，〈乾祐盡元年。〉宰相四人，〈竇貞固、蘇逢吉、蘇禹珪、李濤。〉使相二十人。〈高從誨、馬希廣、錢弘倧、杜重威、高行周、劉信、李守貞、符彦卿、安審琦、侯益、劉崇、　李從敏、劉銖、白文珂、史宏肇、慕容彦超、安叔千　李彝殷、馮暉〉"
         }
       ]
     },
@@ -552,11 +559,37 @@
       ]
     },
     {
+      "id": "liu-zhiyuan-li-empress-remonstrance",
+      "title": "听李氏谏止敛财赏军",
+      "summary": "太原起兵赏军而内库不足，拟向百姓征敛；听李氏谏后停止，李氏出内府相助。",
+      "year": 947,
+      "sortOrder": 17,
+      "precision": "year",
+      "sourceDate": "天福十二年／开运四年起兵太原时",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p2",
+          "originalRevision": 1,
+          "originalSha256": "64bb002c994afb1e60549d1261595f6782225c16b2748c0851d100d86f1030e1",
+          "excerpt": "高祖皇后李氏，晉陽人也。高祖微時，嘗牧馬於晉陽別墅，因夜入其家，劫而取之。及高祖領藩鎮，累封魏國夫人。高祖建義於太原，欲行頒賚於軍士，以公帑不足，議率井邑，助成其事。後聞而諫曰：「自晉高祖建義，及國家興運，雖出於天意，亦土地人民福力同致耳，未能惠其眾而欲奪其財，非新天子恤隱之理也。今後宮所積，宜悉以散之，設使不厚，人無怨言。」高祖改容曰：「敬聞命矣。」遂停斂貸之議。後傾內府以助之，中外聞者，無不感悅。天福十二年，冊為皇后。隱帝即位，尊為皇太后。〈（案：以下疑有闕文。據《通鑒》云：隱帝與李業等謀誅楊邠等，議既定，入白太后，太后曰：「茲事何可輕發，更宜與宰相議之。」業時在旁曰：「先帝嘗言，朝廷大事不可謀及書生，懦怯誤人。」太后復以為言，帝忿曰：「國家之事，非閨門所知。」拂衣而出。又云：南北軍遇於劉子陂，帝欲自出勞軍，太后曰：「郭威吾家故舊，非死亡切身，何以至此！但按兵守城，飛詔諭之，觀其志趣，必有辭理，則君臣之禮尚全，慎勿輕出。」帝不從。）〉"
+        },
+        {
+          "chapterId": "new-v18",
+          "paragraphId": "new-v18-p3",
+          "originalRevision": 1,
+          "originalSha256": "adf2e636e7a114bc7d1f708f4b1f2292b213ebeb932cdab4855d2a7282c76f1b",
+          "excerpt": "開運四年，高祖起兵太原，賞軍士，帑藏不足充，欲斂於民。后諫曰：「方今起事，號為義兵，民未知惠而先奪其財，殆非新天子所以救民之意也。今後宮所有，請悉出之，雖其不足，士亦不以為怨也。」高祖為改容謝之。高祖即位，立為皇后。高祖崩，隱帝冊尊為皇太后。"
+        }
+      ]
+    },
+    {
       "id": "liu-zhiyuan-rescue-jin",
       "title": "拟迎被迁的晋帝未及",
       "summary": "率亲兵向土门路前去迎接被契丹北迁的晋帝，到寿阳得知对方已过，遂返回。",
       "year": 947,
-      "sortOrder": 17,
+      "sortOrder": 18,
       "precision": "day",
       "sourceDate": "天福十二年二月甲戌",
       "phase": "rule",
@@ -575,7 +608,7 @@
       "title": "免河东额外征配",
       "summary": "下诏免除河东辖境原有税额外的各项征收摊派。",
       "year": 947,
-      "sortOrder": 18,
+      "sortOrder": 19,
       "precision": "day",
       "sourceDate": "天福十二年三月丙戌朔",
       "phase": "rule",
@@ -594,7 +627,7 @@
       "title": "任开国中枢并册皇后",
       "summary": "四月任杨邠、郭威等掌枢密，册李氏为皇后，以苏逢吉、苏禹珪为宰相；同时派史宏肇南下潞州。",
       "year": 947,
-      "sortOrder": 19,
+      "sortOrder": 20,
       "precision": "month",
       "sourceDate": "天福十二年四月",
       "phase": "rule",
@@ -633,6 +666,20 @@
           "originalRevision": 1,
           "originalSha256": "fb277eed9bf421ec34504901446af2136e475e738187963c9fbd6225242d3614",
           "excerpt": "乙丑，遣史宏肇率兵一萬人趨潞州。"
+        },
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p2",
+          "originalRevision": 1,
+          "originalSha256": "64bb002c994afb1e60549d1261595f6782225c16b2748c0851d100d86f1030e1",
+          "excerpt": "天福十二年，冊為皇后。"
+        },
+        {
+          "chapterId": "new-v18",
+          "paragraphId": "new-v18-p3",
+          "originalRevision": 1,
+          "originalSha256": "adf2e636e7a114bc7d1f708f4b1f2292b213ebeb932cdab4855d2a7282c76f1b",
+          "excerpt": "高祖即位，立為皇后。"
         }
       ],
       "notes": [
@@ -661,7 +708,7 @@
       "title": "离河东南下",
       "summary": "留刘崇守北京，五月经阴地关离开河东南下；到绛州示兵而不攻击，接受李从朗投降。",
       "year": 947,
-      "sortOrder": 20,
+      "sortOrder": 21,
       "precision": "month",
       "sourceDate": "天福十二年五月甲午、丙申、戊申",
       "phase": "rule",
@@ -687,7 +734,7 @@
       "title": "杀李从益和王淑妃",
       "summary": "刘知远进入中原时，下令在东京杀李从益及其母王淑妃；旧史记赐死，通鉴及阙文还记郭从义奉密旨执行。年表不把契丹所立的李从益说成刘知远所立，也不写成刘知远亲自执行。",
       "year": 947,
-      "sortOrder": 21,
+      "sortOrder": 22,
       "precision": "day",
       "sourceDate": "天福十二年六月丙辰",
       "phase": "rule",
@@ -744,7 +791,7 @@
       "title": "至东京并宣布汉国号",
       "summary": "六月到东京，宣布国号大汉，仍用天福年号；大赦并免欠税、减京畿夏税和屋税，暂不更改契丹所授职任。",
       "year": 947,
-      "sortOrder": 22,
+      "sortOrder": 23,
       "precision": "month",
       "sourceDate": "天福十二年六月甲子、戊辰",
       "phase": "rule",
@@ -777,7 +824,7 @@
       "title": "入汴后杀幽州驻兵",
       "summary": "入大梁后有人告幽州驻兵将变，刘知远杀一千五百人于繁台；张璉后来据此拒绝相信免死招降，使邺城难下。",
       "year": 947,
-      "sortOrder": 23,
+      "sortOrder": 24,
       "precision": "year",
       "sourceDate": "天福十二年入大梁后、围邺前，通鉴未独日",
       "phase": "rule",
@@ -796,7 +843,7 @@
       "title": "调杜重威离邺引发叛乱",
       "summary": "命杜重威移镇宋州，高行周接任邺都；杜重威不奉命而据邺反叛，朝廷削其官爵并命高行周讨伐。",
       "year": 947,
-      "sortOrder": 24,
+      "sortOrder": 25,
       "precision": "month",
       "sourceDate": "天福十二年七月丙申、闰七月庚午",
       "phase": "rule",
@@ -822,7 +869,7 @@
       "title": "追尊祖先并定六庙",
       "summary": "追尊四代祖先，以汉高皇帝、光武帝为不祧之庙，安排六庙乐舞。",
       "year": 947,
-      "sortOrder": 25,
+      "sortOrder": 26,
       "precision": "day",
       "sourceDate": "天福十二年闰七月庚辰",
       "phase": "rule",
@@ -833,6 +880,13 @@
           "originalRevision": 1,
           "originalSha256": "9acf506e35ec1080d75349f0496d6503ad36c63f5bc0d771c606aa2c944be8b5",
           "excerpt": "庚辰，追尊六廟，以太祖高皇帝、世祖光武皇帝為不祧之廟，高曾已下四朝，追尊謚號，已載於前矣。"
+        },
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p6",
+          "originalRevision": 1,
+          "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
+          "excerpt": "庚辰，追尊祖考為皇帝，妣為皇后：高祖湍謚曰明元，廟號文祖，祖妣李氏謚曰明貞；曾祖昂謚曰恭僖，廟號德祖，祖妣楊氏謚曰恭惠；祖僎謚曰昭憲，廟號翼祖，祖妣李氏謚曰昭穆；考琠謚曰章聖，廟號顯祖，妣安氏謚曰章懿。"
         }
       ]
     },
@@ -841,7 +895,7 @@
       "title": "下严厉盗贼死刑诏",
       "summary": "规定涉及盗贼案件，不论赃物数量，查实后一律处死，反映新朝严刑的具体措施。",
       "year": 947,
-      "sortOrder": 26,
+      "sortOrder": 27,
       "precision": "day",
       "sourceDate": "天福十二年八月丙申",
       "phase": "rule",
@@ -860,7 +914,7 @@
       "title": "亲征杜重威",
       "summary": "两名讨伐主帅不和，李涛密疏建议亲征；刘知远九月离京，十月抵邺城下，河北在押罪人获赦。",
       "year": 947,
-      "sortOrder": 27,
+      "sortOrder": 28,
       "precision": "month",
       "sourceDate": "天福十二年九月庚辰、十月甲申及丙申",
       "phase": "rule",
@@ -893,7 +947,7 @@
       "title": "攻邺失败伤亡万余",
       "summary": "在慕容彦超坚持下命高行周攻城，亲登高地观战；官军伤亡万余，未能攻克。",
       "year": 947,
-      "sortOrder": 28,
+      "sortOrder": 29,
       "precision": "day",
       "sourceDate": "天福十二年十月丙午",
       "phase": "rule",
@@ -1281,6 +1335,70 @@
           "originalRevision": 1,
           "originalSha256": "27651681ce4e5ac6a8a4d00645af176649992ab3de4a2b08cc08425154f526e6",
           "excerpt": "承勳事晉為鄭州防禦使，德光滅晉，使人召承勳至京師，責其劫父，臠而食之，乃以承信為平盧節度使。漢高祖贈光遠尚書令，封齊王，命中書舍人張正撰光遠碑銘文賜承信，使刻石于青州。碑石既立，天大雷電，擊折之。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-li-empress-marriage",
+      "title": "微时劫取晋阳李氏",
+      "summary": "微时牧马晋阳，夜入李家劫取李氏，后来封魏国夫人、立后；不补婚年或女方意愿。",
+      "year": null,
+      "sortOrder": 40,
+      "precision": "undated",
+      "sourceDate": "高祖微时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p2",
+          "originalRevision": 1,
+          "originalSha256": "64bb002c994afb1e60549d1261595f6782225c16b2748c0851d100d86f1030e1",
+          "excerpt": "高祖皇后李氏，晉陽人也。高祖微時，嘗牧馬於晉陽別墅，因夜入其家，劫而取之。及高祖領藩鎮，累封魏國夫人。高祖建義於太原，欲行頒賚於軍士，以公帑不足，議率井邑，助成其事。後聞而諫曰：「自晉高祖建義，及國家興運，雖出於天意，亦土地人民福力同致耳，未能惠其眾而欲奪其財，非新天子恤隱之理也。今後宮所積，宜悉以散之，設使不厚，人無怨言。」高祖改容曰：「敬聞命矣。」遂停斂貸之議。後傾內府以助之，中外聞者，無不感悅。天福十二年，冊為皇后。隱帝即位，尊為皇太后。〈（案：以下疑有闕文。據《通鑒》云：隱帝與李業等謀誅楊邠等，議既定，入白太后，太后曰：「茲事何可輕發，更宜與宰相議之。」業時在旁曰：「先帝嘗言，朝廷大事不可謀及書生，懦怯誤人。」太后復以為言，帝忿曰：「國家之事，非閨門所知。」拂衣而出。又云：南北軍遇於劉子陂，帝欲自出勞軍，太后曰：「郭威吾家故舊，非死亡切身，何以至此！但按兵守城，飛詔諭之，觀其志趣，必有辭理，則君臣之禮尚全，慎勿輕出。」帝不從。）〉"
+        },
+        {
+          "chapterId": "new-v18",
+          "paragraphId": "new-v18-p2",
+          "originalRevision": 1,
+          "originalSha256": "76d39bd885eb14db93498c90468687783dcc97fe63da70f3b686c1f4801cc8d2",
+          "excerpt": "高祖皇后李氏，晉陽人也，其父為農。高祖少為軍卒，牧馬晉陽，夜入其家劫取之。高祖已貴，封魏國夫人，生隱帝。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-love-liuyun-as-son",
+      "title": "爱刘赟并以为己子",
+      "summary": "新史记刘崇子赟为高祖所爱，以为己子。原段未独记收养年月；刘赟后来的迎立未实际即位，不转高祖本人行动。",
+      "year": null,
+      "sortOrder": 41,
+      "precision": "undated",
+      "sourceDate": "本段未详年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v18",
+          "paragraphId": "new-v18-p8",
+          "originalRevision": 1,
+          "originalSha256": "e7dc471e82dd986a53215537a7cd1f549e2fd5032a1834f67d35f6ee8092918a",
+          "excerpt": "崇子曰贇，高祖愛之，以為己子。"
+        }
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-appoint-liuxin",
+      "title": "镇太原时任刘信统军领镇",
+      "summary": "新史记高祖镇太原，任刘信为兴捷军都指挥使、领义成军节度使，徙领许州；本篇称从弟，与卷前弟字分别保留。",
+      "year": null,
+      "sortOrder": 42,
+      "precision": "undated",
+      "sourceDate": "高祖镇太原时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v18",
+          "paragraphId": "new-v18-p17",
+          "originalRevision": 1,
+          "originalSha256": "6d65d94193fd79f66a99165708ce60ef181fd2a8c2b020da4188626fed9bb7da",
+          "excerpt": "蔡王信，高祖之從弟也。高祖鎮太原，以信為興捷軍都指揮使領義成軍節度使，徙領許州。高祖寢疾，隱帝當立為嗣，楊邠等受顧命，不欲信在京師，乃遣信就鎮，信涕泣而去。"
         }
       ]
     }

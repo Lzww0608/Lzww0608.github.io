@@ -3696,6 +3696,88 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-empress-li",
+      "names": [
+        "后汉高祖李皇后",
+        "後漢高祖李皇后",
+        "汉高祖皇后李氏",
+        "漢高祖皇后李氏",
+        "后汉李太后",
+        "後漢李太后",
+        "汉昭圣皇太后",
+        "漢昭聖皇太后",
+        "汉德圣皇太后",
+        "漢德聖皇太后"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-princess-yongning",
+      "names": [
+        "后汉永宁公主",
+        "後漢永寧公主",
+        "汉高祖女永宁公主",
+        "漢高祖女永寧公主",
+        "后汉秦国长公主",
+        "後漢秦國長公主"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-mother-an",
+      "names": [
+        "后汉高祖生母安氏",
+        "後漢高祖生母安氏",
+        "汉章懿皇后安氏",
+        "漢章懿皇后安氏",
+        "后汉吴国太夫人安氏",
+        "後漢吳國太夫人安氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-ancestress-li-mingzhen",
+      "names": [
+        "后汉明贞皇后",
+        "汉高祖高祖母李氏",
+        "後漢明貞皇后",
+        "漢高祖高祖母李氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-ancestress-yang-gonghui",
+      "names": [
+        "后汉恭惠皇后",
+        "汉高祖曾祖母杨氏",
+        "後漢恭惠皇后",
+        "漢高祖曾祖母楊氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "han-liu-zhiyuan-ancestress-li-zhaomu",
+      "names": [
+        "后汉昭穆皇后",
+        "汉高祖祖母李氏",
+        "後漢昭穆皇后",
+        "漢高祖祖母李氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -11500,6 +11582,36 @@
       "reason": "纯年代称谓或书名引用，不作为此人的个人记载。",
       "originalRevision": 1,
       "originalSha256": "38dfd0f2b4cfa022b42e9cf25e8d2a3632d55c76325463ecf1e826420a18f78a"
+    },
+    {
+      "personId": "shi-jingtang",
+      "paragraphId": "old-v104-p2",
+      "terms": [
+        "晉高祖"
+      ],
+      "reason": "李后谏词仅提及晋高祖，不将引语内背景称号升级为其本人事迹。",
+      "originalRevision": 1,
+      "originalSha256": "64bb002c994afb1e60549d1261595f6782225c16b2748c0851d100d86f1030e1"
+    },
+    {
+      "personId": "liu-zhiyuan",
+      "paragraphId": "old-v104-p3",
+      "terms": [
+        "漢高祖"
+      ],
+      "reason": "会要转引汉高祖长女，属于公主父系身份提及，不是高祖新动作。",
+      "originalRevision": 1,
+      "originalSha256": "c9c1223d11289f8eb668204b0cc9d975b06bac7d104a3f25c4b54b8ab3a65025"
+    },
+    {
+      "personId": "liu-chengyou",
+      "paragraphId": "new-v18-p6",
+      "terms": [
+        "隱帝"
+      ],
+      "reason": "史家夹注论隐帝无已册皇后，按已核mention保存，不由自动帝号升作本人事迹。",
+      "originalRevision": 1,
+      "originalSha256": "cd1f90f0b696cb9fc078fe9395cd7e475f1d5a312f524c52d1b1245fdcf1d5b4"
     }
   ],
   "regnalEdicts": {

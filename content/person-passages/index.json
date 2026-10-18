@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 209,
-    "paragraphCount": 8866
+    "chapterCount": 211,
+    "paragraphCount": 8888
   },
   "people": [
     {
@@ -1414,6 +1414,30 @@
     {
       "id": "jin-shi-chonggui-chungong-wu",
       "name": "春宫武氏（晋少帝内职）"
+    },
+    {
+      "id": "han-liu-zhiyuan-empress-li",
+      "name": "李皇后（后汉高祖）"
+    },
+    {
+      "id": "han-liu-zhiyuan-princess-yongning",
+      "name": "永宁公主（后汉高祖女）"
+    },
+    {
+      "id": "han-liu-zhiyuan-mother-an",
+      "name": "安氏（后汉高祖生母）"
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-li-mingzhen",
+      "name": "李氏（汉明贞皇后）"
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-yang-gonghui",
+      "name": "杨氏（汉恭惠皇后）"
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-li-zhaomu",
+      "name": "李氏（汉昭穆皇后）"
     }
   ],
   "passages": [
@@ -5234,6 +5258,10 @@
         {
           "personId": "liu-min-northern-han",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -5281,6 +5309,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -5582,6 +5614,34 @@
       ]
     },
     {
+      "id": "passage-huiyao-v001-p27",
+      "chapterId": "huiyao-v001",
+      "title": "卷 1 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v001-p27",
+          "originalRevision": 1,
+          "originalSha256": "1ad921b78ee8c973c63303cb9de5c97cdfe194256f264a71a1ea6acd2ea0b03f",
+          "start": 0,
+          "end": 236
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-mingzhen",
+          "kind": "mention"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-yang-gonghui",
+          "kind": "mention"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-zhaomu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-huiyao-v001-p32",
       "chapterId": "huiyao-v001",
       "title": "卷 1 · 第 32 段",
@@ -5857,6 +5917,10 @@
       "people": [
         {
           "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -6809,6 +6873,10 @@
       "people": [
         {
           "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-princess-yongning",
           "kind": "record"
         }
       ]
@@ -21090,6 +21158,10 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -27890,6 +27962,26 @@
         {
           "personId": "tang-li-siyuan-shufei-wang",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-mingzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-yang-gonghui",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-zhaomu",
+          "kind": "record"
         }
       ]
     },
@@ -28010,6 +28102,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -28273,6 +28369,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -33062,6 +33162,366 @@
         {
           "personId": "shi-jingtang",
           "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p2",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p2",
+          "originalRevision": 1,
+          "originalSha256": "76d39bd885eb14db93498c90468687783dcc97fe63da70f3b686c1f4801cc8d2",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p3",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p3",
+          "originalRevision": 1,
+          "originalSha256": "adf2e636e7a114bc7d1f708f4b1f2292b213ebeb932cdab4855d2a7282c76f1b",
+          "start": 0,
+          "end": 121
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p4",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p4",
+          "originalRevision": 1,
+          "originalSha256": "9161192fa78e0135074061c6437f559571cfcf1f89195dd4b07a2d00b72d483b",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p5",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p5",
+          "originalRevision": 1,
+          "originalSha256": "f064e41d7d73460524b495b0240b0a6432a9d77de665ad43de79c7494fa07b16",
+          "start": 0,
+          "end": 189
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p6",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p6",
+          "originalRevision": 1,
+          "originalSha256": "cd1f90f0b696cb9fc078fe9395cd7e475f1d5a312f524c52d1b1245fdcf1d5b4",
+          "start": 0,
+          "end": 217
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-chengyou",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p8",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p8",
+          "originalRevision": 1,
+          "originalSha256": "e7dc471e82dd986a53215537a7cd1f549e2fd5032a1834f67d35f6ee8092918a",
+          "start": 0,
+          "end": 80
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-min-northern-han",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p9",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p9",
+          "originalRevision": 1,
+          "originalSha256": "05bec33312639cd24767089c7621a59a8c174cc52fd54047a0ce759a75b1d9f8",
+          "start": 0,
+          "end": 375
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-min-northern-han",
+          "kind": "mention"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p10",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p10",
+          "originalRevision": 1,
+          "originalSha256": "4272a4d37cd74d3aa7e79f0d43e34f88e9162ce7b0f49b3ecbca0d79d819cbca",
+          "start": 0,
+          "end": 118
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p11",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p11",
+          "originalRevision": 1,
+          "originalSha256": "573b53b1e723b6189f319929226cb20db4c36cf61f70f2fe8a1056bfc7e6d09b",
+          "start": 0,
+          "end": 129
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p12",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p12",
+          "originalRevision": 1,
+          "originalSha256": "077e4c60869619008de0a0a327940f25daee6ca72fbfd11df173686eb20fb2d5",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p13",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p13",
+          "originalRevision": 1,
+          "originalSha256": "28653cde039b6bfdaf5b7c95111c5a862c6a8fdd2909e469d482800d0615a3d8",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p15",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p15",
+          "originalRevision": 1,
+          "originalSha256": "927003d6db8a50b4156b15e8d74e7c3d5fccff3a299c8fd5f15da726957f32d3",
+          "start": 0,
+          "end": 260
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p17",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p17",
+          "originalRevision": 1,
+          "originalSha256": "6d65d94193fd79f66a99165708ce60ef181fd2a8c2b020da4188626fed9bb7da",
+          "start": 0,
+          "end": 78
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v18-p19",
+      "chapterId": "new-v18",
+      "title": "卷 18 · 汉家人传第六 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "new-v18-p19",
+          "originalRevision": 1,
+          "originalSha256": "73f14a1027ddf690fd5b5d8e07f8a8eb81c98e57a517099c01cae0ad23e72ec0",
+          "start": 0,
+          "end": 127
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
         }
       ]
     },
@@ -53214,6 +53674,10 @@
         {
           "personId": "liu-min-northern-han",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -93438,6 +93902,22 @@
         {
           "personId": "li-keyong",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-mingzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-yang-gonghui",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-ancestress-li-zhaomu",
+          "kind": "record"
         }
       ]
     },
@@ -93645,6 +94125,10 @@
         },
         {
           "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -94066,6 +94550,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -94090,6 +94578,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -94125,6 +94617,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -94766,6 +95262,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -94946,6 +95446,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95110,6 +95614,10 @@
         {
           "personId": "wang-qianyu",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95134,6 +95642,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -95238,6 +95750,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95270,6 +95786,10 @@
         {
           "personId": "ma-xie",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95298,6 +95818,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95318,6 +95842,78 @@
         {
           "personId": "liu-chengyou",
           "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v104-p2",
+      "chapterId": "old-v104",
+      "title": "卷 104 · 汉书列传一（后妃） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "old-v104-p2",
+          "originalRevision": 1,
+          "originalSha256": "64bb002c994afb1e60549d1261595f6782225c16b2748c0851d100d86f1030e1",
+          "start": 0,
+          "end": 425
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jingtang",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v104-p3",
+      "chapterId": "old-v104",
+      "title": "卷 104 · 汉书列传一（后妃） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "old-v104-p3",
+          "originalRevision": 1,
+          "originalSha256": "c9c1223d11289f8eb668204b0cc9d975b06bac7d104a3f25c4b54b8ab3a65025",
+          "start": 0,
+          "end": 379
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -95582,6 +96178,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95602,6 +96202,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -95793,6 +96397,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -96069,6 +96677,10 @@
         },
         {
           "personId": "qian-hongchu",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -96458,6 +97070,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -102589,6 +103205,10 @@
         },
         {
           "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -137194,6 +137814,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v286-p72",
+      "chapterId": "tongjian-v286",
+      "title": "卷 286 · 后汉纪1 · 第 72 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v286-p72",
+          "originalRevision": 1,
+          "originalSha256": "f15eb21912e3baebd27bd7d82186c7649d746deffe0eb0a156b1d0fc167c608b",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v286-p74",
       "chapterId": "tongjian-v286",
       "title": "卷 286 · 后汉纪1 · 第 74 段",
@@ -138722,6 +139362,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v287-p92",
+      "chapterId": "tongjian-v287",
+      "title": "卷 287 · 后汉纪2 · 第 92 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v287-p92",
+          "originalRevision": 1,
+          "originalSha256": "08781eeac2eb3827b6519a312d8aeb6a51607328c09f7a5fcda731def8730ec9",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v287-p93",
       "chapterId": "tongjian-v287",
       "title": "卷 287 · 后汉纪2 · 第 93 段",
@@ -138874,6 +139534,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -138958,6 +139622,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -139678,6 +140346,10 @@
         {
           "personId": "liu-chengyou",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -140262,6 +140934,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -140622,6 +141298,10 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
         }
       ]
     },
@@ -140682,6 +141362,10 @@
         {
           "personId": "gao-xingzhou",
           "kind": "record"
+        },
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "mention"
         }
       ]
     },
@@ -141401,6 +142085,26 @@
       "people": [
         {
           "personId": "guo-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v290-p7",
+      "chapterId": "tongjian-v290",
+      "title": "卷 290 · 后周纪1 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v290-p7",
+          "originalRevision": 1,
+          "originalSha256": "494b62c2ca553830d7a756cdb450691bc0d711f23733d3721b526a87f8472d73",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]
@@ -143725,6 +144429,26 @@
       "people": [
         {
           "personId": "kou-yanqing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v291-p104",
+      "chapterId": "tongjian-v291",
+      "title": "卷 291 · 后周纪2 · 第 104 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v291-p104",
+          "originalRevision": 1,
+          "originalSha256": "229c03270acc7ec3a35d7e69ef84539ac4a230cf0438645603f106fe512a4c23",
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-liu-zhiyuan-empress-li",
           "kind": "record"
         }
       ]

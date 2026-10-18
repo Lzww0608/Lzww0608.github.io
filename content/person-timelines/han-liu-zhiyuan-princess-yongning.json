@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "han-liu-zhiyuan-princess-yongning",
+  "events": [
+    {
+      "id": "han-liu-zhiyuan-princess-yongning-yongning-conferral",
+      "title": "封永宁公主",
+      "summary": "会要称汉高祖长女，天福十二年四月封永宁公主；旧史后妃传转引该条。",
+      "year": 947,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福十二年四月",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p21",
+          "originalRevision": 1,
+          "originalSha256": "1d3e2d164921d665e1214b652e6bdf01328cfa5463d2a83c7d7fb21aee0b5a6d",
+          "excerpt": "漢高祖長女永寧公主〈降宋延渥，天福十二年四月封，至乾祐二年十二月進封秦國長公主〉"
+        },
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p3",
+          "originalRevision": 1,
+          "originalSha256": "c9c1223d11289f8eb668204b0cc9d975b06bac7d104a3f25c4b54b8ab3a65025",
+          "excerpt": "漢高祖長女永寧公主，降宋延渥，天福十二年四月封"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-princess-yongning-qin-princess",
+      "title": "进封秦国长公主，追进字样分源",
+      "summary": "会要记乾祐二年十二月进封秦国长公主，旧史后妃传引会要作追封；本纪壬午另记进封。无日的十二月跨949–950，不据追封推卒年月。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "range",
+      "sourceDate": "乾祐二年十二月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p21",
+          "originalRevision": 1,
+          "originalSha256": "1d3e2d164921d665e1214b652e6bdf01328cfa5463d2a83c7d7fb21aee0b5a6d",
+          "excerpt": "漢高祖長女永寧公主〈降宋延渥，天福十二年四月封，至乾祐二年十二月進封秦國長公主〉"
+        },
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p3",
+          "originalRevision": 1,
+          "originalSha256": "c9c1223d11289f8eb668204b0cc9d975b06bac7d104a3f25c4b54b8ab3a65025",
+          "excerpt": "至乾祐二年十二月，追封秦國長公主。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史本纪壬午进封",
+          "summary": "旧史本纪原称皇帝二十一姊，壬午进封秦国长公主。保原排行字样，不与长女拼定。",
+          "evidence": [
+            {
+              "chapterId": "old-v102",
+              "paragraphId": "old-v102-p16",
+              "originalRevision": 1,
+              "originalSha256": "8d5fe618d1c6ead6083218672aa5ca42e8e5c934f4b32dcbb37a68b4266ffbd0",
+              "excerpt": "十二月庚午朔，湖南奏，靜江軍節度使馬希贍以今年十月十八日卒。廢朝二日。辛未，日暈三重。戊寅，司徒、門下侍郎、平章事竇貞固奏，請修晉朝實錄。詔史官賈緯、竇儼、王伸等修撰。以禮部尚書張沆復為翰林學士。壬午，皇帝二十一姊永寧公主進封秦國長公主。潁州奏，破淮賊於正陽。"
+            }
+          ],
+          "year": 950,
+          "sourceDate": "乾祐二年十二月壬午"
+        }
+      ],
+      "yearRange": {
+        "start": 949,
+        "end": 950
+      }
+    },
+    {
+      "id": "han-liu-zhiyuan-princess-yongning-marriage-song-yanwo",
+      "title": "降宋延渥",
+      "summary": "汉源会要称长女永宁公主降宋延渥，旧史后妃传转引。该句未详婚日；不将通鉴晋高祖女歧称的行动确信归此人。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "汉源条未详婚年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p21",
+          "originalRevision": 1,
+          "originalSha256": "1d3e2d164921d665e1214b652e6bdf01328cfa5463d2a83c7d7fb21aee0b5a6d",
+          "excerpt": "漢高祖長女永寧公主〈降宋延渥，天福十二年四月封，至乾祐二年十二月進封秦國長公主〉"
+        },
+        {
+          "chapterId": "old-v104",
+          "paragraphId": "old-v104-p3",
+          "originalRevision": 1,
+          "originalSha256": "c9c1223d11289f8eb668204b0cc9d975b06bac7d104a3f25c4b54b8ab3a65025",
+          "excerpt": "漢高祖長女永寧公主，降宋延渥"
+        }
+      ]
+    }
+  ]
+}

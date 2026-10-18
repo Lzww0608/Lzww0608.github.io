@@ -184,7 +184,13 @@
     "jin-shi-chonggui-chungong-wang",
     "jin-shi-chonggui-chungong-tao",
     "jin-shi-chonggui-chungong-wei",
-    "jin-shi-chonggui-chungong-wu"
+    "jin-shi-chonggui-chungong-wu",
+    "han-liu-zhiyuan-empress-li",
+    "han-liu-zhiyuan-princess-yongning",
+    "han-liu-zhiyuan-mother-an",
+    "han-liu-zhiyuan-ancestress-li-mingzhen",
+    "han-liu-zhiyuan-ancestress-yang-gonghui",
+    "han-liu-zhiyuan-ancestress-li-zhaomu"
   ],
   "people": [
     {
@@ -5947,6 +5953,191 @@
         {
           "title": "卷 86 · 晋书列传一（后妃）",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B786&oldid=1567203"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-empress-li",
+      "name": "李皇后（后汉高祖）",
+      "dynasty": "后汉",
+      "role": "汉高祖皇后、隐帝生母；后周尊奉的皇太后",
+      "periodLabel": "后汉及后周初年史载",
+      "intro": "李氏，晋阳人。史载刘知远微时夜入其家劫取之，显贵后封魏国夫人。她生刘承祐，曾谏止向百姓敛财赏军，并出内库相助；后册为皇后、尊为皇太后。汉周交替时有择嗣、临朝与诰命记载，后周仍受尊奉，显德元年卒。",
+      "sourceNotes": [
+        "与后晋李皇后分别；晋阳是籍贯，不倒填出生地或生年。",
+        "生隐帝的日、地，旧史作长兴二年三月七日邺都，会要作三月九日太原，分源保存。",
+        "948年初尊太后与950年七月册礼分别；旧史卷104作德圣，旧史本纪、会要及新史等作昭圣，不统一底本。",
+        "诰命、史家按语与具体行动分层。郭威奉之为母是政治尊奉，不推生养关系。"
+      ],
+      "aliases": "后汉高祖李皇后 後漢高祖李皇后 汉高祖皇后李氏 漢高祖皇后李氏 后汉李太后 後漢李太后 汉昭圣皇太后 漢昭聖皇太后 汉德圣皇太后 漢德聖皇太后",
+      "readingStarts": {
+        "old": "old-v104",
+        "new": "new-v18",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "卷 104 · 汉书列传一（后妃）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&oldid=1567204"
+        },
+        {
+          "title": "卷 18 · 汉家人传第六",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B718&oldid=1699189"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-princess-yongning",
+      "name": "永宁公主（后汉高祖女）",
+      "dynasty": "后汉",
+      "role": "汉源所记高祖女、宋延渥配偶；秦国长公主",
+      "periodLabel": "后汉史载",
+      "intro": "会要称汉高祖长女永宁公主，降宋延渥，天福十二年四月受封，乾祐二年十二月进封秦国长公主。旧史后妃传转引会要作追封，隐帝本纪另记进封。",
+      "sourceNotes": [
+        "旧史本纪原作皇帝二十一姊；保留底本与现译，不据此与会要长女拼定排行。",
+        "通鉴宋延渥同封号妻条作晋高祖女，作为父系歧称保存，不能据同夫同封强证同一自然人，也不反定为两人；不把该条行动确信归此汉源公主。",
+        "不以追封字样补卒年、卒月；所选原文未载其本名、生母或婚日。"
+      ],
+      "aliases": "后汉永宁公主 後漢永寧公主 汉高祖女永宁公主 漢高祖女永寧公主 后汉秦国长公主 後漢秦國長公主",
+      "readingStarts": {
+        "old": "old-v104",
+        "huiyao": "huiyao-v002"
+      },
+      "sources": [
+        {
+          "title": "卷 104 · 汉书列传一（后妃）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&oldid=1567204"
+        },
+        {
+          "title": "卷 2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%BA%8C&oldid=1969486"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-mother-an",
+      "name": "安氏（后汉高祖生母）",
+      "dynasty": "后汉",
+      "role": "刘知远生母；史称吴国太夫人、追谥章懿皇后",
+      "periodLabel": "晚唐生育记事及后汉追述",
+      "intro": "旧史皇妣吴国太夫人安氏条后接她在唐乾宁二年二月四日生刘知远于太原。会要亦记高祖母安氏和该生日、地点；后汉追谥章懿皇后。",
+      "sourceNotes": [
+        "生育施事承接原段安氏，不由皇妣身份单独虚造生活事件。",
+        "吴国太夫人与身后章懿皇后分层；未详受封年，不补生前皇后册立。",
+        "当前选定原文未载其本名、生年、卒年或更多母系亲属，不与其他政权安氏合并。"
+      ],
+      "aliases": "后汉高祖生母安氏 後漢高祖生母安氏 汉章懿皇后安氏 漢章懿皇后安氏 后汉吴国太夫人安氏 後漢吳國太夫人安氏",
+      "readingStarts": {
+        "old": "old-v099",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "卷 99 · 汉高祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&oldid=729661"
+        },
+        {
+          "title": "卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-li-mingzhen",
+      "name": "李氏（汉明贞皇后）",
+      "dynasty": "后汉",
+      "role": "刘知远高祖母；身后追谥明贞皇后",
+      "periodLabel": "后汉天福十二年追尊记载",
+      "intro": "旧史记其为刘知远高祖母，并记身后追谥明贞皇后。新史于天福十二年闰七月庚辰列入四代祖考妣追尊，明确其皇后谥号。",
+      "sourceNotes": [
+        "本条是身后追尊，不写生前皇后册立、实际在位或入宫。",
+        "会要所列母子关系用于核明代际，不由母称另造无年月的生育经历。",
+        "当前选定原文未载其本名、生卒年月等更多个人经历；同姓身份不与他朝合并。"
+      ],
+      "aliases": "后汉明贞皇后 汉高祖高祖母李氏 後漢明貞皇后 漢高祖高祖母李氏",
+      "readingStarts": {
+        "old": "old-v099",
+        "new": "new-v10",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "卷 99 · 汉高祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&oldid=729661"
+        },
+        {
+          "title": "卷 10 · 汉本纪第十（兼载隐帝）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B710&oldid=1744688"
+        },
+        {
+          "title": "卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-yang-gonghui",
+      "name": "杨氏（汉恭惠皇后）",
+      "dynasty": "后汉",
+      "role": "刘知远曾祖母；身后追谥恭惠皇后",
+      "periodLabel": "后汉天福十二年追尊记载",
+      "intro": "旧史记其为刘知远曾祖母，并记身后追谥恭惠皇后。新史于天福十二年闰七月庚辰列入四代祖考妣追尊，明确其皇后谥号。",
+      "sourceNotes": [
+        "本条是身后追尊，不写生前皇后册立、实际在位或入宫。",
+        "会要所列母子关系用于核明代际，不由母称另造无年月的生育经历。",
+        "当前选定原文未载其本名、生卒年月等更多个人经历；同姓身份不与他朝合并。"
+      ],
+      "aliases": "后汉恭惠皇后 汉高祖曾祖母杨氏 後漢恭惠皇后 漢高祖曾祖母楊氏",
+      "readingStarts": {
+        "old": "old-v099",
+        "new": "new-v10",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "卷 99 · 汉高祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&oldid=729661"
+        },
+        {
+          "title": "卷 10 · 汉本纪第十（兼载隐帝）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B710&oldid=1744688"
+        },
+        {
+          "title": "卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-ancestress-li-zhaomu",
+      "name": "李氏（汉昭穆皇后）",
+      "dynasty": "后汉",
+      "role": "刘知远祖母；身后追谥昭穆皇后",
+      "periodLabel": "后汉天福十二年追尊记载",
+      "intro": "旧史记其为刘知远祖母，并记身后追谥昭穆皇后。新史于天福十二年闰七月庚辰列入四代祖考妣追尊，明确其皇后谥号。",
+      "sourceNotes": [
+        "本条是身后追尊，不写生前皇后册立、实际在位或入宫。",
+        "会要所列母子关系用于核明代际，不由母称另造无年月的生育经历。",
+        "当前选定原文未载其本名、生卒年月等更多个人经历；同姓身份不与他朝合并。"
+      ],
+      "aliases": "后汉昭穆皇后 汉高祖祖母李氏 後漢昭穆皇后 漢高祖祖母李氏",
+      "readingStarts": {
+        "old": "old-v099",
+        "new": "new-v10",
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "卷 99 · 汉高祖纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B799&oldid=729661"
+        },
+        {
+          "title": "卷 10 · 汉本纪第十（兼载隐帝）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B710&oldid=1744688"
+        },
+        {
+          "title": "卷 1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
         }
       ]
     }

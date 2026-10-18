@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "han-liu-zhiyuan-mother-an",
+  "events": [
+    {
+      "id": "han-liu-zhiyuan-mother-an-birth-liu-zhiyuan",
+      "title": "于太原生刘知远",
+      "summary": "旧史皇妣安氏条承接记她在唐乾宁二年二月四日生刘知远于太原；会要亦记母安氏和同日地点。",
+      "year": 895,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "唐乾宁二年二月四日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p1",
+          "originalRevision": 1,
+          "originalSha256": "c0d85935b9d915427a90e314f51e3ae86d5fe40447ba039ceec9c5bb5668eda8",
+          "excerpt": "皇妣吳國太夫人安氏，追謚章懿皇后。後以唐乾寧二年，歲在乙卯，二月四日生帝於太原。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p10",
+          "originalRevision": 1,
+          "originalSha256": "0495e62ae95b1328a3934b1624daf0ebf0c69b6a7132d64cf0d5d283ce34ea23",
+          "excerpt": "漢高祖睿文聖武昭肅孝皇帝姓劉氏，諱暠，〈追冊章聖皇帝長子，母追冊章懿皇后安氏〉唐乾寜二年二月四日，生於太原。〈以其日為聖夀節。〉晉天福六年七月，授北京留守。開運二年四月，封北平王。四年二月十五日，受冊於太原府第，其年六月十一日至東京，受朝於崇元殿，改名暠。〈年五十三，初名知遠。〉乾祐元年正月二十七日，崩於大内萬歲殿。〈年五十四。〉其年十一月二十七日，葬睿陵，〈在洛京告成縣。〉諡曰睿文聖武昭肅孝皇帝，廟號高祖。哀冊文，〈右僕射、平章事蘇禹珪撰。〉諡冊文，〈右僕射、平章事蘇禹珪傳。〉諡議、〈太常卿張昭撰。〉年號一，〈乾祐盡元年。〉宰相四人，〈竇貞固、蘇逢吉、蘇禹珪、李濤。〉使相二十人。〈高從誨、馬希廣、錢弘倧、杜重威、高行周、劉信、李守貞、符彦卿、安審琦、侯益、劉崇、　李從敏、劉銖、白文珂、史宏肇、慕容彦超、安叔千　李彝殷、馮暉〉"
+        }
+      ],
+      "notes": [
+        "同一出生事实的互见不冒充已证明两个独立史源。吴国太夫人与身后追谥不倒写为生前皇后。"
+      ]
+    },
+    {
+      "id": "han-liu-zhiyuan-mother-an-posthumous-honor",
+      "title": "身后追谥章懿皇后",
+      "summary": "天福十二年闰七月庚辰追尊祖考妣，妣安氏谥章懿；旧史安氏条同记追号。此为身后追尊，不是生前皇后册立。",
+      "year": 947,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "天福十二年闰七月庚辰",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "new-v10",
+          "paragraphId": "new-v10-p6",
+          "originalRevision": 1,
+          "originalSha256": "f571ea538c40cc4de66847022d8f784b9c9cbd3224e5ab0189c51ba43043f844",
+          "excerpt": "考琠謚曰章聖，廟號顯祖，妣安氏謚曰章懿。"
+        },
+        {
+          "chapterId": "old-v099",
+          "paragraphId": "old-v099-p1",
+          "originalRevision": 1,
+          "originalSha256": "c0d85935b9d915427a90e314f51e3ae86d5fe40447ba039ceec9c5bb5668eda8",
+          "excerpt": "皇妣吳國太夫人安氏，追謚章懿皇后。"
+        }
+      ]
+    }
+  ]
+}
