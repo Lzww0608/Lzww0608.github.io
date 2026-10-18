@@ -171,6 +171,10 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
     const paragraph = library.chapters.flatMap(chapter => chapter.paragraphs).find(paragraph => paragraph.id === exclusion.paragraphId);
     requireValue(paragraph && personIds.has(exclusion.personId) && exclusion.terms.length > 0
       && exclusion.terms.every(term => paragraph.original.includes(term)) && typeof exclusion.reason === 'string', 'title exclusion evidence');
+    if (exclusion.originalRevision !== undefined || exclusion.originalSha256 !== undefined) {
+      requireValue(exclusion.originalRevision === paragraph.revision
+        && exclusion.originalSha256 === originalSha256(paragraph.original), 'title exclusion version');
+    }
     exclusions.set(`${exclusion.paragraphId}/${exclusion.personId}`, exclusion.terms);
   }
   const edicts = rules.regnalEdicts;

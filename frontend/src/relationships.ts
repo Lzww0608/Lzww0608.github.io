@@ -3357,10 +3357,33 @@ export const personRelationships: readonly PersonRelationship[] = [
     sources: [source('new-v08', 1, '《新五代史》卷8 · 晋高祖本纪', '敬瑭為人沈厚寡言，明宗愛之，妻以女，是為永寧公主，由是常隸明宗帳下，號左射軍。')],
   },
   {
-    id: 'shi-jingtang-chonggui-uncle', from: 'shi-jingtang', to: 'shi-chonggui', kind: 'kinship', label: '叔侄',
-    note: '石重贵的生父石敬儒为石敬瑭之兄；另有收养关系。',
-    sources: [source('new-v09', 1, '《新五代史》卷9 · 晋出帝本纪', '出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。')],
-  },
+  "id": "shi-jingtang-chonggui-uncle",
+  "from": "shi-jingtang",
+  "to": "shi-chonggui",
+  "kind": "kinship",
+  "label": "叔侄",
+  "note": "石重贵的生父石敬儒为石敬瑭之兄；另有收养关系。 新史家人传另说敬儒与高祖的亲疏不详，保留本纪的兄称与家人传的疑问，不以一处取消另一处原文。",
+  "sources": [
+    {
+      "chapterId": "new-v09",
+      "paragraphId": "new-v09-p1",
+      "title": "《新五代史》卷9 · 晋出帝本纪",
+      "excerpt": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。"
+    },
+    {
+      "chapterId": "new-v17",
+      "paragraphId": "new-v17-p24",
+      "excerpt": "晉氏始出夷狄而微，終為夷狄所滅，故其宗室次序本末不能究見。其可見者曰：高祖二叔父，一兄六弟，七子二孫，而有略有詳，非惟禍亂多故而失其事實，抑亦無足稱焉者。然粗存其見者，以備其闕云。二叔父曰萬友、萬詮，兄曰敬儒，弟曰敬威、敬德、敬殷、敬贇、敬暉、重胤，子曰重貴、重信、重乂、重英、重進、重睿、重杲，孫曰延煦、延寶。孝平皇帝生孝元皇帝、萬友、萬詮，孝元皇帝生高祖，萬友生敬威、敬贇，萬詮生敬暉，而敬儒、敬德、敬殷、重胤皆不知其於高祖為親疎也。",
+      "title": "《新五代史》 · 卷 17 · 晋家人传第五"
+    },
+    {
+      "chapterId": "new-v17",
+      "paragraphId": "new-v17-p25",
+      "excerpt": "高祖，孝元皇帝第二子也，而敬儒為兄，疑其長子也，則於高祖屬長而親，然贈官反最後於諸弟，而高祖世獨不得追封，此又可疑也。重胤，高祖弟也，亦不知其為親疎，然高祖愛之，養以為子，故於名加「重」而下齒諸子。高祖叔、兄與弟敬殷、子重進，皆前即位卒，而敬威、敬德、重胤、重英，高祖反時死。高祖少子曰馮六，未名而卒，而舊說以重睿為幼子者，非也。",
+      "title": "《新五代史》 · 卷 17 · 晋家人传第五"
+    }
+  ]
+},
   {
     id: 'liu-zhiyuan-chengyou-parent', from: 'liu-zhiyuan', to: 'liu-chengyou', kind: 'kinship', label: '父子',
     sources: [source('new-v10', 8, '《新五代史》卷10 · 汉隐帝本纪', '隱帝，高祖第二子承祐也。')],
@@ -3440,10 +3463,27 @@ export const personRelationships: readonly PersonRelationship[] = [
     "note": "新史明确明宗养从珂为子；《考异》另引《唐废帝实录》称明宗元子，保存刘恕采亲子说及司马光最终采薛史养子说的取舍。此边依正史收养记录，保留亲养异说，不据赐名另造无争议亲父边。"
   } as PersonRelationship,
   {
-    id: 'shi-jingtang-chonggui-adoption', from: 'shi-jingtang', to: 'shi-chonggui', kind: 'adoption', label: '养子',
-    note: '石敬瑭收兄长之子石重贵为子；生父仍为石敬儒。',
-    sources: [source('new-v09', 1, '《新五代史》卷9 · 晋出帝本纪', '出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。')],
-  },
+  "id": "shi-jingtang-chonggui-adoption",
+  "from": "shi-jingtang",
+  "to": "shi-chonggui",
+  "kind": "adoption",
+  "label": "养子",
+  "note": "石敬瑭收兄长之子石重贵为子；生父仍为石敬儒。 家人传对敬儒与高祖亲疏存疑，但不因此取消本纪收养明文；同卷高祖养重胤、重贵养延煦延宝是另外两组对象。",
+  "sources": [
+    {
+      "chapterId": "new-v09",
+      "paragraphId": "new-v09-p1",
+      "title": "《新五代史》卷9 · 晋出帝本纪",
+      "excerpt": "出帝父敬儒，高祖兄也，為唐莊宗騎將，早卒，高祖以其子重貴為子。"
+    },
+    {
+      "chapterId": "new-v17",
+      "paragraphId": "new-v17-p24",
+      "excerpt": "晉氏始出夷狄而微，終為夷狄所滅，故其宗室次序本末不能究見。其可見者曰：高祖二叔父，一兄六弟，七子二孫，而有略有詳，非惟禍亂多故而失其事實，抑亦無足稱焉者。然粗存其見者，以備其闕云。二叔父曰萬友、萬詮，兄曰敬儒，弟曰敬威、敬德、敬殷、敬贇、敬暉、重胤，子曰重貴、重信、重乂、重英、重進、重睿、重杲，孫曰延煦、延寶。孝平皇帝生孝元皇帝、萬友、萬詮，孝元皇帝生高祖，萬友生敬威、敬贇，萬詮生敬暉，而敬儒、敬德、敬殷、重胤皆不知其於高祖為親疎也。",
+      "title": "《新五代史》 · 卷 17 · 晋家人传第五"
+    }
+  ]
+},
   {
     id: 'guo-wei-chai-rong-adoption', from: 'guo-wei', to: 'chai-rong', kind: 'adoption', label: '养子',
     note: '柴荣是郭威妻子圣穆皇后的侄子，幼年在郭家长大，后被收为养子；不是郭威亲生子。',
@@ -3508,10 +3548,27 @@ export const personRelationships: readonly PersonRelationship[] = [
     sources: [source('new-v07', 7, '《新五代史》卷7 · 唐废帝本纪', '癸酉，以太后令降天子為鄂王，命王監國。乙亥，皇帝即位。')],
   },
   {
-    id: 'shi-jingtang-chonggui-succession', from: 'shi-jingtang', to: 'shi-chonggui', kind: 'succession', label: '皇位交接',
-    note: '942年，石敬瑭死后石重贵即位。',
-    sources: [source('old-v081', 2, '《旧五代史》卷81 · 晋少帝本纪一', '是歲六月十三日乙丑，高祖崩，承遺制命柩前即皇帝位。')],
-  },
+  "id": "shi-jingtang-chonggui-succession",
+  "from": "shi-jingtang",
+  "to": "shi-chonggui",
+  "kind": "succession",
+  "label": "皇位交接",
+  "note": "942年，石敬瑭死后石重贵即位。 旧史载承遗制即位，新史家人传则记大臣议立长君、重睿不得立；两种继位叙法分别保留，不拼成高祖明确口授同一继承命令。",
+  "sources": [
+    {
+      "chapterId": "old-v081",
+      "paragraphId": "old-v081-p2",
+      "title": "《旧五代史》卷81 · 晋少帝本纪一",
+      "excerpt": "是歲六月十三日乙丑，高祖崩，承遺制命柩前即皇帝位。"
+    },
+    {
+      "chapterId": "new-v17",
+      "paragraphId": "new-v17-p43",
+      "excerpt": "重睿為人貌類高祖。高祖臥疾，宰相馮道入見臥內，重睿尚幼，高祖呼出使拜道於前，因以宦者抱持寘道懷中，高祖雖不言，左右皆知其以重睿託道也。高祖崩，晉大臣以國家多事，議立長君，而景延廣已陰許立出帝，重睿遂不得立。出帝以重睿為檢校太保、開封尹，以左散騎常侍邊蔚權知開封府事。開運二年五月，拜重睿雄武軍節度使，歲餘，徙鎮忠武，皆不之鎮。契丹滅晉，重睿從出帝北遷，後不知其所終。",
+      "title": "《新五代史》 · 卷 17 · 晋家人传第五"
+    }
+  ]
+},
   {
     id: 'liu-zhiyuan-chengyou-succession', from: 'liu-zhiyuan', to: 'liu-chengyou', kind: 'succession', label: '皇位交接',
     note: '948年，刘知远死后刘承祐即位。',

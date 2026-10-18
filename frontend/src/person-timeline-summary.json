@@ -784,6 +784,25 @@
       ]
     },
     {
+      "personId": "jin-princess-changan",
+      "eventCount": 4,
+      "eventIds": [
+        "jin-princess-changan-changan-title",
+        "jin-princess-changan-marriage-yang",
+        "jin-princess-changan-death-qin",
+        "jin-princess-changan-posthumous-liang"
+      ]
+    },
+    {
+      "personId": "jin-shi-jingtang-taifei-liu",
+      "eventCount": 3,
+      "eventIds": [
+        "jin-shi-jingtang-taifei-liu-requested-patent",
+        "jin-shi-jingtang-taifei-liu-decree-empress-dowager",
+        "jin-shi-jingtang-taifei-liu-death-and-testament"
+      ]
+    },
+    {
       "personId": "kang-fu",
       "eventCount": 8,
       "eventIds": [
@@ -1002,7 +1021,7 @@
     },
     {
       "personId": "li-congke",
-      "eventCount": 55,
+      "eventCount": 56,
       "eventIds": [
         "li-congke-birth",
         "li-congke-huliu",
@@ -1040,6 +1059,7 @@
         "li-congke-shi-suspicion",
         "li-congke-private-council",
         "li-congke-lead-money",
+        "li-congke-birthday-drunken-remark",
         "li-congke-shi-transfer",
         "li-congke-command-congwen-chongmei-marriage",
         "li-congke-taiyuan-siege",
@@ -2467,13 +2487,14 @@
     },
     {
       "personId": "shi-chonggui",
-      "eventCount": 52,
+      "eventCount": 61,
       "eventIds": [
         "shi-chonggui-birth",
         "shi-chonggui-taiyuan-defense",
         "shi-chonggui-beijing-regency",
         "shi-chonggui-jinwu",
         "shi-chonggui-zheng-prince",
+        "shi-chonggui-changan-commanded-host",
         "shi-chonggui-guangjin",
         "shi-chonggui-accession",
         "shi-chonggui-liao-letter",
@@ -2482,6 +2503,7 @@
         "shi-chonggui-bury-gaozu",
         "shi-chonggui-famine-relief",
         "shi-chonggui-kaifeng-return",
+        "shi-chonggui-posthumous-family-tianfu8",
         "shi-chonggui-grain-coercion",
         "shi-chonggui-birth-mother",
         "shi-chonggui-qiao-rong",
@@ -2504,6 +2526,7 @@
         "shi-chonggui-tang-history",
         "shi-chonggui-feng-yu-chancellor",
         "shi-chonggui-sang-out",
+        "shi-chonggui-yanxu-zhao-marriage",
         "shi-chonggui-restore-officers",
         "shi-chonggui-feigned-defections",
         "shi-chonggui-duwei-expedition",
@@ -2520,7 +2543,13 @@
         "shi-chonggui-adoption",
         "shi-chonggui-alive-xiande",
         "shi-chonggui-death-north",
-        "shi-chonggui-blank-edicts-ancongjin"
+        "shi-chonggui-blank-edicts-ancongjin",
+        "shi-chonggui-receive-zhang-marriage",
+        "shi-chonggui-jingyun-warning-appointments",
+        "shi-chonggui-chongrui-kaifeng",
+        "shi-chonggui-chongrui-military-titles",
+        "shi-chonggui-adopt-yanxu-yanbao",
+        "shi-chonggui-yanxu-zheng-qi"
       ]
     },
     {
@@ -2547,7 +2576,7 @@
     },
     {
       "personId": "shi-jingtang",
-      "eventCount": 83,
+      "eventCount": 94,
       "eventIds": [
         "shi-jingtang-birth",
         "shi-jingtang-qingping-rescue",
@@ -2582,9 +2611,11 @@
         "shi-jingtang-zhaoyi-surrender",
         "shi-jingtang-luoyang",
         "shi-jingtang-after-conquest",
+        "shi-jingtang-posthumous-uncles-brothers",
         "shi-jingtang-bury-congke",
         "shi-jingtang-bian-tour",
         "shi-jingtang-tax-amnesty",
+        "shi-jingtang-changan-princess-title",
         "shi-jingtang-fan-zhang-rebellions",
         "shi-jingtang-sishui-restored",
         "shi-jingtang-ransom-care",
@@ -2603,6 +2634,7 @@
         "shi-jingtang-tang-ritual",
         "shi-jingtang-snow-relief",
         "shi-jingtang-debt-remission",
+        "shi-jingtang-changan-marriage-rites",
         "shi-jingtang-abolish-exams",
         "shi-jingtang-anlu-campaign",
         "shi-jingtang-fan-death",
@@ -2616,6 +2648,7 @@
         "shi-jingtang-anzhongrong-order",
         "shi-jingtang-zongcheng-victory",
         "shi-jingtang-zhengzhou-head",
+        "shi-jingtang-posthumous-family-tianfu7",
         "shi-jingtang-reclaim-land",
         "shi-jingtang-zhang-yanzhe",
         "shi-jingtang-illness",
@@ -2631,7 +2664,14 @@
         "shi-jingtang-criminal-decisions",
         "shi-jingtang-fan-linqing-title",
         "shi-jingtang-pardon-li-yanxun",
-        "shi-jingtang-enfeoff-an-chongrong-wives"
+        "shi-jingtang-enfeoff-an-chongrong-wives",
+        "shi-jingtang-arrange-chonggui-zhang",
+        "shi-jingtang-adopt-chongyin-arrange-feng",
+        "shi-jingtang-jingyun-heyang",
+        "shi-jingtang-jingyun-assistants",
+        "shi-jingtang-mourn-two-sons",
+        "shi-jingtang-chongxin-praise-tawei",
+        "shi-jingtang-chongyi-luoyang-command"
       ]
     },
     {
@@ -3276,7 +3316,7 @@
     },
     {
       "personId": "tang-li-siyuan-princess-yongning",
-      "eventCount": 19,
+      "eventCount": 22,
       "eventIds": [
         "tang-li-siyuan-princess-yongning-saved-kongxun",
         "tang-li-siyuan-princess-yongning-yongning-title",
@@ -3291,12 +3331,15 @@
         "tang-li-siyuan-princess-yongning-mourn-sister",
         "tang-li-siyuan-princess-yongning-surrender",
         "tang-li-siyuan-princess-yongning-detained-kaifeng",
+        "tang-li-siyuan-princess-yongning-fengchan-temple-food",
         "tang-li-siyuan-princess-yongning-follow-son-north",
         "tang-li-siyuan-princess-yongning-ask-fields",
         "tang-li-siyuan-princess-yongning-death",
         "tang-li-siyuan-princess-yongning-marriage",
         "tang-li-siyuan-princess-yongning-dowager",
-        "tang-li-siyuan-princess-yongning-intercede-congwen"
+        "tang-li-siyuan-princess-yongning-intercede-congwen",
+        "tang-li-siyuan-princess-yongning-admonish-feng-affairs",
+        "tang-li-siyuan-princess-yongning-birth-chongxin"
       ]
     },
     {
@@ -4282,10 +4325,11 @@
     },
     {
       "personId": "zhao-zaili",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "zhao-zaili-beizhou-coercion",
         "zhao-zaili-seize-wei",
+        "zhao-zaili-yanxu-marriage-offerings",
         "zhao-zaili-death",
         "zhao-zaili-early-yan",
         "zhao-zaili-retain-ye",

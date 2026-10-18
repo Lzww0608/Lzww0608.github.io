@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import { buildPersonPassageIndex } from '../../scripts/index-person-passages.mjs';
 import { loadLibrary } from '../../content/library.mjs';
 import { loadPublishedChapters } from '../../content/translations.mjs';
 import { loadPersonPassageIndex } from '../../content/person-passages.mjs';
@@ -15,6 +17,24 @@ const chapters=new Map(loadPublishedChapters(library).map(chapter=>[chapter.id,c
 const personId='li-cunxin';
 const coverage={bookCount:library.catalog.books.length,chapterCount:library.chapters.length,paragraphCount:library.chapters.reduce((sum,chapter)=>sum+chapter.paragraphs.length,0)};
 const hash=text=>createHash('sha256').update(text).digest('hex');
+
+test('Jin family names remain distinct from Liang general Li Chongyin and reject stale local exclusions', () => {
+  const current = loadPersonPassageIndex(library);
+  const ids = ['new-v17-p22', 'new-v17-p24', 'new-v17-p25', 'new-v17-p37', 'old-v086-p6'];
+  for (const id of ids) {
+    const passage = current.passages.find(p => p.spans.some(s => s.paragraphId === id));
+    assert.ok(passage, id);
+    assert.equal(passage.people.some(p => p.personId === 'li-chongyin'), false, id);
+    assert.ok(passage.people.some(p => ['shi-jingtang', 'shi-chonggui'].includes(p.personId)), id);
+  }
+  assert.ok(current.passages.some(p => p.people.some(p => p.personId === 'li-chongyin')),
+    'the Liang general retains his own records');
+  const rules = JSON.parse(readFileSync(new URL('../../content/person-passages/rules.json', import.meta.url), 'utf8'));
+  const exclusion = rules.titleExclusions.find(e => e.personId === 'li-chongyin' && e.paragraphId === ids[0]);
+  assert.ok(exclusion);
+  exclusion.originalSha256 = '0'.repeat(64);
+  assert.throws(() => buildPersonPassageIndex(library, rules), /title exclusion version/);
+});
 
 test('Shi Chonggui records separate source citations and chapter footnotes from his acts and later accounts', () => {
   const current = loadPersonPassageIndex();

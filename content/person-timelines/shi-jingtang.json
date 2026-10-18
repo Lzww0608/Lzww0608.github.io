@@ -577,7 +577,17 @@
           "originalRevision": 1,
           "originalSha256": "932ab94c99229a44f9ec26e8e08682587e7b0800274cf3990cd8903e03cb89df",
           "excerpt": "掌書記桑維翰、都押衙劉知遠贊成密計，遂拒末帝之命。朝廷以帝不奉詔，降旨削奪官爵，即詔晉州刺史、北面副招討使張敬達領兵圍帝於晉陽。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p2",
+          "originalRevision": 1,
+          "originalSha256": "bd1674830bb9a58e1b105c848fd6999d7b093ab663cd3a17e851624376207d19",
+          "excerpt": "高祖皇后李氏，唐明宗皇帝女也。后初號永寧公主，清泰二年封魏國長公主。[1]自廢帝立，常疑高祖必反。三年，公主自太原入朝千春節，辭歸，留之不得，廢帝醉，語公主曰：「爾歸何速，欲與石郎反邪？」既醒，左右告之，廢帝大悔。公主歸，以語高祖，高祖由是益不自安。"
         }
+      ],
+      "notes": [
+        "新史家人传另记千春节后公主归告废帝醉语，高祖由是益不自安；这是调郓前的疑惧背景，不把公主写成承认反谋。"
       ]
     },
     {
@@ -870,11 +880,37 @@
       ]
     },
     {
+      "id": "shi-jingtang-posthumous-uncles-brothers",
+      "title": "追赠叔父与已故兄弟",
+      "summary": "天福二年正月，追赠万友为太师、万诠为太傅，并追赠敬威、敬德、敬殷为太傅；新史指出此时未及敬儒。只记本次追赠，不把已故者写成重新到任。",
+      "year": 937,
+      "precision": "month",
+      "sourceDate": "天福二年正月",
+      "phase": "rule",
+      "sortOrder": 34,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p26",
+          "originalRevision": 1,
+          "originalSha256": "0871f5f56d0f811d3e6f8abb0ec7a5d0dad936c425a80609cb4513779f57a144",
+          "excerpt": "石氏世事軍中，萬友、萬詮職卑不見。天福二年正月，萬友自故金紫光祿大夫、檢校司徒兼御史大夫、上柱國贈太師。萬詮亦自金紫光祿大夫、檢校司空兼御史大夫、上柱國贈太傅。出帝天福八年五月，追封皇叔祖萬友為秦王，萬詮加贈太師，追封趙王。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p29",
+          "originalRevision": 1,
+          "originalSha256": "0ef953643d38eabd68f41aedc1fbb4546cbe2c7ce69365de62a072de776f52dc",
+          "excerpt": "天福二年正月，贈敬威、敬德皆為太傅，并贈敬殷以檢校太子賓客，亦贈太傅，而不及敬儒。七年正月，追封敬威廣王，敬德福王，敬殷通王，皆贈太尉。敬儒始以故金紫光祿大夫、檢校尚書左僕射兼御史大夫、上柱國贈太傅，而獨不得封。出帝天福八年五月，加贈三皇叔皆為太師，而皇伯敬儒始追封宋王，亦加贈太師。"
+        }
+      ]
+    },
+    {
       "id": "shi-jingtang-bury-congke",
       "title": "以王礼葬李从珂",
       "summary": "准以王礼葬已降庶人的唐末帝及妻子儿子，并在葬日停朝。",
       "year": 937,
-      "sortOrder": 34,
+      "sortOrder": 35,
       "precision": "day",
       "sourceDate": "天福二年三月七日",
       "phase": "rule",
@@ -893,7 +929,7 @@
       "title": "东巡汴州",
       "summary": "以洛阳运输、费用不足为诏书理由赴汴；旧史所引通鉴另说桑维翰建议借汴州便利制范延光。",
       "year": 937,
-      "sortOrder": 35,
+      "sortOrder": 36,
       "precision": "year",
       "sourceDate": "天福二年三月庚辰至四月甲申",
       "phase": "rule",
@@ -926,7 +962,7 @@
       "title": "免欠税并抚兵火灾户",
       "summary": "入汴后赦囚、免旧税及曲钱，检查桑麦虫旱损失予减税，准收葬清泰被杀臣；五月另减洛魏夏麦税五分之一。",
       "year": 937,
-      "sortOrder": 36,
+      "sortOrder": 37,
       "precision": "year",
       "sourceDate": "天福二年四月至五月",
       "phase": "rule",
@@ -948,11 +984,37 @@
       ]
     },
     {
+      "id": "shi-jingtang-changan-princess-title",
+      "title": "封长安公主及诸妹",
+      "summary": "本纪记制封皇第二十一女为长安公主，并封乌氏、史氏、杜氏三位皇妹。女次和诸妹婚家称谓照来源保留，不改作私人姓名或生姓。",
+      "year": 937,
+      "precision": "month",
+      "sourceDate": "天福二年五月庚午；不新转换确日",
+      "phase": "rule",
+      "sortOrder": 38,
+      "evidence": [
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p9",
+          "originalRevision": 1,
+          "originalSha256": "7340b8aed8d8f39c1b76d2e8ad76e7136c749006c0ed8843c5dbf824e10c553a",
+          "excerpt": "庚午，制封皇第二十一女為長安公主，封皇第十一妹烏氏為壽安長公主，皇第十二妹史氏為永壽長公主，皇第十三妹杜氏為樂平長公主。"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "晉高祖長女長安公主降楊承祚，天福二年五月封，至六年五月卒，追封秦國公主，至七年九月，又追封梁國長公主。"
+        }
+      ]
+    },
+    {
       "id": "shi-jingtang-fan-zhang-rebellions",
       "title": "发兵对付范延光与张从宾",
       "summary": "范延光反后派杨光远等赴滑州，张从宾又叛并杀重信、重乂，命侯益、杜重威守汜水；旧史引通鉴记帝欲退晋阳而被桑维翰劝止。",
       "year": 937,
-      "sortOrder": 37,
+      "sortOrder": 39,
       "precision": "year",
       "sourceDate": "天福二年六月至七月",
       "phase": "rule",
@@ -978,7 +1040,7 @@
       "title": "平汜水并处符彦饶",
       "summary": "杜重威等夺汜水、张从宾投河；朝廷削范延光爵，赐死被马万擒送的符彦饶，并敕捕张延播、张继祚等十人、亲的骨肉并斩。新史认为符被诬以反，另列判断，后续赦余党不掩这项族属斩命。",
       "year": 937,
-      "sortOrder": 38,
+      "sortOrder": 40,
       "precision": "year",
       "sourceDate": "天福二年七月",
       "phase": "rule",
@@ -1021,7 +1083,7 @@
       "title": "赎掳人口并照顾病囚",
       "summary": "赦叛乱余党，拨官钱赎回自梁唐以来被掳到北方者；另命病囚获官医与药费，轻罪可家属看护。",
       "year": 937,
-      "sortOrder": 39,
+      "sortOrder": 41,
       "precision": "year",
       "sourceDate": "天福二年八月乙巳、丙午",
       "phase": "rule",
@@ -1469,11 +1531,47 @@
       ]
     },
     {
+      "id": "shi-jingtang-changan-marriage-rites",
+      "title": "定公主婚仪，命重贵主婚",
+      "summary": "天福五年二月，高祖准长安公主三月出降的礼议，对纳采时答拜作变通，命郑王重贵主婚、中外不贺；这是礼制与主婚诏命，不以二月受命替代三月出降。",
+      "year": 940,
+      "precision": "month",
+      "sourceDate": "天福五年二月诏；公主三月出降另记",
+      "phase": "rule",
+      "sortOrder": 55,
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p26",
+          "originalRevision": 1,
+          "originalSha256": "9c18d4d5cb40356048571353aebdd56a3adda9d05e4f0097910856a25c7b9984",
+          "excerpt": "五年二月，太常禮院奏：「長安公主以三月出降。按唐德宗朝禮儀使顔真卿議，婚用誕馬，在禮無文。周禮：『諸侯以璋聘女。』禮云：『玉以比德。』今請駙馬都尉加以璋，郡主之婿加玄纁，以代用馬。書函之禮，出自近代，事無正經，請廢之勿用。」詔曰：「納采之時，主人再拜，使者不答，雖開元禮具載其儀，今宜答拜。仍令鄭王重貴主其婚禮，中外不賀，餘依所奏。」"
+        }
+      ],
+      "variants": [
+        {
+          "label": "前一年准出降仪物",
+          "sourceDate": "天福四年八月",
+          "summary": "会要另记中书门下议来年出降仪物、减皇后四马为二马，朝廷准奏；前后奏准不是同一天，未记此时已经成婚。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v002",
+              "paragraphId": "huiyao-v002-p25",
+              "originalRevision": 1,
+              "originalSha256": "5127be45fd2a8d99af80b39030e1028134884df43df4264741813fab2e6fe1b0",
+              "excerpt": "晉天福四年八月，中書門下奏：「據太常禮院定來年長安公主出降儀，太僕寺供厭翟二馬車，殿中省備團方、編扇各十六，行障三座，障三，傘一，大扇一，團大扇二。今車、障、傘、扇是同光元年皇后法物，欲備飾牙仗、厭翟車，后以四馬，今權去二馬。」從之。"
+            }
+          ],
+          "year": 939
+        }
+      ]
+    },
+    {
       "id": "shi-jingtang-abolish-exams",
       "title": "停明经等科",
       "summary": "准张允奏废明经、童子，又停宏词、拔萃、明算、道举、百篇等科。",
       "year": 940,
-      "sortOrder": 55,
+      "sortOrder": 56,
       "precision": "year",
       "sourceDate": "天福五年四月",
       "phase": "rule",
@@ -1492,7 +1590,7 @@
       "title": "发兵平安州",
       "summary": "李金全叛，命马全节领十州兵征讨、安审晖为副、李守贞为都监；六月击败李承裕援军、收安州，所得淮军俘虏先令资给放还。",
       "year": 940,
-      "sortOrder": 56,
+      "sortOrder": 57,
       "precision": "year",
       "sourceDate": "天福五年五月至六月",
       "phase": "rule",
@@ -1518,7 +1616,7 @@
       "title": "范延光之死的记法不同",
       "summary": "先获赐铁券、受帝许诺不食言的范延光，在天福五年死于河阳，朝廷停朝追赠；新史明指杨光远杀之，与旧史仅书卒并列。此条不把杀人施事归给皇帝。",
       "year": 940,
-      "sortOrder": 57,
+      "sortOrder": 58,
       "precision": "month",
       "sourceDate": "天福五年八月己未",
       "phase": "rule",
@@ -1568,7 +1666,7 @@
       "title": "废翰林学士院",
       "summary": "任和凝为中书侍郎、平章事后，废翰林学士院，公务归中书舍人；记录废枢密之后又一次中枢调整。",
       "year": 940,
-      "sortOrder": 58,
+      "sortOrder": 59,
       "precision": "month",
       "sourceDate": "天福五年八月丁卯任和凝、丙子废院",
       "phase": "rule",
@@ -1816,11 +1914,51 @@
       ]
     },
     {
+      "id": "shi-jingtang-posthumous-family-tianfu7",
+      "title": "追封兄弟与诸子",
+      "summary": "天福七年正月，追封敬威、敬德、敬殷，赠敬儒太傅；又加赠重英、重胤、重进，追封虢、郯、夔王，加赠追封重信、重乂。按各传所记同月恩典合叙，不宣称均出同一道诏。",
+      "year": 942,
+      "precision": "month",
+      "sourceDate": "天福七年正月",
+      "phase": "rule",
+      "sortOrder": 68,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p29",
+          "originalRevision": 1,
+          "originalSha256": "0ef953643d38eabd68f41aedc1fbb4546cbe2c7ce69365de62a072de776f52dc",
+          "excerpt": "天福二年正月，贈敬威、敬德皆為太傅，并贈敬殷以檢校太子賓客，亦贈太傅，而不及敬儒。七年正月，追封敬威廣王，敬德福王，敬殷通王，皆贈太尉。敬儒始以故金紫光祿大夫、檢校尚書左僕射兼御史大夫、上柱國贈太傅，而獨不得封。出帝天福八年五月，加贈三皇叔皆為太師，而皇伯敬儒始追封宋王，亦加贈太師。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p37",
+          "originalRevision": 1,
+          "originalSha256": "e32b5e277a04a406f02288038404a3f280026ca519591d012c81328057b9cf56",
+          "excerpt": "高祖李皇后生楚王重信，其諸子皆不知其母。當高祖起太原，重英為右衞大將軍，[4]正月，高祖為二子發哀，皆贈為太保；并贈重進以故左金吾衞將軍贈太保。七年正月，皆加贈太傅，追封重英虢王，重胤郯王，重進夔王。出帝天福八年五月，皆加贈太師。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p39",
+          "originalRevision": 1,
+          "originalSha256": "9514221ca2156d8cbf58f586543423b3dd983d36c5ce0ec46de9cad67fcb30d9",
+          "excerpt": "楚王重信字守孚，為人敏悟多智而好禮。天福二年二月，以左驍衞上將軍拜河陽三城節度使，有善政，高祖下詔褒之。是歲范延光反，詔前靈武節度使張從賓發河陽兵討延光，從賓亦反，重信見殺，時年二十。高祖欲贈重信太尉，大臣引漢故事，皇子無為三公者。高祖曰：「此兒為善被禍，吾哀之甚，自我而已，豈有例邪！」乃贈太尉。七年正月，加贈太師，追封沂王。出帝天福八年五月，易封楚王。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p41",
+          "originalRevision": 1,
+          "originalSha256": "4ab8082a36184022c352761f04c964f56fdc146d73b03d20ae414c4e164012b3",
+          "excerpt": "壽王重乂字弘理，為人好學，頗知兵法。高祖即位，拜左驍衞大將軍。高祖幸汴州，以為東都留守。張從賓反，攻河南，見殺，時年十九，贈太傅。天福七年正月，加贈太尉，追封壽王。出帝天福八年五月，加贈太師。皆無子。"
+        }
+      ]
+    },
+    {
       "id": "shi-jingtang-reclaim-land",
       "title": "许开荒免五年税役",
       "summary": "令邓、唐、随、郢民户方便开垦荒地，免五年差税。",
       "year": 942,
-      "sortOrder": 68,
+      "sortOrder": 69,
       "precision": "day",
       "sourceDate": "天福七年二月丙午",
       "phase": "rule",
@@ -1839,7 +1977,7 @@
       "title": "以军功宽免张彦泽",
       "summary": "郑受益、李涛等论张彦泽虐民、肢解张式，皇帝承认曲法但以军功宽免，只削阶降爵并再授龙武职；为张式家给官、财物归还。",
       "year": 942,
-      "sortOrder": 69,
+      "sortOrder": 70,
       "precision": "year",
       "sourceDate": "天福七年四月己未至辛酉后",
       "phase": "rule",
@@ -1865,7 +2003,7 @@
       "title": "病中简省朝仪",
       "summary": "五月病难视朝，准百官门见门辞、贡物不在殿前排列等简省方案；通鉴把起病联系契丹索吐谷浑而来责。",
       "year": 942,
-      "sortOrder": 70,
+      "sortOrder": 71,
       "precision": "day",
       "sourceDate": "天福七年五月己亥",
       "phase": "later",
@@ -1906,9 +2044,9 @@
     {
       "id": "shi-jingtang-liu-taifeng",
       "title": "尊刘太妃为皇太后",
-      "summary": "尊皇太妃刘氏为皇太后，新史与旧史注都称其为所生母；旧史本纪开篇皇妣写何氏，沿各处所载称谓保留，不擅将刘、何合成一个姓名。",
+      "summary": "尊皇太妃刘氏为皇太后。新史本纪夹注与旧史所引徐无党注称其为所生母，新史家人传与通鉴则称庶母；旧史开篇皇妣写何氏，各处称谓分别保留，不擅将刘、何合为一人。",
       "year": 942,
-      "sortOrder": 71,
+      "sortOrder": 72,
       "precision": "day",
       "sourceDate": "天福七年五月乙巳",
       "phase": "rule",
@@ -1933,7 +2071,24 @@
           "originalRevision": 1,
           "originalSha256": "aa680450e2b47992122f3e8205d4cffdbb61dce4002f42412e4aea8b8d08762a",
           "excerpt": "皇妣何氏，追謚孝元懿皇后。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p3",
+          "originalRevision": 1,
+          "originalSha256": "bd03077b3f0e5b10933b3e4b175af0f0c5c300f7d21cfccccbd92d0b57a19789",
+          "excerpt": "高祖即位，公主當為皇后。天福二年三月，有司言：「皇太妃尊號已正，請上寶冊。」太妃，高祖庶母劉氏也。高祖以宗廟未立，謙抑未皇。七年夏五月，高祖已病，乃詔尊太妃為皇太后，然卒不奉冊而高祖崩，故后訖高祖世亦無冊命。出帝天福八年七月，冊尊皇后為皇太后。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p17",
+          "originalRevision": 1,
+          "originalSha256": "8134b20a898cade94a829e2764016401924f55786b2cc4c2c2e8d9375170f969",
+          "excerpt": "乙巳，尊太妃劉氏為皇太后。太后，帝之庶母也。"
         }
+      ],
+      "notes": [
+        "新史家人传记诏尊之后终未奉册而高祖崩；诏尊与完成宝册礼不是一事。"
       ]
     },
     {
@@ -1941,7 +2096,7 @@
       "title": "临终托幼子之说",
       "summary": "通鉴记病中令重睿拜冯道、抱入其怀，并以“其意盖欲”推测欲冯辅立幼子。保留史家推测，不写成明确遗诏。",
       "year": 942,
-      "sortOrder": 72,
+      "sortOrder": 73,
       "precision": "year",
       "sourceDate": "天福七年临终病中，未记独日",
       "phase": "later",
@@ -1952,6 +2107,13 @@
           "originalRevision": 1,
           "originalSha256": "45ea60b3b97a1f022d95a25c3ed1dcf39372102724bea13f00b3ee056b1cc686",
           "excerpt": "帝寢疾，一旦，馮道獨對。帝命幼子重睿出拜之，又令宦者抱重睿置道懷中，其意蓋欲道輔立之。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p43",
+          "originalRevision": 1,
+          "originalSha256": "77b39be05f20fcabc9e67a289afcebb992ecef73d54a835e6d15369b3cc5c697",
+          "excerpt": "高祖臥疾，宰相馮道入見臥內，重睿尚幼，高祖呼出使拜道於前，因以宦者抱持寘道懷中，高祖雖不言，左右皆知其以重睿託道也。"
         }
       ],
       "variants": [
@@ -1970,6 +2132,9 @@
           ],
           "year": 942
         }
+      ],
+      "notes": [
+        "新史家人传同样明说高祖未言而左右推知其意；不以此消去旧史遗制重贵继位的另一叙法。"
       ]
     },
     {
@@ -1977,7 +2142,7 @@
       "title": "崩于保昌殿",
       "summary": "六月乙丑在邺都保昌殿去世，终年五十一，两史一致。",
       "year": 942,
-      "sortOrder": 73,
+      "sortOrder": 74,
       "precision": "day",
       "sourceDate": "天福七年六月乙丑",
       "phase": "fall",
@@ -2010,7 +2175,7 @@
       "title": "上谥并葬显陵",
       "summary": "八月上圣文章武明德孝皇帝谥、高祖庙号，同年十一月十日葬显陵，由和凝撰谥册哀册。",
       "year": 942,
-      "sortOrder": 74,
+      "sortOrder": 75,
       "precision": "year",
       "sourceDate": "天福七年八月、十一月十日庚寅（已属出帝时）",
       "phase": "posthumous",
@@ -2068,6 +2233,34 @@
               "originalRevision": 1,
               "originalSha256": "578df3297111277de464d9d643779c9831b4b42d44e48f865d303f22228e1803",
               "excerpt": "高祖聖文章武明德孝皇帝，其父臬捩鷄，本出於西夷，自朱邪歸唐，從朱邪入居陰山。其後，晉王李克用起於雲、朔之間，臬捩鷄以善騎射，常從晉王征伐有功，官至洺州刺史。臬捩鷄生敬瑭，其姓石氏，不知得其姓之始也。"
+            }
+          ]
+        },
+        {
+          "label": "新史家人传亲疏未详",
+          "sourceDate": "晋家人传宗室谱次及卷末校注，无独立年",
+          "summary": "家人传列宗室大略，说明敬儒、敬德、敬殷、重胤与高祖亲疏不详，又对敬儒的兄长称谓提出疑问；敬晖校注另存从兄或弟之别。不以作者疑问补出确定世系。",
+          "evidence": [
+            {
+              "chapterId": "new-v17",
+              "paragraphId": "new-v17-p24",
+              "originalRevision": 1,
+              "originalSha256": "94134d6ef1e918ef768e5fb961f61f89deaafa7ba9f2a066680966152797f172",
+              "excerpt": "晉氏始出夷狄而微，終為夷狄所滅，故其宗室次序本末不能究見。其可見者曰：高祖二叔父，一兄六弟，七子二孫，而有略有詳，非惟禍亂多故而失其事實，抑亦無足稱焉者。然粗存其見者，以備其闕云。二叔父曰萬友、萬詮，兄曰敬儒，弟曰敬威、敬德、敬殷、敬贇、敬暉、重胤，子曰重貴、重信、重乂、重英、重進、重睿、重杲，孫曰延煦、延寶。孝平皇帝生孝元皇帝、萬友、萬詮，孝元皇帝生高祖，萬友生敬威、敬贇，萬詮生敬暉，而敬儒、敬德、敬殷、重胤皆不知其於高祖為親疎也。"
+            },
+            {
+              "chapterId": "new-v17",
+              "paragraphId": "new-v17-p25",
+              "originalRevision": 1,
+              "originalSha256": "3058fb80c5e902977b8f23875f716dc88c920b39b219fb02124c2b2dc8992294",
+              "excerpt": "高祖，孝元皇帝第二子也，而敬儒為兄，疑其長子也，則於高祖屬長而親，然贈官反最後於諸弟，而高祖世獨不得追封，此又可疑也。重胤，高祖弟也，亦不知其為親疎，然高祖愛之，養以為子，故於名加「重」而下齒諸子。高祖叔、兄與弟敬殷、子重進，皆前即位卒，而敬威、敬德、重胤、重英，高祖反時死。高祖少子曰馮六，未名而卒，而舊說以重睿為幼子者，非也。"
+            },
+            {
+              "chapterId": "new-v17",
+              "paragraphId": "new-v17-p57",
+              "originalRevision": 1,
+              "originalSha256": "8f50707768f726a6f5003a84f308fb448d4d156107419b803287b90d17ca696f",
+              "excerpt": "↑ 韓王敬暉　薛史卷八七晉宗室傳及冊府卷二九六作「韓王暉」。又薛史稱暉為晉高祖從兄，與此及冊府作弟異。"
             }
           ]
         }
@@ -2302,6 +2495,173 @@
           "originalRevision": 1,
           "originalSha256": "ae3ddfbe20662c6b64e97d17804093e0745779d1c2af917c2e7efa2da3f472c2",
           "excerpt": "重榮起於軍卒，暴至富貴，而見唐廢帝、晉高祖皆自藩侯得國，嘗謂人曰：「天子寧有種邪？兵強馬壯者為之爾！」雖懷異志，而未有以發也。是時，高祖與契丹約為父子，契丹驕甚，高祖奉之愈謹，重榮憤然，以謂「詘中國以尊夷狄，困已敝之民，而充無厭之欲，此晉萬世恥也！」數以此非誚高祖。契丹使者往來過鎮州，重榮箕踞慢駡，不為之禮，或執殺之。是時，吐渾白氏役屬契丹，苦其暴虐，重榮誘之入塞。契丹數遣使責高祖，并求使者，高祖對使者鞠躬俯首，受責愈謹，多為好辭以自解，而姑息重榮不能詰。乃遣供奉官張澄以兵二千搜索并、鎮、忻、代山谷中吐渾，悉驅出塞。吐渾去而復來，重榮卒納之，因招集亡命，課民種稗，食馬萬疋，所為益驕。因怒殺指揮使賈章，誣之以反，章女尚幼，欲捨之，女曰：「吾家三十口皆死於兵，存者特吾與父爾，今父死，吾何忍獨生，願就死！」遂殺之。鎮人於是高賈女之烈，而知重榮之必敗也。重榮既僭侈，以為金魚袋不足貴，刻玉為魚佩之。娶二妻，高祖因之並加封爵。"
+        }
+      ]
+    },
+    {
+      "id": "shi-jingtang-arrange-chonggui-zhang",
+      "title": "为重贵娶张从训女",
+      "summary": "辑补旧史引张从训传，记高祖镇太原时，为少帝娶张从训长女为妃。这里只记安排婚配，不将后来追册张氏的月份用作婚期。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "镇太原时，未独载婚年或婚日",
+      "phase": "uncertain",
+      "sortOrder": 84,
+      "evidence": [
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p5",
+          "originalRevision": 1,
+          "originalSha256": "73a50620b8ca418320afb9e9df31e32fd3f745d94abba3fb76fb36b92cb740ba",
+          "excerpt": "少帝皇后張氏。〈（案《五代會要》：天福八年十月追冊。考薛史《少帝紀》云：追冊故妃張氏為皇后。《張從訓傳》亦云，高祖鎮太原，為少帝娶從訓長女為妃。）〉"
+        }
+      ]
+    },
+    {
+      "id": "shi-jingtang-adopt-chongyin-arrange-feng",
+      "title": "养重胤为子并为娶冯氏",
+      "summary": "新史家人传与辑补旧史记，高祖爱弟重胤，收养为子；留守邺都时又为他娶冯濛女。家人传同时说重胤与高祖亲疏不详，不以弟称替补确定生父母。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "收养年月未载；为婚系留守邺都时",
+      "phase": "uncertain",
+      "sortOrder": 85,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p25",
+          "originalRevision": 1,
+          "originalSha256": "3058fb80c5e902977b8f23875f716dc88c920b39b219fb02124c2b2dc8992294",
+          "excerpt": "重胤，高祖弟也，亦不知其為親疎，然高祖愛之，養以為子，故於名加「重」而下齒諸子。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p22",
+          "originalRevision": 1,
+          "originalSha256": "0cad9b95a8be0d8e29b6f02a3dfe84035b701bff8805d81d08d41cb264d5dd08",
+          "excerpt": "出帝皇后馮氏，定州人也。父濛，為州進奏吏，居京師，以巧佞為安重誨所喜，以為鄴都副留守。高祖留守鄴都，得濛驩甚，乃為重胤娶濛女，後封吳國夫人。重胤早卒，后寡居，有色，出帝悅之。高祖崩，梓宮在殯，出帝居喪中，納之以為后。是日，以六軍仗衞、太常鼓吹，命后至西御莊，見于高祖影殿。羣臣皆賀。帝顧謂馮道等曰：「皇太后之命，與卿等不任大慶。」羣臣出，帝與皇后酣飲歌舞，過梓宮前，酹而告曰：「皇太后之命，與先帝不任大慶。」左右皆失笑，帝亦自絕倒，顧謂左右曰：「我今日作新女壻，何似生？」后與左右皆大笑，聲聞于外。"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "初，高祖愛少弟重胤，養以為子。"
+        }
+      ],
+      "notes": [
+        "这是石氏重胤，不是已有后梁人物李重胤；与石重贵被养是不同对象。"
+      ]
+    },
+    {
+      "id": "shi-jingtang-jingyun-heyang",
+      "title": "任敬赟为河阳节度使",
+      "summary": "新史记高祖天福五年冬拜敬赟河阳三城节度使；此前曾遣人寻得他、补太原牙将，登极后任飞龙皇城使，历迁曹州防御使，前几项未独载任命年月。",
+      "year": null,
+      "precision": "range",
+      "sourceDate": "天福五年冬；此前任用年月未独载",
+      "phase": "uncertain",
+      "sortOrder": 86,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p31",
+          "originalRevision": 1,
+          "originalSha256": "ca5f89d7197df9f63144b26fd8e268241efcc8450fa5192ed4a5340ca60a6261",
+          "excerpt": "敬贇字德和，少無賴，竄身民間。高祖使人求得之，補太原牙將。即位，以為飛龍皇城使，累遷曹州防禦使。天福五年冬，拜河陽三城節度使。"
+        }
+      ],
+      "yearRange": {
+        "start": 940,
+        "end": 941
+      },
+      "notes": [
+        "冬月控制范围跨西历940—941，不以天福五年名义只填940。"
+      ]
+    },
+    {
+      "id": "shi-jingtang-jingyun-assistants",
+      "title": "为敬赟择贤能佐吏",
+      "summary": "敬赟贪暴，高祖为他选择贤能佐吏辅佐，敬赟又畏惧高祖严厉，未敢犯法；后续出帝朝的召还和警告另属出帝。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "高祖时，未独载择吏年月",
+      "phase": "uncertain",
+      "sortOrder": 87,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p32",
+          "originalRevision": 1,
+          "originalSha256": "3cd20e2c7872acddc1b004ad9dc26867b8ba73adb4efd3c329d6fce37e9a9f6c",
+          "excerpt": "敬贇性貪暴，高祖為擇賢佐吏輔之，而敬贇亦憚高祖嚴，未嘗敢犯法。"
+        }
+      ]
+    },
+    {
+      "id": "shi-jingtang-mourn-two-sons",
+      "title": "为两子发哀、追赠重进",
+      "summary": "新史在叙重英于高祖起太原时的官职后，接记正月高祖为两子发哀并赠太保，又追赠重进太保；本句未写该正月的年号年次，不自行补定或校补省文。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "原文正月，年次未独载",
+      "phase": "uncertain",
+      "sortOrder": 88,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p37",
+          "originalRevision": 1,
+          "originalSha256": "e32b5e277a04a406f02288038404a3f280026ca519591d012c81328057b9cf56",
+          "excerpt": "高祖李皇后生楚王重信，其諸子皆不知其母。當高祖起太原，重英為右衞大將軍，[4]正月，高祖為二子發哀，皆贈為太保；并贈重進以故左金吾衞將軍贈太保。七年正月，皆加贈太傅，追封重英虢王，重胤郯王，重進夔王。出帝天福八年五月，皆加贈太師。"
+        }
+      ],
+      "notes": [
+        "此处两子的省称按底本保留，不自行将所有诸子视为同日被杀。"
+      ]
+    },
+    {
+      "id": "shi-jingtang-chongxin-praise-tawei",
+      "title": "褒重信并破例追赠太尉",
+      "summary": "新史记重信任河阳后有善政，高祖下诏褒奖；是岁重信被张从宾杀害，高祖不从皇子不得为三公的旧例，坚持赠为太尉。任官后褒奖与遇害后赠官是先后两事。",
+      "year": null,
+      "precision": "range",
+      "sourceDate": "天福二年二月任河阳之后；是岁遇害后赠太尉",
+      "phase": "uncertain",
+      "sortOrder": 89,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p39",
+          "originalRevision": 1,
+          "originalSha256": "9514221ca2156d8cbf58f586543423b3dd983d36c5ce0ec46de9cad67fcb30d9",
+          "excerpt": "楚王重信字守孚，為人敏悟多智而好禮。天福二年二月，以左驍衞上將軍拜河陽三城節度使，有善政，高祖下詔褒之。是歲范延光反，詔前靈武節度使張從賓發河陽兵討延光，從賓亦反，重信見殺，時年二十。高祖欲贈重信太尉，大臣引漢故事，皇子無為三公者。高祖曰：「此兒為善被禍，吾哀之甚，自我而已，豈有例邪！」乃贈太尉。七年正月，加贈太師，追封沂王。出帝天福八年五月，易封楚王。"
+        }
+      ],
+      "yearRange": {
+        "start": 937,
+        "end": 938
+      },
+      "notes": [
+        "以天福二年完整年界保937—938范围，不凭其父叛乱条的月份替代本段未载的褒赠日。"
+      ]
+    },
+    {
+      "id": "shi-jingtang-chongyi-luoyang-command",
+      "title": "任重乂为东都留守",
+      "summary": "新史记高祖即位后授重乂左骁卫大将军，后来幸汴州时命他为东都留守。授官与留守分前后记，原段未独载这两次任命的年月，不借后来遇害日确定任官日。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "高祖即位后、幸汴州时，未独载年月",
+      "phase": "uncertain",
+      "sortOrder": 90,
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p41",
+          "originalRevision": 1,
+          "originalSha256": "4ab8082a36184022c352761f04c964f56fdc146d73b03d20ae414c4e164012b3",
+          "excerpt": "壽王重乂字弘理，為人好學，頗知兵法。高祖即位，拜左驍衞大將軍。高祖幸汴州，以為東都留守。張從賓反，攻河南，見殺，時年十九，贈太傅。天福七年正月，加贈太尉，追封壽王。出帝天福八年五月，加贈太師。皆無子。"
         }
       ]
     }

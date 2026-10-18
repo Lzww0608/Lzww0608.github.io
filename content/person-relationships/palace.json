@@ -5218,5 +5218,77 @@
         "title": "《资治通鉴》 · 卷 266 · 后梁纪1"
       }
     ]
+  },
+  {
+    "id": "jin-shi-jingtang-taifei-liu-jingtang-maternal-source",
+    "from": "jin-shi-jingtang-taifei-liu",
+    "to": "shi-jingtang",
+    "kind": "kinship",
+    "label": "母子（母称异说）",
+    "note": "新史家人传、通鉴与旧史卒条称庶母，新史本纪夹注及旧史所引徐无党注称所生母。此边仅保各源母称，不断定唯一生母或补她的夫名。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p3",
+        "excerpt": "太妃，高祖庶母劉氏也。",
+        "title": "《新五代史》 · 卷 17 · 晋家人传第五"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p12",
+        "excerpt": "夏五月乙巳，尊皇太妃劉氏為太后。〈高祖所生母也。〉",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八"
+      },
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p17",
+        "excerpt": "乙巳，尊太妃劉氏為皇太后。太后，帝之庶母也。",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4"
+      }
+    ]
+  },
+  {
+    "id": "shi-jingtang-jin-princess-changan-father",
+    "from": "shi-jingtang",
+    "to": "jin-princess-changan",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "高祖皇女身份有据；第二十一女与长女两种排行保源，不补母系。",
+    "sources": [
+      {
+        "chapterId": "old-v076",
+        "paragraphId": "old-v076-p9",
+        "excerpt": "庚午，制封皇第二十一女為長安公主，封皇第十一妹烏氏為壽安長公主，皇第十二妹史氏為永壽長公主，皇第十三妹杜氏為樂平長公主。",
+        "title": "《旧五代史》 · 卷 76 · 晋高祖纪2"
+      },
+      {
+        "chapterId": "old-v079",
+        "paragraphId": "old-v079-p12",
+        "excerpt": "癸丑，長安公主薨，帝之長女也，笄年降於駙馬楊承祚。",
+        "title": "《旧五代史》 · 卷 79 · 晋高祖纪5"
+      }
+    ]
+  },
+  {
+    "id": "jin-princess-changan-yang-chengzuo-spouse",
+    "from": "yang-chengzuo",
+    "to": "jin-princess-changan",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "旧史明载出降杨承祚，通鉴作杨承祚尚帝女。938与940年叙次分列，不造第二婚配或以定婚抹平差异。",
+    "sources": [
+      {
+        "chapterId": "old-v079",
+        "paragraphId": "old-v079-p3",
+        "excerpt": "丁丑，長安公主出降駙馬都尉楊承祚。",
+        "title": "《旧五代史》 · 卷 79 · 晋高祖纪5"
+      },
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p73",
+        "excerpt": "庚申，以其子承祚為左威衛將軍，尚帝女長安公主，次子承信亦拜美官，寵冠當時。",
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2"
+      }
+    ]
   }
 ]

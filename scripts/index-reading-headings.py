@@ -18,9 +18,11 @@ def heading_level(tag, text, book_id):
         return 2
     if tag in {'h2', 'h3', 'h4', 'h5', 'h6'}:
         return int(tag[1])
-    # These two archived books also use explicit textual title markers.
+    # Some archived books also use explicit textual title markers.
     if book_id == 'quewen' and text.startswith('◇') and '\n' not in text:
         return 4
+    if book_id == 'old' and re.fullmatch(r'◎[^\n。！？；]{1,30}', text):
+        return 3
     if book_id == 'tongjian':
         if re.fullmatch(r'資治通鑑\s*第\d+卷', text) or re.match(r'^【後[梁唐晉漢周]紀[^】]+】', text):
             return 2
