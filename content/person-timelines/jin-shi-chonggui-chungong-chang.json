@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-chungong-chang",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-chungong-chang-conferral-tianfu8",
+      "title": "列入七姓共同超封郡夫人",
+      "summary": "内职名册列春宫常氏为姚、常、焦、王、陶、魏、赵七姓成员之一，记七人并超封郡夫人，接天福八年十一月敕；原段未记本人的具体郡号。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "春宫姚氏、常氏、焦氏、王氏、陶氏、魏氏、趙氏等七人，〈並超封郡夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "春宮姚氏、常氏、焦氏、王氏、陶氏、魏氏、趙氏七人並超封郡夫人"
+        }
+      ],
+      "notes": [
+        "本条采用名册所接十一月敕，不把首列李、张条的二日分配给本人。",
+        "旧史转引会要属同源，不另造第二次授封。",
+        "春宫保留原词，不由此补定帝妻妃、皇子配偶、宫职品阶或具体职掌。",
+        "与其他职封同姓角色的自然人同异未由本条证明；分别保存来源称谓，不以同姓强合或反断必异。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-chungong-wu",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-chungong-wu-conferral-tianfu8",
+      "title": "与同条成员并授春宫",
+      "summary": "内职名册记武氏以下十一人并授春宫，接天福八年十一月敕；这里只据具姓领起者记录其受授经历，不补其他成员姓名或具体职掌。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "武氏已下十一人，〈並授春宫。天福八年十一月敕。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "武氏以下十一人並授春宮，天福八年十一月敕"
+        }
+      ],
+      "notes": [
+        "本条采用名册所接十一月敕，不把首列李、张条的二日分配给本人。",
+        "旧史转引会要属同源，不另造第二次授封。",
+        "春宫保留原词，不由此补定帝妻妃、皇子配偶、宫职品阶或具体职掌。",
+        "与其他职封同姓角色的自然人同异未由本条证明；分别保存来源称谓，不以同姓强合或反断必异。",
+        "其余十人未逐名对应，不拆造失名占位；本组与春宫七姓是否重合未详。"
+      ]
+    }
+  ]
+}
