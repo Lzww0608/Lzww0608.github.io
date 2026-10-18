@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-wuwei-shi",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-wuwei-shi-conferral-943",
+      "title": "封武威郡夫人",
+      "summary": "《五代会要》少帝内职名册记番知客、出使夫人石氏封武威郡夫人，名册接天福八年十一月敕。旧史转引写知客，未写番字，两种称谓依底本保存。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "番知客出使夫人石氏，〈封武威郡夫人。〉"
+        }
+      ],
+      "notes": [
+        "出使夫人按原书记称，不由称号推定一次外交出使；当前选定原文未记本名与生卒。",
+        "职封称谓不等于帝婚配；未具名宫人群体及同姓角色仍按原文范围分别保存。",
+        "旧史转引属同源，不另造一次任职或封授。"
+      ],
+      "variants": [
+        {
+          "label": "旧史转引写知客",
+          "year": 943,
+          "sourceDate": "天福八年十一月敕",
+          "summary": "旧史辑补引同一内职名册作知客出使夫人石氏封武威郡夫人，未写番字，保其称谓，不另造出使经历。",
+          "evidence": [
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p6",
+              "originalRevision": 1,
+              "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+              "excerpt": "知客出使夫人石氏封武威郡夫人"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

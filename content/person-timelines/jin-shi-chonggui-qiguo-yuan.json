@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-qiguo-yuan",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-qiguo-yuan-conferral-943",
+      "title": "进封齐国夫人",
+      "summary": "《五代会要》少帝内职名册记河南郡夫人元氏进封齐国夫人，名册接天福八年十一月敕。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "河南郡夫人元氏，〈進封齊國夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "河南郡夫人元氏進封齊國夫人"
+        }
+      ],
+      "notes": [
+        "元氏条未具宫职，不承接上一何氏条补为尚宫；夫人封号不能据此推为帝妻妃。",
+        "职封称谓不等于帝婚配；未具名宫人群体及同姓角色仍按原文范围分别保存。",
+        "旧史转引属同源，不另造一次任职或封授。"
+      ]
+    }
+  ]
+}

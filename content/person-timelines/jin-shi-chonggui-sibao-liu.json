@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-sibao-liu",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-sibao-liu-appointment",
+      "title": "见列为宫廷司宝",
+      "summary": "《五代会要》记彭城郡夫人刘氏与清河郡夫人张氏并为本宫、太后宫司宝，未逐人分宫。旧史辑补引同书作二人并充太后宫司宝，分源保存。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "少帝内职条列司宝，未独载任职年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "清河郡夫人張氏，彭城郡夫人劉氏，〈並本宫、太后宮司寶。〉"
+        }
+      ],
+      "notes": [
+        "本条未独立记任职年月，不沿后条司宾八月敕补年；与其他时代同姓同封号记载的同异未有明确连接。",
+        "职封称谓不等于帝婚配；未具名宫人群体及同姓角色仍按原文范围分别保存。",
+        "旧史转引属同源，不另造一次任职或封授。"
+      ],
+      "variants": [
+        {
+          "label": "旧史转引作并充太后宫司宝",
+          "sourceDate": "任职年月未详",
+          "summary": "旧史辑补引会要写张氏、刘氏并充太后宫司宝；会要当前底本作并本宫、太后宫司宝，不能据列名顺序逐人分宫。",
+          "evidence": [
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p6",
+              "originalRevision": 1,
+              "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+              "excerpt": "清河郡夫人張氏、彭城郡夫人劉氏並充太后宮司寶"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

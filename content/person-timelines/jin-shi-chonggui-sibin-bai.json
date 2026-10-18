@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-sibin-bai",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-sibin-bai-conferral-945",
+      "title": "充皇后宫司宾",
+      "summary": "《五代会要》少帝内职名册记白氏与南阳郡夫人路氏、出使夫人赵氏并充皇后宫司宾，系开运二年八月敕；出使夫人按原条称谓保留。",
+      "year": 945,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "开运二年八月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "南陽郡夫人路氏，出使夫人趙氏、白氏。〈並充皇后宮司賓，開運二年八月敕。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "南陽郡夫人路氏、出使夫人趙氏白氏並充皇后宮司賓，開運二年八月敕。"
+        }
+      ],
+      "notes": [
+        "不由出使夫人称谓推外交使行；当前选定原文未记其本名、生卒、入宫时间或婚配。",
+        "职封称谓不等于帝婚配；未具名宫人群体及同姓角色仍按原文范围分别保存。",
+        "旧史转引属同源，不另造一次任职或封授。"
+      ]
+    }
+  ]
+}

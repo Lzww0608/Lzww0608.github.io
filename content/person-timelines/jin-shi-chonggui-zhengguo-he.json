@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-zhengguo-he",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-zhengguo-he-conferral-943",
+      "title": "进封郑国夫人",
+      "summary": "《五代会要》少帝内职名册记太后宫尚宫、陈留郡夫人何氏进封郑国夫人，名册接天福八年十一月敕。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "太后宫尚宫陳留郡夫人何氏，〈進封鄭國夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "太后宮尚宮陳留郡夫人何氏進封鄭國夫人"
+        }
+      ],
+      "notes": [
+        "太后宫主未独立具名，不据宫名补定太后身份；不由夫人称号推为帝妻妃。",
+        "职封称谓不等于帝婚配；未具名宫人群体及同姓角色仍按原文范围分别保存。",
+        "旧史转引属同源，不另造一次任职或封授。"
+      ]
+    }
+  ]
+}
