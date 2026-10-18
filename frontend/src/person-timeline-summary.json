@@ -1002,7 +1002,7 @@
     },
     {
       "personId": "li-congke",
-      "eventCount": 54,
+      "eventCount": 55,
       "eventIds": [
         "li-congke-birth",
         "li-congke-huliu",
@@ -1041,6 +1041,7 @@
         "li-congke-private-council",
         "li-congke-lead-money",
         "li-congke-shi-transfer",
+        "li-congke-command-congwen-chongmei-marriage",
         "li-congke-taiyuan-siege",
         "li-congke-military-families",
         "li-congke-yedu-rebellion",
@@ -1371,7 +1372,7 @@
     },
     {
       "personId": "li-siyuan",
-      "eventCount": 101,
+      "eventCount": 103,
       "eventIds": [
         "li-siyuan-birth",
         "li-siyuan-shangyuan",
@@ -1473,7 +1474,9 @@
         "li-siyuan-liu-empress",
         "li-siyuan-warehouse-surcharge",
         "li-siyuan-an-chonghui-daughter-marriage-proposal",
-        "li-siyuan-command-wang-nurture-congyi"
+        "li-siyuan-command-wang-nurture-congyi",
+        "li-siyuan-ask-fan-cavalry-cost",
+        "li-siyuan-reward-ma-yanchao-son"
       ]
     },
     {
@@ -2100,7 +2103,7 @@
     },
     {
       "personId": "liu-zhiyuan",
-      "eventCount": 39,
+      "eventCount": 40,
       "eventIds": [
         "liu-zhiyuan-birth",
         "liu-zhiyuan-desheng-rescue",
@@ -2140,7 +2143,8 @@
         "liu-zhiyuan-death",
         "liu-zhiyuan-burial",
         "liu-zhiyuan-transfer-shi",
-        "liu-zhiyuan-same-edict-dispute"
+        "liu-zhiyuan-same-edict-dispute",
+        "liu-zhiyuan-honor-yang-guangyuan"
       ]
     },
     {
@@ -2463,7 +2467,7 @@
     },
     {
       "personId": "shi-chonggui",
-      "eventCount": 51,
+      "eventCount": 52,
       "eventIds": [
         "shi-chonggui-birth",
         "shi-chonggui-taiyuan-defense",
@@ -2515,7 +2519,8 @@
         "shi-chonggui-li-empress-died",
         "shi-chonggui-adoption",
         "shi-chonggui-alive-xiande",
-        "shi-chonggui-death-north"
+        "shi-chonggui-death-north",
+        "shi-chonggui-blank-edicts-ancongjin"
       ]
     },
     {
@@ -2542,7 +2547,7 @@
     },
     {
       "personId": "shi-jingtang",
-      "eventCount": 80,
+      "eventCount": 83,
       "eventIds": [
         "shi-jingtang-birth",
         "shi-jingtang-qingping-rescue",
@@ -2623,7 +2628,10 @@
         "shi-jingtang-wushishan",
         "shi-jingtang-hulutao",
         "shi-jingtang-tianxiong-litigation",
-        "shi-jingtang-criminal-decisions"
+        "shi-jingtang-criminal-decisions",
+        "shi-jingtang-fan-linqing-title",
+        "shi-jingtang-pardon-li-yanxun",
+        "shi-jingtang-enfeoff-an-chongrong-wives"
       ]
     },
     {
@@ -2785,6 +2793,13 @@
       "eventCount": 1,
       "eventIds": [
         "tang-li-chongjun-sister-case-record"
+      ]
+    },
+    {
+      "personId": "tang-li-chongmei-consort-fan-unnamed",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-chongmei-consort-fan-unnamed-marriage"
       ]
     },
     {
@@ -4342,7 +4357,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 147,
+      "eventCount": 148,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -4490,7 +4505,8 @@
         "zhu-wen-bin-surrender",
         "zhu-wen-he-empress-killed",
         "zhu-wen-changlu-withdraw",
-        "zhu-wen-shengping"
+        "zhu-wen-shengping",
+        "zhu-wen-adopt-li-rang"
       ]
     },
     {

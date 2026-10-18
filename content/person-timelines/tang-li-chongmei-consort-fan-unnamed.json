@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "tang-li-chongmei-consort-fan-unnamed",
+  "events": [
+    {
+      "id": "tang-li-chongmei-consort-fan-unnamed-marriage",
+      "title": "与重美结亲，新史记为其妃",
+      "summary": "旧史记雍王重美与范延光结亲，诏令兖王从温主持。新史范延光传明称其女为重美妃；具体婚礼程序与礼成日未载。",
+      "year": 936,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "清泰三年五月丙申；新史另明记为重美妃",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v048",
+          "paragraphId": "old-v048-p5",
+          "originalRevision": 1,
+          "originalSha256": "2b79f2c59009e53e8c838d5466e0740ec684f90900d0658656e204e13600589e",
+          "excerpt": "丙申，以雍王重美與汴州節度使範延光結婚，詔兗王從溫主之。"
+        },
+        {
+          "chapterId": "old-v048",
+          "paragraphId": "old-v048-p1",
+          "originalRevision": 1,
+          "originalSha256": "0eb69c18b167e454a7823684bd68415a016d570c9e207ddb833dcfd1a06eccf7",
+          "excerpt": "清泰三年春正月辛卯朔，帝御文明殿受朝賀，仗衛如式。"
+        },
+        {
+          "chapterId": "new-v51",
+          "paragraphId": "new-v51-p21",
+          "originalRevision": 1,
+          "originalSha256": "6a876d73a19fcd3dc38f321b494b5b99228e1d974fc78fbe28982196ab6609d9",
+          "excerpt": "當晉高祖起太原，末帝遣延光以兵二萬屯遼州，與趙延壽掎角。既而延壽先降，延光獨不降。高祖即位，延光賀表又頗後諸侯至，又其女為末帝子重美妃，以此遂懷反側。高祖封延光臨清王以慰其心。"
+        }
+      ],
+      "notes": [
+        "旧史同卷年首仅供清泰三年年序定位；原书记五月丙申，历核所属西历936年。此日所记为结亲与诏主婚，不补婚礼礼成日。",
+        "后期记载按清泰叙事使用，不推女方年龄。"
+      ]
+    }
+  ]
+}

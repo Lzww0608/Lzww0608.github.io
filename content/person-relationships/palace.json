@@ -5104,5 +5104,41 @@
         "title": "《新五代史》 · 卷 15 · 唐明宗家人传第三"
       }
     ]
+  },
+  {
+    "id": "tang-li-chongmei-consort-fan-unnamed-father",
+    "to": "tang-li-chongmei-consort-fan-unnamed",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "新史在范延光传中称“其女”为重美妃；不补女子本名或母系。",
+    "sources": [
+      {
+        "chapterId": "new-v51",
+        "paragraphId": "new-v51-p21",
+        "originalRevision": 1,
+        "originalSha256": "6a876d73a19fcd3dc38f321b494b5b99228e1d974fc78fbe28982196ab6609d9",
+        "excerpt": "當晉高祖起太原，末帝遣延光以兵二萬屯遼州，與趙延壽掎角。既而延壽先降，延光獨不降。高祖即位，延光賀表又頗後諸侯至，又其女為末帝子重美妃，以此遂懷反側。高祖封延光臨清王以慰其心。",
+        "title": "《新五代史》 · 卷 51 · 杂传第三十九"
+      }
+    ],
+    "from": "fan-yanguang"
+  },
+  {
+    "id": "tang-li-chongmei-consort-fan-unnamed-chongmei-spouse",
+    "to": "tang-li-chongmei-consort-fan-unnamed",
+    "kind": "kinship",
+    "label": "夫妻（据新史重美妃）",
+    "note": "新史明称为重美妃，旧史另记两家结亲。具体婚礼程序与女方后续未载，不从夫亡推妻亡。",
+    "sources": [
+      {
+        "chapterId": "new-v51",
+        "paragraphId": "new-v51-p21",
+        "originalRevision": 1,
+        "originalSha256": "6a876d73a19fcd3dc38f321b494b5b99228e1d974fc78fbe28982196ab6609d9",
+        "excerpt": "當晉高祖起太原，末帝遣延光以兵二萬屯遼州，與趙延壽掎角。既而延壽先降，延光獨不降。高祖即位，延光賀表又頗後諸侯至，又其女為末帝子重美妃，以此遂懷反側。高祖封延光臨清王以慰其心。",
+        "title": "《新五代史》 · 卷 51 · 杂传第三十九"
+      }
+    ],
+    "from": "li-chongmei-congke-son"
   }
 ]

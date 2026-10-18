@@ -13,6 +13,7 @@ archive = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(archive)
 
 TANG_HOUSEHOLD_FIXTURES = {
+    'new-v51': (1727238, 57, 8801, 'c17555e997ad9b5d32c7d41a3d5c490d6b0010977dcae16da63352fe6000bc69', 'ea0d734dbc70f444b8550ef185e7fc34bb203b6b42b033207b72e5e39f913e35'),
     'old-v091': (2100871, 32, 6696, 'b35b6cb2497fd16f633b15d58d12cee57a9a8a240f6a1fe67edcb481b5c160b7', 'dae9b04f3a3d8facbb45e4cb6e0e847ea5e330ccd5d5cced9404d1aece278032'),
     'new-v39': (1721611, 54, 8718, '6629ae11baeb05043ff31a160b8aeb6db440a99581acb9f81394a78ffe3fdc3f', '9699023d15e83f7ccbf0bd85cc5593202276b3ffba77f6f9576fa098cb3a2a20'),
     'old-v049': (2186155, 31, 4667, '11a5d1ccba2d368c7d7696b62ef7b642a410d21942d70ad1dab79d8b8152d413', '623d2cf874ccc02cb9011fb96e86b642c8f96327d13a312775c807dfcb1b8f39'),
@@ -27,7 +28,7 @@ class SourceIntegrityTests(unittest.TestCase):
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
         self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 91)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 37)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 38)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in TANG_HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]
