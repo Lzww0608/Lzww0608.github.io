@@ -1242,6 +1242,22 @@
     {
       "id": "jin-princess-changan",
       "name": "长安公主"
+    },
+    {
+      "id": "jin-shi-jingtang-ancestress-qin",
+      "name": "秦氏（晋孝安元皇后）"
+    },
+    {
+      "id": "jin-shi-jingtang-ancestress-an",
+      "name": "安氏（晋孝简恭皇后）"
+    },
+    {
+      "id": "jin-shi-jingtang-ancestress-mi-lai",
+      "name": "米氏／来氏（晋孝平献皇后）"
+    },
+    {
+      "id": "jin-shi-jingtang-mother-he",
+      "name": "何氏（晋孝元懿皇后）"
     }
   ],
   "passages": [
@@ -4962,6 +4978,10 @@
         {
           "personId": "ma-xifan",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-mother-he",
+          "kind": "record"
         }
       ]
     },
@@ -5369,6 +5389,34 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v001-p25",
+      "chapterId": "huiyao-v001",
+      "title": "卷 1 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v001-p25",
+          "originalRevision": 1,
+          "originalSha256": "df1ae9c52e68325a299d1748d6b8adbd3153c611a7c92e35b9cf2bded08b4644",
+          "start": 0,
+          "end": 195
+        }
+      ],
+      "people": [
+        {
+          "personId": "jin-shi-jingtang-ancestress-qin",
+          "kind": "mention"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-an",
+          "kind": "mention"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-mi-lai",
           "kind": "mention"
         }
       ]
@@ -26822,6 +26870,22 @@
         {
           "personId": "shi-jingtang",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-qin",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-mi-lai",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-mother-he",
+          "kind": "record"
         }
       ]
     },
@@ -87633,6 +87697,22 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-qin",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-ancestress-mi-lai",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-jingtang-mother-he",
           "kind": "record"
         }
       ]

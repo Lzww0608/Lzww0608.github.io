@@ -27,8 +27,8 @@ class SourceIntegrityTests(unittest.TestCase):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 91)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 38)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 92)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 39)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in TANG_HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]

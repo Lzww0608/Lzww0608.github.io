@@ -5290,5 +5290,117 @@
         "title": "《资治通鉴》 · 卷 281 · 后晋纪2"
       }
     ]
+  },
+  {
+    "id": "jin-shi-jingtang-ancestress-qin-jingtang-kinship",
+    "from": "jin-shi-jingtang-ancestress-qin",
+    "to": "shi-jingtang",
+    "kind": "kinship",
+    "label": "高祖母与玄孙",
+    "note": "按两史高祖妣的具体祖位及会要母称保存亲属关系。秦氏与高祖璟的祖位据本纪保存；会要将孝简皇帝写作彬，旧、新史作郴，原字分别保留。 与后唐文景皇后秦氏分别辨认，不能仅据同姓合并。",
+    "sources": [
+      {
+        "chapterId": "old-v075",
+        "paragraphId": "old-v075-p1",
+        "excerpt": "祖妣秦氏，追謚為孝安元皇后。",
+        "title": "《旧五代史》 · 卷 75 · 晋高祖纪1"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p7",
+        "excerpt": "丁丑，追尊祖考為皇帝，妣為皇后：高祖璟謚曰孝安，廟號靖祖，祖妣秦氏謚曰孝安元；曾祖郴謚曰孝簡，廟號肅祖，祖妣安氏謚曰孝簡恭；祖昱謚曰孝平，廟號睿祖，祖妣來氏謚曰孝平獻；考紹雍謚曰孝元，廟號獻祖，妣何氏謚曰孝元懿。",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p25",
+        "excerpt": "肅祖孝簡皇帝諱彬，〈孝安皇帝長子，母曰元皇后秦氏。〉",
+        "title": "《五代会要》 · 卷 1"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-jingtang-ancestress-an-jingtang-kinship",
+    "from": "jin-shi-jingtang-ancestress-an",
+    "to": "shi-jingtang",
+    "kind": "kinship",
+    "label": "曾祖母与曾孙",
+    "note": "按两史曾祖妣的具体祖位及会要母称保存亲属关系。对应肃祖的姓名，旧、新史作郴，会要作彬；不为统一世系改写原字。 与后晋出帝生母安太妃分开，不据同姓、太妃或皇后称谓合人。",
+    "sources": [
+      {
+        "chapterId": "old-v075",
+        "paragraphId": "old-v075-p1",
+        "excerpt": "祖妣安氏，追謚孝簡恭皇后。",
+        "title": "《旧五代史》 · 卷 75 · 晋高祖纪1"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p7",
+        "excerpt": "丁丑，追尊祖考為皇帝，妣為皇后：高祖璟謚曰孝安，廟號靖祖，祖妣秦氏謚曰孝安元；曾祖郴謚曰孝簡，廟號肅祖，祖妣安氏謚曰孝簡恭；祖昱謚曰孝平，廟號睿祖，祖妣來氏謚曰孝平獻；考紹雍謚曰孝元，廟號獻祖，妣何氏謚曰孝元懿。",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p25",
+        "excerpt": "睿祖孝平皇帝諱昱，〈孝簡皇帝長子母，曰恭皇后安氏。〉",
+        "title": "《五代会要》 · 卷 1"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-jingtang-ancestress-mi-lai-jingtang-kinship",
+    "from": "jin-shi-jingtang-ancestress-mi-lai",
+    "to": "shi-jingtang",
+    "kind": "kinship",
+    "label": "祖母与孙",
+    "note": "按两史祖妣的具体祖位及会要母称保存亲属关系。同祖位同后号按来源角色归并展示姓氏异文，不将米、来擅改成唯一姓氏，也不凭字形另造两个人。 旧史祖名翌，新史、会要作昱；会要称绍雍之母为献皇后来氏，不将该母系扩给所有宗室。",
+    "sources": [
+      {
+        "chapterId": "old-v075",
+        "paragraphId": "old-v075-p1",
+        "excerpt": "祖妣米氏，追謚孝平獻皇后。",
+        "title": "《旧五代史》 · 卷 75 · 晋高祖纪1"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p7",
+        "excerpt": "丁丑，追尊祖考為皇帝，妣為皇后：高祖璟謚曰孝安，廟號靖祖，祖妣秦氏謚曰孝安元；曾祖郴謚曰孝簡，廟號肅祖，祖妣安氏謚曰孝簡恭；祖昱謚曰孝平，廟號睿祖，祖妣來氏謚曰孝平獻；考紹雍謚曰孝元，廟號獻祖，妣何氏謚曰孝元懿。",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p25",
+        "excerpt": "憲祖孝元皇帝諱紹雍，〈孝平皇帝長子，母曰獻皇后來氏。〉",
+        "title": "《五代会要》 · 卷 1"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-jingtang-mother-he-jingtang-kinship",
+    "from": "jin-shi-jingtang-mother-he",
+    "to": "shi-jingtang",
+    "kind": "kinship",
+    "label": "母子（史称皇妣）",
+    "note": "按两史皇妣的具体祖位及会要母称保存亲属关系。皇妣、妣及会要的母称按原书保存，不额外补定生母、嫡母或其他名分。 刘太妃在新史家人传、通鉴作庶母，本纪夹注则作所生母；这些母称分源保留，不把何、刘合并或以一称取消另一称。 绍雍的庙号旧史、会要作宪祖，新史作献祖；不能只据相同庙号合并其他朝代人物。",
+    "sources": [
+      {
+        "chapterId": "old-v075",
+        "paragraphId": "old-v075-p1",
+        "excerpt": "皇妣何氏，追謚孝元懿皇后。",
+        "title": "《旧五代史》 · 卷 75 · 晋高祖纪1"
+      },
+      {
+        "chapterId": "new-v08",
+        "paragraphId": "new-v08-p7",
+        "excerpt": "丁丑，追尊祖考為皇帝，妣為皇后：高祖璟謚曰孝安，廟號靖祖，祖妣秦氏謚曰孝安元；曾祖郴謚曰孝簡，廟號肅祖，祖妣安氏謚曰孝簡恭；祖昱謚曰孝平，廟號睿祖，祖妣來氏謚曰孝平獻；考紹雍謚曰孝元，廟號獻祖，妣何氏謚曰孝元懿。",
+        "title": "《新五代史》 · 卷 8 · 晋本纪第八"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p8",
+        "excerpt": "〈追冊孝元皇帝第二子，母追冊懿皇后何氏。〉",
+        "title": "《五代会要》 · 卷 1"
+      }
+    ]
   }
 ]
