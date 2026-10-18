@@ -31,7 +31,7 @@ test('the people index includes all fourteen reigning Five Dynasties emperors an
   }
   assert.ok(emperorPeople.every(person => events.some(event => event.id === person.event && event.dynasty === person.dynasty)));
   assert.equal(people.some(person => person.name === '刘赟'), false, 'a nominated successor who never acceded is not a reigning emperor');
-  assert.deepEqual(filterSearch('刘赟', 'person'), []);
+  assert.ok(filterSearch('刘赟', 'person').every(result => !emperorIds.includes(result.id)), 'related household records do not make the nominated successor a reigning emperor');
   assert.deepEqual(filterSearch('赵匡胤', 'person'), []);
   assert.equal(events.some(event => event.dynasty === '宋'), false);
 });
