@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-yanxu-mother-ding",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-yanxu-mother-ding-taken-by-zhang-yanzhe",
+      "title": "被张彦泽强取",
+      "summary": "张彦泽遣人索取丁氏；李太后迟回未交，张彦泽辱骂后将她载走。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "开运三年十二月叙次；本段未独载日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v285",
+          "paragraphId": "tongjian-v285-p77",
+          "originalRevision": 1,
+          "originalSha256": "ac48cc4f24576e3e2b3c8cf0b5c6cb235b356e4d5d1a66b505006c12437fb74f",
+          "excerpt": "楚國夫人丁氏，延煦之母也，有美色。彥澤使人取之，太后遲回未與。彥澤詬詈，立載之去。"
+        },
+        {
+          "chapterId": "tongjian-v285",
+          "paragraphId": "tongjian-v285-p27",
+          "originalRevision": 1,
+          "originalSha256": "be2edc46c681a0a94bd09cb1d5f8b52087890cb3f6d2adf0e396ab420aedc9a4",
+          "excerpt": "齊王下開運三年（丙午，公元九四六年）"
+        },
+        {
+          "chapterId": "tongjian-v285",
+          "paragraphId": "tongjian-v285-p66",
+          "originalRevision": 1,
+          "originalSha256": "64cedb7531057df0089417d5136222af243841a14e3f2c89e6f7126fb32a732b",
+          "excerpt": "十二月，丁巳朔，李穀自書密奏，具言大軍危急之勢，請車駕幸滑州，遣高行周、符彥卿扈從，及發兵守澶州、河陽以備虜之奔沖；遣軍將關勳走馬上之。"
+        }
+      ],
+      "notes": [
+        "同卷年/月题只用于定位叙次，不算三书互证。",
+        "开运三年十二月跨946—947年；不把相邻迁开封府的甲戌日赋给丁氏。",
+        "被载走不写成婚或获免，不补后续结局。"
+      ],
+      "yearRange": {
+        "start": 946,
+        "end": 947
+      }
+    }
+  ]
+}

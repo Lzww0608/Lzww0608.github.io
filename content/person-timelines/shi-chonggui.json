@@ -783,11 +783,40 @@
       ]
     },
     {
+      "id": "shi-chonggui-confers-jiaxing-yongtai-943",
+      "title": "封嘉兴、永泰长公主",
+      "summary": "天福八年十月庚戌，封皇第十一妹为嘉兴长公主，第十二妹为永泰长公主；两位同诏，不分造两次帝王封授。",
+      "year": 943,
+      "sortOrder": 19,
+      "precision": "month",
+      "sourceDate": "天福八年十月庚戌",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p4",
+          "originalRevision": 1,
+          "originalSha256": "9941dc021fc1a464800fc53b71597649f043e695a1d17f9366dbb64a73287f49",
+          "excerpt": "庚戌，封皇第十一妹為嘉興長公主，第十二妹為永泰長公主。"
+        },
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p1",
+          "originalRevision": 1,
+          "originalSha256": "076727b157dbcf0778becc1582d99b06c2e1074d63803eefd86dad5eaacb4e2d",
+          "excerpt": "天福八年秋七月丁丑朔，京師雨水深三尺。"
+        }
+      ],
+      "notes": [
+        "亲属称谓按本段，不推生父母或并高祖同排行妹；年/月题为同卷定位。"
+      ]
+    },
+    {
       "id": "shi-chonggui-yang-revolt",
       "title": "防杨光远叛乱加驻郓州",
       "summary": "十二月初一派蔡行遇屯郓州，并派供奉官、殿直沿河分区巡检，以防杨光远谋叛；随后淄州奏其已反叛、占淄州，不能将后续报告都当作派兵当日。",
       "year": 943,
-      "sortOrder": 19,
+      "sortOrder": 20,
       "precision": "day",
       "sourceDate": "天福八年十二月乙巳朔",
       "phase": "rule",
@@ -1779,6 +1808,21 @@
               "excerpt": "有禪奴利者，契丹主之妻兄也，聞晉主有女未嫁，詣晉主求之，晉主辭以幼。後數日，契丹主使人馳取其女而去，以賜禪奴。"
             }
           ]
+        },
+        {
+          "label": "新史五月叙次与禅奴称名",
+          "year": 948,
+          "sourceDate": "承前明年四月，五月上陉及取女叙次",
+          "summary": "新史记永康王妻兄禅奴求帝小女，帝辞尚幼，随后遣骑取赐。上陉和取女接五月，不用它倒改旧史先四月接见再叙数日后的字样。",
+          "evidence": [
+            {
+              "chapterId": "new-v17",
+              "paragraphId": "new-v17-p15",
+              "originalRevision": 1,
+              "originalSha256": "4d08761c327f2882a9383a1aa61a737f7951c1200d8f1c2f9c7a7c2dfce7dae0",
+              "excerpt": "永康王妻兄禪奴愛帝小女，求之，帝辭以尚幼。永康王馳一騎取之，以賜禪奴。"
+            }
+          ]
         }
       ]
     },
@@ -2138,6 +2182,39 @@
       "notes": [
         "辱路航的施事是宦者；任镇宁只作为后续叙次上界，不把其职并给郑州任命。"
       ]
+    },
+    {
+      "id": "shi-chonggui-zhao-nie-taken",
+      "title": "宠姬赵、聂被取而悲愤",
+      "summary": "旧史记赵氏、聂氏被遣骑取走后，帝不胜悲愤；取人经过与帝的反应分开，不给两位女子补心理或后续结局。",
+      "year": null,
+      "sortOrder": 59,
+      "precision": "range",
+      "sourceDate": "乾祐二年“是岁／顷之”，未独载月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p11",
+          "originalRevision": 1,
+          "originalSha256": "ce4ad8ce048153042f4fbca71ae5976fa86f2897bf7e974244c65d2fa2438834",
+          "excerpt": "是歲，述律王子遣契丹數騎詣帝，取內人趙氏、聶氏疾馳而去。趙、聶者，帝之寵姬也，及其被奪，不勝悲憤。"
+        },
+        {
+          "chapterId": "tongjian-v288",
+          "paragraphId": "tongjian-v288-p83",
+          "originalRevision": 1,
+          "originalSha256": "6d9ccf297e417ef39f334149e7cf6e1f0e77bbbf276cd3cbac006a56762e668e",
+          "excerpt": "頃之，述律王遣騎取晉主寵姬趙氏、聶氏而去。述律王者，契丹主德光之子也。"
+        }
+      ],
+      "notes": [
+        "两位被取是同一段经过，不按人物数为帝分造两次事件；全年跨949—950年。"
+      ],
+      "yearRange": {
+        "start": 949,
+        "end": 950
+      }
     }
   ]
 }

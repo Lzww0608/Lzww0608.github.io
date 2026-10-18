@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-young-daughter",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-young-daughter-taken-and-given-948",
+      "title": "年幼时被取去赐人",
+      "summary": "帝以年幼推辞求女，后来幼女仍被遣骑带走，赐予对象依各书分别记载。",
+      "year": 948,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "乾祐元年四月接见后；新史五月叙次",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p10",
+          "originalRevision": 1,
+          "originalSha256": "0231f20dc649d58822e9df90412c9758b89380e034c9e7e566a39076fc9de505",
+          "excerpt": "有禪奴舍利者，即永康之妻兄也，知帝有小公主在室，詣帝求之，帝辭以年幼不可。又有東西班數輩善於歌唱，禪奴又請之，帝乃與之。後數日，永康王馳取帝幼女而去，以賜綽諾錫裏。"
+        }
+      ],
+      "notes": [
+        "求取、帝推辞与后来被取是同一段经过，不另造婚礼、女方意见或确日。",
+        "未记她的生母，不因失名或幼女称谓断定与其他公主的自然人同异。"
+      ],
+      "variants": [
+        {
+          "label": "新史五月叙次与禅奴称名",
+          "year": 948,
+          "sourceDate": "承前明年四月，五月上陉及取女叙次",
+          "summary": "新史记永康王妻兄禅奴求帝小女，帝辞尚幼，随后遣骑取赐。上陉和取女接五月，不用它倒改旧史先四月接见再叙数日后的字样。",
+          "evidence": [
+            {
+              "chapterId": "new-v17",
+              "paragraphId": "new-v17-p15",
+              "originalRevision": 1,
+              "originalSha256": "4d08761c327f2882a9383a1aa61a737f7951c1200d8f1c2f9c7a7c2dfce7dae0",
+              "excerpt": "永康王妻兄禪奴愛帝小女，求之，帝辭以尚幼。永康王馳一騎取之，以賜禪奴。"
+            }
+          ]
+        },
+        {
+          "label": "通鉴称禅奴利求女、赐禅奴",
+          "year": 948,
+          "sourceDate": "乾祐元年四月叙次，后数日取女",
+          "summary": "通鉴求取者作禅奴利，末称赐禅奴；旧史末称绰诺锡里，各书字样保留，不以译名相近合并人物。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v288",
+              "paragraphId": "tongjian-v288-p23",
+              "originalRevision": 1,
+              "originalSha256": "abbb58708ac910606af3211dc3249e46fd7b7d2b478ff14252d1ec75f248319a",
+              "excerpt": "契丹主如遼陽，故晉主與太后、皇后皆謁見。有禪奴利者，契丹主之妻兄也，聞晉主有女未嫁，詣晉主求之，晉主辭以幼。後數日，契丹主使人馳取其女而去，以賜禪奴。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

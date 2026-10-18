@@ -5736,5 +5736,117 @@
         "title": "旧五代史 · 卷 91 · 晋书列传六"
       }
     ]
+  },
+  {
+    "id": "shi-chonggui-jiaxing-sister",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-sister-jiaxing",
+    "kind": "kinship",
+    "label": "兄妹亲属（史称第十一妹）",
+    "note": "少帝纪称皇第十一妹，关系按本段称谓保存；不补生父母或与高祖同排行妹合人。",
+    "sources": [
+      {
+        "chapterId": "old-v082",
+        "paragraphId": "old-v082-p4",
+        "excerpt": "庚戌，封皇第十一妹為嘉興長公主，第十二妹為永泰長公主。",
+        "title": "旧五代史 · 卷 82 · 晋少帝纪2"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-yongtai-sister",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-sister-yongtai",
+    "kind": "kinship",
+    "label": "兄妹亲属（史称第十二妹）",
+    "note": "少帝纪称皇第十二妹，关系按本段称谓保存；不补生父母或与高祖同排行妹合人。",
+    "sources": [
+      {
+        "chapterId": "old-v082",
+        "paragraphId": "old-v082-p4",
+        "excerpt": "庚戌，封皇第十一妹為嘉興長公主，第十二妹為永泰長公主。",
+        "title": "旧五代史 · 卷 82 · 晋少帝纪2"
+      }
+    ]
+  },
+  {
+    "id": "ding-shi-yanxu-birth-mother",
+    "from": "jin-shi-chonggui-yanxu-mother-ding",
+    "to": "shi-yanxu",
+    "kind": "kinship",
+    "label": "母子（生母）",
+    "note": "通鉴称丁氏为延煦之母；新史另记出帝以延煦为子，生母与养亲分别保存，不补其生父。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v285",
+        "paragraphId": "tongjian-v285-p77",
+        "excerpt": "楚國夫人丁氏，延煦之母也，有美色。",
+        "title": "资治通鉴 · 卷 285 · 后晋纪6"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-young-daughter",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-young-daughter",
+    "kind": "kinship",
+    "label": "父女（史称幼女）",
+    "note": "原书称晋主小公主、幼女；不由称谓补生母、年龄数值或婚礼。",
+    "sources": [
+      {
+        "chapterId": "old-v085",
+        "paragraphId": "old-v085-p10",
+        "excerpt": "知帝有小公主在室，詣帝求之，帝辭以年幼不可。",
+        "title": "旧五代史 · 卷 85 · 晋少帝纪5"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-favorite-zhao",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-favorite-zhao",
+    "kind": "kinship",
+    "label": "宠姬（原书记称）",
+    "note": "原书明称帝之宠姬；不升补妃阶、正妻婚礼或母系。",
+    "sources": [
+      {
+        "chapterId": "old-v085",
+        "paragraphId": "old-v085-p11",
+        "excerpt": "趙、聶者，帝之寵姬也，及其被奪，不勝悲憤。",
+        "title": "旧五代史 · 卷 85 · 晋少帝纪5"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-favorite-nie",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-favorite-nie",
+    "kind": "kinship",
+    "label": "宠姬（原书记称）",
+    "note": "原书明称帝之宠姬；不升补妃阶、正妻婚礼或母系。",
+    "sources": [
+      {
+        "chapterId": "old-v085",
+        "paragraphId": "old-v085-p11",
+        "excerpt": "趙、聶者，帝之寵姬也，及其被奪，不勝悲憤。",
+        "title": "旧五代史 · 卷 85 · 晋少帝纪5"
+      }
+    ]
+  },
+  {
+    "id": "shi-chonggui-shi-yanxu-adoption",
+    "from": "shi-chonggui",
+    "to": "shi-yanxu",
+    "kind": "adoption",
+    "label": "养父子",
+    "note": "新史明确出帝以延煦为子；丁氏生母关系另存，不由收养补生父或收养年月。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p47",
+        "excerpt": "延煦、延寶，高祖諸孫也，出帝以為子。",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
   }
 ]

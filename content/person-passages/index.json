@@ -1302,6 +1302,30 @@
     {
       "id": "jin-shi-chonggui-empress-feng",
       "name": "冯皇后（晋少帝后）"
+    },
+    {
+      "id": "jin-shi-chonggui-sister-jiaxing",
+      "name": "嘉兴长公主（晋少帝妹）"
+    },
+    {
+      "id": "jin-shi-chonggui-sister-yongtai",
+      "name": "永泰长公主（晋少帝妹）"
+    },
+    {
+      "id": "jin-shi-chonggui-yanxu-mother-ding",
+      "name": "楚国夫人丁氏（延煦生母）"
+    },
+    {
+      "id": "jin-shi-chonggui-young-daughter",
+      "name": "幼女（晋少帝女，失名）"
+    },
+    {
+      "id": "jin-shi-chonggui-favorite-zhao",
+      "name": "宠姬赵氏（晋少帝）"
+    },
+    {
+      "id": "jin-shi-chonggui-favorite-nie",
+      "name": "宠姬聂氏（晋少帝）"
     }
   ],
   "passages": [
@@ -32165,6 +32189,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-young-daughter",
           "kind": "record"
         }
       ]
@@ -91030,6 +91058,14 @@
         {
           "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-sister-jiaxing",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-sister-yongtai",
+          "kind": "record"
         }
       ]
     },
@@ -92298,6 +92334,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-young-daughter",
+          "kind": "record"
         }
       ]
     },
@@ -92321,6 +92361,14 @@
         },
         {
           "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-favorite-zhao",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-favorite-nie",
           "kind": "record"
         }
       ]
@@ -136026,6 +136074,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-yanxu-mother-ding",
+          "kind": "record"
         }
       ]
     },
@@ -138658,6 +138710,10 @@
         {
           "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-young-daughter",
+          "kind": "record"
         }
       ]
     },
@@ -139221,6 +139277,14 @@
         },
         {
           "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-favorite-zhao",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-favorite-nie",
           "kind": "record"
         }
       ]

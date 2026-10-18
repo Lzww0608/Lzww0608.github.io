@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-favorite-nie",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-favorite-nie-taken-by-khitan-riders",
+      "title": "被契丹遣骑取走",
+      "summary": "晋主迁建州后，聂氏与另一位具姓宠姬被契丹骑兵取走。旧史称“述律王子”，通鉴称“述律王”并说明其为德光子，称谓按书保留。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "乾祐二年“是岁”；通鉴“顷之”，未独记月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p11",
+          "originalRevision": 1,
+          "originalSha256": "ce4ad8ce048153042f4fbca71ae5976fa86f2897bf7e974244c65d2fa2438834",
+          "excerpt": "是歲，述律王子遣契丹數騎詣帝，取內人趙氏、聶氏疾馳而去。趙、聶者，帝之寵姬也，及其被奪，不勝悲憤。"
+        },
+        {
+          "chapterId": "tongjian-v288",
+          "paragraphId": "tongjian-v288-p83",
+          "originalRevision": 1,
+          "originalSha256": "6d9ccf297e417ef39f334149e7cf6e1f0e77bbbf276cd3cbac006a56762e668e",
+          "excerpt": "頃之，述律王遣騎取晉主寵姬趙氏、聶氏而去。述律王者，契丹主德光之子也。"
+        }
+      ],
+      "notes": [
+        "乾祐二年全年跨949—950年；“是岁／顷之”不借前文安太妃赴建州二月给取人事件。",
+        "旧史的悲愤是帝的反应，不转为女方原话或行为；未载取人后经历。"
+      ],
+      "yearRange": {
+        "start": 949,
+        "end": 950
+      }
+    }
+  ]
+}

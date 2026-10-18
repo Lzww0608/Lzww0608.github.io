@@ -156,7 +156,13 @@
     "jin-gaozu-sister-leping-du",
     "jin-shi-chonggui-mother-an",
     "jin-shi-chonggui-consort-zhang",
-    "jin-shi-chonggui-empress-feng"
+    "jin-shi-chonggui-empress-feng",
+    "jin-shi-chonggui-sister-jiaxing",
+    "jin-shi-chonggui-sister-yongtai",
+    "jin-shi-chonggui-yanxu-mother-ding",
+    "jin-shi-chonggui-young-daughter",
+    "jin-shi-chonggui-favorite-zhao",
+    "jin-shi-chonggui-favorite-nie"
   ],
   "people": [
     {
@@ -5119,6 +5125,164 @@
         {
           "title": "资治通鉴 · 卷 289 · 后汉纪4",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7289&oldid=1769444"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-sister-jiaxing",
+      "name": "嘉兴长公主（晋少帝妹）",
+      "dynasty": "后晋",
+      "role": "史称晋少帝皇第十一妹；嘉兴长公主",
+      "periodLabel": "后晋少帝朝史载",
+      "intro": "《旧五代史》少帝纪记，天福八年十月，皇第十一妹受封嘉兴长公主。当前选定原文未记其本名、父母、婚配与生卒。",
+      "sourceNotes": [
+        "按本段“皇第十一妹”的称谓辨认，不凭相同排行与晋高祖诸妹合并。",
+        "受封长公主是明确封授，封号不作本名；未据此补生父母或后续经历。"
+      ],
+      "aliases": "嘉兴长公主（晋少帝妹） 嘉興長公主（晉少帝妹） 晋少帝第十一妹嘉兴长公主 晉少帝第十一妹嘉興長公主",
+      "readingStarts": {
+        "old": "old-v082"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 82 · 晋少帝纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B782&oldid=512999"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-sister-yongtai",
+      "name": "永泰长公主（晋少帝妹）",
+      "dynasty": "后晋",
+      "role": "史称晋少帝皇第十二妹；永泰长公主",
+      "periodLabel": "后晋少帝朝史载",
+      "intro": "《旧五代史》少帝纪记，天福八年十月，皇第十二妹受封永泰长公主。当前选定原文未记其本名、父母、婚配与生卒。",
+      "sourceNotes": [
+        "按本段“皇第十二妹”的称谓辨认，不凭相同排行与晋高祖诸妹合并。",
+        "与嘉兴同诏受封，不由封授或并列称谓补母系、婚家或命运。"
+      ],
+      "aliases": "永泰长公主（晋少帝妹） 永泰長公主（晉少帝妹） 晋少帝第十二妹永泰长公主 晉少帝第十二妹永泰長公主",
+      "readingStarts": {
+        "old": "old-v082"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 82 · 晋少帝纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B782&oldid=512999"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-yanxu-mother-ding",
+      "name": "楚国夫人丁氏（延煦生母）",
+      "dynasty": "后晋",
+      "role": "延煦生母；史称楚国夫人",
+      "periodLabel": "后晋末年史载",
+      "intro": "《资治通鉴》称楚国夫人丁氏为延煦之母。张彦泽遣人索取她，李太后迟回未交，丁氏最终仍被载走。",
+      "sourceNotes": [
+        "当前选定原文未载本名、封楚国夫人的年月及后续结局。",
+        "新史记延煦是晋高祖孙、被出帝收为子；这项收养不证明丁氏是出帝配偶，也不证明她是延宝生母。",
+        "被载走不等于成婚；李太后迟回未交也不等于丁氏获免。",
+        "取人经过接在开运三年十二月叙次下；该月跨946—947年，不把相邻甲戌日当作她的独立日期。"
+      ],
+      "aliases": "楚国夫人丁氏（延煦生母） 楚國夫人丁氏（延煦生母） 晋延煦生母丁氏 晉延煦生母丁氏",
+      "readingStarts": {
+        "tongjian": "tongjian-v285"
+      },
+      "sources": [
+        {
+          "title": "资治通鉴 · 卷 285 · 后晋纪6",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7285&oldid=2554328"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-young-daughter",
+      "name": "幼女（晋少帝女，失名）",
+      "dynasty": "后晋",
+      "role": "史称晋少帝幼女；北迁后被取去赐人",
+      "periodLabel": "后晋少帝朝及北迁后史载",
+      "intro": "诸书记晋少帝北迁后，幼女先被求取，帝以其年幼推辞；后来仍被遣骑取去赐人。当前选定原文未记她的本名、生母、年龄数值或其后经历。",
+      "sourceNotes": [
+        "“帝辞以幼”是父亲的回答，不写成女方拒婚或同意。",
+        "旧史先称禅奴舍利求女，后称赐绰诺锡里；新史及通鉴以禅奴等字样叙述。各书求取者、受赐者称名分别保留，不强合身份。",
+        "旧史先记乾祐元年四月接见，继叙数日后取女；新史把上陉与取女接五月，通鉴接四月叙次，不补唯一确日。",
+        "被取赐是遭遇，不据此补婚礼完成、妃号、母系或死生，也不凭失名称谓断定与其他皇族女的自然人同异。"
+      ],
+      "aliases": "幼女（晋少帝女，失名） 幼女（晉少帝女，失名） 晋少帝失名幼女 晉少帝失名幼女 石重贵失名幼女 石重貴失名幼女",
+      "readingStarts": {
+        "old": "old-v085",
+        "new": "new-v17",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 85 · 晋少帝纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B785&oldid=1142876"
+        },
+        {
+          "title": "新五代史 · 卷 17 · 晋家人传第五",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B717&oldid=1699172"
+        },
+        {
+          "title": "资治通鉴 · 卷 288 · 后汉纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7288&oldid=1769130"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-favorite-zhao",
+      "name": "宠姬赵氏（晋少帝）",
+      "dynasty": "后晋",
+      "role": "史称晋少帝宠姬赵氏",
+      "periodLabel": "后晋少帝朝及北迁后史载",
+      "intro": "旧史与通鉴记晋少帝迁建州后，宠姬赵氏与聂氏被契丹遣骑取走。当前选定原文未记她的本名、妃阶、生育或被取后的结局。",
+      "sourceNotes": [
+        "赵、聂按原书所列二姓分源保存，不与赵在礼女、内职赵氏或帝幼女合人。",
+        "旧史“不胜悲愤”的主语是帝，不移为赵氏本人的心情或行动。",
+        "旧史作“是岁”，通鉴作“顷之”，均未独记取人月日；乾祐二年全年跨949—950年，不挪用前文二月给她。"
+      ],
+      "aliases": "宠姬赵氏（晋少帝） 寵姬趙氏（晉少帝） 晋少帝宠姬赵氏 晉少帝寵姬趙氏",
+      "readingStarts": {
+        "old": "old-v085",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 85 · 晋少帝纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B785&oldid=1142876"
+        },
+        {
+          "title": "资治通鉴 · 卷 288 · 后汉纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7288&oldid=1769130"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-favorite-nie",
+      "name": "宠姬聂氏（晋少帝）",
+      "dynasty": "后晋",
+      "role": "史称晋少帝宠姬聂氏",
+      "periodLabel": "后晋少帝朝及北迁后史载",
+      "intro": "旧史与通鉴记晋少帝迁建州后，宠姬聂氏与赵氏被契丹遣骑取走。当前选定原文未记她的本名、妃阶、生育或被取后的结局。",
+      "sourceNotes": [
+        "按原书聂氏称谓辨认，不因同段与赵氏合为一人，不补名号或母系。",
+        "帝的悲愤与契丹遣骑取人，分别依各自主语记载，不补聂氏自愿、反抗或后续死生。",
+        "取人仅系乾祐二年“是岁／顷之”叙次，全年跨949—950年，未记独立月日。"
+      ],
+      "aliases": "宠姬聂氏（晋少帝） 寵姬聶氏（晉少帝） 晋少帝宠姬聂氏 晉少帝寵姬聶氏",
+      "readingStarts": {
+        "old": "old-v085",
+        "tongjian": "tongjian-v288"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 85 · 晋少帝纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B785&oldid=1142876"
+        },
+        {
+          "title": "资治通鉴 · 卷 288 · 后汉纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7288&oldid=1769130"
         }
       ]
     }
