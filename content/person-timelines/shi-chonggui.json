@@ -812,11 +812,52 @@
       ]
     },
     {
+      "id": "shi-chonggui-inner-office-conferrals-tianfu8",
+      "title": "敕封内职诸夫人及本县君",
+      "summary": "会要少帝内职名册记张氏封春宫夫人并充皇后宫尚宫，吴氏进燕国夫人、崔氏进梁国夫人、赵氏封卫国夫人、孟氏封汧国夫人，齐氏、郭氏、贾氏并封本县君。各职封分别保存，未名群体不拆造。",
+      "year": 943,
+      "sortOrder": 20,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕；张氏另系十一月二日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "張氏，〈封春宮夫人，充皇后宫尚宫。並天福八年十一月二日敕。〉前左御正齊國夫人吳氏，〈進封燕國夫人。〉書省魏國夫人崔氏，〈進封梁國夫人。〉前右御正天水郡夫人趙氏，〈封衛國夫人。〉司簿孟氏，〈封汧國夫人。〉前司簿李氏，〈封隴西郡夫人。〉弟子院使齊氏、大使郭氏、副使賈氏，〈並封本縣君。〉"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史引会要张氏日期作十二月二日",
+          "year": 943,
+          "sourceDate": "天福八年十二月二日敕；其后名册接十一月敕",
+          "summary": "旧史辑补转引同一内职资料，张氏封春宫夫人及尚宫条日期作十二月二日；其后名册仍接十一月敕，不将首条日分给全部内职，也不造另一轮封授。",
+          "evidence": [
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p6",
+              "originalRevision": 1,
+              "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+              "excerpt": "少帝寶省李氏封隴西郡夫人；張氏封春宮夫人，充皇后宮尚宮，並天福八年十二月二日敕。前左禦正齊國夫人吳氏進封燕國夫人，書省魏國夫人崔氏進封梁國夫人，前右禦正天水郡夫人趙氏封衛國夫人，司簿孟氏封汧國夫人，前司簿李氏封隴西郡夫人，弟子院使齊氏、大使郭氏、副使賈氏並封本縣君，太后宮尚宮陳留郡夫人何氏進封鄭國夫人，河南郡夫人元氏進封齊國夫人，知客出使夫人石氏封武威郡夫人，春宮姚氏、常氏、焦氏、王氏、陶氏、魏氏、趙氏七人並超封郡夫人，寶省婉美趙氏封天水郡夫人，武氏以下十一人並授春宮，天福八年十一月敕。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "本事件整理名册有据的敕封动作，不将所有夫人当妻妃。",
+        "张氏两本月次分源；其余所列只取名册敕月，不推二日。",
+        "旧史转引不作独立复证；李氏同号同异及未名群体仍按来源保留。"
+      ]
+    },
+    {
       "id": "shi-chonggui-yang-revolt",
       "title": "防杨光远叛乱加驻郓州",
       "summary": "十二月初一派蔡行遇屯郓州，并派供奉官、殿直沿河分区巡检，以防杨光远谋叛；随后淄州奏其已反叛、占淄州，不能将后续报告都当作派兵当日。",
       "year": 943,
-      "sortOrder": 20,
+      "sortOrder": 21,
       "precision": "day",
       "sourceDate": "天福八年十二月乙巳朔",
       "phase": "rule",
@@ -852,6 +893,37 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "id": "shi-chonggui-wu-inner-office-group-conferral-944",
+      "title": "封吴氏等为郡国夫人",
+      "summary": "旧史本纪记前左御正、齐国夫人吴氏以下二十一人并封郡国夫人，两宫知客夫人等亦如之。只吴氏有姓、前职及旧封号可闭合，其余不逐一分配到会要名册；本纪未单列燕国新号。",
+      "year": 944,
+      "sortOrder": 18,
+      "precision": "day",
+      "sourceDate": "天福八年十二月庚戌",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p6",
+          "originalRevision": 1,
+          "originalSha256": "62fe199894d079aa2472319fa292ba6162509ff415ac31b57ea5ad83edad90ef",
+          "excerpt": "庚戌，前左禦正齊國夫人吳氏巳降二十一人，並封郡國夫人，太后宮、皇后宮知客夫人等亦如之。"
+        },
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p1",
+          "originalRevision": 1,
+          "originalSha256": "076727b157dbcf0778becc1582d99b06c2e1074d63803eefd86dad5eaacb4e2d",
+          "excerpt": "天福八年秋七月丁丑朔"
+        }
+      ],
+      "notes": [
+        "此日已跨944年，保天福八年原纪年，不将本月乙巳朔所属943年套给庚戌。",
+        "本纪十二月与会要十一月叙次分别呈现，不强定二者为同日或两轮不同封授。",
+        "两宫知客夫人等为群体，未据此认定其具体姓名或妻妃身份。"
       ]
     },
     {

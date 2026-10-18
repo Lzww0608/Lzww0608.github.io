@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-yanguo-wu",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-yanguo-wu-conferral-943",
+      "title": "由齐国夫人进封燕国夫人",
+      "summary": "《五代会要》记前左御正、齐国夫人吴氏进封燕国夫人；旧史本纪另记她与未名群体同封郡国夫人，年月与称号各按来源保存。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕叙次，未另载日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "前左御正齊國夫人吳氏，〈進封燕國夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "前左禦正齊國夫人吳氏進封燕國夫人"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本纪十二月庚戌郡国夫人群封",
+          "year": 944,
+          "sourceDate": "天福八年十二月庚戌",
+          "summary": "旧史本纪记前左御正、齐国夫人吴氏以下二十一人并封郡国夫人，两宫知客夫人亦如之；本段未单记燕国新号，未名群体不分派给其余已列女性。与会要十一月叙次分源，不据此强定为同日或两次不同封授。",
+          "evidence": [
+            {
+              "chapterId": "old-v082",
+              "paragraphId": "old-v082-p6",
+              "originalRevision": 1,
+              "originalSha256": "62fe199894d079aa2472319fa292ba6162509ff415ac31b57ea5ad83edad90ef",
+              "excerpt": "庚戌，前左禦正齊國夫人吳氏巳降二十一人，並封郡國夫人，太后宮、皇后宮知客夫人等亦如之。"
+            },
+            {
+              "chapterId": "old-v082",
+              "paragraphId": "old-v082-p1",
+              "originalRevision": 1,
+              "originalSha256": "076727b157dbcf0778becc1582d99b06c2e1074d63803eefd86dad5eaacb4e2d",
+              "excerpt": "天福八年秋七月丁丑朔"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "会要名单末接天福八年十一月敕，不借首两人的二日作本条封日。",
+        "本纪庚戌实际在944年，不能套用十二月朔所属943年；不改原书记年。",
+        "此事是职封或封授，不由夫人、县君称号推为皇帝妻妃；旧史引书不另算一次封授。"
+      ]
+    }
+  ]
+}

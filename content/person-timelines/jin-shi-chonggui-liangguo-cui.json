@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-liangguo-cui",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-liangguo-cui-conferral-943",
+      "title": "由魏国夫人进封梁国夫人",
+      "summary": "《五代会要》在少帝内职中记书省、魏国夫人崔氏进封梁国夫人，接天福八年十一月敕的名册叙次。书省按底本称谓保留。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕叙次，未另载日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "書省魏國夫人崔氏，〈進封梁國夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "書省魏國夫人崔氏進封梁國夫人"
+        }
+      ],
+      "notes": [
+        "会要名单末接天福八年十一月敕，不借首两人的二日作本条封日。",
+        "此事是职封或封授，不由夫人、县君称号推为皇帝妻妃；旧史引书不另算一次封授。"
+      ]
+    }
+  ]
+}

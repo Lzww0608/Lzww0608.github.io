@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-qianguo-meng",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-qianguo-meng-conferral-943",
+      "title": "以司簿封汧国夫人",
+      "summary": "《五代会要》在少帝内职中记司簿孟氏封汧国夫人，接天福八年十一月敕的名册叙次。汧国封号与司簿职称分别保留。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福八年十一月敕叙次，未另载日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "司簿孟氏，〈封汧國夫人。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "司簿孟氏封汧國夫人"
+        }
+      ],
+      "notes": [
+        "会要名单末接天福八年十一月敕，不借首两人的二日作本条封日。",
+        "此事是职封或封授，不由夫人、县君称号推为皇帝妻妃；旧史引书不另算一次封授。"
+      ]
+    }
+  ]
+}

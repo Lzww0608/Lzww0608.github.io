@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-chungong-zhang",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-chungong-zhang-conferral-943",
+      "title": "封春宫夫人并充皇后宫尚宫",
+      "summary": "《五代会要》记张氏封春宫夫人、充皇后宫尚宫，系天福八年十一月二日敕。旧史辑补引会要作十二月二日，月次分源保留。",
+      "year": 943,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "天福八年十一月二日敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p52",
+          "originalRevision": 1,
+          "originalSha256": "352aa4396ad5c9d8bbbb34ecd76ec6ff481d9f7aa8c0b7c2acc0df77a68eca5a",
+          "excerpt": "張氏，〈封春宮夫人，充皇后宫尚宫。並天福八年十一月二日敕。〉"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史转引会要作十二月二日",
+          "year": 943,
+          "sourceDate": "天福八年十二月二日敕",
+          "summary": "旧史辑补引会要记张氏封春宫夫人、充皇后宫尚宫，日期作十二月二日；会要当前底本作十一月二日，各按原书，不造两次授职。",
+          "evidence": [
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p6",
+              "originalRevision": 1,
+              "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+              "excerpt": "張氏封春宮夫人，充皇后宮尚宮，並天福八年十二月二日敕。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "会要十一月二日与旧史转引十二月二日均在943年，月次分源，不补唯一西历日。",
+        "此事是职封或封授，不由夫人、县君称号推为皇帝妻妃；旧史引书不另算一次封授。"
+      ]
+    }
+  ]
+}
