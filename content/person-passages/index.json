@@ -1278,6 +1278,18 @@
     {
       "id": "jin-xianzhu-yongqing",
       "name": "永庆县主（后晋）"
+    },
+    {
+      "id": "jin-gaozu-sister-shouan-wu",
+      "name": "寿安长公主（晋高祖妹，乌氏）"
+    },
+    {
+      "id": "jin-gaozu-sister-yongshou-shi",
+      "name": "永寿长公主（晋高祖妹，史氏）"
+    },
+    {
+      "id": "jin-gaozu-sister-leping-du",
+      "name": "乐平长公主（晋高祖妹，杜氏）"
     }
   ],
   "passages": [
@@ -88690,6 +88702,18 @@
         {
           "personId": "jin-princess-changan",
           "kind": "record"
+        },
+        {
+          "personId": "jin-gaozu-sister-shouan-wu",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-gaozu-sister-yongshou-shi",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-gaozu-sister-leping-du",
+          "kind": "record"
         }
       ]
     },
@@ -88986,6 +89010,10 @@
         {
           "personId": "shi-jingtang",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-gaozu-sister-yongshou-shi",
+          "kind": "record"
         }
       ]
     },
@@ -90589,6 +90617,14 @@
         },
         {
           "personId": "jin-princess-changan",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-gaozu-sister-shouan-wu",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-gaozu-sister-yongshou-shi",
           "kind": "record"
         }
       ]
@@ -129753,6 +129789,26 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v281-p32",
+      "chapterId": "tongjian-v281",
+      "title": "卷 281 · 后晋纪2 · 第 32 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v281-p32",
+          "originalRevision": 1,
+          "originalSha256": "93b7742275e46aa5b508d44b10070f8eb9f76941073465968ba6b85624dd8ce1",
+          "start": 0,
+          "end": 283
+        }
+      ],
+      "people": [
+        {
+          "personId": "jin-gaozu-sister-leping-du",
           "kind": "record"
         }
       ]

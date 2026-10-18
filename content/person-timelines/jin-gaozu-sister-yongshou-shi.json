@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-gaozu-sister-yongshou-shi",
+  "events": [
+    {
+      "id": "jin-gaozu-sister-yongshou-shi-shou-feng-937",
+      "title": "封永寿长公主",
+      "summary": "天福二年五月，晋高祖制封皇妹，封永寿长公主。只记原文明载的封授，不据排行补定生母或年龄。",
+      "year": 937,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天福二年五月庚午",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p9",
+          "originalRevision": 1,
+          "originalSha256": "7340b8aed8d8f39c1b76d2e8ad76e7136c749006c0ed8843c5dbf824e10c553a",
+          "excerpt": "皇第十二妹史氏為永壽長公主"
+        },
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p4",
+          "originalRevision": 1,
+          "originalSha256": "d514aaf3f60002ceba4a324f1172a6cab73ffa322a09b0702c1be87473665816",
+          "excerpt": "天福二年春正月甲寅朔"
+        }
+      ],
+      "notes": [
+        "原书五月及干支照录；仅采用有据年份937，不补公历月日。",
+        "同段的长安公主及其他皇妹各按其主语保留。"
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-yongshou-shi-death-938",
+      "title": "永寿长公主薨",
+      "summary": "天福三年三月，永寿长公主薨，朝廷辍朝一日；不据后来的追封倒填死亡日期。",
+      "year": 938,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天福三年三月甲戌",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v077",
+          "paragraphId": "old-v077-p3",
+          "originalRevision": 1,
+          "originalSha256": "73b7850e07dfe185e8862dccfaafe6db57c382077affe240a2b872b254d515d1",
+          "excerpt": "甲戌，永壽長公主薨，輟朝一日。"
+        },
+        {
+          "chapterId": "old-v077",
+          "paragraphId": "old-v077-p1",
+          "originalRevision": 1,
+          "originalSha256": "caf7fd3ad46a574a195449458eeeee00c1b8b86c45b8a25f45d76c25b28894d3",
+          "excerpt": "天福三年正月戊申朔"
+        }
+      ],
+      "notes": [
+        "死亡记载主语是永寿长公主，不移用另见鲁国史氏的卒年。",
+        "保原书三月甲戌，仅定有据年份938，不补公历确日。"
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-yongshou-shi-qi-posthumous-title-942",
+      "title": "追封岐国大长公主",
+      "summary": "少帝天福七年九月，已故永寿长公主被追封为岐国大长公主。追封另记，不作生前晋封。",
+      "year": 942,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "天福七年九月己亥",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p5",
+          "originalRevision": 1,
+          "originalSha256": "76a073b00673339d92c57d09a638dbb9c8c46cc7646b834538fb463506c3540d",
+          "excerpt": "己亥，追封故秦國長公主為梁國長公主，故永壽長公主為岐國大長公主，故延慶長公主為邠國大長公主。"
+        }
+      ],
+      "notes": [
+        "同命还追封故秦国、故延庆公主，其经历不归本条。"
+      ]
+    }
+  ]
+}

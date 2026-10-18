@@ -5512,5 +5512,69 @@
         "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
       }
     ]
+  },
+  {
+    "id": "jin-gaozu-sister-shouan-wu-shi-jingtang-siblings",
+    "from": "shi-jingtang",
+    "to": "jin-gaozu-sister-shouan-wu",
+    "kind": "kinship",
+    "label": "兄妹亲属（史称皇妹）",
+    "note": "旧史同句称晋高祖第十一妹；只记这一有据兄妹关系，不据排行补出生年、具体生父母或同母关系。",
+    "sources": [
+      {
+        "chapterId": "old-v076",
+        "paragraphId": "old-v076-p9",
+        "excerpt": "封皇第十一妹烏氏為壽安長公主",
+        "title": "旧五代史 · 卷 76 · 晋高祖纪2"
+      }
+    ]
+  },
+  {
+    "id": "jin-gaozu-sister-yongshou-shi-shi-jingtang-siblings",
+    "from": "shi-jingtang",
+    "to": "jin-gaozu-sister-yongshou-shi",
+    "kind": "kinship",
+    "label": "兄妹亲属（史称皇妹）",
+    "note": "旧史同句称晋高祖第十二妹；只记这一有据兄妹关系，不据排行补出生年、具体生父母或同母关系。",
+    "sources": [
+      {
+        "chapterId": "old-v076",
+        "paragraphId": "old-v076-p9",
+        "excerpt": "皇第十二妹史氏為永壽長公主",
+        "title": "旧五代史 · 卷 76 · 晋高祖纪2"
+      }
+    ]
+  },
+  {
+    "id": "jin-gaozu-sister-leping-du-shi-jingtang-siblings",
+    "from": "shi-jingtang",
+    "to": "jin-gaozu-sister-leping-du",
+    "kind": "kinship",
+    "label": "兄妹亲属（史称皇妹）",
+    "note": "旧史同句称晋高祖第十三妹；只记这一有据兄妹关系，不据排行补出生年、具体生父母或同母关系。",
+    "sources": [
+      {
+        "chapterId": "old-v076",
+        "paragraphId": "old-v076-p9",
+        "excerpt": "皇第十三妹杜氏為樂平長公主",
+        "title": "旧五代史 · 卷 76 · 晋高祖纪2"
+      }
+    ]
+  },
+  {
+    "id": "jin-gaozu-sister-leping-du-du-chongwei-spouse",
+    "from": "du-chongwei",
+    "to": "jin-gaozu-sister-leping-du",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "通鉴明确杜重威尚晋高祖妹乐平长公主；不据所附军职记载推定婚日，不把晚出的宋国称号自动合并。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p32",
+        "excerpt": "重威，朔州人也，尚帝妹樂平長公主。",
+        "title": "资治通鉴 · 卷 281 · 后晋纪2"
+      }
+    ]
   }
 ]

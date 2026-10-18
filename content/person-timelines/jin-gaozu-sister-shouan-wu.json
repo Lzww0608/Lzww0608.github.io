@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-gaozu-sister-shouan-wu",
+  "events": [
+    {
+      "id": "jin-gaozu-sister-shouan-wu-shou-feng-937",
+      "title": "封寿安长公主",
+      "summary": "天福二年五月，晋高祖制封皇妹，封寿安长公主。只记原文明载的封授，不据排行补定生母或年龄。",
+      "year": 937,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天福二年五月庚午",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p9",
+          "originalRevision": 1,
+          "originalSha256": "7340b8aed8d8f39c1b76d2e8ad76e7136c749006c0ed8843c5dbf824e10c553a",
+          "excerpt": "封皇第十一妹烏氏為壽安長公主"
+        },
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p4",
+          "originalRevision": 1,
+          "originalSha256": "d514aaf3f60002ceba4a324f1172a6cab73ffa322a09b0702c1be87473665816",
+          "excerpt": "天福二年春正月甲寅朔"
+        }
+      ],
+      "notes": [
+        "原书五月及干支照录；仅采用有据年份937，不补公历月日。",
+        "同段的长安公主及其他皇妹各按其主语保留。"
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-shouan-wu-wei-promotion-942",
+      "title": "进封卫国大长公主",
+      "summary": "少帝天福七年九月，寿安长公主乌氏进封卫国大长公主。此时石敬瑭已崩，进封属于石重贵在位时的封授。",
+      "year": 942,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天福七年九月癸巳",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p5",
+          "originalRevision": 1,
+          "originalSha256": "76a073b00673339d92c57d09a638dbb9c8c46cc7646b834538fb463506c3540d",
+          "excerpt": "壽安長公主烏氏進封衛國大長公主"
+        }
+      ],
+      "notes": [
+        "仅记“寿安长公主乌氏”这一称谓链；不以卫国同封号归并清平公主。",
+        "保原书记月与干支，不换算未知公历确日。"
+      ]
+    }
+  ]
+}

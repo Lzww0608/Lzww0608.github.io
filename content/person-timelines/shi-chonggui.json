@@ -387,11 +387,55 @@
       ]
     },
     {
+      "id": "shi-chonggui-shouan-wei-title-942",
+      "title": "进封寿安乌氏为卫国大长公主",
+      "summary": "天福七年九月，寿安长公主乌氏进封卫国大长公主。此项是少帝在位时对高祖皇妹的进封，保留旧史具体称谓。",
+      "year": 942,
+      "sortOrder": 11,
+      "precision": "year",
+      "sourceDate": "天福七年九月癸巳",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p5",
+          "originalRevision": 1,
+          "originalSha256": "76a073b00673339d92c57d09a638dbb9c8c46cc7646b834538fb463506c3540d",
+          "excerpt": "壽安長公主烏氏進封衛國大長公主"
+        }
+      ],
+      "notes": [
+        "同条的乐平史氏进鲁国、郑国杜氏进宋国分别保留，不据同一敕命强合本批身份。"
+      ]
+    },
+    {
+      "id": "shi-chonggui-yongshou-qi-posthumous-942",
+      "title": "追封故永寿为岐国大长公主",
+      "summary": "天福七年九月，追封已故永寿长公主为岐国大长公主。与生前进封寿安乌氏分为不同事项，不把追封当作死亡时间。",
+      "year": 942,
+      "sortOrder": 12,
+      "precision": "year",
+      "sourceDate": "天福七年九月己亥",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p5",
+          "originalRevision": 1,
+          "originalSha256": "76a073b00673339d92c57d09a638dbb9c8c46cc7646b834538fb463506c3540d",
+          "excerpt": "己亥，追封故秦國長公主為梁國長公主，故永壽長公主為岐國大長公主，故延慶長公主為邠國大長公主。"
+        }
+      ],
+      "notes": [
+        "原命同时追封故秦国、故延庆公主；本事件只补本次明确选定的永寿追封，不改既有人物履历。"
+      ]
+    },
+    {
       "id": "shi-chonggui-bury-gaozu",
       "title": "葬高祖显陵",
       "summary": "十一月葬高祖于显陵，并把神主祔入太庙。",
       "year": 942,
-      "sortOrder": 11,
+      "sortOrder": 13,
       "precision": "month",
       "sourceDate": "天福七年十一月庚寅、庚子",
       "phase": "rule",

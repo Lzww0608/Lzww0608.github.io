@@ -150,7 +150,10 @@
     "jin-xianzhu-gaoping",
     "jin-xianzhu-xinping",
     "jin-xianzhu-qiancheng",
-    "jin-xianzhu-yongqing"
+    "jin-xianzhu-yongqing",
+    "jin-gaozu-sister-shouan-wu",
+    "jin-gaozu-sister-yongshou-shi",
+    "jin-gaozu-sister-leping-du"
   ],
   "people": [
     {
@@ -4896,6 +4899,96 @@
         {
           "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B786&oldid=1567203"
+        }
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-shouan-wu",
+      "name": "寿安长公主（晋高祖妹，乌氏）",
+      "dynasty": "后晋",
+      "role": "晋高祖妹；寿安长公主，后进卫国大长公主",
+      "periodLabel": "后晋天福年间史载",
+      "intro": "《旧五代史》记为晋高祖第十一妹乌氏，天福二年封寿安长公主，少帝天福七年进封卫国大长公主。当前选定原文未记其本名、生母或婚配。",
+      "sourceNotes": [
+        "“乌氏”按底本称谓保留，不补定为生姓，也不补未知丈夫或父母。",
+        "进封依据是“寿安长公主乌氏”这一明确称谓；不因另一处清平公主也进卫国而合并身份。",
+        "《通鉴》另见帝姑乌氏公主诀别自经，未再写寿安或卫国封号，是否本条人物仍待考，不据此确定本条结局。"
+      ],
+      "aliases": "寿安长公主（晋高祖妹，乌氏） 壽安長公主（晉高祖妹，烏氏） 晋高祖妹寿安长公主乌氏 晉高祖妹壽安長公主烏氏 晋高祖妹卫国大长公主乌氏 晉高祖妹衛國大長公主烏氏",
+      "readingStarts": {
+        "old": "old-v076"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 76 · 晋高祖纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B776&oldid=2604147"
+        },
+        {
+          "title": "旧五代史 · 卷 81 · 晋少帝纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B781&oldid=512998"
+        },
+        {
+          "title": "资治通鉴 · 卷 285 · 后晋纪6",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7285&oldid=2554328"
+        }
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-yongshou-shi",
+      "name": "永寿长公主（晋高祖妹，史氏）",
+      "dynasty": "后晋",
+      "role": "晋高祖妹；永寿长公主，身后追封岐国大长公主",
+      "periodLabel": "后晋天福年间史载",
+      "intro": "《旧五代史》记为晋高祖第十二妹史氏，天福二年封永寿长公主，三年薨，七年追封岐国大长公主。当前选定原文未记其本名、生母或婚配。",
+      "sourceNotes": [
+        "“史氏”按底本称谓保留，不补定生姓、丈夫或共同母系。",
+        "永寿的死亡与“故永寿”追封是同一封号链；不把另见乐平史氏进鲁国、鲁国史氏薨的记载移给本条。",
+        "身后追封与生前封授分别记载；不由追封日期倒填死亡日。"
+      ],
+      "aliases": "永寿长公主（晋高祖妹，史氏） 永壽長公主（晉高祖妹，史氏） 晋高祖妹永寿长公主史氏 晉高祖妹永壽長公主史氏 晋高祖妹岐国大长公主 晉高祖妹岐國大長公主",
+      "readingStarts": {
+        "old": "old-v076"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 76 · 晋高祖纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B776&oldid=2604147"
+        },
+        {
+          "title": "旧五代史 · 卷 77 · 晋高祖纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B777&oldid=512993"
+        },
+        {
+          "title": "旧五代史 · 卷 81 · 晋少帝纪1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B781&oldid=512998"
+        }
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-leping-du",
+      "name": "乐平长公主（晋高祖妹，杜氏）",
+      "dynasty": "后晋",
+      "role": "晋高祖妹；乐平长公主，杜重威妻",
+      "periodLabel": "后晋天福年间史载",
+      "intro": "《旧五代史》记为晋高祖第十三妹杜氏，天福二年封乐平长公主。《资治通鉴》明确杜重威尚高祖妹乐平长公主，但未记其婚期。当前选定原文未记其本名、生母、生卒或子女。",
+      "sourceNotes": [
+        "“杜氏”保留旧史称谓，结合杜重威尚主的明文，不把夫家称谓补作生姓。",
+        "通鉴的婚配附叙不等于所记军事任命当日成婚，不补婚礼年月。",
+        "另见郑国杜氏进宋国及杜重威妻宋国公主的后续记载，与本条早年乐平称号的衔接仍待考；不只凭同夫归并，也不另断为另一自然人。"
+      ],
+      "aliases": "乐平长公主（晋高祖妹，杜氏） 樂平長公主（晉高祖妹，杜氏） 晋高祖妹乐平长公主杜氏 晉高祖妹樂平長公主杜氏 晋高祖妹乐平长公主杜重威妻 晉高祖妹樂平長公主杜重威妻",
+      "readingStarts": {
+        "old": "old-v076",
+        "tongjian": "tongjian-v281"
+      },
+      "sources": [
+        {
+          "title": "旧五代史 · 卷 76 · 晋高祖纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B776&oldid=2604147"
+        },
+        {
+          "title": "资治通鉴 · 卷 281 · 后晋纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7281&oldid=1769092"
         }
       ]
     }

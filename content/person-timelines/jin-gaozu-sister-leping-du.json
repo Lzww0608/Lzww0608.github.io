@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-gaozu-sister-leping-du",
+  "events": [
+    {
+      "id": "jin-gaozu-sister-leping-du-shou-feng-937",
+      "title": "封乐平长公主",
+      "summary": "天福二年五月，晋高祖制封皇妹，封乐平长公主。只记原文明载的封授，不据排行补定生母或年龄。",
+      "year": 937,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天福二年五月庚午",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p9",
+          "originalRevision": 1,
+          "originalSha256": "7340b8aed8d8f39c1b76d2e8ad76e7136c749006c0ed8843c5dbf824e10c553a",
+          "excerpt": "皇第十三妹杜氏為樂平長公主"
+        },
+        {
+          "chapterId": "old-v076",
+          "paragraphId": "old-v076-p4",
+          "originalRevision": 1,
+          "originalSha256": "d514aaf3f60002ceba4a324f1172a6cab73ffa322a09b0702c1be87473665816",
+          "excerpt": "天福二年春正月甲寅朔"
+        }
+      ],
+      "notes": [
+        "原书五月及干支照录；仅采用有据年份937，不补公历月日。",
+        "同段的长安公主及其他皇妹各按其主语保留。"
+      ]
+    },
+    {
+      "id": "jin-gaozu-sister-leping-du-du-chongwei-marriage",
+      "title": "嫁杜重威",
+      "summary": "《资治通鉴》在杜重威领兵屯卫州的叙事中，补记他尚晋高祖妹乐平长公主，表明这段婚配关系。原文未另记结婚年月。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "《资治通鉴》卷281：“尚帝妹乐平长公主”，婚期未载",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p32",
+          "originalRevision": 1,
+          "originalSha256": "93b7742275e46aa5b508d44b10070f8eb9f76941073465968ba6b85624dd8ce1",
+          "excerpt": "重威，朔州人也，尚帝妹樂平長公主。"
+        }
+      ],
+      "notes": [
+        "军事任命与亲属附叙分开；不把领兵屯卫州之日当婚礼日期。",
+        "不将后来宋国公主的奏请、入见等事仅凭同夫移入此婚事。"
+      ]
+    }
+  ]
+}
