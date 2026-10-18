@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-xianzhu-xinping",
+  "events": [
+    {
+      "id": "jin-xianzhu-xinping-edict-conferral",
+      "title": "封为新平县主",
+      "summary": "《五代会要》列新平县主与其他三位县主，注记并于天福七年五月封授；旧史辑补明引同书。只记这一有年月的封授，不补本名、父母、婚配或封授仪式细节。",
+      "year": 942,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "《五代会要》：并天福七年五月封",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p20",
+          "originalRevision": 1,
+          "originalSha256": "523cbea60d095600ebbcc2e6841ce3849c4f68f8c819c446657ead8ab94f9341",
+          "excerpt": "從長女高平縣主，第二女新平縣主，第三女千乘縣主，孫女永慶縣主。〈並天福七年五月封〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "從長女高平縣主、第二女新平縣主、第三女千乘縣主、孫女永慶縣主，並天福七年五月封。"
+        }
+      ],
+      "notes": [
+        "原书所记月份保留，未载具体日，不补定公历确日。",
+        "两处为会要及其辑补引文，不作两次封授。"
+      ]
+    }
+  ]
+}

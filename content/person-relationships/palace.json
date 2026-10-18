@@ -5402,5 +5402,115 @@
         "title": "《五代会要》 · 卷 1"
       }
     ]
+  },
+  {
+    "id": "jin-gaozu-yingchuan-furen-cai-shi-jingtang-source-relation",
+    "from": "shi-jingtang",
+    "to": "jin-gaozu-yingchuan-furen-cai",
+    "kind": "service",
+    "label": "内职敕封（颍川郡夫人）",
+    "note": "内职敕记与郡夫人封号不等于已知妃后名分、具体官职或婚姻关系；不把敕令月份当作入宫或初任职日期。只登记本项来源限定关系，不补婚配或未知中间亲属。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p51",
+        "excerpt": "晉高祖潁川郡夫人蔡氏。〈天福三年八月敕。〉",
+        "title": "《五代会要》 · 卷 1"
+      },
+      {
+        "chapterId": "old-v086",
+        "paragraphId": "old-v086-p6",
+        "excerpt": "又，案《五代會要》載晉內職云：高祖潁川郡夫人蔡氏，天福三年八月敕。",
+        "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "jin-xianzhu-gaoping-shi-jingtang-source-relation",
+    "from": "shi-jingtang",
+    "to": "jin-xianzhu-gaoping",
+    "kind": "kinship",
+    "label": "亲属（会要称从长女）",
+    "note": "“从长女”保留原称；现译作侄女中的长女并有待考旧注，不据此补定具体生父母。只登记本项来源限定关系，不补婚配或未知中间亲属。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p20",
+        "excerpt": "從長女高平縣主，第二女新平縣主，第三女千乘縣主，孫女永慶縣主。〈並天福七年五月封〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v086",
+        "paragraphId": "old-v086-p6",
+        "excerpt": "從長女高平縣主、第二女新平縣主、第三女千乘縣主、孫女永慶縣主，並天福七年五月封。",
+        "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "jin-xianzhu-xinping-shi-jingtang-source-relation",
+    "from": "shi-jingtang",
+    "to": "jin-xianzhu-xinping",
+    "kind": "kinship",
+    "label": "亲属（会要续列第二女）",
+    "note": "“第二女”是本段续列称谓，前有“从长女”；不据省略的亲属范围强作高祖亲生次女，也不补生父母。只登记本项来源限定关系，不补婚配或未知中间亲属。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p20",
+        "excerpt": "從長女高平縣主，第二女新平縣主，第三女千乘縣主，孫女永慶縣主。〈並天福七年五月封〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v086",
+        "paragraphId": "old-v086-p6",
+        "excerpt": "從長女高平縣主、第二女新平縣主、第三女千乘縣主、孫女永慶縣主，並天福七年五月封。",
+        "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "jin-xianzhu-qiancheng-shi-jingtang-source-relation",
+    "from": "shi-jingtang",
+    "to": "jin-xianzhu-qiancheng",
+    "kind": "kinship",
+    "label": "亲属（会要续列第三女）",
+    "note": "“第三女”是本段续列称谓，前有“从长女”；不据省略的亲属范围强作高祖亲生三女，也不补生父母。只登记本项来源限定关系，不补婚配或未知中间亲属。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p20",
+        "excerpt": "從長女高平縣主，第二女新平縣主，第三女千乘縣主，孫女永慶縣主。〈並天福七年五月封〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v086",
+        "paragraphId": "old-v086-p6",
+        "excerpt": "從長女高平縣主、第二女新平縣主、第三女千乘縣主、孫女永慶縣主，並天福七年五月封。",
+        "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "jin-xianzhu-yongqing-shi-jingtang-source-relation",
+    "from": "shi-jingtang",
+    "to": "jin-xianzhu-yongqing",
+    "kind": "kinship",
+    "label": "祖孙（会要称孙女）",
+    "note": "只据本条记高祖孙女层级，不补其父亲、母亲或同母兄弟姊妹。只登记本项来源限定关系，不补婚配或未知中间亲属。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p20",
+        "excerpt": "從長女高平縣主，第二女新平縣主，第三女千乘縣主，孫女永慶縣主。〈並天福七年五月封〉",
+        "title": "《五代会要》 · 卷 2"
+      },
+      {
+        "chapterId": "old-v086",
+        "paragraphId": "old-v086-p6",
+        "excerpt": "從長女高平縣主、第二女新平縣主、第三女千乘縣主、孫女永慶縣主，並天福七年五月封。",
+        "title": "《旧五代史》 · 卷 86 · 晋书列传一（后妃）"
+      }
+    ]
   }
 ]

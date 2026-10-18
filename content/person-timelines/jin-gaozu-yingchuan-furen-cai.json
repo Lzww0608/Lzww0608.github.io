@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-gaozu-yingchuan-furen-cai",
+  "events": [
+    {
+      "id": "jin-gaozu-yingchuan-furen-cai-edict-conferral",
+      "title": "见天福三年八月内职敕记",
+      "summary": "《五代会要》晋高祖内职条列颍川郡夫人蔡氏，附天福三年八月敕；旧史辑补转引同条。只记这一内职封授的敕命记载，不补妃后名分、具体职掌或入宫日期。",
+      "year": 938,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "《五代会要》：天福三年八月敕",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p51",
+          "originalRevision": 1,
+          "originalSha256": "372cde6c5a3ac3427fdeb4503236d0c067fadf6ae5e830e6aa9d57188ff5f5ae",
+          "excerpt": "晉高祖潁川郡夫人蔡氏。〈天福三年八月敕。〉"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p6",
+          "originalRevision": 1,
+          "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427",
+          "excerpt": "又，案《五代會要》載晉內職云：高祖潁川郡夫人蔡氏，天福三年八月敕。"
+        }
+      ],
+      "notes": [
+        "原书所记月份保留，未载具体日，不补定公历确日。",
+        "两处为会要及其辑补引文，不作两次封授。"
+      ]
+    }
+  ]
+}
