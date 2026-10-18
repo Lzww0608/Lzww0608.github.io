@@ -6548,5 +6548,59 @@
         "title": "新五代史 · 卷 18 · 汉家人传第六"
       }
     ]
+  },
+  {
+    "id": "han-liu-chengyou-wife-zhang-marriage",
+    "from": "liu-chengyou",
+    "to": "han-liu-chengyou-wife-zhang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "辑注明记隐帝娶张彦成女；未记婚期或婚次，不称已经册后。",
+    "sources": [
+      {
+        "chapterId": "old-v104",
+        "paragraphId": "old-v104-p3",
+        "excerpt": "據薛史《張彥成傳》云：隱帝娶彥成女。",
+        "title": "旧五代史 · 卷 104 · 汉书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-chengyou-wife-zhang-father",
+    "from": "zhang-yancheng-han",
+    "to": "han-liu-chengyou-wife-zhang",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本条明言她为张彦成女；不据父亲其他任官记载补女方经历或生母。",
+    "sources": [
+      {
+        "chapterId": "old-v104",
+        "paragraphId": "old-v104-p3",
+        "excerpt": "據薛史《張彥成傳》云：隱帝娶彥成女。",
+        "title": "旧五代史 · 卷 104 · 汉书列传一（后妃）"
+      }
+    ]
+  },
+  {
+    "id": "han-liu-chengyou-consort-geng-favored-furen",
+    "from": "liu-chengyou",
+    "to": "han-liu-chengyou-consort-geng",
+    "kind": "kinship",
+    "label": "婚家（所幸夫人）",
+    "note": "原书称隐帝所幸耿夫人；欲立为后与欲以后礼葬均受杨邠反对，不推已经取得皇后位。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v289",
+        "paragraphId": "tongjian-v289-p47",
+        "excerpt": "帝欲立所幸耿夫人為後，邠以為太速。夫人卒，帝欲以後禮葬之，邠復以為不可。",
+        "title": "资治通鉴 · 卷 289 · 后汉纪4"
+      },
+      {
+        "chapterId": "old-v104",
+        "paragraphId": "old-v104-p3",
+        "excerpt": "《楊邠傳》云：隱帝所愛耿夫人，欲立為後，邠以為太速，夫人卒，隱帝欲以後禮葬，邠又止之。",
+        "title": "旧五代史 · 卷 104 · 汉书列传一（后妃）"
+      }
+    ]
   }
 ]

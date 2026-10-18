@@ -190,7 +190,9 @@
     "han-liu-zhiyuan-mother-an",
     "han-liu-zhiyuan-ancestress-li-mingzhen",
     "han-liu-zhiyuan-ancestress-yang-gonghui",
-    "han-liu-zhiyuan-ancestress-li-zhaomu"
+    "han-liu-zhiyuan-ancestress-li-zhaomu",
+    "han-liu-chengyou-wife-zhang",
+    "han-liu-chengyou-consort-geng"
   ],
   "people": [
     {
@@ -6138,6 +6140,57 @@
         {
           "title": "卷 1",
           "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-chengyou-wife-zhang",
+      "name": "张氏（后汉隐帝妻）",
+      "dynasty": "后汉",
+      "role": "隐帝妻、张彦成女",
+      "periodLabel": "婚年未载",
+      "intro": "张氏，名未载。旧史卷104辑注引《张彦成传》，记隐帝娶张彦成之女。",
+      "sourceNotes": [
+        "本条明确婚配，未记婚年或先后婚次；不称前妻，也不据此补册后。",
+        "父亲为张彦成，女方本名、生母、生卒与子女均未由本条补定。",
+        "《旧五代史》此处为辑注转引；所引《张彦成传》全文未收入当前归档，同一引文不另计为独立复证。"
+      ],
+      "aliases": "后汉隐帝张氏 後漢隱帝張氏 隐帝妻张氏 隱帝妻張氏 张彦成女（后汉隐帝妻） 張彥成女（後漢隱帝妻）",
+      "readingStarts": {
+        "old": "old-v104"
+      },
+      "sources": [
+        {
+          "title": "卷 104 · 汉书列传一（后妃）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&oldid=1567204"
+        }
+      ]
+    },
+    {
+      "id": "han-liu-chengyou-consort-geng",
+      "name": "耿夫人（后汉隐帝）",
+      "dynasty": "后汉",
+      "role": "隐帝所幸夫人",
+      "periodLabel": "后汉隐帝朝史载",
+      "intro": "史称隐帝所幸耿夫人。隐帝曾欲立她为皇后，杨邠认为太速；她去世后，隐帝又欲以后礼安葬，杨邠再次反对。",
+      "sourceNotes": [
+        "夫人为原书称谓，不由此补正式妃阶；欲立后与欲以后礼葬均不写为已经实施。",
+        "通鉴自隐帝即位以来追叙，不能把段末乙亥或段前十一月当作她的立后拟议、卒日或葬日。",
+        "两次反对者为杨邠，不能转作李太后干预婚葬；张彦成女妻另按本条婚配保存，不推婚次。"
+      ],
+      "aliases": "后汉隐帝耿夫人 後漢隱帝耿夫人 汉隐帝耿夫人 漢隱帝耿夫人",
+      "readingStarts": {
+        "old": "old-v104",
+        "tongjian": "tongjian-v289"
+      },
+      "sources": [
+        {
+          "title": "卷 104 · 汉书列传一（后妃）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7104&oldid=1567204"
+        },
+        {
+          "title": "卷 289 · 后汉纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7289&oldid=1769444"
         }
       ]
     }
