@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';
+import{loadPassagePeople,loadPersonPassageIndex}from'../../content/person-passages.mjs';
+import{loadPersonTimelines}from'../../content/person-timelines.mjs';
+import{relationshipsForPerson}from'../src/relationships.ts';
+const root=new URL('../../',import.meta.url),read=p=>JSON.parse(readFileSync(new URL(p,root))),id='tang-li-congyi-birth-mother-unnamed';
+test('Congyi unnamed birth mother has only sourced childbirth, without Wang office, name, birth year or later death',()=>{
+ const person=loadPassagePeople().find(p=>p.id===id);assert.ok(person);assert.match(person.name,/生母/);assert.ok(!person.name.includes('王'));assert.equal(person.birthYear??null,null);assert.equal(person.deathYear??null,null);const doc=loadPersonTimelines().find(d=>d.personId===id);assert.equal(doc.events.length,1);const e=doc.events[0];assert.equal(e.year,null);assert.equal(e.precision,'undated');assert.equal(e.phase,'uncertain');assert.deepEqual(e.evidence.map(s=>s.paragraphId),['new-v15-p8']);assert.match(e.summary,/生/);assert.match(e.summary,/从益/);
+ const index=loadPersonPassageIndex(),passages=index.passages.filter(p=>p.people.some(x=>x.personId===id));assert.deepEqual(passages.flatMap(p=>p.spans.map(s=>s.paragraphId)),['new-v15-p8']);assert.ok(passages[0].people.some(p=>p.personId===id&&p.kind==='record'));assert.deepEqual(read('content/person-passages/rules.json').people.find(p=>p.personId===id).names,[]);
+ const edge=relationshipsForPerson(id);assert.equal(edge.length,1);assert.deepEqual([edge[0].from,edge[0].to,edge[0].kind],[id,'li-congyi','kinship']);assert.match(edge[0].label,/母子/);assert.ok(edge[0].sources.every(s=>s.title.includes('新五代史')));assert.ok(!edge.some(e=>e.from==='li-siyuan'||e.to==='li-siyuan'));
+});
+test('Mingzong order is distinct from childbirth, while all four earlier child relations and Wang nurture remain',()=>{
+ const child=relationshipsForPerson('li-congyi');for(const oldId of['li-siyuan-congyi-parent','tang-li-siyuan-shufei-wang-congyi-nurture','tang-li-siyuan-siyi-wang-congyi-wetnurse','tang-li-siyuan-princess-yongan-congyi-siblings'])assert.equal(child.filter(e=>e.id===oldId).length,1);assert.equal(child.filter(e=>e.from===id&&e.to==='li-congyi').length,1);
+ const docs=loadPersonTimelines(),ming=docs.find(d=>d.personId==='li-siyuan'),added=ming.events.find(e=>e.year===null&&e.evidence.some(s=>s.paragraphId==='new-v15-p8')&&/命/.test(e.summary)&&/(母|养|育)/.test(e.summary));assert.ok(added);assert.equal(added.year,null);assert.equal(added.precision,'undated');assert.deepEqual(added.evidence.map(s=>s.paragraphId),['new-v15-p8']);assert.match(added.summary,/命/);
+ const wang=docs.find(d=>d.personId==='tang-li-siyuan-shufei-wang');assert.equal(wang.events.filter(e=>e.id==='tang-li-siyuan-shufei-wang-nurse-congyi').length,1);const full=read('content/published-translations/new.json').entries.find(p=>p.paragraphId==='new-v15-p8').translation;assert.equal(full.id,'8713');assert.equal(full.version,1);assert.ok(full.reviewNotes.some(n=>n.includes('生母未名')&&n.includes('司衣')));
+});
