@@ -5848,5 +5848,49 @@
         "title": "新五代史 · 卷 17 · 晋家人传第五"
       }
     ]
+  },
+  {
+    "id": "shi-yanxu-wife-zhao-marriage",
+    "from": "shi-yanxu",
+    "to": "jin-shi-yanxu-wife-zhao",
+    "kind": "kinship",
+    "label": "夫妻（史载娶女）",
+    "note": "新史、通鉴明确延煦娶赵在礼女；聘迎月次分源，不补唯一婚礼日或女子生卒。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p49",
+        "excerpt": "出帝利其貲，乃以延煦娶在禮女，在禮獻絹三千匹，前後所獻不可勝數。",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      },
+      {
+        "chapterId": "tongjian-v285",
+        "paragraphId": "tongjian-v285-p30",
+        "excerpt": "帝利其富，三月，庚申，為皇子鎮寧節度使延煦娶其女。",
+        "title": "资治通鉴 · 卷 285 · 后晋纪6"
+      }
+    ]
+  },
+  {
+    "id": "zhao-zaili-yanxu-wife-daughter",
+    "from": "zhao-zaili",
+    "to": "jin-shi-yanxu-wife-zhao",
+    "kind": "kinship",
+    "label": "父女（史称赵在礼女）",
+    "note": "原书明确她是赵在礼之女、延煦所娶；未据父亲籍贯或姓氏补女子本名、生母和出生地。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p49",
+        "excerpt": "出帝利其貲，乃以延煦娶在禮女，在禮獻絹三千匹，前後所獻不可勝數。",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      },
+      {
+        "chapterId": "tongjian-v285",
+        "paragraphId": "tongjian-v285-p30",
+        "excerpt": "帝利其富，三月，庚申，為皇子鎮寧節度使延煦娶其女。",
+        "title": "资治通鉴 · 卷 285 · 后晋纪6"
+      }
+    ]
   }
 ]
