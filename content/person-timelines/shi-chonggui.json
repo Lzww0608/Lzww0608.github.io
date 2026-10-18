@@ -196,11 +196,47 @@
       ]
     },
     {
+      "id": "shi-chonggui-zhang-consort-died-941",
+      "title": "郑王夫人张氏去世",
+      "summary": "高祖天福六年十一月，郑王夫人张氏去世。她的生前婚配与后来少帝追册故妃分开记。",
+      "year": 941,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "天福六年十一月丁未",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p5",
+          "originalRevision": 1,
+          "originalSha256": "494017ac0e861d02946b7fe14f1f70bfa4ba6dd3c137518f64875c8ee3855734",
+          "excerpt": "十一月丁未，鄭王夫人張氏薨。"
+        },
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p1",
+          "originalRevision": 1,
+          "originalSha256": "fc67ff84c125a5f65be5ea6f497020c0f5347dffc5a7dd1363cb98a37a1ff6f0",
+          "excerpt": "天福六年秋七月己未朔"
+        },
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p2",
+          "originalRevision": 1,
+          "originalSha256": "ab59233d0a7ddb46e1a495059f020c4c64fc855f25c1b3c426a49937dbb4e6aa",
+          "excerpt": "以皇子開封尹、鄭王重貴為東京留守"
+        }
+      ],
+      "notes": [
+        "同卷年界及郑王称谓用于闭合年份与人物，不把追册年当卒年。"
+      ]
+    },
+    {
       "id": "shi-chonggui-guangjin",
       "title": "改广晋尹封齐王",
       "summary": "先在高祖赴邺时留守东京，十二月丙戌朔改广晋尹、进封齐王；通鉴称充邺都留守。会要的授广晋尹、封齐王月份另列。",
       "year": 941,
-      "sortOrder": 6,
+      "sortOrder": 7,
       "precision": "day",
       "sourceDate": "天福六年十二月丙戌朔",
       "phase": "service",
@@ -1442,11 +1478,30 @@
       ]
     },
     {
+      "id": "shi-chonggui-an-taifei-canon-command-946",
+      "title": "命使册皇太妃安氏",
+      "summary": "开运三年冬十月，正衙命使册皇太妃安氏。天福八年尊妃的旧事件另保，不以本次册命重复首次受尊。",
+      "year": 946,
+      "sortOrder": 39,
+      "precision": "year",
+      "sourceDate": "开运三年冬十月甲子",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p1",
+          "originalRevision": 1,
+          "originalSha256": "f1fa0c9a85e43251361679f2aa63fdf37b2cc9399c13d645381c960e1d3b6238",
+          "excerpt": "開運三年冬十月甲子，正衙命使冊皇太妃安氏。"
+        }
+      ]
+    },
+    {
       "id": "shi-chonggui-duwei-expedition",
       "title": "以杜威李守贞大举北征",
       "summary": "任杜威为北面招讨、李守贞为兵马都监，部署安审琦等出师；目标先取瀛鄚再复幽燕。",
       "year": 946,
-      "sortOrder": 39,
+      "sortOrder": 40,
       "precision": "day",
       "sourceDate": "开运三年十月辛未",
       "phase": "rule",

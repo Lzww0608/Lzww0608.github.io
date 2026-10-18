@@ -5576,5 +5576,165 @@
         "title": "资治通鉴 · 卷 281 · 后晋纪2"
       }
     ]
+  },
+  {
+    "id": "jin-shi-chonggui-mother-an-shi-chonggui-mother",
+    "from": "jin-shi-chonggui-mother-an",
+    "to": "shi-chonggui",
+    "kind": "kinship",
+    "label": "母子（生母）",
+    "note": "安氏为石重贵所生母，与李太后的身份及高祖收养分别保存。",
+    "sources": [
+      {
+        "chapterId": "old-v081",
+        "paragraphId": "old-v081-p1",
+        "excerpt": "考諱敬儒，母安氏，以唐天祐十一年六月二十七日生帝於太原汾陽裏。",
+        "title": "旧五代史 · 卷 81 · 晋少帝纪1"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-mother-an-shi-jingru-spouse",
+    "from": "shi-jingru",
+    "to": "jin-shi-chonggui-mother-an",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "新史明确安太妃为敬儒妻，不补婚期或其本名。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p20",
+        "excerpt": "為敬儒妻",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-consort-zhang-shi-chonggui-spouse",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-consort-zhang",
+    "kind": "kinship",
+    "label": "夫妻（元妃）",
+    "note": "高祖为少帝娶张从训长女；婚年未详，身后追册不当初婚。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p16",
+        "excerpt": "高祖之鎮太原也，為少帝娶從訓長女為妃。",
+        "title": "旧五代史 · 卷 91 · 晋书列传六"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-consort-zhang-zhang-congxun-father",
+    "from": "zhang-congxun",
+    "to": "jin-shi-chonggui-consort-zhang",
+    "kind": "kinship",
+    "label": "父女（长女）",
+    "note": "只按张从训长女明文，不补生母或祖源。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p16",
+        "excerpt": "為少帝娶從訓長女為妃。",
+        "title": "旧五代史 · 卷 91 · 晋书列传六"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-empress-feng-shi-chongyin-spouse",
+    "from": "shi-chongyin",
+    "to": "jin-shi-chonggui-empress-feng",
+    "kind": "kinship",
+    "label": "夫妻（先配）",
+    "note": "先嫁石氏重胤，夫卒寡居后才与少帝婚配，保两条各自有据关系。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p22",
+        "excerpt": "乃為重胤娶濛女，後封吳國夫人。重胤早卒，后寡居",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-empress-feng-shi-chonggui-spouse",
+    "from": "shi-chonggui",
+    "to": "jin-shi-chonggui-empress-feng",
+    "kind": "kinship",
+    "label": "夫妻（皇后）",
+    "note": "居丧纳后、制立与后来的册后按各源叙次；所谓太后命为帝所称。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p22",
+        "excerpt": "出帝居喪中，納之以為后。",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-empress-feng-feng-meng-father",
+    "from": "feng-meng-jin",
+    "to": "jin-shi-chonggui-empress-feng",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明记父濛；不补母系。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p22",
+        "excerpt": "出帝皇后馮氏，定州人也。父濛",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-empress-feng-feng-yu-siblings",
+    "from": "feng-yu",
+    "to": "jin-shi-chonggui-empress-feng",
+    "kind": "kinship",
+    "label": "兄妹亲属（后兄）",
+    "note": "冯玉为后兄；帝的任命及冯玉外朝活动不全部转给她。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p23",
+        "excerpt": "其兄玉執政",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-empress-feng-li-yanbi-service",
+    "from": "jin-shi-chonggui-empress-feng",
+    "to": "li-yanbi-jin-empress-palace",
+    "kind": "service",
+    "label": "皇后宫任用",
+    "note": "冯后用男子李彦弼为都押衙的直接任用关系；非婚配或宦官身份。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p23",
+        "excerpt": "又用男子李彥弼為皇后宮都押衙。",
+        "title": "新五代史 · 卷 17 · 晋家人传第五"
+      }
+    ]
+  },
+  {
+    "id": "jin-shi-chonggui-mother-an-an-yanwei-same-clan",
+    "from": "jin-shi-chonggui-mother-an",
+    "to": "an-yanwei-jin",
+    "kind": "kinship",
+    "label": "同宗亲属（亲等未详）",
+    "note": "只保原书同宗明文。少帝事以为舅是少帝的相待方式，不认定安彦威为太妃亲兄弟。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p12",
+        "excerpt": "彥威與太妃同宗，少帝事以為舅，彥威未嘗以為言。",
+        "title": "旧五代史 · 卷 91 · 晋书列传六"
+      }
+    ]
   }
 ]

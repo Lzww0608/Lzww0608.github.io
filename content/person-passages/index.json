@@ -1290,6 +1290,18 @@
     {
       "id": "jin-gaozu-sister-leping-du",
       "name": "乐平长公主（晋高祖妹，杜氏）"
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an",
+      "name": "皇太妃安氏（晋少帝生母）"
+    },
+    {
+      "id": "jin-shi-chonggui-consort-zhang",
+      "name": "张皇后（晋少帝元妃）"
+    },
+    {
+      "id": "jin-shi-chonggui-empress-feng",
+      "name": "冯皇后（晋少帝后）"
     }
   ],
   "passages": [
@@ -5066,6 +5078,10 @@
         {
           "personId": "gao-conghui",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "mention"
         }
       ]
     },
@@ -5701,6 +5717,14 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -27350,6 +27374,14 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -31846,6 +31878,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -31925,6 +31961,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "mention"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "mention"
         }
       ]
@@ -32046,6 +32086,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -32093,6 +32137,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -32166,6 +32214,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -32185,6 +32237,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -32210,6 +32266,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "mention"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -32258,6 +32318,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "mention"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -32277,6 +32341,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -90158,6 +90226,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -90466,6 +90538,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -90918,6 +90994,14 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
+          "kind": "record"
         }
       ]
     },
@@ -90938,6 +91022,14 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -91958,6 +92050,14 @@
         {
           "personId": "kou-yanqing",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -92086,6 +92186,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "mention"
         }
       ]
     },
@@ -92138,6 +92242,14 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -92158,6 +92270,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -92202,6 +92318,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "biography"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -92225,6 +92345,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -92298,6 +92422,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -92321,6 +92449,10 @@
         },
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
           "kind": "record"
         }
       ]
@@ -92373,6 +92505,10 @@
         },
         {
           "personId": "jin-xianzhu-yongqing",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -92622,6 +92758,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -92717,6 +92857,10 @@
         },
         {
           "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-consort-zhang",
           "kind": "record"
         }
       ]
@@ -133374,6 +133518,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
         }
       ]
     },
@@ -133445,6 +133593,10 @@
         },
         {
           "personId": "li-chongyin",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -135798,6 +135950,10 @@
         {
           "personId": "tang-li-siyuan-princess-yongning",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "mention"
         }
       ]
     },
@@ -135845,6 +136001,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -136093,6 +136253,14 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -136397,6 +136565,10 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]
@@ -138482,6 +138654,10 @@
         {
           "personId": "shi-chonggui",
           "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
+          "kind": "record"
         }
       ]
     },
@@ -139041,6 +139217,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-mother-an",
           "kind": "record"
         }
       ]
@@ -139897,6 +140077,10 @@
         },
         {
           "personId": "tang-li-siyuan-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "jin-shi-chonggui-empress-feng",
           "kind": "record"
         }
       ]

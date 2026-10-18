@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-consort-zhang",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-consort-zhang-died-zheng-consort-941",
+      "title": "郑王夫人张氏去世",
+      "summary": "高祖天福六年十一月，本纪记郑王夫人张氏去世；同卷前文明列郑王重贵，后至天福七年才另起纪年。",
+      "year": 941,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天福六年十一月丁未",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p5",
+          "originalRevision": 1,
+          "originalSha256": "494017ac0e861d02946b7fe14f1f70bfa4ba6dd3c137518f64875c8ee3855734",
+          "excerpt": "十一月丁未，鄭王夫人張氏薨。"
+        },
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p1",
+          "originalRevision": 1,
+          "originalSha256": "fc67ff84c125a5f65be5ea6f497020c0f5347dffc5a7dd1363cb98a37a1ff6f0",
+          "excerpt": "天福六年秋七月己未朔"
+        },
+        {
+          "chapterId": "old-v080",
+          "paragraphId": "old-v080-p2",
+          "originalRevision": 1,
+          "originalSha256": "ab59233d0a7ddb46e1a495059f020c4c64fc855f25c1b3c426a49937dbb4e6aa",
+          "excerpt": "八月戊子朔，以皇子開封尹、鄭王重貴為東京留守"
+        }
+      ],
+      "notes": [
+        "同卷年界与郑王身份用于确定称谓和年份，不当作三个独立的卒事记载。",
+        "原书月、干支保留，只定941年，不补换算后的月日。"
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-consort-zhang-posthumous-empress-943",
+      "title": "身后追册皇后",
+      "summary": "少帝天福八年九月追册故魏国夫人张氏为皇后，十月又记使者奉宝册到西庄影殿行礼。",
+      "year": 943,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天福八年九月丁亥；十月癸酉行礼",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p3",
+          "originalRevision": 1,
+          "originalSha256": "54d885daffbe4fd368287a2b10640d345b30f03c1d9a7dcda301ca5ddbe2a114",
+          "excerpt": "丁亥，追冊故魏國夫人張氏為皇后，帝之元妃也。"
+        },
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p4",
+          "originalRevision": 1,
+          "originalSha256": "9941dc021fc1a464800fc53b71597649f043e695a1d17f9366dbb64a73287f49",
+          "excerpt": "癸酉，命使攝太尉、右僕射平章事和凝，使副攝司徒、給事中邊光範追冊故魏國夫人張氏為皇后，奉寶冊至西莊影殿行禮，鹵簿儀仗如式。"
+        }
+      ],
+      "notes": [
+        "这是身后追册及行礼，不写成她在943年始婚或在世受立。"
+      ],
+      "variants": [
+        {
+          "label": "会要记十月追册",
+          "year": 943,
+          "sourceDate": "天福八年十月",
+          "summary": "会要条记十月追册，辑补旧史转引同文；与本纪九月命、十月行礼的记月分别保存。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v001",
+              "paragraphId": "huiyao-v001-p40",
+              "originalRevision": 1,
+              "originalSha256": "94fb315ae3f20dfe304d96234943efddcd006305cb678f2335bb1ebf9788f1e2",
+              "excerpt": "少帝皇后張氏，〈天福八年十月追冊。〉"
+            },
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p5",
+              "originalRevision": 1,
+              "originalSha256": "73a50620b8ca418320afb9e9df31e32fd3f745d94abba3fb76fb36b92cb740ba",
+              "excerpt": "案《五代會要》：天福八年十月追冊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-consort-zhang-marriage-chonggui",
+      "title": "由高祖为少帝娶为妃",
+      "summary": "高祖镇太原时，为少帝娶张从训长女为妃。婚期未独载。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "高祖镇太原时，未详婚年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v091",
+          "paragraphId": "old-v091-p16",
+          "originalRevision": 1,
+          "originalSha256": "e4c49c8b04e54a9f97fa4f1a67348f00698584c86def34a618cad1fa90d8df8b",
+          "excerpt": "高祖之鎮太原也，為少帝娶從訓長女為妃。"
+        },
+        {
+          "chapterId": "old-v086",
+          "paragraphId": "old-v086-p5",
+          "originalRevision": 1,
+          "originalSha256": "73a50620b8ca418320afb9e9df31e32fd3f745d94abba3fb76fb36b92cb740ba",
+          "excerpt": "《張從訓傳》亦云，高祖鎮太原，為少帝娶從訓長女為妃。"
+        }
+      ],
+      "notes": [
+        "旧史卷86在此引张从训传，不能把本传与转引计成独立两次婚配。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "jin-shi-chonggui-mother-an",
+  "events": [
+    {
+      "id": "jin-shi-chonggui-mother-an-birth-chonggui-914",
+      "title": "生石重贵",
+      "summary": "旧史明记安氏于太原汾阳里生石重贵，父为敬儒。",
+      "year": 914,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "唐天祐十一年六月二十七日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v081",
+          "paragraphId": "old-v081-p1",
+          "originalRevision": 1,
+          "originalSha256": "8ea5ff301c4db8112aa63a9d1dd21a21ff34d67c0544d1279acea52b9d4fd054",
+          "excerpt": "考諱敬儒，母安氏，以唐天祐十一年六月二十七日生帝於太原汾陽裏。"
+        }
+      ],
+      "notes": [
+        "原书记日照录，仅用既有少帝出生事件所据年份914，不另补绝对日；不据儿子生年反推母亲生年。"
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-respect-taifei-943",
+      "title": "尊为皇太妃",
+      "summary": "少帝天福八年九月，秦国夫人安氏以帝所生母受尊为皇太妃。",
+      "year": 943,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "天福八年九月戊寅",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v082",
+          "paragraphId": "old-v082-p3",
+          "originalRevision": 1,
+          "originalSha256": "54d885daffbe4fd368287a2b10640d345b30f03c1d9a7dcda301ca5ddbe2a114",
+          "excerpt": "九月戊寅，尊秦國夫人安氏為皇太妃，帝所生母也。"
+        },
+        {
+          "chapterId": "new-v09",
+          "paragraphId": "new-v09-p5",
+          "originalRevision": 1,
+          "originalSha256": "34fbfe1acc826f9359668fe0181ffbe6eda2a14d23d33579d44eb8b2678154c7",
+          "excerpt": "九月戊寅，尊秦國夫人安氏為皇太妃。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p72",
+          "originalRevision": 1,
+          "originalSha256": "9dc9dda7f7feebf3a208890d9c91882bac3b2e0c0e89e08e4ae299738c9fae60",
+          "excerpt": "九月，尊帝母秦國夫人安氏為皇太妃。"
+        }
+      ],
+      "notes": [
+        "本次受尊与开运三年命使册妃分开。"
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-canon-command-946",
+      "title": "少帝命使册皇太妃",
+      "summary": "开运三年冬十月，少帝于正衙命使册皇太妃安氏。原段记的是命使册妃，不用它取消此前受尊的记载。",
+      "year": 946,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "开运三年冬十月甲子",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p1",
+          "originalRevision": 1,
+          "originalSha256": "f1fa0c9a85e43251361679f2aa63fdf37b2cc9399c13d645381c960e1d3b6238",
+          "excerpt": "開運三年冬十月甲子，正衙命使冊皇太妃安氏。"
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-northward-947",
+      "title": "随少帝北迁",
+      "summary": "安太妃与李太后、冯后等随少帝北行，被迁往契丹控制地区。",
+      "year": 947,
+      "sortOrder": 4,
+      "precision": "year",
+      "sourceDate": "明年正月癸卯；通鉴天福十二年叙次",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p8",
+          "originalRevision": 1,
+          "originalSha256": "85c002418e6f4513f882947fa090313e6cc003a99f16db46f0044eb21465c9a1",
+          "excerpt": "癸卯，帝與皇太后李氏、皇太妃安氏、皇后馮氏、皇弟重睿、皇子延煦延寶俱北行"
+        },
+        {
+          "chapterId": "tongjian-v286",
+          "paragraphId": "tongjian-v286-p16",
+          "originalRevision": 1,
+          "originalSha256": "530e4f89f4865573e9c68f759e8d115760947bfd9b9c942e2bcafc7fc9be7ee3",
+          "excerpt": "癸卯，晉主與李太后、安太妃、馮后及弟睿、子延煦、延寶俱北遷，後宮左右從者百餘人。"
+        }
+      ],
+      "notes": [
+        "北行名单逐名列出；后文裸称太后或泛称妃后的行为，不逐项分配给安氏。"
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-died-en-route-949",
+      "title": "赴建州途中去世",
+      "summary": "乾祐二年自辽阳赴建州途中，安太妃病卒。史书又载她希望焚骨南扬；实际叙述则为焚化后载燼骨至建州。",
+      "year": 949,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "汉乾祐二年二月赴建州途中",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v085",
+          "paragraphId": "old-v085-p11",
+          "originalRevision": 1,
+          "originalSha256": "ce4ad8ce048153042f4fbca71ae5976fa86f2897bf7e974244c65d2fa2438834",
+          "excerpt": "漢乾祐二年二月，帝自遼陽城發赴建州。行至中路，太妃安氏得疾而薨，乃焚之，載其燼骨而行。"
+        },
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p20",
+          "originalRevision": 1,
+          "originalSha256": "d075cee21bc1a6856c07168dc3f5e76dbe793628164c01688edb3600d88e0be1",
+          "excerpt": "妃老而失明，從出帝北遷，自遼陽徙建州，卒於道中。"
+        },
+        {
+          "chapterId": "tongjian-v288",
+          "paragraphId": "tongjian-v288-p83",
+          "originalRevision": 1,
+          "originalSha256": "6d9ccf297e417ef39f334149e7cf6e1f0e77bbbf276cd3cbac006a56762e668e",
+          "excerpt": "未至，安太妃卒於路。遺令：「必焚我骨，南向揚之，庶幾魂魄歸達於漢。」"
+        }
+      ],
+      "notes": [
+        "二月是出发赴建州的记月，途中卒未独载日；不补具体卒日。",
+        "新史记砂碛无草木，毁奚车焚化，携燼骨至建州，后来与李太后并葬。并葬不等同年同日去世。",
+        "焚骨南扬属于遗愿，不写成已将骨灰送回或扬向南方。",
+        "旧史卷86所引契丹国志另作天禄二年；迁徙、卒事的年次有异，不将各书都改成949。"
+      ],
+      "variants": [
+        {
+          "label": "辑补旧史引契丹国志作天禄二年",
+          "year": 948,
+          "sourceDate": "天禄二年春二月",
+          "summary": "旧史卷86引契丹国志记天禄二年春二月迁晋侯、太后于建州，中途安太妃卒。此年次为948，与旧少帝纪、新史及通鉴的乾祐二年949叙次不同，分别保留，不统一底本。",
+          "evidence": [
+            {
+              "chapterId": "old-v086",
+              "paragraphId": "old-v086-p4",
+              "originalRevision": 1,
+              "originalSha256": "a24ad63356f598833c3c346009bfe71dbd522692b6e62a02253046ac835e1123",
+              "excerpt": "《契丹國志》云：天祿二年春二月，徙晉侯、太后於建州，中途安太妃卒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-qin-furen",
+      "title": "封秦国夫人",
+      "summary": "新史安太妃传记她为敬儒妻、生出帝，封秦国夫人。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "本传先叙封秦国夫人、后叙出帝立；未详封年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v17",
+          "paragraphId": "new-v17-p20",
+          "originalRevision": 1,
+          "originalSha256": "d075cee21bc1a6856c07168dc3f5e76dbe793628164c01688edb3600d88e0be1",
+          "excerpt": "為敬儒妻，生出帝，封秦國夫人。"
+        }
+      ],
+      "notes": [
+        "只记本传明载的封授；不把封秦国夫人的时间移到儿子出生之日。"
+      ]
+    },
+    {
+      "id": "jin-shi-chonggui-mother-an-mourn-an-yanwei",
+      "title": "临哭同宗安彦威",
+      "summary": "旧史记安彦威与太妃同宗，少帝按舅礼相待；安彦威去世后，太妃亲临哭悼。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "安彦威卒后，未独载临哭年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v091",
+          "paragraphId": "old-v091-p12",
+          "originalRevision": 1,
+          "originalSha256": "ee6ad56db7dd5bf0f80f2710a39285692b9b0db8fc8e0f34f98b28a36780a059",
+          "excerpt": "彥威與太妃同宗，少帝事以為舅，彥威未嘗以為言。及卒，太妃臨哭，人始知其為國戚，當時益重其人焉。"
+        }
+      ],
+      "notes": [
+        "同宗与舅礼是原书限定，不补成安氏亲兄弟或少帝亲舅父。",
+        "相邻本传的母丧、军职与家财助军属于安彦威，不移为安太妃经历。"
+      ]
+    }
+  ]
+}
