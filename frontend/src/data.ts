@@ -1,6 +1,6 @@
 import { libraryBooks } from './library.ts';
 import { catalogPeople, personDisplayPeriod, personMatchesGroup, personTopicKeywords } from './person-catalog.ts';
-import { personSearchNames } from './person-search-names.ts';
+import { matchesPersonSearch, personSearchNames } from './person-search-names.ts';
 import type { Dynasty, FiveDynasty, TenKingdomDynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
 // The person index includes the authorized Ten Kingdoms expansion; other eras remain hidden.
@@ -45,6 +45,6 @@ export const searchItems: SearchItem[] = [
 ];
 
 export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {
-  const needle = query.trim().toLowerCase();
-  return searchItems.filter(item => (type === 'all' || item.type === type) && (!needle || `${item.name} ${item.summary} ${item.keywords}`.toLowerCase().includes(needle)));
+  return searchItems.filter(item => (type === 'all' || item.type === type)
+    && matchesPersonSearch(query, [`${item.name} ${item.summary} ${item.keywords}`]));
 }

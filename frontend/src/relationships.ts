@@ -1,5 +1,5 @@
 import { catalogPeople } from './person-catalog.ts';
-import { personSearchNames } from './person-search-names.ts';
+import { matchesPersonSearch, personSearchNames } from './person-search-names.ts';
 import tenKingdomsRelationships from '../../content/person-relationships/ten-kingdoms.json' with { type: 'json' };
 import reviewedRulerRelationships from '../../content/person-relationships/reviewed-rulers.json' with { type: 'json' };
 import palaceRelationships from '../../content/person-relationships/palace.json' with { type: 'json' };
@@ -3652,14 +3652,13 @@ export function searchRelationshipNodes(
   nodes: readonly RelationshipNode[] = relationshipNodes,
   people: readonly Pick<HistoryPerson, 'id' | 'aliases'>[] = catalogPeople,
 ): RelationshipNode[] {
-  const normalizedQuery = query.trim().toLocaleLowerCase();
-  if (!normalizedQuery) return [];
+  if (!query.trim()) return [];
   const aliasesById = new Map(people.map(person => [person.id, person.aliases]));
   const seenIds = new Set<string>();
   return nodes.filter(node => {
     if (!node.id.trim() || seenIds.has(node.id)) return false;
     seenIds.add(node.id);
-    return [node.name, ...(node.aliases ?? []), aliasesById.get(node.id) ?? '', ...personSearchNames(node.id)]
-      .some(text => text.toLocaleLowerCase().includes(normalizedQuery));
+    return matchesPersonSearch(query, [node.name, ...(node.aliases ?? []),
+      aliasesById.get(node.id) ?? '', ...personSearchNames(node.id)]);
   });
 }
