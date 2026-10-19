@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-princess-lean",
+  "events": [
+    {
+      "id": "zhou-guo-wei-princess-lean-lean-conferral",
+      "title": "身后追封乐安公主",
+      "summary": "郭威第三女获身后追封乐安公主。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "广顺元年二月庚子",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p1",
+          "originalRevision": 1,
+          "originalSha256": "b0d856d0e065a8a3dc86ad90d393888299fc65c674adac12cb19b50f844dc52b",
+          "excerpt": "故皇第三女追封樂安公主；"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-princess-lean-juguo-conferral",
+      "title": "身后追册莒国长公主",
+      "summary": "世宗追册故第三妹乐安公主为莒国长公主。",
+      "year": 957,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "显德四年四月癸未",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v117",
+          "paragraphId": "old-v117-p4",
+          "originalRevision": 1,
+          "originalSha256": "8ffa75283689b89c0b72524ea53012cfc56a62b4ee48358ab039ccbb24a42aa9",
+          "excerpt": "故皇第三妹樂安公主追冊莒國長公主，"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-princess-lean-killed-by-han",
+      "title": "为汉室所害",
+      "summary": "会要及旧史夹引明确记其为汉室所害；未记母系及独立卒日。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "为汉室所害，具体年月未详；广顺元年二月追封前已故",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p22",
+          "originalRevision": 1,
+          "originalSha256": "3a84a63ba91a02b8da7348f7301ee2d7fe6fb27cd8455afd789b74c751017c67",
+          "excerpt": "周太祖第三女樂安公主，〈為漢室所害，"
+        }
+      ]
+    }
+  ]
+}

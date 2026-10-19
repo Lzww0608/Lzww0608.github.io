@@ -27,15 +27,23 @@ HAN_HOUSEHOLD_FIXTURES = {
     'old-v104': (1567204, 3, 807, '717712a0b573cc75fa97497007f08064caceaacf835b6ac3a94aaf1a926e3508', 'd7164cec8fafef528a0278c140eeb554373c3c6767cdea4b2d86e055cbed9e14'),
     'new-v18': (1699189, 19, 2167, 'dbbe45b8180426d2a19dbc7a1ff79b27c3733fb2dd29344061d40261dbd14aa5', '313f4feb2b3061cb08939cc30fcbd7689953ae4faa2738bda3fba030c12b82ff'),
 }
-HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES}
+ZHOU_HOUSEHOLD_FIXTURES = {
+    'old-v121': (1567208, 11, 2817, '5000c08c812ef140aeade72b3913319087ac55042f2c2208501cd1fc3a634dcc', '39c54cc6bb4a5698cac850f51e3893866059ea73e3df55540b67e1cac3835eb8'),
+    'new-v19': (1699202, 17, 1301, '10ba063216f73d5d7076b0eb9fde8c65584340a5e973a9aab26d3b2bbd2808de', '423a0d33c473b59280a44b2ef6bbaa1b70d3d78f0920d5ff4fd2691ca0cc41bc'),
+}
+ZHOU_HOUSEHOLD_BOUNDARIES = {
+    'old-v121': ('后妃', '又追封梁國長公主。）〉'),
+    'new-v19': ('皇后柴氏', '一作「太保」，一作「太尉」。待考。'),
+}
+HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
     def test_household_volumes_are_complete_fixed_revision_archives(self):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 93)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 40)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 94)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 41)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]
@@ -58,6 +66,10 @@ class SourceIntegrityTests(unittest.TestCase):
                 self.assertEqual([p['original'] for p in contents['paragraphs']], archive.extract(payload['response']['parse']['text']['*']))
                 self.assertEqual(sum(len(p['original']) for p in contents['paragraphs']), characters)
                 self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in contents['paragraphs']))
+                if chapter_id in ZHOU_HOUSEHOLD_BOUNDARIES:
+                    opening, ending = ZHOU_HOUSEHOLD_BOUNDARIES[chapter_id]
+                    self.assertEqual(contents['paragraphs'][0]['original'], opening)
+                    self.assertTrue(contents['paragraphs'][-1]['original'].endswith(ending))
 
     def test_household_cached_captures_do_not_refetch_or_rewrite(self):
         specs = {s['id']: s for s in archive.SPECS}

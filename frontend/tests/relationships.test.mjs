@@ -186,7 +186,7 @@ test('new catalog people automatically become graph nodes without duplicate pers
   ]);
   const contextNodes = Object.freeze([
     Object.freeze({ id: 'fixture-a', name: '旧关联甲', external: true }),
-    Object.freeze({ id: 'fixture-context', name: '测试关联人物', external: true }),
+    Object.freeze({ id: 'fixture-context', name: '测试关联人物' }),
     Object.freeze({ id: 'fixture-context', name: '重复关联人物', external: true }),
   ]);
   assert.deepEqual(buildRelationshipNodes(people, contextNodes), [
@@ -194,6 +194,7 @@ test('new catalog people automatically become graph nodes without duplicate pers
     { id: 'fixture-b', name: '测试人物乙', group: '后唐' },
     { id: 'fixture-context', name: '测试关联人物', external: true, group: '关联人物' },
   ]);
+  assert.equal(Object.hasOwn(contextNodes[1], 'external'), false);
   const added = { ...catalogPeople[0], id: 'fixture-new-person', name: '新增测试人物' };
   const nodes = buildRelationshipNodes([...catalogPeople, added]);
   assert.deepEqual(nodes.find(node => node.id === added.id), {

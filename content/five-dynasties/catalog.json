@@ -11,7 +11,7 @@
       "author": "北宋 · 薛居正等撰",
       "kind": "正史 · 纪传体",
       "image": "/images/old-five-dynasties.webp",
-      "description": "五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 93 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
+      "description": "五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 94 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。",
       "defaultChapter": "old-v001",
       "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12、梁唐晋汉家人传卷 13—18、相关人物列传及十国世家卷 61—70；共 40 卷，合传均整卷保留，不表示 74 卷全本已收录。",
+      "description": "五代皇帝本纪卷 1—12、梁唐晋汉及周太祖家人传卷 13—19、相关人物列传及十国世家卷 61—70；共 41 卷，合传均整卷保留，不表示 74 卷全本已收录。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -2111,7 +2111,8 @@
         "zhou-guo-wei-ancestress-shen-mingxiao",
         "zhou-guo-wei-ancestress-han-yijing",
         "zhou-guo-wei-mother-wang",
-        "zhou-guo-wei-aunt-han"
+        "zhou-guo-wei-aunt-han",
+        "zhou-guo-wei-empress-chai"
       ],
       "position": 110,
       "scope": "full",
@@ -2140,7 +2141,14 @@
         "liu-min-northern-han",
         "liu-chengjun",
         "tang-li-siyuan-shufei-wang",
-        "han-liu-zhiyuan-empress-li"
+        "han-liu-zhiyuan-empress-li",
+        "zhou-guo-wei-consort-zhang",
+        "zhou-guo-wei-princess-lean",
+        "zhou-guo-wei-consort-dong",
+        "zhou-guo-wei-princess-shouan",
+        "zhou-guo-wei-empress-chai",
+        "zhou-guo-wei-consort-yang",
+        "zhou-guo-wei-princess-yongning"
       ],
       "position": 111,
       "scope": "full",
@@ -2176,7 +2184,9 @@
         "tang-nun-huideng",
         "tang-nun-huineng",
         "tang-nun-huiyan",
-        "han-liu-zhiyuan-empress-li"
+        "han-liu-zhiyuan-empress-li",
+        "zhou-guo-wei-consort-zhang",
+        "zhou-guo-wei-consort-dong"
       ],
       "position": 112,
       "scope": "full",
@@ -2230,7 +2240,9 @@
         "qian-hongchu",
         "gao-baorong",
         "gao-baoxu",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "zhou-guo-wei-empress-chai",
+        "zhou-guo-wei-princess-shouan"
       ],
       "position": 114,
       "scope": "full",
@@ -2308,7 +2320,9 @@
       "subjects": [
         "chai-rong",
         "li-jing-southern-tang",
-        "meng-chang"
+        "meng-chang",
+        "zhou-guo-wei-princess-lean",
+        "zhou-guo-wei-princess-yongning"
       ],
       "position": 117,
       "scope": "full",
@@ -2365,7 +2379,8 @@
         "chai-rong",
         "li-jing-southern-tang",
         "qian-hongchu",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "zhou-guo-wei-princess-shouan"
       ],
       "position": 119,
       "scope": "full",
@@ -3010,7 +3025,8 @@
         "zhou-guo-wei-ancestress-zhang-ruigong",
         "zhou-guo-wei-ancestress-shen-mingxiao",
         "zhou-guo-wei-ancestress-han-yijing",
-        "zhou-guo-wei-mother-wang"
+        "zhou-guo-wei-mother-wang",
+        "zhou-guo-wei-consort-dong"
       ],
       "position": 11,
       "scope": "full",
@@ -3038,7 +3054,8 @@
         "chai-zongxun",
         "ren-huan",
         "li-jing-southern-tang",
-        "liu-min-northern-han"
+        "liu-min-northern-han",
+        "zhou-guo-wei-empress-chai"
       ],
       "position": 12,
       "scope": "full",
@@ -6260,7 +6277,8 @@
         "han-xizai",
         "xu-xuan",
         "han-liu-zhiyuan-empress-li",
-        "han-liu-yun-consort-dong"
+        "han-liu-yun-consort-dong",
+        "zhou-guo-wei-empress-chai"
       ],
       "position": 290,
       "scope": "full",
@@ -6976,7 +6994,11 @@
         "zhou-guo-wei-ancestress-zhang-ruigong",
         "zhou-guo-wei-ancestress-shen-mingxiao",
         "zhou-guo-wei-ancestress-han-yijing",
-        "zhou-guo-wei-mother-wang"
+        "zhou-guo-wei-mother-wang",
+        "zhou-guo-wei-empress-chai",
+        "zhou-guo-wei-consort-zhang",
+        "zhou-guo-wei-consort-yang",
+        "zhou-guo-wei-consort-dong"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -7028,7 +7050,10 @@
         "jin-xianzhu-xinping",
         "jin-xianzhu-qiancheng",
         "jin-xianzhu-yongqing",
-        "han-liu-zhiyuan-princess-yongning"
+        "han-liu-zhiyuan-princess-yongning",
+        "zhou-guo-wei-princess-lean",
+        "zhou-guo-wei-princess-shouan",
+        "zhou-guo-wei-princess-yongning"
       ],
       "scope": "full",
       "paragraphCount": 67,
@@ -8074,7 +8099,8 @@
         "zhuo-yanming",
         "song-qiqiu",
         "tang-li-congke-empress-liu",
-        "han-liu-zhiyuan-empress-li"
+        "han-liu-zhiyuan-empress-li",
+        "zhou-guo-wei-empress-chai"
       ],
       "position": 30,
       "scope": "full",
@@ -8631,6 +8657,79 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B718&action=history",
         "sourceSha256": "dbbe45b8180426d2a19dbc7a1ff79b27c3733fb2dd29344061d40261dbd14aa5",
         "chapterSha256": "313f4feb2b3061cb08939cc30fcbd7689953ae4faa2738bda3fba030c12b82ff"
+      }
+    },
+    {
+      "id": "old-v121",
+      "bookId": "old",
+      "volume": 121,
+      "title": "卷 121 · 周书列传一（后妃）",
+      "subjects": [
+        "li-cunxu",
+        "li-siyuan",
+        "guo-wei",
+        "chai-rong",
+        "zhou-guo-wei-empress-chai",
+        "zhou-guo-wei-consort-yang",
+        "zhou-guo-wei-consort-zhang",
+        "zhou-guo-wei-consort-dong",
+        "liu-zhiyuan",
+        "liu-chengyou",
+        "fu-cunshen",
+        "zhou-guo-wei-dong-foster-mother",
+        "li-keyong",
+        "zhou-guo-wei-princess-lean",
+        "zhou-guo-wei-princess-shouan",
+        "zhou-guo-wei-princess-yongning"
+      ],
+      "position": 121,
+      "scope": "full",
+      "paragraphCount": 11,
+      "characterCount": 2817,
+      "provenance": {
+        "pageTitle": "舊五代史/卷121",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7121&oldid=1567208",
+        "revisionId": 1567208,
+        "fetchedAt": "2026-10-19T14:08:39.922005+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7121&action=history",
+        "sourceSha256": "5000c08c812ef140aeade72b3913319087ac55042f2c2208501cd1fc3a634dcc",
+        "chapterSha256": "39c54cc6bb4a5698cac850f51e3893866059ea73e3df55540b67e1cac3835eb8"
+      }
+    },
+    {
+      "id": "new-v19",
+      "bookId": "new",
+      "volume": 19,
+      "title": "卷 19 · 周太祖家人传第七",
+      "subjects": [
+        "guo-wei",
+        "zhou-guo-wei-empress-chai",
+        "liu-zhiyuan",
+        "zhou-guo-wei-consort-yang",
+        "chai-rong",
+        "liu-min-northern-han",
+        "zhou-guo-wei-consort-zhang",
+        "zhou-guo-wei-consort-dong",
+        "li-cunxu",
+        "fu-cunshen",
+        "zhou-guo-wei-dong-foster-mother"
+      ],
+      "position": 19,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 1301,
+      "provenance": {
+        "pageTitle": "新五代史/卷19",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B719&oldid=1699202",
+        "revisionId": 1699202,
+        "fetchedAt": "2026-10-19T14:08:41.128113+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B719&action=history",
+        "sourceSha256": "10ba063216f73d5d7076b0eb9fde8c65584340a5e973a9aab26d3b2bbd2808de",
+        "chapterSha256": "423a0d33c473b59280a44b2ef6bbaa1b70d3d78f0920d5ff4fd2691ca0cc41bc"
       }
     }
   ]

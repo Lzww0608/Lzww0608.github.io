@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-consort-zhang",
+  "events": [
+    {
+      "id": "zhou-guo-wei-consort-zhang-posthumous-guifei",
+      "title": "身后追赠贵妃",
+      "summary": "吴国夫人张氏获追赠贵妃，后又为之举哀。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "广顺元年二月庚子；四月庚申举哀",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p1",
+          "originalRevision": 1,
+          "originalSha256": "b0d856d0e065a8a3dc86ad90d393888299fc65c674adac12cb19b50f844dc52b",
+          "excerpt": "庚子，故吳國夫人張氏追贈貴妃；"
+        },
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p3",
+          "originalRevision": 1,
+          "originalSha256": "ca95f2a0a896eed032a0ccaa5c116dbb3e3d086bd2f28f2ec498a2be37c9a319",
+          "excerpt": "庚申，帝為故貴妃張氏舉哀於舊宮，輟視朝三日。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang-burial",
+      "title": "身后安葬",
+      "summary": "本纪记安葬故贵妃张氏。",
+      "year": 952,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "广顺元年十一月甲申",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v112",
+          "paragraphId": "old-v112-p2",
+          "originalRevision": 1,
+          "originalSha256": "01567e8ac5e56147f2f7de9a67199d4dde26604ac768b3097c95cf3004f2e515",
+          "excerpt": "甲申，葬故貴妃張氏。"
+        }
+      ],
+      "notes": [
+        "本条西历年份采用格里历年；原纪年仍为广顺元年十一月甲申。"
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang-first-marriage",
+      "title": "嫁武从谏之子",
+      "summary": "张氏年幼时由武从谏为其子聘娶，武氏子姓名未详。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "镇州乱后，婚期未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p5",
+          "originalRevision": 1,
+          "originalSha256": "d07cc24dd131868cf6a5e14acdac84eb6d6ea00d9a8d9676e4d6354d83547a10",
+          "excerpt": "時妃年尚幼，有幽州偏將武從諫者，駐騑於家，見妃韶令，乃為其子聘之。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang-guo-marriage",
+      "title": "为郭威继室，封吴国夫人",
+      "summary": "杨氏去世、武氏子也亡后，郭威纳张氏为继室；其后累封吴国夫人。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "太祖从汉祖镇并门时及后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v19",
+          "paragraphId": "new-v19-p9",
+          "originalRevision": 1,
+          "originalSha256": "26ee67d68ac49c8a7068dbb3b860e4bfa249a207b1cbfcbf3a9f10e97f5c9316",
+          "excerpt": "久之，太祖事漢高祖於太原，楊夫人卒，而武氏子亦卒，乃納妃為繼室。"
+        },
+        {
+          "chapterId": "new-v19",
+          "paragraphId": "new-v19-p9",
+          "originalRevision": 1,
+          "originalSha256": "26ee67d68ac49c8a7068dbb3b860e4bfa249a207b1cbfcbf3a9f10e97f5c9316",
+          "excerpt": "太祖貴，累封吳國夫人。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang-killed-at-capital",
+      "title": "汉末在京师旧第遇害",
+      "summary": "张氏与郭威诸皇属同日遇害；新史合叙与通鉴所记诛家先后分源，不把诸子全归其生育。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "range",
+      "sourceDate": "汉隐帝末；两书诛家叙次分源，具体日未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p5",
+          "originalRevision": 1,
+          "originalSha256": "d07cc24dd131868cf6a5e14acdac84eb6d6ea00d9a8d9676e4d6354d83547a10",
+          "excerpt": "太祖在鄴都被讒，妃與諸皇屬同日遇害於東京舊第。"
+        },
+        {
+          "chapterId": "new-v19",
+          "paragraphId": "new-v19-p15",
+          "originalRevision": 1,
+          "originalSha256": "4e18397ac75dbbafdc07523505975407f31a904160d11d4fb75f07930af284c7",
+          "excerpt": "初，帝舉兵于魏，漢以兵圍帝第，時張貴妃與諸子青哥、意哥，姪守筠、奉超、定哥，皆被誅。"
+        }
+      ],
+      "yearRange": {
+        "start": 950,
+        "end": 951
+      },
+      "variants": [
+        {
+          "label": "新史本纪的奏报后诛家叙次",
+          "sourceDate": "乾祐三年十一月，未记张氏遇害独日",
+          "summary": "本纪在郭威渡河及奏请之后、庚辰至滑州之前叙诛郭家，保本书顺序。",
+          "evidence": [
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "十一月丁丑，威遂舉兵渡河"
+            },
+            {
+              "chapterId": "new-v11",
+              "paragraphId": "new-v11-p8",
+              "originalRevision": 1,
+              "originalSha256": "61b12042a3ea5392ba1805943a80deb8e9ff3105177fad07c56ea0a7bce54162",
+              "excerpt": "隱帝得威奏，以示業等，業等皆言威反狀已白，乃悉誅威家屬于京師。庚辰，威至滑州"
+            }
+          ]
+        },
+        {
+          "label": "通鉴的发兵前诛家叙次",
+          "sourceDate": "乾祐三年十一月，诛家记于丁丑、戊寅发兵叙事之前",
+          "summary": "通鉴先叙李业等命刘铢诛郭家，后接丁丑使者至澶与戊寅郭威发兵；不与新史拼唯一女方遇害日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v289",
+              "paragraphId": "tongjian-v289-p50",
+              "originalRevision": 1,
+              "originalSha256": "b852aa90ebf5322e5a0d4ae9bf1364efafc3271805f75b476c85cfcd09e73b16",
+              "excerpt": "業等命劉銖誅郭威、王峻之家，銖極其慘毒，嬰孺無免者。"
+            },
+            {
+              "chapterId": "tongjian-v289",
+              "paragraphId": "tongjian-v289-p51",
+              "originalRevision": 1,
+              "originalSha256": "d89cee263b2b87dbc0c0ae6eab14af2dc2dd56b9102c922aebfdbc04b619745b",
+              "excerpt": "丁丑，使者至澶州"
+            },
+            {
+              "chapterId": "tongjian-v289",
+              "paragraphId": "tongjian-v289-p51",
+              "originalRevision": 1,
+              "originalSha256": "d89cee263b2b87dbc0c0ae6eab14af2dc2dd56b9102c922aebfdbc04b619745b",
+              "excerpt": "戊寅，自將大軍繼之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang-memorial-house",
+      "title": "遇害旧第施为皇建僧院",
+      "summary": "世宗以张氏遇害旧第施为僧院，名皇建。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "世宗嗣位后，具体年月未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p5",
+          "originalRevision": 1,
+          "originalSha256": "d07cc24dd131868cf6a5e14acdac84eb6d6ea00d9a8d9676e4d6354d83547a10",
+          "excerpt": "世宗嗣位，以太祖舊宅即妃遇禍之地，因施為僧院，以皇建為名焉。"
+        }
+      ]
+    }
+  ]
+}

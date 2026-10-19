@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-empress-chai",
+  "events": [
+    {
+      "id": "zhou-guo-wei-empress-chai-posthumous-empress",
+      "title": "身后追册皇后，谥圣穆",
+      "summary": "郭威即位后追命故夫人柴氏为皇后，有司上谥圣穆；本纪和通鉴记八月戊午追立。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "广顺元年八月戊午；本传太祖即位后",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p6",
+          "originalRevision": 1,
+          "originalSha256": "f3822fbefb6534c54887ff3d225ac5fc990a0b82b03bbfdca612eb9eb3b15e20",
+          "excerpt": "戊午，故夫人柴氏追立為皇后，仍令所司定謚，備禮冊命。"
+        },
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p2",
+          "originalRevision": 1,
+          "originalSha256": "7079074e6c3c03bac7dd0c1b1189c6d5b1dbaebda2d6c9eb2632472ee1ba9ae2",
+          "excerpt": "既而有司上謚曰聖穆。"
+        },
+        {
+          "chapterId": "tongjian-v290",
+          "paragraphId": "tongjian-v290-p58",
+          "originalRevision": 1,
+          "originalSha256": "7c26451d423b5ffc4428aa9db64d16cac009c1a400452e88a758551ad449915f",
+          "excerpt": "戊午，追立故夫人柴氏為皇后。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-empress-chai-temple-associated",
+      "title": "神主配祔太祖庙室",
+      "summary": "太祖神主入庙时，柴氏神主配祔于其室。",
+      "year": 954,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "显德初（本传）；显德元年四月丙寅太祖神主祔庙（本纪时间控制）",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p2",
+          "originalRevision": 1,
+          "originalSha256": "7079074e6c3c03bac7dd0c1b1189c6d5b1dbaebda2d6c9eb2632472ee1ba9ae2",
+          "excerpt": "顯德初，太祖神主入廟，以後祔於其室。"
+        },
+        {
+          "chapterId": "old-v114",
+          "paragraphId": "old-v114-p8",
+          "originalRevision": 1,
+          "originalSha256": "2537fd4fdd80d0e142935330f2e58d8053a6b03d82faac29b3209f66e2f679ce",
+          "excerpt": "丙寅，太祖皇帝神主祔於太廟。"
+        }
+      ],
+      "notes": [
+        "女性配祔直接见本传；本纪仅为太祖神主入庙的时间控制，不将该句当成另记女后配祔。"
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-empress-chai-marriage",
+      "title": "嫁郭威",
+      "summary": "旧史记郭威微时在洛阳闻贤聘娶；新史记同里而归，夹引另记宫人遣归后逆旅成婚。各说为同一婚家事的不同叙述。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "微时，婚期未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p2",
+          "originalRevision": 1,
+          "originalSha256": "7079074e6c3c03bac7dd0c1b1189c6d5b1dbaebda2d6c9eb2632472ee1ba9ae2",
+          "excerpt": "太祖微時，在洛陽聞後賢淑，遂聘之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史同里而归",
+          "summary": "新史记尧山同里。",
+          "evidence": [
+            {
+              "chapterId": "new-v19",
+              "paragraphId": "new-v19-p2",
+              "originalRevision": 1,
+              "originalSha256": "5419afc2f11c3ff2ba6f8ba89c0705c633f3a63639d0a44c9263134a3fa74cdf",
+              "excerpt": "聖穆皇后柴氏，邢州堯山人也，與太祖同里，遂以歸焉。"
+            }
+          ],
+          "sourceDate": "本传同里而归，婚期未详"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-empress-chai-support-and-admonish",
+      "title": "携财相助并规谏郭威",
+      "summary": "原书记其携财相从，在郭威饮博任侠、不拘细行时加以规谏；不以异闻代替实际内助。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "郭威未显贵时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v110",
+          "paragraphId": "old-v110-p3",
+          "originalRevision": 1,
+          "originalSha256": "b60e95b71200f2086c85604dcbc527910e77930c5e237f5a6786b1b16c2c961a",
+          "excerpt": "初，聖穆皇后嬪於帝，帝方匱乏，而後多資從。"
+        },
+        {
+          "chapterId": "new-v19",
+          "paragraphId": "new-v19-p2",
+          "originalRevision": 1,
+          "originalSha256": "5419afc2f11c3ff2ba6f8ba89c0705c633f3a63639d0a44c9263134a3fa74cdf",
+          "excerpt": "太祖微時，喜飲博任俠，不拘細行，后常諫止之。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-empress-chai-care-nephew",
+      "title": "疼爱侄子柴荣",
+      "summary": "柴荣幼年随姑母柴氏在郭家长大，柴氏疼爱他；郭威的收养是另一关系，不写作柴氏生育。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "柴荣幼年，具体年月未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p2",
+          "originalRevision": 1,
+          "originalSha256": "7079074e6c3c03bac7dd0c1b1189c6d5b1dbaebda2d6c9eb2632472ee1ba9ae2",
+          "excerpt": "世宗皇帝即後之侄也，幼而謹願，後甚憐之，故太祖養之為己子。"
+        },
+        {
+          "chapterId": "new-v12",
+          "paragraphId": "new-v12-p1",
+          "originalRevision": 1,
+          "originalSha256": "8a9ed660f752b17a8a322698c3d79d33530e2bf9a32721ebad009cd2067f6811",
+          "excerpt": "后兄守禮子榮，幼從姑長太祖家，以謹厚見愛，太祖遂以為子。"
+        }
+      ]
+    }
+  ]
+}

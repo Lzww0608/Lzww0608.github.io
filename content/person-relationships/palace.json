@@ -6698,5 +6698,213 @@
         "title": "旧五代史 · 卷 110 · 周太祖纪1"
       }
     ]
+  },
+  {
+    "id": "zhou-guo-wei-empress-chai-guo-marriage",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-empress-chai",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "柴氏为郭威配偶，皇后为她身后追册名号。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p2",
+        "excerpt": "聖穆皇后柴氏，邢州堯山人也，與太祖同里，遂以歸焉。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-yang-guo-marriage",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-consort-yang",
+    "kind": "kinship",
+    "label": "夫妻（继室）",
+    "note": "柴氏卒后，杨氏成为郭威继室；前婚石光辅另记。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p4",
+        "excerpt": "太祖柴夫人卒，聞妃有色而賢，遂娶之為繼室。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-zhang-guo-marriage",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-consort-zhang",
+    "kind": "kinship",
+    "label": "夫妻（继室）",
+    "note": "杨氏和武氏子去世后，郭威纳张氏为继室。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p9",
+        "excerpt": "久之，太祖事漢高祖於太原，楊夫人卒，而武氏子亦卒，乃納妃為繼室。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-dong-guo-marriage",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-consort-dong",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "郭威随汉高祖过洛时聘娶董氏，后册德妃；中宫虚位不等于已立皇后。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p13",
+        "excerpt": "漢高祖由太原入京師，太祖從，過洛陽，聞妃有賢行，聘之。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-princess-lean-father",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-princess-lean",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "按会要所记周太祖第三女，母未详。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p22",
+        "excerpt": "周太祖第三女樂安公主，",
+        "title": "五代会要 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-princess-shouan-father",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-princess-shouan",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "按同条周太祖第四女，母未详；张氏不作生姓。",
+    "sources": [
+      {
+        "chapterId": "old-v111",
+        "paragraphId": "old-v111-p3",
+        "excerpt": "庚戌，皇第四女封壽安公主。",
+        "title": "旧五代史 · 卷 111 · 周太祖纪2"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-princess-yongning-father",
+    "from": "guo-wei",
+    "to": "zhou-guo-wei-princess-yongning",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "按同条周太祖第五女，未记母系。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p22",
+        "excerpt": "第五女永寧公主。",
+        "title": "五代会要 · 卷 2"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-dong-foster-mother-dong-fostering",
+    "from": "zhou-guo-wei-dong-foster-mother",
+    "to": "zhou-guo-wei-consort-dong",
+    "kind": "adoption",
+    "label": "养育",
+    "note": "潞州牙将妻养育失散董氏，非生母；所生女未养活不等于没有生育。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p12",
+        "excerpt": "潞將妻嘗生女，輒不育，得妃憐之，養以為子，過於所生。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-empress-chai-chai-rong-aunt",
+    "from": "zhou-guo-wei-empress-chai",
+    "to": "chai-rong",
+    "kind": "kinship",
+    "label": "姑侄亲属",
+    "note": "新史记柴守礼为后兄、荣为其子；与既有郭威收养柴荣的关系分开。",
+    "sources": [
+      {
+        "chapterId": "new-v12",
+        "paragraphId": "new-v12-p1",
+        "excerpt": "后兄守禮子榮，幼從姑長太祖家，以謹厚見愛，太祖遂以為子。",
+        "title": "新五代史 · 卷 12 · 周本纪第十二（兼载恭帝）"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-yang-shi-marriage",
+    "from": "zhou-shi-guangfu",
+    "to": "zhou-guo-wei-consort-yang",
+    "kind": "kinship",
+    "label": "夫妻（前婚）",
+    "note": "两史记同乡石光辅为杨氏前夫，数年后卒。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p4",
+        "excerpt": "鎔為張文禮所殺，鎮州亂，妃亦流寓民間，後嫁里人石光輔，居數年，光輔死。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-zhang-wu-marriage",
+    "from": "zhou-wu-congjian-son",
+    "to": "zhou-guo-wei-consort-zhang",
+    "kind": "kinship",
+    "label": "夫妻（前婚）",
+    "note": "丈夫是武从谏之子，非武从谏本人；子姓名未详。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p8",
+        "excerpt": "遂以妃歸，為其子婦。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-consort-dong-liu-marriage",
+    "from": "zhou-liu-jinchao",
+    "to": "zhou-guo-wei-consort-dong",
+    "kind": "kinship",
+    "label": "夫妻（前婚）",
+    "note": "董氏归家后嫁刘进超，后夫亡而寡居洛阳。",
+    "sources": [
+      {
+        "chapterId": "new-v19",
+        "paragraphId": "new-v19-p13",
+        "excerpt": "瑀以嫁里人劉進超，進超亦仕晉為內職。",
+        "title": "新五代史 · 卷 19 · 周太祖家人传第七"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-princess-shouan-zhang-yongde-marriage",
+    "from": "zhang-yongde",
+    "to": "zhou-guo-wei-princess-shouan",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "寿安公主下嫁张永德，婚期未详，不将张永德军政行为归公主。",
+    "sources": [
+      {
+        "chapterId": "huiyao-v002",
+        "paragraphId": "huiyao-v002-p22",
+        "excerpt": "第四女夀安公主〈降張永德，",
+        "title": "五代会要 · 卷 2"
+      }
+    ]
   }
 ]

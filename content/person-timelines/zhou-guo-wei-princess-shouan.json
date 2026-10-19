@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-princess-shouan",
+  "events": [
+    {
+      "id": "zhou-guo-wei-princess-shouan-shouan-conferral",
+      "title": "封寿安公主",
+      "summary": "郭威第四女获封寿安公主。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "广顺元年四月庚戌",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p3",
+          "originalRevision": 1,
+          "originalSha256": "ca95f2a0a896eed032a0ccaa5c116dbb3e3d086bd2f28f2ec498a2be37c9a319",
+          "excerpt": "庚戌，皇第四女封壽安公主。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-princess-shouan-jinguo-conferral",
+      "title": "进封晋国长公主",
+      "summary": "世宗进封寿安公主为晋国长公主。",
+      "year": 954,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "显德元年四月甲子",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v114",
+          "paragraphId": "old-v114-p8",
+          "originalRevision": 1,
+          "originalSha256": "2537fd4fdd80d0e142935330f2e58d8053a6b03d82faac29b3209f66e2f679ce",
+          "excerpt": "甲子，皇妹壽安公主張氏進封晉國長公主。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-princess-shouan-marriage",
+      "title": "下嫁张永德",
+      "summary": "会要及旧史引文记第四女寿安公主下嫁张永德，婚期未详。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "婚期未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v002",
+          "paragraphId": "huiyao-v002-p22",
+          "originalRevision": 1,
+          "originalSha256": "3a84a63ba91a02b8da7348f7301ee2d7fe6fb27cd8455afd789b74c751017c67",
+          "excerpt": "第四女夀安公主〈降張永德，"
+        }
+      ]
+    }
+  ]
+}

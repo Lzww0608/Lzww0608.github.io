@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 211,
-    "paragraphCount": 8888
+    "chapterCount": 213,
+    "paragraphCount": 8916
   },
   "people": [
     {
@@ -1470,6 +1470,38 @@
     {
       "id": "zhou-guo-wei-aunt-han",
       "name": "韩氏（周太祖姨母、楚国夫人）"
+    },
+    {
+      "id": "zhou-guo-wei-empress-chai",
+      "name": "柴氏（周圣穆皇后）"
+    },
+    {
+      "id": "zhou-guo-wei-consort-yang",
+      "name": "杨氏（周淑妃）"
+    },
+    {
+      "id": "zhou-guo-wei-consort-zhang",
+      "name": "张氏（周贵妃）"
+    },
+    {
+      "id": "zhou-guo-wei-consort-dong",
+      "name": "董氏（周德妃）"
+    },
+    {
+      "id": "zhou-guo-wei-princess-lean",
+      "name": "乐安公主（周太祖第三女）"
+    },
+    {
+      "id": "zhou-guo-wei-princess-shouan",
+      "name": "寿安公主（周太祖第四女）"
+    },
+    {
+      "id": "zhou-guo-wei-princess-yongning",
+      "name": "永宁公主（周太祖第五女）"
+    },
+    {
+      "id": "zhou-guo-wei-dong-foster-mother",
+      "name": "潞州牙将之妻（董德妃养育者，失名）"
     }
   ],
   "passages": [
@@ -5414,6 +5446,10 @@
         {
           "personId": "gao-baorong",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
         }
       ]
     },
@@ -6442,6 +6478,18 @@
         {
           "personId": "guo-wei",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
         }
       ]
     },
@@ -6961,6 +7009,18 @@
       "people": [
         {
           "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-lean",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-shouan",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-yongning",
           "kind": "record"
         }
       ]
@@ -21102,6 +21162,10 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
         }
       ]
     },
@@ -28454,6 +28518,10 @@
         {
           "personId": "zhou-guo-wei-mother-wang",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
         }
       ]
     },
@@ -28538,6 +28606,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
         }
       ]
     },
@@ -33601,6 +33673,330 @@
       "people": [
         {
           "personId": "guo-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p2",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p2",
+          "originalRevision": 1,
+          "originalSha256": "5419afc2f11c3ff2ba6f8ba89c0705c633f3a63639d0a44c9263134a3fa74cdf",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p4",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p4",
+          "originalRevision": 1,
+          "originalSha256": "2da64a23d152233ff476456c55e1c479dc94817830e2bba6190646795a8aefed",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p5",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p5",
+          "originalRevision": 1,
+          "originalSha256": "ae13e2f527e5f1edd4c62c01d75d96b0571b90caa5160e9446d5ff355c016062",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p6",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p6",
+          "originalRevision": 1,
+          "originalSha256": "eff32c71dfaf72b70709f78af19e50aa0d8339aaf32b1002e4c48423a94bc1c3",
+          "start": 0,
+          "end": 74
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p8",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p8",
+          "originalRevision": 1,
+          "originalSha256": "adb248edd062eadce4257f9624a8470f08a66f23f26f552cba0069993f276e65",
+          "start": 0,
+          "end": 111
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p9",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p9",
+          "originalRevision": 1,
+          "originalSha256": "26ee67d68ac49c8a7068dbb3b860e4bfa249a207b1cbfcbf3a9f10e97f5c9316",
+          "start": 0,
+          "end": 77
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p11",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p11",
+          "originalRevision": 1,
+          "originalSha256": "cb4e0d4d3aa93cebc9de8af70c772eb56d06abb0a8db46f6ab87f88a86698655",
+          "start": 0,
+          "end": 51
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p12",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p12",
+          "originalRevision": 1,
+          "originalSha256": "ee1087d45cfa7ab9189de4e568751b62a9221025f2e7b5cf6a9c407244847f0a",
+          "start": 0,
+          "end": 96
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-dong-foster-mother",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p13",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p13",
+          "originalRevision": 1,
+          "originalSha256": "ac08d99622e208e66ac8dd14a51904081bc275b859fa14f7cddf6426d9cc2ae9",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p14",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p14",
+          "originalRevision": 1,
+          "originalSha256": "e16beddb2edbd0daec2a7527d04e20ec52493584a3efdeb523b136a3d9ad79c9",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p15",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p15",
+          "originalRevision": 1,
+          "originalSha256": "4e18397ac75dbbafdc07523505975407f31a904160d11d4fb75f07930af284c7",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v19-p16",
+      "chapterId": "new-v19",
+      "title": "卷 19 · 周太祖家人传第七 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "new-v19-p16",
+          "originalRevision": 1,
+          "originalSha256": "37017ba21e7de94ece7a7090633a9accc1e71736372c259e897d183820d179c7",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
           "kind": "record"
         }
       ]
@@ -96110,6 +96506,10 @@
         {
           "personId": "zhu-shouyin",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
         }
       ]
     },
@@ -96630,6 +97030,14 @@
         {
           "personId": "liu-chengjun",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-lean",
+          "kind": "record"
         }
       ]
     },
@@ -96694,6 +97102,18 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-shouan",
+          "kind": "record"
         }
       ]
     },
@@ -96766,6 +97186,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
         }
       ]
     },
@@ -96793,6 +97217,14 @@
         },
         {
           "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-yongning",
           "kind": "record"
         }
       ]
@@ -96877,6 +97309,10 @@
         },
         {
           "personId": "tang-nun-huiyan",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
           "kind": "record"
         }
       ]
@@ -97030,6 +97466,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
         }
       ]
     },
@@ -97114,6 +97554,10 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
         }
       ]
     },
@@ -97566,6 +98010,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
         }
       ]
     },
@@ -97745,6 +98193,10 @@
         },
         {
           "personId": "liu-min-northern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-shouan",
           "kind": "record"
         }
       ]
@@ -98938,6 +99390,14 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-lean",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -99542,6 +100002,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-shouan",
+          "kind": "mention"
         }
       ]
     },
@@ -99846,6 +100310,322 @@
         {
           "personId": "chai-zongxun",
           "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p2",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p2",
+          "originalRevision": 1,
+          "originalSha256": "7079074e6c3c03bac7dd0c1b1189c6d5b1dbaebda2d6c9eb2632472ee1ba9ae2",
+          "start": 0,
+          "end": 568
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p3",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p3",
+          "originalRevision": 1,
+          "originalSha256": "9718d5cd22a32348d204edbbe5d81daacf6077b0ba1af6536598ff529208c175",
+          "start": 0,
+          "end": 429
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p4",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p4",
+          "originalRevision": 1,
+          "originalSha256": "f1e5f824c10756d32ae7f8993ed1f94076cff38f82a10af3249568a932b0b051",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p5",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p5",
+          "originalRevision": 1,
+          "originalSha256": "d07cc24dd131868cf6a5e14acdac84eb6d6ea00d9a8d9676e4d6354d83547a10",
+          "start": 0,
+          "end": 269
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-chengyou",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p6",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p6",
+          "originalRevision": 1,
+          "originalSha256": "b3dfdc650c2129879c0fa1ba17dfe19d7dfe2f211d13bb3bba9c38f42177ed8c",
+          "start": 0,
+          "end": 544
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-zhiyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-dong-foster-mother",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p7",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p7",
+          "originalRevision": 1,
+          "originalSha256": "83592bcb0104374352c4cdfa416b9aec501503cad4ffa3265a77d105cf06957f",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p8",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "start": 0,
+          "end": 111
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p9",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "start": 0,
+          "end": 631
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v121-p11",
+      "chapterId": "old-v121",
+      "title": "卷 121 · 周书列传一（后妃） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "old-v121-p11",
+          "originalRevision": 1,
+          "originalSha256": "d78133c0027e5e5c67c7ea8f5141e6b9bc9f58ff2894f6c430fb708f40b9fd5c",
+          "start": 0,
+          "end": 180
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-consort-dong",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-lean",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-shouan",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-princess-yongning",
+          "kind": "record"
         }
       ]
     },
@@ -142705,6 +143485,26 @@
       "people": [
         {
           "personId": "liu-chengyou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v290-p58",
+      "chapterId": "tongjian-v290",
+      "title": "卷 290 · 后周纪1 · 第 58 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v290-p58",
+          "originalRevision": 1,
+          "originalSha256": "7c26451d423b5ffc4428aa9db64d16cac009c1a400452e88a758551ad449915f",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-empress-chai",
           "kind": "record"
         }
       ]
