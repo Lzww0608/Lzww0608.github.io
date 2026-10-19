@@ -6618,5 +6618,85 @@
         "title": "资治通鉴 · 卷 290 · 后周纪1"
       }
     ]
+  },
+  {
+    "id": "zhou-guo-wei-ancestress-zhang-ruigong-kinship",
+    "from": "zhou-guo-wei-ancestress-zhang-ruigong",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "高祖母与玄孙",
+    "note": "按本纪所列亲属世代保存；身后皇后号不表示生前在位。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p1",
+        "excerpt": "高祖妣張氏，追謚睿恭皇后。",
+        "title": "旧五代史 · 卷 110 · 周太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-ancestress-shen-mingxiao-kinship",
+    "from": "zhou-guo-wei-ancestress-shen-mingxiao",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "曾祖母与曾孙",
+    "note": "按本纪所列亲属世代保存；身后皇后号不表示生前在位。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p1",
+        "excerpt": "曾祖妣鄭國夫人申氏，追謚明孝皇后。",
+        "title": "旧五代史 · 卷 110 · 周太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-ancestress-han-yijing-kinship",
+    "from": "zhou-guo-wei-ancestress-han-yijing",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "祖母与孙",
+    "note": "按本纪所列亲属世代保存；身后皇后号不表示生前在位。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p1",
+        "excerpt": "祖妣陳國夫人韓氏，追謚翼敬皇后。",
+        "title": "旧五代史 · 卷 110 · 周太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-mother-wang-kinship",
+    "from": "zhou-guo-wei-mother-wang",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "本纪明确皇妣后记生帝；生母身份不与或云改姓说拼成唯一父系。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p1",
+        "excerpt": "皇妣燕國夫人王氏，追謚為章德皇后。後以唐天祐元年甲子歲七月二十八日，生帝於堯山之舊宅。",
+        "title": "旧五代史 · 卷 110 · 周太祖纪1"
+      }
+    ]
+  },
+  {
+    "id": "zhou-guo-wei-aunt-han-kinship",
+    "from": "zhou-guo-wei-aunt-han",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "姨甥亲属（鞠养）",
+    "note": "原称姨母并记提携鞠养，只登记与郭威的直接亲属及养育关系，不补两位女性之间的姐妹边。",
+    "sources": [
+      {
+        "chapterId": "old-v110",
+        "paragraphId": "old-v110-p2",
+        "excerpt": "帝未及齠齔，章德太后蚤世，姨母楚國夫人韓氏提攜鞠養。",
+        "title": "旧五代史 · 卷 110 · 周太祖纪1"
+      }
+    ]
   }
 ]

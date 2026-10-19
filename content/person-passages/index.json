@@ -1450,6 +1450,26 @@
     {
       "id": "han-liu-yun-consort-dong",
       "name": "董氏（刘赟妃）"
+    },
+    {
+      "id": "zhou-guo-wei-ancestress-zhang-ruigong",
+      "name": "张氏（周睿恭皇后）"
+    },
+    {
+      "id": "zhou-guo-wei-ancestress-shen-mingxiao",
+      "name": "申氏（周明孝皇后）"
+    },
+    {
+      "id": "zhou-guo-wei-ancestress-han-yijing",
+      "name": "韩氏（周翼敬皇后）"
+    },
+    {
+      "id": "zhou-guo-wei-mother-wang",
+      "name": "王氏（周章德皇后）"
+    },
+    {
+      "id": "zhou-guo-wei-aunt-han",
+      "name": "韩氏（周太祖姨母、楚国夫人）"
     }
   ],
   "passages": [
@@ -5358,6 +5378,10 @@
         {
           "personId": "gao-baorong",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-mother-wang",
+          "kind": "mention"
         }
       ]
     },
@@ -5649,6 +5673,34 @@
         },
         {
           "personId": "han-liu-zhiyuan-ancestress-li-zhaomu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v001-p29",
+      "chapterId": "huiyao-v001",
+      "title": "卷 1 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v001-p29",
+          "originalRevision": 1,
+          "originalSha256": "240e601cdef5fd28913a99b9c536b8f67b91d4ebef72e5695cb66912688c343f",
+          "start": 0,
+          "end": 220
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-guo-wei-ancestress-zhang-ruigong",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-shen-mingxiao",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-han-yijing",
           "kind": "mention"
         }
       ]
@@ -28385,6 +28437,22 @@
         },
         {
           "personId": "han-liu-zhiyuan-empress-li",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-zhang-ruigong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-shen-mingxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-han-yijing",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-mother-wang",
           "kind": "record"
         }
       ]
@@ -95954,6 +96022,22 @@
         {
           "personId": "guo-wei",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-zhang-ruigong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-shen-mingxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-ancestress-han-yijing",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -95981,6 +96065,14 @@
         },
         {
           "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-aunt-han",
           "kind": "record"
         }
       ]

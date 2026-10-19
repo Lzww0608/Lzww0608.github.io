@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-mother-wang",
+  "events": [
+    {
+      "id": "zhou-guo-wei-mother-wang-birth-guowei",
+      "title": "生郭威于尧山旧宅",
+      "summary": "旧史在皇妣王氏之后承记唐天祐元年七月二十八日生帝于尧山旧宅。《会要》亦记郭威母为王氏及同一生日地点；不把书中祥光异闻当作证明。",
+      "year": 904,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "唐天祐元年甲子七月二十八日",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v110",
+          "paragraphId": "old-v110-p1",
+          "originalRevision": 1,
+          "originalSha256": "4fa4350278039dfbe659fa09faa3d1823ce33265c331b8bb26cc98164bb66563",
+          "excerpt": "皇妣燕國夫人王氏，追謚為章德皇后。後以唐天祐元年甲子歲七月二十八日，生帝於堯山之舊宅。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p12",
+          "originalRevision": 1,
+          "originalSha256": "889a7f47666b58caf00ab6bf56c570292a3484f9da15bb08aeacbc7c5e37bfb1",
+          "excerpt": "周太祖聖神恭肅文武孝皇帝姓郭氏，諱威，〈追冊章肅皇帝長子，母追冊章德皇后王氏。〉唐天祐元年七月二十八日，生於邢州堯山之舊宅。"
+        }
+      ],
+      "notes": [
+        "尧山旧宅为本次生育地点，不据此增补王氏籍贯、生年或婚期。"
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-mother-wang-posthumous-honor",
+      "title": "身后追谥章德皇后",
+      "summary": "旧史记广顺初追谥章德皇后；新史广顺元年五月辛未追尊祖妣为皇后，逐名列其谥号。此为身后礼遇，不写生前册立。",
+      "year": 951,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "广顺元年五月辛未（新史）；广顺初（旧史）",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "new-v11",
+          "paragraphId": "new-v11-p10",
+          "originalRevision": 1,
+          "originalSha256": "7c604e5a6a169ae70ae8a0aa68f18b8783e7fde2c7d9d0be81fbc8316f3431cc",
+          "excerpt": "五月辛未，追尊祖考為皇帝，妣為皇后："
+        },
+        {
+          "chapterId": "new-v11",
+          "paragraphId": "new-v11-p10",
+          "originalRevision": 1,
+          "originalSha256": "7c604e5a6a169ae70ae8a0aa68f18b8783e7fde2c7d9d0be81fbc8316f3431cc",
+          "excerpt": "妣王氏謚曰章德"
+        },
+        {
+          "chapterId": "old-v110",
+          "paragraphId": "old-v110-p1",
+          "originalRevision": 1,
+          "originalSha256": "4fa4350278039dfbe659fa09faa3d1823ce33265c331b8bb26cc98164bb66563",
+          "excerpt": "皇妣燕國夫人王氏，追謚為章德皇后。"
+        }
+      ],
+      "notes": [
+        "《会要》同年七月是男祖追尊，女性名号为母称夹注，不据此另造一次女性册礼。"
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-mother-wang-early-death",
+      "title": "郭威未及齠齔时早卒",
+      "summary": "旧史记郭威未及齠齔，章德太后已早世，后由姨母楚国夫人韩氏提携鞠养。死亡年月未载，不依童龄倒算。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "郭威未及齠齔，未详年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v110",
+          "paragraphId": "old-v110-p2",
+          "originalRevision": 1,
+          "originalSha256": "db4aa0028f324ca0b41a6a2358a915c34b1c5b6df4b815447fdc900322156bf6",
+          "excerpt": "帝未及齠齔，章德太后蚤世，姨母楚國夫人韓氏提攜鞠養。"
+        }
+      ]
+    }
+  ]
+}
