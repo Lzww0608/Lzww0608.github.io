@@ -2203,6 +2203,36 @@
       "sortOrder": 88
     },
     {
+      "id": "chai-rong-mourn-unnamed-daughter",
+      "title": "因皇女薨辍朝三日",
+      "summary": "显德六年六月丙子，世宗因皇女去世而辍朝三日。所记丙子为辍朝记日，皇女确切卒日未详。",
+      "year": 959,
+      "sortOrder": 89,
+      "precision": "month",
+      "sourceDate": "显德六年六月丙子（辍朝记日）",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v119",
+          "paragraphId": "old-v119-p6",
+          "originalRevision": 1,
+          "originalSha256": "04e34285dc8a4f013d5d40f05978f178f5150fc38149fbf311fc587637153f38",
+          "excerpt": "丙子，以皇女薨輟朝三日。"
+        },
+        {
+          "chapterId": "old-v119",
+          "paragraphId": "old-v119-p1",
+          "originalRevision": 1,
+          "originalSha256": "5532414e377cde38dab5de391200a9874a105d00b0cd533362c3f7b1ef1c13b2",
+          "excerpt": "顯德六年春正月丁未朔，帝御崇元殿受朝賀，仗衛如式。"
+        }
+      ],
+      "notes": [
+        "年题只控制本纪叙年，六月丙子直接对应辍朝记载，不补皇女的确切死亡日或唯一西历日。",
+        "未记姓名、姓氏、年龄、排行、生母、封号、婚配或死亡原因。"
+      ]
+    },
+    {
       "id": "chai-rong-second-fu-and-sons",
       "title": "立符氏皇后，封宗训梁王",
       "summary": "柴荣再立符彦卿女为皇后，命有司备礼册命；封宗训梁王、宗让燕国公。旧史称宗训皇长子，新史恭帝段称第四子；新史注称后位先定而后娶，立后日期不能直接当先前婚期。",
@@ -2257,7 +2287,7 @@
           ]
         }
       ],
-      "sortOrder": 89
+      "sortOrder": 90
     },
     {
       "id": "chai-rong-zhao-dianjian",
@@ -2283,7 +2313,7 @@
           "excerpt": "帝之北征也，凡供軍之物，皆令自京遞送行在。一日，忽於地中得一木，長二三尺，如人之揭物者，其上卦全題云：「點檢做」，觀者莫測何物也。至是，今上始受點檢之命，明年春，果自此職以副人望，則「點檢做」之言乃神符也。"
         }
       ],
-      "sortOrder": 90
+      "sortOrder": 91
     },
     {
       "id": "chai-rong-death",
@@ -2355,7 +2385,7 @@
           "year": 959
         }
       ],
-      "sortOrder": 91
+      "sortOrder": 92
     },
     {
       "id": "chai-rong-posthumous-title-burial",
@@ -2391,7 +2421,7 @@
       "notes": [
         "世宗已死，历算按当时恭帝的显德六年。用世宗十一月会错误回退十二月，已拒绝该结果。"
       ],
-      "sortOrder": 92
+      "sortOrder": 93
     },
     {
       "id": "chai-rong-adoption",

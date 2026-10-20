@@ -1,0 +1,62 @@
+// Regression coverage for the source-bound Zhou Shizong unnamed daughter.
+// Uses public catalog, reading, timeline and reciprocal relationship functions.
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {loadLibrary} from '../../content/library.mjs';
+import {loadPublishedChapters} from '../../content/translations.mjs';
+import {loadPassagePeople,loadPersonPassageIndex} from '../../content/person-passages.mjs';
+import {loadPersonTimelines} from '../../content/person-timelines.mjs';
+import {filterSearch} from '../src/data.ts';
+import {personRelationships,relationshipsForPerson,searchRelationshipNodes} from '../src/relationships.ts';
+import {readSentenceTranslationParts} from '../src/sentence-translations-loader.ts';
+
+const root=new URL('../../',import.meta.url),read=p=>JSON.parse(readFileSync(new URL(p,root),'utf8'));
+const daughter='zhou-shizong-unnamed-daughter-959',father='chai-rong',paragraphId='old-v119-p6';
+const sourceSha='04e34285dc8a4f013d5d40f05978f178f5150fc38149fbf311fc587637153f38';
+const quote='丙子，以皇女薨輟朝三日。';
+const normalize=value=>Array.isArray(value)?value.map(normalize):value&&typeof value==='object'?Object.fromEntries(Object.entries(value).sort(([a],[b])=>a.localeCompare(b,'en')).map(([k,v])=>[k,normalize(v)])):value;
+const objectSha=value=>createHash('sha256').update(JSON.stringify(normalize(value))).digest('hex');
+
+test('the qualified unnamed imperial daughter is unique without an invented surname, mother, rank or title',()=>{
+ const profile=read('content/five-dynasties/palace-people.json').people.find(p=>p.id===daughter);assert.ok(profile);
+ assert.equal(profile.name,'周世宗失名皇女（显德六年见载）');assert.equal(profile.dynasty,'后周');
+ assert.match(profile.intro,/姓名、排行、生母和封号未载/);assert.match(profile.intro,/确切卒日未详/);
+ const canonical=loadPassagePeople();assert.equal(canonical.filter(p=>p.id===daughter).length,1);
+ for(const query of ['周世宗失名皇女（显德六年见载）','周世宗失名皇女（顯德六年見載）'])for(const search of [filterSearch,searchRelationshipNodes])assert.deepEqual(search(query).map(p=>p.id),[daughter],query);
+ const names=read('content/person-passages/rules.json').people.find(p=>p.personId===daughter).names;
+ for(const bare of ['皇女','公主','柴氏','郭氏'])assert.ok(!names.includes(bare),bare);
+});
+
+test('only the closed annal record is attributed and the single father-daughter edge derives both endpoints',async()=>{
+ const index=loadPersonPassageIndex(),found=index.passages.filter(p=>p.people.some(w=>w.personId===daughter));
+ assert.equal(found.length,1);assert.deepEqual(found[0].spans.map(s=>s.paragraphId),[paragraphId]);
+ assert.equal(found[0].people.find(p=>p.personId===daughter).kind,'record');
+ const expectedId=daughter+'-father-chai-rong',edges=personRelationships.filter(e=>e.id===expectedId);assert.equal(edges.length,1);
+ const edge=edges[0];assert.deepEqual([edge.from,edge.to,edge.kind,edge.label],[father,daughter,'kinship','史载父女']);
+ for(const id of [father,daughter])assert.equal(relationshipsForPerson(id).filter(e=>e.id===expectedId).length,1);
+ assert.deepEqual(relationshipsForPerson(daughter).map(e=>e.id),[expectedId],'no mother, spouse or invented sibling edge');
+ assert.deepEqual(edge.sources.map(s=>[s.chapterId,s.paragraphId,s.excerpt]),[['old-v119',paragraphId,quote]]);
+ const p=loadPublishedChapters(loadLibrary()).find(c=>c.id==='old-v119').paragraphs.find(p=>p.id===paragraphId);
+ assert.equal(createHash('sha256').update(p.original).digest('hex'),sourceSha);assert.equal(p.revision,1);assert.equal(p.translation.id,'6850');assert.equal(p.translation.version,1);
+ assert.equal(createHash('sha256').update(p.translation.text).digest('hex'),'5c09ccf7faac25dcef948d47589d8727e7d219c4ed74bf0d81faff08cd40766d');
+ const fetcher=async url=>{const match=/\/(sentence-alignments|sentence-translations)\/([a-z]+-v\d+)\.json$/.exec(String(url));assert.ok(match,String(url));const rel=match[1]==='sentence-alignments'?'content/sentence-alignments/chapters/':'content/published-sentence-translations/';try{return Response.json(read(rel+match[2]+'.json'));}catch(error){if(error.code==='ENOENT')return new Response('',{status:404});throw error;}};
+ const parts=await readSentenceTranslationParts({paragraph:p,displayedOriginal:p.original,fetcher});
+ assert.equal(parts[1].original,quote);assert.equal(parts[1].kind,'sentence');assert.equal(parts[1].translation,'丙子，因皇女去世，停朝三日。');
+});
+
+test('one real court-mourning occurrence has no asserted death day and preserves all 96 old father events except four exact sorts',()=>{
+ const timelines=loadPersonTimelines(),woman=timelines.find(p=>p.personId===daughter),man=timelines.find(p=>p.personId===father);assert.ok(woman&&man);
+ assert.equal(woman.events.length,1);const event=woman.events[0];
+ assert.deepEqual([event.year,event.precision,event.sourceDate],[959,'month','显德六年六月丙子（辍朝记日）']);
+ assert.match(event.summary,/丙子为辍朝记日，皇女确切卒日未详/);
+ assert.ok(event.evidence.some(e=>e.paragraphId===paragraphId&&e.originalSha256===sourceSha&&e.excerpt===quote));
+ assert.ok(event.notes.some(n=>n.includes('不补皇女的确切死亡日')));
+ assert.equal(man.events.length,97);const added=man.events.find(e=>e.id==='chai-rong-mourn-unnamed-daughter');assert.ok(added);assert.equal(added.sortOrder,89);
+ assert.deepEqual([added.year,added.precision,added.sourceDate,added.evidence],[event.year,event.precision,event.sourceDate,event.evidence]);
+ const oldSorts={'chai-rong-second-fu-and-sons':89,'chai-rong-zhao-dianjian':90,'chai-rong-death':91,'chai-rong-posthumous-title-burial':92};
+ const restored=structuredClone(man);restored.events=restored.events.filter(e=>e.id!==added.id);
+ for(const [id,sort]of Object.entries(oldSorts)){const old=restored.events.find(e=>e.id===id);assert.ok(old,id);assert.equal(old.sortOrder,sort+1,id);old.sortOrder=sort;}
+ assert.equal(restored.events.length,96);assert.equal(objectSha(restored),'8fe653272b69777e0b677e15070813b7ca1b18eb0663d966f0781c4bcd854ce7','whole pre-batch document including all 96 IDs, metadata and source objects');
+});
