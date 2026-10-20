@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-princess-fuqing",
+  "events": [
+    {
+      "id": "zhou-guo-wei-princess-fuqing-posthumous-fuqing",
+      "title": "追封福庆长公主",
+      "summary": "《旧五代史》记广顺二年九月癸未，郭威已故第四姊追封福庆长公主。该书称姊，另书称妹，保留两种叙法。",
+      "year": 952,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "广顺二年九月癸未",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v112",
+          "paragraphId": "old-v112-p12",
+          "originalRevision": 1,
+          "originalSha256": "15e666d83f4bfebdb482d145ad2e25bee33765bd6e5c922cfaa7ca6c4955199a",
+          "excerpt": "癸未，帝姨母韓氏追封楚國夫人，故第四姊追封福慶長公主。"
+        },
+        {
+          "chapterId": "old-v112",
+          "paragraphId": "old-v112-p4",
+          "originalRevision": 1,
+          "originalSha256": "68a4291030ad238171718559f1c6968186b5180ee56ecc4edd5888ec23e6c6fd",
+          "excerpt": "廣順二年春正月戊午朔，不受朝賀，以宿兵在外故也。"
+        }
+      ],
+      "notes": [
+        "年题只控制本纪叙年；同句姨母韩氏是另一人。",
+        "追封时已故，不据此补死亡年月；不把通鉴王峻入朝的七月记日当作公主授封日。"
+      ],
+      "variants": [
+        {
+          "label": "通鉴姊妹称谓异记",
+          "sourceDate": "广顺二年叙事末的李重进母称附记；非公主追封记日",
+          "summary": "《资治通鉴》称李重进之母为帝妹福庆长公主，与旧史故第四姊分源保留。该段七月戊子属于王峻入朝，不是公主授封、出生或死亡日期。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v290",
+              "paragraphId": "tongjian-v290-p118",
+              "originalRevision": 1,
+              "originalSha256": "62fc06679f861019e61f32314d6682e8d3e5b9dba43ca1f01269a4e1688c7209",
+              "excerpt": "重進，滄州人，其母即帝妹福慶長公主也。"
+            },
+            {
+              "chapterId": "tongjian-v290",
+              "paragraphId": "tongjian-v290-p86",
+              "originalRevision": 1,
+              "originalSha256": "99e21b263331716ec1ce6317fda7546c803c1abfa6422d86470d12fd03d1a6c3",
+              "excerpt": "太祖聖神恭肅文孝皇帝上廣順二年（壬子年；公元九五二年；後周廣順二年）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-princess-fuqing-posthumous-yanguo",
+      "title": "追封燕国大长公主",
+      "summary": "世宗本纪记显德元年八月丙辰，皇姑、已故福庆长公主追封燕国大长公主，并明记她是李重进之母。",
+      "year": 954,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "显德元年八月丙辰",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v114",
+          "paragraphId": "old-v114-p12",
+          "originalRevision": 1,
+          "originalSha256": "1559dc1c857e554aa6e058c7762c1b226db618cc08543602329fc61b9458b3ca",
+          "excerpt": "丙辰，皇姑故福慶長公主追封燕國大長公主，李重進之母也。"
+        },
+        {
+          "chapterId": "old-v114",
+          "paragraphId": "old-v114-p3",
+          "originalRevision": 1,
+          "originalSha256": "1b5f249af6624824f5e6c4e0cdfbfcb139f1c05ecdbbbc67f59b81c3b95a821d",
+          "excerpt": "顯德元年正月庚辰，加開府儀同三司、檢校太尉、兼侍中，依前開封尹兼功德使，判內外兵馬事。"
+        }
+      ],
+      "notes": [
+        "皇姑保原书名义称谓，不补与柴荣的血缘关系。",
+        "只保原书记日和本次追封的年、月，不据干支补未经核准的西历日。",
+        "本段月首“壬申朔”与段内干支次序有疑，按底本保留，不改记日或补唯一西历日。"
+      ]
+    }
+  ]
+}

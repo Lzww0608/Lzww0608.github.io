@@ -7270,5 +7270,87 @@
       }
     ],
     "note": "《五代会要》列为周太祖时宫官，载有封授；任职起始、入宫时间和婚配未详。"
+  },
+  {
+    "id": "zhou-guo-wei-princess-fuqing-guo-sibling",
+    "from": "zhou-guo-wei-princess-fuqing",
+    "to": "guo-wei",
+    "kind": "kinship",
+    "label": "手足亲属",
+    "sources": [
+      {
+        "chapterId": "old-v112",
+        "paragraphId": "old-v112-p12",
+        "excerpt": "故第四姊追封福慶長公主。",
+        "title": "旧五代史 · 卷 112 · 周太祖纪3"
+      },
+      {
+        "chapterId": "tongjian-v290",
+        "paragraphId": "tongjian-v290-p118",
+        "excerpt": "重進，滄州人，其母即帝妹福慶長公主也。",
+        "title": "资治通鉴 · 卷 290 · 后周纪1"
+      }
+    ],
+    "note": "旧史称郭威故第四姊，通鉴称帝妹，分源保留，不补唯一长幼、同母或出生姓。"
+  },
+  {
+    "id": "zhou-guo-wei-princess-fuqing-li-mother",
+    "from": "zhou-guo-wei-princess-fuqing",
+    "to": "li-chongjin-zhou",
+    "kind": "kinship",
+    "label": "史载母子",
+    "sources": [
+      {
+        "chapterId": "old-v114",
+        "paragraphId": "old-v114-p12",
+        "excerpt": "丙辰，皇姑故福慶長公主追封燕國大長公主，李重進之母也。",
+        "title": "旧五代史 · 卷 114 · 周世宗纪1"
+      },
+      {
+        "chapterId": "old-v113",
+        "paragraphId": "old-v113-p12",
+        "excerpt": "李重進，周太祖之甥，母即福慶長公主。",
+        "title": "旧五代史 · 卷 113 · 周太祖纪4"
+      },
+      {
+        "chapterId": "tongjian-v290",
+        "paragraphId": "tongjian-v290-p118",
+        "excerpt": "重進，滄州人，其母即帝妹福慶長公主也。",
+        "title": "资治通鉴 · 卷 290 · 后周纪1"
+      }
+    ],
+    "note": "只依李重进之母原称，不细分生母、嫡母或养母，不补其父。"
+  },
+  {
+    "id": "zhou-guo-wei-princess-fuqing-chai-imperial-aunt",
+    "from": "zhou-guo-wei-princess-fuqing",
+    "to": "chai-rong",
+    "kind": "kinship",
+    "label": "名义皇姑",
+    "sources": [
+      {
+        "chapterId": "old-v114",
+        "paragraphId": "old-v114-p12",
+        "excerpt": "丙辰，皇姑故福慶長公主追封燕國大長公主，李重進之母也。",
+        "title": "旧五代史 · 卷 114 · 周世宗纪1"
+      }
+    ],
+    "note": "世宗本纪原称皇姑；作为皇室名义亲属关系保存，不推血缘姑侄，既有收养关系不变。"
+  },
+  {
+    "id": "guo-wei-li-chongjin-zhou-nephew",
+    "from": "guo-wei",
+    "to": "li-chongjin-zhou",
+    "kind": "kinship",
+    "label": "史载甥关系",
+    "sources": [
+      {
+        "chapterId": "old-v113",
+        "paragraphId": "old-v113-p12",
+        "excerpt": "李重進，周太祖之甥，母即福慶長公主。",
+        "title": "旧五代史 · 卷 113 · 周太祖纪4"
+      }
+    ],
+    "note": "《东都事略》夹注明言李重进为周太祖之甥，只保此亲属称谓，不扩其父系与军事生平。"
   }
 ]
