@@ -3978,6 +3978,55 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "zhou-chai-rong-empress-liu",
+      "names": [
+        "后周贞惠皇后",
+        "後周貞惠皇后",
+        "周世宗刘皇后",
+        "周世宗劉皇后"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "zhou-chai-rong-empress-fu-xuanyi",
+      "names": [
+        "后周宣懿皇后",
+        "後周宣懿皇后",
+        "周世宗宣懿符后",
+        "周世宗宣懿符後"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "zhou-chai-rong-empress-fu-younger",
+      "names": [
+        "后周后符皇后",
+        "後周後符皇后",
+        "周世宗后符皇后",
+        "周世宗後符皇后",
+        "周世宗宣懿皇后之妹"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "zhou-fu-xuanyi-mother-unknown",
+      "names": [
+        "后周宣懿皇后之母",
+        "後周宣懿皇后之母",
+        "宣懿符后之母",
+        "宣懿符後之母"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -11932,6 +11981,76 @@
       "reason": "本段仅为原书篇题，不作为柴氏独立生平记载；保留原文、全文及既有郭威关联。",
       "originalRevision": 1,
       "originalSha256": "bb86da81156ab6f9a76b4926be7a6f9516108f5f793635adfba835fa4c416b17"
+    },
+    {
+      "personId": "zhu-yougong",
+      "paragraphId": "new-v20-p3",
+      "originalRevision": 1,
+      "originalSha256": "8d0661724ddfad0c1a76fad572ca14efe2349d14acd78e077fcbcd764045b63d",
+      "terms": [
+        "克讓"
+      ],
+      "reason": "本段克让是柴守礼字，不是朱友恭。"
+    },
+    {
+      "personId": "kou-yanqing",
+      "paragraphId": "new-v20-p8",
+      "originalRevision": 1,
+      "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+      "terms": [
+        "彥卿"
+      ],
+      "reason": "本段彦卿为宣懿后父符彦卿，不是寇彦卿。"
+    },
+    {
+      "personId": "chai-rong",
+      "paragraphId": "new-v20-p10",
+      "originalRevision": 1,
+      "originalSha256": "6f553a52fa9c36fe98de1cb251c30fd0f50992ba18be23a9f5ba9baea0d43031",
+      "terms": [
+        "世宗"
+      ],
+      "reason": "本段只有世宗七子篇题，具体记事在后段闭合。"
+    },
+    {
+      "personId": "guo-wei",
+      "paragraphId": "new-v20-p2",
+      "terms": [
+        "周太祖"
+      ],
+      "reason": "太祖仅作圣穆后夫家称谓，本段收养者是柴氏；正文以verified mention保留。",
+      "originalRevision": 1,
+      "originalSha256": "6221a0ff2522361efd13386ac5ba2551e56d146c1335a90f78d6a6f11b3f8b68"
+    },
+    {
+      "personId": "chai-rong",
+      "paragraphId": "new-v20-p4",
+      "terms": [
+        "世宗"
+      ],
+      "reason": "此段为史论提及世宗寝案，评论另层，以verified mention保留。",
+      "originalRevision": 1,
+      "originalSha256": "a27ea80b4678aa4b8ac40815615015d63420b7f1803f6d8a338c7e9e10eb475e"
+    },
+    {
+      "personId": "fu-cunshen",
+      "paragraphId": "new-v20-p8",
+      "terms": [
+        "存審"
+      ],
+      "reason": "本段仅宣懿后祖父亲属提及，以verified mention保留，不自动定record。",
+      "originalRevision": 1,
+      "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6"
+    },
+    {
+      "personId": "chai-rong",
+      "paragraphId": "new-v20-p11",
+      "terms": [
+        "世宗"
+      ],
+      "reason": "七子名单中的父称，仅亲属提及，以verified mention保留，不造生育行动。",
+      "originalRevision": 1,
+      "originalSha256": "6008291cafae7fe4f6c8592f29bfdadc2f3d6af31f2c81240aa1a04a0084f41f"
     }
   ],
   "regnalEdicts": {

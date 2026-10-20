@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-chai-rong-empress-fu-younger",
+  "events": [
+    {
+      "id": "zhou-chai-rong-empress-fu-younger-empress-appointment",
+      "title": "显德六年立为皇后",
+      "summary": "世宗立宣懿皇后的妹妹为皇后。旧史明称魏王符彦卿女，新史、会要和通鉴说明姊妹身份。",
+      "year": 959,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "显德六年六月癸未",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v119",
+          "paragraphId": "old-v119-p6",
+          "originalRevision": 1,
+          "originalSha256": "04e34285dc8a4f013d5d40f05978f178f5150fc38149fbf311fc587637153f38",
+          "excerpt": "癸未，立魏王符彥卿女為皇后，仍令所司擇日備禮冊命。"
+        },
+        {
+          "chapterId": "tongjian-v294",
+          "paragraphId": "tongjian-v294-p89",
+          "originalRevision": 1,
+          "originalSha256": "14ccfc5d25b69f2b9ef5ef037bedcbdd4d5f6d46e879c8bcc28df5d3dfbc1290",
+          "excerpt": "癸未，立皇后符氏，宣懿皇后之女弟也。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p43",
+          "originalRevision": 1,
+          "originalSha256": "de4f126a2f154c3a83a05368bbfffdc93d1d3faa15449469557a57d4f49a97d7",
+          "excerpt": "皇后符氏。〈宣懿皇后之女弟也，顯德六年六月冊為皇后。〉"
+        }
+      ],
+      "notes": [
+        "诏立与有司尚待择日备礼分别表述，不把原书记日当作已知礼成日。"
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-younger-zhou-dowager",
+      "title": "宋初号周太后",
+      "summary": "宋初奉周皇太后为周太后；新史另记迁西宫。没有据此移用恭帝在房陵的结局。",
+      "year": 960,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "显德七年、宋初；迁西宫未独月日",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v120",
+          "paragraphId": "old-v120-p9",
+          "originalRevision": 1,
+          "originalSha256": "90a1d05e6c900f5449613a64d5575fc9c38f1d7775891416580caec4704bc5dc",
+          "excerpt": "奉皇太后為周太后。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p9",
+          "originalRevision": 1,
+          "originalSha256": "12fce13a05e65c58bf55fcb7ca46e5ea266af6b06b35ef8f0cd277832de3ca09",
+          "excerpt": "後立皇后符氏，后妹也。國初，遷西宮，號周太后。"
+        }
+      ],
+      "notes": [
+        "国初承新史宋人叙述，指宋初；不补生母身份、卒年或房陵居所。"
+      ]
+    }
+  ]
+}

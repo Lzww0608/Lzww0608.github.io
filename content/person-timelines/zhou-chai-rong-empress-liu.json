@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-chai-rong-empress-liu",
+  "events": [
+    {
+      "id": "zhou-chai-rong-empress-liu-posthumous-pengcheng",
+      "title": "身后追封彭城郡夫人",
+      "summary": "郭威即位后追封故长妇刘氏为彭城郡夫人，与生前彭城县君分开。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "广顺元年二月庚子",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v111",
+          "paragraphId": "old-v111-p1",
+          "originalRevision": 1,
+          "originalSha256": "b0d856d0e065a8a3dc86ad90d393888299fc65c674adac12cb19b50f844dc52b",
+          "excerpt": "故長婦劉氏追封彭城郡夫人。"
+        },
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "國初，追封彭城郡夫人。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-posthumous-empress",
+      "title": "追册贞惠皇后，陵称惠陵",
+      "summary": "显德四年追册故彭城郡夫人刘氏为皇后，有司上谥贞惠，陵称惠陵。两书记日不同，保为同一次追册的异记。",
+      "year": 957,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "显德四年夏四月；旧壬午、新癸未",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v117",
+          "paragraphId": "old-v117-p4",
+          "originalRevision": 1,
+          "originalSha256": "8ffa75283689b89c0b72524ea53012cfc56a62b4ee48358ab039ccbb24a42aa9",
+          "excerpt": "壬午，故彭城郡夫人劉氏追冊為皇后。"
+        },
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "顯德四年夏四月，追冊為皇后，謚曰貞惠，陵曰惠陵。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "excerpt": "世宗顯德四年夏四月，始詔彭城郡夫人劉氏追冊為皇后，有司謚曰貞惠，陵曰惠陵。"
+        }
+      ],
+      "variants": [
+        {
+          "summary": "新史本纪记四月癸未，不改作旧史壬午。",
+          "evidence": [
+            {
+              "chapterId": "new-v12",
+              "paragraphId": "new-v12-p6",
+              "originalRevision": 1,
+              "originalSha256": "a54b169de002912da095a808842d66ad78378f55b093c2728a02e9d54cf4ae08",
+              "excerpt": "癸未，追冊彭城郡夫人劉氏為皇后。"
+            }
+          ],
+          "label": "新史癸未",
+          "sourceDate": "显德四年四月癸未"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-temple-song",
+      "title": "太常撰进贞惠皇后庙歌辞",
+      "summary": "恭帝时，窦俨撰进贞惠皇后庙歌辞；这是身后礼仪记载。",
+      "year": 959,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "显德六年十月壬辰",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v120",
+          "paragraphId": "old-v120-p6",
+          "originalRevision": 1,
+          "originalSha256": "a7e0a202450ae7249e22a8bcc301862c8cee2ffdc25bd04c422a8094cdc53798",
+          "excerpt": "壬辰，翰林學士、判太常寺事竇儼撰進貞惠皇后廟歌辭。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-qingling-joint-burial",
+      "title": "配祔世宗庆陵",
+      "summary": "世宗下葬庆陵时，以贞惠皇后刘氏配祔。",
+      "year": 959,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "显德六年十一月壬寅朔",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v120",
+          "paragraphId": "old-v120-p7",
+          "originalRevision": 1,
+          "originalSha256": "d7f2658c135a3f18ec539c345e8ee8ce209a84f521a1f1d0f7ab82819f818ab1",
+          "excerpt": "十一月壬寅朔，葬世宗皇帝於慶陵，以貞惠皇后劉氏祔焉。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-marriage",
+      "title": "年少时嫁给未显达的柴荣",
+      "summary": "旧史记刘氏幼归世宗，新史记为柴荣微时所娶，未详婚年。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "幼归；微时所娶，婚年未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "世宗貞惠皇后劉氏，將家女也，幼歸於世宗。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "excerpt": "貞惠皇后劉氏，不知其世家，蓋微時所娶也，世宗為左監門衞將軍，得封彭城縣君。"
+        }
+      ],
+      "variants": [
+        {
+          "summary": "旧史称将家女，新史称不知其世家，不补姓名。",
+          "evidence": [
+            {
+              "chapterId": "old-v121",
+              "paragraphId": "old-v121-p8",
+              "originalRevision": 1,
+              "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+              "excerpt": "世宗貞惠皇后劉氏，將家女也，幼歸於世宗。"
+            },
+            {
+              "chapterId": "new-v20",
+              "paragraphId": "new-v20-p6",
+              "originalRevision": 1,
+              "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+              "excerpt": "貞惠皇后劉氏，不知其世家，蓋微時所娶也，世宗為左監門衞將軍，得封彭城縣君。"
+            }
+          ],
+          "label": "家世记法不同",
+          "sourceDate": "婚年未详"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-pengcheng-county-title",
+      "title": "获封彭城县君",
+      "summary": "汉乾祐中，柴荣任左监门卫将军时，刘氏始获封彭城县君；未详独立年月。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "汉乾祐中；世宗为左监门卫将军时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "漢乾祐中，世宗在西班，後始封彭城縣君。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "excerpt": "貞惠皇后劉氏，不知其世家，蓋微時所娶也，世宗為左監門衞將軍，得封彭城縣君。"
+        }
+      ],
+      "notes": [
+        "范围保留乾祐年间跨西历的宽界，不取某月或把柴荣任职日当她受封日。"
+      ],
+      "yearRange": {
+        "start": 948,
+        "end": 951
+      }
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-stayed-in-capital",
+      "title": "柴荣随郭威在外时留京",
+      "summary": "柴荣随郭威在邺、魏时，刘氏留居京师邸第；具体年月未独载。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "世宗随太祖在邺／从太祖于魏时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "世宗隨太祖在鄴，後留居邸第。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "excerpt": "世宗從太祖于魏，后留京師，太祖舉兵，漢誅其族。[2]"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu-killed-under-han",
+      "title": "汉末与郭氏家族同遭杀害",
+      "summary": "旧史明记刘氏与张贵妃及郭氏皇族同日遇祸；新史亦叙汉诛郭氏家属。具体日期不由段落叙次补定。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "汉末；广顺元年追封前已故",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p8",
+          "originalRevision": 1,
+          "originalSha256": "83a9419559e12b991f0d109ddc8c7ef477d10681060372ed81bdf838dc9d72f6",
+          "excerpt": "漢末李業等作亂，後與貴妃張氏及諸皇族同日遇禍。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "excerpt": "世宗從太祖于魏，后留京師，太祖舉兵，漢誅其族。[2]"
+        }
+      ],
+      "variants": [
+        {
+          "summary": "所据本作汉诛其族，校勘另本作汉诛太祖家属、后见杀；同一记事保留字句差异。",
+          "evidence": [
+            {
+              "chapterId": "new-v20",
+              "paragraphId": "new-v20-p16",
+              "originalRevision": 1,
+              "originalSha256": "68cc1b69bdd04b681e16eb8f7d1640777995cac28713d8dd7c18064ba2b63aca",
+              "excerpt": "↑ 漢誅其族　貴池本同。他本均作「漢誅太祖家屬，后見殺」。"
+            }
+          ],
+          "label": "新史校勘异文",
+          "sourceDate": "汉末；不同底本文字异记"
+        }
+      ]
+    }
+  ]
+}

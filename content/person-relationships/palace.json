@@ -6906,5 +6906,187 @@
         "title": "五代会要 · 卷 2"
       }
     ]
+  },
+  {
+    "id": "zhou-chai-rong-empress-liu-chai-marriage",
+    "from": "chai-rong",
+    "to": "zhou-chai-rong-empress-liu",
+    "kind": "kinship",
+    "label": "夫妻",
+    "sources": [
+      {
+        "chapterId": "old-v121",
+        "paragraphId": "old-v121-p8",
+        "excerpt": "世宗貞惠皇后劉氏，將家女也，幼歸於世宗。",
+        "title": "旧五代史 · 卷 121 · 周书列传一（后妃）"
+      }
+    ],
+    "note": "刘氏为柴荣微时配偶，贞惠为身后追谥。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-chai-marriage",
+    "from": "chai-rong",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "kinship",
+    "label": "夫妻",
+    "sources": [
+      {
+        "chapterId": "new-v20",
+        "paragraphId": "new-v20-p8",
+        "excerpt": "及劉夫人卒，遂納以為繼室。",
+        "title": "新五代史 · 卷 20 · 周世宗家人传第八"
+      }
+    ],
+    "note": "符氏后为柴荣继室，来源婚期叙次不同。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-younger-chai-marriage",
+    "from": "chai-rong",
+    "to": "zhou-chai-rong-empress-fu-younger",
+    "kind": "kinship",
+    "label": "夫妻",
+    "sources": [
+      {
+        "chapterId": "new-v20",
+        "paragraphId": "new-v20-p9",
+        "excerpt": "後立皇后符氏，后妹也。國初，遷西宮，號周太后。",
+        "title": "新五代史 · 卷 20 · 周世宗家人传第八"
+      }
+    ],
+    "note": "宣懿后的妹妹为世宗后立符皇后。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-li-first-marriage",
+    "from": "li-chongxun-han",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "kinship",
+    "label": "夫妻",
+    "sources": [
+      {
+        "chapterId": "old-v121",
+        "paragraphId": "old-v121-p9",
+        "excerpt": "後初適李守貞之子崇訓。",
+        "title": "旧五代史 · 卷 121 · 周书列传一（后妃）"
+      }
+    ],
+    "note": "符氏先嫁李崇训，未补婚年。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-fu-father",
+    "from": "fu-yanqing-zhou",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "kinship",
+    "label": "父女",
+    "sources": [
+      {
+        "chapterId": "old-v121",
+        "paragraphId": "old-v121-p9",
+        "excerpt": "父彥卿，天雄軍節度使，封魏王。",
+        "title": "旧五代史 · 卷 121 · 周书列传一（后妃）"
+      }
+    ],
+    "note": "宣懿后之父符彦卿，不能以同姓替代具体源证。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-younger-fu-father",
+    "from": "fu-yanqing-zhou",
+    "to": "zhou-chai-rong-empress-fu-younger",
+    "kind": "kinship",
+    "label": "父女",
+    "sources": [
+      {
+        "chapterId": "old-v119",
+        "paragraphId": "old-v119-p6",
+        "excerpt": "癸未，立魏王符彥卿女為皇后，仍令所司擇日備禮冊命。",
+        "title": "旧五代史 · 卷 119 · 周世宗纪6"
+      },
+      {
+        "chapterId": "tongjian-v294",
+        "paragraphId": "tongjian-v294-p89",
+        "excerpt": "癸未，立皇后符氏，宣懿皇后之女弟也。",
+        "title": "资治通鉴 · 卷 294 · 后周纪5"
+      }
+    ],
+    "note": "立后本纪明称魏王符彦卿女，姊妹身份由另两书闭合。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-fu-grandfather",
+    "from": "fu-cunshen",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "kinship",
+    "label": "祖孙",
+    "sources": [
+      {
+        "chapterId": "new-v20",
+        "paragraphId": "new-v20-p8",
+        "excerpt": "宣懿皇后符氏，其祖秦王存審，父魏王彥卿。",
+        "title": "新五代史 · 卷 20 · 周世宗家人传第八"
+      }
+    ],
+    "note": "旧史、新史明言宣懿后祖父符存审；此边不转给未被明记祖系的其他人。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-guo-adoptive-father",
+    "from": "guo-wei",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "adoption",
+    "label": "拜为养父",
+    "sources": [
+      {
+        "chapterId": "old-v121",
+        "paragraphId": "old-v121-p9",
+        "excerpt": "自是後常感太祖大惠，拜太祖為養父。",
+        "title": "旧五代史 · 卷 121 · 周书列传一（后妃）"
+      }
+    ],
+    "note": "史载符氏感郭威救免之恩而拜为养父，保其原行为表述，不补童年养育。"
+  },
+  {
+    "id": "zhou-chai-rong-empress-fu-xuanyi-younger-sister",
+    "from": "zhou-chai-rong-empress-fu-xuanyi",
+    "to": "zhou-chai-rong-empress-fu-younger",
+    "kind": "kinship",
+    "label": "姊妹亲属",
+    "sources": [
+      {
+        "chapterId": "new-v20",
+        "paragraphId": "new-v20-p9",
+        "excerpt": "後立皇后符氏，后妹也。",
+        "title": "新五代史 · 卷 20 · 周世宗家人传第八"
+      }
+    ],
+    "note": "女弟只证姊妹，不自动证明同一生母。"
+  },
+  {
+    "id": "zhou-fu-xuanyi-mother-unknown-daughter",
+    "from": "zhou-fu-xuanyi-mother-unknown",
+    "to": "zhou-chai-rong-empress-fu-xuanyi",
+    "kind": "kinship",
+    "label": "史载母女",
+    "sources": [
+      {
+        "chapterId": "shibu-v005",
+        "paragraphId": "shibu-v005-p26",
+        "excerpt": "既免河中之難，其母欲使出家，資其福壽。",
+        "title": "五代史补 · 卷 5 · 后周史事"
+      }
+    ],
+    "note": "原文只称其母，未明生母、嫡母或养母，不据此补符彦卿配偶。"
+  },
+  {
+    "id": "zhou-guo-wei-empress-chai-adopted-chai-rong",
+    "from": "zhou-guo-wei-empress-chai",
+    "to": "chai-rong",
+    "kind": "adoption",
+    "label": "养母与养子",
+    "sources": [
+      {
+        "chapterId": "new-v20",
+        "paragraphId": "new-v20-p2",
+        "excerpt": "周太祖聖穆皇后柴氏，無子，養后兄守禮之子以為子，是為世宗。",
+        "title": "新五代史 · 卷 20 · 周世宗家人传第八"
+      }
+    ],
+    "note": "新史家人传明写柴氏养兄守礼之子为子；既有姑侄与郭威收养关系分别保留。"
   }
 ]

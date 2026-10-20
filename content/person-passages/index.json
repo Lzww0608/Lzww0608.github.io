@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 9,
-    "chapterCount": 213,
-    "paragraphCount": 8916
+    "chapterCount": 214,
+    "paragraphCount": 8933
   },
   "people": [
     {
@@ -1502,6 +1502,22 @@
     {
       "id": "zhou-guo-wei-dong-foster-mother",
       "name": "潞州牙将之妻（董德妃养育者，失名）"
+    },
+    {
+      "id": "zhou-chai-rong-empress-liu",
+      "name": "刘氏（周世宗贞惠皇后）"
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi",
+      "name": "符氏（周世宗宣懿皇后）"
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-younger",
+      "name": "符氏（周世宗后符皇后）"
+    },
+    {
+      "id": "zhou-fu-xuanyi-mother-unknown",
+      "name": "符后之母（宣懿皇后母，失名）"
     }
   ],
   "passages": [
@@ -4618,6 +4634,10 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -6061,6 +6081,18 @@
       "people": [
         {
           "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
           "kind": "record"
         }
       ]
@@ -28666,6 +28698,10 @@
         {
           "personId": "liu-min-northern-han",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -28722,6 +28758,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -28742,6 +28782,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -28793,6 +28837,10 @@
         },
         {
           "personId": "chai-zongxun",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
           "kind": "record"
         }
       ]
@@ -33998,6 +34046,302 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p2",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p2",
+          "originalRevision": 1,
+          "originalSha256": "6221a0ff2522361efd13386ac5ba2551e56d146c1335a90f78d6a6f11b3f8b68",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-guo-wei-empress-chai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p3",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p3",
+          "originalRevision": 1,
+          "originalSha256": "8d0661724ddfad0c1a76fad572ca14efe2349d14acd78e077fcbcd764045b63d",
+          "start": 0,
+          "end": 184
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p4",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p4",
+          "originalRevision": 1,
+          "originalSha256": "a27ea80b4678aa4b8ac40815615015d63420b7f1803f6d8a338c7e9e10eb475e",
+          "start": 0,
+          "end": 350
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p6",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p6",
+          "originalRevision": 1,
+          "originalSha256": "0e3d83d25e5424c07b539a666fa724ce7e5be37d342829176c8e7cafb0c24b26",
+          "start": 0,
+          "end": 119
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p8",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "start": 0,
+          "end": 515
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-fu-xuanyi-mother-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p9",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p9",
+          "originalRevision": 1,
+          "originalSha256": "12fce13a05e65c58bf55fcb7ca46e5ea266af6b06b35ef8f0cd277832de3ca09",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p11",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p11",
+          "originalRevision": 1,
+          "originalSha256": "6008291cafae7fe4f6c8592f29bfdadc2f3d6af31f2c81240aa1a04a0084f41f",
+          "start": 0,
+          "end": 96
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "mention"
+        },
+        {
+          "personId": "chai-zongxun",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p12",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p12",
+          "originalRevision": 1,
+          "originalSha256": "539fe854cf207c78f7e331f4f71b071db35f9b166dae66b40cbf8309b61d0da8",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "mention"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p13",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p13",
+          "originalRevision": 1,
+          "originalSha256": "97ebb2dc893a27aed265e9293a0abbe7b1f67817375c7e375fc40f7a43138cd3",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-zongxun",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p14",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p14",
+          "originalRevision": 1,
+          "originalSha256": "3aa24d65cd6b2787d97f9aae20ace8334d05011752a1f69e1f2be886b772ab32",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "people": [
+        {
+          "personId": "guo-wei",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p16",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p16",
+          "originalRevision": 1,
+          "originalSha256": "68cc1b69bdd04b681e16eb8f7d1640777995cac28713d8dd7c18064ba2b63aca",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v20-p17",
+      "chapterId": "new-v20",
+      "title": "卷 20 · 周世宗家人传第八 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v20-p17",
+          "originalRevision": 1,
+          "originalSha256": "6d4d7988899d346a614324ed5c0c666759a327dace3d38f86d058bce7696b765",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "mention"
         }
       ]
     },
@@ -97038,6 +97382,10 @@
         {
           "personId": "zhou-guo-wei-princess-lean",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -98198,6 +98546,10 @@
         {
           "personId": "zhou-guo-wei-princess-shouan",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -99170,6 +99522,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -99234,6 +99590,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -99254,6 +99614,10 @@
         {
           "personId": "chai-rong",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -99397,6 +99761,10 @@
         },
         {
           "personId": "zhou-guo-wei-princess-yongning",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
           "kind": "record"
         }
       ]
@@ -100042,6 +100410,10 @@
         {
           "personId": "liu-min-northern-han",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
+          "kind": "record"
         }
       ]
     },
@@ -100194,6 +100566,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -100221,6 +100597,10 @@
         },
         {
           "personId": "ma-xichong",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
           "kind": "record"
         }
       ]
@@ -100270,6 +100650,10 @@
         {
           "personId": "chai-zongxun",
           "kind": "biography"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
+          "kind": "record"
         }
       ]
     },
@@ -100554,6 +100938,10 @@
         {
           "personId": "zhou-guo-wei-consort-zhang",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-liu",
+          "kind": "record"
         }
       ]
     },
@@ -100590,6 +100978,18 @@
         {
           "personId": "li-keyong",
           "kind": "mention"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
+          "kind": "mention"
+        },
+        {
+          "personId": "zhou-fu-xuanyi-mother-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -104218,6 +104618,10 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -106473,6 +106877,14 @@
         },
         {
           "personId": "kou-yanqing",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-fu-xuanyi-mother-unknown",
           "kind": "record"
         }
       ]
@@ -145494,6 +145906,10 @@
         {
           "personId": "guo-yan",
           "kind": "record"
+        },
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
+          "kind": "record"
         }
       ]
     },
@@ -147045,6 +147461,26 @@
       "people": [
         {
           "personId": "ma-xiguang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v293-p41",
+      "chapterId": "tongjian-v293",
+      "title": "卷 293 · 后周纪4 · 第 41 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v293-p41",
+          "originalRevision": 1,
+          "originalSha256": "d43ab2824e3833bfdba3914dd2fe4196aae4e61b09f1dba348d800c5a2915124",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-chai-rong-empress-fu-xuanyi",
           "kind": "record"
         }
       ]
@@ -148705,6 +149141,26 @@
         },
         {
           "personId": "ma-xisheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v294-p89",
+      "chapterId": "tongjian-v294",
+      "title": "卷 294 · 后周纪5 · 第 89 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v294-p89",
+          "originalRevision": 1,
+          "originalSha256": "14ccfc5d25b69f2b9ef5ef037bedcbdd4d5f6d46e879c8bcc28df5d3dfbc1290",
+          "start": 0,
+          "end": 18
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhou-chai-rong-empress-fu-younger",
           "kind": "record"
         }
       ]

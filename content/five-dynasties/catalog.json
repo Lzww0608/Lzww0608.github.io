@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12、梁唐晋汉及周太祖家人传卷 13—19、相关人物列传及十国世家卷 61—70；共 41 卷，合传均整卷保留，不表示 74 卷全本已收录。",
+      "description": "五代皇帝本纪卷 1—12、五代家人传卷 13—20、相关人物列传及十国世家卷 61—70；共 42 卷，合传均整卷保留，不表示 74 卷全本已收录。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -2148,7 +2148,8 @@
         "zhou-guo-wei-princess-shouan",
         "zhou-guo-wei-empress-chai",
         "zhou-guo-wei-consort-yang",
-        "zhou-guo-wei-princess-yongning"
+        "zhou-guo-wei-princess-yongning",
+        "zhou-chai-rong-empress-liu"
       ],
       "position": 111,
       "scope": "full",
@@ -2242,7 +2243,8 @@
         "gao-baoxu",
         "liu-min-northern-han",
         "zhou-guo-wei-empress-chai",
-        "zhou-guo-wei-princess-shouan"
+        "zhou-guo-wei-princess-shouan",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "position": 114,
       "scope": "full",
@@ -2294,7 +2296,8 @@
         "chai-rong",
         "li-jing-southern-tang",
         "qian-hongchu",
-        "ma-xichong"
+        "ma-xichong",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "position": 116,
       "scope": "full",
@@ -2322,7 +2325,8 @@
         "li-jing-southern-tang",
         "meng-chang",
         "zhou-guo-wei-princess-lean",
-        "zhou-guo-wei-princess-yongning"
+        "zhou-guo-wei-princess-yongning",
+        "zhou-chai-rong-empress-liu"
       ],
       "position": 117,
       "scope": "full",
@@ -2380,7 +2384,8 @@
         "li-jing-southern-tang",
         "qian-hongchu",
         "liu-min-northern-han",
-        "zhou-guo-wei-princess-shouan"
+        "zhou-guo-wei-princess-shouan",
+        "zhou-chai-rong-empress-fu-younger"
       ],
       "position": 119,
       "scope": "full",
@@ -2408,7 +2413,9 @@
         "li-jing-southern-tang",
         "qian-hongchu",
         "ma-xichong",
-        "gao-baorong"
+        "gao-baorong",
+        "zhou-chai-rong-empress-liu",
+        "zhou-chai-rong-empress-fu-younger"
       ],
       "position": 120,
       "scope": "full",
@@ -3055,7 +3062,10 @@
         "ren-huan",
         "li-jing-southern-tang",
         "liu-min-northern-han",
-        "zhou-guo-wei-empress-chai"
+        "zhou-guo-wei-empress-chai",
+        "zhou-chai-rong-empress-liu",
+        "zhou-chai-rong-empress-fu-xuanyi",
+        "zhou-chai-rong-empress-fu-younger"
       ],
       "position": 12,
       "scope": "full",
@@ -6310,7 +6320,8 @@
         "liu-chang-southern-han",
         "liu-min-northern-han",
         "xu-xuan",
-        "han-liu-zhiyuan-empress-li"
+        "han-liu-zhiyuan-empress-li",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "position": 291,
       "scope": "full",
@@ -6373,7 +6384,8 @@
         "ma-xie",
         "ma-xichong",
         "song-qiqiu",
-        "han-xizai"
+        "han-xizai",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "position": 293,
       "scope": "full",
@@ -6407,7 +6419,8 @@
         "liu-chang-southern-han",
         "gao-baorong",
         "song-qiqiu",
-        "han-xizai"
+        "han-xizai",
+        "zhou-chai-rong-empress-fu-younger"
       ],
       "position": 294,
       "scope": "full",
@@ -6443,7 +6456,8 @@
         "liu-min-northern-han",
         "tang-li-cunxu-empress-liu",
         "tang-li-siyuan-shufei-wang",
-        "han-liu-zhiyuan-empress-li"
+        "han-liu-zhiyuan-empress-li",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "position": 1,
       "scope": "full",
@@ -6698,7 +6712,9 @@
         "guo-wei",
         "shi-jingtang",
         "liu-min-northern-han",
-        "han-xizai"
+        "han-xizai",
+        "zhou-chai-rong-empress-fu-xuanyi",
+        "zhou-fu-xuanyi-mother-unknown"
       ],
       "scope": "full",
       "paragraphCount": 46,
@@ -6803,7 +6819,8 @@
         "qian-yuanguan",
         "ma-xifan",
         "ma-xiguang",
-        "ma-xie"
+        "ma-xie",
+        "zhou-chai-rong-empress-fu-xuanyi"
       ],
       "scope": "full",
       "paragraphCount": 39,
@@ -6998,7 +7015,10 @@
         "zhou-guo-wei-empress-chai",
         "zhou-guo-wei-consort-zhang",
         "zhou-guo-wei-consort-yang",
-        "zhou-guo-wei-consort-dong"
+        "zhou-guo-wei-consort-dong",
+        "zhou-chai-rong-empress-liu",
+        "zhou-chai-rong-empress-fu-xuanyi",
+        "zhou-chai-rong-empress-fu-younger"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -8680,7 +8700,11 @@
         "li-keyong",
         "zhou-guo-wei-princess-lean",
         "zhou-guo-wei-princess-shouan",
-        "zhou-guo-wei-princess-yongning"
+        "zhou-guo-wei-princess-yongning",
+        "zhou-chai-rong-empress-liu",
+        "zhou-chai-rong-empress-fu-xuanyi",
+        "zhou-chai-rong-empress-fu-younger",
+        "zhou-fu-xuanyi-mother-unknown"
       ],
       "position": 121,
       "scope": "full",
@@ -8730,6 +8754,38 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B719&action=history",
         "sourceSha256": "10ba063216f73d5d7076b0eb9fde8c65584340a5e973a9aab26d3b2bbd2808de",
         "chapterSha256": "423a0d33c473b59280a44b2ef6bbaa1b70d3d78f0920d5ff4fd2691ca0cc41bc"
+      }
+    },
+    {
+      "id": "new-v20",
+      "bookId": "new",
+      "volume": 20,
+      "title": "卷 20 · 周世宗家人传第八",
+      "subjects": [
+        "guo-wei",
+        "chai-rong",
+        "zhou-guo-wei-empress-chai",
+        "zhou-chai-rong-empress-liu",
+        "fu-cunshen",
+        "zhou-chai-rong-empress-fu-xuanyi",
+        "zhou-fu-xuanyi-mother-unknown",
+        "zhou-chai-rong-empress-fu-younger",
+        "chai-zongxun"
+      ],
+      "position": 20,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 1909,
+      "provenance": {
+        "pageTitle": "新五代史/卷20",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&oldid=1699231",
+        "revisionId": 1699231,
+        "fetchedAt": "2026-10-20T14:18:06.962898+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&action=history",
+        "sourceSha256": "3b28e4ae0afb1c42fa4b8d75e61c89d2a6349441f4774d01e7cb04008a4d4ab2",
+        "chapterSha256": "91729dbb90fbcfe8474a7f6cb9aeb55f4f5606a5bad6728467e7f8d470762cb5"
       }
     }
   ]

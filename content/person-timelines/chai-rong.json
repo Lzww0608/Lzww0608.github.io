@@ -1094,7 +1094,23 @@
           "excerpt": "丁卯，宣懿皇后神主入廟"
         }
       ],
-      "sortOrder": 48
+      "sortOrder": 48,
+      "variants": [
+        {
+          "summary": "旧史后妃传记二年七月二十一日，编年主记三年七月辛亥，原事件日期与叙述保持并列异说。",
+          "evidence": [
+            {
+              "chapterId": "old-v121",
+              "paragraphId": "old-v121-p9",
+              "originalRevision": 1,
+              "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+              "excerpt": "顯德二年七月二十一日，崩於滋德殿，時年二十有六。"
+            }
+          ],
+          "label": "旧史后妃传记显德二年",
+          "sourceDate": "旧史后妃传显德二年七月二十一日"
+        }
+      ]
     },
     {
       "id": "chai-rong-qintian-calendar",
@@ -2422,6 +2438,20 @@
               "excerpt": "按今舉世皆知世宗為柴氏子謂之柴世宗而世宗實録云太祖長子誣亦甚矣"
             }
           ]
+        },
+        {
+          "summary": "新史家人传以圣穆皇后柴氏为收养者，明写养兄守礼之子为子；与本纪郭威收养及姑侄关系分别保存。",
+          "evidence": [
+            {
+              "chapterId": "new-v20",
+              "paragraphId": "new-v20-p2",
+              "originalRevision": 1,
+              "originalSha256": "6221a0ff2522361efd13386ac5ba2551e56d146c1335a90f78d6a6f11b3f8b68",
+              "excerpt": "周太祖聖穆皇后柴氏，無子，養后兄守禮之子以為子，是為世宗。"
+            }
+          ],
+          "label": "新史家人传记柴氏收养",
+          "sourceDate": "新史家人传未详收养年月"
         }
       ],
       "sortOrder": 1

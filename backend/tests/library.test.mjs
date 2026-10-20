@@ -5,8 +5,8 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 213);
-  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 8916);
+  assert.equal(chapters.length, 214);
+  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 8933);
   assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
@@ -17,7 +17,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
     [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:12},(_,i)=>75+i),91, ...Array.from({length:6},(_,i)=>99+i), ...Array.from({length:12},(_,i)=>110+i),133,134,135,136]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:19},(_,i)=>i+1),21,22,23,25,32,36,39,43,44,45,46,51,...Array.from({length:10},(_,i)=>61+i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,36,39,43,44,45,46,51,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));
@@ -51,6 +51,7 @@ test('Later Tang, Jin, Han and Zhou household and supporting biography volumes r
     ['new-v18', 19, 2167, 1699189, '皇后李氏', '傳，先贇而後信，亦便於述事爾。'],
     ['old-v121', 11, 2817, 1567208, '后妃', '又追封梁國長公主。'],
     ['new-v19', 17, 1301, 1699202, '皇后柴氏', '一作「太保」，一作「太尉」。待考。'],
+    ['new-v20', 17, 1909, 1699231, '柴守禮', '有「王」字。'],
     ['new-v39', 54, 8718, 1721611, '王鎔', '此鎮海當是橫海之誤'],
     ['new-v51', 57, 8801, 1727238, '朱守殷', '作「坊州」。'],
     ['old-v091', 32, 6696, 2100871, '房知溫', '贈司徒。'],

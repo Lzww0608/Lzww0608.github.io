@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-chai-rong-empress-fu-xuanyi",
+  "events": [
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-empress-appointment",
+      "title": "由卫国夫人立为皇后",
+      "summary": "世宗即位后立卫国夫人符氏为皇后，令有司择日册命；诏立与尚待择日的礼仪不合成一个已知册礼日。",
+      "year": 954,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "显德元年四月壬戌",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v114",
+          "paragraphId": "old-v114-p8",
+          "originalRevision": 1,
+          "originalSha256": "2537fd4fdd80d0e142935330f2e58d8053a6b03d82faac29b3209f66e2f679ce",
+          "excerpt": "壬戌，制立衛國夫人符氏為皇后，仍令有司擇日備禮冊命。"
+        },
+        {
+          "chapterId": "new-v12",
+          "paragraphId": "new-v12-p3",
+          "originalRevision": 1,
+          "originalSha256": "3a3af10a64d6abfce682fe35c5bf8725222a1dd67e658d6484005c3ad3fabc31",
+          "excerpt": "壬戌，立衞國夫人符氏為皇后。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p43",
+          "originalRevision": 1,
+          "originalSha256": "de4f126a2f154c3a83a05368bbfffdc93d1d3faa15449469557a57d4f49a97d7",
+          "excerpt": "皇后符氏，〈顯德元年四月冊為皇后，至三年七月崩，追冊曰宣懿皇后。〉"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-death",
+      "title": "符皇后去世，卒年记载有异",
+      "summary": "编年记显德三年七月辛亥符皇后去世；旧史本传则记二年七月二十一日，不能静默合成同一年。新史本传将她的忧病与世宗征淮相联。",
+      "year": 956,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "编年显德三年七月辛亥；旧传二年七月二十一日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v116",
+          "paragraphId": "old-v116-p13",
+          "originalRevision": 1,
+          "originalSha256": "e8832c5c626a7714a5b0b193be3676feb939891d6a6696c61f415f19f4e3e2b3",
+          "excerpt": "辛亥，皇后符氏薨。"
+        },
+        {
+          "chapterId": "tongjian-v293",
+          "paragraphId": "tongjian-v293-p41",
+          "originalRevision": 1,
+          "originalSha256": "d43ab2824e3833bfdba3914dd2fe4196aae4e61b09f1dba348d800c5a2915124",
+          "excerpt": "辛亥，宣懿皇后符氏殂。"
+        },
+        {
+          "chapterId": "new-v12",
+          "paragraphId": "new-v12-p5",
+          "originalRevision": 1,
+          "originalSha256": "28e22a47ec26854a0faf986b2cd7247568f42ec08a8102991e9f6acc6fc59e0a",
+          "excerpt": "秋七月，皇后崩。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "師久無功，遭大暑雨，后以憂成疾而崩。"
+        }
+      ],
+      "variants": [
+        {
+          "summary": "旧本传明记二年七月二十一日，时年二十六；按本书记法保留，不以编年改底本。",
+          "evidence": [
+            {
+              "chapterId": "old-v121",
+              "paragraphId": "old-v121-p9",
+              "originalRevision": 1,
+              "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+              "excerpt": "顯德二年七月二十一日，崩於滋德殿，時年二十有六。"
+            }
+          ],
+          "label": "旧史本传显德二年",
+          "sourceDate": "旧史本传显德二年七月二十一日"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-burial",
+      "title": "葬宣懿皇后于懿陵",
+      "summary": "符后获谥宣懿，葬于新郑懿陵。新史另记用兵时朝临与释服的礼仪安排。",
+      "year": 956,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "显德三年十月辛酉",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v116",
+          "paragraphId": "old-v116-p16",
+          "originalRevision": 1,
+          "originalSha256": "f389e7f537a965f2680247cf7b6a43f40553ee9f30c820a34f4de781a9a7c3e6",
+          "excerpt": "冬十月辛酉，葬宣懿皇后於懿陵。"
+        },
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "既而有司上謚曰宣懿，葬於新鄭，陵曰懿陵。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "議者以方用兵，請殺喪禮，於是百官朝臨于西宮，三日而釋服，帝亦七日而釋，葬於新鄭，陵曰懿陵。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-spirit-temple",
+      "title": "神主入庙，世宗因迁祔日近免朝贺",
+      "summary": "十月丁卯宣懿皇后神主入庙，有司请立别庙；十一月日南至，世宗因迁祔日近不受朝贺。后项为世宗的礼仪反应，不写成皇后生前行动。",
+      "year": 956,
+      "sortOrder": 4,
+      "precision": "month",
+      "sourceDate": "显德三年十月丁卯；十一月庚子",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v116",
+          "paragraphId": "old-v116-p16",
+          "originalRevision": 1,
+          "originalSha256": "f389e7f537a965f2680247cf7b6a43f40553ee9f30c820a34f4de781a9a7c3e6",
+          "excerpt": "丁卯，宣懿皇后神主入廟，時有司請為後立別廟，禮也。"
+        },
+        {
+          "chapterId": "old-v116",
+          "paragraphId": "old-v116-p17",
+          "originalRevision": 1,
+          "originalSha256": "b18910d8c945f201e9e7315c86f5f7729a6fea083c53d41f1df1afa825e96fbf",
+          "excerpt": "庚子，日南至，帝不受朝賀，以宣懿皇后遷祔日近也。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-first-marriage",
+      "title": "先嫁李崇训",
+      "summary": "符氏初嫁河中节度使李守贞之子李崇训，未详婚年。相术言贵的故事保留为各书所载传闻。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "初适李崇训；未详婚年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "後初適李守貞之子崇訓。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "初適李守貞子崇訓。"
+        },
+        {
+          "chapterId": "shibu-v005",
+          "paragraphId": "shibu-v005-p26",
+          "originalRevision": 1,
+          "originalSha256": "d37e544028c9241cf44af630da5d499cd275d4c448baef09cadea8e56bdfe3aa",
+          "excerpt": "李守貞素有異志，因與子崇訓娶之。"
+        }
+      ],
+      "notes": [
+        "不据相术推定她的实际政治意图，不把相术变为可证因果。"
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-escape-and-return",
+      "title": "河中陷落时脱险，被送归父家",
+      "summary": "李崇训杀家人而欲及符氏，她藏于帷幔得免。新史、通鉴和史补另叙她在堂上拒乱兵；郭威获知后送她归符彦卿。两层叙述分源保存。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "range",
+      "sourceDate": "汉乾祐中河中城陷时",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "漢乾祐中，守貞叛於河中，太祖以兵攻之，及城陷，崇訓自刃其弟妹，次將及後，後時匿於屏處，以帷箔自蔽，崇訓倉黃求後不及，遂自刎，後因獲免。太祖入河中，令人訪而得之，即遣女使送於其父，"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "漢兵入其家，后儼然坐堂上，顧軍士曰：「郭公與吾父有舊，[3]汝輩無犯我！」軍士見之不敢迫。太祖聞之，以謂一女子能使亂兵不敢犯，奇之，為加慰勉，以歸彥卿。"
+        },
+        {
+          "chapterId": "tongjian-v291",
+          "paragraphId": "tongjian-v291-p112",
+          "originalRevision": 1,
+          "originalSha256": "ded283a6813f5245620162b2ba8fe3c863e976a9de345714afcb952390d783d4",
+          "excerpt": "亂兵既入，符氏安坐堂上，叱亂兵曰：「吾父與郭公為昆弟，汝曹勿無禮！」太祖遣使歸之於彥卿。"
+        }
+      ],
+      "notes": [
+        "范围取来源乾祐年间，不从后段立后日倒定脱险日。"
+      ],
+      "yearRange": {
+        "start": 948,
+        "end": 951
+      }
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-guo-as-adoptive-father",
+      "title": "拜郭威为养父",
+      "summary": "符氏感念郭威救免并送归父家的恩惠，拜郭威为养父；与其生父符彦卿分开。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "河中脱险、送归父家以后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "自是後常感太祖大惠，拜太祖為養父。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "后感太祖不殺，拜太祖為父。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-refused-nunnery",
+      "title": "拒绝母亲劝她削发出家",
+      "summary": "脱险后，母亲欲使符氏出家以求福寿，符氏以死生有命拒绝。史补记母亲知不能强迫，遂作罢。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "既免河中之难以后，具体年月未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shibu-v005",
+          "paragraphId": "shibu-v005-p26",
+          "originalRevision": 1,
+          "originalSha256": "d37e544028c9241cf44af630da5d499cd275d4c448baef09cadea8e56bdfe3aa",
+          "excerpt": "既免河中之難，其母欲使出家，資其福壽。后不悅曰：「死生有命，誰能髡首跣足以求茍活也！」母度不可逼，遂止。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "其母以后夫家滅亡，而獨脫死兵刃之間，以為天幸，欲使削髮為尼，后不肯曰：「死生有命，天也。何必妄毀形髮為！"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-chai-marriage",
+      "title": "成为柴荣继室",
+      "summary": "符氏后来嫁给柴荣。旧史与通鉴记柴荣镇澶时郭威为之聘娶，新史记刘夫人卒后纳为继室；史补以即位纳后叙之。各书叙次不拼成唯一婚期。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "镇澶时聘娶／刘夫人卒后继室；史补即位纳后",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "世宗鎮澶淵日，太祖為世宗聘之。"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "及劉夫人卒，遂納以為繼室。"
+        }
+      ],
+      "variants": [
+        {
+          "summary": "史补记至世宗即位纳为皇后，保其叙法，不据此删去旧史镇澶时聘娶。",
+          "evidence": [
+            {
+              "chapterId": "shibu-v005",
+              "paragraphId": "shibu-v005-p26",
+              "originalRevision": 1,
+              "originalSha256": "d37e544028c9241cf44af630da5d499cd275d4c448baef09cadea8e56bdfe3aa",
+              "excerpt": "至世宗即位，納爲皇后。"
+            }
+          ],
+          "label": "史补即位纳后",
+          "sourceDate": "史补至世宗即位纳后"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-interceded-in-anger",
+      "title": "从容解救受责的左右",
+      "summary": "柴荣暴怒责左右时，符氏察其颜色从容解说，使怒意缓解，受到重视；原段未独记年月。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "世宗前后受其重视的叙述；未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "後性和惠，善候世宗之旨，世宗或暴怒於下，後必從容救解，世宗甚重之，"
+        },
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "世宗卞急多暴怒，而後嘗追悔，每怒左右，后必從容伺顏色，漸為解說，世宗意亦隨解，由是益重之。"
+        }
+      ]
+    },
+    {
+      "id": "zhou-chai-rong-empress-fu-xuanyi-remonstrated-expedition",
+      "title": "切谏世宗不要亲征淮南",
+      "summary": "世宗欲亲征，符后切谏止之而未被听从。其后战事久无功、暑雨与符后忧病由本传连叙，未据此给每次劝谏补确日。",
+      "year": null,
+      "sortOrder": 11,
+      "precision": "range",
+      "sourceDate": "世宗即位后征淮、符后去世前",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v20",
+          "paragraphId": "new-v20-p8",
+          "originalRevision": 1,
+          "originalSha256": "284faac69964f6f8413b0b9ec77503548ade8949660a5826ea795a89e3fea3a6",
+          "excerpt": "世宗征淮，后以帝不宜親行，切諫止之，世宗不聽。"
+        },
+        {
+          "chapterId": "old-v121",
+          "paragraphId": "old-v121-p9",
+          "originalRevision": 1,
+          "originalSha256": "a4f8d32bd61224cadcea6c3e8bd6ffa386a95aecf32f8d940732a6526e536d51",
+          "excerpt": "世宗將南征，後常諫止之，言甚切直，世宗亦為之動容，洎車駕駐於淮甸，久冒炎暑，後因憂恚成疾。"
+        }
+      ],
+      "notes": [
+        "范围兼容旧本传二年与编年三年卒的分歧，不把两说合为一次独日。"
+      ],
+      "yearRange": {
+        "start": 954,
+        "end": 956
+      }
+    }
+  ]
+}
