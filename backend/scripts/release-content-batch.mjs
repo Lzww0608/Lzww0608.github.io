@@ -10,6 +10,7 @@ import { loadConfig } from '../src/config.mjs';
 import { adminDatabase, localDir, pgBin } from './runtime.mjs';
 import { digest, sha256 } from '../src/backup-archive.mjs';
 import { verifyOwnerReviewPermissions } from '../src/owner-reviews.mjs';
+import { ensureOwnerReviewSchema } from './import-review-items.mjs';
 import { freezeContentRelease, validateContentRelease, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release runner: ${message}`); };
@@ -69,6 +70,13 @@ export async function verifyContentReleaseFromDump(frozen, dumpFile, { config = 
       client = new pg.Client({ ...adminDatabase(config), database }); await client.connect();
       const before = await snapshotReleaseDatabase(client);
       check(before.sha256 === content.baseline.databaseSha256, 'actual restored baseline differs from frozen inventory');
+      // --no-acl restores functions with default PUBLIC EXECUTE. Empty-review
+      // releases do not run the importer that reapplies these private ACLs.
+      if (content.reviewBatches.length === 0 && before.tables.owner_review_subjects) {
+        await ensureOwnerReviewSchema(client);
+        same(await snapshotReleaseDatabase(client), before, 'restored private permission setup changed baseline inventory');
+        await verifyOwnerReviewPermissions(client);
+      }
       const result = await action(client, database, before);
       progress({ stage: label, verified: true }); return result;
     } finally {

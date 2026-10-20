@@ -80,7 +80,7 @@ test('runner has no implicit write command and binds every importer/security inp
   await assert.rejects(publishContentRelease({}, freezeContentRelease(releaseFixture()), { expectedDatabase: 'ancient_history', allowFormal: true }), /actual isolated verification/);
 });
 
-test('actual PostgreSQL batch rolls back every stage, publishes once and preserves old identities', async () => {
+test('actual PostgreSQL batch rolls back every stage, publishes once and preserves old identities', async t => {
   const { default: pg } = await import('pg');
   const { randomBytes } = await import('node:crypto');
   const { readFileSync, mkdtempSync, rmSync } = await import('node:fs');
@@ -175,6 +175,24 @@ test('actual PostgreSQL batch rolls back every stage, publishes once and preserv
     assert.deepEqual(repeated.database, first.database, 'idempotent retry preserves every row and sequence');
     assert.deepEqual((await client.query('SELECT to_jsonb(t) AS record FROM translations t WHERE id=1')).rows, oldFull);
     assert.deepEqual(first.database.sequences.release_test_sentinel_id_seq, { last_value: '1', is_called: true });
+    await t.test('empty-review release restores private permissions without changing the existing baseline', async () => {
+      const emptyBaseline = await snapshotReleaseDatabase(client), emptyDump = join(temporary, 'empty-review-baseline.dump');
+      execFileSync(join(pgBin, 'pg_dump'), ['-Fc', '-h', cfg.socketDir, '-p', String(cfg.database.port), '-d', database, '-f', emptyDump], { stdio: 'pipe' });
+      const empty = { schemaVersion: 1, id: 'test-content-release-empty-reviews', humanReviewed: false,
+        baseline: { databaseSha256: emptyBaseline.sha256, dumpSha256: sha256(readFileSync(emptyDump)) },
+        library: structuredClone(content.library), people: loadPassagePeople(), passageIndex: structuredClone(content.passageIndex),
+        translationBatches: [], correctionBatch: null, alignments: [], sentenceBatches: [], timelines: [], reviewBatches: [] };
+      const verified = await verifyContentReleaseFromDump(freezeContentRelease(empty), emptyDump);
+      assert.equal(verified.verified, true);
+      assert.equal(verified.failures.length, releaseFaultStages.length);
+      assert.equal(verified.success.permissionsVerified, true);
+      assert.equal(verified.success.idempotent, true);
+      assert.equal(verified.success.fullInserts, 0);
+      assert.equal(verified.success.eventInserts, 0);
+      assert.deepEqual(verified.success.rebound.reviewBatches, []);
+      assert.equal(verified.success.finalDatabaseSha256, emptyBaseline.sha256);
+      assert.deepEqual(await snapshotReleaseDatabase(client), emptyBaseline, 'verification leaves its independent source database unchanged');
+    });
     const beforeConflict = await snapshotReleaseDatabase(client);
     const lostIndex = structuredClone(content); lostIndex.passageIndex.passages.shift();
     await assert.rejects(publishContentRelease(client, freezeContentRelease(lostIndex), { expectedDatabase: database }), /protected old row differs/);
