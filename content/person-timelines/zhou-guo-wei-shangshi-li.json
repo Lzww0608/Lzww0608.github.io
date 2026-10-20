@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-shangshi-li",
+  "events": [
+    {
+      "id": "zhou-guo-wei-shangshi-li-investiture",
+      "title": "封陇西县君",
+      "summary": "《五代会要》记周太祖时尚食李氏封陇西县君，该组封授依广顺元年八月敕。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "广顺元年八月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p53",
+          "originalRevision": 1,
+          "originalSha256": "b37ddd2c8bf362b9d8037b95710171da83c72591f3f772c90e76e19e6ceb80ef",
+          "excerpt": "尚食李氏，〈封隴西縣君。〉"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p53",
+          "originalRevision": 1,
+          "originalSha256": "b37ddd2c8bf362b9d8037b95710171da83c72591f3f772c90e76e19e6ceb80ef",
+          "excerpt": "並廣順元年八月敕。"
+        }
+      ],
+      "notes": [
+        "只以八月敕限定封授时间，不补首次任职、入宫、婚配或具体西历日。",
+        "本纪丙辰分源保留，只给具名尚食李这一来源对照，不移给其他女职，不另推确切西历日。"
+      ],
+      "variants": [
+        {
+          "label": "旧史本纪记日",
+          "sourceDate": "广顺元年八月丙辰",
+          "summary": "本纪记尚食李氏等八名宫官并封县君；未逐名列其余七人，不据此调和会要的九条县君职姓。",
+          "evidence": [
+            {
+              "chapterId": "old-v111",
+              "paragraphId": "old-v111-p6",
+              "originalRevision": 1,
+              "originalSha256": "f3822fbefb6534c54887ff3d225ac5fc990a0b82b03bbfdca612eb9eb3b15e20",
+              "excerpt": "丙辰，尚食李氏等宮官八人並封縣君"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

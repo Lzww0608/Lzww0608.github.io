@@ -217,7 +217,11 @@
     "zhou-guo-wei-sibin-gao",
     "zhou-guo-wei-sibin-chai",
     "zhou-guo-wei-sibin-ru",
-    "zhou-guo-wei-siji-ding"
+    "zhou-guo-wei-siji-ding",
+    "zhou-guo-wei-shangshi-li",
+    "zhou-guo-wei-shanggong-cao",
+    "zhou-guo-wei-siyao-lin",
+    "zhou-guo-wei-siyao-zhai"
   ],
   "people": [
     {
@@ -6775,6 +6779,104 @@
         "与其他来源同姓、同职或同封角色的自然人同异，不能仅凭称谓相合判定。"
       ],
       "aliases": "司记丁氏（周太祖宫官） 后周司记丁氏 後周司記丁氏 周太祖司记丁氏 周太祖司記丁氏",
+      "readingStarts": {
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》卷一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-shangshi-li",
+      "name": "尚食李氏（周太祖宫官）",
+      "dynasty": "后周",
+      "role": "尚食；史载封陇西县君",
+      "periodLabel": "后周广顺年间史载",
+      "intro": "《五代会要》周太祖宫职名册列尚食李氏，记封陇西县君，该组封授接广顺元年八月敕。",
+      "sourceNotes": [
+        "以《五代会要》周太祖宫职名册中的职称、姓氏与封号限定记载，不由县君封号补为君主配偶。",
+        "八月敕记封授，不据此推首次任职、入宫或婚配时间；个人名、家世与生卒未详。",
+        "《旧五代史》卷111具名记尚食李氏等八名宫官封县君；《五代会要》具体写尚食李氏封陇西县君。两书记载作为本职姓受封的来源对照，不拆成两次封授。",
+        "《五代会要》同段另列典宝、司正、司衣三条李氏职姓记载，皆封陇西县君；这些记载没有说明各职称的李氏是否同一人。",
+        "《五代会要》列九条县君职姓，《旧五代史》记八人封县君；不能逐一对号或据人数差异补定姓名。",
+        "明宗名册另有内人李氏封陇西县君，没有明确的跨朝身份联系，不转用其经历。"
+      ],
+      "aliases": "尚食李氏（周太祖宫官） 后周尚食李氏 後周尚食李氏 周太祖尚食李氏",
+      "readingStarts": {
+        "huiyao": "huiyao-v001",
+        "old": "old-v111"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》卷一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        },
+        {
+          "title": "《旧五代史》卷111",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7111&oldid=512888"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-shanggong-cao",
+      "name": "尚功曹氏（周太祖宫官）",
+      "dynasty": "后周",
+      "role": "尚功；史载封巨鹿县君",
+      "periodLabel": "后周广顺年间史载",
+      "intro": "《五代会要》周太祖宫职名册列尚功曹氏，记封巨鹿县君，该组封授接广顺元年八月敕。",
+      "sourceNotes": [
+        "以《五代会要》周太祖宫职名册中的职称、姓氏与封号限定记载，不由县君封号补为君主配偶。",
+        "八月敕记封授，不据此推首次任职、入宫或婚配时间；个人名、家世与生卒未详。"
+      ],
+      "aliases": "尚功曹氏（周太祖宫官） 后周尚功曹氏 後周尚功曹氏 周太祖尚功曹氏",
+      "readingStarts": {
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》卷一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-siyao-lin",
+      "name": "司药林氏（周太祖宫官）",
+      "dynasty": "后周",
+      "role": "司药；史载封会稽县君",
+      "periodLabel": "后周广顺年间史载",
+      "intro": "《五代会要》周太祖宫职名册列司药林氏，记封会稽县君，该组封授接广顺元年八月敕。",
+      "sourceNotes": [
+        "以《五代会要》周太祖宫职名册中的职称、姓氏与封号限定记载，不由县君封号补为君主配偶。",
+        "八月敕记封授，不据此推首次任职、入宫或婚配时间；个人名、家世与生卒未详。"
+      ],
+      "aliases": "司药林氏（周太祖宫官） 后周司药林氏 後周司藥林氏 周太祖司药林氏 周太祖司藥林氏",
+      "readingStarts": {
+        "huiyao": "huiyao-v001"
+      },
+      "sources": [
+        {
+          "title": "《五代会要》卷一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%80&oldid=2265747"
+        }
+      ]
+    },
+    {
+      "id": "zhou-guo-wei-siyao-zhai",
+      "name": "司药翟氏（周太祖宫官）",
+      "dynasty": "后周",
+      "role": "司药；史载特封浔阳县君",
+      "periodLabel": "后周广顺年间史载",
+      "intro": "《五代会要》周太祖宫职名册列司药翟氏，记特封浔阳县君，该组封授接广顺元年八月敕。",
+      "sourceNotes": [
+        "以《五代会要》周太祖宫职名册中的职称、姓氏与封号限定记载，不由县君封号补为君主配偶。",
+        "八月敕记封授，不据此推首次任职、入宫或婚配时间；个人名、家世与生卒未详。",
+        "明宗名册另有司膳翟氏封滕国夫人，职称和封号不同；没有明确的身份联系，不据同姓强合，也不补改任经历。"
+      ],
+      "aliases": "司药翟氏（周太祖宫官） 后周司药翟氏 後周司藥翟氏 周太祖司药翟氏 周太祖司藥翟氏",
       "readingStarts": {
         "huiyao": "huiyao-v001"
       },
