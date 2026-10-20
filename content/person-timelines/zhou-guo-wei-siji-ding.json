@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhou-guo-wei-siji-ding",
+  "events": [
+    {
+      "id": "zhou-guo-wei-siji-ding-investiture",
+      "title": "封陇西郡夫人",
+      "summary": "《五代会要》周太祖宫职名册记司记丁氏封陇西郡夫人，该组封授依广顺元年八月敕。",
+      "year": 951,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "广顺元年八月敕",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p53",
+          "originalRevision": 1,
+          "originalSha256": "b37ddd2c8bf362b9d8037b95710171da83c72591f3f772c90e76e19e6ceb80ef",
+          "excerpt": "司記丁氏，〈封隴西郡夫人。〉"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p53",
+          "originalRevision": 1,
+          "originalSha256": "b37ddd2c8bf362b9d8037b95710171da83c72591f3f772c90e76e19e6ceb80ef",
+          "excerpt": "並廣順元年八月敕。"
+        }
+      ],
+      "notes": [
+        "八月敕限定封授；不将它当作首次任职或入宫时间，不补独立日。"
+      ]
+    }
+  ]
+}
