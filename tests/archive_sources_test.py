@@ -40,6 +40,70 @@ ZHOU_HOUSEHOLD_BOUNDARIES = {
 HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_shiguochunqiu_is_a_distinct_fixed_complete_wu_volume(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        books = {book['id']: book for book in catalog['books']}
+        chapter_id = 'shiguochunqiu-v004'
+        summary = next(chapter for chapter in catalog['chapters'] if chapter['id'] == chapter_id)
+        selected = next(item for item in archive.SPECS if item['id'] == chapter_id)
+        self.assertEqual(sum(item['id'] == chapter_id for item in archive.SPECS), 1)
+        self.assertEqual(sum(book['id'] == 'shiguochunqiu' for book in archive.BOOKS), 1)
+        self.assertEqual(books['shiguochunqiu'], next(book for book in archive.BOOKS if book['id'] == 'shiguochunqiu'))
+        self.assertEqual(books['shiguochunqiu']['defaultChapter'], chapter_id)
+        self.assertIn('吴任臣', books['shiguochunqiu']['author'])
+        self.assertEqual(books['chunqiu']['title'], '五代春秋')
+        self.assertIn('尹洙', books['chunqiu']['author'])
+        self.assertNotEqual(books['chunqiu']['defaultChapter'], chapter_id)
+        source_path = archive.ROOT / 'sources' / f'{chapter_id}.json'
+        chapter_path = archive.ROOT / 'chapters' / f'{chapter_id}.json'
+        source_hash = '660db3111e7c57459a3e4dd72c2eabaf3651f0ae067be459afc8a7a02ccaacf2'
+        chapter_hash = '8221fc539af760e214dceb5d88ecb844d24ae8bcb52a778a30fb5e1b457d39e1'
+        payload = json.loads(source_path.read_text())
+        chapter = json.loads(chapter_path.read_text())
+        self.assertEqual(payload['response']['parse']['title'], selected['page'])
+        self.assertEqual(payload['response']['parse']['revid'], 2554068)
+        self.assertEqual(hashlib.sha256(source_path.read_bytes()).hexdigest(), source_hash)
+        self.assertEqual(hashlib.sha256(chapter_path.read_bytes()).hexdigest(), chapter_hash)
+        self.assertEqual(summary['provenance']['sourceSha256'], source_hash)
+        self.assertEqual(summary['provenance']['chapterSha256'], chapter_hash)
+        self.assertEqual(summary['provenance']['revisionId'], 2554068)
+        self.assertIn('oldid=2554068', summary['provenance']['sourceUrl'])
+        self.assertEqual(summary['provenance']['license'], 'CC BY-SA 4.0')
+        self.assertEqual(summary['scope'], 'full')
+        self.assertEqual(summary['paragraphCount'], 22)
+        self.assertEqual(summary['characterCount'], 1748)
+        tagged = archive.extract(payload['response']['parse']['text']['*'], with_tags=True)
+        self.assertEqual([paragraph['original'] for paragraph in chapter['paragraphs']], [text for text, _ in tagged])
+        self.assertEqual([paragraph['id'] for paragraph in chapter['paragraphs']], [f'{chapter_id}-p{i + 1}' for i in range(22)])
+        self.assertTrue(all(paragraph['revision'] == 1 and paragraph['translation'] is None for paragraph in chapter['paragraphs']))
+        self.assertEqual(sum(tag == 'h2' for _, tag in tagged), 5)
+        self.assertEqual(tagged[0][0], '太祖太妃史氏　夫人朱氏　太后王氏　睿帝讓皇后王氏')
+        self.assertTrue(chapter['paragraphs'][1]['original'].startswith('太紀史氏'))
+        self.assertTrue(chapter['paragraphs'][-1]['original'].startswith('上饒公臣者'))
+        self.assertTrue(any('底本讹字与原有标点保持原样' in note and '不作为独立史料复证' in note for note in chapter['notes']))
+
+    def test_shiguochunqiu_cached_capture_preserves_itself_and_the_existing_chunqiu(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        summaries = {chapter['id']: chapter for chapter in catalog['chapters']}
+        specs = {item['id']: item for item in archive.SPECS}
+        chapter_ids = ['chunqiu-v001', 'shiguochunqiu-v004']
+        archive_root = archive.ROOT
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                for chapter_id in chapter_ids:
+                    shutil.copyfile(archive_root / kind / f'{chapter_id}.json', root / kind / f'{chapter_id}.json')
+            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in chapter_ids]
+            before = {path: path.read_bytes() for path in paths}
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Only fixed cached revisions may be used')):
+                regenerated = archive.capture(specs['shiguochunqiu-v004'])
+                self.assertEqual(regenerated['provenance'], summaries['shiguochunqiu-v004']['provenance'])
+                for chapter_id in chapter_ids:
+                    result = archive.capture(specs[chapter_id], summaries[chapter_id])
+                    self.assertEqual(result['provenance'], summaries[chapter_id]['provenance'])
+            self.assertEqual({path: path.read_bytes() for path in paths}, before)
+
     def test_household_volumes_are_complete_fixed_revision_archives(self):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}

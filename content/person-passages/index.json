@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "scope": "current-archive",
   "coverage": {
-    "bookCount": 9,
-    "chapterCount": 214,
-    "paragraphCount": 8933
+    "bookCount": 10,
+    "chapterCount": 215,
+    "paragraphCount": 8955
   },
   "people": [
     {
@@ -1570,6 +1570,22 @@
     {
       "id": "zhou-shizong-unnamed-daughter-959",
       "name": "周世宗失名皇女（显德六年见载）"
+    },
+    {
+      "id": "wu-yang-xingmi-taifei-shi",
+      "name": "史太妃（杨行密妻）"
+    },
+    {
+      "id": "wu-yang-xingmi-wife-zhu",
+      "name": "朱夫人（杨行密妻）"
+    },
+    {
+      "id": "wu-yang-pu-mother-wang",
+      "name": "王太后（杨溥生母）"
+    },
+    {
+      "id": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+      "name": "杨行密女（钱元璙妻）"
     }
   ],
   "passages": [
@@ -46946,6 +46962,10 @@
         {
           "personId": "yang-xingmi",
           "kind": "biography"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "record"
         }
       ]
     },
@@ -47138,6 +47158,10 @@
         {
           "personId": "yang-longyan",
           "kind": "biography"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
         }
       ]
     },
@@ -47653,6 +47677,10 @@
       "people": [
         {
           "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
           "kind": "record"
         }
       ]
@@ -52785,6 +52813,10 @@
         },
         {
           "personId": "qian-yuanguan",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
           "kind": "record"
         }
       ]
@@ -102778,6 +102810,10 @@
         {
           "personId": "tang-li-keyong-consort-cao",
           "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
         }
       ]
     },
@@ -104998,6 +105034,10 @@
         {
           "personId": "qian-liu",
           "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
         }
       ]
     },
@@ -107098,6 +107138,374 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v004-p2",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p2",
+          "originalRevision": 1,
+          "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+          "start": 0,
+          "end": 230
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jiantang",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p3",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p3",
+          "originalRevision": 1,
+          "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+          "start": 0,
+          "end": 69
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p4",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p4",
+          "originalRevision": 1,
+          "originalSha256": "deba79e44c327ace24192395d3c920c02ed6a4e2a03eec396b7ceecc1866c232",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-mother-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p5",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p5",
+          "originalRevision": 1,
+          "originalSha256": "2a17e82c6f9d9e3e482263fdb82bc48e94d04c013212edfb5ce41db7bd1ed10e",
+          "start": 0,
+          "end": 45
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p7",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p7",
+          "originalRevision": 1,
+          "originalSha256": "9ff7ee449797534da2d7ea6953585c53bf023308ea74957527fdd6e0bb90bb81",
+          "start": 0,
+          "end": 357
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p8",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p8",
+          "originalRevision": 1,
+          "originalSha256": "b3b7fcaf142feaa6d4e40701546decca7ed4e8139990ca4f0cc3adcfc0cac745",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p9",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p9",
+          "originalRevision": 1,
+          "originalSha256": "472be991aa22794578ca6165c5e3e0dea8001e1f3479b730581158c8dfa8c725",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p12",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p12",
+          "originalRevision": 1,
+          "originalSha256": "d051425be0ef32fc4a6aa767b2084ac90310afda47aa885d06da97f2dbfa3167",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p13",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p13",
+          "originalRevision": 1,
+          "originalSha256": "06f3951c137158207ade846c6cead0c0ff73c8c4e5924baddc8d1edc39aca008",
+          "start": 0,
+          "end": 130
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p14",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p14",
+          "originalRevision": 1,
+          "originalSha256": "d234c72de65d48f4ad1345d18e2f0cb260ad510588ece0c17a7e169dc957d821",
+          "start": 0,
+          "end": 56
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p15",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p15",
+          "originalRevision": 1,
+          "originalSha256": "d4b5aa4ef5bdb3e0693d440d4716d1d9e3ef69f5949c74033eb32b63834aae64",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p16",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p16",
+          "originalRevision": 1,
+          "originalSha256": "23e3ac7ec43738643c624eda89e03580704945a0476628aad7ebe7b95f17410d",
+          "start": 0,
+          "end": 82
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p17",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p17",
+          "originalRevision": 1,
+          "originalSha256": "cc884b852886d436f36f2794f162ec338e3c7033a96e910fe9816ed7fc4be4eb",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p19",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p19",
+          "originalRevision": 1,
+          "originalSha256": "3863651e64b9a1236cea28f49f8efb39c717f3e791910889a9616b91406cbe48",
+          "start": 0,
+          "end": 256
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v004-p22",
+      "chapterId": "shiguochunqiu-v004",
+      "title": "卷 4 · 吴后妃、宗室及公主 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v004-p22",
+          "originalRevision": 1,
+          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v266-p5",
       "chapterId": "tongjian-v266",
       "title": "卷 266 · 后梁纪1 · 第 5 段",
@@ -108382,6 +108790,10 @@
         {
           "personId": "yang-longyan",
           "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
         }
       ]
     },
@@ -108405,6 +108817,10 @@
         },
         {
           "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
           "kind": "record"
         }
       ]
@@ -116026,6 +116442,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
         }
       ]
     },
@@ -116401,6 +116821,26 @@
         },
         {
           "personId": "zhu-youqian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v271-p20",
+      "chapterId": "tongjian-v271",
+      "title": "卷 271 · 后梁纪6 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v271-p20",
+          "originalRevision": 1,
+          "originalSha256": "aacb7644b0fc1c632644fd3760ecba833622da2dd38cde2f69f2ad45d4efd006",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-yang-pu-mother-wang",
           "kind": "record"
         }
       ]
@@ -124122,6 +124562,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-mother-wang",
+          "kind": "record"
         }
       ]
     },
@@ -124737,6 +125181,26 @@
       "people": [
         {
           "personId": "li-siyuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v276-p63",
+      "chapterId": "tongjian-v276",
+      "title": "卷 276 · 后唐纪5 · 第 63 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v276-p63",
+          "originalRevision": 1,
+          "originalSha256": "20a5ef2c10e7627b5ed0d54cd4751be70f2affb9694ffa978c8dc9edb5f4b334",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-yang-pu-mother-wang",
           "kind": "record"
         }
       ]

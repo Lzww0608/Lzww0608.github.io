@@ -29,6 +29,7 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
 ]
 for book in BOOKS:
     book['url'] = 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(book['sourceTitle'])
@@ -204,6 +205,9 @@ for volume in range(17, 21):
     SPECS.append(dict(id=f'beimeng-v{volume:03}', bookId='beimeng', volume=volume, position=volume-15, title=f'卷 {volume}', page=f'北夢瑣言 (四庫全書本)/卷{volume}', subjects=[], scanSubjects=True))
 for volume, title, subjects in [(28, '后梁纪上', FOUNDERS[:1]), (29, '后梁纪下、后唐纪上', FOUNDERS[:2]), (30, '后唐纪下、后晋、后汉与后周纪', FOUNDERS[2:])]:
     SPECS.append(dict(id=f'kaoyi-v{volume:03}', bookId='kaoyi', volume=volume, title=f'卷 {volume} · {title}', page=f'資治通鑑考異 (四庫全書本)/卷{volume}', subjects=subjects))
+SPECS.append(dict(id='shiguochunqiu-v004', bookId='shiguochunqiu', volume=4,
+                  title='卷 4 · 吴后妃、宗室及公主', page='十國春秋/卷004',
+                  subjects=['yang-xingmi', 'shi-jiantang', 'li-bian', 'song-qiqiu']))
 
 # Explicit reign and shared-annal links are metadata only. Original files and
 # captured revisions stay byte-identical when the roster grows.
@@ -464,6 +468,7 @@ def capture(spec, previous=None):
     if book['id'] == 'huiyao': notes.append('《五代会要》按典章制度分类。保留来源异体字及校注。人物关联依据卷中明确出现的姓名或带政权限定的帝号，供整卷参读。')
     if book['id'] == 'beimeng': notes.append('本站选录四库全书本卷 17—20，另收提要与作者自序，不表示全书二十卷已全部收录。')
     if book['id'] == 'kaoyi': notes.append('本站收录卷 28—30 的五代部分。本书记录史料异同及取舍理由，须与《资治通鉴》正文对应阅读。')
+    if book['id'] == 'shiguochunqiu': notes.append('本站仅收录维基文库《十国春秋》标准页面卷 4，不表示全书已收录。底本讹字与原有标点保持原样，译文及译注参校同一作品的四库本；不同版本不作为独立史料复证。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')
     subjects = chapter_subjects(spec, paragraphs)
     position = spec.get('position', spec['volume'])

@@ -62,5 +62,5 @@ test('all archived books use the same conversion without changing source data or
     assert.equal(JSON.stringify(chapter), before);
     books.add(chapter.bookId);
   }
-  assert.deepEqual([...books].sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'new', 'old', 'quewen', 'shibu', 'tongjian']);
+  assert.deepEqual([...books].sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'new', 'old', 'quewen', 'shibu', 'shiguochunqiu', 'tongjian']);
 });

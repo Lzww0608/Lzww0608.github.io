@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-yang-pu-mother-wang",
+  "events": [
+    {
+      "id": "wu-yang-pu-mother-wang-taifei",
+      "title": "杨溥即王位尊为太妃",
+      "summary": "武义二年六月，杨溥即吴王位，尊生母王氏为太妃。",
+      "year": 920,
+      "sortOrder": 1,
+      "sourceDate": "武义二年六月戊申（通鉴记日）",
+      "precision": "year",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p4",
+          "originalRevision": 1,
+          "originalSha256": "deba79e44c327ace24192395d3c920c02ed6a4e2a03eec396b7ceecc1866c232",
+          "excerpt": "武義二年六月，睿帝卽王位，尊爲太妃"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p20",
+          "originalRevision": 1,
+          "originalSha256": "aacb7644b0fc1c632644fd3760ecba833622da2dd38cde2f69f2ad45d4efd006",
+          "excerpt": "己丑，宣王殂。六月，戊申，溥即吳王位。尊母王氏曰太妃。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p12",
+          "originalRevision": 1,
+          "originalSha256": "e8dfb9fa237a99f2dfb6fa3b912ae971e838094aa13878331cf2a96c6b753cdc",
+          "excerpt": "均王下貞明六年（庚辰，公元九二零年）"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-pu-mother-wang-empress-dowager",
+      "title": "尊为皇太后",
+      "summary": "杨溥称帝、改元乾贞后，尊太妃王氏为皇太后。与920年太妃授号分开。",
+      "year": 927,
+      "sortOrder": 2,
+      "sourceDate": "乾贞元年十一月丙子（通鉴记日）",
+      "precision": "year",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p4",
+          "originalRevision": 1,
+          "originalSha256": "deba79e44c327ace24192395d3c920c02ed6a4e2a03eec396b7ceecc1866c232",
+          "excerpt": "未幾稱帝，尊爲皇太后。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p20",
+          "originalRevision": 1,
+          "originalSha256": "d31e90c4751b9a17e6fc101977d329549f12162ab34ab06225f0c81c92a2f9bd",
+          "excerpt": "十一月，庚戌，吳王即皇帝位，追尊孝武王曰武皇帝，景王曰景皇帝，宣王曰宣皇帝。安重誨議伐吳，帝不從。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p21",
+          "originalRevision": 1,
+          "originalSha256": "ba84198218ddb83e542a1195b34bf5f3deea421c4a540bde313c1f194b929c68",
+          "excerpt": "甲子，吳大赦，改元乾貞。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p22",
+          "originalRevision": 1,
+          "originalSha256": "ed1c09edc9f3d5bd2c2599b57612712a08beb4359bcd3e4fd93dbc6b9c523951",
+          "excerpt": "丙子，吳主尊太妃王氏曰皇太后，以徐知詢為諸道副都統、鎮海寧國節度使兼侍中，加徐知誥都督中外諸軍事。"
+        },
+        {
+          "chapterId": "tongjian-v276",
+          "paragraphId": "tongjian-v276-p3",
+          "originalRevision": 1,
+          "originalSha256": "7d2147d991bff9d4bf7df9eb6f9868387a6d3646c789fba53301a6a2454d31e2",
+          "excerpt": "明宗聖德和武欽孝皇帝中之上天成二年（丁亥，公元九二七年）"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-pu-mother-wang-death",
+      "title": "皇太后去世",
+      "summary": "乾贞二年王太后去世。本传记八月；《资治通鉴》将此事放在闰月连续叙次，分别保留。",
+      "year": 928,
+      "sortOrder": 3,
+      "sourceDate": "乾贞二年八月（本传）；通鉴承闰月",
+      "precision": "year",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p4",
+          "originalRevision": 1,
+          "originalSha256": "deba79e44c327ace24192395d3c920c02ed6a4e2a03eec396b7ceecc1866c232",
+          "excerpt": "乾貞二年八月殂。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴闰月叙次",
+          "sourceDate": "后唐天成三年闰月（承八月）",
+          "year": 928,
+          "summary": "通鉴先记八月，后记闰月，再记吴王太后殂，死亡仍在西历928年；不以叙次替换本传八月。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v276",
+              "paragraphId": "tongjian-v276-p29",
+              "originalRevision": 1,
+              "originalSha256": "598831e7c5aa188af13b9c7c9a9b43cfd6d5bd29033d82e1c6226ffd5078582f",
+              "excerpt": "明宗聖德和武欽孝皇帝中之上天成三年（戊子，公元九二八年）"
+            },
+            {
+              "chapterId": "tongjian-v276",
+              "paragraphId": "tongjian-v276-p55",
+              "originalRevision": 1,
+              "originalSha256": "08683094daa637d36b3cb42e1ba4d54733a0ed0a46b35b22ee958ba7370af1c5",
+              "excerpt": "契丹北走，道路泥濘，人馬饑疲，入幽州境。八月，甲戌，趙德鈞遣牙將武從諫將精騎邀擊之，分兵扼險要，生擒惕隱等數百人；餘眾散投村落，村民以白梃擊之，其得脫歸國者不過數十人。自是契丹沮氣，不敢輕犯塞。"
+            },
+            {
+              "chapterId": "tongjian-v276",
+              "paragraphId": "tongjian-v276-p59",
+              "originalRevision": 1,
+              "originalSha256": "a0150fe0db4c5df0501e0306f8d4b99322d6c26b943f3e6bad1d6c260e379340",
+              "excerpt": "吳越王鏐欲立中子傳瓘為嗣，謂諸子曰：「各言汝功，吾擇多者而立之。」傳瓘兄傳璹、傳瓘、傳璟皆推傳瓘，乃奏請以兩鎮授傳瓘。閏月，丁未，詔以傳瓘為鎮海、鎮東節度使。"
+            },
+            {
+              "chapterId": "tongjian-v276",
+              "paragraphId": "tongjian-v276-p63",
+              "originalRevision": 1,
+              "originalSha256": "20a5ef2c10e7627b5ed0d54cd4751be70f2affb9694ffa978c8dc9edb5f4b334",
+              "excerpt": "吳王太后殂。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

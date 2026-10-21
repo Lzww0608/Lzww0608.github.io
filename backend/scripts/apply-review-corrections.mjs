@@ -83,7 +83,7 @@ export async function applyReviewCorrections(client, input) {
       // the review was performed by the human owner or a professional reviewer.
       if (row.metadata?.origin !== 'ai' || row.metadata?.humanReviewed !== false
         || row.metadata?.reviewStatus === 'owner-edited' || row.metadata?.professionalReview === true) reject('owner_revision_protected');
-      if (row.text === entry.text) reject('unchanged_translation');
+      if (row.text === entry.text && canonical(row.metadata?.reviewNotes ?? []) === canonical(entry.reviewNotes)) reject('unchanged_translation');
     }
     const translations = [];
     for (const entry of batch.entries) {

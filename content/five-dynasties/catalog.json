@@ -102,6 +102,17 @@
       "description": "完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。",
       "defaultChapter": "kaoyi-v028",
       "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+    },
+    {
+      "id": "shiguochunqiu",
+      "title": "十国春秋",
+      "sourceTitle": "十國春秋",
+      "author": "清 · 吴任臣撰",
+      "kind": "十国史 · 纪传体",
+      "image": "",
+      "description": "现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
+      "defaultChapter": "shiguochunqiu-v004",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B"
     }
   ],
   "chapters": [
@@ -8803,6 +8814,36 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B720&action=history",
         "sourceSha256": "3b28e4ae0afb1c42fa4b8d75e61c89d2a6349441f4774d01e7cb04008a4d4ab2",
         "chapterSha256": "91729dbb90fbcfe8474a7f6cb9aeb55f4f5606a5bad6728467e7f8d470762cb5"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v004",
+      "bookId": "shiguochunqiu",
+      "volume": 4,
+      "title": "卷 4 · 吴后妃、宗室及公主",
+      "subjects": [
+        "yang-xingmi",
+        "shi-jiantang",
+        "li-bian",
+        "song-qiqiu",
+        "wu-yang-xingmi-taifei-shi",
+        "wu-yang-xingmi-wife-zhu",
+        "wu-yang-pu-mother-wang"
+      ],
+      "position": 4,
+      "scope": "full",
+      "paragraphCount": 22,
+      "characterCount": 1748,
+      "provenance": {
+        "pageTitle": "十國春秋/卷004",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7004&oldid=2554068",
+        "revisionId": 2554068,
+        "fetchedAt": "2026-10-16T15:06:23.380935+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7004&action=history",
+        "sourceSha256": "660db3111e7c57459a3e4dd72c2eabaf3651f0ae067be459afc8a7a02ccaacf2",
+        "chapterSha256": "8221fc539af760e214dceb5d88ecb844d24ae8bcb52a778a30fb5e1b457d39e1"
       }
     }
   ]

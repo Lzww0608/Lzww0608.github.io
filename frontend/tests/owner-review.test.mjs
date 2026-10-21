@@ -29,6 +29,31 @@ test('new authorized review subjects retain private route filters through a roun
   assert.equal(resolveOwnerReviewRoute('owner-review?personId=unknown'), null);
 });
 
+test('Shiguo Chunqiu joins existing private book filters without authorizing unknown people or books', () => {
+  for (const bookId of ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu']) {
+    const expected = { ...filters, personId: 'li-keyong', bookId, category: 'translation', status: 'retained', offset: 50 };
+    const route = ownerReviewRoute(expected);
+    assert.deepEqual(resolveOwnerReviewRoute(route), expected);
+    assert.equal(resolveRoute(`#${route}`), route);
+  }
+  for (const route of ['owner-review?personId=unknown&bookId=shiguochunqiu',
+    'owner-review?personId=li-keyong&bookId=unknown',
+    'owner-review?bookId=shiguochunqiu&bookId=chunqiu', 'owner-review?bookId=Shiguochunqiu']) {
+    assert.equal(resolveOwnerReviewRoute(route), null, route);
+  }
+});
+
+test('Shiguo Chunqiu private responses retain exact book filtering and reject an unregistered book', () => {
+  // Schema fixture only; no private finding or historical attribution is published.
+  const chapterId = 'shiguochunqiu-v004', paragraphId = `${chapterId}-p1`;
+  const entry = { ...item, bookId: 'shiguochunqiu', chapterId, paragraphId,
+    evidence: [{ chapterId, paragraphId, excerpt: '仅供校核接口结构测试。' }] };
+  const response = { ...page, items: [entry] };
+  assert.deepEqual(parseOwnerReviewResponse(response, { ...filters, bookId: 'shiguochunqiu' }).items, [entry]);
+  assert.throws(() => parseOwnerReviewResponse(response, { ...filters, bookId: 'chunqiu' }));
+  assert.throws(() => parseOwnerReviewResponse({ ...page, items: [{ ...entry, bookId: 'unknown' }] }, filters));
+});
+
 test('private review data cannot be requested before authentication or from another API host', async () => {
   let calls = 0;
   const fetcher = async () => { calls++; return respond(page); };

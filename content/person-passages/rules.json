@@ -4185,6 +4185,68 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-yang-xingmi-taifei-shi",
+      "names": [
+        "史太妃（杨行密妻）",
+        "史太妃（楊行密妻）",
+        "杨行密妻史氏",
+        "楊行密妻史氏",
+        "杨渥母史氏",
+        "楊渥母史氏",
+        "杨隆演母史氏",
+        "楊隆演母史氏",
+        "吴太妃史氏",
+        "吳太妃史氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-yang-xingmi-wife-zhu",
+      "names": [
+        "朱夫人（杨行密妻）",
+        "朱夫人（楊行密妻）",
+        "杨行密妻朱氏",
+        "楊行密妻朱氏",
+        "朱延寿姊（杨行密妻）",
+        "朱延壽姊（楊行密妻）",
+        "燕国夫人朱氏（杨行密妻）",
+        "燕國夫人朱氏（楊行密妻）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-yang-pu-mother-wang",
+      "names": [
+        "王太后（杨溥生母）",
+        "王太后（楊溥生母）",
+        "杨溥母王氏",
+        "楊溥母王氏",
+        "吴睿帝生母王氏",
+        "吳睿帝生母王氏",
+        "吴王太后（杨溥母）",
+        "吳王太后（楊溥母）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+      "names": [
+        "杨行密女（钱元璙妻）",
+        "楊行密女（錢元璙妻）",
+        "钱元璙妻（杨行密女）",
+        "錢元璙妻（楊行密女）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12229,6 +12291,28 @@
       "reason": "本段首句及符魏王自称明确是符皇后之父符彦卿，不是寇彦卿；仅排除此原段短称命中。",
       "originalRevision": 1,
       "originalSha256": "d37e544028c9241cf44af630da5d499cd275d4c448baef09cadea8e56bdfe3aa"
+    },
+    {
+      "personId": "shi-jiantang",
+      "paragraphId": "shiguochunqiu-v004-p2",
+      "terms": [
+        "史建瑭",
+        "建瑭"
+      ],
+      "reason": "史氏传称“或云”史建瑭族姑，族属未定，史建瑭只作亲属提及。",
+      "originalRevision": 1,
+      "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "shiguochunqiu-v004-p9",
+      "terms": [
+        "楊行密",
+        "行密"
+      ],
+      "reason": "本段称杨行密有一子，并明言排行未详；杨行密为父称，不能把该子强认杨澈。",
+      "originalRevision": 1,
+      "originalSha256": "472be991aa22794578ca6165c5e3e0dea8001e1f3479b730581158c8dfa8c725"
     }
   ],
   "regnalEdicts": {

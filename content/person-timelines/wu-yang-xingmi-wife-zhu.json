@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-yang-xingmi-wife-zhu",
+  "events": [
+    {
+      "id": "wu-yang-xingmi-wife-zhu-yan-guo",
+      "title": "受封燕国夫人",
+      "summary": "朱氏在唐代受封燕国夫人，制书用贤淑赞语叙其荣宠，不表示实际获割燕地。",
+      "year": null,
+      "sortOrder": 1,
+      "sourceDate": "唐封燕国夫人（未系年月）",
+      "precision": "undated",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p3",
+          "originalRevision": 1,
+          "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+          "excerpt": "〈朱氏，唐封燕國夫人，制曰：全燕列壤，大國疏封，式示寵榮，以旌賢淑。〉"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-xingmi-wife-zhu-support-and-summon",
+      "title": "扶掖行密并召朱延寿",
+      "summary": "杨行密装作眼病、故意撞柱倒下，朱夫人扶掖；他表示要托付朱延寿，她欣喜，急召弟弟来。谋划与伪装的施事是杨行密。",
+      "year": null,
+      "sortOrder": 2,
+      "sourceDate": "田頵、安仁义谋叛时；本段未系确年",
+      "precision": "undated",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p12",
+          "originalRevision": 1,
+          "originalSha256": "2f65dbb390403c19baa029d7a226055d5cb57e9fece642e3711d94dbe60e682f",
+          "excerpt": "延壽者，行密夫人朱氏之弟也。頵及仁義之將叛也，行密疑之，乃陽為目疾，每接延壽使者，必錯亂其所見以示之。嘗行，故觸柱而仆，朱夫人扶之，良久乃蘇。泣曰：「吾業成而喪其目，是天廢我也！吾兒子皆不足以任事，得延壽付之，吾無恨矣。」夫人喜，急召延壽，延壽至，行密迎之寢門，刺殺之，出朱夫人以嫁之。"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-xingmi-wife-zhu-expelled",
+      "title": "弟被杀后遭逐出",
+      "summary": "朱延寿到寝门被杨行密刺杀，朱夫人随之被逐出；《新五代史》另记“出朱夫人以嫁之”。",
+      "year": null,
+      "sortOrder": 3,
+      "sourceDate": "朱延寿被杀后（本传未系确年）",
+      "precision": "undated",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p3",
+          "originalRevision": 1,
+          "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+          "excerpt": "會延壽被誅，并夫人出之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史另记使其改嫁",
+          "sourceDate": "延寿至寝门被杀后",
+          "summary": "新史叙为将朱夫人逐出，使她另嫁；未载改嫁对象或之后结局。",
+          "evidence": [
+            {
+              "chapterId": "new-v61",
+              "paragraphId": "new-v61-p12",
+              "originalRevision": 1,
+              "originalSha256": "2f65dbb390403c19baa029d7a226055d5cb57e9fece642e3711d94dbe60e682f",
+              "excerpt": "夫人喜，急召延壽，延壽至，行密迎之寢門，刺殺之，出朱夫人以嫁之。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

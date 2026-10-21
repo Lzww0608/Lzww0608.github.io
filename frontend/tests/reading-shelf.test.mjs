@@ -8,7 +8,7 @@ import { createReadingShelfStore, READING_SHELF_STORAGE_KEY, READING_SHELF_APP, 
 import { timelineHash } from '../src/person-timeline-schema.ts';
 import { timelineEventIdentity } from '../src/event-timeline-links-schema.ts';
 import { eventComparisons } from '../src/event-comparison-data.ts';
-import { libraryChapters } from '../src/library.ts';
+import { libraryBooks, libraryChapters, resolveReadingRoute, resolveRoute } from '../src/library.ts';
 
 const date = '2026-01-01T00:00:00.000Z';
 const later = '2026-01-02T00:00:00.000Z';
@@ -49,6 +49,38 @@ test('actual catalog leaf routes retain public search and strip only verified li
     `${route}&return=${encodeURIComponent('owner-review')}`, `${route}&return=${encodeURIComponent('person-sources/li-cunxu?private=secret')}`]) {
     assert.equal(parseReadingShelfRoute(bad, true), null, bad);
   }
+});
+
+test('actual Shiguo Chunqiu catalog routes and paragraph bookmarks remain distinct from Wudai Chunqiu', async () => {
+  const book = libraryBooks.find(book => book.id === 'shiguochunqiu');
+  const chapter = libraryChapters.find(chapter => chapter.id === 'shiguochunqiu-v004');
+  assert.ok(book, 'The actual public Shiguo Chunqiu book must be integrated before release.');
+  assert.ok(chapter, 'The actual complete volume 004 must be integrated before release.');
+  assert.equal(chapter.bookId, book.id);
+  assert.equal(book.defaultChapter, chapter.id);
+  const archived = JSON.parse(await fs.readFile(new URL(`../../content/five-dynasties/chapters/${chapter.id}.json`, import.meta.url), 'utf8'));
+  const original = archived.paragraphs[0];
+  const target = `read-${book.id}/${chapter.id}?paragraph=${original.id}`;
+  assert.equal(resolveRoute(`#${target}`), target);
+  assert.equal(resolveReadingRoute(target).focusParagraphId, original.id);
+  assert.equal(normalizeReadingShelfRoute(`read-${book.id}`), `read-${book.id}/${chapter.id}`);
+  assert.equal(parseReadingShelfRoute(target).chapterId, chapter.id);
+  assert.equal(resolveReadingRoute(`read-chunqiu/${chapter.id}`), null);
+  assert.equal(parseReadingShelfRoute(`read-${book.id}/${chapter.id}?paragraph=${chapter.id}-p${chapter.paragraphCount + 1}`), null);
+  assert.equal(parseReadingShelfRoute(`read-unknown/${chapter.id}`), null);
+  for (const existing of libraryBooks.filter(book => book.id !== 'shiguochunqiu')) {
+    assert.equal(resolveReadingRoute(`read-${existing.id}`).chapter.id, existing.defaultChapter);
+  }
+  const { store } = create();
+  await store.toggleParagraphBookmark({ chapterId: chapter.id, paragraph: original });
+  const saved = store.getSnapshot().bookmarks[0];
+  assert.equal(bookmarkRoute(saved), target);
+  assert.equal(await verifyParagraphBookmark(saved, original), true);
+  assert.equal(await verifyParagraphBookmark(saved, { ...original, original: `${original.original}改` }), false);
+  const restored = create();
+  restored.store.mergeImport(restored.store.previewImport(store.exportJson()));
+  assert.equal(bookmarkRoute(restored.store.getSnapshot().bookmarks[0]), target);
+  assert.ok(!store.exportJson().includes(original.original));
 });
 
 test('person inference preserves explicit known context and never guesses from chapter subjects', () => {

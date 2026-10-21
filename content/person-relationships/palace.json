@@ -7506,5 +7506,205 @@
         "excerpt": "並廣順元年八月敕。"
       }
     ]
+  },
+  {
+    "id": "yang-xingmi-shi-consort",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-taifei-shi",
+    "kind": "kinship",
+    "label": "纳史氏为室",
+    "note": "据“唐僖宗时太祖纳之”，不补皇后或嫡妻位号。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "唐僖宗時，太祖納之，生烈祖、高祖，己而封武昌郡君。",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      }
+    ]
+  },
+  {
+    "id": "shi-yang-wo-birthmother",
+    "from": "wu-yang-xingmi-taifei-shi",
+    "to": "yang-wo",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "烈祖指杨渥，母称见本段及新史。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "生烈祖、高祖",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p20",
+        "originalRevision": 1,
+        "originalSha256": "d9bec95ef3bea8defc76e69e1d432480c9c69b96754530d7ba92eb20ff8e676c",
+        "excerpt": "乃渥母史氏教",
+        "title": "《新五代史》卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "shi-yang-longyan-birthmother",
+    "from": "wu-yang-xingmi-taifei-shi",
+    "to": "yang-longyan",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "高祖指杨隆演；武义元年尊太妃不补皇太后称号。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "生烈祖、高祖",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "通鑑又云：隆演尊母爲太妃。",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-zhu-wife",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-wife-zhu",
+    "kind": "kinship",
+    "label": "夫妇，后被逐出",
+    "note": "本传只记出之；新史另记使之改嫁，不猜后夫。",
+    "sources": [
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p12",
+        "originalRevision": 1,
+        "originalSha256": "2f65dbb390403c19baa029d7a226055d5cb57e9fece642e3711d94dbe60e682f",
+        "excerpt": "行密夫人朱氏之弟也",
+        "title": "《新五代史》卷 61 · 吴世家第一"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p12",
+        "originalRevision": 1,
+        "originalSha256": "2f65dbb390403c19baa029d7a226055d5cb57e9fece642e3711d94dbe60e682f",
+        "excerpt": "出朱夫人以嫁之",
+        "title": "《新五代史》卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wife-zhu-yanshou-siblings",
+    "from": "wu-yang-xingmi-wife-zhu",
+    "to": "wu-zhu-yanshou",
+    "kind": "kinship",
+    "label": "姊弟",
+    "note": "本国／奉国是同书传本校读，不补朱温亲族关系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p3",
+        "originalRevision": 1,
+        "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+        "excerpt": "夫人朱氏，本國節度使延壽姊。",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p12",
+        "originalRevision": 1,
+        "originalSha256": "2f65dbb390403c19baa029d7a226055d5cb57e9fece642e3711d94dbe60e682f",
+        "excerpt": "延壽者，行密夫人朱氏之弟也。",
+        "title": "《新五代史》卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "wang-yang-pu-birthmother",
+    "from": "wu-yang-pu-mother-wang",
+    "to": "yang-pu",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "生母来自其所出；不补嫡母、养母或杨行密婚姻名分。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p4",
+        "originalRevision": 1,
+        "originalSha256": "deba79e44c327ace24192395d3c920c02ed6a4e2a03eec396b7ceecc1866c232",
+        "excerpt": "太后王氏，睿帝其所出也。",
+        "title": "《十国春秋》卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p20",
+        "originalRevision": 1,
+        "originalSha256": "aacb7644b0fc1c632644fd3760ecba833622da2dd38cde2f69f2ad45d4efd006",
+        "excerpt": "尊母王氏曰太妃。",
+        "title": "《资治通鉴》卷 271 · 后梁纪6"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-qian-yuanliao-wife-daughter",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "只记有据父女；名、排行、生母及公主号未载。",
+    "sources": [
+      {
+        "chapterId": "new-v67",
+        "paragraphId": "new-v67-p12",
+        "originalRevision": 1,
+        "originalSha256": "db3b9bafd34ee584d7270ee9b2de9087f4e5bf940292fb6456478532bd97c6e0",
+        "excerpt": "行密以女妻元璙",
+        "title": "《新五代史》卷 67 · 吴越世家第七"
+      },
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p12",
+        "originalRevision": 1,
+        "originalSha256": "dabd4bacaea66e2a9f9d358d52c6ea1cb769514ae7db725ad7648c61cc00e56f",
+        "excerpt": "行密見之甚喜，因以其女妻之",
+        "title": "《五代史补》卷 1 · 后梁史事"
+      }
+    ]
+  },
+  {
+    "id": "yang-daughter-qian-yuanliao-marriage",
+    "from": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+    "to": "wuyue-qian-yuanliao",
+    "kind": "kinship",
+    "label": "婚配",
+    "note": "受婚元璙与末句被质元瓘不同，不加公主封号。",
+    "sources": [
+      {
+        "chapterId": "new-v67",
+        "paragraphId": "new-v67-p12",
+        "originalRevision": 1,
+        "originalSha256": "db3b9bafd34ee584d7270ee9b2de9087f4e5bf940292fb6456478532bd97c6e0",
+        "excerpt": "行密以女妻元璙",
+        "title": "《新五代史》卷 67 · 吴越世家第七"
+      },
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p12",
+        "originalRevision": 1,
+        "originalSha256": "dabd4bacaea66e2a9f9d358d52c6ea1cb769514ae7db725ad7648c61cc00e56f",
+        "excerpt": "以元璙通昏，二境漸睦",
+        "title": "《五代史补》卷 1 · 后梁史事"
+      }
+    ]
   }
 ]

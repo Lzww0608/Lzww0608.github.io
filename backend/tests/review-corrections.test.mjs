@@ -30,13 +30,17 @@ before(async () => {
   await owner.query(`INSERT INTO books(id,title,author,description,source_url,published) VALUES ('correction-book','测试书','作者','说明','https://example.test',true);
     INSERT INTO editions(id,book_id,label,source_note) VALUES ('correction-edition','correction-book','底本','来源');
     INSERT INTO chapters(id,edition_id,position,title,source_url,published) VALUES ('correction-chapter','correction-edition',1,'测试章','https://example.test',true);`);
-  for (let number = 1; number <= 8; number++) {
+  for (let number = 1; number <= 13; number++) {
     const id = `correction-p${number}`, original = `第${number}段繁體原文，不能覆寫。`;
     originals.set(id, original);
     await owner.query('INSERT INTO paragraphs(id,chapter_id,position,current_revision) VALUES ($1,\'correction-chapter\',$2,1)', [id, number]);
     await owner.query('INSERT INTO paragraph_revisions(paragraph_id,revision,original) VALUES ($1,1,$2)', [id, original]);
     const metadata = number === 5 ? { origin: 'human', reviewStatus: 'owner-edited', humanReviewed: false }
       : { origin: 'ai', humanReviewed: false, batchId: 'initial-batch', batchSha256: 'a'.repeat(64), reviewNotes: ['旧疑点。'] };
+    if (number === 9) metadata.reviewNotes = ['旧校注。', '保留第二条。', '保留第三条。', '保留第四条。'];
+    if (number === 11) metadata.reviewStatus = 'owner-edited';
+    if (number === 12) metadata.humanReviewed = true;
+    if (number === 13) metadata.professionalReview = true;
     const row = (await owner.query(`INSERT INTO translations(paragraph_id,original_revision,version,text,translator,status,metadata)
       VALUES ($1,1,1,$2,'Codex','published',$3::jsonb) RETURNING id::text`, [id, `第${id}段原译。`, JSON.stringify(metadata)])).rows[0];
     parents.set(id, row.id);
@@ -72,14 +76,49 @@ test('small corrections append only changed published rows and retain every orig
   await assert.rejects(apply({ ...input, entries: [entry('correction-p1', { text: '改输入。' }), entry('correction-p2')] }), error => error.code === 'batch_conflict');
 });
 
-test('stale originals/translations, human edits and unnecessary text changes prevent any batch insert', async () => {
+test('note-only corrections append an actual version, replace approved notes and repeat without inserts', async () => {
+  const previous = (await owner.query('SELECT row_to_json(t) AS record FROM translations t ORDER BY id')).rows;
+  const oldOriginals = (await owner.query('SELECT row_to_json(r) AS record FROM paragraph_revisions r ORDER BY paragraph_id,revision')).rows;
+  const text = '第correction-p9段原译。';
+  const notes = ['修正第一条校注。', '保留第二条。', '保留第三条。', '保留第四条。'];
+  const input = batch('correction-test-notes-only', [entry('correction-p9', { text, reviewNotes: notes })]);
+  const result = await apply(input);
+  assert.equal(result.inserted, 1);
+  assert.equal(result.translations.length, 1);
+  const returned = result.translations[0];
+  const saved = (await owner.query('SELECT row_to_json(t) AS record FROM translations t WHERE id=$1', [returned.id])).rows[0].record;
+  assert.equal(saved.version, 2);
+  assert.equal(returned.version, saved.version);
+  assert.equal(returned.textSha256, hash(text));
+  assert.notEqual(returned.id, parents.get('correction-p9'));
+  assert.equal(saved.text, text);
+  assert.deepEqual(saved.metadata.reviewNotes, notes);
+  assert.equal(saved.metadata.basedOnTranslationId, parents.get('correction-p9'));
+  assert.equal(saved.metadata.sourceBatchId, 'initial-batch');
+  assert.equal(saved.metadata.humanReviewed, false);
+  assert.equal(saved.metadata.reviewStatus, 'pending');
+  const after = (await owner.query('SELECT row_to_json(t) AS record FROM translations t ORDER BY id')).rows;
+  assert.deepEqual(after.slice(0, previous.length), previous);
+  assert.deepEqual((await owner.query('SELECT row_to_json(r) AS record FROM paragraph_revisions r ORDER BY paragraph_id,revision')).rows, oldOriginals);
+  const sequence = (await owner.query('SELECT last_value::text,is_called FROM translations_id_seq')).rows;
+  const repeated = await apply(input);
+  assert.equal(repeated.inserted, 0);
+  assert.equal(repeated.unchanged, 1);
+  assert.deepEqual(repeated.translations, result.translations);
+  assert.deepEqual((await owner.query('SELECT row_to_json(t) AS record FROM translations t ORDER BY id')).rows, after);
+  assert.deepEqual((await owner.query('SELECT last_value::text,is_called FROM translations_id_seq')).rows, sequence);
+  await assert.rejects(apply({ ...input, entries: [entry('correction-p9', { text, reviewNotes: ['另改校注。'] })] }), error => error.code === 'batch_conflict');
+});
+
+test('stale bindings, protected human edits and fully unchanged text and notes prevent any batch insert', async () => {
   for (const [id, extra, code] of [
     ['correction-p3', { originalSha256: '0'.repeat(64) }, 'current_binding_changed'],
     ['correction-p3', { expectedTranslationId: '999999999' }, 'current_binding_changed'],
     ['correction-p3', { translationSha256: '0'.repeat(64) }, 'current_binding_changed'],
     ['correction-p3', { expectedOriginalRevision: 2 }, 'current_binding_changed'],
     ['correction-p5', {}, 'owner_revision_protected'],
-    ['correction-p3', { text: '第correction-p3段原译。' }, 'unchanged_translation'],
+    ['correction-p3', { text: '第correction-p3段原译。', reviewNotes: ['旧疑点。'] }, 'unchanged_translation'],
+    ...[11, 12, 13].map(number => [`correction-p${number}`, { text: `第correction-p${number}段原译。`, reviewNotes: ['仅改校注也不得覆盖所有者或人工审核。'] }, 'owner_revision_protected']),
   ]) {
     const count = (await owner.query('SELECT count(*)::int AS n FROM translations')).rows[0].n;
     await assert.rejects(apply(batch(`correction-reject-${randomBytes(4).toString('hex')}`, [entry('correction-p4'), entry(id, extra)])), error => error.code === code);
@@ -93,7 +132,7 @@ test('a later insertion failure rolls back already inserted earlier entries and 
     BEGIN IF NEW.paragraph_id='correction-p7' THEN RAISE EXCEPTION 'test rejection'; END IF; RETURN NEW; END $$;
     CREATE TRIGGER corrections_test_fail AFTER INSERT ON public.translations FOR EACH ROW EXECUTE FUNCTION public.corrections_test_fail();`);
   try {
-    await assert.rejects(apply(batch('correction-late-failure', [entry('correction-p6'), entry('correction-p7')])), /test rejection/);
+    await assert.rejects(apply(batch('correction-late-failure', [entry('correction-p6', { text: '第correction-p6段原译。' }), entry('correction-p7')])), /test rejection/);
     assert.deepEqual((await owner.query('SELECT row_to_json(t) AS record FROM translations t ORDER BY id')).rows, before);
   } finally { await owner.query('DROP TRIGGER corrections_test_fail ON public.translations; DROP FUNCTION public.corrections_test_fail()'); }
 });
