@@ -213,7 +213,7 @@ SPECS.append(dict(id='shiguochunqiu-v004', bookId='shiguochunqiu', volume=4,
 
 SPECS.append(dict(id='shiguochunqiu-v013', bookId='shiguochunqiu', volume=13, position=13,
                   title='卷 13 · 吴列传（田頵、张颢、徐温及诸子）', page='十國春秋/卷013',
-                  subjects=['zhu-wen', 'wang-jingren', 'yang-xingmi', 'yang-wo', 'yang-longyan', 'yang-pu', 'li-bian', 'li-jing-southern-tang', 'qian-liu', 'qian-yuanguan', 'song-qiqiu', 'wu-yang-xingmi-wife-zhu', 'wu-xu-wen-wife-li', 'wu-xu-wen-chen-furen'], fixedRevisionId=2554081))
+                  subjects=['zhu-wen', 'wang-jingren', 'yang-xingmi', 'yang-wo', 'yang-longyan', 'yang-pu', 'li-bian', 'li-jing-southern-tang', 'qian-liu', 'qian-yuanguan', 'song-qiqiu', 'wu-yang-xingmi-wife-zhu', 'wu-xu-wen-wife-li', 'wu-xu-wen-chen-furen', 'wu-xu-zhihui-wife-lu'], fixedRevisionId=2554081))
 
 SPECS.append(dict(id='nantanglu-v017', bookId='nantanglu', volume=17,
                   title='卷 17 · 杂艺方士节义列传', page='陸氏南唐書/卷17',

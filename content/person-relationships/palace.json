@@ -8212,5 +8212,77 @@
         "excerpt": "李建勳之妻廣德長公主假衰絰，入哭盡哀，如父母之喪。"
       }
     ]
+  },
+  {
+    "id": "wu-xu-wen-xu-zhihui-father-son",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-zhihui",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《十国春秋》明记知诲为徐温第三子；未据排行指定生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p10",
+        "originalRevision": 1,
+        "originalSha256": "237ba0aee6f44590fb55dde8dabe71c41a7c86daa3127f243439c2c0aebe105b",
+        "excerpt": "知誨，温第三子也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-lu-shizao-daughter-xu-zhihui-wife",
+    "from": "wu-lu-shizao",
+    "to": "wu-xu-zhihui-wife-lu",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明记徐知诲所娶吕氏为吕师造之女；非嫡出为女方出身层次，生母未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p10",
+        "originalRevision": 1,
+        "originalSha256": "237ba0aee6f44590fb55dde8dabe71c41a7c86daa3127f243439c2c0aebe105b",
+        "excerpt": "知誨先娶太祖功臣呂師造女，非嫡出"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-zhihui-wife-lu-spouses",
+    "from": "wu-xu-zhihui",
+    "to": "wu-xu-zhihui-wife-lu",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "本传用先娶和妻称谓，未记婚期；不将非嫡出解释为妾。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p10",
+        "originalRevision": 1,
+        "originalSha256": "237ba0aee6f44590fb55dde8dabe71c41a7c86daa3127f243439c2c0aebe105b",
+        "excerpt": "知誨先娶太祖功臣呂師造女，非嫡出，以是常切齒呂氏，因醉，刺殺之。"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-zhihui-killed-wife-lu",
+    "from": "wu-xu-zhihui",
+    "to": "wu-xu-zhihui-wife-lu",
+    "kind": "conflict",
+    "label": "醉中刺杀",
+    "note": "本传记施杀者为徐知诲、被害者为妻吕氏；后续鬼魂复仇叙事与此分层，不等于已经证实吕氏致死徐知诲。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p10",
+        "originalRevision": 1,
+        "originalSha256": "237ba0aee6f44590fb55dde8dabe71c41a7c86daa3127f243439c2c0aebe105b",
+        "excerpt": "知誨先娶太祖功臣呂師造女，非嫡出，以是常切齒呂氏，因醉，刺殺之。"
+      }
+    ]
   }
 ]
