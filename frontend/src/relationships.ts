@@ -13,6 +13,7 @@ export interface RelationshipNode {
   name: string;
   aliases?: readonly string[];
   external?: boolean;
+  identityKind?: 'source-role';
   group?: string;
   note?: string;
 }

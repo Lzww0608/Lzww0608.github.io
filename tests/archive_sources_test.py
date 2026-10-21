@@ -30,10 +30,12 @@ HAN_HOUSEHOLD_FIXTURES = {
 ZHOU_HOUSEHOLD_FIXTURES = {
     'old-v121': (1567208, 11, 2817, '5000c08c812ef140aeade72b3913319087ac55042f2c2208501cd1fc3a634dcc', '39c54cc6bb4a5698cac850f51e3893866059ea73e3df55540b67e1cac3835eb8'),
     'new-v19': (1699202, 17, 1301, '10ba063216f73d5d7076b0eb9fde8c65584340a5e973a9aab26d3b2bbd2808de', '423a0d33c473b59280a44b2ef6bbaa1b70d3d78f0920d5ff4fd2691ca0cc41bc'),
+    'new-v20': (1699231, 17, 1909, '3b28e4ae0afb1c42fa4b8d75e61c89d2a6349441f4774d01e7cb04008a4d4ab2', '91729dbb90fbcfe8474a7f6cb9aeb55f4f5606a5bad6728467e7f8d470762cb5'),
 }
 ZHOU_HOUSEHOLD_BOUNDARIES = {
     'old-v121': ('后妃', '又追封梁國長公主。）〉'),
     'new-v19': ('皇后柴氏', '一作「太保」，一作「太尉」。待考。'),
+    'new-v20': ('柴守禮', '他本「吾」下均有「王」字。'),
 }
 HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
 
@@ -43,7 +45,7 @@ class SourceIntegrityTests(unittest.TestCase):
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
         self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 94)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 41)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 42)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]

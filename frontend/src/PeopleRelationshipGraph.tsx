@@ -36,8 +36,21 @@ const kinds: readonly RelationshipKind[] = ['kinship', 'adoption', 'service', 'c
 const nodeWidth = 116;
 const nodeHeight = 68;
 
-export function isRelationshipDirected(relationship: Pick<PersonRelationship, 'kind' | 'label'>): boolean {
-  return relationship.kind !== 'conflict'
+function isSourceRole(node?: RelationshipNode): boolean {
+  return node?.identityKind === 'source-role';
+}
+
+function sourceRoleScope(node: RelationshipNode, separator = ' · '): string {
+  return `${node.group ? node.group + separator : ''}来源角色`;
+}
+
+function nodeLabel(node: RelationshipNode): string {
+  return isSourceRole(node) ? `${node.group ? node.group + ' · ' : ''}${node.name}（来源角色）` : node.name;
+}
+
+export function isRelationshipDirected(relationship: Pick<PersonRelationship, 'kind' | 'label'>,
+  from?: RelationshipNode, to?: RelationshipNode): boolean {
+  return !isSourceRole(from) && !isSourceRole(to) && relationship.kind !== 'conflict'
     && relationship.label !== '兄弟'
     && !(relationship.kind === 'kinship' && relationship.label.includes('亲属'));
 }
@@ -97,6 +110,10 @@ export function PeopleRelationshipGraph({
   const allRelationships = useMemo(() => getRelationshipNeighborhood(focusedId, nodes, personRelationships).relationships, [focusedId, nodes]);
   const neighborhood = useMemo(() => getRelationshipNeighborhood(focusedId, nodes, personRelationships, selectedKinds), [focusedId, nodes, selectedKinds]);
   const relationships = neighborhood.relationships;
+  const hasSourceRoles = nodes.some(isSourceRole);
+  const sourceRoleConnection = (relationship: PersonRelationship) => isSourceRole(nodesById.get(relationship.from)) || isSourceRole(nodesById.get(relationship.to));
+  const sourceRoleContext = isSourceRole(focusedNode) || allRelationships.some(sourceRoleConnection);
+  const directed = (relationship: PersonRelationship) => isRelationshipDirected(relationship, nodesById.get(relationship.from), nodesById.get(relationship.to));
   const layout = useMemo(() => focusLayout(neighborhood.nodes, focusedId), [neighborhood.nodes, focusedId]);
   useEffect(() => {
     const selected = nodesById.get(selectedPersonId ?? '');
@@ -167,23 +184,23 @@ export function PeopleRelationshipGraph({
   function personLink(id: string) {
     const node = nodesById.get(id);
     if (!node) return null;
-    return <button className="relationship-person-link" type="button" onClick={() => openNode(node)}>{node.name}{node.external && <span>关联人物</span>}</button>;
+    return <button className="relationship-person-link" type="button" onClick={() => openNode(node)}>{nodeLabel(node)}{node.external && !isSourceRole(node) && <span>关联人物</span>}</button>;
   }
 
   return (
-    <section className="people-relationships" aria-label="人物关系图">
+    <section className="people-relationships" aria-label={sourceRoleContext ? '人物与来源角色联系图' : '人物关系图'}>
       <div className="relationship-tools">
         <div className="relationship-person-search">
-          <label htmlFor={`${elementId}-search`}>搜索关系人物</label>
+          <label htmlFor={`${elementId}-search`}>{hasSourceRoles ? '搜索人物或来源角色' : '搜索关系人物'}</label>
           <div className="relationship-search-field"><input id={`${elementId}-search`} type="search" autoComplete="off" placeholder="输入姓名或别名，如李嗣源、安敬思" value={query} onChange={event => editQuery(event.target.value)} />{query && <button type="button" onClick={() => { selectPerson(''); document.getElementById(`${elementId}-search`)?.focus(); }}>清空</button>}</div>
-          {!focusedId && query.trim() && <div className="relationship-search-results" role="group" aria-label="搜索匹配人物"><p aria-live="polite">{candidates.length ? `找到 ${candidates.length} 位人物，请选择一位` : '没有匹配的人物，可以更换姓名或别名'}</p>{candidates.map(node => <button className="relationship-search-result" type="button" key={node.id} onClick={() => selectPerson(node.id)}><strong>{node.name}</strong><small>{node.external ? '关联人物' : peopleById.get(node.id)?.role}</small></button>)}</div>}
+          {!focusedId && query.trim() && <div className="relationship-search-results" role="group" aria-label={candidates.some(isSourceRole) ? '搜索匹配条目' : '搜索匹配人物'}><p aria-live="polite">{candidates.length ? candidates.some(isSourceRole) ? `找到 ${candidates.length} 项，请选择一项` : `找到 ${candidates.length} 位人物，请选择一位` : hasSourceRoles ? '没有匹配的人物或来源角色，可以更换姓名或来源称谓' : '没有匹配的人物，可以更换姓名或别名'}</p>{candidates.map(node => <button className="relationship-search-result" type="button" key={node.id} onClick={() => selectPerson(node.id)}><strong>{node.name}</strong><small>{isSourceRole(node) ? sourceRoleScope(node) : node.external ? '关联人物' : peopleById.get(node.id)?.role}</small></button>)}</div>}
         </div>
         {focusedNode && <fieldset className="relationship-kind-filter">
-          <legend>显示关系</legend>
+          <legend>{sourceRoleContext ? '显示联系' : '显示关系'}</legend>
           <div>
             {kinds.map(kind => <button key={kind} type="button" className={`relationship-kind-choice kind-${kind}`} aria-pressed={selectedKinds.includes(kind)} onClick={() => toggleKind(kind)}>
               <svg viewBox="0 0 30 12" width="30" height="12" aria-hidden="true"><path d="M 1 6 H 28" /></svg>
-              <span>{relationshipKindLabels[kind]}</span>
+              <span>{sourceRoleContext && kind === 'service' ? '宫职与任职' : relationshipKindLabels[kind]}</span>
               <span className="relationship-check" aria-hidden="true">{selectedKinds.includes(kind) ? '✓' : '＋'}</span>
             </button>)}
           </div>
@@ -193,17 +210,17 @@ export function PeopleRelationshipGraph({
       {focusedNode ? <>
       <div className="relationship-context">
         <div>
-          <h2>{focusedNode.name}的人物关系</h2><p>{relationships.length} 条直接联系。姓名可打开人物详情，关系线可查看原文依据。</p>
-          {focusedNode?.external && <p className="relationship-external-note">{focusedNode.note ?? '此人为说明关系而列入，当前没有独立人物传记入口。'}</p>}
+          <h2>{isSourceRole(focusedNode) ? `${focusedNode.group ? focusedNode.group + ' · ' : ''}${focusedNode.name}的来源联系` : `${focusedNode.name}的人物关系`}</h2><p>{relationships.length} 条直接联系。{isSourceRole(focusedNode) ? '这是按史料职姓分列的来源角色，同异未定；每个条目不代表已经证明为不同自然人。连线可查看原文依据。' : sourceRoleContext ? '人物姓名可打开人物详情；来源角色仅查看来源联系，连线可查看原文依据。' : '姓名可打开人物详情，关系线可查看原文依据。'}</p>
+          {focusedNode?.external && <p className="relationship-external-note">{focusedNode.note ?? (isSourceRole(focusedNode) ? '此条仅表示来源中的职姓记载，不据此认定为独立自然人。' : '此人为说明关系而列入，当前没有独立人物传记入口。')}</p>}
         </div>
         {focusedId && <button type="button" className="relationship-reset" onClick={() => selectPerson('')}>重新搜索</button>}
       </div>
 
       <figure className="relationship-figure">
-        <div ref={diagramRef} className="relationship-diagram-scroll" tabIndex={0} role="region" aria-label="人物关系图，可滚动查看" aria-describedby={`${elementId}-diagram-help`}>
-          <svg className="relationship-diagram is-focused" width={layout.width} height={layout.height} viewBox={`0 0 ${layout.width} ${layout.height}`} role="group" aria-label={`${focusedNode.name}及其直接相关人物的关系`}>
+        <div ref={diagramRef} className="relationship-diagram-scroll" tabIndex={0} role="region" aria-label={sourceRoleContext ? '来源与人物联系图，可滚动查看' : '人物关系图，可滚动查看'} aria-describedby={`${elementId}-diagram-help`}>
+          <svg className="relationship-diagram is-focused" width={layout.width} height={layout.height} viewBox={`0 0 ${layout.width} ${layout.height}`} role="group" aria-label={sourceRoleContext ? `${nodeLabel(focusedNode)}及其直接联系` : `${focusedNode.name}及其直接相关人物的关系`}>
             <defs>{kinds.map(kind => <marker key={kind} id={`${elementId}-arrow-${kind}`} viewBox="0 0 9 8" markerWidth="7" markerHeight="7" refX="8" refY="4" orient="auto" markerUnits="strokeWidth"><path className={`relationship-arrow kind-${kind}`} d="M 0 0 L 8 4 L 0 8 Z" /></marker>)}</defs>
-            {focusedNode && <g className="relationship-focus-label" aria-hidden="true"><text x="195" y="42" textAnchor="middle">聚焦人物</text><text x="750" y="42" textAnchor="middle">直接相关人物</text></g>}
+            {focusedNode && <g className="relationship-focus-label" aria-hidden="true"><text x="195" y="42" textAnchor="middle">{isSourceRole(focusedNode) ? '当前条目' : '聚焦人物'}</text><text x="750" y="42" textAnchor="middle">{sourceRoleContext ? '直接联系' : '直接相关人物'}</text></g>}
             {relationships.map(relationship => {
               const from = positionedNodes.get(relationship.from);
               const to = positionedNodes.get(relationship.to);
@@ -215,32 +232,32 @@ export function PeopleRelationshipGraph({
               const neighbor = relationship.from === focusedId ? to : from;
               const labelX = 586;
               const labelY = neighbor.y + lane * 28;
-              const directed = isRelationshipDirected(relationship);
-              return <g key={relationship.id} className={`relationship-edge kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`} role="button" tabIndex={0} aria-label={`${from.node.name}${directed ? '指向' : '与'}${to.node.name}：${relationship.label}，查看原文依据`} onClick={() => activateRelationship(relationship.id)} onKeyDown={event => activateWithKeyboard(event, () => activateRelationship(relationship.id))}>
-                <title>{`${from.node.name} ${directed ? '→' : '↔'} ${to.node.name}：${relationship.label}`}</title>
+              const hasDirection = directed(relationship);
+              return <g key={relationship.id} className={`relationship-edge kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`} role="button" tabIndex={0} aria-label={`${nodeLabel(from.node)}${hasDirection ? '指向' : '与'}${nodeLabel(to.node)}：${relationship.label}，查看原文依据`} onClick={() => activateRelationship(relationship.id)} onKeyDown={event => activateWithKeyboard(event, () => activateRelationship(relationship.id))}>
+                <title>{`${nodeLabel(from.node)} ${hasDirection ? '→' : '↔'} ${nodeLabel(to.node)}：${relationship.label}`}</title>
                 <rect x={(from.x + to.x) / 2 - 6} y={(from.y + to.y) / 2 + lane * 7 - 6} width="12" height="12" fill="transparent" pointerEvents="none" aria-hidden="true" />
-                <path className="relationship-edge-line" d={d} markerEnd={directed ? `url(#${elementId}-arrow-${relationship.kind})` : undefined} aria-hidden="true" />
+                <path className="relationship-edge-line" d={d} markerEnd={hasDirection ? `url(#${elementId}-arrow-${relationship.kind})` : undefined} aria-hidden="true" />
                 <path className="relationship-edge-target" d={d} aria-hidden="true" />
                 {<g className="relationship-edge-label" aria-hidden="true"><rect x={labelX - Math.max(30, relationship.label.length * 6.5 + 8)} y={labelY - 11} width={Math.max(60, relationship.label.length * 13 + 16)} height="23" rx="2" /><text x={labelX} y={labelY + 5} textAnchor="middle">{relationship.label}</text></g>}
               </g>;
             })}
-            {layout.nodes.map(({ node, x, y }) => <g key={node.id} className={`relationship-node${node.external ? ' is-external' : ''}${node.id === focusedId ? ' is-selected' : ''}`} transform={`translate(${x},${y})`} role="button" tabIndex={0} aria-label={`${node.name}${node.external ? '，关联人物，查看相邻关系' : '，打开人物详情'}`} onClick={() => openNode(node)} onKeyDown={event => activateWithKeyboard(event, () => openNode(node))}>
-              <title>{node.name}{node.note ? `：${node.note}` : ''}</title>
+            {layout.nodes.map(({ node, x, y }) => <g key={node.id} className={`relationship-node${node.external ? ' is-external' : ''}${node.id === focusedId ? ' is-selected' : ''}`} transform={`translate(${x},${y})`} role="button" tabIndex={0} aria-label={`${nodeLabel(node)}${isSourceRole(node) ? '，查看来源联系' : node.external ? '，关联人物，查看相邻关系' : '，打开人物详情'}`} onClick={() => openNode(node)} onKeyDown={event => activateWithKeyboard(event, () => openNode(node))}>
+              <title>{nodeLabel(node)}{node.note ? `：${node.note}` : ''}</title>
               <rect x={-nodeWidth / 2} y={-nodeHeight / 2} width={nodeWidth} height={nodeHeight} rx="3" />
               <text className="relationship-node-name" y="-2" textAnchor="middle">{node.name}</text>
-              <text className="relationship-node-note" y="21" textAnchor="middle">{node.external ? '关联人物' : node.id === focusedId ? '已聚焦 · 查看人物' : '查看人物'}</text>
+              <text className="relationship-node-note" y="21" textAnchor="middle">{isSourceRole(node) ? sourceRoleScope(node, '·') : node.external ? '关联人物' : node.id === focusedId ? '已聚焦 · 查看人物' : '查看人物'}</text>
             </g>)}
           </svg>
         </div>
-        <figcaption id={`${elementId}-diagram-help`}>只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。</figcaption>
+        <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料职姓分列，同异未定；宫职记载使用无箭头来源连线，不表示君主亲自任命或任职起始。其他人物关系的箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>
       </figure>
 
       <section className="relationship-evidence" aria-labelledby={`${elementId}-evidence-title`}>
-        <div className="relationship-evidence-heading"><h2 id={`${elementId}-evidence-title`}>关系与原文依据</h2><div className="relationship-quote-tools"><span aria-live="polite">{relationships.length} 条关系</span><div className="script-switch" role="group" aria-label="依据引文繁简切换">{(['traditional', 'simplified'] as const).map(script => <button key={script} type="button" aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}</div></div></div>
+        <div className="relationship-evidence-heading"><h2 id={`${elementId}-evidence-title`}>{sourceRoleContext ? '联系与原文依据' : '关系与原文依据'}</h2><div className="relationship-quote-tools"><span aria-live="polite">{relationships.length} 条{sourceRoleContext ? '联系' : '关系'}</span><div className="script-switch" role="group" aria-label="依据引文繁简切换">{(['traditional', 'simplified'] as const).map(script => <button key={script} type="button" aria-pressed={originalScript.script === script} onClick={() => originalScript.selectScript(script)}>{script === 'traditional' ? '繁体' : '简体'}</button>)}</div></div></div>
         <div className="relationship-script-status" role="status">{originalScript.pending && '正在准备简体引文…'}{originalScript.error && <><span>简体转换暂不可用，当前显示繁体原文。</span> <button type="button" onClick={originalScript.retry}>重试转换</button></>}</div>
         {relationships.length ? <ul className="relationship-list">
           {displayedRelationships.map(relationship => <li key={relationship.id} id={`${elementId}-relation-${relationship.id}`} className={`relationship-list-item kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`}>
-            <div className="relationship-list-heading"><span className="relationship-kind-label">{relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{isRelationshipDirected(relationship) ? '→' : '↔'}</span>{personLink(relationship.to)}</div></div>
+            <div className="relationship-list-heading"><span className="relationship-kind-label">{sourceRoleConnection(relationship) ? '宫职记载' : relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{directed(relationship) ? '→' : '↔'}</span>{personLink(relationship.to)}</div></div>
             <p className="relationship-label">{relationship.label}</p>
             {relationship.note && <p className="relationship-note">{relationship.note}</p>}
             <button type="button" id={`${elementId}-evidence-toggle-${relationship.id}`} className="relationship-evidence-toggle" aria-expanded={expandedEvidence.has(relationship.id)} aria-controls={`${elementId}-sources-${relationship.id}`} onClick={() => toggleEvidence(relationship.id)}>{expandedEvidence.has(relationship.id) ? '收起原文依据' : `原文依据（${relationship.sources.length}）`}<span aria-hidden="true">{expandedEvidence.has(relationship.id) ? '−' : '＋'}</span></button>
@@ -248,10 +265,10 @@ export function PeopleRelationshipGraph({
               {relationship.sources.map((source, sourceIndex) => <div className="relationship-source" key={`${source.chapterId}-${source.paragraphId}-${sourceIndex}`}><p className="relationship-source-title">{source.title}</p><blockquote lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending}>{originalScript.displayScript === 'simplified' && originalScript.converter ? originalScript.converter(source.excerpt) : source.excerpt}</blockquote>{onReadSource && <button type="button" onClick={() => onReadSource(source.chapterId, source.paragraphId)}>阅读此处原文与白话译文</button>}</div>)}
             </div>
           </li>)}
-        </ul> : <p className="relationship-empty">{!allRelationships.length ? '此人物暂无已核验关系。新收录的关系会自动更新到这里。' : selectedKinds.length ? '所选类别没有关系，可选择其他类别。' : '选择上方的关系类别，即可查看联系与原文依据。'}</p>}
+        </ul> : <p className="relationship-empty">{!allRelationships.length ? isSourceRole(focusedNode) ? '此来源角色暂无可展示的来源联系。' : '此人物暂无已核验关系。新收录的关系会自动更新到这里。' : selectedKinds.length ? '所选类别没有关系，可选择其他类别。' : '选择上方的关系类别，即可查看联系与原文依据。'}</p>}
 
       </section>
-      </> : <div className="relationship-search-empty"><h2>搜索一个人物，查看关系</h2><p>输入姓名或别名，再从匹配结果中选择人物。这里会显示他与其他人物的直接联系及原文依据。</p></div>}
+      </> : <div className="relationship-search-empty"><h2>{hasSourceRoles ? '搜索人物或来源角色，查看联系' : '搜索一个人物，查看关系'}</h2><p>{hasSourceRoles ? '输入姓名或来源称谓，再从匹配结果中选择条目。这里会显示所选条目的直接联系及原文依据。' : '输入姓名或别名，再从匹配结果中选择人物。这里会显示他与其他人物的直接联系及原文依据。'}</p></div>}
     </section>
   );
 }

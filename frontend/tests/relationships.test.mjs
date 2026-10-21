@@ -312,3 +312,120 @@ test('graph search requires input, matches names and aliases, and offers context
     'fixture-a', 'fixture-b', 'fixture-c', 'fixture-d',
   ]);
 });
+
+const sourceRoleFixture = Object.freeze({ id: 'fixture-source-role-liu', name: '司记刘氏', group: '后周',
+  identityKind: 'source-role', external: true, aliases: Object.freeze(['会要后周司记刘氏']),
+  note: '《五代会要》卷一后周太祖名单按职姓分列；与其他刘氏同异未明。' });
+const sourceRoleEdge = Object.freeze({ id: 'fixture-source-role-link', from: 'guo-wei', to: sourceRoleFixture.id,
+  kind: 'service', label: '宫职记载', sources: Object.freeze([{ chapterId: 'huiyao-v001', paragraphId: 'huiyao-v001-p53',
+    title: '五代会要 · 卷一', excerpt: '司記劉氏，〈封彭城郡夫人。〉' }]) });
+
+test('source roles remain external searchable entries without acquiring a catalog identity or person reading route', async () => {
+  const nodes = buildRelationshipNodes(catalogPeople, [sourceRoleFixture]);
+  assert.deepEqual(nodes.filter(n => !n.external).map(n => n.id), catalogPeople.map(p => p.id));
+  assert.equal(nodes.find(n => n.id === sourceRoleFixture.id).identityKind, 'source-role');
+  assert.deepEqual(searchRelationshipNodes('會要後周司記劉氏', nodes).map(n => n.id), [sourceRoleFixture.id]);
+  assert.equal(catalogPeople.some(p => p.id === sourceRoleFixture.id), false);
+  const { inferReadingPerson } = await import('../src/reading-shelf-schema.ts');
+  const { hasPersonTimeline } = await import('../src/person-timeline-route.ts');
+  const { resolvePersonSourcesRoute } = await import('../src/library.ts');
+  assert.equal(inferReadingPerson('read-huiyao/huiyao-v001', sourceRoleFixture.id), undefined);
+  assert.equal(hasPersonTimeline(sourceRoleFixture.id), false);
+  assert.equal(resolvePersonSourcesRoute(`person-sources/${sourceRoleFixture.id}`), null);
+});
+
+// Execute the production JSX and handlers. Only browser hooks and fixture data
+// are controlled; node building, search, neighborhood and rendering stay real.
+const { createRequire } = await import('node:module');
+const { default: vm } = await import('node:vm');
+const { transform } = await import('esbuild');
+const React = await import('react');
+const graphRelationships = await import('../src/relationships.ts');
+const compiledGraph = await transform(readFileSync(new URL('../src/PeopleRelationshipGraph.tsx', import.meta.url), 'utf8'),
+  { loader: 'tsx', format: 'cjs', jsx: 'automatic' });
+function graphElements(value) {
+  if (Array.isArray(value)) return value.flatMap(graphElements);
+  if (!value || typeof value !== 'object') return [];
+  return [value, ...graphElements(value.props?.children)];
+}
+function graphText(value) {
+  if (Array.isArray(value)) return value.map(graphText).join('');
+  if (value === null || value === undefined || typeof value === 'boolean') return '';
+  return typeof value === 'object' ? graphText(value.props?.children) : String(value);
+}
+function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true } = {}) {
+  const state = [], opened = [], selected = [], sources = [];
+  const baseNodes = relationshipNodes.filter(node => node.identityKind !== 'source-role');
+  const baseIds = new Set(baseNodes.map(node => node.id));
+  const baseEdges = personRelationships.filter(edge => baseIds.has(edge.from) && baseIds.has(edge.to));
+  let cursor = 0;
+  const modules = {
+    react: { ...React, useState: initial => {
+      const index = cursor++;
+      if (!(index in state)) state[index] = index === 4 ? query : typeof initial === 'function' ? initial() : initial;
+      return [state[index], value => { state[index] = typeof value === 'function' ? value(state[index]) : value; }];
+    }, useEffect: () => {}, useMemo: callback => callback(), useRef: value => ({ current: value }), useId: () => 'source-role-fixture' },
+    './relationships.ts': { ...graphRelationships,
+      relationshipNodes: includeRole ? [...baseNodes, sourceRoleFixture] : baseNodes,
+      personRelationships: includeRole ? [...baseEdges, sourceRoleEdge] : baseEdges },
+    './use-original-script.ts': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
+    './relationships.css': {},
+  };
+  const module = { exports: {} }, nativeRequire = createRequire(import.meta.url);
+  vm.runInNewContext(compiledGraph.code, { module, exports: module.exports, require: name => modules[name] ?? nativeRequire(name) });
+  const render = () => { cursor = 0; return graphElements(module.exports.PeopleRelationshipGraph({ people: catalogPeople,
+    selectedPersonId, onSelectPerson: id => selected.push(id), onOpenPerson: person => opened.push(person.id),
+    onReadSource: (...args) => sources.push(args) })); };
+  return { render, opened, selected, sources, exports: module.exports };
+}
+
+test('real graph search counts mixed role results as entries and selection never opens a role biography', () => {
+  const graph = sourceRoleGraph({ query: '刘' }), elements = graph.render();
+  const results = elements.find(e => e.props?.className === 'relationship-search-results');
+  assert.match(graphText(results), /找到 \d+ 项/);
+  assert.doesNotMatch(graphText(results), /位人物/);
+  const role = graphElements(results).find(e => e.type === 'button' && graphText(e).includes('司记刘氏'));
+  assert.match(graphText(role), /后周 · 来源角色/);
+  role.props.onClick();
+  assert.deepEqual(graph.selected, [sourceRoleFixture.id]);
+  assert.deepEqual(graph.opened, []);
+  assert.ok(graph.render().some(e => e.type === 'h2' && graphText(e) === '后周 · 司记刘氏的来源联系'));
+  const canonical = sourceRoleGraph({ query: '朱全忠' }).render().find(e => e.props?.className === 'relationship-search-results');
+  assert.match(graphText(canonical), /找到 1 位人物/);
+});
+
+test('real source-role graph uses undirected sourced links in SVG, cards and accessible labels', () => {
+  const graph = sourceRoleGraph({ selectedPersonId: sourceRoleFixture.id }), elements = graph.render();
+  const edge = elements.find(e => e.props?.className === 'relationship-edge kind-service');
+  assert.ok(edge);
+  assert.match(edge.props['aria-label'], /来源角色/);
+  assert.doesNotMatch(edge.props['aria-label'], /指向/);
+  assert.equal(graphElements(edge).find(e => e.props?.className === 'relationship-edge-line').props.markerEnd, undefined);
+  assert.match(graphText(graphElements(edge).find(e => e.type === 'title')), /↔/);
+  assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-direction')), '↔');
+  assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-kind-label')), '宫职记载');
+  assert.ok(elements.some(e => e.type === 'button' && graphText(e).includes('宫职与任职')));
+  assert.match(graphText(elements.find(e => e.type === 'figcaption')), /不表示.*任命/);
+  assert.doesNotMatch(graphText(elements.find(e => e.props?.className === 'relationship-context')), /没有独立人物传记|姓名可打开人物详情/);
+  const node = elements.find(e => e.props?.className?.startsWith('relationship-node is-external'));
+  assert.equal(graphText(graphElements(node).find(e => e.props?.className === 'relationship-node-name')), '司记刘氏');
+  assert.equal(graphText(graphElements(node).find(e => e.props?.className === 'relationship-node-note')), '后周·来源角色');
+  assert.match(node.props['aria-label'], /后周.*来源角色.*查看来源联系/);
+  let prevented = false;
+  node.props.onKeyDown({ key: 'Enter', preventDefault: () => { prevented = true; } });
+  assert.equal(prevented, true); assert.deepEqual(graph.opened, []);
+  elements.find(e => e.type === 'button' && graphText(e) === '阅读此处原文与白话译文').props.onClick();
+  assert.deepEqual(graph.sources, [['huiyao-v001', 'huiyao-v001-p53']]);
+});
+
+test('adding a role preserves every original canonical graph edge direction and person opening behavior', () => {
+  const before = sourceRoleGraph({ selectedPersonId: 'guo-wei', includeRole: false }).render();
+  const graph = sourceRoleGraph({ selectedPersonId: 'guo-wei' }), after = graph.render();
+  const paths = elements => new Map(elements.filter(e => e.props?.className?.startsWith('relationship-edge kind-'))
+    .map(e => [e.props['aria-label'], graphElements(e).find(x => x.props?.className === 'relationship-edge-line').props.markerEnd]));
+  for (const [label, marker] of paths(before)) assert.equal(paths(after).get(label), marker, label);
+  const rolePath = [...paths(after)].find(([label]) => label.includes('司记刘氏')); assert.ok(rolePath); assert.equal(rolePath[1], undefined);
+  const person = after.find(e => e.props?.className?.startsWith('relationship-node') && e.props['aria-label'] === '郭威，打开人物详情');
+  person.props.onClick(); assert.deepEqual(graph.opened, ['guo-wei']);
+  assert.match(graphText(before.find(e => e.type === 'figcaption')), /虚线框为关联人物，当前没有独立传记/);
+});
