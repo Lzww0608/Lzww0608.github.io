@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-yang-pu-princess-shangrao",
+  "events": [
+    {
+      "id": "wu-yang-pu-princess-shangrao-marriage",
+      "title": "嫁徐景迁",
+      "summary": "杨溥女上饶公主在太和末嫁给左仆射徐景迁。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "yearRange": {
+        "start": 929,
+        "end": 935
+      },
+      "sourceDate": "吴太和末",
+      "phase": "uncertain",
+      "notes": [
+        "929—935仅是大和／太和年号的宽外界：新史记乾贞三年十一月改大和，大和七年九月改天祚；不把“末”强定为末两年，也不表示这段时间持续发生婚事。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p22",
+          "originalRevision": 1,
+          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+          "excerpt": "上饒公臣者，睿帝愛女也。太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。南唐禪代，追封景遷爲高平郡王，公主爲燕國君，諡曰貞莊。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p37",
+          "originalRevision": 1,
+          "originalSha256": "9f48d25c89f5ac0dd34f8e057eef566dd8e5e5c177e10fef300410b9f17840b0",
+          "excerpt": "三年十一月，金陵尹徐知詢來朝，知誥誣其有反狀，留之不遣，以為左統軍，斬其客將周廷望。以徐知諤為金陵尹。溥加尊號睿聖文明孝皇帝，大赦境內，改元大和，以徐知誥為中書令。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p39",
+          "originalRevision": 1,
+          "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
+          "excerpt": "七年九月，溥加尊號曰睿聖文明光孝應天弘道廣德皇帝，大赦，改元天祚。知誥進位太師、天下兵馬大元帥，封齊王。二年，景遷病，以次子景遂為門下侍郎、參政事。三年，知誥建齊國，立宗廟、社稷，置左、右丞相已下，以金陵為西都，廣陵為東都。冬十月，溥遣江夏王璘奉冊禪位於齊王。十二月，溥卒於丹陽，[3]年三十八，謚曰睿。"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-pu-princess-shangrao-death",
+      "title": "徐景迁死后相继去世",
+      "summary": "本传记徐景迁死后，上饶公主也相继去世，没有交代她的死因、年龄或确切年月。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "徐景迁死后；本传未记确年",
+      "phase": "uncertain",
+      "notes": [
+        "不把丈夫的卒年或南唐受禅年自动挪作她的卒年。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p22",
+          "originalRevision": 1,
+          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+          "excerpt": "上饒公臣者，睿帝愛女也。太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。南唐禪代，追封景遷爲高平郡王，公主爲燕國君，諡曰貞莊。"
+        }
+      ]
+    },
+    {
+      "id": "wu-yang-pu-princess-shangrao-posthumous-title",
+      "title": "身后追封燕国君，谥贞庄",
+      "summary": "南唐代吴后，徐景迁被追封为高平郡王，上饶公主被追封为燕国君，谥贞庄。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "南唐禅代后；本传未独记追封年月",
+      "phase": "uncertain",
+      "notes": [
+        "保留本书“燕国君”的称号；两人的追封均不写成生前爵位。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p22",
+          "originalRevision": 1,
+          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+          "excerpt": "上饒公臣者，睿帝愛女也。太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。南唐禪代，追封景遷爲高平郡王，公主爲燕國君，諡曰貞莊。"
+        }
+      ]
+    }
+  ]
+}

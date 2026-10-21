@@ -19,6 +19,8 @@ def heading_level(tag, text, book_id):
     if tag in {'h2', 'h3', 'h4', 'h5', 'h6'}:
         return int(tag[1])
     # Some archived books also use explicit textual title markers.
+    if book_id == 'nantanglu' and tag == 'p' and text == '雜藝方士節義列傳第十七':
+        return 2
     if book_id == 'quewen' and text.startswith('◇') and '\n' not in text:
         return 4
     if book_id == 'old' and re.fullmatch(r'◎[^\n。！？；]{1,30}', text):

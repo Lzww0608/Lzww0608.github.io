@@ -30,6 +30,7 @@ BOOKS = [
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
     dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
 ]
 for book in BOOKS:
     book['url'] = 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(book['sourceTitle'])
@@ -209,6 +210,10 @@ SPECS.append(dict(id='shiguochunqiu-v004', bookId='shiguochunqiu', volume=4,
                   title='卷 4 · 吴后妃、宗室及公主', page='十國春秋/卷004',
                   subjects=['yang-xingmi', 'shi-jiantang', 'li-bian', 'song-qiqiu']))
 
+SPECS.append(dict(id='nantanglu-v017', bookId='nantanglu', volume=17,
+                  title='卷 17 · 杂艺方士节义列传', page='陸氏南唐書/卷17',
+                  subjects=['yang-pu', 'li-bian', 'li-jing-southern-tang', 'li-yu', 'wang-jipeng', 'qian-hongchu', 'song-qiqiu', 'han-xizai', 'wu-yang-lian-wife-li-yongxing'], fixedRevisionId=2073862))
+
 # Explicit reign and shared-annal links are metadata only. Original files and
 # captured revisions stay byte-identical when the roster grows.
 REIGN_SUBJECTS = {'tongjian-v266': ['zhu-wen'],
@@ -258,6 +263,16 @@ for spec in SPECS:
                             ['shi-jingtang', 'shi-chonggui', 'liu-zhiyuan', 'liu-chengyou', 'guo-wei', 'chai-rong', 'chai-zongxun'])
     if spec['bookId'] in {'quewen', 'shibu', 'huiyao', 'beimeng', 'kaoyi'} and not spec.get('indexPage'):
         spec['scanSubjects'] = True
+
+# Source-bound H60 canonical-person metadata only; preserve all unrelated specs.
+for chapter_id, added_subjects in {
+    'shiguochunqiu-v004': ['wu-yang-pu-empress-wang', 'wu-yang-lian-wife-li-yongxing', 'wu-yang-pu-princess-shangrao'],
+    'tongjian-v278': ['wu-yang-pu-empress-wang'],
+    'new-v62': ['wu-yang-lian-wife-li-yongxing'],
+    'tongjian-v281': ['wu-yang-lian-wife-li-yongxing'],
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
@@ -435,16 +450,25 @@ def capture(spec, previous=None):
         for file, expected in [(path, previous['provenance']['sourceSha256']), (chapter_path, previous['provenance']['chapterSha256'])]:
             if hashlib.sha256(file.read_bytes()).hexdigest() != expected:
                 raise ValueError(f"Existing archive checksum changed: {spec['id']}")
+        if spec.get('fixedRevisionId'):
+            cached_source = json.loads(path.read_text())
+            if (previous['provenance']['revisionId'] != spec['fixedRevisionId']
+                    or cached_source['response']['parse']['revid'] != spec['fixedRevisionId']):
+                raise ValueError(f"Fixed source revision changed: {spec['id']}")
         cached = json.loads(chapter_path.read_text())
         return {**previous, 'subjects': chapter_subjects(spec, [p['original'] for p in cached['paragraphs']], previous['subjects'])}
     if path.exists():
         payload = json.loads(path.read_text())
     else:
-        result = request(dict(action='parse', page=spec['page'], prop='text|revid|displaytitle', format='json', disableeditsection=1))
+        params = dict(action='parse', prop='text|revid|displaytitle', format='json', disableeditsection=1)
+        params.update(oldid=spec['fixedRevisionId']) if spec.get('fixedRevisionId') else params.update(page=spec['page'])
+        result = request(params)
         if 'parse' not in result: raise ValueError(f"Missing source: {spec['page']} {result}")
         payload = dict(fetchedAt=datetime.now(timezone.utc).isoformat(), response=result)
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
     parsed = payload['response']['parse']
+    if spec.get('fixedRevisionId') and parsed['revid'] != spec['fixedRevisionId']:
+        raise ValueError(f"Fixed source revision changed: {spec['id']}")
     if parsed['title'] != spec['page']: raise ValueError(f"Unexpected redirect: {spec['page']} -> {parsed['title']}")
     html = parsed['text']['*']
     if spec.get('indexPage') and payload.get('selection') != {'indexPage': True}:
@@ -469,12 +493,13 @@ def capture(spec, previous=None):
     if book['id'] == 'beimeng': notes.append('本站选录四库全书本卷 17—20，另收提要与作者自序，不表示全书二十卷已全部收录。')
     if book['id'] == 'kaoyi': notes.append('本站收录卷 28—30 的五代部分。本书记录史料异同及取舍理由，须与《资治通鉴》正文对应阅读。')
     if book['id'] == 'shiguochunqiu': notes.append('本站仅收录维基文库《十国春秋》标准页面卷 4，不表示全书已收录。底本讹字与原有标点保持原样，译文及译注参校同一作品的四库本；不同版本不作为独立史料复证。')
+    if book['id'] == 'nantanglu': notes.append('本站仅收录陆游《南唐书》卷 17，陆游《南唐书》与马令的同名著作分别编目；完整保留小传、夹注、史家评论及来源标点，不表示全书已收录。同作品四库本只作版本参校，不作独立复证。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')
     subjects = chapter_subjects(spec, paragraphs)
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')
-    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects'}}
+    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId'}}
     summary.update(subjects=subjects, position=position, scope='full', paragraphCount=len(paragraphs), characterCount=length, provenance=dict(pageTitle=spec['page'], sourceUrl=source_url, revisionId=parsed['revid'], fetchedAt=payload['fetchedAt'], license=LICENSE, licenseUrl=LICENSE_URL, contributorsUrl='https://zh.wikisource.org/w/index.php?'+urllib.parse.urlencode(dict(title=spec['page'], action='history')), sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest(), chapterSha256=hashlib.sha256(chapter_path.read_bytes()).hexdigest()))
     print(f"{spec['id']}: {len(paragraphs)} blocks, {length} characters, revision {parsed['revid']}", flush=True)
     return summary

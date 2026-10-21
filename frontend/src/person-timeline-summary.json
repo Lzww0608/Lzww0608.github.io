@@ -731,7 +731,7 @@
     },
     {
       "personId": "han-xizai",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "han-xizai-flee-wu",
         "han-xizai-advise-era",
@@ -744,7 +744,8 @@
         "han-xizai-liyu-appointment",
         "han-xizai-demote-and-restore",
         "han-xizai-death-posthumous-chancellor",
-        "han-xizai-late-household-anecdote"
+        "han-xizai-late-household-anecdote",
+        "han-xizai-wu-yuan-memorial"
       ]
     },
     {
@@ -1322,7 +1323,7 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 24,
+      "eventCount": 25,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
@@ -1347,7 +1348,8 @@
         "li-bian-death",
         "li-bian-burial",
         "li-bian-adoption",
-        "li-bian-control-wu"
+        "li-bian-control-wu",
+        "li-bian-shen-jiangao-tax-remission"
       ]
     },
     {
@@ -1651,7 +1653,7 @@
     },
     {
       "personId": "li-jing-southern-tang",
-      "eventCount": 38,
+      "eventCount": 41,
       "eventIds": [
         "li-jing-southern-tang-wu-office",
         "li-jing-southern-tang-wu-vice-marshal",
@@ -1690,7 +1692,10 @@
         "li-jing-southern-tang-recall-jinling",
         "li-jing-southern-tang-qi-king",
         "li-jing-southern-tang-min-campaign",
-        "li-jing-southern-tang-li-shouzhen-aid"
+        "li-jing-southern-tang-li-shouzhen-aid",
+        "li-jing-southern-tang-song-dowager-return",
+        "li-jing-southern-tang-duan-chuchang-envoy",
+        "li-jing-southern-tang-zhang-xiong-volunteer-command"
       ]
     },
     {
@@ -1969,7 +1974,7 @@
     },
     {
       "personId": "li-yu",
-      "eventCount": 15,
+      "eventCount": 17,
       "eventIds": [
         "li-yu-avoid-hongji",
         "li-yu-heir",
@@ -1985,7 +1990,9 @@
         "li-yu-reduce-titles",
         "li-yu-pan-you",
         "li-yu-song-invasion",
-        "li-yu-han-xizai"
+        "li-yu-han-xizai",
+        "li-yu-tan-zixiao-summons",
+        "li-yu-zhang-xiong-chief-command"
       ]
     },
     {
@@ -3139,7 +3146,7 @@
     },
     {
       "personId": "song-qiqiu",
-      "eventCount": 36,
+      "eventCount": 38,
       "eventIds": [
         "song-qiqiu-runzhou-advice",
         "song-qiqiu-cross-river-plan",
@@ -3176,7 +3183,9 @@
         "song-qiqiu-recommend-fuzhou-mission",
         "song-qiqiu-taifu-after-chu",
         "song-qiqiu-recall-war-crisis",
-        "song-qiqiu-succession-preferences"
+        "song-qiqiu-succession-preferences",
+        "song-qiqiu-son-mourning-kite",
+        "song-qiqiu-geng-recommendation"
       ]
     },
     {
@@ -4131,14 +4140,15 @@
     },
     {
       "personId": "wang-jipeng",
-      "eventCount": 6,
+      "eventCount": 7,
       "eventIds": [
         "wang-jipeng-father-coup",
         "wang-jipeng-kill-relatives",
         "wang-jipeng-mutiny",
         "wang-jipeng-death",
         "wang-jipeng-kill-lifang",
-        "wang-jipeng-jin-diplomacy"
+        "wang-jipeng-jin-diplomacy",
+        "wang-jipeng-tan-zixiao-honours"
       ]
     },
     {
@@ -4320,12 +4330,41 @@
       ]
     },
     {
+      "personId": "wu-yang-lian-wife-li-yongxing",
+      "eventCount": 7,
+      "eventIds": [
+        "wu-yang-lian-wife-li-yongxing-marriage",
+        "wu-yang-lian-wife-li-yongxing-marriage-preserved",
+        "wu-yang-lian-wife-li-yongxing-yongxing-title",
+        "wu-yang-lian-wife-li-yongxing-chizhou",
+        "wu-yang-lian-wife-li-yongxing-widowhood",
+        "wu-yang-lian-wife-li-yongxing-death",
+        "wu-yang-lian-wife-li-yongxing-memorial-stele"
+      ]
+    },
+    {
+      "personId": "wu-yang-pu-empress-wang",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-yang-pu-empress-wang-investiture"
+      ]
+    },
+    {
       "personId": "wu-yang-pu-mother-wang",
       "eventCount": 3,
       "eventIds": [
         "wu-yang-pu-mother-wang-taifei",
         "wu-yang-pu-mother-wang-empress-dowager",
         "wu-yang-pu-mother-wang-death"
+      ]
+    },
+    {
+      "personId": "wu-yang-pu-princess-shangrao",
+      "eventCount": 3,
+      "eventIds": [
+        "wu-yang-pu-princess-shangrao-marriage",
+        "wu-yang-pu-princess-shangrao-death",
+        "wu-yang-pu-princess-shangrao-posthumous-title"
       ]
     },
     {
@@ -4493,12 +4532,13 @@
     },
     {
       "personId": "yang-pu",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "yang-pu-accession",
         "yang-pu-shunyi",
         "yang-pu-become-emperor",
         "yang-pu-gao-jixing",
+        "yang-pu-wang-empress-investiture",
         "yang-pu-qi-prince",
         "yang-pu-abdication",
         "yang-pu-confined",

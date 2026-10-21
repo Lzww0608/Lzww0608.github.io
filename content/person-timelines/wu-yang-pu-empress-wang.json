@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-yang-pu-empress-wang",
+  "events": [
+    {
+      "id": "wu-yang-pu-empress-wang-investiture",
+      "title": "由德妃册立为皇后",
+      "summary": "王氏原为杨溥德妃，大和五年九月册为皇后。《资治通鉴》记九月甲戌朔；本传称让皇后。",
+      "year": 933,
+      "sortOrder": 1,
+      "precision": "day",
+      "sourceDate": "吴大和五年九月甲戌朔；《十国春秋》作太和五年九月",
+      "phase": "rule",
+      "notes": [
+        "确年为西历933年，原书大和／太和写法各保。未知名讳、子女及生卒，不据本传“不知所终”补出死亡事件。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p5",
+          "originalRevision": 1,
+          "originalSha256": "2a17e82c6f9d9e3e482263fdb82bc48e94d04c013212edfb5ce41db7bd1ed10e",
+          "excerpt": "讓皇后王氏，初事睿帝爲德妃，太和五年九月册立爲后。及南唐受禪，睿帝殂於丹楊官，后不知所終。"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p57",
+          "originalRevision": 1,
+          "originalSha256": "03a6a4e4faa7974abafd3a5ddc6b27c214e1ac23b32ef831f2af4a69d58b8267",
+          "excerpt": "九月，甲戌朔，吳主立德妃王氏為皇后。"
+        }
+      ]
+    }
+  ]
+}

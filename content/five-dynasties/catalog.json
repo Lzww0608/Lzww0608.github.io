@@ -113,6 +113,17 @@
       "description": "现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
       "defaultChapter": "shiguochunqiu-v004",
       "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B"
+    },
+    {
+      "id": "nantanglu",
+      "title": "南唐书（陆游）",
+      "sourceTitle": "陸氏南唐書",
+      "author": "南宋 · 陆游撰",
+      "kind": "十国史 · 纪传体",
+      "image": "",
+      "description": "现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。",
+      "defaultChapter": "nantanglu-v017",
+      "url": "https://zh.wikisource.org/wiki/%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
     }
   ],
   "chapters": [
@@ -4826,7 +4837,8 @@
         "liu-sheng",
         "song-qiqiu",
         "han-xizai",
-        "xu-xuan"
+        "xu-xuan",
+        "wu-yang-lian-wife-li-yongxing"
       ],
       "position": 62,
       "scope": "full",
@@ -5836,7 +5848,8 @@
         "tang-li-siyuan-princess-xingping",
         "tang-li-congrong-consort-liu",
         "tang-li-congke-daughter-nun-youcheng",
-        "tang-zhu-hongshi-wife-unnamed"
+        "tang-zhu-hongshi-wife-unnamed",
+        "wu-yang-pu-empress-wang"
       ],
       "position": 278,
       "scope": "full",
@@ -5965,7 +5978,8 @@
         "liang-zhu-youzhen-consort-guo",
         "tang-li-siyuan-princess-xingping",
         "jin-princess-changan",
-        "jin-gaozu-sister-leping-du"
+        "jin-gaozu-sister-leping-du",
+        "wu-yang-lian-wife-li-yongxing"
       ],
       "position": 281,
       "scope": "full",
@@ -8828,7 +8842,10 @@
         "song-qiqiu",
         "wu-yang-xingmi-taifei-shi",
         "wu-yang-xingmi-wife-zhu",
-        "wu-yang-pu-mother-wang"
+        "wu-yang-pu-mother-wang",
+        "wu-yang-pu-empress-wang",
+        "wu-yang-lian-wife-li-yongxing",
+        "wu-yang-pu-princess-shangrao"
       ],
       "position": 4,
       "scope": "full",
@@ -8844,6 +8861,38 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7004&action=history",
         "sourceSha256": "660db3111e7c57459a3e4dd72c2eabaf3651f0ae067be459afc8a7a02ccaacf2",
         "chapterSha256": "8221fc539af760e214dceb5d88ecb844d24ae8bcb52a778a30fb5e1b457d39e1"
+      }
+    },
+    {
+      "id": "nantanglu-v017",
+      "bookId": "nantanglu",
+      "volume": 17,
+      "title": "卷 17 · 杂艺方士节义列传",
+      "subjects": [
+        "yang-pu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "li-yu",
+        "wang-jipeng",
+        "qian-hongchu",
+        "song-qiqiu",
+        "han-xizai",
+        "wu-yang-lian-wife-li-yongxing"
+      ],
+      "position": 17,
+      "scope": "full",
+      "paragraphCount": 31,
+      "characterCount": 2833,
+      "provenance": {
+        "pageTitle": "陸氏南唐書/卷17",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B717&oldid=2073862",
+        "revisionId": 2073862,
+        "fetchedAt": "2026-10-21T17:53:43.440475+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B717&action=history",
+        "sourceSha256": "3c55f88f57f025aa8e842d045fdd7070626daa5f2adcbbfc84670a9060c63860",
+        "chapterSha256": "92f72a9e171db733b672a97bc4540b1ceb624feca32e5efd226e7306782e34ae"
       }
     }
   ]

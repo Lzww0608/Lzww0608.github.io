@@ -7706,5 +7706,139 @@
         "title": "《五代史补》卷 1 · 后梁史事"
       }
     ]
+  },
+  {
+    "id": "yang-pu-wang-empress-marriage",
+    "from": "yang-pu",
+    "to": "wu-yang-pu-empress-wang",
+    "kind": "kinship",
+    "label": "配偶，德妃后册为皇后",
+    "note": "王氏为杨溥妻，与杨溥生母王太后分属两人；不据同姓或皇后身份推定其子女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p5",
+        "originalRevision": 1,
+        "originalSha256": "2a17e82c6f9d9e3e482263fdb82bc48e94d04c013212edfb5ce41db7bd1ed10e",
+        "excerpt": "讓皇后王氏，初事睿帝爲德妃，太和五年九月册立爲后。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-yongxing-daughter",
+    "from": "li-bian",
+    "to": "wu-yang-lian-wife-li-yongxing",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明记徐知诰第四女；徐知诰后来复姓李、名昪。原文未明记她的名讳或生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p19",
+        "originalRevision": 1,
+        "originalSha256": "3863651e64b9a1236cea28f49f8efb39c717f3e791910889a9616b91406cbe48",
+        "excerpt": "太子妃李氏，齊王知誥第四女也。"
+      }
+    ]
+  },
+  {
+    "id": "yang-lian-yongxing-marriage",
+    "from": "wu-yang-lian",
+    "to": "wu-yang-lian-wife-li-yongxing",
+    "kind": "kinship",
+    "label": "夫妻，吴太子与太子妃",
+    "note": "南唐代吴后宋齐丘建议离婚，李昪不许；不能把建议写成已经拆婚。永兴公主是同一人的后封。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p13",
+        "originalRevision": 1,
+        "originalSha256": "06f3951c137158207ade846c6cead0c0ff73c8c4e5924baddc8d1edc39aca008",
+        "excerpt": "天祚中，納齊王知誥女爲妃。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p19",
+        "originalRevision": 1,
+        "originalSha256": "3863651e64b9a1236cea28f49f8efb39c717f3e791910889a9616b91406cbe48",
+        "excerpt": "天祚中，册立爲皇太子璉妃。"
+      }
+    ]
+  },
+  {
+    "id": "yang-pu-yang-lian-son",
+    "from": "yang-pu",
+    "to": "wu-yang-lian",
+    "kind": "kinship",
+    "label": "父子，长子",
+    "note": "本传称杨璉为睿帝长子；不据同卷王后条推定其生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p13",
+        "originalRevision": 1,
+        "originalSha256": "06f3951c137158207ade846c6cead0c0ff73c8c4e5924baddc8d1edc39aca008",
+        "excerpt": "太子璉，睿帝長子也。"
+      }
+    ]
+  },
+  {
+    "id": "yang-pu-shangrao-daughter",
+    "from": "yang-pu",
+    "to": "wu-yang-pu-princess-shangrao",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "上饶公主为杨溥女，不与杨行密女、钱元璙妻混同；生母未详。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p22",
+        "originalRevision": 1,
+        "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+        "excerpt": "上饒公臣者，睿帝愛女也。"
+      }
+    ]
+  },
+  {
+    "id": "xu-jingqian-shangrao-marriage",
+    "from": "nantang-xu-jingqian",
+    "to": "wu-yang-pu-princess-shangrao",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "太和末嫁徐景迁。高平郡王与燕国君分别为南唐禅代后的追封，不作生前爵位。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p22",
+        "originalRevision": 1,
+        "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+        "excerpt": "太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-xu-jingqian-son",
+    "from": "li-bian",
+    "to": "nantang-xu-jingqian",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "新史明记徐知诰以其子景迁参与执政；徐知诰后来复姓李、名昪。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p38",
+        "originalRevision": 1,
+        "originalSha256": "47cb09f1a5b1e641d5091a9fc50922c15f839ae8dcb91272da4cd0170e429d2e",
+        "excerpt": "知誥召景通還金陵，為鎮海軍節度副使，以其子景遷為太保、平章事，與令謀等執政。"
+      }
+    ]
   }
 ]
