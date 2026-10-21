@@ -200,7 +200,7 @@ export function PeopleRelationshipGraph({
           <div>
             {kinds.map(kind => <button key={kind} type="button" className={`relationship-kind-choice kind-${kind}`} aria-pressed={selectedKinds.includes(kind)} onClick={() => toggleKind(kind)}>
               <svg viewBox="0 0 30 12" width="30" height="12" aria-hidden="true"><path d="M 1 6 H 28" /></svg>
-              <span>{sourceRoleContext && kind === 'service' ? '宫职与任职' : relationshipKindLabels[kind]}</span>
+              <span>{relationshipKindLabels[kind]}</span>
               <span className="relationship-check" aria-hidden="true">{selectedKinds.includes(kind) ? '✓' : '＋'}</span>
             </button>)}
           </div>
@@ -210,8 +210,8 @@ export function PeopleRelationshipGraph({
       {focusedNode ? <>
       <div className="relationship-context">
         <div>
-          <h2>{isSourceRole(focusedNode) ? `${focusedNode.group ? focusedNode.group + ' · ' : ''}${focusedNode.name}的来源联系` : `${focusedNode.name}的人物关系`}</h2><p>{relationships.length} 条直接联系。{isSourceRole(focusedNode) ? '这是按史料职姓分列的来源角色，同异未定；每个条目不代表已经证明为不同自然人。连线可查看原文依据。' : sourceRoleContext ? '人物姓名可打开人物详情；来源角色仅查看来源联系，连线可查看原文依据。' : '姓名可打开人物详情，关系线可查看原文依据。'}</p>
-          {focusedNode?.external && <p className="relationship-external-note">{focusedNode.note ?? (isSourceRole(focusedNode) ? '此条仅表示来源中的职姓记载，不据此认定为独立自然人。' : '此人为说明关系而列入，当前没有独立人物传记入口。')}</p>}
+          <h2>{isSourceRole(focusedNode) ? `${focusedNode.group ? focusedNode.group + ' · ' : ''}${focusedNode.name}的来源联系` : `${focusedNode.name}的人物关系`}</h2><p>{relationships.length} 条直接联系。{isSourceRole(focusedNode) ? '这是按史料称谓列出的来源角色，同异未定；每个条目不代表已经证明为不同自然人。连线可查看原文依据。' : sourceRoleContext ? '人物姓名可打开人物详情；来源角色仅查看来源联系，连线可查看原文依据。' : '姓名可打开人物详情，关系线可查看原文依据。'}</p>
+          {focusedNode?.external && <p className="relationship-external-note">{focusedNode.note ?? (isSourceRole(focusedNode) ? '此条仅表示来源中的特定称谓记载，不据此认定为独立自然人。' : '此人为说明关系而列入，当前没有独立人物传记入口。')}</p>}
         </div>
         {focusedId && <button type="button" className="relationship-reset" onClick={() => selectPerson('')}>重新搜索</button>}
       </div>
@@ -249,7 +249,7 @@ export function PeopleRelationshipGraph({
             </g>)}
           </svg>
         </div>
-        <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料职姓分列，同异未定；宫职记载使用无箭头来源连线，不表示君主亲自任命或任职起始。其他人物关系的箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>
+        <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料称谓列出，同异未定；与其相关的连线使用无箭头形式，具体含义以关系标签和原文依据为准。宫职名单中的联系不表示君主亲自任命或任职起始。其他人物关系的箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>
       </figure>
 
       <section className="relationship-evidence" aria-labelledby={`${elementId}-evidence-title`}>
@@ -257,7 +257,7 @@ export function PeopleRelationshipGraph({
         <div className="relationship-script-status" role="status">{originalScript.pending && '正在准备简体引文…'}{originalScript.error && <><span>简体转换暂不可用，当前显示繁体原文。</span> <button type="button" onClick={originalScript.retry}>重试转换</button></>}</div>
         {relationships.length ? <ul className="relationship-list">
           {displayedRelationships.map(relationship => <li key={relationship.id} id={`${elementId}-relation-${relationship.id}`} className={`relationship-list-item kind-${relationship.kind}${activeRelationshipId === relationship.id ? ' is-active' : ''}`}>
-            <div className="relationship-list-heading"><span className="relationship-kind-label">{sourceRoleConnection(relationship) ? '宫职记载' : relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{directed(relationship) ? '→' : '↔'}</span>{personLink(relationship.to)}</div></div>
+            <div className="relationship-list-heading"><span className="relationship-kind-label">{sourceRoleConnection(relationship) ? '来源记载' : relationshipKindLabels[relationship.kind]}</span><div>{personLink(relationship.from)}<span className="relationship-direction" aria-hidden="true">{directed(relationship) ? '→' : '↔'}</span>{personLink(relationship.to)}</div></div>
             <p className="relationship-label">{relationship.label}</p>
             {relationship.note && <p className="relationship-note">{relationship.note}</p>}
             <button type="button" id={`${elementId}-evidence-toggle-${relationship.id}`} className="relationship-evidence-toggle" aria-expanded={expandedEvidence.has(relationship.id)} aria-controls={`${elementId}-sources-${relationship.id}`} onClick={() => toggleEvidence(relationship.id)}>{expandedEvidence.has(relationship.id) ? '收起原文依据' : `原文依据（${relationship.sources.length}）`}<span aria-hidden="true">{expandedEvidence.has(relationship.id) ? '−' : '＋'}</span></button>

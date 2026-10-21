@@ -353,7 +353,7 @@ function graphText(value) {
   if (value === null || value === undefined || typeof value === 'boolean') return '';
   return typeof value === 'object' ? graphText(value.props?.children) : String(value);
 }
-function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true } = {}) {
+function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true, sourceRole = sourceRoleFixture, sourceEdge = sourceRoleEdge } = {}) {
   const state = [], opened = [], selected = [], sources = [];
   const baseNodes = relationshipNodes.filter(node => node.identityKind !== 'source-role');
   const baseIds = new Set(baseNodes.map(node => node.id));
@@ -366,8 +366,8 @@ function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true } = 
       return [state[index], value => { state[index] = typeof value === 'function' ? value(state[index]) : value; }];
     }, useEffect: () => {}, useMemo: callback => callback(), useRef: value => ({ current: value }), useId: () => 'source-role-fixture' },
     './relationships.ts': { ...graphRelationships,
-      relationshipNodes: includeRole ? [...baseNodes, sourceRoleFixture] : baseNodes,
-      personRelationships: includeRole ? [...baseEdges, sourceRoleEdge] : baseEdges },
+      relationshipNodes: includeRole ? [...baseNodes, sourceRole] : baseNodes,
+      personRelationships: includeRole ? [...baseEdges, sourceEdge] : baseEdges },
     './use-original-script.ts': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
     './relationships.css': {},
   };
@@ -403,8 +403,8 @@ test('real source-role graph uses undirected sourced links in SVG, cards and acc
   assert.equal(graphElements(edge).find(e => e.props?.className === 'relationship-edge-line').props.markerEnd, undefined);
   assert.match(graphText(graphElements(edge).find(e => e.type === 'title')), /↔/);
   assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-direction')), '↔');
-  assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-kind-label')), '宫职记载');
-  assert.ok(elements.some(e => e.type === 'button' && graphText(e).includes('宫职与任职')));
+  assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-kind-label')), '来源记载');
+  assert.ok(elements.some(e => e.type === 'button' && graphText(e).includes(relationshipKindLabels.service)));
   assert.match(graphText(elements.find(e => e.type === 'figcaption')), /不表示.*任命/);
   assert.doesNotMatch(graphText(elements.find(e => e.props?.className === 'relationship-context')), /没有独立人物传记|姓名可打开人物详情/);
   const node = elements.find(e => e.props?.className?.startsWith('relationship-node is-external'));
@@ -416,6 +416,23 @@ test('real source-role graph uses undirected sourced links in SVG, cards and acc
   assert.equal(prevented, true); assert.deepEqual(graph.opened, []);
   elements.find(e => e.type === 'button' && graphText(e) === '阅读此处原文与白话译文').props.onClick();
   assert.deepEqual(graph.sources, [['huiyao-v001', 'huiyao-v001-p53']]);
+});
+
+test('a marriage source role uses generic provenance wording while keeping both sourced kinship labels', () => {
+  const sourceRole = relationshipNodes.find(node => node.id === 'wu-yang-xingmi-daughter-jiang-yanhui-wife');
+  assert.ok(sourceRole?.identityKind === 'source-role');
+  const edges = personRelationships.filter(edge => edge.from === sourceRole.id || edge.to === sourceRole.id);
+  assert.equal(edges.length, 2);
+  for (const sourceEdge of edges) {
+    assert.equal(sourceEdge.kind, 'kinship');
+    const graph = sourceRoleGraph({ selectedPersonId: sourceRole.id, sourceRole, sourceEdge }), elements = graph.render();
+    assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-kind-label')), '来源记载');
+    assert.equal(graphText(elements.find(e => e.props?.className === 'relationship-label')), sourceEdge.label);
+    assert.doesNotMatch(graphText(elements.find(e => e.props?.className === 'relationship-context')), /职姓|宫职记载/);
+    assert.match(graphText(elements.find(e => e.type === 'figcaption')), /具体含义以关系标签和原文依据为准/);
+    elements.find(e => e.type === 'button' && graphText(e) === '阅读此处原文与白话译文').props.onClick();
+    assert.deepEqual(graph.sources, [[sourceEdge.sources[0].chapterId, sourceEdge.sources[0].paragraphId]]);
+  }
 });
 
 test('adding a role preserves every original canonical graph edge direction and person opening behavior', () => {
