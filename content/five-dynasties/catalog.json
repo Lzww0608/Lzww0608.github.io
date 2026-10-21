@@ -110,7 +110,7 @@
       "author": "清 · 吴任臣撰",
       "kind": "十国史 · 纪传体",
       "image": "",
-      "description": "现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
+      "description": "现收卷 4 的吴后妃、宗室及公主记载与卷 13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
       "defaultChapter": "shiguochunqiu-v004",
       "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B"
     },
@@ -4693,7 +4693,8 @@
         "qian-liu",
         "song-qiqiu",
         "han-xizai",
-        "tang-li-keyong-consort-cao"
+        "tang-li-keyong-consort-cao",
+        "wu-xu-wen-mother-zhou"
       ],
       "position": 134,
       "scope": "full",
@@ -5233,7 +5234,8 @@
         "wang-shenzhi",
         "ma-xifan",
         "gao-jixing",
-        "liang-zhu-wen-princess-puning"
+        "liang-zhu-wen-princess-puning",
+        "wu-xu-wen-mother-zhou"
       ],
       "position": 267,
       "scope": "full",
@@ -5759,7 +5761,8 @@
         "tang-li-siyuan-mother-liu",
         "tang-li-conghou-empress-kong",
         "tang-an-chonghui-daughter-unnamed",
-        "tang-li-siyuan-shufei-wang"
+        "tang-li-siyuan-shufei-wang",
+        "wu-xu-wen-chen-furen"
       ],
       "position": 276,
       "scope": "full",
@@ -5991,7 +5994,8 @@
         "jin-princess-changan",
         "jin-gaozu-sister-leping-du",
         "wu-yang-lian-wife-li-yongxing",
-        "wu-yang-meng-wife"
+        "wu-yang-meng-wife",
+        "wu-xu-wen-wife-li"
       ],
       "position": 281,
       "scope": "full",
@@ -6031,7 +6035,8 @@
         "gao-conghui",
         "song-qiqiu",
         "tang-li-siyuan-shufei-wang",
-        "tang-li-siyuan-princess-yongning"
+        "tang-li-siyuan-princess-yongning",
+        "wu-xu-wen-daughter-guangde"
       ],
       "position": 282,
       "scope": "full",
@@ -8920,7 +8925,8 @@
         "li-yu",
         "wang-yanzheng",
         "song-qiqiu",
-        "wu-yang-xingmi-daughter-xu-jie-wife"
+        "wu-yang-xingmi-daughter-xu-jie-wife",
+        "wu-xu-wen-daughter-guangde"
       ],
       "position": 10,
       "scope": "full",
@@ -8936,6 +8942,43 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B710&action=history",
         "sourceSha256": "4717f32913e21fded73e2c6fb1b037211da460df773a28538f1974d443ee5b22",
         "chapterSha256": "769e61c99a0407b07d76a0cfe0e9162decfd71b9cce75224b9fcdce49fdfa7ae"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v013",
+      "bookId": "shiguochunqiu",
+      "volume": 13,
+      "position": 13,
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+      "subjects": [
+        "zhu-wen",
+        "wang-jingren",
+        "yang-xingmi",
+        "yang-wo",
+        "yang-longyan",
+        "yang-pu",
+        "li-bian",
+        "li-jing-southern-tang",
+        "qian-liu",
+        "qian-yuanguan",
+        "song-qiqiu",
+        "wu-yang-xingmi-wife-zhu",
+        "wu-xu-wen-wife-li",
+        "wu-xu-wen-chen-furen"
+      ],
+      "scope": "full",
+      "paragraphCount": 11,
+      "characterCount": 5250,
+      "provenance": {
+        "pageTitle": "十國春秋/卷013",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&oldid=2554081",
+        "revisionId": 2554081,
+        "fetchedAt": "2026-10-16T15:19:16.919999+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&action=history",
+        "sourceSha256": "19572cb0c19e9781159e035bff2969e48e8a6d8feac6e016bf5034b193935534",
+        "chapterSha256": "66cabae3478bc14dc2b6d0e2afd8e1d71bcd4bde504df229c74e4548fb65e2d4"
       }
     }
   ]

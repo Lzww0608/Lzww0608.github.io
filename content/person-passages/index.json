@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 12,
-    "chapterCount": 217,
-    "paragraphCount": 9003
+    "chapterCount": 218,
+    "paragraphCount": 9014
   },
   "people": [
     {
@@ -1606,6 +1606,22 @@
     {
       "id": "wu-yang-xingmi-daughter-xu-jie-wife",
       "name": "杨氏（徐玠妻）"
+    },
+    {
+      "id": "wu-xu-wen-mother-zhou",
+      "name": "周氏（徐温母）"
+    },
+    {
+      "id": "wu-xu-wen-wife-li",
+      "name": "李氏（徐温妻、明德皇后）"
+    },
+    {
+      "id": "wu-xu-wen-chen-furen",
+      "name": "陈夫人（徐温）"
+    },
+    {
+      "id": "wu-xu-wen-daughter-guangde",
+      "name": "广德长公主（徐温女）"
     }
   ],
   "passages": [
@@ -22157,6 +22173,10 @@
         },
         {
           "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-daughter-guangde",
           "kind": "record"
         }
       ]
@@ -103406,6 +103426,10 @@
         {
           "personId": "li-bian",
           "kind": "biography"
+        },
+        {
+          "personId": "wu-xu-wen-mother-zhou",
+          "kind": "record"
         }
       ]
     },
@@ -108106,6 +108130,226 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v013-p2",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p2",
+          "originalRevision": 1,
+          "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+          "start": 0,
+          "end": 1669
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p3",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p3",
+          "originalRevision": 1,
+          "originalSha256": "edcee92b2cf6788b186b7a84efc831890acc866a75ded92de9b4b05af7717d3e",
+          "start": 0,
+          "end": 579
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p5",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p5",
+          "originalRevision": 1,
+          "originalSha256": "2ae570db060e3acb68d403dfdc1850d149c353aa145f9e300bbdaa1b281cd253",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p7",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p7",
+          "originalRevision": 1,
+          "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+          "start": 0,
+          "end": 1345
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-chen-furen",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p8",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p8",
+          "originalRevision": 1,
+          "originalSha256": "f4fbcba0cbc14d4b8f9cc3cad5abb72757d151af1565b93c294c284a375972a4",
+          "start": 0,
+          "end": 439
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p9",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p9",
+          "originalRevision": 1,
+          "originalSha256": "90f826e38db7d7a77d071bf26f501230465e60f9e69cfa4dcdc580387059ce2b",
+          "start": 0,
+          "end": 520
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p10",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p10",
+          "originalRevision": 1,
+          "originalSha256": "237ba0aee6f44590fb55dde8dabe71c41a7c86daa3127f243439c2c0aebe105b",
+          "start": 0,
+          "end": 281
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v013-p11",
+      "chapterId": "shiguochunqiu-v013",
+      "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v013-p11",
+          "originalRevision": 1,
+          "originalSha256": "961f86d07270bfc57bffbbd59b71d7f2d3fbc8f712e5071b01831f1f15537a00",
+          "start": 0,
+          "end": 210
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v266-p5",
       "chapterId": "tongjian-v266",
       "title": "卷 266 · 后梁纪1 · 第 5 段",
@@ -110701,6 +110945,26 @@
         },
         {
           "personId": "kou-yanqing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v267-p93",
+      "chapterId": "tongjian-v267",
+      "title": "卷 267 · 后梁纪2 · 第 93 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v267-p93",
+          "originalRevision": 1,
+          "originalSha256": "4e1797f7df98c9d586b53d878b1247dd346ccd57d949768e722ceb373d41483e",
+          "start": 0,
+          "end": 78
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-xu-wen-mother-zhou",
           "kind": "record"
         }
       ]
@@ -125102,6 +125366,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-chen-furen",
+          "kind": "record"
         }
       ]
     },
@@ -133294,6 +133562,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
         }
       ]
     },
@@ -134341,6 +134613,10 @@
       "people": [
         {
           "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-daughter-guangde",
           "kind": "record"
         }
       ]

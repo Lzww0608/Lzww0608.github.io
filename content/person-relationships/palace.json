@@ -8026,5 +8026,191 @@
         "excerpt": "徐知誥以延徽吳太祖之婿，與臨川王濛素善，恐其克建州奉濛以圖興復，遣使召之。"
       }
     ]
+  },
+  {
+    "id": "wu-xu-wen-zhou-mother-son",
+    "from": "wu-xu-wen-mother-zhou",
+    "to": "wu-xu-wen",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "《通鉴》具姓周氏并称徐温母；不另补生母或养母性质。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 267 · 后梁纪2",
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p93",
+        "originalRevision": 1,
+        "originalSha256": "4e1797f7df98c9d586b53d878b1247dd346ccd57d949768e722ceb373d41483e",
+        "excerpt": "五月，吳徐溫母周氏卒"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-li-spouses",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-wen-wife-li",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "徐温妻李氏与知诰养母的称谓据同一家庭表；不与陈氏、白氏合并。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "温妻白氏、李氏，夫人陳氏。李故知誥養母"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-li-bian-adoption",
+    "from": "wu-xu-wen",
+    "to": "li-bian",
+    "kind": "adoption",
+    "label": "养父子",
+    "note": "徐温养育李昪、名徐知诰；获养路径的新旧史分歧保留，非亲生父子。",
+    "sources": [
+      {
+        "title": "《旧五代史》 · 卷 134 · 僭伪列传（吴、南唐、闽）",
+        "chapterId": "old-v134",
+        "paragraphId": "old-v134-p14",
+        "originalRevision": 1,
+        "originalSha256": "4bc31486304bdd3762ef222602c76c7f1923de027633eb48e63c5e728f0d1078",
+        "excerpt": "昪時幼稚，為溫所擄，溫愛其慧黠，遂育為己子，名曰知誥。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "以假子知誥爲昇州防遏使"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-wife-li-bian-adoption",
+    "from": "wu-xu-wen-wife-li",
+    "to": "li-bian",
+    "kind": "adoption",
+    "label": "养母与养子",
+    "note": "原书明写李氏为知诰养母；王太后和明德皇后为身后尊号，不作生母关系。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "李故知誥養母，南唐昇元元年十二月上尊諡曰明德皇后。"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-chen-spouses",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-wen-chen-furen",
+    "kind": "kinship",
+    "label": "夫人与徐温",
+    "note": "《十国春秋》家庭表列夫人陈氏；不补妾、正妻或正式妃嫔名位。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "温妻白氏、李氏，夫人陳氏。"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-chen-li-bian-household-care",
+    "from": "wu-xu-wen-chen-furen",
+    "to": "li-bian",
+    "kind": "kinship",
+    "label": "养家成员（自述）",
+    "note": "陈夫人以我家养育知诰为由劝阻弃置；这是集体养育的自述，不独立认定她为正式养母，也不与李氏合人。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+        "chapterId": "tongjian-v276",
+        "paragraphId": "tongjian-v276-p17",
+        "originalRevision": 1,
+        "originalSha256": "0c2475d8fd3ccaa55b5227b2edcc944d09a6ebd69de4908ead74f9cbab314620",
+        "excerpt": "陳夫人曰：「知誥自我家貧賤時養之，奈何富貴而棄之！」"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-bai-spouses",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-wen-wife-bai",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "只据家庭表的妻白氏；后世祠祀夹注另作来源说明，不能改作吴宫册后。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "温妻白氏、李氏，夫人陳氏。"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-wen-guangde-father-daughter",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-wen-daughter-guangde",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "马令记徐温以女嫁李建勋；《通鉴》同夫之妻广德长公主与此婚家相接，不补母亲或名字。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p4",
+        "originalRevision": 1,
+        "originalSha256": "96a785c4422db3fa0b28cf09adde9a9cc9fd48c48473cc164d78a5d232a92785",
+        "excerpt": "温温見之歎曰有子如是非惡人也即以女妻建勲"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 282 · 后晋纪3",
+        "chapterId": "tongjian-v282",
+        "paragraphId": "tongjian-v282-p7",
+        "originalRevision": 1,
+        "originalSha256": "7777a61c8ee366c2013e323dc3e7558095bb43423aa4cbcc5a69a9282daab1f7",
+        "excerpt": "李建勳之妻廣德長公主假衰絰，入哭盡哀，如父母之喪。"
+      }
+    ]
+  },
+  {
+    "id": "wu-guangde-li-jianxun-spouses",
+    "from": "nantang-li-jianxun",
+    "to": "wu-xu-wen-daughter-guangde",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "两书同夫李建勋的婚配与广德称号相接，不补婚年、册封年或女方独立官职。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p4",
+        "originalRevision": 1,
+        "originalSha256": "96a785c4422db3fa0b28cf09adde9a9cc9fd48c48473cc164d78a5d232a92785",
+        "excerpt": "乃遣建勲入謁温温見之歎曰有子如是非惡人也即以女妻建勲"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 282 · 后晋纪3",
+        "chapterId": "tongjian-v282",
+        "paragraphId": "tongjian-v282-p7",
+        "originalRevision": 1,
+        "originalSha256": "7777a61c8ee366c2013e323dc3e7558095bb43423aa4cbcc5a69a9282daab1f7",
+        "excerpt": "李建勳之妻廣德長公主假衰絰，入哭盡哀，如父母之喪。"
+      }
+    ]
   }
 ]

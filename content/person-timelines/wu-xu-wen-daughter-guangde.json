@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "personId": "wu-xu-wen-daughter-guangde",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wu-xu-wen-daughter-guangde-mourn-li-parents",
+      "title": "借丧服入哭李氏考妣",
+      "summary": "《通鉴》在南唐国主为李氏考妣发哀的叙事中，称李建勋之妻广德长公主借衰绖入哭尽哀，如父母之丧；不是在叙述徐温于939年去世。",
+      "year": 939,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天福四年二月发哀叙事中；公主入哭未独记日",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v282",
+          "paragraphId": "tongjian-v282-p7",
+          "originalRevision": 1,
+          "originalSha256": "7777a61c8ee366c2013e323dc3e7558095bb43423aa4cbcc5a69a9282daab1f7",
+          "excerpt": "二月，乙亥，改太祖廟號曰義祖。己卯，唐主為李氏考妣發哀，與皇后斬衰居廬，如初喪禮，朝夕臨凡五十四日。江王知證、饒王知諤請亦服斬衰；不許。李建勳之妻廣德長公主假衰絰，入哭盡哀，如父母之喪。"
+        },
+        {
+          "chapterId": "tongjian-v282",
+          "paragraphId": "tongjian-v282-p3",
+          "originalRevision": 1,
+          "originalSha256": "77ecb8f4a3053943ae9feb74ec2d128dd040e10ff3db77640265aea64c6ec84a",
+          "excerpt": "高祖聖文章武明德孝皇帝中天福四年（己亥，公元九三九年）"
+        }
+      ],
+      "notes": [
+        "己卯是唐主发哀起日；公主末句未独记日，不给她套该日。",
+        "借来丧服与入哭是公主自己的动作；前文徐知证、徐知谔请服而未许分别叙述。"
+      ]
+    },
+    {
+      "id": "wu-xu-wen-daughter-guangde-marriage",
+      "title": "徐温将她嫁给李建勋",
+      "summary": "马令《南唐书》记李德诚遣李建勋拜见徐温，徐温见其人而称许，随即以女妻之。与《通鉴》同夫之妻广德长公主相接，不补婚日或封号授予时间。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "李建勋初仕前叙事，婚配未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v010",
+          "paragraphId": "nantangma-v010-p4",
+          "originalRevision": 1,
+          "originalSha256": "96a785c4422db3fa0b28cf09adde9a9cc9fd48c48473cc164d78a5d232a92785",
+          "excerpt": "乃遣建勲入謁温温見之歎曰有子如是非惡人也即以女妻建勲"
+        }
+      ],
+      "notes": [
+        "原段婚配在前，确年不明置于年代未定；不表示发生在939年入哭之后。",
+        "李建勋和常梦锡后续官历不作为她的年表；不补名讳、生母、出生次序。"
+      ]
+    }
+  ]
+}

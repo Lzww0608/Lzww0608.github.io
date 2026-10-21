@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "personId": "wu-xu-wen-wife-li",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wu-xu-wen-wife-li-posthumous-wang-taihou",
+      "title": "被追尊为王太后",
+      "summary": "徐知诰在仍辅吴时追尊考忠武王徐温为太祖武王，妣明德太妃李氏为王太后。李氏为养母，尊号为身后追尊。",
+      "year": 937,
+      "sortOrder": 1,
+      "precision": "month",
+      "sourceDate": "天福二年三月叙事中；追尊未独记日",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p19",
+          "originalRevision": 1,
+          "originalSha256": "64bce2b99665a4f86833ff5e3dfc6fcbed9f377f3505e1ab058d5d82cf331977",
+          "excerpt": "追尊考忠武王溫曰太祖武王，妣明德太妃李氏曰王太后。"
+        },
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p3",
+          "originalRevision": 1,
+          "originalSha256": "1fd36820b6fb9bfbb1b98960f76c7e3a6d879c32dc4d9bbebab75b3651b98cde",
+          "excerpt": "高祖聖文章武明德孝皇帝上之下天福二年（丁酉，公元九三七年）"
+        }
+      ],
+      "notes": [
+        "段末壬申只记徐知诰更名诰，不把它套作李氏追尊的确日。"
+      ]
+    },
+    {
+      "id": "wu-xu-wen-wife-li-posthumous-mingde",
+      "title": "获上尊谥明德皇后",
+      "summary": "《十国春秋》记南唐昇元元年十二月上尊谥明德皇后；夹注另记合葬定陵、附太庙。皇后称号与此前王太后追尊分开，不作生前即位。",
+      "year": 938,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "昇元元年十二月（整月已在西历938年）",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v013",
+          "paragraphId": "shiguochunqiu-v013-p7",
+          "originalRevision": 1,
+          "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+          "excerpt": "李故知誥養母，南唐昇元元年十二月上尊諡曰明德皇后。〈合葬定陵，附太廟。"
+        }
+      ],
+      "notes": [
+        "按实际严格历核，原书记月已跨入938；不因元年标937就把十二月也写937。",
+        "合葬、附庙未另记日期，不将追谥月份转作确切葬日。"
+      ]
+    }
+  ]
+}

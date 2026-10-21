@@ -232,7 +232,11 @@
     "wu-yang-lian-wife-li-yongxing",
     "wu-yang-pu-princess-shangrao",
     "wu-yang-meng-wife",
-    "wu-yang-xingmi-daughter-xu-jie-wife"
+    "wu-yang-xingmi-daughter-xu-jie-wife",
+    "wu-xu-wen-mother-zhou",
+    "wu-xu-wen-wife-li",
+    "wu-xu-wen-chen-furen",
+    "wu-xu-wen-daughter-guangde"
   ],
   "people": [
     {
@@ -7251,6 +7255,120 @@
       "sources": [
         {
           "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B710&oldid=2073807"
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-wen-mother-zhou",
+      "name": "周氏（徐温母）",
+      "dynasty": "吴",
+      "role": "史载徐温之母",
+      "periodLabel": "开平四年五月卒事见载",
+      "intro": "《资治通鉴》记徐温的母亲周氏于开平四年五月去世。将领官吏祭奠时，为偶人穿上罗锦，徐温要求取下衣料，给贫者穿用。原段未记她的名讳、生年或丈夫。",
+      "sourceNotes": [
+        "原书明确称母，未另分生母或养母；不将未载的生育关系补成定论。",
+        "《旧五代史》天祐七年只记徐温丁母忧而未记姓氏；《通鉴》同为西历910年的记载具姓。两段分别保留，不以起复写守丧期满。",
+        "祭奠、解衣给贫与起复的施事分别为将吏、徐温和授官者，不能写成周氏生前的行为。"
+      ],
+      "aliases": "周氏（徐温母） 周氏（徐溫母） 徐温母周氏 徐溫母周氏",
+      "readingStarts": {
+        "tongjian": "tongjian-v267",
+        "old": "old-v134"
+      },
+      "sources": [
+        {
+          "title": "卷 267 · 后梁纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7267&oldid=1765571"
+        },
+        {
+          "title": "卷 134 · 僭伪列传（吴、南唐、闽）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7134&oldid=1490240"
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-wen-wife-li",
+      "name": "李氏（徐温妻、明德皇后）",
+      "dynasty": "吴",
+      "role": "徐温妻、徐知诰养母；南唐追谥明德皇后",
+      "periodLabel": "吴至南唐初的养亲与追尊史载",
+      "intro": "《十国春秋》在徐温家属中列妻李氏，并明称她为徐知诰的养母。《资治通鉴》记徐知诰追尊明德太妃李氏为王太后；《十国春秋》另记昇元元年十二月尊谥明德皇后，合葬定陵、附太庙。这些是身后尊号，不表示她生前曾为皇后。",
+      "sourceNotes": [
+        "李氏养母与徐温夫人陈氏分别见载，不能因陈夫人说知诰自我家贫贱时养之就合为同一人。",
+        "不据徐温诸子名单指定她为其中任何人的生母；徐知诰后来恢复李姓，也不能据此倒推生母为李氏。",
+        "王太后追尊见《通鉴》天福二年三月叙事；明德皇后追谥另见昇元元年十二月，整月已在西历938年，不把两次行动合成生前册后。",
+        "合葬定陵、附太庙属于该书夹注；未独记完成日期，不另补葬日或首次入宫日期。"
+      ],
+      "aliases": "李氏（徐温妻、明德皇后） 李氏（徐溫妻、明德皇后） 徐温妻李氏 徐溫妻李氏 徐知诰养母李氏 徐知誥養母李氏",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v013",
+        "tongjian": "tongjian-v281"
+      },
+      "sources": [
+        {
+          "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&oldid=2554081"
+        },
+        {
+          "title": "卷 281 · 后晋纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7281&oldid=1769092"
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-wen-chen-furen",
+      "name": "陈夫人（徐温）",
+      "dynasty": "吴",
+      "role": "徐温夫人；曾劝阻弃置徐知诰",
+      "periodLabel": "徐温在世时的劝阻记载",
+      "intro": "《资治通鉴》记徐温曾受劝以亲子徐知询代徐知诰执吴政。陈夫人以知诰从徐家贫贱时就被养育为由，反对富贵后抛弃他。《十国春秋》徐温传另列夫人陈氏。原段没有记她的名讳、年岁或正式妃号。",
+      "sourceNotes": [
+        "陈夫人自称我家养育，说明她在徐温婚家中的立场，不独立证明她是正式养母，也不使她与另有养母称谓的李氏同人。",
+        "劝阻出现在徐温卒段的初字追叙中；原书未独记进言年月，不能套段首徐温卒日辛丑，或直接定为927年当天。",
+        "徐温一度不忍、谋以知询替代，以及徐知诰草表求出镇、最后因徐温死讯而止，是不同施事与前后动作；不把全段决策都归给陈夫人。"
+      ],
+      "aliases": "陈夫人（徐温） 陳夫人（徐溫） 徐温陈夫人 徐溫陳夫人",
+      "readingStarts": {
+        "tongjian": "tongjian-v276",
+        "shiguochunqiu": "shiguochunqiu-v013"
+      },
+      "sources": [
+        {
+          "title": "卷 276 · 后唐纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7276&oldid=1767667"
+        },
+        {
+          "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&oldid=2554081"
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-wen-daughter-guangde",
+      "name": "广德长公主（徐温女）",
+      "dynasty": "吴",
+      "role": "徐温女、李建勋妻；史称广德长公主",
+      "periodLabel": "吴、南唐间的婚配与哀哭史载",
+      "intro": "马令《南唐书》记徐温见李建勋后，把女儿嫁给他。《资治通鉴》称李建勋之妻为广德长公主，并记她在南唐国主为李氏父母发哀的叙事中，借来丧服，入哭尽哀。两书据同一丈夫辨认她的婚家身份；名讳、生母及受封年月均未载。",
+      "sourceNotes": [
+        "广德长公主的丈夫为李建勋，马令同夫记载明指徐温之女；不另造一位失名李建勋妻，也不补徐温诸妻中哪一人为她生母。",
+        "《通鉴》本段悼念对象为李昪的李氏考妣，不是徐温在939年再次去世；她的入哭日未独记，己卯是唐主发哀起日。",
+        "称号按《通鉴》原称广德长公主保存，不能因与李昪为养家兄妹便补正式受封诏、出生次序或婚期。",
+        "李建勋后续任官、退休及卒事不能当成她的经历；马令同一原段还接常梦锡传，两人的事迹分别阅读。"
+      ],
+      "aliases": "广德长公主（徐温女） 廣德長公主（徐溫女） 徐温女（李建勋妻） 徐溫女（李建勳妻）",
+      "readingStarts": {
+        "tongjian": "tongjian-v282",
+        "nantangma": "nantangma-v010"
+      },
+      "sources": [
+        {
+          "title": "卷 282 · 后晋纪3",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7282&oldid=2303983"
+        },
+        {
+          "title": "卷 10 · 相关人物列传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B710&oldid=2073807"
         }
       ]

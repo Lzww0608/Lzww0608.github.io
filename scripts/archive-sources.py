@@ -29,7 +29,7 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载与卷 13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。', defaultChapter='nantangma-v010'),
 ]
@@ -211,6 +211,10 @@ SPECS.append(dict(id='shiguochunqiu-v004', bookId='shiguochunqiu', volume=4,
                   title='卷 4 · 吴后妃、宗室及公主', page='十國春秋/卷004',
                   subjects=['yang-xingmi', 'shi-jiantang', 'li-bian', 'song-qiqiu']))
 
+SPECS.append(dict(id='shiguochunqiu-v013', bookId='shiguochunqiu', volume=13, position=13,
+                  title='卷 13 · 吴列传（田頵、张颢、徐温及诸子）', page='十國春秋/卷013',
+                  subjects=['zhu-wen', 'wang-jingren', 'yang-xingmi', 'yang-wo', 'yang-longyan', 'yang-pu', 'li-bian', 'li-jing-southern-tang', 'qian-liu', 'qian-yuanguan', 'song-qiqiu', 'wu-yang-xingmi-wife-zhu', 'wu-xu-wen-wife-li', 'wu-xu-wen-chen-furen'], fixedRevisionId=2554081))
+
 SPECS.append(dict(id='nantanglu-v017', bookId='nantanglu', volume=17,
                   title='卷 17 · 杂艺方士节义列传', page='陸氏南唐書/卷17',
                   subjects=['yang-pu', 'li-bian', 'li-jing-southern-tang', 'li-yu', 'wang-jipeng', 'qian-hongchu', 'song-qiqiu', 'han-xizai', 'wu-yang-lian-wife-li-yongxing'], fixedRevisionId=2073862))
@@ -218,6 +222,30 @@ SPECS.append(dict(id='nantanglu-v017', bookId='nantanglu', volume=17,
 SPECS.append(dict(id='nantangma-v010', bookId='nantangma', volume=10,
                   title='卷 10 · 相关人物列传', page='馬氏南唐書/卷10',
                   subjects=['yang-xingmi', 'li-bian', 'li-jing-southern-tang', 'li-yu', 'wang-yanzheng', 'song-qiqiu', 'wu-yang-xingmi-daughter-xu-jie-wife'], fixedRevisionId=2073807))
+
+# Source-bound H64 maternal and marriage records; no global bare surname matching.
+for chapter_id, added_subjects in {
+    'tongjian-v267': [
+        'wu-xu-wen-mother-zhou'
+    ],
+    'old-v134': [
+        'wu-xu-wen-mother-zhou'
+    ],
+    'tongjian-v281': [
+        'wu-xu-wen-wife-li'
+    ],
+    'tongjian-v276': [
+        'wu-xu-wen-chen-furen'
+    ],
+    'nantangma-v010': [
+        'wu-xu-wen-daughter-guangde'
+    ],
+    'tongjian-v282': [
+        'wu-xu-wen-daughter-guangde'
+    ]
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
 # Explicit reign and shared-annal links are metadata only. Original files and
 # captured revisions stay byte-identical when the roster grows.
@@ -505,7 +533,8 @@ def capture(spec, previous=None):
     if book['id'] == 'huiyao': notes.append('《五代会要》按典章制度分类。保留来源异体字及校注。人物关联依据卷中明确出现的姓名或带政权限定的帝号，供整卷参读。')
     if book['id'] == 'beimeng': notes.append('本站选录四库全书本卷 17—20，另收提要与作者自序，不表示全书二十卷已全部收录。')
     if book['id'] == 'kaoyi': notes.append('本站收录卷 28—30 的五代部分。本书记录史料异同及取舍理由，须与《资治通鉴》正文对应阅读。')
-    if book['id'] == 'shiguochunqiu': notes.append('本站仅收录维基文库《十国春秋》标准页面卷 4，不表示全书已收录。底本讹字与原有标点保持原样，译文及译注参校同一作品的四库本；不同版本不作为独立史料复证。')
+    if spec['id'] == 'shiguochunqiu-v004': notes.append('本站仅收录维基文库《十国春秋》标准页面卷 4，不表示全书已收录。底本讹字与原有标点保持原样，译文及译注参校同一作品的四库本；不同版本不作为独立史料复证。')
+    if spec['id'] == 'shiguochunqiu-v013': notes.append('本页完整收录维基文库《十国春秋》标准页面卷 13 的吴国人物列传，原有字词、夹注与标点保持原样；同一作品的四库本仅用于版本校读，不作为独立史料复证。已收其他卷请参见书籍目录，不表示全书已收录。')
     if book['id'] == 'nantanglu': notes.append('本站仅收录陆游《南唐书》卷 17，陆游《南唐书》与马令的同名著作分别编目；完整保留小传、夹注、史家评论及来源标点，不表示全书已收录。同作品四库本只作版本参校，不作独立复证。')
     if book['id'] == 'nantangma': notes.append('本站仅收录马令《南唐书》卷 10，与陆游的同名著作分别编目；完整保留序文、小传、夹注及来源标点，不表示全书已收录。同作品不同版本只作校读，不作独立复证。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')

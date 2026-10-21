@@ -742,9 +742,9 @@
       "paragraphId": "old-v134-p14",
       "originalRevision": 1,
       "originalSha256": "4bc31486304bdd3762ef222602c76c7f1923de027633eb48e63c5e728f0d1078",
-      "translationId": "8008",
-      "translationVersion": 1,
-      "translationSha256": "be82ab5e36803f85c4d9ec1262fb97e35635f220955a104f4a8dfade191b1c5b",
+      "translationSha256": "408a9f2b55fa48cf701bc446b55dc27fcb0564965fcc6e56f46df2c3fd0c344f",
+      "translationId": "9136",
+      "translationVersion": 2,
       "sentences": [
         {
           "originalStart": 0,
@@ -822,46 +822,46 @@
           "originalStart": 265,
           "originalEnd": 294,
           "translationStart": 309,
-          "translationEnd": 345
+          "translationEnd": 346
         },
         {
           "originalStart": 294,
           "originalEnd": 352,
-          "translationStart": 345,
-          "translationEnd": 404
+          "translationStart": 346,
+          "translationEnd": 405
         },
         {
           "originalStart": 352,
           "originalEnd": 405,
-          "translationStart": 404,
-          "translationEnd": 460
+          "translationStart": 405,
+          "translationEnd": 461
         },
         {
           "originalStart": 405,
           "originalEnd": 481,
-          "translationStart": 460,
-          "translationEnd": 537
+          "translationStart": 461,
+          "translationEnd": 538
         },
         {
           "originalStart": 481,
           "originalEnd": 511,
-          "translationStart": 537,
-          "translationEnd": 568
+          "translationStart": 538,
+          "translationEnd": 569
         },
         {
           "originalStart": 511,
           "originalEnd": 533,
-          "translationStart": 568,
-          "translationEnd": 591
+          "translationStart": 569,
+          "translationEnd": 592
         },
         {
           "originalStart": 533,
           "originalEnd": 562,
-          "translationStart": 591,
-          "translationEnd": 622
+          "translationStart": 592,
+          "translationEnd": 623
         }
       ],
-      "reason": "按保存底本的每个句号单位逐句制作译文片段，整段发布后绑定实际译文ID与版本；未按句数或字符比例猜配。"
+      "reason": "实际完整原译和每个共用阅读单位经独立对读，仅在同事务内重绑正式返回全文ID和版本。"
     },
     {
       "paragraphId": "old-v134-p15",

@@ -4319,6 +4319,56 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-xu-wen-mother-zhou",
+      "names": [
+        "周氏（徐温母）",
+        "周氏（徐溫母）",
+        "徐温母周氏",
+        "徐溫母周氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-xu-wen-wife-li",
+      "names": [
+        "李氏（徐温妻、明德皇后）",
+        "李氏（徐溫妻、明德皇后）",
+        "徐温妻李氏",
+        "徐溫妻李氏",
+        "徐知诰养母李氏",
+        "徐知誥養母李氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-xu-wen-chen-furen",
+      "names": [
+        "陈夫人（徐温）",
+        "陳夫人（徐溫）",
+        "徐温陈夫人",
+        "徐溫陳夫人"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-xu-wen-daughter-guangde",
+      "names": [
+        "广德长公主（徐温女）",
+        "廣德長公主（徐溫女）",
+        "徐温女（李建勋妻）",
+        "徐溫女（李建勳妻）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12385,6 +12435,16 @@
       "reason": "本段称杨行密有一子，并明言排行未详；杨行密为父称，不能把该子强认杨澈。",
       "originalRevision": 1,
       "originalSha256": "472be991aa22794578ca6165c5e3e0dea8001e1f3479b730581158c8dfa8c725"
+    },
+    {
+      "personId": "song-qiqiu",
+      "paragraphId": "shiguochunqiu-v013-p8",
+      "terms": [
+        "宋齊丘"
+      ],
+      "reason": "本段仅校注引称三郎，排除姓名自动升为record；另以版本绑定mention保留。",
+      "originalRevision": 1,
+      "originalSha256": "f4fbcba0cbc14d4b8f9cc3cad5abb72757d151af1565b93c294c284a375972a4"
     }
   ],
   "regnalEdicts": {
