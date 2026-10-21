@@ -274,6 +274,14 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+# Source-bound H61 wife entries only; no global bare-kinship matching.
+for chapter_id, added_subjects in {
+    'shiguochunqiu-v004': ['wu-yang-meng-wife'],
+    'tongjian-v281': ['wu-yang-meng-wife'],
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
     'zhu-yougui': ['朱友珪', '友珪'],

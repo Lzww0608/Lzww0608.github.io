@@ -7840,5 +7840,101 @@
         "excerpt": "知誥召景通還金陵，為鎮海軍節度副使，以其子景遷為太保、平章事，與令謀等執政。"
       }
     ]
+  },
+  {
+    "id": "yang-meng-wife-marriage",
+    "from": "wu-yang-meng",
+    "to": "wu-yang-meng-wife",
+    "kind": "kinship",
+    "label": "夫妻，妻失姓",
+    "note": "两书直接记濛妻子；妻未载姓名或正式妃号，不补婚年或子女身份。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p7",
+        "originalRevision": 1,
+        "originalSha256": "9ff7ee449797534da2d7ea6953585c53bf023308ea74957527fdd6e0bb90bb81",
+        "excerpt": "濛妻子在和州，悉爲侍衛軍使郭悰所殺。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p48",
+        "originalRevision": 1,
+        "originalSha256": "5d62efd17e4f46e86534905df5fb83ec744b732f156b2c238ec68bbe8a80520b",
+        "excerpt": "侍衛軍使郭悰殺濛妻子於和州，誥歸罪於悰，貶池州。"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-yang-meng-son",
+    "from": "yang-xingmi",
+    "to": "wu-yang-meng",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "本传明记杨濛为吴太祖杨行密之子；排行第三与夹注第十六的说法分别保留，母亲未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p7",
+        "originalRevision": 1,
+        "originalSha256": "9ff7ee449797534da2d7ea6953585c53bf023308ea74957527fdd6e0bb90bb81",
+        "excerpt": "臨川王濛，太祖第三子。〈五國故事云第十六。"
+      }
+    ]
+  },
+  {
+    "id": "guo-cong-yang-meng-wife-killing",
+    "from": "wu-guo-cong-guard-commander",
+    "to": "wu-yang-meng-wife",
+    "kind": "conflict",
+    "label": "在和州杀害",
+    "note": "郭悰为两书明确记载的直接施杀者。妻儿在和州与杨濛本人被杀的叙事分开，不把徐诰遣使杀杨濛写成郭悰杀丈夫。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主",
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p7",
+        "originalRevision": 1,
+        "originalSha256": "9ff7ee449797534da2d7ea6953585c53bf023308ea74957527fdd6e0bb90bb81",
+        "excerpt": "濛妻子在和州，悉爲侍衛軍使郭悰所殺。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p48",
+        "originalRevision": 1,
+        "originalSha256": "5d62efd17e4f46e86534905df5fb83ec744b732f156b2c238ec68bbe8a80520b",
+        "excerpt": "侍衛軍使郭悰殺濛妻子於和州，誥歸罪於悰，貶池州。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-yang-meng-killing",
+    "from": "li-bian",
+    "to": "wu-yang-meng",
+    "kind": "conflict",
+    "label": "徐诰遣使称诏杀害",
+    "note": "此边依《通鉴》明载徐诰遣使称诏杀杨濛；不据称诏反推杨溥亲自下令。《新史》记缚送金陵、见杀，与通鉴采石的路径叙法分别保留，不重构唯一行程。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p48",
+        "originalRevision": 1,
+        "originalSha256": "5d62efd17e4f46e86534905df5fb83ec744b732f156b2c238ec68bbe8a80520b",
+        "excerpt": "徐誥遣使稱詔殺濛於採石，追廢為悖逆庶人，絕屬籍。"
+      },
+      {
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p7",
+        "originalRevision": 1,
+        "originalSha256": "621c5aca2f1683e294440ddcd0b23b85c5d5150633a28244d7ffeecec332125b",
+        "excerpt": "遽自出迎，祚閉門遮本不得出，縛濛送金陵，見殺。"
+      }
+    ]
   }
 ]
