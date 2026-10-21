@@ -7936,5 +7936,59 @@
         "excerpt": "遽自出迎，祚閉門遮本不得出，縛濛送金陵，見殺。"
       }
     ]
+  },
+  {
+    "id": "yang-xingmi-xu-jie-wife-daughter",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-daughter-xu-jie-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传称杨氏为吴武王之女；同书先主本纪明称吴武王杨行密。未载她的生母、排行或公主封号。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p14",
+        "originalRevision": 1,
+        "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+        "excerpt": "玠妻楊吳武王女也"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-son-yang-daughter-marriage",
+    "from": "wu-li-yu-son-yang-daughter-husband",
+    "to": "wu-yang-xingmi-daughter-xu-jie-wife",
+    "kind": "kinship",
+    "label": "先为夫妻",
+    "note": "杨氏先适宣州节度使李遇之子；前夫姓名未载，不把另一书所记李遇少子自动认作此人。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p14",
+        "originalRevision": 1,
+        "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+        "excerpt": "玠妻楊吳武王女也先適宣州節度使李遇之子"
+      }
+    ]
+  },
+  {
+    "id": "xu-jie-yang-daughter-marriage",
+    "from": "wu-xu-jie",
+    "to": "wu-yang-xingmi-daughter-xu-jie-wife",
+    "kind": "kinship",
+    "label": "后为夫妻",
+    "note": "本传在杨氏以王女身份免于族诛后记更适徐玠；两次婚姻属于同一女子。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p14",
+        "originalRevision": 1,
+        "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+        "excerpt": "楊以王女免更適玠至是玠得宣州楊感憤卒"
+      }
+    ]
   }
 ]

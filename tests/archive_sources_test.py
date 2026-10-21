@@ -40,6 +40,40 @@ ZHOU_HOUSEHOLD_BOUNDARIES = {
 HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_ma_ling_fixed_complete_volume_and_cache_preservation(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        selected = next(s for s in archive.SPECS if s['id'] == 'nantangma-v010')
+        book = next(b for b in archive.BOOKS if b['id'] == 'nantangma')
+        self.assertEqual(selected['fixedRevisionId'], 2073807)
+        self.assertEqual(book['defaultChapter'], 'nantangma-v010')
+        self.assertEqual(next(b for b in catalog['books'] if b['id'] == 'nantangma'), book)
+        self.assertIn('马令', book['author'])
+        self.assertNotEqual(book['id'], next(b for b in archive.BOOKS if b['id'] == 'nantanglu')['id'])
+        source = archive.ROOT / 'sources/nantangma-v010.json'
+        payload = json.loads(source.read_text())
+        self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), '4717f32913e21fded73e2c6fb1b037211da460df773a28538f1974d443ee5b22')
+        self.assertEqual(payload['response']['parse']['revid'], 2073807)
+        tagged = archive.extract(payload['response']['parse']['text']['*'], with_tags=True)
+        self.assertEqual((len(tagged), sum(len(t) for t, _ in tagged), sum(tag == 'h1' for _, tag in tagged)), (17, 2801, 8))
+        chapter = json.loads((archive.ROOT / 'chapters/nantangma-v010.json').read_text())
+        self.assertEqual([p['original'] for p in chapter['paragraphs']], [t for t, _ in tagged])
+        self.assertEqual([p['id'] for p in chapter['paragraphs']], [f'nantangma-v010-p{i+1}' for i in range(17)])
+        previous = next(c for c in catalog['chapters'] if c['id'] == 'nantangma-v010')
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                shutil.copyfile(archive.ROOT / kind / 'nantangma-v010.json', root / kind / 'nantangma-v010.json')
+            paths = [root / kind / 'nantangma-v010.json' for kind in ['sources', 'chapters']]
+            before = {p: p.read_bytes() for p in paths}
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('fixed cached source only')):
+                self.assertEqual(archive.capture(selected, previous)['provenance'], previous['provenance'])
+                wrong = json.loads(json.dumps(previous)); wrong['provenance']['revisionId'] = 838698
+                with self.assertRaisesRegex(ValueError, 'Fixed source revision changed'):
+                    archive.capture(selected, wrong)
+            self.assertEqual({p: p.read_bytes() for p in paths}, before)
+
+
     def test_shiguochunqiu_is_a_distinct_fixed_complete_wu_volume(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         books = {book['id']: book for book in catalog['books']}

@@ -30,7 +30,7 @@ test('new authorized review subjects retain private route filters through a roun
 });
 
 test('archived books join private filters without authorizing unarchived authors, unknown people or books', () => {
-  for (const bookId of ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu']) {
+  for (const bookId of ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma']) {
     const expected = { ...filters, personId: 'li-keyong', bookId, category: 'translation', status: 'retained', offset: 50 };
     const route = ownerReviewRoute(expected);
     assert.deepEqual(resolveOwnerReviewRoute(route), expected);
@@ -39,7 +39,7 @@ test('archived books join private filters without authorizing unarchived authors
   for (const route of ['owner-review?personId=unknown&bookId=shiguochunqiu',
     'owner-review?personId=li-keyong&bookId=unknown',
     'owner-review?bookId=shiguochunqiu&bookId=chunqiu', 'owner-review?bookId=Shiguochunqiu',
-    'owner-review?bookId=nantangma', 'owner-review?bookId=Nantanglu',
+    'owner-review?bookId=nantangother', 'owner-review?bookId=Nantangma',
     'owner-review?bookId=nantanglu&bookId=old']) {
     assert.equal(resolveOwnerReviewRoute(route), null, route);
   }
@@ -63,7 +63,18 @@ test('Lu You book responses retain author-specific filtering and reject another 
   const response = { ...page, items: [entry] };
   assert.deepEqual(parseOwnerReviewResponse(response, { ...filters, bookId: 'nantanglu' }).items, [entry]);
   assert.throws(() => parseOwnerReviewResponse(response, { ...filters, bookId: 'shiguochunqiu' }));
-  assert.throws(() => parseOwnerReviewResponse({ ...page, items: [{ ...entry, bookId: 'nantangma' }] }, filters));
+  assert.throws(() => parseOwnerReviewResponse({ ...page, items: [{ ...entry, bookId: 'nantangother' }] }, filters));
+});
+
+test('Ma Ling review responses retain author-specific routes and reject Lu You filters', () => {
+  const chapterId = 'nantangma-v010', paragraphId = chapterId + '-p1';
+  const entry = { ...item, bookId: 'nantangma', chapterId, paragraphId,
+    evidence: [{ chapterId, paragraphId, excerpt: '仅供校核接口结构测试。' }] };
+  const response = { ...page, items: [entry] };
+  assert.deepEqual(parseOwnerReviewResponse(response, { ...filters, bookId: 'nantangma' }).items, [entry]);
+  assert.throws(() => parseOwnerReviewResponse(response, { ...filters, bookId: 'nantanglu' }));
+  assert.equal(resolveOwnerReviewRoute('owner-review?bookId=nantangma&bookId=nantanglu'), null);
+  assert.equal(resolveOwnerReviewRoute('owner-review?personId=unknown&bookId=nantangma'), null);
 });
 
 test('private review data cannot be requested before authentication or from another API host', async () => {

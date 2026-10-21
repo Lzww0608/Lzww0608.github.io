@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "personId": "wu-yang-xingmi-daughter-xu-jie-wife",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wu-yang-xingmi-daughter-xu-jie-wife-spared",
+      "year": null,
+      "sourceDate": "徐义祖攻宣州、李遇家族被诛时；本传未独记年",
+      "title": "李遇家族被诛时，以王女身份得免",
+      "summary": "杨氏先嫁宣州节度使李遇之子。本传叙徐义祖攻宣州、族诛李遇时，明确说她因王女身份得免；前夫名讳及她在此事中的具体经历未载。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v010",
+          "paragraphId": "nantangma-v010-p14",
+          "originalRevision": 1,
+          "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+          "excerpt": "玠妻楊吳武王女也先適宣州節度使李遇之子義祖攻宣州族誅遇楊以王女免"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "notes": [
+        "此处只据本传叙次记免诛，不把其他书李遇少子被扣押的记载移作前夫身份，也不以家族背景段替她补确日。"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "wu-yang-xingmi-daughter-xu-jie-wife-remarriage",
+      "year": null,
+      "sourceDate": "免诛之后、徐玠得宣州之前的本传叙次；未独记年月",
+      "title": "后来嫁给徐玠",
+      "summary": "免于族诛后，杨氏后来嫁给徐玠。原书只记“更适玠”，未记再嫁的具体年月或她是否受强迫。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v010",
+          "paragraphId": "nantangma-v010-p14",
+          "originalRevision": 1,
+          "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+          "excerpt": "楊以王女免更適玠"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "notes": [
+        "这是同一女子的后一次婚姻，不另造人物身份，也不补正式公主封号。"
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "wu-yang-xingmi-daughter-xu-jie-wife-death",
+      "year": null,
+      "sourceDate": "徐玠得宣州时；杨氏卒事未独记年",
+      "title": "徐玠出镇宣州时，感愤而卒",
+      "summary": "本传在徐玠出镇宣州的叙事中记杨氏感愤而卒。卷末又据此评论她的婚姻与节行；评论与本传事实分层，不据“感愤”补成自杀、绝食或其他具体死因。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v010",
+          "paragraphId": "nantangma-v010-p14",
+          "originalRevision": 1,
+          "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+          "excerpt": "至是玠得宣州楊感憤卒"
+        },
+        {
+          "chapterId": "nantangma-v010",
+          "paragraphId": "nantangma-v010-p17",
+          "originalRevision": 1,
+          "originalSha256": "d3b2da695b306ecb5e6ad608e7c29d642768acc91c1621e87c450a3c4d9f730b",
+          "excerpt": "楊氏遂以讐人為所天及觀舊治迺感憤卒"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "notes": [
+        "保大元年卒属于徐玠，不是她的卒年。两处同属马令一书，不计作独立复证。"
+      ],
+      "sortOrder": 3
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { createReadingShelfStore, READING_SHELF_STORAGE_KEY, READING_SHELF_APP, 
   parseReadingShelfJson, parseReadingShelfRoute, normalizeReadingShelfRoute, inferReadingPerson, readingProgressId,
   paragraphBookmarkId, eventBookmarkId, bookmarkRoute, progressResumeRoute, describeBookmark, describeProgress,
   verifyParagraphBookmark, verifyEventBookmark } from '../src/reading-shelf.ts';
+import { loadOriginalConverter, originalParagraphs } from '../src/original-script.ts';
 import { timelineHash } from '../src/person-timeline-schema.ts';
 import { timelineEventIdentity } from '../src/event-timeline-links-schema.ts';
 import { eventComparisons } from '../src/event-comparison-data.ts';
@@ -81,6 +82,32 @@ test('actual Shiguo Chunqiu catalog routes and paragraph bookmarks remain distin
   restored.store.mergeImport(restored.store.previewImport(store.exportJson()));
   assert.equal(bookmarkRoute(restored.store.getSnapshot().bookmarks[0]), target);
   assert.ok(!store.exportJson().includes(original.original));
+});
+
+test('actual Ma Ling book routes, exact paragraph bookmarks and script switching stay distinct from Lu You', async () => {
+  const book = libraryBooks.find(b => b.id === 'nantangma');
+  const chapter = libraryChapters.find(c => c.id === 'nantangma-v010');
+  assert.ok(book && chapter, 'The complete fixed Ma Ling volume must be integrated before release.');
+  const archived = JSON.parse(await fs.readFile(new URL('../../content/five-dynasties/chapters/nantangma-v010.json', import.meta.url), 'utf8'));
+  const original = archived.paragraphs[3], before = structuredClone(original);
+  const target = 'read-nantangma/nantangma-v010?paragraph=' + original.id;
+  assert.equal(book.defaultChapter, chapter.id);
+  assert.equal(resolveRoute('#' + target), target);
+  assert.equal(resolveReadingRoute(target).focusParagraphId, original.id);
+  assert.equal(normalizeReadingShelfRoute('read-nantangma'), 'read-nantangma/nantangma-v010');
+  assert.equal(parseReadingShelfRoute(target).chapterId, chapter.id);
+  assert.equal(resolveReadingRoute('read-nantanglu/nantangma-v010'), null);
+  assert.equal(parseReadingShelfRoute('read-nantangma/nantangma-v010?paragraph=nantangma-v010-p18'), null);
+  const { store } = create(); await store.toggleParagraphBookmark({ chapterId: chapter.id, paragraph: original });
+  const saved = store.getSnapshot().bookmarks[0];
+  assert.equal(bookmarkRoute(saved), target); assert.equal(await verifyParagraphBookmark(saved, original), true);
+  assert.equal(await verifyParagraphBookmark(saved, { ...original, original: original.original + '改' }), false);
+  const restored = create(); restored.store.mergeImport(restored.store.previewImport(store.exportJson()));
+  assert.equal(bookmarkRoute(restored.store.getSnapshot().bookmarks[0]), target);
+  const convert = await loadOriginalConverter(), simplified = originalParagraphs([original], 'simplified', convert);
+  assert.notEqual(simplified[0].original, original.original); assert.ok(simplified[0].original.includes('𠉀'));
+  assert.equal(originalParagraphs([original], 'traditional', convert)[0], original);
+  assert.deepEqual(original, before); assert.ok(!store.exportJson().includes(original.original));
 });
 
 test('person inference preserves explicit known context and never guesses from chapter subjects', () => {

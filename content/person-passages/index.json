@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "scope": "current-archive",
   "coverage": {
-    "bookCount": 11,
-    "chapterCount": 216,
-    "paragraphCount": 8986
+    "bookCount": 12,
+    "chapterCount": 217,
+    "paragraphCount": 9003
   },
   "people": [
     {
@@ -1602,6 +1602,10 @@
     {
       "id": "wu-yang-meng-wife",
       "name": "杨濛妻（失姓）"
+    },
+    {
+      "id": "wu-yang-xingmi-daughter-xu-jie-wife",
+      "name": "杨氏（徐玠妻）"
     }
   ],
   "passages": [
@@ -22125,6 +22129,218 @@
       "people": [
         {
           "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p4",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p4",
+          "originalRevision": 1,
+          "originalSha256": "96a785c4422db3fa0b28cf09adde9a9cc9fd48c48473cc164d78a5d232a92785",
+          "start": 0,
+          "end": 894
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p6",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p6",
+          "originalRevision": 1,
+          "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
+          "start": 0,
+          "end": 374
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p8",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p8",
+          "originalRevision": 1,
+          "originalSha256": "a778cf9bbb8f2a31f2a38ebfbc5f1e5b0e63c8091ba41489ccfdb09636dd3d99",
+          "start": 0,
+          "end": 307
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanzheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p10",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p10",
+          "originalRevision": 1,
+          "originalSha256": "51e4c583d3d8bf0c93ae9bd0560036eaa49ce879f41f9e4e5670f454c67004a7",
+          "start": 0,
+          "end": 291
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p12",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p12",
+          "originalRevision": 1,
+          "originalSha256": "18b08a7b87000991507bb545898974b3a1ce23dc84e660f612e57f6a7b0502c0",
+          "start": 0,
+          "end": 255
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p14",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p14",
+          "originalRevision": 1,
+          "originalSha256": "5cfee97ae9a83111987e81a9917bb3ec9d6b7947e1bbd502f5e14ee4cbd7b3b5",
+          "start": 0,
+          "end": 309
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-xu-jie-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p16",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p16",
+          "originalRevision": 1,
+          "originalSha256": "b72179b01804b5ea552150b17ef6228dd0780c0240df648ccae7f43541499861",
+          "start": 0,
+          "end": 180
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v010-p17",
+      "chapterId": "nantangma-v010",
+      "title": "卷 10 · 相关人物列传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v010-p17",
+          "originalRevision": 1,
+          "originalSha256": "d3b2da695b306ecb5e6ad608e7c29d642768acc91c1621e87c450a3c4d9f730b",
+          "start": 0,
+          "end": 123
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-xu-jie-wife",
           "kind": "record"
         }
       ]

@@ -124,6 +124,17 @@
       "description": "现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。",
       "defaultChapter": "nantanglu-v017",
       "url": "https://zh.wikisource.org/wiki/%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
+    },
+    {
+      "id": "nantangma",
+      "title": "南唐书（马令）",
+      "sourceTitle": "馬氏南唐書",
+      "author": "北宋 · 马令撰",
+      "kind": "十国史 · 纪传体",
+      "image": "",
+      "description": "现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。",
+      "defaultChapter": "nantangma-v010",
+      "url": "https://zh.wikisource.org/wiki/%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
     }
   ],
   "chapters": [
@@ -8895,6 +8906,36 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B717&action=history",
         "sourceSha256": "3c55f88f57f025aa8e842d045fdd7070626daa5f2adcbbfc84670a9060c63860",
         "chapterSha256": "92f72a9e171db733b672a97bc4540b1ceb624feca32e5efd226e7306782e34ae"
+      }
+    },
+    {
+      "id": "nantangma-v010",
+      "bookId": "nantangma",
+      "volume": 10,
+      "title": "卷 10 · 相关人物列传",
+      "subjects": [
+        "yang-xingmi",
+        "li-bian",
+        "li-jing-southern-tang",
+        "li-yu",
+        "wang-yanzheng",
+        "song-qiqiu",
+        "wu-yang-xingmi-daughter-xu-jie-wife"
+      ],
+      "position": 10,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 2801,
+      "provenance": {
+        "pageTitle": "馬氏南唐書/卷10",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B710&oldid=2073807",
+        "revisionId": 2073807,
+        "fetchedAt": "2026-10-21T20:02:36.495800+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8%2F%E5%8D%B710&action=history",
+        "sourceSha256": "4717f32913e21fded73e2c6fb1b037211da460df773a28538f1974d443ee5b22",
+        "chapterSha256": "769e61c99a0407b07d76a0cfe0e9162decfd71b9cce75224b9fcdce49fdfa7ae"
       }
     }
   ]
