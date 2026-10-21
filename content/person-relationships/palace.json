@@ -7990,5 +7990,41 @@
         "excerpt": "楊以王女免更適玠至是玠得宣州楊感憤卒"
       }
     ]
+  },
+  {
+    "id": "wu-yang-xingmi-jiang-marriage-role-father-daughter",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-daughter-jiang-yanhui-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本段吴太祖指杨行密；以蒋延徽为其婿的记载标示这条父女关系，不补女方姓名、生母或封号。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 278 · 后唐纪7",
+        "chapterId": "tongjian-v278",
+        "paragraphId": "tongjian-v278-p98",
+        "originalRevision": 1,
+        "originalSha256": "eab77fed2d79085ec983e13cf7cd9d5a7884fde231350065028bff0aa2522aa6",
+        "excerpt": "徐知誥以延徽吳太祖之婿，與臨川王濛素善，恐其克建州奉濛以圖興復，遣使召之。"
+      }
+    ]
+  },
+  {
+    "id": "wu-jiang-yanhui-marriage-role-spouses",
+    "from": "wu-jiang-yanhui",
+    "to": "wu-yang-xingmi-daughter-jiang-yanhui-wife",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "婚配据本段吴太祖之婿的称谓；未记婚期或女方的独立事迹。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 278 · 后唐纪7",
+        "chapterId": "tongjian-v278",
+        "paragraphId": "tongjian-v278-p98",
+        "originalRevision": 1,
+        "originalSha256": "eab77fed2d79085ec983e13cf7cd9d5a7884fde231350065028bff0aa2522aa6",
+        "excerpt": "徐知誥以延徽吳太祖之婿，與臨川王濛素善，恐其克建州奉濛以圖興復，遣使召之。"
+      }
+    ]
   }
 ]
