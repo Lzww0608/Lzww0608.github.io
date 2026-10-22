@@ -9,7 +9,7 @@ export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu'
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places' | 'timeline-years' | 'comparison-stages';
-export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals' | 'southern-tang-officials' | 'palace-people';
+export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals' | 'southern-tang-officials' | 'palace-people' | 'military-people';
 export type PersonGroupId = 'all' | 'emperors' | 'ten-kingdoms-rulers' | PersonTopicId;
 export type Route = 'people' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}` | `person-timeline/${string}` | `event-comparison/${string}`;
 
@@ -84,6 +84,7 @@ export interface HistoryPerson {
   reignEnd?: number;
   sources?: HistoricalSourceReference[];
   readingStarts?: Partial<Record<BookId, string>>;
+  serviceEvidence?: { chapterId: string; paragraphId: string; title: string; excerpt: string }[];
 }
 
 export interface HistoricalSourceReference {
@@ -140,6 +141,7 @@ export interface HistoricalPersonGroup {
   sources: HistoricalSourceReference[];
   memberIds: string[];
   memberRelations?: Record<string, string>;
+  memberServiceEvidence?: Record<string, { chapterId: string; paragraphId: string; originalRevision: number; originalSha256: string; title: string; excerpt: string }[]>;
   people: HistoryPerson[];
 }
 

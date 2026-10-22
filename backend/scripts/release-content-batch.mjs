@@ -12,11 +12,16 @@ import { digest, sha256 } from '../src/backup-archive.mjs';
 import { verifyOwnerReviewPermissions } from '../src/owner-reviews.mjs';
 import { ensureOwnerReviewSchema } from './import-review-items.mjs';
 import { freezeContentRelease, validateContentRelease, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
+import { validateMilitaryTopic } from '../../content/military-people.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release runner: ${message}`); };
 const same = (a, b, message) => check(digest(a) === digest(b), message);
 const quote = value => `"${value.replaceAll('"', '""')}"`;
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
+export function validateMilitaryReleaseQualification(content) {
+  const topic = read(new URL('../../content/five-dynasties/military-people.json', import.meta.url));
+  return validateMilitaryTopic(topic, content.library, content.people);
+}
 function privateOutput(path) {
   const output = resolve(path), rel = relative(localDir, output);
   check(rel && !rel.startsWith('..') && !rel.startsWith('/'), 'receipts and private drafts must stay inside backend/.local');
@@ -35,7 +40,7 @@ export function releaseImplementationFingerprint() {
   const paths = ['scripts/release-content-batch.mjs', 'src/content-release-batch.mjs', 'scripts/import-library.mjs',
     'scripts/import-translations.mjs', 'scripts/publish-ai-batch.mjs', 'scripts/apply-review-corrections.mjs', 'scripts/import-sentence-translations.mjs',
     'scripts/import-person-passages.mjs', 'scripts/import-person-timelines.mjs', 'scripts/import-review-items.mjs', 'src/translation-batch.mjs', 'src/owner-reviews.mjs',
-    'src/backup-archive.mjs', '../content/person-passages.mjs', '../content/person-timelines.mjs', '../content/sentence-translations.mjs',
+    'src/backup-archive.mjs', '../content/person-passages.mjs', '../content/person-timelines.mjs', '../content/military-people.mjs', '../content/sentence-translations.mjs',
     '../content/owner-review-subjects.json', '../frontend/src/sentence-alignment.ts',
     ...['001-initial', '002-translation-metadata', '003-translation-editor', '004-person-passages', '005-sentence-translations', '006-owner-reviews', '007-person-timelines', '008-owner-review-subjects'].map(p => `db/${p}.sql`)];
   // IDs/names alone do not freeze aliases, biography wording or graph claims.
@@ -51,7 +56,9 @@ export function releaseImplementationFingerprint() {
 }
 
 export async function verifyContentReleaseFromDump(frozen, dumpFile, { config = loadConfig(), progress = () => {} } = {}) {
-  const content = validateContentRelease(frozen), bytes = readFileSync(dumpFile), dumpSha256 = sha256(bytes);
+  const content = validateContentRelease(frozen);
+  validateMilitaryReleaseQualification(content);
+  const bytes = readFileSync(dumpFile), dumpSha256 = sha256(bytes);
   check(bytes.subarray(0, 5).toString('ascii') === 'PGDMP', 'expected actual PostgreSQL custom backup');
   check(content.baseline?.dumpSha256 === dumpSha256 && /^[a-f0-9]{64}$/.test(content.baseline?.databaseSha256 ?? ''), 'frozen actual baseline dump/state binding');
   const implementation = releaseImplementationFingerprint();
@@ -142,6 +149,7 @@ export async function runContentReleaseCli(args) {
   if (command === 'publish') {
     check(input && rest.length === 4 && rest[3] === '--allow-formal', 'publish FROZEN.json VERIFIED.json DATABASE RECEIPT.json --allow-formal');
     const frozen = read(input), content = validateContentRelease(frozen), verified = read(rest[0]), config = loadConfig();
+    validateMilitaryReleaseQualification(content);
     check(rest[1] === config.database.database, 'formal database must exactly match configured database');
     check(verified.verified === true && verified.fingerprint === frozen.fingerprint && verified.actualDumpRestoredForEveryAttempt === true
       && verified.formalDatabaseWritten === false && verified.success?.idempotent === true && verified.success?.permissionsVerified === true

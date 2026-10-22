@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { freezeContentRelease, validateContentRelease, rebindReleaseParents, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
 import { loadPassagePeople } from '../../content/person-passages.mjs';
 import { textHash } from '../src/translation-batch.mjs';
-import { verifyContentReleaseFromDump, runContentReleaseCli, releaseImplementationFingerprint } from '../scripts/release-content-batch.mjs';
+import { verifyContentReleaseFromDump, runContentReleaseCli, releaseImplementationFingerprint, validateMilitaryReleaseQualification } from '../scripts/release-content-batch.mjs';
 
 export function releaseFixture() {
   const original = '朱溫立。王氏問？', text = '朱温即位。王氏询问？';
@@ -77,7 +77,20 @@ test('runner has no implicit write command and binds every importer/security inp
   assert.match(implementation.files['db/008-owner-review-subjects.sql'], /^[a-f0-9]{64}$/);
   assert.match(implementation.files['../content/five-dynasties/palace-people.json'], /^[a-f0-9]{64}$/);
   assert.match(implementation.files['../content/person-relationships/palace-context.json'], /^[a-f0-9]{64}$/);
+  assert.match(implementation.files['../content/military-people.mjs'], /^[a-f0-9]{64}$/);
   await assert.rejects(publishContentRelease({}, freezeContentRelease(releaseFixture()), { expectedDatabase: 'ancient_history', allowFormal: true }), /actual isolated verification/);
+});
+
+test('military release qualification reads the frozen library and people', async () => {
+  const { loadLibrary } = await import('../../content/library.mjs');
+  const content = { library: loadLibrary(), people: loadPassagePeople() };
+  assert.equal(validateMilitaryReleaseQualification(content).id, 'military-people');
+  const stale = structuredClone(content);
+  stale.library.chapters.find(chapter => chapter.id === 'new-v22').paragraphs.find(paragraph => paragraph.id === 'new-v22-p21').original += '异文';
+  assert.throws(() => validateMilitaryReleaseQualification(stale), /SHA mismatch/);
+  const missingPerson = structuredClone(content);
+  missingPerson.people = missingPerson.people.filter(person => person.id !== 'niu-cunjie');
+  assert.throws(() => validateMilitaryReleaseQualification(missingPerson), /unknown member/);
 });
 
 test('actual PostgreSQL batch rolls back every stage, publishes once and preserves old identities', async t => {

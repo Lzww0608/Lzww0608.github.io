@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "military-people",
+  "title": "五代十国武将",
+  "filterLabel": "五代十国武将",
+  "description": "从现存史料阅读五代十国将领的征战、军职与转仕经历。",
+  "sourceNote": "人物据当前归档的具体任职与军事实务记载收录；服务对象及经历按各自原文说明。",
+  "sources": [
+    {
+      "title": "《新五代史》卷 22 · 梁臣传",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&oldid=1699277"
+    }
+  ],
+  "memberIds": ["niu-cunjie"],
+  "memberRelations": {
+    "niu-cunjie": "归梁太祖后受任小校，后来参与征战并领军镇"
+  },
+  "memberRelationshipSubjects": {
+    "niu-cunjie": "朱温"
+  },
+  "memberServiceEvidence": {
+    "niu-cunjie": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p21",
+        "originalRevision": 1,
+        "originalSha256": "4493aac0d423120e1df973b5e4dc2036b86778b84af48b0c22801480452f3434",
+        "title": "《新五代史》卷 22 · 牛存节传",
+        "excerpt": "乃率其徒十餘人歸梁太祖。存節為人木彊忠謹，太祖愛之，賜之名字，以為小校。"
+      }
+    ]
+  },
+  "people": []
+}

@@ -11,8 +11,10 @@ import { loadEventTimelineLinks } from '../../content/event-timeline-links.mjs';
 import { loadReadingAnnotations, buildReadingAnnotationChapters } from '../../content/reading-annotations.mjs';
 import { writeFileSync } from 'node:fs';
 import { writePersonSearchNames } from './person-search-names.mjs';
+import { checkMilitaryPeople } from '../../scripts/check-military-people.mjs';
 
 const library = loadLibrary();
+checkMilitaryPeople(library);
 const { catalog } = library;
 const chapters = loadPublishedChapters(library);
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-sentence-alignments.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
