@@ -8284,5 +8284,59 @@
         "excerpt": "知誨先娶太祖功臣呂師造女，非嫡出，以是常切齒呂氏，因醉，刺殺之。"
       }
     ]
+  },
+  {
+    "id": "wu-xu-wen-xu-zhixun-xun2-father-son",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-zhixun-xun2",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《十国春秋》明记徐知询为徐温第二子；未据排行指定生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p9",
+        "originalRevision": 1,
+        "originalSha256": "90f826e38db7d7a77d071bf26f501230465e60f9e69cfa4dcdc580387059ce2b",
+        "excerpt": "知詢，温第二子也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-jian-daughter-xu-zhixun-father-daughter",
+    "from": "wu-li-jian",
+    "to": "wu-li-jian-daughter",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "《资治通鉴》在李简任吴武昌节度使的语境中，明称徐知询为“简婿”，据此标示其女。女方名讳、封号和生母未载。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+        "chapterId": "tongjian-v276",
+        "paragraphId": "tongjian-v276-p104",
+        "originalRevision": 1,
+        "originalSha256": "c6027f25d9eee0dc9e6d7c029f5712a1fde451c18928f2543c9561c38bf3ddcf",
+        "excerpt": "徐知詢，簡婿也"
+      }
+    ]
+  },
+  {
+    "id": "wu-xu-zhixun-xun2-li-jian-daughter-spouses",
+    "from": "wu-xu-zhixun-xun2",
+    "to": "wu-li-jian-daughter",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "《资治通鉴》称徐知询为李简之婿，又记其称李彦忠为“吾妻族”；未载婚期或所生子女。",
+    "sources": [
+      {
+        "title": "《资治通鉴》 · 卷 276 · 后唐纪5",
+        "chapterId": "tongjian-v276",
+        "paragraphId": "tongjian-v276-p104",
+        "originalRevision": 1,
+        "originalSha256": "c6027f25d9eee0dc9e6d7c029f5712a1fde451c18928f2543c9561c38bf3ddcf",
+        "excerpt": "徐知詢，簡婿也"
+      }
+    ]
   }
 ]
