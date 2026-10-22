@@ -8472,5 +8472,75 @@
         "excerpt": "行至吉陽磯，頵執神福子承鼎以招之，神福叱左右射之，遂敗壇兵于吉陽。"
       }
     ]
+  },
+  {
+    "id": "wu-an-renyi-unnamed-concubine-kinship",
+    "from": "wu-an-renyi",
+    "to": "wu-an-renyi-concubine-unnamed",
+    "kind": "kinship",
+    "label": "妾室",
+    "note": "原书明确称安仁义爱妾；不改称正妻，不推姓名、婚期或生育。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "仁義以家屬保城樓，兵不敢登，召德誠曰：「汝可以委命。」且以愛妾贈之，乃抵弓矢就縛，斬于廣陵，蓋後頵死一年云。"
+      }
+    ]
+  },
+  {
+    "id": "wu-an-renyi-unnamed-son-father-son",
+    "from": "wu-an-renyi",
+    "to": "wu-an-renyi-son-unnamed",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "末句明确安仁义之子劝阻其降服并被斩；不据同段出现推定他由爱妾所生。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "仁義初欲降，其子固以爲不可，乃止，至是子亦斬揚州市。"
+      }
+    ]
+  },
+  {
+    "id": "wu-an-renyi-li-decheng-siege-and-entrusting-life",
+    "from": "wu-an-renyi",
+    "to": "wu-li-decheng",
+    "kind": "conflict",
+    "label": "围攻与投命",
+    "note": "李德诚是围攻安仁义的将领之一；城被掘入后，安仁义召李德诚，将性命相托并赠爱妾。不把李德诚说成独自攻城者，也不把处斩安仁义或其子具体归于他。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p11",
+        "originalRevision": 1,
+        "originalSha256": "be4295125e3a6f4c45a3ccd1e2833e47df17c06dd4d7bf60edf97e82df9e6a16",
+        "excerpt": "行密遣王茂章、李德誠、米志誠等圍之。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "太組潛令王茂章、李德誠等圍之。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "仁義以家屬保城樓，兵不敢登，召德誠曰：「汝可以委命。」且以愛妾贈之，乃抵弓矢就縛，斬于廣陵，蓋後頵死一年云。"
+      }
+    ]
   }
 ]
