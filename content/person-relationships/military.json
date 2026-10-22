@@ -1,0 +1,438 @@
+[
+  {
+    "id": "ge-congzhou-niu-cunjie-service",
+    "from": "ge-congzhou",
+    "to": "niu-cunjie",
+    "kind": "service",
+    "label": "随葛从周攻淮南",
+    "note": "明确“从葛从周”，不由同场征战推断长期直属。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p23",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "從葛從周攻淮南，從周敗渒河，存節收其散卒八千以歸。"
+      }
+    ]
+  },
+  {
+    "id": "kang-huaiying-niu-cunjie-service",
+    "from": "kang-huaiying",
+    "to": "niu-cunjie",
+    "kind": "service",
+    "label": "随康怀英攻潞",
+    "note": "新史明确从康怀英攻潞、为排阵使；其后泽州出发路线有新旧史异说。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p24",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "從康懷英攻潞州，為行營排陣使。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-li-hanzhi-conflict",
+    "from": "niu-cunjie",
+    "to": "li-hanzhi",
+    "kind": "conflict",
+    "label": "河阳交战",
+    "note": "牛奉朱温命救张全义，对李罕之及晋军作战；各书月份、地点与兵数分源保留。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p22",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "李罕之圍張全義於河陽，全義乞兵於梁，太祖以存節故事河陽，知其間道，使以兵為前鋒。是時歲饑，兵行乏食，存節以金帛就民易乾葚以食軍，擊走罕之。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-li-cunxiao-conflict",
+    "from": "niu-cunjie",
+    "to": "li-cunxiao",
+    "kind": "conflict",
+    "label": "河阳援战交锋",
+    "note": "旧史具名牛等援军、李存孝迎战；不单归牛擒杀安休休。",
+    "sources": [
+      {
+        "chapterId": "old-v025",
+        "paragraphId": "old-v025-p20",
+        "title": "旧五代史 · 卷 25 · 唐武皇纪上（李克用）",
+        "excerpt": "汴將丁會、牛存節、葛從周將兵赴援，李存孝率精騎逆戰於溫縣。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-li-sizhao-conflict",
+    "from": "niu-cunjie",
+    "to": "li-sizhao",
+    "kind": "conflict",
+    "label": "青山口交战",
+    "note": "武皇纪明确牛与张筠遇李嗣昭，李嗣昭不利而还。",
+    "sources": [
+      {
+        "chapterId": "old-v026",
+        "paragraphId": "old-v026-p34",
+        "title": "旧五代史 · 卷 26 · 唐武皇纪下（李克用）",
+        "excerpt": "武皇遣李嗣昭率三千騎攻邢州以應之，遇汴將牛存節、張筠於青山口，嗣昭不利而還。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-liu-zhijun-conflict",
+    "from": "niu-cunjie",
+    "to": "liu-zhijun",
+    "kind": "conflict",
+    "label": "奉命讨刘知俊",
+    "note": "909刘知俊反叛后牛奉命进讨；此前908刘知俊援牛守泽，不把两人全部时期概括为敌对。",
+    "sources": [
+      {
+        "chapterId": "new-v44",
+        "paragraphId": "new-v44-p7",
+        "title": "新五代史 · 卷 44 · 杂传",
+        "excerpt": "太祖遣劉鄩、牛存節攻知俊，知俊遂奔于茂貞。"
+      },
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p86",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "劉知俊自晉州引兵救之，德威焚攻具，退保高平。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-zhu-youqian-conflict",
+    "from": "niu-cunjie",
+    "to": "zhu-youqian",
+    "kind": "conflict",
+    "label": "攻河中与守同州",
+    "note": "朱友珪派牛等攻朱友谦；新史另记朱友谦联岐围牛所守同州。不是同一城攻守。",
+    "sources": [
+      {
+        "chapterId": "old-v063",
+        "paragraphId": "old-v063-p12",
+        "title": "旧五代史 · 卷 63 · 唐列传",
+        "excerpt": "其年八月，友珪遣大將牛存節、康懷英、韓勍攻之，友謙乞師於莊宗。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p25",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "友珪立，朱友謙叛附于晉，西連鳳翔，存節東西受敵。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p25",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "故友謙與岐兵合圍持久，欲以渴疲之，存節禱而擇地鑿井八十，水皆甘可食，友謙卒不能下。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-zhou-dewei-conflict",
+    "from": "niu-cunjie",
+    "to": "zhou-dewei",
+    "kind": "conflict",
+    "label": "泽州攻守",
+    "note": "通鉴明确周德威等乘胜攻泽、牛拒守，刘知俊来援后周退高平。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p86",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "周德威、李存璋乘勝進趣澤州，刺史王班素失人心，眾不為用。"
+      },
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p86",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "晉兵尋至，緣城穿地道攻之，存節晝夜拒戰，凡旬有三日。劉知俊自晉州引兵救之，德威焚攻具，退保高平。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-li-cunzhang-conflict",
+    "from": "niu-cunjie",
+    "to": "li-cunzhang",
+    "kind": "conflict",
+    "label": "泽州攻守",
+    "note": "通鉴具名李存璋与周德威攻泽，牛入城守御；不把未具名的每次掘隧命令专归李。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p86",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "周德威、李存璋乘勝進趣澤州，刺史王班素失人心，眾不為用。"
+      },
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p86",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "晉兵尋至，緣城穿地道攻之，存節晝夜拒戰，凡旬有三日。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-liu-xun-conflict",
+    "from": "niu-cunjie",
+    "to": "liu-xun",
+    "kind": "conflict",
+    "label": "兖州交战，后同军出征",
+    "note": "房知温传记牛奉命讨据兖的刘鄩；后来二人同奉梁命讨刘知俊、蒋殷，不能将同军关系误记为上下级。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p2",
+        "title": "旧五代史 · 卷 91 · 晋书列传六",
+        "excerpt": "及王師範遣劉鄩據兗州，梁祖命存節將兵討之，知溫夕縋出奔，存節喜而納焉。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p12",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "劉知俊叛，陷長安，太祖遣鄩與牛存節討之，知俊走鳳翔，太祖乃以長安為永平軍，拜鄩節度使。"
+      },
+      {
+        "chapterId": "old-v023",
+        "paragraphId": "old-v023-p6",
+        "title": "旧五代史 · 卷 23 · 梁列传",
+        "excerpt": "時朝廷以福王友璋鎮徐方，殷不受代，末帝遣鄩與鄆帥牛存節率兵攻之。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-fang-zhiwen-service",
+    "from": "niu-cunjie",
+    "to": "fang-zhiwen",
+    "kind": "service",
+    "label": "侍从及短暂来投",
+    "note": "房知温早年因博戏侍牛左右，讨兖时来投次夜盗马返城；不据此称终身部将。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p2",
+        "title": "旧五代史 · 卷 91 · 晋书列传六",
+        "excerpt": "時部將牛存節屯於鎮，好摴博，每求辨采者，知溫以善博見推，因得侍左右，遂熟於存節。及王師範遣劉鄩據兗州，梁祖命存節將兵討之，知溫夕縋出奔，存節喜而納焉。明夜，竊良馬一駟，復入城，鄩乃擢為裨將。"
+      }
+    ]
+  },
+  {
+    "id": "zhuge-shuang-niu-cunjie-service",
+    "from": "zhuge-shuang",
+    "to": "niu-cunjie",
+    "kind": "service",
+    "label": "早年从事",
+    "note": "旧、新史均记先事诸葛爽，爽卒后归朱温，不能将早年河阳军职说成后梁官。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p21",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "初名禮，事諸葛爽於河陽，爽卒，存節顧其徒曰：「天下洶洶，當得英雄事之。」"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-niu-zhiye-kinship",
+    "from": "niu-cunjie",
+    "to": "niu-zhiye",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "旧史与新史均明记其子知业；不补生母、出生年月和排行。",
+    "sources": [
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p14",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "將終，戒其子知業、知讓等以忠孝，言不及他。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p26",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "病革，召歸京師，將卒，語其子知業曰：「忠孝，吾子也。」"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-niu-zhirang-kinship",
+    "from": "niu-cunjie",
+    "to": "niu-zhirang",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "旧史记儿子知让，新史只说知业，不将新史未载知让解释为否认。",
+    "sources": [
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p14",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "將終，戒其子知業、知讓等以忠孝，言不及他。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-wang-yan-niu-cunjie-service",
+    "from": "niu-cunjie",
+    "to": "wang-yan-niu-cunjie",
+    "kind": "service",
+    "label": "攻郓受遣都将",
+    "note": "旧传牛存节遣王言夜伏，新传记藏船午渡与营火失期，派遣方向明确；仅据牛传，不与前蜀王衍或其他同名者合并。",
+    "sources": [
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p9",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "存節密與都將王言謀入鄆壘。十二月，存節遣王言夜伏勇士於州西北，以船逾濠，舉梯登陴。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p23",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "梁兵攻鄆，存節使都將王言藏船鄆西北隅濠中，期以日午渡兵踰濠急攻之。會營中火起，鄆人登城望火，言伏不敢動，與存節失期，存節獨破鄆西甕城門，奪其濠橋，梁兵得俱進，遂破朱宣。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-kang-junli-conflict",
+    "from": "niu-cunjie",
+    "to": "kang-junli",
+    "kind": "conflict",
+    "label": "河阳沇河交战",
+    "note": "康君立率军助李罕之取河阳，与丁会、牛存节交战；这是双方军队的战事，不是两人单独决斗。",
+    "sources": [
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p2",
+        "title": "旧五代史 · 卷 55 · 唐列传（康君立、史建瑭等，附史敬思）",
+        "excerpt": "文德初，李罕之既失河陽，來歸於武皇，且求援焉，乃以君立充南面招討使，李存孝副之，帥師二萬，助罕之攻取河陽。三月，與汴將丁會、牛存節戰於沇河。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-shi-pu-conflict",
+    "from": "niu-cunjie",
+    "to": "shi-pu",
+    "kind": "conflict",
+    "label": "讨时溥、攻徐州",
+    "note": "牛存节与诸将攻讨时溥，后参与攻克徐州；不写牛亲手杀死时溥。",
+    "sources": [
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p9",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "與諸將討時溥，累破賊軍。"
+      },
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p8",
+        "title": "旧五代史 · 卷 13 · 梁列传",
+        "excerpt": "城中守陴者饑甚，加之疾疫，汴將王重師、牛存節夜乘梯而入，溥與妻子登樓自焚而卒，實景福二年也。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-zhu-xuan-conflict",
+    "from": "niu-cunjie",
+    "to": "zhu-xuan",
+    "kind": "conflict",
+    "label": "攻郓对阵",
+    "note": "新史记牛破郓西瓮城门使各军得进、遂破朱宣。旧史庞传同役郓帅作朱瑄，保留异字，不混朱温。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p23",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "存節獨破鄆西甕城門，奪其濠橋，梁兵得俱進，遂破朱宣。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p2",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "乾寧四年正月，復統諸軍伐鄆，拔之，擒其帥朱瑄以獻，始表為天平軍節度留後，尋授徐州節度使，官至檢校司徒。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-zhu-jin-yanzhou-conflict",
+    "from": "niu-cunjie",
+    "to": "zhu-jin-yanzhou",
+    "kind": "conflict",
+    "label": "救徐与讨蒋殷时对阵",
+    "note": "早年牛夜援徐以拒朱瑾所引吴兵，后来讨蒋殷时再对吴援军；旧牛传闻军而退、通鉴迎击分别保留。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p23",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "朱瑾走吳，召吳兵攻徐、宿，存節謀曰：「淮兵必不先攻宿，然宿溝壘素固，可以禦敵。」乃夜以兵急趣徐州，比傅徐城下，瑾兵方至，望其塵起，驚曰：「梁兵已來，何其速也！」不能攻而去。"
+      },
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p14",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "淮賊朱瑾以兵救殷，距宿之兩舍，聞存節兵大至，即委糧棄甲而遁，竟平徐州。"
+      },
+      {
+        "chapterId": "tongjian-v269",
+        "paragraphId": "tongjian-v269-p21",
+        "title": "资治通鉴 · 卷 269 · 后梁纪4",
+        "excerpt": "吳平盧節度使朱瑾等將兵救徐州，存節等逆擊，破之，吳兵引歸。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-wen-tao-conflict",
+    "from": "niu-cunjie",
+    "to": "wen-tao",
+    "kind": "conflict",
+    "label": "奉诏讨温韬",
+    "note": "牛与康怀贞奉诏率同华、河中兵讨温韬，康等奏车度胜；不把奏报日当交战日，也不称牛独胜或斩温。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p7",
+        "title": "资治通鉴 · 卷 268 · 后梁纪3",
+        "excerpt": "岐王募華原賊帥溫韜以為假子，以華原為耀州，美原為鼎州。置義勝軍，以韜為節度使，使帥邠、岐兵寇長安。詔感化節度使康懷貞、忠武節度使牛存節以同華、河中兵討之。己酉，懷貞等奏擊韜於車度，走之。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-jiang-yin-conflict",
+    "from": "niu-cunjie",
+    "to": "jiang-yin",
+    "kind": "conflict",
+    "label": "奉命讨徐州蒋殷",
+    "note": "蒋殷拒代后牛、刘奉命进讨；旧纪明确其前称王殷、令还蒋姓。其举族自焚不写为牛亲手杀其家属。",
+    "sources": [
+      {
+        "chapterId": "old-v008",
+        "paragraphId": "old-v008-p19",
+        "title": "旧五代史 · 卷 8 · 梁末帝纪1",
+        "excerpt": "九月，徐州節度使王殷反。時朝廷以福王友璋鎮徐方，殷不受代，乃下詔削奪殷在身官爵，仍令卻還本姓蔣，便委友璋及天平軍節度使牛存節、開封尹劉鄩等進軍攻討。"
+      },
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p22",
+        "title": "旧五代史 · 卷 13 · 梁列传",
+        "excerpt": "貞明元年春，存節、劉鄩攻下徐州，殷舉族自燔而死，於火中得其屍，梟首以獻之。"
+      }
+    ]
+  },
+  {
+    "id": "niu-cunjie-zhang-zhi-conflict",
+    "from": "niu-cunjie",
+    "to": "zhang-zhi",
+    "kind": "conflict",
+    "label": "攻破张晊两寨",
+    "note": "新史只记张晊攻汴、牛破其两寨；不补独立日期、斩杀或私人恩怨。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p22",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "張晊攻汴，存節破其二寨。"
+      }
+    ]
+  }
+]

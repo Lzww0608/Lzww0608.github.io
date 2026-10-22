@@ -20,6 +20,67 @@
           "originalSha256": "4658be5554c23e4fd2184f3472f61b115e70cbf3d6cd2218766407fd228b0d9f",
           "excerpt": "文德元年夏，李罕之以並軍圍張宗奭於河陽，太祖遣存節率軍赴之。屬歲歉，餉饋不至，村民有儲幹椹者，存節以器用、錢帛易之，以給軍食。大破賊於浿河，罕之引眾北走。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧史康君立传、李罕之传记三月",
+          "sourceDate": "文德元年三月",
+          "summary": "牛传作夏；康君立传记三月战沇河，李罕之传三月援怀孟、战流河店。月份与地名分源保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v055",
+              "paragraphId": "old-v055-p2",
+              "originalRevision": 1,
+              "originalSha256": "14283d678548b78007ca8aa97adcc11f4e1a330717da925223cad55a5180db44",
+              "excerpt": "三月，與汴將丁會、牛存節戰於沇河。"
+            },
+            {
+              "chapterId": "old-v015",
+              "paragraphId": "old-v015-p9",
+              "originalRevision": 1,
+              "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+              "excerpt": "三月，克用遣其將李存孝率師三萬助之，來攻懷、孟。城中食盡，備豫皆竭，張言遣其孥入質，且求救於太祖；太祖遣葛從周、牛存節赴之，逆戰於流河店。"
+            }
+          ]
+        },
+        {
+          "label": "旧史梁纪四月叙次及温县",
+          "sourceDate": "文德元年四月叙次",
+          "summary": "梁纪四月段记丁会、牛存节、葛从周赴援并战温县；不把段首戊辰延伸成牛存节战日。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p27",
+              "originalRevision": 1,
+              "originalSha256": "745048082d31f2163299df8bc3011cb9f27fc17443c6248dcca4c54d3157bb24",
+              "excerpt": "全義危急，遣使求救于汴，帝遣丁會、牛存節、葛從周領兵赴之，大戰于溫縣，晉人與罕之俱敗。"
+            }
+          ]
+        },
+        {
+          "label": "新史河阳旧任与前锋",
+          "sourceDate": "文德元年河阳役，牛传此段未独记月",
+          "summary": "新史记因熟知河阳间道而为前锋，以金帛易干桑葚供军；本传浿河与他传沇水、温县均保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p22",
+              "originalRevision": 1,
+              "originalSha256": "bb49c795028218c1fa570a10e045eba2f1eb615840c81d03c2b22b3dc31ebf43",
+              "excerpt": "李罕之圍張全義於河陽，全義乞兵於梁，太祖以存節故事河陽，知其間道，使以兵為前鋒。是時歲饑，兵行乏食，存節以金帛就民易乾葚以食軍，擊走罕之。"
+            },
+            {
+              "chapterId": "new-v45",
+              "paragraphId": "new-v45-p4",
+              "originalRevision": 1,
+              "originalSha256": "12f997fe575ee39c2f82e9ca7b7551af9215116231969e161ee1e8426e45a0a2",
+              "excerpt": "全義乞兵于梁，梁遣牛存節、丁會等以兵萬人自九鼎渡河，擊敗罕之於沇水，晉軍解去。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "河阳役的兵数属于不同军队与统计口径：旧武皇纪七千骑、康君立传二万、李罕之传三万及葛从周传杀二万不合并。安休休投蔡、投汴与被执亦不拼成唯一经过。"
       ]
     },
     {
@@ -39,12 +100,15 @@
           "originalSha256": "4658be5554c23e4fd2184f3472f61b115e70cbf3d6cd2218766407fd228b0d9f",
           "excerpt": "景福元年秋，改遏後都指揮使。攻濮之役，領軍先登，遂拔其壘。"
         }
+      ],
+      "notes": [
+        "景福元年秋明确系改遏后都指挥使；本传随后追叙“攻濮之役”，未独标其月日，不能仅因同段便断定攻濮发生在该年秋。"
       ]
     },
     {
       "id": "niu-cunjie-xuzhou",
       "title": "参加攻徐州，力战立功",
-      "summary": "牛存节从讨时溥，景福二年四月徐州被攻下，旧史称他力战功多。",
+      "summary": "景福二年四月徐州被攻下，牛存节本传称其力战功多；时溥传所引《旧唐书》记王重师与牛存节夜间攀梯入城，时溥与妻子儿女自焚。",
       "year": 893,
       "sortOrder": 2,
       "precision": "year",
@@ -58,16 +122,32 @@
           "originalSha256": "4658be5554c23e4fd2184f3472f61b115e70cbf3d6cd2218766407fd228b0d9f",
           "excerpt": "景福元年秋，改遏後都指揮使。攻濮之役，領軍先登，遂拔其壘。二年四月，下徐州，梟時溥，存節力戰，其功居多。"
         }
+      ],
+      "variants": [
+        {
+          "label": "时溥传引《旧唐书》记夜梯入城",
+          "sourceDate": "景福二年",
+          "summary": "王重师、牛存节夜间攀梯入城；时溥举家自焚，牛传“枭时溥”不据此写为牛亲手杀时溥。",
+          "evidence": [
+            {
+              "chapterId": "old-v013",
+              "paragraphId": "old-v013-p8",
+              "originalRevision": 1,
+              "originalSha256": "9db1bf97659ca05caacdbdf27ef7545b64bda2436abe8588328af08269b19d2d",
+              "excerpt": "城中守陴者饑甚，加之疾疫，汴將王重師、牛存節夜乘梯而入，溥與妻子登樓自焚而卒，實景福二年也。"
+            }
+          ]
+        }
       ]
     },
     {
       "id": "niu-cunjie-yun-bridge",
       "title": "抢渡郓壕，夺西瓮城桥",
-      "summary": "王言夜伏未按期攻入，牛存节亲率伏军携梯破西瓮城、夺桥，各军得进；旧传十二月有据，实际已在897年。",
+      "summary": "旧传记王言夜伏未能攻入，牛存节亲率伏军携梯破西瓮城、夺桥，各军得进；新传午渡与营火经过另列。",
       "year": 897,
       "sortOrder": 3,
       "precision": "year",
-      "sourceDate": "乾宁三年十二月，实际897年1月7日至2月6日",
+      "sourceDate": "乾宁三年十二月，已跨西历897年初；未载独立日。",
       "phase": "service",
       "evidence": [
         {
@@ -148,7 +228,7 @@
       "year": 897,
       "sortOrder": 5,
       "precision": "year",
-      "sourceDate": "乾宁四年秋，清口败后",
+      "sourceDate": "旧传以乾宁四年秋起叙南征，败退未独标月；庞师古传记同年十一月清口败。",
       "phase": "service",
       "evidence": [
         {
@@ -164,7 +244,77 @@
           "originalRevision": 1,
           "originalSha256": "2dc285d0445a156d509beb5979ca4afc9da096d8229b44ad7b5d24b98acd86c3",
           "excerpt": "其年秋，大舉以伐淮南，至濠州東，聞前軍失利於清口，諸軍退至間河，無復隊伍。存節遏其後，諸將釋騎步鬥，諸軍稍得濟，收合所部並敗兵共八千餘人，至於淮涘，時不食已四日矣。存節訓勵部分，以禦追寇，遂得旋師。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p23",
+          "originalRevision": 1,
+          "originalSha256": "87c547c540849df1c0df240f24705a364934d2da89feb8e1aa7ef99685c4e9ce",
+          "excerpt": "從葛從周攻淮南，從周敗渒河，存節收其散卒八千以歸。"
         }
+      ],
+      "variants": [
+        {
+          "label": "庞师古传记八月出师、十一月清口败",
+          "sourceDate": "乾宁四年八月出师、十一月清口败役",
+          "summary": "牛传“其年秋”开叙出师与后续败退，庞传明确十一月清口失利；不把收散兵硬定为秋季某日。",
+          "evidence": [
+            {
+              "chapterId": "old-v021",
+              "paragraphId": "old-v021-p2",
+              "originalRevision": 1,
+              "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
+              "excerpt": "乾寧四年八月，與葛從周分統大軍，渡淮以伐楊行密。十一月，師古寨於清口，寨地卑下，"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "旧传收本部并败兵八千余人，新传收散卒八千；各自口径保留。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-qingshan-906",
+      "title": "与张筠在青山口拒李嗣昭",
+      "summary": "旧武皇纪记李嗣昭奉李克用命率三千骑策应史仁遇，攻邢途中遇牛存节、张筠于青山口，不利而还。",
+      "year": 906,
+      "sortOrder": 6,
+      "precision": "year",
+      "sourceDate": "天祐三年正月叙次",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p34",
+          "originalRevision": 1,
+          "originalSha256": "f09735945726db440ea778856b6eb40eb5ac018e28ce3da17dfbd1d4fd0d3a07",
+          "excerpt": "天祐三年正月，魏博既殺牙軍，魏將史仁遇據高唐以叛，遣人乞師於武皇，武皇遣李嗣昭率三千騎攻邢州以應之，遇汴將牛存節、張筠於青山口，嗣昭不利而還。"
+        }
+      ],
+      "notes": [
+        "不把此役误当光化元年葛从周于青山口的战役。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-xing-relief-906",
+      "title": "本纪记坚守邢州，获符道昭援",
+      "summary": "旧梁纪天祐三年四月后的叙事记牛存节守邢，朱温遣符道昭救援，晋军退去。",
+      "year": 906,
+      "sortOrder": 7,
+      "precision": "year",
+      "sourceDate": "天祐三年四月后、五月前叙次，未载独立日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "dc9cb1567e5a0c4558dc925f423c664aefd278556129aeb66992e33d60c026e8",
+          "excerpt": "是時晉人圍邢州，刺史牛存節堅壁固守，帝遣符道昭帥師救之，晉人乃遁去。"
+        }
+      ],
+      "notes": [
+        "与牛本传天祐元年守邢分源保留，是否同役异年暂不能确定。"
       ]
     },
     {
@@ -172,7 +322,7 @@
       "title": "梁建国授千牛，秋任行营排阵",
       "summary": "朱温受禅后牛存节授右千牛卫上将，秋攻潞州时任行营马步都排阵使，不称单独主帅。",
       "year": 907,
-      "sortOrder": 6,
+      "sortOrder": 8,
       "precision": "year",
       "sourceDate": "天祐四年受禅及当秋攻潞",
       "phase": "service",
@@ -187,11 +337,69 @@
       ]
     },
     {
+      "id": "niu-cunjie-longhu-908",
+      "title": "转龙虎、六军指挥，后授绛州",
+      "summary": "开平二年牛存节二月转右龙虎统军驻洛，五月转左龙虎及六军马步指挥，十月授绛州刺史；救泽战单列。",
+      "year": 908,
+      "sortOrder": 9,
+      "precision": "year",
+      "sourceDate": "开平二年二月、五月、十月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p12",
+          "originalRevision": 1,
+          "originalSha256": "d1797bca2d70beba615f793759169daf8c2b1a0e387d32519aa1b823cae72d02",
+          "excerpt": "開平二年二月，自右監門衛上將軍轉右龍虎統軍，駐留洛下。"
+        },
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p12",
+          "originalRevision": 1,
+          "originalSha256": "d1797bca2d70beba615f793759169daf8c2b1a0e387d32519aa1b823cae72d02",
+          "excerpt": "五月，遷左龍虎統軍，充六軍馬步都指揮使。十月，授絳州刺史。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p97",
+          "originalRevision": 1,
+          "originalSha256": "742a1d0c5aee03530e6b974e3cc6565505c171550ea0c6d4156dd7df4cccf6f5",
+          "excerpt": "帝賞牛存節全澤州之功，以為六軍馬步都指揮使。"
+        }
+      ],
+      "notes": [
+        "本事件集合二月、五月、十月三次任职，整体年份不表示各项同日；泽州役仍独立。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-lu-fue-908",
+      "title": "任抚遏，参与长子驻军",
+      "summary": "旧庄宗纪记朱温到泽州，以刘知俊代李思安为招讨，范君实、刘重霸为先锋，牛存节为抚遏，大军营长子。",
+      "year": 908,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "天祐五年三月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v027",
+          "paragraphId": "old-v027-p8",
+          "originalRevision": 1,
+          "originalSha256": "dde7dfdf3daaa1c1c8bbc0516587ea3d6fb6645098e950f75bc9ebfc3dad081f",
+          "excerpt": "是時，梁祖自將兵至澤州，以劉知俊為招討使以代思安，以範君實、劉重霸為先鋒，牛存節為撫遏，統大軍營於長子。"
+        }
+      ],
+      "notes": [
+        "不把后句统大军径解成牛存节独任全军主帅；与907秋排阵、908救泽分别记述。"
+      ]
+    },
+    {
       "id": "niu-cunjie-zezhou",
       "title": "夹城败后救泽州，隧道拒战",
-      "summary": "牛存节由洛阳率军接应上党溃兵，到天井关决定救泽州，入城制止内应，开隧迎战晋军，守十三日使敌退。",
+      "summary": "旧史记牛存节由洛阳率军接应上党，到关口决定救泽州；入城布防，以隧道迎战晋军，守十三日使泽州获全。",
       "year": 908,
-      "sortOrder": 7,
+      "sortOrder": 11,
       "precision": "year",
       "sourceDate": "开平二年上党战败后",
       "phase": "service",
@@ -219,32 +427,56 @@
             }
           ],
           "year": 908
+        },
+        {
+          "label": "通鉴记刘知俊来援后晋军撤围",
+          "sourceDate": "开平二年五月夹寨败后",
+          "summary": "通鉴记牛存节自西都赴援，在泽州昼夜拒战十三日，刘知俊自晋州引兵来援，周德威焚攻具退守高平；不把来援归为牛存节命令。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p86",
+              "originalRevision": 1,
+              "originalSha256": "ab6c51d215bcff9bbe013b02a5c2e288e2e9e8ec3b05eee0312b0480d8152f36",
+              "excerpt": "晉兵尋至，緣城穿地道攻之，存節晝夜拒戰，凡旬有三日。劉知俊自晉州引兵救之，德威焚攻具，退保高平。"
+            }
+          ]
+        },
+        {
+          "label": "考异说明军队路线取舍",
+          "sourceDate": "开平二年五月",
+          "summary": "考异质疑新史夹城余军先过泽州再至天井关返救的路线，采用《梁列传》及薛史；这是司马光取舍理由，仍保留新史原记。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p15",
+              "originalRevision": 1,
+              "originalSha256": "695b3a841e6ad33c6d644ac4b461e7a86aa2cac7a0cebcbec8ba01b4209b6831",
+              "excerpt": "按存節若自夾城遁歸則先過澤州後至天井關豈得已過而返救之也今從梁列傳及薛史"
+            }
+          ]
         }
+      ],
+      "notes": [
+        "主证旧史底本作“天並關”；新史与通鉴作“天井關”。关名各保原书记法。旧史本传与通鉴都写由洛阳方向赴援，不称牛为救潞解夹寨的晋军将领。"
       ]
     },
     {
-      "id": "niu-cunjie-longhu-908",
-      "title": "转龙虎、六军指挥，后授绛州",
-      "summary": "开平二年牛存节二月转右龙虎统军驻洛，五月转左龙虎及六军马步指挥，十月授绛州刺史；救泽战单列。",
+      "id": "niu-cunjie-xingzai-908",
+      "title": "与黄文靖各率所部赴行在",
+      "summary": "太原军南下攻晋、绛期间，牛存节与黄文靖各率本部到朱温行在；不将随后太原军撤退独归牛的战功。",
       "year": 908,
-      "sortOrder": 8,
+      "sortOrder": 12,
       "precision": "year",
-      "sourceDate": "开平二年二月、五月、十月",
+      "sourceDate": "开平二年九月段，原书记乙丑，西历908年。",
       "phase": "service",
       "evidence": [
         {
-          "chapterId": "old-v022",
-          "paragraphId": "old-v022-p12",
+          "chapterId": "old-v004",
+          "paragraphId": "old-v004-p9",
           "originalRevision": 1,
-          "originalSha256": "d1797bca2d70beba615f793759169daf8c2b1a0e387d32519aa1b823cae72d02",
-          "excerpt": "開平二年二月，自右監門衛上將軍轉右龍虎統軍，駐留洛下。"
-        },
-        {
-          "chapterId": "old-v022",
-          "paragraphId": "old-v022-p12",
-          "originalRevision": 1,
-          "originalSha256": "d1797bca2d70beba615f793759169daf8c2b1a0e387d32519aa1b823cae72d02",
-          "excerpt": "五月，遷左龍虎統軍，充六軍馬步都指揮使。十月，授絳州刺史。"
+          "originalSha256": "86e5fda93ed55a082e6209a72c4d887c7d215c54a96b19dc1c84c07eb3f956f7",
+          "excerpt": "乙丑，六軍統軍牛存節、黃文靖各領所部將士赴行在。"
         }
       ]
     },
@@ -253,7 +485,7 @@
       "title": "领同州军，持续戒备",
       "summary": "开平三年四月牛存节任鄜留后；六月刘知俊叛后转同留后，继加太保与同州节度，严整军备的长期状态另列守城。",
       "year": 909,
-      "sortOrder": 9,
+      "sortOrder": 13,
       "precision": "year",
       "sourceDate": "开平三年四月、六月",
       "phase": "service",
@@ -272,6 +504,112 @@
           "originalSha256": "d1797bca2d70beba615f793759169daf8c2b1a0e387d32519aa1b823cae72d02",
           "excerpt": "開平二年二月，自右監門衛上將軍轉右龍虎統軍，駐留洛下。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴记授保大节度使",
+          "sourceDate": "开平三年四月己未",
+          "summary": "通鉴称绛州刺史牛存节为保大节度使；牛传作四月除鄜州留后，保留职衔口径。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v267",
+              "paragraphId": "tongjian-v267-p38",
+              "originalRevision": 1,
+              "originalSha256": "4820b2e9d182562938fd9a8f2dabb422f4df8ac546ef05106f7093b0f54610b7",
+              "excerpt": "己未，以高萬興為保塞節度使，以絳州刺史牛存節為保大節度使。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "同州留后、其后节度使授任在刘知俊反叛之后；六月明确记反叛，不把“寻”“未几”的任命强定同日。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-changan-909",
+      "title": "奉命与刘鄩讨刘知俊",
+      "summary": "新史刘鄩、刘知俊传均记朱温遣刘鄩、牛存节进讨；杨师厚传记二将久攻未克，后由杨师厚奇兵入西门克城。",
+      "year": 909,
+      "sortOrder": 14,
+      "precision": "year",
+      "sourceDate": "刘知俊同州反叛、陷长安时；牛传开平三年六月为事件年锚",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p13",
+          "originalRevision": 1,
+          "originalSha256": "268285ffe15b78bb4f241da3864d4e43f380a9c3afa21427d3e4d7e72deca1f1",
+          "excerpt": "六月，劉知俊以同州叛，尋授同州留後，未幾，加檢校太保、同州節度使。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p12",
+          "originalRevision": 1,
+          "originalSha256": "7ac1eeb9986180505c15aa93a08d9f5745a1480c52700c041bc189e624ca2c7b",
+          "excerpt": "劉知俊叛，陷長安，太祖遣鄩與牛存節討之，知俊走鳳翔，太祖乃以長安為永平軍，拜鄩節度使。"
+        },
+        {
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p4",
+          "originalRevision": 1,
+          "originalSha256": "698487ecb4304f2372d80bc0744a69d6c4ea286d2161f5d8685762ab9e36f587",
+          "excerpt": "劉知俊叛，攻陷長安，劉鄩、牛存節等攻之，久不克。師厚以奇兵出，旁南山入其西門，降其守者，遂克之。"
+        }
+      ],
+      "notes": [
+        "不能把攻克西门、招降守军写成牛存节个人行动；同州任职仍保原事件。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-chedu-911",
+      "title": "与康怀贞奉诏讨温韬",
+      "summary": "温韬率邠、岐兵侵长安，牛存节与康怀贞奉诏率同华、河中兵讨伐；康怀贞等奏报车度击走温韬。",
+      "year": 911,
+      "sortOrder": 15,
+      "precision": "year",
+      "sourceDate": "通鉴乾化元年三月叙次，己酉为奏报日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p7",
+          "originalRevision": 1,
+          "originalSha256": "44dd790321f936ca26b28d4cb997de09a9cb0159cb3bf40d959e0c566f769dc9",
+          "excerpt": "詔感化節度使康懷貞、忠武節度使牛存節以同華、河中兵討之。己酉，懷貞等奏擊韜於車度，走之。"
+        }
+      ],
+      "notes": [
+        "同华、河中是出兵来源，不是牛赴救河中城；奏报日不强等于交战日。通鉴以乾化元年总领该年，三月记事仍保原书年号；未载独立交战日。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-hezhong-912",
+      "title": "奉朱友珪命与诸将攻河中",
+      "summary": "朱友珪遣韩勍、康怀英、牛存节率军急攻朱友谦；通鉴记合兵五万屯城西，晋援兵在胡壁击败梁军。",
+      "year": 912,
+      "sortOrder": 16,
+      "precision": "year",
+      "sourceDate": "旧庄宗纪天祐九年秋八月；通鉴接朱友珪立后九月叙次",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p5",
+          "originalRevision": 1,
+          "originalSha256": "143ccc8f06ae73131211a7bb379a69176edb0ce07d495fbe51d61b3f1ecf8475",
+          "excerpt": "秋八月，朱友珪遣其將韓勍、康懷英、牛存節率兵五萬，急攻河中。朱友謙遣使來求援，帝命李存審率師救之。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p76",
+          "originalRevision": 1,
+          "originalSha256": "49535c903c15f169c3664b2f4b94148a39797fba2f621fb3329ec468a0bc41b5",
+          "excerpt": "康懷貞等與忠武節度使牛存節合兵五萬屯河中城西，攻之甚急。晉王遣其將李存審、李嗣肱、李嗣恩將兵救之，敗梁兵於胡壁。"
+        }
+      ],
+      "notes": [
+        "五万人是合兵总数，不是牛的独领兵数；李存勖亲援及解县追康的记载，不扩大成牛个人在各处被追击。"
       ]
     },
     {
@@ -279,9 +617,9 @@
       "title": "末帝召见，授郓州节度",
       "summary": "围同军退后，牛存节获同平章事，赴京受慰奖；十一月授郓州节度，次年的淮北招讨另列。",
       "year": 913,
-      "sortOrder": 10,
+      "sortOrder": 17,
       "precision": "year",
-      "sourceDate": "乾化三年十一月，实际913年12月",
+      "sourceDate": "乾化三年十一月，已入西历913年12月；此前同平章事及召见未独日。",
       "phase": "service",
       "evidence": [
         {
@@ -296,9 +634,9 @@
     {
       "id": "niu-cunjie-xuzhou-revolt",
       "title": "与刘鄩攻平蒋殷",
-      "summary": "徐州蒋殷拒代后，牛存节与刘鄩围讨，至贞明元年春城破，蒋殷举族自焚；牛获加太尉。此前出师、败吴援另列。",
+      "summary": "牛存节与刘鄩攻下徐州，旧史记贞明元年春，新史、春秋记正月，通鉴记二月。牛传称加太尉，梁本纪明确牛存节于三月获加检校太尉及食邑。",
       "year": 915,
-      "sortOrder": 11,
+      "sortOrder": 18,
       "precision": "year",
       "sourceDate": "贞明元年春城破",
       "phase": "service",
@@ -316,17 +654,71 @@
           "originalRevision": 1,
           "originalSha256": "5c70c193d765063380cc85fb1ee051c1e3cceed845f56e94a17707cf05826d35",
           "excerpt": "竟平徐州。詔加太尉。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p21",
+          "originalRevision": 1,
+          "originalSha256": "785320c26771d994649ad1d45cd1c39365354d6ba861df2f166f2bff48124037",
+          "excerpt": "貞明元年春，牛存節、劉鄩拔徐州，逆賊將殷舉族自燔而死，於火中得其屍，梟首以獻。"
         }
+      ],
+      "variants": [
+        {
+          "label": "新史与春秋正月，通鉴二月",
+          "sourceDate": "贞明元年正月／二月",
+          "summary": "新史记正月克徐州并注蒋殷自焚，春秋记正月克徐、诛蒋殷；通鉴记二月拔彭城、王殷举族自焚。保留月次与叙述用语。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p13",
+              "originalRevision": 1,
+              "originalSha256": "4eabfa8d5f68d7f2a3106d80b9a4ea65134a24dbb75ec23557f8feb9695990cf",
+              "excerpt": "貞明元年春正月，存節克徐州。〈蔣殷自燔死，故不書伏誅。〉"
+            },
+            {
+              "chapterId": "chunqiu-v001",
+              "paragraphId": "chunqiu-v001-p10",
+              "originalRevision": 1,
+              "originalSha256": "c52e658f5665f2ab7822b6d3f59bd8dd885c6caeae0ba3d89b25939b90778d49",
+              "excerpt": "乙亥貞明元年正月，牛存節克徐州，誅蔣殷。"
+            },
+            {
+              "chapterId": "tongjian-v269",
+              "paragraphId": "tongjian-v269-p27",
+              "originalRevision": 1,
+              "originalSha256": "f3c6a4dca729c9d2a1e3d3194736d726d59acaa0a4e4b0d09544a501a3ea7fac",
+              "excerpt": "二月，牛存節等拔彭城，王殷舉族自焚。"
+            }
+          ]
+        },
+        {
+          "label": "梁本纪记牛存节检校太尉",
+          "sourceDate": "贞明元年三月辛酉朔",
+          "summary": "梁本纪明确以牛存节为检校太尉、加食邑一千户；与本传简记加太尉分源保留，不移用刘鄩传的赏官。",
+          "evidence": [
+            {
+              "chapterId": "old-v008",
+              "paragraphId": "old-v008-p23",
+              "originalRevision": 1,
+              "originalSha256": "eaeb6ba8f4d7f0eeaf6114065f6d148036195caba7c71f75ccf410e67fbc8e00",
+              "excerpt": "三月辛酉朔，以天平軍節度副大使、知節度事、兼淮南西北面行營招討應接等使、檢校太傅、同平章事牛存節為檢校太尉，加食邑一千戶，賞平徐之功也。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "old-v023-p6末“诏加检校太尉”承刘鄩；该条旧证仅用于攻徐经过，不作为牛存节赏官依据。"
       ]
     },
     {
       "id": "niu-cunjie-death",
       "title": "带病声援刘鄩，卒后赠太师",
-      "summary": "牛存节患消渴仍率军声援刘鄩，不谈己病；病危奉召回汶阳，翌日去世，临终戒诸子忠孝，赠太师。",
+      "summary": "牛存节病中仍奉命率军声援刘鄩，不言己病。旧传记口渴、消瘦，病危奉诏归汶阳、翌日卒，临终戒诸子忠孝，赠太师；新传召归京师另列。",
       "year": 915,
-      "sortOrder": 12,
+      "sortOrder": 19,
       "precision": "year",
-      "sourceDate": "贞明元年魏博归晋后的夏季",
+      "sourceDate": "贞明元年夏；梁本纪记五月卒，未载卒日",
       "phase": "fall",
       "evidence": [
         {
@@ -349,6 +741,13 @@
           "originalRevision": 1,
           "originalSha256": "418385ecd7e1e94e8cec04388869ab021b6f12485450ef39752609eaa0eea757",
           "excerpt": "均王上貞明元年（乙亥，公元九一五年）"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p28",
+          "originalRevision": 1,
+          "originalSha256": "f6cacbd9c39653a82dfa5b001c721379c76b1572df92e4252411cc15d1d7ae10",
+          "excerpt": "五月，晉王率師赴魏州。節度使牛存節薨。"
         }
       ],
       "variants": [
@@ -365,15 +764,32 @@
               "excerpt": "病革，召歸京師，將卒，語其子知業曰：「忠孝，吾子也。」不及其佗。贈太師。"
             }
           ]
+        },
+        {
+          "label": "驻军地名记法",
+          "sourceDate": "贞明元年五月屯杨刘，未由此推卒日",
+          "summary": "旧牛传作阳留，通鉴作杨刘；考异称传本另有阳刘，采用唐裴度传及薛史诸传的杨刘。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v029",
+              "paragraphId": "kaoyi-v029-p9",
+              "originalRevision": 1,
+              "originalSha256": "4b4874666bb8fb0c6b60dfeb3011b453f028e7a37ae049fa25d4338ccfc83833",
+              "excerpt": "五月牛存節屯楊劉〈牛存節傳楊劉作陽留或陽劉今從唐裴度傳及薛史諸人傳〉"
+            }
+          ]
         }
+      ],
+      "notes": [
+        "五月据本纪系去世月；病起、受命、病革、召归、翌日去世各有叙次，不共用推测日期。新史痟沿古代病名理解，不改写为现代诊断。"
       ]
     },
     {
       "id": "niu-cunjie-join",
       "title": "由诸葛爽军归朱温，获赐名",
-      "summary": "牛存节原名牛礼，先事诸葛爽，爽卒后择主归朱温，任宣义军小将，获赐姓名和字。",
+      "summary": "牛存节原名牛礼，先事诸葛爽，爽卒后择主归朱温，任宣义军小将，获赐名和字。",
       "year": null,
-      "sortOrder": 13,
+      "sortOrder": 20,
       "precision": "undated",
       "sourceDate": "乾符末从诸葛爽，爽卒后归梁，未标本传确年",
       "phase": "uncertain",
@@ -420,9 +836,9 @@
     {
       "id": "niu-cunjie-early-campaigns",
       "title": "金堤御蔡、刘桥范县败郓军",
-      "summary": "牛存节在金堤酸枣灵昌频繁迎击蔡军，参与板桥赤冈等役；在濮南刘桥、范县与诸将大败郓军，早期征战未逐役独年。",
+      "summary": "牛存节在金堤、酸枣、灵昌迎击蔡军，参与板桥、赤冈等役；新史另记破张晊两寨。在南刘桥、范县与诸将大败郓军，各役未独定年月。",
       "year": null,
-      "sortOrder": 14,
+      "sortOrder": 21,
       "precision": "undated",
       "sourceDate": "归朱温后早期征战，本传未逐役纪年",
       "phase": "uncertain",
@@ -433,6 +849,13 @@
           "originalRevision": 1,
           "originalSha256": "c2186f8c31e924a34a514a6c969849d2446cb620d051e0d5b6f3eb2b49edd311",
           "excerpt": "屬蔡寇至金堤驛，犯酸棗、靈昌，存節日與之鬥，凡二十餘往，每往必執俘而還，前後斬首二十餘級，獲孳畜甚眾。太祖擊蔡賊於板橋、赤岡、酸棗門、封禪寺、枯河北，存節皆預其行，與諸將於濮州南劉橋、範縣大破鄆眾，自此深為太祖獎遇。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p22",
+          "originalRevision": 1,
+          "originalSha256": "bb49c795028218c1fa570a10e045eba2f1eb615840c81d03c2b22b3dc31ebf43",
+          "excerpt": "張晊攻汴，存節破其二寨。梁攻濮州，戰南劉橋、范縣，存節功多。"
         }
       ]
     },
@@ -441,7 +864,7 @@
       "title": "先锋下黎阳临河，内黄破魏",
       "summary": "牛存节讨河北为先锋，攻下黎阳临河，在内黄以千余对魏万二千而破其阵；主传未单标此役年，兵数归原书。",
       "year": null,
-      "sortOrder": 15,
+      "sortOrder": 22,
       "precision": "undated",
       "sourceDate": "河阳援役后接叙讨河北，未独纪年",
       "phase": "uncertain",
@@ -483,9 +906,9 @@
       "title": "改滑州左右厢牢城使",
       "summary": "牛存节大顺元年改滑州左右厢牢城使，后仍与诸将讨时溥；军职与景福改遏后分开。",
       "year": null,
-      "sortOrder": 16,
+      "sortOrder": 23,
       "precision": "range",
-      "sourceDate": "大顺元年，合法全年890年1月25日至891年2月12日，任职未独月",
+      "sourceDate": "大顺元年，未独月，西历890—891年。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -499,14 +922,69 @@
       "yearRange": {
         "start": 890,
         "end": 891
+      },
+      "notes": [
+        "旧史分别记大顺元年左右厢牢城使与景福元年遏后都指挥使；新史合写“滑州牢城遏后指挥使”，保留原书差别。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-gongbu-appointment",
+      "title": "授检校工部尚书",
+      "summary": "旧本传记牛存节乾宁二年授检校工部尚书。",
+      "year": null,
+      "sortOrder": 24,
+      "precision": "range",
+      "sourceDate": "乾宁二年，未独月，西历895—896年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p9",
+          "originalRevision": 1,
+          "originalSha256": "4658be5554c23e4fd2184f3472f61b115e70cbf3d6cd2218766407fd228b0d9f",
+          "excerpt": "乾寧二年，授檢校工部尚書。"
+        }
+      ],
+      "notes": [
+        "本传仅载年号与年次，未载任职月日。"
+      ],
+      "yearRange": {
+        "start": 895,
+        "end": 896
       }
+    },
+    {
+      "id": "niu-cunjie-bo-su-appointments",
+      "title": "历亳州、宣武军与宿州职",
+      "summary": "旧传记五年任亳州刺史，随后宣武军都指挥使、宿州刺史；新传简记亳、宿二州刺史。",
+      "year": null,
+      "sortOrder": 25,
+      "precision": "undated",
+      "sourceDate": "旧传乾宁四年后叙五年，未独月；新传未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p10",
+          "originalRevision": 1,
+          "originalSha256": "2dc285d0445a156d509beb5979ca4afc9da096d8229b44ad7b5d24b98acd86c3",
+          "excerpt": "五年，除亳州刺史，俄遷宣武軍都指揮使，改宿州刺史。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p23",
+          "originalRevision": 1,
+          "originalSha256": "87c547c540849df1c0df240f24705a364934d2da89feb8e1aa7ef99685c4e9ce",
+          "excerpt": "拜亳、宿二州刺史。"
+        }
+      ]
     },
     {
       "id": "niu-cunjie-xuzhou-relief",
       "title": "夜赴徐州，迫淮军退去",
       "summary": "牛存节任亳、宿州职后，淮军来攻徐州，他夜率兵急赴，敌军惊其迅速而撤退。",
       "year": null,
-      "sortOrder": 17,
+      "sortOrder": 26,
       "precision": "undated",
       "sourceDate": "旧史五年任州职后的明年，纪年衔接未独标年号",
       "phase": "uncertain",
@@ -517,17 +995,53 @@
           "originalRevision": 1,
           "originalSha256": "2dc285d0445a156d509beb5979ca4afc9da096d8229b44ad7b5d24b98acd86c3",
           "excerpt": "五年，除亳州刺史，俄遷宣武軍都指揮使，改宿州刺史。明年，淮賊大至彭城，存節乃以部下兵夜發，直趣彭門；淮人訝其神速，震恐而退，諸將服其智識。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p23",
+          "originalRevision": 1,
+          "originalSha256": "87c547c540849df1c0df240f24705a364934d2da89feb8e1aa7ef99685c4e9ce",
+          "excerpt": "朱瑾走吳，召吳兵攻徐、宿，存節謀曰：「淮兵必不先攻宿，然宿溝壘素固，可以禦敵。」乃夜以兵急趣徐州，比傅徐城下，瑾兵方至，望其塵起，驚曰：「梁兵已來，何其速也！」不能攻而去。已而太祖使者至，授存節軍機，悉與存節意合，由是諸將益服其能。"
         }
+      ],
+      "notes": [
+        "此役为抵御朱瑾所引淮军；不同于景福二年攻时溥与乾化四年讨蒋殷。本传五年—明年承接暂不据推算强定西历年。"
       ]
+    },
+    {
+      "id": "niu-cunjie-leftya-return",
+      "title": "罢州任归，复左衙与马步教练",
+      "summary": "旧本传记光化二年罢归，再任左衙都将兼马步教练使。",
+      "year": null,
+      "sortOrder": 27,
+      "precision": "range",
+      "sourceDate": "光化二年，未独月，西历899—900年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p11",
+          "originalRevision": 1,
+          "originalSha256": "45b3ce211fc42193ccf5603386b5d7fe8e634dd74f4c0b096491af7c507e03bd",
+          "excerpt": "光化二年，罷歸，復為左衙都將兼馬步教練使。"
+        }
+      ],
+      "notes": [
+        "本传仅载年号与年次，未载任职月日。"
+      ],
+      "yearRange": {
+        "start": 899,
+        "end": 900
+      }
     },
     {
       "id": "niu-cunjie-lu-appointment",
       "title": "授潞州马步都指挥",
       "summary": "牛存节天复元年任潞州马步都指挥，军法严整，军民安定；后召转滑邢的不同职务另列。",
       "year": null,
-      "sortOrder": 18,
+      "sortOrder": 28,
       "precision": "range",
-      "sourceDate": "天复元年，合法纪年901年4月22日至902年2月10日，任职未独月",
+      "sourceDate": "天复元年，未独月，西历901—902年。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -548,7 +1062,7 @@
       "title": "召离潞州，改滑职知邢州",
       "summary": "牛存节被召赴行在，潞州士卒哭送，后加司空、改滑州左衙步军指挥，知邢州军州事；这组后续变职未独记日期。",
       "year": null,
-      "sortOrder": 19,
+      "sortOrder": 29,
       "precision": "undated",
       "sourceDate": "天复元年授潞后、天祐元年授邢团练前，未独纪年",
       "phase": "uncertain",
@@ -559,17 +1073,27 @@
           "originalRevision": 1,
           "originalSha256": "45b3ce211fc42193ccf5603386b5d7fe8e634dd74f4c0b096491af7c507e03bd",
           "excerpt": "及追赴行在，士卒泣送者不絕於道，加金紫光祿大夫、檢校司空，改滑州左衙步軍指揮使，知邢州軍州事。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p23",
+          "originalRevision": 1,
+          "originalSha256": "87c547c540849df1c0df240f24705a364934d2da89feb8e1aa7ef99685c4e9ce",
+          "excerpt": "遷潞州都指揮使。太祖攻鳳翔，使召存節。存節為將，法令嚴整而善得士心，潞人送者皆號泣。"
         }
+      ],
+      "notes": [
+        "新史联系朱温攻凤翔时召牛存节，旧史未单记召还年月；不把后续知邢州一概染为天复元年。"
       ]
     },
     {
       "id": "niu-cunjie-xingzhou",
       "title": "少兵守邢州，以私财赏军",
-      "summary": "牛存节授邢州团练使，州兵仅二百，得朱温援军后率兵拒晋军、私财赏激，七日守住。",
+      "summary": "牛存节授邢州团练使，州兵仅二百，得朱温援军后率兵拒晋军、以私财赏激，七日守住。本传继叙当年冬罢军，任元帅府左都押衙。",
       "year": null,
-      "sortOrder": 20,
+      "sortOrder": 30,
       "precision": "range",
-      "sourceDate": "天祐元年，继承年号至905年2月6日，授邢及七日守城未独月",
+      "sourceDate": "本传天祐元年授邢及七日守城，未独月，西历904—905年；继叙同年冬罢军任元帅府左都押衙。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -578,19 +1102,56 @@
           "originalRevision": 1,
           "originalSha256": "45b3ce211fc42193ccf5603386b5d7fe8e634dd74f4c0b096491af7c507e03bd",
           "excerpt": "天祐元年，授邢州團練使。時州兵才及二百人，晉人知之，以大軍來寇。太祖在鄴，發長直兵二千人赴援，存節率壯健出鬥，以家財賞激戰士，並軍急攻，七日不能克而去。太祖召至，勞慰久之，厚賚金帛鞍馬，加檢校司徒。"
+        },
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p11",
+          "originalRevision": 1,
+          "originalSha256": "45b3ce211fc42193ccf5603386b5d7fe8e634dd74f4c0b096491af7c507e03bd",
+          "excerpt": "太祖召至，勞慰久之，厚賚金帛鞍馬，加檢校司徒。冬，罷軍，署為元帥府左都押衙。"
         }
       ],
       "yearRange": {
         "start": 904,
         "end": 905
-      }
+      },
+      "notes": [
+        "本传天祐元年授邢及守城，仍按本书保存；旧梁纪天祐三年四月后的守邢与武皇纪同年正月青山口另列，现有证据不足以确认三段只是一役的误年。",
+        "冬罢军、任左都押衙是本传随后记载，不是七日守城同日的任命。"
+      ]
+    },
+    {
+      "id": "niu-cunjie-taifu-duke",
+      "title": "加检校太傅，进封开国公",
+      "summary": "牛存节本传记乾化二年加检校太傅、进封开国公，未独载授命月份及施命者。",
+      "year": null,
+      "sortOrder": 31,
+      "precision": "range",
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      },
+      "sourceDate": "乾化二年，未独月，西历912—913年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v022",
+          "paragraphId": "old-v022-p13",
+          "originalRevision": 1,
+          "originalSha256": "268285ffe15b78bb4f241da3864d4e43f380a9c3afa21427d3e4d7e72deca1f1",
+          "excerpt": "乾化二年，加檢校太傅，進封開國公。"
+        }
+      ],
+      "notes": [
+        "授官与进爵有明确记载；本段没有指明由朱温或朱友珪授命，不能只据年号归定施命者。"
+      ]
     },
     {
       "id": "niu-cunjie-wells",
       "title": "遭晋岐合围，凿井维持守城",
       "summary": "牛存节守同州，面对晋、岐合围，选地凿八十余井解决咸水缺饮问题，军民坚持至次年春敌退。",
       "year": null,
-      "sortOrder": 21,
+      "sortOrder": 32,
       "precision": "range",
       "sourceDate": "乾化二年八月至三年春末，跨912—913",
       "phase": "uncertain",
@@ -604,21 +1165,38 @@
         }
       ],
       "notes": [
-        "祈祷、至诚感通属于书中解释，摘要只记凿井与守城，不将神异作确定因果。"
+        "祈祷、至诚感通属于书中解释，摘要只记凿井与守城，不将神异作确定因果。",
+        "此为牛存节守同州；奉朱友珪攻河中另列。二事不可合成一次“救河中”。"
       ],
       "yearRange": {
         "start": 912,
         "end": 913
-      }
+      },
+      "variants": [
+        {
+          "label": "新史朱友谦与岐兵围同",
+          "sourceDate": "朱友珪即位后，未独记月",
+          "summary": "新史明确朱友谦联合岐兵久围同州，记水咸而无井、凿井八十；旧史记既有井水咸苦、凿八十余井。朱友谦始终未攻下。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p25",
+              "originalRevision": 1,
+              "originalSha256": "f6a07c22782ef3f63d521463e65bece8966cd878c9667d8fe32ebdfb554f5fcd",
+              "excerpt": "友珪立，朱友謙叛附于晉，西連鳳翔，存節東西受敵。同州水鹹而無井，知俊叛梁，以渴不能守而走，故友謙與岐兵合圍持久，欲以渴疲之，存節禱而擇地鑿井八十，水皆甘可食，友謙卒不能下。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "niu-cunjie-huai-command",
       "title": "任淮南西北招讨，控制淮岸",
       "summary": "牛存节乾化四年加淮南西北面行营招讨，控制淮河沿岸，随后徐州出征另列。",
       "year": null,
-      "sortOrder": 22,
+      "sortOrder": 33,
       "precision": "range",
-      "sourceDate": "乾化四年，合法全年914年1月29日至915年1月17日，授招讨未独月",
+      "sourceDate": "乾化四年，未独月，西历914—915年。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -639,9 +1217,9 @@
       "title": "密报蒋殷叛谋，与刘鄩出征",
       "summary": "牛存节戍颍州得蒋殷叛谋密报，奉命与刘鄩讨徐；朱瑾来援闻牛大军而弃甲退，次春城破另列。",
       "year": null,
-      "sortOrder": 23,
+      "sortOrder": 34,
       "precision": "range",
-      "sourceDate": "乾化四年冬，十二月合法跨914年12月20日至915年1月18日；刘鄩本传九月另列",
+      "sourceDate": "牛存节旧传作乾化四年冬；新史本纪列夏四月后，旧梁纪、刘鄩传及通鉴记九月出师；通鉴十月迎击吴援",
       "phase": "uncertain",
       "evidence": [
         {
@@ -681,12 +1259,63 @@
             }
           ],
           "year": 914
+        },
+        {
+          "label": "新史本纪夏四月叙次",
+          "sourceDate": "乾化四年夏四月丁丑之后，未独给牛出师日",
+          "summary": "新史将蒋殷反、牛存节讨之接在夏四月丁丑贬于兢后；不把丁丑当作牛出师日。",
+          "evidence": [
+            {
+              "chapterId": "new-v03",
+              "paragraphId": "new-v03-p11",
+              "originalRevision": 1,
+              "originalSha256": "2a3cf57e9d6ba7c0d5342cc2d2cb6e2a005abdba36313c0a487b0ff3e6cc2ada",
+              "excerpt": "四年夏四月丁丑，貶于兢為萊州司馬。武寧軍節度使蔣殷反，天平軍節度使牛存節討之。"
+            }
+          ]
+        },
+        {
+          "label": "通鉴九月出师、十月宿州迎击",
+          "sourceDate": "乾化四年九月、十月",
+          "summary": "通鉴九月命牛、刘讨徐，十月军宿州并迎击朱瑾救军；牛传记驻埇上、朱瑾距宿两舍闻军而退，各自保留。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v269",
+              "paragraphId": "tongjian-v269-p21",
+              "originalRevision": 1,
+              "originalSha256": "ff1181165e1d8219d3e9bbe6f3ce30cd0f6601b4805663735639a84c929fee11",
+              "excerpt": "九月，命淮南西北面招討應接使牛存節及開封尹劉鄩將兵討之。冬，十月，存節等軍於宿州。吳平盧節度使朱瑾等將兵救徐州，存節等逆擊，破之，吳兵引歸。"
+            }
+          ]
         }
       ],
       "yearRange": {
         "start": 914,
         "end": 915
       }
+    },
+    {
+      "id": "niu-cunjie-yanzhou-liuxun",
+      "title": "奉命讨兖，接纳房知温",
+      "summary": "房知温传记王师范遣刘鄩据兖州后，朱温命牛存节领军讨伐；牛接纳夜缒来奔的房知温，次夜房知温盗马回城。",
+      "year": null,
+      "sortOrder": 35,
+      "precision": "undated",
+      "sourceDate": "刘鄩据兖州时，所引原段未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v091",
+          "paragraphId": "old-v091-p2",
+          "originalRevision": 1,
+          "originalSha256": "7d545642f657cf193ea3d01f10bd24d8d7dd5750798d891efd76d0f6d63d0829",
+          "excerpt": "及王師範遣劉鄩據兗州，梁祖命存節將兵討之，知溫夕縋出奔，存節喜而納焉。明夜，竊良馬一駟，復入城，鄩乃擢為裨將。"
+        }
+      ],
+      "notes": [
+        "不把刘鄩后来投降直接写成牛独自攻克；此时牛、刘敌对，后来同讨刘知俊与蒋殷分别记述。",
+        "这是房知温传的未纪年补记，列于主传未定条目之后便于阅读；排列不表示它发生在这些事件之后，也不据此推定年月。"
+      ]
     }
   ]
 }
