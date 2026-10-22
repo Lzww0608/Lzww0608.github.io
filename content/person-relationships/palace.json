@@ -8428,5 +8428,49 @@
         "excerpt": "頵要盟於镠，镠遍召諸子問之曰：「誰能為吾為田氏之婿者？」例有難色，時元瓘年十六，進曰：「惟大王之命。」由是就親於宣州。"
       }
     ]
+  },
+  {
+    "id": "wu-li-shenfu-unnamed-wife-spouses",
+    "from": "wu-li-shenfu",
+    "to": "wu-li-shenfu-wife-unnamed",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "两书均明记李神福妻儿被田頵劫持；不补姓名、婚期或所生子女。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p9",
+        "originalRevision": 1,
+        "originalSha256": "31fe3f2a8f75649c6305f7746e111e205bbc696c03a30687252523f4e54cb78f",
+        "excerpt": "田頵叛，襲昇州，執李神福妻子歸于宣州。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "頵攻昇州，刼神福妻息，厚養之。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-shenfu-chengding-father-son",
+    "from": "wu-li-shenfu",
+    "to": "wu-li-shenfu-son-chengding",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "本段明确称神福子承鼎，未另分生养关系，也未说明他是否为被劫妻子所生。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 61 · 吴世家第一",
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p9",
+        "originalRevision": 1,
+        "originalSha256": "31fe3f2a8f75649c6305f7746e111e205bbc696c03a30687252523f4e54cb78f",
+        "excerpt": "行至吉陽磯，頵執神福子承鼎以招之，神福叱左右射之，遂敗壇兵于吉陽。"
+      }
+    ]
   }
 ]

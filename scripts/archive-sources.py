@@ -327,6 +327,18 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+# Source-bound H68 Li Shenfu household records only; preserve old specs and unrelated source bytes.
+for chapter_id, added_subjects in {
+    "new-v61": [
+        "wu-li-shenfu-wife-unnamed"
+    ],
+    "shiguochunqiu-v013": [
+        "wu-li-shenfu-wife-unnamed"
+    ]
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
     'zhu-yougui': ['朱友珪', '友珪'],
