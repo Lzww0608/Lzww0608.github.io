@@ -338,22 +338,31 @@ test('cancellation before or during navigation cannot return an older comparison
   assert.ok(urls.every(url => url.startsWith('https://api.example')));
 });
 
-test('chapter loading is concurrent, bounded, and its resolution order does not alter the snapshot', async () => {
+test('chapter loading is concurrent, bounded, and its resolution order does not alter the snapshot', { timeout: 10000 }, async () => {
   const selected = [...allChapters.filter(chapter => chapter.bookId === 'old').slice(0, 6), newChapter, chapters.get('tongjian-v267')];
   const many = structuredClone(document);
   many.sources = selected.map(chapter => reference(chapter, chapter.paragraphs[0]));
   many.stages[0].sourceIds = many.sources.map(source => source.id);
   many.differences = [];
-  let active = 0, maximum = 0;
+  let active = 0, maximum = 0, requested = 0, receivedFirstWave, receivedSecondWave;
+  const firstWave = new Promise(resolve => { receivedFirstWave = resolve; });
+  const secondWave = new Promise(resolve => { receivedSecondWave = resolve; });
   const pending = [];
   const reading = readEventComparison({ ...options(), document: many, apiBase: 'https://api.example', fetcher: url => {
     active++; maximum = Math.max(maximum, active);
-    return new Promise(resolve => pending.push(() => { active--; resolve(responseFor(url)); }));
+    return new Promise(resolve => {
+      pending.push(() => { active--; resolve(responseFor(url)); });
+      requested++;
+      if (requested === 6) receivedFirstWave();
+      if (requested === selected.length) receivedSecondWave();
+    });
   } });
-  await new Promise(resolve => setImmediate(resolve));
+  await firstWave;
   assert.equal(pending.length, 6);
   pending.splice(0).reverse().forEach(resolve => resolve());
-  await new Promise(resolve => setImmediate(resolve));
+  await secondWave;
+  assert.equal(requested, 8);
+  assert.equal(pending.length, 2);
   pending.splice(0).reverse().forEach(resolve => resolve());
   const reversed = await reading;
   assert.equal(maximum, 6);

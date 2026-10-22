@@ -315,6 +315,18 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+# Source-bound H67 maternal records only; preserve old specs and unrelated source bytes.
+for chapter_id, added_subjects in {
+    "new-v67": [
+        "wu-tian-jun-mother-yin"
+    ],
+    "shiguochunqiu-v013": [
+        "wu-tian-jun-mother-yin"
+    ]
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
     'zhu-yougui': ['朱友珪', '友珪'],

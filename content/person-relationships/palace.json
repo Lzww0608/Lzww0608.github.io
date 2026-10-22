@@ -8338,5 +8338,95 @@
         "excerpt": "徐知詢，簡婿也"
       }
     ]
+  },
+  {
+    "id": "wu-tian-jun-yin-mother-son",
+    "from": "wu-tian-jun-mother-yin",
+    "to": "wu-tian-jun",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "本传明确称田頵母殷氏，未另分生母或养母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "始頵以傳瓘歸，戰不勝，輒欲殺之，賴頵母殷氏及頵婦弟郭從師護免。"
+      }
+    ]
+  },
+  {
+    "id": "wu-tian-jun-unnamed-wife-spouses",
+    "from": "wu-tian-jun",
+    "to": "wu-tian-jun-wife-unnamed",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "由郭从师为田頵妇弟的称谓辨认其妻，未补姓名、婚期或所生子女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "始頵以傳瓘歸，戰不勝，輒欲殺之，賴頵母殷氏及頵婦弟郭從師護免。"
+      }
+    ]
+  },
+  {
+    "id": "wu-tian-jun-wife-guo-congshi-siblings",
+    "from": "wu-tian-jun-wife-unnamed",
+    "to": "wu-guo-congshi",
+    "kind": "kinship",
+    "label": "姊弟",
+    "note": "郭从师称田頵妇弟；女方名讳未载，不据弟名补定其名。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "始頵以傳瓘歸，戰不勝，輒欲殺之，賴頵母殷氏及頵婦弟郭從師護免。"
+      }
+    ]
+  },
+  {
+    "id": "wu-tian-jun-guo-congshi-brother-in-law",
+    "from": "wu-tian-jun",
+    "to": "wu-guo-congshi",
+    "kind": "kinship",
+    "label": "姻亲（妻弟）",
+    "note": "保留原书妇弟所指姻亲关系；与田頵妻的姊弟关系分别登记。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p2",
+        "originalRevision": 1,
+        "originalSha256": "6e2ea9e9cafb271a626d98866bef9187b4069d79f53cd54614c9e411466103d3",
+        "excerpt": "始頵以傳瓘歸，戰不勝，輒欲殺之，賴頵母殷氏及頵婦弟郭從師護免。"
+      }
+    ]
+  },
+  {
+    "id": "qian-yuanguan-tian-family-marriage-role",
+    "from": "qian-yuanguan",
+    "to": "wu-tian-family-marriage-woman-role",
+    "kind": "kinship",
+    "label": "婚配记载",
+    "note": "旧史说元瓘愿为田氏之婿、随后就亲宣州。新史另记元瓘为质，不拼成确知同日成婚，也不据此确定田頵亲生女。",
+    "sources": [
+      {
+        "title": "《旧五代史》 · 卷 133 · 世袭列传（荆南、楚、吴越）",
+        "chapterId": "old-v133",
+        "paragraphId": "old-v133-p51",
+        "originalRevision": 1,
+        "originalSha256": "e8876ba66f7fbec38e4c70fc500710eeba6267e049888f304bf81aeebdd81965",
+        "excerpt": "頵要盟於镠，镠遍召諸子問之曰：「誰能為吾為田氏之婿者？」例有難色，時元瓘年十六，進曰：「惟大王之命。」由是就親於宣州。"
+      }
+    ]
   }
 ]
