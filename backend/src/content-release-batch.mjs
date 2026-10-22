@@ -12,6 +12,7 @@ import { importPersonPassages } from '../scripts/import-person-passages.mjs';
 import { importPersonTimelines } from '../scripts/import-person-timelines.mjs';
 import { importReviewItems } from '../scripts/import-review-items.mjs';
 import { applyReviewCorrections, validateReviewCorrectionBatch } from '../scripts/apply-review-corrections.mjs';
+import { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from './content-release-implementation.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release: ${message}`); };
 const checksum = value => typeof value === 'string' && /^[a-f0-9]{64}$/.test(value);
@@ -230,6 +231,10 @@ export async function publishContentRelease(client, frozen, { expectedDatabase, 
   if (allowFormal) check(checksum(baselineStateSha256) && verification?.verified === true && verification.fingerprint === frozen.fingerprint
     && verification.baselineDatabaseSha256 === baselineStateSha256 && verification.actualDumpRestoredForEveryAttempt === true
     && verification.formalDatabaseWritten === false && verification.success?.idempotent === true && faultAfter === null, 'formal publication requires actual isolated verification');
+  if (allowFormal) {
+    validateMilitaryReleaseQualification(c);
+    check(verification.implementation && digest(verification.implementation) === digest(releaseImplementationFingerprint()), 'verified implementation differs');
+  }
   check(faultAfter === null || releaseFaultStages.includes(faultAfter), 'unknown failure stage');
   const fail = stage => { if (faultAfter === stage) throw new Error(`Injected content release failure: ${stage}`); };
   await client.query('BEGIN ISOLATION LEVEL SERIALIZABLE');

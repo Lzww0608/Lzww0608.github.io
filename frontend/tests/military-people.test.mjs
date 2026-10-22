@@ -16,6 +16,7 @@ const paragraph = chapter.paragraphs.find(item => item.id === 'new-v22-p21');
 const sha = createHash('sha256').update(paragraph.original).digest('hex');
 const library = { chapters: [chapter] };
 const canonical = loadPassagePeople();
+const passageIndex = read('../../content/person-passages/index.json');
 
 test('military-topic-reuses-canonical-ids', () => {
   assert.equal(topic.id, 'military-people');
@@ -56,14 +57,14 @@ test('military qualification binds current continuous original and existing cano
   assert.equal(source.originalRevision, paragraph.revision);
   assert.equal(source.originalSha256, sha);
   assert.ok(paragraph.original.includes(source.excerpt));
-  assert.equal(validateMilitaryTopic(topic, library, canonical), topic);
+  assert.equal(validateMilitaryTopic(topic, library, canonical, passageIndex), topic);
 });
 
 test('military qualification rejects missing, unknown, duplicate and stale member evidence', () => {
   const invalid = (change, pattern) => {
     const copy = structuredClone(topic);
     change(copy);
-    assert.throws(() => validateMilitaryTopic(copy, library, canonical), pattern);
+    assert.throws(() => validateMilitaryTopic(copy, library, canonical, passageIndex), pattern);
   };
   invalid(copy => { copy.memberIds.push('niu-cunjie'); }, /duplicate member/i);
   invalid(copy => { copy.memberIds.push('unknown-person'); }, /unknown member/i);
@@ -75,4 +76,13 @@ test('military qualification rejects missing, unknown, duplicate and stale membe
   invalid(copy => { copy.memberServiceEvidence['niu-cunjie'][0].originalRevision += 1; }, /revision/i);
   invalid(copy => { copy.memberServiceEvidence['niu-cunjie'][0].excerpt = '乃率其徒歸梁太祖'; }, /excerpt/i);
   invalid(copy => { copy.relationshipSubject = '朱温'; }, /common commander|relationshipSubject/i);
+});
+
+test('a military member cannot borrow another reviewed person’s source span', () => {
+  const substitute = structuredClone(topic);
+  substitute.memberIds = ['li-sizhao'];
+  substitute.memberServiceEvidence = { 'li-sizhao': structuredClone(topic.memberServiceEvidence['niu-cunjie']) };
+  substitute.memberRelations = { 'li-sizhao': '李克用麾下' };
+  substitute.memberRelationshipSubjects = { 'li-sizhao': '李克用' };
+  assert.throws(() => validateMilitaryTopic(substitute, library, canonical, passageIndex), /association|attribution/i);
 });

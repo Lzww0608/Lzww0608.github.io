@@ -83,7 +83,9 @@ test('runner has no implicit write command and binds every importer/security inp
 
 test('military release qualification reads the frozen library and people', async () => {
   const { loadLibrary } = await import('../../content/library.mjs');
-  const content = { library: loadLibrary(), people: loadPassagePeople() };
+  const { loadPersonPassageIndex } = await import('../../content/person-passages.mjs');
+  const library = loadLibrary();
+  const content = { library, people: loadPassagePeople(), passageIndex: loadPersonPassageIndex(library) };
   assert.equal(validateMilitaryReleaseQualification(content).id, 'military-people');
   const stale = structuredClone(content);
   stale.library.chapters.find(chapter => chapter.id === 'new-v22').paragraphs.find(paragraph => paragraph.id === 'new-v22-p21').original += '异文';
@@ -91,6 +93,43 @@ test('military release qualification reads the frozen library and people', async
   const missingPerson = structuredClone(content);
   missingPerson.people = missingPerson.people.filter(person => person.id !== 'niu-cunjie');
   assert.throws(() => validateMilitaryReleaseQualification(missingPerson), /unknown member/);
+  const missingAttribution = structuredClone(content);
+  missingAttribution.passageIndex.passages.find(passage => passage.id === 'passage-new-v22-p21').people = [{ personId: 'zhu-wen', kind: 'record' }];
+  assert.throws(() => validateMilitaryReleaseQualification(missingAttribution), /association/);
+});
+
+test('direct formal publication rejects stale implementation and missing military attribution before BEGIN', async () => {
+  const { readFileSync } = await import('node:fs');
+  const sourceChapter = JSON.parse(readFileSync(new URL('../../content/five-dynasties/chapters/new-v22.json', import.meta.url), 'utf8'));
+  const sourceBook = { ...JSON.parse(readFileSync(new URL('../../content/five-dynasties/catalog.json', import.meta.url), 'utf8')).books.find(book => book.id === 'new'), defaultChapter: 'new-v22' };
+  const content = releaseFixture();
+  content.library.catalog.books.push(sourceBook);
+  content.library.chapters.push(sourceChapter);
+  content.passageIndex.coverage = { bookCount: 2, chapterCount: 2, paragraphCount: sourceChapter.paragraphs.length + 1 };
+  const cited = sourceChapter.paragraphs.find(paragraph => paragraph.id === 'new-v22-p21');
+  const attributed = { id: 'passage-new-v22-p21', chapterId: 'new-v22', title: '牛存节传',
+    spans: [{ paragraphId: cited.id, originalRevision: cited.revision, originalSha256: textHash(cited.original), start: 0, end: [...cited.original].length }],
+    people: [{ personId: 'niu-cunjie', kind: 'biography' }] };
+  content.passageIndex.passages.push(attributed);
+  const frozen = freezeContentRelease(content);
+  const baselineStateSha256 = 'a'.repeat(64);
+  const proof = { verified: true, fingerprint: frozen.fingerprint, baselineDatabaseSha256: baselineStateSha256,
+    actualDumpRestoredForEveryAttempt: true, formalDatabaseWritten: false, success: { idempotent: true }, implementation: { sha256: '0'.repeat(64) } };
+  let queryCount = 0;
+  const client = { query: async () => { queryCount++; throw new Error('BEGIN reached'); } };
+  const options = { expectedDatabase: 'ancient_history', allowFormal: true, baselineStateSha256, verification: proof };
+  await assert.rejects(publishContentRelease(client, frozen, options), /implementation/i);
+  assert.equal(queryCount, 0);
+
+  content.passageIndex.passages.pop();
+  const unattributed = freezeContentRelease(content);
+  const matchingProof = { ...proof, fingerprint: unattributed.fingerprint, implementation: releaseImplementationFingerprint() };
+  await assert.rejects(publishContentRelease(client, unattributed, { ...options, verification: matchingProof }), /association|attribution/i);
+  assert.equal(queryCount, 0);
+
+  const validProof = { ...matchingProof, fingerprint: frozen.fingerprint };
+  await assert.rejects(publishContentRelease(client, frozen, { ...options, verification: validProof }), /BEGIN reached/);
+  assert.equal(queryCount, 1, 'a valid proof reaches the transaction owner');
 });
 
 test('actual PostgreSQL batch rolls back every stage, publishes once and preserves old identities', async t => {

@@ -1,6 +1,6 @@
 // Explicit local administration. Never called by the public API or a scheduler.
 import pg from 'pg';
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname, relative, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { randomBytes } from 'node:crypto';
@@ -12,16 +12,13 @@ import { digest, sha256 } from '../src/backup-archive.mjs';
 import { verifyOwnerReviewPermissions } from '../src/owner-reviews.mjs';
 import { ensureOwnerReviewSchema } from './import-review-items.mjs';
 import { freezeContentRelease, validateContentRelease, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
-import { validateMilitaryTopic } from '../../content/military-people.mjs';
+import { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from '../src/content-release-implementation.mjs';
+export { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from '../src/content-release-implementation.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release runner: ${message}`); };
 const same = (a, b, message) => check(digest(a) === digest(b), message);
 const quote = value => `"${value.replaceAll('"', '""')}"`;
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
-export function validateMilitaryReleaseQualification(content) {
-  const topic = read(new URL('../../content/five-dynasties/military-people.json', import.meta.url));
-  return validateMilitaryTopic(topic, content.library, content.people);
-}
 function privateOutput(path) {
   const output = resolve(path), rel = relative(localDir, output);
   check(rel && !rel.startsWith('..') && !rel.startsWith('/'), 'receipts and private drafts must stay inside backend/.local');
@@ -32,27 +29,6 @@ function privateOutput(path) {
 function put(path, value) {
   const output = privateOutput(path);
   writeFileSync(output, JSON.stringify(value, null, 2) + '\n', { mode: 0o600, flag: 'wx' });
-}
-
-// The exact source and security validators used by verification must remain the
-// same at formal publication. Public generated copies are deliberately absent.
-export function releaseImplementationFingerprint() {
-  const paths = ['scripts/release-content-batch.mjs', 'src/content-release-batch.mjs', 'scripts/import-library.mjs',
-    'scripts/import-translations.mjs', 'scripts/publish-ai-batch.mjs', 'scripts/apply-review-corrections.mjs', 'scripts/import-sentence-translations.mjs',
-    'scripts/import-person-passages.mjs', 'scripts/import-person-timelines.mjs', 'scripts/import-review-items.mjs', 'src/translation-batch.mjs', 'src/owner-reviews.mjs',
-    'src/backup-archive.mjs', '../content/person-passages.mjs', '../content/person-timelines.mjs', '../content/military-people.mjs', '../content/sentence-translations.mjs',
-    '../content/owner-review-subjects.json', '../frontend/src/sentence-alignment.ts',
-    ...['001-initial', '002-translation-metadata', '003-translation-editor', '004-person-passages', '005-sentence-translations', '006-owner-reviews', '007-person-timelines', '008-owner-review-subjects'].map(p => `db/${p}.sql`)];
-  // IDs/names alone do not freeze aliases, biography wording or graph claims.
-  // Include all source registries, including newly added topic/relationship
-  // files. Generated exports and post-publication sentence indexes stay out.
-  for (const directory of ['../content/five-dynasties', '../content/person-relationships']) {
-    for (const file of readdirSync(new URL(`../${directory}/`, import.meta.url)).filter(f => f.endsWith('.json')).sort()) paths.push(`${directory}/${file}`);
-  }
-  paths.push('../content/person-passages/rules.json', '../content/person-passages/verified-attributions.json',
-    '../frontend/src/person-catalog.ts', '../frontend/src/types.ts', '../frontend/src/relationships.ts');
-  const files = Object.fromEntries(paths.map(path => [path, sha256(readFileSync(new URL(`../${path}`, import.meta.url)))]));
-  return { files, sha256: digest(files) };
 }
 
 export async function verifyContentReleaseFromDump(frozen, dumpFile, { config = loadConfig(), progress = () => {} } = {}) {

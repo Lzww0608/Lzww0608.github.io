@@ -14,12 +14,12 @@ import { writePersonSearchNames } from './person-search-names.mjs';
 import { checkMilitaryPeople } from '../../scripts/check-military-people.mjs';
 
 const library = loadLibrary();
-checkMilitaryPeople(library);
 const { catalog } = library;
 const chapters = loadPublishedChapters(library);
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-sentence-alignments.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 execFileSync(process.execPath,[fileURLToPath(new URL('../../scripts/index-person-passages.mjs',import.meta.url)),'--check'],{stdio:'inherit'});
 const passages = loadPersonPassageIndex(library);
+checkMilitaryPeople(library, passages);
 writePersonSearchNames(passages.people);
 const timelines = loadPersonTimelines(library);
 validateTimelineCoverage(timelines);
