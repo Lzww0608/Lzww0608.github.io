@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-zhu-jin-wife-tao",
+  "events": [
+    {
+      "id": "wu-zhu-jin-wife-tao-appeared-to-greet-xu-zhixun",
+      "year": null,
+      "sourceDate": "朱瑾辞别宴接待徐知训的叙事；女方出拜未独记日",
+      "title": "在朱瑾堂中出拜徐知训",
+      "summary": "《资治通鉴》记朱瑾引徐知训进入中堂，妻陶氏出来拜见。出拜是陶氏的可核行动，原文没有说她知谋或参与杀人。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p38",
+          "originalRevision": 1,
+          "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+          "excerpt": "瑾因延之中堂，伏壯士於戶內，出妻陶氏拜之。知訓答拜，瑾以笏自後擊之踣地，呼壯士出斬之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p3",
+          "originalRevision": 1,
+          "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+          "excerpt": "知訓喜，瑾延之升堂，呼其妻出拜。知訓方答拜，瑾以笏擊踣之，伏兵自户突出，殺之。"
+        }
+      ],
+      "variants": [
+        {
+          "evidence": [
+            {
+              "chapterId": "old-v013",
+              "paragraphId": "old-v013-p6",
+              "originalRevision": 1,
+              "originalSha256": "f7555e3cdde44932ef26a1ca3b17fed639ddc6fff06ab10ba622f003e6d2026e",
+              "excerpt": "愛妓桃氏，有絕色，善歌舞。"
+            },
+            {
+              "chapterId": "old-v013",
+              "paragraphId": "old-v013-p6",
+              "originalRevision": 1,
+              "originalSha256": "f7555e3cdde44932ef26a1ca3b17fed639ddc6fff06ab10ba622f003e6d2026e",
+              "excerpt": "瑾即延知訓於中堂，出桃氏，酒既醉，瑾斬知訓首，示其部下。"
+            }
+          ],
+          "label": "旧史爱妓桃氏的同宴叙法",
+          "sourceDate": "旧史贞明四年六月出镇/宴事叙次，女方未独记日",
+          "summary": "《旧五代史》同一宴席位置记出爱妓桃氏，未记她出拜，不将桃氏自动认作陶氏别名。"
+        }
+      ],
+      "notes": [
+        "本条以通鉴的妻陶氏及春秋随后陶氏记载相参，保旧史桃氏/爱妓叙法；不由同宴位置唯一归并或拆人。",
+        "女方出拜未独记年月日，不用朱瑾外调或官员任命日替代。"
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 0
+    },
+    {
+      "id": "wu-zhu-jin-wife-tao-wept-and-went-to-execution",
+      "year": null,
+      "sourceDate": "朱瑾死后族瑾家的叙事；女方未独记年月日",
+      "title": "临刑受劝后收泪就戮",
+      "summary": "《十国春秋》记朱瑾家属受诛，陶氏临刑哭泣，妾说将要见到朱公；陶氏收住眼泪，欣然就戮。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p3",
+          "originalRevision": 1,
+          "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+          "excerpt": "徐知誥在潤州，聞亂，以兵趣廣陵，族瑾家。瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+        }
+      ],
+      "notes": [
+        "此处收泪、就戮的施事为陶氏，不能平移给说话的妾；不把史书语气当网站贞烈评判。",
+        "春秋此句叙徐知诰族瑾家，通鉴另承徐温记灭族，处置施事分源，不补唯一发令链。",
+        "与早年为尼的失名朱瑾妻缺连续身份桥，不将两人的经历合并。"
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 1
+    }
+  ]
+}

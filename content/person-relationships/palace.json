@@ -8788,5 +8788,163 @@
         "excerpt": "自洪州覲金陵，南唐先主遣內夫人逆勞于道，百官斑謁于都門。"
       }
     ]
+  },
+  {
+    "id": "wu-zhu-jin-wife-tao-marriage",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "kinship",
+    "label": "夫妻（淮南陶氏记载）",
+    "note": "按妻陶氏出拜及临刑记载限定；不因此替早年被纳为尼的妻填姓或断两者必不同人。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "瑾因延之中堂，伏壯士於戶內，出妻陶氏拜之。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
+  },
+  {
+    "id": "wu-tao-ya-tao-father-daughter",
+    "from": "wu-tao-ya",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "标准“传阳公雅”参同书四库“浔阳公雅”及陶雅封浔阳公记载辨认，不补母系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "陶，故傳陽公雅之女也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-comforting-concubine-kinship",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-concubine-comforting-tao",
+    "kind": "kinship",
+    "label": "妾室（临刑劝语记载）",
+    "note": "只以本段其妾劝陶氏的称谓定位，不将她并入其他未名妾妓，也不推其生育关系或结局。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-qi-daughter-marriage-role",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-qi-kerang-daughter-marriage-source-role",
+    "kind": "kinship",
+    "label": "亲迎婚配记载",
+    "note": "来源限定婚配角色，不证明另有一位与早年为尼妻或淮南陶氏不同的自然妻子，也不将攻城行为赋予女方。",
+    "sources": [
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p4",
+        "title": "《旧五代史》 · 卷 13 · 梁列传",
+        "originalRevision": 1,
+        "originalSha256": "3f7914c9e0d432e41522a6b27f5aed2444760dba96d3305a6bfe9550f96e9daa",
+        "excerpt": "光啟中，瑾與兗州節度使齊克讓婚，瑾自鄆盛飾車服，私藏兵甲，以赴禮會。親迎之夜，甲士竊發，擄克讓，自稱留後。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "兗州節度使齊克讓其爲人，以女妻之。瑾行親迎，乃選壯士爲輿夫，伏兵於輿中，夜至兗，兵發，遂鹵克讓，自稱留後。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-envoy-concubine-role-record",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-envoy-concubine-source-role",
+    "kind": "service",
+    "label": "遣候记载",
+    "note": "表示朱瑾派遣通问的来源联系，不据家妓或爱妾的称谓断人数；被侵意图/强通及归诉分别按各书，不把同役其他女子合并。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "平盧節度使、同平章事、諸道副都統朱瑾遣家妓通候問於知訓，知訓強欲私之，瑾已不平。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "常以月旦遣愛妾候知訓，知訓強通之，妾歸自訴，瑾殊不平，屢勸高祖誅徐氏以去國患，高祖不能爲。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-farewell-singer-role-record",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-farewell-singer-source-role",
+    "kind": "service",
+    "label": "命献歌记载",
+    "note": "表示辞别宴中命宠妓歌唱的来源联系，不据此增已证婚配或把桃氏、陶氏当作别名。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "寵妓有絕色。知訓過別瑾，瑾置酒，自捧觴，出寵妓使歌，以所愛馬為壽，知訓大喜。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "明日，知訓過瑾謝，瑾復置酒自捧觴，命寵妓以歌侑酒，且獻所愛馬爲壽。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-concubine-comforting-tao-service",
+    "from": "wu-zhu-jin-concubine-comforting-tao",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "service",
+    "label": "临刑劝慰",
+    "note": "只记妾对陶氏的临刑劝语；陶氏收泪就戮的动作不移给劝语者，不补她的具体死法或确日。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
   }
 ]

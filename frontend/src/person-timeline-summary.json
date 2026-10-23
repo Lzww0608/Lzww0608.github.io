@@ -789,7 +789,7 @@
     },
     {
       "personId": "hu-gui",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
         "hu-gui-join",
         "hu-gui-court",
@@ -799,7 +799,8 @@
         "hu-gui-qiazhou-palace",
         "hu-gui-xiangzhou",
         "hu-gui-cangzhou",
-        "hu-gui-death"
+        "hu-gui-death",
+        "hu-gui-zhu-jin-feigned-surrender"
       ]
     },
     {
@@ -1362,7 +1363,7 @@
     },
     {
       "personId": "li-chengsi",
-      "eventCount": 11,
+      "eventCount": 12,
       "eventIds": [
         "li-chengsi-death-chu",
         "li-chengsi-guanzhong-vanguard",
@@ -1374,7 +1375,8 @@
         "li-chengsi-aid-yanyun",
         "li-chengsi-isolated-from-hedong",
         "li-chengsi-huainan-qingkou",
-        "li-chengsi-chuzhou"
+        "li-chengsi-chuzhou",
+        "li-chengsi-acting-huainan-office"
       ]
     },
     {
@@ -1719,7 +1721,7 @@
     },
     {
       "personId": "li-keyong",
-      "eventCount": 26,
+      "eventCount": 27,
       "eventIds": [
         "li-keyong-birth",
         "li-keyong-youth-campaign",
@@ -1746,7 +1748,8 @@
         "li-keyong-refuse-liang",
         "li-keyong-rescue-luzhou",
         "li-keyong-death-and-succession",
-        "li-keyong-posthumous-emperor"
+        "li-keyong-posthumous-emperor",
+        "li-keyong-request-li-chengsi-return"
       ]
     },
     {
@@ -2358,7 +2361,7 @@
     },
     {
       "personId": "liu-han",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "liu-han-recruit",
         "liu-han-zhen-ding",
@@ -2371,7 +2374,8 @@
         "liu-han-bridges",
         "liu-han-report",
         "liu-han-ze-relief",
-        "liu-han-honor"
+        "liu-han-honor",
+        "liu-han-escort-zhu-qiong"
       ]
     },
     {
@@ -3133,7 +3137,7 @@
     },
     {
       "personId": "shi-shucong",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "shi-shucong-taiyuan",
         "shi-shucong-puxian",
@@ -3142,18 +3146,20 @@
         "shi-shucong-early",
         "shi-shucong-demotion",
         "shi-shucong-fubao",
-        "shi-shucong-burial"
+        "shi-shucong-burial",
+        "shi-shucong-zhao-bi-sui"
       ]
     },
     {
       "personId": "shi-yan",
-      "eventCount": 5,
+      "eventCount": 6,
       "eventIds": [
         "shi-yan-early-cavalry",
         "shi-yan-protect-shimen",
         "shi-yan-aid-yanyun",
         "shi-yan-huainan",
-        "shi-yan-death-guangling"
+        "shi-yan-death-guangling",
+        "shi-yan-chuzhou-appointment"
       ]
     },
     {
@@ -4525,6 +4531,21 @@
       ]
     },
     {
+      "personId": "wu-zhu-jin-concubine-comforting-tao",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-zhu-jin-concubine-comforting-tao-comforted-tao-before-execution"
+      ]
+    },
+    {
+      "personId": "wu-zhu-jin-wife-tao",
+      "eventCount": 2,
+      "eventIds": [
+        "wu-zhu-jin-wife-tao-appeared-to-greet-xu-zhixun",
+        "wu-zhu-jin-wife-tao-wept-and-went-to-execution"
+      ]
+    },
+    {
       "personId": "xia-luqi",
       "eventCount": 9,
       "eventIds": [
@@ -4641,7 +4662,7 @@
     },
     {
       "personId": "yang-longyan",
-      "eventCount": 10,
+      "eventCount": 12,
       "eventIds": [
         "yang-longyan-accession",
         "yang-longyan-xu-control",
@@ -4652,7 +4673,9 @@
         "yang-longyan-li-yu",
         "yang-longyan-wu-title",
         "yang-longyan-hostage-mutiny",
-        "yang-longyan-commission-liu-xin-qianzhou"
+        "yang-longyan-commission-liu-xin-qianzhou",
+        "yang-longyan-peng-yanzhang-family-support",
+        "yang-longyan-lei-yangong-deputy"
       ]
     },
     {
@@ -4712,7 +4735,7 @@
     },
     {
       "personId": "yang-xingmi",
-      "eventCount": 15,
+      "eventCount": 18,
       "eventIds": [
         "yang-xingmi-first-yangzhou",
         "yang-xingmi-retreat-luzhou",
@@ -4728,7 +4751,10 @@
         "yang-xingmi-king-of-wu",
         "yang-xingmi-qingzhou-and-tianjun",
         "yang-xingmi-an-renyi-revolt",
-        "yang-xingmi-zhu-yanshou"
+        "yang-xingmi-zhu-yanshou",
+        "yang-xingmi-receive-feng-hongduo",
+        "yang-xingmi-receive-zhao-kuangning",
+        "yang-xingmi-li-yan-zhichi-court"
       ]
     },
     {
@@ -5295,7 +5321,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 148,
+      "eventCount": 150,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -5444,7 +5470,9 @@
         "zhu-wen-he-empress-killed",
         "zhu-wen-changlu-withdraw",
         "zhu-wen-shengping",
-        "zhu-wen-adopt-li-rang"
+        "zhu-wen-adopt-li-rang",
+        "zhu-wen-zhang-jun-changshui",
+        "zhu-wen-lu-guangchou-baisheng"
       ]
     },
     {

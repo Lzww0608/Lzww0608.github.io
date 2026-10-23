@@ -13,6 +13,10 @@
     {
       "title": "《新五代史》卷13 · 梁家人传",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B713"
+    },
+    {
+      "title": "《十国春秋》 · 卷 8",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
     }
   ],
   "memberIds": [
@@ -244,7 +248,9 @@
     "wu-li-decheng-wife-yang",
     "wu-li-decheng-daughter-jingda-wife",
     "wu-li-decheng-daughter-liu-chongjun-first-wife",
-    "wu-li-decheng-daughter-liu-chongjun-later-wife"
+    "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "wu-zhu-jin-wife-tao",
+    "wu-zhu-jin-concubine-comforting-tao"
   ],
   "people": [
     {
@@ -483,7 +489,8 @@
       "readingStarts": {
         "beimeng": "beimeng-v017",
         "new": "new-v13",
-        "old": "old-v011"
+        "old": "old-v011",
+        "shiguochunqiu": "shiguochunqiu-v008"
       },
       "sources": [
         {
@@ -497,6 +504,10 @@
         {
           "title": "《旧五代史》 · 卷 11 · 梁后妃传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
         }
       ]
     },
@@ -7578,6 +7589,60 @@
         {
           "title": "《全唐文》 · 卷 884 · 徐铉《刘公神道碑》",
           "url": "https://zh.wikisource.org/w/index.php?title=全唐文/卷0884&oldid=8723175"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-jin-wife-tao",
+      "name": "陶氏（朱瑾淮南妻）",
+      "dynasty": "吴",
+      "role": "朱瑾淮南妻；史载陶雅女",
+      "periodLabel": "淮南朱瑾家庭",
+      "intro": "《资治通鉴》记朱瑾在家中接待徐知训时，让妻陶氏出来拜见；《十国春秋》又记朱瑾家属受诛时，陶氏临刑哭泣，经妾劝慰后收泪就戮。本传称她为故浔阳公陶雅之女，名讳未载。",
+      "sourceNotes": [
+        "本条限定淮南出拜与临刑记载；与早年被朱温纳归、后来为尼的失名朱瑾妻缺连续身份桥，不合并，也不据叙次断为必不同自然人。",
+        "《旧五代史》相应宴席记爱妓桃氏及出桃氏，《资治通鉴》称妻陶氏；字形和妻／妓称谓分源保留，不将桃氏设作已证别名。",
+        "《十国春秋》标准本“傳陽公雅”参同书四库“潯陽公雅”校读；同书陶雅传载封浔阳公，不补母亲、出生或嫁日。",
+        "出拜不等于知谋、助杀或亲手杀徐知训；临刑收泪就戮明确属陶氏，不移给劝她的妾。",
+        "朱瑾二子或族诛家属不据此配为她所生；各书族诛施事与纪日分源，不移用男性日定她的确日。"
+      ],
+      "aliases": "陶氏（朱瑾淮南妻） 陶氏（朱瑾妻） 朱瑾妻陶氏",
+      "readingStarts": {
+        "tongjian": "tongjian-v270",
+        "shiguochunqiu": "shiguochunqiu-v008"
+      },
+      "sources": [
+        {
+          "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        },
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-jin-concubine-comforting-tao",
+      "name": "朱瑾妾（临刑劝陶氏者）",
+      "dynasty": "吴",
+      "role": "史载朱瑾之妾；临刑时劝慰陶氏",
+      "periodLabel": "朱瑾家属受诛记载",
+      "intro": "《十国春秋》记朱瑾妻陶氏临刑哭泣时，妾劝她说现在就要见到朱公；随后陶氏收泪就戮。劝语者的姓名、姓氏以及具体结局未独记。",
+      "sourceNotes": [
+        "“其妾”置于朱瑾家属受诛叙事中，不解释为陶氏另有姬妾；与陶氏为同场对话的两个角色。",
+        "未有连续证据将她认作此前被遣向徐知训通问的家妓／爱妾或宴席献歌宠妓，也不据称谓分别断为不同自然人。",
+        "“今行见公”是临刑语境的劝慰话语，不当作死后相见的事实；不由此补她的具体死法或确年。",
+        "没有证据说明她知谋、参与杀徐知训、为朱瑾二子之母或具有封号。"
+      ],
+      "aliases": "朱瑾妾（临刑劝陶氏者） 朱瑾临刑劝陶氏之妾",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
         }
       ]
     }

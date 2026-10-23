@@ -4471,6 +4471,27 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-zhu-jin-wife-tao",
+      "names": [
+        "陶氏（朱瑾淮南妻）",
+        "陶氏（朱瑾妻）",
+        "朱瑾妻陶氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-zhu-jin-concubine-comforting-tao",
+      "names": [
+        "朱瑾妾（临刑劝陶氏者）",
+        "朱瑾临刑劝陶氏之妾"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12649,6 +12670,37 @@
       "reason": "嗣勋纂服是承袭功业衣冠的铭辞，非马嗣勋短名。",
       "originalRevision": 1,
       "originalSha256": "72c385950b0ad60990dbedbac2a70504417a7b939e06034e0eb6f7bc5bfe9a0d"
+    },
+    {
+      "personId": "zhu-yougong",
+      "paragraphId": "shiguochunqiu-v008-p3",
+      "terms": [
+        "克讓"
+      ],
+      "reason": "本段克让均在兖州节度使齐克让婚家语境，不能以朱友恭旧名朱克让的短名误归。",
+      "originalRevision": 1,
+      "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327"
+    },
+    {
+      "personId": "li-chengsi",
+      "paragraphId": "shiguochunqiu-v008-p5",
+      "terms": [
+        "承嗣"
+      ],
+      "reason": "本段承嗣只在禅为其少子的父称中出现，屏蔽短名自动record后以局部mention保留；后文为李禅及其妻经历。",
+      "originalRevision": 1,
+      "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200"
+    },
+    {
+      "personId": "li-chengsi",
+      "paragraphId": "shiguochunqiu-v008-p1",
+      "terms": [
+        "李承嗣",
+        "承嗣"
+      ],
+      "reason": "本段仅整卷篇题及附子禅名目，不作李承嗣独立人物记载；标题原文、层级及独立译名仍完整保留。",
+      "originalRevision": 1,
+      "originalSha256": "f1cb4a9d5c88666eb15fe14297f87093fa87c779e400434dcdafdde9d237f78c"
     }
   ],
   "regnalEdicts": {

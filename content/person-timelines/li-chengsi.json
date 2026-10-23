@@ -168,7 +168,23 @@
       "yearRange": {
         "start": 895,
         "end": 896
-      }
+      },
+      "variants": [
+        {
+          "label": "十国春秋：援兖兵数异文",
+          "sourceDate": "本源段不另定确日",
+          "summary": "本卷五千骑与旧史三千骑分源保留，不把不同口径强定一数。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p3",
+              "originalRevision": 1,
+              "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+              "excerpt": "河東將李承嗣、史儼以騎兵五千救之。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-chengsi-isolated-from-hedong",
@@ -205,10 +221,18 @@
           "originalRevision": 1,
           "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
           "excerpt": "及瑄、瑾失守，承嗣與朱瑾、史儼同入淮南。承嗣、史儼皆驍將也，淮人得之，軍聲大振。〈（十國春秋·吳列傳》：太祖署為淮南行軍副使。）〉武皇深惜之，如失左右手，乃遣趙嶽間道使於淮南，請歸承嗣等；楊行密許之，遣使陳令存請修好於武皇。其年九月，汴將龐師古、葛從周出師，將收淮南，朱瑾率淮南軍三萬，與承嗣設伏於清口，大敗汴人，生獲龐師古。行密嘉其雄才，留而不遣，仍奏授檢校太尉，領鎮海軍節度使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "是時汴將葛從周屯壽州，龐師古營清口，侵淮，淮人大恐。太祖欲先趣壽州，承嗣言不如先向清口，師古敗，從周自走，此制敵之上策也。已而果如所料。太祖置酒高會，賞承嗣錢萬縉，表領鎮海軍節度使。"
         }
       ],
       "notes": [
-        "本传九月、擒庞师古的记述沿原书保留，未据回溯叙事冒定援军出发895年为清口战年。"
+        "本传九月、擒庞师古的记述沿原书保留，未据回溯叙事冒定援军出发895年为清口战年。",
+        "补先攻清口、葛自走的建议及赏钱领镇海；葛在寿州、庞在清口，不写成同营或同死。"
       ]
     },
     {
@@ -232,7 +256,42 @@
       "yearRange": {
         "start": 912,
         "end": 913
-      }
+      },
+      "variants": [
+        {
+          "label": "十国春秋：楚州官称异文",
+          "sourceDate": "本源段不另定确日",
+          "summary": "本卷高祖时改副使后出楚州刺史，现旧史主证为楚州节度使；保官称/叙次，不推本卷独立任官日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p4",
+              "originalRevision": 1,
+              "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+              "excerpt": "高祖時，改淮南行軍副使，參頂軍府之事，已出爲楚州刺史。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "代领淮南军府",
+      "summary": "杨行密出兵时李承嗣暂领淮南军府，本传称境内无扰。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "天复二年；本卷未独记月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "天復二年，太祖引兵攻汴，以承嗣權知淮南軍府事，境內無擾，承嗣之力也。"
+        }
+      ],
+      "id": "li-chengsi-acting-huainan-office",
+      "sortOrder": 12
     }
   ]
 }
