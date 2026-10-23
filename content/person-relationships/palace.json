@@ -9052,5 +9052,117 @@
         "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
       }
     ]
+  },
+  {
+    "id": "peng-yanzhang-unnamed-wife-marriage",
+    "from": "wu-peng-yanzhang",
+    "to": "wu-peng-yanzhang-wife-unknown",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "以彭彦章传末“稟其妻子終身”辨认婚家，未载婚期、妻姓或唯一配偶情况。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "peng-yanzhang-children-provision-source-link",
+    "from": "wu-peng-yanzhang",
+    "to": "wu-peng-yanzhang-children-provision-source-role",
+    "kind": "service",
+    "label": "子女受廪记载／来源联系",
+    "note": "仅指原句中的子女群体来源，保留其与彭彦章的家属语境，不给未名成员分配人数、性别或生母。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "yang-longyan-peng-yanzhang-wife-provision",
+    "from": "yang-longyan",
+    "to": "wu-peng-yanzhang-wife-unknown",
+    "kind": "service",
+    "label": "终身供养",
+    "note": "《十国春秋》将命给养的动作记于高祖杨隆演；《通鉴》作吴人处置。这里只记命供廪与受惠，不表示任官、部将或养育关系，也不作婚配或妻亲自支配半份家资。高祖是后来追尊的庙号，不将杨隆演生前称作皇帝。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p29",
+        "originalRevision": 1,
+        "originalSha256": "d51b30195f821da782769b676afdbac2f8d6bb5c4203f9abab631fa7582960db",
+        "excerpt": "弟溥立，僭號，追尊為高祖宣皇帝，陵曰肅陵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "yang-longyan-peng-yanzhang-children-provision-source-link",
+    "from": "yang-longyan",
+    "to": "wu-peng-yanzhang-children-provision-source-role",
+    "kind": "service",
+    "label": "供廪记载／来源联系",
+    "note": "与“稟其妻子終身”中的子女群体相连，只保留有据供养来源，不表示已逐个辨认任何成员，亦不作宫职或任命。所称高祖为杨隆演的身后追尊庙号。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p29",
+        "originalRevision": 1,
+        "originalSha256": "d51b30195f821da782769b676afdbac2f8d6bb5c4203f9abab631fa7582960db",
+        "excerpt": "弟溥立，僭號，追尊為高祖宣皇帝，陵曰肅陵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      }
+    ]
   }
 ]

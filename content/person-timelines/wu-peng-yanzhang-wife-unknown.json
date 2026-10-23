@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-peng-yanzhang-wife-unknown",
+  "events": [
+    {
+      "id": "wu-peng-yanzhang-wife-unknown-lifetime-provision",
+      "title": "获终身供养",
+      "summary": "《十国春秋》和《通鉴》记彭彦章败死后，吴诛陈汾、籍没其家财，把一半赐给彭家，并终身供养彭彦章的妻与子女。半份家财属于对彭家的赏给，不说妻个人获得其中一半。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "彭彦章败死、陈汾被诛后；供廪未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p6",
+          "originalRevision": 1,
+          "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+          "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p77",
+          "originalRevision": 1,
+          "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+          "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。"
+        }
+      ],
+      "notes": [
+        "终身是给养安排的用语，不补妻的卒年、实际领取地点或可计量年限。",
+        "不将交战的乙巳日或武义改元日赋给战后行政处置；所记妻不是供养的发令者。",
+        "子女个体、人数和生母未载；夫妻身份不自动建立她与群体成员的母子女关系。"
+      ]
+    }
+  ]
+}
