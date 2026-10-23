@@ -110,7 +110,7 @@
       "author": "清 · 吴任臣撰",
       "kind": "十国史 · 纪传体",
       "image": "",
-      "description": "现收卷 4 的吴后妃、宗室及公主记载与卷 13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
+      "description": "现收卷 4 的吴后妃、宗室及公主记载及卷 7、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
       "defaultChapter": "shiguochunqiu-v004",
       "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B"
     },
@@ -135,6 +135,28 @@
       "description": "现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。",
       "defaultChapter": "nantangma-v010",
       "url": "https://zh.wikisource.org/wiki/%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
+    },
+    {
+      "id": "nantangjinshi",
+      "title": "南唐近事",
+      "sourceTitle": "南唐近事",
+      "author": "北宋 · 郑文宝撰",
+      "kind": "史料笔记",
+      "image": "",
+      "description": "现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。",
+      "defaultChapter": "nantangjinshi-v002",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%97%E5%94%90%E8%BF%91%E4%BA%8B"
+    },
+    {
+      "id": "quantangwen",
+      "title": "全唐文",
+      "sourceTitle": "全唐文",
+      "author": "徐铉（本卷撰文者）",
+      "kind": "诗文总集 · 碑铭",
+      "image": "",
+      "description": "现收卷 884 全文，含徐铉所撰碑铭；本卷撰文者与总集编纂身份分开，保留正文、铭文、夹注及来源标点，不表示全书已收录。碑文所述褒赠及家世按其文体与来源分别核验。",
+      "defaultChapter": "quantangwen-v884",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%A8%E5%94%90%E6%96%87"
     }
   ],
   "chapters": [
@@ -8985,6 +9007,105 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&action=history",
         "sourceSha256": "19572cb0c19e9781159e035bff2969e48e8a6d8feac6e016bf5034b193935534",
         "chapterSha256": "66cabae3478bc14dc2b6d0e2afd8e1d71bcd4bde504df229c74e4548fb65e2d4"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v007",
+      "bookId": "shiguochunqiu",
+      "volume": 7,
+      "position": 7,
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等）",
+      "subjects": [
+        "li-cunxu",
+        "yang-xingmi",
+        "yang-longyan",
+        "zhu-wen",
+        "zhu-youzhen",
+        "wang-jingren",
+        "li-sian",
+        "yang-wo",
+        "qian-liu",
+        "li-bian",
+        "wu-li-decheng-wife-yang",
+        "wu-li-decheng-daughter-jingda-wife",
+        "yang-pu",
+        "li-jing-southern-tang"
+      ],
+      "scope": "full",
+      "paragraphCount": 15,
+      "characterCount": 5353,
+      "provenance": {
+        "pageTitle": "十國春秋/卷007",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7007&oldid=2554075",
+        "revisionId": 2554075,
+        "fetchedAt": "2026-10-22T17:25:37.063106+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7007&action=history",
+        "sourceSha256": "9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a",
+        "chapterSha256": "89bf23d823b827b9110df8bb5128de937f5ea6e3d52918ff662c1873abdf8f88"
+      }
+    },
+    {
+      "id": "nantangjinshi-v002",
+      "bookId": "nantangjinshi",
+      "volume": 2,
+      "position": 2,
+      "title": "卷 2 · 南唐近事",
+      "subjects": [
+        "han-xizai",
+        "li-bian",
+        "li-jing-southern-tang",
+        "song-qiqiu",
+        "wu-li-decheng-wife-yang",
+        "li-yu"
+      ],
+      "sourceSection": {
+        "heading": "卷二",
+        "untilHeading": "佚文"
+      },
+      "scope": "full",
+      "paragraphCount": 45,
+      "characterCount": 5382,
+      "provenance": {
+        "pageTitle": "南唐近事",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E8%BF%91%E4%BA%8B&oldid=1503836#%E5%8D%B7%E4%BA%8C",
+        "revisionId": 1503836,
+        "fetchedAt": "2026-10-22T17:31:25.091642+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E8%BF%91%E4%BA%8B&action=history",
+        "sourceSha256": "45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267",
+        "chapterSha256": "7b8aaa0afcf6c105bebea5df8157f782a0bf67056c256d6a2b64376b9e0cd701"
+      }
+    },
+    {
+      "id": "quantangwen-v884",
+      "bookId": "quantangwen",
+      "volume": 884,
+      "position": 884,
+      "title": "卷 884 · 徐铉文",
+      "subjects": [
+        "li-bian",
+        "li-jing-southern-tang",
+        "xu-xuan",
+        "yang-xingmi",
+        "wu-li-decheng-daughter-liu-chongjun-first-wife",
+        "wu-li-decheng-daughter-liu-chongjun-later-wife"
+      ],
+      "scope": "full",
+      "paragraphCount": 32,
+      "characterCount": 10735,
+      "provenance": {
+        "pageTitle": "全唐文/卷0884",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%85%A8%E5%94%90%E6%96%87%2F%E5%8D%B70884&oldid=8723175",
+        "revisionId": 8723175,
+        "fetchedAt": "2026-10-22T17:34:57.336881+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%85%A8%E5%94%90%E6%96%87%2F%E5%8D%B70884&action=history",
+        "sourceSha256": "f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736",
+        "chapterSha256": "c84f4b81717f3637c1cb0f1260a057f0f7d5ad163b5bddadb332ab6294714067"
       }
     }
   ]

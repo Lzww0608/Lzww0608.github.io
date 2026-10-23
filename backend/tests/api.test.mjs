@@ -57,7 +57,7 @@ test('chapter returns ordered originals and only the latest published translatio
   assert.equal(chapter.scope, 'excerpt');
 });
 test('unpublished books and chapters never appear in API or search', async () => {
-  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'nantanglu', 'nantangma', 'old', 'quewen', 'shibu', 'shiguochunqiu', 'tongjian']);
+  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'nantangjinshi', 'nantanglu', 'nantangma', 'old', 'quantangwen', 'quewen', 'shibu', 'shiguochunqiu', 'tongjian']);
   assert.equal((await fetch(`${base}/api/chapters/new-1`)).status, 404);
   assert.equal((await fetch(`${base}/api/books/new/chapters`)).status, 404);
   assert.equal((await (await fetch(`${base}/api/search?q=新修订`)).json()).results.length, 0);

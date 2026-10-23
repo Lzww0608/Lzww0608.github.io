@@ -5,9 +5,9 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 218);
-  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 9014);
-  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma']);
+  assert.equal(chapters.length, 221);
+  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 9106);
+  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
   for (const person of emperors) {

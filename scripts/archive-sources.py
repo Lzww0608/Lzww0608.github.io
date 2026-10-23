@@ -29,9 +29,11 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载与卷 13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载及卷 7、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。', defaultChapter='nantangma-v010'),
+    dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
+    dict(id='quantangwen', title='全唐文', sourceTitle='全唐文', author='徐铉（本卷撰文者）', kind='诗文总集 · 碑铭', image='', description='现收卷 884 全文，含徐铉所撰碑铭；本卷撰文者与总集编纂身份分开，保留正文、铭文、夹注及来源标点，不表示全书已收录。碑文所述褒赠及家世按其文体与来源分别核验。', defaultChapter='quantangwen-v884'),
 ]
 for book in BOOKS:
     book['url'] = 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(book['sourceTitle'])
@@ -247,6 +249,14 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+SPECS.append(dict(id='shiguochunqiu-v007', bookId='shiguochunqiu', volume=7, position=7,
+                  title='卷 7 · 吴列传（刘信、周本、李德诚等）', page='十國春秋/卷007', subjects=[], fixedRevisionId=2554075))
+SPECS.append(dict(id='nantangjinshi-v002', bookId='nantangjinshi', volume=2, position=2,
+                  title='卷 2 · 南唐近事', page='南唐近事', subjects=[], fixedRevisionId=1503836,
+                  sourceSection={'heading': '卷二', 'untilHeading': '佚文'}))
+SPECS.append(dict(id='quantangwen-v884', bookId='quantangwen', volume=884, position=884,
+                  title='卷 884 · 徐铉文', page='全唐文/卷0884', subjects=[], fixedRevisionId=8723175))
+
 # Explicit reign and shared-annal links are metadata only. Original files and
 # captured revisions stay byte-identical when the roster grows.
 REIGN_SUBJECTS = {'tongjian-v266': ['zhu-wen'],
@@ -343,6 +353,44 @@ for chapter_id, added_subjects in {
 for chapter_id, added_subjects in {
     "shiguochunqiu-v013": [
         "wu-an-renyi-concubine-unnamed"
+    ]
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
+
+# Source-bound H70 chapter entrances; source originals and legacy fields remain unchanged.
+for chapter_id, added_subjects in {
+    "shiguochunqiu-v007": [
+        "li-cunxu",
+        "yang-xingmi",
+        "yang-longyan",
+        "zhu-wen",
+        "zhu-youzhen",
+        "wang-jingren",
+        "li-sian",
+        "yang-wo",
+        "qian-liu",
+        "li-bian",
+        "wu-li-decheng-wife-yang",
+        "wu-li-decheng-daughter-jingda-wife",
+        "yang-pu",
+        "li-jing-southern-tang"
+    ],
+    "nantangjinshi-v002": [
+        "han-xizai",
+        "li-bian",
+        "li-jing-southern-tang",
+        "song-qiqiu",
+        "wu-li-decheng-wife-yang",
+        "li-yu"
+    ],
+    "quantangwen-v884": [
+        "li-bian",
+        "li-jing-southern-tang",
+        "xu-xuan",
+        "yang-xingmi",
+        "wu-li-decheng-daughter-liu-chongjun-first-wife",
+        "wu-li-decheng-daughter-liu-chongjun-later-wife"
     ]
 }.items():
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
@@ -505,6 +553,25 @@ def extract(html, with_tags=False, index_page=False):
     visit(Document(html).root)
     return blocks
 
+def source_blocks(payload, with_tags=False):
+    # One fixed page can contain several volumes; retain explicit source bounds.
+    selection = payload.get('selection', {})
+    blocks = extract(payload['response']['parse']['text']['*'], with_tags=True,
+                     index_page=selection.get('indexPage', False))
+    section = selection.get('sourceSection')
+    if section is not None:
+        if (set(section) != {'heading', 'untilHeading'}
+                or not all(isinstance(section[k], str) and section[k] for k in section)):
+            raise ValueError('Invalid source section')
+        starts = [i for i, (text, tag) in enumerate(blocks) if tag == 'h2' and text == section['heading']]
+        if len(starts) != 1: raise ValueError('Source section start changed')
+        start = starts[0]
+        ends = [i for i in range(start + 1, len(blocks)) if blocks[i][1] == 'h2']
+        if not ends or blocks[ends[0]][0] != section['untilHeading']:
+            raise ValueError('Source section end changed')
+        blocks = blocks[start:ends[0]]
+    return blocks if with_tags else [text for text, _ in blocks]
+
 def request(params):
     url = API + '?' + urllib.parse.urlencode(params)
     for attempt in range(4):
@@ -529,6 +596,9 @@ def capture(spec, previous=None):
             if (previous['provenance']['revisionId'] != spec['fixedRevisionId']
                     or cached_source['response']['parse']['revid'] != spec['fixedRevisionId']):
                 raise ValueError(f"Fixed source revision changed: {spec['id']}")
+        cached_source = json.loads(path.read_text())
+        if cached_source.get('selection', {}).get('sourceSection') != spec.get('sourceSection'):
+            raise ValueError(f"Source section changed: {spec['id']}")
         cached = json.loads(chapter_path.read_text())
         return {**previous, 'subjects': chapter_subjects(spec, [p['original'] for p in cached['paragraphs']], previous['subjects'])}
     if path.exists():
@@ -539,20 +609,24 @@ def capture(spec, previous=None):
         result = request(params)
         if 'parse' not in result: raise ValueError(f"Missing source: {spec['page']} {result}")
         payload = dict(fetchedAt=datetime.now(timezone.utc).isoformat(), response=result)
+        if spec.get('sourceSection'): payload['selection'] = {'sourceSection': spec['sourceSection']}
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
     parsed = payload['response']['parse']
     if spec.get('fixedRevisionId') and parsed['revid'] != spec['fixedRevisionId']:
         raise ValueError(f"Fixed source revision changed: {spec['id']}")
     if parsed['title'] != spec['page']: raise ValueError(f"Unexpected redirect: {spec['page']} -> {parsed['title']}")
+    if payload.get('selection', {}).get('sourceSection') != spec.get('sourceSection'):
+        raise ValueError(f"Source section changed: {spec['id']}")
     html = parsed['text']['*']
     if spec.get('indexPage') and payload.get('selection') != {'indexPage': True}:
         payload['selection'] = {'indexPage': True}
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
-    paragraphs = extract(html, index_page=spec.get('indexPage', False))
+    paragraphs = source_blocks(payload)
     length = sum(len(text) for text in paragraphs)
     if length < spec.get('minimumCharacters', 1000) or len(paragraphs) < spec.get('minimumBlocks', 3): raise ValueError(f"Incomplete source: {spec['id']} {length} characters / {len(paragraphs)} blocks")
     book = next(book for book in BOOKS if book['id'] == spec['bookId'])
     source_url = 'https://zh.wikisource.org/w/index.php?' + urllib.parse.urlencode(dict(title=spec['page'], oldid=parsed['revid']))
+    if spec.get('sourceSection'): source_url += '#' + urllib.parse.quote(spec['sourceSection']['heading'])
     notes = [
         '本页完整收录所选卷的来源文本，保留原页正文、序文与夹注；原文使用繁体字。段落划分依来源页面的段落与空行，标题亦作为独立文字块保留。',
         '古籍原作已属公版；维基文库的整理、标点与页面文本按 CC BY-SA 4.0 署名并以相同方式共享。底本、校勘与叙事差异请参照版本信息。',
@@ -570,6 +644,9 @@ def capture(spec, previous=None):
     if spec['id'] == 'shiguochunqiu-v013': notes.append('本页完整收录维基文库《十国春秋》标准页面卷 13 的吴国人物列传，原有字词、夹注与标点保持原样；同一作品的四库本仅用于版本校读，不作为独立史料复证。已收其他卷请参见书籍目录，不表示全书已收录。')
     if book['id'] == 'nantanglu': notes.append('本站仅收录陆游《南唐书》卷 17，陆游《南唐书》与马令的同名著作分别编目；完整保留小传、夹注、史家评论及来源标点，不表示全书已收录。同作品四库本只作版本参校，不作独立复证。')
     if book['id'] == 'nantangma': notes.append('本站仅收录马令《南唐书》卷 10，与陆游的同名著作分别编目；完整保留序文、小传、夹注及来源标点，不表示全书已收录。同作品不同版本只作校读，不作独立复证。')
+    if spec['id'] == 'shiguochunqiu-v007': notes.append('本页完整收录《十国春秋》标准页面卷 7，原文、夹注与标点保持原样；同作品不同版本只作校读，不作独立复证。已收其他卷请参见书籍目录，不表示全书已收录。')
+    if book['id'] == 'nantangjinshi': notes.append('本页完整收录固定来源页面的卷二，从“卷二”标题起，至“佚文”标题前止；不混入同页序、卷一与佚文。原文、夹注与来源标点保持原样；史事逸闻宜与其他来源参读。')
+    if book['id'] == 'quantangwen': notes.append('本页完整收录《全唐文》卷 884。来源页所署徐铉为本卷文章撰文者，不据此称其为整部总集编者。碑文、铭文与夹注均保留；褒赠、家世与叙事立场分别按来源理解。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')
     subjects = chapter_subjects(spec, paragraphs)
     position = spec.get('position', spec['volume'])

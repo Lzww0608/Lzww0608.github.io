@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "personId": "wu-li-decheng-wife-yang",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wu-li-decheng-wife-yang-teng-title",
+      "year": null,
+      "sourceDate": "本传李德诚诸子后附记，未记杨氏封君年月",
+      "title": "封滕国君",
+      "summary": "《十国春秋》在李德诚本传记其妻杨氏封滕国君，称当世以为荣耀。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v007",
+          "paragraphId": "shiguochunqiu-v007-p12",
+          "originalRevision": 1,
+          "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+          "excerpt": "有子二十八人：建勳爲相，建封爲將，妻楊氏，封滕國君，當世榮焉。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 0,
+      "notes": [
+        "封君年月未载；同段李德诚卒年不移给这项封授。",
+        "《南唐近事》明确称滕国君为李德诚妻，与此处同夫同封号参读。"
+      ]
+    },
+    {
+      "id": "wu-li-decheng-wife-yang-court-identification-anecdote",
+      "year": null,
+      "sourceDate": "《南唐近事》卷二“赵王李德诚镇江西”叙事，未独记年月",
+      "title": "与女妓同装供日者辨认",
+      "summary": "《南唐近事》记李德诚使数名女妓与妻子滕国君作同样妆饰，一起站在庭中，让日者分辨贵贱。日者说国君头上有黄云，众妓仰首后，他指出国君，李德诚因而高兴。",
+      "evidence": [
+        {
+          "chapterId": "nantangjinshi-v002",
+          "paragraphId": "nantangjinshi-v002-p33",
+          "originalRevision": 1,
+          "originalSha256": "fc0b3bbd6759fc2c82770e411a22942f1fe6276b179f0f9195cd1c34edd4ae02",
+          "excerpt": "趙王李德誠鎮江西，有日者自稱世人貴賤一見輒分。王使女妓數人，與其妻滕國君同糚梳服飾，偕立庭中請辨良賤。客俯躬而進曰：「國君頭上有黃雲。」群妓不覺皆仰首。日者曰：「此是國君也。」王悅而遣之。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 1,
+      "notes": [
+        "本项按小说轶闻保存女方被安排参与的经历；黄云是日者的话语，不作异象已获验证的事实。",
+        "不补女方自主决定、受赐、封君当日或女妓具体人数。"
+      ]
+    }
+  ]
+}

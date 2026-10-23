@@ -4416,6 +4416,61 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-li-decheng-wife-yang",
+      "names": [
+        "杨氏（李德诚妻、滕国君）",
+        "杨氏（李德诚妻）",
+        "楊氏（李德誠妻）",
+        "滕国君（李德诚妻）",
+        "滕國君（李德誠妻）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-li-decheng-daughter-jingda-wife",
+      "names": [
+        "南平氏（李德诚女、李景达妃）",
+        "李德诚女（李景达妃）",
+        "李德誠女（李景達妃）",
+        "信王妃（李德诚女）",
+        "信王妃（李德誠女）",
+        "南平氏（李景达妃）",
+        "南平氏（李景達妃）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+      "names": [
+        "李氏（李德诚女、刘崇俊前夫人）",
+        "李氏（刘崇俊前夫人）",
+        "李氏（劉崇俊前夫人）",
+        "李德诚女（刘崇俊前夫人）",
+        "李德誠女（劉崇俊前夫人）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+      "names": [
+        "李氏（李德诚女、陇西郡君）",
+        "李氏（刘崇俊后夫人）",
+        "李氏（劉崇俊後夫人）",
+        "陇西郡君（刘崇俊后夫人）",
+        "隴西郡君（劉崇俊後夫人）",
+        "李德诚女（刘崇俊后夫人）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12492,6 +12547,108 @@
       "reason": "本段仅校注引称三郎，排除姓名自动升为record；另以版本绑定mention保留。",
       "originalRevision": 1,
       "originalSha256": "f4fbcba0cbc14d4b8f9cc3cad5abb72757d151af1565b93c294c284a375972a4"
+    },
+    {
+      "personId": "wang-jingren",
+      "paragraphId": "shiguochunqiu-v007-p1",
+      "terms": [
+        "王茂章",
+        "茂章"
+      ],
+      "reason": "纯列名篇题不另算独立事迹；完整本传在本卷p5。",
+      "originalRevision": 1,
+      "originalSha256": "2c065466433c5380c9a75cbc54367b1da89788ccb556ab7d8ade911972b7aabe"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "shiguochunqiu-v007-p3",
+      "terms": [
+        "從周"
+      ],
+      "reason": "原作从周章，按本段从随他将的语境，不能把从周短串归葛从周；周章、周本异文另按同书校读保留，不擅认已经定讹。",
+      "originalRevision": 1,
+      "originalSha256": "e1f5d198221b0da71b68690b7185c2d1e26341d111af5935a2c691c23b7091d8"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "shiguochunqiu-v007-p14",
+      "terms": [
+        "從周"
+      ],
+      "reason": "从周本是跟随周本，不是葛从周姓名。",
+      "originalRevision": 1,
+      "originalSha256": "398df47371cfc3f0e9dcd82b8dd8bc39e5dbd239633db0168f64adeff7cb47be"
+    },
+    {
+      "personId": "wang-qianyu",
+      "paragraphId": "shiguochunqiu-v007-p5",
+      "terms": [
+        "虔裕"
+      ],
+      "reason": "本段明确李虔裕，不能只凭虔裕短名称作王虔裕。",
+      "originalRevision": 1,
+      "originalSha256": "a2f7bd3678dee6260c08f06fdde9503171a08febee3d6a7db0281cfd7f6c600d"
+    },
+    {
+      "personId": "wang-yanzhang",
+      "paragraphId": "shiguochunqiu-v007-p7",
+      "terms": [
+        "王彥章"
+      ],
+      "reason": "本段为吴静江军使王彦章，与后梁王彦章按政权和实际年代分别辨认。",
+      "originalRevision": 1,
+      "originalSha256": "c6fc8b6481bbc915bf1950167b0839eef6d06f3a0ebe6350396f5327c50d07de"
+    },
+    {
+      "personId": "wang-jingren",
+      "paragraphId": "shiguochunqiu-v007-p8",
+      "terms": [
+        "王茂章",
+        "茂章"
+      ],
+      "reason": "本段为史家论赞，另以闭域mention保存，不升为record。",
+      "originalRevision": 1,
+      "originalSha256": "be4a24150220600f4b149fe8d862e568090b799ffc84ac8230603b027017a473"
+    },
+    {
+      "personId": "dai-siyuan",
+      "paragraphId": "quantangwen-v884-p10",
+      "terms": [
+        "思遠"
+      ],
+      "reason": "忧深而思远是普通语义，不是戴思远短名。",
+      "originalRevision": 1,
+      "originalSha256": "c820833e65ee9cea1bb9f8ae85cfcd2a9ddfb6640529f6e02e5c52635bdb5d75"
+    },
+    {
+      "personId": "xue-zhiqin",
+      "paragraphId": "quantangwen-v884-p15",
+      "terms": [
+        "誌勤"
+      ],
+      "reason": "继志勤王是动词性语句，不是薛志勤短名。",
+      "originalRevision": 1,
+      "originalSha256": "8ba00e3bc5cac37202b43ca0b879c9951d548a8f613278aaa153a04b6ccc0eca"
+    },
+    {
+      "personId": "yuan-jianfeng",
+      "paragraphId": "quantangwen-v884-p17",
+      "terms": [
+        "建豐"
+      ],
+      "reason": "肇建丰碑是营造碑刻的语句，非袁建丰人名。",
+      "originalRevision": 1,
+      "originalSha256": "15898cd300fbc91ec0156b1cc3d462051a3606c243862e7da80a7cec135510cc"
+    },
+    {
+      "personId": "ma-sixun",
+      "paragraphId": "quantangwen-v884-p18",
+      "terms": [
+        "嗣勳"
+      ],
+      "reason": "嗣勋纂服是承袭功业衣冠的铭辞，非马嗣勋短名。",
+      "originalRevision": 1,
+      "originalSha256": "72c385950b0ad60990dbedbac2a70504417a7b939e06034e0eb6f7bc5bfe9a0d"
     }
   ],
   "regnalEdicts": {

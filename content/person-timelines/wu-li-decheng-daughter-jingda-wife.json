@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "personId": "wu-li-decheng-daughter-jingda-wife",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "wu-li-decheng-daughter-jingda-wife-marriage-to-jingda",
+      "year": null,
+      "sourceDate": "本传追叙“信王景达先娶德诚女”，未独记婚年月",
+      "title": "嫁给李景达",
+      "summary": "《十国春秋》记南唐信王李景达先娶李德诚的女儿。后来的同姓议礼与氏南平诏令都针对这桩既有婚姻。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v007",
+          "paragraphId": "shiguochunqiu-v007-p12",
+          "originalRevision": 1,
+          "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+          "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 0,
+      "notes": [
+        "不把信王封号、李昪复姓背景或李德诚卒年当作婚日，也不补女方生母与排行。"
+      ]
+    },
+    {
+      "id": "wu-li-decheng-daughter-jingda-wife-nanping-surname-decree",
+      "year": null,
+      "sourceDate": "先主复姓后、李昪在世时诏可氏南平；本传未独记诏年月",
+      "title": "奉诏可以南平为氏",
+      "summary": "李昪恢复李姓后，有司以同姓婚配为非礼。李昪以南平王为国之元老，不许拆散信王婚姻，诏令信王妃可以南平为氏。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v007",
+          "paragraphId": "shiguochunqiu-v007-p12",
+          "originalRevision": 1,
+          "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+          "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+        },
+        {
+          "chapterId": "tongjian-v282",
+          "paragraphId": "tongjian-v282-p6",
+          "originalRevision": 1,
+          "originalSha256": "25028dbedd4d8b8f2b19cd6617b82f4296c790e99a36d54b1598730aa4d9e256",
+          "excerpt": "唐群臣江王知證等累表請唐主複姓李，立唐宗廟，乙丑，唐主許之。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p49",
+          "originalRevision": 1,
+          "originalSha256": "c6437815dfd6e393cc0963f2c7e3f93ae86ebafd5765b0d5b86f33c46f5eead8",
+          "excerpt": "唐主謂璟曰：「吾餌金石，始欲益壽，乃更傷生，汝宜戒之！」是夕，殂。"
+        }
+      ],
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 1,
+      "notes": [
+        "“可氏南平”保留诏令原意，不补个人名讳、出生姓或籍贯。",
+        "939—943仅为复姓至李昪去世的外界范围，不表示诏令持续发生，也不把诏令定在939年或复姓当日；婚配本身仍年代未定。"
+      ],
+      "yearRange": {
+        "start": 939,
+        "end": 943
+      }
+    }
+  ]
+}

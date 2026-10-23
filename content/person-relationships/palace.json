@@ -8542,5 +8542,189 @@
         "excerpt": "仁義以家屬保城樓，兵不敢登，召德誠曰：「汝可以委命。」且以愛妾贈之，乃抵弓矢就縛，斬于廣陵，蓋後頵死一年云。"
       }
     ]
+  },
+  {
+    "id": "wu-li-decheng-yang-wife",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-wife-yang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "两处同夫同封号辨认妻杨氏；不由此补她与宗女记载必同或必异，也不推子女生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "有子二十八人：建勳爲相，建封爲將，妻楊氏，封滕國君，當世榮焉。"
+      },
+      {
+        "title": "《南唐近事》 · 卷 2",
+        "chapterId": "nantangjinshi-v002",
+        "paragraphId": "nantangjinshi-v002-p33",
+        "originalRevision": 1,
+        "originalSha256": "fc0b3bbd6759fc2c82770e411a22942f1fe6276b179f0f9195cd1c34edd4ae02",
+        "excerpt": "王使女妓數人，與其妻滕國君同糚梳服飾，偕立庭中請辨良賤。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-jingda-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-jingda-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明言李德诚女嫁信王景达；女方生母与排行未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-li-jingda-li-decheng-daughter-spouses",
+    "from": "nantang-li-jingda",
+    "to": "wu-li-decheng-daughter-jingda-wife",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "原书明记先娶；氏南平诏令保留原婚姻，不补婚日。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-liu-first-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "碑文赵忠懿王即李德诚；前后两女依婚序区分，不补出生排行或生母。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐受禪，拜太師，封南平王，進封趙王。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐先主廢朝五日，諡曰忠懿。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-liu-later-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "碑文两位夫人皆赵忠懿王女；不把前后婚序换作姊妹长幼。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐受禪，拜太師，封南平王，進封趙王。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐先主廢朝五日，諡曰忠懿。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-liu-chongjun-first-li-wife",
+    "from": "nantang-liu-chongjun",
+    "to": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+    "kind": "kinship",
+    "label": "前婚夫妻",
+    "note": "前夫人为碑文的婚序用语；不补她的死因、卒年或离异。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-liu-chongjun-later-li-wife",
+    "from": "nantang-liu-chongjun",
+    "to": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "kind": "kinship",
+    "label": "后婚夫妻",
+    "note": "后夫人称陇西郡君；不把八个儿子自动归为她所生。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-yang-clan-marriage-role",
+    "from": "wu-li-decheng",
+    "to": "wu-yang-xingmi-clan-woman-li-decheng-wife-role",
+    "kind": "kinship",
+    "label": "宗女婚配记载",
+    "note": "来源限定的婚配角色，不表示已经证成与妻杨氏不同的自然人，也不反推杨行密亲生女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "鍠死，太祖義其人，妻以宗女。"
+      }
+    ]
   }
 ]

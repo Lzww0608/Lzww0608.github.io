@@ -731,7 +731,7 @@
     },
     {
       "personId": "han-xizai",
-      "eventCount": 13,
+      "eventCount": 15,
       "eventIds": [
         "han-xizai-flee-wu",
         "han-xizai-advise-era",
@@ -745,7 +745,9 @@
         "han-xizai-demote-and-restore",
         "han-xizai-death-posthumous-chancellor",
         "han-xizai-late-household-anecdote",
-        "han-xizai-wu-yuan-memorial"
+        "han-xizai-wu-yuan-memorial",
+        "han-xizai-recognize-zhang-ji",
+        "han-xizai-poem-on-central-plains-mission"
       ]
     },
     {
@@ -1323,7 +1325,7 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 27,
+      "eventCount": 31,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
@@ -1351,7 +1353,11 @@
         "li-bian-burial",
         "li-bian-adoption",
         "li-bian-control-wu",
-        "li-bian-shen-jiangao-tax-remission"
+        "li-bian-shen-jiangao-tax-remission",
+        "li-bian-xiao-yan-luling-retrial",
+        "li-bian-spare-zhou-ye-after-fire",
+        "li-bian-reward-du-ye-wife-zhang",
+        "li-bian-stop-hawk-taking-to-end-hunts"
       ]
     },
     {
@@ -1655,7 +1661,7 @@
     },
     {
       "personId": "li-jing-southern-tang",
-      "eventCount": 41,
+      "eventCount": 44,
       "eventIds": [
         "li-jing-southern-tang-wu-office",
         "li-jing-southern-tang-wu-vice-marshal",
@@ -1697,7 +1703,10 @@
         "li-jing-southern-tang-li-shouzhen-aid",
         "li-jing-southern-tang-song-dowager-return",
         "li-jing-southern-tang-duan-chuchang-envoy",
-        "li-jing-southern-tang-zhang-xiong-volunteer-command"
+        "li-jing-southern-tang-zhang-xiong-volunteer-command",
+        "li-jing-southern-tang-exile-zhu-kuangye-liu-cunzhong",
+        "li-jing-southern-tang-yang-huafei-remonstrance",
+        "li-jing-southern-tang-rebuild-maoshan-ziyang"
       ]
     },
     {
@@ -1976,7 +1985,7 @@
     },
     {
       "personId": "li-yu",
-      "eventCount": 17,
+      "eventCount": 18,
       "eventIds": [
         "li-yu-avoid-hongji",
         "li-yu-heir",
@@ -1994,7 +2003,8 @@
         "li-yu-song-invasion",
         "li-yu-han-xizai",
         "li-yu-tan-zixiao-summons",
-        "li-yu-zhang-xiong-chief-command"
+        "li-yu-zhang-xiong-chief-command",
+        "li-yu-tao-gu-qin-ruolan-banquet"
       ]
     },
     {
@@ -3148,7 +3158,7 @@
     },
     {
       "personId": "song-qiqiu",
-      "eventCount": 38,
+      "eventCount": 39,
       "eventIds": [
         "song-qiqiu-runzhou-advice",
         "song-qiqiu-cross-river-plan",
@@ -3187,7 +3197,8 @@
         "song-qiqiu-recall-war-crisis",
         "song-qiqiu-succession-preferences",
         "song-qiqiu-son-mourning-kite",
-        "song-qiqiu-geng-recommendation"
+        "song-qiqiu-geng-recommendation",
+        "song-qiqiu-give-maids-to-chen-jue"
       ]
     },
     {
@@ -4339,6 +4350,36 @@
       ]
     },
     {
+      "personId": "wu-li-decheng-daughter-jingda-wife",
+      "eventCount": 2,
+      "eventIds": [
+        "wu-li-decheng-daughter-jingda-wife-marriage-to-jingda",
+        "wu-li-decheng-daughter-jingda-wife-nanping-surname-decree"
+      ]
+    },
+    {
+      "personId": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-li-decheng-daughter-liu-chongjun-first-wife-first-marriage-to-liu-chongjun"
+      ]
+    },
+    {
+      "personId": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-li-decheng-daughter-liu-chongjun-later-wife-later-marriage-longxi-title"
+      ]
+    },
+    {
+      "personId": "wu-li-decheng-wife-yang",
+      "eventCount": 2,
+      "eventIds": [
+        "wu-li-decheng-wife-yang-teng-title",
+        "wu-li-decheng-wife-yang-court-identification-anecdote"
+      ]
+    },
+    {
       "personId": "wu-li-shenfu-wife-unnamed",
       "eventCount": 1,
       "eventIds": [
@@ -4544,13 +4585,19 @@
     },
     {
       "personId": "xu-xuan",
-      "eventCount": 5,
+      "eventCount": 11,
       "eventIds": [
         "xu-xuan-petition-military-punishment",
         "xu-xuan-restore-examinations",
         "xu-xuan-farmland-inquiry-and-exile",
         "xu-xuan-envoy-request-delay",
-        "xu-xuan-compile-wulu"
+        "xu-xuan-compile-wulu",
+        "xu-xuan-jiang-temple-inscription",
+        "xu-xuan-maoshan-inscription",
+        "xu-xuan-zhou-temple-inscription",
+        "xu-xuan-chizhou-ziyang-inscription",
+        "xu-xuan-relocate-fathers-grave-xishan",
+        "xu-xuan-liu-chongjun-inscription"
       ]
     },
     {
@@ -4594,7 +4641,7 @@
     },
     {
       "personId": "yang-longyan",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
         "yang-longyan-accession",
         "yang-longyan-xu-control",
@@ -4604,7 +4651,8 @@
         "yang-longyan-death",
         "yang-longyan-li-yu",
         "yang-longyan-wu-title",
-        "yang-longyan-hostage-mutiny"
+        "yang-longyan-hostage-mutiny",
+        "yang-longyan-commission-liu-xin-qianzhou"
       ]
     },
     {
@@ -5469,7 +5517,7 @@
     },
     {
       "personId": "zhu-youzhen",
-      "eventCount": 55,
+      "eventCount": 56,
       "eventIds": [
         "zhu-youzhen-birth",
         "zhu-youzhen-jun-prince",
@@ -5525,7 +5573,8 @@
         "zhu-youzhen-head-reburial",
         "zhu-youzhen-records-commission",
         "zhu-youzhen-first-office",
-        "zhu-youzhen-rename-zhen"
+        "zhu-youzhen-rename-zhen",
+        "zhu-youzhen-commission-wang-jingren-huainan"
       ]
     },
     {

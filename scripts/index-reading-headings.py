@@ -63,7 +63,7 @@ def build_index():
         chapter = json.loads((root / 'chapters' / f'{chapter_id}.json').read_text(encoding='utf-8'))
         source = json.loads((root / 'sources' / f'{chapter_id}.json').read_text(encoding='utf-8'))
         html = source['response']['parse']['text']['*']
-        blocks = archive.extract(html, with_tags=True, index_page=source.get('selection', {}).get('indexPage', False))
+        blocks = archive.source_blocks(source, with_tags=True)
         titles = marked_titles(html, summary['bookId'])
         if [text for text, _ in blocks] != [p['original'] for p in chapter['paragraphs']]:
             raise ValueError(f'Source blocks no longer match archived originals: {chapter_id}')
