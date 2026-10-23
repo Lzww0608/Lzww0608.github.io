@@ -8726,5 +8726,67 @@
         "excerpt": "鍠死，太祖義其人，妻以宗女。"
       }
     ]
+  },
+  {
+    "id": "wu-li-decheng-wife-threat-role-kinship-record",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-wife-threat-source-role",
+    "kind": "kinship",
+    "label": "妻称谓（威胁记载）",
+    "note": "妻称谓出于徐知训索女乐遭拒后的威胁话语；只关联来源中的婚姻称谓，未记夺妻实施，不表示已证成与妻杨氏或宗女角色不同的自然人。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p8",
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "originalRevision": 1,
+        "originalSha256": "f4fbcba0cbc14d4b8f9cc3cad5abb72757d151af1565b93c294c284a375972a4",
+        "excerpt": "李德誠有女樂，知訓求之，德誠曰：「此輩皆有所生，且復年長，不足以接貴人，俟求少妙者進之。」知訓對德誠使者言曰：「吾殺德誠，并取其妻，亦易爾。」"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "威武節度使、知撫州李德誠有家妓數十，知訓求之，德誠遣使謝曰：「家之所有皆長年，或有子，不足以侍貴人，當更為公求少而美者。」知訓怒，謂使者曰：「會當殺德誠，並其妻取之！」"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-neifuren-li-decheng-greeting-role-dispatch",
+    "from": "li-bian",
+    "to": "nantang-neifuren-li-decheng-greeting-source-role",
+    "kind": "service",
+    "label": "遣迎劳记载",
+    "note": "本段南唐先主指李昪，记其遣内夫人迎劳李德诚。此为派遣行动的来源联系，不表示授官、首次任职或亲属婚配。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "title": "《十国春秋》 · 卷 7 · 吴列传（刘信、周本、李德诚等）",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "自洪州覲金陵，南唐先主遣內夫人逆勞于道，百官斑謁于都門。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-neifuren-greeting-role-record",
+    "from": "nantang-neifuren-li-decheng-greeting-source-role",
+    "to": "wu-li-decheng",
+    "kind": "service",
+    "label": "迎劳记载",
+    "note": "《十国春秋》记内夫人在李德诚从洪州入觐金陵途中迎劳；不把迎劳解释为与李德诚婚配，也不由单一称谓确定人数。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "title": "《十国春秋》 · 卷 7 · 吴列传（刘信、周本、李德诚等）",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "自洪州覲金陵，南唐先主遣內夫人逆勞于道，百官斑謁于都門。"
+      }
+    ]
   }
 ]
