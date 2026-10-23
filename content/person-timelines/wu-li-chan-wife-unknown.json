@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-li-chan-wife-unknown",
+  "events": [
+    {
+      "id": "wu-li-chan-wife-unknown-death",
+      "title": "去世",
+      "summary": "《十国春秋》在李禅附传中记其妻于该年去世，没有给出可核的绝对年月。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "是年；该段未独记绝对年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p5",
+          "originalRevision": 1,
+          "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+          "excerpt": "禪，承嗣少子也。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p5",
+          "originalRevision": 1,
+          "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+          "excerpt": "是年禪妻卒，輀車出入之路，卽飛翔所膩處也。"
+        }
+      ],
+      "notes": [
+        "原文记去世的是李禅妻；未记原因、地点或年龄。",
+        "白蝙蝠与灵车路线的联系及众人惊异是原书异闻叙事，不作为死亡原因或确证预兆。"
+      ]
+    }
+  ]
+}

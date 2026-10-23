@@ -1662,6 +1662,10 @@
     {
       "id": "wu-zhu-jin-concubine-comforting-tao",
       "name": "朱瑾妾（临刑劝陶氏者）"
+    },
+    {
+      "id": "wu-li-chan-wife-unknown",
+      "name": "李禅妻（失名）"
     }
   ],
   "passages": [
@@ -109486,6 +109490,10 @@
         {
           "personId": "li-chengsi",
           "kind": "mention"
+        },
+        {
+          "personId": "wu-li-chan-wife-unknown",
+          "kind": "record"
         }
       ]
     },

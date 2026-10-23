@@ -8946,5 +8946,111 @@
         "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
       }
     ]
+  },
+  {
+    "id": "li-chengsi-li-chan-father-son",
+    "from": "li-chengsi",
+    "to": "wu-li-chan",
+    "kind": "kinship",
+    "label": "父子；少子",
+    "note": "原文明确父子及少子称谓，不据此补母系或确切生年。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "禪，承嗣少子也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "li-chan-unnamed-wife-marriage",
+    "from": "wu-li-chan",
+    "to": "wu-li-chan-wife-unknown",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "以“禅妻卒”辨认婚配身份，未记婚期或妻姓；不从丈夫的李姓补成李氏。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "禪，承嗣少子也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "是年禪妻卒，輀車出入之路，卽飛翔所膩處也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "li-chengsi-received-women-source-link",
+    "from": "li-chengsi",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "受赐记载／来源联系",
+    "note": "此联系仅指原句合叙的群体来源语境，不确定李承嗣分得任何具体一女或人数，不作独立婚配或任职。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "shi-yan-received-women-source-link",
+    "from": "shi-yan",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "受赐记载／来源联系",
+    "note": "此联系仅指原句合叙的群体来源语境，不确定史俨分得任何具体一女或人数；旧史“妻孥”另按原书保留。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p12",
+        "originalRevision": 1,
+        "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+        "excerpt": "淮人館遇甚厚，妻孥第舍必推其甲，故儼等盡其死力。",
+        "title": "《旧五代史》 · 卷 55 · 唐列传"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-bestowed-women-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "择赐记载／来源联系",
+    "note": "本段太祖为杨行密，原书明确为择赐者；这里只保群体来源联系，不把赐予写成某一女子的婚姻、任命或宫职。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
   }
 ]
