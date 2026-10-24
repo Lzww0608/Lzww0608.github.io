@@ -537,3 +537,37 @@ test('Li Cunxu generals exclude namesakes, ordinary words and cross-word names w
     assert.notEqual(link.kind, 'mention', `${paragraphId}: this is an actual person record`);
   }
 });
+
+
+test('Wu Taizu annals distinguish other officers, cross-word names and cited books', () => {
+  for (const [paragraphId, personId, sourceName] of [
+    ['shiguochunqiu-v001-p6', 'gao-xingzhou', '張行周'],
+    ['shiguochunqiu-v001-p15', 'zhu-hanbin', '陳漢賓'],
+    ['shiguochunqiu-v001-p19', 'wang-qianyu', '李虔裕'],
+    ['shiguochunqiu-v001-p19', 'wang-jianji', '建及當塗'],
+  ]) {
+    assert.ok(paragraphs.get(paragraphId).original.includes(sourceName));
+    assert.equal(association(paragraphId, personId), undefined, `${paragraphId}: ${sourceName} is not ${personId}`);
+  }
+  for (const id of ['li-cunxu', 'xu-xuan']) {
+    assert.equal(association('shiguochunqiu-v001-p21', id)?.kind, 'mention', 'a cited book or its author is not a narrated military action');
+  }
+  for (const id of ['yang-shihou', 'wang-tan']) {
+    assert.equal(association('shiguochunqiu-v001-p19', id)?.kind, 'record', 'the separately qualified Bian officer still has a record in the same paragraph');
+  }
+});
+
+test('Wu Taizu annals retain local subjects and independently identified household records', () => {
+  assert.equal(association('shiguochunqiu-v001-p19', 'wu-cheng-kuangrou')?.kind, 'record');
+  for (const [position, id] of [
+    [18, 'wu-yang-xingmi-daughter-qian-yuanliao-wife'],
+    [20, 'wu-yang-xingmi-daughter-qian-yuanliao-wife'],
+    [19, 'wu-yang-xingmi-wife-zhu'],
+    [19, 'wu-tian-jun-mother-yin'],
+    [19, 'wu-li-shenfu-wife-unnamed'],
+  ]) assert.equal(association(`shiguochunqiu-v001-p${position}`, id)?.kind, 'record');
+  for (const position of [2, 12, 14, 15, 16, 17, 18]) {
+    assert.ok(association(`shiguochunqiu-v001-p${position}`, 'yang-xingmi'), 'the local subject is not lost when only 王 or 太祖 is used');
+  }
+  assert.equal(association('shiguochunqiu-v001-p22', 'yang-xingmi')?.kind, 'mention', 'the historian’s conclusion stays a source comment');
+});

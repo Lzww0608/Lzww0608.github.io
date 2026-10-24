@@ -1,6 +1,6 @@
 import { libraryBooks, libraryChapters } from './library.ts';
 import { catalogPeople } from './person-catalog.ts';
-import { parseChapterParagraph } from './chapter-schema.ts';
+import { matchesCatalogChapterTitle, parseChapterParagraph } from './chapter-schema.ts';
 import type { BookId, ChapterParagraph } from './types.ts';
 
 export type TimelinePhase = 'early' | 'campaigns' | 'rivalry' | 'late' | 'posthumous' | 'jin' | 'conquest' | 'imperial' | 'fall' | 'rule' | 'service' | 'later' | 'uncertain';
@@ -157,7 +157,8 @@ export async function parsePersonTimelineResponse(value: unknown, personId: stri
       const item = raw[index];
       if (!record(item)) fail();
       const checked = await resolveTimelineEvidence(reference, item.paragraph);
-      if (item.bookId !== checked.bookId || item.bookTitle !== checked.bookTitle || item.chapterTitle !== checked.chapterTitle) fail();
+      if (item.bookId !== checked.bookId || item.bookTitle !== checked.bookTitle
+        || !matchesCatalogChapterTitle(item.chapterTitle, checked.bookTitle, checked.chapterTitle)) fail();
       return checked;
     }));
   }

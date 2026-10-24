@@ -417,3 +417,23 @@ test('changing people cannot position a new destination from the previous person
     assert.doesNotMatch(rendered.html, /data-reading-anchor="timeline-event-li-cunxu-huliu"/);
   }
 });
+
+
+test('a book-prefixed archived chapter remains readable in a current API timeline', async () => {
+  const chapter = allChapters.find(chapter => chapter.id === 'shiguochunqiu-v001');
+  const document = JSON.parse(readFileSync(new URL('../../content/person-timelines/wu-cheng-kuangrou.json', import.meta.url), 'utf8'));
+  const event = document.events[0], reference = event.evidence[0];
+  const evidence = { ...reference, bookId: 'shiguochunqiu', bookTitle: '十国春秋',
+    chapterTitle: chapter.title, paragraph: chapter.paragraphs.find(paragraph => paragraph.id === reference.paragraphId) };
+  const current = { ...document, events: [{ ...event, evidence: [evidence] }], unavailableCount: 0, resultSetRevision: hash('current-prefixed-chapter') };
+  const result = await parsePersonTimelineResponse(current, 'wu-cheng-kuangrou');
+  assert.equal(result.events[0].id, 'wu-cheng-kuangrou-sheltered-by-yang-xingmi');
+  assert.equal(result.events[0].evidence[0].chapterTitle, '卷 1 · 吴太祖世家（杨行密）');
+  assert.equal(result.events[0].evidence[0].paragraph.translation.text, evidence.paragraph.translation.text);
+  for (const badTitle of ['《新五代史》 · 卷 1 · 吴太祖世家（杨行密）', '《十国春秋》 · 卷 2 · 吴太祖世家（杨行密）', '《十国春秋》 · 《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）']) {
+    const bad = structuredClone(current); bad.events[0].evidence[0].chapterTitle = badTitle;
+    await assert.rejects(parsePersonTimelineResponse(bad, 'wu-cheng-kuangrou'), /Invalid person timeline/);
+  }
+  const stale = structuredClone(current); stale.events[0].evidence[0].originalSha256 = '0'.repeat(64);
+  await assert.rejects(parsePersonTimelineResponse(stale, 'wu-cheng-kuangrou'), /Invalid person timeline/);
+});

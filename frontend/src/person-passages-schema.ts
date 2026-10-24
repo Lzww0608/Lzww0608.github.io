@@ -3,7 +3,7 @@ import { loadPassageSearch } from './passage-search.ts';
 import type { SearchField } from './types.ts';
 import { libraryBooks, libraryChapters } from './library.ts';
 import { catalogPeople } from './person-catalog.ts';
-import { parseChapterParagraph } from './chapter-schema.ts';
+import { matchesCatalogChapterTitle, parseChapterParagraph } from './chapter-schema.ts';
 import type { BookId, PassageSpan, PersonPassage, PersonPassageIndex, PersonPassageKind, PersonPassagesResponse } from './types';
 
 const chapters = new Map(libraryChapters.map(chapter => [chapter.id, chapter]));
@@ -67,7 +67,7 @@ async function passage(value: unknown, requestedBook?: BookId): Promise<PersonPa
   if (!record(value) || !text(value.id) || !text(value.title) || !kinds.includes(value.kind as PersonPassageKind)
     || !text(value.bookId) || !books.has(value.bookId as BookId) || (requestedBook && value.bookId !== requestedBook)
     || !text(value.chapterId) || chapters.get(value.chapterId)?.bookId !== value.bookId
-    || value.chapterTitle !== chapters.get(value.chapterId)?.title || value.chapterPosition !== chapters.get(value.chapterId)?.position
+    || !matchesCatalogChapterTitle(value.chapterTitle, books.get(value.bookId as BookId)!.title, chapters.get(value.chapterId)!.title) || value.chapterPosition !== chapters.get(value.chapterId)?.position
     || value.bookTitle !== books.get(value.bookId as BookId)?.title || !text(value.edition)
     || value.sourceUrl !== chapters.get(value.chapterId)?.provenance.sourceUrl
     || !Array.isArray(value.spans) || !value.spans.length || !Array.isArray(value.paragraphs) || value.paragraphs.length !== value.spans.length) fail();
@@ -81,7 +81,7 @@ async function passage(value: unknown, requestedBook?: BookId): Promise<PersonPa
       || location.originalSha256 !== await originalHash(paragraph.original)) fail();
     ids.add(paragraph.id);
   }
-  return value as unknown as PersonPassage;
+  return { ...value, chapterTitle: chapters.get(value.chapterId as string)!.title } as unknown as PersonPassage;
 }
 
 export async function parsePersonPassagesPage(value: unknown, personId: string, bookId?: BookId, cursor = '0', limit = 50, searchOptions: { query?: string; field?: SearchField } = {}): Promise<PersonPassagesResponse> {

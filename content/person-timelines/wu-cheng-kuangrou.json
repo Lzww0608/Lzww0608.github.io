@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-cheng-kuangrou",
+  "events": [
+    {
+      "id": "wu-cheng-kuangrou-sheltered-by-yang-xingmi",
+      "title": "获杨行密藏匿保护",
+      "summary": "唐朝下诏赐死各地宦官时，清海监军程匡柔受到杨行密藏匿保护。杨行密斩别的囚犯应付诏令，程匡柔并非本句被斩者。",
+      "year": null,
+      "yearRange": {
+        "start": 903,
+        "end": 904
+      },
+      "sortOrder": 1,
+      "precision": "range",
+      "phase": "uncertain",
+      "sourceDate": "《十国春秋》卷1天复三年年段末，未另记月日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v001",
+          "paragraphId": "shiguochunqiu-v001-p19",
+          "originalRevision": 1,
+          "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753",
+          "excerpt": "唐詔所在宦官皆賜死，王匿清海監軍程匡柔，斬它囚以應。"
+        }
+      ],
+      "notes": [
+        "天复三年的年界跨西历903—904年，只保年范围，不把正月或十二月月首赋给获匿事件。",
+        "此条记诛宦官令下受到藏匿的遭遇，不表示程匡柔于此时死亡，也不补获匿地点或后来任官。",
+        "本句以杨行密为藏匿、斩别囚应诏的施事，不将保护者的动作移给程匡柔。"
+      ]
+    }
+  ]
+}

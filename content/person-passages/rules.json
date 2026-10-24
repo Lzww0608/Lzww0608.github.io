@@ -4601,6 +4601,15 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-cheng-kuangrou",
+      "names": [
+        "程匡柔"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -13036,6 +13045,118 @@
       "reason": "此段仅为朱延寿妻王氏与张训妻某氏的合列篇题，完整保留标题，不作独立人物事迹片段。",
       "originalRevision": 1,
       "originalSha256": "9d7ccab9b380c1c3b571cb3fe899d319b010f078f8a775515fc91c0c74873a77"
+    },
+    {
+      "personId": "gao-xingzhou",
+      "paragraphId": "shiguochunqiu-v001-p6",
+      "terms": [
+        "行周"
+      ],
+      "reason": "张行周之行周短名，不归高行周；不新增同名 alias。",
+      "originalRevision": 1,
+      "originalSha256": "200e8c705c21cfb123c8dfad11763820045b8a3c23b6089d1a865aabd3d31832"
+    },
+    {
+      "personId": "zhu-hanbin",
+      "paragraphId": "shiguochunqiu-v001-p15",
+      "terms": [
+        "漢賓"
+      ],
+      "reason": "海州戍将陈汉宾，未有归既有朱汉宾的身份桥，不凭汉宾短名相合。",
+      "originalRevision": 1,
+      "originalSha256": "3e499e5ec28e88b247059c7cb203a8627e554f4e99c4b0b40007b73f176a93f3"
+    },
+    {
+      "personId": "wang-qianyu",
+      "paragraphId": "shiguochunqiu-v001-p19",
+      "terms": [
+        "虔裕"
+      ],
+      "reason": "原明李虔裕，不归早年被送太原的王虔裕。",
+      "originalRevision": 1,
+      "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753"
+    },
+    {
+      "personId": "wang-jianji",
+      "paragraphId": "shiguochunqiu-v001-p19",
+      "terms": [
+        "建及"
+      ],
+      "reason": "檀、建及当涂中的建为汪建省名，及为连词，不能跨界读王建及。",
+      "originalRevision": 1,
+      "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753"
+    },
+    {
+      "personId": "yang-shihou",
+      "paragraphId": "shiguochunqiu-v001-p19",
+      "terms": [
+        "楊師厚",
+        "師厚"
+      ],
+      "reason": "同段有成汭亲吏与曹州刺史两同名语境；整term排自动后另明示record仅归后半曹州刺史，不宣称词位遮罩。",
+      "originalRevision": 1,
+      "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753"
+    },
+    {
+      "personId": "wang-tan",
+      "paragraphId": "shiguochunqiu-v001-p19",
+      "terms": [
+        "王檀"
+      ],
+      "reason": "同段田頵部将与汴左踏白指挥使同名；整term排自动后另record只归汴将，不自动合人。",
+      "originalRevision": 1,
+      "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753"
+    },
+    {
+      "personId": "li-cunxu",
+      "paragraphId": "shiguochunqiu-v001-p21",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "庄宗功臣列传只是书题，阻断自动record，再按同一原段补mention。",
+      "originalRevision": 1,
+      "originalSha256": "1c88fe4573ff106dfe2c49b39ef84b27d79ca095912e104d4ee0ecd50a317759"
+    },
+    {
+      "personId": "xu-xuan",
+      "paragraphId": "shiguochunqiu-v001-p21",
+      "terms": [
+        "徐鉉"
+      ],
+      "reason": "徐铉吴录仅引书作者提及，阻断自动record，再明确mention。",
+      "originalRevision": 1,
+      "originalSha256": "1c88fe4573ff106dfe2c49b39ef84b27d79ca095912e104d4ee0ecd50a317759"
+    },
+    {
+      "personId": "qian-liu",
+      "paragraphId": "shiguochunqiu-v001-p5",
+      "terms": [
+        "錢鏐"
+      ],
+      "reason": "仅在所引注中作为杜稜、成及服事背景，未记钱本人独立行动；补mention。",
+      "originalRevision": 1,
+      "originalSha256": "94e017602ab18e1511347bf1615423ed4d3bc563fa14dbe4a9e6a810445132ef"
+    },
+    {
+      "personId": "qian-liu",
+      "paragraphId": "shiguochunqiu-v001-p11",
+      "terms": [
+        "錢鏐"
+      ],
+      "reason": "仅为杨行密遣使致书劝释者与顾全武所隶背景，未叙钱的答复或决策；补mention。",
+      "originalRevision": 1,
+      "originalSha256": "d5e1d0ed06dc5142d6fe2e9da3fcaa649d7564da8c6a94b425543c1eb83e477f"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "shiguochunqiu-v001-p18",
+      "terms": [
+        "朱全忠",
+        "全忠"
+      ],
+      "reason": "本段只为朝廷下令行密讨伐的对象，不把他人奉令当本人行动；补mention。",
+      "originalRevision": 1,
+      "originalSha256": "374396495fc6dc09744cda3fbc395e3010b68809a993deb756126b728f0cf5ce"
     }
   ],
   "regnalEdicts": {

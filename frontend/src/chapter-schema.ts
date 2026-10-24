@@ -63,3 +63,9 @@ export function parseChapterParagraph(value: unknown): ChapterParagraph {
   if (!isParagraph(value)) throw new Error('Invalid paragraph');
   return value;
 }
+
+// A chapter may retain the known book label in its archived display title.
+// Accept only that exact wrapper; identity and source checks remain separate.
+export function matchesCatalogChapterTitle(value: unknown, bookTitle: string, chapterTitle: string): boolean {
+  return value === chapterTitle || value === `《${bookTitle}》 · ${chapterTitle}`;
+}

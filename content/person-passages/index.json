@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 228,
-    "paragraphCount": 9329
+    "chapterCount": 229,
+    "paragraphCount": 9351
   },
   "people": [
     {
@@ -1694,6 +1694,10 @@
     {
       "id": "wu-zhu-yanshou-wife-wang",
       "name": "王氏（朱延寿妻）"
+    },
+    {
+      "id": "wu-cheng-kuangrou",
+      "name": "程匡柔"
     }
   ],
   "passages": [
@@ -109474,6 +109478,730 @@
         {
           "personId": "chai-rong",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p1",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p1",
+          "originalRevision": 1,
+          "originalSha256": "7a3ea9eba88d00785dc718192bf006079539347bd2174096141652c01d3da701",
+          "start": 0,
+          "end": 756
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p2",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p2",
+          "originalRevision": 1,
+          "originalSha256": "77ccd91edc638004094daf67cbdd4829dd928787a7abdc42396b61bc49847a96",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p3",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "ff42d430728ba7ad150c2f292a8d4da6bdfa7ea81b22ff0356633cf456c4fe3b",
+          "start": 0,
+          "end": 2127
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p4",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "6f1027b3970e13195ed855e1805495ba5bb70d03d5427a995c1b150fa80d35d9",
+          "start": 0,
+          "end": 383
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p5",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p5",
+          "originalRevision": 1,
+          "originalSha256": "94e017602ab18e1511347bf1615423ed4d3bc563fa14dbe4a9e6a810445132ef",
+          "start": 0,
+          "end": 407
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p6",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p6",
+          "originalRevision": 1,
+          "originalSha256": "200e8c705c21cfb123c8dfad11763820045b8a3c23b6089d1a865aabd3d31832",
+          "start": 0,
+          "end": 377
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p7",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "6222dde68a2bdb1083fc6175ac0ad50e4b7303d390e56ebe4a946cc39da8b371",
+          "start": 0,
+          "end": 506
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p8",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p8",
+          "originalRevision": 1,
+          "originalSha256": "7422efad10f9491912c6ae045d007d6dac77a777727cafb0a7dd27767b23368b",
+          "start": 0,
+          "end": 842
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p9",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "58355419515094242793c579e3f1011b34c6715b0661068ea011abfae6b78439",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p10",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p10",
+          "originalRevision": 1,
+          "originalSha256": "cc7b78169e78b54ba2c6657b607d918c5017f0fc6b5a2f395f8fc79a17778e18",
+          "start": 0,
+          "end": 327
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p11",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p11",
+          "originalRevision": 1,
+          "originalSha256": "d5e1d0ed06dc5142d6fe2e9da3fcaa649d7564da8c6a94b425543c1eb83e477f",
+          "start": 0,
+          "end": 702
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p12",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p12",
+          "originalRevision": 1,
+          "originalSha256": "55123fd88db5c43501932b65c1263ee4bbe935258dfa7decabea0046538ed386",
+          "start": 0,
+          "end": 550
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p13",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p13",
+          "originalRevision": 1,
+          "originalSha256": "d067ffb3b7c33baa72c605e12b8dc35144bf98813b158c71e7659a30d978b504",
+          "start": 0,
+          "end": 1224
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p14",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p14",
+          "originalRevision": 1,
+          "originalSha256": "7890df5ceb2809562c0744e7f31b7000171f89401d049ee94370f23add661e9f",
+          "start": 0,
+          "end": 520
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p15",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p15",
+          "originalRevision": 1,
+          "originalSha256": "3e499e5ec28e88b247059c7cb203a8627e554f4e99c4b0b40007b73f176a93f3",
+          "start": 0,
+          "end": 610
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-guihou",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p16",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p16",
+          "originalRevision": 1,
+          "originalSha256": "fee1c251e7531755c5bbdfbee2a7a2be8719e7f0adb5e9f36f74faecc20ae5d5",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p17",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p17",
+          "originalRevision": 1,
+          "originalSha256": "1c124c8c0e3e41c076c092ced5af019e89efa5ab963ee522976f2e2fad1e7555",
+          "start": 0,
+          "end": 321
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p18",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p18",
+          "originalRevision": 1,
+          "originalSha256": "374396495fc6dc09744cda3fbc395e3010b68809a993deb756126b728f0cf5ce",
+          "start": 0,
+          "end": 820
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p19",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p19",
+          "originalRevision": 1,
+          "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753",
+          "start": 0,
+          "end": 2051
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-tan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-kangyi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-tian-jun-mother-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-shenfu-wife-unnamed",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-cheng-kuangrou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p20",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p20",
+          "originalRevision": 1,
+          "originalSha256": "094f9b6133251a5a6e045c243e9a3a4fe355feb65eece79c1f0cd66e815d15e8",
+          "start": 0,
+          "end": 477
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p21",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p21",
+          "originalRevision": 1,
+          "originalSha256": "1c88fe4573ff106dfe2c49b39ef84b27d79ca095912e104d4ee0ecd50a317759",
+          "start": 0,
+          "end": 1675
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p22",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p22",
+          "originalRevision": 1,
+          "originalSha256": "ef88ce07caab7c5e174d66ae73fa7ff9dbfe7ed7219cd35a9488407839070c3b",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
         }
       ]
     },
