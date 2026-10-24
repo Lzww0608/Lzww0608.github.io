@@ -61,9 +61,9 @@ class SourceIntegrityTests(unittest.TestCase):
             chapter = json.loads((archive.ROOT / 'chapters' / f'tongjian-v{volume}.json').read_text())
             self.assertTrue(any('卷 266—294' in note for note in chapter['notes']))
 
-    def test_wu_household_selected_three_complete_sources_and_fixed_section_cache(self):
+    def test_wu_household_selected_complete_sources_and_fixed_section_cache(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
-        for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
+        for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('shiguochunqiu-v012', 2554082, 19, 3006, '5e80aeb830d68c16ad69997851e7f4e08519f43f3e77db384462f4a6a9613a06'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
             selected = next(s for s in archive.SPECS if s['id'] == chapter_id)
             summary = next(c for c in catalog['chapters'] if c['id'] == chapter_id)
             payload = json.loads((archive.ROOT / 'sources' / (chapter_id + '.json')).read_text())
