@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-cao-yun-wife-unknown",
+  "events": [
+    {
+      "id": "wu-cao-yun-wife-unknown-pardon-treatment",
+      "title": "获赦并受厚遇",
+      "summary": "曹筠叛投吴越后，徐温赦免其妻与子女，不加诛杀，并优厚对待他们。新史和《十国春秋》卷13把这段待遇叙在天祐十年的秋天以前；女方不是发令者，也未被记为叛逃或返军的人。",
+      "year": 913,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "新史与《十国春秋》卷13：天祐十年，叙于秋以前；未独记月日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p44",
+          "originalRevision": 1,
+          "originalSha256": "7af181d69469394107fc20fcc04d4e850074dd0a474bf2e2eb17dbfe65a2e478",
+          "excerpt": "十年，遣招討使李濤攻越，戰于臨安，裨將曹筠奔于越，濤敗被執。溫間遣人語筠曰：「吾用汝為將，汝軍有求，吾不能給，是吾過也。」赦筠妻子不誅，厚遇之。秋，越人攻毗陵，溫戰于無錫，筠感溫前言，臨戰奔歸，遂敗越兵。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v013",
+          "paragraphId": "shiguochunqiu-v013-p7",
+          "originalRevision": 1,
+          "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+          "excerpt": "十年，遣招討使李儔攻吳越，裨將曹荺往奔，温問遣人語荺曰：「吾用汝爲將，汝軍有求，吾不能給，是吾過也。」赦荺妻子不誅，厚遇之。是秋，吳越攻常州，温戰于無鷗，荺感前言，奔歸，遂敗吳越兵。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "卷9与通鉴的厚遇及后续曹归叙次",
+          "summary": "《十国春秋》卷9和《通鉴》同样记徐温厚遇或赦免曹筠妻子；卷9将后续曹筠归吴系在武义元年香湾战后，通鉴在锦衣之役的追叙后才接及是役复奔。男方归吴时序不与新史、卷13强合，也不倒移成妻获赦的新日期。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v009",
+              "paragraphId": "shiguochunqiu-v009-p14",
+              "originalRevision": 1,
+              "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+              "excerpt": "曹筠，仕高祖爲馬軍指揮使。衣錦軍之役，筠叛奔吳越，徐温厚遇其妻子，且招之曰：「吾使汝不得志而去，汝無以妻子爲念。」武義元年，吳越兵敗于香灣，筠防乘勢復歸，温自數昔日不用筠防言者三，而不問筠去來之罪，歸其田宅，復其軍職。未幾，筠內媿卒。"
+            },
+            {
+              "chapterId": "tongjian-v270",
+              "paragraphId": "tongjian-v270-p83",
+              "originalRevision": 1,
+              "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+              "excerpt": "初，錦衣之役，吳馬軍指揮曹筠叛奔吳越，徐溫赦其妻子，厚遇之，遣間使告之曰：「使汝不得志而去，吾之過也，汝無以妻子為念。」"
+            }
+          ],
+          "sourceDate": "卷9：武义元年接后续曹归；通鉴：锦衣之役追叙及后续复奔"
+        }
+      ],
+      "notes": [
+        "天祐十年全年跨西历914，但本段获赦厚遇置于秋以前，只取西历年913，不用年首、七月初一或其他人物行动日替代事件日。",
+        "变乱阶段指家属受赦厚遇的遭遇，不表示妻在这时去世。",
+        "不把曹筠复归、复官、归还田宅及内愧而卒列为妻的行动或结局；子女未知人数与生母继续分层。"
+      ]
+    }
+  ]
+}

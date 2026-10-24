@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 226,
-    "paragraphCount": 9288
+    "chapterCount": 227,
+    "paragraphCount": 9310
   },
   "people": [
     {
@@ -1682,6 +1682,10 @@
     {
       "id": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
       "name": "朱延寿妹（贾匡浩妻）"
+    },
+    {
+      "id": "wu-cao-yun-wife-unknown",
+      "name": "曹筠妻（失名）"
     }
   ],
   "passages": [
@@ -49701,6 +49705,10 @@
         },
         {
           "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
           "kind": "record"
         }
       ]
@@ -110878,6 +110886,410 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v009-p2",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p2",
+          "originalRevision": 1,
+          "originalSha256": "c001df56e820e2eb9153be99e90319ab71871eb0c5f41a03f56eee028896a61a",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p3",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p3",
+          "originalRevision": 1,
+          "originalSha256": "0b993e925c2643834aec8dc22130bbc6b895bd09f15f36bb5dac9edc0c60557f",
+          "start": 0,
+          "end": 119
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p4",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p4",
+          "originalRevision": 1,
+          "originalSha256": "f965dadc4a6eb34e19a5ad6375aab68ecd69e52836179e1596c244645dfed056",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p5",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p5",
+          "originalRevision": 1,
+          "originalSha256": "34493b560b0b14ff88045d6283714a3df7e7f241003da12d79c6f4cb56f01426",
+          "start": 0,
+          "end": 163
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p6",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p6",
+          "originalRevision": 1,
+          "originalSha256": "b4aa7fcfa8bd9e95fe4456e239830e2219586b78af6ca1511492310ec01e4e6d",
+          "start": 0,
+          "end": 243
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p7",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p7",
+          "originalRevision": 1,
+          "originalSha256": "7a5876ddbd4c3e22a50f2293b0264d999f917b275ea5a0e0b1d31ed1b2688ece",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p8",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p8",
+          "originalRevision": 1,
+          "originalSha256": "d75b4000ad49539e98c41bd84e5196c98f287238723ac5135e13548db195fb37",
+          "start": 0,
+          "end": 146
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p9",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p9",
+          "originalRevision": 1,
+          "originalSha256": "7704ac5389fb8106c520eed1d2d3ead30593b8ca6a70cb643d44efe4a4d80cda",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p11",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p11",
+          "originalRevision": 1,
+          "originalSha256": "f5772b09476f49af1ac231c5d93accbb9479da4f9596318abc3332a708b8bfcb",
+          "start": 0,
+          "end": 251
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p12",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p12",
+          "originalRevision": 1,
+          "originalSha256": "e53e362eaa15701bfb17ea2971826f595afc982be703fb54aad37149c73a5ce8",
+          "start": 0,
+          "end": 208
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p13",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p13",
+          "originalRevision": 1,
+          "originalSha256": "f41ff8f7f81e0e85f3fc4a28a29a3dbcc4dece31bd62de67d09f52756d8d0d32",
+          "start": 0,
+          "end": 105
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p14",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p14",
+          "originalRevision": 1,
+          "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p17",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p17",
+          "originalRevision": 1,
+          "originalSha256": "7340f202ab6c49b6583939a4475520145a78ffe1921870bde73ee6d4d1b02752",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p18",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p18",
+          "originalRevision": 1,
+          "originalSha256": "1b4c357a2bfd126dda93e71eb1988074b252cdfcb7de3cac0025a539a1adbefc",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p19",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p19",
+          "originalRevision": 1,
+          "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p20",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p20",
+          "originalRevision": 1,
+          "originalSha256": "287dd38c1265ac88a175929200adbcf2a82d7506d5795b9ec5da920e864e487f",
+          "start": 0,
+          "end": 149
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p21",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p21",
+          "originalRevision": 1,
+          "originalSha256": "107187db2fca29d4d48b2a716208b99bc4a5ac415dd861c4634f6833e28d5d5d",
+          "start": 0,
+          "end": 203
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p22",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p22",
+          "originalRevision": 1,
+          "originalSha256": "4ad91ba7d81239df2d45ac46e4179fb05c7c54639798a2163d0959d1b2581005",
+          "start": 0,
+          "end": 56
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-shiguochunqiu-v013-p2",
       "chapterId": "shiguochunqiu-v013",
       "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 2 段",
@@ -111018,6 +111430,10 @@
         {
           "personId": "wu-xu-wen-chen-furen",
           "kind": "mention"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -121365,6 +121781,26 @@
       "people": [
         {
           "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v270-p83",
+      "chapterId": "tongjian-v270",
+      "title": "卷 270 · 后梁纪5 · 第 83 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v270-p83",
+          "originalRevision": 1,
+          "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-cao-yun-wife-unknown",
           "kind": "record"
         }
       ]

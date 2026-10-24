@@ -345,7 +345,26 @@
       "yearRange": {
         "start": 898,
         "end": 899
-      }
+      },
+      "variants": [
+        {
+          "label": "卷9王坛传光化三年讨平",
+          "sourceDate": "光化三年，全年对应900—901，未独记月日",
+          "summary": "本传将王坛被讨败、奔宣州系在光化三年，《新五代史》则承光化元年迁镇及接续诸事叙述。两书的阶段与纪年叙次分别保存，不强合为同一确定日期。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v009",
+              "paragraphId": "shiguochunqiu-v009-p9",
+              "originalRevision": 1,
+              "originalSha256": "7704ac5389fb8106c520eed1d2d3ead30593b8ca6a70cb643d44efe4a4d80cda",
+              "excerpt": "已而與東陽鎮將王永相攻，吳越武肅王時爲鎮海鎮東節度使，諭其罷兵，不從，興師討之。光化三年，師敗，奔宜州，田頵用爲親將。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "两书将讨王坛置于不同纪年叙次，光化元年898—899与光化三年900—901分别保留。"
+      ]
     },
     {
       "id": "qian-liu-hangzhou-mutiny",

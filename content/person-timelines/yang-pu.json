@@ -145,11 +145,21 @@
           "originalRevision": 1,
           "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
           "excerpt": "七年九月，溥加尊號曰睿聖文明光孝應天弘道廣德皇帝，大赦，改元天祚。知誥進位太師、天下兵馬大元帥，封齊王。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p21",
+          "originalRevision": 1,
+          "originalSha256": "107187db2fca29d4d48b2a716208b99bc4a5ac415dd861c4634f6833e28d5d5d",
+          "excerpt": "睿帝時，臨軒策命齊王知誥，詔彥伯攝門下侍郎行事。"
         }
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 5
+      "sortOrder": 5,
+      "notes": [
+        "卷9杨彦伯传详临轩策命齐王及摄官行事，两传相参为同一次封齐王的具体细节。"
+      ]
     },
     {
       "id": "yang-pu-abdication",
@@ -304,6 +314,13 @@
           "originalRevision": 1,
           "originalSha256": "c2afa11c8d2e7967eb80e70200846844e934f4a71d6258fc6b69c701136d10de",
           "excerpt": "三年，唐莊宗滅梁。遣司農卿盧蘋使于唐，嚴可求密條數事授蘋以行。蘋見洛陽，莊宗問之，蘋次第以對，皆如所授。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p20",
+          "originalRevision": 1,
+          "originalSha256": "287dd38c1265ac88a175929200adbcf2a82d7506d5795b9ec5da920e864e487f",
+          "excerpt": "順義三年，唐以滅梁來告，睿帝命蘋使于唐。嚴可求預度唐朝所問，密書數事，授之以行，最後復增黑雲都長劍多少及五十指揮使在都下諸條。蘋平唐，悉依可求疏記次第以應。唐莊宗大喜，餽賚加等，遣蘋歸。"
         }
       ],
       "phase": "uncertain",
@@ -328,7 +345,10 @@
       "yearRange": {
         "start": 923,
         "end": 924
-      }
+      },
+      "notes": [
+        "卷9详严可求预备问答与庄宗厚赐遣归；五十指挥使原词不扩定人数。既有旧史章景及卢苹来朝异叙完整保留。"
+      ]
     },
     {
       "id": "yang-pu-fleet-review",
@@ -412,6 +432,33 @@
         "start": 930,
         "end": 931
       }
+    },
+    {
+      "id": "yang-pu-wang-ren-shouchun-replacement",
+      "title": "命王稔巡视并代钟泰章",
+      "summary": "有人指钟泰章在寿州不法购取官马，杨溥命王稔巡视霍邱，代为寿州团练使，不久升节度使；指控与已裁定罪分别看待。",
+      "year": null,
+      "sortOrder": 14,
+      "precision": "range",
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      },
+      "sourceDate": "本源顺廉三年；参同书四库顺义三年，未独记月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p3",
+          "originalRevision": 1,
+          "originalSha256": "0b993e925c2643834aec8dc22130bbc6b895bd09f15f36bb5dac9edc0c60557f",
+          "excerpt": "順廉三年，有言鍾泰章在壽州侵市官馬者，睿帝命稔巡霍匠，代泰章爲壽州團練使，俄遷節度使。"
+        }
+      ],
+      "notes": [
+        "标准顺廉、霍匠参四库顺义、霍邱理解，原字不改。",
+        "顺义三年跨923—924，不把巡视或代任定在控制月首。"
+      ]
     }
   ]
 }

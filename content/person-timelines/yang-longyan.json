@@ -483,7 +483,69 @@
         "end": 917
       },
       "notes": [
-        "本传只记天祐十三年；以合法吴国年号范围对应西历916—917年，不用控制月首作战役或任官日。"
+        "本传只记天祐十三年；以合法吴国年号范围对应西历916—917年，不用控制月首作战役或任官日。",
+        "两传同记天祐十三年光州王言之乱，奉命与自行讨平、李厚与张崇的记法分别保留，不据此强定两个独立战役或同一指令。"
+      ],
+      "variants": [
+        {
+          "label": "卷9张崇不俟命讨王言",
+          "sourceDate": "本传天祐十三年，未独记月日",
+          "summary": "卷9称张崇不等命令引兵讨定光州王言、高祖奖赉；卷6称高祖命李厚讨平并使权知光州。奉命与自发、两名将领各保来源，不相互替代。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v009",
+              "paragraphId": "shiguochunqiu-v009-p11",
+              "originalRevision": 1,
+              "originalSha256": "f5772b09476f49af1ac231c5d93accbb9479da4f9596318abc3332a708b8bfcb",
+              "excerpt": "天祐十三年，光州將王言作亂，崇不俟命引兵討定，高祖獎賚有加。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yang-longyan-gu-yan-zhang-jingsi-xinzhou",
+      "title": "遣骨言护送张景思入信州",
+      "summary": "杨隆演在江西用兵，任骨言为行营都虞候；危仔昌请求归降后，以张景思代守信州，派骨言护送入境，危仔昌却弃州奔吴越。",
+      "year": null,
+      "sortOrder": 35,
+      "precision": "undated",
+      "sourceDate": "本传高祖用兵江西时；未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p4",
+          "originalRevision": 1,
+          "originalSha256": "f965dadc4a6eb34e19a5ad6375aab68ecd69e52836179e1596c244645dfed056",
+          "excerpt": "骨言，唐骨儀之後也。高祖用兵江西，以言爲行營都虞候。言驍勇果毅，雅善治兵。時危仔昌舉信州請降，高祖以張景思代之，命言率兵五十人送景思入境。仔昌聞言兵至，棄州奔吳越。言偕景思入信州，從容經畫，人服其有定亂才。"
+        }
+      ],
+      "notes": [
+        "本源只称用兵江西，不把未独记的护送动作强定在象牙潭交战日。",
+        "标准护送兵数五十，四库五千，各自保留；不据异数拼成确定兵力。"
+      ]
+    },
+    {
+      "id": "yang-longyan-appoint-chen-you-heiyun",
+      "title": "署陈祐为黑云部将",
+      "summary": "本传记陈祐少有勇力，高祖杨隆演署他为黑云部将。后文天祐十年无锡作战另叙，不反推任命的独立年月。",
+      "year": null,
+      "sortOrder": 36,
+      "precision": "undated",
+      "sourceDate": "本传先记高祖署将，未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p5",
+          "originalRevision": 1,
+          "originalSha256": "34493b560b0b14ff88045d6283714a3df7e7f241003da12d79c6f4cb56f01426",
+          "excerpt": "陳祐，少有勇力，高祖署爲黑雲部將。"
+        }
+      ],
+      "notes": [
+        "任命为高祖在本源中的明确动作；不把黑云军最初设立者、此次署将者和后来战役主将合一。"
       ]
     }
   ]

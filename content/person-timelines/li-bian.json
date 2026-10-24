@@ -409,6 +409,51 @@
       ]
     },
     {
+      "id": "li-bian-jiang-yanhui-jianzhou-recall",
+      "title": "召蒋延徽撤建州之围",
+      "summary": "蒋延徽围建州将克，徐知诰因其为杨行密婿、与杨濛相善，担心他得城后拥奉杨濛图兴复，派使者召回。蒋撤兵后被闽军追败、降职；图兴复是知诰的疑虑，不记作蒋已实施拥立。",
+      "year": 934,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "《十国春秋》卷9称太和时（约929—935年）；据《通鉴》应顺元年叙次系于934年，未定月日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p8",
+          "originalRevision": 1,
+          "originalSha256": "d75b4000ad49539e98c41bd84e5196c98f287238723ac5135e13548db195fb37",
+          "excerpt": "蔣延徽者，太祖婿也，與臨川王濛素相善，中書令徐知誥頗畏忌之。太和時官信州刺史。會建州土豪吳光爲閩臣薛文傑所逼，帥衆萬人來奔，且請兵。延徽幸其功，不俟朝命，轍引兵會攻建州，已而敗閩兵于浦城，遂圍建州。城垂克矣，知誥恐得城後延徽奉濛以圖興復，遣使趣之歸。閩人乘勢追之，師敗，延徽左遷右威衛大將軍。"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p98",
+          "originalRevision": 1,
+          "originalSha256": "eab77fed2d79085ec983e13cf7cd9d5a7884fde231350065028bff0aa2522aa6",
+          "excerpt": "蔣延徽攻建州垂克，徐知誥以延徽吳太祖之婿，與臨川王濛素善，恐其克建州奉濛以圖興復，遣使召之。延徽亦聞閩兵及吳越兵將至，引兵歸；閩人追擊，敗之，士卒死亡甚眾，歸罪於都虞侯張重進，斬之。知誥貶延徽為右威衛將軍，遣使求好於閩。"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p90",
+          "originalRevision": 1,
+          "originalSha256": "9bfc655ee871b5bfc061e19c4c5110d2e2a7f8bbb967463baae01ffea604118f",
+          "excerpt": "明宗聖德和武欽孝皇帝下清泰元年（甲午，公元九三四年）"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p91",
+          "originalRevision": 1,
+          "originalSha256": "40e94f4953d0a6f831eeabde7dfaf137aaf3bb799a40dbaa01d20dd467fd05ac",
+          "excerpt": "春，正月，戊寅，閔帝大赦，改元應順。壬午，加河陽節度使兼侍衛都指揮使康義誠兼侍中，判六軍諸衛事。"
+        }
+      ],
+      "notes": [
+        "同人、同围建州、同召回理由及撤败贬职相接，按通鉴年标题与正文正确闵帝应顺纪年系934；不把邻近干支或历表控制月首赋给召回日。",
+        "通鉴标题承前仍作明宗、清泰元年，正文记闵帝改应顺，分层保底本；错误帝号的历表回退结果不用。",
+        "本卷右威卫大将军与通鉴右威卫将军的官称各保原词。"
+      ]
+    },
+    {
       "id": "li-bian-qi-king",
       "year": 935,
       "sourceDate": "吴世家大和七年九月／天祚元年",
@@ -428,6 +473,13 @@
           "originalRevision": 1,
           "originalSha256": "bd9352d9772acd9f7704a1aa35e4699807f03b2cc6997b6ef9e0cf86bb486efd",
           "excerpt": "吳加中書令徐知誥尚父、太師、大丞相、大元帥，進封齊王，備殊禮，以升、潤、宣、池、歙、常、江、饒、信、海十州為齊國；知誥辭尚父、丞相，殊禮不受。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p21",
+          "originalRevision": 1,
+          "originalSha256": "107187db2fca29d4d48b2a716208b99bc4a5ac415dd861c4634f6833e28d5d5d",
+          "excerpt": "睿帝時，臨軒策命齊王知誥，詔彥伯攝門下侍郎行事。"
         }
       ],
       "phase": "service",
@@ -448,6 +500,9 @@
             }
           ]
         }
+      ],
+      "notes": [
+        "卷9所述为杨溥临轩策命徐知诰齐王、命杨彦伯摄门下侍郎行事；不将封王写成已经即帝位。"
       ]
     },
     {
@@ -1343,6 +1398,48 @@
       ],
       "notes": [
         "不由辅吴这一宽泛背景补定单一年份。"
+      ]
+    },
+    {
+      "id": "li-bian-stop-yang-tingshi-zhang-chong-inquiry",
+      "title": "劝止连张崇查办",
+      "summary": "庐江百姓告县令受贿，杨廷式想连张崇一起查办，徐知诰出面劝止；不把停止查办写成张崇已经证实无罪。",
+      "year": null,
+      "sortOrder": 50,
+      "precision": "undated",
+      "sourceDate": "张崇镇庐州期间；未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p11",
+          "originalRevision": 1,
+          "originalSha256": "f5772b09476f49af1ac231c5d93accbb9479da4f9596318abc3332a708b8bfcb",
+          "excerpt": "會廬江民訟縣令受賕，侍御史知雜事楊廷式欲并崇按之，徐知誥謝之而止。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "li-bian-cui-taichu-border-warning",
+      "title": "对征召崔太初表示边镇之虑",
+      "summary": "徐温想召崔太初到广陵，徐知诰担心寿州是边境重镇，可能生变；徐温不接受这一顾虑，仍把崔太初召来。",
+      "year": null,
+      "sortOrder": 51,
+      "precision": "undated",
+      "sourceDate": "本传先是追叙；未独记进言年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p13",
+          "originalRevision": 1,
+          "originalSha256": "f41ff8f7f81e0e85f3fc4a28a29a3dbcc4dece31bd62de67d09f52756d8d0d32",
+          "excerpt": "先是，徐温聞太初失民心，欲徵至廬陸，徐知誥曰：「壽州邊隅大鎮，恐爲變。」温怒曰：「崔太初不能制，如它人何！」卒徵之。"
+        }
+      ],
+      "notes": [
+        "这是已经发生的进言，不等于崔太初已反叛；顺义元年罢官不直接赋给先前的进言。"
       ]
     }
   ]

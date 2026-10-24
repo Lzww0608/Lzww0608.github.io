@@ -1326,7 +1326,7 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 32,
+      "eventCount": 35,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
@@ -1336,6 +1336,7 @@
         "li-bian-wuyi-wuxi-campaign",
         "li-bian-after-xuwen",
         "li-bian-jinling",
+        "li-bian-jiang-yanhui-jianzhou-recall",
         "li-bian-qi-king",
         "li-bian-rename-gao",
         "li-bian-yang-meng-killing",
@@ -1359,7 +1360,9 @@
         "li-bian-xiao-yan-luling-retrial",
         "li-bian-spare-zhou-ye-after-fire",
         "li-bian-reward-du-ye-wife-zhang",
-        "li-bian-stop-hawk-taking-to-end-hunts"
+        "li-bian-stop-hawk-taking-to-end-hunts",
+        "li-bian-stop-yang-tingshi-zhang-chong-inquiry",
+        "li-bian-cui-taichu-border-warning"
       ]
     },
     {
@@ -1576,7 +1579,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 28,
+      "eventCount": 29,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -1605,7 +1608,8 @@
         "li-cunxu-failed-march",
         "li-cunxu-xingjiao-death",
         "li-cunxu-burial",
-        "li-cunxu-send-xue-zhaowen-min-investiture"
+        "li-cunxu-send-xue-zhaowen-min-investiture",
+        "li-cunxu-receive-lu-pin-wu-envoy"
       ]
     },
     {
@@ -2913,9 +2917,10 @@
     },
     {
       "personId": "qian-yuanguan",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "qian-yuanguan-qianqiuling",
+        "qian-yuanguan-wuxi-defeat-tianyou10",
         "qian-yuanguan-langshan",
         "qian-yuanguan-accession",
         "qian-yuanguan-commander",
@@ -4385,6 +4390,13 @@
       ]
     },
     {
+      "personId": "wu-cao-yun-wife-unknown",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-cao-yun-wife-unknown-pardon-treatment"
+      ]
+    },
+    {
       "personId": "wu-li-chan-wife-unknown",
       "eventCount": 1,
       "eventIds": [
@@ -4727,7 +4739,7 @@
     },
     {
       "personId": "yang-longyan",
-      "eventCount": 15,
+      "eventCount": 17,
       "eventIds": [
         "yang-longyan-accession",
         "yang-longyan-xu-control",
@@ -4743,12 +4755,14 @@
         "yang-longyan-lei-yangong-deputy",
         "yang-longyan-reward-zhai-qian-yiling",
         "yang-longyan-send-wang-ding-shouchun",
-        "yang-longyan-li-hou-wang-yan"
+        "yang-longyan-li-hou-wang-yan",
+        "yang-longyan-gu-yan-zhang-jingsi-xinzhou",
+        "yang-longyan-appoint-chen-you-heiyun"
       ]
     },
     {
       "personId": "yang-pu",
-      "eventCount": 13,
+      "eventCount": 14,
       "eventIds": [
         "yang-pu-accession",
         "yang-pu-shunyi",
@@ -4762,7 +4776,8 @@
         "yang-pu-embassy-tang",
         "yang-pu-fleet-review",
         "yang-pu-dahe",
-        "yang-pu-heir"
+        "yang-pu-heir",
+        "yang-pu-wang-ren-shouchun-replacement"
       ]
     },
     {
@@ -4790,7 +4805,7 @@
     },
     {
       "personId": "yang-wo",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "yang-wo-take-jiangxi",
         "yang-wo-loss-of-power",
@@ -4799,12 +4814,13 @@
         "yang-wo-xuanzhou-recalled",
         "yang-wo-wang-maozhang",
         "yang-wo-chu-defeat",
-        "yang-wo-zhao-kuangning-hailing"
+        "yang-wo-zhao-kuangning-hailing",
+        "yang-wo-redeem-xu-shan-sister"
       ]
     },
     {
       "personId": "yang-xingmi",
-      "eventCount": 26,
+      "eventCount": 27,
       "eventIds": [
         "yang-xingmi-first-yangzhou",
         "yang-xingmi-retreat-luzhou",
@@ -4831,7 +4847,8 @@
         "yang-xingmi-liu-rengui-haozhou",
         "yang-xingmi-liujin-gaoba-join",
         "yang-xingmi-cai-chou-zhang-hao",
-        "yang-xingmi-recruit-dingzhen"
+        "yang-xingmi-recruit-dingzhen",
+        "yang-xingmi-recruit-wang-family"
       ]
     },
     {
