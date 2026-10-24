@@ -5,7 +5,7 @@ export type OwnerReviewFilters = { personId: string; bookId: string; status: str
 export const reviewStatuses: ReviewStatus[] = ['open', 'resolved', 'retained', 'checked'];
 export const reviewCategories: ReviewCategory[] = ['translation', 'association', 'relationship', 'source-note'];
 const subjectIds = reviewSubjects.map(subject => subject.id);
-const bookIds: BookId[] = ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen'];
+const bookIds: BookId[] = ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi'];
 
 export function resolveOwnerReviewRoute(route: string): OwnerReviewFilters | null {
   const [path, query] = route.split('?', 2);

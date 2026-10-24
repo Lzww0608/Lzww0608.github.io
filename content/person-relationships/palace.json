@@ -9164,5 +9164,151 @@
         "title": "《新五代史》 · 卷 61 · 吴世家第一"
       }
     ]
+  },
+  {
+    "id": "wei-quanfeng-unnamed-daughter-father-daughter",
+    "from": "wu-wei-quanfeng",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "依婚议中明确的其女辨认父女，不补生母、兄弟姊妹或女方名讳。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      },
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p18",
+        "originalRevision": 1,
+        "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+        "excerpt": "全諷聞之，明日乃亦聽命，請以女妻傳子匡時。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "tongjian-v262",
+        "paragraphId": "tongjian-v262-p88",
+        "originalRevision": 1,
+        "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+        "excerpt": "全諷聞之，謝罪聽命，以女妻傳子匡時。",
+        "title": "《资治通鉴》 · 卷 262 · 唐纪七十八"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p10",
+        "originalRevision": 1,
+        "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+        "excerpt": "全諷聞之，明日，乃亦聽命，請以女妻匡時。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "zhong-kuangshi-wei-daughter-marriage",
+    "from": "wu-zhong-kuangshi",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "kinship",
+    "label": "婚家；分源记请婚、许婚与嫁女",
+    "note": "《通鉴》直接记危全讽以女嫁钟匡时；新史、十国春秋仅记请求，九国志另有父亲钟传应允。关系说明不将四书一律写成成婚仪礼的记录，不补子女或唯一配偶。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v262",
+        "paragraphId": "tongjian-v262-p88",
+        "originalRevision": 1,
+        "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+        "excerpt": "全諷聞之，謝罪聽命，以女妻傳子匡時。",
+        "title": "《资治通鉴》 · 卷 262 · 唐纪七十八"
+      },
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p18",
+        "originalRevision": 1,
+        "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+        "excerpt": "全諷聞之，明日乃亦聽命，請以女妻傳子匡時。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p10",
+        "originalRevision": 1,
+        "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+        "excerpt": "全諷聞之，明日，乃亦聽命，請以女妻匡時。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "zhong-chuan-zhong-kuangshi-father-son",
+    "from": "wu-zhong-chuan",
+    "to": "wu-zhong-kuangshi",
+    "kind": "kinship",
+    "label": "父子；九国志称长子",
+    "note": "新史明确钟传之子匡时，九国志婚事称长子；不把钟传养子延规合并为匡时。",
+    "sources": [
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p19",
+        "originalRevision": 1,
+        "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110",
+        "excerpt": "天祐三年，傳卒，子匡時自稱留後，請命于唐。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "zhong-chuan-wei-daughter-marriage-consent",
+    "from": "wu-zhong-chuan",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "service",
+    "label": "答应婚约",
+    "note": "仅记钟传在危全讽请婚后答应的动作与具体婚家对象；不表示女方任官、主从、收养或由他直接执行婚礼。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "wei-quanfeng-unnamed-elder-sister",
+    "from": "wu-wei-quanfeng-sister-unknown",
+    "to": "wu-wei-quanfeng",
+    "kind": "kinship",
+    "label": "姊弟",
+    "note": "本传以其姊保护初生危全讽辨认姐姐与弟弟；不推同母、母系或其他失载家庭成员。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "初生赤而毛，醜狀駭人，父母欲勿舉，其姊保護之，僅而得全。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
   }
 ]

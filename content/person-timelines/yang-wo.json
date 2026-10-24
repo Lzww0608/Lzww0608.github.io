@@ -23,6 +23,13 @@
           "originalRevision": 1,
           "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
           "excerpt": "天祐三年，傳卒，匡時自稱留後，請命于唐。全諷曰：「聽鍾郎爲節度三年，吾將自爲之。」已而傳養子延規與匡時爭立，乞兵烈祖，烈祖遣秦裴等攻匡時。匡時敗，被執，歸于廣陵。未幾，全諷起兵江西，謀復鍾氏故地。"
+        },
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p19",
+          "originalRevision": 1,
+          "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110",
+          "excerpt": "天祐三年，傳卒，子匡時自稱留後，請命于唐。全諷曰：「聽鍾郎為節度使三年，吾將自為之。」已而傳養子延規與匡時爭立，乞兵於楊渥，渥遣秦裴等攻匡時，匡時敗，被執歸廣陵。"
         }
       ],
       "phase": "rule",
@@ -49,7 +56,23 @@
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "《九国志》张颢使陈祐在豫章宴斩三将",
+          "sourceDate": "秦裴取豫章后，未独记年月日",
+          "summary": "本源为张颢令陈祐借渥命赴豫章，在秦裴帐中宴斩朱思勍、范思从、陈璠；旧新史主证为温、颢带牙兵入内斩陈璠等，并见范遇称名。保人物、地点和施事差异，不拼成同三人先后两次被杀，也不认定杨渥发出了被借名的命令。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p29",
+              "originalRevision": 1,
+              "originalSha256": "84233b1b259e80c834eceed9ebcba28009798028f4219e502fe1a20f6838beb2",
+              "excerpt": "秦裴下豫章，時朱思勍、范思從、陳璠以兵戍之。璠等皆渥之心腹也，張顥忌焉，令祐以渥命往誅之。三校皆勇士也，顥旣遣祐行，甚憂之。祐踰險輕行，六日至豫章，微服懷短兵，入秦裴帳下。裴驚其來，且告之故，因責裴以不能制三帥，而令有異謀。裴懼，未及對，祐乃令召思勍等宴會。及至，則祐已與裴飲矣。三校入見祐，皆色變。俄而酒三行，祐數其罪，悉叱而斬之以歸。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "yang-wo-assassination",
@@ -64,6 +87,13 @@
           "originalRevision": 1,
           "originalSha256": "1cc1bc980b745d43fb38709fda89e5aa6fc188e5db9d093e9dedf66ad3259404",
           "excerpt": "五年五月，溫、顥共遣盜入寢中殺渥，渥說羣盜能反殺溫等者皆為刺史。羣盜皆諾，惟紀祥不從，執渥縊殺之，時年二十三，謚曰景。弟隆演立。溥僭號，追尊渥為烈宗景皇帝，陵曰紹陵。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p15",
+          "originalRevision": 1,
+          "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07",
+          "excerpt": "天祐五年，張顥弑渥，將出徐温守潤州，以圖自立。"
         }
       ],
       "phase": "fall",
@@ -85,7 +115,10 @@
           "summary": "旧史记六月被张颢所杀，新史记五月徐温、张颢共谋，分别保留。"
         }
       ],
-      "sortOrder": 3
+      "sortOrder": 3,
+      "notes": [
+        "本源钟泰章传明称张颢弑渥，但只系天祐五年；不由此抹掉旧史六月、新史五月及徐温是否共谋的原有异说。"
+      ]
     },
     {
       "id": "yang-wo-posthumous",
@@ -133,6 +166,27 @@
           "originalRevision": 1,
           "originalSha256": "472b0b1c3d75f3ffe996b66414ce3acaa21473db794a34bc78418ea509377378",
           "excerpt": "太祖卽世，諸將復詣儼承制授烈祖爲弘農郡王。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p13",
+          "originalRevision": 1,
+          "originalSha256": "3c0240b1d7f44a0c642c4888b1f701d9abf7fbd524f2669f328cf92412bc046f",
+          "excerpt": "渥襲位，授和州刺史。初，行密旣卒，張顥陰有異志，以都統符印送宣諭使李儼行事。嗣王意未決，一日，諸將共議，四座畏顥，無敢言者。濤曰：「都統符印是昭皇御翰所賜，王父子承襲，用在不疑，苛付他人，中外安仰？」諸將以其辭正，皆伏義，顥獨默然投袂而去。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p27",
+          "originalRevision": 1,
+          "originalSha256": "6bf0720cfc7300102cbb431f7302dd63a738d631480efc1cd7539c46ea5e8869",
+          "excerpt": "渥嗣位，潭人犯邊，授西南面行營護軍副將，謂諸將曰：「彼衆我寡，未欲輕動。」"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "excerpt": "渥襲位，補衙將。"
         }
       ],
       "phase": "uncertain",
@@ -143,7 +197,8 @@
         "end": 906
       },
       "notes": [
-        "承制授弘农郡王补继承程序；烈祖局部指杨渥，不写为即帝位或另一君主。"
+        "承制授弘农郡王补继承程序；烈祖局部指杨渥，不写为即帝位或另一君主。",
+        "李涛传以嗣王军权讨论补杨渥继承后的处境；杨彪、刘权传仅提供嗣位及任职叙次。不改召回经过、周隐结局或原有905—906范围。"
       ]
     },
     {
@@ -202,6 +257,29 @@
         "start": 907,
         "end": 908
       }
+    },
+    {
+      "id": "yang-wo-zhao-kuangning-hailing",
+      "title": "渐不礼赵匡凝并迁之海陵",
+      "summary": "杨行密死后，杨渥逐渐不礼赵匡凝。赵在宴席间以吃青梅的戏语相讥，诸将认为轻慢，杨渥将赵迁至海陵。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "本卷“其后行密死”之后；未独记迁徙年月",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "evidence": [
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p26",
+          "originalRevision": 1,
+          "originalSha256": "c14f37b909a4c6f7984566487ae9a0e75022b32c9e58c00273c2b8b3565cc96b",
+          "excerpt": "其後行密死，楊渥稍不禮之。渥方宴，食青梅，匡凝顧渥曰：「勿多食，發小兒熱。」諸將以為慢，渥遷匡凝海陵，後為徐溫所殺。"
+        }
+      ],
+      "notes": [
+        "后来杀赵匡凝的施事原作徐温，不归给杨渥，也不把宴中戏语当作医学断言。",
+        "十国春秋卷8作“诸将以为倨慢，迁匡凝梅陵”，新史卷41明确“渥迁匡凝海陵”；迁徙施事的明隐与梅/海地名分源保留，不静改已发布旧译。"
+      ]
     }
   ]
 }

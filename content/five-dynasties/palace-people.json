@@ -252,7 +252,9 @@
     "wu-zhu-jin-wife-tao",
     "wu-zhu-jin-concubine-comforting-tao",
     "wu-li-chan-wife-unknown",
-    "wu-peng-yanzhang-wife-unknown"
+    "wu-peng-yanzhang-wife-unknown",
+    "wu-wei-quanfeng-daughter-unknown",
+    "wu-wei-quanfeng-sister-unknown"
   ],
   "people": [
     {
@@ -7699,6 +7701,69 @@
         {
           "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        }
+      ]
+    },
+    {
+      "id": "wu-wei-quanfeng-daughter-unknown",
+      "name": "危全讽女（失名）",
+      "dynasty": "吴",
+      "role": "危全讽之女；钟匡时婚家记载",
+      "intro": "危全讽的女儿，姓名未载。《新五代史》《十国春秋》记危全讽听命后请求将女儿嫁给钟匡时；《九国志》另记钟传答应，双方结盟回军；《资治通鉴》则直接记以女嫁钟匡时。各书措辞分别保留。",
+      "periodLabel": "晚唐江西婚家记载；与吴国形成前后史事相关",
+      "sourceNotes": [
+        "女方以危全讽女这一具体亲属身份辨认，不补名字、生母、生卒或女方个人意愿。危全讽的姐姐另为一人，不与其女混同。",
+        "新史与十国春秋仅记请求；九国志记请求、钟传应允及结盟；通鉴作以女妻传子匡时。不用一书措辞改写他书，也不由婚约推定仪礼、同居或子女。",
+        "通鉴将事放在天复元年末的编年叙次，未独记月日；天复元年跨西历901—902，不把邻段十二月的日期直接移用。其他三书此处均未系婚年。",
+        "钟匡时的被擒、钟传及危全讽的死亡不作为女方结局；本事发生于晚唐江西，属于吴国形成前后的相关材料；未载她曾入吴宫廷或受后妃封号。",
+        "相关材料可能相互承用；同源转述不算独立亲历复证。"
+      ],
+      "aliases": "危全諷女（失名） 危全讽女 危全諷女 危全讽之女 危全諷之女",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008",
+        "new": "new-v41",
+        "tongjian": "tongjian-v262",
+        "jiuguozhi": "jiuguozhi-v002"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》卷 8 · 吴列传（朱瑾、李承嗣等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        },
+        {
+          "title": "《新五代史》卷 41 · 杂传第二十九",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B741&oldid=1721673"
+        },
+        {
+          "title": "《资治通鉴》卷 262 · 唐纪七十八",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7262&oldid=1764816"
+        },
+        {
+          "title": "《九国志》卷 2 · 吴人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E4%BA%8C&oldid=2596554"
+        }
+      ]
+    },
+    {
+      "id": "wu-wei-quanfeng-sister-unknown",
+      "name": "危全讽姊（失名）",
+      "dynasty": "吴",
+      "role": "危全讽的姐姐；本传载保护幼弟",
+      "intro": "危全讽的姐姐，姓名未载。《九国志》在危全讽的出生异闻中记其父母想不养育他，姐姐加以保护，他才得以保全。此为本书所载叙事，与危全讽后来请婚的女儿分属两人。",
+      "periodLabel": "危全讽出生时的家内叙事；年代未定",
+      "sourceNotes": [
+        "本条仅按《九国志》具体“其姊保护之”辨认姐姐，未记名字、出生年月、婚配或结局。",
+        "通体发红而多毛等异状属于本传出生异闻的叙述，不据此确认奇异体貌或其他神异事实；保护幼弟也作为该书的具体记载呈现。",
+        "原文只记“姊”，不推定同母、母系或其他兄弟姊妹；不与危全讽的女儿合人，也不据亲属身份称她为吴国宫廷后妃。"
+      ],
+      "aliases": "危全讽姊 危全諷姊 危全讽姐姐 危全諷姐姐 危全讽之姊 危全諷之姊",
+      "readingStarts": {
+        "jiuguozhi": "jiuguozhi-v002"
+      },
+      "sources": [
+        {
+          "title": "《九国志》 · 卷 2 · 吴人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E4%BA%8C&oldid=2596554"
         }
       ]
     }

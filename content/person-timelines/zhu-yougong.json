@@ -4,6 +4,29 @@
   "personId": "zhu-yougong",
   "events": [
     {
+      "id": "zhu-yougong-siege-yanzhou-for-zhu-wen",
+      "title": "率军攻兖州，掘壕围城",
+      "summary": "《九国志》朱瑾传记梁祖部将朱友恭攻朱瑾，在兖城外掘壕守围；不将朱温后续亲至和送朱琼的行为移给友恭。",
+      "year": 895,
+      "precision": "year",
+      "sourceDate": "本书乾宁二年春，属西历895年；未独记月日",
+      "phase": "service",
+      "sortOrder": 26,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+          "excerpt": "二年春，梁祖將朱友恭攻瑾，塹其城守之。"
+        }
+      ],
+      "notes": [
+        "与朱温纪事中的围兖是同一行动的不同人物视角；本句领军攻城者为朱友恭。",
+        "乾宁二年春正月至三月均属895年（儒略历），未记围城确日。"
+      ]
+    },
+    {
       "id": "zhu-yougong-guards",
       "title": "昭宗迁洛，任宫卫统军",
       "summary": "天祐初昭宗迁洛阳，朱友恭被征掌宫廷军职；旧史作左龙虎统军，新史作右龙武统军，各依来源。",

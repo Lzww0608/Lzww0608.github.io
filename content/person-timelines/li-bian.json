@@ -68,6 +68,13 @@
           "originalRevision": 1,
           "originalSha256": "076b9e48044f697dc36f29a26a0dcd3ba51d92fc8bf1ef629df4ca5535cb4c9e",
           "excerpt": "吳升州刺史徐知誥治城市府捨甚盛。五月，徐溫行部至升州，愛其繁富。潤州司馬陳彥謙勸溫徙鎮海軍治所於升州，溫從之，徙知誥為潤州團練使。知誥求宣州，溫不許，知誥不樂。宋齊丘密言於知誥曰：「三郎驕縱，敗在朝夕。潤州去廣陵隔一水耳，此天授也。」知誥悅，即之官。三郎，謂溫長子知訓也。溫以陳彥謙為鎮海節度判官。溫但舉大綱，細務悉委彥謙，江、淮稱治。彥謙，常州人也。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p27",
+          "originalRevision": 1,
+          "originalSha256": "6bf0720cfc7300102cbb431f7302dd63a738d631480efc1cd7539c46ea5e8869",
+          "excerpt": "徐知誥鎭潤州，充都尉以從。"
         }
       ],
       "phase": "service",
@@ -88,6 +95,9 @@
             }
           ]
         }
+      ],
+      "notes": [
+        "本源杨彪传仅以徐知诰镇润州为后续背景，补同一任镇出处，不据此统一旧史915与通鉴917。"
       ]
     },
     {
@@ -110,6 +120,13 @@
           "originalRevision": 1,
           "originalSha256": "dca7cdeedcb2d8317e3cd28be0adc0c2397b28c67cd225751573e4464ad351d7",
           "excerpt": "既而徐知訓為朱瑾所殺，溫居金陵，未及聞。昪居潤州，近廣陵，得先聞，即日以州兵渡江定亂，遂得政。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "excerpt": "及瑾殺知訓，城中恐懼，將從而爲變。權出師，而瑾自殺，衆乃肅然。徐知誥至自丹陽，遷左右軍都押衙事。"
         }
       ],
       "phase": "service",
@@ -160,7 +177,8 @@
         }
       ],
       "notes": [
-        "六月是通鉴编年及考异所系，不把所有后续宽刑、税制措施染成同一日。"
+        "六月是通鉴编年及考异所系，不把所有后续宽刑、税制措施染成同一日。",
+        "本源刘权传记朱瑾自杀后徐知诰自丹阳来、刘权迁职；不将未明任命施事的“迁”补作知诰下令，也不将自丹阳改写为当日从润州。"
       ]
     },
     {
@@ -239,6 +257,29 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "id": "li-bian-wuyi-wuxi-campaign",
+      "title": "率军在无锡击败越军",
+      "summary": "《九国志》刘权传在武义元年六月从徐温沙山洛社之战后，另记七月刘权从徐知诰战无锡，大破越军。",
+      "year": 919,
+      "precision": "month",
+      "sourceDate": "本源武义元年七月，属西历919年；未独记日",
+      "phase": "service",
+      "sortOrder": 49,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "excerpt": "武義元年，領雄武大將軍。六月，從徐温與越人戰于沙山洛社，敗之，俘其卒數千。七月，從知誥戰無錫，大破越人。"
+        }
+      ],
+      "notes": [
+        "六月沙山洛社的主帅是徐温，七月无锡所从是徐知诰；杨彪传另述知诰东征无锡而未独年月，不强合其战程为同一次。",
+        "武义元年七月全在919年（儒略历），不将六月徐温之战与七月徐知诰之战合为同日。"
       ]
     },
     {

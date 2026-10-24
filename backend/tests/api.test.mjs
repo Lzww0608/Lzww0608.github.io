@@ -57,7 +57,7 @@ test('chapter returns ordered originals and only the latest published translatio
   assert.equal(chapter.scope, 'excerpt');
 });
 test('unpublished books and chapters never appear in API or search', async () => {
-  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['beimeng', 'chunqiu', 'huiyao', 'kaoyi', 'nantangjinshi', 'nantanglu', 'nantangma', 'old', 'quantangwen', 'quewen', 'shibu', 'shiguochunqiu', 'tongjian']);
+  assert.deepEqual((await (await fetch(`${base}/api/books`)).json()).books.map(b => b.id).sort(), ['beimeng', 'chunqiu', 'huiyao', 'jiuguozhi', 'kaoyi', 'nantangjinshi', 'nantanglu', 'nantangma', 'old', 'quantangwen', 'quewen', 'shibu', 'shiguochunqiu', 'tongjian']);
   assert.equal((await fetch(`${base}/api/chapters/new-1`)).status, 404);
   assert.equal((await fetch(`${base}/api/books/new/chapters`)).status, 404);
   assert.equal((await (await fetch(`${base}/api/search?q=新修订`)).json()).results.length, 0);
@@ -134,8 +134,8 @@ test('full archived chapters are available through the read-only API', async () 
   assert.ok(palace.paragraphs[5].original.includes('《歐陽史次妃郭氏傳》'));
   assert.ok(palace.paragraphs.every(paragraph => paragraph.translation === null));
   const directory = (await (await fetch(`${base}/api/books/tongjian/chapters`)).json()).chapters;
-  assert.equal(directory.length, 29);
-  assert.equal(directory[0].id, 'tongjian-v266');
+  assert.equal(directory.length, 30);
+  assert.equal(directory[0].id, 'tongjian-v262');
   assert.equal(directory.at(-1).id, 'tongjian-v294');
 });
 

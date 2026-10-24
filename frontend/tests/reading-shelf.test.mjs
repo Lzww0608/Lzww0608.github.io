@@ -113,7 +113,7 @@ test('actual Ma Ling book routes, exact paragraph bookmarks and script switching
 
 test('new regional book routes and exact paragraph bookmarks survive export/import and script conversion', async () => {
   const convert = await loadOriginalConverter();
-  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884']]) {
+  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884'], ['jiuguozhi', 'jiuguozhi-v002']]) {
     const book = libraryBooks.find(b => b.id === bookId), chapter = libraryChapters.find(c => c.id === chapterId);
     assert.ok(book && chapter, 'The complete fixed source must be integrated before release.');
     const archived = JSON.parse(await fs.readFile(new URL(`../../content/five-dynasties/chapters/${chapterId}.json`, import.meta.url), 'utf8'));
@@ -139,7 +139,7 @@ test('new regional book routes and exact paragraph bookmarks survive export/impo
 });
 
 test('new regional book offline versions stay readable but successful invalid API cannot revive the archive', async () => {
-  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884']]) {
+  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884'], ['jiuguozhi', 'jiuguozhi-v002']]) {
     const archived = JSON.parse(await fs.readFile(new URL(`../../content/five-dynasties/chapters/${chapterId}.json`, import.meta.url), 'utf8'));
     const options = { bookId, chapterId, apiBase: 'https://api.example', archiveBase: '/', signal: new AbortController().signal };
     const offline = await readChapter({ ...options, fetcher: async url => {

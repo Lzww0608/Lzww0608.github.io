@@ -4,6 +4,50 @@
   "scope": "current-archive",
   "events": [
     {
+      "id": "qian-liu-muzhou-defence",
+      "title": "遣从弟钱銶拒康儒攻睦",
+      "summary": "宣州将康儒攻睦州，钱镠遣其从弟钱銶拒敌。",
+      "year": 900,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "光化三年春正月相关叙次",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p4",
+          "originalRevision": 1,
+          "originalSha256": "5b64c12607ae557d21041e85b94fc1ce045efd5ff4aebb48f526b1406f467a0e",
+          "excerpt": "春，正月，宣州將康儒攻睦州，錢鏐使其從弟銶拒之。"
+        }
+      ],
+      "notes": [
+        "只据从弟称谓，不补其母系或亲生排行。"
+      ]
+    },
+    {
+      "id": "qian-liu-shizhong",
+      "title": "加守侍中",
+      "summary": "唐廷给镇海、镇东节度使钱镠加守侍中。",
+      "year": 901,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "天复元年五月己酉相关叙次",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p57",
+          "originalRevision": 1,
+          "originalSha256": "34a6819cbd7751b9ba00b205456e7b5071e9dda1ddb0d525d2ed3565d4921ee9",
+          "excerpt": "朱全忠奏乞除河中節度使，而諷吏民請己為帥。癸卯，以全忠為宣武、宣義，天平、護國四鎮節度使。己酉，加鎮海、鎮東節度使錢鏐守侍中。"
+        }
+      ],
+      "notes": [
+        "这里是本人加官，与后来吴越王、尚父等封号分开。"
+      ]
+    },
+    {
       "id": "qian-liu-wuyue-prince",
       "year": 907,
       "sourceDate": "梁太祖即位",
@@ -594,6 +638,92 @@
       "phase": "uncertain",
       "precision": "undated",
       "sortOrder": 20
+    },
+    {
+      "id": "qian-liu-linan-defeat-and-peace",
+      "title": "顾全武被俘后临安受攻并请和",
+      "summary": "顾全武被李神福伏兵擒获，钱镠闻讯惊泣。李神福攻临安不下，护钱氏祖坟并使顾全武通家信，钱镠遣使致谢；又误以虚寨为大军，向神福请和，神福受犒赂而还。",
+      "year": null,
+      "sortOrder": 21,
+      "precision": "range",
+      "sourceDate": "天复元年秋冬李神福攻杭州、临安相关叙次；未独记请和日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p68",
+          "originalRevision": 1,
+          "originalSha256": "4224cf00c37f603e3d0e16146a21feb6625dd6990daa3d1c5b2f25502173c048",
+          "excerpt": "或告楊行密雲，錢鏐為盜所殺。行密遣步軍都指揮使李神福等將兵取杭州，兩浙將顧全武等列八寨以拒之。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p71",
+          "originalRevision": 1,
+          "originalSha256": "323f0edacaeb2d96922f9a0d5dd513ddd658b392fdc389ca1e98141aee9ce317",
+          "excerpt": "李神福與顧全武相拒久之，神福?窈擠蘗使出入臥內。神福謂諸將曰：「杭兵尚強，我師且當夜還。」杭俘走告全武，神福命勿追，暮遣羸兵先行，神福為殿，使行營都尉呂師造伏兵青山下。全武素輕神福，出兵追之。神福、師造夾擊，大破之，斬首五千級，生擒全武。錢鏐聞之，驚泣曰：「喪我良將！」神福進攻臨安，兩浙將秦昶帥眾三千降之。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p86",
+          "originalRevision": 1,
+          "originalSha256": "44162d52ef0ad2aa2670a0a10cf4b59b6d9fd512a6e886876083f7c789222d11",
+          "excerpt": "李神福知錢鏐定不死，而臨安城堅，久攻不拔，欲歸，恐為鏐所邀，乃遣人守衛鏐祖考丘壟，禁樵采，又使顧全武通家信。鏐遣使謝之。神福於要路多張旗幟為虛寨，鏐以為淮南兵大至，遂請和。神福受其犒賂而還。"
+        }
+      ],
+      "notes": [
+        "战前钱镠已死为误传，后文明记李神福知其未死。范围901—902是本书年次外界，未给全部交战与和议定同月。"
+      ],
+      "yearRange": {
+        "start": 901,
+        "end": 902
+      }
+    },
+    {
+      "id": "qian-liu-night-attack-wuxi-zhang-kecong",
+      "title": "遣将卒夜袭无锡，被张可琮两次击退",
+      "summary": "《九国志》张可琮传记钱镠忌其名，挑选骁勇将卒二千，夜袭无锡；张可琮以百余人守城击退，又息灯旗诱敌再来，突击而破。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "本源天复中张可琮守无锡后，未独记出兵年月日",
+      "phase": "uncertain",
+      "sortOrder": 40,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p23",
+          "originalRevision": 1,
+          "originalSha256": "111a59eeffa3e36308b98f4e98ea49b9ee4f8ef95a9e00ff96bd2b4ec638f4e9",
+          "excerpt": "時吳人初得宣城、毘陵之地，無錫居越人之衝，患其攻擾，天復中，選可琮守之。錢鏐忌其名，揀驍將卒二千，中夜襲之，邑中大擾。可琮閱兵得百餘人，皆乘城疾戰，越人驚潰而去。吏士皆賀，可琮笑曰：「彼衆我寡，其勢未已，方復勞諸軍一陣爾。」于是息燈火，屏旗鼓，若空邑然。越人偵之，以爲宵遁，果復至。可琮約將士候其附城，突擊犬大破之，宼盡潰去，方告于郡守李簡。簡雖怒其不時告，且壯其事，列上其功。"
+        }
+      ],
+      "notes": [
+        "钱镠挑选将卒出击，不是本人亲征；底本犬字疑讹，未据此补具体钟点或死伤。",
+        "唐昭宗天复年号范围为901—904年（儒略历），但“天复中”直接修饰张可琮受守无锡；后接夜袭未另系年，不能将夜袭也强定于此范围。"
+      ]
+    },
+    {
+      "id": "qian-liu-release-liu-quan-after-peace",
+      "title": "慰刘权并在通和后放归",
+      "summary": "《九国志》刘权传记光化二年刘权从田頵与越军战而被俘，钱镠慰其为壮士，称不会以俘虏相蓄；及通和，放其回去。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "刘权被俘系光化二年，放归在通和后；未独记释放年月日",
+      "phase": "uncertain",
+      "sortOrder": 41,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "excerpt": "光化二年，頵與越人戰，權乘勝深入，爲宼所得。錢鏐見而慰之曰：「爾壯士也，吾終不以俘虜相蓄。」洎通和，縱之歸。"
+        }
+      ],
+      "notes": [
+        "被俘与通和放归不强定同日；缔和者未具名，归后婚家关系未详。",
+        "光化二年跨899—900年（儒略历），只明确刘权被俘之时；通和后放归未有时间上界，不能把整段经历强定在被俘年。"
+      ]
     }
   ]
 }

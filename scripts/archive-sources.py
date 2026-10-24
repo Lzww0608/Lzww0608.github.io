@@ -21,19 +21,20 @@ LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
     dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 94 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
-    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、相关人物列传及十国世家卷 61—70；共 42 卷，合传均整卷保留，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
-    dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='卷 266—294，完整收录五代部分，涵盖 907—959 年，共 29 卷。', defaultChapter='tongjian-v266'),
+    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、相关人物列传及十国世家卷 61—70；共 43 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
+    dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='现收卷 266—294 的五代部分（907—959 年），另收卷 262 的晚唐记事，补充吴国相关人物的早期材料；共 30 卷，不表示全书已收录。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
     dict(id='chunqiu', title='五代春秋', sourceTitle='五代春秋', author='北宋 · 尹洙撰', kind='编年史', image='', description='上下两卷全文及提要，简明记述后梁至后周的政权与史事，可与年表和《资治通鉴》对读。', defaultChapter='chunqiu-v001'),
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载及卷 7、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载及卷 7、8、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。', defaultChapter='nantangma-v010'),
     dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
     dict(id='quantangwen', title='全唐文', sourceTitle='全唐文', author='徐铉（本卷撰文者）', kind='诗文总集 · 碑铭', image='', description='现收卷 884 全文，含徐铉所撰碑铭；本卷撰文者与总集编纂身份分开，保留正文、铭文、夹注及来源标点，不表示全书已收录。碑文所述褒赠及家世按其文体与来源分别核验。', defaultChapter='quantangwen-v884'),
+    dict(id='jiuguozhi', title='九国志', sourceTitle='九國志', author='北宋 · 路振撰', kind='十国史 · 纪传体', image='', description='现收卷 2 的吴国人物列传，完整保留正文、夹注与标点，不表示全书已收录；婚家及人物异说按来源分别理解。', defaultChapter='jiuguozhi-v002'),
 ]
 for book in BOOKS:
     book['url'] = 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(book['sourceTitle'])
@@ -87,6 +88,14 @@ for volume, title, subjects in [
 # Complete shared biography supplies source-qualified family references and all notes.
 SPECS.append(dict(id='new-v39', bookId='new', volume=39, title='卷 39 · 杂传第二十七',
                   page='新五代史/卷39', subjects=[], scanSubjects=True))
+# These complete fixed volumes preserve differing accounts of Wei Quanfeng's
+# daughter and Zhong Kuangshi; omitted intervening volumes are not auto-added.
+SPECS.append(dict(id='new-v41', bookId='new', volume=41, title='卷 41 · 杂传第二十九',
+                  page='新五代史/卷41', subjects=[], fixedRevisionId=1721673))
+SPECS.append(dict(id='tongjian-v262', bookId='tongjian', volume=262, title='卷 262 · 唐纪七十八',
+                  years='900—901', page='資治通鑑/卷262', subjects=[], fixedRevisionId=1764816))
+SPECS.append(dict(id='jiuguozhi-v002', bookId='jiuguozhi', volume=2, title='卷 2 · 吴人物列传',
+                  page='九國志/卷二', subjects=[], fixedRevisionId=2596554))
 # Preserve this complete Jin shared biography, including source-qualified family evidence.
 SPECS.append(dict(id='old-v091', bookId='old', volume=91, title='卷 91 · 晋书列传六',
                   page='舊五代史/卷91', subjects=[], scanSubjects=True))
@@ -251,6 +260,8 @@ for chapter_id, added_subjects in {
 
 SPECS.append(dict(id='shiguochunqiu-v007', bookId='shiguochunqiu', volume=7, position=7,
                   title='卷 7 · 吴列传（刘信、周本、李德诚等）', page='十國春秋/卷007', subjects=[], fixedRevisionId=2554075))
+SPECS.append(dict(id='shiguochunqiu-v008', bookId='shiguochunqiu', volume=8, position=8,
+                  title='卷 8 · 吴列传（朱瑾、李承嗣等）', page='十國春秋/卷008', subjects=[], fixedRevisionId=2554076))
 SPECS.append(dict(id='nantangjinshi-v002', bookId='nantangjinshi', volume=2, position=2,
                   title='卷 2 · 南唐近事', page='南唐近事', subjects=[], fixedRevisionId=1503836,
                   sourceSection={'heading': '卷二', 'untilHeading': '佚文'}))
@@ -633,7 +644,8 @@ def capture(spec, previous=None):
     ]
     if book['id'] == 'old': notes.append('《旧五代史》为辑佚本。正文保留《永乐大典》《册府元龟》等出处及整理者按语，不把夹注删作缺文。')
     if spec['id'] in {'old-v025', 'old-v026'}: notes.append('本卷记李克用及其先世、麾下人物与继承前后史事。李克用生前为晋王，武皇帝为后唐追尊，不表示其生前称帝。')
-    if book['id'] == 'tongjian': notes.append('《资治通鉴》是编年史，本站收录卷 266—294 的五代部分（907—959 年）。人物筛选按各皇帝实际在位记事及政权交接关联，并非卷内出现该人物的穷尽索引。')
+    if spec['id'] == 'tongjian-v262': notes.append('本页完整收录《资治通鉴》卷 262 的晚唐记事，补充吴国相关人物的早期材料。原书记年与西历年分别核验，不把邻段月日移给未明确纪日的婚家记载；其他已收卷见书籍目录，不表示全书已收录。')
+    elif book['id'] == 'tongjian': notes.append('《资治通鉴》是编年史，本站收录卷 266—294 的五代部分（907—959 年）。人物筛选按各皇帝实际在位记事及政权交接关联，并非卷内出现该人物的穷尽索引。')
     if spec['id'] == 'new-v10': notes.append('此卷合记后汉高祖与隐帝，收录整卷，不将隐帝部分误标为刘知远生平。')
     if book['id'] == 'quewen': notes.append('《五代史阙文》保存史事异闻，含原页提要与序文。传闻记述应与正史、编年史相互参证，不能直接视为定论。')
     if book['id'] in {'shibu', 'beimeng'}: notes.append('本书含史事逸闻，不能将传闻直接视为定论；请与正史、编年史及《资治通鉴考异》相互参证。')

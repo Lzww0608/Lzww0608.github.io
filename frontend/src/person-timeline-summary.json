@@ -1326,13 +1326,14 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 31,
+      "eventCount": 32,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
         "li-bian-take-power",
         "li-bian-formal-commission",
         "li-bian-chief-minister",
+        "li-bian-wuyi-wuxi-campaign",
         "li-bian-after-xuwen",
         "li-bian-jinling",
         "li-bian-qi-king",
@@ -1575,7 +1576,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 27,
+      "eventCount": 28,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -1603,13 +1604,15 @@
         "li-cunxu-weibo-revolt",
         "li-cunxu-failed-march",
         "li-cunxu-xingjiao-death",
-        "li-cunxu-burial"
+        "li-cunxu-burial",
+        "li-cunxu-send-xue-zhaowen-min-investiture"
       ]
     },
     {
       "personId": "li-cunzhang",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
+        "li-cunzhang-zezhou-loss",
         "li-cunzhang-succession",
         "li-cunzhang-discipline",
         "li-cunzhang-baixiang",
@@ -1722,7 +1725,7 @@
     },
     {
       "personId": "li-keyong",
-      "eventCount": 27,
+      "eventCount": 34,
       "eventIds": [
         "li-keyong-birth",
         "li-keyong-youth-campaign",
@@ -1739,10 +1742,16 @@
         "li-keyong-li-cunxiao-executed",
         "li-keyong-enter-youzhou",
         "li-keyong-relieve-zhaozong",
+        "li-keyong-loan-troops-to-yanyun",
         "li-keyong-prince-of-jin",
         "li-keyong-huanshui-defeat",
         "li-keyong-ansai-defeat",
+        "li-keyong-repair-jinyang-accept-advice",
+        "li-keyong-relieve-you-cang",
+        "li-keyong-relieve-ding-huai-heyang",
         "li-keyong-hezhong-lost",
+        "li-keyong-jinyang-defence-901",
+        "li-keyong-ci-xi-recovery",
         "li-keyong-defend-jinyang",
         "li-keyong-khitan-alliance",
         "li-keyong-yan-lu-campaign",
@@ -1750,7 +1759,8 @@
         "li-keyong-rescue-luzhou",
         "li-keyong-death-and-succession",
         "li-keyong-posthumous-emperor",
-        "li-keyong-request-li-chengsi-return"
+        "li-keyong-request-li-chengsi-return",
+        "li-keyong-fengxiang-relief-pingyang"
       ]
     },
     {
@@ -2103,7 +2113,7 @@
     },
     {
       "personId": "liang-zhu-wen-consort-zhang",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "liang-zhu-wen-consort-zhang-mother-of-youzhen",
         "liang-zhu-wen-consort-zhang-posthumous-yuanzhen",
@@ -2112,7 +2122,8 @@
         "liang-zhu-wen-consort-zhang-marriage-and-wei",
         "liang-zhu-wen-consort-zhang-counsel-and-rescue",
         "liang-zhu-wen-consort-zhang-rescue-youyu",
-        "liang-zhu-wen-consort-zhang-support-jin-wife"
+        "liang-zhu-wen-consort-zhang-support-jin-wife",
+        "liang-zhu-wen-consort-zhang-illness-return"
       ]
     },
     {
@@ -2460,8 +2471,9 @@
     },
     {
       "personId": "liu-xun-yonghe",
-      "eventCount": 6,
+      "eventCount": 7,
       "eventIds": [
+        "liu-xun-yonghe-advise-wangke-submission",
         "liu-xun-yonghe-kill-huzhuang",
         "liu-xun-yonghe-early-frontline",
         "liu-xun-yonghe-offer-shanzhou",
@@ -2500,7 +2512,7 @@
     },
     {
       "personId": "liu-yan-southern-han",
-      "eventCount": 17,
+      "eventCount": 18,
       "eventIds": [
         "liu-yan-southern-han-emperor",
         "liu-yan-southern-han-examinations",
@@ -2518,7 +2530,8 @@
         "liu-yan-southern-han-marriage",
         "liu-yan-southern-han-tang-envoy",
         "liu-yan-southern-han-name-yan",
-        "liu-yan-southern-han-yang-tingyi"
+        "liu-yan-southern-han-yang-tingyi",
+        "liu-yan-southern-han-qianzhou-defeat"
       ]
     },
     {
@@ -2698,7 +2711,7 @@
     },
     {
       "personId": "ma-yin",
-      "eventCount": 15,
+      "eventCount": 16,
       "eventIds": [
         "ma-yin-chu-prince",
         "ma-yin-defeat-wu",
@@ -2714,7 +2727,8 @@
         "ma-yin-ma-cong",
         "ma-yin-langzhou",
         "ma-yin-tang-envoy",
-        "ma-yin-tea-and-money"
+        "ma-yin-tea-and-money",
+        "ma-yin-aid-wei-quanfeng-gaoan"
       ]
     },
     {
@@ -2805,7 +2819,7 @@
     },
     {
       "personId": "pang-shigu",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
         "pang-shigu-luliang",
         "pang-shigu-general",
@@ -2815,7 +2829,8 @@
         "pang-shigu-early",
         "pang-shigu-sunru",
         "pang-shigu-yanzhou",
-        "pang-shigu-xu-governor"
+        "pang-shigu-xu-governor",
+        "pang-shigu-reach-yanzhou-kang-surrender"
       ]
     },
     {
@@ -2865,8 +2880,10 @@
     },
     {
       "personId": "qian-liu",
-      "eventCount": 21,
+      "eventCount": 26,
       "eventIds": [
+        "qian-liu-muzhou-defence",
+        "qian-liu-shizhong",
         "qian-liu-wuyue-prince",
         "qian-liu-death",
         "qian-liu-dong-chang-army",
@@ -2887,7 +2904,10 @@
         "qian-liu-edict-name",
         "qian-liu-jade-investiture",
         "qian-liu-titles-suspended",
-        "qian-liu-tax-government"
+        "qian-liu-tax-government",
+        "qian-liu-linan-defeat-and-peace",
+        "qian-liu-night-attack-wuxi-zhang-kecong",
+        "qian-liu-release-liu-quan-after-peace"
       ]
     },
     {
@@ -3138,8 +3158,9 @@
     },
     {
       "personId": "shi-shucong",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
+        "shi-shucong-cangzhou-guard",
         "shi-shucong-taiyuan",
         "shi-shucong-puxian",
         "shi-shucong-luoyang-guard",
@@ -4073,12 +4094,16 @@
     },
     {
       "personId": "wang-jian-former-shu",
-      "eventCount": 20,
+      "eventCount": 24,
       "eventIds": [
         "wang-jian-former-shu-escort-emperor",
         "wang-jian-former-shu-yongping-command",
         "wang-jian-former-shu-chengdu",
         "wang-jian-former-shu-eastern-shu",
+        "wang-jian-former-shu-zhongshuling",
+        "wang-jian-former-shu-east-two-commands",
+        "wang-jian-former-shu-wang-zongyu-acting",
+        "wang-jian-former-shu-du-congfa",
         "wang-jian-former-shu-shu-prince",
         "wang-jian-former-shu-reject-liang",
         "wang-jian-former-shu-accession",
@@ -4145,7 +4170,7 @@
     },
     {
       "personId": "wang-jingren",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
         "wang-jingren-qingzhou",
         "wang-jingren-liang",
@@ -4155,7 +4180,8 @@
         "wang-jingren-enter-liang",
         "wang-jingren-north-command",
         "wang-jingren-huainan",
-        "wang-jingren-death"
+        "wang-jingren-death",
+        "wang-jingren-runzhou-an-renyi-siege"
       ]
     },
     {
@@ -4185,9 +4211,10 @@
     },
     {
       "personId": "wang-shenzhi",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "wang-shenzhi-succession",
+        "wang-shenzhi-tong-pingzhangshi",
         "wang-shenzhi-king-of-min",
         "wang-shenzhi-death",
         "wang-shenzhi-posthumous-emperor",
@@ -4413,6 +4440,20 @@
       "eventIds": [
         "wu-tian-jun-mother-yin-protected-qian-yuanguan",
         "wu-tian-jun-mother-yin-pardoned-after-tian-jun-defeat"
+      ]
+    },
+    {
+      "personId": "wu-wei-quanfeng-daughter-unknown",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-wei-quanfeng-daughter-unknown-marriage-accounts"
+      ]
+    },
+    {
+      "personId": "wu-wei-quanfeng-sister-unknown",
+      "eventCount": 1,
+      "eventIds": [
+        "wu-wei-quanfeng-sister-unknown-protect-in-birth-account"
       ]
     },
     {
@@ -4660,9 +4701,10 @@
     },
     {
       "personId": "yan-bao",
-      "eventCount": 11,
+      "eventCount": 12,
       "eventIds": [
         "yan-bao-join",
+        "yan-bao-heyang-relief",
         "yan-bao-join-jin",
         "yan-bao-youzhou",
         "yan-bao-huliu",
@@ -4677,7 +4719,7 @@
     },
     {
       "personId": "yang-longyan",
-      "eventCount": 12,
+      "eventCount": 14,
       "eventIds": [
         "yang-longyan-accession",
         "yang-longyan-xu-control",
@@ -4690,7 +4732,9 @@
         "yang-longyan-hostage-mutiny",
         "yang-longyan-commission-liu-xin-qianzhou",
         "yang-longyan-peng-yanzhang-family-support",
-        "yang-longyan-lei-yangong-deputy"
+        "yang-longyan-lei-yangong-deputy",
+        "yang-longyan-reward-zhai-qian-yiling",
+        "yang-longyan-send-wang-ding-shouchun"
       ]
     },
     {
@@ -4737,7 +4781,7 @@
     },
     {
       "personId": "yang-wo",
-      "eventCount": 7,
+      "eventCount": 8,
       "eventIds": [
         "yang-wo-take-jiangxi",
         "yang-wo-loss-of-power",
@@ -4745,16 +4789,18 @@
         "yang-wo-posthumous",
         "yang-wo-xuanzhou-recalled",
         "yang-wo-wang-maozhang",
-        "yang-wo-chu-defeat"
+        "yang-wo-chu-defeat",
+        "yang-wo-zhao-kuangning-hailing"
       ]
     },
     {
       "personId": "yang-xingmi",
-      "eventCount": 18,
+      "eventCount": 22,
       "eventIds": [
         "yang-xingmi-first-yangzhou",
         "yang-xingmi-retreat-luzhou",
         "yang-xingmi-qingkou-victory",
+        "yang-xingmi-pengmen-song-expedition",
         "yang-xingmi-ezhou",
         "yang-xingmi-death",
         "yang-xingmi-posthumous-emperor",
@@ -4769,7 +4815,10 @@
         "yang-xingmi-zhu-yanshou",
         "yang-xingmi-receive-feng-hongduo",
         "yang-xingmi-receive-zhao-kuangning",
-        "yang-xingmi-li-yan-zhichi-court"
+        "yang-xingmi-li-yan-zhichi-court",
+        "yang-xingmi-shizhong",
+        "yang-xingmi-liu-xin-drunken-return",
+        "yang-xingmi-jia-duo-pact-marriage"
       ]
     },
     {
@@ -4809,7 +4858,7 @@
     },
     {
       "personId": "yuan-xiangxian",
-      "eventCount": 16,
+      "eventCount": 17,
       "eventIds": [
         "yuan-xiangxian-xiu",
         "yuan-xiangxian-succession",
@@ -4826,7 +4875,8 @@
         "yuan-xiangxian-right-guard",
         "yuan-xiangxian-songyun",
         "yuan-xiangxian-qing-song",
-        "yuan-xiangxian-honor"
+        "yuan-xiangxian-honor",
+        "yuan-xiangxian-relieve-ying-with-cavalry-infantry"
       ]
     },
     {
@@ -4902,10 +4952,11 @@
     },
     {
       "personId": "zhang-guihou",
-      "eventCount": 14,
+      "eventCount": 15,
       "eventIds": [
         "zhang-guihou-chigang",
         "zhang-guihou-jingfu-rescue",
+        "zhang-guihou-liaozhou-expedition",
         "zhang-guihou-jinzhou",
         "zhang-guihou-shenwu",
         "zhang-guihou-tongzhou",
@@ -5051,10 +5102,13 @@
     },
     {
       "personId": "zhou-dewei",
-      "eventCount": 16,
+      "eventCount": 19,
       "eventIds": [
         "zhou-dewei-wang-xingyu",
         "zhou-dewei-capture-chenzhang",
+        "zhou-dewei-xing-ming-relief",
+        "zhou-dewei-pursue-bian-901",
+        "zhou-dewei-ci-xi-recovery",
         "zhou-dewei-return-mourning",
         "zhou-dewei-break-jiacheng",
         "zhou-dewei-aid-lingxia",
@@ -5336,7 +5390,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 150,
+      "eventCount": 156,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -5382,6 +5436,7 @@
         "zhu-wen-yushan",
         "zhu-wen-yan-grain",
         "zhu-wen-liangshan",
+        "zhu-wen-zhu-qiong-yan-gate-ruse",
         "zhu-wen-juye-captives",
         "zhu-wen-huatai-flood",
         "zhu-wen-huang-e-relief",
@@ -5393,15 +5448,18 @@
         "zhu-wen-qingkou",
         "zhu-wen-tianping-three",
         "zhu-wen-zhao-campaign",
+        "zhu-wen-suiyang-rain-withdrawal",
         "zhu-wen-save-wei-yan",
         "zhu-wen-taiyuan-899",
         "zhu-wen-lose-lu",
         "zhu-wen-cang-rain",
+        "zhu-wen-wang-tuan-intervention-900",
         "zhu-wen-zhen-ding",
         "zhu-wen-zhaozong-restored",
         "zhu-wen-hezhong",
         "zhu-wen-taiyuan-901",
         "zhu-wen-same-hua",
+        "zhu-wen-zhouzhi-migration",
         "zhu-wen-feng-retreat",
         "zhu-wen-taiyuan-902",
         "zhu-wen-feng-902",
@@ -5487,7 +5545,9 @@
         "zhu-wen-shengping",
         "zhu-wen-adopt-li-rang",
         "zhu-wen-zhang-jun-changshui",
-        "zhu-wen-lu-guangchou-baisheng"
+        "zhu-wen-lu-guangchou-baisheng",
+        "zhu-wen-zhao-brothers-appointments",
+        "zhu-wen-donghe-defeat-by-yanyun"
       ]
     },
     {
@@ -5504,8 +5564,9 @@
     },
     {
       "personId": "zhu-yougong",
-      "eventCount": 6,
+      "eventCount": 7,
       "eventIds": [
+        "zhu-yougong-siege-yanzhou-for-zhu-wen",
         "zhu-yougong-guards",
         "zhu-yougong-death",
         "zhu-yougong-adopt",

@@ -311,6 +311,13 @@
           "originalRevision": 1,
           "originalSha256": "f001b748328cc84142610ca6dcee68e8af4eeff8519eab5c5f4577793d235b6d",
           "excerpt": "鏐以淮寇終為巨患，欲速平之，命景仁奉表至闕，麵陳水陸之計，請合禁旅。太祖異禮待之，頒賜殊厚，顧曰：「待我平代北寇，當盡以王師付汝南討。」於是留京師，每預丞相行列。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+          "excerpt": "時宣州刺史王茂章叛入越，假道臨川以之梁，問全諷曰：「君欲大舉，願見君之將士，以卜濟否。」乃陳師于野，與茂章登城而觀之。茂章曰：「衆凡幾何？」曰：「十萬。」茂章曰：「淮南有三等將，如公此將，可當下將爾，盍更益十萬乎？」全諷不聽，悉衆屯象牙潭，自稱江西留後。"
         }
       ],
       "variants": [
@@ -344,7 +351,8 @@
         }
       ],
       "notes": [
-        "途经抚州的叙事不反推为旧史奉表路径已经载明。"
+        "途经抚州的叙事不反推为旧史奉表路径已经载明。",
+        "本源只补从临川借道往梁及与危全讽观军问答；不由危之败年倒定王入梁年月，亦不替换旧史奉钱镠表、新史梁召等路径。"
       ]
     },
     {
@@ -444,6 +452,27 @@
               "excerpt": "末帝立，以景仁為淮南招討使，攻廬、壽，軍過獨山，山有楊行密祠，景仁再拜號泣而去。戰于霍山，梁兵敗走，景仁殿而力戰，以故梁兵不甚敗。"
             }
           ]
+        },
+        {
+          "label": "《九国志》淮上及天祐十五年破王茂章",
+          "sourceDate": "米志诚传天祐十年后接淮上；崔太初传另系天祐十五年",
+          "summary": "两传分别称徐温等破王茂章于淮上、天祐十五年；与旧事件通鉴乾化三年十二月/霍丘、他传霍山的年次和战地不强定为同役，不能据此将同人死亡或出师日期后移。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p19",
+              "originalRevision": 1,
+              "originalSha256": "edfe97c5b5828917286f2e9f89e3963cc6bd0af87432679e2974e8f587c83d5e",
+              "excerpt": "十年，從徐温敗錢瑛于梁谿，後又破王茂章于淮上。"
+            },
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p33",
+              "originalRevision": 1,
+              "originalSha256": "495c32ec872d1c3da74eff4599ec087248f7901c8a68c2a87a9119e80c453bb5",
+              "excerpt": "天祐十五年，從徐温破王茂章，遷本州司馬，權知壽州團練事。"
+            }
+          ]
         }
       ],
       "notes": [
@@ -486,6 +515,28 @@
       ],
       "notes": [
         "本卷未记独立卒年，不由叙次补定年月。"
+      ]
+    },
+    {
+      "id": "wang-jingren-runzhou-an-renyi-siege",
+      "title": "在润州征安仁义",
+      "summary": "《九国志》郑璠传记王茂章征安仁义于润州，至城陷时郑璠中十余创，后以功迁职。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "本源天祐初，未独记年、月、日",
+      "phase": "uncertain",
+      "sortOrder": 28,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p25",
+          "originalRevision": 1,
+          "originalSha256": "b16811cd7bbe4c6228dd1935c32f2799a0f53d7e7fb81a787c929ddcc3ff022c",
+          "excerpt": "天祐初，王茂章征安仁義于潤州，洎城陷，中十餘瘡，以功遷左先鋒都尉。"
+        }
+      ],
+      "notes": [
+        "王景仁是王茂章改名后的姓名。本段受伤者为郑璠，不是王景仁；天祐初未细记战日。"
       ]
     }
   ]

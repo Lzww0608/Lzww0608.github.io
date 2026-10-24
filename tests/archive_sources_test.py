@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('archive_sources', ROOT / 'scripts/archive-sources.py')
@@ -38,9 +38,29 @@ ZHOU_HOUSEHOLD_BOUNDARIES = {
     'new-v19': ('皇后柴氏', '一作「太保」，一作「太尉」。待考。'),
     'new-v20': ('柴守禮', '他本「吾」下均有「王」字。'),
 }
-HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
+WU_MARRIAGE_FIXTURES = {
+    'new-v41': (1721673, 26, 2183, 'b9d1c88a6be358934e75d03a1e9411a6df8ed27dd77ca9173e0166b4d070d4f1', '13a1adaea5b0ac6dd9926c48bfc349de9408f362dc24c4ec8d08ca75410a067f'),
+    'tongjian-v262': (1764816, 89, 11075, '36bcbda9e91508541232473c370e5bae791a67b4878093ad8e1b129bee7bd343', '0f30d9dcfd7168abe6320b281a449cbb08fd191ecf2cf5b8950d113ac5531499'),
+    'jiuguozhi-v002': (2596554, 38, 9817, 'ec218802dadd11fa43eb727b41b9acaa3bf4a4726eb631a29deda50d159fbf44', 'ead40ddf1dee3857eb75f880468cd30ba79313392fb67e19bdbc8780d44a4740'),
+}
+HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES, **WU_MARRIAGE_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_jiuguozhi_and_tongjian262_keep_distinct_book_and_volume_scopes(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        book = next(b for b in archive.BOOKS if b['id'] == 'jiuguozhi')
+        saved = next(b for b in catalog['books'] if b['id'] == 'jiuguozhi')
+        self.assertEqual({**saved, 'url': unquote(saved['url'])}, {**book, 'url': unquote(book['url'])})
+        self.assertEqual(book['defaultChapter'], 'jiuguozhi-v002')
+        self.assertIn('路振', book['author'])
+        self.assertNotEqual(book['id'], 'shiguochunqiu')
+        self.assertEqual(sorted(s['volume'] for s in archive.SPECS if s['bookId'] == 'tongjian'), [262, *range(266, 295)])
+        current = json.loads((archive.ROOT / 'chapters/tongjian-v262.json').read_text())
+        self.assertTrue(any('卷 262' in note and '晚唐' in note for note in current['notes']))
+        for volume in range(266, 295):
+            chapter = json.loads((archive.ROOT / 'chapters' / f'tongjian-v{volume}.json').read_text())
+            self.assertTrue(any('卷 266—294' in note for note in chapter['notes']))
+
     def test_wu_household_selected_three_complete_sources_and_fixed_section_cache(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
@@ -194,7 +214,7 @@ class SourceIntegrityTests(unittest.TestCase):
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
         self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 94)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 42)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 43)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]

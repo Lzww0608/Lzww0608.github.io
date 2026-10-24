@@ -30,7 +30,7 @@ test('new authorized review subjects retain private route filters through a roun
 });
 
 test('archived books join private filters without authorizing unarchived authors, unknown people or books', () => {
-  for (const bookId of ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen']) {
+  for (const bookId of ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi']) {
     const expected = { ...filters, personId: 'li-keyong', bookId, category: 'translation', status: 'retained', offset: 50 };
     const route = ownerReviewRoute(expected);
     assert.deepEqual(resolveOwnerReviewRoute(route), expected);
@@ -78,7 +78,7 @@ test('Ma Ling review responses retain author-specific routes and reject Lu You f
 });
 
 test('new regional book owner routes and exact response filters reject cross-book, duplicate and unknown inputs', () => {
-  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884']]) {
+  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884'], ['jiuguozhi', 'jiuguozhi-v002']]) {
     const expected = { ...filters, bookId, personId: 'li-keyong' };
     assert.deepEqual(resolveOwnerReviewRoute(ownerReviewRoute(expected)), expected);
     const paragraphId = chapterId + '-p1';

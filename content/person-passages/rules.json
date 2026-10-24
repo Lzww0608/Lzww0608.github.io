@@ -4515,6 +4515,36 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-wei-quanfeng-daughter-unknown",
+      "names": [
+        "危全讽女（失名）",
+        "危全諷女（失名）",
+        "危全讽女",
+        "危全諷女",
+        "危全讽之女",
+        "危全諷之女"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "wu-wei-quanfeng-sister-unknown",
+      "names": [
+        "危全讽姊（失名）",
+        "危全諷姊（失名）",
+        "危全讽姊",
+        "危全諷姊",
+        "危全讽姐姐",
+        "危全諷姐姐",
+        "危全讽之姊",
+        "危全諷之姊"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12724,6 +12754,212 @@
       "reason": "本段仅整卷篇题及附子禅名目，不作李承嗣独立人物记载；标题原文、层级及独立译名仍完整保留。",
       "originalRevision": 1,
       "originalSha256": "f1cb4a9d5c88666eb15fe14297f87093fa87c779e400434dcdafdde9d237f78c"
+    },
+    {
+      "personId": "li-keyong",
+      "paragraphId": "tongjian-v262-p21",
+      "terms": [
+        "李克用"
+      ],
+      "reason": "抑制本段姓名自动record后，以绑定原段的mention归属保留：仅在王镕与河东交通及周式论说中被提及，本段没有李克用独立行动。",
+      "originalRevision": 1,
+      "originalSha256": "c73e62b2d11329a167ff67bd8382794ca03c81e6832441510e5a4974b77cbf72"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "tongjian-v262-p28",
+      "terms": [
+        "朱全忠",
+        "全忠"
+      ],
+      "reason": "抑制本段姓名自动record后，以绑定原段的mention归属保留：刘季述畏惮朱全忠，崔胤密致书请其兴兵；本段未叙朱全忠已响应。",
+      "originalRevision": 1,
+      "originalSha256": "acdbdeba57703523de2d1b7e39d2155f68d9b7c5d7e2b81a8c46acdff436ab22"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "tongjian-v262-p58",
+      "terms": [
+        "朱全忠",
+        "全忠"
+      ],
+      "reason": "抑制本段姓名自动record后，以绑定原段的mention归属保留：仅为崔胤加厚结援的对象；本段主动朝见、结宦官者为李茂贞。",
+      "originalRevision": 1,
+      "originalSha256": "9062388785c4027ab660f1a5f27b99a473ce8eb9be63dd32a70354601c01efb9"
+    },
+    {
+      "personId": "qian-liu",
+      "paragraphId": "tongjian-v262-p68",
+      "terms": [
+        "錢鏐"
+      ],
+      "reason": "抑制本段姓名自动record后，以绑定原段的mention归属保留：作为钱镠被盗杀的传报对象出现；本卷后段明言其未死，不将误传写成钱镠死亡事迹。",
+      "originalRevision": 1,
+      "originalSha256": "4224cf00c37f603e3d0e16146a21feb6625dd6990daa3d1c5b2f25502173c048"
+    },
+    {
+      "personId": "yang-longyan",
+      "paragraphId": "new-v41-p19",
+      "terms": [
+        "楊隆演",
+        "隆演"
+      ],
+      "reason": "只称杨隆演之将周本败危全讽；屏蔽姓名自动record后，保留经核局部mention，不由将属补本人发令或亲征。",
+      "originalRevision": 1,
+      "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "new-v41-p15",
+      "terms": [
+        "楊行密",
+        "行密"
+      ],
+      "reason": "雷彦恭附/奔的对象称名，开平叙次与杨行密卒年有抵牾；只留分源mention，不由称名自动升作确定接纳事迹。",
+      "originalRevision": 1,
+      "originalSha256": "feaa350db06466204e0f43b9f7ed9df7b7a670b008a284011834bf376bfe8a8e"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "new-v41-p24",
+      "terms": [
+        "楊行密",
+        "行密"
+      ],
+      "reason": "晋使欲聘问并求送还史俨的对象，原段未记杨行密收书或回应；只留局部mention，不由被请求补本人行动。",
+      "originalRevision": 1,
+      "originalSha256": "c773f1a9dc7fd5fd4e0154b664831fb1272e060a28f0397acf1947addf9a3700"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "jiuguozhi-v002-p15",
+      "terms": [
+        "從周"
+      ],
+      "reason": "从周本是跟随周本，不是葛从周的短名。",
+      "originalRevision": 1,
+      "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "jiuguozhi-v002-p31",
+      "terms": [
+        "從周"
+      ],
+      "reason": "从周本攻苏州是跟随周本，段内未见葛从周，不能按从周字串归人。",
+      "originalRevision": 1,
+      "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e"
+    },
+    {
+      "personId": "li-bian",
+      "paragraphId": "jiuguozhi-v002-p3",
+      "terms": [
+        "知誥"
+      ],
+      "reason": "先抑制短名自动事迹归属，再保为刘信事知诰的提及。",
+      "originalRevision": 1,
+      "originalSha256": "8c184a05a184301d86456e8016b7ffd8768b0bf693d542e013387296457e9d57"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "jiuguozhi-v002-p19",
+      "terms": [
+        "行密"
+      ],
+      "reason": "本段仅米志诚早年归行密，后续军功不是行密亲自指挥的记载。",
+      "originalRevision": 1,
+      "originalSha256": "edfe97c5b5828917286f2e9f89e3963cc6bd0af87432679e2974e8f587c83d5e"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "jiuguozhi-v002-p21",
+      "terms": [
+        "行密"
+      ],
+      "reason": "本段仅翟虔早年谒行密，后续吴主与徐温另分。",
+      "originalRevision": 1,
+      "originalSha256": "b20a857c694753b71fc8f91fa5788cd23090f41117f2ef009972299ef9dfeb08"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "jiuguozhi-v002-p25",
+      "terms": [
+        "行密"
+      ],
+      "reason": "本段仅郑璠早年归行密，不将后来全战程算他亲征。",
+      "originalRevision": 1,
+      "originalSha256": "b16811cd7bbe4c6228dd1935c32f2799a0f53d7e7fb81a787c929ddcc3ff022c"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "jiuguozhi-v002-p31",
+      "terms": [
+        "行密"
+      ],
+      "reason": "只保刘权早年归附的提及，后续君主另分。",
+      "originalRevision": 1,
+      "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "jiuguozhi-v002-p31",
+      "terms": [
+        "梁祖"
+      ],
+      "reason": "本传称谓与颍川战事年代疑点保源，不据其新增确定的死后亲征事迹。",
+      "originalRevision": 1,
+      "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "jiuguozhi-v002-p35",
+      "terms": [
+        "梁祖"
+      ],
+      "reason": "梁祖即位在本段为追叙背景，保为提及。",
+      "originalRevision": 1,
+      "originalSha256": "c8656bfd436f86ea6eabb3056a061962ae3baf984490eb9874d5192ab90812ed"
+    },
+    {
+      "personId": "qian-liu",
+      "paragraphId": "jiuguozhi-v002-p37",
+      "terms": [
+        "錢鏐"
+      ],
+      "reason": "本段只借钱镠之将说明高澧身份，受疑者与发令者不可自动互推。",
+      "originalRevision": 1,
+      "originalSha256": "53f493f946ae71e4d14f20bc3c373d0b6fbbf30f1485b00fa22a4f66ce0b58de"
+    },
+    {
+      "personId": "yang-xingmi",
+      "paragraphId": "new-v41-p25",
+      "terms": [
+        "楊行密",
+        "行密"
+      ],
+      "reason": "本段只有赵匡凝投奔杨行密，未记杨行密的响应；先抑制姓名自动record后保留局部mention，下段另有见之、厚遇之的事迹。",
+      "originalRevision": 1,
+      "originalSha256": "09cf516f728d7c3b8be309440dbd304edc8a1dc168ba24f16456bcd6b93edd66"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "tongjian-v262-p69",
+      "terms": [
+        "全忠"
+      ],
+      "reason": "抑制本段短称自动record，再以原段绑定mention保留：全忠出现在昭宗对韩偓所说的听闻及评价中，谈及其欲来除君侧及与李茂贞共功；本段并未记朱全忠已据此行动，不将昭宗的听闻、判断或韩偓的忧虑转作他的独立事迹。",
+      "originalRevision": 1,
+      "originalSha256": "a79535bad86c1520646efd5a2ca9122628221af575aff7aed209cc7bccfdac5e"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "tongjian-v262-p74",
+      "terms": [
+        "全忠"
+      ],
+      "reason": "抑制本段短称自动record，再以原段绑定mention保留：全忠出现在韩全诲等向昭宗陈说的大兵逼京、欲劫往洛阳及求传禅说辞中；本段强迫皇帝离宫与纵火的实际施事分别为韩全诲等、李彦弼，不把其指称的朱全忠意图当作已证实施。",
+      "originalRevision": 1,
+      "originalSha256": "ad6d20e63103dac5d5126eae75e8875ceef74e65bad484ddd40d24636954b490"
     }
   ],
   "regnalEdicts": {
