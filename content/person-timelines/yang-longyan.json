@@ -195,6 +195,13 @@
           "originalRevision": 1,
           "originalSha256": "b20a857c694753b71fc8f91fa5788cd23090f41117f2ef009972299ef9dfeb08",
           "excerpt": "及吳國建，復旌其勳，授閤門宮城武備等使，領光州刺史。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "24d694dacc10acf66ad1ae042af785ba2f00d4688eee97a41b911a89926b3c33",
+          "excerpt": "武義元年，高祖建吳國，拜左龍武統軍。"
         }
       ],
       "phase": "rule",
@@ -218,7 +225,8 @@
       ],
       "sortOrder": 5,
       "notes": [
-        "本源开国后的加刘信、刘权与旌翟虔分别补吴国建制出处；不是称帝，亦不将全部后续赏授染成旧事件四月同日。"
+        "本源开国后的加刘信、刘权与旌翟虔分别补吴国建制出处；不是称帝，亦不将全部后续赏授染成旧事件四月同日。",
+        "只补武义建国与柴再用左龙武统军任命，不据高祖追称写称帝。"
       ]
     },
     {
@@ -450,6 +458,32 @@
       ],
       "notes": [
         "本段“宣王”与新史所记杨隆演名渭、谥宣相参辨认，不泛指别处同号人物。安排推让授官者为王定，不写成宣王亲赴或亲自指定太初。"
+      ]
+    },
+    {
+      "id": "yang-longyan-li-hou-wang-yan",
+      "year": null,
+      "phase": "uncertain",
+      "precision": "range",
+      "sortOrder": 34,
+      "title": "命李厚平王言并权知光州",
+      "summary": "本卷记光州王言作乱，高祖杨隆演命李厚讨平，随即使其暂管光州。",
+      "sourceDate": "本源天祐十三年，未独记月日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "f9264a73971f24ad0f1b091ea7ee658a96d3a3f69c3902d3b3ae8b2055d89074",
+          "excerpt": "厚官至楚州團練使。天祐十三年，光州王言作亂，高祖命厚討平之，卽以厚權知光州事。久之，卒。"
+        }
+      ],
+      "yearRange": {
+        "start": 916,
+        "end": 917
+      },
+      "notes": [
+        "本传只记天祐十三年；以合法吴国年号范围对应西历916—917年，不用控制月首作战役或任官日。"
       ]
     }
   ]

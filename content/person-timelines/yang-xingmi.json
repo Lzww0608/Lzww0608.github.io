@@ -23,13 +23,21 @@
           "originalRevision": 1,
           "originalSha256": "3c0240b1d7f44a0c642c4888b1f701d9abf7fbd524f2669f328cf92412bc046f",
           "excerpt": "光啓三年，秦彦囚高駢，濤從行密舉義，列八寨維揚西。彦盡以步騎背城求戰，俄而彦軍已破一寨，諸將以兵勢相懸，宜堅壁勿出。濤怫然曰：「今以順伐逆，豈論衆寡？設令欲退，將焉歸？濤願以所部爲前鋒，請觀破賊！」行密壯之。遂出戰，果敗彦軍，自是無復敢出。濤以功遷騎軍都尉。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p13",
+          "originalRevision": 1,
+          "originalSha256": "4f81b21f58c27be5f218362099dfab1370e2274c4f79212c74455a4862f4b60a",
+          "excerpt": "秦彥之攻太祖也，軍勢甚盛，親校李宗禮言：「衆寡不敵，請堅壁自守，徐圖還師。」濤時在行間，怒曰：「吾以順討逆，何論衆寡！大軍至此，去將安歸，濤願帥所部爲前鋒，保爲公破之。」太祖壯其志，多伏精兵爲三覆以待之，卒破彥師，鹵獲無算，濤一言之力也。"
         }
       ],
       "phase": "service",
       "precision": "month",
       "sortOrder": 1,
       "notes": [
-        "《九国志》李涛传补光启三年李涛请为前锋、行密壮之而出战秦彦的过程；不把“果败彦军”写作行密独自临阵冲锋。"
+        "《九国志》李涛传补光启三年李涛请为前锋、行密壮之而出战秦彦的过程；不把“果败彦军”写作行密独自临阵冲锋。",
+        "本卷李涛传补请战、设伏与败秦彦过程，不把所有战事改作杨行密亲征。"
       ]
     },
     {
@@ -145,13 +153,21 @@
           "originalRevision": 1,
           "originalSha256": "c6fc8b6481bbc915bf1950167b0839eef6d06f3a0ebe6350396f5327c50d07de",
           "excerpt": "苗璘，不知其世系。太祖時，以裨將從劉存攻杜洪于鄂州。時汴將曹延祚等將兵援洪，兵勢頗盛。有降卒言汴軍虛實，謂鄆軍易與爾，開道軍未易當也。璘乃帥敢死士自擊開道軍，破之，鹵其將士三百人，狥鄂州城外。洪氣沮，遂以此敗。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "de85030864792cdc668713ea92160ec11a2170c0cb82370c24bda2a7d90ee95d",
+          "excerpt": "天復三年，副李神福攻杜洪于鄂州，不能下。天祐元年，神福還廣陵，存代爲招討使。明年，將兵迫鄂州下，焚其城，城中兵突圍而出，諸將請亟擊之。存曰：「擊之復入，則城愈固；聽其去，城可取也。」是日城破，禽洪送廣陵，太祖乃以存爲鄂州觀察使。"
         }
       ],
       "phase": "rule",
       "precision": "year",
       "notes": [
         "旧史将此役接在天祐二年正月；此项仅取双方都支持的年份，不拼接具体月份。",
-        "本卷记苗璘随刘存攻鄂州、破援军并俘将士三百的环节，不将此数等同整场战役伤亡。"
+        "本卷记苗璘随刘存攻鄂州、破援军并俘将士三百的环节，不将此数等同整场战役伤亡。",
+        "本卷以天复三年、天祐元年及明年分阶段叙；只攻克环节与既有主事件相参，不把全部围鄂过程压为同日。"
       ],
       "sortOrder": 4,
       "variants": [
@@ -344,6 +360,20 @@
           "originalRevision": 1,
           "originalSha256": "f93bcdda68d4e63af12087670bd8ecf8ddff75d0df62053afa758c86876034a9",
           "excerpt": "是歲，復入揚州，唐拜行密淮南節度使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "f9264a73971f24ad0f1b091ea7ee658a96d3a3f69c3902d3b3ae8b2055d89074",
+          "excerpt": "李厚，蔡州人，故孫儒遺兵也。太祖收儒兵數千，蒙甲以皂衣，號「黑雲都」，厚爲黑雲隊長，以驍勇名。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "f05681025fbac2ac78e1ef32270bb30042b240ddfae7efc171c478e8579817cf",
+          "excerpt": "從禽孫儒，遷都知兵馬使。"
         }
       ],
       "phase": "uncertain",
@@ -381,7 +411,10 @@
       "yearRange": {
         "start": 892,
         "end": 893
-      }
+      },
+      "notes": [
+        "黑云都收余兵与丁袗从擒孙儒分别补来源；不据本卷无纪年句消除旧新史年次差异。"
+      ]
     },
     {
       "id": "yang-xingmi-linan-campaign",
@@ -752,6 +785,117 @@
       ],
       "notes": [
         "婚配对象为朱延寿妹与贾铎子匡浩；危全讽女与钟匡时的婚配另见其他记载。女方名讳、婚日及生母未详。"
+      ],
+      "variants": [
+        {
+          "label": "十国春秋记许婚与右监门卫将军",
+          "sourceDate": "本传叙乾宁中围城，婚议未独系年",
+          "summary": "十国春秋记向贾公铎持誓书金帛说和、许婚，柴再用说降贾公铎与冯敬章；未具婚配双方，授官作右监门卫将军。九国志另明确嫁妹予贾铎子匡浩，授官作左监门卫将军；分别保留。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v006",
+              "paragraphId": "shiguochunqiu-v006-p12",
+              "originalRevision": 1,
+              "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+              "excerpt": "乃白太祖，求軍中與公鐸有舊者，持誓書金帛往說之，許以昏。崗關團練使柴再用請行，臨陳與語，爲陳利害，公鐸及敬章請降。太祖以敬章爲左都押牙，公鐸爲右監門衛將軍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yang-xingmi-liu-rengui-haozhou",
+      "year": null,
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 40,
+      "title": "任刘仁规主持濠州",
+      "summary": "本卷记刘金去世后，杨行密让刘金的儿子刘仁规主持濠州。",
+      "sourceDate": "刘金天祐二年十一月卒后；任命未独记年月日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "ac14b2b0d8b858ae789b077da2fa9443272dd77671491a9bc2e529a247888949",
+          "excerpt": "太祖引兵至天長，金與高霸等悉衆來屬，居三十六英雄之一，官濠州團練使，威名大震，爲濠人所稱。天祐二年十一月卒。太祖以其子仁規知濠州。仁規頗苛刻用事，未協衆心，官至清淮軍節度使，卒。"
+        }
+      ],
+      "notes": [
+        "不把父卒的十一月或死亡日自动当任命日。"
+      ]
+    },
+    {
+      "id": "yang-xingmi-liujin-gaoba-join",
+      "year": null,
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 41,
+      "title": "在行军中接纳刘金等部",
+      "summary": "本卷刘金传记杨行密领兵至天长、刘金高霸等率众来属；贾令威传记杨行密从庐州发兵广陵途中，贾令威刘金率部加入。",
+      "sourceDate": "两传叙次均未独记年月日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "ac14b2b0d8b858ae789b077da2fa9443272dd77671491a9bc2e529a247888949",
+          "excerpt": "太祖引兵至天長，金與高霸等悉衆來屬，居三十六英雄之一，官濠州團練使，威名大震，爲濠人所稱。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "bd8635d9030bcb962aa1a873e43a324f4f3dd2444785f93e7ce20d20452560bb",
+          "excerpt": "太祖官廬州日，發兵至廣陵，今威與劉金帥其所部中道來屬，隸戲下，爲親軍，太祖兵遂日益盛焉。"
+        }
+      ],
+      "notes": [
+        "刘金传作领兵至天长、刘金高霸等来属，贾令威传作由庐州发兵赴广陵中途、贾令威刘金来属；地点、同行者分别列证，不倒推独立年日。"
+      ]
+    },
+    {
+      "id": "yang-xingmi-cai-chou-zhang-hao",
+      "year": null,
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 42,
+      "title": "克蔡俦后纳张颢并拒绝诛杀建议",
+      "summary": "本卷记杨行密攻克蔡俦后，张颢归附被分隶袁禛；袁禛请杀张颢以绝后患，杨行密没有听从。",
+      "sourceDate": "本源蔡俦被克后，未独记年月日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "b915e3abdaefb2a9f9391ca433e7c85cbffba3104e2b74974ddebac8db7e090a",
+          "excerpt": "初從太祖爲銀槍都使。太祖之克蔡儔也，張顥來歸，分隸禛帳下。禛以顥反覆，請誅之以杜後患，不聽。顥後卒以弒逆死，時人皆多禛有先見。"
+        }
+      ],
+      "notes": [
+        "张颢后弑逆的史家回顾不改作杨行密已预知其将来。"
+      ]
+    },
+    {
+      "id": "yang-xingmi-recruit-dingzhen",
+      "year": null,
+      "phase": "uncertain",
+      "precision": "undated",
+      "sortOrder": 43,
+      "title": "攻秦宗权时募丁袗并论功授职",
+      "summary": "本卷记杨行密进攻秦宗权时，丁袗以勇应募，论功任都押牙。",
+      "sourceDate": "本源未独记年月日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "f05681025fbac2ac78e1ef32270bb30042b240ddfae7efc171c478e8579817cf",
+          "excerpt": "丁袗字德祥，金壇人也。太祖擊秦宗權，袗以勇應募，論功授都押牙。"
+        }
+      ],
+      "notes": [
+        "保本书秦宗权原字，不无证改作秦彦；随擒孙儒的后句另作既有同役补证，不再造第二场擒孙儒。"
       ]
     }
   ]

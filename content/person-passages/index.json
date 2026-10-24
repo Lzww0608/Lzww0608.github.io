@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 225,
-    "paragraphCount": 9271
+    "chapterCount": 226,
+    "paragraphCount": 9288
   },
   "people": [
     {
@@ -1678,6 +1678,10 @@
     {
       "id": "wu-wei-quanfeng-sister-unknown",
       "name": "危全讽姊（失名）"
+    },
+    {
+      "id": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+      "name": "朱延寿妹（贾匡浩妻）"
     }
   ],
   "passages": [
@@ -18845,6 +18849,10 @@
       "people": [
         {
           "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
           "kind": "record"
         }
       ]
@@ -109858,6 +109866,342 @@
         {
           "personId": "wu-yang-pu-princess-shangrao",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p2",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "24d694dacc10acf66ad1ae042af785ba2f00d4688eee97a41b911a89926b3c33",
+          "start": 0,
+          "end": 766
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p3",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "b090af12648f3c46474ba91c84d15bc7232c460237248e8065d9f12832ff914e",
+          "start": 0,
+          "end": 366
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p4",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "ac14b2b0d8b858ae789b077da2fa9443272dd77671491a9bc2e529a247888949",
+          "start": 0,
+          "end": 142
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p5",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p5",
+          "originalRevision": 1,
+          "originalSha256": "2c388149ab77ea89cd0f822e481394cee4619d6a89937fd204aafd2a7291bf5e",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p6",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "f9264a73971f24ad0f1b091ea7ee658a96d3a3f69c3902d3b3ae8b2055d89074",
+          "start": 0,
+          "end": 221
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p7",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "de85030864792cdc668713ea92160ec11a2170c0cb82370c24bda2a7d90ee95d",
+          "start": 0,
+          "end": 527
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p9",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "a09f0d8a673b3fba5d3eeb4bbdec0a48b9693ac2970398e7cc9f2243efdc775c",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p10",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "bd8635d9030bcb962aa1a873e43a324f4f3dd2444785f93e7ce20d20452560bb",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p11",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p11",
+          "originalRevision": 1,
+          "originalSha256": "0f2f052ef6f0086b214e6c7df9d81c1b459ee41f99de097b97d59ea485bbc9bc",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p12",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p12",
+          "originalRevision": 1,
+          "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+          "start": 0,
+          "end": 267
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p13",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p13",
+          "originalRevision": 1,
+          "originalSha256": "4f81b21f58c27be5f218362099dfab1370e2274c4f79212c74455a4862f4b60a",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p14",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "b915e3abdaefb2a9f9391ca433e7c85cbffba3104e2b74974ddebac8db7e090a",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p15",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "f05681025fbac2ac78e1ef32270bb30042b240ddfae7efc171c478e8579817cf",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p16",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p16",
+          "originalRevision": 1,
+          "originalSha256": "1bec2620195b7da150d7f9f631912de7598cccb63e0108e39ee40dfa59786a5d",
+          "start": 0,
+          "end": 233
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p17",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p17",
+          "originalRevision": 1,
+          "originalSha256": "0f1524ca2afe02be3711840970ec30f539348d68c1cafa28298077764663b303",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
         }
       ]
     },

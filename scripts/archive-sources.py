@@ -29,7 +29,7 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载及卷 7、8、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 4 的吴后妃、宗室及公主记载及卷 6、7、8、13 的吴国人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。', defaultChapter='nantangma-v010'),
     dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
@@ -258,6 +258,8 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+SPECS.append(dict(id='shiguochunqiu-v006', bookId='shiguochunqiu', volume=6, position=6,
+                  title='卷 6 · 吴列传（柴再用、秦裴、贾公铎等）', page='十國春秋/卷006', subjects=[], fixedRevisionId=2554073))
 SPECS.append(dict(id='shiguochunqiu-v007', bookId='shiguochunqiu', volume=7, position=7,
                   title='卷 7 · 吴列传（刘信、周本、李德诚等）', page='十國春秋/卷007', subjects=[], fixedRevisionId=2554075))
 SPECS.append(dict(id='shiguochunqiu-v008', bookId='shiguochunqiu', volume=8, position=8,
@@ -657,6 +659,7 @@ def capture(spec, previous=None):
     if book['id'] == 'nantanglu': notes.append('本站仅收录陆游《南唐书》卷 17，陆游《南唐书》与马令的同名著作分别编目；完整保留小传、夹注、史家评论及来源标点，不表示全书已收录。同作品四库本只作版本参校，不作独立复证。')
     if book['id'] == 'nantangma': notes.append('本站仅收录马令《南唐书》卷 10，与陆游的同名著作分别编目；完整保留序文、小传、夹注及来源标点，不表示全书已收录。同作品不同版本只作校读，不作独立复证。')
     if spec['id'] == 'shiguochunqiu-v007': notes.append('本页完整收录《十国春秋》标准页面卷 7，原文、夹注与标点保持原样；同作品不同版本只作校读，不作独立复证。已收其他卷请参见书籍目录，不表示全书已收录。')
+    if spec['id'] == 'shiguochunqiu-v006': notes.append('本页完整收录《十国春秋》标准页面卷 6，原文、夹注与标点保持原样；同作品四库本只作版本参校，不作独立史料复证。已收其他卷见书籍目录，不表示全书已收录。婚议与嫁配按书分别理解，未明纪年的婚事不套用邻接任官年月。')
     if book['id'] == 'nantangjinshi': notes.append('本页完整收录固定来源页面的卷二，从“卷二”标题起，至“佚文”标题前止；不混入同页序、卷一与佚文。原文、夹注与来源标点保持原样；史事逸闻宜与其他来源参读。')
     if book['id'] == 'quantangwen': notes.append('本页完整收录《全唐文》卷 884。来源页所署徐铉为本卷文章撰文者，不据此称其为整部总集编者。碑文、铭文与夹注均保留；褒赠、家世与叙事立场分别按来源理解。')
     if spec.get('indexPage'): notes.append('本页保留原来源的提要、序文等卷外文字。来源页的目录链接由站内可操作目录替代，不将链接列表当作历史正文。')

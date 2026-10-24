@@ -9310,5 +9310,101 @@
         "title": "《九国志》 · 卷 2 · 吴人物列传"
       }
     ]
+  },
+  {
+    "id": "zhu-yanshou-younger-sister-jia-wife",
+    "from": "wu-zhu-yanshou",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "九国志明确称延寿以妹嫁贾铎之子；不推同母。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "jia-kuanghao-zhu-yanshou-sister-marriage",
+    "from": "wu-jia-kuanghao",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "婚配依九国志具体嫁妹记载；未载婚日、仪礼、子女或唯一配偶。十国春秋仅记许婚，不据其独立补定双方。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "jia-duo-jia-kuanghao-father-son",
+    "from": "wu-jia-duo",
+    "to": "wu-jia-kuanghao",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "九国志称贾铎之子匡浩，通鉴称贾匡浩、公铎之子；十国春秋明确贾公铎又作贾铎。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      },
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p69",
+        "originalRevision": 1,
+        "originalSha256": "52f33ec51b3a7fdefeeabf2af63ee8c88593f2bc732b8122afd90e944605ef13",
+        "excerpt": "匡浩，公鐸之子也。",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4"
+      },
+      {
+        "chapterId": "shiguochunqiu-v006",
+        "paragraphId": "shiguochunqiu-v006-p12",
+        "originalRevision": 1,
+        "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+        "excerpt": "賈公鐸，〈九國志作賈鐸。〉上蔡人也。",
+        "title": "《十国春秋》 · 卷 6 · 吴列传（柴再用、秦裴、贾公铎等）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yanshou-elder-and-younger-sisters",
+    "from": "wu-yang-xingmi-wife-zhu",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "姊妹",
+    "note": "十国春秋称杨行密妻朱氏为朱延寿姊，九国志称贾铎子匡浩所娶为朱延寿妹，据具体同一兄弟辨认两位姊妹；不补同母关系，不把两人的婚配或结局合并。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p3",
+        "originalRevision": 1,
+        "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+        "excerpt": "夫人朱氏，本國節度使延壽姊。",
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
   }
 ]

@@ -4545,6 +4545,22 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+      "names": [
+        "朱延寿妹（贾匡浩妻）",
+        "朱延壽妹（賈匡浩妻）",
+        "朱延寿妹",
+        "朱延壽妹",
+        "朱延寿之妹",
+        "朱延壽之妹",
+        "贾匡浩妻",
+        "賈匡浩妻"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -12960,6 +12976,16 @@
       "reason": "抑制本段短称自动record，再以原段绑定mention保留：全忠出现在韩全诲等向昭宗陈说的大兵逼京、欲劫往洛阳及求传禅说辞中；本段强迫皇帝离宫与纵火的实际施事分别为韩全诲等、李彦弼，不把其指称的朱全忠意图当作已证实施。",
       "originalRevision": 1,
       "originalSha256": "ad6d20e63103dac5d5126eae75e8875ceef74e65bad484ddd40d24636954b490"
+    },
+    {
+      "personId": "liu-min-northern-han",
+      "paragraphId": "shiguochunqiu-v006-p2",
+      "terms": [
+        "劉崇"
+      ],
+      "reason": "此处完整姓名为刘崇景，是柴再用讨楚语境；不能因劉崇短串归入北汉刘旻。",
+      "originalRevision": 1,
+      "originalSha256": "24d694dacc10acf66ad1ae042af785ba2f00d4688eee97a41b911a89926b3c33"
     }
   ],
   "regnalEdicts": {
