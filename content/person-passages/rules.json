@@ -4610,6 +4610,18 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-wang-chuanzheng-wife-unnamed",
+      "names": [
+        "王传拯妻（失名）",
+        "王傳拯妻（失名）",
+        "王传拯妻",
+        "王傳拯妻"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -13157,6 +13169,87 @@
       "reason": "本段只为朝廷下令行密讨伐的对象，不把他人奉令当本人行动；补mention。",
       "originalRevision": 1,
       "originalSha256": "374396495fc6dc09744cda3fbc395e3010b68809a993deb756126b728f0cf5ce"
+    },
+    {
+      "personId": "wang-jian-former-shu",
+      "paragraphId": "shiguochunqiu-v003-p3",
+      "terms": [
+        "王建"
+      ],
+      "reason": "此为高丽王建弑躬乂自立，不是前蜀王建。",
+      "originalRevision": 1,
+      "originalSha256": "0145ea978ef63cb448f16cafe76a888df7c8b477243b95924e713fe3dd60e5dc"
+    },
+    {
+      "personId": "liu-zhiyuan",
+      "paragraphId": "shiguochunqiu-v003-p7",
+      "terms": [
+        "漢祖"
+      ],
+      "reason": "娄敬上言汉祖是汉代典故，不是后汉刘知远。",
+      "originalRevision": 1,
+      "originalSha256": "ecd16b79432eb1905256e6a85805c13d99f4c0aa3b10a0c5d981984091920454"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "shiguochunqiu-v003-p8",
+      "terms": [
+        "從周"
+      ],
+      "reason": "今从周世宗实录的从是依从介词，与周构成跨词短串，不是葛从周。",
+      "originalRevision": 1,
+      "originalSha256": "39f7ce95fe8a1954ab3420a7306fd5d5f39023759fd0f314caeaa8fbfe357b5d"
+    },
+    {
+      "personId": "chai-rong",
+      "paragraphId": "shiguochunqiu-v003-p8",
+      "terms": [
+        "世宗"
+      ],
+      "reason": "周世宗实录只书题，阻断自动record后显式保mention。",
+      "originalRevision": 1,
+      "originalSha256": "39f7ce95fe8a1954ab3420a7306fd5d5f39023759fd0f314caeaa8fbfe357b5d"
+    },
+    {
+      "personId": "wang-yanzhang",
+      "paragraphId": "shiguochunqiu-v003-p9",
+      "terms": [
+        "王彥章"
+      ],
+      "reason": "此为吴静江统军、与苗璘攻楚被俘的王彦章，不是已在梁亡时死的梁将王彦章。",
+      "originalRevision": 1,
+      "originalSha256": "02ae0ab1e7e7549cfc8ff224571ae9bac9733a2ddec045154b9fb1767f05668b"
+    },
+    {
+      "personId": "qian-hongzuo",
+      "paragraphId": "shiguochunqiu-v003-p10",
+      "terms": [
+        "錢弘佐",
+        "弘佐"
+      ],
+      "reason": "本段引九国志之钱弘佐赠物说而斥为非，只显式提及，不自动升其实际赠物记载。",
+      "originalRevision": 1,
+      "originalSha256": "b20d647cb1c3885efadb09fd8e1052bb3abf0b7a3f4cc263fad5978dde8fe9c9"
+    },
+    {
+      "personId": "song-qiqiu",
+      "paragraphId": "shiguochunqiu-v003-p11",
+      "terms": [
+        "宋齊丘"
+      ],
+      "reason": "仅被本书否定的江表志严球故事内归名，显式保来源mention，不自动变确定record。",
+      "originalRevision": 1,
+      "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288"
+    },
+    {
+      "personId": "xu-xuan",
+      "paragraphId": "shiguochunqiu-v003-p19",
+      "terms": [
+        "徐鉉"
+      ],
+      "reason": "徐铉吴录为引书作者语境，阻断自动record后保显式mention。",
+      "originalRevision": 1,
+      "originalSha256": "3c26b0807778d5895a8c7237a914cf00062c3f40a56fdf26db5d5387b7867fac"
     }
   ],
   "regnalEdicts": {

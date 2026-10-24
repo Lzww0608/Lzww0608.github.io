@@ -63,7 +63,7 @@ class SourceIntegrityTests(unittest.TestCase):
 
     def test_wu_household_selected_complete_sources_and_fixed_section_cache(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
-        for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v001', 2554072, 22, 15138, 'ebebf01ff02e660fea03786e032b30e5f27b271fc52f54a58992c8b08b592dc9'), ('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('shiguochunqiu-v012', 2554082, 19, 3006, '5e80aeb830d68c16ad69997851e7f4e08519f43f3e77db384462f4a6a9613a06'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
+        for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v001', 2554072, 22, 15138, 'ebebf01ff02e660fea03786e032b30e5f27b271fc52f54a58992c8b08b592dc9'), ('shiguochunqiu-v003', 2554071, 20, 10244, 'ff3e7892a2e6987525e6f06903030632ce11de6845ed40d8129c781c40fcff2d'), ('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('shiguochunqiu-v012', 2554082, 19, 3006, '5e80aeb830d68c16ad69997851e7f4e08519f43f3e77db384462f4a6a9613a06'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
             selected = next(s for s in archive.SPECS if s['id'] == chapter_id)
             summary = next(c for c in catalog['chapters'] if c['id'] == chapter_id)
             payload = json.loads((archive.ROOT / 'sources' / (chapter_id + '.json')).read_text())
@@ -82,7 +82,15 @@ class SourceIntegrityTests(unittest.TestCase):
                     shutil.copyfile(archive.ROOT / kind / (chapter_id + '.json'), root / kind / (chapter_id + '.json'))
                 before = {p: p.read_bytes() for p in root.rglob('*.json')}
                 with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('fixed cached source only')):
-                    self.assertEqual(archive.capture(selected, summary)['provenance'], summary['provenance'])
+                    regenerated = archive.capture(selected, summary)
+                    self.assertEqual(regenerated['provenance'], summary['provenance'])
+                    if chapter_id == 'shiguochunqiu-v003':
+                        self.assertIn('liu-xun-yonghe', regenerated['subjects'])
+                        self.assertIn('li-yu', regenerated['subjects'])
+                        self.assertIn('wu-wang-chuanzheng-wife-unnamed', regenerated['subjects'])
+                        self.assertNotIn('wang-yanzhang', regenerated['subjects'])
+                        self.assertNotIn('wang-jian-former-shu', regenerated['subjects'])
+                        self.assertNotIn('ge-congzhou', regenerated['subjects'])
                     wrong = json.loads(json.dumps(summary)); wrong['provenance']['revisionId'] = revision + 1
                     with self.assertRaisesRegex(ValueError, 'Fixed source revision changed'):
                         archive.capture(selected, wrong)

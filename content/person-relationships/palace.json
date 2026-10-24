@@ -9716,5 +9716,57 @@
         "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）"
       }
     ]
+  },
+  {
+    "id": "wang-chuanzheng-unnamed-wife",
+    "from": "wu-wang-chuanzheng",
+    "to": "wu-wang-chuanzheng-wife-unnamed",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "“免其妻子”承王传拯叛降的连续原段，妻以具体丈夫辨认；姓氏、姓名未知，不把子女群体分解成确定个体或推定生母。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p30",
+        "originalRevision": 1,
+        "originalSha256": "393beafc2b7e6b4a475fb256f7f0a5cabf7c93216fdafe8224f61849060db7fd",
+        "excerpt": "吳徐知誥以海州都指揮使王傳拯有威名，得士心，值團練使陳宣罷歸，知誥許以傳拯代之；既而復遣宣還海州，征傳拯還江都。傳拯怒，以為宣毀之，己亥，帥麾下入辭宣。因斬宣，焚掠城郭，帥其眾五千來奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6"
+      },
+      {
+        "chapterId": "shiguochunqiu-v003",
+        "paragraphId": "shiguochunqiu-v003-p11",
+        "originalRevision": 1,
+        "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288",
+        "excerpt": "先是傳拯有威名，得士心，會宣罷歸，徐知誥許以傳拯代之；既而復遣宣還海州，徵傳拯還江都。傳拯怒，以爲宣實毀之，遂帥麾下入辭，因斬宣，焚掠城郭，帥其衆五千出奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《十国春秋》 · 卷 3 · 吴睿帝本纪（杨溥）"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-wang-chuanzheng-wife-exemption",
+    "from": "li-bian",
+    "to": "wu-wang-chuanzheng-wife-unnamed",
+    "kind": "service",
+    "label": "免罪",
+    "note": "此时称徐知诰，后来为李昪；他自责并免王传拯妻与子女的罪责。此边只登记对妻的直接施惠，既非任官、部将关系，也不补定免死、释放或返家。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p30",
+        "originalRevision": 1,
+        "originalSha256": "393beafc2b7e6b4a475fb256f7f0a5cabf7c93216fdafe8224f61849060db7fd",
+        "excerpt": "吳徐知誥以海州都指揮使王傳拯有威名，得士心，值團練使陳宣罷歸，知誥許以傳拯代之；既而復遣宣還海州，征傳拯還江都。傳拯怒，以為宣毀之，己亥，帥麾下入辭宣。因斬宣，焚掠城郭，帥其眾五千來奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6"
+      },
+      {
+        "chapterId": "shiguochunqiu-v003",
+        "paragraphId": "shiguochunqiu-v003-p11",
+        "originalRevision": 1,
+        "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288",
+        "excerpt": "先是傳拯有威名，得士心，會宣罷歸，徐知誥許以傳拯代之；既而復遣宣還海州，徵傳拯還江都。傳拯怒，以爲宣實毀之，遂帥麾下入辭，因斬宣，焚掠城郭，帥其衆五千出奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《十国春秋》 · 卷 3 · 吴睿帝本纪（杨溥）"
+      }
+    ]
   }
 ]
