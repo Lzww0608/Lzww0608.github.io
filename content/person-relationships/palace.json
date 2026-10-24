@@ -9636,5 +9636,67 @@
         "title": "《十国春秋》 · 卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等）"
       }
     ]
+  },
+  {
+    "id": "zhu-furen-dispatched-servant-source-link",
+    "from": "wu-yang-xingmi-wife-zhu",
+    "to": "wu-zhu-furen-dispatched-servant-source-role",
+    "kind": "service",
+    "label": "遣婢报信记载／来源联系",
+    "note": "只表示朱夫人派遣该来源角色报信的记载，不作授官、部属身份、谋杀共谋或人数判断；报知对象朱延寿见原句。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p3",
+        "originalRevision": 1,
+        "originalSha256": "edcee92b2cf6788b186b7a84efc831890acc866a75ded92de9b4b05af7717d3e",
+        "excerpt": "朱夫人遣婢報之，故延壽疾走揚州。",
+        "title": "《十国春秋》卷13"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-shibu-wife-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-wife-shibu-zhu-san-source-role",
+    "kind": "kinship",
+    "label": "妻称谓（史补朱三郎记载）",
+    "note": "此边只登记《五代史补》的妻称谓与发使语境；来源角色不表示新确认另一位自然配偶。朱三郎与朱延寿的同异不据本边确定，妻发使也不证明使者就是《十国春秋》的婢。",
+    "sources": [
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "楊行密據淮南，以妻弟朱氏眾謂之朱三郎者，行密署為泗州防禦使。",
+        "title": "《五代史补》卷1"
+      },
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "妻以為然，遽發使，述其意而召之。",
+        "title": "《五代史补》卷1"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-shibu-servants-concubines-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-servants-concubines-shibu-source-role",
+    "kind": "service",
+    "label": "仆妾自杀记载／来源联系",
+    "note": "这里只关联杨行密家庭中的该来源群体；原书将无礼与自杀行为归这些仆妾，不表示任命、刑杀、婚配、宫职或每个成员的身份。",
+    "sources": [
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "於是軍府大駭，其仆妾嘗所無禮者，皆自殺。",
+        "title": "《五代史补》卷1"
+      }
+    ]
   }
 ]
