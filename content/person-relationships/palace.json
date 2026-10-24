@@ -9574,5 +9574,49 @@
         "title": "《十国春秋》 · 卷 9"
       }
     ]
+  },
+  {
+    "id": "xu-shan-younger-sister-kinship",
+    "from": "wu-xu-shan",
+    "to": "wu-xu-shan-younger-sister-unknown",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "原文“善有女弟”限定为徐善的妹妹，不补父母或同母关系。徐善赴广陵申诉、具陈被掠经过，不表示女方亲自申诉。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+        "excerpt": "徐善，洪州人也。秦裴拔洪州，善有女弟檀殊色，爲軍校所得，強納幣焉，已竟挾之去。善詣廣陵，白其事。",
+        "title": "《十国春秋》 · 卷 9 · 吴列传（王稔、曹筠、徐善等）"
+      }
+    ]
+  },
+  {
+    "id": "yang-wo-xu-shan-sister-redemption",
+    "from": "yang-wo",
+    "to": "wu-xu-shan-younger-sister-unknown",
+    "kind": "service",
+    "label": "命人赎归",
+    "note": "杨渥为命人出资赎回的施救者，女方为获赎者；不是任官、部将、婚配或收养关系，也不写成杨渥亲自实施交易。吴烈祖按本书后妃卷与新史杨渥记载辨认，不混为南唐李昪。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+        "excerpt": "是時烈祖府庭甚嚴，布衣遊士經歲不得一見，而善始至白沙，烈祖夜夢神告曰：「江西秀才徐善見公，今在白沙逆旅矣。其人良士也，且有情事未申，宜厚遇之。」烈祖旦卽遣騎迎善，既至，禮遇優渥，因具述女弟被掠狀，烈祖命購贖歸善。",
+        "title": "《十国春秋》 · 卷 9 · 吴列传（王稔、曹筠、徐善等）"
+      },
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "唐僖宗時，太祖納之，生烈祖、高祖，己而封武昌郡君。烈祖嗣王位，尊爲太夫人。",
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主"
+      }
+    ]
   }
 ]
