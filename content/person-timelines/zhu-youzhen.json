@@ -351,6 +351,28 @@
       ]
     },
     {
+      "id": "zhu-youzhen-du-xiao-posthumous-honor",
+      "title": "即位后追赠杜晓右仆射",
+      "summary": "杜晓在袁象先讨朱友珪时遭禁军兵乱、重伤而卒；末帝即位后，下诏追赠杜晓右仆射。只把追赠算作朱友贞行为，不把杜晓生前官职或死亡的执行归给他。",
+      "year": 913,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "末帝即位后，追赠诏未独记月日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "及袁象先之討友珪，禁兵大縱，曉中重創而卒。末帝即位，詔贈右僕射。"
+        }
+      ],
+      "notes": [
+        "913年据既有末帝承位事件定位；本传只说即位后，不能沿用宫变庚寅为追赠确日。"
+      ]
+    },
+    {
       "id": "zhu-youzhen-xu-rebellion",
       "title": "命讨不受代的蒋殷",
       "summary": "蒋殷不肯由朱友璋接镇徐州，削其官爵、复其本姓，命牛存节、刘鄩等讨伐，击退吴国援军；新史起乱纪月不同。",
@@ -1468,6 +1490,30 @@
           "originalSha256": "9e06e55cddb7de8b321e82f078a54990f4b1216c6a2146776e6de5dcd9daa3cc",
           "excerpt": "時禁軍尚有四千人，朱圭請以拒唐軍，帝不從，登建國門召開封尹王瓚，謂之曰：「段凝未至，社稷係卿方略。」瓚即驅軍民登城為備。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧敬翔传急召问计与君臣恸哭",
+          "sourceDate": "923年王彦章中都败后，未独记问计日",
+          "year": 923,
+          "summary": "梁末帝急召敬翔，承认平日忽略其奏，询问安归。敬翔重提任段凝时的反对与当前限水，认为劝末帝外出避敌必不被听从、请其出奇应敌又难果断，君臣相向恸哭；此为本传对话，不补为实际已实施的出逃或出战。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p15",
+              "originalRevision": 1,
+              "originalSha256": "f15e3d83893d99a952635646f02b65cdd5357b1af2c1fd70a95aa668a16b2a23",
+              "excerpt": "及王彥章敗於中都，晉人長驅而南，末帝急召翔，謂之曰：「朕居常忽卿所奏，果至今日。事急矣，勿以為懟，且使朕安歸？」"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p15",
+              "originalRevision": 1,
+              "originalSha256": "f15e3d83893d99a952635646f02b65cdd5357b1af2c1fd70a95aa668a16b2a23",
+              "excerpt": "言訖，君臣相向慟哭。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1514,6 +1560,21 @@
               "originalRevision": 1,
               "originalSha256": "4020e4e4f20af4e84cf927ffa8bdc4c9d46520141ec957b8517a26423fed18fa",
               "excerpt": "己卯旦，李嗣源軍至大梁，攻封丘門，王瓚開門出降，嗣源入城，撫安軍民。是日，帝入自梁門，百官迎謁於馬首，拜伏請罪，帝慰勞之，使各復其位。李嗣源迎賀，帝喜不自勝，手引嗣源衣，以頭觸之曰：「吾有天下，卿父子之功也，天下與爾共之。」帝命訪求梁主，頃之，或以其首獻。"
+            }
+          ]
+        },
+        {
+          "label": "敬翔话中称少主伏剑",
+          "sourceDate": "923年入汴前后敬翔之语，未独记死日",
+          "year": 923,
+          "summary": "旧敬翔传在敬翔自述中称少主伏剑于国门，是话语里的概称；不据此删去旧末帝纪、通鉴所记皇甫麟奉命杀帝的具体施行，也不把自述概称改作另一次死亡。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p16",
+              "originalRevision": 1,
+              "originalSha256": "f31408a124a373f332d3e0c2b3fb7cb31504b404b32bb5b1f2f2ac532de8b10d",
+              "excerpt": "今少主伏劍於國門，縱新朝赦罪，何面目入建國門也！"
             }
           ]
         }
@@ -1790,6 +1851,33 @@
       "notes": [
         "只保本段相对先后，不由末帝即位年推定本次出征确年。"
       ]
+    },
+    {
+      "id": "zhu-youzhen-taizu-records-compilation",
+      "title": "命修太祖实录并令敬翔补辑",
+      "summary": "贞明中命李琪、张衮、郤殷象、冯锡嘉修太祖实录三十卷；旧传评其疏漏，又记诏敬翔补辑，敬翔另成大梁编遗录三十卷，与实录并行。初次命修与后来补辑各保原叙，不以921年征集史料诏代替这次未独日的编修。",
+      "year": null,
+      "sortOrder": 57,
+      "precision": "range",
+      "sourceDate": "贞明中初命；后令敬翔补辑未独年，范围以末帝在位至923年为界",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p17",
+          "originalRevision": 1,
+          "originalSha256": "e929f1ddcf08a1839fe5ed994f93474b77475176f0c3936d38f8de2b138c30b0",
+          "excerpt": "初，貞明中，史臣李琪、張袞、郤殷象、馮錫嘉奉詔修撰《太祖實錄》三十卷，敘述非工，事多漏略。復詔翔補緝其闕，翔乃別纂成三十卷，目之曰《大梁編遺錄》，與《實錄》偕行。"
+        }
+      ],
+      "notes": [
+        "915—923为初命在贞明年间、后续补诏未独年的保守外界，不称编遗录全在贞明或同一年完成。",
+        "原有921年征集家传、公务资料事件及其日次原样保持；本条不是用实录书名自动关联朱温的生前行动。"
+      ],
+      "yearRange": {
+        "start": 915,
+        "end": 923
+      }
     }
   ]
 }

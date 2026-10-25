@@ -21,7 +21,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
     }
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
-    [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:12},(_,i)=>75+i),91, ...Array.from({length:6},(_,i)=>99+i), ...Array.from({length:12},(_,i)=>110+i),133,134,135,136]);
+    [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:12},(_,i)=>75+i),91, ...Array.from({length:6},(_,i)=>99+i), ...Array.from({length:12},(_,i)=>110+i),133,134,135,136]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,36,39,41,43,44,45,46,51,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume).sort((a,b) => a-b), [262, ...Array.from({ length: 29 }, (_, i) => 266 + i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'jiuguozhi').map(c => c.id), ['jiuguozhi-v002']);
@@ -44,6 +44,29 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   assert.ok(palace.paragraphs[5].original.includes('是金華公主實歸羅氏'));
   const quewen = chapters.find(c => c.id === 'quewen-v001').paragraphs.map(p => p.original).join('');
   assert.ok(quewen.includes('宋王禹偁撰') && quewen.includes('皆聞於耆老者也') && quewen.includes('王樸'));
+});
+
+test('Jing Xiang source keeps the complete fixed shared biography, stable paragraphs and all seven source headings', () => {
+  assert.equal(catalog.chapters.filter(chapter => chapter.id === 'old-v018').length, 1);
+  const summary = catalog.chapters.find(chapter => chapter.id === 'old-v018');
+  const chapter = chapters.find(chapter => chapter.id === 'old-v018');
+  assert.equal(summary.title, '卷 18 · 梁书列传八');
+  assert.equal(summary.position, 18);
+  assert.equal(summary.scope, 'full');
+  assert.equal(summary.paragraphCount, 26);
+  assert.equal(summary.characterCount, 5702);
+  assert.equal(summary.provenance.revisionId, 8730595);
+  assert.equal(summary.provenance.sourceSha256, '44de6b42dc7f87ac8f277cf93c23a6c80691f32863f2d0c7ce759d55538b78de');
+  assert.equal(summary.provenance.chapterSha256, '20d4b29a04f90fc4dd75dba0427a7a549b6e4108f66b699236e6c7b18a0113d3');
+  assert.ok(summary.subjects.includes('jing-xiang'));
+  assert.equal(summary.subjects.includes('li-yu'), false);
+  assert.equal(chapter.paragraphs.reduce((sum, paragraph) => sum + [...paragraph.original].length, 0), 5702);
+  assert.deepEqual(chapter.paragraphs.map(paragraph => paragraph.id), Array.from({ length: 26 }, (_, i) => `old-v018-p${i + 1}`));
+  assert.deepEqual([1, 5, 7, 9, 12, 19, 25].map(position => chapter.paragraphs[position - 1].original),
+    ['張文蔚', '薛貽矩', '張策', '杜曉', '敬翔', '李振', '贊']);
+  assert.ok(chapter.paragraphs[12].original.startsWith('敬翔，字子振'));
+  assert.ok(chapter.paragraphs[25].original.startsWith('史臣曰：'));
+  assert.ok(chapter.paragraphs.every(paragraph => paragraph.revision === 1 && paragraph.translation === null));
 });
 
 test('Later Tang, Jin, Han and Zhou household and supporting biography volumes retain fixed complete originals and textual notes', () => {

@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 94 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、文臣合传卷 18、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 95 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、相关人物列传及十国世家卷 61—70；共 43 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='现收卷 266—294 的五代部分（907—959 年），另收卷 262 的晚唐记事，补充吴国相关人物的早期材料；共 30 卷，不表示全书已收录。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -54,6 +54,9 @@ for person, start, end, title in [
         SPECS.append(dict(id=f'old-v{volume:03}', bookId='old', volume=volume, title=f'卷 {volume} · {title}{volume-start+1}', page=f'舊五代史/卷{volume}', subjects=[person]))
 SPECS.append(dict(id='old-v011', bookId='old', volume=11, title='卷 11 · 梁后妃传', page='舊五代史/卷11', subjects=['zhu-wen', 'zhu-youzhen']))
 SPECS.append(dict(id='old-v012', bookId='old', volume=12, title='卷 12 · 梁宗室传（含朱友珪）', page='舊五代史/卷12', subjects=['zhu-wen', 'zhu-yougui', 'zhu-youzhen']))
+# C001 retains the whole fixed shared civil-official biography, including other lives and commentary.
+SPECS.append(dict(id='old-v018', bookId='old', volume=18, position=18, title='卷 18 · 梁书列传八',
+                  page='舊五代史/卷18', subjects=['jing-xiang'], scanSubjects=True, fixedRevisionId=8730595))
 # Li Keyong was prince of Jin during his lifetime and posthumously honoured
 # as 武皇帝 by Later Tang. These annals do not add an actually reigning emperor.
 for volume, label, subjects in [(25, '上', ['li-keyong']), (26, '下', ['li-keyong', 'li-cunxu'])]:
@@ -414,6 +417,144 @@ for chapter_id, added_subjects in {
         "yang-xingmi",
         "wu-li-decheng-daughter-liu-chongjun-first-wife",
         "wu-li-decheng-daughter-liu-chongjun-later-wife"
+    ]
+}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
+
+# Source-bound C001 canonical chapter metadata; preserve all prior subjects and source bytes.
+for chapter_id, added_subjects in {
+    "shiguochunqiu-v001": ["jing-xiang"],
+    "shiguochunqiu-v002": ["jing-xiang"],
+    "beimeng-v017": [
+        "jing-xiang"
+    ],
+    "chunqiu-v001": [
+        "jing-xiang"
+    ],
+    "huiyao-v001": [
+        "jing-xiang"
+    ],
+    "huiyao-v013": [
+        "jing-xiang"
+    ],
+    "huiyao-v024": [
+        "jing-xiang"
+    ],
+    "kaoyi-v028": [
+        "jing-xiang"
+    ],
+    "kaoyi-v029": [
+        "jing-xiang"
+    ],
+    "new-v02": [
+        "jing-xiang"
+    ],
+    "new-v03": [
+        "jing-xiang"
+    ],
+    "new-v05": [
+        "jing-xiang"
+    ],
+    "new-v13": [
+        "jing-xiang"
+    ],
+    "new-v21": [
+        "jing-xiang"
+    ],
+    "new-v23": [
+        "jing-xiang"
+    ],
+    "new-v32": [
+        "jing-xiang"
+    ],
+    "new-v43": [
+        "jing-xiang"
+    ],
+    "old-v001": [
+        "jing-xiang"
+    ],
+    "old-v002": [
+        "jing-xiang"
+    ],
+    "old-v003": [
+        "jing-xiang"
+    ],
+    "old-v005": [
+        "jing-xiang"
+    ],
+    "old-v006": [
+        "jing-xiang"
+    ],
+    "old-v007": [
+        "jing-xiang"
+    ],
+    "old-v008": [
+        "jing-xiang"
+    ],
+    "old-v009": [
+        "jing-xiang"
+    ],
+    "old-v010": [
+        "jing-xiang"
+    ],
+    "old-v015": [
+        "jing-xiang"
+    ],
+    "old-v018": [
+        "jing-xiang",
+        "zhu-yougui",
+        "liu-xun",
+        "he-gui",
+        "wang-yanzhang",
+        "liu-zhijun",
+        "yuan-xiangxian",
+        "duan-ning",
+        "guo-chongtao",
+        "li-keyong",
+        "ma-yin",
+        "zhu-wen",
+        "zhu-youzhen",
+        "li-cunxu"
+    ],
+    "old-v019": [
+        "jing-xiang"
+    ],
+    "old-v020": [
+        "jing-xiang"
+    ],
+    "old-v030": [
+        "jing-xiang"
+    ],
+    "old-v059": [
+        "jing-xiang"
+    ],
+    "old-v063": [
+        "jing-xiang"
+    ],
+    "old-v073": [
+        "jing-xiang"
+    ],
+    "shibu-v001": [
+        "jing-xiang"
+    ],
+    "tongjian-v266": [
+        "jing-xiang"
+    ],
+    "tongjian-v268": [
+        "jing-xiang"
+    ],
+    "tongjian-v269": [
+        "jing-xiang"
+    ],
+    "tongjian-v270": [
+        "jing-xiang"
+    ],
+    "tongjian-v271": [
+        "jing-xiang"
+    ],
+    "tongjian-v272": [
+        "jing-xiang"
     ]
 }.items():
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)

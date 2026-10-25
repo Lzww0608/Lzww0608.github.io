@@ -46,6 +46,75 @@ WU_MARRIAGE_FIXTURES = {
 HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES, **WU_MARRIAGE_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_jing_xiang_shared_biography_is_one_fixed_complete_source(self):
+        chapter_id = 'old-v018'
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        selected_specs = [item for item in archive.SPECS if item['id'] == chapter_id]
+        selected_summaries = [item for item in catalog['chapters'] if item['id'] == chapter_id]
+        self.assertEqual(len(selected_specs), 1, 'the complete shared biography must have exactly one capture spec')
+        self.assertEqual(len(selected_summaries), 1, 'the complete shared biography must have exactly one public catalog entry')
+        selected, summary = selected_specs[0], selected_summaries[0]
+        self.assertEqual(selected['fixedRevisionId'], 8730595)
+        self.assertEqual((selected['bookId'], selected['volume'], selected['position'], selected['title'], selected['page']),
+                         ('old', 18, 18, '卷 18 · 梁书列传八', '舊五代史/卷18'))
+        self.assertIn('jing-xiang', selected['subjects'])
+        self.assertIn('jing-xiang', summary['subjects'])
+        self.assertNotIn('li-yu', summary['subjects'])
+        source_path = archive.ROOT / 'sources' / f'{chapter_id}.json'
+        chapter_path = archive.ROOT / 'chapters' / f'{chapter_id}.json'
+        source_hash = '44de6b42dc7f87ac8f277cf93c23a6c80691f32863f2d0c7ce759d55538b78de'
+        chapter_hash = '20d4b29a04f90fc4dd75dba0427a7a549b6e4108f66b699236e6c7b18a0113d3'
+        payload = json.loads(source_path.read_text())
+        chapter = json.loads(chapter_path.read_text())
+        self.assertEqual(hashlib.sha256(source_path.read_bytes()).hexdigest(), source_hash)
+        self.assertEqual(hashlib.sha256(chapter_path.read_bytes()).hexdigest(), chapter_hash)
+        self.assertEqual(payload['response']['parse']['title'], '舊五代史/卷18')
+        self.assertEqual(payload['response']['parse']['revid'], 8730595)
+        self.assertEqual(summary['provenance']['revisionId'], 8730595)
+        self.assertEqual(summary['provenance']['sourceSha256'], source_hash)
+        self.assertEqual(summary['provenance']['chapterSha256'], chapter_hash)
+        self.assertIn('oldid=8730595', summary['provenance']['sourceUrl'])
+        self.assertEqual(summary['provenance']['license'], 'CC BY-SA 4.0')
+        self.assertEqual(summary['provenance']['licenseUrl'], 'https://creativecommons.org/licenses/by-sa/4.0/')
+        self.assertEqual((summary['scope'], summary['paragraphCount'], summary['characterCount']), ('full', 26, 5702))
+        self.assertEqual(chapter['title'], selected['title'])
+        self.assertEqual(chapter['position'], 18)
+        blocks = archive.extract(payload['response']['parse']['text']['*'], with_tags=True)
+        self.assertEqual((len(blocks), sum(len(text) for text, _ in blocks)), (26, 5702))
+        self.assertEqual([p['original'] for p in chapter['paragraphs']], [text for text, _ in blocks])
+        self.assertEqual([p['id'] for p in chapter['paragraphs']], [f'{chapter_id}-p{i + 1}' for i in range(26)])
+        self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in chapter['paragraphs']))
+        self.assertEqual([(i + 1, text, tag) for i, (text, tag) in enumerate(blocks) if tag.startswith('h')],
+                         [(1, '張文蔚', 'h2'), (5, '薛貽矩', 'h2'), (7, '張策', 'h2'), (9, '杜曉', 'h2'),
+                          (12, '敬翔', 'h2'), (19, '李振', 'h2'), (25, '贊', 'h2')])
+        self.assertEqual(next(book for book in catalog['books'] if book['id'] == 'old'),
+                         next(book for book in archive.BOOKS if book['id'] == 'old'))
+
+    def test_jing_xiang_fixed_cache_reuse_keeps_new_and_old_original_bytes(self):
+        chapter_ids = ['old-v011', 'old-v018']
+        specs = {item['id']: item for item in archive.SPECS}
+        self.assertTrue('old-v018' in specs, 'a registered fixed cache is required before reuse')
+        summaries = {item['id']: item for item in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
+        archive_root = archive.ROOT
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                for chapter_id in chapter_ids:
+                    shutil.copyfile(archive_root / kind / f'{chapter_id}.json', root / kind / f'{chapter_id}.json')
+            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in chapter_ids]
+            before = {path: path.read_bytes() for path in paths}
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Fixed C001 cache must never request the network')):
+                regenerated = archive.capture(specs['old-v018'])
+                self.assertEqual(regenerated, summaries['old-v018'])
+                self.assertEqual(archive.capture(specs['old-v018'], summaries['old-v018']), summaries['old-v018'])
+                self.assertEqual(archive.capture(specs['old-v011'], summaries['old-v011'])['provenance'], summaries['old-v011']['provenance'])
+                wrong = json.loads(json.dumps(summaries['old-v018']))
+                wrong['provenance']['revisionId'] = 8730594
+                with self.assertRaisesRegex(ValueError, 'Fixed source revision changed: old-v018'):
+                    archive.capture(specs['old-v018'], wrong)
+            self.assertEqual({path: path.read_bytes() for path in paths}, before)
+
     def test_jiuguozhi_and_tongjian262_keep_distinct_book_and_volume_scopes(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         book = next(b for b in archive.BOOKS if b['id'] == 'jiuguozhi')
@@ -221,7 +290,7 @@ class SourceIntegrityTests(unittest.TestCase):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 94)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 95)
         self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 43)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):

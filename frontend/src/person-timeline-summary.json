@@ -530,12 +530,13 @@
     },
     {
       "personId": "guo-chongtao",
-      "eventCount": 18,
+      "eventCount": 19,
       "eventIds": [
         "guo-chongtao-shumi",
         "guo-chongtao-bozhou-fort",
         "guo-chongtao-strike-daliang",
         "guo-chongtao-gongsi-reward",
+        "guo-chongtao-li-zhen-appraisal",
         "guo-chongtao-stop-building",
         "guo-chongtao-relinquish-town",
         "guo-chongtao-march-shu",
@@ -1213,6 +1214,45 @@
       ]
     },
     {
+      "personId": "jing-xiang",
+      "eventCount": 33,
+      "eventIds": [
+        "jing-xiang-zhu-zhen-report",
+        "jing-xiang-taifu-qing",
+        "jing-xiang-luoyang-banquet",
+        "jing-xiang-huainan-remonstrance",
+        "jing-xiang-chongzheng-knowledge",
+        "jing-xiang-chongzheng-commissioner",
+        "jing-xiang-su-xun-remonstrance",
+        "jing-xiang-western-affairs",
+        "jing-xiang-baixiang-omen",
+        "jing-xiang-jinluan-scholar",
+        "jing-xiang-yougui-dispatch",
+        "jing-xiang-chancellorship",
+        "jing-xiang-right-pushe",
+        "jing-xiang-oppose-jiao",
+        "jing-xiang-yangliu-memorial",
+        "jing-xiang-salt-acting",
+        "jing-xiang-hongwen-salt",
+        "jing-xiang-tea-tax",
+        "jing-xiang-zhang-wenli-aid",
+        "jing-xiang-recommend-wang",
+        "jing-xiang-oppose-duan",
+        "jing-xiang-last-audience",
+        "jing-xiang-death",
+        "jing-xiang-family-punishment",
+        "jing-xiang-exams",
+        "jing-xiang-enter-staff",
+        "jing-xiang-early-offices",
+        "jing-xiang-guanglu-shaoqing",
+        "jing-xiang-tianfu-honorary-office",
+        "jing-xiang-li-juchuan-report",
+        "jing-xiang-deathbed-command",
+        "jing-xiang-daliang-bianyilu",
+        "jing-xiang-marriage-liu"
+      ]
+    },
+    {
       "personId": "kang-fu",
       "eventCount": 8,
       "eventIds": [
@@ -1583,7 +1623,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 29,
+      "eventCount": 30,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -1596,6 +1636,7 @@
         "li-cunxu-weibo",
         "li-cunxu-yuancheng",
         "li-cunxu-rescue-youzhou",
+        "li-cunxu-yangliu-capture",
         "li-cunxu-huliu",
         "li-cunxu-desheng",
         "li-cunxu-zhenzhou-siege",
@@ -2556,10 +2597,11 @@
     },
     {
       "personId": "liu-zhijun",
-      "eventCount": 16,
+      "eventCount": 17,
       "eventIds": [
         "liu-zhijun-meiyuan",
         "liu-zhijun-luzhou",
+        "liu-zhijun-fuyan-dispatch",
         "liu-zhijun-honor",
         "liu-zhijun-rebellion",
         "liu-zhijun-qi",
@@ -2719,7 +2761,7 @@
     },
     {
       "personId": "ma-yin",
-      "eventCount": 16,
+      "eventCount": 17,
       "eventIds": [
         "ma-yin-chu-prince",
         "ma-yin-defeat-wu",
@@ -2736,6 +2778,7 @@
         "ma-yin-langzhou",
         "ma-yin-tang-envoy",
         "ma-yin-tea-and-money",
+        "ma-yin-li-zhen-mediation",
         "ma-yin-aid-wei-quanfeng-gaoan"
       ]
     },
@@ -5469,7 +5512,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 156,
+      "eventCount": 158,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -5551,6 +5594,7 @@
         "zhu-wen-guwater-kill",
         "zhu-wen-zhaozong-murder",
         "zhu-wen-guang-huoqiu",
+        "zhu-wen-replace-wang-shifan-with-li-zhen",
         "zhu-wen-shou-retreat",
         "zhu-wen-nine-princes",
         "zhu-wen-baima-ministers",
@@ -5626,7 +5670,8 @@
         "zhu-wen-zhang-jun-changshui",
         "zhu-wen-lu-guangchou-baisheng",
         "zhu-wen-zhao-brothers-appointments",
-        "zhu-wen-donghe-defeat-by-yanyun"
+        "zhu-wen-donghe-defeat-by-yanyun",
+        "zhu-wen-recruit-jing-xiang"
       ]
     },
     {
@@ -5700,7 +5745,7 @@
     },
     {
       "personId": "zhu-youzhen",
-      "eventCount": 56,
+      "eventCount": 58,
       "eventIds": [
         "zhu-youzhen-birth",
         "zhu-youzhen-jun-prince",
@@ -5711,6 +5756,7 @@
         "zhu-youzhen-honor-mother",
         "zhu-youzhen-rename-huang",
         "zhu-youzhen-reward-founders",
+        "zhu-youzhen-du-xiao-posthumous-honor",
         "zhu-youzhen-xu-rebellion",
         "zhu-youzhen-xu-conquest",
         "zhu-youzhen-divide-weibo",
@@ -5757,7 +5803,8 @@
         "zhu-youzhen-records-commission",
         "zhu-youzhen-first-office",
         "zhu-youzhen-rename-zhen",
-        "zhu-youzhen-commission-wang-jingren-huainan"
+        "zhu-youzhen-commission-wang-jingren-huainan",
+        "zhu-youzhen-taizu-records-compilation"
       ]
     },
     {

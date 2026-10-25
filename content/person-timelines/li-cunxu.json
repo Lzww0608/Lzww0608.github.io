@@ -468,6 +468,82 @@
       ]
     },
     {
+      "id": "li-cunxu-yangliu-capture",
+      "title": "攻取杨刘，亲负草束填堑",
+      "summary": "新旧本纪记李存勖在十二月攻取杨刘。旧本纪详载踏冰渡河、命步兵斩鹿角并负葭苇填堑，本人也负一围而进；新本纪亦记晋王自负刍填堑。梁末帝纪记城陷，敬翔奏语另述所闻李亚子负薪为先。",
+      "year": 918,
+      "sortOrder": 11,
+      "precision": "month",
+      "sourceDate": "晋方本纪天祐十四年十二月；梁末帝纪贞明三年十二月，均已入西历918年；未独记本事日。",
+      "phase": "conquest",
+      "evidence": [
+        {
+          "chapterId": "old-v028",
+          "paragraphId": "old-v028-p29",
+          "originalRevision": 1,
+          "originalSha256": "89db3c052dba06516441de2c6e73ca2cec5b841ba1cb14656b458a0448768177",
+          "excerpt": "十二月，帝觀兵於河上。時梁人據楊劉城，列柵相望，帝率軍履河冰而渡，盡平諸柵，進攻楊劉城。城中守兵三千人，帝率騎軍環城馳射，又令步兵持斧斬其鹿角，負葭葦以堙塹；帝自負一圍而進，諸軍鼓噪而登，遂拔其壘，獲守將安彥之。是夕，帝宿楊劉。"
+        },
+        {
+          "chapterId": "new-v05",
+          "paragraphId": "new-v05-p7",
+          "originalRevision": 1,
+          "originalSha256": "cf1127fda1f615476cbad1ec320ec24f34918d92be061a22f34658df30c15a84",
+          "excerpt": "十二月，攻楊劉，王自負芻以堙塹，遂破之。"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p1",
+          "originalRevision": 1,
+          "originalSha256": "f1654b3bcb8a0dc455799d7e97722b46233de862fd7b4a4edbfc5d8844210dc6",
+          "excerpt": "貞明三年"
+        },
+        {
+          "chapterId": "old-v009",
+          "paragraphId": "old-v009-p13",
+          "originalRevision": 1,
+          "originalSha256": "5e158f1d7dbf3530f54e297b77d5f0b19cea62302bd684514f73fc13797a4003",
+          "excerpt": "是月，晉人陷楊劉城，帝聞之懼，遂停郊禮，車駕急歸東京。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p15",
+          "originalRevision": 1,
+          "originalSha256": "f15e3d83893d99a952635646f02b65cdd5357b1af2c1fd70a95aa668a16b2a23",
+          "excerpt": "臣聞李亞子自墨縗統眾，於今十年，每攻城臨陣，無不親當矢石，昨聞攻楊劉，率先負薪渡水，一鼓登城。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p12",
+          "originalRevision": 1,
+          "originalSha256": "8da5c70edc256cac91b3efddd6697c843828e32bc013438cc8159c2f173f1373",
+          "excerpt": "臣聞晉攻楊劉，李亞子負薪渡水，為士卒先。"
+        }
+      ],
+      "notes": [
+        "晋方本纪的天祐十四年十二月，与梁末帝纪贞明三年十二月均已入西历918年；只按月定位，未补具体日。",
+        "敬翔传中“寇马已至郓州”“于今十年”与后接中都败等合叙不用于给整段统一定年。",
+        "亲负草束填堑有两部本人本纪的直接记载；敬翔传中的负薪为先仍按奏语中的所闻保存，不将同一来源中的引述算作另一场战役。"
+      ],
+      "variants": [
+        {
+          "label": "旧贺瑰传作贞明四年春",
+          "sourceDate": "贞明四年春",
+          "year": 918,
+          "summary": "贺瑰传把晋人取杨刘记作四年春，与梁末帝纪前一年十二月的原月序分别保留；两处按西历均在918，不擅改底本月份。",
+          "evidence": [
+            {
+              "chapterId": "old-v023",
+              "paragraphId": "old-v023-p15",
+              "originalRevision": 1,
+              "originalSha256": "2c4ff0bc26237f5eac5196724fb5c46500d1deac9eec4cfedf5f2ce38f5d76e0",
+              "excerpt": "四年春，晉人取楊劉城據之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "li-cunxu-huliu",
       "title": "胡柳陂先败后胜，周德威战死",
       "summary": "李存勖深入梁境，在胡柳陂与梁军交战。晋军辎重溃乱冲击幽州军，周德威父子战死；李存勖收集散兵、夺取土山后再次进攻，击败梁军。《通鉴》同时记双方损失都很重。",
@@ -790,6 +866,28 @@
               "originalRevision": 1,
               "originalSha256": "130dc303d0da6188a9e3e804bed248c6fb16b187f466e6fd2db540a21f254489",
               "excerpt": "戊寅，皇帝崩。"
+            }
+          ]
+        },
+        {
+          "label": "旧敬翔传入城后赦梁臣",
+          "sourceDate": "923年入汴以后，赦令与敬翔结局均未独记日",
+          "year": 923,
+          "summary": "旧敬翔传记晋主陷都城后诏赦梁氏臣僚，李振拟朝新君、敬翔随后自缢，数日后并诛其族；初赦与后来族诛分开，不以赦令断言终无追究，也不将所有后续都定为己卯当日。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p16",
+              "originalRevision": 1,
+              "originalSha256": "f31408a124a373f332d3e0c2b3fb7cb31504b404b32bb5b1f2f2ac532de8b10d",
+              "excerpt": "及晉主陷都城，有詔赦梁氏臣僚，李振謂翔曰：「有制洗滌，將朝新君。」"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p16",
+              "originalRevision": 1,
+              "originalSha256": "f31408a124a373f332d3e0c2b3fb7cb31504b404b32bb5b1f2f2ac532de8b10d",
+              "excerpt": "乃自經而卒。數日，並其族被誅。"
             }
           ]
         }

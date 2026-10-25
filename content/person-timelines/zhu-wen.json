@@ -1902,6 +1902,13 @@
           "originalRevision": 1,
           "originalSha256": "a9e2ad044c3ffc826ceb613f6f073c45f27e23d05b5d4b68a15a6121f9326d75",
           "excerpt": "己丑，朱全忠聞劉季述等誅，折程巖足，械送京師，並劉希度、李奉本等皆斬於都市，由是益重李振。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p22",
+          "originalRevision": 1,
+          "originalSha256": "a8cc0e29dd08174ec68b4385663b873672906b97a375fb6b6b7941c2623e7365",
+          "excerpt": "乃定策縶偽使李奉本、支彥勳與希度等，即日請振將命於京師，與宰相謀返正。"
         }
       ],
       "variants": [
@@ -1920,6 +1927,9 @@
           ],
           "year": 901
         }
+      ],
+      "notes": [
+        "李振旧传另叙朱温拒张浚合作宦官之议、拘伪使并遣李振谋返正。其前段p21作光启三年而下叙昭宗废立，疑年不用于改既有主证的光化末、天复元年纪年。"
       ]
     },
     {
@@ -2514,6 +2524,36 @@
       ]
     },
     {
+      "id": "zhu-wen-replace-wang-shifan-with-li-zhen",
+      "title": "遣李振接替王师范，署青州留后",
+      "summary": "天祐二年正月，朱温命李振到青州传达拟调王师范离镇之意；王师范交印和举族迁走后，朱温表李振为青州留后，不久征还。与903年王师范初降、908年被诛分别记述。",
+      "year": 905,
+      "sortOrder": 76,
+      "precision": "month",
+      "sourceDate": "天祐二年春正月派遣；表留后及未几征还未独日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p23",
+          "originalRevision": 1,
+          "originalSha256": "69b67736fb09e2f9c7535b2ef79771726cce38b3e2d7a92d1ee9622655894921",
+          "excerpt": "天祐二年春正月，太祖召振，謂曰：「王師範來降，易歲尚處故藩，今將奏請徙授方面，其為我馳騎，以茲意達之。」"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p23",
+          "originalRevision": 1,
+          "originalSha256": "69b67736fb09e2f9c7535b2ef79771726cce38b3e2d7a92d1ee9622655894921",
+          "excerpt": "太祖乃表振為青州留後，未幾，征還。"
+        }
+      ],
+      "notes": [
+        "新传只以王师范以青州降梁后接叙此事，旧传提供天祐二年正月锚；不把接替自动倒入903年投降的月份。",
+        "同月内与既有寿州撤军等事项没有相对日次，不以展示顺序证明先后。"
+      ]
+    },
+    {
       "id": "zhu-wen-shou-retreat",
       "title": "寿州不克班师",
       "summary": "进攻寿州，守军闭壁不出，正月自霍丘退，二月回大梁。",
@@ -2581,6 +2621,27 @@
               "originalRevision": 1,
               "originalSha256": "6329b34182fc28c0291ffdc72a211883ccbdfe2f4033708955c7033bc73c63ff",
               "excerpt": "振嘗舉進士咸通、乾符中，連不中，尤憤唐公卿，及裴樞等七人賜死白馬驛，振謂太祖曰：「此輩嘗自言清流，可投之河，使為濁流也。」太祖笑而從之。"
+            }
+          ]
+        },
+        {
+          "label": "旧李振传白马七人及投河建议",
+          "sourceDate": "天祐中；本传未独记年、月、日",
+          "summary": "旧李振传记柳璨希朱温旨、谮杀裴枢陆扆等七人于滑州白马驿，李振因屡试不中而建议投黄河为浊流，朱温笑而从之。其七人、姓名及地点按传文保留，不替换本纪六月裴贽等百余人的叙述范围。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p24",
+              "originalRevision": 1,
+              "originalSha256": "3d708cf620e861b3aebdfb7278e68ebe9e3ed65ffd35422d67251539465dad85",
+              "excerpt": "天祐中，唐宰相柳璨希太祖旨，譖殺大臣裴樞、陸扆等七人於滑州白馬驛。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p24",
+              "originalRevision": 1,
+              "originalSha256": "3d708cf620e861b3aebdfb7278e68ebe9e3ed65ffd35422d67251539465dad85",
+              "excerpt": "時振自以咸通、乾符中嘗應進士舉，累上不第，尤憤憤，乃謂太祖曰：「此輩自謂清流，宜投於黃河，永為濁流。」太祖笑而從之。"
             }
           ]
         }
@@ -2847,6 +2908,13 @@
           "originalRevision": 1,
           "originalSha256": "7725b6e0f98ff1bcd8adfec036f14320a4c77ca9fd5c92602886a3ddbdf5fb6d",
           "excerpt": "《通鑒》：甲辰，唐昭宣帝降御劄禪位於梁。以攝中書令張文蔚為冊禮使，禮部尚書蘇循副之；攝侍中楊涉為押傳國寶使，翰林院學士張策副之；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢副之。帥百官備法駕，詣大樑。甲子，張文蔚、楊涉乘輅自上源驛至，從冊寶諸司各備儀衛鹵簿前導，百官從其後，至金祥殿前陳之。王被袞冕，即皇帝位。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "天祐四年，天子以土運將革，天命有歸，四月，命文蔚與楊涉等總率百僚，奉禪位詔至大梁。太祖受命，文蔚等不易其位。"
         }
       ],
       "variants": [
@@ -2872,6 +2940,9 @@
           ],
           "year": 907
         }
+      ],
+      "notes": [
+        "张文蔚传仅以四月概叙奉禅诏和太祖受命，未给受命日；土运、天命为原传禅代话语，不用来抹去强迫禅位的史家批评或裁定已有干支异说。"
       ]
     },
     {
@@ -2940,7 +3011,17 @@
           "originalRevision": 1,
           "originalSha256": "4d9997936d6b3ea6e72259d98f9f7f625fa504321ef6b805db0e5ccf64a5dcd5",
           "excerpt": "甲午，改樞密院為崇政院，太府卿敬翔為使。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p14",
+          "originalRevision": 1,
+          "originalSha256": "4106d725db869d8e19302e72da1a9e9edf733dd0d4790e248b2b4f151e7836f6",
+          "excerpt": "太祖受禪，自宣武軍掌書記、前太府卿，授檢校司空，依前太府卿勾當宣徽院事。尋改樞密院為崇政院，以翔知院事。"
         }
+      ],
+      "notes": [
+        "敬翔传另保受禅初勾当宣徽院事、继知崇政院的叙次，不把检校司空写成掌司空实职，也不将本传未独记的日子与五月甲午强合。"
       ]
     },
     {
@@ -3367,6 +3448,23 @@
           "originalRevision": 1,
           "originalSha256": "47879959db6d80c71a0ed421d291d57b5878e1fb6ec9766366150f8f8be5a96e",
           "excerpt": "六月庚戌，劉知俊執佑國軍節度使劉捍，叛附于岐。〈以身歸曰降，以地歸曰附，亦文理宜然爾。知俊為忠武軍節度使，以同州附岐，今直書知俊叛，而不言地，蓋忠武已見上文。〉辛亥，如陝州。〈以劉知俊叛故也。〉乙卯，冀王朱友謙為同州東面行營招討使。劉知俊奔于岐。丹州軍亂，逐其刺史宋知誨。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "反梁以前四月奉命西讨的背景",
+          "sourceDate": "开平三年四月派遣；与主事件六月反梁分开",
+          "year": 909,
+          "summary": "敬翔传记朱温四月因邠岐侵扰，遣刘知俊西讨鄜延，并因担心不济而宴问敬翔。此为同将反梁之前的任用背景，不是四月已反梁，也不证明新传四州全部在四月攻下。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p14",
+              "originalRevision": 1,
+              "originalSha256": "4106d725db869d8e19302e72da1a9e9edf733dd0d4790e248b2b4f151e7836f6",
+              "excerpt": "開平三年夏四月，太祖以邠、岐侵擾，遣劉知俊西討鄜、延，深憂不濟，因宴顧翔，以問西事。"
+            }
+          ]
         }
       ]
     },
@@ -4014,6 +4112,23 @@
           "originalSha256": "cc889a04d0fff0014a3433a58d564d9e45971bb60d5d664a3ccb77ea23225d93",
           "excerpt": "博王友文多材藝，太祖愛之，而年又長，太祖即位，嫡嗣未立，心嘗獨屬友文。太祖自張皇后崩，無繼室，諸子在鎮，皆邀其婦入侍。友文妻王氏有色，尤寵之。太祖病久，王氏與友珪妻張氏，常專房侍疾。太祖病少間，謂王氏曰：「吾知終不起，汝之東都，召友文來，吾與之決。」蓋心欲以後事屬之。乃謂敬翔曰：「友珪可與一郡，趣使之任。」乃以友珪為萊州刺史。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧敬翔传病危顾托与并寇之恨",
+          "sourceDate": "太祖大渐时，未独记顾托日",
+          "year": 912,
+          "summary": "旧敬翔传记太祖临危召敬翔至御床前受顾托，又以并寇为恨。这里未说明传位对象，不据此把朱友文补定为太子，也不另增有据不足的继承诏命。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p14",
+              "originalRevision": 1,
+              "originalSha256": "4106d725db869d8e19302e72da1a9e9edf733dd0d4790e248b2b4f151e7836f6",
+              "excerpt": "及太祖大漸，召至御床前受顧托之命，且深以並寇為恨，翔鳴咽不忍，受命而退。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -4621,6 +4736,54 @@
       "yearRange": {
         "start": 894,
         "end": 895
+      }
+    },
+    {
+      "id": "zhu-wen-recruit-jing-xiang",
+      "title": "起用敬翔掌檄奏并咨询军政",
+      "summary": "初镇大梁时，经王发引见敬翔，先补武职；敬翔求改文吏后，署馆驿巡官、专掌檄奏。与蔡州长期作战时，朱温逐渐把军谋政术咨询敬翔。此为长期任用经过，原段未独记首次相见和转职年月。",
+      "year": null,
+      "sortOrder": 171,
+      "precision": "range",
+      "sourceDate": "初镇大梁后、蔡州平前的任用与咨询过程；883—889为外界，初见未独年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p13",
+          "originalRevision": 1,
+          "originalSha256": "72a6c66b44bf60902381bf59f109d150d5ab77b2b1ef0ca43a79b3113b1535fe",
+          "excerpt": "及見，應對稱旨，即補右職，每令從軍。翔不喜武職，求補文吏，即署館驛巡官，俾專掌檄奏。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p13",
+          "originalRevision": 1,
+          "originalSha256": "72a6c66b44bf60902381bf59f109d150d5ab77b2b1ef0ca43a79b3113b1535fe",
+          "excerpt": "太祖與蔡賊相拒累歲，城門之外，戰聲相聞，機略之間，翔頗預之。太祖大悅，恨得翔之晚，故軍謀政術，一以諮之。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "d074e09532b4860df9bf6179677c55762eebe6159f9244b741bddeb4adbef1fd",
+          "excerpt": "七月丁卯，入于梁苑。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p32",
+          "originalRevision": 1,
+          "originalSha256": "5400a346295bf5a24a4938f1746712a1d0cbfa6aff6365c461ad2a56c8d7d1c2",
+          "excerpt": "旣至，昭宗御延喜樓受俘，卽斬宗權于獨柳樹下。蔡州平。"
+        }
+      ],
+      "notes": [
+        "不借883年赴汴的已知年月把首次引见和所有后续咨询压在883年；不以“自释褐”“三十余年”反算唯一入幕年。",
+        "外界取既有883年赴汴、889年蔡州平的本纪上下文，只约束这段早期过程，不将独立的开平或乾化后事纳入此范围。"
+      ],
+      "yearRange": {
+        "start": 883,
+        "end": 889
       }
     }
   ]
