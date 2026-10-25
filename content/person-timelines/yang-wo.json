@@ -16,11 +16,36 @@
           "originalRevision": 1,
           "originalSha256": "634a17bd0066b8d2ea14ce840215aba568b39b29ff5be6b7848641ca0b6aa7dc",
           "excerpt": "天祐三年二月，劉存取岳州。四月，江西鍾傳卒，其子匡時代立，傳養子延規怨不得立，以兵攻匡時。渥遣秦裴率兵攻之。九月，克洪州，執匡時及司馬陳象以歸，斬象於市，赦匡時。以秦裴為江西制置使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p10",
+          "originalRevision": 1,
+          "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+          "excerpt": "天祐三年，傳卒，匡時自稱留後，請命于唐。全諷曰：「聽鍾郎爲節度三年，吾將自爲之。」已而傳養子延規與匡時爭立，乞兵烈祖，烈祖遣秦裴等攻匡時。匡時敗，被執，歸于廣陵。未幾，全諷起兵江西，謀復鍾氏故地。"
+        },
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p19",
+          "originalRevision": 1,
+          "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110",
+          "excerpt": "天祐三年，傳卒，子匡時自稱留後，請命于唐。全諷曰：「聽鍾郎為節度使三年，吾將自為之。」已而傳養子延規與匡時爭立，乞兵於楊渥，渥遣秦裴等攻匡時，匡時敗，被執歸廣陵。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "b090af12648f3c46474ba91c84d15bc7232c460237248e8065d9f12832ff914e",
+          "excerpt": "烈祖時，充西南行營都招討使，將兵擊鍾匡時於江西。裴既至洪州，軍於蓼州，諸將請阻水立寨，裴不許。俄王時將劉楚至，果據其地。諸將以咎裴，裴曰：「匡時驍將，獨楚一人。若師衆守城，不可猝拔，吾正欲以要害誘致之耳。」頃之，破寨執楚，進圍洪州。饒州刺史唐寶請降，裴遂陷洪州，鹵匡時及其司馬陳象以歸。論克敵功，改洪州制置使。"
         }
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 1
+      "sortOrder": 1,
+      "notes": [
+        "钟延规乞兵、秦裴克洪与后来的危全讽/周本之役分开，原906主事件不改。",
+        "本卷秦裴传详诱刘楚出据要害与俘匡时过程；烈祖时只是来源时代称谓，不独证杨渥亲征。"
+      ]
     },
     {
       "id": "yang-wo-loss-of-power",
@@ -39,7 +64,40 @@
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "《九国志》张颢使陈祐在豫章宴斩三将",
+          "sourceDate": "秦裴取豫章后，未独记年月日",
+          "summary": "本源为张颢令陈祐借渥命赴豫章，在秦裴帐中宴斩朱思勍、范思从、陈璠；旧新史主证为温、颢带牙兵入内斩陈璠等，并见范遇称名。保人物、地点和施事差异，不拼成同三人先后两次被杀，也不认定杨渥发出了被借名的命令。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p29",
+              "originalRevision": 1,
+              "originalSha256": "84233b1b259e80c834eceed9ebcba28009798028f4219e502fe1a20f6838beb2",
+              "excerpt": "秦裴下豫章，時朱思勍、范思從、陳璠以兵戍之。璠等皆渥之心腹也，張顥忌焉，令祐以渥命往誅之。三校皆勇士也，顥旣遣祐行，甚憂之。祐踰險輕行，六日至豫章，微服懷短兵，入秦裴帳下。裴驚其來，且告之故，因責裴以不能制三帥，而令有異謀。裴懼，未及對，祐乃令召思勍等宴會。及至，則祐已與裴飲矣。三校入見祐，皆色變。俄而酒三行，祐數其罪，悉叱而斬之以歸。"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》秦裴传：在江西遣将杀三将",
+          "sourceDate": "本传未独记此事年月日",
+          "summary": "本传记徐温等忌朱思勍、范思从、陈璠，遣别将至秦裴军中杀三人；与广陵庭中斩杀及《九国志》陈祐赴豫章的施事、地点称名分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v006",
+              "paragraphId": "shiguochunqiu-v006-p3",
+              "originalRevision": 1,
+              "originalSha256": "b090af12648f3c46474ba91c84d15bc7232c460237248e8065d9f12832ff914e",
+              "excerpt": "以指揮使朱思勍、范思從、陳璠從戍江西，三人者故烈祖腹心也。會徐温等內忌三人，遣別將至裴所殺之，裴由是鬱鬱不自得，無何卒。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "本卷作徐温等遣别将至秦裴所杀朱思勍范思从陈璠；与旧主证广陵庭中斩及九国志张颢令陈祐赴豫章分源，不拼成重复死亡。"
+      ]
     },
     {
       "id": "yang-wo-assassination",
@@ -54,6 +112,13 @@
           "originalRevision": 1,
           "originalSha256": "1cc1bc980b745d43fb38709fda89e5aa6fc188e5db9d093e9dedf66ad3259404",
           "excerpt": "五年五月，溫、顥共遣盜入寢中殺渥，渥說羣盜能反殺溫等者皆為刺史。羣盜皆諾，惟紀祥不從，執渥縊殺之，時年二十三，謚曰景。弟隆演立。溥僭號，追尊渥為烈宗景皇帝，陵曰紹陵。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p15",
+          "originalRevision": 1,
+          "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07",
+          "excerpt": "天祐五年，張顥弑渥，將出徐温守潤州，以圖自立。"
         }
       ],
       "phase": "fall",
@@ -75,7 +140,10 @@
           "summary": "旧史记六月被张颢所杀，新史记五月徐温、张颢共谋，分别保留。"
         }
       ],
-      "sortOrder": 3
+      "sortOrder": 3,
+      "notes": [
+        "本源钟泰章传明称张颢弑渥，但只系天祐五年；不由此抹掉旧史六月、新史五月及徐温是否共谋的原有异说。"
+      ]
     },
     {
       "id": "yang-wo-posthumous",
@@ -116,6 +184,41 @@
           "originalRevision": 1,
           "originalSha256": "6037abe9da26919b1a95601c901ad7c06ced9cf8a0d0dec0a00282382e21238e",
           "excerpt": "十一月，行密卒，年五十四，謚曰武忠。子渥立。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p8",
+          "originalRevision": 1,
+          "originalSha256": "472b0b1c3d75f3ffe996b66414ce3acaa21473db794a34bc78418ea509377378",
+          "excerpt": "太祖卽世，諸將復詣儼承制授烈祖爲弘農郡王。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p13",
+          "originalRevision": 1,
+          "originalSha256": "3c0240b1d7f44a0c642c4888b1f701d9abf7fbd524f2669f328cf92412bc046f",
+          "excerpt": "渥襲位，授和州刺史。初，行密旣卒，張顥陰有異志，以都統符印送宣諭使李儼行事。嗣王意未決，一日，諸將共議，四座畏顥，無敢言者。濤曰：「都統符印是昭皇御翰所賜，王父子承襲，用在不疑，苛付他人，中外安仰？」諸將以其辭正，皆伏義，顥獨默然投袂而去。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p27",
+          "originalRevision": 1,
+          "originalSha256": "6bf0720cfc7300102cbb431f7302dd63a738d631480efc1cd7539c46ea5e8869",
+          "excerpt": "渥嗣位，潭人犯邊，授西南面行營護軍副將，謂諸將曰：「彼衆我寡，未欲輕動。」"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "excerpt": "渥襲位，補衙將。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v006",
+          "paragraphId": "shiguochunqiu-v006-p16",
+          "originalRevision": 1,
+          "originalSha256": "1bec2620195b7da150d7f9f631912de7598cccb63e0108e39ee40dfa59786a5d",
+          "excerpt": "太祖時，官淮關節度判官。太祖疾革，命隱召烈祖，隱直前曰：「章州司徒輕易信讒，喜擊毬飲酒，非保家主也。餘子皆幼，未能駕馭諸將。廬洲刺史劉威，從王起細微，當不負王，不若使權領軍府，俟諸子長以授之。」太祖不應。左右牙指揮徐溫、張顥言于太祖曰：「王平生出萬死，冒矢石，爲子孫立基業，安可使它人有之！」太祖曰：「吾死暝目矣。」乃命隱趣召長子渥來。及烈祖得嗣立，大罵隱曰：「君賣人國家，復何面目見楊氏乎！」遂殺之。由是將佐皆不自安。"
         }
       ],
       "phase": "uncertain",
@@ -124,7 +227,12 @@
       "yearRange": {
         "start": 905,
         "end": 906
-      }
+      },
+      "notes": [
+        "承制授弘农郡王补继承程序；烈祖局部指杨渥，不写为即帝位或另一君主。",
+        "李涛传以嗣王军权讨论补杨渥继承后的处境；杨彪、刘权传仅提供嗣位及任职叙次。不改召回经过、周隐结局或原有905—906范围。",
+        "本卷将周隐荐刘威、徐温张颢议与杨渥继位后杀周隐相接；保旧主事件ID、范围及所有原叙事不改。"
+      ]
     },
     {
       "id": "yang-wo-wang-maozhang",
@@ -139,6 +247,13 @@
           "originalRevision": 1,
           "originalSha256": "898bc395ee19d3fd3625fc6e83ba8e4e9b5279554eafd08bb97f8e91c39ce740",
           "excerpt": "渥之入也，多輦宣州庫物以歸廣陵，茂章惜而不與，渥怒，命李簡以兵五千圍之，茂章奔于錢塘。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v007",
+          "paragraphId": "shiguochunqiu-v007-p5",
+          "originalRevision": 1,
+          "originalSha256": "a2f7bd3678dee6260c08f06fdde9503171a08febee3d6a7db0281cfd7f6c600d",
+          "excerpt": "太祖薨，烈祖自宣州入立，以茂章代守其地。烈祖之去宣州也，欲取帷幕及親兵以行，〈一云：襲位後，反求宣州故時物。〉茂章惜不與。烈祖怒，既襲王位，以兵攻之。茂章奔于杭州，"
         }
       ],
       "phase": "uncertain",
@@ -148,7 +263,8 @@
         "end": 908
       },
       "notes": [
-        "本传接叙于承位后，具体行动年月未明；只在其实际执政年限内显示，不定为承位当年。"
+        "本传接叙于承位后，具体行动年月未明；只在其实际执政年限内显示，不定为承位当年。",
+        "本卷分正文欲取帷幕及亲兵与夹注袭位后索旧物两种叙法；“以兵攻之”只明发兵，未明杨渥亲自率军。"
       ],
       "sortOrder": 6
     },
@@ -174,6 +290,70 @@
         "start": 907,
         "end": 908
       }
+    },
+    {
+      "id": "yang-wo-zhao-kuangning-hailing",
+      "title": "渐不礼赵匡凝并迁之海陵",
+      "summary": "杨行密死后，杨渥逐渐不礼赵匡凝。赵在宴席间以吃青梅的戏语相讥，诸将认为轻慢，杨渥将赵迁至海陵。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "本卷“其后行密死”之后；未独记迁徙年月",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "evidence": [
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p26",
+          "originalRevision": 1,
+          "originalSha256": "c14f37b909a4c6f7984566487ae9a0e75022b32c9e58c00273c2b8b3565cc96b",
+          "excerpt": "其後行密死，楊渥稍不禮之。渥方宴，食青梅，匡凝顧渥曰：「勿多食，發小兒熱。」諸將以為慢，渥遷匡凝海陵，後為徐溫所殺。"
+        }
+      ],
+      "notes": [
+        "后来杀赵匡凝的施事原作徐温，不归给杨渥，也不把宴中戏语当作医学断言。",
+        "十国春秋卷8作“诸将以为倨慢，迁匡凝梅陵”，新史卷41明确“渥迁匡凝海陵”；迁徙施事的明隐与梅/海地名分源保留，不静改已发布旧译。"
+      ]
+    },
+    {
+      "id": "yang-wo-redeem-xu-shan-sister",
+      "title": "命赎徐善被挟走的妹妹",
+      "summary": "秦裴取洪州后，徐善的妹妹被军校强纳币、挟走。徐善到广陵陈述，烈祖杨渥接见听诉，命出资赎回，让她归还徐善。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "range",
+      "yearRange": {
+        "start": 906,
+        "end": 908
+      },
+      "sourceDate": "本传烈祖时、秦裴拔洪州之后；以906取洪至908杨渥卒为外范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p19",
+          "originalRevision": 1,
+          "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+          "excerpt": "徐善，洪州人也。秦裴拔洪州，善有女弟檀殊色，爲軍校所得，強納幣焉，已竟挾之去。善詣廣陵，白其事。是時烈祖府庭甚嚴，布衣遊士經歲不得一見，而善始至白沙，烈祖夜夢神告曰：「江西秀才徐善見公，今在白沙逆旅矣。其人良士也，且有情事未申，宜厚遇之。」烈祖旦卽遣騎迎善，既至，禮遇優渥，因具述女弟被掠狀，烈祖命購贖歸善。歙州刺史陶雅聞而異之，辟善爲從事。高祖時，官中書舍人。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p16",
+          "originalRevision": 1,
+          "originalSha256": "634a17bd0066b8d2ea14ce840215aba568b39b29ff5be6b7848641ca0b6aa7dc",
+          "excerpt": "天祐三年二月，劉存取岳州。四月，江西鍾傳卒，其子匡時代立，傳養子延規怨不得立，以兵攻匡時。渥遣秦裴率兵攻之。九月，克洪州，執匡時及司馬陳象以歸，斬象於市，赦匡時。以秦裴為江西制置使。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p19",
+          "originalRevision": 1,
+          "originalSha256": "1cc1bc980b745d43fb38709fda89e5aa6fc188e5db9d093e9dedf66ad3259404",
+          "excerpt": "五年五月，溫、顥共遣盜入寢中殺渥，渥說羣盜能反殺溫等者皆為刺史。羣盜皆諾，惟紀祥不從，執渥縊殺之，時年二十三，謚曰景。弟隆演立。溥僭號，追尊渥為烈宗景皇帝，陵曰紹陵。"
+        }
+      ],
+      "notes": [
+        "女方受害与赎归是本源具体经历；梦神是同传异闻叙法，不当作已证神谕。",
+        "906—908是取洪州之后至杨渥去世之前的外范围，不指女方被掳或获赎的确月日；不加女方生母或有效婚成。"
+      ]
     }
   ]
 }

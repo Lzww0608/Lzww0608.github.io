@@ -168,7 +168,44 @@
       "yearRange": {
         "start": 895,
         "end": 896
-      }
+      },
+      "variants": [
+        {
+          "label": "十国春秋：援兖兵数异文",
+          "sourceDate": "本源段不另定确日",
+          "summary": "本卷五千骑与旧史三千骑分源保留，不把不同口径强定一数。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p3",
+              "originalRevision": 1,
+              "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+              "excerpt": "河東將李承嗣、史儼以騎兵五千救之。"
+            }
+          ]
+        },
+        {
+          "label": "《九国志》太原借步骑五千的整体口径",
+          "sourceDate": "乾宁二年春后、十月前的援兖叙次，未独月日",
+          "summary": "本源先记朱瑾向李克用借步骑五千，后到乾宁四年才直名李承嗣、史俨同求军食。不能由整体援兵数推李承嗣单独率五千，也不能抹掉旧史三千骑、春秋两将五千骑的口径。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p17",
+              "originalRevision": 1,
+              "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+              "excerpt": "二年春，梁祖將朱友恭攻瑾，塹其城守之。是時連歲交兵，四郊無耕織，瑄、瑾勢蹙。因間遣使乞師太原李克用，假步騎五千濟河，梁人退舍。"
+            },
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p17",
+              "originalRevision": 1,
+              "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+              "excerpt": "四年正月，鄆州先下，瑾亦糧盡，與晉將李承嗣、史儼求軍食于野。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-chengsi-isolated-from-hedong",
@@ -205,10 +242,26 @@
           "originalRevision": 1,
           "originalSha256": "95d57644fc16353bbe6fd90b73d1db89ce3aa18fc433118d4ca6ec15ccc99fc7",
           "excerpt": "及瑄、瑾失守，承嗣與朱瑾、史儼同入淮南。承嗣、史儼皆驍將也，淮人得之，軍聲大振。〈（十國春秋·吳列傳》：太祖署為淮南行軍副使。）〉武皇深惜之，如失左右手，乃遣趙嶽間道使於淮南，請歸承嗣等；楊行密許之，遣使陳令存請修好於武皇。其年九月，汴將龐師古、葛從周出師，將收淮南，朱瑾率淮南軍三萬，與承嗣設伏於清口，大敗汴人，生獲龐師古。行密嘉其雄才，留而不遣，仍奏授檢校太尉，領鎮海軍節度使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "是時汴將葛從周屯壽州，龐師古營清口，侵淮，淮人大恐。太祖欲先趣壽州，承嗣言不如先向清口，師古敗，從周自走，此制敵之上策也。已而果如所料。太祖置酒高會，賞承嗣錢萬縉，表領鎮海軍節度使。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+          "excerpt": "四年正月，鄆州先下，瑾亦糧盡，與晉將李承嗣、史儼求軍食于野。梁將龎師古奄至城下，瑾將康懷貞率瑾子私以兖城送款，歸不得入，引承嗣諸軍將保沂州，爲其將尹處賓拒關不納。瑾狼狽將奔海上，復追之，迫乃渡淮，歸于行密。行密迎之于高郵，待以殊禮，立解所服玉帶爲贈，擇甲第，遺財帛鉅萬，表瑾領武寕軍節度、淮南行軍副使。"
         }
       ],
       "notes": [
-        "本传九月、擒庞师古的记述沿原书保留，未据回溯叙事冒定援军出发895年为清口战年。"
+        "本传九月、擒庞师古的记述沿原书保留，未据回溯叙事冒定援军出发895年为清口战年。",
+        "补先攻清口、葛自走的建议及赏钱领镇海；葛在寿州、庞在清口，不写成同营或同死。",
+        "本源补求粮、沂州拒纳与随军渡淮的背景；高邮玉带宅帛明确赐朱瑾，不转为李承嗣个人；本引文不独证李承嗣清口设伏和授镇海的全部摘要。"
       ]
     },
     {
@@ -232,7 +285,65 @@
       "yearRange": {
         "start": 912,
         "end": 913
-      }
+      },
+      "variants": [
+        {
+          "label": "十国春秋：楚州官称异文",
+          "sourceDate": "本源段不另定确日",
+          "summary": "本卷高祖时改副使后出楚州刺史，现旧史主证为楚州节度使；保官称/叙次，不推本卷独立任官日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p4",
+              "originalRevision": 1,
+              "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+              "excerpt": "高祖時，改淮南行軍副使，參頂軍府之事，已出爲楚州刺史。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "代领淮南军府",
+      "summary": "杨行密出兵时李承嗣暂领淮南军府，本传称境内无扰。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "天复二年；本卷未独记月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "天復二年，太祖引兵攻汴，以承嗣權知淮南軍府事，境內無擾，承嗣之力也。"
+        }
+      ],
+      "id": "li-chengsi-acting-huainan-office",
+      "sortOrder": 12
+    },
+    {
+      "id": "li-chengsi-received-residences-concubines",
+      "title": "受厚遇，获赐第舍姬妾",
+      "summary": "《十国春秋》记杨行密厚待李承嗣和史俨，挑选好的房舍、姬妾赐给他们，二人为杨氏父子尽力。原句合叙两人，不确定各人的分配及任何女子身份。",
+      "year": null,
+      "sortOrder": 13,
+      "precision": "undated",
+      "sourceDate": "入淮南后的受遇合叙；未独记赐予年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。"
+        }
+      ],
+      "notes": [
+        "不把第舍、姬妾群体拆为每位男方各有一名已辨女子，不补人数、姓名或母系。",
+        "原句并叙受遇、效力和先后去世，不将后段男方死亡或任官年次作赐予确年。"
+      ]
     }
   ]
 }

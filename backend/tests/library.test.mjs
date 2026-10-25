@@ -5,9 +5,14 @@ import { loadLibrary } from '../../content/library.mjs';
 const { catalog, chapters } = loadLibrary();
 
 test('the archive has verified source hashes, complete emperor and Li Keyong annals and all Five Dynasties Tongjian volumes', () => {
-  assert.equal(chapters.length, 218);
-  assert.equal(chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0), 9014);
-  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma']);
+  assert.deepEqual(chapters.map(chapter => chapter.id).sort(), catalog.chapters.map(chapter => chapter.id).sort());
+  assert.equal(new Set(chapters.map(chapter => chapter.id)).size, chapters.length);
+  for (const chapter of chapters) {
+    const summary = catalog.chapters.find(entry => entry.id === chapter.id);
+    assert.equal(chapter.paragraphs.length, summary.paragraphCount, chapter.id);
+    assert.equal(chapter.paragraphs.reduce((sum, paragraph) => sum + [...paragraph.original].length, 0), summary.characterCount, chapter.id);
+  }
+  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
   for (const person of emperors) {
@@ -17,8 +22,10 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
     [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,70,73,74, ...Array.from({length:12},(_,i)=>75+i),91, ...Array.from({length:6},(_,i)=>99+i), ...Array.from({length:12},(_,i)=>110+i),133,134,135,136]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,36,39,43,44,45,46,51,...Array.from({length:10},(_,i)=>61+i)]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume), Array.from({ length: 29 }, (_, i) => 266 + i));
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,36,39,41,43,44,45,46,51,...Array.from({length:10},(_,i)=>61+i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume).sort((a,b) => a-b), [262, ...Array.from({ length: 29 }, (_, i) => 266 + i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'jiuguozhi').map(c => c.id), ['jiuguozhi-v002']);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'shiguochunqiu').map(c => c.volume).sort((a, b) => a - b), [1, 2, 3, 4, 6, 7, 8, 9, 12, 13]);
   assert.ok(chapters.every(c => c.scope === 'full' && c.paragraphs.every(p => p.translation === null)));
   assert.ok(chapters.find(c => c.id === 'old-v001').paragraphs.some(p => p.original.includes('永樂大典')));
   assert.ok(chapters.find(c => c.id === 'tongjian-v272').paragraphs.some(p => p.original.includes('莊宗光聖神閔孝皇帝')));
@@ -41,6 +48,8 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
 
 test('Later Tang, Jin, Han and Zhou household and supporting biography volumes retain fixed complete originals and textual notes', () => {
   for (const [id, count, characters, revision, opening, ending] of [
+    ['shiguochunqiu-v006', 17, 3252, 2554073, '柴再用　秦裴　劉金　子仁規　李友　李厚　劉存　陳知新', '周隱謀之不臧，直言賈禍，惜哉！'],
+    ['shiguochunqiu-v012', 19, 3006, 2554082, '糝潭漁者　張軍師　錢亮　董紹顏　李攻　柳翁　黃冠道人　虔州少年　劉通微', '訓遂殺妻及其婢。'],
     ['old-v049', 31, 4667, 2186155, '武皇帝', '《會要》不載莊宗女'],
     ['new-v14', 50, 6722, 2292410, '正室劉氏　次妃曹氏', '冊封則在四月己卯'],
     ['new-v15', 45, 5348, 1699112, '皇后曹氏　皇后夏氏', '待考。'],

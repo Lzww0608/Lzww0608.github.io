@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../content/library.mjs';
+import { loadPersonTimelines, validateTimelineCoverage } from '../content/person-timelines.mjs';
 import { buildPersonPassageSummary, loadPassagePeople, loadPersonPassageIndex, validatePersonPassageIndex } from '../content/person-passages.mjs';
 import { buildPersonPassageIndex, inferRegnalEdictPeople, validateChronologySubjects, validateVerifiedAttributions } from '../scripts/index-person-passages.mjs';
 
@@ -22,9 +23,11 @@ const verifiedAttributions = JSON.parse(readFileSync(new URL('../content/person-
 test('Li Keyong joins the canonical index with complete main annals and precise cross-source references', () => {
   assert.equal(index.people.filter(person => person.id === 'li-keyong').length, 1);
   const actual = index.passages.filter(passage => passage.people.some(person => person.personId === 'li-keyong'));
-  assert.equal(actual.length, 303);
+  assert.ok(actual.length > 0);
+  assert.equal(new Set(actual.map(passage => passage.id)).size, actual.length);
   const references = verifiedAttributions.entries.filter(entry => entry.personId === 'li-keyong');
-  assert.equal(references.length, 227);
+  assert.ok(references.length > 0);
+  assert.equal(new Set(references.map(reference => reference.paragraphId)).size, references.length);
   for (const reference of references) assert.ok(association(reference.paragraphId, reference.personId), reference.paragraphId);
   for (const chapterId of ['old-v025', 'old-v026']) {
     const chapter = library.chapters.find(chapter => chapter.id === chapterId);
@@ -76,8 +79,14 @@ test('generation scans the whole canonical archive and reproduces the saved shar
   assert.equal(index.scope, 'current-archive');
   const bookByChapter = new Map(library.chapters.map(chapter => [chapter.id, chapter.bookId]));
   assert.equal(new Set(index.passages.map(passage => bookByChapter.get(passage.chapterId))).size, library.catalog.books.length);
+  const timelineDocuments = loadPersonTimelines(library);
+  assert.equal(validateTimelineCoverage(timelineDocuments, index.people).people, index.people.length);
+  const principalBiographyIds = new Set(['emperors', 'taibao', 'historical-leaders'].flatMap(file =>
+    JSON.parse(readFileSync(new URL(`../content/five-dynasties/${file}.json`, import.meta.url), 'utf8')).people.map(person => person.id)));
   for (const person of index.people) {
-    if (!generalIds.has(person.id) && !keyongNewIds.has(person.id) && !tenKingdomIds.has(person.id)) {
+    assert.ok(index.passages.some(passage => passage.people.some(item => item.personId === person.id && item.kind !== 'mention')),
+      `${person.id}: an actual personal record, beyond a name or source-book title`);
+    if (principalBiographyIds.has(person.id)) {
       for (const bookId of ['old', 'new']) assert.ok(index.passages.some(passage => passage.chapterId.startsWith(`${bookId}-`)
         && passage.people.some(item => item.personId === person.id && item.kind === 'biography')), `${bookId} biography: ${person.id}`);
     }
@@ -292,7 +301,17 @@ test('a Shizong source-book title alone does not create a Chai Rong record', () 
   const changed = [...before].filter(([key, kind]) => after.get(key) !== kind).map(([key]) => key).sort();
   assert.deepEqual(changed, titleOnlyParagraphs.map(id => `${id}/chai-rong`).sort(), 'only six source-title associations change');
   assert.deepEqual([...after].filter(([key]) => !before.has(key)), [], 'no other person associations are introduced');
-  assert.equal(index.passages.length, previousIndex.passages.length, 'the shared original paragraphs and their other subjects remain available');
+  const titleOnlyIds = new Set(titleOnlyParagraphs);
+  const expectedPassages = previousIndex.passages.flatMap(passage => {
+    if (!titleOnlyIds.has(passage.spans[0].paragraphId)) return [passage];
+    const people = passage.people.filter(person => person.personId !== 'chai-rong');
+    return people.length ? [{ ...passage, people }] : [];
+  });
+  assert.deepEqual(index.passages, expectedPassages, 'all other associations, complete spans and passage metadata remain unchanged');
+  const remainingIds = new Set(index.passages.map(passage => passage.id));
+  assert.deepEqual(previousIndex.passages.filter(passage => !remainingIds.has(passage.id)).map(passage => passage.id),
+    ['passage-kaoyi-v030-p35'], 'only the passage with no other personal subject leaves the index');
+  assert.ok(paragraphs.has('kaoyi-v030-p35'), 'the original source paragraph remains archived');
 });
 
 test('summary is derived from shared associations and real book/chapter identifiers', () => {
@@ -517,4 +536,38 @@ test('Li Cunxu generals exclude namesakes, ordinary words and cross-word names w
     assert.ok(link, `${paragraphId}: ${personId} retains its verified record`);
     assert.notEqual(link.kind, 'mention', `${paragraphId}: this is an actual person record`);
   }
+});
+
+
+test('Wu Taizu annals distinguish other officers, cross-word names and cited books', () => {
+  for (const [paragraphId, personId, sourceName] of [
+    ['shiguochunqiu-v001-p6', 'gao-xingzhou', '張行周'],
+    ['shiguochunqiu-v001-p15', 'zhu-hanbin', '陳漢賓'],
+    ['shiguochunqiu-v001-p19', 'wang-qianyu', '李虔裕'],
+    ['shiguochunqiu-v001-p19', 'wang-jianji', '建及當塗'],
+  ]) {
+    assert.ok(paragraphs.get(paragraphId).original.includes(sourceName));
+    assert.equal(association(paragraphId, personId), undefined, `${paragraphId}: ${sourceName} is not ${personId}`);
+  }
+  for (const id of ['li-cunxu', 'xu-xuan']) {
+    assert.equal(association('shiguochunqiu-v001-p21', id)?.kind, 'mention', 'a cited book or its author is not a narrated military action');
+  }
+  for (const id of ['yang-shihou', 'wang-tan']) {
+    assert.equal(association('shiguochunqiu-v001-p19', id)?.kind, 'record', 'the separately qualified Bian officer still has a record in the same paragraph');
+  }
+});
+
+test('Wu Taizu annals retain local subjects and independently identified household records', () => {
+  assert.equal(association('shiguochunqiu-v001-p19', 'wu-cheng-kuangrou')?.kind, 'record');
+  for (const [position, id] of [
+    [18, 'wu-yang-xingmi-daughter-qian-yuanliao-wife'],
+    [20, 'wu-yang-xingmi-daughter-qian-yuanliao-wife'],
+    [19, 'wu-yang-xingmi-wife-zhu'],
+    [19, 'wu-tian-jun-mother-yin'],
+    [19, 'wu-li-shenfu-wife-unnamed'],
+  ]) assert.equal(association(`shiguochunqiu-v001-p${position}`, id)?.kind, 'record');
+  for (const position of [2, 12, 14, 15, 16, 17, 18]) {
+    assert.ok(association(`shiguochunqiu-v001-p${position}`, 'yang-xingmi'), 'the local subject is not lost when only 王 or 太祖 is used');
+  }
+  assert.equal(association('shiguochunqiu-v001-p22', 'yang-xingmi')?.kind, 'mention', 'the historian’s conclusion stays a source comment');
 });

@@ -231,3 +231,24 @@ test('pagination keeps its offset only for the same person, book, source and com
   assert.equal(matchesPassagePageBaseline(baseline,'li-cunxin/old','api',baseline.resultSetRevision),false);
   assert.equal(matchesPassagePageBaseline(null,baseline.target,'api',baseline.resultSetRevision),false);
 });
+
+
+test('a book-prefixed archived chapter remains readable in current person passages', async () => {
+  const chapter = chapters.get('shiguochunqiu-v001'), paragraph = chapter.paragraphs.find(paragraph => paragraph.id === 'shiguochunqiu-v001-p19');
+  const location = entry('shiguochunqiu-v001', 19, 'wu-cheng-kuangrou');
+  const item = { ...location, kind: 'record', bookId: 'shiguochunqiu', bookTitle: '十国春秋',
+    chapterTitle: chapter.title, chapterPosition: chapter.position, edition: chapter.edition, sourceUrl: chapter.sourceUrl, paragraphs: [paragraph] };
+  const current = { schemaVersion: 1, scope: 'current-archive', personId: 'wu-cheng-kuangrou', bookId: 'shiguochunqiu', coverage,
+    total: 1, unavailableCount: 0, resultSetRevision: hash('current-prefixed-passage'), nextCursor: null, items: [item] };
+  const result = await parsePersonPassagesPage(current, 'wu-cheng-kuangrou', 'shiguochunqiu');
+  assert.equal(result.items[0].paragraphs[0].id, 'shiguochunqiu-v001-p19');
+  assert.equal(result.items[0].chapterTitle, '卷 1 · 吴太祖世家（杨行密）');
+  assert.equal(current.items[0].chapterTitle, '《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）');
+  assert.equal(result.items[0].paragraphs[0].translation.text, paragraph.translation.text);
+  for (const badTitle of ['《新五代史》 · 卷 1 · 吴太祖世家（杨行密）', '《十国春秋》 · 卷 2 · 吴太祖世家（杨行密）', '《十国春秋》 · 《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）']) {
+    const bad = structuredClone(current); bad.items[0].chapterTitle = badTitle;
+    await assert.rejects(parsePersonPassagesPage(bad, 'wu-cheng-kuangrou', 'shiguochunqiu'), /Invalid person passage/);
+  }
+  const stale = structuredClone(current); stale.items[0].spans[0].originalSha256 = '0'.repeat(64);
+  await assert.rejects(parsePersonPassagesPage(stale, 'wu-cheng-kuangrou', 'shiguochunqiu'), /Invalid person passage/);
+});

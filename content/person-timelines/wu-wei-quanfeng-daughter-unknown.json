@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-wei-quanfeng-daughter-unknown",
+  "events": [
+    {
+      "id": "wu-wei-quanfeng-daughter-unknown-marriage-accounts",
+      "title": "议婚、许婚与嫁女的分源记载",
+      "summary": "《通鉴》记危全讽在听命后以女嫁钟匡时；新史、十国春秋记危全讽请求嫁女，九国志另记钟传答应，双方结盟回军。请求、应允和直接叙述嫁女分别保留，不推定仪礼或女方个人意愿。",
+      "year": null,
+      "yearRange": {
+        "start": 901,
+        "end": 902
+      },
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "《通鉴》天复元年末编年叙次，未独记月日；其他三书此处未系婚年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p88",
+          "originalRevision": 1,
+          "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+          "excerpt": "全諷聞之，謝罪聽命，以女妻傳子匡時。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史、十国春秋记请求嫁女",
+          "sourceDate": "各本传此处未系年",
+          "summary": "两书均以危全讽为提出请求者，只记请婚；材料可能相互承用，不作为两份独立亲历证明。",
+          "evidence": [
+            {
+              "chapterId": "new-v41",
+              "paragraphId": "new-v41-p18",
+              "originalRevision": 1,
+              "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+              "excerpt": "全諷聞之，明日乃亦聽命，請以女妻傳子匡時。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p10",
+              "originalRevision": 1,
+              "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+              "excerpt": "全諷聞之，明日，乃亦聽命，請以女妻匡時。"
+            }
+          ]
+        },
+        {
+          "label": "九国志另记钟传应允",
+          "sourceDate": "危全讽本传此处未系年",
+          "summary": "危全讽请求把女嫁钟传长子匡时，钟传答应，随后结盟回军；没有独立记婚仪或女方意见。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p9",
+              "originalRevision": 1,
+              "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+              "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "西历范围仅对应通鉴编年叙次；其他传记未定年，不把四书串成几个另有确日的婚姻事件。",
+        "通鉴所系天复元年跨西历901—902年，婚事没有独立月日，不将邻段十二月的日期作为婚日。",
+        "钟匡时被擒及钟传、危全讽死亡不证明女方经历相同结局。"
+      ]
+    }
+  ]
+}

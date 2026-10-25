@@ -323,9 +323,33 @@
       "precision": "undated",
       "phase": "uncertain",
       "notes": [
-        "旧史夹引史补不当独立另一部亲历证；不补佯狂自保等未在当前原段明说的动机。"
+        "旧史夹引史补不当独立另一部亲历证；不补佯狂自保等未在当前原段明说的动机。",
+        "本书这些段落没有赐图情节，不用旧赐图故事补写本书；人物动机不超出原文。"
       ],
-      "sortOrder": 12
+      "sortOrder": 12,
+      "variants": [
+        {
+          "label": "《南唐近事》家事的两段轶闻",
+          "sourceDate": "本书未独记年月",
+          "summary": "一段记诸姬分去俸钱、熙载着衲衣乞食取笑；另一段记婢妾私客而不介意。与史补赐图故事分源，不断定为同一场合或同一群体人数。",
+          "evidence": [
+            {
+              "chapterId": "nantangjinshi-v002",
+              "paragraphId": "nantangjinshi-v002-p43",
+              "originalRevision": 1,
+              "originalSha256": "09909da10cd3a41445ff2e483db536ee8d76a9850f8b4444ea11f2ee76ee95fa",
+              "excerpt": "韓熙載放曠不羈，所得俸錢，即爲諸姬分去，乃著衲衣負筐，命門生舒雅執手版，於諸姬院乞食，以爲笑樂。"
+            },
+            {
+              "chapterId": "nantangjinshi-v002",
+              "paragraphId": "nantangjinshi-v002-p45",
+              "originalRevision": 1,
+              "originalSha256": "d4c8dbf1c9c9da5d0880112ab0e345265b4feb578db129847ed2efe23eabf035",
+              "excerpt": "韓熙載北人，仕江南，致位通顯，不防閑婢妾，有北齊徐之才風。侍兒往往私客，客賦詩有云：「最是五更留不住，向人枕畔著衣裳。」之句，熙載亦不介意。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "han-xizai-wu-yuan-memorial",
@@ -348,6 +372,50 @@
         }
       ],
       "sortOrder": 13
+    },
+    {
+      "id": "han-xizai-recognize-zhang-ji",
+      "title": "赏识张洎并主文取之",
+      "summary": "张洎受荐后拜谒韩熙载，韩待之如故人，许为中书舍人之才；随后韩熙载主文，张洎登第。书中不到十年任职的后叙，不倒推为此次考试日。",
+      "year": null,
+      "sortOrder": 14,
+      "precision": "undated",
+      "sourceDate": "本书张洎计偕之岁及“顷之”，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangjinshi-v002",
+          "paragraphId": "nantangjinshi-v002-p36",
+          "originalRevision": 1,
+          "originalSha256": "b1b45613e52e659a4f070984a9d8d81bd61cbecad537ed6bf6d4bfbfa8ad59eb",
+          "excerpt": "張洎計偕之歲，爲潤帥燕王冀所薦。首謁韓熙載，韓一見待之如故，謂曰：「子好一中書舍人。」頃之，韓主文，洎擢第，不十年，果主綸闈之任。"
+        }
+      ],
+      "notes": [
+        "保存赏识、取士和后来任职的相对层次，不补科举确年。"
+      ]
+    },
+    {
+      "id": "han-xizai-poem-on-central-plains-mission",
+      "title": "出使中原时作诗",
+      "summary": "《南唐近事》记韩熙载出使“中国”时作诗，自言本为江北人、去作江南客，返江北而无相识。只保本段明载的使行与诗作。",
+      "year": null,
+      "sortOrder": 15,
+      "precision": "undated",
+      "sourceDate": "本书“使中国作诗”，未独记年月或使主",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangjinshi-v002",
+          "paragraphId": "nantangjinshi-v002-p43",
+          "originalRevision": 1,
+          "originalSha256": "09909da10cd3a41445ff2e483db536ee8d76a9850f8b4444ea11f2ee76ee95fa",
+          "excerpt": "使中國作詩云：「我本江北人，去作江南客。舟到江北來，舉目無相識。不如歸去來，江南有人憶。」"
+        }
+      ],
+      "notes": [
+        "不补诗题、出使对象或年份，不据缺少细节强定与另一使行为同一次。"
+      ]
     }
   ]
 }

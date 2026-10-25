@@ -13,6 +13,10 @@
     {
       "title": "《新五代史》卷13 · 梁家人传",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B713"
+    },
+    {
+      "title": "《十国春秋》 · 卷 8",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
     }
   ],
   "memberIds": [
@@ -240,7 +244,23 @@
     "wu-xu-zhihui-wife-lu",
     "wu-tian-jun-mother-yin",
     "wu-li-shenfu-wife-unnamed",
-    "wu-an-renyi-concubine-unnamed"
+    "wu-an-renyi-concubine-unnamed",
+    "wu-li-decheng-wife-yang",
+    "wu-li-decheng-daughter-jingda-wife",
+    "wu-li-decheng-daughter-liu-chongjun-first-wife",
+    "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "wu-zhu-jin-wife-tao",
+    "wu-zhu-jin-concubine-comforting-tao",
+    "wu-li-chan-wife-unknown",
+    "wu-peng-yanzhang-wife-unknown",
+    "wu-wei-quanfeng-daughter-unknown",
+    "wu-wei-quanfeng-sister-unknown",
+    "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "wu-cao-yun-wife-unknown",
+    "wu-xu-shan-younger-sister-unknown",
+    "wu-zhu-yanshou-wife-wang",
+    "wu-cheng-kuangrou",
+    "wu-wang-chuanzheng-wife-unnamed"
   ],
   "people": [
     {
@@ -479,7 +499,8 @@
       "readingStarts": {
         "beimeng": "beimeng-v017",
         "new": "new-v13",
-        "old": "old-v011"
+        "old": "old-v011",
+        "shiguochunqiu": "shiguochunqiu-v008"
       },
       "sources": [
         {
@@ -493,6 +514,10 @@
         {
           "title": "《旧五代史》 · 卷 11 · 梁后妃传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B711&oldid=2186156"
+        },
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
         }
       ]
     },
@@ -7479,6 +7504,451 @@
         {
           "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
           "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&oldid=2554081"
+        }
+      ]
+    },
+    {
+      "id": "wu-li-decheng-wife-yang",
+      "name": "杨氏（李德诚妻、滕国君）",
+      "dynasty": "吴",
+      "role": "李德诚妻；滕国君",
+      "periodLabel": "吴、南唐之际的封号与家内记载",
+      "intro": "李德诚的妻子杨氏，封滕国君。《南唐近事》记李德诚让女妓与她作相同妆饰，一同站在庭中，请日者分辨贵贱。原书未载她的名字、父母和封君年月。",
+      "sourceNotes": [
+        "《十国春秋》在李德诚诸子后记“妻杨氏，封滕国君”；《南唐近事》明确称滕国君为李德诚之妻，两处同夫同封号相参辨认。",
+        "同传早段“太祖……妻以宗女”未直接写杨氏之名或滕国封号；宗女不是亲生女的同义词，两处婚配记载的自然身份同异未详。",
+        "日者所说黄云与辨人经过属于小说叙事，不作实际观测到异象的证明；女妓群体不拆成未知个体。",
+        "李德诚二十八子或他书二十子的口径，不据此把所有子女归为杨氏所生。"
+      ],
+      "aliases": "杨氏（李德诚妻、滕国君） 杨氏（李德诚妻） 楊氏（李德誠妻） 滕国君（李德诚妻） 滕國君（李德誠妻）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v007",
+        "nantangjinshi": "nantangjinshi-v002"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=十國春秋/卷007&oldid=2554075"
+        },
+        {
+          "title": "《南唐近事》 · 卷 2",
+          "url": "https://zh.wikisource.org/w/index.php?title=南唐近事&oldid=1503836#卷二"
+        }
+      ]
+    },
+    {
+      "id": "wu-li-decheng-daughter-jingda-wife",
+      "name": "南平氏（李德诚女、李景达妃）",
+      "dynasty": "吴",
+      "role": "李德诚女；南唐信王李景达妃",
+      "periodLabel": "南唐信王婚配与氏南平诏令",
+      "intro": "李德诚的女儿，嫁给南唐信王李景达。李昪恢复李姓后，有司认为二人同姓婚配不合礼；李昪不许拆散婚姻，诏令信王妃可以南平为氏。她的名字、生母、排行及婚日未载。",
+      "sourceNotes": [
+        "“可氏南平”是关于这位信王妃的诏令，不把南平补为出生姓、姓名或籍贯。",
+        "李德诚之妻杨氏与女儿同段出现，不等于已经证明母女关系；不补三位女儿的出生排行或相互婚年。"
+      ],
+      "aliases": "南平氏（李德诚女、李景达妃） 李德诚女（李景达妃） 李德誠女（李景達妃） 信王妃（李德诚女） 信王妃（李德誠女） 南平氏（李景达妃） 南平氏（李景達妃）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v007"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=十國春秋/卷007&oldid=2554075"
+        }
+      ]
+    },
+    {
+      "id": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+      "name": "李氏（李德诚女、刘崇俊前夫人）",
+      "dynasty": "吴",
+      "role": "李德诚女；刘崇俊前夫人",
+      "periodLabel": "碑文所记前婚",
+      "intro": "徐铉《刘公神道碑》记刘崇俊前夫人李氏和后夫人陇西郡君李氏，都是太师赵忠懿王李德诚的女儿。她的名字、生母、婚日和结局未载。",
+      "sourceNotes": [
+        "“前夫人”“后夫人”依碑文婚序分别辨认，不把两次称谓当作一人前后改封，也不据前婚补定死亡或离异。",
+        "碑文另记刘崇俊八子，没有逐一列母；不把任何子女或其官职归给这位李氏。"
+      ],
+      "aliases": "李氏（李德诚女、刘崇俊前夫人） 李氏（刘崇俊前夫人） 李氏（劉崇俊前夫人） 李德诚女（刘崇俊前夫人） 李德誠女（劉崇俊前夫人）",
+      "readingStarts": {
+        "quantangwen": "quantangwen-v884"
+      },
+      "sources": [
+        {
+          "title": "《全唐文》 · 卷 884 · 徐铉《刘公神道碑》",
+          "url": "https://zh.wikisource.org/w/index.php?title=全唐文/卷0884&oldid=8723175"
+        }
+      ]
+    },
+    {
+      "id": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+      "name": "李氏（李德诚女、陇西郡君）",
+      "dynasty": "吴",
+      "role": "李德诚女；刘崇俊后夫人、陇西郡君",
+      "periodLabel": "碑文所记后婚与郡君封号",
+      "intro": "徐铉《刘公神道碑》所记刘崇俊后夫人李氏，称陇西郡君，与前夫人李氏同为李德诚的女儿。她的名字、生母、婚日及获郡君封号的年月未载。",
+      "sourceNotes": [
+        "碑文以“后夫人陇西郡君李氏”与“前夫人李氏”相对，保留婚序与封号，不补二女出生长幼。",
+        "刘崇俊卒葬年月只系男方，不移给婚配或册封；碑中八子没有逐一归母。"
+      ],
+      "aliases": "李氏（李德诚女、陇西郡君） 李氏（刘崇俊后夫人） 李氏（劉崇俊後夫人） 陇西郡君（刘崇俊后夫人） 隴西郡君（劉崇俊後夫人） 李德诚女（刘崇俊后夫人）",
+      "readingStarts": {
+        "quantangwen": "quantangwen-v884"
+      },
+      "sources": [
+        {
+          "title": "《全唐文》 · 卷 884 · 徐铉《刘公神道碑》",
+          "url": "https://zh.wikisource.org/w/index.php?title=全唐文/卷0884&oldid=8723175"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-jin-wife-tao",
+      "name": "陶氏（朱瑾淮南妻）",
+      "dynasty": "吴",
+      "role": "朱瑾淮南妻；史载陶雅女",
+      "periodLabel": "淮南朱瑾家庭",
+      "intro": "《资治通鉴》记朱瑾在家中接待徐知训时，让妻陶氏出来拜见；《十国春秋》又记朱瑾家属受诛时，陶氏临刑哭泣，经妾劝慰后收泪就戮。本传称她为故浔阳公陶雅之女，名讳未载。",
+      "sourceNotes": [
+        "本条限定淮南出拜与临刑记载；与早年被朱温纳归、后来为尼的失名朱瑾妻缺连续身份桥，不合并，也不据叙次断为必不同自然人。",
+        "《旧五代史》相应宴席记爱妓桃氏及出桃氏，《资治通鉴》称妻陶氏；字形和妻／妓称谓分源保留，不将桃氏设作已证别名。",
+        "《十国春秋》标准本“傳陽公雅”参同书四库“潯陽公雅”校读；同书陶雅传载封浔阳公，不补母亲、出生或嫁日。",
+        "出拜不等于知谋、助杀或亲手杀徐知训；临刑收泪就戮明确属陶氏，不移给劝她的妾。",
+        "朱瑾二子或族诛家属不据此配为她所生；各书族诛施事与纪日分源，不移用男性日定她的确日。"
+      ],
+      "aliases": "陶氏（朱瑾淮南妻） 陶氏（朱瑾妻） 朱瑾妻陶氏",
+      "readingStarts": {
+        "tongjian": "tongjian-v270",
+        "shiguochunqiu": "shiguochunqiu-v008"
+      },
+      "sources": [
+        {
+          "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        },
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-jin-concubine-comforting-tao",
+      "name": "朱瑾妾（临刑劝陶氏者）",
+      "dynasty": "吴",
+      "role": "史载朱瑾之妾；临刑时劝慰陶氏",
+      "periodLabel": "朱瑾家属受诛记载",
+      "intro": "《十国春秋》记朱瑾妻陶氏临刑哭泣时，妾劝她说现在就要见到朱公；随后陶氏收泪就戮。劝语者的姓名、姓氏以及具体结局未独记。",
+      "sourceNotes": [
+        "“其妾”置于朱瑾家属受诛叙事中，不解释为陶氏另有姬妾；与陶氏为同场对话的两个角色。",
+        "未有连续证据将她认作此前被遣向徐知训通问的家妓／爱妾或宴席献歌宠妓，也不据称谓分别断为不同自然人。",
+        "“今行见公”是临刑语境的劝慰话语，不当作死后相见的事实；不由此补她的具体死法或确年。",
+        "没有证据说明她知谋、参与杀徐知训、为朱瑾二子之母或具有封号。"
+      ],
+      "aliases": "朱瑾妾（临刑劝陶氏者） 朱瑾临刑劝陶氏之妾",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 8",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        }
+      ]
+    },
+    {
+      "id": "wu-li-chan-wife-unknown",
+      "name": "李禅妻（失名）",
+      "dynasty": "吴",
+      "role": "李承嗣少子李禅之妻",
+      "intro": "李承嗣少子李禅的妻子，姓名未载。《十国春秋》记她在某年去世，未记绝对年月。该段把白蝙蝠飞绕庭院和后来灵车的路线相联系，属于原书的异闻叙事。",
+      "periodLabel": "淮南家内记载",
+      "sourceNotes": [
+        "“禅，承嗣少子也”与“禅妻卒”明确其婚家；夫姓不作为她的生姓。",
+        "未载生母、婚期、子女及死亡地点；李禅居广陵宣平里的记载不自动作她的卒地。",
+        "该段“是年”没有可核的绝对年份，妻卒保年代未定；白蝙蝠不作为死亡原因或已证预兆。",
+        "受赐姬妾是李承嗣、史俨的群体记载，没有依据认她出自该群体，也不能据此推李禅生母。"
+      ],
+      "aliases": "李禪妻（失名）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        }
+      ]
+    },
+    {
+      "id": "wu-peng-yanzhang-wife-unknown",
+      "name": "彭彦章妻（失名）",
+      "dynasty": "吴",
+      "role": "彭彦章之妻；战后终身受廪",
+      "intro": "彭彦章的妻子，姓名未载。《十国春秋》和《资治通鉴》记彭彦章败死后，吴诛陈汾，籍没其家财，将一半赐给彭家，并终身供养彭彦章的妻与子女。",
+      "periodLabel": "彭彦章败死后的家属待遇记载",
+      "sourceNotes": [
+        "“稟其妻子終身”将妻与子女列为受惠者，是具体的供养经历；“以其半赐彦章家”的受赐者为彭家，不据此分配妻的个人财产权。",
+        "未记妻姓、本名、婚日、生卒或领取地点；不据这一妻称断言彭彦章终身只有一名配偶。",
+        "子女仍为人数、性别和个体身份未详的群体；妻与子女并列不证明她是各子女的生母。",
+        "《十国春秋》记彭彦章为彭玕弟，《通鉴》记为彭玕兄子；不据此拼成唯一谱系。旧史被擒与通鉴自杀的战役异说分源保留，不移为女方结局。",
+        "供廪未独记年月日，不将狼山江战日直接用作发给妻子的日期。两书相关末句近同，不当作互不依存的亲历复证。"
+      ],
+      "aliases": "彭彥章妻（失名） 彭彦章妻 彭彥章妻",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008",
+        "tongjian": "tongjian-v270"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        }
+      ]
+    },
+    {
+      "id": "wu-wei-quanfeng-daughter-unknown",
+      "name": "危全讽女（失名）",
+      "dynasty": "吴",
+      "role": "危全讽之女；钟匡时婚家记载",
+      "intro": "危全讽的女儿，姓名未载。《新五代史》《十国春秋》记危全讽听命后请求将女儿嫁给钟匡时；《九国志》另记钟传答应，双方结盟回军；《资治通鉴》则直接记以女嫁钟匡时。各书措辞分别保留。",
+      "periodLabel": "晚唐江西婚家记载；与吴国形成前后史事相关",
+      "sourceNotes": [
+        "女方以危全讽女这一具体亲属身份辨认，不补名字、生母、生卒或女方个人意愿。危全讽的姐姐另为一人，不与其女混同。",
+        "新史与十国春秋仅记请求；九国志记请求、钟传应允及结盟；通鉴作以女妻传子匡时。不用一书措辞改写他书，也不由婚约推定仪礼、同居或子女。",
+        "通鉴将事放在天复元年末的编年叙次，未独记月日；天复元年跨西历901—902，不把邻段十二月的日期直接移用。其他三书此处均未系婚年。",
+        "钟匡时的被擒、钟传及危全讽的死亡不作为女方结局；本事发生于晚唐江西，属于吴国形成前后的相关材料；未载她曾入吴宫廷或受后妃封号。",
+        "相关材料可能相互承用；同源转述不算独立亲历复证。"
+      ],
+      "aliases": "危全諷女（失名） 危全讽女 危全諷女 危全讽之女 危全諷之女",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v008",
+        "new": "new-v41",
+        "tongjian": "tongjian-v262",
+        "jiuguozhi": "jiuguozhi-v002"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》卷 8 · 吴列传（朱瑾、李承嗣等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7008&oldid=2554076"
+        },
+        {
+          "title": "《新五代史》卷 41 · 杂传第二十九",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B741&oldid=1721673"
+        },
+        {
+          "title": "《资治通鉴》卷 262 · 唐纪七十八",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7262&oldid=1764816"
+        },
+        {
+          "title": "《九国志》卷 2 · 吴人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E4%BA%8C&oldid=2596554"
+        }
+      ]
+    },
+    {
+      "id": "wu-wei-quanfeng-sister-unknown",
+      "name": "危全讽姊（失名）",
+      "dynasty": "吴",
+      "role": "危全讽的姐姐；本传载保护幼弟",
+      "intro": "危全讽的姐姐，姓名未载。《九国志》在危全讽的出生异闻中记其父母想不养育他，姐姐加以保护，他才得以保全。此为本书所载叙事，与危全讽后来请婚的女儿分属两人。",
+      "periodLabel": "危全讽出生时的家内叙事；年代未定",
+      "sourceNotes": [
+        "本条仅按《九国志》具体“其姊保护之”辨认姐姐，未记名字、出生年月、婚配或结局。",
+        "通体发红而多毛等异状属于本传出生异闻的叙述，不据此确认奇异体貌或其他神异事实；保护幼弟也作为该书的具体记载呈现。",
+        "原文只记“姊”，不推定同母、母系或其他兄弟姊妹；不与危全讽的女儿合人，也不据亲属身份称她为吴国宫廷后妃。"
+      ],
+      "aliases": "危全讽姊 危全諷姊 危全讽姐姐 危全諷姐姐 危全讽之姊 危全諷之姊",
+      "readingStarts": {
+        "jiuguozhi": "jiuguozhi-v002"
+      },
+      "sources": [
+        {
+          "title": "《九国志》 · 卷 2 · 吴人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E4%BA%8C&oldid=2596554"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+      "name": "朱延寿妹（贾匡浩妻）",
+      "dynasty": "吴",
+      "role": "朱延寿的妹妹；贾匡浩之妻",
+      "intro": "《九国志》记贾铎请盟后，朱延寿把妹妹嫁给贾铎之子匡浩。《十国春秋》在相同围城、说降经过中另记许婚，没有具写婚配双方；《资治通鉴》明确记贾匡浩为公铎之子。女方姓名与婚期未载，与杨行密妻、朱延寿的姐姐朱夫人分别辨认。",
+      "periodLabel": "晚唐淮南婚家记载；婚期未定",
+      "sourceNotes": [
+        "以《九国志》具体“延寿以妹妻其子匡浩”的封闭上下文辨认，不以裸朱氏、夫人或妹作全站归属。原书未记女方本名、生母、生卒、封号或子女，也不据婚配称其为吴国宫廷后妃。",
+        "《九国志》此处题贾铎；《十国春秋》明注贾公铎“九国志作贾铎”；《通鉴》明确载贾匡浩及其父公铎，名字桥依各书保存，不与蜀将张公铎或钟匡时合人。",
+        "《九国志》直接记嫁妹，《十国春秋》只记持誓书金帛说和、许以昏，并未指明女方及婚配对象。后者仅供同一招降事件对读，不单凭许婚补定婚礼、女方意见或共同生活。",
+        "盟婚没有独立纪年。《十国春秋》以乾宁中叙围城，《九国志》随后乾宁二年等为贾铎任官；不把它们直接移作女方婚年。",
+        "杨行密的朱夫人据新史与十国春秋为朱延寿之姊，本条据九国志为其妹；两者分别保留身份，不推同母，也不把朱夫人被逐、改嫁或夫家男性结局移给本条。",
+        "同作品不同版本及可能相互承用的材料不当作多份独立亲历证明。"
+      ],
+      "aliases": "朱延壽妹（賈匡浩妻） 朱延寿妹 朱延壽妹 朱延寿之妹 朱延壽之妹 贾匡浩妻 賈匡浩妻",
+      "readingStarts": {
+        "jiuguozhi": "jiuguozhi-v002",
+        "shiguochunqiu": "shiguochunqiu-v006"
+      },
+      "sources": [
+        {
+          "title": "《九国志》 · 卷 2 · 吴人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E4%BA%8C&oldid=2596554"
+        },
+        {
+          "title": "《十国春秋》 · 卷 6 · 吴列传（柴再用、秦裴、贾公铎等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7006&oldid=2554073"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 283 · 后晋纪4",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7283&oldid=810796"
+        }
+      ]
+    },
+    {
+      "id": "wu-cao-yun-wife-unknown",
+      "name": "曹筠妻（失名）",
+      "dynasty": "吴",
+      "role": "曹筠之妻；获赦并受厚遇",
+      "intro": "曹筠的妻子，姓名未载。《新五代史》和《十国春秋》记曹筠叛投吴越后，徐温赦免其妻与子女，不加诛杀，并优厚对待他们。《通鉴》也记徐温赦其妻子、使曹筠不必挂念家属。",
+      "periodLabel": "天祐十年获赦厚遇记载",
+      "sourceNotes": [
+        "本条以曹筠婚家和获赦厚遇的具体经历限定，不由妻称补姓名、姓氏、婚日、生卒或唯一配偶。",
+        "子女为姓名、性别、人数及生母未详的群体；妻与子女并列，不证明她为所有子女的生母。",
+        "赦免与厚遇的施惠者是徐温；归还田宅、恢复军职、曹筠内愧而卒是男方记载，不移作女方经历或个人财产权。",
+        "《十国春秋》卷13标准本作曹荺，同书异本与其他主史作曹筠；字形分别保留，不据此另造自然人。",
+        "获赦厚遇据新史及卷13十年、秋以前的叙次系于913；卷9和通鉴的后续曹归叙次分别保留，不把武义元年的男方复归倒用为女方获赦日期。",
+        "三书相关故事有转引关系，不当作互不依存的亲历复证。"
+      ],
+      "aliases": "曹筠妻 曹筠妻（失名） 曹荺妻（失名） 曹荺妻",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v009",
+        "new": "new-v61",
+        "tongjian": "tongjian-v270"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 9",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7009&oldid=2554077"
+        },
+        {
+          "title": "《新五代史》 · 卷 61 · 吴世家第一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B761&oldid=1674687"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        },
+        {
+          "title": "《十国春秋》 · 卷 13",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7013&oldid=2554081"
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-shan-younger-sister-unknown",
+      "name": "徐善女弟（失名）",
+      "dynasty": "吴",
+      "role": "徐善的妹妹；被军校挟走后获赎归",
+      "intro": "《十国春秋》记徐善的妹妹容貌出众，在秦裴攻下洪州后，被军校强纳聘礼并挟走。徐善到广陵申诉，杨渥听取其陈述，命人出资赎回，让她回到徐善身边。女方姓名未载。",
+      "periodLabel": "约906—908年受掠及赎归记载",
+      "sourceNotes": [
+        "“女弟”说明她是徐善的妹妹，不补父母、同母关系、其他姊妹或个人姓氏。",
+        "标准本“檀殊色”与同书四库本“擅殊色”参读为容貌出众，不把檀作女方姓名。两版本为同一作品，不计独立复证。",
+        "强纳聘礼、挟走和后来赎归分别保留；不能由纳币认定女方自愿或有效婚成，军校姓名、所部及后来的结局均未载。",
+        "杨渥是命人出资赎回的施事；徐善申诉和后来受陶雅征辟属于兄长经历，不改作女方自主行为或官职。",
+        "梦神是本传的异闻叙事，不作为已证神谕。906—908年仅为取洪州后至杨渥去世前的外范围，未独记女方被掳及获赎月日。"
+      ],
+      "aliases": "徐善女弟（失名） 徐善妹（失名） 徐善女弟 徐善之妹 徐善的妹妹 徐善妹妹",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v009"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 9 · 吴列传（王稔、曹筠、徐善等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7009&oldid=2554077"
+        }
+      ]
+    },
+    {
+      "id": "wu-zhu-yanshou-wife-wang",
+      "name": "王氏（朱延寿妻）",
+      "dynasty": "吴",
+      "role": "朱延寿之妻；寿州牙署赴火记载中的王氏",
+      "intro": "《十国春秋》记杨行密用计召朱延寿，王氏在丈夫出发前请求每日遣使。有一天使者未至，她判断事有变化，分派僮仆、授给兵器。捕骑来到时，她拿出私帑施给百姓，点火焚烧寿州牙署，随后赴火而死。女方本名未载。",
+      "periodLabel": "寿州部署与赴火记载；年月未详",
+      "sourceNotes": [
+        "本段直接称朱延寿妻王氏；与朱延寿姊、杨行密妻朱夫人，以及朱延寿妹、贾匡浩妻分别辨认，不推同母或相同自然身份。",
+        "使者未至后“事可知矣”是王氏的判断，不是接获丈夫确切死讯；部署僮仆和授兵不等于已经交战。",
+        "“百燎”保为众火之叙，不补恰一百堆；焚烧对象为寿州牙署，不扩为全城。“皎然之躯”“为仇人辱”保为原话，不补已经发生的性侵或具体侮辱。",
+        "“赴火死”的施事为王氏，不把她的自焚写成杨行密亲手杀害，也不补全家、僮仆或捕骑的结局。",
+        "原段未独记年月日，不借朱延寿的相邻官职、出行或死亡日期补定女方行动；未载本名、生母、年龄、子女或生卒日。"
+      ],
+      "aliases": "王氏（朱延寿妻） 王氏（朱延壽妻） 朱延寿妻王氏 朱延壽妻王氏 朱延寿的妻子王氏 朱延壽的妻子王氏",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v012"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7012&oldid=2554082"
+        }
+      ]
+    },
+    {
+      "id": "wu-cheng-kuangrou",
+      "name": "程匡柔",
+      "dynasty": "吴",
+      "role": "唐清海监军、宦官；获杨行密藏匿保护",
+      "periodLabel": "天复三年的获匿记载（约903—904年）",
+      "intro": "程匡柔是唐清海监军。《十国春秋》记唐朝下诏赐死各地宦官时，杨行密将他藏匿，斩别的囚犯应付诏令。程匡柔的获匿经历列于天复三年，未另记月日；其后事迹与生卒未详。",
+      "sourceNotes": [
+        "本卷同句明记宦官赐死之诏及程匡柔获匿，不仅凭监军官号推定宦官身份；清海监军是本段所载身份，不另补杨行密对他的任命。",
+        "藏匿程匡柔、斩别囚应诏的施事为杨行密；不把别囚之死写成程匡柔被杀，也不补囚犯姓名、人数或罪名。",
+        "同书四库本也有这段记载，只作版本校读，不算另一独立事迹或独立复证；标准本“它囚”、四库本“他囚”分版保留。",
+        "天复三年跨西历903—904年，未借相邻战事月日补定获匿时间；未载本名之外的字、籍贯、家世、生卒及后续任职。"
+      ],
+      "aliases": "程匡柔",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v001"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7001&oldid=2554072"
+        }
+      ]
+    },
+    {
+      "id": "wu-wang-chuanzheng-wife-unnamed",
+      "name": "王传拯妻（失名）",
+      "dynasty": "吴",
+      "role": "史载王传拯之妻；获徐知诰免罪",
+      "periodLabel": "930年的免罪受惠记载",
+      "intro": "王传拯妻的姓名、姓氏未详。吴海州都指挥使王传拯杀陈宣、叛投后唐后，徐知诰说这是自己的过失，免除王传拯妻与子女的罪责。现存所选原段只记这次受惠，不载她的个人行动及其后结局。",
+      "sourceNotes": [
+        "“王传拯妻”为有出处的身份显示名，王是丈夫的姓，不据此给妻定姓。她不是本段杀陈宣、焚掠或率众奔唐的施事。",
+        "徐知诰是免罪的施惠者，妻与子女是受惠者。“免”未明确记为从狱中释放、返家或免死，不增加这些情节。",
+        "《十国春秋》本段明确说从《通鉴》，属于同源记载；四库本仅供同作版本校读，均不计独立复证。",
+        "获免事承长兴元年／太和二年八月的叛降记载，只保存有据的西历930年；己亥系王传拯叛降、杀陈宣，不作为其妻获免的确日。旧史报告的戊申亦不移作她的事日。",
+        "“妻子”的子女部分只保来源中的未辨群体，不推人数、姓名、生母，也不把率众五千与旧史“兵士及家口五千”的不同口径合成妻或子女人数。"
+      ],
+      "aliases": "王传拯妻（失名）",
+      "readingStarts": {
+        "tongjian": "tongjian-v277",
+        "shiguochunqiu": "shiguochunqiu-v003"
+      },
+      "sources": [
+        {
+          "title": "《资治通鉴》 · 卷 277 · 后唐纪6",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷277&oldid=1768811"
+        },
+        {
+          "title": "《十国春秋》 · 卷 3 · 吴睿帝本纪（杨溥）",
+          "url": "https://zh.wikisource.org/w/index.php?title=十國春秋/卷003&oldid=2554071"
         }
       ]
     }

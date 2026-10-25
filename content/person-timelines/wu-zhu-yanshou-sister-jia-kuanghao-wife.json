@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+  "events": [
+    {
+      "id": "wu-zhu-yanshou-sister-jia-kuanghao-wife-marriage",
+      "title": "嫁给贾铎之子匡浩",
+      "summary": "《九国志》记贾铎请求结盟后，朱延寿以妹嫁其子匡浩；《十国春秋》在同一招降经过中只记许婚，两种叙述分源保存。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "九国志本传盟婚未独系年月；十国春秋围城叙于乾宁中",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p7",
+          "originalRevision": 1,
+          "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+          "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "十国春秋记许婚，未具婚配双方",
+          "sourceDate": "本传叙乾宁中围城，婚议未独系年",
+          "summary": "该书只记遣人持誓书金帛劝降、许以昏，没有具写女方或丈夫姓名；作为同一招降事件的婚议旁证，不另造一次婚礼。授贾公铎官记右监门卫将军，九国志作左监门卫将军。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v006",
+              "paragraphId": "shiguochunqiu-v006-p12",
+              "originalRevision": 1,
+              "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+              "excerpt": "乃白太祖，求軍中與公鐸有舊者，持誓書金帛往說之，許以昏。崗關團練使柴再用請行，臨陳與語，爲陳利害，公鐸及敬章請降。太祖以敬章爲左都押牙，公鐸爲右監門衛將軍。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "不把九国志下文乾宁二年任官，或十国春秋柴再用本传的任官、战事年份，直接套为女方婚年。",
+        "女方姓名、生母、生卒及婚后结局未载；不把其兄长或丈夫的后事当作她的经历。"
+      ]
+    }
+  ]
+}

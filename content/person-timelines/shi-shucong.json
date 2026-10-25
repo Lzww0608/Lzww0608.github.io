@@ -4,6 +4,28 @@
   "personId": "shi-shucong",
   "events": [
     {
+      "id": "shi-shucong-cangzhou-guard",
+      "title": "受葛从周命守沧州寨",
+      "summary": "刘仁恭援沧州时，葛从周令氏叔琮与张存敬留守沧州寨，自领精兵迎击燕援军。",
+      "year": 900,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "光化三年六月后、秋七月前叙次",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p13",
+          "originalRevision": 1,
+          "originalSha256": "5afd6a932d414a66c1eda13dc2234585ff2b17e0cadb497dca82ad15294626b0",
+          "excerpt": "劉仁恭將幽州兵五萬救滄州，營於乾寧軍。葛從周留張存敬、氏叔琮守滄州寨，自將精兵逆戰於老鴉堤，大破仁恭，斬首三萬級，仁恭走保瓦橋。秋，七月，李克用復遣都指揮使李嗣昭將兵五萬攻邢、洺以救仁恭，敗汴軍於內丘。鎔遣使和解幽、汴，會久雨，朱全忠召從周還。"
+        }
+      ],
+      "notes": [
+        "不把留守营寨改成氏叔琮本人率军在老鸦堤冲击。"
+      ]
+    },
+    {
       "id": "shi-shucong-taiyuan",
       "title": "取泽潞，北攻太原",
       "summary": "天复元年春，氏叔琮取泽、潞，北掠太原，返后旧史记除晋州节度使；新史记驻洞涡、粮尽撤回后表晋州刺史，官名分列。",
@@ -19,6 +41,20 @@
           "originalRevision": 1,
           "originalSha256": "f67b945d0f43137e64f91f7dcdf6f12a89933e2c4a9f8063925a7d0c2da15421",
           "excerpt": "天復元年春，領大軍攻拔澤、潞，叔琮遂引兵北掠太原。師還，除晉州節度使。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p52",
+          "originalRevision": 1,
+          "originalSha256": "97b9f26554c03eeb61412f52430699a9f9bf5f47df1875b837709c3c82b234a1",
+          "excerpt": "三月，癸未朔，朱全忠至大梁。癸卯，遣氏叔琮等將兵五萬攻李克用，入自太行，魏博都將張文恭入自磁州新口，葛從周以兗、鄆兵會成德兵入自土門，洺州刺史張歸厚入自馬嶺，義武節度使王處直入自飛狐，權知晉州侯言以慈、隰、晉、絳兵入自陰地。叔琮入天井關，進軍昂車。辛亥，沁州刺史蔡訓以城降。河東都將蓋璋詣侯言降，即令權知沁州。壬子，叔琮拔澤州，刺史李存璋棄城走。叔琮進攻潞州，昭義節度使孟遷降之。河東屯將李審建、王周將步軍一萬、騎二千詣督琮降。叔琮進趣晉陽。夏，四月，乙卯，叔琮出石會關，營於洞渦驛。張歸厚引兵至遼州，丁巳，遼州刺史張鄂降。別將白奉國會成德兵自井陘入，己未，拔承天軍，與叔琮烽火相應。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p56",
+          "originalRevision": 1,
+          "originalSha256": "16d8e34ab49b4d7d525441b9aa899f931fea4885c9328711087a516142a64f09",
+          "excerpt": "氏叔琮等引兵抵晉陽城下，數挑戰，城中大恐。李克用登城備御，不遑飲食。時大雨積旬，城多頹壞，隨加完補。河東將李嗣昭、李嗣源鑿暗門，夜出攻汴壘，屢有殺獲。李存進敗汴軍於洞渦。時汴軍既眾，芻糧不給，久雨，士卒瘧利，全忠乃召兵還。五月，叔琮等自石會關歸，諸道軍亦退。河東將周德威、李嗣昭以精騎五千躡之，殺獲甚眾。先是，汾州刺史李瑭舉州附於汴軍，克用遣其將李存審攻之，三日而拔，執瑭，斬之。氏叔琮過上黨，孟遷挈族隨之南徙。朱全忠遣丁會代守潞州。"
         }
       ],
       "variants": [
@@ -229,6 +265,35 @@
       "notes": [
         "原书记年未载本事月日，传统年份可能跨至下一西历年，按有据范围保留。"
       ]
+    },
+    {
+      "title": "攻赵匡凝取泌随",
+      "summary": "氏叔琮取泌随，康怀贞取邓，赵匡凝请盟后罢兵。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "兖州失守后攻赵匡凝；本段未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p9",
+          "originalRevision": 1,
+          "originalSha256": "32c85bd1ec8724b9058e73f4f24195667a99e846f3d4741be1aef2dd173f142c",
+          "excerpt": "是時汴兵已破兗州，遣氏叔琮、康懷貞等攻匡凝。叔琮取泌、隨二州，懷貞取鄧州。匡凝懼，請盟，乃止。"
+        },
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p24",
+          "originalRevision": 1,
+          "originalSha256": "c773f1a9dc7fd5fd4e0154b664831fb1272e060a28f0397acf1947addf9a3700",
+          "excerpt": "是時，梁已破兗、鄆，遣氏叔琮、康懷英等攻匡凝，叔琮取泌、隨二州，懷英取鄧州，匡凝懼，請盟，乃止。"
+        }
+      ],
+      "id": "shi-shucong-zhao-bi-sui",
+      "notes": [
+        "泌州名称沿本卷原字保留，既有朱温年表保留时代疑点；本次取州与氏叔琮另次襄阳失利不混合。"
+      ],
+      "sortOrder": 9
     }
   ]
 }

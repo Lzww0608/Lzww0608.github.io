@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "scope": "current-archive",
   "coverage": {
-    "bookCount": 12,
-    "chapterCount": 218,
-    "paragraphCount": 9014
+    "bookCount": 15,
+    "chapterCount": 231,
+    "paragraphCount": 9390
   },
   "people": [
     {
@@ -1638,6 +1638,70 @@
     {
       "id": "wu-an-renyi-concubine-unnamed",
       "name": "安仁义爱妾（失名）"
+    },
+    {
+      "id": "wu-li-decheng-wife-yang",
+      "name": "杨氏（李德诚妻、滕国君）"
+    },
+    {
+      "id": "wu-li-decheng-daughter-jingda-wife",
+      "name": "南平氏（李德诚女、李景达妃）"
+    },
+    {
+      "id": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+      "name": "李氏（李德诚女、刘崇俊前夫人）"
+    },
+    {
+      "id": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+      "name": "李氏（李德诚女、陇西郡君）"
+    },
+    {
+      "id": "wu-zhu-jin-wife-tao",
+      "name": "陶氏（朱瑾淮南妻）"
+    },
+    {
+      "id": "wu-zhu-jin-concubine-comforting-tao",
+      "name": "朱瑾妾（临刑劝陶氏者）"
+    },
+    {
+      "id": "wu-li-chan-wife-unknown",
+      "name": "李禅妻（失名）"
+    },
+    {
+      "id": "wu-peng-yanzhang-wife-unknown",
+      "name": "彭彦章妻（失名）"
+    },
+    {
+      "id": "wu-wei-quanfeng-daughter-unknown",
+      "name": "危全讽女（失名）"
+    },
+    {
+      "id": "wu-wei-quanfeng-sister-unknown",
+      "name": "危全讽姊（失名）"
+    },
+    {
+      "id": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+      "name": "朱延寿妹（贾匡浩妻）"
+    },
+    {
+      "id": "wu-cao-yun-wife-unknown",
+      "name": "曹筠妻（失名）"
+    },
+    {
+      "id": "wu-xu-shan-younger-sister-unknown",
+      "name": "徐善女弟（失名）"
+    },
+    {
+      "id": "wu-zhu-yanshou-wife-wang",
+      "name": "王氏（朱延寿妻）"
+    },
+    {
+      "id": "wu-cheng-kuangrou",
+      "name": "程匡柔"
+    },
+    {
+      "id": "wu-wang-chuanzheng-wife-unnamed",
+      "name": "王传拯妻（失名）"
     }
   ],
   "passages": [
@@ -18738,6 +18802,550 @@
       ]
     },
     {
+      "id": "passage-jiuguozhi-v002-p3",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "8c184a05a184301d86456e8016b7ffd8768b0bf693d542e013387296457e9d57",
+          "start": 0,
+          "end": 819
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p5",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p5",
+          "originalRevision": 1,
+          "originalSha256": "739fea6d18300470472091aca36e532b49511441e6972684e8fca49b2c9aec65",
+          "start": 0,
+          "end": 464
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p7",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p7",
+          "originalRevision": 1,
+          "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+          "start": 0,
+          "end": 414
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p9",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+          "start": 0,
+          "end": 827
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-wei-quanfeng-daughter-unknown",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-wei-quanfeng-sister-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p11",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p11",
+          "originalRevision": 1,
+          "originalSha256": "17e28db95aae051f9613dca2edf5d3b8bfb29908e50024cfc3c7e843ff8cca8f",
+          "start": 0,
+          "end": 966
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-yan-southern-han",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p13",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p13",
+          "originalRevision": 1,
+          "originalSha256": "3c0240b1d7f44a0c642c4888b1f701d9abf7fbd524f2669f328cf92412bc046f",
+          "start": 0,
+          "end": 389
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p15",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p15",
+          "originalRevision": 1,
+          "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07",
+          "start": 0,
+          "end": 492
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p17",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+          "start": 0,
+          "end": 1321
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "huo-cun",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-han",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "ding-hui",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-jin-wife-tao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p19",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p19",
+          "originalRevision": 1,
+          "originalSha256": "edfe97c5b5828917286f2e9f89e3963cc6bd0af87432679e2974e8f587c83d5e",
+          "start": 0,
+          "end": 359
+        }
+      ],
+      "people": [
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p21",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p21",
+          "originalRevision": 1,
+          "originalSha256": "b20a857c694753b71fc8f91fa5788cd23090f41117f2ef009972299ef9dfeb08",
+          "start": 0,
+          "end": 364
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p23",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p23",
+          "originalRevision": 1,
+          "originalSha256": "111a59eeffa3e36308b98f4e98ea49b9ee4f8ef95a9e00ff96bd2b4ec638f4e9",
+          "start": 0,
+          "end": 348
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p25",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p25",
+          "originalRevision": 1,
+          "originalSha256": "b16811cd7bbe4c6228dd1935c32f2799a0f53d7e7fb81a787c929ddcc3ff022c",
+          "start": 0,
+          "end": 402
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p27",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p27",
+          "originalRevision": 1,
+          "originalSha256": "6bf0720cfc7300102cbb431f7302dd63a738d631480efc1cd7539c46ea5e8869",
+          "start": 0,
+          "end": 320
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p29",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p29",
+          "originalRevision": 1,
+          "originalSha256": "84233b1b259e80c834eceed9ebcba28009798028f4219e502fe1a20f6838beb2",
+          "start": 0,
+          "end": 572
+        }
+      ],
+      "people": [
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p31",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p31",
+          "originalRevision": 1,
+          "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
+          "start": 0,
+          "end": 471
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "yuan-xiangxian",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p33",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p33",
+          "originalRevision": 1,
+          "originalSha256": "495c32ec872d1c3da74eff4599ec087248f7901c8a68c2a87a9119e80c453bb5",
+          "start": 0,
+          "end": 562
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p35",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 35 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p35",
+          "originalRevision": 1,
+          "originalSha256": "c8656bfd436f86ea6eabb3056a061962ae3baf984490eb9874d5192ab90812ed",
+          "start": 0,
+          "end": 400
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-jiuguozhi-v002-p37",
+      "chapterId": "jiuguozhi-v002",
+      "title": "卷 2 · 吴人物列传 · 第 37 段",
+      "spans": [
+        {
+          "paragraphId": "jiuguozhi-v002-p37",
+          "originalRevision": 1,
+          "originalSha256": "53f493f946ae71e4d14f20bc3c373d0b6fbbf30f1485b00fa22a4f66ce0b58de",
+          "start": 0,
+          "end": 272
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-kaoyi-v028-p5",
       "chapterId": "kaoyi-v028",
       "title": "卷 28 · 后梁纪上 · 第 5 段",
@@ -21838,6 +22446,510 @@
         {
           "personId": "song-qiqiu",
           "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p3",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "fe8752802b8b5c84f054e5d921e695fd6f494b71e3fee6e865ce501e4eff7953",
+          "start": 0,
+          "end": 85
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p4",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p4",
+          "originalRevision": 1,
+          "originalSha256": "65c6004cf07eb4cd973fb133f66d75263855024f91cfb7ead9549f03d59b9f89",
+          "start": 0,
+          "end": 323
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p7",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p7",
+          "originalRevision": 1,
+          "originalSha256": "e7baec016739d37595dfb654db352a7ca5c1c2059fc54e9e577dee77f8452441",
+          "start": 0,
+          "end": 168
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p8",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p8",
+          "originalRevision": 1,
+          "originalSha256": "6446c5df7ffd6ceb9d978dfbf97a2e5038a5a8cdea0bf40c01f86f7bee6d525b",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p12",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p12",
+          "originalRevision": 1,
+          "originalSha256": "e35164462718a8f8fb487b7a1b1a193fc6c75d0424086e131ca5e2d7d570f8f0",
+          "start": 0,
+          "end": 105
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p13",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p13",
+          "originalRevision": 1,
+          "originalSha256": "15fa4fff2e9e2a6088a1172c6bb920c086e4d84e4c8cb3dcc93ddddd8ab3e149",
+          "start": 0,
+          "end": 73
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p15",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p15",
+          "originalRevision": 1,
+          "originalSha256": "b7029838bd4ee4c6bc62d73edc3693b7f9249e9eea39c2f8e4c5f026c9246212",
+          "start": 0,
+          "end": 81
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p16",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "40490853aabd9bce88101141326cfb97311f7a8a6c8f065b5858f634148d0782",
+          "start": 0,
+          "end": 85
+        }
+      ],
+      "people": [
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p17",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "ae989a2b6aef6f3444a22bfbe6383783cc340f77fd791f0295830743dba23021",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p18",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p18",
+          "originalRevision": 1,
+          "originalSha256": "9c9bda9c55b4a70a8d1d0e399a8d2905e2b9480bd2fe04c04b06968d8c89a5af",
+          "start": 0,
+          "end": 135
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p20",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p20",
+          "originalRevision": 1,
+          "originalSha256": "4f09f5473293ab69b6ab6a89ae7bae06276e78d2e7c6f3df876fa075620cc000",
+          "start": 0,
+          "end": 255
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p24",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p24",
+          "originalRevision": 1,
+          "originalSha256": "dc21fde06e8fa5a8082e76e177ac8c5c1703de5f4549c3e74b10b6028a9bab1e",
+          "start": 0,
+          "end": 87
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p26",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p26",
+          "originalRevision": 1,
+          "originalSha256": "249eb4d20f11a7807261fd114a309d0fdb129691867d5d1162e82607ede64748",
+          "start": 0,
+          "end": 197
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p27",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p27",
+          "originalRevision": 1,
+          "originalSha256": "8cc22e44c5583f1da8f2c02a1f38e95f26ff99a8858c0a9b198bcad7c1d22f7c",
+          "start": 0,
+          "end": 168
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p28",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p28",
+          "originalRevision": 1,
+          "originalSha256": "3e781a05a0db3857eb46889a95d0ee61e6564e239407061742f096342fde3437",
+          "start": 0,
+          "end": 118
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p30",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 30 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p30",
+          "originalRevision": 1,
+          "originalSha256": "1063e32e58a6b72215c3558603935e744481ec85d1d6beaa4984bc7387080f7b",
+          "start": 0,
+          "end": 66
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p33",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p33",
+          "originalRevision": 1,
+          "originalSha256": "fc0b3bbd6759fc2c82770e411a22942f1fe6276b179f0f9195cd1c34edd4ae02",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-li-decheng-wife-yang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p34",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 34 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p34",
+          "originalRevision": 1,
+          "originalSha256": "0d692acfb1a537812801f5074c0da41674933f9734db90925f369ea3875cb458",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "people": [
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p36",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 36 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p36",
+          "originalRevision": 1,
+          "originalSha256": "b1b45613e52e659a4f070984a9d8d81bd61cbecad537ed6bf6d4bfbfa8ad59eb",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p37",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 37 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p37",
+          "originalRevision": 1,
+          "originalSha256": "cf1ed47d4e662a3d1ba46a7a44839fb78841d1efb134109394a4d12f996c2002",
+          "start": 0,
+          "end": 98
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p41",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 41 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p41",
+          "originalRevision": 1,
+          "originalSha256": "cb2068ae416cbdbe8f0aa7cb511e5bc4f37377b9cfade4c09f2951ab54b28c7b",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p42",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 42 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p42",
+          "originalRevision": 1,
+          "originalSha256": "86e535926ab612593910111a4b18452a68ea8a0b2886b0871017f2d5e7ca4e15",
+          "start": 0,
+          "end": 167
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p43",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 43 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p43",
+          "originalRevision": 1,
+          "originalSha256": "09909da10cd3a41445ff2e483db536ee8d76a9850f8b4444ea11f2ee76ee95fa",
+          "start": 0,
+          "end": 93
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p44",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 44 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p44",
+          "originalRevision": 1,
+          "originalSha256": "b32207b7c9205db86657c75bc439927b99514cc80f332547eec9b1aeb805a6a0",
+          "start": 0,
+          "end": 144
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangjinshi-v002-p45",
+      "chapterId": "nantangjinshi-v002",
+      "title": "卷 2 · 南唐近事 · 第 45 段",
+      "spans": [
+        {
+          "paragraphId": "nantangjinshi-v002-p45",
+          "originalRevision": 1,
+          "originalSha256": "d4c8dbf1c9c9da5d0880112ab0e345265b4feb578db129847ed2efe23eabf035",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-xizai",
+          "kind": "record"
         }
       ]
     },
@@ -41950,6 +43062,310 @@
       ]
     },
     {
+      "id": "passage-new-v41-p5",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p5",
+          "originalRevision": 1,
+          "originalSha256": "adfcc071996071f1efd5ed4c3c30990b63c8dc79554c598d514e25b0f43ce372",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "people": [
+        {
+          "personId": "liu-yan-southern-han",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p6",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p6",
+          "originalRevision": 1,
+          "originalSha256": "a859adb628e8d20ce20b8f72a0cea1fff377292cffaf8485c7fce43eb25e3f15",
+          "start": 0,
+          "end": 76
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p9",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p9",
+          "originalRevision": 1,
+          "originalSha256": "13684c2625edcd5e8468ecb4b7e5d81658816a775ae43f34dccbeb080382843e",
+          "start": 0,
+          "end": 61
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-yan-southern-han",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p13",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p13",
+          "originalRevision": 1,
+          "originalSha256": "f550623e12ca39876c33e1b61a8c372142be8e603834e2d25c30629c9bdaf956",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p15",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p15",
+          "originalRevision": 1,
+          "originalSha256": "feaa350db06466204e0f43b9f7ed9df7b7a670b008a284011834bf376bfe8a8e",
+          "start": 0,
+          "end": 124
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p17",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p17",
+          "originalRevision": 1,
+          "originalSha256": "f3b0ecf5ff20acb2e2db4eb6a1e537a6c703f3497363207e580d1a0012af7f87",
+          "start": 0,
+          "end": 105
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p18",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p18",
+          "originalRevision": 1,
+          "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+          "start": 0,
+          "end": 129
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-wei-quanfeng-daughter-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p19",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p19",
+          "originalRevision": 1,
+          "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p21",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p21",
+          "originalRevision": 1,
+          "originalSha256": "5a98d14ac48141e55cd6bffd385cb2a792a015ab5ec146a478bad71f58969703",
+          "start": 0,
+          "end": 135
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p22",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p22",
+          "originalRevision": 1,
+          "originalSha256": "023ff0997c7d879d2cad5e781156c60efc616c9df28b0551ec81dffae6936a3e",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p24",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p24",
+          "originalRevision": 1,
+          "originalSha256": "c773f1a9dc7fd5fd4e0154b664831fb1272e060a28f0397acf1947addf9a3700",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p25",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p25",
+          "originalRevision": 1,
+          "originalSha256": "09cf516f728d7c3b8be309440dbd304edc8a1dc168ba24f16456bcd6b93edd66",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v41-p26",
+      "chapterId": "new-v41",
+      "title": "卷 41 · 杂传第二十九 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "new-v41-p26",
+          "originalRevision": 1,
+          "originalSha256": "c14f37b909a4c6f7984566487ae9a0e75022b32c9e58c00273c2b8b3565cc96b",
+          "start": 0,
+          "end": 150
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-new-v43-p1",
       "chapterId": "new-v43",
       "title": "卷 43 · 杂传 · 氏叔琮传 · 第 1 段",
@@ -48309,6 +49725,10 @@
         },
         {
           "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
           "kind": "record"
         }
       ]
@@ -104774,6 +106194,326 @@
       ]
     },
     {
+      "id": "passage-quantangwen-v884-p4",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p4",
+          "originalRevision": 1,
+          "originalSha256": "a04b763e68d8a9d9a5573367c648af648aa081820bca3dafc2b732ac15ed372c",
+          "start": 0,
+          "end": 1271
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p5",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p5",
+          "originalRevision": 1,
+          "originalSha256": "7dc214aabd25f08308de22007f116f44d0286ee2ec4388c871509c0abfb8a71a",
+          "start": 0,
+          "end": 114
+        }
+      ],
+      "people": [
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p9",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p9",
+          "originalRevision": 1,
+          "originalSha256": "eced2407f5ec9653512606a29a7869f4459562aa3526470d3ae2852602a081d7",
+          "start": 0,
+          "end": 466
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p10",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p10",
+          "originalRevision": 1,
+          "originalSha256": "c820833e65ee9cea1bb9f8ae85cfcd2a9ddfb6640529f6e02e5c52635bdb5d75",
+          "start": 0,
+          "end": 358
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p11",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p11",
+          "originalRevision": 1,
+          "originalSha256": "9f5c43d1f106952952c235c35f0a2e87d4a1a1c7853b92a0bdc904fae595c680",
+          "start": 0,
+          "end": 551
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p12",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p12",
+          "originalRevision": 1,
+          "originalSha256": "3c6f47ebdaaf5f6c056b8069335bf80b637ceba516fe26d0364e31cf30db9bf2",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p13",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p13",
+          "originalRevision": 1,
+          "originalSha256": "fd5db0eb2e5111c3d7dcb89848c3be2f9b841d5f7294c09dabdb53ea60cf4dfb",
+          "start": 0,
+          "end": 375
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p17",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p17",
+          "originalRevision": 1,
+          "originalSha256": "15898cd300fbc91ec0156b1cc3d462051a3606c243862e7da80a7cec135510cc",
+          "start": 0,
+          "end": 244
+        }
+      ],
+      "people": [
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p21",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p21",
+          "originalRevision": 1,
+          "originalSha256": "0d8bdf1119ae7878e56fc1aad1acb72b5015e16a87a09fa0d1c87a46b86db263",
+          "start": 0,
+          "end": 846
+        }
+      ],
+      "people": [
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p25",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p25",
+          "originalRevision": 1,
+          "originalSha256": "c8ec01b6b530da2a314e47e37b572987d279e8e448c3fcdaaff4cca93ae82f44",
+          "start": 0,
+          "end": 568
+        }
+      ],
+      "people": [
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p29",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p29",
+          "originalRevision": 1,
+          "originalSha256": "3cc34bedb78c6717dda1e668d6b038f8d848a4222220fbe10dca19977b619514",
+          "start": 0,
+          "end": 765
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p30",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 30 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p30",
+          "originalRevision": 1,
+          "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+          "start": 0,
+          "end": 659
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p31",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p31",
+          "originalRevision": 1,
+          "originalSha256": "bc99f544e1def4e2d66095bb8c0d3c82eae919777367aa52fa7f318857f7f030",
+          "start": 0,
+          "end": 319
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-quantangwen-v884-p32",
+      "chapterId": "quantangwen-v884",
+      "title": "卷 884 · 徐铉文 · 第 32 段",
+      "spans": [
+        {
+          "paragraphId": "quantangwen-v884-p32",
+          "originalRevision": 1,
+          "originalSha256": "2ed7788b072c0efa43e028a31034992c95005b408f37c39b0756bf818b27dfd2",
+          "start": 0,
+          "end": 400
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-quewen-v001-p1",
       "chapterId": "quewen-v001",
       "title": "五代史阙文 · 全卷 · 第 1 段",
@@ -107750,6 +109490,1938 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v001-p1",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p1",
+          "originalRevision": 1,
+          "originalSha256": "7a3ea9eba88d00785dc718192bf006079539347bd2174096141652c01d3da701",
+          "start": 0,
+          "end": 756
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p2",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p2",
+          "originalRevision": 1,
+          "originalSha256": "77ccd91edc638004094daf67cbdd4829dd928787a7abdc42396b61bc49847a96",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p3",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "ff42d430728ba7ad150c2f292a8d4da6bdfa7ea81b22ff0356633cf456c4fe3b",
+          "start": 0,
+          "end": 2127
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p4",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "6f1027b3970e13195ed855e1805495ba5bb70d03d5427a995c1b150fa80d35d9",
+          "start": 0,
+          "end": 383
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p5",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p5",
+          "originalRevision": 1,
+          "originalSha256": "94e017602ab18e1511347bf1615423ed4d3bc563fa14dbe4a9e6a810445132ef",
+          "start": 0,
+          "end": 407
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p6",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p6",
+          "originalRevision": 1,
+          "originalSha256": "200e8c705c21cfb123c8dfad11763820045b8a3c23b6089d1a865aabd3d31832",
+          "start": 0,
+          "end": 377
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p7",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "6222dde68a2bdb1083fc6175ac0ad50e4b7303d390e56ebe4a946cc39da8b371",
+          "start": 0,
+          "end": 506
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p8",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p8",
+          "originalRevision": 1,
+          "originalSha256": "7422efad10f9491912c6ae045d007d6dac77a777727cafb0a7dd27767b23368b",
+          "start": 0,
+          "end": 842
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p9",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "58355419515094242793c579e3f1011b34c6715b0661068ea011abfae6b78439",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p10",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p10",
+          "originalRevision": 1,
+          "originalSha256": "cc7b78169e78b54ba2c6657b607d918c5017f0fc6b5a2f395f8fc79a17778e18",
+          "start": 0,
+          "end": 327
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p11",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p11",
+          "originalRevision": 1,
+          "originalSha256": "d5e1d0ed06dc5142d6fe2e9da3fcaa649d7564da8c6a94b425543c1eb83e477f",
+          "start": 0,
+          "end": 702
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p12",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p12",
+          "originalRevision": 1,
+          "originalSha256": "55123fd88db5c43501932b65c1263ee4bbe935258dfa7decabea0046538ed386",
+          "start": 0,
+          "end": 550
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p13",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p13",
+          "originalRevision": 1,
+          "originalSha256": "d067ffb3b7c33baa72c605e12b8dc35144bf98813b158c71e7659a30d978b504",
+          "start": 0,
+          "end": 1224
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p14",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p14",
+          "originalRevision": 1,
+          "originalSha256": "7890df5ceb2809562c0744e7f31b7000171f89401d049ee94370f23add661e9f",
+          "start": 0,
+          "end": 520
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p15",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p15",
+          "originalRevision": 1,
+          "originalSha256": "3e499e5ec28e88b247059c7cb203a8627e554f4e99c4b0b40007b73f176a93f3",
+          "start": 0,
+          "end": 610
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-guihou",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p16",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p16",
+          "originalRevision": 1,
+          "originalSha256": "fee1c251e7531755c5bbdfbee2a7a2be8719e7f0adb5e9f36f74faecc20ae5d5",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p17",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p17",
+          "originalRevision": 1,
+          "originalSha256": "1c124c8c0e3e41c076c092ced5af019e89efa5ab963ee522976f2e2fad1e7555",
+          "start": 0,
+          "end": 321
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p18",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p18",
+          "originalRevision": 1,
+          "originalSha256": "374396495fc6dc09744cda3fbc395e3010b68809a993deb756126b728f0cf5ce",
+          "start": 0,
+          "end": 820
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p19",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p19",
+          "originalRevision": 1,
+          "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753",
+          "start": 0,
+          "end": 2051
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-tan",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-kangyi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-tian-jun-mother-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-shenfu-wife-unnamed",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-cheng-kuangrou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p20",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p20",
+          "originalRevision": 1,
+          "originalSha256": "094f9b6133251a5a6e045c243e9a3a4fe355feb65eece79c1f0cd66e815d15e8",
+          "start": 0,
+          "end": 477
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-qian-yuanliao-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p21",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p21",
+          "originalRevision": 1,
+          "originalSha256": "1c88fe4573ff106dfe2c49b39ef84b27d79ca095912e104d4ee0ecd50a317759",
+          "start": 0,
+          "end": 1675
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v001-p22",
+      "chapterId": "shiguochunqiu-v001",
+      "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密） · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v001-p22",
+          "originalRevision": 1,
+          "originalSha256": "ef88ce07caab7c5e174d66ae73fa7ff9dbfe7ed7219cd35a9488407839070c3b",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p2",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "e12e48d6f5ba9acf920dde6e879f8f5d7be611bfbd0f9336dc16d7ec291a20df",
+          "start": 0,
+          "end": 332
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p3",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "68a43e6f1e34d7c3cb8ff53c7a78c6a7068b41fde2fedc6177b56849b410d7b1",
+          "start": 0,
+          "end": 600
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p4",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p4",
+          "originalRevision": 1,
+          "originalSha256": "8ef208088cf674b9adbb4345d03577bc31b5e9602b000499f172968d40c86d83",
+          "start": 0,
+          "end": 1411
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p5",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p5",
+          "originalRevision": 1,
+          "originalSha256": "6c324ab574649c4d02115f321ff92e03995ae758b3ce3793d07e46fdc31e8e71",
+          "start": 0,
+          "end": 635
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p7",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p7",
+          "originalRevision": 1,
+          "originalSha256": "32eb087ab26fc8c739209ceadac5014c235b45a82691d25a586db876b41a15e5",
+          "start": 0,
+          "end": 1341
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "kou-yanqing",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p8",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p8",
+          "originalRevision": 1,
+          "originalSha256": "5d13aef8dfb46a0f94f6446827c21c756c509e11448b204d1fb36fc059483372",
+          "start": 0,
+          "end": 1187
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-shenzhi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p9",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p9",
+          "originalRevision": 1,
+          "originalSha256": "2a53fb36e76cfde9825700dfa8bec721e2fa4dbc75be6337bbb743b7da3941e3",
+          "start": 0,
+          "end": 393
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-mother-zhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p11",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p11",
+          "originalRevision": 1,
+          "originalSha256": "9fa8e6f0c9cfe6b3d045d7caca4f67afbc97264750eef7abf681a5c3a0069963",
+          "start": 0,
+          "end": 488
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-yougui",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p12",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p12",
+          "originalRevision": 1,
+          "originalSha256": "89ae62f4c320eb82791c6fff83c79b2e8484a90831a97dd47e702949d43712f7",
+          "start": 0,
+          "end": 533
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-yougui",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p13",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p13",
+          "originalRevision": 1,
+          "originalSha256": "02936e70ea3b1524072b2bd8ab055721a53396bace17008f0a4e36cc88fcec23",
+          "start": 0,
+          "end": 231
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-yougui",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-xun",
+          "kind": "record"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p14",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p14",
+          "originalRevision": 1,
+          "originalSha256": "0592015e65233bf601489348bf767b7bbd6fc86ff913ccf5e9281bfe9e1d8647",
+          "start": 0,
+          "end": 225
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "mention"
+        },
+        {
+          "personId": "niu-cunjie",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p15",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p15",
+          "originalRevision": 1,
+          "originalSha256": "460e4ad4d8c3144704a81a4fb997f300ba11e2afd0cbced2709ba1b8fcdca9aa",
+          "start": 0,
+          "end": 411
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p16",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p16",
+          "originalRevision": 1,
+          "originalSha256": "b359515e528af130d36fe57cfa33e95b1ae1b972c0d85cebff49854946cf06aa",
+          "start": 0,
+          "end": 468
+        }
+      ],
+      "people": [
+        {
+          "personId": "yuan-xiangxian",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-yan-southern-han",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p17",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "94a1b0b0186393a91c8114d99e41cb114becfcdfaeae477ed3f92672475d3a9d",
+          "start": 0,
+          "end": 1414
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p18",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p18",
+          "originalRevision": 1,
+          "originalSha256": "27d9507d2755cf17fb685f5a0c9c2e1747a96ce70ccd9e54d8908f4560c90e15",
+          "start": 0,
+          "end": 1452
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-yuanguan",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-taifei-shi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v002-p19",
+      "chapterId": "shiguochunqiu-v002",
+      "title": "卷 2 · 吴烈祖、高祖世家（杨渥、杨隆演） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v002-p19",
+          "originalRevision": 1,
+          "originalSha256": "dbe0b7bb9c607c0b5d4b2d3fa5091b29f3f3adc3bb3a8e3b616a3d29761c3fbf",
+          "start": 0,
+          "end": 533
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p1",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p1",
+          "originalRevision": 1,
+          "originalSha256": "b6635d49a7117934b4e1a3d4e673d8360ab18d295fd5f5d30a04de3fdf08d462",
+          "start": 0,
+          "end": 135
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-mother-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p2",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p2",
+          "originalRevision": 1,
+          "originalSha256": "2f568d2a125f1cc4e2d150f52c109a58d21107653c196b32b14d241e309cc77c",
+          "start": 0,
+          "end": 267
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p3",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "0145ea978ef63cb448f16cafe76a888df7c8b477243b95924e713fe3dd60e5dc",
+          "start": 0,
+          "end": 584
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p4",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p4",
+          "originalRevision": 1,
+          "originalSha256": "8830ca978cfeac00a9128f86e4bcd9c4780a7d81e78cf647de389e9d7c22269d",
+          "start": 0,
+          "end": 492
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p5",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p5",
+          "originalRevision": 1,
+          "originalSha256": "03ef293aa6be1d83a148f8aace6e44dc0fb8adbb5883cec70888f564cefd38cb",
+          "start": 0,
+          "end": 221
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p6",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p6",
+          "originalRevision": 1,
+          "originalSha256": "73f76199491bd2ce200d1cbf24108cbbb36ee239609bbd677bf46129b90e7ce0",
+          "start": 0,
+          "end": 150
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p7",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p7",
+          "originalRevision": 1,
+          "originalSha256": "ecd16b79432eb1905256e6a85805c13d99f4c0aa3b10a0c5d981984091920454",
+          "start": 0,
+          "end": 1430
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p8",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p8",
+          "originalRevision": 1,
+          "originalSha256": "39f7ce95fe8a1954ab3420a7306fd5d5f39023759fd0f314caeaa8fbfe357b5d",
+          "start": 0,
+          "end": 874
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "chai-rong",
+          "kind": "mention"
+        },
+        {
+          "personId": "liu-xun-yonghe",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-jixing",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-mother-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-chen-furen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p9",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p9",
+          "originalRevision": 1,
+          "originalSha256": "02ae0ab1e7e7549cfc8ff224571ae9bac9733a2ddec045154b9fb1767f05668b",
+          "start": 0,
+          "end": 411
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-jixing",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-mother-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p10",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p10",
+          "originalRevision": 1,
+          "originalSha256": "b20d647cb1c3885efadb09fd8e1052bb3abf0b7a3f4cc263fad5978dde8fe9c9",
+          "start": 0,
+          "end": 398
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-hongzuo",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p11",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p11",
+          "originalRevision": 1,
+          "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288",
+          "start": 0,
+          "end": 547
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-wang-chuanzheng-wife-unnamed",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p12",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p12",
+          "originalRevision": 1,
+          "originalSha256": "3b01fdb9fb6b3dc871945cedb37eacf9a51beaed9309870c9336b13735f0cdf3",
+          "start": 0,
+          "end": 1213
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p13",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p13",
+          "originalRevision": 1,
+          "originalSha256": "f144fbd1249f85cb4b0af324983ab9841c218c25d75924a4025e94fa2d1aa992",
+          "start": 0,
+          "end": 121
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p14",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p14",
+          "originalRevision": 1,
+          "originalSha256": "09f3830cdb96b79127113a0e84b1a6501ed01afa24997a3a298533aef256887d",
+          "start": 0,
+          "end": 322
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-empress-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p15",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p15",
+          "originalRevision": 1,
+          "originalSha256": "325004ceb4a8fb26451e3f3653109b18287a05a2ab62f71bfa14d8cde492a720",
+          "start": 0,
+          "end": 716
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p16",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p16",
+          "originalRevision": 1,
+          "originalSha256": "1f10acc2163b4c73d0e09d24bc148c36d4510d8bc837c6f139145ecac6e80d67",
+          "start": 0,
+          "end": 237
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p17",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p17",
+          "originalRevision": 1,
+          "originalSha256": "f374f7b75e3f52a09a7707e1c5d7001b554019b5fa299f6f64118f63f285a22d",
+          "start": 0,
+          "end": 505
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p18",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p18",
+          "originalRevision": 1,
+          "originalSha256": "ee4f41ceecc29aba2ede10b4d6973b14716d73099dfa462f5f8bbab1c4e5dea1",
+          "start": 0,
+          "end": 732
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-meng-wife",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p19",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p19",
+          "originalRevision": 1,
+          "originalSha256": "3c26b0807778d5895a8c7237a914cf00062c3f40a56fdf26db5d5387b7867fac",
+          "start": 0,
+          "end": 793
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v003-p20",
+      "chapterId": "shiguochunqiu-v003",
+      "title": "卷 3 · 吴睿帝本纪（杨溥） · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v003-p20",
+          "originalRevision": 1,
+          "originalSha256": "e9e0699d9c24b235e0b56adc1a2ef58d3252989a9e307a70ea5d9351795b9a6f",
+          "start": 0,
+          "end": 96
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-shiguochunqiu-v004-p2",
       "chapterId": "shiguochunqiu-v004",
       "title": "卷 4 · 吴后妃、宗室及公主 · 第 2 段",
@@ -108158,6 +111830,1638 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v006-p2",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "24d694dacc10acf66ad1ae042af785ba2f00d4688eee97a41b911a89926b3c33",
+          "start": 0,
+          "end": 766
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p3",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "b090af12648f3c46474ba91c84d15bc7232c460237248e8065d9f12832ff914e",
+          "start": 0,
+          "end": 366
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p4",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "ac14b2b0d8b858ae789b077da2fa9443272dd77671491a9bc2e529a247888949",
+          "start": 0,
+          "end": 142
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p5",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p5",
+          "originalRevision": 1,
+          "originalSha256": "2c388149ab77ea89cd0f822e481394cee4619d6a89937fd204aafd2a7291bf5e",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p6",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "f9264a73971f24ad0f1b091ea7ee658a96d3a3f69c3902d3b3ae8b2055d89074",
+          "start": 0,
+          "end": 221
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p7",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "de85030864792cdc668713ea92160ec11a2170c0cb82370c24bda2a7d90ee95d",
+          "start": 0,
+          "end": 527
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p9",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "a09f0d8a673b3fba5d3eeb4bbdec0a48b9693ac2970398e7cc9f2243efdc775c",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p10",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "bd8635d9030bcb962aa1a873e43a324f4f3dd2444785f93e7ce20d20452560bb",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p11",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p11",
+          "originalRevision": 1,
+          "originalSha256": "0f2f052ef6f0086b214e6c7df9d81c1b459ee41f99de097b97d59ea485bbc9bc",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-yougong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p12",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p12",
+          "originalRevision": 1,
+          "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+          "start": 0,
+          "end": 267
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p13",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p13",
+          "originalRevision": 1,
+          "originalSha256": "4f81b21f58c27be5f218362099dfab1370e2274c4f79212c74455a4862f4b60a",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p14",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "b915e3abdaefb2a9f9391ca433e7c85cbffba3104e2b74974ddebac8db7e090a",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p15",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "f05681025fbac2ac78e1ef32270bb30042b240ddfae7efc171c478e8579817cf",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p16",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p16",
+          "originalRevision": 1,
+          "originalSha256": "1bec2620195b7da150d7f9f631912de7598cccb63e0108e39ee40dfa59786a5d",
+          "start": 0,
+          "end": 233
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v006-p17",
+      "chapterId": "shiguochunqiu-v006",
+      "title": "卷 6 · 吴列传（柴再用、秦裴、贾公铎等） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v006-p17",
+          "originalRevision": 1,
+          "originalSha256": "0f1524ca2afe02be3711840970ec30f539348d68c1cafa28298077764663b303",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p2",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p2",
+          "originalRevision": 1,
+          "originalSha256": "81b4af121dea2e637e51fdb54a2fcb53b66fce9bb043f7f8d02fed31b5b9e401",
+          "start": 0,
+          "end": 694
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p3",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p3",
+          "originalRevision": 1,
+          "originalSha256": "e1f5d198221b0da71b68690b7185c2d1e26341d111af5935a2c691c23b7091d8",
+          "start": 0,
+          "end": 371
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p4",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p4",
+          "originalRevision": 1,
+          "originalSha256": "e6fe044155ebb7e650fcfe023506f2f5120170c406412e9d9a56dc3262a2f75f",
+          "start": 0,
+          "end": 167
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p5",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p5",
+          "originalRevision": 1,
+          "originalSha256": "a2f7bd3678dee6260c08f06fdde9503171a08febee3d6a7db0281cfd7f6c600d",
+          "start": 0,
+          "end": 837
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jingren",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-sian",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p6",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p6",
+          "originalRevision": 1,
+          "originalSha256": "b7dd6c93f43b431c365ca657fda0e56ddc4378d460b0a07f0566f7ad1fc15418",
+          "start": 0,
+          "end": 211
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p7",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p7",
+          "originalRevision": 1,
+          "originalSha256": "c6fc8b6481bbc915bf1950167b0839eef6d06f3a0ebe6350396f5327c50d07de",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p8",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p8",
+          "originalRevision": 1,
+          "originalSha256": "be4a24150220600f4b149fe8d862e568090b799ffc84ac8230603b027017a473",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p10",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p10",
+          "originalRevision": 1,
+          "originalSha256": "41468fe737d39358548ab6f3b864d3e8f24b56cf6eaf340ee443e40ca80fe3ee",
+          "start": 0,
+          "end": 1276
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p11",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p11",
+          "originalRevision": 1,
+          "originalSha256": "58dea5c37f9267bc2a92a84c65024ea3614767ba96d8a5ab12074cac3395e537",
+          "start": 0,
+          "end": 141
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p12",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p12",
+          "originalRevision": 1,
+          "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+          "start": 0,
+          "end": 546
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-decheng-wife-yang",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-li-decheng-daughter-jingda-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p13",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p13",
+          "originalRevision": 1,
+          "originalSha256": "a94cd197c3ec2dabc32f546b312317afd06f34bb2143f9691dc3ca8101e7cb14",
+          "start": 0,
+          "end": 192
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v007-p14",
+      "chapterId": "shiguochunqiu-v007",
+      "title": "卷 7 · 吴列传（刘信、周本、李德诚等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v007-p14",
+          "originalRevision": 1,
+          "originalSha256": "398df47371cfc3f0e9dcd82b8dd8bc39e5dbd239633db0168f64adeff7cb47be",
+          "start": 0,
+          "end": 540
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p2",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p2",
+          "originalRevision": 1,
+          "originalSha256": "d81ab345fff445ac9726b338b1995cb60f82444df6719729ecbc2b6538cc611a",
+          "start": 0,
+          "end": 596
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p3",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p3",
+          "originalRevision": 1,
+          "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+          "start": 0,
+          "end": 1256
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-zhen",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-han",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "he-gui",
+          "kind": "record"
+        },
+        {
+          "personId": "hu-gui",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-jin-wife",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-wife-zhu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-zhu-jin-wife-tao",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-jin-concubine-comforting-tao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p4",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "start": 0,
+          "end": 467
+        }
+      ],
+      "people": [
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "pang-shigu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "biography"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p5",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p5",
+          "originalRevision": 1,
+          "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+          "start": 0,
+          "end": 89
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-chengsi",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-li-chan-wife-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p6",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p6",
+          "originalRevision": 1,
+          "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-peng-yanzhang-wife-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p8",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p8",
+          "originalRevision": 1,
+          "originalSha256": "472b0b1c3d75f3ffe996b66414ce3acaa21473db794a34bc78418ea509377378",
+          "start": 0,
+          "end": 354
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p9",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p9",
+          "originalRevision": 1,
+          "originalSha256": "32c85bd1ec8724b9058e73f4f24195667a99e846f3d4741be1aef2dd173f142c",
+          "start": 0,
+          "end": 572
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-shihou",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-chengsi",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-yan",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p10",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p10",
+          "originalRevision": 1,
+          "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+          "start": 0,
+          "end": 287
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-wei-quanfeng-daughter-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p11",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p11",
+          "originalRevision": 1,
+          "originalSha256": "87dfdadb9fbc98a8e94f50280fd3f31fcaad00a1921ac4b4259e6f6e30000698",
+          "start": 0,
+          "end": 245
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v008-p12",
+      "chapterId": "shiguochunqiu-v008",
+      "title": "卷 8 · 吴列传（朱瑾、李承嗣等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v008-p12",
+          "originalRevision": 1,
+          "originalSha256": "789b4eb9d84e80200153f3b4011d7cd22801b1dd00312eb2bf8204006a0aaa37",
+          "start": 0,
+          "end": 703
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p2",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p2",
+          "originalRevision": 1,
+          "originalSha256": "c001df56e820e2eb9153be99e90319ab71871eb0c5f41a03f56eee028896a61a",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p3",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p3",
+          "originalRevision": 1,
+          "originalSha256": "0b993e925c2643834aec8dc22130bbc6b895bd09f15f36bb5dac9edc0c60557f",
+          "start": 0,
+          "end": 119
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p4",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p4",
+          "originalRevision": 1,
+          "originalSha256": "f965dadc4a6eb34e19a5ad6375aab68ecd69e52836179e1596c244645dfed056",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p5",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p5",
+          "originalRevision": 1,
+          "originalSha256": "34493b560b0b14ff88045d6283714a3df7e7f241003da12d79c6f4cb56f01426",
+          "start": 0,
+          "end": 163
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p6",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p6",
+          "originalRevision": 1,
+          "originalSha256": "b4aa7fcfa8bd9e95fe4456e239830e2219586b78af6ca1511492310ec01e4e6d",
+          "start": 0,
+          "end": 243
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jingren",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p7",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p7",
+          "originalRevision": 1,
+          "originalSha256": "7a5876ddbd4c3e22a50f2293b0264d999f917b275ea5a0e0b1d31ed1b2688ece",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p8",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p8",
+          "originalRevision": 1,
+          "originalSha256": "d75b4000ad49539e98c41bd84e5196c98f287238723ac5135e13548db195fb37",
+          "start": 0,
+          "end": 146
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p9",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p9",
+          "originalRevision": 1,
+          "originalSha256": "7704ac5389fb8106c520eed1d2d3ead30593b8ca6a70cb643d44efe4a4d80cda",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p11",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p11",
+          "originalRevision": 1,
+          "originalSha256": "f5772b09476f49af1ac231c5d93accbb9479da4f9596318abc3332a708b8bfcb",
+          "start": 0,
+          "end": 251
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p12",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p12",
+          "originalRevision": 1,
+          "originalSha256": "e53e362eaa15701bfb17ea2971826f595afc982be703fb54aad37149c73a5ce8",
+          "start": 0,
+          "end": 208
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p13",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p13",
+          "originalRevision": 1,
+          "originalSha256": "f41ff8f7f81e0e85f3fc4a28a29a3dbcc4dece31bd62de67d09f52756d8d0d32",
+          "start": 0,
+          "end": 105
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p14",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p14",
+          "originalRevision": 1,
+          "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p17",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p17",
+          "originalRevision": 1,
+          "originalSha256": "7340f202ab6c49b6583939a4475520145a78ffe1921870bde73ee6d4d1b02752",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p18",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p18",
+          "originalRevision": 1,
+          "originalSha256": "1b4c357a2bfd126dda93e71eb1988074b252cdfcb7de3cac0025a539a1adbefc",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p19",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p19",
+          "originalRevision": 1,
+          "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-xu-shan-younger-sister-unknown",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p20",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p20",
+          "originalRevision": 1,
+          "originalSha256": "287dd38c1265ac88a175929200adbcf2a82d7506d5795b9ec5da920e864e487f",
+          "start": 0,
+          "end": 149
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p21",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p21",
+          "originalRevision": 1,
+          "originalSha256": "107187db2fca29d4d48b2a716208b99bc4a5ac415dd861c4634f6833e28d5d5d",
+          "start": 0,
+          "end": 203
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v009-p22",
+      "chapterId": "shiguochunqiu-v009",
+      "title": "卷 9 · 吴列传（王稔、曹筠、徐善等） · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v009-p22",
+          "originalRevision": 1,
+          "originalSha256": "4ad91ba7d81239df2d45ac46e4179fb05c7c54639798a2163d0959d1b2581005",
+          "start": 0,
+          "end": 56
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p2",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p2",
+          "originalRevision": 1,
+          "originalSha256": "6c54e1e22f182539e83ef1ac8cea876072b010bf804493ae15b5d3b1630a4400",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p3",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p3",
+          "originalRevision": 1,
+          "originalSha256": "790d8716573186fa7933e7eeae0e514273188dc60d1f2b56ecb04a0b189640fa",
+          "start": 0,
+          "end": 159
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p4",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p4",
+          "originalRevision": 1,
+          "originalSha256": "bcd851913e8722c2b5649ec279574aed934c622c0a63acc2bf33dd2228cdb593",
+          "start": 0,
+          "end": 479
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p6",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p6",
+          "originalRevision": 1,
+          "originalSha256": "3e14c0d693679d730e7a4b6070f6ba25ec65471e23eb0357b8f78be758474a1f",
+          "start": 0,
+          "end": 235
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p8",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p8",
+          "originalRevision": 1,
+          "originalSha256": "ce2e9fded05a394fc132f649abb4024f95279258217dff4a95dfa14add54b111",
+          "start": 0,
+          "end": 172
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p9",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p9",
+          "originalRevision": 1,
+          "originalSha256": "ec3db8ec59672fc10f3520c3e4a42ab0f52ce0cde039eeb353f7faa3340882bf",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-longyan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p10",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p10",
+          "originalRevision": 1,
+          "originalSha256": "f89bfd1dcfb384c1bb2c30e47974d39b094d8cf2eee8d02389daead089994c4d",
+          "start": 0,
+          "end": 145
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p14",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p14",
+          "originalRevision": 1,
+          "originalSha256": "850c8cb9f24f51a2f41fe07497c4f0c88f243e9370233577eac1b341de8a846b",
+          "start": 0,
+          "end": 247
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p18",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p18",
+          "originalRevision": 1,
+          "originalSha256": "adeca898ddfbf53553a086a53434c464bdb868317bcf96abf77ddd6ff17cde4e",
+          "start": 0,
+          "end": 150
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-yanshou-wife-wang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v012-p19",
+      "chapterId": "shiguochunqiu-v012",
+      "title": "卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等） · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v012-p19",
+          "originalRevision": 1,
+          "originalSha256": "a1dbcceaa286867d6ce599165c0d4fd54aa18b25f1eab709fdf6512aa7a01d52",
+          "start": 0,
+          "end": 413
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-shiguochunqiu-v013-p2",
       "chapterId": "shiguochunqiu-v013",
       "title": "卷 13 · 吴列传（田頵、张颢、徐温及诸子） · 第 2 段",
@@ -108298,6 +113602,10 @@
         {
           "personId": "wu-xu-wen-chen-furen",
           "kind": "mention"
+        },
+        {
+          "personId": "wu-cao-yun-wife-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -108389,6 +113697,1202 @@
       "people": [
         {
           "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p4",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p4",
+          "originalRevision": 1,
+          "originalSha256": "5b64c12607ae557d21041e85b94fc1ce045efd5ff4aebb48f526b1406f467a0e",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p5",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p5",
+          "originalRevision": 1,
+          "originalSha256": "f97bc366522bed47a069f9d3aeffdfeca4903382e42b04475fc66477a7fd8b14",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p6",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p6",
+          "originalRevision": 1,
+          "originalSha256": "b79f8a39f0ba68e4c011022a727a923bc38eca4c4a075eacdccd6af789404009",
+          "start": 0,
+          "end": 17
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-shenzhi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p8",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p8",
+          "originalRevision": 1,
+          "originalSha256": "d78b95de41683d9bc582a1e9fc7cdcc5932871a54fb4b2fadfe4a8b1be79a000",
+          "start": 0,
+          "end": 64
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p10",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p10",
+          "originalRevision": 1,
+          "originalSha256": "04783a52cb107121e368937c3b41ec86ebd455c27cad34bec28ac8766626d8ce",
+          "start": 0,
+          "end": 91
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p12",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p12",
+          "originalRevision": 1,
+          "originalSha256": "0ac166d0b1f8d50019bc0ac22f3ef30acaafd10859f627a16c652a288956927a",
+          "start": 0,
+          "end": 404
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p13",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p13",
+          "originalRevision": 1,
+          "originalSha256": "5afd6a932d414a66c1eda13dc2234585ff2b17e0cadb497dca82ad15294626b0",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p15",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p15",
+          "originalRevision": 1,
+          "originalSha256": "6c4eefba6d04f90e2d5c4a99fa11e984285296e03306dc262529ccba1e66a81b",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p16",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p16",
+          "originalRevision": 1,
+          "originalSha256": "95ebc6bb8b4dc4a89b0bf0323cef40e959c7535589421acb7f45b83c477e7d67",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p18",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p18",
+          "originalRevision": 1,
+          "originalSha256": "66d7b9b341ecaa53d8ea5220a1859d5aa74da27af85f63d4357298a208dbe0d2",
+          "start": 0,
+          "end": 57
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p21",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p21",
+          "originalRevision": 1,
+          "originalSha256": "c73e62b2d11329a167ff67bd8382794ca03c81e6832441510e5a4974b77cbf72",
+          "start": 0,
+          "end": 446
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-han",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "mention"
+        },
+        {
+          "personId": "liang-zhu-wen-princess-puning",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p22",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p22",
+          "originalRevision": 1,
+          "originalSha256": "0dda56c9af15d2c54123543ddc976c6e4af371cba28894aead9a265470120262",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "people": [
+        {
+          "personId": "ma-yin",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p23",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p23",
+          "originalRevision": 1,
+          "originalSha256": "ba39758d13da77ade82c28ca0f6ff89dca6dc13c2804ed00c80d623ac2e15b1d",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p24",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p24",
+          "originalRevision": 1,
+          "originalSha256": "842c3e50b4ac2f9b47ffc31f497947e75000c469c0b973f24e1a944176985236",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-youqian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p25",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p25",
+          "originalRevision": 1,
+          "originalSha256": "5d7be918aeb7b27be5a943b36b23fcf978c42bfae45f1d38a7c80a5f6b01a728",
+          "start": 0,
+          "end": 359
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p26",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p26",
+          "originalRevision": 1,
+          "originalSha256": "ef60b5b7f5c62953110641afd8e6d6dac1c0dd34f73ab06595c9dd039eb0cc68",
+          "start": 0,
+          "end": 93
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "yan-bao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p28",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p28",
+          "originalRevision": 1,
+          "originalSha256": "acdbdeba57703523de2d1b7e39d2155f68d9b7c5d7e2b81a8c46acdff436ab22",
+          "start": 0,
+          "end": 817
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p31",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p31",
+          "originalRevision": 1,
+          "originalSha256": "c660913a93fc001d101f73d434c1fc4dfb8f3c700a149831875f46a2a42c22a7",
+          "start": 0,
+          "end": 236
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p33",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p33",
+          "originalRevision": 1,
+          "originalSha256": "4ce1f6c6b693349127edc083790f806af3f05d880277a9a26455ad34a6d7c5dc",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p39",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 39 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p39",
+          "originalRevision": 1,
+          "originalSha256": "a9e2ad044c3ffc826ceb613f6f073c45f27e23d05b5d4b68a15a6121f9326d75",
+          "start": 0,
+          "end": 45
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p41",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 41 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p41",
+          "originalRevision": 1,
+          "originalSha256": "ad4c31228007fff53d71270ebbeb4b54cb7fb7443625ebc99f24c615c08a95cd",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p46",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 46 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p46",
+          "originalRevision": 1,
+          "originalSha256": "94eb7d914604b3d30804dbfed898881e47121311f9c403e02b7356e8acc3b3a0",
+          "start": 0,
+          "end": 439
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-daughter-binguo",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p47",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 47 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p47",
+          "originalRevision": 1,
+          "originalSha256": "3e4135b4da9fe25590652343d7f2b863e63e0e0e042ed8770c586dc9dbbc2c7a",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p48",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 48 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p48",
+          "originalRevision": 1,
+          "originalSha256": "1591c23642c8f92c759b77f588234eb31583a988d7ec7becfa2906d8b0a66929",
+          "start": 0,
+          "end": 397
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-cunjing",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-xun-yonghe",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        },
+        {
+          "personId": "liang-zhu-wen-consort-zhang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p52",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 52 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p52",
+          "originalRevision": 1,
+          "originalSha256": "97b9f26554c03eeb61412f52430699a9f9bf5f47df1875b837709c3c82b234a1",
+          "start": 0,
+          "end": 292
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunzhang",
+          "kind": "record"
+        },
+        {
+          "personId": "ge-congzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "zhang-guihou",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p55",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 55 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p55",
+          "originalRevision": 1,
+          "originalSha256": "96201e562bbadec8aef2174898033f5a219acc8b2518f1d43276d47017549380",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p56",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 56 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p56",
+          "originalRevision": 1,
+          "originalSha256": "16d8e34ab49b4d7d525441b9aa899f931fea4885c9328711087a516142a64f09",
+          "start": 0,
+          "end": 217
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-cunjin",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-cunshen",
+          "kind": "record"
+        },
+        {
+          "personId": "shi-shucong",
+          "kind": "record"
+        },
+        {
+          "personId": "ding-hui",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p57",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 57 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p57",
+          "originalRevision": 1,
+          "originalSha256": "34a6819cbd7751b9ba00b205456e7b5071e9dda1ddb0d525d2ed3565d4921ee9",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p58",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 58 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p58",
+          "originalRevision": 1,
+          "originalSha256": "9062388785c4027ab660f1a5f27b99a473ce8eb9be63dd32a70354601c01efb9",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p60",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 60 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p60",
+          "originalRevision": 1,
+          "originalSha256": "aac5ca8f3ca17fd9e6c736c311ea8f380d3502480b70643c362858af705a25c4",
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p62",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 62 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p62",
+          "originalRevision": 1,
+          "originalSha256": "5944f4b7f340b0a22e08d5792ac14ebd70f5aabb39e95392546c80d94aa28d3d",
+          "start": 0,
+          "end": 43
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "zhou-dewei",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p63",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 63 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p63",
+          "originalRevision": 1,
+          "originalSha256": "036557e59594b7ebc14bae59d02ead89c82d0d0cb55bf95b1415724c31feb1a6",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "ding-hui",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p64",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 64 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p64",
+          "originalRevision": 1,
+          "originalSha256": "605c73156e2e8f8117fb1d62d59f9b31a9382cd1d415e1cd2556a23d8ee6996a",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p65",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 65 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p65",
+          "originalRevision": 1,
+          "originalSha256": "80aba21eb364d8d5324fff2313785412b42b54223ab08d55cca12faad2916228",
+          "start": 0,
+          "end": 289
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p68",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 68 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p68",
+          "originalRevision": 1,
+          "originalSha256": "4224cf00c37f603e3d0e16146a21feb6625dd6990daa3d1c5b2f25502173c048",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "qian-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p69",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 69 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p69",
+          "originalRevision": 1,
+          "originalSha256": "a79535bad86c1520646efd5a2ca9122628221af575aff7aed209cc7bccfdac5e",
+          "start": 0,
+          "end": 288
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p70",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 70 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p70",
+          "originalRevision": 1,
+          "originalSha256": "21f3f04c73617e59b68b642ac2673426e921d522274c1594bd7e36a1060d6a08",
+          "start": 0,
+          "end": 18
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p71",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 71 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p71",
+          "originalRevision": 1,
+          "originalSha256": "323f0edacaeb2d96922f9a0d5dd513ddd658b392fdc389ca1e98141aee9ce317",
+          "start": 0,
+          "end": 154
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p72",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 72 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p72",
+          "originalRevision": 1,
+          "originalSha256": "f7e0dc98712bcd6a05b7f596c5e67127a5d076d0458adeb7b876c34a2b383bb1",
+          "start": 0,
+          "end": 301
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p73",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 73 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p73",
+          "originalRevision": 1,
+          "originalSha256": "a97e31e84e0f3bf8a5b98f7e1c70d649338a4ca4ff0bb5dedbbeb41179e37a52",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p74",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 74 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p74",
+          "originalRevision": 1,
+          "originalSha256": "ad6d20e63103dac5d5126eae75e8875ceef74e65bad484ddd40d24636954b490",
+          "start": 0,
+          "end": 265
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p75",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 75 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p75",
+          "originalRevision": 1,
+          "originalSha256": "f822573f5c2723d8d5e6bd4ddba7f025788a274670ac6ca62808ac5b75fe5765",
+          "start": 0,
+          "end": 80
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p77",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 77 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p77",
+          "originalRevision": 1,
+          "originalSha256": "5c10dbb58c33f850a641368ce57be3593a2f94a539fe76bb0ab9358cb76847d7",
+          "start": 0,
+          "end": 233
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p78",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 78 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p78",
+          "originalRevision": 1,
+          "originalSha256": "c381aed9f7b2ffc440d82c71adcca1aa8a457e2980178b61128241e10921e828",
+          "start": 0,
+          "end": 91
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p80",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 80 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p80",
+          "originalRevision": 1,
+          "originalSha256": "fd39d0156e8db318985ba236fd85938a2c7b41e4344554a63cf2f6f142ac76d4",
+          "start": 0,
+          "end": 177
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "fu-daozhao",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-huaiying",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p82",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 82 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p82",
+          "originalRevision": 1,
+          "originalSha256": "902fd785edff482c7ec8c98a23bab61b3d38ca3bbedf0b0d774e8b8bb1849011",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p84",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 84 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p84",
+          "originalRevision": 1,
+          "originalSha256": "f287d89263ad0e1e00fcedea40023ca33d03b912175cfb893c89720c9a344a56",
+          "start": 0,
+          "end": 212
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p86",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 86 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p86",
+          "originalRevision": 1,
+          "originalSha256": "44162d52ef0ad2aa2670a0a10cf4b59b6d9fd512a6e886876083f7c789222d11",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "people": [
+        {
+          "personId": "qian-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p87",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 87 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p87",
+          "originalRevision": 1,
+          "originalSha256": "142b1aab554671b1f441cb5a1c39930a4ccecd0532e1c84b28ca6a828d1b77c8",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v262-p88",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 88 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p88",
+          "originalRevision": 1,
+          "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-wei-quanfeng-daughter-unknown",
           "kind": "record"
         }
       ]
@@ -116798,6 +123302,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "wu-zhu-jin-wife-tao",
+          "kind": "record"
         }
       ]
     },
@@ -117374,6 +123882,10 @@
         {
           "personId": "qian-yuanguan",
           "kind": "record"
+        },
+        {
+          "personId": "wu-peng-yanzhang-wife-unknown",
+          "kind": "record"
         }
       ]
     },
@@ -117441,6 +123953,26 @@
       "people": [
         {
           "personId": "qian-yuanguan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v270-p83",
+      "chapterId": "tongjian-v270",
+      "title": "卷 270 · 后梁纪5 · 第 83 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v270-p83",
+          "originalRevision": 1,
+          "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-cao-yun-wife-unknown",
           "kind": "record"
         }
       ]
@@ -127393,6 +133925,10 @@
       "people": [
         {
           "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-wang-chuanzheng-wife-unnamed",
           "kind": "record"
         }
       ]

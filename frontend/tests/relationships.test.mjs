@@ -446,3 +446,77 @@ test('adding a role preserves every original canonical graph edge direction and 
   person.props.onClick(); assert.deepEqual(graph.opened, ['guo-wei']);
   assert.match(graphText(before.find(e => e.type === 'figcaption')), /虚线框为关联人物，当前没有独立传记/);
 });
+
+test('real sibling kinship paths are undirected in both endpoint graphs and their evidence cards', () => {
+  const ids = [
+    'wei-quanfeng-unnamed-elder-sister',
+    'zhu-wen-wanan-siblings',
+    'tang-li-siyuan-princess-yongning-xingping-sisters',
+    'tang-li-chongjun-sister-brother',
+    'ma-xifan-ma-xiguang-kinship-ten-kingdoms',
+    'qian-hongcong-qian-hongchu-kinship-ten-kingdoms',
+    'liu-jien-liu-jiyuan-kinship-ten-kingdoms',
+    'wang-yanxi-wang-yanzheng-kinship-ten-kingdoms',
+    'li-conghou-li-congke-sibling',
+    'xu-xuan-xu-kai-kinship',
+  ];
+  for (const id of ids) {
+    const fact = personRelationships.find(edge => edge.id === id);
+    assert.equal(fact?.kind, 'kinship', id);
+    for (const selectedPersonId of [fact.from, fact.to]) {
+      const elements = sourceRoleGraph({ selectedPersonId, includeRole: false }).render();
+      const edge = elements.find(e => e.key === id && e.props?.className === 'relationship-edge kind-kinship');
+      assert.ok(edge, `${id}: visible from ${selectedPersonId}`);
+      const line = graphElements(edge).find(e => e.props?.className === 'relationship-edge-line');
+      assert.match(line.props.d, /^M .* C /, `${id}: actual rendered path`);
+      assert.equal(line.props.markerEnd, undefined, `${id}: no arrow from ${selectedPersonId}`);
+      assert.doesNotMatch(edge.props['aria-label'], /指向/, id);
+      assert.match(graphText(graphElements(edge).find(e => e.type === 'title')), /↔/, id);
+      const card = elements.find(e => e.key === id && e.props?.className === 'relationship-list-item kind-kinship');
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-direction')), '↔', id);
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-label')), fact.label, id);
+    }
+  }
+  for (const options of [{ selectedPersonId: 'wu-wei-quanfeng', includeRole: false }, { selectedPersonId: sourceRoleFixture.id }]) {
+    const elements = sourceRoleGraph(options).render();
+    assert.match(graphText(elements.find(e => e.type === 'figcaption')), /兄弟姊妹、冲突和泛称亲属使用无箭头连线/);
+  }
+});
+
+test('real parent, adoption, service and in-law paths retain their direction while conflict stays undirected', () => {
+  for (const [id, directed] of [
+    ['wei-quanfeng-unnamed-daughter-father-daughter', true],
+    ['li-keyong-li-cunhao-adoption', true],
+    ['li-keyong-guo-chongtao-service', true],
+    ['wu-tian-jun-guo-congshi-brother-in-law', true],
+    ['liu-sheng-liu-bin-southern-han-conflict-ten-kingdoms', false],
+  ]) {
+    const fact = personRelationships.find(edge => edge.id === id);
+    assert.ok(fact, id);
+    for (const selectedPersonId of [fact.from, fact.to]) {
+      const elements = sourceRoleGraph({ selectedPersonId, includeRole: false }).render();
+      const edge = elements.find(e => e.key === id && e.props?.className === `relationship-edge kind-${fact.kind}`);
+      assert.ok(edge, id);
+      const line = graphElements(edge).find(e => e.props?.className === 'relationship-edge-line');
+      assert.equal(line.props.markerEnd, directed ? `url(#source-role-fixture-arrow-${fact.kind})` : undefined, id);
+      assert.equal(edge.props['aria-label'].includes('指向'), directed, id);
+      assert.equal(graphText(graphElements(edge).find(e => e.type === 'title')).includes('→'), directed, id);
+      const card = elements.find(e => e.key === id && e.props?.className === `relationship-list-item kind-${fact.kind}`);
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-direction')), directed ? '→' : '↔', id);
+    }
+  }
+});
+
+test('sibling direction recognizes qualified kinship labels without treating in-laws or actions as siblings', () => {
+  const { isRelationshipDirected } = sourceRoleGraph().exports;
+  for (const label of ['兄弟', '同母兄弟', '异母兄弟', '同母异父兄弟', '兄妹', '姐妹', '姊妹', '姐弟', '姊弟',
+    '兄弟（新史记载）', '兄弟，徐锴为弟', '兄妹（按源）', '同父异母姐妹']) {
+    assert.equal(isRelationshipDirected({ kind: 'kinship', label }), false, label);
+  }
+  for (const label of ['姻亲（妻弟）', '妻弟', '妹夫', '姐夫', '弑兄夺位', '兄弟共同出征']) {
+    assert.equal(isRelationshipDirected({ kind: 'kinship', label }), true, label);
+  }
+  assert.equal(isRelationshipDirected({ kind: 'service', label: '与兄弟共事' }), true);
+  assert.equal(isRelationshipDirected({ kind: 'adoption', label: '养父子' }), true);
+  assert.equal(isRelationshipDirected({ kind: 'conflict', label: '弑兄夺位' }), false);
+});

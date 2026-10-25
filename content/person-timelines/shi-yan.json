@@ -57,7 +57,54 @@
           "originalRevision": 1,
           "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
           "excerpt": "明年，與李承嗣率騎渡河援兗、鄆。"
+        },
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p24",
+          "originalRevision": 1,
+          "originalSha256": "c773f1a9dc7fd5fd4e0154b664831fb1272e060a28f0397acf1947addf9a3700",
+          "excerpt": "太祖攻兗州，朱瑾求救於晉，晉遣史儼等將兵數千救瑾，瑾敗，與儼等奔于淮南。"
         }
+      ],
+      "variants": [
+        {
+          "label": "十国春秋：同援兖的记载",
+          "sourceDate": "本源段不另定确日",
+          "summary": "本卷称李承嗣、史俨率五千骑救瑾；不据未独记月日的本段改原事件年代。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v008",
+              "paragraphId": "shiguochunqiu-v008-p3",
+              "originalRevision": 1,
+              "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+              "excerpt": "河東將李承嗣、史儼以騎兵五千救之。"
+            }
+          ]
+        },
+        {
+          "label": "《九国志》整体五千步骑与后段直名史俨",
+          "sourceDate": "援兖至乾宁四年间的叙次，未独各事年月",
+          "summary": "本源前说太原借五千步骑，后直名史俨、李承嗣同朱瑾求食；不据此称史俨一人率五千，亦不统一旧主证与春秋兵数。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p17",
+              "originalRevision": 1,
+              "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+              "excerpt": "二年春，梁祖將朱友恭攻瑾，塹其城守之。是時連歲交兵，四郊無耕織，瑄、瑾勢蹙。因間遣使乞師太原李克用，假步騎五千濟河，梁人退舍。"
+            },
+            {
+              "chapterId": "jiuguozhi-v002",
+              "paragraphId": "jiuguozhi-v002-p17",
+              "originalRevision": 1,
+              "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+              "excerpt": "四年正月，鄆州先下，瑾亦糧盡，與晉將李承嗣、史儼求軍食于野。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "本卷作数千援兵，十国春秋作五千骑；只补同援兖的源叙，不更改旧未确年或把数千视为精确独立计数。"
       ]
     },
     {
@@ -76,7 +123,40 @@
           "originalRevision": 1,
           "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
           "excerpt": "及朱瑾失守，與李承嗣等奔淮南。淮人比善水軍，不閑騎射，既得儼等，軍聲大振，尋挫汴軍於清口。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。儼累官滁州刺史。"
+        },
+        {
+          "chapterId": "old-v055",
+          "paragraphId": "old-v055-p12",
+          "originalRevision": 1,
+          "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+          "excerpt": "淮人館遇甚厚，妻孥第舍必推其甲，故儼等盡其死力。"
+        },
+        {
+          "chapterId": "new-v41",
+          "paragraphId": "new-v41-p24",
+          "originalRevision": 1,
+          "originalSha256": "c773f1a9dc7fd5fd4e0154b664831fb1272e060a28f0397acf1947addf9a3700",
+          "excerpt": "瑾敗，與儼等奔于淮南。晉王李克用遣人以書幣假道于匡凝，以聘于楊行密，求歸儼等。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p17",
+          "originalRevision": 1,
+          "originalSha256": "899fb135e957b7d803d81cfb8afa28d91148ed351f252e829cf7dcd7d68c01d8",
+          "excerpt": "四年正月，鄆州先下，瑾亦糧盡，與晉將李承嗣、史儼求軍食于野。梁將龎師古奄至城下，瑾將康懷貞率瑾子私以兖城送款，歸不得入，引承嗣諸軍將保沂州，爲其將尹處賓拒關不納。瑾狼狽將奔海上，復追之，迫乃渡淮，歸于行密。行密迎之于高郵，待以殊禮，立解所服玉帶爲贈，擇甲第，遺財帛鉅萬，表瑾領武寕軍節度、淮南行軍副使。"
         }
+      ],
+      "notes": [
+        "赐第舍姬妾属群体待遇；不推妻、子女或生母。滁州任官另列候选，不把同源夹引当复证。",
+        "本卷请求归还的名字为史俨等；请求不等于史俨已经返晋，不删既有与李承嗣同奔及最终未归材料。",
+        "本源点名史俨于求粮背景，后称李承嗣诸军，补朱瑾失兖、沂州拒纳、转淮的共同过程；不补史俨独立领军、所得宅帛或授官日期。"
       ]
     },
     {
@@ -101,6 +181,25 @@
         "start": 916,
         "end": 917
       }
+    },
+    {
+      "title": "官至滁州刺史",
+      "summary": "史俨在淮南累官至滁州刺史，具体任命年月未明。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v008",
+          "paragraphId": "shiguochunqiu-v008-p4",
+          "originalRevision": 1,
+          "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+          "excerpt": "儼累官滁州刺史。"
+        }
+      ],
+      "id": "shi-yan-chuzhou-appointment",
+      "sortOrder": 6
     }
   ]
 }

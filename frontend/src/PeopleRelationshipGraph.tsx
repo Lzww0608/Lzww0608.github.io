@@ -51,7 +51,7 @@ function nodeLabel(node: RelationshipNode): string {
 export function isRelationshipDirected(relationship: Pick<PersonRelationship, 'kind' | 'label'>,
   from?: RelationshipNode, to?: RelationshipNode): boolean {
   return !isSourceRole(from) && !isSourceRole(to) && relationship.kind !== 'conflict'
-    && relationship.label !== '兄弟'
+    && !(relationship.kind === 'kinship' && /^(?:(?:同|异)[父母])*(?:兄弟|兄妹|[姊姐][弟妹])(?:$|[（(，,]|亲属)/.test(relationship.label))
     && !(relationship.kind === 'kinship' && relationship.label.includes('亲属'));
 }
 
@@ -249,7 +249,7 @@ export function PeopleRelationshipGraph({
             </g>)}
           </svg>
         </div>
-        <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料称谓列出，同异未定；与其相关的连线使用无箭头形式，具体含义以关系标签和原文依据为准。宫职名单中的联系不表示君主亲自任命或任职起始。其他人物关系的箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将或前帝指向相关人物；兄弟、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>
+        <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料称谓列出，同异未定；与其相关的连线使用无箭头形式，具体含义以关系标签和原文依据为准。宫职名单中的联系不表示君主亲自任命或任职起始。其他人物关系的箭头按父辈、养育者、主将、施予者或前帝指向相关人物；给养表示施予者到受惠者，不表示任职或部属。兄弟姊妹、冲突和泛称亲属使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按父辈、养育者、主将、施予者或前帝指向相关人物；给养表示施予者到受惠者，不表示任职或部属。兄弟姊妹、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>
       </figure>
 
       <section className="relationship-evidence" aria-labelledby={`${elementId}-evidence-title`}>

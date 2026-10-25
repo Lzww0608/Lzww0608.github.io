@@ -8542,5 +8542,1231 @@
         "excerpt": "仁義以家屬保城樓，兵不敢登，召德誠曰：「汝可以委命。」且以愛妾贈之，乃抵弓矢就縛，斬于廣陵，蓋後頵死一年云。"
       }
     ]
+  },
+  {
+    "id": "wu-li-decheng-yang-wife",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-wife-yang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "两处同夫同封号辨认妻杨氏；不由此补她与宗女记载必同或必异，也不推子女生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "有子二十八人：建勳爲相，建封爲將，妻楊氏，封滕國君，當世榮焉。"
+      },
+      {
+        "title": "《南唐近事》 · 卷 2",
+        "chapterId": "nantangjinshi-v002",
+        "paragraphId": "nantangjinshi-v002-p33",
+        "originalRevision": 1,
+        "originalSha256": "fc0b3bbd6759fc2c82770e411a22942f1fe6276b179f0f9195cd1c34edd4ae02",
+        "excerpt": "王使女妓數人，與其妻滕國君同糚梳服飾，偕立庭中請辨良賤。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-jingda-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-jingda-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明言李德诚女嫁信王景达；女方生母与排行未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-li-jingda-li-decheng-daughter-spouses",
+    "from": "nantang-li-jingda",
+    "to": "wu-li-decheng-daughter-jingda-wife",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "原书明记先娶；氏南平诏令保留原婚姻，不补婚日。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "初，南唐信王景達先娶德誠女，先主復姓，有司以同姓非禮，先主制曰：「南平主，國之元老，昏不可離。信王妃可氏南平。」亦異數云。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-liu-first-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "碑文赵忠懿王即李德诚；前后两女依婚序区分，不补出生排行或生母。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐受禪，拜太師，封南平王，進封趙王。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐先主廢朝五日，諡曰忠懿。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-liu-later-wife-daughter",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "碑文两位夫人皆赵忠懿王女；不把前后婚序换作姊妹长幼。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐受禪，拜太師，封南平王，進封趙王。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "南唐先主廢朝五日，諡曰忠懿。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-liu-chongjun-first-li-wife",
+    "from": "nantang-liu-chongjun",
+    "to": "wu-li-decheng-daughter-liu-chongjun-first-wife",
+    "kind": "kinship",
+    "label": "前婚夫妻",
+    "note": "前夫人为碑文的婚序用语；不补她的死因、卒年或离异。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      }
+    ]
+  },
+  {
+    "id": "nantang-liu-chongjun-later-li-wife",
+    "from": "nantang-liu-chongjun",
+    "to": "wu-li-decheng-daughter-liu-chongjun-later-wife",
+    "kind": "kinship",
+    "label": "后婚夫妻",
+    "note": "后夫人称陇西郡君；不把八个儿子自动归为她所生。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "前夫人李氏，後夫人隴西郡君李氏，皆太師趙忠懿王女也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-yang-clan-marriage-role",
+    "from": "wu-li-decheng",
+    "to": "wu-yang-xingmi-clan-woman-li-decheng-wife-role",
+    "kind": "kinship",
+    "label": "宗女婚配记载",
+    "note": "来源限定的婚配角色，不表示已经证成与妻杨氏不同的自然人，也不反推杨行密亲生女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 7 · 吴臣列传",
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "鍠死，太祖義其人，妻以宗女。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-wife-threat-role-kinship-record",
+    "from": "wu-li-decheng",
+    "to": "wu-li-decheng-wife-threat-source-role",
+    "kind": "kinship",
+    "label": "妻称谓（威胁记载）",
+    "note": "妻称谓出于徐知训索女乐遭拒后的威胁话语；只关联来源中的婚姻称谓，未记夺妻实施，不表示已证成与妻杨氏或宗女角色不同的自然人。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p8",
+        "title": "《十国春秋》 · 卷 13 · 吴列传（田頵、张颢、徐温及诸子）",
+        "originalRevision": 1,
+        "originalSha256": "f4fbcba0cbc14d4b8f9cc3cad5abb72757d151af1565b93c294c284a375972a4",
+        "excerpt": "李德誠有女樂，知訓求之，德誠曰：「此輩皆有所生，且復年長，不足以接貴人，俟求少妙者進之。」知訓對德誠使者言曰：「吾殺德誠，并取其妻，亦易爾。」"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "威武節度使、知撫州李德誠有家妓數十，知訓求之，德誠遣使謝曰：「家之所有皆長年，或有子，不足以侍貴人，當更為公求少而美者。」知訓怒，謂使者曰：「會當殺德誠，並其妻取之！」"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-neifuren-li-decheng-greeting-role-dispatch",
+    "from": "li-bian",
+    "to": "nantang-neifuren-li-decheng-greeting-source-role",
+    "kind": "service",
+    "label": "遣迎劳记载",
+    "note": "本段南唐先主指李昪，记其遣内夫人迎劳李德诚。此为派遣行动的来源联系，不表示授官、首次任职或亲属婚配。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "title": "《十国春秋》 · 卷 7 · 吴列传（刘信、周本、李德诚等）",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "自洪州覲金陵，南唐先主遣內夫人逆勞于道，百官斑謁于都門。"
+      }
+    ]
+  },
+  {
+    "id": "wu-li-decheng-neifuren-greeting-role-record",
+    "from": "nantang-neifuren-li-decheng-greeting-source-role",
+    "to": "wu-li-decheng",
+    "kind": "service",
+    "label": "迎劳记载",
+    "note": "《十国春秋》记内夫人在李德诚从洪州入觐金陵途中迎劳；不把迎劳解释为与李德诚婚配，也不由单一称谓确定人数。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v007",
+        "paragraphId": "shiguochunqiu-v007-p12",
+        "title": "《十国春秋》 · 卷 7 · 吴列传（刘信、周本、李德诚等）",
+        "originalRevision": 1,
+        "originalSha256": "fd9f0c86a430fd3390fa2e303c845a663ac1206bd19b099d02afcf245838ac6b",
+        "excerpt": "自洪州覲金陵，南唐先主遣內夫人逆勞于道，百官斑謁于都門。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-wife-tao-marriage",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "kinship",
+    "label": "夫妻（淮南陶氏记载）",
+    "note": "按妻陶氏出拜及临刑记载限定；不因此替早年被纳为尼的妻填姓或断两者必不同人。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "瑾因延之中堂，伏壯士於戶內，出妻陶氏拜之。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
+  },
+  {
+    "id": "wu-tao-ya-tao-father-daughter",
+    "from": "wu-tao-ya",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "标准“传阳公雅”参同书四库“浔阳公雅”及陶雅封浔阳公记载辨认，不补母系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "陶，故傳陽公雅之女也。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-comforting-concubine-kinship",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-concubine-comforting-tao",
+    "kind": "kinship",
+    "label": "妾室（临刑劝语记载）",
+    "note": "只以本段其妾劝陶氏的称谓定位，不将她并入其他未名妾妓，也不推其生育关系或结局。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-qi-daughter-marriage-role",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-qi-kerang-daughter-marriage-source-role",
+    "kind": "kinship",
+    "label": "亲迎婚配记载",
+    "note": "来源限定婚配角色，不证明另有一位与早年为尼妻或淮南陶氏不同的自然妻子，也不将攻城行为赋予女方。",
+    "sources": [
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p4",
+        "title": "《旧五代史》 · 卷 13 · 梁列传",
+        "originalRevision": 1,
+        "originalSha256": "3f7914c9e0d432e41522a6b27f5aed2444760dba96d3305a6bfe9550f96e9daa",
+        "excerpt": "光啟中，瑾與兗州節度使齊克讓婚，瑾自鄆盛飾車服，私藏兵甲，以赴禮會。親迎之夜，甲士竊發，擄克讓，自稱留後。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "兗州節度使齊克讓其爲人，以女妻之。瑾行親迎，乃選壯士爲輿夫，伏兵於輿中，夜至兗，兵發，遂鹵克讓，自稱留後。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-envoy-concubine-role-record",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-envoy-concubine-source-role",
+    "kind": "service",
+    "label": "遣候记载",
+    "note": "表示朱瑾派遣通问的来源联系，不据家妓或爱妾的称谓断人数；被侵意图/强通及归诉分别按各书，不把同役其他女子合并。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "平盧節度使、同平章事、諸道副都統朱瑾遣家妓通候問於知訓，知訓強欲私之，瑾已不平。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "常以月旦遣愛妾候知訓，知訓強通之，妾歸自訴，瑾殊不平，屢勸高祖誅徐氏以去國患，高祖不能爲。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-farewell-singer-role-record",
+    "from": "zhu-jin-yanzhou",
+    "to": "wu-zhu-jin-farewell-singer-source-role",
+    "kind": "service",
+    "label": "命献歌记载",
+    "note": "表示辞别宴中命宠妓歌唱的来源联系，不据此增已证婚配或把桃氏、陶氏当作别名。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p38",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "originalRevision": 1,
+        "originalSha256": "9badca997e5b3ec2f91beb43bd897a4a1b1411541bc2026159fd2e808fbbd69c",
+        "excerpt": "寵妓有絕色。知訓過別瑾，瑾置酒，自捧觴，出寵妓使歌，以所愛馬為壽，知訓大喜。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "明日，知訓過瑾謝，瑾復置酒自捧觴，命寵妓以歌侑酒，且獻所愛馬爲壽。"
+      }
+    ]
+  },
+  {
+    "id": "wu-zhu-jin-concubine-comforting-tao-service",
+    "from": "wu-zhu-jin-concubine-comforting-tao",
+    "to": "wu-zhu-jin-wife-tao",
+    "kind": "service",
+    "label": "临刑劝慰",
+    "note": "只记妾对陶氏的临刑劝语；陶氏收泪就戮的动作不移给劝语者，不补她的具体死法或确日。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "《十国春秋》 · 卷 8",
+        "originalRevision": 1,
+        "originalSha256": "85aec116bcd874aafc75cb33b052a66897366754dc60b3c3ba62cf6181252327",
+        "excerpt": "瑾妻陶氏臨刑而泣，其妾曰：「何爲泣乎，今行見公矣！」陶氏收淚，欣然就戮。"
+      }
+    ]
+  },
+  {
+    "id": "li-chengsi-li-chan-father-son",
+    "from": "li-chengsi",
+    "to": "wu-li-chan",
+    "kind": "kinship",
+    "label": "父子；少子",
+    "note": "原文明确父子及少子称谓，不据此补母系或确切生年。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "禪，承嗣少子也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "li-chan-unnamed-wife-marriage",
+    "from": "wu-li-chan",
+    "to": "wu-li-chan-wife-unknown",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "以“禅妻卒”辨认婚配身份，未记婚期或妻姓；不从丈夫的李姓补成李氏。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "禪，承嗣少子也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p5",
+        "originalRevision": 1,
+        "originalSha256": "ba52896b0b078535ba0f5c8172fbcf73beec7793fa4bbbefdffb7806eb8cd200",
+        "excerpt": "是年禪妻卒，輀車出入之路，卽飛翔所膩處也。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "li-chengsi-received-women-source-link",
+    "from": "li-chengsi",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "受赐记载／来源联系",
+    "note": "此联系仅指原句合叙的群体来源语境，不确定李承嗣分得任何具体一女或人数，不作独立婚配或任职。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "shi-yan-received-women-source-link",
+    "from": "shi-yan",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "受赐记载／来源联系",
+    "note": "此联系仅指原句合叙的群体来源语境，不确定史俨分得任何具体一女或人数；旧史“妻孥”另按原书保留。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "old-v055",
+        "paragraphId": "old-v055-p12",
+        "originalRevision": 1,
+        "originalSha256": "74fe662af8cd3efc9b9045de8e318cca174c63608d767951019c5275da6ccbab",
+        "excerpt": "淮人館遇甚厚，妻孥第舍必推其甲，故儼等盡其死力。",
+        "title": "《旧五代史》 · 卷 55 · 唐列传"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-bestowed-women-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-li-chengsi-shi-yan-received-women-source-role",
+    "kind": "service",
+    "label": "择赐记载／来源联系",
+    "note": "本段太祖为杨行密，原书明确为择赐者；这里只保群体来源联系，不把赐予写成某一女子的婚姻、任命或宫职。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p4",
+        "originalRevision": 1,
+        "originalSha256": "113eb3c91987d2fdf279d14b13e229fd58519eb54c78281fe071cf47bea642ad",
+        "excerpt": "太祖待承嗣及儼甚厚，第舍、姬妾咸擇其尤者賜之，故二人爲太祖父子盡力，屢立功，竟先後死，不復歸。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "peng-yanzhang-unnamed-wife-marriage",
+    "from": "wu-peng-yanzhang",
+    "to": "wu-peng-yanzhang-wife-unknown",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "以彭彦章传末“稟其妻子終身”辨认婚家，未载婚期、妻姓或唯一配偶情况。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "peng-yanzhang-children-provision-source-link",
+    "from": "wu-peng-yanzhang",
+    "to": "wu-peng-yanzhang-children-provision-source-role",
+    "kind": "service",
+    "label": "子女受廪记载／来源联系",
+    "note": "仅指原句中的子女群体来源，保留其与彭彦章的家属语境，不给未名成员分配人数、性别或生母。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "yang-longyan-peng-yanzhang-wife-provision",
+    "from": "yang-longyan",
+    "to": "wu-peng-yanzhang-wife-unknown",
+    "kind": "service",
+    "label": "终身供养",
+    "note": "《十国春秋》将命给养的动作记于高祖杨隆演；《通鉴》作吴人处置。这里只记命供廪与受惠，不表示任官、部将或养育关系，也不作婚配或妻亲自支配半份家资。高祖是后来追尊的庙号，不将杨隆演生前称作皇帝。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p29",
+        "originalRevision": 1,
+        "originalSha256": "d51b30195f821da782769b676afdbac2f8d6bb5c4203f9abab631fa7582960db",
+        "excerpt": "弟溥立，僭號，追尊為高祖宣皇帝，陵曰肅陵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "yang-longyan-peng-yanzhang-children-provision-source-link",
+    "from": "yang-longyan",
+    "to": "wu-peng-yanzhang-children-provision-source-role",
+    "kind": "service",
+    "label": "供廪记载／来源联系",
+    "note": "与“稟其妻子終身”中的子女群体相连，只保留有据供养来源，不表示已逐个辨认任何成员，亦不作宫职或任命。所称高祖为杨隆演的身后追尊庙号。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p6",
+        "originalRevision": 1,
+        "originalSha256": "f3e062fca181885aa3ec1fdee15ad1c791259ecbbfa41c1e3990b2d57b486fb5",
+        "excerpt": "彭彥章，廬陵人，吉州刺史𤣳之弟也。天祐初，彥章爲袁州刺史，與撫州危全諷等連兵攻洪州。大將周本既擊敗全諷，遂乘勝攻袁州，執彥章以歸，高祖署爲百勝軍使。武義元年，吳越兵自東洲入寇，命彥章與裨將陳汾拒之。已而戰浪山江，彥章師敗績，汾擁兵不之救，彥章死焉。高祖爲誅汾，籍沒家貲，命以其半賜彥章家，稟其妻子終身。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p77",
+        "originalRevision": 1,
+        "originalSha256": "9869fbd78ae681b5e9708ab2018b7ed3ff63510a097416145a6cfd158d982d82",
+        "excerpt": "吳人誅汾，籍沒家貲，以其半賜彥章家，稟其妻子終身。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p29",
+        "originalRevision": 1,
+        "originalSha256": "d51b30195f821da782769b676afdbac2f8d6bb5c4203f9abab631fa7582960db",
+        "excerpt": "弟溥立，僭號，追尊為高祖宣皇帝，陵曰肅陵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      }
+    ]
+  },
+  {
+    "id": "wei-quanfeng-unnamed-daughter-father-daughter",
+    "from": "wu-wei-quanfeng",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "依婚议中明确的其女辨认父女，不补生母、兄弟姊妹或女方名讳。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      },
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p18",
+        "originalRevision": 1,
+        "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+        "excerpt": "全諷聞之，明日乃亦聽命，請以女妻傳子匡時。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "tongjian-v262",
+        "paragraphId": "tongjian-v262-p88",
+        "originalRevision": 1,
+        "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+        "excerpt": "全諷聞之，謝罪聽命，以女妻傳子匡時。",
+        "title": "《资治通鉴》 · 卷 262 · 唐纪七十八"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p10",
+        "originalRevision": 1,
+        "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+        "excerpt": "全諷聞之，明日，乃亦聽命，請以女妻匡時。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      }
+    ]
+  },
+  {
+    "id": "zhong-kuangshi-wei-daughter-marriage",
+    "from": "wu-zhong-kuangshi",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "kinship",
+    "label": "婚家；分源记请婚、许婚与嫁女",
+    "note": "《通鉴》直接记危全讽以女嫁钟匡时；新史、十国春秋仅记请求，九国志另有父亲钟传应允。关系说明不将四书一律写成成婚仪礼的记录，不补子女或唯一配偶。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v262",
+        "paragraphId": "tongjian-v262-p88",
+        "originalRevision": 1,
+        "originalSha256": "b0d917f09b2d08210ea53ce8d0b5705ff0652bfafd8b0672b58299040a0f3441",
+        "excerpt": "全諷聞之，謝罪聽命，以女妻傳子匡時。",
+        "title": "《资治通鉴》 · 卷 262 · 唐纪七十八"
+      },
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p18",
+        "originalRevision": 1,
+        "originalSha256": "f44bf91e16176164857061be8d7af31e28cc2ba46655555fe47f975388fb16fa",
+        "excerpt": "全諷聞之，明日乃亦聽命，請以女妻傳子匡時。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p10",
+        "originalRevision": 1,
+        "originalSha256": "0fe39c62c011a1f75a802d03a8e0d8771e25e0529b726c1a94db3b0489930284",
+        "excerpt": "全諷聞之，明日，乃亦聽命，請以女妻匡時。",
+        "title": "《十国春秋》 · 卷 8 · 吴列传（朱瑾、李承嗣等）"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "zhong-chuan-zhong-kuangshi-father-son",
+    "from": "wu-zhong-chuan",
+    "to": "wu-zhong-kuangshi",
+    "kind": "kinship",
+    "label": "父子；九国志称长子",
+    "note": "新史明确钟传之子匡时，九国志婚事称长子；不把钟传养子延规合并为匡时。",
+    "sources": [
+      {
+        "chapterId": "new-v41",
+        "paragraphId": "new-v41-p19",
+        "originalRevision": 1,
+        "originalSha256": "e7c05a8039d604be38691140617aecfb678d9b7ed1e5800f69a31fdc15323110",
+        "excerpt": "天祐三年，傳卒，子匡時自稱留後，請命于唐。",
+        "title": "《新五代史》 · 卷 41 · 杂传第二十九"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "zhong-chuan-wei-daughter-marriage-consent",
+    "from": "wu-zhong-chuan",
+    "to": "wu-wei-quanfeng-daughter-unknown",
+    "kind": "service",
+    "label": "答应婚约",
+    "note": "仅记钟传在危全讽请婚后答应的动作与具体婚家对象；不表示女方任官、主从、收养或由他直接执行婚礼。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "翌日，全諷聞之，遣使謝罪聽命，請以其女嫁傳之長子匡時。傳許之，乃盟而還。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "wei-quanfeng-unnamed-elder-sister",
+    "from": "wu-wei-quanfeng-sister-unknown",
+    "to": "wu-wei-quanfeng",
+    "kind": "kinship",
+    "label": "姊弟",
+    "note": "本传以其姊保护初生危全讽辨认姐姐与弟弟；不推同母、母系或其他失载家庭成员。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p9",
+        "originalRevision": 1,
+        "originalSha256": "6821fa63363c8f8c772c57eb3720353973fc0acd32e4799d6fd9004883e6b485",
+        "excerpt": "初生赤而毛，醜狀駭人，父母欲勿舉，其姊保護之，僅而得全。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yanshou-younger-sister-jia-wife",
+    "from": "wu-zhu-yanshou",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "九国志明确称延寿以妹嫁贾铎之子；不推同母。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "jia-kuanghao-zhu-yanshou-sister-marriage",
+    "from": "wu-jia-kuanghao",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "婚配依九国志具体嫁妹记载；未载婚日、仪礼、子女或唯一配偶。十国春秋仅记许婚，不据其独立补定双方。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "jia-duo-jia-kuanghao-father-son",
+    "from": "wu-jia-duo",
+    "to": "wu-jia-kuanghao",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "九国志称贾铎之子匡浩，通鉴称贾匡浩、公铎之子；十国春秋明确贾公铎又作贾铎。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      },
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p69",
+        "originalRevision": 1,
+        "originalSha256": "52f33ec51b3a7fdefeeabf2af63ee8c88593f2bc732b8122afd90e944605ef13",
+        "excerpt": "匡浩，公鐸之子也。",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4"
+      },
+      {
+        "chapterId": "shiguochunqiu-v006",
+        "paragraphId": "shiguochunqiu-v006-p12",
+        "originalRevision": 1,
+        "originalSha256": "381745727056d2c93ba1c04936a76915caf22a6513cb091978de8c40b1e5c915",
+        "excerpt": "賈公鐸，〈九國志作賈鐸。〉上蔡人也。",
+        "title": "《十国春秋》 · 卷 6 · 吴列传（柴再用、秦裴、贾公铎等）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yanshou-elder-and-younger-sisters",
+    "from": "wu-yang-xingmi-wife-zhu",
+    "to": "wu-zhu-yanshou-sister-jia-kuanghao-wife",
+    "kind": "kinship",
+    "label": "姊妹",
+    "note": "十国春秋称杨行密妻朱氏为朱延寿姊，九国志称贾铎子匡浩所娶为朱延寿妹，据具体同一兄弟辨认两位姊妹；不补同母关系，不把两人的婚配或结局合并。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p3",
+        "originalRevision": 1,
+        "originalSha256": "9dc080c100e71da6ef5fdab1ae3a628124de9cf55678647c53b7bf482ec9485d",
+        "excerpt": "夫人朱氏，本國節度使延壽姊。",
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主"
+      },
+      {
+        "chapterId": "jiuguozhi-v002",
+        "paragraphId": "jiuguozhi-v002-p7",
+        "originalRevision": 1,
+        "originalSha256": "c317c5fd8dd7bc095619a9e0addc58c8d08037187c7ef5042502d95592ef35e1",
+        "excerpt": "鐸乃請盟，延壽以妹妻其子匡浩，行密復授鐸左監門衛將軍。",
+        "title": "《九国志》 · 卷 2 · 吴人物列传"
+      }
+    ]
+  },
+  {
+    "id": "cao-yun-unnamed-wife-marriage",
+    "from": "wu-cao-yun",
+    "to": "wu-cao-yun-wife-unknown",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "据曹筠传及妻子获赦厚遇的连续记载限定婚家；不补婚日、妻姓或唯一配偶。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+        "excerpt": "曹筠，仕高祖爲馬軍指揮使。衣錦軍之役，筠叛奔吳越，徐温厚遇其妻子，且招之曰：「吾使汝不得志而去，汝無以妻子爲念。」武義元年，吳越兵敗于香灣，筠防乘勢復歸，温自數昔日不用筠防言者三，而不問筠去來之罪，歸其田宅，復其軍職。未幾，筠內媿卒。",
+        "title": "《十国春秋》 · 卷 9"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p44",
+        "originalRevision": 1,
+        "originalSha256": "7af181d69469394107fc20fcc04d4e850074dd0a474bf2e2eb17dbfe65a2e478",
+        "excerpt": "十年，遣招討使李濤攻越，戰于臨安，裨將曹筠奔于越，濤敗被執。溫間遣人語筠曰：「吾用汝為將，汝軍有求，吾不能給，是吾過也。」赦筠妻子不誅，厚遇之。秋，越人攻毗陵，溫戰于無錫，筠感溫前言，臨戰奔歸，遂敗越兵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      },
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "十年，遣招討使李儔攻吳越，裨將曹荺往奔，温問遣人語荺曰：「吾用汝爲將，汝軍有求，吾不能給，是吾過也。」赦荺妻子不誅，厚遇之。是秋，吳越攻常州，温戰于無鷗，荺感前言，奔歸，遂敗吳越兵。",
+        "title": "《十国春秋》 · 卷 13"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p83",
+        "originalRevision": 1,
+        "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+        "excerpt": "初，錦衣之役，吳馬軍指揮曹筠叛奔吳越，徐溫赦其妻子，厚遇之，遣間使告之曰：「使汝不得志而去，吾之過也，汝無以妻子為念。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "cao-yun-children-pardon-source-link",
+    "from": "wu-cao-yun",
+    "to": "wu-cao-yun-children-pardon-source-role",
+    "kind": "service",
+    "label": "子女获赦记载／来源联系",
+    "note": "仅保留原句中的子女群体与曹筠婚家的来源联系，不逐个辨认成员，不推人数、生母、任官或宫职。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+        "excerpt": "曹筠，仕高祖爲馬軍指揮使。衣錦軍之役，筠叛奔吳越，徐温厚遇其妻子，且招之曰：「吾使汝不得志而去，汝無以妻子爲念。」武義元年，吳越兵敗于香灣，筠防乘勢復歸，温自數昔日不用筠防言者三，而不問筠去來之罪，歸其田宅，復其軍職。未幾，筠內媿卒。",
+        "title": "《十国春秋》 · 卷 9"
+      },
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p44",
+        "originalRevision": 1,
+        "originalSha256": "7af181d69469394107fc20fcc04d4e850074dd0a474bf2e2eb17dbfe65a2e478",
+        "excerpt": "十年，遣招討使李濤攻越，戰于臨安，裨將曹筠奔于越，濤敗被執。溫間遣人語筠曰：「吾用汝為將，汝軍有求，吾不能給，是吾過也。」赦筠妻子不誅，厚遇之。秋，越人攻毗陵，溫戰于無錫，筠感溫前言，臨戰奔歸，遂敗越兵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      },
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "十年，遣招討使李儔攻吳越，裨將曹荺往奔，温問遣人語荺曰：「吾用汝爲將，汝軍有求，吾不能給，是吾過也。」赦荺妻子不誅，厚遇之。是秋，吳越攻常州，温戰于無鷗，荺感前言，奔歸，遂敗吳越兵。",
+        "title": "《十国春秋》 · 卷 13"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p83",
+        "originalRevision": 1,
+        "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+        "excerpt": "初，錦衣之役，吳馬軍指揮曹筠叛奔吳越，徐溫赦其妻子，厚遇之，遣間使告之曰：「使汝不得志而去，吾之過也，汝無以妻子為念。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      }
+    ]
+  },
+  {
+    "id": "xu-wen-cao-yun-wife-pardon-treatment",
+    "from": "wu-xu-wen",
+    "to": "wu-cao-yun-wife-unknown",
+    "kind": "service",
+    "label": "赦免厚待",
+    "note": "徐温为赦免并厚待的施惠者，妻为受惠者；不是任官、部将、养育或婚配关系，也不把男方田宅军职分给妻。",
+    "sources": [
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p44",
+        "originalRevision": 1,
+        "originalSha256": "7af181d69469394107fc20fcc04d4e850074dd0a474bf2e2eb17dbfe65a2e478",
+        "excerpt": "十年，遣招討使李濤攻越，戰于臨安，裨將曹筠奔于越，濤敗被執。溫間遣人語筠曰：「吾用汝為將，汝軍有求，吾不能給，是吾過也。」赦筠妻子不誅，厚遇之。秋，越人攻毗陵，溫戰于無錫，筠感溫前言，臨戰奔歸，遂敗越兵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      },
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "十年，遣招討使李儔攻吳越，裨將曹荺往奔，温問遣人語荺曰：「吾用汝爲將，汝軍有求，吾不能給，是吾過也。」赦荺妻子不誅，厚遇之。是秋，吳越攻常州，温戰于無鷗，荺感前言，奔歸，遂敗吳越兵。",
+        "title": "《十国春秋》 · 卷 13"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p83",
+        "originalRevision": 1,
+        "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+        "excerpt": "初，錦衣之役，吳馬軍指揮曹筠叛奔吳越，徐溫赦其妻子，厚遇之，遣間使告之曰：「使汝不得志而去，吾之過也，汝無以妻子為念。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      },
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+        "excerpt": "曹筠，仕高祖爲馬軍指揮使。衣錦軍之役，筠叛奔吳越，徐温厚遇其妻子，且招之曰：「吾使汝不得志而去，汝無以妻子爲念。」武義元年，吳越兵敗于香灣，筠防乘勢復歸，温自數昔日不用筠防言者三，而不問筠去來之罪，歸其田宅，復其軍職。未幾，筠內媿卒。",
+        "title": "《十国春秋》 · 卷 9"
+      }
+    ]
+  },
+  {
+    "id": "xu-wen-cao-yun-children-pardon-source-link",
+    "from": "wu-xu-wen",
+    "to": "wu-cao-yun-children-pardon-source-role",
+    "kind": "service",
+    "label": "赦免厚待记载／来源联系",
+    "note": "仅指子女群体获赦受厚遇的原文语境，不作逐个身份、亲子母系、宫职或任命断言。",
+    "sources": [
+      {
+        "chapterId": "new-v61",
+        "paragraphId": "new-v61-p44",
+        "originalRevision": 1,
+        "originalSha256": "7af181d69469394107fc20fcc04d4e850074dd0a474bf2e2eb17dbfe65a2e478",
+        "excerpt": "十年，遣招討使李濤攻越，戰于臨安，裨將曹筠奔于越，濤敗被執。溫間遣人語筠曰：「吾用汝為將，汝軍有求，吾不能給，是吾過也。」赦筠妻子不誅，厚遇之。秋，越人攻毗陵，溫戰于無錫，筠感溫前言，臨戰奔歸，遂敗越兵。",
+        "title": "《新五代史》 · 卷 61 · 吴世家第一"
+      },
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p7",
+        "originalRevision": 1,
+        "originalSha256": "9fe9e44d111b1227598978e5a107f91933a4fe8ce60a0c18132665b52ed847c0",
+        "excerpt": "十年，遣招討使李儔攻吳越，裨將曹荺往奔，温問遣人語荺曰：「吾用汝爲將，汝軍有求，吾不能給，是吾過也。」赦荺妻子不誅，厚遇之。是秋，吳越攻常州，温戰于無鷗，荺感前言，奔歸，遂敗吳越兵。",
+        "title": "《十国春秋》 · 卷 13"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p83",
+        "originalRevision": 1,
+        "originalSha256": "7b3c8682d378a6bd16d12ab56d80298c9383a4f433b7d67221408eee3e5ed225",
+        "excerpt": "初，錦衣之役，吳馬軍指揮曹筠叛奔吳越，徐溫赦其妻子，厚遇之，遣間使告之曰：「使汝不得志而去，吾之過也，汝無以妻子為念。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5"
+      },
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "39a556e4c268821612b6f994b56ed2b8a93e7ab20f29f14fc39d202fbbec8fcc",
+        "excerpt": "曹筠，仕高祖爲馬軍指揮使。衣錦軍之役，筠叛奔吳越，徐温厚遇其妻子，且招之曰：「吾使汝不得志而去，汝無以妻子爲念。」武義元年，吳越兵敗于香灣，筠防乘勢復歸，温自數昔日不用筠防言者三，而不問筠去來之罪，歸其田宅，復其軍職。未幾，筠內媿卒。",
+        "title": "《十国春秋》 · 卷 9"
+      }
+    ]
+  },
+  {
+    "id": "xu-shan-younger-sister-kinship",
+    "from": "wu-xu-shan",
+    "to": "wu-xu-shan-younger-sister-unknown",
+    "kind": "kinship",
+    "label": "兄妹",
+    "note": "原文“善有女弟”限定为徐善的妹妹，不补父母或同母关系。徐善赴广陵申诉、具陈被掠经过，不表示女方亲自申诉。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+        "excerpt": "徐善，洪州人也。秦裴拔洪州，善有女弟檀殊色，爲軍校所得，強納幣焉，已竟挾之去。善詣廣陵，白其事。",
+        "title": "《十国春秋》 · 卷 9 · 吴列传（王稔、曹筠、徐善等）"
+      }
+    ]
+  },
+  {
+    "id": "yang-wo-xu-shan-sister-redemption",
+    "from": "yang-wo",
+    "to": "wu-xu-shan-younger-sister-unknown",
+    "kind": "service",
+    "label": "命人赎归",
+    "note": "杨渥为命人出资赎回的施救者，女方为获赎者；不是任官、部将、婚配或收养关系，也不写成杨渥亲自实施交易。吴烈祖按本书后妃卷与新史杨渥记载辨认，不混为南唐李昪。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v009",
+        "paragraphId": "shiguochunqiu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "de4600cd02e78348f1cd17ceed941d8bed25f7505b75005657ce7a1be32d4671",
+        "excerpt": "是時烈祖府庭甚嚴，布衣遊士經歲不得一見，而善始至白沙，烈祖夜夢神告曰：「江西秀才徐善見公，今在白沙逆旅矣。其人良士也，且有情事未申，宜厚遇之。」烈祖旦卽遣騎迎善，既至，禮遇優渥，因具述女弟被掠狀，烈祖命購贖歸善。",
+        "title": "《十国春秋》 · 卷 9 · 吴列传（王稔、曹筠、徐善等）"
+      },
+      {
+        "chapterId": "shiguochunqiu-v004",
+        "paragraphId": "shiguochunqiu-v004-p2",
+        "originalRevision": 1,
+        "originalSha256": "ce628fed5aa3d4901fcd5e1dcaaa3002842f53e8aaa402ec2d3c71b0969bede5",
+        "excerpt": "唐僖宗時，太祖納之，生烈祖、高祖，己而封武昌郡君。烈祖嗣王位，尊爲太夫人。",
+        "title": "《十国春秋》 · 卷 4 · 吴后妃、宗室及公主"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yanshou-wife-wang-marriage",
+    "from": "wu-zhu-yanshou",
+    "to": "wu-zhu-yanshou-wife-wang",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "本段明确称“朱延寿妻王氏”。不补婚日、子女或生母；朱延寿姊朱夫人与妹贾匡浩妻均保持各自身份。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v012",
+        "paragraphId": "shiguochunqiu-v012-p18",
+        "originalRevision": 1,
+        "originalSha256": "adeca898ddfbf53553a086a53434c464bdb868317bcf96abf77ddd6ff17cde4e",
+        "excerpt": "朱延壽妻王氏，當太祖以計召延壽，詭言欲與以揚州，延壽信之，將行，王曰：「今若得揚州，成宿志，是興衰在時，非繫家也。然此行吉凶未可知，願日發一介慰我。」",
+        "title": "《十国春秋》 · 卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等）"
+      }
+    ]
+  },
+  {
+    "id": "zhu-furen-dispatched-servant-source-link",
+    "from": "wu-yang-xingmi-wife-zhu",
+    "to": "wu-zhu-furen-dispatched-servant-source-role",
+    "kind": "service",
+    "label": "遣婢报信记载／来源联系",
+    "note": "只表示朱夫人派遣该来源角色报信的记载，不作授官、部属身份、谋杀共谋或人数判断；报知对象朱延寿见原句。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v013",
+        "paragraphId": "shiguochunqiu-v013-p3",
+        "originalRevision": 1,
+        "originalSha256": "edcee92b2cf6788b186b7a84efc831890acc866a75ded92de9b4b05af7717d3e",
+        "excerpt": "朱夫人遣婢報之，故延壽疾走揚州。",
+        "title": "《十国春秋》卷13"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-shibu-wife-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-wife-shibu-zhu-san-source-role",
+    "kind": "kinship",
+    "label": "妻称谓（史补朱三郎记载）",
+    "note": "此边只登记《五代史补》的妻称谓与发使语境；来源角色不表示新确认另一位自然配偶。朱三郎与朱延寿的同异不据本边确定，妻发使也不证明使者就是《十国春秋》的婢。",
+    "sources": [
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "楊行密據淮南，以妻弟朱氏眾謂之朱三郎者，行密署為泗州防禦使。",
+        "title": "《五代史补》卷1"
+      },
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "妻以為然，遽發使，述其意而召之。",
+        "title": "《五代史补》卷1"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-shibu-servants-concubines-source-link",
+    "from": "yang-xingmi",
+    "to": "wu-yang-xingmi-servants-concubines-shibu-source-role",
+    "kind": "service",
+    "label": "仆妾自杀记载／来源联系",
+    "note": "这里只关联杨行密家庭中的该来源群体；原书将无礼与自杀行为归这些仆妾，不表示任命、刑杀、婚配、宫职或每个成员的身份。",
+    "sources": [
+      {
+        "chapterId": "shibu-v001",
+        "paragraphId": "shibu-v001-p14",
+        "originalRevision": 1,
+        "originalSha256": "a7c1d632492a0f635d92b831b5da83e2f7c51ed8eb8d471d0449b085240ed70d",
+        "excerpt": "於是軍府大駭，其仆妾嘗所無禮者，皆自殺。",
+        "title": "《五代史补》卷1"
+      }
+    ]
+  },
+  {
+    "id": "yang-xingmi-cheng-kuangrou-shelter",
+    "from": "yang-xingmi",
+    "to": "wu-cheng-kuangrou",
+    "kind": "service",
+    "label": "藏匿保护",
+    "note": "《吴太祖世家》本段的王为杨行密；此边只记诏杀宦官时藏匿保护程匡柔的直接经历，不表示新任命、部将、亲属或养育关系。斩别囚应诏也是杨行密的行为，不表示程匡柔被斩。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v001",
+        "paragraphId": "shiguochunqiu-v001-p19",
+        "originalRevision": 1,
+        "originalSha256": "33fba26d0398bae288ecefb075062de7873aa4cdc19572dd5490183818d2e753",
+        "excerpt": "唐詔所在宦官皆賜死，王匿清海監軍程匡柔，斬它囚以應。",
+        "title": "《十国春秋》 · 卷 1 · 吴太祖世家（杨行密）"
+      }
+    ]
+  },
+  {
+    "id": "wang-chuanzheng-unnamed-wife",
+    "from": "wu-wang-chuanzheng",
+    "to": "wu-wang-chuanzheng-wife-unnamed",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "“免其妻子”承王传拯叛降的连续原段，妻以具体丈夫辨认；姓氏、姓名未知，不把子女群体分解成确定个体或推定生母。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p30",
+        "originalRevision": 1,
+        "originalSha256": "393beafc2b7e6b4a475fb256f7f0a5cabf7c93216fdafe8224f61849060db7fd",
+        "excerpt": "吳徐知誥以海州都指揮使王傳拯有威名，得士心，值團練使陳宣罷歸，知誥許以傳拯代之；既而復遣宣還海州，征傳拯還江都。傳拯怒，以為宣毀之，己亥，帥麾下入辭宣。因斬宣，焚掠城郭，帥其眾五千來奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6"
+      },
+      {
+        "chapterId": "shiguochunqiu-v003",
+        "paragraphId": "shiguochunqiu-v003-p11",
+        "originalRevision": 1,
+        "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288",
+        "excerpt": "先是傳拯有威名，得士心，會宣罷歸，徐知誥許以傳拯代之；既而復遣宣還海州，徵傳拯還江都。傳拯怒，以爲宣實毀之，遂帥麾下入辭，因斬宣，焚掠城郭，帥其衆五千出奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《十国春秋》 · 卷 3 · 吴睿帝本纪（杨溥）"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-wang-chuanzheng-wife-exemption",
+    "from": "li-bian",
+    "to": "wu-wang-chuanzheng-wife-unnamed",
+    "kind": "service",
+    "label": "免罪",
+    "note": "此时称徐知诰，后来为李昪；他自责并免王传拯妻与子女的罪责。此边只登记对妻的直接施惠，既非任官、部将关系，也不补定免死、释放或返家。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p30",
+        "originalRevision": 1,
+        "originalSha256": "393beafc2b7e6b4a475fb256f7f0a5cabf7c93216fdafe8224f61849060db7fd",
+        "excerpt": "吳徐知誥以海州都指揮使王傳拯有威名，得士心，值團練使陳宣罷歸，知誥許以傳拯代之；既而復遣宣還海州，征傳拯還江都。傳拯怒，以為宣毀之，己亥，帥麾下入辭宣。因斬宣，焚掠城郭，帥其眾五千來奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6"
+      },
+      {
+        "chapterId": "shiguochunqiu-v003",
+        "paragraphId": "shiguochunqiu-v003-p11",
+        "originalRevision": 1,
+        "originalSha256": "76c76dce7b7eda72a0dba6ad5cab98aea750a6231a7a8d81aa63132c7e041288",
+        "excerpt": "先是傳拯有威名，得士心，會宣罷歸，徐知誥許以傳拯代之；既而復遣宣還海州，徵傳拯還江都。傳拯怒，以爲宣實毀之，遂帥麾下入辭，因斬宣，焚掠城郭，帥其衆五千出奔。知誥曰：「是吾過也。」免其妻子。",
+        "title": "《十国春秋》 · 卷 3 · 吴睿帝本纪（杨溥）"
+      }
+    ]
   }
 ]

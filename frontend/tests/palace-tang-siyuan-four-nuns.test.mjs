@@ -89,12 +89,15 @@ test('unspecified kinship uses no SVG arrow, directional title or card arrow in 
   }
   assert.deepEqual(graphRelationships.personRelationships, before);
 });
-test('one direction rule keeps existing specific relationship labels while treating generic kinship as unordered', () => {
+test('one direction rule keeps directed facts while treating generic kinship and sibling labels as unordered', () => {
   const { isRelationshipDirected, PeopleRelationshipGraph } = graphModule(); assert.equal(typeof isRelationshipDirected, 'function');
+  const siblingLabels = new Set(['兄弟', '兄妹', '姐妹', '姊妹', '姊弟', '同母兄弟', '异母兄弟', '同母异父兄弟',
+    '兄妹（按源）', '兄弟（长幼异说）', '兄弟（新史记载）', '兄弟（养亲）', '兄弟，徐锴为弟']);
   for (const relationship of graphRelationships.personRelationships) {
     const oldDirection = relationship.kind !== 'conflict' && relationship.label !== '兄弟';
     const genericKinship = relationship.kind === 'kinship' && relationship.label.includes('亲属');
-    assert.equal(isRelationshipDirected(relationship), genericKinship ? false : oldDirection, relationship.id);
+    const siblingKinship = relationship.kind === 'kinship' && siblingLabels.has(relationship.label);
+    assert.equal(isRelationshipDirected(relationship), genericKinship || siblingKinship ? false : oldDirection, relationship.id);
   }
   for (const [kind, label] of [['kinship', '父女'], ['kinship', '母子'], ['adoption', '养育'], ['service', '任职'], ['succession', '帝位交接']])
     assert.equal(isRelationshipDirected({ kind, label }), true, kind + '/' + label);

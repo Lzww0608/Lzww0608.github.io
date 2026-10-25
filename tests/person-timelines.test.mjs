@@ -9,8 +9,25 @@ const byPerson = new Map(documents.map(document => [document.personId, document]
 const baseline = byPerson.get('li-cunxu');
 
 test('all saved timelines resolve their primary and alternative citations without changing the original two', () => {
-  assert.equal(byPerson.get('li-cunxu').events.length, 26);
-  assert.equal(byPerson.get('li-keyong').events.length, 26);
+  const originalEventIds = {
+    'li-cunxu': (`birth follow-father succeed-jin lu-encampment baixiang
+      youzhou yan-captives weibo yuancheng rescue-youzhou
+      huliu desheng zhenzhou-siege wangdu zhenzhou-taken
+      imperial-accession liang-falls arrive-luoyang performers-patronage conquer-shu
+      guo-chongtao-killed purge-and-hunger weibo-revolt failed-march xingjiao-death
+      burial`).split(/\s+/).map(id => 'li-cunxu-' + id),
+    'li-keyong': (`birth youth-campaign yunzhou-mutiny dada-exile recalled-to-fight-huangchao
+      southward-army recover-changan hedong-governorship shangyuan-attack shayuan-battle
+      imperial-campaign-against-hedong restored-and-yunzhou li-cunxiao-executed enter-youzhou relieve-zhaozong
+      prince-of-jin huanshui-defeat ansai-defeat hezhong-lost defend-jinyang
+      khitan-alliance yan-lu-campaign refuse-liang rescue-luzhou death-and-succession
+      posthumous-emperor`).split(/\s+/).map(id => 'li-keyong-' + id),
+  };
+  for (const [personId, eventIds] of Object.entries(originalEventIds)) {
+    const preservedIds = new Set(eventIds);
+    assert.deepEqual(byPerson.get(personId).events.filter(event => preservedIds.has(event.id)).map(event => event.id), eventIds,
+      `${personId}: original stable events retain their relative order while sourced additions may be inserted`);
+  }
   for (const document of documents) {
     assert.equal(validatePersonTimeline(document, library), document);
     for (const event of document.events) assert.ok(timelineEvidence(event).length > 0);

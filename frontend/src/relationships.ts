@@ -40,7 +40,7 @@ export interface PersonRelationship {
 export const relationshipKindLabels: Readonly<Record<RelationshipKind, string>> = {
   kinship: '亲属与姻亲',
   adoption: '收养与养育',
-  service: '任职与部将',
+  service: '任职与往来',
   conflict: '冲突与交恶',
   succession: '君位交接',
 };
@@ -93,7 +93,7 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 }
 
 // Each quotation is a contiguous excerpt of an immutable archived paragraph.
-// Direction means parent → child, commander → subordinate or predecessor → successor;
+// Direction means parent → child, commander → subordinate, giver → recipient or predecessor → successor;
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
   ...palaceRelationships as readonly PersonRelationship[],

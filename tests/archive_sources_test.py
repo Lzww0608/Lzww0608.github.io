@@ -6,6 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from urllib.parse import quote, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('archive_sources', ROOT / 'scripts/archive-sources.py')
@@ -37,9 +38,87 @@ ZHOU_HOUSEHOLD_BOUNDARIES = {
     'new-v19': ('皇后柴氏', '一作「太保」，一作「太尉」。待考。'),
     'new-v20': ('柴守禮', '他本「吾」下均有「王」字。'),
 }
-HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES}
+WU_MARRIAGE_FIXTURES = {
+    'new-v41': (1721673, 26, 2183, 'b9d1c88a6be358934e75d03a1e9411a6df8ed27dd77ca9173e0166b4d070d4f1', '13a1adaea5b0ac6dd9926c48bfc349de9408f362dc24c4ec8d08ca75410a067f'),
+    'tongjian-v262': (1764816, 89, 11075, '36bcbda9e91508541232473c370e5bae791a67b4878093ad8e1b129bee7bd343', '0f30d9dcfd7168abe6320b281a449cbb08fd191ecf2cf5b8950d113ac5531499'),
+    'jiuguozhi-v002': (2596554, 38, 9817, 'ec218802dadd11fa43eb727b41b9acaa3bf4a4726eb631a29deda50d159fbf44', 'ead40ddf1dee3857eb75f880468cd30ba79313392fb67e19bdbc8780d44a4740'),
+}
+HOUSEHOLD_FIXTURES = {**TANG_HOUSEHOLD_FIXTURES, **HAN_HOUSEHOLD_FIXTURES, **ZHOU_HOUSEHOLD_FIXTURES, **WU_MARRIAGE_FIXTURES}
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_jiuguozhi_and_tongjian262_keep_distinct_book_and_volume_scopes(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        book = next(b for b in archive.BOOKS if b['id'] == 'jiuguozhi')
+        saved = next(b for b in catalog['books'] if b['id'] == 'jiuguozhi')
+        self.assertEqual({**saved, 'url': unquote(saved['url'])}, {**book, 'url': unquote(book['url'])})
+        self.assertEqual(book['defaultChapter'], 'jiuguozhi-v002')
+        self.assertIn('路振', book['author'])
+        self.assertNotEqual(book['id'], 'shiguochunqiu')
+        self.assertEqual(sorted(s['volume'] for s in archive.SPECS if s['bookId'] == 'tongjian'), [262, *range(266, 295)])
+        current = json.loads((archive.ROOT / 'chapters/tongjian-v262.json').read_text())
+        self.assertTrue(any('卷 262' in note and '晚唐' in note for note in current['notes']))
+        for volume in range(266, 295):
+            chapter = json.loads((archive.ROOT / 'chapters' / f'tongjian-v{volume}.json').read_text())
+            self.assertTrue(any('卷 266—294' in note for note in chapter['notes']))
+
+    def test_wu_household_selected_complete_sources_and_fixed_section_cache(self):
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        for chapter_id, revision, blocks, characters, source_sha in [('shiguochunqiu-v001', 2554072, 22, 15138, 'ebebf01ff02e660fea03786e032b30e5f27b271fc52f54a58992c8b08b592dc9'), ('shiguochunqiu-v003', 2554071, 20, 10244, 'ff3e7892a2e6987525e6f06903030632ce11de6845ed40d8129c781c40fcff2d'), ('shiguochunqiu-v007', 2554075, 15, 5353, '9f6cee391cec39bcefa15fe1490df42c5a6956cdbecedc22957e146b09ed2c2a'), ('shiguochunqiu-v012', 2554082, 19, 3006, '5e80aeb830d68c16ad69997851e7f4e08519f43f3e77db384462f4a6a9613a06'), ('nantangjinshi-v002', 1503836, 45, 5382, '45ae3d134fcf3d9f8b3368ccf0dc2434063b002c343bbc590686bf676aeff267'), ('quantangwen-v884', 8723175, 32, 10735, 'f559cbf7c9cd08718de08c10acd8e61fcfb64a621bfb8b439d1a1ebd7d263736')]:
+            selected = next(s for s in archive.SPECS if s['id'] == chapter_id)
+            summary = next(c for c in catalog['chapters'] if c['id'] == chapter_id)
+            payload = json.loads((archive.ROOT / 'sources' / (chapter_id + '.json')).read_text())
+            chapter = json.loads((archive.ROOT / 'chapters' / (chapter_id + '.json')).read_text())
+            self.assertEqual(selected['fixedRevisionId'], revision)
+            self.assertEqual(payload['response']['parse']['revid'], revision)
+            self.assertEqual(hashlib.sha256((archive.ROOT / 'sources' / (chapter_id + '.json')).read_bytes()).hexdigest(), source_sha)
+            tagged = archive.source_blocks(payload, with_tags=True)
+            self.assertEqual((len(tagged), sum(len(t) for t, _ in tagged)), (blocks, characters))
+            self.assertEqual([p['original'] for p in chapter['paragraphs']], [t for t, _ in tagged])
+            self.assertEqual([p['id'] for p in chapter['paragraphs']], [f'{chapter_id}-p{i + 1}' for i in range(blocks)])
+            with tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                for kind in ['sources', 'chapters']:
+                    (root / kind).mkdir()
+                    shutil.copyfile(archive.ROOT / kind / (chapter_id + '.json'), root / kind / (chapter_id + '.json'))
+                before = {p: p.read_bytes() for p in root.rglob('*.json')}
+                with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('fixed cached source only')):
+                    regenerated = archive.capture(selected, summary)
+                    self.assertEqual(regenerated['provenance'], summary['provenance'])
+                    if chapter_id == 'shiguochunqiu-v003':
+                        self.assertIn('liu-xun-yonghe', regenerated['subjects'])
+                        self.assertIn('li-yu', regenerated['subjects'])
+                        self.assertIn('wu-wang-chuanzheng-wife-unnamed', regenerated['subjects'])
+                        self.assertNotIn('wang-yanzhang', regenerated['subjects'])
+                        self.assertNotIn('wang-jian-former-shu', regenerated['subjects'])
+                        self.assertNotIn('ge-congzhou', regenerated['subjects'])
+                    wrong = json.loads(json.dumps(summary)); wrong['provenance']['revisionId'] = revision + 1
+                    with self.assertRaisesRegex(ValueError, 'Fixed source revision changed'):
+                        archive.capture(selected, wrong)
+                self.assertEqual({p: p.read_bytes() for p in root.rglob('*.json')}, before)
+        payload = json.loads((archive.ROOT / 'sources/nantangjinshi-v002.json').read_text())
+        self.assertEqual(archive.source_blocks(payload, True)[0], ('卷二', 'h2'))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                shutil.copyfile(archive.ROOT / kind / 'nantangjinshi-v002.json', root / kind / 'nantangjinshi-v002.json')
+            wrong_payload = json.loads(json.dumps(payload)); wrong_payload['selection']['sourceSection']['untilHeading'] = '卷一'
+            source = root / 'sources/nantangjinshi-v002.json'; source.write_text(json.dumps(wrong_payload, ensure_ascii=False))
+            previous = json.loads(json.dumps(next(c for c in catalog['chapters'] if c['id'] == 'nantangjinshi-v002')))
+            previous['provenance']['sourceSha256'] = hashlib.sha256(source.read_bytes()).hexdigest()
+            before = {p: p.read_bytes() for p in root.rglob('*.json')}
+            selected = next(s for s in archive.SPECS if s['id'] == 'nantangjinshi-v002')
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('no source requests')):
+                with self.assertRaisesRegex(ValueError, 'Source section changed'):
+                    archive.capture(selected, previous)
+            self.assertEqual({p: p.read_bytes() for p in root.rglob('*.json')}, before)
+        wrong = json.loads(json.dumps(payload)); wrong['selection']['sourceSection']['untilHeading'] = '卷一'
+        with self.assertRaisesRegex(ValueError, 'Source section end changed'):
+            archive.source_blocks(wrong)
+        wrong = json.loads(json.dumps(payload)); wrong['selection']['sourceSection']['heading'] = '不存在的卷'
+        with self.assertRaisesRegex(ValueError, 'Source section start changed'):
+            archive.source_blocks(wrong)
+
     def test_ma_ling_fixed_complete_volume_and_cache_preservation(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
         selected = next(s for s in archive.SPECS if s['id'] == 'nantangma-v010')
@@ -143,7 +222,7 @@ class SourceIntegrityTests(unittest.TestCase):
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
         self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 94)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 42)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 43)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]
@@ -370,13 +449,45 @@ class SourceIntegrityTests(unittest.TestCase):
                 payload = json.loads(source.read_text())
                 html = payload['response']['parse']['text']['*']
                 index_page = payload.get('selection', {}).get('indexPage', False)
-                extracted = archive.extract(html, index_page=index_page)
+                page_extracted = archive.extract(html, index_page=index_page)
+                extracted = archive.source_blocks(payload)
+                section = payload.get('selection', {}).get('sourceSection')
+                if section is not None:
+                    selected = next(s for s in archive.SPECS if s['id'] == source.stem)
+                    self.assertEqual(section, selected.get('sourceSection'))
+                    tagged = archive.extract(html, with_tags=True, index_page=index_page)
+                    starts = [i for i, (text, tag) in enumerate(tagged) if tag == 'h2' and text == section['heading']]
+                    self.assertEqual(len(starts), 1)
+                    start = starts[0]
+                    end = next(i for i in range(start + 1, len(tagged)) if tagged[i][1] == 'h2')
+                    self.assertEqual(tagged[end][0], section['untilHeading'])
+                    self.assertEqual(extracted, [text for text, _ in tagged[start:end]])
+                document = archive.Document(html).root
+                navigation_links = set()
+                if source.stem == 'quantangwen-v884':
+                    def descendants(node):
+                        yield node
+                        for child in node.children:
+                            if isinstance(child, archive.Node): yield from descendants(child)
+                    expected_links = [(label, '/wiki/' + quote(title, safe='/'), title) for label, title in
+                                      [('上一卷', '全唐文/卷0883'), ('下一卷', '全唐文/卷0885'), ('全唐文', '全唐文')]]
+                    tables = []
+                    for table in descendants(document):
+                        if table.tag != 'table': continue
+                        links = [node for node in descendants(table) if node.tag == 'a' and archive.clean_text(node).strip()]
+                        if [(archive.clean_text(node).strip(), node.attrs.get('href'), node.attrs.get('title')) for node in links] == expected_links:
+                            tables.append((table, links))
+                    self.assertEqual(len(tables), 1, 'Expected one exact previous/next/work navigation table')
+                    table, links = tables[0]
+                    self.assertEqual(archive.clean_text(table).split(), ['上一卷', '下一卷', '全唐文'])
+                    navigation_links = {id(node) for node in links}
                 missing = []
                 def visit(node):
+                    if id(node) in navigation_links: return
                     if index_page and node.tag in {'ul', 'ol'}: return
                     if index_page and 'seealso' in node.attrs.get('class', '').split(): return
                     if index_page and node.tag == 'div' and 'float: right' in node.attrs.get('style', '') and not any(isinstance(child, archive.Node) and child.tag == 'div' for child in node.children):
-                        self.assertIn(archive.clean_text(node).strip(), extracted)
+                        self.assertIn(archive.clean_text(node).strip(), page_extracted)
                         return
                     if archive.excluded(node) or node.tag in blocks: return
                     if node.attrs.get('id') == 'headerContainer':
@@ -384,7 +495,7 @@ class SourceIntegrityTests(unittest.TestCase):
                         def check_preface(item):
                             if item.tag == 'td':
                                 text = archive.clean_text(item).strip()
-                                if len(text) > 300: self.assertIn(text, extracted)
+                                if len(text) > 300: self.assertIn(text, page_extracted)
                                 return
                             for child in item.children:
                                 if isinstance(child, archive.Node): check_preface(child)
@@ -393,7 +504,7 @@ class SourceIntegrityTests(unittest.TestCase):
                     for child in node.children:
                         if isinstance(child, archive.Node): visit(child)
                         elif child.strip(): missing.append(child.strip())
-                visit(archive.Document(html).root)
+                visit(document)
                 self.assertEqual(missing, [], 'Text outside recognized historical blocks')
                 chapter = json.loads((ROOT / 'content/five-dynasties/chapters' / source.name).read_text())
                 self.assertEqual([p['original'] for p in chapter['paragraphs']], extracted)

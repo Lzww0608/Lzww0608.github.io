@@ -32,7 +32,7 @@ const hash = (value: unknown) => {
   if (!/^[a-f0-9]{64}$/.test(result)) throw new Error();
   return result;
 };
-const bookIds = ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma'];
+const bookIds = ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi'];
 
 export function parseOwnerReviewItem(value: unknown): OwnerReviewItem {
   const item = object(value);

@@ -1230,6 +1230,68 @@
       "notes": [
         "《五代会要》记年四十二，新、旧五代史记四十三；史书年龄依各书保存，不换算成确定周岁。"
       ]
+    },
+    {
+      "id": "li-cunxu-send-xue-zhaowen-min-investiture",
+      "title": "遣薛昭文册闽王",
+      "summary": "《九国志》刘信传记后唐庄宗即位后，派谏议大夫薛昭文册封闽王，使者借道豫章，与刘信相见。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "本源庄宗即位后，未独记出使年月日",
+      "phase": "uncertain",
+      "sortOrder": 47,
+      "evidence": [
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "8c184a05a184301d86456e8016b7ffd8768b0bf693d542e013387296457e9d57",
+          "excerpt": "後唐莊宗卽位，遣諫議大夫薛昭文冊閩王，假道豫章。信勞之，謂昭文曰：「皇帝知有信否？」昭文曰：「主上新有河南，未熟公之名。」"
+        }
+      ],
+      "notes": [
+        "庄宗派遣使者，借道豫章、与刘信问答者是薛昭文，不是庄宗亲自会见；本书称闽王，不称皇帝。"
+      ]
+    },
+    {
+      "id": "li-cunxu-receive-lu-pin-wu-envoy",
+      "title": "厚赐吴使卢苹并遣归",
+      "summary": "吴派卢苹出使后唐，严可求事先准备问答。卢苹到后依次作答，庄宗喜而加厚赏赐，遣其归国；不把使者归来后的亡国预言写成庄宗自述。",
+      "year": null,
+      "sortOrder": 48,
+      "precision": "range",
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      },
+      "sourceDate": "本源顺义三年；使节叙次与旧史另记来朝年月分源",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v009",
+          "paragraphId": "shiguochunqiu-v009-p20",
+          "originalRevision": 1,
+          "originalSha256": "287dd38c1265ac88a175929200adbcf2a82d7506d5795b9ec5da920e864e487f",
+          "excerpt": "盧蘋，洛陽人。博學，善應對。歷官至司農卿。順義三年，唐以滅梁來告，睿帝命蘋使于唐。嚴可求預度唐朝所問，密書數事，授之以行，最後復增黑雲都長劍多少及五十指揮使在都下諸條。蘋平唐，悉依可求疏記次第以應。唐莊宗大喜，餽賚加等，遣蘋歸。蘋還，言唐主荒于遊畋，嗇財拒諫，內外皆怨，不數年亡矣。已而果如蘋所說。"
+        },
+        {
+          "chapterId": "new-v61",
+          "paragraphId": "new-v61-p31",
+          "originalRevision": 1,
+          "originalSha256": "c2afa11c8d2e7967eb80e70200846844e934f4a71d6258fc6b69c701136d10de",
+          "excerpt": "三年，唐莊宗滅梁。遣司農卿盧蘋使于唐，嚴可求密條數事授蘋以行。蘋見洛陽，莊宗問之，蘋次第以對，皆如所授。"
+        },
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p12",
+          "originalRevision": 1,
+          "originalSha256": "ef3b9fe737ba9040c626254178bd72aaeb3a573899fabb3077b3b9ff52be31be",
+          "excerpt": "唐同光元年，莊宗平梁，遷都於洛陽。十二月，溥遣使章景來朝，稱「大吳國主致書上大唐皇帝」，其辭旨卑遜，有同箋表。明年八月，又遣其司農卿盧蘋貢方物，及獻貞簡太后珍玩，莊宗命左藏庫使王居敏、通事舍人張朗等以名馬報之。"
+        }
+      ],
+      "notes": [
+        "新史、卷9将遣卢苹叙顺义三年；旧史分章景与次年八月卢苹来贡，并记名马回报；不强并各书单一使节日，也不塞入灭梁交战日。"
+      ]
     }
   ]
 }

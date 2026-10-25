@@ -6,6 +6,7 @@ import { createReadingShelfStore, READING_SHELF_STORAGE_KEY, READING_SHELF_APP, 
   paragraphBookmarkId, eventBookmarkId, bookmarkRoute, progressResumeRoute, describeBookmark, describeProgress,
   verifyParagraphBookmark, verifyEventBookmark } from '../src/reading-shelf.ts';
 import { loadOriginalConverter, originalParagraphs } from '../src/original-script.ts';
+import { readChapter } from '../src/history-loader.ts';
 import { timelineHash } from '../src/person-timeline-schema.ts';
 import { timelineEventIdentity } from '../src/event-timeline-links-schema.ts';
 import { eventComparisons } from '../src/event-comparison-data.ts';
@@ -108,6 +109,46 @@ test('actual Ma Ling book routes, exact paragraph bookmarks and script switching
   assert.notEqual(simplified[0].original, original.original); assert.ok(simplified[0].original.includes('𠉀'));
   assert.equal(originalParagraphs([original], 'traditional', convert)[0], original);
   assert.deepEqual(original, before); assert.ok(!store.exportJson().includes(original.original));
+});
+
+test('new regional book routes and exact paragraph bookmarks survive export/import and script conversion', async () => {
+  const convert = await loadOriginalConverter();
+  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884'], ['jiuguozhi', 'jiuguozhi-v002']]) {
+    const book = libraryBooks.find(b => b.id === bookId), chapter = libraryChapters.find(c => c.id === chapterId);
+    assert.ok(book && chapter, 'The complete fixed source must be integrated before release.');
+    const archived = JSON.parse(await fs.readFile(new URL(`../../content/five-dynasties/chapters/${chapterId}.json`, import.meta.url), 'utf8'));
+    const original = archived.paragraphs.find(p => convert(p.original) !== p.original), before = structuredClone(original);
+    assert.ok(original);
+    const target = `read-${bookId}/${chapterId}?paragraph=${original.id}`;
+    assert.equal(resolveRoute('#' + target), target);
+    assert.equal(resolveReadingRoute(target).focusParagraphId, original.id);
+    assert.equal(normalizeReadingShelfRoute(`read-${bookId}`), `read-${bookId}/${chapterId}`);
+    assert.equal(parseReadingShelfRoute(target).chapterId, chapterId);
+    assert.equal(resolveReadingRoute(`read-nantangma/${chapterId}`), null);
+    assert.equal(parseReadingShelfRoute(`read-${bookId}/${chapterId}?paragraph=${chapterId}-p${archived.paragraphs.length + 1}`), null);
+    const { store } = create(); await store.toggleParagraphBookmark({ chapterId, paragraph: original });
+    const saved = store.getSnapshot().bookmarks[0];assert.equal(bookmarkRoute(saved), target);
+    assert.equal(await verifyParagraphBookmark(saved, original), true);
+    assert.equal(await verifyParagraphBookmark(saved, { ...original, original: original.original + '改' }), false);
+    const restored = create();restored.store.mergeImport(restored.store.previewImport(store.exportJson()));
+    assert.equal(bookmarkRoute(restored.store.getSnapshot().bookmarks[0]), target);
+    assert.notEqual(originalParagraphs([original], 'simplified', convert)[0].original, original.original);
+    assert.equal(originalParagraphs([original], 'traditional', convert)[0], original);
+    assert.deepEqual(original, before);assert.ok(!store.exportJson().includes(original.original));
+  }
+});
+
+test('new regional book offline versions stay readable but successful invalid API cannot revive the archive', async () => {
+  for (const [bookId, chapterId] of [['nantangjinshi', 'nantangjinshi-v002'], ['quantangwen', 'quantangwen-v884'], ['jiuguozhi', 'jiuguozhi-v002']]) {
+    const archived = JSON.parse(await fs.readFile(new URL(`../../content/five-dynasties/chapters/${chapterId}.json`, import.meta.url), 'utf8'));
+    const options = { bookId, chapterId, apiBase: 'https://api.example', archiveBase: '/', signal: new AbortController().signal };
+    const offline = await readChapter({ ...options, fetcher: async url => {
+      if (String(url).startsWith('https://api.example')) throw new TypeError('Synthetic offline');
+      return Response.json(archived);
+    } });
+    assert.equal(offline.source, 'archive');assert.equal(offline.chapter.id, chapterId);
+    await assert.rejects(readChapter({ ...options, fetcher: async url => Response.json(String(url).startsWith('https://api.example') ? {} : archived) }), /could not be verified/);
+  }
 });
 
 test('person inference preserves explicit known context and never guesses from chapter subjects', () => {
