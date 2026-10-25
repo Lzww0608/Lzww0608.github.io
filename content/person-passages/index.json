@@ -744,6 +744,10 @@
       "name": "敬翔"
     },
     {
+      "id": "li-zhen",
+      "name": "李振"
+    },
+    {
       "id": "liang-zhu-wen-mother-wang",
       "name": "文惠皇后王氏"
     },
@@ -2090,6 +2094,10 @@
         {
           "personId": "jing-xiang",
           "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -3669,6 +3677,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -16082,6 +16094,26 @@
       ]
     },
     {
+      "id": "passage-huiyao-v024-p11",
+      "chapterId": "huiyao-v024",
+      "title": "卷 24 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v024-p11",
+          "originalRevision": 1,
+          "originalSha256": "5353b0be0de6dc0cfc34ed6659b98d3031e54ff45dd5fa46f57d149c9e9c265e",
+          "start": 0,
+          "end": 40
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-huiyao-v024-p12",
       "chapterId": "huiyao-v024",
       "title": "卷 24 · 第 12 段",
@@ -20846,6 +20878,10 @@
         {
           "personId": "jing-xiang",
           "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -25438,6 +25474,10 @@
         {
           "personId": "jing-xiang",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -27737,6 +27777,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         },
         {
@@ -36326,6 +36370,10 @@
         {
           "personId": "jing-xiang",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -36450,6 +36498,10 @@
         {
           "personId": "jing-xiang",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -36534,6 +36586,10 @@
         {
           "personId": "jing-xiang",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -43898,9 +43954,89 @@
       ]
     },
     {
+      "id": "passage-new-v43-p12",
+      "chapterId": "new-v43",
+      "title": "卷 43 · 杂传 · 李振传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "new-v43-p12",
+          "originalRevision": 1,
+          "originalSha256": "d836c25ecf3990454935945c1c0857ffc777cbdb198b202f84fe0599b007b46a",
+          "start": 0,
+          "end": 74
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v43-p13",
+      "chapterId": "new-v43",
+      "title": "卷 43 · 杂传 · 李振传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "new-v43-p13",
+          "originalRevision": 1,
+          "originalSha256": "586ca9b9cc9f617c67554e58132f981e4df203a8ef729411f6403f8fa778873a",
+          "start": 0,
+          "end": 277
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v43-p14",
+      "chapterId": "new-v43",
+      "title": "卷 43 · 杂传 · 李振传 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "new-v43-p14",
+          "originalRevision": 1,
+          "originalSha256": "47109385a06cef51e9d8306a65a1b10424c4052dc595c6936ee1ee5ef5c8ad1f",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v43-p15",
+      "chapterId": "new-v43",
+      "title": "卷 43 · 杂传 · 李振传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "new-v43-p15",
+          "originalRevision": 1,
+          "originalSha256": "99d7c685c20f5a58f8a83feafe5588b6e0008e433420b1a46abeda774b4b2734",
+          "start": 0,
+          "end": 56
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
       "id": "passage-new-v43-p16",
       "chapterId": "new-v43",
-      "title": "卷 43 · 杂传 · 第 16 段",
+      "title": "卷 43 · 杂传 · 李振传 · 第 16 段",
       "spans": [
         {
           "paragraphId": "new-v43-p16",
@@ -43918,13 +44054,37 @@
         {
           "personId": "zhu-yougong",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-new-v43-p17",
+      "chapterId": "new-v43",
+      "title": "卷 43 · 杂传 · 李振传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "new-v43-p17",
+          "originalRevision": 1,
+          "originalSha256": "6329b34182fc28c0291ffdc72a211883ccbdfe2f4033708955c7033bc73c63ff",
+          "start": 0,
+          "end": 68
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-new-v43-p18",
       "chapterId": "new-v43",
-      "title": "卷 43 · 杂传 · 第 18 段",
+      "title": "卷 43 · 杂传 · 李振传 · 第 18 段",
       "spans": [
         {
           "paragraphId": "new-v43-p18",
@@ -43950,6 +44110,10 @@
         {
           "personId": "jing-xiang",
           "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
@@ -44353,6 +44517,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "mention"
         }
       ]
@@ -46190,6 +46358,10 @@
         {
           "personId": "duan-ning",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         },
         {
           "personId": "liang-duan-ning-sister-meiren",
@@ -59314,6 +59486,10 @@
         {
           "personId": "zhu-wen",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -63314,6 +63490,10 @@
         {
           "personId": "jing-xiang",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -65266,6 +65446,10 @@
         {
           "personId": "yang-xingmi",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -66682,6 +66866,10 @@
         {
           "personId": "jing-xiang",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -66786,6 +66974,10 @@
         {
           "personId": "jing-xiang",
           "kind": "biography"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -66836,7 +67028,7 @@
     {
       "id": "passage-old-v018-p20",
       "chapterId": "old-v018",
-      "title": "卷 18 · 梁书列传八 · 第 20 段",
+      "title": "卷 18 · 梁书列传八 · 李振传 · 第 20 段",
       "spans": [
         {
           "paragraphId": "old-v018-p20",
@@ -66854,13 +67046,17 @@
         {
           "personId": "ma-yin",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-old-v018-p21",
       "chapterId": "old-v018",
-      "title": "卷 18 · 梁书列传八 · 第 21 段",
+      "title": "卷 18 · 梁书列传八 · 李振传 · 第 21 段",
       "spans": [
         {
           "paragraphId": "old-v018-p21",
@@ -66874,13 +67070,17 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-old-v018-p22",
       "chapterId": "old-v018",
-      "title": "卷 18 · 梁书列传八 · 第 22 段",
+      "title": "卷 18 · 梁书列传八 · 李振传 · 第 22 段",
       "spans": [
         {
           "paragraphId": "old-v018-p22",
@@ -66894,13 +67094,17 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-old-v018-p23",
       "chapterId": "old-v018",
-      "title": "卷 18 · 梁书列传八 · 第 23 段",
+      "title": "卷 18 · 梁书列传八 · 李振传 · 第 23 段",
       "spans": [
         {
           "paragraphId": "old-v018-p23",
@@ -66914,13 +67118,17 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-old-v018-p24",
       "chapterId": "old-v018",
-      "title": "卷 18 · 梁书列传八 · 第 24 段",
+      "title": "卷 18 · 梁书列传八 · 李振传 · 第 24 段",
       "spans": [
         {
           "paragraphId": "old-v018-p24",
@@ -66958,6 +67166,10 @@
         {
           "personId": "jing-xiang",
           "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "biography"
         }
       ]
     },
@@ -66977,6 +67189,10 @@
       "people": [
         {
           "personId": "jing-xiang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "mention"
         }
       ]
@@ -74726,6 +74942,10 @@
         {
           "personId": "jing-xiang",
           "kind": "mention"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -74749,6 +74969,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -74781,6 +75005,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -90004,6 +90232,10 @@
           "kind": "mention"
         },
         {
+          "personId": "li-zhen",
+          "kind": "mention"
+        },
+        {
           "personId": "tang-li-cunxu-empress-liu",
           "kind": "record"
         }
@@ -91797,6 +92029,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         },
         {
@@ -107438,6 +107674,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "mention"
         }
       ]
     },
@@ -107610,6 +107850,10 @@
         {
           "personId": "li-hanzhi",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "mention"
         },
         {
           "personId": "tang-li-cunxu-empress-liu",
@@ -115218,6 +115462,10 @@
         {
           "personId": "zhu-wen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -115257,6 +115505,10 @@
       "people": [
         {
           "personId": "zhu-wen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -116461,6 +116713,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -119242,6 +119498,10 @@
         {
           "personId": "li-cunxu",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -120706,6 +120966,10 @@
         {
           "personId": "jing-xiang",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -121085,6 +121349,10 @@
         },
         {
           "personId": "yuan-xiangxian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         },
         {
@@ -122788,6 +123056,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-zhen",
+          "kind": "record"
+        },
+        {
           "personId": "liang-zhu-youzhen-defei-zhang",
           "kind": "mention"
         }
@@ -122897,6 +123169,10 @@
       "people": [
         {
           "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -126910,6 +127186,10 @@
         {
           "personId": "jing-xiang",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
         }
       ]
     },
@@ -127246,6 +127526,10 @@
         {
           "personId": "zhu-youzhen",
           "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "mention"
         }
       ]
     },
@@ -127297,6 +127581,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]
@@ -127405,6 +127693,10 @@
         },
         {
           "personId": "jing-xiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
           "kind": "record"
         }
       ]

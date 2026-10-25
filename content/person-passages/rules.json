@@ -4631,6 +4631,15 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "li-zhen",
+      "names": [
+        "李振"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -9910,6 +9919,26 @@
       "label": "敬翔传",
       "startText": "敬翔，字子振，同州馮翊人。唐神龍中平陽王暉之後也。曾祖琬，綏州刺史。祖忻，同州掾。父袞，集州刺史。翔",
       "endText": "翔妻劉氏，父為藍田令。廣明之亂，劉為巢將尚讓所得，巢敗，讓攜劉降於時溥，及讓誅，時溥納劉於妓室。太祖"
+    },
+    {
+      "personId": "li-zhen",
+      "chapterId": "old-v018",
+      "start": 20,
+      "end": 24,
+      "kind": "biography",
+      "label": "李振传",
+      "startText": "李振，字興緒，唐潞州節度使抱真之曾孫也。祖、父，皆至郡守。振仕唐，自金吾將軍改台州刺史。會盜據浙東，不克之任，因西歸過汴",
+      "endText": "唐自昭宗遷都之後，王室微弱，朝廷班行，備員而已。振皆頤指氣使，旁若無人，朋附者非次獎升，私晉者沈棄。振每自汴入洛，朝中必"
+    },
+    {
+      "personId": "li-zhen",
+      "chapterId": "new-v43",
+      "start": 12,
+      "end": 18,
+      "kind": "biography",
+      "label": "李振传",
+      "startText": "李振字興緒，其祖抱真，唐潞州節度使。振為唐金吾衞將軍，拜台州刺史。盜起浙東，不果行，乃西歸。過梁，以策干太祖，太祖留之。",
+      "endText": "太祖即位，累遷戶部尚書。友珪時，以振代敬翔為崇政院使。莊宗滅梁入汴，振謁見郭崇韜，崇韜曰：「人言李振一代奇才，吾今見之，"
     }
   ],
   "chronology": [
@@ -13569,6 +13598,86 @@
       "originalRevision": 1,
       "originalSha256": "958ff670dd5a2aa039e4ddc39d6f7607bb5b303320270176875e095baca5d04b",
       "reason": "本段先具名海州戍将陈汉宾，后文汉宾均承此人；并非梁将朱汉宾。只在本段原修订/SHA范围遮蔽短名汉宾，不改全局姓名或其他原段。"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "new-v43-p11",
+      "terms": [
+        "李振"
+      ],
+      "reason": "纯篇题/赞题，保阅读标题，不作人物独立记载或事件。",
+      "originalRevision": 1,
+      "originalSha256": "0a86334192a3833659d871360cf0214062ab3eb1fb25e18618bf53281ff81a5c"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "old-v018-p19",
+      "terms": [
+        "李振"
+      ],
+      "reason": "纯篇题/赞题，保阅读标题，不作人物独立记载或事件。",
+      "originalRevision": 1,
+      "originalSha256": "0a86334192a3833659d871360cf0214062ab3eb1fb25e18618bf53281ff81a5c"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "old-v055-p1",
+      "terms": [
+        "李振"
+      ],
+      "reason": "“李振武父子”承上文振武军李国昌父子，子串李振为误命中，不归本传李振。",
+      "originalRevision": 1,
+      "originalSha256": "ca4dee94435e9e7ab753d0e634fe612334295dbe9903c126af16170ffc42068b"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "new-v43-p50",
+      "terms": [
+        "李振"
+      ],
+      "reason": "排除本原段全名自动事迹归属，再登记为提及。校注比较同卷李振传和别书，认为敬翔疑误；为mention/校勘证据，不直接改底本。",
+      "originalRevision": 1,
+      "originalSha256": "3e05def2d1d097cfba83e92f02d04bc31173d719d92071918b1df0e10db91af7"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "old-v018-p26",
+      "terms": [
+        "李振"
+      ],
+      "reason": "排除本原段全名自动事迹归属，再登记为提及。史臣褒贬与报应论，只作mention，不作独立生平事件。",
+      "originalRevision": 1,
+      "originalSha256": "5b9d3481602c5248bf7aa810666193e86555ec526e401d360b80664f4327e66c"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "old-v063-p9",
+      "terms": [
+        "李振"
+      ],
+      "reason": "排除本原段全名自动事迹归属，再登记为提及。引阙文评张全义应与敬李族诛，不是张全义实际同诛；同源引文不计两条独立证据。",
+      "originalRevision": 1,
+      "originalSha256": "518b10a86f81293d08cfae5257bae4bc044c6a241f1c9d6c1b602d390d4cb66d"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "quewen-v001-p12",
+      "terms": [
+        "李振"
+      ],
+      "reason": "排除本原段全名自动事迹归属，再登记为提及。贬评唐旧族李振弑逆，作者评价与具体事迹主证分层。",
+      "originalRevision": 1,
+      "originalSha256": "644f3c1ae4b41b8bc6dd66c7362deafaa7c7392ea9b4587567d53ec87a806893"
+    },
+    {
+      "personId": "li-zhen",
+      "paragraphId": "quewen-v001-p21",
+      "terms": [
+        "李振"
+      ],
+      "reason": "排除本原段全名自动事迹归属，再登记为提及。张全义应与敬李族诛为史家应然议论，不作真实同诛。",
+      "originalRevision": 1,
+      "originalSha256": "8676f38fefdc3f86b9cefaecdeccd858d1eaea28495a16ad18c135055d2b7db1"
     }
   ],
   "regnalEdicts": {
