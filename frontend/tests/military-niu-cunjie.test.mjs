@@ -31,7 +31,7 @@ test('Niu keeps his canonical identity and original event IDs with the approved 
   assert.equal(document.events.length, oldIds.length + 12);
   assert.deepEqual(document.events.map(event => event.sortOrder), document.events.map((_, index) => index));
   assert.equal(createHash('sha256').update(JSON.stringify(document)).digest('hex'),
-    '2045bc13e826a19c93ab79ad4b32274f32108523e7bc7f59967a467be4325fbc');
+    '6fffca944eca73fecbd20d189caab9609af130977995cda980d22b50b6ef5f45');
   const event = id => document.events.find(item => item.id === id);
   assert.deepEqual(event('niu-cunjie-xingzhou').yearRange, { start: 904, end: 905 });
   assert.equal(event('niu-cunjie-xingzhou').year, null);
@@ -43,6 +43,46 @@ test('Niu keeps his canonical identity and original event IDs with the approved 
   assert.ok(event('niu-cunjie-xuzhou-revolt').notes.some(note => note.includes('刘鄩')));
   assert.ok(event('niu-cunjie-xuzhou-revolt').variants.some(variant =>
     variant.evidence.some(ref => ref.chapterId === 'old-v008' && ref.paragraphId === 'old-v008-p23')));
+});
+
+test('new source variants keep dates, counts and quoted histories in their own scopes', () => {
+  const event = id => document.events.find(item => item.id === id);
+  const relief = event('niu-cunjie-xuzhou-relief');
+  assert.equal(relief.year, null);
+  assert.equal(relief.phase, 'uncertain');
+  assert.equal(relief.precision, 'range');
+  assert.deepEqual(relief.yearRange, { start: 899, end: 901 });
+  assert.match(relief.sourceDate, /正文作光化三年/);
+  assert.match(relief.sourceDate, /夹注认为应为二年/);
+  assert.ok(relief.variants.some(variant =>
+    variant.evidence.some(ref => ref.paragraphId === 'shiguochunqiu-v001-p15')));
+
+  const huainan = event('niu-cunjie-huainan');
+  const count = huainan.variants.find(variant =>
+    variant.evidence.some(ref => ref.paragraphId === 'shiguochunqiu-v001-p13'));
+  assert.match(count.summary, /不盈千.*返还人数/);
+  assert.match(count.summary, /八千.*收合队伍口径/);
+  assert.match(huainan.notes.join(' '), /夹注引《五代史》.*不另计独立目击/);
+
+  const expedition = event('niu-cunjie-xu-expedition');
+  assert.match(expedition.sourceDate, /五代春秋实文乾化四年九月/);
+  assert.match(expedition.variants.find(variant =>
+    variant.evidence.some(ref => ref.paragraphId === 'chunqiu-v001-p9')).summary,
+    /夹注.*乾化三年九月.*原文实际是甲戌四年九月/);
+
+  const revolt = event('niu-cunjie-xuzhou-revolt');
+  const secondMonth = revolt.variants.find(variant =>
+    variant.evidence.some(ref => ref.paragraphId === 'shiguochunqiu-v002-p14'));
+  assert.match(secondMonth.label, /正文.*二月/);
+  assert.match(secondMonth.summary, /《庄宗列传》.*上年十一月/);
+  assert.match(secondMonth.summary, /不当成当前独立原书已核/);
+
+  const publicFields = document.events.flatMap(item => [
+    item.title, item.summary, item.sourceDate, ...(item.notes ?? []),
+    ...(item.variants ?? []).flatMap(variant =>
+      [variant.label, variant.summary, ...(variant.notes ?? [])]),
+  ]).filter(Boolean).join(' ');
+  assert.doesNotMatch(publicFields, /CeJS|Date_to|lunar2solar|儒略历|负控|年首和逐日边界算法|899\/2\/14|900\/2\/4|901\/1\/23/);
 });
 
 test('all added military facts cite current originals and derive once for each endpoint', () => {
