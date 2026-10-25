@@ -59,13 +59,46 @@
       ]
     },
     {
+      "id": "ge-congzhou-sizhou-aid",
+      "title": "受命救司州，未及抵达城已陷",
+      "summary": "鹿宴弘求援，朱温派葛从周等率军赴救；援军未到，城已陷、鹿宴弘遇害。",
+      "year": 886,
+      "precision": "month",
+      "sourceDate": "光启二年七月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p15",
+          "originalRevision": 1,
+          "originalSha256": "5cd4440d1d70f6e30d0d860322eb207dfcbf50017227c14c400ee1dce3f57aa5",
+          "excerpt": "七月，蔡人逼司州，節度使鹿宴弘使來求救，帝遣葛從周等率師赴援。師未至而城陷，宴弘為蔡賊所害。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p11",
+          "originalRevision": 1,
+          "originalSha256": "be25a452266564a5f1d18668aa4274e8cb17a8af7dc3919be2097472dcb87c2c",
+          "excerpt": "光啟元年春，蔡賊掠亳、頴二郡，帝帥師以救之，遂東至于焦夷，敗賊眾數千，生擒賊將鐵林，梟首以狥軍而還。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p12",
+          "originalRevision": 1,
+          "originalSha256": "b93e7595ad2deb60e46140649cf1f05f360e7850939805e6745ad8b5e70bb89e",
+          "excerpt": "二年春，蔡賊益熾。"
+        }
+      ],
+      "sortOrder": 0
+    },
+    {
       "id": "ge-congzhou-heyang",
       "title": "救魏博与河阳",
       "summary": "文德元年随朱温渡河破魏军；又与丁会、张存敬、牛存节援张全义，击退河东军，解除河阳之围。",
       "year": 888,
       "sortOrder": 2,
       "precision": "year",
-      "sourceDate": "文德元年，本纪四月明列葛从周同援河阳，锁888；康本传同役三月异说另保",
+      "sourceDate": "文德元年；旧史本纪记四月，李罕之传接三月",
       "phase": "service",
       "evidence": [
         {
@@ -88,6 +121,62 @@
           "originalRevision": 1,
           "originalSha256": "745048082d31f2163299df8bc3011cb9f27fc17443c6248dcca4c54d3157bb24",
           "excerpt": "是月，河南尹張全義襲李罕之于河陽，克之。罕之單騎出奔，因乞師于太原，李克用為發萬騎以援之。罕之遂收其眾，偕晉軍合勢，急攻河陽。全義危急，遣使求救于汴，帝遣丁會、牛存節、葛從周領兵赴之，大戰于溫縣，晉人與罕之俱敗。于是河橋解圍，全義歸于河陽，因以丁會為河陽留後。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p27",
+          "originalRevision": 1,
+          "originalSha256": "745048082d31f2163299df8bc3011cb9f27fc17443c6248dcca4c54d3157bb24",
+          "excerpt": "帝遣丁會、牛存節、葛從周領兵赴之，大戰于溫縣，晉人與罕之俱敗。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p27",
+          "originalRevision": 1,
+          "originalSha256": "745048082d31f2163299df8bc3011cb9f27fc17443c6248dcca4c54d3157bb24",
+          "excerpt": "四月戊辰，魏博樂彥禎失律，其子從訓出奔相州，使來乞師。"
+        }
+      ],
+      "notes": [
+        "诸传分别记温县、沇河／沇水、流河店等战地和不同军数，不拼成唯一阵位或兵数。前段魏博救援与后段河阳救援分开。"
+      ],
+      "variants": [
+        {
+          "label": "李罕之旧传三月流河店",
+          "sourceDate": "文德元年春、三月",
+          "summary": "李罕之传接三月记李存孝率三万、葛从周与牛存节战流河店；与本纪四月温县、葛传二万口径分源，不补唯一阵位或总人数。",
+          "evidence": [
+            {
+              "chapterId": "old-v015",
+              "paragraphId": "old-v015-p9",
+              "originalRevision": 1,
+              "originalSha256": "829bfc52ec26f82e2f379e808c0715894a112184268b248c0d3881d975b62d78",
+              "excerpt": "文德元年春，會罕之盡出其眾攻平陽，言夜出師掩擊河陽，罕之無備，單步僅免，舉族為言所俘。罕之奔於太原，李克用表為澤州刺史，仍領河陽節度使。三月，克用遣其將李存孝率師三萬助之，來攻懷、孟。城中食盡，備豫皆竭，張言遣其孥入質，且求救於太祖；太祖遣葛從周、牛存節赴之，逆戰於流河店。會晉將安休休以一軍奔於蔡，存孝引軍而退，罕之保於澤州。"
+            }
+          ],
+          "year": 888
+        },
+        {
+          "label": "新史沇河与沇水的记法",
+          "sourceDate": "河阳救援，丁会传作光启四年",
+          "summary": "葛新传作沇河；丁会新传作沇水、会与葛等率万人。保留各书记法，不把一万出兵与旧葛传二万杀获混为同一统计。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p31",
+              "originalRevision": 1,
+              "originalSha256": "a67503cd6c4c19c49e8d9b1435f7bf2861584a0205c76db413869b79fd325275",
+              "excerpt": "張全義襲李罕之於河陽，罕之奔晉，召晉兵以攻全義，全義乞兵於梁，太祖遣從周、丁會等救之，敗晉兵於沇河。"
+            },
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p11",
+              "originalRevision": 1,
+              "originalSha256": "cde90178121978745021b6144f6dd6c60eaf189caa4e2a68d1b62130cb7e9091",
+              "excerpt": "光啟四年，東都張全義襲破河陽，逐李罕之，罕之召晉兵圍河陽，全義告急。是時，梁軍在魏，乃遣會及葛從周等將萬人救之。會等行至河陰，謀曰：「罕之料吾不敢渡九鼎，以吾兵少而來遠，且不虞吾之速至也。出其不意，掩其不備者，兵家之勝策也。」乃渡九鼎，直趨河陽，戰于沇水，罕之大敗，河陽圍解。"
+            }
+          ],
+          "year": 888
         }
       ]
     },
@@ -107,6 +196,41 @@
           "originalRevision": 1,
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "大順元年八月，并帥圍潞州，太祖遣從周率敢死之士，夜銜枚犯圍而入，會王師不利於馬牢川，即棄上黨而歸。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p35",
+          "originalRevision": 1,
+          "originalSha256": "4135f755bd5cc518b1f00079d28eb5cadfd5289dc794b3fcdb7d4fa4c6da3e97",
+          "excerpt": "戊辰，李克用自率蕃漢步騎數萬以圍潞州，帝遣葛從周率驍勇之士，夜中銜枚犯圍而入于潞。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p36",
+          "originalRevision": 1,
+          "originalSha256": "17ff15e9902bbf3600ad7976af76e9fe31437d5500a7005892742b3474272baf",
+          "excerpt": "旣而崇節、從周棄潞來歸。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p35",
+          "originalRevision": 1,
+          "originalSha256": "4135f755bd5cc518b1f00079d28eb5cadfd5289dc794b3fcdb7d4fa4c6da3e97",
+          "excerpt": "八月甲寅，昭義都將馮霸殺沙陀所署節度使李克恭來降，帝請河陽節度使朱崇節為潞州留後。戊辰，李克用自率蕃漢步騎數萬以圍潞州，帝遣葛從周率驍勇之士，夜中銜枚犯圍而入于潞。案舊唐書：五月，潞州軍亂，殺其帥李克恭。七月，朱全忠遣大將葛從周率千騎入潞州。薛史統作八月，蓋據入潞之月而追言之也。"
+        },
+        {
+          "chapterId": "old-v025",
+          "paragraphId": "old-v025-p23",
+          "originalRevision": 1,
+          "originalSha256": "48f0e88125b39dabf8ae23058fd1277f5ef3533bae9e6b799760b5d01a697f16",
+          "excerpt": "五月，潞州軍亂，殺節度使李克恭，州人推牙將安居受為留後，南結汴將。時潞之小將馮霸擁叛徒三千騎駐於沁水，居受使人召之，馮霸不至。居受懼，出奔至長子，為村胥所殺，傳首於霸；霸遂入潞州，自為留後。武皇遣大將康君立、李存孝等攻之，汴將朱崇節、葛從周率兵入潞州以固之。"
+        },
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p7",
+          "originalRevision": 1,
+          "originalSha256": "ad0cedf5cf88bdb8e4461581acecff39c929c1e83e8866e68c563a4d3dc5d414",
+          "excerpt": "時朝廷命京兆尹孫揆為昭義節度使，令供奉官韓歸范送旌節至平陽，揆乃仗節之潞；梁祖與揆牙兵三千為紀綱，時揆為張浚副招討，所部萬人。八月，自晉、絳逾刀黃嶺趨上黨。存孝引三百騎伏於長子西崖間。揆褒衣大蓋，擁眾而行，俟其軍前後不屬，存孝出騎橫擊之，擒揆與歸范及俘囚五百，獻於太原；存孝乃急攻潞州。"
         }
       ],
       "variants": [
@@ -139,6 +263,9 @@
           ],
           "year": 890
         }
+      ],
+      "notes": [
+        "旧史本纪夜入记八月，夹引《旧唐书》记七月；李克用本纪在五月潞乱后接述葛、朱崇节入防，不据段首五月推定入城确月。葛非杀李克恭或擒孙揆者。"
       ]
     },
     {
@@ -157,6 +284,27 @@
           "originalRevision": 1,
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "明年正月，大破魏軍於永定橋，魏軍五敗，斬首萬餘級。十月，佐丁會攻宿州，從周壅水灌其城，刺史張筠以郡降。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p38",
+          "originalRevision": 1,
+          "originalSha256": "6949154afa91ede91fac7debe9fe644377b81276b886eecde9ff96042ba1f5c4",
+          "excerpt": "十二月辛丑，帝遣丁會、葛從周率眾渡河取黎陽、臨河"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p4",
+          "originalRevision": 1,
+          "originalSha256": "8dcfb4db18e2a7e8bfb4fcf76665bb4f6e8c9b8249b2cd4bbe3421aeabe7a93d",
+          "excerpt": "太祖之討宿州也，葛從周以水壞其垣，丁會以師乘其墉，存戰壘外，敗其軍，宿人乃降。"
+        },
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
+          "excerpt": "大順元年八月，并帥圍潞州，太祖遣從周率敢死之士，夜銜枚犯圍而入，會王師不利於馬牢川，即棄上黨而歸。其年十二月，與丁會諸將討魏州，連收十邑。明年正月，大破魏軍於永定橋，魏軍五敗，斬首萬餘級。"
         }
       ],
       "variants": [
@@ -180,7 +328,24 @@
               "excerpt": "八月己丑，帝遣丁會急攻宿州，刺史張筠堅守其壁，會乃率眾于州東築堰，壅汴水以浸其城。十月壬午，筠遂降，宿州平。案：舊唐書作十一月，汴軍陷宿州，與薛史異。歐陽史及新唐書、通鑑俱從薛史作十月。"
             }
           ]
+        },
+        {
+          "label": "丁会新传的连叙",
+          "sourceDate": "大顺元年",
+          "summary": "丁会新传在大顺元年下连叙取黎阳、临河和内黄败魏，葛旧传将十二月取邑与明年正月永定桥分记；各依原书。",
+          "evidence": [
+            {
+              "chapterId": "new-v44",
+              "paragraphId": "new-v44-p12",
+              "originalRevision": 1,
+              "originalSha256": "02b2c5f86356e8a72c609fa7de11dd1e2452b966779be07093ffa2c79ef4fcbc",
+              "excerpt": "大順元年，梁軍擊魏，會及葛從周破黎陽、臨河，遂敗羅弘信于內黃。"
+            }
+          ]
         }
+      ],
+      "notes": [
+        "大顺元年十二月丁会、葛从周渡河取黎阳、临河，随后二年正月战永定桥；两项均在西历891年，不能把前项直写890年。宿州本纪八月始攻、十月降，夹引旧唐书十一月异说；葛水攻、丁会登城、霍存城外作战分别有据。"
       ]
     },
     {
@@ -201,6 +366,32 @@
           "excerpt": "景福二年二月，與諸將大破徐、兗之兵於石佛山。八月，與龐師古同攻兗州。"
         }
       ]
+    },
+    {
+      "id": "ge-congzhou-qizhou",
+      "title": "受庞师古命为先锋攻齐州",
+      "summary": "庞师古派葛从周以先锋军攻齐州，刺史朱威向兖郓求援；朱瑄援兵到后齐州得以固守，原段未记葛攻克。",
+      "year": 894,
+      "precision": "month",
+      "sourceDate": "景福二年十二月，已跨西历894年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p49",
+          "originalRevision": 1,
+          "originalSha256": "0950faff0fd8211a65963d458684a0cd2fa7a1f5dc5bae07b8072188a663db86",
+          "excerpt": "十二月，師古遣先鋒葛從周引軍以攻齊州，刺史朱威告急于兗、鄆。旣而朱瑄以援兵至，遂固其壘。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p47",
+          "originalRevision": 1,
+          "originalSha256": "36f43a5787fe5a426ad5fc4d79dc4dd0f79081fdde26c8c7214ab6cb71494826",
+          "excerpt": "二年四月丁丑，師古下彭門，梟溥首以獻。通鑑考異引薛史梁紀。案：冊府元龜引薛史，于景福二年事多所刪節。考異是年春有石佛山之戰，今不載。"
+        }
+      ],
+      "sortOrder": 0
     },
     {
       "id": "ge-congzhou-xintai",
@@ -238,12 +429,45 @@
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "二年十月，圍兗州，兗人不出，從周詐揚言并人、鄆人來救，即引軍趨高吳，夜半卻潛歸寨。朱瑾果出兵攻外壕，我軍士突出，掩殺千餘人，生擒都將張漢筠。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧史本纪十二月与将领名数",
+          "sourceDate": "乾宁二年十二月；该月跨895—896年",
+          "summary": "本纪记十二月复伐兖、俘孙汉筠以下二十人，并明注与本传十月不同；本传作张汉筠。两种记法均保留，不强定同一月份、姓名或人数。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p57",
+              "originalRevision": 1,
+              "originalSha256": "dcc9f359cd8d9119db909c3cc36760edba92209761b92e57480f45fcdbae9e18",
+              "excerpt": "十二月，葛從周領兵復伐兗。"
+            },
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p57",
+              "originalRevision": 1,
+              "originalSha256": "dcc9f359cd8d9119db909c3cc36760edba92209761b92e57480f45fcdbae9e18",
+              "excerpt": "又，薛史葛從周傳作十月事。旣至，與朱瑾戰于壘下，殺千餘眾，擒其將孫漢筠已下二十人，遂旋師。"
+            },
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p51",
+              "originalRevision": 1,
+              "originalSha256": "545b8f3f6de0e8c874947d84c963c76fcaf3c3285b2ce3e0d2328ec23f42d5a2",
+              "excerpt": "二年正月癸亥，遣朱友恭帥師復伐兗，遂塹而圍之。"
+            }
+          ],
+          "notes": [
+            "该来源月份横跨西历895—896年，不强定单一年。"
+          ]
+        }
       ]
     },
     {
       "id": "ge-congzhou-luoluo",
       "title": "洹水之战擒落落",
-      "summary": "晋军进魏博，葛从周击李克用之子落落所领骑军，在洹水擒落落。",
+      "summary": "旧史葛传记葛从周以二千步骑击落落二千骑，并在阵前擒获落落；新史葛传另记先胜后败而梁军擒落落，张归霸传则归擒获之功于张归霸。",
       "year": 896,
       "sortOrder": 8,
       "precision": "year",
@@ -272,13 +496,135 @@
               "excerpt": "晉攻魏，魏人求救，太祖遣侯言救魏，言築壘于洹水。太祖怒言不出戰，遣從周代言。從周至軍，益閉壘不出，而鑿三闇門以待，晉兵攻之，從周以精兵自闇門出擊，敗晉王兵。晉王怒，自將擊從周，從周雖大敗，而梁兵擒其子落落，送于魏，斬之。"
             }
           ]
+        },
+        {
+          "label": "张归霸擒落落",
+          "sourceDate": "晋攻魏、洹水之战",
+          "summary": "张归霸新传明确他随葛救魏并擒落落交魏人，旧传也以归霸为行事主体；与葛传亲擒分源并列。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p30",
+              "originalRevision": 1,
+              "originalSha256": "32565579e46e799a9706089064e7bb8bb303f46ad7cbe2a1bbc8c5297d95201f",
+              "excerpt": "晉人攻魏，歸霸從葛從周救魏，戰洹水，歸霸擒克用子落落以與魏人。"
+            },
+            {
+              "chapterId": "old-v016",
+              "paragraphId": "old-v016-p14",
+              "originalRevision": 1,
+              "originalSha256": "872deb4abcb97e3ed97294db82dc2a4d3195a2bc8edcf4ad87932b9cc00c67bd",
+              "excerpt": "又佐葛從周與晉軍戰於洹水，生獲克用愛子落落。"
+            }
+          ]
+        },
+        {
+          "label": "旧史本纪六月三千骑",
+          "sourceDate": "乾宁三年五月屯洹，六月交战",
+          "year": 896,
+          "summary": "本纪记六月落落率铁林小儿三千骑，葛生擒以献，朱温拒赎后送罗弘信斩；不替换葛传五月二千。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p62",
+              "originalRevision": 1,
+              "originalSha256": "240e9dbea69d83e3054fcf018fe218c2fee91d8589de351c37669e163eeae8d4",
+              "excerpt": "六月，李克用帥蕃漢諸軍營于斥丘，遣其男落落將鐵林小兒三千騎薄于洹水。從周與戰，大敗之，生擒落落以獻。"
+            },
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p61",
+              "originalRevision": 1,
+              "originalSha256": "d156f0f87743be7404d3a8968dbce3f25e7661a808390465b7828db44c64fc1c",
+              "excerpt": "五月，命葛從周統軍屯于洹水，以備蕃軍。"
+            }
+          ]
+        },
+        {
+          "label": "李克用旧本纪七月落落被擒",
+          "sourceDate": "乾宁三年五月赴援；七月落落被擒",
+          "summary": "李克用本纪五月记葛、氏赴援，七月接记落落被擒及李克用救战，不替换葛传五月、本纪六月的月次。",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p15",
+              "originalRevision": 1,
+              "originalSha256": "6ac8a1a05e5ed9f7142bbf7140c8e3ae7739c6c0aad06be5f29018a89c9ae056",
+              "excerpt": "乾寧三年正月，汴人大舉以攻兗、鄆，朱瑄、朱瑾再乞師於武皇，假道於魏州，羅宏信許之。"
+            },
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p15",
+              "originalRevision": 1,
+              "originalSha256": "6ac8a1a05e5ed9f7142bbf7140c8e3ae7739c6c0aad06be5f29018a89c9ae056",
+              "excerpt": "五月，汴將葛從周、氏叔琮引兵赴援。"
+            },
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p16",
+              "originalRevision": 1,
+              "originalSha256": "a6eddb66504e306151f60d80006b16714b69b474ab8f86d1c61b54ab271527db",
+              "excerpt": "七月，車駕幸華州。是月，武皇與汴軍戰於洹水之上，鐵林指揮使落落被擒。落落，武皇之長子也。既戰，馬踣於坎，武皇馳騎以救之，其馬亦踣，汴之追兵將及，武皇背射一發而斃，乃退。"
+            }
+          ],
+          "year": 896
+        },
+        {
+          "label": "张归厚与归弁旧传的洹水旁记",
+          "sourceDate": "归厚传景福初后的明年；归弁传乾宁中，未证与落落同役",
+          "summary": "归厚传以与葛禦晋叙共战，归弁传以偏师佐葛叙辅战；只保各段相对年次与关系层级，不因洹水同名而定为896年的同一次战事。",
+          "evidence": [
+            {
+              "chapterId": "old-v016",
+              "paragraphId": "old-v016-p20",
+              "originalRevision": 1,
+              "originalSha256": "3ccc6231be07ed07af6e7ba5278a71602b1949f924bc91d2e0dbfcd891df44bc",
+              "excerpt": "景福初，從太祖伐鄆，帝軍不利，太祖為寇所逼，歸厚殿馬翼衛，左右馳射，矢發如雨，賊騎千百，披靡而退。明年，與葛從周禦晉軍於洹水，殊績尤著。"
+            },
+            {
+              "chapterId": "old-v016",
+              "paragraphId": "old-v016-p22",
+              "originalRevision": 1,
+              "originalSha256": "7bceebd6007865062b2b0bda7de33d8e8de6b39c3600f3db2f46a6d84244219c",
+              "excerpt": "乾寧中，以偏師佐葛從周禦并軍於洹水。"
+            }
+          ]
         }
+      ],
+      "notes": [
+        "旧史本纪分五月屯军、六月落落三千骑来战，葛传记五月二千骑；李克用本纪接七月记落落被擒。送罗弘信处斩的行为不能写为葛从周亲斩。张归厚传景福初后明年的洹水共战、张归弁乾宁中辅葛，均不因地名相同强并此役。"
       ]
+    },
+    {
+      "id": "ge-congzhou-zongcheng-defeat",
+      "title": "援临清，在宗城北败于李存信",
+      "summary": "李存信攻魏博临清，葛从周等率军来援，在宗城北战败；李存信乘胜进攻魏州。",
+      "year": 896,
+      "precision": "month",
+      "sourceDate": "乾宁三年九月",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p17",
+          "originalRevision": 1,
+          "originalSha256": "8da9fa2ad94ee11308b73c6ef0073e71e8c3041b0e43d919795373cdc9b8f09d",
+          "excerpt": "九月，李存信攻魏之臨清，汴將葛從周等引軍來援，大敗於宗城北。存信進攻魏州。"
+        },
+        {
+          "chapterId": "old-v053",
+          "paragraphId": "old-v053-p3",
+          "originalRevision": 1,
+          "originalSha256": "fb649e66c6529b55bd7b2d275bef8fde86904ee93d652bdf2e1002b7510862d7",
+          "excerpt": "九月，存信敗葛從周於宗城，乘勝至魏州之北門。"
+        }
+      ],
+      "sortOrder": 9
     },
     {
       "id": "ge-congzhou-yunyanzhou",
       "title": "下郓州、受兖州降",
-      "summary": "梁军攻下郓州后，葛从周乘胜伐兖，康怀英在朱瑾外出时献城，他获兖州留后。",
+      "summary": "梁军下郓州后，葛从周追擒朱瑄及其家属，又乘胜伐兖，康怀英在朱瑾外出时献城，他获兖州留后。",
       "year": 897,
       "sortOrder": 9,
       "precision": "year",
@@ -291,6 +637,27 @@
           "originalRevision": 1,
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "遂自洹水與龐師古渡河擊鄆。四年正月，下之。從周乘勝伐兗，會朱瑾出師在徐境，其將康懷英以城降。以功授兗州留後、檢校司空。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p64",
+          "originalRevision": 1,
+          "originalSha256": "5a8e696756fbe35ea2e3b814281c2a1dea3c3c799c216f21e0c270fda53b8b86",
+          "excerpt": "葛從周逐之至中都北，擒瑄并其妻男以獻"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p64",
+          "originalRevision": 1,
+          "originalSha256": "5a8e696756fbe35ea2e3b814281c2a1dea3c3c799c216f21e0c270fda53b8b86",
+          "excerpt": "四年正月，帝以洹水之師大舉伐鄆。辛卯，營于濟水之次，案胡三省云：漢以後無濟水，此濟水蓋即鄆城清河水也。龎師古令諸將撤木為橋。乙未夜，師古以中軍先濟，聲振于鄆，朱瑄聞之，棄壁夜走。葛從周逐之至中都北，擒瑄并其妻男以獻，案：自「辛卯營于濟水之次」至此，又見通鑑考異，惟中少數字，蓋引書間有刪節也。尋斬汴橋下。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p64",
+          "originalRevision": 1,
+          "originalSha256": "5a8e696756fbe35ea2e3b814281c2a1dea3c3c799c216f21e0c270fda53b8b86",
+          "excerpt": "時帝聞朱瑾與史儼兒在豐沛間搜索糧饋，惟留康懷英守兗州，帝因乘勝遣葛從周以大軍襲兗。懷英聞鄆失守，俄又我軍大至，乃出降。朱瑾、史儼兒遂奔淮南。兗、海、沂、密等州平。案新唐書昭宗紀：四年正月丙申，朱全忠陷鄆州，天平軍節度朱宣死之。二月，朱全忠寇兗州，泰寕軍節度使朱瑾奔于淮南。舊唐書：正月癸未，汴將龎師古陷鄆州。二月戊申，汴將葛從周陷兗州。與薛史月日前後不同，詳見通鑑考異。乃以葛從周為兗州留後。"
         }
       ],
       "variants": [
@@ -321,7 +688,25 @@
               "excerpt": "四年正月，鄆州先下，瑾亦糧盡，與晉將李承嗣、史儼求軍食于野。梁將龎師古奄至城下，瑾將康懷貞率瑾子私以兖城送款，歸不得入，引承嗣諸軍將保沂州，爲其將尹處賓拒關不納。瑾狼狽將奔海上，復追之，迫乃渡淮，歸于行密。"
             }
           ]
+        },
+        {
+          "label": "牛存节旧传四月叙次",
+          "sourceDate": "乾宁四年四月，寻降兖",
+          "year": 897,
+          "summary": "牛存节旧传将陷郓列四月，接述与葛降兖；不替换正月主记。",
+          "evidence": [
+            {
+              "chapterId": "old-v022",
+              "paragraphId": "old-v022-p9",
+              "originalRevision": 1,
+              "originalSha256": "4658be5554c23e4fd2184f3472f61b115e70cbf3d6cd2218766407fd228b0d9f",
+              "excerpt": "四年四月，陷其城，尋與葛從周降下兗州，加檢校右僕射。"
+            }
+          ]
         }
+      ],
+      "notes": [
+        "朱瑄随后被斩的句子未明定葛从周为施事。葛旧传、本纪正月总叙；本纪夹引旧唐书二月葛陷兖，新唐书二月朱瑾奔淮南；牛存节旧传四月陷郓后接与葛降兖，各书月次独立保留。"
       ]
     },
     {
@@ -331,7 +716,7 @@
       "year": 897,
       "sortOrder": 10,
       "precision": "year",
-      "sourceDate": "乾宁四年清口败后返军；庞师古同役十一月合法897年11月28日至12月27日",
+      "sourceDate": "乾宁四年南征；旧史庞传十一月记清口败，葛在闻败后撤军",
       "phase": "service",
       "evidence": [
         {
@@ -375,11 +760,78 @@
           "originalRevision": 1,
           "originalSha256": "edfe97c5b5828917286f2e9f89e3963cc6bd0af87432679e2974e8f587c83d5e",
           "excerpt": "龎師古宼青口，葛從周寨渒河，志誠俱爲前鋒，連戰皆勝，以功遷馬軍指揮使。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p67",
+          "originalRevision": 1,
+          "originalSha256": "82a5645309431ba877fd757912b3c95e48a2c6a55b9c8f2a27e7423a1b946b7a",
+          "excerpt": "九月，帝以兗、鄆旣平，將士雄勇，遂大舉南征。案舊唐書昭宗紀，師古渡淮在十月，而清口之敗在十一月，薛史繫于九月，蓋舉南征之議實始于九月，其後遂終言之耳。歐陽史改作九月攻淮南。則清口之役，乃因雨雪而敗，有九國志可據，斷非九月事也。命龎師古以徐、宿、宋、滑之師直趨清口，葛從周以兗、鄆、曹、濮之眾徑赴安豐。淮人遣朱瑾領兵以拒師古，因決水以浸軍，遂為淮人所敗，師古歿焉。葛從周行及濠梁，聞師古之敗，亦命班師。"
+        },
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p5",
+          "originalRevision": 1,
+          "originalSha256": "55d7e712fa4d6206c57fce961e2ac2c8e101eb4db09ebe69f0207ad678ea82cc",
+          "excerpt": "四年，梁祖平兗、鄆，朱瑾及沙陀將李承嗣、史儼等皆奔淮南，行密待之優厚，任以為將，瑾與承嗣皆位至方伯。"
+        },
+        {
+          "chapterId": "old-v134",
+          "paragraphId": "old-v134-p5",
+          "originalRevision": 1,
+          "originalSha256": "55d7e712fa4d6206c57fce961e2ac2c8e101eb4db09ebe69f0207ad678ea82cc",
+          "excerpt": "八月，梁祖遣葛從周領步騎萬人自霍丘渡淮，遣龐師古率大軍營於清口。淮人決堰縱水，流潦大至。又令朱瑾率勁兵以襲汴軍，汴軍大敗，師古死之。葛從周聞師古之敗，自濠梁班師，至淠河，為淮人所乘，諸軍僅得北歸。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p29",
+          "originalRevision": 1,
+          "originalSha256": "84233b1b259e80c834eceed9ebcba28009798028f4219e502fe1a20f6838beb2",
+          "excerpt": "祐，歷陽人。"
+        },
+        {
+          "chapterId": "jiuguozhi-v002",
+          "paragraphId": "jiuguozhi-v002-p29",
+          "originalRevision": 1,
+          "originalSha256": "84233b1b259e80c834eceed9ebcba28009798028f4219e502fe1a20f6838beb2",
+          "excerpt": "敗龎師古、葛從周、朱友寕，皆預戰有功。"
         }
       ],
       "notes": [
         "补葛屯寿州、庞营清口与先破庞而葛自走；原濠州/渒河/撤军主文和各源保持。",
-        "本源朱瑾传作葛渒河败走，米志诚传作葛寨渒河、米为前锋；不改旧濠州闻败撤军和渒河追击的过程，也不用陈祐传泛言败葛强定某一役。"
+        "本源朱瑾传作葛渒河败走，米志诚传作葛寨渒河、米为前锋；不改旧濠州闻败撤军和渒河追击的过程，也不用陈祐传泛言败葛强定某一役。",
+        "八月出师、九月议南征、十月渡淮与十一月清口败须分层；安丰出军、寿州西北驻营受挫、濠州闻败、渒水半济被追是不同阶段。葛未被证明已到清口会师。牛存节收八千与区域书还不足千各保口径。"
+      ],
+      "variants": [
+        {
+          "label": "寿州受挫与渒水半济",
+          "sourceDate": "乾宁四年十一月清口败前后",
+          "year": 897,
+          "summary": "十国春秋先记朱延寿破葛于寿州西北，葛退濠后闻庞败，杨、朱瑾、朱延寿追至渒水半济合击；与旧葛传只述闻败撤军、新葛传渒河追败分层保存。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v001",
+              "paragraphId": "shiguochunqiu-v001-p13",
+              "originalRevision": 1,
+              "originalSha256": "d067ffb3b7c33baa72c605e12b8dc35144bf98813b158c71e7659a30d978b504",
+              "excerpt": "時葛從周營壽州西北，壽州團練使朱延壽擊破之，退屯濠州，聞師古敗，奔還。王與瑾、延壽乘勝追之，及於渒水。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v001",
+              "paragraphId": "shiguochunqiu-v001-p13",
+              "originalRevision": 1,
+              "originalSha256": "d067ffb3b7c33baa72c605e12b8dc35144bf98813b158c71e7659a30d978b504",
+              "excerpt": "從周方半濟，我兵合擊之，殺溺殆盡，從周僅走免。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v001",
+              "paragraphId": "shiguochunqiu-v001-p13",
+              "originalRevision": 1,
+              "originalSha256": "d067ffb3b7c33baa72c605e12b8dc35144bf98813b158c71e7659a30d978b504",
+              "excerpt": "遏後都指揮使牛存節棄馬步鬭，諸軍稍得濟淮，凡四日不食，會大雪，汴卒緣道餓死，還者不盈千人。〈五代史又云牛存節收其散卒八千以歸，今從通鑑。〉"
+            }
+          ]
+        }
       ]
     },
     {
@@ -398,6 +850,47 @@
           "originalRevision": 1,
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "光化元年四月，率師經略山東，時并帥以大軍屯邢、洺，從周至钜鹿與并軍遇，大破之，并帥遁走。我軍追襲至青山口，數日之內，邢、洺、磁三州連下，斬首二萬級，獲將吏一百五十人，即以從周兼領邢州留後。"
+        }
+      ],
+      "notes": [
+        "光化元年前期为原书回称年号，保原文。旧史本纪分四月攻洺、五月马师素弃邢及袁奉滔自刎，五日三州；新葛传作葛斩邢善益、走马师素、杀袁奉滔。留后／节度使的来源职名不强统一。"
+      ],
+      "variants": [
+        {
+          "label": "旧史本纪四五月与袁奉滔结局",
+          "sourceDate": "光化元年四月、五月",
+          "year": 898,
+          "summary": "本纪将攻洺与邢磁结局分两月，袁奉滔为自刎；新史葛传作杀袁。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p1",
+              "originalRevision": 1,
+              "originalSha256": "3ef9b4f63e4478b48cbd8e24b752b5d28897dbbbb1f0a5c792608b551eb15d22",
+              "excerpt": "丁卯，遣從周分兵攻洺州，斬刺史邢善益，擒將五十餘人。五月己巳，邢州刺史馬師素棄城遁去。辛未，磁州刺史袁奉滔自剄而死。"
+            },
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p32",
+              "originalRevision": 1,
+              "originalSha256": "539a23e12e76f3c848cda808146215460f709f4185a57ad93ffce4f54366465c",
+              "excerpt": "又下磁州，殺其刺史袁奉滔。"
+            }
+          ]
+        },
+        {
+          "label": "李克用旧本纪的邢州节度使称谓",
+          "sourceDate": "四月三州连陷后，未独记授职日",
+          "summary": "李克用旧本纪作邢州节度使，保留该书职名，与原有留后及节度使留后的记法并列，不统一改称。",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p21",
+              "originalRevision": 1,
+              "originalSha256": "6502d6b4a26767fb25018401a715af1feb3d411ee9ec313669b422437cddd4c3",
+              "excerpt": "四月，汴將葛從周寇邢、洺、磁等州，旬日之內，三州連陷。汴人以葛從周為邢州節度使。"
+            }
+          ]
         }
       ]
     },
@@ -424,8 +917,63 @@
           "originalRevision": 1,
           "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
           "excerpt": "十月，復破并軍五千騎於張公橋。晉將李嗣昭急攻邢州，陣於城門外，從周大破之，擒蕃將賁金鐵、慕容騰百餘人。"
+        },
+        {
+          "chapterId": "new-v04",
+          "paragraphId": "new-v04-p16",
+          "originalRevision": 1,
+          "originalSha256": "611a52a6f5b978580a21b58df621ddaf8cdfb6fc3dee4d789d886ac0d6ce7808",
+          "excerpt": "克用遣周德威出青山口，遇從周于張公橋，德威大敗。"
+        }
+      ],
+      "notes": [
+        "黄文靖传另记沙河败五千余骑、追越张公桥，十日后邢北再战。地点和俘将字形依书，未把后场日子补成十月某日。"
+      ],
+      "variants": [
+        {
+          "label": "黄文靖旧传沙河与旬日后邢北",
+          "sourceDate": "光化初；后旬日，未独记确月",
+          "summary": "黄文靖传记佐葛在沙河败五千余骑、追过张公桥，旬日后在邢北再战；只保本段相对间隔，不推算十月某日或抹平俘将字形。",
+          "evidence": [
+            {
+              "chapterId": "old-v019",
+              "paragraphId": "old-v019-p18",
+              "originalRevision": 1,
+              "originalSha256": "1410a6c25acbf6eee3ffaad2c98d277a6a42cc7c48ebac1d8b034aa90dccf77b",
+              "excerpt": "光化初，晉將李嗣昭、周德威寇於山東，文靖佐葛從周統大軍禦之。至沙河，敗晉軍五千餘騎，遂逐之，越張公橋乃止。後旬日，復與晉人戰於邢州之北，擒蕃將賁金鐵、慕容藤、李存建等百餘人，奪馬數千匹。"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "ge-congzhou-guanghua-yuci",
+      "title": "与氏叔琮进承天辽州，军败洞涡",
+      "summary": "李克用旧本纪于光化二年三月记葛从周、氏叔琮由土门攻承天军、辽州并进榆次，随后周德威在洞涡驿破汴军、氏叔琮退走。",
+      "year": 899,
+      "precision": "month",
+      "sourceDate": "光化二年三月；本条依李克用旧本纪",
+      "phase": "service",
+      "notes": [
+        "新史梁本纪同年四月另记氏叔琮攻太原不克，未具葛；本条不借此补葛抵太原。与901年诸路围太原相似地点的叙法分别保留，不宣称已证为同役误年或两次完全相同战程。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v026",
+          "paragraphId": "old-v026-p24",
+          "originalRevision": 1,
+          "originalSha256": "4604e0e693cc1da9b4dd63b706f3602708d0171c30d0b99eed79519d3239b861",
+          "excerpt": "三月，汴將葛從周、氏叔琮自土門陷承天軍，又陷遼州，進軍榆次。武皇令周德威擊之，敗汴軍於洞渦驛，叔琮棄營而遁，德威追擊，出石會關，殺千餘人。"
+        },
+        {
+          "chapterId": "new-v01",
+          "paragraphId": "new-v01-p11",
+          "originalRevision": 1,
+          "originalSha256": "d0596c8983a05874447a068362c264276d4db2adfefb0b3708d9b8f0f5fb8dea",
+          "excerpt": "二年，幽州劉仁恭攻魏，羅紹威來求救。王救魏，敗仁恭于內黃。四月，遣氏叔琮攻晉太原，不克。"
+        }
+      ],
+      "sortOrder": 12
     },
     {
       "id": "ge-congzhou-wei-rescue",
@@ -443,6 +991,40 @@
           "originalRevision": 1,
           "originalSha256": "6886fee2a4b1e57485c139990f0f6e7eba1efbbbb464680af75fd6c77a1753db",
           "excerpt": "二年春，幽州劉仁恭率軍十萬寇魏州，屠貝郡。從周自邢台馳入魏州，燕軍突上水關，攻館陶門。從周與賀德倫率五百騎出戰，謂門者曰：「前有敵，不可返顧！」命闔其門。從周等極力死戰，大敗燕人，擒都將薛突厥、王郃郎等。翌日，破其八寨，追擊至臨清，劉仁恭走滄州，從周授宣義軍行軍司馬。"
+        },
+        {
+          "chapterId": "old-v135",
+          "paragraphId": "old-v135-p4",
+          "originalRevision": 1,
+          "originalSha256": "03549c8ce863a9f9f33aa2662cbfd5e4812efd363a3bad528d8b4908a462bff2",
+          "excerpt": "時葛從周率邢、洺之眾入魏州，與賀德倫、李暉出擊賊營。"
+        },
+        {
+          "chapterId": "old-v135",
+          "paragraphId": "old-v135-p4",
+          "originalRevision": 1,
+          "originalSha256": "03549c8ce863a9f9f33aa2662cbfd5e4812efd363a3bad528d8b4908a462bff2",
+          "excerpt": "思安設伏於內黃清水之左，袁象先設伏於內黃清水之右。思安逆戰於繁陽城，偽不勝，徐退，燕人追躡，至於內黃，思安步兵成列，回擊之。燕人將引退，左右伏兵發，燕軍大敗，臨陣斬單可及，守文單騎僅免，五萬之眾無生還者。時葛從周率邢、洺之眾入魏州，與賀德倫、李暉出擊賊營。是夜，仁恭燒營遁走，汴人長驅追擊，自魏至長河數百里，僵屍蔽地，敗旗折戟，累累於路。"
+        }
+      ],
+      "notes": [
+        "刘仁恭传列葛、贺德伦、李晖出击与夜烧营退；朱温本纪三月葛从山东驰援、诸将破八寨，分别保施事，不把李思安在内黄的设伏全归葛。"
+      ],
+      "variants": [
+        {
+          "label": "朱温旧本纪三月驰援与破寨施事",
+          "sourceDate": "光化二年三月",
+          "summary": "本纪先记内黄战，另记葛从山东驰救；次日破八寨归诸将张存敬以下，不把李思安等的前段伏击和全部战果改作葛独功。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p2",
+              "originalRevision": 1,
+              "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+              "excerpt": "三月，與燕軍戰于內黃北，燕軍大敗，殺二萬餘眾，奪馬二千餘匹，擒都將單無敵已下七十餘人。《通鑒》：單可及，幽州驍將，號單無敵。是月，葛從周自山東領其部眾，馳以救魏。翼日，乘勝，諸將張存敬以下連破八寨，遂逐燕軍，北至於臨清，壅其殘寇於御河，溺死者甚眾。"
+            }
+          ],
+          "year": 899
         }
       ]
     },
@@ -469,6 +1051,54 @@
           "originalRevision": 1,
           "originalSha256": "6886fee2a4b1e57485c139990f0f6e7eba1efbbbb464680af75fd6c77a1753db",
           "excerpt": "五月，并人討李罕之於潞州，太祖以丁會代罕之，令從周馳入上黨。七月，并人陷澤州，太祖召從周，令賀德倫守潞州，德倫等尋棄城而歸。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+          "excerpt": "六月，帝表丁會為潞州節度使，以李罕之疾亟故也。又遣葛從周由固鎮路入於潞州，以援丁會。"
+        },
+        {
+          "chapterId": "old-v052",
+          "paragraphId": "old-v052-p3",
+          "originalRevision": 1,
+          "originalSha256": "ac1e8ebd8b2aa51c5805bcb59ba87db3212028db32a90586ad5925e0082e34c3",
+          "excerpt": "梁祖聞嗣昭之師大至，召葛從周謂曰：「並人若在高平，當圍而取之，先須野戰，勿以潞州為敵。」及聞嗣昭軍韓店，梁祖曰：「進通扼八議路，此賊決與我鬥，公等臨事製機，勿落奸便。」"
+        }
+      ],
+      "notes": [
+        "朱温本纪记六月葛由固镇入潞援丁会，葛传五月；泽潞复失在李克用本纪及李嗣昭传作八月，葛传与朱温本纪召回在七月，保留时序，不让葛承担贺德伦留守后弃城。朱温命葛先野战是部署言辞，不补成葛已执行的独立胜仗。"
+      ],
+      "variants": [
+        {
+          "label": "李克用纪与李嗣昭传八月复潞",
+          "sourceDate": "光化二年八月；朱温本纪七月召葛",
+          "summary": "李克用本纪与嗣昭传八月叙贺德伦、张归厚弃城；朱温本纪七月召葛、留贺后续失潞。区分葛被召回与留守者弃城，不把二者强作同月同一施事。",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p24",
+              "originalRevision": 1,
+              "originalSha256": "4604e0e693cc1da9b4dd63b706f3602708d0171c30d0b99eed79519d3239b861",
+              "excerpt": "八月，嗣昭營於潞州城下，前鋒下澤州。時汴將賀德倫、張歸厚等守潞州。是月，德倫等棄城而遁，潞州平。"
+            },
+            {
+              "chapterId": "old-v052",
+              "paragraphId": "old-v052-p3",
+              "originalRevision": 1,
+              "originalSha256": "ac1e8ebd8b2aa51c5805bcb59ba87db3212028db32a90586ad5925e0082e34c3",
+              "excerpt": "賀德倫閉壁不出，嗣昭日以鐵騎環城，汴人不敢芻牧，援路斷絕。八月，德倫、張歸厚棄城遁去，我復取潞州。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p2",
+              "originalRevision": 1,
+              "originalSha256": "f44bf04710156eb9d205fd3b03f401901f8c925d04be640333cfd1e71a735942",
+              "excerpt": "七月壬辰朔，海州陳漢賓擁所部三千奔於淮南。戊戌，晉人陷澤州。帝遣召葛從周於潞，留賀德倫以守之。未幾，德倫為晉人所逼，遂棄潞而歸，由是潞州復為晉人所有。"
+            }
+          ],
+          "year": 899
         }
       ]
     },
@@ -519,8 +1149,146 @@
         }
       ],
       "notes": [
-        "旧事件原列光化三年四月至八月；《通鉴》五月出兵围沧，续记老鸦堤、秋七月撤兵，又于九月记青山口伏击。保留各书的分段与月份叙次，不将新引文压入旧事件原记时段。"
+        "旧事件原列光化三年四月至八月；《通鉴》五月出兵围沧，续记老鸦堤、秋七月撤兵，又于九月记青山口伏击。保留各书的分段与月份叙次，不将新引文压入旧事件原记时段。",
+        "旧史本纪六月老鸦堤记杀万余，葛传／新史三万，张存敬传五万；张传记共同统军并突出张的潜军，不能全部改为葛独功。旧监军作蒋元晖，新葛传作蒋晖，未据近名合并。青山口伏击后李嗣源援李嗣昭、梁追军解去另有完整叙法，呼取葛公／葛司徒不是擒获。"
+      ],
+      "variants": [
+        {
+          "label": "老鸦堤斩获口径",
+          "sourceDate": "光化三年六月及同役传记",
+          "year": 900,
+          "summary": "旧本纪记万余，张存敬传五万，葛传三万；分源并列，不把各数相加或挪为不同战果。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p3",
+              "originalRevision": 1,
+              "originalSha256": "c8b02a9a0e69664da94ea536a636cd138c7243c0f19f89ba087fe21361bf33bc",
+              "excerpt": "六月，燕帥劉仁恭大舉來援，從周與諸將逆戰于乾寧軍老鴉堤，大破之，殺萬餘眾，俘其將佐馬慎交已下百餘人。"
+            },
+            {
+              "chapterId": "old-v020",
+              "paragraphId": "old-v020-p16",
+              "originalRevision": 1,
+              "originalSha256": "df05f523e990cbaebf4a4128eb4136cac2810a102ed72d34e66af96f3a8fb39a",
+              "excerpt": "是日，燕人大敗，斬首五萬級，生擒馬慎交已下一百餘人，獲馬萬餘蹄。"
+            }
+          ]
+        },
+        {
+          "label": "青山口先败晋军后退追兵",
+          "sourceDate": "光化三年；李嗣源旧纪接乾宁三年后的明年叙述",
+          "summary": "新史明宗纪置光化三年，葛兵败嗣昭后，嗣源间道来援，冲击使梁追兵退去。旧明宗纪接乾宁三年后的明年；不暗改其相对年次，也不强造两次完整相同战程。",
+          "evidence": [
+            {
+              "chapterId": "new-v06",
+              "paragraphId": "new-v06-p3",
+              "originalRevision": 1,
+              "originalSha256": "29f9e36ce243f99336ca69b130572898ffcb0babc608cbfdb604219598cbbdf7",
+              "excerpt": "光化三年，李嗣昭攻梁邢、洺，出青山，遇葛從周兵，嗣昭大敗走，梁兵追之。"
+            },
+            {
+              "chapterId": "new-v06",
+              "paragraphId": "new-v06-p3",
+              "originalRevision": 1,
+              "originalSha256": "29f9e36ce243f99336ca69b130572898ffcb0babc608cbfdb604219598cbbdf7",
+              "excerpt": "嗣源急呼曰：「吾取葛公，士卒可無動！」乃馳騎犯之，出入奮擊，嗣昭繼進，梁兵解去。"
+            },
+            {
+              "chapterId": "old-v035",
+              "paragraphId": "old-v035-p5",
+              "originalRevision": 1,
+              "originalSha256": "00e7db613ff5c9dbf0513f28c0bda566caf6264ded0c3ad35846104fad991083",
+              "excerpt": "明年，武皇遣大將軍李嗣昭率師下馬嶺關，將復邢、洺，梁將葛從周以兵應援。"
+            },
+            {
+              "chapterId": "old-v035",
+              "paragraphId": "old-v035-p4",
+              "originalRevision": 1,
+              "originalSha256": "8c18217423aa273e3370788f10a98fd92ee6f239298e35d5e3b978cddf491956",
+              "excerpt": "乾寧三年，梁人急攻兗、鄆，鄆帥朱瑄求救於武皇。"
+            },
+            {
+              "chapterId": "old-v035",
+              "paragraphId": "old-v035-p5",
+              "originalRevision": 1,
+              "originalSha256": "00e7db613ff5c9dbf0513f28c0bda566caf6264ded0c3ad35846104fad991083",
+              "excerpt": "帝率其屬，解鞍礪鏃，憑高列陣，左右指畫，梁人莫之測，因呼曰：「吾王命我取葛司徒，他士可無並命。」即徑犯其陣，奮擊如神。嗣昭繼進，梁軍即時退去，帝與嗣昭收兵入關。"
+            }
+          ]
+        },
+        {
+          "label": "新史蒋晖监军与葛主将决机",
+          "sourceDate": "滄州、老鸦堤战事，未独记月",
+          "summary": "新葛传监军作蒋晖、葛自任上将决战，记三万余与获将、马；与旧传蒋元晖字形分别保留，未据近名确定同人。",
+          "evidence": [
+            {
+              "chapterId": "new-v21",
+              "paragraphId": "new-v21-p34",
+              "originalRevision": 1,
+              "originalSha256": "64ee6cb7cef6b39fe9e9c907bdef3e5f89728f97929d680bdd8310b37b9fbc52",
+              "excerpt": "太祖遣從周攻劉守文于滄州，以蔣暉監其軍。守文求救于其父仁恭，仁恭以燕兵救之，暉語諸將曰：「吾王以我監諸將，今燕兵來，不可迎戰，宜縱其入城，聚食倉廩，使兩困而後取之。」諸將頗以為然。從周怒曰：「兵在上將，豈監軍所得言！且暉之言乃常談爾，勝敗之機在吾心，暉豈足以知之！」乃勒兵逆仁恭于乾寧，戰于老鵶堤，仁恭大敗，斬首三萬餘級，獲其將馬慎交等百餘人，馬三千匹。"
+            }
+          ]
+        }
       ]
+    },
+    {
+      "id": "ge-congzhou-lincheng-wound",
+      "title": "为先锋攻镇州，在临城中流矢",
+      "summary": "朱温命葛从周为攻镇先锋。旧史本纪记九月以葛为上将、攻下临城；新史王镕传记葛到临城中流矢、卧于车中，随后朱温亲军进抵镇州，王镕请盟。",
+      "year": 900,
+      "precision": "month",
+      "sourceDate": "光化三年九月，受命攻镇与临城战事；后续请盟未独日",
+      "phase": "service",
+      "notes": [
+        "张存敬另传入镇城夺马牛，不移给葛；新葛传接述泰宁节度授职，旧葛传放在青山战后，授职年月仍保原有未定事件。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "c8b02a9a0e69664da94ea536a636cd138c7243c0f19f89ba087fe21361bf33bc",
+          "excerpt": "九月，帝以仁恭、進通之入寇也，皆由鎮、定為其囊橐，即以葛從周為上將以伐鎮州，遂攻下臨城，渡滹沱以環其城。"
+        },
+        {
+          "chapterId": "new-v39",
+          "paragraphId": "new-v39-p7",
+          "originalRevision": 1,
+          "originalSha256": "d746d21bcd7f042f71dee98f4cd78bd6c353b2169a9898d499e41958673fe302",
+          "excerpt": "顧謂葛從周曰：「得鎮州以與爾，爾為我先鋒。」從周至臨城，中流矢，臥輿中，梁軍大沮。"
+        },
+        {
+          "chapterId": "new-v39",
+          "paragraphId": "new-v39-p7",
+          "originalRevision": 1,
+          "originalSha256": "d746d21bcd7f042f71dee98f4cd78bd6c353b2169a9898d499e41958673fe302",
+          "excerpt": "梁太祖自將傅城下，焚其南關，鎔懼，顧其屬曰：「事急矣！奈何？」判官周式，辨士也，對曰：「此難與力爭，而可以理奪也。」式與梁太祖有舊，因請入梁軍。太祖望見式，罵曰：「吾常以書招鎔不來，今吾至此，而爾為說客，晚矣！且晉吾仇也，而鎔附之，吾知李嗣昭在城中，可使先出。」乃以所得鎔與嗣昭書示式，式進曰：「梁欲取一鎮州而止乎，而欲成霸業於天下也？且霸者責人以義而不私，今天子在上，諸侯守封睦鄰，所以息爭，且休民也，昔曹公破袁紹，得魏將吏與紹書，悉焚之，此英雄之事乎！今梁知兵舉無名，而假嗣昭以為辭，且王氏五世六公撫有此土，豈無死士，而待嗣昭乎？」太祖大喜，起牽式衣而撫之曰：「吾言戲耳。」因延式於上坐，議與鎔和。鎔以子昭祚為質，梁太祖以女妻之。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p42",
+          "originalRevision": 1,
+          "originalSha256": "78064a02af4f52d76e2d130c1f8554409b9cb94c853584836cb3cbd899af7c19",
+          "excerpt": "從葛從周攻滄州，敗劉仁恭於老鵶堤。還攻王鎔於鎮州，入其城中，取其馬牛萬計。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p34",
+          "originalRevision": 1,
+          "originalSha256": "64ee6cb7cef6b39fe9e9c907bdef3e5f89728f97929d680bdd8310b37b9fbc52",
+          "excerpt": "是時，守文亦求救於晉，晉為攻邢、洺以牽之，從周遽還，敗晉兵于青山。遂從太祖攻鎮州，下臨城，王鎔乞盟，太祖表從周泰寧軍節度使。"
+        },
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "6886fee2a4b1e57485c139990f0f6e7eba1efbbbb464680af75fd6c77a1753db",
+          "excerpt": "八月，并人攻邢、洺，從太祖破之。從周追襲至青山口，斬首五千級，獲其將王郃郎、楊師悅等，得馬千匹，表授檢校太保，兼徐州兩使留後，尋為兗州節度使。"
+        }
+      ],
+      "sortOrder": 16
     },
     {
       "id": "ge-congzhou-taiyuan",
@@ -546,6 +1314,92 @@
           "originalSha256": "97b9f26554c03eeb61412f52430699a9f9bf5f47df1875b837709c3c82b234a1",
           "excerpt": "三月，癸未朔，朱全忠至大梁。癸卯，遣氏叔琮等將兵五萬攻李克用，入自太行，魏博都將張文恭入自磁州新口，葛從周以兗、鄆兵會成德兵入自土門，洺州刺史張歸厚入自馬嶺，義武節度使王處直入自飛狐，權知晉州侯言以慈、隰、晉、絳兵入自陰地。叔琮入天井關，進軍昂車。辛亥，沁州刺史蔡訓以城降。河東都將蓋璋詣侯言降，即令權知沁州。壬子，叔琮拔澤州，刺史李存璋棄城走。叔琮進攻潞州，昭義節度使孟遷降之。河東屯將李審建、王周將步軍一萬、騎二千詣督琮降。叔琮進趣晉陽。夏，四月，乙卯，叔琮出石會關，營於洞渦驛。張歸厚引兵至遼州，丁巳，遼州刺史張鄂降。別將白奉國會成德兵自井陘入，己未，拔承天軍，與叔琮烽火相應。"
         }
+      ],
+      "notes": [
+        "本传三月为出军，旧本纪及通鉴四月诸军会晋阳，五月撤退。不同列传对承天军的攻取分别归葛从周、白奉国等，不用一书改另一书。连续雨疾、粮运与晋军夜袭为撤军背景，未定葛个人生病始日。"
+      ],
+      "variants": [
+        {
+          "label": "新史四月进军与病雨撤退",
+          "sourceDate": "天复元年四月",
+          "year": 901,
+          "summary": "新晋本纪列四月诸路，葛入土门，诸军逢久雨多疾而撤；与葛传三月出军、粮运不足分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p18",
+              "originalRevision": 1,
+              "originalSha256": "d3c51ecc119effb97e8253484132a07af9f4c71f108dd62f850e115b416dc120",
+              "excerpt": "四月，氏叔琮入天井，張文敬入新口，葛從周入土門，王處直入飛狐，侯言入陰地。"
+            },
+            {
+              "chapterId": "new-v04",
+              "paragraphId": "new-v04-p18",
+              "originalRevision": 1,
+              "originalSha256": "d3c51ecc119effb97e8253484132a07af9f4c71f108dd62f850e115b416dc120",
+              "excerpt": "會天大雨霖，梁兵多疾，皆解去。"
+            }
+          ]
+        },
+        {
+          "label": "李嗣昭旧传承天军施事",
+          "sourceDate": "天复元年四月",
+          "year": 901,
+          "summary": "李嗣昭旧传写葛陷承天军，诸军进取叙法与本纪、通鉴的白奉国分工不同，不强抹平。",
+          "evidence": [
+            {
+              "chapterId": "old-v052",
+              "paragraphId": "old-v052-p5",
+              "originalRevision": 1,
+              "originalSha256": "64fc344f71076e371d2d659b5ac9f356b416f325d89aa1444c6babbd51affb27",
+              "excerpt": "汴將葛從周陷承天軍，氏叔琮營洞渦驛。"
+            },
+            {
+              "chapterId": "old-v052",
+              "paragraphId": "old-v052-p5",
+              "originalRevision": 1,
+              "originalSha256": "64fc344f71076e371d2d659b5ac9f356b416f325d89aa1444c6babbd51affb27",
+              "excerpt": "五月，氏叔琮引退，嗣昭以精騎追之，汴軍委棄輜重兵仗萬計。"
+            }
+          ]
+        },
+        {
+          "label": "朱温旧本纪三月出军、四月会晋阳",
+          "sourceDate": "天复元年三月、四月",
+          "summary": "本纪三月分别列各路出兵，葛由土门、张归厚由马岭；四月白奉国收承天、张归厚至辽州、氏叔琮会诸军晋阳，后因粮运不足回师。保留路线和破城施事。",
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p5",
+              "originalRevision": 1,
+              "originalSha256": "41a52940f8000e80ae7659667497d9e24f380dc5ae9cf5c7e6bdf290f9225214",
+              "excerpt": "三月癸未朔，帝歸自河中。是月，遣大將賀德倫、氏叔琮領大軍以伐太原，叔琮等自太行路入，魏博都將張文恭自磁州新口入，葛從周以兗、鄆之眾自土門路入，洺州刺史張歸厚以本軍自馬嶺入，定州刺史王處直以本軍自飛狐入，晉州侯言自陰地入。澤州刺史李存璋棄郡奔歸太原。叔琮引軍逼潞州，節度使孟遷乞降。河東屯將李審建、王周領步軍一萬、騎二千詣叔琮歸命，乃進軍趨太原。四月乙卯，大軍出石會關，營於洞渦驛。都將白奉國自井陘入，收承天軍。張歸厚引兵至遼州，刺史張鄂迎降。氏叔琮即日與諸軍至晉陽城下，城中雖時出精騎來戰，然危蹙已甚，將謀遁矣。會叔琮以芻糧不給，遂班師。"
+            }
+          ],
+          "year": 901
+        },
+        {
+          "label": "李克用旧本纪四月诸路与雨疾夜袭",
+          "sourceDate": "天复元年四月",
+          "summary": "李克用纪葛入土门、张归厚入马岭；承天为白奉国会石公立，续叙久雨、粮乏、痢疟及嗣昭嗣源夜袭。与葛传粮运不足并存，不推葛个人始病日。",
+          "evidence": [
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p27",
+              "originalRevision": 1,
+              "originalSha256": "4ddf73afac39417bae53cab3d37e09e1a67e423edc87ff2b8361f1356ac605bb",
+              "excerpt": "四月，汴將氏叔琮率兵五萬自太行路寇澤、潞，魏博大將張文恭領軍自新口入，葛從周領兗、鄆之眾自土門入，張歸厚以邢、洺之眾自馬嶺入，定州王處直之眾自飛狐入，侯言以晉、絳之兵自陰地入。"
+            },
+            {
+              "chapterId": "old-v026",
+              "paragraphId": "old-v026-p27",
+              "originalRevision": 1,
+              "originalSha256": "4ddf73afac39417bae53cab3d37e09e1a67e423edc87ff2b8361f1356ac605bb",
+              "excerpt": "汴人營於洞渦，別將白奉國與鎮州大將石公立自井陘入，陷承天軍。及攻壽陽，遼州刺史張鄂以城降於汴，都人大恐。時霖雨積旬，汴軍屯聚既眾，芻糧不給，復多痢瘧，師人多死。時大將李嗣昭、李嗣源每夜率驍騎突營掩殺，敵眾恐懼。"
+            }
+          ],
+          "year": 901
+        }
       ]
     },
     {
@@ -564,6 +1418,82 @@
           "originalRevision": 1,
           "originalSha256": "e053acd6cbd3b20800d111b742de659b4f859047b4c448b8df4d3f34926cee92",
           "excerpt": "頃之，從周染疾，會青州將劉鄩陷兗州，太祖命討之，遂力疾臨戎。三年十一月，鄩舉城降，以功授檢校太傅。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p3",
+          "originalRevision": 1,
+          "originalSha256": "53fad48ad7630846331566c25a7051c224fe600a42c4c4cb3b42713a4bfd6665",
+          "excerpt": "從周歔欷而退。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p10",
+          "originalRevision": 1,
+          "originalSha256": "fac27dea4aca0c4933e2467fc11ff1ebc8a7d3762257aed9457ad1968a71fb04",
+          "excerpt": "人臣各為其主，汝可察之！」從周為之緩攻。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p4",
+          "originalRevision": 1,
+          "originalSha256": "bf2d200ea2756c3495fc646c745422c0654ed4c574689987180c344125cc95f7",
+          "excerpt": "鄩既降，從周具行裝服馬，請鄩歸大梁。鄩曰：「未受梁王舍釋之旨，乘肥衣裘，非敢聞命。」即素服跨驢而發。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p11",
+          "originalRevision": 1,
+          "originalSha256": "9484922d0d05460d9dd60c08d00f5848a9ed1e80f015f8f989eae47b5d4d6c72",
+          "excerpt": "師範兵已屈，從周以禍福諭鄩，鄩報曰：「俟吾主降，即以城還梁。」師範敗，降梁，鄩乃亦降。從周為具齎裝，送鄩歸梁，鄩曰：「降將蒙梁恩不誅，幸矣！敢乘馬而衣裘乎？」乃素服乘驢歸梁。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p3",
+          "originalRevision": 1,
+          "originalSha256": "53fad48ad7630846331566c25a7051c224fe600a42c4c4cb3b42713a4bfd6665",
+          "excerpt": "天復元年，昭宗幸鳳翔，太祖率四鎮之師奉迎於岐下。李茂貞與內官韓全誨矯詔征天下兵入援，師範覽詔，慷慨泣下，遣心腹乘虛襲取太祖管內州郡。所在同日竊發，其事多泄，唯鄩以偏師陷兗州，遂據其郡。初，鄩遣細人詐為鬻油者，覘兗城內虛實及出入之所，視羅城下一水竇可以引眾而入，遂誌之。鄩乃告師範，請步兵五百，宵自水竇銜枚而入，一夕而定，軍城晏然，市民無擾。〈（《金華子》云：鄩入據子城，甲兵精銳，城內人皆束手，莫敢旅拒。加以州將悍，人情不附，鄩因而撫治，民皆安堵。）〉太祖命大將葛從周攻之。時從周為節度使，領兵在外，州城為鄩所據，家屬悉在城中。鄩善撫其家，移就外第，供給有禮，升堂拜從周之母。及從周攻城，鄩以板輿請母登城，母告從周曰：「劉將軍待我甚至，不異於兒，新婦已下，並不失所。劉將軍與爾各為其主，爾其察之。」從周歔欷而退。鄩料簡城中老疾及婦人浮食百姓不足與守者，悉出之於外，與將士同甘苦，分衣食，以抗外軍，戢兵禁暴，居人泰然。從周攻圍既久，鄩無外援，人情稍有去就之意。一日，節度副使王彥溫逾城而奔，守陴者從之而逸，鄩之守兵禁之不可，鄩即遣人從容告彥溫曰：「請副使少將人出，非素遣者請勿帶行。」又揚言於眾曰：「素遣從副使行者即勿禁，其擅去者族之。」守民聞之皆感，奔逸者乃止。外軍聞之，果疑彥溫有奸，即戮之於城下，自是軍城遂固。及王師範兵力漸窘，從周以禍福諭鄩，俾之革麵，鄩報曰：「俟青州本使歸降，即以城池還納。」天復三年十一月，師範告降，且言先差行軍司馬劉鄩領兵入兗州，請釋其罪，亦以告鄩，鄩即出城聽命。太祖嘉其節概，以為有李英公之風。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p10",
+          "originalRevision": 1,
+          "originalSha256": "fac27dea4aca0c4933e2467fc11ff1ebc8a7d3762257aed9457ad1968a71fb04",
+          "excerpt": "太祖已出昭宗于鳳翔，引兵東還，遣朱友寧攻師範、從周攻鄩。鄩以版輿置從周母城上，母呼從周曰：「劉將軍待我甚厚，無異於汝。人臣各為其主，汝可察之！」從周為之緩攻。鄩乃悉簡婦人及民之老疾不足當敵者出之，獨與少壯者同辛苦，分衣食，堅守以待。外援不至，人心頗離，副使王彥溫踰城而奔，守陴者多逸。鄩乃遣人陽語彥溫曰：「副使勿多以人出，非吾素遣者，皆勿以行。」又下令城中曰：「吾遣從副使者得出，否者皆族。」城中皆惑，奔者乃止。已而梁兵聞之，果疑彥溫非實降者，斬之城下，由是城守益堅。"
+        }
+      ],
+      "notes": [
+        "葛母受刘鄩礼遇后登城劝儿，旧刘传及北梦记葛歔欷而退，新史记为之缓攻；不改写成母亲命其投降。劝刘鄩待王师范先降、葛备行装而刘素服驴归分别保留。"
+      ],
+      "variants": [
+        {
+          "label": "新史梁本纪九月合叙",
+          "sourceDate": "天复三年九月",
+          "year": 903,
+          "summary": "梁新本纪在九月杨师厚败青军后连述王师范与刘鄩皆降，旧葛传、旧刘传明确十一月，分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v01",
+              "paragraphId": "new-v01-p13",
+              "originalRevision": 1,
+              "originalSha256": "9e660ae5a1ed7d049ecb9f7af2fb0fb0b3047f7f4dfb8531fdb1368e1c2b8d46",
+              "excerpt": "九月，楊師厚敗青人于臨朐，取其棣州，師範以青州降，而鄩亦降。"
+            }
+          ]
+        },
+        {
+          "label": "北梦葛母礼遇与劝退舍",
+          "sourceDate": "刘鄩袭兖至归降的连叙，未独记月",
+          "summary": "北梦记礼待葛母家属，母登城劝葛而葛歔欷退舍；保原书叙法，不把母劝写成令其投降，也不把未独纪月内容都钉在十一月。",
+          "evidence": [
+            {
+              "chapterId": "beimeng-v017",
+              "paragraphId": "beimeng-v017-p21",
+              "originalRevision": 1,
+              "originalSha256": "df5089aa1fc0bea25dca4cd0fd92b2039250ce604332e7f2362c11a0110fa56f",
+              "excerpt": "王師範之鎮青州以部將劉鄩竊據兗州先是汴將葛從周鎮於是因出征劉鄩將圖兗也詐為茶商苞苴鎧甲大起店肆剖巨木藏兵伏而入竊發之日得其徒千人據其府舍升堂拜從周之母仍以禮待其妻子子弟職掌妻孥供億如常俄而從周攻其城梯䡴雲合鄩以板輿請從周母登城諭從周曰劉將軍待我不異於兒新婦已下並不失所從周在城下歔欷即時退舍及青州兵敗師範納欵梁祖遣使諭鄩鄩曰臣知王公脩好與梁國通盟但臣本受王公之命保有州城一旦見其勢窮擅命不顧非盡心於所事也僕俟王公之命俛首非晩至是師範諭之方以城歸梁祖多其義超擢非次官至方鎮為梁之名將"
+            }
+          ]
         }
       ]
     },
@@ -591,7 +1521,93 @@
           "originalSha256": "1eb3e533c93cc83f8bacb478c5833d4b7c2f3300afd9da166dbaa3ea61b65e39",
           "excerpt": "末帝即位，拜昭義軍節度使、陳留郡王，食其俸于家。"
         }
+      ],
+      "notes": [
+        "913年表示末帝即位后的授衔叙事起点，旧传累加开府、检校太师、兼侍中与七千户未逐次给年月，不把每项都钉在即位日。"
       ]
+    },
+    {
+      "id": "ge-congzhou-death",
+      "title": "卒于家，追赠太尉",
+      "summary": "旧史本纪记葛从周于贞明二年十月去世；本传记在家去世、册赠太尉，新史也记赠太尉。谢彦章临丧服丧并参与葬事，未独记年月。",
+      "year": 916,
+      "sortOrder": 24,
+      "precision": "month",
+      "sourceDate": "贞明二年十月；本传作贞明初",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "e053acd6cbd3b20800d111b742de659b4f859047b4c448b8df4d3f34926cee92",
+          "excerpt": "貞明初，卒於家。冊贈太尉。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p46",
+          "originalRevision": 1,
+          "originalSha256": "0976fdab7e9ad72e8f5244806da00eb2bde93c68b991c75c2a7b65792a26a29b",
+          "excerpt": "是月，前昭義軍節度使、檢校太師、兼侍中、陳留郡王葛從周薨。"
+        },
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "5cf5779b87127c078a82f313d8f31a6088730e235f3a5bbf3ba8f1671710d470",
+          "excerpt": "及從周卒，臨喪行服，躬預葬事，時人義之。"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p36",
+          "originalRevision": 1,
+          "originalSha256": "6e760692b54a3d3775fbdf89089b31d811fb803dee472135d7962e9b07adf81b",
+          "excerpt": "貞明二年"
+        },
+        {
+          "chapterId": "old-v008",
+          "paragraphId": "old-v008-p46",
+          "originalRevision": 1,
+          "originalSha256": "0976fdab7e9ad72e8f5244806da00eb2bde93c68b991c75c2a7b65792a26a29b",
+          "excerpt": "十月丁酉，以開府儀同三司、中書侍郎兼吏部尚書、同平章事、集賢殿大學士、判戶部敬翔為右僕射兼門下侍郎、平章事、監修國史，判度支。以光祿大夫、中書侍郎、同平章事鄭玨為特進、兼刑部尚書、平章事、集賢殿大學士，判戶部。十月，晉王自太原至魏州。是月，前昭義軍節度使、檢校太師、兼侍中、陳留郡王葛從周薨。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p35",
+          "originalRevision": 1,
+          "originalSha256": "1eb3e533c93cc83f8bacb478c5833d4b7c2f3300afd9da166dbaa3ea61b65e39",
+          "excerpt": "卒，贈太尉。"
+        }
+      ],
+      "notes": [
+        "卒月据同卷贞明二年标题与十月正文相承，不以谢彦章后任、官名或贞明四年战死反推葬日。太尉为身后赠官。"
+      ]
+    },
+    {
+      "id": "ge-congzhou-huangchao-service",
+      "title": "早年参加黄巢军，渐任军校",
+      "summary": "旧史记葛从周年轻时参加黄巢军，逐渐任军校；新史记少从黄巢。未记加入或任军校的年月。",
+      "year": null,
+      "precision": "undated",
+      "sourceDate": "归朱温前，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p2",
+          "originalRevision": 1,
+          "originalSha256": "023329fe734da158fa695151d8934f4f9f71257fca3164ed9c59a9e53765b275",
+          "excerpt": "從周少豁達，有智略，初入黃巢軍，漸至軍校。"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p30",
+          "originalRevision": 1,
+          "originalSha256": "69bab9be04f4598072d0d703233b3d1af35674716664ce1c5b9843a99bfe313f",
+          "excerpt": "少從黃巢，敗降梁。"
+        }
+      ],
+      "sortOrder": 0
     },
     {
       "id": "ge-congzhou-early-campaigns",
@@ -636,6 +1652,40 @@
           "originalSha256": "92ca92ab60d43424d0ee9103168e6629958fe5edfb04e877a08d889a3ad21f65",
           "excerpt": "又破秦賢之眾於滎陽，尋佐朱珍收兵於淄、青間。時兗州齊克護軍於任城，從周敗之，擒其將呂全真。淄人不受制，復與之戰，獲其驍將鞏約。會青州以步騎萬餘人列三寨於金嶺，以厄要害，從周與朱珍大殲其眾，擄其將楊昭範五人而還。至大梁，不解甲，徑至板橋擊蔡賊，破盧瑭寨；瑭自溺而死，又於赤岡殺蔡軍二萬餘人。從討謝殷於亳州，擒之。回襲曹州，擄刺史丘宏禮以歸。與兗、鄆軍遇於臨濮之劉橋，殺數萬人，朱瑄、朱瑾僅以身免，擒都將鄒務卿已下五十人。從太祖至範縣，復與朱瑄戰，擄尹萬榮等三人，遂平濮州。未幾，與朱珍擊蔡賊於陳、亳間，獲都將石璠。"
         }
+      ],
+      "notes": [
+        "朱温本纪的朱珍东道募兵置光启三年二月至四月，可帮助理解淄青募兵；本事件还含其他未独年月战事，整体仍不确年，不以募兵月覆盖全部事实。"
+      ],
+      "variants": [
+        {
+          "label": "朱温旧本纪朱珍东道募兵",
+          "sourceDate": "光启三年二月至四月",
+          "summary": "朱温本纪记朱珍二月受命东道募兵、四月回夷门；结合前文光启元、二年确认年次。仅辅助募兵一节，其余复合事件仍未定年。",
+          "evidence": [
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p18",
+              "originalRevision": 1,
+              "originalSha256": "5a9f90326cf6fd6b36b63c8b580950db7e23c81da10aa30fcd07b07dc0e6debf",
+              "excerpt": "三年春二月乙巳，承制以朱珍為淄州刺史，俾募兵于東道，且慮蔡人暴其麥苗，期以夏首回歸。案：自「募兵于東道」至此，亦見通鑑注，與冊府元龜同。珍旣至淄、棣，旬日之內，應募者萬餘人。又潛襲青州，獲馬千匹，鎧甲稱是，乃鼓行而歸。四月辛亥，達于夷門，帝喜曰：「吾事濟矣。」"
+            },
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p11",
+              "originalRevision": 1,
+              "originalSha256": "be25a452266564a5f1d18668aa4274e8cb17a8af7dc3919be2097472dcb87c2c",
+              "excerpt": "光啟元年春，蔡賊掠亳、頴二郡，帝帥師以救之，遂東至于焦夷，敗賊眾數千，生擒賊將鐵林，梟首以狥軍而還。"
+            },
+            {
+              "chapterId": "old-v001",
+              "paragraphId": "old-v001-p12",
+              "originalRevision": 1,
+              "originalSha256": "b93e7595ad2deb60e46140649cf1f05f360e7850939805e6745ad8b5e70bb89e",
+              "excerpt": "二年春，蔡賊益熾。"
+            }
+          ],
+          "year": 887
+        }
       ]
     },
     {
@@ -654,7 +1704,17 @@
           "originalRevision": 1,
           "originalSha256": "b03c3f8987b5276eaea8bd0ce11b987f70c2db73cdf7fd094bacaf3c87d157d2",
           "excerpt": "從朱珍討徐州，撥豐縣，敗時溥於吳康，得其輜重，加檢校刑部尚書。佐龐師古討孫儒於淮南，略地至廬、壽、滁等州，下天長、高郵，破邵伯堰。回軍攻濠州，殺刺史魏勳，得餉船十艘。"
+        },
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
+          "excerpt": "四年正月，下之。從周乘勝伐兗，會朱瑾出師在徐境，其將康懷英以城降。以功授兗州留後、檢校司空。復領兵萬餘人渡淮討楊行密，至濠州，聞龐師古清口之敗，遽班師。"
         }
+      ],
+      "notes": [
+        "早先辅庞师古讨孙儒与897年对杨行密分路出兵是不同阶段，不把两段淮南征战合为一次。"
       ]
     },
     {
@@ -736,23 +1796,26 @@
       ]
     },
     {
-      "id": "ge-congzhou-death",
-      "title": "卒于家，追赠太尉",
-      "summary": "葛从周在贞明初年于家中去世，后册赠太尉，本传未标确年。",
+      "id": "ge-congzhou-xie-training",
+      "title": "收养谢彦章，以钱阵教授兵法",
+      "summary": "谢彦章幼年事葛从周，葛怜其聪慧收为养子，以大盘中千钱演示军阵与出入进退，谢领会其法。",
       "year": null,
-      "sortOrder": 24,
       "precision": "undated",
-      "sourceDate": "贞明初，未记确年",
+      "sourceDate": "谢彦章幼年，未记确年",
       "phase": "uncertain",
+      "notes": [
+        "本条依相关附传的未定经历，排在葛主传未定事项之后；不以谢后来骑军任职倒推授艺年，也不改旧养子关系。"
+      ],
       "evidence": [
         {
-          "chapterId": "old-v016",
-          "paragraphId": "old-v016-p7",
+          "chapterId": "new-v23",
+          "paragraphId": "new-v23-p32",
           "originalRevision": 1,
-          "originalSha256": "e053acd6cbd3b20800d111b742de659b4f859047b4c448b8df4d3f34926cee92",
-          "excerpt": "貞明初，卒於家。冊贈太尉。"
+          "originalSha256": "4875a1979e216920a0072919494df64c42861cebeb6de8fd902646e75a5fb13f",
+          "excerpt": "幼事葛從周，從周憐其敏惠，養以為子，授之兵法，從周以千錢置大盤中，為行陣偏伍之狀，示以出入進退之節，彥章盡得之。"
         }
-      ]
+      ],
+      "sortOrder": 24
     }
   ]
 }

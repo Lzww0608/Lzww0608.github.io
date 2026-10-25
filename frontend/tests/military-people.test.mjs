@@ -14,13 +14,16 @@ const oldTopic = read('../../content/five-dynasties/zhu-wen-generals.json');
 const chapter = read('../../content/five-dynasties/chapters/new-v22.json');
 const paragraph = chapter.paragraphs.find(item => item.id === 'new-v22-p21');
 const sha = createHash('sha256').update(paragraph.original).digest('hex');
-const library = { chapters: [chapter] };
+const qualificationChapters = [...new Set(Object.values(topic.memberServiceEvidence).flat().map(source => source.chapterId))]
+  .map(id => read(`../../content/five-dynasties/chapters/${id}.json`));
+const library = { chapters: qualificationChapters };
 const canonical = loadPassagePeople();
 const passageIndex = read('../../content/person-passages/index.json');
 
 test('military-topic-reuses-canonical-ids', () => {
   assert.equal(topic.id, 'military-people');
-  assert.deepEqual(topic.memberIds, ['niu-cunjie']);
+  assert.ok(topic.memberIds.includes('niu-cunjie'));
+  assert.equal(new Set(topic.memberIds).size, topic.memberIds.length);
   assert.deepEqual(topic.people, []);
   assert.ok(oldTopic.memberIds.includes('niu-cunjie'));
   assert.ok(oldTopic.people.some(person => person.id === 'niu-cunjie'));

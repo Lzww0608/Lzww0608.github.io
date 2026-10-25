@@ -86,7 +86,11 @@ test('new source variants keep dates, counts and quoted histories in their own s
 });
 
 test('all added military facts cite current originals and derive once for each endpoint', () => {
-  assert.equal(military.length, 22);
+  const niuFacts = military.filter(edge => edge.from === 'niu-cunjie' || edge.to === 'niu-cunjie');
+  assert.equal(niuFacts.length, 22);
+  assert.equal(createHash('sha256').update(JSON.stringify(niuFacts)).digest('hex'),
+    '5fb051922b85ae81454edd674d184a127baeae6bf69b05bcb2a2add4bf54eaa1',
+    'all 22 original Niu fact IDs, fields and sources stay exact');
   assert.equal(new Set(military.map(edge => edge.id)).size, military.length);
   const originals = new Map(loadLibrary().chapters.map(chapter => [chapter.id, chapter]));
   for (const edge of military) {

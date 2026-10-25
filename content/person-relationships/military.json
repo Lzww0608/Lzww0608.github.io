@@ -458,5 +458,209 @@
         "excerpt": "張晊攻汴，存節破其二寨。"
       }
     ]
+  },
+  {
+    "id": "zhu-zhen-ge-congzhou-service",
+    "from": "zhu-zhen",
+    "to": "ge-congzhou",
+    "kind": "service",
+    "label": "随朱珍淄青募兵",
+    "note": "只据这段明确从朱珍的募兵经历，不写终身直属。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p31",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "從朱珍收兵淄青，遇東兵輒戰，珍得兵歸，從周功為多。"
+      }
+    ]
+  },
+  {
+    "id": "pang-shigu-ge-congzhou-service",
+    "from": "pang-shigu",
+    "to": "ge-congzhou",
+    "kind": "service",
+    "label": "辅庞师古讨孙儒",
+    "note": "为早期孙儒战事的佐职；897年二人分统大军不借此改成葛始终隶庞。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p4",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "佐龐師古討孫儒於淮南"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-zhang-guiba-service",
+    "from": "ge-congzhou",
+    "to": "zhang-guiba",
+    "kind": "service",
+    "label": "张归霸随葛救魏",
+    "note": "据新传从葛及旧传佐葛，擒落落者分源说明，不把葛写成亲斩。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p30",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "晉人攻魏，歸霸從葛從周救魏，戰洹水，歸霸擒克用子落落以與魏人。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-zhang-guibian-service",
+    "from": "ge-congzhou",
+    "to": "zhang-guibian",
+    "kind": "service",
+    "label": "偏师辅葛御洹水",
+    "note": "只据乾宁中佐葛，不凭洹水地名断为唯一擒落落战。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p22",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "乾寧中，以偏師佐葛從周禦并軍於洹水。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-huang-wenjing-service",
+    "from": "ge-congzhou",
+    "to": "huang-wenjing",
+    "kind": "service",
+    "label": "辅葛入潞与御晋",
+    "note": "黄传明确佐葛送朱崇节入潞及光化初统军御晋，非由共同出场推长期直属。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p18",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "唐大順中，佐葛從周送朱崇節入潞。"
+      },
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p18",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "光化初，晉將李嗣昭、周德威寇於山東，文靖佐葛從周統大軍禦之。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-hu-gui-service",
+    "from": "ge-congzhou",
+    "to": "hu-gui",
+    "kind": "service",
+    "label": "胡规辅葛伐镇定",
+    "note": "胡规继随张存敬收晋绛是另一阶段，不并为葛指挥。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p20",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "佐葛從周伐鎮、定，從張存敬收晉、絳，皆有功"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-fang-zhiwen-service",
+    "from": "ge-congzhou",
+    "to": "fang-zhiwen",
+    "kind": "service",
+    "label": "选房知温入麾下",
+    "note": "葛镇兖地选置麾下有明确原文；房后事牛、刘等不混同。",
+    "sources": [
+      {
+        "chapterId": "old-v091",
+        "paragraphId": "old-v091-p2",
+        "title": "旧五代史 · 卷 91 · 晋书列传六",
+        "excerpt": "梁將葛從周鎮其地，選置麾下。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-zhang-cunjing-service",
+    "from": "ge-congzhou",
+    "to": "zhang-cunjing",
+    "kind": "service",
+    "label": "随葛攻沧，守围城营寨",
+    "note": "新史明确张从葛，葛传命张守寨；旧张传连统诸军保共同统军叙法，不外推终身层级。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p42",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "從葛從周攻滄州，敗劉仁恭於老鵶堤。"
+      },
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p6",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "乃令張存敬、氏叔琮守其寨。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-li-cunxin-conflict",
+    "from": "ge-congzhou",
+    "to": "li-cunxin",
+    "kind": "conflict",
+    "label": "宗城交战",
+    "note": "李存信败葛的具体军事实事，不造私人仇怨。",
+    "sources": [
+      {
+        "chapterId": "old-v053",
+        "paragraphId": "old-v053-p3",
+        "title": "旧五代史 · 卷 53 · 唐列传（李存信、李存孝等）",
+        "excerpt": "九月，存信敗葛從周於宗城，乘勝至魏州之北門。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-zhou-dewei-conflict",
+    "from": "ge-congzhou",
+    "to": "zhou-dewei",
+    "kind": "conflict",
+    "label": "张公桥交战",
+    "note": "葛与周军相遇战败周的明确记载；不把其他从周德威的字串归葛。",
+    "sources": [
+      {
+        "chapterId": "new-v04",
+        "paragraphId": "new-v04-p16",
+        "title": "新五代史 · 卷 4 · 唐本纪第四",
+        "excerpt": "克用遣周德威出青山口，遇從周于張公橋，德威大敗。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-li-sizhao-conflict",
+    "from": "ge-congzhou",
+    "to": "li-sizhao",
+    "kind": "conflict",
+    "label": "青山口伏击",
+    "note": "葛设伏击李嗣昭军有据，后李嗣源接应梁兵退去分层保存。",
+    "sources": [
+      {
+        "chapterId": "old-v052",
+        "paragraphId": "old-v052-p4",
+        "title": "旧五代史 · 卷 52 · 唐列传（李嗣昭、李嗣本、李嗣恩等）",
+        "excerpt": "九月，梁祖自率軍三萬至臨洺，葛從周設伏於青山口。嗣昭聞梁祖至，斂軍而退，從周伏兵發，為其所敗，偏將王郃郎、楊師悅等被擒。"
+      }
+    ]
+  },
+  {
+    "id": "ge-congzhou-liu-xun-conflict",
+    "from": "ge-congzhou",
+    "to": "liu-xun",
+    "kind": "conflict",
+    "label": "围兖与招降",
+    "note": "刘袭兖、优待葛家，葛围城与劝降；不把后续同事或对方忠义写为私人交好。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p11",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "師範兵已屈，從周以禍福諭鄩，鄩報曰：「俟吾主降，即以城還梁。」師範敗，降梁，鄩乃亦降。"
+      }
+    ]
   }
 ]

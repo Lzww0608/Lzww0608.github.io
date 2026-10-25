@@ -166,11 +166,11 @@ test('imperial succession stays distinct from bloodlines and includes the short 
 test('person neighborhoods contain only the selected person and directly documented neighbors', () => {
   const selected = 'li-cunxin';
   const neighborhood = relationshipNeighborhood(selected);
-  assert.deepEqual(new Set(neighborhood.nodes.map(node => node.id)), new Set([selected, 'li-keyong', 'li-cunxiao', 'li-siyuan']));
+  assert.deepEqual(new Set(neighborhood.nodes.map(node => node.id)), new Set([selected, 'li-keyong', 'li-cunxiao', 'li-siyuan', 'ge-congzhou']));
   assert.deepEqual(neighborhood.relationships, relationshipsForPerson(selected));
   assert.ok(neighborhood.relationships.every(edge => edge.from === selected || edge.to === selected));
   const conflicts = relationshipNeighborhood(selected, ['conflict']);
-  assert.deepEqual(new Set(conflicts.nodes.map(node => node.id)), new Set([selected, 'li-cunxiao']));
+  assert.deepEqual(new Set(conflicts.nodes.map(node => node.id)), new Set([selected, 'li-cunxiao', 'ge-congzhou']));
   assert.ok(conflicts.relationships.every(edge => edge.kind === 'conflict'));
   assert.deepEqual(relationshipNeighborhood(selected, []).nodes.map(node => node.id), [selected]);
   assert.deepEqual(relationshipsForPerson(selected, []), []);

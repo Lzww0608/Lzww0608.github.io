@@ -9,14 +9,23 @@
     {
       "title": "《新五代史》卷 22 · 梁臣传",
       "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B722&oldid=1699277"
+    },
+    {
+      "title": "《旧五代史》卷 16 · 梁列传",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B716&oldid=8730592"
     }
   ],
-  "memberIds": ["niu-cunjie"],
+  "memberIds": [
+    "niu-cunjie",
+    "ge-congzhou"
+  ],
   "memberRelations": {
-    "niu-cunjie": "归梁太祖后受任小校，后来参与征战并领军镇"
+    "niu-cunjie": "归梁太祖后受任小校，后来参与征战并领军镇",
+    "ge-congzhou": "晚唐归朱温后领军；后梁因病致仕，居家食俸"
   },
   "memberRelationshipSubjects": {
-    "niu-cunjie": "朱温"
+    "niu-cunjie": "朱温",
+    "ge-congzhou": "朱温（晚唐任职阶段）"
   },
   "memberServiceEvidence": {
     "niu-cunjie": [
@@ -27,6 +36,16 @@
         "originalSha256": "4493aac0d423120e1df973b5e4dc2036b86778b84af48b0c22801480452f3434",
         "title": "《新五代史》卷 22 · 牛存节传",
         "excerpt": "乃率其徒十餘人歸梁太祖。存節為人木彊忠謹，太祖愛之，賜之名字，以為小校。"
+      }
+    ],
+    "ge-congzhou": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p5",
+        "originalRevision": 1,
+        "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
+        "excerpt": "光化元年四月，率師經略山東，時并帥以大軍屯邢、洺，從周至钜鹿與并軍遇，大破之，并帥遁走。",
+        "title": "旧五代史 · 卷16 · 葛从周传"
       }
     ]
   },

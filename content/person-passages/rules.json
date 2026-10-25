@@ -384,11 +384,10 @@
       "personId": "ge-congzhou",
       "names": [
         "葛從周",
-        "葛从周"
+        "葛从周",
+        "通美"
       ],
-      "shortNames": [
-        "從周"
-      ],
+      "shortNames": [],
       "titles": [],
       "excludedPhrases": []
     },
@@ -7133,9 +7132,9 @@
     {
       "chapterId": "old-v016",
       "personId": "ge-congzhou",
-      "start": 1,
+      "start": 2,
       "end": 7,
-      "startText": "葛從周",
+      "startText": "葛從周，字通美，濮州鄄城人也。",
       "endText": "天復元年三月，與氏叔琮討太原，從周以兗、鄆之眾，自土門路入，與諸軍會於晉陽城下，",
       "kind": "biography",
       "label": "葛从周传"
@@ -7663,9 +7662,9 @@
     {
       "chapterId": "new-v21",
       "personId": "ge-congzhou",
-      "start": 29,
+      "start": 30,
       "end": 35,
-      "startText": "葛從周",
+      "startText": "葛從周字通美，濮州甄城人也。",
       "endText": "從氏叔琮攻晉太原，不克。梁兵西攻鳳翔，青州王師範遣其將劉鄩襲兗州，從周家屬為鄩所",
       "kind": "biography",
       "label": "葛从周传"
@@ -12044,10 +12043,12 @@
     {
       "personId": "ge-congzhou",
       "paragraphId": "new-v14-p28",
+      "originalRevision": 1,
+      "originalSha256": "b886064b7c555e24cf6cd73ba2e76f300ac795d128d7d5ad6b42c9d62582f341",
       "terms": [
         "從周"
       ],
-      "reason": "嗣肱從周德威跨词命中從周，不是葛从周。"
+      "reason": "李嗣肱从周德威，非葛，诊断新命中不增加归属。"
     },
     {
       "personId": "li-cunxu",
@@ -12282,12 +12283,14 @@
       "reason": "饶阳令刘巖不是南汉刘龑。"
     },
     {
-      "paragraphId": "new-v51-p47",
       "personId": "ge-congzhou",
+      "paragraphId": "new-v51-p47",
+      "originalRevision": 1,
+      "originalSha256": "4f4b2b6afcb00f2baeaf652aab5bdb337e723a1902914c1fca50296e0d68498c",
       "terms": [
         "從周"
       ],
-      "reason": "从周德威出征的从周不是葛从周。"
+      "reason": "杨光远从周德威，非葛。"
     },
     {
       "paragraphId": "new-v51-p47",
@@ -12771,22 +12774,22 @@
     {
       "personId": "ge-congzhou",
       "paragraphId": "shiguochunqiu-v007-p3",
+      "originalRevision": 1,
+      "originalSha256": "e1f5d198221b0da71b68690b7185c2d1e26341d111af5935a2c691c23b7091d8",
       "terms": [
         "從周"
       ],
-      "reason": "原作从周章，按本段从随他将的语境，不能把从周短串归葛从周；周章、周本异文另按同书校读保留，不擅认已经定讹。",
-      "originalRevision": 1,
-      "originalSha256": "e1f5d198221b0da71b68690b7185c2d1e26341d111af5935a2c691c23b7091d8"
+      "reason": "吕师造从周章/周本，非葛；区域书讹字不此批擅修。"
     },
     {
       "personId": "ge-congzhou",
       "paragraphId": "shiguochunqiu-v007-p14",
+      "originalRevision": 1,
+      "originalSha256": "398df47371cfc3f0e9dcd82b8dd8bc39e5dbd239633db0168f64adeff7cb47be",
       "terms": [
         "從周"
       ],
-      "reason": "从周本是跟随周本，不是葛从周姓名。",
-      "originalRevision": 1,
-      "originalSha256": "398df47371cfc3f0e9dcd82b8dd8bc39e5dbd239633db0168f64adeff7cb47be"
+      "reason": "王舆从周本，非葛。"
     },
     {
       "personId": "wang-qianyu",
@@ -12968,22 +12971,22 @@
     {
       "personId": "ge-congzhou",
       "paragraphId": "jiuguozhi-v002-p15",
+      "originalRevision": 1,
+      "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07",
       "terms": [
         "從周"
       ],
-      "reason": "从周本是跟随周本，不是葛从周的短名。",
-      "originalRevision": 1,
-      "originalSha256": "7389c4600152692da1e491e6ff8ac8826b6283d2af954143d144bf8c9764ec07"
+      "reason": "钟泰章从周本，非葛。"
     },
     {
       "personId": "ge-congzhou",
       "paragraphId": "jiuguozhi-v002-p31",
+      "originalRevision": 1,
+      "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e",
       "terms": [
         "從周"
       ],
-      "reason": "从周本攻苏州是跟随周本，段内未见葛从周，不能按从周字串归人。",
-      "originalRevision": 1,
-      "originalSha256": "72b9870b0a7661ee1e43c5d9b1f62668baa5f380e561a57fd98e1e9ec95ce33e"
+      "reason": "刘权从周本，非葛。"
     },
     {
       "personId": "li-bian",
@@ -13251,12 +13254,12 @@
     {
       "personId": "ge-congzhou",
       "paragraphId": "shiguochunqiu-v003-p8",
+      "originalRevision": 1,
+      "originalSha256": "39f7ce95fe8a1954ab3420a7306fd5d5f39023759fd0f314caeaa8fbfe357b5d",
       "terms": [
         "從周"
       ],
-      "reason": "今从周世宗实录的从是依从介词，与周构成跨词短串，不是葛从周。",
-      "originalRevision": 1,
-      "originalSha256": "39f7ce95fe8a1954ab3420a7306fd5d5f39023759fd0f314caeaa8fbfe357b5d"
+      "reason": "今从周世宗实录为引书，非葛。"
     },
     {
       "personId": "chai-rong",
@@ -13678,6 +13681,148 @@
       "reason": "排除本原段全名自动事迹归属，再登记为提及。张全义应与敬李族诛为史家应然议论，不作真实同诛。",
       "originalRevision": 1,
       "originalSha256": "8676f38fefdc3f86b9cefaecdeccd858d1eaea28495a16ad18c135055d2b7db1"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "huiyao-v002-p61",
+      "originalRevision": 1,
+      "originalSha256": "0d78c26531705c29401f9752738bb671efbd6182e28dd8d56b6c5af1cef1da5b",
+      "terms": [
+        "從周"
+      ],
+      "reason": "从周制为遵周朝制度，非葛从周，需移除旧误关联，局部排除短名。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "kaoyi-v028-p32",
+      "originalRevision": 1,
+      "originalSha256": "a1fd2ef92d6d7bdd3eea74147ad0d631df0b6cffc51e1383d8944d8e4b257c8c",
+      "terms": [
+        "從周"
+      ],
+      "reason": "此卒从周彛请剑：从是介词，周彛李周彝，非葛，移除旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "kaoyi-v030-p49",
+      "originalRevision": 1,
+      "originalSha256": "50f410988641247485c00507ede137390eb3485a32c9eb89b41a014803b9acb3",
+      "terms": [
+        "從周"
+      ],
+      "reason": "今从周太祖实录为采用书名，非葛，移除旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "kaoyi-v030-p53",
+      "originalRevision": 1,
+      "originalSha256": "5953c46557198bb0f48f52447705d75d3fbc0766ce26c29ef2bc56fce2955860",
+      "terms": [
+        "從周"
+      ],
+      "reason": "从周太祖实录的从为采用，非葛，移除旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "new-v21-p29",
+      "originalRevision": 1,
+      "originalSha256": "cec516218ac8b6dd5498ba6f67f89eeebbf3da7330b73117c0f43f0ec7711e6e",
+      "terms": [
+        "葛從周",
+        "從周"
+      ],
+      "reason": "纯篇题保原译，不列独立人物事迹。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "new-v25-p11",
+      "originalRevision": 1,
+      "originalSha256": "d6bdb55ca1f80144a60994dd247d80bfa4ea8ba2c8f61f7f9d261ea9a46f63f7",
+      "terms": [
+        "從周"
+      ],
+      "reason": "符存审从周德威破夹城，从是介词，非葛；需移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v016-p1",
+      "originalRevision": 1,
+      "originalSha256": "cec516218ac8b6dd5498ba6f67f89eeebbf3da7330b73117c0f43f0ec7711e6e",
+      "terms": [
+        "葛從周",
+        "從周"
+      ],
+      "reason": "纯篇题。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v052-p21",
+      "originalRevision": 1,
+      "originalSha256": "663d19137926b0e29083a3935741ac091186cadc9e447db7be1fd0a1eb7e1c90",
+      "terms": [
+        "從周"
+      ],
+      "reason": "李嗣本从周德威余吾，从为介词，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v053-p19",
+      "originalRevision": 1,
+      "originalSha256": "f5134fbf1f2a141bf4ca9c9d75d527eec1133c5e660e1ea378149e4a42c8659f",
+      "terms": [
+        "從周"
+      ],
+      "reason": "李存贤从周德威援上党，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v056-p15",
+      "originalRevision": 1,
+      "originalSha256": "52d81a61e4b4d270e1256a0213a07ac9c4d96ff076c1125a381a5be4f0191307",
+      "terms": [
+        "從周"
+      ],
+      "reason": "符存审从周德威破夹城，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v059-p18",
+      "originalRevision": 1,
+      "originalSha256": "ff0518d36247e9d7d23629e90d296affaf9ef55f9b95575bc4c69f0365a3ce6b",
+      "terms": [
+        "從周"
+      ],
+      "reason": "李绍文从周德威讨燕，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v070-p3",
+      "originalRevision": 1,
+      "originalSha256": "3dd38c7646dd8015c22c6e09ed369cd0793d57b677dddf48698fecc611f91756",
+      "terms": [
+        "從周"
+      ],
+      "reason": "夏鲁奇从周德威攻燕，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "old-v133-p8",
+      "originalRevision": 1,
+      "originalSha256": "ad7a10ed06f49d23db72d901406f46f80cbae9a798b7128ff7374cc84a43b68e",
+      "terms": [
+        "從周"
+      ],
+      "reason": "刘守奇从周德威攻燕，非葛，移旧误关联。"
+    },
+    {
+      "personId": "ge-congzhou",
+      "paragraphId": "huiyao-v001-p3",
+      "originalRevision": 1,
+      "originalSha256": "e774778a244fe576107d87f839874e056ade7304f25b9b68d4c490ee7789e6a7",
+      "terms": [
+        "葛從周"
+      ],
+      "reason": "仅抑制本段全名自动record路线，再由同版本canonical mention恢复姓名提及；不排除真实身份。"
     }
   ],
   "regnalEdicts": {

@@ -100,17 +100,29 @@ test('military release qualification reads the frozen library and people', async
 
 test('direct formal publication rejects stale implementation and missing military attribution before BEGIN', async () => {
   const { readFileSync } = await import('node:fs');
-  const sourceChapter = JSON.parse(readFileSync(new URL('../../content/five-dynasties/chapters/new-v22.json', import.meta.url), 'utf8'));
-  const sourceBook = { ...JSON.parse(readFileSync(new URL('../../content/five-dynasties/catalog.json', import.meta.url), 'utf8')).books.find(book => book.id === 'new'), defaultChapter: 'new-v22' };
+  const { loadLibrary } = await import('../../content/library.mjs');
+  const currentLibrary = loadLibrary();
+  const topic = JSON.parse(readFileSync(new URL('../../content/five-dynasties/military-people.json', import.meta.url), 'utf8'));
+  const currentIndex = JSON.parse(readFileSync(new URL('../../content/person-passages/index.json', import.meta.url), 'utf8'));
+  const qualificationSources = Object.values(topic.memberServiceEvidence).flat();
+  const chapterIds = new Set(qualificationSources.map(source => source.chapterId));
+  const sourceChapters = currentLibrary.chapters.filter(chapter => chapterIds.has(chapter.id));
+  assert.equal(sourceChapters.length, chapterIds.size);
   const content = releaseFixture();
-  content.library.catalog.books.push(sourceBook);
-  content.library.chapters.push(sourceChapter);
-  content.passageIndex.coverage = { bookCount: 2, chapterCount: 2, paragraphCount: sourceChapter.paragraphs.length + 1 };
-  const cited = sourceChapter.paragraphs.find(paragraph => paragraph.id === 'new-v22-p21');
-  const attributed = { id: 'passage-new-v22-p21', chapterId: 'new-v22', title: '牛存节传',
-    spans: [{ paragraphId: cited.id, originalRevision: cited.revision, originalSha256: textHash(cited.original), start: 0, end: [...cited.original].length }],
-    people: [{ personId: 'niu-cunjie', kind: 'biography' }] };
-  content.passageIndex.passages.push(attributed);
+  for (const bookId of new Set(sourceChapters.map(chapter => chapter.bookId))) {
+    const book = currentLibrary.catalog.books.find(book => book.id === bookId);
+    content.library.catalog.books.push({ ...book, defaultChapter: sourceChapters.find(chapter => chapter.bookId === bookId).id });
+  }
+  content.library.chapters.push(...sourceChapters);
+  content.passageIndex.coverage = { bookCount: content.library.catalog.books.length,
+    chapterCount: content.library.chapters.length,
+    paragraphCount: content.library.chapters.reduce((sum, chapter) => sum + chapter.paragraphs.length, 0) };
+  const qualificationParagraphs = new Set(qualificationSources.map(source => source.paragraphId));
+  for (const paragraphId of qualificationParagraphs) {
+    const actual = currentIndex.passages.find(passage => passage.spans.some(span => span.paragraphId === paragraphId));
+    assert.ok(actual, `current qualification attribution: ${paragraphId}`);
+    content.passageIndex.passages.push(structuredClone(actual));
+  }
   const frozen = freezeContentRelease(content);
   const baselineStateSha256 = 'a'.repeat(64);
   const proof = { verified: true, fingerprint: frozen.fingerprint, baselineDatabaseSha256: baselineStateSha256,
@@ -121,7 +133,9 @@ test('direct formal publication rejects stale implementation and missing militar
   await assert.rejects(publishContentRelease(client, frozen, options), /implementation/i);
   assert.equal(queryCount, 0);
 
-  content.passageIndex.passages.pop();
+  content.passageIndex.passages = content.passageIndex.passages.map(passage => ({ ...passage,
+    people: passage.people.filter(person => person.personId !== 'niu-cunjie'),
+  })).filter(passage => passage.people.length > 0);
   const unattributed = freezeContentRelease(content);
   const matchingProof = { ...proof, fingerprint: unattributed.fingerprint, implementation: releaseImplementationFingerprint() };
   await assert.rejects(publishContentRelease(client, unattributed, { ...options, verification: matchingProof }), /association|attribution/i);
