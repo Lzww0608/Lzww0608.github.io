@@ -49,11 +49,107 @@
           "originalRevision": 1,
           "originalSha256": "96a785c4422db3fa0b28cf09adde9a9cc9fd48c48473cc164d78a5d232a92785",
           "excerpt": "乃遣建勲入謁温温見之歎曰有子如是非惡人也即以女妻建勲"
+        },
+        {
+          "chapterId": "shiguochunqiu-v021",
+          "paragraphId": "shiguochunqiu-v021-p3",
+          "originalRevision": 1,
+          "originalSha256": "40d2ee5db719b7e21e7349243915dd0d8b095021b9bf89bac6617931bea49154",
+          "excerpt": "德誠猶不自安，遣建勳入謁，義袓見之，歎曰：「有子如是，非惡人也。」卽以女妻建勳，所謂廣德長公主也。"
         }
       ],
       "notes": [
         "原段婚配在前，确年不明置于年代未定；不表示发生在939年入哭之后。",
         "李建勋和常梦锡后续官历不作为她的年表；不补名讳、生母、出生次序。"
+      ]
+    },
+    {
+      "id": "wu-xu-wen-daughter-guangde-intercede-for-li-jianxun",
+      "title": "为李建勋向李昪进言",
+      "summary": "《十国春秋》记李建勋因擅令草制被放还私第，广德长公主入见李昪，为丈夫进言。李昪答称这是国事，骨肉情谊并无隔阂；后接召见慰勉与复相，是国主对李建勋的处置。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "range",
+      "sourceDate": "本传昇元五年仍辅政后所接叙事，至李昪在世时入言；可核西历941—943年范围，未独记月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v021",
+          "paragraphId": "shiguochunqiu-v021-p3",
+          "originalRevision": 1,
+          "originalSha256": "40d2ee5db719b7e21e7349243915dd0d8b095021b9bf89bac6617931bea49154",
+          "excerpt": "自開國至昇元五年，猶輔政，比他相最久。烈袓鑒吳之亡，由權在大臣，意頗忌之，而建勳無引退意。會建議政事當更張者，且言：「事大體重，不可自臣下出，請以中旨行之。」烈袓雖從之，未有命也，建勳遽召中書舍人草制。給事中常夢錫劾奏：「建勳擅造制書，歸怨于上。」烈袓得奏，適會本意，乃降制放還私第。廣德長公主入謂烈袓曰：「吾父亡恙時，兄亦常求見與李郎書，今何見負？」烈袓曰：「此自國事，吾與李郎骨肉之情，固無問也。」召見，慰勉有加，未幾復相。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p45",
+          "originalRevision": 1,
+          "originalSha256": "fa52591d3b78bd5924c4d5da0e99d43eb164d2beb09897f8cd1a434e694c221a",
+          "excerpt": "高祖聖文章武明德孝皇帝下天福八年（癸卯，公元九四三年）"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p49",
+          "originalRevision": 1,
+          "originalSha256": "c6437815dfd6e393cc0963f2c7e3f93ae86ebafd5765b0d5b86f33c46f5eead8",
+          "excerpt": "會疽發背，秘不令人知，密令醫治之，聽政如故。庚午，疾亟，太醫吳廷裕遣親信召齊王璟入侍疾。唐主謂璟曰：「吾餌金石，始欲益壽，乃更傷生，汝宜戒之！」是夕，殂。秘不發喪，下制：「以齊王監國，大赦。」"
+        }
+      ],
+      "notes": [
+        "本传先明徐温以女妻李建勋，以下广德据这一夫家身份阅读；不凭封号合并其他同号记载，也不据此补改嫁或册封日。",
+        "“亡恙”暂按无恙释；“求见与李郎书”的对象与书信授受未定，不补唯一细节。",
+        "公主进言与李昪任免分别叙述，不把丈夫复相写成公主任官或保证的结果；本次不由“未几”推定年月。",
+        "941—943是入言所处的有据范围，不是把公主进言定在941年七月戊辰；943界限据李昪仍在世答话及其卒年。",
+        "《通鉴》记李建勋上疏后密取改奏而罢，《十国春秋》记其擅令草制而罢，两种缘由分别保留，不拼成一次确定的奏疏、制书经过。"
+      ],
+      "yearRange": {
+        "start": 941,
+        "end": 943
+      },
+      "variants": [
+        {
+          "label": "《通鉴》另述李建勋罢相缘由，未另叙公主入言",
+          "sourceDate": "天福六年秋七月戊辰，仅为李建勋罢归私第的日期",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v282",
+              "paragraphId": "tongjian-v282-p81",
+              "originalRevision": 1,
+              "originalSha256": "12070d02ba943c473b3e6d2a3d9e6948e4845e0c5ab7527af8ce75b55c6cf20e",
+              "excerpt": "高祖聖文章武明德孝皇帝中天福六年（辛丑，公元九四一年）"
+            },
+            {
+              "chapterId": "tongjian-v282",
+              "paragraphId": "tongjian-v282-p95",
+              "originalRevision": 1,
+              "originalSha256": "5502896e9089b333ea930a87ed4df7bca2a256762a1627c514b1dec92368d600",
+              "excerpt": "唐主自以專權取吳，尤忌宰相權重，以右僕射兼中書侍郎、同平章事李建勳執政歲久，欲罷之。會建勳上疏言事，意其留中，既而唐主下有司施行。建勳自知事挾愛憎，密取所奏改之；秋，七月，戊辰，罷建勳歸私第。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wu-xu-wen-daughter-guangde-zhongshan-self-title",
+      "title": "自号钟山老媪",
+      "summary": "《十国春秋》在李建勋致仕、获赐钟山公号之后，记其妻也自号钟山老媪。这是她的自称，不能与丈夫受赐的称号合并为一次朝廷册封。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "李建勋传致仕叙事；妻自号未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v021",
+          "paragraphId": "shiguochunqiu-v021-p3",
+          "originalRevision": 1,
+          "originalSha256": "40d2ee5db719b7e21e7349243915dd0d8b095021b9bf89bac6617931bea49154",
+          "excerpt": "乃營亭榭于鍾山，適意泉石，累表稱疾乞骸骨，以司徒致仕，賜號鍾山公，妻亦自號鐘山老媼。"
+        }
+      ],
+      "notes": [
+        "“妻”承本传已明李建勋妻广德，不是其女进晖；进晖的生母未由本段确定。",
+        "丈夫的致仕、获赐称号及保大十年五月卒事分别保留，不把丈夫的官职或卒年月转给她。"
       ]
     }
   ]
