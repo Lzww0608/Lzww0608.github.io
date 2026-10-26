@@ -1742,6 +1742,14 @@
     {
       "id": "nantang-jianchang-princess",
       "name": "建昌公主（李昪女）"
+    },
+    {
+      "id": "nantang-yushan-princess",
+      "name": "玉山公主（李昪女）"
+    },
+    {
+      "id": "nantang-xingguo-princess",
+      "name": "兴国公主（李昪女、马仁裕妻）"
     }
   ],
   "passages": [
@@ -23237,6 +23245,10 @@
         },
         {
           "personId": "nantang-jianchang-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-yushan-princess",
           "kind": "record"
         }
       ]
@@ -116210,6 +116222,10 @@
         {
           "personId": "nantang-jianchang-princess",
           "kind": "record"
+        },
+        {
+          "personId": "nantang-yushan-princess",
+          "kind": "record"
         }
       ]
     },
@@ -117410,6 +117426,14 @@
         {
           "personId": "nantang-jianchang-princess",
           "kind": "mention"
+        },
+        {
+          "personId": "nantang-yushan-princess",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-xingguo-princess",
+          "kind": "record"
         }
       ]
     },
@@ -117581,6 +117605,10 @@
         },
         {
           "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-xingguo-princess",
           "kind": "record"
         }
       ]

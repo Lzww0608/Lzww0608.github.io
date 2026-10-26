@@ -582,6 +582,12 @@ for chapter_id, added_subjects in {
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *added_subjects]))
 
+
+# Source-local princess identities; archive captures and original bytes stay fixed.
+for chapter_id, related_people in {"shiguochunqiu-v015":["nantang-yushan-princess"],"nantanglu-v001":["nantang-yushan-princess"],"shiguochunqiu-v019":["nantang-yushan-princess","nantang-xingguo-princess"],"shiguochunqiu-v021":["nantang-xingguo-princess"]}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *related_people]))
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
     'zhu-yougui': ['朱友珪', '友珪'],

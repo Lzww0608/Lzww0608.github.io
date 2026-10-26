@@ -292,7 +292,9 @@
     "nantang-fengcheng-princess",
     "nantang-shengtang-princess",
     "nantang-taihe-princess",
-    "nantang-jianchang-princess"
+    "nantang-jianchang-princess",
+    "nantang-yushan-princess",
+    "nantang-xingguo-princess"
   ],
   "people": [
     {
@@ -8288,6 +8290,66 @@
         {
           "title": "《南唐书》（陆游）卷1",
           "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B701&oldid=838666"
+        }
+      ]
+    },
+    {
+      "id": "nantang-yushan-princess",
+      "name": "玉山公主（李昪女）",
+      "dynasty": "南唐",
+      "role": "李昪女；南唐玉山公主",
+      "periodLabel": "昇元元年十一月的封授记载",
+      "intro": "玉山公主见于李昪开国后的封女记载，列在烈祖七女之中。《十国春秋》称她与其余四位公主皆不知所出，未详生母。所列原段也未记她的婚配、生卒及后续经历。",
+      "sourceNotes": [
+        "《十国春秋》卷15与陆游《南唐书》卷1在十一月封女叙次列玉山；该记载位于丁巳追封条之后、戊午封子条之前，没有为她另记封授日。",
+        "《十国春秋》卷19的“不知所出”指生母未详，不是说她的父系不明。",
+        "兵事中的玉山寨及诗文中的玉山均不是这位公主的事迹。"
+      ],
+      "aliases": "玉山公主（李昪女） 玉山公主（南唐烈祖女） 玉山公主（李昪之女）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v019",
+        "nantanglu": "nantanglu-v001"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7019&oldid=2554089"
+        },
+        {
+          "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7015&oldid=2554108"
+        },
+        {
+          "title": "《南唐书（陆游）》 · 卷 1 · 烈祖本纪第一",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B701&oldid=838666"
+        }
+      ]
+    },
+    {
+      "id": "nantang-xingguo-princess",
+      "name": "兴国公主（李昪女、马仁裕妻）",
+      "dynasty": "南唐",
+      "role": "李昪女；马仁裕妻",
+      "periodLabel": "李昪家庭的婚配记载，婚年未详",
+      "intro": "《十国春秋》宗室传记兴国公主嫁给功臣马仁裕，马仁裕传也明确说李昪以女妻之。她的生母、排行和婚期未详；马仁裕传末所记儿子文义，未说明生母，不能据相邻叙事归为公主所生。",
+      "sourceNotes": [
+        "宗室传所列为烈祖李昪之女，与后文元宗李璟的太宁、芳仪分别辨认。",
+        "马仁裕传把婚配置于禅代后授镇海军节度使之前叙述，未独记年月；“烈祖”为追称，不据称号断定婚礼在称帝后。",
+        "马仁裕的卒年不是公主的卒年；本段未载公主生卒。",
+        "马仁裕母怀孕梦兆属于他的早年神异叙事，不移作公主家世或生育。"
+      ],
+      "aliases": "兴国公主（李昪女、马仁裕妻） 興國公主（李昪女、馬仁裕妻） 兴国公主（南唐烈祖女） 李昪女兴国公主",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v019"
+      },
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7019&oldid=2554089"
+        },
+        {
+          "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7021&oldid=2554093"
         }
       ]
     }

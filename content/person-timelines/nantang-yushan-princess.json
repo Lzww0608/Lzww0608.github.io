@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-yushan-princess",
+  "events": [
+    {
+      "id": "nantang-yushan-princess-enfeoffment",
+      "title": "封玉山公主",
+      "year": 937,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "昇元元年十一月；丁巳追封条后、戊午封子条前",
+      "summary": "本纪记封李昪五女为盛唐、太和、永兴、建昌、玉山公主，玉山在列；没有单独记她的封授日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "封女五人爲盛唐、太和、永興、建昌、玉山公主。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "封女五人為盛唐太和永興建昌玉山公主"
+        }
+      ],
+      "notes": [
+        "沿同一封女叙次的日界核准西历937年，不将相邻丁巳直接移作她的册封确日。"
+      ]
+    }
+  ]
+}

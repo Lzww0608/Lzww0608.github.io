@@ -836,6 +836,59 @@
       ]
     },
     {
+      "id": "li-bian-family-investitures-937",
+      "title": "追册故妃并封授子女",
+      "year": 937,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 12,
+      "sourceDate": "昇元元年十一月丙辰、丁巳及其后的封女叙次",
+      "summary": "十一月追册故妃为顺妃，追封景迁及长女，继封盛唐等五女。本条保存相邻诏封，不把各项合为同一日或据此确定各女母系。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "丙辰，追册故妃魏國君王氏爲順妃。丁巳，追封次子景遷爲高平郡王，長女爲豐城公生。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "封女五人爲盛唐、太和、永興、建昌、玉山公主。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游本纪故妃姓氏与景迁排行异文",
+          "sourceDate": "昇元元年十一月丙辰、丁巳及后续封女条",
+          "year": 937,
+          "summary": "陆游本纪故妃作杨氏，景迁作长子；《十国春秋》作王氏、次子。各保称谓，不以异字另拆定一位故配或调整各子排行。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v001",
+              "paragraphId": "nantanglu-v001-p4",
+              "originalRevision": 1,
+              "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+              "excerpt": "丙辰追冊故妃魏國君楊氏為順妃丁巳追封長子景遷為髙平郡王長女為豐城公主"
+            },
+            {
+              "chapterId": "nantanglu-v001",
+              "paragraphId": "nantanglu-v001-p4",
+              "originalRevision": 1,
+              "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+              "excerpt": "封女五人為盛唐太和永興建昌玉山公主"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "诸女授封没有各自单独纪日；故妃追册、长女追封与五女授封分属连续记事，均不等于其死亡或出生时间。"
+      ]
+    },
+    {
       "id": "li-bian-honor-adoptive-mother-li",
       "title": "为养母李氏上明德皇后尊谥",
       "summary": "《十国春秋》记昇元元年十二月，为徐知诰养母李氏上尊谥明德皇后。与天福二年三月王太后追尊是不同阶段；不是在世册后。",
@@ -2061,6 +2114,32 @@
         "937—943只限受禅后、先主在世的宽范围；通鉴受禅及去世是外界证据，不补画像被取的确年、月、日。"
       ],
       "sortOrder": 53
+    },
+    {
+      "id": "li-bian-marry-xingguo-to-ma-renyu",
+      "title": "以兴国公主嫁马仁裕",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 54,
+      "sourceDate": "马仁裕传未独记婚配年月",
+      "summary": "马仁裕传记李昪把女儿嫁给他，是为兴国公主；不由追称烈祖或相邻任官叙事推定婚年。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v021",
+          "paragraphId": "shiguochunqiu-v021-p5",
+          "originalRevision": 1,
+          "originalSha256": "a774b6be303c08a428055a215b0b5560e5d8a887cbeceb69e922851043fab09b",
+          "excerpt": "烈袓以女妻之，是爲興國公主。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "a3c06916c7982fd8dc4c6b01d674d2261481ec191fc6372d923798ea758f72af",
+          "excerpt": "又有興國公主，下嫁功臣馬仁裕，亦未詳其行次。"
+        }
+      ]
     }
   ]
 }

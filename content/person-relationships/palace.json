@@ -10368,5 +10368,185 @@
         "excerpt": "宋太后怨种夫人，屢欲害景逷，唐主力保全之。"
       }
     ]
+  },
+  {
+    "id": "li-bian-yushan-daughter",
+    "from": "li-bian",
+    "to": "nantang-yushan-princess",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "烈祖七女的封闭家内记载；不补母亲、婚配或排行。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p26",
+        "originalRevision": 1,
+        "originalSha256": "a3c06916c7982fd8dc4c6b01d674d2261481ec191fc6372d923798ea758f72af",
+        "excerpt": "烈祖七女，永興公主其第四女也。傳見吳春秋。餘豐城、盛唐、太和、建昌、玉山五公主皆不知所出。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p3",
+        "originalRevision": 1,
+        "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+        "excerpt": "封女五人爲盛唐、太和、永興、建昌、玉山公主。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-xingguo-daughter",
+    "from": "li-bian",
+    "to": "nantang-xingguo-princess",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "马仁裕传明记李昪以女妻之，宗室传亦在烈祖诸女中叙兴国；不与元宗诸女合人。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p5",
+        "originalRevision": 1,
+        "originalSha256": "a774b6be303c08a428055a215b0b5560e5d8a887cbeceb69e922851043fab09b",
+        "excerpt": "烈袓以女妻之，是爲興國公主。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p26",
+        "originalRevision": 1,
+        "originalSha256": "a3c06916c7982fd8dc4c6b01d674d2261481ec191fc6372d923798ea758f72af",
+        "excerpt": "又有興國公主，下嫁功臣馬仁裕，亦未詳其行次。"
+      }
+    ]
+  },
+  {
+    "id": "xingguo-ma-renyu-spouses",
+    "from": "nantang-xingguo-princess",
+    "to": "ma-renyu",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "婚配有据，婚期与公主母系、排行未详；文义的生母未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p26",
+        "originalRevision": 1,
+        "originalSha256": "a3c06916c7982fd8dc4c6b01d674d2261481ec191fc6372d923798ea758f72af",
+        "excerpt": "又有興國公主，下嫁功臣馬仁裕，亦未詳其行次。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p5",
+        "originalRevision": 1,
+        "originalSha256": "a774b6be303c08a428055a215b0b5560e5d8a887cbeceb69e922851043fab09b",
+        "excerpt": "烈袓以女妻之，是爲興國公主。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-source-ancestor-cheng-title",
+    "from": "li-bian",
+    "to": "nantang-li-bian-source-ancestor-cheng",
+    "kind": "service",
+    "label": "史载所奉祖妣／追尊对象，祖系有争议",
+    "note": "《十国春秋》指出所列祖名率由有司撰拟；这里的追尊称谓不证明真实血统。两书相关位号与用字分别保留。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "直妃程氏曰頁靜皇后"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 1 · 烈祖本纪第一",
+        "chapterId": "nantanglu-v001",
+        "paragraphId": "nantanglu-v001-p6",
+        "originalRevision": 1,
+        "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+        "excerpt": "貞妃程氏曰貞靜皇后"
+      },
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "其名率皆有司所撰。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-source-ancestor-cui-title",
+    "from": "li-bian",
+    "to": "nantang-li-bian-source-ancestor-cui",
+    "kind": "service",
+    "label": "史载所奉祖妣／追尊对象，祖系有争议",
+    "note": "《十国春秋》指出所列祖名率由有司撰拟；这里的追尊称谓不证明真实血统。两书相关位号与用字分别保留。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "配崔氏曰平貞皇后"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 1 · 烈祖本纪第一",
+        "chapterId": "nantanglu-v001",
+        "paragraphId": "nantanglu-v001-p6",
+        "originalRevision": 1,
+        "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+        "excerpt": "配崔氏曰平貞妃"
+      },
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "其名率皆有司所撰。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-source-ancestor-lu-title",
+    "from": "li-bian",
+    "to": "nantang-li-bian-source-ancestor-lu",
+    "kind": "service",
+    "label": "史载所奉祖妣／追尊对象，祖系有争议",
+    "note": "《十国春秋》指出所列祖名率由有司撰拟；这里的追尊称谓不证明真实血统。两书相关位号与用字分别保留。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "配盧氏曰安莊皇后"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 1 · 烈祖本纪第一",
+        "chapterId": "nantanglu-v001",
+        "paragraphId": "nantanglu-v001-p6",
+        "originalRevision": 1,
+        "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+        "excerpt": "配盧氏曰安莊妃"
+      },
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p5",
+        "originalRevision": 1,
+        "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+        "excerpt": "其名率皆有司所撰。"
+      }
+    ]
   }
 ]
