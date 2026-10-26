@@ -29,7 +29,7 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 1 的吴太祖世家、卷 2 的吴烈祖、高祖世家、卷 3 的吴睿帝本纪、卷 4 的吴后妃、宗室及公主记载及卷 5、6、7、8、9、12、13 的吴国人物列传及卷 21 的南唐人物列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 1 的吴太祖世家、卷 2 的吴烈祖、高祖世家、卷 3 的吴睿帝本纪、卷 4 的吴后妃、宗室及公主记载及卷 5、6、7、8、9、12、13 的吴国人物列传及卷 21 的南唐人物列传及卷 77 的吴越武肃王世家上，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。', defaultChapter='nantanglu-v017'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。', defaultChapter='nantangma-v010'),
     dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
@@ -282,6 +282,9 @@ SPECS.append(dict(id='shiguochunqiu-v012', bookId='shiguochunqiu', volume=12, po
                   title='卷 12 · 吴列传（钱亮、申渐高、朱延寿妻等）', page='十國春秋/卷012', subjects=[], fixedRevisionId=2554082))
 SPECS.append(dict(id='shiguochunqiu-v021', bookId='shiguochunqiu', volume=21, position=21,
                   title='卷 21 · 南唐列传（周宗、李建勋、徐玠等）', page='十國春秋/卷021', subjects=['li-bian', 'li-jing-southern-tang', 'li-yu', 'qian-hongchu', 'song-qiqiu', 'wang-jingren', 'wu-xu-wen-daughter-guangde', 'wu-yang-xingmi-daughter-xu-jie-wife', 'yang-longyan', 'yang-pu', 'yang-xingmi', 'zhu-wen'], sourceLocalSubjectsOnly=True, fixedRevisionId=2554093, minimumCharacters=5688, minimumBlocks=16))
+SPECS.append(dict(id='shiguochunqiu-v077', bookId='shiguochunqiu', volume=77, position=77,
+                  title="卷 77 · 吴越武肃王世家上（钱镠）", page='十國春秋/卷077', subjects=["qian-liu","qian-yuanguan","wang-jingren","wang-shenzhi","wu-tian-jun-mother-yin","wu-yang-xingmi-daughter-qian-yuanliao-wife","yang-xingmi","zhu-wen"],
+                  sourceLocalSubjectsOnly=True, fixedRevisionId=2556906, minimumCharacters=19700, minimumBlocks=14))
 SPECS.append(dict(id='nantangjinshi-v002', bookId='nantangjinshi', volume=2, position=2,
                   title='卷 2 · 南唐近事', page='南唐近事', subjects=[], fixedRevisionId=1503836,
                   sourceSection={'heading': '卷二', 'untilHeading': '佚文'}))
@@ -819,6 +822,7 @@ def capture(spec, previous=None):
     if spec['id'] == 'shiguochunqiu-v003': notes.append('本页据2026年10月16日保存的维基文库标准页面卷3完整正文整理，报告的父页修订号为2554071；所引子页版本未逐一固定。底本文字、夹注和标点照存。同作品四库本仅供版本参校，不作为独立史料复证；已收其他卷见书籍目录，不表示全书已收录。')
     if spec['id'] == 'shiguochunqiu-v005': notes.append('本页据2026年10月16日保存的维基文库标准页面卷5完整渲染正文整理，报告的父页修订号为2554069；所引Page子页版本未逐一固定。底本文字、夹注和标点照存，标题单列。同作品四库本仅供版本参校，不作为独立史料复证；已收其他卷见书籍目录，不表示全书已收录。')
     if spec['id'] == 'shiguochunqiu-v021': notes.append('本页据2026年10月16日保存的维基文库标准页面卷21完整渲染正文整理，报告的父页修订号为2554093；所引Page子页版本未逐一固定。底本文字、夹注和标点照存，标题单列。同作品不同版本仅供校读，不作为独立史料复证；本次不声称另作四库本复核。已收其他卷见书籍目录，不表示全书已收录。')
+    if spec['id'] == 'shiguochunqiu-v077': notes.append("本页据2026年10月16日保存的维基文库标准页面卷77完整渲染正文整理，报告的父页修订号为2556906；所引Page子页版本未逐一固定。底本原字、疑讹、重复、夹注及标点照存，标题单列；同作品不同版本仅供校读，不作为独立史料复证。已收其他卷见书籍目录，不表示全书已收录。")
     if spec['id'] == 'shiguochunqiu-v004': notes.append('本站仅收录维基文库《十国春秋》标准页面卷 4，不表示全书已收录。底本讹字与原有标点保持原样，译文及译注参校同一作品的四库本；不同版本不作为独立史料复证。')
     if spec['id'] == 'shiguochunqiu-v013': notes.append('本页完整收录维基文库《十国春秋》标准页面卷 13 的吴国人物列传，原有字词、夹注与标点保持原样；同一作品的四库本仅用于版本校读，不作为独立史料复证。已收其他卷请参见书籍目录，不表示全书已收录。')
     if book['id'] == 'nantanglu': notes.append('本站仅收录陆游《南唐书》卷 17，陆游《南唐书》与马令的同名著作分别编目；完整保留小传、夹注、史家评论及来源标点，不表示全书已收录。同作品四库本只作版本参校，不作独立复证。')
