@@ -89,6 +89,20 @@
           "originalRevision": 1,
           "originalSha256": "f33516c8647637134f5cf79284d420acd14909537f3da24b39a91f3f221e8670",
           "excerpt": "唐主宴群臣於天泉閣，李德誠曰：「陛下應天順人，惟宋齊丘不樂。」因出齊丘止德誠勸進書，唐主執書不視，曰：「子嵩三十年舊交，必不相負。」齊丘頓首謝。己丑，唐主表讓皇改東都宮殿名，皆取於仙經。讓皇常服羽衣，習辟穀術。辛卯，吳宗室建安王珙等十二人皆降爵為公，而加官增邑。丙申，以吳同平章事張延翰及門下侍郎張居詠、中書侍郎李建勳並同平章事。讓皇以唐主上表，致書辭之；唐主表謝而不改。丁酉，加宋齊丘大司徒。齊丘雖為左丞相，不預政事，心慍懟，聞制詞云「布衣之交」，抗聲曰：「臣為布衣時，陛下為刺史；今日為天子，可不用老臣矣。」還家請罪，唐主手詔謝之，亦不改命。久之，齊丘不知所出，乃更上書請遷讓皇於它州，及斥遠吳太子璉，絕其婚；唐主不從。乙巳，立王后宋氏為皇后。戊申，以諸道都統、判元帥府事景通為諸道副元帥、判六軍諸衛事、太尉、尚書令、吳王。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "戊申，以皇子景通爲諸道副元帥、判六軍諸衛事、太尉、尚書令，封吳王。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "戊申封子景通為呉王諸道副元帥判六軍諸衛事"
         }
       ],
       "phase": "service",
@@ -109,7 +123,10 @@
           ]
         }
       ],
-      "sortOrder": 4
+      "sortOrder": 4,
+      "notes": [
+        "陆游本此句未列太尉、尚书令；本纪先封吴王、再改齐王，与《新五代史》父立即封齐王的概叙不同。"
+      ]
     },
     {
       "id": "li-jing-southern-tang-rename-jing-937",
@@ -124,6 +141,13 @@
           "originalRevision": 1,
           "originalSha256": "11563b6d4c50823f9c7d4df1785d70421dedf11da1ae60fb6fc9039357a95166",
           "excerpt": "十一月，乙卯，唐吳王景通更名璟。唐主賜楊璉妃號永興公主；妃聞人呼公主則流涕而辭。戊午，唐主立其子景遂為吉王，景達為壽陽公；以景遂為侍中、東都留守、江都尹，帥留司百官赴東都。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "乙卯，吳王景通更名璟。"
         }
       ],
       "phase": "service",
@@ -167,11 +191,44 @@
           "originalRevision": 1,
           "originalSha256": "fcbd28e7e85a2cb805c917a12d3bdb81235f91ee6c52c8c85640f829a814bf37",
           "excerpt": "唐主將立齊王璟為太子，固辭；乃以為諸道兵馬大元帥、判六軍諸衛、守太尉、錄尚書事、升、揚二州牧。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "辛巳，詔國事委齊王璟，〈陸氏《南唐書》云：壬午，韶以國事委宋齊丘。今從《通鑑》。〉惟軍旅以聞。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "丙寅，以齊王璟爲諸道兵馬大元帥、判六軍諸衛、守太尉、録尚書事、昇揚二州牧。時帝欲立璟爲太子，璟力辭，因有是命。"
         }
       ],
       "phase": "service",
       "precision": "year",
-      "sortOrder": 6
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "陆游本丧中委事对象异文",
+          "sourceDate": "昇元三年二月发哀后连叙；陆本未独记诏日",
+          "summary": "陆游本记国事委宋齐丘；《十国春秋》夹注明引陆本壬午委宋齐丘，而正文采用《通鉴》委齐王璟。丧中委事的对象不同，未载二人同时受命。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v001",
+              "paragraphId": "nantanglu-v001-p6",
+              "originalRevision": 1,
+              "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+              "excerpt": "已夘帝御興祥殿復姓為考妣發哀與皇后皆服斬縗居廬如始喪禮服考妣喪各二十七日凡五十四日不視朝旦暮臨詔國事委宋齊丘惟軍旅以聞羣臣固諫詔以墨縗聽政"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "陆游本另记丙寅授璟兵马大元帅，未独记辞太子；丧中委事的受命者则写作宋齐丘。"
+      ]
     },
     {
       "id": "li-jing-southern-tang-decline-crown-940",
@@ -193,11 +250,28 @@
           "originalRevision": 1,
           "originalSha256": "0671fcd1f9ea5d23435d4df008ef928fee4624fc24fa3a9d5a5224eca74453be",
           "excerpt": "唐齊王璟固辭太子；九月，乙丑，唐主許之，詔中外致箋如太子禮。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p6",
+          "originalRevision": 1,
+          "originalSha256": "af89ee5ef5acfdc6db2540d568fab1f9ae7956885addb6d7605e22054052040b",
+          "excerpt": "丁巳，立齊王璟爲皇太子，仍兼大元帥，録尚書事。璟固讓，從之。九月乙丑，詔中外致牋齊王，如太子禮。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "5e9d956b2351132762a224a87f57267444ce1858db47959fa8d2e1c714ecbc46",
+          "excerpt": "秋八月立齊王璟為皇太子仍兼大元帥録尚書事璟固讓從之"
         }
       ],
       "phase": "service",
       "precision": "year",
-      "sortOrder": 7
+      "sortOrder": 7,
+      "notes": [
+        "陆游本八月立、辞及十月因让储赦罪，未独记通鉴及春秋九月乙丑致笺；不把这些步骤合为同日。"
+      ]
     },
     {
       "id": "li-jing-southern-tang-regency-940",
@@ -212,6 +286,20 @@
           "originalRevision": 1,
           "originalSha256": "5ef7d678e3a2fd27f4bb20d2f748bb6f337f9a603d2aa361bab03d3d6140e7dc",
           "excerpt": "術士孫智永以四星聚鬥，分野有災，勸唐主巡東都，乙巳，唐主命齊王璟監國。光政副使、太僕少卿陳覺以私憾奏泰州刺史褚仁規貪殘；丙午，罷仁規為扈駕都部置，覺始用事。庚戌，唐主發金陵；甲寅，至江都。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p6",
+          "originalRevision": 1,
+          "originalSha256": "af89ee5ef5acfdc6db2540d568fab1f9ae7956885addb6d7605e22054052040b",
+          "excerpt": "乙巳，詔幸東都，命齊王璟監國。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "5e9d956b2351132762a224a87f57267444ce1858db47959fa8d2e1c714ecbc46",
+          "excerpt": "乙巳詔幸東都命齊王璟監國"
         }
       ],
       "phase": "service",
@@ -245,12 +333,20 @@
           "originalRevision": 1,
           "originalSha256": "62ce1556522181881c267a9ebd749f0cd0936c63dad56b371ce721bf4bbef62b",
           "excerpt": "唐元宗即位，大赦，改元保大。秘書郎韓熙載請俟逾年改元，不從。尊皇后曰皇太后，立妃鍾氏為皇后。唐主未聽政，馮延己屢入白事，一日至數四。唐主曰：「書記有常職，何為如是其煩也！」唐主為人謙謹，初即位，不名大臣，數延公卿論政體，李建勳謂人曰：「主上寬仁大度，優於先帝；但性習未定，苟旁無正人，但恐不能守先帝之業耳。」唐主以鎮南節度使宋齊丘為太保兼中書令，奉化節度使周宗為侍中。唐主以齊丘、宗先朝勳舊，故順人望召為相，政事皆自決之。徙壽王景遂為燕王，宣城王景達為鄂王。初，唐主為齊王，知政事，每有過失，常夢錫常直言規正；始雖忿懟，終以諒直多之。及即位，許以為翰林學士，齊丘之黨疾之，坐封駁制書，貶池州判官。池州多遷客，節度使上蔡王彥儔，防制過甚，幾不聊生，惟事夢錫如在朝廷。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10",
+          "excerpt": "庚午，疾亟，太醫吳延紹〈一作「廷裕」〉遣信召齊王璟入侍疾。詔曰：「迺公迺侯，越百執事，欽承嗣命，命爾保元子璟，衹肅天鑒，社稷宗廟永有終，我不敢知，曰其基永昌，我亦不敢知，曰墜命罔後，天不爾諶，祐於有德，厥位艱哉！」是夕，殂於昇元殿，年五十六，諡曰光文肅武孝高皇帝，廟號烈祖。"
         }
       ],
       "phase": "rule",
       "precision": "month",
       "notes": [
-        "即位与改元依通鉴三月连续叙次定位，不把此前二月侍疾监国、其后秋季兄弟盟都记为同日。"
+        "即位与改元依通鉴三月连续叙次定位，不把此前二月侍疾监国、其后秋季兄弟盟都记为同日。",
+        "《十国春秋》卷15记烈祖临终命保元子璟及崩逝；元宗承位、改元保大另见《新五代史》及《通鉴》。"
       ],
       "sortOrder": 9,
       "variants": [
@@ -265,6 +361,27 @@
               "originalRevision": 1,
               "originalSha256": "b72179b01804b5ea552150b17ef6228dd0780c0240df648ccae7f43541499861",
               "excerpt": "烈祖殂大臣欲以宋后監國命中書侍郎孫晟草遺詔夷鄴曰此非先旨必姦人詐為大行嘗云婦人預政亂之本也安𡧓自作禍階且嗣君明徳聞於天下汝曹何遽為亡國之事乎若遂宣行吾對百寮裂之必矣於是監國之議遂寢元宗即位語夷鄴曰疾風勁草於卿見之"
+            }
+          ]
+        },
+        {
+          "label": "宋后传的临朝拟议未行",
+          "sourceDate": "烈祖殂后、元宗即位前；未独记拟议日期",
+          "summary": "《十国春秋》宋后传称孙晟拟称遗诏、宋后拒绝，陆游本写孙忌；马令另叙大臣拟议、李夷邺反对而议寝。各书记姓名和阻止者不同，均未记宋后实际临朝。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p3",
+              "originalRevision": 1,
+              "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+              "excerpt": "及晏駕，中書侍郎孫晟懼魏岑、馮延巳、延魯以東官舊僚用事，欲稱遺詔奉后臨朝聽政，后不許，曰：「此武后故事，吾豈爲之！」元宗卽位，尊爲皇太后。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p3",
+              "originalRevision": 1,
+              "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+              "excerpt": "及殂中書侍郎孫忌懼魏岑馮延己延魯以東宮舊僚用事欲稱遺詔奉后臨朝聽政后不許曰此武后故事吾豈為之元宗即位尊后為皇太后"
             }
           ]
         }
@@ -290,11 +407,55 @@
           "originalRevision": 1,
           "originalSha256": "aa79e5259b6a46526ba8fc9eb50e1b37eab70a992166b6cb9629c8a4cedc52c3",
           "excerpt": "唐主緣烈祖意，以天雄節度使兼中書令、金陵尹燕王景遂為諸道兵馬元帥，徙封齊王，居東宮；天平節度使、守侍中、東都留守鄂王景達為副元帥，徙封燕王；宣告中外，約以傳位。立長子弘冀為南昌王。景遂、景達固辭，不許。景遂自誓必不敢為嗣，更其字曰退身。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "元宗嗣位以弟景遂為兵馬元帥景達為副元帥誓於烈祖梓宫前約兄弟相傳而出𢎞冀留守東都"
         }
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 10
+      "sortOrder": 10,
+      "variants": [
+        {
+          "label": "宗室传让位未行及位次合叙",
+          "sourceDate": "烈祖殂后；另有明年、久之或合叙，未各记年月",
+          "summary": "景遂传先记让位未行、明年总政诏收回、久之立太弟；景达传另有称疾固让、欲次及景达之说，陆游景达传接记太弟。即位让位拟议、943盟约、947太弟不合为同一事项。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v019",
+              "paragraphId": "shiguochunqiu-v019-p3",
+              "originalRevision": 1,
+              "originalSha256": "94997122cfaca6043f3be88c2aac5da2801a7fa4fb9bd867e256da25d20f71ba",
+              "excerpt": "烈祖晏駕，元宗以位讓景遂，大臣固持之而止。徙封燕王，已又改封齊王，加諸道兵馬元帥。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v019",
+              "paragraphId": "shiguochunqiu-v019-p4",
+              "originalRevision": 1,
+              "originalSha256": "de72e26ff15516d786537f6846709850c276c9a7fd414f5a15ae42662d950540",
+              "excerpt": "及晏駕，景遷已先死，元宗稱疾，固讓景遂，欲以次及景達，承先帝遺意。既廹于羣下，議不得行。進封景達鄂王，加侍中，已又封燕王。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p10",
+              "originalRevision": 1,
+              "originalSha256": "8c95f2d874231962587e241f528e4537e4bbfacc9691d53338366e3693af0d47",
+              "excerpt": "烈祖殂元宗以位讓景遂大臣固持之而止明年又命景遂總庶政已降詔僉謂不可乃收所下詔"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p11",
+              "originalRevision": 1,
+              "originalSha256": "745b27368660889dca05dc2f8f633edbbcde054e871b0ad4329551dbdb94c4ed",
+              "excerpt": "烈祖殂景遷已前死元宗稱疾固讓景遂欲以次及景達承先帝遺意既迫於羣下之議不得行乃立景遂為太弟景達自燕王徙封齊王為諸道兵馬元帥中書令"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-jing-southern-tang-zhang-yuxian",
@@ -462,6 +623,20 @@
           "originalRevision": 1,
           "originalSha256": "a04b763e68d8a9d9a5573367c648af648aa081820bca3dafc2b732ac15ed372c",
           "excerpt": "樹立之權，由來尚矣。康無專享，止崇藩屏之封。穆吊不鹹，但著急難之詠。未有極至公之舉，正太弟之尊，大義鴻猷，如今日之盛者也。副君膺則哲之寄，有聖人之資，由上德而貞萬邦，用英才而總百揆。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p3",
+          "originalRevision": 1,
+          "originalSha256": "94997122cfaca6043f3be88c2aac5da2801a7fa4fb9bd867e256da25d20f71ba",
+          "excerpt": "久之，立為太弟，凡太子官屬皆改為太弟官屬。景遷固辭不得，乃取老子「功成名遂身退」之意，易字曰退身，以示不處之志。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p10",
+          "originalRevision": 1,
+          "originalSha256": "8c95f2d874231962587e241f528e4537e4bbfacc9691d53338366e3693af0d47",
+          "excerpt": "久之又以為太弟凡太子官屬皆改為太弟官屬景遂固辭雖不得命終恐懼不敢安處乃取老子功成名遂身退之意自為字曰退身以見志"
         }
       ],
       "phase": "rule",
@@ -484,7 +659,8 @@
       ],
       "sortOrder": 14,
       "notes": [
-        "碑文颂李璟正太弟之尊，只作已立太弟的文书佐证；不由碑文赞辞另补册立年月日，不与943年兄弟盟约混同。"
+        "碑文颂李璟正太弟之尊，只作已立太弟的文书佐证；不由碑文赞辞另补册立年月日，不与943年兄弟盟约混同。",
+        "两传以久之叙立太弟，未独记年月；《通鉴》将册立系于947年。《十国春秋》此处写景迁固辞，人物称谓有疑。"
       ]
     },
     {
@@ -854,12 +1030,27 @@
           "originalRevision": 1,
           "originalSha256": "102b7ee93d68f22c32dd61e0276b987f9b2c1cd2a7ca8c3b40f0f3dba88d6188",
           "excerpt": "四年三月唐周廷構等作劉仁贍表來降〈實録時仁贍卧疾已亟遂飜然納欵而城内諸軍萬計皆屏息以聼其命又曰仁贍輕財重士法令嚴肅故能以一城之衆連年拒守逮其來降而其下無敢竊議者斯亦一時之名將也歐陽史三月仁贍病甚已不知人其副使孫羽詐為仁贍書以城降世宗命舁仁贍至帳前嘆嗟乆之賜以玉帶御馬復使入城養疾是日制曰劉仁贍盡忠所事抗節無虧前代名臣幾人可比予之南伐得尔為多乃拜仁贍檢校太尉兼中書令天平軍節度使仁贍不能受命而卒世宗追封彭城郡王以其子崇讚為懷州刺史李景聞仁贍卒亦贈太師又曰仁贍既殺其子以自明矣豈有垂死而變節者乎今周世宗實録載仁贍降書蓋其副使孫羽等所為也當世宗時王環為蜀守秦州攻之乆不下其後力屈而降世宗頗嗟其忠然止以為大將軍視世宗待二人之薄厚而考其制書乃知仁贍非降者也今從之〉"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "de72e26ff15516d786537f6846709850c276c9a7fd414f5a15ae42662d950540",
+          "excerpt": "景達雖剛毅，而不厯軍容。保大末，淮南交兵，以元帥督師，陳覺為監軍使，軍政一切皆决于覺，景達署牘尾、主畫諾而已。朱元之叛，壽州䧟，皆覺為之，景達不能問。初出師五萬，而俘、死、亡、叛者四萬，景達及覺引殘兵歸金陵，上還印綬。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "745b27368660889dca05dc2f8f633edbbcde054e871b0ad4329551dbdb94c4ed",
+          "excerpt": "保大末淮南交兵景達以元帥督師陳覺為監軍使軍政皆决於覺景達署牘尾而已朱元叛壽州陷皆覺為之景達亦不能詰初出師五萬而俘死亡叛者四萬景達及覺引殘兵歸金陵上還印綬"
         }
       ],
       "phase": "rule",
       "precision": "month",
       "notes": [
-        "新史同段后面的濠、泗失守和十二月楚州战事另在年内后期，不并入寿州三月。"
+        "新史同段后面的濠、泗失守和十二月楚州战事另在年内后期，不并入寿州三月。",
+        "两传把军政归陈觉、朱元叛、寿州陷及残军南归连叙，俘、死、亡、叛四万为合计。《通鉴》所记寿州三月与两传保大末的概叙各有详略。"
       ],
       "sortOrder": 21
     },
@@ -938,6 +1129,20 @@
           "originalRevision": 1,
           "originalSha256": "730d46b2ca494f8b43d773c7165176a26c2ab5f25c974cbabf251eb5261ac918",
           "excerpt": "唐太弟景遂前後凡十表辭位，且言：「今國危不能扶，請出就籓鎮。燕王弘冀嫡長有軍功，宜為嗣，謹奉上太弟寶冊。」齊王景達亦以敗軍辭元帥。唐主乃立景遂為晉王，加天策上將軍、江南西道兵馬元帥、洪州大督都、太尉、尚書令，以景達為浙西道元帥、潤州大都督。景達以浙西方用兵，固辭，改撫州大都督。立弘冀為皇太子，參決庶政。弘冀為人猜忌嚴刻，景遂左右有未出東宮者，立斥逐之。其弟安定公從嘉畏之，不敢預事，專以經籍自娛。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p11",
+          "originalRevision": 1,
+          "originalSha256": "b390aed5b3a039d49a17c319bf7538bba9e8bd0fa57f326f79fa35e954618c2f",
+          "excerpt": "及太弟景遂請歸藩，景達為元帥，又奔潰南歸。獨弘冀有功，遂立為太子，參决政事。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "及太弟景遂力請歸藩而景達為元帥奔潰南歸獨𢎞冀有功遂立為太子參决政事"
         }
       ],
       "phase": "rule",
@@ -958,7 +1163,10 @@
           ]
         }
       ],
-      "sortOrder": 24
+      "sortOrder": 24,
+      "notes": [
+        "两传在景遂请归、景达兵败后记弘冀立储，未独记日期；《通鉴》系于三月，《新五代史》在处分陈觉、宋齐丘后接叙。"
+      ]
     },
     {
       "id": "li-jing-southern-tang-cede-huainan",
@@ -1265,7 +1473,30 @@
       "notes": [
         "新史李煜传明记从嘉为景第六子；本传“次子”按此处继承次序理解，不以短句另定亲生排行。"
       ],
-      "sortOrder": 31
+      "sortOrder": 31,
+      "variants": [
+        {
+          "label": "宗室传的弘冀卒日与初谥异文",
+          "sourceDate": "显德六年七月属疾、九月丙午卒",
+          "summary": "两传记弘冀九月丙午卒、初谥宣武，后改文献；《通鉴》初谥作武宣。这些段落记其卒日和议谥，未记从嘉继嗣的细节。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v019",
+              "paragraphId": "shiguochunqiu-v019-p11",
+              "originalRevision": 1,
+              "originalSha256": "b390aed5b3a039d49a17c319bf7538bba9e8bd0fa57f326f79fa35e954618c2f",
+              "excerpt": "顯徳六年七月，弘冀屬疾，數見景遂為厲。〈江表志云：太子冀數見太弟遂為祟于昭慶宫中。〉九月丙午薨。有司以其靖難之功，謚宣武。句容尉張洎，弘冀所薦士也，上書言:「世子之徳，在視膳問安，今標顯武功，垂示後世，非所以防微杜漸也。」元宗善之，下其議，改謚曰文獻。洎由是知名。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p13",
+              "originalRevision": 1,
+              "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+              "excerpt": "顯徳六年七月𢎞冀屬疾數見景遂為厲九月丙午卒有司諡曰宣武句容尉張洎上書謂世子之德在侍饍問安今標顯武功垂示後世非所以防㣲杜漸也洎知元宗猶衘𢎞冀專殺事其說葢出於揣摩元宗果大以為然改謚曰文獻而洎由此進用"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-jing-southern-tang-move-nanchang",
@@ -1308,13 +1539,35 @@
           "originalRevision": 1,
           "originalSha256": "51e4c583d3d8bf0c93ae9bd0560036eaa49ce879f41f9e4e5670f454c67004a7",
           "excerpt": "元宗南遷以簡言輔太子居守辭以不能事少貴乃令従行"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "元宗幸南都，詔音存問，以令婦稱。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "excerpt": "其遷南都也，使主扈從諸軍。元宗殂，未御梓宫，從善輙從徐遊求遺詔；"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "其遷南都也使主扈從諸軍元宗殂未御梓宫從善輒從徐遊求遺詔遊厲色拒之"
         }
       ],
       "phase": "rule",
       "precision": "year",
       "sortOrder": 32,
       "notes": [
-        "陆游《南唐书》另叙元宗失江北后迁豫章、龙舟经赵屯时李家明献皖山诗；陆书未独记确年，原事件961年仍依新史，不把同段宋齐丘丧子逸事并入迁都年。"
+        "陆游《南唐书》另叙元宗失江北后迁豫章、龙舟经赵屯时李家明献皖山诗；陆书未独记确年，原事件961年仍依新史，不把同段宋齐丘丧子逸事并入迁都年。",
+        "周后传记元宗幸南都时存问，从善传记从善统扈从及元宗殂后求诏，均未独记迁都年日。《新五代史》将迁南都系于建隆二年，问候与求诏各有叙次。"
       ]
     },
     {
@@ -1337,6 +1590,20 @@
           "originalRevision": 1,
           "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
           "excerpt": "煜字重光，初名從嘉，景第六子也。煜為人仁孝，善屬文，工書畫，而豐額駢齒，一目重瞳子。自太子冀已上，五子皆早亡，煜以次封吳王。建隆二年，景遷南都，立煜為太子，留監國。景卒，煜嗣立於金陵。母鍾氏，父名泰章。煜尊母曰聖尊后；立妃周氏為國后；封弟從善韓王，從益鄭王，從謙宜春王，從度昭平郡公，從信文陽郡公。大赦境內。遣中書侍郎馮延魯修貢于朝廷。令諸司四品已下無職事者，日二員待制於內殿。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "excerpt": "元宗殂，未御梓宫，從善輙從徐遊求遺詔；遊厲色拒之，至金陵，具以事聞。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "元宗殂未御梓宫從善輒從徐遊求遺詔遊厲色拒之至金陵具以事聞"
         }
       ],
       "phase": "fall",
@@ -1374,7 +1641,8 @@
         }
       ],
       "notes": [
-        "新史农历六月整月在西历961年七月至八月；史文没有卒日，不显示为西历6月某日。"
+        "新史农历六月整月在西历961年七月至八月；史文没有卒日，不显示为西历6月某日。",
+        "从善传记元宗殂后梓宫未行、至金陵报告，未独载卒地、年寿或卒月日。金陵与迁洪州后的卒地叙次，以及四十六、六十四的年寿差异，见新旧五代史。"
       ],
       "sortOrder": 33
     },
@@ -1398,6 +1666,13 @@
           "originalRevision": 1,
           "originalSha256": "8b1dc5621b74c894f007fa9ccc5778bfdebce2775431bdc0f2d7a79708d570dd",
           "excerpt": "景，初名景通，昪長子也。既立，又改名璟。徐溫死，昪專政，以為兵部尚書、參知政事。明年，昪鎮金陵，留景為司徒、同平章事，與宋齊丘、王令謀居廣陵，輔楊溥。昪將篡國，召景歸金陵為副都統。昪立，封齊王。昪卒，嗣位，改元保大。尊母宋氏為皇太后，妃鍾氏為皇后。封弟壽王景遂為燕王，宣城王景達鄂王，景逷前未王，為保寧王。秋，改封景遂齊王、諸道兵馬元帥、太尉、中書令，景達為燕王、副元帥，盟於昪柩前，約兄弟世世繼立。封其子冀南昌王、江都尹。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "excerpt": "太和三年，以太尉、中書令領鎮海寧國諸軍節度使，出鎮金陵，如溫故事，留其子景通爲司徒、同平章事，以王令謀、宋齊丘爲左、右僕射，同平章事。未幾，封東海郡王。"
         }
       ],
       "phase": "uncertain",
@@ -1407,7 +1682,8 @@
         "end": 932
       },
       "notes": [
-        "通鉴所记十一月跨西历931年十二月至932年一月，无单日不强定931。"
+        "通鉴所记十一月跨西历931年十二月至932年一月，无单日不强定931。",
+        "《十国春秋》卷15以太和三年记出镇金陵、留景通及王令谋、宋齐丘；《新五代史》另按徐温死后的相对叙次记述。"
       ],
       "sortOrder": 34
     },
@@ -1457,6 +1733,13 @@
           "originalRevision": 1,
           "originalSha256": "8b1dc5621b74c894f007fa9ccc5778bfdebce2775431bdc0f2d7a79708d570dd",
           "excerpt": "景，初名景通，昪長子也。既立，又改名璟。徐溫死，昪專政，以為兵部尚書、參知政事。明年，昪鎮金陵，留景為司徒、同平章事，與宋齊丘、王令謀居廣陵，輔楊溥。昪將篡國，召景歸金陵為副都統。昪立，封齊王。昪卒，嗣位，改元保大。尊母宋氏為皇太后，妃鍾氏為皇后。封弟壽王景遂為燕王，宣城王景達鄂王，景逷前未王，為保寧王。秋，改封景遂齊王、諸道兵馬元帥、太尉、中書令，景達為燕王、副元帥，盟於昪柩前，約兄弟世世繼立。封其子冀南昌王、江都尹。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p5",
+          "originalRevision": 1,
+          "originalSha256": "7fbbdd28460e7356960be5a494927468a9a7082198f9be281ff04fdd560c2dad",
+          "excerpt": "是歲徙呉王璟為齊王"
         }
       ],
       "phase": "uncertain",
@@ -1468,7 +1751,23 @@
       "notes": [
         "是岁未独记月日，天福三年农历年延至西历939年初，不强补某日。"
       ],
-      "sortOrder": 36
+      "sortOrder": 36,
+      "variants": [
+        {
+          "label": "春秋改齐王的叙次",
+          "sourceDate": "昇元二年冬十月讲武后未几；改封未独记日",
+          "summary": "本纪先记壬辰命吴王璟讲武，接称未几改封齐王；陆游本与《通鉴》作是岁概记。讲武有记日，改封未独记日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v015",
+              "paragraphId": "shiguochunqiu-v015-p4",
+              "originalRevision": 1,
+              "originalSha256": "84b41f15d5be65edd561fd251228c8b5370b1d9f40101bd0240b55482d728008",
+              "excerpt": "壬辰，命吳王璟勒步騎八萬講武銅駞橋；未幾，徙封璟爲齊王。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-jing-southern-tang-min-campaign",
@@ -1574,12 +1873,13 @@
       "precision": "range",
       "yearRange": {
         "start": 943,
-        "end": 961
+        "end": 945
       },
       "sourceDate": "元宗时期，未独记年月",
       "phase": "uncertain",
       "notes": [
-        "943—961仅为李璟即位至去世的统治宽外界，不是太后离宫或耿入宫持续时段。耿炼金、失娠等神异另按原书叙述，不据此补生父或孩子身份。"
+        "943—961仅为李璟即位至去世的统治宽外界，不是太后离宫或耿入宫持续时段。耿炼金、失娠等神异另按原书叙述，不据此补生父或孩子身份。",
+        "本条此前以元宗在位943—961作宽外界；现据宋太后保大三年十月卒（该月在945）将外界收窄为943—945，仍非离宫或迎还的确年。旧注中的943—961是初始宽界的记录，不作本版范围。"
       ],
       "evidence": [
         {
@@ -1602,6 +1902,20 @@
           "originalRevision": 1,
           "originalSha256": "4e2137dc2a964ff8882a88b503c0868647cad4863a210b782ba26a72700a3c61",
           "excerpt": "六月，景卒，年六十四。[4]從嘉嗣立，以喪歸金陵，遣使入朝，願復景帝號，太祖皇帝許之，乃謚曰明道崇德文宣孝皇帝，廟號元宗，陵曰順陵。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "保大三年十月殂"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "保大三年十月卒"
         }
       ],
       "sortOrder": 39

@@ -4640,6 +4640,101 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-li-bian-consort-wang",
+      "names": [
+        "顺妃王氏（李昪故配）",
+        "順妃王氏（李昪故配）",
+        "李昪顺妃王氏",
+        "李昪順妃王氏",
+        "南唐顺妃王氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-song-fujin",
+      "names": [
+        "宋福金",
+        "宋福金（元敬皇后）",
+        "李昪皇后宋氏",
+        "南唐元敬皇后宋氏",
+        "南唐元恭皇后宋氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-li-bian-consort-shiguang",
+      "names": [
+        "种时光（李昪夫人）",
+        "种時光（李昪夫人）",
+        "李昪夫人种时光",
+        "李昪夫人种時光"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-li-bian-mother-liu",
+      "names": [
+        "刘氏（李昪生母、德恭皇后）",
+        "劉氏（李昪生母、德恭皇后）",
+        "李昪生母刘氏",
+        "李昪生母劉氏",
+        "南唐德恭皇后刘氏"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-fengcheng-princess",
+      "names": [
+        "丰城公主（李昪长女）",
+        "李昪女丰城公主",
+        "南唐丰城公主"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-shengtang-princess",
+      "names": [
+        "盛唐公主（李昪女）",
+        "李昪女盛唐公主",
+        "南唐盛唐公主"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-taihe-princess",
+      "names": [
+        "太和公主（李昪女）",
+        "李昪女太和公主",
+        "南唐太和公主"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-jianchang-princess",
+      "names": [
+        "建昌公主（李昪女）",
+        "李昪女建昌公主",
+        "南唐建昌公主"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -13759,6 +13854,129 @@
       "reason": "本段“毕法道士郑茂章”为道人郑氏，不是本卷后文改名景仁的王茂章；仅按本段底本排除短名，不改真实全局别名。",
       "originalRevision": 1,
       "originalSha256": "75349c5ef12ec669695b4f5180a47c7bccd35ab7698b3f1d90b82f3a097b2628"
+    },
+    {
+      "personId": "wang-jian-former-shu",
+      "paragraphId": "nantanglu-v001-p3",
+      "terms": [
+        "王建"
+      ],
+      "reason": "呉王建國为吴王与建国动词跨词，非前蜀王建。",
+      "originalRevision": 1,
+      "originalSha256": "e88d7fd40ea022a5e00480ad0cb5c8e3f9fc058760ed4fbcdcad199bf6685f56"
+    },
+    {
+      "personId": "fang-zhiwen",
+      "paragraphId": "shiguochunqiu-v015-p8",
+      "terms": [
+        "紹英"
+      ],
+      "reason": "漢使滕紹英是另一具姓使者，非方知温短名绍英。",
+      "originalRevision": 1,
+      "originalSha256": "4c1c007ceaba229f9d6200a3eff727706854dc55f5f898bacb55cfa187af485c"
+    },
+    {
+      "personId": "fang-zhiwen",
+      "paragraphId": "nantanglu-v001-p9",
+      "terms": [
+        "紹英"
+      ],
+      "reason": "漢使滕紹英，非方知温。",
+      "originalRevision": 1,
+      "originalSha256": "cc62c0775bca421cbdfe7c3143c3ff31be45edc746c034d6bd5be5ce3f12fb19"
+    },
+    {
+      "personId": "li-chengsi",
+      "paragraphId": "shiguochunqiu-v015-p9",
+      "terms": [
+        "承嗣"
+      ],
+      "reason": "欽承嗣命是承受继嗣之命的普通词组，非李承嗣。",
+      "originalRevision": 1,
+      "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10"
+    },
+    {
+      "personId": "zhang-tingyu",
+      "paragraphId": "shiguochunqiu-v015-p9",
+      "terms": [
+        "廷裕"
+      ],
+      "reason": "太醫吳延紹一作廷裕，廷裕为吴姓医官异名，非张廷裕。",
+      "originalRevision": 1,
+      "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10"
+    },
+    {
+      "personId": "guo-congqian",
+      "paragraphId": "shiguochunqiu-v019-p15",
+      "terms": [
+        "從謙"
+      ],
+      "reason": "元宗第九子从谦，非后唐郭从谦；不得因短名同字合人。",
+      "originalRevision": 1,
+      "originalSha256": "18dc2577749090b57267fbffe3cbe3f920be0df6229e9e50da66941370e75f10"
+    },
+    {
+      "personId": "guo-congqian",
+      "paragraphId": "shiguochunqiu-v019-p17",
+      "terms": [
+        "從謙"
+      ],
+      "reason": "元宗诸子名单中的从谦，非郭从谦。",
+      "originalRevision": 1,
+      "originalSha256": "d82af10906bb697b05a6d827542ebdba8875d870678a9a66b43fe1f6f5cf0b2c"
+    },
+    {
+      "personId": "guo-congqian",
+      "paragraphId": "nantanglu-v016-p13",
+      "terms": [
+        "從謙"
+      ],
+      "reason": "元宗诸子/钟后所生名单中的从谦，非郭从谦。",
+      "originalRevision": 1,
+      "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5"
+    },
+    {
+      "personId": "guo-congqian",
+      "paragraphId": "nantanglu-v016-p14",
+      "terms": [
+        "從謙"
+      ],
+      "reason": "元宗第九子从谦专段，非郭从谦。",
+      "originalRevision": 1,
+      "originalSha256": "4f814285ba5778afad8139fe2f17df4cb57c92875f60ff6b5619bfc825f85868"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "shiguochunqiu-v015-p5",
+      "terms": [
+        "朱全忠",
+        "全忠"
+      ],
+      "reason": "仅拟名晃的同名比较，先阻自动record，再用明确mention。",
+      "originalRevision": 1,
+      "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "nantanglu-v001-p6",
+      "terms": [
+        "朱全忠",
+        "全忠"
+      ],
+      "reason": "仅拟名晃的同名比较，先阻自动record，再用明确mention。",
+      "originalRevision": 1,
+      "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a"
+    },
+    {
+      "personId": "wang-yanzheng",
+      "paragraphId": "nantangma-v006-p14",
+      "terms": [
+        "王延政",
+        "延政"
+      ],
+      "reason": "只说明余洪所事政权/君主，先阻自动record，再保背景mention。",
+      "originalRevision": 1,
+      "originalSha256": "7facd4208edf13e1bab296056e10e7fd8dfd8b148fd04841113f375847068ebc"
     }
   ],
   "regnalEdicts": {

@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-song-fujin",
+  "events": [
+    {
+      "id": "nantang-song-fujin-advise-against-funeral-trip",
+      "title": "劝止赴徐温丧",
+      "summary": "烈祖将赴徐温丧，宋氏以权重身危、不可放弃所执劝止，烈祖醒悟而停行。",
+      "year": 927,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "义祖殁于金陵、烈祖在广陵将奔丧时；无本段独立年号",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "義祖歿于金陵，烈祖時在廣陵，將奔喪，后從容諫曰：「移孝爲忠，臣子之常。況權重身危，而輒罷所執，何異太阿倒持，柄不在我矣！」烈祖大悟，止焉。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-qi-queen",
+      "title": "由王妃册为王后",
+      "summary": "吴主册命齐王时，册王妃为王后。本条未写宋姓，以同卷后文“王后宋氏”及后妃本传限定身份。",
+      "year": 937,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "《通鉴》天福二年二月册命齐王条",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v281",
+          "paragraphId": "tongjian-v281-p12",
+          "originalRevision": 1,
+          "originalSha256": "9b6dde2447fa62eb937efbf003d65d6b1ce40d8bcdab3123c218eeb2fd92ee20",
+          "excerpt": "冊王妃曰王后。"
+        }
+      ],
+      "notes": [
+        "本条王后之号与本传齐王妃、后来皇后之号分开；未将邻句戊子移作她独立册立的确日。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-empress",
+      "title": "册立皇后",
+      "summary": "烈祖受禅后，立王后宋氏为皇后。",
+      "year": 937,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "昇元元年冬十月甲午叙次",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "甲午，立王后宋氏爲皇后。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "甲午立王后宋氏為皇后"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴册后纪日异说",
+          "sourceDate": "天福二年十月乙巳",
+          "summary": "《通鉴》系乙巳；《十国春秋》卷15、陆游《南唐书》卷1作甲午，各存原书记日，不合成同日。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v281",
+              "paragraphId": "tongjian-v281-p55",
+              "originalRevision": 1,
+              "originalSha256": "f33516c8647637134f5cf79284d420acd14909537f3da24b39a91f3f221e8670",
+              "excerpt": "乙巳，立王后宋氏為皇后。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-mourn-li-parents",
+      "title": "陪李昪为李氏考妣服丧",
+      "summary": "李昪恢复李姓后为亡父母发哀，宋皇后与他服斩衰、居庐；礼仪时长与父母当年的去世时间分开。",
+      "year": 939,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 4,
+      "sourceDate": "昇元三年二月己卯，为李氏考妣发哀时",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "己卯，帝御興祥殿，改國號曰大唐，復姓李氏，爲考妣發哀，與皇后服斬衰，居廬，如始喪禮，持考妣喪各二十七日，凡五十四日不視朝，旦暮臨。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p6",
+          "originalRevision": 1,
+          "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+          "excerpt": "已夘帝御興祥殿復姓為考妣發哀與皇后皆服斬縗居廬如始喪禮服考妣喪各二十七日凡五十四日不視朝旦暮臨"
+        }
+      ],
+      "notes": [
+        "各二十七日、合五十四日为原书所记礼仪时长，不据此计算宋后独立终服日。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-decline-regency",
+      "title": "拒绝临朝听政提议",
+      "summary": "烈祖殁后，孙晟拟称遗诏奉宋后听政，她以武后故事拒绝，未实际临朝。",
+      "year": 943,
+      "precision": "year",
+      "phase": "later",
+      "sortOrder": 5,
+      "sourceDate": "烈祖晏驾后、元宗即位交接叙次；未独记月日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "及晏駕，中書侍郎孫晟懼魏岑、馮延巳、延魯以東官舊僚用事，欲稱遺詔奉后臨朝聽政，后不許，曰：「此武后故事，吾豈爲之！」"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游姓名异写",
+          "sourceDate": "烈祖殂后、元宗即位交接时，未独记日",
+          "summary": "陆游本段主谋名写孙忌，拒绝之事同按本源保存。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p3",
+              "originalRevision": 1,
+              "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+              "excerpt": "中書侍郎孫忌懼魏岑馮延己延魯以東宮舊僚用事欲稱遺詔奉后臨朝聽政后不許"
+            }
+          ]
+        },
+        {
+          "label": "马令记李夷邺阻止监国议",
+          "sourceDate": "烈祖殂后、元宗即位交接时，未独记日",
+          "summary": "大臣欲奉宋后监国，命孙晟草诏；李夷邺反对，议遂寝。与宋后本人拒绝的叙法分源，不改为已经监国。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v010",
+              "paragraphId": "nantangma-v010-p16",
+              "originalRevision": 1,
+              "originalSha256": "b72179b01804b5ea552150b17ef6228dd0780c0240df648ccae7f43541499861",
+              "excerpt": "烈祖殂大臣欲以宋后監國命中書侍郎孫晟草遺詔夷鄴曰此非先旨必姦人詐為大行嘗云婦人預政亂之本也安𡧓自作禍階且嗣君明徳聞於天下汝曹何遽為亡國之事乎若遂宣行吾對百寮裂之必矣於是監國之議遂寢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-empress-dowager",
+      "title": "尊皇太后",
+      "summary": "元宗即位，尊宋后为皇太后。",
+      "year": 943,
+      "precision": "year",
+      "phase": "later",
+      "sortOrder": 6,
+      "sourceDate": "元宗即位时；本传未独记月日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "元宗卽位，尊爲皇太后。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "元宗即位尊后為皇太后"
+        },
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p17",
+          "originalRevision": 1,
+          "originalSha256": "8b1dc5621b74c894f007fa9ccc5778bfdebce2775431bdc0f2d7a79708d570dd",
+          "excerpt": "尊母宋氏為皇太后，妃鍾氏為皇后。"
+        },
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p55",
+          "originalRevision": 1,
+          "originalSha256": "62ce1556522181881c267a9ebd749f0cd0936c63dad56b371ce721bf4bbef62b",
+          "excerpt": "尊皇后曰皇太后，立妃鍾氏為皇后。"
+        }
+      ],
+      "notes": [
+        "通鉴此条未复宋姓，承同卷齐王璟母宋皇后及新史尊母宋氏的封闭语境；妃钟氏为另一位。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-death-and-burial",
+      "title": "去世，谥号分书保存",
+      "summary": "《十国春秋》与陆游本传记保大三年十月去世，《十国春秋》谥元敬；马令只记保大三年，谥元恭。",
+      "year": 945,
+      "precision": "month",
+      "phase": "fall",
+      "sortOrder": 7,
+      "sourceDate": "保大三年十月；马令仅记保大三年",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "保大三年十月殂，祔葬永陵，謚元敬。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "保大三年十月卒袝葬永陵"
+        },
+        {
+          "chapterId": "tongjian-v285",
+          "paragraphId": "tongjian-v285-p17",
+          "originalRevision": 1,
+          "originalSha256": "6b6b59509fb789974ac73f2f42524a30f142bb87ece04716a7ee592cf6a399b6",
+          "excerpt": "唐元敬宋太后殂。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令谥元恭",
+          "sourceDate": "保大三年，马令未独记月日",
+          "summary": "马令记该年殂、葬永陵，谥元恭。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p6",
+              "originalRevision": 1,
+              "originalSha256": "441d666c1cef4ea4eeff651554e583216f3d53f802e2dceee4b9405eeb94d53d",
+              "excerpt": "保大三年殂葬永陵諡元恭"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "十月在既定西历口径全在945年，未据月首补卒日；马令所记整年保大三年横跨945—946。",
+        "安葬是另一环节，原文未独记葬月，不把去世月份移作祔葬月份，也不据卒年倒算生年。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-entry-and-successor-wife",
+      "title": "入侍并继为正室",
+      "summary": "陆游及《十国春秋》称宋氏随王戎女入侍，得幸生元宗；王氏早卒后为继室。马令另记乱兵掳取、徐温帐下赐予，不合为唯一过程。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "sourceDate": "幼流离乱兵中、王氏早卒后；无独立年月",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "后幼流離亂兵中昇州刺史王戎得后烈祖娶戎女后為媵得幸生元宗王氏早卒義祖命烈祖以為繼室"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令帐下与赐予",
+          "sourceDate": "先主丧正室后；未独记年月",
+          "summary": "马令记徐温得宋氏常置帐下，先主丧正室后赐之，先主临幸。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p6",
+              "originalRevision": 1,
+              "originalSha256": "441d666c1cef4ea4eeff651554e583216f3d53f802e2dceee4b9405eeb94d53d",
+              "excerpt": "幼為亂兵畧取義祖得之常置帳下㑹先主喪其正室義祖指宋氏謂先主曰是必有福今以乞女先主御之"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "福金是小名。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-titles-guangping-jin",
+      "title": "封广平郡君、晋国君",
+      "summary": "宋氏先封广平郡君，继进晋国君。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 9,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "封廣平郡君，進晉國君。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-qi-princess",
+      "title": "封齐王妃",
+      "summary": "《十国春秋》本传记天祚二年，烈祖为齐王，宋氏受封王妃；陆游亦记在烈祖为齐王时封正妃。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 935,
+        "end": 937
+      },
+      "sortOrder": 10,
+      "sourceDate": "《十国春秋》本传天祚二年；陆游记烈祖为齐王时",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "天祚二年，烈祖爲齊王，封王妃"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "烈祖為齊王封正妃"
+        }
+      ],
+      "notes": [
+        "本书记天祚二年，未能据此唯一断定封妃西历年份；935—937仅为齐王阶段的外范围。",
+        "封齐王妃、册为王后和称帝后册皇后是三个不同称号环节。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-protect-attendants",
+      "title": "庇护受谴左右",
+      "summary": "烈祖末年服金石药多暴怒，左右依靠宋后保护免受责罚的很多。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 11,
+      "sourceDate": "昇元末；具体月日未载",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "昇元末，烈祖服金石藥，多暴怒，賴后以免譴者甚衆。"
+        }
+      ],
+      "notes": [
+        "史料仅称甚众，未列具体受护者姓名与人数。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-raise-jingti",
+      "title": "鞠养种氏之子",
+      "summary": "种夫人受谴后，宋后鞠养景逿，如同亲生；此为养育，不改其生母。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 945
+      },
+      "sortOrder": 12,
+      "sourceDate": "种夫人受谴之后；原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p5",
+          "originalRevision": 1,
+          "originalSha256": "c300a2fee7f626b1ef53d7a9cbedfb3a5acd0a21428a06c1ada51e086ec892ce",
+          "excerpt": "母种夫人得譴，元敬皇后鞠養景逿如已出。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "475c16ba0e31b2369d939bb2916284308c534dccca85d6fe8352a67536e09161",
+          "excerpt": "母种氏得譴宋皇后鞠養景逷如已出"
+        }
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-burial-yongling",
+      "title": "祔葬永陵",
+      "summary": "《十国春秋》与陆游记祔葬永陵，马令记葬永陵；未独载安葬年月。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 13,
+      "sourceDate": "本传去世后的叙述，安葬未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "excerpt": "祔葬永陵，謚元敬。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "excerpt": "袝葬永陵"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "441d666c1cef4ea4eeff651554e583216f3d53f802e2dceee4b9405eeb94d53d",
+          "excerpt": "葬永陵諡元恭"
+        }
+      ],
+      "notes": [
+        "十月明确修饰去世，不能据此确定祔葬亦在十月。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-praise-wang-qixia",
+      "title": "帘中赞王栖霞之言",
+      "summary": "唐主问致太平之道，王栖霞劝先去饥嗔饱喜，宋后在帘中称叹，认为至言。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 14,
+      "sourceDate": "《通鉴》烈祖末年连叙，称叹条未独记年月",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p48",
+          "originalRevision": 1,
+          "originalSha256": "1a98637064a97302a683bbaa539eb7a68dfcb7e4c0214b3b548d33769725cad2",
+          "excerpt": "唐主問道士王棲霞：「何道可致太平？」對曰：「王者治心治身，乃治家國。今陛下尚未能去饑嗔、飽喜，何論太平！」宋后自簾中稱歎，以為至言。"
+        }
+      ],
+      "notes": [
+        "“尝”叙称叹而未独立纪日；937—943仅保存本段皇后、烈祖在世的外范围。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-summon-du-ye-wife",
+      "title": "奉命召杜业妻入内庭",
+      "summary": "烈祖命元敬皇后召杜业妻张氏至内庭；张氏答话与烈祖赏赐分别记述，不移作宋后施赏。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 15,
+      "sourceDate": "本传记烈祖命召见，未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v021",
+          "paragraphId": "shiguochunqiu-v021-p12",
+          "originalRevision": 1,
+          "originalSha256": "7b8537459fb3c156e5b7d70a4795f7e6b771874e2e5d4469f28807bbce058fbd",
+          "excerpt": "烈袓常命元敬皇后召張至內庭，諭之曰：「業今位望通顯，得置側室，何拘忌如此？豈婦道所宜耶！」張涕泣言曰：「業本狂生，遭時遇主，陛下所藉者駑力未竭耳。況其早衰多病，縱之必致深損，將懈于任，使有負朝廷，此誠難奉旨也。」烈袓大以爲賢，亟加獎賞，以銀盆綵段賞之。"
+        }
+      ],
+      "notes": [
+        "937—943为本传昇元、烈祖在世的外范围，不把召见与赏赐写成同一独立日期。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-old-grievance-harm-intent",
+      "title": "旧怨与欲加害，诸书记对象有别",
+      "summary": "种氏本传记元敬皇后挟旧怨欲加害、种氏赖元宗解免；通鉴则明确欲害景逷。各书对象分别保存，是否同事未明，不写成实际杀害或确定两次。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 943,
+        "end": 945
+      },
+      "sortOrder": 16,
+      "sourceDate": "元宗即位后宋太后在世时；通鉴保宁王八月乙卯条后连叙，欲害行为未独记日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "元敬皇后挾舊怨，屢欲甘心，賴元宗力解乃免，竟以壽終。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴明确欲害景逷",
+          "sourceDate": "天福八年八月保宁王条后连叙，欲害未独记日",
+          "summary": "宋太后怨种夫人，多次欲害景逷，唐主力保全；与欲害种氏叙法不合并为唯一对象。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v283",
+              "paragraphId": "tongjian-v283-p70",
+              "originalRevision": 1,
+              "originalSha256": "f9f202499f4c8cf4f07e82b460a3ab0fe45380416df5095de6c38242d543ab59",
+              "excerpt": "宋太后怨种夫人，屢欲害景逷，唐主力保全之。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "陆游同传省略加害对象，保原省略，不据此另定为母或子。"
+      ]
+    },
+    {
+      "id": "nantang-song-fujin-geng-story-return",
+      "title": "书载耿先生故事中失踪、迎还",
+      "summary": "陆游在耿先生异闻中记元敬宋太后一度不知所在，后被发现与道士在方山宝华宫饮酒，元宗命景遂迎还；保异闻叙述层，不确证仙术或自行推定年月。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 943,
+        "end": 945
+      },
+      "sortOrder": 17,
+      "sourceDate": "元宗时期，未独记年月",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "久之，宮中忽失元敬宋太后所在，耿亦隱去。幾月餘，中外大駭。有告者云，在都城外二十里方山寶華宮。元宗亟命齊王景遂往迎太后，見與數道士方酣飲，乃迎還宮，道士皆誅死。"
+        }
+      ],
+      "notes": [
+        "同段炼物成银、雷雨失娠属神异叙法；不为宋后补出得幸、生育或行法关系。",
+        "943—945只取元宗已即位、宋太后尚在世的外界；故事的离宫、归宫均没有确年。"
+      ]
+    }
+  ]
+}

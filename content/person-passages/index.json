@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 235,
-    "paragraphCount": 9461
+    "chapterCount": 241,
+    "paragraphCount": 9560
   },
   "people": [
     {
@@ -1710,6 +1710,38 @@
     {
       "id": "wu-wang-chuanzheng-wife-unnamed",
       "name": "王传拯妻（失名）"
+    },
+    {
+      "id": "nantang-li-bian-consort-wang",
+      "name": "顺妃王氏（李昪故配）"
+    },
+    {
+      "id": "nantang-song-fujin",
+      "name": "宋福金（元敬皇后）"
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang",
+      "name": "种时光（李昪夫人）"
+    },
+    {
+      "id": "nantang-li-bian-mother-liu",
+      "name": "刘氏（李昪生母、德恭皇后）"
+    },
+    {
+      "id": "nantang-fengcheng-princess",
+      "name": "丰城公主（李昪长女）"
+    },
+    {
+      "id": "nantang-shengtang-princess",
+      "name": "盛唐公主（李昪女）"
+    },
+    {
+      "id": "nantang-taihe-princess",
+      "name": "太和公主（李昪女）"
+    },
+    {
+      "id": "nantang-jianchang-princess",
+      "name": "建昌公主（李昪女）"
     }
   ],
   "passages": [
@@ -23078,6 +23110,722 @@
       ]
     },
     {
+      "id": "passage-nantanglu-v001-p2",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p2",
+          "originalRevision": 1,
+          "originalSha256": "fac6cdf1c4bc20d3bd1a537d692a86c08fcad2b1065b83effd1f19e2fa72b594",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p3",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "e88d7fd40ea022a5e00480ad0cb5c8e3f9fc058760ed4fbcdcad199bf6685f56",
+          "start": 0,
+          "end": 753
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-mother-liu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p4",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "start": 0,
+          "end": 584
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-princess-shangrao",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-fengcheng-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-shengtang-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-taihe-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-jianchang-princess",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p5",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p5",
+          "originalRevision": 1,
+          "originalSha256": "7fbbdd28460e7356960be5a494927468a9a7082198f9be281ff04fdd560c2dad",
+          "start": 0,
+          "end": 319
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "zhu-wenjin",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p6",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p6",
+          "originalRevision": 1,
+          "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+          "start": 0,
+          "end": 636
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-mother-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p7",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p7",
+          "originalRevision": 1,
+          "originalSha256": "5e9d956b2351132762a224a87f57267444ce1858db47959fa8d2e1c714ecbc46",
+          "start": 0,
+          "end": 413
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p8",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p8",
+          "originalRevision": 1,
+          "originalSha256": "3ecbe1df6891127223b89a28ab07ffd4ee19df1c4501e69c2ea932bf1b85334e",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p9",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "cc62c0775bca421cbdfe7c3143c3ff31be45edc746c034d6bd5be5ce3f12fb19",
+          "start": 0,
+          "end": 321
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v001-p10",
+      "chapterId": "nantanglu-v001",
+      "title": "卷 1 · 烈祖本纪第一 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v001-p10",
+          "originalRevision": 1,
+          "originalSha256": "9fb3dd617785b95cc61e6b5b0672e310196e78678a4ba8f3218d18c2ccd0e6e3",
+          "start": 0,
+          "end": 469
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p3",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p3",
+          "originalRevision": 1,
+          "originalSha256": "5ddfc08c1852cb07cf197425373f088e86209e1017075d5497c8081d515f629a",
+          "start": 0,
+          "end": 218
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p4",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p4",
+          "originalRevision": 1,
+          "originalSha256": "f6b324b1023b3faf319ad05797f8c9a47c8ab04075bb76084f42270e68de4d9d",
+          "start": 0,
+          "end": 212
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p5",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "start": 0,
+          "end": 655
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p6",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "start": 0,
+          "end": 191
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p7",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p8",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p8",
+          "originalRevision": 1,
+          "originalSha256": "0c90a39ceae914bf4d2f262e6411fb97f38845c649072b91993d4b7fab437163",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p9",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "df48c65dda5cd3d1d7cdb15aded18c66dfeea511d2920c5304ffef80aef3aba1",
+          "start": 0,
+          "end": 141
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-princess-shangrao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p10",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p10",
+          "originalRevision": 1,
+          "originalSha256": "8c95f2d874231962587e241f528e4537e4bbfacc9691d53338366e3693af0d47",
+          "start": 0,
+          "end": 497
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p11",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "745b27368660889dca05dc2f8f633edbbcde054e871b0ad4329551dbdb94c4ed",
+          "start": 0,
+          "end": 518
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p12",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p12",
+          "originalRevision": 1,
+          "originalSha256": "475c16ba0e31b2369d939bb2916284308c534dccca85d6fe8352a67536e09161",
+          "start": 0,
+          "end": 194
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p13",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "start": 0,
+          "end": 1768
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p14",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p14",
+          "originalRevision": 1,
+          "originalSha256": "4f814285ba5778afad8139fe2f17df4cb57c92875f60ff6b5619bfc825f85868",
+          "start": 0,
+          "end": 72
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p17",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p17",
+          "originalRevision": 1,
+          "originalSha256": "f3ab1b53635d048619d54fb4d6e022fa85b71823e593a334e1ac8c387e3c6a4d",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p18",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p18",
+          "originalRevision": 1,
+          "originalSha256": "3d23106444cff924b78cc0ea889d17444e49bea4bd747e342d685b53e6c85883",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v016-p19",
+      "chapterId": "nantanglu-v016",
+      "title": "卷 16 · 后妃诸王列传第十三 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v016-p19",
+          "originalRevision": 1,
+          "originalSha256": "fea8b14073122140a0c55e2138aa7de3d7a160977e9d74b623b47527392f302f",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
       "id": "passage-nantanglu-v017-p3",
       "chapterId": "nantanglu-v017",
       "title": "卷 17 · 杂艺方士节义列传 · 第 3 段",
@@ -23258,6 +24006,10 @@
         {
           "personId": "song-qiqiu",
           "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
         }
       ]
     },
@@ -23392,6 +24144,282 @@
           "originalSha256": "c40a4a1b2a6542ca9853149bebd3588ab285a9c0a43e2183435bf3c5aecf00ea",
           "start": 0,
           "end": 88
+        }
+      ],
+      "people": [
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p6",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "441d666c1cef4ea4eeff651554e583216f3d53f802e2dceee4b9405eeb94d53d",
+          "start": 0,
+          "end": 269
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p7",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "81f9659d2a944963d4414f296f0fdda017522e96e6a6041670896659f174606d",
+          "start": 0,
+          "end": 213
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p8",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "start": 0,
+          "end": 288
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p9",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "start": 0,
+          "end": 2392
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p10",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+          "start": 0,
+          "end": 416
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-xie",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p11",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p11",
+          "originalRevision": 1,
+          "originalSha256": "79fdbd3c0254a64f4502409931890079f7220186ed8dc1eec17da2a80be93196",
+          "start": 0,
+          "end": 239
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-daughter-guangde",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p12",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p12",
+          "originalRevision": 1,
+          "originalSha256": "89ebc9b6385a7ff4046b7fd1728fef62f6922f255d647326d2c200317cbbeaf1",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p13",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p13",
+          "originalRevision": 1,
+          "originalSha256": "8254164e59182c73ecce42978073e2865a841d83c09c34e899df13b455231c98",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "people": [
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-xu-wen-daughter-guangde",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p14",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "7facd4208edf13e1bab296056e10e7fd8dfd8b148fd04841113f375847068ebc",
+          "start": 0,
+          "end": 198
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yanzheng",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantangma-v006-p15",
+      "chapterId": "nantangma-v006",
+      "title": "卷 6 · 女宪传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "nantangma-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "c995e5f0dd59d6ae46a29ffc685108cc73286563b05c4fe18cfed96e0a0a6ea0",
+          "start": 0,
+          "end": 131
         }
       ],
       "people": [
@@ -23589,6 +24617,10 @@
         },
         {
           "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]
@@ -50725,6 +51757,10 @@
         },
         {
           "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]
@@ -107306,6 +108342,10 @@
         {
           "personId": "li-jing-southern-tang",
           "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "mention"
         }
       ]
     },
@@ -115030,6 +116070,1394 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v015-p1",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p1",
+          "originalRevision": 1,
+          "originalSha256": "769235cb5b1123bf7b1250c5c0e350f04f8da5ae09cb303d89ff3d9bef441156",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p2",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "start": 0,
+          "end": 2588
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-mother-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p3",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "start": 0,
+          "end": 842
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-princess-shangrao",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-wife-li",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-fengcheng-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-shengtang-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-taihe-princess",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-jianchang-princess",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p4",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p4",
+          "originalRevision": 1,
+          "originalSha256": "84b41f15d5be65edd561fd251228c8b5370b1d9f40101bd0240b55482d728008",
+          "start": 0,
+          "end": 855
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-wenjin",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p5",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "start": 0,
+          "end": 2482
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-wen",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-conghui",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-xu-wen-daughter-guangde",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-mother-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p6",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p6",
+          "originalRevision": 1,
+          "originalSha256": "af89ee5ef5acfdc6db2540d568fab1f9ae7956885addb6d7605e22054052040b",
+          "start": 0,
+          "end": 1258
+        }
+      ],
+      "people": [
+        {
+          "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanxi",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanzheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p7",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p7",
+          "originalRevision": 1,
+          "originalSha256": "a51bd7644b330e6fa7161af0fa66d32c20d707a3c52c93ddd4d44da89cd91284",
+          "start": 0,
+          "end": 683
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p8",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "4c1c007ceaba229f9d6200a3eff727706854dc55f5f898bacb55cfa187af485c",
+          "start": 0,
+          "end": 934
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p9",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10",
+          "start": 0,
+          "end": 1220
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p10",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p10",
+          "originalRevision": 1,
+          "originalSha256": "8b41a3afc69072020e199853ecfefac888bb1dc687390560c91e113e94732454",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v015-p11",
+      "chapterId": "shiguochunqiu-v015",
+      "title": "卷 15 · 南唐烈祖本纪（李昪） · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v015-p11",
+          "originalRevision": 1,
+          "originalSha256": "e5f1b64f2c25ddf51300e69a0ef09afbd50378288230a21d3fec7855e629532a",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p1",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p1",
+          "originalRevision": 1,
+          "originalSha256": "620e0d48d5867b801888ceca6a313456ab170eceb6ad3490ec65afa5c7320dca",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p2",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "start": 0,
+          "end": 130
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p3",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "9457139a552006c5c0c2ea53ef33a48c60ad23463a85eac3a583a9deea86b19e",
+          "start": 0,
+          "end": 535
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-wang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p4",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "start": 0,
+          "end": 406
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p5",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "start": 0,
+          "end": 249
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p6",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p6",
+          "originalRevision": 1,
+          "originalSha256": "f39a33fb2970317467983ff38cc4f8774d60071c5bc562477a56d963b6fb4f1a",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p7",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p7",
+          "originalRevision": 1,
+          "originalSha256": "64dbd7a47d949a3d5b49762ee54e5c8c187a8d03d4e689942fed6cff1fc36878",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p8",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "start": 0,
+          "end": 2029
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p9",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "start": 0,
+          "end": 786
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p10",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+          "start": 0,
+          "end": 258
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "ma-xie",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p11",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p11",
+          "originalRevision": 1,
+          "originalSha256": "a68824a118eff874af236323653375ec905eefda5821141d92ad8e5ebeded886",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v018-p12",
+      "chapterId": "shiguochunqiu-v018",
+      "title": "卷 18 · 南唐后妃列传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v018-p12",
+          "originalRevision": 1,
+          "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+          "start": 0,
+          "end": 371
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p1",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 1 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p1",
+          "originalRevision": 1,
+          "originalSha256": "31b80e981fa6565b51b33fa7425908e1ff739bb04d40f0aa47d8dca1f4d54c7c",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p2",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p2",
+          "originalRevision": 1,
+          "originalSha256": "debce87e0d2dc3cbf4322ce372455ddc8b3783704685077b3b51d25b41da4c03",
+          "start": 0,
+          "end": 389
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-princess-shangrao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p3",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p3",
+          "originalRevision": 1,
+          "originalSha256": "94997122cfaca6043f3be88c2aac5da2801a7fa4fb9bd867e256da25d20f71ba",
+          "start": 0,
+          "end": 645
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p4",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "de72e26ff15516d786537f6846709850c276c9a7fd414f5a15ae42662d950540",
+          "start": 0,
+          "end": 784
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p5",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p5",
+          "originalRevision": 1,
+          "originalSha256": "c300a2fee7f626b1ef53d7a9cbedfb3a5acd0a21428a06c1ada51e086ec892ce",
+          "start": 0,
+          "end": 308
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p6",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p6",
+          "originalRevision": 1,
+          "originalSha256": "d65310a8daf27b5fb080c5789eb24d3612d3af43787fd501b6b81974febac319",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p7",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p7",
+          "originalRevision": 1,
+          "originalSha256": "8154325f6d70d7d33e6a9146f900e3b183e9f0d91de08e8e2d23485830119e46",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p8",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p8",
+          "originalRevision": 1,
+          "originalSha256": "eae5878f15d865f4d14a99f3ae3362db90dbf5c630665fe3c54d71661be5c8a4",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p9",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p9",
+          "originalRevision": 1,
+          "originalSha256": "b693bc6eaca0fed8fcf8832933ae874606ad819953541416229fd0a860d3fb13",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p10",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p10",
+          "originalRevision": 1,
+          "originalSha256": "8f606f1065d85ea8e0856d9ffc334cdc3bc042185cf4410fd3748c733647c281",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p11",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p11",
+          "originalRevision": 1,
+          "originalSha256": "b390aed5b3a039d49a17c319bf7538bba9e8bd0fa57f326f79fa35e954618c2f",
+          "start": 0,
+          "end": 922
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p12",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p12",
+          "originalRevision": 1,
+          "originalSha256": "4bdad4f6748479012b4b3ca28a9a63a5cd839685e9df836fa43ffcd1ef1e45f8",
+          "start": 0,
+          "end": 320
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p13",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "start": 0,
+          "end": 934
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p14",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p14",
+          "originalRevision": 1,
+          "originalSha256": "255353eeb802b286dda48d2796e84f5d218e46f4826041a8a95ddc3a8c4d82e9",
+          "start": 0,
+          "end": 480
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p15",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p15",
+          "originalRevision": 1,
+          "originalSha256": "18dc2577749090b57267fbffe3cbe3f920be0df6229e9e50da66941370e75f10",
+          "start": 0,
+          "end": 1196
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p16",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p16",
+          "originalRevision": 1,
+          "originalSha256": "a5845936bea32fd777712d26b7afa8d62c710a45b1e4d61660d8dff28f2dbe0b",
+          "start": 0,
+          "end": 156
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p17",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p17",
+          "originalRevision": 1,
+          "originalSha256": "d82af10906bb697b05a6d827542ebdba8875d870678a9a66b43fe1f6f5cf0b2c",
+          "start": 0,
+          "end": 133
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p18",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p18",
+          "originalRevision": 1,
+          "originalSha256": "820d2895860130edb92a62cd7fcb19e488ea1a520076c483284ee20a1dac4882",
+          "start": 0,
+          "end": 37
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p19",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p19",
+          "originalRevision": 1,
+          "originalSha256": "a709c2b1afed4e0d0f7a086f8b0a5350917445be087388a666c211377254124d",
+          "start": 0,
+          "end": 219
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p20",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p20",
+          "originalRevision": 1,
+          "originalSha256": "30d749c81425f8ca0b36b5caf10d880f7a9ce74431f42fd351818df69911ffeb",
+          "start": 0,
+          "end": 465
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p21",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p21",
+          "originalRevision": 1,
+          "originalSha256": "526ff978106110127f3cdad5a617cd837b667470f4e4823b07ffbf4a464d917f",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p22",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p22",
+          "originalRevision": 1,
+          "originalSha256": "59242d1d034e97417dadb9319c2dc32162ad88bedb307d396eb202e628f97263",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p23",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p23",
+          "originalRevision": 1,
+          "originalSha256": "3839971dfd599e7ca51aeeb6aa96aec22b87ff44b3a87c0afb552349676cbfd1",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p24",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p24",
+          "originalRevision": 1,
+          "originalSha256": "6df6326409613ce4eaa54c7392300a2c9b885bf0d8f7014ca397fcb3cc38b527",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p25",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p25",
+          "originalRevision": 1,
+          "originalSha256": "2d126be5a323b7d1c30b15e532c466aae207f73336e4fb69504e2bbff9df7eb7",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p26",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p26",
+          "originalRevision": 1,
+          "originalSha256": "a3c06916c7982fd8dc4c6b01d674d2261481ec191fc6372d923798ea758f72af",
+          "start": 0,
+          "end": 67
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-fengcheng-princess",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-shengtang-princess",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-taihe-princess",
+          "kind": "mention"
+        },
+        {
+          "personId": "nantang-jianchang-princess",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p27",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p27",
+          "originalRevision": 1,
+          "originalSha256": "9406e8c831b4b9bc067edd01072fc44eb44c9d8a0c7ee133aaab2f00ce8ba737",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v019-p28",
+      "chapterId": "shiguochunqiu-v019",
+      "title": "卷 19 · 南唐宗室及公主列传 · 第 28 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v019-p28",
+          "originalRevision": 1,
+          "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+          "start": 0,
+          "end": 586
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-shiguochunqiu-v021-p2",
       "chapterId": "shiguochunqiu-v021",
       "title": "卷 21 · 南唐列传（周宗、李建勋、徐玠等） · 第 2 段",
@@ -115261,6 +117689,10 @@
       "people": [
         {
           "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]
@@ -142114,6 +144546,10 @@
         {
           "personId": "li-bian",
           "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
         }
       ]
     },
@@ -142693,6 +145129,10 @@
         },
         {
           "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]
@@ -145570,6 +148010,14 @@
         {
           "personId": "song-qiqiu",
           "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
+          "kind": "record"
         }
       ]
     },
@@ -145737,6 +148185,10 @@
         },
         {
           "personId": "han-xizai",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]
@@ -145925,6 +148377,14 @@
       "people": [
         {
           "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-song-fujin",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-bian-consort-shiguang",
           "kind": "record"
         }
       ]
@@ -147569,6 +150029,26 @@
       "people": [
         {
           "personId": "shi-chonggui",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v285-p17",
+      "chapterId": "tongjian-v285",
+      "title": "卷 285 · 后晋纪6 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v285-p17",
+          "originalRevision": 1,
+          "originalSha256": "6b6b59509fb789974ac73f2f42524a30f142bb87ece04716a7ee592cf6a399b6",
+          "start": 0,
+          "end": 8
+        }
+      ],
+      "people": [
+        {
+          "personId": "nantang-song-fujin",
           "kind": "record"
         }
       ]

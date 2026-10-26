@@ -110,7 +110,7 @@
       "author": "清 · 吴任臣撰",
       "kind": "十国史 · 纪传体",
       "image": "",
-      "description": "现收卷 1 的吴太祖世家、卷 2 的吴烈祖、高祖世家、卷 3 的吴睿帝本纪、卷 4 的吴后妃、宗室及公主记载及卷 5、6、7、8、9、12、13 的吴国人物列传及卷 21 的南唐人物列传及卷 77 的吴越武肃王世家上，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本讹字保留，译注参校四库本；同作品不同版本不作独立复证。",
+      "description": "现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15 的南唐烈祖本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 21 的南唐人物列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。",
       "defaultChapter": "shiguochunqiu-v004",
       "url": "https://zh.wikisource.org/wiki/%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B"
     },
@@ -121,8 +121,8 @@
       "author": "南宋 · 陆游撰",
       "kind": "十国史 · 纪传体",
       "image": "",
-      "description": "现收卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令两种同名书分别登记；同作品四库本仅供校读，不作独立复证。",
-      "defaultChapter": "nantanglu-v017",
+      "description": "现收卷 1 的烈祖本纪、卷 16 的后妃诸王列传及卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。",
+      "defaultChapter": "nantanglu-v001",
       "url": "https://zh.wikisource.org/wiki/%E9%99%B8%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
     },
     {
@@ -132,8 +132,8 @@
       "author": "北宋 · 马令撰",
       "kind": "十国史 · 纪传体",
       "image": "",
-      "description": "现收卷 10 的序文及李建勋、严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令《南唐书》与陆游的同名著作分别编目；同作品不同版本只作校读，不作独立复证。",
-      "defaultChapter": "nantangma-v010",
+      "description": "现收卷 6 的女宪传及卷 10 的序文、李建勋与严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令与陆游的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。",
+      "defaultChapter": "nantangma-v006",
       "url": "https://zh.wikisource.org/wiki/%E9%A6%AC%E6%B0%8F%E5%8D%97%E5%94%90%E6%9B%B8"
     },
     {
@@ -4909,7 +4909,8 @@
         "song-qiqiu",
         "han-xizai",
         "xu-xuan",
-        "wu-yang-lian-wife-li-yongxing"
+        "wu-yang-lian-wife-li-yongxing",
+        "nantang-song-fujin"
       ],
       "position": 62,
       "scope": "full",
@@ -6063,7 +6064,8 @@
         "jin-gaozu-sister-leping-du",
         "wu-yang-lian-wife-li-yongxing",
         "wu-yang-meng-wife",
-        "wu-xu-wen-wife-li"
+        "wu-xu-wen-wife-li",
+        "nantang-song-fujin"
       ],
       "position": 281,
       "scope": "full",
@@ -6141,7 +6143,9 @@
         "han-xizai",
         "jin-shi-jingtang-taifei-liu",
         "jin-shi-chonggui-mother-an",
-        "jin-shi-chonggui-empress-feng"
+        "jin-shi-chonggui-empress-feng",
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-shiguang"
       ],
       "position": 283,
       "scope": "full",
@@ -6208,7 +6212,8 @@
         "tang-li-siyuan-princess-yongning",
         "jin-shi-chonggui-empress-feng",
         "jin-shi-chonggui-yanxu-mother-ding",
-        "jin-shi-yanxu-wife-zhao"
+        "jin-shi-yanxu-wife-zhao",
+        "nantang-song-fujin"
       ],
       "position": 285,
       "scope": "full",
@@ -8971,7 +8976,8 @@
         "qian-hongchu",
         "song-qiqiu",
         "han-xizai",
-        "wu-yang-lian-wife-li-yongxing"
+        "wu-yang-lian-wife-li-yongxing",
+        "nantang-song-fujin"
       ],
       "position": 17,
       "scope": "full",
@@ -9002,7 +9008,8 @@
         "wang-yanzheng",
         "song-qiqiu",
         "wu-yang-xingmi-daughter-xu-jie-wife",
-        "wu-xu-wen-daughter-guangde"
+        "wu-xu-wen-daughter-guangde",
+        "nantang-song-fujin"
       ],
       "position": 10,
       "scope": "full",
@@ -9219,7 +9226,8 @@
         "xu-xuan",
         "yang-xingmi",
         "wu-li-decheng-daughter-liu-chongjun-first-wife",
-        "wu-li-decheng-daughter-liu-chongjun-later-wife"
+        "wu-li-decheng-daughter-liu-chongjun-later-wife",
+        "nantang-song-fujin"
       ],
       "scope": "full",
       "paragraphCount": 32,
@@ -9681,7 +9689,8 @@
         "yang-longyan",
         "yang-pu",
         "yang-xingmi",
-        "zhu-wen"
+        "zhu-wen",
+        "nantang-song-fujin"
       ],
       "sourceLocalSubjectsOnly": true,
       "scope": "full",
@@ -9729,6 +9738,243 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7077&action=history",
         "sourceSha256": "0a54bba9a4a90de53b16300bebb5390fff3b62a723c0e4cc4f6f9387aed7354e",
         "chapterSha256": "08ae14e733df87e9e6bd2284fd18b31cc46750af83652fae7c896805781d76a8"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v015",
+      "bookId": "shiguochunqiu",
+      "volume": 15,
+      "position": 15,
+      "title": "卷 15 · 南唐烈祖本纪（李昪）",
+      "subjects": [
+        "li-bian",
+        "yang-xingmi",
+        "yang-wo",
+        "li-jing-southern-tang",
+        "song-qiqiu",
+        "wu-xu-wen-wife-li",
+        "nantang-li-bian-mother-liu",
+        "chai-rong",
+        "yang-pu",
+        "gao-conghui",
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-wang",
+        "nantang-fengcheng-princess",
+        "nantang-shengtang-princess",
+        "nantang-taihe-princess",
+        "nantang-jianchang-princess",
+        "wu-yang-lian-wife-li-yongxing",
+        "wu-yang-pu-princess-shangrao",
+        "zhu-wenjin",
+        "li-yu",
+        "zhu-wen",
+        "wu-xu-wen-daughter-guangde",
+        "wang-yanzheng",
+        "wang-yanxi",
+        "yang-longyan",
+        "shi-jingtang"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 11,
+      "characterCount": 11097,
+      "provenance": {
+        "pageTitle": "十國春秋/卷015",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7015&oldid=2554108",
+        "revisionId": 2554108,
+        "fetchedAt": "2026-10-16T15:21:20.661434+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7015&action=history",
+        "sourceSha256": "b4728d1f303ad56e6da10e4bd56875d0a6bc4b7a518353066585c4da7816f339",
+        "chapterSha256": "9117c9818b77bd21b52a7d37e1be7f0deb61d8b082f2e7d8cf6430edbdb45283"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v018",
+      "bookId": "shiguochunqiu",
+      "volume": 18,
+      "position": 18,
+      "title": "卷 18 · 南唐后妃列传",
+      "subjects": [
+        "li-bian",
+        "li-jing-southern-tang",
+        "nantang-li-bian-consort-wang",
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-shiguang",
+        "li-yu",
+        "xu-xuan",
+        "han-xizai",
+        "ma-xie"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 12,
+      "characterCount": 4957,
+      "provenance": {
+        "pageTitle": "十國春秋/卷018",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7018&oldid=2554090",
+        "revisionId": 2554090,
+        "fetchedAt": "2026-10-16T15:21:23.409678+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7018&action=history",
+        "sourceSha256": "bbe89df18108bdb40e2b8ef86af394c0f3cb2799f19de990ef8a0b92c2c2ee07",
+        "chapterSha256": "295a531af81ac0a7032e630b9bd239327c3ea77238f4123c616c23cad94d9ad5"
+      }
+    },
+    {
+      "id": "shiguochunqiu-v019",
+      "bookId": "shiguochunqiu",
+      "volume": 19,
+      "position": 19,
+      "title": "卷 19 · 南唐宗室及公主列传",
+      "subjects": [
+        "li-bian",
+        "li-jing-southern-tang",
+        "song-qiqiu",
+        "wu-yang-pu-princess-shangrao",
+        "yang-pu",
+        "li-yu",
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-shiguang",
+        "chai-rong",
+        "han-xizai",
+        "xu-xuan",
+        "wu-yang-lian-wife-li-yongxing",
+        "nantang-fengcheng-princess",
+        "nantang-shengtang-princess",
+        "nantang-taihe-princess",
+        "nantang-jianchang-princess"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 28,
+      "characterCount": 8034,
+      "provenance": {
+        "pageTitle": "十國春秋/卷019",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7019&oldid=2554089",
+        "revisionId": 2554089,
+        "fetchedAt": "2026-10-16T15:21:23.709114+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7019&action=history",
+        "sourceSha256": "7c659ce0a12eb93ee7f047f6ddf55aa3d28c87691d6567d51ad69e31d5c79b94",
+        "chapterSha256": "f7e92c2520896af4a6e524f0e6d558760f02fc049222ba39fcb8370deb3eee44"
+      }
+    },
+    {
+      "id": "nantanglu-v001",
+      "bookId": "nantanglu",
+      "volume": 1,
+      "position": 1,
+      "title": "卷 1 · 烈祖本纪第一",
+      "subjects": [
+        "li-bian",
+        "yang-xingmi",
+        "yang-wo",
+        "song-qiqiu",
+        "wu-xu-wen-wife-li",
+        "nantang-li-bian-mother-liu",
+        "li-jing-southern-tang",
+        "yang-pu",
+        "gao-conghui",
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-wang",
+        "nantang-fengcheng-princess",
+        "nantang-shengtang-princess",
+        "nantang-taihe-princess",
+        "nantang-jianchang-princess",
+        "wu-yang-lian-wife-li-yongxing",
+        "wu-yang-pu-princess-shangrao",
+        "zhu-wenjin",
+        "zhu-wen",
+        "yang-longyan"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 11,
+      "characterCount": 3643,
+      "provenance": {
+        "pageTitle": "南唐書 (陸游, 四庫全書本)/卷01",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B701&oldid=838666",
+        "revisionId": 838666,
+        "fetchedAt": "2026-10-16T15:22:57.274767+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B701&action=history",
+        "sourceSha256": "6fe0ec1a4e9cfd1081926b641e6a163ca1a5493cfc1048a039d5404c693288f9",
+        "chapterSha256": "4797e149edf4dd6c3f6201d173675af5825140ed97b2b0e805ac0f23a5f24d7a"
+      }
+    },
+    {
+      "id": "nantanglu-v016",
+      "bookId": "nantanglu",
+      "volume": 16,
+      "position": 16,
+      "title": "卷 16 · 后妃诸王列传第十三",
+      "subjects": [
+        "nantang-song-fujin",
+        "nantang-li-bian-consort-wang",
+        "li-bian",
+        "li-jing-southern-tang",
+        "nantang-li-bian-consort-shiguang",
+        "li-yu",
+        "xu-xuan",
+        "wu-yang-pu-princess-shangrao",
+        "yang-pu",
+        "chai-rong"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 20,
+      "characterCount": 5027,
+      "provenance": {
+        "pageTitle": "南唐書 (陸游, 四庫全書本)/卷16",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B716&oldid=838681",
+        "revisionId": 838681,
+        "fetchedAt": "2026-10-16T15:04:51.162528+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%99%B8%E6%B8%B8%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B716&action=history",
+        "sourceSha256": "7172365c499e68517a7c4efde95c0200d8e3e6e5283eb6e8a787793e42aec622",
+        "chapterSha256": "bbf0ca30ff76b7d8955db88baa1f4f5e69a8a95c1b97214c56043a6408ec99da"
+      }
+    },
+    {
+      "id": "nantangma-v006",
+      "bookId": "nantangma",
+      "volume": 6,
+      "position": 6,
+      "title": "卷 6 · 女宪传",
+      "subjects": [
+        "nantang-song-fujin",
+        "li-bian",
+        "li-jing-southern-tang",
+        "nantang-li-bian-consort-shiguang",
+        "li-yu",
+        "xu-xuan",
+        "han-xizai",
+        "ma-xie",
+        "wu-xu-wen-daughter-guangde",
+        "song-qiqiu",
+        "wu-yang-lian-wife-li-yongxing",
+        "wang-yanzheng"
+      ],
+      "sourceLocalSubjectsOnly": true,
+      "scope": "full",
+      "paragraphCount": 17,
+      "characterCount": 4505,
+      "provenance": {
+        "pageTitle": "南唐書 (馬令, 四庫全書本)/卷06",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%A6%AC%E4%BB%A4%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B706&oldid=838694",
+        "revisionId": 838694,
+        "fetchedAt": "2026-10-16T15:04:50.899075+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%94%90%E6%9B%B8+%28%E9%A6%AC%E4%BB%A4%2C+%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B706&action=history",
+        "sourceSha256": "9a7977b0fa0790427f9db381992447598eaed01e889d6be0e0c9bf9069c482f7",
+        "chapterSha256": "044a714e862f85b9108bf90aa220de042d7652a87597dfd169f0cee4ff790f7a"
       }
     }
   ]

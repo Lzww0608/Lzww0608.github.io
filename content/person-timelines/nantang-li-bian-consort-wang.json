@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-bian-consort-wang",
+  "events": [
+    {
+      "id": "nantang-li-bian-consort-wang-posthumous-shun",
+      "title": "追册顺妃",
+      "summary": "开国后追册故妃魏国君为顺妃；《十国春秋》用王姓，陆游本纪用杨姓。",
+      "year": 937,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 1,
+      "sourceDate": "《十国春秋》昇元元年十一月丙辰；陆游本纪同条纪丙辰",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "丙辰，追册故妃魏國君王氏爲順妃。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "excerpt": "及開國，追封順妃。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游本纪杨氏",
+          "sourceDate": "昇元元年十一月丙辰",
+          "summary": "陆游原文追册条写魏国君杨氏。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v001",
+              "paragraphId": "nantanglu-v001-p4",
+              "originalRevision": 1,
+              "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+              "excerpt": "丙辰追冊故妃魏國君楊氏為順妃"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "追册日不移为死亡日，原姓异写不静订。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-wang-marriage",
+      "title": "与徐知诰婚配",
+      "summary": "徐温命知诰向吴昇州刺史王戎之女行婚聘，王氏为其故配。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "excerpt": "順妃王氏，烈祖之故配也。父戎，官吳昇州刺史，義祖使烈祖委禽焉。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-wang-attend-xu-wen-illness",
+      "title": "随知诰侍徐温病",
+      "summary": "徐温卧病时，知诰听到咳嗽等声音，便带王氏同往，向徐温明称她是自己的妻子。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "excerpt": "義祖常臥疾牀蓐間，烈祖夜不解帶，或聞謦欬聲，必率妃與偕往。義祖問何人至，烈祖曰：「知誥在斯。」又問：「彼更何人？」對曰：「知誥之婦。」"
+        }
+      ],
+      "notes": [
+        "不与另一原段仅称新妇的夜侍强定为同一次事。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-wang-wei-title",
+      "title": "累封魏国君",
+      "summary": "本传记王氏累封魏国君，尚在顺妃身后追封以前。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 4,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "excerpt": "累封魏國君。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-wang-death",
+      "title": "去世",
+      "summary": "本传在累封魏国君后称未几薨，徐温感叹很久；未载确切卒年。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 5,
+      "sourceDate": "累封魏国君后未几；无独立年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "b4fc7817e67cfe239f64828005bc5e2cecdd41fec458b75ac76496f6a0406687",
+          "excerpt": "累封魏國君。未幾薨，義祖爲感嘆者久之。"
+        }
+      ]
+    }
+  ]
+}

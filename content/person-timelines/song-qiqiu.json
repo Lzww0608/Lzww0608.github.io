@@ -16,6 +16,13 @@
           "originalRevision": 1,
           "originalSha256": "076b9e48044f697dc36f29a26a0dcd3ba51d92fc8bf1ef629df4ca5535cb4c9e",
           "excerpt": "吳升州刺史徐知誥治城市府捨甚盛。五月，徐溫行部至升州，愛其繁富。潤州司馬陳彥謙勸溫徙鎮海軍治所於升州，溫從之，徙知誥為潤州團練使。知誥求宣州，溫不許，知誥不樂。宋齊丘密言於知誥曰：「三郎驕縱，敗在朝夕。潤州去廣陵隔一水耳，此天授也。」知誥悅，即之官。三郎，謂溫長子知訓也。溫以陳彥謙為鎮海節度判官。溫但舉大綱，細務悉委彥謙，江、淮稱治。彥謙，常州人也。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "excerpt": "十四年夏，城成，温來觀，喜其制度宏麗，徙治焉，而遷知誥爲檢校太保、潤州團練使。知誥初不欲往，屢求宣州，温不與。既而温子知訓以內外馬步都軍副使專制揚州，驕淫失衆，宋齊丘以知訓旦暮且敗，爲言是行故天所贊也，知誥乃行。"
         }
       ],
       "precision": "month",
@@ -43,7 +50,10 @@
           ]
         }
       ],
-      "sortOrder": 1
+      "sortOrder": 1,
+      "notes": [
+        "《十国春秋》承天祐十四年叙移润及齐丘劝行，与《史补》由宣州忽授润州的叙法不同，分别保留。"
+      ]
     },
     {
       "id": "song-qiqiu-cross-river-plan",
@@ -341,7 +351,24 @@
         "劝进、宴饮、加司徒与后续建言并非同一日；明确十月者仅加官所承月。考异未采用宗信身份不明的具体书信转递说。",
         "陆游《南唐书》同记宋齐丘请离婚、烈祖不听；所补为原事件已有婚姻建议的来源，不另列一次拆婚或写成已经离婚。"
       ],
-      "sortOrder": 11
+      "sortOrder": 11,
+      "variants": [
+        {
+          "label": "《十国春秋》加官作大司空",
+          "sourceDate": "昇元元年冬十月丁酉",
+          "year": 937,
+          "summary": "本纪写加宋齐丘大司空，与《通鉴》大司徒的官名不同；本条未叙天泉阁宴及阻劝进书。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v015",
+              "paragraphId": "shiguochunqiu-v015-p3",
+              "originalRevision": 1,
+              "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+              "excerpt": "丁酉，加宋齊丘大司空。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "song-qiqiu-seek-government",
@@ -404,11 +431,21 @@
           "originalRevision": 1,
           "originalSha256": "3beaddac6cd9090688e8ad8bfbac30ecdea44bbf46514adbfe588725dfc04e5d",
           "excerpt": "辛巳，詔國事委齊王璟詳決，惟軍旅以聞。庚寅，唐主更名昪。詔百官議二祚合享禮。辛卯，宋齊丘等議以義祖居七室之東。唐主命居高祖於西室，太宗次之，義祖又次之，皆為不祧之主。群臣言：「義祖諸侯，不宜與高祖、太宗同享，請於太廟正殿後別建廟祀之。」帝曰：「吾自幼托身義祖，向非義祖有功於吳，朕安能啟此中興之業？」群臣乃不敢言。唐主欲祖吳王恪，或曰：「恪誅死，不若祖鄭王無懿。」唐主命有司考二王苗裔，以吳王孫禕有功，禕子峴為宰相，遂祖吳王，雲自峴五世至父榮。其名率皆有司所撰。唐主又以歷十九帝、三百年，疑十世太少。有司曰：「三十年為世，陛下生於文德，已五十年矣。」遂從之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "下詔議二祚合享禮。辛卯，宋齊丘等議以義祖居七室之東。帝命居高祖於西宇，太宗次之，義祖又次之，皆爲不挑之主。"
         }
       ],
       "precision": "month",
       "phase": "service",
-      "sortOrder": 14
+      "sortOrder": 14,
+      "notes": [
+        "《十国春秋》亦区分宋齐丘等人的议案与君主所定室次；本段“不挑”字形照存。"
+      ]
     },
     {
       "id": "song-qiqiu-shangshu-service",
@@ -423,6 +460,20 @@
           "originalRevision": 1,
           "originalSha256": "da16f820a2e78cd93bbe8d80437e7c723a153b0c92de6aa27b0f7489ebfa0e88",
           "excerpt": "彰武節度使丁審琪，養部曲千人，縱之為暴於境內；軍校賀行政與諸胡相結為亂，攻延州，帝遣曹州防禦使何重建將兵救之，同、鄜援兵繼至，乃得免。二月，癸已，以重建為彰武留後，召審琪歸朝。重建，雲、朔間胡人也。唐左丞相宋齊丘固求豫政事，唐主聽入中書；又求領尚書省，乃罷侍中壽王景遂判尚書省，更領中書、門下省，以齊丘知尚書省事；其三省事並取齊王璟參決。齊丘視事數月，親吏夏昌圖盜官錢三千緡，齊丘判貸其死；唐主大怒，斬昌圖。齊丘稱疾，請罷省事，從之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "4c1c007ceaba229f9d6200a3eff727706854dc55f5f898bacb55cfa187af485c",
+          "excerpt": "二月，罷侍中壽王景遂判尚書省，更領中書、門下省。己丑，以左丞相、太保宋齊丘知尚書省事。初，齊丘累求預政，許入中書視事；又以兩省事多委給事、舍人，劇務多在尚書省，又求知省事，許之。其三省事並取齊王璟參決。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "cc62c0775bca421cbdfe7c3143c3ff31be45edc746c034d6bd5be5ce3f12fb19",
+          "excerpt": "二月己丑以左丞相太保宋齊丘知尚書省事初齊丘累求預政帝許中書視事又以兩省事多委給事舍人劇務多在尚書省又求知省事許之"
         }
       ],
       "precision": "year",
@@ -449,11 +500,28 @@
           "originalRevision": 1,
           "originalSha256": "889b76b5707d8ab1b7988460dbbcdb82c60d695468748dbb533ead236564f1fe",
           "excerpt": "初，宋齊丘為昪謀篡楊氏最有力，及事成，乃陽入九華山，昪屢招之，乃出。昪僭號，未幾，齊丘以病罷相，出為洪州節度使。景立，復召為相，而陳覺、魏岑等皆為齊丘所引用。而岑與覺有隙，譖覺於景，左遷少府監。齊丘亦罷相為浙西節度使。齊丘不得意，願復歸九華山，賜號九華先生，封青陽公，食青陽一縣。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p8",
+          "originalRevision": 1,
+          "originalSha256": "4c1c007ceaba229f9d6200a3eff727706854dc55f5f898bacb55cfa187af485c",
+          "excerpt": "宋齊丘稱疾，請罷省事，從之。五月丙午，宋齊丘出爲鎮南軍節度使，以洪州徐玠爲司徒、侍中。帝曰：「豫章，大司徒維桑也。衣錦晝行，古人所貴。」以錦袍賜之。齊丘至鎮，衣以視事。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p9",
+          "originalRevision": 1,
+          "originalSha256": "cc62c0775bca421cbdfe7c3143c3ff31be45edc746c034d6bd5be5ce3f12fb19",
+          "excerpt": "夏五月左丞相太保宋齊丘罷為鎮南軍節度使"
         }
       ],
       "precision": "day",
       "phase": "service",
-      "sortOrder": 16
+      "sortOrder": 16,
+      "notes": [
+        "陆游本纪只在夏五月下记罢为镇南军节度使，未独记丙午或前后的宴语。"
+      ]
     },
     {
       "id": "song-qiqiu-jing-recalls-chancellor",
@@ -883,6 +951,20 @@
           "originalRevision": 1,
           "originalSha256": "076b9e48044f697dc36f29a26a0dcd3ba51d92fc8bf1ef629df4ca5535cb4c9e",
           "excerpt": "吳升州刺史徐知誥治城市府捨甚盛。五月，徐溫行部至升州，愛其繁富。潤州司馬陳彥謙勸溫徙鎮海軍治所於升州，溫從之，徙知誥為潤州團練使。知誥求宣州，溫不許，知誥不樂。宋齊丘密言於知誥曰：「三郎驕縱，敗在朝夕。潤州去廣陵隔一水耳，此天授也。」知誥悅，即之官。三郎，謂溫長子知訓也。溫以陳彥謙為鎮海節度判官。溫但舉大綱，細務悉委彥謙，江、淮稱治。彥謙，常州人也。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "excerpt": "以宋齊丘、王令謀、王翃、曾禹、張洽、徐融爲賓客，馬仁裕、周宗、曹悰爲親吏。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "e88d7fd40ea022a5e00480ad0cb5c8e3f9fc058760ed4fbcdcad199bf6685f56",
+          "excerpt": "以宋齊丘王令謀王翃主論議曾禹張洽孫飭徐融為賓客馬仁周宗曹悰為親吏"
         }
       ],
       "precision": "range",
@@ -892,7 +974,8 @@
         "end": 917
       },
       "notes": [
-        "乾化二年五月只明确徐知诰因功升州；继叙在升州延士和齐丘入幕，未独记本人初谒月日。"
+        "乾化二年五月只明确徐知诰因功升州；继叙在升州延士和齐丘入幕，未独记本人初谒月日。",
+        "《十国春秋》记为宾客，陆游本纪记主论议，未在这些句中独载推官之衔或初谒年月。"
       ],
       "sortOrder": 29
     },
@@ -956,6 +1039,13 @@
           "originalRevision": 1,
           "originalSha256": "8b1dc5621b74c894f007fa9ccc5778bfdebce2775431bdc0f2d7a79708d570dd",
           "excerpt": "景，初名景通，昪長子也。既立，又改名璟。徐溫死，昪專政，以為兵部尚書、參知政事。明年，昪鎮金陵，留景為司徒、同平章事，與宋齊丘、王令謀居廣陵，輔楊溥。昪將篡國，召景歸金陵為副都統。昪立，封齊王。昪卒，嗣位，改元保大。尊母宋氏為皇太后，妃鍾氏為皇后。封弟壽王景遂為燕王，宣城王景達鄂王，景逷前未王，為保寧王。秋，改封景遂齊王、諸道兵馬元帥、太尉、中書令，景達為燕王、副元帥，盟於昪柩前，約兄弟世世繼立。封其子冀南昌王、江都尹。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "excerpt": "太和三年，以太尉、中書令領鎮海寧國諸軍節度使，出鎮金陵，如溫故事，留其子景通爲司徒、同平章事，以王令謀、宋齊丘爲左、右僕射，同平章事。未幾，封東海郡王。"
         }
       ],
       "precision": "range",
@@ -994,7 +1084,10 @@
           ]
         }
       ],
-      "sortOrder": 31
+      "sortOrder": 31,
+      "notes": [
+        "《十国春秋》同作王令谋左仆射、宋齐丘右仆射；各书官称异文分别保留。"
+      ]
     },
     {
       "id": "song-qiqiu-retire-qingyang",

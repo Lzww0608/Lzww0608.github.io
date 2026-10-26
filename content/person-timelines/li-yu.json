@@ -125,13 +125,35 @@
           "originalRevision": 1,
           "originalSha256": "51e4c583d3d8bf0c93ae9bd0560036eaa49ce879f41f9e4e5670f454c67004a7",
           "excerpt": "後主即位"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "後主嗣立，爲太后，以父名改稱聖尊后。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p4",
+          "originalRevision": 1,
+          "originalSha256": "de72e26ff15516d786537f6846709850c276c9a7fd414f5a15ae42662d950540",
+          "excerpt": "後主嗣位，加太師、尚書令，甚尊禮之。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "745b27368660889dca05dc2f8f633edbbcde054e871b0ad4329551dbdb94c4ed",
+          "excerpt": "後主嗣位加太師尚書令甚尊禮之"
         }
       ],
       "phase": "rule",
       "precision": "year",
       "notes": [
         "年表据父卒后的承位次序系961，不把监国、承位、改名、官署轮值和复父帝号全定在同一日。",
-        "旧史记父卒金陵、新史承迁洪州后记卒，父卒地异说保留；李煜即位地点两条不据父卒地推改。"
+        "旧史记父卒金陵、新史承迁洪州后记卒，父卒地异说保留；李煜即位地点两条不据父卒地推改。",
+        "钟后传记后主嗣立后改母号，景达传旁记后主即位后加礼；两传未记承位地点或改名日。《新五代史》记建隆二年李煜在金陵承位。"
       ],
       "sortOrder": 4
     },
@@ -156,7 +178,37 @@
         "下一句记开宝九年俘至京师、受封，保为后续事项；当前归档没有本人的死亡日或死因原段，不用国史未归档部分补造。",
         "人物资料此前另引宋史、长编十一月乙未，是另书旁证；本轮年表仅以当前归档新史十二月立主证，不抹平月份差别。"
       ],
-      "sortOrder": 5
+      "sortOrder": 5,
+      "variants": [
+        {
+          "label": "宗室及保仪传的城陷旁证",
+          "sourceDate": "城将陷、及城陷；未独记年月日",
+          "summary": "从镒传记后主终不行而城陷，保仪两传记预命焚藏、城陷后悉焚墨帖。三段均未独记月份，未能解决《新五代史》十二月与其他史书十一月之异。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+              "excerpt": "城將陷，後主謂之曰：「此皆先帝所寶，城若不守，汝卽焚之，無爲它人所得。」及城陷，悉焚無遺者。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p7",
+              "originalRevision": 1,
+              "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
+              "excerpt": "城將陷後主謂之曰此皆先帝所寳城若不守汝即焚之無為他人得及城陷悉焚無遺者"
+            },
+            {
+              "chapterId": "shiguochunqiu-v019",
+              "paragraphId": "shiguochunqiu-v019-p14",
+              "originalRevision": 1,
+              "originalSha256": "255353eeb802b286dda48d2796e84f5d218e46f4826041a8a95ddc3a8c4d82e9",
+              "excerpt": "而後主卒不行，以至城䧟。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-captivity",
@@ -178,7 +230,44 @@
       "notes": [
         "正文只给开宝九年及太祖赦封，无独月日；按太祖在位的有效时间范围系976，不把整个开宝九年都当作西历976，也不把俘抵京师等同城陷当日。"
       ],
-      "sortOrder": 6
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "后妃传的随行北迁",
+          "sourceDate": "国亡后；未记抵达日或受封日",
+          "summary": "继后两传记国亡后随后主北迁、封郑国夫人，保仪两传记随行北迁并卒于大梁。这些女眷的封号与卒地，不能提供李煜抵京、受封的确日；太平兴国二年死亡的叙述属于其后事。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p9",
+              "originalRevision": 1,
+              "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+              "excerpt": "國亡，隨後主北遷，封鄭國夫人。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+              "excerpt": "黃氏亦從北遷，卒于大梁。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p6",
+              "originalRevision": 1,
+              "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+              "excerpt": "國亡從後主北遷封鄭國夫人"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p7",
+              "originalRevision": 1,
+              "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
+              "excerpt": "保儀亦從北遷卒於大梁"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-quanzhou",
@@ -288,6 +377,20 @@
           "originalRevision": 1,
           "originalSha256": "b3019988c622d0239c51dbd8c0b2f477e6f341b3b4653dffdb8a64bd1cb68db8",
           "excerpt": "開寶四年，煜遣其弟韓王從善朝京師，遂留不遣。煜手疏求從善還國，太祖皇帝不許。煜嘗怏怏以國蹙為憂，日與臣下酣宴，愁思悲歌不已。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "excerpt": "開寳四年，奉方物朝宋。〈是時，後主以銀五萬遺趙普，普以白宋太祖，太祖曰:「此不可不受。」普辭。太祖曰:「大國之體，不可自為削弱，當使之弗測。」及從善朝宋，常賜外，密賚白金如遺普之數，人皆服太祖偉度。〉宋太祖拜從善泰寧軍節度、兖海沂等州觀察使、留京師，賜甲第汴陽坊。因命從善貽書後主，督之入覲。從善曰:「臣兄以菲材嗣守宗廟，陛下垂覆載之恩，許其歸闕，實千載一遇，敢不奉詔。」遂為書喻以宋帝意。而後主不從，復手疏求從善歸國。宋太祖以疏示從善，加恩慰撫，莫府将吏皆授常參官以寵之。〈宋史從善傳云：開寳七年，推恩将佐，以掌書記江直木為司門員外郎，同判兖州，衙内都指揮使，兼左都押衙崔光習為右千牛衛將軍，衙内都虞侯子再興為右千牛衛中郎將，並同正。〉而後主愈悲，"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "開寳四年遣朝京師太祖已有意召後主歸闕即拜從善泰寜軍節度使留京師賜甲第汴陽坊封其母凌氏吳國太夫人後主聞命手疏求從善歸國太祖不許以疏示從善加恩慰撫幙府將吏皆授常參官以寵之而後主愈悲思"
         }
       ],
       "phase": "uncertain",
@@ -296,7 +399,10 @@
         "start": 971,
         "end": 972
       },
-      "sortOrder": 11
+      "sortOrder": 11,
+      "notes": [
+        "从善开宝四年入宋留京、后主请其归国未果，与此前使周受送归是不同出使。《却登高文》是后主思弟的文学自述。陆游本对从善母亲先列钟后、后称凌氏，两处记载有异。"
+      ]
     },
     {
       "id": "li-yu-reduce-titles",
@@ -311,6 +417,34 @@
           "originalRevision": 1,
           "originalSha256": "54ae5e44f9398145fff00ffa2455bd705c4c48ae8169c5bf2c0707e9891c4c20",
           "excerpt": "五年，煜下令貶損制度。下書稱教，改中書、門下省為左、右內史府，尚書省為司會府，御史臺為司憲府，翰林為文館，樞密院為光政院，諸王皆為國公，以尊朝廷。煜性驕侈，好聲色，又喜浮圖，為高談，不恤政事。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "excerpt": "及貶制度，降南楚國公。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p14",
+          "originalRevision": 1,
+          "originalSha256": "255353eeb802b286dda48d2796e84f5d218e46f4826041a8a95ddc3a8c4d82e9",
+          "excerpt": "及貶制度，降江國公。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "及貶制度降南楚國公"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p14",
+          "originalRevision": 1,
+          "originalSha256": "4f814285ba5778afad8139fe2f17df4cb57c92875f60ff6b5619bfc825f85868",
+          "excerpt": "及貶制度降鄂國公"
         }
       ],
       "phase": "uncertain",
@@ -319,7 +453,10 @@
         "start": 972,
         "end": 973
       },
-      "sortOrder": 12
+      "sortOrder": 12,
+      "notes": [
+        "宗室传记贬制度时从善降南楚国公、从镒降江国公、从谦降鄂国公，未独记年月。《新五代史》将后主贬制系于开宝五年，并记官署名称变更；从益之名在春秋、陆游本作从镒。后主时贬制与元宗958年去帝号是不同事项。"
+      ]
     },
     {
       "id": "li-yu-pan-you",
@@ -375,7 +512,30 @@
       "notes": [
         "开宝七年的召见和发兵与后续求缓师合叙，未逐事记独日；不把开宝八年十二月城陷压入本条起年。"
       ],
-      "sortOrder": 14
+      "sortOrder": 14,
+      "variants": [
+        {
+          "label": "宗室使者传的谕归与缓攻",
+          "sourceDate": "不朝致讨后；各项未独记月份",
+          "summary": "从镒传记进贡使宋、李穆送归谕后主自归，又命曹彬缓攻等待，后主终未出行。《新五代史》另记徐铉、周惟简奉表求缓师而未获答。两段所记的使者、表章与命令不同。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v019",
+              "paragraphId": "shiguochunqiu-v019-p14",
+              "originalRevision": 1,
+              "originalSha256": "255353eeb802b286dda48d2796e84f5d218e46f4826041a8a95ddc3a8c4d82e9",
+              "excerpt": "宋以不朝致討，後主遣從鎰貢帛二十萬疋，白金二十萬斤，宋兵悉已南渡，從鎰留汴京，館懐信驛。捷奏至宋，宋百僚稱賀，闔門趨，隨班入。邸吏亦謂當有貢獻。其介潘慎修以為國被討瀕亡，使者旅賀，非禮，但奉方物，以待罪為宜。宋太祖嘉其知禮，為易供帳，加賜牲餼上尊。命知制誥李穆送從鎰歸國，諭㫖令後主亟自歸。仍命曹彬等緩攻以竢之。而後主卒不行，以至城䧟。"
+            },
+            {
+              "chapterId": "nantanglu-v016",
+              "paragraphId": "nantanglu-v016-p13",
+              "originalRevision": 1,
+              "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+              "excerpt": "太祖以不朝來討後主遣從鎰貢帛二十萬疋白金二十萬斤大兵悉已南渡從鎰留京師館懷信驛捷奏至百僚稱賀閣門趣隨班入邸吏亦謂當有貢獻其介潘慎修以為國被討瀕亡而使者旅賀非禮但奉方物以待罪太祖嘉其知禮為易供帳加賜牲餼上樽命知制誥李穆送從鎰歸國諭指令後主亟自歸仍命曹彬等緩攻以俟之而後主卒不行以至城陷"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-han-xizai",

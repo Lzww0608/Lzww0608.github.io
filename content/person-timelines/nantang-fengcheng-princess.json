@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-fengcheng-princess",
+  "events": [
+    {
+      "id": "nantang-fengcheng-princess-posthumous-investiture",
+      "title": "追封丰城公主",
+      "summary": "本纪追封烈祖长女为丰城公主，《十国春秋》卷15原作公生；不据此补死亡日。",
+      "year": 937,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 1,
+      "sourceDate": "昇元元年十一月丁巳条连续叙列",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "丁巳，追封次子景遷爲高平郡王，長女爲豐城公生。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "丁巳追封長子景遷為髙平郡王長女為豐城公主"
+        }
+      ],
+      "notes": [
+        "原段未记生母、婚姻及确切生卒，不从封授补造这些经历。"
+      ]
+    }
+  ]
+}
