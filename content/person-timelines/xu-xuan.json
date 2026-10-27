@@ -4,6 +4,29 @@
   "scope": "current-archive",
   "events": [
     {
+      "id": "xu-xuan-snow-banquet-poems-and-prefaces",
+      "year": 947,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 0,
+      "sourceDate": "保大五年元日雪宴；前后序未独记成文日",
+      "title": "参与元日雪宴唱和，为诗作前后序",
+      "summary": "《十国春秋》夹引《清异录》，记保大五年元日大雪，李建勋正与徐铉、张义方会于溪亭，奉命和诗，随后三人被召同宴。侍臣作诗，徐铉撰写前后两篇序。",
+      "notes": [
+        "元日宴会有明确日次，前后序未另记成文日，不把后续图成等环节都定为元日。",
+        "本条保留卷中夹引《清异录》的来源层次，不把转引称作另一份独立见证；不补画名或徐铉参与绘画的行为。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68",
+          "excerpt": "保大五年春正月丁亥朔，大雪。帝召齊王景遂等登樓，賜宴賦詩。〈《清異録》云：保大五年元日大雪，李主命太弟以下展燕賦詩，令中人就私第賜李建勳繼和。時建勳方會中書舍人徐鉉、勤政學士張義方于溪亭，卽時和進。乃召建勳、鉉、義方同宴，夜艾方散。侍臣皆有詩詠，徐鉉爲前後序。仍集名手圖畫，書圖盡一時之技；真容，高沖古主之；侍臣法部絲竹，周文矩主之；樓閣官殿，朱澄主之；雪竹寒林，董源主之；池招禽魚，徐崇嗣主之。圖成，皆絕筆也。〉"
+        }
+      ]
+    },
+    {
       "id": "xu-xuan-petition-military-punishment",
       "year": 947,
       "sourceDate": "《通鉴》天福十二年四月，福州败后",
@@ -24,6 +47,30 @@
         "同卷第70段已入四月；壬申只明国主赦诸将、议处二人的记日，不将后续共同上疏定为同日。"
       ],
       "sortOrder": 1
+    },
+    {
+      "id": "xu-xuan-remonstrate-song-feng-faction",
+      "year": 947,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 2,
+      "sourceDate": "保大五年四月条后、五月条前，未独记论奏日",
+      "title": "与韩熙载论宋齐丘、冯延巳朋党",
+      "summary": "知制诰徐铉与史馆修撰韩熙载论奏宋齐丘、冯延巳结党，李璟罢冯延巳为太子少傅，贬魏岑为太子洗马。",
+      "notes": [
+        "此为论朋党，与请诛陈觉、冯延鲁的军法奏疏分别叙写。",
+        "本事在四月后续记事中、五月条之前；未记独日，不把后条太白昼见的丙子移作论奏日。",
+        "随后“帝命降复故官”未明所指，不据此补写徐铉本人遭贬或复职；韩熙载遭诋毁被贬另有其人的记载。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68",
+          "excerpt": "是月，復詔械魘、延魯還都，既至，貸死，覺流蘄州，延魯流舒州。知制誥徐鉉、史館修撰韓熙載論宋齊丘、馮延巳朋黨，帝罷延巳爲太子少傅，貶岑太子洗馬。未幾，帝命降復故官。齊丘讀熙載嗜酒，貶和州司士參軍。"
+        }
+      ]
     },
     {
       "id": "xu-xuan-restore-examinations",
@@ -64,7 +111,23 @@
       ],
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "variants": [
+        {
+          "label": "本纪把屯田、按视与流放连叙于保大十一年",
+          "sourceDate": "保大十一年冬十月起、十二月流放；具体按视日未独记",
+          "summary": "本纪记白水塘役起、徐铉按视还田、欲杖车延规、遭谗奉召，十二月流舒州。《通鉴》以先是追叙而无独年，各保记时粒度，不把工程、按视、流放强为同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p12",
+              "originalRevision": 1,
+              "originalSha256": "ea71e647adfa76c2304192c04bd023e5445815d73ef014c6f03022c44d26ebc4",
+              "excerpt": "冬十月，築楚州白水塘以溉屯田，遂詔州縣陂塘湮廢者，皆修復之。於是力役暴興，楚州、常州爲甚，帝使近侍車延規董其役，發洪、饒、吉、筠州民牛以往。吏緣爲姦，強奪民田爲屯田，江、淮騷然。百姓以數丈竹去節焚香于中，仰天訴冤，道路以目。知制誥徐鉉因奏事白之，帝曰：「吾國兵數十萬，安能不食捍邊，事關大利，舉國輾排之，奈何？」乃遺鉉行視利害。鉉至楚州，悉取所奪田還民，詰責車延規，欲榜之。或譖鉉擅作威福，帝大怒，趣歸，將沈之江；既至，怒少解。十二月，流鉉舒州，白水塘竟不成。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "xu-xuan-envoy-request-delay",
@@ -365,6 +428,28 @@
       "notes": [
         "968—969仅为开宝元年始议的有效范围；原书后续逾月不提供婚礼或戏言的独立确日。",
         "患疽及周、孔之语为原书人物戏言，不认作神灵致病实证；潘佑、徐游的决定不写成徐铉议获采纳。"
+      ]
+    },
+    {
+      "id": "xu-xuan-wang-qixia-inscription",
+      "title": "为王栖霞撰碑",
+      "summary": "本传在王栖霞去世、奉冠剑归葬雷平山后记徐铉撰碑；撰碑行为明确，具体题名和撰成日未载。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 14,
+      "sourceDate": "王栖霞保大元年四月卒葬后连叙；撰碑未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "c1d0dc6e3b777f84afd319583e329a9e9eb7ffc36e962c6407ce368058918a2a",
+          "excerpt": "保大元年四月卒，年六十二。賻錢二十萬，奉冠劍歸葬雷平山，徐鉉撰碑。"
+        }
+      ],
+      "notes": [
+        "不把墓主卒月当作徐铉撰碑月；不补碑文篇题或奉诏者。"
       ]
     }
   ]

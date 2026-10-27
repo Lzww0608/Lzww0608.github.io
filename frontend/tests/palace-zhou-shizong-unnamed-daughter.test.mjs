@@ -57,6 +57,13 @@ test('one real court-mourning occurrence has no asserted death day and preserves
  assert.deepEqual([added.year,added.precision,added.sourceDate,added.evidence],[event.year,event.precision,event.sourceDate,event.evidence]);
  const oldSorts={'chai-rong-second-fu-and-sons':89,'chai-rong-zhao-dianjian':90,'chai-rong-death':91,'chai-rong-posthumous-title-burial':92};
  const restored=structuredClone(man);restored.events=restored.events.filter(e=>e.id!==added.id);
+ // The later complete Southern Tang annal adds one precisely reviewed source variant.
+ // Remove only that exact object when reconstructing the earlier release's document.
+ const chuzhou=restored.events.find(e=>e.id==='chai-rong-chuzhou-capture');
+ const laterVariants=chuzhou.variants.filter(v=>v.label==='本纪丁未克楚及所引军十万疑义');assert.equal(laterVariants.length,1);
+ assert.equal(objectSha(laterVariants[0]),'f70760ab080f75ffed49981441a5c09b875c10ff80de922f93126fd7401d09e5');
+ chuzhou.variants=chuzhou.variants.filter(v=>v!==laterVariants[0]);
+ if(!chuzhou.variants.length)delete chuzhou.variants;
  for(const [id,sort]of Object.entries(oldSorts)){const old=restored.events.find(e=>e.id===id);assert.ok(old,id);assert.equal(old.sortOrder,sort+1,id);old.sortOrder=sort;}
  assert.equal(restored.events.length,96);assert.equal(objectSha(restored),'8fe653272b69777e0b677e15070813b7ca1b18eb0663d966f0781c4bcd854ce7','whole pre-batch document including all 96 IDs, metadata and source objects');
 });

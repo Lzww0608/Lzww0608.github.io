@@ -37,6 +37,25 @@
       ],
       "notes": [
         "不把后段宋太后事件的943—945年范围覆盖初荐进与制香。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》记保大中入宫",
+          "sourceDate": "保大中，未独记年月",
+          "summary": "本书记耿先生在保大中因宋齐丘入宫，元宗安置于别院，称先生；后文得幸、问术及隐去为不同叙次。",
+          "notes": [
+            "保大中的入宫叙次不覆盖后来全部术数故事，也不据此推定册妃。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "保大中，因宋齊丘以入宫，元宗處之别院，號曰先生。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -70,6 +89,25 @@
       ],
       "notes": [
         "未说耿带太后出走、被景遂迎回或被诛；后续往来江淮的全部年限不受此范围约束。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》记景达迎宋太后",
+          "sourceDate": "元宗时宋太后在世，未独记离宫、迎还年月",
+          "summary": "正文记宋太后不知所在、耿亦隐去，元宗命齐王景达迎太后还宫，道士被诛，耿不得再入宫；陆游作景遂。并未说明耿也在宝华宫。",
+          "notes": [
+            "景达、景遂按两书分别保留，不调和为无疑同一人。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "久之，宫中忽失宋太后所在，耿亦隱去幾月餘，中外大駭。有告者云：“在都城外二十里方山寶華宫。”元宗亟命齊王景達往迎太后，見與數道士方酣飲，乃迎還宫，道士皆誅死，耿亦不復得入宫。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -88,6 +126,22 @@
           "originalRevision": 1,
           "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
           "excerpt": "猶然往來江淮，後不知所終。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》或言往来卖药",
+          "sourceDate": "不得再入宫以后，未独记年月",
+          "summary": "本书以“或言”转述耿先生往来江淮、于市卖药；保留这一传闻语气，不更改陆游书后不知所终的说法。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "或言其往來江、淮，賣藥于市云。"
+            }
+          ]
         }
       ]
     }

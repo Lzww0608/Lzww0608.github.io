@@ -86,7 +86,23 @@
       ],
       "phase": "fall",
       "precision": "month",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "variants": [
+        {
+          "label": "本纪闽君曦被弑的记月",
+          "sourceDate": "保大二年夏五月；其他书三月",
+          "summary": "本纪称朱文进弑其君曦；同一身份王延羲由闽国与弑者闭合，不因月差制造另一王曦。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p4",
+              "originalRevision": 1,
+              "originalSha256": "42c46e99ab551ead89c031663e4c295cf615946b6f9460537131f6de8942db30",
+              "excerpt": "夏五月，閩人朱文進弒其君曦，自稱閩王，遣使來告。帝囚其使，將討之。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wang-yanxi-fraternal-war",

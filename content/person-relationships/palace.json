@@ -11016,6 +11016,14 @@
         "originalRevision": 1,
         "originalSha256": "dc21fde06e8fa5a8082e76e177ac8c5c1703de5f4549c3e74b10b6028a9bab1e",
         "excerpt": "獲寵於元宗"
+      },
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p9",
+        "originalRevision": 1,
+        "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+        "excerpt": "未幾，得幸元宗"
       }
     ]
   },
@@ -11034,6 +11042,14 @@
         "originalRevision": 1,
         "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
         "excerpt": "始因宋齊丘進"
+      },
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p9",
+        "originalRevision": 1,
+        "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+        "excerpt": "保大中，因宋齊丘以入宫，元宗處之别院，號曰先生。"
       }
     ]
   },
@@ -11043,7 +11059,7 @@
     "to": "nantang-geng-xiansheng",
     "kind": "kinship",
     "label": "父女",
-    "note": "父名云、军大校，不加姓或现代军衔。",
+    "note": "陆游记父名云，《十国春秋》正文作耿谦，所引《南唐书》仍作父云；父名异文未能校定。",
     "sources": [
       {
         "title": "《南唐书（陆游）》 · 卷 17 · 杂艺方士节义列传",
@@ -11052,6 +11068,14 @@
         "originalRevision": 1,
         "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
         "excerpt": "耿先生者，父雲，軍大校。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p9",
+        "originalRevision": 1,
+        "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+        "excerpt": "耿先生者，軍大校耿謙女也。南唐書云：父雲，軍大校。今從江淮異人録。"
       }
     ]
   },
@@ -11612,6 +11636,78 @@
         "originalRevision": 1,
         "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
         "excerpt": "宋伐江南時，獲後主寵姬，夜見燈燭輒閉目"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-yang-baozong-court-summons",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-yang-baozong",
+    "kind": "service",
+    "label": "召见与赐予",
+    "note": "元宗召女道士赴阙，命好道妃嫔与她相见，赐修观金钱、观额及紫衣；这是宫廷宗教往来，不作婚配、册妃或长期宫籍。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p10",
+        "originalRevision": 1,
+        "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+        "excerpt": "元宗聞之，特召赴闕，延入禁中，命妃嬪樂道者見之，捨金錢千萬，令新其宇，仍賜觀額，敕尚書郎韓熙載撰記。又賜保宗紫衣，詔臣下作詩送之。"
+      }
+    ]
+  },
+  {
+    "id": "han-xizai-yang-baozong-writing-order",
+    "from": "han-xizai",
+    "to": "nantang-yang-baozong",
+    "kind": "service",
+    "label": "奉命撰记",
+    "note": "原书只记元宗命韩熙载为此撰记，没有记述文稿完成或二人私人交友。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p10",
+        "originalRevision": 1,
+        "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+        "excerpt": "仍賜觀額，敕尚書郎韓熙載撰記。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-xu-guotai-source-contact",
+    "from": "li-bian",
+    "to": "nantang-xu-guotai-source-role",
+    "kind": "service",
+    "label": "一云记宫廷往来、同姓未纳",
+    "note": "传末另一说称徐国太先与烈祖往来，后被取入宫，因同姓未纳。所述同姓不证明血缘，也不表示母子或夫妻关系。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p9",
+        "originalRevision": 1,
+        "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+        "excerpt": "〈一云：徐國太者，幼得仙術。先與烈祖往來，後烈祖卽位，取入宫，以其同姓，不復納之，因稱之曰國太。耿先生入宫時，國太猶在，年裁五十許。後挾宋太后至寶華宫，與羣道士飲。元宗大索，迎太后歸，自是太后若中疾然，不數年而殂。〉"
+      }
+    ]
+  },
+  {
+    "id": "xu-guotai-song-dowager-baohua-source-account",
+    "from": "nantang-xu-guotai-source-role",
+    "to": "nantang-song-fujin",
+    "kind": "service",
+    "label": "一云记挟太后至宝华宫",
+    "note": "另一说把挟宋太后赴宝华宫、与道士饮酒的行为记在徐国太名下；不替代正文，不补双方意愿、动机或其他身体遭遇。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 34 · 南唐列传（王栖霞、耿先生、杨保宗等）",
+        "chapterId": "shiguochunqiu-v034",
+        "paragraphId": "shiguochunqiu-v034-p9",
+        "originalRevision": 1,
+        "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+        "excerpt": "〈一云：徐國太者，幼得仙術。先與烈祖往來，後烈祖卽位，取入宫，以其同姓，不復納之，因稱之曰國太。耿先生入宫時，國太猶在，年裁五十許。後挾宋太后至寶華宫，與羣道士飲。元宗大索，迎太后歸，自是太后若中疾然，不數年而殂。〉"
       }
     ]
   }

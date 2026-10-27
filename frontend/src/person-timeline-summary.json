@@ -732,10 +732,11 @@
     },
     {
       "personId": "han-xizai",
-      "eventCount": 16,
+      "eventCount": 19,
       "eventIds": [
         "han-xizai-flee-wu",
         "han-xizai-advise-era",
+        "han-xizai-liezu-funeral-and-temple-title",
         "han-xizai-urge-northern-opportunity",
         "han-xizai-punish-failed-commanders",
         "han-xizai-song-accusation-demotion",
@@ -749,7 +750,9 @@
         "han-xizai-wu-yuan-memorial",
         "han-xizai-recognize-zhang-ji",
         "han-xizai-poem-on-central-plains-mission",
-        "han-xizai-satire-at-queen-wedding"
+        "han-xizai-satire-at-queen-wedding",
+        "han-xizai-yang-baozong-writing-order",
+        "han-xizai-tao-gu-six-dynasties-copying"
       ]
     },
     {
@@ -1367,7 +1370,7 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 41,
+      "eventCount": 42,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
@@ -1409,7 +1412,8 @@
         "li-bian-cui-taichu-border-warning",
         "li-bian-qian-liang-baguo-title",
         "li-bian-qian-liang-portrait-inner-palace",
-        "li-bian-marry-xingguo-to-ma-renyu"
+        "li-bian-marry-xingguo-to-ma-renyu",
+        "li-bian-wang-qixia-governance-question"
       ]
     },
     {
@@ -1719,7 +1723,7 @@
     },
     {
       "personId": "li-jing-southern-tang",
-      "eventCount": 46,
+      "eventCount": 47,
       "eventIds": [
         "li-jing-southern-tang-zhong-marriage-command",
         "li-jing-southern-tang-wu-office",
@@ -1766,7 +1770,8 @@
         "li-jing-southern-tang-exile-zhu-kuangye-liu-cunzhong",
         "li-jing-southern-tang-yang-huafei-remonstrance",
         "li-jing-southern-tang-rebuild-maoshan-ziyang",
-        "li-jing-southern-tang-zhou-consort-musical-gifts"
+        "li-jing-southern-tang-zhou-consort-musical-gifts",
+        "li-jing-southern-tang-yang-baozong-summons"
       ]
     },
     {
@@ -2053,8 +2058,9 @@
     },
     {
       "personId": "li-yu",
-      "eventCount": 22,
+      "eventCount": 23,
       "eventIds": [
+        "li-yu-along-yangtze-inspection",
         "li-yu-avoid-hongji",
         "li-yu-heir",
         "li-yu-crown-and-regency",
@@ -3088,6 +3094,15 @@
       "eventCount": 1,
       "eventIds": [
         "nantang-xingguo-princess-marriage"
+      ]
+    },
+    {
+      "personId": "nantang-yang-baozong",
+      "eventCount": 3,
+      "eventIds": [
+        "nantang-yang-baozong-seek-dao",
+        "nantang-yang-baozong-lushan-care",
+        "nantang-yang-baozong-court-summons"
       ]
     },
     {
@@ -4690,7 +4705,7 @@
     },
     {
       "personId": "wang-yanzheng",
-      "eventCount": 7,
+      "eventCount": 8,
       "eventIds": [
         "wang-yanzheng-yin-emperor",
         "wang-yanzheng-tang-conflict",
@@ -4698,7 +4713,8 @@
         "wang-yanzheng-surrender",
         "wang-yanzheng-build-rivalry",
         "wang-yanzheng-attack-zhuwenjin",
-        "wang-yanzheng-later-titles"
+        "wang-yanzheng-later-titles",
+        "wang-yanzheng-guangshan-title"
       ]
     },
     {
@@ -5034,9 +5050,11 @@
     },
     {
       "personId": "xu-xuan",
-      "eventCount": 13,
+      "eventCount": 16,
       "eventIds": [
+        "xu-xuan-snow-banquet-poems-and-prefaces",
         "xu-xuan-petition-military-punishment",
+        "xu-xuan-remonstrate-song-feng-faction",
         "xu-xuan-restore-examinations",
         "xu-xuan-farmland-inquiry-and-exile",
         "xu-xuan-envoy-request-delay",
@@ -5048,7 +5066,8 @@
         "xu-xuan-relocate-fathers-grave-xishan",
         "xu-xuan-liu-chongjun-inscription",
         "xu-xuan-zhou-empress-music-inquiry",
-        "xu-xuan-younger-zhou-marriage-deliberation"
+        "xu-xuan-younger-zhou-marriage-deliberation",
+        "xu-xuan-wang-qixia-inscription"
       ]
     },
     {

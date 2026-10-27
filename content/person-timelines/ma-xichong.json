@@ -131,6 +131,13 @@
           "originalRevision": 1,
           "originalSha256": "a94652e9cf1ccf4233756f314659e0424a63e2c6e7bdd6e844fecdef4856e45a",
           "excerpt": "唐邊鎬引兵入醴陵。癸巳，楚王希崇遣使犒軍。壬寅，遣天策府學士拓跋恆奉箋詣鎬請降。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "6fc566764ccb5914e0630d85d269a3dfba887cf38086d73f146d12fe995d0dc5",
+          "excerpt": "冬十月壬寅，武安留後馬希崇請降。甲辰，鎬入潭州，詔以鎬爲武安軍節度使；辭，不許。癸丑，武昌節度使劉仁贍帥舟師取岳州，湖南遂平，以將軍宋德權爲岳州刺史，以客省引進使任鎬爲監軍使，以馬光惠爲武平軍留後。十一月，遷楚王希萼及希崇于金陵。"
         }
       ],
       "phase": "fall",
@@ -168,7 +175,23 @@
       "yearRange": {
         "start": 951,
         "end": 952
-      }
+      },
+      "variants": [
+        {
+          "label": "本纪称永泰镇舒州",
+          "sourceDate": "本纪保大九年十二月叙次；未独日",
+          "summary": "本纪记希崇为永泰军节度使、镇舒州；另书记兼舒州节度而居扬州。授职与驻处分书保存，授职与驻处各存其说。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p11",
+              "originalRevision": 1,
+              "originalSha256": "6fc566764ccb5914e0630d85d269a3dfba887cf38086d73f146d12fe995d0dc5",
+              "excerpt": "馬希萼爲江南西道觀察使，鎮洪州，仍賜爵楚王；馬希崇爲永泰軍節度使，鎮舒州。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ma-xichong-join-zhou",

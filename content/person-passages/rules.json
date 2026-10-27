@@ -4915,6 +4915,16 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "nantang-yang-baozong",
+      "names": [
+        "杨保宗",
+        "楊保宗"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -14157,6 +14167,116 @@
       "reason": "只说明余洪所事政权/君主，先阻自动record，再保背景mention。",
       "originalRevision": 1,
       "originalSha256": "7facd4208edf13e1bab296056e10e7fd8dfd8b148fd04841113f375847068ebc"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p3",
+      "personId": "pang-shigu",
+      "terms": [
+        "師古"
+      ],
+      "reason": "事不師古是效法古代的普通词，不是庞师古。",
+      "originalRevision": 1,
+      "originalSha256": "7a08e6e4fe67c3bdea9f128cf4de319660b9c016e322f138ba607dc66ffb155e"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p6",
+      "personId": "li-sian",
+      "terms": [
+        "思安"
+      ],
+      "reason": "本段思安是董思安，不是李思安；只限定此原段。",
+      "originalRevision": 1,
+      "originalSha256": "08745aa7b3fa9a8990675deb78f5bb0ea9f4072888a485f8388d788d2826ad04"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p7",
+      "personId": "wang-jian-former-shu",
+      "terms": [
+        "王建"
+      ],
+      "reason": "此为后晋棣州刺史王建，非前蜀高祖；同段王建封也非此前蜀人。",
+      "originalRevision": 1,
+      "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p9",
+      "personId": "li-sian",
+      "terms": [
+        "思安"
+      ],
+      "reason": "本段为董思安被留从愿毒杀，非李思安。",
+      "originalRevision": 1,
+      "originalSha256": "91078f574aa6bbdf336efdf7903f038b236f5ea2f02d64555566ba045ac9b14d"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p10",
+      "personId": "yang-yanwen",
+      "terms": [
+        "彦温"
+      ],
+      "reason": "楚将李彦温不是杨彦温，不由短名自动归同人。",
+      "originalRevision": 1,
+      "originalSha256": "4d02987d657d212e6c6161bcad3960897a46b7839e0638d8a7105adda93f490c"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p14",
+      "personId": "an-jinquan",
+      "terms": [
+        "金全"
+      ],
+      "reason": "周诏金全据安陆承李金全事件，非安金全。",
+      "originalRevision": 1,
+      "originalSha256": "ac79825f0f0897b2ac96ae57e26fbfc0d2d2910f648f38cfaad14e7bf49916cb"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p17",
+      "personId": "kou-yanqing",
+      "terms": [
+        "彥卿"
+      ],
+      "reason": "本段楚州守将张彦卿，非寇彦卿。",
+      "originalRevision": 1,
+      "originalSha256": "0ef5b996597e386258b9539b5a6a6d73c9400564cbe35b4804032793f577dfb4"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v016-p19",
+      "personId": "song-qiqiu",
+      "terms": [
+        "宋齊丘"
+      ],
+      "reason": "只排自动record，另以同一源SHA补mention；此为已死宋齐丘鬼影异闻，非死后实行动。",
+      "originalRevision": 1,
+      "originalSha256": "0f18f8f836573ab0c772c3c83bd348d406a5952d786118368497dd37697050bc"
+    },
+    {
+      "personId": "dai-siyuan",
+      "paragraphId": "shiguochunqiu-v025-p8",
+      "terms": [
+        "思遠"
+      ],
+      "reason": "命中来自“深思遠慮”的跨词片段，非戴思远姓名。只排此段本词，不改全站思遠别名。",
+      "originalRevision": 1,
+      "originalSha256": "bbb59a7110275c0f79324a3de3d83e2e4c8c78bcbc876df9a8f8e02100c64143"
+    },
+    {
+      "personId": "wang-shenzhi",
+      "paragraphId": "shiguochunqiu-v025-p8",
+      "terms": [
+        "審知"
+      ],
+      "reason": "本段明确为高審知，不是闽王王审知。只排此段本词，不改全站審知短名。",
+      "originalRevision": 1,
+      "originalSha256": "bbb59a7110275c0f79324a3de3d83e2e4c8c78bcbc876df9a8f8e02100c64143"
+    },
+    {
+      "personId": "nantang-yang-baozong",
+      "paragraphId": "shiguochunqiu-v034-p1",
+      "terms": [
+        "楊保宗"
+      ],
+      "reason": "此段为十人并列篇题，不作杨保宗个人记载；完整事迹限同卷第10段。",
+      "originalRevision": 1,
+      "originalSha256": "e09ba7aee1f4dc670f84e669b2f41e40d580f3b68870b5bf01a01237774e4ab7"
     }
   ],
   "regnalEdicts": {

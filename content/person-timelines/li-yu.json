@@ -4,6 +4,29 @@
   "scope": "current-archive",
   "events": [
     {
+      "id": "li-yu-along-yangtze-inspection",
+      "year": 956,
+      "precision": "month",
+      "phase": "service",
+      "sortOrder": 0,
+      "sourceDate": "保大十三年冬十二月，未独记任命日",
+      "title": "任沿江巡抚",
+      "summary": "安定郡公从嘉获任沿江巡抚。原书记的是即位前的任职，未叙此次巡行的具体路线和实际行程。",
+      "notes": [
+        "保大十三年十二月整月在西历956年；原纪年照存，不以保大十三年的年号标签直接写成955年。",
+        "紧随其后的“甲戊”属于周军战事，且干支有疑，不能移作从嘉任命日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p14",
+          "originalRevision": 1,
+          "originalSha256": "ac79825f0f0897b2ac96ae57e26fbfc0d2d2910f648f38cfaad14e7bf49916cb",
+          "excerpt": "冬十二月，以安定郡公從嘉爲沿江巡撫。"
+        }
+      ]
+    },
+    {
       "id": "li-yu-avoid-hongji",
       "year": 958,
       "sourceDate": "《通鉴》显德五年三月立弘冀太子后的叙述",
@@ -49,12 +72,20 @@
           "originalRevision": 1,
           "originalSha256": "cd6988f21f7164bd0465ea8187c01438758311f73ab5d4cc64f322fdc19bad95",
           "excerpt": "九月，太子冀卒，[3]次子從嘉封吳王，居東宮。鍾謨言從嘉輕肆，請立紀國公從善，景怒，貶謨國子司業，立從嘉為太子。世宗使人謂景曰：「吾與江南，大義已定，然慮後世不能容汝，可及吾世修城隍、治要害為子孫計。」景因營緝諸城，謀遷其都于洪州，羣臣皆不欲遷，惟樞密使唐鎬贊之，乃升洪州為南昌，建南都。建隆二年，留太子從嘉監國，景遷于南都。而洪州迫隘，宮府營廨，皆不能容，羣臣日夕思歸，景悔怒不已。唐鎬慚懼，發疾卒。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v025",
+          "paragraphId": "shiguochunqiu-v025-p2",
+          "originalRevision": 1,
+          "originalSha256": "e2d3276ad3df413015c4c9e9908190a082439bfd9ccd1bc7ccd6b9dd70b976d3",
+          "excerpt": "後主封吳王，召易為吳王司馬。東宮建，又為左庶子。"
         }
       ],
       "phase": "early",
       "precision": "month",
       "notes": [
-        "新史称次子，从李煜本传明记景第六子及此处继嗣次序理解；不另定为亲生第二子。"
+        "新史称次子，从李煜本传明记景第六子及此处继嗣次序理解；不另定为亲生第二子。",
+        "《十国春秋》张易传依次记后主封吴王、召张易任司马及东宫建后改左庶子，未独记封王年月；不据其连叙把封吴王与建隆二年监国、承位合成同日。"
       ],
       "sortOrder": 2
     },
@@ -78,6 +109,13 @@
           "originalRevision": 1,
           "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
           "excerpt": "煜字重光，初名從嘉，景第六子也。煜為人仁孝，善屬文，工書畫，而豐額駢齒，一目重瞳子。自太子冀已上，五子皆早亡，煜以次封吳王。建隆二年，景遷南都，立煜為太子，留監國。景卒，煜嗣立於金陵。母鍾氏，父名泰章。煜尊母曰聖尊后；立妃周氏為國后；封弟從善韓王，從益鄭王，從謙宜春王，從度昭平郡公，從信文陽郡公。大赦境內。遣中書侍郎馮延魯修貢于朝廷。令諸司四品已下無職事者，日二員待制於內殿。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p19",
+          "originalRevision": 1,
+          "originalSha256": "0f18f8f836573ab0c772c3c83bd348d406a5952d786118368497dd37697050bc",
+          "excerpt": "建隆二年春二月，國主遷于南都，立吳王從嘉爲太子，留金陵監國。"
         }
       ],
       "phase": "rule",
