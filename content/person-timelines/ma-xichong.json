@@ -142,7 +142,23 @@
       ],
       "phase": "fall",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "边镐传自七年起叙及引陆游的出降记载",
+          "sourceDate": "本传从保大七年预置安抚起叙，后接入潭及希崇出降；未为各后续阶段独记年日",
+          "summary": "本传以七年起叙楚马兄弟相攻、元宗预置边镐，随后接楚再废立、边镐入潭，并引陆游记马希崇率弟侄出降。保留这一叙次，不把整段都定在七年，也不据本传叙首改动主证951年；同源引书不作为独立复证。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v022",
+              "paragraphId": "shiguochunqiu-v022-p8",
+              "originalRevision": 1,
+              "originalSha256": "5f57e2f7654c388ef179861802c6e3b22b0f4d53023f0f186364186d94632e0b",
+              "excerpt": "七年，楚馬氏兄弟相攻，希萼雖勝而尤無道。元宗知楚難方殷，以鎬爲信州刺史，領屯營兵，兼湖南安撫使，駐袁州萍鄉，有警許便宜從事。楚人果復廢立，鎬自萍鄉帥師入潭州，〈陸游南唐書云：馬希崇率弟姪輩出降，臨下馬稱詔勞之；希萼亦來見，鎬以禮遺。〉"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ma-xichong-shu-prefecture",
