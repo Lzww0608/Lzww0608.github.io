@@ -11856,5 +11856,59 @@
         "excerpt": "〈一云：徐國太者，幼得仙術。先與烈祖往來，後烈祖卽位，取入宫，以其同姓，不復納之，因稱之曰國太。耿先生入宫時，國太猶在，年裁五十許。後挾宋太后至寶華宫，與羣道士飲。元宗大索，迎太后歸，自是太后若中疾然，不數年而殂。〉"
       }
     ]
+  },
+  {
+    "id": "li-yu-jingde-nuns-fire-oath-source-contact",
+    "from": "li-yu",
+    "to": "nantang-li-yu-jingde-nuns-source-role",
+    "kind": "service",
+    "label": "举火誓约（来源联系）",
+    "note": "本传记后主与净德尼院宫人约定宫中举火相应、同赴火死，是预先誓约；本传未记李煜实际自焚。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 33 · 南唐列传（僧人、小长老等）",
+        "chapterId": "shiguochunqiu-v033",
+        "paragraphId": "shiguochunqiu-v033-p20",
+        "originalRevision": 1,
+        "originalSha256": "f33fa1155e8690f8d8737dd528325c6123eae8786435328633d75eedb531edbe",
+        "excerpt": "先是，淨德尼院凡八十餘人，皆宫人入道者。都城將陷，亦積薪于院庭，後主與約曰：“如有不虞，宫中舉火爲應，吾與汝輩俱焚死。”"
+      }
+    ]
+  },
+  {
+    "id": "huang-baoyi-jingde-nuns-fire-smoke-source-contact",
+    "from": "nantang-li-yu-baoyi-huang",
+    "to": "nantang-li-yu-jingde-nuns-source-role",
+    "kind": "service",
+    "label": "焚书与见烟赴火记载（来源联系）",
+    "note": "本传把保仪黄氏焚书与尼院见烟赴火相连叙述，未记黄氏焚烧尼院，也未说明其有使宫人赴火的意图。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 33 · 南唐列传（僧人、小长老等）",
+        "chapterId": "shiguochunqiu-v033",
+        "paragraphId": "shiguochunqiu-v033-p20",
+        "originalRevision": 1,
+        "originalSha256": "f33fa1155e8690f8d8737dd528325c6123eae8786435328633d75eedb531edbe",
+        "excerpt": "及保儀黄氏燔積書于宫，淨德院遥望見烟燄，遂爇積薪赴火死，無一人肯脱者。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-zhou-queen-buddhist-source-contact",
+    "from": "li-yu",
+    "to": "nantang-li-yu-zhou-queen-buddhist-source-role",
+    "kind": "service",
+    "label": "共见佛事（来源联系）",
+    "note": "仅保存本传后主与周后共同佛事的称谓联系，未据此确定为大周后或小周后，也未把此段系于开宝三年。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 33 · 南唐列传（僧人、小长老等）",
+        "chapterId": "shiguochunqiu-v033",
+        "paragraphId": "shiguochunqiu-v033-p20",
+        "originalRevision": 1,
+        "originalSha256": "f33fa1155e8690f8d8737dd528325c6123eae8786435328633d75eedb531edbe",
+        "excerpt": "初，後主與周后酷信浮屠法，僧帽裓衣，課誦釋典，親削僧徒，厠簡試之，以頰少有芒刺，則加以修治，兩手常作佛印而行。"
+      }
+    ]
   }
 ]
