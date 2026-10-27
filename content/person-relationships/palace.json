@@ -10548,5 +10548,563 @@
         "excerpt": "其名率皆有司所撰。"
       }
     ]
+  },
+  {
+    "id": "zhong-taizhang-empress-daughter",
+    "from": "nantang-zhong-taizhang",
+    "to": "nantang-li-jing-empress-zhong",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "父名泰章、太章在不同书中写法有别；《十国春秋》及陆游书称钟后为次女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p5",
+        "originalRevision": 1,
+        "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+        "excerpt": "光穆皇后鍾氏。父泰章，事吳"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 6 · 女宪传",
+        "chapterId": "nantangma-v006",
+        "paragraphId": "nantangma-v006-p8",
+        "originalRevision": 1,
+        "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+        "excerpt": "嗣主光穆皇后鍾氏虔州刺史太章之女"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-zhong-spouses",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-li-jing-empress-zhong",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "徐温所命景通婚家与元宗钟后由父亲、本传配偶闭合；命婚不等婚礼确日。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p5",
+        "originalRevision": 1,
+        "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+        "excerpt": "義祖命以泰章次女配元宗，卽后也。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 272 · 后唐纪1",
+        "chapterId": "tongjian-v272",
+        "paragraphId": "tongjian-v272-p51",
+        "originalRevision": 1,
+        "originalSha256": "8797cf8d012de90dc18ea1ffb02536c06ae2b43822812c72b3bedaec4ea77c20",
+        "excerpt": "命知誥為子景通娶其女以解之。"
+      }
+    ]
+  },
+  {
+    "id": "zhong-li-yu-mother",
+    "from": "nantang-li-jing-empress-zhong",
+    "to": "li-yu",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "《新五代史》明确记后主母钟氏、父名泰章，后主尊其为圣尊后；此处父名指钟后的父亲。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p40",
+        "originalRevision": 1,
+        "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
+        "excerpt": "母鍾氏，父名泰章。煜尊母曰聖尊后；"
+      }
+    ]
+  },
+  {
+    "id": "zhong-hongji-mother",
+    "from": "nantang-li-jing-empress-zhong",
+    "to": "nantang-li-hongji",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "弘冀本传直接明母为光穆皇后；不将各子同母一概推定。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p11",
+        "originalRevision": 1,
+        "originalSha256": "b390aed5b3a039d49a17c319bf7538bba9e8bd0fa57f326f79fa35e954618c2f",
+        "excerpt": "文獻太子弘冀，元宗長子也。母為光穆皇后。"
+      }
+    ]
+  },
+  {
+    "id": "zhong-congshan-maternal-list",
+    "from": "nantang-li-jing-empress-zhong",
+    "to": "nantang-li-congshan",
+    "kind": "kinship",
+    "label": "陆游列母为钟氏，另有凌氏说",
+    "note": "陆游同段名单说钟后生从善，后文又明其母凌氏，另有诸子母未详概述；不确定解释为生母与养母。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "鍾皇后生𢎞冀後主從善從謙"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "封其母凌氏吳國太夫人"
+      }
+    ]
+  },
+  {
+    "id": "zhong-congqian-maternal-list",
+    "from": "nantang-li-jing-empress-zhong",
+    "to": "nantang-li-congqian",
+    "kind": "kinship",
+    "label": "陆游所生名单记钟氏",
+    "note": "陆游列钟后生从谦，但同段又有自弘茂以下皆不知其母的概述，照存而不称跨书无疑母系。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "鍾皇后生𢎞冀後主從善從謙自𢎞茂以下皆不知其母"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-hongji-father",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-li-hongji",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "弘冀是本传所记元宗长子。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p11",
+        "originalRevision": 1,
+        "originalSha256": "b390aed5b3a039d49a17c319bf7538bba9e8bd0fa57f326f79fa35e954618c2f",
+        "excerpt": "文獻太子弘冀，元宗長子也。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-congshan-father",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-li-congshan",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "从善本传明为元宗第七子；母系争议另列。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p13",
+        "originalRevision": 1,
+        "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+        "excerpt": "元宗第七子，後主同母弟也。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-congqian-father",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-li-congqian",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "陆游元宗诸子名单列从谦；不与郭从谦合人。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "元宗十子𢎞冀𢎞茂後主從善從鎰從謙"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-ling-court",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-li-jing-consort-ling",
+    "kind": "service",
+    "label": "史载后宫联系",
+    "note": "原文作元宗后官，依后妃语境释后宫；没有册立品级或婚礼证据，不登记夫妻。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p6",
+        "originalRevision": 1,
+        "originalSha256": "f39a33fb2970317467983ff38cc4f8774d60071c5bc562477a56d963b6fb4f1a",
+        "excerpt": "凌氏，元宗後官"
+      }
+    ]
+  },
+  {
+    "id": "ling-congshan-maternal-source",
+    "from": "nantang-li-jing-consort-ling",
+    "to": "nantang-li-congshan",
+    "kind": "kinship",
+    "label": "陆游另记母凌氏",
+    "note": "同段名单还列钟后生从善，矛盾并存；不补钟养凌生。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "封其母凌氏吳國太夫人"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "鍾皇后生𢎞冀後主從善從謙"
+      }
+    ]
+  },
+  {
+    "id": "ling-congshu-source-role",
+    "from": "nantang-li-jing-consort-ling",
+    "to": "nantang-source-hanwang-congshu",
+    "kind": "service",
+    "label": "本传生子称谓，所指待考",
+    "note": "卷18作生韩王从书，与陆游所称从善的关系仍待考；不把原字改为从善，也不据此判为另一位皇子。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p6",
+        "originalRevision": 1,
+        "originalSha256": "f39a33fb2970317467983ff38cc4f8774d60071c5bc562477a56d963b6fb4f1a",
+        "excerpt": "生韓王從書"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-taining-daughter",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-taining-princess",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "元宗宗女本传明记。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p27",
+        "originalRevision": 1,
+        "originalSha256": "9406e8c831b4b9bc067edd01072fc44eb44c9d8a0c7ee133aaab2f00ce8ba737",
+        "excerpt": "太寧公主，元宗女也。"
+      }
+    ]
+  },
+  {
+    "id": "taining-liu-jie-spouses",
+    "from": "nantang-taining-princess",
+    "to": "nantang-liu-jie",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "尚主者刘节；不改为刘崇俊或刘匡符。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p27",
+        "originalRevision": 1,
+        "originalSha256": "9406e8c831b4b9bc067edd01072fc44eb44c9d8a0c7ee133aaab2f00ce8ba737",
+        "excerpt": "定逺節度使劉崇俊子節尚之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-chongjun-liu-jie-father",
+    "from": "nantang-liu-chongjun",
+    "to": "nantang-liu-jie",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "宗室传以刘节为定远节度使刘崇俊之子，未记生母。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p27",
+        "originalRevision": 1,
+        "originalSha256": "9406e8c831b4b9bc067edd01072fc44eb44c9d8a0c7ee133aaab2f00ce8ba737",
+        "excerpt": "定逺節度使劉崇俊子節尚之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-chongjun-kuangfu-father",
+    "from": "nantang-liu-chongjun",
+    "to": "nantang-liu-kuangfu",
+    "kind": "kinship",
+    "label": "碑载父子",
+    "note": "碑首具名刘崇俊，后文公少子匡符；不与刘节合人。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉文",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p28",
+        "originalRevision": 1,
+        "originalSha256": "af14f90a7613d3768264d9c41b676020c0fc9b127d9d71e3ab75f6b50b72380d",
+        "excerpt": "公諱崇俊，字德修。"
+      },
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉文",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "仍以公少子匡符尚永嘉公主。"
+      }
+    ]
+  },
+  {
+    "id": "kuangfu-yongjia-source-marriage",
+    "from": "nantang-liu-kuangfu",
+    "to": "nantang-source-yongjia-inscription",
+    "kind": "service",
+    "label": "碑载尚主称谓",
+    "note": "碑中作刘匡符尚永嘉；太宁与芳仪的其他记载分别保留，尚无依据确定公主同异或推说改嫁。",
+    "sources": [
+      {
+        "title": "《全唐文》 · 卷 884 · 徐铉文",
+        "chapterId": "quantangwen-v884",
+        "paragraphId": "quantangwen-v884-p30",
+        "originalRevision": 1,
+        "originalSha256": "390e8bc7cdb4cda6192b3a8d4564460ffc6dba14ccba4e7061f05eeb91a7d755",
+        "excerpt": "仍以公少子匡符尚永嘉公主。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-yongning-inscription-role",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-source-yongning-inscription",
+    "kind": "service",
+    "label": "元宗时观中石刻称谓",
+    "note": "编者所闻修观、施财者石刻的来源联系，不确认其为元宗亲女或君主直接任命。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "聞元宗享國日常修廬山九天使者觀"
+      },
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "列太寧公主、永寧公主〈一作永禧公主。〉"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-fangyi-daughter",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-fangyi",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "原封号、生母、排行失载，不由疑永嘉补定。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "芳儀者，亦元宗女也。失其行次、封號。"
+      }
+    ]
+  },
+  {
+    "id": "fangyi-sun-spouses",
+    "from": "nantang-fangyi",
+    "to": "nantang-fangyi-husband-sun",
+    "kind": "kinship",
+    "label": "宋婚家夫妻",
+    "note": "只原书孙某，不补实名、家族或与其他孙氏同人。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "嫁為宋供奉官孫某妻。"
+      }
+    ]
+  },
+  {
+    "id": "fangyi-liao-source-palace",
+    "from": "nantang-fangyi-source-liao-shengzong",
+    "to": "nantang-fangyi",
+    "kind": "service",
+    "label": "本传纳宫及芳仪称谓",
+    "note": "帝号时序有疑，来源称谓不改景宗；不借纳宫登记夫妻或为女儿补父。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "遼聖宗得之，悅其都美，且詢知家世，遂納之宫中，俾隸樂部，封芳儀"
+      }
+    ]
+  },
+  {
+    "id": "fangyi-source-daughter",
+    "from": "nantang-fangyi",
+    "to": "nantang-fangyi-source-daughter",
+    "kind": "service",
+    "label": "引书所载生女",
+    "note": "仅《北庭杂记》引注称一位公主，未载姓名、父亲、封号或出生年月。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p28",
+        "originalRevision": 1,
+        "originalSha256": "19119a3503c947f61322d1e72275b5759048b7003504537693bf50ade183c13e",
+        "excerpt": "芳儀在遼生公主一人，見趙至忠北庭雜記。"
+      }
+    ]
+  },
+  {
+    "id": "li-jing-geng-court",
+    "from": "li-jing-southern-tang",
+    "to": "nantang-geng-xiansheng",
+    "kind": "service",
+    "label": "书载宫廷受宠",
+    "note": "女冠得幸/获宠不等于婚配或册妃；未证明其孕身异闻的胎儿父亲。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 17 · 杂艺方士节义列传",
+        "chapterId": "nantanglu-v017",
+        "paragraphId": "nantanglu-v017-p16",
+        "originalRevision": 1,
+        "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+        "excerpt": "遂得幸於元宗。"
+      },
+      {
+        "title": "《南唐近事》 · 卷 2 · 南唐近事",
+        "chapterId": "nantangjinshi-v002",
+        "paragraphId": "nantangjinshi-v002-p24",
+        "originalRevision": 1,
+        "originalSha256": "dc21fde06e8fa5a8082e76e177ac8c5c1703de5f4549c3e74b10b6028a9bab1e",
+        "excerpt": "獲寵於元宗"
+      }
+    ]
+  },
+  {
+    "id": "song-qiqiu-geng-recommendation",
+    "from": "song-qiqiu",
+    "to": "nantang-geng-xiansheng",
+    "kind": "service",
+    "label": "陆游书载荐进",
+    "note": "原书起初因宋齐丘进，未独记年月；不推后续一切行动由宋齐丘操纵。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 17 · 杂艺方士节义列传",
+        "chapterId": "nantanglu-v017",
+        "paragraphId": "nantanglu-v017-p16",
+        "originalRevision": 1,
+        "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+        "excerpt": "始因宋齊丘進"
+      }
+    ]
+  },
+  {
+    "id": "yun-geng-father",
+    "from": "nantang-geng-father-yun",
+    "to": "nantang-geng-xiansheng",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "父名云、军大校，不加姓或现代军衔。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 17 · 杂艺方士节义列传",
+        "chapterId": "nantanglu-v017",
+        "paragraphId": "nantanglu-v017-p16",
+        "originalRevision": 1,
+        "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+        "excerpt": "耿先生者，父雲，軍大校。"
+      }
+    ]
+  },
+  {
+    "id": "congshan-unnamed-consort-spouses",
+    "from": "nantang-li-congshan",
+    "to": "nantang-li-congshan-consort",
+    "kind": "kinship",
+    "label": "夫妻",
+    "note": "从善妃称谓与连续本传闭合，失姓失名；不分配同传儿子母系。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p13",
+        "originalRevision": 1,
+        "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+        "excerpt": "從善妃屢詣後主號泣"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p13",
+        "originalRevision": 1,
+        "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+        "excerpt": "從善妃屢詣後主號泣"
+      }
+    ]
+  },
+  {
+    "id": "zhong-younger-zhou-affection",
+    "from": "nantang-li-jing-empress-zhong",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "service",
+    "label": "书载怜爱",
+    "note": "原文仅小周以戚里间入宫、圣尊后怜爱，不作钟后召入、婚配、册立或养育。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p9",
+        "originalRevision": 1,
+        "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+        "excerpt": "后少以戚里，間入宮掖，聖尊后絕憐愛之。"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p6",
+        "originalRevision": 1,
+        "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+        "excerpt": "后少以戚里間入宫掖聖尊后甚愛之"
+      }
+    ]
   }
 ]

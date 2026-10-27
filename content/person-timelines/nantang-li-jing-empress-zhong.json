@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-jing-empress-zhong",
+  "events": [
+    {
+      "id": "nantang-li-jing-empress-zhong-marriage-order",
+      "title": "徐温命景通娶钟氏",
+      "year": 923,
+      "precision": "year",
+      "phase": "early",
+      "sortOrder": 1,
+      "sourceDate": "吴顺义三年、后唐同光元年冬十月叙次；无独记婚日",
+      "summary": "徐温因钟泰章之事命徐知诰为子景通娶其女，以解嫌隙；本条是命婚，不把923年记成有独立日期的婚礼。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p51",
+          "originalRevision": 1,
+          "originalSha256": "8797cf8d012de90dc18ea1ffb02536c06ae2b43822812c72b3bedaec4ea77c20",
+          "excerpt": "命知誥為子景通娶其女以解之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v003",
+          "paragraphId": "shiguochunqiu-v003-p4",
+          "originalRevision": 1,
+          "originalSha256": "8830ca978cfeac00a9128f86e4bcd9c4780a7d81e78cf647de389e9d7c22269d",
+          "excerpt": "命知誥爲子景通娶其女以解之。"
+        }
+      ],
+      "notes": [
+        "钟氏同人由父泰章与后妃本传闭合；不把徐温或徐知诰写成娶女者。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-empress",
+      "title": "李璟即位后立为皇后",
+      "year": 943,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "天福八年三月叙次、保大元年元宗即位后",
+      "summary": "元宗承位后立妃钟氏为皇后；通鉴的三月纪事不等于为册后另记了己卯朔日。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v283",
+          "paragraphId": "tongjian-v283-p55",
+          "originalRevision": 1,
+          "originalSha256": "62ce1556522181881c267a9ebd749f0cd0936c63dad56b371ce721bf4bbef62b",
+          "excerpt": "立妃鍾氏為皇后。"
+        },
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p17",
+          "originalRevision": 1,
+          "originalSha256": "8b1dc5621b74c894f007fa9ccc5778bfdebce2775431bdc0f2d7a79708d570dd",
+          "excerpt": "尊母宋氏為皇太后，妃鍾氏為皇后。"
+        }
+      ],
+      "notes": [
+        "宋氏尊太后与钟氏立后施受不同；不把相邻日标移作钟后册日。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-dowager-shengzun",
+      "title": "后主继位后尊太后，称圣尊后",
+      "year": 961,
+      "precision": "year",
+      "phase": "later",
+      "sortOrder": 1,
+      "sourceDate": "建隆二年后主嗣位；尊号无独立日",
+      "summary": "后主继位，钟氏被尊为太后，来源解释因父名而改称圣尊后；不是她身后追谥。",
+      "evidence": [
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p40",
+          "originalRevision": 1,
+          "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
+          "excerpt": "母鍾氏，父名泰章。煜尊母曰聖尊后；"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "後主嗣立，爲太后，以父名改稱聖尊后。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-death",
+      "title": "乾德三年十月去世",
+      "year": 965,
+      "precision": "month",
+      "phase": "fall",
+      "sortOrder": 1,
+      "sourceDate": "乾德三年十月；未独记日",
+      "summary": "原书先记钟后卧病时后主亲侍、尝药，继记乾德三年十月殂、后主哀毁。月份用于死亡记载，不确定疾病起日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "乾德三年十月殂。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "乾徳三年十月卒"
+        }
+      ],
+      "notes": [
+        "不以月首当去世日，不把后主尝药与病起全部涂为当月。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-qi-consort",
+      "title": "昇元中封齐王妃",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "昇元中；王妃的齐王为李璟",
+      "summary": "钟氏此前封县君、累加国夫人，昇元中成为李璟齐王妃；范围只据昇元年号用于王妃称号，不给早先各封推年月。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "始封縣君，累加國夫人。昇元中，封齊王妃。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "excerpt": "鍾氏始封縣君累加國夫人昇元中封齊王妃"
+        }
+      ],
+      "notes": [
+        "县君与国夫人的具体封授年月未载；不能套用李昪或宋氏封年。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-wartime-frugality",
+      "title": "淮上兵起时减膳停乐",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "淮上兵起；未独记年月",
+      "summary": "淮河一带兵事发生时，钟后减省常膳，数月不举乐。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "淮上兵起，后爲損常膳，不舉樂者數月。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "excerpt": "淮上兵起國歩多艱后亦損常膳不舉樂者數月"
+        }
+      ],
+      "notes": [
+        "不将数月推成具体起讫月份，也不把所有淮上战事归为她的军政行为。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-empress-zhong-burial-title",
+      "title": "祔葬顺陵，谥光穆",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "卒后葬顺陵、谥光穆；未独记葬日",
+      "summary": "钟后祔葬顺陵，谥号光穆；《十国春秋》引《江表志》作光穆顺圣。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "祔葬順陵，諡光穆。〈《江表志》作「光穆順聖」。〉"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "excerpt": "葬順陵諡光穆"
+        }
+      ],
+      "notes": [
+        "不把乾德三年十月的殂月移作葬月；无独记日。"
+      ]
+    }
+  ]
+}

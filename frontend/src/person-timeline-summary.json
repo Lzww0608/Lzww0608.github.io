@@ -1718,8 +1718,9 @@
     },
     {
       "personId": "li-jing-southern-tang",
-      "eventCount": 44,
+      "eventCount": 45,
       "eventIds": [
+        "li-jing-southern-tang-zhong-marriage-command",
         "li-jing-southern-tang-wu-office",
         "li-jing-southern-tang-wu-vice-marshal",
         "li-jing-southern-tang-decline-prince-937",
@@ -2050,12 +2051,13 @@
     },
     {
       "personId": "li-yu",
-      "eventCount": 18,
+      "eventCount": 19,
       "eventIds": [
         "li-yu-avoid-hongji",
         "li-yu-heir",
         "li-yu-crown-and-regency",
         "li-yu-accession",
+        "li-yu-zhong-empress-illness-and-mourning",
         "li-yu-fall-of-jinling",
         "li-yu-captivity",
         "li-yu-quanzhou",
@@ -2874,10 +2876,30 @@
       ]
     },
     {
+      "personId": "nantang-fangyi",
+      "eventCount": 5,
+      "eventIds": [
+        "nantang-fangyi-northward",
+        "nantang-fangyi-song-marriage",
+        "nantang-fangyi-capture",
+        "nantang-fangyi-liao-title",
+        "nantang-fangyi-daughter-source"
+      ]
+    },
+    {
       "personId": "nantang-fengcheng-princess",
       "eventCount": 1,
       "eventIds": [
         "nantang-fengcheng-princess-posthumous-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-geng-xiansheng",
+      "eventCount": 3,
+      "eventIds": [
+        "nantang-geng-xiansheng-court-favor",
+        "nantang-geng-xiansheng-hidden-barred",
+        "nantang-geng-xiansheng-jianghuai"
       ]
     },
     {
@@ -2923,6 +2945,34 @@
       ]
     },
     {
+      "personId": "nantang-li-congshan-consort",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-li-congshan-consort-crying-and-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-jing-consort-ling",
+      "eventCount": 2,
+      "eventIds": [
+        "nantang-li-jing-consort-ling-northward",
+        "nantang-li-jing-consort-ling-title-source"
+      ]
+    },
+    {
+      "personId": "nantang-li-jing-empress-zhong",
+      "eventCount": 7,
+      "eventIds": [
+        "nantang-li-jing-empress-zhong-marriage-order",
+        "nantang-li-jing-empress-zhong-empress",
+        "nantang-li-jing-empress-zhong-dowager-shengzun",
+        "nantang-li-jing-empress-zhong-death",
+        "nantang-li-jing-empress-zhong-qi-consort",
+        "nantang-li-jing-empress-zhong-wartime-frugality",
+        "nantang-li-jing-empress-zhong-burial-title"
+      ]
+    },
+    {
       "personId": "nantang-shengtang-princess",
       "eventCount": 1,
       "eventIds": [
@@ -2957,6 +3007,13 @@
       "eventCount": 1,
       "eventIds": [
         "nantang-taihe-princess-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-taining-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-taining-princess-marriage"
       ]
     },
     {

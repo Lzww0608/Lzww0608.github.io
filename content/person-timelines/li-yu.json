@@ -146,6 +146,20 @@
           "originalRevision": 1,
           "originalSha256": "745b27368660889dca05dc2f8f633edbbcde054e871b0ad4329551dbdb94c4ed",
           "excerpt": "後主嗣位加太師尚書令甚尊禮之"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "後主即位為太后以父名改稱聖尊后"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "excerpt": "後主即位冊為太后以父為太章故號聖尊后"
         }
       ],
       "phase": "rule",
@@ -156,6 +170,36 @@
         "钟后传记后主嗣立后改母号，景达传旁记后主即位后加礼；两传未记承位地点或改名日。《新五代史》记建隆二年李煜在金陵承位。"
       ],
       "sortOrder": 4
+    },
+    {
+      "id": "li-yu-zhong-empress-illness-and-mourning",
+      "title": "亲侍病中的钟后，钟后卒后哀毁",
+      "year": 965,
+      "precision": "month",
+      "sourceDate": "乾德三年十月为钟后卒月；亲侍及后续葬事未独记年月",
+      "phase": "rule",
+      "sortOrder": 1,
+      "summary": "钟后患病，李煜朝夕侍奉，衣不解带，药先亲尝。钟后乾德三年十月去世后，原书记李煜哀毁消瘦，须拄杖而起，使身边的人哀伤。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "后寢疾，後主朝夕侍側，衣不解帶，藥必親嘗乃進。乾德三年十月殂。是日雨沙於金陵，後主毀瘠骨立，杖而後起，哀動左右。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "后寢疾後主朝夕侍側衣不解帶藥必親嘗乃進乾徳三年十月卒是日雨沙於金陵後主毁瘠骨立杖而後能起哀動左右"
+        }
+      ],
+      "notes": [
+        "965年及原书十月只限定钟后去世，不把此前侍疾的起点、后续祔葬或谥号都定为同一月日。",
+        "金陵雨沙是原书伴叙的天象，不据此补定钟后死因或李煜哀毁的因果。"
+      ]
     },
     {
       "id": "li-yu-fall-of-jinling",

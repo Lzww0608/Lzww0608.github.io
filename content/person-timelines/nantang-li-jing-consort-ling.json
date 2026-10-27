@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-jing-consort-ling",
+  "events": [
+    {
+      "id": "nantang-li-jing-consort-ling-northward",
+      "title": "书载随后主北迁",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "《十国春秋》后主北迁叙次；未独记年日",
+      "summary": "凌氏本传记她随后主北迁，并接记吴国太夫人封号；未详具体行程、到达日期。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p6",
+          "originalRevision": 1,
+          "originalSha256": "f39a33fb2970317467983ff38cc4f8774d60071c5bc562477a56d963b6fb4f1a",
+          "excerpt": "隨後主北遷，封爲吳國太夫人。"
+        }
+      ],
+      "notes": [
+        "不把陆游书从善入宋年份移作她的北迁年。"
+      ]
+    },
+    {
+      "id": "nantang-li-jing-consort-ling-title-source",
+      "title": "陆游书载封吴国太夫人",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 971,
+        "end": 972
+      },
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "开宝四年从善入宋留京叙次，整年跨西历971—972",
+      "summary": "陆游在从善留京后记封其母凌氏为吴国太夫人；该年代范围仅适用陆游这一叙次。",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "開寳四年遣朝京師"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "封其母凌氏吳國太夫人"
+        }
+      ],
+      "notes": [
+        "受封不证明凌氏曾随从善同年入宋；两书叙次不同，不推定两次封授。"
+      ],
+      "variants": [
+        {
+          "label": "十国春秋随后主北迁后接封号",
+          "sourceDate": "随后主北迁；未独记年日",
+          "summary": "本传将封号接在随后主北迁之后，不能压成陆游的唯一受封时间。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p6",
+              "originalRevision": 1,
+              "originalSha256": "f39a33fb2970317467983ff38cc4f8774d60071c5bc562477a56d963b6fb4f1a",
+              "excerpt": "隨後主北遷，封爲吳國太夫人。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

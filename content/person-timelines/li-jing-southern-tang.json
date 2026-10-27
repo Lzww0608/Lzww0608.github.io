@@ -4,6 +4,43 @@
   "scope": "current-archive",
   "events": [
     {
+      "id": "li-jing-southern-tang-zhong-marriage-command",
+      "title": "徐温命为景通娶钟泰章女",
+      "year": 923,
+      "precision": "month",
+      "sourceDate": "《通鉴》同光元年冬十月叙次，未独记婚命日",
+      "phase": "early",
+      "sortOrder": 1,
+      "summary": "徐知诰欲收治钟泰章，徐温念其旧功，命知诰为子景通娶其女以解嫌。后妃传明确所配为后来钟后；这是婚命的记载，不等于独记婚礼已经在该月完成。",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p51",
+          "originalRevision": 1,
+          "originalSha256": "8797cf8d012de90dc18ea1ffb02536c06ae2b43822812c72b3bedaec4ea77c20",
+          "excerpt": "徐知誥欲以法繩諸將，請收泰章治罪。徐溫曰：「吾非泰章，已死於張顥之手，今日富貴，安可負之！」命知誥為子景通娶其女以解之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "義祖命以泰章次女配元宗，卽后也。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "乃命以太章次女配元宗即后也"
+        }
+      ],
+      "notes": [
+        "923为同光元年冬十月婚命的西历年，日历月界仅用于核准年份；没有独立婚日，不取十月初一作婚日。",
+        "后妃传追述钟泰章诛张颢的前功，不把诛颢年份移作景通婚年。太章／泰章按各书字形保留。"
+      ]
+    },
+    {
       "id": "li-jing-southern-tang-wu-office",
       "year": 930,
       "sourceDate": "《通鉴》长兴元年十月；新史系徐温死后",
@@ -340,6 +377,27 @@
           "originalRevision": 1,
           "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10",
           "excerpt": "庚午，疾亟，太醫吳延紹〈一作「廷裕」〉遣信召齊王璟入侍疾。詔曰：「迺公迺侯，越百執事，欽承嗣命，命爾保元子璟，衹肅天鑒，社稷宗廟永有終，我不敢知，曰其基永昌，我亦不敢知，曰墜命罔後，天不爾諶，祐於有德，厥位艱哉！」是夕，殂於昇元殿，年五十六，諡曰光文肅武孝高皇帝，廟號烈祖。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p5",
+          "originalRevision": 1,
+          "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
+          "excerpt": "元宗卽位，立爲皇后。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "元宗即位立為皇后"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
+          "excerpt": "嗣主即位冊為皇后"
         }
       ],
       "phase": "rule",
