@@ -193,7 +193,7 @@ class SourceIntegrityTests(unittest.TestCase):
         selected = next(s for s in archive.SPECS if s['id'] == 'nantangma-v010')
         book = next(b for b in archive.BOOKS if b['id'] == 'nantangma')
         self.assertEqual(selected['fixedRevisionId'], 2073807)
-        self.assertEqual(book['defaultChapter'], 'nantangma-v006')
+        self.assertEqual(book['defaultChapter'], 'nantangma-v005')
         self.assertEqual(next(b for b in catalog['books'] if b['id'] == 'nantangma'), book)
         self.assertIn('马令', book['author'])
         self.assertNotEqual(book['id'], next(b for b in archive.BOOKS if b['id'] == 'nantanglu')['id'])

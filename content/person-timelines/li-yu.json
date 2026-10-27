@@ -24,6 +24,22 @@
           "originalSha256": "ac79825f0f0897b2ac96ae57e26fbfc0d2d2910f648f38cfaad14e7bf49916cb",
           "excerpt": "冬十二月，以安定郡公從嘉爲沿江巡撫。"
         }
+      ],
+      "variants": [
+        {
+          "label": "马令所记沿淮巡抚及早期军职",
+          "sourceDate": "淮上兵起时；未独记年月",
+          "summary": "马令称神武军都虞候、沿淮巡抚使，继叙迁诸卫大将军、副元帅、封郑王；与本纪沿江巡抚的称谓分源，不另造第二次同日任命。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "淮上兵起為神武軍都虞𠉀㳂淮巡撫使累遷諸衞大将軍諸道副元帥封鄭王"
+            }
+          ]
+        }
       ]
     },
     {
@@ -79,6 +95,27 @@
           "originalRevision": 1,
           "originalSha256": "e2d3276ad3df413015c4c9e9908190a082439bfd9ccd1bc7ccd6b9dd70b976d3",
           "excerpt": "後主封吳王，召易為吳王司馬。東宮建，又為左庶子。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "太子冀卒四兄皆早亡以次為嗣改王吳拜尚書令知政事"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "文獻太子卒徙呉王以尚書令知政事居東宫"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p2",
+          "originalRevision": 1,
+          "originalSha256": "7d055db852dd07a40eb4f2bf8ce908b93fdb5699d68f630134d9971366d9f58e",
+          "excerpt": "文獻太子薨，徙吳王，〈《五代史》云：自太子冀已上五子皆早亡，煜以次封吳王。〉以尚書令知政事，居東宮。"
         }
       ],
       "phase": "early",
@@ -116,6 +153,27 @@
           "originalRevision": 1,
           "originalSha256": "0f18f8f836573ab0c772c3c83bd348d406a5952d786118368497dd37697050bc",
           "excerpt": "建隆二年春二月，國主遷于南都，立吳王從嘉爲太子，留金陵監國。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "建隆二年元宗南遷立煜為太子監國"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "建隆二年遂立為太子元宗南巡太子留金陵監國以嚴續殷崇義輔之張洎主牋奏"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "建隆二年，元宗南遷，立爲太子，留金陵監國。以嚴續、殷崇義輔之，張洎主牋奏。"
         }
       ],
       "phase": "rule",
@@ -219,6 +277,20 @@
           "originalRevision": 1,
           "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
           "excerpt": "後主即位冊為國后"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "尊母鍾氏為太后太后父名太章故改號聖尊后妃周氏為國后"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "尊鍾后曰聖尊后以后父名太章也立妃周氏為國后"
         }
       ],
       "phase": "rule",
@@ -228,7 +300,76 @@
         "旧史记父卒金陵、新史承迁洪州后记卒，父卒地异说保留；李煜即位地点两条不据父卒地推改。",
         "钟后传记后主嗣立后改母号，景达传旁记后主即位后加礼；两传未记承位地点或改名日。《新五代史》记建隆二年李煜在金陵承位。"
       ],
-      "sortOrder": 4
+      "sortOrder": 4,
+      "variants": [
+        {
+          "label": "马令本纪七月即位、陆游本纪六月继立",
+          "sourceDate": "建隆二年六月元宗殂；马令七月丧还即位，陆游六月嗣立",
+          "summary": "马令记六月元宗殂于豫章、七月丧还建康后太子即位；陆游把金陵嗣立接在六月元宗殂后。月份按书保存，不把监国、父卒、奉丧与改名定为同一日。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "六月元宗殂於豫章七月喪還建康太子即位"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p3",
+              "originalRevision": 1,
+              "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+              "excerpt": "六月元宗殂太子嗣立於金陵更名煜"
+            }
+          ],
+          "year": 961
+        },
+        {
+          "label": "《十国春秋》六月嗣立并引七月二十九日",
+          "sourceDate": "建隆二年六月；夹引《五国故事》七月二十九日",
+          "summary": "本纪把六月元宗晏驾与金陵嗣立连叙，夹引另记七月二十九日袭位；父卒、承位和引书日期分别保存，不因同段文字推成同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p3",
+              "originalRevision": 1,
+              "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+              "excerpt": "六月，元宗晏駕，嗣立于金陵。〈《五國故事》作七月二十九日襲位。〉更今名，居喪哀毀，幾不勝。"
+            }
+          ],
+          "year": 961
+        }
+      ]
+    },
+    {
+      "id": "li-yu-abolish-route-tuntian-commissioners",
+      "title": "罢诸路屯田使，改由州县征租",
+      "year": 961,
+      "precision": "year",
+      "phase": "rule",
+      "sourceDate": "建隆二年承位后的叙次，未独记月日",
+      "summary": "马令与《十国春秋》本纪记罢诸路屯田使，委所属令佐与常赋一同征收；夹注说屯田佃民由此免专使公吏之扰。《十国春秋》并述率分给禄办法，依原文保留。",
+      "notes": [
+        "本纪将这项行政措施叙在六月承位与秋八月之间，两端均在961年；不补独立施行月日。",
+        "罢屯田使不等于废尽屯田制度；不将原文未定的税名、计量另补成统一定制。"
+      ],
+      "sortOrder": 5,
+      "evidence": [
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "罷諸路屯田使委所屬令佐與常賦俱征〈初南唐屯田置使專掌至此罷其使而屯田佃民絶公吏之撓〉"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "罷諸路屯田使，委所屬令佐與常賦俱征，隨所租入十分錫一，謂之率分，以爲禄廩，諸朱膠牙稅視是。〈初屯田，置使專掌，至此罷其官，而屯田佃民絕公吏之擾。〉"
+        }
+      ]
     },
     {
       "id": "li-yu-zhou-empress-illness-and-mourning",
@@ -281,6 +422,43 @@
         "乾德二年十一月甲戌按历表为西历964年；马令本明年正月迁柩另在965年，不把葬事与全部哀悼都定在964年同一日。",
         "陆游本作自製誅，依该段悼亡文语境释，底本字不改。马令本因钟太后尚在而讥李煜哀毁，是作者评礼，不作为死因或新的疾病记载。",
         "《十国春秋》及陆游本末尾或谓小周入宫的说法与叙事正文分层，不以该传闻确定李煜过哀的唯一动机。"
+      ],
+      "variants": [
+        {
+          "label": "本纪周后卒月与子名记法",
+          "sourceDate": "马令乾德二年十一月；陆游十月子亡后周后亦卒",
+          "summary": "本纪另记周后卒事；陆游在十月记仲㝢卒后后亦卒，马令记仲宣十月卒、后十一月殂。只说明侍疾悼亡的死亡背景分歧，不把这些本纪当亲侍、诔文各自独日的证据。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "冬十月仲宣卒追封岐王十有一月國后周氏殂"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "十月甲辰仲㝢卒國后周氏已寢疾哀傷増革遂亦卒十一月太祖遣作坊副使魏丕來弔祭"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》本纪仲宣与周后卒月",
+          "sourceDate": "乾德二年十月甲辰仲宣薨；十一月周后殂",
+          "summary": "本纪分别封仲㝢、仲宣，记仲宣甲辰薨、十一月周后殂；与陆游本纪仲㝢卒后母后亦卒的子名、月份分源。本纪未给亲侍与诔文独日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "封子仲㝢清源郡公，仲宣宣城郡公。冬十月甲辰，仲宣薨，追封岐王。十一月，國后周氏殂，宋遣作坊副使魏丕來弔祭。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -311,6 +489,175 @@
       "notes": [
         "965年及原书十月只限定钟后去世，不把此前侍疾的起点、后续祔葬或谥号都定为同一月日。",
         "金陵雨沙是原书伴叙的天象，不据此补定钟后死因或李煜哀毁的因果。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪九月卒与后妃传十月有异",
+          "sourceDate": "乾德三年九月；亲侍与葬事未独日",
+          "summary": "两本纪在九月记钟后殂，未为亲侍动作各定月日；与后妃传十月卒及哀毁叙述分源，不另造第二次死亡。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "秋九月聖尊后鍾氏殂"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p7",
+              "originalRevision": 1,
+              "originalSha256": "31447c43cb58c1da81d7326e5261a51077879de08c3195744a9112fc291cd042",
+              "excerpt": "秋九月雨沙聖尊后鍾氏殂"
+            }
+          ],
+          "year": 965
+        },
+        {
+          "label": "《十国春秋》本纪九月卒、十月吊",
+          "sourceDate": "乾德三年秋九月卒、冬十月宋使吊祭",
+          "summary": "本纪九月记钟后殂，十月另记宋使吊，冬记葬顺陵；本段未另写亲尝药等侍疾动作，不把吊祭月作卒月，亦不另造死亡。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p7",
+              "originalRevision": 1,
+              "originalSha256": "e8f674d84e1178de9eaede43728ca95990cca1fa1fd12a6a9dba5d6969f27044",
+              "excerpt": "秋九月，雨沙。聖尊后鍾氏殂。召南都留守、鄧王從鎰還都，以鄂州林仁肇爲南都留守、南昌尹。冬十月，宋遣染院使李光圖來弔祭。是冬，葬光穆皇后于順陵。〈宋許元帝追復帝號，故光穆稱皇后。〉"
+            }
+          ],
+          "year": 965
+        }
+      ]
+    },
+    {
+      "id": "li-yu-younger-zhou-installation",
+      "year": 968,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 0,
+      "sourceDate": "开宝元年冬十一月，未独记日",
+      "title": "十一月纳周氏为后",
+      "summary": "马令本纪在十一月记纳后周氏、昭惠之母弟，陆游本纪同月记立周氏为国后。这里是继后名位确立的终点，与此前始议及后妃传详叙的纳采、亲迎步骤分开，不另造第二场婚礼。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "冬十有一月納后周氏昭惠之母弟也"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p10",
+          "originalRevision": 1,
+          "originalSha256": "fbb084c3eb749b6f48de53403ef70a61db976eec7264be160bdaccfb7dd2db49",
+          "excerpt": "冬十一月立國后周氏"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p10",
+          "originalRevision": 1,
+          "originalSha256": "228bb6e9dd9a8d9d98ce6ea8d5ac37e18a3c3e1c308f68c992f4c6f7fc791e94",
+          "excerpt": "冬十一月，立周氏爲國后。"
+        }
+      ],
+      "notes": [
+        "两本纪明确的十一月整月在西历968年；原文未独记日，女宪传各项礼仪步骤也没有各自确月。"
+      ]
+    },
+    {
+      "id": "li-yu-kaishan-buddhist-court-practice",
+      "title": "改宝公院为开善道场，与后服僧衣诵经",
+      "year": 970,
+      "precision": "year",
+      "phase": "rule",
+      "sourceDate": "开宝三年春叙次，未独记月日",
+      "summary": "本纪记改宝公院为开善道场，国主与后着僧伽帽、袈裟，诵经拜跪；马令另叙宫内僧尼精舍和给廪聚众。行为按各书保存，不由此认定帝后正式出家。",
+      "notes": [
+        "本纪“预僧伽帽”字有疑，保存原字并依服饰语境释；不把僧帽袈裟推作正式僧籍。",
+        "本段由春叙事转夏四月，仅采用970年，不补某月初一或诵经确日。",
+        "《十国春秋》记国主与后服僧衣诵经；马令另载的具体场所、频次及是否同一次仪式未详。"
+      ],
+      "sortOrder": 0,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p12",
+          "originalRevision": 1,
+          "originalSha256": "e116f0232e52dbd74c20e4144b2afdca164769266521482c8c7715c015d61592",
+          "excerpt": "開寶三年，春，命境內崇修佛寺。〈馬令《南唐書》云：建康城中僧徒迨至數千，給稟米緡帛以供之。〉改寶公院爲開善道場，國主與后預僧伽帽衣袈裟，誦佛經，拜跪頓顙，至爲瘤贅。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令另叙宫中精舍和帝后诵经",
+          "sourceDate": "开宝三年段，未独记此段仪式月日",
+          "summary": "马令另记命崇修佛寺、广署僧尼精舍及国主与后服僧衣诵经拜跪，未在此处写开善道场名称。不足将两书的具体场景确定为一次仪式，保留为来源并列，不据此相加或合并实际仪式次数。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "命境内崇修佛寺又於禁中廣署僧尼精舍多聚徒衆國主與后頂僧伽帽衣袈裟誦佛經拜跪頓顙至為瘤贅由是建康城中僧徒迨至數千給廪米緡帛以供之"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-wartime-militia-mobilization",
+      "title": "围城前后征民为兵，编诸军守御",
+      "year": 975,
+      "precision": "year",
+      "phase": "rule",
+      "sourceDate": "马令开宝八年春；陆游甲戌岁围城叙次另存",
+      "summary": "马令在开宝八年春记阅民为师徒，并追述升元、保大以来旧制，至受敌时征集舟子、佣奴赘婿等，列多种部伍，合称十三等守御。旧制追叙不写成后主一次新创，未列名门类不补造。",
+      "notes": [
+        "975年取自马令八年春；陆游甲戌岁条另保974—975年范围，不用两源交集反定一条共同确日。",
+        "民产二千未明统一计量，不添亩或贯；义师/义军、围军/团军等按书分源。",
+        "十三等是原书总称，不由未列足的名称补出具体兵种；《十国春秋》所评不可用、奔溃是史书评价。"
+      ],
+      "sortOrder": 0,
+      "evidence": [
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "八年春閲民為師徒昇元初均量民田以定科賦自二緡以上出一卒號義師中有别籍分居又出一卒號新擬生軍民有新置物産者亦出一卒號新擬軍又於客户内有三丁者抽一卒謂之圍軍後改為拔山軍使物力户為帥以統之保大中許郡縣村社競渡每歳端午官給綵段俾兩兩較其遲速勝者加以銀椀謂之打標舟子皆籍其名至是盡蒐為卒謂之凌波軍又率民間傭奴贅婿謂之義勇軍又募豪民能自備緡帛兵器招集無賴亾命謂之自在軍又括百姓自老弱外能被堅執鋭者謂之排門軍并屯田白甲之𩔖凡一十三等皆使扞敵守把"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游甲戌岁围城段及诸军叙法",
+          "sourceDate": "甲戌岁条，未独记募军各步月日",
+          "summary": "陆游在甲戌岁围城段追述烈祖、保大旧军并记至是搜卒，合十三等；该干支年范围跨974—975，与马令八年春分源。部分军名与判断各照原文，不将旧制发明全归后主。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p16",
+              "originalRevision": 1,
+              "originalSha256": "bd6809269b135d5eb3ef75a01bfa15287b0afaac5674d769f3e36a323f99490c",
+              "excerpt": "初烈祖有國凡民産二千以上出一卒號義軍分籍者又出一卒號生軍新置産亦出一卒號新擬軍客戸有三丁者出一卒號拔山軍元宗時許郡縣村社競渡毎嵗重午日官閲試之勝者給綵帛銀椀皆籍姓名至是盡取為卒號凌波軍民奴及贅壻號義勇軍募豪民以私財招聚亡賴亡命號自在軍至是又大蒐境内自老弱外皆募為卒號排門軍民間又有自相率拒敵以紙為甲農器為兵者號白甲軍凡十三等皆使捍禦然實皆不可用奔潰相踵"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》旧制与临敌征集",
+          "sourceDate": "本卷甲戊岁秋条；后文甲戌岁另记，原字存疑",
+          "summary": "本纪追述烈祖义军、保大竞渡籍名，继称至是尽搜为兵并合十三等，评为不可用。甲戊字疑不据此生成确年，保其与马令、陆游记法的异同。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p16",
+              "originalRevision": 1,
+              "originalSha256": "d3ab20cc47569c442c08e8791abdb928898e92c6ea7c4b5115cd4d0229eb0873",
+              "excerpt": "初，烈祖有國，凡民產二千以上出一卒，號義軍；〈馬氏《南唐書》作義師，今從陸游《南唐書》。〉分籍者又出一卒，號新擬生軍；新置產亦出一卒，號新擬軍；客户有三丁者出一卒，謂之團軍，〈一作圍軍。〉後作拔\n山軍。保大中，許郡縣村社競渡，每歲重午日，官閱試之，勝者給綵帛、銀椀，〈《江南野録》云：勝者加以銀盆。〉謂之打標，舟子皆籍姓名，至是盡蒐爲兵，號凌波軍。又率民間傭奴贅婿，號義勇軍；募豪民以私財招聚無賴亡命，號自在軍。又大括境內，自老弱外皆募爲卒，號排門軍。民間又有自相率拒敵，積紙爲甲，農器爲兵，號白甲軍。〈馬令《南唐書》云：并屯田白甲之類。〉凡十三等，皆使捍禦，然實不可用，奔潰相踵。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -331,7 +678,7 @@
       "phase": "fall",
       "precision": "month",
       "notes": [
-        "下一句记开宝九年俘至京师、受封，保为后续事项；当前归档没有本人的死亡日或死因原段，不用国史未归档部分补造。",
+        "《新五代史》下一句记开宝九年俘至京师、受封，保为后续事项；该篇没有叙写本人的死亡日或死因，不能据“国史”二字自行补造。",
         "人物资料此前另引宋史、长编十一月乙未，是另书旁证；本轮年表仅以当前归档新史十二月立主证，不抹平月份差别。"
       ],
       "sortOrder": 5,
@@ -377,6 +724,43 @@
               "excerpt": "都城將䧟後主謂黄氏曰此皆吾所寳惜城若不守即焚之無使散逸及城䧟圗籍俱煬靡有遺者"
             }
           ]
+        },
+        {
+          "label": "两本纪十一月乙未城陷",
+          "sourceDate": "马令开宝八年冬十一月乙未；陆游乙亥岁十一月乙未",
+          "summary": "两本纪皆记十一月乙未城陷，严格历核落在西历976年；与新史十二月分别保留，不替换底本，不把翌年俘至京师当同一天。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "冬百姓疫死士卒乏食訹云大軍決以十有一月乙未破城國主議遣其子清源公仲㝢出通降欵左右以謂堅壘如此天象無變豈可計日取降是日城果陷"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "冬十一月白虹貫日晝晦乙未城陷"
+            }
+          ],
+          "year": 976
+        },
+        {
+          "label": "《十国春秋》十一月乙未城陷",
+          "sourceDate": "乙亥岁冬十一月乙未",
+          "summary": "本纪记十一月乙未城陷、将士战死及国主率殷崇义等四十五人肉袒降军门；宋方露布另称十一月十七日，不拿露布日期替换本纪。乙未据同纪年严格校历已入976年，与新史十二月分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "鉉見太祖，反復論辨不已，太祖怒曰：「不須多言，江南亦有何罪，但天下一家，臥榻之側豈容他人鼾睡邪！」〉冬十一月，白虹貫日，晝晦。〈《金陵志》云：李繼隆善馳驛，日走四五百里，宋征江南，常往來硯兵勢。太祖謂曰：「昇州平，持捷書來，當厚賞汝。」繼隆奏曰：「金陵破在旦夕，臣在途中遇大風，天地晦暝，城破之兆也。」翼日捷書果至。〉乙未，城陷，將軍咼彦、馬誠信及弟承俊帥壯士數百，力戰而死。〈馬令《南唐書》云：諸將戰役者猶數十人。時金陵在圍城，作長短句「櫻桃落盡」一闕，未就而城已破。〉勤政殿學士鍾蒨朝服坐于家，亂兵至，舉族就死不去。右內史侍郎陳喬請死，不許，自縊死。國主帥司空、知左右內史事殷崇義等四十五人肉袒降于軍門。"
+            }
+          ],
+          "year": 976
         }
       ]
     },
@@ -393,6 +777,13 @@
           "originalRevision": 1,
           "originalSha256": "8025f1940431883f3df201e858dbb1831450b4231e974298c9547df3d37ec587",
           "excerpt": "七年，太祖皇帝遣使詔煜赴闕，煜稱疾不行，王師南征，煜遣徐鉉、周惟簡等奉表朝廷求緩師，不答。八年十二月，王師克金陵。九年，煜俘至京師，太祖赦之，封煜違命侯，拜左千牛衞將軍。其後事具國史。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p17",
+          "originalRevision": 1,
+          "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+          "excerpt": "明年春正月辛未， 至汴京。"
         }
       ],
       "phase": "later",
@@ -464,6 +855,50 @@
               "excerpt": "黄氏隨後主俘至京師卒"
             }
           ]
+        },
+        {
+          "label": "马令遗命侯、左千牛卫上将军",
+          "sourceDate": "开宝九年春，未独记抵京日",
+          "summary": "马令记封遗命侯、授左千牛卫上将军，太宗即位后封陇西公；保底本封号及官称，不静改成新史违命侯、左千牛卫将军。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "九年春俘至京師封遺命侯授左千牛衞上將軍太宗皇帝登極改封隴西公"
+            }
+          ],
+          "year": 976
+        },
+        {
+          "label": "陆游正月抵京与右千牛卫上将军",
+          "sourceDate": "明年正月辛未至京师，乙亥授官封爵",
+          "summary": "陆游记辛未抵京、乙亥授右千牛卫上将军封违命侯，太宗即位后加特进封陇西公；日期分属两事，左右卫与上将军官称各保原书。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "明年正月辛未至京師乙亥授右千牛衛上將軍封違命侯太宗即位加特進改封隴西公"
+            }
+          ],
+          "year": 976
+        },
+        {
+          "label": "《十国春秋》宋方赦封诏书",
+          "sourceDate": "抵汴京后赦封；未独记诏日",
+          "summary": "本纪录宋方诏文，授光禄大夫、检校太傅、右千牛卫上将军并封违命侯；与新史左千牛卫将军、马令遗命侯等原官爵文字分源，不互相代改。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "宋太祖御明德樓，以江南常奉正朔，詔有司勿宣露布，止今國主等白衣紗帽至樓下待罪，詔並釋之，賜賚有差。詔曰：「上天之德，本於好生；爲君之心，貴乎含垢。江南偽主李煜，聚兵峻壘，包蓄日彰，勞銳旅以徂征，傅孤城而問罪。洎聞危迫，累示招攜，何迷復之不悛，果覆亡之自搬。昔者唐堯克宅，非無丹浦之師；夏禹泣辜，不赦防風之罪。朕以道在包荒，恩推惡殺，在昔騾車出蜀，青蓋辭吳，彼皆閏位之降君，不預中朝之正朔，乃頒爵命，方列公侯。爾實爲外臣，戾我恩德，比禪與晧，又非其倫，特升拱極之班，賜以列侯之號。式優待遇，盡拾尤違。可光禄大夫、檢校太傅、右千牛衛上將軍，仍封違命侯。」"
+            }
+          ]
         }
       ]
     },
@@ -491,7 +926,58 @@
       "notes": [
         "建隆三年完整农历年跨962—963；地方政变与授官未独记月日，不强补单年或断为同日。"
       ],
-      "sortOrder": 7
+      "sortOrder": 7,
+      "variants": [
+        {
+          "label": "两本纪的绍镃、张汉思与洪进交接",
+          "sourceDate": "马令建隆三年连叙；陆游建隆三年四月至乾德元年四月",
+          "summary": "马令记先立绍镃、陈洪进执送并推张汉思，继而逐汉思受南唐节度；陆游分记建隆三年四月执绍镃、乾德元年四月废汉思而授节度。同一交接各阶段分别保留。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "三年劉従効卒州人立其次子紹鎡為留後紹基未還統軍使陳洪進執紹鎡并其族送于金陵推立其副張漢思漢思老不任事洪進逐之自稱留後國主即以洪進為清源軍節度使"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p4",
+              "originalRevision": 1,
+              "originalSha256": "95c4938028fec74bf5d6dd71ae61ed47a2d318d4f55051af68d1129a3848939e",
+              "excerpt": "四月泉州將陳洪進執紹鎡歸金陵推副使張漢思為留後"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p5",
+              "originalRevision": 1,
+              "originalSha256": "20fa8be9e1e868c39cd39b9470c18e6ba71a646a02880a9a810dca66f41c94fe",
+              "excerpt": "夏四月泉州副使陳洪進廢張漢思自稱權知軍府來告國主即以洪進為節度使"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》分三年交接与四年授官",
+          "sourceDate": "建隆三年三月、夏四月；建隆四年夏四月",
+          "summary": "本纪先记留从效卒、陈洪进执绍磁而推张汉思，次年记陈废张、自称权知军府并获清源节度使。授官与先前交接分段，不把全段归同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p4",
+              "originalRevision": 1,
+              "originalSha256": "2d376206ac4716ecb6d16e39046ed5f0d0385e578d4a47d55218c6b3a4e4f6f5",
+              "excerpt": "清源節度使、中書令、晉江王留從效薨，子紹磁自稱留後。夏四月，泉州將陳洪進執紹磁歸金陵，推副使張漢思爲留後。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p5",
+              "originalRevision": 1,
+              "originalSha256": "b0d47635f3015f5d4e9455510ce0d0610d6fd3634429bb5c0c68020db110ac8a",
+              "excerpt": "夏四月，泉州副使陳洪進廢張漢思，自稱權知軍府，來告國主，卽以洪進爲清源軍節度使。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-iron-money",
@@ -514,7 +1000,78 @@
         "start": 964,
         "end": 965
       },
-      "sortOrder": 8
+      "sortOrder": 8,
+      "variants": [
+        {
+          "label": "本纪正月、三月与铁铜六四口径",
+          "sourceDate": "乾德二年；马令正月、陆游三月",
+          "summary": "马令本纪在正月记始用铁钱，陆游本纪记春三月；两本纪都记六铁钱配四铜钱，后来不用铜钱、末年一铜当十铁。与新史法令折值及商人兑换分开。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "二年春正月始用鐵錢以鐵錢使户部侍郎韓熈載為兵部侍郎勤政殿學士"
+            },
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "至是有鐵錢之議每十錢以鐵錢六雜銅錢四既而不用銅錢民間但以鐵錢貿易物價增涌民復盜鑄頗多芒刺不及官場圎淨雖重其法犯者益衆至末年銅錢一當鐵錢十"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "乾徳二年春三月行鐵錢每十錢以鐵錢六權銅錢四而行其後銅錢遂廢民間止用鐵錢末年銅錢一直鐵錢十比國亡諸郡所積銅錢六十七萬緡"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》配用比率与后期市价",
+          "sourceDate": "乾德二年春三月始行铁钱，末年市价另叙",
+          "summary": "本纪记每十钱以铁六、铜四配用，民间藏铜后末年一铜值十铁；未把后期兑换价都写成同日官令。夹引陶岳的建议、篆文与后来施行各守原述。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "乾德二年春三月，始行鐵錢，〈陶岳《貨志録》曰：韓熙載請以鐵爲錢，其錢之大小一如「開元通寶」，文亦如之。徐鉉篆其文，比于舊錢稍大，而輪郭深闊。既而鐵錢大行，公私便之。〉每十錢以鐵錢六權銅錢四而行，逮民間止用鐵錢，遂藏銅錢斬弗出，末年銅錢一直鐵錢十，比國亡，諸郡所積銅錢累六十七萬緡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-shu-ya-examination-review",
+      "title": "命覆试后亲自命题试士",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 964,
+        "end": 965
+      },
+      "phase": "uncertain",
+      "sourceDate": "乾德二年条，未独记本事月日",
+      "summary": "本纪先记韩配饥知贡举，继命徐铉覆试舒雅等五人；舒雅等未就后，后主亲临殿上命题，以中书官莅事，五人皆黜。",
+      "notes": [
+        "韩配饥为底本所载名字，不因字近改作韩熙载。",
+        "原书只记不就，不补拒绝应试的动机；乾德二年跨964—965，未独记月日。"
+      ],
+      "sortOrder": 9,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p6",
+          "originalRevision": 1,
+          "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+          "excerpt": "命吏部侍郎、修國史韓配饑知貢舉，放進士王崇古等九人；既又命中書舍人徐鉉覆舒雅等五人，雅等不就，乃御殿命題親試，以中書官蒞其事，五人皆見黜。"
+        }
+      ]
     },
     {
       "id": "li-yu-southern-han-envoy",
@@ -537,7 +1094,51 @@
         "start": 966,
         "end": 967
       },
-      "sortOrder": 9
+      "sortOrder": 10,
+      "variants": [
+        {
+          "label": "马令系开宝二年劝臣及囚使",
+          "sourceDate": "本纪开宝二年冬事后接叙",
+          "summary": "马令在开宝二年叙天子命国主谕南汉称臣、刘鋹怒执龚慎仪。与新史大宝九年记事分源，不拆作另一次已经证实的出使。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "天子詔國主諭南漢稱臣劉鋹怒執我行人龔慎儀"
+            }
+          ]
+        },
+        {
+          "label": "陆游记乾德四年八月出使、九月被执",
+          "sourceDate": "乾德四年八月、九月",
+          "summary": "陆游记龚慎仪八月持书约南汉共事中朝，九月至番禺被执；使命内容和有月纪年按本纪保存，不将他书无月记录全套成九月。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p8",
+              "originalRevision": 1,
+              "originalSha256": "e3a35a8fa55a6937b56336c53e9a126ec16b75e66256fce805efc6cadc99534c",
+              "excerpt": "乾徳四年秋八月國主遣龔慎儀持書使南漢約與俱事中朝九月慎儀至番禺被執"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》记邀共事中朝及使者被执",
+          "sourceDate": "乾德四年秋八月遣、九月至番禺",
+          "summary": "本纪记邀请南汉一同奉事中原，随后使者被执；不据邀请说双方已经成约，与马令本奉宋诏劝称臣的叙法分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p8",
+              "originalRevision": 1,
+              "originalSha256": "39bd7f3c6994bd238d22b47ef08056a19f677ca95feb49bbdf8081371ad250ea",
+              "excerpt": "秋八月，遣龔慎儀持書使南漢，約與俱事中朝。九月，慎儀至番禺，被執。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-night-duty",
@@ -552,6 +1153,27 @@
           "originalRevision": 1,
           "originalSha256": "6ba093875ead84d604f9988af12e055afe8a2380d3f3c37d6f2391130966c060",
           "excerpt": "五年，命兩省侍郎、給事中、中書舍人、集賢勤政殿學士，分夕於光政殿宿直，煜引與談論。煜嘗以熙載盡忠，能直言，欲用為相，而熙載後房妓妾數十人，多出外舍私侍賓客，煜以此難之，左授熙載右庶子，分司南都。熙載盡斥諸妓，單車上道，煜喜留之，復其位。已而諸妓稍稍復還，煜曰：「吾無如之何矣！」是歲，熙載卒，煜嘆曰：「吾終不得熙載為相也。」欲以平章事贈之，問前世有此比否？羣臣對曰：「昔劉穆之贈開府儀同三司。」遂贈熙載平章事。熙載，北海將家子也，初與李穀相善。明宗時，熙載南奔吳，穀送至正陽，酒酣臨訣，熙載謂穀曰：「江左用吾為相，當長驅以定中原。」穀曰：「中國用吾為相，取江南如探囊中物爾。」及周師之征淮也，命穀為將，以取淮南，而熙載不能有所為也。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "五年春命兩省侍郎諫議大夫給事中中書舍人集賢勤政殿學士分夕於光政殿宿直國主引與譚論或至夜分"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad97d81fb7cda5efb2d6b9fa34769276febcf593dbfcc5e4df53e95155d271a6",
+          "excerpt": "乾徳五年春命兩省侍郎諫議給事中中書舍人集賢勤政殿學士更直光政嚴召對咨訪率至夜分"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p9",
+          "originalRevision": 1,
+          "originalSha256": "daa6f5d830d11395dc9f1379c7ae7ef3cb0fc34f9243a549fa022d11167da16e",
+          "excerpt": "乾德五年，春，命兩省侍郎、諫議、給事中、中書舍人、集賢勤政殿學士更直光政殿，召對咨訪，率至夜分。"
         }
       ],
       "phase": "uncertain",
@@ -560,7 +1182,60 @@
         "start": 967,
         "end": 968
       },
-      "sortOrder": 10
+      "sortOrder": 11,
+      "notes": [
+        "陆游本底本作“光政严”，马令作“光政殿”，各依底本文字，不据异名另造一所官署。"
+      ]
+    },
+    {
+      "id": "li-yu-dalisi-prison-review-remonstrance",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 969,
+        "end": 970
+      },
+      "phase": "uncertain",
+      "sortOrder": 12,
+      "title": "亲录大理寺囚，与韩熙载谏议",
+      "sourceDate": "马令开宝二年冬；陆游本纪追叙未独记年月",
+      "summary": "马令记李煜青龙山猎还，亲录大理寺囚而多所宽免；韩熙载谏车驾不宜临狱，请捐内帑三百万充军资，国主从之。陆游另作请罚内库三百万而不听、不怒，保两书分歧。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "冬較獵于青龍山還憇大理寺親録囚徒原貸甚衆韓熈載奏獄訟有司之事囹圄之中非車駕所至請捐内帑錢三百萬充軍資庫用國主従之曰繩愆糾謬其熈載之謂乎"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p11",
+          "originalRevision": 1,
+          "originalSha256": "8864a256af50cd83483dbd5b0869e69213fe078b28cc261cb7bff368fb608630",
+          "excerpt": "冬，國主較獵于青龍山，還憩大理寺，親録囚，原貸甚衆。中書侍郎韓熙載奏：「獄訟有司之事，囹圄之中非車駕所至，請捐內帑錢三百萬充軍資軍用。」〈《江南野史》作給事中蕭儼與熙載同彈奏。〉國主從之，曰：「繩愆糾繆，熙載有焉。」是歲，普度諸郡僧。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游罚款而未获采纳的叙法",
+          "sourceDate": "本纪末尾追叙，未独记年月",
+          "summary": "陆游记请罚内库钱三百万以资国用，后主虽不听亦不怒；马令记请捐内帑、国主从之。青山、青龙山称谓按书，不据近似情节强定同日。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "常獵於青山還如大理寺親録繫囚多所原釋中書侍郎韓熙載奏獄訟有司之事囹圄非車駕所宜臨幸請罰内庫錢三百萬以資國用雖不聽亦不怒也"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "969—970范围仅据马令开宝二年冬；陆游本纪的追叙不被强套为同年同日。",
+        "三百万款项的“捐／罚”及“从之／不听”是两书实质差异，未调和为先拒后从。"
+      ]
     },
     {
       "id": "li-yu-li-congshan-retained",
@@ -597,9 +1272,60 @@
         "start": 971,
         "end": 972
       },
-      "sortOrder": 11,
+      "sortOrder": 13,
       "notes": [
         "从善开宝四年入宋留京、后主请其归国未果，与此前使周受送归是不同出使。《却登高文》是后主思弟的文学自述。陆游本对从善母亲先列钟后、后称凌氏，两处记载有异。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪的从善使宋与留京叙次",
+          "sourceDate": "马令开宝四年；陆游四年冬十月遣朝、五年闰月留京",
+          "summary": "马令记从善使宋留京、授泰宁军节度及后主求还不许；陆游在四年冬十月记遣郑王从善朝贡，五年闰月记授泰宁军节度、留京。王号与留京叙次分源，不拼成两次独立使行。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "遣弟韓王従善入朝留于京師授泰寧軍節度使國主表求従善還國不許"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p13",
+              "originalRevision": 1,
+              "originalSha256": "9eb3661beabe1bab3ed09171f55768dcfb825c14c5f7fd06ace4abb472777289",
+              "excerpt": "開寶四年冬十月國主聞太祖滅南漢屯兵於漢陽大懼遣太尉中書令鄭王從善朝貢稱江南國主請罷詔書不名從之有商人來告中朝造戰艦數千艘在荆南請密往焚之國主懼不敢從"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p14",
+              "originalRevision": 1,
+              "originalSha256": "e087d222275d3129aa1c7cee934f9b08995df2502e7c89b7dc49bc1991da1cf4",
+              "excerpt": "閏月癸巳太祖命進奉使楚國公從善為泰寧軍節度使留京師賜第汴陽坊示欲召國主入朝也國主遣戸部尚書馮延魯謝從善爵命延魯至京師疾病不能朝而歸"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》分遣使与后续留京条",
+          "sourceDate": "开宝四年冬十月遣使；五年闰月癸巳留汴",
+          "summary": "本纪四年记从善朝贡，五年闰月另记受泰宁节度、留汴和赐第；两阶段分开，不将前一遣使年款套给所有留京后事。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p13",
+              "originalRevision": 1,
+              "originalSha256": "d8f9cb36f60ddae7aa9383d6ed256b036c83b4744ef754aea166a45335d12924",
+              "excerpt": "冬十月，國主聞宋滅南漢，屯兵于漢陽，大懼，遣太尉、中書令韓王從善朝貢，稱江南國王，請罷韶書不名，許之。〈《宋史》云：煜以將郊祀，遣從善來貢。會隨浦平，煜懼，上表，遂改唐國主爲江南國主，唐國印爲江南國主印，又上表請所韶呼名。〉"
+            },
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p14",
+              "originalRevision": 1,
+              "originalSha256": "9d2b8a44b186ea5c66ae5419d095e85db5bb5bcb76a3fde52972c76976750810",
+              "excerpt": "閏月癸巳，宋命進奉使南楚國公從善爲泰寧軍節度使，留汴京，賜第汴陽坊，示欲徵國主入朝。國主遣户部尚書馮延魯謝從善爵命；延魯至汴京，疾病，不能朝而歸。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -643,6 +1369,13 @@
           "originalRevision": 1,
           "originalSha256": "4f814285ba5778afad8139fe2f17df4cb57c92875f60ff6b5619bfc825f85868",
           "excerpt": "及貶制度降鄂國公"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p14",
+          "originalRevision": 1,
+          "originalSha256": "e087d222275d3129aa1c7cee934f9b08995df2502e7c89b7dc49bc1991da1cf4",
+          "excerpt": "開寶五年春二月國主下令貶損儀制改詔為教中書門下省為左右内史府尚書省為司㑹府御史臺為司憲府翰林院為文館樞密院為光政院大理寺為詳刑院客省為延賓院官號亦從改易以避中朝"
         }
       ],
       "phase": "uncertain",
@@ -651,9 +1384,39 @@
         "start": 972,
         "end": 973
       },
-      "sortOrder": 12,
+      "sortOrder": 14,
       "notes": [
         "宗室传记贬制度时从善降南楚国公、从镒降江国公、从谦降鄂国公，未独记年月。《新五代史》将后主贬制系于开宝五年，并记官署名称变更；从益之名在春秋、陆游本作从镒。后主时贬制与元宗958年去帝号是不同事项。"
+      ],
+      "variants": [
+        {
+          "label": "马令内侍府及贬号叙法",
+          "sourceDate": "开宝五年春",
+          "summary": "马令记中书门下改左右内侍府，从益降江国公等；陆游及新史作内史府，陆游名字作从镒。保名称、字形及称号差异，不移用为两个兄弟。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "五年春皇朝屯師漢陽鄂州楊守忠以聞人心大恟乃貶損制度下書稱教改中書門下省為左右内侍府尚書省為司㑹府御史臺為司憲府翰林為文館樞宻院為光政院降封韓王従善為南楚國公鄧王従益為江國公吉王従謙為鄂國公其餘官號多有改易"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》内史府及修文馆名",
+          "sourceDate": "开宝五年春二月",
+          "summary": "本纪记改诏为教、改两省为左右内史府等，并注马令作内侍府、修文馆另作艺文院；原有官署异名与避中朝语境分别保存。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p14",
+              "originalRevision": 1,
+              "originalSha256": "9d2b8a44b186ea5c66ae5419d095e85db5bb5bcb76a3fde52972c76976750810",
+              "excerpt": "開寶五年春二月，下令貶損儀制，改詔爲教，中書、門下省爲左、右內史府，〈馬令《南唐書》作內侍府。〉尚書省爲司會府，御史臺爲司憲府，翰林院爲修文館，〈一作藝文院。〉樞密院爲光政院，大理寺爲詳刑院，客省爲延賓院；官號亦從改易，以避中朝；始去殿闕䲭吻不復設。降封子弟封王者皆爲公：從善南楚國公，從鎰江國公，從謙鄂國公。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -661,7 +1424,7 @@
       "year": null,
       "sourceDate": "开宝六年",
       "title": "潘佑极谏后下狱、自缢",
-      "summary": "内史舍人潘佑上书极谏，李煜将其收监，潘佑自缢。原文记自缢，未叙国主命令行刑；不把下狱写成国主亲自绞杀。",
+      "summary": "内史舍人潘佑上书极谏，李煜将其收监，潘佑自缢。《新五代史》记自缢，未叙国主命令行刑；不把下狱写成国主亲自绞杀。",
       "evidence": [
         {
           "chapterId": "new-v62",
@@ -677,7 +1440,44 @@
         "start": 973,
         "end": 974
       },
-      "sortOrder": 13
+      "sortOrder": 15,
+      "variants": [
+        {
+          "label": "马令自刎、陆游自杀与李平自缢",
+          "sourceDate": "开宝六年冬；陆游冬十月",
+          "summary": "马令记先收李平自缢，后收潘佑、佑自刎；陆游记先属李平于吏、遣使收佑，佑自杀、平缢死狱中。与新史潘佑自缢分源，不据自杀一词补死法。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "冬中書舍人潘佑薦衞尉卿李平判司農寺又薦平知司㑹府羣情紛紛以為朋黨佑上書極言時政凡七章不止有家國隂隂如日將暮之辭國主惡之乃収平下大理自縊妻子徙饒州次収佑佑自剄母及妻子徙虔州"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p15",
+              "originalRevision": 1,
+              "originalSha256": "191e08289b8f88b43075f643418163a5a93f6eaf62525df7dbbfd1554f2d3cb1",
+              "excerpt": "冬十月内史舍人潘佑上書切諌佑素與戸部侍郎李平交厚國主以為事皆由平始先以平屬吏遣使收佑佑自殺平縊死獄中皆徙其家外郡"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》记自杀与季平狱死",
+          "sourceDate": "开宝六年冬十月",
+          "summary": "本纪记潘佑自杀、季平缢死狱中；季平保本字，不静并李平；与《新史》自缢及另外本纪自刎、自杀的叙法分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p15",
+              "originalRevision": 1,
+              "originalSha256": "32ec0990b6884cb88c76acc4acf868594bdf6f6dc5591f18c6bfde368153cf58",
+              "excerpt": "冬十月，內史舍人潘佑上書切諫。佑素與户部侍郎季平交厚，國主以爲事皆由平，先以平屬吏，遣使收佑。佑自殺，平縊死獄中，皆徙其家外郡。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-yu-song-invasion",
@@ -699,6 +1499,20 @@
           "originalRevision": 1,
           "originalSha256": "0c99e93cf15f32f744e209bab549ff584aa9a6718a644acf9ac5b631d314d9a6",
           "excerpt": "予世家江南，其故老多能言李氏時事，云太祖皇帝之出師南征也，煜遣其臣徐鉉朝于京師。鉉居江南，以名臣自負，其來也，欲以口舌馳說存其國，其日夜計謀思慮言語應對之際詳矣。及其將見也，大臣亦先入請，言鉉博學有材辯，宜有以待之。太祖笑曰：「第去，非爾所知也。」明日，鉉朝于廷，仰而言曰：「李煜無罪，陛下師出無名。」太祖徐召之升，使畢其說。鉉曰：「煜以小事大，如子事父，未有過失，奈何見伐？」其說累數百言。太祖曰：「爾謂父子者為兩家可乎？」鉉無以對而退。嗚呼，大哉，何其言之簡也！蓋王者之興，天下必歸于一統。其可來者，來之；不可者，伐之；僭偽假竊，期於掃蕩一平而後已。予讀周世宗征淮南詔，怪其區區攟摭前事，務較曲直以為辭，何其小也！然世宗之英武有足喜者，豈為其辭者之過歟？〈據湯悅所撰江南錄云：「景以保大十五年正月，改元交泰，是歲盡獻淮南十四州，畫江為界。」保大十五年，乃周顯德四年也。案五代舊史及世宗實錄，顯德四年十月壬申，世宗方復南征，五年正月丙午，始克楚州。二月己亥，景始盡獻淮南諸州，畫江為界，當是保大十六年也。悅等南唐故臣，記其目見之事，何其差繆？而九國志、紀年通譜之類，但以悅書為正，不復參校，遂皆差一年。至於景滅閩國，是保大四年，江南錄書於三年，亦差一年，已具閩世家注。或疑景立踰年而改元，則滅閩國當為三年，周取淮南當為十五年不差，但江南錄誤於景立之年改元保大，所以常差一年也。今知不然者，以諸書參校，閩人殺王延羲，當晉開運元年，周師始伐南唐當顯德二年。據景以初立之年即改元，則開運元年為保大二年，顯德二年為保大十三年。今江南錄書延羲被殺於二年，周師始伐於十三年，則是景立之年改元，不誤，而悅等書滅王氏、割淮南自各差一年爾。昪自晉天福二年建國，至皇朝開寶八年國滅，凡三十九年。〉"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "七年皇朝使閤門使梁逈來聘従容謂國主曰今歳國家有柴燎之禮當入助祭國主唯唯不答秋中書舍人李穆賫詔曰朕以仲冬有事于圓丘思與卿同閲犧牲國主辭以疾穆反命遂決進取"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "國主遣徐鉉周惟簡奉表乞緩師不答"
         }
       ],
       "phase": "uncertain",
@@ -710,7 +1524,7 @@
       "notes": [
         "开宝七年的召见和发兵与后续求缓师合叙，未逐事记独日；不把开宝八年十二月城陷压入本条起年。"
       ],
-      "sortOrder": 14,
+      "sortOrder": 16,
       "variants": [
         {
           "label": "宗室使者传的谕归与缓攻",
@@ -732,8 +1546,78 @@
               "excerpt": "太祖以不朝來討後主遣從鎰貢帛二十萬疋白金二十萬斤大兵悉已南渡從鎰留京師館懷信驛捷奏至百僚稱賀閣門趣隨班入邸吏亦謂當有貢獻其介潘慎修以為國被討瀕亡而使者旅賀非禮但奉方物以待罪太祖嘉其知禮為易供帳加賜牲餼上樽命知制誥李穆送從鎰歸國諭指令後主亟自歸仍命曹彬等緩攻以俟之而後主卒不行以至城陷"
             }
           ]
+        },
+        {
+          "label": "陆游本纪记两遣徐等求缓师",
+          "sourceDate": "乙亥围城期间，未独记两次月日",
+          "summary": "陆游记国主两遣徐等厚贡求缓兵，未写全名；这里只补李煜遣使记载，不把省称直接归徐铉的新一次独立行程。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "國主兩遣徐等厚貢方物求緩兵守祭祀皆不報"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》赴阙之召与乙亥围城两遣",
+          "sourceDate": "甲戊岁秋条、后文甲戌岁另记；乙亥岁围城条",
+          "summary": "甲戊不是通常干支年名，仍保原字；本纪另于乙亥围城记两遣徐铉求缓兵。赴阙、出兵与后来求缓分阶段，不以同段补述拼出各次确日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p16",
+              "originalRevision": 1,
+              "originalSha256": "d3ab20cc47569c442c08e8791abdb928898e92c6ea7c4b5115cd4d0229eb0873",
+              "excerpt": "甲戊歲，秋，遣使求南楚國公從善歸國，不許。宋遺閤門使梁迪來，從容言曰：「天子今\n冬行柴燎之禮，國主宜往助祭。」國主不答。〈《江南野史》云：初，流言謂北使竊伺後主至船，必載之北度，自是後主懼，不敢登使者船。〉宋復遣知制誥李穆爲國信使，持詔來曰：「朕將以仲冬有事圜丘，思與卿同閱犧性。」且諭以將出師，宜早入朝之意。國主辭以疾，且曰：「臣事大朝，冀全宗祀，不意如是，今有死而已。」時宋已遣穎州團練使曹翰率師，先出江陵，宣徽南院使曹彬、侍衛馬軍都虞候李漢瓊、賓州刺史田欽祚率舟師繼發。〈《宋通鑑》云：曹衫將兵伐江南，太祖戒之曰：「江南之事，〉〈一以委卿，切勿暴掠生民，務廣威信，使自歸順，不須急擊也。」又曰：「城陷之日，慎無殺戮，設若困鬭，則李煜一門不可加害。」〉"
+            },
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "外援既絕，金陵益危蹙。宋師百道攻城，晝夜不休。城中米斗萬錢，人病足弱，死者相枕藉。國主兩遣徐鉉等厚貢方物，求緩兵，守祭祀，皆不報。"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "li-yu-southern-tang-letter-warning",
+      "title": "致吴越王书，以两国前途相戒",
+      "summary": "吴越兵进攻常、润时，李煜致书吴越王，以今日无我、明日岂有君相戒；吴越王将来书呈报宋廷。未记信获采纳或两君亲自交战。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 974,
+        "end": 975
+      },
+      "phase": "uncertain",
+      "sourceDate": "陆游本甲戌岁条；致书与转呈未独记日",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p16",
+          "originalRevision": 1,
+          "originalSha256": "bd6809269b135d5eb3ef75a01bfa15287b0afaac5674d769f3e36a323f99490c",
+          "excerpt": "呉越亦大舉兵犯常潤國主遺呉越王書曰今日無我明日豈有君一旦明天子易地賞功王亦大梁一布衣耳呉越王表其書於朝"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "d3ab20cc47569c442c08e8791abdb928898e92c6ea7c4b5115cd4d0229eb0873",
+          "excerpt": "國主遺吳越王書曰：「今日無我，明日豈有君，一旦今天子易地賞功，王亦大梁一布衣耳。」吳越王表其書于宋。"
+        }
+      ],
+      "notes": [
+        "范围取甲戌本纪年度，不将前面九月丁卯或宋军辛未日移作书信日。",
+        "同一封来书分别记双方的行为，并非两次致书。",
+        "《十国春秋》同载此书与转呈，原文作“今天子”，陆游作“明天子”；该卷段首“甲戊”存疑，未据此另定致书年月，亦不据两书增加通信次数。"
+      ],
+      "sortOrder": 17
     },
     {
       "id": "li-yu-han-xizai",
@@ -756,7 +1640,7 @@
         "本书是岁回指乾德五年，农历年跨西历967—968；这只是本篇的卒/赠年次，不外引未归档的970年通说覆盖。用相波折不独纪年，故整项仍年代未定。",
         "旧史夹引与史补有国主命画图故事，但无明确君主姓名、无独立年；本条不用通行夜宴图故事反定施事。"
       ],
-      "sortOrder": 15
+      "sortOrder": 18
     },
     {
       "id": "li-yu-tan-zixiao-summons",
@@ -796,7 +1680,7 @@
           "excerpt": "七年，太祖皇帝遣使詔煜赴闕，煜稱疾不行，王師南征，煜遣徐鉉、周惟簡等奉表朝廷求緩師，不答。八年十二月，王師克金陵。九年，煜俘至京師，太祖赦之，封煜違命侯，拜左千牛衞將軍。其後事具國史。"
         }
       ],
-      "sortOrder": 16
+      "sortOrder": 19
     },
     {
       "id": "li-yu-zhang-xiong-chief-command",
@@ -829,14 +1713,14 @@
           "excerpt": "七年，太祖皇帝遣使詔煜赴闕，煜稱疾不行，王師南征，煜遣徐鉉、周惟簡等奉表朝廷求緩師，不答。八年十二月，王師克金陵。九年，煜俘至京師，太祖赦之，封煜違命侯，拜左千牛衞將軍。其後事具國史。"
         }
       ],
-      "sortOrder": 17
+      "sortOrder": 20
     },
     {
       "id": "li-yu-tao-gu-qin-ruolan-banquet",
       "title": "设宴陶谷并命秦弱兰歌词",
       "summary": "《南唐近事》记陶谷奉使江南，韩熙载令秦弱兰假作驿卒女；次日后主设宴，命她唱陶谷所赠词，陶谷惭沮北归。此条按该书明称后主的叙述归李煜。",
       "year": null,
-      "sortOrder": 18,
+      "sortOrder": 21,
       "precision": "undated",
       "sourceDate": "本书“明日后主设宴”，未独记使行年月",
       "phase": "uncertain",
@@ -863,7 +1747,7 @@
         "end": 969
       },
       "phase": "uncertain",
-      "sortOrder": 19,
+      "sortOrder": 22,
       "sourceDate": "开宝元年始议立后；亲迎及婚宴未独记年月",
       "summary": "昭惠后去世、钟太后丧事后，中宫久虚，李煜开始商议立小周氏为继后，命陈致雍考订婚礼，徐铉、潘佑等参议，并令徐游评定分歧。原书的开宝元年只限定始议，不足以把后来的亲迎、宴会也定为同年同日。",
       "evidence": [
@@ -903,6 +1787,55 @@
       ]
     },
     {
+      "id": "li-yu-song-stipend-increase",
+      "title": "自言贫困，宋太宗增俸赐钱",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 977,
+        "end": 978
+      },
+      "phase": "uncertain",
+      "sourceDate": "太平兴国二年，未独记月日",
+      "summary": "后主自言贫困，宋太宗命增加每月俸给，并赐钱三百万。原年号的完整范围跨977—978，不选两年之一作唯一事年。",
+      "notes": [
+        "本条未记增俸前后具体额度；三百万按原钱数保存，不换算贯数或今值。"
+      ],
+      "sortOrder": 23,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p17",
+          "originalRevision": 1,
+          "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+          "excerpt": "太平興國二年，後主自言其貧，宋太宗命增給月奉，仍予錢三百萬。"
+        }
+      ]
+    },
+    {
+      "id": "li-yu-song-chongwen-library-viewing",
+      "title": "受召在崇文院观书",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "归宋后，宋太宗时；未独记召见年月",
+      "summary": "宋太宗到崇文院观书，召李煜及南汉后主任意观览，又问李煜归朝以后是否读书；李煜顿首称谢。",
+      "notes": [
+        "本句紧接太平兴国二年增俸条，却未独系此年；不把前条年款套入同召观书。",
+        "本段记二人同受召观书，不表示宋太宗另行召见两次。"
+      ],
+      "sortOrder": 24,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p17",
+          "originalRevision": 1,
+          "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+          "excerpt": "太宗常幸崇文院觀書，召後主及南漢後主令縱觀，謂後主曰：「聞卿在江南好讀書，此簡策多卿舊物，歸朝來頗讀書否？」後主頓首謝。"
+        }
+      ]
+    },
+    {
       "id": "li-yu-death-in-song",
       "title": "在宋去世，诸书记年有异",
       "year": null,
@@ -912,9 +1845,9 @@
         "end": 979
       },
       "phase": "uncertain",
-      "sortOrder": 20,
-      "sourceDate": "《十国春秋》、陆游本太平兴国二年；马令本太平兴国三年",
-      "summary": "《十国春秋》及陆游本在太平兴国二年记后主去世，马令本则系太平兴国三年。两种原书记年各跨西历年，外包范围为977—979，不表示死亡持续三年，也不据两范围交集确定唯一卒年。三书随后记小周后亦卒，未说明同日或死因。",
+      "sortOrder": 25,
+      "sourceDate": "《十国春秋》、陆游后妃传系二年；两书后主本纪及马令本系三年",
+      "summary": "《十国春秋》与陆游后妃传系太平兴国二年，马令本和两书后主本纪系三年。原书记年各跨西历年，外包范围为977—979，不表示死亡持续三年，也不据范围交集确定唯一卒年。后妃传接记小周后亦卒，未说明同日；本纪另录病卒墓志和“一云”致祸说，分别保留。",
       "evidence": [
         {
           "chapterId": "shiguochunqiu-v018",
@@ -945,10 +1878,90 @@
               "excerpt": "太平興國三年隴西公薨周氏亦薨"
             }
           ]
+        },
+        {
+          "label": "马令本纪三年病后翌日薨",
+          "sourceDate": "太平兴国三年，病及翌日薨；未独记月日",
+          "summary": "马令本纪记病、医官视疾及中使慰谕后翌日薨，年四十二，追吴王葬北邙。翌日是相对日，未提供独立月日，不写确定病因。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "太平興國三年公病〈書公者皇朝所封也〉命翰林醫官視疾中使慰諭者數四翌日薨在偽位十有五年年四十二追封吳王以王禮葬洛京之北邙山"
+            }
+          ]
+        },
+        {
+          "label": "陆游本纪三年七月辛卯与七夕不合",
+          "sourceDate": "太平兴国三年七月辛卯；同段又称是日七夕",
+          "summary": "陆游本纪记七月辛卯卒又称七夕、盖以是日生；严格历核辛卯为初八，初七是庚寅，保原记矛盾，不静改日期或据盖字推确切生日。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "太平興國三年七月辛夘殂年四十二是日七夕也後主蓋以是日生贈太師追封呉王葬洛陽北邙山"
+            }
+          ],
+          "year": 978
+        },
+        {
+          "label": "《十国春秋》本纪三年辛卯与七夕之异",
+          "sourceDate": "太平兴国三年七月辛卯；同段又称是日七夕",
+          "summary": "本纪系三年七月辛卯薨，后称七夕，又注徐铉墓志七月八日。辛卯严格为初八、七夕为初七，两记有冲突；保原文不静校，不取诸书年范围交集推唯一卒年。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "三年七月辛卯薨，"
+            },
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "年四十二， 是日七夕也。〈按徐鉉《吳王墓誌》作七月八日，今姑從陸游《南唐書》。〉後主蓋以是日生。"
+            }
+          ],
+          "year": 978
+        },
+        {
+          "label": "本纪“一云”牵机药与词句致祸说",
+          "sourceDate": "入宋后；传闻命药与奏乐未独记月日",
+          "summary": "本纪以“一云”引徐铉探望后主、牵机药说，又引七夕奏乐、词句传报而遭祸；这些是并录传闻，不合成已证实的死因，也不认定两说必为同一日的完整因果。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "〈一云：宋太宗使徐鉉見後主于賜第，後主忽吁嘆曰：「當時悔殺潘祐、李平。」鉉不敢隱，遂有賜後主牽機藥之事。蓋餌其架則病，前却數十回，頭足相就如牽機狀也。又後主在賜第，七夕，命故伎作樂，聲聞于外。太宗聞之大怒，又傳「小樓昨夜又東風」，又「一江春水向東流」句，併坐之，遂被禍云。　又《南唐拾遺記》云：後主歸宋後，鬱鬱不自聊，常作長短句「簾外雨潺潺」云云，情思悽切，未幾下世。〉"
+            }
+          ]
+        },
+        {
+          "label": "引墓志七月八日病卒及封葬",
+          "sourceDate": "太平兴国三年秋七月八日；其年冬十月日葬",
+          "summary": "所引墓志记京师里第遘疾、七月八日薨，继记赠太师、追封吴王和十月葬；病卒与牵机“一云”各守来源。碑文褒赞、祖系自述不作为无疑死因或自然血缘的证据。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "方將度越等彝，登崇名數，嗚呼！閱川無舍，景命不融，太平興國三年秋七月八日，遘疾薨于京師里第，享年四十有二。皇上撫几興悼，獲瓜軫悲。痛生之不逮，俾歿而加飾，特詔輟朝三日，贈太師，追封吳王，命中使涖葬。几喪祭所須，皆從官給。卽其年冬十月日，葬于河南府某縣某鄉某里，禮也。"
+            }
+          ],
+          "year": 978
         }
       ],
       "notes": [
-        "《十国春秋》用暴隕，陆游本作殂；这些用字没有独立给出死亡日、死因或被害者、施害者。",
+        "《十国春秋》后妃传用暴隕，陆游后妃传作殂，这两处未给独立死亡日或死因；后主本纪另录病卒墓志及“一云”牵机药、词句致祸说，保其不同来源层次。",
         "小周后悲哀不自胜与亦卒是原书连叙，不补同日、殉死、自杀或具体病因。",
         "此事为后妃传所叙李煜在宋其后事；《新五代史》李煜本篇仍以其後事具國史收束，二者的篇章范围有别。"
       ]

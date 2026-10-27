@@ -19,6 +19,27 @@
           "originalRevision": 1,
           "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
           "excerpt": "建隆二年，景遷南都，立煜為太子，留監國。景卒，煜嗣立於金陵。母鍾氏，父名泰章。煜尊母曰聖尊后；立妃周氏為國后；"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "妃周氏為國后"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "立妃周氏為國后"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "立妃周氏爲國后，"
         }
       ]
     },
@@ -50,6 +71,43 @@
       "notes": [
         "月本身跨965年，但甲戌实际仍在964；不用月首或别书日替换。",
         "末或谓小周入宫、后主掩迹是说法，不定为死因。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪十月、十一月分源",
+          "sourceDate": "马令乾德二年十一月；陆游十月子亡后周后亦卒",
+          "summary": "马令本纪只记十一月周后殂，未给甲戌日；陆游本纪在十月甲辰仲㝢卒后记周后悲伤病重而亦卒。甲辰用于所载子卒，不移作母后独日，亦不据十一月月首替甲戌。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "冬十月仲宣卒追封岐王十有一月國后周氏殂"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "十月甲辰仲㝢卒國后周氏已寢疾哀傷増革遂亦卒十一月太祖遣作坊副使魏丕來弔祭"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》本纪十一月卒",
+          "sourceDate": "乾德二年十一月，未独日",
+          "summary": "本纪记十一月国后周氏殂、宋遣魏丕吊祭；未独记甲戌。只记月的范围跨964—965，与后妃传独日和陆游本纪十月连叙分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "十一月，國后周氏殂，宋遣作坊副使魏丕來弔祭。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -75,10 +133,34 @@
           "originalRevision": 1,
           "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
           "excerpt": "葬懿陵，諡日昭惠。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "三年春葬昭惠后于懿陵"
         }
       ],
       "notes": [
         "965纪日属于马令迁柩，不是去世日，也不声称诸书均记此葬日。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》本纪记正月壬午葬",
+          "sourceDate": "乾德三年春正月壬午",
+          "summary": "本纪记壬午葬昭惠后于懿陵；马令女宪传称当日迁柩园寝，动作措辞分别保留，不将迁柩和死亡混为同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p7",
+              "originalRevision": 1,
+              "originalSha256": "e8f674d84e1178de9eaede43728ca95990cca1fa1fd12a6a9dba5d6969f27044",
+              "excerpt": "乾德三年春正月壬午，葬昭惠后于懿陵。"
+            }
+          ],
+          "year": 965
+        }
       ]
     },
     {
@@ -217,6 +299,36 @@
       ],
       "notes": [
         "马令三子、陆游二子名单分源；不造未名第三子。"
+      ],
+      "variants": [
+        {
+          "label": "陆游本纪子名仲㝢之异",
+          "sourceDate": "乾德二年十月甲辰为所载子卒；母后未独日",
+          "summary": "陆游本纪写仲㝢卒、周后本已病而哀伤加剧；与宗室及马令记仲宣夭分源，不据此认定两子同日俱卒。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "十月甲辰仲㝢卒國后周氏已寢疾哀傷増革遂亦卒"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》本纪子名与母后卒月",
+          "sourceDate": "乾德二年十月甲辰为仲宣卒日；周后十一月卒",
+          "summary": "本纪列仲㝢、仲宣封爵并记仲宣十月甲辰薨、周后十一月殂；并未直接写亲抚或悲哀增病。只作子名、卒事背景的旁证，不用此段独证母亲的哀伤行为。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "封子仲㝢清源郡公，仲宣宣城郡公。冬十月甲辰，仲宣薨，追封岐王。十一月，國后周氏殂，宋遣作坊副使魏丕來弔祭。"
+            }
+          ]
+        }
       ]
     },
     {

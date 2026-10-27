@@ -282,7 +282,44 @@
       "yearRange": {
         "start": 966,
         "end": 967
-      }
+      },
+      "variants": [
+        {
+          "label": "两本纪劝臣囚使的年次",
+          "sourceDate": "马令开宝二年；陆游乾德四年八、九月",
+          "summary": "马令记天子诏国主谕南汉、刘鋹怒执龚慎仪；陆游记邀请对方共事中朝、九月在番禺被执，与新史大宝九年分源，不据此凑多次同一使行。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "天子詔國主諭南漢稱臣劉鋹怒執我行人龔慎儀"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p8",
+              "originalRevision": 1,
+              "originalSha256": "e3a35a8fa55a6937b56336c53e9a126ec16b75e66256fce805efc6cadc99534c",
+              "excerpt": "乾徳四年秋八月國主遣龔慎儀持書使南漢約與俱事中朝九月慎儀至番禺被執"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》使至番禺被执",
+          "sourceDate": "乾德四年秋八月遣、九月到番禺",
+          "summary": "本纪记龚慎仪受命邀南汉同事中朝、抵番禺后被执；此段未另署下令拘使者姓名，故只补同一使行的记述，不由被动句补个人命令。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p8",
+              "originalRevision": 1,
+              "originalSha256": "39bd7f3c6994bd238d22b47ef08056a19f677ca95feb49bbdf8081371ad250ea",
+              "excerpt": "秋八月，遣龔慎儀持書使南漢，約與俱事中朝。九月，慎儀至番禺，被執。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "liu-chang-southern-han-song-title",
@@ -304,6 +341,29 @@
       "sortOrder": 10,
       "notes": [
         "献俘与授封只作降宋后接叙，没有有据的最晚时间，保留年代未定。"
+      ]
+    },
+    {
+      "id": "liu-chang-southern-han-song-chongwen-library-viewing",
+      "title": "与李煜同受召观崇文院书籍",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "归宋后，宋太宗时；未独记召见年月",
+      "summary": "宋太宗在崇文院观书时，召李煜与南汉后主同观；南汉后主依其归宋身份为刘鋹。原文未另记刘鋹的答话或读书评价。",
+      "notes": [
+        "本句紧接太平兴国二年增俸条，却未独系此年；不把前条年款套入同召观书。",
+        "本段记二人同受召观书，不表示宋太宗另行召见两次。"
+      ],
+      "sortOrder": 11,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p17",
+          "originalRevision": 1,
+          "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+          "excerpt": "太宗常幸崇文院觀書，召後主及南漢後主令縱觀，謂後主曰：「聞卿在江南好讀書，此簡策多卿舊物，歸朝來頗讀書否？」後主頓首謝。"
+        }
       ]
     }
   ]

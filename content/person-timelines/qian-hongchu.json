@@ -365,6 +365,41 @@
         "当前所引归档不载这次来朝确定年，不据人物元数据代填年份。"
       ],
       "sortOrder": 12
+    },
+    {
+      "id": "qian-hongchu-southern-tang-letter-warning",
+      "title": "将李煜来书呈报宋廷",
+      "summary": "陆游本记李煜致书吴越王，以两国前途相戒；吴越王将来书呈报宋廷。此王依钱俶承主上下文辨认，不据吴越军攻常、润写钱俶亲征。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 974,
+        "end": 975
+      },
+      "phase": "uncertain",
+      "sourceDate": "陆游本甲戌岁条；致书与转呈未独记日",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p16",
+          "originalRevision": 1,
+          "originalSha256": "bd6809269b135d5eb3ef75a01bfa15287b0afaac5674d769f3e36a323f99490c",
+          "excerpt": "呉越亦大舉兵犯常潤國主遺呉越王書曰今日無我明日豈有君一旦明天子易地賞功王亦大梁一布衣耳呉越王表其書於朝"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "d3ab20cc47569c442c08e8791abdb928898e92c6ea7c4b5115cd4d0229eb0873",
+          "excerpt": "國主遺吳越王書曰：「今日無我，明日豈有君，一旦今天子易地賞功，王亦大梁一布衣耳。」吳越王表其書于宋。"
+        }
+      ],
+      "notes": [
+        "范围取甲戌本纪年度，不将前面九月丁卯或宋军辛未日移作书信日。",
+        "同一封来书分别记双方的行为，并非两次致书。",
+        "《十国春秋》同载此书与转呈，原文作“今天子”，陆游作“明天子”；该卷段首“甲戊”存疑，未据此另定致书年月，亦不据两书增加通信次数。"
+      ],
+      "sortOrder": 13
     }
   ]
 }

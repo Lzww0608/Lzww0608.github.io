@@ -91,6 +91,27 @@
           "originalRevision": 1,
           "originalSha256": "e8aad98a6c1e3ce1dae75fa49664107cffcedf7224c9d62ffdc50ea61775e4c6",
           "excerpt": "後主嗣立，爲太后，以父名改稱聖尊后。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "尊母鍾氏為太后太后父名太章故改號聖尊后"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "尊鍾后曰聖尊后以后父名太章也"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "}}尊母鍾氏曰聖尊后，〈以后父名泰章，故不稱太后。〉"
         }
       ]
     },
@@ -128,6 +149,45 @@
       ],
       "notes": [
         "不以月首当去世日，不把后主尝药与病起全部涂为当月。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪九月之异",
+          "sourceDate": "乾德三年九月，未独记日",
+          "summary": "马令与陆游本纪均记九月钟后殂；后妃传十月记法保留，宋使十月来吊不作本纪死亡月。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "秋九月聖尊后鍾氏殂"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p7",
+              "originalRevision": 1,
+              "originalSha256": "31447c43cb58c1da81d7326e5261a51077879de08c3195744a9112fc291cd042",
+              "excerpt": "秋九月雨沙聖尊后鍾氏殂冬十月太祖遣染院使李光圖來弔祭"
+            }
+          ],
+          "year": 965
+        },
+        {
+          "label": "《十国春秋》本纪九月之异",
+          "sourceDate": "乾德三年秋九月，未独日",
+          "summary": "本纪在九月雨沙之后记圣尊后钟氏殂，冬十月另记宋使来吊；与后妃传十月卒分别保存，不以吊祭月替本纪卒月。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p7",
+              "originalRevision": 1,
+              "originalSha256": "e8f674d84e1178de9eaede43728ca95990cca1fa1fd12a6a9dba5d6969f27044",
+              "excerpt": "秋九月，雨沙。聖尊后鍾氏殂。召南都留守、鄧王從鎰還都，以鄂州林仁肇爲南都留守、南昌尹。冬十月，宋遣染院使李光圖來弔祭。"
+            }
+          ],
+          "year": 965
+        }
       ]
     },
     {
@@ -215,10 +275,34 @@
           "originalRevision": 1,
           "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
           "excerpt": "葬順陵諡光穆"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "葬光穆皇后于順陵〈朝廷許元宗追復帝號故鍾氏稱皇后〉"
         }
       ],
       "notes": [
         "不把乾德三年十月的殂月移作葬月；无独记日。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》本纪冬葬及追复帝号说明",
+          "sourceDate": "乾德三年是冬，未独记葬月日",
+          "summary": "本纪记是冬葬光穆皇后于顺陵，夹注宋许已卒元宗追复帝号，故称皇后。追复为身后名号，不作元宗复位或钟后生前册后的证据。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p7",
+              "originalRevision": 1,
+              "originalSha256": "e8f674d84e1178de9eaede43728ca95990cca1fa1fd12a6a9dba5d6969f27044",
+              "excerpt": "是冬，葬光穆皇后于順陵。〈宋許元帝追復帝號，故光穆稱皇后。〉"
+            }
+          ],
+          "year": 965
+        }
       ]
     }
   ]

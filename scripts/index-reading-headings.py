@@ -26,8 +26,9 @@ def heading_level(tag, text, book_id):
         caption = re.sub(r'\s+', '', text)
         captions = {
             'nantanglu': {'南唐書卷一宋陸游撰烈祖本紀第一',
-                         '南唐書卷十六宋陸㳺撰后妃諸王列傳第十三'},
-            'nantangma': {'南唐書卷六', '女憲𫝊第一'},
+                         '南唐書卷十六宋陸㳺撰后妃諸王列傳第十三',
+                         '南唐書卷三宋陸游撰後主本紀第三', '南唐書卷三'},
+            'nantangma': {'南唐書卷六', '女憲𫝊第一', '南唐書卷五', '後主書第五'},
         }
         if caption in captions[book_id]:
             return 2
