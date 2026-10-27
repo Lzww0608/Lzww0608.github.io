@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-yu-baoyi-huang",
+  "events": [
+    {
+      "id": "nantang-li-yu-baoyi-huang-palace-entry",
+      "title": "幼时被纳入后宫",
+      "summary": "原书记边镐得黄氏入后宫，当时仅数岁；这一阶段不写已被临幸。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "边镐入长沙／下湖南时；未独记黄氏年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+          "excerpt": "邊鎬入長沙，得黃氏，甫數歲，奇其貌，內後宮。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+          "excerpt": "邊鎬下湖南得黄氏甫數歳竒其貌内後宫"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-baoyi-huang-baoyi-library",
+      "title": "后主选保仪，掌宫中书籍",
+      "summary": "原书记后主选她为保仪，因工书札使专掌宫中书籍墨帖；未记独立授职日期，不补其他品级。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "后主即位后选保仪，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+          "excerpt": "後主卽位，選爲保儀"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
+          "excerpt": "以工書札使專掌宫中書籍"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-baoyi-huang-younger-zhou-service",
+      "title": "马令书载勤谨服侍小周",
+      "summary": "马令记黄氏谦抑服勤事小周，并解释她没有受谴。只保本书叙述，不替同时遇害美女推人数或施害者。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "小周专房时期；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+          "excerpt": "黄氏服勤降體以事小周故同時美女率多遇害而黄氏獨不遭譴以其事之盡也"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-baoyi-huang-books-destruction",
+      "title": "奉焚书之命，城陷后书籍焚毁",
+      "summary": "《十国春秋》、陆游记后主预命她城不守便焚书，城陷后悉焚；马令引语作吾所宝，并只记图籍俱煬，施事口径不统一。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "城将陷至城陷；未给本条另定月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+          "excerpt": "城若不守，汝卽焚之，無爲它人所得。」及城陷，悉焚無遺者。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令引语和焚毁叙法",
+          "sourceDate": "都城将陷及城陷，未独记年月",
+          "summary": "引语作吾所宝惜；城陷后图籍俱煬，未另明点火者。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p10",
+              "originalRevision": 1,
+              "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+              "excerpt": "此皆吾所寳惜城若不守即焚之無使散逸及城䧟圗籍俱煬靡有遺者"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-baoyi-huang-northward-death",
+      "title": "随北迁后卒于大梁",
+      "summary": "黄氏随同北迁，原书记卒于大梁；北迁与卒事没有各自确年，不并成同日同年。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "国亡北迁以后；卒年未详",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+          "excerpt": "黃氏亦從北遷，卒于大梁。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p10",
+          "originalRevision": 1,
+          "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+          "excerpt": "黄氏隨後主俘至京師卒"
+        }
+      ]
+    }
+  ]
+}

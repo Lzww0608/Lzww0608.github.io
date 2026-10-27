@@ -594,6 +594,12 @@ for chapter_id, related_people in {"shiguochunqiu-v018":["nantang-li-jing-empres
     selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
     selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *related_people]))
 
+
+# Source-local household identities; archive captures and original bytes stay fixed.
+for chapter_id, related_people in {"shiguochunqiu-v018":["nantang-li-yu-empress-zhaohui","nantang-li-yu-younger-zhou","nantang-li-yu-baoyi-huang","nantang-li-yu-liuzhu","nantang-li-yu-palace-qiao","nantang-li-yu-yaoniang"],"nantanglu-v016":["nantang-li-yu-empress-zhaohui","nantang-li-yu-younger-zhou","nantang-li-yu-baoyi-huang","nantang-li-yu-liuzhu"],"nantangma-v006":["nantang-li-yu-empress-zhaohui","nantang-li-yu-younger-zhou","nantang-li-yu-baoyi-huang","nantang-li-jing-empress-zhong"],"shiguochunqiu-v019":["nantang-li-yu-empress-zhaohui"],"new-v62":["nantang-li-yu-empress-zhaohui"],"shiguochunqiu-v021":["nantang-li-yu-empress-zhaohui","nantang-li-yu-younger-zhou"]}.items():
+    selected = next(spec for spec in SPECS if spec['id'] == chapter_id)
+    selected['subjects'] = list(dict.fromkeys([*selected['subjects'], *related_people]))
+
 SUBJECT_NAMES = {
     'zhu-wen': ['朱溫', '朱温', '朱全忠', '朱晃'],
     'zhu-yougui': ['朱友珪', '友珪'],

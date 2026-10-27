@@ -1776,14 +1776,134 @@
     "note": "仅《十国春秋》引《北庭杂记》称芳仪在辽生公主一人；本名、父亲、封号、生年均未明，仅据此引注尚不能识别其具体身份。"
   },
   {
-    "id": "nantang-li-yu-younger-zhou",
-    "name": "继国后周氏（昭惠后妹）",
+    "id": "nantang-qiushui",
+    "name": "秋水（李煜宫人）",
     "aliases": [
-      "后主继国后周氏（昭惠后妹）",
-      "後主繼國后周氏（昭惠后妹）"
+      "秋水（南唐后主宫人）",
+      "秋水（南唐後主宮人）"
     ],
     "external": true,
     "group": "南唐相关",
-    "note": "后主继室，原文记少以戚里身份间入宫，圣尊后怜爱；不把钟后写成召入或册立者，也不据童谣周皓补本名。"
+    "note": "《十国春秋》与窅娘并列为两宫人，接记簪异花、蝶绕的异闻。生卒及其他经历未详。"
+  },
+  {
+    "id": "nantang-cao-sheng-musician",
+    "name": "曹生（南唐国工）",
+    "aliases": [
+      "曹生（李煜宫廷乐工）",
+      "曹生（李煜宮廷樂工）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "国工／乐工称谓依源，完整名字未详。记曲与徐铉问答有据，曲末非吉征是他的说法。"
+  },
+  {
+    "id": "nantang-zhou-zong",
+    "name": "周宗（两周后父）",
+    "aliases": [
+      "周宗（兩周后父）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "两周后之父，司徒／大司徒称谓分书；两女的生年未详。"
+  },
+  {
+    "id": "nantang-zhou-zong-later-wife",
+    "name": "周宗继室（两周后母，失名）",
+    "aliases": [
+      "周宗繼室（兩周后母，失名）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "《十国春秋》周宗传末记娶继室、生二女，后来先后为后主后；继室姓、名及其他子女未载。"
+  },
+  {
+    "id": "nantang-huang-shouzhong",
+    "name": "守忠（保仪黄氏父）",
+    "aliases": [
+      "守忠（保儀黃氏父）",
+      "黄保仪父守忠",
+      "黃保儀父守忠"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "黄氏本传在父项记守忠，曾事马氏为偏裨；其家世与黄氏母亲未详。"
+  },
+  {
+    "id": "nantang-li-yu-son-zhongyu",
+    "name": "仲㝢（李煜子）",
+    "aliases": [
+      "仲㝢（南唐后主子）",
+      "仲㝢（南唐後主子）",
+      "仲寓（南唐文献异字）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "陆游记与仲宣皆昭惠后所生；《十国春秋》原注或作寓并称非，字形分源。"
+  },
+  {
+    "id": "nantang-li-yu-son-zhongxuan",
+    "name": "仲宣（李煜子）",
+    "aliases": [
+      "仲宣（南唐后主次子）",
+      "仲宣（南唐後主次子）",
+      "瑞保（南唐仲宣小字）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "小字瑞保，陆游记为昭惠后所生；书述猫触灯、惊痫成疾，夭亡与母病加剧分先后，具体亡日未载。"
+  },
+  {
+    "id": "nantang-bian-hao",
+    "name": "边镐（黄氏入宫记载）",
+    "aliases": [
+      "邊鎬（黃氏入宮記載）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "黄氏本传记边镐下湖南／入长沙得她入后宫，本段未独记年月。"
+  },
+  {
+    "id": "nantang-yan-xu",
+    "name": "严续（后主遣内夫人问疾的受问者）",
+    "aliases": [
+      "嚴續（後主遣內夫人問疾的受問者）"
+    ],
+    "external": true,
+    "group": "南唐相关",
+    "note": "马令严续传记其病重，后主遣未名内夫人问候；严续所答为国事，未说明内夫人与其妻的关系。"
+  },
+  {
+    "id": "nantang-li-yu-neifuren-yan-xu-inquiry-source-role",
+    "name": "内夫人（后主遣问严续记载）",
+    "aliases": [
+      "內夫人（後主遣問嚴續記載）"
+    ],
+    "external": true,
+    "group": "南唐来源称谓",
+    "note": "马令严续传记后主遣内夫人问候，姓名未载；与李昪遣迎李德诚的内夫人或其他已知宫人的同异未明。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "nantang-li-yu-incense-attendant-source-role",
+    "name": "主香宫女（继后居殿引书记载）",
+    "aliases": [
+      "主香宮女（繼后居殿引書記載）"
+    ],
+    "external": true,
+    "group": "南唐来源称谓",
+    "note": "《十国春秋》引《清异录》述继后居殿有主香宫女；姓名、人数、封品与任命日未载，与其他宫人的同异未明。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "nantang-li-yu-unnamed-favorite-shiyi-source-role",
+    "name": "失名宠姬（《南唐拾遗记》灯烛故事）",
+    "aliases": [
+      "失名寵姬（《南唐拾遺記》燈燭故事）"
+    ],
+    "external": true,
+    "group": "南唐来源称谓",
+    "note": "《十国春秋》引书称宋伐江南时获后主宠姬，并明姓名不可考；与乔氏、秋水、窅娘同异未定。",
+    "identityKind": "source-role"
   }
 ]

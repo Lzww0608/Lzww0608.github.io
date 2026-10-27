@@ -11106,5 +11106,513 @@
         "excerpt": "后少以戚里間入宫掖聖尊后甚愛之"
       }
     ]
+  },
+  {
+    "id": "li-yu-zhaohui-spouses",
+    "from": "li-yu",
+    "to": "nantang-li-yu-empress-zhaohui",
+    "kind": "kinship",
+    "label": "夫妻（原配国后）",
+    "note": "十九岁归宫与后主嗣位册国后分开，不补954婚年。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p8",
+        "originalRevision": 1,
+        "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+        "excerpt": "十九歲歸皇宮。"
+      },
+      {
+        "title": "《新五代史》 · 卷 62 · 南唐世家第二",
+        "chapterId": "new-v62",
+        "paragraphId": "new-v62-p40",
+        "originalRevision": 1,
+        "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
+        "excerpt": "立妃周氏為國后；"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-younger-zhou-spouses",
+    "from": "li-yu",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "kinship",
+    "label": "夫妻（继室国后）",
+    "note": "先入宫、待年与亲迎成礼分别保存，本名不补。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p9",
+        "originalRevision": 1,
+        "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+        "excerpt": "開寶元年，始議立后爲繼室"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p6",
+        "originalRevision": 1,
+        "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+        "excerpt": "後主國后周氏昭惠后妹也"
+      }
+    ]
+  },
+  {
+    "id": "zhou-zong-zhaohui-daughter",
+    "from": "nantang-zhou-zong",
+    "to": "nantang-li-yu-empress-zhaohui",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "周宗传末与后妃本传闭合；司徒／大司徒按来源，不推生年。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p2",
+        "originalRevision": 1,
+        "originalSha256": "94377253132b9203384c035883e5b1a6129c67093193fdf88dbdabd865065260",
+        "excerpt": "宗娶繼室，生二女，皆國色，相繼俱爲後主后。"
+      }
+    ]
+  },
+  {
+    "id": "zhou-later-wife-zhaohui-mother",
+    "from": "nantang-zhou-zong-later-wife",
+    "to": "nantang-li-yu-empress-zhaohui",
+    "kind": "kinship",
+    "label": "母女（周宗传末所记）",
+    "note": "只据周宗继室生二女的末段，未载母亲姓名。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p2",
+        "originalRevision": 1,
+        "originalSha256": "94377253132b9203384c035883e5b1a6129c67093193fdf88dbdabd865065260",
+        "excerpt": "宗娶繼室，生二女，皆國色，相繼俱爲後主后。"
+      }
+    ]
+  },
+  {
+    "id": "zhou-zong-younger-zhou-daughter",
+    "from": "nantang-zhou-zong",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "周宗传末与后妃本传闭合；司徒／大司徒按来源，不推生年。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p2",
+        "originalRevision": 1,
+        "originalSha256": "94377253132b9203384c035883e5b1a6129c67093193fdf88dbdabd865065260",
+        "excerpt": "宗娶繼室，生二女，皆國色，相繼俱爲後主后。"
+      }
+    ]
+  },
+  {
+    "id": "zhou-later-wife-younger-zhou-mother",
+    "from": "nantang-zhou-zong-later-wife",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "kinship",
+    "label": "母女（周宗传末所记）",
+    "note": "只据周宗继室生二女的末段，未载母亲姓名。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p2",
+        "originalRevision": 1,
+        "originalSha256": "94377253132b9203384c035883e5b1a6129c67093193fdf88dbdabd865065260",
+        "excerpt": "宗娶繼室，生二女，皆國色，相繼俱爲後主后。"
+      }
+    ]
+  },
+  {
+    "id": "zhou-zong-later-wife-spouses",
+    "from": "nantang-zhou-zong",
+    "to": "nantang-zhou-zong-later-wife",
+    "kind": "kinship",
+    "label": "夫妻（继室）",
+    "note": "未名继室不与前妻或其他周氏合人。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 21 · 南唐列传（周宗、李建勋、徐玠等）",
+        "chapterId": "shiguochunqiu-v021",
+        "paragraphId": "shiguochunqiu-v021-p2",
+        "originalRevision": 1,
+        "originalSha256": "94377253132b9203384c035883e5b1a6129c67093193fdf88dbdabd865065260",
+        "excerpt": "宗娶繼室，生二女"
+      }
+    ]
+  },
+  {
+    "id": "zhaohui-younger-zhou-sisters",
+    "from": "nantang-li-yu-empress-zhaohui",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "kinship",
+    "label": "姐妹",
+    "note": "马令母弟与其他书妹／女弟分别保；不补小周年龄。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p9",
+        "originalRevision": 1,
+        "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+        "excerpt": "繼國后周氏，昭惠后女弟也。"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 6 · 女宪传",
+        "chapterId": "nantangma-v006",
+        "paragraphId": "nantangma-v006-p9",
+        "originalRevision": 1,
+        "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+        "excerpt": "後主繼室周后昭惠之母弟也"
+      }
+    ]
+  },
+  {
+    "id": "zhaohui-zhongyu-mother",
+    "from": "nantang-li-yu-empress-zhaohui",
+    "to": "nantang-li-yu-son-zhongyu",
+    "kind": "kinship",
+    "label": "母子（陆游所生名单）",
+    "note": "陆游二子名单与马令三子说并存，不为未名第三子造身份。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p17",
+        "originalRevision": 1,
+        "originalSha256": "f3ab1b53635d048619d54fb4d6e022fa85b71823e593a334e1ac8c387e3c6a4d",
+        "excerpt": "後主二子仲㝢仲宣皆昭惠周后所生"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-zhongyu-father",
+    "from": "li-yu",
+    "to": "nantang-li-yu-son-zhongyu",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "只用本传直接父子称谓，不扩其后半生。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p19",
+        "originalRevision": 1,
+        "originalSha256": "a709c2b1afed4e0d0f7a086f8b0a5350917445be087388a666c211377254124d",
+        "excerpt": "仲㝢〈或作寓，非。〉字叔章，後主長子也。"
+      }
+    ]
+  },
+  {
+    "id": "zhaohui-zhongxuan-mother",
+    "from": "nantang-li-yu-empress-zhaohui",
+    "to": "nantang-li-yu-son-zhongxuan",
+    "kind": "kinship",
+    "label": "母子（陆游所生名单）",
+    "note": "陆游二子名单与马令三子说并存，不为未名第三子造身份。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p17",
+        "originalRevision": 1,
+        "originalSha256": "f3ab1b53635d048619d54fb4d6e022fa85b71823e593a334e1ac8c387e3c6a4d",
+        "excerpt": "後主二子仲㝢仲宣皆昭惠周后所生"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-zhongxuan-father",
+    "from": "li-yu",
+    "to": "nantang-li-yu-son-zhongxuan",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "只用本传直接父子称谓，不扩其后半生。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 19 · 南唐宗室及公主列传",
+        "chapterId": "shiguochunqiu-v019",
+        "paragraphId": "shiguochunqiu-v019-p20",
+        "originalRevision": 1,
+        "originalSha256": "30d749c81425f8ca0b36b5caf10d880f7a9ce74431f42fd351818df69911ffeb",
+        "excerpt": "仲宣，後主次子也，小字瑞保。"
+      }
+    ]
+  },
+  {
+    "id": "huang-baoyi-shouzhong-father",
+    "from": "nantang-huang-shouzhong",
+    "to": "nantang-li-yu-baoyi-huang",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传在黄氏父项记守忠，未载母亲。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p10",
+        "originalRevision": 1,
+        "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+        "excerpt": "保儀黃氏，世爲江廈人。父守忠"
+      }
+    ]
+  },
+  {
+    "id": "bian-hao-huang-baoyi-palace-entry",
+    "from": "nantang-bian-hao",
+    "to": "nantang-li-yu-baoyi-huang",
+    "kind": "service",
+    "label": "书载纳入后宫",
+    "note": "幼年纳宫与后主后来选保仪分开，不写当时已临幸。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p10",
+        "originalRevision": 1,
+        "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+        "excerpt": "邊鎬入長沙，得黃氏，甫數歲，奇其貌，內後宮。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-huang-baoyi-library",
+    "from": "li-yu",
+    "to": "nantang-li-yu-baoyi-huang",
+    "kind": "service",
+    "label": "选保仪，掌宫中书籍",
+    "note": "不据职品改为皇后；预命焚书与实际焚毁按书分源。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p10",
+        "originalRevision": 1,
+        "originalSha256": "04cb5df7880f538590dd2623945bae7126d4a049346db91599401a0b874ced9c",
+        "excerpt": "後主卽位，選爲保儀"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 16 · 后妃诸王列传第十三",
+        "chapterId": "nantanglu-v016",
+        "paragraphId": "nantanglu-v016-p7",
+        "originalRevision": 1,
+        "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
+        "excerpt": "以工書札使專掌宫中書籍"
+      }
+    ]
+  },
+  {
+    "id": "huang-baoyi-younger-zhou-service",
+    "from": "nantang-li-yu-baoyi-huang",
+    "to": "nantang-li-yu-younger-zhou",
+    "kind": "service",
+    "label": "马令书载服侍",
+    "note": "只据本书服勤降体，不补同时美女受害的具体施事。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 6 · 女宪传",
+        "chapterId": "nantangma-v006",
+        "paragraphId": "nantangma-v006-p10",
+        "originalRevision": 1,
+        "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+        "excerpt": "黄氏服勤降體以事小周"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-liuzhu-old-tunes",
+    "from": "li-yu",
+    "to": "nantang-li-yu-liuzhu",
+    "kind": "service",
+    "label": "追问旧曲，流珠追忆",
+    "note": "不是流珠创作或掌管所有曲谱。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p11",
+        "originalRevision": 1,
+        "originalSha256": "a68824a118eff874af236323653375ec905eefda5821141d92ad8e5ebeded886",
+        "excerpt": "後主追念昭惠后，理其舊曲，顧左右無知者，流珠獨能追憶無失，後主特喜。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-cao-sheng-music",
+    "from": "li-yu",
+    "to": "nantang-cao-sheng-musician",
+    "kind": "service",
+    "label": "马令记乐工试谱",
+    "note": "只据后主得谱、乐工粗奏语境；非吉征为曹生言，不作亡国因果。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 6 · 女宪传",
+        "chapterId": "nantangma-v006",
+        "paragraphId": "nantangma-v006-p9",
+        "originalRevision": 1,
+        "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+        "excerpt": "後主獨得其譜樂工曹生亦善琵琶按譜粗得其聲而未盡善也"
+      }
+    ]
+  },
+  {
+    "id": "xu-xuan-cao-sheng-music-dialogue",
+    "from": "xu-xuan",
+    "to": "nantang-cao-sheng-musician",
+    "kind": "service",
+    "label": "音律问答",
+    "note": "《十国春秋》、陆游明署徐铉，马令只徐字不借此强补。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p8",
+        "originalRevision": 1,
+        "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+        "excerpt": "內史舍人徐鉉聞之於國工曹生，鉉亦知音，問曰：「扶曲終則緩，此聲乃反急，何也？」曹生曰：「舊譜實緩，宮中有人易之，非吉徵也。」"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-qiao-heart-sutra",
+    "from": "li-yu",
+    "to": "nantang-li-yu-palace-qiao",
+    "kind": "service",
+    "label": "赐经与百日捨经",
+    "note": "书经赐予者为后主，捨经者为乔氏，僧人携回属后续流传。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p12",
+        "originalRevision": 1,
+        "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+        "excerpt": "後主手書金字《心經》賜之。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p12",
+        "originalRevision": 1,
+        "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+        "excerpt": "伏遇國主百日，謹捨昔時賜妾所書《般若心經》在相國寺塔院。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-yaoniang-lotus-dance",
+    "from": "li-yu",
+    "to": "nantang-li-yu-yaoniang",
+    "kind": "service",
+    "label": "书载命舞金莲",
+    "note": "依本书受命帛绕足舞莲，不宣缠足起源。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p12",
+        "originalRevision": 1,
+        "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+        "excerpt": "命窅娘以帛繞足，令纖小屆上作新月狀，素韤舞蓮花中，回旋有凌波之態"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-qiushui-palace-context",
+    "from": "li-yu",
+    "to": "nantang-qiushui",
+    "kind": "service",
+    "label": "书载宫人",
+    "note": "本书明确称后主宫人，簪花蝶绕为其所记异闻，其他经历未详。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p12",
+        "originalRevision": 1,
+        "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+        "excerpt": "又有秋水、窅娘兩宮人。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-neifuren-yan-xu-inquiry",
+    "from": "li-yu",
+    "to": "nantang-li-yu-neifuren-yan-xu-inquiry-source-role",
+    "kind": "service",
+    "label": "遣问记载／来源联系",
+    "note": "本书所记为后主遣问；姓名、首次任职及与已知女性的同异未详。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p6",
+        "originalRevision": 1,
+        "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
+        "excerpt": "後主使内夫人問之續遺託國事言不及私"
+      }
+    ]
+  },
+  {
+    "id": "neifuren-yan-xu-inquiry-source-contact",
+    "from": "nantang-li-yu-neifuren-yan-xu-inquiry-source-role",
+    "to": "nantang-yan-xu",
+    "kind": "service",
+    "label": "问疾记载／来源联系",
+    "note": "受问者严续陈国事，内夫人未具姓名，本段未说明她与严续妻的关系。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p6",
+        "originalRevision": 1,
+        "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
+        "excerpt": "後主使内夫人問之續遺託國事言不及私"
+      }
+    ]
+  },
+  {
+    "id": "younger-zhou-incense-attendant-source-contact",
+    "from": "nantang-li-yu-younger-zhou",
+    "to": "nantang-li-yu-incense-attendant-source-role",
+    "kind": "service",
+    "label": "居殿引书／来源联系",
+    "note": "《清异录》引述，非继后亲自任命或已知宫女。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p9",
+        "originalRevision": 1,
+        "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+        "excerpt": "李煜長秋周氏居𣏗儀殿，有主香宮女"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-unnamed-shiyi-favorite-source-contact",
+    "from": "li-yu",
+    "to": "nantang-li-yu-unnamed-favorite-shiyi-source-role",
+    "kind": "service",
+    "label": "引书宠姬／来源联系",
+    "note": "原书明其姓名不可考，与同段三位女性的同异未明。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 18 · 南唐后妃列传",
+        "chapterId": "shiguochunqiu-v018",
+        "paragraphId": "shiguochunqiu-v018-p12",
+        "originalRevision": 1,
+        "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+        "excerpt": "宋伐江南時，獲後主寵姬，夜見燈燭輒閉目"
+      }
+    ]
   }
 ]

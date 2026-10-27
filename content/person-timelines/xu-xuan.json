@@ -256,6 +256,116 @@
       "notes": [
         "作者归属由徐铉名下整篇限定，不由墓主卒年直接定为作碑年。"
       ]
+    },
+    {
+      "id": "xu-xuan-zhou-empress-music-inquiry",
+      "title": "听闻曲调后询问曲终为何转急",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 12,
+      "sourceDate": "昭惠后复奏霓裳残谱后；未记年月",
+      "summary": "《十国春秋》及陆游本记徐铉从国工曹生处听到《霓裳》曲，问法曲曲终本应舒缓、此声何以反急。曹生答旧谱本缓而宫中有人改动，并称不是吉兆；这是原书人物的音律判断，不作为乐曲导致母子死亡的事实因果。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "內史舍人徐鉉聞之於國工曹生，鉉亦知音，問曰：「扶曲終則緩，此聲乃反急，何也？」曹生曰：「舊譜實緩，宮中有人易之，非吉徵也。」"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "内史舍人徐鉉聞之於國工曹生鉉亦知音問曰法曲終則緩此聲乃反急何也曹生曰舊譜實緩宫中有人易之非吉徵也"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令本仅记徐姓官员",
+          "sourceDate": "按谱、变曲之后；未记年月",
+          "summary": "马令本作中书舍人徐，未写铉名，随后引曹生答语和史家音与治乱之论。保留这一本省称徐姓、未记全名的叙法，不由姓氏或官称确认所指一定为徐铉。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "中書舍人徐聞霓裳羽衣曰法曲終慢而此聲太急何耶曹生曰其本實慢而宮中有人易之然非吉徴也"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《十国春秋》扶曲与陆游本法曲字形不同，依各自底本保存，不静改原字。",
+        "这里的曹生是国工、乐工称谓，未补姓名、籍贯或与其他曹氏的身份关系。"
+      ]
+    },
+    {
+      "id": "xu-xuan-younger-zhou-marriage-deliberation",
+      "title": "奉命参议继后婚礼，与潘佑有异议",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 968,
+        "end": 969
+      },
+      "phase": "uncertain",
+      "sortOrder": 13,
+      "sourceDate": "开宝元年始议立后；病疽与戏言属后续连叙",
+      "summary": "李煜议立继后时，徐铉奉命参定婚礼。《十国春秋》记他与潘佑就用乐、钟鼓和答拜争论，徐游多取潘佑之议；徐游患疽后，徐铉因其不支持己议而戏言周、孔。礼议属于开宝元年始议的范围，后续病疽戏言未独记年月。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "開寶元年，始議立后爲繼室，命太常博士陳致雍考古今沿革，草具昏禮，又命學士徐鉉、知制誥潘佑參定。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "鉉曰：「昏禮古不用樂。」佑以爲今古不相沿襲，請用樂。鉉曰：「按古房中樂無鐘鼓。」佑引《詩》「窈窕淑女，鐘鼓樂之」，則房中樂宜有鐘鼓。后初見君，《後魏書》有先拜後起，帝後拜先起之文，鉉舉此以爲夫婦之禮，人倫之本，請答拜。佑以爲王者昏禮不與庶人同，請無答拜。議久不決。後主令文安郡公徐遊評其異同，遊多是佑議，遂施用之。逾月，遊病疽，鉉懟其不主己議，戲語人曰：「周、孔亦能爲厲乎？」"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "開寳元年始議立后為繼室命太常博士陳致雍攷古今沿革草具婚禮又命學士徐鉉史官潘佑參定文安郡公徐遊評其異同遊多是佑議遂施用之逾月遊病疽鉉懟其不主已議戲語人曰周孔亦能為厲乎"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令本的徐姓省称与戏言者异文",
+          "sourceDate": "始议婚礼至徐游患疽的连叙",
+          "summary": "马令本在礼议中只作中书舍人徐，未具铉名；后文则记徐游患疽而戏称周孔亦有凶乎。该书戏言者与《十国春秋》、陆游本所写的徐铉不同，不能据此强合言者。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "詔中書舍人徐知制誥潘佑與禮官㕘議曰婚禮吉不用樂"
+            },
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "後主令文安郡公徐遊評其是非時佑方寵用遊希旨奏佑為是旣而遊病疽戲謂人曰周孔亦有𥚢乎"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "968—969仅为开宝元年始议的有效范围；原书后续逾月不提供婚礼或戏言的独立确日。",
+        "患疽及周、孔之语为原书人物戏言，不认作神灵致病实证；潘佑、徐游的决定不写成徐铉议获采纳。"
+      ]
     }
   ]
 }

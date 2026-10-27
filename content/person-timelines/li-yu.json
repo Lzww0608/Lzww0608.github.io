@@ -160,6 +160,27 @@
           "originalRevision": 1,
           "originalSha256": "42ba9e79f1185f230212f297ba9681205f9571ce67f10c10dc569a854111bd8c",
           "excerpt": "後主即位冊為太后以父為太章故號聖尊后"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "後主嗣位，册立爲國后，寵嬖專房。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "後主嗣位立為后寵嬖專房"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "後主即位冊為國后"
         }
       ],
       "phase": "rule",
@@ -170,6 +191,59 @@
         "钟后传记后主嗣立后改母号，景达传旁记后主即位后加礼；两传未记承位地点或改名日。《新五代史》记建隆二年李煜在金陵承位。"
       ],
       "sortOrder": 4
+    },
+    {
+      "id": "li-yu-zhou-empress-illness-and-mourning",
+      "title": "亲侍昭惠后病，卒后作诔悼亡",
+      "year": 964,
+      "precision": "year",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "昭惠后乾德二年十一月甲戌卒；侍疾、作诔与后续哀悼未独记年月",
+      "summary": "昭惠周后患病，李煜朝夕照料，药先亲尝，数夜不解衣。周后去世后，他哀苦扶杖，自作诔文刻石，又写书焚祭，自称鳏夫煜。964年依据周后卒日；侍疾起点和各次悼亡行动没有各自确日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "未幾，后臥疾，後主朝暮視食，藥非親嘗不進，服不解體者累夕。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "越三日，沐浴糚澤，自內含玉，殂于瑤光殿之西室，時乾德二年十一月甲戌也。年二十有九。葬懿陵，諡日昭惠。後主哀苦傷神，扶杖而起，自製誄，刻之石，與后所愛金屑檀糟琵琶同葬。又作書燔之，自稱「鰥夫煜」，其辭數千言，皆極酸楚。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "後主哀甚自製誅刻之石與后所愛金屑檀槽琵琶同葬又作書燔之與訣自稱鰥夫煜其辭數千言皆極酸楚"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "後主朝夕視食藥非親嘗不進衣不解帶者累夕"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "殂于瑤光殿之西室時乾徳二年十一月甲戌也享年二十九眀年正月壬午遷靈柩于園寢後主哀苦骨立杖而後起〈譏之也何譏爾鍾太后在故也〉自為誄曰"
+        }
+      ],
+      "notes": [
+        "昭惠周后与光穆钟后是不同人物；钟后965年卒前的侍疾及哀毁另有记载。",
+        "乾德二年十一月甲戌按历表为西历964年；马令本明年正月迁柩另在965年，不把葬事与全部哀悼都定在964年同一日。",
+        "陆游本作自製誅，依该段悼亡文语境释，底本字不改。马令本因钟太后尚在而讥李煜哀毁，是作者评礼，不作为死因或新的疾病记载。",
+        "《十国春秋》及陆游本末尾或谓小周入宫的说法与叙事正文分层，不以该传闻确定李煜过哀的唯一动机。"
+      ]
     },
     {
       "id": "li-yu-zhong-empress-illness-and-mourning",
@@ -251,6 +325,20 @@
               "excerpt": "而後主卒不行，以至城䧟。"
             }
           ]
+        },
+        {
+          "label": "马令本的宝藏及焚毁叙法",
+          "sourceDate": "都城将陷、及城陷；未独记年月日",
+          "summary": "马令本记李煜称图籍为吾所宝惜，预先命黄氏在城不可守时焚毁；后接图籍俱煬，未另明写实际焚毁者。与《十国春秋》及陆游本的先帝所宝、汝即焚之分源保留。此段没有为城陷补记月份或确日。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p10",
+              "originalRevision": 1,
+              "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+              "excerpt": "都城將䧟後主謂黄氏曰此皆吾所寳惜城若不守即焚之無使散逸及城䧟圗籍俱煬靡有遺者"
+            }
+          ]
         }
       ]
     },
@@ -259,7 +347,7 @@
       "year": 976,
       "sourceDate": "开宝九年、宋太祖时",
       "title": "俘至京师，封违命侯",
-      "summary": "李煜被押到宋京师，宋太祖赦免，封违命侯、授左千牛卫将军。原篇以其后事具国史收束，不补未归档的死亡年份、死因或后续待遇。",
+      "summary": "李煜被押到宋京师，宋太祖赦免，封违命侯、授左千牛卫将军。《新五代史》本篇以其后事具国史收束，未在该篇叙写死亡年份、死因或后续待遇。",
       "evidence": [
         {
           "chapterId": "new-v62",
@@ -308,6 +396,34 @@
               "originalRevision": 1,
               "originalSha256": "d5c81b999eb04a22a03d5d782e2ae5b6aa456f0d6a6d961c9c55f5178f0e598b",
               "excerpt": "保儀亦從北遷卒於大梁"
+            }
+          ]
+        },
+        {
+          "label": "马令本记继后随夫降号",
+          "sourceDate": "归于京师；未独记年月日",
+          "summary": "马令本在继后传记入京后去除原后号与地位、依从丈夫的爵位；没有给李煜抵京及受封增补确日。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "歸于京師去號位従夫之爵"
+            }
+          ]
+        },
+        {
+          "label": "马令本记黄氏随俘入京",
+          "sourceDate": "城陷后随俘至京师；黄氏卒年未独记",
+          "summary": "马令本记黄氏随后主被俘到京师而卒；黄氏卒事没有独记年日，不能与入京当日或小周后卒日相并。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p10",
+              "originalRevision": 1,
+              "originalSha256": "80d5335ca9f688fc5f36e50a348c770225aa8a33a38e0a0dce58754533a36d18",
+              "excerpt": "黄氏隨後主俘至京師卒"
             }
           ]
         }
@@ -697,6 +813,106 @@
       ],
       "notes": [
         "不把伪装的驿卒女身份当作真实父女关系；本书未记年，不用其他书不同主人或使行年次静改为本书所载。"
+      ]
+    },
+    {
+      "id": "li-yu-younger-zhou-marriage-deliberation",
+      "title": "开始议立继后，命官讨论婚礼",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 968,
+        "end": 969
+      },
+      "phase": "uncertain",
+      "sortOrder": 19,
+      "sourceDate": "开宝元年始议立后；亲迎及婚宴未独记年月",
+      "summary": "昭惠后去世、钟太后丧事后，中宫久虚，李煜开始商议立小周氏为继后，命陈致雍考订婚礼，徐铉、潘佑等参议，并令徐游评定分歧。原书的开宝元年只限定始议，不足以把后来的亲迎、宴会也定为同年同日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "開寶元年，始議立后爲繼室，命太常博士陳致雍考古今沿革，草具昏禮，又命學士徐鉉、知制誥潘佑參定。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "後主令文安郡公徐遊評其異同，遊多是佑議，遂施用之。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "開寳元年始議立后為繼室命太常博士陳致雍攷古今沿革草具婚禮又命學士徐鉉史官潘佑參定文安郡公徐遊評其異同遊多是佑議遂施用之"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "至開寳元年始議立后為國后南唐享國日淺而三世皆娶于藩邸故國主婚禮議者不一詔中書舍人徐知制誥潘佑與禮官㕘議曰婚禮吉不用樂"
+        }
+      ],
+      "notes": [
+        "开宝元年始于968年末，其有效范围跨968—969；原文未记议婚月日，不以月首代替。",
+        "《十国春秋》及陆游本具名徐铉；马令本只写中书舍人徐，未由此官称补定其名。",
+        "三书的同类礼议叙事不能算作三个独立复证，徐游评议与后续病疽戏言也不合为神异因果。"
+      ]
+    },
+    {
+      "id": "li-yu-death-in-song",
+      "title": "在宋去世，诸书记年有异",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 977,
+        "end": 979
+      },
+      "phase": "uncertain",
+      "sortOrder": 20,
+      "sourceDate": "《十国春秋》、陆游本太平兴国二年；马令本太平兴国三年",
+      "summary": "《十国春秋》及陆游本在太平兴国二年记后主去世，马令本则系太平兴国三年。两种原书记年各跨西历年，外包范围为977—979，不表示死亡持续三年，也不据两范围交集确定唯一卒年。三书随后记小周后亦卒，未说明同日或死因。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "太平興國二年，後主暴隕，后悲哀不自勝，亦薨。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "太平興國二年後主殂后悲哀不自勝亦卒"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令本系太平兴国三年",
+          "sourceDate": "太平兴国三年",
+          "summary": "马令本记陇西公薨、周氏亦薨。该原年号对应西历978—979范围，与另两书二年对应977—978分别保留，不交集推出唯一978年。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "太平興國三年隴西公薨周氏亦薨"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《十国春秋》用暴隕，陆游本作殂；这些用字没有独立给出死亡日、死因或被害者、施害者。",
+        "小周后悲哀不自胜与亦卒是原书连叙，不补同日、殉死、自杀或具体病因。",
+        "此事为后妃传所叙李煜在宋其后事；《新五代史》李煜本篇仍以其後事具國史收束，二者的篇章范围有别。"
       ]
     }
   ]
