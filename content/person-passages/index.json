@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 247,
-    "paragraphCount": 9652
+    "chapterCount": 248,
+    "paragraphCount": 9660
   },
   "people": [
     {
@@ -119165,6 +119165,154 @@
         },
         {
           "personId": "nantang-fangyi",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v020-p2",
+      "chapterId": "shiguochunqiu-v020",
+      "title": "卷 20 · 南唐列传（徐氏、宋齐丘） · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v020-p2",
+          "originalRevision": 1,
+          "originalSha256": "2eb089768acc191dfe75ffdfc8cf4e1ab78c63b92c2b9a53fb70a894deafe649",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v020-p3",
+      "chapterId": "shiguochunqiu-v020",
+      "title": "卷 20 · 南唐列传（徐氏、宋齐丘） · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v020-p3",
+          "originalRevision": 1,
+          "originalSha256": "6994516ac9eab34347e4234260d1a3d36a775b2eeeee51b4c6f0f7026cc161f8",
+          "start": 0,
+          "end": 692
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v020-p5",
+      "chapterId": "shiguochunqiu-v020",
+      "title": "卷 20 · 南唐列传（徐氏、宋齐丘） · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v020-p5",
+          "originalRevision": 1,
+          "originalSha256": "af6baa1dc70d7252c429858e78057767348b10883cf0254bc4ba838b2dfb66c2",
+          "start": 0,
+          "end": 580
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "xu-xuan",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-yu-empress-zhaohui",
+          "kind": "record"
+        },
+        {
+          "personId": "nantang-li-yu-younger-zhou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v020-p7",
+      "chapterId": "shiguochunqiu-v020",
+      "title": "卷 20 · 南唐列传（徐氏、宋齐丘） · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v020-p7",
+          "originalRevision": 1,
+          "originalSha256": "4c5f721935ccb3de29eeb7cb569e87785f0425a94e60f10238b967d3489376c2",
+          "start": 0,
+          "end": 3060
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-pu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "biography"
+        },
+        {
+          "personId": "han-xizai",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-lian-wife-li-yongxing",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-pu-princess-shangrao",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v020-p8",
+      "chapterId": "shiguochunqiu-v020",
+      "title": "卷 20 · 南唐列传（徐氏、宋齐丘） · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v020-p8",
+          "originalRevision": 1,
+          "originalSha256": "add3ef1656828a54428c1c6b9ba1760b3f93945b140883bf688af9ac89f387ea",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "people": [
+        {
+          "personId": "song-qiqiu",
           "kind": "biography"
         }
       ]
