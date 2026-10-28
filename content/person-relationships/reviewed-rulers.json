@@ -1664,6 +1664,14 @@
         "paragraphId": "new-v62-p13",
         "title": "《新五代史》 · 卷 62 · 南唐世家第二",
         "excerpt": "昪致書高祖，復送光鄴等，請以敗軍行法，高祖又遣之，昪以甲士臨淮拒之，乃止。"
+      },
+      {
+        "title": "《十国春秋》 · 卷 15 · 南唐烈祖本纪（李昪）",
+        "chapterId": "shiguochunqiu-v015",
+        "paragraphId": "shiguochunqiu-v015-p6",
+        "originalRevision": 1,
+        "originalSha256": "af89ee5ef5acfdc6db2540d568fab1f9ae7956885addb6d7605e22054052040b",
+        "excerpt": "時馬全節斬李承裕于安州城下，送監軍杜光業等五百七十人於大梁，晉生曰：「此曹何罪。」皆賜馬及器服而歸之。光業等至瞎，先主以其違命而敗，不受，復送於淮北，遺晉書曰：「邊校貪功，乘便據壘。」又曰：「軍法朝章，彼此不可。」晉復遺之歸。使者將自桐墟濟淮， 先主遣戰艦拒之，乃還晉，悉授唐諸將官，以其士卒爲顯義都，命舊將劉康領之。"
       }
     ]
   },
@@ -1857,7 +1865,7 @@
     "to": "li-jing-southern-tang",
     "kind": "conflict",
     "label": "淮南战争与议和",
-    "note": "周世宗遣军及亲征南唐，李璟遣将抵御；958年议和献江北余四州，以江为界。李璟表称唐国主，周帝书称江南国主；曾议传弘冀而周劝不必，没有发生国主位向柴荣正常交接。",
+    "note": "周世宗遣军及亲征南唐，李璟遣将抵御；958年议和献江北余四州，以江为界。李璟表称唐国主，周帝书称江南国主；曾议传弘冀而周劝不必，没有发生国主位向柴荣正常交接。《十国春秋》卷十七夹引《宋史》所载李煜建隆二年承位表，追述元宗欲内禅及周世宗劝止。表文作“从冀”，《十国春秋》元宗本纪与《通鉴》作“弘冀”，各从其本；建隆二年是上表语境，所述议论发生在此前。",
     "sources": [
       {
         "chapterId": "new-v62",
@@ -1882,6 +1890,12 @@
         "paragraphId": "tongjian-v294-p22",
         "title": "《资治通鉴》 · 卷 294 · 后周纪5",
         "excerpt": "辛丑，陳覺辭行，又賜唐主書，諭以不必傳位於子。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v017",
+        "paragraphId": "shiguochunqiu-v017-p3",
+        "title": "《十国春秋》 · 卷 17 · 南唐后主本纪",
+        "excerpt": "臣亡兄文獻太子從冀將從內禪，已決宿心，而世宗敦勸既深，議言因息。"
       }
     ]
   },
@@ -2069,7 +2083,7 @@
     "to": "han-xizai",
     "kind": "service",
     "label": "任侍郎、学士，死后赠平章事",
-    "note": "新史记李煜拜韩熙载中书侍郎、勤政殿学士；曾欲用为相而未成，死后才赠平章事。任职、拟相与追赠分别说明，不将韩列为生前已经正式拜相。书内是岁卒按乾德五年叙次保存，不以外部未归档卒年覆盖。",
+    "note": "新史记李煜拜韩熙载中书侍郎、勤政殿学士；曾欲用为相而未成，死后才赠平章事。任职、拟相与追赠分别说明，不将韩列为生前已经正式拜相。《新五代史》按乾德五年叙次记卒，马令本纪另记开宝三年，保留纪年分歧。谏亲录囚一事，两本纪捐款或罚款、采纳或不听分别保存。",
     "sources": [
       {
         "chapterId": "new-v62",
@@ -2082,6 +2096,44 @@
         "paragraphId": "new-v62-p42",
         "title": "《新五代史》 · 卷 62 · 南唐世家第二",
         "excerpt": "是歲，熙載卒，煜嘆曰：「吾終不得熙載為相也。」欲以平章事贈之，問前世有此比否？羣臣對曰：「昔劉穆之贈開府儀同三司。」遂贈熙載平章事。"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 5 · 后主书第五",
+        "chapterId": "nantangma-v005",
+        "paragraphId": "nantangma-v005-p6",
+        "originalRevision": 1,
+        "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+        "excerpt": "二年春正月始用鐵錢以鐵錢使户部侍郎韓熈載為兵部侍郎勤政殿學士"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 5 · 后主书第五",
+        "chapterId": "nantangma-v005",
+        "paragraphId": "nantangma-v005-p6",
+        "originalRevision": 1,
+        "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+        "excerpt": "三年中書侍郎韓熈載卒贈平章事"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 5 · 后主书第五",
+        "chapterId": "nantangma-v005",
+        "paragraphId": "nantangma-v005-p6",
+        "originalRevision": 1,
+        "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+        "excerpt": "冬較獵于青龍山還憇大理寺親録囚徒原貸甚衆韓熈載奏獄訟有司之事囹圄之中非車駕所至請捐内帑錢三百萬充軍資庫用國主従之曰繩愆糾謬其熈載之謂乎"
+      },
+      {
+        "title": "《南唐书（陆游）》 · 卷 3 · 后主本纪第三",
+        "chapterId": "nantanglu-v003",
+        "paragraphId": "nantanglu-v003-p17",
+        "originalRevision": 1,
+        "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+        "excerpt": "常獵於青山還如大理寺親録繫囚多所原釋中書侍郎韓熙載奏獄訟有司之事囹圄非車駕所宜臨幸請罰内庫錢三百萬以資國用雖不聽亦不怒也"
+      },
+      {
+        "chapterId": "shiguochunqiu-v017",
+        "paragraphId": "shiguochunqiu-v017-p6",
+        "excerpt": "九月，拜韓熙載兵部尚書，充勤政殿學士承旨。",
+        "title": "《十国春秋》 · 卷 17 · 南唐后主本纪"
       }
     ]
   },
@@ -2186,6 +2238,20 @@
         "paragraphId": "new-v62-p47",
         "title": "《新五代史》 · 卷 62 · 南唐世家第二",
         "excerpt": "煜遣其臣徐鉉朝于京師。"
+      },
+      {
+        "title": "《南唐书（马令）》 · 卷 5 · 后主书第五",
+        "chapterId": "nantangma-v005",
+        "paragraphId": "nantangma-v005-p6",
+        "originalRevision": 1,
+        "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+        "excerpt": "國主遣徐鉉周惟簡奉表乞緩師不答"
+      },
+      {
+        "chapterId": "shiguochunqiu-v017",
+        "paragraphId": "shiguochunqiu-v017-p6",
+        "excerpt": "命吏部侍郎、修國史韓配饑知貢舉，放進士王崇古等九人；既又命中書舍人徐鉉覆舒雅等五人，雅等不就，乃御殿命題親試，以中書官蒞其事，五人皆見黜。",
+        "title": "《十国春秋》 · 卷 17 · 南唐后主本纪"
       }
     ]
   },
@@ -2202,6 +2268,32 @@
         "paragraphId": "tongjian-v291-p73",
         "title": "《资治通鉴》 · 卷 291 · 后周纪2",
         "excerpt": "鍇，鉉之弟也。"
+      }
+    ]
+  },
+  {
+    "id": "li-yu-qian-hongchu-letter-warning",
+    "from": "li-yu",
+    "to": "qian-hongchu",
+    "kind": "conflict",
+    "label": "致书相戒，转呈宋廷",
+    "note": "陆游本记吴越兵攻常、润，后主以两国前途写信警戒吴越王，吴越王把来书呈报宋廷。吴越王依钱俶承主至宋太宗时的来源上下文辨认；不写钱俶本人亲征，不作两君订盟或来信已获采纳。《十国春秋》同载来书与转呈，今／明天子按两书原字保存，不据并列记载增加通信次数。",
+    "sources": [
+      {
+        "title": "《南唐书（陆游）》 · 卷 3 · 后主本纪第三",
+        "chapterId": "nantanglu-v003",
+        "paragraphId": "nantanglu-v003-p16",
+        "originalRevision": 1,
+        "originalSha256": "bd6809269b135d5eb3ef75a01bfa15287b0afaac5674d769f3e36a323f99490c",
+        "excerpt": "呉越亦大舉兵犯常潤國主遺呉越王書曰今日無我明日豈有君一旦明天子易地賞功王亦大梁一布衣耳呉越王表其書於朝"
+      },
+      {
+        "title": "《十国春秋》 · 卷 17 · 南唐后主本纪",
+        "chapterId": "shiguochunqiu-v017",
+        "paragraphId": "shiguochunqiu-v017-p16",
+        "originalRevision": 1,
+        "originalSha256": "d3ab20cc47569c442c08e8791abdb928898e92c6ea7c4b5115cd4d0229eb0873",
+        "excerpt": "國主遺吳越王書曰：「今日無我，明日豈有君，一旦今天子易地賞功，王亦大梁一布衣耳。」吳越王表其書于宋。"
       }
     ]
   }

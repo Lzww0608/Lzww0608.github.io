@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-congshan-consort",
+  "events": [
+    {
+      "id": "nantang-li-congshan-consort-crying-and-death",
+      "title": "屡次号哭求见，忧愤而卒",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 971,
+        "end": 976
+      },
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "从善开宝四年留宋以后、南唐国亡以前；无独立卒年",
+      "summary": "从善妃多次到后主处号泣，后主闻其到来便避开；原书记她忧愤而卒，国人哀怜。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p13",
+          "originalRevision": 1,
+          "originalSha256": "e01be26c7f34eb1c3a6674a21726b4a88d5ea63b0e69283e3455042b23f6f007",
+          "excerpt": "從善妃屢詣後主號泣，後主聞其至，輙起避去。妃憂憤而卒，國人哀之。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p13",
+          "originalRevision": 1,
+          "originalSha256": "9392ce7181808e9ab36b87633d66b8e0ca94311762cf5d29d7fbbe3763a5d3d5",
+          "excerpt": "從善妃屢詣後主號泣後主聞其至輒避去妃憂憤而卒國人哀憐之"
+        }
+      ],
+      "notes": [
+        "971—976是留宋后至国亡前的宽外界，不等于开宝四年即卒，也不补被囚、贬黜或赐死。"
+      ]
+    }
+  ]
+}

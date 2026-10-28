@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-yu-younger-zhou",
+  "events": [
+    {
+      "id": "nantang-li-yu-younger-zhou-wedding",
+      "title": "本纪记十一月纳后、立为国后",
+      "summary": "马令本纪在开宝元年冬十一月记纳后，陆游本纪同月记立周氏为国后。后妃传另叙纳采以鹅代雁、亲迎围观及次日群臣宴诗；这些步骤的月日没有各自独记，相关命令、议礼与诗讽也各有施事。",
+      "year": 968,
+      "sortOrder": 0,
+      "precision": "month",
+      "sourceDate": "本纪开宝元年冬十一月纳后、立后；后妃传礼仪步骤未各记月日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "至納后，乃成禮而已。翼日，大燕羣臣"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "及親迎民庶觀者或登屋極至有墜瓦而斃者"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p10",
+          "originalRevision": 1,
+          "originalSha256": "228bb6e9dd9a8d9d98ce6ea8d5ac37e18a3c3e1c308f68c992f4c6f7fc791e94",
+          "excerpt": "冬十一月，立周氏爲國后。"
+        }
+      ],
+      "notes": [
+        "校鹅字义保疑；徐铉／徐游戏言施事分源，不把戏语写作鬼神致病。",
+        "开宝元年十一月整月在西历968年。月份只用于本纪明确记载的纳后、立后终点，不把前一始议范围、全部礼仪步骤或各人行动都定为同月同日。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪明记十一月纳后、立后",
+          "sourceDate": "开宝元年冬十一月，未独记日",
+          "summary": "马令本纪记纳后周氏、昭惠之母弟，陆游本纪同月立国后周氏；以同月正式纳后、立后为纪年依据，女宪传纳采亲迎各步骤未各记月日。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "開寳元年夏江王景逷卒冬十有一月納后周氏昭惠之母弟也"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p10",
+              "originalRevision": 1,
+              "originalSha256": "fbb084c3eb749b6f48de53403ef70a61db976eec7264be160bdaccfb7dd2db49",
+              "excerpt": "冬十一月立國后周氏"
+            }
+          ],
+          "year": 968
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-kaishan-buddhist-court-practice",
+      "title": "与后主服僧衣诵经拜跪",
+      "year": 970,
+      "precision": "year",
+      "phase": "rule",
+      "sourceDate": "开宝三年春叙次，未独记月日",
+      "summary": "本纪在继后已立、昭惠及钟后均已卒的叙次，记国主与后着僧衣诵经拜跪；此后对应继后周氏。原书未另记受戒、出家或独立日次。",
+      "notes": [
+        "本纪“预僧伽帽”字有疑，保存原字并依服饰语境释；不把僧帽袈裟推作正式僧籍。",
+        "本段由春叙事转夏四月，仅采用970年，不补某月初一或诵经确日。",
+        "《十国春秋》记国主与后服僧衣诵经；马令另载的具体场所、频次及是否同一次仪式未详。"
+      ],
+      "sortOrder": 0,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p12",
+          "originalRevision": 1,
+          "originalSha256": "e116f0232e52dbd74c20e4144b2afdca164769266521482c8c7715c015d61592",
+          "excerpt": "開寶三年，春，命境內崇修佛寺。〈馬令《南唐書》云：建康城中僧徒迨至數千，給稟米緡帛以供之。〉改寶公院爲開善道場，國主與后預僧伽帽衣袈裟，誦佛經，拜跪頓顙，至爲瘤贅。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令另叙宫中精舍和帝后诵经",
+          "sourceDate": "开宝三年段，未独记此段仪式月日",
+          "summary": "马令另记命崇修佛寺、广署僧尼精舍及国主与后服僧衣诵经拜跪，未在此处写开善道场名称。不足将两书的具体场景确定为一次仪式，保留为来源并列，不据此相加或合并实际仪式次数。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "命境内崇修佛寺又於禁中廣署僧尼精舍多聚徒衆國主與后頂僧伽帽衣袈裟誦佛經拜跪頓顙至為瘤贅由是建康城中僧徒迨至數千給廪米緡帛以供之"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-palace-before-marriage",
+      "title": "婚前间入宫，钟后怜爱",
+      "summary": "原书记她年少以后族身份不时入宫、钟后怜爱；昭惠病中所见与她待年，按各书叙法保存，不作确定病因。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "婚礼以前；未独记年月或她的年龄",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "后少以戚里，間入宮掖，聖尊后絕憐愛之。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "昭惠感疾后常出入卧内而昭惠未之知也"
+        }
+      ],
+      "notes": [
+        "原书只记钟后怜爱，未记召入、命婚或册立。"
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-marriage-discussion",
+      "title": "开宝元年始议立为继室",
+      "summary": "后主服丧、中宫名位久未正后，开宝元年才始议立她为继室并命官草议婚礼。范围只用于始议，不让后续亲迎自动同年。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "range",
+      "sourceDate": "开宝元年始议；所记年号跨西历968—969",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "開寶元年，始議立后爲繼室"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "開寳元年始議立后為繼室"
+        }
+      ],
+      "notes": [
+        "开宝元年始于年末，相应时段跨西历968—969；本段未记始议月日。"
+      ],
+      "yearRange": {
+        "start": 968,
+        "end": 969
+      },
+      "variants": [
+        {
+          "label": "徐游传所记乾德初",
+          "sourceDate": "本传作乾德初，与后妃传开宝元年始议分源",
+          "summary": "徐游传在“乾德初”下叙继立国后周民及徐铉、潘佑争议，由后主令徐游评定。与后妃传“开宝元年始议”纪年不同，分别保存。",
+          "notes": [
+            "本段“周民”原字保留，依继立国后及评礼上下文辨其身份，不据此补本名；未将两处纪年改成同一确日。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v020",
+              "paragraphId": "shiguochunqiu-v020-p5",
+              "originalRevision": 1,
+              "originalSha256": "af6baa1dc70d7252c429858e78057767348b10883cf0254bc4ba838b2dfb66c2",
+              "excerpt": "乾德初，繼立國后周民，徐鉉，潘佑議婚禮不決，後主命遊評兩家是非。時佑方寵用，遊希旨奏佑議爲長，其將迎多此類也。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-court-banquet",
+      "title": "与后主在亭中宴饮",
+      "summary": "原书记后主造狭小华丽亭，常与继后酣饮；建亭施事是后主，不归作她建造。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "后主宫廷生活记载；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "每與后酣飲其問。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "每與后酣飲其中"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-northward-title",
+      "title": "国亡北迁，书载郑国夫人",
+      "summary": "《十国春秋》、陆游记她随李煜北迁并封郑国夫人；马令记去后号、从夫爵，不混成同一称号用语。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "国亡后；未独记授封年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "國亡，隨後主北遷，封鄭國夫人。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令记随夫去号",
+          "sourceDate": "归京师以后，未独记年月",
+          "summary": "马令说去号位、从夫爵，未在此句列郑国夫人。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "歸于京師去號位従夫之爵"
+            }
+          ]
+        },
+        {
+          "label": "墓志称郑国夫人周氏",
+          "sourceDate": "后主卒后墓志，未独记她受封年月",
+          "summary": "所引墓志以郑国夫人周氏称后主夫人，与后妃传所记封号闭合；碑文未独叙她北迁或受封过程，不把称号颂述另写一次册封。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "夫人鄭國夫人周氏、勳舊之族，是生邦媛，肅雍之美，流詠國風。才實女師，言成閫則。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-song-palace",
+      "title": "宋宫宴乐后哭骂，后主回避",
+      "summary": "《十国春秋》记她随命妇入宋宫宴乐，数日出后哭骂后主，后主婉转回避；不补原文未明的侵害细节。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "入宋以后；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "例隨命婦入宋宮，爲燕樂，進輒數日裁出，出必大泣，詈後主，聲聞於外，後主多宛轉避之。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-younger-zhou-death",
+      "title": "在宋去世，记年有二、三年之异",
+      "summary": "《十国春秋》、陆游记太平兴国二年后主殂后，她悲不自胜亦卒；马令作三年。977—979只是两种记年的外包范围，不是历时三年、同日殉死或确年978。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "太平兴国二年（977—978）／马令三年（978—979）；展示两说外包977—979",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "太平興國二年，後主暴隕，后悲哀不自勝，亦薨。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "太平興國二年後主殂后悲哀不自勝亦卒"
+        }
+      ],
+      "notes": [
+        "不取交集伪定978；原文未记两人同日死亡或间隔日数。"
+      ],
+      "yearRange": {
+        "start": 977,
+        "end": 979
+      },
+      "variants": [
+        {
+          "label": "马令三年说",
+          "sourceDate": "太平兴国三年，西历范围978—979",
+          "summary": "本书记陇西公薨、周氏亦薨，独立保留三年说，不填唯一西历年。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "太平興國三年隴西公薨周氏亦薨"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

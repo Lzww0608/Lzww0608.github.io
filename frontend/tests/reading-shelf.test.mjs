@@ -92,10 +92,10 @@ test('actual Ma Ling book routes, exact paragraph bookmarks and script switching
   const archived = JSON.parse(await fs.readFile(new URL('../../content/five-dynasties/chapters/nantangma-v010.json', import.meta.url), 'utf8'));
   const original = archived.paragraphs[3], before = structuredClone(original);
   const target = 'read-nantangma/nantangma-v010?paragraph=' + original.id;
-  assert.equal(book.defaultChapter, chapter.id);
+  assert.equal(book.defaultChapter, 'nantangma-v005');
   assert.equal(resolveRoute('#' + target), target);
   assert.equal(resolveReadingRoute(target).focusParagraphId, original.id);
-  assert.equal(normalizeReadingShelfRoute('read-nantangma'), 'read-nantangma/nantangma-v010');
+  assert.equal(normalizeReadingShelfRoute('read-nantangma'), 'read-nantangma/nantangma-v005');
   assert.equal(parseReadingShelfRoute(target).chapterId, chapter.id);
   assert.equal(resolveReadingRoute('read-nantanglu/nantangma-v010'), null);
   assert.equal(parseReadingShelfRoute('read-nantangma/nantangma-v010?paragraph=nantangma-v010-p18'), null);

@@ -41,7 +41,8 @@ test('every relationship cites a real archived paragraph with an unchanged, exac
       assert.ok(chapter, `${edge.id}: ${source.chapterId}`);
       const paragraph = chapter.paragraphs.find(item => item.id === source.paragraphId);
       assert.ok(paragraph, `${edge.id}: ${source.paragraphId}`);
-      assert.ok(source.title.includes(chapter.bookTitle), `${edge.id}: source title`);
+      // Both 《南唐书（陆游）》 and 《南唐书》（陆游） identify this edition.
+      assert.ok(source.title.replace(/[《》]/gu, '').includes(chapter.bookTitle), `${edge.id}: source title`);
       assert.ok(source.excerpt.trim(), `${edge.id}: quotation`);
       assert.ok(paragraph.original.includes(source.excerpt), `${edge.id}: exact archived quotation`);
     }

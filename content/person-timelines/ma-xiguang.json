@@ -237,7 +237,23 @@
       ],
       "phase": "fall",
       "precision": "day",
-      "sortOrder": 5
+      "sortOrder": 5,
+      "variants": [
+        {
+          "label": "本纪记希萼弑希广",
+          "sourceDate": "保大八年冬十二月；原书记月，不另新换算",
+          "summary": "本纪直记马希萼陷潭州、弑其君希广，自称楚王；与既有被俘后赐死过程分源保存，不由弑字补亲手杀害。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p10",
+              "originalRevision": 1,
+              "originalSha256": "4d02987d657d212e6c6161bcad3960897a46b7839e0638d8a7105adda93f490c",
+              "excerpt": "十二月，馬希萼攻陷潭州，弒其君希廣，自稱楚王。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ma-xiguang-prior-service",

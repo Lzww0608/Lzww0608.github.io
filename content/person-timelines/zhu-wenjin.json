@@ -67,7 +67,23 @@
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "本纪将弑曦自立系保大二年五月",
+          "sourceDate": "保大二年夏五月；《通鉴》三月",
+          "summary": "本纪记朱文进弑君曦、自称闽王、使唐被囚后释放；与其他书三月叙次并存，两书记月分别保存。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p4",
+              "originalRevision": 1,
+              "originalSha256": "42c46e99ab551ead89c031663e4c295cf615946b6f9460537131f6de8942db30",
+              "excerpt": "夏五月，閩人朱文進弒其君曦，自稱閩王，遣使來告。帝囚其使，將討之。議者謂閩亂由王延政，當先討。乃釋秋七月，鄂州王輿卒，以神武統軍韋建爲武昌軍節度使。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "zhu-wenjin-reverse-policy",

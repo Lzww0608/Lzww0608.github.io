@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-jianchang-princess",
+  "events": [
+    {
+      "id": "nantang-jianchang-princess-investiture",
+      "title": "受封建昌公主",
+      "summary": "本纪将李昪之女列入五女封授，受封建昌公主；其母、婚配及生卒未载。",
+      "year": 937,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "昇元元年十一月丁巳条连续叙列",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "封女五人爲盛唐、太和、永興、建昌、玉山公主。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "封女五人為盛唐太和永興建昌玉山公主"
+        }
+      ],
+      "notes": [
+        "原段未记生母、婚姻及确切生卒，不从封授补造这些经历。"
+      ]
+    }
+  ]
+}

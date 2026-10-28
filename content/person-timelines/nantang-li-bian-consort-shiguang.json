@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-bian-consort-shiguang",
+  "events": [
+    {
+      "id": "nantang-li-bian-consort-shiguang-entry-birth",
+      "title": "十六岁入宫",
+      "summary": "种氏十六岁入宫，隶属乐部；马令另记久未得幸、宋后多次推荐。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "年十六入宫，未独记历年",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "年十六，入宮，隸樂部。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令久不得幸",
+          "sourceDate": "十六入宫后，未独记年月",
+          "summary": "马令记久未得幸，宋后多次推荐。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p7",
+              "originalRevision": 1,
+              "originalSha256": "81f9659d2a944963d4414f296f0fdda017522e96e6a6041670896659f174606d",
+              "excerpt": "初進入宫年甫十六久不得幸宋后數數薦引"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "十六入宫未记历年；受禅后生子为另一时间层，出生外范围不能移用于入宫。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-birth-jingti",
+      "title": "生景逿，烈祖宠爱",
+      "summary": "种氏生景逿，烈祖因这是受禅后所得之子而特别喜爱；未由生日或入宫年龄倒定唯一出生年。",
+      "year": null,
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "烈祖受禅后所得子，未独记出生年",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "俄得幸，生景逿。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "烈祖以受禪後所得子， 甚愛之。"
+        }
+      ],
+      "notes": [
+        "937—943为受禅后、烈祖在世的外范围，不用于种氏十六岁入宫的时间。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-furen",
+      "title": "封夫人",
+      "summary": "本传记种氏宠爱日盛，封夫人；马令却未详品秩，不覆盖其缺载。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 3,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "种氏寵日盛，封夫人。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令未详品秩",
+          "sourceDate": "马令传首未详品秩，未记封授年月",
+          "summary": "马令开传说不知其品秩。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p7",
+              "originalRevision": 1,
+              "originalSha256": "81f9659d2a944963d4414f296f0fdda017522e96e6a6041670896659f174606d",
+              "excerpt": "先主种氏不知其品秩也"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-present-food-calm-anger",
+      "title": "持食进匕使怒解",
+      "summary": "烈祖暴怒时，种氏左手持食、右手进匕，仍从容如平时，烈祖怒气顿解。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 4,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "种氏左手持食，右手進匕，從容如平時，烈祖怒亦頓解。"
+        }
+      ],
+      "notes": [
+        "原文明记持食进匕、神态从容，受食者及具体方式未明，不擅定自食或喂帝。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-reprimand-and-nun",
+      "title": "进言受谴、幽居为尼",
+      "summary": "种氏借宠称儿子才胜齐王，被烈祖叱退、去簪珥、幽别宫，数月后度为尼。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 937,
+        "end": 943
+      },
+      "sortOrder": 5,
+      "sourceDate": "齐王受责后数日；又数月度尼，未独记年号月日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "數日，种氏負寵，輒乘間言景逷才過齊王"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "叱下殿，去簪珥，幽于別官。數月，命度爲尼。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴命嫁",
+          "sourceDate": "烈祖在世时，未独记年月",
+          "summary": "《通鉴》记种氏建议以景逷为嗣，唐主怒而命其改嫁；与《十国春秋》及陆游、马令《南唐书》种氏本传所记幽别宫、度尼分源保留，不拼成确定的两次处分。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v283",
+              "paragraphId": "tongjian-v283-p48",
+              "originalRevision": 1,
+              "originalSha256": "1a98637064a97302a683bbaa539eb7a68dfcb7e4c0214b3b548d33769725cad2",
+              "excerpt": "种氏乘間言，景逷雖幼而慧，可以為嗣。唐主怒曰：「子有過，父訓之，常事也。國家大計，女子何得預知！」即命嫁之。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "马令未标点数日句不借另一书静订，受谴不是已被处死。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-live-with-son-taifei",
+      "title": "随子就养、封王太妃",
+      "summary": "元宗即位后允许种氏在景逿宫中就养，并进封王太妃；引书另作国太妃。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 943,
+        "end": 945
+      },
+      "sortOrder": 6,
+      "sourceDate": "元宗即位、景逷始封保宁王之后；未独记月日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "元宗卽位，景逷始封保寧王，許种氏居景逿官就養，進封王太妃。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "江表志国太妃",
+          "sourceDate": "元宗即位后，未独记月日",
+          "summary": "《十国春秋》卷18引江表志作国太妃。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v018",
+              "paragraphId": "shiguochunqiu-v018-p4",
+              "originalRevision": 1,
+              "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+              "excerpt": "〈《江表志》云封國太妃。〉"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "943—945只取元宗即位至宋太后去世前的连续叙次外界，不把保宁王册封日移为种氏就养或受太妃号的确日。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-protected-by-li-jing",
+      "title": "获元宗解免旧怨加害",
+      "summary": "元敬皇后挟旧怨屡欲甘心，元宗为种氏力解而免；不把欲加害写成已经实行。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "yearRange": {
+        "start": 943,
+        "end": 945
+      },
+      "sortOrder": 7,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "元敬皇后挾舊怨，屢欲甘心，賴元宗力解乃免"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p4",
+          "originalRevision": 1,
+          "originalSha256": "f6b324b1023b3faf319ad05797f8c9a47c8ab04075bb76084f42270e68de4d9d",
+          "excerpt": "宋后挾舊怨屢欲加害元宗力解之乃止"
+        }
+      ],
+      "variants": [
+        {
+          "label": "通鉴欲害对象为景逷",
+          "sourceDate": "天福八年八月保宁王条后连叙，欲害未独记日",
+          "summary": "通鉴明确宋太后怨种夫人而欲害景逷，唐主保全景逷；不能把这条改成欲杀种氏，也未证实与本传为同一次事。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v283",
+              "paragraphId": "tongjian-v283-p70",
+              "originalRevision": 1,
+              "originalSha256": "f9f202499f4c8cf4f07e82b460a3ab0fe45380416df5095de6c38242d543ab59",
+              "excerpt": "宋太后怨种夫人，屢欲害景逷，唐主力保全之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-bian-consort-shiguang-death",
+      "title": "寿终",
+      "summary": "本传及马令记种氏终于寿终，未详卒年、年龄。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "sourceDate": "原文未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p4",
+          "originalRevision": 1,
+          "originalSha256": "04d89e60a36713fd5eea06ea4feb19731eec9a388289080c1fc7e91570200e6a",
+          "excerpt": "竟以壽終。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "81f9659d2a944963d4414f296f0fdda017522e96e6a6041670896659f174606d",
+          "excerpt": "竟以壽終"
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,44 @@
   "personId": "wu-yang-pu-princess-shangrao",
   "events": [
     {
+      "id": "wu-yang-pu-princess-shangrao-posthumous-title",
+      "title": "身后追封燕国君，谥贞庄",
+      "summary": "南唐代吴后，徐景迁被追封为高平郡王，上饶公主被追封为燕国君，谥贞庄。",
+      "year": 937,
+      "sortOrder": 3,
+      "precision": "day",
+      "sourceDate": "昇元元年十一月乙亥；两本烈祖本纪明记追封，原本传未记年月",
+      "phase": "posthumous",
+      "notes": [
+        "保留本书“燕国君”的称号；两人的追封均不写成生前爵位。",
+        "《十国春秋》本纪称景迁妻杨氏，陆游本纪明称吴上饶公主，并载谥贞庄；两条均在昇元元年十一月乙亥下，追封与去世分开。",
+        "昇元元年十一月乙亥按儒略历为937年12月31日，回推格里历为938年1月5日；本条年份沿项目既定的儒略历口径。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v004",
+          "paragraphId": "shiguochunqiu-v004-p22",
+          "originalRevision": 1,
+          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
+          "excerpt": "上饒公臣者，睿帝愛女也。太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。南唐禪代，追封景遷爲高平郡王，公主爲燕國君，諡曰貞莊。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p3",
+          "originalRevision": 1,
+          "originalSha256": "4f5692e307bfcf123e241038e8782d9b0fd1104c3bf173b60245e150679f86b9",
+          "excerpt": "乙亥，追封故高平王景遷妻楊氏爲燕國君。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "a83894af93c51e7c3ddd62bf325dd5cd7e9cf525ab5e267c0e5c3f4ebe61ed70",
+          "excerpt": "乙亥追封故髙平王景遷妃呉上饒公主為燕國君諡貞莊"
+        }
+      ]
+    },
+    {
       "id": "wu-yang-pu-princess-shangrao-marriage",
       "title": "嫁徐景迁",
       "summary": "杨溥女上饶公主在太和末嫁给左仆射徐景迁。",
@@ -17,7 +55,8 @@
       "sourceDate": "吴太和末",
       "phase": "uncertain",
       "notes": [
-        "929—935仅是大和／太和年号的宽外界：新史记乾贞三年十一月改大和，大和七年九月改天祚；不把“末”强定为末两年，也不表示这段时间持续发生婚事。"
+        "929—935仅是大和／太和年号的宽外界：新史记乾贞三年十一月改大和，大和七年九月改天祚；不把“末”强定为末两年，也不表示这段时间持续发生婚事。",
+        "景迁两传同记娶吴公主为驸马；陆游此处不载公主封号，《十国春秋》明称上饶。"
       ],
       "evidence": [
         {
@@ -40,6 +79,20 @@
           "originalRevision": 1,
           "originalSha256": "a143372cbd9974346f785c04af44cf54a7ffb5c42f1678d89e971e41195198db",
           "excerpt": "七年九月，溥加尊號曰睿聖文明光孝應天弘道廣德皇帝，大赦，改元天祚。知誥進位太師、天下兵馬大元帥，封齊王。二年，景遷病，以次子景遂為門下侍郎、參政事。三年，知誥建齊國，立宗廟、社稷，置左、右丞相已下，以金陵為西都，廣陵為東都。冬十月，溥遣江夏王璘奉冊禪位於齊王。十二月，溥卒於丹陽，[3]年三十八，謚曰睿。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p2",
+          "originalRevision": 1,
+          "originalSha256": "debce87e0d2dc3cbf4322ce372455ddc8b3783704685077b3b51d25b41da4c03",
+          "excerpt": "尚吳上饒公主，為駙馬都尉。"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p9",
+          "originalRevision": 1,
+          "originalSha256": "df48c65dda5cd3d1d7cdb15aded18c66dfeea511d2920c5304ffef80aef3aba1",
+          "excerpt": "烈祖輔吳景遷尚吳公主為駙馬都尉"
         }
       ]
     },
@@ -54,28 +107,6 @@
       "phase": "uncertain",
       "notes": [
         "不把丈夫的卒年或南唐受禅年自动挪作她的卒年。"
-      ],
-      "evidence": [
-        {
-          "chapterId": "shiguochunqiu-v004",
-          "paragraphId": "shiguochunqiu-v004-p22",
-          "originalRevision": 1,
-          "originalSha256": "afd93b03924e72a4b3f6953c6a6b1b814ec2ddb509de9195dbdfd0772e9d11b9",
-          "excerpt": "上饒公臣者，睿帝愛女也。太和末，下嫁左僕射徐景遷，會景遷死，公主亦繼亡。南唐禪代，追封景遷爲高平郡王，公主爲燕國君，諡曰貞莊。"
-        }
-      ]
-    },
-    {
-      "id": "wu-yang-pu-princess-shangrao-posthumous-title",
-      "title": "身后追封燕国君，谥贞庄",
-      "summary": "南唐代吴后，徐景迁被追封为高平郡王，上饶公主被追封为燕国君，谥贞庄。",
-      "year": null,
-      "sortOrder": 3,
-      "precision": "undated",
-      "sourceDate": "南唐禅代后；本传未独记追封年月",
-      "phase": "uncertain",
-      "notes": [
-        "保留本书“燕国君”的称号；两人的追封均不写成生前爵位。"
       ],
       "evidence": [
         {

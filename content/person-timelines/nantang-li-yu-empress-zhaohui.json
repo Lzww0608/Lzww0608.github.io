@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-yu-empress-zhaohui",
+  "events": [
+    {
+      "id": "nantang-li-yu-empress-zhaohui-queen",
+      "title": "后主嗣位后立为国后",
+      "summary": "李煜嗣位，立妃周氏为国后；其国后称谓与马令所述臣民称皇后分别保存。",
+      "year": 961,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "建隆二年后主承位叙次；未独记册日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "new-v62",
+          "paragraphId": "new-v62-p40",
+          "originalRevision": 1,
+          "originalSha256": "815fb8e60aafb37089294bd55e8e3339d17fe4a46ffa0f6924ddfe44fbfa8419",
+          "excerpt": "建隆二年，景遷南都，立煜為太子，留監國。景卒，煜嗣立於金陵。母鍾氏，父名泰章。煜尊母曰聖尊后；立妃周氏為國后；"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "妃周氏為國后"
+        },
+        {
+          "chapterId": "nantanglu-v003",
+          "paragraphId": "nantanglu-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "856ce7841f370734d02f20cce0efaaf2ec1316c6ed59bccffbd1c90e0a06499c",
+          "excerpt": "立妃周氏為國后"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "立妃周氏爲國后，"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-death",
+      "title": "乾德二年十一月甲戌去世",
+      "summary": "病重时她将琵琶、玉环交后主并书请薄葬，越三日去世于瑶光殿西室，享年二十九。确日只用于去世，临终各行为未另立同日。",
+      "year": 964,
+      "sortOrder": 2,
+      "precision": "day",
+      "sourceDate": "乾德二年十一月甲戌；儒略964年12月8日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "又作書請薄葬。越三日，沐浴糚澤，自內含玉，殂于瑤光殿之西室，時乾德二年十一月甲戌也。年二十有九。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "時乾徳二年十一月甲戌也享年二十九"
+        }
+      ],
+      "notes": [
+        "月本身跨965年，但甲戌实际仍在964；不用月首或别书日替换。",
+        "末或谓小周入宫、后主掩迹是说法，不定为死因。"
+      ],
+      "variants": [
+        {
+          "label": "两本纪十月、十一月分源",
+          "sourceDate": "马令乾德二年十一月；陆游十月子亡后周后亦卒",
+          "summary": "马令本纪只记十一月周后殂，未给甲戌日；陆游本纪在十月甲辰仲㝢卒后记周后悲伤病重而亦卒。甲辰用于所载子卒，不移作母后独日，亦不据十一月月首替甲戌。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "冬十月仲宣卒追封岐王十有一月國后周氏殂"
+            },
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "十月甲辰仲㝢卒國后周氏已寢疾哀傷増革遂亦卒十一月太祖遣作坊副使魏丕來弔祭"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》本纪十一月卒",
+          "sourceDate": "乾德二年十一月，未独日",
+          "summary": "本纪记十一月国后周氏殂、宋遣魏丕吊祭；未独记甲戌。只记月的范围跨964—965，与后妃传独日和陆游本纪十月连叙分源。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "十一月，國后周氏殂，宋遣作坊副使魏丕來弔祭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-coffin-transfer",
+      "title": "次年正月迁柩至园寝",
+      "summary": "马令记次年正月壬午迁灵柩至园寝；诸书又称葬懿陵、谥昭惠，葬名与迁柩纪日各保。",
+      "year": 965,
+      "sortOrder": 3,
+      "precision": "day",
+      "sourceDate": "明年正月壬午；儒略965年2月14日",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "眀年正月壬午遷靈柩于園寢"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "葬懿陵，諡日昭惠。"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "三年春葬昭惠后于懿陵"
+        }
+      ],
+      "notes": [
+        "965纪日属于马令迁柩，不是去世日，也不声称诸书均记此葬日。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》本纪记正月壬午葬",
+          "sourceDate": "乾德三年春正月壬午",
+          "summary": "本纪记壬午葬昭惠后于懿陵；马令女宪传称当日迁柩园寝，动作措辞分别保留，不将迁柩和死亡混为同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p7",
+              "originalRevision": 1,
+              "originalSha256": "e8f674d84e1178de9eaede43728ca95990cca1fa1fd12a6a9dba5d6969f27044",
+              "excerpt": "乾德三年春正月壬午，葬昭惠后于懿陵。"
+            }
+          ],
+          "year": 965
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-marriage",
+      "title": "十九岁归宫，书载吴王妃",
+      "summary": "原书记她十九岁来归，马令又记元宗聘周宗女为吴王妃；没有独立婚期，不从卒年、享年和十载倒推954。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "十九岁归宫；吴王妃聘娶未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "十九歲歸皇宮。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "元宗以宗為社稷元老故聘其女為吳王妃"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-pipa-gift",
+      "title": "元宗前奏琵琶，获赐烧槽琵琶",
+      "summary": "她在元宗面前奏乐祝寿，受赐烧槽琵琶；器材制作的两种解释属马令引说，不合一事。",
+      "year": null,
+      "sortOrder": 5,
+      "precision": "undated",
+      "sourceDate": "元宗在世时；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "嘗爲壽元宗前，元宗歎其工，以燒槽琵琶賜之"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-fashion",
+      "title": "创制妆式，时人仿效",
+      "summary": "原书记她创高髻、纤裳及首翘鬓朵之妆，人皆仿效，不推定具体服饰实物或制作年代。",
+      "year": null,
+      "sortOrder": 6,
+      "precision": "undated",
+      "sourceDate": "立国后叙次后；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "創爲高髻纖裳及首翹鬢朵之籹，人皆效之。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-music",
+      "title": "作破曲并整理旧曲",
+      "summary": "原书记作邀醉舞破、恨来迟破并使霓裳遗音重传；得谱、曹生试奏和她改正的经过按不同书分别保存。",
+      "year": null,
+      "sortOrder": 7,
+      "precision": "undated",
+      "sourceDate": "后主在位宫廷音乐记载；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "又有「恨來遲破」，亦后所製。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "后得殘譜，以琵琶奏之，於是開元、天寶之遺音，復傳於世。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v020",
+          "paragraphId": "shiguochunqiu-v020-p5",
+          "originalRevision": 1,
+          "originalSha256": "af6baa1dc70d7252c429858e78057767348b10883cf0254bc4ba838b2dfb66c2",
+          "excerpt": "昭惠后好音律，時度新聲及故唐遺曲，遊問從旁稱美，有狎客風。"
+        }
+      ],
+      "notes": [
+        "曹生称非吉征及马令音乐应治乱为占验、史论，不认定曲调导致母子死亡。"
+      ],
+      "variants": [
+        {
+          "label": "马令记后主得谱、乐工粗奏而周后改正",
+          "sourceDate": "原段未独记年月",
+          "summary": "马令记后主先得曲谱，曹生试奏未善，周后改正讹误，不与另一书拼成唯一过程。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "後主獨得其譜樂工曹生亦善琵琶按譜粗得其聲而未盡善也后輒變易訛謬頗去洼淫繁手新音清越可聽"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-son-grief",
+      "title": "亲抚仲宣，闻夭亡后病重",
+      "summary": "马令记她亲自抚育仲宣；她本已病重，闻子早夭后悲哀加剧。猫触灯惊痫为另书叙法，母子不共用确日。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "仲宣夭亡前后；未独记母亲病起或此事确日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "后尤鍾愛自鞠視之"
+        },
+        {
+          "chapterId": "shiguochunqiu-v019",
+          "paragraphId": "shiguochunqiu-v019-p20",
+          "originalRevision": 1,
+          "originalSha256": "30d749c81425f8ca0b36b5caf10d880f7a9ce74431f42fd351818df69911ffeb",
+          "excerpt": "時昭惠后已疾甚，聞仲宣夭，悲哀，更遽數日而絶。"
+        }
+      ],
+      "notes": [
+        "马令三子、陆游二子名单分源；不造未名第三子。"
+      ],
+      "variants": [
+        {
+          "label": "陆游本纪子名仲㝢之异",
+          "sourceDate": "乾德二年十月甲辰为所载子卒；母后未独日",
+          "summary": "陆游本纪写仲㝢卒、周后本已病而哀伤加剧；与宗室及马令记仲宣夭分源，不据此认定两子同日俱卒。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "91d3115a617445471e9dbcc7dde41c5a8c66085973a2c8bebba99e5ea84d44b1",
+              "excerpt": "十月甲辰仲㝢卒國后周氏已寢疾哀傷増革遂亦卒"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》本纪子名与母后卒月",
+          "sourceDate": "乾德二年十月甲辰为仲宣卒日；周后十一月卒",
+          "summary": "本纪列仲㝢、仲宣封爵并记仲宣十月甲辰薨、周后十一月殂；并未直接写亲抚或悲哀增病。只作子名、卒事背景的旁证，不用此段独证母亲的哀伤行为。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "封子仲㝢清源郡公，仲宣宣城郡公。冬十月甲辰，仲宣薨，追封岐王。十一月，國后周氏殂，宋遣作坊副使魏丕來弔祭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-empress-zhaohui-shared-plum",
+      "title": "与后主共同移植梅花",
+      "summary": "马令记后主曾与她在瑶光殿西移梅，后主在花开而她已亡时作诗追忆；诗的景物与哀辞不增为她的其他经历。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "共同移梅在去世以前，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "又嘗與后移植梅花于瑤光殿之西及花時而后已殂"
+        }
+      ]
+    }
+  ]
+}

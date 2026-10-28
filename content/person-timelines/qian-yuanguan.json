@@ -377,7 +377,24 @@
       ],
       "phase": "uncertain",
       "precision": "undated",
-      "sortOrder": 7
+      "sortOrder": 7,
+      "variants": [
+        {
+          "label": "卷77明记田母奉归年月",
+          "year": 903,
+          "sourceDate": "天复三年冬十一月；未记奉归日。",
+          "summary": "《十国春秋》从吴越叙述田頵败死、頵母奉王子钱传瓘来归；新史本段只记得归，没有明记护送施事。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v077",
+              "paragraphId": "shiguochunqiu-v077-p9",
+              "originalRevision": 1,
+              "originalSha256": "fc2b2e1320bd88a5cbb4fe64d0c9c86727906c6e7d16fbf140252ad9d37ff9ed",
+              "excerpt": "天復三年夏四月，温州丁章爲木工李彦所殺，裨將張惠據温州。是月，城婺州。秋七月，睦州刺史陳詢叛，舉兵攻蘭溪，王遣指揮使方永珍等率師討之。九月，田頵、安仁義叛淮南，吴王行密乞師於我。王命方永珍率師屯潤州，從弟鎰率師屯宣州，以應淮南；又命指揮使楊習代永珍於睦州。冬十一月，田頵敗死，頵母奉王子傳瓘來歸。是時王建亭於虚白堂之基，曰八會亭，以平吴定越、講武計議，凡八會於此也。未幾更名都會堂，又建閣於設廳之後，名曰蓬萊。〈按直儀門曰設廳。〉"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "qian-yuanguan-jade-command",

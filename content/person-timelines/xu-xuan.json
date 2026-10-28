@@ -4,6 +4,29 @@
   "scope": "current-archive",
   "events": [
     {
+      "id": "xu-xuan-snow-banquet-poems-and-prefaces",
+      "year": 947,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 0,
+      "sourceDate": "保大五年元日雪宴；前后序未独记成文日",
+      "title": "参与元日雪宴唱和，为诗作前后序",
+      "summary": "《十国春秋》夹引《清异录》，记保大五年元日大雪，李建勋正与徐铉、张义方会于溪亭，奉命和诗，随后三人被召同宴。侍臣作诗，徐铉撰写前后两篇序。",
+      "notes": [
+        "元日宴会有明确日次，前后序未另记成文日，不把后续图成等环节都定为元日。",
+        "本条保留卷中夹引《清异录》的来源层次，不把转引称作另一份独立见证；不补画名或徐铉参与绘画的行为。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68",
+          "excerpt": "保大五年春正月丁亥朔，大雪。帝召齊王景遂等登樓，賜宴賦詩。〈《清異録》云：保大五年元日大雪，李主命太弟以下展燕賦詩，令中人就私第賜李建勳繼和。時建勳方會中書舍人徐鉉、勤政學士張義方于溪亭，卽時和進。乃召建勳、鉉、義方同宴，夜艾方散。侍臣皆有詩詠，徐鉉爲前後序。仍集名手圖畫，書圖盡一時之技；真容，高沖古主之；侍臣法部絲竹，周文矩主之；樓閣官殿，朱澄主之；雪竹寒林，董源主之；池招禽魚，徐崇嗣主之。圖成，皆絕筆也。〉"
+        }
+      ]
+    },
+    {
       "id": "xu-xuan-petition-military-punishment",
       "year": 947,
       "sourceDate": "《通鉴》天福十二年四月，福州败后",
@@ -24,6 +47,30 @@
         "同卷第70段已入四月；壬申只明国主赦诸将、议处二人的记日，不将后续共同上疏定为同日。"
       ],
       "sortOrder": 1
+    },
+    {
+      "id": "xu-xuan-remonstrate-song-feng-faction",
+      "year": 947,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 2,
+      "sourceDate": "保大五年四月条后、五月条前，未独记论奏日",
+      "title": "与韩熙载论宋齐丘、冯延巳朋党",
+      "summary": "知制诰徐铉与史馆修撰韩熙载论奏宋齐丘、冯延巳结党，李璟罢冯延巳为太子少傅，贬魏岑为太子洗马。",
+      "notes": [
+        "此为论朋党，与请诛陈觉、冯延鲁的军法奏疏分别叙写。",
+        "本事在四月后续记事中、五月条之前；未记独日，不把后条太白昼见的丙子移作论奏日。",
+        "随后“帝命降复故官”未明所指，不据此补写徐铉本人遭贬或复职；韩熙载遭诋毁被贬另有其人的记载。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68",
+          "excerpt": "是月，復詔械魘、延魯還都，既至，貸死，覺流蘄州，延魯流舒州。知制誥徐鉉、史館修撰韓熙載論宋齊丘、馮延巳朋黨，帝罷延巳爲太子少傅，貶岑太子洗馬。未幾，帝命降復故官。齊丘讀熙載嗜酒，貶和州司士參軍。"
+        }
+      ]
     },
     {
       "id": "xu-xuan-restore-examinations",
@@ -64,7 +111,72 @@
       ],
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "variants": [
+        {
+          "label": "本纪把屯田、按视与流放连叙于保大十一年",
+          "sourceDate": "保大十一年冬十月起、十二月流放；具体按视日未独记",
+          "summary": "本纪记白水塘役起、徐铉按视还田、欲杖车延规、遭谗奉召，十二月流舒州。《通鉴》以先是追叙而无独年，各保记时粒度，不把工程、按视、流放强为同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p12",
+              "originalRevision": 1,
+              "originalSha256": "ea71e647adfa76c2304192c04bd023e5445815d73ef014c6f03022c44d26ebc4",
+              "excerpt": "冬十月，築楚州白水塘以溉屯田，遂詔州縣陂塘湮廢者，皆修復之。於是力役暴興，楚州、常州爲甚，帝使近侍車延規董其役，發洪、饒、吉、筠州民牛以往。吏緣爲姦，強奪民田爲屯田，江、淮騷然。百姓以數丈竹去節焚香于中，仰天訴冤，道路以目。知制誥徐鉉因奏事白之，帝曰：「吾國兵數十萬，安能不食捍邊，事關大利，舉國輾排之，奈何？」乃遺鉉行視利害。鉉至楚州，悉取所奪田還民，詰責車延規，欲榜之。或譖鉉擅作威福，帝大怒，趣歸，將沈之江；既至，怒少解。十二月，流鉉舒州，白水塘竟不成。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xu-xuan-iron-money-seal-script",
+      "title": "为铁钱篆写钱文",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sourceDate": "乾德二年春三月始行铁钱条所引《货志录》；篆文未独年月",
+      "summary": "本纪夹引陶岳称韩熙载请用铁钱，徐铉篆写钱文，继而铁钱大行。徐铉的行为限定为篆文，不扩大为独自铸币或决定全部折值。",
+      "notes": [
+        "建议、篆字和后来施行有前后叙次，夹引未给篆字独日，不把正文三月强套为每一步的时间。"
+      ],
+      "sortOrder": 4,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p6",
+          "originalRevision": 1,
+          "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+          "excerpt": "乾德二年春三月，始行鐵錢，〈陶岳《貨志録》曰：韓熙載請以鐵爲錢，其錢之大小一如「開元通寶」，文亦如之。徐鉉篆其文，比于舊錢稍大，而輪郭深闊。既而鐵錢大行，公私便之。〉"
+        }
+      ]
+    },
+    {
+      "id": "xu-xuan-shu-ya-examination-review",
+      "title": "奉命覆试舒雅等五人",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 964,
+        "end": 965
+      },
+      "phase": "uncertain",
+      "sourceDate": "乾德二年条，未独记本事月日",
+      "summary": "本纪记命中书舍人徐铉覆试舒雅等五人，舒雅等未就；后主随后亲临殿上命题，由中书官莅事，五人皆被黜。徐铉覆试与后主亲试不混作他独自主考。",
+      "notes": [
+        "韩配饥为底本所载名字，不因字近改作韩熙载。",
+        "原书只记不就，不补拒绝应试的动机；乾德二年跨964—965，未独记月日。"
+      ],
+      "sortOrder": 5,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p6",
+          "originalRevision": 1,
+          "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+          "excerpt": "命吏部侍郎、修國史韓配饑知貢舉，放進士王崇古等九人；既又命中書舍人徐鉉覆舒雅等五人，雅等不就，乃御殿命題親試，以中書官蒞其事，五人皆見黜。"
+        }
+      ]
     },
     {
       "id": "xu-xuan-envoy-request-delay",
@@ -86,6 +198,13 @@
           "originalRevision": 1,
           "originalSha256": "0c99e93cf15f32f744e209bab549ff584aa9a6718a644acf9ac5b631d314d9a6",
           "excerpt": "予世家江南，其故老多能言李氏時事，云太祖皇帝之出師南征也，煜遣其臣徐鉉朝于京師。鉉居江南，以名臣自負，其來也，欲以口舌馳說存其國，其日夜計謀思慮言語應對之際詳矣。及其將見也，大臣亦先入請，言鉉博學有材辯，宜有以待之。太祖笑曰：「第去，非爾所知也。」明日，鉉朝于廷，仰而言曰：「李煜無罪，陛下師出無名。」太祖徐召之升，使畢其說。鉉曰：「煜以小事大，如子事父，未有過失，奈何見伐？」其說累數百言。太祖曰：「爾謂父子者為兩家可乎？」鉉無以對而退。嗚呼，大哉，何其言之簡也！蓋王者之興，天下必歸于一統。其可來者，來之；不可者，伐之；僭偽假竊，期於掃蕩一平而後已。予讀周世宗征淮南詔，怪其區區攟摭前事，務較曲直以為辭，何其小也！然世宗之英武有足喜者，豈為其辭者之過歟？〈據湯悅所撰江南錄云：「景以保大十五年正月，改元交泰，是歲盡獻淮南十四州，畫江為界。」保大十五年，乃周顯德四年也。案五代舊史及世宗實錄，顯德四年十月壬申，世宗方復南征，五年正月丙午，始克楚州。二月己亥，景始盡獻淮南諸州，畫江為界，當是保大十六年也。悅等南唐故臣，記其目見之事，何其差繆？而九國志、紀年通譜之類，但以悅書為正，不復參校，遂皆差一年。至於景滅閩國，是保大四年，江南錄書於三年，亦差一年，已具閩世家注。或疑景立踰年而改元，則滅閩國當為三年，周取淮南當為十五年不差，但江南錄誤於景立之年改元保大，所以常差一年也。今知不然者，以諸書參校，閩人殺王延羲，當晉開運元年，周師始伐南唐當顯德二年。據景以初立之年即改元，則開運元年為保大二年，顯德二年為保大十三年。今江南錄書延羲被殺於二年，周師始伐於十三年，則是景立之年改元，不誤，而悅等書滅王氏、割淮南自各差一年爾。昪自晉天福二年建國，至皇朝開寶八年國滅，凡三十九年。〉"
+        },
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "國主遣徐鉉周惟簡奉表乞緩師不答"
         }
       ],
       "precision": "range",
@@ -97,7 +216,23 @@
       "notes": [
         "开宝七年整年跨西历974—975，原书未明徐铉出使的月日；后文金陵陷落、李煜被俘并非徐铉本人的独立结局记载。"
       ],
-      "sortOrder": 4
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "《十国春秋》乙亥围城记两遣",
+          "sourceDate": "乙亥岁围城；两次出使未各独记月日",
+          "summary": "本纪在围城、外援绝后的叙次记两遣徐铉求缓兵，继引欧史答辩及《宋通鉴》逾月再遣。引书与本纪层次分开，不把相同故事累计成更多次，也不将所有使行固定在旧段开宝七年同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p17",
+              "originalRevision": 1,
+              "originalSha256": "274dbf7f372920113a2e024b361a0e68c55e7fd38caac674a5c324bb4e8beecf",
+              "excerpt": "外援既絕，金陵益危蹙。宋師百道攻城，晝夜不休。城中米斗萬錢，人病足弱，死者相枕藉。國主兩遣徐鉉等厚貢方物，求緩兵，守祭祀，皆不報。〈《歐史•南唐世家》曰：太祖之出師南征也，煜遣徐鉉朝于京師。鉉居江南，以名臣自負，欲以口舌馳說存其國。及其將見也，大臣亦先入，言鉉博學有辨，宜有以待之。太祖笑曰：「第去，非爾所知也。」明日，鉉朝于廷，仰而言曰：「李煜無罪，陛下師出無名。」太祖徐召之升，使畢其說。鉉曰：「煜以小事大，如子事父，未有過失，奈何見伐？」其說累數百言。太祖曰：「爾謂父子者，爲兩家可乎？」鉉無以對而退。 《後山詩話》載鉉來宋，欲以口舌解圍，盛稱其主博學多藝，使誦其詩，曰：「秋水之篇，天下傳誦。」太祖大笑曰：「寒士語爾，吾不道也。」因自言微時自廣陣歸，道軍山下，醉臥，覺而月出，有句曰：「未離海底千山黑，纔到天中萬國明。」鉉大驚服。《宋通鑑》云：逾月復遣鉉乞緩師，以全一邦之命。鉉見太祖，反復論辨不已，太祖怒曰：「不須多言，江南亦有何罪，但天下一家，臥榻之側豈容他人鼾睡邪！」〉冬十一月，白虹貫日，晝晦。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "xu-xuan-compile-wulu",
@@ -116,14 +251,14 @@
       ],
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 5
+      "sortOrder": 7
     },
     {
       "id": "xu-xuan-jiang-temple-inscription",
       "title": "奉诏作蒋庄武帝新庙碑",
       "summary": "徐铉在蒋庄武帝新庙碑中自称于工程结束时奉属辞之诏，因而撰写碑铭；碑中神灵功德属于祭祀颂辞。",
       "year": null,
-      "sortOrder": 6,
+      "sortOrder": 8,
       "precision": "undated",
       "sourceDate": "本篇“适当罢役之初”，未独记年月",
       "phase": "uncertain",
@@ -145,7 +280,7 @@
       "title": "奉命撰书茅山紫阳观碑",
       "summary": "徐铉奉命书写重修紫阳观之德，篇末署“徐铉撰并书”，保存碑文所署官衔和原纪日。",
       "year": null,
-      "sortOrder": 7,
+      "sortOrder": 9,
       "precision": "undated",
       "sourceDate": "篇末“戚己未十二月一日”，首字及纪年待考",
       "phase": "uncertain",
@@ -174,7 +309,7 @@
       "title": "作周将军庙碑颂",
       "summary": "周祚新修祖祠、立碑，徐铉在篇中接叙周本及子孙任职与修祠，并自称作颂。所述周瑜至周本的世系是碑文说法，另保来源层次。",
       "year": null,
-      "sortOrder": 8,
+      "sortOrder": 10,
       "precision": "undated",
       "sourceDate": "本篇周祚刺举潜部、修祠立碑后，未独记年月",
       "phase": "uncertain",
@@ -196,7 +331,7 @@
       "title": "扈驾南巡并为池州紫极宫作碑",
       "summary": "徐铉自记扈驾南巡、致礼名岳，借道池州紫极宫；受托以文，撰述其修建经过并作铭。",
       "year": null,
-      "sortOrder": 9,
+      "sortOrder": 11,
       "precision": "undated",
       "sourceDate": "本篇“扈驾南巡”，未独记作者经过年月",
       "phase": "uncertain",
@@ -218,7 +353,7 @@
       "title": "迁奉先父墓茔，次年因王事入西山",
       "summary": "徐铉自记庚申岁迁奉先父墓茔于鸾冈之阳；次年又因王事入山，祠虚皇、投龙简。墓茔迁奉与初次丧父分开，不补未载年份。",
       "year": null,
-      "sortOrder": 10,
+      "sortOrder": 12,
       "precision": "undated",
       "sourceDate": "本篇“庚申岁”与“明年”，未配可核年号",
       "phase": "uncertain",
@@ -240,7 +375,7 @@
       "title": "奉诏撰刘崇俊神道碑",
       "summary": "徐铉在刘崇俊神道碑中自称职典丝纶、持赤管承诏，撰铭记墓主。墓主刘崇俊及其家族的军功不当作徐铉本人行动。",
       "year": null,
-      "sortOrder": 11,
+      "sortOrder": 13,
       "precision": "undated",
       "sourceDate": "本篇墓主卒葬后受诏作碑，未独记作铭年月",
       "phase": "uncertain",
@@ -255,6 +390,155 @@
       ],
       "notes": [
         "作者归属由徐铉名下整篇限定，不由墓主卒年直接定为作碑年。"
+      ]
+    },
+    {
+      "id": "xu-xuan-zhou-empress-music-inquiry",
+      "title": "听闻曲调后询问曲终为何转急",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 14,
+      "sourceDate": "昭惠后复奏霓裳残谱后；未记年月",
+      "summary": "《十国春秋》及陆游本记徐铉从国工曹生处听到《霓裳》曲，问法曲曲终本应舒缓、此声何以反急。曹生答旧谱本缓而宫中有人改动，并称不是吉兆；这是原书人物的音律判断，不作为乐曲导致母子死亡的事实因果。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "df748c38a0aaf62fdf057d7c7af565a9b0ea2d253f7bef526675c9a13425d7f9",
+          "excerpt": "內史舍人徐鉉聞之於國工曹生，鉉亦知音，問曰：「扶曲終則緩，此聲乃反急，何也？」曹生曰：「舊譜實緩，宮中有人易之，非吉徵也。」"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "1ad51e341a6d44a14bba4f1f29c61289d68a58062739872c6a103356487cd49a",
+          "excerpt": "内史舍人徐鉉聞之於國工曹生鉉亦知音問曰法曲終則緩此聲乃反急何也曹生曰舊譜實緩宫中有人易之非吉徵也"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令本仅记徐姓官员",
+          "sourceDate": "按谱、变曲之后；未记年月",
+          "summary": "马令本作中书舍人徐，未写铉名，随后引曹生答语和史家音与治乱之论。保留这一本省称徐姓、未记全名的叙法，不由姓氏或官称确认所指一定为徐铉。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "中書舍人徐聞霓裳羽衣曰法曲終慢而此聲太急何耶曹生曰其本實慢而宮中有人易之然非吉徴也"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《十国春秋》扶曲与陆游本法曲字形不同，依各自底本保存，不静改原字。",
+        "这里的曹生是国工、乐工称谓，未补姓名、籍贯或与其他曹氏的身份关系。"
+      ]
+    },
+    {
+      "id": "xu-xuan-younger-zhou-marriage-deliberation",
+      "title": "奉命参议继后婚礼，与潘佑有异议",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 968,
+        "end": 969
+      },
+      "phase": "uncertain",
+      "sortOrder": 15,
+      "sourceDate": "开宝元年始议立后；病疽与戏言属后续连叙",
+      "summary": "李煜议立继后时，徐铉奉命参定婚礼。《十国春秋》记他与潘佑就用乐、钟鼓和答拜争论，徐游多取潘佑之议；徐游患疽后，徐铉因其不支持己议而戏言周、孔。礼议属于开宝元年始议的范围，后续病疽戏言未独记年月。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "開寶元年，始議立后爲繼室，命太常博士陳致雍考古今沿革，草具昏禮，又命學士徐鉉、知制誥潘佑參定。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "鉉曰：「昏禮古不用樂。」佑以爲今古不相沿襲，請用樂。鉉曰：「按古房中樂無鐘鼓。」佑引《詩》「窈窕淑女，鐘鼓樂之」，則房中樂宜有鐘鼓。后初見君，《後魏書》有先拜後起，帝後拜先起之文，鉉舉此以爲夫婦之禮，人倫之本，請答拜。佑以爲王者昏禮不與庶人同，請無答拜。議久不決。後主令文安郡公徐遊評其異同，遊多是佑議，遂施用之。逾月，遊病疽，鉉懟其不主己議，戲語人曰：「周、孔亦能爲厲乎？」"
+        },
+        {
+          "chapterId": "nantanglu-v016",
+          "paragraphId": "nantanglu-v016-p6",
+          "originalRevision": 1,
+          "originalSha256": "02060cc07c07b1950eaa635b31b079bba1ae44a55c4307d06228f0ebf30bc25a",
+          "excerpt": "開寳元年始議立后為繼室命太常博士陳致雍攷古今沿革草具婚禮又命學士徐鉉史官潘佑參定文安郡公徐遊評其異同遊多是佑議遂施用之逾月遊病疽鉉懟其不主已議戲語人曰周孔亦能為厲乎"
+        }
+      ],
+      "variants": [
+        {
+          "label": "马令本的徐姓省称与戏言者异文",
+          "sourceDate": "始议婚礼至徐游患疽的连叙",
+          "summary": "马令本在礼议中只作中书舍人徐，未具铉名；后文则记徐游患疽而戏称周孔亦有凶乎。该书戏言者与《十国春秋》、陆游本所写的徐铉不同，不能据此强合言者。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "詔中書舍人徐知制誥潘佑與禮官㕘議曰婚禮吉不用樂"
+            },
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p9",
+              "originalRevision": 1,
+              "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+              "excerpt": "後主令文安郡公徐遊評其是非時佑方寵用遊希旨奏佑為是旣而遊病疽戲謂人曰周孔亦有𥚢乎"
+            }
+          ]
+        },
+        {
+          "label": "徐游传所记乾德初",
+          "sourceDate": "本传作乾德初，与后妃传开宝元年始议分源",
+          "summary": "徐游传明记徐铉、潘佑议婚礼未决，后主命徐游评定；徐游上奏以潘议为长。原文“乾德初”与后妃传的纪年分别保存。",
+          "notes": [
+            "本段“周民”原字保留，依继立国后及评礼上下文辨其身份，不据此补本名；未将两处纪年改成同一确日。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v020",
+              "paragraphId": "shiguochunqiu-v020-p5",
+              "originalRevision": 1,
+              "originalSha256": "af6baa1dc70d7252c429858e78057767348b10883cf0254bc4ba838b2dfb66c2",
+              "excerpt": "乾德初，繼立國后周民，徐鉉，潘佑議婚禮不決，後主命遊評兩家是非。時佑方寵用，遊希旨奏佑議爲長，其將迎多此類也。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "968—969仅为开宝元年始议的有效范围；原书后续逾月不提供婚礼或戏言的独立确日。",
+        "患疽及周、孔之语为原书人物戏言，不认作神灵致病实证；潘佑、徐游的决定不写成徐铉议获采纳。"
+      ]
+    },
+    {
+      "id": "xu-xuan-wang-qixia-inscription",
+      "title": "为王栖霞撰碑",
+      "summary": "本传在王栖霞去世、奉冠剑归葬雷平山后记徐铉撰碑；撰碑行为明确，具体题名和撰成日未载。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 16,
+      "sourceDate": "王栖霞保大元年四月卒葬后连叙；撰碑未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p2",
+          "originalRevision": 1,
+          "originalSha256": "c1d0dc6e3b777f84afd319583e329a9e9eb7ffc36e962c6407ce368058918a2a",
+          "excerpt": "保大元年四月卒，年六十二。賻錢二十萬，奉冠劍歸葬雷平山，徐鉉撰碑。"
+        }
+      ],
+      "notes": [
+        "不把墓主卒月当作徐铉撰碑月；不补碑文篇题或奉诏者。"
       ]
     }
   ]

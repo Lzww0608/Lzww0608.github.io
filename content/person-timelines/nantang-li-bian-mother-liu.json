@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-bian-mother-liu",
+  "events": [
+    {
+      "id": "nantang-li-bian-mother-liu-posthumous-mourning",
+      "title": "复姓后获追行丧礼",
+      "summary": "李昪复姓后为亲生父母发哀，与皇后依初丧之礼服丧，分别各二十七日；不是刘氏此时才去世。",
+      "year": 939,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 1,
+      "sourceDate": "昇元三年二月己卯；父母各二十七日为仪礼时长",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "己卯，帝御興祥殿，改國號曰大唐，復姓李氏，爲考妣發哀，與皇后服斬衰，居廬，如始喪禮，持考妣喪各二十七日，凡五十四日不視朝，旦暮臨。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-bian-mother-liu-posthumous-degong",
+      "title": "追尊德恭皇后",
+      "summary": "父荣之配刘氏被追尊为德恭皇后，与先前李氏明德皇后养母身份不同。",
+      "year": 939,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 2,
+      "sourceDate": "昇元三年三月庚戌追尊；陆游本纪同年条未独记该日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p5",
+          "originalRevision": 1,
+          "originalSha256": "8720035d31f21bad4a4d75ff6d184cbe79817e8037a13024d5eb9edd236a0733",
+          "excerpt": "考榮曰慶宗孝德皇帝，配劉氏曰德恭皇后。"
+        },
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p6",
+          "originalRevision": 1,
+          "originalSha256": "7a7b65ffa39a2b8580afa626078026c3d2006042722797550cf31892f407ef7a",
+          "excerpt": "考榮曰慶宗孝徳皇帝配劉氏曰徳恭皇后"
+        }
+      ],
+      "notes": [
+        "为身后尊号，不作生前即位。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-mother-liu-flee-to-haozhou",
+      "title": "随子避乱至濠州",
+      "summary": "李昪幼年失父遇乱，伯父球携他和母刘氏避地淮泗、到濠州。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "李昪六岁失父后；原文未独记刘氏行事年号",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v001",
+          "paragraphId": "nantanglu-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "e88d7fd40ea022a5e00480ad0cb5c8e3f9fc058760ed4fbcdcad199bf6685f56",
+          "excerpt": "六歲而孤遇亂伯父球攜帝及母劉氏避地淮泗至濠州"
+        }
+      ],
+      "notes": [
+        "不把孤直接解释为父母均已死亡。"
+      ]
+    },
+    {
+      "id": "nantang-li-bian-mother-liu-death",
+      "title": "去世",
+      "summary": "《十国春秋》在幼年移濠州后记母刘氏未几去世；无独立卒年。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 4,
+      "sourceDate": "移至濠州后未几；无独立年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p2",
+          "originalRevision": 1,
+          "originalSha256": "ffa47dee5f9660f11d6caae1b1c876def469c03577d3e1a23e2227377796c781",
+          "excerpt": "六歲而孤，遇亂，伯父球攜之濠州。未幾，母劉氏卒，遂託迹於濠之開元寺。"
+        }
+      ],
+      "notes": [
+        "陆游携母同行叙法保留，不能从一处未提卒年反补寿数。"
+      ]
+    }
+  ]
+}

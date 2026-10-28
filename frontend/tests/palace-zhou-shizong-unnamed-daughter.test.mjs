@@ -57,6 +57,31 @@ test('one real court-mourning occurrence has no asserted death day and preserves
  assert.deepEqual([added.year,added.precision,added.sourceDate,added.evidence],[event.year,event.precision,event.sourceDate,event.evidence]);
  const oldSorts={'chai-rong-second-fu-and-sons':89,'chai-rong-zhao-dianjian':90,'chai-rong-death':91,'chai-rong-posthumous-title-burial':92};
  const restored=structuredClone(man);restored.events=restored.events.filter(e=>e.id!==added.id);
+ // The later complete Southern Tang annal adds one precisely reviewed source variant.
+ // Remove only that exact object when reconstructing the earlier release's document.
+ const chuzhou=restored.events.find(e=>e.id==='chai-rong-chuzhou-capture');
+ const laterVariants=chuzhou.variants.filter(v=>v.label==='本纪丁未克楚及所引军十万疑义');assert.equal(laterVariants.length,1);
+ assert.equal(objectSha(laterVariants[0]),'f70760ab080f75ffed49981441a5c09b875c10ff80de922f93126fd7401d09e5');
+ chuzhou.variants=chuzhou.variants.filter(v=>v!==laterVariants[0]);
+ if(!chuzhou.variants.length)delete chuzhou.variants;
+ // The accession memorial is a later, explicitly sourced retrospective append.
+ // Check its exact contents before removing it from this historical baseline.
+ const peace=restored.events.find(e=>e.id==='chai-rong-jiangbei-peace');assert.ok(peace);
+ assert.deepEqual(peace.evidence.at(-1),{chapterId:'shiguochunqiu-v017',paragraphId:'shiguochunqiu-v017-p3',originalRevision:1,originalSha256:'e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5',excerpt:'臣亡兄文獻太子從冀將從內禪，已決宿心，而世宗敦勸既深，議言因息。'});
+ assert.deepEqual(peace.notes,['《十国春秋》卷十七夹引《宋史》所载李煜建隆二年承位表，追述元宗欲内禅及周世宗劝止。表文作“从冀”，《十国春秋》元宗本纪与《通鉴》作“弘冀”，各从其本；建隆二年是上表语境，所述议论发生在此前。']);
+ peace.evidence.pop();delete peace.notes;
+ // SG22 later adds exactly one side account to the return of Bian Hao.
+ // Verify the entire append before restoring this event's former absence of variants.
+ const returned=restored.events.find(e=>e.id==='chai-rong-return-militia-farm');assert.ok(returned);
+ assert.deepEqual(returned.variants,[{
+  label:'边镐传的被俘、授职及请盟后归还',
+  sourceDate:'本传十四年起叙援寿、被俘，后接割淮请盟归镐；各阶段未独记同年同日',
+  summary:'边镐传记周世宗授被俘边镐右千牛卫上将军，割淮请盟后归还边镐。这是被俘、授职、议和后归还的多阶段叙事，不能全定在十四年；本条仅取边镐归还的旁证，不将其移贴为皇甫晖、姚凤等人的处置。',
+  evidence:[{chapterId:'shiguochunqiu-v022',paragraphId:'shiguochunqiu-v022-p8',originalRevision:1,
+   originalSha256:'5f57e2f7654c388ef179861802c6e3b22b0f4d53023f0f186364186d94632e0b',
+   excerpt:'十四年，周師入犯，齊王景達爲元帥，出兵援壽州，起鎬爲大將，偕許文稹從行。會朱元叛去，諸軍皆潰，鎬與文稹被執，周世宗命爲右千牛衛上將軍。及割淮南請盟，乃歸鎬。'}],
+ }]);
+ delete returned.variants;
  for(const [id,sort]of Object.entries(oldSorts)){const old=restored.events.find(e=>e.id===id);assert.ok(old,id);assert.equal(old.sortOrder,sort+1,id);old.sortOrder=sort;}
  assert.equal(restored.events.length,96);assert.equal(objectSha(restored),'8fe653272b69777e0b677e15070813b7ca1b18eb0663d966f0781c4bcd854ce7','whole pre-batch document including all 96 IDs, metadata and source objects');
 });

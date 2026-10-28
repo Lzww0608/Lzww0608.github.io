@@ -739,23 +739,29 @@
     },
     {
       "personId": "han-xizai",
-      "eventCount": 15,
+      "eventCount": 21,
       "eventIds": [
         "han-xizai-flee-wu",
         "han-xizai-advise-era",
+        "han-xizai-liezu-funeral-and-temple-title",
         "han-xizai-urge-northern-opportunity",
         "han-xizai-punish-failed-commanders",
         "han-xizai-song-accusation-demotion",
         "han-xizai-oppose-north-war",
         "han-xizai-oppose-monitor",
         "han-xizai-request-iron-money",
+        "han-xizai-song-zhaoxian-dowager-funeral-mission",
         "han-xizai-liyu-appointment",
         "han-xizai-demote-and-restore",
+        "han-xizai-dalisi-prison-review-remonstrance",
         "han-xizai-death-posthumous-chancellor",
         "han-xizai-late-household-anecdote",
         "han-xizai-wu-yuan-memorial",
         "han-xizai-recognize-zhang-ji",
-        "han-xizai-poem-on-central-plains-mission"
+        "han-xizai-poem-on-central-plains-mission",
+        "han-xizai-satire-at-queen-wedding",
+        "han-xizai-yang-baozong-writing-order",
+        "han-xizai-tao-gu-six-dynasties-copying"
       ]
     },
     {
@@ -1373,7 +1379,7 @@
     },
     {
       "personId": "li-bian",
-      "eventCount": 39,
+      "eventCount": 43,
       "eventIds": [
         "li-bian-rise-in-wu",
         "li-bian-runzhou",
@@ -1390,6 +1396,7 @@
         "li-bian-rename-gao",
         "li-bian-yang-meng-killing",
         "li-bian-accession",
+        "li-bian-family-investitures-937",
         "li-bian-honor-adoptive-mother-li",
         "li-bian-confine-yangpu",
         "li-bian-yang-pu-mourning",
@@ -1413,7 +1420,10 @@
         "li-bian-stop-yang-tingshi-zhang-chong-inquiry",
         "li-bian-cui-taichu-border-warning",
         "li-bian-qian-liang-baguo-title",
-        "li-bian-qian-liang-portrait-inner-palace"
+        "li-bian-qian-liang-portrait-inner-palace",
+        "li-bian-marry-xingguo-to-ma-renyu",
+        "li-bian-wang-qixia-governance-question",
+        "li-bian-marry-daughter-to-yan-xu"
       ]
     },
     {
@@ -1723,8 +1733,9 @@
     },
     {
       "personId": "li-jing-southern-tang",
-      "eventCount": 44,
+      "eventCount": 47,
       "eventIds": [
+        "li-jing-southern-tang-zhong-marriage-command",
         "li-jing-southern-tang-wu-office",
         "li-jing-southern-tang-wu-vice-marshal",
         "li-jing-southern-tang-decline-prince-937",
@@ -1768,7 +1779,9 @@
         "li-jing-southern-tang-zhang-xiong-volunteer-command",
         "li-jing-southern-tang-exile-zhu-kuangye-liu-cunzhong",
         "li-jing-southern-tang-yang-huafei-remonstrance",
-        "li-jing-southern-tang-rebuild-maoshan-ziyang"
+        "li-jing-southern-tang-rebuild-maoshan-ziyang",
+        "li-jing-southern-tang-zhou-consort-musical-gifts",
+        "li-jing-southern-tang-yang-baozong-summons"
       ]
     },
     {
@@ -2055,26 +2068,42 @@
     },
     {
       "personId": "li-yu",
-      "eventCount": 18,
+      "eventCount": 34,
       "eventIds": [
+        "li-yu-along-yangtze-inspection",
         "li-yu-avoid-hongji",
         "li-yu-heir",
         "li-yu-crown-and-regency",
         "li-yu-accession",
+        "li-yu-abolish-route-tuntian-commissioners",
+        "li-yu-zhou-empress-illness-and-mourning",
+        "li-yu-zhong-empress-illness-and-mourning",
+        "li-yu-younger-zhou-installation",
+        "li-yu-kaishan-buddhist-court-practice",
+        "li-yu-wartime-militia-mobilization",
         "li-yu-fall-of-jinling",
         "li-yu-captivity",
         "li-yu-quanzhou",
         "li-yu-iron-money",
+        "li-yu-shu-ya-examination-review",
         "li-yu-southern-han-envoy",
         "li-yu-night-duty",
+        "li-yu-dalisi-prison-review-remonstrance",
         "li-yu-li-congshan-retained",
         "li-yu-reduce-titles",
         "li-yu-pan-you",
         "li-yu-song-invasion",
+        "li-yu-southern-tang-letter-warning",
         "li-yu-han-xizai",
         "li-yu-tan-zixiao-summons",
         "li-yu-zhang-xiong-chief-command",
-        "li-yu-tao-gu-qin-ruolan-banquet"
+        "li-yu-tao-gu-qin-ruolan-banquet",
+        "li-yu-younger-zhou-marriage-deliberation",
+        "li-yu-song-stipend-increase",
+        "li-yu-song-chongwen-library-viewing",
+        "li-yu-death-in-song",
+        "li-yu-recall-song-qiqiu-household",
+        "li-yu-jingde-nuns-fire-oath"
       ]
     },
     {
@@ -2382,7 +2411,7 @@
     },
     {
       "personId": "liu-chang-southern-han",
-      "eventCount": 11,
+      "eventCount": 12,
       "eventIds": [
         "liu-chang-southern-han-accession",
         "liu-chang-southern-han-song-invasion",
@@ -2394,7 +2423,8 @@
         "liu-chang-southern-han-song-chenzhou",
         "liu-chang-southern-han-jiaozhou",
         "liu-chang-southern-han-reject-liyu",
-        "liu-chang-southern-han-song-title"
+        "liu-chang-southern-han-song-title",
+        "liu-chang-southern-han-song-chongwen-library-viewing"
       ]
     },
     {
@@ -2879,6 +2909,233 @@
       ]
     },
     {
+      "personId": "nantang-fangyi",
+      "eventCount": 5,
+      "eventIds": [
+        "nantang-fangyi-northward",
+        "nantang-fangyi-song-marriage",
+        "nantang-fangyi-capture",
+        "nantang-fangyi-liao-title",
+        "nantang-fangyi-daughter-source"
+      ]
+    },
+    {
+      "personId": "nantang-fengcheng-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-fengcheng-princess-posthumous-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-geng-xiansheng",
+      "eventCount": 3,
+      "eventIds": [
+        "nantang-geng-xiansheng-court-favor",
+        "nantang-geng-xiansheng-hidden-barred",
+        "nantang-geng-xiansheng-jianghuai"
+      ]
+    },
+    {
+      "personId": "nantang-jianchang-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-jianchang-princess-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-li-bian-consort-shiguang",
+      "eventCount": 8,
+      "eventIds": [
+        "nantang-li-bian-consort-shiguang-entry-birth",
+        "nantang-li-bian-consort-shiguang-birth-jingti",
+        "nantang-li-bian-consort-shiguang-furen",
+        "nantang-li-bian-consort-shiguang-present-food-calm-anger",
+        "nantang-li-bian-consort-shiguang-reprimand-and-nun",
+        "nantang-li-bian-consort-shiguang-live-with-son-taifei",
+        "nantang-li-bian-consort-shiguang-protected-by-li-jing",
+        "nantang-li-bian-consort-shiguang-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-bian-consort-wang",
+      "eventCount": 5,
+      "eventIds": [
+        "nantang-li-bian-consort-wang-posthumous-shun",
+        "nantang-li-bian-consort-wang-marriage",
+        "nantang-li-bian-consort-wang-attend-xu-wen-illness",
+        "nantang-li-bian-consort-wang-wei-title",
+        "nantang-li-bian-consort-wang-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-bian-mother-liu",
+      "eventCount": 4,
+      "eventIds": [
+        "nantang-li-bian-mother-liu-posthumous-mourning",
+        "nantang-li-bian-mother-liu-posthumous-degong",
+        "nantang-li-bian-mother-liu-flee-to-haozhou",
+        "nantang-li-bian-mother-liu-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-congshan-consort",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-li-congshan-consort-crying-and-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-jing-consort-ling",
+      "eventCount": 2,
+      "eventIds": [
+        "nantang-li-jing-consort-ling-northward",
+        "nantang-li-jing-consort-ling-title-source"
+      ]
+    },
+    {
+      "personId": "nantang-li-jing-empress-zhong",
+      "eventCount": 7,
+      "eventIds": [
+        "nantang-li-jing-empress-zhong-marriage-order",
+        "nantang-li-jing-empress-zhong-empress",
+        "nantang-li-jing-empress-zhong-dowager-shengzun",
+        "nantang-li-jing-empress-zhong-death",
+        "nantang-li-jing-empress-zhong-qi-consort",
+        "nantang-li-jing-empress-zhong-wartime-frugality",
+        "nantang-li-jing-empress-zhong-burial-title"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-baoyi-huang",
+      "eventCount": 5,
+      "eventIds": [
+        "nantang-li-yu-baoyi-huang-palace-entry",
+        "nantang-li-yu-baoyi-huang-baoyi-library",
+        "nantang-li-yu-baoyi-huang-younger-zhou-service",
+        "nantang-li-yu-baoyi-huang-books-destruction",
+        "nantang-li-yu-baoyi-huang-northward-death"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-empress-zhaohui",
+      "eventCount": 9,
+      "eventIds": [
+        "nantang-li-yu-empress-zhaohui-queen",
+        "nantang-li-yu-empress-zhaohui-death",
+        "nantang-li-yu-empress-zhaohui-coffin-transfer",
+        "nantang-li-yu-empress-zhaohui-marriage",
+        "nantang-li-yu-empress-zhaohui-pipa-gift",
+        "nantang-li-yu-empress-zhaohui-fashion",
+        "nantang-li-yu-empress-zhaohui-music",
+        "nantang-li-yu-empress-zhaohui-son-grief",
+        "nantang-li-yu-empress-zhaohui-shared-plum"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-liuzhu",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-li-yu-liuzhu-old-tunes"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-palace-qiao",
+      "eventCount": 3,
+      "eventIds": [
+        "nantang-li-yu-palace-qiao-sutra-gift",
+        "nantang-li-yu-palace-qiao-song-palace",
+        "nantang-li-yu-palace-qiao-hundred-day-offering"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-yaoniang",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-li-yu-yaoniang-lotus-dance"
+      ]
+    },
+    {
+      "personId": "nantang-li-yu-younger-zhou",
+      "eventCount": 8,
+      "eventIds": [
+        "nantang-li-yu-younger-zhou-wedding",
+        "nantang-li-yu-younger-zhou-kaishan-buddhist-court-practice",
+        "nantang-li-yu-younger-zhou-palace-before-marriage",
+        "nantang-li-yu-younger-zhou-marriage-discussion",
+        "nantang-li-yu-younger-zhou-court-banquet",
+        "nantang-li-yu-younger-zhou-northward-title",
+        "nantang-li-yu-younger-zhou-song-palace",
+        "nantang-li-yu-younger-zhou-death"
+      ]
+    },
+    {
+      "personId": "nantang-shengtang-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-shengtang-princess-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-song-fujin",
+      "eventCount": 17,
+      "eventIds": [
+        "nantang-song-fujin-advise-against-funeral-trip",
+        "nantang-song-fujin-qi-queen",
+        "nantang-song-fujin-empress",
+        "nantang-song-fujin-mourn-li-parents",
+        "nantang-song-fujin-decline-regency",
+        "nantang-song-fujin-empress-dowager",
+        "nantang-song-fujin-death-and-burial",
+        "nantang-song-fujin-entry-and-successor-wife",
+        "nantang-song-fujin-titles-guangping-jin",
+        "nantang-song-fujin-qi-princess",
+        "nantang-song-fujin-protect-attendants",
+        "nantang-song-fujin-raise-jingti",
+        "nantang-song-fujin-burial-yongling",
+        "nantang-song-fujin-praise-wang-qixia",
+        "nantang-song-fujin-summon-du-ye-wife",
+        "nantang-song-fujin-old-grievance-harm-intent",
+        "nantang-song-fujin-geng-story-return"
+      ]
+    },
+    {
+      "personId": "nantang-taihe-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-taihe-princess-investiture"
+      ]
+    },
+    {
+      "personId": "nantang-taining-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-taining-princess-marriage"
+      ]
+    },
+    {
+      "personId": "nantang-xingguo-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-xingguo-princess-marriage"
+      ]
+    },
+    {
+      "personId": "nantang-yang-baozong",
+      "eventCount": 3,
+      "eventIds": [
+        "nantang-yang-baozong-seek-dao",
+        "nantang-yang-baozong-lushan-care",
+        "nantang-yang-baozong-court-summons"
+      ]
+    },
+    {
+      "personId": "nantang-yushan-princess",
+      "eventCount": 1,
+      "eventIds": [
+        "nantang-yushan-princess-enfeoffment"
+      ]
+    },
+    {
       "personId": "niu-cunjie",
       "eventCount": 36,
       "eventIds": [
@@ -2938,7 +3195,7 @@
     },
     {
       "personId": "qian-hongchu",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "qian-hongchu-accession",
         "qian-hongchu-protect-brother",
@@ -2951,7 +3208,8 @@
         "qian-hongchu-labor-reversal",
         "qian-hongchu-zhou-envoys",
         "qian-hongchu-song-generalissimo",
-        "qian-hongchu-song-tribute"
+        "qian-hongchu-song-tribute",
+        "qian-hongchu-southern-tang-letter-warning"
       ]
     },
     {
@@ -3488,6 +3746,13 @@
       "eventCount": 1,
       "eventIds": [
         "tang-li-cunhao-wife-unnamed-sent-to-persuade-meng"
+      ]
+    },
+    {
+      "personId": "tang-li-cunju-consort-lu",
+      "eventCount": 1,
+      "eventIds": [
+        "tang-li-cunju-consort-lu-marriage"
       ]
     },
     {
@@ -4471,7 +4736,7 @@
     },
     {
       "personId": "wang-yanzheng",
-      "eventCount": 7,
+      "eventCount": 8,
       "eventIds": [
         "wang-yanzheng-yin-emperor",
         "wang-yanzheng-tang-conflict",
@@ -4479,7 +4744,8 @@
         "wang-yanzheng-surrender",
         "wang-yanzheng-build-rivalry",
         "wang-yanzheng-attack-zhuwenjin",
-        "wang-yanzheng-later-titles"
+        "wang-yanzheng-later-titles",
+        "wang-yanzheng-guangshan-title"
       ]
     },
     {
@@ -4556,8 +4822,9 @@
     },
     {
       "personId": "wu-tian-jun-mother-yin",
-      "eventCount": 2,
+      "eventCount": 3,
       "eventIds": [
+        "wu-tian-jun-mother-yin-escorted-qian-yuanguan-home",
         "wu-tian-jun-mother-yin-protected-qian-yuanguan",
         "wu-tian-jun-mother-yin-pardoned-after-tian-jun-defeat"
       ]
@@ -4599,10 +4866,13 @@
     },
     {
       "personId": "wu-xu-wen-daughter-guangde",
-      "eventCount": 2,
+      "eventCount": 5,
       "eventIds": [
         "wu-xu-wen-daughter-guangde-mourn-li-parents",
-        "wu-xu-wen-daughter-guangde-marriage"
+        "wu-xu-wen-daughter-guangde-marriage",
+        "wu-xu-wen-daughter-guangde-intercede-for-li-jianxun",
+        "wu-xu-wen-daughter-guangde-zhongshan-self-title",
+        "wu-xu-wen-daughter-guangde-death-before-husband"
       ]
     },
     {
@@ -4667,9 +4937,9 @@
       "personId": "wu-yang-pu-princess-shangrao",
       "eventCount": 3,
       "eventIds": [
+        "wu-yang-pu-princess-shangrao-posthumous-title",
         "wu-yang-pu-princess-shangrao-marriage",
-        "wu-yang-pu-princess-shangrao-death",
-        "wu-yang-pu-princess-shangrao-posthumous-title"
+        "wu-yang-pu-princess-shangrao-death"
       ]
     },
     {
@@ -4811,11 +5081,15 @@
     },
     {
       "personId": "xu-xuan",
-      "eventCount": 11,
+      "eventCount": 18,
       "eventIds": [
+        "xu-xuan-snow-banquet-poems-and-prefaces",
         "xu-xuan-petition-military-punishment",
+        "xu-xuan-remonstrate-song-feng-faction",
         "xu-xuan-restore-examinations",
         "xu-xuan-farmland-inquiry-and-exile",
+        "xu-xuan-iron-money-seal-script",
+        "xu-xuan-shu-ya-examination-review",
         "xu-xuan-envoy-request-delay",
         "xu-xuan-compile-wulu",
         "xu-xuan-jiang-temple-inscription",
@@ -4823,7 +5097,10 @@
         "xu-xuan-zhou-temple-inscription",
         "xu-xuan-chizhou-ziyang-inscription",
         "xu-xuan-relocate-fathers-grave-xishan",
-        "xu-xuan-liu-chongjun-inscription"
+        "xu-xuan-liu-chongjun-inscription",
+        "xu-xuan-zhou-empress-music-inquiry",
+        "xu-xuan-younger-zhou-marriage-deliberation",
+        "xu-xuan-wang-qixia-inscription"
       ]
     },
     {

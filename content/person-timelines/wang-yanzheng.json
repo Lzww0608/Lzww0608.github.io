@@ -128,6 +128,27 @@
           "originalRevision": 1,
           "originalSha256": "09f1a97b4f43f2948566b0183d1c0e8dfa56b564972d874a5255ada23e69c825",
           "excerpt": "是時，南唐李景聞閩亂，發兵攻之，延政遣其從子繼昌守福州，而南唐兵方急攻延政，福州將李仁達謂其徒曰：「唐兵攻建州，富沙王不能自保，其能有此土也？」乃擒繼昌殺之。欲自立，懼眾不附，以雪峯寺僧卓儼明示眾曰：「此非常人也。」被以衮冕，率諸將吏北面而臣之。已而又殺儼明，乃自立，送款于李景，景以仁達為威武軍節度使，更其名曰弘義。而景兵攻破建州，遷延政族於金陵，封鄱陽王。是歲，景保大四年也。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p5",
+          "originalRevision": 1,
+          "originalSha256": "82949d54fe6821cb3788bb36a51b0cab9602046f0a6039ae5dd829899a0c77a4",
+          "excerpt": "丁亥，克建州，執閩主王延政歸金陵，拜羽林大將軍。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v022",
+          "paragraphId": "shiguochunqiu-v022-p8",
+          "originalRevision": 1,
+          "originalSha256": "5f57e2f7654c388ef179861802c6e3b22b0f4d53023f0f186364186d94632e0b",
+          "excerpt": "二年，查文徽以樞密副使出師攻建州，詔鎬爲行營招討、供撫饒信歙等州諸指揮都虞候，從文徽行。然衆栽數千，戰敗退舍。元宗聞之，遣何敬洙、袓全恩、姚奉來援。敬洙與鎬奪其險要，自崇安進次赤嶺，與建兵方相持爲背水陳，文徽使騎繞出建兵後，與敬洙、鎬夾擊，大破之，遂取建州，降王延政，復取鐔州。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v022",
+          "paragraphId": "shiguochunqiu-v022-p9",
+          "originalRevision": 1,
+          "originalSha256": "36c5374a26e22cf6f833365a6a9f8fb720f7622b5ee173fbb70312968ae8ece9",
+          "excerpt": "保大時，取建州，建封爲先鋒橋道使，焚建州外郛，克之，閩王延政降。何敬洙功最諸將，建封忿曰：「我縱火先登，諸軍乃能入，我功當第一！」敬洙因推之，具以聞諸朝，第賞，拜信州刺史，人皆多敬洙而薄建封。"
         }
       ],
       "phase": "fall",
@@ -171,7 +192,10 @@
           "summary": "旧史称延政是延羲兄、在福州称帝，新史称其弟在建州建殷；不合并错误世系或地点。"
         }
       ],
-      "sortOrder": 4
+      "sortOrder": 4,
+      "notes": [
+        "卷22两传再记建州降事，未独记降日；边镐传以保大二年起叙出师，不能据该段起叙年替换主证降年或消除945、946异说。"
+      ]
     },
     {
       "id": "wang-yanzheng-build-rivalry",
@@ -275,6 +299,33 @@
       "phase": "uncertain",
       "precision": "undated",
       "sortOrder": 7
+    },
+    {
+      "id": "wang-yanzheng-guangshan-title",
+      "year": null,
+      "yearRange": {
+        "start": 951,
+        "end": 952
+      },
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "sourceDate": "《十国春秋》保大九年“是岁”，未独记月日",
+      "title": "改封光山王，授山南西道节度使",
+      "summary": "《十国春秋》记王延政由安化节度使、鄱阳王获授山南西道节度使，改封光山王。",
+      "notes": [
+        "“是岁”承保大九年，未承前条十二月为本事月份；该年对应西历951—952，不能据年号标签排除次年年初。",
+        "授官不等于实际到任；本段没有叙写王延政赴山南西道或掌握当地的经过。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "6fc566764ccb5914e0630d85d269a3dfba887cf38086d73f146d12fe995d0dc5",
+          "excerpt": "是歲，以安化節度使、鄱陽王王延政爲山南西道節度使，改封光山王。"
+        }
+      ]
     }
   ]
 }

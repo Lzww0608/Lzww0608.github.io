@@ -49,7 +49,62 @@
       ],
       "precision": "month",
       "phase": "service",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "variants": [
+        {
+          "label": "本纪官称太常博士、奏可但令已行",
+          "sourceDate": "保大元年三月承位后",
+          "summary": "本纪称太常博士韩熙载谏逾年改元，奏议虽可而制书已行；通鉴官称秘书郎、称不从，各按书保存。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p3",
+              "originalRevision": 1,
+              "originalSha256": "7a08e6e4fe67c3bdea9f128cf4de319660b9c016e322f138ba607dc66ffb155e",
+              "excerpt": "太常博士韓熙載上疏曰：「逾年改元，古制也。事不師古，弗可以訓。」時雖可其奏，而制書已行，識者非之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "han-xizai-liezu-funeral-and-temple-title",
+      "year": 943,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 3,
+      "sourceDate": "烈祖殂后议葬及庙号，未独记韩熙载议礼日",
+      "title": "参与烈祖葬礼与庙号之议",
+      "summary": "《十国春秋》江文蔚传记元宗命江文蔚与韩熙载、萧俨共同议定烈祖葬礼。萧俨传又记江、韩典太常礼仪，起初议称宗，萧俨主张中兴之君当称祖，江文蔚赞同，遂采用其议。",
+      "notes": [
+        "烈祖于943年去世，本纪同年十一月葬永陵；这里以卒葬界定议礼年份，不把安葬日当成韩熙载参与议礼的独日。",
+        "江文蔚传所载工部员外郎、判太常卿事是江文蔚的授职，不移作韩熙载的任命。",
+        "萧俨传明确说江文蔚接受称祖的意见，未单独交代韩熙载对此的最后表态。",
+        "“精练保。大初”句读截断年号，按相接语义为保大初；底本文字及句译单位保持原样。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v025",
+          "paragraphId": "shiguochunqiu-v025-p4",
+          "originalRevision": 1,
+          "originalSha256": "c8e5bf393fd4a5d8263383e3d0d6cabc8e6513cebab2460d8d787007b6cecc23",
+          "excerpt": "江文蔚、韓熙載典太常禮儀，義烈祖稱宗。儼獨建言帝王已失之，己得之謂之反正。非已失之自己復之，謂之中興。中興之君廟宜稱祖。先帝興已隧之業，不應屈而稱宗。文蔚亦以儼議為當，遂用之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v025",
+          "paragraphId": "shiguochunqiu-v025-p8",
+          "originalRevision": 1,
+          "originalSha256": "bbb59a7110275c0f79324a3de3d83e2e4c8c78bcbc876df9a8f8e02100c64143",
+          "excerpt": "烈祖殂，元宗以文蔚知禮，宜董治山陵事除文蔚工部員外郎，判太常卿事，與韓熙載、蕭儼共儀葬禮，稱為精練保。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v015",
+          "paragraphId": "shiguochunqiu-v015-p9",
+          "originalRevision": 1,
+          "originalSha256": "e1038b6b6f9c62bcb7743c662fff3f47f1e422880d46d19890ef3e2d52409e10",
+          "excerpt": "十一月壬寅，葬永陵。"
+        }
+      ]
     },
     {
       "id": "han-xizai-urge-northern-opportunity",
@@ -64,6 +119,13 @@
           "originalRevision": 1,
           "originalSha256": "a345bf305c574596eb7809be5be6ef2e1c7e375312713d00760565892df8db5c",
           "excerpt": "唐虞部員外郎史館修撰韓熙載上疏，以為：「陛下恢復祖業，今也其時。若虜主北歸，中原有主，則未易圖也。」時方連兵福州，未暇北顧。唐人皆以為恨，唐主亦悔之。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p11",
+          "originalRevision": 1,
+          "originalSha256": "6fc566764ccb5914e0630d85d269a3dfba887cf38086d73f146d12fe995d0dc5",
+          "excerpt": "〈先是，契丹侵河南，晉主北遷，熙載上書曰：「陛下有經營天下之志，定在今時。若契丹遁歸，中原有主，安輯稍定，則未可圖也。」至是又上書云。〉"
         }
       ],
       "precision": "month",
@@ -122,6 +184,13 @@
           "originalRevision": 1,
           "originalSha256": "f095cee94e2d2da671199b6201266c2113d34e54ddb50cea0f857acdaedfb749",
           "excerpt": "四年八月，文徽乘勝克建、汀、泉、漳四州，景分延平、劍浦、富沙三縣，置劍州，遷王延政之族于金陵。以延政為饒州節度使、李仁達為福州節度使、留從効為清源軍節度使。景遂欲罷兵，而查文徽、陳覺等皆言：「仁達等餘孽猶在，不若乘勝盡取之。」陳覺自言可不用尺兵致仁達等。景以覺為宣諭使，召仁達朝金陵，仁達不從。覺慚，還至建州，矯命發汀、建、信、撫州兵攻仁達。時魏岑安撫漳、泉，聞覺起兵，亦擅發兵會覺。景大怒，馮延巳等為言：「兵業行，不可止。」乃以王崇文為招討使、王建封為副使，益兵以會之，以延魯、魏岑、陳覺皆為監軍使。仁達送款於吳越，吳越以兵三萬應仁達。覺等爭功，進退不相應，延魯與吳越兵先戰，大敗而走，諸軍皆潰歸。景怒，遣使者鎖覺、延魯至金陵。而馮延巳方為宰相，宋齊丘復自九華召為太傅，為稍解之，乃流覺蘄州、延魯舒州。韓熙載上書切諫，請誅覺等，齊丘惡之，貶熙載和州司馬。是歲，契丹陷京師，中國無主，而景方以覺等疲兵東南，不暇北顧。御史中丞江文蔚劾奏宰相馮延巳、諫議大夫魏岑亂政，與覺等同罪而不見貶黜，言甚切直。景大怒，自答其疏，貶文蔚江州司士參軍，亦罷延巳為少傅、岑為太子洗馬。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p7",
+          "originalRevision": 1,
+          "originalSha256": "3dba89c0f2944b2dcdf816553101a2c08701958fae3330bbe56a660372811b68",
+          "excerpt": "知制誥徐鉉、史館修撰韓熙載論宋齊丘、馮延巳朋黨，帝罷延巳爲太子少傅，貶岑太子洗馬。未幾，帝命降復故官。齊丘讀熙載嗜酒，貶和州司士參軍。"
         }
       ],
       "precision": "year",
@@ -171,7 +240,23 @@
       "notes": [
         "甲辰只系周主释燕敬权，后续归报与韩进言有先后，不为韩意见补同一日。"
       ],
-      "sortOrder": 6
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "本纪将同旨北征谏议系保大九年正月",
+          "sourceDate": "保大九年春正月；《通鉴》旧证记广顺二年后叙",
+          "summary": "本纪记议北征周，韩称郭氏立国虽浅而治已固，轻举有害，遂止于李金全耀兵。与通鉴记年差异保留；是否同次进言或相近主张的另次，不凭同旨合定。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v016",
+              "paragraphId": "shiguochunqiu-v016-p11",
+              "originalRevision": 1,
+              "originalSha256": "6fc566764ccb5914e0630d85d269a3dfba887cf38086d73f146d12fe995d0dc5",
+              "excerpt": "保大九年春正月，議北征周。韓熙載奏曰：「郭氏姦雄，雖有國日淺，而爲理已固。兵若輕舉，非獨無成，亦且有害。」乃命李金全耀兵于淮上而止。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "han-xizai-oppose-monitor",
@@ -223,9 +308,50 @@
               "excerpt": "景困於用兵，鍾謨請鑄大錢以一當十，文曰「永通泉貨」。謨嘗得罪，而大錢廢。韓熙載又鑄鐵錢，以一當二。"
             }
           ]
+        },
+        {
+          "label": "本纪夹引陶岳请铁钱与施行说",
+          "sourceDate": "乾德二年始行条夹引；建议未独记年月",
+          "summary": "夹引《货志录》记韩熙载请以铁为钱、徐铉篆文、既而铁钱大行且公私便之；建议未独年月，不把夹引所在三月当其独立进言日，亦不替换通鉴与新史施行叙法。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "乾德二年春三月，始行鐵錢，〈陶岳《貨志録》曰：韓熙載請以鐵爲錢，其錢之大小一如「開元通寶」，文亦如之。徐鉉篆其文，比于舊錢稍大，而輪郭深闊。既而鐵錢大行，公私便之。〉"
+            }
+          ]
         }
       ],
       "sortOrder": 8
+    },
+    {
+      "id": "han-xizai-song-zhaoxian-dowager-funeral-mission",
+      "title": "奉命赴宋会葬昭宪太后",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 961,
+        "end": 962
+      },
+      "phase": "uncertain",
+      "sourceDate": "本纪建隆二年是岁，未独记使行月日",
+      "summary": "本纪记宋葬昭宪太后，李煜遣户部侍郎韩熙载与太府卿田霖会葬。是岁未独月日，按所系建隆二年的完整范围保961—962。",
+      "notes": [
+        "昭宪为宋朝太后，不是南唐宋福金；会葬不是韩参与烈祖葬礼的同一事件。",
+        "田霖按原文作为同使者保留，不因此增造其家世或其他事迹。"
+      ],
+      "sortOrder": 9,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p3",
+          "originalRevision": 1,
+          "originalSha256": "e70de9713716323017593c055b2dc69097d1d459a0c486b6ff91ef6168358de5",
+          "excerpt": "是歲，宋葬昭憲太后，國主遣户部侍郎韓熙載、太府卿田霖會葬。"
+        }
+      ]
     },
     {
       "id": "han-xizai-liyu-appointment",
@@ -248,7 +374,37 @@
         "start": 964,
         "end": 965
       },
-      "sortOrder": 9
+      "sortOrder": 10,
+      "variants": [
+        {
+          "label": "马令本纪兵部侍郎与勤政殿学士",
+          "sourceDate": "乾德二年春正月",
+          "summary": "马令本纪以铁钱使户部侍郎韩熙载为兵部侍郎、勤政殿学士，和新史中书侍郎官称分源，不把两种侍郎互换。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "二年春正月始用鐵錢以鐵錢使户部侍郎韓熈載為兵部侍郎勤政殿學士"
+            }
+          ]
+        },
+        {
+          "label": "《十国春秋》九月兵部尚书、承旨",
+          "sourceDate": "乾德二年九月",
+          "summary": "本纪记九月拜兵部尚书、勤政殿学士承旨，与新史中书侍郎、马令正月兵部侍郎的官名与阶段分源，不把这些官衔静换成同一名称。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v017",
+              "paragraphId": "shiguochunqiu-v017-p6",
+              "originalRevision": 1,
+              "originalSha256": "1f9c58cefd2c7c71f50a8194e52e76563d57be388e7f27cff1f98f9a693b65d7",
+              "excerpt": "九月，拜韓熙載兵部尚書，充勤政殿學士承旨。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "han-xizai-demote-and-restore",
@@ -270,14 +426,64 @@
       "notes": [
         "嘗字所引任相与贬复为回顾，不将全链一概定在乾德五年，也不说生前已正式拜相。"
       ],
-      "sortOrder": 10
+      "sortOrder": 11
+    },
+    {
+      "id": "han-xizai-dalisi-prison-review-remonstrance",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 969,
+        "end": 970
+      },
+      "phase": "uncertain",
+      "sortOrder": 12,
+      "title": "谏国主亲录囚，款项与采纳有异",
+      "sourceDate": "马令开宝二年冬；陆游本纪追叙未独记年月",
+      "summary": "马令记韩熙载以狱讼属有司、车驾不宜入囹圄进谏，请捐内帑三百万充军资，国主从之；陆游同题故事作请罚内库三百万而不听、不怒，不另凑两次已经证实的谏议。",
+      "evidence": [
+        {
+          "chapterId": "nantangma-v005",
+          "paragraphId": "nantangma-v005-p6",
+          "originalRevision": 1,
+          "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+          "excerpt": "冬較獵于青龍山還憇大理寺親録囚徒原貸甚衆韓熈載奏獄訟有司之事囹圄之中非車駕所至請捐内帑錢三百萬充軍資庫用國主従之曰繩愆糾謬其熈載之謂乎"
+        },
+        {
+          "chapterId": "shiguochunqiu-v017",
+          "paragraphId": "shiguochunqiu-v017-p11",
+          "originalRevision": 1,
+          "originalSha256": "8864a256af50cd83483dbd5b0869e69213fe078b28cc261cb7bff368fb608630",
+          "excerpt": "冬，國主較獵于青龍山，還憩大理寺，親録囚，原貸甚衆。中書侍郎韓熙載奏：「獄訟有司之事，囹圄之中非車駕所至，請捐內帑錢三百萬充軍資軍用。」〈《江南野史》作給事中蕭儼與熙載同彈奏。〉國主從之，曰：「繩愆糾繆，熙載有焉。」是歲，普度諸郡僧。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "陆游罚款而未获采纳的叙法",
+          "sourceDate": "本纪末尾追叙，未独记年月",
+          "summary": "陆游记请罚内库钱三百万以资国用，后主虽不听亦不怒；马令记请捐内帑、国主从之。青山、青龙山称谓按书，不据近似情节强定同日。",
+          "evidence": [
+            {
+              "chapterId": "nantanglu-v003",
+              "paragraphId": "nantanglu-v003-p17",
+              "originalRevision": 1,
+              "originalSha256": "2bb264a675b38b932199a0bcd54e9354fa08ac751c059b01e6cbc2ea684806da",
+              "excerpt": "常獵於青山還如大理寺親録繫囚多所原釋中書侍郎韓熙載奏獄訟有司之事囹圄非車駕所宜臨幸請罰内庫錢三百萬以資國用雖不聽亦不怒也"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "969—970范围仅据马令开宝二年冬；陆游本纪的追叙不被强套为同年同日。",
+        "三百万款项的“捐／罚”及“从之／不听”是两书实质差异，未调和为先拒后从。"
+      ]
     },
     {
       "id": "han-xizai-death-posthumous-chancellor",
       "year": null,
       "sourceDate": "《新史》乾德五年段接是岁；西历967—968年范围",
       "title": "新史记是岁卒，死后赠平章事",
-      "summary": "新史在乾德五年轮宿令、拟相与贬复叙事后接称是岁熙载卒。李煜叹终未得其为相，询问前代赠官先例后赠平章事。此处按本书叙次保存整年对应范围，归档内尚无其他明确卒年可资参照；追赠不等于生前任命。",
+      "summary": "新史在乾德五年轮宿令、拟相与贬复叙事后接称是岁熙载卒。李煜叹终未得其为相，询问前代赠官先例后赠平章事。此处按本书叙次保存整年对应范围，马令本纪另记开宝三年卒，纪年分源保留；追赠不等于生前任命。",
       "evidence": [
         {
           "chapterId": "new-v62",
@@ -294,9 +500,25 @@
         "end": 968
       },
       "notes": [
-        "当前归档未见其他明确独立卒年或卒日，不据人名常识补生年、享年或死因。"
+        "本事件保留《新五代史》乾德五年叙次；马令本纪另记开宝三年。未据这些年次补生年、享年或死因。"
       ],
-      "sortOrder": 11
+      "sortOrder": 13,
+      "variants": [
+        {
+          "label": "马令本纪开宝三年卒赠",
+          "sourceDate": "开宝三年，未独记月日",
+          "summary": "马令在开宝三年记中书侍郎韩熙载卒、赠平章事；与新史乾德五年是岁卒分别保存，不用年次交集或通说改原文。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v005",
+              "paragraphId": "nantangma-v005-p6",
+              "originalRevision": 1,
+              "originalSha256": "c3389d7f808b454b76d79d29c3282278a362d262a9243e408b03e8e7f4d5151b",
+              "excerpt": "三年中書侍郎韓熈載卒贈平章事"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "han-xizai-late-household-anecdote",
@@ -326,7 +548,7 @@
         "旧史夹引史补不当独立另一部亲历证；不补佯狂自保等未在当前原段明说的动机。",
         "本书这些段落没有赐图情节，不用旧赐图故事补写本书；人物动机不超出原文。"
       ],
-      "sortOrder": 12,
+      "sortOrder": 14,
       "variants": [
         {
           "label": "《南唐近事》家事的两段轶闻",
@@ -371,14 +593,30 @@
           "excerpt": "吳媛，浚儀人，唐史官兢之後。父志野，義不仕梁，南游吳，遂家廬陵。媛適段甲，生子未晬。段卒，父母以媛少，議嫁之。媛𠢐面自誓，事舅姑極備謹，教所生子為善士。韓熙載使江南，表其節云。"
         }
       ],
-      "sortOrder": 13
+      "sortOrder": 15,
+      "variants": [
+        {
+          "label": "马令作使江西、录其清节",
+          "sourceDate": "韩熙载使江西时，未记年月",
+          "summary": "马令记韩熙载使江西并记录吴媛清节，陆游记使江南并上表；地点和行为用字分别保留，不据“录”另补朝廷已经旌表。",
+          "evidence": [
+            {
+              "chapterId": "nantangma-v006",
+              "paragraphId": "nantangma-v006-p15",
+              "originalRevision": 1,
+              "originalSha256": "c995e5f0dd59d6ae46a29ffc685108cc73286563b05c4fe18cfed96e0a0a6ea0",
+              "excerpt": "韓熈載使江西録其清節云"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "han-xizai-recognize-zhang-ji",
       "title": "赏识张洎并主文取之",
       "summary": "张洎受荐后拜谒韩熙载，韩待之如故人，许为中书舍人之才；随后韩熙载主文，张洎登第。书中不到十年任职的后叙，不倒推为此次考试日。",
       "year": null,
-      "sortOrder": 14,
+      "sortOrder": 16,
       "precision": "undated",
       "sourceDate": "本书张洎计偕之岁及“顷之”，未独记年月",
       "phase": "uncertain",
@@ -400,7 +638,7 @@
       "title": "出使中原时作诗",
       "summary": "《南唐近事》记韩熙载出使“中国”时作诗，自言本为江北人、去作江南客，返江北而无相识。只保本段明载的使行与诗作。",
       "year": null,
-      "sortOrder": 15,
+      "sortOrder": 17,
       "precision": "undated",
       "sourceDate": "本书“使中国作诗”，未独记年月或使主",
       "phase": "uncertain",
@@ -415,6 +653,82 @@
       ],
       "notes": [
         "不补诗题、出使对象或年份，不据缺少细节强定与另一使行为同一次。"
+      ]
+    },
+    {
+      "id": "han-xizai-satire-at-queen-wedding",
+      "title": "继后婚礼次日宴上作诗讽谏",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 18,
+      "sourceDate": "纳后成礼翌日；未独记年月",
+      "summary": "李煜迎娶继后、完成婚礼后，次日大宴群臣，韩熙载以下作诗讽谏，李煜没有责罚。这里没有载诗的全文或独立日期，不能把开宝元年始议礼制的范围直接移作宴日。",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p9",
+          "originalRevision": 1,
+          "originalSha256": "ad8887d2d1b3ca9a41d53b113875625fae38d2dc8e18f7f56e3aba702cc1aaa0",
+          "excerpt": "至納后，乃成禮而已。翼日，大燕羣臣，韓熙載以下皆作詩諷焉，而後主不之譴也。"
+        },
+        {
+          "chapterId": "nantangma-v006",
+          "paragraphId": "nantangma-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "82b039bce5c27658fda87123e2654d072ad3e5f3a48c623f87707673f851114f",
+          "excerpt": "至納后乃成禮而已翌日大醼羣臣韓熈載以下皆為詩以諷焉而後主不之譴"
+        }
+      ],
+      "notes": [
+        "《新五代史》韩熙载传乾德五年是岁卒的叙次与本故事的婚礼叙事分源保留；不把967—968卒年范围与始议968—969相交而定宴会唯一968年。",
+        "韩熙载以下是群臣作诗的概叙，不据此补定每位参与者或把同书异文算成独立复证。"
+      ]
+    },
+    {
+      "id": "han-xizai-yang-baozong-writing-order",
+      "title": "奉命为杨保宗撰记",
+      "summary": "元宗赐杨保宗所居观额，并命尚书郎韩熙载撰记；未明文稿完成、题名或二人私交。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 19,
+      "sourceDate": "元宗召见杨保宗时，未独记年月",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+          "excerpt": "仍賜觀額，敕尚書郎韓熙載撰記。"
+        }
+      ],
+      "notes": [
+        "只记受命，不把撰记命令变成已有完整作品传世。"
+      ]
+    },
+    {
+      "id": "han-xizai-tao-gu-six-dynasties-copying",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 20,
+      "sourceDate": "卷中夹引《南唐拾遗记》陶谷使南唐故事，抄书未独纪年",
+      "title": "令馆伴在驿馆誊抄六朝书",
+      "summary": "《十国春秋》夹引《南唐拾遗记》，记陶谷使南唐时想借书，韩熙载令馆伴在驿馆誊抄六朝书，半年才完成。",
+      "notes": [
+        "誊抄的施事是馆伴，韩熙载下令，不写成韩亲自抄完诸书。",
+        "抄书故事未独记年月，“半年乃毕”不足以倒推出起止日，不直接套用夹注前正文的十二月。",
+        "同一引文宴主称中主，另引《任杜娘传》又作吴越与杜娘；与后主、秦弱兰的其他书叙法分源保留，不据此合成同一已核使行。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v016",
+          "paragraphId": "shiguochunqiu-v016-p17",
+          "originalRevision": 1,
+          "originalSha256": "0ef5b996597e386258b9539b5a6a6d73c9400564cbe35b4804032793f577dfb4",
+          "excerpt": "〈按《南唐拾遺記》：陶穀使南唐，甚欲假書。韓熙載令館伴驛中謄六朝書，半年乃畢。"
+        }
       ]
     }
   ]

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-li-yu-palace-qiao",
+  "events": [
+    {
+      "id": "nantang-li-yu-palace-qiao-sutra-gift",
+      "title": "奉佛并受赐金字心经",
+      "summary": "原书记乔氏善书，居宫曾出家奉佛，受赐后主手书金字心经；未明出家是否离宫或具体年月。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "居宫期间；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p12",
+          "originalRevision": 1,
+          "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+          "excerpt": "喬氏，亦後主宮人。善書，居宮中，常出家奉佛，後主手書金字《心經》賜之。"
+        }
+      ],
+      "notes": [
+        "徐锴集出家诰同人仅编者问句，不作独立确证。"
+      ]
+    },
+    {
+      "id": "nantang-li-yu-palace-qiao-song-palace",
+      "title": "国亡后入宋禁中",
+      "summary": "原书记国亡后她入宋禁中；本句未给独立日期，也未记她的后续生卒。",
+      "year": null,
+      "sortOrder": 2,
+      "precision": "undated",
+      "sourceDate": "国亡以后；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p12",
+          "originalRevision": 1,
+          "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+          "excerpt": "國亡，入宋禁中。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-li-yu-palace-qiao-hundred-day-offering",
+      "title": "国主百日捨经相国寺",
+      "summary": "乔氏闻后主薨，在国主百日捨经相国寺塔院为他祈福，卷后有自述题记。僧人后来携经回江南属于经卷流传，不是她归国。",
+      "year": null,
+      "sortOrder": 3,
+      "precision": "undated",
+      "sourceDate": "伏遇国主百日；相对祭奠时点，未有独立确年日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p12",
+          "originalRevision": 1,
+          "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+          "excerpt": "聞後主薨，乃出經捨相國寺，以資冥福"
+        },
+        {
+          "chapterId": "shiguochunqiu-v018",
+          "paragraphId": "shiguochunqiu-v018-p12",
+          "originalRevision": 1,
+          "originalSha256": "4cac4c54d6335ffb945ddec489e4b04ad34ba1c82fe130b4997a32ef57f77708",
+          "excerpt": "伏遇國主百日，謹捨昔時賜妾所書《般若心經》在相國寺塔院。"
+        }
+      ],
+      "notes": [
+        "不从外部卒日倒算一年或确日。"
+      ]
+    }
+  ]
+}

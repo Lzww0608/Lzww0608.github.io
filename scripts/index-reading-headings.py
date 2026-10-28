@@ -21,6 +21,17 @@ def heading_level(tag, text, book_id):
     # Some archived books also use explicit textual title markers.
     if book_id == 'nantanglu' and tag == 'p' and text == '雜藝方士節義列傳第十七':
         return 2
+    # Whole source captions also appear inside paragraph-based poem blocks.
+    if tag == 'p' and book_id in {'nantanglu', 'nantangma'}:
+        caption = re.sub(r'\s+', '', text)
+        captions = {
+            'nantanglu': {'南唐書卷一宋陸游撰烈祖本紀第一',
+                         '南唐書卷十六宋陸㳺撰后妃諸王列傳第十三',
+                         '南唐書卷三宋陸游撰後主本紀第三', '南唐書卷三'},
+            'nantangma': {'南唐書卷六', '女憲𫝊第一', '南唐書卷五', '後主書第五'},
+        }
+        if caption in captions[book_id]:
+            return 2
     if book_id == 'quewen' and text.startswith('◇') and '\n' not in text:
         return 4
     if book_id == 'old' and re.fullmatch(r'◎[^\n。！？；]{1,30}', text):

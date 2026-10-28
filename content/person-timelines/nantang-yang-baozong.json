@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-yang-baozong",
+  "events": [
+    {
+      "id": "nantang-yang-baozong-seek-dao",
+      "title": "许聘后请求做女道士",
+      "summary": "原书记她及笄时已经许聘，忽有感悟，便请求做女道士；没有记述婚礼已经完成或婚约如何处置。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "及笄、许聘之后；未独记年月",
+      "notes": [
+        "及笄是本书年龄阶段用语，不补出生年或某一岁生日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+          "excerpt": "自幼爽秀，及筓，許聘矣，忽有感悟，遂乞爲女道士。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-yang-baozong-lushan-care",
+      "title": "居庐山崇善观，书载以丹药符箓救疾",
+      "summary": "她入庐山，住在上霄峰崇善观；书中称她却粒炼形，并用丹药、符箓救人疾苦，保留其宗教活动语境。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "求为女道士之后、元宗召见之前的叙次；未独记年月",
+      "notes": [
+        "未以却粒或救疾叙述确证医学效果。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+          "excerpt": "入廬山，棲于上霄峯崇善觀，却粒煉形，頓忘塵念。時以丹藥符籙救人疾苦。"
+        }
+      ]
+    },
+    {
+      "id": "nantang-yang-baozong-court-summons",
+      "title": "元宗召见并赐观额、紫衣",
+      "summary": "元宗闻其事，召她赴阙，迎入禁中，命好道妃嫔与她相见，出资修整观舍并赐观额；又赐紫衣，命韩熙载撰记、臣下作诗送行。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "元宗闻名召赴阙时；未独记年月",
+      "notes": [
+        "召见、修观赐予与奉诏撰记诗送按同一段连续叙事合列，不拆为多次召见或独立同日事件。",
+        "原文记命撰记、作诗，不直接证明文稿或诗篇已完成；受召不等于婚配或入籍为宫人。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v034",
+          "paragraphId": "shiguochunqiu-v034-p10",
+          "originalRevision": 1,
+          "originalSha256": "5b8ff8bd0977c36b8dead09a4b3bc3f7b8d29729d3cfc1652fffea25413a470c",
+          "excerpt": "元宗聞之，特召赴闕，延入禁中，命妃嬪樂道者見之，捨金錢千萬，令新其宇，仍賜觀額，敕尚書郎韓熙載撰記。又賜保宗紫衣，詔臣下作詩送之。"
+        }
+      ]
+    }
+  ]
+}

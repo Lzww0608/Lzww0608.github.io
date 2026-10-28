@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "nantang-geng-xiansheng",
+  "events": [
+    {
+      "id": "nantang-geng-xiansheng-court-favor",
+      "title": "书载因荐进、制香获宠",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "初因宋齐丘进；制香得幸均无独立年月",
+      "summary": "陆游记耿先生先因宋齐丘进见，后在龙脑香故事中受到元宗宠爱；近事亦称女冠获宠。炼物神异与受宠称说分层，不补册妃。",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "始因宋齊丘進"
+        },
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "香味逾於所進，遂得幸於元宗。"
+        },
+        {
+          "chapterId": "nantangjinshi-v002",
+          "paragraphId": "nantangjinshi-v002-p24",
+          "originalRevision": 1,
+          "originalSha256": "dc21fde06e8fa5a8082e76e177ac8c5c1703de5f4549c3e74b10b6028a9bab1e",
+          "excerpt": "獲寵於元宗"
+        }
+      ],
+      "notes": [
+        "不把后段宋太后事件的943—945年范围覆盖初荐进与制香。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》记保大中入宫",
+          "sourceDate": "保大中，未独记年月",
+          "summary": "本书记耿先生在保大中因宋齐丘入宫，元宗安置于别院，称先生；后文得幸、问术及隐去为不同叙次。",
+          "notes": [
+            "保大中的入宫叙次不覆盖后来全部术数故事，也不据此推定册妃。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "保大中，因宋齊丘以入宫，元宗處之别院，號曰先生。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-geng-xiansheng-hidden-barred",
+      "title": "太后失踪叙事中隐去，后不得再入宫",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 943,
+        "end": 945
+      },
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "元宗继位、宋太后在世期间的后段叙次",
+      "summary": "书载宋太后不在宫中时耿亦隐去；太后被迎回后，耿不能再入宫。范围只据该段宋太后已尊太后而未卒的叙次，不作确切出走日。",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "宮中忽失元敬宋太后所在，耿亦隱去。"
+        },
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "耿亦不復得入宮中"
+        }
+      ],
+      "notes": [
+        "未说耿带太后出走、被景遂迎回或被诛；后续往来江淮的全部年限不受此范围约束。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》记景达迎宋太后",
+          "sourceDate": "元宗时宋太后在世，未独记离宫、迎还年月",
+          "summary": "正文记宋太后不知所在、耿亦隐去，元宗命齐王景达迎太后还宫，道士被诛，耿不得再入宫；陆游作景遂。并未说明耿也在宝华宫。",
+          "notes": [
+            "景达、景遂按两书分别保留，不调和为无疑同一人。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "久之，宫中忽失宋太后所在，耿亦隱去幾月餘，中外大駭。有告者云：“在都城外二十里方山寶華宫。”元宗亟命齊王景達往迎太后，見與數道士方酣飲，乃迎還宫，道士皆誅死，耿亦不復得入宫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nantang-geng-xiansheng-jianghuai",
+      "title": "后仍往来江淮，结局未详",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "不能复入宫以后；终年未详",
+      "summary": "本传称耿先生后来仍往来江淮，不知所终；不据其画像留存推生卒。",
+      "evidence": [
+        {
+          "chapterId": "nantanglu-v017",
+          "paragraphId": "nantanglu-v017-p16",
+          "originalRevision": 1,
+          "originalSha256": "19a4d0caeedce600a5033bdf586d28dce005fc98495c9cb4008e39f562236dc4",
+          "excerpt": "猶然往來江淮，後不知所終。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》或言往来卖药",
+          "sourceDate": "不得再入宫以后，未独记年月",
+          "summary": "本书以“或言”转述耿先生往来江淮、于市卖药；保留这一传闻语气，不更改陆游书后不知所终的说法。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v034",
+              "paragraphId": "shiguochunqiu-v034-p9",
+              "originalRevision": 1,
+              "originalSha256": "8db8a89bee20865ddee617b24acc2b7497a6c9d67167de548db036b83844948e",
+              "excerpt": "或言其往來江、淮，賣藥于市云。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
