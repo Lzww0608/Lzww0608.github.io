@@ -11744,6 +11744,14 @@
         "originalRevision": 1,
         "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
         "excerpt": "後主使内夫人問之續遺託國事言不及私"
+      },
+      {
+        "title": "《十国春秋》 · 卷 23 · 南唐列传（严续、常梦锡等）",
+        "chapterId": "shiguochunqiu-v023",
+        "paragraphId": "shiguochunqiu-v023-p2",
+        "originalRevision": 1,
+        "originalSha256": "8b52c3b1516eb5ac21d544ca3c919d6a08c0342568bfe853794f8b2bb479d357",
+        "excerpt": "後主使內夫人問之，續遺託國事，辭氣慷慨，言不及私，歷陳羣臣邪正，某當退、某當進者，凡若干人。"
       }
     ]
   },
@@ -11762,6 +11770,14 @@
         "originalRevision": 1,
         "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
         "excerpt": "後主使内夫人問之續遺託國事言不及私"
+      },
+      {
+        "title": "《十国春秋》 · 卷 23 · 南唐列传（严续、常梦锡等）",
+        "chapterId": "shiguochunqiu-v023",
+        "paragraphId": "shiguochunqiu-v023-p2",
+        "originalRevision": 1,
+        "originalSha256": "8b52c3b1516eb5ac21d544ca3c919d6a08c0342568bfe853794f8b2bb479d357",
+        "excerpt": "後主使內夫人問之，續遺託國事，辭氣慷慨，言不及私，歷陳羣臣邪正，某當退、某當進者，凡若干人。"
       }
     ]
   },
@@ -11924,6 +11940,58 @@
         "originalRevision": 1,
         "originalSha256": "f33fa1155e8690f8d8737dd528325c6123eae8786435328633d75eedb531edbe",
         "excerpt": "初，後主與周后酷信浮屠法，僧帽裓衣，課誦釋典，親削僧徒，厠簡試之，以頰少有芒刺，則加以修治，兩手常作佛印而行。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-daughter-yan-xu-marriage-source-contact",
+    "from": "li-bian",
+    "to": "nantang-li-bian-daughter-yan-xu-marriage-source-role",
+    "kind": "kinship",
+    "label": "父女记载（来源联系）",
+    "note": "两书严续传均记烈祖以女妻之，所指为李昪；女方与已见诸公主的对应未明，不据此另定排行、母系或新增一位自然女儿。两书记述近似，不作为独立复证。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p6",
+        "originalRevision": 1,
+        "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
+        "excerpt": "嚴續字興宗父可求善籌畫為吳相續以父廕補千牛備身遷秘書郎烈祖以女妻之"
+      },
+      {
+        "title": "《十国春秋》 · 卷 23 · 南唐列传（严续、常梦锡等）",
+        "chapterId": "shiguochunqiu-v023",
+        "paragraphId": "shiguochunqiu-v023-p2",
+        "originalRevision": 1,
+        "originalSha256": "8b52c3b1516eb5ac21d544ca3c919d6a08c0342568bfe853794f8b2bb479d357",
+        "excerpt": "嚴續字興宗。父可求，爲吳相。續年十餘歲，以父廕補千牛備身，遷秘書郎。列袓以女妻之。"
+      }
+    ]
+  },
+  {
+    "id": "li-bian-daughter-yan-xu-wife-source-contact",
+    "from": "nantang-li-bian-daughter-yan-xu-marriage-source-role",
+    "to": "nantang-yan-xu",
+    "kind": "kinship",
+    "label": "婚配记载（来源联系）",
+    "note": "本传明确记严续娶烈祖女，女方本名、封号及婚期未详；不与严续府中歌姬或后主遣问疾的内夫人相混。两书记述近似，不作为独立复证。",
+    "sources": [
+      {
+        "title": "《南唐书（马令）》 · 卷 10 · 相关人物列传",
+        "chapterId": "nantangma-v010",
+        "paragraphId": "nantangma-v010-p6",
+        "originalRevision": 1,
+        "originalSha256": "eded1b2258b46b9f3c90a663118438f5aed0df2c2c94dcb7e5befeab565c35e1",
+        "excerpt": "嚴續字興宗父可求善籌畫為吳相續以父廕補千牛備身遷秘書郎烈祖以女妻之"
+      },
+      {
+        "title": "《十国春秋》 · 卷 23 · 南唐列传（严续、常梦锡等）",
+        "chapterId": "shiguochunqiu-v023",
+        "paragraphId": "shiguochunqiu-v023-p2",
+        "originalRevision": 1,
+        "originalSha256": "8b52c3b1516eb5ac21d544ca3c919d6a08c0342568bfe853794f8b2bb479d357",
+        "excerpt": "嚴續字興宗。父可求，爲吳相。續年十餘歲，以父廕補千牛備身，遷秘書郎。列袓以女妻之。"
       }
     ]
   }
