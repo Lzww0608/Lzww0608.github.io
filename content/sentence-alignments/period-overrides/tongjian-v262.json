@@ -2000,9 +2000,9 @@
       "paragraphId": "tongjian-v262-p52",
       "originalRevision": 1,
       "originalSha256": "97b9f26554c03eeb61412f52430699a9f9bf5f47df1875b837709c3c82b234a1",
-      "translationSha256": "2e82dcdb1ab4524b34ec1d6249bee07590455ea6b7daa60084443efafe997890",
-      "translationId": "9323",
-      "translationVersion": 1,
+      "translationSha256": "4792d7a95e5b50550dbc200a16ff7cc6e93224b4d2daa4951f59dd36fe19c58f",
+      "translationId": "9852",
+      "translationVersion": 2,
       "sentences": [
         {
           "originalStart": 0,
@@ -2014,67 +2014,67 @@
           "originalStart": 14,
           "originalEnd": 112,
           "translationStart": 13,
-          "translationEnd": 112
+          "translationEnd": 126
         },
         {
           "originalStart": 112,
           "originalEnd": 124,
-          "translationStart": 112,
-          "translationEnd": 126
-        },
-        {
-          "originalStart": 124,
-          "originalEnd": 137,
           "translationStart": 126,
           "translationEnd": 140
         },
         {
+          "originalStart": 124,
+          "originalEnd": 137,
+          "translationStart": 140,
+          "translationEnd": 154
+        },
+        {
           "originalStart": 137,
           "originalEnd": 155,
-          "translationStart": 140,
-          "translationEnd": 163
+          "translationStart": 154,
+          "translationEnd": 177
         },
         {
           "originalStart": 155,
           "originalEnd": 173,
-          "translationStart": 163,
-          "translationEnd": 184
+          "translationStart": 177,
+          "translationEnd": 198
         },
         {
           "originalStart": 173,
           "originalEnd": 190,
-          "translationStart": 184,
-          "translationEnd": 202
+          "translationStart": 198,
+          "translationEnd": 216
         },
         {
           "originalStart": 190,
           "originalEnd": 214,
-          "translationStart": 202,
-          "translationEnd": 232
+          "translationStart": 216,
+          "translationEnd": 246
         },
         {
           "originalStart": 214,
           "originalEnd": 221,
-          "translationStart": 232,
-          "translationEnd": 242
+          "translationStart": 246,
+          "translationEnd": 256
         },
         {
           "originalStart": 221,
           "originalEnd": 242,
-          "translationStart": 242,
-          "translationEnd": 264
+          "translationStart": 256,
+          "translationEnd": 278
         },
         {
           "originalStart": 242,
           "originalEnd": 262,
-          "translationStart": 264,
-          "translationEnd": 285
+          "translationStart": 278,
+          "translationEnd": 299
         },
         {
           "originalStart": 262,
           "originalEnd": 292,
-          "translationStart": 285,
-          "translationEnd": 321
+          "translationStart": 299,
+          "translationEnd": 335
         }
       ],
       "reason": "完整原段及每个真实阅读单位经作者和独立对读；实际全文ID/版本只由同client外层事务返回后绑定。"
