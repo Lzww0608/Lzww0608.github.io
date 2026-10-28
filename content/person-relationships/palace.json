@@ -11994,5 +11994,41 @@
         "excerpt": "嚴續字興宗。父可求，爲吳相。續年十餘歲，以父廕補千牛備身，遷秘書郎。列袓以女妻之。"
       }
     ]
+  },
+  {
+    "id": "xu-wen-wang-chongwen-wife-source-contact",
+    "from": "wu-xu-wen",
+    "to": "wu-xu-wen-daughter-wang-chongwen-marriage-source-role",
+    "kind": "kinship",
+    "label": "父女记载（来源联系）",
+    "note": "王崇文传所称义祖为徐温，婿称谓保留女方与徐温的父女来源联系；不据此另计一位自然女儿，亦不补生母、排行或婚期。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 22 · 南唐列传（王崇文、刘崇俊等）",
+        "chapterId": "shiguochunqiu-v022",
+        "paragraphId": "shiguochunqiu-v022-p2",
+        "originalRevision": 1,
+        "originalSha256": "7f8f50a1b17d085322c67b2947659ac8eeda4c0aaf14efd6cf17df40ca393170",
+        "excerpt": "王崇文字光廂，吳功臣綰之子也。爲人重厚儒雅，博綜經史。以門第婿于義袓，出爲歙、吉二州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "wang-chongwen-xu-wen-daughter-marriage-source-contact",
+    "from": "wu-xu-wen-daughter-wang-chongwen-marriage-source-role",
+    "to": "nantang-wang-chongwen",
+    "kind": "kinship",
+    "label": "婚配记载（来源联系）",
+    "note": "本传明记王崇文婿于义祖，女方与李建勋妻广德长公主的同异未定；保留这条婚配记载，不补定改嫁或称号沿革。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 22 · 南唐列传（王崇文、刘崇俊等）",
+        "chapterId": "shiguochunqiu-v022",
+        "paragraphId": "shiguochunqiu-v022-p2",
+        "originalRevision": 1,
+        "originalSha256": "7f8f50a1b17d085322c67b2947659ac8eeda4c0aaf14efd6cf17df40ca393170",
+        "excerpt": "王崇文字光廂，吳功臣綰之子也。爲人重厚儒雅，博綜經史。以門第婿于義袓，出爲歙、吉二州刺史。"
+      }
+    ]
   }
 ]
