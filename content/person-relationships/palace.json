@@ -12030,5 +12030,67 @@
         "excerpt": "王崇文字光廂，吳功臣綰之子也。爲人重厚儒雅，博綜經史。以門第婿于義袓，出爲歙、吉二州刺史。"
       }
     ]
+  },
+  {
+    "id": "lu-wenjin-cunju-consort-lu-father-daughter",
+    "from": "lu-wenjin",
+    "to": "tang-li-cunju-consort-lu",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "本传明确称文进有女，并叙将女儿交给存矩为侧室；女方母亲、排行、本名未载。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 24 · 南唐列传（李金全、卢文进等）",
+        "chapterId": "shiguochunqiu-v024",
+        "paragraphId": "shiguochunqiu-v024-p3",
+        "originalRevision": 1,
+        "originalSha256": "a10c9b1a167f9f51905d08c1851c31d9088f4486fbf9ce8905cced6c4f024cef",
+        "excerpt": "莊宗以屬其弟存矩。存矩時爲新州團練使，統山後八軍，知文進有女少而艷，求爲側室，文進不得已與之，而內常切齒，欲甘心焉。"
+      }
+    ]
+  },
+  {
+    "id": "li-cunju-consort-lu-spouses",
+    "from": "tang-li-cunju",
+    "to": "tang-li-cunju-consort-lu",
+    "kind": "kinship",
+    "label": "侧室",
+    "note": "存矩求纳侧室，文进不得已与之，记述已经成婚配；婚期及女方后事未详，不与存矩侍婢相混。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 24 · 南唐列传（李金全、卢文进等）",
+        "chapterId": "shiguochunqiu-v024",
+        "paragraphId": "shiguochunqiu-v024-p3",
+        "originalRevision": 1,
+        "originalSha256": "a10c9b1a167f9f51905d08c1851c31d9088f4486fbf9ce8905cced6c4f024cef",
+        "excerpt": "莊宗以屬其弟存矩。存矩時爲新州團練使，統山後八軍，知文進有女少而艷，求爲側室，文進不得已與之，而內常切齒，欲甘心焉。"
+      }
+    ]
+  },
+  {
+    "id": "li-cunxu-li-cunju-brothers",
+    "from": "li-cunxu",
+    "to": "tang-li-cunju",
+    "kind": "kinship",
+    "label": "兄弟",
+    "note": "旧史称存矩为庄宗诸弟，《十国春秋》亦称庄宗之弟；不据兄弟称谓补生母、排行或另立父子关系。",
+    "sources": [
+      {
+        "title": "《十国春秋》 · 卷 24 · 南唐列传（李金全、卢文进等）",
+        "chapterId": "shiguochunqiu-v024",
+        "paragraphId": "shiguochunqiu-v024-p3",
+        "originalRevision": 1,
+        "originalSha256": "a10c9b1a167f9f51905d08c1851c31d9088f4486fbf9ce8905cced6c4f024cef",
+        "excerpt": "盧文進字大用，范陽人也。初爲劉守光騎將，己而降後唐莊宗，拜蔚州〈一作壽州。〉刺史，莊宗以屬其弟存矩。"
+      },
+      {
+        "title": "《旧五代史》 · 卷 28 · 唐庄宗本纪",
+        "chapterId": "old-v028",
+        "paragraphId": "old-v028-p26",
+        "originalRevision": 1,
+        "originalSha256": "ce2dcb163a9cd94ab0d451d861a5f914d5b7588f4d63256106ab0cc5cecc12de",
+        "excerpt": "是月甲午，新州將盧文進殺節度使李存矩，叛入契丹，遂引契丹之眾寇新州。存矩，帝之諸弟也，治民失政，禦下無恩，故及於禍。"
+      }
+    ]
   }
 ]

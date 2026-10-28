@@ -4925,6 +4925,20 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "tang-li-cunju-consort-lu",
+      "names": [
+        "卢氏（卢文进女、李存矩侧室）",
+        "盧氏（盧文進女、李存矩側室）",
+        "李存矩侧室卢氏",
+        "李存矩側室盧氏",
+        "卢文进女（李存矩侧室）",
+        "盧文進女（李存矩側室）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -14368,6 +14382,36 @@
       "reason": "王茂章在此只作宣州先前叛乱的背景提及，并非柴克宏救常州的同役人物。",
       "originalRevision": 1,
       "originalSha256": "f3fa54ca2816bc09529b7100f1bdd1c36e2966c2c13ac362173ae72ebc48463e"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v024-p3",
+      "personId": "shi-chonggui",
+      "terms": [
+        "重貴"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "a10c9b1a167f9f51905d08c1851c31d9088f4486fbf9ce8905cced6c4f024cef",
+      "reason": "本段重貴仅为副使杜重貴姓名中的字串，不是晋出帝石重贵。现索引按shortNames原串排除，完整触发词组为“副使杜重貴”；不改原字或全局姓名。"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v024-p7",
+      "personId": "wang-jian-former-shu",
+      "terms": [
+        "王建"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "c0e463f504fd724488abd12ce89aeb95ec94f4491482f679e091f1b939c969f2",
+      "reason": "本段王建肘为南唐攻建州叙事中的先锋将名字串，底本疑字待考，不是前蜀王建。"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v024-p9",
+      "personId": "wang-jian-former-shu",
+      "terms": [
+        "王建"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "b82087c71194dcb4ac349a85b4af2751e8d926952019e88b4ece8aec362b1aa7",
+      "reason": "本段刺史王建与皇甫晖在契丹入中原后南奔，属于同时的另一王建，不是早已卒于前蜀的王建。"
     }
   ],
   "regnalEdicts": {
