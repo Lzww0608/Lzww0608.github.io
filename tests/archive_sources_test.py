@@ -286,12 +286,72 @@ class SourceIntegrityTests(unittest.TestCase):
                     self.assertEqual(result['provenance'], summaries[chapter_id]['provenance'])
             self.assertEqual({path: path.read_bytes() for path in paths}, before)
 
+    def test_feng_dao_volumes_are_complete_fixed_source_scoped_archives(self):
+        fixtures = {
+            'old-v126': (2549907, 14, 6399, '29a704b0946208952411c0d6e7b9acf126a33c73fc8827e19f8315369f78d2c6', '9287120428f2c6edae7068f7c54d5bf2ba40b987ce4f29cbb8be11f5a38357b0'),
+            'new-v54': (1727329, 45, 6663, '66e291e6090a39a4c10f2e05951fdaed898e6b3c60f70ce2cc38485450b77732', '6a1067eb331e083b57ed935c2678e8f8f7731012c2227a2649c04e83e74dbf35'),
+        }
+        catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
+        specs = {item['id']: item for item in archive.SPECS}
+        summaries = {item['id']: item for item in catalog['chapters']}
+        for chapter_id, (revision, count, characters, source_hash, chapter_hash) in fixtures.items():
+            with self.subTest(chapter=chapter_id):
+                selected, summary = specs[chapter_id], summaries[chapter_id]
+                source = archive.ROOT / 'sources' / f'{chapter_id}.json'
+                chapter = archive.ROOT / 'chapters' / f'{chapter_id}.json'
+                payload, contents = json.loads(source.read_text()), json.loads(chapter.read_text())
+                self.assertEqual(selected['fixedRevisionId'], revision)
+                self.assertTrue(selected['sourceLocalSubjectsOnly'])
+                self.assertEqual(selected['subjects'], ['feng-dao'])
+                self.assertEqual(summary['subjects'], ['feng-dao'])
+                self.assertNotIn('sourceLocalSubjectsOnly', summary)
+                self.assertEqual(payload['response']['parse']['revid'], revision)
+                self.assertEqual(payload['response']['parse']['title'], selected['page'])
+                self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), source_hash)
+                self.assertEqual(hashlib.sha256(chapter.read_bytes()).hexdigest(), chapter_hash)
+                self.assertEqual(summary['provenance']['sourceSha256'], source_hash)
+                self.assertEqual(summary['provenance']['chapterSha256'], chapter_hash)
+                self.assertEqual(summary['provenance']['license'], 'CC BY-SA 4.0')
+                self.assertIn(f'oldid={revision}', summary['provenance']['sourceUrl'])
+                self.assertEqual((summary['scope'], summary['paragraphCount'], summary['characterCount']), ('full', count, characters))
+                extracted = archive.extract(payload['response']['parse']['text']['*'], with_tags=True)
+                self.assertEqual([p['original'] for p in contents['paragraphs']], [text for text, _ in extracted])
+                self.assertEqual([p['id'] for p in contents['paragraphs']], [f'{chapter_id}-p{i + 1}' for i in range(count)])
+                self.assertTrue(all(p['revision'] == 1 and p['translation'] is None for p in contents['paragraphs']))
+
+    def test_feng_dao_fixed_cache_and_uncached_summary_keep_scope_and_private_flags(self):
+        chapter_ids = ['old-v126', 'new-v54']
+        specs = {item['id']: item for item in archive.SPECS}
+        summaries = {item['id']: item for item in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
+        original_root = archive.ROOT
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for kind in ['sources', 'chapters']:
+                (root / kind).mkdir()
+                for chapter_id in chapter_ids:
+                    shutil.copyfile(original_root / kind / f'{chapter_id}.json', root / kind / f'{chapter_id}.json')
+            paths = [root / kind / f'{chapter_id}.json' for kind in ['sources', 'chapters'] for chapter_id in chapter_ids]
+            before = {path: path.read_bytes() for path in paths}
+            with patch.object(archive, 'ROOT', root), patch.object(archive, 'request', side_effect=AssertionError('Fixed C003 captures must not request the network')):
+                for chapter_id in chapter_ids:
+                    self.assertEqual(archive.capture(specs[chapter_id], summaries[chapter_id]), summaries[chapter_id])
+                self.assertEqual({path: path.read_bytes() for path in paths}, before)
+                for chapter_id in chapter_ids:
+                    result = archive.capture(specs[chapter_id])
+                    self.assertEqual(result['subjects'], ['feng-dao'])
+                    self.assertNotIn('sourceLocalSubjectsOnly', result)
+                    source = root / 'sources' / f'{chapter_id}.json'
+                    self.assertEqual(source.read_bytes(), before[source])
+                    original = json.loads(before[root / 'chapters' / f'{chapter_id}.json'])
+                    current = json.loads((root / 'chapters' / f'{chapter_id}.json').read_text())
+                    self.assertEqual(current['paragraphs'], original['paragraphs'])
+
     def test_household_volumes_are_complete_fixed_revision_archives(self):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 95)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 43)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 96)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 44)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]

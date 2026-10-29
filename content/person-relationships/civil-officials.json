@@ -256,5 +256,1099 @@
         "excerpt": "太祖之弒昭宗也，遣振至京師與朱友恭、氏叔琮謀之。昭宗崩，太祖問振所以待友恭等宜如何？振曰：「昔晉司馬氏殺魏君而誅成濟，不然，何以塞天下口？」太祖乃歸罪友恭等而殺之。"
       }
     ]
+  },
+  {
+    "id": "feng-dao-liu-shouguang-service",
+    "from": "liu-shouguang",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "幽州任属",
+    "note": "刘守光署冯道为幽州掾；新史称参军。两书官称分别保留，不据同朝归为其他人的僚属。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "天祐中，劉守光署為幽州掾。守光引兵伐中山，訪於僚屬，道常以利害箴之，守光怒，置於獄中，尋為人所救免。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p5",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "馮道字可道，瀛州景城人也。事劉守光為參軍，守光敗，去事宦者張承業。承業監河東軍，以為巡官，以其文學薦之晉王，為河東節度掌書記。莊宗即位，拜戶部侍郎，充翰林學士。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-shouguang-conflict",
+    "from": "feng-dao",
+    "to": "liu-shouguang",
+    "kind": "conflict",
+    "label": "谏伐被囚",
+    "note": "旧史记冯道以利害劝谏伐中山而被刘守光下狱；获免者原称“为人所救”，不补救者姓名。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "天祐中，劉守光署為幽州掾。守光引兵伐中山，訪於僚屬，道常以利害箴之，守光怒，置於獄中，尋為人所救免。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-zhang-chengye-service",
+    "from": "zhang-chengye",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "辟巡官并荐幕府",
+    "note": "张承业辟冯道为本院巡官，又荐为霸府从事；新史记荐于晋王为掌书记。荐举与晋王实际任官分开。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "守光敗，遁歸太原，監軍使張承業辟為本院巡官。承業重其文章履行，甚見待遇。"
+      },
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "承業尋薦為霸府從事，俄署太原掌書記，時莊宗並有河北，文翰甚繁，一以委之。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p5",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "馮道字可道，瀛州景城人也。事劉守光為參軍，守光敗，去事宦者張承業。承業監河東軍，以為巡官，以其文學薦之晉王，為河東節度掌書記。莊宗即位，拜戶部侍郎，充翰林學士。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-cunxu-service",
+    "from": "li-cunxu",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "掌书记与翰林任职",
+    "note": "晋王、庄宗在本卷连续主传中为李存勖。冯道掌文翰，庄宗即位后充翰林学士；新旧官阶表述分别保留。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "承業尋薦為霸府從事，俄署太原掌書記，時莊宗並有河北，文翰甚繁，一以委之。"
+      },
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "莊宗即位鄴宮，除省郎，充翰林學士，自綠衣賜紫。梁平，遷中書舍人、戶部侍郎。丁父憂，持服於景城。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p5",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "馮道字可道，瀛州景城人也。事劉守光為參軍，守光敗，去事宦者張承業。承業監河東軍，以為巡官，以其文學薦之晉王，為河東節度掌書記。莊宗即位，拜戶部侍郎，充翰林學士。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-siyuan-service",
+    "from": "li-siyuan",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "端明学士与入相",
+    "note": "明宗问冯道所在并用为端明殿学士，后拜相。旧史刑部尚书与新史兵部侍郎等各依原书，不把“相明宗十余年”史文强定为任期。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p3",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "明宗入洛，遽謂近臣安重誨曰：「先帝時馮道郎中何在？」重誨曰：「近除翰林學士。」明宗曰：「此人朕素諳委，甚好宰相。」俄拜端明殿學士，端明之號，自道始也。未幾，遷中書侍郎、刑部尚書、平章事。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p7",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "莊宗遇弒，明宗即位，雅知道所為，問安重誨曰：「先帝時馮道何在？」重誨曰：「為學士也。」明宗曰：「吾素知之，此真吾宰相也。」拜道端明殿學士，遷兵部侍郎。歲餘，拜中書侍郎、同中書門下平章事。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-conghou-service",
+    "from": "li-conghou",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "愍帝时为相",
+    "note": "新史明确记明宗崩后冯道相愍帝。旧史126跳接“明宗崩，唐末帝嗣位”保留为该书叙法，不以此取消李从厚的有据身份。",
+    "sources": [
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "明宗崩，相愍帝。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-congke-service",
+    "from": "li-congke",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "迎潞王与废帝任官",
+    "note": "新史记冯道率百官迎潞王，废帝立后仍相之，随后出为同州节度使、拜司空；分开迎立、任官与出镇，不把源校注所纠刘昫任相混入。",
+    "sources": [
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "道相明宗十餘年，[1]明宗崩，相愍帝。潞王反於鳳翔，愍帝出奔衞州，道率百官迎潞王入，是為廢帝，遂相之。廢帝即位，愍帝猶在衞州，後三日，愍帝始遇弒崩。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "已而廢帝出道為同州節度使，踰年，拜司空。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-shi-jingtang-service",
+    "from": "shi-jingtang",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "首相任命与奉使",
+    "note": "晋高祖以冯道为首相，并就出使契丹与之问答。此处是晋高祖差遣，不把各书天福纪年换成未经本稿历核的确日。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p4",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及晉祖入洛，以道為首相。二年，契丹遣使加徽號於晉祖，晉祖亦獻徽號於契丹，謂道曰：「此行非卿不可。」道無難色。晉祖又曰：「卿官崇德重，不可深入沙漠。」道曰：「陛下受北朝恩，臣受陛下恩，何有不可！」"
+      },
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p4",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及還，朝廷廢樞密使，依唐朝故事，並歸中書，其院印付道，事無巨細，悉以歸之。尋加司徒、兼侍中，進魯國公。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-shi-chonggui-service",
+    "from": "shi-chonggui",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "晋出帝时任官",
+    "note": "冯道在出帝即位后加守太尉、封燕国公，后出镇。新旧史所记匡国、同州、威胜、南阳分别保留，不据传记叙次统一职任地点。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p5",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "晉少帝即位，加守太尉，進封燕國公。道嘗問朝中熟客曰：「道之在政事堂，人有何說？」客曰：「是非相半。」道曰：「凡人同者為是，不同為非，而非道者，十恐有九。昔仲尼聖人也，猶為叔孫武叔所毀，況道之虛薄者乎！」然道之所持，始終不易。後有人間道於少帝曰：「道好平時宰相，無以濟其艱難，如禪僧不可呼鷹耳！」由是出道為同州節度使。歲餘，移鎮南陽，加中書令。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "已而廢帝出道為同州節度使，踰年，拜司空。晉滅唐，道又事晉，晉高祖拜道守司空、同中書門下平章事，加司徒，兼侍中，封魯國公。高祖崩，道相出帝，加太尉，封燕國公，罷為匡國軍節度使，徙鎮威勝。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-yelu-deguang-service",
+    "from": "yelu-deguang",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "入朝问答与拜太傅",
+    "note": "新史明名耶律德光，记其责问冯道、以道为太傅；属于该段任官与往来，不用抽象“四姓十君”扩任属清单。",
+    "sources": [
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "契丹滅晉，道又事契丹，朝耶律德光於京師。德光責道事晉無狀，道不能對。又問曰：「何以來朝？」對曰：「無城無兵，安敢不來。」德光誚之曰：「爾是何等老子？」對曰：「無才無德癡頑老子。」德光喜，以道為太傅。德光北歸，從至常山。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-zhiyuan-service",
+    "from": "liu-zhiyuan",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "入觐与拜太师",
+    "note": "旧史记冯道自常山入觐，汉祖刘知远嘉之、拜守太师；新史记以太师奉朝请。与牛皮案所引叙事分源保留。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p6",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及自常山入覲，漢祖嘉之，拜守太師。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p9",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "漢高祖立，乃歸漢，以太師奉朝請。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-guo-wei-service",
+    "from": "guo-wei",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "拜太师中书令与迎汉嗣",
+    "note": "郭威遣冯道等迎刘赟及广顺初拜太师、中书令为不同事。旧史“甚重之”与新史动机评语不合成已证心理。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p11",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及太祖平內難，議立徐州節度使劉贇為漢嗣，遣道與秘書監趙上交、樞密直學士王度等往迎之。"
+      },
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p11",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "廣順初，復拜太師、中書令，太祖甚重之，每進對不以名呼。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-chai-rong-service",
+    "from": "chai-rong",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "山陵差遣与亲征之谏",
+    "note": "世宗柴荣以冯道为太祖山陵使，冯道曾谏止亲征。此为任职与具体劝谏；柴荣后取淮南、定三关不移为冯道生前行动。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p11",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及太祖崩，世宗以道為山陵使。"
+      },
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p11",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "會河東劉崇入寇，世宗召大臣議欲親征，道諫止之，世宗因言：「唐初，天下草寇蜂起，並是太宗親平之。」道奏曰：「陛下得如太宗否？」世宗怒曰：「馮道何相少也！」乃罷。及世宗親征，不及扈從，留道奉太祖山陵。"
+      },
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p13",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "世宗初即位，劉旻攻上黨，世宗曰：「劉旻少我，謂我新立而國有大喪，必不能出兵以戰。且善用兵者出其不意，吾當自將擊之。」道乃切諫，以為不可。世宗曰：「吾見唐太宗平定天下，敵無大小皆親征。」道曰：「陛下未可比唐太宗。」世宗曰：「劉旻烏合之眾，若遇我師，如山壓卵。」道曰：「陛下作得山定否？」世宗怒，起去，卒自將擊旻，果敗旻于高平。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-father-liangjian-kinship",
+    "from": "feng-dao-father-liangjian",
+    "to": "feng-dao",
+    "kind": "kinship",
+    "label": "父子（自叙）",
+    "note": "自叙原称亡父良建；父向子。秘书少监致仕与累赠尚书令分开，不扩祖系。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p7",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "亡父諱良建，秘書少監致仕，累贈至尚書令，"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-mother-zhang-kinship",
+    "from": "feng-dao-mother-zhang",
+    "to": "feng-dao",
+    "kind": "kinship",
+    "label": "母子（自叙原称）",
+    "note": "自叙只称母张氏；母向子，不进一步认定生母、嫡母或养母，魏国太夫人为追封。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p7",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "母張氏，追封魏國太夫人。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-first-wife-chu-fen-daughter-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-first-wife-chu-fen-daughter",
+    "kind": "kinship",
+    "label": "先妻（褚濆女）",
+    "note": "先娶褚濆女，早亡。与后妻分开；无所载本名，不把蜀国夫人号或子女生母身份移给她。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "先娶故德州戶掾褚諱濆女，早亡，"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-later-wife-sun-shili-daughter-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-later-wife-sun-shili-daughter",
+    "kind": "kinship",
+    "label": "后妻（孙师礼女）",
+    "note": "后娶孙师礼女，累封蜀国夫人；不补婚年、初封年或任何子女母系。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "後娶故景州弓高縣孫明府諱師禮女，累封蜀國夫人。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-son-ping-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-son-ping",
+    "kind": "kinship",
+    "label": "父子（长子平）",
+    "note": "自叙称亡长子平；父向子，授官叙述不换算生卒年，也不配母。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "亡長子平，自秘書郎授右拾遺、工部度支員外郎；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-ji-feng-dao-son-kinship",
+    "from": "feng-dao",
+    "to": "feng-ji-feng-dao-son",
+    "kind": "kinship",
+    "label": "父子（次子吉）",
+    "note": "自叙称次子吉，旧史所引史补亦明称冯吉为瀛王道之子；训练、训责故事与亲子身份分层，不配母。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "次子吉，自秘書省校書郎授膳部金部職方員外郎、屯田郎中；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-son-ke-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-son-ke",
+    "kind": "kinship",
+    "label": "父子（第三子可）",
+    "note": "自叙称第三亡子可；不把可道之字拆成人名，不定母系。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "第三亡子可，自秘書省正字授殿中丞、工部戶部員外郎；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-fourth-son-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-fourth-son",
+    "kind": "kinship",
+    "label": "父子（失名第四子）",
+    "note": "自叙明确第四子幼亡；以父家排行唯一限定自然人，不补名讳、生卒年或母系。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "第四子幼亡；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-son-yi-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-son-yi",
+    "kind": "kinship",
+    "label": "父子（第五子义）",
+    "note": "自叙第五子义；检校、衙内都指挥使和职罢后改授各依原文，不改为实任国子祭酒，不配母。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "第五子義，自秘書郎改授銀青光祿大夫、檢校國子祭酒兼御史中丞，充定國軍衙內都指揮使，職罷改授朝散大夫、左春坊太子司議郎、授太常丞；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-son-zheng-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-son-zheng",
+    "kind": "kinship",
+    "label": "父子（第六子正）",
+    "note": "原载“充定國軍節度使”照录，职任性质未补定，不能据此确认实领藩镇，也不改为衙内职；不配母。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "第六子正，自協律郎改授銀青光祿大夫、檢校國子祭酒兼御史中丞，充定國軍節度使，職罷改授朝散大夫、太僕丞。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-feng-dao-eldest-daughter-kinship",
+    "from": "feng-dao",
+    "to": "feng-dao-eldest-daughter",
+    "kind": "kinship",
+    "label": "父女（长女）",
+    "note": "《长乐老自叙》的长女，适崔绚、封万年县君；无本名，不配母，不把三名早亡女子及二孙拆为个体。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "長女適故兵部崔侍郎諱衍子太僕少卿名絢，封萬年縣君；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-xu-feng-dao-inlaw-kinship",
+    "from": "feng-dao",
+    "to": "liu-xu-feng-dao-inlaw",
+    "kind": "kinship",
+    "label": "姻家（未详婚配支系）",
+    "note": "新史称二人姻家，通鉴称婚姻，足证姻亲；未明确冯家哪一子女与刘家何人婚配，不补父子、岳婿或夫妻。新史同段任相年代校注另存，不采其错接。",
+    "sources": [
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p35",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "昫與馮道姻家，"
+      },
+      {
+        "chapterId": "tongjian-v279",
+        "paragraphId": "tongjian-v279-p53",
+        "title": "《资治通鉴》 · 卷 279 · 后唐纪8",
+        "excerpt": "劉昫與馮道婚姻。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-bai-zairong-service",
+    "from": "feng-dao",
+    "to": "bai-zairong",
+    "kind": "service",
+    "label": "为众择权帅",
+    "note": "常山事变后冯道为众择白再荣权为帅；这是临时推择，不写成冯道以皇帝身份正式授节度。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p5",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "道以德重，人所取則，乃為眾擇諸將之勤宿者，以騎校白再榮權為其帥，軍民由是帖然，道首有力焉。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-yu-tang-service",
+    "from": "feng-dao",
+    "to": "li-yu-tang",
+    "kind": "service",
+    "label": "同议刊经",
+    "note": "冯道、李愚为同列，共委学官田敏等雕经；原文明载共同项目，不能据此推长期私交、师生或彼此从属。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p3",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "時以諸經舛繆，與同列李愚委學官田敏等，取西京鄭覃所刊石經，雕為印版，流布天下，後進賴之。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-zhao-yanshou-service",
+    "from": "feng-dao",
+    "to": "zhao-yanshou",
+    "kind": "service",
+    "label": "共同阴护衣冠",
+    "note": "旧史称冯道与赵延寿阴护衣冠，使其不至伤夷；保留该书判断，不由同在契丹扩其他共同功绩。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p5",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "契丹入汴，道自襄、鄧召入，戎王因從容問曰：「天下百姓，如何可救？」道曰：「此時百姓，佛再出救不得，惟皇帝救得。」其後衣冠不至傷夷，皆道與趙延壽陰護之所至也。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-zhang-can-shangdang-service",
+    "from": "feng-dao",
+    "to": "zhang-can-shangdang",
+    "kind": "service",
+    "label": "牛皮案进言请免",
+    "note": "旧史此事引《洛阳搢绅旧闻记》；冯道请免张璨死，结果停其现职，犯牛皮者贷命。不得称张璨终获留官，亦不得写成冯道废除全部禁法。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p6",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "《洛陽搢紳舊聞記》：贈大監張公璨，漢祖即位之初為上黨戎判。漢祖在北京時，大聚甲兵，禁牛皮不得私貿易及民間盜用之，如有牛死，即時官納其皮，其有犯者甚眾。及即大位，三司舉行請禁天下牛皮法，與河東時同，天下苦之。會上黨民犯牛皮者二十餘人，獄成，罪俱當死。大監時為判官，獨執曰：「主上欽明，三司不合如此起請，二十餘人死尚間可，使天下犯者皆銜冤而死乎！且主上在河東，大聚甲兵，須藉牛皮，嚴禁可也，今為天下君，何少牛皮，立法至於此乎！」遂封奏之。時三司使方用事，執政之地，除馮瀛王外皆惡之，曰：「豈有州郡使敢非朝廷詔敕！」力言於漢祖。漢祖亦怒曰：「昭義一判官，是何敢如此！其犯牛皮者，依敕俱死。大監以非毀詔敕，亦死。」敕未下，獨瀛王非時請見。漢祖出，瀛王曰：「陛下在河東時，斷牛皮可也，今既有天下，牛皮不合禁。陛下赤子枉死之，亦足為陛下惜。昭義判官，以卑位食陛下祿，居陛下官，不惜軀命，敢執而奏之，可賞不可殺。臣當輔弼之任，使此敕枉害天下人性命，臣不能早奏，使陛下正，臣罪當誅。」稽首再拜。又曰：「張璨不合加罪，望加敕赦之。」漢祖久之曰：「已行之矣。」馮瀛王曰：「敕未下。」漢祖遽曰：「與赦之。」馮曰：「勒停可乎？」上曰：「可。」由是改其敕，記其略曰：「三司邦計，國法攸依，張璨體事未明，執理乖當，宜停見職，犯牛皮者貸命放之。」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-an-chonghui-service",
+    "from": "feng-dao",
+    "to": "an-chonghui",
+    "kind": "service",
+    "label": "议蒲帅之罪与解枢务",
+    "note": "安重诲问蒲帅失守责任，冯道等次日上奏；另在安重诲求去时冯道建议解枢务。两次具体朝议，不写成长久任职从属或私人联盟。",
+    "sources": [
+      {
+        "chapterId": "old-v041",
+        "paragraphId": "old-v041-p5",
+        "title": "《旧五代史》 · 卷 41 · 唐明宗纪7",
+        "excerpt": "重誨謂馮道等曰：「蒲帥失守，責帥之義，法當如何？」翌日，道等奏：「合行朝典。」帝不悅，"
+      },
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p35",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6",
+        "excerpt": "上遣孟漢瓊詣中書議重誨事，馮道曰：「諸公果愛安令，宜解其樞務為便。」趙鳳曰：「公失言。」乃奏大臣不可輕動。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-tian-min-service",
+    "from": "feng-dao",
+    "to": "tian-min",
+    "kind": "service",
+    "label": "委学官校经雕版",
+    "note": "原文记冯道与李愚委田敏等取石经雕版；共同提议、承办者分开，不写冯道独自主持或二人师生。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p3",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "時以諸經舛繆，與同列李愚委學官田敏等，取西京鄭覃所刊石經，雕為印版，流布天下，後進賴之。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-pei-hao-service",
+    "from": "feng-dao",
+    "to": "pei-hao",
+    "kind": "service",
+    "label": "四庙册礼正副使",
+    "note": "帝亲授宝册，冯道为正使、裴皞为副使同赴洛京行礼；差遣任命者为帝，不写冯道任命裴皞或长期直属。",
+    "sources": [
+      {
+        "chapterId": "old-v076",
+        "paragraphId": "old-v076-p12",
+        "title": "《旧五代史》 · 卷 76 · 晋高祖纪2",
+        "excerpt": "壬申，帝御崇元殿，備禮冊四廟，親授寶冊於使攝太尉、守司空、門下侍郎、平章事馮道，使副攝司徒、守工部尚書裴皞，赴洛京行禮。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-ren-zan-congrong-service",
+    "from": "feng-dao",
+    "to": "ren-zan-congrong",
+    "kind": "service",
+    "label": "议罪申说任赞",
+    "note": "从荣案中冯道等申说此人未同谋，不应一概从坐；本段又记冯贇力争止尽诛，不能把全部免死功劳独归冯道。 本节点仅限该案，未把兔园故事任賛与之建立同人桥。",
+    "sources": [
+      {
+        "chapterId": "old-v044",
+        "paragraphId": "old-v044-p12",
+        "title": "《旧五代史》 · 卷 44 · 唐明宗纪10",
+        "excerpt": "時宰相、樞密使共議任讚等已下罪，馮道等曰：「任讚前在班行，比與從榮無舊，除官未及月餘，便逢此禍。王居敏、司徒詡疾病請假，將近半年，近日之事，計不同謀。從榮所款昵者高輦、劉陟、王說三人，昨從榮稱兵指闕之際，沿路隻與劉陟、高輦並轡耳語，至天津橋南，指日影謂諸判官曰：『明日如今，已誅王居敏矣。』則知其冗泛之徒，不可一例從坐。」朱宏昭意欲盡誅任讚已下，馮贇力爭之乃已。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-wang-jumin-service",
+    "from": "feng-dao",
+    "to": "wang-jumin",
+    "kind": "service",
+    "label": "议罪申说王居敏",
+    "note": "从荣案中冯道等申说此人未同谋，不应一概从坐；本段又记冯贇力争止尽诛，不能把全部免死功劳独归冯道。",
+    "sources": [
+      {
+        "chapterId": "old-v044",
+        "paragraphId": "old-v044-p12",
+        "title": "《旧五代史》 · 卷 44 · 唐明宗纪10",
+        "excerpt": "時宰相、樞密使共議任讚等已下罪，馮道等曰：「任讚前在班行，比與從榮無舊，除官未及月餘，便逢此禍。王居敏、司徒詡疾病請假，將近半年，近日之事，計不同謀。從榮所款昵者高輦、劉陟、王說三人，昨從榮稱兵指闕之際，沿路隻與劉陟、高輦並轡耳語，至天津橋南，指日影謂諸判官曰：『明日如今，已誅王居敏矣。』則知其冗泛之徒，不可一例從坐。」朱宏昭意欲盡誅任讚已下，馮贇力爭之乃已。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-situ-xu-congrong-service",
+    "from": "feng-dao",
+    "to": "situ-xu-congrong",
+    "kind": "service",
+    "label": "议罪申说司徒诩",
+    "note": "从荣案中冯道等申说此人未同谋，不应一概从坐；本段又记冯贇力争止尽诛，不能把全部免死功劳独归冯道。",
+    "sources": [
+      {
+        "chapterId": "old-v044",
+        "paragraphId": "old-v044-p12",
+        "title": "《旧五代史》 · 卷 44 · 唐明宗纪10",
+        "excerpt": "時宰相、樞密使共議任讚等已下罪，馮道等曰：「任讚前在班行，比與從榮無舊，除官未及月餘，便逢此禍。王居敏、司徒詡疾病請假，將近半年，近日之事，計不同謀。從榮所款昵者高輦、劉陟、王說三人，昨從榮稱兵指闕之際，沿路隻與劉陟、高輦並轡耳語，至天津橋南，指日影謂諸判官曰：『明日如今，已誅王居敏矣。』則知其冗泛之徒，不可一例從坐。」朱宏昭意欲盡誅任讚已下，馮贇力爭之乃已。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-shi-chongrui-service",
+    "from": "feng-dao",
+    "to": "shi-chongrui",
+    "kind": "service",
+    "label": "受托幼子之礼",
+    "note": "晋高祖命重睿拜冯道、使宦者抱置道怀中，左右知为托付；这是原文所述受托，不是收养，重睿后来未立，也不是冯道实际辅立成功。",
+    "sources": [
+      {
+        "chapterId": "new-v17",
+        "paragraphId": "new-v17-p43",
+        "title": "《新五代史》 · 卷 17 · 晋家人传第五",
+        "excerpt": "高祖臥疾，宰相馮道入見臥內，重睿尚幼，高祖呼出使拜道於前，因以宦者抱持寘道懷中，高祖雖不言，左右皆知其以重睿託道也。高祖崩，晉大臣以國家多事，議立長君，而景延廣已陰許立出帝，重睿遂不得立。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-yun-han-xiangyin-service",
+    "from": "feng-dao",
+    "to": "liu-yun-han-xiangyin",
+    "kind": "service",
+    "label": "奉使迎拟立汉嗣",
+    "note": "冯道奉命与赵上交、王度等迎刘赟，同行至宋州；刘赟未实际即位，不作君位交接或冯道与其父子关系。《五代春秋》此处原作“子斌”，仅留来源字形记录，暂不认定与刘赟同人、不登记全局别名或额外节点／边。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p11",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "及太祖平內難，議立徐州節度使劉贇為漢嗣，遣道與秘書監趙上交、樞密直學士王度等往迎之。道尋與贇自徐赴汴，行至宋州，會澶州軍變。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-guo-chong-songzhou-service",
+    "from": "feng-dao",
+    "to": "guo-chong-songzhou",
+    "kind": "service",
+    "label": "宋州出语来使",
+    "note": "新史作郭崇、通鉴作郭崇威，均在王峻遣七百骑至宋州同役中记冯道出与之语；仅该次往来，不据前缀并郭崇韬，也不把郭氏随后夺兵变成冯道授意。",
+    "sources": [
+      {
+        "chapterId": "new-v18",
+        "paragraphId": "new-v18-p10",
+        "title": "《新五代史》 · 卷 18 · 汉家人传第六",
+        "excerpt": "贇召崇，崇不敢進，馮道出與崇語，崇乃登樓見贇，已而奪贇部下兵。"
+      },
+      {
+        "chapterId": "tongjian-v289",
+        "paragraphId": "tongjian-v289-p81",
+        "title": "《资治通鉴》 · 卷 289 · 后汉纪4",
+        "excerpt": "馮道出與崇威語，崇威乃登樓，贇執崇威手而泣。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-guo-chongtao-service",
+    "from": "feng-dao",
+    "to": "guo-chongtao",
+    "kind": "service",
+    "label": "缓和伴食谏议",
+    "note": "郭崇韬请减诸校伴食，庄宗震怒，冯道拒草震众之辞并为郭解说；只记该事调解，不造部属或长期私交。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p2",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "莊宗與梁軍夾河對壘，一日，郭崇韜以諸校伴食數多，主者不辦，請少罷減。莊宗怒曰：「孤為效命者設食都不自由，其河北三鎮，令三軍別擇一人為帥，孤請歸太原以避賢路。」遽命道對面草詞，將示其眾。道執筆久之，莊宗正色促焉，道徐起對曰：「道所掌筆硯，敢不供職。今大王屢集大功，方平南寇，崇韜所諫，未至過當，阻拒之則可，不可以向來之言，喧動群議，敵人若知，謂大王君臣之不和矣。幸熟而思之，則天下幸甚也。」俄而崇韜入謝，因道為之解焉，人始重其膽量。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-zhao-feng-tang-service",
+    "from": "feng-dao",
+    "to": "zhao-feng-tang",
+    "kind": "service",
+    "label": "解枢务之议相驳",
+    "note": "冯道认为爱惜安重诲宜解其枢务，赵凤当面称“公失言”，后奏大臣不可轻动；记具体朝议分歧，不概括长期交恶。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v277",
+        "paragraphId": "tongjian-v277-p35",
+        "title": "《资治通鉴》 · 卷 277 · 后唐纪6",
+        "excerpt": "上遣孟漢瓊詣中書議重誨事，馮道曰：「諸公果愛安令，宜解其樞務為便。」趙鳳曰：「公失言。」乃奏大臣不可輕動。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-lu-dao-tang-service",
+    "from": "feng-dao",
+    "to": "lu-dao-tang",
+    "kind": "service",
+    "label": "催草劝进而遭拒",
+    "note": "冯道催中书舍人卢导草劝进，卢导主张先取太后进止，终不草笺；该事有直接对答，不扩长期从属或私交。",
+    "sources": [
+      {
+        "chapterId": "new-v54",
+        "paragraphId": "new-v54-p38",
+        "title": "《新五代史》 · 卷54 · 杂传第四十二",
+        "excerpt": "馮道請導草牋勸進，導曰：「潞王入朝，郊迎可也，若勸進之事，豈可輕議哉！」道曰：「勸進其可已乎？」導曰：「今天子蒙塵于外，遽以大位勸人，若潞王守節不回，以忠義見責，其將何辭以對？且上與潞王，皆太后子也，不如率百官詣宮門，取太后進止。」語未終，有報曰：「潞王至矣。」京城巡檢使安從進催百官班迎，百官紛然而去。潞王止于正陽門外，道又促導草牋，導對如初。李愚曰：「吾輩罪人，盧舍人言是也。」導終不草牋。"
+      },
+      {
+        "chapterId": "tongjian-v279",
+        "paragraphId": "tongjian-v279-p18",
+        "title": "《资治通鉴》 · 卷 279 · 后唐纪8",
+        "excerpt": "中書舍人盧導至，馮道曰：「俟舍人久矣，所急者勸進文書，宜速具草。」導曰：「潞王入朝，百官班迎可也；設有廢立，當俟太后教令，豈可遽議勸進乎？」道曰：「事當務實。」導曰：「安有天子在外，人臣遽以大位勸人者邪！若潞王守節北面，以大義見責，將何辭以對！公不如帥百官詣宮門，進名問安，取太后進止，則去就善矣。」道未及對，從進屢遣人趣之曰：「潞王至矣，太后、太妃已遣中使迎勞矣，安得百官無班！」道等即紛然而去。既而潞王未至，三相息於上陽門外，盧導過於前，道復召而語之，導對如初。李愚曰：「舍人之言是也。吾輩之罪，擢發不足數。」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-lu-wenji-service",
+    "from": "feng-dao",
+    "to": "lu-wenji",
+    "kind": "service",
+    "label": "司空职掌之议",
+    "note": "卢文纪欲令冯道掌祭祀扫除，道闻而表示不惮其职，文纪自知不可乃止；“欲令”并未实行，不写为实际任命或长期交恶。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v279",
+        "paragraphId": "tongjian-v279-p117",
+        "title": "《资治通鉴》 · 卷 279 · 后唐纪8",
+        "excerpt": "乙酉，以前匡國節度使、同平章事馮道為司空。時久無正拜三公者，朝議疑其職事；盧文紀欲令掌祭祀掃除，道聞之曰：「司空掃除，職也，吾何憚焉。」既而文紀自知不可，乃止。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-khitan-taihou-tianfu3-source-role-service",
+    "from": "feng-dao",
+    "to": "khitan-taihou-tianfu3-source-role",
+    "kind": "service",
+    "label": "册礼记载／来源联系",
+    "note": "《资治通鉴》卷281记帝以冯道为太后册礼使，赴契丹行礼；这是该段未名太后角色的来源联系，两端统一无向，不补姓名、母子或冯道亲自任命。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v281",
+        "paragraphId": "tongjian-v281-p80",
+        "title": "《资治通鉴》 · 卷 281 · 后晋纪2",
+        "excerpt": "八月，帝上尊號於契丹主及太后，戊寅，以馮道為太后冊禮使，左僕射劉昫為契丹主冊禮使，備鹵薄、儀仗、車輅，詣契丹行禮；契丹主大悅。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-du-chongwei-service",
+    "from": "feng-dao",
+    "to": "du-chongwei",
+    "kind": "service",
+    "label": "屡荐其能",
+    "note": "冯道、李崧屡荐杜重威之能，随后任为都指挥使、随驾御营使；任命主体为朝廷，不写冯道直接任命，不把后来黩货变成其推荐已知内容。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v282",
+        "paragraphId": "tongjian-v282-p100",
+        "title": "《资治通鉴》 · 卷 282 · 后晋纪3",
+        "excerpt": "馮道，李崧屢薦天平節度使兼侍衛親軍馬步副都指揮使、同平章事杜重威之能，以為都指揮使，充隨駕御營使，代劉知遠，知遠由是恨二相，重威所至黷貨，民多逃亡，嘗出過市，謂左右曰：「人言我驅盡百姓，何市人之多也！」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-song-tang-service",
+    "from": "feng-dao",
+    "to": "li-song-tang",
+    "kind": "service",
+    "label": "共同荐杜重威",
+    "note": "连续原句明确冯道与李崧共同屡荐杜重威；只记共同荐举，不从同列名单推长期私交、党派或彼此从属。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v282",
+        "paragraphId": "tongjian-v282-p100",
+        "title": "《资治通鉴》 · 卷 282 · 后晋纪3",
+        "excerpt": "馮道，李崧屢薦天平節度使兼侍衛親軍馬步副都指揮使、同平章事杜重威之能，以為都指揮使，充隨駕御營使，代劉知遠，知遠由是恨二相，重威所至黷貨，民多逃亡，嘗出過市，謂左右曰：「人言我驅盡百姓，何市人之多也！」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-jing-yanguang-service",
+    "from": "feng-dao",
+    "to": "jing-yanguang",
+    "kind": "service",
+    "label": "同议立长君",
+    "note": "冯道与景延广议国家多难宜立长君、奉齐王重贵为嗣；仅此次共同议立，不把景自居其功及外交争议合成长久联盟。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v283",
+        "paragraphId": "tongjian-v283-p21",
+        "title": "《资治通鉴》 · 卷 283 · 后晋纪4",
+        "excerpt": "道與天平節度使、侍衛馬步都虞候景延廣議，以國家多難，宜立長君，乃奉廣晉尹齊王重貴為嗣。是日，齊王即皇帝位。延廣以為己功，始用事，禁都下人毋得偶語。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-jixun-jin-conflict",
+    "from": "liu-jixun-jin",
+    "to": "feng-dao",
+    "kind": "conflict",
+    "label": "殿上牵指",
+    "note": "刘继勋被契丹主责问时急指冯道为绝契丹之谋首相，契丹主称勿妄引之；连线仅记该次牵指，不采指控为事实或扩长期敌对。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v286",
+        "paragraphId": "tongjian-v286-p20",
+        "title": "《资治通鉴》 · 卷 286 · 后汉纪1",
+        "excerpt": "晉主之絕契丹也，匡國節度使劉繼勳為宣徽北院使，頗預其謀。契丹主入汴，繼勳入朝，契丹主責之。時馮道在殿上，繼勳急指道曰：「馮道為首相，與景延廣實為此謀。臣位卑，何敢發言！」契丹主曰：「此叟非多事者，勿妄引之！」命鎖繼勳，將送黃龍府。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-khitan-wuyu-yongkang-service",
+    "from": "khitan-wuyu-yongkang",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "所馆饮酒之召",
+    "note": "永康王兀欲在所馆召赵延寿等及冯道饮酒；只记这次具名邀请，不因同席名单推彼此长期私交。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v287",
+        "paragraphId": "tongjian-v287-p4",
+        "title": "《资治通鉴》 · 卷 287 · 后汉纪2",
+        "excerpt": "五月，乙酉塑，永康王兀欲召延壽及張礪、和凝、李崧、馮道於所館飲酒。兀欲妻素以兄事延壽，兀欲從容謂延壽曰：「妹自上國來，寧欲見之乎？」延壽欣然與之俱入。良久，兀欲出，謂礪等曰：「燕王謀反，適已鎖之矣。」又曰：「先帝在汴時，遺我一籌，許我知南朝軍國。近者臨崩，別無遺詔。而燕王擅自知南朝軍國，豈理邪！」下令：「延壽親黨，皆釋不問。」間一日，兀欲至待賢館受蕃、漢官謁賀，笑謂張礪等曰：「燕王果於此禮上，吾以鐵騎圍之，諸公亦不免矣。」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-ma-da-changshan-service",
+    "from": "ma-da-changshan",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "牒判弘文馆",
+    "note": "通鉴记麻荅因宰相员不足牒冯道判弘文馆；保留牒任及史家“僭妄”层次，不将其他人判馆职移给冯道。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v287",
+        "paragraphId": "tongjian-v287-p40",
+        "title": "《资治通鉴》 · 卷 287 · 后汉纪2",
+        "excerpt": "又以宰相員不足，乃牒馮道判弘文館，李崧判史館，和凝判集賢，劉昫判中書，其僭妄如此。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-gu-changshan-service",
+    "from": "li-gu-changshan",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "请至战所慰勉",
+    "note": "李穀请冯道等至战所慰勉士卒，士卒见其至而奋；这是明确邀请与实际到场，不推冯道战斗指挥或李穀任命他。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v287",
+        "paragraphId": "tongjian-v287-p42",
+        "title": "《资治通鉴》 · 卷 287 · 后汉纪2",
+        "excerpt": "前磁州刺史李穀恐事不濟，請馮道、李崧、和凝至戰所慰勉士卒，士卒見道等至，爭自奮。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-shenjiao-service",
+    "from": "liu-shenjiao",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "旧为僚佐（冯道自述）",
+    "note": "冯道在刘审交卒后自述曾为其僚佐；仅保原话所证昔日任属，不倒推出共事年月或称在汝州任职。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v289",
+        "paragraphId": "tongjian-v289-p12",
+        "title": "《资治通鉴》 · 卷 289 · 后汉纪4",
+        "excerpt": "丁亥，汝州奏防禦使劉審交卒。吏民詣闕上書，以審交有仁政，乞留葬汝州，得奉事其丘壟，詔許之。州人相與聚哭而葬之，以為立祠，歲時享之。太師馮道曰：「吾嘗為劉君僚佐，觀其為政，無以逾人，非能減其租賦，除其徭役也，但推公廉慈愛之心以行之耳。此亦眾人所能為，但他人不為而劉君獨為之，故汝人愛之如此。使天下二千石皆效其所為，何患得民不如劉君哉！」"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-dou-yi-service",
+    "from": "feng-dao",
+    "to": "dou-yi",
+    "kind": "service",
+    "label": "同奏赦兖州胁从将吏",
+    "note": "窦仪见冯道、范质，与二人共白帝“彼皆胁从耳”，帝乃赦之；明确共同奏议，不推长期私交或从属。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v290",
+        "paragraphId": "tongjian-v290-p109",
+        "title": "《资治通鉴》 · 卷 290 · 后周纪1",
+        "excerpt": "帝欲悉誅兗州將吏，翰林學士竇儀見馮道、范質，與之共白帝曰：「彼皆脅從耳。」乃赦之。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-fan-zhi-service",
+    "from": "feng-dao",
+    "to": "fan-zhi",
+    "kind": "service",
+    "label": "同奏赦兖州胁从将吏",
+    "note": "窦仪见冯道、范质，与二人共白帝“彼皆胁从耳”，帝乃赦之；明确共同奏议，不推长期私交或从属。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v290",
+        "paragraphId": "tongjian-v290-p109",
+        "title": "《资治通鉴》 · 卷 290 · 后周纪1",
+        "excerpt": "帝欲悉誅兗州將吏，翰林學士竇儀見馮道、范質，與之共白帝曰：「彼皆脅從耳。」乃赦之。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-xu-taifu-service",
+    "from": "feng-dao",
+    "to": "xu-taifu",
+    "kind": "service",
+    "label": "赦后诛罪之议",
+    "note": "徐台符请诛诬告李崧者，冯道以屡经赦免不许；后王峻白帝仍诛二人。只记就事驳议，不扩永久敌对，也不称冯道最终保全二人。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v291",
+        "paragraphId": "tongjian-v291-p25",
+        "title": "《资治通鉴》 · 卷 291 · 后周纪2",
+        "excerpt": "翰林學士徐台符請誅誣告李崧者葛延遇及李澄，馮道以為屢更赦，不許。王峻嘉台符之義，白於帝，癸卯，收延遇、澄，誅之。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-guo-zhongshu-conflict",
+    "from": "guo-zhongshu",
+    "to": "feng-dao",
+    "kind": "conflict",
+    "label": "宋州责问",
+    "note": "史补记郭忠恕责问冯道，道无言对；郭又劝湘阴公杀道奔河东，后者犹豫未决。言辞、劝杀与实际未施行分别保留，不把作者设辞当已证动机。",
+    "sources": [
+      {
+        "chapterId": "shibu-v005",
+        "paragraphId": "shibu-v005-p28",
+        "title": "《五代史补》 · 卷 5 · 后周史事",
+        "excerpt": "至宋州，高祖已爲三軍推戴，忠恕知事變，乃正色責道曰：「令公累朝大臣，誠信著於天下，四方談士無賢不肖，皆以爲長者，今一旦返作脫空漢，前功業並棄，令公之心安乎？」道無言對。忠恕因勸湘陰公殺道以奔河東，公猶豫未決，遂及於禍。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-li-dao-juren-service",
+    "from": "li-dao-juren",
+    "to": "feng-dao",
+    "kind": "service",
+    "label": "投贽与谐谑",
+    "note": "举子李导向冯道投贽，二人就道、导字谐谑；记该次投文对答，不写冯道录取、任命或师生。",
+    "sources": [
+      {
+        "chapterId": "shibu-v005",
+        "paragraphId": "shibu-v005-p30",
+        "title": "《五代史补》 · 卷 5 · 后周史事",
+        "excerpt": "馮瀛王道之在中書也，有舉子李導投贄所業。馮相見之，戲謂曰：「老夫名道，其來久矣，加以累居相府，秀才不可謂不知，然亦名導，於禮可乎？」李抗聲對曰：「相公是無寸底道字，小子是有寸底導字，何謂不可也。」公笑曰：「老夫不惟名無寸，諸事亦無寸，吾子可謂知人矣。」了無怒色。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-wei-xun-jin-service",
+    "from": "feng-dao",
+    "to": "wei-xun-jin",
+    "kind": "service",
+    "label": "同次契丹使回",
+    "note": "旧史逐名记冯道、韦勛、杨昭俭同次自契丹使回；只记该使程，不称冯道任命二人，不扩长期从属或私交。",
+    "sources": [
+      {
+        "chapterId": "old-v078",
+        "paragraphId": "old-v078-p4",
+        "title": "《旧五代史》 · 卷 78 · 晋高祖纪4",
+        "excerpt": "丁酉，宰臣馮道、左散騎常侍韋勛、禮部員外郎楊昭儉自契丹使回。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-yang-zhaojian-jin-service",
+    "from": "feng-dao",
+    "to": "yang-zhaojian-jin",
+    "kind": "service",
+    "label": "同次契丹使回",
+    "note": "旧史逐名记冯道、韦勛、杨昭俭同次自契丹使回；只记该使程，不称冯道任命二人，不扩长期从属或私交。",
+    "sources": [
+      {
+        "chapterId": "old-v078",
+        "paragraphId": "old-v078-p4",
+        "title": "《旧五代史》 · 卷 78 · 晋高祖纪4",
+        "excerpt": "丁酉，宰臣馮道、左散騎常侍韋勛、禮部員外郎楊昭儉自契丹使回。"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-lu-zhi-tang-service",
+    "from": "feng-dao",
+    "to": "lu-zhi-tang",
+    "kind": "service",
+    "label": "到家饮酒与劝戒",
+    "note": "北梦记明宗问卢质饮酒，冯道答其曾到家饮数爵、自己劝勿过度；确有到访往来，不以相貌品评建立交游。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v019",
+        "paragraphId": "beimeng-v019-p15",
+        "title": "《北梦琐言》 · 卷 19",
+        "excerpt": "明宗問宰相馮道盧質近日喫酒否對曰質曽到臣居亦飲數爵臣勸不令過度事亦如酒過即患生"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-liu-yue-tuyuan-service",
+    "from": "feng-dao",
+    "to": "liu-yue-tuyuan",
+    "kind": "service",
+    "label": "闻戏语后授秘书监",
+    "note": "北梦记刘岳戏语由人告冯道后，道因授岳秘书监；原书如此叙事，保留来源，不补褒奖或报复动机。故事中任賛不据同名自动并入从荣案任赞节点。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v019",
+        "paragraphId": "beimeng-v019-p31",
+        "title": "《北梦琐言》 · 卷 19",
+        "excerpt": "宰相馮道形神庸陋一旦為丞相士人多竊笑之劉岳與任賛偶語見道行而復顧賛曰新相回顧何也岳曰定是忘持兎園冊來道之鄉人在朝者聞之告道道因授岳秘書監"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-cui-xuan-feng-dao-son-in-law-kinship",
+    "from": "feng-dao",
+    "to": "cui-xuan-feng-dao-son-in-law",
+    "kind": "kinship",
+    "label": "岳婿（长女所适）",
+    "note": "冯道自叙同句记长女适崔绚，故可据为岳婿；只承接这一次明确婚配，不扩崔衍祖系，不定长女生母。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "長女適故兵部崔侍郎諱衍子太僕少卿名絢，封萬年縣君；"
+      }
+    ]
+  },
+  {
+    "id": "feng-dao-eldest-daughter-cui-xuan-marriage",
+    "from": "feng-dao-eldest-daughter",
+    "to": "cui-xuan-feng-dao-son-in-law",
+    "kind": "kinship",
+    "label": "夫妻（自叙婚配）",
+    "note": "冯道自叙长女适太仆少卿崔绚；无女方本名及生母，不补婚年、先后妾或其他家系。",
+    "sources": [
+      {
+        "chapterId": "old-v126",
+        "paragraphId": "old-v126-p9",
+        "title": "《旧五代史》 · 卷126 · 周书列传六（冯道）",
+        "excerpt": "長女適故兵部崔侍郎諱衍子太僕少卿名絢，封萬年縣君；"
+      }
+    ]
   }
 ]

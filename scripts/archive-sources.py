@@ -20,8 +20,8 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、文臣合传卷 18、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 95 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
-    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、相关人物列传及十国世家卷 61—70；共 43 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、文臣列传卷 18、126、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 96 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、文臣合传卷 54、相关人物列传及十国世家卷 61—70；共 44 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='现收卷 266—294 的五代部分（907—959 年），另收卷 262 的晚唐记事，补充吴国相关人物的早期材料；共 30 卷，不表示全书已收录。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
@@ -57,6 +57,11 @@ SPECS.append(dict(id='old-v012', bookId='old', volume=12, title='卷 12 · 梁�
 # C001 retains the whole fixed shared civil-official biography, including other lives and commentary.
 SPECS.append(dict(id='old-v018', bookId='old', volume=18, position=18, title='卷 18 · 梁书列传八',
                   page='舊五代史/卷18', subjects=['jing-xiang'], scanSubjects=True, fixedRevisionId=8730595))
+# C003 keeps both complete fixed shared biographies and their source-qualified civil-official scope.
+SPECS.append(dict(id='old-v126', bookId='old', volume=126, position=126, title='卷 126 · 周书列传六',
+                  page='舊五代史/卷126', subjects=['feng-dao'], fixedRevisionId=2549907, sourceLocalSubjectsOnly=True))
+SPECS.append(dict(id='new-v54', bookId='new', volume=54, position=54, title='卷 54 · 杂传第四十二',
+                  page='新五代史/卷54', subjects=['feng-dao'], fixedRevisionId=1727329, sourceLocalSubjectsOnly=True))
 # Li Keyong was prince of Jin during his lifetime and posthumously honoured
 # as 武皇帝 by Later Tang. These annals do not add an actually reigning emperor.
 for volume, label, subjects in [(25, '上', ['li-keyong']), (26, '下', ['li-keyong', 'li-cunxu'])]:
@@ -896,7 +901,7 @@ def capture(spec, previous=None):
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')
-    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId'}}
+    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly'}}
     summary.update(subjects=subjects, position=position, scope='full', paragraphCount=len(paragraphs), characterCount=length, provenance=dict(pageTitle=spec['page'], sourceUrl=source_url, revisionId=parsed['revid'], fetchedAt=payload['fetchedAt'], license=LICENSE, licenseUrl=LICENSE_URL, contributorsUrl='https://zh.wikisource.org/w/index.php?'+urllib.parse.urlencode(dict(title=spec['page'], action='history')), sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest(), chapterSha256=hashlib.sha256(chapter_path.read_bytes()).hexdigest()))
     print(f"{spec['id']}: {len(paragraphs)} blocks, {length} characters, revision {parsed['revid']}", flush=True)
     return summary

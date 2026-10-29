@@ -1390,6 +1390,41 @@
       "notes": [
         "新史、卷9将遣卢苹叙顺义三年；旧史分章景与次年八月卢苹来贡，并记名马回报；不强并各书单一使节日，也不塞入灭梁交战日。"
       ]
+    },
+    {
+      "title": "族杀司空颋",
+      "summary": "新史司空颋传记司空颋曾屡依法约束张裕；他遣家奴召在梁之侄，张裕捕其家奴，并指司空颋通书于梁，随后记庄宗族杀司空颋。原段叙述指控与处置，不将通梁罪名视为已证。",
+      "year": null,
+      "sortOrder": 49,
+      "precision": "range",
+      "sourceDate": "魏博归晋后、梁晋相持时期，西历915—923年；庄宗为追称，未独记族杀月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p41",
+          "originalRevision": 1,
+          "originalSha256": "345e95a40fb662bfc98ca52bcc2f97f4233e309a4a5e83165bb4a3b6d09b93b5",
+          "excerpt": "司空頲，貝州清陽人也。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p42",
+          "originalRevision": 1,
+          "originalSha256": "e2967af2ca8865e075043c4ea8eff39c54953be2531d0e51c39c0ebce3f6fd09",
+          "excerpt": "都虞候張裕多過失，頲屢以法繩之。頲有姪在梁，遣家奴召之，裕擒其家奴，以謂通書于梁。莊宗族殺之。"
+        }
+      ],
+      "notes": [
+        "司空颋与魏博初降后张彦被诛、926年朱友谦/存乂清洗均不是同一对象，分别建候选，不更动旧事件。",
+        "“庄宗”是传记追称，不据此强定923年称帝以后；不说皇帝亲手执行。",
+        "范围只据本传魏博归晋后、梁晋仍相持的叙次及已核魏博归晋915年、梁亡923年两界，不表示事迹持续九年。"
+      ],
+      "id": "li-cunxu-execute-sikong-ting-family",
+      "yearRange": {
+        "start": 915,
+        "end": 923
+      }
     }
   ]
 }

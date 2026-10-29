@@ -4952,6 +4952,16 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "feng-dao",
+      "names": [
+        "馮道",
+        "冯道"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -10251,6 +10261,26 @@
       "label": "李振传",
       "startText": "李振字興緒，其祖抱真，唐潞州節度使。振為唐金吾衞將軍，拜台州刺史。盜起浙東，不果行，乃西歸。過梁，以策干太祖，太祖留之。",
       "endText": "太祖即位，累遷戶部尚書。友珪時，以振代敬翔為崇政院使。莊宗滅梁入汴，振謁見郭崇韜，崇韜曰：「人言李振一代奇才，吾今見之，"
+    },
+    {
+      "personId": "feng-dao",
+      "chapterId": "old-v126",
+      "start": 2,
+      "end": 12,
+      "startText": "馮道，字可道，瀛州景城人。其先為農為儒，不恆其業。道少純厚，",
+      "endText": "道歷任四朝，三入中書，在相位二十餘年，以持重鎮俗為己任，未嘗",
+      "kind": "biography",
+      "label": "冯道传"
+    },
+    {
+      "personId": "feng-dao",
+      "chapterId": "new-v54",
+      "start": 5,
+      "end": 14,
+      "startText": "馮道字可道，瀛州景城人也。事劉守光為參軍，守光敗，去事宦者張",
+      "endText": "道既卒，時人皆共稱歎，以謂與孔子同壽，其喜為之稱譽蓋如此。道",
+      "kind": "biography",
+      "label": "冯道传"
     }
   ],
   "chronology": [
@@ -14601,6 +14631,447 @@
       "originalRevision": 1,
       "originalSha256": "b001a22f92f80538c3e41f9adcccfa55a0263644046acf6dfc7dbaf9a51a54dc",
       "reason": "宣王建国指杨隆演建立吴国，王建跨越称号与建国动词，不是前蜀王建。"
+    },
+    {
+      "paragraphId": "quewen-v001-p37",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "纯篇题保存原书，人物索引不另作一处记载。周太祖冯道事迹相因同序之题与编排说明；保标题，不作独立事迹。",
+      "originalRevision": 1,
+      "originalSha256": "1754b346de57d087d10cdc4bf053e0f6da4e1c7124dbec3c0fa59b0476f1a36f"
+    },
+    {
+      "paragraphId": "shibu-v003-p19",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "纯篇题保存原书，人物索引不另作一处记载。冯道修夫子庙纯篇题；不能单独再记一处事迹。",
+      "originalRevision": 1,
+      "originalSha256": "5630c937ec2f5867ca55594c038bd6e7f74b10b77a3104bf3ced74b6fcf577f7"
+    },
+    {
+      "paragraphId": "shibu-v005-p27",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "纯篇题保存原书，人物索引不另作一处记载。郭忠恕责冯道题名保留，不独立事件。",
+      "originalRevision": 1,
+      "originalSha256": "d0aff7f40a4511e19a18ef39c0e8ab5a4013a686f9475cc65502daffcc679699"
+    },
+    {
+      "paragraphId": "shibu-v005-p29",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "纯篇题保存原书，人物索引不另作一处记载。举子与冯道同名为篇题；正文道/导不同字且李导不同姓，不自动合并身份或变冯道别名。",
+      "originalRevision": 1,
+      "originalSha256": "52ee1498fa15edd3c157d68b449e2f50bc52542fc271c93ec6e109e1da9dc3a4"
+    },
+    {
+      "paragraphId": "beimeng-v019-p26",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "纯篇题不作独立人物记载；原书内容与译文完整保留。",
+      "originalRevision": 1,
+      "originalSha256": "48954dbc1bcc6b85a88c8a144b0ea2bf922231123a2da62c2bf01faa177c997a"
+    },
+    {
+      "paragraphId": "old-v126-p1",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "本传纯人名篇题，不另登记人物记载；全章原译仍完整收录。",
+      "originalRevision": 1,
+      "originalSha256": "6386314ab6c95b4d95a66f7984fd4be9543067f4455564f6707318dc57ecfe88"
+    },
+    {
+      "paragraphId": "new-v54-p4",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "本传纯人名篇题，不另登记人物记载；全章原译仍完整收录。",
+      "originalRevision": 1,
+      "originalSha256": "6386314ab6c95b4d95a66f7984fd4be9543067f4455564f6707318dc57ecfe88"
+    },
+    {
+      "paragraphId": "old-v041-p6",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。整段无句末标点实际nonclick；保左仆射、门下侍郎、同平章事、太微宫使、宏文馆大学士等原衔，和p4右仆射各自保存。",
+      "originalRevision": 1,
+      "originalSha256": "3e02e3fe6307088b161f69576a3d2b3971e0006dd153a2677b895d99250fc69c"
+    },
+    {
+      "paragraphId": "old-v041-p11",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。可与p6合为同一撰册候选与作品署名mention，非另一次任官；其后其他官员授任/改州名不归冯道。底本左多吾与译文左金吾差字仅记录，不改底本。",
+      "originalRevision": 1,
+      "originalSha256": "945a843a8e4ef93be3ae0915902f3568c3bc9082360ddb62877193c5364cab06"
+    },
+    {
+      "paragraphId": "old-v046-p18",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。在假原因未说明，不补病假/丁忧/拒礼；拟宰臣摄太尉不等冯道获授/实际行礼。主要记李愚致斋及刘煦免祀，不转施事。可mention保留，单独年表事件必要性待主传。",
+      "originalRevision": 1,
+      "originalSha256": "bb3d1f56c29752c4a318e06dc5d94c41df36cf036a764e4a8bd47dff2bf1725c"
+    },
+    {
+      "paragraphId": "old-v078-p5",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。刘句、卢重归使的赏赐以冯道等为比较，不构成冯道第二次归使。",
+      "originalRevision": 1,
+      "originalSha256": "c96d8752f3ebaf89b4fd0e7aaae12e4d11b79aa2d9e34ed662c9de3f04deec7b"
+    },
+    {
+      "paragraphId": "old-v086-p6",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。出帝在纳冯氏后向冯道等说皇太后命，属讲话受者和群臣上下文，不虚造冯道本人劝纳/册立行为。冯濛、冯玉各另人，不因同姓构造家系。开运3/天福8册后年月为引书异说分层，其他内职女性不扩本批。",
+      "originalRevision": 1,
+      "originalSha256": "40a52e1743f15bddbcfcc4cdbe312fc3d540fee5dbeb52b3daceacd71075f427"
+    },
+    {
+      "paragraphId": "new-v17-p22",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。本段虽不构成本人独立行动，但确有受告或史论提及，保mention。冯道只在出帝婚后面告群臣语境中具名，不把纳后或先帝丧事写作冯道所办。",
+      "originalRevision": 1,
+      "originalSha256": "0cad9b95a8be0d8e29b6f02a3dfe84035b701bff8805d81d08d41cb264d5dd08"
+    },
+    {
+      "paragraphId": "tongjian-v279-p53",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。明言刘昫与冯道婚姻/亲家，直接姻亲可候选，不猜子女姓名及婚配方向。出镇后李愚刘昫争执、抽签命相均非冯道行动。",
+      "originalRevision": 1,
+      "originalSha256": "73c28abf1cac92bc4043de4bb4c4d4db84595dca64bfc02778506279781acb85"
+    },
+    {
+      "paragraphId": "tongjian-v283-p75",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。本段虽不构成本人独立行动，但确有受告或史论提及，保mention。十月戊申立后/居丧婚纳叙述，冯道为群臣受告语境；冯皇后、冯濛、冯玉分别不同身份，不造冯道亲属。",
+      "originalRevision": 1,
+      "originalSha256": "e41e3521e33cb925db7ef1ed66f101e2d350b9b672d33749be7d57dc15a0a81b"
+    },
+    {
+      "paragraphId": "tongjian-v287-p4",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。五月乙酉塑本字保留；冯道为兀欲召饮在场者之一，不能据此写参与锁赵延寿的密谋/实施。",
+      "originalRevision": 1,
+      "originalSha256": "558577a8893d894c890ab5a548e11f28ae10f4fe6a22314aafcecba43026fa81"
+    },
+    {
+      "paragraphId": "tongjian-v288-p62",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。汉高祖入大梁时冯道仍在真定，其第被赐苏禹珪；后李崧家资宅券与苏逢吉、陶谷事不可混为冯道遭诬。",
+      "originalRevision": 1,
+      "originalSha256": "2ce1f2924d7860022eb84e74bbc503e12d5fb39686df9fe4193b005ef8792f4f"
+    },
+    {
+      "paragraphId": "tongjian-v291-p47",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。郭威幽王峻后向冯道等诉其凌君；本段未载冯道答词/决策，不虚作主导罢黜王峻。",
+      "originalRevision": 1,
+      "originalSha256": "68bc539b98e65c6d98f313b2ccd89f80418d5e9080c1cce9e72f569a99711a9f"
+    },
+    {
+      "paragraphId": "tongjian-v291-p110",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。本段虽不构成本人独立行动，但确有受告或史论提及，保mention。明确引欧阳修论，贬冯道无廉耻并引王凝妻李氏对照；不把王凝李氏事迹或欧阳修价值断言变为冯道事件/直接关系；非新史之外独立复证。",
+      "originalRevision": 1,
+      "originalSha256": "31690a24a71c8e5c04461f0182f77a287405ffdde27ac804023a8c2cc1e80da1"
+    },
+    {
+      "paragraphId": "tongjian-v291-p111",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。本段虽不构成本人独立行动，但确有受告或史论提及，保mention。司马光论内引范质褒冯道，再以臣节反驳，并责时君；五朝八姓为议论总括，不用数词机械补具体未载履历/关系。对评语归属分层保留。",
+      "originalRevision": 1,
+      "originalSha256": "9d5691ace2d4ffd2bbcf85add55da9107106f1fc707370ebc03b7f19a6bff2be"
+    },
+    {
+      "paragraphId": "tongjian-v294-p87",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。本段虽不构成本人独立行动，但确有受告或史论提及，保mention。司马光论庄宗/世宗，冯道以失节被弃为论赞判断；不生造独立罢相日期、诏令或动机事实。",
+      "originalRevision": 1,
+      "originalSha256": "d2815264a82591094648bc9d4600687829932b16aa28c3ea0b21ba18b989255d"
+    },
+    {
+      "paragraphId": "huiyao-v001-p5",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。明宗生卒/尊谥/宰相与使相名录，冯道为十相之一。原十二六日疑读保留，不改成确日；其他人生卒非冯道生卒。",
+      "originalRevision": 1,
+      "originalSha256": "78c367e02824a9f1d1129d58976e31198ee69197129e1d05e7ac718527963c1a"
+    },
+    {
+      "paragraphId": "huiyao-v001-p6",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。闵帝条三相名录含冯道，不能只由全朝名单补具体拜免日；冯赟在使相名单为另一身份。",
+      "originalRevision": 1,
+      "originalSha256": "3a48047a9fdbec5510aac359043b9ae510351085f9bd1063153b8386db2560c7"
+    },
+    {
+      "paragraphId": "huiyao-v001-p7",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。末帝条冯道列使相而非所列六宰相；不因名录推翻别段出镇/司空事实，不把闰十一月末原纪年强作西历同年。",
+      "originalRevision": 1,
+      "originalSha256": "07d1e4c9278ef2db235b1566a6a75bb034324e4258af1bef632b043da07a7c17"
+    },
+    {
+      "paragraphId": "huiyao-v001-p8",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。晋高祖朝宰相名单列冯道；其余为晋高祖生平、礼文与使相名单，不自动归入冯道任官年月。",
+      "originalRevision": 1,
+      "originalSha256": "771b0ae19b664ab4dfa87fece1cb8e3c71b559fd6b06ff1777f9dbcbb4a907be"
+    },
+    {
+      "paragraphId": "huiyao-v001-p9",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。少帝宰相及使相两名单皆列冯道，不将名单视为同时任命或与名单诸人各建直接关系。",
+      "originalRevision": 1,
+      "originalSha256": "eb50cc609213e15691ed945eecb1c5ac21589d2373bc1b9a9191bafceecbc2a7"
+    },
+    {
+      "paragraphId": "huiyao-v001-p12",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。周太祖朝宰相名单列冯道；帝卒葬等不直接等于冯道当日任命。",
+      "originalRevision": 1,
+      "originalSha256": "889a7f47666b58caf00ab6bf56c570292a3484f9da15bb08aeacbc7c5e37bfb1"
+    },
+    {
+      "paragraphId": "huiyao-v004-p8",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。清泰元年五月明宗祔庙议中记冯道在假，最后差李愚行事；不写冯道实际摄行祔庙。",
+      "originalRevision": 1,
+      "originalSha256": "44cbae93c7f4b551ad5a9e7fc6d7aa7aa3baa0ab7a2b85b5b1308484d7468f1f"
+    },
+    {
+      "paragraphId": "huiyao-v012-p80",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。文懿条列赠尚书令瀛王冯道，谥/赠官/追封分层，不新造年月。",
+      "originalRevision": 1,
+      "originalSha256": "b9de79926b7835c1ba7a33b4b5608551858149ab97f0c18d8f8314cc7dcba9e9"
+    },
+    {
+      "paragraphId": "new-v54-p1",
+      "personId": "feng-dao",
+      "terms": [
+        "馮道"
+      ],
+      "reason": "排除自动史事等级，按本段实际用途保人物提及。长乐老叙书名与廉耻批评",
+      "originalRevision": 1,
+      "originalSha256": "8c3a9906476de280cd1c72fc12fbfc39b0255e4c93040ad26b875a97586a5b2e"
+    },
+    {
+      "paragraphId": "old-v126-p7",
+      "personId": "li-cunxu",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "保留本段有据人物提及；冯道自叙所事君主名单，只支持列名及其自述，不各造君主事件。",
+      "originalRevision": 1,
+      "originalSha256": "0d9f6a049b8ec6bcafcf847a4e6b51fdaeed46cbee7045710d670c72d0d31bb2"
+    },
+    {
+      "paragraphId": "old-v126-p7",
+      "personId": "li-siyuan",
+      "terms": [
+        "明宗"
+      ],
+      "reason": "保留本段有据人物提及；自叙君主名单；不把冯道自荣评价当明宗的独立作为。",
+      "originalRevision": 1,
+      "originalSha256": "0d9f6a049b8ec6bcafcf847a4e6b51fdaeed46cbee7045710d670c72d0d31bb2"
+    },
+    {
+      "paragraphId": "old-v126-p7",
+      "personId": "li-conghou",
+      "terms": [
+        "閔帝"
+      ],
+      "reason": "保留本段有据人物提及；閔帝列名，非本段独立政治行动。",
+      "originalRevision": 1,
+      "originalSha256": "0d9f6a049b8ec6bcafcf847a4e6b51fdaeed46cbee7045710d670c72d0d31bb2"
+    },
+    {
+      "paragraphId": "old-v126-p7",
+      "personId": "li-congke",
+      "terms": [
+        "清泰帝"
+      ],
+      "reason": "保留本段有据人物提及；清泰帝列名，非本段独立政治行动。",
+      "originalRevision": 1,
+      "originalSha256": "0d9f6a049b8ec6bcafcf847a4e6b51fdaeed46cbee7045710d670c72d0d31bb2"
+    },
+    {
+      "paragraphId": "old-v126-p7",
+      "personId": "shi-jingtang",
+      "terms": [
+        "晉高祖"
+      ],
+      "reason": "保留本段有据人物提及；晋高祖列名，非本段独立任命或在位起点。",
+      "originalRevision": 1,
+      "originalSha256": "0d9f6a049b8ec6bcafcf847a4e6b51fdaeed46cbee7045710d670c72d0d31bb2"
+    },
+    {
+      "paragraphId": "old-v126-p8",
+      "personId": "li-siyuan",
+      "terms": [
+        "明宗"
+      ],
+      "reason": "保留本段有据人物提及；冯道自列为两位已故帝王任山陵使，只作被纪念者提及。",
+      "originalRevision": 1,
+      "originalSha256": "d09c810c30947940700a8c5f7e6001e209e0594d8bae9e4bce0960b403f76427"
+    },
+    {
+      "paragraphId": "old-v126-p8",
+      "personId": "shi-jingtang",
+      "terms": [
+        "晉高祖"
+      ],
+      "reason": "保留本段有据人物提及；自叙山陵使对象，不是晋高祖自己的新行动。",
+      "originalRevision": 1,
+      "originalSha256": "d09c810c30947940700a8c5f7e6001e209e0594d8bae9e4bce0960b403f76427"
+    },
+    {
+      "paragraphId": "new-v54-p7",
+      "personId": "li-cunxu",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "保留本段有据人物提及；庄宗遇弑是引出明宗任用冯道的转换背景，未加死亡细节或新施事。",
+      "originalRevision": 1,
+      "originalSha256": "20470fa691b81423fbeef3925b572889ac2d41d8cdd775929f5b6b666b4e9e18"
+    },
+    {
+      "paragraphId": "new-v54-p9",
+      "personId": "li-siyuan",
+      "terms": [
+        "明宗"
+      ],
+      "reason": "保留本段有据人物提及；只作为冯道仕历及死亡转换背景；十余年另有p43校注，不能照录成无异说在位年数。",
+      "originalRevision": 1,
+      "originalSha256": "1ba47599b3d0fd0bc50a313c06d482020ac7e48661970c3e0a90ebbe33701cf0"
+    },
+    {
+      "paragraphId": "new-v54-p11",
+      "personId": "liu-chengyou",
+      "terms": [
+        "隱帝"
+      ],
+      "reason": "保留本段有据人物提及；隐帝已崩是郭威见冯道与迎立刘赟的背景；不补本段没有的凶手、死地或当日顺序。",
+      "originalRevision": 1,
+      "originalSha256": "d6410c1b715fddf785952afd2146f858d71e65132798d35943f6f505b9837b3f"
+    },
+    {
+      "paragraphId": "new-v54-p22",
+      "personId": "huo-yanwei",
+      "terms": [
+        "霍彥威"
+      ],
+      "reason": "保留本段有据人物提及；霍彦威卒后碑文归属与称梁偽之争，主体李琪与冯道；只作本人身后提及，不造霍彦威撰碑行为。",
+      "originalRevision": 1,
+      "originalSha256": "12b2f5c4138761a4e6414484163f746f0c320800a2d2b1e1827462f2ab60b066"
+    },
+    {
+      "paragraphId": "new-v54-p31",
+      "personId": "zhu-youzhen",
+      "terms": [
+        "梁末帝"
+      ],
+      "reason": "保留本段有据人物提及；梁末帝为李延光侍讲的任职对象、推荐李愚的宫廷背景；不据“愚由此得召”虚构皇帝与李愚对话。",
+      "originalRevision": 1,
+      "originalSha256": "2ba481a4a1b8c2ef6f8838c57dcc93429bc223d9d3e1cb9efde4d77a1dc2dbfd"
+    },
+    {
+      "paragraphId": "new-v54-p34",
+      "personId": "ren-huan",
+      "terms": [
+        "任圜"
+      ],
+      "reason": "保留本段有据人物提及；只是李愚入相前的错误接续背景；同卷p44明列相隔五年并疑赵凤误任圜，不能据此新增任圜第二次罢相。",
+      "originalRevision": 1,
+      "originalSha256": "944953903fc00bd0f16316379619ef13ddcfa00a2c7b784577db1940b6d44335"
+    },
+    {
+      "paragraphId": "new-v54-p41",
+      "personId": "yang-shihou",
+      "terms": [
+        "楊師厚",
+        "師厚"
+      ],
+      "reason": "保留本段有据人物提及；司空颋生平背景中的镇魏与卒，未给杨师厚新的具体行动；不硬新增年表。",
+      "originalRevision": 1,
+      "originalSha256": "345e95a40fb662bfc98ca52bcc2f97f4233e309a4a5e83165bb4a3b6d09b93b5"
     }
   ],
   "regnalEdicts": {

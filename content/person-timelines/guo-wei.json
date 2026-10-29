@@ -630,7 +630,30 @@
       ],
       "sortOrder": 17,
       "phase": "service",
-      "precision": "month"
+      "precision": "month",
+      "variants": [
+        {
+          "label": "冯道本传的议立、受拜与“阳立”解释",
+          "sourceDate": "郭威平内难后、刘赟未至时，所引本传未独记日",
+          "summary": "旧史冯道传记太祖议立徐州刘赟，遣冯道等迎之；新史冯道传则以冯道照受拜礼而无推戴意及郭威“阳立”汉嗣解释后续代汉。任命迎使有据，受拜与谋划的因果仍保史家叙法，不合为已证的唯一心理，也不说刘赟已经即位。",
+          "evidence": [
+            {
+              "chapterId": "old-v126",
+              "paragraphId": "old-v126-p11",
+              "originalRevision": 1,
+              "originalSha256": "55aa7f58d358a0f67c8e64b2784550299fc54725ccc40c79e8390b326e6b743c",
+              "excerpt": "及太祖平內難，議立徐州節度使劉贇為漢嗣，遣道與秘書監趙上交、樞密直學士王度等往迎之。"
+            },
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p11",
+              "originalRevision": 1,
+              "originalSha256": "d6410c1b715fddf785952afd2146f858d71e65132798d35943f6f505b9837b3f",
+              "excerpt": "周兵反，犯京師，隱帝已崩，太祖謂漢大臣必行推戴，及見道，道殊無意。太祖素拜道，因不得已拜之，道受之如平時，太祖意少沮，知漢未可代，遂陽立湘陰公贇為漢嗣，遣道迎贇于徐州。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "guo-wei-chanzhou-acclamation",
