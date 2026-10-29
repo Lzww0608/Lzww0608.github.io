@@ -4938,6 +4938,20 @@
       "shortNames": [],
       "titles": [],
       "excludedPhrases": []
+    },
+    {
+      "personId": "wu-yang-xingmi-daughter-liu-rengui-wife",
+      "names": [
+        "吴武王女（刘仁规妻）",
+        "吳武王女（劉仁規妻）",
+        "杨行密女（刘仁规妻）",
+        "楊行密女（劉仁規妻）",
+        "刘仁规妻（杨行密女）",
+        "劉仁規妻（楊行密女）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -14557,6 +14571,36 @@
         "葛從周"
       ],
       "reason": "仅抑制本段全名自动record路线，再由同版本canonical mention恢复姓名提及；不排除真实身份。"
+    },
+    {
+      "paragraphId": "nantanglu-v013-p2",
+      "personId": "li-yan-youzhou",
+      "terms": [
+        "李嚴"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "ee19a20700596b89a7c014c9ea7455250468902a21bdceade92fc63b1a42b1ac",
+      "reason": "劉、潘、李、嚴、張、龔是列传所列六姓；相邻李嚴并非幽州李严之名。"
+    },
+    {
+      "paragraphId": "nantanglu-v013-p3",
+      "personId": "gao-xingzhou",
+      "terms": [
+        "行周"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "1782a542e8cd69e353b4e80d40638981d1a94910f918c5908c5454c84acd9a3e",
+      "reason": "未及行与周已遣相接，行周跨越动词与周国主语，不是高行周。"
+    },
+    {
+      "paragraphId": "nantanglu-v013-p8",
+      "personId": "wang-jian-former-shu",
+      "terms": [
+        "王建"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "b001a22f92f80538c3e41f9adcccfa55a0263644046acf6dfc7dbaf9a51a54dc",
+      "reason": "宣王建国指杨隆演建立吴国，王建跨越称号与建国动词，不是前蜀王建。"
     }
   ],
   "regnalEdicts": {

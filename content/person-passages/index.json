@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 252,
-    "paragraphCount": 9721
+    "chapterCount": 253,
+    "paragraphCount": 9731
   },
   "people": [
     {
@@ -1806,6 +1806,10 @@
     {
       "id": "tang-li-cunju-consort-lu",
       "name": "卢氏（卢文进女、李存矩侧室）"
+    },
+    {
+      "id": "wu-yang-xingmi-daughter-liu-rengui-wife",
+      "name": "吴武王女（刘仁规妻）"
     }
   ],
   "passages": [
@@ -23773,6 +23777,210 @@
         },
         {
           "personId": "xu-xuan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p3",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p3",
+          "originalRevision": 1,
+          "originalSha256": "1782a542e8cd69e353b4e80d40638981d1a94910f918c5908c5454c84acd9a3e",
+          "start": 0,
+          "end": 1223
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        },
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "wu-yang-xingmi-daughter-liu-rengui-wife",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p4",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p4",
+          "originalRevision": 1,
+          "originalSha256": "903efaa3440f8d000df8b9a804ad1a71ae7365871bf476c416b044082aea984f",
+          "start": 0,
+          "end": 258
+        }
+      ],
+      "people": [
+        {
+          "personId": "chai-rong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p5",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p5",
+          "originalRevision": 1,
+          "originalSha256": "b239d54890861e01a7440cb15d5c668f8919c8497a51b015429390be7c4524ad",
+          "start": 0,
+          "end": 866
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p6",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p6",
+          "originalRevision": 1,
+          "originalSha256": "81eda72f063afaa3c3a11118a4c5a6cdda12ca561d887abfc25bc9d1614426c4",
+          "start": 0,
+          "end": 128
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p7",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p7",
+          "originalRevision": 1,
+          "originalSha256": "3b60d27d9315535cbaf2424120ebf264d5de3461129eb99228f8847649fb951d",
+          "start": 0,
+          "end": 310
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p8",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p8",
+          "originalRevision": 1,
+          "originalSha256": "b001a22f92f80538c3e41f9adcccfa55a0263644046acf6dfc7dbaf9a51a54dc",
+          "start": 0,
+          "end": 400
+        }
+      ],
+      "people": [
+        {
+          "personId": "yang-xingmi",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-wo",
+          "kind": "mention"
+        },
+        {
+          "personId": "yang-longyan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-bian",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "song-qiqiu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-nantanglu-v013-p9",
+      "chapterId": "nantanglu-v013",
+      "title": "卷 13 · 刘潘李严张龚列传第十 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "nantanglu-v013-p9",
+          "originalRevision": 1,
+          "originalSha256": "a061b7253576ae194333abf9a13c5a6fc36e6b6cd5002fa2f7fc816c19fb3ba0",
+          "start": 0,
+          "end": 1192
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jing-southern-tang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu",
+          "kind": "record"
+        },
+        {
+          "personId": "liu-chang-southern-han",
           "kind": "record"
         }
       ]

@@ -82,6 +82,16 @@ test('one real court-mourning occurrence has no asserted death day and preserves
    excerpt:'十四年，周師入犯，齊王景達爲元帥，出兵援壽州，起鎬爲大將，偕許文稹從行。會朱元叛去，諸軍皆潰，鎬與文稹被執，周世宗命爲右千牛衛上將軍。及割淮南請盟，乃歸鎬。'}],
  }]);
  delete returned.variants;
+ // H109 adds one Lu13 account and its date/agency note to the existing
+ // non-surrender variant. Verify both exact appends before restoring the past.
+ const shouzhou=restored.events.find(e=>e.id==='chai-rong-shouzhou-settlement');assert.ok(shouzhou);
+ const nonSurrender=shouzhou.variants.filter(v=>v.label==='新史与考异：仁赡实不降');assert.equal(nonSurrender.length,1);
+ const account=nonSurrender[0];assert.equal(account.evidence.length,3);
+ assert.equal(objectSha(account.evidence.at(-1)),'54d038257b13a9615df915f7e767bad35d742e99c699d5fbb81920238fd31544','exact Lu13 source identity, revision, SHA and complete excerpt');
+ assert.deepEqual([account.evidence.at(-1).chapterId,account.evidence.at(-1).paragraphId],['nantanglu-v013','nantanglu-v013-p3']);
+ assert.deepEqual(account.notes,['陆游本传记仁赡病危不知人、周廷构和孙羽等代为表请降，并叙甲辰、戊申、辛亥；与旧史丙午至辛亥及新史丁未等日期各存，不据相近日号强配同日。']);
+ account.evidence.pop();delete account.notes;
+ assert.equal(objectSha(shouzhou),'4395588c3099e15682918d982b3391105319dd82e9ad89c20844a9d44c050b71','whole pre-H109 event after only the two approved appends are removed');
  for(const [id,sort]of Object.entries(oldSorts)){const old=restored.events.find(e=>e.id===id);assert.ok(old,id);assert.equal(old.sortOrder,sort+1,id);old.sortOrder=sort;}
  assert.equal(restored.events.length,96);assert.equal(objectSha(restored),'8fe653272b69777e0b677e15070813b7ca1b18eb0663d966f0781c4bcd854ce7','whole pre-batch document including all 96 IDs, metadata and source objects');
 });
