@@ -12451,7 +12451,7 @@
     "to": "former-shu-zhou-dequan",
     "kind": "kinship",
     "label": "姊弟",
-    "note": "本传称母弟德权，并叙其因后起家，非周后亲任其官。",
+    "note": "本传称母弟德权，并叙其因后起家，非周后亲任其官。\n卷40周德权传提供全名与顺德皇后弟的对应，复用原德权身份；籍贯异说、叔舅原称分源保留。",
     "sources": [
       {
         "title": "《十国春秋》 · 卷 38 · 前蜀后妃宗室列传",
@@ -12460,6 +12460,14 @@
         "originalRevision": 1,
         "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
         "excerpt": "母弟德權，以后故起家刺史，積功至太保、中書令，有傳。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v040",
+        "paragraphId": "shiguochunqiu-v040-p14",
+        "originalRevision": 1,
+        "originalSha256": "fd3beb97ec2ae94c770a10af07404f863b6c3fcd450ef822745cf0dc746d5674",
+        "excerpt": "周德權，許州人，〈蜀檮杌又作汝南人。〉順德皇后弟也。",
+        "title": "《十国春秋》 · 卷 40 · 前蜀列传（冯涓、周庠等）"
       }
     ]
   },
@@ -13168,6 +13176,68 @@
         "originalRevision": 1,
         "originalSha256": "15ef8afbcaf709a0cc1667721d6683fe08c04948a1430b01ab68edd120b87409",
         "excerpt": "蜀主許之，庚午，以承休為天雄節度使，封魯國公；以龍武軍為承休牙兵。"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wei-zhuang-former-shu-wei-zhuang-unnamed-ji-kinship-palace",
+    "from": "former-shu-wei-zhuang",
+    "to": "former-shu-wei-zhuang-unnamed-ji",
+    "kind": "kinship",
+    "label": "姬属（史载）",
+    "note": "本书作庄有美姬，不补正式妻室、女方姓韦或子女。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v040",
+        "paragraphId": "shiguochunqiu-v040-p4",
+        "originalRevision": 1,
+        "originalSha256": "6ceca8744d4f87967e721bec71094d0649d828325b0b87ac4377b6d4b26b9181",
+        "excerpt": "莊有美姬，善文翰，高祖託以教宫人爲詞，强奪去。",
+        "title": "《十国春秋》 · 卷 40 · 前蜀列传（冯涓、周庠等）"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wei-zhuang-unnamed-ji-service-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wei-zhuang-unnamed-ji",
+    "kind": "service",
+    "label": "借教词之名强夺（史载）",
+    "note": "这是王建强夺之举，非任官或后妃册立；教宫人为词为托辞，不证明她已任教。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v040",
+        "paragraphId": "shiguochunqiu-v040-p4",
+        "originalRevision": 1,
+        "originalSha256": "6ceca8744d4f87967e721bec71094d0649d828325b0b87ac4377b6d4b26b9181",
+        "excerpt": "莊有美姬，善文翰，高祖託以教宫人爲詞，强奪去。",
+        "title": "《十国春秋》 · 卷 40 · 前蜀列传（冯涓、周庠等）"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wei-zhuang-service-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wei-zhuang",
+    "kind": "service",
+    "label": "文书及朝职任用",
+    "note": "韦庄为女方直接相关文臣节点，仅据本卷任用行为登记，不扩新正式文臣。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v040",
+        "paragraphId": "shiguochunqiu-v040-p4",
+        "originalRevision": 1,
+        "originalSha256": "6ceca8744d4f87967e721bec71094d0649d828325b0b87ac4377b6d4b26b9181",
+        "excerpt": "遂留蜀，同馮涓並掌書記，文不加點，而語多稱情。",
+        "title": "《十国春秋》 · 卷 40 · 前蜀列传（冯涓、周庠等）"
+      },
+      {
+        "chapterId": "shiguochunqiu-v040",
+        "paragraphId": "shiguochunqiu-v040-p4",
+        "originalRevision": 1,
+        "originalSha256": "6ceca8744d4f87967e721bec71094d0649d828325b0b87ac4377b6d4b26b9181",
+        "excerpt": "進左散騎常侍，判中書門下事。",
+        "title": "《十国春秋》 · 卷 40 · 前蜀列传（冯涓、周庠等）"
       }
     ]
   }
