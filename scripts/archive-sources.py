@@ -29,7 +29,7 @@ BOOKS = [
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
     dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
-    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。', defaultChapter='shiguochunqiu-v004'),
+    dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，卷 38 的前蜀后妃宗室列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 1 的烈祖本纪、卷 3 的后主本纪、卷 13 的刘潘李严张龚列传、卷 16 的后妃诸王列传及卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。', defaultChapter='nantanglu-v001'),
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 5 的后主书、卷 6 的女宪传及卷 10 的序文、李建勋与严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令与陆游的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。', defaultChapter='nantangma-v005'),
     dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
@@ -911,6 +911,9 @@ SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v024\":[\"本�
 
 SPECS.extend(json.loads("[{\"id\":\"nantanglu-v013\",\"bookId\":\"nantanglu\",\"volume\":13,\"position\":13,\"title\":\"卷 13 · 刘潘李严张龚列传第十\",\"page\":\"南唐書 (陸游, 四庫全書本)/卷13\",\"subjects\":[\"yang-xingmi\",\"li-bian\",\"li-jing-southern-tang\",\"li-yu\",\"chai-rong\",\"wu-yang-xingmi-daughter-liu-rengui-wife\",\"yang-wo\",\"yang-longyan\",\"song-qiqiu\",\"liu-chang-southern-han\"],\"sourceLocalSubjectsOnly\":true,\"fixedRevisionId\":838678,\"minimumCharacters\":4417,\"minimumBlocks\":10}]"))
 SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"nantanglu-v013\":[\"完整归档所选卷正文、卷题、夹注和史家评论；不表示全书已收录。\",\"底本为固定父修订838678的已保存渲染页面，未分别固定转录子页修订；原文、段落标签与次序保持。\"]}"))
+
+SPECS.extend(json.loads("[{\"id\":\"shiguochunqiu-v038\",\"bookId\":\"shiguochunqiu\",\"volume\":38,\"position\":38,\"title\":\"卷 38 · 前蜀后妃宗室列传\",\"page\":\"十國春秋/卷038\",\"subjects\":[\"former-shu-wang-jian-zhou\",\"former-shu-wang-jian-xu-shunsheng\",\"former-shu-wang-jian-xu-yisheng\",\"former-shu-wang-jian-zhang\",\"former-shu-wang-jian-xiao\",\"former-shu-puci-princess\",\"wang-jian-former-shu\",\"wang-yan-former-shu\",\"li-yan-youzhou\",\"li-cunxu\",\"li-siyuan\",\"li-jiji\"],\"sourceLocalSubjectsOnly\":true,\"fixedRevisionId\":2542154,\"minimumCharacters\":4444,\"minimumBlocks\":34}]"))
+SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v038\":[\"本页完整收录所选卷保存来源的正文、标题、夹注、序论及诗文；原文字形、标点与块次照存。\",\"古籍原作已属公版；维基文库整理文本按 CC BY-SA 4.0 署名并以相同方式共享。底本与叙事差异请参照具体译注。\",\"本卷据保存的维基文库标准页面完整渲染正文整理，报告的父页修订号为2542154；所引子页修订未逐一固定。同作品不同版本不作为独立史料复证，已收卷篇见目录，不表示全书已收录。\"]}"))
 
 def main():
     ROOT.joinpath('sources').mkdir(parents=True, exist_ok=True)

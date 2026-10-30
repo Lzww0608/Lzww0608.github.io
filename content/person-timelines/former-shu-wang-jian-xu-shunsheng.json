@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-jian-xu-shunsheng",
+  "events": [
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-heir",
+      "title": "促立其子郑王为太子",
+      "summary": "元膺死后，贤妃欲立其子郑王，使唐文扆讽张格赞成，后主遂得立。",
+      "year": 913,
+      "precision": "year",
+      "sortOrder": 2,
+      "sourceDate": "元膺死后至宗衍立储；《通鉴》立太子结果在乾化三年冬十月甲午",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "太子元膺之死，高祖以雅王宗輅類己，信王宗傑才敏，擬擇一人立之，而賢妃欲立其子鄭王，卽後主是也，使文扆諷宰相張格贊成之，後主遂得立。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p26",
+          "originalRevision": 1,
+          "originalSha256": "9aaa00b98ba1c38757a99c77e10bc0580e25c00c50382ffa559f0c375f2b8f01",
+          "excerpt": "衍字化源。建十一子，曰衞王宗仁，簡王元膺，趙王宗紀，豳王宗輅，韓王宗智，莒王宗特，信王宗傑，魯王宗鼎，興王宗澤，薛王宗平。而鄭王宗衍最幼，其母徐賢妃也，以母寵得立為皇太子，開崇賢府，置官屬，後更曰天策府。衍為人方頤大口，垂手過膝，顧目見耳，頗知學問，能為浮豔之辭。元膺死，建以豳王宗輅貌類己，而信王宗傑於諸子最材賢，欲於兩人擇立之。而徐妃專寵，建老昏耄，妃與宦者唐文扆教相者上言衍相最貴，又諷宰相張格贊成之，衍由是得為太子。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p135",
+          "originalRevision": 1,
+          "originalSha256": "1d1e6375a17962135f1e433ee56cdca09ace453239cbd286f50fa88f25fb49da",
+          "excerpt": "蜀潘炕屢請立太子，蜀主以雅王宗輅類己，信王宗傑才敏，欲擇一人立之。鄭王宗衍最幼，其母徐賢妃有寵，欲立其子，使飛龍使唐文扆諷張格上表請立宗衍。格夜以表示功臣王宗侃等，詐雲受密旨，眾皆署名。蜀主令相者視諸子，亦希旨言鄭王相最貴。蜀主以為眾人實欲立宗衍，不得已許之，曰：「宗衍幼懦，能堪其任乎？」甲午，立宗衍為太子。受冊華，潘炕以朝廷無事，稱疾請老，蜀主不許，涕泣固請，乃許之。國有大疑，常遣使就第問之。"
+        }
+      ],
+      "notes": [
+        "913只限定元膺败亡后至立储之间的促立过程，甲午是立储结果日，不将此前请托、传意与赞立全定同日。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-dowager",
+      "title": "尊为顺圣皇太后",
+      "summary": "王衍嗣位后，贤妃被尊为顺圣皇太后。",
+      "year": 918,
+      "precision": "month",
+      "sortOrder": 4,
+      "sourceDate": "《通鉴》六月，癸卯即位后接尊母，未独记受尊日",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p37",
+          "originalRevision": 1,
+          "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+          "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。尊徐賢妃為太后、徐淑妃為太妃。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "及嗣皇帝位，尊賢妃爲順聖皇太后，淑妃爲翊聖皇太妃，耕亦累官驃騎大將軍。"
+        }
+      ],
+      "notes": [
+        "六月依据《通鉴》本身的即位及尊母条，顺圣称号见《十国春秋》。",
+        "不以月首或即位癸卯直接充当独记的受尊日。"
+      ],
+      "variants": [
+        {
+          "label": "新史接周后卒后叙尊母",
+          "sourceDate": "王建卒、周后数日后卒之后的叙次",
+          "summary": "《新五代史》将尊母接周后死后数日叙写；本传另有数月说，两种先后不拼成一个受尊日。",
+          "evidence": [
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p27",
+              "originalRevision": 1,
+              "originalSha256": "ae33422ef8725820365ae8d0db35a93a08c937e774a1a018261e106d392c1b4e",
+              "excerpt": "建卒，衍立，謚建曰神武聖文孝德明惠皇帝，廟號高祖，陵曰永陵。建正室周氏號昭聖皇后，後建數日而卒，衍因尊其母徐氏為皇太后，后妹淑妃為皇太妃。太后、太妃以教令賣官，自刺史以下，每一官闕，必數人並爭，而入錢多者得之；通都大邑起邸店，以奪民利。"
+            }
+          ],
+          "notes": [
+            "本传嗣位后尊顺圣皇太后未独记月日，不能仅借太妃本传六月套给她。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-surrender",
+      "title": "随王衍降唐",
+      "summary": "唐师入汉州后，王衍引太后见李严，托付母亲，随后归唐。",
+      "year": 925,
+      "precision": "year",
+      "sortOrder": 7,
+      "sourceDate": "唐师入汉州、王衍归唐时",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "唐師入漢州，後主馳驛召唐臣李嚴，引太后見之，且以爲託。已而歸唐"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-poems",
+      "title": "赴洛途中在天回驿与太妃赋诗",
+      "summary": "太妃本传记，赴洛途中行至天回驿，太后与太妃一同赋诗。",
+      "year": 926,
+      "precision": "year",
+      "sortOrder": 7,
+      "sourceDate": "太妃本传咸康元年之明年，赴洛途中；未独记月日",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p4",
+          "originalRevision": 1,
+          "originalSha256": "c7dac9ebb8ec25b33ae8d72791e0337046d6331b3e44b2a5641c19455abf6ac7",
+          "excerpt": "明年，李繼曮等部送入洛，行至天回驛，太妃與太后賦詩，悽惋不可聽聞。"
+        }
+      ],
+      "notes": [
+        "本条与太妃年表引用同一原段，不计为独立复证。",
+        "只据咸康元年之明年及现有926年历核，不挪秦川之祸所记四月作途中赋诗的月份。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-execution",
+      "title": "秦川驿遇害，临刑陈言",
+      "summary": "本传记唐庄宗遣向延嗣诛王氏族，太后临刑斥其失信。",
+      "year": 926,
+      "precision": "year",
+      "sortOrder": 8,
+      "sourceDate": "降唐后秦川驿族诛时",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "已而歸唐，唐莊宗遣向延嗣族誅王氏於秦川驛。太后臨刑呼曰：“吾兒以一國迎降，反以爲戮，信義俱棄。吾知爾禍不旋踵矣！”"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p35",
+          "originalRevision": 1,
+          "originalSha256": "de977251e02516533d634d84fd40aa8689a02547b4b4dd5ad50f49df8f23a354",
+          "excerpt": "莊宗召衍入洛，賜衍詔曰：「固當列土而封，必不薄人于險，三辰在上，一言不欺！」衍捧詔忻然就道，率其宗族及偽宰相王鍇張格庾傳素許寂、翰林學士李旻等，及諸將佐家族數千人以東。同光四年四月，行至秦川驛，莊宗用伶人景進計，遣宦者向延嗣誅其族。衍母徐氏臨刑呼曰：「吾兒以一國迎降，反以為戮，信義俱棄，吾知其禍不旋踵矣！」衍妾劉氏，鬒髮如雲而有色，行刑者將免之，劉氏曰：「家國喪亡，義不受辱！」遂就死。"
+        }
+      ],
+      "notes": [
+        "《新五代史》记秦川之祸在同光四年四月。",
+        "同文转引不计独立复证。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-xianfei",
+      "title": "为贤妃，与妹干预外政",
+      "summary": "本传记徐氏为贤妃，与妹淑妃受宠，交结宦官干预外政。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 1,
+      "sourceDate": "高祖时，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "太后事高祖爲賢妃，與妹淑妃皆以色進，專房用事，交結宦官唐文扆等，干與外政。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p25",
+          "originalRevision": 1,
+          "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
+          "excerpt": "光天元年六月，建卒，年七十二。建晚年多內寵，賢妃徐氏與妹淑妃，皆以色進，專房用事，交結宦者唐文扆等干與外政。建年老昏耄，文扆判六軍，事無大小，皆決文扆。及建疾，以兵入宿衞，謀盡去建故將。故將聞建疾，皆不得入見，久之，宗弼等排闥入，言文扆欲為變，乃殺之。建因以老將大臣多許昌故人，必不為太子用，思擇人未得而疾亟，乃以宦者宋光嗣為樞密使判六軍而建卒。太子立，去「宗」名衍。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-zhangge-support",
+      "title": "在内支持张格",
+      "summary": "《通鉴》记王建厌恶张格，徐贤妃在内支持张格，故未能去之；本段未将后来宗杰暴卒归为徐氏所为。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 3,
+      "sourceDate": "太子宗衍时，王建欲去张格而徐贤妃内为之主；尝属回叙，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p28",
+          "originalRevision": 1,
+          "originalSha256": "36ff660adf428f92951f013f519915a73d5c430d83701998dc59a3b2d2f35e3a",
+          "excerpt": "蜀太子衍好酒色，樂遊戲。蜀主嘗自夾城過，聞太子與諸王鬥雞擊球喧呼之聲，歎曰：「吾百戰以立基業，此輩其能守之乎！」由是惡張格，而徐賢妃為之內主，竟不能去也。信王宗傑有才略，屢陳時政，蜀主賢之，有廢立意。二月，癸亥，宗傑暴卒，蜀主深疑之。"
+        }
+      ],
+      "notes": [
+        "去之不扩大解释为已经实施的杀人或救死。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-offices-tours",
+      "title": "与太妃出教令卖官、游宴",
+      "summary": "本传记太后、太妃各出教令卖官，并与后主游宴。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 918,
+        "end": 925
+      },
+      "sortOrder": 5,
+      "sourceDate": "后主嗣位后至降唐前；918—925仅作本段所叙政事、游宴的外范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "excerpt": "太后、太妃各出教令賣官，自刺史以下，每一官闕，必數人並争，而入錢多者得之。又日挾後主遊宴貴臣之家，或周覽近郡名勝，如丈人觀、金華宫、三學山諸地，飲酒賦詩，所費不貲。常遊青城山，宫人衣服皆畫雲霞飄然，望之若仙。後主自作甘州曲以述其狀，卒用是敗。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p27",
+          "originalRevision": 1,
+          "originalSha256": "ae33422ef8725820365ae8d0db35a93a08c937e774a1a018261e106d392c1b4e",
+          "excerpt": "建卒，衍立，謚建曰神武聖文孝德明惠皇帝，廟號高祖，陵曰永陵。建正室周氏號昭聖皇后，後建數日而卒，衍因尊其母徐氏為皇太后，后妹淑妃為皇太妃。太后、太妃以教令賣官，自刺史以下，每一官闕，必數人並爭，而入錢多者得之；通都大邑起邸店，以奪民利。"
+        },
+        {
+          "chapterId": "old-v136",
+          "paragraphId": "old-v136-p7",
+          "originalRevision": 1,
+          "originalSha256": "f8ac936b56829be485697ff67ebcf1de7d948ae2fde692c58afbc9184d8eb962",
+          "excerpt": "衍，建之幼子也。建卒，衍襲偽位，改元乾德。六年十二月，改明年為咸康。秋九月，衍奉其母、徐妃同遊於青城山，駐於上清宮。時宮人皆衣道服，頂金蓮花冠，衣畫雲霞，望之若神仙，及侍宴，酒酣，皆免冠而退，則其髻髽然。又構怡神亭，以佞臣韓昭等為狎客，雜以婦人，以恣荒宴，或自旦至暮，繼之以燭。偽嘉王宗壽侍宴，因以社稷國政為言，言發涕流，至於再三。同宴佞臣潘在迎等並奏衍云：「嘉王好酒悲。」因翻恣諧謔，取笑而罷。自是忠正之臣結舌矣。"
+        }
+      ],
+      "notes": [
+        "卒用是败属于本传史家论因。",
+        "918—925是所叙时期外界，不表示每年持续发生，也不为每一次游宴或教令补确年日。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng-xu-mother-admits-wei",
+      "title": "纳徐耕孙女入后主宫中",
+      "summary": "王衍到徐家见徐耕孙女而悦之，太后因将她纳入宫中；本传称之为韦氏。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 919,
+        "end": 921
+      },
+      "sortOrder": 6,
+      "sourceDate": "卷38高后传记乾德初韦妃入宫；《通鉴》921年遣高后之前的追叙，919—921仅作入宫外框",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p9",
+          "originalRevision": 1,
+          "originalSha256": "4ca77b12db5e07dbb07b81ed4de5d0fc7c80917ccfcd0ebcdfc19dac1e72e5ec",
+          "excerpt": "後主適徐氏，見而悦之，太后因納之宫中。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "excerpt": "乾德初，韋妃入宫，后尤被疎薄，不見答於後主，遂坐是廢，遣還家。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "初，蜀主之為太子，高祖為聘兵部尚書高知言女為妃，無寵，及韋妃入宮，尤見疏薄，至是遣還家，知言驚僕，不食而卒。韋妃者，徐耕之孫也，有姝色，蜀主適徐氏，見而悅之，太后因納於後宮，蜀主不欲娶於母族，托雲韋昭度之孫。初為婕妤，累加元妃。蜀主常列錦步障，擊球其中，往往遠適而外人不知，爇諸香，晝夜不絕。久而厭之，更爇皁莢以亂其氣。結繒為山，及宮殿樓觀於其上，或為風雨所敗，則更以新者易之。或樂飲繒山，涉旬不下。山前穿渠通禁中，或乘船夜歸，令宮女秉蠟炬千餘居前船，卻立照之，水面如晝。或酣餘禁中，鼓吹沸騰，以至達旦。以是為常。"
+        }
+      ],
+      "notes": [
+        "乾德初韦妃入宫出自高后传，不是金后入掖庭的纪年。",
+        "919—921仅限太后纳女、韦妃入宫，不将历次晋封元妃同定此范围内某月日。",
+        "女孙意为孙女，未补父名。"
+      ]
+    }
+  ]
+}

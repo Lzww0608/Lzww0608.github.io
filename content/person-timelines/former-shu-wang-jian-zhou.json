@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-jian-zhou",
+  "events": [
+    {
+      "id": "former-shu-wang-jian-zhou-zhou-death",
+      "title": "高祖晏驾后哀毁而卒",
+      "summary": "《新五代史》记昭圣皇后周氏晚王建数日去世；王建六月卒，数日后的卒事仍在918年。《十国春秋》另记后数月。",
+      "year": 918,
+      "precision": "year",
+      "sortOrder": 3,
+      "sourceDate": "《新史》后建数日；王建光天元年六月卒，周后未独记日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p27",
+          "originalRevision": 1,
+          "originalSha256": "ae33422ef8725820365ae8d0db35a93a08c937e774a1a018261e106d392c1b4e",
+          "excerpt": "建正室周氏號昭聖皇后，後建數日而卒"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p25",
+          "originalRevision": 1,
+          "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
+          "excerpt": "光天元年六月，建卒，年七十二。"
+        }
+      ],
+      "notes": [
+        "主年918只据新史王建六月卒及周后晚数日说，未补周后确日。",
+        "本传天光、数月作为独立叙法保存，未静校或同定主年。"
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》数月说及原记天光",
+          "sourceDate": "天光元年，高祖晏驾后数月",
+          "summary": "本传称天光元年高祖晏驾，周后哀毁，后数月殂；该说本身不由新史数日说转成918年。",
+          "notes": [
+            "天光原字保留，未作为光天或其他年号的历库回退结果。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v038",
+              "paragraphId": "shiguochunqiu-v038-p2",
+              "originalRevision": 1,
+              "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+              "excerpt": "天光元年，高祖晏駕，后哀毁骨立，後數月而殂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-zhou-zhou-investiture",
+      "title": "册立为皇后",
+      "summary": "本传记武成元年册周氏为皇后。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 908,
+        "end": 909
+      },
+      "sortOrder": 1,
+      "sourceDate": "武成元年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p2",
+          "originalRevision": 1,
+          "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+          "excerpt": "武成元年，高祖卽帝位，册立爲皇后。"
+        }
+      ],
+      "notes": [
+        "本传系册后于武成元年，原句并称高祖即帝位。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-zhou-zhou-zhaosheng",
+      "title": "加号昭圣",
+      "summary": "永平初加尊号昭圣。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 911,
+        "end": 916
+      },
+      "sortOrder": 2,
+      "sourceDate": "永平初；911—916为永平年号的保守西历外界",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p2",
+          "originalRevision": 1,
+          "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+          "excerpt": "永平初，加尊號曰昭聖。"
+        }
+      ],
+      "notes": [
+        "原文仍为永平初，911—916仅取全号外界，不谓初年延续六年，也不确定为元年。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-zhou-zhou-burial",
+      "title": "合葬永陵，谥顺德",
+      "summary": "周后与王建合葬永陵，谥顺德，升祔太庙。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 4,
+      "sourceDate": "卒后，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p2",
+          "originalRevision": 1,
+          "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+          "excerpt": "合葬永陵，諡曰順德，升祔太廟。"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

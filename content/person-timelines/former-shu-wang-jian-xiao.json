@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-jian-xiao",
+  "events": [
+    {
+      "id": "former-shu-wang-jian-xiao-xiao-given-chengyan",
+      "title": "被赐给王丞弇",
+      "summary": "凤翔将李彦来降后改姓名为王丞弇，萧氏被赐给他。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 1,
+      "sourceDate": "李彦来降、改名王丞弇时，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p6",
+          "originalRevision": 1,
+          "originalSha256": "bbde5e57106243310c66536b39e19340e0b0fa3dbeda347e8beb7077d1b6ffcb",
+          "excerpt": "鳳翔將李彦來降，署指揮使，更姓名曰王丞弇，以蕭氏賜之。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "former-shu-wang-jian-xiao-xiao-widowed",
+      "title": "王丞弇死后寡居",
+      "summary": "王丞弇死后，萧氏寡居；本传称无子。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 2,
+      "sourceDate": "赐王丞弇后，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p6",
+          "originalRevision": 1,
+          "originalSha256": "bbde5e57106243310c66536b39e19340e0b0fa3dbeda347e8beb7077d1b6ffcb",
+          "excerpt": "無何，丞弇死，蕭氏寡而無子。"
+        }
+      ],
+      "notes": [
+        "无子不扩大为没有女儿。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-jian-xiao-xiao-li-jiyan-refusal",
+      "title": "李继曮拒受萧氏并令送归",
+      "summary": "陈昭符求萧氏拟献李继曮；继曮知其曾为王丞弇之偶，以于义不可制止，令送归。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 3,
+      "sourceDate": "本传以李继曮随魏王入成都为背景，拟献、拒受与送归未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p6",
+          "originalRevision": 1,
+          "originalSha256": "bbde5e57106243310c66536b39e19340e0b0fa3dbeda347e8beb7077d1b6ffcb",
+          "excerpt": "唐轉運接應使李繼曮，故岐王子，隨魏王入成都。陳昭符者密求蕭氏以獻，抱衾之夕，繼曮隔屏窺之，驚爲妍妙，詰其由來，則已爲王丞弇所偶，亟止之曰：“丞弇背恩投蜀，誠不可容；然向者吾從子行，於義不可。”遂令送之歸。"
+        }
+      ],
+      "notes": [
+        "拟献、隔屏见、得知前配、制止送归分别保留，不作已成婚或同寝。",
+        "不将男方随军或官职日期直接移作女方被献、送归的确日。"
+      ]
+    }
+  ]
+}

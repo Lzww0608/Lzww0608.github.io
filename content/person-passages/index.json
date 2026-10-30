@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 15,
-    "chapterCount": 255,
-    "paragraphCount": 9790
+    "chapterCount": 256,
+    "paragraphCount": 9824
   },
   "people": [
     {
@@ -1814,6 +1814,30 @@
     {
       "id": "wu-yang-xingmi-daughter-liu-rengui-wife",
       "name": "吴武王女（刘仁规妻）"
+    },
+    {
+      "id": "former-shu-wang-jian-zhou",
+      "name": "周氏（前蜀顺德皇后）"
+    },
+    {
+      "id": "former-shu-wang-jian-xu-shunsheng",
+      "name": "徐氏（前蜀顺圣皇太后）"
+    },
+    {
+      "id": "former-shu-wang-jian-xu-yisheng",
+      "name": "徐氏（前蜀翊圣皇太妃）"
+    },
+    {
+      "id": "former-shu-wang-jian-zhang",
+      "name": "张氏（前蜀王建贵妃）"
+    },
+    {
+      "id": "former-shu-wang-jian-xiao",
+      "name": "萧氏（前蜀王建夫人）"
+    },
+    {
+      "id": "former-shu-puci-princess",
+      "name": "普慈公主（王建女）"
     }
   ],
   "passages": [
@@ -54998,6 +55022,14 @@
         {
           "personId": "wang-jian-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "record"
         }
       ]
     },
@@ -55018,6 +55050,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
         }
       ]
     },
@@ -55038,6 +55074,18 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-zhou",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "record"
         }
       ]
     },
@@ -55222,6 +55270,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
         }
       ]
     },
@@ -110478,6 +110530,14 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "record"
         }
       ]
     },
@@ -123038,6 +123098,666 @@
       ]
     },
     {
+      "id": "passage-shiguochunqiu-v038-p2",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p2",
+          "originalRevision": 1,
+          "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-zhou",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p3",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p3",
+          "originalRevision": 1,
+          "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
+          "start": 0,
+          "end": 531
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yan-youzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p4",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p4",
+          "originalRevision": 1,
+          "originalSha256": "c7dac9ebb8ec25b33ae8d72791e0337046d6331b3e44b2a5641c19455abf6ac7",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p5",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p5",
+          "originalRevision": 1,
+          "originalSha256": "173856850fa4da9ff163da6ec507be5636ec7d81da884986b49aad72e68ebf4a",
+          "start": 0,
+          "end": 64
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        },
+        {
+          "personId": "former-shu-wang-jian-zhang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p6",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p6",
+          "originalRevision": 1,
+          "originalSha256": "bbde5e57106243310c66536b39e19340e0b0fa3dbeda347e8beb7077d1b6ffcb",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jiji",
+          "kind": "mention"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xiao",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p7",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "start": 0,
+          "end": 91
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p8",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p9",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p9",
+          "originalRevision": 1,
+          "originalSha256": "4ca77b12db5e07dbb07b81ed4de5d0fc7c80917ccfcd0ebcdfc19dac1e72e5ec",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p10",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p11",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p11",
+          "originalRevision": 1,
+          "originalSha256": "8ab585a7d107ca84aacf1750db3b37e605463a1e1b97382ed00fd50ac94ea5c2",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p12",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ba619be512bfca13f21a4a4cdd422ffd8ad96344f02228894b8b6dd3a5a1a74",
+          "start": 0,
+          "end": 177
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p13",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p13",
+          "originalRevision": 1,
+          "originalSha256": "cce39f175d782377dc84232faad7a0f1940e36f92642c961b38d6ffe63fa8ba7",
+          "start": 0,
+          "end": 51
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p15",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p15",
+          "originalRevision": 1,
+          "originalSha256": "46cb9837bdf7a0e3643d0d1d70450c583a75566cb75ba53239089634961b9152",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p16",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p16",
+          "originalRevision": 1,
+          "originalSha256": "ad7c7e5801688580610975449a82d7f6ae348882cfe30041287f589d9628e9f6",
+          "start": 0,
+          "end": 914
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-zhang",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p17",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p17",
+          "originalRevision": 1,
+          "originalSha256": "664cab9d14e0a87b0c21899719e32b287dda8865f7ef7b3b87adcd0a4508e1ca",
+          "start": 0,
+          "end": 81
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p18",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p18",
+          "originalRevision": 1,
+          "originalSha256": "54ec16818249967b15f87d7f7af46485aae4d96ca1358193d7477f4b3331f335",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p19",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p19",
+          "originalRevision": 1,
+          "originalSha256": "7b1ff982a1f7e172460498922b9df6f6e88b3b0b27dd27b8a6f696580920bba4",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p20",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p20",
+          "originalRevision": 1,
+          "originalSha256": "2e32382139848e31f8f8d78310c11dd728f999e3824f6f26ba728fcf3279e3dc",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p21",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p21",
+          "originalRevision": 1,
+          "originalSha256": "69dd4a201033e5127f212ab20dce10aeb782af7e1135c97a377ab50cd1e7f253",
+          "start": 0,
+          "end": 152
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p22",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p22",
+          "originalRevision": 1,
+          "originalSha256": "62f2b0e6b702c9fc6046b396fb410d41ec922943105ad9825a660f88d2c46b76",
+          "start": 0,
+          "end": 116
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p23",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p23",
+          "originalRevision": 1,
+          "originalSha256": "c9b819871e85daaa3f70d35796a9a7dfa2ba0054787178d4e2e47e26958af223",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p24",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p24",
+          "originalRevision": 1,
+          "originalSha256": "8690e84f29f1d66cb89452be7fcfd823cee6bd2e4cf1227f696f1620013dd65d",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p26",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 26 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p26",
+          "originalRevision": 1,
+          "originalSha256": "b9f50eed893cd728c29f256bea373f485079837c9e4eb2d7ae68ffdc7b4d5837",
+          "start": 0,
+          "end": 176
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p27",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 27 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p27",
+          "originalRevision": 1,
+          "originalSha256": "f8157efed9f97a63582f99f84fae19e6712a24955133f5977609b3355d481b38",
+          "start": 0,
+          "end": 451
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p29",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 29 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p29",
+          "originalRevision": 1,
+          "originalSha256": "4f12c5f512f7b5e716ae569f0ad5585d303d1095bc621ca28f7115056ebde9c9",
+          "start": 0,
+          "end": 199
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p31",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 31 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p31",
+          "originalRevision": 1,
+          "originalSha256": "139945b9351a4bc3b13785a4c78e76a6b746ca091e2814df005211da800638f8",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p32",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 32 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p32",
+          "originalRevision": 1,
+          "originalSha256": "1e26a63e955ae9a2936fe88a27999048bbf28a9a8b20c0e2e458bfd57bbbac03",
+          "start": 0,
+          "end": 21
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v038-p34",
+      "chapterId": "shiguochunqiu-v038",
+      "title": "卷 38 · 前蜀后妃宗室列传 · 第 34 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v038-p34",
+          "originalRevision": 1,
+          "originalSha256": "a75825b48973fdfc44283167246211639416dea87397857c763baac51c4daa37",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-puci-princess",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
       "id": "passage-shiguochunqiu-v077-p2",
       "chapterId": "shiguochunqiu-v077",
       "title": "卷 77 · 吴越武肃王世家上（钱镠） · 第 2 段",
@@ -127806,6 +128526,10 @@
         {
           "personId": "wang-jian-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-puci-princess",
+          "kind": "record"
         }
       ]
     },
@@ -130325,6 +131049,10 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
           "kind": "record"
         }
       ]
@@ -132878,6 +133606,10 @@
         {
           "personId": "wang-jian-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
         }
       ]
     },
@@ -133025,6 +133757,14 @@
       "people": [
         {
           "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-yisheng",
           "kind": "record"
         }
       ]
@@ -134237,6 +134977,26 @@
       "people": [
         {
           "personId": "wang-shenzhi",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v271-p40",
+      "chapterId": "tongjian-v271",
+      "title": "卷 271 · 后梁纪6 · 第 40 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "start": 0,
+          "end": 257
+        }
+      ],
+      "people": [
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
           "kind": "record"
         }
       ]

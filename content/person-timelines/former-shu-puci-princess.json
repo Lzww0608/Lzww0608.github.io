@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-puci-princess",
+  "events": [
+    {
+      "id": "former-shu-puci-princess-puci-retained",
+      "title": "回成都后被留",
+      "summary": "王建诈言后殂召公主哭临；永平元年公主至成都后被留，岐蜀交恶。",
+      "year": 911,
+      "precision": "day",
+      "sortOrder": 3,
+      "sourceDate": "《通鉴》乾化元年年题下正月辛亥到成都；《十国春秋》另记永平元年",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p131",
+          "originalRevision": 1,
+          "originalSha256": "3e4daa76782a14a632579317f310c84ee2013dbb8e9cf890f7029533f400fcb4",
+          "excerpt": "蜀主之女普慈公主嫁岐王從子秦州節度使繼崇，公主遣宦者宋光嗣以絹書遣蜀主，言繼崇驕矜嗜酒，求歸成都，蜀主召公主歸寧。辛亥，公主至成都，蜀主留之，以宋光嗣為閣門南院使。岐王怒，始與蜀絕。光嗣，福州人也。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p34",
+          "originalRevision": 1,
+          "originalSha256": "a75825b48973fdfc44283167246211639416dea87397857c763baac51c4daa37",
+          "excerpt": "高祖乃詐言后殂，馳使召公主哭臨。永平元年，公主至成都，留之不遣。岐王怒，遂與高祖交惡。青泥嶺之戰，實公主有以啓之。"
+        }
+      ],
+      "notes": [
+        "诈称后殂不作周后真实卒日，也不证明公主生母。",
+        "青泥战因是本传论因，非公主领军事实。",
+        "辛亥仅锚公主抵达成都；此前婚聘、帛书、诈召及岐蜀交恶不都定为到达日。"
+      ]
+    },
+    {
+      "id": "former-shu-puci-princess-puci-marriage",
+      "title": "嫁岐王从子李继崇",
+      "summary": "岐王为从子继崇求婚，王建以普慈公主妻之。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 901,
+        "end": 908
+      },
+      "sortOrder": 1,
+      "sourceDate": "天复时；前蜀延用天复，901—908为保守公元年外框，非确定婚于908",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p34",
+          "originalRevision": 1,
+          "originalSha256": "a75825b48973fdfc44283167246211639416dea87397857c763baac51c4daa37",
+          "excerpt": "天復時，岐王遣判官趙鍠來聘，爲其從子繼崇求昏，高祖遂以公主妻焉。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p131",
+          "originalRevision": 1,
+          "originalSha256": "3e4daa76782a14a632579317f310c84ee2013dbb8e9cf890f7029533f400fcb4",
+          "excerpt": "蜀主之女普慈公主嫁岐王從子秦州節度使繼崇，公主遣宦者宋光嗣以絹書遣蜀主，言繼崇驕矜嗜酒，求歸成都，蜀主召公主歸寧。辛亥，公主至成都，蜀主留之，以宋光嗣為閣門南院使。岐王怒，始與蜀絕。光嗣，福州人也。"
+        }
+      ],
+      "notes": [
+        "本传仅记天复时，未独载婚配月日。"
+      ]
+    },
+    {
+      "id": "former-shu-puci-princess-puci-letter",
+      "title": "遣宋光嗣持帛书求归",
+      "summary": "继崇对公主多无礼，公主遣宋光嗣持帛书向王建求还。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 901,
+        "end": 911
+      },
+      "sortOrder": 2,
+      "sourceDate": "已婚之后、到成都之前；原只记久之，901—911是两项本人经历的保守外范围",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p34",
+          "originalRevision": 1,
+          "originalSha256": "a75825b48973fdfc44283167246211639416dea87397857c763baac51c4daa37",
+          "excerpt": "普慈公主，高祖女也。幼而敏慧，高祖絶憐愛之。天復時，岐王遣判官趙鍠來聘，爲其從子繼崇求昏，高祖遂以公主妻焉。導從鮮麗，相望千里。久之，繼崇驕矜嗜酒，多無禮於公主，公主遣宋光嗣以帛書上高祖求還。高祖乃詐言后殂，馳使召公主哭臨。永平元年，公主至成都，留之不遣。岐王怒，遂與高祖交惡。青泥嶺之戰，實公主有以啓之。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p131",
+          "originalRevision": 1,
+          "originalSha256": "3e4daa76782a14a632579317f310c84ee2013dbb8e9cf890f7029533f400fcb4",
+          "excerpt": "蜀主之女普慈公主嫁岐王從子秦州節度使繼崇，公主遣宦者宋光嗣以絹書遣蜀主，言繼崇驕矜嗜酒，求歸成都，蜀主召公主歸寧。辛亥，公主至成都，蜀主留之，以宋光嗣為閣門南院使。岐王怒，始與蜀絕。光嗣，福州人也。"
+        }
+      ],
+      "notes": [
+        "外范围只据天复时婚配及911年抵达之间的先后，不补帛书发出或召归的具体年月日。"
+      ]
+    }
+  ]
+}
