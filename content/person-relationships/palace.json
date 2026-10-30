@@ -13076,5 +13076,99 @@
         "excerpt": "廢后高氏，兵部尚書高知言女也。後主爲太子時，高祖册立高氏爲皇太子妃，久而無寵。"
       }
     ]
+  },
+  {
+    "id": "former-shu-wang-chengxiu-former-shu-wang-chengxiu-yan-kinship-palace",
+    "from": "former-shu-wang-chengxiu",
+    "to": "former-shu-wang-chengxiu-yan",
+    "kind": "kinship",
+    "label": "夫妻（史载）",
+    "note": "两书明确称承休妻严氏；保留王承休被记作宦者的来源称谓，不据此否定原书夫妻身份。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p34",
+        "originalRevision": 1,
+        "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+        "excerpt": "承休以宦者得幸，為宣徽使，承休妻嚴氏，有絕色，衍通之。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 273 · 后唐纪2",
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p110",
+        "originalRevision": 1,
+        "originalSha256": "175556dc3f169fee51206fcae73a24eaef7be18b49b5ac48e1dd0f65d771a586",
+        "excerpt": "王承休妻嚴氏美，蜀主私焉，故銳意欲行。"
+      }
+    ]
+  },
+  {
+    "id": "wang-yan-former-shu-former-shu-wang-chengxiu-yan-service-palace",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-wang-chengxiu-yan",
+    "kind": "service",
+    "label": "史载有私（非婚配）",
+    "note": "两书记王衍与王承休妻严氏有私；没有后妃册封、婚配或随驾记载。这里是史载交往，不是任官。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p34",
+        "originalRevision": 1,
+        "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+        "excerpt": "承休以宦者得幸，為宣徽使，承休妻嚴氏，有絕色，衍通之。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 273 · 后唐纪2",
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p110",
+        "originalRevision": 1,
+        "originalSha256": "175556dc3f169fee51206fcae73a24eaef7be18b49b5ac48e1dd0f65d771a586",
+        "excerpt": "王承休妻嚴氏美，蜀主私焉，故銳意欲行。"
+      },
+      {
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p34",
+        "originalRevision": 1,
+        "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+        "excerpt": "以王承休妻嚴氏故，十月，幸秦州，羣臣切諫，衍不聽。"
+      }
+    ]
+  },
+  {
+    "id": "wang-yan-former-shu-former-shu-wang-chengxiu-service-palace",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-wang-chengxiu",
+    "kind": "service",
+    "label": "军职与节镇任用",
+    "note": "龙武军军职及天雄节度使分别有源；天雄军在秦州。此为王承休本人任官，不作为严氏的身份、封授或定年。",
+    "sources": [
+      {
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p34",
+        "originalRevision": 1,
+        "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+        "excerpt": "六年，以王承休為天雄節度使。天雄軍，秦州也。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 273 · 后唐纪2",
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p62",
+        "originalRevision": 1,
+        "originalSha256": "e93f15ba8606ed958e8afc2b009512e36991cde86a572552feab360fed935f23",
+        "excerpt": "蜀宣徽北院使王承休請擇諸軍驍勇者萬二千人，置駕下左、右龍武步騎四十軍，兵械給賜皆優異於它軍，以承休為龍武軍馬步都指揮使，以裨將安重霸副之，舊將無不憤恥。"
+      },
+      {
+        "title": "《资治通鉴》 · 卷 273 · 后唐纪2",
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p75",
+        "originalRevision": 1,
+        "originalSha256": "15ef8afbcaf709a0cc1667721d6683fe08c04948a1430b01ab68edd120b87409",
+        "excerpt": "蜀主許之，庚午，以承休為天雄節度使，封魯國公；以龍武軍為承休牙兵。"
+      }
+    ]
   }
 ]

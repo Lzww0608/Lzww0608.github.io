@@ -1870,6 +1870,10 @@
     {
       "id": "former-shu-wang-yan-liu",
       "name": "刘氏（王衍宫人）"
+    },
+    {
+      "id": "former-shu-wang-chengxiu-yan",
+      "name": "严氏（王承休妻）"
     }
   ],
   "passages": [
@@ -55278,6 +55282,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-chengxiu-yan",
+          "kind": "record"
         }
       ]
     },
@@ -138901,6 +138909,10 @@
       "people": [
         {
           "personId": "an-zhongba",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-chengxiu-yan",
           "kind": "record"
         }
       ]
