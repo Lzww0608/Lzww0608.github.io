@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-li-yuxiao",
+  "events": [
+    {
+      "id": "former-shu-li-yuxiao-sings-zongshou",
+      "title": "奉命歌侑嘉王宗寿",
+      "summary": "王衍命李玉箫唱自己所撰宫词，侑宗寿酒；宗寿传另记赐予之议被止。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "宣华苑宴中歌侑；宗寿传作九日，未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ba619be512bfca13f21a4a4cdd422ffd8ad96344f02228894b8b6dd3a5a1a74",
+          "excerpt": "同時宫人李玉簫者，寵幸亞於舜弦。後主常宴近臣於宣華苑，命玉簫歌己所撰月華如水宫詞，侑嘉王宗壽酒，聲音委婉，抑揚合度，一座無不傾倒。宗壽懼禍，亦爲之盡觴。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p27",
+          "originalRevision": 1,
+          "originalSha256": "f8157efed9f97a63582f99f84fae19e6712a24955133f5977609b3355d481b38",
+          "excerpt": "後主不能省，復命宫人李氏歌己所撰新詞侑宗壽酒，宗壽一飲而盡，蓋懼禍也。在迎請卽以宫人賜宗壽，後主曰：“王必不納，無多溷耳。”遂止。"
+        }
+      ],
+      "notes": [
+        "918—925仅是后主在位期的外框，未独记发生年，不表示逐年持续。",
+        "宗寿传只称宫人李氏；宫苑、歌后主新词、侑同一宗寿及惧祸尽觞等组合支持本卷局部对应，不套其他李氏。",
+        "九日只保原书叙法，未给唯一年份或把常宴全定同一天。",
+        "词为后主所撰；赐予提议最终遂止，不作婚配或成功赐婚。"
+      ],
+      "yearRange": {
+        "start": 918,
+        "end": 925
+      }
+    }
+  ]
+}

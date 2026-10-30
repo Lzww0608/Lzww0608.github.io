@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-yan-wei",
+  "events": [
+    {
+      "id": "former-shu-wang-yan-wei-entered-palace",
+      "title": "由太后纳入宫中",
+      "summary": "王衍至徐家见她而悦，太后将她纳入宫中。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "本传高后条记乾德初入宫；在921遣高氏之前",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p9",
+          "originalRevision": 1,
+          "originalSha256": "4ca77b12db5e07dbb07b81ed4de5d0fc7c80917ccfcd0ebcdfc19dac1e72e5ec",
+          "excerpt": "後主適徐氏，見而悦之，太后因納之宫中。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "excerpt": "乾德初，韋妃入宫，后尤被疎薄，不見答於後主，遂坐是廢，遣還家。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "韋妃者，徐耕之孫也，有姝色，蜀主適徐氏，見而悅之，太后因納於後宮，蜀主不欲娶於母族，托雲韋昭度之孫。初為婕妤，累加元妃。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "初，蜀主之為太子，高祖為聘兵部尚書高知言女為妃，無寵，及韋妃入宮，尤見疏薄，至是遣還家，知言驚僕，不食而卒。"
+        }
+      ],
+      "notes": [
+        "只限定入宫，不把后来的历次加封都归到这段时间。",
+        "女孙为孙女，韦昭度祖系是托称。"
+      ],
+      "yearRange": {
+        "start": 919,
+        "end": 921
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-wei-jieyu",
+      "title": "初为婕妤",
+      "summary": "本传记韦氏入宫后初为婕妤。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 2,
+      "sourceDate": "初为婕妤，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p9",
+          "originalRevision": 1,
+          "originalSha256": "4ca77b12db5e07dbb07b81ed4de5d0fc7c80917ccfcd0ebcdfc19dac1e72e5ec",
+          "excerpt": "初爲媫妤，累封至元妃。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "former-shu-wang-yan-wei-yuanfei",
+      "title": "累封至元妃",
+      "summary": "韦氏后来逐次加封至元妃。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 3,
+      "sourceDate": "累封／累加至元妃，未独载年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p9",
+          "originalRevision": 1,
+          "originalSha256": "4ca77b12db5e07dbb07b81ed4de5d0fc7c80917ccfcd0ebcdfc19dac1e72e5ec",
+          "excerpt": "初爲媫妤，累封至元妃。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "韋妃者，徐耕之孫也，有姝色，蜀主適徐氏，見而悅之，太后因納於後宮，蜀主不欲娶於母族，托雲韋昭度之孫。初為婕妤，累加元妃。"
+        }
+      ],
+      "notes": [
+        "不把累加当作初次入宫即封元妃。"
+      ]
+    }
+  ]
+}

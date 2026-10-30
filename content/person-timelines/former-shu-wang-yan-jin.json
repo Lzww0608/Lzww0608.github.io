@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-yan-jin",
+  "events": [
+    {
+      "id": "former-shu-wang-yan-jin-surrender",
+      "title": "随王衍降唐",
+      "summary": "本传将金氏随王衍降唐系于咸康元年。",
+      "year": 925,
+      "precision": "year",
+      "sortOrder": 5,
+      "sourceDate": "咸康元年随降；这里只限定降唐之年",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "咸康元年，隨後主降唐，死之。"
+        }
+      ],
+      "notes": [
+        "925只用于随降，未将原句死之一并定年；降唐年界沿已核王衍亡蜀记事。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-yan-jin-selected",
+      "title": "乾德初被选入宫",
+      "summary": "金氏本传记乾德初选入掖庭，随后叙高后废及其册后。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "乾德初，选入在高后废以前；919—921为保守外框",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "乾德初，選入掖庭。及高后廢，册立爲皇后。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "初，蜀主之為太子，高祖為聘兵部尚書高知言女為妃，無寵，及韋妃入宮，尤見疏薄，至是遣還家，知言驚僕，不食而卒。"
+        }
+      ],
+      "notes": [
+        "范围由金氏本传自己的先后次序接高后921年被遣，不从韦妃范围机械复制。",
+        "初保留原语，未推元年某月；十六岁不倒算生年。"
+      ],
+      "yearRange": {
+        "start": 919,
+        "end": 921
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-jin-empress",
+      "title": "高后废后获册皇后",
+      "summary": "本传记高后被废后，金氏被册立为皇后。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 2,
+      "sourceDate": "高后废后、亡蜀前，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "乾德初，選入掖庭。及高后廢，册立爲皇后。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "初，蜀主之為太子，高祖為聘兵部尚書高知言女為妃，無寵，及韋妃入宮，尤見疏薄，至是遣還家，知言驚僕，不食而卒。"
+        }
+      ],
+      "notes": [
+        "921—925仅据高后被遣之后、亡蜀之前的相对先后外界，不将册后、废后和复位同定921年。"
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-jin-deposed",
+      "title": "不久被废",
+      "summary": "金氏册后之后，本传又记她寻亦坐废。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 3,
+      "sourceDate": "册后之后，寻亦坐废，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "尋亦坐廢。"
+        }
+      ],
+      "notes": [
+        "921—925仅据高后被遣之后、亡蜀之前的相对先后外界，不将册后、废后和复位同定921年。"
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-jin-restored",
+      "title": "因钱氏力辩复位",
+      "summary": "贵妃钱氏极力替她辩护，金氏复居中宫，并深为感激。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 4,
+      "sourceDate": "被废之后、随降之前，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "貴妃錢氏爲力辨，復正位中宫。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "excerpt": "皇后金氏以復位故，深德之。"
+        }
+      ],
+      "notes": [
+        "921—925仅据高后被遣之后、亡蜀之前的相对先后外界，不将册后、废后和复位同定921年。",
+        "金氏与钱氏两传是同一记事的不同参与者，不作独立复证。"
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-jin-death",
+      "title": "本传记随降而死",
+      "summary": "本传在随王衍降唐后接记死之，未独载卒地、月日。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 6,
+      "sourceDate": "咸康元年随降叙后，死之未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "咸康元年，隨後主降唐，死之。"
+        }
+      ],
+      "notes": [
+        "保留原书复合叙法，不从该句定925年卒，也不以其他未具名族诛条补定926年卒。"
+      ]
+    }
+  ]
+}

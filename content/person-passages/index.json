@@ -1838,6 +1838,38 @@
     {
       "id": "former-shu-puci-princess",
       "name": "普慈公主（王建女）"
+    },
+    {
+      "id": "former-shu-wang-yan-gao",
+      "name": "高氏（王衍废后）"
+    },
+    {
+      "id": "former-shu-wang-yan-jin",
+      "name": "金飞山（王衍皇后）"
+    },
+    {
+      "id": "former-shu-wang-yan-wei",
+      "name": "韦氏（王衍元妃）"
+    },
+    {
+      "id": "former-shu-wang-yan-qian",
+      "name": "钱氏（王衍贵妃）"
+    },
+    {
+      "id": "former-shu-wang-yan-su",
+      "name": "苏氏（王衍顺妃）"
+    },
+    {
+      "id": "former-shu-li-shunxian",
+      "name": "李舜弦（王衍昭仪）"
+    },
+    {
+      "id": "former-shu-li-yuxiao",
+      "name": "李玉箫（王衍宫人）"
+    },
+    {
+      "id": "former-shu-wang-yan-liu",
+      "name": "刘氏（王衍宫人）"
     }
   ],
   "passages": [
@@ -55273,6 +55305,10 @@
         },
         {
           "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-liu",
           "kind": "record"
         }
       ]
@@ -123266,6 +123302,14 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-gao",
+          "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-yan-wei",
+          "kind": "record"
         }
       ]
     },
@@ -123285,6 +123329,18 @@
       "people": [
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-gao",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-jin",
+          "kind": "biography"
+        },
+        {
+          "personId": "former-shu-wang-yan-qian",
           "kind": "record"
         }
       ]
@@ -123310,6 +123366,10 @@
         {
           "personId": "former-shu-wang-jian-xu-shunsheng",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-wei",
+          "kind": "biography"
         }
       ]
     },
@@ -123330,6 +123390,14 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-jin",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-qian",
+          "kind": "biography"
         }
       ]
     },
@@ -123350,6 +123418,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "mention"
+        },
+        {
+          "personId": "former-shu-wang-yan-su",
+          "kind": "biography"
         }
       ]
     },
@@ -123370,6 +123442,14 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-li-shunxian",
+          "kind": "biography"
+        },
+        {
+          "personId": "former-shu-li-yuxiao",
+          "kind": "biography"
         }
       ]
     },
@@ -123390,6 +123470,10 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "mention"
+        },
+        {
+          "personId": "former-shu-wang-yan-liu",
+          "kind": "biography"
         }
       ]
     },
@@ -123669,6 +123753,10 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-li-yuxiao",
           "kind": "record"
         }
       ]
@@ -133760,6 +133848,10 @@
           "kind": "record"
         },
         {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
           "personId": "former-shu-wang-jian-xu-shunsheng",
           "kind": "record"
         },
@@ -134997,6 +135089,14 @@
       "people": [
         {
           "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-gao",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-yan-wei",
           "kind": "record"
         }
       ]

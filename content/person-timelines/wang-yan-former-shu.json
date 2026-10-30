@@ -63,11 +63,47 @@
           "originalRevision": 1,
           "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
           "excerpt": "及嗣皇帝位，尊賢妃爲順聖皇太后，淑妃爲翊聖皇太妃，耕亦累官驃騎大將軍。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p37",
+          "originalRevision": 1,
+          "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+          "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。"
         }
       ],
       "phase": "rule",
       "precision": "month",
       "sortOrder": 2
+    },
+    {
+      "id": "wang-yan-former-shu-gao-empress-investiture",
+      "title": "立高氏为皇后",
+      "summary": "本传记王衍嗣位后立高氏为皇后。",
+      "year": 918,
+      "precision": "year",
+      "sortOrder": 12,
+      "sourceDate": "后主嗣帝位后，未独载册后月日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "excerpt": "後主嗣帝位，立爲皇后。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p37",
+          "originalRevision": 1,
+          "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+          "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。"
+        }
+      ],
+      "notes": [
+        "918取后主承位之年，册后未独记日，不同定于癸卯。"
+      ]
     },
     {
       "id": "wang-yan-former-shu-qian-de",
@@ -182,6 +218,33 @@
       "phase": "fall",
       "precision": "month",
       "sortOrder": 6
+    },
+    {
+      "id": "wang-yan-former-shu-li-shunxian-zhaoyi-investiture",
+      "title": "立李舜弦为昭仪",
+      "summary": "本传明确后主立李舜弦为昭仪；本条只记册立，不兼作其全部诗篇作年。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 6,
+      "sourceDate": "后主立为昭仪，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ba619be512bfca13f21a4a4cdd422ffd8ad96344f02228894b8b6dd3a5a1a74",
+          "excerpt": "昭儀李氏，名舜弦，梓州人。酷有辭藻，後主立爲昭儀，世所稱李舜弦夫人也。"
+        }
+      ],
+      "notes": [
+        "918—925仅是后主在位期的外框，未独记发生年，不表示逐年持续。",
+        "本条在未定年阅读分组中置于在位宫政之前，不据分组位置推定它与其他未定年事件的实际先后。"
+      ],
+      "yearRange": {
+        "start": 918,
+        "end": 925
+      }
     },
     {
       "id": "wang-yan-former-shu-government",

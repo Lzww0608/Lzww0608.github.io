@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-yan-gao",
+  "events": [
+    {
+      "id": "former-shu-wang-yan-gao-empress",
+      "title": "王衍嗣位后立为皇后",
+      "summary": "本传记王衍嗣帝位后立高氏为皇后。",
+      "year": 918,
+      "precision": "year",
+      "sortOrder": 2,
+      "sourceDate": "后主嗣帝位后，未独载册后月日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "excerpt": "後主嗣帝位，立爲皇后。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p37",
+          "originalRevision": 1,
+          "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+          "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。"
+        }
+      ],
+      "notes": [
+        "918取后主承位之年，册后未独记日，不同定于癸卯。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-yan-gao-deposed-return",
+      "title": "被废遣归家中",
+      "summary": "高氏受到疏薄，后被废遣归；《通鉴》把遣归置在921年春正月。",
+      "year": 921,
+      "precision": "month",
+      "sortOrder": 3,
+      "sourceDate": "《通鉴》921年春正月编次，至是遣还家，无独记日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p40",
+          "originalRevision": 1,
+          "originalSha256": "8a1530d77a483d6254c40ae9f0e9df3f1fd477d61c5bcaae27c1c138cbdcee0f",
+          "excerpt": "初，蜀主之為太子，高祖為聘兵部尚書高知言女為妃，無寵，及韋妃入宮，尤見疏薄，至是遣還家，知言驚僕，不食而卒。"
+        }
+      ],
+      "notes": [
+        "初以下的婚聘、韦妃入宫及晋封是追叙，未一并定到正月。",
+        "惊仆、不食而卒的主语是父亲高知言，不是高氏。"
+      ],
+      "variants": [
+        {
+          "label": "本传接乾德初韦妃入宫而叙废后",
+          "sourceDate": "乾德初，韦妃入宫后",
+          "summary": "本传记韦妃入宫后，高后尤被疏薄，遂废遣归，未另给确年。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v038",
+              "paragraphId": "shiguochunqiu-v038-p7",
+              "originalRevision": 1,
+              "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+              "excerpt": "乾德初，韋妃入宫，后尤被疎薄，不見答於後主，遂坐是廢，遣還家。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-wang-yan-gao-crown-princess",
+      "title": "王建册为皇太子妃",
+      "summary": "王衍为太子时，王建册高氏为皇太子妃。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "后主为太子时；913—918仅作立储至承位的外界",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p7",
+          "originalRevision": 1,
+          "originalSha256": "2266a1265f9addd30f37b136da218826c56264c76b4721d4eeb29f8c9fe1c4fd",
+          "excerpt": "廢后高氏，兵部尚書高知言女也。後主爲太子時，高祖册立高氏爲皇太子妃，久而無寵。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p135",
+          "originalRevision": 1,
+          "originalSha256": "1d1e6375a17962135f1e433ee56cdca09ace453239cbd286f50fa88f25fb49da",
+          "excerpt": "甲午，立宗衍為太子。"
+        },
+        {
+          "chapterId": "tongjian-v270",
+          "paragraphId": "tongjian-v270-p37",
+          "originalRevision": 1,
+          "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+          "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。"
+        }
+      ],
+      "notes": [
+        "立储和承位条只限定太子阶段，不把甲午立储日或癸卯承位日充作婚聘日。"
+      ],
+      "yearRange": {
+        "start": 913,
+        "end": 918
+      }
+    }
+  ]
+}

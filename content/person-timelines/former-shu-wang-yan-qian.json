@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-yan-qian",
+  "events": [
+    {
+      "id": "former-shu-wang-yan-qian-surrender",
+      "title": "随王衍降唐",
+      "summary": "本传记钱氏从后主降唐。",
+      "year": 925,
+      "precision": "year",
+      "sortOrder": 3,
+      "sourceDate": "亡蜀降唐时；原句并叙而死",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "excerpt": "未幾，從後主降唐而死。"
+        }
+      ],
+      "notes": [
+        "925只用于随降，死亡另列未定年。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-yan-qian-guifei",
+      "title": "侍奉后主，累封贵妃",
+      "summary": "本传明确钱氏事后主，累封贵妃。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "后主时累封贵妃，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "excerpt": "貴妃錢氏，事後主，累封貴妃。"
+        }
+      ],
+      "notes": [
+        "918—925仅是后主在位期的外框，未独记发生年，不表示逐年持续。"
+      ],
+      "yearRange": {
+        "start": 918,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-qian-helps-jin",
+      "title": "力辩助金后复位",
+      "summary": "钱氏极力替金氏辩护，金后得以复位并感激她。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 2,
+      "sourceDate": "金后被废之后、随降之前，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "cec98386898d422bd3ba5e0851e3080ec71436351f43ac2bc8e04459cc05d071",
+          "excerpt": "貴妃錢氏爲力辨，復正位中宫。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "excerpt": "皇后金氏以復位故，深德之。"
+        }
+      ],
+      "notes": [
+        "921—925仅据高后被遣之后、亡蜀之前的相对先后外界，不将册后、废后和复位同定921年。"
+      ],
+      "yearRange": {
+        "start": 921,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-wang-yan-qian-death",
+      "title": "本传记从降而死",
+      "summary": "钱氏传在未几从后主降唐之后接记而死，未独载死亡日期。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 4,
+      "sourceDate": "随降叙后之而死，未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p10",
+          "originalRevision": 1,
+          "originalSha256": "548392fd492fb2afd4d8589017da68473f49467801446127df39ef887a8ffefc",
+          "excerpt": "未幾，從後主降唐而死。"
+        }
+      ],
+      "notes": [
+        "不借金氏并叙或其他未具名族诛条补定925、926的唯一卒年。"
+      ]
+    }
+  ]
+}

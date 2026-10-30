@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-li-shunxian",
+  "events": [
+    {
+      "id": "former-shu-li-shunxian-zhaoyi",
+      "title": "王衍立为昭仪",
+      "summary": "本传记李舜弦富于文采，后主立她为昭仪。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 1,
+      "sourceDate": "后主立为昭仪，未独年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ba619be512bfca13f21a4a4cdd422ffd8ad96344f02228894b8b6dd3a5a1a74",
+          "excerpt": "昭儀李氏，名舜弦，梓州人。酷有辭藻，後主立爲昭儀，世所稱李舜弦夫人也。"
+        }
+      ],
+      "notes": [
+        "918—925仅是后主在位期的外框，未独记发生年，不表示逐年持续。"
+      ],
+      "yearRange": {
+        "start": 918,
+        "end": 925
+      }
+    },
+    {
+      "id": "former-shu-li-shunxian-poems",
+      "title": "著有宫中应制等诗",
+      "summary": "本传列其所作蜀宫应制诗、随驾诗、钓鱼不得诗等。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 2,
+      "sourceDate": "本传列作品，未记各篇作年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p12",
+          "originalRevision": 1,
+          "originalSha256": "9ba619be512bfca13f21a4a4cdd422ffd8ad96344f02228894b8b6dd3a5a1a74",
+          "excerpt": "所著蜀宫應制詩、隨駕詩、釣魚不得詩諸篇，多爲文人賞鑒。"
+        }
+      ],
+      "notes": [
+        "只记录所列著作，不以文人赏鉴作为另一次受封或确定年份。"
+      ]
+    }
+  ]
+}

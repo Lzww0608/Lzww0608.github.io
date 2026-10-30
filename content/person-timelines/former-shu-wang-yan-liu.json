@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-yan-liu",
+  "events": [
+    {
+      "id": "former-shu-wang-yan-liu-qinchuan-death",
+      "title": "秦川行刑时陈言就死",
+      "summary": "刘氏拒绝行刑者拟免，陈述家国丧亡、义不受辱后就死。",
+      "year": 926,
+      "precision": "year",
+      "sortOrder": 1,
+      "sourceDate": "新史世家同光四年四月秦川事；本人未独记日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p35",
+          "originalRevision": 1,
+          "originalSha256": "de977251e02516533d634d84fd40aa8689a02547b4b4dd5ad50f49df8f23a354",
+          "excerpt": "衍妾劉氏，鬒髮如雲而有色，行刑者將免之，劉氏曰：「家國喪亡，義不受辱！」遂就死。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p35",
+          "originalRevision": 1,
+          "originalSha256": "de977251e02516533d634d84fd40aa8689a02547b4b4dd5ad50f49df8f23a354",
+          "excerpt": "同光四年四月，行至秦川驛，莊宗用伶人景進計，遣宦者向延嗣誅其族。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v038",
+          "paragraphId": "shiguochunqiu-v038-p13",
+          "originalRevision": 1,
+          "originalSha256": "cce39f175d782377dc84232faad7a0f1940e36f92642c961b38d6ffe63fa8ba7",
+          "excerpt": "宫人劉氏，不知何地人。鬒髮如雲而有色。秦川之變，行刑者將免之，劉氏曰：“家國喪亡，義不受辱。”遂就死。"
+        }
+      ],
+      "notes": [
+        "新史具名衍妾刘氏与春秋宫人刘氏同辞同事，保留身份称谓。",
+        "两书同辞不算独立目击复证。",
+        "世家将此事记在四月，本纪族诛条另作三月甲子；不取甲子为刘氏唯一行刑日。"
+      ],
+      "variants": [
+        {
+          "label": "新史本纪族诛条的月次不同",
+          "sourceDate": "同光四年三月甲子，原文未单列刘氏",
+          "summary": "本纪把杀王衍灭其族置于三月甲子；这里只保留与世家四月叙法的差异，不补作刘氏确日。",
+          "evidence": [
+            {
+              "chapterId": "new-v05",
+              "paragraphId": "new-v05-p14",
+              "originalRevision": 1,
+              "originalSha256": "44d7db0ad284f43e76ae3b1a0fe9b6602c202d0e9198e1d53bb652fbb1fc306a",
+              "excerpt": "三月，趙太伏誅。李嗣源反。博州守將翟建自稱刺史。甲子，殺王衍，滅其族。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
