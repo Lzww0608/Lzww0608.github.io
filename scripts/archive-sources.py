@@ -20,7 +20,7 @@ LICENSE = 'CC BY-SA 4.0'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 FOUNDERS = ['zhu-wen', 'li-cunxu', 'shi-jingtang', 'liu-zhiyuan', 'guo-wei']
 BOOKS = [
-    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、文臣列传卷 18、126、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 96 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
+    dict(id='old', title='旧五代史', sourceTitle='舊五代史', author='北宋 · 薛居正等撰', kind='正史 · 纪传体', image='/images/old-five-dynasties.webp', description='五代在位皇帝本纪共 59 卷，另收梁后妃传卷 11、唐后妃传卷 49、晋后妃传卷 86、汉后妃传卷 104、周后妃传卷 121、文臣列传卷 18、67、126、李克用武皇纪卷 25—26、宗室、相关将领列传及十国记载所在卷 133—136；合计 97 卷，保留辑佚说明与夹注，不表示 150 卷全本已收录。', defaultChapter='old-v001'),
     dict(id='new', title='新五代史', sourceTitle='新五代史', author='北宋 · 欧阳修撰', kind='正史 · 纪传体', image='/images/new-five-dynasties.webp', description='五代皇帝本纪卷 1—12、五代家人传卷 13—20、文臣合传卷 54、相关人物列传及十国世家卷 61—70；共 44 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。', defaultChapter='new-v01'),
     dict(id='tongjian', title='资治通鉴', sourceTitle='資治通鑑', author='北宋 · 司马光等编', kind='编年史', image='', description='现收卷 266—294 的五代部分（907—959 年），另收卷 262 的晚唐记事，补充吴国相关人物的早期材料；共 30 卷，不表示全书已收录。', defaultChapter='tongjian-v266'),
     dict(id='quewen', title='五代史阙文', sourceTitle='五代史闕文', author='北宋 · 王禹偁撰', kind='史料笔记', image='', description='一卷全文及原页序文，补充五代史事异闻，宜与正史、编年史参读。', defaultChapter='quewen-v001'),
@@ -694,6 +694,16 @@ if ten_kingdom_path.exists():
             for association in passage['people']:
                 if association['personId'] in ten_kingdom_ids:
                     TEN_KINGDOM_CHAPTER_PEOPLE.setdefault(passage['chapterId'], set()).add(association['personId'])
+
+
+# Explicitly reviewed civil-official chapter; do not infer unrelated subjects.
+SPECS.append(dict(id='old-v067', bookId='old', volume=67, position=67,
+                  title='卷 67 · 唐书列传十九', page='舊五代史/卷67',
+                  subjects=['li-yu-tang', 'ren-huan'], fixedRevisionId=512982, sourceLocalSubjectsOnly=True))
+_C004_LI_YU_CHAPTERS = ['huiyao-v001', 'huiyao-v004', 'huiyao-v011', 'huiyao-v018', 'new-v06', 'new-v07', 'new-v14', 'new-v54', 'old-v033', 'old-v038', 'old-v040', 'old-v041', 'old-v042', 'old-v043', 'old-v044', 'old-v045', 'old-v046', 'old-v047', 'old-v067', 'old-v126', 'tongjian-v262', 'tongjian-v269', 'tongjian-v273', 'tongjian-v277', 'tongjian-v278', 'tongjian-v279', 'tongjian-v291']
+for _civil_spec in SPECS:
+    if _civil_spec['id'] in _C004_LI_YU_CHAPTERS:
+        _civil_spec['subjects'] = list(dict.fromkeys([*_civil_spec['subjects'], 'li-yu-tang']))
 
 def scanned_subjects(paragraphs, book_id):
     text = '\n'.join(paragraphs)

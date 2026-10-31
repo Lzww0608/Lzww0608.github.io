@@ -1,4 +1,6 @@
 import test from 'node:test';
+import { digest } from '../src/backup-archive.mjs';
+import { assertReleaseTimelineDocuments } from '../src/content-release-timeline-guards.mjs';
 import assert from 'node:assert/strict';
 import { freezeContentRelease, validateContentRelease, rebindReleaseParents, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
 import { loadPassagePeople } from '../../content/person-passages.mjs';
@@ -13,7 +15,7 @@ export function releaseFixture() {
   const library = { catalog: { schemaVersion: 1, license: 'CC BY-SA', books: [{ id: chapter.bookId, title: '测试史料', author: '测试', description: '仅测试', url: chapter.sourceUrl, defaultChapter: chapter.id }] }, chapters: [chapter] };
   const originalSha256 = textHash(original), translationSha256 = textHash(text);
   const source = { chapterId: chapter.id, paragraphId: paragraph.id, originalRevision: 1, originalSha256, excerpt: '朱溫立。' };
-  return { schemaVersion: 1, id: 'test-content-release', humanReviewed: false, library, people: loadPassagePeople(),
+  const content = { schemaVersion: 1, id: 'test-content-release', humanReviewed: false, library, people: loadPassagePeople(),
     translationBatches: [{ schemaVersion: 1, id: 'test-content-release-full', bookId: chapter.bookId, chapterIds: [chapter.id], language: 'zh-Hans', status: 'draft', translator: '测试',
       generation: { assistant: 'test', method: '独立测试', standardVersion: 'test-v1', generatedAt: '2026-10-16T00:00:00Z', humanReviewed: false }, standards: ['保留底本。'],
       entries: [{ paragraphId: paragraph.id, originalRevision: 1, originalSha256, text, reviewNotes: [] }] }],
@@ -29,6 +31,8 @@ export function releaseFixture() {
     reviewBatches: [{ schemaVersion: 1, batchId: 'test-content-release-reviews', subjects: [{ id: 'zhu-wen', name: '朱温' }], items: [{ id: 'test-content-release-item', personId: 'zhu-wen', personName: '朱温', bookId: chapter.bookId,
       chapterId: chapter.id, paragraphId: paragraph.id, category: 'translation', status: 'checked', severity: 'info', title: '测试', detail: '独立测试', evidence: [{ chapterId: chapter.id, paragraphId: paragraph.id, excerpt: source.excerpt }], originalRevision: 1, originalSha256,
       translationId: null, translationVersion: null, translationSha256, checkedAt: '2026-10-16T00:00:00Z', resolution: '测试', batchId: 'test-content-release-reviews' }] }] };
+  content.timelineDocumentGuards = content.timelines.map(document => ({ personId: document.personId, expectedBefore: null, expectedAfterSha256: digest(document) }));
+  return content;
 }
 
 test('frozen release rejects any changed input and never assumes nine books or fixed population', () => {
@@ -127,10 +131,28 @@ test('direct formal publication rejects stale implementation and missing militar
     assert.ok(actual, `current qualification attribution: ${paragraphId}`);
     content.passageIndex.passages.push(structuredClone(actual));
   }
+  const baselineStateSha256 = 'a'.repeat(64), baselineDumpSha256 = 'b'.repeat(64);
+  content.baseline = { databaseSha256: baselineStateSha256, dumpSha256: baselineDumpSha256 };
   const frozen = freezeContentRelease(content);
-  const baselineStateSha256 = 'a'.repeat(64);
-  const proof = { verified: true, fingerprint: frozen.fingerprint, baselineDatabaseSha256: baselineStateSha256,
-    actualDumpRestoredForEveryAttempt: true, formalDatabaseWritten: false, success: { idempotent: true }, implementation: { sha256: '0'.repeat(64) } };
+  const targetRows = frozen.content.timelines.map(document => ({ personId: document.personId, document,
+    digest: textHash(JSON.stringify(document)), staticSha256: digest({ person_id: document.personId }) }));
+  const beforeReceipt = assertReleaseTimelineDocuments(frozen.content, [], 'before');
+  const afterReceipt = assertReleaseTimelineDocuments(frozen.content, targetRows, 'after', { beforeRows: [] });
+  const repeatReceipt = assertReleaseTimelineDocuments(frozen.content, targetRows, 'before');
+  const repeatAfter = assertReleaseTimelineDocuments(frozen.content, targetRows, 'after', { beforeRows: targetRows });
+  const fixtureParagraph = frozen.content.library.chapters[0].paragraphs[0];
+  const rebound = rebindReleaseParents(frozen.content, [{ id: fixtureParagraph.id, current_revision: 1, original: fixtureParagraph.original,
+    translation_id: '99999', version: 7, text: frozen.content.translationBatches[0].entries[0].text }]);
+  // Structurally complete synthetic proof only; this test never performs a restore.
+  const proof = { schemaVersion: 1, verified: true, checkedAt: '2026-10-31T00:00:00.000Z', humanReviewed: false,
+    fingerprint: frozen.fingerprint, baselineDatabaseSha256: baselineStateSha256, baselineDumpSha256,
+    actualDumpRestoredForEveryAttempt: true, formalDatabaseWritten: false,
+    failures: releaseFaultStages.map(stage => ({ stage, verified: true, oldRowsAndSchemaPreserved: true, sequenceGapsPossible: true })),
+    success: { verified: true, oldRowsPreserved: true, sequenceDeltasVerified: true, idempotent: true, permissionsVerified: true,
+      newParagraphs: 1, fullInserts: 1, eventInserts: 1, finalDatabaseSha256: 'c'.repeat(64),
+      rebound: { alignments: rebound.alignments, sentenceBatches: rebound.sentenceBatches, reviewBatches: rebound.reviewBatches },
+      timelineDocumentGuards: { first: { before: beforeReceipt, after: afterReceipt }, repeated: { before: repeatReceipt, after: repeatAfter } } },
+    implementation: { sha256: '0'.repeat(64) } };
   let queryCount = 0;
   const client = { query: async () => { queryCount++; throw new Error('BEGIN reached'); } };
   const options = { expectedDatabase: 'ancient_history', allowFormal: true, baselineStateSha256, verification: proof };
@@ -147,7 +169,8 @@ test('direct formal publication rejects stale implementation and missing militar
 
   const validProof = { ...matchingProof, fingerprint: frozen.fingerprint };
   await assert.rejects(publishContentRelease(client, frozen, { ...options, verification: validProof }), /BEGIN reached/);
-  assert.equal(queryCount, 1, 'a valid proof reaches the transaction owner');
+  assert.equal(queryCount, 1, 'only a complete current synthetic proof reaches the mocked transaction owner');
+
 });
 
 test('actual PostgreSQL batch rolls back every stage, publishes once and preserves old identities', async t => {
@@ -216,7 +239,7 @@ test('actual PostgreSQL batch rolls back every stage, publishes once and preserv
     content.baseline = { dumpSha256: sha256(readFileSync(dump)), databaseSha256: baseline.sha256 };
     const frozenWithCorrection = freezeContentRelease(content);
     const restoreVerified = await verifyContentReleaseFromDump(frozenWithCorrection, dump);
-    assert.equal(restoreVerified.verified, true); assert.equal(restoreVerified.failures.length, 8);
+    assert.equal(restoreVerified.verified, true); assert.equal(restoreVerified.failures.length, releaseFaultStages.length);
     assert.equal(restoreVerified.success.fullInserts, 2); assert.equal(restoreVerified.success.permissionsVerified, true);
     assert.equal(restoreVerified.actualDumpRestoredForEveryAttempt, true); assert.equal(restoreVerified.formalDatabaseWritten, false);
     assert.deepEqual(await snapshotReleaseDatabase(client), baseline, 'restore verification never writes even its independent source database');

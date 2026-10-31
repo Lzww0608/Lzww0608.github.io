@@ -763,6 +763,13 @@
           "originalRevision": 1,
           "originalSha256": "dcc88078a3712b6457e4e67a651301633df18de7e3abd66a041abb5e6f14a655",
           "excerpt": "四月，嗣昭戰死，以李存進代之。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p20",
+          "originalRevision": 1,
+          "originalSha256": "45f3ecea2e977f8ad0d3349a736cf5bb08747aa08f918ff80f8b2f2f97e57f1e",
+          "excerpt": "是秋，復以上黨之師攻常山，城中萬人突出，大將孫文進死之，賊逼我軍，圜麾騎士擊之，頗有殺獲。嘗以禍福諭其城中，鎮人信之，使乞降。及城潰，誅元惡之外，官吏鹹保其家屬，亦圜所庇護焉。"
         }
       ],
       "variants": [
@@ -1327,6 +1334,63 @@
       ],
       "notes": [
         "《五代会要》记年四十二，新、旧五代史记四十三；史书年龄依各书保存，不换算成确定周岁。"
+      ]
+    },
+    {
+      "id": "li-cunxu-lu-cheng-reprimand",
+      "title": "因卢程辱少尹，怒而降其右庶子",
+      "summary": "卢程鞭府吏、辱兴唐少尹后，庄宗怒欲令其自尽，卢质力救，最终降为右庶子。《旧五代史》卷六十七与《资治通鉴》卷二百七十二对受辱者及其亲属身份记载不同。",
+      "year": null,
+      "sortOrder": 32,
+      "precision": "range",
+      "sourceDate": "《资治通鉴》卷二百七十二同光元年杨刘战事记载中，所在年跨西历923—924；该段甲子记庄宗至杨刘，不必涵盖鞭吏、受诉及贬官的全部经历。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p10",
+          "originalRevision": 1,
+          "originalSha256": "9ed91924e5d17eb5c610d8f178578d3850434cae3cd366425c8ec5ac4ea49e0d",
+          "excerpt": "莊宗怒，謂郭崇韜曰：「朕誤相此癡物，敢辱予九卿。」促令自盡。崇韜亦怒，事幾不測，賴盧質橫身解之，遂降為右庶子。"
+        },
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p22",
+          "originalRevision": 1,
+          "originalSha256": "7bc4e371f0a318eedba4eeb51218df8f905bf517357430cc86cf7e5c265c97e8",
+          "excerpt": "帝怒曰：「朕誤相此癡物，乃敢辱吾九卿！」欲賜自盡；盧質力救之，乃貶右庶子。"
+        }
+      ],
+      "yearRange": {
+        "start": 923,
+        "end": 924
+      },
+      "notes": [
+        "《旧五代史》卷六十七《卢程传》称兴唐少尹为任圜；《资治通鉴》卷二百七十二作光禄卿兼兴唐少尹任團，不据官职相同合并二人。",
+        "《卢程传》称任圜为庄宗从姊婿；同卷《任圜传》记武皇以宗女妻任團；《资治通鉴》又称任團为圜弟、帝从姊婿。各书记名、称谓分别保存，不拼接为唯一婚姻身份。"
+      ],
+      "variants": [
+        {
+          "label": "受辱者及亲属称谓异写",
+          "sourceDate": "同役叙事，未独年月",
+          "summary": "《旧五代史》卷六十七《卢程传》作任圜、庄宗从姊婿；《资治通鉴》卷二百七十二作任團、圜之弟、帝从姊婿，不拼接为唯一亲属身份。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p10",
+              "originalRevision": 1,
+              "originalSha256": "9ed91924e5d17eb5c610d8f178578d3850434cae3cd366425c8ec5ac4ea49e0d",
+              "excerpt": "時任圜為興唐少尹，莊宗從姊婿也"
+            },
+            {
+              "chapterId": "tongjian-v272",
+              "paragraphId": "tongjian-v272-p22",
+              "originalRevision": 1,
+              "originalSha256": "7bc4e371f0a318eedba4eeb51218df8f905bf517357430cc86cf7e5c265c97e8",
+              "excerpt": "光祿卿兼興唐少尹任團，圜之弟，帝之從姊婿也"
+            }
+          ]
+        }
       ]
     },
     {

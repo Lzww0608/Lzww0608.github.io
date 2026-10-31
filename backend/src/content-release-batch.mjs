@@ -12,12 +12,14 @@ import { importPersonPassages } from '../scripts/import-person-passages.mjs';
 import { importPersonTimelines } from '../scripts/import-person-timelines.mjs';
 import { importReviewItems } from '../scripts/import-review-items.mjs';
 import { applyReviewCorrections, validateReviewCorrectionBatch } from '../scripts/apply-review-corrections.mjs';
-import { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from './content-release-implementation.mjs';
+import { validateMilitaryReleaseQualification } from './content-release-implementation.mjs';
+import { validateTimelineDocumentGuards, readReleaseTimelineDocuments, assertReleaseTimelineDocuments } from './content-release-timeline-guards.mjs';
+import { releaseFaultStages, validateFormalReleaseVerification } from './content-release-verification.mjs';
+export { releaseFaultStages } from './content-release-verification.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release: ${message}`); };
 const checksum = value => typeof value === 'string' && /^[a-f0-9]{64}$/.test(value);
 const id = value => typeof value === 'string' && /^[a-z0-9][a-z0-9-]{0,99}$/.test(value);
-export const releaseFaultStages = Object.freeze(['sources', 'drafts', 'publication', 'corrections', 'sentences', 'passages', 'timelines', 'reviews']);
 
 export function freezeContentRelease(content) {
   const frozen = { schemaVersion: 1, content: structuredClone(content), fingerprint: digest(content) };
@@ -79,6 +81,8 @@ export function validateContentRelease(frozen) {
   validatePersonPassageIndex(c.passageIndex, library);
   const timelines = new Set();
   for (const doc of c.timelines) { validatePersonTimeline(doc, library); check(!timelines.has(doc.personId), 'duplicate timeline'); timelines.add(doc.personId); }
+  check(c.oldTimelineChanges === undefined, 'oldTimelineChanges is not a consumed protection contract; use timelineDocumentGuards');
+  validateTimelineDocumentGuards(c.timelines, c.timelineDocumentGuards);
   const alignments = new Map();
   for (const a of c.alignments) {
     const p = sources.get(a.paragraphId)?.paragraph;
@@ -228,12 +232,9 @@ export async function publishContentRelease(client, frozen, { expectedDatabase, 
   const c = validateContentRelease(frozen);
   check(typeof expectedDatabase === 'string' && expectedDatabase, 'explicit database identity required');
   check(allowFormal || /^history_content_release_test_[a-z0-9_]+$/.test(expectedDatabase), 'isolated database required');
-  if (allowFormal) check(checksum(baselineStateSha256) && verification?.verified === true && verification.fingerprint === frozen.fingerprint
-    && verification.baselineDatabaseSha256 === baselineStateSha256 && verification.actualDumpRestoredForEveryAttempt === true
-    && verification.formalDatabaseWritten === false && verification.success?.idempotent === true && faultAfter === null, 'formal publication requires actual isolated verification');
   if (allowFormal) {
+    validateFormalReleaseVerification(frozen, verification, { baselineStateSha256, faultAfter });
     validateMilitaryReleaseQualification(c);
-    check(verification.implementation && digest(verification.implementation) === digest(releaseImplementationFingerprint()), 'verified implementation differs');
   }
   check(faultAfter === null || releaseFaultStages.includes(faultAfter), 'unknown failure stage');
   const fail = stage => { if (faultAfter === stage) throw new Error(`Injected content release failure: ${stage}`); };
@@ -245,6 +246,8 @@ export async function publishContentRelease(client, frozen, { expectedDatabase, 
     await client.query('LOCK TABLE public.books,public.chapters,public.paragraphs,public.paragraph_revisions,public.translations IN SHARE ROW EXCLUSIVE MODE');
     const baseline = await snapshotReleaseDatabase(client);
     if (baselineStateSha256) check(baseline.sha256 === baselineStateSha256, 'baseline database changed');
+    const timelineDocumentRowsBefore = await readReleaseTimelineDocuments(client, c.timelines, { lock: true });
+    const timelineDocumentsBefore = assertReleaseTimelineDocuments(c, timelineDocumentRowsBefore, 'before');
     const registered = new Set((await client.query('SELECT id FROM public.passage_people')).rows.map(p => p.id));
     for (const person of c.people.filter(p => !registered.has(p.id))) {
       check(c.timelines.some(t => t.personId === person.id) && c.passageIndex.passages.some(p => p.people.some(a => a.personId === person.id)), `new person lacks sourced timeline/passages ${person.id}`);
@@ -278,10 +281,13 @@ export async function publishContentRelease(client, frozen, { expectedDatabase, 
     const reviews = []; for (const batch of bound.reviewBatches) reviews.push(await importReviewItems(client, batch)); fail('reviews');
     const after = await snapshotReleaseDatabase(client);
     assertReleasePreserved(baseline, after, c);
+    const timelineDocumentsAfter = assertReleaseTimelineDocuments(c, await readReleaseTimelineDocuments(client, c.timelines), 'after', { beforeRows: timelineDocumentRowsBefore });
+    fail('timeline-documents');
     await client.query('COMMIT');
     return { schemaVersion: 1, committed: true, fingerprint: frozen.fingerprint, humanReviewed: false,
       sources, bookMetadataUpdates, newParagraphs: newIds.length, drafts, publications, corrections, sentences, passages, timelines, reviews,
       oldRowsPreserved: true, baselineSha256: baseline.sha256,
+      timelineDocumentGuards: { before: timelineDocumentsBefore, after: timelineDocumentsAfter },
       rebound: { alignments: bound.alignments, sentenceBatches: bound.sentenceBatches, reviewBatches: bound.reviewBatches }, database: after };
   } catch (error) { await client.query('ROLLBACK'); throw error; }
 }

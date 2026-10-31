@@ -5207,6 +5207,15 @@
         "bookIds": [],
         "chapterIds": []
       }
+    },
+    {
+      "personId": "li-yu-tang",
+      "names": [
+        "李愚"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -10526,6 +10535,36 @@
       "endText": "道既卒，時人皆共稱歎，以謂與孔子同壽，其喜為之稱譽蓋如此。道",
       "kind": "biography",
       "label": "冯道传"
+    },
+    {
+      "personId": "li-yu-tang",
+      "chapterId": "old-v067",
+      "start": 14,
+      "end": 18,
+      "kind": "biography",
+      "label": "李愚",
+      "startText": "李愚，字子晦。自稱趙郡平",
+      "endText": "閔帝嗣位，誌修德政，易月"
+    },
+    {
+      "personId": "ren-huan",
+      "chapterId": "old-v067",
+      "start": 19,
+      "end": 22,
+      "kind": "biography",
+      "label": "任圜",
+      "startText": "任圜，京兆三原人。祖清，",
+      "endText": "天成二年，除太子少保致仕"
+    },
+    {
+      "personId": "li-yu-tang",
+      "chapterId": "new-v54",
+      "start": 31,
+      "end": 35,
+      "startText": "李愚字子晦，渤海無棣人也。愚為人謹重寡言，好學，為古文。滄州節度使盧彥",
+      "endText": "潞王反，犯京師，愍帝夜出奔。明日愚與馮道至端門，聞帝已出，而朱弘昭、馮",
+      "kind": "biography",
+      "label": "李愚传"
     }
   ],
   "chronology": [
@@ -15538,6 +15577,116 @@
       "reason": "篇題王彦章附須讀緊接p25，實為前蜀周彥章本姓王附事，非目標；現有目標關聯需精確排除。",
       "originalRevision": 1,
       "originalSha256": "bbc82710ef456bfd587c698a853dcfeec3bbcd67744e2329ece22803a82cd3e5"
+    },
+    {
+      "personId": "li-cunxu",
+      "paragraphId": "old-v067-p12",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "只作《莊宗實錄》书名，排除后不另补本人的mention。",
+      "originalRevision": 1,
+      "originalSha256": "f51a5a74519c224a6723d58b9a7e69ea92e7f6aedb9b850bfa0823e0bb90098d"
+    },
+    {
+      "personId": "zhu-wenjin",
+      "paragraphId": "old-v067-p20",
+      "terms": [
+        "文進"
+      ],
+      "reason": "本段实为孫文進，非朱文进。",
+      "originalRevision": 1,
+      "originalSha256": "45f3ecea2e977f8ad0d3349a736cf5bb08747aa08f918ff80f8b2f2f97e57f1e"
+    },
+    {
+      "personId": "ren-huan",
+      "paragraphId": "old-v067-p24",
+      "terms": [
+        "任圜"
+      ],
+      "reason": "本段为史臣评论，仅作人物提及。",
+      "originalRevision": 1,
+      "originalSha256": "35f4753283fbdff3b8fe378e5c4d421b75e312cf1732d2ff484094f2e78c302f"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "old-v067-p24",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "本段为史臣评论，仅作人物提及。",
+      "originalRevision": 1,
+      "originalSha256": "35f4753283fbdff3b8fe378e5c4d421b75e312cf1732d2ff484094f2e78c302f"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "huiyao-v001-p6",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "李愚列入闵帝宰相三人。",
+      "originalRevision": 1,
+      "originalSha256": "3a48047a9fdbec5510aac359043b9ae510351085f9bd1063153b8386db2560c7"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "huiyao-v001-p7",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "李愚列入末帝宰相六人。",
+      "originalRevision": 1,
+      "originalSha256": "07d1e4c9278ef2db235b1566a6a75bb034324e4258af1bef632b043da07a7c17"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "huiyao-v011-p56",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "金色雉入中书记事夹注载同月李愚罢相及留任官衔。",
+      "originalRevision": 1,
+      "originalSha256": "893412ae06b36542eb9757fe9b0c8fcfa94e96bc61fe5c638b73fed7080e97ad"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "new-v54-p30",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "本段仅为李愚篇题，不作为独立人物记载。",
+      "originalRevision": 1,
+      "originalSha256": "5de431656214b81d78dcf54e51b9d608717566db1092e75f0ed23248822fbe82"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "new-v54-p44",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "校注引本纪及旧史67李愚传，指出任圜罢相和李愚入相之间的叙事错接，应有关赵凤。",
+      "originalRevision": 1,
+      "originalSha256": "7ce2c5ccec97fdd25662d122aef3852b865612b4ea147f1ed0cab7cad840caf4"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "new-v54-p45",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "校注说明刘昫长兴四年正月已为相，不是废帝罢冯道出镇时才拜相，并列卢文纪任相、李愚刘昫罢相叙次。",
+      "originalRevision": 1,
+      "originalSha256": "9e60525876c77a8babc3b7c4ce8c66042b862575ea6c7b6c40c69a3a9e4b8c3f"
+    },
+    {
+      "personId": "li-yu-tang",
+      "paragraphId": "old-v043-p2",
+      "terms": [
+        "李愚"
+      ],
+      "reason": "本纪刻九经条的长夹注引爱日斋丛钞与通鉴，提冯道李愚奏请校经刻板，并叙后周板成。",
+      "originalRevision": 1,
+      "originalSha256": "d92c5308cb3d7ff2a6f08edd896573c939d8fed20f12c964f60e77a2a6ff7095"
     }
   ],
   "regnalEdicts": {
@@ -16044,7 +16193,8 @@
         "new-v54",
         "shiguochunqiu-v038",
         "shiguochunqiu-v040",
-        "shiguochunqiu-v041"
+        "shiguochunqiu-v041",
+        "old-v067"
       ]
     }
   }

@@ -442,6 +442,13 @@
           "originalRevision": 1,
           "originalSha256": "86c76b8d721ebebe7622b05fda2d2b81f66e3f9f07108f58f99775834bc9e778",
           "excerpt": "是時，閻寶為鎮人所敗，退保趙州，莊宗命嗣昭代寶攻真定。七月二十四日，王處球之兵出自九門，嗣昭設伏於故營，賊至，發伏，擊之殆盡；餘三人匿於牆墟間，嗣昭環馬而射之，為賊矢中腦，嗣昭箙中矢盡，拔賊矢於腦射賊，一發而殪之。嗣昭日暮還營，所傷血流不止，是夜卒。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p20",
+          "originalRevision": 1,
+          "originalSha256": "45f3ecea2e977f8ad0d3349a736cf5bb08747aa08f918ff80f8b2f2f97e57f1e",
+          "excerpt": "常山之役，嗣昭為帥，卒於軍，圜代總其事，號令如一，敵人不知。莊宗聞之，倍加獎賞。"
         }
       ],
       "variants": [
@@ -489,7 +496,23 @@
       ],
       "sortOrder": 15,
       "phase": "fall",
-      "precision": "month"
+      "precision": "month",
+      "variants": [
+        {
+          "label": "任圜传写卒后代总",
+          "sourceDate": "常山役嗣昭卒军后，本段未独月日",
+          "summary": "任圜传叙嗣昭卒于军、圜代总其事、号令如一、敌人不知；本段未明言临终遗命，通鉴遗命授兵之叙仍保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p20",
+              "originalRevision": 1,
+              "originalSha256": "45f3ecea2e977f8ad0d3349a736cf5bb08747aa08f918ff80f8b2f2f97e57f1e",
+              "excerpt": "常山之役，嗣昭為帥，卒於軍，圜代總其事，號令如一，敵人不知。莊宗聞之，倍加獎賞。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "li-sizhao-honors",

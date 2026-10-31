@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 17,
-    "chapterCount": 262,
-    "paragraphCount": 10220
+    "chapterCount": 263,
+    "paragraphCount": 10244
   },
   "people": [
     {
@@ -750,6 +750,10 @@
     {
       "id": "feng-dao",
       "name": "冯道"
+    },
+    {
+      "id": "li-yu-tang",
+      "name": "李愚"
     },
     {
       "id": "liang-zhu-wen-mother-wang",
@@ -5544,6 +5548,10 @@
           "kind": "mention"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-siyuan-mother-liu",
           "kind": "mention"
         }
@@ -5600,6 +5608,10 @@
           "kind": "mention"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "mention"
+        },
+        {
           "personId": "tang-li-siyuan-consort-xia",
           "kind": "record"
         }
@@ -5649,6 +5661,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "mention"
         },
         {
@@ -8482,6 +8498,10 @@
         {
           "personId": "feng-dao",
           "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -8801,6 +8821,26 @@
       "people": [
         {
           "personId": "chai-rong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v004-p56",
+      "chapterId": "huiyao-v004",
+      "title": "卷 4 · 第 56 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v004-p56",
+          "originalRevision": 1,
+          "originalSha256": "76b122e2e02c36c9d2eccf1d44565a8d34ff5b01a72cdafef8b0c1865b0b48d5",
+          "start": 0,
+          "end": 167
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -11138,6 +11178,10 @@
         {
           "personId": "li-congke",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "mention"
         }
       ]
     },
@@ -14386,6 +14430,10 @@
         {
           "personId": "li-conghou",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -14489,6 +14537,26 @@
         },
         {
           "personId": "chai-rong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-huiyao-v018-p34",
+      "chapterId": "huiyao-v018",
+      "title": "卷 18 · 第 34 段",
+      "spans": [
+        {
+          "paragraphId": "huiyao-v018-p34",
+          "originalRevision": 1,
+          "originalSha256": "89dd9746978ed4c03fb6216a8703af9ee97c0ed7075a96ec4ce008f0fa1a4fee",
+          "start": 0,
+          "end": 445
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -32434,6 +32502,10 @@
         {
           "personId": "dong-zhang",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -32873,6 +32945,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         },
         {
@@ -36933,6 +37009,10 @@
         },
         {
           "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -53712,7 +53792,7 @@
     {
       "id": "passage-new-v54-p31",
       "chapterId": "new-v54",
-      "title": "卷 54 · 杂传第四十二 · 第 31 段",
+      "title": "卷 54 · 杂传第四十二 · 李愚传 · 第 31 段",
       "spans": [
         {
           "paragraphId": "new-v54-p31",
@@ -53726,13 +53806,17 @@
         {
           "personId": "zhu-youzhen",
           "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-new-v54-p32",
       "chapterId": "new-v54",
-      "title": "卷 54 · 杂传第四十二 · 第 32 段",
+      "title": "卷 54 · 杂传第四十二 · 李愚传 · 第 32 段",
       "spans": [
         {
           "paragraphId": "new-v54-p32",
@@ -53750,13 +53834,17 @@
         {
           "personId": "li-zhen",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-new-v54-p33",
       "chapterId": "new-v54",
-      "title": "卷 54 · 杂传第四十二 · 第 33 段",
+      "title": "卷 54 · 杂传第四十二 · 李愚传 · 第 33 段",
       "spans": [
         {
           "paragraphId": "new-v54-p33",
@@ -53782,13 +53870,17 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-new-v54-p34",
       "chapterId": "new-v54",
-      "title": "卷 54 · 杂传第四十二 · 第 34 段",
+      "title": "卷 54 · 杂传第四十二 · 李愚传 · 第 34 段",
       "spans": [
         {
           "paragraphId": "new-v54-p34",
@@ -53810,13 +53902,17 @@
         {
           "personId": "feng-dao",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
         }
       ]
     },
     {
       "id": "passage-new-v54-p35",
       "chapterId": "new-v54",
-      "title": "卷 54 · 杂传第四十二 · 第 35 段",
+      "title": "卷 54 · 杂传第四十二 · 李愚传 · 第 35 段",
       "spans": [
         {
           "paragraphId": "new-v54-p35",
@@ -53838,6 +53934,10 @@
         {
           "personId": "feng-dao",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
         },
         {
           "personId": "tang-li-siyuan-consort-cao",
@@ -53873,6 +53973,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         },
         {
@@ -53978,6 +54082,10 @@
         {
           "personId": "ren-huan",
           "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "mention"
         }
       ]
     },
@@ -54005,6 +54113,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "mention"
         }
       ]
@@ -79384,6 +79496,10 @@
           "kind": "record"
         },
         {
+          "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
           "personId": "meng-zhixiang",
           "kind": "record"
         },
@@ -81613,6 +81729,10 @@
         },
         {
           "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -84274,6 +84394,10 @@
         {
           "personId": "fang-zhiwen",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -85528,6 +85652,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-keyong-consort-chen",
           "kind": "record"
         }
@@ -86000,6 +86128,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         }
@@ -86370,6 +86502,10 @@
         {
           "personId": "qian-yuanguan",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -86720,6 +86856,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "mention"
+        },
+        {
           "personId": "tang-li-siyuan-consort-xia",
           "kind": "record"
         }
@@ -86913,6 +87053,10 @@
         },
         {
           "personId": "ma-xisheng",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -87136,6 +87280,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-siyuan-consort-xia",
           "kind": "record"
         }
@@ -87246,6 +87394,10 @@
         {
           "personId": "qian-yuanguan",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -87301,6 +87453,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         },
         {
@@ -87425,6 +87581,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -87633,6 +87793,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -88198,6 +88362,10 @@
         {
           "personId": "li-congke",
           "kind": "biography"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -88406,6 +88574,10 @@
         {
           "personId": "feng-dao",
           "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -88457,6 +88629,10 @@
         },
         {
           "personId": "meng-zhixiang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -88560,6 +88736,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-congke-empress-liu",
           "kind": "record"
         }
@@ -88637,6 +88817,10 @@
         },
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -89057,6 +89241,10 @@
         },
         {
           "personId": "zhao-zaili",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -96334,6 +96522,594 @@
         {
           "personId": "yang-yanwen",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p2",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p2",
+          "originalRevision": 1,
+          "originalSha256": "768635102146f0ce3dab6827343988303d061a5267c8ed2adc713ec7878dd028",
+          "start": 0,
+          "end": 235
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p3",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p3",
+          "originalRevision": 1,
+          "originalSha256": "57df32ae74c9ef58a6c16fc0424650e9603c1417e9c98a8258841d7191ffdd67",
+          "start": 0,
+          "end": 391
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p5",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p5",
+          "originalRevision": 1,
+          "originalSha256": "f992b1c77c0f6c80e290913a444198efea89b41549cef030e405eb0f7fd5a97c",
+          "start": 0,
+          "end": 459
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p6",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p6",
+          "originalRevision": 1,
+          "originalSha256": "cbc4024d21e97ddf9c45b50de29b976697ef4d5cc93266a7d22984e30c72d17e",
+          "start": 0,
+          "end": 358
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "xifang-ye",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-jixing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p7",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 7 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p7",
+          "originalRevision": 1,
+          "originalSha256": "c305504a61264e1c4e41484c8959c93691b4bb87cdd1caf9bbefdc62f5acdd72",
+          "start": 0,
+          "end": 176
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p8",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p8",
+          "originalRevision": 1,
+          "originalSha256": "eb1cbed687722c291c698ab98a1c8f5ac7a8dd6c2a644a4054a8a1fee718931c",
+          "start": 0,
+          "end": 305
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "feng-dao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p9",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p9",
+          "originalRevision": 1,
+          "originalSha256": "874e84f80c0c3b642e6ce2eaccf82351a400152a44219600398223b1910f251c",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-keyong-consort-cao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p10",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p10",
+          "originalRevision": 1,
+          "originalSha256": "9ed91924e5d17eb5c610d8f178578d3850434cae3cd366425c8ec5ac4ea49e0d",
+          "start": 0,
+          "end": 351
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yanzhang",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p11",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p11",
+          "originalRevision": 1,
+          "originalSha256": "18720ae57a71cec280837d876184b2a0de6333eda0d4292a81d0f3f78d1c8c88",
+          "start": 0,
+          "end": 344
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-shouyin",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
+          "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "tang-li-cunxu-empress-liu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p12",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p12",
+          "originalRevision": 1,
+          "originalSha256": "f51a5a74519c224a6723d58b9a7e69ea92e7f6aedb9b850bfa0823e0bb90098d",
+          "start": 0,
+          "end": 375
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p14",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 李愚 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "start": 0,
+          "end": 618
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p15",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 李愚 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "start": 0,
+          "end": 431
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhu-youzhen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-zhen",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p16",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 李愚 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "start": 0,
+          "end": 447
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p17",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 李愚 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p17",
+          "originalRevision": 1,
+          "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+          "start": 0,
+          "end": 225
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p18",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 李愚 · 第 18 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+          "start": 0,
+          "end": 249
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-conghou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p19",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 任圜 · 第 19 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p19",
+          "originalRevision": 1,
+          "originalSha256": "b9b3c137a453facb73768ff8ab4003010b390b48a44ff0238138f4030dc10b05",
+          "start": 0,
+          "end": 73
+        }
+      ],
+      "people": [
+        {
+          "personId": "ren-huan",
+          "kind": "biography"
+        },
+        {
+          "personId": "li-keyong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p20",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 任圜 · 第 20 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p20",
+          "originalRevision": 1,
+          "originalSha256": "45f3ecea2e977f8ad0d3349a736cf5bb08747aa08f918ff80f8b2f2f97e57f1e",
+          "start": 0,
+          "end": 306
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-cunxu",
+          "kind": "record"
+        },
+        {
+          "personId": "li-sizhao",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p21",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 任圜 · 第 21 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p21",
+          "originalRevision": 1,
+          "originalSha256": "fdb3a8f64b81be61b981cbbe8bc6691c99cfe93803acf51854a9c7c4c05d762e",
+          "start": 0,
+          "end": 431
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "guo-chongtao",
+          "kind": "record"
+        },
+        {
+          "personId": "kang-yanxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p22",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 任圜 · 第 22 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p22",
+          "originalRevision": 1,
+          "originalSha256": "cb01d4e6a807c44859421abb18389d8037fe719abb83c489484bc7ee437d5afd",
+          "start": 0,
+          "end": 176
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-siyuan",
+          "kind": "record"
+        },
+        {
+          "personId": "li-congke",
+          "kind": "record"
+        },
+        {
+          "personId": "zhu-shouyin",
+          "kind": "record"
+        },
+        {
+          "personId": "ren-huan",
+          "kind": "biography"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p23",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 23 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p23",
+          "originalRevision": 1,
+          "originalSha256": "2ec03cc4ed8f48a97d87b8e16271d1d5f833592482adde365d188f9ffc729ff5",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "people": [
+        {
+          "personId": "ren-huan",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-old-v067-p24",
+      "chapterId": "old-v067",
+      "title": "卷 67 · 唐书列传十九 · 第 24 段",
+      "spans": [
+        {
+          "paragraphId": "old-v067-p24",
+          "originalRevision": 1,
+          "originalSha256": "35f4753283fbdff3b8fe378e5c4d421b75e312cf1732d2ff484094f2e78c302f",
+          "start": 0,
+          "end": 129
+        }
+      ],
+      "people": [
+        {
+          "personId": "ren-huan",
+          "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "mention"
         }
       ]
     },
@@ -109382,6 +110158,10 @@
         {
           "personId": "feng-dao",
           "kind": "biography"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -131266,6 +132046,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v262-p30",
+      "chapterId": "tongjian-v262",
+      "title": "卷 262 · 唐纪七十八 · 第 30 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v262-p30",
+          "originalRevision": 1,
+          "originalSha256": "3c88626dbc0495eb5ecd5616880f8759f4f69a0a041578b4feb749cc1420508c",
+          "start": 0,
+          "end": 296
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v262-p31",
       "chapterId": "tongjian-v262",
       "title": "卷 262 · 唐纪七十八 · 第 31 段",
@@ -139006,6 +139806,10 @@
         {
           "personId": "li-zhen",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -145542,6 +146346,10 @@
         {
           "personId": "gao-jixing",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -145614,6 +146422,10 @@
         {
           "personId": "li-yan-youzhou",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -145641,6 +146453,10 @@
         },
         {
           "personId": "li-yan-youzhou",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -152034,6 +152850,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v277-p79",
+      "chapterId": "tongjian-v277",
+      "title": "卷 277 · 后唐纪6 · 第 79 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v277-p79",
+          "originalRevision": 1,
+          "originalSha256": "6421991481413a7989820568b2a4013aef49c3a89e83f93171d04b7bfb84b7ca",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v277-p80",
       "chapterId": "tongjian-v277",
       "title": "卷 277 · 后唐纪6 · 第 80 段",
@@ -154110,6 +154946,10 @@
         {
           "personId": "qian-yuanguan",
           "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -154780,6 +155620,10 @@
           "kind": "record"
         },
         {
+          "personId": "li-yu-tang",
+          "kind": "record"
+        },
+        {
           "personId": "tang-li-siyuan-consort-cao",
           "kind": "record"
         },
@@ -155274,6 +156118,10 @@
         {
           "personId": "feng-dao",
           "kind": "mention"
+        },
+        {
+          "personId": "li-yu-tang",
+          "kind": "record"
         }
       ]
     },
@@ -155525,6 +156373,26 @@
       "people": [
         {
           "personId": "shi-jingtang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-tongjian-v279-p69",
+      "chapterId": "tongjian-v279",
+      "title": "卷 279 · 后唐纪8 · 第 69 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v279-p69",
+          "originalRevision": 1,
+          "originalSha256": "971622acd78c6b8e5bb5c720ff4591e0759e5d9f5939b33e43dcde502b3f5e81",
+          "start": 0,
+          "end": 69
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]
@@ -171073,6 +171941,10 @@
         },
         {
           "personId": "feng-dao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-yu-tang",
           "kind": "record"
         }
       ]

@@ -122,13 +122,6 @@
     "note": "《旧五代史》卷126记冯道为众择骑校白再荣权为帅；权领与正式朝廷节度任命分别。"
   },
   {
-    "id": "li-yu-tang",
-    "name": "李愚（后唐宰相）",
-    "external": true,
-    "group": "后唐",
-    "note": "《旧五代史》卷126记冯道与同列李愚委学官田敏等雕经流布；此为有具体共同项目的关联身份。"
-  },
-  {
     "id": "zhang-can-shangdang",
     "name": "张璨（上党判官）",
     "external": true,
@@ -331,5 +324,183 @@
     "external": true,
     "group": "冯道家属",
     "note": "《长乐老自叙》记长女适故兵部侍郎崔衍之子、太仆少卿名绚；只保此婚配，不向崔衍祖系扩边。"
+  },
+  {
+    "id": "li-zhanye-li-yu-father",
+    "name": "瞻业（李愚父）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "父名原文作瞻业。只保李愚之父、家教及徙家语境，不补其他同名履历。"
+  },
+  {
+    "id": "lu-yanwei-cangzhou",
+    "name": "卢彦威（沧州署官者）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "旧新史明确署李愚安陵主簿者；不补本批未读生平。"
+  },
+  {
+    "id": "han-jian-huazhou",
+    "name": "韩建（华州）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "李愚上书所向华州主帅；不并其他同名韩建。"
+  },
+  {
+    "id": "li-yanguang-liang-reader",
+    "name": "李延光（梁末帝侍讲）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "旧传宗人、新史相善，屡荐李愚；不定与李愚亲等、不合延古。"
+  },
+  {
+    "id": "hua-wenqi-jinzhou",
+    "name": "华温琪（晋州侵财案）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "旧传明确晋州节度使、被追按侵民财案；不补未核军事履历。"
+  },
+  {
+    "id": "li-xiao-tongshi",
+    "name": "李霄（通事舍人）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "雇工案雇主而非致死施事或死者；不并其他李霄。"
+  },
+  {
+    "id": "zhang-li-cizhou",
+    "name": "张砺（慈州举子）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "旧传称慈州举子，先依李愚后北归称荐；自然人同异未与其他卷张礪跨证合并。"
+  },
+  {
+    "id": "chen-yi-shu-judge",
+    "name": "陈乂（伐蜀招讨判官）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "军至宝鸡称疾求留者，通鉴称蓟州人；未载因李愚言被处斩。"
+  },
+  {
+    "id": "zhang-zhaoyuan-history",
+    "name": "张昭远（史馆修撰）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "与李愚等进功臣列传者；本次不将张昭远与其他书张昭自动并为一人。"
+  },
+  {
+    "id": "yin-zhuo-historian",
+    "name": "尹拙（直史馆）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "从李愚奏授左拾遗直史馆者；不扩未核官历。"
+  },
+  {
+    "id": "wang-shenhui-historian",
+    "name": "王慎徽（直史馆）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "会要从李愚奏授右拾遗直史馆者。"
+  },
+  {
+    "id": "zhai-guangye-mingzong-envoy",
+    "name": "翟光邺（明宗近臣）",
+    "external": true,
+    "group": "李愚相关",
+    "note": "旧纪明确奉命宣问李愚病况者；与新史未名宦官口径分源保存。"
+  },
+  {
+    "id": "ren-che-ren-huan-son",
+    "name": "任彻（任圜子）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任圜之子，本传末记其仕于皇朝，官至度支郎中而卒，具体年月未载。"
+  },
+  {
+    "id": "ren-maohong-ren-huan-father",
+    "name": "任茂宏（任圜父）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任圜之父，原书名“茂宏”，避地太原，经奏授西河县令。"
+  },
+  {
+    "id": "ren-qing-ren-huan-grandfather",
+    "name": "任清（任圜祖父）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任圜之祖父，原书名“清”，官成都少尹。"
+  },
+  {
+    "id": "ren-huan-mother-unnamed",
+    "name": "任圜母（失名）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "本传记任圜“丁母忧”，未载此母姓名，生母、嫡母或养育母等母属未详。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "ren-tu-ren-huan-brother",
+    "name": "任图（任圜兄弟）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任茂宏五子之一，与任圜为同父兄弟；原书未明长幼或是否同母。",
+    "aliases": [
+      "任圖",
+      "任图"
+    ]
+  },
+  {
+    "id": "ren-hui-ren-huan-brother",
+    "name": "任回（任圜兄弟）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任茂宏五子之一，与任圜为同父兄弟；原书未明长幼或是否同母。",
+    "aliases": [
+      "任回"
+    ]
+  },
+  {
+    "id": "ren-tuan-ren-huan-brother",
+    "name": "任团（任圜兄弟）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任茂宏五子之一，与任圜为同父兄弟；原书未明长幼或是否同母。宗女婚配记名的史书异说分别保存，未定为唯一婚姻。",
+    "aliases": [
+      "任團",
+      "任团"
+    ]
+  },
+  {
+    "id": "ren-jiong-ren-huan-brother",
+    "name": "任冏（任圜兄弟）",
+    "external": true,
+    "group": "任圜相关",
+    "note": "任茂宏五子之一，与任圜为同父兄弟；原书未明长幼或是否同母。",
+    "aliases": [
+      "任冏"
+    ]
+  },
+  {
+    "id": "li-yangu-pingquan",
+    "name": "李延古（平泉旧墅）",
+    "aliases": [
+      "李延古",
+      "李延古（平泉舊墅）"
+    ],
+    "external": true,
+    "group": "李愚相关",
+    "note": "《旧五代史》称李德裕之孙延古当时居平泉旧墅，李愚往依。与梁末帝侍讲李延光分别记载。"
+  },
+  {
+    "id": "zhu-youliang-hengwang",
+    "name": "朱友谅（衡王）",
+    "aliases": [
+      "朱友諒",
+      "朱友谅",
+      "朱友諒（衡王）"
+    ],
+    "external": true,
+    "group": "后梁",
+    "note": "《新五代史》明记衡王友谅为梁末帝之兄；《旧五代史》李愚传记其入朝，李愚向其行长揖礼。"
   }
 ]

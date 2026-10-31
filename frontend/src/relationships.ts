@@ -123,7 +123,7 @@ function source(chapterId: string, paragraph: number, title: string, excerpt: st
 }
 
 // Each quotation is a contiguous excerpt of an immutable archived paragraph.
-// Direction means parent → child, commander → subordinate, giver → recipient or predecessor → successor;
+// Direction follows the label: ancestor → descendant, parent → child, commander → subordinate, giver → recipient, predecessor → successor, or actor → counterpart for an interaction;
 // siblings and antagonists use the direction only to lay out their relationship.
 export const personRelationships: readonly PersonRelationship[] = [
   ...palaceRelationships as readonly PersonRelationship[],
@@ -683,6 +683,12 @@ export const personRelationships: readonly PersonRelationship[] = [
         "paragraphId": "old-v074-p4",
         "title": "《旧五代史》 · 卷 74 · 唐列传（康延孝、朱守殷等）",
         "excerpt": "夜半，令監軍使李廷安召任圜，因署為副招討使。令圜率兵七千騎，與都指揮使梁漢顒、監軍李廷安討之。"
+      },
+      {
+        "chapterId": "old-v067",
+        "paragraphId": "old-v067-p21",
+        "title": "《旧五代史》 · 卷67 · 唐书列传十九",
+        "excerpt": "崇韜伐蜀，奏令從征，西蜀平，署圜黔南節度使，懇辭遂止。魏王班師，行及利州，康延孝叛，以勁兵八千回劫西川。繼岌聞之，夜半命中使李廷安召圜，圜方寢，廷安登其床以告之，圜衣不及帶，遽見繼岌。繼岌泣而言曰：「紹琛負恩，非尚書不能制。」即署圜為招討副使，與都指揮使梁漢顒等率兵攻延孝於漢州，擒之。旋至渭南，繼岌遇害。圜代總全師，朝於洛陽。明宗嘉其功，拜平章事，判三司。圜揀拔賢俊，杜絕幸門，百官俸入為孔謙減折。圜以廷臣為國家羽儀，故優假班行，禁其虛估，期月之內，府庫充贍，朝廷修葺，軍民鹹足。雖憂國如家，而切於功名，故為安重誨所忌。嘗與重誨會於私第，有妓善歌，重誨求之不得，嫌隙自茲而深矣。先是，使人食券，皆出於戶部，重誨止之，俾須內出，爭於御前，往復數四，竟為所沮，〈（《通鑒》：安重誨與圜爭於上前，往復數四，聲色俱厲。上退朝，宮人問上：「適與重誨論事為誰？」上曰：「宰相。」宮人曰：「妾在長安宮中，未嘗見宰相、樞密奏事敢如是者，蓋輕大家耳！」上愈不悅。）〉因求罷三司。"
       }
     ]
   },

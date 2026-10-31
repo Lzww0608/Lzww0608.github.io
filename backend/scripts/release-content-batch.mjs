@@ -13,6 +13,8 @@ import { verifyOwnerReviewPermissions } from '../src/owner-reviews.mjs';
 import { ensureOwnerReviewSchema } from './import-review-items.mjs';
 import { freezeContentRelease, validateContentRelease, publishContentRelease, snapshotReleaseDatabase, releaseFaultStages } from '../src/content-release-batch.mjs';
 import { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from '../src/content-release-implementation.mjs';
+import { validateTimelineDocumentVerification } from '../src/content-release-timeline-guards.mjs';
+import { validateFormalReleaseVerification } from '../src/content-release-verification.mjs';
 export { releaseImplementationFingerprint, validateMilitaryReleaseQualification } from '../src/content-release-implementation.mjs';
 
 const check = (ok, message) => { if (!ok) throw new Error(`Content release runner: ${message}`); };
@@ -89,6 +91,8 @@ export async function verifyContentReleaseFromDump(frozen, dumpFile, { config = 
       const first = await publishContentRelease(client, frozen, { expectedDatabase: database, baselineStateSha256: before.sha256 });
       const repeated = await publishContentRelease(client, frozen, { expectedDatabase: database });
       same(first.database, repeated.database, 'duplicate import changed any row, schema or sequence');
+      const timelineDocumentGuards = { first: first.timelineDocumentGuards, repeated: repeated.timelineDocumentGuards };
+      validateTimelineDocumentVerification(content, timelineDocumentGuards);
       await verifyOwnerReviewPermissions(client);
       const fullInserts = first.drafts.reduce((n, b) => n + b.inserted, 0) + (first.corrections?.inserted ?? 0);
       const eventInserts = first.reviews.reduce((n, b) => n + b.inserted + b.updated, 0);
@@ -99,12 +103,14 @@ export async function verifyContentReleaseFromDump(frozen, dumpFile, { config = 
         check(after.is_called === (delta > 0 ? true : value.is_called), `unexpected sequence call state ${name}`);
       }
       return { verified: true, oldRowsPreserved: true, sequenceDeltasVerified: true, idempotent: true, permissionsVerified: true,
-        newParagraphs: first.newParagraphs, fullInserts, eventInserts, rebound: first.rebound, finalDatabaseSha256: first.database.sha256 };
+        newParagraphs: first.newParagraphs, fullInserts, eventInserts, timelineDocumentGuards, rebound: first.rebound, finalDatabaseSha256: first.database.sha256 };
     });
     same(releaseImplementationFingerprint(), implementation, 'implementation changed during isolated verification');
-    return { schemaVersion: 1, verified: true, checkedAt: new Date().toISOString(), fingerprint: frozen.fingerprint, implementation,
+    const verified = { schemaVersion: 1, verified: true, checkedAt: new Date().toISOString(), fingerprint: frozen.fingerprint, implementation,
       baselineDumpSha256: dumpSha256, baselineDatabaseSha256: content.baseline.databaseSha256, failures, success,
       actualDumpRestoredForEveryAttempt: true, formalDatabaseWritten: false, humanReviewed: false };
+    validateFormalReleaseVerification(frozen, verified, { baselineStateSha256: content.baseline.databaseSha256 });
+    return verified;
   } finally { await admin.end(); }
 }
 
@@ -124,14 +130,11 @@ export async function runContentReleaseCli(args) {
   }
   if (command === 'publish') {
     check(input && rest.length === 4 && rest[3] === '--allow-formal', 'publish FROZEN.json VERIFIED.json DATABASE RECEIPT.json --allow-formal');
-    const frozen = read(input), content = validateContentRelease(frozen), verified = read(rest[0]), config = loadConfig();
+    const frozen = read(input), content = validateContentRelease(frozen), verified = read(rest[0]);
+    validateFormalReleaseVerification(frozen, verified, { baselineStateSha256: content.baseline?.databaseSha256 });
     validateMilitaryReleaseQualification(content);
+    const config = loadConfig();
     check(rest[1] === config.database.database, 'formal database must exactly match configured database');
-    check(verified.verified === true && verified.fingerprint === frozen.fingerprint && verified.actualDumpRestoredForEveryAttempt === true
-      && verified.formalDatabaseWritten === false && verified.success?.idempotent === true && verified.success?.permissionsVerified === true
-      && verified.failures?.length === releaseFaultStages.length && releaseFaultStages.every(s => verified.failures.some(f => f.stage === s && f.verified)), 'complete independent baseline verification required');
-    check(verified.baselineDumpSha256 === content.baseline?.dumpSha256 && verified.baselineDatabaseSha256 === content.baseline?.databaseSha256, 'verification baseline differs');
-    same(verified.implementation, releaseImplementationFingerprint(), 'verified implementation differs');
     check(!existsSync(resolve(rest[2])), 'formal publication receipt already exists; inspect it rather than overwriting');
     privateOutput(rest[2]);
     const client = new pg.Client(adminDatabase(config));

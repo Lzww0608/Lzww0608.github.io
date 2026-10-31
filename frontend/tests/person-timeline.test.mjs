@@ -38,7 +38,7 @@ const archive = async (url, inputDocument = document, inputSource = source) => {
 
 test('every real timeline document remains readable with exact canonical sources and complete published translations when the API is offline', async () => {
   const root = new URL('../../content/person-timelines/', import.meta.url);
-  const documents = readdirSync(root).filter(file => file.endsWith('.json')).map(file => JSON.parse(readFileSync(new URL(file, root), 'utf8')));
+  const documents = readdirSync(root).filter(file => file.endsWith('.json') && file !== 'catalog.json').map(file => JSON.parse(readFileSync(new URL(file, root), 'utf8')));
   assert.ok(documents.some(document => document.personId === 'li-keyong'));
   assert.ok(documents.some(document => document.personId === 'li-cunxu'));
   const chapters = new Map(allChapters.map(chapter => [chapter.id, chapter]));

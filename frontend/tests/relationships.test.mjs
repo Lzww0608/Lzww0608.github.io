@@ -112,6 +112,7 @@ test('Zhuangzong-era additions preserve actual commanders and adopted identities
     ['li-siyuan', 'yuan-xingqin', 'adoption'],
     ['li-cunxu', 'yuan-xingqin', 'service'],
     ['li-jiji', 'ren-huan', 'service'],
+    ['li-cunxu', 'ren-huan', 'service'],
     ['fu-xi', 'wu-zhen', 'service'],
     ['li-siyuan', 'gao-xingzhou', 'service'],
     ['li-siyuan', 'wang-jianli', 'service'],
@@ -135,7 +136,7 @@ test('Zhuangzong-era additions preserve actual commanders and adopted identities
     assert.equal(links.some(edge => edge.kind === 'kinship' || edge.label === '父子'), false, `${commander}: Yuan Xingqin is not a biological son`);
   }
   assert.equal(personRelationships.some(edge => edge.from === 'li-cunxu' && edge.to === 'yuan-xingqin' && edge.kind === 'adoption'), false, 'Li Siyuan’s adopted son is not assigned a second, unsupported adoptive father');
-  for (const officer of ['ren-huan', 'wu-zhen', 'gao-xingzhou', 'wang-jianli', 'shi-jingtang', 'liu-zhiyuan', 'shi-junli']) {
+  for (const officer of ['wu-zhen', 'gao-xingzhou', 'wang-jianli', 'shi-jingtang', 'liu-zhiyuan', 'shi-junli']) {
     assert.equal(personRelationships.some(edge => edge.from === 'li-cunxu' && edge.to === officer && edge.kind === 'service'), false, `${officer}: serving in this reign does not imply direct service under Li Cunxu`);
   }
 });

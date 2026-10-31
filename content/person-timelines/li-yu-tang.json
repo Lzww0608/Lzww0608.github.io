@@ -1,0 +1,1653 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "li-yu-tang",
+  "events": [
+    {
+      "id": "li-yu-tang-letter-to-han-jian",
+      "title": "上韩建书劝图昭宗复位",
+      "summary": "客居华阴时，李愚上韩建书，劝其率先檄告诸侯、谋昭宗复位。韩建礼遇而未采用其策，李愚辞去。",
+      "year": 900,
+      "precision": "month",
+      "sortOrder": 10,
+      "sourceDate": "《通鉴》光化三年十一月项下，未独记上书日；旧本传光化中及其时长叙法另列。",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p30",
+          "originalRevision": 1,
+          "originalSha256": "3c88626dbc0495eb5ecd5616880f8759f4f69a0a041578b4feb749cc1420508c",
+          "excerpt": "進士無棣李愚客遊華州，上韓建書，略曰："
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "excerpt": "光化中，軍容劉季述、王奉先廢昭宗，立裕王，五月餘，諸侯無奔問者。愚時在華陰，致書於華帥韓建"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p30",
+          "originalRevision": 1,
+          "originalSha256": "3c88626dbc0495eb5ecd5616880f8759f4f69a0a041578b4feb749cc1420508c",
+          "excerpt": "建雖不能用，厚待之，愚堅辭而去。"
+        }
+      ],
+      "notes": [
+        "劝说计划与韩建实际行动分开，不写韩建出兵。",
+        "旧本传光化中、五月余与书中月余分层保留，不将五月余当五月月名；《通鉴》所系十一月只支持本源月份。"
+      ],
+      "variants": [
+        {
+          "label": "书中称名及身份差异",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧传称“关东一布衣”，通鉴起首称“进士无棣李愚”；旧传王奉先与通鉴前文王仲先亦须分源，不默改底本。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p14",
+              "originalRevision": 1,
+              "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+              "excerpt": "仆關東一布衣耳"
+            },
+            {
+              "chapterId": "tongjian-v262",
+              "paragraphId": "tongjian-v262-p30",
+              "originalRevision": 1,
+              "originalSha256": "3c88626dbc0495eb5ecd5616880f8759f4f69a0a041578b4feb749cc1420508c",
+              "excerpt": "進士無棣李愚客遊華州，上韓建書"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-li-yanguang-recommendation",
+      "title": "经李延光荐召入梁廷",
+      "summary": "梁末帝即位后，侍讲李延光屡赞李愚学行；末帝召见赏识，擢为左拾遗，不久充崇政院直学士。",
+      "year": 916,
+      "precision": "month",
+      "sortOrder": 10,
+      "sourceDate": "《通鉴》贞明二年正月记召官；旧传屡荐、召见与俄充各为过程，不强定同日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "梁末帝嗣位，雅好儒士，延光素相款奉，得侍講禁中，屢言愚之行高學贍，有史魚、蘧瑗之風。召見，嗟賞久之，擢為左拾遺。俄充崇政院直學士"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p60",
+          "originalRevision": 1,
+          "originalSha256": "84bb2b0e41b55bf49ba4e43d6c883938e484cd641dc92eadc5dd992da733619b",
+          "excerpt": "帝聞前河南府參軍李愚學行，召為左拾遺，充崇政院直學士。"
+        }
+      ],
+      "notes": [
+        "召官的正月与后续久之罢任分开。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-shu-commander-judge",
+      "title": "参魏王军事，任伐蜀都统判官",
+      "summary": "同光三年伐蜀，李愚以翰林学士参预魏王李继岌军机；旧传记魏王请为都统判官，仍带本职从军。",
+      "year": 925,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "同光三年九月辛丑诏参魏王军事；都统判官辟署与从军另见本传，不强同日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "三年，魏王繼岌征蜀，請為都統判官，仍帶本職從軍。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p6",
+          "originalRevision": 1,
+          "originalSha256": "81973e0ec33f4916334c3742dd9438b58766cf48f0fcb3b51f50a4b866f0f929",
+          "excerpt": "詔工部尚書任圜、翰林學士李愚參魏王軍事。"
+        },
+        {
+          "chapterId": "tongjian-v273",
+          "paragraphId": "tongjian-v273-p107",
+          "originalRevision": 1,
+          "originalSha256": "63aa7fe7b73caa3664f4ea13a00706c61917c0f62a0605465c5a641f69ff5209",
+          "excerpt": "辛丑，以工部尚書任圜、翰林學士李愚並參預都統軍機。"
+        }
+      ],
+      "notes": [
+        "参谋及判官，不写为独立都统或李愚领六万兵。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-rebuke-chen-yi",
+      "title": "斥陈乂称疾，主张严军纪",
+      "summary": "陈乂到宝鸡称疾求留，李愚厉声主张斩以徇，军中由此不敢迟留顾望。",
+      "year": 925,
+      "precision": "month",
+      "sortOrder": 20,
+      "sourceDate": "《通鉴》同光三年冬十月，未独系责陈乂日；本传行军中同事。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "招討判官陳乂至寶雞，稱疾乞留在後。愚厲聲曰：「陳乂見利則進，懼難則止。今大軍涉險，人心易惑，正可斬之以徇。」由是軍人無遲留者。"
+        },
+        {
+          "chapterId": "tongjian-v273",
+          "paragraphId": "tongjian-v273-p111",
+          "originalRevision": 1,
+          "originalSha256": "32a4e81e23a6d82b28eae433b80fb23238cc09a3f6289ef6be302214b15a71c7",
+          "excerpt": "冬，十月，排陳斬斫使李紹琛與李嚴將驍騎三千、步兵萬人為前鋒，招討判官陳乂至寶雞，稱疾乞留。"
+        }
+      ],
+      "notes": [
+        "主张处斩不等于陈乂已被杀，不造其死日。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-urge-swift-shu-advance",
+      "title": "劝郭崇韬乘势速进",
+      "summary": "众议蜀险不可长驱时，李愚答郭崇韬，谓蜀人厌主，宜迅速击破其心，不能缓师；前军得粮，郭崇韬赞其料事。",
+      "year": 925,
+      "precision": "month",
+      "sortOrder": 30,
+      "sourceDate": "《通鉴》同光三年十月伐蜀叙事；问计含追叙，不将“是日”前锋捷报改为问计确日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "物議以蜀險阻，未可長驅，郭崇韜問計於愚"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p33",
+          "originalRevision": 1,
+          "originalSha256": "13b6169b7460b0ee2cfb65f6ce061ef83ac0d6d0af67e66b97e75fefe5bb5495",
+          "excerpt": "其利在速，不可緩也。"
+        },
+        {
+          "chapterId": "tongjian-v273",
+          "paragraphId": "tongjian-v273-p113",
+          "originalRevision": 1,
+          "originalSha256": "07f9bc20938cd014786a31d15a7c74c65c3840ad583f5182ad139f822f90fd7a",
+          "excerpt": "兵勢不可緩也。"
+        }
+      ],
+      "notes": [
+        "建议、郭的采纳赞语与前锋战果分开。"
+      ],
+      "variants": [
+        {
+          "label": "获粮处与数额叙法",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧传本段写前军至固镇得粮十五万斛；通鉴将威武城、凤州及三泉的不同粮数分叙，不能混成李愚亲夺一处同一数。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p16",
+              "originalRevision": 1,
+              "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+              "excerpt": "及前軍至固鎮，收軍食十五萬斛，崇韜喜"
+            },
+            {
+              "chapterId": "tongjian-v273",
+              "paragraphId": "tongjian-v273-p113",
+              "originalRevision": 1,
+              "originalSha256": "07f9bc20938cd014786a31d15a7c74c65c3840ad583f5182ad139f822f90fd7a",
+              "excerpt": "得城中糧二十萬斛。"
+            },
+            {
+              "chapterId": "tongjian-v273",
+              "paragraphId": "tongjian-v273-p113",
+              "originalRevision": 1,
+              "originalSha256": "07f9bc20938cd014786a31d15a7c74c65c3840ad583f5182ad139f822f90fd7a",
+              "excerpt": "又得糧十五萬斛於三泉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-libu-shilang",
+      "title": "任礼部侍郎，仍充翰林职",
+      "summary": "天成二年四月己丑，李愚由翰林承旨、守中书舍人授礼部侍郎，仍充原职。",
+      "year": 927,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "旧史天成二年夏四月己丑，为礼部侍郎、仍充职。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v038",
+          "paragraphId": "old-v038-p8",
+          "originalRevision": 1,
+          "originalSha256": "0064015f5aec276c51fe879ee7c683f2d26159119f4509c24c007bb82378e3b4",
+          "excerpt": "以翰林承旨、守中書舍人李愚為禮部侍郎充職。"
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-bingbu-shilang",
+      "title": "迁兵部侍郎，职如故",
+      "summary": "天成四年八月丁未，李愚从礼部侍郎迁兵部侍郎，仍保有翰林学士承旨、知制诰等职。",
+      "year": 929,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "旧史天成四年八月丁未，兵部侍郎，翰林等职如故。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v040",
+          "paragraphId": "old-v040-p8",
+          "originalRevision": 1,
+          "originalSha256": "eec7f52552a5eef0b3235e7baa01dc4de0ba99c09f4d8fb6322b5ec9e2d97aaa",
+          "excerpt": "丁未，以翰林學士承旨、禮部侍郎、知制誥李愚為兵部侍郎，職如故。"
+        }
+      ],
+      "notes": [
+        "职如故不将礼部侍郎也判为仍兼；原翰林职及知制诰有据。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-taichang-qing",
+      "title": "由翰林承旨改太常卿",
+      "summary": "长兴元年五月辛卯，李愚由翰林承旨、兵部侍郎任太常卿。新史叙其草加恩制，冯道鄙其辞而罢原职。",
+      "year": 930,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "旧史长兴元年五月辛卯任太常卿；新史草加恩制的前因未独系本日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p12",
+          "originalRevision": 1,
+          "originalSha256": "65639967ab7f483e08c4bb98c1c4c3c94ac51b15b69529294c23d9434794a135",
+          "excerpt": "辛卯，以翰林承旨、兵部侍郎李愚為太常卿。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "長興初，除太常卿"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史所叙改官缘由",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "新史34段将改太常卿接草冯道赵凤加恩制、冯道鄙其辞；旧纪只记任命，不强说冯道亲令罢官。",
+          "evidence": [
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p34",
+              "originalRevision": 1,
+              "originalSha256": "944953903fc00bd0f16316379619ef13ddcfa00a2c7b784577db1940b6d44335",
+              "excerpt": "愚為宰相馮道、趙鳳草加恩制，道鄙其辭，罷為太常卿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-chancellor-appointment",
+      "title": "拜中书侍郎、平章事",
+      "summary": "长兴二年三月丁亥，太常卿李愚拜中书侍郎、平章事；旧纪并载集贤殿大学士，旧传说其时赵凤出镇邢台。",
+      "year": 931,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "长兴二年三月丁亥入相；新史正文误接任圜与卷末订误分源。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v042",
+          "paragraphId": "old-v042-p3",
+          "originalRevision": 1,
+          "originalSha256": "ca5b11fd290ba4a8ac89dea89d0d2e1cc4c598cc5a5578fda3e94a496b27d907",
+          "excerpt": "丁亥，以太常卿李愚為中書侍郎、平章事、集賢殿大學士。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p16",
+          "originalRevision": 1,
+          "originalSha256": "ebb64575f71da59af0cb81e11abbf7775d6a2953a70de38ad8e6cafb0ebb23c0",
+          "excerpt": "三月，趙鳳罷。丁亥，太常卿李愚為中書侍郎、同中書門下平章事。"
+        },
+        {
+          "chapterId": "tongjian-v277",
+          "paragraphId": "tongjian-v277-p79",
+          "originalRevision": 1,
+          "originalSha256": "6421991481413a7989820568b2a4013aef49c3a89e83f93171d04b7bfb84b7ca",
+          "excerpt": "丁亥，以太常卿李愚為中書侍郎、同平章事。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "屬趙鳳出鎮邢台，乃拜中書侍郎、平章事，轉集賢殿大學士。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史主传错接任圜",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "新史34段正文作任圜罢相后拜李愚，44段校注已据本纪及旧传辨其错接；底本及译文保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p34",
+              "originalRevision": 1,
+              "originalSha256": "944953903fc00bd0f16316379619ef13ddcfa00a2c7b784577db1940b6d44335",
+              "excerpt": "任圜罷相，乃拜愚中書侍郎、同平章事。"
+            },
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p44",
+              "originalRevision": 1,
+              "originalSha256": "7ce2c5ccec97fdd25662d122aef3852b865612b4ea147f1ed0cab7cad840caf4",
+              "excerpt": "纂誤卷下疑「史之所書本謂趙鳳，而誤為任圜也」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-classics-printing-project",
+      "title": "与冯道议校刻诸经",
+      "summary": "明宗时，李愚与冯道委田敏等依西京石经校刻诸经，传播后学；通鉴并记朝廷采纳其刻板印卖请求。",
+      "year": 932,
+      "precision": "year",
+      "sortOrder": 10,
+      "sourceDate": "明宗时奏请校刻诸经；长兴三年二月辛未中书奏获从另见本纪，不将项目各步骤都限定该日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v126",
+          "paragraphId": "old-v126-p3",
+          "originalRevision": 1,
+          "originalSha256": "d72d3e404846615e8e3b28407780fd31c6c1be8d7f3600d3c670406f14b900d8",
+          "excerpt": "時以諸經舛繆，與同列李愚委學官田敏等，取西京鄭覃所刊石經，雕為印版，流布天下，後進賴之。"
+        },
+        {
+          "chapterId": "tongjian-v291",
+          "paragraphId": "tongjian-v291-p57",
+          "originalRevision": 1,
+          "originalSha256": "eb1faad6cb1f158ed6b627d62ce9cf9a55f468119dd776ff3dcb65015a466bba",
+          "excerpt": "初，唐明宗之世，宰相馮道、李愚請令判國子監田敏校正《九經》，刻板印賣，朝廷從之。"
+        },
+        {
+          "chapterId": "old-v043",
+          "paragraphId": "old-v043-p2",
+          "originalRevision": 1,
+          "originalSha256": "d92c5308cb3d7ff2a6f08edd896573c939d8fed20f12c964f60e77a2a6ff7095",
+          "excerpt": "辛未，中書奏：「請依石經文字刻《九經》印板。」從之。"
+        }
+      ],
+      "notes": [
+        "后周板成是项目的后续结果，不表示李愚当时仍在世参与。"
+      ],
+      "variants": [
+        {
+          "label": "后周板成属于身后项目结果",
+          "sourceDate": "后周广顺三年六月，回叙明宗世奏请；属于项目后续。",
+          "summary": "通鉴291本段接“丁巳板成献之”，不是李愚到后周仍任事；可作为本项目后续说明，不另造在世新事件。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v291",
+              "paragraphId": "tongjian-v291-p57",
+              "originalRevision": 1,
+              "originalSha256": "eb1faad6cb1f158ed6b627d62ce9cf9a55f468119dd776ff3dcb65015a466bba",
+              "excerpt": "丁巳，板成，獻之。由是，雖亂世，《九經》傳佈甚廣。"
+            }
+          ]
+        },
+        {
+          "label": "旧纪夹注为同源引证",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧纪43p2夹注引爱日斋丛钞再引通鉴，非第二独立同时代署名奏章。",
+          "evidence": [
+            {
+              "chapterId": "old-v043",
+              "paragraphId": "old-v043-p2",
+              "originalRevision": 1,
+              "originalSha256": "d92c5308cb3d7ff2a6f08edd896573c939d8fed20f12c964f60e77a2a6ff7095",
+              "excerpt": "唐明宗之世，宰相馮道、李愚請令判國子監田敏校定《九經》，刻板印賣，從之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-menxia-history-supervision",
+      "title": "转门下侍郎，监修国史",
+      "summary": "长兴三年八月丙寅，李愚任门下侍郎、平章事、监修国史。",
+      "year": 932,
+      "precision": "day",
+      "sortOrder": 20,
+      "sourceDate": "旧史长兴三年八月丙寅，门下侍郎、平章事、监修国史。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v043",
+          "paragraphId": "old-v043-p8",
+          "originalRevision": 1,
+          "originalSha256": "e6a4ec4dc0ee52bb457ee31cae4d8ea50ae70eef8393ddbe899123eefd8661ad",
+          "excerpt": "丙寅，以宰臣李愚為門下侍郎、平章事、監修國史。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p17",
+          "originalRevision": 1,
+          "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+          "excerpt": "後轉門下侍郎，監修國史，兼吏部尚書"
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-illness-imperial-gifts",
+      "title": "病居简陋，获明宗赐物",
+      "summary": "长兴四年三月李愚病，明宗遣翟光邺宣问，因闻其居处简陋，赐绢百匹、钱十万及铺陈物十三件。",
+      "year": 933,
+      "precision": "day",
+      "sortOrder": 10,
+      "sourceDate": "旧史长兴四年三月丙戌赐物；病始、宣问与来使回报不自动同日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v044",
+          "paragraphId": "old-v044-p3",
+          "originalRevision": 1,
+          "originalSha256": "64ad6eb42b044203df66c2c6805a38f5937700d254a47c5e4edb391e726c16a9",
+          "excerpt": "丙戌，賜宰相李愚絹百匹、錢十萬、鋪陳物一十三件。時愚病，帝令近臣翟光鄴宣問，所居寢室，蕭然四壁，病榻弊氈而已。光鄴具言其事，故有是賜。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p17",
+          "originalRevision": 1,
+          "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+          "excerpt": "愚初不治第，既命為相，官借延賓館居之。"
+        }
+      ],
+      "notes": [
+        "赐钱十万即旧传夹注百千，数值表达并不另造数量异说。"
+      ],
+      "variants": [
+        {
+          "label": "探病称谓差异",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧纪称近臣翟光邺，旧传夹引职官分纪称中使，新史称宦官；分书保存，不仅凭称谓扩其身份。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p17",
+              "originalRevision": 1,
+              "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+              "excerpt": "明宗遣中使宣問"
+            },
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p34",
+              "originalRevision": 1,
+              "originalSha256": "944953903fc00bd0f16316379619ef13ddcfa00a2c7b784577db1940b6d44335",
+              "excerpt": "明宗遣宦官視之"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-appoint-remonstrators-historians",
+      "title": "奏用谏官直史馆",
+      "summary": "长兴四年七月，朝廷从李愚奏，以尹拙、王慎徽为左右拾遗直史馆；旧纪记谏官直史馆自尹拙始。",
+      "year": 933,
+      "precision": "month",
+      "sortOrder": 20,
+      "sourceDate": "长兴四年七月，尹拙授职另有丁丑日；王慎徽只同月，不将两人均强系丁丑。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v018",
+          "paragraphId": "huiyao-v018-p34",
+          "originalRevision": 1,
+          "originalSha256": "89dd9746978ed4c03fb6216a8703af9ee97c0ed7075a96ec4ce008f0fa1a4fee",
+          "excerpt": "其年七月，以著作佐郎尹拙為左拾遺直史館，王慎徽為右拾遺直史館。從監修宰臣李愚奏也。"
+        },
+        {
+          "chapterId": "old-v044",
+          "paragraphId": "old-v044-p7",
+          "originalRevision": 1,
+          "originalSha256": "e6f563c0d48fb631914c9e0d45be1dd911f9c42b018bd04b778248ec810f6034",
+          "excerpt": "秋七月丁丑，以著作佐郎尹拙為左拾遺，直史館。國朝舊制，皆以畿赤尉直史館，今用諫官自拙始，從監修李愚奏也。"
+        }
+      ],
+      "notes": [
+        "旧纪丁丑只明确尹拙，不把王慎徽也无条件写成同一干支日；史馆前半长疏不全归李愚个人。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-libu-shangshu-added",
+      "title": "加吏部尚书",
+      "summary": "长兴四年九月丙戌，宰臣李愚加吏部尚书。",
+      "year": 933,
+      "precision": "day",
+      "sortOrder": 30,
+      "sourceDate": "旧史长兴四年九月丙戌加吏部尚书。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v044",
+          "paragraphId": "old-v044-p9",
+          "originalRevision": 1,
+          "originalSha256": "27c70bac4c121a2f4a711f79ec68ed28a72439ea280fabd39029d49576e3147a",
+          "excerpt": "丙戌，宰臣馮道加左僕射，李愚加吏部尚書，劉煦加刑部尚書。"
+        }
+      ],
+      "notes": [
+        "冯道左仆射、刘煦刑部尚书不误接李愚。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-mindi-consultation-concern",
+      "title": "忧闵帝延访少及宰相",
+      "summary": "闵帝服丧易月期除后召学士读政要实录，李愚私谓同列皇帝很少顾问宰相，自己位高责重而担忧，众不敢应。",
+      "year": 934,
+      "precision": "year",
+      "sortOrder": 10,
+      "sourceDate": "终易月后召读、李愚私忧少被顾问；旧纪丁卯释服已在西历934，不将私语强系辛未御殿日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+          "excerpt": "易月之制才除，便延訪學士讀《貞觀政要》、《太宗實錄》"
+        },
+        {
+          "chapterId": "tongjian-v278",
+          "paragraphId": "tongjian-v278-p85",
+          "originalRevision": 1,
+          "originalSha256": "7bd2fe3665e777476d7b22b2b70ba892ed3e281a038c4e785ebe46c2c2913858",
+          "excerpt": "李愚私謂同列曰：「吾君延訪，鮮及吾輩，位高責重，事亦堪憂。」眾惕息不敢應。"
+        },
+        {
+          "chapterId": "old-v045",
+          "paragraphId": "old-v045-p4",
+          "originalRevision": 1,
+          "originalSha256": "c5683c79f5a74b9d21f65f089d72c8956b92113ea0843089728b3b069498cf96",
+          "excerpt": "丁卯，帝釋縗服，群臣三上表，請復常膳，禦正殿，從之。"
+        }
+      ],
+      "notes": [
+        "不写李愚被禁言或已公开上谏，原文仅私谓同列。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-mindi-pushe-promotion",
+      "title": "闵帝朝进位仆射",
+      "summary": "闵帝朝李愚按恩例加仆射，旧纪作右仆射，旧传作左仆射，左右称法分源保留。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 20,
+      "sourceDate": "旧纪应顺元年正月庚辰加右仆射；旧传左仆射另列，不能凑成两次授命。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v045",
+          "paragraphId": "old-v045-p6",
+          "originalRevision": 1,
+          "originalSha256": "754e355538091b2dd790ff8f043c6d94cd757885cf2841c566da204b3251701c",
+          "excerpt": "庚辰，宰臣馮道加司空，李愚加右僕射，劉煦加吏部尚書，餘並如故。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧传左仆射",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧史主传18块记按恩例进位左仆射，不能将右字改掉或把左右解为当然两次任命。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p18",
+              "originalRevision": 1,
+              "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+              "excerpt": "以恩例進位左僕射。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-merit-biographies-presented",
+      "title": "监修进功臣列传三十卷",
+      "summary": "应顺元年闰正月，李愚以平章事、监修国史与张昭远等进新修唐功臣列传三十卷；旧传称其与诸儒修成创业功臣传三十卷。",
+      "year": 934,
+      "precision": "month",
+      "sortOrder": 30,
+      "sourceDate": "《会要》应顺元年闰正月进书，未记日；旧传修成记载与七月张昭远另进的记录分层。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v018",
+          "paragraphId": "huiyao-v018-p26",
+          "originalRevision": 1,
+          "originalSha256": "df63bb3ca193077eeee54d7fb5404eb19a57827c1f83228e1f05893f8531b98e",
+          "excerpt": "應順元年閏正月，平章事監修國史李愚與修撰判館事張昭遠等，進新修唐功臣列傳三十卷。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p17",
+          "originalRevision": 1,
+          "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+          "excerpt": "與諸儒修成《創業功臣傳》三十卷。"
+        }
+      ],
+      "notes": [
+        "不写李愚独撰全部三十卷。"
+      ],
+      "variants": [
+        {
+          "label": "同年七月另条进书",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧纪46p23另记张昭远上庄宗朝列传三十卷；是否同一书或再次呈进不在现证中定并。",
+          "evidence": [
+            {
+              "chapterId": "old-v046",
+              "paragraphId": "old-v046-p23",
+              "originalRevision": 1,
+              "originalSha256": "b88bf47f164ed829c72bf0e5e999f22b9616938f69cc6faaf709cd47f65ff977",
+              "excerpt": "乙丑，史官張昭遠以所撰莊宗朝列傳三十卷上之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-seek-dowager-instructions",
+      "title": "闵帝出走后欲请太后进止",
+      "summary": "闵帝北走后，李愚主张至中书遣宦官请太后指示；冯道认为不宜无君入宫，主张归俟教令。后在迎潞王的过程中，李愚认可卢导反对遽草劝进之言。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 40,
+      "sourceDate": "《通鉴》应顺元年三月己巳及同次迎潞王过程；各对答不强系同一时刻。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v279",
+          "paragraphId": "tongjian-v279-p18",
+          "originalRevision": 1,
+          "originalSha256": "aec23f35b2cb5f1faba7f7581db902f450b8cff9182dc98603161fc7b0e999b8",
+          "excerpt": "今太后在宮，吾輩當至中書，遣小黃門取太后進止，然後歸第，人臣之義也。"
+        },
+        {
+          "chapterId": "tongjian-v279",
+          "paragraphId": "tongjian-v279-p18",
+          "originalRevision": 1,
+          "originalSha256": "aec23f35b2cb5f1faba7f7581db902f450b8cff9182dc98603161fc7b0e999b8",
+          "excerpt": "李愚曰：「舍人之言是也。吾輩之罪，擢發不足數。」"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p38",
+          "originalRevision": 1,
+          "originalSha256": "625cf9680d68213ceea3a312c99aeaf8608d970136a782510da2bcbccd979303",
+          "excerpt": "李愚曰：「吾輩罪人，盧舍人言是也。」導終不草牋。"
+        }
+      ],
+      "notes": [
+        "自责语不作法律定罪；不写李愚草成劝进笺。迎接、等旨、拒草的施事分别。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-announce-congke-accession-certificate",
+      "title": "摄中书令宣即位册书",
+      "summary": "应顺元年四月六日乙亥，监国李从珂于西宫柩前告奠即位，摄中书令李愚宣读册书。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 50,
+      "sourceDate": "原册应顺元年四月六日乙亥；原年号照存，同历核验不采用越范围的应顺四月回退。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p11",
+          "originalRevision": 1,
+          "originalSha256": "976083a6c36f69a5d12414911fd495ed2ffa791a040d1c436e5dbf399c3ae23d",
+          "excerpt": "乙亥，監國赴西宮，柩前告奠即位。攝中書令李愚宣冊書曰："
+        }
+      ],
+      "notes": [
+        "册书正文以冯道等上言，不能由李愚宣读就判其独撰。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-author-mingzong-ai-ce",
+      "title": "为明宗撰哀册文",
+      "summary": "明宗葬事中，李愚撰哀册文，刘昫撰谥册、卢文纪撰谥议，各有分工。",
+      "year": 934,
+      "precision": "month",
+      "sortOrder": 60,
+      "sourceDate": "明宗四月葬事叙次；二十七日属葬日，不作李愚哀册撰成日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v044",
+          "paragraphId": "old-v044-p13",
+          "originalRevision": 1,
+          "originalSha256": "e28493a6578220b3ffb0f60d74503aa1f46cd52d414c6dbfead00eb41037656e",
+          "excerpt": "宰臣劉煦撰諡冊文，宰臣李愚撰哀冊文，是月二十七日葬於徽陵。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p5",
+          "originalRevision": 1,
+          "originalSha256": "78c367e02824a9f1d1129d58976e31198ee69197129e1d05e7ac718527963c1a",
+          "excerpt": "哀冊文，〈左僕射、平章事李愚撰。〉"
+        }
+      ],
+      "notes": [
+        "事件日期可核至葬事月；不能把二十七日葬日当哀册文写成日。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-mingzong-fumiao-duty",
+      "title": "奉差摄行明宗祔庙礼",
+      "summary": "清泰元年五月议明宗祔庙礼时，因冯道在假、刘昫请免，礼官奏比朝会例差李愚行事，朝廷从之。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 70,
+      "sourceDate": "清泰元年五月戊申礼议、差摄太尉；本月二十为预定祔庙日，差任不等于礼成。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p8",
+          "originalRevision": 1,
+          "originalSha256": "44cbae93c7f4b551ad5a9e7fc6d7aa7aa3baa0ab7a2b85b5b1308484d7468f1f",
+          "excerpt": "明宗今月二十日祔廟"
+        },
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p8",
+          "originalRevision": 1,
+          "originalSha256": "44cbae93c7f4b551ad5a9e7fc6d7aa7aa3baa0ab7a2b85b5b1308484d7468f1f",
+          "excerpt": "差李愚行事。」從之。"
+        },
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p18",
+          "originalRevision": 1,
+          "originalSha256": "bb3d1f56c29752c4a318e06dc5d94c41df36cf036a764e4a8bd47dff2bf1725c",
+          "excerpt": "李愚私忌，在致齊內。諸私忌日，遇大朝會入閣宣召，皆赴朝參。今祔廟事大，忌日屬私，請比大朝會宣召例。"
+        }
+      ],
+      "notes": [
+        "不作正式太尉升任，不补私忌是哪位亲属。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-taiwei-palace-and-hongwen",
+      "title": "加特进，充太微宫使与大学士",
+      "summary": "清泰元年五月，李愚以左仆射、门下侍郎、平章事、监修国史加特进，充太微宫使、宏文馆大学士，其余如故。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 80,
+      "sourceDate": "清泰元年五月庚申，承本卷五月段；不是六月。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p20",
+          "originalRevision": 1,
+          "originalSha256": "e2a4b33573ddfbeda97d511036cad117731d8208358541ac96e0155372b72c06",
+          "excerpt": "庚申，左僕射、門下侍郎、平章事、監修國史李愚加特進，充太微宮使、宏文館大學士，餘如故。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+          "excerpt": "清泰初，徽陵禮畢，馮道出鎮同州，愚加特進、太微宮使、宏文館大學士。"
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-dispute-with-liu-xu",
+      "title": "与刘昫争议政事，受帝告谕",
+      "summary": "冯道出镇后，李愚与其姻家刘昫议事屡不合，讥其亲家旧政，争至相诟。旧纪清泰元年七月丁未记二人政事堂相骂，末帝令刘延朗告谕制止。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 90,
+      "sourceDate": "清泰元年七月丁未是日相诟及宣谕；本传所叙长期争论不全属当日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p23",
+          "originalRevision": 1,
+          "originalSha256": "b88bf47f164ed829c72bf0e5e999f22b9616938f69cc6faaf709cd47f65ff977",
+          "excerpt": "是日，宰臣李愚、劉煦因論公事，於政事堂相詬，辭甚鄙惡，帝令樞密副使劉延朗宣諭"
+        },
+        {
+          "chapterId": "tongjian-v279",
+          "paragraphId": "tongjian-v279-p53",
+          "originalRevision": 1,
+          "originalSha256": "73c28abf1cac92bc4043de4bb4c4d4db84595dca64bfc02778506279781acb85",
+          "excerpt": "劉昫與馮道婚姻。"
+        },
+        {
+          "chapterId": "tongjian-v279",
+          "paragraphId": "tongjian-v279-p53",
+          "originalRevision": 1,
+          "originalSha256": "73c28abf1cac92bc4043de4bb4c4d4db84595dca64bfc02778506279781acb85",
+          "excerpt": "道既出鎮，二人論議多不合"
+        }
+      ],
+      "notes": [
+        "冯刘姻亲不转为李愚姻亲；不新增刘句第二人。"
+      ],
+      "variants": [
+        {
+          "label": "旧传局部刘句与现有刘昫身份桥",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "旧传18块刘句与冯道婚家、出镇后同李愚争论、两人俱罢，与新史35及通鉴279所叙同组角色及行为相符，仅据此局部桥接现有liu-xu-feng-dao-inlaw；不把“句”全局匹配成刘昫。",
+          "evidence": [
+            {
+              "chapterId": "old-v067",
+              "paragraphId": "old-v067-p18",
+              "originalRevision": 1,
+              "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+              "excerpt": "宰相劉句與馮道為婚家，道既出鎮，兩人在中書"
+            },
+            {
+              "chapterId": "new-v54",
+              "paragraphId": "new-v54-p35",
+              "originalRevision": 1,
+              "originalSha256": "2d531d055170c48479434a09e923672a15529195b907b941da55ab6960b90725",
+              "excerpt": "昫與馮道姻家，愚數以此誚昫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-removed-chancellor-left-pushe",
+      "title": "罢相守左仆射",
+      "summary": "清泰元年十月戊寅，李愚与刘昫同罢相，李愚守左仆射。会要雉兆条夹注留官称法不同，分源保存。",
+      "year": 934,
+      "precision": "day",
+      "sortOrder": 100,
+      "sourceDate": "清泰元年十月戊寅罢相；会要同月金雉辛未不作罢相日。",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v046",
+          "paragraphId": "old-v046-p26",
+          "originalRevision": 1,
+          "originalSha256": "7cac4939cb07ed7d7778a2f38934dffac7e237faabfc3e7e9468cd50a652af84",
+          "excerpt": "戊寅，宰臣李愚、劉煦罷相，以愚守左僕射，煦守右僕射。"
+        },
+        {
+          "chapterId": "tongjian-v279",
+          "paragraphId": "tongjian-v279-p69",
+          "originalRevision": 1,
+          "originalSha256": "971622acd78c6b8e5bb5c720ff4591e0759e5d9f5939b33e43dcde502b3f5e81",
+          "excerpt": "戊寅，左僕射、門下侍郎、同平章事李愚罷守本官"
+        }
+      ],
+      "notes": [
+        "雉入政事堂同月记事不写为罢相原因。"
+      ],
+      "variants": [
+        {
+          "label": "会要留官称法",
+          "sourceDate": "本传或另书补述，具体日期限其自身记载，不将主证日套给全部过程。",
+          "summary": "会要11p56夹注作李愚罢相守本官吏部尚书；不改旧史左仆射。",
+          "evidence": [
+            {
+              "chapterId": "huiyao-v011",
+              "paragraphId": "huiyao-v011-p56",
+              "originalRevision": 1,
+              "originalSha256": "893412ae06b36542eb9757fe9b0c8fcfa94e96bc61fe5c638b73fed7080e97ad",
+              "excerpt": "其月，僕射、平章事李愚罷相，守本官吏部尚書"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-village-rite-renewed-discussion",
+      "title": "再议乡饮酒仪，仍未施行",
+      "summary": "清泰二年九月，《会要》记李愚再提乡饮酒礼，太常奉令草定仪注，并访青州旧簿，最终仍不能实行。",
+      "year": 935,
+      "precision": "month",
+      "phase": "later",
+      "sortOrder": 10,
+      "sourceDate": "《会要》清泰二年九月，未记日；不以同月卒讯日或月初代替。",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p56",
+          "originalRevision": 1,
+          "originalSha256": "76b122e2e02c36c9d2eccf1d44565a8d34ff5b01a72cdafef8b0c1865b0b48d5",
+          "excerpt": "初，長興中，宰臣李愚好古，奏行此禮，累年不暇。至是愚復奏及"
+        },
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p56",
+          "originalRevision": 1,
+          "originalSha256": "76b122e2e02c36c9d2eccf1d44565a8d34ff5b01a72cdafef8b0c1865b0b48d5",
+          "excerpt": "遂令青州訪舊簿書以聞。竟不能行。"
+        }
+      ],
+      "notes": [
+        "只说明奏及与议定经过，不作礼成；该段仍称宰臣，不据此补李愚复相。",
+        "复议、请骸与去世虽同年，未明确记日者不强排为同日先后。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-petition-retirement",
+      "title": "晚病累乞骸，不获允",
+      "summary": "清泰二年秋，李愚患病多请假，屡上表乞骸致仕，未蒙允许。",
+      "year": 935,
+      "precision": "year",
+      "sortOrder": 20,
+      "sourceDate": "旧传清泰二年秋屡表乞骸未允；不将多次上表限在卒讯当日。",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+          "excerpt": "清泰二年秋，愚已嬰疾，率多請告，累表乞骸，不允"
+        }
+      ],
+      "notes": [
+        "乞骸是请求退休；未获允不写成已致仕。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-death-in-office",
+      "title": "病卒于位，朝廷废朝",
+      "summary": "李愚请骸未获准后病卒于官位。《旧五代史》本纪在清泰二年九月丙辰记因左仆射李愚去世而辍朝；此日不据为已经确证的实际死亡日。",
+      "year": 935,
+      "precision": "year",
+      "sortOrder": 30,
+      "sourceDate": "清泰二年秋、九月卒讯交叉支持西历935；本纪丙辰为因卒辍朝日，不强定实际死亡日。",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v047",
+          "paragraphId": "old-v047-p15",
+          "originalRevision": 1,
+          "originalSha256": "04c0c2dae5e44c711f7088333363154185f914d8a66408159ed232ce70f9d18d",
+          "excerpt": "丙辰，以左僕射李愚卒廢朝。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd8bd1608d66420da65acea67a979f53709a0a988f8548c67de6488f36ad1f9e",
+          "excerpt": "卒於位。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p35",
+          "originalRevision": 1,
+          "originalSha256": "2d531d055170c48479434a09e923672a15529195b907b941da55ab6960b90725",
+          "excerpt": "清泰二年以疾卒。"
+        }
+      ],
+      "notes": [
+        "卒于位为仍任左仆射，不是仍为宰相；无生年及年龄不倒补。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-anling-registrar",
+      "title": "受署安陵主簿",
+      "summary": "早年因贫求假官，获沧州卢彦威署为安陵主簿。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 10,
+      "sourceDate": "早年，卢彦威署安陵主簿，未载任命年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "excerpt": "愚初以艱貧，求為假官，滄州盧彥威署安陵簿。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p31",
+          "originalRevision": 1,
+          "originalSha256": "2ba481a4a1b8c2ef6f8838c57dcc93429bc223d9d3e1cb9efde4d77a1dc2dbfd",
+          "excerpt": "滄州節度使盧彥威以愚為安陵主簿，丁母憂解去。"
+        }
+      ],
+      "notes": [
+        "假官、署任不写成有制书可核的正式敕授。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-mourning-and-capital-study",
+      "title": "服丧后赴长安候举",
+      "summary": "任安陵主簿后因丧离职，服满赴长安候举；关辅乱离、连年罢举，遂客蒲州、华州间。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 20,
+      "sourceDate": "安陵任后服丧、赴长安候举，未载年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "excerpt": "丁憂，服闋，隨計之長安。屬關輔亂離，頻年罷舉，客於蒲、華之間。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p31",
+          "originalRevision": 1,
+          "originalSha256": "2ba481a4a1b8c2ef6f8838c57dcc93429bc223d9d3e1cb9efde4d77a1dc2dbfd",
+          "excerpt": "丁母憂解去。後遊關中，劉季述幽昭宗於東內"
+        }
+      ],
+      "notes": [
+        "旧传本句只称丁忧，新传明确母忧；无母名及母系身份，不接现有任一母亲节点。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-return-luoyang-pingquan",
+      "title": "避难归洛，往依平泉",
+      "summary": "天复初昭宗在凤翔、汴军攻蒲华时，李愚避难归洛阳，往依李德裕之孙延古所在的平泉旧墅，家中子弟采薪供食而不干求人。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 40,
+      "sourceDate": "旧史称天复初、昭宗在凤翔及汴军攻蒲华时；取天复年号901—904的宽界，不据“初”强定单年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "excerpt": "天復初，駕在鳳翔，汴軍攻蒲、華，愚避難東歸洛陽。時衛公李德裕孫延古在平泉舊墅，愚往依焉。子弟親采梠負薪，以給朝夕，未嘗幹人。"
+        }
+      ],
+      "notes": [
+        "延古与后文宗人李延光不同称名，不能并为一人；采薪者原文作子弟，不改李愚亲采或臆定子女名。"
+      ],
+      "yearRange": {
+        "start": 901,
+        "end": 904
+      }
+    },
+    {
+      "id": "li-yu-tang-exams-and-henan-office",
+      "title": "登进士宏词，任河南府参军",
+      "summary": "薛廷珪掌贡籍时李愚登进士第，又登宏词科，授河南府参军，后居洛阳城外白沙别墅。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 50,
+      "sourceDate": "薛廷珪掌贡籍之岁登第，未记年；与《通鉴》上书时已称进士的叙次差别保留。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p14",
+          "originalRevision": 1,
+          "originalSha256": "815b4b6985717fe66d0170bff56c2b09e60d8612e0eeb97dc8187a9c86ba7667",
+          "excerpt": "故少師薛廷珪掌貢籍之歲，登進士第；又登宏詞料，授河南府參軍，遂下居洛表白沙之別墅。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p31",
+          "originalRevision": 1,
+          "originalSha256": "2ba481a4a1b8c2ef6f8838c57dcc93429bc223d9d3e1cb9efde4d77a1dc2dbfd",
+          "excerpt": "舉進士、宏詞，為河南府參軍。"
+        }
+      ],
+      "notes": [
+        "底本“宏词料”保留，不暗改原字。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-leave-after-court-killings",
+      "title": "因朝士相残避地河朔",
+      "summary": "梁谋禅代、柳璨迎合旨意杀朝士时，李愚因衣冠自相残害离去，避地河朔，与宗人李延光客居山东。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 904,
+        "end": 907
+      },
+      "sortOrder": 60,
+      "sourceDate": "旧传记柳璨杀朝士、梁谋禅代时，新传称白马之祸后；旧史李振传将白马杀朝士系于天祐中。保唐天祐904—907宽界，不定离去的具体年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "梁有禪代之謀，柳璨希旨殺害朝士，愚以衣冠自相殘害，乃避地河朔，與宗人李延光客於山東。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p31",
+          "originalRevision": 1,
+          "originalSha256": "2ba481a4a1b8c2ef6f8838c57dcc93429bc223d9d3e1cb9efde4d77a1dc2dbfd",
+          "excerpt": "白馬之禍，愚復去之山東，與李延光相善"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p24",
+          "originalRevision": 1,
+          "originalSha256": "3d708cf620e861b3aebdfb7278e68ebe9e3ed65ffd35422d67251539465dad85",
+          "excerpt": "天祐中，唐宰相柳璨希太祖旨，譖殺大臣裴樞、陸扆等七人於滑州白馬驛。"
+        }
+      ],
+      "notes": [
+        "宗人只据同宗称谓，不推兄弟或具体亲等。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-hengwang-long-bow",
+      "title": "见衡王长揖，答末帝问责",
+      "summary": "衡王朱友谅入朝，李振等下拜，李愚只长揖。末帝责问时，他以皇帝行家人礼、自己身为朝臣与王无私解释不拜。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 80,
+      "sourceDate": "按《通鉴》贞明二年正月召授内职与旧传贞明中罢内职的叙次，保916—921任内宽界；本事未独记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "衡王入朝，重臣李振輩皆致拜，惟愚長揖。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p32",
+          "originalRevision": 1,
+          "originalSha256": "dec7acf626a486a27902c116797c039a06044727248c800f695610c66051e0fe",
+          "excerpt": "臣於王無所私，豈宜妄有所屈？"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p60",
+          "originalRevision": 1,
+          "originalSha256": "84bb2b0e41b55bf49ba4e43d6c883938e484cd641dc92eadc5dd992da733619b",
+          "excerpt": "臣於王無素，不敢妄有所屈。"
+        }
+      ],
+      "notes": [
+        "没有衡王报复或李振与李愚直接交恶的记载；不能仅同场连冲突边。"
+      ],
+      "yearRange": {
+        "start": 916,
+        "end": 921
+      }
+    },
+    {
+      "id": "li-yu-tang-hua-wenqi-case",
+      "title": "坚持追按华温琪侵财之罪",
+      "summary": "晋州节度使华温琪违法侵夺民财，经使者劾问服罪；梁末帝念其旧功欲宽，李愚坚持按罪。末帝最后命官府代还所侵财物。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 90,
+      "sourceDate": "按《通鉴》贞明二年正月召授内职与旧传贞明中罢内职的叙次，保916—921任内宽界；本事未独记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "晉州節度使華溫琪在任違法，籍民家財，其家訟於朝，製使劾之，伏罪。梁末帝以先朝草昧之臣，不忍加法，愚堅按其罪。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "其華溫琪所受贓，宜官給代還所訟之家。"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p60",
+          "originalRevision": 1,
+          "originalSha256": "84bb2b0e41b55bf49ba4e43d6c883938e484cd641dc92eadc5dd992da733619b",
+          "excerpt": "帝聞前河南府參軍李愚學行，召為左拾遺，充崇政院直學士。"
+        }
+      ],
+      "notes": [
+        "未说李愚就是奉诏使者，也未说华温琪已被处刑；“官给代还”不写成华个人偿还。",
+        "范围只指李愚参与按罪的在朝时段，华温琪此前违法的时间未详。"
+      ],
+      "yearRange": {
+        "start": 916,
+        "end": 921
+      }
+    },
+    {
+      "id": "li-yu-tang-shanbu-sixun-offices",
+      "title": "历膳部司勋员外郎，受赐服色",
+      "summary": "李愚自拾遗先后迁膳部员外郎、司勋员外郎，并获赐绯服、紫服。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 100,
+      "sourceDate": "按《通鉴》贞明二年正月召授内职与旧传贞明中罢内职的叙次，保916—921任内宽界；本事未独记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "愚自拾遺再遷膳部員外郎，賜緋，改司勳員外郎，賜紫"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p60",
+          "originalRevision": 1,
+          "originalSha256": "84bb2b0e41b55bf49ba4e43d6c883938e484cd641dc92eadc5dd992da733619b",
+          "excerpt": "帝聞前河南府參軍李愚學行，召為左拾遺，充崇政院直學士。"
+        }
+      ],
+      "notes": [
+        "按先后列官，不把“再迁”机械作两次同官任命。"
+      ],
+      "yearRange": {
+        "start": 916,
+        "end": 921
+      }
+    },
+    {
+      "id": "li-yu-tang-li-xiao-hired-worker-case",
+      "title": "就李霄雇工杀人案辨其责任",
+      "summary": "贞明中，李霄所雇者殴“僦舍人”致死，法司依律归罪李霄。李愚称李霄未亲手斗殴，不应因雇工致人死亡而坐罪其主，由此忤旨。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 915,
+        "end": 921
+      },
+      "sortOrder": 110,
+      "sourceDate": "旧史记贞明中论李霄案，未记年月；贞明年号跨西历，保年号期间范围。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "貞明中，通事舍人李霄傭夫毆僦舍人致死，法司案律，罪在李霄。愚白：「李霄手不鬥毆。庸夫致死，安得坐其主耶！」以是忤旨。"
+        }
+      ],
+      "notes": [
+        "致死施事是李霄雇工，死者为僦舍人；李霄是被法司归责的雇主，不是死者。未载李愚意见最后获准，不补李霄无罪释放。",
+        "“僦舍人”的出租或承租身份未明，不据译名补为房东或承租人。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-xu-deng-judgeships",
+      "title": "罢内职，历许邓观察判官",
+      "summary": "李愚至此被罢内职，先后历许州、邓州观察判官；新史与通鉴概述为因言事或抗直罢任邓州。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 916,
+        "end": 921
+      },
+      "sortOrder": 120,
+      "sourceDate": "旧史接贞明中论狱后罢职；《通鉴》称久之，未给罢职独年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p15",
+          "originalRevision": 1,
+          "originalSha256": "cbb60c90244ed20755ccd303ad5184dcba31bf69c42c9602855f09d995cc02b9",
+          "excerpt": "至是罷職，曆許、鄧觀察判官。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p32",
+          "originalRevision": 1,
+          "originalSha256": "dec7acf626a486a27902c116797c039a06044727248c800f695610c66051e0fe",
+          "excerpt": "坐言事忤旨，罷為鄧州觀察判官。"
+        },
+        {
+          "chapterId": "tongjian-v269",
+          "paragraphId": "tongjian-v269-p60",
+          "originalRevision": 1,
+          "originalSha256": "84bb2b0e41b55bf49ba4e43d6c883938e484cd641dc92eadc5dd992da733619b",
+          "excerpt": "久之，竟以抗直罷為鄧州觀察判官。"
+        }
+      ],
+      "notes": [
+        "许州为旧传独见，不因另书未提而删；不将新史末句强定仅因长揖。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-zhang-li-praise",
+      "title": "张礪北归后称荐其节概文章",
+      "summary": "李愚在梁内职时，慈州举子张礪曾依附他；贞明中张礪北归庄宗后，称扬李愚节概及所作文章，北方由是知其名。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 915,
+        "end": 921
+      },
+      "sortOrder": 130,
+      "sourceDate": "贞明中张礪北归称荐，保915—921年号范围；此前寄依李愚是背景，未独记时间，不将两层过程写成同日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "初在內職，慈州舉子張礪依焉。貞明中，礪自河陽北歸莊宗，補授太原府掾，出入崇闥之間，揄揚愚之節概，及言愚之所為文《仲尼遇》、《顏回壽》、《夷齊非餓人》等篇，北人望風稱之。"
+        }
+      ],
+      "notes": [
+        "张礪的太原府掾不是李愚所任；贞明中“庄宗”为原史回称，当时是李存勖晋王阶段。文章题名只按底本保存，不虚造已归档全文。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-enter-later-tang",
+      "title": "奉邓帅奏章入唐廷",
+      "summary": "庄宗以洛阳为都后，邓州主帅使李愚持奏章入朝，唐廷诸贵礼接如旧；随后任主客郎中，数月后召翰林学士。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 923,
+        "end": 925
+      },
+      "sortOrder": 140,
+      "sourceDate": "庄宗迁都洛阳的决策与移驻过程见同光元年十一月至十二月，李愚入朝未独年月，保923—925宽界。十二月庚午抵洛已入924，不以该日为李愚入朝日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "洎莊宗都洛陽，鄧帥俾奏章入朝，諸貴見之，禮接如舊。尋為主客郎中，數月，召為翰林學士。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p33",
+          "originalRevision": 1,
+          "originalSha256": "13b6169b7460b0ee2cfb65f6ce061ef83ac0d6d0af67e66b97e75fefe5bb5495",
+          "excerpt": "唐莊宗滅梁，愚朝京師，唐諸公卿素聞愚學古，重之，拜主客郎中、翰林學士。"
+        },
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p3",
+          "originalRevision": 1,
+          "originalSha256": "4527593f9618b65fbfb910c66a48b0cec246e59d73308125ee87e7f5e7f8d782",
+          "excerpt": "同光元年（癸未，公元九二三年）"
+        },
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p53",
+          "originalRevision": 1,
+          "originalSha256": "6427cc5b7af7cd15dfcda91abe52cd32fcf383c9e23210fa9a220c39f54b0f31",
+          "excerpt": "十一月，始降制以新官命之。"
+        },
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p58",
+          "originalRevision": 1,
+          "originalSha256": "a67b89ee0af245a6ba65d3b5e634dc72915642b365d1cc58258425a9ee25326b",
+          "excerpt": "張全義請帝遷都洛陽，從之。"
+        },
+        {
+          "chapterId": "tongjian-v272",
+          "paragraphId": "tongjian-v272-p72",
+          "originalRevision": 1,
+          "originalSha256": "284c88cadb2dbf4f179b6860db1a7dab86fa3bfbf6911f8fbd65f1754536a72f",
+          "excerpt": "甲子，帝發大梁；十二月，庚午，至洛陽。"
+        },
+        {
+          "chapterId": "old-v033",
+          "paragraphId": "old-v033-p6",
+          "originalRevision": 1,
+          "originalSha256": "81973e0ec33f4916334c3742dd9438b58766cf48f0fcb3b51f50a4b866f0f929",
+          "excerpt": "詔工部尚書任圜、翰林學士李愚參魏王軍事。"
+        }
+      ]
+    },
+    {
+      "id": "li-yu-tang-military-documents-and-sheren",
+      "title": "掌伐蜀军书，蜀平拜中书舍人",
+      "summary": "旧传称伐蜀期间军书羽檄皆出李愚之手；平蜀后就军拜中书舍人。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 180,
+      "sourceDate": "旧传自同光三年伐蜀叙至蜀平就军拜中书舍人，再接师还、明宗即位，取925—926宽界；任命未独记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "是時，軍書羽檄，皆出其手。蜀平，就拜中書舍人。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p10",
+          "originalRevision": 1,
+          "originalSha256": "78eba735c069f8c8356f7eb094234b252f17adbe529e52610d64f609d62dc11b",
+          "excerpt": "天成元年，〈實同光四年，而書「天成元年」者，大赦改元文見下可知。莊宗本紀自書「同光四年」，各從其所稱，既曰改元，不嫌二號也。〉郭崇韜、朱友謙皆以讒死，嗣源以名位高，亦見疑忌。趙在禮反於魏，大臣皆請遣嗣源討賊，莊宗不許，羣臣屢請，莊宗不得已，遣之。三月壬子，嗣源至魏，屯御河南，在禮登樓謝罪。甲寅，軍變，嗣源入于魏，與在禮合，夕出，止魏縣。丁巳，以其兵南，遣石敬瑭將三百騎為先鋒。嗣源行過鉅鹿，掠小坊馬二千匹以益軍。壬申，入汴州。四月丁亥，莊宗崩。己丑，入洛陽。甲午，監國，朝羣臣于興聖宮。乙未，中門使安重誨為樞密使。殺元行欽及租庸使孔謙。壬寅，左驍衞大將軍孔循為樞密使。丙午，始奠于西宮，〈曰「始奠」，見其緩也。自己丑入洛，至此二十日矣。〉皇帝即位于柩前，〈柩前即位，嗣君之禮也。反逆之臣自立，而用嗣君之禮，書從其實而不變文者，蓋先已書反，正其罪矣。此書其實者，見其猶有自愧之心，而欲逃大惡之名也。〉易斬縗以衮冕。〈既用嗣君之禮矣，遽釋縗而服冕，故書以見其情詐。〉壬子，魏王繼岌薨。〈諸王薨不書，此書者，見明宗舉兵實反，會從謙弒逆，遂託赴難為名。及即位時，莊宗元子猶在，則其辭屈矣。〉甲寅，大赦，改元。渤海國王大諲譔使大陳林來。是月，張居翰罷。"
+        }
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
+    },
+    {
+      "id": "li-yu-tang-ren-huan-nomination-blocked",
+      "title": "任圜荐其入相未成",
+      "summary": "明宗即位后，任圜钦重李愚，屡向安重诲请引为同列；孔循援引崔协阻塞此请，李愚此时未得入相。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 926,
+        "end": 927
+      },
+      "sortOrder": 190,
+      "sourceDate": "明宗即位后、任圜在相位时屡荐未成；新史卷末校注明言任圜天成二年六月罢相，保926—927范围，不定各次荐举年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "師還，明宗即位。時西征副招討使任圜為宰相，雅相欽重，屢言於安重誨，請引為同列；屬孔循用事，援引崔協以塞其請。"
+        },
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p44",
+          "originalRevision": 1,
+          "originalSha256": "7ce2c5ccec97fdd25662d122aef3852b865612b4ea147f1ed0cab7cad840caf4",
+          "excerpt": "↑ 任圜罷相乃拜愚中書侍郎同平章事　本史卷六唐明宗紀載：天成二年六月任圜罷；長興二年三月趙鳳罷，以太常卿李愚為中書侍郎、同平章事。薛史卷六七李愚傳云：「長興初除太常卿，屬趙鳳出鎮邢臺，乃拜中書侍郎平章事。」任圜罷相至李愚入相已經五年。纂誤卷下疑「史之所書本謂趙鳳，而誤為任圜也」。"
+        }
+      ],
+      "notes": [
+        "荐举、阻荐与后来的实际拜相分成两件。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-acting-examination-office",
+      "title": "权知贡举，后任翰林承旨",
+      "summary": "任圜荐相未成后，李愚曾以本职权知贡举，继迁兵部侍郎、充翰林承旨。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 200,
+      "sourceDate": "旧传将权知贡举、兵部及翰林承旨接在明宗即位后任圜荐相未成之后、长兴初太常卿之前，保926—930宽界，未具各次年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "俄以本職權知貢舉，改兵部侍郎，充翰林承旨。"
+        },
+        {
+          "chapterId": "new-v06",
+          "paragraphId": "new-v06-p10",
+          "originalRevision": 1,
+          "originalSha256": "78eba735c069f8c8356f7eb094234b252f17adbe529e52610d64f609d62dc11b",
+          "excerpt": "天成元年，〈實同光四年，而書「天成元年」者，大赦改元文見下可知。莊宗本紀自書「同光四年」，各從其所稱，既曰改元，不嫌二號也。〉郭崇韜、朱友謙皆以讒死，嗣源以名位高，亦見疑忌。趙在禮反於魏，大臣皆請遣嗣源討賊，莊宗不許，羣臣屢請，莊宗不得已，遣之。三月壬子，嗣源至魏，屯御河南，在禮登樓謝罪。甲寅，軍變，嗣源入于魏，與在禮合，夕出，止魏縣。丁巳，以其兵南，遣石敬瑭將三百騎為先鋒。嗣源行過鉅鹿，掠小坊馬二千匹以益軍。壬申，入汴州。四月丁亥，莊宗崩。己丑，入洛陽。甲午，監國，朝羣臣于興聖宮。乙未，中門使安重誨為樞密使。殺元行欽及租庸使孔謙。壬寅，左驍衞大將軍孔循為樞密使。丙午，始奠于西宮，〈曰「始奠」，見其緩也。自己丑入洛，至此二十日矣。〉皇帝即位于柩前，〈柩前即位，嗣君之禮也。反逆之臣自立，而用嗣君之禮，書從其實而不變文者，蓋先已書反，正其罪矣。此書其實者，見其猶有自愧之心，而欲逃大惡之名也。〉易斬縗以衮冕。〈既用嗣君之禮矣，遽釋縗而服冕，故書以見其情詐。〉壬子，魏王繼岌薨。〈諸王薨不書，此書者，見明宗舉兵實反，會從謙弒逆，遂託赴難為名。及即位時，莊宗元子猶在，則其辭屈矣。〉甲寅，大赦，改元。渤海國王大諲譔使大陳林來。是月，張居翰罷。"
+        },
+        {
+          "chapterId": "old-v041",
+          "paragraphId": "old-v041-p12",
+          "originalRevision": 1,
+          "originalSha256": "65639967ab7f483e08c4bb98c1c4c3c94ac51b15b69529294c23d9434794a135",
+          "excerpt": "辛卯，以翰林承旨、兵部侍郎李愚為太常卿。"
+        },
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p16",
+          "originalRevision": 1,
+          "originalSha256": "9cda6c42d55fb4f978a4ce99cc503eeb7d9c00699f193b0d4b1eddaa2773069b",
+          "excerpt": "長興初，除太常卿"
+        }
+      ],
+      "notes": [
+        "旧传官序与本纪礼部、兵部各次记载分别保存，未独记该次贡举年月，不将几次职任合为同一次授官。"
+      ],
+      "yearRange": {
+        "start": 926,
+        "end": 930
+      }
+    },
+    {
+      "id": "li-yu-tang-speak-against-qinwang-excess",
+      "title": "秦王恣横时形言无和",
+      "summary": "长兴末期秦王恣横、群臣避祸不言，李愚因性刚介往往形之于言，但无人唱和。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 270,
+      "sourceDate": "旧史称长兴季年秦王恣横时李愚往往形言；取长兴始至秦王被诛前的930—933宽界，不据“季年”强定唯一年份。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v067",
+          "paragraphId": "old-v067-p17",
+          "originalRevision": 1,
+          "originalSha256": "60ccec2ebfb416a5566b93b953652cdfc708fae1094c58c3f1e4e7eeb74da114",
+          "excerpt": "長興季年，秦王恣橫，權要之臣，避禍不暇，邦之存亡，無敢言者。愚性剛介，往往形言，然人無唱和者。"
+        },
+        {
+          "chapterId": "old-v045",
+          "paragraphId": "old-v045-p4",
+          "originalRevision": 1,
+          "originalSha256": "c5683c79f5a74b9d21f65f089d72c8956b92113ea0843089728b3b069498cf96",
+          "excerpt": "四年十一月二十日，秦王誅。"
+        }
+      ],
+      "notes": [
+        "未载具体当面劝谏秦王或奏章，不强造双方私下冲突；不把形言补成明确谏辞。"
+      ],
+      "yearRange": {
+        "start": 930,
+        "end": 933
+      }
+    },
+    {
+      "id": "li-yu-tang-six-statutes-proposal",
+      "title": "请颁唐六典，未获采用",
+      "summary": "任相时，李愚欲依古创理，请颁唐六典给百司，使各举其职；新史将其与乡饮酒礼并叙，说时人以为迂阔而不用。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 931,
+        "end": 934
+      },
+      "sortOrder": 410,
+      "sourceDate": "新史本传称为相时请颁唐六典，未记年月；入相与罢相界限定其任相期间。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v54",
+          "paragraphId": "new-v54-p35",
+          "originalRevision": 1,
+          "originalSha256": "2d531d055170c48479434a09e923672a15529195b907b941da55ab6960b90725",
+          "excerpt": "而愚為相，欲依古以創理，乃請頒唐六典示百司，使各舉其職，州縣貢士，作鄉飲酒禮，時以其迂闊不用。"
+        }
+      ],
+      "notes": [
+        "“迂阔不用”是新史的叙述；末帝“粥饭僧”语按人物言论保存，不据此断定李愚的政绩。"
+      ]
+    },
+    {
+      "id": "li-yu-tang-village-drinking-rite-proposal",
+      "title": "请行乡饮酒礼，终未能行",
+      "summary": "李愚长兴中任相时奏行乡饮酒礼。《会要》另记长兴三年敕令及后来再议仪注，最终仍不能施行。",
+      "year": null,
+      "precision": "range",
+      "yearRange": {
+        "start": 931,
+        "end": 934
+      },
+      "sortOrder": 420,
+      "sourceDate": "《会要》初长兴中李愚任相时奏行，具体年月未载；长兴三年敕及后来复议另述，不定初请确年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p56",
+          "originalRevision": 1,
+          "originalSha256": "76b122e2e02c36c9d2eccf1d44565a8d34ff5b01a72cdafef8b0c1865b0b48d5",
+          "excerpt": "初，長興中，宰臣李愚好古，奏行此禮，累年不暇。至是愚復奏及"
+        },
+        {
+          "chapterId": "huiyao-v004",
+          "paragraphId": "huiyao-v004-p56",
+          "originalRevision": 1,
+          "originalSha256": "76b122e2e02c36c9d2eccf1d44565a8d34ff5b01a72cdafef8b0c1865b0b48d5",
+          "excerpt": "遂令青州訪舊簿書以聞。竟不能行。"
+        }
+      ],
+      "notes": [
+        "清泰二年仍称宰臣是本段措辞，不据此推其复相；旧纪前已罢相。",
+        "长兴三年敕全年跨西历932—933，不能当作初奏的唯一西历年或具体日期；清泰二年复议另列。"
+      ]
+    }
+  ]
+}

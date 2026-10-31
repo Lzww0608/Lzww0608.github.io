@@ -13,7 +13,7 @@ export function validateMilitaryReleaseQualification(content) {
 // The exact validators and public source registries used during isolated
 // verification must still be present at formal publication.
 export function releaseImplementationFingerprint() {
-  const paths = ['scripts/release-content-batch.mjs', 'src/content-release-batch.mjs', 'src/content-release-implementation.mjs', 'scripts/import-library.mjs',
+  const paths = ['scripts/release-content-batch.mjs', 'src/content-release-batch.mjs', 'src/content-release-implementation.mjs', 'src/content-release-timeline-guards.mjs', 'src/content-release-verification.mjs', 'scripts/import-library.mjs',
     'scripts/import-translations.mjs', 'scripts/publish-ai-batch.mjs', 'scripts/apply-review-corrections.mjs', 'scripts/import-sentence-translations.mjs',
     'scripts/import-person-passages.mjs', 'scripts/import-person-timelines.mjs', 'scripts/import-review-items.mjs', 'src/translation-batch.mjs', 'src/owner-reviews.mjs',
     'src/backup-archive.mjs', '../content/person-passages.mjs', '../scripts/index-person-passages.mjs', '../content/person-timelines.mjs', '../content/military-people.mjs', '../content/sentence-translations.mjs',
