@@ -30,6 +30,13 @@
           "originalRevision": 1,
           "originalSha256": "29200c76c013c1d34e73937b26a745d868d7e7408c7f1d995045bf38dd4108bb",
           "excerpt": "太子元膺之死，高祖以雅王宗輅類己，信王宗傑才敏，擬擇一人立之，而賢妃欲立其子鄭王，卽後主是也，使文扆諷宰相張格贊成之，後主遂得立。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v041",
+          "paragraphId": "shiguochunqiu-v041-p7",
+          "originalRevision": 1,
+          "originalSha256": "2d5dc3b8342a46108efff1171e39f1193f189b53de2f2fdf19c730cb5889beed",
+          "excerpt": "居無何，太子元膺之變起，時後主封鄭王，年最幼，而順聖太后爲賢妃，有寵，陰令飛龍使唐文扆以金百鎰貽格，諷格請立鄭王爲皇太子。格心動，以爲是可術取也，乃夜爲表示功臣王宗侃等，詐言受密㫖，衆皆署名，而後主遂得立。"
         }
       ],
       "phase": "early",
@@ -287,6 +294,13 @@
           "originalRevision": 1,
           "originalSha256": "4b4dac574b1cf5c42e9f0e2a6c033daf13d6c291d2a42e72cb59df629c6ab80f",
           "excerpt": "後主踐阼，内給事王廷紹等用事，庠切諫不聽。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v041",
+          "paragraphId": "shiguochunqiu-v041-p9",
+          "originalRevision": 1,
+          "originalSha256": "44cf595efcd97a50577f72d750f13221f7b3b3b898fbaa25e533a432f077c6cd",
+          "excerpt": "是時韓昭、潘在迎輩日導後主宴遊無度，而鍇等無所匡救，依違而已。"
         }
       ],
       "phase": "uncertain",
@@ -319,7 +333,8 @@
         "end": 921
       },
       "notes": [
-        "冬无单日，十二月在西历921；按来源保留920—921范围。"
+        "冬无单日，十二月在西历921；按来源保留920—921范围。",
+        "《十国春秋》卷41王锴传另记后主“东巡”、还自阆州“浮江而下”，未独记年月；与本条新史北巡归程“浮江而上”是否同次未详，暂分源旁记，不改本条方向或920—921时间范围。"
       ],
       "sortOrder": 8
     },
@@ -404,7 +419,26 @@
       "yearRange": {
         "start": 927,
         "end": 928
-      }
+      },
+      "variants": [
+        {
+          "label": "本卷另记王锴等请归蜀葬未允",
+          "sourceDate": "本卷未独记请葬年月，不继承主条天成二年时间范围",
+          "summary": "本卷记王锴与诸臣请归后主骸骨、葬于蜀山，结果不允。旧源以王宗寿为具名请求者，记天成二年获准葬王氏；分别保存具名者、葬地与结果，不把两书请求合并，也不擅排先后。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v041",
+              "paragraphId": "shiguochunqiu-v041-p9",
+              "originalRevision": 1,
+              "originalSha256": "44cf595efcd97a50577f72d750f13221f7b3b3b898fbaa25e533a432f077c6cd",
+              "excerpt": "鍇與諸臣上表乞後主骸骨，歸葬蜀山，有云：“生爲萬乘之君，死在匹夫之手。”不允。"
+            }
+          ],
+          "notes": [
+            "没有在本段记准驳君主姓名，不据称唐就补某位唐帝。"
+          ]
+        }
+      ]
     }
   ]
 }
