@@ -17,15 +17,18 @@
   ],
   "memberIds": [
     "niu-cunjie",
-    "ge-congzhou"
+    "ge-congzhou",
+    "wang-yanzhang"
   ],
   "memberRelations": {
     "niu-cunjie": "归梁太祖后受任小校，后来参与征战并领军镇",
-    "ge-congzhou": "晚唐归朱温后领军；后梁因病致仕，居家食俸"
+    "ge-congzhou": "晚唐归朱温后领军；后梁因病致仕，居家食俸",
+    "wang-yanzhang": "早年直接事朱温，后梁历禁军、先锋与招讨军职，实际参加攻守和退军"
   },
   "memberRelationshipSubjects": {
     "niu-cunjie": "朱温",
-    "ge-congzhou": "朱温（晚唐任职阶段）"
+    "ge-congzhou": "朱温（晚唐任职阶段）",
+    "wang-yanzhang": "朱温及后梁朝廷（分别按在世与任职阶段）"
   },
   "memberServiceEvidence": {
     "niu-cunjie": [
@@ -46,6 +49,40 @@
         "originalSha256": "e6ded9f2bcf5abde299f1610c3cfae73ad7107ab33864688cde06a084799cf45",
         "excerpt": "光化元年四月，率師經略山東，時并帥以大軍屯邢、洺，從周至钜鹿與并軍遇，大破之，并帥遁走。",
         "title": "旧五代史 · 卷16 · 葛从周传"
+      }
+    ],
+    "wang-yanzhang": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p20",
+        "originalRevision": 1,
+        "originalSha256": "1e1fc5c90443c89191352f34e59b3a8dbf19fec54ca53890e083c2299d29a0dc",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "彥章少從軍，隸太祖帳下，以驍勇聞。稍遷軍職，累典禁兵。從太祖征討，所至有功，常持鐵槍衝堅陷陣。"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p78",
+        "originalRevision": 1,
+        "originalSha256": "ffb24b54c395896e55905047478dee7357742fa1227f4ac2be7897597e874334",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "懷貞等還，至三水，知俊遣兵據險邀之，左龍驤軍使壽張王彥章力戰，懷貞等乃得過。"
+      },
+      {
+        "chapterId": "old-v010",
+        "paragraphId": "old-v010-p29",
+        "originalRevision": 1,
+        "originalSha256": "78655d0581486d41c184a4399caf9b3bd1932fb960403bad0423d601f74df31e",
+        "title": "旧五代史 · 卷 10 · 梁末帝纪3",
+        "excerpt": "五月，以滑州節度使王彥章為北面行營招討使。辛酉，王彥章率舟師自楊村寨浮河而下，斷德勝之浮梁。攻南城，下之，殺數十人。唐帝棄德勝之北城，並軍保楊劉。己巳，王彥章、段凝圍楊劉城。"
+      },
+      {
+        "chapterId": "tongjian-v272",
+        "paragraphId": "tongjian-v272-p25",
+        "originalRevision": 1,
+        "originalSha256": "4e5989fdeea04bd4f32d471f37f31e0d5528065b59affd8d8d2eb88a7ebe7573",
+        "title": "资治通鉴 · 卷 272 · 后唐纪1",
+        "excerpt": "梁主又命王彥章將保鑾騎士及它兵合萬人，屯兗、鄆之境，謀復鄆州，以張漢傑監其軍。"
       }
     ]
   },
