@@ -13342,5 +13342,255 @@
         "title": "《十国春秋》 · 卷 41 · 前蜀列传（郑顼、张格、潘炕等）"
       }
     ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-former-shu-wang-zongkan-zhang-kinship-palace",
+    "from": "former-shu-wang-zongkan",
+    "to": "former-shu-wang-zongkan-zhang",
+    "kind": "kinship",
+    "label": "夫妻（通鉴记载）",
+    "note": "妻的姓氏由同张格姓推得，未载婚期；不把另一条崔氏记载定为同一人或第二妻。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p41",
+        "originalRevision": 1,
+        "originalSha256": "a8e45143a2d16c0a423d1db244b62284c891e5740cfa8700a1154026bd1e17e7",
+        "excerpt": "王宗侃妻以格同姓，欲全之，謂承郾母曰：「戒汝子，勿為人報仇，他日將歸罪於汝。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪五"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wang-zongkan-adoption-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wang-zongkan",
+    "kind": "adoption",
+    "label": "假子（本书明载）",
+    "note": "假子为史载收养或义子身份，不是生身父子，也不以宗字或赐姓单独推断。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p2",
+        "originalRevision": 1,
+        "originalSha256": "c0ad53c1ccb9def82d0117e3745032b53001a668235fdc68d658ba3bfa553207",
+        "excerpt": "王宗侃，本姓田，雅州人，高祖假子也。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-zhang-former-shu-zhang-ge-service-palace",
+    "from": "former-shu-wang-zongkan-zhang",
+    "to": "former-shu-zhang-ge",
+    "kind": "service",
+    "label": "欲保张格而进言",
+    "note": "记录其保护意图与进言，不是任职或特定血亲；不扩作女方独力终身救全张格。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p41",
+        "originalRevision": 1,
+        "originalSha256": "a8e45143a2d16c0a423d1db244b62284c891e5740cfa8700a1154026bd1e17e7",
+        "excerpt": "王宗侃妻以格同姓，欲全之，謂承郾母曰：「戒汝子，勿為人報仇，他日將歸罪於汝。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪五"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-zhang-former-shu-gu-chengyan-mother-service-palace",
+    "from": "former-shu-wang-zongkan-zhang",
+    "to": "former-shu-gu-chengyan-mother",
+    "kind": "service",
+    "label": "对话与劝诫",
+    "note": "明确进言者是宗侃妻、受言者是承郾母；不把母亲另行转达或劝子的动作补入史文。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p41",
+        "originalRevision": 1,
+        "originalSha256": "a8e45143a2d16c0a423d1db244b62284c891e5740cfa8700a1154026bd1e17e7",
+        "excerpt": "王宗侃妻以格同姓，欲全之，謂承郾母曰：「戒汝子，勿為人報仇，他日將歸罪於汝。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪五"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-former-shu-wang-zongkan-wife-cui-source-role-kinship-palace",
+    "from": "former-shu-wang-zongkan",
+    "to": "former-shu-wang-zongkan-wife-cui-source-role",
+    "kind": "kinship",
+    "label": "妻称记载／来源联系",
+    "note": "这是本书妻称的来源联系；崔、张同异与前妻可能均未定，不表示已证第二位自然人。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p3",
+        "originalRevision": 1,
+        "originalSha256": "0c3734be369ec1499a1d3a8e193abe3b3395889054401af74eff0f599892b82d",
+        "excerpt": "初，宗侃妻崔氏疑當作張，或宗侃前妻。夢一人峩冠褒袖，自稱周公山神，牽五色獸，逼其衣，遂孕承肇。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-wife-cui-source-role-former-shu-wang-chengzhao-kinship-palace",
+    "from": "former-shu-wang-zongkan-wife-cui-source-role",
+    "to": "former-shu-wang-chengzhao",
+    "kind": "kinship",
+    "label": "孕育记载／来源联系",
+    "note": "只指本条孕承肇的来源角色，保神异叙述；不把孕育或母系移到正式张氏条目。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p3",
+        "originalRevision": 1,
+        "originalSha256": "0c3734be369ec1499a1d3a8e193abe3b3395889054401af74eff0f599892b82d",
+        "excerpt": "初，宗侃妻崔氏疑當作張，或宗侃前妻。夢一人峩冠褒袖，自稱周公山神，牽五色獸，逼其衣，遂孕承肇。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongkan-former-shu-wang-chengzhao-kinship-palace",
+    "from": "former-shu-wang-zongkan",
+    "to": "former-shu-wang-chengzhao",
+    "kind": "kinship",
+    "label": "父子（第三子）",
+    "note": "第三子相对宗侃，非王建；通鉴补足王承肇全名，同名田承肇未合并。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p3",
+        "originalRevision": 1,
+        "originalSha256": "0c3734be369ec1499a1d3a8e193abe3b3395889054401af74eff0f599892b82d",
+        "excerpt": "承肇，宗侃第三子也。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      },
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p115",
+        "originalRevision": 1,
+        "originalSha256": "b0baf0aee6df10986e40879e0357297830f848f1ded3226ad6ed24e2060c48f5",
+        "excerpt": "承肇，宗侃之子也。",
+        "title": "《资治通鉴》 · 卷 273"
+      }
+    ]
+  },
+  {
+    "id": "wang-yan-former-shu-former-shu-wang-zongkan-service-palace",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-wang-zongkan",
+    "kind": "service",
+    "label": "封爵与加号",
+    "note": "通鉴记即位后七月封宗侃乐安王；春秋又记加尚父、进魏王，但后两者未独记年月。尚父是加号，不另证明收养或生身父子；不把不同封授合成同日或全定918年。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p42",
+        "originalRevision": 1,
+        "originalSha256": "c287204698ede09b37913e214778ef0e9507d78f238b6183242a2ba601e98111",
+        "excerpt": "甲戌，以王宗侃為樂安王。",
+        "title": "《资治通鉴》 · 卷 270"
+      },
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p2",
+        "originalRevision": 1,
+        "originalSha256": "c0ad53c1ccb9def82d0117e3745032b53001a668235fdc68d658ba3bfa553207",
+        "excerpt": "後主嗣立，封樂安王，加尚父，已又進封魏王，卒。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-zhang-ge-service-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-zhang-ge",
+    "kind": "service",
+    "label": "任用与拜相",
+    "note": "张格入成都后，高祖擢为翰林学士，武成元年又拜相。只保本书记载的任用和仕历，不额外推具体诏令日；同姓保护不因此变成亲属关系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p7",
+        "originalRevision": 1,
+        "originalSha256": "2d5dc3b8342a46108efff1171e39f1193f189b53de2f2fdf19c730cb5889beed",
+        "excerpt": "格由荆江上峽，入成都，高祖擢爲翰林學士。是時唐亂，人士多依兩川以避難，高祖雖起戍伍，爲人饒智畧，善待士，故所用皆唐名臣世族，而待格恩禮尤異。武成元年，拜中書侍郎、同平章事，累加右僕射、太傅。",
+        "title": "《十国春秋》 · 卷 41 · 前蜀列传（郑顼、张格、潘炕等）"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-jian-xu-shunsheng-former-shu-zhang-ge-service-palace",
+    "from": "former-shu-wang-jian-xu-shunsheng",
+    "to": "former-shu-zhang-ge",
+    "kind": "service",
+    "label": "贤妃时的立储支持",
+    "note": "徐氏当时为贤妃，暗令唐文扆送金、示意张格请立郑王，后来在宫内支持张格。张格诈称受密旨是其本人的另一动作，不能反推徐氏确有该密旨；这不是王衍即位后宗侃妻的劝保事件。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p7",
+        "originalRevision": 1,
+        "originalSha256": "2d5dc3b8342a46108efff1171e39f1193f189b53de2f2fdf19c730cb5889beed",
+        "excerpt": "居無何，太子元膺之變起，時後主封鄭王，年最幼，而順聖太后爲賢妃，有寵，陰令飛龍使唐文扆以金百鎰貽格，諷格請立鄭王爲皇太子。格心動，以爲是可術取也，乃夜爲表示功臣王宗侃等，詐言受密㫖，衆皆署名，而後主遂得立。是時文扆居中用事，格附比於外，與司徒毛文錫等争權，勢若水火。會高祖聞太子喧呼聲，心惡格而未有以發，以賢妃内爲之主，竟不能去也。",
+        "title": "《十国春秋》 · 卷 41 · 前蜀列传（郑顼、张格、潘炕等）"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-zongbi-former-shu-wang-jian-xu-shunsheng-conflict-palace",
+    "from": "former-shu-wang-zongbi",
+    "to": "former-shu-wang-jian-xu-shunsheng",
+    "kind": "conflict",
+    "label": "胁迁西宫（史载）",
+    "note": "宗弼劫迁太后等在先，后句另记承涓取宠姬，二者分别叙述。此边对应前蜀将亡时的迁宫事件，女方后续结局见其本人其他来源。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p6",
+        "originalRevision": 1,
+        "originalSha256": "f78da46017fec6f12e87927b04977763511f2a06f9221ea1e2c1993d7c93d15e",
+        "excerpt": "已而刦遷太后、後宫諸王於西宫，收璽綬，又使親吏於義興門邀取内庫金帛。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wang-zongbi-adoption-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wang-zongbi",
+    "kind": "adoption",
+    "label": "假子（本书明载）",
+    "note": "宗弼本姓魏、名宏夫，本书明确记王建录为假子；不凭赐姓或宗字推断，也不由此推定顺圣徐氏为其生母或养母。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p6",
+        "originalRevision": 1,
+        "originalSha256": "f78da46017fec6f12e87927b04977763511f2a06f9221ea1e2c1993d7c93d15e",
+        "excerpt": "王宗弼，本姓魏，名宏夫，高祖録爲假子，更今姓名。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
+  },
+  {
+    "id": "wang-yan-former-shu-former-shu-wang-zongbi-service-palace",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-wang-zongbi",
+    "kind": "service",
+    "label": "受命辅政与掌迁除",
+    "note": "本段明记后主命宗弼守太师兼中书令、判六军辅政，并续记封爵与迁除权。王衍的名义任用和宗弼实际掌权分别叙述；后续封号未独年，不把整段都系918年。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p6",
+        "originalRevision": 1,
+        "originalSha256": "f78da46017fec6f12e87927b04977763511f2a06f9221ea1e2c1993d7c93d15e",
+        "excerpt": "後主繼立，命宗弼守太師兼中書令、判六軍，輔政。已又封鉅鹿王，進封齊王。是時後主不親政事，内外遷除皆自宗弼出，納賄行私，上下咨怨。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
+      }
+    ]
   }
 ]
