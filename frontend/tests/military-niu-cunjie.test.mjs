@@ -120,7 +120,14 @@ test('all added military facts cite current originals and derive once for each e
 });
 
 test('bounded military context remains outside canonical people and review subjects', () => {
-  assert.equal(context.length, 9);
+  const legacyIds = ['zhuge-shuang', 'niu-zhiye', 'niu-zhirang', 'wang-yan-niu-cunjie',
+    'shi-pu', 'zhu-xuan', 'wen-tao', 'jiang-yin', 'zhang-zhi'];
+  const legacyNodes = legacyIds.map(id => context.find(node => node.id === id));
+  assert.ok(legacyNodes.every(Boolean), 'all previously published military context identities remain');
+  assert.equal(createHash('sha256').update(JSON.stringify(legacyNodes)).digest('hex'),
+    '06c4c376c4b7c0f3578f27eb5e49f4b1deff3873dbaf514b6d2e70c0b3d6faa4',
+    'all nine previous context objects retain their exact fields and sources');
+  assert.equal(new Set(context.map(node => node.id)).size, context.length);
   const canonical = new Set(catalogPeople.map(person => person.id));
   const owners = new Set(ownerSubjects.map(subject => subject.id));
   assert.ok(owners.has('niu-cunjie'));

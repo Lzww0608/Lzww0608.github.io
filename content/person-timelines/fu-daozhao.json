@@ -4,6 +4,93 @@
   "personId": "fu-daozhao",
   "events": [
     {
+      "id": "fu-daozhao-wugong-battle",
+      "title": "屯武功拒朱温，被康怀英击败",
+      "summary": "李茂贞遣符道昭率军屯武功，抵御朱温。朱温以康怀英为前锋击破其军；《通鉴》称康怀贞。此战未记符道昭随即归降。",
+      "year": 901,
+      "sortOrder": 0,
+      "precision": "day",
+      "sourceDate": "天复元年十一月癸亥；旧史康怀英传记天复元年冬",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd6dcce3efac8421570e3a0947f308f42bf0b74d56f82a00296d187b0c96facf",
+          "excerpt": "天復元年冬，太祖率師迎昭宗於鳳翔。時李茂貞遣大將符道昭領兵萬餘屯武功以拒，太祖命諸軍擊之，以懷英為前鋒，領眾先登，一鼓而大破之，擄甲士六千餘人，奪馬二千匹。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p6",
+          "originalRevision": 1,
+          "originalSha256": "5f3e9d2afac293589b386daebe1e03c7d62fc54d5ed5917e93a18cf3aea7db1c",
+          "excerpt": "是時，岐人遣大將符道昭領兵萬人屯於武功以拒帝，帝遣康懷英敗之，擄甲士六千餘眾。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p80",
+          "originalRevision": 1,
+          "originalSha256": "fd39d0156e8db318985ba236fd85938a2c7b41e4344554a63cf2f6f142ac76d4",
+          "excerpt": "茂貞遣其將符道昭屯武功以拒全忠，癸亥，全忠將康懷貞擊破之。"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p36",
+          "originalRevision": 1,
+          "originalSha256": "604c4b75b92250bf685cdce4f3a1e264627ce6a9a632ad86b04a72fbc8edddfb",
+          "excerpt": "昭宗聖穆景文孝皇帝中之中天復元年（辛酉，公元九零一年）"
+        },
+        {
+          "chapterId": "tongjian-v262",
+          "paragraphId": "tongjian-v262-p73",
+          "originalRevision": 1,
+          "originalSha256": "a97e31e84e0f3bf8a5b98f7e1c70d649338a4ca4ff0bb5dedbbeb41179e37a52",
+          "excerpt": "十一月，己酉朔，李繼筠等勒兵闕下，禁人出入，諸軍大掠。"
+        }
+      ],
+      "notes": [
+        "康怀英本名怀贞，旧传明言因避末帝名而改名；各书原称分别保留。",
+        "本页西历年份沿历史历制，1582年前采用儒略历；《通鉴》此日对应儒略历901年12月28日。"
+      ]
+    },
+    {
+      "id": "fu-daozhao-guoxian-hangu-battle",
+      "title": "驻虢县汉谷，越涧挑战后败于伏兵",
+      "summary": "符道昭率军驻虢县汉谷，营地前临大涧、后倚高地。康怀英率骑进攻，符道昭轻其兵少，率甲士越涧挑战；康先以千骑夜战，再发伏兵，岐军大败。",
+      "year": 902,
+      "sortOrder": 0,
+      "precision": "month",
+      "sourceDate": "天复二年四月，未独记战日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p19",
+          "originalRevision": 1,
+          "originalSha256": "78f34fe5092f40b215d826e478514cc3fab27b9db94872a6eaa2263d4e31b86b",
+          "excerpt": "二年四月，符道昭復領大軍屯於虢縣之漢穀。其建寨之所，前臨巨澗，後倚峻阜，險不可升，太祖遣懷英提騎數千急擊之。道昭以懷英兵寡，有俯視之意，乃率甲士萬人，絕澗以挑戰。懷英始以千騎夜鬥，戰酣，發伏以擊之，岐軍大敗。"
+        },
+        {
+          "chapterId": "old-v002",
+          "paragraphId": "old-v002-p7",
+          "originalRevision": 1,
+          "originalSha256": "8d5d6e47608c0c72a6add6c193177909151c93c2b8d0dbdfa43a4b43942ff434",
+          "excerpt": "四月，岐人遣符道昭領大軍屯於虢縣，康懷英帥驍騎敗之。"
+        },
+        {
+          "chapterId": "old-v023",
+          "paragraphId": "old-v023-p18",
+          "originalRevision": 1,
+          "originalSha256": "cd6dcce3efac8421570e3a0947f308f42bf0b74d56f82a00296d187b0c96facf",
+          "excerpt": "天復元年冬，太祖率師迎昭宗於鳳翔。"
+        }
+      ],
+      "notes": [
+        "与此前武功之战分列；旧本纪随后丁酉记崔允来见朱温，不作符道昭此战日期。其后未具名的奉天夜攻不归为符道昭行动。"
+      ]
+    },
+    {
       "id": "fu-daozhao-join",
       "title": "昭宗返京后授秦州，赴任未成",
       "summary": "唐昭宗返回长安后，朱温奏授符道昭秦州节度使、同平章事，并遣兵护送，未能到镇；此前凤翔归附另列。",
@@ -84,6 +171,33 @@
           "originalSha256": "32fa7c031cb031759dde8e809fb32de857557ff9d3e39204388c1d6a85467a86",
           "excerpt": "天祐元年正月己酉，帝發自大梁，西赴河中，京師聞之，為之震懼。"
         }
+      ],
+      "variants": [
+        {
+          "label": "旧本纪的军队、人数与处分记载",
+          "sourceDate": "天祐三年正月至四月本纪接叙",
+          "year": 906,
+          "summary": "旧本纪记朱温军追至历亭杀数千，继攻高唐，军民无少长皆杀，生擒史仁遇后由朱温命支解；旧符传则记诸军历亭杀四万余、继取澶博又杀万余。各书人数与动作范围分别保留。",
+          "notes": [
+            "不把马嗣勋与罗绍威诛牙军写成符道昭亲为，不将各书数字求和为唯一战果。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p16",
+              "originalRevision": 1,
+              "originalSha256": "b5f2552be4f80a240d09db7d014e7a1838688f00a2d2dfb662c588f98cffa3a1",
+              "excerpt": "時魏之大軍方與帝軍同伐滄州，聞牙軍之死，即時奔還。帝之軍追及曆亭，殺賊幾千，餘眾乃擁大將史仁遇保于高唐，帝遣兵圍之。"
+            },
+            {
+              "chapterId": "old-v002",
+              "paragraphId": "old-v002-p17",
+              "originalRevision": 1,
+              "originalSha256": "dc9cb1567e5a0c4558dc925f423c664aefd278556129aeb66992e33d60c026e8",
+              "excerpt": "四月癸未，攻下高唐，軍民無少長皆殺之，生擒逆首史仁遇以獻，帝命支解之。未幾，又攻下澶、博、貝、衛等州，皆為魏軍殘黨所據故也。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -120,6 +234,35 @@
       ]
     },
     {
+      "id": "fu-daozhao-yuande-banquet-reward",
+      "title": "在元德殿受宴犒与赏赐",
+      "summary": "朱温受禅后，在元德殿宴犒刘捍、符道昭等诸军使，赏赐各有等差。",
+      "year": 907,
+      "sortOrder": 0,
+      "precision": "day",
+      "sourceDate": "开平元年五月丙申（旧史卷3附引《五代会要》，引文自标五月，元年承本纪）",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p8",
+          "originalRevision": 1,
+          "originalSha256": "007975742cdb14f2e0b256789451136cf1367dc0c7379afe30b7d11daa22cf07",
+          "excerpt": "〈《五代會要》：五月，改御食使為司膳使，小馬坊使為天驥使。以西都水北宅為大昌宮，廢雍州太清宮，改西都太微宮，亳州太清宮皆為觀，諸州紫極宮皆為老君廟。泉州僧智宣自西域回，進辟支佛骨及梵夾經律。丙申，御元德殿，宴犒諸軍使劉捍、符道昭已下，賜物有差。〉"
+        },
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p5",
+          "originalRevision": 1,
+          "originalSha256": "0f580f6ac376668c80e455012758ac28aa898883f908d066134c675a6418d060",
+          "excerpt": "可改唐天祐四年為開平元年，國號大樑。"
+        }
+      ],
+      "notes": [
+        "此条据《旧五代史》本纪附引《五代会要》，不另计为一条独立采入的会要本证；宴犒不扩写为新授官职。"
+      ]
+    },
+    {
       "id": "fu-daozhao-death",
       "title": "夹城被破，阵亡",
       "summary": "晋军来援攻破夹城，符道昭阵亡。通鉴记他的坐骑倒地后遭晋军杀害。",
@@ -149,6 +292,33 @@
           "originalRevision": 1,
           "originalSha256": "2b936ed15f05130350ae856237c3659b8fde47870d7eea130e6926fcb957f75e",
           "excerpt": "太祖神武元聖孝皇帝上開平二年（戊辰，公元九零八年）"
+        },
+        {
+          "chapterId": "new-v21",
+          "paragraphId": "new-v21-p47",
+          "originalRevision": 1,
+          "originalSha256": "66434c7bca166146445c8b3a97b4993a965c6edbea711fafe76dd8622adce8c2",
+          "excerpt": "開平元年與康懷英等攻潞州，築夾城為蚰蜒塹以圍之，逾年不能下，晉兵攻破夾城，道昭戰死。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧庄宗纪的用词与官称",
+          "sourceDate": "五月辛未朔",
+          "year": 908,
+          "summary": "旧庄宗纪记晋军破夹城后“获其将副招讨使符道昭洎大将三百人”；符道昭列传记被晋军所杀，新传记战死，《通鉴》另记马倒被杀。",
+          "notes": [
+            "“获”未明言生俘，不据此拼接先俘后杀；副招讨使与他书招讨使按各书保存。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "old-v027",
+              "paragraphId": "old-v027-p10",
+              "originalRevision": 1,
+              "originalSha256": "569b2337c8cd0b7a30dd153b8571b36ac5f16f4bccd90b7b1cdb8b4f02d0547b",
+              "excerpt": "李嗣源壞夾城東北隅，率先掩擊，梁軍大恐，南向而奔，投戈委甲，噎塞行路，斬萬餘級，獲其將副招討使符道昭洎大將三百人，芻粟百萬。"
+            }
+          ]
         }
       ]
     },
@@ -281,7 +451,7 @@
       "year": null,
       "sortOrder": 9,
       "precision": "range",
-      "sourceDate": "开平元年梁军围潞，本段任骑军未独月；合法纪年907年5月15日至908年2月4日",
+      "sourceDate": "开平元年；本传未记符道昭开始参围的具体月日",
       "phase": "uncertain",
       "evidence": [
         {
