@@ -19,6 +19,15 @@ const people = [...new Set(registry.links.map(link => link.personId))];
 const documents = new Map(people.map(personId => [personId, JSON.parse(readFileSync(new URL(`../../content/person-timelines/${personId}.json`, import.meta.url), 'utf8'))]));
 const signal = () => new AbortController().signal;
 const options = () => ({ apiBase: '', archiveBase: '/', signal: signal() });
+function assertRegisteredLinks(links) {
+  assert.equal(links.length, registry.links.length);
+  assert.deepEqual(new Map(links.map(link => [
+    `${link.comparisonId}/${link.person.id}/${link.event.id}`, [...link.stageIds].sort(),
+  ])), new Map(registry.links.map(link => [
+    `${registry.comparisonId}/${link.personId}/${link.eventId}`, [...link.stageIds].sort(),
+  ])));
+  assert.deepEqual(new Set(links.map(link => link.person.id)), new Set(people));
+}
 function archive(url) {
   const personId = /\/person-timelines\/([a-z0-9-]+)\.json$/.exec(url)?.[1];
   if (personId && documents.has(personId)) return Response.json(documents.get(personId));
@@ -35,9 +44,7 @@ const timelines = new Map(await Promise.all(people.map(async personId => [person
 test('all real registered events resolve bidirectionally, without changing existing facts, originals or translations', async () => {
   const before = JSON.stringify([...documents, ...chapters]);
   const result = await resolveEventTimelineLinks(registry, timelines, comparison);
-  assert.equal(result.links.length, 12); assert.equal(result.unavailableCount, 0);
-  assert.equal(result.links.reduce((count, link) => count + link.stageIds.length, 0), 14);
-  assert.equal(new Set(result.links.map(link => link.person.id)).size, 10);
+  assertRegisteredLinks(result.links); assert.equal(result.unavailableCount, 0);
   for (const link of result.links) {
     const reference = registry.links.find(reference => reference.personId === link.person.id && reference.eventId === link.event.id);
     assert.equal(hash(timelineEventIdentity(link.event)), reference.eventSha256);
@@ -119,7 +126,7 @@ test('offline selected-event reads are deduplicated and globally bounded and nev
     assert.equal(init.credentials, 'omit'); calls.push(url); active++; peak = Math.max(peak, active);
     await new Promise(resolve => setTimeout(resolve, 2)); active--; return archive(url);
   } });
-  assert.equal(result.links.length, 12); assert.equal(result.unavailableCount, 0);
+  assertRegisteredLinks(result.links); assert.equal(result.unavailableCount, 0);
   assert.ok(peak <= 6); assert.equal(new Set(calls).size, calls.length);
   const expected = new Set([...timelines.values()].flatMap(timeline => timeline.events.flatMap(event =>
     [...event.evidence, ...(event.variants?.flatMap(variant => variant.evidence) ?? [])].map(source => `/history/chapters/${source.chapterId}.json`))));

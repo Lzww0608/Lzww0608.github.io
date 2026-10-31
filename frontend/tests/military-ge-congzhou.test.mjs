@@ -104,9 +104,10 @@ test('Ge keeps true short-name acts while rejecting From Zhou, cited titles and 
 });
 
 test('Ge new fact directions derive once on both endpoints while three old facts remain', () => {
-  assert.equal(military.length, 34);
   assert.equal(relationshipsForPerson('ge-congzhou').length, 15);
   for (const [id, from, to, kind] of newFacts) {
+    const registered = military.filter(e => e.id === id); assert.equal(registered.length, 1, id);
+    assert.deepEqual([registered[0].from, registered[0].to, registered[0].kind], [from, to, kind], id);
     const edges = personRelationships.filter(e => e.id === id); assert.equal(edges.length, 1, id);
     assert.deepEqual([edges[0].from, edges[0].to, edges[0].kind], [from, to, kind], id);
     for (const endpoint of [from, to]) assert.equal(relationshipsForPerson(endpoint).filter(e => e.id === id).length, 1);
@@ -115,7 +116,10 @@ test('Ge new fact directions derive once on both endpoints while three old facts
       assert.ok(paragraph?.original.includes(source.excerpt), id);
     }
   }
-  for (const id of ['ge-congzhou-niu-cunjie-service', 'zhu-wen-ge-congzhou-service', 'ge-congzhou-xie-yanzhang-adoption'])
-    assert.equal(personRelationships.filter(e => e.id === id).length, 1, id);
+  for (const id of ['ge-congzhou-niu-cunjie-service', 'zhu-wen-ge-congzhou-service', 'ge-congzhou-xie-yanzhang-adoption']) {
+    const edges = personRelationships.filter(e => e.id === id); assert.equal(edges.length, 1, id);
+    for (const endpoint of [edges[0].from, edges[0].to])
+      assert.equal(relationshipsForPerson(endpoint).filter(e => e.id === id).length, 1, id);
+  }
   assert.equal(personRelationships.find(e => e.id === 'ge-congzhou-xie-yanzhang-adoption').kind, 'adoption');
 });
