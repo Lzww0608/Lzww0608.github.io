@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-wenwei",
+  "events": [
+    {
+      "id": "zhang-wenwei-tang-chancellorship",
+      "title": "入唐相位，兼判户部",
+      "summary": "天祐元年夏，张文蔚拜中书侍郎、平章事，兼判户部。新史将拜相叙在昭宗迁洛之后。",
+      "year": 904,
+      "precision": "year",
+      "sortOrder": 10,
+      "sourceDate": "旧传天祐元年夏；新史记昭宗迁洛后，无独立月日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "天祐元年夏，拜中書侍郎、平章事，兼判戶部。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p6",
+          "originalRevision": 1,
+          "originalSha256": "5fd1c21959e0633958d0450bed506a9169e3607121015508577549eb5777c58a",
+          "excerpt": "昭宗遷洛，拜中書侍郎、同中書門下平章事。"
+        }
+      ],
+      "notes": [
+        "保留“夏”，没有独立任命日；不以某月初一替代，也不将本次拜相与后来册礼时的摄中书令混为同一官名。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-urge-accession",
+      "title": "率百官劝进",
+      "summary": "新史记唐宰相张文蔚率百官前来劝朱温即位；同条先叙薛贻矩奉唐帝命来劳军，两人的行动分开。",
+      "year": 907,
+      "precision": "month",
+      "sortOrder": 10,
+      "sourceDate": "《新五代史》开平元年春正月条，张事另句未复书干支；保原书纪年。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p2",
+          "originalRevision": 1,
+          "originalSha256": "7178ebcf33f8fb200cdc5fdce2444299599f7c44d6eb0bb33498c432c6a5c255",
+          "excerpt": "開平元年春正月壬寅，天子使御史大夫薛貽矩來勞軍。宰相張文蔚率百官來勸進。"
+        }
+      ],
+      "notes": [
+        "壬寅先属薛贻矩来劳军，不强系张文蔚劝进日。此时尚在受禅改元之前，原书追称开平元年的叙法照存。",
+        "《通鉴》二月壬子诏“宰相”率百官劝进未具张姓名，不据此再造张的第二次劝进或径定与此条同事异月。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-commissioned-investiture-envoy",
+      "title": "奉唐帝命充册礼使",
+      "summary": "唐帝禅位诏命张文蔚为册礼使，以苏循为副，率百官备法驾赴大梁。杨涉另任押传国宝使，薛贻矩另任押金宝使。",
+      "year": 907,
+      "precision": "year",
+      "sortOrder": 20,
+      "sourceDate": "《通鉴》三月甲辰；旧传、旧纪四月；新史卷35序承天祐三年之“明年三月”，诸源分别保存。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p14",
+          "originalRevision": 1,
+          "originalSha256": "606e8d27e9e3100b1b161805de4c9f525c3bee7c28df5bba6537a0b657cc7340",
+          "excerpt": "甲辰，唐昭宣帝降御札禪位於梁。以攝中書令張文蔚為冊禮使，禮部尚書蘇循副之；攝侍中楊涉為押傳國寶使，翰林學士張策副之；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢副之；帥百官備法駕詣大梁。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "天祐四年，天子以土運將革，天命有歸，四月，命文蔚與楊涉等總率百僚，奉禪位詔至大梁。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p3",
+          "originalRevision": 1,
+          "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+          "excerpt": "明年三月，唐哀帝遜位于梁，遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；"
+        }
+      ],
+      "notes": [
+        "诏命、途中到达与甲子进读是不同阶段，不将一个干支移给全部过程。",
+        "旧纪所附《通鉴》与《通鉴》正文不是两份独立见证；新史序前文天祐三年及承接明年的底本文字保持，不据其他史书改年。"
+      ],
+      "variants": [
+        {
+          "label": "御札的三月与四月说",
+          "sourceDate": "《考异》列诸书三月甲辰／四月无日／四月丁未等，并自述取旧唐书。",
+          "summary": "考异引实录、薛史、唐余录称四月御札而无日；引五代通录四月丁未，旧唐书三月甲辰；唐年补录三月二十七甲子、四月戊辰即位被评差误。保各书所指，不拼成唯一日。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p6",
+              "originalRevision": 1,
+              "originalSha256": "78604bd54f9e0c82a67b1281ad9413b601e72005de96e51e2a9ba1e19730e0bd",
+              "excerpt": "三月甲辰唐帝禪位〈實錄薛居正五代史唐餘錄皆云四月唐帝御札敕宰臣張文蔚等備法駕奉迎梁朝而無日五代通録云四月丁未丁未四月一日也舊唐書云三月甲辰甲辰三月二十七日也唐年補錄三月二十七日甲子降此御札四月戊辰朱全忠即位尤為差誤按此年三月戊寅朔四月丁未朔今從舊唐書〉"
+            },
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p3",
+              "originalRevision": 1,
+              "originalSha256": "ec7c1f88c23b37f084f464252a5862a7a4cf19376a1dfa6ce2e4ed83cff24acd",
+              "excerpt": "四月，唐帝御劄敕宰臣張文蔚等備法駕奉迎梁朝。"
+            }
+          ],
+          "notes": [
+            "只实际读到《考异》引文，不冒称已逐一另读被引原书。"
+          ]
+        },
+        {
+          "label": "使命时官衔叙法",
+          "sourceDate": "使命同段，官衔各按底本。",
+          "summary": "通鉴称摄中书令，新史序称中书侍郎、同中书门下平章事。前者保“摄”，不静默替换为本人的常任中书令。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p14",
+              "originalRevision": 1,
+              "originalSha256": "606e8d27e9e3100b1b161805de4c9f525c3bee7c28df5bba6537a0b657cc7340",
+              "excerpt": "以攝中書令張文蔚為冊禮使，禮部尚書蘇循副之；"
+            },
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p3",
+              "originalRevision": 1,
+              "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+              "excerpt": "遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhang-wenwei-arrive-bian",
+      "title": "奉册宝仪仗赴汴",
+      "summary": "张文蔚等随册宝、仪仗与百官赴大梁。旧纪记离郑州、丙辰达上源驿；通鉴同日记至大梁。",
+      "year": 907,
+      "precision": "day",
+      "sortOrder": 30,
+      "sourceDate": "四月丙辰为到达原书记日；离郑州未另记日，不另换算为唯一西历月日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p3",
+          "originalRevision": 1,
+          "originalSha256": "ec7c1f88c23b37f084f464252a5862a7a4cf19376a1dfa6ce2e4ed83cff24acd",
+          "excerpt": "又，宰臣張文蔚正押傳國寶、玉冊、金寶及文武群官、諸司儀仗法物及金吾左右二軍離鄭州。丙辰，達上源驛。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p17",
+          "originalRevision": 1,
+          "originalSha256": "bf6e53f40cba857753c9335c47214d712ed0ae3bd1991ad5e52131b4a0857505",
+          "excerpt": "丙辰，張文蔚等至大梁。"
+        }
+      ],
+      "notes": [
+        "上源驿与大梁各按来源的地点层级保存，不补中途路线、里数或出发日。",
+        "旧纪“正押”叙法不替换明确册礼／押宝使分工，不能据此改称张为专任押传国宝使。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-read-investiture-and-banquet",
+      "title": "奉册进读，赴即位宴",
+      "summary": "四月甲子，张文蔚与杨涉乘辂从上源驿护册宝至金祥殿；张与苏循奉册升殿进读，后受朱温宴饮。史载张等惭惧俯伏不能对。",
+      "year": 907,
+      "precision": "day",
+      "sortOrder": 40,
+      "sourceDate": "四月甲子为奉册、进读及受宴原书记日；各书另述即位和改元之别，分别保存。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "甲子，張文蔚、楊涉乘輅自上源驛從冊寶，諸司各備儀衛鹵簿前導，百官從其後，至金祥殿前陳之。王被兗冕，即皇帝位。張文蔚、蘇循奉冊升殿進讀，楊涉、張策、薛貽矩、趙光逢以次奉寶升殿，讀已，降，帥百官舞蹈稱賀。帝遂與文蔚等宴於玄德殿。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "文蔚等皆慚懼，俯伏不能對，獨蘇循、薛貽矩及刑部尚書張禕盛稱帝功德宜應天順人。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p3",
+          "originalRevision": 1,
+          "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+          "excerpt": "四月甲子，文蔚等自上源驛奉冊寶，乘輅車，導以金吾仗衞、太常鹵簿，朝梁于金祥殿。王衮冕南面，臣文蔚、臣循奉冊升殿，進讀已，臣涉、臣策奉傳國璽，臣貽矩、臣光逢奉金寶，以次升，進讀已，降，率文武百官北面舞蹈再拜賀。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p22",
+          "originalRevision": 1,
+          "originalSha256": "f212b8c950f73186c3ce9f576d556a2846a544e23cf53aff7532eb851b010fd0",
+          "excerpt": "梁太祖已即位，置酒玄德殿，顧羣臣自陳德薄不足以當天命，皆諸公推戴之力。唐之舊臣楊涉、張文蔚等皆慚懼俯伏不能對，獨循與張禕、薛貽矩盛稱梁王功德，所以順天應人者。"
+        }
+      ],
+      "notes": [
+        "张与苏奉册，杨涉等奉宝；盛赞者是苏循、薛贻矩、张祎，不将赞语改给张文蔚。",
+        "通鉴后文朱全昱在宗戚饮博时斥责朱温，未证张在场，不列为张的谏言。",
+        "史载当次惭惧不扩成终身私人动机；日精度保存原书记日，不把有分源限制的历算候选当唯一西历日。"
+      ],
+      "variants": [
+        {
+          "label": "宴殿名及附引字样",
+          "sourceDate": "旧纪附引《通鉴》作元德殿；通鉴正文、新史苏循传作玄德殿。",
+          "summary": "各按底本保存，不静默统一为同一字，也不从字差断为另一次宴。旧纪附引称驾、通鉴称贺及兗冕疑字仍依现有原译注。",
+          "evidence": [
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "7725b6e0f98ff1bcd8adfec036f14320a4c77ca9fd5c92602886a3ddbdf5fb6d",
+              "excerpt": "帝遂與文蔚等宴於元德殿。"
+            },
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p20",
+              "originalRevision": 1,
+              "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+              "excerpt": "帝遂與文蔚等宴於玄德殿。"
+            },
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p22",
+              "originalRevision": 1,
+              "originalSha256": "f212b8c950f73186c3ce9f576d556a2846a544e23cf53aff7532eb851b010fd0",
+              "excerpt": "梁太祖已即位，置酒玄德殿，"
+            }
+          ]
+        },
+        {
+          "label": "甲子即位与戊辰记事",
+          "sourceDate": "旧纪本段记戊辰即位；所附通鉴、通鉴及新史本纪分记甲子即位、戊辰大赦改元。",
+          "summary": "本事件的张奉册主事据明确甲子段；不将旧纪的戊辰调成甲子，亦不把改元日移作张进读日。",
+          "evidence": [
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p3",
+              "originalRevision": 1,
+              "originalSha256": "ec7c1f88c23b37f084f464252a5862a7a4cf19376a1dfa6ce2e4ed83cff24acd",
+              "excerpt": "戊辰，即位。"
+            },
+            {
+              "chapterId": "old-v003",
+              "paragraphId": "old-v003-p6",
+              "originalRevision": 1,
+              "originalSha256": "7725b6e0f98ff1bcd8adfec036f14320a4c77ca9fd5c92602886a3ddbdf5fb6d",
+              "excerpt": "甲子，張文蔚、楊涉乘輅自上源驛至，"
+            },
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p20",
+              "originalRevision": 1,
+              "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+              "excerpt": "戊辰，大赦，改元，國號大梁。"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p3",
+              "originalRevision": 1,
+              "originalSha256": "5a0b2df1bcaf59c9dbd133f2b04b6e0fd3e942b59e783d8124dad39609f747a9",
+              "excerpt": "夏四月壬戌，更名晃。甲子，皇帝即位。"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p3",
+              "originalRevision": 1,
+              "originalSha256": "5a0b2df1bcaf59c9dbd133f2b04b6e0fd3e942b59e783d8124dad39609f747a9",
+              "excerpt": "戊辰，大赦，〈赦文皆曰大赦天下，此書大，見其志之欲遠及也，不曰天下，實有所不及也。〉改元，國號梁。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhang-wenwei-liang-menshilang-chancellor",
+      "title": "入梁任门下侍郎平章事",
+      "summary": "朱温受禅后张文蔚仍居相位。五月丁丑朔，与杨涉同任门下侍郎，薛贻矩为中书侍郎，三人同中书门下平章事。",
+      "year": 907,
+      "precision": "day",
+      "sortOrder": 50,
+      "sourceDate": "开平元年五月丁丑朔限此次具体任命；受禅后留相是另有来源的过程，不将本日附给全过程。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p4",
+          "originalRevision": 1,
+          "originalSha256": "4d9997936d6b3ea6e72259d98f9f7f625fa504321ef6b805db0e5ccf64a5dcd5",
+          "excerpt": "五月丁丑朔，以唐相張文蔚楊涉為門下侍郎、御史大夫薛貽矩為中書侍郎：同中書門下平章事。"
+        },
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p8",
+          "originalRevision": 1,
+          "originalSha256": "007975742cdb14f2e0b256789451136cf1367dc0c7379afe30b7d11daa22cf07",
+          "excerpt": "五月，以唐朝宰臣張文蔚、楊涉並為門下侍郎、平章事；以御史大夫薛貽矩為中書侍郎、平章事。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "太祖受命，文蔚等不易其位。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "梁太祖立，仍以文蔚為相，"
+        }
+      ],
+      "notes": [
+        "不是张生平首次入相；门下侍郎与薛贻矩的中书侍郎分开。",
+        "同段委宰臣访贤只证集体命令，不据此补张已实际荐举某人。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-ordered-western-capital",
+      "title": "奉命先赴西京祗候",
+      "summary": "十月，朱温因用军未暇西幸，令张文蔚以下文武百官先于西京祗候；韩建、薛贻矩等另列留京之人。",
+      "year": 907,
+      "precision": "month",
+      "sortOrder": 60,
+      "sourceDate": "开平元年十月，未独记张本人奉命日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p14",
+          "originalRevision": 1,
+          "originalSha256": "58b79239b366231ae646866a88ce406161f013a5cc573569d3cac9e344add9ba",
+          "excerpt": "十月，帝以用軍，未暇西幸，文武百官等久居東京，漸及疑訝，令就便各許歸安，只留韓建、薛貽矩，翰林學士張策、韋郊、杜曉，中書舍人封舜聊、張袞並左右御史、司天監、宗正寺，兼要當諸司節級外，其宰臣張文蔚已下文武百官，並先於西京祗候。"
+        }
+      ],
+      "notes": [
+        "这里只确定先赴候命的命令，不写成已实际到达、遭贬或随帝亲征。",
+        "后文泛称宰臣请月初入阁、望日延英，不凭本段首列张名就认作他独奏。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-retained-western-capital",
+      "title": "太祖北巡时留西都",
+      "summary": "开平二年，梁太祖北巡，把张文蔚留在西都；这是张受留命，非张本人北巡。",
+      "year": 908,
+      "precision": "year",
+      "sortOrder": 10,
+      "sourceDate": "新史本传开平二年，留西都之命未独记月日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "開平二年，太祖北巡，留文蔚西都，"
+        }
+      ],
+      "notes": [
+        "不将同卷其他来源帝出发的日子或张后来卒日移给留西都之命。",
+        "907年先赴西京祗候与908年北巡留西都为两个有据阶段，不据同地点消成一事。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-death-and-posthumous-honor",
+      "title": "卒于相位，追赠右仆射",
+      "summary": "张文蔚以门下侍郎、同平章事卒于位。旧传称暴卒，新史记留西都后因暴疾卒；死后诏赠右仆射。",
+      "year": 908,
+      "precision": "day",
+      "sortOrder": 20,
+      "sourceDate": "通鉴承开平二年三月，癸巳明确记张卒；旧传记二年春。日精度只属卒，追赠未独记日。",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p78",
+          "originalRevision": 1,
+          "originalSha256": "d49bc88f24134b2e453efe7945a626ff8dea28e527d6f9422e08d9e4477acdde",
+          "excerpt": "癸巳，門下侍郎、同平章事張文蔚卒。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "開平二年春，暴卒於位，詔贈右僕射。"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p14",
+          "originalRevision": 1,
+          "originalSha256": "e76761b8a63dd0c9096e8ef56b8ad82680313170adfac5a81713b054fbb8f2bc",
+          "excerpt": "癸巳，改卜郊。張文蔚薨。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "開平二年，太祖北巡，留文蔚西都，以暴疾卒，贈右僕射。"
+        }
+      ],
+      "notes": [
+        "癸巳以通鉴本人句直接记日为据，不只从新史前句改卜郊借日。",
+        "赠右仆射是身后追赠，不列为生前实任，不给追赠套卒日；留西都之命也不套此日。",
+        "未有本组史料支持生年、寿数或具体疾病诊断；不因太祖行在泽州便称张卒于泽州。"
+      ]
+    },
+    {
+      "id": "zhang-wenwei-jinshi-first-office",
+      "title": "登进士，署盐铁巡官",
+      "summary": "乾符初，张文蔚登进士第。当时裴坦兼判盐铁；张文蔚初被署为巡官，开始仕宦。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 10,
+      "sourceDate": "旧传乾符初；仅取该号有效时期最宽年份外界874–880，不量化“初”为固定年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "唐乾符初，登進士第，時丞相裴坦兼判鹽鐵，解褐署巡官。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p6",
+          "originalRevision": 1,
+          "originalSha256": "5fd1c21959e0633958d0450bed506a9169e3607121015508577549eb5777c58a",
+          "excerpt": "初以文行知名，舉進士及第。"
+        }
+      ],
+      "notes": [
+        "范围不表示考试、初任持续六年，也不认为事件就在末界880年；未把乾符初硬定为元年。"
+      ],
+      "yearRange": {
+        "start": 874,
+        "end": 880
+      }
+    },
+    {
+      "id": "zhang-wenwei-county-office-and-family-mourning",
+      "title": "以畿尉直馆，丁家艰",
+      "summary": "初仕后未几，张文蔚以畿尉直馆；后遇家中丧事，以孝闻名。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 20,
+      "sourceDate": "旧传在乾符初进士后、中和岁转运巡官前连续叙述；最宽外界874–885，无独立年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "唐乾符初，登進士第，時丞相裴坦兼判鹽鐵，解褐署巡官。未幾，以畿尉直館。丁家艱，以孝聞。中和歲，僖宗在蜀，"
+        }
+      ],
+      "notes": [
+        "家艰不强定为父丧，不补馆名。两项合记早期履历，不把丧事染成畿尉授官同日。",
+        "范围只依前后年号经历的连续叙次：前锚最早874，后锚中和末界885；不是各项独立定年。"
+      ],
+      "yearRange": {
+        "start": 874,
+        "end": 885
+      }
+    },
+    {
+      "id": "zhang-wenwei-transport-commission",
+      "title": "任转运巡官",
+      "summary": "中和年间，僖宗在蜀，因军费急迫，盐铁机构迁至扬州，李都就地主管，奏任张文蔚为转运巡官。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 30,
+      "sourceDate": "中和岁，取该号有效时期最宽年份范围881–885，未记任命月日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "中和歲，僖宗在蜀，大寇未滅，急於軍費，移鹽鐵於揚州，命李都就判之，奏為轉運巡官。"
+        }
+      ],
+      "notes": [
+        "奏举者是李都；机构迁移与朝廷军费决策不写成张个人决定。"
+      ],
+      "yearRange": {
+        "start": 881,
+        "end": 885
+      }
+    },
+    {
+      "id": "zhang-wenwei-court-record-and-edicts-offices",
+      "title": "历御史、起居与制诰诸职",
+      "summary": "僖宗回长安后，张文蔚除监察御史，历左补阙、侍御史、起居舍人、司勋和吏部员外郎，拜司勋郎中、知制诰；岁满授中书舍人。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 40,
+      "sourceDate": "旧传从中和岁转运经历后，续叙驾还长安至中书舍人；后有天祐元年夏拜相锚，保最宽881–904。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "中和歲，僖宗在蜀，大寇未滅，急於軍費，移鹽鐵於揚州，命李都就判之，奏為轉運巡官。駕還長安，除監察御史，遷左補闕侍御史、起居舍人、司勳吏部員外郎，拜司勳郎中、知制誥，歲滿授中書舍人。"
+        }
+      ],
+      "notes": [
+        "按原传官序合记，不给每任分配同一年或同一天；岁满只有相对间隔。",
+        "881是此前中和经历的最早外锚，904是后文明确拜相年之外锚，不是断言这些迁转发生在两端。"
+      ],
+      "yearRange": {
+        "start": 881,
+        "end": 904
+      }
+    },
+    {
+      "id": "zhang-wenwei-maternal-mourning",
+      "title": "母忧退居东畿",
+      "summary": "母亲去世后，张文蔚退居东畿；旧传称其哀毁过礼。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 50,
+      "sourceDate": "旧传在回京历官之后、服阕复职之前连续叙述；由此前中和经历及后文904夏拜相得最宽881–904。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "拜司勳郎中、知制誥，歲滿授中書舍人。丁母憂，退居東畿，哀毀過禮。服闋，復拜中書舍人，"
+        }
+      ],
+      "notes": [
+        "不补母亲姓名或卒年；宽界来自张的履历叙次，不把881或904写成母亲死亡年。"
+      ],
+      "yearRange": {
+        "start": 881,
+        "end": 904
+      }
+    },
+    {
+      "id": "zhang-wenwei-hanlin-and-ministry-posts",
+      "title": "复职入翰林，历户礼部侍郎",
+      "summary": "服丧期满，张文蔚复拜中书舍人，不久入翰林为承旨学士。旧新传均称其制诏能守体；后转户部侍郎仍充前职，又出为礼部侍郎。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 60,
+      "sourceDate": "旧传承中和后历官、母忧复职，至天祐元年夏拜相之前；取最宽881–904。新史概述为唐昭宗时。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "服闋，復拜中書舍人，俄召入翰林，為承旨學士。屬昭宗初還京闕，皇綱浸微，文蔚所發詔令，靡失厥中，論者多之。轉戶部侍郎，仍依前充職，尋出為禮部侍郎。天祐元年夏，拜中書侍郎、平章事，兼判戶部。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p6",
+          "originalRevision": 1,
+          "originalSha256": "5fd1c21959e0633958d0450bed506a9169e3607121015508577549eb5777c58a",
+          "excerpt": "唐昭宗時，為翰林學士承旨。是時，天子微弱，制度已隳，文蔚居翰林，制詔四方，獨守大體。"
+        }
+      ],
+      "notes": [
+        "复中书舍人、入翰林、转户部与出礼部是相继经历，宽界不作各官任期。",
+        "“能守体”为两传对制诏工作的评价，按史载归属保存，不单凑一条褒奖事件。",
+        "最宽叙次外界并不取消新史“昭宗时”的较具体背景，也未从未核的在位日强缩下界。"
+      ],
+      "yearRange": {
+        "start": 881,
+        "end": 904
+      }
+    },
+    {
+      "id": "zhang-wenwei-protect-court-officials",
+      "title": "力解柳璨牵连朝士",
+      "summary": "柳璨诛杀裴枢等、又将怒及其他朝士时，张文蔚竭力说解，使进一步牵连停止。新史称许多朝士赖以全活。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 70,
+      "sourceDate": "旧传在904夏拜相之后、天祐四年赴梁诏之前叙救护及柳璨败死，保守范围904–907，无独立日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "天祐元年夏，拜中書侍郎、平章事，兼判戶部。時柳璨在相位，擅權縱暴，傾陷賢俊，宰相裴樞等五家及三省而下三十餘人，咸抱冤就死；縉紳以目，不敢竊語其是非，餘怒所注，亦不啻十許輩。文蔚殫其力解之，乃止，士人賴焉。璨敗死，文蔚兼度支鹽鐵使。天祐四年，"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p6",
+          "originalRevision": 1,
+          "originalSha256": "5fd1c21959e0633958d0450bed506a9169e3607121015508577549eb5777c58a",
+          "excerpt": "柳璨殺裴樞等七人，蔓引朝士，輒加誅殺，縉紳相視以目，皆不自保，文蔚力講解之，朝士多賴以全活。"
+        }
+      ],
+      "notes": [
+        "所救是进一步受牵连的生者，不写成救活已死裴枢等。",
+        "新史序白马背景的天祐三年及四月与本传救护并无直接独立同日系联，不据此硬填906或改底本。"
+      ],
+      "yearRange": {
+        "start": 904,
+        "end": 907
+      }
+    },
+    {
+      "id": "zhang-wenwei-finance-commissions",
+      "title": "兼度支、盐铁使",
+      "summary": "柳璨败死后，张文蔚兼任度支、盐铁使。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 80,
+      "sourceDate": "旧传在904夏拜相及救护之后、天祐四年赴梁诏之前；最宽904–907，任命未独纪年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "文蔚殫其力解之，乃止，士人賴焉。璨敗死，文蔚兼度支鹽鐵使。天祐四年，天子以土運將革，天命有歸，四月，命文蔚與楊涉等總率百僚，奉禪位詔至大梁。"
+        }
+      ],
+      "notes": [
+        "范围按同段明确叙次及两端年锚所得，不据未另核的柳璨死亡年补成唯一年。",
+        "此为后期兼使，不与早年盐铁巡官、转运巡官混同。"
+      ],
+      "yearRange": {
+        "start": 904,
+        "end": 907
+      }
+    },
+    {
+      "id": "zhang-wenwei-establish-early-liang-institutions",
+      "title": "裁定梁初制度",
+      "summary": "新史记朱温即位后仍任张文蔚为相，梁初制度由张文蔚裁定。",
+      "year": null,
+      "precision": "range",
+      "sortOrder": 90,
+      "sourceDate": "新史“梁太祖立”后至“开平二年”卒前；由907立梁、908卒得最宽907–908。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "梁太祖立，仍以文蔚為相，梁初制度皆文蔚所裁定。文蔚居家亦孝悌。開平二年，太祖北巡，留文蔚西都，以暴疾卒，贈右僕射。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p2",
+          "originalRevision": 1,
+          "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
+          "excerpt": "太祖受命，文蔚等不易其位。開平二年春，暴卒於位，"
+        }
+      ],
+      "notes": [
+        "“皆”是新史本传的概括，不补未载具体制度清单、条文或颁行日。",
+        "不因同段旧纪列宫门、军号等政令便将那些改革一项项全归张亲自制定；未把整段裁制定在五月丁丑任相日。"
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      }
+    },
+    {
+      "id": "zhang-wenwei-care-for-ill-brother",
+      "title": "照料患疾弟近三十年",
+      "summary": "旧传正文记弟济美早患心恙，张文蔚抚视近三十年；这是长期照护经历，未载起讫。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 100,
+      "sourceDate": "正文记抚视殆三十年，起止年月不详；夹注另子之说分别保存。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "d0edf305193c4e914654f9319575e72691dd84e64a8de04125eed2f9b1a5de57",
+          "excerpt": "弟濟美，早得心恙，"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p3",
+          "originalRevision": 1,
+          "originalSha256": "d0edf305193c4e914654f9319575e72691dd84e64a8de04125eed2f9b1a5de57",
+          "excerpt": "文蔚撫視殆三十年，士君子稱之。"
+        }
+      ],
+      "notes": [
+        "不由“殆三十年”倒算张生年、弟患病年或照护起止。",
+        "本传家居附叙在未定组末列，不表示照护发生在卒后，也不从亲属名单的引文位置推其起年。"
+      ],
+      "variants": [
+        {
+          "label": "正文济美与夹注失名子",
+          "sourceDate": "正文与夹注均无可核独立年月。",
+          "summary": "夹注引北梦琐言称张裼有五子，其中一失名子少时因吞壁鱼求仙而患疾，且称并非济美。保正文与夹注的差别及传闻层次，不把失名子与济美强合，也不独定病因。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p3",
+              "originalRevision": 1,
+              "originalSha256": "d0edf305193c4e914654f9319575e72691dd84e64a8de04125eed2f9b1a5de57",
+              "excerpt": "〈（《北夢瑣言》云：張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。內一子，忘其名，少年聞壁魚食神仙字，身有五色，吞之可得仙，因欲試之，遂致心疾。是得急者別自一人非濟美也。）〉"
+            }
+          ],
+          "notes": [
+            "保留底本“急”字及现译疑注，不以此擅改为“疾”。"
+          ]
+        }
+      ]
+    }
+  ]
+}

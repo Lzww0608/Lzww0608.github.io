@@ -2098,5 +2098,534 @@
         "excerpt": "衡王友諒，末帝兄也，梁大臣李振等皆拜之，獨愚長揖，末帝以責愚曰：「衡王朕拜之，卿獨揖，可乎？」愚曰：「陛下以家人禮見之，則拜宜也。臣於王無所私，豈宜妄有所屈？」"
       }
     ]
+  },
+  {
+    "id": "zhang-wenwei-liang-service",
+    "from": "zhu-wen",
+    "to": "zhang-wenwei",
+    "kind": "service",
+    "label": "入梁任相",
+    "note": "朱温受禅后张文蔚仍居相位，五月与杨涉任门下侍郎、平章事。册礼使另由唐帝差遣。",
+    "sources": [
+      {
+        "chapterId": "old-v003",
+        "paragraphId": "old-v003-p8",
+        "title": "《旧五代史》 · 卷 3 · 梁太祖纪3",
+        "excerpt": "五月，以唐朝宰臣張文蔚、楊涉並為門下侍郎、平章事；"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-tang-ceremony",
+    "from": "tang-aidi",
+    "to": "zhang-wenwei",
+    "kind": "service",
+    "label": "命为册礼使",
+    "note": "唐帝命张文蔚充册礼使、苏循为副；通鉴使命官衔作摄中书令，新史序作中书侍郎、同中书门下平章事。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p14",
+        "title": "《资治通鉴》 · 卷 266 · 后梁纪1",
+        "excerpt": "以攝中書令張文蔚為冊禮使，禮部尚書蘇循副之；"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p3",
+        "title": "《新五代史》 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-father",
+    "from": "civil-zhang-wenwei-father",
+    "to": "zhang-wenwei",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "旧传称父裼，夹注引书具张裼全名并列文蔚为其子。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p2",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "父裼，唐僖宗朝，累為顯官。"
+      },
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-mother",
+    "from": "civil-zhang-wenwei-mother-unnamed",
+    "to": "zhang-wenwei",
+    "kind": "kinship",
+    "label": "母子（母属未详）",
+    "note": "旧传“丁母忧”所称母属，姓名及生养关系未详。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p2",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "丁母憂，退居東畿，哀毀過禮。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-jimei",
+    "from": "zhang-wenwei",
+    "to": "civil-zhang-jimei",
+    "kind": "kinship",
+    "label": "兄弟",
+    "note": "旧传明称济美为张文蔚之弟；正文患心恙与夹注失名另一子之说分别保存。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "弟濟美，早得心恙"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-yixian",
+    "from": "zhang-wenwei",
+    "to": "civil-zhang-yixian",
+    "kind": "kinship",
+    "label": "同父兄弟",
+    "note": "夹注引书将彝宪与文蔚同列张裼诸子，长幼及母属未详。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-rengui",
+    "from": "zhang-wenwei",
+    "to": "civil-zhang-rengui",
+    "kind": "kinship",
+    "label": "同父兄弟",
+    "note": "夹注引书将仁龟与文蔚同列张裼诸子，长幼及母属未详。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-son",
+    "from": "zhang-wenwei",
+    "to": "civil-zhang-wenwei-son-zhu",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "旧传张文蔚传末称“子铸”，显德中官至秘书监；后周官职属于子辈。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p4",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "子鑄，周顯德中，位至秘書監。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-zhaozong-service",
+    "from": "tang-zhaozong",
+    "to": "zhang-wenwei",
+    "kind": "service",
+    "label": "翰林与宰辅",
+    "note": "新史本传记昭宗时翰林承旨及迁洛后入相，具体官序另与旧传分别保存。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p6",
+        "title": "《新五代史》 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "唐昭宗時，為翰林學士承旨。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p6",
+        "title": "《新五代史》 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "昭宗遷洛，拜中書侍郎、同中書門下平章事。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-pei-tan",
+    "from": "tang-pei-tan",
+    "to": "zhang-wenwei",
+    "kind": "service",
+    "label": "盐铁任职",
+    "note": "旧传称裴坦兼判盐铁时，张文蔚初署巡官；仅以盐铁主管和属官的任职关系相连，署任的具体施事未详。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p2",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "唐乾符初，登進士第，時丞相裴坦兼判鹽鐵，解褐署巡官。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-li-du",
+    "from": "tang-li-du-salt-transport",
+    "to": "zhang-wenwei",
+    "kind": "service",
+    "label": "奏荐转运巡官",
+    "note": "旧传记李都就地主管盐铁、奏张文蔚为转运巡官，此边表示奏荐。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p2",
+        "title": "《旧五代史》 · 卷 18 · 梁书列传八",
+        "excerpt": "命李都就判之，奏為轉運巡官。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-su-xun",
+    "from": "zhang-wenwei",
+    "to": "su-xun",
+    "kind": "service",
+    "label": "册礼主副使",
+    "note": "唐帝遣张文蔚为册礼正使、苏循为副，二人共同奉册升殿进读。此边表示公务职分。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p3",
+        "title": "《新五代史》 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p3",
+        "title": "《新五代史》 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "臣文蔚、臣循奉冊升殿"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-yang-she",
+    "from": "zhang-wenwei",
+    "to": "yang-she",
+    "kind": "service",
+    "label": "共同奉册宝",
+    "note": "通鉴具名记张文蔚、杨涉同乘礼车护送册宝，此边表示共同执行礼仪的公务往来。",
+    "direction": "undirected",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p20",
+        "title": "《资治通鉴》 · 卷 266 · 后梁纪1",
+        "excerpt": "張文蔚、楊涉乘輅自上源驛從冊寶"
+      }
+    ]
+  },
+  {
+    "id": "li-keyong-wang-xingyu-campaign",
+    "from": "li-keyong",
+    "to": "wang-xingyu",
+    "kind": "conflict",
+    "label": "攻讨王行瑜",
+    "note": "新35明确李克用攻王行瑜，但未说李克用亲手杀行瑜。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p13",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "晉王李克用攻行瑜，策與婢肩輿其母東歸，行積雪中，行者憐之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhang-ce-service",
+    "from": "zhu-wen",
+    "to": "zhang-ce",
+    "kind": "service",
+    "label": "辟用、留掌书记并荐朝",
+    "note": "张策先受辟为郑滑支使，后在韩建使梁期间被梁太祖留为掌书记并荐于唐朝。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p13",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "梁太祖兼四鎮，辟鄭、滑支使，以母喪解職。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p13",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "遂留以為掌書記，薦之于朝，累拜中書舍人、翰林學士。"
+      }
+    ]
+  },
+  {
+    "id": "han-jian-huazhou-zhang-ce-service",
+    "from": "han-jian-huazhou",
+    "to": "zhang-ce",
+    "kind": "service",
+    "label": "辟判官、任掌书记",
+    "note": "韩建在华州辟张策为判官，调往许州后任其为掌书记，又派其出使梁太祖。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p13",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "華州韓建辟判官，建徙許州，以為掌書記，建遣策聘于太祖"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-xue-yiju-chancellorship",
+    "from": "zhu-wen",
+    "to": "xue-yiju",
+    "kind": "service",
+    "label": "荐唐官、梁初任相",
+    "note": "薛贻矩原任唐御史大夫，梁建立后任中书侍郎、同平章事；此前以臣礼见梁王发生在受禅前。 新史还记太祖向唐廷言荐，薛随后拜吏部尚书、迁御史大夫；唐廷任用不写成朱温以梁帝身份亲授唐官。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p18",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "太祖即位，拜貽矩中書侍郎、同中書門下平章事，累拜司空。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p18",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "貽矩乃自結於梁太祖，太祖言之於朝，拜吏部尚書，遷御史大夫。"
+      }
+    ]
+  },
+  {
+    "id": "jing-xiang-su-xun-oppose-appointment",
+    "from": "jing-xiang",
+    "to": "su-xun",
+    "kind": "service",
+    "label": "进言阻其立新朝",
+    "note": "敬翔向梁太祖进言，谓苏循父子无行，不宜立于新朝；无行是这段谏词的品评。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "循父子皆自以附會梁得所託，旦夕引首，希見進用，敬翔尤惡之，謂太祖曰：「梁室新造，宜得端士以厚風俗，循父子皆無行，不可立於新朝。」"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-su-xun-dismissal",
+    "from": "zhu-wen",
+    "to": "su-xun",
+    "kind": "service",
+    "label": "致仕、斥归处分",
+    "note": "《通鉴》分记苏循等致仕、苏楷斥归，新35概述父子勒归。父子随后到河中依朱友谦。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p38",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "戊戌，詔循及刑部尚書張禕等十五人並勒致仕，楷斥歸田里。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "於是父子皆勒歸田里，乃依朱友謙於河中。"
+      }
+    ]
+  },
+  {
+    "id": "su-xun-zhu-youqian-shelter",
+    "from": "su-xun",
+    "to": "zhu-youqian",
+    "kind": "service",
+    "label": "依附河中朱友谦",
+    "note": "苏循与苏楷被斥后到河中依附朱友谦，后来被遣到魏州的是苏循。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "於是父子皆勒歸田里，乃依朱友謙於河中。"
+      }
+    ]
+  },
+  {
+    "id": "jing-xiang-su-kai-oppose-appointment",
+    "from": "jing-xiang",
+    "to": "su-kai",
+    "kind": "service",
+    "label": "进言阻其立新朝",
+    "note": "敬翔向梁太祖进言，谓苏循父子无行，不宜立于新朝；无行是这段谏词的品评。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "循父子皆自以附會梁得所託，旦夕引首，希見進用，敬翔尤惡之，謂太祖曰：「梁室新造，宜得端士以厚風俗，循父子皆無行，不可立於新朝。」"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-su-kai-dismissal",
+    "from": "zhu-wen",
+    "to": "su-kai",
+    "kind": "service",
+    "label": "致仕、斥归处分",
+    "note": "《通鉴》分记苏循等致仕、苏楷斥归，新35概述父子勒归。父子随后到河中依朱友谦。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p38",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "戊戌，詔循及刑部尚書張禕等十五人並勒致仕，楷斥歸田里。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "於是父子皆勒歸田里，乃依朱友謙於河中。"
+      }
+    ]
+  },
+  {
+    "id": "su-kai-zhu-youqian-shelter",
+    "from": "su-kai",
+    "to": "zhu-youqian",
+    "kind": "service",
+    "label": "依附河中朱友谦",
+    "note": "苏循与苏楷被斥后到河中依附朱友谦，后来被遣到魏州的是苏循。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "於是父子皆勒歸田里，乃依朱友謙於河中。"
+      }
+    ]
+  },
+  {
+    "id": "li-cunxu-su-xun-deputy-appointment",
+    "from": "li-cunxu",
+    "to": "su-xun",
+    "kind": "service",
+    "label": "任节度副使",
+    "note": "晋王因苏循礼见献笔而任节度副使；不补军镇名，不把后赠左仆射作生前实任。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p22",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "明日又獻「畫日筆」三十管，晉王益喜，因以循為節度副使。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-youzhen-zhao-guangfeng-chancellorship",
+    "from": "zhu-youzhen",
+    "to": "zhao-guangfeng",
+    "kind": "service",
+    "label": "起复为相",
+    "note": "梁末帝即位后起赵光逢为司空、同平章事，后又致仕；不把后唐天成年间封赠倒归梁末帝。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p16",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "末帝即位，起為司空、同中書門下平章事，復以司徒致仕。"
+      }
+    ]
+  },
+  {
+    "id": "wang-xingyu-zhang-ce-service",
+    "from": "wang-xingyu",
+    "to": "zhang-ce",
+    "kind": "service",
+    "label": "辟为观察支使",
+    "note": "《新五代史》张策传记邠州王行瑜辟张策为观察支使；后李克用攻王行瑜与张策避乱分别理解，不以辟任补未记年月。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p13",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "邠州王行瑜辟觀察支使。"
+      }
+    ]
+  },
+  {
+    "id": "su-xun-su-kai-kinship",
+    "from": "su-xun",
+    "to": "su-kai",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《新五代史》苏循传续叙“循有子楷”；只保父子，不补母属、排行或苏楷生年。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p21",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "循有子楷，乾寧中舉進士及第，昭宗遣學士陸扆覆落之，楷常慚恨。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-father-zhang-yixian-parentage",
+    "from": "civil-zhang-wenwei-father",
+    "to": "civil-zhang-yixian",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《旧五代史》卷18夹注引《北梦琐言》将彝宪列为张裼之子；不据并列次序确定排行、同母或每人的具体官职。此处依据为旧传夹注，未另作被引原书的独立见证。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-father-zhang-jimei-parentage",
+    "from": "civil-zhang-wenwei-father",
+    "to": "civil-zhang-jimei",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《旧五代史》卷18夹注引《北梦琐言》将济美列为张裼之子；不据并列次序确定排行、同母或每人的具体官职。此处依据为旧传夹注，未另作被引原书的独立见证。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-wenwei-father-zhang-rengui-parentage",
+    "from": "civil-zhang-wenwei-father",
+    "to": "civil-zhang-rengui",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "《旧五代史》卷18夹注引《北梦琐言》将仁龟列为张裼之子；不据并列次序确定排行、同母或每人的具体官职。此处依据为旧传夹注，未另作被引原书的独立见证。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p3",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "張裼尚書有五子：文蔚、彝憲、濟美、仁龜，皆有名第，至宰輔丞郎。"
+      }
+    ]
   }
 ]

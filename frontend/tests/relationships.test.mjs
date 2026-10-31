@@ -36,6 +36,7 @@ test('every relationship cites a real archived paragraph with an unchanged, exac
     assert.ok(nodeIds.has(edge.from) && nodeIds.has(edge.to), edge.id);
     assert.notEqual(edge.from, edge.to, edge.id);
     assert.ok(Object.hasOwn(relationshipKindLabels, edge.kind), edge.id);
+    assert.ok(edge.direction === undefined || edge.direction === 'undirected', `${edge.id}: optional direction`);
     assert.ok(edge.label.trim() && edge.sources.length, edge.id);
     for (const source of edge.sources) {
       const chapter = originals.get(source.chapterId);
@@ -530,4 +531,61 @@ test('sibling direction recognizes qualified kinship labels without treating in-
   assert.equal(isRelationshipDirected({ kind: 'service', label: '与兄弟共事' }), true);
   assert.equal(isRelationshipDirected({ kind: 'adoption', label: '养父子' }), true);
   assert.equal(isRelationshipDirected({ kind: 'conflict', label: '弑兄夺位' }), false);
+});
+
+test('explicit cooperation direction is opt-in while service and legacy direction defaults remain', () => {
+  const { isRelationshipDirected } = sourceRoleGraph().exports;
+  for (const label of ['任为宰相', '共同办事', '同乘奉册宝']) {
+    assert.equal(isRelationshipDirected({ kind: 'service', label }), true, label + ': omission preserves direction');
+    assert.equal(isRelationshipDirected({ kind: 'service', label, direction: 'undirected' }), false, label + ': explicit peer fact');
+  }
+  for (const [kind, label, expected] of [
+    ['kinship', '父子', true], ['kinship', '祖孙', true], ['adoption', '养父子', true],
+    ['succession', '君位交接', true], ['kinship', '同父兄弟', false],
+    ['kinship', '亲属：夫妻（据通鉴）', false], ['conflict', '交恶', false],
+  ]) assert.equal(isRelationshipDirected({ kind, label }), expected, kind + '/' + label);
+  const service = { kind: 'service', label: '宫职记载' };
+  assert.equal(isRelationshipDirected(service, sourceRoleFixture), false);
+  assert.equal(isRelationshipDirected(service, undefined, sourceRoleFixture), false);
+  assert.equal(isRelationshipDirected({ ...service, direction: 'undirected' }, sourceRoleFixture), false);
+});
+
+test('an explicit peer flag survives one shared fact in both direct neighborhoods', () => {
+  const nodes = ['fixture-peer-a', 'fixture-peer-b', 'fixture-other-a', 'fixture-other-b']
+    .map(id => ({ id, name: id }));
+  const peer = { id: 'fixture-peer-fact', from: nodes[0].id, to: nodes[1].id,
+    kind: 'service', label: '共同办事', direction: 'undirected', sources: [] };
+  const unrelated = { id: 'fixture-unrelated-fact', from: nodes[2].id, to: nodes[3].id,
+    kind: 'service', label: '任职', sources: [] };
+  for (const endpoint of [peer.from, peer.to]) {
+    const graph = getRelationshipNeighborhood(endpoint, nodes, [peer, unrelated]);
+    assert.deepEqual(graph.nodes.map(node => node.id), [peer.from, peer.to]);
+    assert.equal(graph.relationships.length, 1);
+    assert.equal(graph.relationships[0], peer, 'the canonical fact is retained, including optional metadata');
+    assert.equal(graph.relationships[0].direction, 'undirected');
+    assert.deepEqual([peer.from, peer.to], ['fixture-peer-a', 'fixture-peer-b']);
+  }
+});
+
+test('one explicit peer rule reaches SVG markers, titles, accessible wording and cards at both endpoints', () => {
+  const actor = { id: 'fixture-service-actor', name: '合作甲', dynasty: '后梁', role: '测试人物', aliases: '', intro: '' };
+  const peer = { id: 'fixture-service-peer', name: '合作乙', external: true, group: '后梁相关', note: '仅供渲染回归的临时条目。' };
+  for (const undirected of [false, true]) {
+    const fact = { id: 'fixture-service-peer-fact', from: actor.id, to: peer.id,
+      kind: 'service', label: '共同办事', sources: [], ...(undirected ? { direction: 'undirected' } : {}) };
+    for (const selectedPersonId of [actor.id, peer.id]) {
+      const elements = sourceRoleGraph({ selectedPersonId, people: [actor], sourceRole: peer, sourceEdge: fact }).render();
+      const edge = elements.find(e => e.key === fact.id && e.props?.className === 'relationship-edge kind-service');
+      assert.ok(edge, selectedPersonId);
+      const line = graphElements(edge).find(e => e.props?.className === 'relationship-edge-line');
+      assert.equal(line.props.markerEnd, undirected ? undefined : 'url(#source-role-fixture-arrow-service)');
+      assert.equal(edge.props['aria-label'].includes('指向'), !undirected);
+      assert.equal(graphText(graphElements(edge).find(e => e.type === 'title')).includes(undirected ? '↔' : '→'), true);
+      const card = elements.find(e => e.key === fact.id && e.props?.className === 'relationship-list-item kind-service');
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-direction')), undirected ? '↔' : '→');
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-kind-label')), relationshipKindLabels.service);
+      assert.equal(graphText(graphElements(card).find(e => e.props?.className === 'relationship-label')), fact.label);
+      assert.match(graphText(elements.find(e => e.type === 'figcaption')), /对等合作.*无箭头/);
+    }
+  }
 });

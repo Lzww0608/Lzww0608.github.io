@@ -36,6 +36,7 @@ export interface PersonRelationship {
   from: string;
   to: string;
   kind: RelationshipKind;
+  direction?: 'undirected';
   label: string;
   note?: string;
   sources: readonly RelationshipSource[];

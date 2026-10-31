@@ -22,7 +22,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
   }
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'old').map(c => c.volume).sort((a,b) => a-b),
     [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,19,20,21,22,23,25,26, ...Array.from({length:22},(_,i)=>27+i),49,52,53,55,56,57,59,61,62,63,64,65,67,70,73,74, ...Array.from({length:12},(_,i)=>75+i),91, ...Array.from({length:6},(_,i)=>99+i), ...Array.from({length:12},(_,i)=>110+i),126,133,134,135,136]);
-  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,36,39,41,43,44,45,46,51,54,...Array.from({length:10},(_,i)=>61+i)]);
+  assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'new').map(c => c.volume).sort((a,b) => a-b), [...Array.from({length:20},(_,i)=>i+1),21,22,23,25,32,35,36,39,41,43,44,45,46,51,54,...Array.from({length:10},(_,i)=>61+i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'tongjian').map(c => c.volume).sort((a,b) => a-b), [262, ...Array.from({ length: 29 }, (_, i) => 266 + i)]);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'jiuguozhi').map(c => c.id), ['jiuguozhi-v002']);
   assert.deepEqual(catalog.chapters.filter(c => c.bookId === 'shiguochunqiu').map(c => c.volume).sort((a, b) => a - b), [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 33, 34, 38, 39, 40, 41, 77]);

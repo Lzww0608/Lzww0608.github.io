@@ -1892,6 +1892,56 @@
         "start": 915,
         "end": 923
       }
+    },
+    {
+      "id": "zhu-youzhen-recall-zhao-guangfeng-chancellorship",
+      "title": "起复赵光逢为司空、平章事",
+      "summary": "赵光逢此前以太子太保致仕。梁末帝即位后起复他为司空、同中书门下平章事；其后赵光逢又以司徒致仕，前后授官与退休分开理解。",
+      "year": null,
+      "sortOrder": 58,
+      "precision": "range",
+      "sourceDate": "新35梁末帝即位后起复，限其本朝913—923年间；起复月日、后续再致仕年月均未独记。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p16",
+          "originalRevision": 1,
+          "originalSha256": "f60ff7f5d260546ac8fe9e10dabf8ac2a05f4a92ede67893997c5da64f76d5b2",
+          "excerpt": "末帝即位，起為司空、同中書門下平章事，復以司徒致仕。"
+        },
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p3",
+          "originalRevision": 1,
+          "originalSha256": "e774778a244fe576107d87f839874e056ade7304f25b9b68d4c490ee7789e6a7",
+          "excerpt": "乾化三年二月十七日，侍衛都將袁象先率禁兵殺郢王於洛京，帝即位於汴州，改名瑱。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p1",
+          "originalRevision": 1,
+          "originalSha256": "d71abe0cfc4af07b1afc1ad247ec5234a457dc79fcd44f697d561707641d8850",
+          "excerpt": "同光元年冬十月辛未朔，日有食之。"
+        },
+        {
+          "chapterId": "old-v030",
+          "paragraphId": "old-v030-p2",
+          "originalRevision": 1,
+          "originalSha256": "dcef94511b089ab7e0960e5521b9991109141c35a6f604de4551b9b2ad9d8a8a",
+          "excerpt": "時梁末帝朱鍠已為其將皇甫麟所殺，獲其首，函之以獻。"
+        }
+      ],
+      "notes": [
+        "末帝属于本段梁朝承接，指朱友贞；不误归后唐李从珂。未以即位二字把赵的任命与再致仕都强系同一天或同一月。",
+        "后句唐天成中在家拜太保、封齐国公和死后赠太傅属于赵光逢后来的经历，不移到朱友贞本朝。",
+        "913—923只限定梁末帝起复赵光逢这一主事的最宽年界，不表示任相持续十年，也不把随后再致仕、后唐封赠一起强套此范围。",
+        "下界据会要所叙乾化三年末帝即位；上界另据旧庄宗纪同光元年十月入汴时末帝已死。己卯是入汴时点，不作末帝唯一死亡日；会要原二月十七日及龙德三年十月初八照存，不据历库日界改写或给起复添日。"
+      ],
+      "yearRange": {
+        "start": 913,
+        "end": 923
+      }
     }
   ]
 }

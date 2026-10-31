@@ -49,6 +49,36 @@
       ]
     },
     {
+      "id": "zhu-youqian-su-xun-and-son-seek-shelter",
+      "title": "苏循父子来河中依附",
+      "summary": "苏循被勒致仕、苏楷被斥归后，父子前往河中依附朱友谦。这里只记他们来依其治下，不扩为朱友谦授予父子某项官职。",
+      "year": 907,
+      "sortOrder": 2,
+      "precision": "year",
+      "sourceDate": "通鉴开平元年五月处分之后连续叙事；来依未独记月日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p38",
+          "originalRevision": 1,
+          "originalSha256": "ffeb2a525e3d8f1618049632fe33ab280c3c8a1d28e0583aa1ec4be1fc5a67da",
+          "excerpt": "戊戌，詔循及刑部尚書張禕等十五人並勒致仕，楷斥歸田里。循父子乃之河中依朱友謙。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p22",
+          "originalRevision": 1,
+          "originalSha256": "f212b8c950f73186c3ce9f576d556a2846a544e23cf53aff7532eb851b010fd0",
+          "excerpt": "於是父子皆勒歸田里，乃依朱友謙於河中。"
+        }
+      ],
+      "notes": [
+        "907年依通鉴同年连续叙事，不把五月戊戌处分日直接当到达河中的日子；新35本句没有独立日期。",
+        "苏循与苏楷的父子身份由前段循有子楷明确锚定，不把来依记录写作收养、亲属或已任命。"
+      ]
+    },
+    {
       "id": "zhu-youqian-jin-alliance",
       "title": "拒朱友珪，求晋援救结盟",
       "summary": "朱友谦拒绝朱友珪召见，遭梁军攻击后向晋求援，李存勖亲自来救；败梁后在猗氏与晋结盟。梁末帝时称臣另列。",
@@ -332,11 +362,68 @@
       }
     },
     {
+      "id": "zhu-youqian-send-su-xun-to-wei",
+      "title": "遣苏循到魏州应晋王求唐旧臣",
+      "summary": "晋王将要即位，搜求在世唐朝旧臣以补百官，朱友谦派苏循到魏州。此后拜殿、献笔与任节度副使，是苏循和晋王的经历。",
+      "year": null,
+      "sortOrder": 12,
+      "precision": "range",
+      "sourceDate": "新35友谦降晋后、晋王即位前的叙事；未独记年月日；按晋王承位至即帝位之间取908—923最宽年界。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p22",
+          "originalRevision": 1,
+          "originalSha256": "f212b8c950f73186c3ce9f576d556a2846a544e23cf53aff7532eb851b010fd0",
+          "excerpt": "其後，友謙叛梁降晉，晉王將即位，求唐故臣在者，以備百官之闕，友謙遣循至魏州。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p65",
+          "originalRevision": 1,
+          "originalSha256": "2b936ed15f05130350ae856237c3659b8fde47870d7eea130e6926fcb957f75e",
+          "excerpt": "太祖神武元聖孝皇帝上開平二年（戊辰，公元九零八年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p66",
+          "originalRevision": 1,
+          "originalSha256": "58095e387d252213e8142dbddb00f096171c132c0fd179ac78b662ea4f45dbe3",
+          "excerpt": "春，正月，癸酉朔，蜀主登興義樓。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p69",
+          "originalRevision": 1,
+          "originalSha256": "a34fa161113b42ea402c034a52121255ca0dc06d8a7e4821ed74d95ac2bc1659",
+          "excerpt": "因扶存勖出，襲位為河東節度使、晉王。"
+        },
+        {
+          "chapterId": "old-v029",
+          "paragraphId": "old-v029-p22",
+          "originalRevision": 1,
+          "originalSha256": "262ad75985f58f3ef03dbd7f0e6dda48c4d52e6b4122486c4a59359785968ad6",
+          "excerpt": "夏四月己巳，帝升壇，祭告昊天上帝，遂即皇帝位，文武臣僚稱賀。禮畢，禦應天門宣製：改天佑二十年為同光元年，大赦天下，"
+        }
+      ],
+      "notes": [
+        "本句没有区分朱友谦先后两次归晋的年次，不强并至既有912结盟或920同州事件，也不定为923某日。",
+        "原文只遣苏循，不把其子苏楷也派往魏州。",
+        "908—923是李存勖袭晋王后、即帝位前的最宽年界，表示此事在其间某时，不是持续任期；未判朱友谦哪一次归晋，也不据魏州地点强定初至之年。",
+        "年界分别据《通鉴》开平二年正月承位叙次及旧庄宗纪改天佑二十年为同光元年的即位记载；梁年号只是《通鉴》的编年框架。李克用卒的辛卯、李存勖即帝位的己巳均不移作本事发生日。"
+      ],
+      "yearRange": {
+        "start": 908,
+        "end": 923
+      }
+    },
+    {
       "id": "zhu-youqian-changan-honors",
       "title": "后唐灭梁后入朝，获恩宠与盐务",
       "summary": "朱友谦赴洛觐见受李存勖慰劳，回藩后请慈隰未允、改得绛州，又获准解县盐池专卖。",
       "year": null,
-      "sortOrder": 12,
+      "sortOrder": 13,
       "precision": "range",
       "sourceDate": "同光元年灭梁后入洛，原段未记月，跨923—924年范围",
       "phase": "uncertain",
@@ -359,7 +446,7 @@
       "title": "赐李姓继麟，获免死铁券",
       "summary": "旧史记同光三年朱友谦赐李姓、名继麟，获免死铁券，诸子领军镇。新史将赐名放在灭梁入洛来朝的接叙中。",
       "year": null,
-      "sortOrder": 13,
+      "sortOrder": 14,
       "precision": "range",
       "sourceDate": "旧本传同光三年，未独月日，传统年跨925—926年",
       "phase": "uncertain",

@@ -2484,6 +2484,13 @@
           "originalRevision": 1,
           "originalSha256": "09cf516f728d7c3b8be309440dbd304edc8a1dc168ba24f16456bcd6b93edd66",
           "excerpt": "太祖弒昭宗，將謀代唐，畏匡凝兄弟不從，遣使告之，匡凝對使者流涕答曰：「受唐恩深，不敢妄有佗志。」"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p20",
+          "originalRevision": 1,
+          "originalSha256": "94578519686f7d4658d6e52193e24c9f1d0fc0b4e1b8fa8336c0e439edb82560",
+          "excerpt": "是時，太祖已弒昭宗，立哀帝"
         }
       ],
       "variants": [
@@ -2502,6 +2509,9 @@
           ],
           "year": 904
         }
+      ],
+      "notes": [
+        "新35苏循传这里只追述太祖已弑昭宗、立哀帝，未载行弑的具体执行人及弑日；不从后文渒河、九锡或明年句倒填这件事的年代。"
       ]
     },
     {
@@ -2642,6 +2652,20 @@
               "originalRevision": 1,
               "originalSha256": "3d708cf620e861b3aebdfb7278e68ebe9e3ed65ffd35422d67251539465dad85",
               "excerpt": "時振自以咸通、乾符中嘗應進士舉，累上不第，尤憤憤，乃謂太祖曰：「此輩自謂清流，宜投於黃河，永為濁流。」太祖笑而從之。"
+            }
+          ]
+        },
+        {
+          "label": "新史唐六臣传序的白马年次及七人名单",
+          "sourceDate": "本卷序从天祐三年及是岁四月彗星起叙，赐死未独记日；不校改原年次",
+          "summary": "序文先叙梁王欲用张廷范、裴枢反对，继叙柳璨希梁王旨及裴枢等七人无罪贬死白马；又说数百士人坐贬死。与本纪二年六月裴贽等百余人的年次、姓名和计数范围分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p2",
+              "originalRevision": 1,
+              "originalSha256": "5890d4c9bd69823142e765d6f71cdfe090357fccf996798126cf13e684e5092d",
+              "excerpt": "甚哉，白馬之禍，悲夫，可為流涕者矣！然士之生死，豈其一身之事哉？初，唐天祐三年，梁王欲以嬖吏張廷範為太常卿，唐宰相裴樞以謂太常卿唐常以清流為之，廷範乃梁客將，不可。梁王由此大怒，曰：「吾常語裴樞純厚不陷浮薄，今亦為此邪！」是歲四月，彗出西北，掃文昌、軒轅、天市，宰相柳璨希梁王旨，歸其譴於大臣，於是左僕射裴樞獨孤損、右僕射崔遠、守太保致仕趙崇、兵部侍郎王贊、工部尚書王溥、吏部尚書陸扆皆以無罪貶，同日賜死于白馬驛。凡搢紳之士與唐而不與梁者，皆誣以朋黨，坐貶死者數百人，而朝廷為之空。"
             }
           ]
         }
@@ -2843,6 +2867,60 @@
       ]
     },
     {
+      "id": "zhu-wen-receive-xue-yiju-minister-ritual",
+      "title": "受薛贻矩臣礼慰劳并侧身避拜",
+      "summary": "唐帝派薛贻矩慰劳梁王。薛请求以臣礼拜见并以舜禹禅让进言，朱温揖其升阶、侧身避拜。薛回朝又向唐帝转述梁王有受禅意。礼见和劝进是实际受禅以前的政治往来。",
+      "year": 907,
+      "sortOrder": 86,
+      "precision": "month",
+      "sourceDate": "通鉴天祐四年正月甲辰；新史本纪回称开平元年正月壬寅；新35另系天祐三年还军后",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p8",
+          "originalRevision": 1,
+          "originalSha256": "41c46fb8f96c9c91da02024e7065f2f5940d8c57b8990f67d1aa13b0c060fa86",
+          "excerpt": "甲辰，唐昭宣帝遣御史大夫薛貽矩至大梁勞王，貽矩請以臣禮見，王揖之升階，貽矩曰：「殿下功德在人，三靈改卜，皇帝方行舜、禹之事，臣安敢違！」乃北面拜舞於庭。王側身避之。貽矩還，言於帝曰：「元帥有受禪之意矣！」"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史本纪壬寅劳军",
+          "sourceDate": "回称开平元年春正月壬寅",
+          "year": 907,
+          "summary": "本纪把薛贻矩来劳系壬寅，通鉴系甲辰；壬寅不转给后句张文蔚率百官劝进。",
+          "evidence": [
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p2",
+              "originalRevision": 1,
+              "originalSha256": "7178ebcf33f8fb200cdc5fdce2444299599f7c44d6eb0bb33498c432c6a5c255",
+              "excerpt": "開平元年春正月壬寅，天子使御史大夫薛貽矩來勞軍。"
+            }
+          ]
+        },
+        {
+          "label": "新35天祐三年还军后礼见",
+          "sourceDate": "天祐三年，太祖自长芦还军后；未独记月日",
+          "summary": "与通鉴所叙臣礼请求、升阶、舜禹劝进与侧身避拜有连续同事细节桥；保其天祐三年原年次，不以通鉴静改原文。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p18",
+              "originalRevision": 1,
+              "originalSha256": "03d69197a1fdf1ecf75377148851774bbde006263e2c11f04d0177e5bd32163d",
+              "excerpt": "天祐三年，太祖自長蘆還軍，哀帝遣貽矩來勞，貽矩以臣禮見，太祖揖之升階，貽矩曰：「殿下功德及人，三靈改卜，皇帝方行舜、禹之事，臣安敢違？」乃稱臣拜舞，太祖側身以避之。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "三灵改卜、舜禹禅让属于薛的劝进话语，不作天命客观应验。此时仍称梁王、殿下，不写为已经称帝。",
+        "新35的天祐三年全年可跨906—907，礼见未独记月日；不强定该源为唯一906。通鉴、新史本纪的正月甲辰与壬寅以及新35的原年次分别保留。"
+      ]
+    },
+    {
       "id": "zhu-wen-rename-huang",
       "title": "受禅前改名晃",
       "summary": "旧史记四月丙辰下令由全忠改晃，新史为壬戌；保留原书干支，不合并为一个改名日。",
@@ -2915,6 +2993,13 @@
           "originalRevision": 1,
           "originalSha256": "47246913fe375831c7fefd25b0d324969fa7e9e27522fc58f9c311c1899d4af1",
           "excerpt": "天祐四年，天子以土運將革，天命有歸，四月，命文蔚與楊涉等總率百僚，奉禪位詔至大梁。太祖受命，文蔚等不易其位。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p3",
+          "originalRevision": 1,
+          "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+          "excerpt": "明年三月，唐哀帝遜位于梁，遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；中書侍郎、同中書門下平章事楊涉為押傳國寶使，翰林學士、中書舍人張策為副；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢為副。四月甲子，文蔚等自上源驛奉冊寶，乘輅車，導以金吾仗衞、太常鹵簿，朝梁于金祥殿。王衮冕南面，臣文蔚、臣循奉冊升殿，進讀已，臣涉、臣策奉傳國璽，臣貽矩、臣光逢奉金寶，以次升，進讀已，降，率文武百官北面舞蹈再拜賀。"
         }
       ],
       "variants": [
@@ -2942,7 +3027,8 @@
         }
       ],
       "notes": [
-        "张文蔚传仅以四月概叙奉禅诏和太祖受命，未给受命日；土运、天命为原传禅代话语，不用来抹去强迫禅位的史家批评或裁定已有干支异说。"
+        "张文蔚传仅以四月概叙奉禅诏和太祖受命，未给受命日；土运、天命为原传禅代话语，不用来抹去强迫禅位的史家批评或裁定已有干支异说。",
+        "《新史》唐六臣传序另记四月甲子奉册宝、衮冕受朝贺；其前段明年三月是唐帝遣使阶段。各源三月/四月、即位/改元及甲子/戊辰的区别仍分别保留。"
       ]
     },
     {
@@ -3018,10 +3104,25 @@
           "originalRevision": 1,
           "originalSha256": "4106d725db869d8e19302e72da1a9e9edf733dd0d4790e248b2b4f151e7836f6",
           "excerpt": "太祖受禪，自宣武軍掌書記、前太府卿，授檢校司空，依前太府卿勾當宣徽院事。尋改樞密院為崇政院，以翔知院事。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "梁太祖立，仍以文蔚為相，梁初制度皆文蔚所裁定。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p18",
+          "originalRevision": 1,
+          "originalSha256": "03d69197a1fdf1ecf75377148851774bbde006263e2c11f04d0177e5bd32163d",
+          "excerpt": "太祖即位，拜貽矩中書侍郎、同中書門下平章事"
         }
       ],
       "notes": [
-        "敬翔传另保受禅初勾当宣徽院事、继知崇政院的叙次，不把检校司空写成掌司空实职，也不将本传未独记的日子与五月甲午强合。"
+        "敬翔传另保受禅初勾当宣徽院事、继知崇政院的叙次，不把检校司空写成掌司空实职，也不将本传未独记的日子与五月甲午强合。",
+        "新35分别补留张文蔚为相和授薛贻矩平章事；制度裁定的施事是张文蔚，不转作朱温亲定。新引文不单独证明崇政院、建昌宫职掌或敬翔授使，薛累拜司空也未据此系于五月同日。"
       ]
     },
     {
@@ -3058,11 +3159,40 @@
       ]
     },
     {
+      "id": "zhu-wen-dismiss-su-xun-and-su-kai",
+      "title": "从谏勒苏循等致仕、斥苏楷归里",
+      "summary": "苏循父子求进，朱温鄙薄其为人。敬翔进谏后，诏令苏循、张祎等十五人致仕，苏楷被斥归田里；新35概叙父子皆勒归田里。",
+      "year": 907,
+      "sortOrder": 92,
+      "precision": "month",
+      "sourceDate": "通鉴开平元年五月叙次、戊戌诏；新35概叙梁初",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p38",
+          "originalRevision": 1,
+          "originalSha256": "ffeb2a525e3d8f1618049632fe33ab280c3c8a1d28e0583aa1ec4be1fc5a67da",
+          "excerpt": "禮部尚書蘇循及其子起居郎楷自謂有功於梁，當不次擢用；循朝夕望為相，帝薄其為人，敬翔及殿中監李振亦鄙之。翔言於帝曰：「蘇循，唐之鴟梟，賣國求利，不可以立於惟新之朝。」戊戌，詔循及刑部尚書張禕等十五人並勒致仕，楷斥歸田里。循父子乃之河中依朱友謙。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p22",
+          "originalRevision": 1,
+          "originalSha256": "f212b8c950f73186c3ce9f576d556a2846a544e23cf53aff7532eb851b010fd0",
+          "excerpt": "敬翔尤惡之，謂太祖曰：「梁室新造，宜得端士以厚風俗，循父子皆無行，不可立於新朝。」於是父子皆勒歸田里，乃依朱友謙於河中。"
+        }
+      ],
+      "notes": [
+        "通鉴分别说苏循等致仕、苏楷斥归；新35父子皆勒归属概述，不用概述抹掉原先处分用语之别。评其无行、卖国等话语仍归史家或进谏者。"
+      ]
+    },
+    {
       "id": "zhu-wen-former-exiles",
       "title": "复前朝流官并许归葬",
       "summary": "令录前朝南荒谴逐未昭雪者，恢复官资、助赴朝；已亡者准归葬。",
       "year": 907,
-      "sortOrder": 92,
+      "sortOrder": 93,
       "precision": "day",
       "sourceDate": "开平元年六月癸亥",
       "phase": "rule",
@@ -3081,7 +3211,7 @@
       "title": "追尊祖考四代",
       "summary": "追尊黯、茂琳、信、诚四代与妣，设四庙谥号、陵号。先祖追尊与实际在位分清。",
       "year": 907,
-      "sortOrder": 93,
+      "sortOrder": 94,
       "precision": "month",
       "sourceDate": "新史开平元年七月己亥；旧史附受禅后叙",
       "phase": "rule",
@@ -3107,7 +3237,7 @@
       "title": "新史记潞州先战失利",
       "summary": "新史记李思安与晋军交战败绩，属开平元年五月；与翌年五月夹城大败分开。旧史八月又记命李思安为行营都统。",
       "year": 907,
-      "sortOrder": 94,
+      "sortOrder": 95,
       "precision": "year",
       "sourceDate": "新史开平元年五月；旧史八月委任",
       "phase": "rule",
@@ -3133,7 +3263,7 @@
       "title": "放宫人与限制使者淹留",
       "summary": "释放两宫及前朝宫人任其去留，并定各地使者停留期限与沿途行程，避免久滞耗费州郡。",
       "year": 907,
-      "sortOrder": 95,
+      "sortOrder": 96,
       "precision": "day",
       "sourceDate": "开平元年九月辛丑",
       "phase": "rule",
@@ -3248,11 +3378,56 @@
       ]
     },
     {
+      "id": "zhu-wen-leave-zhang-wenwei-west-capital",
+      "title": "北巡时留张文蔚在西都",
+      "summary": "新史张文蔚传记开平二年朱温北巡，将张文蔚留在西都。该传随后叙张文蔚暴疾而卒，留置命令与其死亡、赠官不作同一日。",
+      "year": 908,
+      "sortOrder": 100,
+      "precision": "year",
+      "sourceDate": "新35开平二年北巡，留置未独记月日",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p7",
+          "originalRevision": 1,
+          "originalSha256": "5aea6dd14e3e46f2c08662453a50b90d7c7aa6dc7176beb3aa8d10b3551f59b0",
+          "excerpt": "開平二年，太祖北巡，留文蔚西都，以暴疾卒，贈右僕射。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p65",
+          "originalRevision": 1,
+          "originalSha256": "2b936ed15f05130350ae856237c3659b8fde47870d7eea130e6926fcb957f75e",
+          "excerpt": "太祖神武元聖孝皇帝上開平二年（戊辰，公元九零八年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p77",
+          "originalRevision": 1,
+          "originalSha256": "3fe33b6cdf62ceb2d7118310fb47d4bcbea252461aa04589ba30043a1fe4879a",
+          "excerpt": "三月，壬申朔，帝發大梁；丁丑，次澤州。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p78",
+          "originalRevision": 1,
+          "originalSha256": "d49bc88f24134b2e453efe7945a626ff8dea28e527d6f9422e08d9e4477acdde",
+          "excerpt": "癸巳，門下侍郎、同平章事張文蔚卒。"
+        }
+      ],
+      "notes": [
+        "新35只说北巡留张文蔚在西都，未说明路线或独立月日。本纪三月巡泽潞与本传北巡的措词分别保留，不将留张命令与帝出发同定一日。",
+        "张文蔚传无留守正式职名，不把留文蔚西都扩成该传明授西都留守，也不以卒日替留置命令或赠官定日。",
+        "本传先留后卒，《通鉴》承开平二年三月记张文蔚癸巳卒；据卒前的相对界将留置列在五月夹城及秋巡之前。与本年已记北巡相邻只是年内排序，不给留置补独立月日，不将帝出发或张卒日改为命留之日。"
+      ]
+    },
+    {
       "id": "zhu-wen-clamp-defeat",
       "title": "夹城大败而释主将",
       "summary": "围潞将近两年被晋军攻破夹城，康怀英等四十三将请罪，帝以发军日不利为由释放、赐物慰劳。旧史丁丑、新史己丑纪日有别。",
       "year": 908,
-      "sortOrder": 100,
+      "sortOrder": 101,
       "precision": "month",
       "sourceDate": "旧史五月丁丑；新史五月己丑",
       "phase": "rule",
@@ -3288,7 +3463,7 @@
       "title": "禁贡武具金宝装饰",
       "summary": "因贡奉竞奢，禁金宝装饰戈甲剑戟、鞍勒涂金和龙凤雕刻，要求有司不引进。",
       "year": 908,
-      "sortOrder": 101,
+      "sortOrder": 102,
       "precision": "month",
       "sourceDate": "开平二年六月",
       "phase": "rule",
@@ -3307,7 +3482,7 @@
       "title": "命诛王师范二百亲族",
       "summary": "友宁妻追诉亡夫，朱温命在洛阳诛王师范兄弟子侄约二百口；新史六月己酉明确记杀并灭族，旧宗室传只称开平初。",
       "year": 908,
-      "sortOrder": 102,
+      "sortOrder": 103,
       "precision": "day",
       "sourceDate": "新史开平二年六月己酉；旧宗室传开平初",
       "phase": "rule",
@@ -3333,7 +3508,7 @@
       "title": "赴陕支援晋绛",
       "summary": "晋军出阴地攻晋绛，帝巡至陕，牛存节、黄文靖军赴行在；晋军闻大军到而烧寨退，十月回东都。",
       "year": 908,
-      "sortOrder": 103,
+      "sortOrder": 104,
       "precision": "year",
       "sourceDate": "开平二年九月至十月",
       "phase": "rule",

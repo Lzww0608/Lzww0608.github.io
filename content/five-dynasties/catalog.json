@@ -22,7 +22,7 @@
       "author": "北宋 · 欧阳修撰",
       "kind": "正史 · 纪传体",
       "image": "/images/new-five-dynasties.webp",
-      "description": "五代皇帝本纪卷 1—12、五代家人传卷 13—20、文臣合传卷 54、相关人物列传及十国世家卷 61—70；共 44 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。",
+      "description": "五代皇帝本纪卷 1—12、五代家人传卷 13—20、文臣合传卷 35、54、相关人物列传及十国世家卷 61—70；共 45 卷，合传均整卷保留，卷 41 补充钟传等人的记载，不表示 74 卷全本已收录。",
       "defaultChapter": "new-v01",
       "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2"
     },
@@ -316,7 +316,8 @@
         "liang-zhu-wen-ancestor-fan",
         "liang-zhu-wen-ancestor-yang",
         "liang-zhu-wen-ancestor-liu",
-        "jing-xiang"
+        "jing-xiang",
+        "zhang-wenwei"
       ],
       "position": 3,
       "scope": "full",
@@ -2814,7 +2815,8 @@
         "liang-zhu-wen-ancestor-fan",
         "liang-zhu-wen-ancestor-yang",
         "liang-zhu-wen-ancestor-liu",
-        "jing-xiang"
+        "jing-xiang",
+        "zhang-wenwei"
       ],
       "position": 2,
       "scope": "full",
@@ -5309,7 +5311,8 @@
         "tang-li-keyong-consort-cao",
         "tang-kening-wife-meng",
         "tang-li-cunhao-wife-unnamed",
-        "jing-xiang"
+        "jing-xiang",
+        "zhang-wenwei"
       ],
       "position": 266,
       "scope": "full",
@@ -7256,7 +7259,8 @@
         "zhou-guo-wei-siyao-zhai",
         "jing-xiang",
         "feng-dao",
-        "li-yu-tang"
+        "li-yu-tang",
+        "zhang-wenwei"
       ],
       "scope": "full",
       "paragraphCount": 56,
@@ -8264,7 +8268,8 @@
         "liang-zhu-wen-princess-jinhua",
         "tang-li-siyuan-consort-cao",
         "tang-li-siyuan-consort-wei",
-        "jing-xiang"
+        "jing-xiang",
+        "zhang-wenwei"
       ],
       "position": 28,
       "scope": "full",
@@ -9744,7 +9749,8 @@
         "ma-yin",
         "zhu-wen",
         "zhu-youzhen",
-        "li-cunxu"
+        "li-cunxu",
+        "zhang-wenwei"
       ],
       "scope": "full",
       "paragraphCount": 26,
@@ -10865,6 +10871,30 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B74&action=history",
         "sourceSha256": "e409a5a63a0fa2f506e69b495179641529804b16f5e9caef041045330cdaa02f",
         "chapterSha256": "4745c29dbe5d83803d3dd0650ac23d2ecc048c735546ae2ec0faddbef6208005"
+      }
+    },
+    {
+      "id": "new-v35",
+      "bookId": "new",
+      "volume": 35,
+      "position": 35,
+      "title": "卷 35 · 唐六臣传第二十三",
+      "subjects": [
+        "zhang-wenwei"
+      ],
+      "scope": "full",
+      "paragraphCount": 31,
+      "characterCount": 3607,
+      "provenance": {
+        "pageTitle": "新五代史/卷35",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&oldid=2112544",
+        "revisionId": 2112544,
+        "fetchedAt": "2026-10-31T08:32:07.755Z",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&action=history",
+        "sourceSha256": "92ab8ea5c1a4b63f6d5d60e230b442fc5edd92da4ca006dbc1d2f08fc19c4e68",
+        "chapterSha256": "cc0e60c5679486eb3900410027bfac7594303546b7747e93469ef817b695e617"
       }
     }
   ]
