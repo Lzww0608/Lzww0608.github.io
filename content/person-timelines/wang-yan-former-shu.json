@@ -77,11 +77,21 @@
           "originalRevision": 1,
           "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
           "excerpt": "六月，壬寅朔，蜀主殂。癸卯，太子即皇帝位。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p5",
+          "originalRevision": 1,
+          "originalSha256": "6de1ba89c776bfe5d9faa0669e3f6d5f93d190ecf6e048d1ef4d99f9aae558f3",
+          "excerpt": "光天元年六月癸卯嗣位，改元乾德。"
         }
       ],
       "phase": "rule",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "notes": [
+        "《九国志》后主摘要接叙改元，未把改元也独记在癸卯日；不改变主条及后续乾德改元事件的日期。"
+      ]
     },
     {
       "id": "wang-yan-former-shu-gao-empress-investiture",
@@ -215,7 +225,43 @@
       "notes": [
         "新史降于七里亭，旧史记升仙桥，地点分别保留；公历月份未取代原书日期。"
       ],
-      "sortOrder": 5
+      "sortOrder": 5,
+      "variants": [
+        {
+          "label": "《九国志》后主摘要的出降月次",
+          "sourceDate": "同光三年十二月，未独日；该历月范围跨西历925—926年",
+          "summary": "本页后辑世家摘要作六年改咸康、十二月为魏王继岌破灭出降，与主证十一月二十七日月次不同。按来源并列，不把本书十二月改作十一月，也不因历月跨年就填一个未经原文记载的确日。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p5",
+              "originalRevision": 1,
+              "originalSha256": "6de1ba89c776bfe5d9faa0669e3f6d5f93d190ecf6e048d1ef4d99f9aae558f3",
+              "excerpt": "至六年改咸康，于是年十二月，爲後唐魏王繼岌破滅出降，時唐同光三年也。"
+            }
+          ],
+          "notes": [
+            "历月边界只用来核对925—926范围；没有把月首或月末当作出降日。世家摘要层不另冒充路振原笔或另一独立战程。"
+          ]
+        },
+        {
+          "label": "《九国志》宗弼传所记西宫迁置",
+          "sourceDate": "本传叙唐军入境之后，迁置未独日；不继承主条出降日",
+          "summary": "宗弼与三招讨同送款、回成都杀宋光嗣等并迁王衍及母妻于西宫；本书西宫与新史天启宫分别保存，不补定未名母妻的具体名单。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p28",
+              "originalRevision": 1,
+              "originalSha256": "9d98fcb3cbb9b309a105c7c633160b5b08223def5805de34ef6b019d420bd0a6",
+              "excerpt": "宗弼遂與三招討同送款于魏王，乃還成都，斬宋光嗣等，函首送于魏王。遷衍及母、妻于西宮。"
+            }
+          ],
+          "notes": [
+            "王衍命诛三招讨与宗弼实际同三将投降分开，未把命令写成杀成。"
+          ]
+        }
+      ]
     },
     {
       "id": "wang-yan-former-shu-death",
@@ -248,7 +294,31 @@
       ],
       "phase": "fall",
       "precision": "month",
-      "sortOrder": 6
+      "sortOrder": 6,
+      "variants": [
+        {
+          "label": "《九国志》秦州驿与同卷秦川驿的写法",
+          "sourceDate": "后主摘要承同光三年的明年四月己丑；纪日照存，不强配公历某日",
+          "year": 926,
+          "summary": "后主摘要作秦州驿、年二十八；宗寿传葬事追叙则作秦川驿。两处原字及本纪四月叙事并列，不为统一地名或寿数改底本。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p5",
+              "originalRevision": 1,
+              "originalSha256": "6de1ba89c776bfe5d9faa0669e3f6d5f93d190ecf6e048d1ef4d99f9aae558f3",
+              "excerpt": "明年四月己丑，被殺于秦州驛，年二十八。"
+            },
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p10",
+              "originalRevision": 1,
+              "originalSha256": "c53e0b6de641f390902501bec126db1a1b73e0c30a813cb21e5b3b5668d21dfb",
+              "excerpt": "初，衍至秦川驛，母妻及子弟遇害者十八人，並藳葬道左。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wang-yan-former-shu-li-shunxian-zhaoyi-investiture",
@@ -460,6 +530,27 @@
           ],
           "notes": [
             "没有在本段记准驳君主姓名，不据称唐就补某位唐帝。"
+          ]
+        },
+        {
+          "label": "《九国志》两传的改葬叙次及十八人口径",
+          "sourceDate": "宗寿传叙明宗即位后、未独年月；宗范传称后唐天成初，均不继承他书天成二年范围",
+          "summary": "宗寿传记获准葬衍、为遇害母妻及子弟十八人更棺重敛、白服步行并合葬三赵村；宗范传另记天成初宗寿改葬衍、师范来吊而被宗寿拒绝同列。两传分叙，不据天成初硬定为元年或造第二次葬事；宗寿传未写追封爵及诸侯礼，不以未叙否定他书，也不将十八人口径并为完整名单。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p10",
+              "originalRevision": 1,
+              "originalSha256": "c53e0b6de641f390902501bec126db1a1b73e0c30a813cb21e5b3b5668d21dfb",
+              "excerpt": "上表請葬衍，許之。初，衍至秦川驛，母妻及子弟遇害者十八人，並藳葬道左。至是宗壽盡易棺歛，縞素徒步，親自營護，偕葬于三趙村，聞者義之。"
+            },
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p30",
+              "originalRevision": 1,
+              "originalSha256": "99c041c8bd1bf9a6e74381a2d9e48671ee06079c142d43bb9ef041aec8ef86f9",
+              "excerpt": "後唐天成初，王宗壽改葬衍，師範來弔贈，宗壽不與齒。"
+            }
           ]
         }
       ]

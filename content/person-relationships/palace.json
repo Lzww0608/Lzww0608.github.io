@@ -13592,5 +13592,125 @@
         "title": "《十国春秋》 · 卷 39 · 前蜀列传（王宗佶、王宗侃等）"
       }
     ]
+  },
+  {
+    "id": "former-shu-wang-jian-sister-wang-jian-former-shu-kinship-palace",
+    "from": "former-shu-wang-jian-sister",
+    "to": "wang-jian-former-shu",
+    "kind": "kinship",
+    "label": "姊弟",
+    "note": "本书明称宗翰为建之姊子，并明说其姊受封；不补共同父母的姓名或同父同母信息。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p16",
+        "originalRevision": 1,
+        "originalSha256": "9f42210d0783710005c0b85697e00a0ab393c67a0d990dc92e11aac4f84462cb",
+        "excerpt": "宗翰，建之姊子也，本姓孟氏。建爲神策軍使，僖宗封其姊爲晉國夫人，宗翰最被親愛。",
+        "title": "《九国志》 · 卷 6 · 前蜀人物列传"
+      },
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p5",
+        "originalRevision": 1,
+        "originalSha256": "475d127ad9a154d7c30808552bf0de3cb7f14b95da38adbee4bfc68258440df0",
+        "excerpt": "王宗翰，本姓孟氏，高祖之姊子也。高祖畜爲子，賜姓名。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p112",
+        "originalRevision": 1,
+        "originalSha256": "a38eb0b70c02554071b82c740a7afa7e6bfb8e5a4c9ab6bcb4897f78fd20dc39",
+        "excerpt": "宗翰姓孟，蜀主之姊子",
+        "title": "《资治通鉴》 · 卷 267 · 后梁纪二"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-jian-sister-former-shu-wang-zonghan-kinship-palace",
+    "from": "former-shu-wang-jian-sister",
+    "to": "former-shu-wang-zonghan",
+    "kind": "kinship",
+    "label": "母子",
+    "note": "姊子指宗翰是王建姐姐的儿子；其母失名，宗翰原姓孟不作为母姓依据。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p16",
+        "originalRevision": 1,
+        "originalSha256": "9f42210d0783710005c0b85697e00a0ab393c67a0d990dc92e11aac4f84462cb",
+        "excerpt": "宗翰，建之姊子也，本姓孟氏。建爲神策軍使，僖宗封其姊爲晉國夫人，宗翰最被親愛。",
+        "title": "《九国志》 · 卷 6 · 前蜀人物列传"
+      },
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p5",
+        "originalRevision": 1,
+        "originalSha256": "475d127ad9a154d7c30808552bf0de3cb7f14b95da38adbee4bfc68258440df0",
+        "excerpt": "王宗翰，本姓孟氏，高祖之姊子也。高祖畜爲子，賜姓名。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p112",
+        "originalRevision": 1,
+        "originalSha256": "a38eb0b70c02554071b82c740a7afa7e6bfb8e5a4c9ab6bcb4897f78fd20dc39",
+        "excerpt": "宗翰姓孟，蜀主之姊子",
+        "title": "《资治通鉴》 · 卷 267 · 后梁纪二"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wang-zonghan-maternal-kinship-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wang-zonghan",
+    "kind": "kinship",
+    "label": "舅甥（姊子）",
+    "note": "宗翰是王建姐姐的儿子，母系舅甥关系与后来收养分开登记。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p16",
+        "originalRevision": 1,
+        "originalSha256": "9f42210d0783710005c0b85697e00a0ab393c67a0d990dc92e11aac4f84462cb",
+        "excerpt": "宗翰，建之姊子也，本姓孟氏。建爲神策軍使，僖宗封其姊爲晉國夫人，宗翰最被親愛。",
+        "title": "《九国志》 · 卷 6 · 前蜀人物列传"
+      },
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p5",
+        "originalRevision": 1,
+        "originalSha256": "475d127ad9a154d7c30808552bf0de3cb7f14b95da38adbee4bfc68258440df0",
+        "excerpt": "王宗翰，本姓孟氏，高祖之姊子也。高祖畜爲子，賜姓名。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p112",
+        "originalRevision": 1,
+        "originalSha256": "a38eb0b70c02554071b82c740a7afa7e6bfb8e5a4c9ab6bcb4897f78fd20dc39",
+        "excerpt": "宗翰姓孟，蜀主之姊子",
+        "title": "《资治通鉴》 · 卷 267 · 后梁纪二"
+      }
+    ]
+  },
+  {
+    "id": "wang-jian-former-shu-former-shu-wang-zonghan-adoption-palace",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-wang-zonghan",
+    "kind": "adoption",
+    "label": "养子（另为姊子）",
+    "note": "收养据《十国春秋》明确畜为子，不单凭《九国志》的赐姓反推；不取消已经成立的舅甥与生母关系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p5",
+        "originalRevision": 1,
+        "originalSha256": "475d127ad9a154d7c30808552bf0de3cb7f14b95da38adbee4bfc68258440df0",
+        "excerpt": "王宗翰，本姓孟氏，高祖之姊子也。高祖畜爲子，賜姓名。",
+        "title": "《十国春秋》 · 卷 39 · 前蜀列传"
+      }
+    ]
   }
 ]

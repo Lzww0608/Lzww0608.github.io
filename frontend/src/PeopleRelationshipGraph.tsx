@@ -57,16 +57,32 @@ export function isRelationshipDirected(relationship: Pick<PersonRelationship, 'k
     && !(relationship.kind === 'kinship' && relationship.label.includes('亲属'));
 }
 
+function nodeNameLines(name: string): string[] {
+  const characters = Array.from(name);
+  if (characters.length <= 5) return [name];
+  const qualifier = characters.findIndex(character => character === '（' || character === '(');
+  const parts = qualifier > 0 && qualifier <= 5
+    ? [characters.slice(0, qualifier), characters.slice(qualifier)] : [characters];
+  return parts.flatMap(part => Array.from({ length: Math.ceil(part.length / 5) },
+    (_, index) => part.slice(index * 5, index * 5 + 5).join('')));
+}
+
+function heightForNode(node: RelationshipNode): number {
+  return Math.max(nodeHeight, nodeNameLines(node.name).length * 20 + 28);
+}
+
 function focusLayout(nodes: readonly RelationshipNode[], selectedId: string): GraphLayout {
   const selected = nodes.find(node => node.id === selectedId);
   const neighbors = nodes.filter(node => node.id !== selectedId);
-  const height = Math.max(360, neighbors.length * 86 + 116);
+  const tallestNode = Math.max(nodeHeight, ...nodes.map(heightForNode));
+  const spacing = Math.max(86, tallestNode + 18);
+  const height = Math.max(360, neighbors.length * spacing + 116);
   return {
     width: 940,
     height,
     nodes: [
       ...(selected ? [{ node: selected, x: 195, y: height / 2 }] : []),
-      ...neighbors.map((node, index) => ({ node, x: 750, y: 102 + index * 86 })),
+      ...neighbors.map((node, index) => ({ node, x: 750, y: 68 + tallestNode / 2 + index * spacing })),
     ],
   };
 }
@@ -245,12 +261,16 @@ export function PeopleRelationshipGraph({
                 {<g className="relationship-edge-label" aria-hidden="true"><rect x={labelX - Math.max(30, relationship.label.length * 6.5 + 8)} y={labelY - 11} width={Math.max(60, relationship.label.length * 13 + 16)} height="23" rx="2" /><text x={labelX} y={labelY + 5} textAnchor="middle">{relationship.label}</text></g>}
               </g>;
             })}
-            {layout.nodes.map(({ node, x, y }) => <g key={node.id} className={`relationship-node${node.external ? ' is-external' : ''}${node.id === focusedId ? ' is-selected' : ''}`} transform={`translate(${x},${y})`} role="button" tabIndex={0} aria-label={`${nodeLabel(node)}${isSourceRole(node) ? '，查看来源联系' : node.external ? '，关联人物，查看相邻关系' : '，打开人物详情'}`} onClick={() => openNode(node)} onKeyDown={event => activateWithKeyboard(event, () => openNode(node))}>
+            {layout.nodes.map(({ node, x, y }) => {
+              const nameLines = nodeNameLines(node.name);
+              const height = heightForNode(node);
+              return <g key={node.id} className={`relationship-node${node.external ? ' is-external' : ''}${node.id === focusedId ? ' is-selected' : ''}`} transform={`translate(${x},${y})`} role="button" tabIndex={0} aria-label={`${nodeLabel(node)}${isSourceRole(node) ? '，查看来源联系' : node.external ? '，关联人物，查看相邻关系' : '，打开人物详情'}`} onClick={() => openNode(node)} onKeyDown={event => activateWithKeyboard(event, () => openNode(node))}>
               <title>{nodeLabel(node)}{node.note ? `：${node.note}` : ''}</title>
-              <rect x={-nodeWidth / 2} y={-nodeHeight / 2} width={nodeWidth} height={nodeHeight} rx="3" />
-              <text className="relationship-node-name" y="-2" textAnchor="middle">{node.name}</text>
-              <text className="relationship-node-note" y="21" textAnchor="middle">{isSourceRole(node) ? sourceRoleScope(node, '·') : node.external ? '关联人物' : node.id === focusedId ? '已聚焦 · 查看人物' : '查看人物'}</text>
-            </g>)}
+              <rect x={-nodeWidth / 2} y={-height / 2} width={nodeWidth} height={height} rx="3" />
+              <text className={`relationship-node-name${nameLines.length > 1 ? ' is-wrapped' : ''}`} y={-2 - (nameLines.length - 1) * 10} textAnchor="middle">{nameLines.map((line, index) => <tspan key={index} x="0" dy={index ? 20 : 0}>{line}</tspan>)}</text>
+              <text className="relationship-node-note" y={height / 2 - 13} textAnchor="middle">{isSourceRole(node) ? sourceRoleScope(node, '·') : node.external ? '关联人物' : node.id === focusedId ? '已聚焦 · 查看人物' : '查看人物'}</text>
+            </g>;
+            })}
           </svg>
         </div>
         <figcaption id={`${elementId}-diagram-help`}>{sourceRoleContext ? '只展示当前条目与直接联系，可在图内滚动查看。来源角色按史料称谓列出，同异未定；与其相关的连线使用无箭头形式，具体含义以关系标签和原文依据为准。宫职名单中的联系不表示君主亲自任命或任职起始。其他人物关系的箭头按祖辈、父辈、养育者、主将、施予者或前帝指向相关人物；一般往来由行为发出者指向对象，具体含义以关系标签和原文依据为准。给养表示施予者到受惠者，不表示任职或部属。兄弟姊妹、冲突和泛称亲属使用无箭头连线。明确为对等合作的往来也使用无箭头连线。虚线框包括来源角色和关联人物，位置不表示排行。' : '只展示已选人物与直接相关人物，可在图内滚动查看。箭头按祖辈、父辈、养育者、主将、施予者或前帝指向相关人物；一般往来由行为发出者指向对象，具体含义以关系标签和原文依据为准。给养表示施予者到受惠者，不表示任职或部属。兄弟姊妹、冲突和泛称亲属使用无箭头连线；泛亲属连线不表示辈分。明确为对等合作的往来也使用无箭头连线。虚线框为关联人物，当前没有独立传记。位置不表示排行。'}</figcaption>

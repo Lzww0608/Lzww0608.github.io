@@ -34,7 +34,7 @@ BOOKS = [
     dict(id='nantangma', title='南唐书（马令）', sourceTitle='馬氏南唐書', author='北宋 · 马令撰', kind='十国史 · 纪传体', image='', description='现收卷 5 的后主书、卷 6 的女宪传及卷 10 的序文、李建勋与严续等人物记载，完整保留所选卷正文、标题、夹注与来源标点，不表示全书已收录。马令与陆游的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。', defaultChapter='nantangma-v005'),
     dict(id='nantangjinshi', title='南唐近事', sourceTitle='南唐近事', author='北宋 · 郑文宝撰', kind='史料笔记', image='', description='现收卷 2 全文，保留轶事、夹注及来源标点，不表示全书已收录。传闻与人物评论按来源理解，宜与其他史料对读。', defaultChapter='nantangjinshi-v002'),
     dict(id='quantangwen', title='全唐文', sourceTitle='全唐文', author='徐铉（本卷撰文者）', kind='诗文总集 · 碑铭', image='', description='现收卷 884 全文，含徐铉所撰碑铭；本卷撰文者与总集编纂身份分开，保留正文、铭文、夹注及来源标点，不表示全书已收录。碑文所述褒赠及家世按其文体与来源分别核验。', defaultChapter='quantangwen-v884'),
-    dict(id='jiuguozhi', title='九国志', sourceTitle='九國志', author='北宋 · 路振撰', kind='十国史 · 纪传体', image='', description='现收卷 2 的吴国人物列传，完整保留正文、夹注与标点，不表示全书已收录；婚家及人物异说按来源分别理解。', defaultChapter='jiuguozhi-v002'),
+    dict(id='jiuguozhi', title='九国志', sourceTitle='九國志', author='北宋 · 路振撰', kind='十国史 · 纪传体', image='', description='现收卷 2 的吴国人物列传及卷 6 的前蜀提要、人物列传；卷 6 另完整保存卷题、提要与原页异文，不表示全书已收录。原作者北宋路振，今本经清周梦棠据《永乐大典》重辑；后出编排层、同源引书及婚家身份异说分别理解。', defaultChapter='jiuguozhi-v002'),
 ]
 SOUTHERN_SPECS = json.loads((ROOT.parent / 'southern-northern/source-specs.json').read_text(encoding='utf-8'))
 if SOUTHERN_SPECS.get('schemaVersion') != 1:
@@ -812,7 +812,137 @@ def extract(html, with_tags=False, index_page=False):
     visit(Document(html).root)
     return blocks
 
+def selected_transcription(payload):
+    policy = payload.get('selection', {}).get('transcription')
+    if policy is None:
+        return None
+    if (not isinstance(policy, dict)
+            or set(policy) != {'renderedMainText', 'headerTitle', 'headerSummary', 'headerAuthor'}
+            or policy['renderedMainText'] is not True
+            or not all(isinstance(policy[k], str) and policy[k]
+                       for k in ('headerTitle', 'headerSummary', 'headerAuthor'))):
+        raise ValueError('Invalid explicitly selected source transcription')
+    return policy
+
+
+def transcribed_source_details(payload):
+    policy = selected_transcription(payload)
+    if policy is None:
+        raise ValueError('Source transcription requires explicit selection')
+    if set(payload.get('selection', {})) != {'transcription'}:
+        raise ValueError('Transcription cannot silently combine selection modes')
+
+    def classes(node):
+        return set(node.attrs.get('class', '').split())
+
+    def omit(node):
+        return excluded(node) or 'variant-tooltip' in classes(node)
+
+    def text(node):
+        if omit(node):
+            return ''
+        if node.tag == 'br':
+            return '\n'
+        return ''.join(text(c) if isinstance(c, Node) else c for c in node.children)
+
+    def normalize(value):
+        return re.sub(r' *\n *', '\n', re.sub(r'[\t\r\f\v ]+', ' ', value)).strip()
+
+    def walk(node):
+        yield node
+        for child in node.children:
+            if isinstance(child, Node):
+                yield from walk(child)
+
+    document = Document(payload['response']['parse']['text']['*']).root
+    headers = [n for n in walk(document) if n.tag == 'td'
+               and normalize(text(n)).split('\n') == [policy['headerTitle'],
+                                                       policy['headerSummary'],
+                                                       policy['headerAuthor']]]
+    if len(headers) != 1:
+        raise ValueError('Selected volume header changed')
+    blocks = [(policy['headerTitle'], 'h1'), (policy['headerSummary'], 'p')]
+    variants = []
+
+    def append_body(node):
+        normalized = normalize(text(node))
+        if not normalized:
+            return
+        # This selection has one literal source block per node; reject rather
+        # than guess variant offsets if future source HTML introduces splits.
+        if re.search(r'\n{2,}', normalized):
+            raise ValueError('Selected source block boundaries changed')
+        pieces, local = [], []
+
+        def emit(part):
+            if omit(part):
+                return
+            if 'variant-text' in classes(part):
+                primary = text(part)
+                alternatives = [n.text() for n in walk(part)
+                                if 'variant-tooltip' in classes(n)]
+                if len(alternatives) != 1 or not alternatives[0] or len(alternatives[0]) > 5:
+                    raise ValueError('Selected source variant shape changed')
+                local.append((primary, alternatives, ''.join(pieces)))
+                pieces.append(primary)
+                return
+            if part.tag == 'br':
+                pieces.append('\n')
+                return
+            for child in part.children:
+                emit(child) if isinstance(child, Node) else pieces.append(child)
+
+        emit(node)
+        if normalize(''.join(pieces)) != normalized:
+            raise ValueError('Selected main transcription is inconsistent')
+        position = len(blocks) + 1
+        for primary, alternatives, prefix in local:
+            start = len(normalize(prefix))
+            if primary.strip():
+                while (normalized[start:start+len(primary)] != primary
+                       and start < len(normalized) and normalized[start].isspace()):
+                    start += 1
+            if normalized[start:start+len(primary)] != primary:
+                raise ValueError('Selected variant main-text range changed')
+            variants.append(dict(position=position, primary=primary, alternatives=alternatives,
+                                 originalStart=start, originalEnd=start+len(primary)))
+        blocks.append((normalized, node.tag))
+
+    def visit(node):
+        if node.attrs.get('id') == 'headerContainer' or omit(node):
+            return
+        if node.tag in {'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'}:
+            append_body(node)
+            return
+        for child in node.children:
+            if isinstance(child, Node):
+                visit(child)
+
+    visit(document)
+    return dict(blocks=blocks, variants=variants)
+
+
+
+def validate_captured_transcription(payload, spec):
+    selection = payload.get('selection', {})
+    if not isinstance(selection, dict):
+        raise ValueError('Invalid captured source selection')
+    wanted = 'transcription' in spec
+    present = 'transcription' in selection
+    if wanted != present or wanted and selection['transcription'] != spec['transcription']:
+        raise ValueError('Captured source transcription changed')
+    if wanted:
+        if set(selection) != {'transcription'} or selected_transcription(payload) is None:
+            raise ValueError('Invalid captured transcription mode')
+
 def source_blocks(payload, with_tags=False):
+    selection = payload.get('selection', {})
+    if not isinstance(selection, dict):
+        raise ValueError('Invalid source selection')
+    # Presence matters: explicitly null/empty policies must never fall back.
+    if 'transcription' in selection:
+        blocks = transcribed_source_details(payload)['blocks']
+        return blocks if with_tags else [text for text, _ in blocks]
     # One fixed page can contain several volumes; retain explicit source bounds.
     selection = payload.get('selection', {})
     blocks = extract(payload['response']['parse']['text']['*'], with_tags=True,
@@ -842,6 +972,11 @@ def request(params):
             time.sleep(2 ** attempt)
 
 def capture(spec, previous=None):
+    transcription_selected = 'transcription' in spec
+    if transcription_selected:
+        if (spec['transcription'] is None or spec.get('sourceSection') is not None
+                or spec.get('indexPage') or selected_transcription({'selection': {'transcription': spec['transcription']}}) is None):
+            raise ValueError('Invalid source transcription specification')
     path = ROOT / 'sources' / (spec['id'] + '.json')
     chapter_path = ROOT / 'chapters' / (spec['id'] + '.json')
     if previous:
@@ -856,6 +991,7 @@ def capture(spec, previous=None):
                     or cached_source['response']['parse']['revid'] != spec['fixedRevisionId']):
                 raise ValueError(f"Fixed source revision changed: {spec['id']}")
         cached_source = json.loads(path.read_text())
+        validate_captured_transcription(cached_source, spec)
         if cached_source.get('selection', {}).get('sourceSection') != spec.get('sourceSection'):
             raise ValueError(f"Source section changed: {spec['id']}")
         cached = json.loads(chapter_path.read_text())
@@ -869,7 +1005,9 @@ def capture(spec, previous=None):
         if 'parse' not in result: raise ValueError(f"Missing source: {spec['page']} {result}")
         payload = dict(fetchedAt=datetime.now(timezone.utc).isoformat(), response=result)
         if spec.get('sourceSection'): payload['selection'] = {'sourceSection': spec['sourceSection']}
+        if transcription_selected: payload['selection'] = {'transcription': spec['transcription']}
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
+    validate_captured_transcription(payload, spec)
     parsed = payload['response']['parse']
     if spec.get('fixedRevisionId') and parsed['revid'] != spec['fixedRevisionId']:
         raise ValueError(f"Fixed source revision changed: {spec['id']}")
@@ -922,7 +1060,7 @@ def capture(spec, previous=None):
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')
-    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly'}}
+    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly', 'transcription'}}
     summary.update(subjects=subjects, position=position, scope='full', paragraphCount=len(paragraphs), characterCount=length, provenance=dict(pageTitle=spec['page'], sourceUrl=source_url, revisionId=parsed['revid'], fetchedAt=payload['fetchedAt'], license=LICENSE, licenseUrl=LICENSE_URL, contributorsUrl='https://zh.wikisource.org/w/index.php?'+urllib.parse.urlencode(dict(title=spec['page'], action='history')), sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest(), chapterSha256=hashlib.sha256(chapter_path.read_bytes()).hexdigest()))
     print(f"{spec['id']}: {len(paragraphs)} blocks, {length} characters, revision {parsed['revid']}", flush=True)
     return summary
@@ -944,6 +1082,10 @@ SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v041\":[\"本�
 
 SPECS.extend(json.loads("[{\"id\":\"shiguochunqiu-v039\",\"bookId\":\"shiguochunqiu\",\"volume\":39,\"position\":39,\"title\":\"卷 39 · 前蜀列传（王宗佶、王宗侃等）\",\"page\":\"十國春秋/卷039\",\"subjects\":[\"wang-jian-former-shu\",\"wang-yan-former-shu\",\"former-shu-wang-jian-xu-shunsheng\",\"guo-chongtao\",\"kang-yanxiao\",\"li-yan-youzhou\",\"li-jiji\",\"liu-zhijun\"],\"sourceLocalSubjectsOnly\":true,\"fixedRevisionId\":2542158,\"minimumCharacters\":7372,\"minimumBlocks\":42}]"))
 SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v039\":[\"本页完整收录所选卷保存来源的正文、标题、存疑文字、夹注及史论；原文字形、标点与块次照存。\",\"古籍原作已属公版；维基文库整理文本按 CC BY-SA 4.0 署名并以相同方式共享。疑字、神异叙事和未定训诂在译文保留边界。\",\"本卷父页修订号2542158与保存的完整渲染字节已固定；所引子页修订未逐一固定。同作品不同版本不作独立复证，已收卷篇见目录，不表示全书已收录。\"]}"))
+
+# Complete selected Former Shu source; legacy captures and default chapter stay fixed.
+SPECS.append(json.loads('{"id": "jiuguozhi-v006", "bookId": "jiuguozhi", "volume": 6, "position": 6, "title": "卷 6 · 前蜀人物列传", "page": "九國志/卷六", "subjects": ["dong-zhang", "former-shu-wang-jian-sister", "gao-jixing", "guo-chongtao", "li-jiji", "li-siyuan", "li-yan-youzhou", "liu-zhijun", "meng-zhixiang", "wang-jian-former-shu", "wang-yan-former-shu", "zhu-wen"], "sourceLocalSubjectsOnly": true, "fixedRevisionId": 2592883, "minimumCharacters": 9150, "minimumBlocks": 43, "transcription": {"renderedMainText": true, "headerTitle": "九國志卷六", "headerSummary": "前蜀〈高祖以唐大順二年入成都，至後主成康二年國滅，父子二世，凡三十五年。〉", "headerAuthor": "作者：路振\u3000北宋"}}'))
+SOUTHERN_TANG_COMPLETE_NOTES['jiuguozhi-v006'] = json.loads('["完整保存本卷卷题、前蜀提要、人物列传、夹注及卷页标记，不表示《九国志》全书已经收录。", "《九国志》原作者为北宋路振；今本由清周梦棠据《永乐大典》散篇重辑。世家目与略注始末属于后出编排层，卷首“成康二年”与正文“咸康”等字依各位置保存。", "据维基文库父页修订2592883保存的渲染文本；页面所引模板、子页修订未逐一固定。原作公版，维基文库整理文本依CC BY-SA 4.0署名并以相同方式共享，底本与引书关系分别理解。", "原页异文提示与主字分开保存，不把两种字形连成新姓名或正文。", "原页异文：第4段“會黃巢亂，與鹿晏宏等西迎僖宗于蜀，”中的“宏”另示“弘”；主字照存。", "原页异文：第12段“萬八千一百三十五\u3000一頁。〉”中的全角空白另示“第”；主字照存。", "原页异文：第34段“頭營十將，從鹿晏宏迎駕。至山南，晏”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“迎駕。至山南，晏宏遲留不行，暉素與”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“：「鑾駕將囘，晏宏觀望不進，而姑息”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“之舉，不爾，爲晏宏所累，且宮車反正”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“爲王妃矣。」分封宏農郡王。卒，年七”中的“宏”另示“弘”；主字照存。", "原页异文：第36段“𨽾忠武軍。從鹿晏宏出征，及晏宏據褒”中的“宏”另示“弘”；主字照存。", "原页异文：第36段“鹿晏宏出征，及晏宏據褒中，心無囘志”中的“宏”另示“弘”；主字照存。", "原页异文：第40段“𨽾忠武軍。從鹿晏宏出征有功，遷爲列”中的“宏”另示“弘”；主字照存。", "原页异文：第42段“壽泣諫衍，在迎等紹以酒悲，自是大臣”中的“紹”另示“紿”；主字照存。"]')
 
 def main():
     # The physical archive keeps its historical path and all existing IDs.

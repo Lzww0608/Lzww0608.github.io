@@ -68,6 +68,7 @@
 .relationship-node:hover > rect, .relationship-node:focus-visible > rect { stroke: var(--accent); stroke-width: 2.5; }
 .relationship-node:focus-visible { outline: none; }
 .relationship-node-name { font-family: var(--serif); font-size: 21px; font-weight: 600; fill: var(--ink); }
+.relationship-node-name.is-wrapped { font-size: 18px; }
 .relationship-node-note { font-family: var(--sans); font-size: 10px; fill: var(--muted); }
 .relationship-node.is-selected .relationship-node-note { fill: var(--accent); }
 .relationship-figure figcaption { font-size: 12px; line-height: 1.9; color: var(--muted); padding: 12px 0 0; }

@@ -23,6 +23,13 @@
           "originalRevision": 1,
           "originalSha256": "497bae2ad73cb324cfcf787d13a70e4b80a5af10ded235ad6b40bcc7e76a3643",
           "excerpt": "光啟二年，僖宗復幸興元，高祖既以長劍五百前驅奮擊，負玉璽以行，而暉亦與俱西，同爲清道斬斫使。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
+          "excerpt": "光啓二年三月，再西幸，李昌符焚棧道幾斷，建控僖宗馬過烟熖中。旣至興元，命爲壁州刺史。"
         }
       ],
       "phase": "service",
@@ -42,11 +49,21 @@
           "originalRevision": 1,
           "originalSha256": "10c85368ff9c2206f27ae31ce22b2030b5c3fef68c2fc62840e569c3c9e7fec1",
           "excerpt": "文德元年六月，以宰相韋昭度為西川節度使。分邛、蜀、黎、雅為永平軍，拜建節度使。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p32",
+          "originalRevision": 1,
+          "originalSha256": "c1137161842d2e7de38f96bbc42c7b5dddafa67ea70a6d222298aa4df7f0750a",
+          "excerpt": "乃授韋昭度西川節鉞，令與建同討敬瑄，割卭、蜀、黎、雅四州，爲永平軍節度使。"
         }
       ],
       "phase": "service",
       "precision": "month",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "notes": [
+        "《九国志》周博雅传此句省授官主体，结合新史分清韦昭度西川与王建永平；该传未独记年月，主条年月仍据新史。"
+      ]
     },
     {
       "id": "wang-jian-former-shu-chengdu",
@@ -75,6 +92,13 @@
           "originalRevision": 1,
           "originalSha256": "9c23ad9b23bcee4ed5f9a59626d828f3d31669ce3882852bc1f9c8cd932e63d3",
           "excerpt": "大順二年十月，唐以建為檢校司徒、成都尹、劍南西川節度副大使知節度事、管內觀察處置雲南八國招撫等使。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
+          "excerpt": "大順二年，破陳敬瑄，入成都，爲西川節度使。"
         }
       ],
       "phase": "service",
@@ -155,6 +179,34 @@
             "军令向军士/向诸子的两说仍留本卷夹注，不合成两次施令。"
           ],
           "sourceDate": "本传叙高祖入成都时，未独记年月"
+        },
+        {
+          "label": "《九国志》周博雅传的退师筹谋",
+          "sourceDate": "本传未独记年月，不移作主条十月某日",
+          "summary": "本传记王建问韦昭度归后若塞剑门将如何，周博雅劝为军民变通；随后请韦还朝、急攻成都。塞剑门在这里仍是设问，未叙食吏或实际塞关，不将未叙当作否定别书。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p32",
+              "originalRevision": 1,
+              "originalSha256": "c1137161842d2e7de38f96bbc42c7b5dddafa67ea70a6d222298aa4df7f0750a",
+              "excerpt": "會糧運不繼，建欲請韋公班師，因謂博雅曰：「韋公歸闕，我當以兵塞劍門，朝廷謂我何？」博雅曰：「今皇綱不振，彊臣掣肘，朝廷命令不出閨壼，明公當折節爲軍民計，豈得顧此也！」于是建乃請韋公歸闕，而上表自陳，急攻成都，克之。"
+            }
+          ]
+        },
+        {
+          "label": "《九国志》禁掠将领称名及人数口径",
+          "sourceDate": "本传叙建将入成都、入城后，未独年月",
+          "summary": "本卷标题张劼而正文作勍，记擒无赖百余人、鞭胸而死者相藉；不把百余名受鞭者都计为死者，也不静改为别书杀百人。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p38",
+              "originalRevision": 1,
+              "originalSha256": "eb0aab7ceff895496d5f34cd2f3ff032c45e820fb91104e0293d816036f732af",
+              "excerpt": "建將入成都，城中多亡命不逞之徒，建恐其搆亂，乃令勍爲諸都斬斫使，兼左右廂都虞候，以誘掖鎭撫之。勍旣入城，索無賴者得百餘人，悉鞭其胸，死者相藉，中外帖然，不敢偶語。"
+            }
+          ]
         }
       ],
       "sortOrder": 3
@@ -197,6 +249,27 @@
             }
           ],
           "summary": "旧史叙为顾彦晖被擒置成都，新史为城破后自杀，过程与叙次不同。"
+        },
+        {
+          "label": "《九国志》两传所记顾彦晖结局",
+          "sourceDate": "两传叙梓州陷落，均未在该句独年，不继承主条确月",
+          "summary": "宗涤传记梓州陷、斩顾彦晖；宗弼传则记顾彦瑶杀彦晖与诸子后自刭。与新史自杀等叙法分源保存，不据省主就定王建或宗涤亲手执杀。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p18",
+              "originalRevision": 1,
+              "originalSha256": "eed00433a281d024a52534c3f2cb1d398033c6f70981aed86fdef87fcc4abacc",
+              "excerpt": "梓州陷，斬顧彦暉，降其兵七萬餘衆，遂以宗滌爲東川留守。"
+            },
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p28",
+              "originalRevision": 1,
+              "originalSha256": "9d98fcb3cbb9b309a105c7c633160b5b08223def5805de34ef6b019d420bd0a6",
+              "excerpt": "彦瑤遂刃彦暉與諸子而自剄。"
+            }
+          ]
         }
       ],
       "sortOrder": 4
@@ -397,6 +470,44 @@
           "notes": [
             "此源并叙不改变既有事件年份或原文。"
           ]
+        },
+        {
+          "label": "《九国志》世家摘要的建号与改元",
+          "sourceDate": "天复七年九月建号，明年改元",
+          "summary": "摘要记天复七年九月建号曰蜀、明年改元；保留建号与改元分别叙述，不以年号使用三年、五年误作同一年的年次。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p4",
+              "originalRevision": 1,
+              "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
+              "excerpt": "天復七年九月，建號曰蜀。明年改元。凡改元五：武成三年，永平五年，通正一年，天漢一年，光天一年。"
+            }
+          ]
+        },
+        {
+          "label": "《九国志》宗范传所记开国立张氏为后",
+          "sourceDate": "本传只称建开国，未独年月，不继承主条907年日期",
+          "summary": "本传称宗范母张氏再适王建、开国立后。它与通鉴宗范母周氏及周后传称谓分源保存，同异未定；不能据此合并为一人、认定另一次称帝或填册后确日。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p30",
+              "originalRevision": 1,
+              "originalSha256": "99c041c8bd1bf9a6e74381a2d9e48671ee06079c142d43bb9ef041aec8ef86f9",
+              "excerpt": "宗範，本姓章氏。幼䘮父，隨母張氏再適建，爲九夫人。宗範年十歲，冐姓王氏。及建開國，立張氏爲后。"
+            },
+            {
+              "chapterId": "tongjian-v267",
+              "paragraphId": "tongjian-v267-p112",
+              "originalRevision": 1,
+              "originalSha256": "a38eb0b70c02554071b82c740a7afa7e6bfb8e5a4c9ab6bcb4897f78fd20dc39",
+              "excerpt": "宗范姓張，其母周氏為蜀主妾"
+            }
+          ],
+          "notes": [
+            "此处张氏为该书来源称谓，未认定与顺德周后同人或另一位可唯一识别的皇后。"
+          ]
         }
       ]
     },
@@ -518,6 +629,20 @@
           "notes": [
             "本卷p15又在永平三年写潘炕接替潘峭，同书不同传的叙次保持。"
           ]
+        },
+        {
+          "label": "《九国志》所记宗翰奉命安抚与被疑",
+          "sourceDate": "原称元膺之乱，本传未独年，不移用他书具体日",
+          "summary": "本传记王建命入卫的宗翰安抚，元膺仓卒死后，王建疑宗翰杀之，宗翰未能自辩。疑杀不是实证执杀；与新史宗翰未至、元膺已被卫兵杀的叙法分别保存。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p16",
+              "originalRevision": 1,
+              "originalSha256": "9f42210d0783710005c0b85697e00a0ab393c67a0d990dc92e11aac4f84462cb",
+              "excerpt": "元膺之亂，以兵入衛，建令安撫。元膺倉卒而死，建疑宗翰殺之，竟無以自辯。"
+            }
+          ]
         }
       ]
     },
@@ -588,6 +713,13 @@
           "originalRevision": 1,
           "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
           "excerpt": "光天元年六月，建卒，年七十二。建晚年多內寵，賢妃徐氏與妹淑妃，皆以色進，專房用事，交結宦者唐文扆等干與外政。建年老昏耄，文扆判六軍，事無大小，皆決文扆。及建疾，以兵入宿衞，謀盡去建故將。故將聞建疾，皆不得入見，久之，宗弼等排闥入，言文扆欲為變，乃殺之。建因以老將大臣多許昌故人，必不為太子用，思擇人未得而疾亟，乃以宦者宋光嗣為樞密使判六軍而建卒。太子立，去「宗」名衍。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
+          "excerpt": "共在位十二年，于光天元年六月薨，梁貞明四年也，年七十二。"
         }
       ],
       "phase": "fall",

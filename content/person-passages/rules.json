@@ -5261,6 +5261,21 @@
       "sourceScope": {
         "chapterIds": []
       }
+    },
+    {
+      "personId": "former-shu-wang-jian-sister",
+      "names": [
+        "晋国夫人（王建姊）",
+        "晉國夫人（王建姊）",
+        "晋国夫人（前蜀王建姊）",
+        "晉國夫人（前蜀王建姊）",
+        "前蜀王建姐姐",
+        "前蜀王建姊",
+        "王宗翰母（王建姊）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": []
     }
   ],
   "sections": [
@@ -15852,6 +15867,69 @@
       "reason": "本段进封魏王者是王宗侃，不是后唐魏王李继岌；同卷其他明确继岌段仍保留。",
       "originalRevision": 1,
       "originalSha256": "c0ad53c1ccb9def82d0117e3745032b53001a668235fdc68d658ba3bfa553207"
+    },
+    {
+      "personId": "wang-jingren",
+      "paragraphId": "jiuguozhi-v006-p10",
+      "terms": [
+        "茂章"
+      ],
+      "reason": "本段鸡子槽贼首是李茂章，不能因短名茂章并到原名王茂章的王景仁。",
+      "originalRevision": 1,
+      "originalSha256": "c53e0b6de641f390902501bec126db1a1b73e0c30a813cb21e5b3b5668d21dfb"
+    },
+    {
+      "personId": "li-jiji",
+      "paragraphId": "jiuguozhi-v006-p24",
+      "terms": [
+        "李繼岌",
+        "繼岌"
+      ],
+      "reason": "此处为宗播攻陇州所降的同名人物，不能自动认作后来平蜀的后唐魏王。",
+      "originalRevision": 1,
+      "originalSha256": "1fe5c4b530b19b7edd3e1101f113a85ff6a924274ffdc8f81e7f6987ac616549"
+    },
+    {
+      "personId": "li-jiji",
+      "paragraphId": "jiuguozhi-v006-p20",
+      "terms": [
+        "魏王"
+      ],
+      "reason": "本段魏王为王宗侃获封爵位，非后唐魏王李继岌。",
+      "originalRevision": 1,
+      "originalSha256": "7f766de7a2a4610d8b4d71d22cfe811ff4212787c7a196f97d410d10f704dc4e"
+    },
+    {
+      "personId": "guo-chongtao",
+      "paragraphId": "jiuguozhi-v006-p28",
+      "terms": [
+        "郭崇韜",
+        "崇韜"
+      ],
+      "reason": "宗弼馈赂与求任的对象，不据此补郭崇韬接受请求、授节或命斩宗弼。",
+      "originalRevision": 1,
+      "originalSha256": "9d98fcb3cbb9b309a105c7c633160b5b08223def5805de34ef6b019d420bd0a6"
+    },
+    {
+      "personId": "li-yan-youzhou",
+      "paragraphId": "jiuguozhi-v006-p10",
+      "terms": [
+        "李嚴"
+      ],
+      "reason": "宗寿请李严安排拜见王衍，原句未独叙李严答复或亲自带见。",
+      "originalRevision": 1,
+      "originalSha256": "c53e0b6de641f390902501bec126db1a1b73e0c30a813cb21e5b3b5668d21dfb"
+    },
+    {
+      "personId": "meng-zhixiang",
+      "paragraphId": "jiuguozhi-v006-p32",
+      "terms": [
+        "孟知祥",
+        "知祥"
+      ],
+      "reason": "史家因避孟知祥名讳追改周庠称名的说明，不是孟知祥授周庠官职或命其本人改名。",
+      "originalRevision": 1,
+      "originalSha256": "c1137161842d2e7de38f96bbc42c7b5dddafa67ea70a6d222298aa4df7f0750a"
     }
   ],
   "regnalEdicts": {
@@ -16360,7 +16438,8 @@
         "shiguochunqiu-v040",
         "shiguochunqiu-v041",
         "old-v067",
-        "shiguochunqiu-v039"
+        "shiguochunqiu-v039",
+        "jiuguozhi-v006"
       ]
     }
   }
