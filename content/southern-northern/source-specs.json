@@ -1,13 +1,102 @@
 {
   "schemaVersion": 1,
   "books": [
-    { "id": "songshu", "title": "宋书", "sourceTitle": "宋書", "author": "南朝梁 · 沈约撰", "kind": "正史 · 纪传体", "image": "", "description": "现收卷1—3武帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。", "defaultChapter": "songshu-v001" },
-    { "id": "nanshi", "title": "南史", "sourceTitle": "南史", "author": "唐 · 李延寿撰", "kind": "正史 · 纪传体", "image": "", "description": "现收卷1宋本纪上完整文本，包括武帝与少帝，保留原页标题、正文与史论，不表示全书已收录。", "defaultChapter": "nanshi-v001" }
+    {
+      "id": "songshu",
+      "title": "宋书",
+      "sourceTitle": "宋書",
+      "author": "南朝梁 · 沈约撰",
+      "kind": "正史 · 纪传体",
+      "image": "",
+      "description": "现收卷1—4武帝纪、少帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "defaultChapter": "songshu-v001"
+    },
+    {
+      "id": "nanshi",
+      "title": "南史",
+      "sourceTitle": "南史",
+      "author": "唐 · 李延寿撰",
+      "kind": "正史 · 纪传体",
+      "image": "",
+      "description": "现收卷1宋本纪上完整文本，包括武帝与少帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "defaultChapter": "nanshi-v001"
+    }
   ],
   "chapters": [
-    { "id": "songshu-v001", "bookId": "songshu", "volume": 1, "position": 1, "title": "卷 1 · 武帝上", "page": "宋書/卷1", "subjects": ["liu-yu-song"], "fixedRevisionId": 11136436, "sourceLocalSubjectsOnly": true, "minimumCharacters": 13426, "minimumBlocks": 100 },
-    { "id": "songshu-v002", "bookId": "songshu", "volume": 2, "position": 2, "title": "卷 2 · 武帝中", "page": "宋書/卷2", "subjects": ["liu-yu-song"], "fixedRevisionId": 2583201, "sourceLocalSubjectsOnly": true, "minimumCharacters": 11890, "minimumBlocks": 93 },
-    { "id": "songshu-v003", "bookId": "songshu", "volume": 3, "position": 3, "title": "卷 3 · 武帝下", "page": "宋書/卷3", "subjects": ["liu-yu-song"], "fixedRevisionId": 2358186, "sourceLocalSubjectsOnly": true, "minimumCharacters": 5728, "minimumBlocks": 60 },
-    { "id": "nanshi-v001", "bookId": "nanshi", "volume": 1, "position": 1, "title": "卷 1 · 宋本纪上第一（武帝、少帝）", "page": "南史/卷01", "subjects": ["liu-yu-song"], "fixedRevisionId": 1561312, "sourceLocalSubjectsOnly": true, "minimumCharacters": 15532, "minimumBlocks": 106 }
+    {
+      "id": "songshu-v001",
+      "bookId": "songshu",
+      "volume": 1,
+      "position": 1,
+      "title": "卷 1 · 武帝上",
+      "page": "宋書/卷1",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "fixedRevisionId": 11136436,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 13426,
+      "minimumBlocks": 100
+    },
+    {
+      "id": "songshu-v002",
+      "bookId": "songshu",
+      "volume": 2,
+      "position": 2,
+      "title": "卷 2 · 武帝中",
+      "page": "宋書/卷2",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "fixedRevisionId": 2583201,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 11890,
+      "minimumBlocks": 93
+    },
+    {
+      "id": "songshu-v003",
+      "bookId": "songshu",
+      "volume": 3,
+      "position": 3,
+      "title": "卷 3 · 武帝下",
+      "page": "宋書/卷3",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "fixedRevisionId": 2358186,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 5728,
+      "minimumBlocks": 60
+    },
+    {
+      "id": "nanshi-v001",
+      "bookId": "nanshi",
+      "volume": 1,
+      "position": 1,
+      "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+      "page": "南史/卷01",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "fixedRevisionId": 1561312,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 15532,
+      "minimumBlocks": 106
+    },
+    {
+      "id": "songshu-v004",
+      "bookId": "songshu",
+      "volume": 4,
+      "position": 4,
+      "title": "卷 4 · 少帝",
+      "page": "宋書/卷4",
+      "subjects": [
+        "liu-yifu-song"
+      ],
+      "fixedRevisionId": 2309989,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 2966,
+      "minimumBlocks": 42
+    }
   ]
 }

@@ -502,10 +502,11 @@
     },
     {
       "personId": "former-shu-wang-jian-xu-shunsheng",
-      "eventCount": 9,
+      "eventCount": 10,
       "eventIds": [
         "former-shu-wang-jian-xu-shunsheng-xu-mother-heir",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-dowager",
+        "former-shu-wang-jian-xu-shunsheng-visits-zongbi-and-forced-west-palace",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-surrender",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-poems",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-execution",
@@ -596,6 +597,13 @@
         "former-shu-wang-yan-wei-entered-palace",
         "former-shu-wang-yan-wei-jieyu",
         "former-shu-wang-yan-wei-yuanfei"
+      ]
+    },
+    {
+      "personId": "former-shu-wang-zongkan-zhang",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-wang-zongkan-zhang-admonishes-to-protect-zhang-ge"
       ]
     },
     {
@@ -2354,6 +2362,46 @@
       ]
     },
     {
+      "personId": "li-yu",
+      "eventCount": 34,
+      "eventIds": [
+        "li-yu-along-yangtze-inspection",
+        "li-yu-avoid-hongji",
+        "li-yu-heir",
+        "li-yu-crown-and-regency",
+        "li-yu-accession",
+        "li-yu-abolish-route-tuntian-commissioners",
+        "li-yu-zhou-empress-illness-and-mourning",
+        "li-yu-zhong-empress-illness-and-mourning",
+        "li-yu-younger-zhou-installation",
+        "li-yu-kaishan-buddhist-court-practice",
+        "li-yu-wartime-militia-mobilization",
+        "li-yu-fall-of-jinling",
+        "li-yu-captivity",
+        "li-yu-quanzhou",
+        "li-yu-iron-money",
+        "li-yu-shu-ya-examination-review",
+        "li-yu-southern-han-envoy",
+        "li-yu-night-duty",
+        "li-yu-dalisi-prison-review-remonstrance",
+        "li-yu-li-congshan-retained",
+        "li-yu-reduce-titles",
+        "li-yu-pan-you",
+        "li-yu-song-invasion",
+        "li-yu-southern-tang-letter-warning",
+        "li-yu-han-xizai",
+        "li-yu-tan-zixiao-summons",
+        "li-yu-zhang-xiong-chief-command",
+        "li-yu-tao-gu-qin-ruolan-banquet",
+        "li-yu-younger-zhou-marriage-deliberation",
+        "li-yu-song-stipend-increase",
+        "li-yu-song-chongwen-library-viewing",
+        "li-yu-death-in-song",
+        "li-yu-recall-song-qiqiu-household",
+        "li-yu-jingde-nuns-fire-oath"
+      ]
+    },
+    {
       "personId": "li-yu-tang",
       "eventCount": 45,
       "eventIds": [
@@ -2402,46 +2450,6 @@
         "li-yu-tang-speak-against-qinwang-excess",
         "li-yu-tang-six-statutes-proposal",
         "li-yu-tang-village-drinking-rite-proposal"
-      ]
-    },
-    {
-      "personId": "li-yu",
-      "eventCount": 34,
-      "eventIds": [
-        "li-yu-along-yangtze-inspection",
-        "li-yu-avoid-hongji",
-        "li-yu-heir",
-        "li-yu-crown-and-regency",
-        "li-yu-accession",
-        "li-yu-abolish-route-tuntian-commissioners",
-        "li-yu-zhou-empress-illness-and-mourning",
-        "li-yu-zhong-empress-illness-and-mourning",
-        "li-yu-younger-zhou-installation",
-        "li-yu-kaishan-buddhist-court-practice",
-        "li-yu-wartime-militia-mobilization",
-        "li-yu-fall-of-jinling",
-        "li-yu-captivity",
-        "li-yu-quanzhou",
-        "li-yu-iron-money",
-        "li-yu-shu-ya-examination-review",
-        "li-yu-southern-han-envoy",
-        "li-yu-night-duty",
-        "li-yu-dalisi-prison-review-remonstrance",
-        "li-yu-li-congshan-retained",
-        "li-yu-reduce-titles",
-        "li-yu-pan-you",
-        "li-yu-song-invasion",
-        "li-yu-southern-tang-letter-warning",
-        "li-yu-han-xizai",
-        "li-yu-tan-zixiao-summons",
-        "li-yu-zhang-xiong-chief-command",
-        "li-yu-tao-gu-qin-ruolan-banquet",
-        "li-yu-younger-zhou-marriage-deliberation",
-        "li-yu-song-stipend-increase",
-        "li-yu-song-chongwen-library-viewing",
-        "li-yu-death-in-song",
-        "li-yu-recall-song-qiqiu-household",
-        "li-yu-jingde-nuns-fire-oath"
       ]
     },
     {
@@ -2928,19 +2936,6 @@
       ]
     },
     {
-      "personId": "liu-xun-yonghe",
-      "eventCount": 7,
-      "eventIds": [
-        "liu-xun-yonghe-advise-wangke-submission",
-        "liu-xun-yonghe-kill-huzhuang",
-        "liu-xun-yonghe-early-frontline",
-        "liu-xun-yonghe-offer-shanzhou",
-        "liu-xun-yonghe-xiangzhou",
-        "liu-xun-yonghe-jingnan-failed",
-        "liu-xun-yonghe-reinstatement-death"
-      ]
-    },
-    {
       "personId": "liu-xun",
       "eventCount": 22,
       "eventIds": [
@@ -2966,6 +2961,19 @@
         "liu-xun-early",
         "liu-xun-fuzhou-transfer",
         "liu-xun-huoqiu"
+      ]
+    },
+    {
+      "personId": "liu-xun-yonghe",
+      "eventCount": 7,
+      "eventIds": [
+        "liu-xun-yonghe-advise-wangke-submission",
+        "liu-xun-yonghe-kill-huzhuang",
+        "liu-xun-yonghe-early-frontline",
+        "liu-xun-yonghe-offer-shanzhou",
+        "liu-xun-yonghe-xiangzhou",
+        "liu-xun-yonghe-jingnan-failed",
+        "liu-xun-yonghe-reinstatement-death"
       ]
     },
     {
@@ -3002,6 +3010,37 @@
         "liu-yancong-iron-forest",
         "liu-yancong-huazhou",
         "liu-yancong-death-bin"
+      ]
+    },
+    {
+      "personId": "liu-yifu-song",
+      "eventCount": 25,
+      "eventIds": [
+        "liu-yifu-song-yanzhou",
+        "liu-yifu-song-yuzhou",
+        "liu-yifu-song-xuyan",
+        "liu-yifu-song-left-office",
+        "liu-yifu-song-song-duke-office",
+        "liu-yifu-song-song-crown-prince",
+        "liu-yifu-song-imperial-crown-prince",
+        "liu-yifu-song-last-instructions",
+        "liu-yifu-song-accession",
+        "liu-yifu-song-regency",
+        "liu-yifu-song-jingping",
+        "liu-yifu-song-south-suburb",
+        "liu-yifu-song-grand-empress-death",
+        "liu-yifu-song-frontier-grants",
+        "liu-yifu-song-mother-honored",
+        "liu-yifu-song-drought-amnesty",
+        "liu-yifu-song-songchang",
+        "liu-yifu-song-yizhen",
+        "liu-yifu-song-yigong-office",
+        "liu-yifu-song-yizhen-killed",
+        "liu-yifu-song-deposition",
+        "liu-yifu-song-detention",
+        "liu-yifu-song-death",
+        "liu-yifu-song-birth",
+        "liu-yifu-song-yuzhang-heir"
       ]
     },
     {
@@ -5068,11 +5107,12 @@
     },
     {
       "personId": "wang-yan-former-shu",
-      "eventCount": 13,
+      "eventCount": 14,
       "eventIds": [
         "wang-yan-former-shu-heir",
         "wang-yan-former-shu-accession",
         "wang-yan-former-shu-gao-empress-investiture",
+        "wang-yan-former-shu-seventh-month-princely-grants",
         "wang-yan-former-shu-qian-de",
         "wang-yan-former-shu-invasion-and-tour",
         "wang-yan-former-shu-surrender",

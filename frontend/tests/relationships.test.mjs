@@ -157,7 +157,7 @@ test('Shi Junli keeps his documented commanders without an inferred direct Li Ke
 
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
-  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继'].includes(edge.label), edge.id);
+  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继', '废黜与奉迎继嗣'].includes(edge.label), edge.id);
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
     ['li-cunxu', 'li-siyuan'], ['li-siyuan', 'li-conghou'], ['li-conghou', 'li-congke'],

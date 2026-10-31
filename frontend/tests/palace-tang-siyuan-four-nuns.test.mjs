@@ -93,7 +93,7 @@ test('one direction rule keeps directed facts while treating generic kinship and
   const { isRelationshipDirected, PeopleRelationshipGraph } = graphModule(); assert.equal(typeof isRelationshipDirected, 'function');
   const siblingLabels = new Set(['兄弟', '兄妹', '姐妹', '姊妹', '姊弟', '同母兄弟', '同父兄弟', '异母兄弟', '同母异父兄弟',
     '兄妹（按源）', '兄弟（长幼异说）', '兄弟（新史记载）', '兄弟（养亲）', '兄弟，徐锴为弟', '姊妹（长幼有异说）',
-    '兄弟（道规为弟）', '兄弟（道怜为弟）']);
+    '兄弟（道规为弟）', '兄弟（道怜为弟）', '兄弟（义真为弟）', '兄弟（义恭为弟）']);
   for (const relationship of graphRelationships.personRelationships) {
     const oldDirection = relationship.kind !== 'conflict' && relationship.label !== '兄弟';
     const genericKinship = relationship.kind === 'kinship' && relationship.label.includes('亲属');

@@ -918,5 +918,317 @@
         "excerpt": "永初三年五月癸亥，武帝崩，是日太子即皇帝位，大赦，制服三年，尊皇太后曰太皇太后。"
       }
     ]
+  },
+  {
+    "id": "liu-yifu-song-xu-regency",
+    "from": "liu-yifu-song",
+    "to": "xu-xianzhi-song",
+    "kind": "service",
+    "label": "少帝朝辅政",
+    "note": "永初三年六月，徐羡之、傅亮、谢晦共同辅政；傅亮的中书监、尚书令称衔按两书分别保留。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p4",
+        "originalRevision": 1,
+        "originalSha256": "cb1e3be0f53ec9b821070fbdcc06fc9bb87ecd10b6683e41268bcd934be7cdef",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p93",
+        "originalRevision": 1,
+        "originalSha256": "51236159eadb9fdbbed13051d6b0c5c40969aa61a88338596a1c4e4d1c8adb4e",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監、尚書令，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。秋九月丁未，有司奏武皇帝配南郊，武敬皇后配北郊。冬十一月戊午，有星孛于營室。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-fu-regency",
+    "from": "liu-yifu-song",
+    "to": "fu-liang-song",
+    "kind": "service",
+    "label": "少帝朝辅政",
+    "note": "永初三年六月，徐羡之、傅亮、谢晦共同辅政；傅亮的中书监、尚书令称衔按两书分别保留。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p4",
+        "originalRevision": 1,
+        "originalSha256": "cb1e3be0f53ec9b821070fbdcc06fc9bb87ecd10b6683e41268bcd934be7cdef",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p93",
+        "originalRevision": 1,
+        "originalSha256": "51236159eadb9fdbbed13051d6b0c5c40969aa61a88338596a1c4e4d1c8adb4e",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監、尚書令，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。秋九月丁未，有司奏武皇帝配南郊，武敬皇后配北郊。冬十一月戊午，有星孛于營室。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-xie-regency",
+    "from": "liu-yifu-song",
+    "to": "xie-hui-song",
+    "kind": "service",
+    "label": "少帝朝辅政",
+    "note": "永初三年六月，徐羡之、傅亮、谢晦共同辅政；傅亮的中书监、尚书令称衔按两书分别保留。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p4",
+        "originalRevision": 1,
+        "originalSha256": "cb1e3be0f53ec9b821070fbdcc06fc9bb87ecd10b6683e41268bcd934be7cdef",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p93",
+        "originalRevision": 1,
+        "originalSha256": "51236159eadb9fdbbed13051d6b0c5c40969aa61a88338596a1c4e4d1c8adb4e",
+        "excerpt": "六月壬申，以尚書僕射傅亮為中書監、尚書令，司空徐羨之、領軍將軍謝晦及亮輔政。戊子，太尉長沙王道憐薨。秋九月丁未，有司奏武皇帝配南郊，武敬皇后配北郊。冬十一月戊午，有星孛于營室。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-xu-depose",
+    "from": "xu-xianzhi-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "谋废并遣使杀害",
+    "note": "徐羡之与傅亮谋废少帝；其后徐羡之等遣邢安泰在金昌亭行弑，不说成徐羡之亲手杀害。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "始徐羨之、傅亮將廢帝，諷王弘、檀道濟求赴國訃。弘等來朝。使中書舍人邢安泰、潘盛為內應。是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門。盛等先戒宿衞，莫有禦者。時帝於華林園為列肆，親自酤賣。又開瀆聚土，以象破岡埭，與左右引船唱呼，以為歡樂。夕游天淵池，即龍舟而寢。其朝未興，兵士進，殺二侍者於帝側，傷帝指。夫出東閤，就收璽紱，羣臣拜辭，送於東宮，遂幽於吳郡。是日，赦死罪以下。太后令奉還璽紱。檀道濟入守朝堂。六月癸丑，徐羨之等使中書舍人邢安泰弒帝於金昌亭。帝有勇力，不即受制，突走出昌門，追以門關踣之，致殞。時年十九。[17]",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "始徐羨之、傅亮將廢帝，諷王弘、檀道濟求赴國訃，弘等來朝，使中書舍人邢安泰、潘盛為內應。是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門，盛等先戒宿衛，莫有禦者。時帝于華林園為列肆，親自酤賣，又開瀆聚土，以象破岡埭，與左右引船唱呼，以為歡樂。夕游天泉池，即龍舟而寢。其朝未興，兵士進，殺二侍者于帝側，傷帝指，扶出東合，就收璽紱。群臣拜辭送於東宮，遂幽于吳郡。是日，赦死罪以下。太后令奉還璽紱，檀道濟入守朝堂。六月癸丑，徐羨之等使中書舍人邢安泰弑帝于金昌亭。帝有勇力，不即受制，突走出昌門，追以門關踣之致殞，時年十九。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-fu-depose",
+    "from": "fu-liang-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "参与谋废",
+    "note": "徐羡之、傅亮筹划废少帝；所引段不把傅亮写成亲手行弑者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "始徐羨之、傅亮將廢帝，諷王弘、檀道濟求赴國訃。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "始徐羨之、傅亮將廢帝，諷王弘、檀道濟求赴國訃，弘等來朝，使中書舍人邢安泰、潘盛為內應。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-tan-troops",
+    "from": "tan-daoji-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "率兵入宫参与废黜",
+    "note": "檀道济、谢晦领兵在前，徐羡之等随入；与后来邢安泰奉遣行弑分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門，盛等先戒宿衛，莫有禦者。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-xie-troops",
+    "from": "xie-hui-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "率兵入宫参与废黜",
+    "note": "檀道济、谢晦领兵在前，徐羡之等随入；与后来邢安泰奉遣行弑分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "是旦，道濟、謝晦領兵居前，羨之等隨後，因東掖門開，入自雲龍門，盛等先戒宿衛，莫有禦者。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-xing-killing",
+    "from": "xing-antai-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "奉遣行弑",
+    "note": "徐羡之等派中书舍人邢安泰在金昌亭杀害少帝；义符突走后被追赶者用门闩击倒致死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "六月癸丑，徐羨之等使中書舍人邢安泰弒帝於金昌亭。",
+        "title": "卷 4 · 少帝"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "六月癸丑，徐羨之等使中書舍人邢安泰弑帝于金昌亭。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-brother-yizhen",
+    "from": "liu-yifu-song",
+    "to": "liu-yizhen-song",
+    "kind": "kinship",
+    "label": "兄弟（义真为弟）",
+    "note": "《南史》直接称被执政遣使杀害的义真为皇弟；不据此补其生母。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p102",
+        "originalRevision": 1,
+        "originalSha256": "c21cfe482b02acef25cd55ea8486da2ec898fa45aa318b7a1dc023ea17b95008",
+        "excerpt": "執政使使者誅皇弟義真于新安。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-yilong-welcome",
+    "from": "liu-yifu-song",
+    "to": "liu-yilong-song",
+    "kind": "succession",
+    "label": "废黜与奉迎继嗣",
+    "note": "太后令废义符为营阳王，并奉迎宜都王义隆入纂皇统；此处为废立后的奉迎安排，未据此补义隆正式即位日期。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p103",
+        "originalRevision": 1,
+        "originalSha256": "43a31b69dbf362e3635368e93af6d46cc1bb2101bdda87b7b490c2badf7b99d2",
+        "excerpt": "夏五月乙酉，皇太后令暴帝過惡，廢為營陽王。一依漢昌邑、晉海西故事。奉迎鎮西將軍宜都王義隆入纂皇統。",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）"
+      },
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p20",
+        "originalRevision": 1,
+        "originalSha256": "40bb7265facb4c334288e3eed5ab88bccfcc8c1691b1f0601ba9ef805c5e388d",
+        "excerpt": "鎮〔西將軍宜都王，仁明孝弟，著自幼辰。德業沖粹，識心明允。宜纂洪統，光臨億兆。主者詳依典故，以時奉迎。未亡人嬰此百罹，雖存若隕。永悼情事，撫心摧塞。〕[16]",
+        "title": "卷 4 · 少帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-brother-yigong",
+    "from": "liu-yifu-song",
+    "to": "liu-yigong-song",
+    "kind": "kinship",
+    "label": "兄弟（义恭为弟）",
+    "note": "《宋书·少帝纪》直接称义恭为皇弟；所引段记授冠军将军、南豫州刺史，不据此补其生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p17",
+        "title": "卷 4 · 少帝",
+        "originalRevision": 1,
+        "originalSha256": "c2a7ff75dc9f9bd4cd5ce2f222535cd96ae1d43e775d10c8c5b8970cb314b782",
+        "excerpt": "乙未，以皇弟義恭為冠軍將軍，南豫州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yifu-song-pan-inside",
+    "from": "pan-sheng-song",
+    "to": "liu-yifu-song",
+    "kind": "conflict",
+    "label": "充当废帝内应",
+    "note": "徐羡之、傅亮谋废少帝时，潘盛与邢安泰充当内应；潘盛等预先告诫宿卫，兵入时无人抵抗。所引段未记潘盛亲手伤害少帝或执行行弑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "title": "卷 4 · 少帝",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "使中書舍人邢安泰、潘盛為內應。"
+      },
+      {
+        "chapterId": "songshu-v004",
+        "paragraphId": "songshu-v004-p21",
+        "title": "卷 4 · 少帝",
+        "originalRevision": 1,
+        "originalSha256": "d4e67684e111a463d7abf00bfb6d9470403c49a3d810909e0b47952464138b37",
+        "excerpt": "盛等先戒宿衞，莫有禦者。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "使中書舍人邢安泰、潘盛為內應。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p104",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "63df87c5d0fa3e60b834a42376e0a905e469bc76b4383715b06ad7162d91b63e",
+        "excerpt": "盛等先戒宿衛，莫有禦者。"
+      }
+    ]
   }
 ]

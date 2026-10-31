@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》武帝纪和《南史》宋本纪上整理刘裕，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明，其他皇帝随资料补齐逐批收录。",
+  "sourceNote": "据《宋书》武帝纪、少帝纪和《南史》宋本纪上整理刘裕、刘义符，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -21,10 +21,15 @@
     {
       "title": "十国春秋·卷四十一（王锴奏记追述）",
       "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&oldid=2439571"
+    },
+    {
+      "title": "宋书·少帝纪（卷4）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B74&oldid=2309989"
     }
   ],
   "memberIds": [
-    "liu-yu-song"
+    "liu-yu-song",
+    "liu-yifu-song"
   ],
   "people": [
     {
@@ -65,6 +70,44 @@
       "birthYear": 363,
       "deathYear": 422,
       "lifespan": "363—422 年"
+    },
+    {
+      "id": "liu-yifu-song",
+      "name": "刘义符",
+      "dynasty": "刘宋",
+      "role": "刘宋第二位皇帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋少帝 营阳王 车兵",
+      "nameVariants": [
+        "劉義符",
+        "車兵"
+      ],
+      "intro": "刘义符小字车兵，是刘裕长子，母为张夫人，义熙二年生于京口。他先为豫章公世子、宋世子和宋太子，刘裕建宋后立为皇太子。422年承位，次年改元景平，徐羡之、傅亮、谢晦辅政。424年被废为营阳王，幽禁吴郡，后由徐羡之等遣邢安泰在金昌亭杀害。",
+      "reign": "422—424 年",
+      "reignStart": 422,
+      "reignEnd": 424,
+      "periodLabel": "刘宋 · 422—424 年在位",
+      "deathYear": 424,
+      "lifespan": "406—407 年间生，424 年卒",
+      "readingStarts": {
+        "songshu": "songshu-v004",
+        "nanshi": "nanshi-v001"
+      },
+      "sources": [
+        {
+          "title": "宋书·少帝纪（卷4）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B74&oldid=2309989"
+        },
+        {
+          "title": "南史·宋本纪上（卷01，少帝部分）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B701&oldid=1561312"
+        }
+      ],
+      "sourceNotes": [
+        "义熙二年跨西历406—407年，生月未载，不据卒寿十九倒填单一年。",
+        "《宋书》卷四校勘指出补卷及缺叶据《南史》补录，两书同文不当作独立复证。十岁与六岁、天渊与天泉等异文分别保留。",
+        "太后令对少帝的谴责与史家评论各保留其言说层次；谋废、领兵入宫、遣使及执行杀害分别记载。"
+      ]
     }
   ]
 }
