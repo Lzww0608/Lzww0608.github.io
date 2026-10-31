@@ -12,7 +12,7 @@ test('the published comparison and its exact stages are reachable without restor
   assert.deepEqual(comparisonsForPerson('unknown'),[]);
   for (const path of ['event-comparison/missing','event-comparison/baixiang?stage=missing','event-comparison/baixiang?stage=battle&stage=aftermath','event-comparison/baixiang?unexpected=1','event-comparison/baixiang?stage=battle?extra=1']) {
     assert.equal(resolveEventComparisonRoute(path),null);
-    assert.equal(resolveRoute('#'+path),'people');
+    assert.equal(resolveRoute('#'+path),'eras');
   }
 });
 

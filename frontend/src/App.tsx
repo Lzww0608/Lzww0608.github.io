@@ -1,14 +1,15 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { MagnifyingGlass, ArrowRight, X, UsersThree } from '@phosphor-icons/react';
-import { displayedDynasties, people, books, filterSearch } from './data';
+import { peopleForEra, books, filterSearch } from './data';
+import { eraForChapter, eraForComparison, eraForPerson, historyEra, historyEras, peopleRoute, resolvePeopleEra } from './eras';
 import { matchesPersonSearch, personSearchNames } from './person-search-names';
 import { chapterRoute, libraryChapters, personPassageBooks, personSourcesRoute, resolvePersonSourcesRoute, resolveReadingRoute, resolveRoute } from './library';
 import { Reader } from './Reader';
 import { ThemeSwitcher } from './ThemeSwitcher';
 import { PeopleRelationshipGraph } from './PeopleRelationshipGraph';
-import { historicalLeaders, peopleForGroup, personDisplayPeriod, personGroups, personTopic, personTopicRelationships, personTopics, reigningEmperors, tenKingdomRulers, topicsForPerson } from './person-catalog';
+import { catalogPeople, historicalLeaders, peopleForGroup, personDisplayPeriod, personGroups, personTopic, personTopicRelationships, personTopics, reigningEmperors, tenKingdomRulers, topicsForPerson } from './person-catalog';
 import type { ReactNode } from 'react';
-import type { HistoryPerson, PersonGroupId, Route, SearchItem } from './types';
+import type { EraId, HistoryPerson, PersonGroupId, Route, SearchItem } from './types';
 import type { ReadingSearchContext } from './library';
 import { resolveOwnerReviewRoute } from './owner-review-route';
 import { hasPersonTimeline, personTimelineRoute, resolvePersonTimelineRoute } from './person-timeline-route';
@@ -23,6 +24,7 @@ import { bookmarkRoute, inferReadingPerson, progressResumeRoute, normalizeReadin
 import type { ReadingBookmark, ReadingProgress } from './reading-shelf';
 import { clearReadingResume, hydrateReadingProgress, prepareReadingResume, prepareReadingBookmark } from './use-reading-progress';
 import { rememberReadingContext, savedReadingContext } from './reading-shelf-context';
+import './eras.css';
 
 type Navigate = (route: Route) => void;
 type OpenPerson = (person: HistoryPerson | undefined) => void;
@@ -69,16 +71,31 @@ function Dialog({ title, children, onClose, wide = false }: { title: string; chi
   </dialog>;
 }
 
-function SearchPanel({ initialQuery, openItem }: { initialQuery: string; openItem: (item: SearchItem) => void }) {
+function SearchPanel({ initialQuery, openItem, eraId }: { initialQuery: string; openItem: (item: SearchItem) => void; eraId: EraId }) {
   const [query, setQuery] = useState(initialQuery);
-  const results = filterSearch(query, 'person');
+  const era = historyEra(eraId);
+  const results = filterSearch(query, 'person', eraId);
   return <div className="search-panel"><div className="search-field"><MagnifyingGlass size={24} weight="thin" /><input aria-label="搜索人物" placeholder="搜索姓名、别名或政权" value={query} onChange={event => setQuery(event.target.value)} autoFocus /></div>
-    <p className="result-count" aria-live="polite">{query.trim() ? `“${query.trim()}” · ${results.length} 位人物` : '从五代与十国人物开始探索'}</p>
-    <div className="search-results">{results.map(item => <button className="result-row" key={item.id} onClick={() => openItem(item)}><span className="result-category">人物</span><span><strong>{item.name}</strong><small>{item.summary}</small></span><ArrowRight size={20} weight="thin" /></button>)}{results.length === 0 && <div className="empty-state"><UsersThree size={36} weight="thin" /><h3>暂时没有找到相关人物</h3><p>可以搜索姓名、别名或政权，如“李存孝”“朱全忠”“后唐”。</p><button className="text-link" onClick={() => setQuery('')}>浏览全部人物 <ArrowRight size={18} /></button></div>}</div>
+    <p className="result-count" aria-live="polite">{query.trim() ? `“${query.trim()}” · ${results.length} 位人物` : `从${era.title}人物开始探索`}</p>
+    <div className="search-results">{results.map(item => <button className="result-row" key={item.id} onClick={() => openItem(item)}><span className="result-category">人物</span><span><strong>{item.name}</strong><small>{item.summary}</small></span><ArrowRight size={20} weight="thin" /></button>)}{results.length === 0 && <div className="empty-state"><UsersThree size={36} weight="thin" /><h3>暂时没有找到相关人物</h3><p>可以搜索姓名、别名或政权，如{era.searchExample}。</p><button className="text-link" onClick={() => setQuery('')}>浏览本年代人物 <ArrowRight size={18} /></button></div>}</div>
   </div>;
 }
 
-function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson, onReadSource, onResume, onOpenBookmark }: {
+function EraSelection() {
+  return <section className="page-shell era-selection">
+    <div className="era-selection-heading">
+      <h1>选择一个年代</h1>
+      <p>从人物出发，对读史料与译文，串联有据可查的生平。</p>
+    </div>
+    <div className="era-choices">{historyEras.map(era => <a className="era-choice" href={`#${peopleRoute(era.id)}`} key={era.id}>
+      <span className="eyebrow">{era.period}</span><h2>{era.title}</h2><p>{era.description}</p>
+      <span className="era-choice-action">进入{era.title} <ArrowRight size={22} weight="thin" /></span>
+    </a>)}</div>
+  </section>;
+}
+
+function People({ eraId, openPerson, view, onViewChange, focusPersonId, onSelectPerson, onReadSource, onResume, onOpenBookmark }: {
+  eraId: EraId;
   openPerson: OpenPerson;
   view: 'list' | 'graph';
   onViewChange: (view: 'list' | 'graph') => void;
@@ -88,24 +105,28 @@ function People({ openPerson, view, onViewChange, focusPersonId, onSelectPerson,
   onResume: (progress: ReadingProgress) => void;
   onOpenBookmark: (bookmark: ReadingBookmark) => void;
 }) {
+  const era = historyEra(eraId);
+  const people = peopleForEra(eraId);
   const [query, setQuery] = useState('');
   const [dynasty, setDynasty] = useState('全部');
   const [groupId, setGroupId] = useState<PersonGroupId>('all');
   const topic = personTopic(groupId);
   const sharedEmperors = topic ? reigningEmperors.filter(person => topic.memberIds.includes(person.id)) : [];
   const groupedPeople = peopleForGroup(people, groupId);
-  const availableDynasties = displayedDynasties.filter(value => groupedPeople.some(person => person.dynasty === value));
+  const availableDynasties = era.dynasties.filter(value => groupedPeople.some(person => person.dynasty === value));
+  const groups = personGroups.filter(group => era.groupIds.includes(group.id));
+  const comparisons = eventComparisons.filter(document => eraForComparison(document) === eraId);
   const visible = groupedPeople.filter(person => (dynasty === '全部' || person.dynasty === dynasty) && matchesPersonSearch(query, [`${person.name} ${person.aliases} ${personSearchNames(person.id).join(' ')}`]));
   return <section className="page-shell">
-    <div className="page-heading"><div><span className="eyebrow">人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝、十国 {tenKingdomRulers.length} 位君主{historicalLeaders.length > 0 && `、${historicalLeaders.map(person => person.name).join('、')}等历史主将`}及{personTopics.map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</p></div>
+    <div className="page-heading"><div><span className="eyebrow">{era.title} · 人物索引 / PEOPLE</span><h1>从一个名字，进入一个时代。</h1></div><p>{eraId === 'five-dynasties' ? <>收录 {people.length} 位人物，包含五代 {reigningEmperors.length} 位在位皇帝、十国 {tenKingdomRulers.length} 位君主{historicalLeaders.length > 0 && `、${historicalLeaders.map(person => person.name).join('、')}等历史主将`}及{personTopics.filter(item => era.groupIds.includes(item.id)).map(item => item.title).join('、')}，沿本纪、列传与编年史追索历史线索。</> : <>先整理南朝皇帝专题，当前已收录 {people.length} 位人物。按刘宋、南齐、南梁、南陈逐批补充；这里只展示已收录的条目与史料。</>}</p></div>
     <div className="people-view-switch" role="group" aria-label="人物浏览方式"><button aria-pressed={view === 'list'} onClick={() => onViewChange('list')}>人物名单</button><button aria-pressed={view === 'graph'} onClick={() => onViewChange('graph')}>关系图</button></div>
-    <ReadingShelfPanel onResume={onResume} onOpenBookmark={onOpenBookmark} />
-    {view === 'list' && <p className="small-note people-comparison-links"><span>史料对读：</span>{eventComparisons.map(document => <a className="text-link" key={document.id} href={`#${eventComparisonRoute(document.id)}`}>{document.title} <ArrowRight size={17} /></a>)}</p>}
-    {view === 'graph' ? <PeopleRelationshipGraph people={people} selectedPersonId={focusPersonId} onSelectPerson={onSelectPerson} onOpenPerson={person => openPerson(person)} onReadSource={onReadSource} /> : <>
-    <div className="person-group-filter" role="group" aria-label="按人物专题筛选">{personGroups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setDynasty('全部'); }}>{group.label}</button>)}</div>
+    <ReadingShelfPanel eraId={eraId} onResume={onResume} onOpenBookmark={onOpenBookmark} />
+    {view === 'list' && comparisons.length > 0 && <p className="small-note people-comparison-links"><span>史料对读：</span>{comparisons.map(document => <a className="text-link" key={document.id} href={`#${eventComparisonRoute(document.id)}`}>{document.title} <ArrowRight size={17} /></a>)}</p>}
+    {view === 'graph' ? <PeopleRelationshipGraph eraId={eraId} people={people} selectedPersonId={focusPersonId} onSelectPerson={onSelectPerson} onOpenPerson={person => openPerson(person)} onReadSource={onReadSource} /> : <>
+    <div className="person-group-filter" role="group" aria-label="按人物专题筛选">{groups.map(group => <button key={group.id} className={groupId === group.id ? 'active' : ''} aria-pressed={groupId === group.id} onClick={() => { setGroupId(group.id); setDynasty('全部'); }}>{group.label}</button>)}</div>
     {groupId === 'ten-kingdoms-rulers' && <div className="person-group-context"><h2>十国君主</h2><p>包含称帝、称王的实际统治者及闽末局部被拥立的争位者，具体身份见各条目；按所属政权分别整理，南平亦称荆南。在位年份表示统治时期，不是生卒年。</p></div>}
     {topic && <div className="person-group-context"><h2>{topic.title}</h2><p>{topic.description}</p><details><summary>称谓与史料依据</summary><p>{topic.sourceNote}</p><ul>{topic.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul></details></div>}
-    <div className="people-tools"><div className="compact-search"><MagnifyingGlass size={20} weight="thin" /><input aria-label="查找人物" placeholder="姓名或别名，如李存孝、符存审" value={query} onChange={event => setQuery(event.target.value)} /></div><select aria-label="按政权筛选人物" value={dynasty} onChange={event => setDynasty(event.target.value)}>{['全部', ...availableDynasties].map(value => <option key={value} value={value}>{value === '全部' ? '全部政权' : value}</option>)}</select></div>
+    <div className="people-tools"><div className="compact-search"><MagnifyingGlass size={20} weight="thin" /><input aria-label="查找人物" placeholder="输入姓名或别名" value={query} onChange={event => setQuery(event.target.value)} /></div><select aria-label="按政权筛选人物" value={dynasty} onChange={event => setDynasty(event.target.value)}>{['全部', ...availableDynasties].map(value => <option key={value} value={value}>{value === '全部' ? '全部政权' : value}</option>)}</select></div>
     <p className="small-note people-count" aria-live="polite">{visible.length} 位人物{sharedEmperors.length > 0 ? ` · ${sharedEmperors.map(person => person.name).join('、')}同时属于五代皇帝条目。` : ''} · 活动时期见人物条目。</p>
     <div className="people-list">{visible.map((person, index) => <button className="person-row" key={person.id} onClick={() => openPerson(person)}><span className="index-number">{String(index + 1).padStart(2, '0')}</span><span className="person-name"><strong>{person.name}</strong>{person.reign && <small>在位 {person.reign}</small>}{person.lifespan && <small>生卒 {person.lifespan}</small>}</span><span>{personDisplayPeriod(person)}</span><p>{person.role}</p><ArrowRight size={24} weight="thin" /></button>)}{visible.length === 0 && <div className="empty-state"><h3>没有匹配的人物</h3><p>可以更换姓名、专题或政权筛选条件。</p><button className="text-link" onClick={() => { setQuery(''); setDynasty('全部'); setGroupId('all'); }}>重置筛选 <ArrowRight size={18} /></button></div>}</div>
     </>}
@@ -174,8 +195,6 @@ export function App() {
   const traversalGuard = useRef(createReadingTraversalGuard()).current;
   const [peopleView, setPeopleView] = useState<'list' | 'graph'>('list');
   const [focusPersonId, setFocusPersonId] = useState<string>();
-  const [readingFocusId, setReadingFocusId] = useState<string>();
-  const [readingReturnRoute, setReadingReturnRoute] = useState<Route>();
   const [modal, setModal] = useState<ModalState | null>(null);
   function resumeTraversal(action: TraversalAction) {
     if (action.kind === 'none') return;
@@ -263,9 +282,13 @@ export function App() {
   const ownerReview = resolveOwnerReviewRoute(route);
   const timeline = resolvePersonTimelineRoute(route);
   const comparison = resolveEventComparisonRoute(route);
-  const title = ownerReview ? '校核清单' : comparison ? `${comparison.document.title} · 史料对读` : timeline ? `${timeline.person.name} · 人物年表` : personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : peopleView === 'graph' ? '人物关系' : '人物索引';
+  const peopleEra = resolvePeopleEra(route);
+  const readingPerson = catalogPeople.find(person => person.id === inferReadingPerson(route, readingPersonContext.current));
+  const activeEra = peopleEra ?? (timeline ? eraForPerson(timeline.person) : personSources ? eraForPerson(personSources.person) : reading ? (readingPerson && eraForPerson(readingPerson)) ?? eraForChapter(reading.chapter) : comparison ? eraForComparison(comparison.document) : undefined);
+  useEffect(() => { setPeopleView('list'); setFocusPersonId(undefined); setModal(null); }, [activeEra]);
+  const title = route === 'eras' ? '选择年代' : ownerReview ? '校核清单' : comparison ? `${comparison.document.title} · 史料对读` : timeline ? `${timeline.person.name} · 人物年表` : personSources ? `${personSources.person.name} · ${personSources.book?.title ?? '文献记载'}` : reading ? `${reading.book.title} · ${reading.chapter.title}` : `${activeEra ? historyEra(activeEra).title + ' · ' : ''}${peopleView === 'graph' ? '人物关系' : '人物索引'}`;
   useEffect(() => { document.title = `${title} · 中国古代史`; }, [title]);
-  function go(view: Route, paragraphId?: string, resume?: { progress?: ReadingProgress; bookmark?: ReadingBookmark; personId?: string }) {
+  function go(view: Route, resume?: { progress?: ReadingProgress; bookmark?: ReadingBookmark; personId?: string }) {
     const restoring = !!(resume?.progress || resume?.bookmark);
     if (traversalGuard.isBouncing()) { traversalGuard.invalidate(); return; }
     traversalGuard.invalidate();
@@ -279,10 +302,9 @@ export function App() {
       const continueNavigation = () => {
         if (performed || readingNavigation.current()?.id !== fromEntryId || readingNavigation.current()?.activation !== fromActivation) return;
         performed = true;
-        setModal(null); setReadingFocusId(paragraphId);
+        setModal(null);
         const context = resume ? resume.personId : modal?.type === 'person' ? modal.item.id : readingPersonContext.current;
         readingPersonContext.current = personInReadingRoute(view) ?? inferReadingPerson(view, context);
-        if (restoring) setReadingReturnRoute(undefined);
         if (resume?.progress) prepareReadingResume(resume.progress);
         else if (resume?.bookmark) prepareReadingBookmark(resume.bookmark);
         else clearReadingResume();
@@ -307,21 +329,25 @@ export function App() {
       });
     } else perform(() => { location.hash = view; });
   }
-  function resumeReading(progress: ReadingProgress) { go(progressResumeRoute(progress), undefined, { progress, personId: progress.personId }); }
-  function openSavedBookmark(bookmark: ReadingBookmark) { go(bookmarkRoute(bookmark), undefined, { bookmark, personId: bookmark.personId }); }
+  function resumeReading(progress: ReadingProgress) { go(progressResumeRoute(progress), { progress, personId: progress.personId }); }
+  function openSavedBookmark(bookmark: ReadingBookmark) { go(bookmarkRoute(bookmark), { bookmark, personId: bookmark.personId }); }
   const openPerson: OpenPerson = person => { if (person) setModal({ type: 'person', item: person }); };
-  function viewRelationships(id: string) { setFocusPersonId(id); setPeopleView('graph'); go('people'); }
+  function viewRelationships(id: string) {
+    const person = catalogPeople.find(person => person.id === id);
+    const eraId = person && eraForPerson(person);
+    if (eraId) { setFocusPersonId(id); setPeopleView('graph'); go(peopleRoute(eraId)); }
+  }
   function readRelationshipSource(chapterId: string, paragraphId?: string, context?: ReadingSearchContext) {
     const chapter = libraryChapters.find(item => item.id === chapterId);
     if (chapter) {
-      const personId = personInReadingRoute(context?.returnTo ?? currentRoute.current) ?? (modal?.type === 'person' ? modal.item.id : currentRoute.current === 'people' && peopleView === 'graph' ? focusPersonId : readingPersonContext.current);
-      setReadingReturnRoute(resolvePersonSourcesRoute(currentRoute.current) || resolvePersonTimelineRoute(currentRoute.current) || resolveEventComparisonRoute(currentRoute.current) ? currentRoute.current : undefined);
-      go(chapterRoute(chapter, context ? { ...context, paragraphId } : undefined), paragraphId?.startsWith(`${chapterId}-p`) ? paragraphId : undefined, { personId });
+      const personId = personInReadingRoute(context?.returnTo ?? currentRoute.current) ?? (modal?.type === 'person' ? modal.item.id : resolvePeopleEra(currentRoute.current) && peopleView === 'graph' ? focusPersonId : readingPersonContext.current);
+      const returnTo = context?.returnTo ?? (resolvePersonSourcesRoute(currentRoute.current) || resolvePersonTimelineRoute(currentRoute.current) || resolveEventComparisonRoute(currentRoute.current) ? currentRoute.current : undefined);
+      go(chapterRoute(chapter, { query: context?.query ?? '', field: context?.field ?? 'both', returnTo, paragraphId }), { personId });
     }
   }
   return <><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); const main = document.getElementById('main-content'); main?.focus(); main?.scrollIntoView(); }}>跳转到内容</a>
-    <header className="site-header people-header"><a className="brand" href="#people"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className="active" aria-current="page" href="#people">人物</a></nav><div className="header-actions"><ThemeSwitcher /><button className="header-search" aria-label="搜索人物" onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button></div></header>
-    <main id="main-content" tabIndex={-1}>{route === 'people' && <People openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} onResume={resumeReading} onOpenBookmark={openSavedBookmark} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} route={route} returnTo={timeline.returnTo} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} personId={readingPersonContext.current} route={route} returnTo={comparison.returnTo} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} route={route} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} personId={readingPersonContext.current} route={route} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId ?? readingFocusId} returnTo={reading.returnTo ?? readingReturnRoute} />}</main>
-    {modal && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' ? <SearchPanel initialQuery={modal.query} openItem={openPerson} /> : <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} onResume={resumeReading} onOpenBookmark={openSavedBookmark} />}</Dialog>}
+    <header className="site-header people-header era-header"><a className="brand" href="#eras"><img src="/images/history-seal-ancient.png" alt="" /><strong>中国古代史</strong></a><nav className="main-nav" aria-label="主导航"><a className={route === 'eras' ? 'active' : ''} aria-current={route === 'eras' ? 'page' : undefined} href="#eras">年代</a>{activeEra && <a className="active" aria-current={peopleEra ? 'page' : undefined} href={`#${peopleRoute(activeEra)}`}>{historyEra(activeEra).title}人物</a>}</nav><div className="header-actions"><ThemeSwitcher />{activeEra && <button className="header-search" aria-label={`搜索${historyEra(activeEra).title}人物`} onClick={() => setModal({ type: 'search', query: '' })}><MagnifyingGlass size={26} weight="thin" /><span>搜索</span></button>}</div></header>
+    <main id="main-content" tabIndex={-1}>{route === 'eras' && <EraSelection />}{peopleEra && <People key={peopleEra} eraId={peopleEra} openPerson={openPerson} view={peopleView} onViewChange={setPeopleView} focusPersonId={focusPersonId} onSelectPerson={setFocusPersonId} onReadSource={readRelationshipSource} onResume={resumeReading} onOpenBookmark={openSavedBookmark} />}{ownerReview && <Suspense fallback={<p className="page-shell" role="status">正在打开所有者入口…</p>}><OwnerReview filters={ownerReview} go={go} /></Suspense>}{timeline && <Suspense fallback={<p className="page-shell" role="status">正在打开人物年表…</p>}><PersonTimeline key={timeline.person.id} route={route} returnTo={timeline.returnTo} person={timeline.person} eventId={timeline.eventId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{comparison && <Suspense fallback={<p className="page-shell" role="status">正在打开史料对读…</p>}><EventComparison key={comparison.document.id} personId={readingPersonContext.current} route={route} returnTo={comparison.returnTo} document={comparison.document} stageId={comparison.stageId} go={go} onReadSource={readRelationshipSource} /></Suspense>}{personSources && <Suspense fallback={<p className="page-shell" role="status">正在打开人物记载…</p>}><PersonPassages key={personSources.person.id} route={route} person={personSources.person} book={personSources.book} search={personSources.search} go={go} onReadSource={readRelationshipSource} /></Suspense>}{reading && <Reader key={reading.chapter.id} personId={readingPersonContext.current} route={route} book={reading.book} entry={reading.chapter} go={go} search={reading.search} focusParagraphId={reading.focusParagraphId} returnTo={reading.returnTo} />}</main>
+    {modal && (modal.type === 'person' || activeEra) && <Dialog title={modal.type === 'search' ? '查找人物' : '人物条目'} onClose={() => setModal(null)} wide={modal.type === 'search'}>{modal.type === 'search' && activeEra ? <SearchPanel key={activeEra} eraId={activeEra} initialQuery={modal.query} openItem={openPerson} /> : modal.type === 'person' ? <PersonDetails person={modal.item} onViewRelationships={viewRelationships} go={go} onResume={resumeReading} onOpenBookmark={openSavedBookmark} /> : null}</Dialog>}
   </>;
 }

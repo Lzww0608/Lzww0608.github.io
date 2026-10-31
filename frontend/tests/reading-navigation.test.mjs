@@ -96,7 +96,7 @@ test('untrusted return addresses cannot create external navigation, unknown iden
   for (const leaf of badLeaves) {
     const injected = `${c}&return=${encodeURIComponent(leaf)}`;
     assert.equal(resolveEventComparisonRoute(injected), null, leaf);
-    assert.equal(resolveRoute(`#${injected}`), 'people', leaf);
+    assert.equal(resolveRoute(`#${injected}`), 'eras', leaf);
   }
   assert.equal(resolveEventComparisonRoute(`${c}&return=${encodeURIComponent(a)}&return=${encodeURIComponent(b)}`), null);
   assert.equal(resolvePersonTimelineRoute(`${a}&return=${encodeURIComponent(a)}`), null);

@@ -2,6 +2,8 @@ import { useEffect, useId, useRef, useState, useSyncExternalStore } from 'react'
 import { ArrowRight, BookmarkSimple, ClockCounterClockwise, DownloadSimple, UploadSimple, X } from '@phosphor-icons/react';
 import { readingShelf, describeBookmark, describeProgress, READING_SHELF_LIMITS } from './reading-shelf';
 import type { ReadingBookmark, ReadingProgress } from './reading-shelf';
+import { readingShelfEra } from './reading-shelf-schema';
+import type { EraId } from './types';
 import './reading-shelf.css';
 
 type ImportPreview = ReturnType<typeof readingShelf.previewImport>;
@@ -9,10 +11,11 @@ function formatDate(value: string) {
   return new Date(value).toLocaleDateString('zh-CN', { year: 'numeric', month: 'numeric', day: 'numeric' });
 }
 
-export function ReadingShelfPanel({ onResume, onOpenBookmark, personId, compact = false }: {
+export function ReadingShelfPanel({ onResume, onOpenBookmark, personId, eraId, compact = false }: {
   onResume: (progress: ReadingProgress) => void;
   onOpenBookmark: (bookmark: ReadingBookmark) => void;
   personId?: string;
+  eraId?: EraId;
   compact?: boolean;
 }) {
   const shelf = useSyncExternalStore(readingShelf.subscribe, readingShelf.getSnapshot, readingShelf.getSnapshot);
@@ -25,8 +28,9 @@ export function ReadingShelfPanel({ onResume, onOpenBookmark, personId, compact 
   const fileInput = useRef<HTMLInputElement>(null);
   const panelId = useId();
   useEffect(() => () => { ++importSequence.current; }, []);
-  const progress = shelf.progress.filter(item => !personId || item.personId === personId);
-  const bookmarks = shelf.bookmarks.filter(item => !personId || item.personId === personId);
+  const inScope = (item: ReadingProgress | ReadingBookmark) => (!personId || item.personId === personId) && (!eraId || readingShelfEra(item) === eraId);
+  const progress = shelf.progress.filter(inScope);
+  const bookmarks = shelf.bookmarks.filter(inScope);
   const latest = progress[0];
   const latestDescription = latest ? describeProgress(latest) : null;
 
@@ -76,7 +80,7 @@ export function ReadingShelfPanel({ onResume, onOpenBookmark, personId, compact 
     </div>
     {shelf.notice && <p className="reading-shelf-notice" role="status">{shelf.notice}</p>}
     <div id={panelId} hidden={!open} className="reading-shelf-content">
-      <div className="reading-shelf-heading"><h2>{compact ? '阅读记录' : '我的阅读'}</h2><p>记录保存在当前浏览器，可导出后在其他设备导入。</p></div>
+      <div className="reading-shelf-heading"><h2>{compact ? '阅读记录' : '我的阅读'}</h2><p>记录保存在当前浏览器，可导出后在其他设备导入。{eraId && '此处显示当前年代；导入与导出保留全部年代的记录。'}</p></div>
       <div className="reading-shelf-management">
         <div className="reading-shelf-tabs" role="group" aria-label="阅读记录类型"><button type="button" aria-pressed={tab === 'bookmarks'} onClick={() => setTab('bookmarks')}>书签 {bookmarks.length}</button><button type="button" aria-pressed={tab === 'progress'} onClick={() => setTab('progress')}>阅读进度 {progress.length}</button></div>
         {!compact && <div className="reading-shelf-transfer"><button type="button" onClick={exportReading}><DownloadSimple size={15} aria-hidden="true" />导出记录</button><button type="button" disabled={importing} onClick={() => fileInput.current?.click()}><UploadSimple size={15} aria-hidden="true" />{importing ? '正在读取…' : '导入记录'}</button><input ref={fileInput} hidden type="file" accept="application/json,.json" aria-label="选择阅读记录文件" onChange={event => { void selectImport(event.target.files?.[0]); event.target.value = ''; }} /></div>}

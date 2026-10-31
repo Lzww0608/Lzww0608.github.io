@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "southern-emperors",
+  "title": "南朝皇帝",
+  "filterLabel": "南朝皇帝",
+  "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
+  "sourceNote": "据《宋书》武帝纪和《南史》宋本纪上整理刘裕，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明，其他皇帝随资料补齐逐批收录。",
+  "sources": [
+    {
+      "title": "宋书·武帝纪上中下（卷1—3）",
+      "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷1&oldid=11136436"
+    },
+    {
+      "title": "南史·宋本纪上（卷01）",
+      "url": "https://zh.wikisource.org/w/index.php?title=南史/卷01&oldid=1561312"
+    },
+    {
+      "title": "五代会要·卷二（宗庙制度追述）",
+      "url": "https://zh.wikisource.org/wiki/五代會要/卷02"
+    },
+    {
+      "title": "十国春秋·卷四十一（王锴奏记追述）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&oldid=2439571"
+    }
+  ],
+  "memberIds": [
+    "liu-yu-song"
+  ],
+  "people": [
+    {
+      "id": "liu-yu-song",
+      "name": "刘裕",
+      "dynasty": "刘宋",
+      "role": "刘宋开国皇帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋武帝 宋高祖 德舆 寄奴",
+      "nameVariants": [
+        "劉裕",
+        "德輿"
+      ],
+      "intro": "刘裕字德舆，小名寄奴，彭城绥舆里人，家族先世迁居京口。他早年从军，起兵击败桓玄，参与恢复晋室，继而执掌军政。他率军北伐南燕和后秦，先后接受宋公、宋王爵位，420年受晋禅即皇帝位，建立刘宋，422年去世。",
+      "reign": "420—422 年",
+      "reignStart": 420,
+      "reignEnd": 422,
+      "readingStarts": {
+        "songshu": "songshu-v001",
+        "nanshi": "nanshi-v001"
+      },
+      "sources": [
+        {
+          "title": "宋书·武帝纪上中下（卷1—3）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷1&oldid=11136436"
+        },
+        {
+          "title": "南史·宋本纪上（卷01）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷01&oldid=1561312"
+        }
+      ],
+      "sourceNotes": [
+        "主要依据《宋书》卷1—3与《南史》卷1；《五代会要》卷2另有宗庙制度中的追述。",
+        "宋公、宋王诏授、辞让、实际受命及即帝位分别记载。",
+        "出生按卷一兴宁元年癸亥三月壬寅；正文卒寿六十、校勘六十七与癸丑误引均另存，不据异文倒填生年。"
+      ],
+      "periodLabel": "刘宋 · 420—422 年在位",
+      "birthYear": 363,
+      "deathYear": 422,
+      "lifespan": "363—422 年"
+    }
+  ]
+}

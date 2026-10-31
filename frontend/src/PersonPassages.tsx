@@ -12,6 +12,7 @@ import { pendingReadingResume, readingResumeNonce, useReadingProgress } from './
 import type { PassagePageBaseline } from './person-passages-pagination';
 import type { Book, ChapterParagraph, HistoryPerson, PersonPassage, PersonPassagesResponse, Route } from './types';
 import './person-passages.css';
+import { personIndexRoute } from './eras';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
 type LoadedPage = { key: string; state: ReadState; page: PersonPassagesResponse | null };
@@ -225,11 +226,11 @@ export function PersonPassages({ person, book, route, go, onReadSource, search }
   const rangeEnd = rangeStart + (page?.items.length ?? 0) - 1;
   const isPending = current.state === 'loading' || current.state === 'archive-pending';
   return <section className="person-passages" data-read-state={current.state} data-person-id={person.id} data-book-id={book?.id ?? 'all'}>
-    <div className="breadcrumbs"><button onClick={() => go('people')}>人物</button><span>/</span><span>{person.name}</span><span>/</span><span>相关记载</span></div>
+    <div className="breadcrumbs"><button onClick={() => go(personIndexRoute(person))}>人物</button><span>/</span><span>{person.name}</span><span>/</span><span>相关记载</span></div>
     <div className="person-passages-page">
       <header className="passages-heading">
         <div><h1>{person.name}的相关记载</h1><p>汇集本传、各篇史事与他人传中的相关段落，保留原段文白对照。</p></div>
-        <button className="text-link small" onClick={() => go('people')}><ArrowLeft size={17} />返回人物</button>
+        <button className="text-link small" onClick={() => go(personIndexRoute(person))}><ArrowLeft size={17} />返回人物</button>
       </header>
       <div className="passages-selection">
         <label htmlFor="person-passage-book">文献</label>

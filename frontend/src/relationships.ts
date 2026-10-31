@@ -8,6 +8,8 @@ import civilOfficialRelationships from '../../content/person-relationships/civil
 import civilOfficialContext from '../../content/person-relationships/civil-officials-context.json' with { type: 'json' };
 import militaryRelationships from '../../content/person-relationships/military.json' with { type: 'json' };
 import militaryContext from '../../content/person-relationships/military-context.json' with { type: 'json' };
+import southernEmperorRelationships from '../../content/person-relationships/southern-emperors.json' with { type: 'json' };
+import southernEmperorContext from '../../content/person-relationships/southern-emperors-context.json' with { type: 'json' };
 import type { HistoryPerson } from './types.ts';
 
 export type RelationshipKind = 'kinship' | 'adoption' | 'service' | 'conflict' | 'succession';
@@ -63,10 +65,35 @@ export function buildRelationshipNodes(
   return [...byId.values()];
 }
 
+export function relationshipNodesForPeople(
+  people: readonly Pick<HistoryPerson, 'id' | 'name' | 'dynasty'>[],
+  contextNodes: readonly RelationshipNode[],
+  relationships: readonly Pick<PersonRelationship, 'from' | 'to'>[],
+): RelationshipNode[] {
+  const ids = new Set(people.map(person => person.id));
+  const externalIds = new Set(contextNodes.filter(node => node.external).map(node => node.id));
+  // Context people may have sourced relations to other context people. Retain
+  // those within this connected collection while never crossing through a
+  // canonical person outside the selected era.
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const { from, to } of relationships) {
+      for (const [known, candidate] of [[from, to], [to, from]]) {
+        if (ids.has(known!) && externalIds.has(candidate!) && !ids.has(candidate!)) {
+          ids.add(candidate!); changed = true;
+        }
+      }
+    }
+  }
+  return buildRelationshipNodes(people, contextNodes.filter(node => node.external && ids.has(node.id)));
+}
+
 export const relationshipNodes: readonly RelationshipNode[] = buildRelationshipNodes(catalogPeople, [
   ...palaceContext as readonly RelationshipNode[],
   ...civilOfficialContext as readonly RelationshipNode[],
   ...militaryContext as readonly RelationshipNode[],
+  ...southernEmperorContext as readonly RelationshipNode[],
   {"id":"xu-kai","name":"徐锴","aliases":["徐鍇"],"external":true,"group":"南唐","note":"《资治通鉴》卷291记右拾遗徐锴上表反对冯延鲁奉使，被贬后明称鍇为鉉之弟。此处仅为解释有明确出处的兄弟关系的关联节点，未新增独立人物条目。"},
   {"id":"han-shusi","name":"韩叔嗣","aliases":["韓叔嗣"],"external":true,"group":"后唐 / 青州","note":"《资治通鉴》卷275记支使、北海人韩叔嗣因王公俨事被诛，继称其子熙载将奔吴。此处仅为解释史载父子关系的关联节点，未新增独立人物条目。"},
   {
@@ -104,6 +131,7 @@ export const personRelationships: readonly PersonRelationship[] = [
   ...tenKingdomsRelationships as readonly PersonRelationship[],
   ...reviewedRulerRelationships as readonly PersonRelationship[],
   ...militaryRelationships as readonly PersonRelationship[],
+  ...southernEmperorRelationships as readonly PersonRelationship[],
   // Li Cunxu era service; shared facts also update the other endpoint.
   {
     "id": "li-cunxu-guo-chongtao-service",

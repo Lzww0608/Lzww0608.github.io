@@ -1,4 +1,5 @@
 import test from 'node:test';
+import * as eras from '../src/eras.ts';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
@@ -427,7 +428,7 @@ function renderComparisonState(previous = {}, destination = {}) {
     './reading-navigation-state': { readingNavigation: { current: () => ({ id: destination.entryId ?? 'entry-one', route: destination.ownerRoute ?? nextRoute,
       intent: 'restore', position: destination.details ? { details: destination.details } : undefined }) } },
     './event-timeline-links-loader': { readComparisonTimelineLinks: () => new Promise(() => {}) },
-    './event-timeline-links': { eventTimelineLinks }, './person-catalog': { catalogPeople },
+    './event-timeline-links': { eventTimelineLinks }, './person-catalog': { catalogPeople }, './eras': eras,
     './use-original-script': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
     './event-comparison.css': {},
   };

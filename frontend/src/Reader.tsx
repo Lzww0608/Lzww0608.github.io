@@ -14,6 +14,10 @@ import { readingNavigation } from './reading-navigation-state';
 import { useReadingProgress } from './use-reading-progress';
 import { resolvePersonTimelineRoute } from './person-timeline-route';
 import { resolveEventComparisonRoute } from './event-comparison-route';
+import { eraForChapter, peopleRoute } from './eras';
+import { catalogPeople } from './person-catalog';
+import { personIndexRoute } from './eras';
+import { inferReadingPerson } from './reading-shelf';
 import type { Book, ChapterSummary, ChapterResponse, ChapterParagraph, Route } from './types';
 
 type ReadState = 'loading' | 'archive-pending' | 'archive' | 'ready' | 'error';
@@ -128,8 +132,10 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, per
   const timelineReturn = returnTo ? resolvePersonTimelineRoute(returnTo) : null;
   const comparisonReturn = returnTo ? resolveEventComparisonRoute(returnTo) : null;
   const returnLabel = returnTo?.startsWith('owner-review') ? '返回校核清单' : timelineReturn ? `返回${timelineReturn.person.name}年表` : comparisonReturn ? `返回${comparisonReturn.document.title}史料对读` : '返回相关记载';
+  const contextPerson = catalogPeople.find(person => person.id === inferReadingPerson(route, personId));
+  const defaultReturn = contextPerson ? personIndexRoute(contextPerson) : peopleRoute(eraForChapter(entry));
   return <section className="reader" data-read-state={readState} data-chapter-id={entry.id}>
-    <div className="breadcrumbs"><button onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '人物'}</button><span>/</span><span>{book.title}</span><span>/</span><span>{entry.volume > 0 ? `卷 ${entry.volume}` : entry.title}</span></div>
+    <div className="breadcrumbs"><button onClick={() => go(returnTo ?? defaultReturn)}>{returnTo ? returnLabel : '人物'}</button><span>/</span><span>{book.title}</span><span>/</span><span>{entry.volume > 0 ? `卷 ${entry.volume}` : entry.title}</span></div>
     <div className={`reader-layout ${directorySidebar.collapsed ? 'left-collapsed' : ''}`}>
       {showDirectory && <button className="sidebar-backdrop directory-backdrop" aria-label="关闭侧栏" onClick={closeDrawer} />}
       <CollapsibleSidebar id="reader-directory" title="章节目录" side="left" panelRef={directoryRef} className={`reader-directory full-directory ${showDirectory ? 'directory-visible' : ''}`} collapsed={directorySidebar.collapsed} onToggle={() => { directorySidebar.toggle(); if (showDirectory) closeDrawer(); }}>
@@ -149,7 +155,7 @@ export function Reader({ route, book, entry, go, focusParagraphId, returnTo, per
         {progress.notice && <p className="reading-progress-notice" role="status">{progress.notice}</p>}
         <div className="original-text" lang={originalScript.displayScript === 'simplified' ? 'zh-Hans' : 'zh-Hant'} aria-busy={originalScript.pending} style={{ fontSize: size }}>{paragraphs.map((paragraph, index) => <OriginalParagraph key={paragraph.id} paragraph={chapter?.paragraphs[index] ?? paragraph} displayedOriginal={paragraph.original} searchQuery={search.query} searchField={search.field} bookmark={['ready', 'archive'].includes(readState) ? { chapterId: entry.id, personId } : undefined} translationExpanded={view.expandedTranslations[paragraph.id]} onTranslationExpandedChange={expanded => setView(current => ({ ...current, expandedTranslations: { ...current.expandedTranslations, [paragraph.id]: expanded } }))} onEdit={historyApiBase && readState === 'ready' ? () => setEditing(chapter?.paragraphs[index] ?? null) : undefined} />)}</div>
         {chapter && <div className="reading-source"><span>完整篇章原文 · 维基文库贡献者整理 · 本地归档</span><p>夹注、提要与原页校勘说明一并保留。译文支持逐段修订，旧版本保留。</p><details className="provenance"><summary>出处与版本信息</summary><p>来源：{provenance.pageTitle} · 修订 {provenance.revisionId}<br />归档时间：{new Date(provenance.fetchedAt).toLocaleString('zh-CN')}<br />授权：<a href={provenance.licenseUrl} target="_blank" rel="noreferrer">{provenance.license}</a> · 古籍原作公版</p><div><a href={provenance.sourceUrl} target="_blank" rel="noreferrer">核对来源版本 <ArrowUpRight size={15} /></a><a href={provenance.contributorsUrl} target="_blank" rel="noreferrer">贡献者与修订记录 <ArrowUpRight size={15} /></a></div></details></div>}
-        <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(contextRoute(previous)) : go(returnTo ?? 'people')}><ArrowLeft size={18} />{previous ? '上一篇' : returnTo ? returnLabel : '返回人物'}</button>{next ? <button className="text-link" onClick={() => go(contextRoute(next))}>下一篇 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go(returnTo ?? 'people')}>{returnTo ? returnLabel : '返回人物'} <ArrowRight size={18} /></button>}</div>
+        <div className="reader-bottom"><button className="text-link" onClick={() => previous ? go(contextRoute(previous)) : go(returnTo ?? defaultReturn)}><ArrowLeft size={18} />{previous ? '上一篇' : returnTo ? returnLabel : '返回人物'}</button>{next ? <button className="text-link" onClick={() => go(contextRoute(next))}>下一篇 <ArrowRight size={18} /></button> : <button className="text-link" onClick={() => go(returnTo ?? defaultReturn)}>{returnTo ? returnLabel : '返回人物'} <ArrowRight size={18} /></button>}</div>
       </article>
     </div>
     {editing && <TranslationEditor key={`${editing.id}/${editing.translation?.id}`} paragraph={editing} apiBase={historyApiBase}

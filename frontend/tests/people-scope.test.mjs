@@ -9,14 +9,16 @@ import { loadPassagePeople } from '../../content/person-passages.mjs';
 const catalogRoot = new URL('../../content/five-dynasties/', import.meta.url);
 const catalogs = readdirSync(catalogRoot).filter(file => file.endsWith('.json')).map(file =>
   JSON.parse(readFileSync(new URL(file, catalogRoot), 'utf8'))).filter(catalog => Array.isArray(catalog.people));
+catalogs.push(JSON.parse(readFileSync(new URL('../../content/southern-northern/emperors.json', import.meta.url), 'utf8')));
 const topics = catalogs.filter(catalog => Array.isArray(catalog.memberIds));
 const generals = topics.find(topic => topic.id === 'zhu-wen-generals');
 const keyongGenerals = topics.find(topic => topic.id === 'li-keyong-generals');
 
-test('retired page addresses and the root resolve to people while original reading links remain valid', () => {
-  for (const hash of ['', '#', '#overview', '#timeline', '#sources', '#map', '#unknown']) {
+test('retired page addresses retain Five Dynasties compatibility while the root selects an era', () => {
+  for (const hash of ['#overview', '#timeline', '#sources', '#map']) {
     assert.equal(resolveRoute(hash), 'people', hash);
   }
+  for (const hash of ['', '#', '#unknown']) assert.equal(resolveRoute(hash), 'eras', hash);
   assert.equal(resolveRoute('#people'), 'people');
   for (const route of ['read-old/old-v056', 'read-new/new-v36', 'read-tongjian/tongjian-v294']) {
     assert.equal(resolveRoute(`#${route}`), route);

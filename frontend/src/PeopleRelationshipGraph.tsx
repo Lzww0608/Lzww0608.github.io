@@ -4,16 +4,18 @@ import {
   relationshipKindLabels,
   relationshipNodes,
   buildRelationshipNodes,
+  relationshipNodesForPeople,
   getRelationshipNeighborhood,
   searchRelationshipNodes,
 } from './relationships.ts';
 import type { PersonRelationship, RelationshipKind, RelationshipNode } from './relationships.ts';
-import type { HistoryPerson } from './types.ts';
+import type { EraId, HistoryPerson } from './types.ts';
 import { useOriginalScript } from './use-original-script.ts';
 import './relationships.css';
 
 export interface PeopleRelationshipGraphProps {
   people: readonly HistoryPerson[];
+  eraId?: EraId;
   selectedPersonId?: string;
   onSelectPerson?: (id: string) => void;
   onOpenPerson: (person: HistoryPerson) => void;
@@ -87,6 +89,7 @@ function activateWithKeyboard(event: React.KeyboardEvent<SVGElement>, action: ()
 
 export function PeopleRelationshipGraph({
   people,
+  eraId,
   selectedPersonId,
   onSelectPerson,
   onOpenPerson,
@@ -101,7 +104,8 @@ export function PeopleRelationshipGraph({
   const [query, setQuery] = useState('');
   const originalScript = useOriginalScript();
   const peopleById = useMemo(() => new Map(people.map(person => [person.id, person])), [people]);
-  const nodes = useMemo(() => buildRelationshipNodes(people, relationshipNodes.filter(node => node.external)), [people]);
+  const nodes = useMemo(() => eraId ? relationshipNodesForPeople(people, relationshipNodes, personRelationships)
+    : buildRelationshipNodes(people, relationshipNodes.filter(node => node.external)), [people, eraId]);
   const nodesById = useMemo(() => new Map(nodes.map(node => [node.id, node])), [nodes]);
   const requestedSelectedId = selectedPersonId ?? localSelectedPersonId;
   const focusedId = nodesById.has(requestedSelectedId) ? requestedSelectedId : '';

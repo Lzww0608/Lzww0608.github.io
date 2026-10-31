@@ -14,6 +14,7 @@ import { readComparisonTimelineLinks } from './event-timeline-links-loader';
 import { eventTimelineLinks } from './event-timeline-links';
 import type { ResolvedEventTimelineLink } from './event-timeline-links';
 import { catalogPeople } from './person-catalog';
+import { eraForComparison, peopleRoute } from './eras';
 import { useOriginalScript } from './use-original-script';
 import type { CSSProperties, SetStateAction } from 'react';
 import type { EventComparisonDocument, EventComparisonResponse } from './event-comparison-schema';
@@ -221,7 +222,7 @@ export function EventComparison({ document, route, stageId, returnTo, personId, 
   }
 
   return <section className="event-comparison" data-comparison-id={document.id} data-read-state={readState} data-links-state={linksState}>
-    <div className="comparison-breadcrumbs"><button type="button" onClick={() => go('people')}><ArrowLeft size={14} aria-hidden="true" />人物</button><span aria-hidden="true">/</span><span>{document.title}</span></div>
+    <div className="comparison-breadcrumbs"><button type="button" onClick={() => { const eraId = eraForComparison(document); go(eraId ? peopleRoute(eraId) : 'eras'); }}><ArrowLeft size={14} aria-hidden="true" />人物</button><span aria-hidden="true">/</span><span>{document.title}</span></div>
     {returnTo && <button type="button" className="comparison-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnTimeline ? `${returnTimeline.person.name}年表` : '来源页面'}</button>}
     <header className="comparison-heading"><div><h1>{document.title}</h1><p className="comparison-date">{document.dateLabel}</p></div><p>{document.summary}</p></header>
     <p className="comparison-scope">按战事阶段并列当前归档中的相关段落。各书保留完整原文与白话译文；阶段分组用于对读，不表示各书叙事逐句对应。完整原段可能包含前后其他史事，请依阶段说明区分，不把整段都视为本次战事当日。</p>

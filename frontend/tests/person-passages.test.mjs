@@ -127,7 +127,8 @@ test('person source routes preserve valid book-specific and all-book summaries w
   assert.equal(resolveRoute('#person-sources/li-cunxin/new'),'person-sources/li-cunxin/new');
   assert.equal(resolvePersonSourcesRoute(personSourcesRoute(personId)).person.id,personId);
   assert.equal(resolvePersonSourcesRoute('person-sources/li-cunxin/new').book.id,'new');
-  for(const route of ['person-sources/missing/new','person-sources/li-cunxin/missing','person-sources/li-cunxin/new/extra','sources','map'])assert.equal(resolveRoute(`#${route}`),'people');
+  for(const route of ['person-sources/missing/new','person-sources/li-cunxin/missing','person-sources/li-cunxin/new/extra'])assert.equal(resolveRoute(`#${route}`),'eras');
+  for(const route of ['sources','map'])assert.equal(resolveRoute(`#${route}`),'people');
 });
 
 test('offline summaries select only indexed person passages, including records in another person biography',async()=>{

@@ -5,8 +5,9 @@ import { eventComparisons } from './event-comparison-data.ts';
 import { validateSearchQuery } from '../../content/passage-search.mts';
 import { resolveReadingRoute, resolvePersonSourcesRoute } from './library.ts';
 import { resolveReadingContextRoute } from './reading-context-route.ts';
+import { eraForChapter, eraForComparison, eraForPerson } from './eras.ts';
 import type { ReadingPosition } from './reading-navigation-state.ts';
-import type { BookId, LibraryCatalog, Route } from './types.ts';
+import type { BookId, EraId, LibraryCatalog, Route } from './types.ts';
 
 export const READING_SHELF_APP = 'ancient-history-reading' as const;
 export const READING_SHELF_LIMITS = { bytes: 2 * 1024 * 1024, progress: 300, bookmarks: 1000, details: 300, translations: 1000, cursors: 300 } as const;
@@ -97,8 +98,42 @@ export function inferReadingPerson(route: string, context?: string): string | un
   if (!resolved) return;
   if (resolved.personId) return resolved.personId;
   if (!context || !people.has(context)) return;
+  const contextPerson = catalogPeople.find(person => person.id === context)!;
+  if (resolved.kind === 'reader') {
+    const chapter = chapters.get(resolved.chapterId!)!;
+    // Later historical works may preserve an earlier person's evidence. A
+    // checked chapter association keeps that legitimate reading context, while
+    // an unrelated person remembered from the previous era is not inherited.
+    if (eraForPerson(contextPerson) !== eraForChapter(chapter) && !chapter.subjects.includes(context)) return;
+  }
   if (resolved.kind === 'comparison' && !eventComparisons.find(document => document.id === resolved.comparisonId)?.personIds.includes(context)) return;
   return context;
+}
+export function readingShelfEra(item: ReadingProgress | ReadingBookmark): EraId | undefined {
+  if ('route' in item) {
+    const route = parseReadingShelfRoute(item.route, true);
+    if (!route) return;
+    const context = inferReadingPerson(item.route, item.personId);
+    if (context) return eraForPerson(catalogPeople.find(person => person.id === context)!);
+    if (route.personId) {
+      const person = catalogPeople.find(person => person.id === route.personId);
+      return person ? eraForPerson(person) : undefined;
+    }
+    if (route.chapterId) return eraForChapter(chapters.get(route.chapterId)!);
+    if (route.comparisonId) {
+      const document = eventComparisons.find(document => document.id === route.comparisonId);
+      return document ? eraForComparison(document) : undefined;
+    }
+    return;
+  }
+  if (item.kind === 'paragraph') {
+    const chapter = chapters.get(item.chapterId);
+    const context = chapter && inferReadingPerson(`read-${chapter.bookId}/${chapter.id}`, item.personId);
+    if (context) return eraForPerson(catalogPeople.find(person => person.id === context)!);
+    return chapter ? eraForChapter(chapter) : undefined;
+  }
+  const person = catalogPeople.find(person => person.id === item.personId);
+  return person ? eraForPerson(person) : undefined;
 }
 export function readingProgressId(route: string, personId?: string): string {
   const resolved = parseReadingShelfRoute(route, true);
@@ -230,7 +265,10 @@ export function parseReadingBookmark(value: unknown): ReadingBookmark {
   if (value.kind === 'paragraph') {
     keys(value, ['id', 'kind', 'chapterId', 'paragraphId', 'personId', 'originalRevision', 'originalSha256', 'savedAt']);
     const binding = paragraphBinding(value);
-    if (value.personId !== undefined && !person(value.personId) || value.id !== paragraphBookmarkId(binding.chapterId, binding.paragraphId, value.personId as string | undefined)) fail();
+    const chapter = chapters.get(binding.chapterId)!;
+    const personId = inferReadingPerson(`read-${chapter.bookId}/${chapter.id}`, value.personId as string | undefined);
+    if (value.personId !== undefined && !person(value.personId) || personId !== value.personId
+      || value.id !== paragraphBookmarkId(binding.chapterId, binding.paragraphId, personId)) fail();
     return { id: value.id as string, kind: 'paragraph', ...binding, ...(value.personId ? { personId: value.personId as string } : {}), savedAt: value.savedAt };
   }
   if (value.kind === 'event') {

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "liu-yu-song-father",
+    "from": "liu-qiao-song",
+    "to": "liu-yu-song",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "刘翘为父，刘裕为子。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p2",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "c02ab1c4bca23b8590f98cabd0ae5158e046f32ec7f2f417ff4243d4ebf02e34",
+        "excerpt": "混生東安太守靖，靖生郡功曹翹，是為皇考。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p2",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "03fced469ef6e59147f84ae5083b77fb764bf89674aff193196fd1ecd21e64aa",
+        "excerpt": "皇祖靖，晉東安太守。皇考翹，字顯宗，郡功曹。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-mother",
+    "from": "song-liu-yu-mother-unnamed",
+    "to": "liu-yu-song",
+    "kind": "kinship",
+    "label": "母子（生养未详）",
+    "note": "《宋书》称刘裕母为皇妣，追尊穆皇后；姓名与具体生养身份未详。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p6",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "5bfc265cc80925ecd34cda08eb26359552ccccce6effaf0c8d0f794ed15eaab2",
+        "excerpt": "追尊皇考為孝穆皇帝，皇妣為穆皇后，尊王太后為皇太后。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-stepmother",
+    "from": "song-liu-yu-stepmother-unnamed",
+    "to": "liu-yu-song",
+    "kind": "kinship",
+    "label": "继母与继子",
+    "note": "《宋书》《南史》均记刘裕孝敬继母，未记其名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p2",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "c02ab1c4bca23b8590f98cabd0ae5158e046f32ec7f2f417ff4243d4ebf02e34",
+        "excerpt": "事繼母以孝謹稱。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p2",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "03fced469ef6e59147f84ae5083b77fb764bf89674aff193196fd1ecd21e64aa",
+        "excerpt": "奉繼母以孝聞。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-consort-zang",
+    "from": "liu-yu-song",
+    "to": "song-liu-yu-consort-zang",
+    "kind": "kinship",
+    "label": "配偶（妃臧氏）",
+    "note": "刘裕妃臧氏身后追谥敬皇后，婚年与卒年在所引段落中未详。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p18",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "e2378233716a2f2ab152e62edbeb028a0accdeed73be5ee231990552978626df",
+        "excerpt": "辛未，追諡妃臧氏為敬皇后。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p77",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "768be46729ac481cd452d81d83df6f9b998c40b460382efc9181ac7683fd9307",
+        "excerpt": "辛未，追諡妃臧氏為敬皇后，陵曰永寧。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-yifu-parents",
+    "from": "liu-yu-song",
+    "to": "song-liu-yu-consort-zhang",
+    "kind": "kinship",
+    "label": "义符父母",
+    "note": "《南史》明言义符为刘裕长子、母张夫人；张夫人的婚配年月和正妻名分未详。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p91",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "8a25ee02e3f878490c4fe991fbdcecaa14a7783d5067f63e72179a56d22de970",
+        "excerpt": "少帝諱義符，小字車兵，武帝長子也。母曰張夫人，晉義熙二年，生帝於京口。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-son-yifu",
+    "from": "liu-yu-song",
+    "to": "liu-yifu-song",
+    "kind": "kinship",
+    "label": "父子（长子）",
+    "note": "《南史》明确记为刘裕长子，母张夫人。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p91",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "8a25ee02e3f878490c4fe991fbdcecaa14a7783d5067f63e72179a56d22de970",
+        "excerpt": "少帝諱義符，小字車兵，武帝長子也。母曰張夫人，晉義熙二年，生帝於京口。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-zhang-yifu-mother",
+    "from": "song-liu-yu-consort-zhang",
+    "to": "liu-yifu-song",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "《南史·少帝纪》明确记张夫人生义符。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p91",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "8a25ee02e3f878490c4fe991fbdcecaa14a7783d5067f63e72179a56d22de970",
+        "excerpt": "母曰張夫人，晉義熙二年，生帝於京口。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-son-yizhen",
+    "from": "liu-yu-song",
+    "to": "liu-yizhen-song",
+    "kind": "kinship",
+    "label": "父子（次子）",
+    "note": "《宋书》明确记为刘裕次子。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p22",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "4c57929997adb35e5af4cf0a57386e607229547916b822e460b07d8748222bf7",
+        "excerpt": "九月，封公次子義真為桂陽縣公，以賞平齊及定盧循也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-son-yilong",
+    "from": "liu-yu-song",
+    "to": "liu-yilong-song",
+    "kind": "kinship",
+    "label": "父子（第三子）",
+    "note": "《宋书》明确记为刘裕第三子。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p35",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "7dccb9d9097e4160b1feed394b6cc687fb9595513ebab5e89ac044c338777866",
+        "excerpt": "封公第三子義隆為北彭城縣公。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-son-yikang",
+    "from": "liu-yu-song",
+    "to": "liu-yikang-song",
+    "kind": "kinship",
+    "label": "父子（第四子）",
+    "note": "《宋书》明确记为刘裕第四皇子。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p7",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "33cf5fb3090d73e0763f1312e3649c5506dbbababb1104d1a9a0186f6ae468df",
+        "excerpt": "乙亥，立桂陽公義真為廬陵王，彭城公義隆為宜都王，第四皇子義康為彭城王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-brother-daogui",
+    "from": "liu-yu-song",
+    "to": "liu-daogui-song",
+    "kind": "kinship",
+    "label": "兄弟（道规为弟）",
+    "note": "刘道规为刘裕弟，并参与起兵。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p10",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "6020d338f59ac0e69926f0ec666a7150888b8ba698a72e4e3060933321b81347",
+        "excerpt": "於是與弟道規、沛郡劉毅、平昌孟昶、任城魏詠之、高平檀憑之、琅邪諸葛長民、太原王元德、隴西辛扈興、東莞童厚之，並同義謀。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-brother-daolian",
+    "from": "liu-yu-song",
+    "to": "liu-daolian-song",
+    "kind": "kinship",
+    "label": "兄弟（道怜为弟）",
+    "note": "《宋书》同谋名单明确称高祖弟道怜。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p11",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "66b660e94ba2aefa16967e28da63cbfd46ef4c25702df5883ad6f074da475479",
+        "excerpt": "高祖弟道憐"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-yiqing-created",
+    "from": "liu-yu-song",
+    "to": "liu-yiqing-song",
+    "kind": "service",
+    "label": "封为临川王",
+    "note": "本段明确封爵，与皇子封爵分别列记；未交代义庆的父亲或与刘裕的叔侄关系。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p7",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "33cf5fb3090d73e0763f1312e3649c5506dbbababb1104d1a9a0186f6ae468df",
+        "excerpt": "立南郡公義慶為臨川王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-sunwuzhong-service",
+    "from": "sun-wuzhong-jin",
+    "to": "liu-yu-song",
+    "kind": "service",
+    "label": "刘裕曾任其司马",
+    "note": "刘裕早年曾任冠军将军孙无终司马，始任年月未详。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p3",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "db72f9348bf0988fa4d7fc0922249b2cc6397a879aece7938b72b7ef073b8e85",
+        "excerpt": "初為冠軍孫無終司馬。安帝隆安三年十一月，妖賊孫恩作亂於會稽，晉朝衞將軍謝琰、前將軍劉牢之東討。牢之請高祖參府軍事。十二月，牢之至吳，而賊緣道屯結，牢之命高祖與數十人覘賊遠近。會遇賊至，眾數千人，高祖便進與戰。所將人多死，而戰意方厲，手奮長刀，所殺傷甚眾。牢之子敬宣疑高祖淹久，恐為賊所困，乃輕騎尋之。既而眾騎並至，賊乃奔退，斬獲千餘人，推鋒而進，平山陰，恩遁還入海。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p5",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "93a745d840ddd6b9af6f76e1b85e17901b23395ac0064e91f82aa419a9a1e16a",
+        "excerpt": "初為冠軍孫無終司馬。晉隆安三年十一月，祅賊孫恩作亂于會稽，朝廷遣衛將軍謝琰、前將軍劉牢之東討。牢之請帝參府軍事，命與數十人覘賊，遇賊眾數千，帝便與戰，所將人多死，而帝奮長刀，所殺傷甚眾。牢之子敬宣疑帝為賊所困，乃輕騎尋之；既而眾騎並至，遂平山陰，恩遁入海。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-laozhi-service",
+    "from": "liu-laozhi-jin",
+    "to": "liu-yu-song",
+    "kind": "service",
+    "label": "刘裕曾任其参军事",
+    "note": "刘牢之请刘裕参府军事；刘裕后来劝阻他降桓玄。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p3",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "db72f9348bf0988fa4d7fc0922249b2cc6397a879aece7938b72b7ef073b8e85",
+        "excerpt": "初為冠軍孫無終司馬。安帝隆安三年十一月，妖賊孫恩作亂於會稽，晉朝衞將軍謝琰、前將軍劉牢之東討。牢之請高祖參府軍事。十二月，牢之至吳，而賊緣道屯結，牢之命高祖與數十人覘賊遠近。會遇賊至，眾數千人，高祖便進與戰。所將人多死，而戰意方厲，手奮長刀，所殺傷甚眾。牢之子敬宣疑高祖淹久，恐為賊所困，乃輕騎尋之。既而眾騎並至，賊乃奔退，斬獲千餘人，推鋒而進，平山陰，恩遁還入海。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p7",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "a503ea14365da357acd8cecaa42d78515c2120008d874d957d1d086cf218eaf1",
+        "excerpt": "元興元年正月，驃騎將軍司馬元顯西伐荊州刺史桓玄，玄亦率荊楚大眾，下討元顯。元顯遣鎮北將軍劉牢之拒之，高祖參其軍事。次溧洲。玄至，高祖請擊之，不許，將遣子敬宣詣玄請和。高祖與牢之甥東海何無忌並固諫，不從。[4]遂遣敬宣詣玄。玄剋京邑，殺元顯，以牢之為會稽內史。懼而告高祖曰：「便奪我兵，禍其至矣。今當北就高雅於廣陵舉事，卿能從我去乎？」答曰：「將軍以勁卒數萬，望風降服。彼新得志，威震天下。三軍人情，都已去矣，廣陵豈可得至邪！裕當反服還京口耳。」牢之叛走自縊死。何無忌謂高祖曰：「我將何之？」高祖曰：「鎮北去必不免，卿可隨我還京口。桓玄必能守節北面，我當與卿事之；不然，與卿圖之。今方是玄矯情任算之日，必將用我輩也。」桓玄從兄脩以撫軍鎮丹徒，以高祖為中兵參軍，軍、郡如故。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-wuji-alliance",
+    "from": "liu-yu-song",
+    "to": "he-wuji-jin",
+    "kind": "service",
+    "label": "共同谋起兵",
+    "note": "何无忌与刘裕共同谋划恢复晋室，之后同军作战。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p10",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "6020d338f59ac0e69926f0ec666a7150888b8ba698a72e4e3060933321b81347",
+        "excerpt": "先是高祖東征盧循，何無忌隨至山陰，勸於會稽舉義。高祖以為玄未據極位，且會稽遙遠，事濟為難，俟其篡逆事著，徐於京口圖之，不憂不剋。至是桓脩還京，高祖託以金創疾動，不堪步從，乃與無忌同船共還，建興復之計。於是與弟道規、沛郡劉毅、平昌孟昶、任城魏詠之、高平檀憑之、琅邪諸葛長民、太原王元德、隴西辛扈興、東莞童厚之，並同義謀。時桓脩弟弘為征虜將軍、青州刺史，鎮廣陵。道規為弘中兵參軍，昶為州主簿。乃令毅潛往就昶，聚徒於江北，謀起兵殺弘。長民為豫州刺史刁逵左軍府參軍，謀據歷陽相應。元德、厚之謀於京邑聚眾攻玄，並剋期齊發。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-muzhi-service",
+    "from": "liu-yu-song",
+    "to": "liu-muzhi-song",
+    "kind": "service",
+    "label": "谋主与留守辅佐",
+    "note": "刘穆之为刘裕谋主，北伐时受命留守京师。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p51",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "a07a9d372fbb08b03378135b7fdb5cd674f4b9b1e0fc1937824993c25fad1f07",
+        "excerpt": "錄事參軍劉穆之，有經略才具，公以為謀主，動止必諮焉。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p40",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "247fef08e2b650957a600d9743b48810a5458755c7a12a745ecbba49807eea0c",
+        "excerpt": "公受中外都督及司州，並辭大司馬琅邪王禮敬，朝議從之。公欲以義聲懷遠，奉琅邪王北伐。五月，羌偽黃門侍郎尹沖率兄弟歸順。又加公北雍州刺史，前部羽葆、鼓吹，增班劍為四十人。解中書監。八月丁巳，率大眾發京師。以世子為中軍將軍，監太尉留府事。尚書右僕射劉穆之為左僕射，領監軍、中軍二府軍司，入居東府，總攝內外。九月，公次于彭城，加領徐州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-wangmi-help",
+    "from": "liu-yu-song",
+    "to": "wang-mi-jin",
+    "kind": "service",
+    "label": "早年援助与后来的保全",
+    "note": "王谧早年代刘裕偿还债务；刘裕起兵后保护王谧，并上书大将军，迎王谧回来复位。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p27",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "53f58878f5bac5ece4eef4524da5a777ddcbb34008c8c1e4e10b13240fb0bc63",
+        "excerpt": "初高祖家貧，嘗負刁逵社錢三萬，經時無以還。逵執錄甚嚴，王謐造逵見之，密以錢代還，由是得釋。高祖名微位薄，盛流皆不與相知，唯謐交焉。桓玄將篡，謐手解安帝璽紱，為玄佐命功臣。及義旗建，眾並謂謐宜誅，唯高祖保持之。劉毅嘗因朝會，問謐璽紱所在，謐益懼。及王愉父子誅，謐從弟諶謂謐曰：「王駒無罪，而義旗誅之，此是剪除勝己，以絕民望。兄既桓氏黨附，名位如此，欲求免得乎？」駒，愉小字也。謐懼，奔于曲阿。高祖牋白大將軍，深相保謐，迎還復位。光祿勳卞承之、[13]左衞將軍褚粲、游擊將軍司馬秀役使官人，為御史中丞王禎之所糾察，謝牋言辭怨憤。承之造司宜藏。高祖與大將軍牋，白「粲等備位大臣，所懷必盡。執憲不允，自應據理陳訴，而橫興怨忿，歸咎有司。宜加裁當，以清風軌」。並免官。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-zhen-e-command",
+    "from": "liu-yu-song",
+    "to": "wang-zhen-e-song",
+    "kind": "service",
+    "label": "遣将先袭江陵、北伐后秦",
+    "note": "王镇恶受命先袭江陵，北伐后秦时又攻克长安、俘获姚泓。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p9",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "5d0675a6b5d664b504118f66888b7165b1919a08e99b96bc4dc37c462a47dfa9",
+        "excerpt": "八年四月，改授豫州刺史，以後將軍、豫州刺史劉毅代之。毅與公俱舉大義，興復晉室，自謂京城、廣陵，功業足以相抗。雖權事推公，而心不服也。毅既有雄才大志，厚自矜許，朝士素望者多歸之。與尚書僕射謝混、丹陽尹郗僧施並深相結。及西鎮江陵，豫州舊府，多割以自隨，請僧施為南蠻校尉。既知毅不能居下，終為異端，密圖之。毅至西，稱疾篤，表求從弟兗州刺史藩以為副貳，偽許焉。九月，藩入朝，公命收藩及謝混，並於獄賜死。自表討毅。又假黃鉞，率諸軍西征。以前鎮軍將軍司馬休之為平西將軍、荊州刺史，兗州刺史道憐鎮丹徒，豫州刺史諸葛長民監太尉留府事，加太尉司馬、丹陽尹劉穆之建威將軍，配以實力。壬午，發自京師。遣參軍王鎮惡、龍驤將軍蒯恩前襲江陵。十月，鎮惡剋江陵，毅及黨與皆伏誅。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p41",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "f517589666757c5aa125efb986a24dba39568633fdfd7d52dd2f6db33fe6f9f4",
+        "excerpt": "先是遣冠軍將軍檀道濟、龍驤將軍王鎮惡步向許、洛，羌緣道屯守，皆望風降服。偽兗州刺史韋華先據倉垣，亦率眾歸順。公又遣北兗州刺史王仲德先以水軍入河。仲德破索虜於東郡涼城，進平滑臺。十月，眾軍至洛陽，圍金墉。泓弟偽平南將軍洸請降，送于京師。修復晉五陵，置守衞。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p55",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "73a7fcb4bdc9c4373adc22fcb0daa69f8a2102b94406cd97364378b6c460370b",
+        "excerpt": "二月，冠軍將軍檀道濟等次潼關。三月庚辰，大軍入河。索虜步騎十萬，營據河津。公命諸軍濟河擊破之。公至洛陽。七月，至陝城。龍驤將軍王鎮惡伐木為舟，自河浮渭。八月，扶風太守沈田子大破姚泓於藍田。王鎮惡剋長安，生擒泓。九月，公至長安。長安豐全，帑藏盈積。公先收其彝器、渾儀、土圭之屬，獻于京師；其餘珍寶珠玉，以班賜將帥。執送姚泓，斬于建康市。謁漢高帝陵，大會文武於未央殿。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-lingshi-command",
+    "from": "liu-yu-song",
+    "to": "zhu-lingshi-song",
+    "kind": "service",
+    "label": "任命伐蜀与接替守关中",
+    "note": "朱龄石奉刘裕任命入蜀，后来奉命接替刘义真守关中。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p12",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "bc84a38c72dda410129653da2ce222507190ad85c4e3c79fa90ab5785fdcee10",
+        "excerpt": "以荊州十郡為湘州，公乃進督。[2]以西陽太守朱齡石為益州刺史，率眾伐蜀。進公太傅、揚州牧，加羽葆鼓吹，班劍二十人。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p64",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "8c267adfe1467d0c30004cff942842f94da5fc93cf7c8b9da49363df6df0ba5e",
+        "excerpt": "先是安西中兵參軍沈田子殺安西司馬王鎮惡，諸將軍復殺安西長史王脩。關中亂。十月，公遣右將軍朱齡石代安西將軍桂陽公義真為雍州刺史。義真既還，為佛佛虜所追，大敗，僅以身免。諸將帥及齡石並沒。領軍檀祗卒，以中軍司馬檀道濟為中領軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-daoji-service",
+    "from": "liu-yu-song",
+    "to": "tan-daoji-song",
+    "kind": "service",
+    "label": "受命北伐，任护军将军",
+    "note": "檀道济参与北伐，并受刘裕任命为护军将军。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p41",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "f517589666757c5aa125efb986a24dba39568633fdfd7d52dd2f6db33fe6f9f4",
+        "excerpt": "先是遣冠軍將軍檀道濟、龍驤將軍王鎮惡步向許、洛，羌緣道屯守，皆望風降服。偽兗州刺史韋華先據倉垣，亦率眾歸順。公又遣北兗州刺史王仲德先以水軍入河。仲德破索虜於東郡涼城，進平滑臺。十月，眾軍至洛陽，圍金墉。泓弟偽平南將軍洸請降，送于京師。修復晉五陵，置守衞。"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p7",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "33cf5fb3090d73e0763f1312e3649c5506dbbababb1104d1a9a0186f6ae468df",
+        "excerpt": "宋國領軍檀道濟為護軍將軍"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-xianzhi-service",
+    "from": "liu-yu-song",
+    "to": "xu-xianzhi-song",
+    "kind": "service",
+    "label": "受任尚书令、司空等",
+    "note": "刘裕任徐羡之为尚书令、司空、录尚书事，临终告诫太子时曾谈及他。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p25",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "87b1598fe7bf2f47cacc17f74a7497e139f5e8b6e655d005e0b14f8573fb5393",
+        "excerpt": "二年春正月辛酉，車駕祠南郊，大赦天下。丙寅，斷金銀塗。以揚州刺史廬陵王義真為司徒，以尚書僕射、鎮軍將軍徐羨之為尚書令、揚州刺史。丙子，南康揭陽蠻反，郡縣討破之。己卯，禁喪事用銅釘。罷會稽郡府。"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p36",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "589c6f2caea08374a4ade23a4459069843f2c0da11ecbe7c7049b1c6ef592dab",
+        "excerpt": "三年春正月甲辰朔，詔刑罰無輕重，悉皆原降。壬子，以前冀州刺史王仲德為徐州刺史。癸丑，以尚書令、揚州刺史徐羨之為司空、錄尚書事，刺史如故。撫軍將軍、江州刺史王弘進號衞將軍、開府儀同三司，太子詹事傅亮為尚書僕射，中領軍謝晦為領軍將軍。乙卯，以輔國將軍毛德祖為司州刺史。[11]乙丑，詔曰：「古之建國，教學為先，弘風訓世，莫尚於此，發蒙啟滯，咸必由之。故爰自盛王，迄于近代，莫不敦崇學藝，修建庠序。自昔多故，戎馬在郊，旍旗卷舒，日不暇給。遂令學校荒廢，講誦蔑聞，軍旅日陳，俎豆藏器，訓誘之風，將墜于地。後生大懼於牆面，故老竊歎於子衿。此國風所以永思，小雅所以懷古。今王略遠屆，華域載清，仰風之士，日月以冀。便宜博延冑子，陶奬童蒙，選備儒官，弘振國學。主者考詳舊典，以時施行。」"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p40",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "083fd9fc8d5379dd380db5ffed20afa04e7e947d5efa270a6b3d78b485bc877b",
+        "excerpt": "五月，上疾甚，召太子誡之曰：「檀道濟雖有幹略，而無遠志，非如兄韶有難御之氣也。徐羨之、傅亮當無異圖。謝晦數從征伐，頗識機變，若有同異，必此人也。小卻，可以會稽、江州處之。」又為手詔曰：「朝廷不須復有別府，宰相帶揚州，可置甲士千人。若大臣中任要，宜有爪牙以備不祥人者，可以臺見隊給之。有征討悉配以臺見軍隊，行還復舊。後世若有幼主，朝事一委宰相，母后不煩臨朝。仗既不許入臺殿門，要重人可詳給班劍。」癸亥，上崩于西殿，時年六十。[14]"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-fuliang-service",
+    "from": "liu-yu-song",
+    "to": "fu-liang-song",
+    "kind": "service",
+    "label": "受任尚书仆射",
+    "note": "刘裕任傅亮为尚书仆射，患病时由傅亮等入侍医药。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p36",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "589c6f2caea08374a4ade23a4459069843f2c0da11ecbe7c7049b1c6ef592dab",
+        "excerpt": "太子詹事傅亮為尚書僕射"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p38",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "c522039870ecb4fb839186c097a3f7ebe81b9ca475dac1a48a7ea829bb240b70",
+        "excerpt": "三月，上不豫。太尉長沙王道憐、司空徐羨之、尚書僕射傅亮、領軍將軍謝晦、護軍將軍檀道濟並入侍醫藥。羣臣請祈禱神祇，上不許，唯使侍中謝方明以疾告廟而巳。丁未，以司徒廬陵王義真為車騎將軍、開府儀同三司、南豫州刺史。上疾瘳。己未，大赦天下。時秦雍流戶悉南入梁州。庚申，送紵絹萬匹，[13]荊、雍州運米，委州刺史隨宜賦給。辛酉，亡命刁彌攻京城，得入，太尉留府司馬陸仲元討斬之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-xiehui-service",
+    "from": "liu-yu-song",
+    "to": "xie-hui-song",
+    "kind": "service",
+    "label": "随征、进谏与领军任命",
+    "note": "谢晦跟从刘裕征战，劝其遣出姚兴从女。刘裕临终对谢晦异动的戒惧属于预警。",
+    "sources": [
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p36",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "589c6f2caea08374a4ade23a4459069843f2c0da11ecbe7c7049b1c6ef592dab",
+        "excerpt": "三年春正月甲辰朔，詔刑罰無輕重，悉皆原降。壬子，以前冀州刺史王仲德為徐州刺史。癸丑，以尚書令、揚州刺史徐羨之為司空、錄尚書事，刺史如故。撫軍將軍、江州刺史王弘進號衞將軍、開府儀同三司，太子詹事傅亮為尚書僕射，中領軍謝晦為領軍將軍。乙卯，以輔國將軍毛德祖為司州刺史。[11]乙丑，詔曰：「古之建國，教學為先，弘風訓世，莫尚於此，發蒙啟滯，咸必由之。故爰自盛王，迄于近代，莫不敦崇學藝，修建庠序。自昔多故，戎馬在郊，旍旗卷舒，日不暇給。遂令學校荒廢，講誦蔑聞，軍旅日陳，俎豆藏器，訓誘之風，將墜于地。後生大懼於牆面，故老竊歎於子衿。此國風所以永思，小雅所以懷古。今王略遠屆，華域載清，仰風之士，日月以冀。便宜博延冑子，陶奬童蒙，選備儒官，弘振國學。主者考詳舊典，以時施行。」"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p42",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "e3aeb7fc5fd8191594a6356c3a7c75e8f0d810dc8842ba95f8471618ef19d389",
+        "excerpt": "平關中，得姚興從女，有盛寵，以之廢事。謝晦諫，即時遣出。"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p40",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "083fd9fc8d5379dd380db5ffed20afa04e7e947d5efa270a6b3d78b485bc877b",
+        "excerpt": "五月，上疾甚，召太子誡之曰：「檀道濟雖有幹略，而無遠志，非如兄韶有難御之氣也。徐羨之、傅亮當無異圖。謝晦數從征伐，頗識機變，若有同異，必此人也。小卻，可以會稽、江州處之。」又為手詔曰：「朝廷不須復有別府，宰相帶揚州，可置甲士千人。若大臣中任要，宜有爪牙以備不祥人者，可以臺見隊給之。有征討悉配以臺見軍隊，行還復舊。後世若有幼主，朝事一委宰相，母后不煩臨朝。仗既不許入臺殿門，要重人可詳給班劍。」癸亥，上崩于西殿，時年六十。[14]"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-hanyanzhi-service",
+    "from": "liu-yu-song",
+    "to": "han-yanzhi-jin",
+    "kind": "service",
+    "label": "故吏，招降遭拒",
+    "note": "《宋书》称韩延之为刘裕故吏；刘裕致书招降，韩延之拒绝。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p30",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "af486d48bde2a566c71e2db8af8928c033c0975e75b9f210f9de772b420b0cb3",
+        "excerpt": "休之府錄事參軍韓延之，故吏也，有幹用才能。公未至江陵，密使與之書曰：「文思事源，遠近所知，去秋遣康之送還司馬君者，[6]推至公之極也。而了不遜愧，又無表疏。文思經正不反，此是天地之不容。吾受命西討，止其父子而已。彼土僑舊，為所驅逼，一無所問。往年郗僧施、謝邵、任集之等，交構積歲，專為劉毅謀主，所以至此。卿等諸人，一時逼迫，本無纖釁。吾處懷期物，自有由來。今在近路，正是諸人歸身之日。若大軍登道，交鋒接刃，蘭艾吾誠不分。故具示意，并示同懷諸人。」延之報曰："
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p31",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "00ede2576ed584c0d2bda8ceccceb206ae4edd23c97d4fa6efa044c94f39e213",
+        "excerpt": "承親率戎馬，遠履西畿，闔境士庶，莫不恇駭。何者？莫知師出之名故也。今辱來疏，始知以譙王前事，良增歎息。司馬平西體國忠貞，欵愛待物，當於古人中求耳。以君公有匡復之勳，家國蒙賴，推德委誠，每事詢仰。譙王往以微事見劾，猶自表遜位；況以大過而當默然邪。但康之前言有所不盡，故重使胡道諮白所懷。道未及反，已奏表廢之，所不盡者命耳。推寄相與之懷，正當如此？有何不可，便興兵戈。自義旗秉權以來，四方方伯，誰敢不先相諮疇，而逕表天子邪。譙王為宰相所責，又表廢之，經正何歸，表使何因，可謂「欲加之罪，其無辭乎」！\n劉裕足下，海內之人，誰不見足下此心，而復欲欺誑國士！天地所不容，在彼不在此矣。來示言「處懷期物，自有由來」。今伐人之君，啗人以利，真可謂「處懷期物，自有由來」者矣。劉藩死於閶闔之內，諸葛斃於左右之手，甘言詫方伯，襲之以輕兵，遂使席上靡款懷之士，閫外無自信諸侯，以是為得算，良可恥也。貴府將佐及朝廷賢德，寄性命以過日，心企太平久矣。吾誠鄙劣，嘗聞道於君子。以平西之至德，寧可無授命之臣乎！未能自投虎口，比迹郗、任之徒明矣。假令天長喪亂，九流渾濁，當與臧洪遊於地下，不復多言。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p32",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "656c93411df02390118d3813eac71384554994f8ece8c92018e06911627529c2",
+        "excerpt": "公視書歎息，以示諸佐曰：「事人當如此。」"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-liuyi-alliance",
+    "from": "liu-yu-song",
+    "to": "liu-yi-jin",
+    "kind": "service",
+    "label": "共同起兵、委以统军",
+    "note": "刘毅曾参与起兵、率西征诸军；刘裕南征时，委刘毅留守。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p10",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "6020d338f59ac0e69926f0ec666a7150888b8ba698a72e4e3060933321b81347",
+        "excerpt": "先是高祖東征盧循，何無忌隨至山陰，勸於會稽舉義。高祖以為玄未據極位，且會稽遙遠，事濟為難，俟其篡逆事著，徐於京口圖之，不憂不剋。至是桓脩還京，高祖託以金創疾動，不堪步從，乃與無忌同船共還，建興復之計。於是與弟道規、沛郡劉毅、平昌孟昶、任城魏詠之、高平檀憑之、琅邪諸葛長民、太原王元德、隴西辛扈興、東莞童厚之，並同義謀。時桓脩弟弘為征虜將軍、青州刺史，鎮廣陵。道規為弘中兵參軍，昶為州主簿。乃令毅潛往就昶，聚徒於江北，謀起兵殺弘。長民為豫州刺史刁逵左軍府參軍，謀據歷陽相應。元德、厚之謀於京邑聚眾攻玄，並剋期齊發。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p24",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "65179e1fa968a9dcb50a6aeb25cd67e654fd65ace4d0170fef2fd966660a8b43",
+        "excerpt": "玄經尋陽，江州刺史郭昶之備乘輿法物資之。玄收略得二千餘人，挾天子走江陵。冠軍將軍劉毅、輔國將軍何無忌、振武將軍劉道規率諸軍追討。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p66",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "1591b4eba95a0f5ccad3fe0cef7c3d86a697a2b173ca6b55ef219791a6ff6efc",
+        "excerpt": "初循之走也，公知其必寇江陵，登遣淮陵內史索邈領馬軍步道援荊州。又遣建威將軍孫季高率眾三千，自海道襲番禺。江州刺史庾悅至五畝嶠，賊遣千餘人據斷嶠道，悅前驅鄱陽太守虞丘進攻破之。公治兵大辦。十月，率兗州刺史劉藩、寧朔將軍檀韶等舟師南伐。以後將軍劉毅監太尉留守府，後事皆委焉。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-liuyi-conflict",
+    "from": "liu-yu-song",
+    "to": "liu-yi-jin",
+    "kind": "conflict",
+    "label": "西征刘毅",
+    "note": "刘裕亲率军西征，先派王镇恶等袭江陵，刘毅败亡。此前共事与后来的冲突分别保留。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p9",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "5d0675a6b5d664b504118f66888b7165b1919a08e99b96bc4dc37c462a47dfa9",
+        "excerpt": "八年四月，改授豫州刺史，以後將軍、豫州刺史劉毅代之。毅與公俱舉大義，興復晉室，自謂京城、廣陵，功業足以相抗。雖權事推公，而心不服也。毅既有雄才大志，厚自矜許，朝士素望者多歸之。與尚書僕射謝混、丹陽尹郗僧施並深相結。及西鎮江陵，豫州舊府，多割以自隨，請僧施為南蠻校尉。既知毅不能居下，終為異端，密圖之。毅至西，稱疾篤，表求從弟兗州刺史藩以為副貳，偽許焉。九月，藩入朝，公命收藩及謝混，並於獄賜死。自表討毅。又假黃鉞，率諸軍西征。以前鎮軍將軍司馬休之為平西將軍、荊州刺史，兗州刺史道憐鎮丹徒，豫州刺史諸葛長民監太尉留府事，加太尉司馬、丹陽尹劉穆之建威將軍，配以實力。壬午，發自京師。遣參軍王鎮惡、龍驤將軍蒯恩前襲江陵。十月，鎮惡剋江陵，毅及黨與皆伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-changmin-conflict",
+    "from": "liu-yu-song",
+    "to": "zhuge-changmin-jin",
+    "kind": "conflict",
+    "label": "设谋杀诸葛长民",
+    "note": "《宋书》《南史》相同情节作长民、长人；具体杀害的执行者是丁旿。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p14",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "730aa95f9cea8e80e7c3a65b50d7d8a3ac0546a153a407b32f0a88108cc54912",
+        "excerpt": "九年二月乙丑，公至自江陵。初諸葛長民貪淫驕橫，為士民所患苦，公以其同大義，優容之。劉毅既誅，長民謂所親曰：「昔年醢彭越，今年誅韓信，禍其至矣。」將謀作亂。公克期至京邑，而每淹留不進。公卿以下頻日奉候於新亭，長民亦驟出。既而公輕舟密至，已還東府矣。長民到門。引前，卻人閑語，凡平生於長民所不盡者，皆與及之。長民甚說。已密命左右壯士丁旿等自幔後出，於坐拉焉。長民墜牀，又於地毆之，死於牀側。輿尸付廷尉。并誅其弟黎民。旿驍勇有氣力，時人為之語曰：「勿跋扈，付丁旿。」"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p50",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "0dc3df3ac770425f7afd0fac7644a93e61e440afa44a61a6fca8619c1800ad9a",
+        "excerpt": "九年二月乙丑，帝至自江陵。初，諸葛長人貪淫驕橫，帝每優容之。劉毅既誅，長人謂所親曰：「昔年醢彭越，今年殺韓信，禍其至矣。」將謀作亂。帝克期至都，而每淹留不進。公卿以下，頻日奉候於新亭，長人亦驟出。既而帝輕舟密至，已還東府矣。長人到門，引前，卻人閑語，凡平生言所不盡者，皆與及之，長人甚悅。帝已密命左右丁旿自幔後出，於坐拉焉，死於床側。輿屍付廷尉，並誅其弟黎人。旿驍勇有力，時人語曰，「勿跋扈，付丁旿」。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-xiuzhi-conflict",
+    "from": "liu-yu-song",
+    "to": "sima-xiuzhi-jin",
+    "kind": "conflict",
+    "label": "荆州争战",
+    "note": "刘裕率军与司马休之争战；双方的奏书、檄文各有立场，指控分别保存。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p26",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "28bb027c4c2db5f54a222a1f55100c97e9a1b851f24a7ba9c8652374cbb0fa68",
+        "excerpt": "十一年正月，公收休之子文寶、兄子文祖，並於獄賜死，率眾軍西討。復加黃鉞，[4]領荊州刺史。辛巳，發京師，以中軍將軍道憐監留府事。休之上表自陳曰："
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p27",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "9ae59135a1e7c92b4538ddbfb07b8e2180079886a61261cdeb1486cbdd8717a9",
+        "excerpt": "臣聞運不常一，治亂代有，陽九既謝，圮終則泰。昔篡臣肆逆，皇綱絕紐，卜世未改，[5]鼎祚再隆。太尉臣裕威武明斷，道建義旗，除蕩元凶，皇居反正。布衣匹夫，匡復社稷，南剿盧循，北定廣固，千載以來，功無與等。由是四海歸美，朝野推崇。既位窮台牧，權傾人主，不能以道處功，恃寵驕溢。自以酬賞既極，便情在無上，刑戮逆濫，政用暴苛。問鼎之迹日彰，人臣之禮頓缺。陛下四時膳御，觸事縣空，宮省供奉，十不一在。皇后寢疾之際，湯藥不周，手與家書，多所求告。皆是朝士共所聞見，莫不傷懷憤歎，口不敢言。前揚州刺史元顯第五息法興，桓玄之釁，逃遠於外，王路既開，始得歸本。太傅之胤，絕而復興，凡在有懷，誰不感慶。裕吞噬之心，不避輕重，以法興聰敏明慧，必為民望所歸，芳蘭既茂，內懷憎惡，乃妄扇異言，無罪即戮。大司馬臣德文及王妃公主，情計切逼，並狼狽請命。逆肆禍毒，誓不矜許，寃酷之痛，感動行路。自以地卑位重，荷恩崇大，乃以庶孽與德文嫡婚，致茲非偶，實由威逼。故衞將軍劉毅、右將軍劉藩、前將軍諸葛長民、尚書僕射謝混、南蠻校尉郗僧施，或盛勳德胤，令望在身，皆社稷輔弼，協讚所寄，無罪無辜，一旦夷滅。猜忍之性，終古所希。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p33",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "5a812a66ac19e0640025659b837e37cf56d1b1acf7862f432553b5d5fdc2c68a",
+        "excerpt": "三月，軍次江陵。初雍州刺史魯宗之常慮不為公所容，與休之相結，至是率其子竟陵太守軌會于江陵。江夏太守劉虔之邀之，軍敗見殺。公命彭城內史徐逵之、參軍王允之出江夏口，復為軌所敗，並沒。時公軍泊馬頭，即日率眾軍濟江，躬督諸將登岸，莫不奮踊爭先。休之眾潰，與軌等奔襄陽，江陵平。加領南蠻校尉。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-huanxuan-conflict",
+    "from": "liu-yu-song",
+    "to": "huan-xuan-jin",
+    "kind": "conflict",
+    "label": "起兵讨桓玄",
+    "note": "刘裕起兵击败桓玄势力；原文记斩杀桓玄的人是冯迁。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p10",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "6020d338f59ac0e69926f0ec666a7150888b8ba698a72e4e3060933321b81347",
+        "excerpt": "先是高祖東征盧循，何無忌隨至山陰，勸於會稽舉義。高祖以為玄未據極位，且會稽遙遠，事濟為難，俟其篡逆事著，徐於京口圖之，不憂不剋。至是桓脩還京，高祖託以金創疾動，不堪步從，乃與無忌同船共還，建興復之計。於是與弟道規、沛郡劉毅、平昌孟昶、任城魏詠之、高平檀憑之、琅邪諸葛長民、太原王元德、隴西辛扈興、東莞童厚之，並同義謀。時桓脩弟弘為征虜將軍、青州刺史，鎮廣陵。道規為弘中兵參軍，昶為州主簿。乃令毅潛往就昶，聚徒於江北，謀起兵殺弘。長民為豫州刺史刁逵左軍府參軍，謀據歷陽相應。元德、厚之謀於京邑聚眾攻玄，並剋期齊發。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p20",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "9bea502388aa47d29202d3c021cf592c284d5315163fef423135fa932af2b41a",
+        "excerpt": "玄聞敷等並沒，愈懼。使桓謙屯東陵口，卞範之屯覆舟山西，眾合二萬。己未旦，義軍食畢，棄其餘糧，進至覆舟山東，使丐士張旗幟於山上，以為疑兵。玄又遣武騎將軍庾禕之，[8]配以精卒利器，助謙等。高祖躬先士卒以奔之，將士皆殊死戰，無不一當百，呼聲動天地。時東北風急，因命縱火，煙爓張天，鼓噪之音震京邑。謙等諸軍，一時土崩。玄始雖遣軍置陣，而走意已決，別使領軍將軍殷仲文具舟於石頭，仍將子姪浮江南走。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p28",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "570e29c503c0e43ad78d6b919c637072949c34a209aa429b11b9a7677e624f2e",
+        "excerpt": "桓玄兄子歆，[14]聚眾向歷陽，高祖命輔國將軍諸葛長民擊走之。無忌、道規破玄大將郭銓等于桑落洲，[15]眾軍進據尋陽。加高祖都督江州諸軍事。玄既還荊郢，大聚兵眾，召水軍造樓船、器械，率眾二萬，挾天子發江陵，浮江東下，與冠軍將軍劉毅等相遇於崢嶸洲，眾軍下擊，大破之。[16]玄棄眾，復挾天子還復江陵。玄黨殷仲文奉晉二皇后還京師。玄至江陵，因西走。南郡太守王騰之、荊州別駕王康產奉天子入南郡府。初征虜將軍、益州刺史毛璩，遣從孫祐之與參軍費恬送弟喪下，有眾二百。璩弟子脩之時為玄屯騎校尉，[17]誘玄以入蜀。至枚回洲，恬與祐之迎射之。益州督護馮遷斬玄首，傳京師。又斬玄子昇於江陵市。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-sunen-conflict",
+    "from": "liu-yu-song",
+    "to": "sun-en-jin",
+    "kind": "conflict",
+    "label": "从军讨孙恩",
+    "note": "刘裕早期多次与孙恩军交战，各年战事分别记载。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p3",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "db72f9348bf0988fa4d7fc0922249b2cc6397a879aece7938b72b7ef073b8e85",
+        "excerpt": "初為冠軍孫無終司馬。安帝隆安三年十一月，妖賊孫恩作亂於會稽，晉朝衞將軍謝琰、前將軍劉牢之東討。牢之請高祖參府軍事。十二月，牢之至吳，而賊緣道屯結，牢之命高祖與數十人覘賊遠近。會遇賊至，眾數千人，高祖便進與戰。所將人多死，而戰意方厲，手奮長刀，所殺傷甚眾。牢之子敬宣疑高祖淹久，恐為賊所困，乃輕騎尋之。既而眾騎並至，賊乃奔退，斬獲千餘人，推鋒而進，平山陰，恩遁還入海。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p5",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "3822b661b83a86fa0d99a5d8a2e7e5af807fb859c73edd825f87194ed0e79105",
+        "excerpt": "五年春，孫恩頻攻句章，高祖屢摧破之，恩復走入海。三月，恩北出海鹽，高祖追而翼之，築城于海鹽故治。賊日來攻城，城內兵力甚弱，高祖乃選敢死之士數百人，咸脫甲冑，執短兵，並鼓噪而出，賊震懼奪氣，因其懼而奔之，並棄甲散走，斬其大帥姚盛。雖連戰剋勝，然眾寡不敵，高祖獨深慮之。一夜，偃旗匿眾，若已遁者。明晨開門，使羸疾數人登城。賊遙問劉裕所在。曰：「夜已走矣。」賊信之，乃率眾大上。高祖乘其懈怠，奮擊，大破之。恩知城不可下，乃進向滬瀆。高祖復棄城追之。海鹽令鮑陋遣子嗣之以吳兵一千，請為前驅。高祖曰：「賊兵甚精，吳人不習戰，若前驅失利，必敗我軍。可在後為聲援。」不從。是夜，高祖多設伏兵，兼置旗鼓，然一處不過數人。明日，賊率眾萬餘迎戰。前驅既交，諸伏皆出，舉旗鳴鼓。賊謂四面有軍，乃退。嗣之追奔，為賊所沒。高祖且戰且退，賊盛，所領死傷且盡。高祖慮不免，至向伏兵處，乃止，令左右脫取死人衣。賊謂當走反停，疑猶有伏。高祖因呼更戰，氣色甚猛，賊眾以為然，乃引軍去。高祖徐歸，然後散兵稍集。五月，孫恩破滬瀆，殺吳國內史袁山松，死者四千人。是月，高祖復破賊於婁縣。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p6",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "a406c5c62692d7a7fe2deb116202edc52e72257c655f8c380325db6a62492a53",
+        "excerpt": "六月，恩乘勝浮海，奄至丹徒，戰士十餘萬。劉牢之猶屯山陰，京邑震動。高祖倍道兼行，與賊俱至。于時眾力既寡，加以步遠疲勞，而丹徒守軍莫有鬭志。恩率眾數萬，鼓噪登蒜山，居民皆荷擔而立。高祖率所領奔擊，大破之，投巘赴水死者甚眾。恩以彭排〈音敗〉自載，[2]僅得還船。雖被摧破，猶恃其眾力，徑向京師。樓船高大，值風不得進，旬日乃至白石。尋知劉牢之已還，朝廷有備，遂走向鬱洲。八月，以高祖為建武將軍、下邳太守，領水軍追討至鬱洲，[3]復大破恩。恩南走。十一月，高祖追恩於滬瀆，及海鹽，又破之。三戰並大獲，俘馘以萬數。恩自是饑饉疾疫，死者太半，自浹口奔臨海。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-lucir-conflict",
+    "from": "liu-yu-song",
+    "to": "lu-xun-jin",
+    "kind": "conflict",
+    "label": "东征、守建康与追击",
+    "note": "刘裕先后东征、守建康与南下追击，部将另由海道袭击广州。卢循最终被杜慧度斩杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p8",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "b674fe05f61fd512b9baa5d857ae118cf0c3486a6b57816414dc7c9104c387e7",
+        "excerpt": "孫恩自奔敗之後，徒旅漸散，懼生見獲，乃於臨海投水死。餘眾推恩妹夫盧循為主。桓玄欲且緝寧東土，以循為永嘉太守。循雖受命，而寇暴不已。五月，玄復遣高祖東征。時循自臨海入東陽。二年正月，玄復遣高祖破循於東陽。循奔永嘉，復追破之，斬其大帥張士道，追討至于晉安，循浮海南走。六月，加高祖彭城內史。"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p61",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "f2e98ec3a9ed63b4a7def1376215f9ff1582d5f8f6b4320f1dead093c9f7ea15",
+        "excerpt": "於是大開賞募，投身赴義者，一同登京城之科。發居民治石頭城，建牙戒嚴。時議者謂宜分兵守諸津要。公以為：「賊眾我寡，若分兵屯，則人測虛實。且一處失利，則沮三軍之心。今聚眾石頭，隨宜應赴，既令賊無以測多少，又於眾力不分。若徒旅轉集，徐更論之耳。」移屯石頭，乃柵淮斷查浦。既而羣賊大至，公策之曰：「賊若於新亭直進，其鋒不可當，宜且回避，勝負之事，未可量也。若回泊西岸，此成擒耳。」"
+      },
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p70",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "40ba5ef865b7af9237f5cdb753a91322e630736fc89fc49d3cc0bf70a6d7d036",
+        "excerpt": "循方治兵旅舟艦，設諸攻備。公欲御以長算，乃屯軍雷池。賊揚聲不攻雷池，當乘流逕下。公知其欲戰，且慮賊戰敗，或於京江入海，遣王仲德以水艦二百於吉陽下斷之。十二月，循、道覆率眾數萬，方艦而下，前後相抗，莫見舳艫之際。公悉出輕利鬭艦，躬提幡鼓，命眾軍齊力擊之。又上步騎於西岸。右軍參軍庾樂生乘艦不進，斬而徇之。於是眾軍並踊騰爭先。軍中多萬鈞神弩，所至莫不摧陷。公中流蹙之，因風水之勢，賊艦悉泊西岸。岸上軍先備火具，[29]乃投火焚之，煙爓張天，賊眾大敗，追奔至夜乃歸。循等還尋陽。初分遣步軍，莫不疑怪，及燒賊艦，眾乃悅服。召王仲德，請還為前驅。留輔國將軍孟懷玉守雷池。循聞大軍上，欲走向豫章，乃悉力柵斷左里。大軍至左里，將戰，公所執麾竿折，折幡沈水，眾並怪懼。公歡笑曰：「往年覆舟之戰，幡竿亦折，今者復然，賊必破矣。」即攻柵而進。遁兵雖殊死戰，弗能禁。諸軍乘勝奔之，循單舸走。所殺及投水死，凡萬餘人。納其降附，宥其逼略。遣劉藩、孟懷玉輕軍追之。循收散卒，尚有數千人，逕還廣州。道覆還保始興。公旋自左里。天子遣侍中、黃門勞師于行所。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p6",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "a5a65f8db0da92a9a854b4ad40d0edd20fafd259dca60d1ba70dcbe336e770be",
+        "excerpt": "交州刺史杜慧度斬盧循，傳首京師。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-murongchao-conflict",
+    "from": "liu-yu-song",
+    "to": "murong-chao-yan",
+    "kind": "conflict",
+    "label": "攻灭南燕，送俘处死",
+    "note": "刘裕军攻克广固后，慕容超被追获，送建康处死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v001",
+        "paragraphId": "songshu-v001-p55",
+        "title": "卷 1 · 武帝上",
+        "originalRevision": 1,
+        "originalSha256": "de2fac314c7382cda4e62dec0253169f3b08af8f53090b5a717655fd100691f3",
+        "excerpt": "六年二月丁亥，屠廣固。超踰城走，征虜賊曹喬胥獲之，殺其王公以下，[24]納口萬餘，馬二千疋，送超京師，斬于建康市。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p37",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "e62d0ae91d9c97f3bcccb9df1aa75cab13279ad16bf8cbd907485e03c07d028a",
+        "excerpt": "十月，張綱修攻具成，設飛樓縣梯，木幔板屋，冠以牛皮，弓矢無所用之。劉毅遣上党太守趙恢以千餘人來援，帝夜潛遣軍會之。明旦，恢眾五千，方道而進，每晉使將到，輒復如之。六年二月丁亥，屠廣固，超踰城走，追獲之，斬于建康市。殺其王公以下，納生口萬餘，馬二千匹。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-yaohong-conflict",
+    "from": "liu-yu-song",
+    "to": "yao-hong-qin",
+    "kind": "conflict",
+    "label": "北伐后秦，送姚泓处死",
+    "note": "王镇恶先攻克长安，刘裕后来到达，将姚泓送建康处死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p55",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "73a7fcb4bdc9c4373adc22fcb0daa69f8a2102b94406cd97364378b6c460370b",
+        "excerpt": "二月，冠軍將軍檀道濟等次潼關。三月庚辰，大軍入河。索虜步騎十萬，營據河津。公命諸軍濟河擊破之。公至洛陽。七月，至陝城。龍驤將軍王鎮惡伐木為舟，自河浮渭。八月，扶風太守沈田子大破姚泓於藍田。王鎮惡剋長安，生擒泓。九月，公至長安。長安豐全，帑藏盈積。公先收其彝器、渾儀、土圭之屬，獻于京師；其餘珍寶珠玉，以班賜將帥。執送姚泓，斬于建康市。謁漢高帝陵，大會文武於未央殿。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p65",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "efe77e3a96e860af3c624946b266a11964a09a5abca1e54ba4bddc32593bb54f",
+        "excerpt": "十三年正月，帝以舟師進討，留彭城公義隆鎮彭城。軍次陳留城，經張良廟，下令以時修飾棟宇致薦焉。晉帝追贈帝祖為太常，父為特進、左光祿大夫，讓不受。二月，冠軍將軍檀道濟等軍次潼關。三月庚辰，帝率大軍入河。五月，帝至洛陽，謁晉五陵。七月，至陝，龍驤將軍王鎮惡舟師自河浮渭。八月，扶風太守沈田子大破姚泓軍于藍田，王鎮惡克長安，禽姚泓。始義熙九年，歲、鎮、熒惑、太白聚東井，至是而關中平。九月，帝至長安。長安豐稔，帑藏盈積，帝先收其彝器、渾儀、土圭、記裏鼓、指南車及秦始皇玉璽送之都；其餘珍寶珠玉，悉以班賜將帥。遷姚宗於江南，送泓斬于建康市。謁漢長陵，大會文武於未央殿。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-jin-handover",
+    "from": "sima-dewen-jin",
+    "to": "liu-yu-song",
+    "kind": "succession",
+    "label": "晋禅宋与封零陵王",
+    "note": "晋恭帝禅位，刘裕受禅后封其为零陵王；继统方向为晋恭帝至刘裕。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p70",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "e2439e9f134cc1bce2cc3755a8098321fe3f3fc0ac7b544782a683ea22494016",
+        "excerpt": "二年四月，徵王入輔。六月，至京師。晉帝禪位于王，詔曰："
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p72",
+        "title": "卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "e409119cb0c2744ade8c6280740296c5b4d21a6004734c23b9b12cc112f70603",
+        "excerpt": "昔火德既微，魏祖底績，黃運不競，三后肆勤。故天之曆數，實有攸在。朕雖庸闇，昧於大道，永鑒廢興，為日已久。念四代之高義，稽天人之至望，予其遜位別宮，歸禪于宋，一依唐虞、漢魏故事。\n詔草既成，送呈天子使書之，天子即便操筆，謂左右曰：「桓玄之時，天命已改，重為劉公所延，將二十載。今日之事，本所甘心。」甲子，策曰："
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p6",
+        "title": "卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "5bfc265cc80925ecd34cda08eb26359552ccccce6effaf0c8d0f794ed15eaab2",
+        "excerpt": "封晉帝為零陵王，全食一郡。載天子旍旗，乘五時副車，行晉正朔，郊祀天地禮樂制度，皆用晉典。上書不為表，答表勿稱詔。追尊皇考為孝穆皇帝，皇妣為穆皇后，尊王太后為皇太后。詔曰：「夫微禹之感，歎深後昆，盛德必祀，道隆百世。晉氏封爵，咸隨運改，至於德參微管，勳濟蒼生，愛人懷樹，猶或勿翦，雖在異代，義無泯絕。降殺之宜，一依前典。可降始興公封始興縣公，廬陵公封柴桑縣公，各千戶；始安公封荔浦縣侯，長沙公封醴陵縣侯，康樂公可即封縣侯，各五百戶：以奉晉故丞相王導、太傅謝安、大將軍溫嶠、大司馬陶侃、車騎將軍謝玄之祀。其宣力義熙，豫同艱難者，一仍本秩，無所減降。」封晉臨川王司馬寶為西豐縣侯，食邑千戶。"
+      },
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p85",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "5150281f6d1bda3888ba41483cf11792b117da15ef9ee5aafaf18d7395202edd",
+        "excerpt": "十一月辛亥，葬晉恭皇帝于沖平陵，車駕率百官瞻送。三年春正月甲辰朔，詔刑罰無輕重悉原之。癸丑，以尚書令揚州刺史徐羨之為司空、錄尚書事，刺史如故。進江州刺史王弘衛將軍、開府儀同三司。以太子詹事傅亮為尚書僕射。二月丙戌，有星孛于虛、危。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-yifu-succession",
+    "from": "liu-yu-song",
+    "to": "liu-yifu-song",
+    "kind": "succession",
+    "label": "帝位父子相继",
+    "note": "刘裕去世当日，刘义符即皇帝位。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p92",
+        "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "94e4e59ea094891417d2ab5936b567c9a1277c29e3dd36568bde13d81989d118",
+        "excerpt": "永初三年五月癸亥，武帝崩，是日太子即皇帝位，大赦，制服三年，尊皇太后曰太皇太后。"
+      }
+    ]
+  }
+]

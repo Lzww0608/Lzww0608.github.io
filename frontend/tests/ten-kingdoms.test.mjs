@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { people, events, displayedDynasties, fiveDynasties, tenKingdomDynasties, filterSearch } from '../src/data.ts';
+import { people, events, fiveDynasties, tenKingdomDynasties, filterSearch } from '../src/data.ts';
+import { historyEra } from '../src/eras.ts';
 import { tenKingdomRulers, reigningEmperors, peopleForGroup, personMatchesGroup, personTopicRelationships } from '../src/person-catalog.ts';
 import { chapterRoute, preferredChapterForPerson, resolveReadingRoute, personSourcesRoute, resolvePersonSourcesRoute, personPassageBooks } from '../src/library.ts';
 import { buildRelationshipNodes, searchRelationshipNodes } from '../src/relationships.ts';
@@ -13,7 +14,7 @@ test('the Ten Kingdoms collection includes actual reigning rulers of all ten sta
   assert.equal(rulerCatalog.scope, 'ten-kingdoms-rulers');
   assert.equal(tenKingdomRulers.length, 43);
   assert.equal(new Set(tenKingdomRulers.map(person => person.id)).size, 43);
-  assert.deepEqual(displayedDynasties, [...fiveDynasties, ...tenKingdomDynasties]);
+  assert.deepEqual(historyEra('five-dynasties').dynasties, [...fiveDynasties, ...tenKingdomDynasties]);
   const counts = new Map([['吴', 4], ['南唐', 3], ['吴越', 5], ['前蜀', 2], ['后蜀', 2], ['南汉', 4], ['楚', 6], ['闽', 8], ['南平', 5], ['北汉', 4]]);
   assert.deepEqual(new Set(tenKingdomRulers.map(person => person.dynasty)), new Set(counts.keys()));
   for (const [dynasty, count] of counts) assert.equal(tenKingdomRulers.filter(person => person.dynasty === dynasty).length, count, dynasty);

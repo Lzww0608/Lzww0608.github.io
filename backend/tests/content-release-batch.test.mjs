@@ -76,6 +76,10 @@ test('runner has no implicit write command and binds every importer/security inp
   assert.ok(Object.keys(implementation.files).length >= 44);
   assert.match(implementation.files['db/008-owner-review-subjects.sql'], /^[a-f0-9]{64}$/);
   assert.match(implementation.files['../content/five-dynasties/palace-people.json'], /^[a-f0-9]{64}$/);
+  assert.match(implementation.files['../content/southern-northern/emperors.json'], /^[a-f0-9]{64}$/);
+  assert.match(implementation.files['../scripts/index-person-passages.mjs'], /^[a-f0-9]{64}$/);
+  assert.match(implementation.files['../content/person-passages/rules.json'], /^[a-f0-9]{64}$/);
+  assert.match(implementation.files['../content/person-passages/chronology-subjects.json'], /^[a-f0-9]{64}$/);
   assert.match(implementation.files['../content/person-relationships/palace-context.json'], /^[a-f0-9]{64}$/);
   assert.match(implementation.files['../content/military-people.mjs'], /^[a-f0-9]{64}$/);
   await assert.rejects(publishContentRelease({}, freezeContentRelease(releaseFixture()), { expectedDatabase: 'ancient_history', allowFormal: true }), /actual isolated verification/);

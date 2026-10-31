@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { loadLibrary } from '../../content/library.mjs';
 import { catalogPeople } from '../src/person-catalog.ts';
+import { simplifyOriginal } from '../src/script-converter.ts';
 import {
   relationshipNodes, personRelationships, relationshipKindLabels,
   relationshipsForPerson, relationshipNeighborhood,
@@ -41,8 +42,9 @@ test('every relationship cites a real archived paragraph with an unchanged, exac
       assert.ok(chapter, `${edge.id}: ${source.chapterId}`);
       const paragraph = chapter.paragraphs.find(item => item.id === source.paragraphId);
       assert.ok(paragraph, `${edge.id}: ${source.paragraphId}`);
-      // Both 《南唐书（陆游）》 and 《南唐书》（陆游） identify this edition.
-      assert.ok(source.title.replace(/[《》]/gu, '').includes(chapter.bookTitle), `${edge.id}: source title`);
+      // A source can use its exact catalog chapter title or include the book name.
+      const sourceTitle = simplifyOriginal(source.title.replace(/[《》]/gu, ''));
+      assert.ok(sourceTitle.includes(simplifyOriginal(chapter.bookTitle)) || sourceTitle === simplifyOriginal(chapter.title), `${edge.id}: source title`);
       assert.ok(source.excerpt.trim(), `${edge.id}: quotation`);
       assert.ok(paragraph.original.includes(source.excerpt), `${edge.id}: exact archived quotation`);
     }
@@ -154,7 +156,7 @@ test('Shi Junli keeps his documented commanders without an inferred direct Li Ke
 
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
-  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉'].includes(edge.label), edge.id);
+  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继'].includes(edge.label), edge.id);
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
     ['li-cunxu', 'li-siyuan'], ['li-siyuan', 'li-conghou'], ['li-conghou', 'li-congke'],
@@ -354,7 +356,7 @@ function graphText(value) {
   if (value === null || value === undefined || typeof value === 'boolean') return '';
   return typeof value === 'object' ? graphText(value.props?.children) : String(value);
 }
-function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true, sourceRole = sourceRoleFixture, sourceEdge = sourceRoleEdge } = {}) {
+function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true, sourceRole = sourceRoleFixture, sourceEdge = sourceRoleEdge, people = catalogPeople, eraId } = {}) {
   const state = [], opened = [], selected = [], sources = [];
   const baseNodes = relationshipNodes.filter(node => node.identityKind !== 'source-role');
   const baseIds = new Set(baseNodes.map(node => node.id));
@@ -374,11 +376,18 @@ function sourceRoleGraph({ selectedPersonId, query = '', includeRole = true, sou
   };
   const module = { exports: {} }, nativeRequire = createRequire(import.meta.url);
   vm.runInNewContext(compiledGraph.code, { module, exports: module.exports, require: name => modules[name] ?? nativeRequire(name) });
-  const render = () => { cursor = 0; return graphElements(module.exports.PeopleRelationshipGraph({ people: catalogPeople,
+  const render = () => { cursor = 0; return graphElements(module.exports.PeopleRelationshipGraph({ people, eraId,
     selectedPersonId, onSelectPerson: id => selected.push(id), onOpenPerson: person => opened.push(person.id),
     onReadSource: (...args) => sources.push(args) })); };
   return { render, opened, selected, sources, exports: module.exports };
 }
+
+test('the actual graph does not offer Five Dynasties context nodes in an empty Southern collection', () => {
+  const graph = sourceRoleGraph({ query: '刘', people: [], eraId: 'southern-northern' });
+  const elements = graph.render();
+  assert.equal(elements.some(element => element.props?.className === 'relationship-search-result'), false);
+  assert.equal(elements.some(element => element.props?.className === 'relationship-figure'), false);
+});
 
 test('real graph search counts mixed role results as entries and selection never opens a role biography', () => {
   const graph = sourceRoleGraph({ query: '刘' }), elements = graph.render();

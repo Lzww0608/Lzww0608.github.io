@@ -98,6 +98,45 @@ function maskOtherNames(text, rule) {
   return { masked, hasOtherName };
 }
 
+// Automatic name/title matching must not grow with the archive. In particular,
+// an added early Tongjian chapter is not covered merely because later volumes
+// of the same book were already reviewed. Exact, version-bound attributions and
+// explicitly delimited sections below remain independent evidence paths.
+function compileAutomaticSourceScopes(rules, library) {
+  const registry = rules.sourceScopes;
+  requireValue(registry && typeof registry === 'object' && !Array.isArray(registry)
+    && Object.keys(registry).length > 0, 'source scope registry');
+  const bookIds = new Set(library.catalog.books.map(book => book.id));
+  const chapterIds = new Set(library.chapters.map(chapter => chapter.id));
+  const compile = (scope, label) => {
+    requireValue(scope && typeof scope === 'object' && !Array.isArray(scope)
+      && Object.keys(scope).length > 0
+      && Object.keys(scope).every(key => ['bookIds', 'chapterIds'].includes(key)), `source scope ${label}`);
+    for (const [key, known] of [['bookIds', bookIds], ['chapterIds', chapterIds]]) {
+      if (scope[key] === undefined) continue;
+      requireValue(Array.isArray(scope[key]) && scope[key].every(id => typeof id === 'string' && known.has(id))
+        && new Set(scope[key]).size === scope[key].length, `source scope ${label}/${key}`);
+    }
+    // Empty selector arrays intentionally disable automatic matching for a
+    // person whose records are all represented by precise source references.
+    return { bookIds: new Set(scope.bookIds ?? []), chapterIds: new Set(scope.chapterIds ?? []) };
+  };
+  const registered = new Map(Object.entries(registry).map(([name, scope]) => {
+    requireValue(/^[a-z][a-z0-9-]*$/u.test(name), `source scope name ${name}`);
+    return [name, compile(scope, name)];
+  }));
+  requireValue(typeof rules.defaultSourceScope === 'string'
+    && registered.has(rules.defaultSourceScope), 'default source scope');
+  return new Map(rules.people.map(rule => {
+    const reference = rule.sourceScope === undefined ? rules.defaultSourceScope : rule.sourceScope;
+    if (typeof reference !== 'string') return [rule.personId, compile(reference, rule.personId)];
+    requireValue(registered.has(reference), `source scope reference ${rule.personId}/${reference}`);
+    return [rule.personId, registered.get(reference)];
+  }));
+}
+
+const permitsAutomaticSource = (scope, chapter) => scope.bookIds.has(chapter.bookId) || scope.chapterIds.has(chapter.id);
+
 export function validateChronologySubjects(input, library = loadLibrary()) {
   requireValue(input?.schemaVersion === 1 && Array.isArray(input.entries), 'chronology subject supplements');
   const personIds = new Set(loadPassagePeople().map(person => person.id));
@@ -139,6 +178,7 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
   const people = loadPassagePeople(), personIds = new Set(people.map(person => person.id));
   requireValue(Array.isArray(rules.people) && rules.people.length === people.length
     && new Set(rules.people.map(rule => rule.personId)).size === people.length, 'people coverage');
+  const automaticSources = compileAutomaticSourceScopes(rules, library);
   const chapters = new Map(library.chapters.map(chapter => [chapter.id, chapter]));
   const rulePeople = new Map();
   for (const rule of rules.people) {
@@ -203,6 +243,7 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
       if (!associated.has(personId) || ranks[kind] > ranks[associated.get(personId)]) associated.set(personId, kind);
     };
     for (const rule of rules.people) {
+      if (!permitsAutomaticSource(automaticSources.get(rule.personId), chapter)) continue;
       const { masked, hasOtherName } = maskOtherNames(paragraph.original, rule);
       // A checked paragraph may refer to a different person with the same name.
       const excludedTerms = exclusions.get(`${paragraph.id}/${rule.personId}`) ?? [];
@@ -222,7 +263,9 @@ export function buildPersonPassageIndex(library = loadLibrary(), suppliedRules) 
       add(range.personId, range.type === 'chronology' ? directKind : range.kind);
       if (range.kind === 'biography') label = range.label;
     }
-    for (const personId of inferRegnalEdictPeople(paragraph.original, chapter.bookId, edicts)) add(personId, 'record');
+    for (const personId of inferRegnalEdictPeople(paragraph.original, chapter.bookId, edicts)) {
+      if (permitsAutomaticSource(automaticSources.get(personId), chapter)) add(personId, 'record');
+    }
     for (const entry of supplementedParagraphs.get(paragraph.id) ?? []) add(entry.personId, entry.kind);
     if (associated.size === 0) continue;
     passages.push({ id: `passage-${paragraph.id}`, chapterId: chapter.id,

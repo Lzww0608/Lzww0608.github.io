@@ -5,6 +5,7 @@ import { validateSearchQuery } from '../../content/passage-search.mts';
 import { ownerReviewRoute, resolveOwnerReviewRoute } from './owner-review-route.ts';
 import { personTimelineRoute, resolvePersonTimelineRoute } from './person-timeline-route.ts';
 import { eventComparisonRoute, resolveEventComparisonRoute } from './event-comparison-route.ts';
+import { resolvePeopleEra } from './eras.ts';
 import type { Book, BookId, ChapterSummary, HistoryPerson, LibraryCatalog, PersonPassageSummary, Route, SearchField } from './types.ts';
 
 export interface PassageSearchOptions { query: string; field: SearchField }
@@ -91,5 +92,7 @@ export function resolveReadingRoute(route: string): { book: Book; chapter: Chapt
 
 export function resolveRoute(hash: string): Route {
   const route = hash.replace(/^#/, '');
-  return resolveReadingRoute(route) || resolvePersonSourcesRoute(route) || resolveOwnerReviewRoute(route) || resolvePersonTimelineRoute(route) || resolveEventComparisonRoute(route) ? route as Route : 'people';
+  if (route === 'eras' || resolvePeopleEra(route)) return route as Route;
+  if (['overview', 'timeline', 'sources', 'map'].includes(route)) return 'people';
+  return resolveReadingRoute(route) || resolvePersonSourcesRoute(route) || resolveOwnerReviewRoute(route) || resolvePersonTimelineRoute(route) || resolveEventComparisonRoute(route) ? route as Route : 'eras';
 }

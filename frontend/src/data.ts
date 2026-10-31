@@ -1,12 +1,14 @@
 import { libraryBooks } from './library.ts';
 import { catalogPeople, personDisplayPeriod, personMatchesGroup, personTopicKeywords } from './person-catalog.ts';
 import { matchesPersonSearch, personSearchNames } from './person-search-names.ts';
-import type { Dynasty, FiveDynasty, TenKingdomDynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
+import { eraForPerson, historyEras } from './eras.ts';
+import type { Dynasty, EraId, FiveDynasty, TenKingdomDynasty, HistoricalPlace, HistoryEvent, HistoryPerson, SearchFilter, SearchItem } from './types';
 
-// The person index includes the authorized Ten Kingdoms expansion; other eras remain hidden.
+// Every authorized era shares the same canonical directory; each public page
+// selects its own era before displaying people, topics or search results.
 export const fiveDynasties: readonly FiveDynasty[] = ['后梁', '后唐', '后晋', '后汉', '后周'];
 export const tenKingdomDynasties: readonly TenKingdomDynasty[] = ['吴', '南唐', '吴越', '前蜀', '后蜀', '南汉', '楚', '闽', '南平', '北汉'];
-export const displayedDynasties: readonly Dynasty[] = [...fiveDynasties, ...tenKingdomDynasties];
+export const displayedDynasties: readonly Dynasty[] = historyEras.flatMap(era => era.dynasties);
 
 const allEvents: [HistoryEvent, ...HistoryEvent[]] = [
   { id: 'liang', year: 907, end: 923, dynasty: '后梁', title: '后梁建立', person: '朱温', description: '朱温建立后梁，唐朝结束。五代时期由此展开。', context: '从唐末的地方军事势力到新王朝的建立，后梁为理解五代政治的开端提供了入口。', color: '#9b493d' },
@@ -31,6 +33,9 @@ function inDisplayedScope<T extends { dynasty: Dynasty }>(entries: readonly T[])
 // Every view and the search index consume the same scoped data.
 export const events = inDisplayedScope(allEvents);
 export const people = inDisplayedScope(allPeople);
+export function peopleForEra(eraId: EraId): HistoryPerson[] {
+  return people.filter(person => eraForPerson(person) === eraId);
+}
 
 export const books = libraryBooks;
 
@@ -44,7 +49,8 @@ export const searchItems: SearchItem[] = [
   ...people.map((item): SearchItem => ({ ...item, type: 'person', category: '人物', summary: `${personDisplayPeriod(item)} · ${item.role}${item.reign ? ` · 在位 ${item.reign}` : ''}${item.lifespan ? ` · 生卒 ${item.lifespan}` : ''}`, keywords: `${item.dynasty} ${item.dynasty === '南平' ? '荆南' : ''} ${item.aliases} ${personSearchNames(item.id).join(' ')} ${personTopicKeywords(item)} ${personMatchesGroup(item, 'ten-kingdoms-rulers') ? '十国君主' : ''}` })),
 ];
 
-export function filterSearch(query: string, type: SearchFilter = 'all'): SearchItem[] {
+export function filterSearch(query: string, type: SearchFilter = 'all', eraId?: EraId): SearchItem[] {
   return searchItems.filter(item => (type === 'all' || item.type === type)
+    && (!eraId || eraForPerson(item) === eraId)
     && matchesPersonSearch(query, [`${item.name} ${item.summary} ${item.keywords}`]));
 }

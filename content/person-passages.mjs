@@ -7,8 +7,10 @@ const requireValue = (condition, message) => { if (!condition) throw new Error(`
 export const originalSha256 = text => createHash('sha256').update(text, 'utf8').digest('hex');
 
 export function loadPassagePeople() {
-  const catalogs = ['emperors', 'taibao', 'zhu-wen-generals', 'li-keyong-generals', 'ten-kingdoms-rulers', 'historical-leaders', 'southern-tang-officials', 'civil-officials', 'palace-people', 'military-people'].map(file =>
-    JSON.parse(readFileSync(new URL(`./five-dynasties/${file}.json`, import.meta.url), 'utf8')));
+  const paths = ['emperors', 'taibao', 'zhu-wen-generals', 'li-keyong-generals', 'ten-kingdoms-rulers', 'historical-leaders', 'southern-tang-officials', 'civil-officials', 'palace-people', 'military-people']
+    .map(file => `./five-dynasties/${file}.json`);
+  paths.push('./southern-northern/emperors.json');
+  const catalogs = paths.map(path => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8')));
   const people = catalogs.flatMap(catalog => catalog.people).map(({ id, name }) => ({ id, name }));
   requireValue(new Set(people.map(person => person.id)).size === people.length, 'canonical people IDs');
   return people;

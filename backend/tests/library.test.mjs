@@ -12,7 +12,7 @@ test('the archive has verified source hashes, complete emperor and Li Keyong ann
     assert.equal(chapter.paragraphs.length, summary.paragraphCount, chapter.id);
     assert.equal(chapter.paragraphs.reduce((sum, paragraph) => sum + [...paragraph.original].length, 0), summary.characterCount, chapter.id);
   }
-  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi']);
+  assert.deepEqual(catalog.books.map(book => book.id), ['old', 'new', 'tongjian', 'quewen', 'shibu', 'chunqiu', 'huiyao', 'beimeng', 'kaoyi', 'shiguochunqiu', 'nantanglu', 'nantangma', 'nantangjinshi', 'quantangwen', 'jiuguozhi', 'songshu', 'nanshi']);
   const emperors = JSON.parse(readFileSync(new URL('../../content/five-dynasties/emperors.json', import.meta.url), 'utf8')).people;
   assert.equal(emperors.length, 14);
   for (const person of emperors) {

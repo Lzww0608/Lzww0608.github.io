@@ -80,6 +80,8 @@ test('the API catalog loader rejects a duplicate formal identity added through t
     for (const file of ['person-passages.mjs', 'library.mjs']) copyFileSync(new URL(file, contentRoot), join(temporaryRoot, file));
     const catalogsRoot = join(temporaryRoot, 'five-dynasties');
     mkdirSync(catalogsRoot);
+    mkdirSync(join(temporaryRoot, 'southern-northern'));
+    copyFileSync(new URL('southern-northern/emperors.json', contentRoot), join(temporaryRoot, 'southern-northern/emperors.json'));
     for (const file of readdirSync(new URL('five-dynasties/', contentRoot)).filter(file => file.endsWith('.json'))) {
       const catalog = JSON.parse(readFileSync(new URL(`five-dynasties/${file}`, contentRoot), 'utf8'));
       if (Array.isArray(catalog.people)) writeFileSync(join(catalogsRoot, file), JSON.stringify(catalog));

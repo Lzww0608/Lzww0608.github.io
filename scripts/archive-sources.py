@@ -36,6 +36,10 @@ BOOKS = [
     dict(id='quantangwen', title='全唐文', sourceTitle='全唐文', author='徐铉（本卷撰文者）', kind='诗文总集 · 碑铭', image='', description='现收卷 884 全文，含徐铉所撰碑铭；本卷撰文者与总集编纂身份分开，保留正文、铭文、夹注及来源标点，不表示全书已收录。碑文所述褒赠及家世按其文体与来源分别核验。', defaultChapter='quantangwen-v884'),
     dict(id='jiuguozhi', title='九国志', sourceTitle='九國志', author='北宋 · 路振撰', kind='十国史 · 纪传体', image='', description='现收卷 2 的吴国人物列传，完整保留正文、夹注与标点，不表示全书已收录；婚家及人物异说按来源分别理解。', defaultChapter='jiuguozhi-v002'),
 ]
+SOUTHERN_SPECS = json.loads((ROOT.parent / 'southern-northern/source-specs.json').read_text(encoding='utf-8'))
+if SOUTHERN_SPECS.get('schemaVersion') != 1:
+    raise ValueError('Invalid Southern Dynasties source manifest')
+BOOKS.extend(SOUTHERN_SPECS['books'])
 for book in BOOKS:
     book['url'] = 'https://zh.wikisource.org/wiki/' + urllib.parse.quote(book['sourceTitle'])
 
@@ -922,6 +926,10 @@ SPECS.extend(json.loads("[{\"id\":\"shiguochunqiu-v041\",\"bookId\":\"shiguochun
 SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v041\":[\"本页完整收录所选卷保存来源的正文、标题、夹注、史论及诗文；原文字形、标点与块次照存。\",\"古籍原作已属公版；维基文库整理文本按 CC BY-SA 4.0 署名并以相同方式共享。原书疑字、缺文和未定训诂在译文保留边界。\",\"本卷父页修订号2439571与保存的完整渲染字节已固定；所引子页修订未逐一固定。同作品不同版本不作为独立复证，已收卷篇见目录，不表示全书已收录。\"]}"))
 
 def main():
+    # The physical archive keeps its historical path and all existing IDs.
+    # Source-local subjects prevent names in earlier annals from being assigned
+    # to unrelated Five Dynasties people by the legacy whole-book scan.
+    SPECS.extend(SOUTHERN_SPECS['chapters'])
     ROOT.joinpath('sources').mkdir(parents=True, exist_ok=True)
     ROOT.joinpath('chapters').mkdir(exist_ok=True)
     # Two simultaneous reads, with cached responses reused on reruns.
@@ -930,7 +938,7 @@ def main():
     previous_chapters = {chapter['id']: chapter for chapter in previous['chapters']}
     def capture_current(spec): return capture(spec, previous_chapters.get(spec['id']))
     with ThreadPoolExecutor(max_workers=2) as executor: chapters = list(executor.map(capture_current, SPECS))
-    catalog = dict(schemaVersion=1, title='五代十国史料本地文库', license=LICENSE, licenseUrl=LICENSE_URL, books=BOOKS, chapters=chapters)
+    catalog = dict(schemaVersion=1, title='中国古代史料本地文库', license=LICENSE, licenseUrl=LICENSE_URL, books=BOOKS, chapters=chapters)
     ROOT.joinpath('catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2)+'\n')
     print(f"Archived {len(BOOKS)} works, {len(chapters)} chapters, {sum(c['characterCount'] for c in chapters)} characters.", flush=True)
 

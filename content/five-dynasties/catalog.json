@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "五代十国史料本地文库",
+  "title": "中国古代史料本地文库",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "books": [
@@ -168,6 +168,28 @@
       "description": "现收卷 2 的吴国人物列传，完整保留正文、夹注与标点，不表示全书已收录；婚家及人物异说按来源分别理解。",
       "defaultChapter": "jiuguozhi-v002",
       "url": "https://zh.wikisource.org/wiki/九國志"
+    },
+    {
+      "id": "songshu",
+      "title": "宋书",
+      "sourceTitle": "宋書",
+      "author": "南朝梁 · 沈约撰",
+      "kind": "正史 · 纪传体",
+      "image": "",
+      "description": "现收卷1—3武帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "url": "https://zh.wikisource.org/wiki/宋書",
+      "defaultChapter": "songshu-v001"
+    },
+    {
+      "id": "nanshi",
+      "title": "南史",
+      "sourceTitle": "南史",
+      "author": "唐 · 李延寿撰",
+      "kind": "正史 · 纪传体",
+      "image": "",
+      "description": "现收卷1宋本纪上完整文本，包括武帝与少帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "url": "https://zh.wikisource.org/wiki/南史",
+      "defaultChapter": "nanshi-v001"
     }
   ],
   "chapters": [
@@ -7270,7 +7292,8 @@
         "han-liu-zhiyuan-princess-yongning",
         "zhou-guo-wei-princess-lean",
         "zhou-guo-wei-princess-shouan",
-        "zhou-guo-wei-princess-yongning"
+        "zhou-guo-wei-princess-yongning",
+        "liu-yu-song"
       ],
       "scope": "full",
       "paragraphCount": 67,
@@ -10621,7 +10644,8 @@
         "former-shu-wang-jian-xu-shunsheng",
         "ren-huan",
         "gao-jixing",
-        "former-shu-jiechou"
+        "former-shu-jiechou",
+        "liu-yu-song"
       ],
       "sourceLocalSubjectsOnly": true,
       "scope": "full",
@@ -10637,6 +10661,102 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&action=history",
         "sourceSha256": "7e9485e7c14493efecbe93b167d47b0ff5e5f93a634b13b43d4da7b5ecd7cd73",
         "chapterSha256": "7e8ffa24f3aaea928644ffa1066f4d0aa909378596109fd50d548f80d8ea47c9"
+      }
+    },
+    {
+      "id": "songshu-v001",
+      "bookId": "songshu",
+      "volume": 1,
+      "position": 1,
+      "title": "卷 1 · 武帝上",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 100,
+      "characterCount": 13426,
+      "provenance": {
+        "pageTitle": "宋書/卷1",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B71&oldid=11136436",
+        "revisionId": 11136436,
+        "fetchedAt": "2026-10-29T14:06:41.574845+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B71&action=history",
+        "sourceSha256": "498e492742cabeba2a6f4c2aa0c99c93487485d650fc698bac4b5871f0537667",
+        "chapterSha256": "8b6ff25b3020ed8fe3ff44bc34096fbe2602885f8f914c96aa0ec54fe2750cdd"
+      }
+    },
+    {
+      "id": "songshu-v002",
+      "bookId": "songshu",
+      "volume": 2,
+      "position": 2,
+      "title": "卷 2 · 武帝中",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 93,
+      "characterCount": 11890,
+      "provenance": {
+        "pageTitle": "宋書/卷2",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B72&oldid=2583201",
+        "revisionId": 2583201,
+        "fetchedAt": "2026-10-29T14:06:43.115090+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B72&action=history",
+        "sourceSha256": "91c2a761ec0ca12cf9c3ce854183bb9440ef39ce34d70b42841af792f5b8e511",
+        "chapterSha256": "f9e379c67374b547991205b5415605e9c3ca3bfee5be85fc58a9fef9efe470e2"
+      }
+    },
+    {
+      "id": "songshu-v003",
+      "bookId": "songshu",
+      "volume": 3,
+      "position": 3,
+      "title": "卷 3 · 武帝下",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 60,
+      "characterCount": 5728,
+      "provenance": {
+        "pageTitle": "宋書/卷3",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B73&oldid=2358186",
+        "revisionId": 2358186,
+        "fetchedAt": "2026-10-29T14:06:44.443988+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B73&action=history",
+        "sourceSha256": "2afa005dc160c81ede08f7113e21e20dcb515bac7f7dcd79ed432ad5558929af",
+        "chapterSha256": "256154d910553a8ca41570a919404aeb3268af16a9cd0954ade8e4d683de95c5"
+      }
+    },
+    {
+      "id": "nanshi-v001",
+      "bookId": "nanshi",
+      "volume": 1,
+      "position": 1,
+      "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
+      "subjects": [
+        "liu-yu-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 106,
+      "characterCount": 15532,
+      "provenance": {
+        "pageTitle": "南史/卷01",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B701&oldid=1561312",
+        "revisionId": 1561312,
+        "fetchedAt": "2026-10-29T14:06:46.791294+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B701&action=history",
+        "sourceSha256": "24b09ac636a392e9cccbc15db60813b1e112deec7d25ba9a476919ccf5d95a51",
+        "chapterSha256": "56294b48e07796e197739beef0db71d5aee1abb1a6005cab6e924ce5f9f1dc06"
       }
     }
   ]

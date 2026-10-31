@@ -18,6 +18,7 @@ import type { ReadingSearchContext } from './library';
 import type { HistoryPerson, Route } from './types';
 import type { PersonTimelineEvent, PersonTimelineResponse, ResolvedTimelineEvidence, TimelinePhase } from './person-timeline-schema';
 import './person-timeline.css';
+import { personIndexRoute } from './eras';
 
 type TimelineEvent = PersonTimelineEvent<ResolvedTimelineEvidence>;
 type ReadState = 'loading' | 'archive' | 'ready' | 'error';
@@ -135,7 +136,7 @@ export function PersonTimeline({ person, route, eventId, returnTo, go, onReadSou
   }
 
   return <section className="person-timeline" data-person-id={person.id} data-read-state={readState} data-links-ready={linksReady}>
-    <div className="timeline-breadcrumbs"><button type="button" onClick={() => go('people')}><ArrowLeft size={14} /> 人物</button><span>/</span><span>{person.name}年表</span></div>
+    <div className="timeline-breadcrumbs"><button type="button" onClick={() => go(personIndexRoute(person))}><ArrowLeft size={14} /> 人物</button><span>/</span><span>{person.name}年表</span></div>
     {returnTo && <button type="button" className="timeline-return" onClick={() => go(returnTo)}><ArrowLeft size={14} aria-hidden="true" />返回{returnComparison ? `${returnComparison.document.title}史料对读` : '来源页面'}</button>}
     <header className="person-timeline-heading"><div><h1>{person.name}<span>人物年表</span></h1><p className="timeline-person-period">{personDisplayPeriod(person)} · {person.role}{person.lifespan && ` · 生卒 ${person.lifespan}`}</p></div><p>按年份串联当前归档中的重要记载。史载年号与日期保留在事件下方，不同史书的异说分别列出；每条出处均可定位到原文与白话译文。</p></header>
     <div className="timeline-actions"><button className="text-link" type="button" onClick={() => go(personSourcesRoute(person.id))}>汇总全部文献记载 <ArrowRight size={17} /></button><div className="timeline-script-switch"><span>原文依据</span><div className="script-switch" role="group" aria-label="年表原文繁简切换">{(['traditional', 'simplified'] as const).map(value => <button key={value} type="button" aria-pressed={script.script === value} onClick={() => script.selectScript(value)}>{value === 'traditional' ? '繁体' : '简体'}</button>)}</div></div></div>

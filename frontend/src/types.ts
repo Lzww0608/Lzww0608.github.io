@@ -1,17 +1,19 @@
 import type { TextRange, SearchField, ParagraphSearchMatch } from '../../content/passage-search.mts';
 export type { TextRange, SearchField, ParagraphSearchMatch };
 export type Era = '先秦' | '秦汉' | '魏晋南北朝' | '隋唐' | '五代' | '宋元' | '明清';
+export type EraId = 'five-dynasties' | 'southern-northern';
 export type FiveDynasty = '后梁' | '后唐' | '后晋' | '后汉' | '后周';
 export type TenKingdomDynasty = '吴' | '南唐' | '吴越' | '前蜀' | '后蜀' | '南汉' | '楚' | '闽' | '南平' | '北汉';
-export type Dynasty = FiveDynasty | TenKingdomDynasty | '宋';
+export type SouthernDynasty = '刘宋' | '南齐' | '南梁' | '南陈';
+export type Dynasty = FiveDynasty | TenKingdomDynasty | SouthernDynasty | '宋';
 export type EventId = 'liang' | 'tang' | 'jin' | 'han' | 'zhou' | 'song';
-export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu' | 'huiyao' | 'beimeng' | 'kaoyi' | 'shiguochunqiu' | 'nantanglu' | 'nantangma' | 'nantangjinshi' | 'quantangwen' | 'jiuguozhi';
+export type BookId = 'old' | 'new' | 'tongjian' | 'quewen' | 'shibu' | 'chunqiu' | 'huiyao' | 'beimeng' | 'kaoyi' | 'shiguochunqiu' | 'nantanglu' | 'nantangma' | 'nantangjinshi' | 'quantangwen' | 'jiuguozhi' | 'songshu' | 'nanshi';
 export type OriginalScript = 'traditional' | 'simplified';
 export type PageTheme = 'paper' | 'jade' | 'night';
 export type SidebarId = 'home-sources' | 'reader-directory' | 'map-places' | 'timeline-years' | 'comparison-stages';
-export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals' | 'southern-tang-officials' | 'civil-officials' | 'palace-people' | 'military-people';
+export type PersonTopicId = 'thirteen-taibao' | 'zhu-wen-generals' | 'li-keyong-generals' | 'southern-tang-officials' | 'civil-officials' | 'palace-people' | 'military-people' | 'southern-emperors';
 export type PersonGroupId = 'all' | 'emperors' | 'ten-kingdoms-rulers' | PersonTopicId;
-export type Route = 'people' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}` | `person-timeline/${string}` | `event-comparison/${string}`;
+export type Route = 'eras' | 'people' | 'people/southern-northern' | 'owner-review' | `owner-review?${string}` | `read-${BookId}` | `read-${BookId}/${string}` | `person-sources/${string}` | `person-timeline/${string}` | `event-comparison/${string}`;
 
 export type ReviewStatus = 'open' | 'resolved' | 'retained' | 'checked';
 export type ReviewCategory = 'translation' | 'association' | 'relationship' | 'source-note';

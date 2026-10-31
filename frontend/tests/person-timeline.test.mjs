@@ -1,4 +1,5 @@
 import test from 'node:test';
+import * as eras from '../src/eras.ts';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync } from 'node:fs';
@@ -356,6 +357,7 @@ function renderTimelineState(page, comparisonLinks = [], linksReady = false, des
     './CollapsibleSidebar': { useSidebarState: () => ({ collapsed: false, toggle: () => {} }), CollapsibleSidebar: ({ children }) => React.createElement('aside', null, children) },
     './use-original-script': { useOriginalScript: () => ({ script: 'traditional', displayScript: 'traditional', selectScript: () => {} }) },
     './person-catalog': { personDisplayPeriod: () => '后唐' },
+    './eras': eras,
     './person-timeline.css': {},
   };
   const module = { exports: {} }, nativeRequire = createRequire(import.meta.url);
