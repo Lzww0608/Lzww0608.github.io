@@ -2380,13 +2380,25 @@ export const personRelationships: readonly PersonRelationship[] = [
     "to": "xu-huaiyu",
     "kind": "service",
     "label": "部将",
-    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。",
+    "note": "此关系据朱温在世时的军事任职或受命领兵记载；人物其后的转仕、军职及结局另见生平。 旧传另记太祖赐名怀玉，通鉴另记徐守晋州时梁主亲率军来援；赐名不作收养，任职与救援是分别有据的经历。",
     "sources": [
       {
         "chapterId": "new-v22",
         "paragraphId": "new-v22-p40",
         "title": "新五代史·徐怀玉传",
         "excerpt": "少事梁太祖，與太祖俱起微賤。懷玉為將，以雄豪自任，而勇於戰陣。從太祖鎮宣武，為永城鎮將。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "乾寧中，奏加檢校刑部尚書，太祖賜名懷玉。"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p7",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "晉周德威、李嗣昭將兵三萬出陰地關，攻晉州，刺史徐懷玉拒守。帝自將救之，丁丑，發大梁，乙酉，至陝州。"
       }
     ]
   },

@@ -1004,5 +1004,257 @@
       }
     ],
     "from": "li-zhouyi"
+  },
+  {
+    "id": "xu-huaiyu-qin-zongquan-conflict",
+    "from": "xu-huaiyu",
+    "to": "qin-zongquan",
+    "kind": "conflict",
+    "label": "破蔡军营寨",
+    "note": "秦宗权方设营，徐率轻骑攻击，另有板桥等役；不把俘杀数作徐个人亲杀数。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "又從破蔡賊於板橋，收秦宗權八寨，奏加檢校右散騎常侍。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p41",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "秦宗權攻梁，壁金隄、靈昌、酸棗，懷玉以輕騎連擊破之，俘殺五千餘人，遷左長劍都虞候。又破宗權於板橋、赤岡，拔其八柵。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-xiao-hao-caizhou-conflict",
+    "from": "xu-huaiyu",
+    "to": "xiao-hao-caizhou-context",
+    "kind": "conflict",
+    "label": "合击来攻梁营的蔡将萧颢",
+    "note": "萧颢攻营，张归霸与徐合击；不称徐亲手杀萧，也不从蔡将一称补永久统属。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p14",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "文德初，大軍臨蔡州，賊將蕭顥來斫寨，歸霸於徐懷玉各以所領兵自東南二扉分出，合勢殺賊，蔡人大敗。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p30",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "太祖攻蔡州，蔡將蕭顥急擊太祖營，歸霸不暇請，與徐懷玉分出東南壁門，合擊敗之，太祖得拔營去。"
+      }
+    ]
+  },
+  {
+    "id": "zhang-guiba-xu-huaiyu-caizhou-cooperation",
+    "from": "zhang-guiba",
+    "to": "xu-huaiyu",
+    "kind": "service",
+    "label": "分门合击蔡军",
+    "note": "只记此次共同合击，不推两人有上下级或长期统属；各自从哪一门出击未明。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p14",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "文德初，大軍臨蔡州，賊將蕭顥來斫寨，歸霸於徐懷玉各以所領兵自東南二扉分出，合勢殺賊，蔡人大敗。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p30",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "太祖攻蔡州，蔡將蕭顥急擊太祖營，歸霸不暇請，與徐懷玉分出東南壁門，合擊敗之，太祖得拔營去。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "zhang-guihou-xu-huaiyu-zezhou-cooperation",
+    "from": "zhang-guihou",
+    "to": "xu-huaiyu",
+    "kind": "service",
+    "label": "共同守泽州",
+    "note": "只记共同守城。张归厚传的左羽林统军是张的任职；同守系天祐二年，徐本传赴泽系三年，两种年次并列。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p20",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "天祐二年，改左羽林統軍，與徐懷玉同守澤州。時晉軍五萬來攻，郡中戎士甚寡，歸厚極力拒守，并軍乃還。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "pang-shigu-xu-huaiyu-qingkou-service",
+    "from": "pang-shigu",
+    "to": "xu-huaiyu",
+    "kind": "service",
+    "label": "随庞师古攻淮南",
+    "note": "新史明确从庞师古攻杨行密；庞败而徐保军归，非徐独取清口胜利，也不据一次随军推长期唯一直属。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p42",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "又從龐師古攻楊行密，師古敗清口，懷玉獨完一軍，行收散卒萬餘人以歸。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-zhu-jin-yanzhou-conflict",
+    "from": "xu-huaiyu",
+    "to": "zhu-jin-yanzhou",
+    "kind": "conflict",
+    "label": "金乡对阵朱瑾",
+    "note": "旧史明记金乡南败朱瑾并擒宗江；新史在东攻兖州的叙事中记金乡之战。旁传所记其他军队的战果各依其主语保留。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "破朱瑾於金鄉南，擒宗江以獻，表授金紫光祿大夫、檢校右僕射。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p42",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "從太祖攻魏，敗魏兵黎陽，遂東攻兗，破朱瑾於金鄉。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-zong-jiang-capture",
+    "from": "xu-huaiyu",
+    "to": "zong-jiang-xu-huaiyu-context",
+    "kind": "conflict",
+    "label": "金乡南擒宗江",
+    "note": "只记军队擒献，不说徐亲手擒杀、宗江死亡或额外姓氏官职。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "破朱瑾於金鄉南，擒宗江以獻，表授金紫光祿大夫、檢校右僕射。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-wang-shifan-conflict",
+    "from": "xu-huaiyu",
+    "to": "wang-shifan-xu-huaiyu-context",
+    "kind": "conflict",
+    "label": "击退东境来攻军",
+    "note": "徐任沂州时与王师范方军队交战；不是两人单挑，不补每次交战日期或杀敌数。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "頃之，王師範以青州叛，屢出兵侵軼，懷玉擊退之。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p42",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "已而王師範叛梁，攻東境，懷玉屢以州兵擊破之。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-youqian-xu-huaiyu-capture-death",
+    "from": "zhu-youqian",
+    "to": "xu-huaiyu",
+    "kind": "conflict",
+    "label": "遣兵俘徐，后加害",
+    "note": "旧传先袭鄜俘囚，再因忧有变而害；新传压缩作执杀。不说友谦亲手行刑，不把康怀英作杀人者。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "乾化二年，庶人友珪既篡立，河中朱友謙拒命，遣兵襲鄜州，懷玉無備，尋為河中所擄，囚於公館。及友珪遣康懷英率師圍河中，友謙慮懷玉有變，遂害之。"
+      },
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p43",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "太祖崩，友珪自立，朱友謙附于晉，以襲鄜州，執懷玉殺之。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-zhou-dewei-jinzhou-conflict",
+    "from": "zhou-dewei",
+    "to": "xu-huaiyu",
+    "kind": "conflict",
+    "label": "晋州攻守",
+    "note": "周德威与同军主将攻晋州，徐拒守，梁主来援；兵数属于晋方，不补单独下令挖隧或徐独战此将。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p7",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "晉周德威、李嗣昭將兵三萬出陰地關，攻晉州，刺史徐懷玉拒守。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-li-sizhao-jinzhou-conflict",
+    "from": "li-sizhao",
+    "to": "xu-huaiyu",
+    "kind": "conflict",
+    "label": "晋州攻守",
+    "note": "李嗣昭与同军主将攻晋州，徐拒守，梁主来援；兵数属于晋方，不补单独下令挖隧或徐独战此将。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p7",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "晉周德威、李嗣昭將兵三萬出陰地關，攻晉州，刺史徐懷玉拒守。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-yang-xingmi-qingkou-conflict",
+    "from": "xu-huaiyu",
+    "to": "yang-xingmi",
+    "kind": "conflict",
+    "label": "从军攻淮南",
+    "note": "新史明确徐怀玉随庞师古攻杨行密；只记双方军队的战事，不写两人亲自会战或单挑。庞军败后徐保全本军返回。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p42",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "又從龐師古攻楊行密，師古敗清口，懷玉獨完一軍，行收散卒萬餘人以歸。"
+      }
+    ]
+  },
+  {
+    "id": "xu-huaiyu-tang-zhaozong-reception",
+    "from": "xu-huaiyu",
+    "to": "tang-zhaozong",
+    "kind": "service",
+    "label": "随军迎驾",
+    "note": "新史直称迎昭宗都洛阳，旧史记随大军迎驾岐下；旧传地点与纪年疑点保留。只记徐参与迎驾，不据此说昭宗亲授其军职或徐独自护送。",
+    "sources": [
+      {
+        "chapterId": "new-v22",
+        "paragraphId": "new-v22-p43",
+        "title": "新五代史 · 卷 22 · 梁臣传",
+        "excerpt": "天復四年，以州兵西迎昭宗都洛陽，遷華州觀察留後，以兵屯雍州。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p10",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "天復四年，轉齊州防禦使，加檢校司空，從大軍迎駕於岐下。"
+      }
+    ]
   }
 ]

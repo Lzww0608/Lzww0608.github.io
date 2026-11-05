@@ -94,8 +94,12 @@ test('all added military facts cite current originals and derive once for each e
   assert.equal(new Set(military.map(edge => edge.id)).size, military.length);
   const originals = new Map(loadLibrary().chapters.map(chapter => [chapter.id, chapter]));
   for (const edge of military) {
-    assert.deepEqual(Object.keys(edge).sort(),
-      ['from', 'id', 'kind', 'label', 'note', 'sources', 'to'].sort(), edge.id);
+    const fields = ['from', 'id', 'kind', 'label', 'note', 'sources', 'to'];
+    if (Object.hasOwn(edge, 'direction')) {
+      fields.push('direction');
+      assert.equal(edge.direction, 'undirected', `${edge.id}: explicit shared-action direction`);
+    }
+    assert.deepEqual(Object.keys(edge).sort(), fields.sort(), edge.id);
     assert.ok(edge.sources.length, edge.id);
     assert.equal(personRelationships.filter(item => item.id === edge.id).length, 1, edge.id);
     for (const endpoint of [edge.from, edge.to]) {

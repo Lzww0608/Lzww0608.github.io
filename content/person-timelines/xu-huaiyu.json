@@ -10,7 +10,7 @@
       "year": 897,
       "sortOrder": 0,
       "precision": "year",
-      "sourceDate": "乾宁四年，庞师古同役十一月锁897；徐完军返未独日",
+      "sourceDate": "乾宁四年；庞师古传将清口同役系于十一月，徐怀玉保军返回未独记日期。",
       "phase": "service",
       "evidence": [
         {
@@ -34,16 +34,19 @@
           "originalSha256": "38e95f58720e1f7f6427d4c16c7920ee5ef9611ff9e3a5515bd32c68cc9df6a3",
           "excerpt": "乾寧四年八月，與葛從周分統大軍，渡淮以伐楊行密。十一月，師古寨於清口，寨地卑下，〈（《玉堂閑話》云：龐從會軍五萬於清口，所屯之地，蓋兵書謂之絕地，人不駕肩，行一舍方至夷坦之處。）〉或請遷移，弗聽。俄有告淮人決上流者，曰：「水至矣。」師古怒其惑眾，斬之。〈（《九國誌·侯讚傳》：時兵起倉卒，加以陰寒，士皆飲冰餐雪而行。甫及梁營，則豎戈植足，鬥志未決。朱瑾與瓚率五十騎潛濟淮，入自壘北，舞槊而馳，囂聲雷沸，梁兵皆殞眩不能舉，遂斬龐從，大將繼之，死者大半。）〉須臾，我軍在淖中，莫能戰，而吳人襲焉，故及於敗，師古沒於陣。"
         }
+      ],
+      "notes": [
+        "本页西历年份沿历史历制，1582年前采用儒略历；史书记年照录，不能核准单一西历年时保留来源支持的范围。"
       ]
     },
     {
       "id": "xu-huaiyu-jinzhou",
-      "title": "镇晋州，拒攻洪洞",
-      "summary": "开平二年徐怀玉任晋州刺史，选亲兵将登城晋军逐下，又在洪洞击晋军，出私财赏军。",
+      "title": "镇晋州，登城退敌",
+      "summary": "开平二年任晋州刺史。其秋晋军登城，徐怀玉选出五十余亲兵将其逐下；晋军退后，他出家财奖赏战士。",
       "year": 908,
       "sortOrder": 1,
       "precision": "year",
-      "sourceDate": "开平二年秋",
+      "sourceDate": "开平二年，其秋登城反击；通鉴同年九月记晋州拒攻。本条908据秋役，退敌后赏军未独记日。洪洞另列有据年代范围。",
       "phase": "service",
       "evidence": [
         {
@@ -51,8 +54,37 @@
           "paragraphId": "old-v021-p10",
           "originalRevision": 1,
           "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
-          "excerpt": "開平元年，授曹州刺史，加檢校司徒。明年，除晉州刺史。其秋，晉軍大至，已乘其墉，懷玉選親兵五十餘人，擁殺下城。晉軍既退，出家財以賞戰士。歲中，晉軍又至，懷玉領兵敗之於洪洞。"
+          "excerpt": "開平元年，授曹州刺史，加檢校司徒。明年，除晉州刺史。其秋，晉軍大至，已乘其墉，懷玉選親兵五十餘人，擁殺下城。晉軍既退，出家財以賞戰士。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴同年晋州围攻记载",
+          "sourceDate": "开平二年，承九月叙次；西历908年。",
+          "summary": "周德威、李嗣昭率三万人攻晋州，徐怀玉拒守；梁主亲自率军来援，周等闻讯退至隰州。",
+          "notes": [
+            "三万人是来攻晋军数。丁丑、乙酉为梁主行程，乙未为周等撤退之日，不据此给徐守城、登城反击或洪洞之战补确日，也不强定两书每次进退完全对应。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "tongjian-v267",
+              "paragraphId": "tongjian-v267-p7",
+              "originalRevision": 1,
+              "originalSha256": "b37a22ddd64fa4173888ded4b1931c57cea2957f3362eef264110ba097bb3de2",
+              "excerpt": "晉周德威、李嗣昭將兵三萬出陰地關，攻晉州，刺史徐懷玉拒守。帝自將救之，丁丑，發大梁，乙酉，至陝州。"
+            },
+            {
+              "chapterId": "tongjian-v267",
+              "paragraphId": "tongjian-v267-p7",
+              "originalRevision": 1,
+              "originalSha256": "b37a22ddd64fa4173888ded4b1931c57cea2957f3362eef264110ba097bb3de2",
+              "excerpt": "周德威等聞帝將至，乙未，退保隰州。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "旧传把登城反击与晋军退后出家财赏军连叙；此处保留两项事迹，不给赏军补具体日期。另记的洪洞一役未独月，另条保存开平二年所跨908—909年范围，不以本条908年概括它。"
       ]
     },
     {
@@ -62,7 +94,7 @@
       "year": 912,
       "sortOrder": 2,
       "precision": "year",
-      "sourceDate": "乾化二年，友珪篡立后、康怀英围河中时害徐；康本传同役乾化二年秋白径败为事件界，锁912",
+      "sourceDate": "乾化二年，友珪篡立后、康怀英围河中时；康本传同役系于当年秋，保西历912，徐遇害未独记日。",
       "phase": "fall",
       "evidence": [
         {
@@ -86,16 +118,19 @@
           "originalSha256": "3a86faa63844a98e0b52cd509ab56272b35fd04ccfc76f353532d3bdaefc72f0",
           "excerpt": "乾化二年秋，命為河中行營都招討使，與晉軍戰於白徑嶺，敗歸於陝。"
         }
+      ],
+      "notes": [
+        "友谦虑怀玉有变是加害者的忧惧，不表示徐已发动变乱；旧传先俘囚后被害，新传压缩作执杀，不写阵亡或友谦亲手杀害。"
       ]
     },
     {
       "id": "xu-huaiyu-early",
       "title": "从朱温起兵，轻骑连破蔡军",
-      "summary": "徐怀玉原名徐琮，随朱温至汴，光启初以轻骑连破金堤蔡军，升亲从副将及长剑都虞候。",
+      "summary": "徐怀玉本名琮，少随朱温起军，中和末随至大梁。光启初以轻骑连破蔡军营，累迁亲从副将、左长剑都虞候；新史记此类破营俘杀五千余人。",
       "year": null,
       "sortOrder": 3,
       "precision": "undated",
-      "sourceDate": "中和末至光启初，未记确年",
+      "sourceDate": "中和末至光启初；从军、至大梁和各次破营未独记年月。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -103,25 +138,54 @@
           "paragraphId": "old-v021-p10",
           "originalRevision": 1,
           "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
-          "excerpt": "徐懷玉，本名琮，亳州焦夷縣人。少以雄傑自任，隨太祖起軍。唐中和末，從至大梁。光啟初，蔡寇屯金堤驛，懷玉將輕騎連破之，由是累遷親從副將，改左長劍都虞候。又從破蔡賊於板橋，收秦宗權八寨，奏加檢校右散騎常侍。"
+          "excerpt": "徐懷玉，本名琮，亳州焦夷縣人。少以雄傑自任，隨太祖起軍。唐中和末，從至大梁。光啟初，蔡寇屯金堤驛，懷玉將輕騎連破之，由是累遷親從副將，改左長劍都虞候。"
         },
         {
           "chapterId": "new-v22",
           "paragraphId": "new-v22-p40",
           "originalRevision": 1,
           "originalSha256": "92af99ca8405038cad2681f3eefb9c53eff6b95c4b9d3f87825eacb546c23fa1",
-          "excerpt": "徐懷玉，亳州焦夷人也。少事梁太祖，與太祖俱起微賤。懷玉為將，以雄豪自任，而勇於戰陣。從太祖鎮宣武，為永城鎮將。"
+          "excerpt": "徐懷玉，亳州焦夷人也。少事梁太祖，與太祖俱起微賤。懷玉為將，以雄豪自任，而勇於戰陣。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p41",
+          "originalRevision": 1,
+          "originalSha256": "7f95ede668640a45d17533ee9028084330a378b41805c9f3796668236c24cd23",
+          "excerpt": "秦宗權攻梁，壁金隄、靈昌、酸棗，懷玉以輕騎連擊破之，俘殺五千餘人，遷左長劍都虞候。"
+        }
+      ],
+      "notes": [
+        "新史的五千余为军队俘虏、杀敌合计，不是徐怀玉个人亲杀人数；旧史未记这一数字。"
+      ]
+    },
+    {
+      "id": "xu-huaiyu-yongcheng-town-command",
+      "title": "随镇宣武，任永城镇将",
+      "summary": "新史记徐怀玉随朱温镇宣武，任永城镇将；旧传未单独列这一军职。",
+      "year": null,
+      "sortOrder": 4,
+      "precision": "undated",
+      "sourceDate": "新史列在少事朱温之后，未独记授任年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p40",
+          "originalRevision": 1,
+          "originalSha256": "92af99ca8405038cad2681f3eefb9c53eff6b95c4b9d3f87825eacb546c23fa1",
+          "excerpt": "從太祖鎮宣武，為永城鎮將。"
         }
       ]
     },
     {
-      "id": "xu-huaiyu-xusu-campaigns",
-      "title": "参与徐宿军役、黎阳败魏",
-      "summary": "徐怀玉随军参与徐州宿州诸战，又跟朱温攻魏，在黎阳败魏军；这一组未独纪年月，不全部挂在888河阳之围。",
+      "id": "xu-huaiyu-banqiao-stockades",
+      "title": "随军破蔡，拔八处营寨",
+      "summary": "旧史记随军在板桥破蔡军、收秦宗权八寨，并奏加检校右散骑常侍；新史另列赤冈，称拔八栅。",
       "year": null,
-      "sortOrder": 4,
+      "sortOrder": 5,
       "precision": "undated",
-      "sourceDate": "文德初河阳战后及攻魏的接续，未独役年",
+      "sourceDate": "旧传承光启初破营后接叙，板桥等役未独记年月。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -129,15 +193,18 @@
           "paragraphId": "old-v021-p10",
           "originalRevision": 1,
           "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
-          "excerpt": "文德初，同諸軍解河陽之圍，復從破徐、宿。"
+          "excerpt": "又從破蔡賊於板橋，收秦宗權八寨，奏加檢校右散騎常侍。"
         },
         {
           "chapterId": "new-v22",
-          "paragraphId": "new-v22-p42",
+          "paragraphId": "new-v22-p41",
           "originalRevision": 1,
-          "originalSha256": "6d185ad9c7fee4c8bb59fd3897668fefed2ea0327fedd2ba20da1dcb673a317c",
-          "excerpt": "從太祖攻魏，敗魏兵黎陽"
+          "originalSha256": "7f95ede668640a45d17533ee9028084330a378b41805c9f3796668236c24cd23",
+          "excerpt": "又破宗權於板橋、赤岡，拔其八柵。"
         }
+      ],
+      "notes": [
+        "八寨与八栅按两书口径保存，不累加为十六处，也不将诸军共同战功改为徐一人独占。"
       ]
     },
     {
@@ -145,9 +212,9 @@
       "title": "参与解除河阳之围",
       "summary": "徐怀玉文德初与诸军解河阳之围；其后徐宿诸战未独年，另列。",
       "year": null,
-      "sortOrder": 5,
+      "sortOrder": 6,
       "precision": "range",
-      "sourceDate": "文德初，未独月；合法文德末月可跨889，以龙纪元年朔889年2月4日为上界",
+      "sourceDate": "文德初，未独记月日；有据纪年范围为西历888—889年。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -164,13 +231,80 @@
       }
     },
     {
+      "id": "xu-huaiyu-caizhou-joint-sortie",
+      "title": "与张归霸合击蔡军，解梁营之急",
+      "summary": "萧颢急攻朱温营，张归霸与徐怀玉分从东南两门出击，合力击败蔡军，使朱温得以拔营。",
+      "year": null,
+      "yearRange": {
+        "start": 888,
+        "end": 889
+      },
+      "sortOrder": 7,
+      "precision": "range",
+      "sourceDate": "旧史张归霸传系文德初，未独记月，保西历888—889范围；新史未独记年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v016",
+          "paragraphId": "old-v016-p14",
+          "originalRevision": 1,
+          "originalSha256": "872deb4abcb97e3ed97294db82dc2a4d3195a2bc8edcf4ad87932b9cc00c67bd",
+          "excerpt": "文德初，大軍臨蔡州，賊將蕭顥來斫寨，歸霸於徐懷玉各以所領兵自東南二扉分出，合勢殺賊，蔡人大敗。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p30",
+          "originalRevision": 1,
+          "originalSha256": "32565579e46e799a9706089064e7bb8bb303f46ad7cbe2a1bbc8c5297d95201f",
+          "excerpt": "太祖攻蔡州，蔡將蕭顥急擊太祖營，歸霸不暇請，與徐懷玉分出東南壁門，合擊敗之，太祖得拔營去。"
+        }
+      ],
+      "notes": [
+        "两人各自从哪一门出击未明；后文朱温赏归霸、引耿弇相许，不扩大为徐也受同一赏。",
+        "此役与本人主传河阳解围均系文德初，具体先后未见明载。"
+      ]
+    },
+    {
+      "id": "xu-huaiyu-xusu-campaigns",
+      "title": "参与徐宿军役、黎阳败魏",
+      "summary": "徐怀玉随军参与徐、宿诸战；新史另记随朱温攻魏、在黎阳败魏兵，以及东攻兖、郓。这些军役没有各自独立年月。",
+      "year": null,
+      "sortOrder": 8,
+      "precision": "undated",
+      "sourceDate": "旧传承文德初河阳解围后叙徐、宿，新传攻魏、黎阳及兖郓诸役未独纪年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p10",
+          "originalRevision": 1,
+          "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
+          "excerpt": "文德初，同諸軍解河陽之圍，復從破徐、宿。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p42",
+          "originalRevision": 1,
+          "originalSha256": "6d185ad9c7fee4c8bb59fd3897668fefed2ea0327fedd2ba20da1dcb673a317c",
+          "excerpt": "從太祖攻魏，敗魏兵黎陽"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p41",
+          "originalRevision": 1,
+          "originalSha256": "7f95ede668640a45d17533ee9028084330a378b41805c9f3796668236c24cd23",
+          "excerpt": "從太祖東攻兗、鄆，破徐、宿。"
+        }
+      ]
+    },
+    {
       "id": "xu-huaiyu-rename",
       "title": "获赐名怀玉，在金乡败朱瑾",
-      "summary": "徐琮获朱温赐名怀玉，乾宁间在金乡南败朱瑾、擒宗江，获检校右仆射等官。",
+      "summary": "乾宁间，朱温赐徐琮名怀玉，并有奏加检校刑部尚书之记；其后叙在金乡南败朱瑾、擒宗江，获金紫光禄大夫、检校右仆射等官。",
       "year": null,
-      "sortOrder": 6,
+      "sortOrder": 9,
       "precision": "undated",
-      "sourceDate": "乾宁中，未记确年",
+      "sourceDate": "乾宁中为加衔、赐名的叙事时间；金乡南作战及表授官职未独记年月。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -180,6 +314,9 @@
           "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
           "excerpt": "乾寧中，奏加檢校刑部尚書，太祖賜名懷玉。破朱瑾於金鄉南，擒宗江以獻，表授金紫光祿大夫、檢校右僕射。"
         }
+      ],
+      "notes": [
+        "本名琮与赐名怀玉属于同一人物；赐名不作收养。宗江只记被擒，不改为被杀。"
       ]
     },
     {
@@ -187,9 +324,9 @@
       "title": "镇沂州，拒王师范攻东境",
       "summary": "徐怀玉光化初转滑州军职、任沂州，修兵营壁；王师范叛后，多次率州兵击败东境来敌，后转齐防御另见904条。",
       "year": null,
-      "sortOrder": 7,
+      "sortOrder": 10,
       "precision": "undated",
-      "sourceDate": "光化初至王师范叛的接续，未标各事确年",
+      "sourceDate": "光化初任职至王师范叛时的接叙；各次转任、修备和击退来敌未独记年月。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -213,9 +350,9 @@
       "title": "迎昭宗迁洛，领华州留后",
       "summary": "徐怀玉天复四年转齐防御、之后获华州观察留后；新传明说率州兵迎昭宗都洛阳，旧传写迎岐下，两书地点记法保留。",
       "year": null,
-      "sortOrder": 8,
+      "sortOrder": 11,
       "precision": "range",
-      "sourceDate": "天复四年，在原书天复四年齐州任；合法正月起904年1月21日、四月结束904年5月18日改天祐，全有效天复四年范围皆904；不采用年末5/1/1无效回退",
+      "sourceDate": "原书记天复四年；本条904范围据新传迎昭宗都洛阳的记年。旧传迎驾岐下的纪年、地点疑点继续保留。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -235,9 +372,9 @@
       ],
       "variants": [
         {
-          "label": "旧传岐下、新传都洛",
-          "sourceDate": "天复四年",
-          "summary": "旧传迎驾岐下，新传昭宗都洛阳；904迁洛按新传，旧字不暗改为洛阳。",
+          "label": "迎驾地点与旧传纪年疑点",
+          "sourceDate": "两书均写天复四年，旧传岐下记事仍有纪年疑点。",
+          "summary": "旧传写随大军迎驾岐下，新传写以州兵西迎昭宗都洛阳。两书年号和地名分别保留，不把旧字改为洛阳，也不以904坐实岐下记事的实际年月。",
           "evidence": [
             {
               "chapterId": "old-v021",
@@ -253,23 +390,25 @@
               "originalSha256": "f290c2d6c03a36edccb9df97d9d861d83de09a287786f1376798f147ccf90b76",
               "excerpt": "天復四年，以州兵西迎昭宗都洛陽，遷華州觀察留後，以兵屯雍州。"
             }
-          ],
-          "year": 904
+          ]
         }
       ],
       "yearRange": {
         "start": 904,
         "end": 904
-      }
+      },
+      "notes": [
+        "旧传本段现译原有纪年疑注；本条904范围不用于坐实迎岐下事件的实际日期。归署华州、屯雍亦无独立日，不补具体行程或授官日。"
+      ]
     },
     {
       "id": "xu-huaiyu-yong-patrol",
       "title": "驻雍州，召补晋绛同华军职",
       "summary": "任华州留后一年后，徐怀玉率兵戍雍，召赴河中补晋绛同华五州马步都指挥。原文列四州称五州，字面保留，不补造第五州。",
       "year": null,
-      "sortOrder": 9,
+      "sortOrder": 12,
       "precision": "undated",
-      "sourceDate": "华州留后一年后、天祐三年军职前，未独授职年",
+      "sourceDate": "旧传在华州留后一载后接叙戍雍、赴河中，均未独记年月；新传接华州留后即叙屯雍，先后分源保留。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -278,6 +417,13 @@
           "originalRevision": 1,
           "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
           "excerpt": "一年，復領所部兵戍雍州，尋召赴河中，補晉、絳、同、華五州馬步都指揮使。"
+        },
+        {
+          "chapterId": "new-v22",
+          "paragraphId": "new-v22-p43",
+          "originalRevision": 1,
+          "originalSha256": "f290c2d6c03a36edccb9df97d9d861d83de09a287786f1376798f147ccf90b76",
+          "excerpt": "天復四年，以州兵西迎昭宗都洛陽，遷華州觀察留後，以兵屯雍州。"
         }
       ],
       "notes": [
@@ -286,12 +432,12 @@
     },
     {
       "id": "xu-huaiyu-zezhou",
-      "title": "统禁军守泽州，地道内拒晋",
-      "summary": "徐怀玉领羽林、龙虎等军赴泽州，晋军挖地道攻城，他率亲兵在隧道迎击，使其退走。",
+      "title": "赴泽州守城，隧道内拒晋",
+      "summary": "旧传记徐怀玉先授左羽林统军，转右龙虎统军，领六军之士赴泽州；晋军挖隧进攻，他率亲兵迎击，使其退走。",
       "year": null,
-      "sortOrder": 10,
+      "sortOrder": 13,
       "precision": "range",
-      "sourceDate": "天祐三年，合法全年906年1月28日至907年2月14日，本段军职及守泽未独月",
+      "sourceDate": "徐怀玉旧传系天祐三年，未独记月，保西历906—907范围；张归厚传同守泽州另系二年，见异说。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -316,6 +462,23 @@
               "excerpt": "遷右羽林統軍，屯于澤州，晉人攻之，為隧以入，懷玉擊之隧中，晉人乃却。"
             }
           ]
+        },
+        {
+          "label": "张归厚传同守泽州的年次",
+          "sourceDate": "天祐二年，未独记月，保西历905—906范围。",
+          "summary": "张归厚传记他改左羽林统军，与徐怀玉同守泽州，继叙晋军来攻、归厚拒守；与徐本传三年的年次并存，不据此强分两次独立战事。",
+          "notes": [
+            "本段左羽林统军的受官者是张归厚，不是徐怀玉；五万是来攻晋军数，不能说徐独退五万。"
+          ],
+          "evidence": [
+            {
+              "chapterId": "old-v016",
+              "paragraphId": "old-v016-p20",
+              "originalRevision": 1,
+              "originalSha256": "3ccc6231be07ed07af6e7ba5278a71602b1949f924bc91d2e0dbfcd891df44bc",
+              "excerpt": "天祐二年，改左羽林統軍，與徐懷玉同守澤州。時晉軍五萬來攻，郡中戎士甚寡，歸厚極力拒守，并軍乃還。"
+            }
+          ]
         }
       ],
       "yearRange": {
@@ -328,9 +491,9 @@
       "title": "梁建国授曹州刺史",
       "summary": "朱温建梁后徐怀玉开平元年授曹州刺史、检校司徒，次年转晋州和战事另列。",
       "year": null,
-      "sortOrder": 11,
+      "sortOrder": 14,
       "precision": "range",
-      "sourceDate": "开平元年，合法纪年907年5月15日至908年2月4日，曹州任未独月",
+      "sourceDate": "开平元年，未独记授任月日，保西历907—908范围。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -347,13 +510,47 @@
       }
     },
     {
+      "id": "xu-huaiyu-hongdong",
+      "title": "领兵在洪洞败晋军",
+      "summary": "旧传记开平二年晋军再至，徐怀玉率兵在洪洞击败他们。",
+      "year": null,
+      "sortOrder": 15,
+      "precision": "range",
+      "yearRange": {
+        "start": 908,
+        "end": 909
+      },
+      "sourceDate": "开平二年，原文记岁中，未独记月份或日期。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p10",
+          "originalRevision": 1,
+          "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
+          "excerpt": "開平元年，授曹州刺史，加檢校司徒。明年，除晉州刺史。"
+        },
+        {
+          "chapterId": "old-v021",
+          "paragraphId": "old-v021-p10",
+          "originalRevision": 1,
+          "originalSha256": "e2b2ccf36fbe628e79d5526cc1fdf9f214e3f5a8c770b55063209bb430831da2",
+          "excerpt": "歲中，晉軍又至，懷玉領兵敗之於洪洞。"
+        }
+      ],
+      "notes": [
+        "开平二年跨西历908—909年；岁中只承原书年号，不能据此限定在西历908年，也不据此断定实际发生于909年。",
+        "旧传先叙晋州秋战及退敌赏军，再记洪洞；不据文字顺序给洪洞补月份或判定在赏军之后，也不把通鉴晋州围攻的将领、人数或确日移给这一役。"
+      ]
+    },
+    {
       "id": "xu-huaiyu-fufang",
       "title": "领鄜坊节度，练兵修壁",
       "summary": "徐怀玉领鄜坊节度使、特进及检校太保，练军修城，获地方安宁之评。",
       "year": null,
-      "sortOrder": 12,
+      "sortOrder": 16,
       "precision": "range",
-      "sourceDate": "开平三年，合法全年909年1月25日至910年2月12日，鄜坊任未独月",
+      "sourceDate": "旧传三年承开平纪年，未独记月，保西历909—910范围；新传所称保大军节度使未独记年。",
       "phase": "uncertain",
       "evidence": [
         {
@@ -367,7 +564,23 @@
       "yearRange": {
         "start": 909,
         "end": 910
-      }
+      },
+      "variants": [
+        {
+          "label": "新传末任军号",
+          "sourceDate": "历曹、晋后接叙，未独记年。",
+          "summary": "新史将末任记作保大军节度使，旧史作鄜坊节度使，两书称号分别保留，不据本次材料增为两次不同任命。",
+          "evidence": [
+            {
+              "chapterId": "new-v22",
+              "paragraphId": "new-v22-p43",
+              "originalRevision": 1,
+              "originalSha256": "f290c2d6c03a36edccb9df97d9d861d83de09a287786f1376798f147ccf90b76",
+              "excerpt": "拜保大軍節度使。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
