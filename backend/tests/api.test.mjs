@@ -185,11 +185,12 @@ test('repeat imports preserve local original revisions, translations and publica
 
 
 test('new sources expose ordered prefaces and selected volumes through the API', async () => {
-  for (const [id, count, first, last] of [['shibu',6,'shibu-v000','shibu-v005'], ['chunqiu',3,'chunqiu-v000','chunqiu-v002'], ['huiyao',31,'huiyao-v000','huiyao-v030'], ['beimeng',5,'beimeng-v000','beimeng-v020'], ['kaoyi',3,'kaoyi-v028','kaoyi-v030']]) {
+  for (const [id, count, first, last] of [['shibu',6,'shibu-v000','shibu-v005'], ['chunqiu',3,'chunqiu-v000','chunqiu-v002'], ['huiyao',31,'huiyao-v000','huiyao-v030'], ['beimeng',6,'beimeng-v000','beimeng-v012'], ['kaoyi',3,'kaoyi-v028','kaoyi-v030']]) {
     const directory = (await (await fetch(`${base}/api/books/${id}/chapters`)).json()).chapters;
     assert.equal(directory.length, count);
     assert.equal(directory[0].id, first);
     assert.equal(directory.at(-1).id, last);
+    if (id === 'beimeng') assert.deepEqual(directory.map(chapter => chapter.id), ['beimeng-v000', 'beimeng-v017', 'beimeng-v018', 'beimeng-v019', 'beimeng-v020', 'beimeng-v012']);
     const chapter = await (await fetch(`${base}/api/chapters/${last}`)).json();
     assert.equal(chapter.bookId, id);
     assert.equal(chapter.scope, 'full');

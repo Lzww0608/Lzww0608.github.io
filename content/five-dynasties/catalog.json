@@ -88,7 +88,7 @@
       "author": "孙光宪撰",
       "kind": "史料笔记",
       "image": "",
-      "description": "选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。",
+      "description": "选四库全书本卷 12、17—20，另收提要与自序。卷 12 补充许承杰随母嫁许及相关人物逸事；传闻、原页疑字与各书异文分别保存，不表示二十卷已全部收录。",
       "defaultChapter": "beimeng-v017",
       "url": "https://zh.wikisource.org/wiki/%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
     },
@@ -10866,7 +10866,8 @@
         "kang-yanxiao",
         "li-yan-youzhou",
         "li-jiji",
-        "liu-zhijun"
+        "liu-zhijun",
+        "former-shu-chengjie-mother"
       ],
       "sourceLocalSubjectsOnly": true,
       "scope": "full",
@@ -10980,6 +10981,32 @@
         "sourceSha256": "45bb289e6b6816b0c3db141b74502ed1f641c6750e10b11fe5cc20da1ee8e4f9",
         "chapterSha256": "04e527a7a20999f57d0478b96c3cecaedad167071da87b765f1ed2388c5e2995",
         "captureNote": "修订号为主页面修订号；正文转引内容以本次保存的原文和文件校验值为准。"
+      }
+    },
+    {
+      "id": "beimeng-v012",
+      "bookId": "beimeng",
+      "volume": 12,
+      "position": 6,
+      "title": "卷 12",
+      "subjects": [
+        "former-shu-chengjie-mother",
+        "wang-jian-former-shu",
+        "zhang-wenwei"
+      ],
+      "scope": "full",
+      "paragraphCount": 36,
+      "characterCount": 4182,
+      "provenance": {
+        "pageTitle": "北夢瑣言 (四庫全書本)/卷12",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B712&oldid=2376621",
+        "revisionId": 2376621,
+        "fetchedAt": "2026-11-05T17:48:19.956497+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B712&action=history",
+        "sourceSha256": "d386a71756bb8107f0c69cf346160bd47786dc55ea30410d635e1bc1bbb8a5bb",
+        "chapterSha256": "141522c9d1f24d2a63f584ec6adf7d8050f9e2d4b33663e40946837829ee29dd"
       }
     }
   ]

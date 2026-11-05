@@ -27,7 +27,7 @@ BOOKS = [
     dict(id='shibu', title='五代史补', sourceTitle='五代史補', author='北宋 · 陶岳撰', kind='史料笔记', image='', description='五卷全文，另收提要、作者序与逸文。补充五朝人物和史事，宜与正史、编年史相互参证。', defaultChapter='shibu-v001'),
     dict(id='chunqiu', title='五代春秋', sourceTitle='五代春秋', author='北宋 · 尹洙撰', kind='编年史', image='', description='上下两卷全文及提要，简明记述后梁至后周的政权与史事，可与年表和《资治通鉴》对读。', defaultChapter='chunqiu-v001'),
     dict(id='huiyao', title='五代会要', sourceTitle='五代會要', author='北宋 · 王溥撰', kind='典章制度', image='', description='三十卷全文及提要，按专题收录五代帝号、礼制、职官、刑法、赋税、军政与四裔等资料。', defaultChapter='huiyao-v001'),
-    dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 17—20，另收提要与自序。保存晚唐五代人物逸事，传闻宜与其他史料参读。', defaultChapter='beimeng-v017'),
+    dict(id='beimeng', title='北梦琐言', sourceTitle='北夢瑣言 (四庫全書本)', author='孙光宪撰', kind='史料笔记', image='', description='选四库全书本卷 12、17—20，另收提要与自序。卷 12 补充许承杰随母嫁许及相关人物逸事；传闻、原页疑字与各书异文分别保存，不表示二十卷已全部收录。', defaultChapter='beimeng-v017'),
     dict(id='kaoyi', title='资治通鉴考异', sourceTitle='資治通鑑考異 (四庫全書本)', author='北宋 · 司马光撰', kind='史料考证', image='', description='完整收录卷 28—30 的五代部分，保存不同记述的异文与取舍理由，宜与《资治通鉴》对读。', defaultChapter='kaoyi-v028'),
     dict(id='shiguochunqiu', title='十国春秋', sourceTitle='十國春秋', author='清 · 吴任臣撰', kind='十国史 · 纪传体', image='', description='现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，卷 38 的前蜀后妃宗室列传，卷 39—41 的前蜀文臣与诸将列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。', defaultChapter='shiguochunqiu-v004'),
     dict(id='nantanglu', title='南唐书（陆游）', sourceTitle='陸氏南唐書', author='南宋 · 陆游撰', kind='十国史 · 纪传体', image='', description='现收卷 1 的烈祖本纪、卷 3 的后主本纪、卷 13 的刘潘李严张龚列传、卷 16 的后妃诸王列传及卷 17 的杂艺、方士、节义列传，完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。陆游与马令的两种《南唐书》分别编目；同作品不同版本仅作校读，不作独立复证。', defaultChapter='nantanglu-v001'),
@@ -778,8 +778,37 @@ def clean_text(node):
     if node.tag == 'br': return '\n'
     return ''.join(clean_text(child) if isinstance(child, Node) else child for child in node.children)
 
-def extract(html, with_tags=False, index_page=False):
+def extract(html, with_tags=False, index_page=False, inline_glyphs=None):
     blocks = []
+    read_text = clean_text
+    expected_glyph_counts, actual_glyph_counts = {}, {}
+    if inline_glyphs is not None:
+        if not isinstance(inline_glyphs, list) or not 1 <= len(inline_glyphs) <= 32:
+            raise ValueError('Invalid explicit inline glyph selection')
+        for glyph in inline_glyphs:
+            if (not isinstance(glyph, dict) or set(glyph) != {'alt', 'file', 'text', 'count'}
+                    or not isinstance(glyph['alt'], str) or not 1 <= len(glyph['alt']) <= 100
+                    or not isinstance(glyph['file'], str) or not re.fullmatch(r'SKQS_\d+\.svg', glyph['file'])
+                    or not isinstance(glyph['text'], str) or len(glyph['text']) != 1
+                    or glyph['text'].isspace() or glyph['text'] in '\ufffd。！？<>\x00'
+                    or type(glyph['count']) is not int or not 1 <= glyph['count'] <= 100
+                    or glyph['file'] in expected_glyph_counts):
+                raise ValueError('Invalid explicit inline glyph entry')
+            expected_glyph_counts[glyph['file']] = glyph['count']
+            actual_glyph_counts[glyph['file']] = 0
+        def read_text(node):
+            if excluded(node): return ''
+            if node.tag == 'br': return '\n'
+            if node.tag == 'img':
+                selected = [g for g in inline_glyphs if node.attrs.get('alt') == g['alt']
+                            and node.attrs.get('src', '').startswith('//thumb.wikimedia.org/wikipedia/commons/thumb/')
+                            and '/' + g['file'] + '/' in node.attrs.get('src', '')]
+                if len(selected) != 1:
+                    raise ValueError('Unselected inline image in retained source text')
+                glyph = selected[0]
+                actual_glyph_counts[glyph['file']] += 1
+                return glyph['text']
+            return ''.join(read_text(child) if isinstance(child, Node) else child for child in node.children)
     def append(value, tag):
         blocks.append((value, tag) if with_tags else value)
     def visit(node):
@@ -791,7 +820,7 @@ def extract(html, with_tags=False, index_page=False):
             # The older work header also contains a long bibliographic preface.
             def preface(child):
                 if child.tag == 'td':
-                    value = clean_text(child).strip()
+                    value = read_text(child).strip()
                     if len(value) > 300: append(value, 'td')
                     return
                 for item in child.children:
@@ -800,7 +829,7 @@ def extract(html, with_tags=False, index_page=False):
             return
         if excluded(node): return
         if node.tag in {'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'dt', 'dd', 'li'} or (index_page and node.tag == 'div' and re.search(r'float\s*:\s*right', node.attrs.get('style', '')) and not any(isinstance(child, Node) and child.tag == 'div' for child in node.children)):
-            value = clean_text(node)
+            value = read_text(node)
             value = re.sub(r'[\t\r\f\v ]+', ' ', value)
             value = re.sub(r' *\n *', '\n', value).strip()
             if value:
@@ -810,6 +839,8 @@ def extract(html, with_tags=False, index_page=False):
         for child in node.children:
             if isinstance(child, Node): visit(child)
     visit(Document(html).root)
+    if actual_glyph_counts != expected_glyph_counts:
+        raise ValueError('Inline glyph counts do not match selected source')
     return blocks
 
 def selected_transcription(payload):
@@ -939,6 +970,8 @@ def source_blocks(payload, with_tags=False):
     selection = payload.get('selection', {})
     if not isinstance(selection, dict):
         raise ValueError('Invalid source selection')
+    if 'inlineGlyphs' in selection and (set(selection) != {'inlineGlyphs'} or selection['inlineGlyphs'] is None):
+        raise ValueError('Invalid inline glyph source selection')
     # Presence matters: explicitly null/empty policies must never fall back.
     if 'transcription' in selection:
         blocks = transcribed_source_details(payload)['blocks']
@@ -946,7 +979,8 @@ def source_blocks(payload, with_tags=False):
     # One fixed page can contain several volumes; retain explicit source bounds.
     selection = payload.get('selection', {})
     blocks = extract(payload['response']['parse']['text']['*'], with_tags=True,
-                     index_page=selection.get('indexPage', False))
+                     index_page=selection.get('indexPage', False),
+                     inline_glyphs=selection.get('inlineGlyphs'))
     section = selection.get('sourceSection')
     if section is not None:
         if (set(section) != {'heading', 'untilHeading'}
@@ -973,6 +1007,8 @@ def request(params):
 
 def capture(spec, previous=None):
     transcription_selected = 'transcription' in spec
+    if 'inlineGlyphs' in spec and (spec['inlineGlyphs'] is None or transcription_selected or spec.get('sourceSection') or spec.get('indexPage')):
+        raise ValueError('Invalid inline glyph specification')
     if transcription_selected:
         if (spec['transcription'] is None or spec.get('sourceSection') is not None
                 or spec.get('indexPage') or selected_transcription({'selection': {'transcription': spec['transcription']}}) is None):
@@ -992,6 +1028,9 @@ def capture(spec, previous=None):
                 raise ValueError(f"Fixed source revision changed: {spec['id']}")
         cached_source = json.loads(path.read_text())
         validate_captured_transcription(cached_source, spec)
+        if (('inlineGlyphs' in cached_source.get('selection', {})) != ('inlineGlyphs' in spec)
+                or cached_source.get('selection', {}).get('inlineGlyphs') != spec.get('inlineGlyphs')):
+            raise ValueError(f"Inline glyph selection changed: {spec['id']}")
         if cached_source.get('selection', {}).get('sourceSection') != spec.get('sourceSection'):
             raise ValueError(f"Source section changed: {spec['id']}")
         cached = json.loads(chapter_path.read_text())
@@ -1006,8 +1045,12 @@ def capture(spec, previous=None):
         payload = dict(fetchedAt=datetime.now(timezone.utc).isoformat(), response=result)
         if spec.get('sourceSection'): payload['selection'] = {'sourceSection': spec['sourceSection']}
         if transcription_selected: payload['selection'] = {'transcription': spec['transcription']}
+        if 'inlineGlyphs' in spec: payload['selection'] = {'inlineGlyphs': spec['inlineGlyphs']}
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
     validate_captured_transcription(payload, spec)
+    if (('inlineGlyphs' in payload.get('selection', {})) != ('inlineGlyphs' in spec)
+            or payload.get('selection', {}).get('inlineGlyphs') != spec.get('inlineGlyphs')):
+        raise ValueError(f"Inline glyph selection changed: {spec['id']}")
     parsed = payload['response']['parse']
     if spec.get('fixedRevisionId') and parsed['revid'] != spec['fixedRevisionId']:
         raise ValueError(f"Fixed source revision changed: {spec['id']}")
@@ -1060,7 +1103,7 @@ def capture(spec, previous=None):
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')
-    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly', 'transcription'}}
+    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly', 'transcription', 'inlineGlyphs'}}
     summary.update(subjects=subjects, position=position, scope='full', paragraphCount=len(paragraphs), characterCount=length, provenance=dict(pageTitle=spec['page'], sourceUrl=source_url, revisionId=parsed['revid'], fetchedAt=payload['fetchedAt'], license=LICENSE, licenseUrl=LICENSE_URL, contributorsUrl='https://zh.wikisource.org/w/index.php?'+urllib.parse.urlencode(dict(title=spec['page'], action='history')), sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest(), chapterSha256=hashlib.sha256(chapter_path.read_bytes()).hexdigest()))
     print(f"{spec['id']}: {len(paragraphs)} blocks, {length} characters, revision {parsed['revid']}", flush=True)
     return summary
@@ -1086,6 +1129,14 @@ SOUTHERN_TANG_COMPLETE_NOTES.update(json.loads("{\"shiguochunqiu-v039\":[\"本�
 # Complete selected Former Shu source; legacy captures and default chapter stay fixed.
 SPECS.append(json.loads('{"id": "jiuguozhi-v006", "bookId": "jiuguozhi", "volume": 6, "position": 6, "title": "卷 6 · 前蜀人物列传", "page": "九國志/卷六", "subjects": ["dong-zhang", "former-shu-wang-jian-sister", "gao-jixing", "guo-chongtao", "li-jiji", "li-siyuan", "li-yan-youzhou", "liu-zhijun", "meng-zhixiang", "wang-jian-former-shu", "wang-yan-former-shu", "zhu-wen"], "sourceLocalSubjectsOnly": true, "fixedRevisionId": 2592883, "minimumCharacters": 9150, "minimumBlocks": 43, "transcription": {"renderedMainText": true, "headerTitle": "九國志卷六", "headerSummary": "前蜀〈高祖以唐大順二年入成都，至後主成康二年國滅，父子二世，凡三十五年。〉", "headerAuthor": "作者：路振\u3000北宋"}}'))
 SOUTHERN_TANG_COMPLETE_NOTES['jiuguozhi-v006'] = json.loads('["完整保存本卷卷题、前蜀提要、人物列传、夹注及卷页标记，不表示《九国志》全书已经收录。", "《九国志》原作者为北宋路振；今本由清周梦棠据《永乐大典》散篇重辑。世家目与略注始末属于后出编排层，卷首“成康二年”与正文“咸康”等字依各位置保存。", "据维基文库父页修订2592883保存的渲染文本；页面所引模板、子页修订未逐一固定。原作公版，维基文库整理文本依CC BY-SA 4.0署名并以相同方式共享，底本与引书关系分别理解。", "原页异文提示与主字分开保存，不把两种字形连成新姓名或正文。", "原页异文：第4段“會黃巢亂，與鹿晏宏等西迎僖宗于蜀，”中的“宏”另示“弘”；主字照存。", "原页异文：第12段“萬八千一百三十五\u3000一頁。〉”中的全角空白另示“第”；主字照存。", "原页异文：第34段“頭營十將，從鹿晏宏迎駕。至山南，晏”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“迎駕。至山南，晏宏遲留不行，暉素與”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“：「鑾駕將囘，晏宏觀望不進，而姑息”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“之舉，不爾，爲晏宏所累，且宮車反正”中的“宏”另示“弘”；主字照存。", "原页异文：第34段“爲王妃矣。」分封宏農郡王。卒，年七”中的“宏”另示“弘”；主字照存。", "原页异文：第36段“𨽾忠武軍。從鹿晏宏出征，及晏宏據褒”中的“宏”另示“弘”；主字照存。", "原页异文：第36段“鹿晏宏出征，及晏宏據褒中，心無囘志”中的“宏”另示“弘”；主字照存。", "原页异文：第40段“𨽾忠武軍。從鹿晏宏出征有功，遷爲列”中的“宏”另示“弘”；主字照存。", "原页异文：第42段“壽泣諫衍，在迎等紹以酒悲，自是大臣”中的“紹”另示“紿”；主字照存。"]')
+
+# H117: one complete fixed earlier household witness; existing captures and positions stay unchanged.
+SPECS.append(json.loads("{\"id\":\"beimeng-v012\",\"bookId\":\"beimeng\",\"volume\":12,\"position\":6,\"title\":\"卷 12\",\"page\":\"北夢瑣言 (四庫全書本)/卷12\",\"subjects\":[\"former-shu-chengjie-mother\",\"wang-jian-former-shu\",\"zhang-wenwei\"],\"sourceLocalSubjectsOnly\":true,\"fixedRevisionId\":2376621,\"minimumCharacters\":4182,\"minimumBlocks\":36,\"inlineGlyphs\":[{\"alt\":\"鬼\",\"file\":\"SKQS_3932.svg\",\"text\":\"鬼\",\"count\":4},{\"alt\":\"⿱冝八 -- 𡨋\",\"file\":\"SKQS_2682.svg\",\"text\":\"𡨋\",\"count\":1},{\"alt\":\"負\",\"file\":\"SKQS_3688.svg\",\"text\":\"負\",\"count\":2}]}"))
+SOUTHERN_TANG_COMPLETE_NOTES['beimeng-v012'] = json.loads("[\"完整保存四库全书本卷十二的卷题、作者原署、题行、正文、夹注及卷末文字；原文不补标点，不表示全书二十卷已经收录。\",\"据维基文库父页修订2376621保存的渲染文本；所引模板、字图及子页修订未逐一固定。原作公版，维基文库整理文本依CC BY-SA 4.0署名并以相同方式共享。\",\"原页七处字图按明确字形说明保留为鬼、𡨋、負；页面已有的替代字符及疑字照存，不据别本回填。原署唐孙光宪撰，署名层次与作者生平、成书年代分开理解。\",\"本卷许承杰附记将其原父记作黔使君禧实，《十国春秋》作实；本页垂纷错不据他本垂鱼纷错补字。同源引文与不同版本不作独立复证；神异叙事不作已证因果。\"]")
+
+# H117: catalog links for the same explicitly attributed legacy paragraph.
+_h117_sg39 = next(spec for spec in SPECS if spec['id'] == 'shiguochunqiu-v039')
+_h117_sg39['subjects'] = list(dict.fromkeys([*_h117_sg39['subjects'], 'former-shu-chengjie-mother']))
 
 def main():
     # The physical archive keeps its historical path and all existing IDs.

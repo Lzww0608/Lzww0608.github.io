@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 17,
-    "chapterCount": 269,
-    "paragraphCount": 11002
+    "chapterCount": 270,
+    "paragraphCount": 11038
   },
   "people": [
     {
@@ -1904,6 +1904,10 @@
       "name": "晋国夫人（王建姊）"
     },
     {
+      "id": "former-shu-chengjie-mother",
+      "name": "王宗播妻（承杰母）"
+    },
+    {
       "id": "liu-yu-song",
       "name": "刘裕"
     },
@@ -3366,6 +3370,110 @@
         {
           "personId": "liu-zhijun",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v012-p9",
+      "chapterId": "beimeng-v012",
+      "title": "卷 12 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v012-p9",
+          "originalRevision": 1,
+          "originalSha256": "e7b355c0b6ac77bcea41c0ddad38471c64ca06a1d1c8728bf85e2e067021bfd0",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhang-wenwei",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v012-p13",
+      "chapterId": "beimeng-v012",
+      "title": "卷 12 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v012-p13",
+          "originalRevision": 1,
+          "originalSha256": "9dca197ea23ca53634b5f7489d7909462423238b8c3d3dbc836b285780bca1e3",
+          "start": 0,
+          "end": 347
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v012-p17",
+      "chapterId": "beimeng-v012",
+      "title": "卷 12 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v012-p17",
+          "originalRevision": 1,
+          "originalSha256": "55439c536b4d9e43d8941588479e6863713450407682f8c95fc82f7ff817c28f",
+          "start": 0,
+          "end": 712
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-chengjie-mother",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v012-p33",
+      "chapterId": "beimeng-v012",
+      "title": "卷 12 · 第 33 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v012-p33",
+          "originalRevision": 1,
+          "originalSha256": "dbcda082a9dcfab3a4c6766d80c0e4cd1dea34f066a7a8f9fe191be72b1d90c3",
+          "start": 0,
+          "end": 366
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v012-p35",
+      "chapterId": "beimeng-v012",
+      "title": "卷 12 · 第 35 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v012-p35",
+          "originalRevision": 1,
+          "originalSha256": "9fe89c3e61d76ed88d26ec288776c578df3b9752d2a7a19b26c477b151a53f9a",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "people": [
+        {
+          "personId": "zhang-wenwei",
+          "kind": "mention"
         }
       ]
     },
@@ -131069,6 +131177,10 @@
       "people": [
         {
           "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-chengjie-mother",
           "kind": "record"
         }
       ]

@@ -5303,6 +5303,28 @@
       "sourceScope": {
         "chapterIds": []
       }
+    },
+    {
+      "personId": "former-shu-chengjie-mother",
+      "names": [
+        "王宗播妻（承杰母）",
+        "王宗播妻（承傑母）",
+        "承杰母（王宗播妻）",
+        "承傑母（王宗播妻）",
+        "前蜀王宗播妻",
+        "前蜀承杰母",
+        "前蜀承傑母",
+        "许存妻（承杰母）",
+        "許存妻（承傑母）",
+        "许承杰母",
+        "許承傑母"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -15957,6 +15979,26 @@
       "reason": "史家因避孟知祥名讳追改周庠称名的说明，不是孟知祥授周庠官职或命其本人改名。",
       "originalRevision": 1,
       "originalSha256": "c1137161842d2e7de38f96bbc42c7b5dddafa67ea70a6d222298aa4df7f0750a"
+    },
+    {
+      "personId": "pang-shigu",
+      "paragraphId": "beimeng-v012-p17",
+      "terms": [
+        "師古"
+      ],
+      "reason": "不请师古是效法古人之义，并非庞师古。",
+      "originalRevision": 1,
+      "originalSha256": "55439c536b4d9e43d8941588479e6863713450407682f8c95fc82f7ff817c28f"
+    },
+    {
+      "personId": "gao-xingzhou",
+      "paragraphId": "beimeng-v012-p27",
+      "terms": [
+        "行周"
+      ],
+      "reason": "明确为李敬彝家人张行周，不是高行周。",
+      "originalRevision": 1,
+      "originalSha256": "d6e87868e62cbde5eee979e2d029e0258e349f30c0873003e8cdbf3b6aa8a5d1"
     }
   ],
   "regnalEdicts": {
@@ -16466,7 +16508,8 @@
         "shiguochunqiu-v041",
         "old-v067",
         "shiguochunqiu-v039",
-        "jiuguozhi-v006"
+        "jiuguozhi-v006",
+        "beimeng-v012"
       ]
     }
   }

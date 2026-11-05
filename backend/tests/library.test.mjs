@@ -181,9 +181,9 @@ test('Li Keyong topic reuses existing officers and binds new military evidence t
 
 
 test('the five additions retain complete selected volumes, separate prefaces and correct genres', () => {
-  for (const [bookId, first, last, hasPreface] of [['shibu',1,5,true], ['chunqiu',1,2,true], ['huiyao',1,30,true], ['beimeng',17,20,true], ['kaoyi',28,30,false]]) {
+  for (const [bookId, first, last, hasPreface, appendedVolumes = []] of [['shibu',1,5,true], ['chunqiu',1,2,true], ['huiyao',1,30,true], ['beimeng',17,20,true,[12]], ['kaoyi',28,30,false]]) {
     const entries = catalog.chapters.filter(c => c.bookId === bookId).sort((a,b) => a.position-b.position);
-    assert.deepEqual(entries.map(c => c.volume), [...(hasPreface ? [0] : []), ...Array.from({length:last-first+1}, (_,i) => first+i)]);
+    assert.deepEqual(entries.map(c => c.volume), [...(hasPreface ? [0] : []), ...Array.from({length:last-first+1}, (_,i) => first+i), ...appendedVolumes]);
     const book = catalog.books.find(b => b.id === bookId);
     assert.equal(entries.find(c => c.id === book.defaultChapter).volume, first);
     assert.ok(entries.every(c => c.provenance.license === catalog.license));

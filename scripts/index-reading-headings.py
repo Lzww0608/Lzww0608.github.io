@@ -83,6 +83,10 @@ def build_index():
             level = heading_level(tag, text, summary['bookId'])
             if text in titles:
                 level = 2 if re.fullmatch(r'(?:北夢瑣言|資治通鑑考異)卷[一二三四五六七八九十]+', text) else 3
+            # Fixed new volume: complete standalone source titles, including attached captions.
+            # Exact paragraph text prevents applying this layout to a changed original.
+            if summary['id'] == 'beimeng-v012' and text == {"beimeng-v012-p6":"楊𭣣不學仙","beimeng-v012-p10":"栁大夫不受潤筆〈李徳陽附〉","beimeng-v012-p12":"楊寅疑相術〈李暠附〉","beimeng-v012-p14":"楊鑣偶大姑神〈史光澤附〉","beimeng-v012-p16":"栁氏子幞頭腳〈許承傑李思益附〉","beimeng-v012-p18":"鐵𥙷闕貞澹","beimeng-v012-p22":"沈尚書非命〈劉建封附〉","beimeng-v012-p24":"王潛司徒燒紙錢〈秦威儀附〉","beimeng-v012-p26":"崔從事為廟神賜藥〈李氏土地神附〉","beimeng-v012-p32":"塹杜氏山岡事〈鮮于仲通唐氏嚴氏附〉"}.get(paragraph['id']):
+                level = 3
             if summary['id'] == 'beimeng-v000' and (text == '北夢瑣言序' or text.startswith('北夢瑣言') and text.endswith('提要')):
                 level = 2
             if level:
