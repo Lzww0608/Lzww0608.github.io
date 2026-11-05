@@ -45,6 +45,35 @@ test('archived books join private filters without authorizing unarchived authors
   }
 });
 
+test('Southern source review filters survive chapter reading and the return to the review list', () => {
+  for (const [bookId, chapterId] of [['songshu', 'songshu-v005'], ['nanshi', 'nanshi-v002']]) {
+    const selected = { ...filters, personId: 'liu-yilong-song', bookId, status: 'retained', category: 'translation', offset: 50 };
+    const route = ownerReviewRoute(selected);
+    assert.deepEqual(resolveOwnerReviewRoute(route), selected);
+    assert.equal(resolveRoute(`#${route}`), route);
+    const chapter = libraryChapters.find(value => value.id === chapterId);
+    const reading = resolveReadingRoute(chapterRoute(chapter, { query: '', field: 'both', returnTo: route, paragraphId: `${chapterId}-p1` }));
+    assert.equal(reading.returnTo, route);
+    assert.deepEqual(resolveOwnerReviewRoute(reading.returnTo), selected);
+    assert.equal(resolveOwnerReviewRoute(`owner-review?personId=unknown&bookId=${bookId}`), null);
+    assert.equal(resolveOwnerReviewRoute(`owner-review?bookId=${bookId}&bookId=old`), null);
+    assert.equal(resolveOwnerReviewRoute(`owner-review?bookId=${bookId.toUpperCase()}`), null);
+  }
+});
+
+test('Southern source review responses retain exact book filters and reject another book', () => {
+  // Schema fixtures only; no private finding or historical attribution is published.
+  for (const [bookId, chapterId] of [['songshu', 'songshu-v005'], ['nanshi', 'nanshi-v002']]) {
+    const paragraphId = `${chapterId}-p1`;
+    const entry = { ...item, personId: 'liu-yilong-song', personName: '刘义隆', bookId, chapterId, paragraphId,
+      evidence: [{ chapterId, paragraphId, excerpt: '武皇。' }] };
+    const response = { ...page, subjects: [{ id: 'liu-yilong-song', name: '刘义隆' }], items: [entry] };
+    assert.deepEqual(parseOwnerReviewResponse(response, { ...filters, personId: 'liu-yilong-song', bookId }).items, [entry]);
+    assert.throws(() => parseOwnerReviewResponse(response, { ...filters, bookId: bookId === 'songshu' ? 'nanshi' : 'songshu' }));
+    assert.throws(() => parseOwnerReviewResponse({ ...response, items: [{ ...entry, bookId: 'unknown' }] }, filters));
+  }
+});
+
 test('Shiguo Chunqiu private responses retain exact book filtering and reject an unregistered book', () => {
   // Schema fixture only; no private finding or historical attribution is published.
   const chapterId = 'shiguochunqiu-v004', paragraphId = `${chapterId}-p1`;
