@@ -706,10 +706,37 @@
           "originalRevision": 1,
           "originalSha256": "43a31b69dbf362e3635368e93af6d46cc1bb2101bdda87b7b490c2badf7b99d2",
           "excerpt": "夏五月乙酉，皇太后令暴帝過惡，廢為營陽王。一依漢昌邑、晉海西故事。奉迎鎮西將軍宜都王義隆入纂皇統。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p3",
+          "originalRevision": 1,
+          "originalSha256": "8ba6a3beedd2374dd31fe2a415f9797b91956174bf12fc7b7a86abfb2ef16991",
+          "excerpt": "其年少帝廢，百官議所立，徐羨之、傅亮等以禎符所集，備法駕奉迎，入奉皇統。"
         }
       ],
       "notes": [
         "令中的失德、淫戏、耗费等罪状保留为太后令的政治指控，不与独立叙事混为已获复证的事实。此处记奉迎宜都王，不补其正式即位日期。"
+      ],
+      "variants": [
+        {
+          "label": "《宋书》文帝纪记七月中被废",
+          "year": 424,
+          "sourceDate": "景平二年七月中",
+          "summary": "《宋书》文帝纪记“景平二年七月中，少帝废”；少帝本纪和《南史》记五月乙酉，两处月份不同。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v005",
+              "paragraphId": "songshu-v005-p3",
+              "originalRevision": 1,
+              "originalSha256": "8915a5f45b6e00d783062a932110b306df4d05da027e9053f9aa8fe96416b9cf",
+              "excerpt": "景平二年七月中，少帝廢。"
+            }
+          ],
+          "notes": [
+            "文帝纪此处直述少帝被废，未说此时才得知被废。该记月与少帝本纪五月乙酉被废、六月癸丑被弑的叙次分别保留。"
+          ]
+        }
       ]
     },
     {
@@ -782,6 +809,36 @@
       ],
       "notes": [
         "徐羡之等遣使与邢安泰执行分别记载；不把谢晦、檀道济率兵入宫写成他们亲手行弑，也不以十九岁倒推出唯一生年。"
+      ]
+    },
+    {
+      "id": "liu-yifu-song-lang-nanfeng-sacrificial-succession",
+      "title": "立朗为南丰王，奉营阳王祀",
+      "summary": "《南史》记文帝朝立江夏王义恭的儿子朗为南丰王，奉营阳王刘义符祀。",
+      "year": 433,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 24,
+      "sourceDate": "元嘉九年冬十二月庚寅",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p46",
+          "originalRevision": 1,
+          "originalSha256": "5cfaaad5efaa441c012fb500c1d63644bb06e7544a3daecaa61cec3c8615c458",
+          "excerpt": "冬十二月庚寅，立皇子紹為廬陵王，奉孝獻王祀；江夏王義恭子朗為南豐王，奉營陽王祀。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p74",
+          "originalRevision": 1,
+          "originalSha256": "bc9f2d276c5a8ba1c745060c9bda49674e934e2c62dcd89dfc5683afb1ca86de",
+          "excerpt": "十二月甲戌，以右軍參軍李秀之為交州刺史。庚寅，立第五皇子紹為廬陵王，江夏王義恭子朗為南豐縣王。"
+        }
+      ],
+      "notes": [
+        "这是刘义符死后的奉祀安排，不能写成刘义符生子或生前收养朗。",
+        "《宋书》同日称朗为南丰县王，未明记奉营阳王祀；奉祀据《南史》。同段绍奉孝献王祀另是一事。"
       ]
     },
     {

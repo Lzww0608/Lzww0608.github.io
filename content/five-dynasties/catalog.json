@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—4武帝纪、少帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—5武帝纪、少帝纪、文帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -187,7 +187,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1宋本纪上完整文本，包括武帝与少帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—2宋本纪上、中完整文本，包括武帝、少帝、文帝、孝武帝与前废帝，保留原页标题、正文与史论，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/南史",
       "defaultChapter": "nanshi-v001"
     }
@@ -10930,6 +10930,56 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B735&action=history",
         "sourceSha256": "92ab8ea5c1a4b63f6d5d60e230b442fc5edd92da4ca006dbc1d2f08fc19c4e68",
         "chapterSha256": "cc0e60c5679486eb3900410027bfac7594303546b7747e93469ef817b695e617"
+      }
+    },
+    {
+      "id": "songshu-v005",
+      "bookId": "songshu",
+      "volume": 5,
+      "position": 5,
+      "title": "卷 5 · 文帝",
+      "subjects": [
+        "liu-yilong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 306,
+      "characterCount": 15165,
+      "provenance": {
+        "pageTitle": "宋書/卷5",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B75&oldid=2370105",
+        "revisionId": 2370105,
+        "fetchedAt": "2026-10-31T12:04:52.331720+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B75&action=history",
+        "sourceSha256": "47bf888bffd978564aa2028d4373f0aa6b001c32a01ffe1be945fc2229894a8f",
+        "chapterSha256": "8a580c4aad165984d8c3f5502966870232a85e4c59355c69dbdafa47b3b6c49d",
+        "captureNote": "修订号为主页面修订号；正文转引内容以本次保存的原文和文件校验值为准。"
+      }
+    },
+    {
+      "id": "nanshi-v002",
+      "bookId": "nanshi",
+      "volume": 2,
+      "position": 2,
+      "title": "卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+      "subjects": [
+        "liu-yilong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 294,
+      "characterCount": 12692,
+      "provenance": {
+        "pageTitle": "南史/卷02",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B702&oldid=1561232",
+        "revisionId": 1561232,
+        "fetchedAt": "2026-10-31T12:04:54.272221+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B702&action=history",
+        "sourceSha256": "45bb289e6b6816b0c3db141b74502ed1f641c6750e10b11fe5cc20da1ee8e4f9",
+        "chapterSha256": "04e527a7a20999f57d0478b96c3cecaedad167071da87b765f1ed2388c5e2995",
+        "captureNote": "修订号为主页面修订号；正文转引内容以本次保存的原文和文件校验值为准。"
       }
     }
   ]

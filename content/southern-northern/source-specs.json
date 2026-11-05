@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—4武帝纪、少帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—5武帝纪、少帝纪、文帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -18,7 +18,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1宋本纪上完整文本，包括武帝与少帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—2宋本纪上、中完整文本，包括武帝、少帝、文帝、孝武帝与前废帝，保留原页标题、正文与史论，不表示全书已收录。",
       "defaultChapter": "nanshi-v001"
     }
   ],
@@ -97,6 +97,36 @@
       "sourceLocalSubjectsOnly": true,
       "minimumCharacters": 2966,
       "minimumBlocks": 42
+    },
+    {
+      "id": "songshu-v005",
+      "bookId": "songshu",
+      "volume": 5,
+      "position": 5,
+      "title": "卷 5 · 文帝",
+      "page": "宋書/卷5",
+      "subjects": [
+        "liu-yilong-song"
+      ],
+      "fixedRevisionId": 2370105,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 15165,
+      "minimumBlocks": 306
+    },
+    {
+      "id": "nanshi-v002",
+      "bookId": "nanshi",
+      "volume": 2,
+      "position": 2,
+      "title": "卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+      "page": "南史/卷02",
+      "subjects": [
+        "liu-yilong-song"
+      ],
+      "fixedRevisionId": 1561232,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 12692,
+      "minimumBlocks": 294
     }
   ]
 }

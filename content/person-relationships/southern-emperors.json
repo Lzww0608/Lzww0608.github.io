@@ -1230,5 +1230,1347 @@
         "excerpt": "盛等先戒宿衛，莫有禦者。"
       }
     ]
+  },
+  {
+    "id": "liu-yilong-song-mother-hu",
+    "from": "song-liu-yilong-mother-hu",
+    "to": "liu-yilong-song",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "两书明言“所生”，记文帝追尊胡婕妤；未记其本名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "甲辰，追尊所生胡婕妤為皇太后，諡曰章后。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "甲辰，追尊所生胡婕妤為章皇太后，封皇弟義恭為江夏王，義宣為竟陵王，義季為衡陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-consort-yuan",
+    "from": "liu-yilong-song",
+    "to": "song-liu-yilong-consort-yuan",
+    "kind": "kinship",
+    "label": "夫妻（袁皇后）",
+    "note": "本纪立妃袁氏为皇后，后记其崩及元皇后葬长宁陵。立后日期不当作始婚日期，未明其为哪位皇子生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p5",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "32705c319620fc409d90ed3255caf92d5bad8e81ff1e07f925660923023e1b9b",
+        "excerpt": "九月丙子，立妃袁氏為皇后。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p132",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0aac876ee472bd6089dfe05cb9a16dd38ab18f5cf34f26622b082ce26129ca1b",
+        "excerpt": "壬子，皇后袁氏崩。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p134",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "9e3204bd4a962cd6df41e320477d6a909703a3334bddec3ce75f0b5443fc17ca",
+        "excerpt": "九月壬子，葬元皇后於長寧陵。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-shao-song",
+    "from": "liu-yilong-song",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "父子（劭）",
+    "note": "文帝之子，本纪记其生及立太子，未明称第一皇子或长子。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p14",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "a84806571daeb3d8045ff80c2c9f6450c9b96a729393104cef41765fd3a51f28",
+        "excerpt": "閏月丙戌，皇子劭生。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p40",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "c19f5ebd6e8e32bd9fbd06c2b49e4464cd1f63cd26315217b846108411fe821a",
+        "excerpt": "三月丁巳，立皇子劭為皇太子。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-jun-shixing-song",
+    "from": "liu-yilong-song",
+    "to": "liu-jun-shixing-song",
+    "kind": "kinship",
+    "label": "父子（第2皇子）",
+    "note": "文帝第二皇子始兴王，宋书濬与南史浚同次封王可对应；不是第三子刘骏。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p106",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "9d6866295cab44d672ce9c9140ff02927bf6e30546c4d61c0dcbe711653debde",
+        "excerpt": "九月癸丑，立第二皇子濬為始興王，第三皇子駿為武陵王。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p65",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "791a81cc39a627a67d6ccd7062d1efa2e26a3366ee539fb759ad06a2972a8eda",
+        "excerpt": "九月癸丑，立皇子浚為始興王、駿為武陵王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-jun-song",
+    "from": "liu-yilong-song",
+    "to": "liu-jun-song",
+    "kind": "kinship",
+    "label": "父子（第3皇子）",
+    "note": "文帝第三皇子武陵王，后为孝武帝；不是刘濬。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p106",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "9d6866295cab44d672ce9c9140ff02927bf6e30546c4d61c0dcbe711653debde",
+        "excerpt": "九月癸丑，立第二皇子濬為始興王，第三皇子駿為武陵王。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p169",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "3cda683c90a176174979572a80a41020ab8ca35699309fe629a4776268afe6e4",
+        "excerpt": "世祖孝武皇帝，諱駿，字休龍，小字道人，文帝第三子也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-shuo-song",
+    "from": "liu-yilong-song",
+    "to": "liu-shuo-song",
+    "kind": "kinship",
+    "label": "父子（第4皇子）",
+    "note": "文帝第四皇子，封南平王；不是文帝之弟刘义康。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p125",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "dc18db0194f00b549244e7994910331eaa5a3b07fc9c25664111df4e790f3d13",
+        "excerpt": "秋八月庚子，立第四皇子鑠為南平王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-shao-luling-song",
+    "from": "liu-yilong-song",
+    "to": "liu-shao-luling-song",
+    "kind": "kinship",
+    "label": "父子（第5皇子）",
+    "note": "文帝第五皇子，封庐陵王；与劭、早先庐陵王刘义真分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p74",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "bc9f2d276c5a8ba1c745060c9bda49674e934e2c62dcd89dfc5683afb1ca86de",
+        "excerpt": "庚寅，立第五皇子紹為廬陵王，江夏王義恭子朗為南豐縣王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-dan-song",
+    "from": "liu-yilong-song",
+    "to": "liu-dan-song",
+    "kind": "kinship",
+    "label": "父子（第6皇子）",
+    "note": "文帝第六皇子，封广陵王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p162",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "f5f2c4cc9e2e79342aa5a48908ceaadaa9c19bb6fa22332017c63ae70eb4048c",
+        "excerpt": "夏四月甲午，立第六皇子誕為廣陵王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-hong-song",
+    "from": "liu-yilong-song",
+    "to": "liu-hong-song",
+    "kind": "kinship",
+    "label": "父子（第7皇子）",
+    "note": "文帝第七皇子，封建平王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p171",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "bffb82ed1016cd4891e053ce4b3a7d600b90f5ce81710548cfe235b41c146263",
+        "excerpt": "辛卯，立第七皇子宏為建平王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-yilong-song-son-eight-donghai",
+    "from": "liu-yilong-song",
+    "to": "liu-yilong-song-son-eight-donghai",
+    "kind": "kinship",
+    "label": "父子（第8皇子）",
+    "note": "文帝第八皇子，封东海王；原衣旁褘简为袆，不作示旁祎。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p181",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "68525eae2d5915cdb4d7828f48078035b724fd20c64582b37212521f9fdadb93",
+        "excerpt": "甲戌，立第八皇子褘為東海王，第九皇子昶為義陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-chang-song",
+    "from": "liu-yilong-song",
+    "to": "liu-chang-song",
+    "kind": "kinship",
+    "label": "父子（第9皇子）",
+    "note": "文帝第九皇子，封义阳王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p181",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "68525eae2d5915cdb4d7828f48078035b724fd20c64582b37212521f9fdadb93",
+        "excerpt": "甲戌，立第八皇子褘為東海王，第九皇子昶為義陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-hun-song",
+    "from": "liu-yilong-song",
+    "to": "liu-hun-song",
+    "kind": "kinship",
+    "label": "父子（第10皇子）",
+    "note": "文帝第十皇子，封汝阴王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p208",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "5c25b3774e9fb190e10f4903504f026ab70bab6b89ffe1fb81bb6e69213d558f",
+        "excerpt": "十一月甲寅，立第十皇子渾為汝陰王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-yu-xiangdong-song",
+    "from": "liu-yilong-song",
+    "to": "liu-yu-xiangdong-song",
+    "kind": "kinship",
+    "label": "父子（第11皇子）",
+    "note": "文帝第十一皇子，先封淮阳王，后改封湘东王；与文帝之父刘裕分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p218",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "271b8dcb6f6ea2b9cc3dd1b5d8850b92bbbd3b9c93fa3337eb475c24c6089eec",
+        "excerpt": "甲子，立第十一皇子彧為淮陽王。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p255",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "a96af84f3b1c795b6e56cf2011840ff0773890323bb05f9a29b2e76d78cb5b48",
+        "excerpt": "秋七月壬辰，汝陰王渾改封武昌王，淮陽王彧改封湘東王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-son-liu-xiuren-song",
+    "from": "liu-yilong-song",
+    "to": "liu-xiuren-song",
+    "kind": "kinship",
+    "label": "父子（第12皇子）",
+    "note": "文帝第十二皇子，封建安王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p251",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "f73a5d716fb3ad1778fcc092a0bee5c3cc32af64a70a9e4ae8b8a12a342536b7",
+        "excerpt": "戊午，[39]立第十二皇子休仁為建安王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-daughter-xincai",
+    "from": "liu-yilong-song",
+    "to": "song-liu-yilong-daughter-xincai",
+    "kind": "kinship",
+    "label": "父女（第十女）",
+    "note": "《南史》明称文帝第十女新蔡公主；纳为贵嫔、改谢姓的施事为前废帝，非文帝。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p287",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "0c92f6558576e1ad3b2afc7af5deec25c6402556f47405ebfe185b4544e47f81",
+        "excerpt": "以文帝第十女新蔡公主為貴嬪夫人，改姓謝氏。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yifu",
+    "from": "liu-yifu-song",
+    "to": "liu-yilong-song",
+    "kind": "kinship",
+    "label": "同父兄弟（义符、义隆）",
+    "note": "少帝传称义符为武帝长子，文帝传称义隆为武帝第三子，故为同父兄弟；未据此认定同母。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v001",
+        "paragraphId": "nanshi-v001-p91",
+        "title": "《南史》卷 1 · 宋本纪上第一（武帝、少帝）",
+        "originalRevision": 1,
+        "originalSha256": "8a25ee02e3f878490c4fe991fbdcecaa14a7783d5067f63e72179a56d22de970",
+        "excerpt": "少帝諱義符，小字車兵，武帝長子也。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p2",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "0172d1a439b2914e5edd0d6d1043d40d48cf1ca4db39f7621824cda65681e108",
+        "excerpt": "太祖文皇帝諱義隆，小字車兒，武帝第三子也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yizhen",
+    "from": "liu-yizhen-song",
+    "to": "liu-yilong-song",
+    "kind": "kinship",
+    "label": "同父兄弟（义真、义隆）",
+    "note": "武帝纪明言义真次子、义隆第三子，又立义真为庐陵王。文帝即位后诏追复庐陵王先封、迎灵柩；未据此认定同母或文帝参与其被杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p22",
+        "title": "《宋书》卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "4c57929997adb35e5af4cf0a57386e607229547916b822e460b07d8748222bf7",
+        "excerpt": "九月，封公次子義真為桂陽縣公，以賞平齊及定盧循也。"
+      },
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p35",
+        "title": "《宋书》卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "7dccb9d9097e4160b1feed394b6cc687fb9595513ebab5e89ac044c338777866",
+        "excerpt": "封公第三子義隆為北彭城縣公。"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p7",
+        "title": "《宋书》卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "33cf5fb3090d73e0763f1312e3649c5506dbbababb1104d1a9a0186f6ae468df",
+        "excerpt": "乙亥，立桂陽公義真為廬陵王，彭城公義隆為宜都王，第四皇子義康為彭城王。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "詔追復廬陵王先封，奉迎靈柩。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yikang",
+    "from": "liu-yilong-song",
+    "to": "liu-yikang-song",
+    "kind": "kinship",
+    "label": "同父兄弟（义隆、义康）",
+    "note": "武帝纪称义隆第三子、义康第四皇子，故为同父兄弟；不认定同母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v002",
+        "paragraphId": "songshu-v002-p35",
+        "title": "《宋书》卷 2 · 武帝中",
+        "originalRevision": 1,
+        "originalSha256": "7dccb9d9097e4160b1feed394b6cc687fb9595513ebab5e89ac044c338777866",
+        "excerpt": "封公第三子義隆為北彭城縣公。"
+      },
+      {
+        "chapterId": "songshu-v003",
+        "paragraphId": "songshu-v003-p7",
+        "title": "《宋书》卷 3 · 武帝下",
+        "originalRevision": 1,
+        "originalSha256": "33cf5fb3090d73e0763f1312e3649c5506dbbababb1104d1a9a0186f6ae468df",
+        "excerpt": "乙亥，立桂陽公義真為廬陵王，彭城公義隆為宜都王，第四皇子義康為彭城王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yigong",
+    "from": "liu-yilong-song",
+    "to": "liu-yigong-song",
+    "kind": "kinship",
+    "label": "兄弟（皇弟义恭）",
+    "note": "南史文帝即位后封皇弟义恭为江夏王，明文帝之弟，未明同母或其他排行。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "甲辰，追尊所生胡婕妤為章皇太后，封皇弟義恭為江夏王，義宣為竟陵王，義季為衡陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yixuan",
+    "from": "liu-yilong-song",
+    "to": "liu-yixuan-song",
+    "kind": "kinship",
+    "label": "兄弟（皇弟义宣）",
+    "note": "文帝纪明称“第六皇弟義宣”，封竟陵王；未明生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "立第六皇弟義宣為竟陵王，第七皇弟義季為衡陽王。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "甲辰，追尊所生胡婕妤為章皇太后，封皇弟義恭為江夏王，義宣為竟陵王，義季為衡陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-brother-yiji",
+    "from": "liu-yilong-song",
+    "to": "liu-yiji-song",
+    "kind": "kinship",
+    "label": "兄弟（皇弟义季）",
+    "note": "文帝纪明称“第七皇弟義季”，封衡阳王；未明生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "立第六皇弟義宣為竟陵王，第七皇弟義季為衡陽王。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "甲辰，追尊所生胡婕妤為章皇太后，封皇弟義恭為江夏王，義宣為竟陵王，義季為衡陽王。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-xu-xianzhi-song",
+    "from": "liu-yilong-song",
+    "to": "xu-xianzhi-song",
+    "kind": "service",
+    "label": "进位司徒与奉表归政",
+    "note": "元嘉初进位司徒，次年与另一辅臣奉表归政，文帝始亲览。后记其伏诛，该句未明处刑命令或执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "癸卯，司空、錄尚書事、揚州刺史徐羨之進位司徒，衞將軍、江州刺史王弘進位司空，中書監、護軍將軍傅亮加左光祿大夫、開府儀同三司，撫軍將軍、荊州刺史謝晦進號衞將軍，鎮北將軍、南兗州刺史檀道濟進號征北將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p7",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "00c9e35fa78ea775786dc0850e3841970e7cff583b214c890f24fb333d734af3",
+        "excerpt": "二年春正月丙寅，司徒徐羨之、尚書令傅亮奉表歸政，上始親覽。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "三年春正月丙寅，司徒、錄尚書事、揚州刺史徐羨之，尚書令、護軍將軍、左光祿大夫傅亮，有罪伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-fu-liang-song",
+    "from": "liu-yilong-song",
+    "to": "fu-liang-song",
+    "kind": "service",
+    "label": "加授左光禄大夫、开府仪同三司与奉表归政",
+    "note": "元嘉初加授左光禄大夫、开府仪同三司，次年与另一辅臣奉表归政，文帝始亲览。后记其伏诛，该句未明处刑命令或执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "癸卯，司空、錄尚書事、揚州刺史徐羨之進位司徒，衞將軍、江州刺史王弘進位司空，中書監、護軍將軍傅亮加左光祿大夫、開府儀同三司，撫軍將軍、荊州刺史謝晦進號衞將軍，鎮北將軍、南兗州刺史檀道濟進號征北將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p7",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "00c9e35fa78ea775786dc0850e3841970e7cff583b214c890f24fb333d734af3",
+        "excerpt": "二年春正月丙寅，司徒徐羨之、尚書令傅亮奉表歸政，上始親覽。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "三年春正月丙寅，司徒、錄尚書事、揚州刺史徐羨之，尚書令、護軍將軍、左光祿大夫傅亮，有罪伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-xie-hui-song",
+    "from": "liu-yilong-song",
+    "to": "xie-hui-song",
+    "kind": "service",
+    "label": "授荆州刺史与进号卫将军",
+    "note": "文帝初将行抚军将军、荆州刺史谢晦正式授为抚军将军、荆州刺史并进号卫将军。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "庚子，以行撫軍將軍、荊州刺史謝晦為撫軍將軍、荊州刺史。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "癸卯，司空、錄尚書事、揚州刺史徐羨之進位司徒，衞將軍、江州刺史王弘進位司空，中書監、護軍將軍傅亮加左光祿大夫、開府儀同三司，撫軍將軍、荊州刺史謝晦進號衞將軍，鎮北將軍、南兗州刺史檀道濟進號征北將軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-tan-daoji-song",
+    "from": "liu-yilong-song",
+    "to": "tan-daoji-song",
+    "kind": "service",
+    "label": "授官与遣军征讨",
+    "note": "本纪记檀道济进号、改授江州刺史，命其与到彦之讨谢晦，后又遣北讨。十三年记其有罪伏诛，未在该句具处刑命令或执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "癸卯，司空、錄尚書事、揚州刺史徐羨之進位司徒，衞將軍、江州刺史王弘進位司空，中書監、護軍將軍傅亮加左光祿大夫、開府儀同三司，撫軍將軍、荊州刺史謝晦進號衞將軍，鎮北將軍、南兗州刺史檀道濟進號征北將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "遣中領軍到彥之、征北將軍檀道濟討荊州刺史謝晦，上親率六師西征。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p17",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "03768f8aee92391e05862c9d1f5bab5241c3fff68cb69402a176573bc626bc63",
+        "excerpt": "夏五月乙未，以征北將軍、南兗州刺史檀道濟為征南大將軍、江州刺史，中領軍到彥之為南豫州刺史。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p55",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "ea35e2b9a33681c35d1b5e80d03250ff047d364ca5a5187dbc3ab58d9808f713",
+        "excerpt": "壬辰，遣征南大將軍檀道濟北討，右將軍到彥之自滑臺奔退。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p101",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "88795292cb112df2210e9a2a102858f49148daadec5043e347279858f045fa8d",
+        "excerpt": "三月己未，司空、江州刺史檀道濟有罪伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-hua-song",
+    "from": "liu-yilong-song",
+    "to": "wang-hua-song",
+    "kind": "service",
+    "label": "命知州府与授中护军",
+    "note": "南史记王华时为司马，义隆离江陵时命知州府、留镇陕西；宋书后记授中护军。孝武朝后来使其配享文帝庙庭。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p3",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "8ba6a3beedd2374dd31fe2a415f9797b91956174bf12fc7b7a86abfb2ef16991",
+        "excerpt": "惟長史王曇首、司馬王華、南蠻校尉到彥之共期朝臣未有異志。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p4",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "f8f107071bd3223851bf69210c8e9123997afd99d1454213beecdd6fec661f38",
+        "excerpt": "甲戌，乃發江陵，命王華知州府，留鎮陝西，令到彥之監襄陽。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p18",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "7083a30621a18743a2a9624cc54c0e9594458d281d8b53cba29bfa7b40550008",
+        "excerpt": "以右衞王華為中護軍。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p198",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "783dd804bce9944d28206c3f2beed4163a3e363b042a66761480c5ab9f7c1fa1",
+        "excerpt": "以驃騎將軍建昌忠公到彥之，衛將軍、左光祿大夫新建文宣侯王華，豫甯文侯王曇首配饗文帝廟庭。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-tanshou-song",
+    "from": "liu-yilong-song",
+    "to": "wang-tanshou-song",
+    "kind": "service",
+    "label": "长史与入继途中随侍言谈",
+    "note": "南史记王昙首为长史，义隆入继途中向其言舟上黑龙与天命；这是书中神异及帝语。孝武朝后来使其配享文帝庙庭。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p3",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "8ba6a3beedd2374dd31fe2a415f9797b91956174bf12fc7b7a86abfb2ef16991",
+        "excerpt": "惟長史王曇首、司馬王華、南蠻校尉到彥之共期朝臣未有異志。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p4",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "f8f107071bd3223851bf69210c8e9123997afd99d1454213beecdd6fec661f38",
+        "excerpt": "上謂王曇首曰：「此乃夏禹所以受天命，我何德以堪之。」"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p198",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "783dd804bce9944d28206c3f2beed4163a3e363b042a66761480c5ab9f7c1fa1",
+        "excerpt": "以驃騎將軍建昌忠公到彥之，衛將軍、左光祿大夫新建文宣侯王華，豫甯文侯王曇首配饗文帝廟庭。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-dao-yanzhi-song",
+    "from": "liu-yilong-song",
+    "to": "dao-yanzhi-song",
+    "kind": "service",
+    "label": "命监襄阳、授官与遣军",
+    "note": "义隆离江陵时命到彦之监襄阳，元嘉初任中领军，后命与檀道济讨谢晦，另遣北伐，为先后不同记事。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p4",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "f8f107071bd3223851bf69210c8e9123997afd99d1454213beecdd6fec661f38",
+        "excerpt": "甲戌，乃發江陵，命王華知州府，留鎮陝西，令到彥之監襄陽。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "戊申，以豫州刺史劉粹為雍州刺史，驍騎將軍管義之為豫州刺史，南蠻校尉到彥之為中領軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "遣中領軍到彥之、征北將軍檀道濟討荊州刺史謝晦，上親率六師西征。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p50",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "215e7652df4a72c10ff2469cf0ace66028d51428c409a7ed30c8cf992ac4acd5",
+        "excerpt": "三月戊子，遣右將軍到彥之北伐，水軍入河。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-yin-jingren-song",
+    "from": "liu-yilong-song",
+    "to": "yin-jingren-song",
+    "kind": "service",
+    "label": "授中领军、尚书仆射等职",
+    "note": "本纪先后授殷景仁中领军、尚书仆射，又任扬州刺史而仆射如故。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p40",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "c19f5ebd6e8e32bd9fbd06c2b49e4464cd1f63cd26315217b846108411fe821a",
+        "excerpt": "辛酉，以左衞將軍殷景仁為中領軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p71",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "1e5d01a6a105b61e286c68e2767a1f8618f476d6b21b8629715ec236dd846933",
+        "excerpt": "庚午，以領軍將軍殷景仁為尚書僕射，太子詹事劉湛為領軍將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p135",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "e50759fc2c2133f0756a491727df5cf6878013ff00a2e95edf50729320d31cb0",
+        "excerpt": "戊寅，衞將軍臨川王義慶以本號為南兗州刺史，尚書僕射、護軍將軍殷景仁為揚州刺史，僕射如故。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-xu-zhanzhi-song",
+    "from": "liu-yilong-song",
+    "to": "xu-zhanzhi-song",
+    "kind": "service",
+    "label": "授中护军及南兖州刺史",
+    "note": "本纪授秘书监徐湛之中护军，后以太子詹事为南兖州刺史；与徐羡之、刘湛、江湛分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p136",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0510cce0d6a77562a777622fc27eddde68ca361d9d3c381ae8e327a178d93923",
+        "excerpt": "十一月丙戌，以尚書劉義融為領軍將軍，祕書監徐湛之為中護軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p206",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "ec939c856a692e7226a4cafa787bd3b1e42f5a3bd28134bfe5f76acee79f8c57",
+        "excerpt": "辛未，以太子詹事徐湛之為南兗州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-liu-zhan-song",
+    "from": "liu-yilong-song",
+    "to": "liu-zhan-song",
+    "kind": "service",
+    "label": "授领军将军",
+    "note": "本纪以太子詹事刘湛为领军将军，后记前丹阳尹刘湛与同党伏诛；后句未具处刑命令和执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p71",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "1e5d01a6a105b61e286c68e2767a1f8618f476d6b21b8629715ec236dd846933",
+        "excerpt": "庚午，以領軍將軍殷景仁為尚書僕射，太子詹事劉湛為領軍將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p135",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "e50759fc2c2133f0756a491727df5cf6878013ff00a2e95edf50729320d31cb0",
+        "excerpt": "冬十月戊午，前丹陽尹劉湛有罪，及同黨伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-he-chengtian-song",
+    "from": "liu-yilong-song",
+    "to": "he-chengtian-song",
+    "kind": "service",
+    "label": "命立史学与改用元嘉新历",
+    "note": "南史记命著作佐郎何承天立史学，宋书另记改用御史中丞何承天元嘉新历。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p79",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "2368091eb62ce973cddb0322ce1968f8ae733a7fec2a02bc00502ed7828ca75e",
+        "excerpt": "上好儒雅，又命丹陽尹何尚之立玄素學，著作佐郎何承天立史學，司徒參軍謝元立文學，各聚門徒，多就業者。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p180",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "47aca744addd5d5ab15e6f2c497ae0d9c1f21301b3eb9d31bd2243622c38687c",
+        "excerpt": "二十二年春正月辛卯朔，改用御史中丞何承天元嘉新曆。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-he-shangzhi-song",
+    "from": "liu-yilong-song",
+    "to": "he-shangzhi-song",
+    "kind": "service",
+    "label": "命立玄素学",
+    "note": "南史记文帝命丹阳尹何尚之立玄素学，各聚门徒。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p79",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "2368091eb62ce973cddb0322ce1968f8ae733a7fec2a02bc00502ed7828ca75e",
+        "excerpt": "上好儒雅，又命丹陽尹何尚之立玄素學，著作佐郎何承天立史學，司徒參軍謝元立文學，各聚門徒，多就業者。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-xie-yuan-song",
+    "from": "liu-yilong-song",
+    "to": "xie-yuan-song",
+    "kind": "service",
+    "label": "命立文学",
+    "note": "南史记文帝命司徒参军谢元立文学，各聚门徒；此处原名谢元，与谢玄分开。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p79",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "2368091eb62ce973cddb0322ce1968f8ae733a7fec2a02bc00502ed7828ca75e",
+        "excerpt": "上好儒雅，又命丹陽尹何尚之立玄素學，著作佐郎何承天立史學，司徒參軍謝元立文學，各聚門徒，多就業者。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-lei-cizong-song",
+    "from": "liu-yilong-song",
+    "to": "lei-cizong-song",
+    "kind": "service",
+    "label": "命居北郊儒学馆",
+    "note": "南史另段记在北郊立儒学馆，命雷次宗居之，未记由他创办玄素、史学或文学。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p72",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "c525fdf35c6734811d5dabe44863ee84a01b4e648c045aff5e06bb1a7fd31db9",
+        "excerpt": "立儒學館於北郊，命雷次宗居之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-xiao-sihua-song",
+    "from": "liu-yilong-song",
+    "to": "xiao-sihua-song",
+    "kind": "service",
+    "label": "授青州刺史",
+    "note": "本纪以中书侍郎萧思话为青州刺史，后另记其率众北伐；后一段遣部司巡行为赈济事务，没有明记遣萧思话北伐。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p20",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "c8d95911a8ebd6059566add2a7433009be40ad9d0b13f720bb023c28a2aa868b",
+        "excerpt": "十二月癸丑，以中書侍郎蕭思話為青州刺史。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p254",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "401d7f3e4d5e1f94d40fbe51c2848981d682ea24d651cf9b1cdbc28d16eb766a",
+        "excerpt": "六月己酉，遣部司巡行，賜樵米，給船。撫軍將軍蕭思話率眾北伐。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-xuanmo-song",
+    "from": "liu-yilong-song",
+    "to": "wang-xuanmo-song",
+    "kind": "service",
+    "label": "遣北伐",
+    "note": "本纪明确遣宁朔将军王玄谟北伐；另记义恭出次彭城、总统诸军。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p234",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "58a720d16397c20c03e98ff11e661acf25881b66ecbd21ac05a599882653c246",
+        "excerpt": "秋七月庚午，遣寧朔將軍王玄謨北伐。太尉江夏王義恭出次彭城，總統諸軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-shen-qingzhi-song",
+    "from": "liu-yilong-song",
+    "to": "shen-qingzhi-song",
+    "kind": "service",
+    "label": "遣讨沿江寇",
+    "note": "南史孝武段回记文帝遣太子步兵校尉沈庆之等征伐沿江寇，命当时刘骏总领各军；句末上为刘骏。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p170",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+        "excerpt": "時緣江蠻為寇，文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-hong-song",
+    "from": "liu-yilong-song",
+    "to": "wang-hong-song",
+    "kind": "service",
+    "label": "进位司空与授司徒等职",
+    "note": "元嘉初王弘由卫将军、江州刺史进位司空，后任司徒、录尚书事、扬州刺史；与王敬弘分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "癸卯，司空、錄尚書事、揚州刺史徐羨之進位司徒，衞將軍、江州刺史王弘進位司空，中書監、護軍將軍傅亮加左光祿大夫、開府儀同三司，撫軍將軍、荊州刺史謝晦進號衞將軍，鎮北將軍、南兗州刺史檀道濟進號征北將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "丁卯，以車騎大將軍、江州刺史王弘為司徒、錄尚書事、揚州刺史，驃騎將軍、南徐州刺史彭城王義康改為荊州刺史，撫軍將軍、南豫州刺史江夏王義恭改為南徐州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-jinghong-song",
+    "from": "liu-yilong-song",
+    "to": "wang-jinghong-song",
+    "kind": "service",
+    "label": "授尚书左仆射与尚书令",
+    "note": "本纪授王敬弘尚书左仆射，后任尚书令；不是王弘。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p15",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "22e96eea32322d1eb1d436745978ae16b80b5015f5e1154ed14416777b45b413",
+        "excerpt": "戊午，以金紫光祿大夫王敬弘為尚書左僕射，豫章太守鄭鮮之為尚書右僕射。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p41",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "21f58743b6fa59d76fe2fa575130a65a7e6ec5468eaa0e92283cc1bbb2e78f19",
+        "excerpt": "夏四月癸亥，以尚書左僕射王敬弘為尚書令，丹陽尹臨川王義慶為尚書左僕射，吏部尚書江夷為尚書右僕射。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-jiang-zhan-song",
+    "from": "liu-yilong-song",
+    "to": "jiang-zhan-song",
+    "kind": "service",
+    "label": "北伐失利后向其言谈",
+    "note": "魏太武帝兵至瓜步时，文帝登楼对江湛谈北伐劳怨和自己过失；该段未说明江湛原先的北伐意见或官职。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p145",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "ad94ef80943ed861ce21cbd475d7482cededcd9092aadfdffe4ee00561bea0a0",
+        "excerpt": "至是，帝登烽火樓極望，不悅，謂江湛曰：「北伐之計，同議者少，今日士庶勞怨，不得無慚。貽大夫之憂，在予過矣。」"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-liu-yiqing-song",
+    "from": "liu-yilong-song",
+    "to": "liu-yiqing-song",
+    "kind": "service",
+    "label": "授尚书左仆射等职",
+    "note": "本纪将丹阳尹临川王义庆授为尚书左仆射，后以本号为南兖州刺史；所引文字未明与文帝具体亲等。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p41",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "21f58743b6fa59d76fe2fa575130a65a7e6ec5468eaa0e92283cc1bbb2e78f19",
+        "excerpt": "夏四月癸亥，以尚書左僕射王敬弘為尚書令，丹陽尹臨川王義慶為尚書左僕射，吏部尚書江夷為尚書右僕射。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p135",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "e50759fc2c2133f0756a491727df5cf6878013ff00a2e95edf50729320d31cb0",
+        "excerpt": "戊寅，衞將軍臨川王義慶以本號為南兗州刺史，尚書僕射、護軍將軍殷景仁為揚州刺史，僕射如故。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-liu-jun-song",
+    "from": "liu-yilong-song",
+    "to": "liu-jun-song",
+    "kind": "service",
+    "label": "授雍州刺史与命总统诸军",
+    "note": "南史回记文帝为经略关河授刘骏镇襄阳，后遣沈庆之等讨沿江寇，命刘骏总统；原段为不同年先后事。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p180",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "47aca744addd5d5ab15e6f2c497ae0d9c1f21301b3eb9d31bd2243622c38687c",
+        "excerpt": "壬辰，撫軍將軍、南豫州刺史武陵王駿改為雍州刺史，湘州刺史南平王鑠為南豫州刺史。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p170",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+        "excerpt": "自晉江左以來，襄陽未有皇子重鎮，時文帝欲經略關、河，故有此授。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p170",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+        "excerpt": "時緣江蠻為寇，文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-wang-zhongde-song",
+    "from": "liu-yilong-song",
+    "to": "wang-zhongde-song",
+    "kind": "service",
+    "label": "进号与授徐州刺史",
+    "note": "本纪记王仲德进号安北将军，后又以尚书为镇北将军、徐州刺史。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p8",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "2dc70c863f2c0a279cb895c4551ac641a01cf8e1ef808bf351ae14aef1602703",
+        "excerpt": "三月乙丑，左將軍、徐州刺史王仲德進號安北將軍。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p71",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "1e5d01a6a105b61e286c68e2767a1f8618f476d6b21b8629715ec236dd846933",
+        "excerpt": "秋七月戊辰，以尚書王仲德為鎮北將軍、徐州刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-liu-cui-song",
+    "from": "liu-yilong-song",
+    "to": "liu-cui-song",
+    "kind": "service",
+    "label": "辅幼镇守与后授雍州刺史",
+    "note": "文帝幼年由高祖命刘粹辅镇京城（京口），元嘉初授豫州刺史刘粹为雍州刺史；早年命令施事高祖，非幼年义隆。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p1",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "a034e3720de5355ff895d168866bd10426e6d1e3df538b3e4cd3f6937e6a50ea",
+        "excerpt": "盧循之難，上年四歲，高祖使諮議參軍劉粹輔上鎮京城。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p4",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "d19b1c78310c44dc28a4698189f5590b780ff11d3e4e7aa0cd8f6a6e0ce7668f",
+        "excerpt": "戊申，以豫州刺史劉粹為雍州刺史，驍騎將軍管義之為豫州刺史，南蠻校尉到彥之為中領軍。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-service-tan-hezhi-song",
+    "from": "liu-yilong-song",
+    "to": "tan-hezhi-song",
+    "kind": "service",
+    "label": "授交州刺史",
+    "note": "本纪授始兴内史檀和之交州刺史，后记其伐并克林邑国；后句未另记出兵命令施事。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p166",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "aae53fb01d590d47967393ded4ec4a2fc90eaa6d77b647563410ea7ba6dd02da",
+        "excerpt": "冬十二月庚午，以始興內史檀和之為交州刺史。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p192",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "31a8f908dd573a20b4fa38bce26b6438c0b3638e8afa433ea140396068554649",
+        "excerpt": "交州刺史檀和之伐林邑國，剋之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-conflict-xie-hui",
+    "from": "liu-yilong-song",
+    "to": "xie-hui-song",
+    "kind": "conflict",
+    "label": "遣军讨谢晦并亲率西征",
+    "note": "本纪明文帝遣到彦之、檀道济讨谢晦并亲率西征；后记将军在隐矶破晦，晦被擒送京师伏诛。帝亲率、部将战果与处刑为不同动作。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p13",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0d866e0d533b425dd7d20e520703686f290c98157525934cd70c7953c6f01711",
+        "excerpt": "遣中領軍到彥之、征北將軍檀道濟討荊州刺史謝晦，上親率六師西征。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p15",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "22e96eea32322d1eb1d436745978ae16b80b5015f5e1154ed14416777b45b413",
+        "excerpt": "戊辰，到彥之、檀道濟大破謝晦於隱磯。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p15",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "22e96eea32322d1eb1d436745978ae16b80b5015f5e1154ed14416777b45b413",
+        "excerpt": "己卯，擒晦於延頭，送京師伏誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-conflict-liu-shao",
+    "from": "liu-yilong-song",
+    "to": "liu-shao-song",
+    "kind": "conflict",
+    "label": "劭构逆与文帝遇弑",
+    "note": "南史文帝段记劭构逆、帝崩，孝武段回称元凶弑逆，随后率众入讨者为刘骏。所引句未具行弑执行者，不写劭亲手杀父。宋书记含章殿，南史记合殿。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p166",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "43f7f0ba1bff35d49b6926d35f02eb813b3fbd65ce5cc650a3a1bf32440af31c",
+        "excerpt": "二月甲子，元凶劭構逆，帝崩於合殿，時年四十七。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p171",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+        "excerpt": "三十年正月，出次西陽之五洲，會元凶弑逆，上率眾入討。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p264",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "625e77315aab6fd0b2ba48568e0df4624bd98edfcd451b4bd772369d7228047b",
+        "excerpt": "甲子，上崩于含章殿。時年四十七。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yilong-song-conflict-tuoba-tao",
+    "from": "liu-yilong-song",
+    "to": "tuoba-tao-wei",
+    "kind": "conflict",
+    "label": "北魏军至瓜步时对峙",
+    "note": "魏太武帝兵至瓜步扬言渡江，宋都震惧戒严，文帝登楼向江湛自责，后使馈百牢于魏。没有记两帝阵前亲战、宋杀魏主或已经投降。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p145",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "ad94ef80943ed861ce21cbd475d7482cededcd9092aadfdffe4ee00561bea0a0",
+        "excerpt": "十二月庚午，魏太武帝率大眾至瓜步，聲欲度江，都下震懼，咸荷擔而立。壬午，內外戒嚴，緣江六七百里舳艫相接。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p145",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "ad94ef80943ed861ce21cbd475d7482cededcd9092aadfdffe4ee00561bea0a0",
+        "excerpt": "至是，帝登烽火樓極望，不悅，謂江湛曰：「北伐之計，同議者少，今日士庶勞怨，不得無慚。貽大夫之憂，在予過矣。」甲申，使饋百牢于魏。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p251",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "f73a5d716fb3ad1778fcc092a0bee5c3cc32af64a70a9e4ae8b8a12a342536b7",
+        "excerpt": "二月庚申，虜帥拓跋燾死。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p164",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "dcb5c5ba19618330a7d824c5663957ee19a3c6f56c089903eb6dba34e510cfb0",
+        "excerpt": "是歲，魏中常侍宗愛構逆，太武皇帝崩，乃奉南安王餘為帝，改元為承平，後又賊餘；於是殿中尚書長孫渴侯、尚書陸麗奉皇孫，是為文成皇帝，改元曰興安。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-service-liu-cui-assist-yilong-jingkou",
+    "from": "liu-yu-song",
+    "to": "liu-cui-song",
+    "kind": "service",
+    "label": "命辅义隆镇京口",
+    "note": "《宋书》记义隆幼年，刘裕命谘议参军刘粹辅其镇京城（京口）。发令者为高祖刘裕，受命者为刘粹，义隆是受辅者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p1",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "a034e3720de5355ff895d168866bd10426e6d1e3df538b3e4cd3f6937e6a50ea",
+        "excerpt": "盧循之難，上年四歲，高祖使諮議參軍劉粹輔上鎮京城。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-song-service-yilong-office-and-prison-inquiry",
+    "from": "liu-yu-song",
+    "to": "liu-yilong-song",
+    "kind": "service",
+    "label": "府授行冠军留守与命讯建康狱",
+    "note": "《宋书》记高祖伐羌到彭城、将继续进军时，以府署文书令义隆行冠军将军留守。《南史》另记义隆永初来朝时，武帝遣其讯问建康狱囚，辨断称旨。两项为先后不同事件；晋朝另加诸职与此处父亲府授有别。",
+    "sources": [
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p1",
+        "title": "《宋书》卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "a034e3720de5355ff895d168866bd10426e6d1e3df538b3e4cd3f6937e6a50ea",
+        "excerpt": "高祖伐羌至彭城，將進路，板上行冠軍將軍留守。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p2",
+        "title": "《南史》卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "0172d1a439b2914e5edd0d6d1043d40d48cf1ca4db39f7621824cda65681e108",
+        "excerpt": "是歲來朝，會武帝當聽訟，仍遣上訊建康獄囚，辯斷稱旨，武帝甚悅。"
+      }
+    ]
   }
 ]

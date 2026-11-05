@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》武帝纪、少帝纪和《南史》宋本纪上整理刘裕、刘义符，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明。",
+  "sourceNote": "据《宋书》卷1—5和《南史》卷1—2整理刘裕、刘义符、刘义隆，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -25,11 +25,24 @@
     {
       "title": "宋书·少帝纪（卷4）",
       "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B74&oldid=2309989"
+    },
+    {
+      "title": "宋书·文帝纪（卷5）",
+      "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷5&oldid=2370105"
+    },
+    {
+      "title": "南史·宋本纪中（卷02，文帝部分）",
+      "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+    },
+    {
+      "title": "五代会要·卷三（礼制追述）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89&oldid=1969548"
     }
   ],
   "memberIds": [
     "liu-yu-song",
-    "liu-yifu-song"
+    "liu-yifu-song",
+    "liu-yilong-song"
   ],
   "people": [
     {
@@ -107,6 +120,45 @@
         "义熙二年跨西历406—407年，生月未载，不据卒寿十九倒填单一年。",
         "《宋书》卷四校勘指出补卷及缺叶据《南史》补录，两书同文不当作独立复证。十岁与六岁、天渊与天泉等异文分别保留。",
         "太后令对少帝的谴责与史家评论各保留其言说层次；谋废、领兵入宫、遣使及执行杀害分别记载。"
+      ]
+    },
+    {
+      "id": "liu-yilong-song",
+      "name": "刘义隆",
+      "dynasty": "刘宋",
+      "role": "刘宋第三位皇帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋文帝 宋太祖 车儿",
+      "nameVariants": [
+        "劉義隆",
+        "車兒"
+      ],
+      "intro": "刘义隆小字车儿，是刘裕第三子，义熙三年生于京口，先封彭城县公、宜都王，曾镇守荆州。424年少帝被废后受迎，八月即位，改元元嘉。他在位时推行劝农赈恤、兴办学校，多次派军北伐，魏军曾南至瓜步。453年刘劭弑逆时遇害，孝武帝即位后改谥文帝、庙号太祖。",
+      "reign": "424—453 年",
+      "reignStart": 424,
+      "reignEnd": 453,
+      "periodLabel": "刘宋 · 424—453 年在位",
+      "deathYear": 453,
+      "lifespan": "407—408 年间生，453 年卒",
+      "readingStarts": {
+        "songshu": "songshu-v005",
+        "nanshi": "nanshi-v002"
+      },
+      "sources": [
+        {
+          "title": "宋书·文帝纪（卷5）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷5&oldid=2370105"
+        },
+        {
+          "title": "南史·宋本纪中（卷02，文帝部分）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+        }
+      ],
+      "sourceNotes": [
+        "义熙三年全年跨西历407—408年，生月未载；不据卒寿四十七倒填单一年。",
+        "父传封爵作北彭城县公，文帝主传简称彭城县公；《宋书》文帝纪将少帝废黜系于七月中，与少帝纪和《南史》五月乙酉之记分源保存，奉迎与正式即位分别记载。",
+        "亲率西征与遣将北伐分别记载；诏令中的自述、符瑞与梦兆、史家褒贬保留各自言说层次。",
+        "《宋书》记崩于含章殿，《南史》作合殿；先谥景皇帝、庙中宗，孝武即位后改为文帝、太祖，前后名号不混。"
       ]
     }
   ]

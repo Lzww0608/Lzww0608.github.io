@@ -492,6 +492,13 @@
       ]
     },
     {
+      "personId": "former-shu-wang-jian-sister",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-wang-jian-sister-granted-jinguo-lady-title"
+      ]
+    },
+    {
       "personId": "former-shu-wang-jian-xiao",
       "eventCount": 3,
       "eventIds": [
@@ -645,11 +652,14 @@
     },
     {
       "personId": "fu-daozhao",
-      "eventCount": 10,
+      "eventCount": 13,
       "eventIds": [
+        "fu-daozhao-wugong-battle",
+        "fu-daozhao-guoxian-hangu-battle",
         "fu-daozhao-join",
         "fu-daozhao-weibo",
         "fu-daozhao-xing-relief",
+        "fu-daozhao-yuande-banquet-reward",
         "fu-daozhao-death",
         "fu-daozhao-early",
         "fu-daozhao-qi",
@@ -1931,7 +1941,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 32,
+      "eventCount": 33,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -1961,6 +1971,7 @@
         "li-cunxu-failed-march",
         "li-cunxu-xingjiao-death",
         "li-cunxu-burial",
+        "li-cunxu-receive-su-xun-and-appoint-deputy",
         "li-cunxu-lu-cheng-reprimand",
         "li-cunxu-send-xue-zhaowen-min-investiture",
         "li-cunxu-receive-lu-pin-wu-envoy",
@@ -2362,46 +2373,6 @@
       ]
     },
     {
-      "personId": "li-yu",
-      "eventCount": 34,
-      "eventIds": [
-        "li-yu-along-yangtze-inspection",
-        "li-yu-avoid-hongji",
-        "li-yu-heir",
-        "li-yu-crown-and-regency",
-        "li-yu-accession",
-        "li-yu-abolish-route-tuntian-commissioners",
-        "li-yu-zhou-empress-illness-and-mourning",
-        "li-yu-zhong-empress-illness-and-mourning",
-        "li-yu-younger-zhou-installation",
-        "li-yu-kaishan-buddhist-court-practice",
-        "li-yu-wartime-militia-mobilization",
-        "li-yu-fall-of-jinling",
-        "li-yu-captivity",
-        "li-yu-quanzhou",
-        "li-yu-iron-money",
-        "li-yu-shu-ya-examination-review",
-        "li-yu-southern-han-envoy",
-        "li-yu-night-duty",
-        "li-yu-dalisi-prison-review-remonstrance",
-        "li-yu-li-congshan-retained",
-        "li-yu-reduce-titles",
-        "li-yu-pan-you",
-        "li-yu-song-invasion",
-        "li-yu-southern-tang-letter-warning",
-        "li-yu-han-xizai",
-        "li-yu-tan-zixiao-summons",
-        "li-yu-zhang-xiong-chief-command",
-        "li-yu-tao-gu-qin-ruolan-banquet",
-        "li-yu-younger-zhou-marriage-deliberation",
-        "li-yu-song-stipend-increase",
-        "li-yu-song-chongwen-library-viewing",
-        "li-yu-death-in-song",
-        "li-yu-recall-song-qiqiu-household",
-        "li-yu-jingde-nuns-fire-oath"
-      ]
-    },
-    {
       "personId": "li-yu-tang",
       "eventCount": 45,
       "eventIds": [
@@ -2450,6 +2421,46 @@
         "li-yu-tang-speak-against-qinwang-excess",
         "li-yu-tang-six-statutes-proposal",
         "li-yu-tang-village-drinking-rite-proposal"
+      ]
+    },
+    {
+      "personId": "li-yu",
+      "eventCount": 34,
+      "eventIds": [
+        "li-yu-along-yangtze-inspection",
+        "li-yu-avoid-hongji",
+        "li-yu-heir",
+        "li-yu-crown-and-regency",
+        "li-yu-accession",
+        "li-yu-abolish-route-tuntian-commissioners",
+        "li-yu-zhou-empress-illness-and-mourning",
+        "li-yu-zhong-empress-illness-and-mourning",
+        "li-yu-younger-zhou-installation",
+        "li-yu-kaishan-buddhist-court-practice",
+        "li-yu-wartime-militia-mobilization",
+        "li-yu-fall-of-jinling",
+        "li-yu-captivity",
+        "li-yu-quanzhou",
+        "li-yu-iron-money",
+        "li-yu-shu-ya-examination-review",
+        "li-yu-southern-han-envoy",
+        "li-yu-night-duty",
+        "li-yu-dalisi-prison-review-remonstrance",
+        "li-yu-li-congshan-retained",
+        "li-yu-reduce-titles",
+        "li-yu-pan-you",
+        "li-yu-song-invasion",
+        "li-yu-southern-tang-letter-warning",
+        "li-yu-han-xizai",
+        "li-yu-tan-zixiao-summons",
+        "li-yu-zhang-xiong-chief-command",
+        "li-yu-tao-gu-qin-ruolan-banquet",
+        "li-yu-younger-zhou-marriage-deliberation",
+        "li-yu-song-stipend-increase",
+        "li-yu-song-chongwen-library-viewing",
+        "li-yu-death-in-song",
+        "li-yu-recall-song-qiqiu-household",
+        "li-yu-jingde-nuns-fire-oath"
       ]
     },
     {
@@ -2936,6 +2947,19 @@
       ]
     },
     {
+      "personId": "liu-xun-yonghe",
+      "eventCount": 7,
+      "eventIds": [
+        "liu-xun-yonghe-advise-wangke-submission",
+        "liu-xun-yonghe-kill-huzhuang",
+        "liu-xun-yonghe-early-frontline",
+        "liu-xun-yonghe-offer-shanzhou",
+        "liu-xun-yonghe-xiangzhou",
+        "liu-xun-yonghe-jingnan-failed",
+        "liu-xun-yonghe-reinstatement-death"
+      ]
+    },
+    {
       "personId": "liu-xun",
       "eventCount": 22,
       "eventIds": [
@@ -2961,19 +2985,6 @@
         "liu-xun-early",
         "liu-xun-fuzhou-transfer",
         "liu-xun-huoqiu"
-      ]
-    },
-    {
-      "personId": "liu-xun-yonghe",
-      "eventCount": 7,
-      "eventIds": [
-        "liu-xun-yonghe-advise-wangke-submission",
-        "liu-xun-yonghe-kill-huzhuang",
-        "liu-xun-yonghe-early-frontline",
-        "liu-xun-yonghe-offer-shanzhou",
-        "liu-xun-yonghe-xiangzhou",
-        "liu-xun-yonghe-jingnan-failed",
-        "liu-xun-yonghe-reinstatement-death"
       ]
     },
     {
@@ -3014,7 +3025,7 @@
     },
     {
       "personId": "liu-yifu-song",
-      "eventCount": 25,
+      "eventCount": 26,
       "eventIds": [
         "liu-yifu-song-yanzhou",
         "liu-yifu-song-yuzhou",
@@ -3039,13 +3050,108 @@
         "liu-yifu-song-deposition",
         "liu-yifu-song-detention",
         "liu-yifu-song-death",
+        "liu-yifu-song-lang-nanfeng-sacrificial-succession",
         "liu-yifu-song-birth",
         "liu-yifu-song-yuzhang-heir"
       ]
     },
     {
+      "personId": "liu-yilong-song",
+      "eventCount": 88,
+      "eventIds": [
+        "liu-yilong-song-pengcheng-duke",
+        "liu-yilong-song-pengcheng-retention",
+        "liu-yilong-song-yidu-king",
+        "liu-yilong-song-zhenxi",
+        "liu-yilong-song-welcome",
+        "liu-yilong-song-depart-jiangling",
+        "liu-yilong-song-accession",
+        "liu-yilong-song-restore-yizhen",
+        "liu-yilong-song-honor-mother",
+        "liu-yilong-song-empress-yuan",
+        "liu-yilong-song-personal-rule",
+        "liu-yilong-song-punish-ministers",
+        "liu-yilong-song-four-directions-inspection",
+        "liu-yilong-song-hear-lawsuits",
+        "liu-yilong-song-dantu-first-tour",
+        "liu-yilong-song-drought-seek-advice",
+        "liu-yilong-song-flood-relief-428",
+        "liu-yilong-song-yikang-in-government",
+        "liu-yilong-song-crown-prince-shao",
+        "liu-yilong-song-daoyanzhi-north",
+        "liu-yilong-song-four-zhu-coins",
+        "liu-yilong-song-tan-reinforcement",
+        "liu-yilong-song-huatai-loss",
+        "liu-yilong-song-economize-after-war",
+        "liu-yilong-song-encourage-farming",
+        "liu-yilong-song-six-ministers-temple-edict",
+        "liu-yilong-song-ancestral-rites-shao-lang",
+        "liu-yilong-song-recommend-talents",
+        "liu-yilong-song-flood-grain-and-wine-ban",
+        "liu-yilong-song-tan-daoji-executed",
+        "liu-yilong-song-jun-jun-royal-grants",
+        "liu-yilong-song-empress-yuan-death",
+        "liu-yilong-song-liu-zhan-and-yikang",
+        "liu-yilong-song-tax-and-service-relief",
+        "liu-yilong-song-shanding-lang",
+        "liu-yilong-song-qiuchi-campaign",
+        "liu-yilong-song-national-school",
+        "liu-yilong-song-recovery-ritual",
+        "liu-yilong-song-confucius-temple",
+        "liu-yilong-song-liuzhendao-peifangming-prison-death",
+        "liu-yilong-song-jitian-planning",
+        "liu-yilong-song-jitian-ploughing",
+        "liu-yilong-song-wheat-and-irrigation",
+        "liu-yilong-song-yuanjia-calendar",
+        "liu-yilong-song-teach-sons-frugality",
+        "liu-yilong-song-hushu-fields",
+        "liu-yilong-song-fanye-yikang",
+        "liu-yilong-song-test-students",
+        "liu-yilong-song-epidemic-447",
+        "liu-yilong-song-coin-one-for-two",
+        "liu-yilong-song-xuanwu-muster",
+        "liu-yilong-song-repeal-coin-ratio",
+        "liu-yilong-song-dantu-second-tour",
+        "liu-yilong-song-dantu-tax-and-veterans",
+        "liu-yilong-song-dantu-old-acquaintances",
+        "liu-yilong-song-jiao-ning-pay",
+        "liu-yilong-song-war-pay-reduction",
+        "liu-yilong-song-close-national-school",
+        "liu-yilong-song-wangxuanmo-north",
+        "liu-yilong-song-huatai-defeat-450",
+        "liu-yilong-song-wei-guabu",
+        "liu-yilong-song-wei-withdrawal",
+        "liu-yilong-song-post-war-relief",
+        "liu-yilong-song-visit-guabu-release-alert",
+        "liu-yilong-song-return-palace-chuning",
+        "liu-yilong-song-six-prefectures-relief",
+        "liu-yilong-song-renewed-northern-campaign",
+        "liu-yilong-song-abolish-central-offices",
+        "liu-yilong-song-qiaoaorepulse",
+        "liu-yilong-song-last-famine-relief",
+        "liu-yilong-song-death",
+        "liu-yilong-song-burial",
+        "liu-yilong-song-posthumous-name",
+        "liu-yilong-song-temple-companions",
+        "liu-yilong-song-mingtang-462",
+        "liu-yilong-song-mingtang-464",
+        "liu-yilong-song-birth",
+        "liu-yilong-song-child-jingkou",
+        "liu-yilong-song-early-jin-offices",
+        "liu-yilong-song-sili-to-jingzhou",
+        "liu-yilong-song-court-prison",
+        "liu-yilong-song-northern-confucian-school",
+        "liu-yilong-song-schools-humanities",
+        "liu-yilong-song-dredge-huai",
+        "liu-yilong-song-north-bank-lake-jingyang",
+        "liu-yilong-song-northern-refugee-resettlement",
+        "liu-yilong-song-old-palace-tools",
+        "liu-yilong-song-keep-old-carriage"
+      ]
+    },
+    {
       "personId": "liu-yu-song",
-      "eventCount": 71,
+      "eventCount": 77,
       "eventIds": [
         "liu-yu-song-birth",
         "liu-yu-song-shanyin-battle",
@@ -3112,11 +3218,17 @@
         "liu-yu-song-death",
         "liu-yu-song-burial",
         "liu-yu-song-posthumous-sacrifice",
+        "liu-yu-song-yilong-accession-tomb-homage",
+        "liu-yu-song-yilong-yuanjia28-tomb-homage",
+        "liu-yu-song-xiaowu-accession-tomb-homage",
+        "liu-yu-song-xiaowu-daming2-tomb-homage",
         "liu-yu-song-poverty",
         "liu-yu-song-sunwuzhong-service",
         "liu-yu-song-sun-en-start",
         "liu-yu-song-huxuan-usurpation",
+        "liu-yu-song-liu-cui-support-yilong-jingkou",
         "liu-yu-song-eastfu",
+        "liu-yu-song-order-yilong-prison-inquiry",
         "liu-yu-song-frugality"
       ]
     },
@@ -5964,6 +6076,31 @@
       ]
     },
     {
+      "personId": "zhang-wenwei",
+      "eventCount": 19,
+      "eventIds": [
+        "zhang-wenwei-tang-chancellorship",
+        "zhang-wenwei-urge-accession",
+        "zhang-wenwei-commissioned-investiture-envoy",
+        "zhang-wenwei-arrive-bian",
+        "zhang-wenwei-read-investiture-and-banquet",
+        "zhang-wenwei-liang-menshilang-chancellor",
+        "zhang-wenwei-ordered-western-capital",
+        "zhang-wenwei-retained-western-capital",
+        "zhang-wenwei-death-and-posthumous-honor",
+        "zhang-wenwei-jinshi-first-office",
+        "zhang-wenwei-county-office-and-family-mourning",
+        "zhang-wenwei-transport-commission",
+        "zhang-wenwei-court-record-and-edicts-offices",
+        "zhang-wenwei-maternal-mourning",
+        "zhang-wenwei-hanlin-and-ministry-posts",
+        "zhang-wenwei-protect-court-officials",
+        "zhang-wenwei-finance-commissions",
+        "zhang-wenwei-establish-early-liang-institutions",
+        "zhang-wenwei-care-for-ill-brother"
+      ]
+    },
+    {
       "personId": "zhang-zunhui",
       "eventCount": 5,
       "eventIds": [
@@ -6318,7 +6455,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 159,
+      "eventCount": 162,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -6411,11 +6548,13 @@
         "zhu-wen-wei-teeth",
         "zhu-wen-gaotang",
         "zhu-wen-meiyuan",
+        "zhu-wen-receive-xue-yiju-minister-ritual",
         "zhu-wen-rename-huang",
         "zhu-wen-accession",
         "zhu-wen-capitals-tang",
         "zhu-wen-shumi-chongzheng",
         "zhu-wen-princes",
+        "zhu-wen-dismiss-su-xun-and-su-kai",
         "zhu-wen-former-exiles",
         "zhu-wen-ancestors",
         "zhu-wen-lu-907",
@@ -6424,6 +6563,7 @@
         "zhu-wen-lu-labour",
         "zhu-wen-tang-andi",
         "zhu-wen-ze-lu-tour",
+        "zhu-wen-leave-zhang-wenwei-west-capital",
         "zhu-wen-clamp-defeat",
         "zhu-wen-luxury-ban",
         "zhu-wen-wang-clan",
@@ -6533,9 +6673,10 @@
     },
     {
       "personId": "zhu-youqian",
-      "eventCount": 13,
+      "eventCount": 15,
       "eventIds": [
         "zhu-youqian-shanzhou",
+        "zhu-youqian-su-xun-and-son-seek-shelter",
         "zhu-youqian-jin-alliance",
         "zhu-youqian-shu",
         "zhu-youqian-death",
@@ -6546,13 +6687,14 @@
         "zhu-youqian-ji-king",
         "zhu-youqian-liang-allegiance",
         "zhu-youqian-tongzhou",
+        "zhu-youqian-send-su-xun-to-wei",
         "zhu-youqian-changan-honors",
         "zhu-youqian-rename"
       ]
     },
     {
       "personId": "zhu-youzhen",
-      "eventCount": 58,
+      "eventCount": 59,
       "eventIds": [
         "zhu-youzhen-birth",
         "zhu-youzhen-jun-prince",
@@ -6611,7 +6753,8 @@
         "zhu-youzhen-first-office",
         "zhu-youzhen-rename-zhen",
         "zhu-youzhen-commission-wang-jingren-huainan",
-        "zhu-youzhen-taizu-records-compilation"
+        "zhu-youzhen-taizu-records-compilation",
+        "zhu-youzhen-recall-zhao-guangfeng-chancellorship"
       ]
     },
     {

@@ -2049,6 +2049,22 @@
       ],
       "notes": [
         "诏令要求施行与实际完成学校建设不同，不补建成日期。"
+      ],
+      "variants": [
+        {
+          "label": "文帝朝对永初学政的追述",
+          "sourceDate": "永初受命时，原未别明月日（见文帝元嘉十九年诏追述）",
+          "summary": "文帝诏追述永初朝曾诏广开学校，因接连遭遇艰难，未及修建。所追述是否即此一道诏及其月日均未指明。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v005",
+              "paragraphId": "songshu-v005-p149",
+              "originalRevision": 1,
+              "originalSha256": "e5f009e86c77e8317bb9fa543140925626363364aeded8b054bbbff4599baa2d",
+              "excerpt": "永初受命，憲章弘遠，將陶鈞庶品，混一殊風，有詔典司，大啟庠序，而頻遘屯夷，未及修建。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -2244,6 +2260,102 @@
       ]
     },
     {
+      "id": "liu-yu-song-yilong-accession-tomb-homage",
+      "title": "刘义隆入继时谒初宁陵",
+      "summary": "《宋书》记刘义隆八月丁酉谒初宁陵，返回中堂即皇帝位；《南史》也记他入都后先谒初宁陵，再受玺绶。",
+      "year": 424,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 72,
+      "sourceDate": "景平二年八月丁酉（同日改元元嘉）",
+      "evidence": [
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p3",
+          "originalRevision": 1,
+          "originalSha256": "8915a5f45b6e00d783062a932110b306df4d05da027e9053f9aa8fe96416b9cf",
+          "excerpt": "八月丙申，車駕至京城。[1]丁酉，謁初寧陵，還於中堂即皇帝位。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p4",
+          "originalRevision": 1,
+          "originalSha256": "f8f107071bd3223851bf69210c8e9123997afd99d1454213beecdd6fec661f38",
+          "excerpt": "及至都，群臣迎拜於新亭。先謁初寧陵，還次中堂，百官奉璽紱，沖讓未受，勸請數四，乃從之。"
+        }
+      ],
+      "notes": [
+        "此为刘义隆拜谒刘裕陵寝，非重新安葬；刘裕原葬日在永初三年七月己酉。",
+        "丁酉据《宋书》；《南史》此处记入都后、受玺前的次序，未另记拜陵干支。"
+      ]
+    },
+    {
+      "id": "liu-yu-song-yilong-yuanjia28-tomb-homage",
+      "title": "刘义隆再次拜初宁陵",
+      "summary": "《南史》记刘义隆在元嘉二十八年三月丙申拜初宁陵。",
+      "year": 451,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 73,
+      "sourceDate": "元嘉二十八年三月丙申",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p148",
+          "originalRevision": 1,
+          "originalSha256": "a13ca492ba29ecbc6d10f53cf6530b048b21e74a11d286b39c6a04944507ad83",
+          "excerpt": "三月乙酉，車駕還宮。丙申，拜初寧陵。大旱。"
+        }
+      ],
+      "notes": [
+        "拜陵者是刘义隆，刘裕为已故陵主。同段还宫在乙酉，拜陵在丙申，二日分别。"
+      ]
+    },
+    {
+      "id": "liu-yu-song-xiaowu-accession-tomb-homage",
+      "title": "孝武帝即位后谒初宁陵",
+      "summary": "《南史》记孝武帝刘骏在即位后的五月甲午拜谒初宁陵。",
+      "year": 453,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 74,
+      "sourceDate": "元嘉三十年五月甲午（孝武帝即位后）",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p174",
+          "originalRevision": 1,
+          "originalSha256": "e99a63f907ec884170b9ceb30305c6780e8945c14f2e873cc60eb516e29fd093",
+          "excerpt": "夏五月乙亥，輔國將軍朱修之克東府。丙子，克建鄴，二凶及同逆並伏誅。庚辰，詔分遣大使巡省方俗。是日解嚴。辛巳，幸東府城。甲申，尊所生路淑媛為皇太后。乙酉，立妃王氏為皇后。壬辰，以太尉江夏王義恭為太傅，領大司馬。甲午，謁初甯陵，曲赦建鄴二百里內，並蠲今年租稅。戊戌，以撫軍將軍南平王鑠為司空，建平王宏為尚書左僕射。"
+        }
+      ],
+      "notes": [
+        "拜陵者是孝武帝刘骏，刘裕为已故陵主；同日曲赦与免租的施事也是刘骏。元嘉年号继续沿用，不表示文帝仍在世施政。"
+      ]
+    },
+    {
+      "id": "liu-yu-song-xiaowu-daming2-tomb-homage",
+      "title": "孝武帝大明二年拜初宁陵",
+      "summary": "《南史》记孝武帝刘骏在大明二年正月壬戌拜初宁陵。",
+      "year": 458,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 75,
+      "sourceDate": "大明二年正月壬戌",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p213",
+          "originalRevision": 1,
+          "originalSha256": "1acb15f513e5c46c1477d1cdc104da334ed6a778dea5b33080634df97791da94",
+          "excerpt": "二年春正月辛亥，祀南郊。丙辰，復郡縣田秩，並九親祿奉。壬戌，拜初寧陵。"
+        }
+      ],
+      "notes": [
+        "拜陵者是孝武帝刘骏，刘裕为已故陵主。同段辛亥南郊祭祀、丙辰恢复田秩与禄奉另有记日，不与壬戌拜陵合为同日。"
+      ]
+    },
+    {
       "id": "liu-yu-song-poverty",
       "title": "早年贫困，奉事继母",
       "summary": "本纪记刘裕家贫而勤于奉养继母；《南史》又载他在丹徒亲自耕作。",
@@ -2388,6 +2500,61 @@
       ]
     },
     {
+      "id": "liu-yu-song-liu-cui-support-yilong-jingkou",
+      "title": "命刘粹辅义隆镇守京口",
+      "summary": "《宋书》文帝纪记卢循之难时，刘裕派谘议参军刘粹辅佐幼年的刘义隆镇守京城；本段语境中的京城指京口。",
+      "year": null,
+      "yearRange": {
+        "start": 410,
+        "end": 412
+      },
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 24,
+      "sourceDate": "卢循之难，未另记授任年月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p1",
+          "originalRevision": 1,
+          "originalSha256": "a034e3720de5355ff895d168866bd10426e6d1e3df538b3e4cd3f6937e6a50ea",
+          "excerpt": "盧循之難，上年四歲，高祖使諮議參軍劉粹輔上鎮京城。"
+        },
+        {
+          "chapterId": "songshu-v001",
+          "paragraphId": "songshu-v001-p55",
+          "originalRevision": 1,
+          "originalSha256": "de2fac314c7382cda4e62dec0253169f3b08af8f53090b5a717655fd100691f3",
+          "excerpt": "六年二月丁亥，屠廣固。超踰城走，征虜賊曹喬胥獲之，殺其王公以下，[24]納口萬餘，馬二千疋，送超京師，斬于建康市。"
+        },
+        {
+          "chapterId": "songshu-v001",
+          "paragraphId": "songshu-v001-p56",
+          "originalRevision": 1,
+          "originalSha256": "8ad2b66ad690aad480704b4192138b012f5b9f0b87eeb8603a2249b2e5bb3f98",
+          "excerpt": "公之北伐也，徐道覆仍有窺窬之志，勸盧循乘虛而出，循不從。道覆乃至番禺說循曰：「本住嶺外，豈以理極於此，正以劉公難與為敵故也。今方頓兵堅城之下，[25]未有旋日。以此思歸死士，掩襲何、劉之徒，如反掌耳。不乘此機而保一日之安，若平齊之後，小息甲養眾，不過一二年間，必璽書徵君。若劉公自率眾至豫章，遣銳師過嶺，雖復將軍神武，恐必不能當也。今日之機，萬不可失。既剋都邑，傾其根本，劉公雖還，無能為也。」循從之，乃率眾過嶺。是月，寇南康、廬陵、豫章，諸郡守皆委任奔走。于時平齊問未至，即馳使徵公。公之初剋齊也，欲停鎮下邳，清盪河、洛，既而被徵使至，即日班師。"
+        },
+        {
+          "chapterId": "songshu-v002",
+          "paragraphId": "songshu-v002-p1",
+          "originalRevision": 1,
+          "originalSha256": "eacfa7953cf3f9416d18eb40e62a470fb472e7ae4ce1d9035bdb9e6f1180e75e",
+          "excerpt": "義熙七年"
+        },
+        {
+          "chapterId": "songshu-v002",
+          "paragraphId": "songshu-v002-p6",
+          "originalRevision": 1,
+          "originalSha256": "a5a65f8db0da92a9a854b4ad40d0edd20fafd259dca60d1ba70dcbe336e770be",
+          "excerpt": "交州刺史杜慧度斬盧循，傳首京師。"
+        }
+      ],
+      "notes": [
+        "文帝纪只把幼年任镇系于卢循之难，未另记月日。父纪将本轮战事记在义熙六年至七年，西历范围跨410—412；这一范围用于定位此事，并非所载任期。",
+        "此处京城为京口，施命者是刘裕，刘粹奉命辅佐刘义隆。"
+      ]
+    },
+    {
       "id": "liu-yu-song-eastfu",
       "title": "减省民役，修筑东府",
       "summary": "《宋书》在义熙十年总叙中记刘裕休息百姓、减少力役并修筑东府。",
@@ -2418,6 +2585,33 @@
       ],
       "notes": [
         "该原书纪年范围跨西历年，未把未知月日强定为单年。"
+      ]
+    },
+    {
+      "id": "liu-yu-song-order-yilong-prison-inquiry",
+      "title": "命刘义隆讯建康狱囚",
+      "summary": "刘义隆在永初元年来朝时，适逢刘裕将听讼，刘裕命他讯问建康狱囚。义隆辨析裁断合乎刘裕心意，刘裕十分高兴。",
+      "year": null,
+      "yearRange": {
+        "start": 420,
+        "end": 421
+      },
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 57,
+      "sourceDate": "永初元年，义隆是岁来朝时，未另记月日",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p2",
+          "originalRevision": 1,
+          "originalSha256": "0172d1a439b2914e5edd0d6d1043d40d48cf1ca4db39f7621824cda65681e108",
+          "excerpt": "太祖文皇帝諱義隆，小字車兒，武帝第三子也。晉義熙三年生於京口。十一年，封彭城縣公。永初元年，封宜都郡王，位鎮西將軍、荊州刺史，加都督，時年十四。長七尺五寸，博涉經史，善隸書。是歲來朝，會武帝當聽訟，仍遣上訊建康獄囚，辯斷稱旨，武帝甚悅。"
+        }
+      ],
+      "notes": [
+        "来朝与讯狱同系永初元年，原文未另记月日；这一纪年范围跨420—421年。刘裕是遣命者，刘义隆是讯囚者，不能写成刘裕亲自讯问这些囚犯。",
+        "此事未记延贤堂，不能与另记永初元年十二月辛巳朔的刘裕延贤堂听讼确定为同一场。"
       ]
     },
     {
