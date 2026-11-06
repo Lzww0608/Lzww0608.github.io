@@ -79,8 +79,14 @@ async function verifyDatabase(file,expected,config){
   const name=`history_github_restore_${process.pid}_${randomBytes(5).toString('hex')}`;
   const admin=new pg.Client({...adminDatabase(config),database:'postgres'});let created=false,check;
   try{
-    await admin.connect();await admin.query(`CREATE DATABASE ${name} TEMPLATE template0`);created=true;
-    await admin.query(`REVOKE CONNECT ON DATABASE ${name} FROM PUBLIC`);
+    await admin.connect();await admin.query(`CREATE DATABASE ${name} TEMPLATE template0 ALLOW_CONNECTIONS false`);created=true;
+    await admin.query(`REVOKE ALL PRIVILEGES ON DATABASE ${name} FROM PUBLIC`);
+    const isolation=(await admin.query(`SELECT d.datallowconn,pg_get_userbyid(d.datdba) AS owner,
+      NOT EXISTS(SELECT 1 FROM aclexplode(coalesce(d.datacl,acldefault('d',d.datdba))) a WHERE a.grantee<>d.datdba) AS owner_only
+      FROM pg_database d WHERE d.datname=$1`,[name])).rows;
+    if(isolation.length!==1||isolation[0].datallowconn!==false||isolation[0].owner!==userInfo().username||isolation[0].owner_only!==true)
+      throw new Error('Temporary backup restore database isolation differs.');
+    await admin.query(`ALTER DATABASE ${name} ALLOW_CONNECTIONS true`);
     run(join(pgBin,'pg_restore'),['--exit-on-error','--no-owner','--no-acl','-h',config.socketDir,'-p',String(config.database.port),'-U',userInfo().username,'-d',name,file]);
     check=new pg.Client({...adminDatabase(config),database:name});await check.connect();
     const state=await databaseState(check);

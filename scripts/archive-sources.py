@@ -1138,6 +1138,11 @@ SOUTHERN_TANG_COMPLETE_NOTES['beimeng-v012'] = json.loads("[\"完整保存四库
 _h117_sg39 = next(spec for spec in SPECS if spec['id'] == 'shiguochunqiu-v039')
 _h117_sg39['subjects'] = list(dict.fromkeys([*_h117_sg39['subjects'], 'former-shu-chengjie-mother']))
 
+# Source-bound Zhang Ce chapter links; preserve existing subjects and source bytes.
+for _zhang_ce_chapter_id in ['old-v003', 'old-v004', 'old-v005', 'new-v02', 'tongjian-v266', 'tongjian-v267', 'huiyao-v001', 'old-v018', 'new-v35']:
+    _zhang_ce_spec = next(spec for spec in SPECS if spec['id'] == _zhang_ce_chapter_id)
+    _zhang_ce_spec['subjects'] = list(dict.fromkeys([*_zhang_ce_spec['subjects'], 'zhang-ce']))
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

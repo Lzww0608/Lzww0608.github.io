@@ -1,0 +1,911 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "zhang-ce",
+  "events": [
+    {
+      "id": "zhang-ce-resume-lay-life",
+      "title": "返初服，奉父母避乱",
+      "summary": "黄巢进犯长安后，张策脱去僧服、恢复俗人装束，奉父母避乱。两传都把返服紧接于京城陷乱。",
+      "year": 881,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "旧传唐广明末；以同一犯阙背景核为881年，张策返服未独记月日。",
+      "phase": "early",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "唐廣明末，大盜犯闕，策遂返初服，奉父母逃難，君子多之。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "黃巢犯長安，策乃返初服，奉父母以避亂，居田里十餘年。"
+        },
+        {
+          "chapterId": "old-v001",
+          "paragraphId": "old-v001-p4",
+          "originalRevision": 1,
+          "originalSha256": "c0356539c3db5fb3527d780b0d21a701c6117dccdea8cd20f73098b9de45f058",
+          "excerpt": "唐廣明元年十二月甲申，黃巢陷長安，遣帝領兵屯于東渭橋。"
+        }
+      ],
+      "notes": [
+        "广明元年十二月的黄巢陷长安与两传的返服避乱相接，只用于核定年份；甲申及该月不作为张策返服或奉亲出发的日期。",
+        "新传随后记居田里十余年，旧传另叙家艰、服满后隐居，不由此倒推生年或初仕年月。"
+      ]
+    },
+    {
+      "id": "zhang-ce-seal-deputy-commission",
+      "title": "受命为押传国宝副使",
+      "summary": "唐哀帝禅位于梁，任杨涉为押传国宝使，以张策为副使，与册礼使和押金宝使诸组共同奉命赴大梁。",
+      "year": 907,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "通鉴承三月甲辰；新史作明年三月。这里只取907年并保留原书记日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p14",
+          "originalRevision": 1,
+          "originalSha256": "606e8d27e9e3100b1b161805de4c9f525c3bee7c28df5bba6537a0b657cc7340",
+          "excerpt": "甲辰，唐昭宣帝降御札禪位於梁。以攝中書令張文蔚為冊禮使，禮部尚書蘇循副之；攝侍中楊涉為押傳國寶使，翰林學士張策副之；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢副之；帥百官備法駕詣大梁。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p3",
+          "originalRevision": 1,
+          "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+          "excerpt": "明年三月，唐哀帝遜位于梁，遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；中書侍郎、同中書門下平章事楊涉為押傳國寶使，翰林學士、中書舍人張策為副；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢為副。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p11",
+          "originalRevision": 1,
+          "originalSha256": "41aced9861321c43f80a6e59ebc4717c23cff92a6fcae62e2cdced4c983c1b2a",
+          "excerpt": "三月，癸未，王以亳州刺史李思安為北路行軍都統，將兵擊幽州。"
+        }
+      ],
+      "notes": [
+        "三月甲辰为受副使命，四月甲子为实际奉玺，分作两事。张策不兼册礼副使或押金宝副使。",
+        "旧本纪此处明引《通鉴》，不另当作独立第三史源；杨凝式对杨涉的劝言不移作张策言行。"
+      ]
+    },
+    {
+      "id": "zhang-ce-present-imperial-seal",
+      "title": "奉传国玺登金祥殿",
+      "summary": "四月甲子，张策与杨涉奉传国玺依次登殿进读，随后与其他使臣一同率文武百官拜贺。",
+      "year": 907,
+      "sortOrder": 20,
+      "precision": "year",
+      "sourceDate": "四月甲子；以开平元年年题及四月承接核907年，不另定唯一西历日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p3",
+          "originalRevision": 1,
+          "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
+          "excerpt": "四月甲子，文蔚等自上源驛奉冊寶，乘輅車，導以金吾仗衞、太常鹵簿，朝梁于金祥殿。王衮冕南面，臣文蔚、臣循奉冊升殿，進讀已，臣涉、臣策奉傳國璽，臣貽矩、臣光逢奉金寶，以次升，進讀已，降，率文武百官北面舞蹈再拜賀。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "甲子，張文蔚、楊涉乘輅自上源驛從冊寶，諸司各備儀衛鹵簿前導，百官從其後，至金祥殿前陳之。王被兗冕，即皇帝位。張文蔚、蘇循奉冊升殿進讀，楊涉、張策、薛貽矩、趙光逢以次奉寶升殿，讀已，降，帥百官舞蹈稱賀。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p16",
+          "originalRevision": 1,
+          "originalSha256": "37b1a393268279b055056375e445b4e82c2258fef678be88fc2335956e47fdc5",
+          "excerpt": "夏，四月，己酉，直抵幽州城下。"
+        }
+      ],
+      "notes": [
+        "杨涉、张策奉传国玺，薛贻矩、赵光逢奉金宝，张文蔚、苏循奉册，职责分别保存。",
+        "共同率百官不写成张策个人独率；宴上称颂太祖的张祎另有其人。"
+      ]
+    },
+    {
+      "id": "zhang-ce-engineering-office",
+      "title": "梁初改工部侍郎，加承旨",
+      "summary": "朱温受禅后，张策改任梁工部侍郎；旧传并记加承旨。",
+      "year": 907,
+      "sortOrder": 30,
+      "precision": "year",
+      "sourceDate": "两传直接系于太祖受禅／即位的改官，只取907年；未独记月日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "太祖受禪，改工部侍郎，加承旨。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "太祖即位，遷工部侍郎奉旨。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p16",
+          "originalRevision": 1,
+          "originalSha256": "37b1a393268279b055056375e445b4e82c2258fef678be88fc2335956e47fdc5",
+          "excerpt": "夏，四月，己酉，直抵幽州城下。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "甲子，張文蔚、楊涉乘輅自上源驛從冊寶，諸司各備儀衛鹵簿前導，百官從其後，至金祥殿前陳之。王被兗冕，即皇帝位。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新传作奉旨",
+          "sourceDate": "太祖即位后，未独记月日",
+          "summary": "新传底本为“迁工部侍郎奉旨”；“奉旨”的断句、含义仍待考，不以旧传“加承旨”统一其底本。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p13",
+              "originalRevision": 1,
+              "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+              "excerpt": "太祖即位，遷工部侍郎奉旨。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p8",
+              "originalRevision": 1,
+              "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+              "excerpt": "太祖受禪，改工部侍郎，加承旨。"
+            }
+          ],
+          "year": 907
+        }
+      ],
+      "notes": [
+        "改官直接系于受禅主事，故取907年；四月甲子是奉宝行礼日，不是这一改官的独立任命日。"
+      ]
+    },
+    {
+      "id": "zhang-ce-remain-tokyo",
+      "title": "奉命留东京",
+      "summary": "朱温因用兵未及西行，命多数文武百官先赴西京；张策以翰林学士身份与韩建、薛贻矩等留在东京。",
+      "year": 907,
+      "sortOrder": 40,
+      "precision": "month",
+      "sourceDate": "开平元年十月，全月属西历907年；未独记日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p1",
+          "originalRevision": 1,
+          "originalSha256": "7067b8d68f17aa4ef56212a3f197e119e8042c460d59e70fb2d79489f3c4e3d3",
+          "excerpt": "開平元年正月丁亥，帝回自長蘆，次於魏州。節度使羅紹威以帝回軍，慮有不測之患，由是供億甚至，因密以天人之望切陳之。帝雖拒而不納，然心德之。壬寅，帝至自長蘆。是日，有慶雲覆於府署之上。甲辰，天子遣御史大夫薛貽矩來傳禪代之意。貽矩謁帝，陳北面之禮，帝揖之升階。貽矩曰：「殿下功德及人，三靈所卜已定。皇帝方議裁詔，行舜、禹之事，臣安敢違。」既而拜伏於砌下，帝側躬以避之。"
+        },
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p14",
+          "originalRevision": 1,
+          "originalSha256": "58b79239b366231ae646866a88ce406161f013a5cc573569d3cac9e344add9ba",
+          "excerpt": "十月，帝以用軍，未暇西幸，文武百官等久居東京，漸及疑訝，令就便各許歸安，只留韓建、薛貽矩，翰林學士張策、韋郊、杜曉，中書舍人封舜聊、張袞並左右御史、司天監、宗正寺，兼要當諸司節級外，其宰臣張文蔚已下文武百官，並先於西京祗候。"
+        }
+      ],
+      "notes": [
+        "留下东京是本次人员安排，没有授张策东京留守职名；其他百官赴西京的行程不作张策本人的行程。"
+      ]
+    },
+    {
+      "id": "zhang-ce-zezhou-chancellorship",
+      "title": "从征泽州，拜相",
+      "summary": "张策随从征讨至泽州，获任刑部侍郎、同平章事。旧传续记仍判户部，随后迁中书侍郎。",
+      "year": 908,
+      "sortOrder": 10,
+      "precision": "day",
+      "sourceDate": "开平二年四月癸卯拜相；从征、判户部及寻迁中书侍郎未各独记年月日。",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "明年，從征至澤州，拜刑部侍郎、平章事，仍判戶部，尋遷中書侍郎。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "開平二年，拜刑部侍郎、同中書門下平章事，遷中書侍郎。"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p15",
+          "originalRevision": 1,
+          "originalSha256": "7e703bbae81bd99a90d92fc405661ecdb82d1114e4194f3e91d558af86e14fb7",
+          "excerpt": "夏四月癸卯，楊涉罷。吏部侍郎于兢為中書侍郎，翰林學士承旨禮部侍郎張策為刑部侍郎：同中書門下平章事。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p84",
+          "originalRevision": 1,
+          "originalSha256": "978900942c458d742e8d020275ddd3a1b4a292436c185245ef369e8ee2821dec",
+          "excerpt": "癸卯，門下侍郎、同平章事楊涉罷為右僕射；以吏部侍郎于兢為中書侍郎，翰林學士承旨張策為刑部侍郎，並同平章事。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p65",
+          "originalRevision": 1,
+          "originalSha256": "2b936ed15f05130350ae856237c3659b8fde47870d7eea130e6926fcb957f75e",
+          "excerpt": "太祖神武元聖孝皇帝上開平二年（戊辰，公元九零八年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p83",
+          "originalRevision": 1,
+          "originalSha256": "d4b2829b5f0cfdef628f32c4dbfdd91fe017ebe16158290d0eb1a97223670037",
+          "excerpt": "夏，四月，辛丑朔，德威至晉陽，留兵城外，獨徒步而入，伏先王柩，哭極哀。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧纪与通鉴的泽州行在叙次",
+          "sourceDate": "三月丁丑至泽州，四月丙午离泽、壬子至东京／大梁",
+          "summary": "旧纪说四月在泽州行在拜于兢、张策两相，随后记车驾离泽；通鉴亦记丙午自泽州南还、壬子至大梁。",
+          "evidence": [
+            {
+              "chapterId": "old-v004",
+              "paragraphId": "old-v004-p3",
+              "originalRevision": 1,
+              "originalSha256": "26cb9f4575bd078df64dd495e51348c27ce1d5d28c5fbfbc76a57fb9335e61a9",
+              "excerpt": "三月壬申，帝親統六軍，巡幸澤、潞。是日寅時，車駕西幸，宰臣並要切司局皆扈從，晚次中牟。下詔，以去年六月後，昭義行營陣歿都將吏卒死于王事，追念忠赤，乃錄其名氏，各下本軍，令給養妻孥，三年內官給糧賜。丁丑，幸澤州。"
+            },
+            {
+              "chapterId": "old-v004",
+              "paragraphId": "old-v004-p4",
+              "originalRevision": 1,
+              "originalSha256": "aa66c124a85347c11999082c10cada1b61adec44723b7d76025d425ad0deb26d",
+              "excerpt": "四月，以吏部侍郎于兢為中書侍郎、平章事，以翰林奉旨學士張策為刑部侍郎、平章事。時帝在澤州，拜二相於行在。丙午，車駕離澤州。丁未，駐蹕於懷州，宴宰臣文武百官。辛亥，至鄭州。壬子，至東京。"
+            },
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p77",
+              "originalRevision": 1,
+              "originalSha256": "3fe33b6cdf62ceb2d7118310fb47d4bcbea252461aa04589ba30043a1fe4879a",
+              "excerpt": "三月，壬申朔，帝發大梁；丁丑，次澤州。辛巳，劉知俊至。壬午，以知俊為潞州行營招討使。"
+            },
+            {
+              "chapterId": "tongjian-v266",
+              "paragraphId": "tongjian-v266-p84",
+              "originalRevision": 1,
+              "originalSha256": "978900942c458d742e8d020275ddd3a1b4a292436c185245ef369e8ee2821dec",
+              "excerpt": "癸卯，門下侍郎、同平章事楊涉罷為右僕射；以吏部侍郎于兢為中書侍郎，翰林學士承旨張策為刑部侍郎，並同平章事。兢，琮之兄子也。夾寨奏余吾晉兵已引去，帝以為援兵不能復來，潞州必可取，丙午，自澤州南還；壬子，至大梁。"
+            }
+          ],
+          "year": 908
+        },
+        {
+          "label": "新纪在任相之后记至泽州",
+          "sourceDate": "三月如泽州，四月癸卯拜相、壬子至泽州",
+          "summary": "新纪自释“如”为往而未至，任相条之后才记壬子至泽州，与旧纪、通鉴的到离叙次分别保留。",
+          "evidence": [
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p14",
+              "originalRevision": 1,
+              "originalSha256": "e76761b8a63dd0c9096e8ef56b8ad82680313170adfac5a81713b054fbb8f2bc",
+              "excerpt": "三月壬申朔，如西都。〈幸，已至也。如，往而未至之辭。書如，則在道。有事，可以書。〉丙子，如懷州。〈五代亂世，兵無虛日，不可悉書。故用兵無勝敗，攻城無得失，皆不書。其命大將與天子有所如，自著大事爾。此如懷、澤者，以兵方攻潞州也。〉丁丑，如澤州。戊寅，封鴻臚卿李崧萊國公，為二王後。〈梁嘗更「戊」曰「武」，而舊史悉復為「戊」。〉[1]壬午，匡國軍節度使劉知俊為潞州行營招討使。癸巳，改卜郊。張文蔚薨。"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p15",
+              "originalRevision": 1,
+              "originalSha256": "7e703bbae81bd99a90d92fc405661ecdb82d1114e4194f3e91d558af86e14fb7",
+              "excerpt": "夏四月癸卯，楊涉罷。吏部侍郎于兢為中書侍郎，翰林學士承旨禮部侍郎張策為刑部侍郎：同中書門下平章事。壬子，至澤州。"
+            },
+            {
+              "chapterId": "old-v004",
+              "paragraphId": "old-v004-p3",
+              "originalRevision": 1,
+              "originalSha256": "26cb9f4575bd078df64dd495e51348c27ce1d5d28c5fbfbc76a57fb9335e61a9",
+              "excerpt": "三月壬申，帝親統六軍，巡幸澤、潞。是日寅時，車駕西幸，宰臣並要切司局皆扈從，晚次中牟。下詔，以去年六月後，昭義行營陣歿都將吏卒死于王事，追念忠赤，乃錄其名氏，各下本軍，令給養妻孥，三年內官給糧賜。丁丑，幸澤州。"
+            },
+            {
+              "chapterId": "old-v004",
+              "paragraphId": "old-v004-p4",
+              "originalRevision": 1,
+              "originalSha256": "aa66c124a85347c11999082c10cada1b61adec44723b7d76025d425ad0deb26d",
+              "excerpt": "四月，以吏部侍郎于兢為中書侍郎、平章事，以翰林奉旨學士張策為刑部侍郎、平章事。時帝在澤州，拜二相於行在。丙午，車駕離澤州。丁未，駐蹕於懷州，宴宰臣文武百官。辛亥，至鄭州。壬子，至東京。"
+            }
+          ],
+          "year": 908
+        }
+      ],
+      "notes": [
+        "四月癸卯只系刑部侍郎、同平章事的任命；判户部、稍后迁中书侍郎均未独署同日。从征不作亲自领兵作战。",
+        "各书车驾行止用于保留行在叙次分歧，不把朱温三月出发、丁丑到泽、丙午返还或壬子到达之日直接给予张策。"
+      ]
+    },
+    {
+      "id": "zhang-ce-retire-return-luo",
+      "title": "因风恙致仕，肩舆归洛",
+      "summary": "张策因风恙上章请求退休，罢相后以刑部尚书致仕。旧传说他即日乘肩舆归洛，后来居福善里，以竹木、图书、琴酒自适。",
+      "year": 908,
+      "sortOrder": 20,
+      "precision": "day",
+      "sourceDate": "开平二年十一月癸巳罢相、以刑部尚书致仕；归行相接，晚年居处未独记年月日。",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "以風恙拜章乞骸，改刑部尚書致仕。即日肩輿歸洛，居於福善裏，修篁嘉木，圖書琴酒，以自適焉。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "以風恙罷為刑部尚書，致仕，卒于洛陽。"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p20",
+          "originalRevision": 1,
+          "originalSha256": "cad472846b2bbde0b479bc6104b41d5efbc744f818b8eef4781e58b87a094e62",
+          "excerpt": "十一月癸巳，張策罷，左僕射楊涉同中書門下平章事。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p17",
+          "originalRevision": 1,
+          "originalSha256": "b38c2b71f5023e8bee7b7b8a916733be28446ae5cee7a75057ff8a0477efafec",
+          "excerpt": "癸巳，中書侍郎、同平章事張策以刑部尚書致仕；以左僕射楊涉同平章事。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p3",
+          "originalRevision": 1,
+          "originalSha256": "6d3623f9ef71250f0f979104a2730f8b6b0c04eb38021b66d2f6f360f6bd3551",
+          "excerpt": "太祖神武元聖孝皇帝中開平二年（戊辰，公元九零八年）"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p14",
+          "originalRevision": 1,
+          "originalSha256": "93f7bf9cb3c74a256317b40218900053fa65e08e254b4c476e9e23307dd508a9",
+          "excerpt": "十一月，彥卿帥眾二千襲霍丘，為土豪朱景所敗；"
+        }
+      ],
+      "notes": [
+        "原书记十一月癸巳，仍属西历908年。",
+        "罢相并非去尽全部官阶，刑部尚书是生前致仕衔。旧传“即日肩舆归洛”记当日归行，未明到洛日期；后来居福善里的生活未另记年月日。"
+      ]
+    },
+    {
+      "id": "zhang-ce-ancestors-posthumous-rank",
+      "title": "先世获追赠一等",
+      "summary": "朝廷下诏，给以刑部尚书致仕的张策及三、四品常参官二十二人的先世，各追赠一等。此为张策退居期间有明文记载的家门受恩。",
+      "year": 910,
+      "sortOrder": 10,
+      "precision": "day",
+      "sourceDate": "开平四年四月壬戌；年承本章开平四年，月日由本条明载。",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v005",
+          "paragraphId": "old-v005-p8",
+          "originalRevision": 1,
+          "originalSha256": "e0bad79c53469dc481541ea01f46961550f07a8c8e8467abe97cdbfb9b63167a",
+          "excerpt": "開平四年"
+        },
+        {
+          "chapterId": "old-v005",
+          "paragraphId": "old-v005-p12",
+          "originalRevision": 1,
+          "originalSha256": "2815931beaf57bbcfddde2f8bb528a13dfd0b41d96ae500bd7b8f014938dba80",
+          "excerpt": "四月壬戌，詔曰：「追養以祿，王者推歸厚之恩；欲靜而風，人子抱終身之感。其以刑部尚書致仕張策及三品、四品常參官二十二人先世，各追贈一等。」"
+        }
+      ],
+      "notes": [
+        "受赠者为列名官员的先世，不是张策本人复官或死后赠官；原段未列张策先世姓名及具体新增官阶，不补定为其父独获某官。"
+      ]
+    },
+    {
+      "id": "zhang-ce-death-luoyang",
+      "title": "卒于洛阳",
+      "summary": "旧传记张策乾化二年秋去世，新传补记卒于洛阳。",
+      "year": 912,
+      "sortOrder": 10,
+      "precision": "year",
+      "sourceDate": "旧传乾化二年秋，以通鉴同年具名年题核912年；新传未独记卒年月。",
+      "phase": "later",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "乾化二年秋，卒。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "以風恙罷為刑部尚書，致仕，卒于洛陽。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p37",
+          "originalRevision": 1,
+          "originalSha256": "0287feead5ef1b7aea7e33f5aef683c14d7c77c8d9726efc54fdc7445b18cb98",
+          "excerpt": "太祖神武元聖孝皇帝下乾化二年（壬申，公元九一二年）"
+        }
+      ],
+      "notes": [
+        "秋季据旧传，地点据新传，分源保存；不补死亡日、享年或死因。"
+      ]
+    },
+    {
+      "id": "zhang-ce-youth-ding-inscription",
+      "title": "少年辨鼎铭",
+      "summary": "两传记：洛阳敦化里浚井得鼎，铭称“魏黄初元年春二月”；张策十三岁时据黄初改元时序质疑铭文。旧传还说父亲取《魏志》验证，宗族称奇。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "两传记时年十三，未记本人活动的西历年。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "居洛陽敦化裏，嘗浚甘泉井，得古鼎，耳有篆字曰：「魏黃初元年春二月，匠吉千」，且又製作奇巧，同甚寶之。策時在父旁，徐言曰：「建安二十五年，曹公薨，改年為延康，其年十月，文帝受漢禪，始號黃初，則是黃初元年無二月明矣。鼎文何謬歟！」同大驚，亟遣啟書室，取《魏志》展讀，一不失所啟，宗族奇之，時年十三。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p12",
+          "originalRevision": 1,
+          "originalSha256": "fdb06724eceba1e1b9d47dc7ef66fbd06c16b0863701a55d5f3ed2e512728984",
+          "excerpt": "張策字少逸，河西燉煌人也。父同，為唐容管經略使。策少聰悟好學，通章句。父同，居洛陽敦化里，浚井得古鼎，銘曰：「魏黃初元年春二月，匠吉千。」同以為奇，策時年十三，居同側，啟曰：「漢建安二十五年，曹公薨，改元延康。是歲十月，文帝受禪，又改黃初，是黃初元年無二月也，銘何謬邪？」同大驚異之。"
+        }
+      ],
+      "notes": [
+        "这是两传所载辨铭故事，不据此断定古鼎真伪；不由年龄和铭文纪年倒推张策生年。"
+      ]
+    },
+    {
+      "id": "zhang-ce-become-monk",
+      "title": "少年落发为僧",
+      "summary": "张策少时喜好佛教，落发为僧，居慈恩寺。旧传称未弱冠、居雍，新传作长安慈恩寺。",
+      "year": null,
+      "sortOrder": 20,
+      "precision": "undated",
+      "sourceDate": "旧传未弱冠；新传少时，未记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "然而妙通因果，酷奉空教，未弱冠，落發為僧，居雍之慈恩精廬，頗有高致。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "策少好浮圖之說，乃落髮為僧，居長安慈恩寺。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-ce-mourning-seclusion",
+      "title": "丁家艰后屏居郊野",
+      "summary": "旧传记返服避乱后遭家艰，以孝闻；服满后屏居郊野，十余年没有求仕之意。新传把居田里十余年直接接于避乱之后。",
+      "year": null,
+      "sortOrder": 30,
+      "precision": "undated",
+      "sourceDate": "返服避乱之后；两传所叙十余年起点不同，未定年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "及丁家艱，以孝聞。服滿，自屏郊藪，一無幹進意，若是者十餘載，方出為廣文博士，改秘書郎。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新传从避乱接田居",
+          "sourceDate": "黄巢犯长安后，未独记田居始末",
+          "summary": "新传不另叙家艰、服满，而以居田里十余年接避乱；两书时序不拼为唯一开始日。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p13",
+              "originalRevision": 1,
+              "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+              "excerpt": "黃巢犯長安，策乃返初服，奉父母以避亂，居田里十餘年。召拜廣文館博士。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p8",
+              "originalRevision": 1,
+              "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+              "excerpt": "及丁家艱，以孝聞。服滿，自屏郊藪，一無幹進意，若是者十餘載，方出為廣文博士，改秘書郎。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "家艰未明丧者，不强定为父丧，也不与后来“内忧”合为同一次；不从十余年倒算出仕年。"
+      ]
+    },
+    {
+      "id": "zhang-ce-first-court-offices",
+      "title": "出任广文博士、秘书郎",
+      "summary": "隐居后，张策出任广文博士，旧传接记改秘书郎；新传作受召拜广文馆博士。",
+      "year": null,
+      "sortOrder": 40,
+      "precision": "undated",
+      "sourceDate": "田居十余年后，未独记初仕年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "若是者十餘載，方出為廣文博士，改秘書郎。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "居田里十餘年。召拜廣文館博士。"
+        }
+      ]
+    },
+    {
+      "id": "zhang-ce-serve-wang-xingyu",
+      "title": "入王行瑜邠州幕",
+      "summary": "王行瑜统领邠州，征辟张策为观察支使。旧传并记带水曹员外郎、赐绯。",
+      "year": null,
+      "sortOrder": 50,
+      "precision": "undated",
+      "sourceDate": "王行瑜帅邠州时，未独记张策受辟年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "王行瑜帥邠州，辟為觀察支使，帶水曹員外郎，賜緋。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "邠州王行瑜辟觀察支使。"
+        }
+      ],
+      "notes": [
+        "李克用后来讨王行瑜的日期不作为张策最初入幕日。"
+      ]
+    },
+    {
+      "id": "zhang-ce-carry-parent-leave-bin",
+      "title": "肩舆奉亲离邠避乱",
+      "summary": "李克用讨王行瑜的变乱中，张策与婢女肩舆奉亲离开，积雪中为行人所怜。旧传说舆其亲南出邠境，新传说舆其母东归。",
+      "year": null,
+      "sortOrder": 60,
+      "precision": "undated",
+      "sourceDate": "王行瑜乱败之际；本人出行未独记年月日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "及行瑜反，太原節度使李克用奉詔討伐，行瑜敗死，邠州平。策與婢肩輿其親，南出邠境，屬邊寨積雪，為行者所哀。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新传舆母东归",
+          "sourceDate": "李克用攻王行瑜时，未独记出行日",
+          "summary": "新传明确作母亲、东归；旧传的其亲、南出邠境同时保留，不拼接出唯一方向或被舆人数。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p13",
+              "originalRevision": 1,
+              "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+              "excerpt": "晉王李克用攻行瑜，策與婢肩輿其母東歸，行積雪中，行者憐之。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p8",
+              "originalRevision": 1,
+              "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+              "excerpt": "策與婢肩輿其親，南出邠境，屬邊寨積雪，為行者所哀。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "此为张策奉亲避乱，不是他参加李克用的讨伐；不借攻龙泉的丁巳定出行日。"
+      ]
+    },
+    {
+      "id": "zhang-ce-zhenghua-service",
+      "title": "受朱温辟为郑滑支使",
+      "summary": "朱温听闻张策奉亲的事而赞赏他，奏为郑滑支使。新传另以太祖兼四镇为任用背景。",
+      "year": null,
+      "sortOrder": 70,
+      "precision": "undated",
+      "sourceDate": "离邠之后，未独记受辟年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "太祖聞而嘉之，奏為鄭滑支使，尋以內憂去職。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "梁太祖兼四鎮，辟鄭、滑支使，以母喪解職。"
+        }
+      ],
+      "notes": [
+        "郑滑支使与后来奉聘被留为掌书记是前后两次任用，不以兼四镇称谓补独立任官年。"
+      ]
+    },
+    {
+      "id": "zhang-ce-mother-mourning",
+      "title": "因母丧离职",
+      "summary": "在郑滑任职后，张策因母丧解职。",
+      "year": null,
+      "sortOrder": 80,
+      "precision": "undated",
+      "sourceDate": "郑滑支使之后，未独记年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "太祖聞而嘉之，奏為鄭滑支使，尋以內憂去職。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "梁太祖兼四鎮，辟鄭、滑支使，以母喪解職。"
+        }
+      ],
+      "notes": [
+        "不补母亲名姓，不把此前未明丧者的家艰合并为本次。"
+      ]
+    },
+    {
+      "id": "zhang-ce-court-after-mourning",
+      "title": "服除后任国子博士、膳部员外郎",
+      "summary": "母丧服满后，旧传记张策任国子博士、迁膳部员外郎；新传仅记服除入唐为膳部员外郎。",
+      "year": null,
+      "sortOrder": 90,
+      "precision": "undated",
+      "sourceDate": "母丧服除后，未独记任官年月。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "製闋，除國子博士，遷膳部員外郎。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "服除，入唐為膳部員外郎。"
+        }
+      ],
+      "notes": [
+        "新传省略国子博士不作对旧传的否定；“製闋”保原书字形。"
+      ]
+    },
+    {
+      "id": "zhang-ce-serve-han-jian",
+      "title": "任韩建判官、掌记",
+      "summary": "韩建在华州辟张策为判官，后来领／徙许州，又用他为掌记。旧传说初辟距膳部员外郎之任不到一年。",
+      "year": null,
+      "sortOrder": 100,
+      "precision": "undated",
+      "sourceDate": "旧传不一岁承前职；韩建领／徙许州时续任，张策未独记年月日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "不一歲，華帥韓建辟為判官，及建領許州，又為掌記。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "華州韓建辟判官，建徙許州，以為掌書記，"
+        }
+      ],
+      "notes": [
+        "领许州与徙许州各按原传表述；韩建转镇日期不等于张策受掌记职的日期，不把主君任命日移给本人。"
+      ]
+    },
+    {
+      "id": "zhang-ce-embassy-retained-by-zhu",
+      "title": "奉聘朱温，被留掌记",
+      "summary": "张策奉韩建书币聘问朱温。朱温见他很高兴，留用为掌记；旧传并记上奏任用、兼赐金紫。",
+      "year": null,
+      "sortOrder": 110,
+      "precision": "undated",
+      "sourceDate": "旧传天复中；新传接韩建徙许州叙，未定西历年或月日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "天復中，策奉其主書幣來聘，太祖見而喜曰：「張夫子且至矣。」 即奏為掌記，兼賜金紫。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "建遣策聘于太祖，太祖見而喜曰：「張夫子至矣。」遂留以為掌書記，"
+        }
+      ],
+      "notes": [
+        "其主由连贯主传指韩建；不以韩建转镇日给出使或朱温留用补日，不把天复中缩为唯一西历年。"
+      ]
+    },
+    {
+      "id": "zhang-ce-recommended-tang-court",
+      "title": "经朱温表荐，历唐朝文职",
+      "summary": "朱温上表推荐张策。旧传从天祐初叙职方郎中兼史馆修撰，继召翰林学士、转兵部郎中知制诰，仍修史，稍后迁中书舍人；新传概叙荐朝，累拜中书舍人、翰林学士。",
+      "year": null,
+      "sortOrder": 120,
+      "precision": "undated",
+      "sourceDate": "旧传天祐初起叙，后续诸转迁未独记年月；西历年未定。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "天祐初，表其才，拜職方郎中，兼史館修撰，俄召入為翰林學士，轉兵部郎中，知制誥，依前修史。未幾，遷中書舍人，職如故。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p13",
+          "originalRevision": 1,
+          "originalSha256": "17b89ad132bbb234ce04a3886ae7406add1803198ef84aefa8e0fbcb4e2f7d73",
+          "excerpt": "薦之于朝，累拜中書舍人、翰林學士。"
+        }
+      ],
+      "notes": [
+        "表荐者为朱温，授官为唐廷，不作朱温亲授唐官；新传简列两职不另造第二轮任命，也不将后续转迁一律系于天祐初的某日。"
+      ]
+    },
+    {
+      "id": "zhang-ce-winter-rites-office",
+      "title": "冬迁礼部侍郎",
+      "summary": "旧传记太祖受禅当年冬，张策转任礼部侍郎。",
+      "year": null,
+      "sortOrder": 130,
+      "precision": "range",
+      "sourceDate": "受禅之年冬；该冬跨西历907—908年，未独记转任月日。",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p8",
+          "originalRevision": 1,
+          "originalSha256": "96c2f3aacdead01e132ff7600f2f3e661abbd698d1058e4d94bf8374f47bd565",
+          "excerpt": "太祖受禪，改工部侍郎，加承旨。其年冬，轉禮部侍郎。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p16",
+          "originalRevision": 1,
+          "originalSha256": "37b1a393268279b055056375e445b4e82c2258fef678be88fc2335956e47fdc5",
+          "excerpt": "夏，四月，己酉，直抵幽州城下。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "甲子，張文蔚、楊涉乘輅自上源驛從冊寶，諸司各備儀衛鹵簿前導，百官從其後，至金祥殿前陳之。王被兗冕，即皇帝位。"
+        }
+      ],
+      "yearRange": {
+        "start": 907,
+        "end": 908
+      },
+      "notes": [
+        "冬季范围不因前项工部改官取907年而缩窄；不将十月月首、十二月末界或翌年任相日定为迁礼部之日。"
+      ]
+    }
+  ]
+}

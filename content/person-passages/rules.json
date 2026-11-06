@@ -5325,6 +5325,19 @@
       "sourceScope": {
         "chapterIds": []
       }
+    },
+    {
+      "personId": "zhang-ce",
+      "names": [
+        "張策",
+        "张策"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -15999,6 +16012,46 @@
       "reason": "明确为李敬彝家人张行周，不是高行周。",
       "originalRevision": 1,
       "originalSha256": "d6e87868e62cbde5eee979e2d029e0258e349f30c0873003e8cdbf3b6aa8a5d1"
+    },
+    {
+      "personId": "zhang-ce",
+      "paragraphId": "old-v018-p7",
+      "terms": [
+        "張策"
+      ],
+      "reason": "纯张策篇题，仅作主传边界，不独立登记人物行动或记载。",
+      "originalRevision": 1,
+      "originalSha256": "dea33b6bef993c63f38c9544f11ba3c01413f80be930a509461b865a90c3ce42"
+    },
+    {
+      "personId": "zhang-ce",
+      "paragraphId": "new-v35-p11",
+      "terms": [
+        "張策"
+      ],
+      "reason": "纯张策篇题，仅作主传边界，不独立登记人物行动或记载。",
+      "originalRevision": 1,
+      "originalSha256": "dea33b6bef993c63f38c9544f11ba3c01413f80be930a509461b865a90c3ce42"
+    },
+    {
+      "personId": "li-siyuan",
+      "paragraphId": "new-v35-p23",
+      "terms": [
+        "明宗"
+      ],
+      "reason": "明宗即位仅为苏楷被大臣拟追究驳谥罪的时间背景；施事为大臣，不据此作明宗亲命。",
+      "originalRevision": 1,
+      "originalSha256": "50532372edc687615902fe3fa508fa6b286b668cd315e707d80076305afc6281"
+    },
+    {
+      "personId": "zhu-wen",
+      "paragraphId": "new-v35-p25",
+      "terms": [
+        "梁太祖"
+      ],
+      "reason": "梁太祖即位仅为杜晓迁官的时间背景；迁官未明具体施事，且奉旨断句含义待考，不补作太祖亲命。",
+      "originalRevision": 1,
+      "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0"
     }
   ],
   "regnalEdicts": {
@@ -16509,7 +16562,8 @@
         "old-v067",
         "shiguochunqiu-v039",
         "jiuguozhi-v006",
-        "beimeng-v012"
+        "beimeng-v012",
+        "new-v35"
       ]
     }
   }
