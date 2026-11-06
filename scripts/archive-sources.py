@@ -1143,6 +1143,14 @@ for _zhang_ce_chapter_id in ['old-v003', 'old-v004', 'old-v005', 'new-v02', 'ton
     _zhang_ce_spec = next(spec for spec in SPECS if spec['id'] == _zhang_ce_chapter_id)
     _zhang_ce_spec['subjects'] = list(dict.fromkeys([*_zhang_ce_spec['subjects'], 'zhang-ce']))
 
+# Finite source-local entry metadata, rebuilt from this exact fresh catalog; preserves all prior subjects.
+# Rebuild against a later fresh base before installation; never replace newer subjects with this historical list.
+_SOUTHERN_READING_ENTRY_SUBJECTS = {'old-v117': ['chai-rong', 'li-jing-southern-tang', 'meng-chang', 'zhou-guo-wei-princess-lean', 'zhou-guo-wei-princess-yongning', 'zhou-chai-rong-empress-liu', 'liu-shao-song'], 'old-v012': ['zhu-wen', 'zhu-yougui', 'zhu-youzhen', 'pang-shigu', 'liu-han', 'wang-yanzhang', 'shi-shucong', 'zhu-yougong', 'huo-yanwei', 'yuan-xiangxian', 'li-hanzhi', 'liang-zhu-wen-consort-zhang', 'liang-zhu-yougui-mother-unknown', 'liu-shao-song'], 'huiyao-v003': ['li-cunxu', 'li-sizhao', 'fu-cunshen', 'zhou-dewei', 'tang-li-siyuan-consort-cao', 'tang-li-conghou-empress-kong', 'liu-yilong-song'], 'huiyao-v018': ['shi-jingtang', 'zhu-yougui', 'li-siyuan', 'liu-chengyou', 'guo-chongtao', 'gao-conghui', 'li-yu-tang', 'liu-shao-song'], 'shiguochunqiu-v041': ['wang-jian-former-shu', 'wang-yan-former-shu', 'zhu-wen', 'former-shu-wang-jian-xu-shunsheng', 'ren-huan', 'gao-jixing', 'former-shu-jiechou', 'liu-yu-song', 'liu-yilong-song']}
+for _southern_entry_spec in SPECS:
+    if _southern_entry_spec['id'] in _SOUTHERN_READING_ENTRY_SUBJECTS:
+        _southern_entry_spec['subjects'] = list(_SOUTHERN_READING_ENTRY_SUBJECTS[_southern_entry_spec['id']])
+        _southern_entry_spec['sourceLocalSubjectsOnly'] = True
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

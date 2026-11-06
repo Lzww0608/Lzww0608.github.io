@@ -1263,7 +1263,7 @@
     "to": "song-liu-yilong-consort-yuan",
     "kind": "kinship",
     "label": "夫妻（袁皇后）",
-    "note": "本纪立妃袁氏为皇后，后记其崩及元皇后葬长宁陵。立后日期不当作始婚日期，未明其为哪位皇子生母。",
+    "note": "本纪立妃袁氏为皇后，后记其崩及元皇后葬长宁陵。立后日期不当作始婚日期；《南史》卷14明确元皇后生刘劭，《宋书》卷99亦在劭濬叙事中称元皇后，不补袁氏本名。",
     "sources": [
       {
         "chapterId": "songshu-v005",
@@ -1288,6 +1288,22 @@
         "originalRevision": 1,
         "originalSha256": "9e3204bd4a962cd6df41e320477d6a909703a3334bddec3ce75f0b5443fc17ca",
         "excerpt": "九月壬子，葬元皇后於長寧陵。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "元皇后生元凶劭"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p31",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+        "excerpt": "初，元皇后性忌，以潘氏見幸，遂以恚恨致崩，故劭深疾潘氏及濬。"
       }
     ]
   },
@@ -1296,8 +1312,8 @@
     "from": "liu-yilong-song",
     "to": "liu-shao-song",
     "kind": "kinship",
-    "label": "父子（劭）",
-    "note": "文帝之子，本纪记其生及立太子，未明称第一皇子或长子。",
+    "label": "父子（长子）",
+    "note": "文帝本纪记皇子劭生及立太子；《宋书》卷99、《南史》卷14明确劭为文帝长子。主传记即位后谅闇中已生、到元嘉三年闰正月才公布，公布日期不直接改作实际生日。",
     "sources": [
       {
         "chapterId": "songshu-v005",
@@ -1313,6 +1329,30 @@
         "title": "《宋书》卷 5 · 文帝",
         "originalRevision": 1,
         "originalSha256": "c19f5ebd6e8e32bd9fbd06c2b49e4464cd1f63cd26315217b846108411fe821a",
+        "excerpt": "三月丁巳，立皇子劭為皇太子。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p2",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "511319f9eeb3a54663a448b7e58f8b255bf5bb5d4e350f003bb4c286e9f54635",
+        "excerpt": "元凶劭字休遠，文帝長子也。帝即位後生劭，時上猶在諒闇，故祕之。三年閏正月，方云劭生。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p4",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "3718dc251e41732ba64209f7a38a85bdd40e314d2b0469126b016e8dc97571b1",
+        "excerpt": "元凶劭字休遠，文帝長子也。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p25",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "9d84249337cd4e4aa96b3d2938cbd7a8cff11b7c751b6a076b503eba34474da9",
         "excerpt": "三月丁巳，立皇子劭為皇太子。"
       }
     ]
@@ -1429,7 +1469,7 @@
     "to": "liu-hong-song",
     "kind": "kinship",
     "label": "父子（第7皇子）",
-    "note": "文帝第七皇子，封建平王。",
+    "note": "文帝第七皇子，封建平王。 《南史》建平王传另明宏为文帝第七子，并记文帝宠爱及为建鸡笼山第；不据此给府第补年。",
     "sources": [
       {
         "chapterId": "songshu-v005",
@@ -1438,6 +1478,22 @@
         "originalRevision": 1,
         "originalSha256": "bffb82ed1016cd4891e053ce4b3a7d600b90f5ce81710548cfe235b41c146263",
         "excerpt": "辛卯，立第七皇子宏為建平王。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p50",
+        "title": "卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "7d42ba67e7deb8b7a1c81030051dda23029d775d168433e8dc516711e3ceb9b0",
+        "excerpt": "建平宣簡王宏字休度，文帝第七子也。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p50",
+        "title": "卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "7d42ba67e7deb8b7a1c81030051dda23029d775d168433e8dc516711e3ceb9b0",
+        "excerpt": "文帝寵愛殊常，為立第於雞籠山，盡山水之美。"
       }
     ]
   },
@@ -2023,7 +2079,7 @@
     "to": "xu-zhanzhi-song",
     "kind": "service",
     "label": "授中护军及南兖州刺史",
-    "note": "本纪授秘书监徐湛之中护军，后以太子詹事为南兖州刺史；与徐羡之、刘湛、江湛分开。",
+    "note": "本纪授秘书监徐湛之中护军，后以太子詹事为南兖州刺史；与徐羡之、刘湛、江湛分开。 《宋书》刘劭传记其以尚书仆射与文帝夜谈，至旦遭张超之杀害；文帝所称北伐出己意与江徐无关为帝语，不据夜谈反补具体谋废内容。",
     "sources": [
       {
         "chapterId": "songshu-v005",
@@ -2040,6 +2096,22 @@
         "originalRevision": 1,
         "originalSha256": "ec939c856a692e7226a4cafa787bd3b1e42f5a3bd28134bfe5f76acee79f8c57",
         "excerpt": "辛未，以太子詹事徐湛之為南兗州刺史。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "上其夜與尚書僕射徐湛之屏人語，至旦燭猶未滅，直衞兵尚寢。超之手行弒逆，并殺湛之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "上登石頭城，有憂色，劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人也。」"
       }
     ]
   },
@@ -2155,7 +2227,7 @@
     "to": "xiao-sihua-song",
     "kind": "service",
     "label": "授青州刺史",
-    "note": "本纪以中书侍郎萧思话为青州刺史，后另记其率众北伐；后一段遣部司巡行为赈济事务，没有明记遣萧思话北伐。",
+    "note": "本纪以中书侍郎萧思话为青州刺史，后另记其率众北伐；后一段遣部司巡行为赈济事务，没有明记遣萧思话北伐。 刘劭传另记其与刘劭固谏北伐，文帝不从；劝谏并非获准的军事命令。",
     "sources": [
       {
         "chapterId": "songshu-v005",
@@ -2172,6 +2244,14 @@
         "originalRevision": 1,
         "originalSha256": "401d7f3e4d5e1f94d40fbe51c2848981d682ea24d651cf9b1cdbc28d16eb766a",
         "excerpt": "六月己酉，遣部司巡行，賜樵米，給船。撫軍將軍蕭思話率眾北伐。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "二十七年，上將北伐，劭與蕭思話固諫，不從。"
       }
     ]
   },
@@ -2269,7 +2349,7 @@
     "to": "jiang-zhan-song",
     "kind": "service",
     "label": "北伐失利后向其言谈",
-    "note": "魏太武帝兵至瓜步时，文帝登楼对江湛谈北伐劳怨和自己过失；该段未说明江湛原先的北伐意见或官职。",
+    "note": "魏太武帝兵至瓜步时，文帝登楼对江湛谈北伐劳怨和自己过失；该段未说明江湛原先的北伐意见或官职。 《南史》刘劭传另载帝称北伐出己意、与江徐无关，且说“但湛等不异耳”；此为帝当时说辞，不等同独立确证江湛主张北伐。",
     "sources": [
       {
         "chapterId": "nanshi-v002",
@@ -2278,6 +2358,14 @@
         "originalRevision": 1,
         "originalSha256": "ad94ef80943ed861ce21cbd475d7482cededcd9092aadfdffe4ee00561bea0a0",
         "excerpt": "至是，帝登烽火樓極望，不悅，謂江湛曰：「北伐之計，同議者少，今日士庶勞怨，不得無慚。貽大夫之憂，在予過矣。」"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p6",
+        "title": "卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "031ec60264bb5e17ee5c4c397435cb32e6a5dbd78d78b45eb72d8f42b5ae86a3",
+        "excerpt": "魏太武帝至瓜步，上登石頭城，有憂色。劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人；但湛等不異耳。」"
       }
     ]
   },
@@ -2459,7 +2547,7 @@
     "to": "liu-shao-song",
     "kind": "conflict",
     "label": "劭构逆与文帝遇弑",
-    "note": "南史文帝段记劭构逆、帝崩，孝武段回称元凶弑逆，随后率众入讨者为刘骏。所引句未具行弑执行者，不写劭亲手杀父。宋书记含章殿，南史记合殿。",
+    "note": "《南史·文帝纪》记劭构逆、帝崩，孝武段回称元凶弑逆。《宋书·文帝纪》记含章殿，《南史·文帝纪》记合殿；两篇新主传又明确张超之手行弑逆，劭以伪诏组织入宫并发杀令，不称劭亲手杀父。",
     "sources": [
       {
         "chapterId": "nanshi-v002",
@@ -2484,6 +2572,30 @@
         "originalRevision": 1,
         "originalSha256": "625e77315aab6fd0b2ba48568e0df4624bd98edfcd451b4bd772369d7228047b",
         "excerpt": "甲子，上崩于含章殿。時年四十七。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "道育婢將至，其月二十一日夜，詐上詔云：「魯秀謀反，汝可平明守闕，率眾入。」"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "超之手行弒逆，并殺湛之。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p11",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+        "excerpt": "上以幾自鄣，超之行殺，上五指俱落，並殺湛之。"
       }
     ]
   },
@@ -2493,7 +2605,7 @@
     "to": "tuoba-tao-wei",
     "kind": "conflict",
     "label": "北魏军至瓜步时对峙",
-    "note": "魏太武帝兵至瓜步扬言渡江，宋都震惧戒严，文帝登楼向江湛自责，后使馈百牢于魏。没有记两帝阵前亲战、宋杀魏主或已经投降。",
+    "note": "魏太武帝兵至瓜步扬言渡江，宋都震惧戒严，文帝登楼向江湛自责，后使馈百牢于魏。没有记两帝阵前亲战、宋杀魏主或已经投降。 刘劭传另记魏太武到瓜步时文帝登石头城与劭对话，未记两帝亲战。",
     "sources": [
       {
         "chapterId": "nanshi-v002",
@@ -2526,6 +2638,14 @@
         "originalRevision": 1,
         "originalSha256": "dcb5c5ba19618330a7d824c5663957ee19a3c6f56c089903eb6dba34e510cfb0",
         "excerpt": "是歲，魏中常侍宗愛構逆，太武皇帝崩，乃奉南安王餘為帝，改元為承平，後又賊餘；於是殿中尚書長孫渴侯、尚書陸麗奉皇孫，是為文成皇帝，改元曰興安。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p6",
+        "title": "卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "031ec60264bb5e17ee5c4c397435cb32e6a5dbd78d78b45eb72d8f42b5ae86a3",
+        "excerpt": "魏太武帝至瓜步，上登石頭城，有憂色。劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人；但湛等不異耳。」"
       }
     ]
   },
@@ -2570,6 +2690,2590 @@
         "originalRevision": 1,
         "originalSha256": "0172d1a439b2914e5edd0d6d1043d40d48cf1ca4db39f7621824cda65681e108",
         "excerpt": "是歲來朝，會武帝當聽訟，仍遣上訊建康獄囚，辯斷稱旨，武帝甚悅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-mother-yuan",
+    "from": "song-liu-yilong-consort-yuan",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "生母与子",
+    "note": "《南史》明确元皇后生劭；与文帝纪袁氏皇后及元皇后葬事的既有身份相接，复用袁皇后，不补本名。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "元皇后生元凶劭"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p31",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+        "excerpt": "初，元皇后性忌，以潘氏見幸，遂以恚恨致崩，故劭深疾潘氏及濬。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p132",
+        "title": "宋书 · 卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "0aac876ee472bd6089dfe05cb9a16dd38ab18f5cf34f26622b082ce26129ca1b",
+        "excerpt": "壬子，皇后袁氏崩。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p134",
+        "title": "宋书 · 卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "9e3204bd4a962cd6df41e320477d6a909703a3334bddec3ce75f0b5443fc17ca",
+        "excerpt": "九月壬子，葬元皇后於長寧陵。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-consort-yin",
+    "from": "liu-shao-song",
+    "to": "song-liu-shao-consort-yin",
+    "kind": "kinship",
+    "label": "配偶（妃殷氏、皇后）",
+    "note": "主传记纳殷淳女为妃，本纪另记立太子妃；太初四月立皇后。立后不是始婚，殷氏未载本名，也未明四子皆其生。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "年十二，出居東宮，納黃門侍郎殷淳女為妃。"
+      },
+      {
+        "chapterId": "songshu-v005",
+        "paragraphId": "songshu-v005-p115",
+        "title": "宋书 · 卷 5 · 文帝",
+        "originalRevision": 1,
+        "originalSha256": "700bbb5b9e2f6eb1e5c8753daf76561bf268374146a539ec6b6e178949e86214",
+        "excerpt": "立皇太子妃殷氏，賜王公以下各有差。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p15",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "249fa5219325a23f1c5e182940d8327de371b9123535ef8ca77f7d9daf2c48af",
+        "excerpt": "四月，立妻殷為皇后。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p35",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "80779b20af8e94b526b203a799219989491cc9eeb036fa4fda4f83c6104c90b8",
+        "excerpt": "劭妻殷氏賜死於廷尉"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-father-in-law-yinchun",
+    "from": "yin-chun-song",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "岳父与女婿",
+    "note": "殷淳为刘劭所纳妃之父，未补其他子女或外家谱系。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "年十二，出居東宮，納黃門侍郎殷淳女為妃。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-son-weizhi",
+    "from": "liu-shao-song",
+    "to": "liu-weizhi-song",
+    "kind": "kinship",
+    "label": "父子（伟之）",
+    "note": "四子之一；本书另记劭立伟之皇太子，但没有伟之即皇位之事。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p35",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "80779b20af8e94b526b203a799219989491cc9eeb036fa4fda4f83c6104c90b8",
+        "excerpt": "劭、濬及劭四子偉之、迪之、彬之、其一未有名，濬三子長文、長仁、長道，並梟首大航，暴尸於市。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p23",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "d57ee826207ea71ef8a64af1be23f58b6526f6412bf1c5600c65da726738b152",
+        "excerpt": "二十七日，臨軒拜息偉之為太子"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-son-dizhi",
+    "from": "liu-shao-song",
+    "to": "liu-dizhi-song",
+    "kind": "kinship",
+    "label": "父子（迪之）",
+    "note": "《宋书》四子名单直接支持；不补生母、年龄或出生排行。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p35",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "80779b20af8e94b526b203a799219989491cc9eeb036fa4fda4f83c6104c90b8",
+        "excerpt": "劭、濬及劭四子偉之、迪之、彬之、其一未有名，濬三子長文、長仁、長道，並梟首大航，暴尸於市。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-son-binzhi",
+    "from": "liu-shao-song",
+    "to": "liu-binzhi-song",
+    "kind": "kinship",
+    "label": "父子（彬之）",
+    "note": "《宋书》四子名单直接支持；不补生母、年龄或出生排行。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p35",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "80779b20af8e94b526b203a799219989491cc9eeb036fa4fda4f83c6104c90b8",
+        "excerpt": "劭、濬及劭四子偉之、迪之、彬之、其一未有名，濬三子長文、長仁、長道，並梟首大航，暴尸於市。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-son-unnamed",
+    "from": "liu-shao-song",
+    "to": "song-liu-shao-son-unnamed",
+    "kind": "kinship",
+    "label": "父子（未具名子）",
+    "note": "《宋书》列刘劭四子，其中三人具名，一人未有名，未载其出生排行或生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p35",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "80779b20af8e94b526b203a799219989491cc9eeb036fa4fda4f83c6104c90b8",
+        "excerpt": "劭、濬及劭四子偉之、迪之、彬之、其一未有名，濬三子長文、長仁、長道，並梟首大航，暴尸於市。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-brother-liu-jun-shixing-song",
+    "from": "liu-shao-song",
+    "to": "liu-jun-shixing-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、濬）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "潘淑妃生始興王濬"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-brother-liu-jun-song",
+    "from": "liu-shao-song",
+    "to": "liu-jun-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、骏）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "路淑媛生孝武帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-brother-liu-shuo-song",
+    "from": "liu-shao-song",
+    "to": "liu-shuo-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、铄）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "吳淑儀生南平穆王鑠"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-brother-liu-dan-song",
+    "from": "liu-shao-song",
+    "to": "liu-dan-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、诞）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "殷修華生竟陵王誕"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-brother-liu-hong-song",
+    "from": "liu-shao-song",
+    "to": "liu-hong-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、宏）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "曹婕妤生建平宣簡王宏"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-brother-liu-hun-song",
+    "from": "liu-shao-song",
+    "to": "liu-hun-song",
+    "kind": "kinship",
+    "label": "同父兄弟（劭、浑）",
+    "note": "《南史》文帝诸子名单将二人列为文帝之子，分别记在不同母亲名下；不作同母兄弟认定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "文帝十九男：元皇后生元凶劭"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p2",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+        "excerpt": "江修容生武昌王渾"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-sister-dongyang",
+    "from": "song-liu-shao-sister-dongyang",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "姊弟（东阳公主与劭）",
+    "note": "明确称劭姊，未补公主本名及母亲；同信严道育的叙事并非神验。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p5",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "b1e0c1fe0a0edf49f708f829ecfb2f7102289b439e5790a17caab878c2f6b99c",
+        "excerpt": "劭姊東陽公主應閤婢王鸚鵡白公主云：「道育通靈有異術。」"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-uncle-yigong",
+    "from": "liu-yigong-song",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "叔侄（义恭与劭）",
+    "note": "文帝既有兄弟边记义恭为皇弟，劭又称义恭阿父、其子为诸弟，按叔侄语境保留，不把阿父改亲父，不推同母。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p5",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "aaa176daed267292211b282f1883424aa8fb7e72abfa5084f23433e448649045",
+        "excerpt": "甲辰，追尊所生胡婕妤為章皇太后，封皇弟義恭為江夏王，義宣為竟陵王，義季為衡陽王。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "義恭詰劭曰：「我背逆歸順，有何大罪，頓殺我家十二兒？」劭答曰：「殺諸弟，此事負阿父。」"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-succession-from-wendi",
+    "from": "liu-yilong-song",
+    "to": "liu-shao-song",
+    "kind": "succession",
+    "label": "弑逆后自立（非禅让）",
+    "note": "刘劭组织弑逆后即位，非文帝正常传位；张超之手行弑逆与劭组织责任分开。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "超之手行弒逆，并殺湛之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "劭即偽位"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-succession-to-xiaowu",
+    "from": "liu-shao-song",
+    "to": "liu-jun-song",
+    "kind": "succession",
+    "label": "孝武讨劭取代（非禅让）",
+    "note": "刘骏举兵讨劭，并在劭尚未被擒时已被奉为帝；随后劭败被斩。保争立和取代，不造劭让位或无并存的单线日期。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p171",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+        "excerpt": "會元凶弑逆，上率眾入討。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "義恭曰：「四海無統，百司固請，上已俯順羣心，君臨萬國。」"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "乃斬劭于牙下。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-jun-conspiracy",
+    "from": "liu-shao-song",
+    "to": "liu-jun-shixing-song",
+    "kind": "service",
+    "label": "共谋巫蛊与逆谋、授官",
+    "note": "濬与劭共巫蛊、传报谋废并同逆，劭后授其侍中中书监司徒等；不调和两书濬母生养矛盾。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p5",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "b1e0c1fe0a0edf49f708f829ecfb2f7102289b439e5790a17caab878c2f6b99c",
+        "excerpt": "始興王濬素佞事劭，與劭並多過失"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p10",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+        "excerpt": "濬馳報劭，劭因是異謀"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "驃騎將軍始興王濬為侍中、中書監、司徒、錄尚書六條事"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-shuo-office",
+    "from": "liu-shao-song",
+    "to": "liu-shuo-song",
+    "kind": "service",
+    "label": "授官与命作祭神册文",
+    "note": "劭授铄侍中录尚书事、中军征北骠骑等号，并命写祝册文；祝中对孝武的指控是祭神文本立场。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p30",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "6ed201a274ce7c4764fe6c40fabc01854535c75ec4adf6e61438f929e1e8fb54",
+        "excerpt": "元凶弑立，以鑠為侍中、錄尚書事。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p30",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "6ed201a274ce7c4764fe6c40fabc01854535c75ec4adf6e61438f929e1e8fb54",
+        "excerpt": "使鑠造策文。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p23",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "d57ee826207ea71ef8a64af1be23f58b6526f6412bf1c5600c65da726738b152",
+        "excerpt": "征北將軍、南兗州刺史南平王鑠進號驃騎將軍，與濬並錄尚書事。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-dan-office",
+    "from": "liu-shao-song",
+    "to": "liu-dan-song",
+    "kind": "service",
+    "label": "授会州刺史（受命未详）",
+    "note": "劭改置会州时下诏授诞刺史，未据此认其接受或效忠；诞其后与孝武合兵讨劭。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p34",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "a123a2d4071061dadd0df37e097ab3d537bf4e8f3c5b8013382c81f8d39a4fec",
+        "excerpt": "元凶立，以揚州浙江西屬司隸校尉，浙江東五郡立會州，以誕為刺史。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-hun-office",
+    "from": "liu-shao-song",
+    "to": "liu-hun-song",
+    "kind": "service",
+    "label": "授中书令",
+    "note": "直接任命刘浑为中书令；刘浑拔刀射人的行为不是刘劭亲行或命令。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p67",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "75e3b4d833441fcaa1602628fffbbe7a9cdda287b8dcade220e921be15ec0f23",
+        "excerpt": "元凶弑立，以為中書令。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yan-daoyu",
+    "from": "liu-shao-song",
+    "to": "yan-daoyu-song",
+    "kind": "service",
+    "label": "巫蛊祈请往来",
+    "note": "劭等敬严道育为天师并使祈请，后藏于东宫；关系是史载往来，不证实神通，不补国家官职。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p5",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "b1e0c1fe0a0edf49f708f829ecfb2f7102289b439e5790a17caab878c2f6b99c",
+        "excerpt": "劭等敬事，號曰天師。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p5",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "b1e0c1fe0a0edf49f708f829ecfb2f7102289b439e5790a17caab878c2f6b99c",
+        "excerpt": "後遂為巫蠱，以玉人為上形像，埋於含章殿前。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p7",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+        "excerpt": "道育變服為尼，逃匿東宮"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-yingwu-contact",
+    "from": "liu-shao-song",
+    "to": "wang-yingwu-song",
+    "kind": "service",
+    "label": "巫蛊往来与请杀天兴",
+    "note": "王鸚鵡参与巫蛊、受劭濬安排婚事并请劭杀天兴；不将殷氏狱中所称拟立鸚鵡为后变成婚配或立后。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "鸚鵡、天興及寧州所獻黃門慶國並預巫蠱事。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p7",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+        "excerpt": "鸚鵡既適懷遠，慮與天興私通事泄，請劭殺之。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-tianxing-office",
+    "from": "liu-shao-song",
+    "to": "chen-tianxing-song",
+    "kind": "service",
+    "label": "任队主",
+    "note": "劭直接以陈天兴补队主，其向文帝答称兼队副是同段答辩层，不抹平职称叙法。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "劭以天興補隊主。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "脫爾使監禮兼隊副。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-qingguo-contact",
+    "from": "liu-shao-song",
+    "to": "qingguo-song",
+    "kind": "service",
+    "label": "巫蛊参与及后告发",
+    "note": "庆国参与巫蛊往来，天兴死后惧祸向文帝告发；不据参与推劭任其黄门或将领。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "鸚鵡、天興及寧州所獻黃門慶國並預巫蠱事。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p7",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+        "excerpt": "慶國謂宣傳往來，唯有二人，天興既死，慮將見及，乃具以其事白上。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-shen-marriage-arrangement",
+    "from": "liu-shao-song",
+    "to": "shen-huaiyuan-song",
+    "kind": "service",
+    "label": "安排王鸚鵡嫁为妾",
+    "note": "劭与濬谋把王鸚鵡嫁给沈怀远隐事；沈是濬府佐，不是因此可推劭直接任命的府佐。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "東陽主薨，鸚鵡應出嫁，劭慮言語難密，與濬謀之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "時吳興沈懷遠為濬府佐，見待異常，乃嫁鸚鵡與懷遠為妾"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-linhe-contact",
+    "from": "liu-shao-song",
+    "to": "song-liu-shao-contact-linhe",
+    "kind": "service",
+    "label": "经临贺传达婚事与答词",
+    "note": "劭使濬报临贺公主统一答词，属有据往来；不推她具体亲等或认其自愿参与弑逆。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "劭懼，馳書告濬，并使報臨賀主：「上若問嫁處，當言未有定所。」"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-zhang-chaozhi",
+    "from": "liu-shao-song",
+    "to": "zhang-chaozhi-song",
+    "kind": "service",
+    "label": "腹心共谋与授官",
+    "note": "劭的腹心斋帅，参与密谋并亲手行弑，后受将军郡职；不把劭组织责任与其亲手执行混为一人。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p10",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+        "excerpt": "密與腹心隊主陳叔兒、詹叔兒、齋帥張超之、任建之謀之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "超之手行弒逆，并殺湛之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-ren-jianzhi",
+    "from": "liu-shao-song",
+    "to": "ren-jianzhi-song",
+    "kind": "service",
+    "label": "腹心共谋与授官",
+    "note": "腹心共谋者与受将军郡职；未补其亲手杀人。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p10",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+        "excerpt": "密與腹心隊主陳叔兒、詹叔兒、齋帥張超之、任建之謀之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-chen-shuer",
+    "from": "liu-shao-song",
+    "to": "chen-shuer-song",
+    "kind": "service",
+    "label": "腹心共谋与授官",
+    "note": "腹心队主、受龙骧带郡，后奉劭东讨又召还；不与詹叔儿混同。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p10",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+        "excerpt": "密與腹心隊主陳叔兒、詹叔兒、齋帥張超之、任建之謀之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "劭先遣龍驤將軍陳叔兒東討，事急，召還。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-zhan-shuer",
+    "from": "liu-shao-song",
+    "to": "zhan-shuer-song",
+    "kind": "service",
+    "label": "腹心共谋与授官",
+    "note": "腹心队主、受将军郡职，末奉劭命焚辇服；不与陈叔儿混同。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p10",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+        "excerpt": "密與腹心隊主陳叔兒、詹叔兒、齋帥張超之、任建之謀之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p25",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "e3e49a138cdd444bd3a7b84ecc6a49a3467761c2ee6c258dda986db7299e2b59",
+        "excerpt": "劭使詹叔兒燒輦及袞冕服。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-xiao-bin",
+    "from": "liu-shao-song",
+    "to": "xiao-bin-song",
+    "kind": "service",
+    "label": "逆谋参与、授官与统军",
+    "note": "劭召告萧斌、萧斌与劭同载入宫执刀侍直，后受尚书仆射领军并统步军；其投降后被杀不写为劭杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "宿召前中庶子、右軍長史蕭斌"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "劭進至合殿中閤，太祖已崩，出坐東堂，蕭斌執刀侍直。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "以蕭斌為散騎常侍、尚書僕射、領軍將軍"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yuan-shu-contact",
+    "from": "liu-shao-song",
+    "to": "yuan-shu-song",
+    "kind": "service",
+    "label": "召入告以大事",
+    "note": "明确被劭召入告以逆谋；世祖檄文称袁左率闻逆不顺，不能把被召直接改成同意谋逆。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "夜呼斌及左衞率袁淑、中舍人殷仲素、左積弩將軍王正見，並入宮，告以大事"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p16",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "b9a9ef2aa0708616f1d1a891dcd14b8cb196684b8f5131f2b5261c88a00f008f",
+        "excerpt": "徐僕射、江尚書、袁左率，皆當世標秀，一時忠貞，或正色立朝，或聞逆弗順"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-yin-zhongsu",
+    "from": "liu-shao-song",
+    "to": "yin-zhongsu-song",
+    "kind": "service",
+    "label": "召入与授黄门侍郎",
+    "note": "劭召入殷仲素告事，后任黄门侍郎；不补具体行弑动作。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "夜呼斌及左衞率袁淑、中舍人殷仲素、左積弩將軍王正見，並入宮，告以大事"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "以殷仲素為黃門侍郎"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-wang-zhengjian",
+    "from": "liu-shao-song",
+    "to": "wang-zhengjian-song",
+    "kind": "service",
+    "label": "召入与授左军、太子左卫率",
+    "note": "先为左积弩将军被召，后受劭任左军将军、太子左卫率；不把宫破时其被斩记为劭杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "夜呼斌及左衞率袁淑、中舍人殷仲素、左積弩將軍王正見，並入宮，告以大事"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "王正見為左軍將軍"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "左軍王正見為太子左衞率。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-he-shangzhi",
+    "from": "liu-shao-song",
+    "to": "he-shangzhi-song",
+    "kind": "service",
+    "label": "授司空与进谏免杀家口",
+    "note": "劭授何尚之司空；何与义恭劝止杀三镇家属，劭接受，不补其参与行弑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "何尚之為司空"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "劭欲殺三鎮士庶家口，江夏王義恭、何尚之說之曰：「凡舉大事者，不顧家口。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "劭謂為然，乃下書一無所問。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yin-chong",
+    "from": "liu-shao-song",
+    "to": "yin-chong-song",
+    "kind": "service",
+    "label": "草即位符文与授官",
+    "note": "劭授殷冲侍中中护军、司隶校尉，殷冲为其草立符文；非尹弘的兄尹冲。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "尚書殷沖為侍中、中護軍。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "省揚州立司隸校尉，以殷沖補之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p37",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+        "excerpt": "沖為劭草立符文，又妃叔父也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yin-hong",
+    "from": "liu-shao-song",
+    "to": "yin-hong-song",
+    "kind": "service",
+    "label": "配兵与丹阳尹任职",
+    "note": "尹弘向劭求受处分，为其简配兵士，后记丹阳尹；所引段不具一次明确任命日期，不补其亲手行弑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p19",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c2fe74157c8ca145dd0355a72eec53341b1825cbfb661d1f217e469d0b1f6ac4",
+        "excerpt": "左衞將軍尹弘配衣軍旅"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p37",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+        "excerpt": "偽司隸校尉殷沖，丹陽尹尹弘，並賜死。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p37",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+        "excerpt": "及聞劭入，惶怖通啟，求受處分，又為劭簡配兵士，盡其心力。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-wang-sengchuo-office",
+    "from": "liu-shao-song",
+    "to": "wang-sengchuo-song",
+    "kind": "service",
+    "label": "使草诏与授吏部尚书",
+    "note": "劭问改元、使僧绰草诏，并授吏部尚书；之后被诛另列冲突，不以先前预废立抹掉此段受任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "乃使侍中王僧綽為之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "以侍中王僧綽為吏部尚書"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-he-yan",
+    "from": "liu-shao-song",
+    "to": "he-yan-song",
+    "kind": "service",
+    "label": "授侍中",
+    "note": "从司徒左长史任为侍中，命令施事为劭。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "司徒左長史何偃為侍中。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-lu-xiu-service",
+    "from": "liu-shao-song",
+    "to": "lu-xiu-song",
+    "kind": "service",
+    "label": "委军与任掌兵",
+    "note": "劭借除徐湛之结纳鲁秀，并令其与庞秀之对掌军队；新亭退军后南奔和再攻劭另列冲突。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "遣人謂魯秀曰：「徐湛之常欲相危，我已為卿除之矣。」使秀與屯騎校尉龐秀之對掌軍隊。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-pang-xiuzhi-service",
+    "from": "liu-shao-song",
+    "to": "pang-xiuzhi-song",
+    "kind": "service",
+    "label": "与鲁秀对掌军队",
+    "note": "劭令其与鲁秀对掌军队；后自石头南奔并在劭被擒后诮责，变化都保在来源说明，不捏为先约叛变。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "使秀與屯騎校尉龐秀之對掌軍隊。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p21",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "5365cec27d171e4e313f83c16b7e2a4050f06062e47b81edddf0c908daee2d4e",
+        "excerpt": "龐秀之自石頭先眾南奔"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "龐秀之亦加誚讓"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-wang-luohan",
+    "from": "liu-shao-song",
+    "to": "wang-luohan-song",
+    "kind": "service",
+    "label": "委以兵事与授左卫将军",
+    "note": "劭因其有将用而任军，后授左卫；他原先是刘铄参军，不能把那项先职也说成劭任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "羅漢先為南平王鑠右軍參軍，劭以其有將用，故以心膂委焉。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "以前軍將軍、輔國將軍王羅漢為左衞將軍，輔國如故"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-chu-zhanzhi",
+    "from": "liu-shao-song",
+    "to": "chu-zhanzhi-song",
+    "kind": "service",
+    "label": "戍石头、统水军与授官",
+    "note": "劭使褚湛之戍石头统水军并任丹阳尹等；后褚携二子归孝武，不据此另造亲手攻劭行为。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "使褚湛之戍石頭"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "以褚湛之為後將軍、丹陽尹，置佐史"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "褚湛之統水軍。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "褚湛之携二子與檀和之同共歸順。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-tan-hezhi",
+    "from": "liu-shao-song",
+    "to": "tan-hezhi-song",
+    "kind": "service",
+    "label": "命戍石头与授雍州",
+    "note": "劭命檀和之戍石头，后授西中郎雍州；此为诏授，不以一纸任命断言其赴雍州实任，后归顺另有所记。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "前右衞率檀和之戍石頭"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p21",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "5365cec27d171e4e313f83c16b7e2a4050f06062e47b81edddf0c908daee2d4e",
+        "excerpt": "輔國將軍檀和之為西中郎將、雍州刺史。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "褚湛之携二子與檀和之同共歸順。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-liu-sikao",
+    "from": "liu-shao-song",
+    "to": "liu-sikao-song",
+    "kind": "service",
+    "label": "命镇东府",
+    "note": "主传记劭使刘思考镇东府，底本思考字样保持。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "劉思考鎮東府。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yiqi-office",
+    "from": "liu-shao-song",
+    "to": "liu-yiqi-song",
+    "kind": "service",
+    "label": "授郡守与湘州刺史",
+    "note": "劭任义綦征虏将军、晋陵南下邳二郡太守，后以本号授湘州；不把镇京城释为中央都城。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "侍中營道侯義綦為征虜將軍、晉陵南下邳二郡太守，鎮京城"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p21",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "5365cec27d171e4e313f83c16b7e2a4050f06062e47b81edddf0c908daee2d4e",
+        "excerpt": "以征虜將軍營道侯義綦即本號為湘州刺史"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yigong-office",
+    "from": "liu-shao-song",
+    "to": "liu-yigong-song",
+    "kind": "service",
+    "label": "授太保、大宗师并问战策",
+    "note": "劭加义恭太保、大宗师，义恭劝止杀家口并献守近之策；义恭自有顾全义军考虑，不能只据劭赞同称其忠心拥劭。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "以大將軍江夏王義恭為太保"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "江夏王義恭以太保領大宗師"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p20",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2fbaf4b221591ec836bcd6c13b647784b018e2b86d3f632c8cc6486e29ddb9de",
+        "excerpt": "江夏王義恭慮義兵倉卒，船舫陋小，不宜水戰。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yixuan-office",
+    "from": "liu-shao-song",
+    "to": "liu-yixuan-song",
+    "kind": "service",
+    "label": "授太尉（受命未详）",
+    "note": "劭下令授义宣太尉，与义宣举兵反劭分别保存；未据诏授判定其接受或成为劭部属。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "司徒南譙王義宣為太尉"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-zangzhi-office",
+    "from": "liu-shao-song",
+    "to": "zang-zhi-song",
+    "kind": "service",
+    "label": "授丹阳尹（受命未详）",
+    "note": "劭诏授臧质丹阳尹，臧质又举兵讨劭、入宫诘逆；不是其接受命令、到任或效忠的证明。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "以雍州刺史臧質為丹陽尹"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-wenren-wenzi",
+    "from": "liu-shao-song",
+    "to": "wenren-wenzi-song",
+    "kind": "service",
+    "label": "同逆受将军郡职",
+    "note": "书明确列为同逆受龙骧将军带郡，不补未知亲手行弑或具体郡名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-xu-xingzu",
+    "from": "liu-shao-song",
+    "to": "xu-xingzu-song",
+    "kind": "service",
+    "label": "同逆受将军郡职",
+    "note": "书明确列为同逆受龙骧将军带郡，不补未知亲手行弑或具体郡名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "張超之及諸同逆聞人文子、徐興祖、詹叔兒、陳叔兒、任建之等，並將校以下龍驤將軍帶郡，各賜錢二十萬。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-yangxi",
+    "from": "liu-shao-song",
+    "to": "yang-xi-song",
+    "kind": "service",
+    "label": "令栅断水口",
+    "note": "劭使羊希封断班渎白石等水口，明记执行任务，不从司隶官职扩其他任命。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p24",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8fbb848f7f2895932e575ec9e4c1ff2a70addd500152868c3daac03f2115bffd",
+        "excerpt": "又使司隸治中監琅邪郡事羊希柵斷班瀆、白石諸水口。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-source-yu-dao",
+    "from": "liu-shao-song",
+    "to": "song-source-yu-dao-qu-a",
+    "kind": "service",
+    "label": "东拒诞的来源联系",
+    "note": "《宋书》记庾道奉刘劭命东拒刘诞；《南史》相应战事记作庾遵，是否同人未定。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p24",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8fbb848f7f2895932e575ec9e4c1ff2a70addd500152868c3daac03f2115bffd",
+        "excerpt": "先遣太保參軍庾道、員外散騎侍郎朱和之，[11]又遣殿中將軍燕欽東拒誕。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-source-yan-qin",
+    "from": "liu-shao-song",
+    "to": "song-source-yan-qin-qu-a",
+    "kind": "service",
+    "label": "东拒诞的来源联系",
+    "note": "《宋书》记燕钦奉刘劭命东拒刘诞；《南史》相应战事记作华钦，是否同人未详。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p24",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8fbb848f7f2895932e575ec9e4c1ff2a70addd500152868c3daac03f2115bffd",
+        "excerpt": "先遣太保參軍庾道、員外散騎侍郎朱和之，[11]又遣殿中將軍燕欽東拒誕。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-zhu-hezhi",
+    "from": "liu-shao-song",
+    "to": "zhu-hezhi-song",
+    "kind": "service",
+    "label": "遣东拒刘诞",
+    "note": "《宋书》记刘劭遣朱和之向东抵御刘诞。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p24",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "8fbb848f7f2895932e575ec9e4c1ff2a70addd500152868c3daac03f2115bffd",
+        "excerpt": "先遣太保參軍庾道、員外散騎侍郎朱和之，[11]又遣殿中將軍燕欽東拒誕。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-source-yu-zun",
+    "from": "liu-shao-song",
+    "to": "song-source-yu-zun-qu-a",
+    "kind": "service",
+    "label": "曲阿劭将的来源联系",
+    "note": "《南史》记庾遵为刘劭将领，败于曲阿奔牛塘；与《宋书》庾道的同人关系未定。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p35",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "8e2c3cb1a36644c0f1b46ca5f5f7392d070c3cbcc03ce4f2c1219d95be630ed3",
+        "excerpt": "遇劭將華欽、庾遵于曲阿之奔牛塘，大敗之。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-source-hua-qin",
+    "from": "liu-shao-song",
+    "to": "song-source-hua-qin-qu-a",
+    "kind": "service",
+    "label": "曲阿劭将的来源联系",
+    "note": "《南史》记华钦为刘劭将领，败于曲阿奔牛塘；与《宋书》燕钦的同人关系未详。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p35",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "8e2c3cb1a36644c0f1b46ca5f5f7392d070c3cbcc03ce4f2c1219d95be630ed3",
+        "excerpt": "遇劭將華欽、庾遵于曲阿之奔牛塘，大敗之。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-xiao-sihua-remonstrance",
+    "from": "liu-shao-song",
+    "to": "xiao-sihua-song",
+    "kind": "service",
+    "label": "共同谏阻北伐",
+    "note": "只记二人共同固谏，非劭任命萧思话或孝武檄文中诸军归劭统属。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "二十七年，上將北伐，劭與蕭思話固諫，不從。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-yikang-tomb-visit",
+    "from": "liu-shao-song",
+    "to": "liu-yikang-song",
+    "kind": "service",
+    "label": "拜京陵同行",
+    "note": "义康以大将军彭城王身份随劭拜京陵，不把大将军衔加给劭，也不因此认作劭军事部属。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "十七年，劭拜京陵，大將軍彭城王義康、竟陵王誕、尚書桂陽侯義融並從"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-yirong-tomb-visit",
+    "from": "liu-shao-song",
+    "to": "liu-yirong-guiyang-song",
+    "kind": "service",
+    "label": "拜京陵同行",
+    "note": "桂阳侯义融列于随行者，不与后来同爵觊因爵号合并。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "十七年，劭拜京陵，大將軍彭城王義康、竟陵王誕、尚書桂陽侯義融並從"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-conflict-xiaowu",
+    "from": "liu-shao-song",
+    "to": "liu-jun-song",
+    "kind": "conflict",
+    "label": "刘骏举兵讨劭与新亭战事",
+    "note": "孝武入讨为刘骏的行动，劭则在新亭督战并再攻壘；两人既为兄弟又为争位敌手，军事行动不全归亲手交锋。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p171",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+        "excerpt": "三十年正月，出次西陽之五洲，會元凶弑逆，上率眾入討。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "劭又率腹心同惡自來攻壘，元景復破之"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-dan",
+    "from": "liu-shao-song",
+    "to": "liu-dan-song",
+    "kind": "conflict",
+    "label": "刘诞举兵与劭军交战",
+    "note": "世祖与刘诞合兵，其军在曲阿败劭将；劭未被记为亲临曲阿，不补战前私怨。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p14",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "85a7aa8560521bf16edd349ef3d256147265ac8bc31c2fa3bafc5f6627d91c9e",
+        "excerpt": "世祖及南譙王義宣、隨王誕諸方鎮並舉義兵。"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p35",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "8e2c3cb1a36644c0f1b46ca5f5f7392d070c3cbcc03ce4f2c1219d95be630ed3",
+        "excerpt": "遇劭將華欽、庾遵于曲阿之奔牛塘，大敗之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-yixuan",
+    "from": "liu-shao-song",
+    "to": "liu-yixuan-song",
+    "kind": "conflict",
+    "label": "义宣举兵讨劭",
+    "note": "本书明记与世祖、刘诞等举义兵，不因先受太尉诏授称其始终奉劭。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p14",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "85a7aa8560521bf16edd349ef3d256147265ac8bc31c2fa3bafc5f6627d91c9e",
+        "excerpt": "世祖及南譙王義宣、隨王誕諸方鎮並舉義兵。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-hong",
+    "from": "liu-shao-song",
+    "to": "liu-hong-song",
+    "kind": "conflict",
+    "label": "拘禁建平王宏",
+    "note": "刘劭将宏拘于殿内，宏无法脱身；《南史》同段另两处作巨集，依上下文指宏，原字保留。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p51",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "a2a1ded33061d87bcc9bc9e2c59c4adfe36515b913d418a850ebd0862f9f1828",
+        "excerpt": "元凶弑立，孝武入討，劭錄宏殿內，自拔莫由。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-tianxing",
+    "from": "liu-shao-song",
+    "to": "chen-tianxing-song",
+    "kind": "conflict",
+    "label": "密使杀陈天兴",
+    "note": "王鸚鵡请杀后，劭密使害天兴；不写劭亲手杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p7",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+        "excerpt": "鸚鵡既適懷遠，慮與天興私通事泄，請劭殺之。劭密使人害天興。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-pan",
+    "from": "liu-shao-song",
+    "to": "pan-shufei-song",
+    "kind": "conflict",
+    "label": "命杀潘淑妃",
+    "note": "叙者明确使人杀潘；劭对濬称乱兵所害是另层托辞，非死因纠正。剖心邪正是书中对话，不作真实鉴验。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "又使人從東閤入殺潘淑妃"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p32",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3231a939fb9b6e248bda6f860cf8ab9ee280d2a23cef5a0a1f9bcdd95bdddc11",
+        "excerpt": "劭謂濬曰：「潘淑妃遂為亂兵所害。」"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p11",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+        "excerpt": "又使人入殺潘淑妃，剖其心觀其邪正。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-xu-zhanzhi",
+    "from": "liu-shao-song",
+    "to": "xu-zhanzhi-song",
+    "kind": "conflict",
+    "label": "请斩徐湛之与政变中遇杀",
+    "note": "劭在瓜步向父请斩徐江；弑逆时张超之并杀徐湛之，劭伪书归罪徐江。前后责任分层，不说劭手刃徐。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "劭曰：「不斬江湛、徐湛之，無以謝天下。」"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "超之手行弒逆，并殺湛之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "徐湛之、江湛弒逆無狀"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-jiang-zhan",
+    "from": "liu-shao-song",
+    "to": "jiang-zhan-song",
+    "kind": "conflict",
+    "label": "请斩江湛并遣人杀之",
+    "note": "先请父斩江湛，后在政变中遣人于崇礼闼杀江；父称北伐自己主意，不把北伐原策无据归江湛。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "劭曰：「不斬江湛、徐湛之，無以謝天下。」"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "遣人於崇禮闥殺吏部尚書江湛。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-wang-sengchuo",
+    "from": "liu-shao-song",
+    "to": "wang-sengchuo-song",
+    "kind": "conflict",
+    "label": "以预废立见诛",
+    "note": "劭授官后，王僧绰又因先预废立见诛；所引未具直接执行者，不补行刑细节。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "王僧綽以先預廢立，見誅。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-gu",
+    "from": "liu-shao-song",
+    "to": "gu-gu-song",
+    "kind": "conflict",
+    "label": "召问顾嘏并当场斩之",
+    "note": "见废问句不据此确顾嘏为谋废施事；可确定被召、未及答即斩。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "呼中書舍人顧嘏，嘏震懼不時出，既至，問曰：「欲共見廢，何不蚤啟。」未及答，即於前斬之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-bu-tianyu",
+    "from": "liu-shao-song",
+    "to": "bu-tianyu-song",
+    "kind": "conflict",
+    "label": "卜天与攻劭而被杀",
+    "note": "直接记攻劭于东堂及见杀；谁亲手杀卜天与未详，不补劭亲手或具体发令。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p11",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+        "excerpt": "太祖左細杖主卜天與攻劭於東堂，見殺。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-yigong",
+    "from": "liu-shao-song",
+    "to": "liu-yigong-song",
+    "kind": "conflict",
+    "label": "拘防义恭并遣濬杀其诸子",
+    "note": "先拘防分居，义恭南奔后劭遣濬杀其诸子；义恭当面问十二儿，劭承认此事负阿父，不捏十二个具名个体。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p14",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "85a7aa8560521bf16edd349ef3d256147265ac8bc31c2fa3bafc5f6627d91c9e",
+        "excerpt": "移江夏王義恭住尚書下舍，義恭諸子住侍中下省。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "遣濬殺義恭諸子。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "義恭詰劭曰：「我背逆歸順，有何大罪，頓殺我家十二兒？」劭答曰：「殺諸弟，此事負阿父。」"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-ziye",
+    "from": "liu-shao-song",
+    "to": "liu-ziye-song",
+    "kind": "conflict",
+    "label": "囚孝武世子并屡欲加害",
+    "note": "旧前废帝本纪明确元凶囚子业于侍中下省、将害数矣而得免，法师身份有名锚；未将欲害变成已杀。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p276",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "da367bcf8d5f62be7ff0a8dd2a0e7c48171f202145740bf198e0d3c025858e87",
+        "excerpt": "前廢帝諱子業，小字法師，孝武帝長子也。"
+      },
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p276",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "da367bcf8d5f62be7ff0a8dd2a0e7c48171f202145740bf198e0d3c025858e87",
+        "excerpt": "三十年，孝武入伐，元凶囚帝于侍中下省，將加害者數矣，卒得無恙。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p19",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c2fe74157c8ca145dd0355a72eec53341b1825cbfb661d1f217e469d0b1f6ac4",
+        "excerpt": "防守世祖子於侍中下省"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liujin",
+    "from": "liu-shao-song",
+    "to": "liu-jin-changsha-song",
+    "kind": "conflict",
+    "label": "以宿恨下狱死（书载）",
+    "note": "在劭政局的连续记述中，书列本人为以宿恨下狱死；不补旧怨内容、具体发令或亲手行刑者。长沙王瑾的独列据宋书，不按南史省文另造两次死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "長沙王瑾、瑾弟楷、臨川王燁、桂陽侯覬、新渝侯玠，[5]並以宿恨下獄死。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liukai",
+    "from": "liu-shao-song",
+    "to": "liu-kai-song",
+    "kind": "conflict",
+    "label": "以宿恨下狱死（书载）",
+    "note": "在劭政局的连续记述中，书列本人为以宿恨下狱死；不补旧怨内容、具体发令或亲手行刑者。长沙王瑾的独列据宋书，不按南史省文另造两次死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "長沙王瑾、瑾弟楷、臨川王燁、桂陽侯覬、新渝侯玠，[5]並以宿恨下獄死。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liuye",
+    "from": "liu-shao-song",
+    "to": "liu-ye-linchuan-song",
+    "kind": "conflict",
+    "label": "以宿恨下狱死（书载）",
+    "note": "在劭政局的连续记述中，书列本人为以宿恨下狱死；不补旧怨内容、具体发令或亲手行刑者。长沙王瑾的独列据宋书，不按南史省文另造两次死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "長沙王瑾、瑾弟楷、臨川王燁、桂陽侯覬、新渝侯玠，[5]並以宿恨下獄死。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liuji",
+    "from": "liu-shao-song",
+    "to": "liu-ji-guiyang-song",
+    "kind": "conflict",
+    "label": "以宿恨下狱死（书载）",
+    "note": "在劭政局的连续记述中，书列本人为以宿恨下狱死；不补旧怨内容、具体发令或亲手行刑者。长沙王瑾的独列据宋书，不按南史省文另造两次死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "長沙王瑾、瑾弟楷、臨川王燁、桂陽侯覬、新渝侯玠，[5]並以宿恨下獄死。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liujie",
+    "from": "liu-shao-song",
+    "to": "liu-jie-xinyu-song",
+    "kind": "conflict",
+    "label": "以宿恨下狱死（书载）",
+    "note": "在劭政局的连续记述中，书列本人为以宿恨下狱死；不补旧怨内容、具体发令或亲手行刑者。长沙王瑾的独列据宋书，不按南史省文另造两次死。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p13",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+        "excerpt": "長沙王瑾、瑾弟楷、臨川王燁、桂陽侯覬、新渝侯玠，[5]並以宿恨下獄死。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-xunchi",
+    "from": "liu-shao-song",
+    "to": "xun-chisong-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-zangning",
+    "from": "liu-shao-song",
+    "to": "zang-ningzhi-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-fu",
+    "from": "liu-shao-song",
+    "to": "fu-sengyou-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-jianghui",
+    "from": "liu-shao-song",
+    "to": "jiang-hui-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-zhuge",
+    "from": "liu-shao-song",
+    "to": "zhuge-xu-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-jiangwengang",
+    "from": "liu-shao-song",
+    "to": "jiang-wengang-song",
+    "kind": "conflict",
+    "label": "杀徐江亲党中的具名者",
+    "note": "原文明列于杀徐江亲党的同一组，不由同党标签编具体谋反罪名、私人旧怨或手杀执行者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p12",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+        "excerpt": "殺徐湛之、江湛親黨新除始興內史荀赤松、新除尚書左丞臧凝之、山陰令傅僧祐、吳令江徽、前征北行參軍諸葛詡、右衞司馬江文綱。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-gaoqin",
+    "from": "liu-shao-song",
+    "to": "gao-qin-song",
+    "kind": "conflict",
+    "label": "高禽井中擒劭",
+    "note": "高禽为直接拘擒者；后新阳县男是世祖封赏，不是刘劭授职。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "劭穿西垣入武庫井中，隊副高禽執之。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "及劭入井，高禽於井中牽出之"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-zangzhi",
+    "from": "liu-shao-song",
+    "to": "zang-zhi-song",
+    "kind": "conflict",
+    "label": "举兵讨劭并当面诘逆",
+    "note": "臧质举兵、入宫后当面诘逆及转答求远徙；不把高禽擒劭或军门处死移为臧质亲行。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p171",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+        "excerpt": "荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "臧質大軍從廣莫門入，同會太極殿前"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "質因辨其逆狀"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liu-yuanjing",
+    "from": "liu-shao-song",
+    "to": "liu-yuanjing-song",
+    "kind": "conflict",
+    "label": "新亭破劭军",
+    "note": "柳元景先乘劭军收止而破之，又破劭亲率来攻之军；不称其为劭所任部将。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "將克，而秀斂軍遽止，為柳元景等所乘，故大敗。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "劭又率腹心同惡自來攻壘，元景復破之"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-lu-xiu",
+    "from": "liu-shao-song",
+    "to": "lu-xiu-song",
+    "kind": "conflict",
+    "label": "南奔后攻大航",
+    "note": "宋书记敛军遽止，南史记打退鼓，两者分源保留，不补密约；后鲁秀南奔并募勇士攻劭所守大航。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "將克，而秀斂軍遽止"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p19",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "854abedc340ff114cceedb6143eb48dd2efab87651a6315716eb8463c6de180d",
+        "excerpt": "將克，而魯秀打退鼓，軍乃止"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p22",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "63bab1f650df0e4d5ad06ad66ae39a35c1df32e471d07498735fcd7b25cae1fd",
+        "excerpt": "其夜，魯秀又南奔。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p25",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "e3e49a138cdd444bd3a7b84ecc6a49a3467761c2ee6c258dda986db7299e2b59",
+        "excerpt": "其月三日，魯秀等募勇士五百人攻大航，鉤得一舶。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-xue",
+    "from": "liu-shao-song",
+    "to": "xue-andu-song",
+    "kind": "conflict",
+    "label": "官军攻入台城",
+    "note": "薛安都参与攻入刘劭所守台城；所引段未记由其本人擒劭或处刑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "四日，太尉江夏王義恭登朱雀門，總羣帥，遣魯秀、薛安都、程天祚等直趣宣陽門。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "天祚與安都副譚金因而乘之，即得俱入。安都及軍主武念、宗越等相繼進"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-cheng",
+    "from": "liu-shao-song",
+    "to": "cheng-tianzuo-song",
+    "kind": "conflict",
+    "label": "官军攻入台城",
+    "note": "程天祚参与攻入刘劭所守台城；所引段未记由其本人擒劭或处刑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "四日，太尉江夏王義恭登朱雀門，總羣帥，遣魯秀、薛安都、程天祚等直趣宣陽門。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "天祚與安都副譚金因而乘之，即得俱入。安都及軍主武念、宗越等相繼進"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-tanjin",
+    "from": "liu-shao-song",
+    "to": "tan-jin-song",
+    "kind": "conflict",
+    "label": "官军攻入台城",
+    "note": "谭金参与攻入刘劭所守台城；所引段未记由其本人擒劭或处刑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "四日，太尉江夏王義恭登朱雀門，總羣帥，遣魯秀、薛安都、程天祚等直趣宣陽門。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "天祚與安都副譚金因而乘之，即得俱入。安都及軍主武念、宗越等相繼進"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-wunian",
+    "from": "liu-shao-song",
+    "to": "wu-nian-song",
+    "kind": "conflict",
+    "label": "官军攻入台城",
+    "note": "武念参与攻入刘劭所守台城；所引段未记由其本人擒劭或处刑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "四日，太尉江夏王義恭登朱雀門，總羣帥，遣魯秀、薛安都、程天祚等直趣宣陽門。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "天祚與安都副譚金因而乘之，即得俱入。安都及軍主武念、宗越等相繼進"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-zongyue",
+    "from": "liu-shao-song",
+    "to": "zong-yue-song",
+    "kind": "conflict",
+    "label": "官军攻入台城",
+    "note": "宗越参与攻入刘劭所守台城；所引段未记由其本人擒劭或处刑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "四日，太尉江夏王義恭登朱雀門，總羣帥，遣魯秀、薛安都、程天祚等直趣宣陽門。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p26",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "618b19d4afc0579772d5006ad2603f4492f1db2d9964f7ce845241fd4eb792c6",
+        "excerpt": "天祚與安都副譚金因而乘之，即得俱入。安都及軍主武念、宗越等相繼進"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-gubin",
+    "from": "liu-shao-song",
+    "to": "gu-binzhi-song",
+    "kind": "conflict",
+    "label": "曲阿击败劭将",
+    "note": "顾彬之受孝武遣、刘季之受刘诞遣，合军于奔牛塘破劭将；不补刘劭本人在曲阿，也不改将领异名。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p35",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "8e2c3cb1a36644c0f1b46ca5f5f7392d070c3cbcc03ce4f2c1219d95be630ed3",
+        "excerpt": "孝武入討，遣甯朔將軍顧彬之受誕節度，誕遣參軍劉季之舉兵與彬之並。遇劭將華欽、庾遵于曲阿之奔牛塘，大敗之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-liujizhi",
+    "from": "liu-shao-song",
+    "to": "liu-jizhi-song",
+    "kind": "conflict",
+    "label": "曲阿击败劭将",
+    "note": "顾彬之受孝武遣、刘季之受刘诞遣，合军于奔牛塘破劭将；不补刘劭本人在曲阿，也不改将领异名。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p35",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "8e2c3cb1a36644c0f1b46ca5f5f7392d070c3cbcc03ce4f2c1219d95be630ed3",
+        "excerpt": "孝武入討，遣甯朔將軍顧彬之受誕節度，誕遣參軍劉季之舉兵與彬之並。遇劭將華欽、庾遵于曲阿之奔牛塘，大敗之。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-conflict-jiang-wife",
+    "from": "liu-shao-song",
+    "to": "song-jiang-zhan-wife-yu",
+    "kind": "conflict",
+    "label": "江湛妻庾氏乘车骂劭",
+    "note": "刘劭被擒后，庾氏乘车来骂；不补其自行处刑或参与先前举兵。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "江湛妻庾氏乘車罵之"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-shao-song-conflict-wei-guabu",
+    "from": "liu-shao-song",
+    "to": "tuoba-tao-wei",
+    "kind": "conflict",
+    "label": "魏至瓜步时出镇统水军",
+    "note": "魏太武帝到瓜步时劭出镇石头统水军，可记防御对峙；没有两人亲自交战、谈判或谁被谁杀的记载。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p6",
+        "title": "南史 · 卷 14 · 宋宗室及诸王下",
+        "originalRevision": 1,
+        "originalSha256": "031ec60264bb5e17ee5c4c397435cb32e6a5dbd78d78b45eb72d8f42b5ae86a3",
+        "excerpt": "魏太武帝至瓜步"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p4",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+        "excerpt": "索虜至瓜步，京邑震駭，劭出鎮石頭，總統水軍，善於撫御。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-song-inlaw-yinchong",
+    "from": "yin-chong-song",
+    "to": "liu-shao-song",
+    "kind": "kinship",
+    "label": "妃叔父与夫",
+    "note": "殷冲为刘劭妃的叔父，是直接有据姻亲；不补其与殷淳的长幼次序或其他谱系。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "年十二，出居東宮，納黃門侍郎殷淳女為妃。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p37",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+        "excerpt": "沖為劭草立符文，又妃叔父也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-yin-father-daughter",
+    "from": "yin-chun-song",
+    "to": "song-liu-shao-consort-yin",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "殷淳为刘劭所纳妃殷氏的父亲；其余子女未见所引段记载。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "年十二，出居東宮，納黃門侍郎殷淳女為妃。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-jiang-zhan-wife-yu",
+    "from": "jiang-zhan-song",
+    "to": "song-jiang-zhan-wife-yu",
+    "kind": "kinship",
+    "label": "配偶（江湛妻庾氏）",
+    "note": "书明江湛妻庾氏乘车骂劭，未载本名和子女。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p34",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "aff719a2152ca3ab0e9fb505fbb8d6db1c0fa46efe87b920b1d0ac4d060bb2e3",
+        "excerpt": "江湛妻庾氏乘車罵之"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-parrot-adopts-tianxing",
+    "from": "wang-yingwu-song",
+    "to": "chen-tianxing-song",
+    "kind": "adoption",
+    "label": "养母与养子",
+    "note": "书明王鸚鵡养陈天兴为子，又与之私通；养育与性关系是源中不同事实，不作生母。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "初，東陽主有奴陳天興，鸚鵡養以為子，而與之淫通。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-parrot-marriage-shen",
+    "from": "shen-huaiyuan-song",
+    "to": "wang-yingwu-song",
+    "kind": "kinship",
+    "label": "配偶（妾王鸚鵡）",
+    "note": "劭、濬安排王鸚鵡嫁沈怀远为妾；与其养陈天兴的关系分别保留。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p6",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "7772ae98a8323b5691b1829cde5221d17bd3ae2cfc5e61a7e0787cccefd8619b",
+        "excerpt": "乃嫁鸚鵡與懷遠為妾"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-xiaowu-son-ziye",
+    "from": "liu-jun-song",
+    "to": "liu-ziye-song",
+    "kind": "kinship",
+    "label": "父子（孝武长子）",
+    "note": "刘子业为孝武帝长子，小名法师，元嘉三十年曾遭刘劭拘禁。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v002",
+        "paragraphId": "nanshi-v002-p276",
+        "title": "南史 · 卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
+        "originalRevision": 1,
+        "originalSha256": "da367bcf8d5f62be7ff0a8dd2a0e7c48171f202145740bf198e0d3c025858e87",
+        "excerpt": "前廢帝諱子業，小字法師，孝武帝長子也。"
+      }
+    ]
+  },
+  {
+    "id": "liu-shao-yin-uncle-niece",
+    "from": "yin-chong-song",
+    "to": "song-liu-shao-consort-yin",
+    "kind": "kinship",
+    "label": "叔父与侄女",
+    "note": "直接据妃叔父语，不补殷氏其他兄弟姐妹。",
+    "sources": [
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p37",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+        "excerpt": "沖為劭草立符文，又妃叔父也。"
+      },
+      {
+        "chapterId": "songshu-v099",
+        "paragraphId": "songshu-v099-p3",
+        "title": "宋书 · 卷 99 · 二凶（刘劭、刘濬）",
+        "originalRevision": 1,
+        "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+        "excerpt": "年十二，出居東宮，納黃門侍郎殷淳女為妃。"
       }
     ]
   }

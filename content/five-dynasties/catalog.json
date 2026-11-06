@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—5武帝纪、少帝纪、文帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—5武帝纪、少帝纪、文帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -187,7 +187,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—2宋本纪上、中完整文本，包括武帝、少帝、文帝、孝武帝与前废帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—2宋本纪上、中及卷14宋宗室及诸王下完整文本，保留原页标题、正文与史论，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/南史",
       "defaultChapter": "nanshi-v001"
     }
@@ -2468,7 +2468,8 @@
         "meng-chang",
         "zhou-guo-wei-princess-lean",
         "zhou-guo-wei-princess-yongning",
-        "zhou-chai-rong-empress-liu"
+        "zhou-chai-rong-empress-liu",
+        "liu-shao-song"
       ],
       "position": 117,
       "scope": "full",
@@ -2634,7 +2635,8 @@
         "yuan-xiangxian",
         "li-hanzhi",
         "liang-zhu-wen-consort-zhang",
-        "liang-zhu-yougui-mother-unknown"
+        "liang-zhu-yougui-mother-unknown",
+        "liu-shao-song"
       ],
       "position": 12,
       "scope": "full",
@@ -7352,7 +7354,8 @@
         "fu-cunshen",
         "zhou-dewei",
         "tang-li-siyuan-consort-cao",
-        "tang-li-conghou-empress-kong"
+        "tang-li-conghou-empress-kong",
+        "liu-yilong-song"
       ],
       "scope": "full",
       "paragraphCount": 52,
@@ -7787,7 +7790,8 @@
         "liu-chengyou",
         "guo-chongtao",
         "gao-conghui",
-        "li-yu-tang"
+        "li-yu-tang",
+        "liu-shao-song"
       ],
       "scope": "full",
       "paragraphCount": 48,
@@ -10720,7 +10724,8 @@
         "ren-huan",
         "gao-jixing",
         "former-shu-jiechou",
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yilong-song"
       ],
       "sourceLocalSubjectsOnly": true,
       "scope": "full",
@@ -10769,7 +10774,9 @@
       "position": 2,
       "title": "卷 2 · 武帝中",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "scope": "full",
       "paragraphCount": 93,
@@ -10793,7 +10800,9 @@
       "position": 3,
       "title": "卷 3 · 武帝下",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "scope": "full",
       "paragraphCount": 60,
@@ -10817,7 +10826,9 @@
       "position": 1,
       "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "scope": "full",
       "paragraphCount": 106,
@@ -10900,7 +10911,9 @@
       "position": 4,
       "title": "卷 4 · 少帝",
       "subjects": [
-        "liu-yifu-song"
+        "liu-yifu-song",
+        "liu-yu-song",
+        "liu-yilong-song"
       ],
       "scope": "full",
       "paragraphCount": 42,
@@ -10949,7 +10962,10 @@
       "position": 5,
       "title": "卷 5 · 文帝",
       "subjects": [
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-shao-song"
       ],
       "scope": "full",
       "paragraphCount": 306,
@@ -10974,7 +10990,10 @@
       "position": 2,
       "title": "卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
       "subjects": [
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-shao-song"
       ],
       "scope": "full",
       "paragraphCount": 294,
@@ -11016,6 +11035,56 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B712&action=history",
         "sourceSha256": "d386a71756bb8107f0c69cf346160bd47786dc55ea30410d635e1bc1bbb8a5bb",
         "chapterSha256": "141522c9d1f24d2a63f584ec6adf7d8050f9e2d4b33663e40946837829ee29dd"
+      }
+    },
+    {
+      "id": "songshu-v099",
+      "bookId": "songshu",
+      "volume": 99,
+      "position": 99,
+      "title": "卷 99 · 二凶（刘劭、刘濬）",
+      "subjects": [
+        "liu-shao-song",
+        "liu-yilong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 52,
+      "characterCount": 9816,
+      "provenance": {
+        "pageTitle": "宋書/卷99",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B799&oldid=2293550",
+        "revisionId": 2293550,
+        "fetchedAt": "2026-11-05T17:48:18.638868+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B799&action=history",
+        "sourceSha256": "c57bb123a5a1b04a70db1ae323035e919c4b6028f7bd37e99b145bc90cf8408a",
+        "chapterSha256": "763b4b25009abf3ff2dc3eaa98318468b8ddf3916606d4a15da7b7f8b524baec"
+      }
+    },
+    {
+      "id": "nanshi-v014",
+      "bookId": "nanshi",
+      "volume": 14,
+      "position": 14,
+      "title": "卷 14 · 宋宗室及诸王下",
+      "subjects": [
+        "liu-shao-song",
+        "liu-yilong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 142,
+      "characterCount": 16025,
+      "provenance": {
+        "pageTitle": "南史/卷14",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537",
+        "revisionId": 2577537,
+        "fetchedAt": "2026-11-05T17:57:25.227923+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&action=history",
+        "sourceSha256": "ed4c52dcc8b8a73559d4ce5ba7e22ba716459ed972c5e45726bfae8a551baea3",
+        "chapterSha256": "0c7e80d527a99f840a027f8e9d5721449562f7282de5da6fd9027feb47ed931b"
       }
     }
   ]

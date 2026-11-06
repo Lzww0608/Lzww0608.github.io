@@ -574,7 +574,24 @@
           "originalRevision": 1,
           "originalSha256": "c19f5ebd6e8e32bd9fbd06c2b49e4464cd1f63cd26315217b846108411fe821a",
           "excerpt": "三月丁巳，立皇子劭為皇太子。戊午，大赦天下，賜文武位一等。辛酉，以左衞將軍殷景仁為中領軍。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p3",
+          "originalRevision": 1,
+          "originalSha256": "57bb454359c4ccda43fd0fcd0e6513b62db1db36c322a84cd4c25e99468b3702",
+          "excerpt": "年六歲，拜為皇太子，中庶子二率入直永福省。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p5",
+          "originalRevision": 1,
+          "originalSha256": "27e7fae8291c027d3db86569f770755072044658795d23c1c3e5ea1778abbcff",
+          "excerpt": "年六歲，拜為皇太子，中庶子二率入直永福省，為更築宮，制度嚴麗。"
         }
+      ],
+      "notes": [
+        "两专传以“年六岁”叙立太子；不以年龄倒推生月日。"
       ]
     },
     {
@@ -739,6 +756,13 @@
           "originalRevision": 1,
           "originalSha256": "5cfaaad5efaa441c012fb500c1d63644bb06e7544a3daecaa61cec3c8615c458",
           "excerpt": "冬十二月庚寅，立皇子紹為廬陵王，奉孝獻王祀；江夏王義恭子朗為南豐王，奉營陽王祀。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p2",
+          "originalRevision": 1,
+          "originalSha256": "349675829f3ac3518d51fa841eb93a20f514f4798aea4afce7ee49ce5626427e",
+          "excerpt": "紹出繼廬陵孝獻王義真。"
         }
       ],
       "notes": [
@@ -859,10 +883,18 @@
           "originalRevision": 1,
           "originalSha256": "791a81cc39a627a67d6ccd7062d1efa2e26a3366ee539fb759ad06a2972a8eda",
           "excerpt": "秋七月己未，零陵王太妃殂，追崇為晉皇后，葬以晉禮。九月癸丑，立皇子浚為始興王、駿為武陵王。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p23",
+          "originalRevision": 1,
+          "originalSha256": "e14d61a5c61421689fb7dfa41a3abfb471c22939f3195771ee69432d774fe6d1",
+          "excerpt": "元嘉十三年，年八歲，封始興王。"
         }
       ],
       "notes": [
-        "《南史》文帝纪与孝武分传记刘骏受封，分别作十三年、十二年；始兴王封年另依本条。"
+        "《南史》文帝纪与孝武分传记刘骏受封，分别作十三年、十二年；始兴王封年另依本条。",
+        "始兴王专传记元嘉十三年、年八岁受封；刘濬与刘骏及其分传封年异说分开。"
       ],
       "variants": [
         {
@@ -904,10 +936,47 @@
           "originalRevision": 1,
           "originalSha256": "9e3204bd4a962cd6df41e320477d6a909703a3334bddec3ce75f0b5443fc17ca",
           "excerpt": "九月壬子，葬元皇后於長寧陵。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p31",
+          "originalRevision": 1,
+          "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+          "excerpt": "初，元皇后性忌，以潘氏見幸，遂以恚恨致崩，故劭深疾潘氏及濬。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p24",
+          "originalRevision": 1,
+          "originalSha256": "5321dd4dc737519315da8e73b87b169c109bc48cb9041b14001a6851e3794189",
+          "excerpt": "初元皇后性忌，以潘氏見幸，恚恨致崩。"
         }
       ],
       "notes": [
         "七月壬子去世，九月壬子安葬，两事异日。"
+      ],
+      "variants": [
+        {
+          "label": "两专传对袁后去世的归因",
+          "sourceDate": "未另记年月；本纪去世与葬日另有明文",
+          "summary": "《宋书》刘濬传、《南史》刘濬传以袁后性忌、潘氏受宠而恚恨致崩解释其去世；这是史家归因，不据此补定病名或医学死因。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p31",
+              "originalRevision": 1,
+              "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+              "excerpt": "初，元皇后性忌，以潘氏見幸，遂以恚恨致崩，故劭深疾潘氏及濬。"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p24",
+              "originalRevision": 1,
+              "originalSha256": "5321dd4dc737519315da8e73b87b169c109bc48cb9041b14001a6851e3794189",
+              "excerpt": "初元皇后性忌，以潘氏見幸，恚恨致崩。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1168,7 +1237,7 @@
       "year": 445,
       "precision": "day",
       "phase": "rule",
-      "sortOrder": 44,
+      "sortOrder": 43,
       "sourceDate": "元嘉二十二年正月辛卯朔",
       "evidence": [
         {
@@ -1179,6 +1248,35 @@
           "excerpt": "二十二年春正月辛卯朔，改用御史中丞何承天元嘉新曆。壬辰，撫軍將軍、南豫州刺史武陵王駿改為雍州刺史，湘州刺史南平王鑠為南豫州刺史。"
         }
       ]
+    },
+    {
+      "id": "liu-yilong-song-south-yuzhou-merger-and-shuo",
+      "title": "罢南豫州并寿阳，改铄为豫州刺史",
+      "summary": "《南史》记文帝筹划外略，罢南豫州并寿阳，改刘铄为豫州刺史。《宋书》另明记六月辛亥以南豫州刺史刘铄为豫州刺史。",
+      "sourceDate": "元嘉二十二年六月辛亥任铄；罢并南豫州未另记月日",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p28",
+          "originalRevision": 1,
+          "originalSha256": "40ad30ff3609ef68d18d4a12210e8ca60fd4a7dd3088ecff267a3255f94b7e12",
+          "excerpt": "二十二年，為南豫州刺史，加都督。時文帝方事外略，罷南豫州並壽陽，以鑠為豫州刺史，領安蠻校尉。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p182",
+          "originalRevision": 1,
+          "originalSha256": "9ea302f4cdd65ede2ae0647e717de17164f6139ef4b344fe536be90176206364",
+          "excerpt": "夏六月辛亥，以南豫州刺史南平王鑠為豫州刺史。"
+        }
+      ],
+      "notes": [
+        "六月辛亥明系刘铄任豫州刺史；《南史》所记罢并的月日未另载。"
+      ],
+      "sortOrder": 44,
+      "year": 445,
+      "precision": "day",
+      "phase": "rule"
     },
     {
       "id": "liu-yilong-song-teach-sons-frugality",
@@ -1604,10 +1702,18 @@
           "originalRevision": 1,
           "originalSha256": "4996003aca27972c2f125b6a93cf11e7f063b93cac67e0297a4f90ad955d0489",
           "excerpt": "冬閏月癸亥，玄謨攻滑臺，不克，為虜所敗，退還碻磝。辛未，雍州刺史隨王誕遣軍攻弘農城，克之。丙戌，又克關城。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p34",
+          "originalRevision": 1,
+          "originalSha256": "a123a2d4071061dadd0df37e097ab3d537bf4e8f3c5b8013382c81f8d39a4fec",
+          "excerpt": "及大舉北侵，命諸藩並出師，皆奔敗，唯誕遣中兵參軍柳元景克弘農、關、陝。"
         }
       ],
       "notes": [
-        "原文冬闰月为闰十月；玄谟癸亥败退，刘诞所遣军另于辛未、丙戌克弘农及关城。"
+        "原文冬闰月为闰十月；玄谟癸亥败退，刘诞所遣军另于辛未、丙戌克弘农及关城。",
+        "《南史》刘诞传以诸藩同出而惟诞军得胜概述，并称克弘农、关、陕；本纪分记弘农、关城的日期，不把文帝写成亲攻。"
       ]
     },
     {
@@ -1633,10 +1739,62 @@
           "originalRevision": 1,
           "originalSha256": "ad94ef80943ed861ce21cbd475d7482cededcd9092aadfdffe4ee00561bea0a0",
           "excerpt": "十二月庚午，魏太武帝率大眾至瓜步，聲欲度江，都下震懼，咸荷擔而立。壬午，內外戒嚴，緣江六七百里舳艫相接。始議北侵，朝士多有不同，至是，帝登烽火樓極望，不悅，謂江湛曰：「北伐之計，同議者少，今日士庶勞怨，不得無慚。貽大夫之憂，在予過矣。」甲申，使饋百牢于魏。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+          "excerpt": "二十七年，上將北伐，劭與蕭思話固諫，不從。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p4",
+          "originalRevision": 1,
+          "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+          "excerpt": "上登石頭城，有憂色，劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人也。」"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p6",
+          "originalRevision": 1,
+          "originalSha256": "031ec60264bb5e17ee5c4c397435cb32e6a5dbd78d78b45eb72d8f42b5ae86a3",
+          "excerpt": "魏太武帝至瓜步，上登石頭城，有憂色。劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人；但湛等不異耳。」"
         }
       ],
       "notes": [
-        "元嘉二十七年十二月的记事已在西历451年。"
+        "元嘉二十七年十二月的记事已在西历451年。",
+        "本纪所记十二月为魏至瓜步与戒严时点；专传对语没有单记月日。"
+      ],
+      "variants": [
+        {
+          "label": "两专传所记石头城对语",
+          "sourceDate": "元嘉二十七年，魏至瓜步后；未别记对语月日",
+          "summary": "两专传记文帝不从刘劭、萧思话劝阻北伐，魏到瓜步后登石头城。劭请杀江湛、徐湛之，帝称北伐出己意，与二人无关；《南史》另有“但湛等不异耳”。此为帝语，不据此独立确证江、徐主策北伐。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p4",
+              "originalRevision": 1,
+              "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+              "excerpt": "二十七年，上將北伐，劭與蕭思話固諫，不從。"
+            },
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p4",
+              "originalRevision": 1,
+              "originalSha256": "2126ab521ebcc7b44ef2f09922448ad060be4b5f131c6f943311da57429ce08c",
+              "excerpt": "上登石頭城，有憂色，劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人也。」"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p6",
+              "originalRevision": 1,
+              "originalSha256": "031ec60264bb5e17ee5c4c397435cb32e6a5dbd78d78b45eb72d8f42b5ae86a3",
+              "excerpt": "魏太武帝至瓜步，上登石頭城，有憂色。劭曰：「不斬江湛、徐湛之，無以謝天下。」上曰：「北伐自我意，不關二人；但湛等不異耳。」"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1821,13 +1979,64 @@
       ]
     },
     {
+      "id": "liu-yilong-song-witchcraft-first-exposure",
+      "title": "巫蛊事发，诘责刘劭刘濬",
+      "summary": "元嘉二十九年七月，巫蛊事发。文帝获告后查收王鹦鹉家，搜得书信及所埋形像，诘责刘劭、刘濬；另派朱法瑜密责刘濬并赐书。",
+      "sourceDate": "元嘉二十九年七月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p31",
+          "originalRevision": 1,
+          "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+          "excerpt": "至京數日而巫蠱事發，時二十九年七月也。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p7",
+          "originalRevision": 1,
+          "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+          "excerpt": "上驚惋，即遣收鸚鵡，封籍其家，得劭、濬書數百紙，皆呪詛巫蠱之言，得所埋上形像於宮內。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p7",
+          "originalRevision": 1,
+          "originalSha256": "12ab7fc81431c2cbfe5c307b654e38be442079c6cd116dcdc2c1383165840f4f",
+          "excerpt": "上詰責劭、濬，劭、濬惶懼無辭，唯陳謝而已。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p31",
+          "originalRevision": 1,
+          "originalSha256": "c2d7636852825ec49f19ecd8199064ac2f82c880d1ef68dd1254337c9a8521e8",
+          "excerpt": "使左右朱法瑜密責讓濬，辭甚哀切，并賜書曰："
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p24",
+          "originalRevision": 1,
+          "originalSha256": "5321dd4dc737519315da8e73b87b169c109bc48cb9041b14001a6851e3794189",
+          "excerpt": "至京口數日而巫蠱事發，時二十九年七月也。"
+        }
+      ],
+      "notes": [
+        "七月系两传明记首次事发；对义恭的叹语及未别记月日的后续处分不一并锁为七月。",
+        "与本纪所记同月省大司农等三官的先后未明，不据此排列推定事发日。"
+      ],
+      "sortOrder": 69,
+      "year": 452,
+      "precision": "month",
+      "phase": "rule"
+    },
+    {
       "id": "liu-yilong-song-qiaoaorepulse",
       "title": "萧思话攻碻磝未克而还",
       "summary": "萧思话攻碻磝不克，退军返回；同年另有鲁爽攻虎牢未克的军情。",
       "year": 452,
       "precision": "year",
       "phase": "rule",
-      "sortOrder": 69,
+      "sortOrder": 70,
       "sourceDate": "元嘉二十九年八月丁卯，十月癸亥另记虎牢",
       "evidence": [
         {
@@ -1850,13 +2059,42 @@
       ]
     },
     {
+      "id": "liu-yilong-song-increase-eastern-palace-troops",
+      "title": "增东宫兵众至实甲万人",
+      "summary": "记载称大风飞霰且雷，文帝担心突然有变，给刘劭增加兵力，东宫披甲兵士实达万人。",
+      "sourceDate": "元嘉三十年正月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p9",
+          "originalRevision": 1,
+          "originalSha256": "446b1ad8e0fcd786058eead1584a71f475414c6da032b89486431d6248a756ec",
+          "excerpt": "三十年正月，大風飛霰且雷。上憂有竊發，輒加劭兵眾，東宮實甲萬人。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p10",
+          "originalRevision": 1,
+          "originalSha256": "7e8291e70abce7ecfc0b700dfa67f4a44fa910867c95ec04cb65f703c6e24397",
+          "excerpt": "三十年正月，大風飛霰且雷，上憂有竊發，輒加劭兵，東宮實甲萬人。"
+        }
+      ],
+      "notes": [
+        "原文有担忧变乱而增兵的叙法，不据天气推定已经预知政变。"
+      ],
+      "sortOrder": 68,
+      "year": 453,
+      "precision": "month",
+      "phase": "rule"
+    },
+    {
       "id": "liu-yilong-song-last-famine-relief",
       "title": "遣运部赈青徐饥民",
       "summary": "青、徐州发生饥荒，遣运部赈济。",
       "year": 453,
       "precision": "day",
       "phase": "rule",
-      "sortOrder": 70,
+      "sortOrder": 69,
       "sourceDate": "元嘉三十年二月壬子",
       "evidence": [
         {
@@ -1869,9 +2107,46 @@
       ]
     },
     {
+      "id": "liu-yilong-song-deposition-plan-unrealized",
+      "title": "查藏严道育，拟废劭赐濬死",
+      "summary": "文帝得知刘劭、刘濬仍与严道育往来，命京口送来两婢，准备核验后废劭、赐濬死。文帝把打算告知潘淑妃，消息传给刘濬、刘劭；计划未及执行。",
+      "sourceDate": "元嘉三十年二月，未别记拟议日",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p10",
+          "originalRevision": 1,
+          "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+          "excerpt": "其年二月，濬自京口入朝，當鎮江陵，復載道育還東宮，欲將西上。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p10",
+          "originalRevision": 1,
+          "originalSha256": "8967827b0879a4b21adfb20c3f32ffbdfbeb4c6d941085153270af605672475f",
+          "excerpt": "乃使京口以船送道育二婢，須至檢覈，廢劭，賜濬死，以語濬母潘淑妃，淑妃具以告濬。濬馳報劭，劭因是異謀"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p10",
+          "originalRevision": 1,
+          "originalSha256": "7e8291e70abce7ecfc0b700dfa67f4a44fa910867c95ec04cb65f703c6e24397",
+          "excerpt": "上惆悵惋駭，須檢覆，廢劭賜濬死。"
+        }
+      ],
+      "notes": [
+        "废、赐死为待检核的打算，并非已经执行；潘氏生养身份的各书异叙不在此调和。",
+        "本纪二月壬子赈民有确日，拟废密议未明独立日，不以同月顺列替代日期证据。"
+      ],
+      "sortOrder": 70,
+      "year": 453,
+      "precision": "month",
+      "phase": "fall"
+    },
+    {
       "id": "liu-yilong-song-death",
       "title": "刘劭构逆，文帝遇害",
-      "summary": "刘劭发动弑逆，刘义隆在殿内遇害，时年四十七；最初谥景皇帝、庙号中宗。",
+      "summary": "刘劭发动弑逆，张超之入殿行弑，刘义隆遇害，时年四十七；最初谥景皇帝、庙号中宗。",
       "year": 453,
       "precision": "day",
       "phase": "fall",
@@ -1898,10 +2173,74 @@
           "originalRevision": 1,
           "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
           "excerpt": "三十年正月，出次西陽之五洲，會元凶弑逆，上率眾入討。荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p11",
+          "originalRevision": 1,
+          "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+          "excerpt": "上其夜與尚書僕射徐湛之屏人語，至旦燭猶未滅，直衞兵尚寢。超之手行弒逆，并殺湛之。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p11",
+          "originalRevision": 1,
+          "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+          "excerpt": "上其夜與尚書僕射徐湛之屏人語，至旦燭猶未滅，門階戶席並無侍衛。上以幾自鄣，超之行殺，上五指俱落，並殺湛之。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p11",
+          "originalRevision": 1,
+          "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+          "excerpt": "其月二十一日夜，詐上詔云：「魯秀謀反，汝可平明守闕，率眾入。」"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p11",
+          "originalRevision": 1,
+          "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+          "excerpt": "明旦未開鼓，劭以朱服加戎服上"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p11",
+          "originalRevision": 1,
+          "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+          "excerpt": "其月二十一日夜，詐作上詔"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p11",
+          "originalRevision": 1,
+          "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+          "excerpt": "明旦，劭以朱服加戎服上"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p37",
+          "originalRevision": 1,
+          "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+          "excerpt": "弘二月二十一日平旦入直，至西掖門，聞宮中有變，率城內禦兵至閣道下。及聞劭入，惶怖通啟，求受處分"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p13",
+          "originalRevision": 1,
+          "originalSha256": "c7eed1ed24c56bece508d5617c9990d28773d77672acd7996b71faa2d1c25e11",
+          "excerpt": "禮官希旨，諡太祖不敢盡美稱，上諡曰中宗景皇帝。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p14",
+          "originalRevision": 1,
+          "originalSha256": "b91cf6ac48052ed70a1a3d7fb9beb7fe8ab06d200d1adf1401c1b9eee129e68b",
+          "excerpt": "禮官希旨，諡文帝不敢盡美稱，諡曰中宗景皇帝。"
         }
       ],
       "notes": [
-        "《南史》明记劭构逆；两书记殿名的不同见下列异文。"
+        "《南史》明记劭构逆；两书记殿名的不同见下列异文。",
+        "甲子为两本纪所记遇害日。初谥景皇帝、庙号中宗为遇害后的处置，专传未给其独立确日。"
       ],
       "variants": [
         {
@@ -1923,6 +2262,55 @@
               "originalRevision": 1,
               "originalSha256": "43f7f0ba1bff35d49b6926d35f02eb813b3fbd65ce5cc650a3a1bf32440af31c",
               "excerpt": "二月甲子，元凶劭構逆，帝崩於合殿，時年四十七。諡景皇帝，廟號中宗。三月癸巳，葬長寧陵。孝武帝踐阼，追改諡曰文帝，廟號太祖。"
+            }
+          ]
+        },
+        {
+          "label": "两专传的二十一日夜与明旦",
+          "sourceDate": "元嘉三十年二月二十一日夜、明旦",
+          "summary": "两专传叙二十一日夜假诏部署，明旦入宫行弑；明旦是其叙次的次晨，不将它静默改成同夜或据历算移改本纪甲子。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p11",
+              "originalRevision": 1,
+              "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+              "excerpt": "其月二十一日夜，詐上詔云：「魯秀謀反，汝可平明守闕，率眾入。」"
+            },
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p11",
+              "originalRevision": 1,
+              "originalSha256": "3b9cec4f6409b9cf4d7fdba842ba28578107be5dfc375e42c238cf7b87c6e65f",
+              "excerpt": "明旦未開鼓，劭以朱服加戎服上"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p11",
+              "originalRevision": 1,
+              "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+              "excerpt": "其月二十一日夜，詐作上詔"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p11",
+              "originalRevision": 1,
+              "originalSha256": "a5b9505413fbd8ec5d554e11b4e51c59dc7726d8f756114a0d5b05325c7e55e3",
+              "excerpt": "明旦，劭以朱服加戎服上"
+            }
+          ]
+        },
+        {
+          "label": "尹弘附叙所记入直闻变时点",
+          "sourceDate": "元嘉三十年二月二十一日平旦",
+          "summary": "尹弘段称二十一日平旦入直，闻宫中有变，继闻劭入。这是闻变叙次，与专传前叙夜/明旦分别保留，不直接等同为文帝死亡的独立定刻。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p37",
+              "originalRevision": 1,
+              "originalSha256": "6f3e51613a81a31c5f27f788d9f81dd19bbd8d740327107060aa6470e7131196",
+              "excerpt": "弘二月二十一日平旦入直，至西掖門，聞宮中有變，率城內禦兵至閣道下。及聞劭入，惶怖通啟，求受處分"
             }
           ]
         }
@@ -1951,6 +2339,71 @@
           "originalRevision": 1,
           "originalSha256": "43f7f0ba1bff35d49b6926d35f02eb813b3fbd65ce5cc650a3a1bf32440af31c",
           "excerpt": "二月甲子，元凶劭構逆，帝崩於合殿，時年四十七。諡景皇帝，廟號中宗。三月癸巳，葬長寧陵。孝武帝踐阼，追改諡曰文帝，廟號太祖。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p12",
+          "originalRevision": 1,
+          "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+          "excerpt": "然後遷大行皇帝升太極前殿。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p12",
+          "originalRevision": 1,
+          "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+          "excerpt": "大行皇帝大斂，劭辭疾不敢出。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p13",
+          "originalRevision": 1,
+          "originalSha256": "7fc7870738cf5d194e59dd7ba43b1ccf0b947f6a663731b777f9457d4b4ee874",
+          "excerpt": "然後遷大行皇帝升太極殿"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p13",
+          "originalRevision": 1,
+          "originalSha256": "7fc7870738cf5d194e59dd7ba43b1ccf0b947f6a663731b777f9457d4b4ee874",
+          "excerpt": "大行大斂，劭辭疾不敢出。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "专传所记迁体与大敛",
+          "sourceDate": "遇害后、下葬前，未别记月日",
+          "summary": "两专传记刘劭即位后才迁大行皇帝于太极殿，并以病辞大敛；三月癸巳是本纪下葬日，不作迁殿或大敛的日期。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p12",
+              "originalRevision": 1,
+              "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+              "excerpt": "然後遷大行皇帝升太極前殿。"
+            },
+            {
+              "chapterId": "songshu-v099",
+              "paragraphId": "songshu-v099-p12",
+              "originalRevision": 1,
+              "originalSha256": "458d9d4a9d1f518c14f144d59e60f4902380329f15028096ca81e5260c9c9898",
+              "excerpt": "大行皇帝大斂，劭辭疾不敢出。"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p13",
+              "originalRevision": 1,
+              "originalSha256": "7fc7870738cf5d194e59dd7ba43b1ccf0b947f6a663731b777f9457d4b4ee874",
+              "excerpt": "然後遷大行皇帝升太極殿"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p13",
+              "originalRevision": 1,
+              "originalSha256": "7fc7870738cf5d194e59dd7ba43b1ccf0b947f6a663731b777f9457d4b4ee874",
+              "excerpt": "大行大斂，劭辭疾不敢出。"
+            }
+          ]
         }
       ]
     },
@@ -2326,13 +2779,83 @@
       ]
     },
     {
+      "id": "liu-yilong-song-jun-canal-proposal",
+      "title": "准刘濬先试开小漕",
+      "summary": "刘濬为吴兴等郡水患奏请试开小漕、观察水势，文帝采纳；记载说工程最终没有建成。",
+      "sourceDate": "元嘉二十二年（承上二十一年之明年），未别记月日",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p29",
+          "originalRevision": 1,
+          "originalSha256": "bb58f7d9040ec5db4b950c7c6f299115f04ba1d60e3cd915558ca26268dbfb0c",
+          "excerpt": "明年，濬上言："
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p29",
+          "originalRevision": 1,
+          "originalSha256": "bb58f7d9040ec5db4b950c7c6f299115f04ba1d60e3cd915558ca26268dbfb0c",
+          "excerpt": "今欲且開小漕，觀試流勢，輒差烏程、武康、東遷三縣近民，即時營作。若宜更增廣，尋更列言。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p29",
+          "originalRevision": 1,
+          "originalSha256": "bb58f7d9040ec5db4b950c7c6f299115f04ba1d60e3cd915558ca26268dbfb0c",
+          "excerpt": "從之。功竟不立。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p28",
+          "originalRevision": 1,
+          "originalSha256": "0dfb00544b717c3e909b0bd8c6ee8bda2665a0768f4762ff2b8974b51a213a1d",
+          "excerpt": "二十一年，加散騎常侍，進號中軍將軍。"
+        },
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p29",
+          "originalRevision": 1,
+          "originalSha256": "bb58f7d9040ec5db4b950c7c6f299115f04ba1d60e3cd915558ca26268dbfb0c",
+          "excerpt": "尋四郡同患，非獨吳興"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p113",
+          "originalRevision": 1,
+          "originalSha256": "94fb4f330930cc83ddd186dabdc1a5469309da67402148c45c44c69812bbf890",
+          "excerpt": "二十二年春正月辛卯朔，"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p118",
+          "originalRevision": 1,
+          "originalSha256": "b8eaf6f38511deb2d8a118720bd1ae057303c55ebdc0b86724079dcfdc39d9b9",
+          "excerpt": "是冬，浚淮，起湖熟廢田千餘頃。"
+        }
+      ],
+      "notes": [
+        "年度只指上奏与从议；工程最终未成是后续结果，未别记终止年。",
+        "所准为先试小漕；原文“开漕谷湖”的断句与水名未定，未把试开写成成功通航。",
+        "与元嘉二十二年冬季浚淮的先后未明，不以此排列推定。"
+      ],
+      "sortOrder": 84,
+      "year": null,
+      "yearRange": {
+        "start": 445,
+        "end": 446
+      },
+      "precision": "range",
+      "phase": "uncertain"
+    },
+    {
       "id": "liu-yilong-song-dredge-huai",
       "title": "冬季浚淮",
       "summary": "《南史》记冬季疏浚淮水。",
       "year": null,
       "precision": "range",
       "phase": "uncertain",
-      "sortOrder": 84,
+      "sortOrder": 85,
       "sourceDate": "元嘉二十二年，是冬",
       "evidence": [
         {
@@ -2358,7 +2881,7 @@
       "year": null,
       "precision": "range",
       "phase": "uncertain",
-      "sortOrder": 85,
+      "sortOrder": 86,
       "sourceDate": "元嘉二十三年，是岁",
       "evidence": [
         {
@@ -2386,13 +2909,54 @@
       ]
     },
     {
+      "id": "liu-yilong-song-jun-fortify-guabu",
+      "title": "遣刘濬率众筑瓜步山城",
+      "summary": "遣刘濬率众在瓜步山筑城。",
+      "sourceDate": "元嘉二十八年，未别记筑城月日",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p30",
+          "originalRevision": 1,
+          "originalSha256": "27291112817d1caecf20c6b71e9fef1b37a06eafb3b7104004c38aafa5904d9b",
+          "excerpt": "二十八年，遣濬率眾城瓜步山，解南兗州。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p248",
+          "originalRevision": 1,
+          "originalSha256": "c8ecf1234de216fae5e15b0918843ce0afaa45453a4b646ff539d2f9940bc55b",
+          "excerpt": "是冬，徙彭城流民於瓜步，淮西流民於姑孰，合萬許家。"
+        }
+      ],
+      "notes": [
+        "筑城遣令未别记月日；同句解南兖州另见本纪，不能反将其日套给筑城。",
+        "与元嘉二十八年冬季迁流民的先后未明，不以此排列推定。"
+      ],
+      "sortOrder": 87,
+      "year": null,
+      "yearRange": {
+        "start": 451,
+        "end": 452
+      },
+      "precision": "range",
+      "phase": "uncertain"
+    },
+    {
       "id": "liu-yilong-song-northern-refugee-resettlement",
       "title": "迁流民于瓜步和姑孰",
       "summary": "迁彭城流民至瓜步、淮西流民至姑孰，合约万家。",
       "year": null,
       "precision": "range",
       "phase": "uncertain",
-      "sortOrder": 86,
+      "sortOrder": 88,
       "sourceDate": "元嘉二十八年，是冬",
       "evidence": [
         {
@@ -2418,7 +2982,7 @@
       "year": null,
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 87,
+      "sortOrder": 89,
       "sourceDate": "文帝见旧宫，原段未明年月",
       "evidence": [
         {
@@ -2440,7 +3004,7 @@
       "year": null,
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 88,
+      "sortOrder": 90,
       "sourceDate": "文帝传末所记，未明年月",
       "evidence": [
         {
@@ -2454,6 +3018,66 @@
       "notes": [
         "篇末政平讼理、朝野悦睦等语属于史家评价。"
       ]
+    },
+    {
+      "id": "liu-yilong-song-palace-sericulture",
+      "title": "令宫中养蚕以劝天下",
+      "summary": "文帝重视农桑，令宫中人养蚕，希望以此示范劝勉天下。",
+      "sourceDate": "在位时，未别记年月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v099",
+          "paragraphId": "songshu-v099-p5",
+          "originalRevision": 1,
+          "originalSha256": "b1e0c1fe0a0edf49f708f829ecfb2f7102289b439e5790a17caab878c2f6b99c",
+          "excerpt": "上時務在本業，勸課耕桑，使宮內皆蠶，欲以諷勵天下。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p7",
+          "originalRevision": 1,
+          "originalSha256": "df17b9abf27374893cc8759109949bdc9f1e9c194fd8760a20941bfdaace0b9b",
+          "excerpt": "上時務本業，使宮內皆蠶，欲以諷勵天下。"
+        }
+      ],
+      "notes": [
+        "未记此举月日；严道育通灵等为他人声称，不属此举的已证功效。",
+        "所据传记未记与其他未定经历的先后，不因附列次序定其早晚。"
+      ],
+      "sortOrder": 91,
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain"
+    },
+    {
+      "id": "liu-yilong-song-hong-jilongshan-residence",
+      "title": "为建平王宏建鸡笼山第",
+      "summary": "文帝格外宠爱建平王刘宏，为他在鸡笼山营建府第，尽山水之美。",
+      "sourceDate": "未别记建第年月",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p50",
+          "originalRevision": 1,
+          "originalSha256": "7d42ba67e7deb8b7a1c81030051dda23029d775d168433e8dc516711e3ceb9b0",
+          "excerpt": "建平宣簡王宏字休度，文帝第七子也。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p50",
+          "originalRevision": 1,
+          "originalSha256": "7d42ba67e7deb8b7a1c81030051dda23029d775d168433e8dc516711e3ceb9b0",
+          "excerpt": "文帝寵愛殊常，為立第於雞籠山，盡山水之美。"
+        }
+      ],
+      "notes": [
+        "前叙元嘉二十一年封王不等于明记同年建第。",
+        "所据传记未记与其他未定经历的先后，不因附列次序定其早晚。"
+      ],
+      "sortOrder": 92,
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain"
     }
   ]
 }

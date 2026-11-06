@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—5武帝纪、少帝纪、文帝纪完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—5武帝纪、少帝纪、文帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -18,7 +18,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—2宋本纪上、中完整文本，包括武帝、少帝、文帝、孝武帝与前废帝，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—2宋本纪上、中及卷14宋宗室及诸王下完整文本，保留原页标题、正文与史论，不表示全书已收录。",
       "defaultChapter": "nanshi-v001"
     }
   ],
@@ -46,7 +46,9 @@
       "title": "卷 2 · 武帝中",
       "page": "宋書/卷2",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "fixedRevisionId": 2583201,
       "sourceLocalSubjectsOnly": true,
@@ -61,7 +63,9 @@
       "title": "卷 3 · 武帝下",
       "page": "宋書/卷3",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "fixedRevisionId": 2358186,
       "sourceLocalSubjectsOnly": true,
@@ -76,7 +80,9 @@
       "title": "卷 1 · 宋本纪上第一（武帝、少帝）",
       "page": "南史/卷01",
       "subjects": [
-        "liu-yu-song"
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-yilong-song"
       ],
       "fixedRevisionId": 1561312,
       "sourceLocalSubjectsOnly": true,
@@ -91,7 +97,9 @@
       "title": "卷 4 · 少帝",
       "page": "宋書/卷4",
       "subjects": [
-        "liu-yifu-song"
+        "liu-yifu-song",
+        "liu-yu-song",
+        "liu-yilong-song"
       ],
       "fixedRevisionId": 2309989,
       "sourceLocalSubjectsOnly": true,
@@ -106,7 +114,10 @@
       "title": "卷 5 · 文帝",
       "page": "宋書/卷5",
       "subjects": [
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-shao-song"
       ],
       "fixedRevisionId": 2370105,
       "sourceLocalSubjectsOnly": true,
@@ -121,12 +132,47 @@
       "title": "卷 2 · 宋本纪中第二（文帝、孝武帝、前废帝）",
       "page": "南史/卷02",
       "subjects": [
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-yu-song",
+        "liu-yifu-song",
+        "liu-shao-song"
       ],
       "fixedRevisionId": 1561232,
       "sourceLocalSubjectsOnly": true,
       "minimumCharacters": 12692,
       "minimumBlocks": 294
+    },
+    {
+      "id": "songshu-v099",
+      "bookId": "songshu",
+      "volume": 99,
+      "position": 99,
+      "title": "卷 99 · 二凶（刘劭、刘濬）",
+      "page": "宋書/卷99",
+      "subjects": [
+        "liu-shao-song",
+        "liu-yilong-song"
+      ],
+      "fixedRevisionId": 2293550,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 9816,
+      "minimumBlocks": 52
+    },
+    {
+      "id": "nanshi-v014",
+      "bookId": "nanshi",
+      "volume": 14,
+      "position": 14,
+      "title": "卷 14 · 宋宗室及诸王下",
+      "page": "南史/卷14",
+      "subjects": [
+        "liu-shao-song",
+        "liu-yilong-song"
+      ],
+      "fixedRevisionId": 2577537,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 16025,
+      "minimumBlocks": 142
     }
   ]
 }

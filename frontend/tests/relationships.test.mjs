@@ -158,7 +158,8 @@ test('Shi Junli keeps his documented commanders without an inferred direct Li Ke
 
 test('imperial succession stays distinct from bloodlines and includes the short reign of Zhu Yougui', () => {
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
-  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继', '废黜与奉迎继嗣'].includes(edge.label), edge.id);
+  for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继', '废黜与奉迎继嗣',
+    '弑逆后自立（非禅让）', '孝武讨劭取代（非禅让）'].includes(edge.label), edge.id);
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
     ['li-cunxu', 'li-siyuan'], ['li-siyuan', 'li-conghou'], ['li-conghou', 'li-congke'],
@@ -166,6 +167,10 @@ test('imperial succession stays distinct from bloodlines and includes the short 
     ['guo-wei', 'chai-rong'], ['chai-rong', 'chai-zongxun'],
   ]) assert.ok(successions.some(edge => edge.from === from && edge.to === to), `${from} -> ${to}`);
   assert.equal(personRelationships.some(edge => edge.from === 'li-cunxu' && edge.to === 'li-siyuan' && edge.label === '父子'), false);
+  for (const [from, to, label] of [
+    ['liu-yilong-song', 'liu-shao-song', '弑逆后自立（非禅让）'],
+    ['liu-shao-song', 'liu-jun-song', '孝武讨劭取代（非禅让）'],
+  ]) assert.ok(successions.some(edge => edge.from === from && edge.to === to && edge.label === label), `${from} -> ${to}: disputed replacement stays explicit`);
 });
 
 test('person neighborhoods contain only the selected person and directly documented neighbors', () => {

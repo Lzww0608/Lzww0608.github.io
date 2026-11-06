@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》卷1—5和《南史》卷1—2整理刘裕、刘义符、刘义隆，另收入《五代会要》《十国春秋》的相关追述。史书异文与年代未定之处分别说明。",
+  "sourceNote": "据《宋书》卷1—5、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -37,12 +37,21 @@
     {
       "title": "五代会要·卷三（礼制追述）",
       "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E4%B8%89&oldid=1969548"
+    },
+    {
+      "title": "宋书·二凶（卷99，刘劭、刘濬）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B799&oldid=2293550"
+    },
+    {
+      "title": "南史·宋宗室及诸王下（卷14）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537"
     }
   ],
   "memberIds": [
     "liu-yu-song",
     "liu-yifu-song",
-    "liu-yilong-song"
+    "liu-yilong-song",
+    "liu-shao-song"
   ],
   "people": [
     {
@@ -159,6 +168,67 @@
         "父传封爵作北彭城县公，文帝主传简称彭城县公；《宋书》文帝纪将少帝废黜系于七月中，与少帝纪和《南史》五月乙酉之记分源保存，奉迎与正式即位分别记载。",
         "亲率西征与遣将北伐分别记载；诏令中的自述、符瑞与梦兆、史家褒贬保留各自言说层次。",
         "《宋书》记崩于含章殿，《南史》作合殿；先谥景皇帝、庙中宗，孝武即位后改为文帝、太祖，前后名号不混。"
+      ]
+    },
+    {
+      "id": "liu-shao-song",
+      "name": "刘劭",
+      "dynasty": "刘宋",
+      "role": "刘宋短期篡立者",
+      "sovereignTitle": "皇帝（短期篡立）",
+      "rulerCategory": "contested",
+      "statusNote": "453年组织宫变、即位改元太初，不列为正常帝位交接；同年刘骏起兵入讨，刘劭被擒后遭处刑。",
+      "aliases": "休远",
+      "nameVariants": [
+        "劉劭",
+        "休遠"
+      ],
+      "intro": "刘劭字休远，是文帝刘义隆长子，母为元皇后。元嘉六年被立为皇太子，后与始兴王刘濬参与巫蛊。453年组织宫变，张超之等弑杀文帝，刘劭即位、改元太初。刘骏起兵入讨，刘劭在新亭失利，城破后被擒、遭处刑。",
+      "reign": "453 年（短期篡立）",
+      "reignStart": 453,
+      "reignEnd": 453,
+      "periodLabel": "刘宋 · 453 年短期篡立",
+      "deathYear": 453,
+      "lifespan": "424—426 年间生，453 年卒",
+      "readingStarts": {
+        "songshu": "songshu-v099",
+        "nanshi": "nanshi-v014",
+        "old": "old-v117",
+        "huiyao": "huiyao-v018"
+      },
+      "sources": [
+        {
+          "title": "宋书·二凶（卷99，刘劭、刘濬）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B799&oldid=2293550"
+        },
+        {
+          "title": "南史·宋宗室及诸王下（卷14）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537"
+        },
+        {
+          "title": "宋书·文帝纪（卷5，立储、册妃与冠礼）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷5&oldid=2370105"
+        },
+        {
+          "title": "南史·宋本纪中（卷02）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+        },
+        {
+          "title": "旧五代史·卷117（修史奏议引例）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7117&oldid=512894"
+        },
+        {
+          "title": "五代会要·卷18（修史奏议引例）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%BA%94%E4%BB%A3%E6%9C%83%E8%A6%81%2F%E5%8D%B7%E5%8D%81%E5%85%AB&oldid=2265749"
+        }
+      ],
+      "sourceNotes": [
+        "两传以元凶立传，所述为453年短期篡立，不冒充正常传位或身后追尊。",
+        "实际秘生与元嘉三年闰正月方云劭生、本纪丙戌皇子生分别保存，不将丙戌统一当作实际出生或公示确日。",
+        "两本纪冠礼记元嘉十六年十二月乙亥，已跨西历440年；传记十二岁纳妃、十三岁加元服不据年龄强换年，也不因此编出两次婚姻或冠礼。",
+        "本纪二月甲子、两传二十一夜后明旦与尹弘附记二十一平旦分源保留；五月四日明记被擒，处刑未另记日。",
+        "刘濬（始兴王）、刘骏（武陵王、孝武帝）与刘绍（庐陵王）各用不同身份；诏书自辩、檄文指控及史家褒贬保留言说层次。",
+        "《旧五代史》两处及《五代会要》的相关段落是后世修史引例，并非三份独立的生前记载；各书原有纪年和夹注层次分别保存。"
       ]
     }
   ]
