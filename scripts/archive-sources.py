@@ -1151,6 +1151,11 @@ for _southern_entry_spec in SPECS:
         _southern_entry_spec['subjects'] = list(_SOUTHERN_READING_ENTRY_SUBJECTS[_southern_entry_spec['id']])
         _southern_entry_spec['sourceLocalSubjectsOnly'] = True
 
+# Preserve the source-local marriage identity on repeated archive preparation.
+for _palace_spec in SPECS:
+    if _palace_spec['id'] == 'jiuguozhi-v006':
+        _palace_spec['subjects'] = list(dict.fromkeys([*_palace_spec['subjects'], 'former-shu-wang-zongfan-wife']))
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
