@@ -367,17 +367,6 @@
     "note": "文帝第二皇子始兴王，宋书濬与南史浚同次封王可对应；不是第三子刘骏。"
   },
   {
-    "id": "liu-jun-song",
-    "name": "刘骏",
-    "aliases": [
-      "劉駿",
-      "宋孝武帝"
-    ],
-    "external": true,
-    "group": "刘宋宗室",
-    "note": "文帝第三皇子武陵王，后为孝武帝；不是刘濬。"
-  },
-  {
     "id": "liu-shuo-song",
     "name": "刘铄",
     "aliases": [
@@ -1301,5 +1290,971 @@
     "external": true,
     "group": "刘宋相关",
     "note": "雍州刺史，举兵讨劭；劭曾授丹阳尹，宫破后当面诘问劭。不能把诏授误为已归劭或亲手擒劭。"
+  },
+  {
+    "id": "song-liu-jun-mother-lu",
+    "name": "路淑媛（刘骏生母）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪明确所生路淑媛，孝武即位后尊皇太后；子业继位后，原皇太后进为太皇太后，与王氏所进皇太后分开。未载本名，不把此后皇太后王氏之崩误归路氏。"
+  },
+  {
+    "id": "song-liu-jun-consort-wang",
+    "name": "王氏（刘骏妃、文穆皇后）",
+    "aliases": [
+      "文穆皇后（宋孝武帝后）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪记妃王氏立皇后；子业即位后，旧皇后进为皇太后，随后皇太后崩、文穆皇后祔葬景宁陵。卷14母系表明文穆生子业、子尚，称号据此连续相接；不补本名。"
+  },
+  {
+    "id": "liu-xiuyou-song",
+    "name": "刘休祐",
+    "aliases": [
+      "劉休祐",
+      "刘休佑",
+      "劉休佑"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休祐；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-xiumao-song",
+    "name": "刘休茂",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休茂；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-xiuye-song",
+    "name": "刘休业",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休业；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-xiuqian-song",
+    "name": "刘休倩",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休倩；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-yifu-xinye-song",
+    "name": "刘夷父",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的夷父；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-xiufan-song",
+    "name": "刘休范",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休范；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-xiuruo-song",
+    "name": "刘休若",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》文帝十九子名录中的休若；与刘骏同父，所记生母不同。"
+  },
+  {
+    "id": "liu-zishang-song",
+    "name": "刘子尚",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子尚；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zixun-song",
+    "name": "刘子勋",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子勋；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zisui-song",
+    "name": "刘子绥",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子绥；该表另记出继，生父关系不因此消失。"
+  },
+  {
+    "id": "liu-zishen-song",
+    "name": "刘子深",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子深；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zifang-song",
+    "name": "刘子房",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子房；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zixu-song",
+    "name": "刘子顼",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子顼；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziluan-song",
+    "name": "刘子鸾",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子鸾；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziren-song",
+    "name": "刘子仁",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子仁；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zifeng-song",
+    "name": "刘子凤",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子凤；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zizhen-song",
+    "name": "刘子真",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子真；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zixuan-song",
+    "name": "刘子玄",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子玄；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziyuan-song",
+    "name": "刘子元",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子元；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziyu-song",
+    "name": "刘子羽",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子羽；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziheng-song",
+    "name": "刘子衡",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子衡；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zimeng-song",
+    "name": "刘子孟",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子孟；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zikuang-song",
+    "name": "刘子况",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子况；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zichan-song",
+    "name": "刘子产",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子产；该表另记出继，生父关系不因此消失。"
+  },
+  {
+    "id": "liu-ziyun-song",
+    "name": "刘子云",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子云；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziwen-song",
+    "name": "刘子文",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子文；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziyu-luling-song",
+    "name": "刘子舆",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子舆；该表另记出继，生父关系不因此消失。"
+  },
+  {
+    "id": "liu-zishi-song",
+    "name": "刘子师",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子师；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zixiao-song",
+    "name": "刘子霄",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子霄；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziyong-song",
+    "name": "刘子雍",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子雍；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziqu-song",
+    "name": "刘子趋",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子趋；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-ziqi-song",
+    "name": "刘子期",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子期；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "liu-zisi-song",
+    "name": "刘子嗣",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武之子，东平王；《宋书》卷6称第十七皇子，《南史》卷14称第二十七子，两说分别保留，不拆为两人。"
+  },
+  {
+    "id": "liu-ziyue-song",
+    "name": "刘子悦",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武二十八子名录中的子悦；不据同生推作双胎，不补生母本名。"
+  },
+  {
+    "id": "song-source-xiaowu-mother-chen-shuyuan",
+    "name": "陈淑媛（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的陈淑媛条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-ruan-ronghua",
+    "name": "阮容华（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的阮容华条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-xu-zhaorong",
+    "name": "徐昭容（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的徐昭容条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-he-shuyi",
+    "name": "何淑仪（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的何淑仪条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-shi-zhaohua",
+    "name": "史昭华（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的史昭华条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-liu-jun-consort-yin",
+    "name": "殷贵妃（孝武诸子母系表）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》母系表称殷贵妃，子鸾传称其母殷淑仪，因同为子鸾之母而相接；不补本名。"
+  },
+  {
+    "id": "song-source-xiaowu-mother-he-jieyu",
+    "name": "何婕妤（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的何婕妤条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-xie-zhaorong",
+    "name": "谢昭容（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的谢昭容条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-jiang-jieyu",
+    "name": "江婕妤（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的江婕妤条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-shi-zhaoyi",
+    "name": "史昭仪（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的史昭仪条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-jiang-meiren",
+    "name": "江美人（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的江美人条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-yang-jieyu",
+    "name": "杨婕妤（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的杨婕妤条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-xiaowu-mother-zhang-ronghua",
+    "name": "张容华（孝武诸子母系表来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》诸子母系表的张容华条目；与其他同姓、异宫职条目同异未定，不据宫职不同增加自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "wang-sengda-song",
+    "name": "王僧达",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yuan-huzhi-song",
+    "name": "垣护之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "shen-tian-song",
+    "name": "申恬",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "zhu-xiuzhi-song",
+    "name": "朱脩之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wang-tansheng-song",
+    "name": "王昙生",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "lu-shuang-song",
+    "name": "鲁爽",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-xiuzhi-song",
+    "name": "刘秀之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "xu-yibao-song",
+    "name": "徐遗宝",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-hui-yixuan-song",
+    "name": "恢（义宣世子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "tuyuhun-shiyin",
+    "name": "吐谷浑拾寅",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-kai-yixuan-song",
+    "name": "恺（义宣次子）",
+    "aliases": [
+      "愷（義宣次子）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "le-xun-song",
+    "name": "乐询",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "zong-que-song",
+    "name": "宗悫",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yuan-hong-song",
+    "name": "垣闳",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "fei-shen-song",
+    "name": "费沈",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "xiahou-zuhuan-song",
+    "name": "夏侯祖欢",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "ming-yin-song",
+    "name": "明胤",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-yansun-song",
+    "name": "刘延孙",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liang-tan-song",
+    "name": "梁坦",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yin-huaishun-song",
+    "name": "尹怀顺",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-zunkao-song",
+    "name": "刘遵考",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yang-wenzhi-song",
+    "name": "杨文智",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "shen-tan-song",
+    "name": "申坦",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "gu-jizhi-song",
+    "name": "顾觊之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wang-yan-song",
+    "name": "王偃",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "dao-yuandu-song",
+    "name": "到元度",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "xiao-jingxian-song",
+    "name": "萧景宪",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wang-yizhi-song",
+    "name": "王翼之",
+    "aliases": [
+      "王翼"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。王翼、王翼之同人有本卷校勘相接。"
+  },
+  {
+    "id": "liu-yu-yizhou-song",
+    "name": "刘瑀",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "fei-yan-song",
+    "name": "费淹",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wang-kun-song",
+    "name": "王琨",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "zhang-yue-song",
+    "name": "张悦",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "kong-lingfu-song",
+    "name": "孔灵符",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "shen-tanqing-song",
+    "name": "沈昙庆",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liang-jincong-dangchang",
+    "name": "梁瑾葱",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yan-jun-song",
+    "name": "颜竣",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yu-qing-baekje",
+    "name": "余庆（百济王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yang-xuanbao-song",
+    "name": "羊玄保",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yan-shibo-song",
+    "name": "颜师伯",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "du-shuwen-song",
+    "name": "杜叔文",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yuan-lang-song",
+    "name": "垣阆",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "shen-sengrong-song",
+    "name": "沈僧荣",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-daolong-song",
+    "name": "刘道隆",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "fu-zhongzi-song",
+    "name": "苻仲子",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "yu-shenzhi-song",
+    "name": "庾深之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "juqu-anzhou-hexi",
+    "name": "大沮渠安周",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-shuren-song",
+    "name": "柳叔仁",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "fei-jingxu-song",
+    "name": "费景绪",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liang-tangzi-dangchang",
+    "name": "梁唐子",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "fei-bohong-song",
+    "name": "费伯弘",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wa-xing",
+    "name": "兴（倭王世子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "tan-yizhi-song",
+    "name": "檀翼之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "wang-senglang-song",
+    "name": "王僧朗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-yuanhu-song",
+    "name": "柳元怙",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-deyuan-song",
+    "name": "刘德愿",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "gao-lian-goguryeo",
+    "name": "高琏（高丽王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "liu-boqin-song",
+    "name": "伯禽（义恭世子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "xiao-huikai-song",
+    "name": "萧惠开",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "dai-mingbao-song",
+    "name": "戴明宝",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》孝武本纪或《南史》相关段所记受任者。"
+  },
+  {
+    "id": "zhang-chang-song",
+    "name": "张畅",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝武镇彭城时的长史，受遣与魏使李孝伯交谈。"
+  },
+  {
+    "id": "liu-xin-nanfeng-song",
+    "name": "歆（刘祗子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪记前太子步兵校尉刘祗之子歆继南丰王朗；未补本名以外的身份。"
+  },
+  {
+    "id": "liu-lang-nanfeng-song",
+    "name": "朗（南丰王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪所记由刘祗子歆继嗣的南丰王朗。"
+  },
+  {
+    "id": "liu-zhi-song",
+    "name": "刘祗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "前太子步兵校尉，歆之父；未据此推其与刘骏具体亲等。"
+  },
+  {
+    "id": "liu-zan-wuling-song",
+    "name": "刘赞",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "字仲敷，小字智随，明帝第九子；明帝诏命出继已故孝武奉为子，不是孝武生前收养。"
+  },
+  {
+    "id": "liu-shihong-song",
+    "name": "刘士弘",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》称休祐子士弘继休业，《南史》称山阳王休佑次子士弘；由同名同封嗣次相接，不补生母。"
+  },
+  {
+    "id": "huan-wen-jin",
+    "name": "桓温",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "原文明确所祭的已故桓温；此处只登记孝武朝致祭，不补生前私人交往。"
+  },
+  {
+    "id": "mao-qu-jin",
+    "name": "毛璩",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "原文明确所祭的已故毛璩；此处只登记孝武朝致祭，不补生前私人交往。"
+  },
+  {
+    "id": "yuan-yi-song",
+    "name": "袁顗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "侍中，孝武与群臣观高祖旧室时极赞高祖俭德，孝武有田舍公之语。"
+  },
+  {
+    "id": "song-liu-ziye-consort-he",
+    "name": "何氏（刘子业太子妃）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "孝建三年立皇太子妃何氏，大明五年闰月薨；不与孝武母系表两何氏宫职相合。"
   }
 ]

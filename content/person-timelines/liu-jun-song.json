@@ -1,0 +1,3842 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "liu-jun-song",
+  "events": [
+    {
+      "id": "liu-jun-song-birth",
+      "title": "出生于元嘉七年",
+      "summary": "生于元嘉七年八月庚午。两书均列为文帝第三子，《南史》另载夜生有光照室，保存其叙法。",
+      "year": 430,
+      "precision": "day",
+      "phase": "early",
+      "sortOrder": 1,
+      "sourceDate": "元嘉七年秋八月庚午",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "元嘉七年秋八月庚午生。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p169",
+          "originalRevision": 1,
+          "originalSha256": "3cda683c90a176174979572a80a41020ab8ca35699309fe629a4776268afe6e4",
+          "excerpt": "元嘉七年八月庚午夜生，有光照室。"
+        }
+      ],
+      "notes": [
+        "八月庚午仅适用于出生；南史“夜生/有光”是该书附叙，不据此改生日或证实祥异。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-wuling-prince",
+      "title": "封武陵王",
+      "summary": "文帝本纪记元嘉十三年九月癸丑封皇子骏为武陵王；孝武主传另记十二年，封年差异分源保留。",
+      "year": 436,
+      "precision": "day",
+      "phase": "early",
+      "sortOrder": 1,
+      "sourceDate": "元嘉十三年九月癸丑；主传另记十二年",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "十二年，立為武陵王，食邑二千戶。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "十二年，立為武陵王，"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p99",
+          "originalRevision": 1,
+          "originalSha256": "21b7de5895dcddfe0a3d8cde8e8ea0005b385bfd53acec1b44c0ce2d21653ce4",
+          "excerpt": "元嘉十三年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p100",
+          "originalRevision": 1,
+          "originalSha256": "1017a9270b8bb646754ce12f9bc36e44c9872d19321fbbf5e38a9814785bd17a",
+          "excerpt": "十三年春正月癸丑，上有疾，不朝會。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p106",
+          "originalRevision": 1,
+          "originalSha256": "9d6866295cab44d672ce9c9140ff02927bf6e30546c4d61c0dcbe711653debde",
+          "excerpt": "九月癸丑，立第二皇子濬為始興王，第三皇子駿為武陵王。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p62",
+          "originalRevision": 1,
+          "originalSha256": "d8a05d270f28e5dad17ec444daa5996274e6bc40828da10637d822aad8289565",
+          "excerpt": "十三年春正月癸丑朔，上有疾，不朝會。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p65",
+          "originalRevision": 1,
+          "originalSha256": "791a81cc39a627a67d6ccd7062d1efa2e26a3366ee539fb759ad06a2972a8eda",
+          "excerpt": "秋七月己未，零陵王太妃殂，追崇為晉皇后，葬以晉禮。九月癸丑，立皇子浚為始興王、駿為武陵王。"
+        }
+      ],
+      "notes": [
+        "主事日期据文帝本纪十三年九月癸丑；主传封年异说另列。"
+      ],
+      "variants": [
+        {
+          "label": "孝武主传作十二年",
+          "sourceDate": "元嘉十二年（西历435—436年间）",
+          "summary": "两书孝武主传均作十二年；文帝本纪作十三年九月癸丑。两套记载分源，不拼接主传年与本纪月日。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p1",
+              "originalRevision": 1,
+              "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+              "excerpt": "十二年，立為武陵王，食邑二千戶。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p170",
+              "originalRevision": 1,
+              "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+              "excerpt": "十二年，立為武陵王，"
+            },
+            {
+              "chapterId": "songshu-v005",
+              "paragraphId": "songshu-v005-p99",
+              "originalRevision": 1,
+              "originalSha256": "21b7de5895dcddfe0a3d8cde8e8ea0005b385bfd53acec1b44c0ce2d21653ce4",
+              "excerpt": "元嘉十三年"
+            },
+            {
+              "chapterId": "songshu-v005",
+              "paragraphId": "songshu-v005-p100",
+              "originalRevision": 1,
+              "originalSha256": "1017a9270b8bb646754ce12f9bc36e44c9872d19321fbbf5e38a9814785bd17a",
+              "excerpt": "十三年春正月癸丑，上有疾，不朝會。"
+            },
+            {
+              "chapterId": "songshu-v005",
+              "paragraphId": "songshu-v005-p106",
+              "originalRevision": 1,
+              "originalSha256": "9d6866295cab44d672ce9c9140ff02927bf6e30546c4d61c0dcbe711653debde",
+              "excerpt": "九月癸丑，立第二皇子濬為始興王，第三皇子駿為武陵王。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p62",
+              "originalRevision": 1,
+              "originalSha256": "d8a05d270f28e5dad17ec444daa5996274e6bc40828da10637d822aad8289565",
+              "excerpt": "十三年春正月癸丑朔，上有疾，不朝會。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p65",
+              "originalRevision": 1,
+              "originalSha256": "791a81cc39a627a67d6ccd7062d1efa2e26a3366ee539fb759ad06a2972a8eda",
+              "excerpt": "秋七月己未，零陵王太妃殂，追崇為晉皇后，葬以晉禮。九月癸丑，立皇子浚為始興王、駿為武陵王。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-yongzhou-xiangyang",
+      "title": "授雍州刺史镇襄阳",
+      "summary": "任雍州刺史，镇襄阳。《南史》将其与文帝经略关河的计划相联系。",
+      "year": 445,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "元嘉二十二年正月壬辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "明年，徙都督雍梁南北秦四州荊州之襄陽竟陵南陽順陽新野隨六郡諸軍事、[1]寧蠻校尉、雍州刺史，持節、將軍如故。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "二十二年，累遷雍州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p180",
+          "originalRevision": 1,
+          "originalSha256": "47aca744addd5d5ab15e6f2c497ae0d9c1f21301b3eb9d31bd2243622c38687c",
+          "excerpt": "二十二年春正月辛卯朔，改用御史中丞何承天元嘉新曆。壬辰，撫軍將軍、南豫州刺史武陵王駿改為雍州刺史，湘州刺史南平王鑠為南豫州刺史。"
+        }
+      ],
+      "notes": [
+        "正月壬辰为文帝本纪所记雍州刺史任命日；镇襄阳的启程和抵达未另记日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-xuzhou-pengcheng",
+      "title": "改镇徐州彭城",
+      "summary": "任安北将军、徐州刺史，镇彭城。",
+      "year": 448,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "元嘉二十五年四月乙卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十五年，改授都督南兗徐兗青冀幽六州豫州之梁郡諸軍事、安北將軍、徐州刺史，持節如故，北鎮彭城。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p210",
+          "originalRevision": 1,
+          "originalSha256": "7607601b064adefafedcc122a7683f090b876a00d824a3e7a4e97a8c91fffe5f",
+          "excerpt": "二十五年春正月戊辰，詔曰：「比者冰雪經旬，薪粒貴踊，貧弊之室，多有窘罄。可檢行京邑二縣及營署，賜以柴米。」"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p214",
+          "originalRevision": 1,
+          "originalSha256": "53e75d956b3b672778c46a4ecf6a9b22a45b798f084b65d6b99c41a75f2a42d6",
+          "excerpt": "夏四月乙巳，新作閶闔、廣莫二門，改先廣莫門曰承明，開陽曰津陽。乙卯，以撫軍將軍、雍州刺史武陵王駿為安北將軍、徐州刺史。癸亥，以右衞將軍蕭思話為雍州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p216",
+          "originalRevision": 1,
+          "originalSha256": "afc8ac50729e4179d7fb2dd330588a6899a570cbb74c02bd630db1b35876e843",
+          "excerpt": "六月庚戌，零陵王司馬元瑜薨。庚申，安北將軍、徐州刺史武陵王駿加兗州刺史。丙寅，車騎將軍、荊州刺史南譙王義宣進位司空。"
+        }
+      ],
+      "notes": [
+        "四月乙卯仅适用于安北将军/徐州刺史任命；北镇彭城未另记出发/到任日，兼兖另有六月庚申。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-add-yanzhou",
+      "title": "加任兖州刺史",
+      "summary": "在徐州刺史任上又加兖州刺史。",
+      "year": 448,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 2,
+      "sourceDate": "元嘉二十五年六月庚申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十五年，改授都督南兗徐兗青冀幽六州豫州之梁郡諸軍事、安北將軍、徐州刺史，持節如故，北鎮彭城。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p210",
+          "originalRevision": 1,
+          "originalSha256": "7607601b064adefafedcc122a7683f090b876a00d824a3e7a4e97a8c91fffe5f",
+          "excerpt": "二十五年春正月戊辰，詔曰：「比者冰雪經旬，薪粒貴踊，貧弊之室，多有窘罄。可檢行京邑二縣及營署，賜以柴米。」"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p214",
+          "originalRevision": 1,
+          "originalSha256": "53e75d956b3b672778c46a4ecf6a9b22a45b798f084b65d6b99c41a75f2a42d6",
+          "excerpt": "夏四月乙巳，新作閶闔、廣莫二門，改先廣莫門曰承明，開陽曰津陽。乙卯，以撫軍將軍、雍州刺史武陵王駿為安北將軍、徐州刺史。癸亥，以右衞將軍蕭思話為雍州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p216",
+          "originalRevision": 1,
+          "originalSha256": "afc8ac50729e4179d7fb2dd330588a6899a570cbb74c02bd630db1b35876e843",
+          "excerpt": "六月庚戌，零陵王司馬元瑜薨。庚申，安北將軍、徐州刺史武陵王駿加兗州刺史。丙寅，車騎將軍、荊州刺史南譙王義宣進位司空。"
+        }
+      ],
+      "notes": [
+        "四月乙卯仅适用于安北将军/徐州刺史任命；北镇彭城未另记出发/到任日，兼兖另有六月庚申。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-ruyang-demotion",
+      "title": "因汝阳失利降镇军将军",
+      "summary": "因汝阳战败，降号镇军将军。",
+      "year": 450,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "元嘉二十七年四月壬子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十七年，坐汝陽戰敗，降號鎮軍將軍。又以索虜南侵，降為北中郎將。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p228",
+          "originalRevision": 1,
+          "originalSha256": "98e79c33e8ed99753e6b1bdf8a893a1a8626c612ec8b5d2dd3875cdce079cabc",
+          "excerpt": "元嘉二十七年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p232",
+          "originalRevision": 1,
+          "originalSha256": "949b08fbdab0656cc61af705ebc35b5bd7e1753653e80e755979d34a485ee84c",
+          "excerpt": "夏四月壬子，安北將軍、徐兗二州刺史武陵王駿降號鎮軍將軍。[36]"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p240",
+          "originalRevision": 1,
+          "originalSha256": "ac65d97876bcbc0342c2c23ee55ae975e6058bbb1bd375d0732a31fd70251ff6",
+          "excerpt": "二月丙辰，索虜自盱眙奔走。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p240",
+          "originalRevision": 1,
+          "originalSha256": "ac65d97876bcbc0342c2c23ee55ae975e6058bbb1bd375d0732a31fd70251ff6",
+          "excerpt": "辛巳，鎮軍將軍、徐兗二州刺史武陵王駿降號北中郎將。"
+        }
+      ],
+      "notes": [
+        "汝阳战败降镇军与因索虏南侵再降北中郎不能合成一次；前者元嘉27四月，后者28二月。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-demote-north-commander",
+      "title": "再降北中郎将",
+      "summary": "魏军南侵后，再降其号为北中郎将；与此前汝阳失利的降号不同。",
+      "year": 451,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "元嘉二十八年二月辛巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十七年，坐汝陽戰敗，降號鎮軍將軍。又以索虜南侵，降為北中郎將。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p228",
+          "originalRevision": 1,
+          "originalSha256": "98e79c33e8ed99753e6b1bdf8a893a1a8626c612ec8b5d2dd3875cdce079cabc",
+          "excerpt": "元嘉二十七年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p232",
+          "originalRevision": 1,
+          "originalSha256": "949b08fbdab0656cc61af705ebc35b5bd7e1753653e80e755979d34a485ee84c",
+          "excerpt": "夏四月壬子，安北將軍、徐兗二州刺史武陵王駿降號鎮軍將軍。[36]"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p240",
+          "originalRevision": 1,
+          "originalSha256": "ac65d97876bcbc0342c2c23ee55ae975e6058bbb1bd375d0732a31fd70251ff6",
+          "excerpt": "二月丙辰，索虜自盱眙奔走。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p240",
+          "originalRevision": 1,
+          "originalSha256": "ac65d97876bcbc0342c2c23ee55ae975e6058bbb1bd375d0732a31fd70251ff6",
+          "excerpt": "辛巳，鎮軍將軍、徐兗二州刺史武陵王駿降號北中郎將。"
+        }
+      ],
+      "notes": [
+        "汝阳战败降镇军与因索虏南侵再降北中郎不能合成一次；前者元嘉27四月，后者28二月。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-nanyan-office",
+      "title": "授南兖州刺史",
+      "summary": "增督南兖州军事，并任南兖州刺史，原定镇山阳。",
+      "year": 451,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 2,
+      "sourceDate": "元嘉二十八年三月戊申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十八年，進督南兗州、南兗州刺史，當鎮山陽。尋遷都督江州荊州之江夏豫州之西陽晉熙新蔡四郡諸軍事、南中郎將、江州刺史，持節如故。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p241",
+          "originalRevision": 1,
+          "originalSha256": "e2a451e101984abe98aa482c0947fea6076afbe581ce6a9f9d389e960bc07f6f",
+          "excerpt": "三月乙酉，車駕還宮。壬辰，征北將軍始興王濬解南兗州。庚子，以輔國將軍臧質為雍州刺史。戊申，徐州刺史武陵王駿為南兗州刺史。甲寅，護軍將軍蕭思話為撫軍將軍、徐兗二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p244",
+          "originalRevision": 1,
+          "originalSha256": "24e7e21f0cad01b4313dcee856462b71ea86180cc1e4eb5c05fafdcd0cce560d",
+          "excerpt": "六月壬戌，以北中郎將武陵王駿為江州刺史，以振武將軍、秦郡太守劉興祖為青、冀二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p262",
+          "originalRevision": 1,
+          "originalSha256": "397319212c120bcbb342bd25b4f83000aa3668a7aedee849e1573e06c85142c0",
+          "excerpt": "三十年春正月戊寅，以司空、荊州刺史南譙王義宣為司徒、中軍將軍、揚州刺史。以南兗州并南徐州。庚辰，以領軍將軍劉遵考為平西將軍、豫州刺史。壬午，以征北將軍、南徐州刺史始興王濬為衛將軍、荊州刺史。戊子，江州刺史武陵王駿統眾軍伐西陽蠻。癸巳，以豫州刺史南平王鑠為撫軍將軍、領軍將軍。"
+        }
+      ],
+      "notes": [
+        "此任命在元嘉二十八年三月；六月改任江州刺史另有日次。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-jiangzhou-command",
+      "title": "改任江州刺史",
+      "summary": "改任江州刺史；文帝遣沈庆之等讨沿江蛮，命刘骏总统诸军，征讨具体执行者不改写为皇子本人。",
+      "year": 451,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 3,
+      "sourceDate": "元嘉二十八年六月壬戌",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十八年，進督南兗州、南兗州刺史，當鎮山陽。尋遷都督江州荊州之江夏豫州之西陽晉熙新蔡四郡諸軍事、南中郎將、江州刺史，持節如故。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p241",
+          "originalRevision": 1,
+          "originalSha256": "e2a451e101984abe98aa482c0947fea6076afbe581ce6a9f9d389e960bc07f6f",
+          "excerpt": "三月乙酉，車駕還宮。壬辰，征北將軍始興王濬解南兗州。庚子，以輔國將軍臧質為雍州刺史。戊申，徐州刺史武陵王駿為南兗州刺史。甲寅，護軍將軍蕭思話為撫軍將軍、徐兗二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p244",
+          "originalRevision": 1,
+          "originalSha256": "24e7e21f0cad01b4313dcee856462b71ea86180cc1e4eb5c05fafdcd0cce560d",
+          "excerpt": "六月壬戌，以北中郎將武陵王駿為江州刺史，以振武將軍、秦郡太守劉興祖為青、冀二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p262",
+          "originalRevision": 1,
+          "originalSha256": "397319212c120bcbb342bd25b4f83000aa3668a7aedee849e1573e06c85142c0",
+          "excerpt": "三十年春正月戊寅，以司空、荊州刺史南譙王義宣為司徒、中軍將軍、揚州刺史。以南兗州并南徐州。庚辰，以領軍將軍劉遵考為平西將軍、豫州刺史。壬午，以征北將軍、南徐州刺史始興王濬為衛將軍、荊州刺史。戊子，江州刺史武陵王駿統眾軍伐西陽蠻。癸巳，以豫州刺史南平王鑠為撫軍將軍、領軍將軍。"
+        }
+      ],
+      "notes": [
+        "六月壬戌明确属江州刺史任命；总统沿江诸军未另明日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-wuzhou-camp",
+      "title": "出次西阳五洲",
+      "summary": "正月出军驻扎西阳五洲；获悉刘劭弑逆后率众入讨是后续叙事，不移作正月发生弑逆。",
+      "year": 453,
+      "precision": "month",
+      "phase": "service",
+      "sortOrder": 1,
+      "sourceDate": "元嘉三十年正月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "三十年正月，上出次西陽之五洲。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p262",
+          "originalRevision": 1,
+          "originalSha256": "397319212c120bcbb342bd25b4f83000aa3668a7aedee849e1573e06c85142c0",
+          "excerpt": "三十年春正月戊寅，以司空、荊州刺史南譙王義宣為司徒、中軍將軍、揚州刺史。以南兗州并南徐州。庚辰，以領軍將軍劉遵考為平西將軍、豫州刺史。壬午，以征北將軍、南徐州刺史始興王濬為衛將軍、荊州刺史。戊子，江州刺史武陵王駿統眾軍伐西陽蠻。癸巳，以豫州刺史南平王鑠為撫軍將軍、領軍將軍。"
+        }
+      ],
+      "notes": [
+        "出次五洲只记正月；文帝本纪另记戊子统军伐西阳，未说明两事同日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-command-xiyang-force",
+      "title": "统诸军伐西阳蛮",
+      "summary": "文帝本纪记江州刺史武陵王骏统诸军征伐西阳蛮。",
+      "year": 453,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 2,
+      "sourceDate": "元嘉三十年正月戊子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十八年，進督南兗州、南兗州刺史，當鎮山陽。尋遷都督江州荊州之江夏豫州之西陽晉熙新蔡四郡諸軍事、南中郎將、江州刺史，持節如故。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p241",
+          "originalRevision": 1,
+          "originalSha256": "e2a451e101984abe98aa482c0947fea6076afbe581ce6a9f9d389e960bc07f6f",
+          "excerpt": "三月乙酉，車駕還宮。壬辰，征北將軍始興王濬解南兗州。庚子，以輔國將軍臧質為雍州刺史。戊申，徐州刺史武陵王駿為南兗州刺史。甲寅，護軍將軍蕭思話為撫軍將軍、徐兗二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p244",
+          "originalRevision": 1,
+          "originalSha256": "24e7e21f0cad01b4313dcee856462b71ea86180cc1e4eb5c05fafdcd0cce560d",
+          "excerpt": "六月壬戌，以北中郎將武陵王駿為江州刺史，以振武將軍、秦郡太守劉興祖為青、冀二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p262",
+          "originalRevision": 1,
+          "originalSha256": "397319212c120bcbb342bd25b4f83000aa3668a7aedee849e1573e06c85142c0",
+          "excerpt": "三十年春正月戊寅，以司空、荊州刺史南譙王義宣為司徒、中軍將軍、揚州刺史。以南兗州并南徐州。庚辰，以領軍將軍劉遵考為平西將軍、豫州刺史。壬午，以征北將軍、南徐州刺史始興王濬為衛將軍、荊州刺史。戊子，江州刺史武陵王駿統眾軍伐西陽蠻。癸巳，以豫州刺史南平王鑠為撫軍將軍、領軍將軍。"
+        }
+      ],
+      "notes": [
+        "戊子所系是统军征伐的行动；出次五洲另只记正月，两者不合定为同一日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-march-against-shao",
+      "title": "率众讨劭并进至新亭",
+      "summary": "获悉刘劭弑逆后率众入讨，荆、雍响应；四月先后驻溧洲、江宁，抵新亭，前锋战斗的执行将领分别记载。",
+      "year": 453,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 3,
+      "sourceDate": "元嘉三十年弑逆后至四月戊辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "上率眾入討，荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "三十年正月，上出次西陽之五洲。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "戊辰，上至于新亭。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "三十年正月，上出次西陽之五洲。會元凶弒逆，以上為征南將軍，加散騎常侍。上率眾入討，荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。四月辛酉，上次溧洲。癸亥，冠軍將軍柳元景前鋒至新亭，修建營壘。甲子，賊劭親率眾攻元景，大敗退走。丙寅，上次江寧。丁卯，大將軍江夏王義恭來奔，奉表上尊號。戊辰，上至于新亭。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p171",
+          "originalRevision": 1,
+          "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+          "excerpt": "三十年正月，出次西陽之五洲，會元凶弑逆，上率眾入討。荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。"
+        }
+      ],
+      "notes": [
+        "获悉弑逆后入讨不明独立月日；四月行程各有日，荆雍响应和前锋战果不都归本人亲征同日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-raise-banner",
+      "title": "于军门建牙",
+      "summary": "在军门建牙。传载老人指挥仪式及风向、紫云等异象，保为书中叙述。",
+      "year": 453,
+      "precision": "day",
+      "phase": "service",
+      "sortOrder": 4,
+      "sourceDate": "元嘉三十年三月乙未",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p172",
+          "originalRevision": 1,
+          "originalSha256": "f49972cbcac05602d320f37b3142bbe8e8c80c16a699225b84415d7a4eab1402",
+          "excerpt": "三月乙未，建牙於軍門。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p171",
+          "originalRevision": 1,
+          "originalSha256": "135f2f037b97004d6b7c87f51d201a520c12412361638ee1b02644e261cd9c86",
+          "excerpt": "三十年正月，出次西陽之五洲，會元凶弑逆，上率眾入討。荊州刺史南譙王義宣、雍州刺史臧質並舉義兵。"
+        }
+      ],
+      "notes": [
+        "三月乙未建牙；白发翁/风变/紫云只保南史叙事层，不作为额外历法证据。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-accession",
+      "title": "即皇帝位",
+      "summary": "在新亭即皇帝位，大赦，并改文帝庙号、谥号。此时刘劭尚据京城，不能写成刘劭主动禅让。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "元嘉三十年四月己巳",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p173",
+          "originalRevision": 1,
+          "originalSha256": "2ca215736a49a619a0fdb9524661c21bb5303b3eda9b1c027229fc5e7e50525c",
+          "excerpt": "四月辛酉，上次溧洲。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p5",
+          "originalRevision": 1,
+          "originalSha256": "bc25b1fb32ae854f7597e52de272a713e920b698ded4aece2d9778f325250060",
+          "excerpt": "己巳，即皇帝位。大赦天下，"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "adbdabb2e526b7826a6c81f115e877d316bf7bc081e8058b56fd30b52a220345",
+          "excerpt": "四月辛酉，上次溧洲。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p173",
+          "originalRevision": 1,
+          "originalSha256": "2ca215736a49a619a0fdb9524661c21bb5303b3eda9b1c027229fc5e7e50525c",
+          "excerpt": "四月辛酉，上次溧洲。丙寅，次江寧。丁卯，大將軍江夏王義恭來奔，奉表上尊號。戊辰，上至新亭。己巳，即皇帝位，大赦，改文帝號諡。以大將軍江夏王義恭為太尉、南徐州刺史。庚午，以荊州刺史南譙王義宣為中書監、丞相、揚州刺史，並錄尚書六條事。以安東將軍隨王誕為衛將軍、荊州刺史。加雍州刺史臧質車騎將軍、江州刺史，並開府儀同三司。撫軍將軍蕭思話為尚書左僕射。壬申，以征虜將軍王僧達為右僕射。改新亭為中興亭。"
+        }
+      ],
+      "notes": [
+        "四月己巳即帝位；先于五月京邑平定，非刘劭禅让。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-capture-capital",
+      "title": "军队克定京邑",
+      "summary": "军队克定京邑，刘劭、刘濬及同逆者伏诛。本纪先列申坦克京口、朱脩之克东府；擒获、押送和处刑的具体过程不合成同刻。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 6,
+      "sourceDate": "元嘉三十年五月丙子（两书正文）",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "五月甲戌，輔國將軍申坦克京城。乙亥，輔國將軍朱脩之克東府。丙子，克定京邑。[2]劭及始興王濬諸同逆並伏誅。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "五月甲戌，輔國將軍申坦克京城。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p174",
+          "originalRevision": 1,
+          "originalSha256": "e99a63f907ec884170b9ceb30305c6780e8945c14f2e873cc60eb516e29fd093",
+          "excerpt": "丙子，克建鄴，二凶及同逆並伏誅。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p148",
+          "originalRevision": 1,
+          "originalSha256": "acdeee3c7be20856f41411787d8c47da140cfb03913e0d5a6758c16458591abb",
+          "excerpt": "↑ 丙子克定京邑　「丙子」各本及南史作「丙申」。建康實錄作「丙子」。按是月癸酉朔，初二日甲戌，初三日乙亥，初四日丙子，二十四日丙申。據上文，初二日甲戌克京口城，初三日乙亥克東府，克定京師，當在初四日丙子。元凶傳，四日建康破，則作丙子是。今據建康實錄改。"
+        }
+      ],
+      "notes": [
+        "甲戌克京口、乙亥克东府，丙子克定京邑。劭、濬伏诛接在平城之后，处刑各步骤未独记同刻。"
+      ],
+      "variants": [
+        {
+          "label": "校勘引丙申",
+          "sourceDate": "元嘉三十年五月丙申（校勘所引异文）",
+          "summary": "《宋书》校勘称各本及所引《南史》作丙申；今所据《宋书》《南史》正文均作丙子。正文与校勘所引异文分别保存。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p6",
+              "originalRevision": 1,
+              "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+              "excerpt": "五月甲戌，輔國將軍申坦克京城。乙亥，輔國將軍朱脩之克東府。丙子，克定京邑。[2]劭及始興王濬諸同逆並伏誅。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p3",
+              "originalRevision": 1,
+              "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+              "excerpt": "元嘉三十年"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p6",
+              "originalRevision": 1,
+              "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+              "excerpt": "五月甲戌，輔國將軍申坦克京城。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p174",
+              "originalRevision": 1,
+              "originalSha256": "e99a63f907ec884170b9ceb30305c6780e8945c14f2e873cc60eb516e29fd093",
+              "excerpt": "丙子，克建鄴，二凶及同逆並伏誅。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p148",
+              "originalRevision": 1,
+              "originalSha256": "acdeee3c7be20856f41411787d8c47da140cfb03913e0d5a6758c16458591abb",
+              "excerpt": "↑ 丙子克定京邑　「丙子」各本及南史作「丙申」。建康實錄作「丙子」。按是月癸酉朔，初二日甲戌，初三日乙亥，初四日丙子，二十四日丙申。據上文，初二日甲戌克京口城，初三日乙亥克東府，克定京師，當在初四日丙子。元凶傳，四日建康破，則作丙子是。今據建康實錄改。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-honor-mother",
+      "title": "尊生母路氏为皇太后",
+      "summary": "尊生母路淑媛为皇太后。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 7,
+      "sourceDate": "元嘉三十年五月甲申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "甲申，尊所生路淑媛為皇太后。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "五月甲戌，輔國將軍申坦克京城。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p174",
+          "originalRevision": 1,
+          "originalSha256": "e99a63f907ec884170b9ceb30305c6780e8945c14f2e873cc60eb516e29fd093",
+          "excerpt": "甲申，尊所生路淑媛為皇太后。"
+        }
+      ],
+      "notes": [
+        "五月甲申为生前尊所生母路淑媛，非立后日、非身后追尊。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-install-empress",
+      "title": "立王氏为皇后",
+      "summary": "立原王妃王氏为皇后。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 8,
+      "sourceDate": "元嘉三十年五月乙酉",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "乙酉，立妃王氏為皇后。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p3",
+          "originalRevision": 1,
+          "originalSha256": "7599b3d64aa7b30455829145ae13e273399b0509d7cb1b18cad5cf3b3f3db011",
+          "excerpt": "元嘉三十年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p6",
+          "originalRevision": 1,
+          "originalSha256": "a05c293d4b5868fc14fc3c8a54485462ba237b81029a9ea37e36fd7483d3b02c",
+          "excerpt": "五月甲戌，輔國將軍申坦克京城。"
+        }
+      ],
+      "notes": [
+        "五月乙酉为立现有王妃为后，不倒填初婚年月。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-send-local-inspectors",
+      "title": "遣乐询等巡察风俗",
+      "summary": "派乐询等十五人巡行风俗，并在同月免寻阳、西阳二郡租布三年；巡使与免租各有原书记日。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 9,
+      "sourceDate": "元嘉三十年闰六月丙子；免租甲申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p7",
+          "originalRevision": 1,
+          "originalSha256": "88e2112609a667854180becbe869006f75a3ef63c928b4d772fe524586eb799f",
+          "excerpt": "六月壬寅，以驃騎參軍垣護之為冀州刺史。甲辰，以山陽太守申恬為青州刺史。丙午，車駕還宮。初置殿門及上閤屯兵。以江夏內史朱脩之為平西將軍、雍州刺史，御史中丞王曇生為廣州刺史。戊申，以新除雍州刺史柳元景為護軍將軍。己酉，以司州刺史魯爽為豫州刺史。[3]庚戌，以梁、南秦二州刺史劉秀之為益州刺史，太尉司馬龐秀之為梁、南秦二州刺史，衞軍司馬徐遺寶為兗州刺史，寧朔將軍王玄謨為徐州刺史，衞將軍隨王誕進號驃騎大將軍。尚書右僕射王僧達遷職，丹陽尹褚湛之為尚書右僕射。丙辰，以侍中南譙王世子恢為湘州刺史。丁巳，[4]詔曰︰「興王立訓，務弘治節，輔臣佐時，勤獻政要，仰惟聖規，每存茲道。猥以眇躬，屬承景業，闡揚遺澤，無廢厥心。夫量入為出，邦有恒典，而經給之宜，多違常度。兵役糜耗，府藏散減，外內眾供，未加損約，非所以聿遵先旨，敬奉遺圖。自今諸可薄己厚民、去煩從簡者，悉宜施行，以稱朕意。」庚申，詔有司論功班賞各有差。辛酉，安西將軍、西秦河二州刺史吐谷渾拾寅進號鎮西大將軍、開府儀同三司。庚午，還分南徐立南兗州。辛未，改封南譙王義宣為南郡王，隨王誕為竟陵王，義宣次子宜陽侯愷為宜陽縣王。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p8",
+          "originalRevision": 1,
+          "originalSha256": "524a74d554548eb4a326dd3b6ce6bb85773656578f493f243249cd9544427407",
+          "excerpt": "閏月壬申，以領軍將軍沈慶之為鎮軍將軍、南兗州刺史。癸酉，以護軍將軍柳元景為領軍將軍。丙子，遣兼散騎常侍樂詢等十五人巡行風俗。甲申，蠲尋陽、西陽郡租布三年。甲午，丞相南郡王義宣改為荊、湘二州刺史，驃騎大將軍、荊州刺史竟陵王誕改為揚州刺史，南蠻校尉王僧達為護軍將軍。是月，置衞尉官。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p175",
+          "originalRevision": 1,
+          "originalSha256": "7e0fd2d8f07c7f45900ce06ba395776cc868c9179b06fcd247e491a783471835",
+          "excerpt": "六月丙午，車駕還宮。初置殿門及上合門屯兵。庚午，以丹陽尹褚湛之為尚書右僕射。庚申，詔有司論功班賞各有差。辛酉，安西將軍、西秦河二州刺史吐谷渾拾寅進號鎮西大將軍、開府儀同三司。辛未，改封南譙王義宣為南郡王，隨王誕為竟陵王。閏月丙子，遣兼散騎常侍樂詢等十五人巡行風俗。庚申，加太傅江夏王義恭錄尚書事，以荊州刺史竟陵王誕為侍中、驃騎大將軍、開府儀同三司、揚州刺史。甲申，蠲尋陽、西陽郡租布三年。是月，置衛尉官。"
+        }
+      ],
+      "notes": [
+        "事件确日只适用于派遣巡使；甲申免租另日，不移到丙子。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-restrain-luxury",
+      "title": "下诏节用并禁贵戚争利",
+      "summary": "命停止非军国所需工程，裁细作并入尚方，禁不实用的雕饰，减供御奢侈，并要求商议放宽公家江海田池专有、禁止贵戚竞利。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 10,
+      "sourceDate": "元嘉三十年七月辛酉",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "e480418f48757f9d1184e33e348f3443dbb1b26c9f10e35007f00f9718a23b7b",
+          "excerpt": "秋七月辛丑朔，日有蝕之。甲寅，詔曰︰「世道未夷，惟憂在國。夫使羣善畢舉，固非一才所議，況以寡德，屬衰薄之期，夙宵寅想，永懷待旦。王公卿士，凡有嘉謀善政，可以維風訓俗，咸達乃誠，無或依隱。」辛酉，詔曰：「百姓勞弊，傜賦尚繁，言念未乂，宜崇約損。凡用非軍國，宜悉停功。可省細作并尚方，雕文靡巧，金銀塗飾，事不關實，嚴為之禁。供御服膳，減除遊侈。水陸捕採，各順時月。官私交市，務令優衷。其江海田池公家規固者，詳所開弛。貴戚競利，悉皆禁絕。」戊戌，[5]以右衞將軍宗慤為廣州刺史。己巳，司空南平王鑠薨。八月辛未，武皇帝舊役軍身，嘗在齋內，人身猶存者，普賜解戶。乙亥，尚書左僕射建平王宏加中書監、中軍將軍。丁亥，以沛郡太守垣閎為寧州刺史，撫軍司馬費沈為梁、南秦二州刺史。甲午，護軍將軍王僧達遷職。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p176",
+          "originalRevision": 1,
+          "originalSha256": "52f14b36ebd97ce5026b8cf26cd1f10682e48c3205183e9ef18ebf955eb16c75",
+          "excerpt": "秋七月辛丑朔，日有蝕之。辛酉，詔崇儉約，禁淫侈。己巳，司空南平王鑠薨，以侍中南郡王世子恢為尚書右僕射。"
+        }
+      ],
+      "notes": [
+        "保存诏令所要求的政策，不据颁诏断言各项均已执行完成。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-hear-litigation-yuewu",
+      "title": "在阅武堂听讼",
+      "summary": "亲在阅武堂听理诉讼。",
+      "year": 453,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 11,
+      "sourceDate": "元嘉三十年十月癸未",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p11",
+          "originalRevision": 1,
+          "originalSha256": "4c946706cb17595de069db8a3fbc20ed08d10069734afa04b85eef3bbbf23da5",
+          "excerpt": "冬十月癸未，車駕於閱武堂聽訟。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p177",
+          "originalRevision": 1,
+          "originalSha256": "89c8df65b83c9c5098440a689f3b244271ea70b85cc5666f531e9b3540a8f45f",
+          "excerpt": "冬十月癸未，聽訟于閱武堂。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-reduce-east-palace-offices",
+      "title": "裁减拟置东宫的官额",
+      "summary": "因将设置东宫，裁撤率更令等官，并将中庶子、中舍人、庶子、舍人和洗马的员额减半。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "元嘉三十年十二月癸未",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p13",
+          "originalRevision": 1,
+          "originalSha256": "cf2b5012a34364675cd47b101223dc4ef6ede444f4871d22194d8b7104dd4821",
+          "excerpt": "十二月甲戌，省都水臺，罷都水使者官，置水衡令官。癸未，以將置東宮，省太子率更令、步兵、翊軍校尉、旅賁中郎將、宂從僕射、左右積弩將軍官。中庶子、中舍人、庶子、舍人、洗馬，各減舊員之半。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p179",
+          "originalRevision": 1,
+          "originalSha256": "ffbf62e41037f7ba39e3d7d43af915c902c1a3336c42121860062b8dcd503384",
+          "excerpt": "十二月甲戌，省都水使者官，置水衡令官。癸未，以將置東宮，省太子率更令、步兵、翊軍校尉、旅賁中郎將、冗從僕射、左右積弩將軍官。中庶子、中舍人、庶子、舍人、洗馬各減舊員之半。"
+        }
+      ],
+      "notes": [
+        "同段甲戌的都水与水衡改置另日；不借此说明太子已在这一日册立。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-xiaojian-era",
+      "title": "改元孝建",
+      "summary": "正月己亥朔南郊祭祀，大赦，改元孝建。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "孝建元年正月己亥朔",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "4440533f1a8601b2608b698b9b37717991342167b85afd30bae5ca8c54aaea70",
+          "excerpt": "孝建元年春正月己亥朔，車駕親祠南郊，改元，大赦天下。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        }
+      ],
+      "notes": [
+        "正月己亥朔亲祀南郊/改元/赦，非前一年即位日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-four-zhu-coins",
+      "title": "更铸四铢钱",
+      "summary": "命重新铸造四铢钱。后续钱署、私铸及流通问题保留各处记载，不由颁令断言钱制无弊。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "孝建元年正月壬戌",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "4440533f1a8601b2608b698b9b37717991342167b85afd30bae5ca8c54aaea70",
+          "excerpt": "壬戌，更鑄四銖錢。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "4440533f1a8601b2608b698b9b37717991342167b85afd30bae5ca8c54aaea70",
+          "excerpt": "孝建元年春正月己亥朔，車駕親祠南郊，改元，大赦天下。"
+        }
+      ],
+      "notes": [
+        "正月壬戌更铸，不能以正月朔代之，不附币制成效。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-ziye-heir",
+      "title": "立子业为皇太子",
+      "summary": "立皇子刘子业为皇太子，赐天下为父后者爵一级。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "孝建元年正月丙寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "4440533f1a8601b2608b698b9b37717991342167b85afd30bae5ca8c54aaea70",
+          "excerpt": "丙寅，立皇子子業為皇太子。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "4440533f1a8601b2608b698b9b37717991342167b85afd30bae5ca8c54aaea70",
+          "excerpt": "孝建元年春正月己亥朔，車駕親祠南郊，改元，大赦天下。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p180",
+          "originalRevision": 1,
+          "originalSha256": "8b5e32ad8545920de9e48eebf2efd300dbd21047c4698081080e832ff80a1000",
+          "excerpt": "丙寅，立皇子子業為皇太子，"
+        }
+      ],
+      "notes": [
+        "正月丙寅立子业，不把子业分传概述再造前一年立储。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-yixuan-rebellion",
+      "title": "义宣等起兵反叛",
+      "summary": "鲁爽、臧质、刘义宣、徐遗宝起兵反叛，朝廷随后调军应对；不将后续诸战都系起兵之日。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "孝建元年二月庚午",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p16",
+          "originalRevision": 1,
+          "originalSha256": "031526e6d4bd3cd651c6c1eb3ee39899b4994d193fe6e380545d15426e673de6",
+          "excerpt": "二月庚午，豫州刺史魯爽、車騎將軍江州刺史臧質、丞相荊州刺史南郡王義宣、兗州刺史徐遺寶舉兵反。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p36",
+          "originalRevision": 1,
+          "originalSha256": "4ec87f22f771188f11b2a56d9572328b61972bf99d1ed6542d5861ca50ba5967",
+          "excerpt": "明年義宣反，有荊、江、兗、豫四州之力，勢震天下。上即位日淺，朝野大懼。上欲奉乘輿法物以迎義宣，誕固執不可，曰：「奈何持此座與人。」帝加誕節，仗士五十人出入六門。上流平定，誕之力也。誕初討元凶，豫同舉兵，有奔牛之捷，至是又有殊勳。上性多猜，頗相疑憚。而誕造立第舍，窮極工巧，園池之美，冠于一時。多聚材力之士實之。第內精甲利器，莫非上品。上意愈不平。"
+        }
+      ],
+      "notes": [
+        "按本纪二月庚午领起四人举兵反的记录；不是四月至六月平叛各战的共同日。",
+        "《南史》宗室传记帝曾欲奉乘舆法物迎义宣，被刘诞坚拒；是拟议而止，不是实际让位。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-lushuang-defeat",
+      "title": "沈庆之破斩鲁爽",
+      "summary": "沈庆之在历阳小岘击败并斩鲁爽，属于朝廷平叛战果，不是刘骏亲手斩杀。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 6,
+      "sourceDate": "孝建元年四月丙戌",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "沈慶之大破魯爽於歷陽之小峴，斬爽。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "庚寅，義宣於江陵賜死。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。甲申，以平西將軍、雍州刺史朱脩之為安西將軍、荊州刺史。丙戌，鎮軍將軍、南兗州刺史沈慶之大破魯爽於歷陽之小峴，斬爽。癸巳，進慶之號鎮北大將軍。封第十六皇弟休倩為東平王。未拜，薨。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。己未，解嚴。癸亥，以吳興太守劉延孫為尚書右僕射。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。甲戌，撫軍將軍柳元景進號撫軍大將軍，鎮北大將軍沈慶之並開府儀同三司。丙子，以征西將軍武昌王渾為雍州刺史。癸未，分揚州立東揚州。分荊、湘、江、豫州立郢州。罷南蠻校尉。戊子，省錄尚書事。庚寅，義宣於江陵賜死。"
+        }
+      ],
+      "notes": [
+        "四月至六月一连串战果与处死应拆；六月庚寅只义宣江陵赐死，不适用于鲁爽、梁山或臧质。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-liangshan-victory",
+      "title": "王玄谟破义宣梁山军",
+      "summary": "义宣等进攻梁山，被王玄谟击败；与鲁爽及臧质各自的结局分开。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 7,
+      "sourceDate": "孝建元年五月甲寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "沈慶之大破魯爽於歷陽之小峴，斬爽。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "庚寅，義宣於江陵賜死。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。甲申，以平西將軍、雍州刺史朱脩之為安西將軍、荊州刺史。丙戌，鎮軍將軍、南兗州刺史沈慶之大破魯爽於歷陽之小峴，斬爽。癸巳，進慶之號鎮北大將軍。封第十六皇弟休倩為東平王。未拜，薨。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。己未，解嚴。癸亥，以吳興太守劉延孫為尚書右僕射。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。甲戌，撫軍將軍柳元景進號撫軍大將軍，鎮北大將軍沈慶之並開府儀同三司。丙子，以征西將軍武昌王渾為雍州刺史。癸未，分揚州立東揚州。分荊、湘、江、豫州立郢州。罷南蠻校尉。戊子，省錄尚書事。庚寅，義宣於江陵賜死。"
+        }
+      ],
+      "notes": [
+        "四月至六月一连串战果与处死应拆；六月庚寅只义宣江陵赐死，不适用于鲁爽、梁山或臧质。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-zangzhi-killed",
+      "title": "臧质逃至武昌被斩",
+      "summary": "臧质逃到武昌，为人所斩，传首建康；本纪未在此明确斩杀者姓名。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 8,
+      "sourceDate": "孝建元年六月戊辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "沈慶之大破魯爽於歷陽之小峴，斬爽。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "庚寅，義宣於江陵賜死。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。甲申，以平西將軍、雍州刺史朱脩之為安西將軍、荊州刺史。丙戌，鎮軍將軍、南兗州刺史沈慶之大破魯爽於歷陽之小峴，斬爽。癸巳，進慶之號鎮北大將軍。封第十六皇弟休倩為東平王。未拜，薨。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。己未，解嚴。癸亥，以吳興太守劉延孫為尚書右僕射。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。甲戌，撫軍將軍柳元景進號撫軍大將軍，鎮北大將軍沈慶之並開府儀同三司。丙子，以征西將軍武昌王渾為雍州刺史。癸未，分揚州立東揚州。分荊、湘、江、豫州立郢州。罷南蠻校尉。戊子，省錄尚書事。庚寅，義宣於江陵賜死。"
+        }
+      ],
+      "notes": [
+        "四月至六月一连串战果与处死应拆；六月庚寅只义宣江陵赐死，不适用于鲁爽、梁山或臧质。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-east-yang-yingzhou",
+      "title": "分置东扬州与郢州",
+      "summary": "分置东扬州、郢州，并撤南蛮校尉；具体辖郡依本纪所列。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 9,
+      "sourceDate": "孝建元年六月癸未",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "癸未，分揚州立東揚州。分荊、湘、江、豫州立郢州。罷南蠻校尉。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。"
+        }
+      ],
+      "notes": [
+        "六月癸未条叙分东扬州、郢州及罢南蛮校尉；是制度命令叙次，不声称当日完成所有地方实施。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-yixuan-defeat",
+      "title": "刘义宣在江陵赐死",
+      "summary": "平叛后刘义宣在江陵被赐死，不将此日挪作前述各战共同日。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 10,
+      "sourceDate": "孝建元年六月庚寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "沈慶之大破魯爽於歷陽之小峴，斬爽。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "庚寅，義宣於江陵賜死。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p18",
+          "originalRevision": 1,
+          "originalSha256": "50354ed6e10ad9fe2d12caf40da812332eabd64165daf10bea63e4c4b70a88e0",
+          "excerpt": "夏四月戊辰，以後將軍劉義綦為湘州刺史。甲申，以平西將軍、雍州刺史朱脩之為安西將軍、荊州刺史。丙戌，鎮軍將軍、南兗州刺史沈慶之大破魯爽於歷陽之小峴，斬爽。癸巳，進慶之號鎮北大將軍。封第十六皇弟休倩為東平王。未拜，薨。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p19",
+          "originalRevision": 1,
+          "originalSha256": "ee8f2b23b6ff3ac11f76520a8f31c8a46fa5f9688d0b4bd30e3c53a3b68e3c6b",
+          "excerpt": "五月甲寅，義宣等攻梁山，王玄謨大破之。己未，解嚴。癸亥，以吳興太守劉延孫為尚書右僕射。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p20",
+          "originalRevision": 1,
+          "originalSha256": "c78e593a5d80cdd469fc66e7e5f3010c517cdcbc6e9b3ab1315e6881c64c91fe",
+          "excerpt": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。甲戌，撫軍將軍柳元景進號撫軍大將軍，鎮北大將軍沈慶之並開府儀同三司。丙子，以征西將軍武昌王渾為雍州刺史。癸未，分揚州立東揚州。分荊、湘、江、豫州立郢州。罷南蠻校尉。戊子，省錄尚書事。庚寅，義宣於江陵賜死。"
+        }
+      ],
+      "notes": [
+        "四月至六月一连串战果与处死应拆；六月庚寅只义宣江陵赐死，不适用于鲁爽、梁山或臧质。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-confucius-temple",
+      "title": "诏建孔子庙",
+      "summary": "下诏兴建孔子庙，礼制同诸侯，选择高敞干燥处，并厚给祭祀所需。",
+      "year": 454,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 11,
+      "sourceDate": "孝建元年十月戊寅",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p186",
+          "originalRevision": 1,
+          "originalSha256": "f84401b299285a75e56ea9015d09bd9ba9a7df9facf94e42b65f240d0739ce8f",
+          "excerpt": "冬十月戊寅，詔開建仲尼廟，制同諸侯之禮，詳擇爽塏，厚給祭秩。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p24",
+          "originalRevision": 1,
+          "originalSha256": "0bdb9aeed1c6a2ba4fdbb639224c70d0c1a27bcc462a0af080c4241eaa23c97c",
+          "excerpt": "冬十月戊寅，詔曰：「仲尼體天降德，維周興漢，經緯三極，冠冕百王。爰自前代，咸加褒述。典司失人，用闕宗祀。先朝遠存遺範，有詔繕立，世故妨道，事未克就。國難頻深，忠勇奮厲，實憑聖義，大教所敦。永惟兼懷，無忘待旦。可開建廟制，同諸侯之禮。詳擇爽塏，厚給祭秩。」丁亥，以祕書監東海王褘為撫軍將軍、江州刺史。於郢州立安陸郡。"
+        }
+      ],
+      "notes": [
+        "十月戊寅下诏建庙与择地供祭，不等于该日庙宇竣工。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-open-imperial-parks",
+      "title": "诏开放苑禁供贫民经营",
+      "summary": "诏称苑禁范围过广、有妨生业，命详细商议开放、放宽限制，借给贫民使用。",
+      "year": 455,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "孝建二年八月丙子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p35",
+          "originalRevision": 1,
+          "originalSha256": "99c256fdf05e9fe80b7b6066b46c19d0ab2be20b7df930c6ced018a4fb4d2fe6",
+          "excerpt": "丙子，詔曰：「諸苑禁制綿遠，有妨肄業。[9]可詳所開弛，假與貧民。」"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p27",
+          "originalRevision": 1,
+          "originalSha256": "77a3b429f85e9d4451748bc13cfb855b84bcae82d90f96a169519e20ff89c46d",
+          "excerpt": "孝建二年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p35",
+          "originalRevision": 1,
+          "originalSha256": "99c256fdf05e9fe80b7b6066b46c19d0ab2be20b7df930c6ced018a4fb4d2fe6",
+          "excerpt": "八月庚申，雍州刺史武昌王渾有罪，廢為庶人，自殺。"
+        }
+      ],
+      "notes": [
+        "丙子为开放苑禁的诏日；前句癸酉赈贷三吴饥民另有日期。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-recall-exiles",
+      "title": "准即位前流放者还本",
+      "summary": "下诏准许在其受命以前因罪流放者返回原籍；有关受罪家庭的在世子弟，依才任用为吏。",
+      "year": 455,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "孝建二年九月庚戌",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p36",
+          "originalRevision": 1,
+          "originalSha256": "510d551bd7031cf242fbe121f894176ebf8bcdad88c6c09b71394ea0ffb488b7",
+          "excerpt": "九月丁亥，[10]車駕於宣武場閱武。庚戌，詔曰：「國道再屯，艱虞畢集。朕雖寡德，終膺鴻慶。惟新之祉，實深百王；而惠宥之令，未殊常渥。永言勤慮，寤寐載懷。在朕受命之前，凡以罪徙放，悉聽還本。犯釁之門，尚有存者，子弟可隨才署吏。」"
+        }
+      ],
+      "notes": [
+        "前句阅武的丁亥记日有校勘疑，不用来替代本诏庚戌。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-regular-audiences",
+      "title": "定朔望西堂接见群臣",
+      "summary": "规定每月朔望在西堂接见群臣，接受奏事。",
+      "year": 456,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "孝建三年二月丁丑",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p42",
+          "originalRevision": 1,
+          "originalSha256": "31ff1a17963e1f60c43371d0a3b719923c82b39f5b8631fa320762d909b184c8",
+          "excerpt": "丁丑，始制朔望臨西堂接羣下，受奏事。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p40",
+          "originalRevision": 1,
+          "originalSha256": "d28efcb69ace4886ab5ce4c9b1c6d20fbb8013a1ed62d8356729f1c662b54716",
+          "excerpt": "孝建三年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p42",
+          "originalRevision": 1,
+          "originalSha256": "31ff1a17963e1f60c43371d0a3b719923c82b39f5b8631fa320762d909b184c8",
+          "excerpt": "二月癸亥，右光祿大夫王偃卒。"
+        }
+      ],
+      "notes": [
+        "二月丁丑制定朔望西堂接见，不表示每次实际接见均在这个日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-horse-service-exemption",
+      "title": "七州养马户免一丁",
+      "summary": "规定荆、徐、兖、豫、雍、青、冀七州辖境，家有马一匹者免除一丁赋役。",
+      "year": 456,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "孝建三年五月辛酉",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p45",
+          "originalRevision": 1,
+          "originalSha256": "c37bb327e0e321b465f0f0000ecb176d825a04c5c95b65f04ca6b522d34dee0b",
+          "excerpt": "夏五月辛酉，制荊、徐、兗、豫、雍、青、冀七州統內，家有馬一匹者，蠲復一丁。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p40",
+          "originalRevision": 1,
+          "originalSha256": "d28efcb69ace4886ab5ce4c9b1c6d20fbb8013a1ed62d8356729f1c662b54716",
+          "excerpt": "孝建三年"
+        }
+      ],
+      "notes": [
+        "五月辛酉七州养马家免复一丁，不等于全国各户全免。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-daming-era",
+      "title": "改元大明",
+      "summary": "南郊祭祀，大赦，改元大明。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明元年正月辛亥朔",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p54",
+          "originalRevision": 1,
+          "originalSha256": "fee36495fdc246500adc640040f10f98bfdb1ad079d7d9ed4f19f17bff7ebe9e",
+          "excerpt": "大明元年春正月辛亥朔，改元，大赦天下。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p53",
+          "originalRevision": 1,
+          "originalSha256": "bf8f8551055374166afed0b8f1b05b3cc2cd4fc077dcc23b54a90acf379794d0",
+          "excerpt": "大明元年"
+        }
+      ],
+      "notes": [
+        "大明元年正月辛亥朔改元，不与孝建改元混同。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-restore-local-official-land",
+      "title": "恢复亲民官职公田",
+      "summary": "恢复直接治理百姓的官职所配公田。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明元年二月己亥",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p55",
+          "originalRevision": 1,
+          "originalSha256": "57e5911aa1f25f95ecbd4b5f80f3cd86b8076a8d658fa07c3e09d771a329b48e",
+          "excerpt": "二月己亥，復親民職公田。索虜寇兗州。"
+        }
+      ],
+      "notes": [
+        "与翌年复郡县田秩、九亲禄俸及后来的减禄、复禄分别登记。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-epidemic-relief",
+      "title": "遣使给医药并收葬无主死者",
+      "summary": "因都邑疫疠，命使者慰问并给医药，对死亡而无收葬者酌加赡恤。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明元年四月丙申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p57",
+          "originalRevision": 1,
+          "originalSha256": "513698a4d9c7b1ea3e0297ab62b5e5e41712096fc50380a54792c9cc1adb2778",
+          "excerpt": "夏四月，京邑疾疫，丙申，遣使按行，賜給醫藥。死而無收斂者，官為斂埋。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p53",
+          "originalRevision": 1,
+          "originalSha256": "bf8f8551055374166afed0b8f1b05b3cc2cd4fc077dcc23b54a90acf379794d0",
+          "excerpt": "大明元年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p57",
+          "originalRevision": 1,
+          "originalSha256": "513698a4d9c7b1ea3e0297ab62b5e5e41712096fc50380a54792c9cc1adb2778",
+          "excerpt": "夏四月，京邑疾疫，丙申，遣使按行，賜給醫藥。"
+        }
+      ],
+      "notes": [
+        "四月丙申是派使巡视、赐医药及命官收殓的措施，不表示所有病亡/收葬均该日完成。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-flood-relief-wuxing-yixing",
+      "title": "遣使赈济吴兴义兴水灾",
+      "summary": "吴兴、义兴大水、百姓饥荒，下令派使者开仓赈恤。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明元年五月乙卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p58",
+          "originalRevision": 1,
+          "originalSha256": "4ec34f42776abccd4d556c696aa8d03f3d829d46f301b6a494ae48654fd71de1",
+          "excerpt": "五月，吳興、義興大水，民饑。乙卯，遣使開倉賑卹。癸酉，於華林園聽訟。乙亥，以左衞將軍沈曇慶為徐州刺史，輔國將軍梁瑾葱為河州刺史、宕昌王。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-yongzhou-registration",
+      "title": "土断雍州侨郡县",
+      "summary": "对雍州侨郡县实行土断，以当地户籍整顿侨置行政；不用其他时期的制度细节填补本诏。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "大明元年七月辛未",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p60",
+          "originalRevision": 1,
+          "originalSha256": "65b864a36c62dd627fc3ab293cb93c2502cb43c91a505fdafab42a5fc14e74d1",
+          "excerpt": "秋七月辛未，土斷雍州諸僑郡縣。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p53",
+          "originalRevision": 1,
+          "originalSha256": "bf8f8551055374166afed0b8f1b05b3cc2cd4fc077dcc23b54a90acf379794d0",
+          "excerpt": "大明元年"
+        }
+      ],
+      "notes": [
+        "七月辛未土断命令，不据本纪一句断言全部户籍实践成效。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-allow-personal-petitions",
+      "title": "准官民亲自申奏冤抑",
+      "summary": "下诏准百官众吏及平民贱役中有志未达、失理负谤而未闻朝听者，自行申奏，称将在听政日亲自接见察看。",
+      "year": 457,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 6,
+      "sourceDate": "大明元年十月丙申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p62",
+          "originalRevision": 1,
+          "originalSha256": "ecebbd3edf3f77e20d12ee86581333f903ae3159749b6e181e3b76df8c1a1def",
+          "excerpt": "冬十月丙申，詔曰：「旒纊之道，有孚於結繩，日昃之勤，已切於姬后。況世弊教淺，歲月澆季。朕雖勠力宇內，未明求衣，而識狹前王，務廣昔代，永言菲德，其愧良深。朝咨野怨，自達者寡，惠民利公，所昧實眾。自今百辟庶尹，下民賤隸，有懷誠抱志，擁鬱衡閭，失理負謗，未聞朝聽者，皆聽躬自申奏，小大以聞。朕因聽政之日，親對覽焉。」甲辰，以百濟王餘慶為鎮東大將軍。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-lend-grain-and-seed",
+      "title": "贷给受水灾地区粮种",
+      "summary": "因上一年东部多遭水灾，命在春耕时及时贷给所需粮食和种子。",
+      "year": 458,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明二年正月壬子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p65",
+          "originalRevision": 1,
+          "originalSha256": "eddf19d969d54e846b72b60ac4875524c560f6fb6448d33f8382ca2173918440",
+          "excerpt": "二年春正月辛亥，車駕祀南郊。壬子，詔曰：「去歲東土多經水災。春務已及，宜加優課。糧種所須，以時貸給。」丙辰，復郡縣田秩，并九親祿俸。壬戌，詔曰：「先帝靈命初興，龍飛西楚，歲紀浸遠，感往纏心。奉迎文武，情深常隸，思弘殊澤，以申永懷。吏身可賜爵一級，軍戶免為平民。」"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-restore-land-and-kin-salaries",
+      "title": "恢复郡县田秩及九亲禄俸",
+      "summary": "恢复郡县田秩和九亲的禄俸。",
+      "year": 458,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明二年正月丙辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p65",
+          "originalRevision": 1,
+          "originalSha256": "eddf19d969d54e846b72b60ac4875524c560f6fb6448d33f8382ca2173918440",
+          "excerpt": "二年春正月辛亥，車駕祀南郊。壬子，詔曰：「去歲東土多經水災。春務已及，宜加優課。糧種所須，以時貸給。」丙辰，復郡縣田秩，并九親祿俸。壬戌，詔曰：「先帝靈命初興，龍飛西楚，歲紀浸遠，感往纏心。奉迎文武，情深常隸，思弘殊澤，以申永懷。吏身可賜爵一級，軍戶免為平民。」"
+        }
+      ],
+      "notes": [
+        "壬子贷粮种、壬戌优恤奉迎先帝者是同段不同日，不能合成一日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-regulate-burial-assistance",
+      "title": "命定贫弱者赙赠条品",
+      "summary": "诏称贫弱者生缺衣裳、死无棺木，命守宰存恤，并迅速制定赙赠的条目等级。",
+      "year": 458,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明二年二月丙子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p66",
+          "originalRevision": 1,
+          "originalSha256": "d7c2973c9e4b916d71e6cbeb19e30ab9876ed7f09ce98eae33fb014dc1e0210e",
+          "excerpt": "二月丙子，詔曰：「政道未著，俗弊尚深，豪侈兼并，貧弱困窘，存闕衣裳，沒無斂槥，朕甚傷之。其明敕守宰，勤加存卹。賻贈之科，速為條品。」乙酉，以金紫光祿大夫褚湛之為尚書左僕射。丙戌，中書監、尚書令、衞將軍建平王宏以本號開府儀同三司，中書監如故。丁酉，驃騎將軍柳元景以本號開府儀同三司。甲辰，散騎常侍義陽王昶為中軍將軍。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-stop-official-cattle-killing",
+      "title": "农忙时太官停杀牛",
+      "summary": "因正值农事要紧月份，令太官停止宰牛。",
+      "year": 458,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明二年三月乙卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p67",
+          "originalRevision": 1,
+          "originalSha256": "6a632eb13ab20a3c3fe8b5a69b7f57f64720108de9c4dc9959c6a22626514920",
+          "excerpt": "三月丁未，中書監、尚書令、衞將軍建平王宏薨。乙卯，以田農要月，太官停殺牛。丁卯，上於華林園聽訟。癸酉，以寧朔將軍劉季之為司州刺史。"
+        }
+      ],
+      "notes": [
+        "原文所限是太官，不扩大为全国永久禁宰。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-adjust-regional-tribute",
+      "title": "诏贡赋采捕顺应物产时令",
+      "summary": "诏令各地区贡赋及山泽采捕应辨明本地物产、顺应时令，纠正临时军需征调久成为常例的弊病。",
+      "year": 459,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明二年闰十二月庚子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p76",
+          "originalRevision": 1,
+          "originalSha256": "edf57cfa5b271821e6114e73a7599a49a974171f2f6d184be2a3ce71e65113ce",
+          "excerpt": "十二月己亥，諸王及妃主庶姓位從公者，喪事聽設凶門，餘悉斷。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p77",
+          "originalRevision": 1,
+          "originalSha256": "7b2d8acfdebd1ccbc85ce37580ccdcc3e6b3a4e71507673aab3ac8028ef54a20",
+          "excerpt": "閏月庚子，詔曰：「夫山處巖居，不以魚鼈為禮。頃歲多虞，軍調繁切，違方設賦，本濟一時，而主者玩習，遂為常典。杶檊瑤琨，任土作貢，積羽羣輕，終致深弊。永言弘革，無替朕心。凡寰衞貢職，山淵採捕，皆當詳辨產殖，考順歲時，勿使牽課虛懸，睽忤氣序。庶簡約之風，有孚於品性；惠敏之訓，無漏於幽仄。」庚申，上於華林園聽訟。壬戌，林邑國遣使獻方物。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-establish-royal-domain",
+      "title": "划扬州六郡为王畿",
+      "summary": "以原扬州所统六郡为王畿，将东扬州改名扬州；拟设司隶校尉因刘劭已设过而作罢。",
+      "year": 459,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明三年二月乙卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p81",
+          "originalRevision": 1,
+          "originalSha256": "f18cb5fa907a5252f73b8400860c58059a9e9624d6218495ff37eb03af4ef3eb",
+          "excerpt": "二月乙卯，以揚州所統六郡為王畿。以東揚州為揚州。[16]時欲立司隸校尉，以元凶已立乃止。撫軍將軍、揚州刺史西陽王子尚徙為揚州刺史。甲子，復置廷尉監官。"
+        }
+      ],
+      "notes": [
+        "甲子恢复廷尉监另日；拟设后作罢不能写成已实际增置司隶。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-guangling-campaign",
+      "title": "命沈庆之讨诞并御六师出顿",
+      "summary": "刘诞被贬爵、拒绝受命并据广陵后，命沈庆之征讨；刘骏亲御六师出顿宣武堂，前线攻城由沈庆之等进行。",
+      "year": 459,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明三年四月乙卯、甲子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p83",
+          "originalRevision": 1,
+          "originalSha256": "5fe30d6c4f43abba0598954c4a8cc4b347e6a0fa0032c4483114837e789f3384",
+          "excerpt": "乙卯，司空、南兗州刺史竟陵王誕有罪，貶爵。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p79",
+          "originalRevision": 1,
+          "originalSha256": "b1a74772869be9025c027817094dee4d49168f44b87f9f9e8d5bc3b0aedd6648",
+          "excerpt": "大明三年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p83",
+          "originalRevision": 1,
+          "originalSha256": "5fe30d6c4f43abba0598954c4a8cc4b347e6a0fa0032c4483114837e789f3384",
+          "excerpt": "夏四月癸卯，上於華林園聽訟。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p83",
+          "originalRevision": 1,
+          "originalSha256": "5fe30d6c4f43abba0598954c4a8cc4b347e6a0fa0032c4483114837e789f3384",
+          "excerpt": "以始興公沈慶之為車騎大將軍、開府儀同三司、南兗州刺史討誕。甲子，上親御六師，車駕出頓宣武堂。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p83",
+          "originalRevision": 1,
+          "originalSha256": "5fe30d6c4f43abba0598954c4a8cc4b347e6a0fa0032c4483114837e789f3384",
+          "excerpt": "夏四月癸卯，上於華林園聽訟。丙午，以建寧太守苻仲子為寧州刺史。乙卯，司空、南兗州刺史竟陵王誕有罪，貶爵。誕不受命，據廣陵城反，殺兗州刺史垣閬。以始興公沈慶之為車騎大將軍、開府儀同三司、南兗州刺史討誕。甲子，上親御六師，車駕出頓宣武堂。司州刺史劉季之反叛，徐州刺史劉道隆討斬之。"
+        }
+      ],
+      "notes": [
+        "甲子确指本人御六师出顿宣武堂；乙卯确指刘诞贬爵。拒命反叛/任沈讨在两日之间叙次，未另记日，保四月范围较稳。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-guangling-fall",
+      "title": "广陵城破与屠戮赏赐",
+      "summary": "广陵城破，刘诞被斩。《宋书》记尽诛城内男丁、女口为军赏；《南史》另载皇帝悉斩之令和沈庆之谏免五尺以下，分别保存。",
+      "year": 459,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明三年七月己巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p84",
+          "originalRevision": 1,
+          "originalSha256": "7731f0b7ee3e498486263f6a39701084f6009ce2e0829353fe7e86929a4bfcfc",
+          "excerpt": "秋七月己巳，剋廣陵城，斬誕。悉誅城內男丁，以女口為軍賞。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p79",
+          "originalRevision": 1,
+          "originalSha256": "b1a74772869be9025c027817094dee4d49168f44b87f9f9e8d5bc3b0aedd6648",
+          "excerpt": "大明三年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p84",
+          "originalRevision": 1,
+          "originalSha256": "7731f0b7ee3e498486263f6a39701084f6009ce2e0829353fe7e86929a4bfcfc",
+          "excerpt": "秋七月己巳，剋廣陵城，斬誕。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p45",
+          "originalRevision": 1,
+          "originalSha256": "3200aa32ad36dcb5b5a87a024436e445aac7067fa773c7084e57f93d888e774c",
+          "excerpt": "七月二日，慶之進軍，克其外城，乘勝又克小城。誕聞軍入，走趣後園墜水，引出殺之，傳首建鄴，因葬廣陵，貶姓留氏。帝命城中無大小悉斬，慶之執諫，自五尺以下全之，於是同黨悉伏誅。城內女口為軍賞，男丁殺為京觀，死者尚數千人，每風晨雨夜有號哭之聲。誕母殷、妻徐並自殺。追贈殷長寧園淑妃。"
+        }
+      ],
+      "notes": [
+        "七月己巳克城斩诞及杀男丁、女口军赏沿本纪记载，不淡化屠戮，也不补皇帝亲手执行。"
+      ],
+      "variants": [
+        {
+          "label": "南史诛令与谏免",
+          "sourceDate": "广陵破后，未各明日",
+          "summary": "《南史》另记帝令城中无大小悉斩，沈庆之固谏留五尺以下及女口军赏。保留命令、谏免和执行范围的不同叙法，不淡化屠戮。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p84",
+              "originalRevision": 1,
+              "originalSha256": "7731f0b7ee3e498486263f6a39701084f6009ce2e0829353fe7e86929a4bfcfc",
+              "excerpt": "秋七月己巳，剋廣陵城，斬誕。悉誅城內男丁，以女口為軍賞。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p79",
+              "originalRevision": 1,
+              "originalSha256": "b1a74772869be9025c027817094dee4d49168f44b87f9f9e8d5bc3b0aedd6648",
+              "excerpt": "大明三年"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p84",
+              "originalRevision": 1,
+              "originalSha256": "7731f0b7ee3e498486263f6a39701084f6009ce2e0829353fe7e86929a4bfcfc",
+              "excerpt": "秋七月己巳，剋廣陵城，斬誕。"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p45",
+              "originalRevision": 1,
+              "originalSha256": "3200aa32ad36dcb5b5a87a024436e445aac7067fa773c7084e57f93d888e774c",
+              "excerpt": "七月二日，慶之進軍，克其外城，乘勝又克小城。誕聞軍入，走趣後園墜水，引出殺之，傳首建鄴，因葬廣陵，貶姓留氏。帝命城中無大小悉斬，慶之執諫，自五尺以下全之，於是同黨悉伏誅。城內女口為軍賞，男丁殺為京觀，死者尚數千人，每風晨雨夜有號哭之聲。誕母殷、妻徐並自殺。追贈殷長寧園淑妃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-require-prompt-case-reports",
+      "title": "令廷尉成案即报并亲详断",
+      "summary": "针对疑狱久留，令囚犯到案、供词具备即上报，由皇帝详断；复杂远引案件仍须亲察情状。",
+      "year": 459,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "大明三年九月己巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p86",
+          "originalRevision": 1,
+          "originalSha256": "7cc0dc1d7a52bfc3ae17904d3fc887825c851ca1f1e7f67fc6927dd1e302e3b0",
+          "excerpt": "九月己巳，詔曰：「夫五辟三刺，自古所難，巧法深文，在季彌甚。故沿情察訟，魯師致捷；市獄勿擾，漢史飛聲。廷尉遠邇疑讞，平決攸歸，而一蹈幽圄，動逾時歲。民嬰其困，吏容其私。自今囚至辭具，並即以聞，朕當悉詳斷，庶無留獄。若繁文滯劾，證逮遐廣，必須親察，以盡情狀。自後依舊聽訟。」壬辰，於玄武湖北立上林苑。"
+        }
+      ],
+      "notes": [
+        "同段壬辰设置上林苑另日；不把诏令期望表述成滞狱已经消除。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-personal-ploughing",
+      "title": "亲耕籍田",
+      "summary": "亲耕籍田，大赦；力田之民随才叙用，孝悌义顺者赐爵一级，并酌贷百姓所缺粮种。",
+      "year": 460,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明四年正月乙亥",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p91",
+          "originalRevision": 1,
+          "originalSha256": "2bbf6c5495d191193ee53ad128deac63a81b4608fa21794c5b0249897087063a",
+          "excerpt": "乙亥，車駕躬耕藉田。大赦天下。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p90",
+          "originalRevision": 1,
+          "originalSha256": "3a3f15efbd88cfcf802446061d8922dccc7ab922ff092cd9ff69d4b46cbc63ca",
+          "excerpt": "大明四年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p91",
+          "originalRevision": 1,
+          "originalSha256": "2bbf6c5495d191193ee53ad128deac63a81b4608fa21794c5b0249897087063a",
+          "excerpt": "四年春正月辛未，車駕祠南郊。"
+        }
+      ],
+      "notes": [
+        "正月乙亥亲耕籍田及相随赦惠是礼制与诏令层，不写本人逐户赈给。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-empress-sericulture",
+      "title": "依诏行皇后亲桑礼",
+      "summary": "皇后在西郊行亲桑礼。此前刘骏已诏来岁令六宫妃嫔修此礼；皇后亲桑不写成皇帝本人亲桑。",
+      "year": 460,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明四年三月甲申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p93",
+          "originalRevision": 1,
+          "originalSha256": "7ff51c797abee4ad5d31b6a8bcfbbce18286a6daa233c98cfdaa32c243cbc58b",
+          "excerpt": "甲申，皇后親桑于西郊。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p90",
+          "originalRevision": 1,
+          "originalSha256": "3a3f15efbd88cfcf802446061d8922dccc7ab922ff092cd9ff69d4b46cbc63ca",
+          "excerpt": "大明四年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p93",
+          "originalRevision": 1,
+          "originalSha256": "7ff51c797abee4ad5d31b6a8bcfbbce18286a6daa233c98cfdaa32c243cbc58b",
+          "excerpt": "三月甲子，以冠軍將軍巴陵王休若為徐州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p87",
+          "originalRevision": 1,
+          "originalSha256": "2cc2a83765ac1e5dbee9a1bddfb5f4f6740337755fbf8862ec1b142b3e167a6a",
+          "excerpt": "冬十月丁酉，詔曰：「古者薦鞠青壇，聿祈多慶，分繭玄郊，以供純服。來歲，可使六宮妃嬪修親桑之禮。」庚子，鎮軍將軍、南徐州刺史劉延孫進號車騎將軍。戊申，河西國遣使獻方物。庚戌，以河西王大沮渠安周為征虜將軍、涼州刺史。"
+        }
+      ],
+      "notes": [
+        "亲桑者为皇后。前一年十月刘骏诏令准备来年修亲桑礼，诏令与行礼各有日期。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-reduce-seasonal-supplies",
+      "title": "诏减四时供应定额",
+      "summary": "诏称年用虚广，要求四季供应定额详细商议削减大半，以示约损。",
+      "year": 460,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明四年四月丙午",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p94",
+          "originalRevision": 1,
+          "originalSha256": "12e3d85c7fe5f1fa7733d877107df7bae38598dcaada5a587a2d936eaf1294f6",
+          "excerpt": "夏四月癸卯，以南琅邪隸王畿。丙午，詔曰：「昔紩衣御宇，貶甘示節；土簋臨天，飭儉昭度。朕綈帛之念，無忘于懷。雖深詔有司，省游務實，而歲用兼積，年量虛廣。豈以捐豐從損，允稱約心。四時供限，可詳減太半。庶裘絺順典，有偃民華；纂組傷工，無競㙻市。」辛酉，詔曰：「都邑節氣未調，疫癘猶眾，言念民瘼，情有矜傷。可遣使存問，并給醫藥；其死亡者，隨宜卹贍。」"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-epidemic-relief-capital",
+      "title": "遣使慰问都邑疫民并给药",
+      "summary": "都邑疫病仍多，下诏派使者存问、给医药，并对死亡者酌情抚恤赡助。",
+      "year": 460,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明四年四月辛酉",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p94",
+          "originalRevision": 1,
+          "originalSha256": "12e3d85c7fe5f1fa7733d877107df7bae38598dcaada5a587a2d936eaf1294f6",
+          "excerpt": "夏四月癸卯，以南琅邪隸王畿。丙午，詔曰：「昔紩衣御宇，貶甘示節；土簋臨天，飭儉昭度。朕綈帛之念，無忘于懷。雖深詔有司，省游務實，而歲用兼積，年量虛廣。豈以捐豐從損，允稱約心。四時供限，可詳減太半。庶裘絺順典，有偃民華；纂組傷工，無競㙻市。」辛酉，詔曰：「都邑節氣未調，疫癘猶眾，言念民瘼，情有矜傷。可遣使存問，并給醫藥；其死亡者，隨宜卹贍。」"
+        }
+      ],
+      "notes": [
+        "与大明元年的给药和收葬诏为不同批次，不合并。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-reduce-local-salaries",
+      "title": "令郡县减禄先充公限",
+      "summary": "规定郡县削减俸禄，并先满足公用定额。",
+      "year": 460,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "大明四年十月壬辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p99",
+          "originalRevision": 1,
+          "originalSha256": "6969528c2095ebb83734cd80d692a3b212ba7d93242ab1718315b8b9c27a4eb9",
+          "excerpt": "冬十月庚寅，遣新除司空沈慶之討沿江蠻。壬辰，制郡縣減祿，並先充公限。"
+        }
+      ],
+      "notes": [
+        "同段庚寅遣沈庆之征讨为另一行动；与大明六年复百官禄分别保留。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-pardon-draft-fugitives",
+      "title": "赦逃役并宽免逋负",
+      "summary": "阅武时颁诏赦此前逃亡者，已在狱者释放回本役；免大明三年以前逋负，对以后鳏贫疾老酌减，伐蛮之家减租一半，并宽宥户籍新制先前违例。",
+      "year": 461,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明五年二月癸巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p104",
+          "originalRevision": 1,
+          "originalSha256": "52254adc920bb3e5c073955b0f16455d8dcb5f6096937e8e3046bee5057e9cc8",
+          "excerpt": "二月癸巳，車駕閱武。詔曰：「昔人稱人道何先，於兵為首，雖淹紀勿用，忘之必危。朕以聽覽餘閒，因時講事，坐作有儀，進退無爽。軍幢以下，普量班錫。頃化弗能孚，而民未知禁，逭役違調，起觸刑網。凡諸逃亡，在今昧爽以前，悉皆原赦。已滯囹圄者，釋還本役。其逋負在大明三年以前，一賜原停。自此以還，鰥貧疾老，詳所申減。伐蠻之家，蠲租稅之半。近籍改新制，在所承用，殊謬實多，可普更符下，聽以今為始。若先已犯制，亦同蕩然。」甲寅，加右光祿大夫羊玄保特進。"
+        }
+      ],
+      "notes": [
+        "赦后回本役，不表述为永久解除所有役务；减税范围依诏分别保留。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-xiumao-rebellion",
+      "title": "休茂叛乱与执行者异说",
+      "summary": "海陵王刘休茂在雍州起兵并被斩；《宋书》正文、校勘及《南史》对斩杀者的姓名记载不一，保留异说。",
+      "year": 461,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明五年四月丙午",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p105",
+          "originalRevision": 1,
+          "originalSha256": "83d9a4ec396cbc2a179fd5754b668e2a32a85568d8de12f4a375116dbae6e32b",
+          "excerpt": "丙午，雍州刺史海陵王休茂殺司馬庾深之，舉兵反，義成太守薛繼考討斬之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p102",
+          "originalRevision": 1,
+          "originalSha256": "ab6771bb9719a12fb3883861de29c4fc25e6171f8be22eff7fc74b2ebce67cb4",
+          "excerpt": "大明五年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p105",
+          "originalRevision": 1,
+          "originalSha256": "83d9a4ec396cbc2a179fd5754b668e2a32a85568d8de12f4a375116dbae6e32b",
+          "excerpt": "夏四月癸巳，改封西陽王子尚為豫章王。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p244",
+          "originalRevision": 1,
+          "originalSha256": "269c09ff8d726d228a2f7d0b5b5b2f3b86f802392333a592b1d7116b5a7b93b4",
+          "excerpt": "參軍尹玄慶起義，斬之，傳首建鄴。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p164",
+          "originalRevision": 1,
+          "originalSha256": "9ecff19f07d8775939ec2c65dfabd110ff496c649891535dae92da71ea748880",
+          "excerpt": "南史云參軍尹玄慶起義斬之，為得其實。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p241",
+          "originalRevision": 1,
+          "originalSha256": "ad0cd9090569bb87634c4da5463ca8007776bfcfcae31d3d5bb84224f9044eb2",
+          "excerpt": "五年春正月戊午朔，華雪降，散為六出，上悅，以為瑞。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p164",
+          "originalRevision": 1,
+          "originalSha256": "9ecff19f07d8775939ec2c65dfabd110ff496c649891535dae92da71ea748880",
+          "excerpt": "↑ 義成太守薛繼考討斬之　廿二史考異云：「案休茂傳，繼考為休茂盡力攻城，及休茂死，詐稱立義，乘驛還都，事泄伏誅。則繼考乃黨於休茂者，紀所書誤。南史云參軍尹玄慶起義斬之，為得其實。」按休茂傳，言尹玄慶既斬休茂，繼考以兵脅行府州事劉恭之作啟，言繼考起義，因得封賞，尋事泄伏誅。蓋國史誤仍當日記注，沈約竟不追改，而於休茂傳則詳述其事始末。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p80",
+          "originalRevision": 1,
+          "originalSha256": "32adc3c6d6c1e5dcb17f42d63e592488ec69974061e3ea84ecf360ee110109dc",
+          "excerpt": "海陵王休茂，文帝第十四子也。孝建二年，年十一，封海陵王。大明二年，為雍州刺史，加都督、北中郎將、甯蠻校尉。時司馬庾深之行府州事，休茂性急欲自專，深之及主帥每禁之。常懷忿，因左右張伯超至所親愛，多罪過，主帥常加訶責。伯超懼罪，謂休茂曰：「主帥密疏官罪，欲以啟聞。」休茂曰：「今為何計？」伯超曰：「唯殺行事及主帥，舉兵自衛，縱不成，不失入虜中為王。」休茂從之，夜使伯超等殺司馬庾深之，集兵建牙馳檄。休茂出城行營，諮議參軍沈暢之等閉門拒之。城陷，斬暢之。其日，參軍尹玄度起兵攻休茂，禽之，斬首。母妻皆自殺，同黨悉伏誅。有司奏絕休茂屬籍，貶姓為留，不許。即葬襄陽。"
+        }
+      ],
+      "notes": [
+        "丙午领起休茂反及讨斩条。正文薛继考、南史尹玄庆与校勘冒功后被诛分层；不给冒功/封赏/泄露另事都套丙午。"
+      ],
+      "variants": [
+        {
+          "label": "正文、校勘及南史所记斩杀者",
+          "sourceDate": "大明五年四月丙午条及相关传记",
+          "summary": "《宋书》正文作薛继考，校勘指尹玄庆并述继考冒功；《南史》本纪作尹玄庆，宗室传作尹玄度。原字分源保存，不无据合并玄庆、玄度身份。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p105",
+              "originalRevision": 1,
+              "originalSha256": "83d9a4ec396cbc2a179fd5754b668e2a32a85568d8de12f4a375116dbae6e32b",
+              "excerpt": "丙午，雍州刺史海陵王休茂殺司馬庾深之，舉兵反，義成太守薛繼考討斬之。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p102",
+              "originalRevision": 1,
+              "originalSha256": "ab6771bb9719a12fb3883861de29c4fc25e6171f8be22eff7fc74b2ebce67cb4",
+              "excerpt": "大明五年"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p105",
+              "originalRevision": 1,
+              "originalSha256": "83d9a4ec396cbc2a179fd5754b668e2a32a85568d8de12f4a375116dbae6e32b",
+              "excerpt": "夏四月癸巳，改封西陽王子尚為豫章王。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p244",
+              "originalRevision": 1,
+              "originalSha256": "269c09ff8d726d228a2f7d0b5b5b2f3b86f802392333a592b1d7116b5a7b93b4",
+              "excerpt": "參軍尹玄慶起義，斬之，傳首建鄴。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p164",
+              "originalRevision": 1,
+              "originalSha256": "9ecff19f07d8775939ec2c65dfabd110ff496c649891535dae92da71ea748880",
+              "excerpt": "南史云參軍尹玄慶起義斬之，為得其實。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p241",
+              "originalRevision": 1,
+              "originalSha256": "ad0cd9090569bb87634c4da5463ca8007776bfcfcae31d3d5bb84224f9044eb2",
+              "excerpt": "五年春正月戊午朔，華雪降，散為六出，上悅，以為瑞。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p164",
+              "originalRevision": 1,
+              "originalSha256": "9ecff19f07d8775939ec2c65dfabd110ff496c649891535dae92da71ea748880",
+              "excerpt": "↑ 義成太守薛繼考討斬之　廿二史考異云：「案休茂傳，繼考為休茂盡力攻城，及休茂死，詐稱立義，乘驛還都，事泄伏誅。則繼考乃黨於休茂者，紀所書誤。南史云參軍尹玄慶起義斬之，為得其實。」按休茂傳，言尹玄慶既斬休茂，繼考以兵脅行府州事劉恭之作啟，言繼考起義，因得封賞，尋事泄伏誅。蓋國史誤仍當日記注，沈約竟不追改，而於休茂傳則詳述其事始末。"
+            },
+            {
+              "chapterId": "nanshi-v014",
+              "paragraphId": "nanshi-v014-p80",
+              "originalRevision": 1,
+              "originalSha256": "32adc3c6d6c1e5dcb17f42d63e592488ec69974061e3ea84ecf360ee110109dc",
+              "excerpt": "海陵王休茂，文帝第十四子也。孝建二年，年十一，封海陵王。大明二年，為雍州刺史，加都督、北中郎將、甯蠻校尉。時司馬庾深之行府州事，休茂性急欲自專，深之及主帥每禁之。常懷忿，因左右張伯超至所親愛，多罪過，主帥常加訶責。伯超懼罪，謂休茂曰：「主帥密疏官罪，欲以啟聞。」休茂曰：「今為何計？」伯超曰：「唯殺行事及主帥，舉兵自衛，縱不成，不失入虜中為王。」休茂從之，夜使伯超等殺司馬庾深之，集兵建牙馳檄。休茂出城行營，諮議參軍沈暢之等閉門拒之。城陷，斬暢之。其日，參軍尹玄度起兵攻休茂，禽之，斬首。母妻皆自殺，同黨悉伏誅。有司奏絕休茂屬籍，貶姓為留，不許。即葬襄陽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-plan-school-repair",
+      "title": "诏来岁修葺学校",
+      "summary": "下诏计划翌年修缮学校，旌延国胄；所记为诏令和计划，不据此独自认定次年已经完工。",
+      "year": 461,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明五年八月己丑",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p109",
+          "originalRevision": 1,
+          "originalSha256": "36ff93b95809ff4b8604561678b0e0b8605714d4437b58ba769b7aaafb83c033",
+          "excerpt": "八月戊子，立第九皇子子仁為永嘉王，第十一皇子子真為始安王。以北中郎參軍費伯弘為寧州刺史。己丑，詔曰：「自靈命初基，聖圖重遠。參正樂職，感神明之應；崇殖禮囿，奮至德之光。聲實同和，文以均節，化調其俗，物性其情。故臨經式奠，煥乎炳發，道喪世屯，學落年永。獄訟微衰息之術，百姓忘退素之方。今息警夷嶂，恬波河渚，棧山航海，嚮風慕義，化民成俗，茲焉時矣。[19]來歲可修葺庠序，旌延國冑。」庚寅，制方鎮所假白板郡縣，年限依臺除，食祿三分之一，不給送故。衞將軍東海王褘以本號開府儀同三司。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-chidao",
+      "title": "设置两路驰道",
+      "summary": "初设两路驰道，一路自阊阖门至朱雀门，一路自承明门至玄武湖。",
+      "year": 461,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明五年闰月丙申，承九月",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p111",
+          "originalRevision": 1,
+          "originalSha256": "320717e7e899b3ba284e8ee158218bc7897a7a0a7cd0437ccd5835f25fe3ae92",
+          "excerpt": "丙申，初立馳道，自閶闔門至于朱雀門，又自承明門至于玄武湖。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p102",
+          "originalRevision": 1,
+          "originalSha256": "ab6771bb9719a12fb3883861de29c4fc25e6171f8be22eff7fc74b2ebce67cb4",
+          "excerpt": "大明五年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p111",
+          "originalRevision": 1,
+          "originalSha256": "320717e7e899b3ba284e8ee158218bc7897a7a0a7cd0437ccd5835f25fe3ae92",
+          "excerpt": "閏月戊子，皇太子妃何氏薨。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p110",
+          "originalRevision": 1,
+          "originalSha256": "26c89bb8897122c7599d1effa8354330e43cc6044c538860dfdf4d0f37791641",
+          "excerpt": "九月甲寅朔，日有食之。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p111",
+          "originalRevision": 1,
+          "originalSha256": "320717e7e899b3ba284e8ee158218bc7897a7a0a7cd0437ccd5835f25fe3ae92",
+          "excerpt": "閏月戊子，皇太子妃何氏薨。丙申，初立馳道，自閶闔門至于朱雀門，又自承明門至于玄武湖。壬寅，改封歷陽王子頊為臨海王。"
+        }
+      ],
+      "notes": [
+        "“闰月”承前九月，须是闰九月；丙申为初立驰道记录，不忽略闰。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-send-secretaries-prison-review",
+      "title": "遣尚书会守宰平治王畿狱讼",
+      "summary": "命尚书到王畿详细检查，与守宰共同平治狱讼，疑难积滞案件具状上报。",
+      "year": 461,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "大明五年十一月壬辰",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p113",
+          "originalRevision": 1,
+          "originalSha256": "beaa1955ee75d549b15bdefbd7a27d817469c3e6bf9f501058edb98ff894049c",
+          "excerpt": "十一月壬辰，詔曰：「王畿內奉京師，外表眾夏，民殷務廣，宜思簡惠。可遣尚書就加詳檢，并與守宰平治庶獄。其有疑滯，具以狀聞。」丁酉，增置少府丞一人。"
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-annual-cloth",
+      "title": "定民户岁输布四匹",
+      "summary": "规定天下民户每年缴布四匹。原记大明五年十二月，实际已跨西历462年。",
+      "year": 462,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明五年十二月甲戌；南史底本甲戊",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p114",
+          "originalRevision": 1,
+          "originalSha256": "59a81896c9bff1c709b946c26bf8204e9160b0dafcb27765db64f387e9ad833b",
+          "excerpt": "甲戌，制天下民戶歲輸布四疋。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p102",
+          "originalRevision": 1,
+          "originalSha256": "ab6771bb9719a12fb3883861de29c4fc25e6171f8be22eff7fc74b2ebce67cb4",
+          "excerpt": "大明五年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p114",
+          "originalRevision": 1,
+          "originalSha256": "59a81896c9bff1c709b946c26bf8204e9160b0dafcb27765db64f387e9ad833b",
+          "excerpt": "十二月壬申，以領軍將軍劉遵考為尚書右僕射。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p250",
+          "originalRevision": 1,
+          "originalSha256": "fad84c572ba65572703475431a769fdb06b756e23acb8e8d7f61c6cd798e2113",
+          "excerpt": "甲戊，制天下人戶歲輸布四匹。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p241",
+          "originalRevision": 1,
+          "originalSha256": "ad0cd9090569bb87634c4da5463ca8007776bfcfcae31d3d5bb84224f9044eb2",
+          "excerpt": "五年春正月戊午朔，華雪降，散為六出，上悅，以為瑞。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p250",
+          "originalRevision": 1,
+          "originalSha256": "fad84c572ba65572703475431a769fdb06b756e23acb8e8d7f61c6cd798e2113",
+          "excerpt": "十二月壬申，以領軍將軍劉遵考為尚書右僕射。甲戊，制天下人戶歲輸布四匹。"
+        }
+      ],
+      "notes": [
+        "大明五年十二月甲戌已在西历462年；《南史》“甲戊”不合干支组合，依其记月保留原字。"
+      ],
+      "variants": [
+        {
+          "label": "南史甲戊",
+          "sourceDate": "大明五年十二月甲戊（原字）",
+          "summary": "“甲戊”不合干支组合，保留原字和所在月份；两书制度记载与各自记日分别参读。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p114",
+              "originalRevision": 1,
+              "originalSha256": "59a81896c9bff1c709b946c26bf8204e9160b0dafcb27765db64f387e9ad833b",
+              "excerpt": "甲戌，制天下民戶歲輸布四疋。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p102",
+              "originalRevision": 1,
+              "originalSha256": "ab6771bb9719a12fb3883861de29c4fc25e6171f8be22eff7fc74b2ebce67cb4",
+              "excerpt": "大明五年"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p114",
+              "originalRevision": 1,
+              "originalSha256": "59a81896c9bff1c709b946c26bf8204e9160b0dafcb27765db64f387e9ad833b",
+              "excerpt": "十二月壬申，以領軍將軍劉遵考為尚書右僕射。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p250",
+              "originalRevision": 1,
+              "originalSha256": "fad84c572ba65572703475431a769fdb06b756e23acb8e8d7f61c6cd798e2113",
+              "excerpt": "甲戊，制天下人戶歲輸布四匹。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p241",
+              "originalRevision": 1,
+              "originalSha256": "ad0cd9090569bb87634c4da5463ca8007776bfcfcae31d3d5bb84224f9044eb2",
+              "excerpt": "五年春正月戊午朔，華雪降，散為六出，上悅，以為瑞。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p250",
+              "originalRevision": 1,
+              "originalSha256": "fad84c572ba65572703475431a769fdb06b756e23acb8e8d7f61c6cd798e2113",
+              "excerpt": "十二月壬申，以領軍將軍劉遵考為尚書右僕射。甲戊，制天下人戶歲輸布四匹。"
+            }
+          ],
+          "year": 462
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-mingtang-wendi",
+      "title": "宗祀文帝于明堂",
+      "summary": "南郊亲祠后宗祀明堂。《南史》明确记文皇帝配上帝，《宋书》本纪仅省称宗祀明堂。",
+      "year": 462,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明六年正月辛卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p116",
+          "originalRevision": 1,
+          "originalSha256": "715249eca387a7310f43c7e845cd5747fb0bd35b253750987cf0edbcaa9f1f79",
+          "excerpt": "辛卯，車駕親祠南郊。是日，又宗祀明堂。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p115",
+          "originalRevision": 1,
+          "originalSha256": "235e5f976aee211ba1e61ad427ee5597d0264b9018960ae35f5ddd3f12beae24",
+          "excerpt": "大明六年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p116",
+          "originalRevision": 1,
+          "originalSha256": "715249eca387a7310f43c7e845cd5747fb0bd35b253750987cf0edbcaa9f1f79",
+          "excerpt": "六年春正月己丑，湘州刺史建安王休仁加平南將軍。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p251",
+          "originalRevision": 1,
+          "originalSha256": "47dd9d9f89b599b2e492fd0e45dc60caa4567c88627e403b42d2216e31c36b91",
+          "excerpt": "是日，又宗祀文皇帝于明堂，以配上帝。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p251",
+          "originalRevision": 1,
+          "originalSha256": "47dd9d9f89b599b2e492fd0e45dc60caa4567c88627e403b42d2216e31c36b91",
+          "excerpt": "六年春正月辛卯，祀南郊。是日，又宗祀文皇帝于明堂，以配上帝。大赦。乙未，置五官中郎將、左右中郎將官。"
+        }
+      ],
+      "notes": [
+        "辛卯南郊与是日宗祀同日；文帝配上帝仅南史明确，宋书省称不独立证明唯一对象。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-restore-salaries",
+      "title": "复百官禄",
+      "summary": "恢复百官禄俸，与较早郡县减禄及田秩恢复分别记载。",
+      "year": 462,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明六年二月乙卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p117",
+          "originalRevision": 1,
+          "originalSha256": "4e6686797ae446b5754405fdb476f36cf546bfc578b27e7201cadbd916c16e16",
+          "excerpt": "二月乙卯，復百官祿。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p115",
+          "originalRevision": 1,
+          "originalSha256": "235e5f976aee211ba1e61ad427ee5597d0264b9018960ae35f5ddd3f12beae24",
+          "excerpt": "大明六年"
+        }
+      ],
+      "notes": [
+        "二月乙卯复百官禄，不与较早郡县减禄/田秩恢复混作同一命令。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-monks-ruler-reverence",
+      "title": "令沙门向人主致敬",
+      "summary": "命沙门向人主致敬。《宋书》具九月戊寅日，《南史》只记九月，不能说两书共同明记此日。",
+      "year": 462,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明六年九月；宋书戊寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p124",
+          "originalRevision": 1,
+          "originalSha256": "02f6b501cf24b6e185dc2af821b316a3497b1a63640d1b00648e9f8b28dce043",
+          "excerpt": "九月戊寅，制沙門致敬人主。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p115",
+          "originalRevision": 1,
+          "originalSha256": "235e5f976aee211ba1e61ad427ee5597d0264b9018960ae35f5ddd3f12beae24",
+          "excerpt": "大明六年"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p259",
+          "originalRevision": 1,
+          "originalSha256": "6c994052bc7da689a7828e5d8354e19ce30d1382d7671ec8195e0b420217ddea",
+          "excerpt": "九月，制沙門致敬人主。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p251",
+          "originalRevision": 1,
+          "originalSha256": "47dd9d9f89b599b2e492fd0e45dc60caa4567c88627e403b42d2216e31c36b91",
+          "excerpt": "六年春正月辛卯，祀南郊。"
+        }
+      ],
+      "notes": [
+        "宋书九月戊寅具日；南史仅九月，不将日说成两书共同明记。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-jiangyou-tour",
+      "title": "巡南豫南兖与乌江校猎",
+      "summary": "巡南豫、南兖，随后在乌江校猎、登六合山，赦免并减所经田租布，之后回宫；行程各有原书记日。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明七年二月甲寅起",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p129",
+          "originalRevision": 1,
+          "originalSha256": "4e533a04568ce23b2fee2ee99cb04f40c30d64044dcd58cfd0b0ac5f803df67b",
+          "excerpt": "二月甲寅，車駕巡南豫、南兗二州。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p127",
+          "originalRevision": 1,
+          "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+          "excerpt": "大明七年"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p263",
+          "originalRevision": 1,
+          "originalSha256": "d2a0c7b80d3e98b776710130ffd3c3e2c1fe88524a9d99ddc0c6158a66bbd4c8",
+          "excerpt": "丁巳，校獵烏江。己未，登烏江縣六合山。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p262",
+          "originalRevision": 1,
+          "originalSha256": "bd622b10824df5ca7b0e1f0e4aaee760bfc9c1682520aa01238f10e9dd6bccb9",
+          "excerpt": "七年春正月癸未，詔克日於玄武湖大閱水師，並巡江右，講武校獵。丁亥，以右衛將軍顏師伯為尚書左僕射。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p263",
+          "originalRevision": 1,
+          "originalSha256": "d2a0c7b80d3e98b776710130ffd3c3e2c1fe88524a9d99ddc0c6158a66bbd4c8",
+          "excerpt": "二月甲寅，車駕巡南豫、南兗二州。丁巳，校獵烏江。己未，登烏江縣六合山。壬戌，大赦，行幸所經，無出今年租布，賜人爵一級，女子百戶牛酒，郡守邑宰及人夫從搜者，普加沾賚。又詔蠲曆陽郡租輸三年，遣使巡慰，問人疾苦。癸亥，行幸尉氏，觀溫泉。壬申，車駕至都，拜二廟，乃還宮。"
+        }
+      ],
+      "notes": [
+        "二月甲寅仅巡行起点；校猎、登山、赦租和还宫不同日，南史返宫附拜二庙不推具体庙主。",
+        "二月丁巳校猎、己未登山、壬戌赦免减租、壬申还宫各另记日；南史还宫拜二庙未明庙主，不补定为哪两庙。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-ban-summary-execution",
+      "title": "禁非战阵擅杀",
+      "summary": "下诏除临军战阵外不得擅杀，重刑依旧先上报等待答复，违者以杀人罪论；不是废除死刑。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明七年四月甲子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p130",
+          "originalRevision": 1,
+          "originalSha256": "3f0c14d3e1afbcc796218808a822ce6f4c4a677e01a8ee8d9d6f4619aa12dbab",
+          "excerpt": "甲子，詔曰：「自非臨軍戰陳，一不得專殺。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p127",
+          "originalRevision": 1,
+          "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+          "excerpt": "大明七年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p130",
+          "originalRevision": 1,
+          "originalSha256": "3f0c14d3e1afbcc796218808a822ce6f4c4a677e01a8ee8d9d6f4619aa12dbab",
+          "excerpt": "夏四月甲寅，以領軍將軍朱脩之為特進。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p264",
+          "originalRevision": 1,
+          "originalSha256": "b6f716c6ca1865e21c2b796b4218b9e360ac6f73a91262812551145233f2da21",
+          "excerpt": "其罪入重辟者，皆依舊先上須報，"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p262",
+          "originalRevision": 1,
+          "originalSha256": "bd622b10824df5ca7b0e1f0e4aaee760bfc9c1682520aa01238f10e9dd6bccb9",
+          "excerpt": "七年春正月癸未，詔克日於玄武湖大閱水師，並巡江右，講武校獵。"
+        }
+      ],
+      "notes": [
+        "四月甲子禁非战阵专杀，保战阵例外及重刑先报；不是废死刑。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-require-hand-edict",
+      "title": "动民兴军须手诏",
+      "summary": "规定刺史、守宰调民兴军须依手诏；边地外警及仓促内乱保留例外。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 3,
+      "sourceDate": "大明七年五月丙子",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p131",
+          "originalRevision": 1,
+          "originalSha256": "0c7c5030b3d2e1cde0904134821b6ff9ddb7a187fc873e22671a598670c2a216",
+          "excerpt": "丙子，詔曰：「自今刺史守宰，動民興軍，皆須手詔施行。唯邊隅外警，及姦釁內發，變起倉卒者，不從此例。」"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p127",
+          "originalRevision": 1,
+          "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+          "excerpt": "大明七年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p131",
+          "originalRevision": 1,
+          "originalSha256": "0c7c5030b3d2e1cde0904134821b6ff9ddb7a187fc873e22671a598670c2a216",
+          "excerpt": "五月乙亥，撫軍將軍、揚州刺史豫章王子尚進號車騎將軍，輔國將軍始安王子真為廣州刺史。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p264",
+          "originalRevision": 1,
+          "originalSha256": "b6f716c6ca1865e21c2b796b4218b9e360ac6f73a91262812551145233f2da21",
+          "excerpt": "夏四月甲子，詔自今非臨軍戰陣，一不得專殺；其罪入重辟者，皆依舊先上須報，有司嚴加聽察，犯者以殺人罪論。五月丙子，詔自今刺史守宰動人興軍，皆須手詔施行；惟邊隅外警及奸釁內發，變起倉卒者，不從此例。"
+        }
+      ],
+      "notes": [
+        "五月丙子须手诏，边警/内乱仓卒例外保留，不扩大到无例外所有调动。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-reassert-common-water-land",
+      "title": "重申江海田池与民共利",
+      "summary": "因先前江海田池共享诏令逐渐废弛、名山大川仍遭占固，令有司严加检纠，申明旧制。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 4,
+      "sourceDate": "大明七年七月丙申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p133",
+          "originalRevision": 1,
+          "originalSha256": "75046e76ef201d43c5ac269ce6803b5fa0a4eb0353dbb86651ca5f9224c0a5ac",
+          "excerpt": "七月乙亥，征東大將軍高麗王高璉進號車騎大將軍、開府儀同三司。丙申，[25]詔曰：「前詔江海田池，與民共利。歷歲未久，浸以弛替。名山大川，往往占固。有司嚴加檢糾，申明舊制。」"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p171",
+          "originalRevision": 1,
+          "originalSha256": "e8aba70370c413db80800f95388aee7f9820680ca27f2f9f2ff71cf1f256d937",
+          "excerpt": "↑ 丙申　各本「丙申」上有「秋七月」。按是年七月甲戌朔，初二日乙亥，二十三日丙申。上已有「七月乙亥」，此「秋七月」三字衍，今刪。"
+        }
+      ],
+      "notes": [
+        "本卷校勘删除重复的“秋七月”三字，正文前一句七月仍在；不把重复标题另作第二个月份。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-drought-prison-and-grain-relief",
+      "title": "旱岁减供膳审刑并开仓",
+      "summary": "因旱歉下诏削减太官供膳、审理近处刑狱，命尚书及刺史分区详审并省察律令，宽免此前考谪贸袭事项，对尤弊之家开仓赈给。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 5,
+      "sourceDate": "大明七年八月丁巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p134",
+          "originalRevision": 1,
+          "originalSha256": "03c61313bc0d9935b0a80dfcc570f71b050d8ca43f1047f3cab5e67d809566ff",
+          "excerpt": "八月丁巳，詔曰：「昔匹婦含怨，山燋北鄙；孀妻哀慟，臺傾東國。良以誠之所動，在微必著；感之所震，雖厚必崩。朕臨察九野，志深待旦，弗能使爛然成章，各如其節。遂令炎精損河，陽偏不施，歲云不稔，咎實朕由。太官供膳，宜從貶撤。近道刑獄，當親料省。其王畿內及神州所統，可遣尚書與所在共詳；畿外諸州，委之刺史。并詳省律令，思存利民。其考讁貿襲，在大明七年以前，一切勿治。尤弊之家，開倉賑給。」乙丑，立第十六皇子子孟為淮南王，第十八皇子子產為臨賀王。車駕幸建康秣陵縣訊獄囚。"
+        }
+      ],
+      "notes": [
+        "灾异归咎与古代故事保为诏语，不作为灾害原因的事实证明。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-lend-wheat-seed",
+      "title": "诏东境劝垦并贷麦种",
+      "summary": "因苗稼受热、后又降雨，下诏东境各郡督促垦殖，对尤弊之家酌贷麦种。",
+      "year": 463,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 6,
+      "sourceDate": "大明七年九月，底本作巳卯",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p135",
+          "originalRevision": 1,
+          "originalSha256": "9f4a57914d79299329454bdd93e7452c06c92762ea33e21ace95e1217264ff47",
+          "excerpt": "九月巳卯，詔曰：「近炎精亢序，苗稼多傷。今二麥未晚，甘澤頻降，可下東境郡，勤課墾殖。尤弊之家，量貸麥種。」戊子，詔曰：「昔周王驥跡，實窮四溟；漢帝鸞軫，夙遍五嶽。皆所以上對幽靈，下理民土。自天昌替馭，臨宮創圖，禮代夭鬱，世貿興毀。皇家造宋，日月重光，琁璣得序，五星順命，而戎車歲動，陳詩義闕。朕聿含五光，奄一天下，思盡寶戒之規，以塞謀危之路。當沿時省方，觀察風俗。外詳考舊典，以副側席之懷。」庚寅，南徐州刺史新安王子鸞兼司徒。乙未，車駕幸廷尉訊獄囚。丙申，立第十七皇子子嗣為東平王。"
+        }
+      ],
+      "notes": [
+        "“巳卯”依底本，不能作为合法干支日，不改成己卯后推确日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-autumn-southern-yuzhou-tour",
+      "title": "奉太后秋巡南豫州",
+      "summary": "秋巡南豫州，奉太后同行；诏途中接见高年孤疾、听理申诉、赈济并考察地方官绩，后在江宁讯囚及姑孰校猎。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 7,
+      "sourceDate": "大明七年十月戊申起；癸丑江宁讯囚、己巳校猎",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p136",
+          "originalRevision": 1,
+          "originalSha256": "28372448fe74eaf838c4dd6adfed6f9ad5a2dd491c6c88ab7b72c89e94798876",
+          "excerpt": "冬十月壬寅，太子冠，賜王公以下帛各有差。戊申，車駕巡南豫州。詔曰：「朕巡幸所經，先見百年者，及孤寡老疾，並賜粟帛。獄繫刑罪，並親聽訟。其士庶或怨鬱危滯，受抑吏司，或隱約潔立，負擯州里，皆聽進朕前，面自陳訴。若忠信孝義，力田殖穀，一介之能，一藝之美，悉加旌賞。雖秋澤頻降，而夏旱嬰弊。可即開行倉，[26]並加賑賜。」癸丑，行幸江寧縣訊獄囚。車騎將軍、揚州刺史豫章王子尚加開府儀同三司。癸亥，衞將軍、開府儀同三司東海王褘為司空，中軍將軍義陽王昶加開府儀同三司。丙寅，詔曰：「賞慶刑威，奄國彝軌；黜幽升明，闢宇恒憲。故採言聆風，式觀侈質，貶爵加地，於是乎在。今類帝宜社，親巡江甸，因覲嶽守，躬求民瘼。思弘明試之典，以申考績之義。行幸所經，莅民之職，功宣於聽，即加甄賞。若廢務亂民，隨諐議罰。主者詳察以聞。」己巳，車駕校獵於姑孰。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p269",
+          "originalRevision": 1,
+          "originalSha256": "4183b11eb49488dddaa740021d2eab5c82ae516287cbecdcb62f4023c1491244",
+          "excerpt": "冬十月壬寅，皇太子冠，賜王公以下帛各有差。戊申，車駕巡南豫州，奉太后以行。癸丑，行幸江寧縣訊獄囚。加車騎將軍、揚州刺史豫章王子尚開府儀同三司。癸亥，以開府儀同三司東海王褘為司空，加中軍將軍義陽王昶開府儀同三司。己巳，校獵于姑孰。"
+        }
+      ],
+      "notes": [
+        "确日只标巡行起点；江宁讯囚和姑孰校猎另日，太子壬寅冠礼也不移为出巡日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-reject-shenjue-era",
+      "title": "不准因白雀改元",
+      "summary": "阅水师时有司因白雀奏请改元，诏不许。《宋书》拟神爵，《南史》作神雀，均未实际成为本次年号。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 8,
+      "sourceDate": "大明七年十一月癸巳",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p137",
+          "originalRevision": 1,
+          "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+          "excerpt": "有司奏改大明七年為神爵元年，詔不許。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p127",
+          "originalRevision": 1,
+          "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+          "excerpt": "大明七年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p137",
+          "originalRevision": 1,
+          "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+          "excerpt": "十一月丙子，曲赦南豫州殊死以下。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p270",
+          "originalRevision": 1,
+          "originalSha256": "a9eeaf7ee418c7ac64e8e6a3a801a73eccc420b820fe8606fbc7230c5abd840d",
+          "excerpt": "有司奏改元為神雀，詔不許。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p262",
+          "originalRevision": 1,
+          "originalSha256": "bd622b10824df5ca7b0e1f0e4aaee760bfc9c1682520aa01238f10e9dd6bccb9",
+          "excerpt": "七年春正月癸未，詔克日於玄武湖大閱水師，並巡江右，講武校獵。"
+        }
+      ],
+      "notes": [
+        "十一月癸巳为演水军、白雀与奏请不许叙次；神爵/神雀保书间用字，未实际改元。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-relief-month-variant",
+      "title": "赈恤抵租记载的月份异说",
+      "summary": "派使者开仓赈恤，准受杂物抵租。《宋书》列十一月壬寅且校勘称该月无此日，《南史》另列十二月壬寅。",
+      "year": 463,
+      "precision": "month",
+      "phase": "rule",
+      "sortOrder": 9,
+      "sourceDate": "大明七年宋书十一月壬寅、南史十二月壬寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p137",
+          "originalRevision": 1,
+          "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+          "excerpt": "壬寅，[28]遣使開倉貸卹，聽受雜物當租。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p127",
+          "originalRevision": 1,
+          "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+          "excerpt": "大明七年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p137",
+          "originalRevision": 1,
+          "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+          "excerpt": "十一月丙子，曲赦南豫州殊死以下。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p174",
+          "originalRevision": 1,
+          "originalSha256": "528392a5b063e4d13847190dba87e2044db709236ddaf105110197b91e83560e",
+          "excerpt": "按是月壬申朔，無壬寅，當有誤。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p271",
+          "originalRevision": 1,
+          "originalSha256": "8d3bf5d843e096e4005a5beb779ae66efbac1cb4aa268756e28ae0180998630e",
+          "excerpt": "十二月壬寅，遣使開倉賑恤，聽受雜物當租。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p262",
+          "originalRevision": 1,
+          "originalSha256": "bd622b10824df5ca7b0e1f0e4aaee760bfc9c1682520aa01238f10e9dd6bccb9",
+          "excerpt": "七年春正月癸未，詔克日於玄武湖大閱水師，並巡江右，講武校獵。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p271",
+          "originalRevision": 1,
+          "originalSha256": "8d3bf5d843e096e4005a5beb779ae66efbac1cb4aa268756e28ae0180998630e",
+          "excerpt": "十二月壬寅，遣使開倉賑恤，聽受雜物當租。丙午，行幸曆陽。甲寅，大赦，賜曆陽郡女子百戶牛酒，蠲郡租十年。己未，加太宰江夏王義恭尚書令。于博望梁山立雙闕。癸亥，至自曆陽。"
+        }
+      ],
+      "notes": [
+        "《宋书》在十一月记壬寅，校勘指出该月无此日；《南史》另记十二月壬寅，月份差异分别保留。"
+      ],
+      "variants": [
+        {
+          "label": "南史十二月壬寅",
+          "sourceDate": "大明七年十二月壬寅",
+          "summary": "《南史》记十二月壬寅赈恤并许杂物抵租，与《宋书》十一月的记月不同。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p137",
+              "originalRevision": 1,
+              "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+              "excerpt": "壬寅，[28]遣使開倉貸卹，聽受雜物當租。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p127",
+              "originalRevision": 1,
+              "originalSha256": "ab04375ccb3e68625a96c4ee53e7526e0bf63960b981391eec0ecb41477711c4",
+              "excerpt": "大明七年"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p137",
+              "originalRevision": 1,
+              "originalSha256": "152380eb561408b1b5994141ee0a64d82b5cb2e6ded9cb3205a966e70c79e126",
+              "excerpt": "十一月丙子，曲赦南豫州殊死以下。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p174",
+              "originalRevision": 1,
+              "originalSha256": "528392a5b063e4d13847190dba87e2044db709236ddaf105110197b91e83560e",
+              "excerpt": "按是月壬申朔，無壬寅，當有誤。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p271",
+              "originalRevision": 1,
+              "originalSha256": "8d3bf5d843e096e4005a5beb779ae66efbac1cb4aa268756e28ae0180998630e",
+              "excerpt": "十二月壬寅，遣使開倉賑恤，聽受雜物當租。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p262",
+              "originalRevision": 1,
+              "originalSha256": "bd622b10824df5ca7b0e1f0e4aaee760bfc9c1682520aa01238f10e9dd6bccb9",
+              "excerpt": "七年春正月癸未，詔克日於玄武湖大閱水師，並巡江右，講武校獵。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p271",
+              "originalRevision": 1,
+              "originalSha256": "8d3bf5d843e096e4005a5beb779ae66efbac1cb4aa268756e28ae0180998630e",
+              "excerpt": "十二月壬寅，遣使開倉賑恤，聽受雜物當租。丙午，行幸曆陽。甲寅，大赦，賜曆陽郡女子百戶牛酒，蠲郡租十年。己未，加太宰江夏王義恭尚書令。于博望梁山立雙闕。癸亥，至自曆陽。"
+            }
+          ],
+          "year": 463
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-liyang-tour",
+      "title": "行幸历阳并赦免减租",
+      "summary": "前往历阳，后大赦，释放南豫州另署敕系长徒，停相关兵期考袭谪戍，赐历阳女子牛酒及高年孤疾帛，并免本郡租十年，随后返宫。",
+      "year": 463,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 10,
+      "sourceDate": "大明七年十二月丙午起；甲寅赦免减租、癸亥返回",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p138",
+          "originalRevision": 1,
+          "originalSha256": "df4c61e4ebf51cf399080b3fd9c58f09fbbfc9e619064fb277e855af29156697",
+          "excerpt": "十二月丙午，行幸歷陽。甲寅，大赦天下。南豫州別署勅繫長徒，一切原散。其兵期考襲讁戍，悉停。歷陽郡女子百戶牛酒；高年孤疾，賜帛十匹，蠲郡租十年。己未，太宰江夏王義恭加尚書令。於博望梁山立雙闕。癸亥，車駕至自歷陽。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p271",
+          "originalRevision": 1,
+          "originalSha256": "8d3bf5d843e096e4005a5beb779ae66efbac1cb4aa268756e28ae0180998630e",
+          "excerpt": "十二月壬寅，遣使開倉賑恤，聽受雜物當租。丙午，行幸曆陽。甲寅，大赦，賜曆陽郡女子百戶牛酒，蠲郡租十年。己未，加太宰江夏王義恭尚書令。于博望梁山立雙闕。癸亥，至自曆陽。"
+        }
+      ],
+      "notes": [
+        "丙午赴历阳在西历463年末；其后甲寅大赦减租、癸亥返回已在464年，三项行动各有日期。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-grain-trade-tax",
+      "title": "免贩粮沿途杂税",
+      "summary": "因东境上一年收成不佳，诏停贩运米粟沿途杂税，允许商贩持仗自防；不是全国永久废除一切商税。",
+      "year": 464,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 1,
+      "sourceDate": "大明八年正月甲戌",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p140",
+          "originalRevision": 1,
+          "originalSha256": "338bbb6b054fe9344afbb63c635754ad64faca0f4c628a3bf918c488feb4138d",
+          "excerpt": "八年春正月甲戌，詔曰：「東境去歲不稔，宜廣商貨。遠近販鬻米粟者，[29]可停道中雜稅。其以仗自防，悉勿禁。」"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p139",
+          "originalRevision": 1,
+          "originalSha256": "278b49b57078ccc57a515b989c91947c89b3f6488ba8da2133470fd9ef8a4894",
+          "excerpt": "大明八年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p140",
+          "originalRevision": 1,
+          "originalSha256": "338bbb6b054fe9344afbb63c635754ad64faca0f4c628a3bf918c488feb4138d",
+          "excerpt": "八年春正月甲戌，詔曰：「東境去歲不稔，宜廣商貨。"
+        }
+      ],
+      "notes": [
+        "正月甲戌针对贩米粟途中杂税与持仗自防，不写全国永久废全部商税。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-relieve-jiankang-moling",
+      "title": "出仓米赈建康秣陵",
+      "summary": "因前一年东境旱歉及百姓穷困流冗，下令出仓米交建康、秣陵二县随宜赡恤，并要求及时救济，失时致弃死者严加纠劾。",
+      "year": 464,
+      "precision": "day",
+      "phase": "rule",
+      "sortOrder": 2,
+      "sourceDate": "大明八年二月壬寅",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p141",
+          "originalRevision": 1,
+          "originalSha256": "1206e5086e23e3ef173b0395f64d193a297561820536f6b09914c24176d066d7",
+          "excerpt": "二月辛丑，特進朱脩之卒。壬寅，詔曰：「去歲東境偏旱，田畝失收。使命來者，多至乏絕。或下窮流宂，頓伏街巷，朕甚閔之。可出倉米付建康、秣陵二縣，隨宜贍恤。若濟拯不時，[31]以至捐棄者，嚴加糾劾。」乙巳，以鎮軍將軍湘東王彧為鎮北將軍、徐州刺史。平北將軍、徐州刺史王玄謨為領軍將軍。"
+        }
+      ],
+      "notes": [
+        "“使命来者”所指及句中省略仍待考，不把它确定改述为使者所见或使者本人乏粮。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-death",
+      "title": "崩于玉烛殿",
+      "summary": "在玉烛殿去世，本纪记时年三十五；子业随后即位，不作孝武主动禅让。",
+      "year": 464,
+      "precision": "day",
+      "phase": "fall",
+      "sortOrder": 3,
+      "sourceDate": "大明八年闰五月庚申",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p142",
+          "originalRevision": 1,
+          "originalSha256": "4689f65efd5692b3c9e2b5ecc95a8d4c477a3bf7c0e2163732472cee2ca44145",
+          "excerpt": "夏閏五月辛丑，"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p139",
+          "originalRevision": 1,
+          "originalSha256": "278b49b57078ccc57a515b989c91947c89b3f6488ba8da2133470fd9ef8a4894",
+          "excerpt": "大明八年"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p142",
+          "originalRevision": 1,
+          "originalSha256": "4689f65efd5692b3c9e2b5ecc95a8d4c477a3bf7c0e2163732472cee2ca44145",
+          "excerpt": "夏閏五月辛丑，以前御史中丞蕭惠開為青、冀二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p143",
+          "originalRevision": 1,
+          "originalSha256": "2778b3b9149bfe5872341bfb89fb5d5fd9b6ab6395c36bdd0bc0d60ab332d48a",
+          "excerpt": "庚申，帝崩於玉燭殿，時年三十五。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p273",
+          "originalRevision": 1,
+          "originalSha256": "ca8bb5d3257ddab6fdffb96dff39cc6edb0beb281547fb6f4ae5e8b1c3e671d3",
+          "excerpt": "夏閏五月壬寅，乙太宰江夏王義恭領太尉。庚申，帝崩於玉燭殿，時年三十五。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p272",
+          "originalRevision": 1,
+          "originalSha256": "9677d29a9605aff0a8872eb9738e2650a49b3ee7eae349361945579c609701ed",
+          "excerpt": "八年春正月辛巳，祀南郊。"
+        }
+      ],
+      "notes": [
+        "闰五月从前段明确承继，庚申崩；不把新帝即位写成此人主动禅让。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-burial",
+      "title": "葬景宁陵",
+      "summary": "葬于丹阳秣陵县岩山景宁陵，保留身后沿用的大明纪年。",
+      "year": 464,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 4,
+      "sourceDate": "大明八年七月丙午",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p143",
+          "originalRevision": 1,
+          "originalSha256": "2778b3b9149bfe5872341bfb89fb5d5fd9b6ab6395c36bdd0bc0d60ab332d48a",
+          "excerpt": "秋七月丙午，葬丹陽秣陵縣巖山景寧陵。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p139",
+          "originalRevision": 1,
+          "originalSha256": "278b49b57078ccc57a515b989c91947c89b3f6488ba8da2133470fd9ef8a4894",
+          "excerpt": "大明八年"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p273",
+          "originalRevision": 1,
+          "originalSha256": "ca8bb5d3257ddab6fdffb96dff39cc6edb0beb281547fb6f4ae5e8b1c3e671d3",
+          "excerpt": "七月丙午，葬於丹陽秣陵縣岩山景寧陵。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p272",
+          "originalRevision": 1,
+          "originalSha256": "9677d29a9605aff0a8872eb9738e2650a49b3ee7eae349361945579c609701ed",
+          "excerpt": "八年春正月辛巳，祀南郊。"
+        }
+      ],
+      "notes": [
+        "七月丙午葬景宁陵为身后事，保大明纪年；年号标签不代表本人仍生存。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-empress-joined-mausoleum",
+      "title": "文穆皇后祔葬景宁陵",
+      "summary": "身后文穆皇后祔葬景宁陵；此前八月皇太后崩另有日期。",
+      "year": 464,
+      "precision": "day",
+      "phase": "posthumous",
+      "sortOrder": 5,
+      "sourceDate": "大明八年九月乙卯",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p277",
+          "originalRevision": 1,
+          "originalSha256": "5f0e93cad0e2d72f85e36e2c8b9569ee3b1b3a61af4cc00b70468c6e4c354845",
+          "excerpt": "大明二年，出居東宮。七年，加元服。八年閏五月庚申，孝武崩，其日，太子即皇帝位，大赦。加驃騎大將軍柳元景尚書令。甲子，置錄尚書官，乙太宰江夏王義恭錄尚書事，加驃騎大將軍柳元景開府儀同三司。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p278",
+          "originalRevision": 1,
+          "originalSha256": "d74f683b2dfe3366d29c676672fd9cf1b0ef11832ca2d2ee0a3ff185a07839f2",
+          "excerpt": "秋七月庚戌，婆皇國遣使朝貢。崇皇太后為太皇太后，皇后曰皇太后。乙卯，罷南北二馳道，改孝建以來所變制度，還依元嘉。丙辰，追崇獻妃為獻皇后。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p279",
+          "originalRevision": 1,
+          "originalSha256": "d59876abe1b42b51fa9a90e100cf3a96c310987e9c590fa322de3472b0524a04",
+          "excerpt": "八月己丑，皇太后崩。九月乙卯，文穆皇后祔葬景寧陵。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p97",
+          "originalRevision": 1,
+          "originalSha256": "4e4703d7237602058a66cb66ab72e830266010410c9aac9df3907f5387bd53b0",
+          "excerpt": "孝武帝二十八男。文穆皇后生廢帝子業、豫章王子尚。陳淑媛生晉安王子勳。阮容華生安陸王子綏。徐昭容生皇子子深。何淑儀生松滋侯子房。史昭華生臨海王子頊。殷貴妃生始平孝敬王子鸞。次永嘉王子仁與皇子子深同生。何婕妤生皇子子鳳。謝昭容生始安王子真。江婕妤生皇子子玄。史昭儀生邵陵王子元。次齊敬王子羽與始平孝敬王子鸞同生。江美人生皇子子衡。楊婕妤生淮南王子孟。次皇子子況與皇子子玄同生；次南平王子產與永嘉王子仁同生；次晉陵孝王子雲、次皇子子文並與始平孝敬王子鸞同生；次廬陵王子輿與淮南王子孟同生；次南海哀王子師與始平孝敬王子鸞同生；次淮陽思王子霄與皇子子玄同生；次皇子子雍與始安王子真同生；次皇子子趨與皇子子鳳同生；次皇子子期與皇子子衡同生；次東平王子嗣與始安王子真同生。張容華生皇子子悅。安陸王子綏、南平王子產、廬陵王子輿並出繼。皇子子深、子鳳、子玄、子衡、子況、子文、子雍未封早夭。子趨、子期、子悅未封，為明帝所殺。"
+        }
+      ],
+      "notes": [
+        "子业即位后王皇后进皇太后，路皇太后进太皇太后；崩逝皇太后不误归路氏。该年号沿用不表示刘骏仍在世。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-xiangzhou-shitou",
+      "title": "任湘州刺史并领石头戍",
+      "summary": "授都督湘州诸军事、征虏将军、湘州刺史，领石头戍事；授职不等于已经前往湘州州治。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 1,
+      "sourceDate": "元嘉十六年",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "十六年，都督湘州諸軍事、征虜將軍、湘州刺史，領石頭戍事。"
+        }
+      ],
+      "yearRange": {
+        "start": 439,
+        "end": 440
+      },
+      "notes": [
+        "主传只记元嘉十六年，不能月首作任命日；授湘州刺史与领石头戍事不等于已抵湘州州治。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-nanyuzhou-shitou",
+      "title": "改任南豫州刺史",
+      "summary": "授使持节，都督南豫、豫、司、雍、并五州诸军事、南豫州刺史，仍戍石头。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 2,
+      "sourceDate": "元嘉十七年",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "十七年，遷使持節、都督南豫豫司雍并五州諸軍事、南豫州刺史，將軍如故，猶戍石頭。"
+        }
+      ],
+      "yearRange": {
+        "start": 440,
+        "end": 441
+      },
+      "notes": [
+        "只记十七年；使持节/五州都督/刺史是授官层，仍戍石头，不能写同日抵州。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-fujun-general",
+      "title": "加督秦州并晋号抚军",
+      "summary": "加督秦州，晋号抚军将军。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 3,
+      "sourceDate": "元嘉二十一年",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p1",
+          "originalRevision": 1,
+          "originalSha256": "57d65dc20305088ec3abb148c4e52adb26a7818e9d58484e27a0fce058b20049",
+          "excerpt": "二十一年，加督秦州，進號撫軍將軍。"
+        }
+      ],
+      "yearRange": {
+        "start": 444,
+        "end": 445
+      },
+      "notes": [
+        "只记二十一年，加督秦州并进抚军；全年边界跨444—445，不取年初为事件日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-observe-wei-envoy",
+      "title": "改服旁观张畅与魏使交谈",
+      "summary": "据《南史》，魏太武南下时镇守彭城，派长史张畅与魏使李孝伯交谈，自己改服旁观；李孝伯后称赞其风骨。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 4,
+      "sourceDate": "元嘉二十五年至二十八年镇彭城期间，具体年月未详",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p2",
+          "originalRevision": 1,
+          "originalSha256": "a2b34d577b89c4c324fb8209894b8f67d0d8ce1f1d3fe50c52b8c055a655aba4",
+          "excerpt": "二十五年，改授都督南兗徐兗青冀幽六州豫州之梁郡諸軍事、安北將軍、徐州刺史，持節如故，北鎮彭城。尋領兗州刺史。始興王濬為南兗州，上解督南兗。二十七年，坐汝陽戰敗，降號鎮軍將軍。又以索虜南侵，降為北中郎將。二十八年，進督南兗州、南兗州刺史，當鎮山陽。尋遷都督江州荊州之江夏豫州之西陽晉熙新蔡四郡諸軍事、南中郎將、江州刺史，持節如故。時緣江蠻為寇，太祖遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p170",
+          "originalRevision": 1,
+          "originalSha256": "a9609580ff03bf50904e7074fac95288304127b1f016100552ddfb81c9ab2a97",
+          "excerpt": "十二年，立為武陵王，二十二年，累遷雍州刺史。自晉江左以來，襄陽未有皇子重鎮，時文帝欲經略關、河，故有此授。及魏太武大舉至淮南，時帝鎮彭城，魏使尚書李孝伯至，帝遣長史張暢與語，而帝改服觀之。孝伯目帝不輟，及出，謂人曰：「張侯側有人風骨視瞻，非常士也。」二十八年，為都督、江州刺史。時緣江蠻為寇，文帝遣太子步兵校尉沈慶之等伐之，使上總統眾軍。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p210",
+          "originalRevision": 1,
+          "originalSha256": "7607601b064adefafedcc122a7683f090b876a00d824a3e7a4e97a8c91fffe5f",
+          "excerpt": "二十五年春正月戊辰，詔曰：「比者冰雪經旬，薪粒貴踊，貧弊之室，多有窘罄。可檢行京邑二縣及營署，賜以柴米。」"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p214",
+          "originalRevision": 1,
+          "originalSha256": "53e75d956b3b672778c46a4ecf6a9b22a45b798f084b65d6b99c41a75f2a42d6",
+          "excerpt": "夏四月乙巳，新作閶闔、廣莫二門，改先廣莫門曰承明，開陽曰津陽。乙卯，以撫軍將軍、雍州刺史武陵王駿為安北將軍、徐州刺史。癸亥，以右衞將軍蕭思話為雍州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p238",
+          "originalRevision": 1,
+          "originalSha256": "ac58c895790a812334a69463977cc21304094bb075757867da580e7c579514e8",
+          "excerpt": "元嘉二十八年"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p241",
+          "originalRevision": 1,
+          "originalSha256": "e2a451e101984abe98aa482c0947fea6076afbe581ce6a9f9d389e960bc07f6f",
+          "excerpt": "三月乙酉，車駕還宮。壬辰，征北將軍始興王濬解南兗州。庚子，以輔國將軍臧質為雍州刺史。戊申，徐州刺史武陵王駿為南兗州刺史。甲寅，護軍將軍蕭思話為撫軍將軍、徐兗二州刺史。"
+        },
+        {
+          "chapterId": "songshu-v005",
+          "paragraphId": "songshu-v005-p244",
+          "originalRevision": 1,
+          "originalSha256": "24e7e21f0cad01b4313dcee856462b71ea86180cc1e4eb5c05fafdcd0cce560d",
+          "excerpt": "六月壬戌，以北中郎將武陵王駿為江州刺史，以振武將軍、秦郡太守劉興祖為青、冀二州刺史。"
+        }
+      ],
+      "notes": [
+        "所载事在镇彭城期间，范围据二十五年授徐州、二十八年转南兖及江州的任职记载；未独记会谈日。李孝伯的风骨之评为书中引语。"
+      ],
+      "yearRange": {
+        "start": 448,
+        "end": 451
+      }
+    },
+    {
+      "id": "liu-jun-song-tax-migrants",
+      "title": "始课南徐侨民租",
+      "summary": "开始向南徐州侨民课租。《宋书》只总系本年，《南史》列于十一月段，不借前句癸卯定为课租日。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 5,
+      "sourceDate": "孝建元年；南史系十一月段内",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p26",
+          "originalRevision": 1,
+          "originalSha256": "c0d352538b00c41e7f6f9b097572971cf6af2b9be8d5e222e1f8c0b67f91b2f2",
+          "excerpt": "是歲，始課南徐州僑民租。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p14",
+          "originalRevision": 1,
+          "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+          "excerpt": "孝建元年"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p187",
+          "originalRevision": 1,
+          "originalSha256": "529ac01d1958d8c1d868b67e5a8ef1e1aa4f75f633c674767a7a3226128e29fe",
+          "excerpt": "十一月癸卯，復置都水使者官。始課南徐州僑人租。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p180",
+          "originalRevision": 1,
+          "originalSha256": "8b5e32ad8545920de9e48eebf2efd300dbd21047c4698081080e832ff80a1000",
+          "excerpt": "孝建元年春正月己亥朔，祀南郊，大赦，改元。"
+        }
+      ],
+      "yearRange": {
+        "start": 454,
+        "end": 455
+      },
+      "notes": [
+        "宋书“是岁”全年；南史接十一月段的月级叙次，但癸卯明确用于都水官，不直接给始课侨租同一确日。"
+      ],
+      "variants": [
+        {
+          "label": "南史列十一月段",
+          "sourceDate": "孝建元年十一月，未另记课租日",
+          "summary": "《南史》在十一月恢复都水使者官后列始课租；《宋书》仅总系是岁。保留细粗不同，不借癸卯作为课租确日。",
+          "evidence": [
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p26",
+              "originalRevision": 1,
+              "originalSha256": "c0d352538b00c41e7f6f9b097572971cf6af2b9be8d5e222e1f8c0b67f91b2f2",
+              "excerpt": "是歲，始課南徐州僑民租。"
+            },
+            {
+              "chapterId": "songshu-v006",
+              "paragraphId": "songshu-v006-p14",
+              "originalRevision": 1,
+              "originalSha256": "a9fdbcdb905fea03a1ccab6ca751bb118cbd350a69ff96765ea6891439abbeca",
+              "excerpt": "孝建元年"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p187",
+              "originalRevision": 1,
+              "originalSha256": "529ac01d1958d8c1d868b67e5a8ef1e1aa4f75f633c674767a7a3226128e29fe",
+              "excerpt": "十一月癸卯，復置都水使者官。始課南徐州僑人租。"
+            },
+            {
+              "chapterId": "nanshi-v002",
+              "paragraphId": "nanshi-v002-p180",
+              "originalRevision": 1,
+              "originalSha256": "8b5e32ad8545920de9e48eebf2efd300dbd21047c4698081080e832ff80a1000",
+              "excerpt": "孝建元年春正月己亥朔，祀南郊，大赦，改元。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liu-jun-song-build-yuzhu-hall",
+      "title": "拆旧居兴玉烛殿",
+      "summary": "《南史》记孝武在大明年间拆毁武帝旧居，在原处建玉烛殿，并载其对旧居器物及袁顗称颂的回应。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 6,
+      "sourceDate": "孝武大明中",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v001",
+          "paragraphId": "nanshi-v001-p89",
+          "originalRevision": 1,
+          "originalSha256": "d68939645b2bf8799d5dd3b79204b59edef6b139f1fb99bd5969b8b29106a21f",
+          "excerpt": "微時躬耕於丹徒，及受命，耨耜之具頗有存者，皆命藏之，以留於後。及文帝幸舊宮，見而問焉，左右以實對，文帝色慚。有近侍進曰：「大舜躬耕曆山，伯禹親事土木，陛下不睹列聖之遺物，何以知稼穡之艱難，何以知先帝之至德乎。」及孝武大明中，壞上所居陰室，於其處起玉燭殿，與群臣觀之，床頭有土障，壁上掛葛燈籠、麻繩拂，侍中袁顗盛稱上儉素之德，孝武不答，獨曰：「田舍公得此，已為過矣。」故能光有天下，克成大業，盛矣哉。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p54",
+          "originalRevision": 1,
+          "originalSha256": "fee36495fdc246500adc640040f10f98bfdb1ad079d7d9ed4f19f17bff7ebe9e",
+          "excerpt": "大明元年春正月辛亥朔，改元，大赦天下。賜高年孤疾粟帛各有差。庚午，護軍將軍劉延孫遷職，右衞將軍湘東王彧為中護軍。京邑雨水，辛未，遣使檢行，賜以樵米。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p143",
+          "originalRevision": 1,
+          "originalSha256": "2778b3b9149bfe5872341bfb89fb5d5fd9b6ab6395c36bdd0bc0d60ab332d48a",
+          "excerpt": "庚申，帝崩於玉燭殿，時年三十五。秋七月丙午，葬丹陽秣陵縣巖山景寧陵。"
+        }
+      ],
+      "yearRange": {
+        "start": 457,
+        "end": 464
+      },
+      "notes": [
+        "前半文帝见农具为另一时段、另一人物；不把“田舍公”引语变为对刘裕俭德的客观否定。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-mourn-liu-hong",
+      "title": "痛悼刘宏并作墓志诔文",
+      "summary": "刘宏去世后极为痛悼，每逢朔望出临其灵，亲自写墓志铭和诔。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 7,
+      "sourceDate": "大明二年刘宏薨后，孝武在世期间",
+      "evidence": [
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p67",
+          "originalRevision": 1,
+          "originalSha256": "6a632eb13ab20a3c3fe8b5a69b7f57f64720108de9c4dc9959c6a22626514920",
+          "excerpt": "三月丁未，中書監、尚書令、衞將軍建平王宏薨。乙卯，以田農要月，太官停殺牛。丁卯，上於華林園聽訟。癸酉，以寧朔將軍劉季之為司州刺史。"
+        },
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p51",
+          "originalRevision": 1,
+          "originalSha256": "a2a1ded33061d87bcc9bc9e2c59c4adfe36515b913d418a850ebd0862f9f1828",
+          "excerpt": "元凶弑立，孝武入討，劭錄宏殿內，自拔莫由。孝武先嘗以一手板與巨集，巨集遣左右親信周法道齎手板詣孝武。事平，以為尚書左僕射，使迎太后。還加中軍將軍、中書監。為人謙儉周慎，禮賢接士，明達政事，上甚信仗之。轉尚書令。宏少多病，求解尚書令。以本號開府儀同三司，未拜薨。追贈司徒。上痛悼甚至，每朔望出臨靈，自為墓誌銘並誄。五年，益諸弟國各千戶，薨者不在其例，唯宏追益。子景素嗣。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p143",
+          "originalRevision": 1,
+          "originalSha256": "2778b3b9149bfe5872341bfb89fb5d5fd9b6ab6395c36bdd0bc0d60ab332d48a",
+          "excerpt": "庚申，帝崩於玉燭殿，時年三十五。秋七月丙午，葬丹陽秣陵縣巖山景寧陵。"
+        }
+      ],
+      "notes": [
+        "范围以刘宏薨年及孝武崩年为限；临灵、撰文未各明年月，不借刘宏卒日作为全部活动的确日。"
+      ],
+      "yearRange": {
+        "start": 458,
+        "end": 464
+      }
+    },
+    {
+      "id": "liu-jun-song-decline-music-for-wedding",
+      "title": "不许为刘敬深婚礼借伎",
+      "summary": "刘袆为刘敬深婚礼请求借乐伎时，答以婚礼不举乐且敬深失父孤苦，认为不合适。",
+      "year": null,
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 8,
+      "sourceDate": "元嘉三十年刘铄薨后，孝武在世期间",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p59",
+          "originalRevision": 1,
+          "originalSha256": "699e06f92674dfc26535cd39cf4212d33f7e2bfe6dc28e15c4b5925f1a213855",
+          "excerpt": "文帝諸子，褘尤凡劣，諸兄弟並蚩鄙之。南平王鑠薨，子敬深婚，褘視之，白孝武借伎。孝武答曰：「婚禮既不舉樂，且敬深孤苦，伎非宜也。」至是明帝與建安王休仁詔曰：「人既不比數西方公，汝便為諸王之長。」時褘住西州，故謂之西方公。泰始五年，河東柳欣慰謀反，欲立褘，褘與相酬和。欣慰結征北諮議參軍杜幼文，幼文具奏其事。上暴其罪惡，黜為南豫州刺史、車騎將軍、開府儀同三司。上遣腹心楊運長領兵防衛。明年，又令有司奏褘怨懟，逼令自殺，葬宣城。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p9",
+          "originalRevision": 1,
+          "originalSha256": "e480418f48757f9d1184e33e348f3443dbb1b26c9f10e35007f00f9718a23b7b",
+          "excerpt": "秋七月辛丑朔，日有蝕之。甲寅，詔曰︰「世道未夷，惟憂在國。夫使羣善畢舉，固非一才所議，況以寡德，屬衰薄之期，夙宵寅想，永懷待旦。王公卿士，凡有嘉謀善政，可以維風訓俗，咸達乃誠，無或依隱。」辛酉，詔曰：「百姓勞弊，傜賦尚繁，言念未乂，宜崇約損。凡用非軍國，宜悉停功。可省細作并尚方，雕文靡巧，金銀塗飾，事不關實，嚴為之禁。供御服膳，減除遊侈。水陸捕採，各順時月。官私交市，務令優衷。其江海田池公家規固者，詳所開弛。貴戚競利，悉皆禁絕。」戊戌，[5]以右衞將軍宗慤為廣州刺史。己巳，司空南平王鑠薨。八月辛未，武皇帝舊役軍身，嘗在齋內，人身猶存者，普賜解戶。乙亥，尚書左僕射建平王宏加中書監、中軍將軍。丁亥，以沛郡太守垣閎為寧州刺史，撫軍司馬費沈為梁、南秦二州刺史。甲午，護軍將軍王僧達遷職。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p143",
+          "originalRevision": 1,
+          "originalSha256": "2778b3b9149bfe5872341bfb89fb5d5fd9b6ab6395c36bdd0bc0d60ab332d48a",
+          "excerpt": "庚申，帝崩於玉燭殿，時年三十五。秋七月丙午，葬丹陽秣陵縣巖山景寧陵。"
+        }
+      ],
+      "notes": [
+        "范围据刘铄薨年及孝武崩年；借伎、答复未另明日。后文明帝处分刘袆是另一时段的行为。"
+      ],
+      "yearRange": {
+        "start": 453,
+        "end": 464
+      }
+    },
+    {
+      "id": "liu-jun-song-increase-liu-hong-fief",
+      "title": "给已故刘宏追增封户",
+      "summary": "大明五年为诸弟封国各增一千户，已故者通常不在此例，唯独刘宏获追增。",
+      "year": null,
+      "yearRange": {
+        "start": 461,
+        "end": 462
+      },
+      "precision": "range",
+      "phase": "uncertain",
+      "sortOrder": 9,
+      "sourceDate": "大明五年，未记月日",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p51",
+          "originalRevision": 1,
+          "originalSha256": "a2a1ded33061d87bcc9bc9e2c59c4adfe36515b913d418a850ebd0862f9f1828",
+          "excerpt": "元凶弑立，孝武入討，劭錄宏殿內，自拔莫由。孝武先嘗以一手板與巨集，巨集遣左右親信周法道齎手板詣孝武。事平，以為尚書左僕射，使迎太后。還加中軍將軍、中書監。為人謙儉周慎，禮賢接士，明達政事，上甚信仗之。轉尚書令。宏少多病，求解尚書令。以本號開府儀同三司，未拜薨。追贈司徒。上痛悼甚至，每朔望出臨靈，自為墓誌銘並誄。五年，益諸弟國各千戶，薨者不在其例，唯宏追益。子景素嗣。"
+        },
+        {
+          "chapterId": "songshu-v006",
+          "paragraphId": "songshu-v006-p103",
+          "originalRevision": 1,
+          "originalSha256": "4261d6926304b8f429a6bac833b8ff1849bad4da1e253a65d07dcdc48ed9cdce",
+          "excerpt": "五年春正月丁卯，以宕昌王梁唐子為河州刺史。"
+        }
+      ],
+      "notes": [
+        "本条为追增封户，与刘宏薨后的悼祭、撰文分开；大明五年跨西历461—462年，不补某月某日。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-late-night-drinking",
+      "title": "末年长夜饮酒与应事记述",
+      "summary": "《南史》记末年通宵饮酒、清晨仍饮及倚几惛睡，又记有人奏事时肃容应对；叙述其精神明敏的评价不证明饮酒没有影响。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 10,
+      "sourceDate": "末年，未另记年月",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p274",
+          "originalRevision": 1,
+          "originalSha256": "a7f42ae8289bb29e7f251e674c00ea5a26d6cb5ec9b31a30c67d20c4d80e5186",
+          "excerpt": "帝末年為長夜之飲，"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p274",
+          "originalRevision": 1,
+          "originalSha256": "a7f42ae8289bb29e7f251e674c00ea5a26d6cb5ec9b31a30c67d20c4d80e5186",
+          "excerpt": "或外有奏事，便肅然整容，無復酒色。"
+        },
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p274",
+          "originalRevision": 1,
+          "originalSha256": "a7f42ae8289bb29e7f251e674c00ea5a26d6cb5ec9b31a30c67d20c4d80e5186",
+          "excerpt": "帝末年為長夜之飲，每旦寢興，盥嗽畢，仍復命飲，俄頃數斗，憑幾惛睡，若大醉者。或外有奏事，便肅然整容，無復酒色。外內服其神明，莫敢弛惰。"
+        }
+      ],
+      "notes": [
+        "只称末年，无可核起止，保年代未定；不凭精神明敏评价推饮酒无影响或擅定某一年。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-ziye-desecrates-mausoleum",
+      "title": "前废帝侮辱景宁陵",
+      "summary": "据《南史》，前废帝称不受孝武爱，欲掘景宁陵而因太史谏阻作罢，继而污陵辱骂；并毁孝武为殷贵嫔所建新安寺。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 11,
+      "sourceDate": "前废帝本纪九月；掘陵、毁寺未各明日",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v002",
+          "paragraphId": "nanshi-v002-p286",
+          "originalRevision": 1,
+          "originalSha256": "1aebbf2fe14feac471f4244d165a9051b6f665e67239dbe2d2e55f243f4cd825",
+          "excerpt": "九月癸巳，幸湖熟，奏鼓吹。戊戌，還宮。帝自以為昔在東宮，不為孝武所愛，及即位，將掘景寧陵，太史言於帝不利而止。乃縱糞於陵，肆罵孝武帝為「齇奴」，又遣發殷貴嬪墓，忿其為孝武所寵。初，貴嬪薨，武帝為造新安寺，乃遣壞之。又欲誅諸遠近僧尼。辛丑，免南徐州刺史新安王子鸞為庶人，賜死。丁未，加衛將軍湘東王彧開府儀同三司。己酉，車駕討徐州刺史義陽王昶，內外戒嚴，昶奔魏。戊午，解嚴。開百姓鑄錢。"
+        }
+      ],
+      "notes": [
+        "前废帝的自述与行事分别保留；九月癸巳、戊戌只明确属游湖熟和返宫，不借给污陵、毁寺。新安寺原营建时间也不借此定为前废帝九月。"
+      ]
+    },
+    {
+      "id": "liu-jun-song-posthumous-heir-liu-zan",
+      "title": "明帝命刘赞奉孝武为子",
+      "summary": "明帝诛杀孝武诸子后，下诏让自己的第九子刘赞奉孝武为子，封武陵王。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 12,
+      "sourceDate": "明帝诛孝武诸子后，未另明年日",
+      "evidence": [
+        {
+          "chapterId": "nanshi-v014",
+          "paragraphId": "nanshi-v014-p130",
+          "originalRevision": 1,
+          "originalSha256": "9326064d587c7c182a929e44655f7e2234acbe9b83994b4e5599f5f23a863024",
+          "excerpt": "武陵王贊字仲敷，小字智隨，明帝第九子也。明帝既誅孝武諸子，詔以智隨奉孝武為子，封武陵郡王。順帝升明二年薨，國除。"
+        }
+      ],
+      "notes": [
+        "保留刘赞生父明帝；这是孝武身后命奉，不是孝武生前亲自收养。"
+      ]
+    }
+  ]
+}

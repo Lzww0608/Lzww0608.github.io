@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—5武帝纪、少帝纪、文帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—6武帝纪、少帝纪、文帝纪、孝武帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -10803,7 +10803,8 @@
       "subjects": [
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 60,
@@ -10829,7 +10830,8 @@
       "subjects": [
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 106,
@@ -10966,7 +10968,8 @@
         "liu-yilong-song",
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 306,
@@ -10994,7 +10997,8 @@
         "liu-yilong-song",
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 294,
@@ -11046,7 +11050,8 @@
       "title": "卷 99 · 二凶（刘劭、刘濬）",
       "subjects": [
         "liu-shao-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 52,
@@ -11071,7 +11076,8 @@
       "title": "卷 14 · 宋宗室及诸王下",
       "subjects": [
         "liu-shao-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "scope": "full",
       "paragraphCount": 142,
@@ -11086,6 +11092,33 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&action=history",
         "sourceSha256": "ed4c52dcc8b8a73559d4ce5ba7e22ba716459ed972c5e45726bfae8a551baea3",
         "chapterSha256": "0c7e80d527a99f840a027f8e9d5721449562f7282de5da6fd9027feb47ed931b"
+      }
+    },
+    {
+      "id": "songshu-v006",
+      "bookId": "songshu",
+      "volume": 6,
+      "position": 6,
+      "title": "卷 6 · 孝武帝",
+      "subjects": [
+        "liu-jun-song",
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 177,
+      "characterCount": 14557,
+      "provenance": {
+        "pageTitle": "宋書/卷6",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&oldid=2310150",
+        "revisionId": 2310150,
+        "fetchedAt": "2026-11-10T15:02:01.876901+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&action=history",
+        "sourceSha256": "d5f7bd7af0d1a528e80b78f235781a2f44890e40b761b55e324778f99faa01d0",
+        "chapterSha256": "1ca8ee5e3d8ccaf0c30ac4ef9af27bd943e8b481e9101c8dd54c03e92181a435"
       }
     }
   ]

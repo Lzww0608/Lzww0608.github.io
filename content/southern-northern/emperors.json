@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》卷1—5、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
+  "sourceNote": "据《宋书》卷1—6、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭、刘骏，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -45,13 +45,22 @@
     {
       "title": "南史·宋宗室及诸王下（卷14）",
       "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537"
+    },
+    {
+      "title": "宋书·孝武帝纪（卷6）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&oldid=2310150"
+    },
+    {
+      "title": "南史·宋本纪中（卷02，孝武帝部分）",
+      "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
     }
   ],
   "memberIds": [
     "liu-yu-song",
     "liu-yifu-song",
     "liu-yilong-song",
-    "liu-shao-song"
+    "liu-shao-song",
+    "liu-jun-song"
   ],
   "people": [
     {
@@ -229,6 +238,59 @@
         "本纪二月甲子、两传二十一夜后明旦与尹弘附记二十一平旦分源保留；五月四日明记被擒，处刑未另记日。",
         "刘濬（始兴王）、刘骏（武陵王、孝武帝）与刘绍（庐陵王）各用不同身份；诏书自辩、檄文指控及史家褒贬保留言说层次。",
         "《旧五代史》两处及《五代会要》的相关段落是后世修史引例，并非三份独立的生前记载；各书原有纪年和夹注层次分别保存。"
+      ]
+    },
+    {
+      "id": "liu-jun-song",
+      "name": "刘骏",
+      "dynasty": "刘宋",
+      "role": "刘宋皇帝（孝武帝）",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋孝武帝 宋世祖 休龙",
+      "nameVariants": [
+        "劉駿",
+        "休龍"
+      ],
+      "intro": "刘骏字休龙，是文帝刘义隆第三子，430年出生。先封武陵王，历任湘州、南豫州、雍州、徐州及江州刺史。453年刘劭弑逆后起兵入讨，在新亭即皇帝位，继而平定京邑。次年改元孝建，后改大明，在位时颁行赋役、赈恤和刑狱诏令，先后平定义宣、刘诞等叛乱。464年崩于玉烛殿，葬景宁陵。",
+      "reign": "453—464 年",
+      "reignStart": 453,
+      "reignEnd": 464,
+      "periodLabel": "刘宋 · 453—464 年在位",
+      "birthYear": 430,
+      "deathYear": 464,
+      "lifespan": "430—464 年",
+      "readingStarts": {
+        "songshu": "songshu-v006",
+        "nanshi": "nanshi-v002"
+      },
+      "sources": [
+        {
+          "title": "宋书·孝武帝纪（卷6）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&oldid=2310150"
+        },
+        {
+          "title": "南史·宋本纪中（卷02，孝武帝部分）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+        },
+        {
+          "title": "南史·宋宗室及诸王下（卷14）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537"
+        },
+        {
+          "title": "宋书·文帝纪（卷5，封王与授任）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷5&oldid=2370105"
+        },
+        {
+          "title": "宋书·二凶（卷99，讨劭及即位前后）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B799&oldid=2293550"
+        }
+      ],
+      "sourceNotes": [
+        "刘骏为文帝第三子，先封武陵王，后即位为孝武帝；与始兴王刘濬、庐陵王刘绍为不同的人。",
+        "《宋书》小字道民，《南史》作道人；主传封武陵王作元嘉十二年，文帝本纪作十三年九月癸丑，分别保存。",
+        "四月己巳在新亭即位，先于五月平定刘劭；起兵讨伐、即位与擒杀不写成正常禅让的一次交接。",
+        "本纪派将、将领交战、亲御六师及皇后亲桑分别辨明；广陵屠戮及《南史》的诛令、谏免记载保留原有层次。",
+        "据《宋书》卷6与《南史》既有完整原译参读；所据范围为当前归档，宗室合传中其他人物的事迹依各自原段辨明。"
       ]
     }
   ]

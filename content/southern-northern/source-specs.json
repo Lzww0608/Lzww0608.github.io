@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—5武帝纪、少帝纪、文帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—6武帝纪、少帝纪、文帝纪、孝武帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -65,7 +65,8 @@
       "subjects": [
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 2358186,
       "sourceLocalSubjectsOnly": true,
@@ -82,7 +83,8 @@
       "subjects": [
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 1561312,
       "sourceLocalSubjectsOnly": true,
@@ -117,7 +119,8 @@
         "liu-yilong-song",
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 2370105,
       "sourceLocalSubjectsOnly": true,
@@ -135,7 +138,8 @@
         "liu-yilong-song",
         "liu-yu-song",
         "liu-yifu-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 1561232,
       "sourceLocalSubjectsOnly": true,
@@ -151,7 +155,8 @@
       "page": "宋書/卷99",
       "subjects": [
         "liu-shao-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 2293550,
       "sourceLocalSubjectsOnly": true,
@@ -167,12 +172,31 @@
       "page": "南史/卷14",
       "subjects": [
         "liu-shao-song",
-        "liu-yilong-song"
+        "liu-yilong-song",
+        "liu-jun-song"
       ],
       "fixedRevisionId": 2577537,
       "sourceLocalSubjectsOnly": true,
       "minimumCharacters": 16025,
       "minimumBlocks": 142
+    },
+    {
+      "id": "songshu-v006",
+      "bookId": "songshu",
+      "volume": 6,
+      "position": 6,
+      "title": "卷 6 · 孝武帝",
+      "page": "宋書/卷6",
+      "subjects": [
+        "liu-jun-song",
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song"
+      ],
+      "fixedRevisionId": 2310150,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 14557,
+      "minimumBlocks": 177
     }
   ]
 }
