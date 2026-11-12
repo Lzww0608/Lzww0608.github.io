@@ -97,11 +97,72 @@
       ]
     },
     {
+      "id": "li-jiji-lin-sie-envoy-submission",
+      "title": "林思谔遣使向其归降",
+      "summary": "昭武军节度使林思谔先弃利州，逃往阆州，随后遣使向魏王李继岌归降。《资治通鉴》也记其弃城、遣使请降；修复桔柏浮桥的是李绍琛。",
+      "year": 925,
+      "sortOrder": 3,
+      "precision": "year",
+      "sourceDate": "同光三年十一月编年语境；弃城为回叙，遣使未独记日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v043",
+          "paragraphId": "shiguochunqiu-v043-p4",
+          "originalRevision": 1,
+          "originalSha256": "63a6dd41b763a734218d0b1f7f793751bbd4af3ab72ee577e1e62bda1e2d5282",
+          "excerpt": "及唐將李紹琛至利州，修桔柏梁，思諤先棄城奔閬州，遂遣使詣魏王繼岌降。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p5",
+          "originalRevision": 1,
+          "originalSha256": "f2d212fb1114f098d1b37d755db861c3b7fd8a86496bec8753e9e80be29e2b02",
+          "excerpt": "戊戌，李紹琛至利州，修桔柏浮梁。昭武節度使林思諤先棄城奔閬州，遣使請降。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p3",
+          "originalRevision": 1,
+          "originalSha256": "3c0fc95eb4cd1a755cd3d91b7b6dbdbaa76c4ecd9d0ac84bab8cfe1c2002d35a",
+          "excerpt": "莊宗光聖神閔孝皇帝下同光三年（乙酉，公元九二五年）"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p4",
+          "originalRevision": 1,
+          "originalSha256": "f8d6d20ab12ee38e160822b42cbe609fcec9fa8bec65bb726d3d0b2ecc104015",
+          "excerpt": "十一月，丙申，蜀主至成都，百官及後宮迎於七里亭。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "旧史本纪概称来降",
+          "sourceDate": "同光三年十一月叙次，未独记使降日",
+          "summary": "《旧五代史》记康延孝到利州修吉柏津浮桥，接叙林思谔来降；《十国春秋》与《资治通鉴》则明记遣使。各书措辞分别保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v033",
+              "paragraphId": "old-v033-p9",
+              "originalRevision": 1,
+              "originalSha256": "a359ba9403f75ff958178a7fd2dcf6e8ccdd11ba445ad91bde5541549028e33d",
+              "excerpt": "康延孝至利州，修吉柏津浮梁。偽昭武軍節度使林思諤來降。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "年份据《资治通鉴》同光三年的直接编年语境；年、月两条上下文仅用于定位，不作为李继岌本人行动。",
+        "先弃城为回叙，遣使未独记日；戊戌系李绍琛到利州修桥，不作为林思谔弃城或遣使的确日。",
+        "林思谔遣使不等于本人亲到李继岌面前；这次地方归降与王衍本人出降分别记述。《十国春秋》与《通鉴》的近同记载不据此视作两份独立目击。"
+      ]
+    },
+    {
       "id": "li-jiji-shu-surrender",
       "title": "统军受前蜀归降",
       "summary": "李严带王衍使臣迎魏王，前蜀归降后，郭崇韬主持军政，李继岌作为都统受降和行营指挥。",
       "year": 925,
-      "sortOrder": 3,
+      "sortOrder": 4,
       "precision": "month",
       "sourceDate": "同光三年前蜀归降；本纪十一月魏王至成都、丙辰王衍出降",
       "phase": "service",
@@ -310,6 +371,30 @@
         "start": 925,
         "end": 926
       }
+    },
+    {
+      "id": "li-jiji-zhang-wu-three-prefectures-submission",
+      "title": "张武以夔、忠、万三州来降",
+      "summary": "《十国春秋·张武传》记张武听说北路陷败后，以夔、忠、万三州向魏王李继岌归降。",
+      "year": null,
+      "sortOrder": 21,
+      "precision": "undated",
+      "sourceDate": "张武传接唐兵入蜀、北路陷败之后，未独载归降年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v043",
+          "paragraphId": "shiguochunqiu-v043-p2",
+          "originalRevision": 1,
+          "originalSha256": "0c3decb70d8ff4706793d7d43b0d9fac62aa2a855806c8d92ee0e47522cbeec6",
+          "excerpt": "既而聞北路陷敗，遂以夔、忠、萬三州詣魏王繼岌降。"
+        }
+      ],
+      "notes": [
+        "这条地方归降未独载年月，不沿用林思谔遣使或王衍本人出降的日期；也不能只按本书篇次判断二者先后。",
+        "三州为张武所献，不与王宗寿另献五州相混；原段未记李继岌亲至三州或各州此后实际接管过程。",
+        "张武后来复仕后蜀、加官、进取渝州等另属张武经历，不作李继岌的任命或同年行动。"
+      ]
     }
   ]
 }

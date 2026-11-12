@@ -3,8 +3,8 @@
   "scope": "current-archive",
   "coverage": {
     "bookCount": 17,
-    "chapterCount": 275,
-    "paragraphCount": 11471
+    "chapterCount": 276,
+    "paragraphCount": 11488
   },
   "people": [
     {
@@ -1928,6 +1928,10 @@
       "name": "王承纲女（前蜀入宫女子）"
     },
     {
+      "id": "former-shu-zhou-yanzhang-daughter",
+      "name": "周彦章女（失名）"
+    },
+    {
       "id": "liu-yu-song",
       "name": "刘裕"
     },
@@ -3361,6 +3365,34 @@
       "people": [
         {
           "personId": "feng-dao",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-beimeng-v020-p25",
+      "chapterId": "beimeng-v020",
+      "title": "卷 20 · 第 25 段",
+      "spans": [
+        {
+          "paragraphId": "beimeng-v020-p25",
+          "originalRevision": 1,
+          "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+          "start": 0,
+          "end": 351
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-zhou-yanzhang-daughter",
           "kind": "record"
         }
       ]
@@ -137066,6 +137098,358 @@
         {
           "personId": "wang-yan-former-shu",
           "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p2",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 2 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p2",
+          "originalRevision": 1,
+          "originalSha256": "0c3decb70d8ff4706793d7d43b0d9fac62aa2a855806c8d92ee0e47522cbeec6",
+          "start": 0,
+          "end": 442
+        }
+      ],
+      "people": [
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "gao-jixing",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p3",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 3 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p3",
+          "originalRevision": 1,
+          "originalSha256": "4a5c8a785f25a3780ba3f646cdb3cf2507e7c147ec7953971c0f0c5ea1148f65",
+          "start": 0,
+          "end": 172
+        }
+      ],
+      "people": [
+        {
+          "personId": "dong-zhang",
+          "kind": "record"
+        },
+        {
+          "personId": "meng-zhixiang",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p4",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 4 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p4",
+          "originalRevision": 1,
+          "originalSha256": "63a6dd41b763a734218d0b1f7f793751bbd4af3ab72ee577e1e62bda1e2d5282",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "people": [
+        {
+          "personId": "kang-yanxiao",
+          "kind": "record"
+        },
+        {
+          "personId": "li-jiji",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p5",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 5 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p5",
+          "originalRevision": 1,
+          "originalSha256": "6649cc78230350f668912140397f97c954b483cd53c4ef43bbdb18c02194d9c8",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p6",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 6 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p6",
+          "originalRevision": 1,
+          "originalSha256": "e0ffd83c8263e10e9e4e267a1582857e3829b91e51724b4c04fc4ce6d4e885de",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p8",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 8 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p8",
+          "originalRevision": 1,
+          "originalSha256": "9dca2a94ce48dfb1b005ae390d108abcb229c73689dd96fa9164c611846f7e35",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-wang-jian-xu-shunsheng",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p9",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 9 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p9",
+          "originalRevision": 1,
+          "originalSha256": "e4c0371a515078b9da69dbc4ac315cf35c4f5c858b362a1a4d57ec39866d49ef",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p10",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 10 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p10",
+          "originalRevision": 1,
+          "originalSha256": "5f3e021ba2df2b02257a3c53e1bf794b53e5be291bd72ec15a4d82d5a19e7c80",
+          "start": 0,
+          "end": 2945
+        }
+      ],
+      "people": [
+        {
+          "personId": "an-zhongba",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p11",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 11 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p11",
+          "originalRevision": 1,
+          "originalSha256": "c21a79857f1e9f45a0ef63ae4a415cd69687fdcfc4d983d7fc43585f2fea4859",
+          "start": 0,
+          "end": 785
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p12",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 12 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p12",
+          "originalRevision": 1,
+          "originalSha256": "ce0d24132038d861dcccde5bf525bd752927a33cd6d903b2a131ec53a06789c9",
+          "start": 0,
+          "end": 130
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p13",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 13 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p13",
+          "originalRevision": 1,
+          "originalSha256": "35ed03dddd409677d2bdaf35e9e719c0276c3f4550491284a8e2b739e3169517",
+          "start": 0,
+          "end": 216
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p14",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 14 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p14",
+          "originalRevision": 1,
+          "originalSha256": "5f8d0bd387b507d4b93c8bfe8bf9a9b831b23482a1664da9c58731b4a5629718",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p15",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 15 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p15",
+          "originalRevision": 1,
+          "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-zhou-yanzhang-daughter",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p16",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 16 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p16",
+          "originalRevision": 1,
+          "originalSha256": "25c56e3d8b49cde1c873cb96deebc244c0dddaffb15365f9615898a29bcabc51",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-jian-former-shu",
+          "kind": "record"
+        },
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "record"
+        }
+      ]
+    },
+    {
+      "id": "passage-shiguochunqiu-v043-p17",
+      "chapterId": "shiguochunqiu-v043",
+      "title": "卷 43 · 前蜀文武人物列传 · 第 17 段",
+      "spans": [
+        {
+          "paragraphId": "shiguochunqiu-v043-p17",
+          "originalRevision": 1,
+          "originalSha256": "be0e02961f2758090c013b9e3c6652d4d8a404450be01a0e4bbb9effdfafadd3",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "people": [
+        {
+          "personId": "wang-yan-former-shu",
+          "kind": "mention"
         }
       ]
     },

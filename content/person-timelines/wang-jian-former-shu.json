@@ -831,6 +831,52 @@
       ]
     },
     {
+      "id": "wang-jian-former-shu-wanliqiao-posthumous-temple-rite",
+      "title": "身后在原庙受祭",
+      "summary": "王建去世后，王衍在万里桥立高祖原庙，率后妃、百官，用日常食味和鼓吹祭祀。张士乔以祭礼不合礼制进谏；这是王建身后受祭的记载。",
+      "year": 920,
+      "sortOrder": 1,
+      "precision": "month",
+      "phase": "posthumous",
+      "sourceDate": "本纪乾德二年闰月庚申朔记立庙祭礼；不另换算西历确日",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p3",
+          "originalRevision": 1,
+          "originalSha256": "134ef7c9b024848dd4b9ec88a3a6505c08170e5998f4bf0905ae239d2ef3d7ad",
+          "excerpt": "閏月庚申朔，立高祖原廟於萬里橋，帝帥后妃、百官用褻味作皷吹祭之。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "张士乔传称万岁桥",
+          "sourceDate": "张士乔传未独记立庙及祭礼年月，段首乾德初系其任官",
+          "summary": "张士乔传同记后主率后妃百官祭高祖原庙，用鼓吹及日常食味，桥名作万岁桥。先帝不享这种祭祀是张士乔的进谏意思，并非王建显灵拒享的事实记载。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v043",
+              "paragraphId": "shiguochunqiu-v043-p8",
+              "originalRevision": 1,
+              "originalSha256": "9dca2a94ce48dfb1b005ae390d108abcb229c73689dd96fa9164c611846f7e35",
+              "excerpt": "是時立高祖原廟於萬歲橋，後主帥后妃百官往祭之，祭用鼓吹及褻味。士喬以非禮之祭，先帝勿饗，上疏争之。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p3",
+              "originalRevision": 1,
+              "originalSha256": "134ef7c9b024848dd4b9ec88a3a6505c08170e5998f4bf0905ae239d2ef3d7ad",
+              "excerpt": "閏月庚申朔，立高祖原廟於萬里橋，帝帥后妃、百官用褻味作皷吹祭之。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "立庙及主祭者为王衍，王建是身后祭祀对象；本条与918年葬永陵分别记述。",
+        "万里桥与万岁桥保各来源文字，不据此校改底本或补定今址。庚申朔只系本纪立庙祭礼，不移作后续谏诤、太后劝止或张士乔结局之日。"
+      ]
+    },
+    {
       "id": "wang-jian-former-shu-early-military",
       "year": null,
       "sourceDate": "唐末，主传未逐项标年",
@@ -1327,6 +1373,37 @@
       "notes": [
         "收养、赐姓名与后来的封夔王分开，不把封王或开国时间移作收养年。",
         "宗范母与已登记周后、元膺母张贵妃的同异未明；不据这条收养关系补母亲籍贯、封号或生卒。"
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu-zhou-yanzhang-adoptive-order",
+      "title": "周彦章自述曾奉命与周氏为义亲",
+      "summary": "周彦章拒绝女儿被选入宫时，自述本姓王，曾奉先皇命与周氏作义男、义儿。此处先皇指王建；不表示王建本人收养周彦章。",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 1008,
+      "sourceDate": "后主朝拒选时的追叙；所下义亲命令未独载年月",
+      "evidence": [
+        {
+          "chapterId": "beimeng-v020",
+          "paragraphId": "beimeng-v020-p25",
+          "originalRevision": 1,
+          "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+          "excerpt": "某是先皇令與周氏作義男本姓王為衆所聞也"
+        },
+        {
+          "chapterId": "shiguochunqiu-v043",
+          "paragraphId": "shiguochunqiu-v043-p15",
+          "originalRevision": 1,
+          "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+          "excerpt": "彦章是先皇帝令與周氏作義兒，家世實出於王，衆所聞也。"
+        }
+      ],
+      "notes": [
+        "义亲身份来自周彦章自述，两书近似文句不当作两份独立目击。",
+        "周氏所指、性别、人数和具体义亲关系未详；不据此补父母姓名或王氏宗支。",
+        "先皇所下命令发生在王建生前，但没有可核的下界，不能借女儿被选或后来军变的时期为它定年。"
       ]
     }
   ]

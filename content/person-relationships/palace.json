@@ -14171,5 +14171,171 @@
         "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
       }
     ]
+  },
+  {
+    "id": "former-shu-zhou-yanzhang-daughter-parent",
+    "from": "former-shu-zhou-yanzhang",
+    "to": "former-shu-zhou-yanzhang-daughter",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "两书记周彦章有女；女本名未载。父原姓王的说明不用于改认梁将或补王建亲生关系。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v020",
+        "paragraphId": "beimeng-v020-p25",
+        "originalRevision": 1,
+        "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+        "excerpt": "周彥章本姓王以軍功為金吾衞使後主采選宫妓王有女甚美因命内人欲選入宫王乃按劒曰某是先皇令與周氏作義男本姓王為衆所聞也豈有王氏女而事王氏乎因召左右小軍將無婦者以女衣襟結之便為夫妻",
+        "title": "《北梦琐言》 · 卷 20 · 周彦章附事",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
+      },
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p15",
+        "originalRevision": 1,
+        "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+        "excerpt": "後主采掠宫伎，彦章女有殊色，亦在選中，彦章按劍對使者曰：“彦章是先皇帝令與周氏作義兒，家世實出於王，衆所聞也。豈有王氏女而事王氏者乎？”因召左右小軍無婦者，卽以女衣襟結之，使爲夫婦。",
+        "title": "《十国春秋》 · 卷 43 · 周彦章传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-zhou-yanzhang-daughter-marriage",
+    "from": "former-shu-zhou-yanzhang-daughter",
+    "to": "former-shu-zhou-yanzhang-daughter-husband",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "婚配（父亲当场另嫁）",
+    "note": "父召无妻部下，将女衣襟与其结在一起而为夫妻；不补女方本人拒选或婚配年月。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v020",
+        "paragraphId": "beimeng-v020-p25",
+        "originalRevision": 1,
+        "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+        "excerpt": "周彥章本姓王以軍功為金吾衞使後主采選宫妓王有女甚美因命内人欲選入宫王乃按劒曰某是先皇令與周氏作義男本姓王為衆所聞也豈有王氏女而事王氏乎因召左右小軍將無婦者以女衣襟結之便為夫妻",
+        "title": "《北梦琐言》 · 卷 20 · 周彦章附事",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
+      },
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p15",
+        "originalRevision": 1,
+        "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+        "excerpt": "後主采掠宫伎，彦章女有殊色，亦在選中，彦章按劍對使者曰：“彦章是先皇帝令與周氏作義兒，家世實出於王，衆所聞也。豈有王氏女而事王氏者乎？”因召左右小軍無婦者，卽以女衣襟結之，使爲夫婦。",
+        "title": "《十国春秋》 · 卷 43 · 周彦章传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-zhou-yanzhang-daughter-selection-attempt",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-zhou-yanzhang-daughter",
+    "kind": "conflict",
+    "direction": "undirected",
+    "label": "欲选入宫，父亲拒后另嫁",
+    "note": "仅记录后主命人采选这一直接事件及父亲的应对；不是女方与后主婚配、实际入宫、女本人主动抗争或私下往来的证明。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v020",
+        "paragraphId": "beimeng-v020-p25",
+        "originalRevision": 1,
+        "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+        "excerpt": "周彥章本姓王以軍功為金吾衞使後主采選宫妓王有女甚美因命内人欲選入宫王乃按劒曰某是先皇令與周氏作義男本姓王為衆所聞也豈有王氏女而事王氏乎因召左右小軍將無婦者以女衣襟結之便為夫妻",
+        "title": "《北梦琐言》 · 卷 20 · 周彦章附事",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
+      },
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p15",
+        "originalRevision": 1,
+        "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+        "excerpt": "後主采掠宫伎，彦章女有殊色，亦在選中，彦章按劍對使者曰：“彦章是先皇帝令與周氏作義兒，家世實出於王，衆所聞也。豈有王氏女而事王氏者乎？”因召左右小軍無婦者，卽以女衣襟結之，使爲夫婦。",
+        "title": "《十国春秋》 · 卷 43 · 周彦章传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-zhou-yanzhang-zhou-adoptive-source",
+    "from": "former-shu-zhou-yanzhang",
+    "to": "former-shu-zhou-adoptive-family-source-role",
+    "kind": "adoption",
+    "direction": "undirected",
+    "label": "义亲记载／来源联系",
+    "note": "周彦章自述奉先皇命与周氏作义男／义儿。周氏只作所指未定的来源角色，不指认一个具体养父或女方祖辈。",
+    "sources": [
+      {
+        "chapterId": "beimeng-v020",
+        "paragraphId": "beimeng-v020-p25",
+        "originalRevision": 1,
+        "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+        "excerpt": "周彥章本姓王以軍功為金吾衞使後主采選宫妓王有女甚美因命内人欲選入宫王乃按劒曰某是先皇令與周氏作義男本姓王為衆所聞也豈有王氏女而事王氏乎因召左右小軍將無婦者以女衣襟結之便為夫妻",
+        "title": "《北梦琐言》 · 卷 20 · 周彦章附事",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
+      },
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p15",
+        "originalRevision": 1,
+        "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+        "excerpt": "後主采掠宫伎，彦章女有殊色，亦在選中，彦章按劍對使者曰：“彦章是先皇帝令與周氏作義兒，家世實出於王，衆所聞也。豈有王氏女而事王氏者乎？”因召左右小軍無婦者，卽以女衣襟結之，使爲夫婦。",
+        "title": "《十国春秋》 · 卷 43 · 周彦章传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-yan-xu-yanqiong-yuanjiu-source",
+    "from": "former-shu-xu-yanqiong",
+    "to": "wang-yan-former-shu",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "元舅（十在文所称）",
+    "note": "本传叙咸康元年后主与顾在珣进言，所引《十在文》称徐延琼为君王元舅。连线保存这项舅甥称谓，不据同姓补与某位徐氏的具体姊弟关系；保傅尊官也不改写为唯一具体官名或任命日。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p11",
+        "title": "《十国春秋》卷43 · 林罕传所引《十在文》",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167",
+        "excerpt": "爲君王之元舅，受保傅之尊官；但務奢華，不思輔弼；第宅逈同於上苑，金珠求滿於貪心，有徐延瓊在。"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-yan-pan-zaiying-near-court-source",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-pan-zaiying",
+    "kind": "service",
+    "label": "近臣同宴（刘赞传）",
+    "note": "本传明称潘在迎等为后主近臣并记同宴。只登记这一直接记载，不补具体官名、授任日、其他同宴者姓名或各人的具体行为。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p12",
+        "title": "《十国春秋》卷43 · 刘赞传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167",
+        "excerpt": "後主荒淫無節，日與近臣潘在迎輩宴飲䙝慢，贊獻陳後主三閣圖，并作歌以諷。"
+      }
+    ]
+  },
+  {
+    "id": "an-zhongba-wang-yan-tour-request",
+    "from": "an-zhongba",
+    "to": "wang-yan-former-shu",
+    "kind": "service",
+    "label": "请后主东游",
+    "note": "安重霸与诸人进请，蒲禹卿随后上谏。进请年月未载。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p10",
+        "title": "《十国春秋》卷43 · 蒲禹卿传",
+        "excerpt": "會安重霸等請後主東遊，禹卿上表幾二千言"
+      }
+    ]
   }
 ]

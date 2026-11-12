@@ -194,11 +194,70 @@
       ]
     },
     {
+      "id": "kang-yanxiao-rebuild-lizhou-bridge",
+      "title": "到利州修复桔柏浮桥",
+      "summary": "李绍琛即康延孝。征蜀进至利州，修复王衍退军时拆断的浮桥，继续进军。林思谔传记此处修桥者为李绍琛，随后另叙林思谔遣使向魏王继岌归降。",
+      "year": 925,
+      "sortOrder": 5,
+      "precision": "year",
+      "sourceDate": "同光三年征蜀；通鉴十一月戊戌记至利州修桥，本条仅列西历年",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v043",
+          "paragraphId": "shiguochunqiu-v043-p4",
+          "originalRevision": 1,
+          "originalSha256": "63a6dd41b763a734218d0b1f7f793751bbd4af3ab72ee577e1e62bda1e2d5282",
+          "excerpt": "及唐將李紹琛至利州，修桔柏梁，"
+        },
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p1",
+          "originalRevision": 1,
+          "originalSha256": "8b0cadd5bdccae5d44109b22612961140081dba24f752e6f87146245f653c08d",
+          "excerpt": "莊宗平汴，延孝頗有力焉，以功授檢校太保、鄭州防禦使，賜姓，名紹琛。"
+        },
+        {
+          "chapterId": "old-v074",
+          "paragraphId": "old-v074-p2",
+          "originalRevision": 1,
+          "originalSha256": "cde39a0da19d0b6ed643011898bde5ecf7f04ff12c72cb1c2f03919d0b3fbb0c",
+          "excerpt": "王衍自利州奔歸成都，斷吉柏津浮梁，以絕諸軍。延孝復造浮梁以渡，進收綿州，王衍復斷綿江浮梁而去。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p5",
+          "originalRevision": 1,
+          "originalSha256": "f2d212fb1114f098d1b37d755db861c3b7fd8a86496bec8753e9e80be29e2b02",
+          "excerpt": "戊戌，李紹琛至利州，修桔柏浮梁。"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p3",
+          "originalRevision": 1,
+          "originalSha256": "3c0fc95eb4cd1a755cd3d91b7b6dbdbaa76c4ecd9d0ac84bab8cfe1c2002d35a",
+          "excerpt": "莊宗光聖神閔孝皇帝下同光三年（乙酉，公元九二五年）"
+        },
+        {
+          "chapterId": "tongjian-v274",
+          "paragraphId": "tongjian-v274-p4",
+          "originalRevision": 1,
+          "originalSha256": "f8d6d20ab12ee38e160822b42cbe609fcec9fa8bec65bb726d3d0b2ecc104015",
+          "excerpt": "十一月，丙申，蜀主至成都，百官及後宮迎於七里亭。"
+        }
+      ],
+      "notes": [
+        "旧康传的赐姓名用于核同人；通鉴年、月上下文用于归年，均不是另一次修桥行为。",
+        "各书桔柏梁、桔柏浮梁与吉柏津浮梁分别保留原字，不据此校改底本或补定今址。利州修桥与后来绵江浮渡分开。",
+        "林思谔遣使的对象为魏王李继岌，不写成康延孝受降、派遣林使，亦不以戊戌为林弃城或遣使日。"
+      ]
+    },
+    {
       "id": "kang-yanxiao-mianjiang",
       "title": "与李严浮渡绵江，前入汉州",
       "summary": "不愿耽搁修桥，与李严骑马浮渡绵江，得渡千人而步军溺者亦千余，入鹿头、据汉州，王宗弼来归款。",
       "year": 925,
-      "sortOrder": 5,
+      "sortOrder": 6,
       "precision": "year",
       "sourceDate": "同光三年征蜀；本纪十一月康延孝、李严至汉州与前渡绵江同役",
       "phase": "service",

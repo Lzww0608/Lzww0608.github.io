@@ -151,8 +151,8 @@
     },
     {
       "id": "dong-zhang-death",
-      "title": "败返东川遭王晖杀，首送西川",
-      "summary": "在东川寄居的王晖乘董璋败军率人杀之，将首送孟知祥。",
+      "title": "败返东川遇害，首级送西川",
+      "summary": "董璋败返东川后遇害，首级送往西川。旧史记王晖率众杀之，《十国春秋·王晖传》也称其攻杀董璋；《资治通鉴》另详记潘稠登城斩首。",
       "year": 932,
       "sortOrder": 8,
       "precision": "year",
@@ -179,7 +179,41 @@
           "originalRevision": 1,
           "originalSha256": "0482ad5f9b9e0fa053ace49d5205cc19df259a4a76fa307a640a9218ff27e5b0",
           "excerpt": "戊午，荊南奏：「東川董璋領兵至漢州，西川孟知祥出兵逆戰，璋大敗，得部下人二十餘，走入東川城，尋為前陵州刺史王暉所殺，孟知祥已入梓州。」"
+        },
+        {
+          "chapterId": "shiguochunqiu-v043",
+          "paragraphId": "shiguochunqiu-v043-p3",
+          "originalRevision": 1,
+          "originalSha256": "4a5c8a785f25a3780ba3f646cdb3cf2507e7c147ec7953971c0f0c5ea1148f65",
+          "excerpt": "後攻殺董璋，降孟氏。"
         }
+      ],
+      "variants": [
+        {
+          "label": "通鉴详记王晖等起兵、潘稠斩首",
+          "sourceDate": "长兴三年五月叙次，未独记杀璋日",
+          "summary": "王晖与董延浩率兵闯入军府，董璋带妻儿登城。董璋召潘稠讨乱，潘稠带十卒登城斩董璋，又取董光嗣首交王晖，王晖举城迎降。赵廷隐后来将董璋首级献给孟知祥。",
+          "evidence": [
+            {
+              "chapterId": "tongjian-v277",
+              "paragraphId": "tongjian-v277-p126",
+              "originalRevision": 1,
+              "originalSha256": "ce197cd9961544fbfefc06de40b7485c64e3db0b6ccdbb099a8885b6cc87fc9e",
+              "excerpt": "璋至梓州，肩輿而入，王暉迎問曰：「太尉全軍出征，今還者無十人，何也？」璋涕泣不能對。至府第，方食，暉與璋從子牙內都虞侯延浩帥兵三百大嗓而入。璋引妻子登城，子光嗣自殺。璋至北門樓，呼指揮使潘稠使討亂兵，稠引十卒登城，斬璋首，乃取光嗣首以授王暉，暉舉城迎降。趙廷隱入梓州，封府庫以待知祥。"
+            },
+            {
+              "chapterId": "tongjian-v277",
+              "paragraphId": "tongjian-v277-p126",
+              "originalRevision": 1,
+              "originalSha256": "ce197cd9961544fbfefc06de40b7485c64e3db0b6ccdbb099a8885b6cc87fc9e",
+              "excerpt": "丁亥，復將兵八千如梓州，至新都。趙廷隱獻董璋首。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "《十国春秋》“降孟氏”的主语仍是王晖，不是董璋；本传不证明王晖亲手斩首。",
+        "《通鉴》五月叙次与旧史本纪六月奏报分别保存；奏报日及赵廷隐献首日不作董璋遇害日。"
       ]
     },
     {

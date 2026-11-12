@@ -59,7 +59,7 @@
     },
     {
       "personId": "an-zhongba",
-      "eventCount": 7,
+      "eventCount": 8,
       "eventIds": [
         "an-zhongba-offer-qinzhou",
         "an-zhongba-early-defections",
@@ -67,7 +67,8 @@
         "an-zhongba-remain-qinzhou",
         "an-zhongba-langzhou-court",
         "an-zhongba-transfer-xijing",
-        "an-zhongba-death-return"
+        "an-zhongba-death-return",
+        "an-zhongba-request-wang-yan-east-tour"
       ]
     },
     {
@@ -678,6 +679,13 @@
       "eventIds": [
         "former-shu-wei-zhuang-unnamed-ji-forcibly-taken",
         "former-shu-wei-zhuang-unnamed-ji-hears-poem-and-dies"
+      ]
+    },
+    {
+      "personId": "former-shu-zhou-yanzhang-daughter",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-zhou-yanzhang-daughter-selected-and-married-by-father"
       ]
     },
     {
@@ -1694,12 +1702,13 @@
     },
     {
       "personId": "kang-yanxiao",
-      "eventCount": 11,
+      "eventCount": 12,
       "eventIds": [
         "kang-yanxiao-defect-to-tang",
         "kang-yanxiao-daliang-plan",
         "kang-yanxiao-baoyi",
         "kang-yanxiao-shu-vanguard",
+        "kang-yanxiao-rebuild-lizhou-bridge",
         "kang-yanxiao-mianjiang",
         "kang-yanxiao-conflict-dong",
         "kang-yanxiao-rear-guard",
@@ -2085,17 +2094,19 @@
     },
     {
       "personId": "li-jiji",
-      "eventCount": 9,
+      "eventCount": 11,
       "eventIds": [
         "li-jiji-return-ye",
         "li-jiji-wife-wang-wei-title",
         "li-jiji-shu-commander",
+        "li-jiji-lin-sie-envoy-submission",
         "li-jiji-shu-surrender",
         "li-jiji-kill-chongtao",
         "li-jiji-march-home",
         "li-jiji-appoint-ren",
         "li-jiji-death-weinan",
-        "li-jiji-send-xu-ai-nanzhao-captives"
+        "li-jiji-send-xu-ai-nanzhao-captives",
+        "li-jiji-zhang-wu-three-prefectures-submission"
       ]
     },
     {
@@ -5327,7 +5338,7 @@
     },
     {
       "personId": "wang-jian-former-shu",
-      "eventCount": 34,
+      "eventCount": 36,
       "eventIds": [
         "wang-jian-former-shu-escort-emperor",
         "wang-jian-former-shu-yongping-command",
@@ -5347,6 +5358,7 @@
         "wang-jian-former-shu-tongzheng",
         "wang-jian-former-shu-death",
         "wang-jian-former-shu-buried-yongling",
+        "wang-jian-former-shu-wanliqiao-posthumous-temple-rite",
         "wang-jian-former-shu-early-military",
         "wang-jian-former-shu-attack-hanzhou",
         "wang-jian-former-shu-shannan",
@@ -5362,7 +5374,8 @@
         "wang-jian-former-shu-sees-jiechou-not-presented",
         "wang-jian-former-shu-li-siyi-jianghuochang",
         "wang-jian-former-shu-hat-actions",
-        "wang-jian-former-shu-zongfan-adoption"
+        "wang-jian-former-shu-zongfan-adoption",
+        "wang-jian-former-shu-zhou-yanzhang-adoptive-order"
       ]
     },
     {
@@ -5510,7 +5523,7 @@
     },
     {
       "personId": "wang-yan-former-shu",
-      "eventCount": 20,
+      "eventCount": 26,
       "eventIds": [
         "wang-yan-former-shu-heir",
         "wang-yan-former-shu-accession",
@@ -5522,8 +5535,10 @@
         "wang-yan-former-shu-takes-he-kang-daughter",
         "wang-yan-former-shu-deposes-gao-empress",
         "wang-yan-former-shu-takes-wang-chenggang-daughter",
+        "wang-yan-former-shu-liu-zan-three-pavilions-picture",
         "wang-yan-former-shu-shangqing",
         "wang-yan-former-shu-mountain-tour-with-two-xu",
+        "wang-yan-former-shu-receives-ten-zai-text",
         "wang-yan-former-shu-invasion-and-tour",
         "wang-yan-former-shu-surrender",
         "wang-yan-former-shu-death",
@@ -5531,7 +5546,11 @@
         "wang-yan-former-shu-government",
         "wang-yan-former-shu-northern-tour",
         "wang-yan-former-shu-li-yan-envoy",
-        "wang-yan-former-shu-burial"
+        "wang-yan-former-shu-burial",
+        "wang-yan-former-shu-promotes-pu-yuqing",
+        "wang-yan-former-shu-banishes-zhang-yun-after-comet-remonstrance",
+        "wang-yan-former-shu-disregards-li-guizhen-remonstrance",
+        "wang-yan-former-shu-zhou-daughter-selection-refused"
       ]
     },
     {

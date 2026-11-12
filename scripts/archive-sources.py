@@ -1326,6 +1326,14 @@ for _shunsheng_reader_spec in SPECS:
     if _shunsheng_reader_spec['id'] in _SHUNSHENG_LEGACY_READER_SUBJECTS:
         _shunsheng_reader_spec['subjects'] = list(_SHUNSHENG_LEGACY_READER_SUBJECTS[_shunsheng_reader_spec['id']])
 
+# Complete fixed volume and source-local reader subjects.
+SPECS.append(json.loads('{"id": "shiguochunqiu-v043", "bookId": "shiguochunqiu", "volume": 43, "position": 43, "title": "卷 43 · 前蜀文武人物列传", "page": "十國春秋/卷043", "subjects": ["an-zhongba", "dong-zhang", "former-shu-wang-jian-xu-shunsheng", "former-shu-zhou-yanzhang-daughter", "gao-jixing", "kang-yanxiao", "li-jiji", "meng-zhixiang", "wang-jian-former-shu", "wang-yan-former-shu"], "sourceLocalSubjectsOnly": true, "fixedRevisionId": 2440167, "minimumCharacters": 5791, "minimumBlocks": 17}'))
+SOUTHERN_TANG_COMPLETE_NOTES['shiguochunqiu-v043'] = json.loads('["本页完整收录所选卷保存来源的正文、标题、夹注、史论及诗文；原文字形、标点与块次照存。", "古籍原作已属公版；维基文库整理文本按 CC BY-SA 4.0 署名并以相同方式共享。", "本卷据保存的维基文库页面完整渲染正文整理，报告的父页修订号为2440167；转引子页修订未逐一固定。相近转引不视为独立史料复证。"]')
+_sg43_bm = next(spec for spec in SPECS if spec['id'] == 'beimeng-v020')
+_sg43_bm['subjects'] = list(dict.fromkeys([*_sg43_bm['subjects'], *json.loads('["li-cunxu", "wang-yanzhang", "feng-dao", "wang-jian-former-shu", "wang-yan-former-shu", "former-shu-zhou-yanzhang-daughter"]')]))
+_sg43_bm['sourceLocalSubjectsOnly'] = True
+next(book for book in BOOKS if book['id'] == 'shiguochunqiu')['description'] = '现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，卷 37 的前蜀后主本纪、卷 38 的前蜀后妃宗室列传，卷 39—41 的前蜀文臣与诸将列传，卷 43 的前蜀文武人物列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。'
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

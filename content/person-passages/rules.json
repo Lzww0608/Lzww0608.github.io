@@ -5440,6 +5440,23 @@
       "sourceScope": {
         "chapterIds": []
       }
+    },
+    {
+      "personId": "former-shu-zhou-yanzhang-daughter",
+      "names": [
+        "周彦章女（失名）",
+        "周彥章女（失名）",
+        "前蜀周彦章女",
+        "前蜀周彥章女",
+        "周彦章之女",
+        "周彥章之女"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -16255,6 +16272,16 @@
       "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。同段比较中的继岌为李继岌，只标评论提及，不增个人事件。",
       "originalRevision": 1,
       "originalSha256": "c1fe5ebfaefd095c9aacea29189875995b0fa9e3a8b2efe52b514e82f4b479f6"
+    },
+    {
+      "personId": "kang-huaiying",
+      "paragraphId": "shiguochunqiu-v043-p10",
+      "terms": [
+        "懷英"
+      ],
+      "reason": "“深负规模，独怀英鉴”是谏表对王衍的颂语，“怀英”在此跨词而非康怀英姓名；仅排除此原段的该词，不删除人物真实异名或其他记载。",
+      "originalRevision": 1,
+      "originalSha256": "5f3e021ba2df2b02257a3c53e1bf794b53e5be291bd72ec15a4d82d5a19e7c80"
     }
   ],
   "regnalEdicts": {
@@ -16767,7 +16794,8 @@
         "jiuguozhi-v006",
         "beimeng-v012",
         "new-v35",
-        "shiguochunqiu-v037"
+        "shiguochunqiu-v037",
+        "shiguochunqiu-v043"
       ]
     }
   }
