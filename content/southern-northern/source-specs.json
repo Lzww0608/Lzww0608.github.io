@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—6武帝纪、少帝纪、文帝纪、孝武帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—7帝纪及卷99二凶的完整正文、夹注和校勘记；卷7另保存该页卷首题署与作者栏，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -139,7 +139,8 @@
         "liu-yu-song",
         "liu-yifu-song",
         "liu-shao-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "fixedRevisionId": 1561232,
       "sourceLocalSubjectsOnly": true,
@@ -156,7 +157,8 @@
       "subjects": [
         "liu-shao-song",
         "liu-yilong-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "fixedRevisionId": 2293550,
       "sourceLocalSubjectsOnly": true,
@@ -173,7 +175,8 @@
       "subjects": [
         "liu-shao-song",
         "liu-yilong-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "fixedRevisionId": 2577537,
       "sourceLocalSubjectsOnly": true,
@@ -191,12 +194,38 @@
         "liu-jun-song",
         "liu-yu-song",
         "liu-yilong-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-ziye-song"
       ],
       "fixedRevisionId": 2310150,
       "sourceLocalSubjectsOnly": true,
       "minimumCharacters": 14557,
       "minimumBlocks": 177
+    },
+    {
+      "id": "songshu-v007",
+      "bookId": "songshu",
+      "volume": 7,
+      "position": 7,
+      "title": "卷 7 · 前废帝",
+      "page": "宋書/卷7",
+      "subjects": [
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song",
+        "liu-jun-song",
+        "liu-ziye-song"
+      ],
+      "fixedRevisionId": 2368147,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 4829,
+      "minimumBlocks": 53,
+      "sourceHeader": {
+        "headerTitle": "宋書卷七",
+        "headerSerial": "本紀第七",
+        "headerAuthor": "作者：沈約　南梁",
+        "headerSubject": "前廢帝"
+      }
     }
   ]
 }

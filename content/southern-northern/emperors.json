@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》卷1—6、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭、刘骏，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
+  "sourceNote": "据《宋书》卷1—7、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭、刘骏、刘子业，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -53,6 +53,14 @@
     {
       "title": "南史·宋本纪中（卷02，孝武帝部分）",
       "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+    },
+    {
+      "title": "宋书·前废帝纪（卷7）",
+      "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷7&oldid=2368147"
+    },
+    {
+      "title": "南史·宋本纪中（卷02，前废帝部分）",
+      "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
     }
   ],
   "memberIds": [
@@ -60,7 +68,8 @@
     "liu-yifu-song",
     "liu-yilong-song",
     "liu-shao-song",
-    "liu-jun-song"
+    "liu-jun-song",
+    "liu-ziye-song"
   ],
   "people": [
     {
@@ -291,6 +300,59 @@
         "四月己巳在新亭即位，先于五月平定刘劭；起兵讨伐、即位与擒杀不写成正常禅让的一次交接。",
         "本纪派将、将领交战、亲御六师及皇后亲桑分别辨明；广陵屠戮及《南史》的诛令、谏免记载保留原有层次。",
         "据《宋书》卷6与《南史》既有完整原译参读；所据范围为当前归档，宗室合传中其他人物的事迹依各自原段辨明。"
+      ]
+    },
+    {
+      "id": "liu-ziye-song",
+      "name": "刘子业",
+      "dynasty": "刘宋",
+      "role": "刘宋前废帝",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋前废帝 法师",
+      "nameVariants": [
+        "劉子業",
+        "法師"
+      ],
+      "intro": "刘子业小字法师，是孝武帝刘骏长子，母为文穆皇后王氏。元嘉二十六年出生，453年孝武起兵讨刘劭时留在京城，遭刘劭拘禁，多次险被杀害，最终获免。孝建元年立为皇太子，464年孝武去世当天即位，先后改元永光、景和。在位时亲率宿卫诛杀刘义恭等大臣，囚辱诸叔，出兵征讨刘昶。466年被寿寂之追杀，死后葬于丹阳秣陵县南郊坛西。",
+      "reign": "464—466 年",
+      "reignStart": 464,
+      "reignEnd": 466,
+      "periodLabel": "刘宋 · 464—466 年在位",
+      "birthYear": 449,
+      "deathYear": 466,
+      "lifespan": "449—466 年",
+      "readingStarts": {
+        "songshu": "songshu-v007",
+        "nanshi": "nanshi-v002"
+      },
+      "sources": [
+        {
+          "title": "宋书·前废帝纪（卷7）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷7&oldid=2368147"
+        },
+        {
+          "title": "南史·宋本纪中（卷02，前废帝部分）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+        },
+        {
+          "title": "宋书·孝武帝纪（卷6）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷6&oldid=2310150"
+        },
+        {
+          "title": "宋书·二凶（卷99）",
+          "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷99&oldid=2293550"
+        },
+        {
+          "title": "南史·宋宗室及诸王下（卷14）",
+          "url": "https://zh.wikisource.org/w/index.php?title=南史/卷14&oldid=2577537"
+        }
+      ],
+      "sourceNotes": [
+        "元嘉二十六年正月甲申出生；景和元年十一月戊午夜被杀已跨西历466年。保留原书记日与时年十七，不据卒寿倒填生年。",
+        "孝武去世与太子同日即位据本纪，非禅让；孝建元年正式立太子另据孝武本纪，与前废帝主传概述分开。",
+        "《宋书》记华林园竹林堂射鬼后被追杀，《南史》记崩于华光殿，地点叙法分源保留。",
+        "王藻死日己卯与丁卯、刘胜/矇/蒙及米一升/一斗等原书异文分别保存，不拼成唯一文本。",
+        "太皇太后令的指控、巫言梦兆与史家评论保留言说层次；拟掘父陵、欲立冒认孩子为太子等未遂事不写成既成。"
       ]
     }
   ]

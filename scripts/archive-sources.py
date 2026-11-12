@@ -843,6 +843,142 @@ def extract(html, with_tags=False, index_page=False, inline_glyphs=None):
         raise ValueError('Inline glyph counts do not match selected source')
     return blocks
 
+# Explicit source-header mode. No selection means the existing extractor is unchanged.
+# One reviewed saved rendering is registered; another page/rendering needs a new review.
+SOURCE_HEADER_REGISTRATION = {
+    'id': 'songshu-v007', 'bookId': 'songshu', 'volume': 7, 'title': '卷 7 · 前废帝',
+    'page': '宋書/卷7', 'fixedRevisionId': 2368147, 'pageid': 18384,
+    'htmlSha256': '654ce316cd71eaa8e23d68642ea55b09ad40b956a5907c7db97f0e8565fdedf7',
+    'policy': {'headerTitle': '宋書卷七', 'headerSerial': '本紀第七',
+               'headerAuthor': '作者：沈約　南梁', 'headerSubject': '前廢帝'},
+}
+
+
+def selected_source_header(payload):
+    selection = payload.get('selection', {})
+    if not isinstance(selection, dict):
+        raise ValueError('Invalid captured source selection')
+    if 'sourceHeader' not in selection:
+        return None
+    policy = selection['sourceHeader']
+    expected = SOURCE_HEADER_REGISTRATION
+    if (set(selection) != {'sourceHeader'} or not isinstance(policy, dict)
+            or set(policy) != set(expected['policy'])
+            or not all(isinstance(value, str) and value for value in policy.values())
+            or policy != expected['policy']):
+        raise ValueError('Invalid explicitly selected source header')
+    parsed = payload.get('response', {}).get('parse', {})
+    if (parsed.get('title') != expected['page']
+            or type(parsed.get('revid')) is not int
+            or parsed['revid'] != expected['fixedRevisionId']
+            or type(parsed.get('pageid')) is not int
+            or parsed['pageid'] != expected['pageid']):
+        raise ValueError('Selected source header parent changed')
+    html = parsed.get('text', {}).get('*')
+    if (not isinstance(html, str)
+            or hashlib.sha256(html.encode('utf-8')).hexdigest() != expected['htmlSha256']):
+        raise ValueError('Selected source header saved rendering changed')
+    return policy
+
+
+def validate_source_header_spec(spec):
+    # Presence is deliberate: null/False legacy flags cannot silently combine modes.
+    if any(key in spec for key in ('transcription', 'inlineGlyphs', 'sourceSection', 'indexPage')):
+        raise ValueError('Source header cannot combine selection modes')
+    expected = SOURCE_HEADER_REGISTRATION
+    if (any(spec.get(key) != expected[key] for key in ('id', 'bookId', 'volume', 'title', 'page', 'fixedRevisionId'))
+            or type(spec.get('volume')) is not int
+            or type(spec.get('fixedRevisionId')) is not int
+            or 'position' in spec and (type(spec['position']) is not int or spec['position'] != 7)
+            or spec.get('sourceHeader') != expected['policy']):
+        raise ValueError('Source header requires its explicitly fixed source specification')
+
+
+def source_header_details(payload):
+    policy = selected_source_header(payload)
+    if policy is None:
+        raise ValueError('Source header requires explicit selection')
+
+    def walk(node):
+        yield node
+        for child in node.children:
+            if isinstance(child, Node):
+                yield from walk(child)
+
+    def normalize(value):
+        # Preserve U+3000 in the literal author line.
+        return re.sub(r' *\n *', '\n', re.sub(r'[\t\r\f\v ]+', ' ', value)).strip()
+
+    def header_text(node):
+        if node.attrs.get('id') == 'plainSister' or excluded(node):
+            return ''
+        if node.tag == 'img':
+            raise ValueError('Unselected image in substantive source header')
+        if node.tag == 'br':
+            return '\n'
+        return ''.join(header_text(child) if isinstance(child, Node) else child
+                       for child in node.children)
+
+    html = payload['response']['parse']['text']['*']
+    document = Document(html).root
+    headers = [node for node in walk(document) if node.attrs.get('id') == 'headerContainer']
+    if len(headers) != 1 or headers[0].tag != 'div':
+        raise ValueError('Selected source header container changed')
+    header = headers[0]
+    tables = [node for node in walk(header) if node.tag == 'table']
+    if len(tables) != 2:
+        raise ValueError('Selected source header table shape changed')
+    if any(isinstance(child, Node) and child not in tables or isinstance(child, str) and child.strip()
+           for child in header.children):
+        raise ValueError('Unselected content in source header container')
+    cells = [node for node in walk(tables[0]) if node.tag == 'td']
+    centers = [node for node in cells
+               if re.search(r'(?:^|;)\s*width\s*:\s*50%\s*(?:;|$)', node.attrs.get('style', ''))]
+    if (len(cells) != 5 or len(centers) != 1 or cells[2] is not centers[0]
+            or normalize(header_text(centers[0])).split('\n') !=
+               [policy['headerTitle'], policy['headerSerial'], policy['headerAuthor']]):
+        raise ValueError('Selected source title, serial or author changed')
+    # The other first-table cells are navigation, never source blocks.
+    if [normalize(node.text()) for node in cells[:2] + cells[3:]] != ['←', '本紀第六', '本紀第八', '→']:
+        raise ValueError('Selected source header navigation shape changed')
+    subjects = [node for node in walk(tables[1]) if node.tag == 'td']
+    sisters = [node for node in walk(header) if node.attrs.get('id') == 'plainSister']
+    if (len(subjects) != 1 or len(sisters) != 1 or sisters[0].tag != 'ul'
+            or sisters[0] not in list(walk(subjects[0]))
+            or normalize(header_text(subjects[0])) != policy['headerSubject']):
+        raise ValueError('Selected independent source subject changed')
+
+    def check_body_images(node):
+        if node is header or excluded(node):
+            return
+        if node.tag == 'img':
+            raise ValueError('Unselected image in retained source body')
+        for child in node.children:
+            if isinstance(child, Node):
+                check_body_images(child)
+
+    check_body_images(document)
+    body = extract(html, with_tags=True)
+    # A future long header preface must not be both selected and emitted by default.
+    if any(tag == 'td' for _, tag in body):
+        raise ValueError('Source header overlaps default bibliographic preface')
+    return dict(blocks=[(policy['headerTitle'], 'h1'), (policy['headerSerial'], 'h2'),
+                        (policy['headerAuthor'], 'p'), (policy['headerSubject'], 'h3')] + body,
+                body=body)
+
+
+def validate_captured_source_header(payload, spec):
+    selection = payload.get('selection', {})
+    if not isinstance(selection, dict):
+        raise ValueError('Invalid captured source selection')
+    wanted, present = 'sourceHeader' in spec, 'sourceHeader' in selection
+    if wanted != present or wanted and selection['sourceHeader'] != spec['sourceHeader']:
+        raise ValueError('Captured source header selection changed')
+    if wanted:
+        validate_source_header_spec(spec)
+        source_header_details(payload)
+
+
 def selected_transcription(payload):
     policy = payload.get('selection', {}).get('transcription')
     if policy is None:
@@ -970,6 +1106,9 @@ def source_blocks(payload, with_tags=False):
     selection = payload.get('selection', {})
     if not isinstance(selection, dict):
         raise ValueError('Invalid source selection')
+    if 'sourceHeader' in selection:
+        blocks = source_header_details(payload)['blocks']
+        return blocks if with_tags else [text for text, _ in blocks]
     if 'inlineGlyphs' in selection and (set(selection) != {'inlineGlyphs'} or selection['inlineGlyphs'] is None):
         raise ValueError('Invalid inline glyph source selection')
     # Presence matters: explicitly null/empty policies must never fall back.
@@ -1006,6 +1145,9 @@ def request(params):
             time.sleep(2 ** attempt)
 
 def capture(spec, previous=None):
+    source_header_selected = 'sourceHeader' in spec
+    if source_header_selected:
+        validate_source_header_spec(spec)
     transcription_selected = 'transcription' in spec
     if 'inlineGlyphs' in spec and (spec['inlineGlyphs'] is None or transcription_selected or spec.get('sourceSection') or spec.get('indexPage')):
         raise ValueError('Invalid inline glyph specification')
@@ -1027,6 +1169,7 @@ def capture(spec, previous=None):
                     or cached_source['response']['parse']['revid'] != spec['fixedRevisionId']):
                 raise ValueError(f"Fixed source revision changed: {spec['id']}")
         cached_source = json.loads(path.read_text())
+        validate_captured_source_header(cached_source, spec)
         validate_captured_transcription(cached_source, spec)
         if (('inlineGlyphs' in cached_source.get('selection', {})) != ('inlineGlyphs' in spec)
                 or cached_source.get('selection', {}).get('inlineGlyphs') != spec.get('inlineGlyphs')):
@@ -1034,6 +1177,8 @@ def capture(spec, previous=None):
         if cached_source.get('selection', {}).get('sourceSection') != spec.get('sourceSection'):
             raise ValueError(f"Source section changed: {spec['id']}")
         cached = json.loads(chapter_path.read_text())
+        if source_header_selected and source_blocks(cached_source) != [p['original'] for p in cached['paragraphs']]:
+            raise ValueError(f"Captured source header chapter changed: {spec['id']}")
         return {**previous, 'subjects': chapter_subjects(spec, [p['original'] for p in cached['paragraphs']], previous['subjects'])}
     if path.exists():
         payload = json.loads(path.read_text())
@@ -1046,7 +1191,10 @@ def capture(spec, previous=None):
         if spec.get('sourceSection'): payload['selection'] = {'sourceSection': spec['sourceSection']}
         if transcription_selected: payload['selection'] = {'transcription': spec['transcription']}
         if 'inlineGlyphs' in spec: payload['selection'] = {'inlineGlyphs': spec['inlineGlyphs']}
+        if source_header_selected: payload['selection'] = {'sourceHeader': spec['sourceHeader']}
+        validate_captured_source_header(payload, spec)
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
+    validate_captured_source_header(payload, spec)
     validate_captured_transcription(payload, spec)
     if (('inlineGlyphs' in payload.get('selection', {})) != ('inlineGlyphs' in spec)
             or payload.get('selection', {}).get('inlineGlyphs') != spec.get('inlineGlyphs')):
@@ -1071,6 +1219,8 @@ def capture(spec, previous=None):
         '本页完整收录所选卷的来源文本，保留原页正文、序文与夹注；原文使用繁体字。段落划分依来源页面的段落与空行，标题亦作为独立文字块保留。',
         '古籍原作已属公版；维基文库的整理、标点与页面文本按 CC BY-SA 4.0 署名并以相同方式共享。底本、校勘与叙事差异请参照版本信息。',
     ]
+    if source_header_selected:
+        notes.append('本卷另完整保存原页卷题、纪序、作者署名与独立帝号题；署名为页面题署层。父页修订与所保存的渲染文本已固定，页面所引模板及子页修订未逐一固定。')
     if book['id'] == 'old': notes.append('《旧五代史》为辑佚本。正文保留《永乐大典》《册府元龟》等出处及整理者按语，不把夹注删作缺文。')
     if spec['id'] in {'old-v025', 'old-v026'}: notes.append('本卷记李克用及其先世、麾下人物与继承前后史事。李克用生前为晋王，武皇帝为后唐追尊，不表示其生前称帝。')
     if spec['id'] == 'tongjian-v262': notes.append('本页完整收录《资治通鉴》卷 262 的晚唐记事，补充吴国相关人物的早期材料。原书记年与西历年分别核验，不把邻段月日移给未明确纪日的婚家记载；其他已收卷见书籍目录，不表示全书已收录。')
@@ -1103,7 +1253,7 @@ def capture(spec, previous=None):
     position = spec.get('position', spec['volume'])
     chapter = dict(id=spec['id'], title=spec['title'], position=position, scope='full', sourceUrl=source_url, notes=notes, bookId=book['id'], bookTitle=book['title'], author=book['author'], editionId=book['id']+'-local-wikisource', edition='维基文库整理文本 · 本地归档', paragraphs=[dict(id=spec['id']+f'-p{index+1}', position=index+1, revision=1, original=text, translation=None) for index, text in enumerate(paragraphs)])
     chapter_path.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n')
-    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly', 'transcription', 'inlineGlyphs'}}
+    summary = {key: value for key, value in spec.items() if key not in {'page', 'indexPage', 'minimumCharacters', 'minimumBlocks', 'scanSubjects', 'fixedRevisionId', 'sourceLocalSubjectsOnly', 'transcription', 'inlineGlyphs', 'sourceHeader'}}
     summary.update(subjects=subjects, position=position, scope='full', paragraphCount=len(paragraphs), characterCount=length, provenance=dict(pageTitle=spec['page'], sourceUrl=source_url, revisionId=parsed['revid'], fetchedAt=payload['fetchedAt'], license=LICENSE, licenseUrl=LICENSE_URL, contributorsUrl='https://zh.wikisource.org/w/index.php?'+urllib.parse.urlencode(dict(title=spec['page'], action='history')), sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest(), chapterSha256=hashlib.sha256(chapter_path.read_bytes()).hexdigest()))
     print(f"{spec['id']}: {len(paragraphs)} blocks, {length} characters, revision {parsed['revid']}", flush=True)
     return summary

@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—6武帝纪、少帝纪、文帝纪、孝武帝纪及卷99二凶完整文本，保留原页标题、正文、夹注与校勘记，不表示全书已收录。",
+      "description": "现收卷1—7帝纪及卷99二凶的完整正文、夹注和校勘记；卷7另保存该页卷首题署与作者栏，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -11012,7 +11012,8 @@
         "liu-yu-song",
         "liu-yifu-song",
         "liu-shao-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "scope": "full",
       "paragraphCount": 294,
@@ -11065,7 +11066,8 @@
       "subjects": [
         "liu-shao-song",
         "liu-yilong-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "scope": "full",
       "paragraphCount": 52,
@@ -11091,7 +11093,8 @@
       "subjects": [
         "liu-shao-song",
         "liu-yilong-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-ziye-song"
       ],
       "scope": "full",
       "paragraphCount": 142,
@@ -11118,7 +11121,8 @@
         "liu-jun-song",
         "liu-yu-song",
         "liu-yilong-song",
-        "liu-shao-song"
+        "liu-shao-song",
+        "liu-ziye-song"
       ],
       "scope": "full",
       "paragraphCount": 177,
@@ -11133,6 +11137,34 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&action=history",
         "sourceSha256": "d5f7bd7af0d1a528e80b78f235781a2f44890e40b761b55e324778f99faa01d0",
         "chapterSha256": "1ca8ee5e3d8ccaf0c30ac4ef9af27bd943e8b481e9101c8dd54c03e92181a435"
+      }
+    },
+    {
+      "id": "songshu-v007",
+      "bookId": "songshu",
+      "volume": 7,
+      "position": 7,
+      "title": "卷 7 · 前废帝",
+      "subjects": [
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song",
+        "liu-jun-song",
+        "liu-ziye-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 53,
+      "characterCount": 4829,
+      "provenance": {
+        "pageTitle": "宋書/卷7",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B77&oldid=2368147",
+        "revisionId": 2368147,
+        "fetchedAt": "2026-11-12T04:13:39.429495+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B77&action=history",
+        "sourceSha256": "1591890afaa92d18033f8753ef78826016190e4c38959863a2fb9132afe02f87",
+        "chapterSha256": "3696148a1ccf097ca0c3f7f17db17150f8ca0e4b9dcc8cb614070039f99d915e"
       }
     }
   ]
