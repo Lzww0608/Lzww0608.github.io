@@ -3027,5 +3027,223 @@
         "excerpt": "楊涉、張策、薛貽矩、趙光逢以次奉寶升殿，讀已，降，帥百官舞蹈稱賀。"
       }
     ]
+  },
+  {
+    "id": "du-xiao-shenquan-grandparentage",
+    "from": "du-xiao-grandfather-shenquan",
+    "to": "du-xiao",
+    "kind": "kinship",
+    "label": "祖孙",
+    "note": "两传明称祖审权，仕唐为相；只记直接祖孙关系，不在关联节点之间另补父子链。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "杜曉，字明遠，京兆杜陵人。祖審權，仕唐，位至宰相。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "當唐之亡也，又有杜曉者，字明遠。祖審權，父讓能，皆為唐相。"
+      }
+    ]
+  },
+  {
+    "id": "du-xiao-rangneng-parentage",
+    "from": "du-xiao-father-rangneng",
+    "to": "du-xiao",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "两传称父让能，通鉴称晓为让能之子；仅据原名和亲属句，不由其父结局倒算杜晓生年。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "父讓能，官至守太尉、平章事。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "祖審權，父讓能，皆為唐相。"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p72",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "曉，讓能之子也。"
+      }
+    ]
+  },
+  {
+    "id": "du-xiao-guangyi-brotherhood",
+    "from": "du-xiao-brother-guangyi",
+    "to": "du-xiao",
+    "kind": "kinship",
+    "label": "兄弟",
+    "note": "光乂为兄，杜晓为弟；旧传记光乂病作时杜晓恭敬奉事，未记年月，夹注启之保留引书层。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p11",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "兄光乂，〈（《新唐書》表：光乂，字啟之。）〉有心疹，厥疾每作，或溢喙縱詬，或揮梃追撲，曉事之愈恭，未嘗一日少怠。"
+      }
+    ]
+  },
+  {
+    "id": "cui-yin-du-xiao-declined-recruitment",
+    "from": "cui-yin-du-xiao-recruiter",
+    "to": "du-xiao",
+    "kind": "service",
+    "label": "荐辟而未就",
+    "note": "旧传作崔允，新传作崔胤；杜晓皆不起，不说已在其幕任职。旧传巡官兼校书郎、畿尉、宏文馆与新传巡官、畿县尉、昭文馆分别保留。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "光化中，宰相崔允判鹽鐵，奏為巡官兼校書郎，尋除畿尉，直宏文館，皆不起。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "崔胤判鹽鐵，辟巡官，除畿縣尉，直昭文館，皆不起。"
+      }
+    ]
+  },
+  {
+    "id": "cui-yuan-du-xiao-recruitment",
+    "from": "cui-yuan-du-xiao-recruiter",
+    "to": "du-xiao",
+    "kind": "service",
+    "label": "再辟后就官",
+    "note": "崔远判户部再辟，杜晓经未具名者劝说后就官。旧传具体称巡官兼殿中丞，后记崔远获罪、杜晓出守本官，不把山涛典故当同时荐辟。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "及昭宗東遷，宰相崔遠判戶部，又奏為巡官兼殿中丞。"
+      },
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "曉乃就官。"
+      },
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "及崔遠得罪，出守本官，居數月，以本官知制誥，俄又召為學士，遷郎中充職。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "崔遠判戶部，又辟巡官，"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-du-xiao-service",
+    "from": "zhu-wen",
+    "to": "du-xiao",
+    "kind": "service",
+    "label": "梁相任职与差遣",
+    "note": "太祖时任职、留东京、摄祭、祈旱与奉诏撰碑分别有据。三路任相年月和中书／户部官职不合为三次确定任命；留京不补留守，差遣不补抵达、礼毕或碑成。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "太祖受禪，拜中書舍人，職如故。開平三年，轉工部侍郎，充承旨。明年秋，拜中書侍郎、平章事，仍判戶部。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "梁太祖即位，遷工部侍郎奉旨。開平二年，拜中書侍郎、同中書門下平章事。"
+      },
+      {
+        "chapterId": "new-v02",
+        "paragraphId": "new-v02-p31",
+        "title": "新五代史 · 卷 2 · 梁本纪第二",
+        "excerpt": "太常卿趙光逢為中書侍郎、翰林學士承旨工部侍郎杜曉為戶部侍郎：同中書門下平章事。"
+      },
+      {
+        "chapterId": "old-v003",
+        "paragraphId": "old-v003-p14",
+        "title": "旧五代史 · 卷 3 · 梁太祖纪3",
+        "excerpt": "只留韓建、薛貽矩，翰林學士張策、韋郊、杜曉"
+      },
+      {
+        "chapterId": "old-v006",
+        "paragraphId": "old-v006-p15",
+        "title": "旧五代史 · 卷 6 · 梁太祖纪6",
+        "excerpt": "有司以立冬太廟薦享上言，詔丞相杜曉赴西都攝祭行事。"
+      },
+      {
+        "chapterId": "old-v007",
+        "paragraphId": "old-v007-p2",
+        "title": "旧五代史 · 卷 7 · 梁太祖纪7",
+        "excerpt": "丙戌，有司以孟春太廟薦享上言，命丞相杜曉攝祭行事。"
+      },
+      {
+        "chapterId": "old-v007",
+        "paragraphId": "old-v007-p6",
+        "title": "旧五代史 · 卷 7 · 梁太祖纪7",
+        "excerpt": "辛卯，詔曰：「亢陽滋甚，農事已傷，宜令宰臣於兢赴中嶽，杜曉赴西嶽，精切祈禱。"
+      },
+      {
+        "chapterId": "old-v015",
+        "paragraphId": "old-v015-p14",
+        "title": "旧五代史 · 卷 15 · 梁列传（李罕之等）",
+        "excerpt": "尋詔翰林學士杜曉撰德政碑以賜之，"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yougui-du-xiao-service",
+    "from": "zhu-yougui",
+    "to": "du-xiao",
+    "kind": "service",
+    "label": "友珪时任职",
+    "note": "仅据友珪立后记载的官职；旧传礼部尚书、平章事、集贤殿大学士、仍判户部与新传礼部尚书、集贤殿大学士分别保存，不称友珪本人亲授每一职，不推杜晓参与谋弑。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "庶人友珪篡位，遷禮部尚書、平章事、集賢殿大學士，依前判戶部。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p25",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "友珪立，遷禮部尚書、集賢殿大學士。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-youzhen-du-xiao-posthumous-honor",
+    "from": "zhu-youzhen",
+    "to": "du-xiao",
+    "kind": "service",
+    "label": "即位后追赠",
+    "note": "旧传明确记末帝即位后诏赠右仆射；这是身后追赠，不与杜晓遇害合为同日，也不将乱兵杀害归为末帝执行。",
+    "sources": [
+      {
+        "chapterId": "old-v018",
+        "paragraphId": "old-v018-p10",
+        "title": "旧五代史 · 卷 18 · 梁书列传八",
+        "excerpt": "末帝即位，詔贈右僕射。"
+      }
+    ]
   }
 ]

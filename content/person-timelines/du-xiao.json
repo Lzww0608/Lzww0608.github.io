@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "du-xiao",
+  "events": [
+    {
+      "id": "du-xiao-liang-accession-office",
+      "title": "梁初授中书舍人，另存工部侍郎记载",
+      "summary": "梁太祖受禅后，杜晓获授中书舍人，仍兼此前职事；新史另记太祖即位后迁工部侍郎，官职叙次分别保留。",
+      "year": 907,
+      "sortOrder": 1,
+      "precision": "year",
+      "sourceDate": "太祖受禅／即位后；任官未独记月日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "太祖受禪，拜中書舍人，職如故。"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p3",
+          "originalRevision": 1,
+          "originalSha256": "cad14bb13f5ee8ac13e30e9dd5f34f95368692986ea50c22bfde3d74393b05b2",
+          "excerpt": "太祖神武元聖孝皇帝上開平元年（丁卯，公元九零七年）"
+        },
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p20",
+          "originalRevision": 1,
+          "originalSha256": "6dfcb1993682473797d402001c676607240ce5e39be8302a81f08a8843ed3ddf",
+          "excerpt": "王被兗冕，即皇帝位。"
+        }
+      ],
+      "notes": [
+        "受禅之年据编年记载定位；本传没有单独记任官月日，不能把即位甲子作为杜晓受职日。"
+      ],
+      "variants": [
+        {
+          "label": "新史即位后迁工部侍郎",
+          "sourceDate": "梁太祖即位后",
+          "summary": "新史记迁工部侍郎；原文下接“奉旨”，断句及具体含义待考。与旧史受禅授中书舍人分别保存。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p25",
+              "originalRevision": 1,
+              "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+              "excerpt": "梁太祖即位，遷工部侍郎奉旨。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+              "excerpt": "太祖受禪，拜中書舍人，職如故。"
+            }
+          ],
+          "year": 907
+        }
+      ]
+    },
+    {
+      "id": "du-xiao-retained-in-tokyo",
+      "title": "以翰林学士被留东京",
+      "summary": "朱温因用兵无暇西行，命多数百官先赴西京，只留下部分官员及官署人员。杜晓列于被留东京的翰林学士之中。",
+      "year": 907,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "开平元年十月；未独记日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p1",
+          "originalRevision": 1,
+          "originalSha256": "7067b8d68f17aa4ef56212a3f197e119e8042c460d59e70fb2d79489f3c4e3d3",
+          "excerpt": "開平元年"
+        },
+        {
+          "chapterId": "old-v003",
+          "paragraphId": "old-v003-p14",
+          "originalRevision": 1,
+          "originalSha256": "58b79239b366231ae646866a88ce406161f013a5cc573569d3cac9e344add9ba",
+          "excerpt": "十月，帝以用軍，未暇西幸，文武百官等久居東京，漸及疑訝，令就便各許歸安，只留韓建、薛貽矩，翰林學士張策、韋郊、杜曉，"
+        }
+      ],
+      "notes": [
+        "这是留京人员安排，并未授杜晓东京留守职。"
+      ]
+    },
+    {
+      "id": "du-xiao-chancellorship",
+      "title": "拜相的年月与官职有异说",
+      "summary": "编年记载开平三年九月，赵光逢任中书侍郎、杜晓任户部侍郎，并同平章事，韩建、杨涉罢相。新旧本传所记拜相年次及杜晓官职另存异说。",
+      "year": 909,
+      "sortOrder": 3,
+      "precision": "month",
+      "sourceDate": "编年开平三年九月；新纪、通鉴记辛亥，旧纪任官前残记“乙”",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v005",
+          "paragraphId": "old-v005-p1",
+          "originalRevision": 1,
+          "originalSha256": "c0699c3df704e5d1b88c2fb3e73a14295583c65d0ae6adf15f2f8d0d0e336f1c",
+          "excerpt": "開平三年"
+        },
+        {
+          "chapterId": "old-v005",
+          "paragraphId": "old-v005-p2",
+          "originalRevision": 1,
+          "originalSha256": "97d7c75c381a67a537e289eeaeb297c384d5ffee38ba6ba578d17610beb00e1c",
+          "excerpt": "辛亥，侍中韓建罷守太保，左僕射、同平章事楊涉罷守本官，乙太常卿趙光逢為中書侍郎、平章事，翰林學士奉旨、工部侍郎、知制誥杜曉為尚書戶部侍郎、平章事。"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p22",
+          "originalRevision": 1,
+          "originalSha256": "c0699c3df704e5d1b88c2fb3e73a14295583c65d0ae6adf15f2f8d0d0e336f1c",
+          "excerpt": "開平三年"
+        },
+        {
+          "chapterId": "new-v02",
+          "paragraphId": "new-v02-p31",
+          "originalRevision": 1,
+          "originalSha256": "cdc857a5f511486aa2e639ac3f7eba3b844a127d59b971a8c0deff74639c033f",
+          "excerpt": "辛亥，韓建、楊涉罷。太常卿趙光逢為中書侍郎、翰林學士承旨工部侍郎杜曉為戶部侍郎：同中書門下平章事。"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p21",
+          "originalRevision": 1,
+          "originalSha256": "2aa0b67db2e099ac29d17e3892d335aebfaeb27676573b70adde2e88bbf18cb2",
+          "excerpt": "太祖神武元聖孝皇帝中開平三年（己巳，公元九零九年）"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p69",
+          "originalRevision": 1,
+          "originalSha256": "5a0fbe5d700f4251b6b48855994477ec4c420d0bcc987f007f7c7ab82171e487",
+          "excerpt": "九月，丁酉，拔其城，"
+        },
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p72",
+          "originalRevision": 1,
+          "originalSha256": "fd3b12eac20d6d1942ff0f202304a76bd105268dc9a3396516f9494cc3cc66f2",
+          "excerpt": "辛亥，侍中韓建罷守太保，左僕射、同平章事楊涉罷守本官。以太常卿趙光逢為中書侍郎，翰林奉旨工部侍郎杜曉為戶部侍郎，並同平章事。"
+        }
+      ],
+      "notes": [
+        "各书是同一拜相经历的异说，不据差异另造三次拜相。旧纪“乙太常卿”残缺，不用新纪或通鉴的辛亥补字。"
+      ],
+      "variants": [
+        {
+          "label": "新史本传开平二年中书侍郎",
+          "sourceDate": "开平二年，未记月日；整年跨西历908—909",
+          "summary": "新传记拜中书侍郎、同中书门下平章事，不同于编年户部侍郎。原年次与有据范围保留，不强定为唯一908年。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p25",
+              "originalRevision": 1,
+              "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+              "excerpt": "開平二年，拜中書侍郎、同中書門下平章事。"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p31",
+              "originalRevision": 1,
+              "originalSha256": "cdc857a5f511486aa2e639ac3f7eba3b844a127d59b971a8c0deff74639c033f",
+              "excerpt": "太常卿趙光逢為中書侍郎、翰林學士承旨工部侍郎杜曉為戶部侍郎：同中書門下平章事。"
+            }
+          ],
+          "notes": [
+            "开平二年全年跨908—909，拜相未记月日。"
+          ]
+        },
+        {
+          "label": "旧史本传明年秋中书侍郎",
+          "sourceDate": "开平三年转工部之后，明年秋",
+          "summary": "旧传记翌年秋拜中书侍郎、平章事，仍判户部；按其自身年次为910年秋，与编年909年九月并列。",
+          "evidence": [
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+              "excerpt": "開平三年，轉工部侍郎，充承旨。明年秋，拜中書侍郎、平章事，仍判戶部。"
+            },
+            {
+              "chapterId": "new-v02",
+              "paragraphId": "new-v02-p31",
+              "originalRevision": 1,
+              "originalSha256": "cdc857a5f511486aa2e639ac3f7eba3b844a127d59b971a8c0deff74639c033f",
+              "excerpt": "翰林學士承旨工部侍郎杜曉為戶部侍郎：同中書門下平章事。"
+            }
+          ],
+          "year": 910
+        }
+      ]
+    },
+    {
+      "id": "du-xiao-winter-temple-mission",
+      "title": "奉诏赴西都摄立冬太庙祭",
+      "summary": "有关官署为立冬太庙荐享上言，朱温下诏命丞相杜晓赴西都代理祭礼。",
+      "year": 911,
+      "sortOrder": 4,
+      "precision": "day",
+      "sourceDate": "乾化元年十月辛亥朔条下的诏命",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v006",
+          "paragraphId": "old-v006-p5",
+          "originalRevision": 1,
+          "originalSha256": "5b8aeda95b4c0025bbb688d6de1bd68d71e958a230c683a3e8ecaa8b036e22a0",
+          "excerpt": "乾化元年"
+        },
+        {
+          "chapterId": "old-v006",
+          "paragraphId": "old-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "279292049e0b02db611fe0d6cf53763fe880596ab1710b87e0fd075b16efffe6",
+          "excerpt": "十月辛亥朔，駐蹕於相州，"
+        },
+        {
+          "chapterId": "old-v006",
+          "paragraphId": "old-v006-p15",
+          "originalRevision": 1,
+          "originalSha256": "279292049e0b02db611fe0d6cf53763fe880596ab1710b87e0fd075b16efffe6",
+          "excerpt": "有司以立冬太廟薦享上言，詔丞相杜曉赴西都攝祭行事。"
+        }
+      ],
+      "notes": [
+        "此处记奉诏差遣，没有另记实际到达或成礼的日期。"
+      ]
+    },
+    {
+      "id": "du-xiao-spring-temple-mission",
+      "title": "获命摄孟春太庙祭",
+      "summary": "有关官署为孟春太庙荐享上言，朱温命丞相杜晓代理祭礼。",
+      "year": 912,
+      "sortOrder": 5,
+      "precision": "day",
+      "sourceDate": "乾化二年正月丙戌",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p1",
+          "originalRevision": 1,
+          "originalSha256": "7bc8352c9cc9b535dcdc167c45fb0a40a4c135052ecd0df2cc711b9e9391f1ba",
+          "excerpt": "乾化二年"
+        },
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p2",
+          "originalRevision": 1,
+          "originalSha256": "d739602dbaa14ff40c571c4e0c3eed74bf772d60fcfa58ec2d3861f4e5d94581",
+          "excerpt": "乾化二年正月，"
+        },
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p2",
+          "originalRevision": 1,
+          "originalSha256": "d739602dbaa14ff40c571c4e0c3eed74bf772d60fcfa58ec2d3861f4e5d94581",
+          "excerpt": "丙戌，有司以孟春太廟薦享上言，命丞相杜曉攝祭行事。"
+        }
+      ],
+      "notes": [
+        "这是摄祭命令，不据此补定杜晓已经成礼。"
+      ]
+    },
+    {
+      "id": "du-xiao-west-mountain-prayer-mission",
+      "title": "获命赴西岳祈旱",
+      "summary": "久旱已伤农事，朱温下诏命于兢赴中岳、杜晓赴西岳虔诚祈祷。杜晓所受差遣是赴西岳。",
+      "year": 912,
+      "sortOrder": 6,
+      "precision": "day",
+      "sourceDate": "乾化二年五月辛卯",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p1",
+          "originalRevision": 1,
+          "originalSha256": "7bc8352c9cc9b535dcdc167c45fb0a40a4c135052ecd0df2cc711b9e9391f1ba",
+          "excerpt": "乾化二年"
+        },
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p6",
+          "originalRevision": 1,
+          "originalSha256": "4c7a792c12ca63584f8665a3e272fa05068da7302a647ed02da38e3d6efa463a",
+          "excerpt": "五月己卯朔，"
+        },
+        {
+          "chapterId": "old-v007",
+          "paragraphId": "old-v007-p6",
+          "originalRevision": 1,
+          "originalSha256": "4c7a792c12ca63584f8665a3e272fa05068da7302a647ed02da38e3d6efa463a",
+          "excerpt": "辛卯，詔曰：「亢陽滋甚，農事已傷，宜令宰臣於兢赴中嶽，杜曉赴西嶽，精切祈禱。"
+        }
+      ],
+      "notes": [
+        "只记获命，不补实际到达或祈祷完成日。五月辛卯不随段末另引通鉴的闰月记事而改月。"
+      ]
+    },
+    {
+      "id": "du-xiao-death-in-military-disorder",
+      "title": "在讨友珪后的兵乱中遇害",
+      "summary": "袁象先等率禁兵讨朱友珪后，军队大肆掠夺。旧传记杜晓中重创而卒，新传及通鉴记被乱兵杀死。",
+      "year": 913,
+      "sortOrder": 7,
+      "precision": "day",
+      "sourceDate": "乾化三年二月庚寅；本传未独记日",
+      "phase": "fall",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "及袁象先之討友珪，禁兵大縱，曉中重創而卒。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p3",
+          "originalRevision": 1,
+          "originalSha256": "98ebdbbbc451796519c9d488d15c694a34b8bb055a6e0bd4609c78e9a233c955",
+          "excerpt": "乾化二年六月，太祖遇弒，友珪自立，"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p5",
+          "originalRevision": 1,
+          "originalSha256": "c20dd417cce653f90ac6d34c0cf41ffbf572132dd866ca2ed618a4ffdf17a370",
+          "excerpt": "明年，友珪改元曰鳳曆。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p6",
+          "originalRevision": 1,
+          "originalSha256": "284da97e4e53dc6846016de362b330d38e7dca8cd77db4850725c54833d58134",
+          "excerpt": "庚寅，象先等以禁兵討賊，友珪死，杜曉見殺。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p89",
+          "originalRevision": 1,
+          "originalSha256": "7699b55dd3825075074cb4b6c7cb251762d1b58e2f40c9680cf3f0adfa5d0808",
+          "excerpt": "太祖神武元聖孝皇帝下乾化三年（癸酉，公元九一三年）"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p94",
+          "originalRevision": 1,
+          "originalSha256": "72aeddd36bb6ef588932108e4d649c96fdd9b22d69674b3bc78c2c640947f36f",
+          "excerpt": "二月，壬午，蜀大赦。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "庚寅旦，袁象先等帥禁兵數千人突入宮中。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "諸軍十餘萬大掠都市，百司逃散，中書侍郎、同平章事杜曉、侍講學士李珽皆為亂兵所殺，"
+        }
+      ],
+      "notes": [
+        "讨友珪、军队纵掠与杜晓被害分开叙述，不能据此说袁象先亲手杀杜晓，或说杜晓参与谋弑。",
+        "新史“明年”承乾化二年事后叙次，不因其前另有乾化三年标题再加一年。"
+      ],
+      "variants": [
+        {
+          "label": "新史本传及春秋的兵乱记载",
+          "sourceDate": "袁象先等讨贼时／乾化三年二月",
+          "summary": "新传记杜晓为乱兵所杀，春秋记西都军大掠杀杜晓；均不指明具体持刃者。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p25",
+              "originalRevision": 1,
+              "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+              "excerpt": "袁象先等討賊，兵大掠，曉為亂兵所殺，"
+            },
+            {
+              "chapterId": "chunqiu-v001",
+              "paragraphId": "chunqiu-v001-p8",
+              "originalRevision": 1,
+              "originalSha256": "ee515e8dde92e9ed495b297f7e9d1c053863ce39b265eb33ce482f69b953d4ca",
+              "excerpt": "癸酉乾化三年二月，帝卽位於東都，誅友珪。西都軍大掠，殺杜曉。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+              "excerpt": "及袁象先之討友珪，禁兵大縱，曉中重創而卒。"
+            }
+          ],
+          "year": 913
+        }
+      ]
+    },
+    {
+      "id": "du-xiao-posthumous-right-pushe",
+      "title": "末帝即位后获赠右仆射",
+      "summary": "杜晓在兵乱中去世，末帝即位后下诏追赠他右仆射；新传亦记其获赠右仆射。",
+      "year": 913,
+      "sortOrder": 8,
+      "precision": "year",
+      "sourceDate": "末帝即位后，追赠诏未独记月日",
+      "phase": "posthumous",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "及袁象先之討友珪，禁兵大縱，曉中重創而卒。末帝即位，詔贈右僕射。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "贈右僕射。"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p89",
+          "originalRevision": 1,
+          "originalSha256": "7699b55dd3825075074cb4b6c7cb251762d1b58e2f40c9680cf3f0adfa5d0808",
+          "excerpt": "乾化三年（癸酉，公元九一三年）"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p98",
+          "originalRevision": 1,
+          "originalSha256": "73345cab9496985bba8b2be3242a20fc28edfb4fdc506a09acf672685da0e9e1",
+          "excerpt": "乃即帝位於大梁，復稱乾化三年，"
+        }
+      ],
+      "notes": [
+        "追赠是身后荣典，不是生前实任；宫变庚寅不转作追赠诏日。"
+      ]
+    },
+    {
+      "id": "du-xiao-mourn-father",
+      "title": "父遭赐死后居丧哀毁",
+      "summary": "父让能被赐死后，杜晓居丧哀毁，几乎因悲伤而不能自全。旧传记父遭二镇诬陷，新传记杜晓认为父亲无罪而死，因而哀毁。",
+      "year": null,
+      "sortOrder": 101,
+      "precision": "undated",
+      "sourceDate": "旧传系乾宁中；新传仅记昭宗时，未能据此统一西历年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "乾寧中，邠、鳳二鎮舉兵犯王畿，讓能被其誣陷，天子不得已，賜死於臨皋驛。曉居喪柴立，幾至滅性。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "昭宗時，王行瑜、李茂貞兵犯京師，昭宗殺讓能於臨皋以自解。曉以父死無罪，居喪哀毀；"
+        }
+      ],
+      "notes": [
+        "旧传纪年与随后服除十余载、光化中及东迁的叙次难以贯通，各自保留，不据此倒推生年或拼出唯一年份。"
+      ]
+    },
+    {
+      "id": "du-xiao-seclusion-after-mourning",
+      "title": "服除后自废仕途十余年",
+      "summary": "服丧期满后，杜晓仍穿布衣、戴幅巾，隐匿形迹，不求仕进。旧传称将十余载，新传称十余年。",
+      "year": null,
+      "sortOrder": 102,
+      "precision": "undated",
+      "sourceDate": "服除后；未记起止年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "憂滿，服幅巾七升，沈跡自廢者將十餘載。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "服除，布衣幅巾，自廢十餘年。"
+        }
+      ],
+      "notes": [
+        "保留两书时长措词，不把十余年直接加在父死纪年后推定结束之年。"
+      ]
+    },
+    {
+      "id": "du-xiao-decline-cui-yin-appointments",
+      "title": "拒受崔允所辟官职",
+      "summary": "旧传记光化中，崔允判盐铁，奏杜晓为巡官兼校书郎，随后授畿尉、直宏文馆，杜晓均未就任；新传所记人名和馆名另存。",
+      "year": null,
+      "sortOrder": 103,
+      "precision": "undated",
+      "sourceDate": "旧传光化中；新传未独记年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "光化中，宰相崔允判鹽鐵，奏為巡官兼校書郎，尋除畿尉，直宏文館，皆不起。"
+        }
+      ],
+      "notes": [
+        "获辟、除授与实际就任分开；此处记其不肯出仕，不作为已经任职的经历。"
+      ],
+      "variants": [
+        {
+          "label": "新史崔胤及昭文馆",
+          "sourceDate": "未独记年",
+          "summary": "新史作崔胤辟巡官、除畿县尉、直昭文馆，亦记皆不起；与旧史崔允、宏文馆写法分别保存。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p25",
+              "originalRevision": 1,
+              "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+              "excerpt": "崔胤判鹽鐵，辟巡官，除畿縣尉，直昭文館，皆不起。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+              "excerpt": "光化中，宰相崔允判鹽鐵，奏為巡官兼校書郎，尋除畿尉，直宏文館，皆不起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "du-xiao-accept-cui-yuan-invitation",
+      "title": "应崔远征辟而出仕",
+      "summary": "昭宗东迁后，崔远判户部，再奏杜晓为巡官兼殿中丞。有人以杜氏岁时祭先人的处境相劝，杜晓这才赴任。",
+      "year": null,
+      "sortOrder": 104,
+      "precision": "undated",
+      "sourceDate": "旧传记昭宗东迁后；未独记赴任年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "及昭宗東遷，宰相崔遠判戶部，又奏為巡官兼殿中丞。"
+        },
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "曉乃就官。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "崔遠判戶部，又辟巡官，"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "曉乃為之起。"
+        }
+      ],
+      "notes": [
+        "山涛劝嵇绍是说话者引用的典故，不是山涛直接推荐杜晓。东迁的他人记事不代替杜晓初仕的独立日期。"
+      ]
+    },
+    {
+      "id": "du-xiao-tang-hanlin-offices",
+      "title": "任左拾遗并入翰林",
+      "summary": "杜晓出仕后，不久获授左拾遗，随后召为翰林学士、转膳部员外郎，仍兼原职。新史概叙累迁膳部郎中、翰林学士。",
+      "year": null,
+      "sortOrder": 105,
+      "precision": "undated",
+      "sourceDate": "出仕后的未几、寻；未记独立年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "未幾，拜左拾遺，尋召為翰林學士，轉膳部員外郎，依前充職。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "新史膳部郎中记法",
+          "sourceDate": "未独记年月",
+          "summary": "新传概叙累迁膳部郎中、翰林学士，旧传此处为膳部员外郎；不同阶段与措词分别保存，不统一官阶。",
+          "evidence": [
+            {
+              "chapterId": "new-v35",
+              "paragraphId": "new-v35-p25",
+              "originalRevision": 1,
+              "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+              "excerpt": "累遷膳部郎中、翰林學士。"
+            },
+            {
+              "chapterId": "old-v018",
+              "paragraphId": "old-v018-p10",
+              "originalRevision": 1,
+              "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+              "excerpt": "轉膳部員外郎，依前充職。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "du-xiao-leave-and-return-hanlin",
+      "title": "出翰林后再任知制诰、学士",
+      "summary": "崔远获罪后，杜晓退出翰林而任原本官。数月后以本官知制诰，不久又召为学士，迁郎中并继续兼学士职。",
+      "year": null,
+      "sortOrder": 106,
+      "precision": "undated",
+      "sourceDate": "崔远获罪后，居数月、俄；未记独立年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "及崔遠得罪，出守本官，居數月，以本官知制誥，俄又召為學士，遷郎中充職。"
+        }
+      ],
+      "notes": [
+        "出守本官不写作出任外地刺史。数月与不久保留为相对次第，不补任官年月。"
+      ]
+    },
+    {
+      "id": "du-xiao-feng-xingxi-stele-commission",
+      "title": "奉诏为冯行袭撰德政碑",
+      "summary": "冯行袭入觐获厚礼后，朝廷不久诏命翰林学士杜晓为他撰写德政碑文。此处记杜晓所受委托。",
+      "year": null,
+      "sortOrder": 107,
+      "precision": "undated",
+      "sourceDate": "寻诏；未独记命撰年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v015",
+          "paragraphId": "old-v015-p14",
+          "originalRevision": 1,
+          "originalSha256": "37ccb05150591b5ce3679e811ee87d09ebcebb93ca0c560596f3c3997eeec5ed",
+          "excerpt": "尋詔翰林學士杜曉撰德政碑以賜之，"
+        }
+      ],
+      "notes": [
+        "未另记杜晓是否已经撰成、碑何时建立，不用邻述郊祀或冯行袭卒年补定写作日期。后接累官中书令、册拜司空的主体是冯行袭。"
+      ]
+    },
+    {
+      "id": "du-xiao-old-biography-industry-office",
+      "title": "旧传记转工部侍郎、充承旨",
+      "summary": "旧史本传记杜晓在开平三年转工部侍郎、充承旨。该传自身所记任官时间范围保留，不因编年九月已称此职而缩定其年月。",
+      "year": null,
+      "sortOrder": 108,
+      "precision": "range",
+      "sourceDate": "旧史本传开平三年；未记月日，全年跨909—910",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "開平三年，轉工部侍郎，充承旨。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "梁太祖即位，遷工部侍郎奉旨。"
+        }
+      ],
+      "notes": [
+        "新史另记太祖即位后迁工部侍郎，见梁初受职记载。各书记官次第不合并改写。"
+      ],
+      "yearRange": {
+        "start": 909,
+        "end": 910
+      }
+    },
+    {
+      "id": "du-xiao-yougui-court-offices",
+      "title": "友珪立后迁礼部尚书等职",
+      "summary": "朱友珪即位后，杜晓升任礼部尚书、平章事、集贤殿大学士，依旧判户部；新史亦记礼部尚书、集贤殿大学士。",
+      "year": null,
+      "sortOrder": 109,
+      "precision": "range",
+      "sourceDate": "友珪篡位／立后，未记独立月日；其在位阶段为912—913",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p10",
+          "originalRevision": 1,
+          "originalSha256": "7dda01670007698df3a0d4f3aea8f476c442938fdac320e5ce0e1af429891b76",
+          "excerpt": "庶人友珪篡位，遷禮部尚書、平章事、集賢殿大學士，依前判戶部。"
+        },
+        {
+          "chapterId": "new-v35",
+          "paragraphId": "new-v35-p25",
+          "originalRevision": 1,
+          "originalSha256": "80022dd07c4f24dd33f05a282109abdb3e5407919c7ff8fb0e14acf7169131d0",
+          "excerpt": "友珪立，遷禮部尚書、集賢殿大學士。"
+        },
+        {
+          "chapterId": "new-v03",
+          "paragraphId": "new-v03-p3",
+          "originalRevision": 1,
+          "originalSha256": "98ebdbbbc451796519c9d488d15c694a34b8bb055a6e0bd4609c78e9a233c955",
+          "excerpt": "乾化二年六月，太祖遇弒，友珪自立，"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p89",
+          "originalRevision": 1,
+          "originalSha256": "7699b55dd3825075074cb4b6c7cb251762d1b58e2f40c9680cf3f0adfa5d0808",
+          "excerpt": "乾化三年（癸酉，公元九一三年）"
+        },
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p97",
+          "originalRevision": 1,
+          "originalSha256": "3ae78c4da3601f30ac8daee3dc1b21798aa5cf298ae1f490b5815bdd3ba8198e",
+          "excerpt": "友珪聞變，與妻張氏及馮廷諤趨北垣樓下，"
+        }
+      ],
+      "notes": [
+        "这里以友珪即位后、被讨前的阶段保存范围，不把友珪即位或宫变日作为杜晓迁官日。"
+      ],
+      "yearRange": {
+        "start": 912,
+        "end": 913
+      }
+    },
+    {
+      "id": "du-xiao-taizu-elegiac-document",
+      "title": "署撰梁太祖哀册",
+      "summary": "五代会要在梁太祖身后礼文中，将哀册文署为中书侍郎、平章事杜暁撰。此为杜晓的作者记载。",
+      "year": null,
+      "sortOrder": 110,
+      "precision": "undated",
+      "sourceDate": "太祖身后礼文署名；未独记撰作年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "huiyao-v001",
+          "paragraphId": "huiyao-v001-p2",
+          "originalRevision": 1,
+          "originalSha256": "5abc419b966b0874cb70bb3d36b49842b92588caaedcf3c75f39d27226b59aee",
+          "excerpt": "哀冊文，〈中書侍郎、平章事杜暁撰。〉"
+        }
+      ],
+      "notes": [
+        "太祖葬日不是杜晓撰作日，也不据作者署名补出杜晓主持祭葬。"
+      ]
+    },
+    {
+      "id": "du-xiao-care-for-brother",
+      "title": "恭敬照护兄光乂",
+      "summary": "兄光乂患病发作时，有时辱骂、持杖追打，杜晓侍奉他反而愈加恭敬，从未稍有懈怠。",
+      "year": null,
+      "sortOrder": 111,
+      "precision": "undated",
+      "sourceDate": "未记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "old-v018",
+          "paragraphId": "old-v018-p11",
+          "originalRevision": 1,
+          "originalSha256": "2988293f2ec1350c6617ba1d052e487557b1f03bc9b8908662135976e7c22433",
+          "excerpt": "兄光乂，〈（《新唐書》表：光乂，字啟之。）〉有心疹，厥疾每作，或溢喙縱詬，或揮梃追撲，曉事之愈恭，未嘗一日少怠。"
+        }
+      ]
+    }
+  ]
+}

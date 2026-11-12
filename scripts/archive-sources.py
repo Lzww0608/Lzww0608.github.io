@@ -1156,6 +1156,12 @@ for _palace_spec in SPECS:
     if _palace_spec['id'] == 'jiuguozhi-v006':
         _palace_spec['subjects'] = list(dict.fromkeys([*_palace_spec['subjects'], 'former-shu-wang-zongfan-wife']))
 
+
+# Source-bound Du Xiao links; preserve old subjects and source bytes.
+for _du_xiao_chapter_id in ['old-v018', 'new-v35', 'old-v003', 'old-v005', 'old-v006', 'old-v007', 'old-v015', 'new-v02', 'new-v03', 'tongjian-v267', 'quewen-v001', 'tongjian-v268', 'chunqiu-v001', 'huiyao-v001']:
+    _du_xiao_spec = next(spec for spec in SPECS if spec['id'] == _du_xiao_chapter_id)
+    _du_xiao_spec['subjects'] = list(dict.fromkeys([*_du_xiao_spec['subjects'], 'du-xiao']))
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
