@@ -1359,6 +1359,14 @@ for _h121_person, _h121_chapters in _H121_SONG_CHAPTERS.items():
             _h121_spec['subjects'] = list(dict.fromkeys([*_h121_spec['subjects'], _h121_person]))
 
 
+# H122: source-bound Song Guangpu reading entries; saved originals remain unchanged.
+_H122_SONG_CHAPTERS = {'former-shu-song-guangpu': ['shiguochunqiu-v037', 'shiguochunqiu-v046']}
+for _h122_person, _h122_chapters in _H122_SONG_CHAPTERS.items():
+    for _h122_spec in SPECS:
+        if _h122_spec['id'] in _h122_chapters:
+            _h122_spec['subjects'] = list(dict.fromkeys([*_h122_spec['subjects'], _h122_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

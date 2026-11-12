@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-song-guangpu",
+  "events": [
+    {
+      "id": "former-shu-song-guangpu-chongyang-poem-remonstrance",
+      "title": "重阳宴借胡曾诗讽谏，王衍不乐罢宴",
+      "summary": "乾德四年九月重阳，王衍在宣华苑宴群臣、唱韩琮词。内侍宋光浦吟咏胡曾诗，声节凄惋，王衍听后不高兴而罢宴；本传说明光浦想借诗作讽谏。",
+      "year": 922,
+      "sortOrder": 2,
+      "precision": "month",
+      "sourceDate": "《本纪》乾德四年九月重阳节；未换算现代确日",
+      "phase": "service",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "九月，帝以重陽節，曲宴羣臣于宣華苑，夜分未罷。帝唱韓琮柳枝辭。内侍宋光浦咏胡曾詩，聲節悽惋，帝聞之不樂，遂罷宴。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "乾德四年春二月，帝御文明殿試制科，"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本传仅记乾德中",
+          "sourceDate": "乾德中重阳，未独年",
+          "summary": "本传记常以重阳宴群臣，并详录借咏胡曾诗讽谏；这里按本纪明确的纪年记为922，不据常字增造其他场次。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "乾德中，後主宴飲無度，常以重陽日宴羣臣於宣華苑，夜半酒酣，後主唱韓琮柳枝詞，"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "光浦意欲以諷爲諫，遂咏胡曾詩曰："
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "後主聞之，不樂而罷。"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "两篇同书记载的宴所、所唱韩琮词、宋咏胡曾诗及不乐罢宴相应，不视作两部独立来源。",
+        "诗中吴越往事不改成王衍时的具体战事，借诗讽谏者与诗作者分清。"
+      ]
+    },
+    {
+      "id": "former-shu-song-guangpu-serves-houzhu-inner-attendant",
+      "title": "事王衍，任内侍监",
+      "summary": "本传记宋光浦事奉后主王衍，为内侍监。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "undated",
+      "sourceDate": "本传未独记任职年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p11",
+          "originalRevision": 1,
+          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+          "excerpt": "宋光浦，〈唐詩紀事作光溥，今從蜀檮杌。〉事後主爲内侍監。"
+        }
+      ],
+      "notes": [
+        "这里只保存原文明确的任职，不以人物身份或篇题凑事件；不补初任、任命过程、任职起讫或具体诏命。",
+        "本传夹注光溥与正文光浦并存，不据近名合并宋光嗣、宋光葆或徐光溥。"
+      ]
+    }
+  ]
+}

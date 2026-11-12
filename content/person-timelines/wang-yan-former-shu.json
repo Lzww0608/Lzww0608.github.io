@@ -444,6 +444,81 @@
       ]
     },
     {
+      "id": "wang-yan-former-shu-chongyang-song-guangpu-poem-remonstrance",
+      "title": "重阳宴闻宋光浦诗谏，不乐罢宴",
+      "summary": "本纪明确记乾德四年九月重阳，王衍在宣华苑宴群臣、唱韩琮词，宋光浦咏胡曾诗而王衍不乐罢宴。本传补出借诗讽谏的意思，纪年仅概称乾德中。",
+      "year": 922,
+      "sortOrder": 20,
+      "precision": "month",
+      "sourceDate": "《本纪》乾德四年九月重阳节；本传仅记乾德中",
+      "phase": "rule",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "九月，帝以重陽節，曲宴羣臣于宣華苑，夜分未罷。帝唱韓琮柳枝辭。内侍宋光浦咏胡曾詩，聲節悽惋，帝聞之不樂，遂罷宴。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "乾德四年春二月，帝御文明殿試制科，"
+        }
+      ],
+      "notes": [
+        "原文常以重阳日不推已知次数；光浦／光溥按各篇字形，本纪与本传同出《十国春秋》，不冒充独立史书复证。",
+        "乾德四年九月经严格前蜀纪年核验全在922；不取月首作宴日，不用宋太祖乾德纪年。",
+        "内侍监职任与诗作者、诗中吴王越兵分清，不据文学典故新增十国人物或战事。"
+      ],
+      "variants": [
+        {
+          "label": "本传纪年较宽",
+          "sourceDate": "乾德中重阳，未独年",
+          "summary": "本传只给乾德中，称常以重阳日宴群臣。原年号范围919—924是该叙法的界限；本条采用本纪明确的922，不另造一次相同诗谏。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "乾德中，後主宴飲無度，常以重陽日宴羣臣於宣華苑，夜半酒酣，後主唱韓琮柳枝詞，"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "光浦意欲以諷爲諫，遂咏胡曾詩曰："
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p11",
+              "originalRevision": 1,
+              "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+              "excerpt": "後主聞之，不樂而罷。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p7",
+              "originalRevision": 1,
+              "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d",
+              "excerpt": "辛卯，改明年元曰咸康。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p8",
+              "originalRevision": 1,
+              "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+              "excerpt": "咸康元年春正月，甲午朔，受朝賀，大赦"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wang-yan-former-shu-liu-zan-three-pavilions-picture",
       "title": "未采刘赞献图讽谏",
       "summary": "本纪记嘉州司马刘赞八月献《陈后主三阁图》，王衍没有治他的罪，也未采纳其用意；刘赞传另记同时作歌讽谏。",
@@ -1519,61 +1594,6 @@
       ],
       "notes": [
         "内外皇亲暖宅为群体叙述，不分配给徐氏姐妹、女眷或个别已有关系节点；孟字解释保本书记载。"
-      ]
-    },
-    {
-      "id": "wang-yan-former-shu-chongyang-song-guangpu-poem-remonstrance",
-      "title": "重阳宴闻宋光浦诗谏，不乐罢宴",
-      "summary": "本传记乾德中重阳宣华苑宴，王衍唱韩琮词，宋光浦借咏胡曾诗讽谏，王衍不乐而罢。诗中吴王、越兵及汉宫属文学典故，不指十国同名政权人物。",
-      "year": null,
-      "sortOrder": 20,
-      "precision": "range",
-      "sourceDate": "乾德中重阳，未独年；925重阳已属咸康，范围收为919—924",
-      "phase": "uncertain",
-      "evidence": [
-        {
-          "chapterId": "shiguochunqiu-v046",
-          "paragraphId": "shiguochunqiu-v046-p11",
-          "originalRevision": 1,
-          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
-          "excerpt": "乾德中，後主宴飲無度，常以重陽日宴羣臣於宣華苑，夜半酒酣，後主唱韓琮柳枝詞，"
-        },
-        {
-          "chapterId": "shiguochunqiu-v046",
-          "paragraphId": "shiguochunqiu-v046-p11",
-          "originalRevision": 1,
-          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
-          "excerpt": "光浦意欲以諷爲諫，遂咏胡曾詩曰："
-        },
-        {
-          "chapterId": "shiguochunqiu-v046",
-          "paragraphId": "shiguochunqiu-v046-p11",
-          "originalRevision": 1,
-          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
-          "excerpt": "後主聞之，不樂而罷。"
-        },
-        {
-          "chapterId": "shiguochunqiu-v037",
-          "paragraphId": "shiguochunqiu-v037-p7",
-          "originalRevision": 1,
-          "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d",
-          "excerpt": "辛卯，改明年元曰咸康。"
-        },
-        {
-          "chapterId": "shiguochunqiu-v037",
-          "paragraphId": "shiguochunqiu-v037-p8",
-          "originalRevision": 1,
-          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
-          "excerpt": "咸康元年春正月，甲午朔，受朝賀，大赦"
-        }
-      ],
-      "yearRange": {
-        "start": 919,
-        "end": 924
-      },
-      "notes": [
-        "原文常以重阳日不推已知次数；光浦／光溥按各书字形，不改底本。",
-        "本纪乾德六年末诏改明年咸康，次段正月已用咸康；乾德末跨入925年初不等于925年重阳仍属乾德，故仅缩新事件范围，不动旧日期。"
       ]
     },
     {
