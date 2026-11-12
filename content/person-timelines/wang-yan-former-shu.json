@@ -48,7 +48,23 @@
       ],
       "phase": "early",
       "precision": "year",
-      "sortOrder": 1
+      "sortOrder": 1,
+      "variants": [
+        {
+          "label": "唐文扆传的借徐氏宠势与张格赞成立储",
+          "sourceDate": "获立太子前后，顺圣太后为本传追称，不作913年已尊太后",
+          "summary": "唐文扆传记其挟顺圣徐氏之宠，示意张格赞成立宗衍，徐氏因而感激。保原书施受与称谓层次；不把唐文扆的谋划直接写成徐氏亲自下达全部指令。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p10",
+              "originalRevision": 1,
+              "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+              "excerpt": "後主之得爲太子也，文扆實挾順聖太后之寵，諷格贊成其事，由是順聖太后内德之，而格亦附會爲奸。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wang-yan-former-shu-accession",
@@ -631,6 +647,44 @@
               "excerpt": "衍至緜谷而唐師入其境，衍懼，遽還。"
             }
           ]
+        },
+        {
+          "label": "本卷韩、安、宋、承休诸传的劝巡与守备叙法",
+          "sourceDate": "诸传合叙秦州之行与唐军入境，不将起行、利州守备和成都诛臣都压同月",
+          "summary": "韩昭与王承休、安重霸劝王衍赴秦；安传记献花木，承休传记献花木图与民间子女形貌。宋光嗣与王宗弼建议守利州，王衍认可；此与光葆较早请求备兵未被采纳是两次不同建议，不混为一概拒绝。卷末到达赐镜与新史绵谷惧返各按原书记载保存，不拼成唯一秦州行程。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p4",
+              "originalRevision": 1,
+              "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+              "excerpt": "而昭復與王承休、安重霸盛稱秦州山川土風之美，勸後主臨幸，以爲姦。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "重霸與承休多取秦州花木上獻，請後主東游。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p12",
+              "originalRevision": 1,
+              "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+              "excerpt": "及唐兵來，後主引兵至利州，光嗣與王宗弼言於後主曰：“東川、山南兵力尚完，陛下但以大軍扼利州，唐人安敢懸軍深入。”後主以爲然，殊不爲意。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p13",
+              "originalRevision": 1,
+              "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+              "excerpt": "又獻花木圖，盛稱秦州山川土風之美，請車駕東行。於是後主心動，決志東巡，道路驛騷，不堪其苦。"
+            }
+          ],
+          "notes": [
+            "采择美妇是王承休请命，民间子女为其强取对象；不能补一批有名后妃或已完成入宫、册立。"
+          ]
         }
       ]
     },
@@ -908,7 +962,44 @@
         "start": 918,
         "end": 925
       },
-      "sortOrder": 7
+      "sortOrder": 7,
+      "variants": [
+        {
+          "label": "本卷诸近臣传补游宴、任用及卖官营第",
+          "sourceDate": "在位期间各传合叙，除另标乾德二年北巡外不混成同日",
+          "summary": "韩昭传记王衍允许其卖数州刺史以营宅；潘在迎传记侍游宴、唱和及劝诛谏臣；安重霸传记王衍即位后的简州任职与承休、安副使任用；宋光嗣传记践阼后命判六军及宠任。各施事分开，不把他人请诛等同王衍已执行，也不把后唐授潘的官职归王衍。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p4",
+              "originalRevision": 1,
+              "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+              "excerpt": "昭恃寵無厭，乞賣通、渠、巴、集數州刺史以爲營第費，後主悉報可。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p5",
+              "originalRevision": 1,
+              "originalSha256": "979f7e8ad029cbbfdca4a432e7b3df0c04a38f2d4aedb733c88b7c24bd3fc613",
+              "excerpt": "在迎以柔順侍後主遊宴，或爲艷歌唱和，沉湎無虚日。又時時勸後主誅諫臣，無使謗國。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "後主立，官簡州刺史。宦者王承休用事，重霸深結承休以自託，因勸承休求鎮秦州，後主乃以承休爲節度使，重霸爲其副使。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p12",
+              "originalRevision": 1,
+              "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+              "excerpt": "後主踐阼，卽以光嗣判六軍諸衛事。光嗣既得柄用，善希合後主意，後主頗寵任之，"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wang-yan-former-shu-northern-tour",
@@ -1006,6 +1097,20 @@
             "既有本纪赴阆前下行、新史自阆上行及王锴传未系年下行的说明完整保留；本次补源不另定各段确日。",
             "段融传对朝臣无谏的概括与其数年后败的归因保为本传叙法，不覆盖他处谏臣记录或认定唯一亡国原因。"
           ]
+        },
+        {
+          "label": "韩昭传所记北巡时升文思殿大学士",
+          "sourceDate": "乾德二年下诏北巡；不将未独标月的升官强套八月或冬日",
+          "summary": "本传记王衍下诏北巡，升韩昭文思殿大学士，位在翰林承旨之上；仍保本条920—921的行程范围。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p4",
+              "originalRevision": 1,
+              "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+              "excerpt": "乾德二年，後主下詔北巡，進昭文思殿大學士，位在翰林承旨上。"
+            }
+          ]
         }
       ]
     },
@@ -1068,6 +1173,44 @@
           ],
           "notes": [
             "给宋光葆任官不等于已经按其建议完成练兵；也不能把旧史对另一方案的不从移为本纪拒绝此备边方案。"
+          ]
+        },
+        {
+          "label": "宋光嗣传附光葆的辩答、请斩与备守",
+          "sourceDate": "李严来聘前后，附传未独标使年；不从相邻叙次推唯一月日",
+          "summary": "附传记光葆与李严谈论后请斩使，王衍不从；李严归后光葆再请守备，亦未被采用。旧史李严本传把辩答者记为光嗣，另有旧史宋承葆主动出兵方案与本纪备边授职，各保来源姓名、方案及结果。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p12",
+              "originalRevision": 1,
+              "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+              "excerpt": "先是唐使李嚴來聘，光葆與語終日，服其機辨，料嚴東還必爲鄧艾之謀，乃白後主曰："
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p12",
+              "originalRevision": 1,
+              "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+              "excerpt": "請斬嚴以威天下。”後主不從。既而光葆聞嚴還急於圖蜀，復上疏請爲守備，後主亦不能用。"
+            },
+            {
+              "chapterId": "old-v070",
+              "paragraphId": "old-v070-p6",
+              "originalRevision": 1,
+              "originalSha256": "90524fb4ba83261a90a1f5cd8beae8b256c786dd1e60e18330484009198c0a67",
+              "excerpt": "時蜀偽樞密使宋光嗣召嚴曲宴，因以近事訊於嚴。"
+            },
+            {
+              "chapterId": "old-v070",
+              "paragraphId": "old-v070-p6",
+              "originalRevision": 1,
+              "originalSha256": "90524fb4ba83261a90a1f5cd8beae8b256c786dd1e60e18330484009198c0a67",
+              "excerpt": "光嗣聞辯對，畏而奇之。"
+            }
+          ],
+          "notes": [
+            "不以同书本纪、本传或夹引累计为独立复证；不把拒绝斩使写成实际杀使。"
           ]
         }
       ]
@@ -1354,6 +1497,112 @@
         "范围不表示事件从918年持续到925年；未确定选女、拒使或婚配的某一年、月、日。",
         "军变为父亲后来的事迹，不移作女方经历；也不以宫伎之选认定后主与女方婚配。",
         "北梦的小军将与春秋的小军分别保留，父亲所用姓氏伦理判断不升为已经证明的同祖或成文法。"
+      ]
+    },
+    {
+      "id": "wang-yan-former-shu-visit-xu-yanqiong-house",
+      "title": "到徐延琼新第，在壁上戏写孟字",
+      "summary": "本传记王衍到徐延琼第，在壁上戏写孟字取笑；徐以红纱罩字示宠。其后孟知祥入住被书中解释为先兆，这是作者的兆语，不是已证王衍预知后蜀。",
+      "year": null,
+      "sortOrder": 19,
+      "precision": "undated",
+      "sourceDate": "原文先是追叙营第及亲幸，未独标年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p6",
+          "originalRevision": 1,
+          "originalSha256": "4b380afe3c080e48b85df1ed223c6afba0b955c9e48a0b0028f3eb1dd12e266c",
+          "excerpt": "是時詔宣内外皇親暖宅，後主亦親幸其第，忽於壁上戲書孟字以謿之，蓋蜀語以孟爲不佳也。延瓊重其事，爲製紅綃籠字以示寵異。"
+        }
+      ],
+      "notes": [
+        "内外皇亲暖宅为群体叙述，不分配给徐氏姐妹、女眷或个别已有关系节点；孟字解释保本书记载。"
+      ]
+    },
+    {
+      "id": "wang-yan-former-shu-chongyang-song-guangpu-poem-remonstrance",
+      "title": "重阳宴闻宋光浦诗谏，不乐罢宴",
+      "summary": "本传记乾德中重阳宣华苑宴，王衍唱韩琮词，宋光浦借咏胡曾诗讽谏，王衍不乐而罢。诗中吴王、越兵及汉宫属文学典故，不指十国同名政权人物。",
+      "year": null,
+      "sortOrder": 20,
+      "precision": "range",
+      "sourceDate": "乾德中重阳，未独年；925重阳已属咸康，范围收为919—924",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p11",
+          "originalRevision": 1,
+          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+          "excerpt": "乾德中，後主宴飲無度，常以重陽日宴羣臣於宣華苑，夜半酒酣，後主唱韓琮柳枝詞，"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p11",
+          "originalRevision": 1,
+          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+          "excerpt": "光浦意欲以諷爲諫，遂咏胡曾詩曰："
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p11",
+          "originalRevision": 1,
+          "originalSha256": "2096651ec0e0df1d9d2b0129bd25294c25ab194d367209fe4027fa22d5359917",
+          "excerpt": "後主聞之，不樂而罷。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p7",
+          "originalRevision": 1,
+          "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d",
+          "excerpt": "辛卯，改明年元曰咸康。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "咸康元年春正月，甲午朔，受朝賀，大赦"
+        }
+      ],
+      "yearRange": {
+        "start": 919,
+        "end": 924
+      },
+      "notes": [
+        "原文常以重阳日不推已知次数；光浦／光溥按各书字形，不改底本。",
+        "本纪乾德六年末诏改明年咸康，次段正月已用咸康；乾德末跨入925年初不等于925年重阳仍属乾德，故仅缩新事件范围，不动旧日期。"
+      ]
+    },
+    {
+      "id": "wang-yan-former-shu-give-yan-wife-cosmetic-mirror",
+      "title": "据本卷赐严氏妆镜，书载镜铭",
+      "summary": "本卷王承休传记王衍因严氏而有秦州之行，至则赐她籹镜，书中载有镜铭，未明铭文作者。保赠物与受赠者，不由镜铭推出严氏随行、后妃名位或具体赠镜地点。",
+      "year": null,
+      "sortOrder": 21,
+      "precision": "undated",
+      "sourceDate": "本传未独记赠镜年、月、地点；秦州之行的到达叙法另与新史分源",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p13",
+          "originalRevision": 1,
+          "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+          "excerpt": "承休妻嚴，有殊色，後主絶加寵愛，秦州之行，後主頗以嚴故臨幸焉。至則賜以籹鏡，銘曰："
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p34",
+          "originalRevision": 1,
+          "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+          "excerpt": "衍至緜谷而唐師入其境，衍懼，遽還。"
+        }
+      ],
+      "notes": [
+        "底本籹字保留，译称妆镜；不把本卷至则与新史至绵谷时唐师入境、惧返消合，也不补另一场已证行程。"
       ]
     }
   ]

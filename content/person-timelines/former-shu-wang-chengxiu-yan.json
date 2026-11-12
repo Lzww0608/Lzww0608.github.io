@@ -40,6 +40,13 @@
           "originalRevision": 1,
           "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
           "excerpt": "承休妻嚴氏有殊色，帝私焉，故鋭意欲行。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p13",
+          "originalRevision": 1,
+          "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+          "excerpt": "承休妻嚴，有殊色，後主絶加寵愛，秦州之行，後主頗以嚴故臨幸焉。"
         }
       ],
       "notes": [
@@ -48,7 +55,57 @@
         "后主赴秦是王衍的行动，未据此写严氏本人到秦、随行或入宫。",
         "丈夫及其同行者遇诛的记载不包含严氏，不据此补她死亡或子女。",
         "保留史书的因果叙述归属，不作独立目击复证。",
-        "《十国春秋》本纪同述妻严氏与后主有私；同源转引不另计目击复证，不以其所接巡秦年份改作交往起始年。"
+        "《十国春秋》本纪同述妻严氏与后主有私；同源转引不另计目击复证，不以其所接巡秦年份改作交往起始年。",
+        "卷46记“绝加宠爱”及“䙝昵”，新史、通鉴记有私，各依原书用词；不把宠爱直接改为后妃封授，也不补交往起始年月。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-chengxiu-yan-recorded-mirror-gift",
+      "title": "卷46记受赐妆镜",
+      "summary": "《十国春秋》王承休传在秦州之行与宠爱严氏的追叙后记“至则赐以籹镜”，并载镜铭。按本书叙法保存赐镜之事，不补严氏行程、入宫或封授。",
+      "year": null,
+      "precision": "undated",
+      "sortOrder": 2,
+      "sourceDate": "王承休传末追叙，至则承秦州之行，未独记赐镜年月；不以他书巡秦日期代填",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p13",
+          "originalRevision": 1,
+          "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+          "excerpt": "承休妻嚴，有殊色，後主絶加寵愛，秦州之行，後主頗以嚴故臨幸焉。至則賜以籹鏡，銘曰：“鍊形神冶，瑩質良工。當眉寫翠，對臉傅紅。如珠出匣，似月停空。綺窗繡幌，俱涵影中。”其䙝昵有如此。"
+        }
+      ],
+      "notes": [
+        "籹为底本原字，现代译作妆镜并注明，原文不静校；镜铭逐句译意，不据诗文推定居所或封号。",
+        "句中承前叙王衍到达后赐镜，不等于明载严氏自行到秦州或随驾；赠镜处的确切年月、安置地点均未补。"
+      ],
+      "variants": [
+        {
+          "label": "相关行程在新史中另记途中折返",
+          "sourceDate": "新史记十月赴秦州，至绵谷时唐师入境，惧而返；不是本书镜赠的独立日期",
+          "summary": "《新五代史》同段记因严氏欲赴秦州，但至绵谷便惧而返；该段未记赐镜。仅列两书行程叙法，不据其不载赐镜否定卷46，也不拼为唯一旅程。",
+          "evidence": [
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p34",
+              "originalRevision": 1,
+              "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+              "excerpt": "以王承休妻嚴氏故，十月，幸秦州，羣臣切諫，衍不聽。行至梓潼，大風發屋拔木，太史曰：「此貪狼風也，當有敗軍殺將者。」衍不省。衍至緜谷而唐師入其境，衍懼，遽還。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p13",
+              "originalRevision": 1,
+              "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+              "excerpt": "承休妻嚴，有殊色，後主絶加寵愛，秦州之行，後主頗以嚴故臨幸焉。至則賜以籹鏡，銘曰：“鍊形神冶，瑩質良工。當眉寫翠，對臉傅紅。如珠出匣，似月停空。綺窗繡幌，俱涵影中。”其䙝昵有如此。"
+            }
+          ],
+          "notes": [
+            "此为与赐镜叙事相接的行程差异，不是新史直接否认赐镜。"
+          ]
+        }
       ]
     }
   ]

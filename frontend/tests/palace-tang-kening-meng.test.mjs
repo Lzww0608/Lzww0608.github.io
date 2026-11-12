@@ -31,7 +31,7 @@ test('three reciprocal family edges keep source spellings and Meng Zhixiang rece
   for (const edge of edges) for (const who of [edge.from,edge.to]) assert.ok(relationshipsForPerson(who).some(e => e.id === edge.id));
   const son = relationshipNodes.find(n => n.id === 'li-kening-son-gui'); assert.ok(son);
   assert.ok(son.aliases.includes('李存瑰')); assert.ok(son.note.includes('不造李存瓌'));
-  const brother = loadPersonTimelines().find(d => d.personId === 'meng-zhixiang'); assert.equal(brother.events.length, 16);
+  const brother = loadPersonTimelines().find(d => d.personId === 'meng-zhixiang'); assert.equal(brother.events.length, 17);
   const at = brother.events.findIndex(e => e.id === 'meng-zhixiang-tang-reassurance-and-petition'); assert.ok(at > 0);
   const event = brother.events[at]; assert.equal(event.year, 932); assert.equal(event.precision, 'year');
   assert.equal(brother.events[at-1].id, 'meng-zhixiang-unite-shu'); assert.equal(brother.events[at+1].id, 'meng-zhixiang-shu-prince');

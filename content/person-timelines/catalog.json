@@ -59,7 +59,7 @@
     },
     {
       "personId": "an-zhongba",
-      "eventCount": 8,
+      "eventCount": 10,
       "eventIds": [
         "an-zhongba-offer-qinzhou",
         "an-zhongba-early-defections",
@@ -68,7 +68,9 @@
         "an-zhongba-langzhou-court",
         "an-zhongba-transfer-xijing",
         "an-zhongba-death-return",
-        "an-zhongba-request-wang-yan-east-tour"
+        "an-zhongba-request-wang-yan-east-tour",
+        "an-zhongba-extract-gold-from-deng-chess",
+        "an-zhongba-kill-song-guangbao-langzhou"
       ]
     },
     {
@@ -535,9 +537,10 @@
     },
     {
       "personId": "former-shu-wang-chengxiu-yan",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
-        "former-shu-wang-chengxiu-yan-recorded-affair"
+        "former-shu-wang-chengxiu-yan-recorded-affair",
+        "former-shu-wang-chengxiu-yan-recorded-mirror-gift"
       ]
     },
     {
@@ -679,6 +682,26 @@
       "eventIds": [
         "former-shu-wei-zhuang-unnamed-ji-forcibly-taken",
         "former-shu-wei-zhuang-unnamed-ji-hears-poem-and-dies"
+      ]
+    },
+    {
+      "personId": "former-shu-yan-zunmei",
+      "eventCount": 7,
+      "eventIds": [
+        "former-shu-yan-zunmei-criticize-inner-official-power",
+        "former-shu-yan-zunmei-follow-emperor-request-retirement",
+        "former-shu-yan-zunmei-decline-two-armies-summons",
+        "former-shu-yan-zunmei-move-chengdu",
+        "former-shu-yan-zunmei-concealed-by-wang-jian",
+        "former-shu-yan-zunmei-neishijian-after-accession",
+        "former-shu-yan-zunmei-retire-qingcheng-and-death"
+      ]
+    },
+    {
+      "personId": "former-shu-yu-quanyin",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-yu-quanyin-concealed-by-wang-jian"
       ]
     },
     {
@@ -2011,7 +2034,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 34,
+      "eventCount": 35,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -2046,7 +2069,8 @@
         "li-cunxu-lu-cheng-reprimand",
         "li-cunxu-send-xue-zhaowen-min-investiture",
         "li-cunxu-receive-lu-pin-wu-envoy",
-        "li-cunxu-execute-sikong-ting-family"
+        "li-cunxu-execute-sikong-ting-family",
+        "li-cunxu-an-zhongba-service-source-variant"
       ]
     },
     {
@@ -2094,7 +2118,7 @@
     },
     {
       "personId": "li-jiji",
-      "eventCount": 11,
+      "eventCount": 12,
       "eventIds": [
         "li-jiji-return-ye",
         "li-jiji-wife-wang-wei-title",
@@ -2106,7 +2130,8 @@
         "li-jiji-appoint-ren",
         "li-jiji-death-weinan",
         "li-jiji-send-xu-ai-nanzhao-captives",
-        "li-jiji-zhang-wu-three-prefectures-submission"
+        "li-jiji-zhang-wu-three-prefectures-submission",
+        "li-jiji-question-wang-chengxiu"
       ]
     },
     {
@@ -3752,7 +3777,7 @@
     },
     {
       "personId": "meng-zhixiang",
-      "eventCount": 16,
+      "eventCount": 17,
       "eventIds": [
         "meng-zhixiang-taiyuan",
         "meng-zhixiang-arrival",
@@ -3769,7 +3794,8 @@
         "meng-zhixiang-refuse-tax",
         "meng-zhixiang-retain-jiliang",
         "meng-zhixiang-alliance-dongzhang",
-        "meng-zhixiang-battle-jianmen"
+        "meng-zhixiang-battle-jianmen",
+        "meng-zhixiang-reside-xu-yanqiong-house"
       ]
     },
     {
@@ -5338,7 +5364,7 @@
     },
     {
       "personId": "wang-jian-former-shu",
-      "eventCount": 36,
+      "eventCount": 39,
       "eventIds": [
         "wang-jian-former-shu-escort-emperor",
         "wang-jian-former-shu-yongping-command",
@@ -5375,7 +5401,10 @@
         "wang-jian-former-shu-li-siyi-jianghuochang",
         "wang-jian-former-shu-hat-actions",
         "wang-jian-former-shu-zongfan-adoption",
-        "wang-jian-former-shu-zhou-yanzhang-adoptive-order"
+        "wang-jian-former-shu-zhou-yanzhang-adoptive-order",
+        "wang-jian-former-shu-appoint-an-zhongba-close-general",
+        "wang-jian-former-shu-shelter-yan-zunmei-yu-quanyin",
+        "wang-jian-former-shu-retain-song-guangsi"
       ]
     },
     {
@@ -5523,7 +5552,7 @@
     },
     {
       "personId": "wang-yan-former-shu",
-      "eventCount": 26,
+      "eventCount": 29,
       "eventIds": [
         "wang-yan-former-shu-heir",
         "wang-yan-former-shu-accession",
@@ -5550,7 +5579,10 @@
         "wang-yan-former-shu-promotes-pu-yuqing",
         "wang-yan-former-shu-banishes-zhang-yun-after-comet-remonstrance",
         "wang-yan-former-shu-disregards-li-guizhen-remonstrance",
-        "wang-yan-former-shu-zhou-daughter-selection-refused"
+        "wang-yan-former-shu-zhou-daughter-selection-refused",
+        "wang-yan-former-shu-visit-xu-yanqiong-house",
+        "wang-yan-former-shu-chongyang-song-guangpu-poem-remonstrance",
+        "wang-yan-former-shu-give-yan-wife-cosmetic-mirror"
       ]
     },
     {

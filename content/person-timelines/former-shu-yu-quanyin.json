@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-yu-quanyin",
+  "events": [
+    {
+      "id": "former-shu-yu-quanyin-concealed-by-wang-jian",
+      "title": "被王建藏匿，免于诛杀",
+      "summary": "本传称鱼全禋为西川监军，记他与严遵美在唐廷诛宦官时被王建藏匿，得以免于诛杀。",
+      "year": null,
+      "sortOrder": 1,
+      "precision": "range",
+      "sourceDate": "严遵美传天复二年的明年，未独月日；纪年外界为西历903—904",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p9",
+          "originalRevision": 1,
+          "originalSha256": "73f3ea52eeb19ae36ffe808a530fd9bba1a3cd45ccbd8ffecd9ba335689e7b9f",
+          "excerpt": "明年，唐詔所在宦官皆賜死，遵美及西川監軍魚全禋爲高祖所匿獲免。"
+        }
+      ],
+      "notes": [
+        "原文分别记唐诏赐死与王建藏匿获免，未记获得朝廷赦免。",
+        "不补监军任命者、藏匿地点、赦免诏、后续官职或生卒。"
+      ],
+      "yearRange": {
+        "start": 903,
+        "end": 904
+      }
+    }
+  ]
+}

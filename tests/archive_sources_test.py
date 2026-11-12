@@ -302,8 +302,8 @@ class SourceIntegrityTests(unittest.TestCase):
                 payload, contents = json.loads(source.read_text()), json.loads(chapter.read_text())
                 self.assertEqual(selected['fixedRevisionId'], revision)
                 self.assertTrue(selected['sourceLocalSubjectsOnly'])
-                self.assertEqual(selected['subjects'], ['feng-dao'])
-                self.assertEqual(summary['subjects'], ['feng-dao'])
+                self.assertEqual(selected['subjects'], ['feng-dao', 'li-yu-tang'])
+                self.assertEqual(summary['subjects'], ['feng-dao', 'li-yu-tang'])
                 self.assertNotIn('sourceLocalSubjectsOnly', summary)
                 self.assertEqual(payload['response']['parse']['revid'], revision)
                 self.assertEqual(payload['response']['parse']['title'], selected['page'])
@@ -338,7 +338,7 @@ class SourceIntegrityTests(unittest.TestCase):
                 self.assertEqual({path: path.read_bytes() for path in paths}, before)
                 for chapter_id in chapter_ids:
                     result = archive.capture(specs[chapter_id])
-                    self.assertEqual(result['subjects'], ['feng-dao'])
+                    self.assertEqual(result['subjects'], ['feng-dao', 'li-yu-tang'])
                     self.assertNotIn('sourceLocalSubjectsOnly', result)
                     source = root / 'sources' / f'{chapter_id}.json'
                     self.assertEqual(source.read_bytes(), before[source])
@@ -350,8 +350,8 @@ class SourceIntegrityTests(unittest.TestCase):
         summaries = {c['id']: c for c in json.loads((archive.ROOT / 'catalog.json').read_text())['chapters']}
         specs = {s['id']: s for s in archive.SPECS}
         self.assertEqual(len(specs), len(archive.SPECS))
-        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 96)
-        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 44)
+        self.assertEqual(sum(s['bookId'] == 'old' for s in archive.SPECS), 97)
+        self.assertEqual(sum(s['bookId'] == 'new' for s in archive.SPECS), 45)
         for chapter_id, (revision, count, characters, source_hash, chapter_hash) in HOUSEHOLD_FIXTURES.items():
             with self.subTest(chapter=chapter_id):
                 summary = summaries[chapter_id]
@@ -519,7 +519,11 @@ class SourceIntegrityTests(unittest.TestCase):
 
     def test_reruns_reuse_every_captured_revision_without_rewriting_originals(self):
         catalog = json.loads((archive.ROOT / 'catalog.json').read_text())
-        specs = {item['id']: item for item in archive.SPECS}
+        # main() composes both registries before capturing the complete library.
+        selected = [*archive.SPECS, *archive.SOUTHERN_SPECS['chapters']]
+        specs = {item['id']: item for item in selected}
+        self.assertEqual(len(specs), len(selected))
+        self.assertEqual(set(specs), {chapter['id'] for chapter in catalog['chapters']})
         paths = [archive.ROOT / directory / f"{chapter['id']}.json"
                  for chapter in catalog['chapters'] for directory in ['sources', 'chapters']]
         before = {path: path.read_bytes() for path in paths}

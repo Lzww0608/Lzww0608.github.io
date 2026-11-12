@@ -1614,6 +1614,45 @@
         "start": 915,
         "end": 923
       }
+    },
+    {
+      "id": "li-cunxu-an-zhongba-service-source-variant",
+      "title": "《十国春秋》记安重霸初事晋王存勖",
+      "summary": "本书安重霸传称其起初事奉晋王存勖，随后得罪奔梁、不久奔王建；旧史相应叙述称与明宗俱事武皇。两说分源保存，不把本书存勖字样改作李克用，也不把获罪认作李存勖亲自处分。",
+      "year": null,
+      "sortOrder": 50,
+      "precision": "undated",
+      "sourceDate": "“初事晋王存勖”，未独记年月；不据晋王称号推定此次行动的年份",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "初事晉王存勗，已得罪，奔於梁，未幾又奔高祖。"
+        }
+      ],
+      "notes": [
+        "本条仅记录本书的服务称谓，不新增任命、军事行动或处分经过。",
+        "两书所事主不同，不能拼为已经证明的前后两段任职。"
+      ],
+      "variants": [
+        {
+          "label": "旧史同处称武皇",
+          "sourceDate": "原传早年叙述，未独年月",
+          "summary": "旧史记安重霸与明宗俱事武皇，武皇依本书系指李克用；与卷46明名存勖的记载分源保留。",
+          "evidence": [
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p6",
+              "originalRevision": 1,
+              "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+              "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

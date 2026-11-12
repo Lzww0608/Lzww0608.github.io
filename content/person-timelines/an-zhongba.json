@@ -38,6 +38,34 @@
               "excerpt": "唐軍已破蜀，重霸亦以秦、成、階三州降唐，明宗以為閬州團練使。"
             }
           ]
+        },
+        {
+          "label": "《十国春秋》接唐军入成都后献三州",
+          "sourceDate": "本书唐军既入成都之后；未独系献州年月",
+          "summary": "《十国春秋》在唐军入成都之后叙安重霸以秦、成、阶三州降唐；旧史把其遣使来降接在明宗起河北后，新史只说唐军已破蜀。保留不同叙次，不把本书献州强定在明宗起河北或王衍出降同日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "唐軍既入成都，重霸卽以秦、成、階三州降唐。"
+            },
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p7",
+              "originalRevision": 1,
+              "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+              "excerpt": "承休既去，重霸在秦州，聞明宗起河北，即時遣使以秦、成等州來降。"
+            },
+            {
+              "chapterId": "new-v46",
+              "paragraphId": "new-v46-p31",
+              "originalRevision": 1,
+              "originalSha256": "0ddd020f666b0d4ddd12dc94a7ca60b5a09ab66d446b5cc729b98c463ab12feb",
+              "excerpt": "唐軍已破蜀，重霸亦以秦、成、階三州降唐，明宗以為閬州團練使。"
+            }
+          ]
         }
       ]
     },
@@ -57,6 +85,39 @@
           "originalRevision": 1,
           "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
           "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "《十国春秋》初事晋王存勖说",
+          "sourceDate": "本传未独记年月；不据“初”推定一朝内的具体时间",
+          "summary": "《十国春秋》称安重霸初事晋王存勖，得罪奔梁，不久奔王建，后为亲将；旧史称其与明宗俱事武皇。两书所指分别保留，不把李存勖改成李克用，也不拼成已证实的两段任职。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "初事晉王存勗，已得罪，奔於梁，未幾又奔高祖。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "高祖以爲親將。"
+            },
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p6",
+              "originalRevision": 1,
+              "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+              "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+            }
+          ],
+          "notes": [
+            "获罪的具体处分者、原因和年月未独载；不把事晋王与获罪合写成李存勖亲自定罪。"
+          ]
         }
       ]
     },
@@ -109,6 +170,41 @@
           "notes": [
             "本条旧年表仍保年代未定；任龙武副职与秦州赴镇的层次分开，不拿两项先后推女方严氏经历。"
           ]
+        },
+        {
+          "label": "《十国春秋》本传分叙秦州副使与龙武副职",
+          "sourceDate": "两处均未独记年月；本纪龙武任命年月只适用于原本纪所叙任命",
+          "summary": "本传记王衍以王承休为秦州节度使、安重霸为副使；王承休传另说承休奏安重霸为龙武军副职。本纪置龙武军的任命与秦州赴镇仍分层，不能借同为副职凑成一个确日或统一兵数。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "因勸承休求鎮秦州，後主乃以承休爲節度使，重霸爲其副使。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p13",
+              "originalRevision": 1,
+              "originalSha256": "1ab88ad2124ae6d901a92bb134e9d2690ccd6b3cc418242538e572dcea19c290",
+              "excerpt": "裨將安重霸者以狡黠事承休，承休奏爲己副，舊將無不人人憤恥。"
+            },
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p6",
+              "originalRevision": 1,
+              "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+              "excerpt": "仍於軍中選山東驍果，得數千人，號龍武都，以承休為軍帥，重霸副焉，俱在天水。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p7",
+              "originalRevision": 1,
+              "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d",
+              "excerpt": "冬十月，置左右龍武四十軍爲親軍，以驍勇萬二千人充之，兵械給賜皆優異他軍。命宣徽北院使王承休爲龍武軍馬步都指揮使，裨將安重霸副之，舊將無不憤恥。"
+            }
+          ]
         }
       ]
     },
@@ -147,6 +243,34 @@
               "excerpt": "同光二年十月，蜀主率眾數萬，由劍閣將出興、鳳，以遊秦州；至興州，遇魏王繼岌軍至，狼狽而旋。"
             }
           ]
+        },
+        {
+          "label": "《十国春秋》记先许同赴、临行留守",
+          "sourceDate": "唐兵临境后，未独记年月；不沿用旧传疑记同光二年十月",
+          "summary": "本书写安重霸先许与承休俱西，待承休上路后又以秦陇不可失为辞留守；旧传另有同光二年十月的接叙，新史也记同一留守过程。各书语境保存，不强定同一个出游日。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p7",
+              "originalRevision": 1,
+              "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+              "excerpt": "及唐兵臨境，承休大恐，以問重霸，重霸曰：“劍門天下之險，雖有精兵，不可過也。然公受國恩，聞難不可不赴，願與公俱西。”承休素親信之，以爲然。整軍將發，秦人送之，帳飲城外。酒罷，承休上道，重霸立承休馬前辭曰：“秦、隴不可失，願留爲公守。”承休雖知爲所賣，業已上道，無如之何。"
+            },
+            {
+              "chapterId": "old-v061",
+              "paragraphId": "old-v061-p7",
+              "originalRevision": 1,
+              "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
+              "excerpt": "同光二年十月，蜀主率眾數萬，由劍閣將出興、鳳，以遊秦州；至興州，遇魏王繼岌軍至，狼狽而旋。"
+            },
+            {
+              "chapterId": "new-v46",
+              "paragraphId": "new-v46-p30",
+              "originalRevision": 1,
+              "originalSha256": "f24f0258dd11a1b2486f1bd4f473a7c4f80e8b5ab4738d003054a370dc5bcb76",
+              "excerpt": "酒罷，承休上道，重霸立承休馬前，辭曰：「秦、隴不可失，願留為公守。」承休業已上道，無如之何。"
+            }
+          ]
         }
       ]
     },
@@ -166,6 +290,13 @@
           "originalRevision": 1,
           "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
           "excerpt": "天成初，用為閬州團練使。未幾，召還為左衛大將軍。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "明宗時官閬州團練使，罷爲左衛大將軍，久之以爲匡國軍節度使。"
         }
       ]
     },
@@ -185,6 +316,13 @@
           "originalRevision": 1,
           "originalSha256": "68f08e9f96514b7c886f02539bdb8d3cfb27434f76a37c7e0649ab25b0e8bd3c",
           "excerpt": "清泰初，移授西京留守、京兆尹。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "廢帝時，爲京兆尹、西京留守，徙鎮大同。"
         }
       ]
     },
@@ -204,6 +342,13 @@
           "originalRevision": 1,
           "originalSha256": "0ddd020f666b0d4ddd12dc94a7ca60b5a09ab66d446b5cc729b98c463ab12feb",
           "excerpt": "徙鎮大同，以病罷還，卒于潞州。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "以病告歸，卒於潞州。"
         }
       ]
     },
@@ -223,11 +368,79 @@
           "originalRevision": 1,
           "originalSha256": "5f3e021ba2df2b02257a3c53e1bf794b53e5be291bd72ec15a4d82d5a19e7c80",
           "excerpt": "會安重霸等請後主東遊，禹卿上表幾二千言"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p4",
+          "originalRevision": 1,
+          "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+          "excerpt": "而昭復與王承休、安重霸盛稱秦州山川土風之美，勸後主臨幸，以爲姦。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "重霸與承休多取秦州花木上獻，請後主東游。"
         }
       ],
       "notes": [
         "段首乾德四年所纪为蒲禹卿制科，安重霸等进请一事未另记年月。",
-        "旧史相关游幸叙事写王承休请临、韩昭赞成，本段则明记安重霸等进请。两书的进请者和叙事层次各异，其与各次游幸的对应仍待考。"
+        "旧史相关游幸叙事写王承休请临、韩昭赞成，本段则明记安重霸等进请。两书的进请者和叙事层次各异，其与各次游幸的对应仍待考。",
+        "韩昭传的“以为奸”保为本书评述，不据此补具体阴谋、女方同行或某次游幸确日。",
+        "同一请游事实有其他传记叙述，不能只因同书分传便当多份独立复证。"
+      ]
+    },
+    {
+      "id": "an-zhongba-extract-gold-from-deng-chess",
+      "title": "借对弈使邓生献金求退",
+      "summary": "本书记安重霸在简州召富有的油客邓生对弈，使其久立饥疲；次日再次召来，邓生最终献金十铤才得脱身。",
+      "year": null,
+      "sortOrder": 9,
+      "precision": "undated",
+      "sourceDate": "在简州任内；未独记年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "重霸黷貨無厭，在簡州時，州民有油客鄧生者，能弈棋，家頗饒。重霸召令對局，終朝傍侍，每落一子，輙命退立西北牖下，俟其筭路進子，竟日不過下十數子。鄧生倦立，且饑甚，殆不可堪。次日復召如前。或諷之曰：“刺史嗜賄，本不爲棋也，何不進賂求退？”竟獻金十鋌乃免。"
+        }
+      ],
+      "notes": [
+        "下棋索金为本传记述；不补邓生全名、金铤重量或任职起止。"
+      ]
+    },
+    {
+      "id": "an-zhongba-kill-song-guangbao-langzhou",
+      "title": "阆州任内杀宋光葆",
+      "summary": "宋光嗣传附记其从弟宋光葆在前蜀亡后托疾住阆州，唐明宗时安重霸任阆州团练使，宋光葆被他杀害。",
+      "year": null,
+      "sortOrder": 10,
+      "precision": "undated",
+      "sourceDate": "蜀亡后、唐明宗时，阆州团练使任内；未独记年月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p12",
+          "originalRevision": 1,
+          "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+          "excerpt": "時光嗣有從弟光葆者，字季正，隨光嗣爲閹，給事黄門，官宣徽北院使，累遷東川節度使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p12",
+          "originalRevision": 1,
+          "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+          "excerpt": "國亡後，託疾居閬州。唐明宗時安重霸官閬州團練使，光葆乃爲所殺。"
+        }
+      ],
+      "notes": [
+        "死者明确为宋光葆；本段较前宗弼斩宋光嗣等、函首唐军，是另一记载，不能互换姓名或杀者。",
+        "不补杀人原因、奉谁命令、具体手段或死亡确日。"
       ]
     }
   ]

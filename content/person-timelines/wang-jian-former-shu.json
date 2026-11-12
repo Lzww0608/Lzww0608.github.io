@@ -106,6 +106,13 @@
           "originalRevision": 1,
           "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
           "excerpt": "高祖以唐大順二年入成都爲西川節度使，天復七年九月建號，明年改元。〈按舊五代史，王建以龍紀元年入成都，天祐五年建號改元，此薛氏之誤也。今悉以九國志、前蜀書、運曆圖爲據。〉"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p3",
+          "originalRevision": 1,
+          "originalSha256": "b22dc0e6a179d013470c747c130cff011e21aec95c3532012885757b480d0760",
+          "excerpt": "從高祖入蜀，勇猛善格鬭。高祖初鎮西川時，兵皆文身黧黑，衣裝詭異，衆目爲鬼兵，稱瑶爲鬼魁。"
         }
       ],
       "phase": "service",
@@ -218,7 +225,8 @@
       ],
       "sortOrder": 3,
       "notes": [
-        "本纪承袭既有考辨，不据其称薛氏之误去改旧史龙纪原字，亦不把同源引书累加成独立票数。"
+        "本纪承袭既有考辨，不据其称薛氏之误去改旧史龙纪原字，亦不把同源引书累加成独立票数。",
+        "徐瑶传补其随王建入蜀与初镇西川的背景；同传徐瑶掠逼俞氏的施事仍为徐瑶，不归王建亲自实施，俞氏也不因此成为宫人。"
       ]
     },
     {
@@ -525,6 +533,20 @@
           "notes": [
             "此处张氏为该书来源称谓，未认定与顺德周后同人或另一位可唯一识别的皇后。"
           ]
+        },
+        {
+          "label": "严遵美传所记即位后的内侍监任用",
+          "sourceDate": "高祖即位后，本传未独记任命月日，不将907即位日套作任命日",
+          "summary": "本传记王建即位后任严遵美为内侍监，礼遇有加；这是即位后的任官，未载独立册授日期。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p9",
+              "originalRevision": 1,
+              "originalSha256": "73f3ea52eeb19ae36ffe808a530fd9bba1a3cd45ccbd8ffecd9ba335689e7b9f",
+              "excerpt": "高祖卽位，除内侍監，禮遇有加。"
+            }
+          ]
         }
       ],
       "notes": [
@@ -663,6 +685,23 @@
               "excerpt": "元膺之亂，以兵入衛，建令安撫。元膺倉卒而死，建疑宗翰殺之，竟無以自辯。"
             }
           ]
+        },
+        {
+          "label": "唐道袭传的城西死事及追赠",
+          "sourceDate": "永平三年七月；追赠记同月，不补确日",
+          "summary": "本传记元膺率天武甲士在城西杀唐道袭，同月王建追赠道袭太师、谥忠壮，命立碑阆州。与新史神武门中矢坠马死、元膺传中矢后追至城西杀的叙法并存。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p2",
+              "originalRevision": 1,
+              "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+              "excerpt": "居無何，太子元膺與道襲有隙，遂率天武甲士殺道襲於城西，時三年七月也。事具元膺傳中。是月，高祖贈道襲太師，諡忠壯，命立碑閬州。"
+            }
+          ],
+          "notes": [
+            "本条既有913主年及所有旧异说保持；猫化龙、相墓预言不作死因证据。"
+          ]
         }
       ]
     },
@@ -789,6 +828,30 @@
               "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
               "excerpt": "久之，宗弼等排闥入，言文扆欲為變，乃殺之。建因以老將大臣多許昌故人，必不為太子用，思擇人未得而疾亟，乃以宦者宋光嗣為樞密使判六軍而建卒。太子立，去「宗」名衍。"
             }
+          ]
+        },
+        {
+          "label": "唐文扆、宋光嗣两传的病革与继位叙次",
+          "sourceDate": "王建病革至后主嗣位，唐文扆传未独记年月；宋传原字天光另存",
+          "summary": "唐文扆传记其掌禁兵、守宫门、遣潘在迎侦察；潘泄谋后宗弼等入见，文扆先贬眉州、削官流雅，后主嗣位后伏诛。宋光嗣传另记王建病革任光嗣枢密使，同宗弼受顾命；新史杀文扆在王建卒前的叙法继续保留。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p10",
+              "originalRevision": 1,
+              "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+              "excerpt": "及高祖疾，以兵入宿衛，謀盡去諸大臣，遣人守宫門。王宗弼輩三十餘人日至朝堂，不得入見，復令其黨皇城使潘在迎偵外事。在迎慮事敗，以其謀洩於宗弼，宗弼等排闥入，言文扆欲爲變。明日，貶文扆眉州刺史，未幾削官流雅州。後主嗣位，伏誅，弟天雄節度使文裔亦見殺。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p12",
+              "originalRevision": 1,
+              "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+              "excerpt": "高祖病革，謂大將大臣多許昌故人，必不爲太子用，思擇人而未得，乃以光嗣爲樞密使，與王宗弼等同受顧命輔政。"
+            }
+          ],
+          "notes": [
+            "伏诛省略杀令施事，不补王建或王衍亲自下令；唐文扆与其弟文裔保持不同身份。"
           ]
         }
       ]
@@ -1030,6 +1093,30 @@
           ],
           "notes": [
             "本传称公主嫁岐王从子，不据此把新史未名建女嫁岐王其子的婚姻关系自动合为同一位公主。"
+          ]
+        },
+        {
+          "label": "唐道袭传所记招讨任命、送行与宗播救援",
+          "sourceDate": "本传永平元年；本条原主年范围保持",
+          "summary": "唐道袭传记岐兵临东境，王建命道袭为招讨使，登大安楼作诗送行；蜀军败于青泥岭后，由王宗播救援安远军。它没有记王建亲赴兴元，不将本传宗播与宗鐬等别传救援合为唯一人。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p2",
+              "originalRevision": 1,
+              "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+              "excerpt": "永平元年，岐王茂貞兵臨東鄙，高祖命道襲爲招討使，帥兵以伐岐。臨發，高祖御大安樓，製詩送之。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v046",
+              "paragraphId": "shiguochunqiu-v046-p2",
+              "originalRevision": 1,
+              "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+              "excerpt": "未幾兵敗青泥嶺，會王宗播將兵救安遠軍，岐軍始解去。"
+            }
+          ],
+          "notes": [
+            "唐袭／唐道袭单复名为本书按语讨论，不以这条补证拆成两个已定人物；各书纪年不相互覆盖。"
           ]
         }
       ]
@@ -1404,6 +1491,80 @@
         "义亲身份来自周彦章自述，两书近似文句不当作两份独立目击。",
         "周氏所指、性别、人数和具体义亲关系未详；不据此补父母姓名或王氏宗支。",
         "先皇所下命令发生在王建生前，但没有可核的下界，不能借女儿被选或后来军变的时期为它定年。"
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu-appoint-an-zhongba-close-general",
+      "title": "用投奔来的安重霸为亲将",
+      "summary": "本传记安重霸自梁来奔，王建任为亲将；起初所事晋王在本传明名存勖，与旧史武皇之说分别保存。",
+      "year": null,
+      "sortOrder": 1009,
+      "precision": "undated",
+      "sourceDate": "安重霸本传未独纪年",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p7",
+          "originalRevision": 1,
+          "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+          "excerpt": "初事晉王存勗，已得罪，奔於梁，未幾又奔高祖。重霸爲人狡譎多智，善事人。高祖以爲親將。"
+        },
+        {
+          "chapterId": "old-v061",
+          "paragraphId": "old-v061-p6",
+          "originalRevision": 1,
+          "originalSha256": "120ac84364e98517d1d6d4e40d0869fe79c415d745281d612f0ef9868a953657",
+          "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
+        }
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu-shelter-yan-zunmei-yu-quanyin",
+      "title": "藏匿严遵美、鱼全禋，使免诛",
+      "summary": "严遵美传记蜀军天复二年拔兴元后，次年唐诏所在宦官赐死；严遵美与西川监军鱼全禋获王建藏匿而免死。",
+      "year": null,
+      "sortOrder": 1010,
+      "precision": "range",
+      "sourceDate": "本传天复二年之明年；保903—904跨西历范围，不补月日",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p9",
+          "originalRevision": 1,
+          "originalSha256": "73f3ea52eeb19ae36ffe808a530fd9bba1a3cd45ccbd8ffecd9ba335689e7b9f",
+          "excerpt": "天復二年，蜀軍拔興元，遵美從徙成都。明年，唐詔所在宦官皆賜死，遵美及西川監軍魚全禋爲高祖所匿獲免。"
+        }
+      ],
+      "yearRange": {
+        "start": 903,
+        "end": 904
+      },
+      "notes": [
+        "原文另有光化四年征召严遵美，年号范围疑点保留；不由该疑年倒推本事确日。"
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu-retain-song-guangsi",
+      "title": "留用随公主归成都的宋光嗣",
+      "summary": "宋光嗣随普宁公主回成都后，王建留之不遣，任阁门南院使。本卷作普宁，卷38作普慈；据婚家与同行记载对读，不与后梁同封公主混同。",
+      "year": null,
+      "sortOrder": 1011,
+      "precision": "undated",
+      "sourceDate": "公主归成都后，本传未独纪任用年月",
+      "phase": "uncertain",
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p12",
+          "originalRevision": 1,
+          "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+          "excerpt": "故爲宦者，給事普寧公主。公主爲岐王從子繼崇妻，不見容於夫而歸，光嗣隨公主至成都，高祖留之不遣，以爲閣門南院使。"
+        }
+      ],
+      "notes": [
+        "留之不遣在本传的近接主语为宋光嗣；普慈本传留公主的叙法另存，不相互替代。"
       ]
     }
   ]

@@ -1334,6 +1334,16 @@ _sg43_bm['subjects'] = list(dict.fromkeys([*_sg43_bm['subjects'], *json.loads('[
 _sg43_bm['sourceLocalSubjectsOnly'] = True
 next(book for book in BOOKS if book['id'] == 'shiguochunqiu')['description'] = '现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，卷 37 的前蜀后主本纪、卷 38 的前蜀后妃宗室列传，卷 39—41 的前蜀文臣与诸将列传，卷 43 的前蜀文武人物列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。'
 
+# Complete fixed source46 and source-bound existing-book entries.
+SPECS.append(json.loads('{"id": "shiguochunqiu-v046", "bookId": "shiguochunqiu", "volume": 46, "position": 46, "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）", "page": "十國春秋/卷046", "subjects": ["an-zhongba", "former-shu-puci-princess", "former-shu-wang-chengxiu-yan", "former-shu-wang-jian-xu-shunsheng", "li-congke", "li-cunxu", "li-jiji", "li-siyuan", "li-yan-youzhou", "meng-zhixiang", "wang-jian-former-shu", "wang-yan-former-shu", "former-shu-yan-zunmei", "former-shu-yu-quanyin"], "sourceLocalSubjectsOnly": true, "fixedRevisionId": 2438754, "minimumCharacters": 3876, "minimumBlocks": 13}'))
+SOUTHERN_TANG_COMPLETE_NOTES['shiguochunqiu-v046'] = json.loads('["本页完整收录所选卷的来源文本，保留原页正文、序文与夹注；原文使用繁体字。段落划分依来源页面的段落与空行，标题亦作为独立文字块保留。", "古籍原作已属公版；维基文库的整理、标点与页面文本按 CC BY-SA 4.0 署名并以相同方式共享。底本、校勘与叙事差异请参照版本信息。"]')
+next(book for book in BOOKS if book['id'] == 'shiguochunqiu')['description'] += ' 另收卷 46 的前蜀人物与宦官列传，完整保留本卷正文、两处列名题行、夹注与诗文；父页修订固定为2438754，转引子页未逐一固定，同源转引不作独立复证。'
+_SG46_OLD_SOURCE_SUBJECTS = {'tongjian-v262': ['zhu-wen', 'li-siyuan', 'li-sizhao', 'li-cunjin', 'li-cunzhang', 'fu-cunshen', 'ge-congzhou', 'zhang-cunjing', 'fu-daozhao', 'liu-han', 'kang-huaiying', 'zhang-guihou', 'shi-shucong', 'ding-hui', 'yan-bao', 'zhu-youqian', 'zhou-dewei', 'liu-xun-yonghe', 'yang-xingmi', 'wang-jian-former-shu', 'wang-shenzhi', 'qian-liu', 'ma-yin', 'li-keyong', 'liang-zhu-wen-consort-zhang', 'liang-zhu-wen-princess-puning', 'tang-li-keyong-daughter-binguo', 'wu-wei-quanfeng-daughter-unknown', 'li-yu-tang', 'former-shu-yan-zunmei'], 'beimeng-v012': ['former-shu-chengjie-mother', 'wang-jian-former-shu', 'zhang-wenwei', 'former-shu-yan-zunmei']}
+for _sg46_spec in SPECS:
+    if _sg46_spec['id'] in _SG46_OLD_SOURCE_SUBJECTS:
+        _sg46_spec['subjects'] = list(_SG46_OLD_SOURCE_SUBJECTS[_sg46_spec['id']])
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

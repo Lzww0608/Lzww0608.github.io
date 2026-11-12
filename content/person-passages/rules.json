@@ -5043,7 +5043,9 @@
       "personId": "former-shu-puci-princess",
       "names": [
         "普慈公主（王建女）",
-        "前蜀普慈公主"
+        "前蜀普慈公主",
+        "前蜀普宁公主（宋光嗣传）",
+        "前蜀普寧公主（宋光嗣傳）"
       ],
       "shortNames": [],
       "titles": [],
@@ -5450,6 +5452,32 @@
         "前蜀周彥章女",
         "周彦章之女",
         "周彥章之女"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
+    },
+    {
+      "personId": "former-shu-yan-zunmei",
+      "names": [
+        "严遵美",
+        "嚴遵美"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
+    },
+    {
+      "personId": "former-shu-yu-quanyin",
+      "names": [
+        "鱼全禋",
+        "魚全禋"
       ],
       "shortNames": [],
       "titles": [],
@@ -16282,6 +16310,57 @@
       "reason": "“深负规模，独怀英鉴”是谏表对王衍的颂语，“怀英”在此跨词而非康怀英姓名；仅排除此原段的该词，不删除人物真实异名或其他记载。",
       "originalRevision": 1,
       "originalSha256": "5f3e021ba2df2b02257a3c53e1bf794b53e5be291bd72ec15a4d82d5a19e7c80"
+    },
+    {
+      "personId": "an-zhongba",
+      "paragraphId": "shiguochunqiu-v046-p1",
+      "terms": [
+        "安重霸"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "4ce63a9fa3ff692a72076abd67ed5729530f723754cfa6409b5a70e941b9b443",
+      "reason": "篇题列名，不以标题造独立事迹片段；完整标题原译仍保留。"
+    },
+    {
+      "personId": "li-siyuan",
+      "paragraphId": "shiguochunqiu-v046-p7",
+      "terms": [
+        "明宗"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+      "reason": "这里只是明宗在位的官历时间语境，先排自动record，再以同原段SHA的mention显式归属。"
+    },
+    {
+      "personId": "li-congke",
+      "paragraphId": "shiguochunqiu-v046-p7",
+      "terms": [
+        "廢帝"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "a6cac0f87ba3ce432084324c354bbe0948fdd78928cea919d33e3193f361d749",
+      "reason": "这里只是后唐废帝在位的官历时间语境，不是皇帝亲除授；用显式mention替代自动record。"
+    },
+    {
+      "personId": "li-siyuan",
+      "paragraphId": "shiguochunqiu-v046-p12",
+      "terms": [
+        "明宗"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+      "reason": "唐明宗时只作光葆被安重霸所杀的时代，不能变帝亲令；以同原段SHA的mention显式归属。"
+    },
+    {
+      "personId": "liang-zhu-wen-princess-puning",
+      "paragraphId": "shiguochunqiu-v046-p12",
+      "terms": [
+        "普寧公主",
+        "普寧"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
+      "reason": "本段岐王从子继崇妻、宋光嗣随归的前蜀婚家，不归朱温女王昭祚妻；按具体原段及SHA排除同封号误归。"
     }
   ],
   "regnalEdicts": {
@@ -16795,7 +16874,8 @@
         "beimeng-v012",
         "new-v35",
         "shiguochunqiu-v037",
-        "shiguochunqiu-v043"
+        "shiguochunqiu-v043",
+        "shiguochunqiu-v046"
       ]
     }
   }
