@@ -13982,5 +13982,61 @@
       }
     ],
     "direction": "undirected"
+  },
+  {
+    "id": "former-shu-pan-kang-pan-zaiying-father-son",
+    "from": "former-shu-pan-kang",
+    "to": "former-shu-pan-zaiying",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "两段明确记炕之子、子在迎；不推定潘炕妾解愁是潘在迎之母，也不扩展潘峭家庭。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p42",
+        "title": "《九国志》卷6 · 潘在迎传",
+        "excerpt": "在迎，字亞卿，前蜀樞密使炕之子。"
+      },
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p15",
+        "title": "《十国春秋》卷41 · 潘炕传",
+        "excerpt": "子在迎爲後主狎客，别有傳。"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-pan-zaiying-wife-xu-marriage",
+    "from": "former-shu-pan-zaiying",
+    "to": "former-shu-pan-zaiying-wife-xu",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "夫妻",
+    "note": "原文直称在迎妻徐氏，不补婚期、封号、生卒或具体营救行为。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p42",
+        "title": "《九国志》卷6 · 潘在迎传",
+        "excerpt": "在迎妻徐氏，后兄女也，爲營護之獲免。"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-pan-zaiying-wife-hou-source-kinship",
+    "from": "former-shu-pan-zaiying-wife-hou-source-role",
+    "to": "former-shu-pan-zaiying-wife-xu",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "后兄女／来源称谓联系",
+    "note": "来源角色连线保持无箭头，只保存后兄女称谓，不补父亲姓名，不把施救动作指定给任一节点。",
+    "sources": [
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p42",
+        "title": "《九国志》卷6 · 潘在迎传",
+        "excerpt": "在迎妻徐氏，后兄女也，爲營護之獲免。"
+      }
+    ]
   }
 ]
