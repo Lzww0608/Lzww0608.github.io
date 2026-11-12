@@ -1367,6 +1367,14 @@ for _h122_person, _h122_chapters in _H122_SONG_CHAPTERS.items():
             _h122_spec['subjects'] = list(dict.fromkeys([*_h122_spec['subjects'], _h122_person]))
 
 
+# H123: source-bound Wang Chengxiu reading entries; saved originals remain unchanged.
+_H123_WANG_CHAPTERS = {'former-shu-wang-chengxiu': ['new-v46', 'new-v63', 'old-v033', 'old-v061', 'shiguochunqiu-v037', 'shiguochunqiu-v039', 'shiguochunqiu-v043', 'shiguochunqiu-v046', 'tongjian-v273', 'tongjian-v274', 'tongjian-v283'], 'former-shu-wang-chengxiu-yan': ['new-v63', 'tongjian-v273']}
+for _h123_person, _h123_chapters in _H123_WANG_CHAPTERS.items():
+    for _h123_spec in SPECS:
+        if _h123_spec['id'] in _h123_chapters:
+            _h123_spec['subjects'] = list(dict.fromkeys([*_h123_spec['subjects'], _h123_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
