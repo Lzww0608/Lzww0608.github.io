@@ -818,6 +818,13 @@
           "originalRevision": 1,
           "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
           "excerpt": "夏四月己巳，皇帝即位，大赦，改元，國號唐。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p6",
+          "originalRevision": 1,
+          "originalSha256": "ad675f383a864888a0124234a5a4de711a353dd3b00c1be8abea5583393aebc2",
+          "excerpt": "是月，晉王存勗稱皇帝，國號唐，改元同光。"
         }
       ],
       "notes": [
@@ -1002,6 +1009,20 @@
           "originalRevision": 1,
           "originalSha256": "52a6ca3b476cea29f64323ca94f303428b712bff805d9e307ba9a202cf0d2d7b",
           "excerpt": "自出師至克蜀，凡七十日。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "庚子，唐以魏王繼岌充西川四面行營都統，郭崇韜充東北面行營都招討制置等使，帥李令德、李紹琛、張筠、毛璋、董璋、李嚴等將兵六萬入寇，又以任圜、李愚參預軍機。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "丙辰，李嚴引帝及百官儀衞出降於升仙橋。〈蜀檮杌云：魏王至七里亭，衍備亡國禮以降。按舊五代史云升仙橋在成都北五里。又册府元龜作降於昇仙橋。〉帝白衣、銜璧、牽羊，草繩縈首，百官王楷等衰絰、徒跣、輿櫬，號哭俟命。繼岌受璧，崇韜解縛，焚櫬，承制釋罪；君臣東北向拜謝。丁巳，唐大軍入城"
         }
       ],
       "notes": [
@@ -1032,6 +1053,23 @@
               "originalSha256": "4f5e74ad181e6078116e91b6897408c0e7cb774f2de8a2835d1b9e925a57c8fb",
               "excerpt": "乙卯，魏王至西川城北。丙辰，蜀主王衍出降"
             }
+          ]
+        },
+        {
+          "label": "本纪使蜀回报与伐蜀决策的先后",
+          "sourceDate": "本纪先叙乾德六年李严来聘，咸康元年唐方命将伐蜀",
+          "summary": "本纪记李严回朝后报告蜀君臣情况，唐主深以为然而坚定攻取两川之计；来聘、回报及九月任命出师是不同层次，不将使臣笏记与宴上夸词都作已证战况。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p7",
+              "originalRevision": 1,
+              "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d",
+              "excerpt": "初，唐因嚴來，以馬市珍玩錦繡，而國法禁錦綺珍奇不得入中國，其粗惡者乃聽往易，謂之“入草物”。嚴還以聞，唐主怒曰：“衍豈免爲入草人乎！”嚴來時，帝與嚴俱朝上清宫，而成都士庶，簾帷珠翠，夾道不絶。嚴見其人物富盛，君臣驕盈，至是因言：“帝實童騃荒縱，昵比小人，用事之臣王宗弼、宋光嗣等，諂諛專恣，黷貨無厭，大兵一臨，瓦解土崩，可翹足而待。”唐主深以爲然，遂堅攻取兩川之計。"
+            }
+          ],
+          "notes": [
+            "本纪主文使次及夹引唐实录叙年不同，保留各书，不用辞令中前年硬定唯一出使年。"
           ]
         }
       ]
@@ -1203,11 +1241,41 @@
       ]
     },
     {
+      "id": "li-cunxu-orders-wang-yan-execution",
+      "title": "遣使诛王衍，旧诏许诺未守",
+      "summary": "本纪记三月景进建议除王氏，庄宗遣向延嗣持敕命杀王衍一行；张居翰将行改家，百官及仆役获免千余。四月使者至长安，王衍及宗族遇害。宽慰诏书所许裂土与后来诛令分开，发令和执行也不合为同一天。",
+      "year": 926,
+      "precision": "month",
+      "sourceDate": "本纪同光四年三月发令、四月己丑使至；发令未独日",
+      "phase": "imperial",
+      "sortOrder": 25,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "三月乙巳，帝至長安，唐莊宗有詔止之。是月，伶人景進白莊宗曰：“魏王未至，康延孝初平，王氏族黨不少，聞車駕東征，恐驟爲變，盍除之。”莊宗乃遣中使向延嗣齎勑害帝，勑曰：“王衍一行，並從殺戮。”已印畫矣，樞密使張居翰覆視，就殿柱揩去“行”字，改“家”字，由是百官及王氏僕役獲免者千餘人。夏四月丁亥朔，己丑，嗣延至長安，殺帝及宗族於秦川驛，因盡得蜀中珍寶。帝時年二十八也。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p35",
+          "originalRevision": 1,
+          "originalSha256": "de977251e02516533d634d84fd40aa8689a02547b4b4dd5ad50f49df8f23a354",
+          "excerpt": "同光四年四月，行至秦川驛，莊宗用伶人景進計，遣宦者向延嗣誅其族。"
+        }
+      ],
+      "notes": [
+        "三月命令与同月东征的确切先后未独明，不凭概叙补日。四月执行是后续，不作庄宗本人到场。",
+        "向延嗣、嗣延的原字序保留；所存人数是获免者口径，不倒推全部遇害人数。"
+      ]
+    },
+    {
       "id": "li-cunxu-xingjiao-death",
       "title": "兴教门兵变，中箭而死",
       "summary": "郭从谦率部攻兴教门，李存勖带近卫抵抗，随后被流矢射中，死于绛霄殿廊下。遗体被焚，李嗣源进入洛阳后得到余骸；底本关于初一干支的差别分别列出。",
       "year": 926,
-      "sortOrder": 25,
+      "sortOrder": 26,
       "precision": "day",
       "sourceDate": "同光四年四月初一（两书干支不同）",
       "phase": "fall",
@@ -1271,7 +1339,7 @@
       "title": "谥庄宗，葬雍陵",
       "summary": "李存勖死后获谥光圣神闵孝皇帝，庙号庄宗，并葬于雍陵。旧史庄宗纪与明宗纪对葬日分别记丙子、乙亥；新史只记七月，不强行统一日次。",
       "year": 926,
-      "sortOrder": 26,
+      "sortOrder": 27,
       "precision": "month",
       "sourceDate": "天成元年七月；旧史两处日次不同",
       "phase": "posthumous",

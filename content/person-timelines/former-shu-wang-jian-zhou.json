@@ -49,6 +49,35 @@
               "excerpt": "天光元年，高祖晏駕，后哀毁骨立，後數月而殂。"
             }
           ]
+        },
+        {
+          "label": "《十国春秋》本纪另系八月甲子",
+          "sourceDate": "本纪光天元年八月甲子，未换算为西历确日",
+          "summary": "本纪明确记八月甲子昭圣皇后殂，与《新史》晚王建数日、本传天光元年后数月的记法分别保存，不以一说覆盖另一说。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p2",
+              "originalRevision": 1,
+              "originalSha256": "9cdbcc2d669062d71a3627011d4abb08ed7ea7a181553dcb9bc54e9c21a44b0b",
+              "excerpt": "甲子，昭聖皇后殂。"
+            },
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p27",
+              "originalRevision": 1,
+              "originalSha256": "ae33422ef8725820365ae8d0db35a93a08c937e774a1a018261e106d392c1b4e",
+              "excerpt": "建正室周氏號昭聖皇后，後建數日而卒"
+            },
+            {
+              "chapterId": "shiguochunqiu-v038",
+              "paragraphId": "shiguochunqiu-v038-p2",
+              "originalRevision": 1,
+              "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
+              "excerpt": "天光元年，高祖晏駕，后哀毁骨立，後數月而殂。"
+            }
+          ],
+          "year": 918
         }
       ]
     },
@@ -146,9 +175,18 @@
           "originalRevision": 1,
           "originalSha256": "91d1501ecec2a4e462760fc78056348162f3cc9f277ec9302114e21c50be60db",
           "excerpt": "合葬永陵，諡曰順德，升祔太廟。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p2",
+          "originalRevision": 1,
+          "originalSha256": "9cdbcc2d669062d71a3627011d4abb08ed7ea7a181553dcb9bc54e9c21a44b0b",
+          "excerpt": "上大行皇后尊諡曰順德。"
         }
       ],
-      "notes": []
+      "notes": [
+        "本纪只补上谥顺德；同段十一月葬永陵的对象是王建，不据此给周后的合葬、升祔确定同一日期。"
+      ]
     }
   ]
 }

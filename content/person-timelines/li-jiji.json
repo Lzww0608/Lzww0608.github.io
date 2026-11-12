@@ -67,6 +67,13 @@
           "originalRevision": 1,
           "originalSha256": "cab011cfb56bed346511ea63e5142f8445a955a847c54fad79127bdb03378baf",
           "excerpt": "今命興聖宮使、魏王繼岌充西川四面行營都統，"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "庚子，唐以魏王繼岌充西川四面行營都統，郭崇韜充東北面行營都招討制置等使，帥李令德、李紹琛、張筠、毛璋、董璋、李嚴等將兵六萬入寇，又以任圜、李愚參預軍機。"
         }
       ],
       "variants": [
@@ -84,6 +91,9 @@
             }
           ]
         }
+      ],
+      "notes": [
+        "本纪庚子为都统及招讨等任命，旧史九月十八日为起军，不将任命、幕府辟任及启程并同日。"
       ]
     },
     {
@@ -130,6 +140,43 @@
           "originalRevision": 1,
           "originalSha256": "4f5e74ad181e6078116e91b6897408c0e7cb774f2de8a2835d1b9e925a57c8fb",
           "excerpt": "乙卯，魏王至西川城北。丙辰，蜀主王衍出降，語在衍傳。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "丙辰，李嚴引帝及百官儀衞出降於升仙橋。〈蜀檮杌云：魏王至七里亭，衍備亡國禮以降。按舊五代史云升仙橋在成都北五里。又册府元龜作降於昇仙橋。〉帝白衣、銜璧、牽羊，草繩縈首，百官王楷等衰絰、徒跣、輿櫬，號哭俟命。繼岌受璧，崇韜解縛，焚櫬，承制釋罪；君臣東北向拜謝。丁巳，唐大軍入城，繼岌居東内，崇韜止天策府。崇韜禁軍士侵掠，市不改肆。"
+        }
+      ],
+      "variants": [
+        {
+          "label": "本纪的受献处置与郭白收诛",
+          "sourceDate": "蜀降前后献物，十二月收诛另属后续，不继承出降日",
+          "summary": "本纪记魏王留承班所献之物而遣回；后记郭崇韬白继岌收宗弼等。旧郭传夹引则以魏王为入城翌日斩父子的施事。分别保存，不据白字补一条独立已允奏，也不写魏王亲自执刀。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p8",
+              "originalRevision": 1,
+              "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+              "excerpt": "又使子承班載宫人珍寶獻魏王繼岌及崇韜，求節鎮，繼岌留其物而遣之。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p8",
+              "originalRevision": 1,
+              "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+              "excerpt": "崇韜白繼岌收王宗弼、宗勳、宗渥，一作宗儼。斬之，并殺宗弼子駙馬都尉承班，牓曰：“竊以前件人等，擅廢本主，專殺内臣，潛取資財，將爲己物，爰自收降城邑，又無犒賞三軍，俱是元凶，須加顯戮。”"
+            },
+            {
+              "chapterId": "old-v057",
+              "paragraphId": "old-v057-p11",
+              "originalRevision": 1,
+              "originalSha256": "666355629e806007f8b51e783d1bfa2c3221b67ed8740ac9867e21e052879dcf",
+              "excerpt": "魏王入城，翌日，數其不忠之罪，並其子斬之於市。"
+            }
+          ]
         }
       ]
     },
@@ -237,6 +284,32 @@
           ]
         }
       ]
+    },
+    {
+      "id": "li-jiji-send-xu-ai-nanzhao-captives",
+      "title": "遣徐蔼招抚南诏，归还俘虏",
+      "summary": "本纪平蜀所得中有南诏俘虏数十人与曾使南诏的故唐判官徐蔼；魏王遣徐蔼持金帛招抚南诏，将所俘全部送还，告谕威德。",
+      "year": null,
+      "precision": "range",
+      "sourceDate": "本纪平蜀后并列记遣使，未独月日；925—926为战后所叙外框",
+      "phase": "uncertain",
+      "sortOrder": 20,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "又得南詔俘蠻數十人，及故唐判官徐藹曾使南詔者，魏王因遣藹持金帛招撫南詔，悉還所俘，諭以威德。"
+        }
+      ],
+      "notes": [
+        "只记遣使与归还所俘，不扩成南诏已经臣服，也不补徐蔼生平、使至确日或新的正式人物身份。"
+      ],
+      "yearRange": {
+        "start": 925,
+        "end": 926
+      }
     }
   ]
 }

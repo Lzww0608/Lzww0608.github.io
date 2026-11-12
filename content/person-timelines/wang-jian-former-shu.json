@@ -99,6 +99,13 @@
           "originalRevision": 1,
           "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
           "excerpt": "大順二年，破陳敬瑄，入成都，爲西川節度使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "高祖以唐大順二年入成都爲西川節度使，天復七年九月建號，明年改元。〈按舊五代史，王建以龍紀元年入成都，天祐五年建號改元，此薛氏之誤也。今悉以九國志、前蜀書、運曆圖爲據。〉"
         }
       ],
       "phase": "service",
@@ -209,7 +216,10 @@
           ]
         }
       ],
-      "sortOrder": 3
+      "sortOrder": 3,
+      "notes": [
+        "本纪承袭既有考辨，不据其称薛氏之误去改旧史龙纪原字，亦不把同源引书累加成独立票数。"
+      ]
     },
     {
       "id": "wang-jian-former-shu-eastern-shu",
@@ -431,6 +441,13 @@
           "originalRevision": 1,
           "originalSha256": "6ceca8744d4f87967e721bec71094d0649d828325b0b87ac4377b6d4b26b9181",
           "excerpt": "於是帥吏民哭三日，擁高祖卽皇帝位。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p8",
+          "originalRevision": 1,
+          "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+          "excerpt": "天復七年九月建號，明年改元。"
         }
       ],
       "phase": "rule",
@@ -509,6 +526,9 @@
             "此处张氏为该书来源称谓，未认定与顺德周后同人或另一位可唯一识别的皇后。"
           ]
         }
+      ],
+      "notes": [
+        "本纪同样分建号与次年改元；段内降书的止王三蜀是归降文书自陈，不能据此推翻本纪称帝或另造一次即位。"
       ]
     },
     {
@@ -720,6 +740,13 @@
           "originalRevision": 1,
           "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
           "excerpt": "共在位十二年，于光天元年六月薨，梁貞明四年也，年七十二。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p2",
+          "originalRevision": 1,
+          "originalSha256": "9cdbcc2d669062d71a3627011d4abb08ed7ea7a181553dcb9bc54e9c21a44b0b",
+          "excerpt": "高祖既晏駕，光天元年六月癸卯，嗣皇帝位，時年十八。"
         }
       ],
       "phase": "fall",
@@ -742,7 +769,65 @@
           "notes": [
             "不静改底本天光，不补本传未载的高祖卒日。"
           ]
+        },
+        {
+          "label": "本纪与新史的唐文扆被杀先后",
+          "sourceDate": "本纪接后主六月嗣位后乙卯杀唐文扆；新史先叙杀而后王建卒",
+          "summary": "本纪记王建晏驾、后主嗣位后杀唐文扆；新史叙旧将入宫后乃杀文扆、随后王建卒。保留叙次差别，不据此造唐文扆被杀两次或改写底本姓名。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p2",
+              "originalRevision": 1,
+              "originalSha256": "9cdbcc2d669062d71a3627011d4abb08ed7ea7a181553dcb9bc54e9c21a44b0b",
+              "excerpt": "乙卯，殺唐文扆、王保晦，命西面招討副使王全昱殺唐文扆于秦州，免左保勝軍使領右街使唐道崇官。"
+            },
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p25",
+              "originalRevision": 1,
+              "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
+              "excerpt": "久之，宗弼等排闥入，言文扆欲為變，乃殺之。建因以老將大臣多許昌故人，必不為太子用，思擇人未得而疾亟，乃以宦者宋光嗣為樞密使判六軍而建卒。太子立，去「宗」名衍。"
+            }
+          ]
         }
+      ]
+    },
+    {
+      "id": "wang-jian-former-shu-buried-yongling",
+      "title": "葬永陵，庙号高祖",
+      "summary": "本纪记十一月壬申将神武圣文孝德明惠帝葬于永陵，庙号高祖；九国志世家摘要也记谥号、庙号及永陵，但没有另记下葬月日。",
+      "year": 918,
+      "precision": "day",
+      "sourceDate": "后主承用光天元年十一月壬申；只核准西历年，不另换写确日",
+      "phase": "posthumous",
+      "sortOrder": 14,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p2",
+          "originalRevision": 1,
+          "originalSha256": "9cdbcc2d669062d71a3627011d4abb08ed7ea7a181553dcb9bc54e9c21a44b0b",
+          "excerpt": "十一月壬申，葬神武聖文孝德明惠帝于永陵，廟號高祖。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p4",
+          "originalRevision": 1,
+          "originalSha256": "4d3e0d424b9b1a4f10d04e0a9b00b2222fb77d31ad799bf9a562741713192c57",
+          "excerpt": "諡曰神武聖文孝德明惠皇帝，廟號高祖，葬永陵。"
+        },
+        {
+          "chapterId": "jiuguozhi-v006",
+          "paragraphId": "jiuguozhi-v006-p32",
+          "originalRevision": 1,
+          "originalSha256": "c1137161842d2e7de38f96bbc42c7b5dddafa67ea70a6d222298aa4df7f0750a",
+          "excerpt": "建薨，葬永陵，博雅議山陵事。"
+        }
+      ],
+      "notes": [
+        "壬申是本纪的葬日，不能从王建六月卒直接套得；谥号、庙号的册定各日未另载，不一概定于葬日。",
+        "高祖原庙与塑像为后世身后提及，可从人物片段查阅，不改作王建在世亲自建庙或受道箓。"
       ]
     },
     {

@@ -2974,11 +2974,60 @@
       ]
     },
     {
+      "id": "li-siyuan-permit-wang-yan-burial",
+      "title": "嘉纳宗寿请葬，追封故王衍",
+      "summary": "新史记天成二年王宗寿上书求葬王氏，明宗嘉其忠，授宗寿保义军行军司马，封故王衍顺正公并准诸侯礼葬；本纪另记天成三年，分别保留。",
+      "year": null,
+      "precision": "range",
+      "sourceDate": "主据新史天成二年，927—928范围；本纪天成三年另列",
+      "phase": "uncertain",
+      "sortOrder": 99,
+      "evidence": [
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p38",
+          "originalRevision": 1,
+          "originalSha256": "8f030c8e556a74d2eec33ff0ee487d4d9fec07913fda4c49e2eb07565778fe51",
+          "excerpt": "天成二年，出詣京師，上書求衍宗族葬之。明宗嘉其忠，以為保義軍行軍司馬，封衍順正公，許以諸侯禮葬之。宗壽得王氏十八喪，葬之長安南三趙村。"
+        }
+      ],
+      "notes": [
+        "上书者是王宗寿，明宗是嘉纳、授官、追封及准葬者；十八丧不是明宗亲自收殓，也不补死亡完整名单。"
+      ],
+      "yearRange": {
+        "start": 927,
+        "end": 928
+      },
+      "variants": [
+        {
+          "label": "本纪另系天成三年",
+          "sourceDate": "本纪天成三年，928—929范围，未独月日",
+          "summary": "本纪将同类请葬、封顺正公及诸侯礼葬三赵村系天成三年，与新史二年分源保存，不取范围重叠年928消弭异说，也不凑两次改葬。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p8",
+              "originalRevision": 1,
+              "originalSha256": "455767cdf1721aa8b31f71f4eea5e1a58184d2d151b35283a8dc038aac9423f5",
+              "excerpt": "天成三年，王宗壽上唐明宗書，求王氏宗族葬之。明宗嘉其忠，封後主順正公，許以諸侯禮葬長安南之三趙村。"
+            },
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p38",
+              "originalRevision": 1,
+              "originalSha256": "8f030c8e556a74d2eec33ff0ee487d4d9fec07913fda4c49e2eb07565778fe51",
+              "excerpt": "天成二年，出詣京師，上書求衍宗族葬之。明宗嘉其忠，以為保義軍行軍司馬，封衍順正公，許以諸侯禮葬之。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "li-siyuan-warehouse-surcharge",
       "title": "史补记每石加二斗鼠雀耗",
       "summary": "史补记巡视仓场，担忧长期损耗由仓吏私产赔补，遂令每石加二斗鼠雀耗。这是加耗，不说免税；与即位时省仓一升耗取消是不同来源与不同计量。",
       "year": null,
-      "sortOrder": 99,
+      "sortOrder": 100,
       "precision": "undated",
       "sourceDate": "明宗在位，史补未独记年月",
       "phase": "uncertain",
@@ -3006,7 +3055,7 @@
       "year": null,
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 100,
+      "sortOrder": 101,
       "sourceDate": "明宗尝欲以皇子娶重诲女；未独记该次婚议年月",
       "notes": [
         "明宗拟婚、安重诲问策与辞止、孔循劝说各按原书记载的主语保留，不写成女方主动退婚。",
@@ -3037,7 +3086,7 @@
       "year": null,
       "precision": "undated",
       "phase": "uncertain",
-      "sortOrder": 101,
+      "sortOrder": 102,
       "sourceDate": "新史回叙命妃母之，未独载年月",
       "notes": [
         "同卷称王淑妃为从益慈母，又另记司衣王氏为乳母；这道命令不改变三种来源角色的区别。"
@@ -3057,7 +3106,7 @@
       "title": "询军马数量，感叹养马耗民",
       "summary": "明宗问范延光军马数，得答骑军三万五千。帝以自己历年用兵的马数相比，范延光又言一马之费可养步卒五人，帝因而感叹肥战马而使民困。数字按本传记言，不另作实际军粮统计。",
       "year": null,
-      "sortOrder": 102,
+      "sortOrder": 103,
       "precision": "undated",
       "sourceDate": "范延光复为枢密使后的回叙，未另记问答年月",
       "phase": "uncertain",
@@ -3076,7 +3125,7 @@
       "title": "恤马彦超之死，授其子官",
       "summary": "朱守殷反前召马彦超谋事，彦超不从而被杀。明宗怜其死，授其子承祚洺州长史；这个承祚不是同卷杨光远之子杨承祚。",
       "year": null,
-      "sortOrder": 103,
+      "sortOrder": 104,
       "precision": "undated",
       "sourceDate": "平朱守殷前后回叙，未另记授官年月",
       "phase": "uncertain",
@@ -3094,7 +3143,7 @@
       "title": "欲幸邺都，因谏罢行",
       "summary": "新史郑珏传记明宗幸汴后拟再幸邺都，军士愁怨。赵凤向安重诲极言，安重诲入见切谏，明宗下诏罢行；郑珏先后赞成行与止，是该传另记的态度。",
       "year": null,
-      "sortOrder": 104,
+      "sortOrder": 105,
       "precision": "range",
       "sourceDate": "明确为明宗在位、幸汴后之事，暂保西历926—933年宽界；未证与旧幸邺诏同次",
       "phase": "uncertain",

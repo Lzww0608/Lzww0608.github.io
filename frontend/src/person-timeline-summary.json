@@ -486,6 +486,13 @@
       ]
     },
     {
+      "personId": "former-shu-he-kang-daughter",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-he-kang-daughter-taken"
+      ]
+    },
+    {
       "personId": "former-shu-jiechou",
       "eventCount": 1,
       "eventIds": [
@@ -517,6 +524,15 @@
       ]
     },
     {
+      "personId": "former-shu-wang-chenggang-daughter",
+      "eventCount": 3,
+      "eventIds": [
+        "former-shu-wang-chenggang-daughter-taken",
+        "former-shu-wang-chenggang-daughter-pleads-for-father",
+        "former-shu-wang-chenggang-daughter-death"
+      ]
+    },
+    {
       "personId": "former-shu-wang-chengxiu-yan",
       "eventCount": 1,
       "eventIds": [
@@ -541,10 +557,13 @@
     },
     {
       "personId": "former-shu-wang-jian-xu-shunsheng",
-      "eventCount": 10,
+      "eventCount": 13,
       "eventIds": [
         "former-shu-wang-jian-xu-shunsheng-xu-mother-heir",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-dowager",
+        "former-shu-wang-jian-xu-shunsheng-objects-to-killing-zhang-shiqiao",
+        "former-shu-wang-jian-xu-shunsheng-mountain-prayers-and-poems",
+        "former-shu-wang-jian-xu-shunsheng-opposes-qinzhou-tour",
         "former-shu-wang-jian-xu-shunsheng-visits-zongbi-and-forced-west-palace",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-surrender",
         "former-shu-wang-jian-xu-shunsheng-xu-mother-poems",
@@ -557,9 +576,10 @@
     },
     {
       "personId": "former-shu-wang-jian-xu-yisheng",
-      "eventCount": 6,
+      "eventCount": 7,
       "eventIds": [
         "former-shu-wang-jian-xu-yisheng-xu-aunt-dowager",
+        "former-shu-wang-jian-xu-yisheng-mountain-prayers-and-poems",
         "former-shu-wang-jian-xu-yisheng-xu-aunt-surrender",
         "former-shu-wang-jian-xu-yisheng-xu-aunt-poems",
         "former-shu-wang-jian-xu-yisheng-xu-aunt-execution",
@@ -783,9 +803,10 @@
     },
     {
       "personId": "gao-jixing",
-      "eventCount": 12,
+      "eventCount": 13,
       "eventIds": [
         "gao-jixing-nanping-prince",
+        "gao-jixing-shu-southeast-expedition-appointment",
         "gao-jixing-seize-shu-treasure",
         "gao-jixing-submit-wu",
         "gao-jixing-chu-war",
@@ -874,7 +895,7 @@
     },
     {
       "personId": "guo-chongtao",
-      "eventCount": 22,
+      "eventCount": 23,
       "eventIds": [
         "guo-chongtao-companion-meal-dispute",
         "guo-chongtao-shumi",
@@ -886,6 +907,7 @@
         "guo-chongtao-relinquish-town",
         "guo-chongtao-march-shu",
         "guo-chongtao-pacify-shu",
+        "guo-chongtao-zongbi-arrest-and-execution",
         "guo-chongtao-death-chengdu",
         "guo-chongtao-restore-burial",
         "guo-chongtao-early-service",
@@ -1980,7 +2002,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 33,
+      "eventCount": 34,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -2008,6 +2030,7 @@
         "li-cunxu-purge-and-hunger",
         "li-cunxu-weibo-revolt",
         "li-cunxu-failed-march",
+        "li-cunxu-orders-wang-yan-execution",
         "li-cunxu-xingjiao-death",
         "li-cunxu-burial",
         "li-cunxu-receive-su-xun-and-appoint-deputy",
@@ -2062,7 +2085,7 @@
     },
     {
       "personId": "li-jiji",
-      "eventCount": 8,
+      "eventCount": 9,
       "eventIds": [
         "li-jiji-return-ye",
         "li-jiji-wife-wang-wei-title",
@@ -2071,7 +2094,8 @@
         "li-jiji-kill-chongtao",
         "li-jiji-march-home",
         "li-jiji-appoint-ren",
-        "li-jiji-death-weinan"
+        "li-jiji-death-weinan",
+        "li-jiji-send-xu-ai-nanzhao-captives"
       ]
     },
     {
@@ -2240,7 +2264,7 @@
     },
     {
       "personId": "li-siyuan",
-      "eventCount": 105,
+      "eventCount": 106,
       "eventIds": [
         "li-siyuan-birth",
         "li-siyuan-shangyuan",
@@ -2341,6 +2365,7 @@
         "li-siyuan-luo-court",
         "li-siyuan-suspicion",
         "li-siyuan-liu-empress",
+        "li-siyuan-permit-wang-yan-burial",
         "li-siyuan-warehouse-surcharge",
         "li-siyuan-an-chonghui-daughter-marriage-proposal",
         "li-siyuan-command-wang-nurture-congyi",
@@ -3171,7 +3196,7 @@
     },
     {
       "personId": "liu-yan-southern-han",
-      "eventCount": 18,
+      "eventCount": 19,
       "eventIds": [
         "liu-yan-southern-han-emperor",
         "liu-yan-southern-han-examinations",
@@ -3187,6 +3212,7 @@
         "liu-yan-southern-han-conquest-lingnan",
         "liu-yan-southern-han-han-name",
         "liu-yan-southern-han-marriage",
+        "liu-yan-southern-han-former-shu-diplomatic-friendship",
         "liu-yan-southern-han-tang-envoy",
         "liu-yan-southern-han-name-yan",
         "liu-yan-southern-han-yang-tingyi",
@@ -4120,10 +4146,11 @@
     },
     {
       "personId": "ren-huan",
-      "eventCount": 17,
+      "eventCount": 18,
       "eventIds": [
         "ren-huan-zhenzhou-surrender",
         "ren-huan-zhending-beijing-office",
+        "ren-huan-participate-shu-headquarters",
         "ren-huan-shu-stay",
         "ren-huan-appointed-subcommander",
         "ren-huan-hanzhou-victory",
@@ -5300,7 +5327,7 @@
     },
     {
       "personId": "wang-jian-former-shu",
-      "eventCount": 33,
+      "eventCount": 34,
       "eventIds": [
         "wang-jian-former-shu-escort-emperor",
         "wang-jian-former-shu-yongping-command",
@@ -5319,6 +5346,7 @@
         "wang-jian-former-shu-frontier-war",
         "wang-jian-former-shu-tongzheng",
         "wang-jian-former-shu-death",
+        "wang-jian-former-shu-buried-yongling",
         "wang-jian-former-shu-early-military",
         "wang-jian-former-shu-attack-hanzhou",
         "wang-jian-former-shu-shannan",
@@ -5482,20 +5510,26 @@
     },
     {
       "personId": "wang-yan-former-shu",
-      "eventCount": 14,
+      "eventCount": 20,
       "eventIds": [
         "wang-yan-former-shu-heir",
         "wang-yan-former-shu-accession",
         "wang-yan-former-shu-gao-empress-investiture",
         "wang-yan-former-shu-seventh-month-princely-grants",
+        "wang-yan-former-shu-zhaosheng-posthumous-title",
         "wang-yan-former-shu-qian-de",
+        "wang-yan-former-shu-wanliqiao-original-temple-rite",
+        "wang-yan-former-shu-takes-he-kang-daughter",
+        "wang-yan-former-shu-deposes-gao-empress",
+        "wang-yan-former-shu-takes-wang-chenggang-daughter",
+        "wang-yan-former-shu-shangqing",
+        "wang-yan-former-shu-mountain-tour-with-two-xu",
         "wang-yan-former-shu-invasion-and-tour",
         "wang-yan-former-shu-surrender",
         "wang-yan-former-shu-death",
         "wang-yan-former-shu-li-shunxian-zhaoyi-investiture",
         "wang-yan-former-shu-government",
         "wang-yan-former-shu-northern-tour",
-        "wang-yan-former-shu-shangqing",
         "wang-yan-former-shu-li-yan-envoy",
         "wang-yan-former-shu-burial"
       ]

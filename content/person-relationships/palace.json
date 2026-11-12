@@ -14038,5 +14038,138 @@
         "excerpt": "在迎妻徐氏，后兄女也，爲營護之獲免。"
       }
     ]
+  },
+  {
+    "id": "former-shu-he-kang-daughter-parent",
+    "from": "former-shu-he-kang",
+    "to": "former-shu-he-kang-daughter",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "阆州州民何康之女，不补生母或未载族系。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p31",
+        "excerpt": "州民何康女色美，將嫁，蜀主取之，賜其夫家帛百匹，夫一慟而卒。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p3",
+        "excerpt": "州民何康女美，而將嫁，帝取之，賜其夫家帛百疋，夫一慟而卒。",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-yan-he-kang-daughter-taking",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-he-kang-daughter",
+    "kind": "conflict",
+    "label": "将嫁时被夺取",
+    "note": "不登记为已经完成的夫妻关系，也不补后妃位号。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p31",
+        "excerpt": "州民何康女色美，將嫁，蜀主取之，賜其夫家帛百匹，夫一慟而卒。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p3",
+        "excerpt": "州民何康女美，而將嫁，帝取之，賜其夫家帛百疋，夫一慟而卒。",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-he-kang-daughter-intended-union",
+    "from": "former-shu-he-kang-daughter",
+    "to": "former-shu-he-kang-daughter-intended-husband",
+    "kind": "kinship",
+    "label": "原拟婚配，礼成未载",
+    "note": "夫为源称，男子失名；给男方家帛及恸卒不变成女子获赏或死亡。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p31",
+        "excerpt": "州民何康女色美，將嫁，蜀主取之，賜其夫家帛百匹，夫一慟而卒。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p3",
+        "excerpt": "州民何康女美，而將嫁，帝取之，賜其夫家帛百疋，夫一慟而卒。",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-wang-chenggang-daughter-parent",
+    "from": "former-shu-wang-chenggang",
+    "to": "former-shu-wang-chenggang-daughter",
+    "kind": "kinship",
+    "label": "父女",
+    "note": "军使官号不补具体军镇；女闻父罪不改成父自杀。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p71",
+        "excerpt": "夏，四月，蜀軍使王承綱女將嫁，蜀主取之入宮。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p71",
+        "excerpt": "承綱請之，蜀主怒，流於茂州。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p5",
+        "excerpt": "夏四月，奪軍使王承綱女，承綱請之，帝怒，流之茂州。",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-yan-wang-chenggang-daughter-taking",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-wang-chenggang-daughter",
+    "kind": "conflict",
+    "label": "将嫁时被取入宫",
+    "note": "不登记夫妻或授妃号；不补亲令女子自杀。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p71",
+        "excerpt": "夏，四月，蜀軍使王承綱女將嫁，蜀主取之入宮。",
+        "title": "《资治通鉴》 · 卷271"
+      },
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p5",
+        "excerpt": "夏四月，奪軍使王承綱女，承綱請之，帝怒，流之茂州。",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-pan-zhao-wang-chenggang-dispute-source",
+    "from": "former-shu-pan-zhao-source-role",
+    "to": "former-shu-wang-chenggang",
+    "kind": "conflict",
+    "label": "夹引记有隙、奏怨言",
+    "note": "仅限《十国春秋》所引《蜀梼杌》的来源角色；不强配韩昭，不把奏言定诬告，不改作直接侵犯女子。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v037",
+        "paragraphId": "shiguochunqiu-v037-p5",
+        "excerpt": "〈蜀檮杌云：潘昭與承綱有隙，奏其出怨言，故被貶。〉",
+        "title": "《十国春秋》 · 卷37 · 前蜀后主本纪"
+      }
+    ]
   }
 ]

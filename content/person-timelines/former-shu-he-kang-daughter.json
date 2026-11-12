@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-he-kang-daughter",
+  "events": [
+    {
+      "id": "former-shu-he-kang-daughter-taken",
+      "title": "原拟出嫁时被王衍夺取",
+      "summary": "王衍至阆州期间，何康女原拟出嫁，被蜀主夺取；原书另记给男方家帛及原拟婚配男子恸卒。",
+      "year": 921,
+      "precision": "year",
+      "sourceDate": "《通鉴》贞明六年十二月；《十国春秋》乾德二年十二月",
+      "phase": "later",
+      "sortOrder": 1,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p31",
+          "originalRevision": 1,
+          "originalSha256": "9f765660c430e5e8c0bb02560abeb495101a803d17e01254b04dd94ace599559",
+          "excerpt": "州民何康女色美，將嫁，蜀主取之，賜其夫家帛百匹，夫一慟而卒。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p3",
+          "originalRevision": 1,
+          "originalSha256": "134ef7c9b024848dd4b9ec88a3a6505c08170e5998f4bf0905ae239d2ef3d7ad",
+          "excerpt": "州民何康女美，而將嫁，帝取之，賜其夫家帛百疋，夫一慟而卒。"
+        }
+      ],
+      "notes": [
+        "壬申只直接记王衍到阆州，不定取女、赐帛、男子死亡都在同一天。",
+        "仅以本次被取为本人经历；赐帛和男子之死为同段背景，不另造她的受赏或死亡事件。",
+        "后期记载是共用阶段名，不含她已晚年的年龄断言。"
+      ]
+    }
+  ]
+}

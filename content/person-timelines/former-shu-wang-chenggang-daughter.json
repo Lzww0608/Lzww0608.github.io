@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "scope": "current-archive",
+  "personId": "former-shu-wang-chenggang-daughter",
+  "events": [
+    {
+      "id": "former-shu-wang-chenggang-daughter-taken",
+      "title": "原拟出嫁时被取入宫",
+      "summary": "王衍取将嫁的王承纲女入宫；王承纲请求归还，父亲获罪被流放茂州。",
+      "year": 922,
+      "precision": "year",
+      "sourceDate": "《通鉴》龙德二年夏四月；《十国春秋》乾德四年夏四月",
+      "phase": "later",
+      "sortOrder": 1,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p71",
+          "originalRevision": 1,
+          "originalSha256": "41a03f1eeebee1341733950fc2bc9803d063d784faaa0200428b60c8de90e8b2",
+          "excerpt": "夏，四月，蜀軍使王承綱女將嫁，蜀主取之入宮。"
+        },
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p71",
+          "originalRevision": 1,
+          "originalSha256": "41a03f1eeebee1341733950fc2bc9803d063d784faaa0200428b60c8de90e8b2",
+          "excerpt": "承綱請之，蜀主怒，流於茂州。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "夏四月，奪軍使王承綱女，承綱請之，帝怒，流之茂州。"
+        }
+      ],
+      "notes": [
+        "流茂州者为王承纲；不把父亲处罚当女子流放。",
+        "此事件日期只取原文夏四月所在年，不把下一甲戌套作该女纪日。"
+      ],
+      "variants": [
+        {
+          "label": "《蜀梼杌》所述父亲被贬缘由",
+          "sourceDate": "《通鉴》龙德二年夏四月；《十国春秋》乾德四年夏四月",
+          "summary": "主文请之帝怒与夹引潘昭奏怨言并列，不拼成唯一因果。",
+          "evidence": [
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p5",
+              "originalRevision": 1,
+              "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+              "excerpt": "夏四月，奪軍使王承綱女，承綱請之，帝怒，流之茂州。"
+            },
+            {
+              "chapterId": "shiguochunqiu-v037",
+              "paragraphId": "shiguochunqiu-v037-p5",
+              "originalRevision": 1,
+              "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+              "excerpt": "〈蜀檮杌云：潘昭與承綱有隙，奏其出怨言，故被貶。〉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-wang-chenggang-daughter-pleads-for-father",
+      "title": "剪发求赎父罪未获准",
+      "summary": "《十国春秋》记王承纲女剪发，要求赎父罪，没有获准。",
+      "year": 922,
+      "precision": "year",
+      "sourceDate": "《通鉴》龙德二年夏四月；《十国春秋》乾德四年夏四月",
+      "phase": "later",
+      "sortOrder": 2,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "承綱女剪髮贖父罪，不許，遂自殺。"
+        }
+      ],
+      "notes": [
+        "此举仅本书另载，不称《通鉴》也明载剪发。",
+        "不补已出家、得到许可、赎免成功或求赎具体日。"
+      ]
+    },
+    {
+      "id": "former-shu-wang-chenggang-daughter-death",
+      "title": "父亲获罪后自杀",
+      "summary": "《通鉴》记她闻父得罪后自杀；《十国春秋》另记剪发求赎未准后自杀。",
+      "year": 922,
+      "precision": "year",
+      "sourceDate": "《通鉴》龙德二年夏四月；《十国春秋》乾德四年夏四月",
+      "phase": "fall",
+      "sortOrder": 3,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v271",
+          "paragraphId": "tongjian-v271-p71",
+          "originalRevision": 1,
+          "originalSha256": "41a03f1eeebee1341733950fc2bc9803d063d784faaa0200428b60c8de90e8b2",
+          "excerpt": "女聞父得罪，自殺。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v037",
+          "paragraphId": "shiguochunqiu-v037-p5",
+          "originalRevision": 1,
+          "originalSha256": "fc52b14b33647960ff5527393b6a57e0ac8c5eab144c61168a8547b86be770e6",
+          "excerpt": "承綱女剪髮贖父罪，不許，遂自殺。"
+        }
+      ],
+      "notes": [
+        "两书省详分存，未载具体方法及地点。",
+        "不据后半李嗣昭的甲戌及是夕卒确定该女自杀日。"
+      ]
+    }
+  ]
+}

@@ -5416,6 +5416,30 @@
         "bookIds": [],
         "chapterIds": []
       }
+    },
+    {
+      "personId": "former-shu-he-kang-daughter",
+      "names": [
+        "何康女"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
+    },
+    {
+      "personId": "former-shu-wang-chenggang-daughter",
+      "names": [
+        "王承綱女"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -16160,6 +16184,77 @@
       "reason": "含杜晓的纯篇题或附传题，仅作传界，不另登记人物行动或独立记载。",
       "originalRevision": 1,
       "originalSha256": "d0a320deeb81baf2c43fb01dbb6b6ca68f9a830a46fe80f451ecd9e1629ecb27"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p7",
+      "personId": "zhu-wen",
+      "terms": [
+        "朱温"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。李严朝见笏记中的敌国政治辞令与追叙；供查阅但不把断语当独立证明，不新增未经核对的弑君事件。",
+      "originalRevision": 1,
+      "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p7",
+      "personId": "zhu-youzhen",
+      "terms": [
+        "朱友貞",
+        "友貞"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。笏记夸述唐军灭梁，不覆盖朱友贞既有死亡主证与施事分歧。朱友贞不归将领朱珍。",
+      "originalRevision": 1,
+      "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p7",
+      "personId": "wang-yanzhang",
+      "terms": [
+        "王彦章"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。笏记回顾擒王彦章；不是后主年间新战役，也不据此替换原有擒获者、地点和战程。",
+      "originalRevision": 1,
+      "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p7",
+      "personId": "duan-ning",
+      "terms": [
+        "段凝"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。笏记中的八万与投降口径按说话者保存，不改既有五万归唐记载或作两场投降。",
+      "originalRevision": 1,
+      "originalSha256": "6162c4fd88e3835fb723ba510363a122fe4c56929958a303993aee73a9b78b3d"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p9",
+      "personId": "li-cunxu",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。史家比较中的庄宗为李存勖，不据比较建立与司马文王的实际交往关系。",
+      "originalRevision": 1,
+      "originalSha256": "c1fe5ebfaefd095c9aacea29189875995b0fa9e3a8b2efe52b514e82f4b479f6"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p9",
+      "personId": "guo-chongtao",
+      "terms": [
+        "崇韜"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。同段比较中的崇韬为前述郭崇韬；钟会、邓艾是比拟对象，不是本时人物。",
+      "originalRevision": 1,
+      "originalSha256": "c1fe5ebfaefd095c9aacea29189875995b0fa9e3a8b2efe52b514e82f4b479f6"
+    },
+    {
+      "paragraphId": "shiguochunqiu-v037-p9",
+      "personId": "li-jiji",
+      "terms": [
+        "繼岌"
+      ],
+      "reason": "保留已核来源提及，由具体版本的verified-attribution登记；本段外交笏记或史家评论不由自动姓名命中升级为事迹。同段比较中的继岌为李继岌，只标评论提及，不增个人事件。",
+      "originalRevision": 1,
+      "originalSha256": "c1fe5ebfaefd095c9aacea29189875995b0fa9e3a8b2efe52b514e82f4b479f6"
     }
   ],
   "regnalEdicts": {
@@ -16671,7 +16766,8 @@
         "shiguochunqiu-v039",
         "jiuguozhi-v006",
         "beimeng-v012",
-        "new-v35"
+        "new-v35",
+        "shiguochunqiu-v037"
       ]
     }
   }
