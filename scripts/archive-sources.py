@@ -1351,6 +1351,14 @@ for _h120_spec in SPECS:
         _h120_spec['subjects'] = list(dict.fromkeys([*_h120_spec['subjects'], 'former-shu-tang-wenyi']))
 
 
+# H121: source-bound two-Song reading entries; saved originals remain unchanged.
+_H121_SONG_CHAPTERS = {'former-shu-song-guangsi': ['jiuguozhi-v006', 'new-v63', 'old-v033', 'old-v070', 'old-v136', 'shiguochunqiu-v037', 'shiguochunqiu-v038', 'shiguochunqiu-v039', 'shiguochunqiu-v043', 'shiguochunqiu-v046', 'tongjian-v267', 'tongjian-v270', 'tongjian-v272', 'tongjian-v273', 'tongjian-v274'], 'former-shu-song-guangbao': ['beimeng-v020', 'kaoyi-v029', 'new-v63', 'old-v033', 'old-v136', 'shiguochunqiu-v037', 'shiguochunqiu-v039', 'shiguochunqiu-v046', 'tongjian-v270', 'tongjian-v273', 'tongjian-v274']}
+for _h121_person, _h121_chapters in _H121_SONG_CHAPTERS.items():
+    for _h121_spec in SPECS:
+        if _h121_spec['id'] in _h121_chapters:
+            _h121_spec['subjects'] = list(dict.fromkeys([*_h121_spec['subjects'], _h121_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

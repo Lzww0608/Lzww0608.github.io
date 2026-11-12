@@ -432,7 +432,9 @@
     "former-shu-zhou-yanzhang-daughter",
     "former-shu-yan-zunmei",
     "former-shu-yu-quanyin",
-    "former-shu-tang-wenyi"
+    "former-shu-tang-wenyi",
+    "former-shu-song-guangsi",
+    "former-shu-song-guangbao"
   ],
   "people": [
     {
@@ -9863,6 +9865,103 @@
         {
           "title": "《九国志》 · 卷 6 · 前蜀人物列传",
           "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E5%85%AD&oldid=2592883"
+        },
+        {
+          "title": "《资治通鉴考异》 · 卷 29 · 后梁纪下、后唐纪上",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E8%80%83%E7%95%B0+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B729&oldid=783909"
+        }
+      ]
+    },
+    {
+      "id": "former-shu-song-guangsi",
+      "name": "宋光嗣",
+      "dynasty": "前蜀",
+      "role": "前蜀宦官，内枢密使、顾命辅政者",
+      "periodLabel": "王建、王衍时；生年未载，925年被王宗弼杀",
+      "intro": "宋光嗣是福州人，曾给事公主，持绢书为公主求归，随至成都后被王建留用。王建晚年任其为内枢密使，与王宗弼等受顾命；王衍嗣位后任其判六军诸卫，随后许他让军职于宗弼。史书保存他与唐使李严的问答，也记其受王衍宠任、专断国事的批评。唐军入蜀时，他与宗弼建议扼守利州，后来被宗弼杀害、送首唐军。宋光葆为原书所称从弟，另有任职与结局。",
+      "aliases": "前蜀宋光嗣 宋光嗣（前蜀） 宋光嗣（普慈公主遣持帛书者） 宋光嗣（普慈公主遣持帛書者）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v046",
+        "old": "old-v070",
+        "new": "new-v63",
+        "tongjian": "tongjian-v270",
+        "jiuguozhi": "jiuguozhi-v006"
+      },
+      "sourceNotes": [
+        "同一身份复用原公主相关的宋光嗣；不与董氏父光嗣、董璋子光嗣，或篇题原作宋光浦者合并。",
+        "公主封号普慈／普宁、南院使转任处原作天光，以及新史与通鉴的六军任命叙次各按出处保留；不默改底本。",
+        "李严外交辞、伐蜀诏的指责、十在文讥刺和史家褒贬分别注明说话来源；不把每项评论变成已独立证实的案件。",
+        "诛三招讨的主叙是蜀主下令，宗弼称宋光嗣令杀是其告语；宗弼出榜声称奉魏王令也不是魏王事前下令的独立证明。",
+        "王宗弼斩宋与旧史已斩报告、函首到军前分清；不把十一月二十一日或辛亥报告日确定为遇害日。",
+        "岐下宋公之姻好仅依李严传所录自述，具体自然身份和婚配未定；不指认宋齐丘。宋光葆的从弟关系不据以补父母、谱系或相同籍贯。"
+      ],
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+        },
+        {
+          "title": "《旧五代史》 · 卷 70 · 唐列传（元行钦、夏鲁奇等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B770&oldid=1378108"
+        },
+        {
+          "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+        },
+        {
+          "title": "《九国志》 · 卷 6 · 前蜀人物列传",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E5%85%AD&oldid=2592883"
+        }
+      ]
+    },
+    {
+      "id": "former-shu-song-guangbao",
+      "name": "宋光葆",
+      "dynasty": "前蜀",
+      "role": "前蜀宦官，宣徽北院使及东川军政人物",
+      "periodLabel": "王衍时及前蜀亡后；早年未纪年，唐明宗时遇害",
+      "intro": "宋光葆字季正，宋光嗣传称其为光嗣从弟，随其为宦者、给事黄门，历宣徽北院使等职。王衍时列内给事授将军及军使；面对唐使来聘，他提出备边建议，通鉴记继授梓州观察使、武德节度留后。唐军入蜀后，他向郭崇韬通书，随后举梓、绵、剑、龙、普五州归唐，又从梓州来诉宗弼诬杀光嗣等。蜀亡后托病居阆州，唐明宗时被阆州团练使安重霸杀害。",
+      "aliases": "前蜀宋光葆 宋光葆（前蜀） 宋光葆（季正）",
+      "readingStarts": {
+        "shiguochunqiu": "shiguochunqiu-v046",
+        "old": "old-v136",
+        "new": "new-v63",
+        "tongjian": "tongjian-v273",
+        "beimeng": "beimeng-v020",
+        "kaoyi": "kaoyi-v029"
+      },
+      "sourceNotes": [
+        "本传称从弟，合题称弟；不补同父母、具体父辈、收养或光葆籍贯。宋光嗣、宋承蕴与原题宋光浦保持不同所指。",
+        "旧史相应东川备御奏议原作宋承葆，本页按职任与语境并列参看，底本原字照存，不把裸承葆全库归人。",
+        "武德节度留后、武德军节度留后、东川节度使及春秋伐蜀段的武定留后，均依各篇保留，不移给同段另率三州归降的王承肇。",
+        "宋传请斩李严、再请守备未用，与通鉴另记王宗俦请斩、宋提备御并获任职分说；扩张攻守计划与考异似用之言不改成全部已经执行。",
+        "五州归唐的己丑／乙丑之别、来诉未独日及被安重霸杀的明宗时叙次分别保存。没有依据补生年、确切卒年或杀人原因。",
+        "北梦所记舒溥奉赠和依附只据该条，不将舒溥的盗窃、王洪及顾珣的荐授移成宋光葆行为；无句末标点的底本保为完整段落阅读。"
+      ],
+      "sources": [
+        {
+          "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+        },
+        {
+          "title": "《旧五代史》 · 卷 136 · 僭伪列传（前蜀、后蜀）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B7136&oldid=2692157"
+        },
+        {
+          "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+        },
+        {
+          "title": "《资治通鉴》 · 卷 273 · 后唐纪2",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7273&oldid=1502848"
+        },
+        {
+          "title": "《北梦琐言》 · 卷 20",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
         },
         {
           "title": "《资治通鉴考异》 · 卷 29 · 后梁纪下、后唐纪上",

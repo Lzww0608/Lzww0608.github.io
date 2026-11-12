@@ -13,15 +13,19 @@ const document=registrations.find(item=>item.comparisonId==='baixiang');
 const check=(value,otherTimelines=timelines,otherLibrary=library)=>validateEventTimelineLinks(value,otherLibrary,comparisons,otherTimelines);
 const mutate=callback=>{const value=structuredClone(document);callback(value);return value;};
 
-test('Baixiang derives both reading directions from the 12 evidenced events of 10 existing people',()=>{
-  assert.equal(document.comparisonId,'baixiang');assert.equal(document.links.length,12);
-  assert.equal(new Set(document.links.map(link=>link.personId)).size,10);
-  assert.equal(document.links.reduce((sum,link)=>sum+link.stageIds.length,0),14);
+test('Baixiang derives both reading directions from the 13 evidenced events of 11 existing people',()=>{
+  assert.equal(document.comparisonId,'baixiang');assert.equal(document.links.length,13);
+  assert.equal(new Set(document.links.map(link=>link.personId)).size,11);
+  assert.equal(document.links.reduce((sum,link)=>sum+link.stageIds.length,0),15);
   const count=id=>document.links.filter(link=>link.stageIds.includes(id)).length;
-  assert.equal(count('background'),2);assert.equal(count('preparation'),1);assert.equal(count('battle'),7);assert.equal(count('aftermath'),4);
+  assert.equal(count('background'),2);assert.equal(count('preparation'),2);assert.equal(count('battle'),7);assert.equal(count('aftermath'),4);
   assert.deepEqual(document.links.find(link=>link.eventId==='zhu-wen-attack-zhao').stageIds,['background']);
   assert.deepEqual(document.links.find(link=>link.eventId==='yang-shihou-xingzhou').stageIds,['aftermath']);
   assert.deepEqual(document.links.find(link=>link.eventId==='wang-jingren-north-command').stageIds,['background','preparation']);
+  const wangYanzhang=document.links.find(link=>link.eventId==='wang-yanzhang-baixiang-deployment');
+  assert.equal(wangYanzhang.personId,'wang-yanzhang');
+  assert.deepEqual(wangYanzhang.stageIds,['preparation']);
+  assert.equal(wangYanzhang.evidence[0].sourceId,'old-v027-p17');
   assert.ok(!document.links.some(link=>['li-siyuan-xingzhou','yang-shihou-zaoqiang','zhu-wen-north-return'].includes(link.eventId)));
 });
 
