@@ -14672,5 +14672,299 @@
         "excerpt": "子󲳴仕高祖，至閣門使。"
       }
     ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-wang-jian-inner-service",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-tang-wenyi",
+    "kind": "service",
+    "label": "王建朝内飞龙使、典禁兵",
+    "note": "只据王建朝的内廷职事，不补始任日、王建亲自任命经过。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p10",
+        "originalRevision": 1,
+        "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+        "excerpt": "唐文扆，高祖時以宦者爲内飛龍使，與宰相張格比。",
+        "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p10",
+        "originalRevision": 1,
+        "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+        "excerpt": "是時高祖年老昏耄，文扆典禁兵，參預機密，事無大小，皆取決於手。",
+        "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-xu-yisheng-affiliation",
+    "from": "former-shu-wang-jian-xu-yisheng",
+    "to": "former-shu-tang-wenyi",
+    "kind": "service",
+    "label": "交结与干预外政",
+    "note": "贤妃与妹淑妃在本条共为交结者；妹为后来翊圣皇太妃，不把她也自动写成促立太子的单独施令者。",
+    "sources": [
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p25",
+        "originalRevision": 1,
+        "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
+        "excerpt": "建晚年多內寵，賢妃徐氏與妹淑妃，皆以色進，專房用事，交結宦者唐文扆等干與外政。",
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-tang-wenyi-zhang-ge-affiliation",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-zhang-ge",
+    "kind": "service",
+    "label": "内外相附，参与立储",
+    "note": "两人相附、立储合作不等于君位交接或正式上下级任命；贿金的经手与张格假称密旨分别叙述。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p10",
+        "originalRevision": 1,
+        "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+        "excerpt": "唐文扆，高祖時以宦者爲内飛龍使，與宰相張格比。",
+        "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p7",
+        "originalRevision": 1,
+        "originalSha256": "2d5dc3b8342a46108efff1171e39f1193f189b53de2f2fdf19c730cb5889beed",
+        "excerpt": "是時文扆居中用事，格附比於外，與司徒毛文錫等争權，勢若水火。",
+        "title": "《十国春秋》 · 卷 41 · 前蜀列传（郑顼、张格、潘炕等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&oldid=2439571"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-tang-wenyi-wang-yan-heir-support",
+    "from": "former-shu-tang-wenyi",
+    "to": "wang-yan-former-shu",
+    "kind": "service",
+    "label": "参与促立为太子",
+    "note": "唐文扆传意、教相者和张格上表是促立过程，不是唐文扆亲自册立王衍或传给他帝位。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p135",
+        "originalRevision": 1,
+        "originalSha256": "1d1e6375a17962135f1e433ee56cdca09ace453239cbd286f50fa88f25fb49da",
+        "excerpt": "鄭王宗衍最幼，其母徐賢妃有寵，欲立其子，使飛龍使唐文扆諷張格上表請立宗衍。",
+        "title": "《资治通鉴》 · 卷 268 · 后梁纪3",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909"
+      },
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p26",
+        "originalRevision": 1,
+        "originalSha256": "9aaa00b98ba1c38757a99c77e10bc0580e25c00c50382ffa559f0c375f2b8f01",
+        "excerpt": "而徐妃專寵，建老昏耄，妃與宦者唐文扆教相者上言衍相最貴，又諷宰相張格贊成之，衍由是得為太子。",
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-mao-wenxi-conflict",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-mao-wenxi",
+    "kind": "conflict",
+    "label": "争权与谗毁",
+    "note": "唐文扆谗毁与王建随后处分分开，不把贬毛的皇帝命令移给文扆。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p6",
+        "originalRevision": 1,
+        "originalSha256": "2472791ebecb55fdfac4994c2caf554994943bb13ddca81be55c6f4b9d43fbba",
+        "excerpt": "蜀飛龍使唐文扆居中用事，張格附之，與司徒、判樞密院事毛文錫爭權。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p6",
+        "originalRevision": 1,
+        "originalSha256": "2472791ebecb55fdfac4994c2caf554994943bb13ddca81be55c6f4b9d43fbba",
+        "excerpt": "文錫將以女適左僕射兼中書侍郎、同平章事庾傳素之子，會親族於樞密院用樂，不先表聞，蜀主聞樂聲，怪之，文扆從而譖之。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-yu-chuansu-conflict",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-yu-chuansu",
+    "kind": "conflict",
+    "label": "谗毁而致罢相",
+    "note": "庾传素受谗与罢相分述，不增亲自逮捕或杀害。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p10",
+        "originalRevision": 1,
+        "originalSha256": "64cdd687506af9f9aafae354b5291fcdffb94312742c3daf45a7aae8976f121c",
+        "excerpt": "天漢元年，爲宦者唐文扆所譖，罷爲工部尚書；未幾，改兵部。",
+        "title": "《十国春秋》 · 卷 41 · 前蜀列传（郑顼、张格、潘炕等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&oldid=2439571"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-liu-zhijun-conflict",
+    "from": "former-shu-tang-wenyi",
+    "to": "liu-zhijun",
+    "kind": "conflict",
+    "label": "多次诋毁",
+    "note": "“数毁”是文扆的行为，后续逮捕与炭市行刑不是他亲自实施；街巷歌谣施事不补为文扆。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p16",
+        "originalRevision": 1,
+        "originalSha256": "3ca1b465be9bddffab9dc742e016e686f6ed80fbb4d1d7d63255deb18bb66594",
+        "excerpt": "唐文扆數毀之，蜀主亦忌其才，嘗謂所親曰：「吾老矣，知俊非爾輩所能馭民。」",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-pan-zaiying-mission",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-pan-zaiying",
+    "kind": "service",
+    "label": "派遣心腹侦察外事",
+    "note": "明确的派遣与其后泄谋为不同事实，不补原文未载的任命。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p37",
+        "originalRevision": 1,
+        "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+        "excerpt": "遣其黨內皇城使潘在迎偵察外事，在迎以其謀告宗弼等。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-pan-zaiying-disclosure",
+    "from": "former-shu-pan-zaiying",
+    "to": "former-shu-tang-wenyi",
+    "kind": "conflict",
+    "label": "泄谋告王宗弼等",
+    "note": "《通鉴》及唐传都记潘泄谋；《九国志》潘的自述功劳单独保留，不据自述确定他亲自行刑。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p37",
+        "originalRevision": 1,
+        "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+        "excerpt": "遣其黨內皇城使潘在迎偵察外事，在迎以其謀告宗弼等。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      },
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p42",
+        "originalRevision": 1,
+        "originalSha256": "60b508d5bd8b9a3929dcd6097fd9c21bf4f418f4480734b9880465f2313750db",
+        "excerpt": "嘗謂人曰：「我于前蜀有誅唐文扆安社稷功，當合秉旄鉞。",
+        "title": "《九国志》 · 卷 6 · 前蜀人物列传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E5%85%AD&oldid=2592883"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-wang-zongbi-accusation",
+    "from": "former-shu-wang-zongbi",
+    "to": "former-shu-tang-wenyi",
+    "kind": "conflict",
+    "label": "入宫告罪",
+    "note": "新史另叙入宫后乃杀文扆；通鉴先叙贬流后记六月杀，不拼接成唯一行刑经过。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p37",
+        "originalRevision": 1,
+        "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+        "excerpt": "宗弼等排闥入，言文扆之罪，以天冊府掌書記崔延昌權判六軍事，召太子入侍疾。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      },
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p25",
+        "originalRevision": 1,
+        "originalSha256": "c67fe60ea90c9167acb0bf04259bf096b925de6ae6df8ca186d5e14fd0e3d146",
+        "excerpt": "久之，宗弼等排闥入，言文扆欲為變，乃殺之。",
+        "title": "《新五代史》 · 卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-tang-wenyi-brother-wenyi",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-tang-wenyi-brother-wenyi",
+    "kind": "kinship",
+    "label": "原书称弟",
+    "note": "文裔为本传所称弟，唐文扆、唐文裔不是同人，不补父母及亲养细节。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p10",
+        "originalRevision": 1,
+        "originalSha256": "c66edb6b604a23e400463f52b771072c04ff971ff61692f2344ebf555cb3f3e1",
+        "excerpt": "後主嗣位，伏誅，弟天雄節度使文裔亦見殺。",
+        "title": "《十国春秋》 · 卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p37",
+        "originalRevision": 1,
+        "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+        "excerpt": "命西面招討副使王宗昱殺天雄節度使唐文裔於秦州，免左保勝軍使領右街使唐道崇官。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-tang-wenyi-wang-baohui-affiliation",
+    "from": "former-shu-tang-wenyi",
+    "to": "former-shu-wang-baohui",
+    "kind": "service",
+    "label": "附会而受牵连",
+    "note": "王保晦附会唐文扆而受处分，不据此补唐文扆任命他，也不把连带处置写成文扆对保晦施行。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v270",
+        "paragraphId": "tongjian-v270-p37",
+        "originalRevision": 1,
+        "originalSha256": "a9f792e120b0295d9ae8558ad743e7dae1be719fe828fd69241714b7304b3149",
+        "excerpt": "翰林學士承旨王保晦坐附會文扆，削官爵，流瀘州。",
+        "title": "《资治通鉴》 · 卷 270 · 后梁纪5",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7270&oldid=803281"
+      }
+    ]
   }
 ]

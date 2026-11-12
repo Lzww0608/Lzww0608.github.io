@@ -1344,6 +1344,13 @@ for _sg46_spec in SPECS:
         _sg46_spec['subjects'] = list(_SG46_OLD_SOURCE_SUBJECTS[_sg46_spec['id']])
 
 
+# H120: source-bound Tang Wenyi reading entries; original captures remain unchanged.
+_H120_TANG_WENYI_CHAPTERS = ['jiuguozhi-v006', 'kaoyi-v029', 'new-v63', 'shiguochunqiu-v037', 'shiguochunqiu-v038', 'shiguochunqiu-v041', 'shiguochunqiu-v046', 'tongjian-v268', 'tongjian-v270']
+for _h120_spec in SPECS:
+    if _h120_spec['id'] in _H120_TANG_WENYI_CHAPTERS:
+        _h120_spec['subjects'] = list(dict.fromkeys([*_h120_spec['subjects'], 'former-shu-tang-wenyi']))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
