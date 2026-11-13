@@ -1397,6 +1397,14 @@ for _h125_person, _h125_chapters in _H125_TANG_CHAPTERS.items():
             _h125_spec['subjects'] = list(dict.fromkeys([*_h125_spec['subjects'], _h125_person]))
 
 
+# H126: source-bound Han Zhao reading entries; saved originals remain unchanged.
+_H126_HAN_CHAPTERS = {'former-shu-han-zhao': ['beimeng-v020', 'jiuguozhi-v006', 'new-v63', 'old-v061', 'old-v136', 'shiguochunqiu-v037', 'shiguochunqiu-v038', 'shiguochunqiu-v039', 'shiguochunqiu-v041', 'shiguochunqiu-v043', 'shiguochunqiu-v046', 'tongjian-v271', 'tongjian-v272', 'tongjian-v273', 'tongjian-v274']}
+for _h126_person, _h126_chapters in _H126_HAN_CHAPTERS.items():
+    for _h126_spec in SPECS:
+        if _h126_spec['id'] in _h126_chapters:
+            _h126_spec['subjects'] = list(dict.fromkeys([*_h126_spec['subjects'], _h126_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

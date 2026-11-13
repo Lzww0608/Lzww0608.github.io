@@ -15593,5 +15593,242 @@
       }
     ],
     "direction": "undirected"
+  },
+  {
+    "id": "former-shu-han-zhao-wang-yan-court-service",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-han-zhao",
+    "kind": "service",
+    "label": "宫中近侍与任官",
+    "note": "陪侍游宴与文思殿任命有据；不把韩昭认作宦官、王建所授或王衍亲属。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p4",
+        "originalRevision": 1,
+        "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+        "excerpt": "與潘炕子在迎、顧彦朗子在珣同爲後主狎客。後主起宣華苑，昭與諸近臣日夜侍後主酣飲，其中男女雜坐，䙝慢無所不至。昭素無品望，特以嬖幸得出入宫掖，累官禮部尚書，兼成都尹。乾德二年，後主下詔北巡，進昭文思殿大學士，位在翰林承旨上。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "tongjian-v271",
+        "paragraphId": "tongjian-v271-p25",
+        "originalRevision": 1,
+        "originalSha256": "92864d40a3295bc62c53df208ec114d94b7ef89e74a61a8fa564fb8432b86881",
+        "excerpt": "乙卯，蜀主下詔北巡，以禮部尚書兼成都尹長安韓昭為文思殿大學士，位在翰林承旨上。",
+        "title": "卷 271 · 后梁纪6",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7271&oldid=1751976"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-han-zhao-pan-zaiying-court-companions",
+    "from": "former-shu-han-zhao",
+    "to": "former-shu-pan-zaiying",
+    "kind": "service",
+    "label": "同陪游宴，共以酒悲搪塞",
+    "note": "明确具名的共同陪侍及共同说辞；不由此补结拜、婚配或私人交情。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v272",
+        "paragraphId": "tongjian-v272-p28",
+        "originalRevision": 1,
+        "originalSha256": "dcc455e02f1d3a2c0599a5a824e1b40efd25ca2c1efb6df87b15e3b59a4e1d01",
+        "excerpt": "蜀主以文思殿大學士韓昭、內皇城使潘在迎、武勇軍使顧在珣為狎客，陪侍游宴，與宮女雜坐，或為艷歌相唱和，或談嘲謔浪，鄙俚褻慢，無所不至，蜀主樂之。",
+        "title": "卷 272 · 后唐纪1",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7272&oldid=1554183"
+      },
+      {
+        "chapterId": "tongjian-v272",
+        "paragraphId": "tongjian-v272-p28",
+        "originalRevision": 1,
+        "originalSha256": "dcc455e02f1d3a2c0599a5a824e1b40efd25ca2c1efb6df87b15e3b59a4e1d01",
+        "excerpt": "韓昭、潘在迎曰：「嘉王好酒悲。」",
+        "title": "卷 272 · 后唐纪1",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7272&oldid=1554183"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-han-zhao-gu-zaixun-court-companions",
+    "from": "former-shu-han-zhao",
+    "to": "former-shu-gu-zaixun",
+    "kind": "service",
+    "label": "同陪游宴，共以酒悲搪塞",
+    "note": "顾在珣、韩昭等在该处共同奏酒悲有据，不是仅因同一专题而连线。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p4",
+        "originalRevision": 1,
+        "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+        "excerpt": "與潘炕子在迎、顧彦朗子在珣同爲後主狎客。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "jiuguozhi-v006",
+        "paragraphId": "jiuguozhi-v006-p10",
+        "originalRevision": 1,
+        "originalSha256": "c53e0b6de641f390902501bec126db1a1b73e0c30a813cb21e5b3b5668d21dfb",
+        "excerpt": "佞臣潘在迎、顧在珣、韓昭等奏曰：「嘉王酒悲無怪也。」乃大爲諧謔而罷。",
+        "title": "卷 6 · 前蜀人物列传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E5%85%AD&oldid=2592883"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-han-zhao-zongshou-mocking-remonstrance",
+    "from": "former-shu-han-zhao",
+    "to": "former-shu-wang-zongshou",
+    "kind": "conflict",
+    "label": "以酒悲嘲弄嘉王劝谏",
+    "note": "宗寿流泪劝谏，韩昭等以酒悲谐笑搪塞；不将赐宫人的建议或父女关系移给韩昭。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v272",
+        "paragraphId": "tongjian-v272-p28",
+        "originalRevision": 1,
+        "originalSha256": "dcc455e02f1d3a2c0599a5a824e1b40efd25ca2c1efb6df87b15e3b59a4e1d01",
+        "excerpt": "九月，庚戌，蜀主以重陽宴近臣於宣華宛，酒酣，嘉王宗壽乘間極言社稷將危，流涕不已。韓昭、潘在迎曰：「嘉王好酒悲。」因諧笑而罷。",
+        "title": "卷 272 · 后唐纪1",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7272&oldid=1554183"
+      },
+      {
+        "chapterId": "shiguochunqiu-v038",
+        "paragraphId": "shiguochunqiu-v038-p27",
+        "originalRevision": 1,
+        "originalSha256": "f8157efed9f97a63582f99f84fae19e6712a24955133f5977609b3355d481b38",
+        "excerpt": "常於九日侍酒宣華苑，乘間極言社稷將危，流涕不已。潘在迎、韓昭等曰：“嘉王從來酒悲。”乃與諸狎客共以謾言謔嘲之，坐上喧然。",
+        "title": "卷 38 · 前蜀后妃宗室列传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7038&oldid=2542154"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-han-zhao-pu-yuqing-threat",
+    "from": "former-shu-han-zhao",
+    "to": "former-shu-pu-yuqing",
+    "kind": "conflict",
+    "label": "因谏表威吓",
+    "note": "收到反对游幸的奏表后扬言使狱吏追问；未记实际囚禁、拷问或杀蒲，不补已经施行。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p110",
+        "originalRevision": 1,
+        "originalSha256": "175556dc3f169fee51206fcae73a24eaef7be18b49b5ac48e1dd0f65d771a586",
+        "excerpt": "韓昭謂禹卿曰：「吾收汝表，俟主上西歸，當使獄吏字字問汝！」王承休妻嚴氏美，蜀主私焉，故銳意欲行。",
+        "title": "卷 273 · 后唐纪2",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7273&oldid=1502848"
+      },
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p4",
+        "originalRevision": 1,
+        "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+        "excerpt": "會秦州判官蒲禹卿極諫，昭得表大怒，謂禹卿曰：“吾收汝表，當徐令獄吏問汝。”",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-han-zhao-zongbi-killing",
+    "from": "former-shu-wang-zongbi",
+    "to": "former-shu-han-zhao",
+    "kind": "conflict",
+    "label": "指责佞谀后诛杀",
+    "note": "王宗弼为诛杀施事，王衍不是此处下令者；其称君臣久欲归命是自陈，不升格为全体真实意图。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v274",
+        "paragraphId": "tongjian-v274-p10",
+        "originalRevision": 1,
+        "originalSha256": "021a2331861d53aee35863a475a0a0f7081030360ec7dc938e920aab0e01f949",
+        "excerpt": "王宗弼稱蜀君臣久欲歸命，而內樞密使宋光嗣、景潤澄、宣徽使李周輅、歐陽晃熒惑蜀主；皆斬之，函首送繼岌。又責文思殿大學士、禮部尚書、成都尹韓昭佞諛，梟於金馬坊門。",
+        "title": "卷 274 · 后唐纪3",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7274&oldid=803285"
+      },
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p34",
+        "originalRevision": 1,
+        "originalSha256": "de42365053bde337e186dcc0e1a5172d2e08868c3f5cb86bfdf1aa766a77b67d",
+        "excerpt": "而宗弼亦自緜谷馳歸，登太玄門，收成都尹韓昭、宦者宋光嗣景潤澄歐陽晃等殺之，函首送于繼岌。",
+        "title": "卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-han-zhao-zhou-yanzhang-pressure",
+    "from": "former-shu-zhou-yanzhang",
+    "to": "former-shu-han-zhao",
+    "kind": "conflict",
+    "label": "胁请诛杀与参与军变",
+    "note": "北梦的大安楼胁主、春秋的参与宗弼诛杀分源保留；不能据此认周彦章亲手斩韩，也不将女方牵入军变。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v043",
+        "paragraphId": "shiguochunqiu-v043-p15",
+        "originalRevision": 1,
+        "originalSha256": "3aa0efbb8e404a817291354e84cdbbc924bf7a0fba56207986ce932c830264d4",
+        "excerpt": "後遇國變，王宗弼勒兵誅韓昭等，彦章亦與有力焉。",
+        "title": "卷 43 · 前蜀文武人物列传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7043&oldid=2440167"
+      },
+      {
+        "chapterId": "beimeng-v020",
+        "paragraphId": "beimeng-v020-p25",
+        "originalRevision": 1,
+        "originalSha256": "53f94b71a79275e2075e3f68bc199168837ae31863a588f7e679a76fb6cb8bff",
+        "excerpt": "爾後國變王乃領兵於大安樓前脅後主誅君側韓昭等即其事也",
+        "title": "卷 20",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8C%97%E5%A4%A2%E7%91%A3%E8%A8%80+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B720&oldid=769235"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-han-zhao-an-zhongba-qin-tour-cooperation",
+    "from": "former-shu-han-zhao",
+    "to": "an-zhongba",
+    "kind": "service",
+    "label": "共同劝秦州游幸",
+    "note": "本传明确韩昭、王承休、安重霸共同进请；保同书分传及旧史叙次，不补上下级或共同亲行。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p4",
+        "originalRevision": 1,
+        "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+        "excerpt": "而昭復與王承休、安重霸盛稱秦州山川土風之美，勸後主臨幸，以爲姦。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "former-shu-han-zhao-li-taixia-satire",
+    "from": "former-shu-li-taixia",
+    "to": "former-shu-han-zhao",
+    "kind": "conflict",
+    "label": "讥评技艺",
+    "note": "原文所引李台瑕讥语，袜线与僧剃发两说分开；不将贬评当作逐项才艺测验的客观结果。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p4",
+        "originalRevision": 1,
+        "originalSha256": "eccecce0c36740042c724f726b85a96c2541bd61a731db08d5431332923f7790",
+        "excerpt": "昭粗有文章，至於琴弈書筭射法，悉皆涉獵。有朝士李台瑕譏之曰：“韓八座事藝如拆襪線，無有寸長。”時人韙之。〈海録碎事載李台瑕云：“韓昭凡事如僧剃髮，無有寸長。”與此小異。〉",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
   }
 ]
