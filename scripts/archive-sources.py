@@ -1375,6 +1375,20 @@ for _h123_person, _h123_chapters in _H123_WANG_CHAPTERS.items():
             _h123_spec['subjects'] = list(dict.fromkeys([*_h123_spec['subjects'], _h123_person]))
 
 
+# H124 keeps the complete fixed shared volume; saved older originals remain unchanged.
+SPECS.append(json.loads('{"id": "shiguochunqiu-v045", "bookId": "shiguochunqiu", "volume": 45, "position": 45, "title": "卷 45 · 前蜀术数、乐工与女性人物列传", "page": "十國春秋/卷045", "subjects": [], "sourceLocalSubjectsOnly": true, "fixedRevisionId": 2440122, "minimumCharacters": 2340, "minimumBlocks": 12}'))
+SOUTHERN_TANG_COMPLETE_NOTES['shiguochunqiu-v045'] = json.loads('["本卷完整保存所选页面的正文、两处列名题行、夹注与诗文；原有字形和标点照存。", "古籍原作已属公版；维基文库整理文本按 CC BY-SA 4.0 署名并以相同方式共享。", "本卷据保存的维基文库渲染正文整理，父页修订号为2440122；转引子页与模板修订未逐一固定，同源转引不作独立复证。", "石潨段令狐氏另一子之名的原页字形未能识定，原文照存，不据别名猜补。术数、神异与应验之说按本书叙事理解。"]')
+for _h124_book in BOOKS:
+    if _h124_book['id'] == 'shiguochunqiu':
+        _h124_book['description'] = '现收卷 1—9、12、13 的吴国世家、本纪与人物列传，卷 15—17 的南唐烈祖、元宗、后主本纪，卷 18、19 的南唐后妃、宗室及公主列传，卷 20—25、33、34 的南唐人物列传，卷 37 的前蜀后主本纪、卷 38 的前蜀后妃宗室列传，卷 39—41 的前蜀文臣与诸将列传，卷 43 的前蜀文武人物列传，以及卷 77 的吴越武肃王世家上。完整保留所选卷正文、标题、夹注与史家评论，不表示全书已收录。底本疑讹保留；同作品不同版本仅作校读，不作独立复证。 另收卷 46 的前蜀人物与宦官列传，完整保留本卷正文、两处列名题行、夹注与诗文；父页修订固定为2438754，转引子页未逐一固定，同源转引不作独立复证。 另收卷 45 的前蜀术数、乐工与女性人物列传，正文、两处列名题行、夹注和诗文完整保存；原页未能识定的字形照存。'
+
+
+_H124_SG45_SUBJECTS = ['former-shu-huang-chonggu', 'guo-chongtao', 'guo-wei', 'li-congke', 'li-cunxu', 'liu-chengyou', 'liu-zhijun', 'shi-jingtang', 'wang-jian-former-shu', 'wang-yan-former-shu']
+for _h124_spec in SPECS:
+    if _h124_spec['id'] == 'shiguochunqiu-v045':
+        _h124_spec['subjects'] = list(_H124_SG45_SUBJECTS)
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

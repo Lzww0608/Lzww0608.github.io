@@ -15401,5 +15401,53 @@
         "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7039&oldid=2542158"
       }
     ]
+  },
+  {
+    "id": "palace-fshu-zhou-xiang-huang-chonggu-local-service",
+    "from": "former-shu-zhou-xiang",
+    "to": "former-shu-huang-chonggu",
+    "kind": "service",
+    "label": "延入学院与地方任职",
+    "note": "本传明记周庠召她入学院，继叙荐摄司户参军；只按该段延引及地方任职记直接联系，不补王建亲授、周庠单独授官的具体程序或初任年月。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v045",
+        "paragraphId": "shiguochunqiu-v045-p11",
+        "excerpt": "後數日，復獻長歌。庠益奇之，召於學院，與諸子姪同遊。雅善琴弈，妙書畫。未幾薦攝司户參軍，胥吏畏服，案牘一清。",
+        "title": "《十国春秋》 · 卷 45 · 前蜀术数、乐工与女性人物列传"
+      }
+    ]
+  },
+  {
+    "id": "palace-fshu-huang-governor-huang-chonggu-daughter",
+    "from": "former-shu-huang-chonggu-father-governor",
+    "to": "former-shu-huang-chonggu",
+    "kind": "kinship",
+    "label": "父女（本传称黄使君女）",
+    "note": "本传明确称黄使君女并记幼失父母；保留失名父亲身份，不补任职州郡、本名、妻姓或出生日期。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v045",
+        "paragraphId": "shiguochunqiu-v045-p11",
+        "excerpt": "庠覽詩殊驚駭，亟召見詰問，故黄使君女也。幼失父母，與老嫗同居，元未字人。",
+        "title": "《十国春秋》 · 卷 45 · 前蜀术数、乐工与女性人物列传"
+      }
+    ]
+  },
+  {
+    "id": "palace-fshu-zhou-xiang-proposed-bride-daughter",
+    "from": "former-shu-zhou-xiang",
+    "to": "former-shu-zhou-xiang-proposed-bride-daughter",
+    "kind": "kinship",
+    "label": "父女（拟婚记载）",
+    "note": "原文欲以女妻之明确周庠的女儿身份；只登记父女，不把婚议变成黄崇嘏与该女的夫妻关系。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v045",
+        "paragraphId": "shiguochunqiu-v045-p11",
+        "excerpt": "庠既重其英明，又美其風采，居一歲，欲以女妻之，崇嘏乃爲謝狀，仍貢詩一章以見意。",
+        "title": "《十国春秋》 · 卷 45 · 前蜀术数、乐工与女性人物列传"
+      }
+    ]
   }
 ]

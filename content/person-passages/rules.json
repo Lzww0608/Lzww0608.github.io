@@ -5554,6 +5554,21 @@
       "sourceScope": {
         "chapterIds": []
       }
+    },
+    {
+      "personId": "former-shu-huang-chonggu",
+      "names": [
+        "黄崇嘏",
+        "黃崇嘏",
+        "黄崇嘏（前蜀）",
+        "黃崇嘏（前蜀）"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -16430,6 +16445,16 @@
       "originalRevision": 1,
       "originalSha256": "c9828f224d7f884afe43bfa512cd84068bb2a825e9f2cc0a9b57f0c076828d22",
       "reason": "本段岐王从子继崇妻、宋光嗣随归的前蜀婚家，不归朱温女王昭祚妻；按具体原段及SHA排除同封号误归。"
+    },
+    {
+      "personId": "li-cunxu",
+      "paragraphId": "shiguochunqiu-v045-p5",
+      "terms": [
+        "莊宗"
+      ],
+      "originalRevision": 1,
+      "originalSha256": "4d5fb173facec2cd9a254c3aa2c9d91b48040d4af6121a7b31043a1bcd5f8617",
+      "reason": "庄宗只在本卷孙雄谶语后回顾提及；用同段明确mention替代自动事迹record，不以此段作独立确切死亡地点证据。"
     }
   ],
   "regnalEdicts": {
@@ -16944,7 +16969,8 @@
         "new-v35",
         "shiguochunqiu-v037",
         "shiguochunqiu-v043",
-        "shiguochunqiu-v046"
+        "shiguochunqiu-v046",
+        "shiguochunqiu-v045"
       ]
     }
   }
