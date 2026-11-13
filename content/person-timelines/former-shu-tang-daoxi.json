@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "personId": "former-shu-tang-daoxi",
+  "scope": "current-archive",
+  "events": [
+    {
+      "id": "former-shu-tang-daoxi-inner-privy",
+      "title": "由阆州防御使任内枢密使",
+      "summary": "王建称帝后，任阆州防御使唐道袭为内枢密使；新史记同一组官员任命而名作唐袭。",
+      "sourceDate": "《通鉴》开平元年九月辛丑；新史合叙王建即位与任官",
+      "year": 907,
+      "precision": "month",
+      "phase": "service",
+      "sortOrder": 1,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p54",
+          "originalRevision": 1,
+          "originalSha256": "2b7694a4c699b43c5aef5fcb3269c357efd3c4a60103bf70960255d66da0a7bc",
+          "excerpt": "辛丑，以前東川節度使兼侍中王宗佶為中書令，韋莊為左散騎常侍、判中書門下事，閬州防禦使唐道襲為內樞密使。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p15",
+          "originalRevision": 1,
+          "originalSha256": "2302cd221cd9e665ab7f78fec990892b7e2f68cfd9969cdc3fd5350f4c0f4716",
+          "excerpt": "封其諸子為王，以王宗佶為中書令，韋莊為左散騎常侍判中書門下之事，唐襲為樞密使，鄭騫為御史中丞，張格、王鍇皆為翰林學士，周博雅為成都尹。"
+        }
+      ],
+      "notes": [
+        "新史没有给唐袭任命另记辛丑，不将王建己亥即位日移作他的受命日。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-zongji-petition",
+      "title": "因宗佶求职进言，王建疑心加深",
+      "summary": "王宗佶求任大司马，王建问唐道袭，唐以其威望足以统御诸将作答。王建更加猜疑宗佶，随后命卫士扑杀；唐并非明载的行刑者。",
+      "sourceDate": "《通鉴》开平二年相关叙次；原文记已亥",
+      "year": 908,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 2,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v266",
+          "paragraphId": "tongjian-v266-p82",
+          "originalRevision": 1,
+          "originalSha256": "af8d58911f005b4b2cfd3307e8a9a42a467679a179986ab758d99cfb46439476",
+          "excerpt": "蜀主怒，隱忍未發，以問唐道襲，對曰：「宗佶威望，內外懾服，足以統御諸將。」蜀主益疑之。已亥，宗佶入見，辭色悖慢。蜀主諭之，宗佶不退，蜀主不堪其忿，命衛士撲殺之。貶其黨御史中丞鄭騫為維州司戶，衛尉少卿李鋼為汶川尉，皆賜死於路。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p16",
+          "originalRevision": 1,
+          "originalSha256": "136eff9c0619258c1e647efaea324b26c6d34caf8c966b07a2917269a914aa9f",
+          "excerpt": "宗佶求大司馬，章三上，建以問襲，襲因激怒建曰：「宗佶功臣，其威望可以服人心，陛下宜即與之。」建心益疑。宗佶入奏事，自請不已，建叱衞士撲殺之，并賜騫死。"
+        }
+      ],
+      "notes": [
+        "底本已亥照存，不替换为己亥或据疑字配西历确日。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-shannan-zheng",
+      "title": "因与太子有隙出镇，荐郑顼后又排挤",
+      "summary": "王建因太子与唐道袭不和，让他出任山南西道节度使、同平章事。他推荐郑顼任内枢密使，郑欲查其兄弟盗用内库金帛，唐又奏称不宜大任，郑被调出。",
+      "sourceDate": "《通鉴》开平四年，出镇未独记日，郑顼出任记丙午",
+      "year": 910,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 3,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v267",
+          "paragraphId": "tongjian-v267-p88",
+          "originalRevision": 1,
+          "originalSha256": "0ff4a6f5174497d7499a5a1d09fbf7db1b4750d48a7865f200f7d676ecfac68b",
+          "excerpt": "蜀太子宗懿驕暴，好陵傲舊臣。內樞密使唐道襲，蜀主之嬖臣也，太子屢謔之於朝，由是有隙，互相訴於蜀主。蜀主恐其交惡，以道襲為山南西道節度使、同平章事。道襲薦宣徽北院使鄭頊為內樞密使，頊受命之日，即欲按道襲昆弟盜用內庫金帛。道襲懼，奏項褊急，不可大任，丙午，出頊為果州刺史，以宣徽南院使潘炕為內樞密使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v041",
+          "paragraphId": "shiguochunqiu-v041-p2",
+          "originalRevision": 1,
+          "originalSha256": "514ce7c6e86eb8c933e886ffdf65796adda0e1563bd7ba31f7f6e37852ed80d1",
+          "excerpt": "未幾，授内樞密使。輙擬發唐道襲奸盜狀，道襲以計去之，出爲果川刺史。"
+        }
+      ],
+      "notes": [
+        "果州／果川按各书保存；拟查不写成已审实盗窃。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-qi-expedition",
+      "title": "受命为招讨使伐岐，王建作诗送行",
+      "summary": "岐蜀交恶，唐道袭与王宗祐、王宗贺任招讨使出兵。《十国春秋》另记王建登大安楼作诗送行。",
+      "sourceDate": "《十国春秋》永平元年；《通鉴》乾化元年三月出师叙次",
+      "year": 911,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 4,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p6",
+          "originalRevision": 1,
+          "originalSha256": "2fca4ec8aa78ee51c4af32373a8ed9125bd84b53595759e8f0231c06990878f2",
+          "excerpt": "蜀主不聽，以兼侍中王宗祐、太子少師王宗賀、山南節度使唐道襲為三招討使，左金吾大將軍王宗紹為宗祐之副，帥步騎十二萬伐岐。壬辰，宗侃等發成都，旌旗數百里。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "永平元年，岐王茂貞兵臨東鄙，高祖命道襲爲招討使，帥兵以伐岐。臨發，高祖御大安樓，製詩送之。〈詩有“丱歲便將爲肘腋，二紀何曾離一日”句。〉"
+        }
+      ],
+      "notes": [
+        "十二万是全军步骑总记，不指唐道袭个人直属兵数。",
+        "新史在武成三年十二月改来年永平后合叙此役，不把送行或战事强系到改元当日。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-repel-xingyuan",
+      "title": "在兴元击退岐军",
+      "summary": "岐兵侵犯蜀兴元，唐道袭将其击退。",
+      "sourceDate": "《通鉴》乾化元年夏四月乙卯朔",
+      "year": 911,
+      "precision": "month",
+      "phase": "service",
+      "sortOrder": 5,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p7",
+          "originalRevision": 1,
+          "originalSha256": "44dd790321f936ca26b28d4cb997de09a9cb0159cb3bf40d959e0c566f769dc9",
+          "excerpt": "夏，四月，乙卯朔，岐兵寇蜀興元，唐道襲擊卻之。"
+        }
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-qingni-xingyuan",
+      "title": "青泥岭战败后奔兴元并主张固守",
+      "summary": "蜀军在青泥岭大败，通鉴记唐道袭奔兴元，反对弃守，认为失兴元会危及安远与利州。",
+      "sourceDate": "《通鉴》乾化元年八月叙次；战记乙亥",
+      "year": 911,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 6,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p18",
+          "originalRevision": 1,
+          "originalSha256": "14f5920ea5a32e4225b7e7193d56e6d3bada058334f583f9e9695e7f71d23147",
+          "excerpt": "岐王使劉知俊、李繼崇將兵擊蜀，乙亥，王宗侃、王宗賀、唐道襲、王宗紹與之戰於青泥嶺，蜀兵大敗，馬步使王宗浩奔興州，溺死於江，道襲奔興元。先是，步軍都指揮使王宗綰城西縣，號安遠軍，宗侃、宗賀等收散兵走保之，短俊、繼崇追圍之。眾議欲棄興元，道襲曰：「無興元則無安遠，利州遂為敵境矣。理必以死守之。」"
+        }
+      ],
+      "notes": [
+        "其后未独记日的主张不全部归到乙亥当天。"
+      ],
+      "variants": [
+        {
+          "label": "九国志合叙退保西县",
+          "sourceDate": "王宗鐬传未独载本役年月",
+          "summary": "九国志把王宗侃、唐袭等在青泥岭战败与退保西县合叙；与通鉴单记道袭奔兴元分源保留。",
+          "evidence": [
+            {
+              "chapterId": "jiuguozhi-v006",
+              "paragraphId": "jiuguozhi-v006-p12",
+              "originalRevision": 1,
+              "originalSha256": "5bec6ac65097046633a851112a239cb84821e64b2308c1b3884919a48214b3f9",
+              "excerpt": "時岐將劉知俊等統領大軍，分路來攻，由階成路奪固鎭糧。宗侃、唐襲等禦之，至青泥嶺，爲知俊所敗，退保西縣。"
+            },
+            {
+              "chapterId": "tongjian-v268",
+              "paragraphId": "tongjian-v268-p18",
+              "originalRevision": 1,
+              "originalSha256": "14f5920ea5a32e4225b7e7193d56e6d3bada058334f583f9e9695e7f71d23147",
+              "excerpt": "岐王使劉知俊、李繼崇將兵擊蜀，乙亥，王宗侃、王宗賀、唐道襲、王宗紹與之戰於青泥嶺，蜀兵大敗，馬步使王宗浩奔興州，溺死於江，道襲奔興元。"
+            }
+          ],
+          "notes": [
+            "旧史刘知俊传转引九国志同段，不作另一次独立复证。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-mingzhu-relief",
+      "title": "与援军合击岐兵于明珠曲",
+      "summary": "王宗播等率兵救安远，驻于廉、让之间，与唐道袭合击岐军，在明珠曲大破之。",
+      "sourceDate": "《通鉴》乾化元年，接青泥岭战后，未另载日",
+      "year": 911,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 7,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p18",
+          "originalRevision": 1,
+          "originalSha256": "14f5920ea5a32e4225b7e7193d56e6d3bada058334f583f9e9695e7f71d23147",
+          "excerpt": "蜀主以昌王宗鐬為應援招討使，定戎團練使王宗播為四招討馬步都指揮使，將兵救安遠軍，壁於廉、讓之間，與唐道襲合擊岐兵，大破之於明珠曲。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "未幾兵敗青泥嶺，會王宗播將兵救安遠軍，岐軍始解去。"
+        }
+      ],
+      "notes": [
+        "翌日凫口斩李彦琛是接叙军队战果，不单记唐道袭亲手斩将。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-xiegu-intercept",
+      "title": "预伏斜谷截击退走岐军",
+      "summary": "安远解围后岐军遁去，唐道袭先在斜谷埋伏截击，又击破了他们。",
+      "sourceDate": "《通鉴》乾化元年，接己亥岐兵解围遁去；伏兵未独记日",
+      "year": 911,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 8,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p27",
+          "originalRevision": 1,
+          "originalSha256": "bf6231fcc1cb848d3e22f600d98b4f5c76a5be703a934ddf3e24d607e64e098a",
+          "excerpt": "己亥，岐兵解圍遁去。唐道襲先伏兵於斜谷邀擊，又破之。"
+        }
+      ],
+      "notes": [
+        "先伏的部署时间未独载，不能把设伏强系己亥当天。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-return-shaobao",
+      "title": "罢兴元归，复掌枢密后任太子少保",
+      "summary": "唐道袭自兴元罢归，再任枢密使。太子列其过恶，反对其复典机要；王建不悦，随后任他为太子少保。",
+      "sourceDate": "《通鉴》乾化三年叙次，少保任命记庚子",
+      "year": 913,
+      "precision": "year",
+      "phase": "service",
+      "sortOrder": 9,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p100",
+          "originalRevision": 1,
+          "originalSha256": "759bfbb64a5508bb877ed5539e0cf6f06dce9b0719807ec0543009fc250ce9ea",
+          "excerpt": "蜀唐道襲自興元罷歸，復為樞密使。太子元膺延疏道襲過惡，以為不應復典機要，蜀主不悅。庚子，以道襲為太子少保。"
+        }
+      ],
+      "notes": [
+        "庚子只用于少保任命，不把罢归、复任以及太子奏疏都强作同日。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-qixi-mobilize",
+      "title": "七夕前后受宴，入奏并请调兵宿卫",
+      "summary": "唐道袭赴太子宴，席间因被屡屡注目而害怕离席。次晨在太子入奏之后，他向王建称太子谋乱，请召屯营兵宿卫，得到允许。",
+      "sourceDate": "蜀永平三年（《通鉴》乾化三年）七月丙午宴、丁未晨入奏；新史宴会作七夕",
+      "year": 913,
+      "precision": "month",
+      "phase": "service",
+      "sortOrder": 10,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p122",
+          "originalRevision": 1,
+          "originalSha256": "2666d3a1e34ccd60d9dc538ac8b79158ab604737790017860d468cfd3df09e1c",
+          "excerpt": "秋，七月，蜀主將以七夕出遊。丙午，太子召諸王大臣宴飲，集王宗翰、內樞密使潘峭、翰林學士承旨高陽毛文錫不至，太子怒曰：「集王不來，必峭與文錫離間也。」大昌軍使徐瑤、常謙，素為太子所親信，酒行，屢目少保唐道襲，道襲懼而起。丁未旦，太子入白蜀主曰：「潘峭、毛文錫離間兄弟。」蜀主怒，命貶逐峭、文錫，以前武泰節度使兼侍中潘炕為內樞密使。太子出，道襲入，蜀主以其事告之，道襲曰：「太子謀作亂，欲召諸將、諸王，以兵錮之，然後舉事耳。」蜀主疑焉，遂不出；道襲請召屯營兵入宿衛，許之。內外戒嚴。"
+        }
+      ],
+      "notes": [
+        "谋乱之言是唐道袭所奏，潘炕另有争权无他志之说，不当作已经证实的太子意图。"
+      ],
+      "variants": [
+        {
+          "label": "新史七夕宴会叙法",
+          "sourceDate": "新史永平三年七月，宴会记是月七夕",
+          "summary": "新史把宴会记作七夕，随后记明日入奏；通鉴及本书元膺传作七夕前一日。各保叙次，不用一书改另一书的日期。",
+          "evidence": [
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p20",
+              "originalRevision": 1,
+              "originalSha256": "aef251630cb39dac1fdd9ad327bcfc16217bc7de3d96d01c099f00917ddf2bf9",
+              "excerpt": "是月七夕，元膺召諸王大臣置酒，而集王宗翰、樞密使潘峭、翰林學士毛文錫不至，元膺怒曰：「集王不來，峭與文錫教之耳！」明日，元膺白建峭及文錫離間語。建怒，將罪之。元膺出而襲入，建以問之，襲曰：「太子謀作亂，欲召諸將、諸王以兵錮之，然後舉事爾！」建疑之，襲請召營兵入衞。"
+            },
+            {
+              "chapterId": "tongjian-v268",
+              "paragraphId": "tongjian-v268-p122",
+              "originalRevision": 1,
+              "originalSha256": "2666d3a1e34ccd60d9dc538ac8b79158ab604737790017860d468cfd3df09e1c",
+              "excerpt": "秋，七月，蜀主將以七夕出遊。丙午，太子召諸王大臣宴飲，集王宗翰、內樞密使潘峭、翰林學士承旨高陽毛文錫不至，太子怒曰：「集王不來，必峭與文錫離間也。」大昌軍使徐瑤、常謙，素為太子所親信，酒行，屢目少保唐道襲，道襲懼而起。丁未旦，太子入白蜀主曰：「潘峭、毛文錫離間兄弟。」蜀主怒，命貶逐峭、文錫，以前武泰節度使兼侍中潘炕為內樞密使。太子出，道襲入，蜀主以其事告之，道襲曰：「太子謀作亂，欲召諸將、諸王，以兵錮之，然後舉事耳。」蜀主疑焉，遂不出；道襲請召屯營兵入宿衛，許之。內外戒嚴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-death",
+      "title": "与太子所部交战遇害",
+      "summary": "太子所部与唐道袭交战。通鉴记清风楼拒战、中流矢后被追到城西斩杀；新史记在神武门中流矢坠马死。",
+      "sourceDate": "永平三年七月；通鉴记戊申",
+      "year": 913,
+      "precision": "month",
+      "phase": "fall",
+      "sortOrder": 11,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p123",
+          "originalRevision": 1,
+          "originalSha256": "1616778941c04fc724e2a6f334843f3a2fa09ed36720ad12fca831a015061ebe",
+          "excerpt": "戊申，徐瑤、常謙與懷勝軍使嚴璘等各帥所部兵奉太子攻道襲。至清風樓，道襲引屯營兵出拒戰；道襲中流矢，逐至城西，斬之。"
+        }
+      ],
+      "notes": [
+        "太子所部作战不等于元膺亲自执刀；不把中箭、追杀和坠马强行拼成唯一过程。"
+      ],
+      "variants": [
+        {
+          "label": "新史神武门中箭坠马死",
+          "sourceDate": "新史永平三年七月，未独列战日",
+          "summary": "新史记徐瑶、常谦率兵出拒唐袭，在神武门交战，唐袭中流矢坠马而死。",
+          "evidence": [
+            {
+              "chapterId": "new-v63",
+              "paragraphId": "new-v63-p20",
+              "originalRevision": 1,
+              "originalSha256": "aef251630cb39dac1fdd9ad327bcfc16217bc7de3d96d01c099f00917ddf2bf9",
+              "excerpt": "元膺初不為備，聞襲召兵，以為誅己，乃與伶人安悉香、軍將喻全殊率天武兵自衞，遣人擒峭及文錫而笞之，幽於其家；召大將徐瑤、常謙率兵出拒襲，與襲戰神武門，襲中流矢，墜馬死。"
+            },
+            {
+              "chapterId": "tongjian-v268",
+              "paragraphId": "tongjian-v268-p123",
+              "originalRevision": 1,
+              "originalSha256": "1616778941c04fc724e2a6f334843f3a2fa09ed36720ad12fca831a015061ebe",
+              "excerpt": "戊申，徐瑤、常謙與懷勝軍使嚴璘等各帥所部兵奉太子攻道襲。至清風樓，道襲引屯營兵出拒戰；道襲中流矢，逐至城西，斬之。"
+            }
+          ]
+        },
+        {
+          "label": "考异逐书分辨攻守、邀宗贺与杀者",
+          "sourceDate": "考异本条七月，所引十国纪年记丁朱原字",
+          "summary": "考异列九国志、欧阳史、十国纪年不同叙法，并推论道袭在禁中、兵败走城西被唐据杀；保存其判断，不把引书及推论当作独立目击。",
+          "evidence": [
+            {
+              "chapterId": "kaoyi-v028",
+              "paragraphId": "kaoyi-v028-p44",
+              "originalRevision": 1,
+              "originalSha256": "529ae24ad064f71de08808c10169bd678685057c48f1a8e93d80e37b37463eaf",
+              "excerpt": "七月蜀太子元膺殺唐道襲〈九國志建將七夕出游先一日元膺召諸軍使及諸王宴飲邸第中且議七夕從行之禮而集王宗翰等不至又曰詰朝元膺入白建曰潘峭毛文錫離間兄弟將圖不軌又曰及聞唐襲徴兵乃遣伶官安悉香諭軍使全殊率天武甲士以自衞又曰明日徐瑶常謙與懷勝軍使嚴璘等恊謀以所部兵挾元膺以逐唐襲元膺介馬率卒過其兄宗賀之門召與同進宗賀曰兵起無名不敢奉命又曰建急召宗侃宗賀及諸軍使令以兵討寇乃逐唐襲至城西斬之盡殺屯營兵又自大安門登陴以入攻瑶謙等歐陽史曰元膺與伶人安悉香軍將喻全殊率天武兵自衞召大將徐瑶常謙率兵出拒襲與襲戰神武門襲中流矢墜馬死十國紀年丁朱元膺令軍使喻全殊帥天武兵自衞戊申徐瑶常謙及左大昌軍使王承燧等各帥所部兵奉元膺攻唐道襲道襲自私第被甲乗馬過王宗賀門邀之宗賀曰兵起無名且不奉詔公宜緩行元膺遣天武將唐據帥親兵逐道襲至城西斬之据九國志云徐瑶等挾元膺以逐唐襲似襲在宫中欲逐出之也歐陽史云元膺召瑶等率兵出拒襲攻東宫而元膺拒之紀年云瑶等奉元膺攻道襲襲自私第被甲乗馬似道襲出在外第元膺就攻之也按道襲止以挾君自重既勸蜀主發兵自衞豈肯更出在外第必止於禁中也蓋瑶等引兵攻宫禁以求道襲道襲以屯營兵出拒戰兵敗走至城西為唐據所殺耳九國志又云元膺介馬率卒過其兄宗賀之門召與同進是元膺邀宗賀也紀年云道襲自私第被甲乗馬過宗賀門邀之是道襲邀宗賀也按道襲私第安得有兵觀宗賀所荅之辭似語太子非語道襲也若遇道襲宜勸之速入宿衞豈得云公宜緩行也潘炕言太子非有它志陛下宜面諭大臣以安社稷蓋當時蜀主聞亂既信道襲之言又不忍討太子無决然號令故炕言太子無它志當召大臣討徐瑶等為亂者耳九國志云令宗侃等出討寇乃逐唐襲至城西斬之是官軍斬襲也若然何故明日遽加襲贈謚乎此必誤也〉"
+            },
+            {
+              "chapterId": "tongjian-v268",
+              "paragraphId": "tongjian-v268-p123",
+              "originalRevision": 1,
+              "originalSha256": "1616778941c04fc724e2a6f334843f3a2fa09ed36720ad12fca831a015061ebe",
+              "excerpt": "戊申，徐瑤、常謙與懷勝軍使嚴璘等各帥所部兵奉太子攻道襲。至清風樓，道襲引屯營兵出拒戰；道襲中流矢，逐至城西，斬之。"
+            }
+          ],
+          "notes": [
+            "考异原文丁朱照存，不以推测的丁未替换底本。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-posthumous",
+      "title": "追赠太师，谥忠壮",
+      "summary": "唐道袭死后，王建追赠太师，赐谥忠壮。本传另记命立碑于阆州。",
+      "sourceDate": "永平三年七月；通鉴记庚戌赠谥，本传立碑未独载日",
+      "year": 913,
+      "precision": "month",
+      "phase": "posthumous",
+      "sortOrder": 12,
+      "evidence": [
+        {
+          "chapterId": "tongjian-v268",
+          "paragraphId": "tongjian-v268-p125",
+          "originalRevision": 1,
+          "originalSha256": "47f27f11b56db7fe97d87cbf77c824486f5df962b8bb499bc2bf2c6b314d6f4f",
+          "excerpt": "庚戌，贈唐道襲太師，謚忠壯；復以潘峭為樞密使。"
+        },
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "是月，高祖贈道襲太師，諡忠壯，命立碑閬州。"
+        }
+      ],
+      "notes": [
+        "追赠与生前担任分开，不能列为生前已任太师。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-dancing-attendant",
+      "title": "以舞童身份侍奉王建",
+      "summary": "本传记唐道袭最初以舞童身份侍奉王建。",
+      "sourceDate": "本传始以舞童，未独载入侍年月",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 13,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "始以舞童事高祖，美眉目，便佞有心計。"
+        },
+        {
+          "chapterId": "new-v63",
+          "paragraphId": "new-v63-p16",
+          "originalRevision": 1,
+          "originalSha256": "136eff9c0619258c1e647efaea324b26c6d34caf8c966b07a2917269a914aa9f",
+          "excerpt": "唐襲本以舞僮見幸於建，宗佶尤易之，後為樞密使，猶名呼襲，襲雖內恨，而外奉宗佶愈謹。"
+        }
+      ],
+      "notes": [
+        "便佞、有心计属于史书评价，不由舞童推断宦官身份、生年或确切年龄。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-horse-command",
+      "title": "参与谋划，任马军都指挥使",
+      "summary": "本传记他逐渐参与谋划，任马军都指挥使，随后迁枢密使。",
+      "sourceDate": "本传已而、俄，未独载马军任职年月",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 14,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "已而寖預謀畫，爲馬軍都指揮使，俄遷樞密使。"
+        }
+      ],
+      "notes": [
+        "枢密使另有907年任命记录，不倒推马军都指挥使也始任于907年。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-honor-village",
+      "title": "所居乡被旌为烈士乡",
+      "summary": "本传在宗佶之死及王建嘉其能后，记王建宠眷日深，将唐道袭所居乡旌为烈士乡。",
+      "sourceDate": "本传接宗佶之死，旌乡未独记年月",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 15,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v046",
+          "paragraphId": "shiguochunqiu-v046-p2",
+          "originalRevision": 1,
+          "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+          "excerpt": "王宗佶之死，道襲與有力焉。高祖嘉其能，寵眷日甚，旌其所居鄉曰烈士鄉。"
+        }
+      ],
+      "notes": [
+        "不把旌乡倒系到后接的永平元年，不据乡名补现代地理位置。"
+      ]
+    },
+    {
+      "id": "former-shu-tang-daoxi-execute-zongdi",
+      "title": "奉命给王宗涤饮酒并缢杀",
+      "summary": "王宗涤传记王建猜忌宗涤，听流言后命亲随指挥使唐道袭给他饮酒，将他缢杀。",
+      "sourceDate": "王宗涤传未独记遇害年；不得套后续武成元年追雪",
+      "year": null,
+      "precision": "undated",
+      "phase": "uncertain",
+      "sortOrder": 16,
+      "evidence": [
+        {
+          "chapterId": "shiguochunqiu-v039",
+          "paragraphId": "shiguochunqiu-v039-p4",
+          "originalRevision": 1,
+          "originalSha256": "a22479c16edfdee1f0d4cb503911fa81d3c8a4daa9ed387555d36c9b56eaeae1",
+          "excerpt": "宗滌有勇畧，得將士心，高祖頗内忌之。會成都作府門，繪以朱丹，國人謂之畫紅樓。高祖以宗滌姓名應之，而王宗佶等疾其功，復爲搆飛語，高祖召宗滌詰責之，宗滌曰：“三蜀畧平，大王聽讒殺功臣，可矣。”高祖令親隨指揮使唐道襲飲以酒，縊殺之；成都爲之罷市，涕泣如喪親戚。"
+        }
+      ],
+      "notes": [
+        "王宗涤与王宗佶分别辨认；后续武成元年系洗雪官爵，不作杀害日期。"
+      ]
+    }
+  ]
+}

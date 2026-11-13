@@ -15449,5 +15449,149 @@
         "title": "《十国春秋》 · 卷 45 · 前蜀术数、乐工与女性人物列传"
       }
     ]
+  },
+  {
+    "id": "palace-fshu-wang-jian-tang-daoxi-inner-service",
+    "from": "wang-jian-former-shu",
+    "to": "former-shu-tang-daoxi",
+    "kind": "service",
+    "label": "舞童入侍，后掌内枢密",
+    "note": "直接侍奉与内枢密任命有据，不补宦官、收养或婚配。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p2",
+        "originalRevision": 1,
+        "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+        "excerpt": "始以舞童事高祖，美眉目，便佞有心計。已而寖預謀畫，爲馬軍都指揮使，俄遷樞密使。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      },
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p54",
+        "originalRevision": 1,
+        "originalSha256": "2b7694a4c699b43c5aef5fcb3269c357efd3c4a60103bf70960255d66da0a7bc",
+        "excerpt": "閬州防禦使唐道襲為內樞密使。",
+        "title": "卷 266 · 后梁纪1",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7266&oldid=803277"
+      }
+    ]
+  },
+  {
+    "id": "palace-fshu-tang-feng-tang-daoxi-father-son",
+    "from": "former-shu-tang-daoxi-father-feng",
+    "to": "former-shu-tang-daoxi",
+    "kind": "kinship",
+    "label": "父子（本传明载）",
+    "note": "只据父峯明文，不按单复名争议增造兄弟。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p2",
+        "originalRevision": 1,
+        "originalSha256": "666aa33d6dc756890098d1e00559280ac22b86e47cc32c4ee121bb86a6f932e8",
+        "excerpt": "先是，道襲父峯以負販起家，",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
+  },
+  {
+    "id": "palace-fshu-tang-daoxi-wang-zongji-contention",
+    "from": "former-shu-tang-daoxi",
+    "to": "former-shu-wang-zongji",
+    "kind": "conflict",
+    "label": "嫌隙与进言",
+    "note": "唐道袭表面恭谨、内有怨恨并向王建进言，后由王建命卫士扑杀宗佶；不把唐记作亲手行刑者。",
+    "sources": [
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p16",
+        "originalRevision": 1,
+        "originalSha256": "136eff9c0619258c1e647efaea324b26c6d34caf8c966b07a2917269a914aa9f",
+        "excerpt": "唐襲本以舞僮見幸於建，宗佶尤易之，後為樞密使，猶名呼襲，襲雖內恨，而外奉宗佶愈謹。建聞之，怒曰：「宗佶名呼我樞密使，是將反也。」宗佶求大司馬，章三上，建以問襲，襲因激怒建曰：「宗佶功臣，其威望可以服人心，陛下宜即與之。」建心益疑。宗佶入奏事，自請不已，建叱衞士撲殺之，并賜騫死。",
+        "title": "卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "palace-fshu-tang-daoxi-wang-zongdi-execution",
+    "from": "former-shu-tang-daoxi",
+    "to": "former-shu-wang-zongdi",
+    "kind": "conflict",
+    "label": "奉王建命缢杀",
+    "note": "与宗佶嫌隙一事分开；只按本传所记执行，不补具体年月或自行决意。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v039",
+        "paragraphId": "shiguochunqiu-v039-p4",
+        "originalRevision": 1,
+        "originalSha256": "a22479c16edfdee1f0d4cb503911fa81d3c8a4daa9ed387555d36c9b56eaeae1",
+        "excerpt": "高祖令親隨指揮使唐道襲飲以酒，縊殺之；成都爲之罷市，涕泣如喪親戚。",
+        "title": "卷 39 · 前蜀列传（王宗佶、王宗侃等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7039&oldid=2542158"
+      }
+    ]
+  },
+  {
+    "id": "palace-fshu-tang-daoxi-zheng-xu-recommend-remove",
+    "from": "former-shu-tang-daoxi",
+    "to": "former-shu-zheng-xu",
+    "kind": "conflict",
+    "label": "荐任后排挤",
+    "note": "原书先记推荐、后记因拟查内库金帛而奏请排除；不认定调查已成定案。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p88",
+        "originalRevision": 1,
+        "originalSha256": "0ff4a6f5174497d7499a5a1d09fbf7db1b4750d48a7865f200f7d676ecfac68b",
+        "excerpt": "道襲薦宣徽北院使鄭頊為內樞密使，頊受命之日，即欲按道襲昆弟盜用內庫金帛。道襲懼，奏項褊急，不可大任，丙午，出頊為果州刺史，以宣徽南院使潘炕為內樞密使。",
+        "title": "卷 267 · 后梁纪2",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7267&oldid=1765571"
+      },
+      {
+        "chapterId": "shiguochunqiu-v041",
+        "paragraphId": "shiguochunqiu-v041-p2",
+        "originalRevision": 1,
+        "originalSha256": "514ce7c6e86eb8c933e886ffdf65796adda0e1563bd7ba31f7f6e37852ed80d1",
+        "excerpt": "輙擬發唐道襲奸盜狀，道襲以計去之，出爲果川刺史。",
+        "title": "卷 41 · 前蜀列传（郑顼、张格、潘炕等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7041&oldid=2439571"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "palace-fshu-tang-daoxi-yuanying-conflict",
+    "from": "former-shu-wang-yuanying",
+    "to": "former-shu-tang-daoxi",
+    "kind": "conflict",
+    "label": "宫廷嫌隙与兵变交战",
+    "note": "太子所部与唐道袭交战，不能由元膺杀之概称补为本人执刀。清风楼／神武门、中箭后被追杀／坠马死分别按书。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v268",
+        "paragraphId": "tongjian-v268-p123",
+        "originalRevision": 1,
+        "originalSha256": "1616778941c04fc724e2a6f334843f3a2fa09ed36720ad12fca831a015061ebe",
+        "excerpt": "戊申，徐瑤、常謙與懷勝軍使嚴璘等各帥所部兵奉太子攻道襲。至清風樓，道襲引屯營兵出拒戰；道襲中流矢，逐至城西，斬之。",
+        "title": "卷 268 · 后梁纪3",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7268&oldid=2307909"
+      },
+      {
+        "chapterId": "new-v63",
+        "paragraphId": "new-v63-p20",
+        "originalRevision": 1,
+        "originalSha256": "aef251630cb39dac1fdd9ad327bcfc16217bc7de3d96d01c099f00917ddf2bf9",
+        "excerpt": "元膺初不為備，聞襲召兵，以為誅己，乃與伶人安悉香、軍將喻全殊率天武兵自衞，遣人擒峭及文錫而笞之，幽於其家；召大將徐瑤、常謙率兵出拒襲，與襲戰神武門，襲中流矢，墜馬死。",
+        "title": "卷 63 · 前蜀世家第三",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B763&oldid=1674690"
+      }
+    ],
+    "direction": "undirected"
   }
 ]

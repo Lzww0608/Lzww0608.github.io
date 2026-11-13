@@ -1389,6 +1389,14 @@ for _h124_spec in SPECS:
         _h124_spec['subjects'] = list(_H124_SG45_SUBJECTS)
 
 
+# H125: source-bound Tang Daoxi reading entries; saved originals remain unchanged.
+_H125_TANG_CHAPTERS = {'former-shu-tang-daoxi': ['jiuguozhi-v006', 'kaoyi-v028', 'new-v63', 'old-v013', 'shiguochunqiu-v038', 'shiguochunqiu-v039', 'shiguochunqiu-v041', 'shiguochunqiu-v046', 'tongjian-v266', 'tongjian-v267', 'tongjian-v268']}
+for _h125_person, _h125_chapters in _H125_TANG_CHAPTERS.items():
+    for _h125_spec in SPECS:
+        if _h125_spec['id'] in _h125_chapters:
+            _h125_spec['subjects'] = list(dict.fromkeys([*_h125_spec['subjects'], _h125_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
