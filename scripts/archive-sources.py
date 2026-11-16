@@ -853,6 +853,40 @@ SOURCE_HEADER_REGISTRATION = {
                'headerAuthor': '作者：沈約　南梁', 'headerSubject': '前廢帝'},
 }
 
+# Source-local registrations. Every saved rendering is independently bounded;
+# legacy sources without an explicit selection keep their original extractor.
+SOURCE_HEADER_REGISTRATIONS = {
+    'songshu-v007': SOURCE_HEADER_REGISTRATION,
+    'songshu-v008': {
+        'id': 'songshu-v008', 'bookId': 'songshu', 'volume': 8, 'title': '卷 8 · 明帝',
+        'page': '宋書/卷8', 'fixedRevisionId': 2309997, 'pageid': 18385,
+        'htmlSha256': 'fc68af23be478afe61bd9e4371dbcdb5d53526c79a1e1abb88c28d1c203f3e97',
+        'policy': {'headerTitle': '宋書卷八', 'headerSerial': '本紀第八',
+                   'headerAuthor': '作者：沈約　南梁', 'headerSubject': '明帝'},
+    },
+    'nanshi-v003': {
+        'id': 'nanshi-v003', 'bookId': 'nanshi', 'volume': 3,
+        'title': '卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）',
+        'page': '南史/卷03', 'fixedRevisionId': 1561241, 'pageid': 58507,
+        'htmlSha256': '7db90f3c561ba7e9efb1ebdd361e349fc329e0db05b86e2a0bdef957d7aba162',
+        'policy': {'headerTitle': '南史', 'headerSerial': '卷三',
+                   'headerSubject': '宋本紀下第三'},
+    },
+}
+SOURCE_HEADER_NAVIGATION = {
+    'songshu-v007': ['←', '本紀第六', '本紀第八', '→'],
+    'songshu-v008': ['←', '本紀第七', '本紀第九', '→'],
+}
+
+
+def source_header_registration(payload):
+    parsed = payload.get('response', {}).get('parse', {})
+    matches = [record for record in SOURCE_HEADER_REGISTRATIONS.values()
+               if parsed.get('title') == record['page']]
+    if len(matches) != 1:
+        raise ValueError('Source header is not registered for this page')
+    return matches[0]
+
 
 def selected_source_header(payload):
     selection = payload.get('selection', {})
@@ -861,7 +895,7 @@ def selected_source_header(payload):
     if 'sourceHeader' not in selection:
         return None
     policy = selection['sourceHeader']
-    expected = SOURCE_HEADER_REGISTRATION
+    expected = source_header_registration(payload)
     if (set(selection) != {'sourceHeader'} or not isinstance(policy, dict)
             or set(policy) != set(expected['policy'])
             or not all(isinstance(value, str) and value for value in policy.values())
@@ -885,19 +919,79 @@ def validate_source_header_spec(spec):
     # Presence is deliberate: null/False legacy flags cannot silently combine modes.
     if any(key in spec for key in ('transcription', 'inlineGlyphs', 'sourceSection', 'indexPage')):
         raise ValueError('Source header cannot combine selection modes')
-    expected = SOURCE_HEADER_REGISTRATION
+    expected = SOURCE_HEADER_REGISTRATIONS.get(spec.get('id'))
+    if expected is None:
+        raise ValueError('Source header is not registered for this specification')
     if (any(spec.get(key) != expected[key] for key in ('id', 'bookId', 'volume', 'title', 'page', 'fixedRevisionId'))
             or type(spec.get('volume')) is not int
             or type(spec.get('fixedRevisionId')) is not int
-            or 'position' in spec and (type(spec['position']) is not int or spec['position'] != 7)
+            or 'position' in spec and (type(spec['position']) is not int or spec['position'] != expected['volume'])
             or spec.get('sourceHeader') != expected['policy']):
         raise ValueError('Source header requires its explicitly fixed source specification')
+
+
+def source_modern_header_details(payload, policy):
+    if (source_header_registration(payload)['id'] != 'nanshi-v003'
+            or not isinstance(policy, dict) or selected_source_header(payload) != policy):
+        raise ValueError('Modern source title requires its fixed selected rendering')
+
+    def walk(node):
+        yield node
+        for child in node.children:
+            if isinstance(child, Node):
+                yield from walk(child)
+
+    def text(node):
+        if node.tag == 'img':
+            raise ValueError('Unselected image in substantive source title')
+        if node.tag == 'br':
+            return '\n'
+        return ''.join(text(child) if isinstance(child, Node) else child
+                       for child in node.children)
+
+    document = Document(payload['response']['parse']['text']['*']).root
+    headers = [node for node in walk(document)
+               if 'ws-header' in node.attrs.get('class', '').split()]
+    if len(headers) != 2 or any(node.tag != 'table' for node in headers):
+        raise ValueError('Selected modern source header shape changed')
+    cells = [node for node in walk(headers[0]) if node.tag == 'td']
+    if (len(cells) != 3 or [node.attrs.get('width') for node in cells] != ['25%', '50%', '25%']
+            or cells[1].attrs.get('align') != 'center'):
+        raise ValueError('Selected modern source title cells changed')
+    center = cells[1]
+    lines = [line.strip() for line in text(center).splitlines() if line.strip()]
+    if lines != [policy['headerTitle'], policy['headerSerial'], policy['headerSubject']]:
+        raise ValueError('Selected modern source title or serial changed')
+    bold = [node.text().strip() for node in walk(center) if node.tag == 'b']
+    if bold != [policy['headerTitle'], policy['headerSubject']]:
+        raise ValueError('Selected modern source title hierarchy changed')
+    if [re.sub(r'\s+', '', node.text()) for node in (cells[0], cells[2])] != ['卷二◄', '►卷四']:
+        raise ValueError('Selected modern source navigation changed')
+
+    def check_body_images(node):
+        if node in headers or excluded(node):
+            return
+        if node.tag == 'img':
+            raise ValueError('Unselected image in retained source body')
+        for child in node.children:
+            if isinstance(child, Node):
+                check_body_images(child)
+
+    check_body_images(document)
+    body = extract(payload['response']['parse']['text']['*'], with_tags=True)
+    if any(tag == 'td' for _, tag in body):
+        raise ValueError('Source title overlaps default bibliographic preface')
+    return dict(blocks=[(policy['headerTitle'], 'h1'), (policy['headerSerial'], 'h2'),
+                        (policy['headerSubject'], 'h3')] + body, body=body)
 
 
 def source_header_details(payload):
     policy = selected_source_header(payload)
     if policy is None:
         raise ValueError('Source header requires explicit selection')
+    registration = source_header_registration(payload)
+    if registration['id'] == 'nanshi-v003':
+        return source_modern_header_details(payload, policy)
 
     def walk(node):
         yield node
@@ -939,7 +1033,7 @@ def source_header_details(payload):
                [policy['headerTitle'], policy['headerSerial'], policy['headerAuthor']]):
         raise ValueError('Selected source title, serial or author changed')
     # The other first-table cells are navigation, never source blocks.
-    if [normalize(node.text()) for node in cells[:2] + cells[3:]] != ['←', '本紀第六', '本紀第八', '→']:
+    if [normalize(node.text()) for node in cells[:2] + cells[3:]] != SOURCE_HEADER_NAVIGATION[registration['id']]:
         raise ValueError('Selected source header navigation shape changed')
     subjects = [node for node in walk(tables[1]) if node.tag == 'td']
     sisters = [node for node in walk(header) if node.attrs.get('id') == 'plainSister']

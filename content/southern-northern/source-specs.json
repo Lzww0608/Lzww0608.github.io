@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—7帝纪及卷99二凶的完整正文、夹注和校勘记；卷7另保存该页卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—8帝纪及卷99二凶的完整正文、夹注和校勘记；卷7、8保存来源卷首题署与作者栏，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -18,7 +18,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—2宋本纪上、中及卷14宋宗室及诸王下完整文本，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—3宋本纪及卷14宋宗室及诸王下完整文本，保留所收卷原页题署、标题、正文与史论，不表示全书已收录。",
       "defaultChapter": "nanshi-v001"
     }
   ],
@@ -120,7 +120,8 @@
         "liu-yu-song",
         "liu-yifu-song",
         "liu-shao-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-yu-xiangdong-song"
       ],
       "fixedRevisionId": 2370105,
       "sourceLocalSubjectsOnly": true,
@@ -140,7 +141,8 @@
         "liu-yifu-song",
         "liu-shao-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "fixedRevisionId": 1561232,
       "sourceLocalSubjectsOnly": true,
@@ -176,7 +178,8 @@
         "liu-shao-song",
         "liu-yilong-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "fixedRevisionId": 2577537,
       "sourceLocalSubjectsOnly": true,
@@ -195,7 +198,8 @@
         "liu-yu-song",
         "liu-yilong-song",
         "liu-shao-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "fixedRevisionId": 2310150,
       "sourceLocalSubjectsOnly": true,
@@ -214,7 +218,8 @@
         "liu-yilong-song",
         "liu-shao-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "fixedRevisionId": 2368147,
       "sourceLocalSubjectsOnly": true,
@@ -225,6 +230,55 @@
         "headerSerial": "本紀第七",
         "headerAuthor": "作者：沈約　南梁",
         "headerSubject": "前廢帝"
+      }
+    },
+    {
+      "id": "songshu-v008",
+      "bookId": "songshu",
+      "volume": 8,
+      "position": 8,
+      "title": "卷 8 · 明帝",
+      "page": "宋書/卷8",
+      "subjects": [
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song",
+        "liu-jun-song",
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
+      ],
+      "fixedRevisionId": 2309997,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 11873,
+      "minimumBlocks": 140,
+      "sourceHeader": {
+        "headerTitle": "宋書卷八",
+        "headerSerial": "本紀第八",
+        "headerAuthor": "作者：沈約　南梁",
+        "headerSubject": "明帝"
+      }
+    },
+    {
+      "id": "nanshi-v003",
+      "bookId": "nanshi",
+      "volume": 3,
+      "position": 3,
+      "title": "卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）",
+      "page": "南史/卷03",
+      "subjects": [
+        "liu-yilong-song",
+        "liu-jun-song",
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
+      ],
+      "fixedRevisionId": 1561241,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 6695,
+      "minimumBlocks": 116,
+      "sourceHeader": {
+        "headerTitle": "南史",
+        "headerSerial": "卷三",
+        "headerSubject": "宋本紀下第三"
       }
     }
   ]

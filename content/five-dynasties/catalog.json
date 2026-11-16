@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—7帝纪及卷99二凶的完整正文、夹注和校勘记；卷7另保存该页卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—8帝纪及卷99二凶的完整正文、夹注和校勘记；卷7、8保存来源卷首题署与作者栏，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -187,7 +187,7 @@
       "author": "唐 · 李延寿撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—2宋本纪上、中及卷14宋宗室及诸王下完整文本，保留原页标题、正文与史论，不表示全书已收录。",
+      "description": "现收卷1—3宋本纪及卷14宋宗室及诸王下完整文本，保留所收卷原页题署、标题、正文与史论，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/南史",
       "defaultChapter": "nanshi-v001"
     }
@@ -11052,7 +11052,8 @@
         "liu-yu-song",
         "liu-yifu-song",
         "liu-shao-song",
-        "liu-jun-song"
+        "liu-jun-song",
+        "liu-yu-xiangdong-song"
       ],
       "scope": "full",
       "paragraphCount": 306,
@@ -11082,7 +11083,8 @@
         "liu-yifu-song",
         "liu-shao-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "scope": "full",
       "paragraphCount": 294,
@@ -11164,7 +11166,8 @@
         "liu-shao-song",
         "liu-yilong-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "scope": "full",
       "paragraphCount": 142,
@@ -11192,7 +11195,8 @@
         "liu-yu-song",
         "liu-yilong-song",
         "liu-shao-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "scope": "full",
       "paragraphCount": 177,
@@ -11220,7 +11224,8 @@
         "liu-yilong-song",
         "liu-shao-song",
         "liu-jun-song",
-        "liu-ziye-song"
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
       ],
       "scope": "full",
       "paragraphCount": 53,
@@ -11404,6 +11409,64 @@
         "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7045&action=history",
         "sourceSha256": "72c8042197cc3686aa1c6de0c14717694f4bc31b1fe8e1cddf6b724cf164ff97",
         "chapterSha256": "1d4f2d19deb98519fb305cb074e415199848c41c14461c6b7b69f59769aaef86"
+      }
+    },
+    {
+      "id": "songshu-v008",
+      "bookId": "songshu",
+      "volume": 8,
+      "position": 8,
+      "title": "卷 8 · 明帝",
+      "subjects": [
+        "liu-yu-song",
+        "liu-yilong-song",
+        "liu-shao-song",
+        "liu-jun-song",
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 140,
+      "characterCount": 11873,
+      "provenance": {
+        "pageTitle": "宋書/卷8",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B78&oldid=2309997",
+        "revisionId": 2309997,
+        "fetchedAt": "2026-11-12T12:59:38.820765+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B78&action=history",
+        "sourceSha256": "956302b4a4cefbe5c1680079f74cc062e89e6ee38c520dc1a101719a7fa81abc",
+        "chapterSha256": "fb6258847d207bd25077fe29caf6c5d9a13157b62eadb231e4347d83a0743bf1",
+        "captureNote": "主页面修订与所保存正文固定；模板及模块等依赖的修订未逐一固定。"
+      }
+    },
+    {
+      "id": "nanshi-v003",
+      "bookId": "nanshi",
+      "volume": 3,
+      "position": 3,
+      "title": "卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）",
+      "subjects": [
+        "liu-yilong-song",
+        "liu-jun-song",
+        "liu-ziye-song",
+        "liu-yu-xiangdong-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 116,
+      "characterCount": 6695,
+      "provenance": {
+        "pageTitle": "南史/卷03",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B703&oldid=1561241",
+        "revisionId": 1561241,
+        "fetchedAt": "2026-11-12T12:59:38.700388+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B703&action=history",
+        "sourceSha256": "37deba11f3a735c6e87fdf1304526e7e3486fb89e21e919cb59e1cb9a0f4d022",
+        "chapterSha256": "cb6f527e9a3e794ec5ace94efe5243be58833586560d03d796e1a44cc7d3dc23",
+        "captureNote": "主页面修订与所保存正文固定；模板及模块等依赖的修订未逐一固定。"
       }
     }
   ]

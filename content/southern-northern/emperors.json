@@ -4,7 +4,7 @@
   "title": "南朝皇帝",
   "filterLabel": "南朝皇帝",
   "description": "沿宋、齐、梁、陈的帝纪阅读南朝皇帝。实际即位、短暂争立与身后追尊分别辨明。",
-  "sourceNote": "据《宋书》卷1—7、卷99和《南史》卷1—2、卷14整理刘裕、刘义符、刘义隆、刘劭、刘骏、刘子业，另收入《五代会要》《十国春秋》的相关追述。实际即位与短期篡立、史书异文和年代未定之处分别说明。",
+  "sourceNote": "据《宋书》卷1—8、卷99和《南史》卷1—3、卷14整理刘裕、刘义符、刘义隆、刘劭、刘骏、刘子业、刘彧，另收入《五代会要》《十国春秋》的相关追述。实际即位、短期篡立与争立分别辨明，史书异文和年代未定之处分别说明。",
   "sources": [
     {
       "title": "宋书·武帝纪上中下（卷1—3）",
@@ -61,6 +61,14 @@
     {
       "title": "南史·宋本纪中（卷02，前废帝部分）",
       "url": "https://zh.wikisource.org/w/index.php?title=南史/卷02&oldid=1561232"
+    },
+    {
+      "title": "宋书·明帝纪（卷8）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B78&oldid=2309997"
+    },
+    {
+      "title": "南史·宋本纪下（卷03）",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B703&oldid=1561241"
     }
   ],
   "memberIds": [
@@ -69,7 +77,8 @@
     "liu-yilong-song",
     "liu-shao-song",
     "liu-jun-song",
-    "liu-ziye-song"
+    "liu-ziye-song",
+    "liu-yu-xiangdong-song"
   ],
   "people": [
     {
@@ -353,6 +362,69 @@
         "《宋书》记华林园竹林堂射鬼后被追杀，《南史》记崩于华光殿，地点叙法分源保留。",
         "王藻死日己卯与丁卯、刘胜/矇/蒙及米一升/一斗等原书异文分别保存，不拼成唯一文本。",
         "太皇太后令的指控、巫言梦兆与史家评论保留言说层次；拟掘父陵、欲立冒认孩子为太子等未遂事不写成既成。"
+      ]
+    },
+    {
+      "id": "liu-yu-xiangdong-song",
+      "name": "刘彧",
+      "dynasty": "刘宋",
+      "role": "刘宋皇帝（明帝）",
+      "sovereignTitle": "皇帝",
+      "aliases": "宋明帝 宋太宗 休炳 休景 荣期",
+      "nameVariants": [
+        "劉彧",
+        "榮期"
+      ],
+      "intro": "刘彧字休炳，《南史》作休景，小字荣期，是文帝刘义隆第十一子，生母沈婕妤。初封淮阳王，后改封湘东王，历任领军将军、徐州和南豫州刺史。前废帝拘辱诸叔，他与阮佃夫、李道儿等密谋。前废帝被杀后，先被奉登西堂，466年正式即位，改元泰始。在位时经历子勋义嘉争立、淮北失地，颁布赋役、刑狱和礼制诏令；晚年诛杀休仁、休若等宗王。472年崩于景福殿，葬高宁陵。",
+      "reign": "466—472 年",
+      "reignStart": 466,
+      "reignEnd": 472,
+      "periodLabel": "刘宋 · 466—472 年在位",
+      "birthYear": 439,
+      "deathYear": 472,
+      "lifespan": "439—472 年",
+      "readingStarts": {
+        "songshu": "songshu-v008",
+        "nanshi": "nanshi-v003"
+      },
+      "sources": [
+        {
+          "title": "宋书·明帝纪（卷8）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B78&oldid=2309997"
+        },
+        {
+          "title": "南史·宋本纪下（卷03）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B703&oldid=1561241"
+        },
+        {
+          "title": "宋书·文帝纪（卷5）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B75&oldid=2370105"
+        },
+        {
+          "title": "宋书·孝武帝纪（卷6）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B76&oldid=2310150"
+        },
+        {
+          "title": "宋书·前废帝纪（卷7）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B77&oldid=2368147"
+        },
+        {
+          "title": "南史·宋本纪中（卷02）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B702&oldid=1561232"
+        },
+        {
+          "title": "南史·宋宗室及诸王下（卷14）",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B714&oldid=2577537"
+        }
+      ],
+      "sourceNotes": [
+        "《宋书》记字休炳，《南史》作休景，小字均为荣期；两种字分书保存。刘彧与开国武帝刘裕是不同人物。",
+        "生母沈婕妤被追尊为宣皇太后。《宋书》只说幼时养于太后宫中，未在该句点名养育者；大明年间侍路太后医药另有记载。",
+        "前废帝被杀后登西堂、称令书行事，均在正式即位以前。泰始元年十二月丙寅正式即位已跨西历466年。",
+        "子勋在寻阳另立义嘉，与建康朝廷争立。派将、将领战果和明帝本人亲御六师分别记述。",
+        "休仁之死，《宋书》本纪记有罪自杀，《南史》本纪记鸩，宗室传另叙赐药；休若之死分别作薨与赐死。",
+        "太后漆床一事，《宋书》正文记数十人获罪，《南史》及校勘所引另有死字；并日料禄俸与并断禄奉、田禄与田租等异文分书保存。",
+        "即位诏的政治指控、梦兆、史家褒贬与校勘推测保留各自的言说层次。"
       ]
     }
   ]

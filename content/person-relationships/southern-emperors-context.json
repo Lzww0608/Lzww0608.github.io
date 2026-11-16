@@ -438,16 +438,6 @@
     "note": "文帝第十皇子，封汝阴王。"
   },
   {
-    "id": "liu-yu-xiangdong-song",
-    "name": "刘彧",
-    "aliases": [
-      "劉彧"
-    ],
-    "external": true,
-    "group": "刘宋宗室",
-    "note": "文帝第十一皇子，先封淮阳王，后改封湘东王；与文帝之父刘裕分开。"
-  },
-  {
     "id": "liu-xiuren-song",
     "name": "刘休仁",
     "aliases": [
@@ -2565,5 +2555,851 @@
     "external": true,
     "group": "刘宋相关",
     "note": "刘铄妃；《南史》记前废帝召她入宫、命左右逼迫，以杀三子威胁。她仍不从，三子被杀，她又受鞭一百。"
+  },
+  {
+    "id": "song-liu-yu-xiangdong-mother-shen",
+    "name": "沈婕妤（刘彧生母）",
+    "aliases": [
+      "沈婕妤（劉彧生母）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》称所生沈婕妤并追尊宣皇太后，宗室谱称沈婕妤生明帝；未载本名，与其他同姓宫职不合并。"
+  },
+  {
+    "id": "song-liu-yu-xiangdong-consort-wang",
+    "name": "王氏（宋明帝皇后）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "泰始即位后立王氏为皇后；未补本名，不与孝武文穆王后或其他王氏同人。"
+  },
+  {
+    "id": "liu-yu-houfei-song",
+    "name": "刘昱（宋后废帝）",
+    "aliases": [
+      "劉昱（宋後廢帝）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记后废帝名昱，字德融，明帝长子；与刘彧、刘裕分开。"
+  },
+  {
+    "id": "liu-zhun-song",
+    "name": "刘准（宋顺帝）",
+    "aliases": [
+      "劉準（宋順帝）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》称顺帝准为明帝第三子；《宋书》写準，记其封安成王。"
+  },
+  {
+    "id": "liu-faliang-song",
+    "name": "刘法良",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "song-source-mingdi-son-four-unnamed",
+    "name": "第四皇子（刘彧谱系，未名）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "谱称第四皇子未有名而早夭；保未名谱系角色，不补名字或确定与其他未名婴儿同异。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "liu-zhijing-song",
+    "name": "刘智井",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-xie-jinxi-song",
+    "name": "刘燮",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-you-shaoling-song",
+    "name": "刘友（邵陵王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-ji-jiangxia-song",
+    "name": "刘跻（江夏王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-hui-suiyang-song",
+    "name": "刘翙",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-song-xinxing-song",
+    "name": "刘嵩（新兴王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "liu-xi-shijian-song",
+    "name": "刘禧（始建王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱的具体子项，未据列表顺序自行填排行；同生只作同母，出继与生父身份分开。"
+  },
+  {
+    "id": "song-liu-yu-xiangdong-consort-chen-yu",
+    "name": "陈氏（刘彧所纳、后废帝母）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》后废帝传称其母陈氏原为李道儿妾，明帝纳之；母系谱称陈贵妃生后废帝，以同一儿子相接，不补本名。"
+  },
+  {
+    "id": "song-source-mingdi-maternal-xie-xiuyi",
+    "name": "谢修仪（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-chen-zhaohua",
+    "name": "陈昭华（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-xu-jieyu",
+    "name": "徐婕妤（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-zheng-xiurong",
+    "name": "郑修容（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-quan-meiren",
+    "name": "泉美人（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-xu-liangren",
+    "name": "徐良人（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-maternal-du-xiuhua",
+    "name": "杜修华（明帝子谱来源角色）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明帝十二子母系谱的宫职姓氏条目；与同姓不同宫职自然身份同异未定，不因职名增加确定自然人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-eighth-zhihuan",
+    "name": "智涣（第八皇子继嗣条目）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪第八皇子智涣继休倩；七年另列第八皇子躋，当前无同名桥，不并别名，也不宣称已证两个自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "liu-jingsu-song",
+    "name": "刘景素",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "沿建平王景素既有身份；各任南豫、南兖、湘、荆州依原书，不把后废帝时猜忌与起兵倒给明帝。"
+  },
+  {
+    "id": "yin-yan-song",
+    "name": "殷琰",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "song-source-mingdi-yuan-minsun",
+    "name": "袁愍孙（领军授任条目）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本条记领军将军袁愍孙，另一条记袁粲；本卷未说明二名的关系，是否同人暂不确定。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "shen-lingsun-song",
+    "name": "申令孙",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "pang-mengqiu-song",
+    "name": "庞孟虬",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-huaizhen-song",
+    "name": "刘怀珍",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "军主平定义兴及明载任东徐刺史分别引文；三月己未校记存疑不改为拟正日。"
+  },
+  {
+    "id": "cai-xingzong-song",
+    "name": "蔡兴宗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "宋书任左仆射，南史任右仆射，分源而非同一已定官衔；诸军州任命及顾命不等于都已赴任。"
+  },
+  {
+    "id": "zhang-yong-song",
+    "name": "张永",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪受任、东讨北讨及受借南苑的交往；三百年仅帝言，不造已实行三百年租约。"
+  },
+  {
+    "id": "xiao-daocheng-qi",
+    "name": "萧道成",
+    "aliases": [
+      "蕭道成"
+    ],
+    "external": true,
+    "group": "刘宋／南齐相关",
+    "note": "《宋书》以齐王追称，《南史》同官同一晋陵战事写萧道成；此处所记为其在刘宋朝任职。"
+  },
+  {
+    "id": "liu-mian-song",
+    "name": "刘勔",
+    "aliases": [
+      "劉勔"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》辅国前锋西讨的刘勔，与《南史》同役同职的刘勉相接，原书字形分别保留；任官、攻寿阳与顾命各有出处。"
+  },
+  {
+    "id": "zheng-hei-song",
+    "name": "郑黑",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "shen-youzhi-song",
+    "name": "沈攸之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-chengmin-song",
+    "name": "刘乘民",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "ming-senggao-song",
+    "name": "明僧暠",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "任青州刺史的明僧暠为具名臣，不因明字并入明帝。"
+  },
+  {
+    "id": "yang-sengsi-qiuchi",
+    "name": "杨僧嗣",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "受北秦州刺史、武都王及将军号，只有授号事实，不等同宋朝实际占有全部仇池地域。"
+  },
+  {
+    "id": "shi-langzhi-song",
+    "name": "时朗之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "zheng-shuju-song",
+    "name": "郑叔举",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-borong-song",
+    "name": "伯融（休仁世子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "明记休仁世子伯融；豫州/南豫州为本卷校勘异说，不补生母给未明儿子。"
+  },
+  {
+    "id": "song-source-mingdi-zhang-shi",
+    "name": "张世（豫州刺史条目）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪此条作张世，另一条张兴世有校勘补世字，但没有张世即张兴世的明确桥，暂留来源角色，不合名或断两个自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "liu-xi-song",
+    "name": "刘袭",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-yannian-song",
+    "name": "延年（景素子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "建平王景素之子延年，先封新安，后改始平；与长沙王纂子延之分开。"
+  },
+  {
+    "id": "liu-shanming-song",
+    "name": "刘善明",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "fei-hun-song",
+    "name": "费混",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-lingyi-song",
+    "name": "刘灵遗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本底本灵遗据卷末校勘订，别本灵道保校勘层；四年军司马上阙官字不凭空补。"
+  },
+  {
+    "id": "liu-liang-song",
+    "name": "刘亮",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "与同卷王亮异姓分开，梁南秦及益州授任按句各记。"
+  },
+  {
+    "id": "wang-xuanzai-song",
+    "name": "王玄载",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "cui-ping-song",
+    "name": "崔平",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-desi-song",
+    "name": "德嗣（休范第二子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "明确休范第二子，立庐陵王以奉祀；不据此补其生母。"
+  },
+  {
+    "id": "liu-xian-nanfeng-song",
+    "name": "铣（刘韫第二子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "明确刘韫第二子，为南丰王奉南丰哀王祀；不另猜祖父或生母。"
+  },
+  {
+    "id": "liu-yun-song",
+    "name": "刘韫",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "zhou-ningmin-song",
+    "name": "周宁民",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-boyou-song",
+    "name": "伯猷（休仁第二子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪明为休仁第二子，立江夏王；与世子伯融分开，未补母名。"
+  },
+  {
+    "id": "zhang-dang-song",
+    "name": "张谠",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-xiubin-song",
+    "name": "刘休宾",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "chang-zhenqi-song",
+    "name": "常珍奇",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "chaoyue-chang-zhenqi-son-song",
+    "name": "超越（常珍奇子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪称常珍奇之子超越，记授北冀州；校勘所引北豫州另存，姓名只据原书所载。"
+  },
+  {
+    "id": "sun-fengbo-song",
+    "name": "孙奉伯",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "chen-boshao-song",
+    "name": "陈伯绍",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "zhang-bian-song",
+    "name": "张辩",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "song-source-mingdi-liu-bo-jiaozhou",
+    "name": "刘勃（交州授任条目）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "正文作刘勃，校勘引张森楷判断与刘斅当为一人；正文姓名与校者判断分开保留。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-mingdi-shen-wenjing",
+    "name": "沈文靖（东青州授任条目）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "正文作沈文靖，校记引本传、通鉴作文静；源名同异/字误暂保来源角色，不静改正文或断多一自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "cui-gonglie-song",
+    "name": "崔公烈",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "du-youwen-song",
+    "name": "杜幼文",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "任梁南秦刺史；后废帝杀幼文不反归明帝。"
+  },
+  {
+    "id": "liu-xuanyao-song",
+    "name": "宣曜（休祐子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪休祐子宣曜，宗室传以为南平穆王铄后；封王和出继依不同证据，不补母名。"
+  },
+  {
+    "id": "wang-liang-song",
+    "name": "王亮",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "徐州任命中的王亮与刘亮分开。"
+  },
+  {
+    "id": "li-lingqian-song",
+    "name": "李灵谦",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-chongzhi-song",
+    "name": "刘崇智",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-yanzhi-shiping-song",
+    "name": "延之（长沙王纂子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "正文明确纂子，立始平王；不与景素子延年合名。"
+  },
+  {
+    "id": "meng-ciyang-song",
+    "name": "孟次阳",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "当前底本有次字，旧本脱次仅校记层；不由同姓同名片段合并其他孟氏。"
+  },
+  {
+    "id": "lv-anguo-song",
+    "name": "吕安国",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "yuan-can-song",
+    "name": "袁粲",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪右仆射、尚书令、顾命；未凭外部常识将袁愍孙条并为同人，也不认作已证两人。"
+  },
+  {
+    "id": "ma-shen-song",
+    "name": "马诜",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "chen-yinzong-song",
+    "name": "陈胤宗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "tuyuhun-shiqian",
+    "name": "拾虔（吐谷浑）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "受平西将军号的吐谷浑拾虔，不与现有拾寅混同；不补世系或实控范围。"
+  },
+  {
+    "id": "kong-yu-song",
+    "name": "孔玉",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-kang-song",
+    "name": "刘康",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "sun-chaozhi-song",
+    "name": "孙超之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪宁朔长史孙超之，与后废帝所杀孙超未见同人桥，不合别名。"
+  },
+  {
+    "id": "wang-sengqian-song",
+    "name": "王僧虔",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "liu-bing-song",
+    "name": "刘秉",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "shen-huaiming-song",
+    "name": "沈怀明",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "wang-zhan-song",
+    "name": "王瞻",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "cai-na-song",
+    "name": "蔡那",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝本纪明确记授任或受命，具体官号、年月分别见连续引文；受授不等于已经抵任，不把历次官职并为同日。"
+  },
+  {
+    "id": "zhang-xingshi-song",
+    "name": "张兴世",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪任雍州，校记补世字；另一张世任豫州尚无直接同人桥，不据此合并。"
+  },
+  {
+    "id": "yang-yunchang-song",
+    "name": "杨运长",
+    "aliases": [
+      "楊運長"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧传明确明帝与杨运长为身后定谋；南史末年记其擅权。与羊希等姓字不同，不补宦官身份。"
+  },
+  {
+    "id": "fan-jingda-song",
+    "name": "范景达",
+    "aliases": [
+      "范景達"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "休祐左右，善弹棋，明帝召而休祐不遣；只记录召求，不称已经到朝受职。"
+  },
+  {
+    "id": "humu-hao-song",
+    "name": "胡母颢",
+    "aliases": [
+      "胡母顥"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "南史记中书舍人胡母颢专权、奏无不可；只记该书与帝奏诺的联系，不补初次任命。"
+  },
+  {
+    "id": "siyuan-liu-chang-household-song",
+    "name": "思远（刘昶家所生子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "传记说刘昶家还都后二妾各生一子，明帝赐长者思远、小者怀远，寻并卒；不补两妾名姓。"
+  },
+  {
+    "id": "huaiyuan-liu-chang-household-song",
+    "name": "怀远（刘昶家所生子）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "传记说刘昶家还都后二妾各生一子，明帝赐长者思远、小者怀远，寻并卒；不补两妾名姓。"
+  },
+  {
+    "id": "liu-zuan-changsha-song",
+    "name": "纂（长沙王）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪称长沙王纂子延之，当前只取其父子关系，不补生年及与前长沙诸王的世系。"
+  },
+  {
+    "id": "he-huiwen-song",
+    "name": "何慧文",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "明帝新朝本纪明确列在同叛逆者中，标签仅指对建康朝廷的拒命/对立，不补私人交恶、直接交战或帝亲令杀。"
+  },
+  {
+    "id": "gu-chen-song",
+    "name": "顾琛",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪本年并举兵反的封闭语境，不是帝私人关系评价，亦不称为彧直接任命的部将。"
+  },
+  {
+    "id": "liu-yanxi-song",
+    "name": "刘延熙",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪本年并举兵反的封闭语境，不是帝私人关系评价，亦不称为彧直接任命的部将。"
+  },
+  {
+    "id": "yuan-biao-song",
+    "name": "袁摽",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪本年并举兵反的封闭语境，不是帝私人关系评价，亦不称为彧直接任命的部将。"
+  },
+  {
+    "id": "liu-hu-song",
+    "name": "刘胡",
+    "aliases": [
+      "劉胡"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪敌方刘胡领众据赭圻，与袁顗联营在对立军叙次；不补皇帝授他官号。"
+  },
+  {
+    "id": "liu-yin-yuzhang-song",
+    "name": "刘愔（豫章太守）",
+    "aliases": [
+      "劉愔（豫章太守）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本书记明帝梦其反而遣就郡杀，未证其实际谋反；与他朝同名人不并。"
+  },
+  {
+    "id": "jiang-mi-song",
+    "name": "江谧",
+    "aliases": [
+      "江謐"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "尚书右丞误犯白门之讳，帝怒后久释；不由短暂责怒推永久政敌。"
+  },
+  {
+    "id": "song-liu-chang-taifei-xie",
+    "name": "谢太妃（晋熙国）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "明帝赎昶不获、令燮继后，诏令晋熙国太妃谢氏还本家、削蕃秩；当前仅按此限定身份，不添本名。"
+  },
+  {
+    "id": "song-liu-xiuruo-mother-luo",
+    "name": "罗氏（休若母）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "旧宗室谱称罗美人生休若，休若传称其母罗；以同一儿子相接，不补本名。"
+  },
+  {
+    "id": "song-source-mingdi-liu-zhi-qingzhou",
+    "name": "刘祗（青州刺史条目）",
+    "aliases": [
+      "劉祗（青州刺史條目）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "identityKind": "source-role",
+    "note": "《宋书》明帝纪记青州刺史刘祗转南兖州刺史；与另条前太子步兵校尉、歆父刘祗是否同人未明，不由姓名和官职兼容径行合并。"
   }
 ]
