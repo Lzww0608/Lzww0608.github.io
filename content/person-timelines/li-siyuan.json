@@ -759,7 +759,24 @@
           "originalRevision": 1,
           "originalSha256": "fdb3a8f64b81be61b981cbbe8bc6691c99cfe93803acf51854a9c7c4c05d762e",
           "excerpt": "明宗嘉其功，拜平章事，判三司。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "明宗即位，任圜自蜀至，安重誨不欲圜獨拜宰輔，共議朝望一人共之。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "孔循言玨貞明時久在中書，性畏慎而長者，美詞翰，好人物，重誨即奏與任圜並命為相。"
         }
+      ],
+      "notes": [
+        "《旧史》卷58记任圜从蜀归来，安重诲不欲其独相，经孔循荐郑珏后奏请二人并相；本段只补任相过程，不另证明旧事件中的三司职掌、诸将复姓名或具体任命日。"
       ]
     },
     {
@@ -3166,6 +3183,289 @@
         "start": 926,
         "end": 933
       }
+    },
+    {
+      "id": "li-siyuan-allow-zheng-jue-retire-grant-estate",
+      "title": "准郑珏致仕，并赐郑州庄",
+      "summary": "郑珏因年老、疾病和耳疾，四次上章请退。明宗爱惜他，过了很久才准许，授开府仪同三司、行尚书左仆射致仕，并赐郑州庄园一处。",
+      "year": null,
+      "sortOrder": 106,
+      "precision": "undated",
+      "sourceDate": "郑珏与任圜同相后有顷；四上章、久而方允，未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "入相与退休为先后两事，不把五月任相日期移给致仕及赐庄。",
+        "这是左仆射致仕，不与赵光逢前后致仕官衔或李琪授左仆射混并。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "明宗即位，任圜自蜀至，安重誨不欲圜獨拜宰輔，共議朝望一人共之。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "孔循言玨貞明時久在中書，性畏慎而長者，美詞翰，好人物，重誨即奏與任圜並命為相。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "有頃，玨以老病耳疾，不任中書事，四上章請，明宗惜之，久而方允，乃授開府儀同三司，行尚書左僕射致仕，仍賜鄭州莊一區。"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-comfort-zheng-jue-grant-money-sheep",
+      "title": "遣使慰问郑珏，赐钱与食羊",
+      "summary": "明宗从汴州返回洛阳时，派内使慰问已退居的郑珏，赐钱二十万、食羊一百口。",
+      "year": null,
+      "sortOrder": 107,
+      "precision": "undated",
+      "sourceDate": "明宗自汴还洛阳时，未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "钱数原作二十万，不补贯；遣问、赐物未记使者到达确日。",
+        "仅凭汴还洛不能与既有平朱守殷的行程合并，亦不借其他传的还京日期定日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "有頃，玨以老病耳疾，不任中書事，四上章請，明宗惜之，久而方允，乃授開府儀同三司，行尚書左僕射致仕，仍賜鄭州莊一區。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "明宗自汴還洛陽，遣中使撫問，賜錢二十萬，食羊百口。"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-discuss-wei-su-feng-dao-chancellorship",
+      "title": "议相时问对，提出韦肃与冯书记",
+      "summary": "执政议选宰相，明宗询问人选，安重诲以崔协作答。任圜反对后，明宗提出易州刺史韦肃，并说若韦肃不合适，先朝判官冯书记也可为相；本传解释冯书记就是冯道。",
+      "year": null,
+      "sortOrder": 108,
+      "precision": "undated",
+      "sourceDate": "豆卢革、韦说得罪后的选相议论，未独记问对年月。",
+      "phase": "uncertain",
+      "notes": [
+        "提出人选是选相意见，不等于韦肃或冯道当日已经受任。",
+        "没字碑等是任圜的贬语，自谦不知书也不作客观识字能力结论。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "初，豆盧革、韋說得罪，執政議命相，樞密使孔循意不欲河朔人居相位，任圜欲相李琪，而鄭玨素與琪不協，孔循亦惡琪，謂安重誨曰：「李琪非無藝學，但不廉耳。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "重誨然之，因奏擇相。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "明宗曰：「誰可？」乃以協對。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "任圜奏曰：「重誨被人欺賣，如崔協者，少識文字，時人謂之『沒字碑』。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "臣比不知書，無才而進，已為天下笑，何容中書之內，更有笑端！」明宗曰：「易州刺史韋肅，人言名家，待我嘗厚，置於此位何如？肅苟未可，則馮書記是先朝判官，稱為長者，與物無競，可以相矣。」"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "道嘗為莊宗霸府書記，故明宗呼之。"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-ask-feng-dao-about-lu-zhi-drinking",
+      "title": "问冯道卢质饮酒，听其劝戒",
+      "summary": "本卷引《北梦琐言》记明宗问宰相冯道，卢质近日是否饮酒。冯道答称卢质曾到冯道家饮了几杯，并以饮酒过量会生祸患为比，说明处事也应戒过。",
+      "year": null,
+      "sortOrder": 109,
+      "precision": "undated",
+      "sourceDate": "明宗与冯道、崔协在座问答，原引文未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "与冯道既有饮酒问答为同一记载的双方动作，不算又发生一次，也不把本卷引北梦算独立见证。",
+        "卢质先前到冯家饮酒不作明宗问答同日；崔协关于食医心镜的说法不移给冯道。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "〈（《北夢瑣言》：明宗問宰相馮道：「盧質近日吃酒否？」對曰：「質曾到臣居，亦飲數爵，臣勸不令過度，事亦如酒，過則患生。」"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-posthumously-honor-cui-xie",
+      "title": "崔协卒后诏赠左仆射",
+      "summary": "天成四年春，明宗自夷门还京，崔协随驾到须水驿中风而卒。朝廷诏赠崔协尚书左仆射，谥恭靖。",
+      "year": null,
+      "sortOrder": 110,
+      "precision": "undated",
+      "sourceDate": "本传天成四年春驾还京时记崔协卒；诏赠、谥号未另记月日。",
+      "phase": "uncertain",
+      "notes": [
+        "去世是崔协的遭遇，明宗朝的行为是诏赠与赐谥；不补明宗亲在须水执行典礼。",
+        "不将天成四年春混作天成二年平朱守殷行程，亦不从卒的叙次推诏赠确日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "四年春，駕自夷門還京，從至須水驛，中風暴卒。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p10",
+          "originalRevision": 1,
+          "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1",
+          "excerpt": "詔贈尚書左僕射，諡曰恭靖。"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-deny-li-qi-retirement-appoint-zuopushe",
+      "title": "不允李琪请退，授尚书左仆射",
+      "summary": "李琪任御史大夫时曾弹劾安重诲擅杀殿直，但措辞含糊，后来托疾，三次上章请退。朝廷不准，授他尚书左仆射。",
+      "year": null,
+      "sortOrder": 111,
+      "precision": "undated",
+      "sourceDate": "明宗朝李琪为御史大夫后的请老、除授，未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "擅杀马延的施事是安重诲，不改成明宗亲杀；朝旨不允、除授为本条朝廷行为。",
+        "未获请退，不写李琪此时已经致仕；后来的太子太傅致仕另属李琪经历。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "琪時為御史大夫，安重誨於台門前專殺殿直馬延。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "雖曾彈奏，而依違詞旨，不敢正言其罪，以是托疾，三上章請老；朝旨不允，除授尚書左僕射。"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-punish-li-qi-zhending-memorial",
+      "title": "因李琪奏语诏罚一月俸",
+      "summary": "明宗自汴还洛时，李琪奏请至偃师奉迎，奏中写“破真定之逆贼”。诏书指出真定不是逆贼，罚李琪一个月俸禄。",
+      "year": null,
+      "sortOrder": 112,
+      "precision": "undated",
+      "sourceDate": "本传天成末、自汴还洛时，罚俸未独记日。",
+      "phase": "uncertain",
+      "notes": [
+        "只据本卷的诏罚记述，不把请迎写成已经到偃师。",
+        "冯道纠正定州地名的记载另据旧、新传；这是同一争议中不同主体的动作，不能由相关记载补定本次罚俸的西历年。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "天成末，明宗自汴州還洛，琪為東都留司官班首，奏請至偃師奉迎。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "時琪奏中有「敗契丹之凶黨，破真定之逆賊」之言，詔曰：「契丹即為凶黨，真定不是逆賊，李琪罰一月俸。」"
+        }
+      ]
+    },
+    {
+      "id": "li-siyuan-approve-rewriting-huo-yanwei-stele",
+      "title": "准中书请改霍彦威碑文",
+      "summary": "李琪所撰霍彦威神道碑叙述其仕梁经历，没有把梁称为伪朝。中书上奏请求改撰，朝廷下诏准许。",
+      "year": null,
+      "sortOrder": 113,
+      "precision": "undated",
+      "sourceDate": "卷58又尝撰碑的追叙，改撰诏未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "“真伪”是中书奏议中的正统名分用语，反映当时的政治争议。",
+        "秦敕二字语意未明，不补明宗最初奉敕命撰；诏准改撰不证明改稿已经完成。",
+        "本卷只称中书奏请，未点名冯道，不能据此认定由他个人奏驳，或推定他与霍彦威有直接往来。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "又嘗秦敕撰《霍彥威神道碑》文。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "琪，梁之故相也，敘彥威仕梁曆任，不言其偽。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "中書奏曰：「不分真偽，是混功名，望令改撰。」"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p23",
+          "originalRevision": 1,
+          "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702",
+          "excerpt": "詔從之。"
+        }
+      ]
     }
   ]
 }

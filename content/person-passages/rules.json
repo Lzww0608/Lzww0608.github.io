@@ -5660,6 +5660,19 @@
         "bookIds": [],
         "chapterIds": []
       }
+    },
+    {
+      "personId": "zhao-guangfeng",
+      "names": [
+        "趙光逢",
+        "赵光逢"
+      ],
+      "shortNames": [],
+      "titles": [],
+      "excludedPhrases": [],
+      "sourceScope": {
+        "chapterIds": []
+      }
     }
   ],
   "sections": [
@@ -16546,6 +16559,36 @@
       "originalRevision": 1,
       "originalSha256": "4d5fb173facec2cd9a254c3aa2c9d91b48040d4af6121a7b31043a1bcd5f8617",
       "reason": "庄宗只在本卷孙雄谶语后回顾提及；用同段明确mention替代自动事迹record，不以此段作独立确切死亡地点证据。"
+    },
+    {
+      "personId": "liu-zhiyuan",
+      "paragraphId": "old-v058-p13",
+      "terms": [
+        "漢祖"
+      ],
+      "reason": "赋题及汉楚用贤论述，不是后汉刘知远；不由赋题中的裸称归入刘知远记载",
+      "originalRevision": 1,
+      "originalSha256": "bd8369daba6ad510c17afa8abf6db6f2a48e1883e289dae288b1b3036fecb768"
+    },
+    {
+      "personId": "li-cunxu",
+      "paragraphId": "old-v058-p10",
+      "terms": [
+        "莊宗"
+      ],
+      "reason": "本句解释冯道曾任庄宗霸府书记，所述为对庄宗的提及，不将冯道任职解释为庄宗的独立行动",
+      "originalRevision": 1,
+      "originalSha256": "4ffb51a21fc4053c5124dc16e586f3b0eca49668ea0a163b67a1c456634563f1"
+    },
+    {
+      "personId": "huo-yanwei",
+      "paragraphId": "old-v058-p23",
+      "terms": [
+        "霍彥威"
+      ],
+      "reason": "李琪撰碑及其文本争议，霍为碑主、仕梁叙述的间接所指；所述为对霍彦威的提及，不另作他本人的直接事迹",
+      "originalRevision": 1,
+      "originalSha256": "40af07dd328d232ee4846536edce051d29a3bd2f46859da7b02b05d41cbed702"
     }
   ],
   "regnalEdicts": {
@@ -17061,7 +17104,8 @@
         "shiguochunqiu-v037",
         "shiguochunqiu-v043",
         "shiguochunqiu-v046",
-        "shiguochunqiu-v045"
+        "shiguochunqiu-v045",
+        "old-v058"
       ]
     }
   }

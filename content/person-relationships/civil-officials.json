@@ -3245,5 +3245,190 @@
         "excerpt": "末帝即位，詔贈右僕射。"
       }
     ]
+  },
+  {
+    "id": "zhao-yin-tang-zhao-guangfeng-father",
+    "from": "zhao-yin-tang",
+    "to": "zhao-guangfeng",
+    "kind": "kinship",
+    "label": "父子（父隐、子光逢）",
+    "note": "新传、旧传及《通鉴》明记隐为光逢之父。新传记父为唐左仆射，旧传记右仆射，分源保留，不推先后任官。赵隐全名的依据限于《新五代史》卷65后出校勘所引《旧唐书》卷178与《旧五代史》卷58夹注，该本传未另收录；也不与岭南刘隐合并。此边只记父子，不扩祖先、子侄谱系。",
+    "sources": [
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p15",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "父隱，唐左僕射。"
+      },
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p1",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "父隱，右僕射。"
+      },
+      {
+        "chapterId": "tongjian-v266",
+        "paragraphId": "tongjian-v266-p14",
+        "title": "资治通鉴 · 卷 266 · 后梁纪1",
+        "excerpt": "光逢，隱之子也。"
+      },
+      {
+        "chapterId": "new-v65",
+        "paragraphId": "new-v65-p46",
+        "title": "新五代史 · 卷 65 · 南汉世家第五",
+        "excerpt": "按舊唐書卷一七八趙隱傳，隱三子：光逢、光裔、光胤。"
+      },
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p3",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "新舊《唐書》俱云：趙隱子三人，光逢、光裔、光允。"
+      }
+    ]
+  },
+  {
+    "id": "zhao-guangfeng-zhao-guangyi-tang-brothers",
+    "from": "zhao-guangfeng",
+    "to": "zhao-guangyi-tang",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "兄弟（光逢为兄）",
+    "note": "《旧五代史》卷58正文记光逢与弟光裔，《通鉴》亦明称光裔为光逢之弟。只登记光逢为兄、光裔为弟；弟使岭南、被刘隐留下及弟登第诸事不归光逢。《新五代史》卷65光裔／光胤正文与校勘分层保留，不把南汉相关诸事一律移给后唐弟弟，也不扩损、益等子侄谱系。",
+    "sources": [
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p1",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "光逢與弟光裔，皆以文學德行知名。"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p12",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "光裔，光逢之弟；"
+      },
+      {
+        "chapterId": "new-v65",
+        "paragraphId": "new-v65-p46",
+        "title": "新五代史 · 卷 65 · 南汉世家第五",
+        "excerpt": "此處趙光胤顯為趙光裔之誤。據改。"
+      }
+    ]
+  },
+  {
+    "id": "zhao-guangfeng-liu-can-selection-recall",
+    "from": "zhao-guangfeng",
+    "to": "liu-can",
+    "kind": "service",
+    "direction": "undirected",
+    "label": "取中与起用",
+    "note": "《旧五代史》卷58正文称柳璨为门人，夹引《唐摭言》称光化二年赵光逢取中柳璨；新传则记柳璨为相时起用赵光逢为吏部侍郎、太常卿，并说两人有旧恩。两事实施受方向相反，本边以无向“任职与往来”合记，不把柳璨说成赵的主考，也不把旧恩唯一解释为及第。《唐摭言》左丞征入另存，不强合一次官序；不扩长期讲学师徒、亲属或无据亲密关系。",
+    "sources": [
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p1",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "光化二年，趙光逢放柳璨及第"
+      },
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p1",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "門人柳璨登庸，除吏部侍郎、太常卿。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p15",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "柳璨為相，與光逢有舊恩，起光逢為吏部侍郎、太常卿。"
+      },
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p1",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "時璨自內庭大拜，光逢始以左丞征入。"
+      }
+    ]
+  },
+  {
+    "id": "zhao-guangfeng-zhang-quanyi-gold-handover",
+    "from": "zhao-guangfeng",
+    "to": "zhang-quanyi",
+    "kind": "service",
+    "direction": "undirected",
+    "label": "交纳寄金，请付宫观",
+    "note": "仅据《旧五代史》卷58寄金故事：女冠寄金后死于他乡，后金无所归，赵光逢交给河南尹张全义，请付宫观，旧封尚在。所记止于交纳及请求转付，未证明宫观分配已经完成。不是两人私交、隶属或独立可证的品格结论；未名女冠不另造身份，二十年不倒算绝对年月。",
+    "sources": [
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p2",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "嘗有女冠寄黃金一鎰於其室家，時屬亂離，女冠委化於他土。後二十年，金無所歸，納於河南尹張全義，請付諸宮觀，其舊封尚在。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-wen-zhao-guangfeng-chancellorship",
+    "from": "zhu-wen",
+    "to": "zhao-guangfeng",
+    "kind": "service",
+    "direction": "undirected",
+    "label": "太祖朝任相",
+    "note": "太祖朝开平三年九月，编年记赵光逢由太常卿为中书侍郎、同平章事，同次任命中杜晓为户部侍郎，二人官职不混。这里表示太祖朝任职语境，不把每一项任官都写成朱温亲自授官；唐亡事梁不证明入梁即已拜相。会要另署赵撰太祖谥册文，不附全文，也不把太祖卒葬日当撰文日。",
+    "sources": [
+      {
+        "chapterId": "old-v005",
+        "paragraphId": "old-v005-p2",
+        "title": "旧五代史 · 卷 5 · 梁太祖纪5",
+        "excerpt": "乙太常卿趙光逢為中書侍郎、平章事，翰林學士奉旨、工部侍郎、知制誥杜曉為尚書戶部侍郎、平章事。"
+      },
+      {
+        "chapterId": "new-v02",
+        "paragraphId": "new-v02-p31",
+        "title": "新五代史 · 卷 2 · 梁本纪第二",
+        "excerpt": "太常卿趙光逢為中書侍郎、翰林學士承旨工部侍郎杜曉為戶部侍郎：同中書門下平章事。"
+      },
+      {
+        "chapterId": "tongjian-v267",
+        "paragraphId": "tongjian-v267-p72",
+        "title": "资治通鉴 · 卷 267 · 后梁纪2",
+        "excerpt": "以太常卿趙光逢為中書侍郎，翰林奉旨工部侍郎杜曉為戶部侍郎，並同平章事。"
+      },
+      {
+        "chapterId": "huiyao-v001",
+        "paragraphId": "huiyao-v001-p2",
+        "title": "五代会要 · 卷 1",
+        "excerpt": "諡冊文，〈門下侍郎、平章事趙光逢撰。〉"
+      }
+    ]
+  },
+  {
+    "id": "li-siyuan-zhao-guangfeng-retirement-honours",
+    "from": "li-siyuan",
+    "to": "zhao-guangfeng",
+    "kind": "service",
+    "direction": "undirected",
+    "label": "明宗朝致仕荣典",
+    "note": "后唐天成间，赵光逢由司徒致仕改太保致仕、封齐国公。此为明宗朝致仕荣典语境，不是重新任后唐宰相；新传即其家拜太保不等于明宗本人到访。生前太保与卒后赠太傅分开，不合为同日授赠，也不把邻接李绍文卒而废朝移给赵。",
+    "sources": [
+      {
+        "chapterId": "old-v038",
+        "paragraphId": "old-v038-p7",
+        "title": "旧五代史 · 卷 38 · 唐明宗纪四",
+        "excerpt": "乙卯，開府儀同三司、司徒致仕趙光逢可太保致仕，仍封齊國公。"
+      },
+      {
+        "chapterId": "new-v35",
+        "paragraphId": "new-v35-p16",
+        "title": "新五代史 · 卷 35 · 唐六臣传第二十三",
+        "excerpt": "唐天成中，即其家拜太保，封齊國公，卒，贈太傅。"
+      },
+      {
+        "chapterId": "old-v058",
+        "paragraphId": "old-v058-p2",
+        "title": "旧五代史 · 卷 58 · 唐书列传十",
+        "excerpt": "天成初，遷太保致仕，封齊國公，卒於洛陽。詔贈太傅。"
+      }
+    ]
   }
 ]

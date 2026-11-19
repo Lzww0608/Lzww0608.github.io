@@ -3036,6 +3036,13 @@
           "originalRevision": 1,
           "originalSha256": "c4249ba4cf10e67a44178167e005e78ca2d6f359ffd53f11a0ff44ecda25e586",
           "excerpt": "明年三月，唐哀帝遜位于梁，遣中書侍郎、同中書門下平章事張文蔚為冊禮使，禮部尚書蘇循為副；中書侍郎、同中書門下平章事楊涉為押傳國寶使，翰林學士、中書舍人張策為副；御史大夫薛貽矩為押金寶使，尚書左丞趙光逢為副。四月甲子，文蔚等自上源驛奉冊寶，乘輅車，導以金吾仗衞、太常鹵簿，朝梁于金祥殿。王衮冕南面，臣文蔚、臣循奉冊升殿，進讀已，臣涉、臣策奉傳國璽，臣貽矩、臣光逢奉金寶，以次升，進讀已，降，率文武百官北面舞蹈再拜賀。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p15",
+          "originalRevision": 1,
+          "originalSha256": "c13a449d3b17b2a0c913ac3319c781e0ab1984a980d3fe470ad3750e09f292c5",
+          "excerpt": "梁祖受禪，征入，拜翰林學士。）〉"
         }
       ],
       "variants": [
@@ -3064,7 +3071,8 @@
       ],
       "notes": [
         "张文蔚传仅以四月概叙奉禅诏和太祖受命，未给受命日；土运、天命为原传禅代话语，不用来抹去强迫禅位的史家批评或裁定已有干支异说。",
-        "《新史》唐六臣传序另记四月甲子奉册宝、衮冕受朝贺；其前段明年三月是唐帝遣使阶段。各源三月/四月、即位/改元及甲子/戊辰的区别仍分别保留。"
+        "《新史》唐六臣传序另记四月甲子奉册宝、衮冕受朝贺；其前段明年三月是唐帝遣使阶段。各源三月/四月、即位/改元及甲子/戊辰的区别仍分别保留。",
+        "《旧史》卷58所引《北梦琐言》仅概叙梁祖受禅后召李琪，没有独载受禅日；不据此裁定既有甲子即位、戊辰即位或改元的差别。"
       ]
     },
     {
@@ -5691,6 +5699,81 @@
       ],
       "notes": [
         "此段只直接记派遣告哀使，不能单独用作朱全忠下令弑君的证明；未另历核，不补确年日。"
+      ]
+    },
+    {
+      "id": "zhu-wen-appoint-li-ting-summon-li-qi",
+      "title": "任李珽为崇政学士，召李琪掌文翰",
+      "summary": "朱温赏识李珽、李琪兄弟，任李珽为崇政学士。卷58所引《北梦琐言》记梁祖受禅后召李琪入翰林；本传又叙李琪在军帐专掌文书，受到宠遇。",
+      "year": null,
+      "sortOrder": 1002,
+      "precision": "undated",
+      "sourceDate": "李珽任命未独年月；夹引北梦称梁祖受禅后召李琪；军帐掌文翰未独年月。",
+      "phase": "uncertain",
+      "notes": [
+        "兄弟任职分述，不称同日授官；军帐经历为多役总叙，不拆战日。",
+        "《北梦》为本卷明引来源，不算额外独立证人；本事件不重复受禅事件。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p15",
+          "originalRevision": 1,
+          "originalSha256": "c13a449d3b17b2a0c913ac3319c781e0ab1984a980d3fe470ad3750e09f292c5",
+          "excerpt": "琪兄珽，亦登進士第，才藻富贍，兄弟齊名，而尤為梁祖所知，以珽為崇政學士。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p15",
+          "originalRevision": 1,
+          "originalSha256": "c13a449d3b17b2a0c913ac3319c781e0ab1984a980d3fe470ad3750e09f292c5",
+          "excerpt": "梁祖受禪，征入，拜翰林學士。）〉"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p15",
+          "originalRevision": 1,
+          "originalSha256": "c13a449d3b17b2a0c913ac3319c781e0ab1984a980d3fe470ad3750e09f292c5",
+          "excerpt": "梁祖西抗邠、岐，北攻澤、潞，出師燕、趙，經略四方，暫無寧歲，而琪以學士居帳中，專掌文翰，下筆稱旨，寵遇逾倫。"
+        }
+      ]
+    },
+    {
+      "id": "zhu-wen-praise-xiao-qing-on-zhang-jun",
+      "title": "称许萧顷论张浚失仪",
+      "summary": "高劭借朱温的荫庇为儿子求官，张浚迁就办理。萧顷指出张浚在尚书省指挥事务不合旧仪，张浚惭愧致歉，朱温也称许萧顷。",
+      "year": null,
+      "sortOrder": 1003,
+      "precision": "undated",
+      "sourceDate": "萧顷唐末吏部员外郎经历中的先是追叙，称许未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "只记朱温称许，不写朱温亲授高劭之子官职；子名及最终授职未载。",
+        "仆射未集郎官一句训读仍依译注暂释，不扩为确定集议程序。",
+        "“使梁祖荫”的具体语法及求官方式未明，不补朱温亲授、许可或确定的荫制细节；其子姓名与最终所授官职均未记载。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p25",
+          "originalRevision": 1,
+          "originalSha256": "3b84181c9da238e1fc1a56e462a09b8662e17fd8cceae4615a6d53a641b3c87a",
+          "excerpt": "先是，張浚自中書出為右僕射，梁祖判官高劭使梁祖蔭求一子出身官，省寺皆稱無例，浚曲為行之，指揮甚急，吏徒惶恐。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p25",
+          "originalRevision": 1,
+          "originalSha256": "3b84181c9da238e1fc1a56e462a09b8662e17fd8cceae4615a6d53a641b3c87a",
+          "excerpt": "頃判云：「僕射未集郎官，赴省上指揮公事，且非南宮舊儀。」"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p25",
+          "originalRevision": 1,
+          "originalSha256": "3b84181c9da238e1fc1a56e462a09b8662e17fd8cceae4615a6d53a641b3c87a",
+          "excerpt": "浚聞之，慚悚致謝，頃由是知名，梁祖亦獎之。"
+        }
       ]
     }
   ]

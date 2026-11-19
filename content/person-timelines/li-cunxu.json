@@ -854,6 +854,13 @@
           "originalRevision": 1,
           "originalSha256": "abde71f1bd6ce9da6f62d52972c793aa45dfdf39d67a8f497dd03928542652c7",
           "excerpt": "己卯，滅梁。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p3",
+          "originalRevision": 1,
+          "originalSha256": "996de4717ac72e8dfea261e09c2605229ac483527fbb8842066ee8f0e94788d1",
+          "excerpt": "及莊宗平定汴、洛，時盧程以狂妄免，郭崇韜自勳臣拜，議者以為國朝典禮故實，須訪前代名家，咸曰光允有宰相器。"
         }
       ],
       "variants": [
@@ -905,6 +912,9 @@
             }
           ]
         }
+      ],
+      "notes": [
+        "《旧史》卷58概叙庄宗平定汴洛后议相。卢程已免、郭崇韬拜及其后用相叙事均不因这一背景而同定入汴己卯；不以概述改写现有灭梁战程。"
       ]
     },
     {
@@ -970,6 +980,44 @@
       ],
       "notes": [
         "此事是周匝荐举陈俊、储德源，不写成周匝本人受任刺史；各书的评论仍按各自来源阅读。"
+      ]
+    },
+    {
+      "id": "li-cunxu-edict-memorials-after-floods",
+      "title": "水灾财用不足，诏百官上封事",
+      "summary": "同光三年秋，天下大水，国家财用不足，庄宗下诏准百官上封事，陈述治国要务。李琪因此上疏，其中称庄宗忧劳罪己、避正殿而访求治理之策。",
+      "year": 925,
+      "sortOrder": 19,
+      "precision": "year",
+      "sourceDate": "本传同光三年秋；上疏承此，疏内称述未独日。",
+      "phase": "imperial",
+      "notes": [
+        "避殿罪己、访士为李琪奏疏中的称述，不当成另一份独立编年证明。",
+        "正文引疏和后文任国计使是一条文书回应链的不同动作；不将纳粟授官等请求写成实际施政。",
+        "本传记事在秋季，后续奏疏又有春耕之语；两层表述分别保留，不据后者改定诏令季节。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p16",
+          "originalRevision": 1,
+          "originalSha256": "dd270e316deb3d968fdc709ebd8d86de95c11c7cd1779b270ea7c374daca5123",
+          "excerpt": "三年秋，天下大水，國計不充，莊宗詔百僚許上封事，陳經國之要。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p16",
+          "originalRevision": 1,
+          "originalSha256": "dd270e316deb3d968fdc709ebd8d86de95c11c7cd1779b270ea7c374daca5123",
+          "excerpt": "琪因上疏曰："
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p17",
+          "originalRevision": 1,
+          "originalSha256": "7dd3a73ab386f3cda406e5fdd0a4367a5b491aeda51e4bf9cf47edcafde84439",
+          "excerpt": "今陛下以水潦之災，軍食乏闕，焦勞罪己，迫切疚懷，避正殿以責躬，訪多士而求理，則何思而不獲，何議而不臧？止在改而行之，足以擇其善者。"
+        }
       ]
     },
     {
@@ -1651,6 +1699,119 @@
               "excerpt": "初，自代北與明宗俱事武皇，因負罪奔梁；在梁復以罪奔蜀，蜀以蕃人善騎射，因為親將。"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-allow-yang-xilang-petition-zhao-guangyun",
+      "title": "准杨希朗亲见赵光允申诉",
+      "summary": "杨希朗援条令为杨复恭旧业申理，事情交中书后，赵光允以复恭未获本朝昭雪为由质疑。杨希朗哭诉于庄宗，庄宗准他亲自见赵光允说明。",
+      "year": null,
+      "sortOrder": 51,
+      "precision": "undated",
+      "sourceDate": "赵光允本传先是追叙，庄宗朝，准见未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "昭雪理由及杨氏亲属陈词属于当事人主张；未证旧业已返或有最终司法裁定。",
+        "段末同光三年四月是光允卒时，不能倒作本次准见日期。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p5",
+          "originalRevision": 1,
+          "originalSha256": "018357f22d048d6268e178c0c81d35df2d1b04fac4f56f210853f709d50dce5d",
+          "excerpt": "先是，條製：「權豪強買人田宅，或陷害籍沒，顯有屈塞者，許人自理。」"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p5",
+          "originalRevision": 1,
+          "originalSha256": "018357f22d048d6268e178c0c81d35df2d1b04fac4f56f210853f709d50dce5d",
+          "excerpt": "內官楊希朗者，故觀軍容使復恭從孫也，援例理復恭舊業。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p5",
+          "originalRevision": 1,
+          "originalSha256": "018357f22d048d6268e178c0c81d35df2d1b04fac4f56f210853f709d50dce5d",
+          "excerpt": "事下中書，光允謂崇韜曰：「復恭與山南謀逆，顯當國法，本朝未經昭雪，安得論理？」崇韜私抑宦者，因具奏聞。"
+        },
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p5",
+          "originalRevision": 1,
+          "originalSha256": "018357f22d048d6268e178c0c81d35df2d1b04fac4f56f210853f709d50dce5d",
+          "excerpt": "希朗泣訴於莊宗，莊宗令自見光允言之。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-demote-zheng-jue-laizhou-caozhou",
+      "title": "入汴后郑珏被贬授、量移",
+      "summary": "庄宗入汴后，梁相郑珏被贬授莱州司户，不久量移曹州司马。",
+      "year": null,
+      "sortOrder": 52,
+      "precision": "undated",
+      "sourceDate": "庄宗入汴后，责授及未几量移未各自独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "这是庄宗朝对旧梁臣的处置经过，不补两步均由庄宗亲自发令或在入汴当天完成。",
+        "郑珏莱州、曹州与萧顷登州、濮州的处分分开记载，不混人物地点。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p6",
+          "originalRevision": 1,
+          "originalSha256": "8ea493266cc2abdd57edbc9b023db250f51468b443561bc29222ab2bbc124a63",
+          "excerpt": "莊宗入汴，責授萊州司戶，未幾，量移曹州司馬。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-appoint-li-qi-finance-intended-chancellorship",
+      "title": "任李琪为国计使，拟相未果",
+      "summary": "庄宗看重李琪的奏疏，不久命他为国计使。正要委以宰辅时，宫廷发生变乱，任相之议遂止。",
+      "year": null,
+      "sortOrder": 53,
+      "precision": "undated",
+      "sourceDate": "承李琪上疏之后，寻命、垂为、俄遇的相对叙次；未独记任命年月。",
+      "phase": "uncertain",
+      "notes": [
+        "实际任命为国计使；辅相只是将行之议，不写李琪已相庄宗。",
+        "宫廷变乱是任相中止的背景，不称李琪在此遇害，也不把变乱日移作任命日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p22",
+          "originalRevision": 1,
+          "originalSha256": "2c0fe1f50fd5b559665a990e1edf2d7c3068559e4d4ebaf3c0019fe65e08fb3b",
+          "excerpt": "莊宗深重之，尋命為國計使，垂為輔相，俄遇蕭牆之難而止。"
+        }
+      ]
+    },
+    {
+      "id": "li-cunxu-demote-xiao-qing-dengzhou-puzhou",
+      "title": "入汴后萧顷被贬授、量移",
+      "summary": "庄宗进入汴州后，梁相萧顷获罪，被贬为登州司户，后来量移濮州司马。",
+      "year": null,
+      "sortOrder": 54,
+      "precision": "undated",
+      "sourceDate": "庄宗入汴后；贬授与量移未独记年月。",
+      "phase": "uncertain",
+      "notes": [
+        "原文未交代罪由和每步命令的具体发出者，不补皇帝亲令细节；不以初赦梁臣断言以后永无处分。",
+        "不沿入汴己卯为贬授或量移确日，也不把随后数年迁太子宾客写在同日。"
+      ],
+      "evidence": [
+        {
+          "chapterId": "old-v058",
+          "paragraphId": "old-v058-p25",
+          "originalRevision": 1,
+          "originalSha256": "3b84181c9da238e1fc1a56e462a09b8662e17fd8cceae4615a6d53a641b3c87a",
+          "excerpt": "莊宗入汴，頃坐貶登州司戶，量移濮州司馬。"
         }
       ]
     }
