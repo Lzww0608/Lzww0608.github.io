@@ -1980,6 +1980,14 @@
       "name": "潘在迎"
     },
     {
+      "id": "former-shu-xu-yanqiong",
+      "name": "徐延琼"
+    },
+    {
+      "id": "former-shu-yan-gui",
+      "name": "延珪（徐延琼之弟）"
+    },
+    {
       "id": "liu-yu-song",
       "name": "刘裕"
     },
@@ -137586,6 +137594,10 @@
         {
           "personId": "former-shu-wang-chengxiu",
           "kind": "record"
+        },
+        {
+          "personId": "former-shu-xu-yanqiong",
+          "kind": "record"
         }
       ]
     },
@@ -137685,6 +137697,10 @@
         },
         {
           "personId": "former-shu-pan-zaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-xu-yanqiong",
           "kind": "record"
         }
       ]
@@ -140330,6 +140346,10 @@
         {
           "personId": "former-shu-han-zhao",
           "kind": "mention"
+        },
+        {
+          "personId": "former-shu-xu-yanqiong",
+          "kind": "record"
         }
       ]
     },
@@ -140797,6 +140817,14 @@
         },
         {
           "personId": "former-shu-pan-zaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-xu-yanqiong",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-yan-gui",
           "kind": "record"
         }
       ]
@@ -175014,6 +175042,26 @@
       ]
     },
     {
+      "id": "passage-tongjian-v273-p76",
+      "chapterId": "tongjian-v273",
+      "title": "卷 273 · 后唐纪2 · 第 76 段",
+      "spans": [
+        {
+          "paragraphId": "tongjian-v273-p76",
+          "originalRevision": 1,
+          "originalSha256": "82a9541c9fb40640ab9c8e065ca7c621d0e82e167f476eea8ff77acfcb74ba35",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "people": [
+        {
+          "personId": "former-shu-xu-yanqiong",
+          "kind": "record"
+        }
+      ]
+    },
+    {
       "id": "passage-tongjian-v273-p78",
       "chapterId": "tongjian-v273",
       "title": "卷 273 · 后唐纪2 · 第 78 段",
@@ -175853,6 +175901,10 @@
         },
         {
           "personId": "former-shu-pan-zaiying",
+          "kind": "record"
+        },
+        {
+          "personId": "former-shu-xu-yanqiong",
           "kind": "record"
         }
       ]

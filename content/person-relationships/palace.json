@@ -16002,5 +16002,72 @@
         "url": "https://zh.wikisource.org/w/index.php?title=%E4%B9%9D%E5%9C%8B%E5%BF%97%2F%E5%8D%B7%E5%85%AD&oldid=2592883"
       }
     ]
+  },
+  {
+    "id": "former-shu-xu-yanqiong-yan-gui-brothers",
+    "from": "former-shu-xu-yanqiong",
+    "to": "former-shu-yan-gui",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "兄弟（延珪为弟）",
+    "note": "只据本传弟延珪及同加太师，不补共同父母、与太后排行或潘在迎妻父亲身份。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p6",
+        "originalRevision": 1,
+        "originalSha256": "4b380afe3c080e48b85df1ed223c6afba0b955c9e48a0b0028f3eb1dd12e266c",
+        "excerpt": "未幾，與弟延珪皆加太師。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-wang-yan-xu-yanqiong-capital-command",
+    "from": "wang-yan-former-shu",
+    "to": "former-shu-xu-yanqiong",
+    "kind": "service",
+    "label": "任京城内外马步都指挥使",
+    "note": "编年明确为蜀主的任命；只约束925年的掌兵，不把本传全部未定任官都归此日或同一施授者。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v273",
+        "paragraphId": "tongjian-v273-p76",
+        "originalRevision": 1,
+        "originalSha256": "82a9541c9fb40640ab9c8e065ca7c621d0e82e167f476eea8ff77acfcb74ba35",
+        "excerpt": "乙亥，蜀主以前武德節度使兼中書令徐延瓊為京城內外馬步都指揮使。",
+        "title": "卷 273 · 后唐纪2",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7273&oldid=1502848"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-xu-yanqiong-wang-zongbi-bribe",
+    "from": "former-shu-xu-yanqiong",
+    "to": "former-shu-wang-zongbi",
+    "kind": "conflict",
+    "label": "倾财贿宗弼免死",
+    "note": "原文明确列徐延琼等以家财及妓妾贿宗弼免死；不据此造共同私交、任命统属或具体金额。",
+    "sources": [
+      {
+        "chapterId": "tongjian-v274",
+        "paragraphId": "tongjian-v274-p10",
+        "originalRevision": 1,
+        "originalSha256": "021a2331861d53aee35863a475a0a0f7081030360ec7dc938e920aab0e01f949",
+        "excerpt": "內外馬步都指揮使兼中書令徐延瓊、果州團練使潘在迎、嘉州刺史顧在珣及諸貴戚皆惶恐，傾其家金帛妓妾以賂宗弼，僅得免死。",
+        "title": "卷 274 · 后唐纪3",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%2F%E5%8D%B7274&oldid=803285"
+      },
+      {
+        "chapterId": "shiguochunqiu-v046",
+        "paragraphId": "shiguochunqiu-v046-p6",
+        "originalRevision": 1,
+        "originalSha256": "4b380afe3c080e48b85df1ed223c6afba0b955c9e48a0b0028f3eb1dd12e266c",
+        "excerpt": "唐師入境，宗弼徧殺後主諸幸臣，延瓊與潘在迎等用家貲賂宗弼，得免死。",
+        "title": "卷 46 · 前蜀列传（唐道袭、徐瑶、潘在迎等）",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
+      }
+    ]
   }
 ]

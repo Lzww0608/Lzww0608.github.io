@@ -1526,6 +1526,14 @@ for _h127_person, _h127_chapters in _H127_PAN_CHAPTERS.items():
             _h127_spec['subjects'] = list(dict.fromkeys([*_h127_spec['subjects'], _h127_person]))
 
 
+# H128: source-bound Xu Yanqiong family entries, preserving saved originals.
+_H128_FAMILY_CHAPTERS = {'former-shu-xu-yanqiong': ['shiguochunqiu-v037', 'shiguochunqiu-v043', 'shiguochunqiu-v046', 'tongjian-v273', 'tongjian-v274'], 'former-shu-yan-gui': ['shiguochunqiu-v046']}
+for _h128_person, _h128_chapters in _H128_FAMILY_CHAPTERS.items():
+    for _h128_spec in SPECS:
+        if _h128_spec['id'] in _h128_chapters:
+            _h128_spec['subjects'] = list(dict.fromkeys([*_h128_spec['subjects'], _h128_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned

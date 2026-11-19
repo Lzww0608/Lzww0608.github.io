@@ -821,6 +821,27 @@
       ]
     },
     {
+      "personId": "former-shu-xu-yanqiong",
+      "eventCount": 8,
+      "eventIds": [
+        "former-shu-xu-yanqiong-command-capital-forces",
+        "former-shu-xu-yanqiong-ten-zai-critique",
+        "former-shu-xu-yanqiong-bribes-wang-zongbi",
+        "former-shu-xu-yanqiong-guoqi-offices-and-title",
+        "former-shu-xu-yanqiong-added-taishi-with-brother",
+        "former-shu-xu-yanqiong-builds-jinshui-residence",
+        "former-shu-xu-yanqiong-transplants-peony",
+        "former-shu-xu-yanqiong-royal-house-visit-and-meng-character"
+      ]
+    },
+    {
+      "personId": "former-shu-yan-gui",
+      "eventCount": 1,
+      "eventIds": [
+        "former-shu-yan-gui-added-taishi"
+      ]
+    },
+    {
       "personId": "former-shu-yan-zunmei",
       "eventCount": 7,
       "eventIds": [
@@ -1062,7 +1083,7 @@
     },
     {
       "personId": "guo-chongtao",
-      "eventCount": 23,
+      "eventCount": 26,
       "eventIds": [
         "guo-chongtao-companion-meal-dispute",
         "guo-chongtao-shumi",
@@ -1086,7 +1107,10 @@
         "guo-chongtao-altar-reward",
         "guo-chongtao-court-reorganisation",
         "guo-chongtao-shu-command-request",
-        "guo-chongtao-accuse-sikong-ting"
+        "guo-chongtao-accuse-sikong-ting",
+        "guo-chongtao-oppose-xue-tinggui-li-qi-chancellorship",
+        "guo-chongtao-report-yang-xilang-property-petition",
+        "guo-chongtao-hear-zhang-quanyi-on-zheng-jue"
       ]
     },
     {
@@ -2171,7 +2195,7 @@
     },
     {
       "personId": "li-cunxu",
-      "eventCount": 35,
+      "eventCount": 40,
       "eventIds": [
         "li-cunxu-birth",
         "li-cunxu-follow-father",
@@ -2194,6 +2218,7 @@
         "li-cunxu-liang-falls",
         "li-cunxu-arrive-luoyang",
         "li-cunxu-performers-patronage",
+        "li-cunxu-edict-memorials-after-floods",
         "li-cunxu-conquer-shu",
         "li-cunxu-guo-chongtao-killed",
         "li-cunxu-purge-and-hunger",
@@ -2207,7 +2232,11 @@
         "li-cunxu-send-xue-zhaowen-min-investiture",
         "li-cunxu-receive-lu-pin-wu-envoy",
         "li-cunxu-execute-sikong-ting-family",
-        "li-cunxu-an-zhongba-service-source-variant"
+        "li-cunxu-an-zhongba-service-source-variant",
+        "li-cunxu-allow-yang-xilang-petition-zhao-guangyun",
+        "li-cunxu-demote-zheng-jue-laizhou-caozhou",
+        "li-cunxu-appoint-li-qi-finance-intended-chancellorship",
+        "li-cunxu-demote-xiao-qing-dengzhou-puzhou"
       ]
     },
     {
@@ -2437,7 +2466,7 @@
     },
     {
       "personId": "li-siyuan",
-      "eventCount": 106,
+      "eventCount": 114,
       "eventIds": [
         "li-siyuan-birth",
         "li-siyuan-shangyuan",
@@ -2544,7 +2573,15 @@
         "li-siyuan-command-wang-nurture-congyi",
         "li-siyuan-ask-fan-cavalry-cost",
         "li-siyuan-reward-ma-yanchao-son",
-        "li-siyuan-cancel-ye-journey"
+        "li-siyuan-cancel-ye-journey",
+        "li-siyuan-allow-zheng-jue-retire-grant-estate",
+        "li-siyuan-comfort-zheng-jue-grant-money-sheep",
+        "li-siyuan-discuss-wei-su-feng-dao-chancellorship",
+        "li-siyuan-ask-feng-dao-about-lu-zhi-drinking",
+        "li-siyuan-posthumously-honor-cui-xie",
+        "li-siyuan-deny-li-qi-retirement-appoint-zuopushe",
+        "li-siyuan-punish-li-qi-zhending-memorial",
+        "li-siyuan-approve-rewriting-huo-yanwei-stele"
       ]
     },
     {
@@ -4552,7 +4589,7 @@
     },
     {
       "personId": "ren-huan",
-      "eventCount": 18,
+      "eventCount": 19,
       "eventIds": [
         "ren-huan-zhenzhou-surrender",
         "ren-huan-zhending-beijing-office",
@@ -4571,7 +4608,8 @@
         "ren-huan-decline-qiannan",
         "ren-huan-rescue-dou-wei",
         "ren-huan-recommend-li-yu",
-        "ren-huan-qingtai-posthumous-taifu"
+        "ren-huan-qingtai-posthumous-taifu",
+        "ren-huan-recommend-li-qi-oppose-cui-xie"
       ]
     },
     {
@@ -6895,6 +6933,39 @@
       ]
     },
     {
+      "personId": "zhao-guangfeng",
+      "eventCount": 27,
+      "eventIds": [
+        "zhao-guangfeng-gold-seal-deputy-commission",
+        "zhao-guangfeng-present-golden-seal",
+        "zhao-guangfeng-southern-sacrifice-ceremony-reward",
+        "zhao-guangfeng-appointed-zhongshu-chancellor",
+        "zhao-guangfeng-ordered-sacrifice-songyue",
+        "zhao-guangfeng-retire-taizi-taibao",
+        "zhao-guangfeng-recall-sikong-chancellor",
+        "zhao-guangfeng-retire-situ",
+        "zhao-guangfeng-tiancheng-taibao-qi-duke",
+        "zhao-guangfeng-court-suspends-for-death",
+        "zhao-guangfeng-examination-and-duzhi-patrol",
+        "zhao-guangfeng-duzhi-patrol-after-examination",
+        "zhao-guangfeng-tang-secretarial-offices",
+        "zhao-guangfeng-shimen-decline-imperial-summons",
+        "zhao-guangfeng-huazhou-yushi-zhongcheng",
+        "zhao-guangfeng-prosecute-occult-office-seekers",
+        "zhao-guangfeng-appointed-libu-examination-supervisor",
+        "zhao-guangfeng-libu-examinations-liu-can",
+        "zhao-guangfeng-retire-to-yiluo",
+        "zhao-guangfeng-liu-can-recall",
+        "zhao-guangfeng-pushe-finance-office-overview",
+        "zhao-guangfeng-passport-approval-source-dates",
+        "zhao-guangfeng-taizu-posthumous-title-document",
+        "zhao-guangfeng-door-notice-no-zhongshu-affairs",
+        "zhao-guangfeng-entrusted-gold-to-temples",
+        "zhao-guangfeng-death-in-luoyang",
+        "zhao-guangfeng-posthumous-taifu"
+      ]
+    },
+    {
       "personId": "zhao-zaili",
       "eventCount": 9,
       "eventIds": [
@@ -7238,7 +7309,7 @@
     },
     {
       "personId": "zhu-wen",
-      "eventCount": 176,
+      "eventCount": 178,
       "eventIds": [
         "zhu-wen-birth",
         "zhu-wen-east-wei",
@@ -7415,7 +7486,9 @@
         "zhu-wen-donghe-defeat-by-yanyun",
         "zhu-wen-recruit-jing-xiang",
         "zhu-wen-order-du-xiao-feng-xingxi-stele",
-        "zhu-wen-sima-qing-shu-condolence"
+        "zhu-wen-sima-qing-shu-condolence",
+        "zhu-wen-appoint-li-ting-summon-li-qi",
+        "zhu-wen-praise-xiao-qing-on-zhang-jun"
       ]
     },
     {
@@ -7491,7 +7564,7 @@
     },
     {
       "personId": "zhu-youzhen",
-      "eventCount": 59,
+      "eventCount": 60,
       "eventIds": [
         "zhu-youzhen-birth",
         "zhu-youzhen-jun-prince",
@@ -7551,7 +7624,8 @@
         "zhu-youzhen-rename-zhen",
         "zhu-youzhen-commission-wang-jingren-huainan",
         "zhu-youzhen-taizu-records-compilation",
-        "zhu-youzhen-recall-zhao-guangfeng-chancellorship"
+        "zhu-youzhen-recall-zhao-guangfeng-chancellorship",
+        "zhu-youzhen-dismiss-li-qi-chancellor"
       ]
     },
     {
