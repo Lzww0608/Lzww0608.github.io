@@ -1499,6 +1499,14 @@ for _h126_person, _h126_chapters in _H126_HAN_CHAPTERS.items():
             _h126_spec['subjects'] = list(dict.fromkeys([*_h126_spec['subjects'], _h126_person]))
 
 
+# H127: source-bound Pan Zaiying chapter entries; saved original texts stay unchanged.
+_H127_PAN_CHAPTERS = {'former-shu-pan-zaiying': ['jiuguozhi-v006', 'kaoyi-v029', 'new-v63', 'old-v136', 'shiguochunqiu-v037', 'shiguochunqiu-v038', 'shiguochunqiu-v039', 'shiguochunqiu-v041', 'shiguochunqiu-v043', 'shiguochunqiu-v046', 'tongjian-v270', 'tongjian-v272', 'tongjian-v274']}
+for _h127_person, _h127_chapters in _H127_PAN_CHAPTERS.items():
+    for _h127_spec in SPECS:
+        if _h127_spec['id'] in _h127_chapters:
+            _h127_spec['subjects'] = list(dict.fromkeys([*_h127_spec['subjects'], _h127_person]))
+
+
 def main():
     # The physical archive keeps its historical path and all existing IDs.
     # Source-local subjects prevent names in earlier annals from being assigned
