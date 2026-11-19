@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—8帝纪及卷99二凶的完整正文、夹注和校勘记；卷7、8保存来源卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—9帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—9保存来源卷首题署与作者栏，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -11177,7 +11177,8 @@
         "liu-yilong-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "scope": "full",
       "paragraphCount": 142,
@@ -11436,7 +11437,8 @@
         "liu-shao-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "scope": "full",
       "paragraphCount": 140,
@@ -11464,7 +11466,8 @@
         "liu-yilong-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "scope": "full",
       "paragraphCount": 116,
@@ -11480,6 +11483,30 @@
         "sourceSha256": "37deba11f3a735c6e87fdf1304526e7e3486fb89e21e919cb59e1cb9a0f4d022",
         "chapterSha256": "cb6f527e9a3e794ec5ace94efe5243be58833586560d03d796e1a44cc7d3dc23",
         "captureNote": "主页面修订与所保存正文固定；模板及模块等依赖的修订未逐一固定。"
+      }
+    },
+    {
+      "id": "songshu-v009",
+      "bookId": "songshu",
+      "volume": 9,
+      "position": 9,
+      "title": "卷 9 · 后废帝",
+      "subjects": [
+        "liu-yu-houfei-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 89,
+      "characterCount": 6876,
+      "provenance": {
+        "pageTitle": "宋書/卷9",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B79&oldid=2291130",
+        "revisionId": 2291130,
+        "fetchedAt": "2026-11-16T16:32:42.426850+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B79&action=history",
+        "sourceSha256": "df716f96ae69eeec48f8794e1d8c727e179ea913f2498810ef8dd160d3c87611",
+        "chapterSha256": "4d246b8cbaf1abb133d94cd0a4e9a45191f1eb7eccc5f3bd49ab8a38fd783a81"
       }
     }
   ]

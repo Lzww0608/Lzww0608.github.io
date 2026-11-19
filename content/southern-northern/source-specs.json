@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—8帝纪及卷99二凶的完整正文、夹注和校勘记；卷7、8保存来源卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—9帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—9保存来源卷首题署与作者栏，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -179,7 +179,8 @@
         "liu-yilong-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "fixedRevisionId": 2577537,
       "sourceLocalSubjectsOnly": true,
@@ -245,7 +246,8 @@
         "liu-shao-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "fixedRevisionId": 2309997,
       "sourceLocalSubjectsOnly": true,
@@ -269,7 +271,8 @@
         "liu-yilong-song",
         "liu-jun-song",
         "liu-ziye-song",
-        "liu-yu-xiangdong-song"
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
       ],
       "fixedRevisionId": 1561241,
       "sourceLocalSubjectsOnly": true,
@@ -279,6 +282,27 @@
         "headerTitle": "南史",
         "headerSerial": "卷三",
         "headerSubject": "宋本紀下第三"
+      }
+    },
+    {
+      "id": "songshu-v009",
+      "bookId": "songshu",
+      "volume": 9,
+      "position": 9,
+      "title": "卷 9 · 后废帝",
+      "page": "宋書/卷9",
+      "subjects": [
+        "liu-yu-houfei-song"
+      ],
+      "fixedRevisionId": 2291130,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 6876,
+      "minimumBlocks": 89,
+      "sourceHeader": {
+        "headerTitle": "宋書卷九",
+        "headerSerial": "本紀第九",
+        "headerAuthor": "作者：沈約　南梁",
+        "headerSubject": "後廢帝"
       }
     }
   ]

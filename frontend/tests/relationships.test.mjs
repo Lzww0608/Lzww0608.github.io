@@ -160,7 +160,7 @@ test('imperial succession stays distinct from bloodlines and includes the short 
   const successions = personRelationships.filter(edge => edge.kind === 'succession');
   for (const edge of successions) assert.ok(['皇位交接', '君位交接', '兵变代汉', '晋禅宋与封零陵王', '帝位父子相继', '废黜与奉迎继嗣',
     '弑逆后自立（非禅让）', '孝武讨劭取代（非禅让）', '孝武崩后太子子业即位', '子业被杀后，湘东王受奉承统',
-    '明帝崩后，太子昱即位'].includes(edge.label), edge.id);
+    '明帝崩后，太子昱即位', '昱遇害后刘准即位'].includes(edge.label), edge.id);
   for (const [from, to] of [
     ['zhu-wen', 'zhu-yougui'], ['zhu-yougui', 'zhu-youzhen'],
     ['li-cunxu', 'li-siyuan'], ['li-siyuan', 'li-conghou'], ['li-conghou', 'li-congke'],
@@ -182,6 +182,12 @@ test('imperial succession stays distinct from bloodlines and includes the short 
   assert.equal(ziyeSuccession?.to, 'liu-ziye-song');
   assert.ok(ziyeSuccession.sources.some(source => source.paragraphId === 'nanshi-v002-p277' && source.excerpt.includes('其日，太子即皇帝位')));
   assert.ok(personRelationships.some(edge => edge.id === 'liu-shao-xiaowu-son-ziye' && edge.from === 'liu-jun-song' && edge.to === 'liu-ziye-song' && edge.kind === 'kinship'));
+  const afterHoufei = successions.find(edge => edge.id === 'liu-yu-houfei-song-zhun-succession');
+  assert.equal(afterHoufei?.from, 'liu-yu-houfei-song');
+  assert.equal(afterHoufei?.to, 'liu-zhun-song');
+  assert.ok(afterHoufei.sources.some(source => source.paragraphId === 'nanshi-v003-p94' && source.excerpt.includes('蕭道成奉太后令迎王')));
+  assert.ok(afterHoufei.sources.some(source => source.paragraphId === 'nanshi-v003-p95' && source.excerpt.includes('皇帝即位')));
+  assert.equal(personRelationships.some(edge => edge.from === afterHoufei.from && edge.to === afterHoufei.to && edge.kind === 'kinship' && edge.label === '父子'), false);
 });
 
 test('person neighborhoods contain only the selected person and directly documented neighbors', () => {

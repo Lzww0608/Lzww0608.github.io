@@ -17970,7 +17970,7 @@
     "to": "liu-yu-houfei-song",
     "kind": "service",
     "label": "立太子、太子礼制",
-    "note": "立太子、令出东宫及元正衮冕九章服制分别为不同日期层；不借婚礼日填其他礼制日。",
+    "note": "立太子、令出东宫及元正衮冕九章服制分别为不同日期层；不借婚礼日填其他礼制日。 《宋书》卷9另记泰始三年始制太子改名昱，与二年立储、六年出东宫及朝贺服制分层保存，不合为立储当日。",
     "sources": [
       {
         "chapterId": "songshu-v008",
@@ -17987,6 +17987,14 @@
         "originalRevision": 1,
         "originalSha256": "5476b8945da555b2609efd0f6381a7a5533efc713dd5aee8796688bfecf0f5e2",
         "excerpt": "後廢帝諱昱，字德融，明帝長子也。大明七年正月辛丑，生於衛尉府。帝母陳氏，李道兒妾，明帝納之，故人呼帝為李氏子，帝亦自稱李將軍。明帝諸子在孕，皆以周易筮之，即以所得卦為小字，故帝小字慧震。泰始二年，立為皇太子。六年，出東宮。又制太子元正朝賀，服袞冕九章衣。明帝崩，庚子，太子即皇帝位，大赦。尚書令袁粲、護軍將軍褚彥回共輔朝政，班劍依舊入殿。"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "泰始二年，立為皇太子。三年，始制太子改名昱。安車乘象輅。六年，出東宮。又制太子元正朝賀，服袞冕九章衣。",
+        "title": "《宋书》卷 9 · 后废帝"
       }
     ]
   },
@@ -19069,6 +19077,3089 @@
         "originalRevision": 1,
         "originalSha256": "0a0431e3f9e174fc6844b5ee03c75e7ff62a848c87f277e7e19d4f9e7fdfb5e9",
         "excerpt": "巴陵哀王休若，文帝第十九子也。孝建三年，年九歲，封巴陵王。明帝即位，出為會稽太守，加都督。二年，遷都督、雍州刺史、甯蠻校尉。前在會稽錄事參軍陳郡謝沈以諂側事休若，多受財賂。時內外戒嚴並褲褶，沈居母喪被起，聲樂酣飲，不異吉人。衣冠既無殊異，並不知沈居喪。沈嘗自稱孤子，眾乃駭愕。休若坐與沈褻黷，降號鎮西將軍。典簽夏寶期事休若無禮，啟明帝殺之。慮不許，啟未報，於獄行刑。信反令鎖送，而寶期已死。上怒敕之曰：「孝建之世，汝何敢爾。」使其母羅加杖三百。"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-chen-taifei",
+    "from": "liu-yu-houfei-song",
+    "to": "song-liu-yu-xiangdong-consort-chen-yu",
+    "kind": "service",
+    "label": "尊生母为皇太妃",
+    "note": "与已有母子边分别保存；此处为后废帝生母陈贵妃的尊封，与顺帝尊陈昭华之事分开；二陈的自然身份同异仍未定。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p10",
+        "originalRevision": 1,
+        "originalSha256": "eccd5b47b1482684af798f0725e0c5b680d8e2e8428c9aa480c426611512c9b3",
+        "excerpt": "秋七月戊辰，崇拜帝所生陳貴妃為皇太妃。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-wang-dowager",
+    "from": "liu-yu-houfei-song",
+    "to": "song-liu-yu-xiangdong-consort-wang",
+    "kind": "service",
+    "label": "尊先帝皇后为皇太后",
+    "note": "尊的是明帝皇后；与刘昱生母皇太妃分开，不补作生母或实际养育者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p9",
+        "originalRevision": 1,
+        "originalSha256": "c19f5e8d85bb90e7074d802e1c48ba20979ef86feedaa05f35a42278a2d0a345",
+        "excerpt": "乙巳，尊皇后曰皇太后，立皇后江氏。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-wang-order",
+    "from": "song-liu-yu-xiangdong-consort-wang",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "太后令谴责并称谋鸩",
+    "note": "这是令书对刘昱行为及谋害太后与生母的指控，保留言说归属，不改为无保留的已实行毒杀。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p69",
+        "originalRevision": 1,
+        "originalSha256": "1c09a93e66e1c1eb1626d68ea13e1eadf07f2dd6bd9ba3236b08b3e668fa46fb",
+        "excerpt": "己丑，皇太后令曰：",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p70",
+        "originalRevision": 1,
+        "originalSha256": "158d9f6e78658f2dc969a551255a52d6ea1c849d09c0b46a11044a4f5c20a6db",
+        "excerpt": "吾與其所生每厲以義方，遂謀酖毒，將騁凶忿。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p71",
+        "originalRevision": 1,
+        "originalSha256": "06ee9f99052b5b82fd289f643fa0efbb08548e1b2308d4dad462a17d46bbcddc",
+        "excerpt": "故密令蕭領軍潛運明略，幽顯協規，普天同泰。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-wang-cangwu",
+    "from": "song-liu-yu-xiangdong-consort-wang",
+    "to": "liu-yu-houfei-song",
+    "kind": "service",
+    "label": "死后苍梧郡王之号",
+    "note": "《宋书》太后第二令为特追封，《南史》己丑条作贬为；不写为生前先废为王后被杀，第二令未独书日。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p72",
+        "originalRevision": 1,
+        "originalSha256": "656715b6365748e7aeef35d2a4527d981f378dfeec1bed5fcc65f0e4eab63bb2",
+        "excerpt": "可特追封蒼梧郡王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p91",
+        "originalRevision": 1,
+        "originalSha256": "797e4a06965d57717b23bf63f397bd5123b7f76e1a2f6396a1bfd2e08e484265",
+        "excerpt": "己丑，皇太后令貶帝為蒼梧郡王",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-jiang-marriage",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-consort-jiang",
+    "kind": "kinship",
+    "label": "夫妻（江皇后）",
+    "note": "仅据册后所明的配偶身份，不补未核名讳；不把卷8失名太子妃自动归为此人。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p9",
+        "originalRevision": 1,
+        "originalSha256": "c19f5e8d85bb90e7074d802e1c48ba20979ef86feedaa05f35a42278a2d0a345",
+        "excerpt": "乙巳，尊皇后曰皇太后，立皇后江氏。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-jiang-investiture",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-consort-jiang",
+    "kind": "service",
+    "label": "立江氏为皇后",
+    "note": "六月乙巳的册后与配偶身份为不同事实；同姓其他江氏的自然身份同异未定，不补名讳或强合未名太子妃。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p9",
+        "originalRevision": 1,
+        "originalSha256": "c19f5e8d85bb90e7074d802e1c48ba20979ef86feedaa05f35a42278a2d0a345",
+        "excerpt": "乙巳，尊皇后曰皇太后，立皇后江氏。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-unnamed-princess-marriage",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-crown-prince-consort-unnamed",
+    "kind": "kinship",
+    "label": "太子纳妃（所纳者失名）",
+    "note": "这是泰始六年婚礼的来源角色，是否即后来江皇后未明；不得计为已确定的第二位自然配偶。",
+    "sources": [
+      {
+        "chapterId": "songshu-v008",
+        "paragraphId": "songshu-v008-p68",
+        "originalRevision": 1,
+        "originalSha256": "71146d8c8ab1f6cb254870d3f479507390db0c6a55c4c5cc9ca510a19f55ffa1",
+        "excerpt": "癸丑，皇太子納妃。",
+        "title": "《宋书》卷 8 · 明帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-6",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zhun-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-7",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-faliang-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-8",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-mingdi-son-four-unnamed",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝第四皇子早夭未名，沿已有来源角色，不是新增已确认的独立自然身份，也不补名或封号。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-9",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zhijing-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-10",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xie-jinxi-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-11",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-you-shaoling-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-12",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-ji-jiangxia-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-13",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zan-wuling-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-14",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-hui-suiyang-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-15",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-song-xinxing-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-brother-16",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xi-shijian-song",
+    "kind": "kinship",
+    "label": "兄弟（明帝诸子）",
+    "note": "明帝诸子谱明列刘昱及诸弟；同父兄弟不等于同母，亦不代替具体出继、授封事实。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p132",
+        "originalRevision": 1,
+        "originalSha256": "adcbeb075b516120dc0d72f03b73abcc4a94b2f78bc2f936cf11dae41895a3f9",
+        "excerpt": "明帝十二男：陳貴妃生後廢帝。謝修儀生皇子法良。陳昭華生順帝。徐婕妤生第四皇子。鄭修容生皇子智井。次晉熙王燮與皇子法良同生。泉美人生邵陵殤王友；次江夏王躋與第四皇子同生。徐良人生武陵王贊。杜修華生隨陽王翽。次新興王嵩與武陵王贊同生。又泉美人生始建王禧。智井、燮、躋、贊並出繼。法良未封。第四皇子未有名，早夭。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p5",
+        "originalRevision": 1,
+        "originalSha256": "bdd6529e09a221e149e2d6249e46d1506a056419bcf77eaae9e517ee764d2acd",
+        "excerpt": "明帝長子也。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-zhun-succession",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zhun-song",
+    "kind": "succession",
+    "label": "昱遇害后刘准即位",
+    "note": "刘昱死后，萧道成奉太后令迎安成王准，准继位；不是刘昱生前自愿禅让，也不是昱禅位于萧道成。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p94",
+        "originalRevision": 1,
+        "originalSha256": "b747bf7f26ab63ca261782a26240a52dbaeb88a1f267dd68e8d63c83f32d6836",
+        "excerpt": "及廢帝殞，蕭道成奉太后令迎王入居朝堂。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p95",
+        "originalRevision": 1,
+        "originalSha256": "f8ddf2d76d0335e44b0bc2e8b8bc10b8fd2eac0b770b89f7e55699c80df8521e",
+        "excerpt": "皇帝即位，大赦，改元徽五年為升明元年。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-6",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zhun-song",
+    "kind": "service",
+    "label": "授扬州、进车骑及骠骑军号",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p7",
+        "originalRevision": 1,
+        "originalSha256": "bac24e7c3aacb5f49e3808d3122aea366332d7b57f5d797fd4c2fae0413e9519",
+        "excerpt": "乙巳，以護軍將軍張永為右光祿大夫，撫軍將軍安成王為揚州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p37",
+        "originalRevision": 1,
+        "originalSha256": "85b0e51f764f3b4aaa19d2e48928e2440bb355facaaadcf51cd1b92326982cf9",
+        "excerpt": "丁酉，以尚書令、新除衞將軍袁粲為中書監，即本號開府儀同三司，領司徒，加護軍將軍褚淵尚書令，撫軍將軍、揚州刺史安成王進號車騎將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p62",
+        "originalRevision": 1,
+        "originalSha256": "c1dd243ee22ad645c039a912b9a8cbb3eb92ee8cb70732f3e5309a6c848346c6",
+        "excerpt": "己丑，車騎將軍、揚州刺史安成王進號驃騎大將軍、開府儀同三司，安西將軍、郢州刺史晉熙王燮進號鎮西將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-10",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xie-jinxi-song",
+    "kind": "service",
+    "label": "授郢州刺史、进安西与镇西军号",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p18",
+        "originalRevision": 1,
+        "originalSha256": "43a52a9c46494107d239183289de2fde3f7ed412e040ccae863603d4c5c23097",
+        "excerpt": "二月乙亥，以晉熙王燮為郢州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p35",
+        "originalRevision": 1,
+        "originalSha256": "192c0f70af682fea1aececd186e5314c93501122df92f3758761178ee072caa1",
+        "excerpt": "征虜將軍、郢州刺史晉熙王燮進號安西將軍，前將軍、湘州刺史王僧虔進號平南將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p62",
+        "originalRevision": 1,
+        "originalSha256": "c1dd243ee22ad645c039a912b9a8cbb3eb92ee8cb70732f3e5309a6c848346c6",
+        "excerpt": "己丑，車騎將軍、揚州刺史安成王進號驃騎大將軍、開府儀同三司，安西將軍、郢州刺史晉熙王燮進號鎮西將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-11",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-you-shaoling-song",
+    "kind": "service",
+    "label": "授江州刺史、封邵陵王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "己亥，以第七皇弟友為江州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p35",
+        "originalRevision": 1,
+        "originalSha256": "192c0f70af682fea1aececd186e5314c93501122df92f3758761178ee072caa1",
+        "excerpt": "秋七月庚辰，立第七皇弟友為邵陵王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-12",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-ji-jiangxia-song",
+    "kind": "service",
+    "label": "封江夏王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p40",
+        "originalRevision": 1,
+        "originalSha256": "d9f56ec2e782ee5b103f41eaa85b792abe48c63e362341e673c31f37fc368409",
+        "excerpt": "十二月癸亥，立第八皇弟躋為江夏王，第九皇弟贊為武陵王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-13",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zan-wuling-song",
+    "kind": "service",
+    "label": "本朝本纪记封武陵王、授南徐州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。 两朝本纪都记刘赞封武陵王，分别为明帝泰始六年十月辛卯与后废帝元徽二年十二月癸亥；宗室传又将奉孝武为子、封王系于明帝。保留各处叙法，不擅说成两次确定的初封或重封，也不把封王日移作出继日。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p40",
+        "originalRevision": 1,
+        "originalSha256": "d9f56ec2e782ee5b103f41eaa85b792abe48c63e362341e673c31f37fc368409",
+        "excerpt": "十二月癸亥，立第八皇弟躋為江夏王，第九皇弟贊為武陵王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "辛丑，以武陵王贊為南徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v008",
+        "paragraphId": "songshu-v008-p75",
+        "originalRevision": 1,
+        "originalSha256": "826e2b6afe5e39d75eebb1542f1575681485c4706b897a78d6bef16ddf33ea43",
+        "excerpt": "冬十月辛卯，立第九皇子贊為武陵王。",
+        "title": "《宋书》卷 8 · 明帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p49",
+        "originalRevision": 1,
+        "originalSha256": "09ef2615093d30456e75ee7cfdbebce1b7f3ed266978e7f8ed81e3114eee87d2",
+        "excerpt": "冬十月辛卯，立皇子贊為武陵王。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      },
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p130",
+        "originalRevision": 1,
+        "originalSha256": "9326064d587c7c182a929e44655f7e2234acbe9b83994b4e5599f5f23a863024",
+        "excerpt": "武陵王贊字仲敷，小字智隨，明帝第九子也。明帝既誅孝武諸子，詔以智隨奉孝武為子，封武陵郡王。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-14",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-hui-suiyang-song",
+    "kind": "service",
+    "label": "封南阳王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p61",
+        "originalRevision": 1,
+        "originalSha256": "a21beecca6a1660e26b4880f828963b96293ee6ec154394c8bc23668935b82ae",
+        "excerpt": "八月丁卯，立第十皇弟翽為南陽王，第十一皇弟嵩為新興王，第十二皇弟禧為始建王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-15",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-song-xinxing-song",
+    "kind": "service",
+    "label": "封新兴王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p61",
+        "originalRevision": 1,
+        "originalSha256": "a21beecca6a1660e26b4880f828963b96293ee6ec154394c8bc23668935b82ae",
+        "excerpt": "八月丁卯，立第十皇弟翽為南陽王，第十一皇弟嵩為新興王，第十二皇弟禧為始建王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-16",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xi-shijian-song",
+    "kind": "service",
+    "label": "封始建王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p61",
+        "originalRevision": 1,
+        "originalSha256": "a21beecca6a1660e26b4880f828963b96293ee6ec154394c8bc23668935b82ae",
+        "excerpt": "八月丁卯，立第十皇弟翽為南陽王，第十一皇弟嵩為新興王，第十二皇弟禧為始建王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-17",
+    "from": "liu-yu-houfei-song",
+    "to": "yuan-can-song",
+    "kind": "service",
+    "label": "共同辅政、授中书监领司徒及尚书令",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p7",
+        "originalRevision": 1,
+        "originalSha256": "bac24e7c3aacb5f49e3808d3122aea366332d7b57f5d797fd4c2fae0413e9519",
+        "excerpt": "尚書令袁粲、護軍將軍褚淵共輔朝政。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p27",
+        "originalRevision": 1,
+        "originalSha256": "ea2f374f6d00dd919dac735490050f822029e4ccd45b63320a0bf03c429c509e",
+        "excerpt": "乙巳，司空、江州刺史桂陽王休範進位太尉，尚書令袁粲還攝本任，加號衞將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p37",
+        "originalRevision": 1,
+        "originalSha256": "85b0e51f764f3b4aaa19d2e48928e2440bb355facaaadcf51cd1b92326982cf9",
+        "excerpt": "丁酉，以尚書令、新除衞將軍袁粲為中書監，即本號開府儀同三司，領司徒，加護軍將軍褚淵尚書令，撫軍將軍、揚州刺史安成王進號車騎將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p47",
+        "originalRevision": 1,
+        "originalSha256": "f9b6c2c3e05cfbfcebfc7e4ae5fb781229d635e23b67de395670ea135dac0cfa",
+        "excerpt": "秋七月庚戌，以粲為尚書令。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-18",
+    "from": "liu-yu-houfei-song",
+    "to": "chu-yuan-song",
+    "kind": "service",
+    "label": "共同辅政、授尚书令及中书监",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p7",
+        "originalRevision": 1,
+        "originalSha256": "bac24e7c3aacb5f49e3808d3122aea366332d7b57f5d797fd4c2fae0413e9519",
+        "excerpt": "尚書令袁粲、護軍將軍褚淵共輔朝政。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "3531303fc009005839913f90f70c22ee9895f23631e2dc1f0936ca3e74308dc5",
+        "excerpt": "辛丑，護軍將軍褚淵還攝本任。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p30",
+        "originalRevision": 1,
+        "originalSha256": "cf1a15a95122608a024ae9bae6dde43837bf91abdc38f14578e859e2c003e96e",
+        "excerpt": "二月己巳，加護軍將軍褚淵中軍將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p37",
+        "originalRevision": 1,
+        "originalSha256": "85b0e51f764f3b4aaa19d2e48928e2440bb355facaaadcf51cd1b92326982cf9",
+        "excerpt": "丁酉，以尚書令、新除衞將軍袁粲為中書監，即本號開府儀同三司，領司徒，加護軍將軍褚淵尚書令，撫軍將軍、揚州刺史安成王進號車騎將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p48",
+        "originalRevision": 1,
+        "originalSha256": "c9467475b9c99e2a280f2763045deb8d1e531a95eb31bb4c829f8c058a9c00e5",
+        "excerpt": "八月庚子，[9]加護軍將軍褚淵中書監。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p63",
+        "originalRevision": 1,
+        "originalSha256": "1209bd7509855c2b96b49bdc7606fe70e3a885ab7cdc6b0273b64abd31d98a5f",
+        "excerpt": "丙寅，中書監、護軍將軍褚淵母憂去職。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p63",
+        "originalRevision": 1,
+        "originalSha256": "1209bd7509855c2b96b49bdc7606fe70e3a885ab7cdc6b0273b64abd31d98a5f",
+        "excerpt": "十一月庚戌，詔攝本任。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-19",
+    "from": "liu-yu-houfei-song",
+    "to": "zhang-yong-song",
+    "kind": "service",
+    "label": "授右光禄、征北将军与南兖州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p7",
+        "originalRevision": 1,
+        "originalSha256": "bac24e7c3aacb5f49e3808d3122aea366332d7b57f5d797fd4c2fae0413e9519",
+        "excerpt": "乙巳，以護軍將軍張永為右光祿大夫，撫軍將軍安成王為揚州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p29",
+        "originalRevision": 1,
+        "originalSha256": "037a4752f431179992f4c9aaa89b8426dbf22c4dfaf86a52fb7354ef0ff729df",
+        "excerpt": "二年春正月庚子，以右光祿大夫張永為征北將軍、南兗州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-20",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-zunkao-song",
+    "kind": "service",
+    "label": "改授左光禄大夫",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p7",
+        "originalRevision": 1,
+        "originalSha256": "bac24e7c3aacb5f49e3808d3122aea366332d7b57f5d797fd4c2fae0413e9519",
+        "excerpt": "己酉，特進、右光祿大夫劉遵考改為左光祿大夫。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-21",
+    "from": "liu-yu-houfei-song",
+    "to": "zhang-dai-song",
+    "kind": "service",
+    "label": "授益州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p8",
+        "originalRevision": 1,
+        "originalSha256": "770ef4e30f86dd0dbdd4f06403fc2fe9912db899a48d29575e61f381279d0284",
+        "excerpt": "五月丁巳，以吳興太守張岱為益州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-22",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-bing-song",
+    "kind": "service",
+    "label": "转授郢州刺史、尚书左仆射",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p11",
+        "originalRevision": 1,
+        "originalSha256": "8800afd6104c57f31de45ad40c01f40189298d528a3cc037b13669f14645c40e",
+        "excerpt": "甲辰，以新除征西將軍、開府儀同三司、荊州刺史蔡興宗為中書監、光祿大夫，安西將軍、郢州刺史沈攸之為鎮西將軍、荊州刺史，南徐州刺史劉秉為平西將軍、郢州刺史，新除太常建平王景素為鎮軍將軍、南徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p14",
+        "originalRevision": 1,
+        "originalSha256": "3531303fc009005839913f90f70c22ee9895f23631e2dc1f0936ca3e74308dc5",
+        "excerpt": "十一月己亥，新除平西將軍、郢州刺史劉秉為尚書左僕射。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-23",
+    "from": "liu-yu-houfei-song",
+    "to": "cai-xingzong-song",
+    "kind": "service",
+    "label": "改授中书监、光禄大夫",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p11",
+        "originalRevision": 1,
+        "originalSha256": "8800afd6104c57f31de45ad40c01f40189298d528a3cc037b13669f14645c40e",
+        "excerpt": "甲辰，以新除征西將軍、開府儀同三司、荊州刺史蔡興宗為中書監、光祿大夫，安西將軍、郢州刺史沈攸之為鎮西將軍、荊州刺史，南徐州刺史劉秉為平西將軍、郢州刺史，新除太常建平王景素為鎮軍將軍、南徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-24",
+    "from": "liu-yu-houfei-song",
+    "to": "shen-youzhi-song",
+    "kind": "service",
+    "label": "转荆州、进征西大将军",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p11",
+        "originalRevision": 1,
+        "originalSha256": "8800afd6104c57f31de45ad40c01f40189298d528a3cc037b13669f14645c40e",
+        "excerpt": "甲辰，以新除征西將軍、開府儀同三司、荊州刺史蔡興宗為中書監、光祿大夫，安西將軍、郢州刺史沈攸之為鎮西將軍、荊州刺史，南徐州刺史劉秉為平西將軍、郢州刺史，新除太常建平王景素為鎮軍將軍、南徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p35",
+        "originalRevision": 1,
+        "originalSha256": "192c0f70af682fea1aececd186e5314c93501122df92f3758761178ee072caa1",
+        "excerpt": "乙酉，鎮西將軍、荊州刺史沈攸之進號征西大將軍，鎮北將軍、南徐州刺史建平王景素進號征北將軍，[7]並開府儀同三司。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-25",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-jingsu-song",
+    "kind": "service",
+    "label": "授南徐州、进镇北与征北军号",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p11",
+        "originalRevision": 1,
+        "originalSha256": "8800afd6104c57f31de45ad40c01f40189298d528a3cc037b13669f14645c40e",
+        "excerpt": "甲辰，以新除征西將軍、開府儀同三司、荊州刺史蔡興宗為中書監、光祿大夫，安西將軍、郢州刺史沈攸之為鎮西將軍、荊州刺史，南徐州刺史劉秉為平西將軍、郢州刺史，新除太常建平王景素為鎮軍將軍、南徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p23",
+        "originalRevision": 1,
+        "originalSha256": "25256a3baecf6efaf8ad12c435f28146db5f3b611ffb4e0943634291f28280bf",
+        "excerpt": "癸亥，鎮軍將軍、南徐州刺史建平王景素進號鎮北將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p35",
+        "originalRevision": 1,
+        "originalSha256": "192c0f70af682fea1aececd186e5314c93501122df92f3758761178ee072caa1",
+        "excerpt": "乙酉，鎮西將軍、荊州刺史沈攸之進號征西大將軍，鎮北將軍、南徐州刺史建平王景素進號征北將軍，[7]並開府儀同三司。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-26",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-yun-song",
+    "kind": "service",
+    "label": "因罪免官",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p13",
+        "originalRevision": 1,
+        "originalSha256": "e3628d0063bfc3be43e84758d75c4a4ff6c0a181a31e0d372dc5da1404aebea7",
+        "excerpt": "冬十月辛卯，[1]撫軍將軍劉韞有罪免官。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-28",
+    "from": "liu-yu-houfei-song",
+    "to": "he-hui-song",
+    "kind": "service",
+    "label": "授广州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "b8d8fed635177e2b779a5ad1e8e90199e96be6102fa8e3aad1bad572285488bb",
+        "excerpt": "三月丙申，以撫軍長史何恢為廣州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-29",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-liu-lingyi-nanyu",
+    "kind": "service",
+    "label": "授南豫州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p19",
+        "originalRevision": 1,
+        "originalSha256": "b8d8fed635177e2b779a5ad1e8e90199e96be6102fa8e3aad1bad572285488bb",
+        "excerpt": "戊戌，以前淮南太守劉靈遺為南豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-30",
+    "from": "liu-yu-houfei-song",
+    "to": "li-anmin-song",
+    "kind": "service",
+    "label": "授司州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p20",
+        "originalRevision": 1,
+        "originalSha256": "4442801c09a17e278ce223b266357f978b73100e88f88e28d2f21c4df81584b3",
+        "excerpt": "夏五月辛卯，以輔師將軍李安民為司州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-32",
+    "from": "liu-yu-houfei-song",
+    "to": "chen-boshao-song",
+    "kind": "service",
+    "label": "交越二州授受有异说",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。 正文越州转交州与校者引书主张交州转越州分源保留，不拼成两次任命。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p21",
+        "originalRevision": 1,
+        "originalSha256": "a8e10202be1a1b5afd2e22a2d63006e8628fa98f9c69e8b68593b459c35d76de",
+        "excerpt": "六月壬子，以越州刺史陳伯紹為交州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p79",
+        "originalRevision": 1,
+        "originalSha256": "03d7a9b7cf9c23f03e5d43870eaa1bfce2ebe23339c809fb82a1c4f164aec273",
+        "excerpt": "南齊書州郡志云，元徽二年，陳伯紹為越州刺史，當即指此。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p79",
+        "originalRevision": 1,
+        "originalSha256": "03d7a9b7cf9c23f03e5d43870eaa1bfce2ebe23339c809fb82a1c4f164aec273",
+        "excerpt": "此當是以交州刺史陳伯紹為越州刺史，刻譌互倒。」",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-33",
+    "from": "liu-yu-houfei-song",
+    "to": "meng-ciyang-song",
+    "kind": "service",
+    "label": "授兖州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p21",
+        "originalRevision": 1,
+        "originalSha256": "a8e10202be1a1b5afd2e22a2d63006e8628fa98f9c69e8b68593b459c35d76de",
+        "excerpt": "丙寅，以左軍將軍孟次陽為兗州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-34",
+    "from": "gu-changkang-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "service",
+    "label": "表上《谏林》",
+    "note": "本朝受奏记载；所撰者为上表官员，不写刘昱本人撰书或已经实行书中全部意见。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p22",
+        "originalRevision": 1,
+        "originalSha256": "397bd19eb3e0e352bec80a7584f55931bb200a203f67ea46ff91e7167d6222c4",
+        "excerpt": "秋七月丁丑，散騎常侍顧長康、長水校尉何翌之表上所撰諫林，上自虞、舜，下及晉武，凡十二卷。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-35",
+    "from": "he-yizhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "service",
+    "label": "表上《谏林》",
+    "note": "本朝受奏记载；所撰者为上表官员，不写刘昱本人撰书或已经实行书中全部意见。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p22",
+        "originalRevision": 1,
+        "originalSha256": "397bd19eb3e0e352bec80a7584f55931bb200a203f67ea46ff91e7167d6222c4",
+        "excerpt": "秋七月丁丑，散騎常侍顧長康、長水校尉何翌之表上所撰諫林，上自虞、舜，下及晉武，凡十二卷。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-36",
+    "from": "wang-jian-song-minister",
+    "to": "liu-yu-houfei-song",
+    "kind": "service",
+    "label": "表上《七志》",
+    "note": "本朝受奏记载；所撰者为上表官员，不写刘昱本人撰书或已经实行书中全部意见。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p23",
+        "originalRevision": 1,
+        "originalSha256": "25256a3baecf6efaf8ad12c435f28146db5f3b611ffb4e0943634291f28280bf",
+        "excerpt": "祕書丞王儉表上所撰七志三十卷。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-39",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-boyu-nanping-song",
+    "kind": "service",
+    "label": "立为南平王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p24",
+        "originalRevision": 1,
+        "originalSha256": "afbedd27f475378355665e0cbfaacd4536836fe084055803551cdaa6bca7b955",
+        "excerpt": "丁亥，立衡陽王嶷子伯玉為南平王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-40",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-wang-xuanzai-appointments",
+    "kind": "service",
+    "label": "授梁南秦、后转益州",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p25",
+        "originalRevision": 1,
+        "originalSha256": "ea4bbfae4d635694dee8d63811e3fcd8d34acb8fb34d363db3d0a0a4ee7f383e",
+        "excerpt": "冬十月壬子，以撫軍司馬王玄載為梁、南秦二州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p53",
+        "originalRevision": 1,
+        "originalSha256": "7714b7aeba445625617acd0491b12cae3b774ded08361e3a94621e28edf74aa3",
+        "excerpt": "壬子，以梁、南秦二州刺史王玄載為益州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-41",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-yuan-hong-xuzhou",
+    "kind": "service",
+    "label": "授徐州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p26",
+        "originalRevision": 1,
+        "originalSha256": "73c2eb1a59123935b6a20843ee66f4d3ed40d6e13c084d7ffc62619201e1d7ae",
+        "excerpt": "十一月丙子，以散騎常侍垣閎為徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-42",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xiufan-song",
+    "kind": "service",
+    "label": "进位太尉",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p27",
+        "originalRevision": 1,
+        "originalSha256": "ea2f374f6d00dd919dac735490050f822029e4ccd45b63320a0bf03c429c509e",
+        "excerpt": "乙巳，司空、江州刺史桂陽王休範進位太尉，尚書令袁粲還攝本任，加號衞將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-43",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-borong-song",
+    "kind": "service",
+    "label": "立为始安县王",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p27",
+        "originalRevision": 1,
+        "originalSha256": "ea2f374f6d00dd919dac735490050f822029e4ccd45b63320a0bf03c429c509e",
+        "excerpt": "癸亥，立前建安王世子伯融為始安縣王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-44",
+    "from": "liu-yu-houfei-song",
+    "to": "wang-kuan-song",
+    "kind": "service",
+    "label": "授南豫州、进平西将军",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p31",
+        "originalRevision": 1,
+        "originalSha256": "478f8a923a75ed913f7c3e86ee2940a13e8a5a6519a22ab0579304c0c2839547",
+        "excerpt": "三月癸酉，以左衞將軍王寬為南豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p34",
+        "originalRevision": 1,
+        "originalSha256": "b11159996d5eef67cd758aa85154512806101eed19272a877bdedb69fc3fdfcb",
+        "excerpt": "戊申，以淮南太守任農夫為豫州刺史，右將軍、南豫州刺史王寬進號平西將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-45",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-mian-song",
+    "kind": "service",
+    "label": "加镇军将军、为南讨前锋",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "加中領軍劉勔鎮軍將軍，加右衞將軍齊王平南將軍，前鋒南討，出屯新亭。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "賊黨杜黑蠡、丁文豪分軍向朱雀航，[4]劉勔拒賊敗績，力戰死之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-46",
+    "from": "liu-yu-houfei-song",
+    "to": "xiao-daocheng-qi",
+    "kind": "service",
+    "label": "加平南、授中领军并加左仆射",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。 本纪“齐王”为萧道成后称，绝非此朝此日授齐王。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "加中領軍劉勔鎮軍將軍，加右衞將軍齊王平南將軍，前鋒南討，出屯新亭。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "齊王拒擊，大破之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p34",
+        "originalRevision": 1,
+        "originalSha256": "b11159996d5eef67cd758aa85154512806101eed19272a877bdedb69fc3fdfcb",
+        "excerpt": "六月庚子，以平南將軍齊王為中領軍、鎮軍將軍、南兗州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p59",
+        "originalRevision": 1,
+        "originalSha256": "9133d24cb092c4aed82419fd0dd5fb5ac09df8782c3f5a22aa852377524f843d",
+        "excerpt": "六月乙亥，加鎮軍將軍齊王尚書左僕射。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-48",
+    "from": "liu-yu-houfei-song",
+    "to": "zhang-jinger-song",
+    "kind": "service",
+    "label": "授雍州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p43",
+        "originalRevision": 1,
+        "originalSha256": "41771156f204519898d4ae0533c522f3b18b955c77e82b871f63367b1b5ef5e6",
+        "excerpt": "己巳，以車騎將軍張敬兒為雍州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-53",
+    "from": "liu-yu-houfei-song",
+    "to": "chen-xianda-song",
+    "kind": "service",
+    "label": "授广州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p38",
+        "originalRevision": 1,
+        "originalSha256": "59f36dbc2ff3cac7cf81b0dab4cc7bccf1583aa162a45f78134fc1ce6826243b",
+        "excerpt": "甲子，以游擊將軍陳顯達為廣州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-54",
+    "from": "liu-yu-houfei-song",
+    "to": "wang-sengqian-song",
+    "kind": "service",
+    "label": "进平南将军、授尚书右仆射",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p35",
+        "originalRevision": 1,
+        "originalSha256": "192c0f70af682fea1aececd186e5314c93501122df92f3758761178ee072caa1",
+        "excerpt": "征虜將軍、郢州刺史晉熙王燮進號安西將軍，前將軍、湘州刺史王僧虔進號平南將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p63",
+        "originalRevision": 1,
+        "originalSha256": "1209bd7509855c2b96b49bdc7606fe70e3a885ab7cdc6b0273b64abd31d98a5f",
+        "excerpt": "冬十月辛酉，以吏部尚書王僧虔為尚書右僕射。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-56",
+    "from": "liu-yu-houfei-song",
+    "to": "ren-nongfu-song",
+    "kind": "service",
+    "label": "授豫州刺史、遣北讨景素",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p34",
+        "originalRevision": 1,
+        "originalSha256": "b11159996d5eef67cd758aa85154512806101eed19272a877bdedb69fc3fdfcb",
+        "excerpt": "戊申，以淮南太守任農夫為豫州刺史，右將軍、南豫州刺史王寬進號平西將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "遣驍騎將軍任農夫、冠軍將軍黃回北討，鎮軍將軍齊王總統眾軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-57",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-yanzu-song",
+    "kind": "service",
+    "label": "授宁州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p36",
+        "originalRevision": 1,
+        "originalSha256": "91572ac3b877d44022907150e129bb64cecdefd7eb92444c3c632e6835751853",
+        "excerpt": "八月辛酉，以征虜行參軍劉延祖為寧州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-58",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-lv-anguo-yanzhou",
+    "kind": "service",
+    "label": "授兖州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p37",
+        "originalRevision": 1,
+        "originalSha256": "85b0e51f764f3b4aaa19d2e48928e2440bb355facaaadcf51cd1b92326982cf9",
+        "excerpt": "九月壬辰，以游擊將軍呂安國為兗州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-59",
+    "from": "liu-yu-houfei-song",
+    "to": "wang-yun-song-official",
+    "kind": "service",
+    "label": "授湘州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p38",
+        "originalRevision": 1,
+        "originalSha256": "59f36dbc2ff3cac7cf81b0dab4cc7bccf1583aa162a45f78134fc1ce6826243b",
+        "excerpt": "冬十月庚申，以新除侍中王蘊為湘州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-60",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-liu-huaizhen-yuzhou",
+    "kind": "service",
+    "label": "授豫州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p47",
+        "originalRevision": 1,
+        "originalSha256": "f9b6c2c3e05cfbfcebfc7e4ae5fb781229d635e23b67de395670ea135dac0cfa",
+        "excerpt": "壬戌，以給事黃門侍郎劉懷珍為豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-61",
+    "from": "liu-yu-houfei-song",
+    "to": "tuyuhun-shiyin",
+    "kind": "service",
+    "label": "进车骑大将军",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p49",
+        "originalRevision": 1,
+        "originalSha256": "038cebca471d944afb47af6b700f6c4bf06e558ad91a9ad786664df27f8d7870",
+        "excerpt": "九月丙辰，征西大將軍河南王吐谷渾拾夤進號車騎大將軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-62",
+    "from": "liu-yu-houfei-song",
+    "to": "yao-daohe-song",
+    "kind": "service",
+    "label": "授司州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p51",
+        "originalRevision": 1,
+        "originalSha256": "964200c3555f7432d3b805320be4bfe39e4e4265c4cb9317e0eb06921676ca24",
+        "excerpt": "十二月乙丑，以冠軍將軍姚道和為司州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-63",
+    "from": "liu-yu-houfei-song",
+    "to": "fan-bainian-song",
+    "kind": "service",
+    "label": "授梁南秦二州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p54",
+        "originalRevision": 1,
+        "originalSha256": "39b351595d110eb1c32863a2f295159467f7c399deb61a2e7566c7b1342089b5",
+        "excerpt": "二月壬戌，以步兵校尉范栢年為梁、南秦二州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-64",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-wang-kun-tejin",
+    "kind": "service",
+    "label": "加特进",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p54",
+        "originalRevision": 1,
+        "originalSha256": "39b351595d110eb1c32863a2f295159467f7c399deb61a2e7566c7b1342089b5",
+        "excerpt": "丁卯，加金紫光祿大夫王琨特進。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-65",
+    "from": "liu-yu-houfei-song",
+    "to": "yang-wendu-song",
+    "kind": "service",
+    "label": "授北秦州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p55",
+        "originalRevision": 1,
+        "originalSha256": "28de4b34bfee19d227a2e56beb592955c8b7f4206598b3ebe540b0e6a517d7a9",
+        "excerpt": "夏五月，以寧朔將軍武都王楊文度為北秦州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-66",
+    "from": "liu-yu-houfei-song",
+    "to": "yu-wanzhi-song",
+    "kind": "service",
+    "label": "受虞玩之奏、优诏答复",
+    "note": "虞玩之奏言与帝优诏答复分开；奏文数字、预估归于奏者，不写奏请已全部实行。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p55",
+        "originalRevision": 1,
+        "originalSha256": "28de4b34bfee19d227a2e56beb592955c8b7f4206598b3ebe540b0e6a517d7a9",
+        "excerpt": "乙未，尚書右丞虞玩之表陳時事曰：",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p57",
+        "originalRevision": 1,
+        "originalSha256": "bb10c2004451df0de3a07ad34bc90adac60641b2a822654767930638f74c8acc",
+        "excerpt": "伏願陛下留須臾之鑒，垂永代之計，發不世之詔，施必行之典。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p58",
+        "originalRevision": 1,
+        "originalSha256": "4f80ad7a252234970af6f1998e936fa0847bf099fc077d2429d10b6f8b0c1183",
+        "excerpt": "帝優詔答之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-67",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-cao-xinzhi-xuzhou",
+    "kind": "service",
+    "label": "授徐州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。 与南史另称辅国将军、谋拥景素的同名者是否同人尚待审，不先以一个自然人合并。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p58",
+        "originalRevision": 1,
+        "originalSha256": "4f80ad7a252234970af6f1998e936fa0847bf099fc077d2429d10b6f8b0c1183",
+        "excerpt": "庚戌，以驍騎將軍曹欣之為徐州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-government-68",
+    "from": "liu-yu-houfei-song",
+    "to": "huang-hui-song",
+    "kind": "service",
+    "label": "遣北讨景素",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "遣驍騎將軍任農夫、冠軍將軍黃回北討，鎮軍將軍齊王總統眾軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "黃回等至京城，與景素諸軍戰，連破之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-72",
+    "from": "liu-yu-houfei-song",
+    "to": "ruan-dianfu-song",
+    "kind": "service",
+    "label": "授南豫州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p61",
+        "originalRevision": 1,
+        "originalSha256": "a21beecca6a1660e26b4880f828963b96293ee6ec154394c8bc23668935b82ae",
+        "excerpt": "庚午，以給事黃門侍郎阮佃夫為南豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-73",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-shanming-song",
+    "kind": "service",
+    "label": "实授青冀二州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p61",
+        "originalRevision": 1,
+        "originalSha256": "a21beecca6a1660e26b4880f828963b96293ee6ec154394c8bc23668935b82ae",
+        "excerpt": "乙酉，以行青、冀二州刺史劉善明為青、冀二州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-75",
+    "from": "liu-yu-houfei-song",
+    "to": "liang-miji-dangchang",
+    "kind": "service",
+    "label": "授安西将军、河凉二州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p63",
+        "originalRevision": 1,
+        "originalSha256": "1209bd7509855c2b96b49bdc7606fe70e3a885ab7cdc6b0273b64abd31d98a5f",
+        "excerpt": "宕昌王梁彌機為安西將軍、河涼二州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-76",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-he-song",
+    "kind": "service",
+    "label": "授宁州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p65",
+        "originalRevision": 1,
+        "originalSha256": "d140a8c57de7842efcbb6405fdfbffa7d09d11f45ead3064862cf9a672d2105e",
+        "excerpt": "五年春二月壬申，以建寧太守柳和為寧州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-79",
+    "from": "liu-yu-houfei-song",
+    "to": "shen-jingde-song",
+    "kind": "service",
+    "label": "授交州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p67",
+        "originalRevision": 1,
+        "originalSha256": "0ed97f1023549483d0d36c7c13b67420992f9cd770cdb253ad06e80e0d1eab9e",
+        "excerpt": "五月己亥，以左軍將軍沈景德為交州刺史，驍騎將軍全景文為南豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-80",
+    "from": "liu-yu-houfei-song",
+    "to": "quan-jingwen-song",
+    "kind": "service",
+    "label": "授南豫州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p67",
+        "originalRevision": 1,
+        "originalSha256": "0ed97f1023549483d0d36c7c13b67420992f9cd770cdb253ad06e80e0d1eab9e",
+        "excerpt": "五月己亥，以左軍將軍沈景德為交州刺史，驍騎將軍全景文為南豫州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p89",
+        "originalRevision": 1,
+        "originalSha256": "a0947a7e28751a6431a9b1a387e1b8a3ec1ee36375261a1aca8be79475824891",
+        "excerpt": "↑ 驍騎將軍全景文為南豫州刺史「驍騎」各本並作「驃騎」，據南齊書呂安國傳全景文附傳改。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-government-81",
+    "from": "liu-yu-houfei-song",
+    "to": "sun-tanguan-song",
+    "kind": "service",
+    "label": "授越州刺史",
+    "note": "这是刘昱朝廷的授任、加号或受奏记载；所列先后行为各依具体原段，不合为同日，不据授命补写已抵任。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p67",
+        "originalRevision": 1,
+        "originalSha256": "0ed97f1023549483d0d36c7c13b67420992f9cd770cdb253ad06e80e0d1eab9e",
+        "excerpt": "[12]丙午，以屯騎校尉孫曇瓘為越州刺史。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-xiufan-conflict",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-xiufan-song",
+    "kind": "conflict",
+    "label": "休范起兵、朝廷南讨",
+    "note": "休范反后朝廷戒严、遣前锋；战斗与斩杀由将领完成，不写刘昱亲征或亲手斩休范。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "五月壬午，[3]太尉、江州刺史桂陽王休範舉兵反。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p33",
+        "originalRevision": 1,
+        "originalSha256": "7af349ec4e3fb05161ceb22fb403985c54bd55f184ffe57aa902de9cc77d117e",
+        "excerpt": "越騎校尉張敬兒斬休範。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-jingsu-conflict",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-jingsu-song",
+    "kind": "conflict",
+    "label": "景素反、遣军平定",
+    "note": "刘景素据京城反，朝廷派任农夫、黄回北讨、萧道成总军；攻克与斩杀不归刘昱亲手。 此处京城为南徐州治所京口，区别于建康京邑。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "秋七月戊子，征北將軍、南徐州刺史建平王景素據京城反。己丑，內外纂嚴。遣驍騎將軍任農夫、冠軍將軍黃回北討，鎮軍將軍齊王總統眾軍。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-xiao-removal-plot",
+    "from": "xiao-daocheng-qi",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "萧道成与敬则谋废立",
+    "note": "萧道成谋划、后来入宫与奉迎安成王，不写他亲自入帐执刀；太后令的密令自述与本纪叙事分层。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p71",
+        "originalRevision": 1,
+        "originalSha256": "06ee9f99052b5b82fd289f643fa0efbb08548e1b2308d4dad462a17d46bbcddc",
+        "excerpt": "故密令蕭領軍潛運明略，幽顯協規，普天同泰。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "齊王順天人之心，潛圖廢立，與直閤將軍王敬則謀之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "奉伯提昱首，依常行法，稱敕開承明門出，以首與敬則，馳至領軍府，以首呈齊王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "齊王既入，曉，乃奉太后令奉迎安成王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-jingze-removal-plot",
+    "from": "wang-jingze-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "谋除、联络近侍并转呈首级",
+    "note": "王敬则与萧道成商议，预先结二十五人；当夕出外，由陈奉伯交首后转呈，不是两名入帐行刺者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "齊王順天人之心，潛圖廢立，與直閤將軍王敬則謀之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "其夕，敬則出外，玉夫見昱醉熟無所知，乃與萬年同入氈幄內，以昱防身刀斬之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "奉伯提昱首，依常行法，稱敕開承明門出，以首與敬則，馳至領軍府，以首呈齊王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-failed-plot-72",
+    "from": "ruan-dianfu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "谋废立事败",
+    "note": "三人谋废立而未成。《宋书》阮佃夫、朱幼下狱死，申伯宗伏诛；《南史》总称皆伏诛，不臆补另立者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p66",
+        "originalRevision": 1,
+        "originalSha256": "edd96eab2d31e66d646ae46177c77f7ac59aa6d31b3118a319ed262a3b543e6a",
+        "excerpt": "四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，佃夫、幼下獄死，伯宗伏誅。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p88",
+        "originalRevision": 1,
+        "originalSha256": "e7eb73de67f7a0e265226cdc710c31fd1be6392bd69ecf04213afecd9cf3982b",
+        "excerpt": "五年夏四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，皆伏誅。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-failed-plot-77",
+    "from": "shen-bozong-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "谋废立事败",
+    "note": "三人谋废立而未成。《宋书》阮佃夫、朱幼下狱死，申伯宗伏诛；《南史》总称皆伏诛，不臆补另立者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p66",
+        "originalRevision": 1,
+        "originalSha256": "edd96eab2d31e66d646ae46177c77f7ac59aa6d31b3118a319ed262a3b543e6a",
+        "excerpt": "四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，佃夫、幼下獄死，伯宗伏誅。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p88",
+        "originalRevision": 1,
+        "originalSha256": "e7eb73de67f7a0e265226cdc710c31fd1be6392bd69ecf04213afecd9cf3982b",
+        "excerpt": "五年夏四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，皆伏誅。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-failed-plot-78",
+    "from": "zhu-you-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "谋废立事败",
+    "note": "三人谋废立而未成。《宋书》阮佃夫、朱幼下狱死，申伯宗伏诛；《南史》总称皆伏诛，不臆补另立者。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p66",
+        "originalRevision": 1,
+        "originalSha256": "edd96eab2d31e66d646ae46177c77f7ac59aa6d31b3118a319ed262a3b543e6a",
+        "excerpt": "四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，佃夫、幼下獄死，伯宗伏誅。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p88",
+        "originalRevision": 1,
+        "originalSha256": "e7eb73de67f7a0e265226cdc710c31fd1be6392bd69ecf04213afecd9cf3982b",
+        "excerpt": "五年夏四月甲戌，豫州刺史阮佃夫、步兵校尉申伯宗、朱幼謀廢立，皆伏誅。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-borong-boyou-execution-43",
+    "from": "liu-yu-houfei-song",
+    "to": "liu-borong-song",
+    "kind": "conflict",
+    "label": "景素之乱时被赐死",
+    "note": "原文列始安王伯融、都乡侯伯猷被赐死；不因此补出本人已参与举兵，亦不把前后封号拆成两人。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "始安王伯融、都鄉侯伯猷賜死。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-borong-boyou-execution-69",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-boyou-duxiang",
+    "kind": "conflict",
+    "label": "景素之乱时被赐死",
+    "note": "原文列始安王伯融、都乡侯伯猷被赐死，不因此补出本人已参与举兵。此处伯猷与旧江夏王伯猷自然身份同异未明，不补改封、父系或兄弟关系。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p60",
+        "originalRevision": 1,
+        "originalSha256": "7d4b387418b01436d3ee1b078749dd5ff5304b92d05aaaeed2f0a1f45c3fb708",
+        "excerpt": "始安王伯融、都鄉侯伯猷賜死。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-gaodaoqing-execution",
+    "from": "liu-yu-houfei-song",
+    "to": "gao-daoqing-song",
+    "kind": "conflict",
+    "label": "因罪被赐死",
+    "note": "本纪未列具体罪名，不补为亲手杀害。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p62",
+        "originalRevision": 1,
+        "originalSha256": "c1dd243ee22ad645c039a912b9a8cbb3eb92ee8cb70732f3e5309a6c848346c6",
+        "excerpt": "戊子，驍騎將軍高道慶有罪，賜死。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-four-victims-82",
+    "from": "liu-yu-houfei-song",
+    "to": "shen-bo-song",
+    "kind": "conflict",
+    "label": "元徽末被诛与亲自施暴记载",
+    "note": "六月甲戌名单列本人被诛；太后令称四人无罪，判断归属令书。回述具体暴行另依各段，不凭段内出现者补成同日第五名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p68",
+        "originalRevision": 1,
+        "originalSha256": "fc2d2385aad41ad9b41bab36e42b4309690352125b1be3660710eaefec0f0190",
+        "excerpt": "六月甲戌，誅司徒左長史沈勃、散騎常侍杜幼文、游擊將軍孫超之、長水校尉杜叔文，大赦天下。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p70",
+        "originalRevision": 1,
+        "originalSha256": "158d9f6e78658f2dc969a551255a52d6ea1c849d09c0b46a11044a4f5c20a6db",
+        "excerpt": "沈勃儒士，孫超功臣，幼文兄弟，並豫勳効，四人無罪，一朝同戮。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "杜延載、沈勃、杜幼文、孫超，皆躬運矛鋋，手自臠割。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-four-victims-83",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-du-youwen-victim",
+    "kind": "conflict",
+    "label": "元徽末被诛与亲自施暴记载",
+    "note": "六月甲戌名单列本人被诛；太后令称四人无罪，判断归属令书。回述具体暴行另依各段，不凭段内出现者补成同日第五名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p68",
+        "originalRevision": 1,
+        "originalSha256": "fc2d2385aad41ad9b41bab36e42b4309690352125b1be3660710eaefec0f0190",
+        "excerpt": "六月甲戌，誅司徒左長史沈勃、散騎常侍杜幼文、游擊將軍孫超之、長水校尉杜叔文，大赦天下。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p70",
+        "originalRevision": 1,
+        "originalSha256": "158d9f6e78658f2dc969a551255a52d6ea1c849d09c0b46a11044a4f5c20a6db",
+        "excerpt": "沈勃儒士，孫超功臣，幼文兄弟，並豫勳効，四人無罪，一朝同戮。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "杜延載、沈勃、杜幼文、孫超，皆躬運矛鋋，手自臠割。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "執幼文兄叔文於玄武湖北，昱馳馬執矟，自往刺之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-four-victims-84",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-sun-chaozhi-victim",
+    "kind": "conflict",
+    "label": "元徽末被诛与亲自施暴记载",
+    "note": "六月甲戌名单列本人被诛；太后令称四人无罪，判断归属令书。回述具体暴行另依各段，不凭段内出现者补成同日第五名。 仅确认本案孙超之、孙超的具体同案桥；与旧广州刺史孙超之自然身份未定，最终节点必须来源限定。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p68",
+        "originalRevision": 1,
+        "originalSha256": "fc2d2385aad41ad9b41bab36e42b4309690352125b1be3660710eaefec0f0190",
+        "excerpt": "六月甲戌，誅司徒左長史沈勃、散騎常侍杜幼文、游擊將軍孫超之、長水校尉杜叔文，大赦天下。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p70",
+        "originalRevision": 1,
+        "originalSha256": "158d9f6e78658f2dc969a551255a52d6ea1c849d09c0b46a11044a4f5c20a6db",
+        "excerpt": "沈勃儒士，孫超功臣，幼文兄弟，並豫勳効，四人無罪，一朝同戮。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "杜延載、沈勃、杜幼文、孫超，皆躬運矛鋋，手自臠割。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-four-victims-85",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-du-shuwen-victim",
+    "kind": "conflict",
+    "label": "元徽末被诛与亲自施暴记载",
+    "note": "六月甲戌名单列本人被诛；太后令称四人无罪，判断归属令书。回述具体暴行另依各段，不凭段内出现者补成同日第五名。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p68",
+        "originalRevision": 1,
+        "originalSha256": "fc2d2385aad41ad9b41bab36e42b4309690352125b1be3660710eaefec0f0190",
+        "excerpt": "六月甲戌，誅司徒左長史沈勃、散騎常侍杜幼文、游擊將軍孫超之、長水校尉杜叔文，大赦天下。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p70",
+        "originalRevision": 1,
+        "originalSha256": "158d9f6e78658f2dc969a551255a52d6ea1c849d09c0b46a11044a4f5c20a6db",
+        "excerpt": "沈勃儒士，孫超功臣，幼文兄弟，並豫勳効，四人無罪，一朝同戮。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "執幼文兄叔文於玄武湖北，昱馳馬執矟，自往刺之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-du-yanzai-victim",
+    "from": "liu-yu-houfei-song",
+    "to": "du-yanzai-song",
+    "kind": "conflict",
+    "label": "回述亲自杀杜延载",
+    "note": "只据亲为的回述；杜延载不在六月甲戌四人名单，不补确日。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "杜延載、沈勃、杜幼文、孫超，皆躬運矛鋋，手自臠割。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-zhang-yang-victim",
+    "from": "liu-yu-houfei-song",
+    "to": "zhang-yang-song",
+    "kind": "conflict",
+    "label": "在承明门用车轹杀",
+    "note": "阮佃夫败后，张羊逃走、被获、遭刘昱车轹，未把阮佃夫败日写作捕获或杀害日。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "阮佃夫腹心人張羊為佃夫所委信。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "佃夫敗，叛走，後捕得，昱自於承明門以車轢殺之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-unnamed-attendant-victim",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-frowning-attendant",
+    "kind": "conflict",
+    "label": "刺伤敛眉近侍（失名）",
+    "note": "同段未名受害角色，不能与已知近侍拼成同一自然人。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "嘗以鐵椎椎人陰破，左右人見之有斂眉者，昱大怒，令此人袒胛正立，以矛刺胛洞過。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-shengzhi-companion",
+    "from": "liu-yu-houfei-song",
+    "to": "jie-sengzhi-song",
+    "kind": "service",
+    "label": "与近侍解僧智驰逐出游",
+    "note": "明确同行近侍，不把解僧智合为合谋名单中的罗僧智，也不据同行说他参与行刺。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "與左右人解僧智、張五兒恒相馳逐，夜出，開承明門，夕去晨反，晨出暮歸。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-wuer-companion",
+    "from": "liu-yu-houfei-song",
+    "to": "zhang-wuer-song",
+    "kind": "service",
+    "label": "与近侍张五儿出游",
+    "note": "同行、夜开门与北湖马事另按两书记；不合张石留或其他同姓近侍。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "與左右人解僧智、張五兒恒相馳逐，夜出，開承明門，夕去晨反，晨出暮歸。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p92",
+        "originalRevision": 1,
+        "originalSha256": "eb1d070df197cdde6aea3d7bd0c447aece6ccd5a8639a315f566eb6896b33644",
+        "excerpt": "四年，無日不出，與左右解僧智、張五兒恒夜出開承明門，夕去晨反，晨出暮歸，從者並執鋌矛，行人男女及犬馬牛驢逢無免者。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p92",
+        "originalRevision": 1,
+        "originalSha256": "eb1d070df197cdde6aea3d7bd0c447aece6ccd5a8639a315f566eb6896b33644",
+        "excerpt": "七月戊子，帝微行出北湖，單馬先走，羽儀不及，左右張五兒馬墜湖，帝怒，自馳騎刺馬，屠割之。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-woman-outing",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-wing-carriage-woman",
+    "kind": "service",
+    "label": "私通同游的来源联系（失名）",
+    "note": "这是私通与同游的来源记载，不作册后、纳妃或法定婚配；自然身份是否为其他宫人未定。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "與右衞翼輦營女子私通，每從之遊，持數千錢，供酒肉之費。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-tandu-drinking",
+    "from": "liu-yu-houfei-song",
+    "to": "tandu-song",
+    "kind": "service",
+    "label": "往新安寺就昙度饮酒",
+    "note": "只有寺中往来饮酒事实，不能据同晚共处作谋杀同党。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "七月七日，昱乘露車，從二百許人，無復鹵簿羽儀，往青園尼寺，晚至新安寺就曇度道人飲酒。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-107",
+    "from": "yang-yufu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "与另一人入帐行杀",
+    "note": "杨玉夫与杨万年同入帐，以刘昱防身刀杀之；与其他仅列合谋者区分。 《南史》另记杨玉夫先受宠、后被憎，刘昱曾威胁次日取其肝肺；威胁与其后杨、万年杀帝为相反施事，不把威胁写成已杀杨玉夫。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "其夕，敬則出外，玉夫見昱醉熟無所知，乃與萬年同入氈幄內，以昱防身刀斬之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p92",
+        "originalRevision": 1,
+        "originalSha256": "eb1d070df197cdde6aea3d7bd0c447aece6ccd5a8639a315f566eb6896b33644",
+        "excerpt": "楊玉夫常得意，忽然見憎，遇輒切齒，曰：「明日當殺小子，取肝肺。」",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-108",
+    "from": "yang-wannian-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "与另一人入帐行杀",
+    "note": "杨玉夫与杨万年同入帐，以刘昱防身刀杀之；与其他仅列合谋者区分。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "其夕，敬則出外，玉夫見昱醉熟無所知，乃與萬年同入氈幄內，以昱防身刀斬之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-109",
+    "from": "lv-xinzhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-110",
+    "from": "tang-chengzhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-111",
+    "from": "chen-fengbo-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "参与密谋、提首交王敬则",
+    "note": "陈奉伯提首出承明门交王敬则；王敬则转呈萧道成是下一环节，不能移给陈奉伯。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "奉伯提昱首，依常行法，稱敕開承明門出，以首與敬則，馳至領軍府，以首呈齊王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-112",
+    "from": "zhang-shiliu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-113",
+    "from": "luo-sengzhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-114",
+    "from": "zhong-qianzai-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-115",
+    "from": "yan-daofu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-116",
+    "from": "lei-daoci-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-117",
+    "from": "dai-zhaozu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-118",
+    "from": "xu-qi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-119",
+    "from": "qi-yuanbao-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-120",
+    "from": "sheng-daotai-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-121",
+    "from": "zhong-qianqiu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-122",
+    "from": "wang-tianbao-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-123",
+    "from": "gongshang-yansun-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-124",
+    "from": "yu-cheng-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-125",
+    "from": "qian-daobao-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-126",
+    "from": "ma-jingzhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-127",
+    "from": "chen-baozhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-128",
+    "from": "wu-quzhi-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-129",
+    "from": "liu-yinlu-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-130",
+    "from": "tang-tianbao-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-conspirator-131",
+    "from": "yu-sun-song",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "近侍合谋取昱",
+    "note": "王敬则所联络的二十五名近侍之一，参与谋取刘昱；名单本身不证明每人都入帐、执刀或提首。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-restore-xie",
+    "from": "liu-yu-houfei-song",
+    "to": "song-liu-chang-taifei-xie",
+    "kind": "service",
+    "label": "复谢氏为晋熙国太妃",
+    "note": "南史记元徽元年之明年复刘昶生母谢氏为晋熙国太妃；与明帝子谱谢修仪来源角色分开，不据姓氏强合，也不无据断为不同自然人；未载月日不补确日。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p64",
+        "originalRevision": 1,
+        "originalSha256": "9145d31cfff35f3d23e5e4b62d8ea0a47e2696c3cae684f35cd8d3ad08dd3a42",
+        "excerpt": "明年，復昶所生謝氏為晉熙國太妃。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-return-xiuyou-sons",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-xiuyou-sons",
+    "kind": "service",
+    "label": "准休佑诸子还都（群体）",
+    "note": "元徽元年听还指本传前文被徙晋平的休佑诸子；只作集体来源角色，不能增加十三个未名完整人物。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p78",
+        "originalRevision": 1,
+        "originalSha256": "15347f192eca4dc293a7df50bd6043e7efefc5b89a2ad9673f73babf5919ad1d",
+        "excerpt": "廢帝元徽元年，聽諸子還都。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-murdered-xiaowu-sons",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-xiaowu-remaining-sons",
+    "kind": "conflict",
+    "label": "南史概称杀孝武余子（群体）",
+    "note": "这是南史本纪概述：孝武二十八子、明帝杀十六、其余为后废帝所杀。不按余数列具体名单、确日；个别传所记结局仍须分源保留。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v003",
+        "paragraphId": "nanshi-v003-p92",
+        "originalRevision": 1,
+        "originalSha256": "eb1d070df197cdde6aea3d7bd0c447aece6ccd5a8639a315f566eb6896b33644",
+        "excerpt": "孝武帝二十八子，明帝殺其十六，餘皆帝殺之。",
+        "title": "《南史》卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-unnamed-relief-general",
+    "from": "liu-yu-houfei-song",
+    "to": "song-source-houfei-relief-general",
+    "kind": "service",
+    "label": "遣殿中将军赈慰寿阳（失名）",
+    "note": "特定派遣职务的来源角色，不由同官号合任一实名人物。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p21",
+        "originalRevision": 1,
+        "originalSha256": "a8e10202be1a1b5afd2e22a2d63006e8628fa98f9c69e8b68593b459c35d76de",
+        "excerpt": "壽陽大水，己未，遣殿中將軍賑卹慰勞。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-mingdi-instructs-chen",
+    "from": "liu-yu-xiangdong-song",
+    "to": "song-liu-yu-xiangdong-consort-chen-yu",
+    "kind": "service",
+    "label": "令其严训刘昱",
+    "note": "东宫主帅禀告之后，明帝命刘昱生母严加捶训；敕命对象为生母，不据命令补出每次实际施打。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "主帥以白太宗，上輒敕昱所生，嚴加捶訓。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-du-brothers",
+    "from": "song-source-houfei-du-shuwen-victim",
+    "to": "song-source-houfei-du-youwen-victim",
+    "kind": "kinship",
+    "label": "兄弟（叔文为兄）",
+    "note": "原文明确幼文兄叔文，不按姓名中叔幼自行推排行。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "執幼文兄叔文於玄武湖北，昱馳馬執矟，自往刺之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-ruan-zhangyang",
+    "from": "ruan-dianfu-song",
+    "to": "zhang-yang-song",
+    "kind": "service",
+    "label": "阮佃夫腹心张羊",
+    "note": "原文明确张羊为阮所委信，不能将其逃捕车轹移给阮佃夫。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "阮佃夫腹心人張羊為佃夫所委信。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-xiao-jingze-plan",
+    "from": "xiao-daocheng-qi",
+    "to": "wang-jingze-song",
+    "kind": "service",
+    "label": "共同谋废立",
+    "note": "明确二人商议，并非仅同段同朝出现；两人角色与帐内行杀者分别。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "齊王順天人之心，潛圖廢立，與直閤將軍王敬則謀之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "其夕，敬則出外，玉夫見昱醉熟無所知，乃與萬年同入氈幄內，以昱防身刀斬之。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "奉伯提昱首，依常行法，稱敕開承明門出，以首與敬則，馳至領軍府，以首呈齊王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-jingze-fengbo-handoff",
+    "from": "chen-fengbo-song",
+    "to": "wang-jingze-song",
+    "kind": "service",
+    "label": "陈奉伯提首交敬则",
+    "note": "陈奉伯出门交首，之后王敬则驰往领军府转呈；不把后半行动主语仍认陈奉伯。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "王敬則先結昱左右楊玉夫、楊萬年、呂欣之、湯成之、陳奉伯、張石留、羅僧智、鍾千載、嚴道福、雷道賜、戴昭祖、許啟、戚元寶、盛道泰、鍾千秋、王天寶、公上延孫、俞成、錢道寶、馬敬之、陳寶直、吳璩之、劉印魯、唐天寶、俞孫等二十五人，謀共取昱。",
+        "title": "《宋书》卷 9 · 后废帝"
+      },
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p74",
+        "originalRevision": 1,
+        "originalSha256": "2a8847040a45f0794b5400df6585981e9d036135c8e57adbeaff5d4a9831fe61",
+        "excerpt": "奉伯提昱首，依常行法，稱敕開承明門出，以首與敬則，馳至領軍府，以首呈齊王。",
+        "title": "《宋书》卷 9 · 后废帝"
+      }
+    ]
+  },
+  {
+    "id": "liu-yu-houfei-song-cao-xinzhi-plot-source-role",
+    "from": "song-source-houfei-cao-xinzhi-plot",
+    "to": "liu-yu-houfei-song",
+    "kind": "conflict",
+    "label": "拟趁出游拥景素（来源角色）",
+    "note": "南史记辅国将军曹欣之等计划聚众起事、成功后奉景素，景素每加禁止，未写已实行。与宋书任徐州的同名者同异未定，不认定为两个不同自然人。",
+    "sources": [
+      {
+        "chapterId": "nanshi-v014",
+        "paragraphId": "nanshi-v014-p54",
+        "originalRevision": 1,
+        "originalSha256": "8d6d049f5cc536880b6818b5f9bb2b1b38ee62ba81328338936c2c303092b767",
+        "excerpt": "時廢帝單馬獨出，遊走郊野。輔國將軍曹欣之等謀候廢帝出行，因聚眾作難，事克，奉景素。景素每禁之，未欲匆匆舉動。",
+        "title": "《南史》卷 14 · 宋宗室及诸王下"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "liu-yu-houfei-song-chen-outing-restraint",
+    "from": "song-liu-yu-xiangdong-consort-chen-yu",
+    "to": "liu-yu-houfei-song",
+    "kind": "service",
+    "label": "随车检摄、约束出游",
+    "note": "太妃乘青篾车随行检摄，后来不能禁止刘昱放纵出游；与母子及尊封为不同实际往来。不将前述明帝敕令等同于已记每次实际施打。",
+    "sources": [
+      {
+        "chapterId": "songshu-v009",
+        "paragraphId": "songshu-v009-p73",
+        "originalRevision": 1,
+        "originalSha256": "b2fd47814ffc74b6f2a5116daa3ee27a73313a0cc115ddebbfed6cfed8eee503",
+        "excerpt": "三年秋冬間，便好出遊行，太妃每乘青篾車，隨相檢攝。昱漸自放恣，太妃不復能禁。",
+        "title": "《宋书》卷 9 · 后废帝"
       }
     ]
   }

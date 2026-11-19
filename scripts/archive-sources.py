@@ -864,6 +864,13 @@ SOURCE_HEADER_REGISTRATIONS = {
         'policy': {'headerTitle': '宋書卷八', 'headerSerial': '本紀第八',
                    'headerAuthor': '作者：沈約　南梁', 'headerSubject': '明帝'},
     },
+    'songshu-v009': {
+        'id': 'songshu-v009', 'bookId': 'songshu', 'volume': 9, 'title': '卷 9 · 后废帝',
+        'page': '宋書/卷9', 'fixedRevisionId': 2291130, 'pageid': 18387,
+        'htmlSha256': '1d4783ea94bd349dfc15fa4e1f94912fe71aca6bdaebab8fe4a1a4390dc910ce',
+        'policy': {'headerTitle': '宋書卷九', 'headerSerial': '本紀第九',
+                   'headerAuthor': '作者：沈約　南梁', 'headerSubject': '後廢帝'},
+    },
     'nanshi-v003': {
         'id': 'nanshi-v003', 'bookId': 'nanshi', 'volume': 3,
         'title': '卷 3 · 宋本纪下第三（明帝、后废帝、顺帝）',
@@ -876,6 +883,7 @@ SOURCE_HEADER_REGISTRATIONS = {
 SOURCE_HEADER_NAVIGATION = {
     'songshu-v007': ['←', '本紀第六', '本紀第八', '→'],
     'songshu-v008': ['←', '本紀第七', '本紀第九', '→'],
+    'songshu-v009': ['←', '本紀第八', '本紀第十', '→'],
 }
 
 

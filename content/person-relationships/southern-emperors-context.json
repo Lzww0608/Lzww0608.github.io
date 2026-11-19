@@ -2575,16 +2575,6 @@
     "note": "泰始即位后立王氏为皇后；未补本名，不与孝武文穆王后或其他王氏同人。"
   },
   {
-    "id": "liu-yu-houfei-song",
-    "name": "刘昱（宋后废帝）",
-    "aliases": [
-      "劉昱（宋後廢帝）"
-    ],
-    "external": true,
-    "group": "刘宋相关",
-    "note": "《南史》记后废帝名昱，字德融，明帝长子；与刘彧、刘裕分开。"
-  },
-  {
     "id": "liu-zhun-song",
     "name": "刘准（宋顺帝）",
     "aliases": [
@@ -3401,5 +3391,764 @@
     "group": "刘宋相关",
     "identityKind": "source-role",
     "note": "《宋书》明帝纪记青州刺史刘祗转南兖州刺史；与另条前太子步兵校尉、歆父刘祗是否同人未明，不由姓名和官职兼容径行合并。"
+  },
+  {
+    "id": "song-source-houfei-relief-general",
+    "name": "殿中将军（寿阳赈慰记载）",
+    "aliases": [
+      "殿中將軍（壽陽賑慰記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记朝廷遣殿中将军赈慰寿阳，未载使者姓名与人数；只保此派遣职务的来源角色。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-xiaowu-remaining-sons",
+    "name": "孝武余子（南史概述）",
+    "aliases": [
+      "孝武餘子（南史概述）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》概称孝武帝二十八子中十六为明帝所杀、其余为后废帝所杀；未列逐人名单与年月，保群体说法而不按余数造具体受害者。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "yang-yufu-song",
+    "name": "杨玉夫",
+    "aliases": [
+      "楊玉夫"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》《南史》记杨玉夫与杨万年入帐杀刘昱；《南史》另记此前受刘昱死亡威胁，威胁不等于已被杀。"
+  },
+  {
+    "id": "yang-wannian-song",
+    "name": "杨万年",
+    "aliases": [
+      "楊萬年"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》《南史》记杨万年与杨玉夫同入帐杀刘昱，区别于仅列合谋名单的其他近侍。"
+  },
+  {
+    "id": "lv-xinzhi-song",
+    "name": "吕欣之",
+    "aliases": [
+      "呂欣之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "tang-chengzhi-song",
+    "name": "汤成之",
+    "aliases": [
+      "湯成之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "chen-fengbo-song",
+    "name": "陈奉伯",
+    "aliases": [
+      "陳奉伯"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记陈奉伯参加谋取刘昱，事后提首出承明门交王敬则；转呈领军府由王敬则完成。"
+  },
+  {
+    "id": "zhang-shiliu-song",
+    "name": "张石留",
+    "aliases": [
+      "張石留"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "luo-sengzhi-song",
+    "name": "罗僧智",
+    "aliases": [
+      "羅僧智"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "zhong-qianzai-song",
+    "name": "钟千载",
+    "aliases": [
+      "鍾千載"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "yan-daofu-song",
+    "name": "严道福",
+    "aliases": [
+      "嚴道福"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "lei-daoci-song",
+    "name": "雷道赐",
+    "aliases": [
+      "雷道賜"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "dai-zhaozu-song",
+    "name": "戴昭祖",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "xu-qi-song",
+    "name": "许启",
+    "aliases": [
+      "許啟"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "qi-yuanbao-song",
+    "name": "戚元宝",
+    "aliases": [
+      "戚元寶"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "sheng-daotai-song",
+    "name": "盛道泰",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "zhong-qianqiu-song",
+    "name": "钟千秋",
+    "aliases": [
+      "鍾千秋"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "wang-tianbao-song",
+    "name": "王天宝",
+    "aliases": [
+      "王天寶"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "gongshang-yansun-song",
+    "name": "公上延孙",
+    "aliases": [
+      "公上延孫"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "yu-cheng-song",
+    "name": "俞成",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "qian-daobao-song",
+    "name": "钱道宝",
+    "aliases": [
+      "錢道寶"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "ma-jingzhi-song",
+    "name": "马敬之",
+    "aliases": [
+      "馬敬之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "chen-baozhi-song",
+    "name": "陈宝直",
+    "aliases": [
+      "陳寶直"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "wu-quzhi-song",
+    "name": "吴璩之",
+    "aliases": [
+      "吳璩之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "liu-yinlu-song",
+    "name": "刘印鲁",
+    "aliases": [
+      "劉印魯"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "tang-tianbao-song",
+    "name": "唐天宝",
+    "aliases": [
+      "唐天寶"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "yu-sun-song",
+    "name": "俞孙",
+    "aliases": [
+      "俞孫"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪列为王敬则所结二十五名近侍之一，参与谋取刘昱；未单记其入帐、执刀或提首。"
+  },
+  {
+    "id": "zhang-dai-song",
+    "name": "张岱",
+    "aliases": [
+      "張岱"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记吴兴太守张岱授益州刺史。"
+  },
+  {
+    "id": "he-hui-song",
+    "name": "何恢",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记抚军长史何恢授广州刺史。"
+  },
+  {
+    "id": "li-anmin-song",
+    "name": "李安民",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记辅师将军李安民授司州刺史。"
+  },
+  {
+    "id": "gu-changkang-song",
+    "name": "顾长康（刘宋散骑常侍）",
+    "aliases": [
+      "顧長康（劉宋散騎常侍）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记散骑常侍顾长康与长水校尉何翌之表上所撰《谏林》十二卷；以本卷时代、官职限定身份。"
+  },
+  {
+    "id": "he-yizhi-song",
+    "name": "何翌之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记长水校尉何翌之与顾长康表上《谏林》。"
+  },
+  {
+    "id": "wang-jian-song-minister",
+    "name": "王俭",
+    "aliases": [
+      "王儉"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记秘书丞王俭表上所撰《七志》三十卷。"
+  },
+  {
+    "id": "liu-boyu-nanping-song",
+    "name": "刘伯玉（南平王）",
+    "aliases": [
+      "劉伯玉（南平王）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "衡阳王嶷之子，两书本纪记立为南平王；宗室传又记继南平王铄后。"
+  },
+  {
+    "id": "wang-kuan-song",
+    "name": "王宽",
+    "aliases": [
+      "王寬"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记左卫将军王宽授南豫州刺史，后进号平西将军。"
+  },
+  {
+    "id": "zhang-jinger-song",
+    "name": "张敬儿",
+    "aliases": [
+      "張敬兒"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记越骑校尉张敬儿斩休范并参平东府，后授雍州刺史；《南史》本纪同役同官作张苟儿，宗室传又作张敬儿，与黄回并叙。"
+  },
+  {
+    "id": "song-source-houfei-crown-prince-consort-unnamed",
+    "name": "太子所纳妃（刘昱纳妃记载）",
+    "aliases": [
+      "太子所納妃（劉昱納妃記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》明帝纪记皇太子纳妃而未载名。是否就是后来江皇后未明；此为婚礼对象的来源角色，不认定为第二位自然配偶。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "chen-xianda-song",
+    "name": "陈显达",
+    "aliases": [
+      "陳顯達"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记羽林监陈显达平东府叛军，后以游击将军授广州刺史。"
+  },
+  {
+    "id": "ren-nongfu-song",
+    "name": "任农夫",
+    "aliases": [
+      "任農夫"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记任农夫任豫州刺史，后为奉遣北讨景素的骁骑将军；战果属于将领，不移作刘昱亲征。"
+  },
+  {
+    "id": "liu-yanzu-song",
+    "name": "刘延祖",
+    "aliases": [
+      "劉延祖"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记征虏行参军刘延祖授宁州刺史。"
+  },
+  {
+    "id": "wang-yun-song-official",
+    "name": "王蕴",
+    "aliases": [
+      "王蘊"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记新除侍中王蕴授湘州刺史。"
+  },
+  {
+    "id": "yao-daohe-song",
+    "name": "姚道和",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记冠军将军姚道和授司州刺史。"
+  },
+  {
+    "id": "fan-bainian-song",
+    "name": "范栢年",
+    "aliases": [
+      "范柏年"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记步兵校尉范栢年授梁、南秦二州刺史；栢为此处底本文字。"
+  },
+  {
+    "id": "yang-wendu-song",
+    "name": "杨文度",
+    "aliases": [
+      "楊文度"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记宁朔将军、武都王杨文度授北秦州刺史，与其他同姓武都王分别。"
+  },
+  {
+    "id": "yu-wanzhi-song",
+    "name": "虞玩之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记尚书右丞虞玩之表论财用，皇帝优诏答复；奏文中的数字、忧虑归于奏者。"
+  },
+  {
+    "id": "song-source-houfei-cao-xinzhi-xuzhou",
+    "name": "曹欣之（元徽任徐州记载）",
+    "aliases": [
+      "曹欣之（元徽任徐州記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记骁骑将军曹欣之授徐州刺史；与《南史》谋拥景素的同名者同异未定，两个来源角色不表示两名不同自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-cao-xinzhi-plot",
+    "name": "曹欣之（谋拥景素记载）",
+    "aliases": [
+      "曹欣之（謀擁景素記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》景素传记辅国将军曹欣之等拟趁废帝出游作难、成功后奉景素，而景素每加禁止；与本纪任徐州同名者同异未定，两项来源角色不认作两名自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "huang-hui-song",
+    "name": "黄回",
+    "aliases": [
+      "黃回"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》《南史》记黄回奉遣北讨景素；宗室传另与张敬儿并叙斩休范，分别保存各书记法。"
+  },
+  {
+    "id": "gao-daoqing-song",
+    "name": "高道庆",
+    "aliases": [
+      "高道慶"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书后废帝本纪记骁骑将军高道庆因罪赐死，未列具体罪名。"
+  },
+  {
+    "id": "liang-miji-dangchang",
+    "name": "梁弥机（宕昌王）",
+    "aliases": [
+      "梁彌機（宕昌王）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记宕昌王梁弥机授安西将军、河凉二州刺史。"
+  },
+  {
+    "id": "liu-he-song",
+    "name": "柳和",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记建宁太守柳和授宁州刺史。"
+  },
+  {
+    "id": "shen-bozong-song",
+    "name": "申伯宗",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记步兵校尉申伯宗与阮佃夫、朱幼谋废立，申伏诛；《南史》概记三人皆伏诛。"
+  },
+  {
+    "id": "zhu-you-song",
+    "name": "朱幼",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记朱幼与阮佃夫、申伯宗谋废立，朱、阮下狱死；《南史》概记三人皆伏诛。"
+  },
+  {
+    "id": "shen-jingde-song",
+    "name": "沈景德",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记左军将军沈景德授交州刺史。"
+  },
+  {
+    "id": "quan-jingwen-song",
+    "name": "全景文",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记全景文授南豫州刺史，前衔骁骑将军；校记保存旧本作骠骑的差别。"
+  },
+  {
+    "id": "sun-tanguan-song",
+    "name": "孙昙瓘",
+    "aliases": [
+      "孫曇瓘"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记屯骑校尉孙昙瓘授越州刺史。"
+  },
+  {
+    "id": "shen-bo-song",
+    "name": "沈勃",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书列司徒左长史沈勃于元徽末四臣遇害名单；《南史》另叙其守丧时遭刘昱持矛杀害，太后令称其儒士而无罪。"
+  },
+  {
+    "id": "song-source-houfei-sun-chaozhi-victim",
+    "name": "孙超之／孙超（元徽末遇害记载）",
+    "aliases": [
+      "孫超之／孫超（元徽末遇害記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》元徽末四臣名单称孙超之，太后令与回述称孙超，同案的全称、短称可以对照。与明帝朝任广州刺史的孙超之自然身份未明，只保此案来源角色。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "du-yanzai-song",
+    "name": "杜延载",
+    "aliases": [
+      "杜延載"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书回述杜延载被刘昱亲自施暴杀害，未列于六月甲戌四臣名单，不因此补定同日。"
+  },
+  {
+    "id": "jie-sengzhi-song",
+    "name": "解僧智",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书记刘昱近侍解僧智与张五儿驰逐出游；与合谋名单中的罗僧智为不同记名，不合并。"
+  },
+  {
+    "id": "zhang-wuer-song",
+    "name": "张五儿",
+    "aliases": [
+      "張五兒"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书记张五儿随刘昱出游；《南史》另叙其马坠湖而马被刺杀，不作张五儿遇害。"
+  },
+  {
+    "id": "song-source-houfei-wing-carriage-woman",
+    "name": "翼辇营女子（与刘昱同游记载）",
+    "aliases": [
+      "翼輦營女子（與劉昱同遊記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书记与刘昱私通、携钱同游的右卫翼辇营女子，未载姓名；未记册后或纳妃，是否为其他宫人未明。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "zhang-yang-song",
+    "name": "张羊",
+    "aliases": [
+      "張羊"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书记张羊为阮佃夫腹心，阮败后逃走、被捕，遭刘昱于承明门车轹；捕与杀未另列月日。"
+  },
+  {
+    "id": "wang-jingze-song",
+    "name": "王敬则",
+    "aliases": [
+      "王敬則"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记王敬则与萧道成谋废立，联络二十五名近侍；当夕在外，接陈奉伯所提首级并转呈，不是入帐行杀的二人。"
+  },
+  {
+    "id": "tandu-song",
+    "name": "昙度（新安寺道人）",
+    "aliases": [
+      "曇度（新安寺道人）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书记刘昱晚至新安寺就昙度道人饮酒，未记昙度参与谋除皇帝。"
+  },
+  {
+    "id": "song-source-houfei-xiuyou-sons",
+    "name": "休佑诸子（准还都记载）",
+    "aliases": [
+      "休佑諸子（准還都記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记刘休佑诸子先被徙晋平，元徽元年获准还都；以群体记载保存，不拆出未名个人或将许可作全已返回。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-frowning-attendant",
+    "name": "敛眉近侍（刘昱施暴记载）",
+    "aliases": [
+      "斂眉近侍（劉昱施暴記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》记近侍因见酷刑敛眉，被刘昱持矛刺伤；姓名未载，不与其他近侍强合为同一自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-liu-lingyi-nanyu",
+    "name": "刘灵遗（元徽授南豫记载）",
+    "aliases": [
+      "劉靈遺（元徽授南豫記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记前淮南太守刘灵遗授南豫州刺史。与明帝纪任梁、南秦刺史的同名者自然身份同异未明，保留各处来源，不据同名补中间履历。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-consort-jiang",
+    "name": "江氏（宋后废帝皇后记载）",
+    "aliases": [
+      "江氏（宋後廢帝皇后記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书后废帝本纪记立江氏为皇后，未载本名。与刘铄妃江氏及孝武帝宫人的自然身份同异未明；不同配偶或宫职本身不能判为异人。太子纳妃未名条与此条也不强合。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-wang-xuanzai-appointments",
+    "name": "王玄载（元徽梁南秦、益州记载）",
+    "aliases": [
+      "王玄載（元徽梁南秦、益州記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪先记抚军司马王玄载授梁、南秦二州刺史，后以前述梁、南秦刺史为益州刺史，两条有职衔承接。与旧徐州、南豫州同名者自然身份同异未明，不补中间履历。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-yuan-hong-xuzhou",
+    "name": "垣闳（元徽授徐州记载）",
+    "aliases": [
+      "垣閎（元徽授徐州記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记散骑常侍垣闳授徐州刺史。与旧宁、交、司、益州任官的同名者自然身份同异未明；旧闳、阆校记不据以证明本条与旧任官者同人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-lv-anguo-yanzhou",
+    "name": "吕安国（元徽授兖州记载）",
+    "aliases": [
+      "呂安國（元徽授兗州記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记游击将军吕安国授兖州刺史。与旧义阳太守、司州刺史同名者自然身份同异未明，不凭同名或边州任官归为一人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-liu-huaizhen-yuzhou",
+    "name": "刘怀珍（元徽授豫州记载）",
+    "aliases": [
+      "劉懷珍（元徽授豫州記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记给事黄门侍郎刘怀珍授豫州刺史。与旧军主、游击将军、东徐州同名者自然身份同异未明，不补未见的任官承接。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-wang-kun-tejin",
+    "name": "王琨（元徽加特进记载）",
+    "aliases": [
+      "王琨（元徽加特進記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》后废帝纪记金紫光禄大夫王琨加特进。与旧广州、吴郡及中领军任官的同名者自然身份同异未明；不能以高级文官身份或校记引传代替本人连续履历。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-boyou-duxiang",
+    "name": "伯猷（元徽都乡侯记载）",
+    "aliases": [
+      "伯猷（元徽都鄉侯記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书后废帝本纪记都乡侯伯猷与始安王伯融被赐死。与旧休仁第二子、江夏王伯猷自然身份同异未明；本条不补姓氏、父系、兄弟关系或改封经过，也不据来源角色认定两名不同自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-du-youwen-victim",
+    "name": "杜幼文（元徽末遇害记载）",
+    "aliases": [
+      "杜幼文（元徽末遇害記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书后废帝本纪记散骑常侍杜幼文被诛及遭亲自施暴，明言本案杜叔文为其兄。与旧梁、南秦任官及征北谘议同名者自然身份同异未明，旧编辑说明不代替原始身份证据。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-houfei-du-shuwen-victim",
+    "name": "杜叔文（元徽末遇害记载）",
+    "aliases": [
+      "杜叔文（元徽末遇害記載）"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书后废帝本纪记长水校尉杜叔文被诛及遭亲自施暴，并明确为本案杜幼文之兄。与旧强弩将军授宁州的同名者自然身份同异未明，不补任官承接。",
+    "identityKind": "source-role"
   }
 ]
