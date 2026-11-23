@@ -16069,5 +16069,44 @@
         "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%81%E5%9C%8B%E6%98%A5%E7%A7%8B%2F%E5%8D%B7046&oldid=2438754"
       }
     ]
+  },
+  {
+    "id": "liu-zhijun-former-shu-liu-siyin-father-son",
+    "from": "liu-zhijun",
+    "to": "former-shu-liu-siyin",
+    "kind": "kinship",
+    "label": "父子",
+    "note": "本传连续叙事的其子嗣禋承刘知俊；不误作王衍之子，不补生母。",
+    "sources": [
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p16",
+        "originalRevision": 1,
+        "originalSha256": "7b82c572bc683859c6a3f6965bea400e73d06991cbf69f7532b35240570c4e64",
+        "title": "《旧五代史》 · 卷 13 · 刘知俊传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=8730587",
+        "excerpt": "偽蜀天漢元年冬十二月，建遣人捕知俊，斬於成都府之炭市。及王衍嗣偽位，以其子嗣禋尚偽峨眉長公主，拜駙馬都尉。"
+      }
+    ]
+  },
+  {
+    "id": "former-shu-liu-siyin-emei-old-source-marriage",
+    "from": "former-shu-liu-siyin",
+    "to": "former-shu-emei-princess-old-source-role",
+    "kind": "kinship",
+    "direction": "undirected",
+    "label": "婚配（旧史名号）",
+    "note": "原书明记尚主。公主端为来源限定名号，尚未确定与其他封号同异；不补自然人数、父系或改嫁。",
+    "sources": [
+      {
+        "chapterId": "old-v013",
+        "paragraphId": "old-v013-p16",
+        "originalRevision": 1,
+        "originalSha256": "7b82c572bc683859c6a3f6965bea400e73d06991cbf69f7532b35240570c4e64",
+        "title": "《旧五代史》 · 卷 13 · 刘知俊传",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2%2F%E5%8D%B713&oldid=8730587",
+        "excerpt": "及王衍嗣偽位，以其子嗣禋尚偽峨眉長公主，拜駙馬都尉。"
+      }
+    ]
   }
 ]
