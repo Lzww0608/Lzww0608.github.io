@@ -201,7 +201,7 @@ function mockTransaction(content, initial, { corruptStoredAfter = false, corrupt
       if (corruptStaticAfter) immutableValue = 'unapproved static change';
       return { rows: [], rowCount: 1 };
     }
-    if (/^(?:SET |LOCK |SAVEPOINT |RELEASE |ROLLBACK TO SAVEPOINT |SELECT pg_advisory|INSERT INTO (?:books|editions|chapters|paragraphs|paragraph_revisions)|-- Independent display index|-- Display references only)/.test(sql)) return { rows: [] };
+    if (/^(?:SET |LOCK |SAVEPOINT |RELEASE |ROLLBACK TO SAVEPOINT |SELECT pg_advisory|INSERT INTO public\.(?:books|editions|chapters|paragraphs|paragraph_revisions)\b|-- Independent display index|-- Display references only)/.test(sql)) return { rows: [] };
     throw new Error(`Unexpected mock SQL: ${sql.slice(0, 80)}`);
   } };
   return client;

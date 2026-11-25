@@ -1256,5 +1256,490 @@
         "excerpt": "天復四年，轉齊州防禦使，加檢校司空，從大軍迎駕於岐下。"
       }
     ]
+  },
+  {
+    "id": "zhu-zhen-pang-shigu-army",
+    "from": "zhu-zhen",
+    "to": "pang-shigu",
+    "kind": "service",
+    "label": "同从朱温；后接其军",
+    "note": "旧史记二人同在早年随从中，朱珍被诛后朱温任庞师古为都指挥使、接统其军。这是军职与部队承接，不是君位交接，也不表示朱珍任命庞师古。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p8",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "太祖初起兵，珍與龐師古、許唐、李暉、丁會、氏叔琮、鄧季筠、王武等八十餘人，以中涓從，摧堅陷陣，所向蕩決。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p2",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "及朱珍以罪誅，遂用師古為都指揮使。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p5",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "初，朱珍、李唐賓之歿，龐師古代珍，存代唐賓，戰伐功績，多與師古同。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p26",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "是時，朱珍、李唐賓已死，師古與霍存分將其兵。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "zhu-zhen-huo-cun-service",
+    "from": "zhu-zhen",
+    "to": "huo-cun",
+    "kind": "service",
+    "label": "随朱珍作战",
+    "note": "霍存辅佐朱珍取滑、攻淄、取博昌，并参与擒石璠、破魏、败徐；只登记这些明确记载的作战关系。",
+    "sources": [
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p4",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "尋佐朱珍取滑台，攻淄州，取博昌，皆預戰立功。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p4",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "復佐朱珍擒石璠，破魏師，敗徐戎。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p38",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "從朱珍掠淄青、龐師古攻時溥，皆有功。"
+      }
+    ]
+  },
+  {
+    "id": "huo-cun-zhu-zhen-plea",
+    "from": "huo-cun",
+    "to": "zhu-zhen",
+    "kind": "service",
+    "label": "为朱珍求情",
+    "note": "霍存等叩头请求救朱珍，求情未使朱珍获免。旧史数十人与新史十余人分源；掷床未记击中或砸死人。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p11",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "都將霍存等數十人叩頭以救，太祖怒，以坐床擲之，乃退。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p23",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "諸將霍存等十餘人叩頭救珍，太祖大怒，舉胡牀擲之曰：「方珍殺唐賓時，獨不救之邪！」存等退，珍遂縊死。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-liu-han-recruitment",
+    "from": "zhu-zhen",
+    "to": "liu-han",
+    "kind": "service",
+    "label": "共同淄青募兵",
+    "note": "朱温命刘捍监其兵，新史记刘捍从朱珍募兵；仅据这次任务，不推定终身直属。刘捍传的中和四年夏、三万兵，与本纪的年次、数量分别保留。",
+    "sources": [
+      {
+        "chapterId": "old-v020",
+        "paragraphId": "old-v020-p6",
+        "title": "旧五代史 · 卷 20 · 梁列传",
+        "excerpt": "唐中和四年夏，太祖以朱珍為淄州刺史，令收兵於淄、青間，命捍監其兵，路逢大敵，皆破之。入博昌，獲精兵三萬以歸。四月，合大軍敗蔡賊秦宗賢數萬眾於汴西。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p49",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "太祖初鎮宣武，以為客將，使從朱珍募兵淄青。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "zhu-zhen-fan-jushi-service",
+    "from": "zhu-zhen",
+    "to": "fan-jushi",
+    "kind": "service",
+    "label": "从朱珍取滑、略澶",
+    "note": "范居实从朱珍收滑州，后来受朱珍分遣攻掠澶州。范其后的官职和独立军功不归朱珍。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p26",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "又從朱珍收滑州，改左廂都虞候。"
+      },
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p10",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "軍於內黃，敗樂從訓萬餘人，分命聶金、范居實略澶州，與魏師遇於臨黃；魏軍有豹子軍二千人，戮之無噍類，威振河朔。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p21",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "太祖遣珍救魏，珍破黎陽、臨河、李固，分遣聶金、范居實等略澶州，殺魏豹子軍二千於臨黃。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-wang-tan-service",
+    "from": "zhu-zhen",
+    "to": "wang-tan",
+    "kind": "service",
+    "label": "随朱珍募兵、攻徐",
+    "note": "王檀从朱珍东方募兵、参与孙师陂及攻徐作战。孙用和、束诩、何肱等的擒获按王檀传所记施事保存，不移给朱珍亲手。",
+    "sources": [
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p21",
+        "title": "新五代史 · 卷 23 · 梁臣传",
+        "excerpt": "從朱珍募兵東方，戰數有功。"
+      },
+      {
+        "chapterId": "new-v23",
+        "paragraphId": "new-v23-p21",
+        "title": "新五代史 · 卷 23 · 梁臣传",
+        "excerpt": "復從朱珍攻徐州，檀獲其將一人。"
+      },
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p16",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "三年，佐都指揮使朱珍敗徐戎於孫師陂，獲其將孫用和、束詡以獻。"
+      },
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p16",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "明年，佐朱珍大破時溥之眾，檀獲賊將何肱，改左踏白馬軍副將。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-zhang-guihou-service",
+    "from": "zhu-zhen",
+    "to": "zhang-guihou",
+    "kind": "service",
+    "label": "辅佐朱珍讨时溥",
+    "note": "张归厚辅佐朱珍，在丰、萧之间扎营并攻徐垒。其后龙纪冬的独立战事，不补朱珍仍在场。",
+    "sources": [
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p18",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "及佐朱珍討時溥，寨於豐、蕭之間，歸厚乘徐壘如行坦途，甚為諸將歎伏。"
+      }
+    ]
+  },
+  {
+    "id": "ding-hui-zhu-zhen-execution",
+    "from": "ding-hui",
+    "to": "zhu-zhen",
+    "kind": "conflict",
+    "label": "奉命行戮",
+    "note": "旧史记朱温令武士执朱珍、责其专杀并命丁会行戮；新史只记朱珍缢死而未点施手，不把丁会补入新史正文。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p11",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "太祖遂徑往蕭縣，距蕭一舍，珍率將校迎謁，梁祖令武士執之，責其專殺，命丁會行戮。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p23",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "因如珍軍，去蕭一舍，珍迎謁，太祖命武士執之。諸將霍存等十餘人叩頭救珍，太祖大怒，舉胡牀擲之曰：「方珍殺唐賓時，獨不救之邪！」存等退，珍遂縊死。"
+      }
+    ]
+  },
+  {
+    "id": "jing-xiang-zhu-zhen-disposition",
+    "from": "jing-xiang",
+    "to": "zhu-zhen",
+    "kind": "service",
+    "label": "参与处置；延缓呈报",
+    "note": "旧史记朱温与敬翔谋诈令收唐宾妻儿以安朱珍心；新史另记敬翔匿使、延至夜见以图缓和。未记敬翔亲手拘捕、处死朱珍，也不写他独自决定处刑。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p11",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "太祖初聞唐賓之死，驚駭，與敬翔謀，詐令有司收捕唐賓妻子下獄，以安珍心。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p23",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "使者晨至梁，敬翔恐太祖暴怒不可測，乃匿使者，至夜而見之，謂雖有所發，必須明旦，冀得少緩其事而圖之。既夕，乃引珍使者入見，太祖大驚，然已夜矣，不能有所發，翔因從容為太祖畫。明日，佯收唐賓妻子下獄。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-li-keyong-pursuit",
+    "from": "zhu-zhen",
+    "to": "li-keyong",
+    "kind": "service",
+    "label": "共同追击黄巢",
+    "note": "黄巢败后，朱珍与河东节度使李克用追至冤句而回。这是一次共同军务，不表示李克用是朱温或朱珍部将。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p9",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "及黃巢敗，珍與並帥李克用追至冤句而還。"
+      }
+    ],
+    "direction": "undirected"
+  },
+  {
+    "id": "zhu-zhen-li-keyong-shangyuan",
+    "from": "zhu-zhen",
+    "to": "li-keyong",
+    "kind": "conflict",
+    "label": "奉命夜袭上源驿",
+    "note": "新史记朱温使朱珍夜攻馆于上源驿的李克用，李克用逃脱，留馆部众被杀；不扩大为杀尽李克用所有部队。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p17",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "太祖與晉王東逐黃巢，還過汴，館之上源驛，太祖使珍夜以兵攻之，晉王亡去，珍悉殺其麾下兵。"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p9",
+        "title": "旧五代史 · 卷 1 · 梁太祖纪1",
+        "excerpt": "五月甲戌，帝與晉軍振旅歸汴，館克用于上源驛。旣而備犒宴之禮，克用乘醉任氣，帝不平之。是夜，命甲士圍而攻之。案：自「五月甲戌」至此，又見通鑑考異所引薛史梁紀，與冊府元龜所引符合。會大雨雷電，克用因得于電光中踰墻遁去，惟殺其部下數百人而已。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-shi-pu-conflict",
+    "from": "zhu-zhen",
+    "to": "shi-pu",
+    "kind": "conflict",
+    "label": "丰县、吴康等交战",
+    "note": "朱珍率军与时溥部交战，李唐宾传补其率本军相助。未把时溥后来覆亡或被斩的结果归为朱珍所为。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p10",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "珍以兵援劉讚，赴楚州，至襄山南，遇徐戎扼其路，珍乃攻豐，下之。時溥乃以全師會戰於豐南吳康里，珍乃收豐，破其三萬餘眾。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p14",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "及伐徐取豐，時溥軍於吳康，珍亟遇之，未能卻，唐賓引本軍擊敗之，珍遂大勝。"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p30",
+        "title": "旧五代史 · 卷 1 · 梁太祖纪1",
+        "excerpt": "十月，先遣朱珍領兵與時溥戰于吳康鎮，徐人大敗，連收豐、蕭二邑，溥攜散騎馳入彭門。"
+      },
+      {
+        "chapterId": "new-v01",
+        "paragraphId": "new-v01-p7",
+        "title": "新五代史 · 卷 1 · 梁本纪第一",
+        "excerpt": "初，高駢死，淮南亂，楚州刺史劉瓚來奔，納之，及王兵攻蔡不克，還，欲攻徐，乃遣朱珍將兵數千以東，聲言送瓚還楚州。溥怒論己，又聞珍以兵來，果出兵拒之。珍戰于吳康，大敗之，取其豐、蕭二縣。遂攻宿州，下之。珍屯蕭縣，別遣龐師古攻徐州。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-zhu-xuan-conflict",
+    "from": "zhu-zhen",
+    "to": "zhu-xuan",
+    "kind": "conflict",
+    "label": "曹濮及郓州交战",
+    "note": "旧史朱瑄与新史朱宣的写法，有旧本纪明确校语对应；保留各源原字。曹濮之胜与郓州瓮城败战并记。",
+    "sources": [
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p20",
+        "title": "旧五代史 · 卷 1 · 梁太祖纪1",
+        "excerpt": "帝之禦蔡寇也，鄆州朱瑄、案：歐陽史作朱宣，薛史前後皆作「瑄」，舊唐書、通鑑並同薛史。"
+      },
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p20",
+        "title": "旧五代史 · 卷 1 · 梁太祖纪1",
+        "excerpt": "乃命朱珍侵曹伐濮，以懲其姦。未幾，珍伐曹州，執刺史丘禮以獻，遂移兵圍濮州。兗、鄆之釁，自茲而始矣。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p20",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "珍從太祖攻朱宣，取曹州，執其刺史丘弘禮。又取濮州，刺史朱裕奔于鄆州。太祖乃還汴，留珍攻鄆州。珍去鄆二十里，遣精兵挑之，鄆人不出。朱裕詐為降書，陰使人召珍，約開門為內應。珍信之，夜率其兵叩鄆城門，朱裕登陴，開門內珍軍，珍軍已入甕城而垂門發，鄆人從城上磔石以投之，珍軍皆死甕城中，珍僅以身免，太祖不之責也。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-zhu-jin-conflict",
+    "from": "zhu-zhen",
+    "to": "zhu-jin-yanzhou",
+    "kind": "conflict",
+    "label": "奉命攻曹濮",
+    "note": "《十国春秋》记朱温遣朱珍攻朱瑾、取曹又攻濮，而全忠自攻郓州朱宣；与其他史书的部署叙法分别保存。复用已有兖州朱瑾节点。",
+    "sources": [
+      {
+        "chapterId": "shiguochunqiu-v008",
+        "paragraphId": "shiguochunqiu-v008-p3",
+        "title": "十国春秋 · 卷 8 · 吴列传（朱瑾、李承嗣等）",
+        "excerpt": "瑾與宣已破秦宗權於汴州，朱全忠責瑾誘宣武軍卒以歸，遣朱珍攻瑾，取曹州，又攻濮州，而全忠自攻宣于鄆。"
+      },
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p9",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "其後破盧瑭、張至及朱瑄、朱瑾之眾，平定曹、濮，未嘗不在戰中。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-shang-rang-fantai",
+    "from": "zhu-zhen",
+    "to": "shang-rang-fantai-context",
+    "kind": "conflict",
+    "label": "繁台击退其军",
+    "note": "朱珍与庞师古、齐奉国等共同击退尚让五千骑，不写朱珍亲手杀五千人，也不补尚让结局。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p9",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "始尚讓以驍騎五千人至繁臺，珍與龐師古、齊奉國等擊退之。"
+      },
+      {
+        "chapterId": "old-v021",
+        "paragraphId": "old-v021-p14",
+        "title": "旧五代史 · 卷 21 · 梁列传",
+        "excerpt": "中和四年二月，尚讓之寇繁台也，唐賓與李讜、霍存並為巢將，與太祖之軍戰於尉氏門外。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-qi-kerang-sunshipi",
+    "from": "zhu-zhen",
+    "to": "qi-kerang-zhu-zhen-context",
+    "kind": "conflict",
+    "label": "孙师陂破阻军",
+    "note": "朱珍传记齐克让设伏拦截，朱珍大破之；王檀传记同地为徐州军。交战对象分源保留，不把齐克让自动等同葛传齐克护。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p9",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "時太祖方謀齊師，乃遣珍往淄州募兵，行次任縣，東面都統齊克讓伏兵於孫師陂以邀珍，珍大破之。"
+      },
+      {
+        "chapterId": "old-v022",
+        "paragraphId": "old-v022-p16",
+        "title": "旧五代史 · 卷 22 · 梁列传",
+        "excerpt": "三年，佐都指揮使朱珍敗徐戎於孫師陂，獲其將孫用和、束詡以獻。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-shi-fan-capture",
+    "from": "zhu-zhen",
+    "to": "shi-fan-chenbo-context",
+    "kind": "conflict",
+    "label": "陈亳、斤沟擒获",
+    "note": "朱珍奉命率军截击石璠并擒献；本纪敌军万人与列传二万并列，不补石璠被斩。",
+    "sources": [
+      {
+        "chapterId": "old-v001",
+        "paragraphId": "old-v001-p26",
+        "title": "旧五代史 · 卷 1 · 梁太祖纪1",
+        "excerpt": "是月，蔡人石璠領萬眾以剽陳、亳，帝遣朱珍率精騎數千擒璠以獻。"
+      },
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p10",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "復以踏白騎士入陳、亳間，以邀蔡人，遂南至斤溝，破淮西石璠之師二萬，擄璠以獻。"
+      },
+      {
+        "chapterId": "old-v016",
+        "paragraphId": "old-v016-p3",
+        "title": "旧五代史 · 卷 16 · 梁列传",
+        "excerpt": "未幾，與朱珍擊蔡賊於陳、亳間，獲都將石璠。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-zhang-renyu-punishment",
+    "from": "zhu-zhen",
+    "to": "zhang-renyu-zhu-zhen-context",
+    "kind": "conflict",
+    "label": "斩以徇军",
+    "note": "张仁遇请求先斩后报，朱珍斩以徇军；不是张仁遇已经擅杀完成。旧史请求对象为本都将、诸将惧，新史为犯令者、军中感悦；未记朱珍本人执刀。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p9",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "進軍至牙山，都虞候張仁遇白珍曰：「軍有不齊者，當先斬本都將，後以狀聞，願許之。」珍怒其專，乃斬仁遇以徇軍，由是諸將咸懼。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p19",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "珍偏將張仁遇白珍曰：「軍中有犯令者，請先斬而後白。」珍曰：「偏將欲專殺邪？」立斬仁遇以徇軍，軍中皆感悅。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-zhen-nie-jin-order",
+    "from": "zhu-zhen",
+    "to": "nie-jin-zhu-zhen-context",
+    "kind": "service",
+    "label": "遣略澶州",
+    "note": "朱珍分遣聂金、范居实等攻掠澶州。具体命令不等于朱珍本人遍至各地；不把后接豹子军尽杀逐一写作聂金或朱珍亲手。",
+    "sources": [
+      {
+        "chapterId": "old-v019",
+        "paragraphId": "old-v019-p10",
+        "title": "旧五代史 · 卷 19 · 梁列传",
+        "excerpt": "軍於內黃，敗樂從訓萬餘人，分命聶金、范居實略澶州，與魏師遇於臨黃；魏軍有豹子軍二千人，戮之無噍類，威振河朔。"
+      },
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p21",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "太祖遣珍救魏，珍破黎陽、臨河、李固，分遣聶金、范居實等略澶州，殺魏豹子軍二千於臨黃。"
+      }
+    ]
+  },
+  {
+    "id": "zhu-yu-puzhou-zhu-zhen-ruse",
+    "from": "zhu-yu-puzhou-context",
+    "to": "zhu-zhen",
+    "kind": "conflict",
+    "label": "诈降诱入瓮城",
+    "note": "濮州刺史朱裕奔郓后诈为降书、约开门内应，朱珍中计。虚假降书不登记成实际归附；朱裕不并朱友裕。",
+    "sources": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p20",
+        "title": "新五代史 · 卷 21 · 梁臣传",
+        "excerpt": "又取濮州，刺史朱裕奔于鄆州。太祖乃還汴，留珍攻鄆州。珍去鄆二十里，遣精兵挑之，鄆人不出。朱裕詐為降書，陰使人召珍，約開門為內應。珍信之，夜率其兵叩鄆城門，朱裕登陴，開門內珍軍，珍軍已入甕城而垂門發，鄆人從城上磔石以投之，珍軍皆死甕城中，珍僅以身免，太祖不之責也。"
+      }
+    ]
   }
 ]

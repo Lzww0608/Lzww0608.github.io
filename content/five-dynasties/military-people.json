@@ -18,17 +18,20 @@
   "memberIds": [
     "niu-cunjie",
     "ge-congzhou",
-    "wang-yanzhang"
+    "wang-yanzhang",
+    "zhu-zhen"
   ],
   "memberRelations": {
     "niu-cunjie": "归梁太祖后受任小校，后来参与征战并领军镇",
     "ge-congzhou": "晚唐归朱温后领军；后梁因病致仕，居家食俸",
-    "wang-yanzhang": "早年直接事朱温，后梁历禁军、先锋与招讨军职，实际参加攻守和退军"
+    "wang-yanzhang": "早年直接事朱温，后梁历禁军、先锋与招讨军职，实际参加攻守和退军",
+    "zhu-zhen": "朱温部将，参与创立军制、选将练兵及征战"
   },
   "memberRelationshipSubjects": {
     "niu-cunjie": "朱温",
     "ge-congzhou": "朱温（晚唐任职阶段）",
-    "wang-yanzhang": "朱温及后梁朝廷（分别按在世与任职阶段）"
+    "wang-yanzhang": "朱温及后梁朝廷（分别按在世与任职阶段）",
+    "zhu-zhen": "朱温（晚唐宣武军任职阶段）"
   },
   "memberServiceEvidence": {
     "niu-cunjie": [
@@ -83,6 +86,16 @@
         "originalSha256": "4e5989fdeea04bd4f32d471f37f31e0d5528065b59affd8d8d2eb88a7ebe7573",
         "title": "资治通鉴 · 卷 272 · 后唐纪1",
         "excerpt": "梁主又命王彥章將保鑾騎士及它兵合萬人，屯兗、鄆之境，謀復鄆州，以張漢傑監其軍。"
+      }
+    ],
+    "zhu-zhen": [
+      {
+        "chapterId": "new-v21",
+        "paragraphId": "new-v21-p16",
+        "title": "新五代史·朱珍传",
+        "excerpt": "珍為將，善治軍選士，太祖初鎮宣武，珍為太祖創立軍制，選將練兵甚有法。",
+        "originalRevision": 1,
+        "originalSha256": "207055dfbfc9ea24a5c9dfeba66a41180841bb04b54188ac1bc325b821c34e31"
       }
     ]
   },
