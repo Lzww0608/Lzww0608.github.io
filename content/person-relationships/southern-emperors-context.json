@@ -2575,16 +2575,6 @@
     "note": "泰始即位后立王氏为皇后；未补本名，不与孝武文穆王后或其他王氏同人。"
   },
   {
-    "id": "liu-zhun-song",
-    "name": "刘准（宋顺帝）",
-    "aliases": [
-      "劉準（宋順帝）"
-    ],
-    "external": true,
-    "group": "刘宋相关",
-    "note": "《南史》称顺帝准为明帝第三子；《宋书》写準，记其封安成王。"
-  },
-  {
     "id": "liu-faliang-song",
     "name": "刘法良",
     "aliases": [],
@@ -4149,6 +4139,359 @@
     "external": true,
     "group": "刘宋相关",
     "note": "两书后废帝本纪记长水校尉杜叔文被诛及遭亲自施暴，并明确为本案杜幼文之兄。与旧强弩将军授宁州的同名者自然身份同异未明，不补任官承接。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "ming-qingfu-song",
+    "name": "明庆符",
+    "aliases": [
+      "明慶符"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记安西参军明庆符授青、冀二州刺史。"
+  },
+  {
+    "id": "liu-chengzhi-song",
+    "name": "刘澄之",
+    "aliases": [
+      "劉澄之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记骠骑长史刘澄之授南豫州刺史。"
+  },
+  {
+    "id": "xie-fei-song",
+    "name": "谢朏",
+    "aliases": [
+      "謝朏"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记司空长史谢朏与江斅等入直殿省、参侍文义；府职与宫省侍讲分别。"
+  },
+  {
+    "id": "jiang-xiao-song",
+    "name": "江斅",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记卫军长史江斅与谢朏等入直殿省、参侍文义。"
+  },
+  {
+    "id": "chu-xuan-song",
+    "name": "褚炫",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记中书侍郎褚炫入直殿省、参侍文义。"
+  },
+  {
+    "id": "liu-hou-wenxue-song",
+    "name": "刘候（武陵王文学）",
+    "aliases": [
+      "劉候"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》原作候，记武陵王文学刘候入直殿省；不静改侯，也不把王府文学改称皇帝私人属官。"
+  },
+  {
+    "id": "hu-xiansheng-song",
+    "name": "胡羡生",
+    "aliases": [
+      "胡羨生"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记员外散骑侍郎胡羡生行越州刺史，保代理语意。"
+  },
+  {
+    "id": "wang-guangzhi-song",
+    "name": "王广之",
+    "aliases": [
+      "王廣之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记骁骑将军王广之授徐州刺史。"
+  },
+  {
+    "id": "xiao-yi-song",
+    "name": "萧嶷",
+    "aliases": [
+      "蕭嶷"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》连续记萧嶷任领军、江州及镇西将军荆州刺史；授职不等于已抵任。"
+  },
+  {
+    "id": "song-source-zhun-lv-anguo-xiangzhou",
+    "name": "吕安国（升明授湘州记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记征虏将军吕安国授湘州刺史。与旧义阳/司州和元徽游击/兖州同名项的任官承接未明；保来源角色，不断言第二或第三自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "xiao-ze-song",
+    "name": "萧赜",
+    "aliases": [
+      "蕭賾"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》明称萧赜为齐公世子，承接前段齐王世子及后段齐国太子；不是刘准的宋皇太子。"
+  },
+  {
+    "id": "zhou-panlong-song",
+    "name": "周盘龙",
+    "aliases": [
+      "周盤龍"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记周盘龙授广州刺史，继以广州刺史转司州。"
+  },
+  {
+    "id": "wang-yanzhi-song",
+    "name": "王延之",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》连续记王延之由新除中书令授右仆射、转左仆射，再授江州刺史。"
+  },
+  {
+    "id": "liu-shilong-song",
+    "name": "柳世隆",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书顺帝段记柳世隆守郢后授尚书右仆射；与最高君主的关系只据明确朝廷授任。"
+  },
+  {
+    "id": "fu-yan-song",
+    "name": "傅琰",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记山阴令傅琰授益州刺史。"
+  },
+  {
+    "id": "liu-quan-song",
+    "name": "刘悛",
+    "aliases": [
+      "劉悛"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记辅国将军刘悛授广州刺史。"
+  },
+  {
+    "id": "yuan-chongzu-song",
+    "name": "垣崇祖",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记游击将军垣崇祖授兖州刺史。"
+  },
+  {
+    "id": "xiao-ying-song",
+    "name": "萧映",
+    "aliases": [
+      "蕭映"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》先记萧映行南兖州刺史，后记实授，代理与实授分开。"
+  },
+  {
+    "id": "zhao-chaomin-song",
+    "name": "赵超民",
+    "aliases": [
+      "趙超民"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记前新会太守赵超民授交州刺史。"
+  },
+  {
+    "id": "yang-wenhong-song",
+    "name": "杨文弘",
+    "aliases": [
+      "楊文弘"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "两书顺帝段记辅国将军杨文弘授北秦州、武都王；不因同姓同爵并入杨文度。"
+  },
+  {
+    "id": "song-source-zhun-wo-king-wu",
+    "name": "武（倭国王记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪记倭国王武遣使献物、受安东大将军，未据此补外国君主本名或世系，也不把前一年未名倭使自动归于同一主使。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "xiao-huang-song",
+    "name": "萧晃",
+    "aliases": [
+      "蕭晃"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记萧晃授豫州刺史；与同卷临澧侯刘晃分开。"
+  },
+  {
+    "id": "song-source-zhun-nanfeng-ban",
+    "name": "颁（刘琨之子、南丰县王记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪仅作故武昌太守刘琨息颁，立南丰县王；保原短名与父称，不补刘颁全名，也不与旧南丰王朗等合并。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "xiao-shunzhi-song",
+    "name": "萧顺之",
+    "aliases": [
+      "蕭順之"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记安西长史萧顺之授郢州刺史。"
+  },
+  {
+    "id": "wang-xuanmiao-song",
+    "name": "王玄邈",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记骁骑将军王玄邈授梁、南秦二州刺史，原段日序疑保留。"
+  },
+  {
+    "id": "xiao-changmao-song",
+    "name": "萧长懋",
+    "aliases": [
+      "蕭長懋"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书·顺帝纪》记新除给事黄门侍郎萧长懋授雍州刺史。"
+  },
+  {
+    "id": "song-source-zhun-liu-yanjie-shangshuling",
+    "name": "刘彦节（南史授尚书记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》顺帝段明称刘彦节任尚书令、加中军。与刘秉只见平行官职而无明确名或字桥，不补全局别名，也不认定为第二自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-chu-yanhui-central",
+    "name": "褚彦回（南史顺帝段授官记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》明记褚彦回任卫将军及中书监、司空。与褚渊的明确名或字桥未见，不能仅因同官相接合并，也不据分源断两自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "zhang-gui-song",
+    "name": "张瑰",
+    "aliases": [
+      "張瑰",
+      "張瓌"
+    ],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "宋书作张瓌、南史作张瑰，均记吴郡刘遐起事及讨斩；保同一局部事的字形，不补未名施令者。"
+  },
+  {
+    "id": "song-source-zhun-xie-empress",
+    "name": "谢氏（宋顺帝皇后记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "本纪只载立谢氏为皇后及见太庙，未具名讳或父母。与其他谢姓宫职自然同异未定，不凭所配君主不同断定为另一自然人。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-taihou-welcome-escort",
+    "name": "太后（顺帝奉迎、出宫记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记萧道成奉太后令迎安成王，后记太后率阉竖搜寻扶出顺帝。相关段落未具太后姓名，保留称号来源角色，不与顺帝生母陈昭华或其他太后身份强行合并。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-eunuch-prompt",
+    "name": "催促黄门（顺帝出宫记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记黄门催促，帝怒投刀，中其颈而殒。黄门未名，不合为杀王监人，不由或字补人数。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-monitor-killing",
+    "name": "杀王监人（南史记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记监人杀汝阴王、以疾报丧，未具姓名或人数；齐人赏邑不等于萧道成亲命杀王。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-palace-people",
+    "name": "宫人群体（顺帝同迁记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记宫人行哭、与顺帝俱迁，未名群体，不定人数或都称妃嫔，也不与其他未名角色强分自然同异。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-search-eunuchs",
+    "name": "太后所率阉竖（搜寻顺帝记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记太后亲率阉竖搜寻、扶上板舆；群体未具名或人数，与催促黄门、监人是否重合未定。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-qi-palace-guard",
+    "name": "齐兵（汝阴王宫居卫守记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》记汝阴王居丹徒宫、齐兵卫之，仅卫守来源联系，不将全体齐兵作为杀王者。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-xiufan-party",
+    "name": "休范部众（拥安成王记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《南史》先记休范已死，后记部众拥安成王据东府、传称吾子；不据此建父子或收养，不认王自愿参乱。",
+    "identityKind": "source-role"
+  },
+  {
+    "id": "song-source-zhun-qi-royal-ranks",
+    "name": "齐王子女孙（爵命群体记载）",
+    "aliases": [],
+    "external": true,
+    "group": "刘宋相关",
+    "note": "《宋书》只总记王子、王女、王孙爵命之号依旧仪，未具名人数；作为群体来源角色，不展开宗室谱系。",
     "identityKind": "source-role"
   }
 ]

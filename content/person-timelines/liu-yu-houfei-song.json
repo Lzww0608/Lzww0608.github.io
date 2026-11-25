@@ -191,7 +191,8 @@
       "sortOrder": 3,
       "sourceDate": "泰豫元年四月乙巳、己酉",
       "notes": [
-        "同条各项分别保留原书记日；本项合列相关处置，不将各日合成一天。"
+        "同条各项分别保留原书记日；本项合列相关处置，不将各日合成一天。",
+        "《顺帝纪》只概述废帝即位后安成王任扬州刺史，未另列这次任命的日；这里只旁证安成王一项，张永、刘遵考及各日仍依原本纪。"
       ],
       "evidence": [
         {
@@ -207,6 +208,13 @@
           "originalRevision": 1,
           "originalSha256": "ab70a2fe43d3e2d23943b1b316a2528fecfd9436f99f5cdd28869e8f2434e3a8",
           "excerpt": "泰豫元年"
+        },
+        {
+          "chapterId": "songshu-v010",
+          "paragraphId": "songshu-v010-p5",
+          "originalRevision": 1,
+          "originalSha256": "736784057dbc279c992516cd8e264c6591a19c965c5bb067ade6a21258942199",
+          "excerpt": "廢帝即位，為揚州刺史。"
         }
       ]
     },
@@ -1406,7 +1414,9 @@
       "phase": "rule",
       "sortOrder": 13,
       "sourceDate": "元徽二年九月丁酉",
-      "notes": [],
+      "notes": [
+        "《顺帝纪》元徽二年总叙可旁证安成王进车骑军号；同句都督扬、南豫及鼓吹只记二年，不能据此并系旧九月丁酉，也不补入本事件的事实或日期。"
+      ],
       "evidence": [
         {
           "chapterId": "songshu-v009",
@@ -1428,6 +1438,13 @@
           "originalRevision": 1,
           "originalSha256": "baba978a70adfc5f6bc51b5ed88b28b9b70aaa463390563609f4c13311cbb89a",
           "excerpt": "元徽二年"
+        },
+        {
+          "chapterId": "songshu-v010",
+          "paragraphId": "songshu-v010-p5",
+          "originalRevision": 1,
+          "originalSha256": "736784057dbc279c992516cd8e264c6591a19c965c5bb067ade6a21258942199",
+          "excerpt": "元徽二年，進號車騎將軍"
         }
       ]
     },
@@ -2190,7 +2207,9 @@
       "phase": "rule",
       "sortOrder": 10,
       "sourceDate": "元徽四年九月己丑",
-      "notes": [],
+      "notes": [
+        "《顺帝纪》四年概述仅旁证安成王骠骑、开府；本句班剑三十人仍仅记四年，不能据此套九月己丑。晋熙王燮进号依原证，不由此补证。"
+      ],
       "evidence": [
         {
           "chapterId": "songshu-v009",
@@ -2212,6 +2231,13 @@
           "originalRevision": 1,
           "originalSha256": "17dcc4166b7ba2e4ddf15ff1adfb317040c640776c78e23e2faacfcc9541a88f",
           "excerpt": "元徽四年"
+        },
+        {
+          "chapterId": "songshu-v010",
+          "paragraphId": "songshu-v010-p5",
+          "originalRevision": 1,
+          "originalSha256": "736784057dbc279c992516cd8e264c6591a19c965c5bb067ade6a21258942199",
+          "excerpt": "四年，又進號驃騎大將軍、開府儀同三司"
         }
       ]
     },
@@ -2553,7 +2579,8 @@
       "sourceDate": "元徽五年七月戊子夜；详叙接七月七日出游之夕",
       "notes": [
         "二十五人参与密谋，入帐行杀者为杨玉夫、杨万年；陈奉伯提首、王敬则转呈、萧道成入宫与奉迎安成王各为不同角色。",
-        "西历只列可核的年份；原书记日照存，未补该日的西历月日。"
+        "西历只列可核的年份；原书记日照存，未补该日的西历月日。",
+        "《顺帝纪》同记戊子夜废帝殒，未列凶手、殿名或年龄；其后奉迎与壬辰即位分别是后继者经历，不合为死亡同夜，也不据此补西历死亡确日。"
       ],
       "evidence": [
         {
@@ -2632,6 +2659,13 @@
           "originalRevision": 1,
           "originalSha256": "f8ddf2d76d0335e44b0bc2e8b8bc10b8fd2eac0b770b89f7e55699c80df8521e",
           "excerpt": "昇明元年秋七月壬辰，皇帝即位，大赦，改元徽五年為升明元年。"
+        },
+        {
+          "chapterId": "songshu-v010",
+          "paragraphId": "songshu-v010-p7",
+          "originalRevision": 1,
+          "originalSha256": "b2579bd6cdec2d92ee7db13fe904ce2059019a3fe9a51eabda76dd53e4b3ca92",
+          "excerpt": "元徽五年七月戊子夜，廢帝殞"
         }
       ]
     },
@@ -2646,7 +2680,8 @@
       "sourceDate": "元徽五年七月己丑为《宋书》首道太后令",
       "notes": [
         "令书追述密令属于太后令的自述，不给预谋另补日；安成王实际即位日期须另据本人本纪。",
-        "西历只列可核的年份；原书记日照存，未补该日的西历月日。"
+        "西历只列可核的年份；原书记日照存，未补该日的西历月日。",
+        "《顺帝纪》记废帝殒后奉迎王入朝堂、壬辰即位，只补奉迎与继位的后续衔接；未在该句具太后令或奉迎独日，不把奉迎、即位都并入旧己丑令日。下一段昇明改元属于刘准，不是刘昱施政。"
       ],
       "evidence": [
         {
@@ -2711,6 +2746,13 @@
           "originalRevision": 1,
           "originalSha256": "f8ddf2d76d0335e44b0bc2e8b8bc10b8fd2eac0b770b89f7e55699c80df8521e",
           "excerpt": "昇明元年秋七月壬辰，皇帝即位，大赦，改元徽五年為升明元年。"
+        },
+        {
+          "chapterId": "songshu-v010",
+          "paragraphId": "songshu-v010-p7",
+          "originalRevision": 1,
+          "originalSha256": "b2579bd6cdec2d92ee7db13fe904ce2059019a3fe9a51eabda76dd53e4b3ca92",
+          "excerpt": "元徽五年七月戊子夜，廢帝殞，奉迎王入居朝堂。壬辰，即皇帝位。"
         }
       ]
     },

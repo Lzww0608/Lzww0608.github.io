@@ -176,7 +176,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—9帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—9保存来源卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—10帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—10保存来源卷首题署与作者栏，不表示全书已收录。",
       "url": "https://zh.wikisource.org/wiki/宋書",
       "defaultChapter": "songshu-v001"
     },
@@ -11146,6 +11146,32 @@
       }
     },
     {
+      "id": "songshu-v010",
+      "bookId": "songshu",
+      "volume": 10,
+      "position": 10,
+      "title": "卷 10 · 顺帝",
+      "subjects": [
+        "liu-zhun-song",
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
+      ],
+      "scope": "full",
+      "paragraphCount": 42,
+      "characterCount": 3884,
+      "provenance": {
+        "pageTitle": "宋書/卷10",
+        "sourceUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B710&oldid=2312005",
+        "revisionId": 2312005,
+        "fetchedAt": "2026-11-19T05:59:57.096145+00:00",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "contributorsUrl": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B710&action=history",
+        "sourceSha256": "9863c07cdf37aa89a530df64f34cd37f65da1ac1312aa47b7ec4d1d6448b6342",
+        "chapterSha256": "e5e290d17d8012bb1bb95014cc4e76636820b41bc9a1ddb9cd5841cde800a3c7"
+      }
+    },
+    {
       "id": "songshu-v099",
       "bookId": "songshu",
       "volume": 99,
@@ -11184,7 +11210,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "scope": "full",
       "paragraphCount": 142,
@@ -11448,7 +11475,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "scope": "full",
       "paragraphCount": 140,
@@ -11477,7 +11505,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "scope": "full",
       "paragraphCount": 116,
@@ -11502,7 +11531,8 @@
       "position": 9,
       "title": "卷 9 · 后废帝",
       "subjects": [
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "scope": "full",
       "paragraphCount": 89,

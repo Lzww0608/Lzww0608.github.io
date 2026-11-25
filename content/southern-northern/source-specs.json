@@ -8,7 +8,7 @@
       "author": "南朝梁 · 沈约撰",
       "kind": "正史 · 纪传体",
       "image": "",
-      "description": "现收卷1—9帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—9保存来源卷首题署与作者栏，不表示全书已收录。",
+      "description": "现收卷1—10帝纪及卷99二凶的完整正文、夹注和校勘记；卷7—10保存来源卷首题署与作者栏，不表示全书已收录。",
       "defaultChapter": "songshu-v001"
     },
     {
@@ -150,6 +150,29 @@
       "minimumBlocks": 294
     },
     {
+      "id": "songshu-v010",
+      "bookId": "songshu",
+      "volume": 10,
+      "position": 10,
+      "title": "卷 10 · 顺帝",
+      "page": "宋書/卷10",
+      "subjects": [
+        "liu-zhun-song",
+        "liu-yu-xiangdong-song",
+        "liu-yu-houfei-song"
+      ],
+      "fixedRevisionId": 2312005,
+      "sourceLocalSubjectsOnly": true,
+      "minimumCharacters": 3884,
+      "minimumBlocks": 42,
+      "sourceHeader": {
+        "headerTitle": "宋書卷十",
+        "headerSerial": "本紀第十",
+        "headerAuthor": "作者：沈約　南梁",
+        "headerSubject": "順帝"
+      }
+    },
+    {
       "id": "songshu-v099",
       "bookId": "songshu",
       "volume": 99,
@@ -180,7 +203,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "fixedRevisionId": 2577537,
       "sourceLocalSubjectsOnly": true,
@@ -247,7 +271,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "fixedRevisionId": 2309997,
       "sourceLocalSubjectsOnly": true,
@@ -272,7 +297,8 @@
         "liu-jun-song",
         "liu-ziye-song",
         "liu-yu-xiangdong-song",
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "fixedRevisionId": 1561241,
       "sourceLocalSubjectsOnly": true,
@@ -292,7 +318,8 @@
       "title": "卷 9 · 后废帝",
       "page": "宋書/卷9",
       "subjects": [
-        "liu-yu-houfei-song"
+        "liu-yu-houfei-song",
+        "liu-zhun-song"
       ],
       "fixedRevisionId": 2291130,
       "sourceLocalSubjectsOnly": true,
